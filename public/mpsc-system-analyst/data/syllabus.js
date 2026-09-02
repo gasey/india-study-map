@@ -1171,6 +1171,41 @@ window.SYLLABUS = {
           ]
         }
       ]
+    },
+    {
+      "id": "OFFSYL",
+      "name": "Off-syllabus prep material (not examined)",
+      "marks": 0,
+      "questions": 0,
+      "marks_per_question": 0,
+      "duration_hours": 1,
+      "type": "Objective (MCQ)",
+      "counts_for_merit": false,
+      "legacy": true,
+      "card_note": "Not on any MPSC syllabus for this post — imported prep material, kept only so it stays practiceable. Does not count toward the current exam.",
+      "authority": "No syllabus authority. These arrived inside an imported 'MPSC CSE Paper I' prep bank but test material that appears in NO unit of the 2026 System Analyst syllabus (TECH1/TECH2/TECH3), and none of the superseded Informatics Officer syllabus (TECH1_LEGACY) either. Parked here rather than forced into a wrong unit — see DEVLOG 2026-09-04.",
+      "units": [
+        {
+          "no": "1",
+          "title": "Computer Graphics",
+          "marks": 0,
+          "subtopics": [
+            "Raster scan and the frame buffer",
+            "Scan conversion and rasterization",
+            "Geometric primitives and conic sections"
+          ]
+        },
+        {
+          "no": "2",
+          "title": "Object-Oriented Programming (language level)",
+          "marks": 0,
+          "subtopics": [
+            "Inheritance and its forms",
+            "The this pointer and open recursion",
+            "Operator overloading"
+          ]
+        }
+      ]
     }
   ],
   "interview": {

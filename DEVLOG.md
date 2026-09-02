@@ -9,6 +9,368 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-04 — The 41 mis-tagged questions fixed in the bank, and what checking their homes turned up
+
+**What shipped.** `tools/system-analyst-build/retag_tech1_cse.py` +
+`staged/tech1-cse-retag.json` — an idempotent, dry-run-by-default retag of the
+41 `TECH1_CSE_*` questions that were filed into Technical Paper I Unit 1
+(Discrete Mathematics) or Unit 3 (Data Structures and Algorithms) while actually
+asking about DBMS/SQL, networking, OS, computer graphics and OOP. This closes
+the item the 2026-09-03 entry left open: they are now fixed **in the bank**, not
+just excluded per-consumer.
+
+**Why the bank and not just the guide.** `build_study_guide.py` already skipped
+them via `clusters.py: MISFILED`, but that only ever fixed one reader. The
+trainer's unit filters, the Practice dropdown and every generated mock still
+mis-filed them, because the tag itself was wrong. Root cause is one line in
+`import_2026_tech1.py`: its regex `classify()` returns `(unit, unit_title)`, so
+`sub` for units 1/2/3 is the **unit title**, not a syllabus leaf. A tag that
+merely restates the unit carries no information, so every by-topic consumer has
+to fall back on question text — and DBMS questions are full of *relation*,
+networking of *set of rules*, conics of *set of points*. All three route into
+"Sets, Relations and Functions". (182 of that block's 217 questions still carry
+a non-leaf `sub`; only the 41 are fixed here.)
+
+**Where they went — the syllabus does not have room for most of them.**
+
+| | n | home |
+|---|---|---|
+| OS (fence register, paging, wait-for graph) | 3 | TECH1 Unit 4 |
+| Magnetic-disk geometry | 1 | TECH1 Unit 2 |
+| DBMS/SQL | 25 | **TECH1_LEGACY** Unit 5 |
+| Networking | 5 | **TECH1_LEGACY** Unit 1 |
+| Computer graphics + language-level OOP | 7 | **OFFSYL** (new) |
+
+The working assumption going in was that DBMS and networking might belong to
+Technical Paper II or III. They do not: TECH2 is E-Governance and TECH3 is
+Project Management/Aptitude, and neither mentions either subject. The only
+accurate home is `TECH1_LEGACY` units 5 and 1 — which is `counts_for_merit:
+false`, so **this deliberately demotes 30 questions out of merit mocks, the
+dashboard and Weakest-units** (TECH1's merit pool 943 → 906). That is the honest
+outcome — DBMS and networking are not on the paper being sat — but it is a real
+change to what the trainer drills, so the script prints it as a separate line on
+every run rather than burying it in a total.
+
+Graphics and language-level OOP are in *no* unit of *either* syllabus, so they
+are parked in a new `OFFSYL` paper (`counts_for_merit: false`, `legacy: true`)
+rather than forced somewhere close-enough. Parking follows the house idiom for
+material that must stay practiceable without polluting merit scoring
+(TECH1_LEGACY here, UDC in System Manager): mint a real paper with real units.
+The alternative — leaving a `unit` that resolves nowhere — does not error in
+`app.js`, it silently drops the question from every by-unit view while still
+inflating the "All units" practice pool, i.e. a quieter version of the bug being
+fixed.
+
+**The verification that actually proves it.** Emptying `MISFILED` and rebuilding
+the guide reproduces `study-guide-tech1.html` **byte-for-byte**
+(`40241d13…`, 24 clusters / 135 concepts / 385 questions). That is the strongest
+available check: the 41 are now excluded *structurally* — by paper, by unit, or
+by `NON_UNIT_SUBS` — exactly as the hand-written list was doing by name. The
+networking five land in `NON_UNIT_SUBS` only because they were tagged with real
+`TECH1_LEGACY` leaves (`Basic Networking`, `TCP/IP`); a made-up `sub` would have
+sailed past that filter and back into the Discrete Maths bucket, since the guide
+accepts `TECH1_LEGACY` unit "1" as if it meant Unit 1 of TECH1.
+
+**Two content defects, and both were worse than reported.**
+
+- `TECH1_CSE_140` / `_143` are the same FD question keyed **D** and **C**. The
+  brief said one is wrong. Computing attribute closures over the FDs exactly as
+  printed gives A⁺={A}, E⁺={A,E}, BC⁺={A,B,C}, D⁺={D} — **none** of the four
+  options is a key (the only keys are BDE and its supersets), so every option is
+  a correct answer to "which is not a key" and **both** stored keys are
+  indefensible. The trivial dependencies (AB→B, AD→D, DE→E) are the tell that
+  the arrows were mangled in extraction. Both cards now say so; neither answer
+  was "reconciled" to the other, which would have manufactured false confidence.
+- `TECH1_CSE_149` / `_161` key on opposite premises about whether *rasterization*
+  and *scan conversion* name the same process. Half of that inconsistency was
+  created by the 2026-09-02 audit, which moved `_149` from (a) to (c) — its own
+  stored explanation concedes "rasterization is the broader, everyday synonym".
+  The standard usage is `_161`'s: they are synonyms. Rather than overturn a
+  two-adjudicator verdict on one reading, both cards now carry a cross-reference
+  telling the reader to learn the synonymy and not either card's letter.
+
+Both went in through the existing `apply_audit_corrections.py` as `note_only`,
+so the warnings travel with the question into every view — not into
+`clusters.py: DISPUTED`, which would have been dead weight since all four
+questions have now left the units the guide covers.
+
+**Also changed.** `app.js` gained an `OFFSYL` entry in `shortPaper()` (without
+it the card renders the raw id), and the legacy mock card's blurb now comes from
+an optional per-paper `card_note` — "Superseded syllabus" is true of
+TECH1_LEGACY but false of material that was never on any syllabus. `MISFILED` is
+kept as an empty dict, not deleted: the build still hard-fails on a ghost id and
+prints every entry, so it stays the right place to unblock a build while a bank
+fix is written.
+
+**Verified in the browser** (Mock, Practice, Syllabus views, no console errors):
+`OFFSYL` renders its own card with its own copy and 7 questions; TECH1_LEGACY
+now holds 170; per-paper unit dropdowns are correct (TECH1 → 1,2,3,4 ·
+TECH1_LEGACY → 1,2,5,6 · OFFSYL → 1,2); zero orphan `paper|unit` combinations
+across all 1409 records. The 16 remaining "relation"-matching questions in TECH1
+Unit 1 were read individually and are all genuine discrete maths (posets,
+equivalence and recurrence relations, a finite-automata 5-tuple) — no DBMS
+strays survive, which is independent evidence the 41-item list was complete.
+**No screenshot** — the Browser pane's capture still times out at 30s in this
+environment, same limitation as the 2026-09-03 entry.
+
+**What's still open.**
+
+- The **root cause is unfixed**: `import_2026_tech1.py:71-89` still writes unit
+  titles into `sub`, and 182 of its 217 questions still carry a non-leaf `sub`.
+  Re-running it is not currently possible anyway — `fetch_questions()` shells out
+  over ssh to the shiksha-dev droplet — so the next pass should either retag the
+  rest through this same payload mechanism or teach `classify()` to return real
+  leaves.
+- `TECH1_CSE_140` / `_143` need their FD list **re-extracted from source**; until
+  then neither is answerable and both are flagged rather than fixed. They are
+  also a true duplicate pair — one should eventually be dropped.
+- `build_study_guide.py` treats `TECH1_LEGACY` unit "1" as if it were TECH1
+  Unit 1 and relies on `NON_UNIT_SUBS` to catch the difference by sub-string.
+  That is a latent trap for the next person who adds a legacy unit-1 question:
+  matching on `(paper, unit)` would be sturdier than matching on `sub`.
+- `OFFSYL` questions still appear in the Mock view's practice bucket with a
+  "Start practice mock" button over a 7-question pool. Harmless, mildly silly.
+
+---
+
+## 2026-09-03 (end of day) — A broken selection-sort question repaired from the source scan, and the duplicate that exposed a gap in the audit
+
+**What shipped.** Two System Analyst corrections, both appended to
+`tools/system-analyst-build/staged/audit-corrections.json` and applied by
+`apply_audit_corrections.py` (still idempotent: first run 2 changed, second run
+0 changed, the 21 pre-existing corrections untouched).
+
+- **`TECH1_CSE_207` — options repaired from the source page, key now means
+  something.** The card asked for the number of *swaps* selection sort needs but
+  printed `(a) O(log n) / (b) O(n²) / (c) O(log n) / (d) O(n²)` — (a) duplicated
+  as (c), (b) as (d). O(n) was not on the list at all, so **no letter was
+  selectable**, and the stored key (b) pointed at O(n²), which is the
+  *comparison* count, not the swap count. Selection sort does exactly n−1 swaps.
+  Options restored from **page 5, question 43** of `CSE 2015/jr-grade-of-mizoram-
+  engineering-service-mes-2015-computer-science-engineering-paper-i.pdf`, read by
+  eye — that PDF is a pure scan with a 6-character text layer, so `pdftotext`
+  finds nothing in it and the page had to be rendered and looked at. The key is
+  still (b); (b) now reads O(n), as printed. Superscript kept as `O(n²)` to match
+  the rest of that sitting.
+- **`TECH1_CSE_195` — a stale duplicate carrying an answer this project had
+  already overturned.** Found while tracing 207, not looked for.
+
+**Why the second one matters more than the first.** 207 was a one-off extraction
+glitch. 195 is a *process* gap. The bank holds **21 duplicated stems** where the
+same MES 2015 CSE Paper I question was imported twice: once by PDF recovery as
+`MES2015_PAPER1_*`, and once via the Postgres route in `import_2026_tech1.py` as
+`TECH1_CSE_184…209`, where it is labelled "MPSC CSE Paper I (2015)" and so does
+not look like the same paper. The 2026-09-02 audit corrected
+`MES2015_PAPER1_029` from (b) to (a) with two adjudicators upholding it — but
+keyed on **question id**, so the identical `TECH1_CSE_195` kept the overturned
+(b). For a while the bank taught both answers to the same question depending on
+which sitting you practised. That one is now aligned, reusing the adjudicated
+explanation verbatim so the two cards teach identically.
+
+Checked all 21 pairs while here: 19 already agreed exactly, 207 and 195 were the
+only breaks, and 207 was the only card in the set with damaged options. So the
+duplication is not itself corrupting content — but it does mean **a correction
+applied to one copy silently leaves the other wrong**.
+
+**Verified in the browser**, not just by typecheck: served the main checkout's
+`public/`, opened Past Papers → "MPSC CSE Paper I (year not recorded)" → Browse
+with answers, and confirmed Q207 renders `A O(log n) / B O(n) / C O(n log n) /
+D O(n²)` with **B** carrying `opt right`, and Q195 with **A** carrying it.
+Console clean. (Screenshots time out in this environment — the guide page is
+~97,000px tall — so verification is DOM-level assertions on the served page.)
+
+**Guide rebuilt.** `TECH1_CSE_207`'s `DISPUTED` entry in `clusters.py` is gone,
+replaced by a comment recording what was wrong and where it was fixed, so the
+next reader does not re-investigate a closed case. `build_study_guide.py`
+re-run: contested-key warnings 23 → 22, no orphaned-`DISPUTED` note, and the
+card now renders with its explanation instead of a warning — the
+swaps-vs-comparisons point teaches rather than just cautions.
+
+**What's still open.**
+
+- **The 21 duplicate pairs are still duplicates.** Deduping is a content
+  decision (which copy wins, and does a sitting lose questions?), so nothing was
+  dropped. Until then, `apply_audit_corrections.py` should arguably resolve
+  corrections by *stem* as well as by id, or the build should fail when two
+  cards share a stem and disagree on the answer. Either would have caught 195
+  automatically.
+- **Eight other cards still carry duplicate option text** — `TECH1_CSE_021`,
+  `TECH1_CSE_192`, `TECH1_CSE_193`, `ILM2010_P1_037`, `_040`, `_041`, `_059`,
+  `_072` (`GEN-31` also trips the check but is a false positive: its options
+  differ only by quotation punctuation, which is the whole question). 192 and
+  193 are already in `DISPUTED`; the `ILM2010_P1_*` ones are not, and the 2010
+  papers do have a text layer, so those are cheap to check against source.
+- The MUX answer on 195/029 ((a) "1 and 2") depends on reading the paper as
+  allowing constant 0/1 inputs — which it must, since the AND realisation needs
+  a constant too. Worth knowing that "3" is the answer you get if you assume the
+  inverter costs something outside the MUX budget.
+
+## 2026-09-03 (later) — A generated revision guide for Technical Paper I, Units 1 and 3
+
+**What shipped.** `public/mpsc-system-analyst/study-guide-tech1.html` — a
+single-page revision guide for **Discrete Mathematics (40 marks)** and **Data
+Structures & Algorithms (60 marks)**, the two units that are half of Technical
+Paper I's 200 marks. Built by `tools/system-analyst-build/build_study_guide.py`
+from `concepts.js` + `questions.js`; re-running reproduces it. 24 topic
+clusters, 135 concept cards, 385 past questions, 25 cram-sheet tables, 18
+worked methods.
+
+Structure per topic: **worked method** (the procedure, when the question type
+needs one) → **concept cards** (mnemonic, definition, key facts, traps,
+collapsible full explanation) → **past questions** with answers hidden behind
+a reveal. A formula cram sheet sits above everything and is the printable core.
+Search, per-topic "revised" ticks in `localStorage`, scroll-spy nav, light/dark,
+and a print stylesheet.
+
+**Why generated rather than hand-written.** `concepts.js` already held 862
+facts and 574 traps across these two units, curated and reviewed. Re-typing
+that into static HTML would have created a second copy free to drift from the
+bank the trainer actually quizzes from. The only hand-authored layer is
+`worked_methods.py` (cram sheet + step-by-step drills), which is the part
+`concepts.js` genuinely lacks — prose explains, but does not drill.
+
+**Two content problems found on the way, both the failure mode `CLAUDE.md`
+warns about.**
+
+- **41 questions are mis-tagged into Units 1 and 3** and are not that material
+  at all: a long run of DBMS/SQL, networking, OS, graphics and OOP questions
+  carrying the generic `"Discrete Mathematics"` / `"Data Structures and
+  Algorithms"` sub tag. Because the tag is generic, any router has to fall back
+  on question text — and DBMS questions are full of "relation", networking of
+  "set of rules", graphics of "set of points". Unfiltered, they route straight
+  into *Sets, Relations and Functions*, and the guide would teach SQL syntax
+  under a discrete-maths heading. They are listed with reasons in
+  `clusters.py: MISFILED` and printed on every build rather than silently
+  dropped. **They are still mis-tagged in the bank itself** — the guide only
+  excludes them locally.
+- **23 questions carry answers that are wrong, contested, or unanswerable as
+  printed.** These render with a red *"Do not memorise this answer"* banner and
+  the label *Bank's answer* instead of *Answer*. The two that would do real
+  damage: `TECH1_CSE_207` keys selection sort's **swap** count as O(n²) when it
+  is exactly n−1, i.e. O(n) — and its duplicate `MES2015_PAPER1_043` keys the
+  same question correctly as O(n); and `MES2023_P1_045` defines stability as
+  "location is the same before and after sorting", which is not what stability
+  means. Full list with reasoning in `clusters.py: DISPUTED`.
+
+A subagent's claim that `ILM2010_P1_071`'s key was wrong did **not** survive
+checking — its option B is bare "recursively enumerable", which is true since
+recursive ⊂ RE; the agent had conflated it with Q77's option text. Every
+disputed entry above was read against the actual question and options before
+being listed, which is why that one is absent.
+
+**Guardrails in the builder.** A mistyped id in `MISFILED`/`DISPUTED` would
+silently do nothing, so the build hard-fails on any id not present in the bank.
+Concept tags not named in `clusters.py` land in a fallback cluster *and* print
+a warning, so a newly added concept surfaces as a build warning instead of
+vanishing. `has_official_key()` deliberately tests that an official key
+*exists* rather than matching `/official/i` — most derived provenance strings
+end "...no official key for this sitting". Verified after build: 36 questions
+badged `official key`, all from the one sitting that has one; the other 349
+read `derived · high/medium/low/unrated`.
+
+**Verified in the browser** at 1265px and 375px, light and dark: no console
+errors, 17k DOM nodes, 75ms DOMContentLoaded, search 0.6ms. The 11 wide
+cram-sheet tables scroll inside their own containers with the page body never
+scrolling horizontally. Revised-ticks persist across reload. **No screenshot** —
+the Browser pane's capture timed out at 30s even on a one-line probe page, so
+that is a pane limitation in this environment, not the guide; everything else
+was verified through the DOM and computed styles.
+
+**What's still open.**
+
+- The 41 mis-tagged questions should be **retagged in `questions.js`** to their
+  real units rather than excluded per-consumer. `TECH1_CSE_140` and `_143` are
+  the same DBMS question keyed differently (D vs C) — one is wrong.
+- `TECH1_CSE_207`'s wrong key is still live in the bank and will appear in mock
+  tests; only the guide warns about it. `MES2015_PAPER1_043` shows the correct
+  answer for the identical question and could seed a fix.
+- Units 2 (Computer Architecture) and 4 (Operating System) have no guide. The
+  builder is unit-agnostic — extending it is a `clusters.py` addition plus
+  cram-sheet content, no new machinery.
+- Hashing (2 questions) and searching (5) are thin in the bank; the guide covers
+  them from `concepts.js` but they are close to untested historically. Master
+  theorem is tested **nowhere** in Unit 3 — deliberately kept light.
+
+---
+
+## 2026-09-03 (later still) — Bank-wide answer audit applied; an official answer key found for a sitting we thought had none
+
+**What shipped.** The 93-agent, 3,253-question audit of both apps is fully
+adjudicated and its actionable half is applied.
+
+- **83 findings → 49 CONFIRMED / 20 SPLIT / 14 REFUTED.** Each finding was
+  judged by two Sonnet agents with different lenses: `subject` re-solves from
+  first principles, `skeptic` is told to defend the stored answer and to default
+  to `refuted` when uncertain. Both uphold → CONFIRMED.
+- **CONFIRMED applied to both banks.** New idempotent
+  `tools/system-analyst-build/apply_audit_corrections.py` for System Analyst;
+  for System Manager — a generated file — a corrections overlay inside
+  `assemble.py`, running after tagging and before quarantine, so the staged
+  inputs stay the source of truth. Both re-runs are byte-stable, counts
+  unchanged (1409 / 1845), browser-verified with no console errors and the
+  `provLine()` badges still reading `derived · …` rather than `official key`.
+- **SPLIT written up, nothing applied** — `SPLIT-FINDINGS-REVIEW.md`, one
+  explicit decision per finding.
+- **An extraction-damage scan** of both banks found ~2× what the audit had
+  surfaced: 19 System Analyst questions shipping raw Symbol-font PUA glyphs
+  that render blank, and 11 with duplicated option text from lost exponents.
+  Work list in `tools/RECOVER_BRIEF.md`.
+
+**The find that matters most, and why it is a `CLAUDE.md` lesson repeating.**
+Chasing a single SPLIT finding (`ILM2023_P2_020`) led an adjudicator to
+`~/Downloads/mpsc_pdfs_examination/Answer_Keys/`, where an **official MPSC
+final answer key for the Inspector of Legal Metrology exam of 4–6 October
+2023** has been sitting the whole time, with per-paper keys for Computer
+Science & Engineering Papers I–III. All 136 ILM2023 records in the bank carry
+provenance ending *"no official key exists for this sitting."* That is simply
+false.
+
+Checked all 136 against the key (and against the 14 March 2024 corrigendum,
+which supersedes it but changes nothing for CS Paper-I): **123 agree, 12
+disagree.** The 91% agreement is itself proof the numbering aligns — random
+would be ~25%. So 12 questions currently teach an answer MPSC marked wrong, on
+a paper with one-third negative marking, and 123 more can be upgraded from an
+unrated derived badge to a blue *official key* one.
+
+This is the project's oldest rule landing on a new surface: *verify against
+source, don't trust the pipeline's own output.* The pipeline asserted no key
+existed. Nobody checked the assertion. Not applied yet — it wants the user's
+go-ahead and its own careful pass.
+
+**Two things worth keeping for whoever runs the next multi-agent pass.**
+
+- **Verdict reasoning is recoverable from the run journals even when the
+  workflow's return value drops it.** The refute-only run deliberately returns
+  no `reasoning` (132 rationales will not fit in context). To get it back, map
+  `agentId` → `agent-<id>.jsonl` → the `/f/<ID>.json` path embedded in the
+  agent's first user message, and read the lens off the prompt text (`REFUTE`
+  → skeptic, `first principles` → subject). All 15 missing SPLIT rationales
+  came back with zero ambiguity. Note it keys on the finding-file **path** —
+  there is no `Question id:` line in these prompts, contrary to what the
+  handoff originally recorded.
+- **A `note_mode` field on each correction payload.** 9 of the corrected cards
+  already carried a note from an earlier flagging pass that the correction now
+  contradicts. Without a per-card replace-or-preserve flag, applying a
+  correction leaves a stale note actively arguing against the card it sits on.
+
+**What's still open.**
+
+- The ILM2023 key: 12 corrections + 123 re-provenances, unapplied.
+- **A full sweep of `Answer_Keys/` against both banks.** ~40 MPSC final keys
+  live there. If this one went unread, others plausibly did too — every sitting
+  whose provenance claims no key exists is a candidate. This is the single
+  highest-value unexplored lead in the project right now.
+- The 20 SPLIT decisions. Three of them (`CO2019A-P2-1` SMTP-vs-TCP,
+  `CO2019B-GE-45` 'above', `CO2018M-GE-44` either-vs-each) propose a different
+  stored answer and genuinely need a human call; the rest are note wording.
+- The `recover-damaged-stems` workflow **died before returning anything** —
+  28 agents started, 0 results. Needs relaunching from scratch;
+  `resumeFromRunId` is same-session-only. `apply_audit_corrections.py` was
+  already extended to take stem and option rewrites, so the applier is ready.
+- Part 3 (System Analyst TECH1 concept + question authoring) still not started.
+
+---
+
 ## 2026-09-03 (later) — Programmer 2018 Technical Paper I lands in System Analyst TECH1, double-solved
 
 **What shipped.** All 100 questions of **MPSC Programmer under Public Health

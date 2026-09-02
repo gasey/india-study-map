@@ -143,6 +143,7 @@ const shortPaper = pid => ({
   TECH1_LEGACY: 'Technical I · Informatics Officer (legacy syllabus)',
   TECH2: 'Technical II · E-Governance',
   TECH3: 'Technical III · Project Mgmt',
+  OFFSYL: 'Off-syllabus · not examined',
 }[pid] || pid);
 
 // answerable questions only (drop voided/undetermined from tests)
@@ -1277,8 +1278,8 @@ VIEWS.mock = (el, opts) => {
       ${SYL.papers.filter(p => p.legacy && ANSWERABLE.some(q => q.paper === p.id)).map(p => {
         const n = ANSWERABLE.filter(q => q.paper === p.id).length;
         return `<div class="card">
-          <div class="spread"><h3 style="margin:0">${esc(shortPaper(p.id))}</h3><span class="pill dim">legacy practice</span></div>
-          <p class="dim" style="margin:.35rem 0 .7rem">Superseded syllabus — does not count toward the current exam. Bank holds ${n} questions.</p>
+          <div class="spread"><h3 style="margin:0">${esc(shortPaper(p.id))}</h3><span class="pill dim">practice only</span></div>
+          <p class="dim" style="margin:.35rem 0 .7rem">${esc(p.card_note || 'Superseded syllabus — does not count toward the current exam.')} Bank holds ${n} questions.</p>
           <button class="btn sm" data-mock="${p.id}">Start practice mock</button>
         </div>`;
       }).join('')}

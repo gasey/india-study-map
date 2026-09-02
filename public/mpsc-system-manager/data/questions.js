@@ -7861,11 +7861,11 @@ window.QUESTIONS = [
       "C": "Both (a) and (b)",
       "D": "None of these"
     },
-    "ans": "C",
-    "exp": "",
-    "conf": null,
+    "ans": "A",
+    "exp": "The <FRAMESET> element itself only accepts ROWS and COLS to divide the window into panes (plus the frameset-only onload/onunload handlers); MARGINWIDTH and MARGINHEIGHT are attributes of the individual <FRAME> element sitting inside it, controlling that pane's inner margins, not the frameset's structure. 'Both (a) and (b)' therefore overstates what belongs to frameset.",
+    "conf": "medium",
     "prov": "Transcribed from Computer Operator under MIMER, 2018 - Technical Paper II. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (c); corrected to (a) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2018M-P2-45",
@@ -8323,11 +8323,11 @@ window.QUESTIONS = [
       "C": "29",
       "D": "26"
     },
-    "ans": "B",
-    "exp": "",
-    "conf": null,
+    "ans": "C",
+    "exp": "The list gives the consecutive primes from 11 to 31 (11, 13, 17, 19, 23, 29, 31), so the missing term is 29. 27 looks close but is composite (3 x 9), which breaks the all-primes pattern the rest of the list follows.",
+    "conf": "high",
     "prov": "Transcribed from Computer Operator under MIMER, 2018 - Technical Paper II. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (b); corrected to (c) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2018M-P2-70",
@@ -10218,11 +10218,11 @@ window.QUESTIONS = [
       "C": "Dots printed per unit time",
       "D": "All of the above"
     },
-    "ans": "D",
-    "exp": "",
-    "conf": null,
+    "ans": "A",
+    "exp": "DPI (dots per inch) is the standard measure of a printer's output quality/resolution — the smaller the dot pitch, the sharper the print. Dots printed per unit time describes print speed, not quality, so folding it into 'all of the above' is wrong; and resolution is conventionally quoted per linear inch, not per square inch, ruling out B as well.",
+    "conf": "medium",
     "prov": "Transcribed from Computer Operator under AH & Vety Dept, May 2019 - Paper I. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (d); corrected to (a) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2019A-P1-14",
@@ -10864,11 +10864,11 @@ window.QUESTIONS = [
       "C": "Chkdsk, prompt, date",
       "D": "Sys, ver, vol"
     },
-    "ans": "A",
-    "exp": "",
-    "conf": null,
+    "ans": "B",
+    "exp": "EDIT, SYS and CHKDSK are each separate .COM/.EXE files that DOS loads from disk only when invoked — that is what makes a command external. COPY, by contrast, is compiled directly into COMMAND.COM and stays resident in memory after boot, so it is internal; that rules out option A even though FORMAT and SYS in that list are genuinely external.",
+    "conf": "high",
     "prov": "Transcribed from Computer Operator under AH & Vety Dept, May 2019 - Paper I. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (a); corrected to (b) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2019A-P1-43",
@@ -10952,11 +10952,11 @@ window.QUESTIONS = [
       "C": "misspelled",
       "D": "none of the above"
     },
-    "ans": "A",
-    "exp": "",
-    "conf": null,
+    "ans": "C",
+    "exp": "AutoCorrect was built to catch and silently replace misspelled words as you type, substituting the correct spelling on the fly; that is its original and defining purpose, with grammar and formatting corrections added later. 'Short, repetitive' text describes what a user-defined AutoCorrect entry can expand, not the problem the feature itself was designed to solve, so it misdescribes AutoCorrect's original purpose.",
+    "conf": "high",
     "prov": "Transcribed from Computer Operator under AH & Vety Dept, May 2019 - Paper I. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (a); corrected to (c) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2019A-P1-47",
@@ -13027,11 +13027,11 @@ window.QUESTIONS = [
       "C": "302",
       "D": "300"
     },
-    "ans": "B",
-    "exp": "",
-    "conf": null,
+    "ans": "C",
+    "exp": "Each term doubles the previous term and adds two (17, 36, 74, 150, 302, 606: e.g. 150x2+2=302 and 302x2+2=606), which fixes the missing term at 302, not 303 - 303 fails to reproduce the given 606 when the same rule is applied forward.",
+    "conf": "high",
     "prov": "Transcribed from Computer Operator under AH & Vety Dept, May 2019 - Paper II. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (b); corrected to (c) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2019A-P2-67",
@@ -14294,11 +14294,11 @@ window.QUESTIONS = [
       "C": "altered",
       "D": "changed"
     },
-    "ans": "B",
-    "exp": "",
-    "conf": null,
+    "ans": "D",
+    "exp": "'Changed school' is the standard phrase for moving between different schools over time, which is what 'many times' calls for. 'Entered school' names the one-off act of starting school and reads oddly repeated; 'admitted' needs a following 'to' ('admitted to school'), and 'altered' is used for modifying things, not switching institutions.",
+    "conf": "medium",
     "prov": "Transcribed from Computer Operator under AH & Vety Dept, May 2019 - General English. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (b); corrected to (d) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2019A-GE-54",
@@ -14426,11 +14426,11 @@ window.QUESTIONS = [
       "C": "draper",
       "D": "pedlar"
     },
-    "ans": "B",
-    "exp": "",
-    "conf": null,
+    "ans": "D",
+    "exp": "'Pedlar' names someone who travels from place to place selling small articles - the stem's defining feature is the travelling itself, matched almost word for word. 'Hawker' is the tempting distractor since both are itinerant sellers, but a hawker is defined by crying/advertising goods aloud in public, not by carrying small wares from place to place.",
+    "conf": "medium",
     "prov": "Transcribed from Computer Operator under AH & Vety Dept, May 2019 - General English. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (b); corrected to (d) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2019A-GE-60",
@@ -14690,11 +14690,11 @@ window.QUESTIONS = [
       "C": "turns down his nose",
       "D": "turns off his nose"
     },
-    "ans": "C",
-    "exp": "",
-    "conf": null,
+    "ans": "B",
+    "exp": "'To turn up one's nose at something' is the fixed idiom for showing scorn or contempt for it, which is exactly the poor man's attitude toward the idea of working for a living despite his poverty. 'Turns down his nose' is not an established idiom — English pairs 'nose' with 'up' in this expression, never 'down'; the other two options ('turns on', 'turns off his nose') are not idioms at all.",
+    "conf": "high",
     "prov": "Transcribed from Computer Operator under AH & Vety Dept, May 2019 - General English. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (c); corrected to (b) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2019A-GE-72",
@@ -14822,11 +14822,11 @@ window.QUESTIONS = [
       "C": "to outshine",
       "D": "to overtake"
     },
-    "ans": "C",
-    "exp": "",
-    "conf": null,
+    "ans": "D",
+    "exp": "To 'steal a march on' someone means to gain an advantage over them by acting before they do, typically getting ahead unnoticed — closest here to 'to overtake'. It is not about excelling or drawing attention, which is the sense of a different idiom ('to steal the show').",
+    "conf": "medium",
     "prov": "Transcribed from Computer Operator under AH & Vety Dept, May 2019 - General English. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Stored answer was (c); corrected to (d) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
   },
   {
     "id": "CO2019A-GE-78",
@@ -16878,11 +16878,11 @@ window.QUESTIONS = [
       "C": "Super key",
       "D": "Foreign key"
     },
-    "ans": "A",
-    "exp": "A candidate key is the standard term for a minimal set of one or more attributes that collectively identifies a record uniquely; a super key is a broader (not necessarily minimal) set, which this question's phrasing does not distinguish, so there is some ambiguity between the two terms.",
-    "conf": "medium",
+    "ans": "C",
+    "exp": "That exact phrasing — 'a set of one or more attributes that, taken collectively, allow us to identify uniquely a tuple in the relation' — is Silberschatz's definition of a super key. A candidate key adds a further requirement, minimality (no proper subset of it still identifies the tuple), which the question's wording never states, so it does not fit here. The same question appears elsewhere in this bank (CO2019A-P2-13) with the answer already recorded as super key.",
+    "conf": "high",
     "prov": "Two independent blind solves disagree: (A) and (C). One is wrong and there is no key to settle it — both are shown; judge for yourself.",
-    "note": "second solver said (C)",
+    "note": "Stored answer was (a); corrected to (c) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators. The paper's second independent solver had already named (c); the audit agrees.",
     "dup_of": "CO2019A-P2-13",
     "alt": "C",
     "altSrc": "solver"
@@ -19708,7 +19708,7 @@ window.QUESTIONS = [
     "exp": "",
     "conf": null,
     "prov": "Transcribed from Computer Operator under Election Dept, December 2019 - General English. MPSC published no answer key for this paper; answer is derived and unverified.",
-    "note": ""
+    "note": "Both 'friendship' (A) and 'amity' (D) are valid dictionary antonyms of 'enmity'; the question does not disambiguate which the setter intended, so treat this item with caution."
   },
   {
     "id": "CO2019B-GE-77",

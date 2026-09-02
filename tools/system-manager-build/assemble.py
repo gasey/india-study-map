@@ -457,6 +457,62 @@ def main(force=False):
                 problems.append(f"{r['id']}: tag ({r['paper']}, {r['unit']}, {r['sub']!r}) "
                                 f"is not a leaf in the taxonomy")
 
+    # --- apply the 2026-09-02 answer-key audit's CONFIRMED findings ---
+    # Every question in this app was re-solved from scratch by an independent
+    # agent (tools/VERIFY_BRIEF.md); each resulting finding was then adjudicated
+    # by two more with opposing lenses — one re-deriving the answer, one trying
+    # to prove the STORED answer right after all. Only findings both upheld are
+    # in this file. Applied LAST, after the Phase 3 solve and the tag pass,
+    # because it is auditing the output of all of them.
+    #
+    # Findings behind a real official MPSC key become a note and keep their
+    # stored `ans` (VERIFY_BRIEF.md: the key outranks the agent). `broken_question`
+    # findings are absent — a damaged stem needs the source PDF read by eye, not
+    # a rewritten `ans`.
+    ap = os.path.join(STAGED, "audit_corrections.json")
+    if os.path.isfile(ap):
+        corr = {c["id"]: c for c in json.load(open(ap, encoding="utf-8"))}
+        seen, n_ans, n_note = set(), 0, 0
+        for r in rows:
+            c = corr.get(r["id"])
+            if not c:
+                continue
+            seen.add(r["id"])
+            if c["action"] == "set_answer":
+                # Guard against a stale verdict silently reverting a newer fix:
+                # the payload records what the card said when the audit ran.
+                if r.get("ans") not in (c["old_ans"], c["ans"]):
+                    problems.append(f"{r['id']}: audit correction expected stored answer "
+                                    f"{c['old_ans']!r} but assemble produced {r.get('ans')!r} — "
+                                    f"the upstream answer changed since the audit; re-audit "
+                                    f"rather than applying this blind")
+                    continue
+                if c["ans"] not in (r.get("opts") or {}):
+                    problems.append(f"{r['id']}: audit correction names option {c['ans']!r} "
+                                    f"which this question does not have")
+                    continue
+                r["ans"], r["exp"], r["conf"] = c["ans"], c["exp"], c["conf"]
+                n_ans += 1
+            elif c["action"] == "set_explanation":
+                r["exp"] = c["exp"]
+            note = c.get("note")
+            if note:
+                old = (r.get("note") or "").strip()
+                # `replace` means the old note said "this answer looks wrong" and
+                # is RESOLVED by the correction — keeping it would contradict the
+                # new key. `append` means it carried unrelated provenance.
+                if c["note_mode"] == "append" and old and note not in old:
+                    r["note"] = f"{old} {note}".strip()
+                else:
+                    r["note"] = note
+                n_note += 1
+        missing = sorted(set(corr) - seen)
+        if missing:
+            problems.append(f"{len(missing)} audit correction(s) name ids this build does not "
+                            f"produce: {missing[:5]}")
+        notes.append(f"applied {len(seen)} audit corrections ({n_ans} answers rewritten, "
+                     f"{n_note} notes set)")
+
     # --- quarantine ---
     ship, quar = [], []
     for r in rows:

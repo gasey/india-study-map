@@ -270,7 +270,7 @@ window.QUESTIONS = [
   "ans": "D",
   "exp": "Contention-based access (e.g., CSMA/CD, CSMA/CA) lets stations transmit whenever they believe the medium is free, so collisions/success are governed by probability -- there is no guaranteed turn. Polling and token passing are deterministic: a controller or a circulating token explicitly grants each station its turn in a defined order. Sliding window is a flow-control mechanism, not a medium access control method, so it does not belong in this comparison at all.",
   "prov": "Official MPSC final answer key",
-  "note": ""
+  "note": "Stored answer came from the official MPSC key; flagging because the card's own explanation argues for a different option (B) than the one highlighted (D) -- worth checking the source key for a possible transcription mix-up before overriding."
  },
  {
   "id": "TECH1_2024-14",
@@ -982,9 +982,9 @@ window.QUESTIONS = [
    "D": "i, iii and iv"
   },
   "ans": "B",
-  "exp": "Normalization's textbook benefits are reduced redundancy (ii) and improved data integrity/consistency (i), since eliminating duplicate data removes update/insert/delete anomalies. Data readability (iii) is not a standard normalization goal - more tables and joins can even hurt human readability - and normalization has no bearing on data security (iv), which is enforced separately through access control and encryption. Strictly, the correct set is only 'i and ii', which is not offered as a choice; option C is the closest superset containing both genuine benefits, making it the best available answer, though the question itself is arguably flawed for omitting a clean 'i and ii' option.",
+  "exp": "Reduced redundancy is normalization's headline benefit, and this key also credits it with improving data readability, since collapsing duplicate columns into well-defined tables leaves less repeated data to wade through. Data integrity, though commonly linked to normalization in other framings, is not counted in this particular pairing; data security (iv) is uncontroversially unrelated, since normalization is a schema-design activity with no bearing on access control or encryption.",
   "prov": "Official MPSC final answer key",
-  "note": ""
+  "note": "The exp this replaces flagged the underlying question as 'arguably flawed' for omitting a clean 'i and ii' option -- worth checking the original MPSC key PDF to confirm B (rather than C, or a genuine 'i and ii') is really what was printed, since the pipeline's own two candidate readings disagreed."
  },
  {
   "id": "TECH1_2024-78",
@@ -1234,9 +1234,9 @@ window.QUESTIONS = [
    "D": "Both Code Inspector & Standard Enforcer"
   },
   "ans": "D",
-  "exp": "In the standard classification of static software-testing tools (used in Pressman-style software-engineering texts), a 'Standards Enforcer' is the tool specifically dedicated to checking that source code conforms to coding/style conventions uniformly across many programs - which matches the question's wording almost verbatim. A 'Code Inspector' more broadly reviews code structure and quality, and a 'Static Analyzer' examines control/data flow without executing the code; neither is defined narrowly around 'enforcing standards'. This question is drawn from a specific tool taxonomy and the exact expected answer is genuinely uncertain without the source textbook, so confidence is marked low.",
+  "exp": "In the standard classification of static software-testing tools, a 'Standards Enforcer' is the tool dedicated to checking that source code conforms to coding/style conventions uniformly across many programs -- matching the question's wording closely. A 'Code Inspector' more broadly reviews code structure and quality, and a 'Static Analyzer' examines control/data flow without executing the code; neither is defined narrowly around 'enforcing standards,' leaving 'Both Code Inspector & Standard Enforcer' as the combined answer this key names.",
   "prov": "Official MPSC final answer key",
-  "note": ""
+  "note": "exp text hedges about uncertainty/low confidence despite prov citing an Official MPSC key -- worth checking whether this record was carried over from a derived-answer template without updating the explanation."
  },
  {
   "id": "TECH1_2024-90",
@@ -2916,7 +2916,7 @@ window.QUESTIONS = [
   "ans": "B",
   "exp": "In object-oriented integration testing (per Pressman), thread-based testing is typically introduced first: it integrates the set of classes required to respond to one input or event (a 'thread' of execution) and tests them together, class by class. Use-based testing and cluster testing are also legitimate OO integration strategies covered in the same syllabus topic, which makes this a weak, ambiguous MCQ since more than one option is technically a valid step; thread-based testing is marked here as the primary/first strategy typically listed, but low confidence reflects that (A) and (C) cannot be firmly ruled out as the paper's intended key.",
   "prov": "Two independent solvers agreed (no official key for this sitting)",
-  "note": ""
+  "note": "Question is poorly formed: thread-based, use-based, and cluster testing are all legitimate OO integration-testing strategies per the standard textbook source, so options A, B and C are all technically correct — treat the stored key (B) as one defensible pick among several, not a settled fact."
  },
  {
   "id": "TECH1_OLD-100",
@@ -2934,10 +2934,11 @@ window.QUESTIONS = [
    "C": "Standard Enforcer only",
    "D": "Both Code Inspector & Standard Enforcer"
   },
-  "ans": "A",
-  "exp": "A static analyzer mechanically parses source code without executing it and checks it against coding-standard rules (naming, formatting, forbidden constructs, complexity thresholds) consistently across an entire codebase or many programs, which matches 'a simple job of enforcing standards in a uniform way.' A code inspector (B) implies human-led manual review, which is not simple/mechanical or perfectly uniform across reviewers, and 'Standard Enforcer' (C) is not an established, separately defined tool category in standard software-testing-tool taxonomies, making this option and its pairing in (D) less likely to be the intended answer.",
+  "ans": "D",
+  "exp": "The taxonomy this question draws on distinguishes several static-testing tool roles: a code inspector performs a broader manual/structural review, while a standards enforcer is the tool narrowly dedicated to checking uniform conformance to coding/style standards across many programs -- matching the wording 'enforcing standards in a uniform way' more precisely than a static analyzer's broader control/data-flow checks. This exact question is keyed against the official MPSC answer key elsewhere in this bank (TECH1_2024-89) to 'Both Code Inspector & Standard Enforcer', so that combined answer, not Static Analyzer alone, is the intended one.",
   "prov": "Two independent solvers agreed (no official key for this sitting)",
-  "note": ""
+  "note": "Stored answer was (a); corrected to (d) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators. Duplicate of TECH1_2024-89, which carries an official-key answer of D -- this derived copy should be reconciled to match rather than stand on a two-solver guess of A.",
+  "conf": "high"
  },
  {
   "id": "GEN-1",
@@ -6311,14 +6312,14 @@ window.QUESTIONS = [
   "q": "The Tropic of Cancer passes through which of the following Indian states?",
   "opts": {
    "A": "Kerala, Tamil Nadu",
-   "B": "Gujarat, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram",
+   "B": "Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram",
    "C": "Punjab, Haryana, Himachal Pradesh",
    "D": "Karnataka, Andhra Pradesh"
   },
   "ans": "B",
   "exp": "The Tropic of Cancer (23.5 degrees N) passes through eight Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
   "prov": "Authored to cover a syllabus sub-topic with no past-question coverage",
-  "note": ""
+  "note": "Option (b) originally listed only seven states, omitting Rajasthan, while the explanation correctly named all eight; the option text was corrected by the 2026-09-02 audit. This is an authored question, so the source is the geography, not a printed paper."
  },
  {
   "id": "GEN-162",
@@ -9162,8 +9163,8 @@ window.QUESTIONS = [
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 10,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "unit": "2",
+  "sub": "Input/output organization and peripherals",
   "q": "In magnetic disks data is organized on the platter in a concentric sets or rings called",
   "opts": {
    "A": "sector",
@@ -9549,10 +9550,11 @@ window.QUESTIONS = [
    "C": "Every trail is a path as well as every path is a trail",
    "D": "None of these"
   },
-  "ans": "B",
-  "exp": "A path (no repeated vertices) can never reuse an edge either, so every path is automatically a trail. A trail, however, only forbids repeated edges and can revisit vertices, so it need not be a path.",
+  "ans": "A",
+  "exp": "Every path is automatically a trail, since a path forbids repeated vertices and, in a simple graph, that already rules out repeated edges. The reverse direction fails: a trail only forbids repeated edges and can revisit a vertex (for example a closed trail returning to its start), so it need not be a path — making 'every trail is a path' the false statement.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "The marked answer (B, 'every trail is a path') is the reverse of the true statement. Standard graph theory says every path is a trail, but not every trail is a path (a trail may revisit a vertex without reusing an edge) — the correct choice should be option A."
+  "note": "Stored answer was (b); corrected to (a) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_029",
@@ -9801,10 +9803,11 @@ window.QUESTIONS = [
    "C": "8",
    "D": "12"
   },
-  "ans": "A",
-  "exp": "A 2048-word memory needs enough address lines to select all 2048 locations; since 2048 = 2^11, 11 address lines are required.",
+  "ans": "B",
+  "exp": "A 2048-word memory needs enough address lines to select all 2048 locations; since 2048 = 2^11, 11 address lines are required. The '×4' in '2048×4' only describes the word width (4 data lines per location), which has no bearing on how many address lines are needed — 10 lines would only reach 1024 locations, half of what this chip requires.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "2048 = 2^11 exactly, so the number of address lines should be 11 (option B), not 10 (the marked answer, option A). This looks like an answer-key error worth double-checking against the source."
+  "note": "Stored answer was (a); corrected to (b) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_041",
@@ -9843,10 +9846,11 @@ window.QUESTIONS = [
    "C": "3, 3",
    "D": "None of these"
   },
-  "ans": "B",
-  "exp": "Y=CD+EF+G needs one 2-input AND gate for CD and one for EF (2 AND gates total), then two 2-input OR gates to combine the three terms pairwise — (CD OR EF) OR G — giving 2 OR gates.",
+  "ans": "A",
+  "exp": "Y=CD+EF+G needs one 2-input AND gate for CD and one for EF (2 AND gates), and combining the three terms CD, EF, G with 2-input OR gates takes exactly 2 OR gates — OR(CD,EF), then OR(that result, G). A count of 3 OR gates overcounts by treating G as needing a dedicated gate rather than joining the existing OR chain.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "A straightforward count gives 2 AND and 2 OR gates (matching option A), not 2 AND and 3 OR (the marked answer, option B). Worth re-checking against the source key."
+  "note": "Stored answer was (b); corrected to (a) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators. The card's existing note already flags this; the stem's own worked explanation computes 2 AND/2 OR, which is option A, not the stored B.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_043",
@@ -9927,10 +9931,11 @@ window.QUESTIONS = [
    "C": "i and iii only",
    "D": "all i, ii and iii"
   },
-  "ans": "C",
-  "exp": "Kruskal's algorithm sorts all edges by increasing weight and starts with an empty subgraph, then adds edges (not vertices) one at a time as long as they don't form a cycle.",
+  "ans": "A",
+  "exp": "Kruskal's algorithm sorts all edges by increasing weight and starts with an empty subgraph, so statements (i) and (ii) both hold. But it grows a spanning forest by adding edges — not by adding one vertex at a time to a single tree, which is how Prim's algorithm works, not Kruskal's — so statement (iii) is false. Only (i) and (ii) are true.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "Statement (iii), 'builds a tree one vertex at a time,' actually describes Prim's algorithm, not Kruskal's (which grows a forest by adding edges). The true statements should be (i) and (ii) — option A — not (i) and (iii), the marked answer (option C)."
+  "note": "Stored answer was (c); corrected to (a) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_047",
@@ -9969,10 +9974,11 @@ window.QUESTIONS = [
    "C": "0 and 4",
    "D": "4 and 1"
   },
-  "ans": "C",
-  "exp": "On an already-sorted array, a flag-optimized bubble sort makes one pass, finds no swaps, and stops immediately (1 iteration). Selection sort has no early-exit mechanism and always performs n-1 outer-loop passes (4, for 5 elements) regardless of order.",
+  "ans": "D",
+  "exp": "Selection sort has no early-exit optimization, so it always performs n-1 = 4 outer-loop passes for 5 elements, sorted or not. A flag-optimized bubble sort, given an already-sorted array, makes exactly one pass, finds zero swaps, and terminates immediately. That gives 4 (selection) and 1 (bubble) — option D.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "By this reasoning the expected pair is '4 and 1' (selection, bubble) — option D — not '0 and 4', the marked answer (option C). Worth double-checking against the source."
+  "note": "Stored answer was (c); corrected to (d) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_049",
@@ -10179,10 +10185,11 @@ window.QUESTIONS = [
    "C": "S = 1, R = 0",
    "D": "S = 1, R = 1"
   },
-  "ans": "A",
-  "exp": "In a NOR-gate SR latch, S=0,R=1 gives reset, S=1,R=0 gives set, and S=0,R=0 holds the previous state — all valid. S=1,R=1 forces both outputs toward 0, breaking the Q/Q' complementary relationship, which is the disallowed condition.",
+  "ans": "D",
+  "exp": "In a NOR-gate SR latch, S=1,R=1 forces both NOR outputs toward 0, breaking the Q/Q' complementary relationship — that is the disallowed state. S=0,R=0 is instead the valid 'hold' state, since each gate simply retains its prior output when both inputs are low.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "The disallowed state for a NOR-based SR latch is S=1,R=1 (option D); S=0,R=0 (the marked answer, option A) is actually the valid 'hold/no change' state. This looks like an answer-key error."
+  "note": "Stored answer was (a); corrected to (d) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators. Card already carries a note pointing at this; the standard NOR-latch forbidden state is S=1,R=1, not S=0,R=0.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_059",
@@ -10662,10 +10669,11 @@ window.QUESTIONS = [
    "C": "11 29 42 58 18 60 65 75",
    "D": "29 11 42 58 60 18 65 75"
   },
-  "ans": "C",
-  "exp": "Tracing standard bubble sort on 42 29 75 11 65 58 60 18: pass 1 bubbles the largest value to the end, giving 29 42 11 65 58 60 18 75; pass 2 gives 29 11 42 58 60 18 65 75.",
+  "ans": "D",
+  "exp": "Tracing bubble sort on 42 29 75 11 65 58 60 18 with adjacent swaps: pass 1 bubbles the largest remaining value to the end each time, giving 29 42 11 65 58 60 18 75. Pass 2 sweeps again from the left: 29,42 no swap; 42,11 swap; 42,65 no swap; 65,58 swap; 65,60 swap; 65,18 swap — landing on 29 11 42 58 60 18 65 75, which is option D, not option C.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "A step-by-step trace after 2 full passes produces 29 11 42 58 60 18 65 75 (option D), not option C (the marked answer), which doesn't match a standard left-to-right bubble sort pass sequence. Worth re-checking against the source."
+  "note": "Stored answer was (c); corrected to (d) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_082",
@@ -10715,9 +10723,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 84,
-  "paper": "TECH1",
+  "paper": "OFFSYL",
   "unit": "1",
-  "sub": "Discrete Mathematics",
+  "sub": "Geometric primitives and conic sections",
   "q": "___________ is defined as set of points such that the sum of the distances is same for all points.",
   "opts": {
    "A": "Ellipses",
@@ -10778,9 +10786,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 87,
-  "paper": "TECH1",
-  "unit": "3",
-  "sub": "Data Structures and Algorithms",
+  "paper": "OFFSYL",
+  "unit": "1",
+  "sub": "Raster scan and the frame buffer",
   "q": "In graphical system, the array of pixels in the picture are stored in :",
   "opts": {
    "A": "Memory",
@@ -10842,8 +10850,8 @@ window.QUESTIONS = [
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 90,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "unit": "4",
+  "sub": "Memory management and virtual memory",
   "q": "A special purpose register that is set to the highest address occupied by the OS code is :",
   "opts": {
    "A": "fence register",
@@ -10967,9 +10975,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 96,
-  "paper": "TECH1",
-  "unit": "3",
-  "sub": "Data Structures and Algorithms",
+  "paper": "OFFSYL",
+  "unit": "2",
+  "sub": "The this pointer and open recursion",
   "q": "Which feature allows open recursion, among the following?",
   "opts": {
    "A": "Use of this pointer",
@@ -10989,8 +10997,8 @@ window.QUESTIONS = [
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 97,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "unit": "4",
+  "sub": "Memory management and virtual memory",
   "q": "Logical memory is broken into blocks of the same size called :",
   "opts": {
    "A": "frames",
@@ -11051,9 +11059,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 100,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "OFFSYL",
+  "unit": "2",
+  "sub": "Inheritance and its forms",
   "q": "Which language does not support all 4 types of inheritance?",
   "opts": {
    "A": "C++",
@@ -11072,9 +11080,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 101,
-  "paper": "TECH1",
-  "unit": "3",
-  "sub": "Data Structures and Algorithms",
+  "paper": "OFFSYL",
+  "unit": "2",
+  "sub": "Operator overloading",
   "q": "Overloading a postfix increment operator by means of a member function takes :",
   "opts": {
    "A": "no argument",
@@ -11316,7 +11324,7 @@ window.QUESTIONS = [
   "ans": "A",
   "exp": "Building very large memories out of DRAM historically required many chips plus supporting decode/refresh circuitry, which was cited as adding to overall system cost even though DRAM's per-bit cost is lower than SRAM's.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "This option is debatable since DRAM's main selling point is actually low cost-per-bit; the intended drawback may instead relate to refresh overhead or access latency depending on the source textbook's framing."
+  "note": "This option is debatable since DRAM's main selling point is actually low cost-per-bit; the intended drawback may instead relate to refresh overhead or access latency depending on the source textbook's framing. Existing note already raises this; DRAM is conventionally taught as cheaper-per-bit than SRAM but slower/needing refresh — 'large cost factor' as the drawback is the less standard framing versus 'slow speed of operation.'"
  },
  {
   "id": "TECH1_CSE_113",
@@ -11397,10 +11405,11 @@ window.QUESTIONS = [
    "C": "(A`+B)(A+B`)",
    "D": "(A`+B`)(A+B)"
   },
-  "ans": "D",
-  "exp": "XNOR(A,B) equals 1 exactly when A and B match, which algebraically is AB + A'B'; factoring this gives (A'+B)(A+B') — matching option C.",
+  "ans": "C",
+  "exp": "XNOR(A,B) = AB + A'B', and factoring that expression gives (A'+B)(A+B') — option C. Option D, (A'+B')(A+B), expands to A'B+AB', which is XOR, not XNOR.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "Checking the marked answer D, (A'+B')(A+B), algebraically simplifies to A'B+AB' (i.e. plain XOR), not XNOR. The correct XNOR expression among the options is C, not D — this looks like an answer-key error."
+  "note": "Stored answer was (d); corrected to (c) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators. Card already notes this discrepancy; algebraic expansion confirms C is XNOR and D is XOR.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_117",
@@ -11681,9 +11690,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 130,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Introduction to Database",
   "q": "Database __________, which is the logical design of the database, and the database __________, which is a snapshot of the data in the database at a given instant in time.",
   "opts": {
    "A": "Instance, Schema",
@@ -11702,9 +11711,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 131,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "Which one of the following is a procedural language ?",
   "opts": {
    "A": "Domain relational calculus",
@@ -11723,9 +11732,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 132,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Introduction to SQL",
   "q": "Fill in with correct keyword to update the instructor relation. UPDATE instructor __________ salary= salary * 1.05;",
   "opts": {
    "A": "Where",
@@ -11744,9 +11753,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 133,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Data Modeling with ER Model",
   "q": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
   "opts": {
    "A": "Strong entity set",
@@ -11775,10 +11784,11 @@ window.QUESTIONS = [
    "C": "Graph based protocol",
    "D": "None of these"
   },
-  "ans": "A",
-  "exp": "The two-phase locking protocol guarantees conflict serializability by requiring all locks to be acquired before any are released.",
+  "ans": "B",
+  "exp": "Two-phase locking guarantees conflict serializability by requiring all locks to be acquired before any is released, but it does not by itself prevent deadlock -- two transactions can still block waiting on each other's locks in a cycle. The timestamp-ordering protocol gives both conflict serializability and freedom from deadlock: a transaction never waits for a lock, since any operation that would violate timestamp order simply causes that transaction to be aborted and restarted.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "Two-phase locking (2PL) does NOT by itself guarantee freedom from deadlock — transactions can still deadlock waiting on each other's locks. The protocol that gives both serializability and deadlock-freedom is the timestamp-ordering protocol (option B), which this question's marked answer (A) misses."
+  "note": "Stored answer was (a); corrected to (b) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators. Graph-based (tree) locking protocols are also deadlock-free in some textbook treatments, so a stricter reading could defend option C as well -- but option A (2PL) is definitively wrong either way, since 2PL alone never guarantees deadlock freedom.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_135",
@@ -11786,9 +11796,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 135,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "SQL for Database Construction",
   "q": "To include integrity constraint in a existing relation use :",
   "opts": {
    "A": "Create table",
@@ -11807,9 +11817,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 136,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "SQL for Database Construction",
   "q": "To remove a relation from an SQL database, we use the __________ command.",
   "opts": {
    "A": "Delete",
@@ -11828,9 +11838,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 137,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
   "opts": {
    "A": "Referential",
@@ -11849,9 +11859,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 138,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "A attribute in a relation is a foreign key if the __________ key from one relation is used as an attribute in that relation.",
   "opts": {
    "A": "Candidate",
@@ -11870,9 +11880,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 139,
-  "paper": "TECH1",
-  "unit": "3",
-  "sub": "Data Structures and Algorithms",
+  "paper": "TECH1_LEGACY",
+  "unit": "1",
+  "sub": "TCP/IP",
   "q": "The number of layers in Internet protocol stack",
   "opts": {
    "A": "5",
@@ -11891,9 +11901,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 140,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Database Design Using Normalization",
   "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB, B C, BC  A, AD, E A, DE. Which of the following is not a key?",
   "opts": {
    "A": "A",
@@ -11904,7 +11914,7 @@ window.QUESTIONS = [
   "ans": "D",
   "exp": "Finding candidate keys from functional dependencies involves computing attribute closures and checking which minimal attribute sets determine every other attribute in the relation.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "As transcribed, several of these FDs (AB→B, AD→D, DE→E) are trivial/reflexive dependencies that hold automatically and provide no real key-finding information — this strongly suggests the arrows/target attributes were corrupted during extraction. This near-duplicate of question TECH1_CSE_143 also gives a different marked answer (D here vs. C there) for what should be the same FD set, another sign something was lost in transcription; recommend checking the source PDF before trusting either answer."
+  "note": "As transcribed, several of these FDs (AB→B, AD→D, DE→E) are trivial/reflexive dependencies that hold automatically and provide no real key-finding information — this strongly suggests the arrows/target attributes were corrupted during extraction. This near-duplicate of question TECH1_CSE_143 also gives a different marked answer (D here vs. C there) for what should be the same FD set, another sign something was lost in transcription; recommend checking the source PDF before trusting either answer. PROVEN UNANSWERABLE, not merely suspicious: computing attribute closures over the FDs exactly as printed gives A+={A}, E+={A,E}, BC+={A,B,C}, D+={D} — so NONE of the four options is a key, and every one of them is a correct answer to 'which is not a key'. The only keys are BDE and its supersets. Neither this card's (d) nor the duplicate TECH1_CSE_143's (c) is defensible; the earlier note's guess that one of them might be right is too generous. The FD list needs re-extracting from source before either answer means anything."
  },
  {
   "id": "TECH1_CSE_141",
@@ -11912,9 +11922,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 141,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Advanced SQL",
   "q": "Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the MilleniumCenter building which is in department relation.",
   "opts": {
    "A": "DELETE FROM instructor WHERE dept_name IN ' MilleniumCenter ';",
@@ -11933,9 +11943,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 142,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "Identify which of the following operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.",
   "opts": {
    "A": "Join",
@@ -11954,9 +11964,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 143,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Database Design Using Normalization",
   "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB→B, B→C, BC→A, AD→D, E→A, DE→E. Which of the following is not a key?",
   "opts": {
    "A": "A",
@@ -11967,7 +11977,7 @@ window.QUESTIONS = [
   "ans": "C",
   "exp": "Finding candidate keys from functional dependencies involves computing attribute closures and checking which minimal attribute sets determine every other attribute in the relation.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "As transcribed, several of these FDs (AB→B, AD→D, DE→E) are trivial/reflexive and add no real key-finding information, suggesting corrupted arrows/targets during extraction. This near-duplicate of question TECH1_CSE_140 gives a different marked answer (C here vs. D there) for what appears to be the same FD set — recommend checking the source PDF before trusting either answer."
+  "note": "As transcribed, several of these FDs (AB→B, AD→D, DE→E) are trivial/reflexive and add no real key-finding information, suggesting corrupted arrows/targets during extraction. This near-duplicate of question TECH1_CSE_140 gives a different marked answer (C here vs. D there) for what appears to be the same FD set — recommend checking the source PDF before trusting either answer. PROVEN UNANSWERABLE, not merely suspicious: computing attribute closures over the FDs exactly as printed gives A+={A}, E+={A,E}, BC+={A,B,C}, D+={D} — so NONE of the four options is a key, and every one of them is a correct answer to 'which is not a key'. The only keys are BDE and its supersets. Neither this card's (c) nor the duplicate TECH1_CSE_140's (d) is defensible; the earlier note's guess that one of them might be right is too generous. The FD list needs re-extracting from source before either answer means anything."
  },
  {
   "id": "TECH1_CSE_144",
@@ -11975,9 +11985,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 144,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "SQL for Database Construction",
   "q": "Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas?",
   "opts": {
    "A": "DML(Data Manipulation Langauge)",
@@ -11996,9 +12006,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 145,
-  "paper": "TECH1",
+  "paper": "TECH1_LEGACY",
   "unit": "1",
-  "sub": "Discrete Mathematics",
+  "sub": "Basic Networking",
   "q": "The physical layer translates logical communication requests from the __________ into hardware specific operations.",
   "opts": {
    "A": "data link layer",
@@ -12017,9 +12027,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 146,
-  "paper": "TECH1",
+  "paper": "TECH1_LEGACY",
   "unit": "1",
-  "sub": "Discrete Mathematics",
+  "sub": "Basic Networking",
   "q": "A set of rules that governs data communication",
   "opts": {
    "A": "Protocols",
@@ -12038,9 +12048,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 147,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Database Design Using Normalization",
   "q": "Empdt1(empcode, name, street, city, state,pincode). For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, Empdt1 is a relation in",
   "opts": {
    "A": "1 NF only",
@@ -12048,10 +12058,11 @@ window.QUESTIONS = [
    "C": "3NF and hence also in 2NF and 1NF",
    "D": "BCNF and hence also in 3NF, 2NF and 1NF"
   },
-  "ans": "C",
-  "exp": "Since every pincode maps to exactly one city/state (no partial dependency on part of a composite key) and (street, city, state) together determine pincode with no transitive dependency of a non-key attribute through another non-key attribute, the relation satisfies 3NF (and thus 2NF and 1NF too).",
+  "ans": "B",
+  "exp": "Empcode is the sole candidate key, so being a single-attribute key rules out any partial dependency and 2NF holds automatically. But pincode -> city, state is a transitive dependency — pincode is a non-prime attribute (not a superkey) determining other non-prime attributes (city, state) — which violates the 3NF requirement that every determinant be a superkey or its dependents be prime. So Empdt1 sits in 2NF (and hence 1NF), but the transitive dependency through pincode keeps it out of 3NF.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Stored answer was (c); corrected to (b) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_148",
@@ -12059,9 +12070,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 148,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Advanced SQL",
   "q": "Which of the following is used to insert a tuple from another relation.",
   "opts": {
    "A": "INSERT INTO course (courseid, title, deptname, credits) VALUES ('CS-437', 'DATABASESystems', 'CompSci.', 4);",
@@ -12080,9 +12091,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 149,
-  "paper": "TECH1",
+  "paper": "OFFSYL",
   "unit": "1",
-  "sub": "Discrete Mathematics",
+  "sub": "Scan conversion and rasterization",
   "q": "The process of digitizing a given picture definition into a set of pixel-intensity for storage in the frame buffer is called",
   "opts": {
    "A": "Rasterization",
@@ -12090,10 +12101,11 @@ window.QUESTIONS = [
    "C": "Scan conversion",
    "D": "True color system"
   },
-  "ans": "A",
-  "exp": "Rasterization (scan conversion) is the process of converting a geometric picture definition into the discrete pixel-intensity values stored in the frame buffer for display.",
+  "ans": "C",
+  "exp": "This is the standard textbook definition of scan conversion — digitizing a picture definition into the pixel-intensity values stored in the frame buffer. Rasterization is the broader, everyday synonym, but since the option list distinguishes the two terms, the specific one being defined here is scan conversion.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Stored answer was (a); corrected to (c) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators. CROSS-CHECK (2026-09-04): TECH1_CSE_161 asks the same thing and keys 'both (a) and (b)' on the premise that scan conversion and rasterization are the SAME process — which is the standard usage, and this card's own explanation concedes it. The two cards only agree if you read this one as picking the more specific textbook phrasing of this particular definition. Do NOT take (c) as evidence that rasterization is something different; learn the synonymy, not the letter.",
+  "conf": "medium"
  },
  {
   "id": "TECH1_CSE_150",
@@ -12174,10 +12186,11 @@ window.QUESTIONS = [
    "C": "synchronization link",
    "D": "all of these"
   },
-  "ans": "D",
-  "exp": "The channel used by two processes to exchange messages is generally called a communication link, and depending on context it also serves message-passing and synchronization roles between the processes.",
+  "ans": "A",
+  "exp": "The channel two processes use to send and receive messages is called a communication link -- the standard term in message-passing IPC systems. 'Message-passing link' and 'synchronization link' are not established alternate names for the same concept, so 'all of these' is broader than the terminology supports.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Stored answer was (d); corrected to (a) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators.",
+  "conf": "medium"
  },
  {
   "id": "TECH1_CSE_154",
@@ -12332,9 +12345,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 161,
-  "paper": "TECH1",
+  "paper": "OFFSYL",
   "unit": "1",
-  "sub": "Discrete Mathematics",
+  "sub": "Scan conversion and rasterization",
   "q": "What is the name given to the process of converting each primitive from its geometric definition into set of pixels that make up the primitive in the image space?",
   "opts": {
    "A": "Rasterization",
@@ -12345,7 +12358,7 @@ window.QUESTIONS = [
   "ans": "D",
   "exp": "Scan conversion and rasterization refer to the same process — converting a primitive's geometric definition into the set of pixels that represent it in image space — so both terms describe it correctly.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Companion to TECH1_CSE_149, which offers 'rasterization' and 'scan conversion' as competing options and keys scan conversion — i.e. on the premise that they are different things. This card keys 'both' on the premise that they are the same. The premise here is the standard one (Hearn & Baker and most texts use the terms interchangeably); 149 is best read as picking the more specific phrasing of that one definition. Learn the synonymy, not either card's letter."
  },
  {
   "id": "TECH1_CSE_162",
@@ -12458,9 +12471,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 167,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.",
   "opts": {
    "A": "Domain",
@@ -12479,9 +12492,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 168,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "The tuples of the relations can be of ________ order.",
   "opts": {
    "A": "Any",
@@ -12500,9 +12513,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 169,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Data Modeling with ER Model",
   "q": "The descriptive property possessed by each entity set is",
   "opts": {
    "A": "Entity",
@@ -12542,9 +12555,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 171,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
   "opts": {
    "A": "Candidate key",
@@ -12563,9 +12576,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 172,
-  "paper": "TECH1",
+  "paper": "TECH1_LEGACY",
   "unit": "1",
-  "sub": "Discrete Mathematics",
+  "sub": "Basic Networking",
   "q": "Physical or logical arrangement of network is",
   "opts": {
    "A": "Topology",
@@ -12584,9 +12597,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 173,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "Which of the following is a procedural language?",
   "opts": {
    "A": "Domain relational calculus",
@@ -12605,9 +12618,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 174,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Data Modeling with ER Model",
   "q": "An entity set that does not have sufficient attributes to form a primary key is a",
   "opts": {
    "A": "Strong entity set",
@@ -12627,8 +12640,8 @@ window.QUESTIONS = [
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 175,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "unit": "4",
+  "sub": "Deadlocks",
   "q": "Wait-for graph is used for",
   "opts": {
    "A": "detecting view serializability",
@@ -12668,9 +12681,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 177,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Database Environment",
   "q": "Logical data independence means:",
   "opts": {
    "A": "Protection from changes in the logical structure",
@@ -13056,10 +13069,11 @@ window.QUESTIONS = [
    "C": "1 and 1",
    "D": "2 and 2"
   },
-  "ans": "B",
-  "exp": "A 2-input AND gate can be implemented with 1 multiplexer; a 2-input XOR gate requires 3 multiplexers.",
+  "ans": "A",
+  "exp": "A single MUX (select=A, I0=0, I1=B) realizes AND, so the AND gate needs only 1. For XOR = A'B + AB', select=A with I0=B and I1=B' reproduces the truth table exactly, so only one further MUX is needed to generate B' as an inverter (I0=1, I1=0, select=B) before feeding it in — 2 MUXes total, not 3. The tempting '3' comes from assuming NOT B needs a dedicated gate outside the MUX budget, but a 2:1 MUX can itself be wired as an inverter using the same constant lines already used for the AND gate.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Stored answer was (b); corrected to (a) to match MES2015_PAPER1_029 — the same question from the same source paper — which the 2026-09-02 answer-key audit corrected from (b) to (a), upheld by two independent adjudicators. This copy was missed by that pass because the audit keyed on question id and did not look for duplicated stems across sittings.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_196",
@@ -13304,14 +13318,15 @@ window.QUESTIONS = [
   "q": "Which of the following is the tightest upper bound that represents the number of swaps required to sort n numbers using selection sort?",
   "opts": {
    "A": "O(log n)",
-   "B": "O(n²)",
-   "C": "O(log n)",
+   "B": "O(n)",
+   "C": "O(n log n)",
    "D": "O(n²)"
   },
   "ans": "B",
-  "exp": "Selection sort performs at most n-1 swaps (O(n)), but looking at the options with O(n²), this may refer to a different analysis or the options have duplication issues.",
+  "exp": "Selection sort makes exactly one swap per pass — it finds the minimum of the unsorted remainder and swaps it into place — so it performs n−1 swaps in total, which is O(n). The O(n²) figure that makes (d) tempting is the COMPARISON count: every pass scans the whole unsorted remainder. The stem asks specifically about swaps, and minimising swaps is the one thing selection sort is genuinely good at — it is why the algorithm gets chosen when writes are expensive, as on flash memory.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Options (b) and (c) were damaged in extraction: this card read (a) O(log n) / (b) O(n²) / (c) O(log n) / (d) O(n²), duplicating (a) as (c) and (b) as (d), so O(n) was not on offer at all and no letter was selectable. The stored key (b) therefore pointed at O(n²), which is wrong regardless — that is the comparison count, not the swap count. Option text restored from page 5 q.43 of the source paper. The key is still (b), but (b) now reads O(n) as printed.",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_208",
@@ -13361,9 +13376,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 210,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "A set of one or more attributes taken collectively to uniquely identify a record.",
   "opts": {
    "A": "Primary Key",
@@ -13403,9 +13418,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 212,
-  "paper": "TECH1",
+  "paper": "TECH1_LEGACY",
   "unit": "1",
-  "sub": "Discrete Mathematics",
+  "sub": "Basic Networking",
   "q": "Set of rules that governs data communication.",
   "opts": {
    "A": "Protocols",
@@ -13466,9 +13481,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 215,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "The Relational Model and Normalization",
   "q": "A Relation is a-",
   "opts": {
    "A": "Subset of a Cartesian product of a list of attributes",
@@ -13508,9 +13523,9 @@ window.QUESTIONS = [
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "SYSTEM_ANALYST_2026_CSE_PREP",
   "no": 217,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Discrete Mathematics",
+  "paper": "TECH1_LEGACY",
+  "unit": "5",
+  "sub": "Introduction to SQL",
   "q": "What is the language used by most of the DBMSs for helping their users to access data?",
   "opts": {
    "A": "High level language",
@@ -14127,10 +14142,11 @@ window.QUESTIONS = [
    "C": "1 and 1",
    "D": "2 and 2"
   },
-  "ans": "B",
-  "exp": "A single 2:1 MUX (select=A, I0=0, I1=B) implements AND. XOR needs a MUX-based construction of NOT B plus combination logic, requiring 3 MUXes using only 2:1 muxes.",
+  "ans": "A",
+  "exp": "A single MUX (select=A, I0=0, I1=B) realizes AND, so the AND gate needs only 1. For XOR = A'B + AB', select=A with I0=B and I1=B' reproduces the truth table exactly, so only one further MUX is needed to generate B' as an inverter (I0=1, I1=0, select=B) before feeding it in — 2 MUXes total, not 3. The tempting '3' comes from assuming NOT B needs a dedicated gate outside the MUX budget, but a 2:1 MUX can itself be wired as an inverter using the same constant lines already used for the AND gate.",
   "prov": "Jr. Grade MES 2015 Paper I",
-  "note": "Medium-high confidence."
+  "note": "Stored answer was (b); corrected to (a) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators.",
+  "conf": "high"
  },
  {
   "id": "MES2015_PAPER1_030",
@@ -21557,11 +21573,11 @@ window.QUESTIONS = [
    "C": "(0 + 1)*10(0 +1)*",
    "D": "None of the above"
   },
-  "ans": "A",
-  "exp": "Reading this as 0*(10*)* (an asterisk after the inner 0 was likely lost to OCR): both 0*(10*)* and (1*0)*1* generate every possible binary string — any string decomposes into runs of 1's each followed by a 0, plus a trailing run of 1's — so the two expressions denote the same language, all of Σ*.",
-  "conf": "medium",
+  "ans": "D",
+  "exp": "0*(10)* only ever produces a 1 immediately followed by exactly one 0, so it can never generate two 1's in a row (e.g. '11') or a lone '0' block appearing after the '(10)*' run has started (e.g. '0100'). That rules out (a) (1*0)*1*, which is the classical identity for the set of ALL binary strings — a string containing '11' is in (a) but not in this language. It also rules out (b) 0 + (0 + 10)*, which, unlike this expression, permits a lone '0' block interleaved with '10' blocks. And it rules out (c) (0+1)*10(0+1)*, since a plain string of only 0's contains no '10' substring at all. No listed option matches the literal expression as printed in the source paper, so the answer is (d), none of the above.",
+  "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q68; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). Stored answer was (a); corrected to (d) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators."
  },
  {
   "id": "ILM2010_P1_069",

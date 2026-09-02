@@ -1,0 +1,618 @@
+{
+ "generated_by": "tools/system-analyst-build/retag_tech1_cse.py payload, 2026-09-04",
+ "what": "Corrects the unit/sub tags of the 41 TECH1_CSE_* questions that import_2026_tech1.py's regex classify() filed into Technical Paper I Unit 1 (Discrete Mathematics) or Unit 3 (Data Structures and Algorithms) but which are DBMS/SQL, networking, OS, computer graphics or OOP. Because classify() wrote the UNIT TITLE into `sub`, the tag carried no information and every by-topic consumer had to fall back on question text -- where 'relation' (DBMS), 'set of rules' (protocols) and 'set of points' (conics) all route into Sets, Relations and Functions.",
+ "homes": "DBMS and networking have no home in the 2026 syllabus: TECH2 is E-Governance and TECH3 is Project Management/Aptitude. Their only accurate home is TECH1_LEGACY units 5 and 1, which is counts_for_merit:false -- so this deliberately demotes 30 questions out of merit mocks. Computer graphics and language-level OOP are in NO paper; they are parked in a new non-merit OFFSYL paper rather than forced into a wrong unit.",
+ "new_papers": [
+  {
+   "id": "OFFSYL",
+   "name": "Off-syllabus prep material (not examined)",
+   "marks": 0,
+   "questions": 0,
+   "marks_per_question": 0,
+   "duration_hours": 1,
+   "type": "Objective (MCQ)",
+   "counts_for_merit": false,
+   "legacy": true,
+   "card_note": "Not on any MPSC syllabus for this post — imported prep material kept only so it stays practiceable. Does not count toward the current exam.",
+   "authority": "No syllabus authority. These questions arrived inside an imported 'MPSC CSE Paper I' prep bank but test material that appears in NO unit of the 2026 System Analyst syllabus (TECH1/TECH2/TECH3) and none of the superseded Informatics Officer syllabus (TECH1_LEGACY) either. Parked here rather than forced into a wrong unit — see DEVLOG 2026-09-04.",
+   "units": [
+    {
+     "no": "1",
+     "title": "Computer Graphics",
+     "marks": 0,
+     "subtopics": [
+      "Raster scan and the frame buffer",
+      "Scan conversion and rasterization",
+      "Geometric primitives and conic sections"
+     ]
+    },
+    {
+     "no": "2",
+     "title": "Object-Oriented Programming (language level)",
+     "marks": 0,
+     "subtopics": [
+      "Inheritance and its forms",
+      "The this pointer and open recursion",
+      "Operator overloading"
+     ]
+    }
+   ]
+  }
+ ],
+ "retags": [
+  {
+   "id": "TECH1_CSE_010",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1",
+    "unit": "2",
+    "sub": "Input/output organization and peripherals"
+   },
+   "why": "Magnetic-disk geometry (concentric rings on a platter are tracks) is standard secondary-storage material in the I/O chapter of every computer-organization text."
+  },
+  {
+   "id": "TECH1_CSE_084",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "OFFSYL",
+    "unit": "1",
+    "sub": "Geometric primitives and conic sections"
+   },
+   "why": "The ellipse as a locus of points. Reads as set theory only because of the word 'set'; it is the graphics-primitives definition of a conic."
+  },
+  {
+   "id": "TECH1_CSE_087",
+   "old": {
+    "paper": "TECH1",
+    "unit": "3",
+    "sub": "Data Structures and Algorithms"
+   },
+   "new": {
+    "paper": "OFFSYL",
+    "unit": "1",
+    "sub": "Raster scan and the frame buffer"
+   },
+   "why": "Where pixels live in a graphics system. Computer graphics is on no syllabus for this post."
+  },
+  {
+   "id": "TECH1_CSE_090",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1",
+    "unit": "4",
+    "sub": "Memory management and virtual memory"
+   },
+   "why": "The fence register bounds the OS's own memory and is a memory-protection mechanism."
+  },
+  {
+   "id": "TECH1_CSE_096",
+   "old": {
+    "paper": "TECH1",
+    "unit": "3",
+    "sub": "Data Structures and Algorithms"
+   },
+   "new": {
+    "paper": "OFFSYL",
+    "unit": "2",
+    "sub": "The this pointer and open recursion"
+   },
+   "why": "Open recursion via the this pointer."
+  },
+  {
+   "id": "TECH1_CSE_097",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1",
+    "unit": "4",
+    "sub": "Memory management and virtual memory"
+   },
+   "why": "Logical memory divided into fixed-size blocks = pages; core paging terminology."
+  },
+  {
+   "id": "TECH1_CSE_100",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "OFFSYL",
+    "unit": "2",
+    "sub": "Inheritance and its forms"
+   },
+   "why": "Which language lacks all four inheritance types — a language-comparison question."
+  },
+  {
+   "id": "TECH1_CSE_101",
+   "old": {
+    "paper": "TECH1",
+    "unit": "3",
+    "sub": "Data Structures and Algorithms"
+   },
+   "new": {
+    "paper": "OFFSYL",
+    "unit": "2",
+    "sub": "Operator overloading"
+   },
+   "why": "Argument count for a postfix ++ overloaded as a member function."
+  },
+  {
+   "id": "TECH1_CSE_130",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Introduction to Database"
+   },
+   "why": "Schema (logical design) vs instance (snapshot) — the opening distinction of any DBMS course."
+  },
+  {
+   "id": "TECH1_CSE_131",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Relational algebra is procedural, relational calculus is declarative. A relational-model question, not a programming-languages one, despite the MISFILED label."
+  },
+  {
+   "id": "TECH1_CSE_132",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Introduction to SQL"
+   },
+   "why": "Basic SQL: the UPDATE ... SET clause, and SQL as the DBMS query language."
+  },
+  {
+   "id": "TECH1_CSE_133",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Data Modeling with ER Model"
+   },
+   "why": "ER-model vocabulary: weak entity sets and entity attributes."
+  },
+  {
+   "id": "TECH1_CSE_135",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "SQL for Database Construction"
+   },
+   "why": "DDL: ALTER TABLE to add a constraint, DROP TABLE, and what DDL is for."
+  },
+  {
+   "id": "TECH1_CSE_136",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "SQL for Database Construction"
+   },
+   "why": "DDL: ALTER TABLE to add a constraint, DROP TABLE, and what DDL is for."
+  },
+  {
+   "id": "TECH1_CSE_137",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Core relational-model definitions: referential integrity, foreign/super keys, Cartesian product, attribute domains, tuple ordering, and what a relation IS."
+  },
+  {
+   "id": "TECH1_CSE_138",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Core relational-model definitions: referential integrity, foreign/super keys, Cartesian product, attribute domains, tuple ordering, and what a relation IS."
+  },
+  {
+   "id": "TECH1_CSE_139",
+   "old": {
+    "paper": "TECH1",
+    "unit": "3",
+    "sub": "Data Structures and Algorithms"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "1",
+    "sub": "TCP/IP"
+   },
+   "why": "Layer count of the Internet (TCP/IP) protocol stack."
+  },
+  {
+   "id": "TECH1_CSE_140",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Database Design Using Normalization"
+   },
+   "why": "Functional dependencies, candidate keys and normal forms."
+  },
+  {
+   "id": "TECH1_CSE_141",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Advanced SQL"
+   },
+   "why": "Sub-query forms: DELETE ... WHERE ... IN (SELECT ...) and INSERT INTO ... SELECT."
+  },
+  {
+   "id": "TECH1_CSE_142",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Core relational-model definitions: referential integrity, foreign/super keys, Cartesian product, attribute domains, tuple ordering, and what a relation IS."
+  },
+  {
+   "id": "TECH1_CSE_143",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Database Design Using Normalization"
+   },
+   "why": "Functional dependencies, candidate keys and normal forms."
+  },
+  {
+   "id": "TECH1_CSE_144",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "SQL for Database Construction"
+   },
+   "why": "DDL: ALTER TABLE to add a constraint, DROP TABLE, and what DDL is for."
+  },
+  {
+   "id": "TECH1_CSE_145",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "1",
+    "sub": "Basic Networking"
+   },
+   "why": "OSI layering, the definition of a protocol, and network topology — introductory networking, absent from the 2026 TECH1 syllabus."
+  },
+  {
+   "id": "TECH1_CSE_146",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "1",
+    "sub": "Basic Networking"
+   },
+   "why": "OSI layering, the definition of a protocol, and network topology — introductory networking, absent from the 2026 TECH1 syllabus."
+  },
+  {
+   "id": "TECH1_CSE_147",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Database Design Using Normalization"
+   },
+   "why": "Functional dependencies, candidate keys and normal forms."
+  },
+  {
+   "id": "TECH1_CSE_148",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Advanced SQL"
+   },
+   "why": "Sub-query forms: DELETE ... WHERE ... IN (SELECT ...) and INSERT INTO ... SELECT."
+  },
+  {
+   "id": "TECH1_CSE_149",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "OFFSYL",
+    "unit": "1",
+    "sub": "Scan conversion and rasterization"
+   },
+   "why": "Scan conversion / rasterization. Also mutually contradictory — see the note added to both."
+  },
+  {
+   "id": "TECH1_CSE_161",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "OFFSYL",
+    "unit": "1",
+    "sub": "Scan conversion and rasterization"
+   },
+   "why": "Scan conversion / rasterization. Also mutually contradictory — see the note added to both."
+  },
+  {
+   "id": "TECH1_CSE_167",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Core relational-model definitions: referential integrity, foreign/super keys, Cartesian product, attribute domains, tuple ordering, and what a relation IS."
+  },
+  {
+   "id": "TECH1_CSE_168",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Core relational-model definitions: referential integrity, foreign/super keys, Cartesian product, attribute domains, tuple ordering, and what a relation IS."
+  },
+  {
+   "id": "TECH1_CSE_169",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Data Modeling with ER Model"
+   },
+   "why": "ER-model vocabulary: weak entity sets and entity attributes."
+  },
+  {
+   "id": "TECH1_CSE_171",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Core relational-model definitions: referential integrity, foreign/super keys, Cartesian product, attribute domains, tuple ordering, and what a relation IS."
+  },
+  {
+   "id": "TECH1_CSE_172",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "1",
+    "sub": "Basic Networking"
+   },
+   "why": "OSI layering, the definition of a protocol, and network topology — introductory networking, absent from the 2026 TECH1 syllabus."
+  },
+  {
+   "id": "TECH1_CSE_173",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Relational algebra is procedural, relational calculus is declarative. A relational-model question, not a programming-languages one, despite the MISFILED label."
+  },
+  {
+   "id": "TECH1_CSE_174",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Data Modeling with ER Model"
+   },
+   "why": "ER-model vocabulary: weak entity sets and entity attributes."
+  },
+  {
+   "id": "TECH1_CSE_175",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1",
+    "unit": "4",
+    "sub": "Deadlocks"
+   },
+   "why": "Wait-for graphs are the standard deadlock-DETECTION structure. The two serializability distractors are DBMS-flavoured, but the keyed fact is OS deadlock."
+  },
+  {
+   "id": "TECH1_CSE_177",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Database Environment"
+   },
+   "why": "Logical data independence is a three-schema-architecture property."
+  },
+  {
+   "id": "TECH1_CSE_210",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Core relational-model definitions: referential integrity, foreign/super keys, Cartesian product, attribute domains, tuple ordering, and what a relation IS."
+  },
+  {
+   "id": "TECH1_CSE_212",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "1",
+    "sub": "Basic Networking"
+   },
+   "why": "OSI layering, the definition of a protocol, and network topology — introductory networking, absent from the 2026 TECH1 syllabus."
+  },
+  {
+   "id": "TECH1_CSE_215",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "The Relational Model and Normalization"
+   },
+   "why": "Core relational-model definitions: referential integrity, foreign/super keys, Cartesian product, attribute domains, tuple ordering, and what a relation IS."
+  },
+  {
+   "id": "TECH1_CSE_217",
+   "old": {
+    "paper": "TECH1",
+    "unit": "1",
+    "sub": "Discrete Mathematics"
+   },
+   "new": {
+    "paper": "TECH1_LEGACY",
+    "unit": "5",
+    "sub": "Introduction to SQL"
+   },
+   "why": "Basic SQL: the UPDATE ... SET clause, and SQL as the DBMS query language."
+  }
+ ]
+}

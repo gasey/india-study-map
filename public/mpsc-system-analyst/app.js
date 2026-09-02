@@ -171,11 +171,13 @@ function disputeBlock(q) {
 }
 
 /* Provenance + confidence line under an answer explanation.
-   This app mixes three very different kinds of answer: 274 from MPSC's published
-   final answer key, 96 agreed by two independent solvers, 4 from a single
-   unverified solver, and now 195 blind-solved from the 2021 papers. Without a
-   badge they all look alike, which is precisely the failure CLAUDE.md names as a
-   known gap. Ported from the System Manager app. */
+   This app mixes answers of very different standing: 306 come from a published
+   MPSC final answer key, and the other 1103 were solved by review — 339 rated
+   high, 66 medium, 20 low, and 678 never rated at all. Without a badge they all
+   look alike, which is precisely the failure CLAUDE.md names as a known gap.
+   Ported from the System Manager app. (Counts move whenever a sitting's key is
+   found — the ILM2023 sitting alone moved 136 records across on 2026-09-04 —
+   so treat them as illustrative of the spread, not as a live total.) */
 function provLine(q) {
   // Key on an official answer key EXISTING, not on the word appearing. Most of
   // the derived provenance strings read "...no official key for this sitting",

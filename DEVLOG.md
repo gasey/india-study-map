@@ -9,6 +9,146 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-04 (later) — The ILM 2023 official key applied: 136 records re-provenanced, 12 answers overturned, and a question MPSC itself voided
+
+**What shipped.** `tools/system-analyst-build/apply_official_key.py` +
+`staged/ilm2023-key-annotations.json` — MPSC's official final answer key for the
+Inspector of Legal Metrology November 2023 sitting is now applied to all 136
+ILM2023 records. This closes the item the previous entry left as "the single
+highest-value unexplored lead".
+
+- **12 answers overturned** to what MPSC marked, and **123 re-provenanced** from
+  an unrated `derived` badge to a blue `official key` one. The re-provenancing is
+  most of the work: the answers were already right, but every one of those cards
+  told the reader "no official key exists for this sitting", which was false.
+- **Paper-I Q29 is `ans: ""`.** MPSC's key prints *(Compensated)* rather than a
+  letter — it accepted no option and credited every candidate. That drops it out
+  of `ANSWERABLE` and so out of every mock, practice pool and accuracy statistic
+  (bank total 1409 unchanged, answerable 1370 → 1369, visible on the dashboard as
+  "of 1369 in bank").
+- **5 option texts repaired from the source scan**, listed below.
+
+**Why a second applier instead of extending `apply_audit_corrections.py`.** That
+script applies findings *this project argued for*. This one applies an external
+authority and rewrites `prov`, including on the 123 cards whose answer never
+changed. Keeping them separate keeps "MPSC says" and "we concluded" from blurring
+into one provenance string. It also needs two things the other applier cannot
+express: writing `prov`, and a blank `ans` for a compensated question.
+
+**Verified against source, and it changed two conclusions.** The staged key was
+a previous session's transcription, so it got checked rather than trusted: all
+199 entries for CS Papers I and II parse out of the PDF text layer and match the
+staged JSON exactly, and the 14 March 2024 corrigendum turns out to touch only
+the Physics papers — its CS Paper-I table is identical to the 8 March key, so
+nothing about which key governs is ambiguous. Then the two questions with damaged
+options were read off the rendered scan (that PDF has a **10-character** text
+layer, so `pdftotext` returns nothing and the pages had to be looked at):
+
+- **Q9 was not extraction damage.** The working theory was that OCR had truncated
+  option (b) from `n!/(r!(n−r)!)` to `n!/r!`. Wrong: the paper really does print
+  (a) `n!/(n−r)!` (b) `n!/r!` (c) `n!*r!` (d) `n!−r!`, none of which is the
+  combinations formula. The question is defective *as printed* and MPSC keyed (b)
+  anyway. The extractor was faithful; the paper was not.
+- **Q29's option (b) really was damaged** — the bank held `x`, the paper prints
+  `x'`, and (d) `z i es` is just `z`. With the primes restored the function
+  simplifies to y(x+z) = xy+yz, which is not among the four options — independent
+  confirmation that compensating it was correct.
+
+Also repaired: Q6 (d) `Logical propositions Bay` → `Logical propositions`, Q35
+(a) lost a stray semicolon, and Paper-II Q8 (d) `Linked ee ee eee Lea` → `Linked`.
+Option **order** was checked against the source on eight questions and is
+preserved everywhere, which is what makes applying an official *letter* safe at
+all — a single reordered question would have silently injected a wrong answer.
+
+**The hard part was policy, and the project had already decided it.** Five of
+these official answers contradict standard theory. Q35 keys PMOS threshold
+voltage as *positive* (the enhancement-mode convention is negative). Q46 keys the
+clockless synchroniser as a D flip-flop, which is clocked by definition. Q66 keys
+BCD's advantage as *compact storage*, when BCD is less compact than binary. Q9
+has no correct option at all. Q6 keys induction as proving "algebraic equations"
+when "logical propositions" is on the same page and is the better answer.
+
+`tools/VERIFY_BRIEF.md` settles this and was written for exactly this case: an
+official key is authoritative *even when you disagree*, but the disagreement gets
+reported. So `ans` follows the key without exception — it is what scored, and the
+badge should say so — and every one of those five carries a note that states the
+standard result and why the key differs. **The note is load-bearing, not
+decoration.** `ans` alone would have a card teaching that PMOS thresholds are
+positive, under a blue badge reading `official key`, to someone revising for a
+real exam. Two of them lead with `KEY CONFLICTS WITH STANDARD THEORY`.
+
+Where a defensible reading of the key exists, the note gives it rather than
+calling MPSC wrong: Q66 is true of *packed BCD against character-encoded decimal*,
+which was the real alternative in commercial systems; Q46's key answers the
+"synchronising signals" clause and ignores the self-contradictory one, and Q43/Q45
+of the same paper share its four options and are keyed correctly, so the key is
+internally coherent rather than careless. Three of the twelve — Q28
+(commutative vs associative), Q58 (opcode vs microinstructions), Q93 (array vs
+BST) — are cases where **the key is simply better than what this app had stored**,
+and Q28's old answer was plainly wrong.
+
+**Guide side.** `clusters.py` gained a `DISPUTED` entry for Q6 (23 contested-key
+warnings, up from 22) and had three rewritten: an entry saying "the keyed X is
+wrong" reads very differently once the key is known to be MPSC's own rather than
+this project's guess. The guide footer no longer implies `official key` means
+correct — it now says outright that it is the answer which *scored*, not
+necessarily the one which is *right*, because that is the lesson of this whole
+pass. `app.js`'s `provLine()` comment had hard-coded provenance counts that this
+change invalidates; replaced with current figures and a warning not to read them
+as a live total.
+
+**Verified in the browser** (screenshots above the fold in both cases): the
+sitting card in Past Papers now shows an `official key` pill instead of `derived
+answers`; Q35 renders option A marked correct with the blue badge, the full
+notification string, and the standard-theory warning; Q29 renders with repaired
+options `x+y / x' / y / z` and **no option highlighted at all**; Q27 and Q28
+render their corrected answers with new explanations. Console clean, no
+horizontal overflow on the guide, 87 `official key` badges in the guide (was 36).
+Data assertions in the live page: 136/136 ILM2023 badged official, 0 still
+claiming no key exists, 0 cards whose `ans` is not one of their options.
+
+**Corrections to things earlier sessions and I recorded wrongly.**
+
+- `Answer_Keys/` is **not** at `~/Downloads/mpsc_pdfs_examination/` — that path
+  no longer exists. It is at
+  `~/workspace/projects/personal/mpsc-question-bank/pdfs/Answer_Keys/`, and it
+  holds **120** keys, not the "~40" the last entry estimated. The staged key file
+  still records the dead path; `apply_official_key.py` does not depend on it.
+- **`.claude/launch.json` exists** and already has a `static-apps` config that
+  serves `public/`. I reported it missing in the previous session's summary —
+  that was my error, from running the check in a stale working directory.
+- **Browser screenshots work in this environment.** The 2026-09-03 and 09-04
+  entries both record them timing out at 30s; they did not here, on a page of the
+  same size. Whatever that was, it was not a permanent pane limitation.
+- The sitting label **"November 2023" is correct** and does not need fixing: both
+  question papers print `NOVEMBER, 2023` in their headers, even though the key's
+  own notification says the examination was *held* 4–6 October 2023. That
+  discrepancy is MPSC's.
+
+**What's still open.**
+
+- **The other 119 keys in `Answer_Keys/` are still unswept.** This pass proves the
+  lead is real, not theoretical — it found 12 wrong answers and a voided question
+  in the first sitting checked. Every sitting in either app whose provenance claims
+  no key exists is a candidate, and there are far more of them than the last
+  estimate assumed. This is now the highest-value work in the project by a wide
+  margin, and it should be a pipeline rather than 120 hand passes.
+- `ILM2023_P1_009` and `_014` and `_094` are keyed to answers that are wrong or
+  absent from their options. They are flagged, not fixed, because there is nothing
+  to fix — MPSC scored them that way. They should probably be excluded from mock
+  *scoring* while staying practiceable, which the bank has no mechanism for yet
+  (the compensated question got `ans: ""`, but these do have official answers).
+- `conf` is now `"official"` on 136 records. That value is deliberately not one of
+  `provLine()`'s three confidence keys, so it renders as no badge if `prov` ever
+  stops naming the key — fail-safe rather than fail-confident. Nothing else reads
+  it, but it is a fourth vocabulary word in a field that had three.
+- The 19 remaining SPLIT findings from `SPLIT-FINDINGS-REVIEW.md` (Q20 of Paper II
+  is now settled by the key, which is how the key was found in the first place).
+- Part 3 of `HANDOFF-VERIFY-AUTHOR.md` (System Analyst TECH1 concept + question
+  authoring) still not started.
+
+---
+
 ## 2026-09-04 — The 41 mis-tagged questions fixed in the bank, and what checking their homes turned up
 
 **What shipped.** `tools/system-analyst-build/retag_tech1_cse.py` +

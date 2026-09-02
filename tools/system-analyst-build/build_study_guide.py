@@ -473,10 +473,12 @@ HTML_SHELL = """<!DOCTYPE html>
       by <code>tools/system-analyst-build/build_study_guide.py</code>. Edit those
       sources and rebuild — do not hand-edit this file.</p>
       <p class="warn">Answers marked <span class="prov prov-official">official key</span>
-      come from a published MPSC answer key. Answers marked
+      come from a published MPSC answer key — that is the answer which <em>scored</em>,
+      which is not the same as the answer which is <em>right</em>: a handful of them
+      contradict standard theory and carry a red warning saying so. Answers marked
       <span class="prov prov-high">derived</span> were worked out for sittings with
-      no published key and can be wrong — check anything that surprises you against
-      the source paper before you commit it to memory.</p>
+      no published key and can be wrong too. Either way, check anything that
+      surprises you against the source paper before you commit it to memory.</p>
     </footer>
   </main>
 </div>

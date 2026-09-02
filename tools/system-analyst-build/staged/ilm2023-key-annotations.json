@@ -1,0 +1,117 @@
+{
+  "_what": "The editorial layer over ilm2023-official-key.json. That file is a faithful transcription of what MPSC printed and nothing else; this one is what THIS PROJECT says about the questions the key changes. Kept separate so the transcription stays checkable against the PDF by diff.",
+  "_source_read": "All option text below was read off the rendered source scan (CSE 2015/computer-science-engineering-paper-i.pdf and -ii.pdf, 200dpi, by eye). Those PDFs are pure scans - a 10-character text layer - so pdftotext returns nothing and every claim here required looking at the page.",
+  "_policy": "tools/VERIFY_BRIEF.md: where an official MPSC key exists it is the scoring authority even when it is wrong, so `ans` follows the key. But the reader is revising for a real exam, so a key that contradicts standard theory MUST say so on the card - the note is not optional decoration, it is the thing that stops the card teaching a falsehood.",
+
+  "annotations": [
+    {
+      "id": "ILM2023_P1_006",
+      "no": 6,
+      "derived_ans": "D",
+      "opts_repair": { "D": "Logical propositions" },
+      "exp": "MPSC's official key marks (b). Induction is most often drilled on algebraic identities - summation formulas, divisibility, inequalities - and that is the sense the key takes. Strictly, induction proves any proposition P(n) indexed by the natural numbers, so (d) is the broader and arguably better description; this paper offers both and the key chose the narrower one. Learn the mechanism - prove the base case, then prove P(k) implies P(k+1) - rather than this letter.",
+      "note": "Official key marks (b) Algebraic equations; this app previously derived (d) Logical propositions. Both name real uses of induction and (d) is the more general statement, so do not read (b) as meaning induction is limited to algebra. Option (d) read 'Logical propositions Bay' - the trailing 'Bay' was scanner noise and has been removed against the source page.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_009",
+      "no": 9,
+      "derived_ans": "A",
+      "exp": "MPSC's official key marks (b). Verified by eye against the source page: the paper really does print (a) n!/(n-r)!  (b) n!/r!  (c) n!*r!  (d) n!-r!, and NONE of them is the number of combinations, which is C(n,r) = n!/(r!(n-r)!). So this question has no correct option and the extraction is faithful - the error is the paper's, not the pipeline's. Learn the two formulas that matter: C(n,r) = n!/(r!(n-r)!) and P(n,r) = n!/(n-r)!, which is what option (a) actually is.",
+      "note": "DEFECTIVE QUESTION - official key marks (b) n!/r!, which is not the combinations formula; neither is any other option. Confirmed against the source scan, so this is the paper's own error rather than extraction damage. This app previously derived (a), the permutations formula. Memorise C(n,r) = n!/(r!(n-r)!) and ignore the letter.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_027",
+      "no": 27,
+      "derived_ans": "D",
+      "exp": "MPSC's official key marks (b). How hard the base is driven sets how fast a BJT crosses between cut-off and saturation: a larger base current supplies and then removes the stored base charge sooner, shortening turn-on and turn-off time, which is why deliberately overdriving the base is the standard trick for faster switching. The transition (junction) capacitances in (d) are the underlying physical limit rather than the factor a designer varies, so (d) is defensible - but the key answers for the base drive.",
+      "note": "Official key marks (b) The base current; this app previously derived (d) The transition capacitance. Both are genuine factors - base drive is what a circuit designer controls, junction capacitance is the physical floor it works against.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_028",
+      "no": 28,
+      "derived_ans": "A",
+      "exp": "The associative law is precisely about the order in which the operations are carried out: (A+B)+C = A+(B+C) and (A.B)C = A(B.C) - regroup the operations and the result is unchanged. The commutative law in (a) is about the order of the OPERANDS (A+B = B+A), which is a different claim. The question says 'order of operations', so (b) is right and MPSC's official key agrees.",
+      "note": "Official key marks (b) Associative Law, and it is correct. This app previously stored (a) Commutative Law, which confused order of operands with order of operations - the earlier answer was simply wrong. Commutative moves operands, associative regroups operations.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_029",
+      "no": 29,
+      "derived_ans": "D",
+      "compensated": true,
+      "opts_repair": { "B": "x'", "D": "z" },
+      "exp": "MPSC compensated this question: its official key prints '(Compensated)' where a letter should be, meaning no option was accepted and every candidate was credited. That is the right call. Simplifying: y(x'z + xz') + x(yz + yz') = x'yz + xyz' + xyz = x'yz + xy = y(x + x'z) = y(x + z) = xy + yz. None of (x+y), (x'), (y) or (z) equals xy + yz, so the question has no answer as printed. Worth doing as a simplification drill - note the absorption step x + x'z = x + z.",
+      "note": "COMPENSATED BY MPSC - the official key prints '(Compensated)', so no answer exists; this card is excluded from tests, scoring and accuracy statistics. Verified from source: the function simplifies to y(x+z) = xy+yz, which is not among the four options. Options (b) and (d) were damaged in extraction and have been repaired against the source page - (b) is x' (not 'x') and (d) is z (not 'z i es'). This app previously stored a low-confidence guess of (d).",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_035",
+      "no": 35,
+      "derived_ans": "B",
+      "opts_repair": { "A": "Positive threshold voltage" },
+      "exp": "MPSC's official key marks (a) - and this is one to read carefully rather than memorise. Under the ordinary convention an enhancement-mode PMOS transistor has a NEGATIVE threshold voltage: it turns on when V_GS falls below V_th, with V_th typically around -0.5 V to -1 V. That is option (b). The key's (a) is only defensible if the threshold is quoted as a magnitude |V_th|, or referenced as V_SG (source-to-gate) instead of V_GS - a convention some texts do use. Learn the physics: a PMOS conducts on a negative gate-source voltage.",
+      "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (a) Positive; this app previously derived (b) Negative. For enhancement-mode PMOS the threshold is negative (V_th < 0) under the usual V_GS convention, so (b) is what you should learn as the physics; (a) is true only if the threshold is read as a magnitude or as V_SG. Option order was verified against the source page, so this is a genuine key/convention conflict and not extraction damage.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_046",
+      "no": 46,
+      "derived_ans": "D",
+      "exp": "MPSC's official key marks (a), and the question contradicts itself. A D flip-flop is clocked by definition, so it cannot 'not have a clock input' - but a D flip-flop, specifically a two-stage D synchroniser, IS the standard circuit for bringing an asynchronous signal into a clock domain, which is almost certainly the clause the key answered. The genuinely clockless device among these options is the SR latch in (d). Note that Q43 and Q45 of this paper offer the same four options and are keyed (a) and (d) respectively, both correctly, so the key is internally consistent - it read this question by its first clause and ignored the second.",
+      "note": "KEY ANSWERS ONLY HALF THE QUESTION. Official key marks (a) D flip-flop; this app previously derived (d) SR flip-flop. The question is self-contradictory: D flip-flops are clocked but are the standard signal synchroniser, while the clockless part is the SR latch. Learn both facts rather than the letter.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_058",
+      "no": 58,
+      "derived_ans": "B",
+      "exp": "MPSC's official key marks (c). In a microprogrammed control unit the control signals are literally the bits of microinstructions held in control memory: the opcode selects WHICH microinstruction sequence runs, and the microinstructions are what then generate the signals. The question asks what the control unit uses to generate them, so (c) is the better answer and (b) names the input that selects them. Q67 and Q68 of this paper test the same idea from the other side.",
+      "note": "Official key marks (c) Microinstructions; this app previously derived (b) Opcode. The opcode selects the microinstruction sequence; the microinstructions generate the control signals. The key is the better reading of 'uses to generate'.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_066",
+      "no": 66,
+      "derived_ans": "D",
+      "exp": "MPSC's official key marks (a), which needs a caveat. Measured against pure binary, (a) is wrong: BCD spends 4 bits per decimal digit and wastes 6 of the 16 codes, so it is LESS compact than binary and its arithmetic is slower, not faster. The key is defensible only in the commercial data-processing sense - packed BCD holds two digits per byte, twice as compact as keeping those digits as ASCII or EBCDIC characters, which was the real alternative in that world. The advantage textbooks normally name is (d): conversion to and from decimal is trivial and digit-by-digit, which is why BCD drives displays.",
+      "note": "KEY IS TRUE ONLY IN A NARROW SENSE. Official key marks (a) Compact storage; this app previously derived (d) Easy conversion. BCD is less compact than binary but more compact than character-encoded decimal, which is the only reading that makes (a) true. Do not learn 'BCD is compact' as a general fact - and (d) is the advantage standard texts give.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_080",
+      "no": 80,
+      "derived_ans": "B",
+      "exp": "MPSC's official key marks (d). 'Packing' in programming is a statement about memory layout: a packed structure is laid out without the padding bytes a compiler normally inserts to keep fields aligned, so it is about how memory is allocated to variables. That is distinct from (b) compression, which re-encodes data to make it smaller and has to be decompressed before use - packed data is used in place. The two words are close enough in everyday speech that (b) is the natural trap.",
+      "note": "Official key marks (d) Allocating memory for variables; this app previously derived (b) Compressing data to reduce its size. Packing = laying out fields without padding, a memory-allocation question; compression = re-encoding to shrink data. The key is right.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P1_093",
+      "no": 93,
+      "derived_ans": "A",
+      "exp": "MPSC's official key marks (d). The canonical priority queue is a binary heap - which this paper does not offer - so among the four options a balanced binary search tree is the one giving O(log n) insert and O(log n) extract-min. A bare (a) 'Array' is O(n) for one of those two operations whichever way you keep it ordered; the earlier answer leaned on 'a heap is stored in an array', but the option says only 'Array'. A linked list is O(n), and a hash table cannot answer 'which key is smallest' at all.",
+      "note": "Official key marks (d) Binary Search Tree; this app previously derived (a) Array. The textbook answer is a binary heap, which is not among the options; of the four given, a BST is the efficient one. Do not read this as 'BSTs beat heaps for priority queues' - they do not.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P2_008",
+      "no": 8,
+      "derived_ans": "C",
+      "opts_repair": { "D": "Linked" },
+      "exp": "MPSC's official key marks (b). In file-organisation taxonomy an indexed file keeps a key-to-address index, and looking a key up in that index is what lets a program jump straight to any record - the property this question names. Hashed organisation in (c) also reaches a record directly, by computing its address from the key, and many texts call that 'direct' organisation, so (c) is defensible; the distinction is that indexed access goes through a lookup and can also be read in key order, whereas hashing scatters records and cannot be scanned in order.",
+      "note": "Official key marks (b) Indexed; this app previously derived (c) Hashed. Both give direct access by key - indexed through a lookup table, hashed by computing the address - so learn the difference rather than the letter. Option (d) read 'Linked ee ee eee Lea'; the source page prints simply 'Linked' and it has been repaired.",
+      "note_mode": "append"
+    },
+    {
+      "id": "ILM2023_P2_020",
+      "no": 20,
+      "derived_ans": "B",
+      "exp": "MPSC's official key marks (c), which settles what this app previously recorded as a genuine disagreement. Process migration is the transfer of a running process from one processor or node to another, and in a multiprocessor system the reason to do it is load balancing - the definition the key takes. Option (b) describes the mechanical act of moving a process and is not wrong as a description, but (c) names what process migration is FOR, and it is the answer that scores.",
+      "note": "Official key marks (c) Distributing processes across CPUs for load balancing; this app previously derived (b). This was one of the 20 split findings from the 2026-09-02 audit - and chasing it is what turned up the official key for this entire sitting, so it is the reason every other ILM2023 card is now badged official.",
+      "note_mode": "append"
+    }
+  ]
+}

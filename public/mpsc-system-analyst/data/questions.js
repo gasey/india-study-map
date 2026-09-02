@@ -16297,8 +16297,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "This matches the brief's known OCR pattern where '>' stands in for '→': the standard notation for a mapping/function from set A to set B is A → B.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q1; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q1; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16319,8 +16319,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "A mapping is surjective (onto) when every element of the codomain has at least one pre-image in the domain.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q2; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q2; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16341,8 +16341,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A partially ordered set (poset) is a set equipped with a binary relation that is reflexive, antisymmetric, and transitive.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q3; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q3; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16363,8 +16363,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A lattice is a poset in which every pair of elements has both a least upper bound (join) and a greatest lower bound (meet).",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q4; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q4; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16385,8 +16385,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "The base case of an induction proof establishes that the hypothesis holds for the starting value (e.g. n=0 or n=1), not for all values.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q5; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q5; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16403,13 +16403,13 @@ window.QUESTIONS = [
    "A": "Geometric theorems",
    "B": "Algebraic equations",
    "C": "Analytical calculus problems",
-   "D": "Logical propositions Bay"
+   "D": "Logical propositions"
   },
-  "ans": "D",
-  "exp": "Mathematical induction is used to prove statements (logical propositions) indexed by the natural numbers, not specifically geometric, algebraic, or calculus results. The trailing 'Bay' in option (d) is OCR noise and can be ignored.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q6; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "B",
+  "exp": "MPSC's official key marks (b). Induction is most often drilled on algebraic identities - summation formulas, divisibility, inequalities - and that is the sense the key takes. Strictly, induction proves any proposition P(n) indexed by the natural numbers, so (d) is the broader and arguably better description; this paper offers both and the key chose the narrower one. Learn the mechanism - prove the base case, then prove P(k) implies P(k+1) - rather than this letter.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q6; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
+  "note": "Official key marks (b) Algebraic equations; this app previously derived (d) Logical propositions. Both name real uses of induction and (d) is the more general statement, so do not read (b) as meaning induction is limited to algebra. Option (d) read 'Logical propositions Bay' - the trailing 'Bay' was scanner noise and has been removed against the source page. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_007",
@@ -16429,8 +16429,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Reading '-(P A Q)' as ¬(P ∧ Q) (a common OCR pattern where ∧ prints as 'A'): with P and Q both true, P∧Q is true, so its negation is False.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q7; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q7; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16451,8 +16451,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Two logical expressions are logically equivalent exactly when they produce the same truth value under every possible assignment to their variables.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q8; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q8; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16471,11 +16471,11 @@ window.QUESTIONS = [
    "C": "n!*r!",
    "D": "n!-r!"
   },
-  "ans": "A",
-  "exp": "None of the printed options is the actual combinations formula n!/(r!(n-r)!); option (a) 'n!/(n-r)!' is the permutations formula, not combinations. This looks like OCR dropped the 'r!' factor from the true combinations formula, so option (a) is the closest recoverable intent, but the question is defective as printed.",
-  "conf": "low",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q9; answer derived by review - no official key exists for this sitting; question defective as printed",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "B",
+  "exp": "MPSC's official key marks (b). Verified by eye against the source page: the paper really does print (a) n!/(n-r)!  (b) n!/r!  (c) n!*r!  (d) n!-r!, and NONE of them is the number of combinations, which is C(n,r) = n!/(r!(n-r)!). So this question has no correct option and the extraction is faithful - the error is the paper's, not the pipeline's. Learn the two formulas that matter: C(n,r) = n!/(r!(n-r)!) and P(n,r) = n!/(n-r)!, which is what option (a) actually is.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q9; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); question defective as printed",
+  "note": "DEFECTIVE QUESTION - official key marks (b) n!/r!, which is not the combinations formula; neither is any other option. Confirmed against the source scan, so this is the paper's own error rather than extraction damage. This app previously derived (a), the permutations formula. Memorise C(n,r) = n!/(r!(n-r)!) and ignore the letter. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_010",
@@ -16495,8 +16495,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "C(7,3) = 7!/(3!4!) = 35.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q10; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q10; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16517,8 +16517,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A recurrence relation expresses each term of a sequence in terms of one or more of its preceding terms.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q11; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q11; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16539,8 +16539,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "The Fibonacci recurrence is F(n) = F(n-1) + F(n-2); option (a) has an obvious OCR typo ('m-2' for 'n-2') but is otherwise the standard, correct relation.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q12; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q12; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16561,8 +16561,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "The chromatic number of a graph is the minimum number of colors needed to color its vertices so that no two adjacent vertices share a color.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q13; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q13; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16583,8 +16583,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "The described problem — a closed walk traversing every edge exactly once — is the Euler circuit / Konigsberg bridges problem, which is not actually among the listed options. None of the four choices is correct as printed; the Traveling Salesman Problem is picked here only as the closest 'tour/circuit' concept, but this question is defective.",
-  "conf": "low",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q14; answer derived by review - no official key exists for this sitting; question defective as printed",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q14; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); question defective as printed",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16605,8 +16605,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A spanning tree connecting n vertices with no cycles requires exactly n-1 edges, the minimum possible for a connected graph on n vertices.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q15; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q15; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16627,8 +16627,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Kruskal's algorithm builds a minimum spanning tree by greedily adding the cheapest edge that doesn't form a cycle; BFS/DFS are traversal algorithms and Dijkstra's finds shortest paths, not an MST.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q16; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q16; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16649,8 +16649,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Graph isomorphism requires a structure-preserving bijection between vertices, which in particular preserves the degree of each vertex (a necessary, though not sufficient, isomorphism invariant) — the strongest match among the listed options. The stray trailing 'a' in option (d) is OCR noise.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q17; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q17; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16671,8 +16671,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "An NFA accepts an input string if there exists at least one computation path from the start state to some final state on that string.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q18; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q18; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16693,8 +16693,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "By definition, a DFA has exactly one transition per state per input symbol — that determinism is what makes it a DFA rather than an NFA.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q19; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q19; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16715,8 +16715,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "State minimization (merging indistinguishable states) is a DFA concept; NFAs, PDAs, and TMs are not minimized in this standard sense.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q20; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q20; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16737,8 +16737,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "In a Moore machine, output is a function of the current state alone, so each state has one fixed output regardless of the input applied.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q21; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q21; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16759,8 +16759,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Type-1 (context-sensitive) grammars are defined precisely as the grammars that generate context-sensitive languages; they are not context-free grammars and are strictly more powerful than what a finite automaton can parse.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q22; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q22; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16781,8 +16781,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Type-3 grammars are, by definition, regular grammars, and they generate exactly the regular languages.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q23; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q23; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16803,8 +16803,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Fuzzy set membership values range over the closed interval [0,1]; option (a) 'Otol' is OCR-garbled shorthand for '0 to 1'.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q24; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q24; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16825,8 +16825,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Fuzzy union (typically the max of membership values) is the fuzzy-logic analogue of classical logical OR.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q25; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q25; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16847,8 +16847,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Power MOSFETs are the device of choice for high-current switching because their low on-resistance lets them handle large currents efficiently with minimal conduction loss, which is why they dominate modern power-switching applications over plain BJTs.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q26; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q26; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16867,11 +16867,11 @@ window.QUESTIONS = [
    "C": "The emitter voltage",
    "D": "The transition capacitance"
   },
-  "ans": "D",
-  "exp": "A transistor's switching speed is limited chiefly by how quickly its junction (transition) capacitances can charge and discharge as it turns on/off.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q27; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "B",
+  "exp": "MPSC's official key marks (b). How hard the base is driven sets how fast a BJT crosses between cut-off and saturation: a larger base current supplies and then removes the stored base charge sooner, shortening turn-on and turn-off time, which is why deliberately overdriving the base is the standard trick for faster switching. The transition (junction) capacitances in (d) are the underlying physical limit rather than the factor a designer varies, so (d) is defensible - but the key answers for the base drive.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q27; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
+  "note": "Official key marks (b) The base current; this app previously derived (d) The transition capacitance. Both are genuine factors - base drive is what a circuit designer controls, junction capacitance is the physical floor it works against. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_028",
@@ -16889,11 +16889,11 @@ window.QUESTIONS = [
    "C": "Distributive Law",
    "D": "Identity Law"
   },
-  "ans": "A",
-  "exp": "The commutative law states A+B=B+A and A.B=B.A -- the order of the operands doesn't matter; the associative law is about grouping, not order.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q28; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "B",
+  "exp": "The associative law is precisely about the order in which the operations are carried out: (A+B)+C = A+(B+C) and (A.B)C = A(B.C) - regroup the operations and the result is unchanged. The commutative law in (a) is about the order of the OPERANDS (A+B = B+A), which is a different claim. The question says 'order of operations', so (b) is right and MPSC's official key agrees.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q28; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
+  "note": "Official key marks (b) Associative Law, and it is correct. This app previously stored (a) Commutative Law, which confused order of operands with order of operations - the earlier answer was simply wrong. Commutative moves operands, associative regroups operations. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_029",
@@ -16907,15 +16907,15 @@ window.QUESTIONS = [
   "q": "Boolean function y(x'z + xz') + x(yz+ yz') can be simplified as",
   "opts": {
    "A": "x+y",
-   "B": "x",
+   "B": "x'",
    "C": "y",
-   "D": "z i es"
+   "D": "z"
   },
-  "ans": "D",
-  "exp": "y(x'z+xz') + x(yz+yz') simplifies as follows: yz+yz'=y, so the second term is xy. Expanding the first term gives x'yz+xyz'. Combining xyz' with the xy already found (xyz'+xy=xy) leaves x'yz+xy = y(x+z) = xy+yz. This doesn't match any of the plain single-letter options (x+y, x, y); option D's text is corrupted ('z i es') and was likely the intended (also mangled) correct answer before extraction damaged it, so this is treated as unresolvable from the given options.",
-  "conf": "low",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q29; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "",
+  "exp": "MPSC compensated this question: its official key prints '(Compensated)' where a letter should be, meaning no option was accepted and every candidate was credited. That is the right call. Simplifying: y(x'z + xz') + x(yz + yz') = x'yz + xyz' + xyz = x'yz + xy = y(x + x'z) = y(x + z) = xy + yz. None of (x+y), (x'), (y) or (z) equals xy + yz, so the question has no answer as printed. Worth doing as a simplification drill - note the absorption step x + x'z = x + z.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q29; MPSC compensated this question in its official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 - the key prints '(Compensated)' in place of a letter, so not one of the printed options was accepted; question defective as printed; OCR damage in source scan",
+  "note": "COMPENSATED BY MPSC - the official key prints '(Compensated)', so no answer exists; this card is excluded from tests, scoring and accuracy statistics. Verified from source: the function simplifies to y(x+z) = xy+yz, which is not among the four options. Options (b) and (d) were damaged in extraction and have been repaired against the source page - (b) is x' (not 'x') and (d) is z (not 'z i es'). This app previously stored a low-confidence guess of (d). Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_030",
@@ -16935,8 +16935,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Building a truth table and grouping adjacent cells with the same output value is exactly what a Karnaugh map does; Quine-McCluskey instead uses tabular prime-implicant comparison, not a truth-table grid.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q30; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q30; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16957,8 +16957,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Plotting f(a,b,c,d)=Sum(0,1,2,3,4,5,6,7,8,10,13) on a K-map: all of a=0 (minterms 0-7) is covered by a'. The remaining a=1 minterms are 8,10,13. b'd' (ignoring a and c) covers exactly {0,2,8,10}, all present, adding 8 and 10 for free. The last minterm, 13, pairs with minterm 5 (present, differs only in a) to give bc'd. So the minimal SOP is a' + b'd' + bc'd, matching option C once its garbled 'be'd' is read as 'bc'd' (a common OCR c/e confusion).",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q31; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q31; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -16979,8 +16979,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The point of minimizing a Boolean expression with a K-map is to use fewer gates/literals, producing a smaller, more efficient physical circuit; the other effects listed aren't guaranteed consequences.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q32; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q32; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17001,8 +17001,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "XOR outputs 1 only when its inputs differ; with both inputs at 1 they're equal, so the output is 0.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q33; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q33; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17023,8 +17023,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "In DTL, a diode network forms the AND function on the inputs (each input diode conducts unless its input is high), with a transistor stage afterward providing inversion to make it a NAND gate.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q34; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q34; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17038,16 +17038,16 @@ window.QUESTIONS = [
   "sub": "MOSFETs",
   "q": "What is the typical threshold voltage polarity fora PMOS transistor?",
   "opts": {
-   "A": "Positive threshold voltage ;",
+   "A": "Positive threshold voltage",
    "B": "Negative threshold voltage",
    "C": "Zero threshold voltage",
    "D": "Variable threshold voltage"
   },
-  "ans": "B",
-  "exp": "A PMOS transistor turns on when its gate-source voltage is sufficiently negative, so its threshold voltage is defined as negative.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q35; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "A",
+  "exp": "MPSC's official key marks (a) - and this is one to read carefully rather than memorise. Under the ordinary convention an enhancement-mode PMOS transistor has a NEGATIVE threshold voltage: it turns on when V_GS falls below V_th, with V_th typically around -0.5 V to -1 V. That is option (b). The key's (a) is only defensible if the threshold is quoted as a magnitude |V_th|, or referenced as V_SG (source-to-gate) instead of V_GS - a convention some texts do use. Learn the physics: a PMOS conducts on a negative gate-source voltage.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q35; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
+  "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (a) Positive; this app previously derived (b) Negative. For enhancement-mode PMOS the threshold is negative (V_th < 0) under the usual V_GS convention, so (b) is what you should learn as the physics; (a) is true only if the threshold is read as a magnitude or as V_SG. Option order was verified against the source page, so this is a genuine key/convention conflict and not extraction damage. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_036",
@@ -17067,8 +17067,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "NAND and NOR are realized directly and efficiently as single complementary pull-up/pull-down transistor networks and are the true basic CMOS building blocks (and are functionally universal); XOR/XNOR are not built as a single simple network and need extra transistors or combinations of basic gates. Between the two, XOR is the one most commonly cited as 'not a basic CMOS gate' in this style of question, though XNOR is equally non-basic by the same reasoning.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q36; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q36; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17089,8 +17089,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Using a complementary pMOS pull-up and nMOS pull-down means only one of the pair conducts in steady state, so almost no current flows except during switching -- giving CMOS its hallmark low static power consumption and, because the output always swings fully between rails, good noise immunity.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q37; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q37; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17111,8 +17111,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Combinational circuits have no internal memory; their output at any instant depends only on the present input combination, unlike sequential circuits which also depend on stored state.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q38; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q38; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17133,8 +17133,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Adding three 1s: 1+1+1=3, which in binary is 11, so Sum=1 and Carry-out=1 (the trailing 'BSc' text in this option is unrelated OCR debris, not part of the answer).",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q39; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q39; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17155,8 +17155,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A digital comparator's job is to compare two binary numbers and output their relationship (equal, greater than, or less than).",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q40; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q40; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17177,8 +17177,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A multiplexer selects one signal out of several inputs (based on its select lines) and routes it to a single output; the odd spacing in option B ('frrom') is just an OCR typo.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q41; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q41; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17199,8 +17199,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "In a DSL line, voice and broadband data share the same copper pair and must be split apart at the modem/splitter -- the closest of the given choices to a demultiplexer's job of separating a combined signal into its component streams -- though strictly this splitting is usually done by frequency filters, not a classic logic demultiplexer.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q42; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q42; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17221,8 +17221,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Every flip-flop type has two stable states, so that alone doesn't distinguish them, but the D flip-flop is the one conventionally described as the basic single-bit data-storage element, directly latching whatever value is on its D input.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q43; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q43; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17243,8 +17243,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The clock signal tells a flip-flop exactly when to sample/store its input, synchronizing data transfer with every other clocked element in the circuit.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q44; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q44; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17265,8 +17265,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "In an SR flip-flop, setting both S and R to 1 simultaneously drives it into an undefined/forbidden state, which is the classic drawback that JK flip-flops were designed to fix.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q45; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q45; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17285,11 +17285,11 @@ window.QUESTIONS = [
    "C": "JK flip-flop",
    "D": "SR flip-flop"
   },
-  "ans": "D",
-  "exp": "Of the four, the plain SR configuration is the one usually built as a simple cross-coupled gate latch with no clock input at all (an SR latch), commonly used for basic synchronizing/debouncing tasks; D, T and JK flip-flops are conventionally clocked devices.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q46; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "A",
+  "exp": "MPSC's official key marks (a), and the question contradicts itself. A D flip-flop is clocked by definition, so it cannot 'not have a clock input' - but a D flip-flop, specifically a two-stage D synchroniser, IS the standard circuit for bringing an asynchronous signal into a clock domain, which is almost certainly the clause the key answered. The genuinely clockless device among these options is the SR latch in (d). Note that Q43 and Q45 of this paper offer the same four options and are keyed (a) and (d) respectively, both correctly, so the key is internally consistent - it read this question by its first clause and ignored the second.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q46; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
+  "note": "KEY ANSWERS ONLY HALF THE QUESTION. Official key marks (a) D flip-flop; this app previously derived (d) SR flip-flop. The question is self-contradictory: D flip-flops are clocked but are the standard signal synchroniser, while the clockless part is the SR latch. Learn both facts rather than the letter. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_047",
@@ -17309,8 +17309,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "The Program Counter holds the address of the next instruction to fetch and execute.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q47; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q47; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17331,8 +17331,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Quantization is the step in A/D conversion that maps a continuous range of analog voltage values onto a finite set of discrete digital levels.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q49; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q49; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17353,8 +17353,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "SSDs store data in NAND flash memory cells rather than on spinning magnetic or optical media.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q50; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q50; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17375,8 +17375,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "VLIW stands for Very Long Instruction Word, an architecture that packs multiple independent operations into one long instruction word.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q51; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q51; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17397,8 +17397,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "CISC stands for Complex Instruction Set Computer, characterized by a large set of instructions, some of which perform multi-step operations in a single instruction.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q52; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q52; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17419,8 +17419,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "The dirty bit on a cache line records whether that line has been written to (modified) since it was loaded, so the CPU/cache controller knows whether it must be written back to main memory before being evicted.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q53; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q53; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17441,8 +17441,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A zero-address instruction format assumes operands are implicitly on the stack, so instructions need no explicit address fields -- push/pop and arithmetic operate on whatever is on top of the stack.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q54; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q54; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17463,8 +17463,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "On a 64-bit machine the word size is 64 bits, and 64 bits / 8 = 8 bytes.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q55; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q55; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17485,8 +17485,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "This entry's option D has clearly been merged with an entirely unrelated second question (about interpreters) during extraction, corrupting the option list. Answering only the original question: the BIOS/bootstrap firmware that holds the boot sector loading code is stored in ROM, since it must survive power-off and be available before any other software runs.",
-  "conf": "low",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q56; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q56; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); question defective as printed; OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17505,11 +17505,11 @@ window.QUESTIONS = [
    "C": "Microinstructions",
    "D": "Memory address"
   },
-  "ans": "B",
-  "exp": "The control unit decodes the opcode field of the fetched instruction to determine which control signals to assert for that operation; in a microprogrammed design those signals are themselves stored as microinstructions, but the opcode is what selects which microinstruction sequence runs.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q58; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "C",
+  "exp": "MPSC's official key marks (c). In a microprogrammed control unit the control signals are literally the bits of microinstructions held in control memory: the opcode selects WHICH microinstruction sequence runs, and the microinstructions are what then generate the signals. The question asks what the control unit uses to generate them, so (c) is the better answer and (b) names the input that selects them. Q67 and Q68 of this paper test the same idea from the other side.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q58; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
+  "note": "Official key marks (c) Microinstructions; this app previously derived (b) Opcode. The opcode selects the microinstruction sequence; the microinstructions generate the control signals. The key is the better reading of 'uses to generate'. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_059",
@@ -17529,8 +17529,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The system clock provides the timing reference that keeps all the CPU's and bus's operations synchronized with each other (the odd spacing in 'Itsynchronizes' is just an OCR artifact).",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q59; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q59; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17551,8 +17551,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A linker's job is to resolve cross-references between separately assembled/compiled modules (e.g. calls to functions defined in another file) and combine them into one executable.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q60; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q60; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17573,8 +17573,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Micro-operations are the elementary register-transfer-level actions (e.g. load a register, shift, add in the ALU) that directly control the CPU's internal components while an instruction executes (the trailing 'By a' text is unrelated OCR debris).",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q61; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q61; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17595,8 +17595,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The Memory Buffer/Data Register acts as the intermediary holding area for data moving between memory and the CPU's other registers.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q62; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q62; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17617,8 +17617,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Register transfer operations move data between registers and can also route it through the ALU to perform arithmetic/logic operations as part of the transfer.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q63; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q63; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17639,8 +17639,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Registers, being built directly into the CPU and accessed in a single cycle with no addressing overhead, are faster than any level of cache or DRAM.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q64; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q64; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17661,8 +17661,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "In a two-pass assembler, Pass 1 builds the symbol table (resolving label addresses) and Pass 2 uses that table to generate the actual machine code.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q65; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q65; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17681,11 +17681,11 @@ window.QUESTIONS = [
    "C": "Efficient arithmetic operations",
    "D": "Easy conversion"
   },
-  "ans": "D",
-  "exp": "BCD's main selling point is that each decimal digit maps directly onto a fixed 4-bit code, making conversion to and from human-readable decimal (e.g. for displays) trivial -- at the cost of using more bits and slower arithmetic than pure binary.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q66; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "A",
+  "exp": "MPSC's official key marks (a), which needs a caveat. Measured against pure binary, (a) is wrong: BCD spends 4 bits per decimal digit and wastes 6 of the 16 codes, so it is LESS compact than binary and its arithmetic is slower, not faster. The key is defensible only in the commercial data-processing sense - packed BCD holds two digits per byte, twice as compact as keeping those digits as ASCII or EBCDIC characters, which was the real alternative in that world. The advantage textbooks normally name is (d): conversion to and from decimal is trivial and digit-by-digit, which is why BCD drives displays.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q66; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
+  "note": "KEY IS TRUE ONLY IN A NARROW SENSE. Official key marks (a) Compact storage; this app previously derived (d) Easy conversion. BCD is less compact than binary but more compact than character-encoded decimal, which is the only reading that makes (a) true. Do not learn 'BCD is compact' as a general fact - and (d) is the advantage standard texts give. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_067",
@@ -17705,8 +17705,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Because microprogrammed control stores its control logic as data (microcode) rather than hardwired circuitry, it can be changed or extended much more easily than a hardwired design, at some cost in raw speed.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q67; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q67; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17727,8 +17727,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Microprogrammed control works by executing a sequence of microinstructions, each specifying the control signals for one step, stored in control memory.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q68; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q68; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17749,8 +17749,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "In floating-point representation, the mantissa (significand) holds the actual significant digits of the value, while the exponent field determines its magnitude/scale.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q69; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q69; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17771,8 +17771,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Peek (or top) returns the value at the top of the stack without removing it, unlike pop which removes it.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q70; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q70; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17793,8 +17793,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Every recursive function call is pushed onto the call stack, making recursive function calls a canonical stack application.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q71; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q71; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17815,8 +17815,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Because every instruction is the same length, the decoder always knows exactly where the opcode and operand fields fall, simplifying (and speeding up) instruction decoding compared to variable-length formats.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q72; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q72; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17837,8 +17837,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "The opcode field of an instruction specifies which operation (add, load, jump, etc.) the CPU is to perform.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q73; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q73; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17859,8 +17859,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A data hazard occurs when an instruction in the pipeline needs a result from a previous instruction that hasn't finished computing it yet.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q74; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q74; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17881,8 +17881,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The classic pipeline stage order is Fetch, Decode, Execute, Memory access, Write-back (IF-ID-EX-MEM-WB).",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q75; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q75; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17903,8 +17903,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Array elements are accessed via their index/position, which maps directly to an offset from the base address.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q76; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q76; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17925,8 +17925,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Across most mainstream languages (Python, Java, JavaScript, C++ std::string, etc.) the '+' operator is the common way to concatenate strings, though a few languages (e.g. classic BASIC/VB) use '&' instead.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q77; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q77; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17947,8 +17947,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Bitwise manipulation operates on raw binary representations of numbers, not on the character-level operations (concatenation, comparison, substring) that strings support.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q78; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q78; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17969,8 +17969,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A bit field is a structure member (or variable) declared to occupy a specific, often sub-byte, number of bits, letting several small values pack into one word or byte.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q79; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q79; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -17989,11 +17989,11 @@ window.QUESTIONS = [
    "C": "Organizing files ina folder",
    "D": "Allocating memory for variables"
   },
-  "ans": "B",
-  "exp": "In programming, 'packing' means storing data more tightly/compactly (e.g. multiple small values into fewer bits or bytes) so it takes up less space, matching 'compressing data to reduce its size.'",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q80; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "D",
+  "exp": "MPSC's official key marks (d). 'Packing' in programming is a statement about memory layout: a packed structure is laid out without the padding bytes a compiler normally inserts to keep fields aligned, so it is about how memory is allocated to variables. That is distinct from (b) compression, which re-encodes data to make it smaller and has to be decompressed before use - packed data is used in place. The two words are close enough in everyday speech that (b) is the natural trap.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q80; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
+  "note": "Official key marks (d) Allocating memory for variables; this app previously derived (b) Compressing data to reduce its size. Packing = laying out fields without padding, a memory-allocation question; compression = re-encoding to shrink data. The key is right. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_081",
@@ -18013,8 +18013,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Efficient algorithm design is primarily judged by minimizing the number of steps needed (time complexity) as input size grows, rather than code brevity or guaranteed perfect accuracy.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q81; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q81; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18035,8 +18035,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Time complexity is defined as the number of elementary steps an algorithm takes as a function of input size, not the algorithm's real-world clock time (which depends on the machine); option D's meaning is still clear despite trailing OCR garbage.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q82; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q82; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18057,8 +18057,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Big O notation expresses the upper bound on how an algorithm's running time grows as input size increases.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q83; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q83; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18079,8 +18079,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Quicksort has the best average-case performance in practice among these four (average O(n log n) with small constants), even though merge sort shares the same asymptotic O(n log n) average; bubble and insertion sort are O(n^2) on average.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q84; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q84; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18101,8 +18101,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Bubble sort's worst case (input in reverse order) requires roughly n^2/2 comparisons and swaps, i.e. O(n^2), shown garbled as 'O(n'2)' in option C.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q85; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q85; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18123,8 +18123,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Binary search halves the remaining search interval on each comparison, giving O(log n) time on a sorted array.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q86; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q86; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18145,8 +18145,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Checking elements one after another in sequence until a match is found is the definition of linear (sequential) search.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q87; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q87; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18167,8 +18167,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Without a reachable base case, a recursive function keeps calling itself indefinitely, exhausting the call stack and causing a stack overflow.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q88; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q88; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18189,8 +18189,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Push and pop only touch the top of the stack, so both run in constant time, O(1), regardless of how many elements are stored.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q89; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q89; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18211,8 +18211,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Enqueue is the operation that adds a new element to the back (rear) of a queue; dequeue removes from the front.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q90; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q90; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18233,8 +18233,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "A linked list lets enqueue/dequeue run in O(1) time with no wasted space or shifting, which is why it's commonly used to implement queues efficiently (a plain array would need shifting or awkward circular-index bookkeeping).",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q91; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q91; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18255,8 +18255,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A Set is the ADT that represents a collection of distinct elements with no inherent ordering.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q92; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q92; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18275,11 +18275,11 @@ window.QUESTIONS = [
    "C": "Hash table",
    "D": "Binary Search Tree"
   },
-  "ans": "A",
-  "exp": "Priority queues are typically implemented with a binary heap, and a binary heap is conventionally stored compactly in an array (using index arithmetic for parent/child) rather than as a linked structure.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q93; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "ans": "D",
+  "exp": "MPSC's official key marks (d). The canonical priority queue is a binary heap - which this paper does not offer - so among the four options a balanced binary search tree is the one giving O(log n) insert and O(log n) extract-min. A bare (a) 'Array' is O(n) for one of those two operations whichever way you keep it ordered; the earlier answer leaned on 'a heap is stored in an array', but the option says only 'Array'. A linked list is O(n), and a hash table cannot answer 'which key is smallest' at all.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q93; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
+  "note": "Official key marks (d) Binary Search Tree; this app previously derived (a) Array. The textbook answer is a binary heap, which is not among the options; of the four given, a BST is the efficient one. Do not read this as 'BSTs beat heaps for priority queues' - they do not. Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
   "id": "ILM2023_P1_094",
@@ -18299,8 +18299,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Union-Find (disjoint set) is most often paired with depth-first search as an alternative technique for detecting cycles/connected components in a graph (it's also central to Kruskal's MST algorithm, which isn't one of the options here); I'm not fully confident this is the pairing intended, since none of the four options is its most standard textbook use.",
-  "conf": "low",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q94; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q94; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18321,8 +18321,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "By definition a binary tree node has at most 2 children.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q95; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q95; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18343,8 +18343,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "In-order traversal visits the left subtree, then the node itself, then the right subtree, which for a BST yields keys in ascending order.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q96; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q96; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18365,8 +18365,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "AVL trees are the classic self-balancing BST that performs rotations (single/double) after insertions or deletions to restore the height-balance property.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q98; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q98; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18387,8 +18387,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A B-tree of order m allows at most m children per node, and a node with k children holds k-1 keys, so the maximum is m-1 keys (shown as 'm-l' due to OCR misreading '1' as 'l').",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q99; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q99; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18409,8 +18409,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "B-trees (and B+-trees) are the standard indexing structure used by file systems and database engines because they minimize disk I/O for large, disk-resident datasets.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q100; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q100; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  },
  {
@@ -18431,8 +18431,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A batch OS collects and runs jobs one at a time to completion with no interactive switching, which matches 'handles multiple tasks one at a time and finishes each before the next.'",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q1; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q1; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18453,8 +18453,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Protection mechanisms restrict access to resources so that one process/user cannot improperly access another's data, which is best captured here as 'ensuring data privacy'; kept at medium confidence since 'managing hardware resources' is a plausible but less precise distractor.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q2; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q2; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18475,8 +18475,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A critical section is a piece of code accessing shared data that must run atomically (without interleaving from other processes) to avoid race conditions.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q3; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q3; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18497,8 +18497,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Shortest Job Next always dispatches the process with the smallest remaining burst time, which provably minimizes average turnaround time among non-preemptive schedulers.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q4; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q4; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18519,8 +18519,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Deadlock detection commonly builds and analyses a resource allocation graph, looking for cycles that indicate a deadlock.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q5; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q5; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18541,8 +18541,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Virtual memory lets a process's logical address space exceed physically available RAM, i.e. it expands the usable address space.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q6; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q6; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18563,8 +18563,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Among FIFO, LRU, LIFO and Random, LRU exploits recency of use and empirically produces fewer page faults than the others (though the theoretical optimum is Belady's OPT, which isn't offered here).",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q7; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q7; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18581,13 +18581,13 @@ window.QUESTIONS = [
    "A": "Sequential",
    "B": "Indexed",
    "C": "Hashed",
-   "D": "Linked ee ee eee Lea"
+   "D": "Linked"
   },
-  "ans": "C",
-  "exp": "Hashed (direct) file organization computes a record's location from its key, giving direct access to any record; sequential only supports ordered scanning and indexed needs an index lookup step. Option D's text is OCR garbage but not the intended answer.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q8; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
+  "ans": "B",
+  "exp": "MPSC's official key marks (b). In file-organisation taxonomy an indexed file keeps a key-to-address index, and looking a key up in that index is what lets a program jump straight to any record - the property this question names. Hashed organisation in (c) also reaches a record directly, by computing its address from the key, and many texts call that 'direct' organisation, so (c) is defensible; the distinction is that indexed access goes through a lookup and can also be read in key order, whereas hashing scatters records and cannot be scanned in order.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q8; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
+  "note": "Official key marks (b) Indexed; this app previously derived (c) Hashed. Both give direct access by key - indexed through a lookup table, hashed by computing the address - so learn the difference rather than the letter. Option (d) read 'Linked ee ee eee Lea'; the source page prints simply 'Linked' and it has been repaired. Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
   "id": "ILM2023_P2_009",
@@ -18607,8 +18607,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A real-time OS is specifically built to guarantee responses to external events within a bounded time frame, unlike batch, interactive or time-sharing systems.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q9; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q9; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18629,8 +18629,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Demand paging loads only the pages actually referenced instead of the whole process, avoiding wasted faults/I/O on pages that would never be touched; of the given options this is closest to 'reducing page faults', though the more standard textbook framing is that it reduces memory/load overhead, so kept at medium confidence.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q10; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q10; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18651,8 +18651,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Fixed-partition multiprogramming's main selling point over more elaborate schemes is how simple it is to implement (fixed-size regions, simple bookkeeping), at the cost of internal fragmentation.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q11; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q11; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18673,8 +18673,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A semaphore's core role in synchronization is enforcing mutual exclusion (and more generally coordinating access) around shared resources/critical sections.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q12; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q12; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18695,8 +18695,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Round Robin gives every process an equal, fixed time quantum in rotation, which is why it is specifically known for fairness among CPU scheduling algorithms.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q13; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q13; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18717,8 +18717,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Deadlock is the state where a set of processes are each waiting on resources held by another in the set, so none can proceed -- a resource-conflict standstill, not merely an infinite loop or I/O wait.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q14; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q14; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18739,8 +18739,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Priority inversion occurs when a high-priority process is forced to wait because a lower-priority process is holding a resource it needs, effectively inverting the intended priority order.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q15; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q15; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18761,8 +18761,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Variable partitions size each region exactly to the process it holds, eliminating the internal fragmentation that fixed partitions suffer, so memory is used more efficiently.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q16; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q16; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18783,8 +18783,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "The working set is the set of pages a process has actively referenced over its most recent window of execution, used to decide how much memory it needs resident to avoid thrashing.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q17; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q17; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18805,8 +18805,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "I/O buffering holds data/requests temporarily so producer and consumer speeds can be decoupled and synchronized, rather than literally speeding up or slowing down the I/O itself; kept at medium confidence since 'increase speed' is a plausible-sounding distractor.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q18; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q18; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18827,8 +18827,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "SSTF (Shortest Seek Time First) greedily services whichever pending request is closest to the current head position, directly minimizing seek time for the next move (though not necessarily overall). The trailing 'at' in the option is OCR noise.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q19; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q19; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18847,11 +18847,11 @@ window.QUESTIONS = [
    "C": "Distributing processes across CPUs for load balancing",
    "D": "Moving one process to another process"
   },
-  "ans": "B",
-  "exp": "Process migration is the act of moving a process (and its state) from one CPU/node to another, typically for load balancing; option B is the only one that explicitly describes 'moving' a process, so it best matches the term, though it is worded loosely with 'memory partitions'. Kept medium confidence against option C, which describes the purpose (load balancing) rather than the migration action itself.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q20; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
+  "ans": "C",
+  "exp": "MPSC's official key marks (c), which settles what this app previously recorded as a genuine disagreement. Process migration is the transfer of a running process from one processor or node to another, and in a multiprocessor system the reason to do it is load balancing - the definition the key takes. Option (b) describes the mechanical act of moving a process and is not wrong as a description, but (c) names what process migration is FOR, and it is the answer that scores.",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q20; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
+  "note": "Official key marks (c) Distributing processes across CPUs for load balancing; this app previously derived (b). This was one of the 20 split findings from the 2026-09-02 audit - and chasing it is what turned up the official key for this entire sitting, so it is the reason every other ILM2023 card is now badged official. Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
   "id": "ILM2023_P2_021",
@@ -18871,8 +18871,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Round Robin is defined by giving each process a fixed time quantum/slice before preempting it in favour of the next process in the ready queue.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q21; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q21; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18893,8 +18893,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A race condition occurs when two or more processes access and manipulate shared data concurrently and the final result depends on the unpredictable order of execution.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q22; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q22; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18915,8 +18915,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Compaction shuffles allocated memory together to merge scattered free blocks into one contiguous block, fixing external fragmentation.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q23; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q23; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18937,8 +18937,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Thrashing is the state where a process (or system) spends more time paging pages in and out than doing useful work, i.e. excessive page replacement that tanks performance.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q24; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q24; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18959,8 +18959,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The elevator (SCAN) algorithm sweeps the disk arm in one direction servicing all requests along the way, then reverses at the end, minimizing back-and-forth seeking -- like an elevator.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q25; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q25; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -18981,8 +18981,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The ready queue holds processes that are loaded in memory and waiting for their turn on the CPU, as opposed to waiting on I/O or already finished.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q26; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q26; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19003,8 +19003,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A context switch is the act of saving the state of the currently running process and restoring another process's state so the CPU can run it instead.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q27; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q27; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19025,8 +19025,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Segmentation divides a program's address space into logically meaningful, variable-sized units (code, data, stack, etc.), unlike paging's fixed-size frames. The trailing 'a a' in option D is stray OCR noise.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q28; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q28; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19047,8 +19047,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "System call interposition means intercepting a process's system calls (e.g. for sandboxing, logging, or security policies) to add or alter their behaviour.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q29; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q29; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19069,8 +19069,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Cache coherence is about keeping the copies of shared data held in different caches (e.g. across cores, or across cache levels) consistent with each other so no processor ever reads a stale value; among the given choices this is closest to option B's phrasing, though 'different cache levels' is a slightly loose way to describe it (the classic context is multiple caches in a multiprocessor, not just the L1/L2/L3 hierarchy).",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q30; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q30; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19091,8 +19091,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A device driver's job is to translate generic OS I/O requests into the device-specific operations and communication protocol a particular piece of hardware understands.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q31; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q31; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19113,8 +19113,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Cache associativity describes how many possible cache-line locations a given main-memory block can be placed into (direct-mapped = 1, fully associative = any line, n-way set-associative = n choices) -- i.e. how memory is mapped to cache lines.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q32; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q32; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19135,8 +19135,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Preemption is the scheduler forcibly suspending a running process (even though it hasn't finished or blocked) so another process can run.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q33; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q33; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19157,8 +19157,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Starvation is a process being repeatedly passed over and left waiting for the CPU (or another resource) indefinitely; option D's 'very less CPU time' is a softer restatement of the same idea, which is why this is kept at medium rather than high confidence.",
-  "conf": "medium",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q34; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q34; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19179,8 +19179,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A cluster is the smallest unit of disk space that a file system allocates to a file, usually made up of one or more physical sectors.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q35; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q35; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19201,8 +19201,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "This is the standard Silberschatz description of the per-process current-file-position pointer: because each process reading/writing the same file tracks its own offset, that file pointer must be kept per-process rather than in the shared on-disk file attributes.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q36; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q36; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19223,8 +19223,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "An exclusive (write) lock allows only one process to hold it at a time, mirroring how only one writer may modify a resource; a shared lock permits multiple simultaneous readers instead. Trailing ', Be' in option D is OCR noise.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q37; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q37; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19245,8 +19245,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "A file's extension (or a stored file-type attribute) is what the OS uses to tell what kind of file it is and which operations are valid on it. Option D's text is heavily corrupted because an entire separate question (about buffering/blocking of records) got glued onto it during OCR, but the intended choice, 'Extension', is still recoverable.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q38; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q38; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {
@@ -19267,8 +19267,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The standard prevention technique for hold-and-wait requires that a process never hold a resource while requesting another -- either request everything up front or release what it holds before asking for more, matching option C.",
-  "conf": "high",
-  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q40; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Inspector of Legal Metrology, November 2023, Paper II, Q40; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (39 of 97)."
  },
  {

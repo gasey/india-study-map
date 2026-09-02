@@ -579,15 +579,23 @@ DISPUTED = {
         "part of this question.",
     "ILM2023_P1_014":
         "Describes an **Euler circuit** (every edge once, return to start), which "
-        "is not among the options. The keyed Travelling Salesman Problem is a "
-        "*vertex* tour. The bank's own note admits no option is correct.",
+        "is not among the options. MPSC's official key marks the Travelling "
+        "Salesman Problem, which is a *vertex* tour — so the defect is the "
+        "paper's, not this app's, and it was still scored that way.",
     "ILM2010_P1_047":
         "No abelian group of order 4 has element orders 2, 2, 4: ℤ₄ gives 2, 4, 4 "
         "and the Klein four-group gives 2, 2, 2. Lagrange only rules out the "
         "options containing 3. The keyed multiset is not realisable.",
+    "ILM2023_P1_006":
+        "MPSC's official key marks **algebraic equations**, but *logical "
+        "propositions* is also on the paper and is the better answer: induction "
+        "proves any P(n) over ℕ, not just algebra. Learn base case + inductive "
+        "step; do not take this card to mean induction is an algebra-only tool.",
     "ILM2023_P1_009":
-        "None of the four options is the combinations formula n!/(r!(n−r)!); the "
-        "keyed option is the **permutations** formula. Learn both formulas rather "
+        "None of the four options is the combinations formula n!/(r!(n−r)!) — "
+        "confirmed by reading the source page, so the paper really printed it "
+        "this way. MPSC's official key marks (b) n!/r!, which is not the formula "
+        "either; (a) is the **permutations** formula. Learn both formulas rather "
         "than this question's letter.",
     "MES2023_P1_007":
         "Ambiguous as worded. P(∅) = {∅} has **one element** but **two subsets** "
@@ -623,7 +631,8 @@ DISPUTED = {
         "sort's **worst** case, which this input is the opposite of.",
     "ILM2023_P1_094":
         "Union–Find's canonical use is **Kruskal's MST** (cycle detection), which "
-        "is not among the options. The keyed DFS is not where Union–Find belongs.",
+        "is not among the options. MPSC's official key marks DFS, which is not "
+        "where Union–Find belongs — an official answer, but not a correct one.",
     "PROG2018_P1_027":
         "Both replacements are standard and correct: the **inorder successor** "
         "(keyed) and the **inorder predecessor** are equally valid for deleting a "

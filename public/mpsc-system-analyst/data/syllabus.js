@@ -114,7 +114,7 @@ window.SYLLABUS = {
       "syllabus_text_verbatim": "The nature and standard of questions in the General Studies will be such that a well-educated person will be able to answer them without any specialized study. The questions will be such as to test a candidate's general awareness of a variety of subjects, which will have relevance for a career in Engineering Services. The questions are likely to test the candidate's basic understanding of all relevant issues, and ability to analyze, and take a view on conflicting socio-economic goals, objectives and demands.",
       "scope_note": "The regulation gives no topic list, so the unit breakdown below is derived from what MPSC has actually asked in past General Studies / General Knowledge papers for engineering and technical posts.",
       "scope_revision_2026_09_05": "Unit 11 was ADDED on the evidence of three real engineering GS papers (Oct-2025, July-2023, Jan-2024 = 295 questions). The Jan-2024 PHE paper devotes ELEVEN questions to communication process, listening, group decision making, managerial risk and workplace ethics, and Oct-2025 has one (Gantt charts, dropped at the time for having no home). None of that fits units 1-10, so the original derived list was simply incomplete - the questions were never off-topic. Unit 11's 4 marks are its observed rate (11 of 295, plus the Oct-2025 one). They were taken from unit 7, which observation shows is the most over-weighted unit in the list: IT and digital governance is weighted 10 but appears about 1.4 times per 100 questions. Every paper's units sum to its paper total, so the 4 had to come from somewhere and this was the least-bad place. Unit 10 also gained two leaves (number system/divisibility/squares-cubes, and mensuration/coordinate geometry) at NO marks cost - both are routinely asked and had nowhere to sit, which is why July-2023 Q82 was dropped.",
-      "scope_note_still_open": "The observed distribution says these weights are still wrong beyond the one change made. Against 295 real questions the gaps per 100 are: unit 6 General Science +11.1 (weighted 12, asked 23), unit 10 Reasoning +6.2 (weighted 6, asked 12), unit 3 Geography +4.6, unit 9 Current Affairs +2.6, against unit 7 -4.6 after this revision, unit 4 History -7.6, unit 5 Mizoram -5.3 and unit 2 Economy -4.5. A full evidence-based rebalance is the right next step, but it changes practice sampling weights across the whole paper (app.js samples units in proportion to marks), so it should be a deliberate decision rather than a side effect of an import.",
+      "weights_rebalanced_2026_09_05": "The unit marks below are no longer the original guess. They are now re-derived from what MPSC has actually asked across 296 tagged questions in three sittings, by `tools/system-analyst-build/rebalance_gs_units.py` - re-run it when a fourth sitting is tagged. The guess was off by up to 11 points: General Science was weighted 12 and is asked 22.6 times per 100, IT was weighted 10 and is asked 1.4. That matters because app.js samples practice questions in proportion to unit marks, so a wrong weight served the wrong revision mix. Eight units moved: 6 General Science 12->17, 10 Reasoning 6->9, 3 Geography 10->12, 9 Current Affairs 12->13, 8 Environment 8->7, 2 Economy 12->9, 5 Mizoram 8->5, 4 History 10->6. METHOD: each unit's weight is the mean of its observed rate per 100 questions and its ORIGINAL declared weight - a 50/50 blend, not raw observation. Three papers is a small sample and a syllabus forecasts the next exam rather than describing the last three; weighting purely by observation would put History at 2 and IT at 1, betting the revision plan on MPSC never asking them again. Unit 11 has no prior estimate so it takes observation alone. Totals are forced to exactly 100 by largest-remainder apportionment, since GS is 1 mark per question and a unit's marks are therefore its expected question count. The blend is taken against the ORIGINAL weights rather than whatever is currently in the file, so re-running the script is idempotent instead of drifting further toward observation each time.",
       "units": [
         {
           "no": "1",
@@ -142,7 +142,7 @@ window.SYLLABUS = {
         {
           "no": "2",
           "title": "Indian Economy",
-          "marks": 12,
+          "marks": 9,
           "subtopics": [
             "National income concepts: GDP, GNP, NNP, per capita income",
             "Planning in India and NITI Aayog",
@@ -161,7 +161,7 @@ window.SYLLABUS = {
         {
           "no": "3",
           "title": "Geography",
-          "marks": 10,
+          "marks": 12,
           "subtopics": [
             "Physical geography of India: relief, drainage, climate",
             "Monsoon mechanism",
@@ -178,7 +178,7 @@ window.SYLLABUS = {
         {
           "no": "4",
           "title": "Indian History and National Movement",
-          "marks": 10,
+          "marks": 6,
           "subtopics": [
             "Ancient India: Indus Valley, Vedic period, Mauryas, Guptas",
             "Medieval India: Delhi Sultanate, Mughals, Bhakti and Sufi movements",
@@ -195,7 +195,7 @@ window.SYLLABUS = {
         {
           "no": "5",
           "title": "History and Culture of Mizoram and the North East",
-          "marks": 8,
+          "marks": 5,
           "subtopics": [
             "Origin and migration of the Mizo people",
             "Traditional Mizo society, chieftainship and Zawlbuk",
@@ -211,7 +211,7 @@ window.SYLLABUS = {
         {
           "no": "6",
           "title": "General Science and Technology",
-          "marks": 12,
+          "marks": 17,
           "subtopics": [
             "Physics: units and measurement, motion, force, work, energy, power",
             "Physics: heat, light, sound, electricity, magnetism",
@@ -244,7 +244,7 @@ window.SYLLABUS = {
         {
           "no": "8",
           "title": "Environment, Ecology and Sustainable Development",
-          "marks": 8,
+          "marks": 7,
           "subtopics": [
             "Ecosystems, food chains and biodiversity",
             "Pollution: air, water, soil, noise",
@@ -261,7 +261,7 @@ window.SYLLABUS = {
         {
           "no": "9",
           "title": "Current Affairs and Current Events",
-          "marks": 12,
+          "marks": 13,
           "subtopics": [
             "National current affairs of the preceding 12-18 months",
             "Mizoram and North East current affairs",
@@ -280,7 +280,7 @@ window.SYLLABUS = {
         {
           "no": "10",
           "title": "Reasoning, Quantitative Aptitude and Data Interpretation",
-          "marks": 6,
+          "marks": 9,
           "subtopics": [
             "Number series and letter series",
             "Analogy and classification",

@@ -9,6 +9,92 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-06 — GS unit weights re-derived from 296 real questions, and Practice finally lets you filter by sub-topic
+
+**What shipped.** Two things the last three entries kept deferring.
+
+**1. The GS unit weights are no longer a guess.**
+`tools/system-analyst-build/rebalance_gs_units.py` re-derives them from what
+MPSC has actually asked across the three tagged sittings (296 questions), and
+eight of eleven units moved:
+
+| unit | was | asked /100 | now |
+|---|---|---|---|
+| 6 General Science | 12 | 22.6 | **17** |
+| 10 Reasoning & Aptitude | 6 | 12.5 | **9** |
+| 3 Geography | 10 | 14.9 | **12** |
+| 9 Current Affairs | 12 | 14.2 | **13** |
+| 8 Environment | 8 | 6.8 | **7** |
+| 2 Economy | 12 | 7.4 | **9** |
+| 5 Mizoram | 8 | 2.4 | **5** |
+| 4 History | 10 | 2.4 | **6** |
+
+This was never cosmetic: `app.js` samples practice questions in proportion to
+unit marks, so the old numbers served the wrong revision mix — IT at roughly
+seven times its real rate, reasoning at half.
+
+**The method is a 50/50 blend, not raw observation, and that is the deliberate
+part.** Three papers is a small sample, and a syllabus forecasts the next exam
+rather than describing the last three. Weighting purely by what was asked would
+put History at 2 and IT at 1 — betting the whole revision plan on MPSC never
+asking them again. So each unit's weight is the mean of its observed rate and
+its **original** declared weight, which carries the original judgement that a
+syllabus should cover breadth. Unit 11 has no prior estimate, so it takes
+observation alone. Totals are forced to exactly 100 by largest-remainder
+apportionment, because GS is 1 mark per question and a unit's marks are
+therefore its expected question count.
+
+Two properties worth keeping: the blend is taken against the **original**
+weights rather than whatever is currently in the file, so **re-running is
+idempotent** instead of drifting further toward observation each time — verified
+by running it twice and getting "0 units would change". And it asserts every
+paper still sums to its own total before writing, so the invariant that held
+across all seven papers cannot be broken silently.
+
+**2. Practice can filter by sub-topic, and search.** Every question has carried
+a syllabus leaf for months and there was **no way to reach it** — the only
+controls were Paper, Unit, Sitting, and the due/unseen/wrong/starred toggle. GS
+unit 6 alone holds 77 questions across eleven leaves, and picking "General
+Science" was as narrow as you could get. Now:
+
+- a **Sub-topic** select, populated from the chosen unit and disabled until one
+  is picked, because leaf names only mean anything inside their unit;
+- a **Search** box over the stem, the options and the sub-topic, with **AND**
+  semantics across terms — typing two words narrows, which is what anyone
+  hunting a half-remembered question expects;
+- **live counts on every option**, conditioned on the *other* filters. So
+  "Physics: heat, light, sound… (17)" tells you what you would actually get by
+  picking it, not how many exist in the bank. Picking a sub-topic re-counts the
+  sittings, which is how you discover that those 17 come 9 from Oct-2025, 5 from
+  July-2023, 2 from Jan-2024 and 1 authored.
+
+The old four-case `only` switch was written out twice; it and the new text match
+are now shared helpers (`matchesOnly`, `matchesText`) so the Practice and essay
+filters cannot drift apart. Also fixed a small copy bug that search made
+conspicuous: the pool line read "1 question match".
+
+**Verified in the browser, by driving it rather than by reading the diff.**
+Selected GS → unit 6 → "Physics: heat, light…" and watched the pool go 1638 →
+408 → 77 → 17 with the sitting counts re-deriving to 9+5+2+1=17. Searched
+"monsoon" (4, and the Unit list collapsed to just Geography), then "monsoon
+withdrawal" (1), then a nonsense term (0, with Start disabled), then cleared it
+(back to 408). Filtered GS → unit 11 → "Listening skills…" down to one question
+and **started the session**, which opened Jan-2024 Q47 on critical listening —
+so the filter chain feeds the sampler correctly. Syllabus view renders General
+Science at 17 marks, GS still sums to 100, and all ten views render clean with
+an empty console. `S.questions` was still empty afterwards, so none of this
+recorded a false attempt against real progress. Study guide rebuilds
+byte-identical; all four appliers report 0 changed.
+
+**What's still open.** Unchanged: the July-2024 questions (its key is verified
+and staged), and the eight keyless 2014-2022 engineering GS papers. New: the
+weights should be re-run when a fourth sitting is tagged — that is now one
+command. And the sub-topic filter exists only in Practice; the Essays view still
+has Paper/Unit/Sitting only, which matters less because descriptive questions
+are far fewer, but it is the same one-select gap.
+
+---
+
 ## 2026-09-05 (night) — July-2024's answer key settled from two scans; its questions are NOT imported yet
 
 **What shipped, and what deliberately did not.** The July-2024 MES (Combined)

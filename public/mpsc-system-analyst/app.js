@@ -328,6 +328,30 @@ function isDue(id) {
   return (st.due || 0) <= Date.now();
 }
 
+/* ------------------------------------------------------------- filtering --
+   Shared by the Practice and Question Bank filters so the two cannot drift
+   apart — before this the same four-case switch was written out twice. */
+function matchesOnly(q, only) {
+  const st = S.questions[q.id];
+  switch (only) {
+    case 'due': return isDue(q.id);
+    case 'unseen': return !st || !st.att;
+    case 'wrong': return !!(st && st.att && st.ok < st.att);
+    case 'star': return !!(st && st.star);
+    default: return true;
+  }
+}
+
+// Search the stem, the options and the sub-topic. Every space-separated term
+// must appear somewhere (AND, not OR): typing two words should narrow the pool,
+// which is what anyone hunting for a half-remembered question expects.
+function matchesText(q, text) {
+  const terms = (text || '').toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) return true;
+  const hay = [q.q, q.sub, ...Object.values(q.opts || {})].join(' ').toLowerCase();
+  return terms.every(t => hay.includes(t));
+}
+
 /* --------------------------------------------------------- record answers */
 function recordAnswer(q, picked) {
   const correct = picked === q.ans;
@@ -925,7 +949,10 @@ VIEWS.practice = (el, opts) => {
           ${SYL.papers.filter(p => ANSWERABLE.some(q => q.paper === p.id)).map(p => `<option value="${p.id}">${esc(shortPaper(p.id))}</option>`).join('')}
         </select></label>
         <label class="fld">Unit<select id="fUnit"><option value="">All</option></select></label>
+        <label class="fld">Sub-topic<select id="fSub"><option value="">All</option></select></label>
         <label class="fld">Sitting<select id="fSrc"><option value="">All</option></select></label>
+        <label class="fld">Search<input type="search" id="fQ" placeholder="words in the question…"
+          style="min-width:200px"></label>
         <label class="fld">Filter<select id="fOnly">
           <option value="">Everything</option>
           <option value="due">Due for review</option>
@@ -957,43 +984,62 @@ VIEWS.practice = (el, opts) => {
       filters, and pull the whole matching pool in review order.</p>
     </div>`;
 
-  const sel = { paper: $('#fPaper'), unit: $('#fUnit'), src: $('#fSrc'), only: $('#fOnly'),
-    mode: $('#fMode'), n: $('#fN') };
+  const sel = { paper: $('#fPaper'), unit: $('#fUnit'), sub: $('#fSub'), src: $('#fSrc'),
+    q: $('#fQ'), only: $('#fOnly'), mode: $('#fMode'), n: $('#fN') };
   sel.paper.value = f.paper;
+
+  // Every filter except the one being counted, so an option's count tells you
+  // what you would get by picking it — not how many exist in the whole bank.
+  const matchesExcept = (q, skip) =>
+    (skip === 'paper' || !sel.paper.value || q.paper === sel.paper.value)
+    && (skip === 'unit' || !sel.unit.value || q.unit === sel.unit.value)
+    && (skip === 'sub' || !sel.sub.value || q.sub === sel.sub.value)
+    && (skip === 'src' || !sel.src.value || q.srcKey === sel.src.value)
+    && (skip === 'mode' || !sel.mode.value || modeOf(q.id) === sel.mode.value)
+    && matchesText(q, sel.q.value) && matchesOnly(q, sel.only.value);
 
   function fillUnits() {
     const pid = sel.paper.value;
     const us = pid ? (paperById[pid]?.units || []) : [];
+    const keep = sel.unit.value;
     sel.unit.innerHTML = `<option value="">All</option>` + us
-      .filter(u => ANSWERABLE.some(q => q.paper === pid && q.unit === String(u.no)))
-      .map(u => `<option value="${esc(u.no)}">${esc(u.no)}. ${esc(u.title)} (${u.marks}m)</option>`).join('');
-    if (f.unit) sel.unit.value = f.unit;
+      .map(u => [u, ANSWERABLE.filter(q => q.unit === String(u.no)
+        && matchesExcept(q, 'unit')).length])
+      .filter(([, n]) => n)
+      .map(([u, n]) => `<option value="${esc(u.no)}">${esc(u.no)}. ${esc(u.title)} `
+        + `(${u.marks}m · ${n})</option>`).join('');
+    sel.unit.value = [...sel.unit.options].some(o => o.value === (f.unit || keep))
+      ? (f.unit || keep) : '';
+    f.unit = '';
+  }
+
+  // The sub-topic list is the whole point of tagging every question to a leaf,
+  // and until now there was no way to reach it: unit 6 alone holds 67 real
+  // past-paper questions across eleven different leaves. Only offered once a
+  // unit is chosen, because leaf names are only meaningful inside their unit.
+  function fillSubs() {
+    const pid = sel.paper.value, uno = sel.unit.value;
+    const keep = sel.sub.value;
+    const leaves = (uno && paperById[pid]?.units.find(u => String(u.no) === uno)
+      ?.subtopics) || [];
+    sel.sub.innerHTML = `<option value="">All</option>` + leaves
+      .map(s => [s, ANSWERABLE.filter(q => q.sub === s && matchesExcept(q, 'sub')).length])
+      .filter(([, n]) => n)
+      .map(([s, n]) => `<option value="${esc(s)}">${esc(s)} (${n})</option>`).join('');
+    sel.sub.value = [...sel.sub.options].some(o => o.value === keep) ? keep : '';
+    sel.sub.disabled = !leaves.length;
   }
   // Sittings depend on the chosen paper, so rebuild them with the units. Keep
   // the current selection if it still exists in the new list, rather than
   // silently resetting to All and widening the pool under the reader.
   function fillSittings() {
-    const pid = sel.paper.value;
     const keep = sel.src.value;
     sel.src.innerHTML = `<option value="">All</option>`
-      + sittingOptions(ANSWERABLE.filter(q => !pid || q.paper === pid));
+      + sittingOptions(ANSWERABLE.filter(q => matchesExcept(q, 'src')));
     sel.src.value = [...sel.src.options].some(o => o.value === keep) ? keep : '';
   }
   function pool() {
-    return ANSWERABLE.filter(q => {
-      if (sel.paper.value && q.paper !== sel.paper.value) return false;
-      if (sel.unit.value && q.unit !== sel.unit.value) return false;
-      if (sel.src.value && q.srcKey !== sel.src.value) return false;
-      if (sel.mode.value && modeOf(q.id) !== sel.mode.value) return false;
-      const st = S.questions[q.id];
-      switch (sel.only.value) {
-        case 'due': return isDue(q.id);
-        case 'unseen': return !st || !st.att;
-        case 'wrong': return st && st.att && st.ok < st.att;
-        case 'star': return st && st.star;
-        default: return true;
-      }
-    });
+    return ANSWERABLE.filter(q => matchesExcept(q, null));
   }
   function refresh() {
     const p = pool();
@@ -1002,13 +1048,19 @@ VIEWS.practice = (el, opts) => {
     const mix = p.reduce((a, q) => { const m = modeOf(q.id); if (m) a[m] = (a[m] || 0) + 1; return a; }, {});
     const parts = Object.keys(MODE_META).filter(m => mix[m])
       .map(m => `${mix[m]} ${MODE_META[m].short}`);
-    $('#poolInfo').innerHTML = `${p.length} question${p.length === 1 ? '' : 's'} match`
+    $('#poolInfo').innerHTML = `${p.length} question${p.length === 1 ? ' matches' : 's match'}`
       + (parts.length > 1 ? ` <span class="dim">— ${esc(parts.join(' · '))}</span>` : '');
     $('#startP').disabled = !p.length;
   }
-  fillUnits(); fillSittings(); refresh();
-  sel.paper.onchange = () => { fillUnits(); fillSittings(); refresh(); };
-  [sel.unit, sel.src, sel.only, sel.mode].forEach(s => { s.onchange = refresh; });
+  // Rebuild every dependent list on any change, because the option counts are
+  // conditioned on the other filters — picking a sitting must re-count the
+  // units, not just re-filter the pool.
+  function redraw() { fillUnits(); fillSubs(); fillSittings(); refresh(); }
+  redraw();
+  sel.paper.onchange = () => { sel.unit.value = ''; sel.sub.value = ''; redraw(); };
+  sel.unit.onchange = () => { sel.sub.value = ''; redraw(); };
+  [sel.sub, sel.src, sel.only, sel.mode].forEach(s => { s.onchange = redraw; });
+  sel.q.oninput = redraw;
   el.addEventListener('click', e => {
     const b = e.target.closest('[data-mode-drill]');
     if (!b) return;

@@ -1,0 +1,1113 @@
+{
+ "_sitting": "Jr. Grade of Mizoram Engineering Service (Combined), General Studies, 1-6 October 2025",
+ "_question_paper": "Old_Questions/Direct_2025-2027/Jr. Grade of MES (Combined)-2025 - General Studies..pdf (sha256:3e7d8557ea8b5e3a)",
+ "_answer_key": "Answer_Keys/Mizoram Engineering Service (Combined) Final Answer Key..pdf (sha256:b9759796459a77d4), Notification No. Jr. Gr. of MES(DR)/25(1)-2025-MPSC (EXAM) dated 13 November 2025, General Studies page",
+ "_files_live_in": "mpsc-question-bank repo - a DIFFERENT repo, hence this transcription",
+ "_paper_extraction": "pdftotext -layout; the paper has a 24,404-char text layer so questions were parsed, not read by eye. Parser requires SEQUENTIAL question numbers and SEQUENTIAL option letters: an earlier version shredded Q62 because its option (d) is 'Both (b) and (c)' and the embedded markers were treated as new options, leaving option (c) EMPTY. Verified after fixing: 100 questions, every one with exactly options A-D, none empty.",
+ "_key_extraction": "The key is a SCAN. Transcribed twice independently and required to agree: (1) tesseract --psm 4, taking the letters but deriving each question number from its row/column position rather than from OCR, because OCR misread the numbers (7 as 'z', 12 as 'i2', 72 as 'i'); (2) read off the rendered page by eye. Both reads agree on 100/100 entries.",
+ "_supersedes": "The 7 October 2025 PROVISIONAL key differs from this final one at Q35 (B->C) and Q65 (C->D). The final governs.",
+ "key": {
+  "1": "C",
+  "2": "B",
+  "3": "D",
+  "4": "B",
+  "5": "A",
+  "6": "A",
+  "7": "A",
+  "8": "B",
+  "9": "D",
+  "10": "C",
+  "11": "D",
+  "12": "C",
+  "13": "D",
+  "14": "D",
+  "15": "A",
+  "16": "B",
+  "17": "A",
+  "18": "C",
+  "19": "A",
+  "20": "B",
+  "21": "B",
+  "22": "C",
+  "23": "B",
+  "24": "B",
+  "25": "D",
+  "26": "A",
+  "27": "C",
+  "28": "B",
+  "29": "D",
+  "30": "D",
+  "31": "D",
+  "32": "A",
+  "33": "C",
+  "34": "B",
+  "35": "C",
+  "36": "D",
+  "37": "A",
+  "38": "C",
+  "39": "C",
+  "40": "C",
+  "41": "C",
+  "42": "B",
+  "43": "B",
+  "44": "C",
+  "45": "B",
+  "46": "A",
+  "47": "B",
+  "48": "D",
+  "49": "C",
+  "50": "B",
+  "51": "C",
+  "52": "B",
+  "53": "A",
+  "54": "A",
+  "55": "C",
+  "56": "B",
+  "57": "C",
+  "58": "D",
+  "59": "C",
+  "60": "C",
+  "61": "B",
+  "62": "A",
+  "63": "C",
+  "64": "D",
+  "65": "D",
+  "66": "A",
+  "67": "C",
+  "68": "C",
+  "69": "B",
+  "70": "B",
+  "71": "C",
+  "72": "A",
+  "73": "A",
+  "74": "B",
+  "75": "B",
+  "76": "D",
+  "77": "C",
+  "78": "C",
+  "79": "B",
+  "80": "B",
+  "81": "C",
+  "82": "C",
+  "83": "B",
+  "84": "C",
+  "85": "B",
+  "86": "C",
+  "87": "C",
+  "88": "C",
+  "89": "B",
+  "90": "C",
+  "91": "C",
+  "92": "B",
+  "93": "B",
+  "94": "A",
+  "95": "B",
+  "96": "A",
+  "97": "C",
+  "98": "D",
+  "99": "C",
+  "100": "C"
+ },
+ "questions": [
+  {
+   "no": 1,
+   "q": "A vehicle stops in 20 sec after applying brakes. If the rate of constant retardation is 1.5 m/sec2, what was the initial velocity of the vehicle?",
+   "opts": {
+    "A": "10 m/sec",
+    "B": "20 m/sec",
+    "C": "30 m/sec",
+    "D": "40 m/sec"
+   }
+  },
+  {
+   "no": 2,
+   "q": "The product of force and velocity is known as:",
+   "opts": {
+    "A": "Work",
+    "B": "Power",
+    "C": "Energy",
+    "D": "Momentum"
+   }
+  },
+  {
+   "no": 3,
+   "q": "Which of the following has the highest value of specific heat?",
+   "opts": {
+    "A": "Alcohol",
+    "B": "Methane",
+    "C": "Kerosene",
+    "D": "Water"
+   }
+  },
+  {
+   "no": 4,
+   "q": "With an increase in pressure, the boiling point of water:",
+   "opts": {
+    "A": "Decreases",
+    "B": "Increases",
+    "C": "Remains constant",
+    "D": "Becomes zero"
+   }
+  },
+  {
+   "no": 5,
+   "q": "If in a closed room, the refrigerator door is kept open for some time, the temperature of the room will:",
+   "opts": {
+    "A": "Increase",
+    "B": "Decrease",
+    "C": "Remain the same",
+    "D": "Become zero"
+   }
+  },
+  {
+   "no": 6,
+   "q": "Which colour in the rainbow spectrum has the lowest wavelength?",
+   "opts": {
+    "A": "Violet",
+    "B": "Blue",
+    "C": "Yellow",
+    "D": "Red"
+   }
+  },
+  {
+   "no": 7,
+   "q": "Which of the following is also known as the law of inertia?",
+   "opts": {
+    "A": "Newton’s first law",
+    "B": "Newton’s second law",
+    "C": "Newton’s third law",
+    "D": "Newton’s fourth law"
+   }
+  },
+  {
+   "no": 8,
+   "q": "The SI Unit of impulse is:",
+   "opts": {
+    "A": "Newton per second",
+    "B": "Newton second",
+    "C": "Newton per metre",
+    "D": "Newton per kilogram"
+   }
+  },
+  {
+   "no": 9,
+   "q": "Silver corrodes in air due to its reaction with:",
+   "opts": {
+    "A": "Oxygen",
+    "B": "Carbon dioxide",
+    "C": "Nitrogen",
+    "D": "Hydrogen sulphide"
+   }
+  },
+  {
+   "no": 10,
+   "q": "Which of the following statements are true of glass wool? I. It has low thermal conductivity II. It is highly fire-resistant III. It absorbs moisture IV. It has good tensile strength",
+   "opts": {
+    "A": "I and II only",
+    "B": "I, II, and III only",
+    "C": "I, II and IV only",
+    "D": "I, and III only"
+   }
+  },
+  {
+   "no": 11,
+   "q": "Which gas is released when limestone is dipped in water?",
+   "opts": {
+    "A": "Hydrogen",
+    "B": "Oxygen",
+    "C": "Nitrogen",
+    "D": "Carbon dioxide"
+   }
+  },
+  {
+   "no": 12,
+   "q": "Which polymer is used as a substitute of wool in making commercial fibres?",
+   "opts": {
+    "A": "Polytetrafluoroethylene",
+    "B": "Buna-N",
+    "C": "Polyacrylonitrile",
+    "D": "Polythene"
+   }
+  },
+  {
+   "no": 13,
+   "q": "What is ‘milk of magnesia’ chemically?",
+   "opts": {
+    "A": "Magnesium carbonate",
+    "B": "Sodium carbonate",
+    "C": "Sodium hydroxide",
+    "D": "Magnesium hydroxide"
+   }
+  },
+  {
+   "no": 14,
+   "q": "Which is the purest form of iron?",
+   "opts": {
+    "A": "Steel",
+    "B": "Cast iron",
+    "C": "Pig iron",
+    "D": "Wrought iron"
+   }
+  },
+  {
+   "no": 15,
+   "q": "Petroleum is a mixture of:",
+   "opts": {
+    "A": "Hydrocarbons",
+    "B": "Elements",
+    "C": "Polymers",
+    "D": "Alcohols"
+   }
+  },
+  {
+   "no": 16,
+   "q": "The coil in an electric heater is made of:",
+   "opts": {
+    "A": "Copper",
+    "B": "Nichrome",
+    "C": "Tungsten",
+    "D": "Iron"
+   }
+  },
+  {
+   "no": 17,
+   "q": "Bell metal is an alloy of which of the following metals?",
+   "opts": {
+    "A": "Copper and tin",
+    "B": "Copper and zinc",
+    "C": "Tin and zinc",
+    "D": "Copper and mercury"
+   }
+  },
+  {
+   "no": 18,
+   "q": "Which Sustainable Development Goal is associated with industry, innovation and infrastructure?",
+   "opts": {
+    "A": "SDG 7",
+    "B": "SDG 8",
+    "C": "SDG 9",
+    "D": "SDG 10"
+   }
+  },
+  {
+   "no": 19,
+   "q": "According to the Central Pollution Control Board, what is the noise limit for residential areas at night?",
+   "opts": {
+    "A": "45dB",
+    "B": "50dB",
+    "C": "55dB",
+    "D": "60dB"
+   }
+  },
+  {
+   "no": 20,
+   "q": "Which of the following statements is incorrect regarding ecosystems?",
+   "opts": {
+    "A": "It consists of both biotic and abiotic factors",
+    "B": "It is a closed system",
+    "C": "It has its own productivity",
+    "D": "It s a natural resource system"
+   }
+  },
+  {
+   "no": 21,
+   "q": "In which State is the Keoladeo National Park located?",
+   "opts": {
+    "A": "Madhya Pradesh",
+    "B": "Rajasthan",
+    "C": "Gujarat",
+    "D": "Chhattisgarh"
+   }
+  },
+  {
+   "no": 22,
+   "q": "The Montreal Protocol was associated with which of the following?",
+   "opts": {
+    "A": "Hydrocarbons",
+    "B": "Global warming",
+    "C": "Ozone layer",
+    "D": "Endangered species"
+   }
+  },
+  {
+   "no": 23,
+   "q": "Among the following climatic factors, which one has the least effect on terrestrial ecosystems?",
+   "opts": {
+    "A": "Temperature",
+    "B": "Wind",
+    "C": "Conditions of sunlight",
+    "D": "Availability of water"
+   }
+  },
+  {
+   "no": 24,
+   "q": "In which year was the ozone hole discovered?",
+   "opts": {
+    "A": "1980",
+    "B": "1985",
+    "C": "1990",
+    "D": "1995"
+   }
+  },
+  {
+   "no": 25,
+   "q": "Which of the following trees is considered to be an environmental hazard?",
+   "opts": {
+    "A": "Babool",
+    "B": "Neem",
+    "C": "Teak",
+    "D": "Eucalyptus"
+   }
+  },
+  {
+   "no": 26,
+   "q": "The property of a species being unique to a defined geographic location is known as:",
+   "opts": {
+    "A": "Endemism",
+    "B": "Species evenness",
+    "C": "Ecotone",
+    "D": "Keystone"
+   }
+  },
+  {
+   "no": 27,
+   "q": "From which city did the Revolt of 1857 start?",
+   "opts": {
+    "A": "Delhi",
+    "B": "Jhansi",
+    "C": "Meerut",
+    "D": "Kanpur"
+   }
+  },
+  {
+   "no": 28,
+   "q": "In which year did the Jallianwala Bagh Massacre take place?",
+   "opts": {
+    "A": "1918",
+    "B": "1919",
+    "C": "1920",
+    "D": "1921"
+   }
+  },
+  {
+   "no": 29,
+   "q": "Arrange the following capital cities from northernmost to southernmost. I. Kolkata II. Jaipur III. New Delhi IV. Chandigarh",
+   "opts": {
+    "A": "IV, II, III, I",
+    "B": "III, II, IV, I",
+    "C": "IV, III, I, II",
+    "D": "IV, III, II, I"
+   }
+  },
+  {
+   "no": 30,
+   "q": "Which of the following does not provide evidence for continental drift?",
+   "opts": {
+    "A": "Fossil distribution",
+    "B": "Matching geological formations",
+    "C": "Similar climate patterns",
+    "D": "Uniform ocean depth"
+   }
+  },
+  {
+   "no": 31,
+   "q": "Which of the following describes India as a secular state?",
+   "opts": {
+    "A": "Fundamental duties",
+    "B": "Directive Principles of State Policy",
+    "C": "Sixth Schedule",
+    "D": "Preamble to the Constitution"
+   }
+  },
+  {
+   "no": 32,
+   "q": "The boundary of a State can be altered through the provisions laid down in which Article of the Constitution?",
+   "opts": {
+    "A": "Article 3",
+    "B": "Article 13",
+    "C": "Article 23",
+    "D": "Article 33"
+   }
+  },
+  {
+   "no": 33,
+   "q": "A person who is not a member of the State Legislature can be the Chief Minister for a maximum period of:",
+   "opts": {
+    "A": "1 month",
+    "B": "3 months",
+    "C": "6 months",
+    "D": "12 months"
+   }
+  },
+  {
+   "no": 34,
+   "q": "Who among the following is considered the guardian of fundamental rights?",
+   "opts": {
+    "A": "Executive",
+    "B": "Judiciary",
+    "C": "Legislative",
+    "D": "The people"
+   }
+  },
+  {
+   "no": 35,
+   "q": "Any dispute arising in connection with the election of the President of India is decided by:",
+   "opts": {
+    "A": "Parliament",
+    "B": "Election Commission of India",
+    "C": "The Supreme Court",
+    "D": "The Council of Ministers"
+   }
+  },
+  {
+   "no": 36,
+   "q": "Which among the following is the term for the state of economy in which economic activity is low but prices continue to rise?",
+   "opts": {
+    "A": "Inflation",
+    "B": "Deflation",
+    "C": "Skewflation",
+    "D": "Stagflation"
+   }
+  },
+  {
+   "no": 37,
+   "q": "Which of the following statements is true of inferior goods?",
+   "opts": {
+    "A": "Demand decreases with increase in income",
+    "B": "Demand increases with increase in income",
+    "C": "Demand decreases with decrease in income",
+    "D": "Demand is independent of income"
+   }
+  },
+  {
+   "no": 38,
+   "q": "As per the new income tax rates for FY 2025-26 in the Union Budget 2025, what is the income tax rate for a person earning more than Rs. 24 lakhs per annum?",
+   "opts": {
+    "A": "20%",
+    "B": "25%",
+    "C": "30%",
+    "D": "35%"
+   }
+  },
+  {
+   "no": 39,
+   "q": "Which of the following is used to describe the want satisfying power of a commodity?",
+   "opts": {
+    "A": "Demand",
+    "B": "Want",
+    "C": "Utility",
+    "D": "Consumption"
+   }
+  },
+  {
+   "no": 40,
+   "q": "What is the primary objective of the Aatmanirbhar Bharat initiative?",
+   "opts": {
+    "A": "To increase India’s exports",
+    "B": "To make India a global manufacturing hub",
+    "C": "To promote self reliance and reduce imports",
+    "D": "To increase foreign direct investments"
+   }
+  },
+  {
+   "no": 41,
+   "q": "What number should come next in the following numbers series 2, 8, 18, 32, 50, ___?",
+   "opts": {
+    "A": "70",
+    "B": "71",
+    "C": "72",
+    "D": "73"
+   }
+  },
+  {
+   "no": 42,
+   "q": "Choose the pair that best represents a similar relationship to the one expressed in EXPLORE : DISCOVER.",
+   "opts": {
+    "A": "read : skim",
+    "B": "research : learn",
+    "C": "write : print",
+    "D": "think : relate"
+   }
+  },
+  {
+   "no": 43,
+   "q": "An ‘Informal Gathering’ occurs when a group of people get together in a casual, relaxed manner. Which situation below is the best example of an Informal Gathering?",
+   "opts": {
+    "A": "The book club meets on the first Thursday evening of every month.",
+    "B": "After finding out about his promotion, Jeremy and a few coworkers decide to go out for a quick drink after work.",
+    "C": "Mary sends out 25 invitations for the bridal shower she is giving for her sister.",
+    "D": "Whenever she eats at the Mexican restaurant, Clara seems to run into Peter."
+   }
+  },
+  {
+   "no": 44,
+   "q": "Which country has recently developed the world’s first deep-sea radar that can detect high-flying aircraft?",
+   "opts": {
+    "A": "USA",
+    "B": "Russia",
+    "C": "China",
+    "D": "Japan"
+   }
+  },
+  {
+   "no": 45,
+   "q": "How many people were announced to be given Padma Awards by the Government of India in 2025?",
+   "opts": {
+    "A": "121",
+    "B": "139",
+    "C": "147",
+    "D": "153"
+   }
+  },
+  {
+   "no": 46,
+   "q": "Who among the following has been appointed as the Director of the Liquid Propulsion Systems Centre of ISRO?",
+   "opts": {
+    "A": "M. Mohan",
+    "B": "S. Somnath",
+    "C": "V. Narayanan",
+    "D": "K. Sivan"
+   }
+  },
+  {
+   "no": 47,
+   "q": "How many Local Councils were there in Aizawl in the General Election to Local Councils, 2025?",
+   "opts": {
+    "A": "85",
+    "B": "87",
+    "C": "89",
+    "D": "91"
+   }
+  },
+  {
+   "no": 48,
+   "q": "As per the newly launched Mizoram Universal Healthcare Scheme, what is the maximum possible monthly contribution for a government employee (on Level 13 & above pay level)?",
+   "opts": {
+    "A": "400",
+    "B": "700",
+    "C": "1000",
+    "D": "1500"
+   }
+  },
+  {
+   "no": 49,
+   "q": "As per the Indian Stamp (Mizoram Amendment) Act, 2024, what is the stamp duty for mortgage of an immovable property by any person who is not a widow?",
+   "opts": {
+    "A": "1%",
+    "B": "2.5%",
+    "C": "3%",
+    "D": "5%"
+   }
+  },
+  {
+   "no": 50,
+   "q": "What is the Assembly Constituency number of Dampa Assembly Constituency?",
+   "opts": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+   }
+  },
+  {
+   "no": 51,
+   "q": "In which season did Aizawl FC win their maiden I-League title?",
+   "opts": {
+    "A": "2014-15",
+    "B": "2015-16",
+    "C": "2016-17",
+    "D": "2017-18"
+   }
+  },
+  {
+   "no": 52,
+   "q": "Who wrote the Indian national song ‘Vande Mataram’?",
+   "opts": {
+    "A": "Rabindranath Tagore",
+    "B": "Bankim Chandra Chatterjee",
+    "C": "Sarojini Naidu",
+    "D": "Subhas Chandra Bose"
+   }
+  },
+  {
+   "no": 53,
+   "q": "The rocks that make up the continents and are rich in silicon and aluminium are:",
+   "opts": {
+    "A": "lighter in colour and weight",
+    "B": "lighter in colour and heavier in weight",
+    "C": "lighter in weight and darker in colour",
+    "D": "heavier in weight and darker in colour"
+   }
+  },
+  {
+   "no": 54,
+   "q": "Which among the following is nearest to the Tropic of Cancer?",
+   "opts": {
+    "A": "Aizawl",
+    "B": "Rajkot",
+    "C": "Kolkata",
+    "D": "Imphal"
+   }
+  },
+  {
+   "no": 55,
+   "q": "Which one of the following is not a form of stored energy?",
+   "opts": {
+    "A": "Nuclear energy",
+    "B": "Potential energy",
+    "C": "Electrical energy",
+    "D": "Chemical energy"
+   }
+  },
+  {
+   "no": 56,
+   "q": "The black cotton soil of India has been formed due to the weathering of:",
+   "opts": {
+    "A": "brown forest soil",
+    "B": "fissure volcanic rock",
+    "C": "granite and schist",
+    "D": "shale and limestone"
+   }
+  },
+  {
+   "no": 57,
+   "q": "The Articles of the Constitution of India which deal with Directive Principles of State Policy are:",
+   "opts": {
+    "A": "26 to 41",
+    "B": "30 to 45",
+    "C": "36 to 51",
+    "D": "40 to 55"
+   }
+  },
+  {
+   "no": 58,
+   "q": "Which of the following is not involved in the preparation of budget?",
+   "opts": {
+    "A": "Finance Ministry",
+    "B": "Finance Commission",
+    "C": "Niti Aayog",
+    "D": "Comptroller and Auditor-General"
+   }
+  },
+  {
+   "no": 59,
+   "q": "Right to Vote and to be elected in India is a:",
+   "opts": {
+    "A": "Fundamental Right",
+    "B": "Natural Right",
+    "C": "Constitutional Right",
+    "D": "Legal Right"
+   }
+  },
+  {
+   "no": 60,
+   "q": "How is India’s Gross Domestic Product (GDP) calculated?",
+   "opts": {
+    "A": "Through the Consumer Price Index (CPI)",
+    "B": "Using the Net Domestic Product (NDP)",
+    "C": "One method based on economic activity and the other on expenditure",
+    "D": "By analysing trade balance and fiscal deficit"
+   }
+  },
+  {
+   "no": 61,
+   "q": "Which of the following institutions formulates the monetary policy in India?",
+   "opts": {
+    "A": "NITI Aayog",
+    "B": "RBI",
+    "C": "Ministry of Finance",
+    "D": "SEBI"
+   }
+  },
+  {
+   "no": 62,
+   "q": "When a bus suddenly takes a turn, the passengers are thrown outwards because of:",
+   "opts": {
+    "A": "inertia of motion",
+    "B": "acceleration of bus",
+    "C": "speed of motion",
+    "D": "Both (b) and (c)"
+   }
+  },
+  {
+   "no": 63,
+   "q": "If a body is taken from the earth to the moon:",
+   "opts": {
+    "A": "its mass will be different but weight will remain the same",
+    "B": "both mass and weight will be different",
+    "C": "its mass will remain the same but weight will be different",
+    "D": "both mass and weight will remain same"
+   }
+  },
+  {
+   "no": 64,
+   "q": "The pressure of the earth’s atmosphere at sea level is due to the:",
+   "opts": {
+    "A": "heating of the atmosphere by the sun",
+    "B": "fact that most living things constantly breathe air",
+    "C": "evaporation of water from the sea’s and oceans",
+    "D": "gravitational attraction of the earth for the atmosphere"
+   }
+  },
+  {
+   "no": 65,
+   "q": "The type of mirror used in the headlamps of cars is the:",
+   "opts": {
+    "A": "plane mirror",
+    "B": "spherical convex mirror",
+    "C": "spherical concave mirror",
+    "D": "parabolic concave mirror"
+   }
+  },
+  {
+   "no": 66,
+   "q": "H20 is a liquid and H2S is a gas because:",
+   "opts": {
+    "A": "oxygen forms stronger hydrogen bond than sulphur",
+    "B": "oxygen is less electronegative than sulphur",
+    "C": "atomic radius of oxygen is less than that of sulphur",
+    "D": "atomic radius of oxygen is greater than that of sulphur"
+   }
+  },
+  {
+   "no": 67,
+   "q": "‘Red Flag’ is the name of a joint exercise between India and which one of the following country?",
+   "opts": {
+    "A": "China",
+    "B": "Saudi Arabia",
+    "C": "USA",
+    "D": "Japan"
+   }
+  },
+  {
+   "no": 68,
+   "q": "Natural uranium contains: 1. U-235 2. U-238 3. U-234 4. U-233 Select the correct answer using the codes given below.",
+   "opts": {
+    "A": "1 and 2",
+    "B": "2 and 3",
+    "C": "1, 2 and 3",
+    "D": "3 and 4"
+   }
+  },
+  {
+   "no": 69,
+   "q": "Which of the following is the largest gland in the human body?",
+   "opts": {
+    "A": "Thyroid",
+    "B": "Liver",
+    "C": "Pancreas",
+    "D": "Adrenal"
+   }
+  },
+  {
+   "no": 70,
+   "q": "Which of the following is NOT a fundamental duty under the Indian Constitution?",
+   "opts": {
+    "A": "To respect the national flag",
+    "B": "To vote in elections",
+    "C": "To protect the environment",
+    "D": "To cherish the country’s heritage"
+   }
+  },
+  {
+   "no": 71,
+   "q": "The Reserve Bank of India was nationalized in:",
+   "opts": {
+    "A": "1935",
+    "B": "1947",
+    "C": "1949",
+    "D": "1951"
+   }
+  },
+  {
+   "no": 72,
+   "q": "Which article of the Indian Constitution deals with the election of the President of India?",
+   "opts": {
+    "A": "Article 54",
+    "B": "Article 61",
+    "C": "Article 70",
+    "D": "Article 75"
+   }
+  },
+  {
+   "no": 73,
+   "q": "Which Indian state is the largest producer of tea?",
+   "opts": {
+    "A": "Assam",
+    "B": "West Bengal",
+    "C": "Kerala",
+    "D": "Tamil Nadu"
+   }
+  },
+  {
+   "no": 74,
+   "q": "Who discovered the radio?",
+   "opts": {
+    "A": "Alexander Graham Bell",
+    "B": "Guglielmo Marconi",
+    "C": "Thomas Edison",
+    "D": "Nikola Tesla"
+   }
+  },
+  {
+   "no": 75,
+   "q": "The ‘Kargil War’ took place in which year?",
+   "opts": {
+    "A": "1987",
+    "B": "1999",
+    "C": "2001",
+    "D": "1995"
+   }
+  },
+  {
+   "no": 76,
+   "q": "Which of the following is the largest source of renewable energy in India?",
+   "opts": {
+    "A": "Solar energy",
+    "B": "Biomass",
+    "C": "Wind energy",
+    "D": "Hydropower"
+   }
+  },
+  {
+   "no": 77,
+   "q": "The principle of ‘Sustainable Development’ emphasizes:",
+   "opts": {
+    "A": "Economic growth only",
+    "B": "Environmental protection only",
+    "C": "Growth without compromising future needs",
+    "D": "Industrialization only"
+   }
+  },
+  {
+   "no": 78,
+   "q": "In project management, a Gantt chart is used to:",
+   "opts": {
+    "A": "Estimate financial cost",
+    "B": "Show work breakdown structure",
+    "C": "Schedule project activities",
+    "D": "Identify project risks"
+   }
+  },
+  {
+   "no": 79,
+   "q": "The ‘Right to Clean Environment’ is guaranteed in India under:",
+   "opts": {
+    "A": "Directive Principles",
+    "B": "Article 21",
+    "C": "Article 32",
+    "D": "Fundamental Duties"
+   }
+  },
+  {
+   "no": 80,
+   "q": "Which programming language is most commonly used for Artificial Intelligence?",
+   "opts": {
+    "A": "COBOL",
+    "B": "Python",
+    "C": "Assembly",
+    "D": "FORTRAN"
+   }
+  },
+  {
+   "no": 81,
+   "q": "Which is NOT an example of a greenhouse gas?",
+   "opts": {
+    "A": "Methane",
+    "B": "Nitrous oxide",
+    "C": "Oxygen",
+    "D": "Carbon dioxide"
+   }
+  },
+  {
+   "no": 82,
+   "q": "The ‘Kudankulam’ nuclear power plant is located in:",
+   "opts": {
+    "A": "Andhra Pradesh",
+    "B": "Karnataka",
+    "C": "Tamil Nadu",
+    "D": "Kerala"
+   }
+  },
+  {
+   "no": 83,
+   "q": "The Directive Principles of State Policy are:",
+   "opts": {
+    "A": "Justiciable",
+    "B": "Non-justiciable",
+    "C": "Legally Enforceable",
+    "D": "Not a part of the Constitution"
+   }
+  },
+  {
+   "no": 84,
+   "q": "Who is called the Father of the Green Revolution in India?",
+   "opts": {
+    "A": "C. Subramaniam",
+    "B": "Norman Borlaug",
+    "C": "M.S. Swaminathan",
+    "D": "Verghese Kurien"
+   }
+  },
+  {
+   "no": 85,
+   "q": "‘Carbon Neutrality’ refers to:",
+   "opts": {
+    "A": "Eliminating all energy use",
+    "B": "Balancing carbon emission with removal",
+    "C": "Only using fossil fuels",
+    "D": "No carbon in the environment"
+   }
+  },
+  {
+   "no": 86,
+   "q": "Which Article of the Indian Constitution deals with the prohibition of discrimination on grounds of religion, race, caste, sex or place of birth?",
+   "opts": {
+    "A": "Article 19",
+    "B": "Article 21",
+    "C": "Article 15",
+    "D": "Article 17"
+   }
+  },
+  {
+   "no": 87,
+   "q": "The first Indian to go to space was:",
+   "opts": {
+    "A": "Kalpana Chawla",
+    "B": "Sunita Williams",
+    "C": "Rakesh Sharma",
+    "D": "Ravish Malhotra"
+   }
+  },
+  {
+   "no": 88,
+   "q": "The ‘Blue Revolution’ in India is associated with:",
+   "opts": {
+    "A": "Cotton production",
+    "B": "Dairy farming",
+    "C": "Fisheries development",
+    "D": "Coal mining"
+   }
+  },
+  {
+   "no": 89,
+   "q": "The ‘Make in India’ logo features which animal?",
+   "opts": {
+    "A": "Tiger",
+    "B": "Lion",
+    "C": "Elephant",
+    "D": "Peacock"
+   }
+  },
+  {
+   "no": 90,
+   "q": "Panchayati Raj was first introduced in India in which state?",
+   "opts": {
+    "A": "Maharashtra",
+    "B": "Gujarat",
+    "C": "Rajasthan",
+    "D": "Kerala"
+   }
+  },
+  {
+   "no": 91,
+   "q": "The ‘Right to Information’ (RTI) Act was enacted in India in:",
+   "opts": {
+    "A": "1991",
+    "B": "2003",
+    "C": "2005",
+    "D": "2008"
+   }
+  },
+  {
+   "no": 92,
+   "q": "Which Indian state shares the longest border with Myanmar?",
+   "opts": {
+    "A": "Mizoram",
+    "B": "Arunachal pradesh",
+    "C": "Manipur",
+    "D": "Tripura"
+   }
+  },
+  {
+   "no": 93,
+   "q": "DNA fingerprinting was first invented by:",
+   "opts": {
+    "A": "James Watson",
+    "B": "Alec Jeffreys",
+    "C": "Har Gobind Khorana",
+    "D": "Paul Nurse"
+   }
+  },
+  {
+   "no": 94,
+   "q": "The ‘Swadeshi Movement’ began in the context of which event?",
+   "opts": {
+    "A": "Partition of Bengal 1905",
+    "B": "Non-cooperation Movement",
+    "C": "Jallianwala Bagh Massacre",
+    "D": "Simon Commission"
+   }
+  },
+  {
+   "no": 95,
+   "q": "What is the generally accepted average normal human body temperature?",
+   "opts": {
+    "A": "96.8°F (36°C)",
+    "B": "98.6°F (37°C)",
+    "C": "100.4°F (38°C)",
+    "D": "102.2°F (39°C)"
+   }
+  },
+  {
+   "no": 96,
+   "q": "The Fundamental Duties were incorporated in the Constitution by:",
+   "opts": {
+    "A": "42nd Amendment",
+    "B": "44th Amendment",
+    "C": "46th Amendment",
+    "D": "50th Amendment"
+   }
+  },
+  {
+   "no": 97,
+   "q": "In which year was the Goods and Services Tax (GST) launched in India?",
+   "opts": {
+    "A": "2015",
+    "B": "2016",
+    "C": "2017",
+    "D": "2018"
+   }
+  },
+  {
+   "no": 98,
+   "q": "The term ‘Fourth Estate’ refers to:",
+   "opts": {
+    "A": "Judiciary",
+    "B": "Executive",
+    "C": "Legislature",
+    "D": "Press/Media"
+   }
+  },
+  {
+   "no": 99,
+   "q": "Which among the following articles of the Indian Constitution provides special provisions for the state of Mizoram?",
+   "opts": {
+    "A": "Article 370",
+    "B": "Article 371A",
+    "C": "Article 371G",
+    "D": "Article 371J"
+   }
+  },
+  {
+   "no": 100,
+   "q": "Which one of the following is not a fundamental right under the Constitution of India?",
+   "opts": {
+    "A": "Right to Equality",
+    "B": "Right to Freedom",
+    "C": "Right to Property",
+    "D": "Right against Exploitation"
+   }
+  }
+ ]
+}

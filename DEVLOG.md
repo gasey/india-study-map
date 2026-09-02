@@ -9,6 +9,112 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (later) — The first real General Studies past-paper questions, and the parser bug that nearly shipped a blank option
+
+**What shipped.** `import_gs_past_papers.py` + three staged files, importing **93
+General Studies questions** from the Jr. Grade of MES (Combined) October 2025
+sitting, every answer from MPSC's official final answer key. Bank 1409 → 1502.
+
+**Why it matters more than the count suggests.** All 139 GS questions in the bank
+were **authored** — `srcKey: GEN`, "Authored practice question". Not one came
+from a real MPSC paper. Authored questions can cover a syllabus leaf, but they
+cannot show how the Commission actually asks: what it treats as fair game, how
+it words distractors, how much of the paper is Mizoram-specific. GS is now 139
+authored + 93 real, and the real ones are official-key rather than derived.
+
+**The parser bug is the part worth remembering.** My first parser split options
+on `\([a-d]\)` anywhere in the text. Q62's option (d) is **"Both (b) and (c)"** —
+so the embedded markers were read as new options and the question came out as
+`(a) inertia of motion  (b) and  (c) <EMPTY>  (d) Both`. The source PDF was
+perfect; the parser was the corruption, and it produced a *plausible-looking*
+card with a blank option — precisely the silent-damage class CLAUDE.md opens
+with. Fixed by requiring **sequential** option letters (a, then b, then c, then
+d), the same trick already used for question numbers. Blast radius was one
+question, found only because the importer asserts no option is empty. That
+assertion is now permanent.
+
+**Static only, by the user's call.** A GS paper is roughly a fifth current
+affairs, and a 2025 news answer is worth nothing for a later exam — worse when it
+has since changed. Seven questions are dropped with a reason recorded per
+question, printed on every run, never silently discarded:
+
+| dropped | why |
+|---|---|
+| Q38 | FY 2025-26 income tax slab — superseded by every later Budget |
+| Q44 | "recently developed" world-first radar |
+| Q45 | count of Padma Awards in one year |
+| Q46 | an ISRO centre directorship — an office holder |
+| Q47 | seat count in one Local Council election |
+| Q48 | contribution slab of a "newly launched" scheme |
+| Q78 | **Gantt charts — maps to no leaf of the GS syllabus at all** |
+
+Q78 is the interesting one: it is not time-bound, it is simply Technical Paper III
+material sitting in a GS paper. Forcing it into a GS unit would have repeated the
+2026-09-04 mis-tagging bug, where a tag that merely restates its unit sends every
+by-topic consumer to the wrong place. Better to drop it with the reason on record.
+
+The GS syllabus's 12-mark **Current Affairs unit stays authored-only on purpose**
+— it is the one category that cannot be recycled from a past paper.
+
+**This key is good, which is itself a finding.** The CSE keys were wrong 12 times
+in 135 (ILM2023) and 8 in 62 (MES2023). This General Studies key holds up:
+every answer I could check independently is correct, including the ones easy to
+get wrong (Q29 capitals north-to-south, Q68 natural uranium isotopes, Q70 voting
+is not a fundamental duty, Q100 property is no longer a fundamental right). Two
+carry a caveat on the card rather than a correction — Q11 (limestone in water
+"releasing CO2", chemically loose; CaCO3 needs heat or acid) and Q76 (hydropower
+as the largest renewable, true only if large hydro is counted separately from
+"new and renewable", since solar has overtaken it on installed capacity).
+
+**A latent marks bug surfaced.** The past-paper card computed marks as
+`mcq.length * 2`, hard-coded. That is right for the Technical papers (200 marks
+over 100 questions) and **wrong for General Studies**, which is 100 marks over
+100 questions — its own paper says "All questions carry equal mark of 1 each".
+Nothing revealed it until a GS sitting existed to browse. Now `mpqOf(paper)`
+reads `marks_per_question` from the syllabus, and GS declares `1`. Uses `??` not
+`||` because OFFSYL sets `0` deliberately and zero marks is the truthful figure
+for material that is not examined. The card went 186 → **93 marks**; Technical
+papers still read 194.
+
+**Verified.** Import idempotent (0 added on re-run); 93 added with **zero
+pre-existing records modified**; every kept question checked to have four
+non-empty options, a key entry, an explanation, and a `sub` that is a **real leaf
+of syllabus.js** rather than an invented string — tested by planting a bogus
+sub and confirming the run aborts naming the question. In the browser: the
+sitting card shows an `official key` pill and 93 MCQ / 93 marks, browses inline
+with unit and sub-topic tags, all 93 badged official, none of the seven dropped
+questions present, console clean. The TECH1 study guide rebuilds byte-identical
+(GS is not in its units) and the other three appliers still report 0 changed.
+
+**A browser-cache trap worth recording.** `python3 -m http.server` sends no
+`Cache-Control`, so Chrome heuristically caches `app.js` and `syllabus.js` and
+**ignores Ctrl+Shift+R, a server restart, and `fetch(..., {cache:'reload'})`**.
+For twenty minutes the page kept rendering "186 marks" from stale scripts while
+`curl` proved the server was serving the fix. The way through is to change the
+origin — `127.0.0.1:8123` instead of `localhost:8123` — which uses different
+cache keys and forces a genuinely fresh load. Verify UI changes there, or a
+correct fix reads as a broken one.
+
+**What's still open.**
+
+- **The July-2023 paper is not imported yet.** The agreed scope was July-2023 +
+  Oct-2025; this entry covers Oct-2025 only, because 93 tag-and-explain decisions
+  is as much content as should go in one reviewable batch. July-2023 (P&E
+  Electrical Wing GS, official key already verified at 100 entries) is next, and
+  it is the more current-affairs-heavy of the two — expect roughly 80 keepable.
+  **Two of its questions must not be imported as-is**: Q17 (Union Power minister)
+  and Q26 (present Chief Justice) had correct 2023 answers that are now wrong, and
+  an `official key` badge on them would assert a falsehood.
+- Four more engineering GS papers exist with text layers and **no** published key
+  (June-2022 P&E, MES-2015 Common, MES 2019-20, plus the scanned July-2024
+  Combined which *does* have a key). Worth importing only if derived answers are
+  acceptable again, which the last three sessions argued against.
+- `import_gs_past_papers.py` hard-codes its sitting registry like
+  `apply_official_keys.py` did before generalisation. Adding July-2023 is one
+  registry entry plus a tags file; a third sitting is the point to reconsider.
+
+---
+
 ## 2026-09-05 — The Answer_Keys sweep: 120 keys checked, one new sitting keyed, and most "no official key" claims turn out to be true
 
 **What shipped.** `apply_official_keys.py` — the single-sitting ILM2023 applier

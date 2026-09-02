@@ -130,6 +130,15 @@ function shuffle(arr, rnd) {
 const paperById = {};
 SYL.papers.forEach(p => { paperById[p.id] = p; });
 const unitOf = (pid, uno) => (paperById[pid]?.units || []).find(u => String(u.no) === String(uno));
+
+/* Marks per MCQ, per paper. This used to be hard-coded as 2, which is right for
+   the Technical papers (200 marks over 100 questions) and wrong for General
+   Studies, which is 100 marks over 100 questions — its own paper says "All
+   questions carry equal mark of 1 each". Nothing surfaced the error until real
+   GS past-paper questions were imported, because until then no GS sitting
+   existed to browse. `??` not `||`: OFFSYL sets 0 deliberately, and 0 marks is
+   the truthful figure for material that is not examined. */
+const mpqOf = pid => paperById[pid]?.marks_per_question ?? 2;
 // Escaped "Unit 2 · Computer Architecture and Organization" pill text, falling
 // back to the bare number if a unit somehow has no matching syllabus entry.
 const unitLabel = q => {
@@ -1170,7 +1179,7 @@ VIEWS.papers = (el) => {
         return `<div class="card">
           <div class="spread"><h3 style="margin:0">${esc(qs[0].sitting)}</h3>
           <span class="pill ${off ? 'ok' : 'wn'}">${off ? 'official key' : 'derived answers'}</span></div>
-          <p class="dim" style="margin:.35rem 0 .6rem">${esc(shortPaper(qs[0].paper))} · ${mcq.length} MCQ · ${mcq.length * 2} marks${essay ? ` · ${essay} essay` : ''}</p>
+          <p class="dim" style="margin:.35rem 0 .6rem">${esc(shortPaper(qs[0].paper))} · ${mcq.length} MCQ · ${mcq.length * mpqOf(qs[0].paper)} marks${essay ? ` · ${essay} essay` : ''}</p>
           ${partial ? `<p class="dim" style="margin:-.3rem 0 .6rem;font-size:.75rem">${esc(partial.note)}</p>` : ''}
           <div style="font-size:.78rem;color:var(--ink-3)">Attempted ${att}/${mcq.length}${att ? ` · last-attempt ${pct(ok, att)}%` : ''}</div>
           <div class="bar mb"><i style="width:${pct(att, mcq.length)}%"></i></div>

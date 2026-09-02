@@ -1,0 +1,45 @@
+{
+  "checked": 99,
+  "findings": [
+    {
+      "n": 41,
+      "verdict": "unverified",
+      "marked": "b",
+      "alt": null,
+      "confidence": "unknown",
+      "why": "The exact amount of \"Sekawt Hawn Man\" payable to the chief could not be confirmed in any accessible source on Mizo customary law. Check a printed Mizo Hnam Dan text before trusting the mark."
+    },
+    {
+      "n": 43,
+      "verdict": "unverified",
+      "marked": "c",
+      "alt": null,
+      "confidence": "low",
+      "why": "Beai is documented as a trap for ground-feeding birds, and vaithang is also listed among Mizo bird/junglefowl traps, so excluding vaithang is questionable. No accessible source describes buhchuk or chipthang, so the marked combination could not be confirmed either way."
+    },
+    {
+      "n": 46,
+      "verdict": "unverified",
+      "marked": "a",
+      "alt": null,
+      "confidence": "low",
+      "why": "Standard accounts credit the first recorded Lushai raid into British territory (Sylhet, September 1826) to Buangtheuva, who is not an option. Among the four chiefs listed Lalrihua is the earliest, so the mark is plausible but could not be confirmed."
+    },
+    {
+      "n": 82,
+      "verdict": "wrong",
+      "marked": "b",
+      "alt": "c",
+      "confidence": "high",
+      "why": "Genetic diversity is the variety of genes within a species. \"Variation in ecosystems in a region\" is ecosystem diversity, a different level of biodiversity."
+    },
+    {
+      "n": 96,
+      "verdict": "disputable",
+      "marked": "b",
+      "alt": "c",
+      "confidence": "low",
+      "why": "Inlawm is reciprocal labour exchange, where people take turns helping one another, which fits the wording. But hnatlang, community labour contributed for village works including house building, is the answer most Mizo textbooks give for this description."
+    }
+  ]
+}

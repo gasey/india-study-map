@@ -1,0 +1,21 @@
+{
+  "checked": 99,
+  "findings": [
+    {
+      "n": 40,
+      "verdict": "wrong",
+      "marked": "d",
+      "alt": "a",
+      "confidence": "high",
+      "why": "Natural gas is roughly 85-95% methane. Ethane, propane and butane are only minor components, so (a) Methane is the principal constituent."
+    },
+    {
+      "n": 98,
+      "verdict": "wrong",
+      "marked": "b",
+      "alt": "c",
+      "confidence": "medium",
+      "why": "The Bawi system was officially ended in 1927, when the Assam government replaced the term 'bawi' with 'chhungte'/'awmpui'. Note the booklet prints the 1927 option with a duplicate '(b)' label, which is probably why the wrong box was shaded."
+    }
+  ]
+}

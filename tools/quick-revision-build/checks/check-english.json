@@ -1,0 +1,70 @@
+{
+ "checked": 120,
+ "findings": [
+  {
+   "paper": "sas1-paper1-english",
+   "n": 16,
+   "verdict": "disputable",
+   "marked": "a",
+   "alt": "b",
+   "confidence": "medium",
+   "why": "\"At the discretion of\" is the fixed English idiom, so \"rests at the discretion of the appointing authority\" reads better. \"Rest with\" is normally followed by a person or body (\"the decision rests with the authority\"), not with \"the discretion of\"."
+  },
+  {
+   "paper": "sas1-paper1-english",
+   "n": 48,
+   "verdict": "void",
+   "marked": "d",
+   "alt": "a",
+   "confidence": "medium",
+   "why": "Both passives are correct. Older grammar books make the noun object the subject — \"Advantage has not been taken of his generosity\" — while treating \"take advantage of\" as one unit gives \"His generosity has not been taken advantage of\". Two defensible answers.",
+   "voidReason": "Reviewer misread the highlighted letter as (d). The cyan highlight is on (a), verified against page 9 of the source PDF — and (a) is the option the reviewer argued for, so the finding confirms the mark rather than disputing it."
+  },
+  {
+   "paper": "nurse-paper1-english",
+   "n": 26,
+   "verdict": "disputable",
+   "marked": "d",
+   "alt": "c",
+   "confidence": "high",
+   "why": "The marked answer is complex, but so is (c) \"As he was tired, he fell asleep\" — a main clause plus a subordinate clause of reason. The question has two correct options."
+  },
+  {
+   "paper": "nurse-paper1-english",
+   "n": 30,
+   "verdict": "disputable",
+   "marked": "d",
+   "alt": "a",
+   "confidence": "low",
+   "why": "The mark stands: with verbs of knowing, the passive takes \"to\" — \"He is known to me\" is the idiomatic and usually keyed answer. (a) \"He is known by me\" is only the mechanical by-agent form some books show."
+  },
+  {
+   "paper": "nurse-paper1-english",
+   "n": 31,
+   "verdict": "wrong",
+   "marked": "d",
+   "alt": "b",
+   "confidence": "high",
+   "why": "\"He was ill and could not come\" is a compound sentence — two main clauses joined by \"and\". A complex sentence needs a subordinate clause, so the answer is (b) \"As he was ill, he could not come.\""
+  },
+  {
+   "paper": "nurse-paper1-english",
+   "n": 46,
+   "verdict": "disputable",
+   "marked": "c",
+   "alt": "a",
+   "confidence": "low",
+   "why": "Both forms are taught. \"Two and two make four\" treats the two subjects as plural; \"makes\" is defended by treating the sum as one idea, which is the rule this key follows."
+  },
+  {
+   "paper": "nurse-paper1-english",
+   "n": 55,
+   "verdict": "void",
+   "marked": "c",
+   "alt": null,
+   "confidence": "low",
+   "why": "Booklet misprint: options (a) and (d) are printed with identical text. It does not change the answer — (c), with the past perfect \"had got\", is the correct reported form.",
+   "voidReason": "Redundant: the finding only restates the printing defect that the source note already records, and it confirms the mark rather than disputing it. Showing both printed the same sentence twice."
+  }
+ ]
+}

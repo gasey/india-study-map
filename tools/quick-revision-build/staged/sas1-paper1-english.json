@@ -1,0 +1,973 @@
+{
+  "exam": "Mizoram Public Service Commission — Competitive Examination for Recruitment to the Post of Senior Horticulture Demonstrator under Horticulture Department & Subordonate Agriculture Service (SAS-I) under Agriculture & Farmer's Welfare Department, Government of Mizoram. (August-2026)",
+  "paper": "Paper-I (General English)",
+  "series": null,
+  "date": "August 2026",
+  "totalQuestionsStated": null,
+  "_structureNote": "This booklet has TWO independently-numbered sections. PART-A (40 Marks) is descriptive/subjective, numbered 1-10, and carries NO highlighted answers. PART-B (60 Marks) is 60 MCQs numbered 1-60, all cyan-highlighted. The 'questions' array below holds PART-B (n = the number as printed, 1..60). PART-A is preserved in the 'partA' array below so nothing is lost. The booklet never states a total question count anywhere; PART-B's 60 is derived from '(60 Marks)' + 'All questions carry equal mark of 1.' and confirmed by the printed numbering running 1-60.",
+  "_highlightAudit": "The PDF contains exactly 60 Highlight annotations, all identical cyan (RGB 0.5608, 0.8706, 0.9765), one per PART-B question, each covering an option letter. There are ZERO pink/magenta highlights and ZERO annotations carrying any text content, i.e. no handwritten margin notes and no answer-key discrepancies anywhere in this file. Every 'answer' below was cross-checked against the extracted annotation rectangles.",
+  "partA": [
+    {
+      "n": 1,
+      "printedNumber": 1,
+      "part": "A",
+      "marks": 10,
+      "type": "descriptive",
+      "q": "Write a précis of the following passage.",
+      "options": null,
+      "answer": null,
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Horticulture, the ancient art and science of cultivating plants, is currently undergoing its most radical transformation since the dawn of the agricultural revolution. For millennia, the practice was entirely dependent on the whims of nature—reliant on fertile open fields, predictable seasonal weather, and vast quantities of freshwater. However, the dual crises of rapid global urbanization and severe climate change have rendered traditional outdoor cultivation increasingly volatile and unsustainable. In response, modern horticultural scientists have moved indoors, pioneering the field of controlled-environment agriculture (CEA), most notably manifested in the rise of vertical farming.\n\nVertical farming completely decouples plant growth from the natural elements. Instead of horizontal fields, crops are stacked in vertical layers within highly controlled, indoor facilities like retrofitted warehouses or shipping containers. By utilizing advanced hydroponic or aeroponic systems, where plant roots are suspended in nutrient-rich water solutions or mists rather than soil, these facilities optimize resource consumption. Remarkably, vertical farms can use up to 95% less water than conventional farms, a monumental achievement in an era of acute water scarcity. Furthermore, artificial LED lighting calibrated to specific wavelengths replaces sunlight, allowing for year-round harvests independent of external weather conditions.\n\nDespite these revolutionary ecological advantages, the widespread adoption of vertical horticulture faces formidable obstacles. The primary deterrent is economic; the initial capital investment required for setting up automated indoor facilities equipped with sensors, climate control, and specialized lighting is extraordinarily high. Additionally, the massive amount of electricity required to run these systems 24/7 often offsets the carbon savings gained from reduced water and land use, unless the facility is powered entirely by renewable energy. Currently, the economic viability is limited to high-value, fast-growing crops like leafy greens and herbs. Whether vertical farming can expand to staple crops and truly revolutionize global food security remains an open question, pending further technological breakthroughs."
+    },
+    {
+      "n": 2,
+      "printedNumber": 2,
+      "part": "A",
+      "marks": 2,
+      "type": "descriptive",
+      "q": "What occurs neurologically when a person experiences a state of boredom?",
+      "options": null,
+      "answer": null,
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 2 - 8): Read the following passage carefully and answer the questions following the instructions given:\n\nIn an era dominated by instantaneous digital gratification, boredom is universally treated as an affliction to be aggressively eradicated. At the slightest hint of a lull in stimulation, we habitually reach for our smartphones, seeking refuge in the infinite scroll of social media algorithms. Modern society's intolerance of inactivity has resulted in the commercialization of human attention. However, cognitive neuroscientists are beginning to argue that by treating boredom as an enemy to be vanquished, we are inadvertently dismantling a crucial component of our cognitive architecture. Far from being a useless, negative emotional vacuum, boredom serves as a vital evolutionary catalyst for human creativity and self-reflection.\n\nWhen an individual enters a state of boredom, the brain does not simply power down or lapse into dormancy. Instead, neuroimaging studies reveal a surge of metabolic activity in a complex neural network known as the Default Mode Network (DMN). The DMN ignites precisely when we stop focusing on the external environment and turn our attention inward. It is the anatomical seat of daydreaming, autobiographical memory, and perspective-taking. When the brain is denied external stimuli, the DMN begins connecting disparate thoughts, synthesizing past experiences with future aspirations. This internal orchestration is where original, innovative ideas are forged; it allows the mind to wander into unmapped conceptual territories that structured focus explicitly blocks.\n\nConversely, a mind continuously saturated with hyper-stimulation loses its capacity for deep incubation. The constant influx of notifications, short-form videos, and digital noise keeps the brain's executive networks perpetually engaged in processing superficial data. This cognitive overload leaves no intellectual bandwidth for baseline introspection. Psychologists warn that this sensory bombardment risks creating a generation incapable of sitting quietly with their own thoughts—a state French philosopher Blaise Pascal once noted as the root of all human misery. Ultimately, reclaiming boredom is not an act of passive resignation, but an active preservation of our intellectual autonomy. It is within the quiet spaces of under-stimulation that we discover who we are outside of the algorithm."
+    },
+    {
+      "n": 3,
+      "printedNumber": 3,
+      "part": "A",
+      "marks": 2,
+      "type": "descriptive",
+      "q": "Why is mind-wandering considered beneficial for problem-solving and innovation?",
+      "options": null,
+      "answer": null,
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 2 - 8): Read the following passage carefully and answer the questions following the instructions given:\n\nIn an era dominated by instantaneous digital gratification, boredom is universally treated as an affliction to be aggressively eradicated. At the slightest hint of a lull in stimulation, we habitually reach for our smartphones, seeking refuge in the infinite scroll of social media algorithms. Modern society's intolerance of inactivity has resulted in the commercialization of human attention. However, cognitive neuroscientists are beginning to argue that by treating boredom as an enemy to be vanquished, we are inadvertently dismantling a crucial component of our cognitive architecture. Far from being a useless, negative emotional vacuum, boredom serves as a vital evolutionary catalyst for human creativity and self-reflection.\n\nWhen an individual enters a state of boredom, the brain does not simply power down or lapse into dormancy. Instead, neuroimaging studies reveal a surge of metabolic activity in a complex neural network known as the Default Mode Network (DMN). The DMN ignites precisely when we stop focusing on the external environment and turn our attention inward. It is the anatomical seat of daydreaming, autobiographical memory, and perspective-taking. When the brain is denied external stimuli, the DMN begins connecting disparate thoughts, synthesizing past experiences with future aspirations. This internal orchestration is where original, innovative ideas are forged; it allows the mind to wander into unmapped conceptual territories that structured focus explicitly blocks.\n\nConversely, a mind continuously saturated with hyper-stimulation loses its capacity for deep incubation. The constant influx of notifications, short-form videos, and digital noise keeps the brain's executive networks perpetually engaged in processing superficial data. This cognitive overload leaves no intellectual bandwidth for baseline introspection. Psychologists warn that this sensory bombardment risks creating a generation incapable of sitting quietly with their own thoughts—a state French philosopher Blaise Pascal once noted as the root of all human misery. Ultimately, reclaiming boredom is not an act of passive resignation, but an active preservation of our intellectual autonomy. It is within the quiet spaces of under-stimulation that we discover who we are outside of the algorithm."
+    },
+    {
+      "n": 4,
+      "printedNumber": 4,
+      "part": "A",
+      "marks": 2,
+      "type": "descriptive",
+      "q": "What are the psychological dangers of keeping the brain constantly saturated with digital noise?",
+      "options": null,
+      "answer": null,
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 2 - 8): Read the following passage carefully and answer the questions following the instructions given:\n\nIn an era dominated by instantaneous digital gratification, boredom is universally treated as an affliction to be aggressively eradicated. At the slightest hint of a lull in stimulation, we habitually reach for our smartphones, seeking refuge in the infinite scroll of social media algorithms. Modern society's intolerance of inactivity has resulted in the commercialization of human attention. However, cognitive neuroscientists are beginning to argue that by treating boredom as an enemy to be vanquished, we are inadvertently dismantling a crucial component of our cognitive architecture. Far from being a useless, negative emotional vacuum, boredom serves as a vital evolutionary catalyst for human creativity and self-reflection.\n\nWhen an individual enters a state of boredom, the brain does not simply power down or lapse into dormancy. Instead, neuroimaging studies reveal a surge of metabolic activity in a complex neural network known as the Default Mode Network (DMN). The DMN ignites precisely when we stop focusing on the external environment and turn our attention inward. It is the anatomical seat of daydreaming, autobiographical memory, and perspective-taking. When the brain is denied external stimuli, the DMN begins connecting disparate thoughts, synthesizing past experiences with future aspirations. This internal orchestration is where original, innovative ideas are forged; it allows the mind to wander into unmapped conceptual territories that structured focus explicitly blocks.\n\nConversely, a mind continuously saturated with hyper-stimulation loses its capacity for deep incubation. The constant influx of notifications, short-form videos, and digital noise keeps the brain's executive networks perpetually engaged in processing superficial data. This cognitive overload leaves no intellectual bandwidth for baseline introspection. Psychologists warn that this sensory bombardment risks creating a generation incapable of sitting quietly with their own thoughts—a state French philosopher Blaise Pascal once noted as the root of all human misery. Ultimately, reclaiming boredom is not an act of passive resignation, but an active preservation of our intellectual autonomy. It is within the quiet spaces of under-stimulation that we discover who we are outside of the algorithm."
+    },
+    {
+      "n": 5,
+      "printedNumber": 5,
+      "part": "A",
+      "marks": 1,
+      "type": "mcq",
+      "q": "Which of the following best captures the main thesis of the passage?",
+      "options": {
+        "a": "Smartphones are structurally rewiring the human brain's physical networks.",
+        "b": "Boredom is a psychologically necessary state that fosters creativity and self-reflection.",
+        "c": "The Default Mode Network is active only when a person is deeply focused on a task.",
+        "d": "Modern social media applications are designed to explicitly maximize user intelligence."
+      },
+      "answer": null,
+      "keyAnswer": null,
+      "note": "No highlight of any colour appears on this question — PART-A carries no marked answers in this PDF.",
+      "passage": "Direction (Question Nos. 2 - 8): Read the following passage carefully and answer the questions following the instructions given:\n\nIn an era dominated by instantaneous digital gratification, boredom is universally treated as an affliction to be aggressively eradicated. At the slightest hint of a lull in stimulation, we habitually reach for our smartphones, seeking refuge in the infinite scroll of social media algorithms. Modern society's intolerance of inactivity has resulted in the commercialization of human attention. However, cognitive neuroscientists are beginning to argue that by treating boredom as an enemy to be vanquished, we are inadvertently dismantling a crucial component of our cognitive architecture. Far from being a useless, negative emotional vacuum, boredom serves as a vital evolutionary catalyst for human creativity and self-reflection.\n\nWhen an individual enters a state of boredom, the brain does not simply power down or lapse into dormancy. Instead, neuroimaging studies reveal a surge of metabolic activity in a complex neural network known as the Default Mode Network (DMN). The DMN ignites precisely when we stop focusing on the external environment and turn our attention inward. It is the anatomical seat of daydreaming, autobiographical memory, and perspective-taking. When the brain is denied external stimuli, the DMN begins connecting disparate thoughts, synthesizing past experiences with future aspirations. This internal orchestration is where original, innovative ideas are forged; it allows the mind to wander into unmapped conceptual territories that structured focus explicitly blocks.\n\nConversely, a mind continuously saturated with hyper-stimulation loses its capacity for deep incubation. The constant influx of notifications, short-form videos, and digital noise keeps the brain's executive networks perpetually engaged in processing superficial data. This cognitive overload leaves no intellectual bandwidth for baseline introspection. Psychologists warn that this sensory bombardment risks creating a generation incapable of sitting quietly with their own thoughts—a state French philosopher Blaise Pascal once noted as the root of all human misery. Ultimately, reclaiming boredom is not an act of passive resignation, but an active preservation of our intellectual autonomy. It is within the quiet spaces of under-stimulation that we discover who we are outside of the algorithm."
+    },
+    {
+      "n": 6,
+      "printedNumber": 6,
+      "part": "A",
+      "marks": 1,
+      "type": "mcq",
+      "q": "The author uses the phrase \"inadvertently dismantling\" in the first paragraph to suggest that:",
+      "options": {
+        "a": "We are unintentionally destroying a valuable mental process.",
+        "b": "We are purposely reorganizing our daily habits for maximum efficiency.",
+        "c": "Technological advancement is deliberately trying to harm human psychology.",
+        "d": "Scientists are actively rebuilding damaged neural pathways."
+      },
+      "answer": null,
+      "keyAnswer": null,
+      "note": "No highlight of any colour appears on this question — PART-A carries no marked answers in this PDF.",
+      "passage": "Direction (Question Nos. 2 - 8): Read the following passage carefully and answer the questions following the instructions given:\n\nIn an era dominated by instantaneous digital gratification, boredom is universally treated as an affliction to be aggressively eradicated. At the slightest hint of a lull in stimulation, we habitually reach for our smartphones, seeking refuge in the infinite scroll of social media algorithms. Modern society's intolerance of inactivity has resulted in the commercialization of human attention. However, cognitive neuroscientists are beginning to argue that by treating boredom as an enemy to be vanquished, we are inadvertently dismantling a crucial component of our cognitive architecture. Far from being a useless, negative emotional vacuum, boredom serves as a vital evolutionary catalyst for human creativity and self-reflection.\n\nWhen an individual enters a state of boredom, the brain does not simply power down or lapse into dormancy. Instead, neuroimaging studies reveal a surge of metabolic activity in a complex neural network known as the Default Mode Network (DMN). The DMN ignites precisely when we stop focusing on the external environment and turn our attention inward. It is the anatomical seat of daydreaming, autobiographical memory, and perspective-taking. When the brain is denied external stimuli, the DMN begins connecting disparate thoughts, synthesizing past experiences with future aspirations. This internal orchestration is where original, innovative ideas are forged; it allows the mind to wander into unmapped conceptual territories that structured focus explicitly blocks.\n\nConversely, a mind continuously saturated with hyper-stimulation loses its capacity for deep incubation. The constant influx of notifications, short-form videos, and digital noise keeps the brain's executive networks perpetually engaged in processing superficial data. This cognitive overload leaves no intellectual bandwidth for baseline introspection. Psychologists warn that this sensory bombardment risks creating a generation incapable of sitting quietly with their own thoughts—a state French philosopher Blaise Pascal once noted as the root of all human misery. Ultimately, reclaiming boredom is not an act of passive resignation, but an active preservation of our intellectual autonomy. It is within the quiet spaces of under-stimulation that we discover who we are outside of the algorithm."
+    },
+    {
+      "n": 7,
+      "printedNumber": 7,
+      "part": "A",
+      "marks": 1,
+      "type": "mcq",
+      "q": "The word 'disparate' in the second paragraph is closest in meaning to:",
+      "options": {
+        "a": "Highly dangerous",
+        "b": "Logically identical",
+        "c": "Essentially distinct or different",
+        "d": "Rapidly fading"
+      },
+      "answer": null,
+      "keyAnswer": null,
+      "note": "No highlight of any colour appears on this question — PART-A carries no marked answers in this PDF.",
+      "passage": "Direction (Question Nos. 2 - 8): Read the following passage carefully and answer the questions following the instructions given:\n\nIn an era dominated by instantaneous digital gratification, boredom is universally treated as an affliction to be aggressively eradicated. At the slightest hint of a lull in stimulation, we habitually reach for our smartphones, seeking refuge in the infinite scroll of social media algorithms. Modern society's intolerance of inactivity has resulted in the commercialization of human attention. However, cognitive neuroscientists are beginning to argue that by treating boredom as an enemy to be vanquished, we are inadvertently dismantling a crucial component of our cognitive architecture. Far from being a useless, negative emotional vacuum, boredom serves as a vital evolutionary catalyst for human creativity and self-reflection.\n\nWhen an individual enters a state of boredom, the brain does not simply power down or lapse into dormancy. Instead, neuroimaging studies reveal a surge of metabolic activity in a complex neural network known as the Default Mode Network (DMN). The DMN ignites precisely when we stop focusing on the external environment and turn our attention inward. It is the anatomical seat of daydreaming, autobiographical memory, and perspective-taking. When the brain is denied external stimuli, the DMN begins connecting disparate thoughts, synthesizing past experiences with future aspirations. This internal orchestration is where original, innovative ideas are forged; it allows the mind to wander into unmapped conceptual territories that structured focus explicitly blocks.\n\nConversely, a mind continuously saturated with hyper-stimulation loses its capacity for deep incubation. The constant influx of notifications, short-form videos, and digital noise keeps the brain's executive networks perpetually engaged in processing superficial data. This cognitive overload leaves no intellectual bandwidth for baseline introspection. Psychologists warn that this sensory bombardment risks creating a generation incapable of sitting quietly with their own thoughts—a state French philosopher Blaise Pascal once noted as the root of all human misery. Ultimately, reclaiming boredom is not an act of passive resignation, but an active preservation of our intellectual autonomy. It is within the quiet spaces of under-stimulation that we discover who we are outside of the algorithm."
+    },
+    {
+      "n": 8,
+      "printedNumber": 8,
+      "part": "A",
+      "marks": 1,
+      "type": "mcq",
+      "q": "Based on the passage, what prevents the brain from entering a state of \"deep incubation\"?",
+      "options": {
+        "a": "Continuous exposure to hyper-stimulation and superficial data",
+        "b": "Spending too much time in isolated, under-stimulated environments",
+        "c": "An overactive Default Mode Network during work hours",
+        "d": "Balancing physical exercise with intellectual tasks"
+      },
+      "answer": null,
+      "keyAnswer": null,
+      "note": "No highlight of any colour appears on this question — PART-A carries no marked answers in this PDF.",
+      "passage": "Direction (Question Nos. 2 - 8): Read the following passage carefully and answer the questions following the instructions given:\n\nIn an era dominated by instantaneous digital gratification, boredom is universally treated as an affliction to be aggressively eradicated. At the slightest hint of a lull in stimulation, we habitually reach for our smartphones, seeking refuge in the infinite scroll of social media algorithms. Modern society's intolerance of inactivity has resulted in the commercialization of human attention. However, cognitive neuroscientists are beginning to argue that by treating boredom as an enemy to be vanquished, we are inadvertently dismantling a crucial component of our cognitive architecture. Far from being a useless, negative emotional vacuum, boredom serves as a vital evolutionary catalyst for human creativity and self-reflection.\n\nWhen an individual enters a state of boredom, the brain does not simply power down or lapse into dormancy. Instead, neuroimaging studies reveal a surge of metabolic activity in a complex neural network known as the Default Mode Network (DMN). The DMN ignites precisely when we stop focusing on the external environment and turn our attention inward. It is the anatomical seat of daydreaming, autobiographical memory, and perspective-taking. When the brain is denied external stimuli, the DMN begins connecting disparate thoughts, synthesizing past experiences with future aspirations. This internal orchestration is where original, innovative ideas are forged; it allows the mind to wander into unmapped conceptual territories that structured focus explicitly blocks.\n\nConversely, a mind continuously saturated with hyper-stimulation loses its capacity for deep incubation. The constant influx of notifications, short-form videos, and digital noise keeps the brain's executive networks perpetually engaged in processing superficial data. This cognitive overload leaves no intellectual bandwidth for baseline introspection. Psychologists warn that this sensory bombardment risks creating a generation incapable of sitting quietly with their own thoughts—a state French philosopher Blaise Pascal once noted as the root of all human misery. Ultimately, reclaiming boredom is not an act of passive resignation, but an active preservation of our intellectual autonomy. It is within the quiet spaces of under-stimulation that we discover who we are outside of the algorithm."
+    },
+    {
+      "n": 9,
+      "printedNumber": 9,
+      "part": "A",
+      "marks": 10,
+      "type": "descriptive",
+      "q": "You are 'X' a concerned citizen in your district. A serious pest infestation has recently affected vegetable crops in the area, causing concern among local farmers. Write a letter to the Director of 'Y' Department requesting the urgent supply of appropriate pesticides, technical guidance to control the infestation, and the organisation of an awareness programme for the affected farmers.",
+      "options": null,
+      "answer": null,
+      "keyAnswer": null,
+      "note": null,
+      "passage": null
+    },
+    {
+      "n": 10,
+      "printedNumber": 10,
+      "part": "A",
+      "marks": 10,
+      "type": "descriptive",
+      "q": "Write an essay choosing any one of the topics given below:",
+      "options": {
+        "a": "Balancing Economic Growth and Environmental Conservation",
+        "b": "Discipline Is the Bridge between Goals and Achievement",
+        "c": "The Role of Technology in Modern Farming",
+        "d": "Education for employment versus education for life."
+      },
+      "answer": null,
+      "keyAnswer": null,
+      "note": "Options here are essay topic choices, not answer choices. 'any one' is printed bold-underlined.",
+      "passage": null
+    }
+  ],
+  "questions": [
+    {
+      "n": 1,
+      "printedNumber": 1,
+      "part": "B",
+      "q": "They hammered out an agreement after hours of discussion.",
+      "options": {"a": "Verb", "b": "Noun", "c": "Adjective", "d": "Preposition"},
+      "answer": "a",
+      "keyAnswer": null,
+      "note": "Underlined word: hammered",
+      "passage": "Direction (Question Nos. 1 - 5): The following sentence has a word underlined. Read the sentence carefully and find which part of speech the underlined word belongs to:"
+    },
+    {
+      "n": 2,
+      "printedNumber": 2,
+      "part": "B",
+      "q": "There is little hope of success now.",
+      "options": {"a": "Pronoun", "b": "Adjective", "c": "Adverb", "d": "Noun"},
+      "answer": "b",
+      "keyAnswer": null,
+      "note": "Underlined word: little",
+      "passage": "Direction (Question Nos. 1 - 5): The following sentence has a word underlined. Read the sentence carefully and find which part of speech the underlined word belongs to:"
+    },
+    {
+      "n": 3,
+      "printedNumber": 3,
+      "part": "B",
+      "q": "Many were invited, but only a few attended.",
+      "options": {"a": "Adjective", "b": "Adverb", "c": "Noun", "d": "Pronoun"},
+      "answer": "d",
+      "keyAnswer": null,
+      "note": "Underlined word: Many",
+      "passage": "Direction (Question Nos. 1 - 5): The following sentence has a word underlined. Read the sentence carefully and find which part of speech the underlined word belongs to:"
+    },
+    {
+      "n": 4,
+      "printedNumber": 4,
+      "part": "B",
+      "q": "His return from abroad surprised everyone.",
+      "options": {"a": "Noun", "b": "Verb", "c": "Adjective", "d": "Adverb"},
+      "answer": "a",
+      "keyAnswer": null,
+      "note": "Underlined word: return",
+      "passage": "Direction (Question Nos. 1 - 5): The following sentence has a word underlined. Read the sentence carefully and find which part of speech the underlined word belongs to:"
+    },
+    {
+      "n": 5,
+      "printedNumber": 5,
+      "part": "B",
+      "q": "The suspect was taken inside.",
+      "options": {"a": "Noun", "b": "Adjective", "c": "Adverb", "d": "Conjunction"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": "Underlined word: inside.",
+      "passage": "Direction (Question Nos. 1 - 5): The following sentence has a word underlined. Read the sentence carefully and find which part of speech the underlined word belongs to:"
+    },
+    {
+      "n": 6,
+      "printedNumber": 6,
+      "part": "B",
+      "q": "In which sentence does the word \"fast\" function as an adverb?",
+      "options": {
+        "a": "The train moved fast through the tunnel.",
+        "b": "She observed a fast improvement in his performance.",
+        "c": "Fast food is becoming increasingly popular.",
+        "d": "The athlete maintained a fast pace."
+      },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 6 - 10): Choose the correct option as instructed:"
+    },
+    {
+      "n": 7,
+      "printedNumber": 7,
+      "part": "B",
+      "q": "In which sentence is the word 'light' used as a verb?",
+      "options": {
+        "a": "The room was filled with bright light.",
+        "b": "She carried a light bag.",
+        "c": "Please light the candles before the guests arrive.",
+        "d": "The light from the lamp was dim."
+      },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 6 - 10): Choose the correct option as instructed:"
+    },
+    {
+      "n": 8,
+      "printedNumber": 8,
+      "part": "B",
+      "q": "The word 'running' functions as a noun in:",
+      "options": {
+        "a": "The athletes are running quickly.",
+        "b": "Running water is essential.",
+        "c": "Running improves cardiovascular health.",
+        "d": "They were running late."
+      },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 6 - 10): Choose the correct option as instructed:"
+    },
+    {
+      "n": 9,
+      "printedNumber": 9,
+      "part": "B",
+      "q": "Identify the part of speech of the word 'despite' in the following sentence:\n\nDespite the heavy rain, the match continued.",
+      "options": {"a": "Conjunction", "b": "Adverb", "c": "Interjection", "d": "Preposition"},
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 6 - 10): Choose the correct option as instructed:"
+    },
+    {
+      "n": 10,
+      "printedNumber": 10,
+      "part": "B",
+      "q": "In the sentence, \"That is the exact same variety of apple we saw at the plantation,\" the word 'same' acts as a/an:",
+      "options": {"a": "Pronoun", "b": "Adverb", "c": "Adjective", "d": "Noun"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 6 - 10): Choose the correct option as instructed:"
+    },
+    {
+      "n": 11,
+      "printedNumber": 11,
+      "part": "B",
+      "q": "By the end of this financial year, the government ________ (implement) all the recommendations of the commission.",
+      "options": {
+        "a": "will implement",
+        "b": "will have implemented",
+        "c": "will be implementing",
+        "d": "will have been implementing"
+      },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 11 - 15): Fill in the blanks with the most appropriate form of the verbs given:"
+    },
+    {
+      "n": 12,
+      "printedNumber": 12,
+      "part": "B",
+      "q": "When the inspection finally began, the workers ________ (wait) outside the factory for nearly four hours.",
+      "options": {"a": "waited", "b": "had waited", "c": "had been waiting", "d": "were waiting"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 11 - 15): Fill in the blanks with the most appropriate form of the verbs given:"
+    },
+    {
+      "n": 13,
+      "printedNumber": 13,
+      "part": "B",
+      "q": "The scientist ________ (propose) a new theory in 2018.",
+      "options": {"a": "proposed", "b": "proposes", "c": "has proposed", "d": "had proposed"},
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 11 - 15): Fill in the blanks with the most appropriate form of the verbs given:"
+    },
+    {
+      "n": 14,
+      "printedNumber": 14,
+      "part": "B",
+      "q": "The conference ________ (begin) at 10:00 a.m. tomorrow according to the official schedule.",
+      "options": {"a": "began", "b": "begins", "c": "will begin", "d": "is beginning"},
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 11 - 15): Fill in the blanks with the most appropriate form of the verbs given:"
+    },
+    {
+      "n": 15,
+      "printedNumber": 15,
+      "part": "B",
+      "q": "The committee ________ (approve) the revised guidelines, and they are now in effect.",
+      "options": {"a": "approved", "b": "approves", "c": "had approved", "d": "has approved"},
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 11 - 15): Fill in the blanks with the most appropriate form of the verbs given:"
+    },
+    {
+      "n": 16,
+      "printedNumber": 16,
+      "part": "B",
+      "q": "The final decision rests ________ the discretion of the appointing authority.",
+      "options": {"a": "with", "b": "at", "c": "on", "d": "over"},
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 16 - 20): Select the most appropriate preposition from the options provided to fill in the blanks:"
+    },
+    {
+      "n": 17,
+      "printedNumber": 17,
+      "part": "B",
+      "q": "His explanation does not correspond ________ the facts established during the investigation.",
+      "options": {"a": "with", "b": "to", "c": "by", "d": "from"},
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 16 - 20): Select the most appropriate preposition from the options provided to fill in the blanks:"
+    },
+    {
+      "n": 18,
+      "printedNumber": 18,
+      "part": "B",
+      "q": "The committee was unanimous ________ its decision.",
+      "options": {"a": "on", "b": "for", "c": "with", "d": "in"},
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 16 - 20): Select the most appropriate preposition from the options provided to fill in the blanks:"
+    },
+    {
+      "n": 19,
+      "printedNumber": 19,
+      "part": "B",
+      "q": "The report sheds light ________ several overlooked issues.",
+      "options": {"a": "over", "b": "on", "c": "into", "d": "at"},
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 16 - 20): Select the most appropriate preposition from the options provided to fill in the blanks:"
+    },
+    {
+      "n": 20,
+      "printedNumber": 20,
+      "part": "B",
+      "q": "The new policy is aimed ________ improving public healthcare.",
+      "options": {"a": "with", "b": "to", "c": "at", "d": "on"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 16 - 20): Select the most appropriate preposition from the options provided to fill in the blanks:"
+    },
+    {
+      "n": 21,
+      "printedNumber": 21,
+      "part": "B",
+      "q": "The dataset was divided __________ the three research groups to ensure unbiased analysis.",
+      "options": {"a": "between", "b": "amid", "c": "among", "d": "inside"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 21 - 25): Choose the word that best completes the sentence contextually:"
+    },
+    {
+      "n": 22,
+      "printedNumber": 22,
+      "part": "B",
+      "q": "If the team __________ the tissue culture experiment earlier, they would have preserved the rare specimen.",
+      "options": {"a": "initiated", "b": "would initiate", "c": "has initiated", "d": "had initiated"},
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 21 - 25): Choose the word that best completes the sentence contextually:"
+    },
+    {
+      "n": 23,
+      "printedNumber": 23,
+      "part": "B",
+      "q": "Due to decades of intensive, single-crop farming, the soil has become completely __________, incapable of supporting deep-rooted vegetation.",
+      "options": {"a": "fecund", "b": "resilient", "c": "barren", "d": "flourishing"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 21 - 25): Choose the word that best completes the sentence contextually:"
+    },
+    {
+      "n": 24,
+      "printedNumber": 24,
+      "part": "B",
+      "q": "The breakthrough in automated pest detection was entirely __________, as the researchers were looking for a cure for fungal leaf wilt at the time.",
+      "options": {"a": "deliberate", "b": "serendipitous", "c": "systematic", "d": "ominous"},
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 21 - 25): Choose the word that best completes the sentence contextually:"
+    },
+    {
+      "n": 25,
+      "printedNumber": 25,
+      "part": "B",
+      "q": "The introduction of the invasive beetle had a __________ effect on the local crop ecosystem.",
+      "options": {"a": "salutary", "b": "negligible", "c": "deleterious", "d": "transient"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 21 - 25): Choose the word that best completes the sentence contextually:"
+    },
+    {
+      "n": 26,
+      "printedNumber": 26,
+      "part": "B",
+      "q": "The chairman refused to sweep the issue under the carpet despite political pressure.",
+      "options": {
+        "a": "Investigate the issue thoroughly",
+        "b": "Resolve the issue immediately",
+        "c": "Ignore or conceal the issue",
+        "d": "Publicize the issue widely"
+      },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": "Underlined idiom: sweep the issue under the carpet",
+      "passage": "Direction (Question Nos. 26 - 30): In these questions, four alternatives are given for the underlined idioms/phrases in the sentences. Choose the alternative which best expresses the meaning:"
+    },
+    {
+      "n": 27,
+      "printedNumber": 27,
+      "part": "B",
+      "q": "The proposal was merely a red herring in the discussion.",
+      "options": {
+        "a": "A practical solution",
+        "b": "Something intended to distract attention",
+        "c": "A controversial decision",
+        "d": "A minor correction"
+      },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": "Underlined idiom: red herring",
+      "passage": "Direction (Question Nos. 26 - 30): In these questions, four alternatives are given for the underlined idioms/phrases in the sentences. Choose the alternative which best expresses the meaning:"
+    },
+    {
+      "n": 28,
+      "printedNumber": 28,
+      "part": "B",
+      "q": "The government decided not to take the bull by the horns.",
+      "options": {
+        "a": "Confront the difficult situation directly",
+        "b": "Delay the inevitable decision",
+        "c": "Seek expert consultation",
+        "d": "Reduce financial expenditure"
+      },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": "Underlined idiom: take the bull by the horns.",
+      "passage": "Direction (Question Nos. 26 - 30): In these questions, four alternatives are given for the underlined idioms/phrases in the sentences. Choose the alternative which best expresses the meaning:"
+    },
+    {
+      "n": 29,
+      "printedNumber": 29,
+      "part": "B",
+      "q": "The committee members were instructed to read between the lines of the agreement.",
+      "options": {
+        "a": "Read the document carefully",
+        "b": "Understand the implied meaning",
+        "c": "Ignore unnecessary details",
+        "d": "Memorize the contents"
+      },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": "Underlined idiom: read between the lines",
+      "passage": "Direction (Question Nos. 26 - 30): In these questions, four alternatives are given for the underlined idioms/phrases in the sentences. Choose the alternative which best expresses the meaning:"
+    },
+    {
+      "n": 30,
+      "printedNumber": 30,
+      "part": "B",
+      "q": "The new policy flies in the face of established constitutional principles.",
+      "options": {
+        "a": "Strictly follows",
+        "b": "Strengthens",
+        "c": "Gradually modifies",
+        "d": "Directly contradicts"
+      },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": "Underlined idiom: flies in the face of",
+      "passage": "Direction (Question Nos. 26 - 30): In these questions, four alternatives are given for the underlined idioms/phrases in the sentences. Choose the alternative which best expresses the meaning:"
+    },
+    {
+      "n": 31,
+      "printedNumber": 31,
+      "part": "B",
+      "q": "A statement that can be interpreted in more than one way.",
+      "options": {"a": "Explicit", "b": "Ambiguous", "c": "Unanimous", "d": "Plausible"},
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 31 - 35): In the following questions, out of the four alternatives, choose the one which can be substituted for the given words/sentences:"
+    },
+    {
+      "n": 32,
+      "printedNumber": 32,
+      "part": "B",
+      "q": "Incapable of making mistakes.",
+      "options": {"a": "Infallible", "b": "Impeccable", "c": "Immutable", "d": "Impassive"},
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 31 - 35): In the following questions, out of the four alternatives, choose the one which can be substituted for the given words/sentences:"
+    },
+    {
+      "n": 33,
+      "printedNumber": 33,
+      "part": "B",
+      "q": "One who abstains from alcoholic drinks.",
+      "options": {"a": "Ascetic", "b": "Stoic", "c": "Teetotaller", "d": "Recluse"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 31 - 35): In the following questions, out of the four alternatives, choose the one which can be substituted for the given words/sentences:"
+    },
+    {
+      "n": 34,
+      "printedNumber": 34,
+      "part": "B",
+      "q": "A person who believes that all events are predetermined.",
+      "options": {"a": "Fatalist", "b": "Rationalist", "c": "Humanist", "d": "Idealist"},
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 31 - 35): In the following questions, out of the four alternatives, choose the one which can be substituted for the given words/sentences:"
+    },
+    {
+      "n": 35,
+      "printedNumber": 35,
+      "part": "B",
+      "q": "A remedy for all diseases.",
+      "options": {"a": "Placebo", "b": "Antidote", "c": "Elixir", "d": "Panacea"},
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 31 - 35): In the following questions, out of the four alternatives, choose the one which can be substituted for the given words/sentences:"
+    },
+    {
+      "n": 36,
+      "printedNumber": 36,
+      "part": "B",
+      "q": "The soil in the valley is remarkably fecund, supporting dense agricultural cultivation.",
+      "options": {"a": "Productive", "b": "Lush", "c": "Sterile", "d": "Abundant"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": "Highlighted word: fecund",
+      "passage": "Direction (Question Nos. 36 - 40): Choose the word that is most opposite in meaning to the highlighted word:"
+    },
+    {
+      "n": 37,
+      "printedNumber": 37,
+      "part": "B",
+      "q": "The director gave a very concise summary of the new department rules.",
+      "options": {"a": "Brief", "b": "Succinct", "c": "Wordy", "d": "Crisp"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": "Highlighted word: concise",
+      "passage": "Direction (Question Nos. 36 - 40): Choose the word that is most opposite in meaning to the highlighted word:"
+    },
+    {
+      "n": 38,
+      "printedNumber": 38,
+      "part": "B",
+      "q": "The team made a deliberate choice to skip the mid-season soil sampling.",
+      "options": {"a": "Intentional", "b": "Inadvertent", "c": "Planned", "d": "Calculated"},
+      "answer": "b",
+      "keyAnswer": null,
+      "note": "Highlighted word: deliberate",
+      "passage": "Direction (Question Nos. 36 - 40): Choose the word that is most opposite in meaning to the highlighted word:"
+    },
+    {
+      "n": 39,
+      "printedNumber": 39,
+      "part": "B",
+      "q": "The methods used by the ancient farmers were deemed obsolete after the automated tools arrived.",
+      "options": {"a": "Archaic", "b": "Outmoded", "c": "Contemporary", "d": "Primitive"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": "Highlighted word: obsolete",
+      "passage": "Direction (Question Nos. 36 - 40): Choose the word that is most opposite in meaning to the highlighted word:"
+    },
+    {
+      "n": 40,
+      "printedNumber": 40,
+      "part": "B",
+      "q": "She was surprisingly candid about the failure of her tissue-culture experiment.",
+      "options": {"a": "Honest", "b": "Frank", "c": "Deceptive", "d": "Outspoken"},
+      "answer": "c",
+      "keyAnswer": null,
+      "note": "Highlighted word: candid",
+      "passage": "Direction (Question Nos. 36 - 40): Choose the word that is most opposite in meaning to the highlighted word:"
+    },
+    {
+      "n": 41,
+      "printedNumber": 41,
+      "part": "B",
+      "q": "She said, \"Would that I were young again!\"",
+      "options": {
+        "a": "She wished that she had been young again.",
+        "b": "She regretted becoming old.",
+        "c": "She hoped she would become young again.",
+        "d": "She wished that she were young again."
+      },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 41 - 45): Out of the four alternatives, choose the one which best expresses the same meaning in Direct/Indirect Speech:"
+    },
+    {
+      "n": 42,
+      "printedNumber": 42,
+      "part": "B",
+      "q": "She said, \"May all your dreams come true!\"",
+      "options": {
+        "a": "She prayed that all my dreams might come true.",
+        "b": "She wished that all my dreams came true.",
+        "c": "She said that all my dreams may come true.",
+        "d": "She hoped that all my dreams come true."
+      },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 41 - 45): Out of the four alternatives, choose the one which best expresses the same meaning in Direct/Indirect Speech:"
+    },
+    {
+      "n": 43,
+      "printedNumber": 43,
+      "part": "B",
+      "q": "She said, \"Had I known the consequences, I would never have agreed.\"",
+      "options": {
+        "a": "She said that had she known the consequences, she would never agree.",
+        "b": "She said that if she had known the consequences, she would never have agreed.",
+        "c": "She said that if she knew the consequences, she would not have agreed.",
+        "d": "She said that if she has known the consequences, she would never agree."
+      },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 41 - 45): Out of the four alternatives, choose the one which best expresses the same meaning in Direct/Indirect Speech:"
+    },
+    {
+      "n": 44,
+      "printedNumber": 44,
+      "part": "B",
+      "q": "He exclaimed with admiration that it was a magnificent monument.",
+      "options": {
+        "a": "He said, \"It is a magnificent monument.\"",
+        "b": "He said, \"How magnificent the monument is!\"",
+        "c": "He said, \"What a magnificent monument it is!\"",
+        "d": "He said, \"The monument was magnificent.\""
+      },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 41 - 45): Out of the four alternatives, choose the one which best expresses the same meaning in Direct/Indirect Speech:"
+    },
+    {
+      "n": 45,
+      "printedNumber": 45,
+      "part": "B",
+      "q": "He said to me, \"You needn't accompany me.\"",
+      "options": {
+        "a": "He told me that I didn't need to accompany him.",
+        "b": "He told me that I needn't to accompany him.",
+        "c": "He told me not to accompany him.",
+        "d": "He said that I hadn't needed to accompany him."
+      },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 41 - 45): Out of the four alternatives, choose the one which best expresses the same meaning in Direct/Indirect Speech:"
+    },
+    {
+      "n": 46,
+      "printedNumber": 46,
+      "part": "B",
+      "q": "People know him to be an honest officer.",
+      "options": {
+        "a": "He is known as an honest officer.",
+        "b": "He is known to be an honest officer.",
+        "c": "He is known being an honest officer.",
+        "d": "He was known to have been an honest officer."
+      },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 46 - 50): Out of the four alternatives, choose the one which best expresses the same meaning in the Active/Passive Voice:"
+    },
+    {
+      "n": 47,
+      "printedNumber": 47,
+      "part": "B",
+      "q": "The police let the protesters leave peacefully.",
+      "options": {
+        "a": "The protesters were let leave peacefully.",
+        "b": "The protesters were let to leave peacefully.",
+        "c": "The protesters were allowed to leave peacefully.",
+        "d": "The protesters had been let leaving peacefully."
+      },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 46 - 50): Out of the four alternatives, choose the one which best expresses the same meaning in the Active/Passive Voice:"
+    },
+    {
+      "n": 48,
+      "printedNumber": 48,
+      "part": "B",
+      "q": "No one has taken advantage of his generosity.",
+      "options": {
+        "a": "His generosity has not been taken advantage of.",
+        "b": "His generosity had not been taken advantage of.",
+        "c": "His generosity was not taken advantage of.",
+        "d": "Advantage has not been taken of his generosity."
+      },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 46 - 50): Out of the four alternatives, choose the one which best expresses the same meaning in the Active/Passive Voice:"
+    },
+    {
+      "n": 49,
+      "printedNumber": 49,
+      "part": "B",
+      "q": "No explanation was given to the candidates.",
+      "options": {
+        "a": "Nobody has given the candidates any explanation.",
+        "b": "Nobody had given the candidates any explanation.",
+        "c": "Nobody gives the candidates any explanation.",
+        "d": "Nobody gave the candidates any explanation."
+      },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 46 - 50): Out of the four alternatives, choose the one which best expresses the same meaning in the Active/Passive Voice:"
+    },
+    {
+      "n": 50,
+      "printedNumber": 50,
+      "part": "B",
+      "q": "This house was built in 1994 by my grandfather.",
+      "options": {
+        "a": "My grandfather has built this house in 1994.",
+        "b": "My grandfather built this house in 1994.",
+        "c": "My grandfather build this house in 1994.",
+        "d": "My grandfather had built this house in 1994."
+      },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 46 - 50): Out of the four alternatives, choose the one which best expresses the same meaning in the Active/Passive Voice:"
+    },
+    {
+      "n": 51,
+      "printedNumber": 51,
+      "part": "B",
+      "q": "Which of the following is a grammatically correct sentence?",
+      "options": {
+        "a": "Neither of the boys have completed their assignment.",
+        "b": "Neither of the boys have completed his assignment.",
+        "c": "Neither of the boys has completed his assignment.",
+        "d": "Neither of the boys has completed their assignment."
+      },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    },
+    {
+      "n": 52,
+      "printedNumber": 52,
+      "part": "B",
+      "q": "Which sentence is correctly formed?",
+      "options": {
+        "a": "The report, along with the recommendations, were submitted yesterday.",
+        "b": "The report, along with the recommendations, was submitted yesterday.",
+        "c": "The report along with the recommendations were submitted yesterday.",
+        "d": "The report, along with the recommendations, have been submitted yesterday."
+      },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    },
+    {
+      "n": 53,
+      "printedNumber": 53,
+      "part": "B",
+      "q": "Choose the correctly punctuated sentence.",
+      "options": {
+        "a": "After the meeting the manager thanked everyone for their cooperation.",
+        "b": "After the meeting, the manager thanked everyone, for their cooperation.",
+        "c": "After the meeting, the manager thanked everyone for their cooperation.",
+        "d": "After, the meeting the manager thanked everyone for their cooperation."
+      },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    },
+    {
+      "n": 54,
+      "printedNumber": 54,
+      "part": "B",
+      "q": "Which sentence expresses the intended meaning correctly?",
+      "options": {
+        "a": "Hardly had the train left the station when it started raining.",
+        "b": "Hardly had the train left the station than it started raining.",
+        "c": "Hardly the train had left the station when it started raining.",
+        "d": "Hardly the train left the station when it started raining."
+      },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    },
+    {
+      "n": 55,
+      "printedNumber": 55,
+      "part": "B",
+      "q": "Choose the correctly formed question tag.",
+      "options": {
+        "a": "You have completed the work, haven't you?",
+        "b": "You have completed the work, have you?",
+        "c": "You have completed the work, haven't you not?",
+        "d": "You have completed the work, didn't you?"
+      },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    },
+    {
+      "n": 56,
+      "printedNumber": 56,
+      "part": "B",
+      "q": "Choose the sentence that is correctly divided into clauses.",
+      "options": {
+        "a": "Although it was raining, they continued the match.",
+        "b": "Although it was raining they, continued the match.",
+        "c": "Although it was raining, but they continued the match.",
+        "d": "Although, it was raining they continued the match."
+      },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    },
+    {
+      "n": 57,
+      "printedNumber": 57,
+      "part": "B",
+      "q": "Which sentence expresses the same meaning as:\n\n\"Despite the heavy rain, the match continued.\"",
+      "options": {
+        "a": "Because it rained heavily, the match continued.",
+        "b": "The match continued because of the rain.",
+        "c": "Since it rained heavily, the match continued.",
+        "d": "Although it rained heavily, the match continued."
+      },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    },
+    {
+      "n": 58,
+      "printedNumber": 58,
+      "part": "B",
+      "q": "Which sentence is most appropriate in formal writing?",
+      "options": {
+        "a": "The experiment was kind of successful.",
+        "b": "The experiment was pretty successful.",
+        "c": "The experiment was largely successful.",
+        "d": "The experiment was really successful."
+      },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    },
+    {
+      "n": 59,
+      "printedNumber": 59,
+      "part": "B",
+      "q": "Identify the sentence that is written in the correct sequence of ideas.",
+      "options": {
+        "a": "The team trained for months, won the match, and then celebrated their victory.",
+        "b": "The team trained for months. They celebrated their victory. They won the match.",
+        "c": "The team celebrated their victory. They won the match after months of training.",
+        "d": "They celebrated their victory because they were training for months."
+      },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    },
+    {
+      "n": 60,
+      "printedNumber": 60,
+      "part": "B",
+      "q": "Select the sentence that is both grammatically correct and concise.",
+      "options": {
+        "a": "Due to the fact that he was late, therefore he missed the interview.",
+        "b": "Because he was late, therefore he missed the interview.",
+        "c": "Because he was late, he missed the interview.",
+        "d": "He was late, because of that he missed the interview."
+      },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 51 - 60): Choose the most appropriate answer:"
+    }
+  ]
+}

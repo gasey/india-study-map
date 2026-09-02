@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Revision · MPSC August 2026</title>
+<style>
+:root{
+  --navy:#1d5c38; --navy-deep:#123a23; --gold:#e0a93e; --gold-soft:#f3ddb0;
+  --paper:#f7f4ec; --card:#ffffff; --ink:#22262e; --muted:#6b7180;
+  --green:#2e7d4f; --green-bg:#e9f4ed; --red:#b3402f; --red-bg:#faeae7;
+  --amber:#8a6114; --amber-bg:#fdf3dc; --line:#e6e1d4;
+  --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{font-size:16px}
+body{font-family:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;background:var(--paper);color:var(--ink);min-height:100vh;line-height:1.5}
+.wrap{max-width:640px;margin:0 auto;padding:0 16px 56px}
+
+/* Masthead */
+header{background:var(--navy);color:#fff;padding:20px 16px 18px;border-bottom:4px solid var(--gold)}
+.mast{max-width:640px;margin:0 auto}
+.mast .eyebrow{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-soft);font-weight:600}
+.mast h1{font-family:Georgia,serif;font-size:1.45rem;font-weight:700;line-height:1.2;margin-top:4px}
+.mast .sub{font-size:.8rem;color:#c9d8ce;margin-top:4px}
+
+/* Panels */
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 18px;margin-top:18px;box-shadow:0 1px 3px rgba(18,58,35,.07)}
+.panel h2{font-family:Georgia,serif;font-size:1.12rem;color:var(--navy);margin-bottom:6px}
+.panel p.lead{font-size:.86rem;color:var(--muted);margin-bottom:16px}
+.sect-label{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:18px 0 9px}
+.sect-label:first-child{margin-top:0}
+
+/* Paper picker */
+.papers{display:flex;flex-direction:column;gap:9px}
+.paper{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:#fbfaf6;border:1.5px solid #ddd7c8;border-radius:11px;padding:13px 14px;font-family:inherit;font-size:.93rem;color:var(--ink);cursor:pointer;transition:border-color .15s,background .15s}
+.paper.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.paper .glyph{flex:none;font-size:1.25rem;line-height:1}
+.paper .txt{flex:1;min-width:0}
+.paper .t{font-weight:700;line-height:1.25}
+.paper .s{font-size:.76rem;color:var(--muted);margin-top:2px}
+.paper.on .s{color:var(--gold-soft)}
+.paper .pnote{display:block;font-size:.72rem;color:var(--amber);margin-top:5px;line-height:1.35}
+.paper.on .pnote{color:#f0dcae}
+.paper .n{flex:none;font-size:.74rem;font-weight:700;color:var(--muted);background:#efece2;border-radius:999px;padding:3px 9px}
+.paper.on .n{background:rgba(255,255,255,.16);color:#fff}
+
+/* Mode toggle */
+.modes{display:flex;gap:8px}
+.mode{flex:1;background:#fbfaf6;border:1.5px solid #ddd7c8;border-radius:11px;padding:12px 10px;font-family:inherit;font-size:.88rem;font-weight:700;color:var(--ink);cursor:pointer;text-align:center;transition:all .15s}
+.mode .d{display:block;font-size:.72rem;font-weight:500;color:var(--muted);margin-top:3px}
+.mode.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.mode.on .d{color:var(--gold-soft)}
+
+.row{display:flex;align-items:center;gap:10px;margin-top:14px}
+.switch{position:relative;width:44px;height:24px;flex:none}
+.switch input{opacity:0;width:0;height:0}
+.slider{position:absolute;inset:0;background:#d8d2c2;border-radius:999px;cursor:pointer;transition:.2s}
+.slider:before{content:"";position:absolute;height:18px;width:18px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s}
+.switch input:checked + .slider{background:var(--gold)}
+.switch input:checked + .slider:before{transform:translateX(20px)}
+.row label.txt{font-size:.87rem;cursor:pointer}
+
+.btn{display:block;width:100%;border:none;border-radius:12px;padding:15px;font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit;margin-top:16px}
+.btn-primary{background:var(--gold);color:var(--navy-deep)}
+.btn-primary:active{transform:scale(.99)}
+.btn-ghost{background:transparent;color:var(--navy);border:1.5px solid var(--navy);margin-top:10px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* Toolbar shown while studying */
+.toolbar{display:flex;align-items:center;gap:8px;margin-top:16px;flex-wrap:wrap}
+.tbtn{background:var(--card);border:1.5px solid #ddd7c8;border-radius:999px;padding:8px 14px;font-family:inherit;font-size:.8rem;font-weight:700;color:var(--navy);cursor:pointer}
+.tbtn:active{background:#f0ede3}
+.tbtn.wide{flex:1;text-align:center}
+.crumb{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:16px}
+.crumb b{color:var(--navy)}
+
+.progress{height:5px;background:var(--line);border-radius:99px;margin-top:9px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--gold);border-radius:99px;transition:width .3s;width:0}
+
+/* Question card */
+.qcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 16px;margin-top:12px;box-shadow:0 1px 3px rgba(18,58,35,.07)}
+.qhead{display:flex;gap:10px;align-items:baseline;margin-bottom:12px}
+.qnum{flex:none;font-family:Georgia,serif;font-size:.82rem;font-weight:700;color:var(--gold);background:var(--navy);border-radius:7px;padding:3px 8px;line-height:1.3}
+.qtext{font-family:Georgia,serif;font-size:1.03rem;line-height:1.45;color:var(--navy-deep);flex:1}
+.qtext .focus{text-decoration-thickness:2px;text-underline-offset:3px;font-weight:600}
+.passage{background:#fdf9ef;border-left:3px solid var(--gold);border-radius:0 9px 9px 0;padding:12px 13px;font-size:.85rem;color:#4d5263;line-height:1.6;margin-bottom:13px;white-space:pre-wrap}
+.passage .plabel{display:block;font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:6px}
+.passage.collapsed .ptext{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.ptoggle{background:none;border:none;font-family:inherit;font-size:.74rem;font-weight:700;color:var(--amber);cursor:pointer;padding:6px 0 0;text-decoration:underline}
+
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{display:flex;gap:11px;align-items:flex-start;width:100%;text-align:left;background:#fbfaf6;border:1.5px solid #ddd7c8;border-radius:11px;padding:12px 13px;font-size:.92rem;font-family:inherit;color:var(--ink);line-height:1.4;transition:border-color .15s,background .15s}
+button.opt{cursor:pointer}
+button.opt:not(.locked):active{border-color:var(--navy)}
+.opt .key{flex:none;width:24px;height:24px;border-radius:50%;border:1.5px solid #c9c2af;display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:700;color:var(--muted);margin-top:1px}
+.opt.correct{background:var(--green-bg);border-color:var(--green)}
+.opt.correct .key{background:var(--green);border-color:var(--green);color:#fff}
+.opt.wrong{background:var(--red-bg);border-color:var(--red)}
+.opt.wrong .key{background:var(--red);border-color:var(--red);color:#fff}
+.opt.keyonly{background:var(--amber-bg);border-color:#d9b45f}
+.opt.keyonly .key{background:#d9b45f;border-color:#d9b45f;color:#4a3708}
+.opt.disputed{background:var(--amber-bg);border-color:#d9b45f;border-style:dashed}
+.opt.disputed .key{background:#d9b45f;border-color:#d9b45f;color:#4a3708}
+.opt.dim{opacity:.5}
+.opt.locked{cursor:default}
+
+.reveal-btn{width:100%;margin-top:12px;background:transparent;border:1.5px dashed #cfc7b2;border-radius:11px;padding:11px;font-family:inherit;font-size:.83rem;font-weight:700;color:var(--muted);cursor:pointer;letter-spacing:.04em}
+.reveal-btn:active{background:#f4f1e7}
+
+.ansline{display:none;margin-top:12px;align-items:center;gap:8px;flex-wrap:wrap}
+.ansline.show{display:flex}
+.tag{font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:4px 10px}
+.tag-ans{background:var(--green-bg);color:var(--green);border:1px solid #bcdcc7}
+.tag-warn{background:var(--amber-bg);color:var(--amber);border:1px solid #e3cd93}
+.tag-none{background:#eee;color:var(--muted);border:1px solid #ddd}
+.notebox{display:none;margin-top:9px;background:var(--amber-bg);border-left:3px solid #d9b45f;border-radius:0 9px 9px 0;padding:10px 12px;font-size:.8rem;color:#5c4a1e;line-height:1.5}
+.notebox.show{display:block}
+.notebox b{color:var(--amber)}
+
+.verdict{display:none;font-weight:800;font-size:.85rem;margin-top:12px}
+.verdict.ok{color:var(--green);display:block}
+.verdict.no{color:var(--red);display:block}
+
+.navrow{display:flex;gap:9px;margin-top:16px}
+.navrow .btn{margin-top:0}
+
+/* Results */
+.ring{width:150px;height:150px;margin:6px auto 14px;position:relative}
+.ring svg{transform:rotate(-90deg)}
+.ring .pct{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ring .pct b{font-family:Georgia,serif;font-size:1.9rem;color:var(--navy)}
+.ring .pct span{font-size:.7rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.res-msg{text-align:center;font-family:Georgia,serif;font-size:1.1rem;color:var(--navy);margin-bottom:4px}
+.res-sub{text-align:center;font-size:.85rem;color:var(--muted);margin-bottom:18px}
+.bk{display:flex;justify-content:space-between;font-size:.86rem;padding:7px 0;border-top:1px dashed #ddd7c8}
+.bk b{color:var(--navy)}
+.review h3{font-family:Georgia,serif;color:var(--navy);font-size:1rem;margin:20px 0 10px}
+.rv{background:#fbfaf6;border:1px solid var(--line);border-radius:11px;padding:12px 14px;font-size:.83rem;margin-bottom:9px}
+.rv .q{font-weight:600;color:var(--navy-deep);margin-bottom:6px;line-height:1.4}
+.rv .you{color:var(--red)}
+.rv .ans{color:var(--green);font-weight:700}
+
+.empty{text-align:center;color:var(--muted);font-size:.86rem;padding:26px 10px}
+.hidden{display:none}
+footer{text-align:center;font-size:.72rem;color:#9aa0ad;margin-top:30px;padding-bottom:8px;line-height:1.6}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="mast">
+    <div class="eyebrow">MPSC · August 2026 Sitting</div>
+    <h1>Quick Revision</h1>
+    <div class="sub" id="mastSub">Answers hidden — tap to reveal, or run it as a mock test</div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<!-- ============ START ============ -->
+<div id="start">
+  <div class="panel">
+    <h2>Pick a paper</h2>
+    <p class="lead">Four papers from the August 2026 sitting, transcribed from the marked question booklets.</p>
+    <div class="papers" id="papers"></div>
+
+    <div class="sect-label">How do you want to study it?</div>
+    <div class="modes">
+      <button class="mode on" data-mode="revise">Revise<span class="d">Answer hidden · tap to reveal</span></button>
+      <button class="mode" data-mode="mock">Mock test<span class="d">Answer, then get scored</span></button>
+    </div>
+
+    <div class="row" id="shuffleRow">
+      <label class="switch"><input type="checkbox" id="shuffle"><span class="slider"></span></label>
+      <label class="txt" for="shuffle">Shuffle questions</label>
+    </div>
+
+    <button class="btn btn-primary" id="startBtn">Start</button>
+  </div>
+</div>
+
+<!-- ============ REVISE ============ -->
+<div id="revise" class="hidden">
+  <div class="crumb" id="reviseCrumb"></div>
+  <div class="toolbar">
+    <button class="tbtn" id="backA">← Papers</button>
+    <button class="tbtn wide" id="revealAll">Reveal all</button>
+    <button class="tbtn wide" id="hideAll">Hide all</button>
+  </div>
+  <div id="reviseList"></div>
+  <button class="btn btn-ghost" id="backA2">← Back to papers</button>
+</div>
+
+<!-- ============ MOCK ============ -->
+<div id="mock" class="hidden">
+  <div class="crumb" id="mockCrumb"></div>
+  <div class="progress"><i id="mockBar"></i></div>
+  <div id="mockCard"></div>
+  <div class="navrow">
+    <button class="btn btn-ghost" id="mockPrev" style="flex:1">← Prev</button>
+    <button class="btn btn-primary" id="mockNext" style="flex:1">Next →</button>
+  </div>
+  <button class="btn btn-ghost" id="mockQuit">Finish &amp; score</button>
+</div>
+
+<!-- ============ RESULTS ============ -->
+<div id="results" class="hidden">
+  <div class="panel">
+    <div class="ring">
+      <svg width="150" height="150" viewBox="0 0 150 150">
+        <circle cx="75" cy="75" r="66" fill="none" stroke="#e6e1d4" stroke-width="12"></circle>
+        <circle id="ringArc" cx="75" cy="75" r="66" fill="none" stroke="#e0a93e" stroke-width="12"
+                stroke-linecap="round" stroke-dasharray="414.7" stroke-dashoffset="414.7"></circle>
+      </svg>
+      <div class="pct"><b id="resPct">0%</b><span>Score</span></div>
+    </div>
+    <div class="res-msg" id="resMsg"></div>
+    <div class="res-sub" id="resSub"></div>
+    <div class="bk"><span>Correct</span><b id="resRight">0</b></div>
+    <div class="bk"><span>Wrong</span><b id="resWrong">0</b></div>
+    <div class="bk"><span>Skipped</span><b id="resSkip">0</b></div>
+    <button class="btn btn-primary" id="againBtn">Retake this paper</button>
+    <button class="btn btn-ghost" id="backB">← Back to papers</button>
+    <div class="review" id="resReview"></div>
+  </div>
+</div>
+
+<footer>
+  Transcribed from the marked MPSC question booklets · August 2026.<br>
+  Answers shown are the marks on the booklet, not an official MPSC key —
+  where the two disagree it is called out on the question.
+</footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var PAPERS = (window.QR_DATA && window.QR_DATA.papers) || [];
+  var LETTERS = ['a', 'b', 'c', 'd', 'e'];
+
+  var state = {
+    paperIdx: 0,
+    mode: 'revise',
+    shuffle: false,
+    list: [],      // questions in play order
+    i: 0,          // mock cursor
+    picks: []      // mock answers, parallel to list
+  };
+
+  var $ = function (id) { return document.getElementById(id); };
+  function show(id) {
+    ['start', 'revise', 'mock', 'results'].forEach(function (s) {
+      $(s).classList.toggle('hidden', s !== id);
+    });
+    window.scrollTo(0, 0);
+  }
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+  function optLetters(q) {
+    return LETTERS.filter(function (L) { return q.options && q.options[L] != null; });
+  }
+
+  // The booklet underlines the word a question is asking about. Several questions
+  // ("what part of speech is the underlined word?") cannot be answered without it,
+  // so it is part of the stem and always visible — never behind the reveal.
+  function stemHTML(q) {
+    var text = q.q;
+    if (text == null) return '<i>[question text missing from the booklet]</i>';
+    if (!q.focus) return esc(text);
+    var at = text.indexOf(q.focus);
+    if (at < 0) return esc(text);
+    return esc(text.slice(0, at)) +
+      '<u class="focus">' + esc(q.focus) + '</u>' +
+      esc(text.slice(at + q.focus.length));
+  }
+
+  /* ---------- Start screen ---------- */
+
+  function renderPapers() {
+    var host = $('papers');
+    if (!PAPERS.length) {
+      host.innerHTML = '<div class="empty">No question data loaded.</div>';
+      $('startBtn').disabled = true;
+      return;
+    }
+    host.innerHTML = PAPERS.map(function (p, i) {
+      return '<button class="paper' + (i === state.paperIdx ? ' on' : '') + '" data-i="' + i + '">' +
+        '<span class="glyph">' + esc(p.glyph || '📄') + '</span>' +
+        '<span class="txt"><span class="t">' + esc(p.title) + '</span>' +
+        '<span class="s">' + esc(p.subtitle || '') + '</span>' +
+        (p.note ? '<span class="pnote">' + esc(p.note) + '</span>' : '') + '</span>' +
+        '<span class="n">' + p.questions.length + '</span>' +
+        '</button>';
+    }).join('');
+    Array.prototype.forEach.call(host.querySelectorAll('.paper'), function (el) {
+      el.addEventListener('click', function () {
+        state.paperIdx = +el.dataset.i;
+        renderPapers();
+      });
+    });
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('.mode'), function (el) {
+    el.addEventListener('click', function () {
+      state.mode = el.dataset.mode;
+      Array.prototype.forEach.call(document.querySelectorAll('.mode'), function (m) {
+        m.classList.toggle('on', m === el);
+      });
+    });
+  });
+
+  $('startBtn').addEventListener('click', function () {
+    var paper = PAPERS[state.paperIdx];
+    if (!paper) return;
+    state.shuffle = $('shuffle').checked;
+    state.list = paper.questions.slice();
+    if (state.shuffle) {
+      for (var i = state.list.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var t = state.list[i]; state.list[i] = state.list[j]; state.list[j] = t;
+      }
+    }
+    if (state.mode === 'revise') {
+      renderRevise();
+      show('revise');
+    } else {
+      state.i = 0;
+      state.picks = state.list.map(function () { return null; });
+      renderMock();
+      show('mock');
+    }
+  });
+
+  function crumb(el) {
+    var p = PAPERS[state.paperIdx];
+    $(el).innerHTML = esc(p.title) + ' · <b>' + state.list.length + ' questions</b>';
+  }
+
+  /* ---------- Shared question rendering ---------- */
+
+  function passageHTML(q, idx) {
+    if (!q.passage) return '';
+    var long = q.passage.length > 260;
+    return '<div class="passage' + (long ? ' collapsed' : '') + '" id="pas' + idx + '">' +
+      '<span class="plabel">Passage</span>' +
+      '<div class="ptext">' + esc(q.passage) + '</div>' +
+      (long ? '<button class="ptoggle" data-pas="' + idx + '">Show full passage</button>' : '') +
+      '</div>';
+  }
+
+  function wirePassages(root) {
+    Array.prototype.forEach.call(root.querySelectorAll('.ptoggle'), function (b) {
+      b.addEventListener('click', function () {
+        var box = $('pas' + b.dataset.pas);
+        var nowCollapsed = box.classList.toggle('collapsed');
+        b.textContent = nowCollapsed ? 'Show full passage' : 'Hide passage';
+      });
+    });
+  }
+
+  // A review finding is only allowed to cast doubt on the marked answer when it
+  // actually concluded the mark is wrong or that the question has two defensible
+  // answers. A low-confidence "disputable" is the reviewer saying the mark stands
+  // — rendering that as a warning would teach distrust of a correct answer, which
+  // is worse than saying nothing.
+  //   'wrong'   -> the mark is incorrect; name the better option
+  //   'ambig'   -> two options are defensible; show both, pick neither
+  //   'aside'   -> the mark stands; the note is context, not a caution
+  //
+  // The tier turns on whether the review named a rival option, not on its own
+  // confidence rating. A named rival means there is real contention to show; an
+  // unnamed one is just context. Keying off confidence instead put a question
+  // whose note argued for another option under a plain green "Answer" tag.
+  function disputeKind(q) {
+    var d = q.dispute;
+    if (!d) return null;
+    if (d.verdict === 'wrong') return 'wrong';
+    return d.alt ? 'ambig' : 'aside';
+  }
+
+  // The line under a revealed question: what the booklet marked, and whether
+  // anything disagrees with it (the official key, or a factual review).
+  function answerLineHTML(q) {
+    var kind = disputeKind(q);
+    var bits = '';
+    if (q.answer) {
+      var doubted = kind === 'wrong' || kind === 'ambig';
+      bits += '<span class="tag ' + (doubted ? 'tag-warn' : 'tag-ans') + '">' +
+        (doubted ? 'Booklet marked' : 'Answer') + ' &nbsp;(' + esc(q.answer) + ')</span>';
+    } else {
+      bits += '<span class="tag tag-none">No answer marked</span>';
+    }
+    if (q.keyAnswer && q.keyAnswer !== q.answer) {
+      bits += '<span class="tag tag-warn">Official key says (' + esc(q.keyAnswer) + ')</span>';
+    }
+    if (kind === 'wrong' && q.dispute.alt) {
+      bits += '<span class="tag tag-warn">Looks wrong — likely (' + esc(q.dispute.alt) + ')</span>';
+    } else if (kind === 'ambig') {
+      bits += '<span class="tag tag-warn">Two defensible answers</span>';
+    }
+    return bits;
+  }
+
+  // Two different kinds of caution can sit under a question: a note written on
+  // the booklet itself, and our own review of whether the mark is factually
+  // right. Never silently swap the mark — show both and let the reader judge.
+  function noteHTML(q) {
+    var out = '';
+    if (q.note) {
+      out += '<div class="notebox"><b>Note on the booklet:</b> ' + esc(q.note) + '</div>';
+    }
+    var kind = disputeKind(q);
+    if (kind === 'wrong') {
+      out += '<div class="notebox"><b>⚠ Check this one.</b> The booklet marks (' +
+        esc(q.answer) + '), but that looks incorrect' +
+        (q.dispute.alt ? ' — (' + esc(q.dispute.alt) + ') ' +
+          esc(q.options[q.dispute.alt] || '') + ' is the standard answer' : '') +
+        '. ' + esc(q.dispute.why) + '</div>';
+    } else if (kind === 'ambig') {
+      out += '<div class="notebox"><b>⚠ More than one answer works.</b> ' +
+        esc(q.dispute.why) + '</div>';
+    } else if (kind === 'aside') {
+      out += '<div class="notebox"><b>Worth knowing.</b> ' + esc(q.dispute.why) + '</div>';
+    }
+    return out;
+  }
+
+  /* ---------- REVISE mode ---------- */
+
+  function renderRevise() {
+    crumb('reviseCrumb');
+    var html = state.list.map(function (q, idx) {
+      var opts = optLetters(q).map(function (L) {
+        return '<div class="opt" data-l="' + L + '"><span class="key">' + L + '</span>' +
+          '<span>' + esc(q.options[L]) + '</span></div>';
+      }).join('');
+      return '<div class="qcard" data-idx="' + idx + '">' +
+        passageHTML(q, idx) +
+        '<div class="qhead"><span class="qnum">Q' + esc(q.n) + '</span>' +
+        '<span class="qtext">' + stemHTML(q) + '</span></div>' +
+        '<div class="opts">' + opts + '</div>' +
+        '<button class="reveal-btn" data-reveal="' + idx + '">Tap to reveal answer</button>' +
+        '<div class="ansline">' + answerLineHTML(q) + '</div>' +
+        noteHTML(q) +
+        '</div>';
+    }).join('');
+    var host = $('reviseList');
+    host.innerHTML = html;
+    wirePassages(host);
+    Array.prototype.forEach.call(host.querySelectorAll('[data-reveal]'), function (b) {
+      b.addEventListener('click', function () { toggleReveal(+b.dataset.reveal); });
+    });
+  }
+
+  function setRevealed(idx, on) {
+    var card = $('reviseList').querySelector('.qcard[data-idx="' + idx + '"]');
+    if (!card) return;
+    var q = state.list[idx];
+    var btn = card.querySelector('.reveal-btn');
+    card.querySelector('.ansline').classList.toggle('show', on);
+    var nb = card.querySelector('.notebox');
+    if (nb) nb.classList.toggle('show', on);
+    var kind = disputeKind(q);
+    var alt = (kind === 'wrong' || kind === 'ambig') && q.dispute.alt;
+    Array.prototype.forEach.call(card.querySelectorAll('.opt'), function (o) {
+      var L = o.dataset.l;
+      o.classList.remove('correct', 'keyonly', 'disputed', 'dim');
+      if (!on) return;
+      if (L === q.answer) o.classList.add('correct');
+      else if (L === q.keyAnswer) o.classList.add('keyonly');
+      else if (L === alt) o.classList.add('disputed');
+      else o.classList.add('dim');
+    });
+    btn.textContent = on ? 'Hide answer' : 'Tap to reveal answer';
+    card.dataset.on = on ? '1' : '';
+  }
+
+  function toggleReveal(idx) {
+    var card = $('reviseList').querySelector('.qcard[data-idx="' + idx + '"]');
+    setRevealed(idx, card.dataset.on !== '1');
+  }
+
+  $('revealAll').addEventListener('click', function () {
+    state.list.forEach(function (_, i) { setRevealed(i, true); });
+  });
+  $('hideAll').addEventListener('click', function () {
+    state.list.forEach(function (_, i) { setRevealed(i, false); });
+    window.scrollTo(0, 0);
+  });
+
+  /* ---------- MOCK mode ---------- */
+
+  function renderMock() {
+    crumb('mockCrumb');
+    var q = state.list[state.i];
+    var picked = state.picks[state.i];
+    $('mockBar').style.width = ((state.i + 1) / state.list.length * 100) + '%';
+
+    var opts = optLetters(q).map(function (L) {
+      return '<button class="opt" data-l="' + L + '"><span class="key">' + L + '</span>' +
+        '<span>' + esc(q.options[L]) + '</span></button>';
+    }).join('');
+
+    $('mockCard').innerHTML = '<div class="qcard">' +
+      passageHTML(q, 'm') +
+      '<div class="qhead"><span class="qnum">' + (state.i + 1) + ' / ' + state.list.length + '</span>' +
+      '<span class="qtext">' + stemHTML(q) + '</span></div>' +
+      '<div class="opts">' + opts + '</div>' +
+      '<div class="verdict"></div>' +
+      '<div class="ansline">' + answerLineHTML(q) + '</div>' +
+      noteHTML(q) +
+      '</div>';
+
+    wirePassages($('mockCard'));
+    Array.prototype.forEach.call($('mockCard').querySelectorAll('.opt'), function (b) {
+      b.addEventListener('click', function () {
+        if (state.picks[state.i] != null) return;   // locked once answered
+        state.picks[state.i] = b.dataset.l;
+        lockMock();
+      });
+    });
+    if (picked != null) lockMock();
+
+    $('mockPrev').disabled = state.i === 0;
+    $('mockNext').textContent = state.i === state.list.length - 1 ? 'Finish →' : 'Next →';
+  }
+
+  function lockMock() {
+    var q = state.list[state.i];
+    var picked = state.picks[state.i];
+    var card = $('mockCard');
+    var kind = disputeKind(q);
+    var alt = (kind === 'wrong' || kind === 'ambig') && q.dispute.alt;
+    Array.prototype.forEach.call(card.querySelectorAll('.opt'), function (o) {
+      var L = o.dataset.l;
+      o.classList.add('locked');
+      if (L === q.answer) o.classList.add('correct');
+      else if (L === picked) o.classList.add('wrong');
+      else if (L === q.keyAnswer) o.classList.add('keyonly');
+      else if (L === alt) o.classList.add('disputed');
+      else o.classList.add('dim');
+    });
+    var v = card.querySelector('.verdict');
+    if (q.answer == null) {
+      v.textContent = 'No answer was marked on the booklet for this one.';
+      v.className = 'verdict ok';
+    } else if (picked === q.answer) {
+      v.textContent = '✓ Correct';
+      v.className = 'verdict ok';
+    } else if (picked === alt) {
+      // Scored against the booklet, but the review sides with the reader.
+      v.textContent = kind === 'wrong'
+        ? '✗ Scored wrong — but your answer is the better one. See below.'
+        : '✗ Scored wrong — but your answer is defensible too. See below.';
+      v.className = 'verdict no';
+    } else {
+      v.textContent = '✗ Not quite';
+      v.className = 'verdict no';
+    }
+    card.querySelector('.ansline').classList.add('show');
+    var nb = card.querySelector('.notebox');
+    if (nb) nb.classList.add('show');
+  }
+
+  $('mockPrev').addEventListener('click', function () {
+    if (state.i > 0) { state.i--; renderMock(); window.scrollTo(0, 0); }
+  });
+  $('mockNext').addEventListener('click', function () {
+    if (state.i < state.list.length - 1) { state.i++; renderMock(); window.scrollTo(0, 0); }
+    else finish();
+  });
+  $('mockQuit').addEventListener('click', finish);
+
+  function finish() {
+    var right = 0, wrong = 0, skip = 0, scorable = 0, missed = [];
+    state.list.forEach(function (q, i) {
+      var p = state.picks[i];
+      if (q.answer == null) return;   // unmarked questions can't be scored either way
+      scorable++;
+      if (p == null) skip++;
+      else if (p === q.answer) right++;
+      else { wrong++; missed.push({ q: q, picked: p }); }
+    });
+    var pct = scorable ? Math.round(right / scorable * 100) : 0;
+    $('resPct').textContent = pct + '%';
+    $('ringArc').style.strokeDashoffset = String(414.7 - 414.7 * pct / 100);
+    $('resMsg').textContent =
+      pct >= 85 ? 'Strong pass.' : pct >= 70 ? 'Solid — tighten the misses.' :
+      pct >= 50 ? 'Halfway. Worth a revise pass.' : 'Revise this one properly.';
+    $('resSub').textContent = right + ' of ' + scorable + ' scorable questions' +
+      (scorable !== state.list.length
+        ? ' (' + (state.list.length - scorable) + ' unmarked, excluded)' : '');
+    $('resRight').textContent = right;
+    $('resWrong').textContent = wrong;
+    $('resSkip').textContent = skip;
+
+    $('resReview').innerHTML = missed.length
+      ? '<h3>What you missed</h3>' + missed.map(function (m) {
+          return '<div class="rv"><div class="q">Q' + esc(m.q.n) + '. ' + esc(m.q.q) + '</div>' +
+            '<div class="you">You: (' + esc(m.picked) + ') ' + esc(m.q.options[m.picked]) + '</div>' +
+            '<div class="ans">Answer: (' + esc(m.q.answer) + ') ' + esc(m.q.options[m.q.answer]) + '</div>' +
+            (m.q.keyAnswer && m.q.keyAnswer !== m.q.answer
+              ? '<div style="color:#8a6114;margin-top:4px">Official key says (' + esc(m.q.keyAnswer) + ')' +
+                (m.q.note ? ' — ' + esc(m.q.note) : '') + '</div>'
+              : '') +
+            '</div>';
+        }).join('')
+      : '<h3>Nothing missed.</h3>';
+    show('results');
+  }
+
+  $('againBtn').addEventListener('click', function () {
+    state.i = 0;
+    state.picks = state.list.map(function () { return null; });
+    renderMock();
+    show('mock');
+  });
+
+  ['backA', 'backA2', 'backB'].forEach(function (id) {
+    $(id).addEventListener('click', function () { show('start'); });
+  });
+
+  renderPapers();
+})();
+</script>
+</body>
+</html>

@@ -314,4 +314,14 @@ export const modules: AppModule[] = [
     kind: 'static',
     path: '/quick-practice/mpsc-mcq-practice-hub.html',
   },
+  {
+    id: 'quick-revision',
+    title: 'Quick Revision',
+    category: 'Practice',
+    subgroup: 'Quick practice (one-offs)',
+    tagline: 'August 2026 papers · reveal or mock',
+    glyph: '⚡',
+    kind: 'static',
+    path: '/quick-practice/quick-revision/index.html',
+  },
 ];

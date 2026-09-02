@@ -1,0 +1,587 @@
+{
+  "exam": "Mizoram Public Service Commission — Technical Competitive Examination for Recruitment to the Posts of Nursing Officer (Contract) under Health & Family Welfare Department and Staff Nurse (Contract) under Home (Prison) Department, Government of Mizoram. (August, 2026)",
+  "paper": "Paper-I (General English)",
+  "series": "A",
+  "date": "August 2026",
+  "totalQuestionsStated": 60,
+  "totalQuestionsStatedNote": "The INSTRUCTIONS page (p.1) states no question count. Part-B is headed 'PART-B (Multiple Choice Questions) (60 Marks)' with 'All questions carry equal mark of 1.', so the booklet states 60 MCQs by arithmetic. Part-A (Conventional, 40 Marks) is separately numbered 1-4 and is recorded under 'partA' below, not in 'questions'.",
+  "partA": [
+    {
+      "n": 1,
+      "marks": 10,
+      "q": "Write an essay on any one of the following topics in 400-500 words.",
+      "options": {
+        "a": "The Importance of vaccination in public health",
+        "b": "Mental Health Awareness and the Role of Healthcare Workers in De-stigmatization",
+        "c": "The Role of Imagination in Shaping the Future",
+        "d": "Women Empowerment and Gender Equality: Progress, Challenges, and the Road Ahead"
+      }
+    },
+    {
+      "n": 2,
+      "marks": 10,
+      "q": "As a Senior Nursing Officer at the District Hospital, write a formal letter to the Superintendent of Police regarding severe traffic congestion and reckless driving outside the hospital. Detail how this impacts ambulance movement, patient and public safety, and request them to implement measures such as traffic police deployment, speed breakers, road signs, and speed limit enforcement. Sign as 'XYZ'."
+    },
+    {
+      "n": 3,
+      "marks": 10,
+      "q": "Read the following passage carefully and answer the questions that follow:",
+      "passage": "The rapid proliferation of digital technology has fundamentally altered the fabric of modern human communication. While social media platforms and instant messaging applications have made global connectivity instantaneous and effortless, they have simultaneously introduced complex psychological and social challenges. One of the most paradoxical outcomes of this digital age is the phenomenon of growing social isolation despite hyper-connectivity. Individuals often find themselves submerged in virtual networks comprising hundreds of online acquaintances, yet they experience a profound lack of meaningful, face-to-face human interaction.\n\nThis shift in communication patterns has significant implications for emotional well-being. Digital interactions, though convenient, frequently lack the non-verbal cues—such as eye contact, tone of voice, and body language—that form the bedrock of genuine empathy and deep emotional bonds. Furthermore, the constant exposure to curated, idealized portrayals of other people's lives on social platforms often fosters harmful social comparisons. This dynamic can lead to heightened anxiety, low self-esteem, and a persistent feeling of inadequacy, particularly among younger demographics who are most active online.\n\nAddressing these drawbacks does not require abandoning digital technology altogether, which remains an indispensable tool for education, commerce, and global cooperation. Instead, the solution lies in cultivating digital literacy and conscious usage habits. Establishing clear boundaries between online engagements and offline life, prioritizing real-world relationships, and practicing digital detoxes can help restore equilibrium. Ultimately, technology should serve as a bridge to enhance human connection, rather than a substitute for the authentic, grounded relationships that sustain psychological health and community cohesion.",
+      "subQuestions": [
+        { "label": "a", "q": "What is the main paradox of the digital age highlighted in the first paragraph?", "marks": 2 },
+        { "label": "b", "q": "Why do digital interactions often fall short in building deep emotional bonds compared to face-to-face communication?", "marks": 2 },
+        { "label": "c", "q": "How does exposure to idealized social media content affect an individual's psychological well-being?", "marks": 2 },
+        { "label": "d", "q": "What practical measures does the passage suggest to achieve a healthy balance between digital life and real-world relationships?", "marks": 2 },
+        { "label": "e", "q": "Find words from the passage that are closest in meaning to the following: (i) Essential (ii) Harmony", "marks": "2x1=2" }
+      ]
+    },
+    {
+      "n": 4,
+      "marks": 10,
+      "q": "Write a precis of the following passage in about one-third of its original length. Supply a suitable title.",
+      "passage": "Time management is not merely a tool for professional efficiency; it is a fundamental life skill that dictates personal growth and mental stability. In today's fast-paced world, individuals are constantly inundated with tasks, deadlines, and digital distractions that fragment attention and dilute focus. Many people operate under the mistaken belief that working longer hours translates directly into higher productivity. However, relentless labor without structured organization often leads to chronic fatigue, diminished creativity, and eventual burnout.\n\nTrue productivity stems from the conscious prioritization of tasks based on their urgency and long-term value. By distinguishing between what is truly essential and what is merely distracting, individuals can allocate their time and energy far more effectively. Developing personal discipline through structured daily routines helps eliminate the paralysis caused by decision fatigue. Setting clear boundaries, learning to delegate tasks, and saying no to trivial interruptions are essential strategies for safeguarding one's focus.\n\nFurthermore, effective time management incorporates periods of rest and reflection, recognizing that continuous mental exertion without recovery degrades the quality of work. Resting is not a reward for completing work; it is a prerequisite for sustained performance and overall well-being. Ultimately, mastering one's time allows individuals to achieve a harmonious balance between professional achievements and personal fulfillment, transforming chaotic busyness into purposeful progress."
+    }
+  ],
+  "questions": [
+    {
+      "n": 1,
+      "q": "She was the only child of her parents.",
+      "options": { "a": "Adverb", "b": "Adjective", "c": "Pronoun", "d": "Noun" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 2,
+      "q": "He went home after the meeting.",
+      "options": { "a": "Noun", "b": "Adjective", "c": "Adverb", "d": "Pronoun" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 3,
+      "q": "Alas! We lost the match.",
+      "options": { "a": "Conjunction", "b": "Interjection", "c": "Preposition", "d": "Adverb" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 4,
+      "q": "Identify the Abstract Noun in the following sentence: 'Wisdom is better than strength.'",
+      "options": { "a": "Better", "b": "Than", "c": "Wisdom", "d": "Is" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 5,
+      "q": "He is but a child.",
+      "options": { "a": "Relative Pronoun", "b": "Adverb", "c": "Preposition", "d": "Conjunction" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 6,
+      "q": "Identify the Intransitive Verb in the following sentences:",
+      "options": { "a": "He kicked the ball.", "b": "She wrote a letter.", "c": "The birds fly", "d": "They ate apples" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 7,
+      "q": "Neither of the boys has won. The word Neither is a/an:",
+      "options": { "a": "Distributive Pronoun", "b": "Demonstrative Pronoun", "c": "Indefinite Pronoun", "d": "Relative Pronoun" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 8,
+      "q": "The flowers smell sweet.",
+      "options": { "a": "Transitive Verb", "b": "Linking Verb", "c": "Auxiliary Verb", "d": "Modal Verb" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 9,
+      "q": "Either you or your brother has to go.",
+      "options": { "a": "Noun", "b": "Verb", "c": "Adjective", "d": "Adverb" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 10,
+      "q": "The brave deserve the fair.",
+      "options": { "a": "Adjective", "b": "Noun", "c": "Verb", "d": "Pronoun" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 11,
+      "q": "Wait till I return.",
+      "options": { "a": "Preposition", "b": "Conjunction", "c": "Adverb", "d": "Verb" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 12,
+      "q": "Each of the students was given a book.",
+      "options": { "a": "Distributive Adjective", "b": "Distributive Pronoun", "c": "Demonstrative Pronoun", "d": "Adverb" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in the sentences below:"
+    },
+    {
+      "n": 13,
+      "q": "Choose the correct form: \"He is senior __________ me.\"",
+      "options": { "a": "than", "b": "to", "c": "from", "d": "over" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 13-17): Select the grammatically correct sentence:"
+    },
+    {
+      "n": 14,
+      "q": "One should keep __________ promise.",
+      "options": { "a": "his", "b": "their", "c": "one's", "d": "her" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 13-17): Select the grammatically correct sentence:"
+    },
+    {
+      "n": 15,
+      "q": "The furniture in this room __________very old.",
+      "options": { "a": "are", "b": "were", "c": "is", "d": "have been" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 13-17): Select the grammatically correct sentence:"
+    },
+    {
+      "n": 16,
+      "q": "It is high time we __________.",
+      "options": { "a": "leave", "b": "left", "c": "should leave", "d": "had left" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 13-17): Select the grammatically correct sentence:"
+    },
+    {
+      "n": 17,
+      "q": "Neither the teacher nor the students__________present.",
+      "options": { "a": "was", "b": "were", "c": "are", "d": "has been" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions Nos. 13-17): Select the grammatically correct sentence:"
+    },
+    {
+      "n": 18,
+      "q": "'To leave no stone unturned' means:",
+      "options": { "a": "To be lazy", "b": "To try every possible way", "c": "To be messy", "d": "To hide the truth" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 18-22): Choose the option that best expresses the meaning of the given word (Synonym), its opposite (Antonym), or the meaning of the Idiom:"
+    },
+    {
+      "n": 19,
+      "q": "Antonym of 'Daunting' is:",
+      "options": { "a": "Encouraging", "b": "Tiny", "c": "Discouraging", "d": "Heavy" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 18-22): Choose the option that best expresses the meaning of the given word (Synonym), its opposite (Antonym), or the meaning of the Idiom:"
+    },
+    {
+      "n": 20,
+      "q": "'A bolt from the blue' means:",
+      "options": { "a": "A pleasant surprise", "b": "A clear sky", "c": "An unexpected event", "d": "A thunderstorm" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 18-22): Choose the option that best expresses the meaning of the given word (Synonym), its opposite (Antonym), or the meaning of the Idiom:"
+    },
+    {
+      "n": 21,
+      "q": "Synonym of 'DEFER' is:",
+      "options": { "a": "Postpone", "b": "Accept", "c": "Refuse", "d": "Hasten" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 18-22): Choose the option that best expresses the meaning of the given word (Synonym), its opposite (Antonym), or the meaning of the Idiom:"
+    },
+    {
+      "n": 22,
+      "q": "Which word is the closest synonym for 'Euphemism':",
+      "options": { "a": "Softening", "b": "Directness", "c": "Insult", "d": "Truth" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 18-22): Choose the option that best expresses the meaning of the given word (Synonym), its opposite (Antonym), or the meaning of the Idiom:"
+    },
+    {
+      "n": 23,
+      "q": "Change to Indirect Speech: He said, \"I am busy.\"",
+      "options": { "a": "He said that he is busy.", "b": "He said that he was busy.", "c": "He told that he was busy.", "d": "He said I was busy." },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 24,
+      "q": "Change to Direct Speech: He asked me if I was going.",
+      "options": { "a": "He said to me, \"Are you going?\"", "b": "He said to me, \"Is you going?\"", "c": "He asked, \"You are going?\"", "d": "He said, \"Am I going?\"" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 25,
+      "q": "Change to Positive Degree: \"Iron is the most useful metal.\"",
+      "options": { "a": "Iron is more useful than any other metal.", "b": "Iron is usefuler than other metals.", "c": "Iron is usefulest metals.", "d": "No other metal is as useful as iron." },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 26,
+      "q": "Identify the Complex Sentence:",
+      "options": { "a": "Being tired, he fell asleep.", "b": "He was tired and fell asleep.", "c": "As he was tired, he fell asleep.", "d": "He fell asleep because he was tired." },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": "Highlight verified by pixel inspection: only (d) is highlighted. Content caution (not a transcription issue): option (c) 'As he was tired, he fell asleep.' is also a complex sentence, so this question arguably has two correct options.",
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 27,
+      "q": "Change to Negative without changing the meaning: \"He is always wise.\"",
+      "options": { "a": "He is never wise.", "b": "He is not always wise.", "c": "He is never foolish.", "d": "He is always not wise." },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 28,
+      "q": "Change to Passive Voice: \"One should keep one's word.\"",
+      "options": { "a": "One's word should be kept.", "b": "Words should be kept.", "c": "Word should be kept by one.", "d": "One's word must be kept." },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 29,
+      "q": "Identify the Simple Sentence:",
+      "options": { "a": "He must work hard to succeed.", "b": "If he works hard, he will succeed.", "c": "He must work hard, or he will not succeed.", "d": "He works hard so that he may succeed" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 30,
+      "q": "Change to Passive Voice: \"I know him.\"",
+      "options": { "a": "He is known by me.", "b": "He is being known to me.", "c": "He was known to me.", "d": "He is known to me." },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": "Highlight verified by pixel inspection: only (d) is highlighted. Content caution (not a transcription issue): the textbook passive of 'I know him' is (a) 'He is known by me.'",
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 31,
+      "q": "Combine into a complex sentence: \"He was ill. He could not come.\"",
+      "options": { "a": "He could not come due to illness.", "b": "As he was ill, he could not come.", "c": "Being ill, he could not come.", "d": "He was ill and could not come." },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": "Highlight verified by pixel inspection: only (d) is highlighted. Content caution (not a transcription issue): (d) is a compound sentence; the complex-sentence combination is (b) 'As he was ill, he could not come.'",
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 32,
+      "q": "Change to Positive Degree: \"Shimla is cooler than Delhi.\"",
+      "options": { "a": "Shimla is as cool as Delhi.", "b": "Delhi is not as cool as Shimla.", "c": "Delhi is as cool as Shimla.", "d": "Delhi is cooler than Shimla." },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive, Direct/Indirect):"
+    },
+    {
+      "n": 33,
+      "q": "Do I make you happy?",
+      "options": { "a": "Noun", "b": "Adverb", "c": "Verb", "d": "Adjective" },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 33-40): The following sentences has a word or phrase underlined. Read the sentence carefully and find which part of speech the underlined word belongs to. Indicate your response accordingly:"
+    },
+    {
+      "n": 34,
+      "q": "Let's go somewhere quiet.",
+      "options": { "a": "Noun", "b": "Adverb", "c": "Verb", "d": "Adjective" },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 33-40): The following sentences has a word or phrase underlined. Read the sentence carefully and find which part of speech the underlined word belongs to. Indicate your response accordingly:"
+    },
+    {
+      "n": 35,
+      "q": "I thought you spoke to her rather sharply.",
+      "options": { "a": "Noun", "b": "Adverb", "c": "Verb", "d": "Adjective" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 33-40): The following sentences has a word or phrase underlined. Read the sentence carefully and find which part of speech the underlined word belongs to. Indicate your response accordingly:"
+    },
+    {
+      "n": 36,
+      "q": "The door was wide open.",
+      "options": { "a": "Noun", "b": "Adverb", "c": "Verb", "d": "Adjective" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 33-40): The following sentences has a word or phrase underlined. Read the sentence carefully and find which part of speech the underlined word belongs to. Indicate your response accordingly:"
+    },
+    {
+      "n": 37,
+      "q": "Well! I suppose we could submit the proposal tomorrow.",
+      "options": { "a": "Interjection", "b": "Adverb", "c": "Verb", "d": "Adjective" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 33-40): The following sentences has a word or phrase underlined. Read the sentence carefully and find which part of speech the underlined word belongs to. Indicate your response accordingly:"
+    },
+    {
+      "n": 38,
+      "q": "Sports has never really interested me.",
+      "options": { "a": "Noun", "b": "Adverb", "c": "Verb", "d": "Adjective" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 33-40): The following sentences has a word or phrase underlined. Read the sentence carefully and find which part of speech the underlined word belongs to. Indicate your response accordingly:"
+    },
+    {
+      "n": 39,
+      "q": "The minister, under intense public pressure, submitted a letter of resignation.",
+      "options": { "a": "Noun", "b": "Conjunction", "c": "Adjective", "d": "Preposition" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 33-40): The following sentences has a word or phrase underlined. Read the sentence carefully and find which part of speech the underlined word belongs to. Indicate your response accordingly:"
+    },
+    {
+      "n": 40,
+      "q": "The two countries went to war with each other over oil price.",
+      "options": { "a": "Pronoun", "b": "Adverb", "c": "Verb", "d": "Adjective" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 33-40): The following sentences has a word or phrase underlined. Read the sentence carefully and find which part of speech the underlined word belongs to. Indicate your response accordingly:"
+    },
+    {
+      "n": 41,
+      "q": "The passengers were very happy__________the friendly and warm treatment given to them.",
+      "options": { "a": "by", "b": "to", "c": "with", "d": "for" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 41-43): Select the most appropriate options to fill in the blank so that the sentence is meaningful and grammatically correct:"
+    },
+    {
+      "n": 42,
+      "q": "A metaphor provides us __________ ways __________ referring __________things that are part of our everyday experience.",
+      "options": { "a": "on, that, to", "b": "with, of, to", "c": "with, to, on", "d": "with, off, to" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 41-43): Select the most appropriate options to fill in the blank so that the sentence is meaningful and grammatically correct:"
+    },
+    {
+      "n": 43,
+      "q": "We went__________a trip to Paris__________a day__________the train and saw the Eiffel Tower and Notre Dame Cathedral.",
+      "options": { "a": "for, within, by", "b": "on, for, on", "c": "on, in, by", "d": "for, on, from" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 41-43): Select the most appropriate options to fill in the blank so that the sentence is meaningful and grammatically correct:"
+    },
+    {
+      "n": 44,
+      "q": "If I had played well, I would have won the match.",
+      "options": { "a": "I played well", "b": "I play well", "c": "I am playing well", "d": "No improvement" },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 44 & 45): In the following sentences, an underlined/highlighted part of a sentence is given. Out of the given options, select the option that improves the sentence. If the sentence is grammatically correct as it is, select \"No improvement\":"
+    },
+    {
+      "n": 45,
+      "q": "I am looking forward to see you soon.",
+      "options": { "a": "looking forward towards seeing", "b": "looking forward for seeing", "c": "looking forward to seeing", "d": "No improvement" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 44 & 45): In the following sentences, an underlined/highlighted part of a sentence is given. Out of the given options, select the option that improves the sentence. If the sentence is grammatically correct as it is, select \"No improvement\":"
+    },
+    {
+      "n": 46,
+      "q": "Two and two__________four.",
+      "options": { "a": "make", "b": "made", "c": "makes", "d": "have made" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 46 & 47): Choose the correct option to fill in the blank with the correct form of verb /tense:"
+    },
+    {
+      "n": 47,
+      "q": "If I were a millionaire, I__________the needy.",
+      "options": { "a": "would help", "b": "would have helped", "c": "will help", "d": "can help" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 46 & 47): Choose the correct option to fill in the blank with the correct form of verb /tense:"
+    },
+    {
+      "n": 48,
+      "q": "Listen carefully and take notes.",
+      "options": { "a": "Simple sentence", "b": "Compound sentence", "c": "Complex sentence", "d": "Compound-complex sentence" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 48 & 49): Read the sentence given below and choose the correct option that identifies the structure of each sentence:"
+    },
+    {
+      "n": 49,
+      "q": "Sanga is too poor to buy a bicycle.",
+      "options": { "a": "Simple sentence", "b": "Complex sentence", "c": "Compound sentence", "d": "Compound-complex sentence" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 48 & 49): Read the sentence given below and choose the correct option that identifies the structure of each sentence:"
+    },
+    {
+      "n": 50,
+      "q": "There is not even one redundant word in the paragraph.",
+      "options": { "a": "high-sounding", "b": "wrong", "c": "difficult", "d": "superfluous" },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 50 & 51): Choose the word which is nearest in meaning to the underlined word:"
+    },
+    {
+      "n": 51,
+      "q": "An inadvertent error in his curriculum vitae cost him his job.",
+      "options": { "a": "careless", "b": "incidental", "c": "unintentional", "d": "unscrupulous" },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 50 & 51): Choose the word which is nearest in meaning to the underlined word:"
+    },
+    {
+      "n": 52,
+      "q": "People believe him to be innocent.",
+      "options": { "a": "Him is believed to be innocent by the people.", "b": "He is believed to be innocent.", "c": "He is believed innocent by people.", "d": "Him to be innocent is believed by the people" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 52-54): In the following questions, the sentences have been given in Active/Passive voice. From the given alternatives, choose the one which best expresses the given sentence in Passive/Active voice:"
+    },
+    {
+      "n": 53,
+      "q": "We should meet all our needs.",
+      "options": { "a": "Our needs should be met.", "b": "All our needs are to be met by us.", "c": "All our needs should be met by us.", "d": "All of us should meet our needs." },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 52-54): In the following questions, the sentences have been given in Active/Passive voice. From the given alternatives, choose the one which best expresses the given sentence in Passive/Active voice:"
+    },
+    {
+      "n": 54,
+      "q": "Who painted the flower?",
+      "options": { "a": "By whom had the flower been painted?", "b": "By whom was the flower painted?", "c": "By whom is the flower been painted?", "d": "By whom has the flower been painted?" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 52-54): In the following questions, the sentences have been given in Active/Passive voice. From the given alternatives, choose the one which best expresses the given sentence in Passive/Active voice:"
+    },
+    {
+      "n": 55,
+      "q": "Siami said to him, \"I got a hefty discount on this television.\"",
+      "options": { "a": "Siami told him that she has got a hefty discount on that television.", "b": "Siami told him that she is getting a hefty discount on that television.", "c": "Siami told him that she had got a hefty discount on that television.", "d": "Siami told him that she has got a hefty discount on that television." },
+      "answer": "c",
+      "keyAnswer": null,
+      "note": "Options (a) and (d) are printed with identical text in the booklet.",
+      "passage": "Direction (Question Nos. 55-57): Select the correct direct/indirect form of the given sentence:"
+    },
+    {
+      "n": 56,
+      "q": "She said to him, \"Who are you? Who are you looking for?\"",
+      "options": { "a": "She asked him who he was and who he was looking for.", "b": "She questioned him who he was and who was he looking for.", "c": "She asked him who was he and who was he looking for.", "d": "She asked him who are you and who are you looking for." },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 55-57): Select the correct direct/indirect form of the given sentence:"
+    },
+    {
+      "n": 57,
+      "q": "He complimented that she had done very well.",
+      "options": { "a": "He said to her, \"Alas! You did very well.\"", "b": "He said to her, \"Very good, she has done very well.\"", "c": "He said to her, \"How should you do so well?\"", "d": "He said to her, \"Very good, you have done very well!\"" },
+      "answer": "d",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 55-57): Select the correct direct/indirect form of the given sentence:"
+    },
+    {
+      "n": 58,
+      "q": "A person who looks at the bright side of things.",
+      "options": { "a": "Pessimist", "b": "Optimist", "c": "Atheist", "d": "Altruist" },
+      "answer": "b",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 58-60): Out of the four alternatives choose the one which can be substituted for the given words/sentence and mark your answer:"
+    },
+    {
+      "n": 59,
+      "q": "A speech made without any prior preparation.",
+      "options": { "a": "Extempore", "b": "Debate", "c": "Soliloquy", "d": "Lecture" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 58-60): Out of the four alternatives choose the one which can be substituted for the given words/sentence and mark your answer:"
+    },
+    {
+      "n": 60,
+      "q": "One who collects or studies stamps.",
+      "options": { "a": "Philatelist", "b": "Numismatist", "c": "Anthropologist", "d": "Archaeologist" },
+      "answer": "a",
+      "keyAnswer": null,
+      "note": null,
+      "passage": "Direction (Question Nos. 58-60): Out of the four alternatives choose the one which can be substituted for the given words/sentence and mark your answer:"
+    }
+  ]
+}

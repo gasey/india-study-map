@@ -9,6 +9,73 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (night) — July-2024's answer key settled from two scans; its questions are NOT imported yet
+
+**What shipped, and what deliberately did not.** The July-2024 MES (Combined)
+General Studies **answer key is fully verified and staged** —
+`staged/gs-mes2024-source.PARTIAL.json`, 100 entries, `questions: []`. The
+**questions are not transcribed**, so nothing was imported and the bank is
+unchanged at 1678. The file name says PARTIAL and its first field says so; the
+sitting is deliberately absent from the importer's registry, so a stray run
+cannot half-import it.
+
+**Why stop there.** Six of the paper's eight pages still need eye-verification
+against the scan, then 100 tag decisions. That is a lot of judgement, and doing
+it at the end of a long session is how a batch gets rushed — on content where a
+wrong answer teaches something false for a real exam. The expensive, high-risk
+half is done and durable; the remaining half is unstarted rather than
+half-done, which is the safer place to stop.
+
+**This key was the worst case, and it is now the best-verified one in the
+bank.** Both key PDFs are pure scans — 16-character text layers — so unlike
+July-2023 and January-2024 the **answers themselves** had to come through OCR.
+Four independent lines of evidence:
+
+1. `pdftotext` yields nothing, and `tesseract --psm 6` reads the bordered table
+   as a field of pipe characters — **63 tokens for 200 cells**. Useless.
+2. So the table is read **by geometry**: detect the 12 vertical rules (4 blocks
+   × left edge, Q.No/Ans divider, right edge) and the 26 horizontal rules, then
+   OCR each answer cell alone whitelisted to `ABCD`. **The question number comes
+   from the cell's position** — block × 25 + row — so a misread digit cannot
+   shift anything. This is now a committed tool,
+   `tools/system-analyst-build/read_scanned_key_table.py`.
+3. The **final** key page was read by eye, all 100. Geometry OCR resolved 73
+   cells and agreed on 70; every conflict (Q84, Q92, Q99, plus Q88 and Q98) was
+   settled by **cropping and enlarging that individual cell**, and all five
+   confirmed the eye read — the OCR was systematically reading **B as D** in the
+   right-hand block.
+4. The **provisional** key page was then read by eye independently and matches
+   the final on **100/100**.
+
+Two documents, two independent eye reads, one geometry machine read, and zoom on
+every disagreement. **The final key revised nothing** — unlike Oct-2025, where
+the final changed Q35 and Q65. Letter spread is A 24 / B 26 / C 26 / D 24, a
+weak but real signal that no column slipped.
+
+**Two traps worth carrying forward.** Hardcoding the answer-column x-ranges
+**silently lost 41 cells** of blocks 3 and 4 — they came back empty, which at
+least failed loudly, but the guessed right edge had simply overshot; the tool
+now detects the rules. And when OCR and eye disagree, the answer is *neither* —
+crop the cell. Preferring the machine here would have written five wrong
+answers under an authoritative blue badge.
+
+**Expect a high drop rate when the questions are done.** This is the most
+current-affairs-heavy of the four sittings. In Q1–Q23 alone the clear drops are
+Q3 (a portable hospital unveiled on a named date), Q5 (one year's Dadasaheb
+Phalke best actor), Q6 (SASTRA Ramanujan Prize 2023), Q12 (one year's Khelo
+India mascot) and Q15 (Swachh Survekshan 2023 winners). Budget for something
+nearer July-2023's 20 than January-2024's 4. Every keyed answer checked against
+Q1–Q23 is correct so far.
+
+**What's still open.** The 100 questions, following the January-2024 method
+exactly — `--psm 6` not `psm 4`, sequential question numbers, exactly four
+bracketed option markers, then all 8 pages by eye. The psm6 scaffold is already
+generated (15,835 chars) and pages 1–2 are verified. Also unchanged: the GS unit
+weights (see the entry below — still the highest-value, cheapest follow-up) and
+the eight keyless 2014-2022 engineering GS papers.
+
+---
+
 ## 2026-09-05 (end of day) — January-2024 PHE lands from a scan, and the paper proves the GS syllabus was missing a unit
 
 **What shipped.** **PHE2024_GS** — Jr. Grade of MES (AE/SDO) under PHE, 23-25

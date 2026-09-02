@@ -9,6 +9,163 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (later still) — July-2023 General Studies lands, the current-affairs-heavy one: 79 kept, 21 dropped, and a key that survived every check
+
+**What shipped.** The second sitting in `import_gs_past_papers.py` —
+**PE2023_GS**, Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023,
+General Studies. **79 questions imported**, every answer from MPSC's official
+Final Answer Key dated 8 September 2023. Bank 1502 → **1581**; General Studies
+232 → **311** (139 authored, 172 real and official-keyed). This closes the
+July-2023 item the last entry left open, and the generalisation held: adding a
+sitting was one registry entry plus two staged files, no code change.
+
+**This is the current-affairs-heavy paper, and the numbers say so.** Oct-2025
+lost 7 of 100 to the static-only policy. This one loses **21** — 17 time-bound,
+4 off-syllabus — because its first 45 questions are largely a 2023 news quiz: a
+Foxconn investment *plan*, a May-2023 EU fine, an RBI surplus transfer for one
+financial year, a kit sponsorship, a budget line, three office holders. The last
+entry predicted "roughly 80 keepable" and that turned out right, but for the
+wrong reason — the drops cluster almost entirely in Q1–Q45, and Q46 onward is
+almost pure static GK. **Two drops were called in advance and both were right**:
+Q17 (Union Power minister) and Q26 (present Chief Justice) had correct 2023
+answers that are now false, and each paper supplies its own trap — Q26's three
+distractors are three *earlier* CJIs, so the question was built to decay.
+
+**The convention I changed, and why.** The last entry recorded that the 12-mark
+Current Affairs unit "stays authored-only on purpose". I kept that where it
+bites — no stale news is imported — but stopped reading it as "no past-paper
+question may carry a unit-9 tag", because the bank's own evidence contradicts
+that reading. All 10 authored unit-9 questions are *static* ("The Bharat Ratna
+may be conferred for", "World Environment Day is observed annually on which
+date?"), and the Oct-2025 **drop records themselves carry unit-9 tags**. So the
+real rule was never about the unit, it was about staleness. Dropping Q98 ("When
+do we observe World Population Day?") while the bank keeps an authored twin
+about World Environment Day would have been incoherent. **13 questions turn on
+this** — the Quad's membership, who wrote *Long Walk to Freedom*, that the 2023
+G7 met at Hiroshima, that Mexico is the first three-time World Cup host. All
+permanent facts that merely live in a current-affairs category.
+
+**Four questions are dropped for having no home rather than for going stale** —
+the Q78-of-this-batch problem. Q28 (the Latin expansion of LL.B), Q72 (the
+currency of Japan), Q76 (a bank's advertising slogan) and **Q82**, which is the
+interesting one: `n² − 111 = 10914` giving n = 105 is plainly unit-10 material,
+but unit 10's leaves are percentage/ratio, average/profit-loss, interest,
+series, coding, syllogism, seating and DI — and a perfect-square word problem is
+none of them. **Q85 is kept by the same test read the other way**: a bell at
+45-minute intervals is time arithmetic, so "Time and work, time speed distance"
+is the right *family* even though clocks are not named in it. Family match keeps
+it; no family match drops it. That is the line, and it is worth reusing.
+
+**The key is good — and this time that claim was tested, not assumed.** The 14
+answers most worth doubting (every Mizoram-specific one, every "first", every
+award, and the ones where *largest* is ambiguous) were checked against
+independent sources. **All 14 came back correct**, so unlike ILM2023 (12 wrong
+in 135) and MES2023 (8 in 62) this batch needs **no correction annotations at
+all**. Two checks changed what shipped:
+
+- **Q24 was rescued from a false caveat.** I had written that no independent
+  source confirms Capt. LZ Sailo as the first Mizo Padma Bhushan. The Mizoram
+  government's own list of Padma recipients confirms it — Padma Bhushan, 2007,
+  Literature and Education, and the state has exactly one. Hedging there would
+  have taught doubt about a fact that is not in doubt.
+- **Q8 inherited the caveat instead, and deserves it.** The claim that JC
+  Lalnunsanga is the first Mizo Advocate-on-Record traces only to his own firm's
+  site and one affiliated post — no court record, no notification, no
+  independent report. It is kept because MPSC keyed it and the alternatives are
+  implausible, but the card now says so plainly.
+- **Q49 had a factual error in my own explanation.** I wrote that the Chenab is
+  largest "by volume of water and by basin area". The basin half is wrong — the
+  Sutlej has both the longer course and the bigger basin. The card now says the
+  key follows NCERT's by-volume convention and names what cuts the other way.
+
+Three more carry a caveat rather than a correction: Q36 (three mega-cities is
+the census-2011 figure; Bengaluru and Chennai have since passed 10 million),
+Q60 (NHPC incorporated 1975, no longer hydro-only) and Q54 (Kandla was renamed
+Deendayal Port in 2017).
+
+**The key is confirmed by a second file, not just by one parse.** MPSC filed
+this key twice — once under the P&E Cadre name and once as "Assistant Architect
+(Contract) under PWD Final Answer Key", because the two posts sat the same
+paper. Parsing that second PDF independently gives **100/100 identical
+letters**. Worth knowing for the next sitting: a key that looks like a duplicate
+in the Answer_Keys folder may be a free second reading.
+
+**The parser got a check the last one didn't have.** Oct-2025's Q62 bug was
+caught by an assertion that no option is empty — real, but it only fires on
+damage that *empties* a field. This importer's parse adds a **coverage check**:
+the parsed records are reassembled back into the source's own shape and required
+to match the PDF's text exactly, character for character, from Q1 to the end.
+All **15,440** characters are accounted for. A count of 100 would not have
+caught the 2026-08-04 incident, where ~280 questions vanished with no numbering
+gap to reveal it; a count *plus* total coverage would have. The sequential
+question-number and sequential-option-letter rules are carried over unchanged,
+along with stripping page furniture (`-2-`, the trailing `*******`) before
+parsing so it can never land inside a stem.
+
+**Verified.** Import idempotent (0 added, 0 changed on re-run, and again after
+the four explanation edits, which reported exactly 4 updated). 79 added with
+**zero pre-existing records modified**, checked by diffing every record against
+`HEAD` rather than trusting the reported count. Every kept question has four
+non-empty options, a key entry whose letter is one of those options, an
+explanation, and a `sub` that is a **real leaf of syllabus.js** — the leaf guard
+and the no-explanation guard were both tested by planting violations and
+confirming the run aborts naming the question. In the browser at
+`127.0.0.1:8123` (not `localhost` — see the cache trap in the previous entry):
+the sitting card shows an `official key` pill and **79 MCQ · 79 marks**, so
+`mpqOf` still reads 1 mark per GS question; browsing shows 79 cards numbered
+4–100 with unit and sub-topic pills, all 79 badged official, **none of the 21
+dropped questions present**, console clean. The new sitting also appears in the
+Practice sitting filter at the right count. All three other appliers report 0
+changed and the TECH1 study guide rebuilds byte-identical.
+
+**What's still open.**
+
+- **Q82 and the unit-10 leaf gap.** Three of this paper's six aptitude questions
+  were pure arithmetic and one had nowhere to sit. If a third GS sitting is
+  imported and the same thing happens, the answer is probably a
+  `Number system and simplification` leaf in syllabus.js — but that is a
+  syllabus edit with by-topic consequences, so it should be a deliberate change,
+  not a side effect of an import.
+- **Q8 is worth one human check.** It is the only answer in 172 official-keyed
+  GS records resting on self-published sourcing.
+- The registry is now genuinely exercised at two sittings, which was the point
+  at which the last entry said to reconsider hard-coding it. Verdict: it is
+  fine. The friction is not the registry, it is that each sitting needs 100
+  hand-made tag decisions — and that is the work, not the plumbing.
+- **The engineering-GS landscape, surveyed properly this time.** The last entry
+  said "four more papers"; the real figure is **ten**. Of 183 General
+  Studies/Knowledge/Science papers in the question-bank repo, 22 were set for
+  engineering posts, and after excluding the descriptive MCS Main papers **12
+  are 100-question MCQ engineering GS sittings**. Two are now imported. The
+  other ten split cleanly by whether an answer key exists:
+
+  | | sitting | paper | key |
+  |---|---|---|---|
+  | **key exists** | MES (AE/SDO) PHE, **January 2024** | scan, OCR sidecar 15.6 KB | **text layer, 29.7 KB** |
+  | **key exists** | MES (Combined), **July 2024** | scan | scan (provisional + final) |
+  | no key | MES PHE 2014 | text | — |
+  | no key | MES 2015 (Common, PHE + P&E) | text | — |
+  | no key | AE (Civil) Trade & Commerce, July 2016 | text | — |
+  | no key | MES P&E, August 2018 | text | — |
+  | no key | MES PWD, March 2019-20 | text | — |
+  | no key | MES PHE, March 2019-20 | text | — |
+  | no key | AE (Civil) Tourism, February 2020 | text | — |
+  | no key | MES P&E Electrical Wing, June 2022 | text | — |
+
+  The eight keyless ones are ~800 questions with clean text layers, and would be
+  fast to import — but only with **derived** answers, which the last three
+  sessions argued against. The two with keys are the opposite trade: authoritative
+  answers, but the *paper* is a scan in both cases, so OCR sits between the source
+  and the bank. **January 2024 is the better of the two** — its key has a real
+  text layer, so only the question paper needs reading, and the OCR sidecar is
+  legible enough to check by eye against the rendered page.
+- **A typo'd filename hid a paper for the whole of the previous survey.** The
+  January-2024 PHE paper is filed as "General **Stadies**", so every search for
+  "General Studies" missed it. Search the question-bank repo by exam name and
+  fuzzy spelling, not by subject word alone.
+
+---
+
 ## 2026-09-05 (later) — The first real General Studies past-paper questions, and the parser bug that nearly shipped a blank option
 
 **What shipped.** `import_gs_past_papers.py` + three staged files, importing **93

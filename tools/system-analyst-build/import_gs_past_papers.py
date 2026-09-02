@@ -61,6 +61,17 @@ SITTINGS = [
                  "Jr. Gr. of MES(DR)/25(1)-2025-MPSC (EXAM) dated 13 November 2025 "
                  "(supersedes the 7 October 2025 provisional key)"),
     },
+    {
+        "name": "PE2023_GS",
+        "source": "gs-pe2023-source.json",
+        "tags": "gs-pe2023-tags.json",
+        "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023 · General Studies",
+        "id_prefix": "PE2023_GS_",
+        "prov": ("Jr. Grade of MES, P&E Cadre (Electrical Wing) under P&E Department and "
+                 "Assistant Architect (Contract) under PWD, July 2023, General Studies, "
+                 "Q{no}; answer from MPSC's official Final Answer Key dated 8 September 2023 "
+                 "(no provisional key was published for this sitting)"),
+    },
 ]
 
 

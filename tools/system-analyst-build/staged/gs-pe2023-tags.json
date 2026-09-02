@@ -1,0 +1,710 @@
+{
+ "_what": "Per-question decisions for the July-2023 P&E (Electrical Wing) General Studies import: keep-or-drop, which GS syllabus unit and leaf sub-topic it belongs to, and a one-line explanation of the keyed answer.",
+ "_split_policy": "The user asked for STATIC GK only. `drop` marks a question whose value depends on when it is asked - an office holder, an annual figure, a 'recently'/'is planning to' framing, one year's award or election result. Nothing is silently discarded: every dropped question keeps its reason here and the importer prints them all on every run, so pulling one back is a one-field edit.",
+ "_this_paper_is_the_current_affairs_heavy_one": "The Oct-2025 sitting lost 7 of 100 to this policy. This one loses 21 - 17 as time-bound and 4 as off-syllabus - because its first 45 questions are largely a 2023 news quiz - a Foxconn investment plan, a May-2023 EU fine, an RBI surplus transfer, a kit sponsorship, a budget line. That is a fact about the paper, not a failure of the import: the Commission front-loads current affairs and this sitting was set in July 2023.",
+ "_unit_9_is_open_to_static_questions_and_here_is_why": "The Oct-2025 entry recorded that the 12-mark Current Affairs unit 'stays authored-only on purpose'. That rule is kept where it bites - no stale news is imported - but it is NOT read as 'no past-paper question may ever carry a unit-9 tag'. The bank's own 10 authored unit-9 questions are all static ('The Bharat Ratna may be conferred for', 'World Environment Day is observed annually on which date?'), and the Oct-2025 drop records themselves carry unit-9 tags. So a permanent fact that happens to live in a current-affairs category - the Quad's membership, who wrote 'A Long Walk to Freedom', that the 2023 G7 met at Hiroshima - is kept and tagged there. Dropping Q98 ('When do we observe World Population Day?') while the bank keeps an authored twin about World Environment Day would have been incoherent.",
+ "_off_syllabus_note": "Four questions are dropped for having no leaf anywhere in the GS syllabus rather than for going stale: Q28 (the Latin expansion of LL.B), Q72 (the currency of Japan), Q76 (a bank's marketing slogan) and Q82 (a perfect-square word problem). Q82 is the Q78-of-this-batch: unit 10 is plainly the right unit, but its leaves are percentage/ratio, average/profit-loss, interest, series, coding, syllogism, seating - and n squared minus 111 = 10914 is none of them. Tagging it to a percentage leaf would send by-topic revision to the wrong place, which is the mis-tagging bug of 2026-09-04. Q85 is kept by the same test read the other way: a bell ringing at 45-minute intervals is time arithmetic, so the 'Time and work, time speed distance' leaf is the right family even though clocks are not named in it.",
+ "_key_quality": "The key is dated 8 September 2023 - three days after the 5 September key for the same exam's Electrical/CSE/Mechanical papers, so General Studies was finalised separately. It holds up. The 14 answers most worth doubting - the Mizoram-specific ones, the award and 'first' claims, and the ones where 'largest' is ambiguous - were checked against independent sources and every one came back correct, so unlike ILM2023 (12 wrong in 135) and MES2023 (8 in 62) this batch needs no correction annotations at all. Five carry a caveat rather than a correction, on the card itself: Q49 (the Chenab is largest by discharge, but the Sutlej is longer and has the bigger basin - the key follows NCERT's convention), Q36 (three mega-cities is the census-2011 figure; Bengaluru and Chennai have since passed 10 million), Q60 (NHPC was incorporated in 1975 but is no longer hydro-only), Q54 (Kandla was renamed Deendayal Port in 2017) and Q8. Q8 is the one to distrust: the claim that JC Lalnunsanga is the first Mizo Advocate-on-Record traces only to his own firm's site and an affiliated post - no court record or independent report. It is kept because MPSC keyed it and the alternatives are implausible, but the card says so plainly.",
+ "tags": [
+  {
+   "no": 1,
+   "keep": false,
+   "reason": "A single year's budget line. The 2023-24 SEDP allocation is superseded by every later Mizoram budget, so the answer decays while the question stays put.",
+   "unit": "9",
+   "sub": "Economy and budget in the news"
+  },
+  {
+   "no": 2,
+   "keep": false,
+   "reason": "An annual literary prize. 'Book of the Year for 2022' has a different answer every year and teaches nothing durable.",
+   "unit": "9",
+   "sub": "Awards and honours"
+  },
+  {
+   "no": 3,
+   "keep": false,
+   "reason": "Seat count in one particular municipal election, superseded by the next one. Same class as the Oct-2025 Q47 drop.",
+   "unit": "9",
+   "sub": "Mizoram and North East current affairs"
+  },
+  {
+   "no": 4,
+   "keep": true,
+   "unit": "3",
+   "sub": "Population distribution and urbanisation",
+   "exp": "Lawngtlai, at about 66% literacy in the 2011 census, is the least literate district of Mizoram - far below Serchhip and Aizawl, which are among the most literate districts in India. The question is anchored to a fixed census, so the answer does not move."
+  },
+  {
+   "no": 5,
+   "keep": true,
+   "unit": "5",
+   "sub": "Advent of the British and annexation of the Lushai Hills",
+   "exp": "1901. The Lushai Hills were brought under British administration in the 1890s and were first enumerated in the 1901 census of India - the earliest census figures available for the area that is now Mizoram."
+  },
+  {
+   "no": 6,
+   "keep": false,
+   "reason": "Market capitalisation rankings change with the share price. Reliance and TCS have traded the top spot more than once since 2023.",
+   "unit": "9",
+   "sub": "Economy and budget in the news"
+  },
+  {
+   "no": 7,
+   "keep": true,
+   "unit": "7",
+   "sub": "e-Governance initiatives and Digital India",
+   "exp": "Kerala, which declared itself India's first fully e-governed state in May 2023 after taking its government services online end to end. A 'first' does not decay: whatever other states do later, Kerala got there first."
+  },
+  {
+   "no": 8,
+   "keep": true,
+   "unit": "5",
+   "sub": "Prominent personalities of Mizoram",
+   "exp": "JC Lalnunsanga, the first person from Mizoram to qualify as an Advocate-on-Record of the Supreme Court - the restricted class of advocates entitled to file cases in that court. Flagged honestly: this is the weakest-sourced answer in the batch. The claim traces only to his own firm's site and an affiliated post, with no court record, government notification or independent report found, so it rests largely on MPSC's key. The other options are at least implausible - Marli Hmangaihengi Vankung is a career judicial officer, not a Supreme Court AOR."
+  },
+  {
+   "no": 9,
+   "keep": false,
+   "reason": "Office holder, and framed 'recently'. Chief ministers change; an official-key badge on a stale office holder would assert a falsehood.",
+   "unit": "9",
+   "sub": "Persons in news, appointments"
+  },
+  {
+   "no": 10,
+   "keep": true,
+   "unit": "1",
+   "sub": "Union Executive: President, Vice-President, PM, Council of Ministers",
+   "exp": "The President of India. Article 53(2) vests the supreme command of the armed forces in the President; the Chiefs of Staff command their services under that authority, and the Prime Minister has no constitutional command role."
+  },
+  {
+   "no": 11,
+   "keep": false,
+   "reason": "Office holder, framed 'recently took oath'. A head of state is exactly the answer that goes stale without the question changing.",
+   "unit": "9",
+   "sub": "Persons in news, appointments"
+  },
+  {
+   "no": 12,
+   "keep": false,
+   "reason": "Ranking for one financial year. Car export league tables move year to year, so 2022-23 teaches nothing about a later exam.",
+   "unit": "9",
+   "sub": "Economy and budget in the news"
+  },
+  {
+   "no": 13,
+   "keep": true,
+   "unit": "9",
+   "sub": "International relations and summits",
+   "exp": "Vietnam. VINBAX is the Vietnam-India Bilateral Army Exercise; the name is a portmanteau of the two countries, so the pairing is fixed rather than a news fact."
+  },
+  {
+   "no": 14,
+   "keep": false,
+   "reason": "A dated news event - 'On May 2023' is in the stem itself. Regulatory fines are superseded and the framing dates the question.",
+   "unit": "9",
+   "sub": "National current affairs of the preceding 12-18 months"
+  },
+  {
+   "no": 15,
+   "keep": false,
+   "reason": "A pilot project 'launched recently'. Pilot schemes are wound up, renamed or extended, and the framing has no fixed reference point.",
+   "unit": "9",
+   "sub": "National current affairs of the preceding 12-18 months"
+  },
+  {
+   "no": 16,
+   "keep": false,
+   "reason": "A single missile test in the news cycle. 'New generation' dates it, and later tests supersede it.",
+   "unit": "9",
+   "sub": "Science and technology in the news"
+  },
+  {
+   "no": 17,
+   "keep": false,
+   "reason": "Office holder, and ALREADY WRONG: RK Singh was the Union Power minister in July 2023 but has not held the portfolio since 2024. Importing it would put an 'official key' badge on a false statement.",
+   "unit": "9",
+   "sub": "Persons in news, appointments"
+  },
+  {
+   "no": 18,
+   "keep": false,
+   "reason": "'Is planning to invest' - a corporate intention, not a fact. Plans are revised, relocated or dropped.",
+   "unit": "9",
+   "sub": "Economy and budget in the news"
+  },
+  {
+   "no": 19,
+   "keep": false,
+   "reason": "The RBI's surplus transfer is set afresh every financial year; the FY 2022-23 figure has been superseded several times over.",
+   "unit": "9",
+   "sub": "Economy and budget in the news"
+  },
+  {
+   "no": 20,
+   "keep": true,
+   "unit": "9",
+   "sub": "Persons in news, appointments",
+   "exp": "Sikkim. Pawan Kumar Chamling was its chief minister from 1994 to 2019, and the state's organic-farming and green-cover record earned him the 'greenest chief minister' tag. He has left office, but which state he led is a settled historical fact."
+  },
+  {
+   "no": 21,
+   "keep": true,
+   "unit": "9",
+   "sub": "International relations and summits",
+   "exp": "Hiroshima. Japan hosted the 2023 G7 summit there in May 2023, with the venue chosen for its nuclear-disarmament symbolism. Where a particular summit met never changes afterwards."
+  },
+  {
+   "no": 22,
+   "keep": true,
+   "unit": "9",
+   "sub": "International relations and summits",
+   "exp": "South Korea. The Quad - the Quadrilateral Security Dialogue - is India, the United States, Japan and Australia. Note the question asks which is NOT a member."
+  },
+  {
+   "no": 23,
+   "keep": true,
+   "unit": "9",
+   "sub": "Awards and honours",
+   "exp": "The Param Vir Chakra, India's highest gallantry award for valour in the face of the enemy. The Ashoka Chakra is its peacetime equivalent; the Maha Vir Chakra and Kirti Chakra rank below each of those."
+  },
+  {
+   "no": 24,
+   "keep": true,
+   "unit": "5",
+   "sub": "Prominent personalities of Mizoram",
+   "exp": "Capt. LZ Sailo, awarded the Padma Bhushan in 2007 for Literature and Education. Confirmed against the Mizoram government's own list of Padma recipients, which shows exactly one Padma Bhushan from the state and Padma Shris only from 1983 onwards - so A. Sawihlira (Padma Shri, 1983) is a genuine near-miss distractor rather than an alternative answer."
+  },
+  {
+   "no": 25,
+   "keep": true,
+   "unit": "2",
+   "sub": "Planning in India and NITI Aayog",
+   "exp": "The co-existence of public and private sectors. A mixed economy is defined by who owns the means of production, not by firm size or by which sectors are promoted - which is what the other three options describe. This was the explicit model of India's planning era."
+  },
+  {
+   "no": 26,
+   "keep": false,
+   "reason": "Office holder, and ALREADY WRONG: DY Chandrachud was CJI when the paper was set but retired in November 2024. An 'official key' badge would assert a falsehood. Note the paper's own distractors are three earlier CJIs - the question was designed to decay.",
+   "unit": "9",
+   "sub": "Persons in news, appointments"
+  },
+  {
+   "no": 27,
+   "keep": true,
+   "unit": "3",
+   "sub": "Agriculture and cropping patterns",
+   "exp": "Wheat - the principal rabi (winter-sown, spring-harvested) crop of India. Rice and maize are kharif crops sown with the monsoon; barley is rabi but a minor crop by area and output."
+  },
+  {
+   "no": 28,
+   "keep": false,
+   "reason": "The Latin expansion of a degree abbreviation maps to no leaf of the GS syllabus - not polity, not history, not current affairs. Dropped for having no home rather than for going stale.",
+   "unit": null,
+   "sub": null
+  },
+  {
+   "no": 29,
+   "keep": false,
+   "reason": "A single year's award ranking. The National Water Awards are conferred annually, so the 2022 winner is superseded and the answer teaches nothing durable.",
+   "unit": "9",
+   "sub": "Awards and honours"
+  },
+  {
+   "no": 30,
+   "keep": true,
+   "unit": "3",
+   "sub": "Population distribution and urbanisation",
+   "exp": "1921 is the 'year of the great divide' because India's population actually fell between 1911 and 1921 - influenza, famine and plague - and has risen at every census since. The demographic transition therefore splits neatly at that date."
+  },
+  {
+   "no": 31,
+   "keep": true,
+   "unit": "3",
+   "sub": "Physical geography of India: relief, drainage, climate",
+   "exp": "Lines joining places of equal rainfall. Compare isobar (equal pressure), isotherm (equal temperature) and isobath (equal depth) - the three distractors, each a real term for a different quantity."
+  },
+  {
+   "no": 32,
+   "keep": true,
+   "unit": "8",
+   "sub": "Ecosystems, food chains and biodiversity",
+   "exp": "The marine ecosystem. Oceans cover roughly 71% of the earth's surface, more than every terrestrial ecosystem combined."
+  },
+  {
+   "no": 33,
+   "keep": true,
+   "unit": "9",
+   "sub": "Books, authors and reports",
+   "exp": "J.K. Rowling, who published 'The Casual Vacancy' in 2012 as her first novel for adults after the Harry Potter series."
+  },
+  {
+   "no": 34,
+   "keep": true,
+   "unit": "3",
+   "sub": "Soils, natural vegetation and forests",
+   "exp": "Steppes - the temperate treeless grasslands of Eurasia. The other three are tropical grasslands that do carry scattered trees: llanos and campos in South America, savanna in Africa."
+  },
+  {
+   "no": 35,
+   "keep": true,
+   "unit": "9",
+   "sub": "International relations and summits",
+   "exp": "Belarus, whose territory was used to stage part of the February 2022 invasion of Ukraine from the north. A completed historical event, not a forecast. Note that Crimea, offered as an option, is not a country."
+  },
+  {
+   "no": 36,
+   "keep": true,
+   "unit": "3",
+   "sub": "Population distribution and urbanisation",
+   "exp": "Three, on the 2011 census: Delhi, Mumbai and Kolkata were the urban agglomerations above 10 million. Caveat worth carrying - Bengaluru and Chennai have since crossed that mark, so 'three' is the census-2011 answer rather than a permanent one."
+  },
+  {
+   "no": 37,
+   "keep": false,
+   "reason": "The prize money attached to one year's award. The award itself is a durable Mizoram first, but the tested fact here is the cash figure, which is revised.",
+   "unit": "9",
+   "sub": "Mizoram and North East current affairs"
+  },
+  {
+   "no": 38,
+   "keep": true,
+   "unit": "9",
+   "sub": "Important days and themes",
+   "exp": "15 September, the birth anniversary of Sir M. Visvesvaraya, engineer and Bharat Ratna. A fixed calendar date."
+  },
+  {
+   "no": 39,
+   "keep": true,
+   "unit": "9",
+   "sub": "Books, authors and reports",
+   "exp": "Nelson Mandela, whose autobiography 'Long Walk to Freedom' was published in 1994, the year he became President of South Africa."
+  },
+  {
+   "no": 40,
+   "keep": true,
+   "unit": "3",
+   "sub": "Map and location-based questions",
+   "exp": "The Strait of Magellan, at the southern tip of South America in Chilean waters. Hormuz links the Persian Gulf to the Arabian Sea, Malacca the Indian and Pacific oceans, and Dover the English Channel to the North Sea."
+  },
+  {
+   "no": 41,
+   "keep": true,
+   "unit": "9",
+   "sub": "Sports",
+   "exp": "Aryna Sabalenka, who won her first Grand Slam singles title at the 2023 Australian Open. A completed result - who won a given year's tournament never changes."
+  },
+  {
+   "no": 42,
+   "keep": true,
+   "unit": "9",
+   "sub": "Sports",
+   "exp": "Mexico, which hosted the men's World Cup in 1970 and 1986 and co-hosts in 2026 with the USA and Canada - the first country to reach three. Note the USA, also on the list, reaches only two."
+  },
+  {
+   "no": 43,
+   "keep": false,
+   "reason": "A commercial sponsorship. Kit deals run for a fixed term and are re-tendered, so the answer changes without the question changing.",
+   "unit": "9",
+   "sub": "Sports"
+  },
+  {
+   "no": 44,
+   "keep": true,
+   "unit": "9",
+   "sub": "Sports",
+   "exp": "Lionel Messi, named Best FIFA Men's Player for 2022 after captaining Argentina to the World Cup. The award is annual but a particular year's winner is settled."
+  },
+  {
+   "no": 45,
+   "keep": true,
+   "unit": "3",
+   "sub": "Population distribution and urbanisation",
+   "exp": "Uttar Pradesh, with the largest Scheduled Caste population of any state in absolute numbers at the 2011 census. Punjab has the highest SC share of its own population, which is the trap in this question."
+  },
+  {
+   "no": 46,
+   "keep": true,
+   "unit": "3",
+   "sub": "Agriculture and cropping patterns",
+   "exp": "Mixed farming - crops and livestock raised together on the same holding. Multiple cropping is several crops a year on the same land, crop rotation is a planned sequence of crops, and neither involves animals."
+  },
+  {
+   "no": 47,
+   "keep": true,
+   "unit": "3",
+   "sub": "Monsoon mechanism",
+   "exp": "A warm current off the coasts of Peru and Ecuador. El Nino is the warm phase - the name is the giveaway, and the cold phase off the same coast is La Nina. It weakens the Indian south-west monsoon, which is why it sits with the monsoon topic."
+  },
+  {
+   "no": 48,
+   "keep": true,
+   "unit": "8",
+   "sub": "Pollution: air, water, soil, noise",
+   "exp": "Eutrophication - nutrient enrichment, typically by nitrates and phosphates from fertiliser or sewage, that drives algal blooms and then oxygen depletion as the algae decay."
+  },
+  {
+   "no": 49,
+   "keep": true,
+   "unit": "3",
+   "sub": "Physical geography of India: relief, drainage, climate",
+   "exp": "The Chenab - largest by volume of water, which is the sense NCERT's Class 11 physical geography uses and therefore the exam convention. Caveat worth knowing in the hall: the Sutlej beats it on both length (1,450 km against 974 km) and basin area, so 'largest' here must be read as discharge or the key looks wrong."
+  },
+  {
+   "no": 50,
+   "keep": true,
+   "unit": "3",
+   "sub": "Soils, natural vegetation and forests",
+   "exp": "Agro-forestry - trees and crops deliberately grown together on the same land. Social forestry is tree planting on public or wasteland for community needs; commercial forestry grows timber for the market."
+  },
+  {
+   "no": 51,
+   "keep": true,
+   "unit": "6",
+   "sub": "Nuclear and defence technology",
+   "exp": "Russia. The Kh-47M2 Kinzhal is a Russian air-launched hypersonic ballistic missile carried by MiG-31K aircraft. Who builds a given weapon system is a fixed fact of the design."
+  },
+  {
+   "no": 52,
+   "keep": true,
+   "unit": "3",
+   "sub": "Physical geography of India: relief, drainage, climate",
+   "exp": "The geothermal gradient - the rate at which temperature rises with depth below the surface, averaging roughly 25-30 degrees C per kilometre in the crust. It is the reason deep mines need cooling and the basis of geothermal energy."
+  },
+  {
+   "no": 53,
+   "keep": true,
+   "unit": "6",
+   "sub": "Health, nutrition and public sanitation",
+   "exp": "Activated carbon, whose enormous internal surface area adsorbs dissolved organics along with taste and odour compounds. Alum coagulates suspended solids, chlorine disinfects, and ammonia is used with chlorine to form chloramine - none of them adsorb."
+  },
+  {
+   "no": 54,
+   "keep": true,
+   "unit": "3",
+   "sub": "Transport and communication networks",
+   "exp": "Kandla, in Gujarat, developed after 1947 to replace Karachi as the port serving north-west India once Karachi went to Pakistan - hence the nickname 'offspring of Partition', which is a textbook convention rather than an official designation. Note it was renamed Deendayal Port in 2017, so a later paper may use that name."
+  },
+  {
+   "no": 55,
+   "keep": true,
+   "unit": "3",
+   "sub": "Map and location-based questions",
+   "exp": "Canada, conventionally nicknamed the 'Lady of the Snows' after Kipling's poem of that title about the country - a fixed piece of world-geography naming."
+  },
+  {
+   "no": 56,
+   "keep": true,
+   "unit": "3",
+   "sub": "Transport and communication networks",
+   "exp": "National Waterway 1, the Ganga-Bhagirathi-Hooghly stretch from Haldia to Prayagraj at about 1,620 km - the longest of India's inland waterways."
+  },
+  {
+   "no": 57,
+   "keep": true,
+   "unit": "3",
+   "sub": "Map and location-based questions",
+   "exp": "Bangladesh, at roughly 4,096 km, is India's longest international land boundary - longer than the borders with China, Pakistan or Myanmar. West Bengal alone accounts for a large share of it."
+  },
+  {
+   "no": 58,
+   "keep": true,
+   "unit": "3",
+   "sub": "Mineral and energy resources",
+   "exp": "Mica, which splits into thin sheets that resist heat and do not conduct, making it a standard insulator in electrical and electronic equipment. Copper and aluminium are conductors; bauxite is the ore of aluminium."
+  },
+  {
+   "no": 59,
+   "keep": true,
+   "unit": "3",
+   "sub": "Mineral and energy resources",
+   "exp": "Manganese - essential to steelmaking as a deoxidiser and alloying element, and used in dry-cell batteries, paints, bleaching powder and photographic chemicals. Pyrites, kyanite and sillimanite have no such spread of uses."
+  },
+  {
+   "no": 60,
+   "keep": true,
+   "unit": "2",
+   "sub": "Infrastructure and public utilities",
+   "exp": "1975, when NHPC was incorporated as a public sector undertaking to develop India's hydroelectric potential. Worth noting that it has since diversified beyond hydro into solar and wind, so the name is now narrower than the company."
+  },
+  {
+   "no": 61,
+   "keep": true,
+   "unit": "4",
+   "sub": "Medieval India: Delhi Sultanate, Mughals, Bhakti and Sufi movements",
+   "exp": "Sher Shah Suri, who issued the silver 'rupiya' during his brief rule (1540-1545) - the direct ancestor of the modern rupee. His administrative reforms, including this one, were largely retained by the Mughals."
+  },
+  {
+   "no": 62,
+   "keep": true,
+   "unit": "1",
+   "sub": "Federalism and Centre-State relations",
+   "exp": "Andhra Pradesh, carved out of Madras State in 1953 for Telugu speakers after Potti Sriramulu's fast unto death. It forced the States Reorganisation Commission and the wholesale linguistic redrawing of 1956."
+  },
+  {
+   "no": 63,
+   "keep": true,
+   "unit": "4",
+   "sub": "Ancient India: Indus Valley, Vedic period, Mauryas, Guptas",
+   "exp": "Samudragupta, called the Napoleon of India by the historian V.A. Smith for the run of conquests recorded in the Allahabad pillar inscription. Note the two Chandraguptas offered as distractors are his father and his son."
+  },
+  {
+   "no": 64,
+   "keep": true,
+   "unit": "1",
+   "sub": "Fundamental Rights",
+   "exp": "Article 21A, inserted by the 86th Amendment in 2002, making free and compulsory education for children aged 6 to 14 a fundamental right. Article 21 is life and personal liberty; there is no Article 20A."
+  },
+  {
+   "no": 65,
+   "keep": true,
+   "unit": "1",
+   "sub": "Making of the Constitution",
+   "exp": "26 January 1950, when the Constitution came into force. The date the Constituent Assembly adopted it - 26 November 1949 - is the other option, and the distinction between adoption and commencement is the whole point of the question."
+  },
+  {
+   "no": 66,
+   "keep": true,
+   "unit": "1",
+   "sub": "Union Executive: President, Vice-President, PM, Council of Ministers",
+   "exp": "The Chief Justice of India, under Article 60, and in the CJI's absence the senior-most available Supreme Court judge. The President in turn administers the oath to the Prime Minister and ministers."
+  },
+  {
+   "no": 67,
+   "keep": true,
+   "unit": "1",
+   "sub": "Union Executive: President, Vice-President, PM, Council of Ministers",
+   "exp": "The Attorney General of India, appointed under Article 76 as the government's chief legal adviser and its first law officer. The Solicitor General is the second; the Law Minister is a political office, not a law officer."
+  },
+  {
+   "no": 68,
+   "keep": true,
+   "unit": "1",
+   "sub": "Parliament: Lok Sabha, Rajya Sabha, legislative procedure",
+   "exp": "Article 110 defines a Money Bill and lists the six matters it may deal with. Article 112 is the annual financial statement, Article 202 its state counterpart, and Article 123 the President's ordinance power."
+  },
+  {
+   "no": 69,
+   "keep": true,
+   "unit": "1",
+   "sub": "Emergency provisions",
+   "exp": "Article 19. Under Article 358 the six freedoms of Article 19 are automatically suspended once a National Emergency is proclaimed on grounds of war or external aggression. Article 21 by contrast cannot be suspended at all since the 44th Amendment."
+  },
+  {
+   "no": 70,
+   "keep": true,
+   "unit": "1",
+   "sub": "Federalism and Centre-State relations",
+   "exp": "The Union Home Minister chairs all five zonal councils ex officio; the chief ministers of the member states take turns as vice-chairman. The councils are statutory bodies under the States Reorganisation Act, 1956, not constitutional ones."
+  },
+  {
+   "no": 71,
+   "keep": true,
+   "unit": "1",
+   "sub": "Parliament: Lok Sabha, Rajya Sabha, legislative procedure",
+   "exp": "The Speaker of the Lok Sabha presides over a joint sitting under Article 118(4) - not the Rajya Sabha chairman, and not the President, who never presides over Parliament."
+  },
+  {
+   "no": 72,
+   "keep": false,
+   "reason": "The name of a foreign currency maps to no leaf of the GS syllabus. Filing it under 'Money and banking, RBI functions, monetary policy' would put pure naming trivia in front of anyone revising Indian monetary policy.",
+   "unit": null,
+   "sub": null
+  },
+  {
+   "no": 73,
+   "keep": true,
+   "unit": "3",
+   "sub": "Population distribution and urbanisation",
+   "exp": "Nagaland, the only state to record a negative decadal growth rate at the 2011 census, at about -0.6%, after an implausibly high figure in 2001. Anchored to a fixed census, so the answer is settled."
+  },
+  {
+   "no": 74,
+   "keep": true,
+   "unit": "2",
+   "sub": "Money and banking, RBI functions, monetary policy",
+   "exp": "SEBI regulates the securities markets - note that this is the point of the question: the RBI regulates banks and monetary policy, SEBI the share markets. MRTP and FERA are repealed statutes, and FEMA is a statute rather than an agency."
+  },
+  {
+   "no": 75,
+   "keep": true,
+   "unit": "2",
+   "sub": "Taxation: direct and indirect, GST",
+   "exp": "According to value - 'ad valorem' is Latin for exactly that. GST is levied ad valorem; a specific duty by contrast is charged per unit of weight, volume or quantity."
+  },
+  {
+   "no": 76,
+   "keep": false,
+   "reason": "A bank's advertising slogan maps to no leaf of the GS syllabus, and slogans are re-branded besides. Filing it under 'Money and banking' would mis-serve anyone revising the banking system.",
+   "unit": null,
+   "sub": null
+  },
+  {
+   "no": 77,
+   "keep": true,
+   "unit": "2",
+   "sub": "Planning in India and NITI Aayog",
+   "exp": "The Prime Minister is ex officio chairperson of NITI Aayog, as of the Planning Commission it replaced in 2015. The body has a full-time Vice-Chairperson and a CEO who run it day to day."
+  },
+  {
+   "no": 78,
+   "keep": true,
+   "unit": "2",
+   "sub": "Budget, fiscal deficit, revenue deficit",
+   "exp": "The primary deficit - fiscal deficit minus interest payments. It strips out the cost of past borrowing and so measures how much the government is adding to its debt this year, as against servicing what it already owes."
+  },
+  {
+   "no": 79,
+   "keep": true,
+   "unit": "1",
+   "sub": "Constitutional bodies: EC, CAG, UPSC, Finance Commission",
+   "exp": "The Finance Commission, constituted every five years under Article 280 to recommend how Union tax revenue is shared with the states. NITI Aayog is advisory with no such mandate, and the Planning Commission no longer exists."
+  },
+  {
+   "no": 80,
+   "keep": true,
+   "unit": "10",
+   "sub": "Percentage, ratio and proportion",
+   "exp": "13 + 11 = 24 parts, so 504 students give 21 per part: 273 boys and 231 girls. Three more girls make 234, and 273 : 234 divides by 39 to give 7 : 6."
+  },
+  {
+   "no": 81,
+   "keep": true,
+   "unit": "10",
+   "sub": "Percentage, ratio and proportion",
+   "exp": "Successive discounts multiply what is left, not what is taken off: 0.70 x 0.80 x 0.90 x 0.95 = 0.4788, so 47.88% of the price survives and 52.12% is the single equivalent discount. Adding 30 + 20 + 10 + 5 to get 65% is the trap."
+  },
+  {
+   "no": 82,
+   "keep": false,
+   "reason": "Quantitative aptitude with no leaf to sit on. n squared - 111 = 10914 gives n = 105, which is a perfect-square/number-system problem: unit 10's leaves cover percentage and ratio, average and profit-loss, interest, series, coding, syllogism, seating and data interpretation, and this is none of them. Tagging it to a percentage leaf would send by-topic revision somewhere it does not belong - the mis-tagging bug of 2026-09-04. This batch's equivalent of the Oct-2025 Gantt-chart drop.",
+   "unit": null,
+   "sub": null
+  },
+  {
+   "no": 83,
+   "keep": true,
+   "unit": "10",
+   "sub": "Number series and letter series",
+   "exp": "Two patterns run at once: the first letters advance S, T, U, V, W, and the last two run in consecutive pairs CD, EF, GH, IJ, KL. The gap is therefore VIJ."
+  },
+  {
+   "no": 84,
+   "keep": true,
+   "unit": "10",
+   "sub": "Coding-decoding",
+   "exp": "HAPPY to 51223 maps H=5, A=1, P=2, Y=3. Applying the same map letter by letter, PAHPY becomes 2, 1, 5, 2, 3 = 21523."
+  },
+  {
+   "no": 85,
+   "keep": true,
+   "unit": "10",
+   "sub": "Time and work, time speed distance",
+   "exp": "The next bell is at 7:45 and the interval is 45 minutes, so the last bell was at 7:00. It rang 5 minutes before the pastor spoke, which puts the conversation at 7:05 AM."
+  },
+  {
+   "no": 86,
+   "keep": true,
+   "unit": "3",
+   "sub": "Map and location-based questions",
+   "exp": "The Bay of Bengal, the largest bay in the world by area, bounded by India, Bangladesh, Myanmar and Sri Lanka. Hudson Bay is the runner-up on most measures."
+  },
+  {
+   "no": 87,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: cell, tissues, human body systems",
+   "exp": "AB or B. Group B red cells carry the B antigen, so they are safe only for recipients whose plasma lacks anti-B antibodies - that is groups B and AB. Group AB is the universal recipient; group O the universal donor."
+  },
+  {
+   "no": 88,
+   "keep": true,
+   "unit": "6",
+   "sub": "Physics: heat, light, sound, electricity, magnetism",
+   "exp": "Fog scatters light in every direction. Its water droplets are comparable in size to the wavelengths of visible light, so light is scattered rather than absorbed and no clear image reaches the eye."
+  },
+  {
+   "no": 89,
+   "keep": true,
+   "unit": "6",
+   "sub": "Chemistry: acids, bases, salts, metals and non-metals, common compounds",
+   "exp": "Teflon (PTFE) is synthetic, polymerised from tetrafluoroethylene. Wool and silk are natural protein polymers and cotton is natural cellulose."
+  },
+  {
+   "no": 90,
+   "keep": true,
+   "unit": "6",
+   "sub": "Nuclear and defence technology",
+   "exp": "Nuclear fusion - hydrogen nuclei fusing into helium in the stellar core, with the lost mass appearing as energy. Fission powers reactors on earth, not stars, and gravitational contraction only heats a star until fusion ignites."
+  },
+  {
+   "no": 91,
+   "keep": true,
+   "unit": "6",
+   "sub": "Physics: heat, light, sound, electricity, magnetism",
+   "exp": "Superconductors, whose electrical resistance falls to exactly zero below a critical temperature. Superfluids are the analogous zero-viscosity state of a liquid, which is the distractor being tested."
+  },
+  {
+   "no": 92,
+   "keep": true,
+   "unit": "6",
+   "sub": "Physics: heat, light, sound, electricity, magnetism",
+   "exp": "Conductors. The valence and conduction bands overlap, so electrons move freely with no energy gap to cross. Semiconductors have a small gap, insulators a large one."
+  },
+  {
+   "no": 93,
+   "keep": true,
+   "unit": "6",
+   "sub": "Physics: heat, light, sound, electricity, magnetism",
+   "exp": "Gamma rays. Photon energy rises with frequency, and gamma rays sit at the top of the electromagnetic spectrum - above X-rays, then ultraviolet, with infrared the lowest of the four offered."
+  },
+  {
+   "no": 94,
+   "keep": true,
+   "unit": "6",
+   "sub": "Nuclear and defence technology",
+   "exp": "To slow the neutrons down. Fast neutrons released by fission are poor at causing further fission in uranium-235; a moderator such as heavy water or graphite slows them to thermal speeds and sustains the chain reaction. It does not change how many neutrons there are."
+  },
+  {
+   "no": 95,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: cell, tissues, human body systems",
+   "exp": "Bone marrow - specifically the red marrow of the flat bones and the ends of long bones. The liver performs this role in the foetus, which is the distractor here."
+  },
+  {
+   "no": 96,
+   "keep": true,
+   "unit": "6",
+   "sub": "Chemistry: atomic structure, periodic table, chemical bonding",
+   "exp": "Xenon, called the stranger gas from the Greek 'xenos', a stranger, because it was found only in trace amounts. Nitrous oxide is laughing gas - the distractor the question is really testing."
+  },
+  {
+   "no": 97,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: nutrition, diseases, immunity, vaccines",
+   "exp": "Tuberculosis, caused by the bacterium Mycobacterium tuberculosis. Hepatitis B and poliomyelitis are viral, and scabies is caused by a mite - so all three distractors are non-bacterial for different reasons."
+  },
+  {
+   "no": 98,
+   "keep": true,
+   "unit": "9",
+   "sub": "Important days and themes",
+   "exp": "11 July, observed since 1990 and marking the day in 1987 when world population was reckoned to have reached five billion. A fixed calendar date."
+  },
+  {
+   "no": 99,
+   "keep": true,
+   "unit": "6",
+   "sub": "Physics: heat, light, sound, electricity, magnetism",
+   "exp": "Raised pressure raises the boiling point, so the water reaches about 120 degrees C before boiling and the food cooks faster. Nothing about the specific heat changes."
+  },
+  {
+   "no": 100,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: nutrition, diseases, immunity, vaccines",
+   "exp": "The small intestine, whose villi and microvilli give it an enormous absorptive surface. The stomach mainly digests, and the large intestine chiefly reabsorbs water and salts."
+  }
+ ]
+}

@@ -1,0 +1,1113 @@
+{
+ "_sitting": "Jr. Grade of Mizoram Engineering Service, P&E Cadre (Electrical Wing) under P&E Department and Assistant Architect (Contract) under PWD, General Studies, July 2023",
+ "_question_paper": "Old_Questions/Direct_2023-2025/Jr. Grade of MES (Electrical Wing) under P&E Deptt., General Studies..pdf (sha256:64517f3b488f9058)",
+ "_answer_key": "Answer_Keys/Jr. Grade of MES, P&E Cadre (Electrical Wing) under P&E Deptt. Final Answer Key..pdf (sha256:99cf176202c7c3f7), General Studies page (page 1 of 10), Final Answer Key dated 8 September 2023",
+ "_files_live_in": "mpsc-question-bank repo - a DIFFERENT repo, hence this transcription",
+ "_paper_extraction": "pdftotext -layout; the paper has a 24,496-char text layer so questions were parsed, not read by eye. Parser requires SEQUENTIAL question numbers and SEQUENTIAL option letters - the rule that fixes the Oct-2025 Q62 bug, where an option reading 'Both (b) and (c)' was split on its embedded markers and left an option EMPTY. Page numbers ('-2-') are stripped before parsing so they cannot land inside a stem. Verified: 100 questions, each with exactly options A-D, none empty. AND a coverage check the Oct-2025 parse did not have: the parsed records are reassembled into the source's own shape and required to match the PDF text character for character from Q1 to the end - all 15,440 chars accounted for. The empty-option assertion only fires on damage that empties a field; coverage also catches damage that DROPS one, which is the 2026-08-04 silent-loss class (~280 questions gone with no numbering gap to reveal it).",
+ "_key_extraction": "pdftotext -layout on the key PDF, which has a real 26,501-char text layer, so the table was parsed rather than OCR'd or read by eye. The General Studies page prints four (Q. No., Ans.) column pairs; the parser reads every '<n> (<A-D>)' pair on that page and aborts if any question number yields two different letters. 100/100 entries. CROSS-CHECKED against a second file: MPSC filed the same key twice, once under the P&E Cadre name and once as 'Assistant Architect (Contract) under PWD Final Answer Key..pdf' (the two posts sat the same paper). Parsing that second PDF independently gives 100/100 identical letters, so the transcription is confirmed by a second source rather than trusted from one parse.",
+ "_no_provisional": "Unlike the Oct-2025 sitting, no provisional key for this exam is in the Answer_Keys folder - only this final one, so there is no earlier key to supersede or to disagree with.",
+ "key": {
+  "1": "A",
+  "2": "D",
+  "3": "C",
+  "4": "D",
+  "5": "A",
+  "6": "C",
+  "7": "B",
+  "8": "B",
+  "9": "A",
+  "10": "B",
+  "11": "D",
+  "12": "B",
+  "13": "B",
+  "14": "B",
+  "15": "D",
+  "16": "A",
+  "17": "C",
+  "18": "D",
+  "19": "B",
+  "20": "D",
+  "21": "C",
+  "22": "B",
+  "23": "C",
+  "24": "C",
+  "25": "C",
+  "26": "A",
+  "27": "A",
+  "28": "C",
+  "29": "A",
+  "30": "C",
+  "31": "B",
+  "32": "C",
+  "33": "A",
+  "34": "D",
+  "35": "C",
+  "36": "A",
+  "37": "B",
+  "38": "C",
+  "39": "C",
+  "40": "B",
+  "41": "C",
+  "42": "C",
+  "43": "B",
+  "44": "C",
+  "45": "C",
+  "46": "A",
+  "47": "D",
+  "48": "C",
+  "49": "B",
+  "50": "C",
+  "51": "B",
+  "52": "D",
+  "53": "A",
+  "54": "B",
+  "55": "B",
+  "56": "A",
+  "57": "B",
+  "58": "C",
+  "59": "B",
+  "60": "A",
+  "61": "D",
+  "62": "C",
+  "63": "C",
+  "64": "B",
+  "65": "A",
+  "66": "A",
+  "67": "D",
+  "68": "D",
+  "69": "C",
+  "70": "D",
+  "71": "B",
+  "72": "B",
+  "73": "D",
+  "74": "C",
+  "75": "A",
+  "76": "B",
+  "77": "B",
+  "78": "C",
+  "79": "C",
+  "80": "D",
+  "81": "C",
+  "82": "B",
+  "83": "C",
+  "84": "C",
+  "85": "B",
+  "86": "A",
+  "87": "A",
+  "88": "D",
+  "89": "C",
+  "90": "D",
+  "91": "A",
+  "92": "C",
+  "93": "D",
+  "94": "D",
+  "95": "D",
+  "96": "D",
+  "97": "D",
+  "98": "C",
+  "99": "B",
+  "100": "B"
+ },
+ "questions": [
+  {
+   "no": 1,
+   "q": "In the Mizoram budget 2023-24,the amount of money allocated for the implementation of family- oriented SEDP is",
+   "opts": {
+    "A": "300 crores",
+    "B": "350 crores",
+    "C": "440 crores",
+    "D": "599 crores"
+   }
+  },
+  {
+   "no": 2,
+   "q": "Mizo Academy of Letters 'Book of the Year for 2022' is",
+   "opts": {
+    "A": "Hnam ropuite u tho ru le",
+    "B": "Enge i zawn",
+    "C": "Hringnun hrual hrui",
+    "D": "Daidanna bang phena thuruk"
+   }
+  },
+  {
+   "no": 3,
+   "q": "How many women councilors are elected in the Lunglei Municipal Election (LMC) held on 29th March 2023?",
+   "opts": {
+    "A": "Three",
+    "B": "Four",
+    "C": "Five",
+    "D": "Six"
+   }
+  },
+  {
+   "no": 4,
+   "q": "What is the least literate district in Mizoram according to 2011 census?",
+   "opts": {
+    "A": "Saiha district",
+    "B": "Mamit district",
+    "C": "Hnahthial district",
+    "D": "Lawngtlai district"
+   }
+  },
+  {
+   "no": 5,
+   "q": "When was the first census held in Mizoram?",
+   "opts": {
+    "A": "1901",
+    "B": "1921",
+    "C": "1931",
+    "D": "1951"
+   }
+  },
+  {
+   "no": 6,
+   "q": "Which company is the largest company in India in terms of market capitalisation?",
+   "opts": {
+    "A": "Tata Consultancy Services (TCS)",
+    "B": "HDFC",
+    "C": "Reliance Industries Limited",
+    "D": "ITC Limited"
+   }
+  },
+  {
+   "no": 7,
+   "q": "Which Indian state makes history by declaring itself as the country's first 'total e-governed' state?",
+   "opts": {
+    "A": "Sikkim",
+    "B": "Kerala",
+    "C": "Delhi",
+    "D": "Meghalaya"
+   }
+  },
+  {
+   "no": 8,
+   "q": "The first Mizo who become the Advocate-On-Record (AOR), Supreme Court of India is",
+   "opts": {
+    "A": "Marli Hmangaihengi Vankung",
+    "B": "JC Lalnunsanga",
+    "C": "Lalremsanga",
+    "D": "Saihmingliana Sailo"
+   }
+  },
+  {
+   "no": 9,
+   "q": "Recently, Siddaramaiah took oath as the chief minister of",
+   "opts": {
+    "A": "Karnataka",
+    "B": "Uttarakhand",
+    "C": "Goa",
+    "D": "Madhya Pradesh"
+   }
+  },
+  {
+   "no": 10,
+   "q": "The supreme commander of the armed forces in India.",
+   "opts": {
+    "A": "Chief of Army staff",
+    "B": "President of India",
+    "C": "Lok Sabha",
+    "D": "Prime Minister"
+   }
+  },
+  {
+   "no": 11,
+   "q": "Md. Sahabuddin recently took oath as the 22nd President of",
+   "opts": {
+    "A": "Bhutan",
+    "B": "Nepal",
+    "C": "Sri Lanka",
+    "D": "Bangladesh"
+   }
+  },
+  {
+   "no": 12,
+   "q": "The world's largest exporter of Cars in the year 2022-23 is",
+   "opts": {
+    "A": "Japan",
+    "B": "China",
+    "C": "USA",
+    "D": "Germany"
+   }
+  },
+  {
+   "no": 13,
+   "q": "With which country does India conduct a bilateral joint military exercise called the 'VINBAX Exercise'?",
+   "opts": {
+    "A": "Japan",
+    "B": "Vietnam",
+    "C": "Russia",
+    "D": "Phillipines"
+   }
+  },
+  {
+   "no": 14,
+   "q": "On May 2023, which of the following companies was slapped with a record $1.3 billion privacy fine by the European Union?",
+   "opts": {
+    "A": "Google",
+    "B": "Meta",
+    "C": "Tiktok",
+    "D": "Twitter"
+   }
+  },
+  {
+   "no": 15,
+   "q": "Which country launches a pilot project to create a \"new-era\" marriage and childbearing culture to foster a friendly childbearing environment?",
+   "opts": {
+    "A": "Japan",
+    "B": "South Korea",
+    "C": "Russia",
+    "D": "China"
+   }
+  },
+  {
+   "no": 16,
+   "q": "The country that successfully test-launched the 'Khaibar' new generation ballistic missile with a range of 2,000 kilometers and is able to carry a 1,500 kg warhead",
+   "opts": {
+    "A": "Iran",
+    "B": "Russia",
+    "C": "North Korea",
+    "D": "Ukraine"
+   }
+  },
+  {
+   "no": 17,
+   "q": "The Union minister in charge of Power, New and Renewable Energy is",
+   "opts": {
+    "A": "Ashwini Vaishnaw",
+    "B": "Pralhad Joshi",
+    "C": "Shri Raj Kumar Singh",
+    "D": "Arjun Munda"
+   }
+  },
+  {
+   "no": 18,
+   "q": "iPhone maker Foxconn is planning to invest up to USD 1 billion in which of the following Indian states?",
+   "opts": {
+    "A": "Maharastra",
+    "B": "Tamil Nadu",
+    "C": "Gujarat",
+    "D": "Karnataka"
+   }
+  },
+  {
+   "no": 19,
+   "q": "The Reserve Bank of India (RBI) has approved the transfer of how many crores of rupees to the government of India for the financial year 2022-23?",
+   "opts": {
+    "A": "Rs 77,416 crore",
+    "B": "Rs 87,416 crore",
+    "C": "Rs 97,416 crore",
+    "D": "Rs 107,416 crore"
+   }
+  },
+  {
+   "no": 20,
+   "q": "Due to his initiative towards protection of the environment, Mr. Pawan Kumar Chamling was often called the 'greenest chief minister of India'. He used to be the chief minister of",
+   "opts": {
+    "A": "Arunachal Pradesh",
+    "B": "Madhya Pradesh",
+    "C": "Meghalaya",
+    "D": "Sikkim"
+   }
+  },
+  {
+   "no": 21,
+   "q": "The G7 Summit 2023 was recently held in which of the following Japanese cities?",
+   "opts": {
+    "A": "Tokyo",
+    "B": "Nagasaki",
+    "C": "Hiroshima",
+    "D": "Kyoto"
+   }
+  },
+  {
+   "no": 22,
+   "q": "Which of the following countries is not part of the Quad?",
+   "opts": {
+    "A": "Japan",
+    "B": "South Korea",
+    "C": "Australia",
+    "D": "India"
+   }
+  },
+  {
+   "no": 23,
+   "q": "What is the highest award for war-time bravery in India?",
+   "opts": {
+    "A": "Ashok Chakra",
+    "B": "Maha Vir Chakra",
+    "C": "Param Vir Chakra",
+    "D": "Kirti Chakra"
+   }
+  },
+  {
+   "no": 24,
+   "q": "The first Mizo recipient of Padma Bhushan, the third highest Civilian Award in India is",
+   "opts": {
+    "A": "RL Thanmawia",
+    "B": "A Sawihlira",
+    "C": "Capt. LZ Sailo",
+    "D": "Lalzuia Colney"
+   }
+  },
+  {
+   "no": 25,
+   "q": "Mixed Economy means",
+   "opts": {
+    "A": "Co-existence of small and large industries",
+    "B": "Co-existence of rich and poor",
+    "C": "Co-existence of public and private sectors",
+    "D": "Promoting both agriculture and industry in the economy"
+   }
+  },
+  {
+   "no": 26,
+   "q": "Who is the present chief justice of India?",
+   "opts": {
+    "A": "Dhananjaya Yeshwant Chandrachud",
+    "B": "KG Balakrishnan",
+    "C": "Nuthalapati Venkata Ramana",
+    "D": "Uday Umesh Lalit"
+   }
+  },
+  {
+   "no": 27,
+   "q": "What is the Most important Rabi crops in India?",
+   "opts": {
+    "A": "Wheat",
+    "B": "Rice",
+    "C": "Maize",
+    "D": "Barley"
+   }
+  },
+  {
+   "no": 28,
+   "q": "What is the full form of L.L.B?",
+   "opts": {
+    "A": "Law Legume Bachelore",
+    "B": "Legum Law Bachelore",
+    "C": "Legum Baccalaureus",
+    "D": "Law Baccalareous Legume"
+   }
+  },
+  {
+   "no": 29,
+   "q": "Which city had bagged the first rank in the National Water Award 2022?",
+   "opts": {
+    "A": "Chandigarh",
+    "B": "Gangtok",
+    "C": "Ahmedabad",
+    "D": "Shimla"
+   }
+  },
+  {
+   "no": 30,
+   "q": "Year 1921 is known as the year of great divide in India's population history because",
+   "opts": {
+    "A": "India's population was divided into Pakistani Indians and Mainland Indians",
+    "B": "It was the year India was divided into religious line viz,.Hindu and Muslim",
+    "C": "The population of India decreased in that year from last census and after that it continues to increase.",
+    "D": "The great idea of complete independence from the British colonization was put into force in that year."
+   }
+  },
+  {
+   "no": 31,
+   "q": "Isohyet is defined as",
+   "opts": {
+    "A": "Lines of equal pressure",
+    "B": "Lines connecting places of equal rainfall",
+    "C": "Lines joining equal temperature",
+    "D": "Line of equal depth in the sea"
+   }
+  },
+  {
+   "no": 32,
+   "q": "Which one of the following ecosystem covers the largest area of the Earth's surface?",
+   "opts": {
+    "A": "Desert ecosystem",
+    "B": "Grasslands ecosystem",
+    "C": "Marine ecosystem",
+    "D": "Mountain ecosystem"
+   }
+  },
+  {
+   "no": 33,
+   "q": "Who is the Author of the book 'Casual Vacancy'?",
+   "opts": {
+    "A": "J.K.Rowling",
+    "B": "Sidney Sheldon",
+    "C": "Suzane Collins",
+    "D": "Jeffrey Archer"
+   }
+  },
+  {
+   "no": 34,
+   "q": "Grasslands which do not support any trees are called?",
+   "opts": {
+    "A": "Lanos",
+    "B": "Campos",
+    "C": "Savanna",
+    "D": "Steppes"
+   }
+  },
+  {
+   "no": 35,
+   "q": "Which country has allowed Russia to use its land for launching its invasion on Ukraine?",
+   "opts": {
+    "A": "Moldova",
+    "B": "Crimea",
+    "C": "Belarus",
+    "D": "Iran"
+   }
+  },
+  {
+   "no": 36,
+   "q": "How many mega cities are there in India?",
+   "opts": {
+    "A": "Three",
+    "B": "Four",
+    "C": "Five",
+    "D": "Six"
+   }
+  },
+  {
+   "no": 37,
+   "q": "The amount of money received by Ngopa Village council for bagging Mizoram's first ever National Panchayat Award 2023 is",
+   "opts": {
+    "A": "Rs 1 crore",
+    "B": "Rs 1.5 crore",
+    "C": "Rs 2 crores",
+    "D": "Rs 2.5 crores"
+   }
+  },
+  {
+   "no": 38,
+   "q": "When do we observe Engineering day in India?",
+   "opts": {
+    "A": "September 11",
+    "B": "September 13",
+    "C": "September 15",
+    "D": "September 21"
+   }
+  },
+  {
+   "no": 39,
+   "q": "Name the great personality whose Autobiography is titled 'A long Walk to Freedom'?",
+   "opts": {
+    "A": "Rosa Park",
+    "B": "Martin Luther King Jr",
+    "C": "Nelson Mandela",
+    "D": "Mahatma Gandhi"
+   }
+  },
+  {
+   "no": 40,
+   "q": "What is the name of the famous strait that connects the Pacific with the Atlantic ocean and is located at Chile?",
+   "opts": {
+    "A": "Strait of Hormuz",
+    "B": "Strait of Magellan",
+    "C": "Strait of Malacca",
+    "D": "Strait of Dover"
+   }
+  },
+  {
+   "no": 41,
+   "q": "Winner of the women's singles tennis title at the 2023 Australian Open is",
+   "opts": {
+    "A": "Serena Williams",
+    "B": "Danielle Collins",
+    "C": "Aryna Sabalenka",
+    "D": "Ashleigh Barty"
+   }
+  },
+  {
+   "no": 42,
+   "q": "Which country will become the first country to host or co-host the men's World Cup three times in 2026?",
+   "opts": {
+    "A": "Spain",
+    "B": "USA",
+    "C": "Mexico",
+    "D": "Brazil"
+   }
+  },
+  {
+   "no": 43,
+   "q": "The Board of Control for Cricket in India (BCCI) has announced a multi-year partnership with which of the following company as the official kit sponsor for the Indian Cricket Team",
+   "opts": {
+    "A": "Nike",
+    "B": "Adidas",
+    "C": "Levi's",
+    "D": "Reliance-Jio"
+   }
+  },
+  {
+   "no": 44,
+   "q": "Winner of Best FIFA men's player prize for 2022",
+   "opts": {
+    "A": "Christiano Ronaldo",
+    "B": "Mbappe",
+    "C": "Lionel Messi",
+    "D": "Neymar Jr."
+   }
+  },
+  {
+   "no": 45,
+   "q": "Which state has the highest Scheduled Castes population in India?",
+   "opts": {
+    "A": "Madhya pradesh",
+    "B": "Maharastra",
+    "C": "Uttar pradesh",
+    "D": "Punjab"
+   }
+  },
+  {
+   "no": 46,
+   "q": "Rearing of animals and cultivation of crops together on the same field is known as",
+   "opts": {
+    "A": "Mixed farming",
+    "B": "Multiple cropping",
+    "C": "Crop rotation",
+    "D": "Sedentary farming"
+   }
+  },
+  {
+   "no": 47,
+   "q": "'El Nino' is a",
+   "opts": {
+    "A": "A cold current off the coasts of Peru and Ecuador",
+    "B": "A warm current off the coasts of Ecuador and Chile",
+    "C": "A cold current off the coasts of Chile and Peru",
+    "D": "A warm current off the coasts of Peru and Ecuador"
+   }
+  },
+  {
+   "no": 48,
+   "q": "What is the increased productivity of ponds and lakes due to excess nutrients called?",
+   "opts": {
+    "A": "Bio-magnification",
+    "B": "Extinction",
+    "C": "Eutrophication",
+    "D": "Sedimentation"
+   }
+  },
+  {
+   "no": 49,
+   "q": "The largest tributary of the river Indus is",
+   "opts": {
+    "A": "Ravi",
+    "B": "Chenab",
+    "C": "Jhelum",
+    "D": "Sutlej"
+   }
+  },
+  {
+   "no": 50,
+   "q": "Raising of trees and agricultural crops on the same land refers to",
+   "opts": {
+    "A": "Commercial forestry",
+    "B": "Social forestry",
+    "C": "Agro forestry",
+    "D": "Non-commercial forestry"
+   }
+  },
+  {
+   "no": 51,
+   "q": "The Kh-47M2 Kinzhal, a hypersonic air-launched ballistic missile that can carry either conventional or nuclear warheads is produced by which of the following countries",
+   "opts": {
+    "A": "USA",
+    "B": "Russia",
+    "C": "Germany",
+    "D": "Iran"
+   }
+  },
+  {
+   "no": 52,
+   "q": "Surface rocks on earth are cool, but below the surface the temperature increases with depth. This phenomena is called",
+   "opts": {
+    "A": "The homogeneous accretion",
+    "B": "Devolution",
+    "C": "The Mesocrates",
+    "D": "Geo-thermal gradient"
+   }
+  },
+  {
+   "no": 53,
+   "q": "During water treatment process, adsorption of dissolved organics is done by using",
+   "opts": {
+    "A": "Activated carbon",
+    "B": "Alum",
+    "C": "Chlorine",
+    "D": "Ammonia"
+   }
+  },
+  {
+   "no": 54,
+   "q": "Which Indian port is also known popularly as 'The Offspring of Partition'?",
+   "opts": {
+    "A": "Haldia Port",
+    "B": "Kandla Port",
+    "C": "Paradeep Port",
+    "D": "Kochi Port"
+   }
+  },
+  {
+   "no": 55,
+   "q": "Which country is famously known as 'Lady of Snow'?",
+   "opts": {
+    "A": "Russia",
+    "B": "Canada",
+    "C": "Netherland",
+    "D": "Norway"
+   }
+  },
+  {
+   "no": 56,
+   "q": "The longest inland waterway of India is",
+   "opts": {
+    "A": "National waterway I",
+    "B": "National waterway II",
+    "C": "National waterway III",
+    "D": "National waterway IV"
+   }
+  },
+  {
+   "no": 57,
+   "q": "Which country shares the longest international boundaries with India?",
+   "opts": {
+    "A": "China",
+    "B": "Bangladesh",
+    "C": "Pakistan",
+    "D": "Myanmar"
+   }
+  },
+  {
+   "no": 58,
+   "q": "Which mineral has possessed an insulating properties and is widely used in electrical and electronics industry?",
+   "opts": {
+    "A": "Copper",
+    "B": "Alluminium",
+    "C": "Mica",
+    "D": "Bauxite"
+   }
+  },
+  {
+   "no": 59,
+   "q": "Which mineral is used in manufacturing steel, bleaching powder, insecticides, paints, batteries, photography etc.?",
+   "opts": {
+    "A": "Pyrites",
+    "B": "Manganese",
+    "C": "Kyanite",
+    "D": "Sillimanite"
+   }
+  },
+  {
+   "no": 60,
+   "q": "The National Hydroelectric Power Corporation was set up in",
+   "opts": {
+    "A": "1975",
+    "B": "1972",
+    "C": "1967",
+    "D": "1978"
+   }
+  },
+  {
+   "no": 61,
+   "q": "Who introduced Rupee in India?",
+   "opts": {
+    "A": "Akbar",
+    "B": "Babur",
+    "C": "Lord Ripon",
+    "D": "Sher Shah Suri"
+   }
+  },
+  {
+   "no": 62,
+   "q": "The first Indian state created on linguistic basis in the year 1953 was",
+   "opts": {
+    "A": "Punjab",
+    "B": "Maharastra",
+    "C": "Andra pradesh",
+    "D": "Bihar"
+   }
+  },
+  {
+   "no": 63,
+   "q": "Who was popularly known as the Napoleon of India?",
+   "opts": {
+    "A": "Chandragupta I",
+    "B": "Chandragupta II",
+    "C": "Samudragupta",
+    "D": "Valabbhai Patel"
+   }
+  },
+  {
+   "no": 64,
+   "q": "Which article of the Indian constitution contains Right to Education (RTE)?",
+   "opts": {
+    "A": "Article 20 A",
+    "B": "Article 21 A",
+    "C": "Article 14",
+    "D": "Article 17"
+   }
+  },
+  {
+   "no": 65,
+   "q": "When did India became a republic?",
+   "opts": {
+    "A": "26th January 1950",
+    "B": "26th November 1949",
+    "C": "24th January 1950",
+    "D": "15th August 1950"
+   }
+  },
+  {
+   "no": 66,
+   "q": "Who administered the oath of office to the president of India?",
+   "opts": {
+    "A": "Chief justice of India",
+    "B": "Speaker of Lok Sabha",
+    "C": "Prime Minister",
+    "D": "Vice-president"
+   }
+  },
+  {
+   "no": 67,
+   "q": "Who is the first law officer of the Government of India?",
+   "opts": {
+    "A": "Chief Justice of India",
+    "B": "Law minister",
+    "C": "Auditor General of India",
+    "D": "Attorney General of India"
+   }
+  },
+  {
+   "no": 68,
+   "q": "Which Indian article contains the money Bill?",
+   "opts": {
+    "A": "Article 202",
+    "B": "Article 112",
+    "C": "Artcle 123",
+    "D": "Article 110"
+   }
+  },
+  {
+   "no": 69,
+   "q": "Which Article of the Indian constitutional is automatically suspended during emergency proclamation by the president?",
+   "opts": {
+    "A": "Article 17",
+    "B": "Article 18",
+    "C": "Article 19",
+    "D": "Article 21"
+   }
+  },
+  {
+   "no": 70,
+   "q": "Who is the ex-officio head of all the zonal councils in India?",
+   "opts": {
+    "A": "Prime Minister",
+    "B": "Finance Minister",
+    "C": "President",
+    "D": "Home Minister"
+   }
+  },
+  {
+   "no": 71,
+   "q": "Who presides over the joint sitting of Lok sabha and Rajya sabha?",
+   "opts": {
+    "A": "Prime minister",
+    "B": "Speaker of Lok Sabha",
+    "C": "Chairman, Rajya sabha",
+    "D": "President of India"
+   }
+  },
+  {
+   "no": 72,
+   "q": "What is the currency of Japan?",
+   "opts": {
+    "A": "Won",
+    "B": "Yen",
+    "C": "Wuan",
+    "D": "Yuan"
+   }
+  },
+  {
+   "no": 73,
+   "q": "Which of the following state has negative population growth according to Census 2011?",
+   "opts": {
+    "A": "Kerala",
+    "B": "Goa",
+    "C": "Manipur",
+    "D": "Nagaland"
+   }
+  },
+  {
+   "no": 74,
+   "q": "Which of the following Agency regulates the working of the share markets in India",
+   "opts": {
+    "A": "MRTP Act",
+    "B": "FERA",
+    "C": "SEBI",
+    "D": "FEMA"
+   }
+  },
+  {
+   "no": 75,
+   "q": "Ad Valorem tax is a tax levied",
+   "opts": {
+    "A": "According to value",
+    "B": "According to weight",
+    "C": "According to size",
+    "D": "According to advertisement cost"
+   }
+  },
+  {
+   "no": 76,
+   "q": "'With you all the way' is the marketing slogan of which Institution in India?",
+   "opts": {
+    "A": "HSBC",
+    "B": "SBI",
+    "C": "HDFC",
+    "D": "ICICI"
+   }
+  },
+  {
+   "no": 77,
+   "q": "Who is the ex-officio chairman of NITI-Aayog in India?",
+   "opts": {
+    "A": "The President of India",
+    "B": "The Prime Minister of India",
+    "C": "Finance Minister of India",
+    "D": "Governor of RBI"
+   }
+  },
+  {
+   "no": 78,
+   "q": "Fiscal deficit minus interest payment is known as",
+   "opts": {
+    "A": "Balance of payment deficit",
+    "B": "Revenue deficit",
+    "C": "Primary deficit",
+    "D": "Budgetary deficit"
+   }
+  },
+  {
+   "no": 79,
+   "q": "Financial distribution between Union and states takes place on the basis of the recommendations of the?",
+   "opts": {
+    "A": "NITI-Aayog",
+    "B": "Planning commission",
+    "C": "Finance Commission",
+    "D": "National Development Council"
+   }
+  },
+  {
+   "no": 80,
+   "q": "The ratio of the number of boys and that of girls in a school having 504 students is 13:11. What will be the new ratio if 3 more girls are admitted?",
+   "opts": {
+    "A": "6 : 7",
+    "B": "10 : 11",
+    "C": "11 : 10",
+    "D": "7 : 6"
+   }
+  },
+  {
+   "no": 81,
+   "q": "A single discount, equivalent to successive discounts of 30%, 20%, 10% and 5% is?",
+   "opts": {
+    "A": "40 %",
+    "B": "49.60 %",
+    "C": "52.12 %",
+    "D": "35 %"
+   }
+  },
+  {
+   "no": 82,
+   "q": "The number of trees in each row of a garden is equal to the total number of rows in the garden. After 111 trees have been uprooted in the storm, there remain 10914 trees in the garden. The number of rows of trees in the garden is",
+   "opts": {
+    "A": "100",
+    "B": "105",
+    "C": "110",
+    "D": "115"
+   }
+  },
+  {
+   "no": 83,
+   "q": "Find the missing letters in the following series. SCD, TEF, UGH, _____, WKL",
+   "opts": {
+    "A": "CMN",
+    "B": "UJI",
+    "C": "VIJ",
+    "D": "IJT"
+   }
+  },
+  {
+   "no": 84,
+   "q": "In a certain language HAPPY is written as 51223 then how PAHPY will be written in the same code?",
+   "opts": {
+    "A": "21253",
+    "B": "21235",
+    "C": "21523",
+    "D": "52123"
+   }
+  },
+  {
+   "no": 85,
+   "q": "The Church pastor told Hannah, \"The Church bell rings at regular intervals of 45 minutes. The last bell was rung 5 minutes ago. The next bell is due to ring at 7:45 AM\". At what time did the Pastor give this information to Hannah?",
+   "opts": {
+    "A": "7:40 AM",
+    "B": "7:05 AM",
+    "C": "7:00 AM",
+    "D": "6:55 AM"
+   }
+  },
+  {
+   "no": 86,
+   "q": "Which one of the following is the largest Bay in the world?",
+   "opts": {
+    "A": "Bay of Bengal",
+    "B": "Hudson Bay",
+    "C": "Bay of Baracoa, Cuba",
+    "D": "Bay of Izmir"
+   }
+  },
+  {
+   "no": 87,
+   "q": "An individual whose blood type is B may in an emergency donate blood to a person whose blood type is",
+   "opts": {
+    "A": "AB or B",
+    "B": "AB or A",
+    "C": "A or O",
+    "D": "B or A"
+   }
+  },
+  {
+   "no": 88,
+   "q": "Why do we cannot see through fog?",
+   "opts": {
+    "A": "because its refractive index is infinity",
+    "B": "because light suffers internal reflection",
+    "C": "because fog absorbs light",
+    "D": "because light is scattered in every direction"
+   }
+  },
+  {
+   "no": 89,
+   "q": "Which of the following is not a natural polymer?",
+   "opts": {
+    "A": "Wool",
+    "B": "Silk",
+    "C": "Teflon",
+    "D": "Cotton"
+   }
+  },
+  {
+   "no": 90,
+   "q": "Energy generated in stars are mainly due to",
+   "opts": {
+    "A": "chemical reactions",
+    "B": "Nuclear fission",
+    "C": "Gravitational pull",
+    "D": "Nuclear fusion"
+   }
+  },
+  {
+   "no": 91,
+   "q": "Substance which offers no resistance when cooled to its critical temperature are called",
+   "opts": {
+    "A": "Superconductors",
+    "B": "Superfluids",
+    "C": "Semi-conductors",
+    "D": "Conductive cells"
+   }
+  },
+  {
+   "no": 92,
+   "q": "Conduction band and valance band overlap in",
+   "opts": {
+    "A": "Semiconductor",
+    "B": "Insulator",
+    "C": "conductor",
+    "D": "Transformer"
+   }
+  },
+  {
+   "no": 93,
+   "q": "Which one among the following radiations carries maximum energy?",
+   "opts": {
+    "A": "X-Rays",
+    "B": "Infra-red Rays",
+    "C": "Ultra-violet Rays",
+    "D": "Gamma Rays"
+   }
+  },
+  {
+   "no": 94,
+   "q": "A moderator is used in nuclear reactors in order to",
+   "opts": {
+    "A": "decrease the number of neutrons",
+    "B": "increase the number of neutrons",
+    "C": "speed up the neutrons",
+    "D": "slow down the speed of neutrons"
+   }
+  },
+  {
+   "no": 95,
+   "q": "In the human body, red blood cells are produced in",
+   "opts": {
+    "A": "Liver",
+    "B": "Voluntary muscles",
+    "C": "Pancreas",
+    "D": "Bone marrow"
+   }
+  },
+  {
+   "no": 96,
+   "q": "Which one of the following is also called Stranger gas?",
+   "opts": {
+    "A": "Argon",
+    "B": "Neon",
+    "C": "Nitrous Oxide",
+    "D": "Xenon"
+   }
+  },
+  {
+   "no": 97,
+   "q": "Which one of the following is disease is caused by bacteria?",
+   "opts": {
+    "A": "Hepatitis- B",
+    "B": "Poliomyelitis",
+    "C": "Scabies",
+    "D": "Tuberculosis"
+   }
+  },
+  {
+   "no": 98,
+   "q": "When do we observe World population day?",
+   "opts": {
+    "A": "January 09",
+    "B": "June 21",
+    "C": "July 11",
+    "D": "September 11"
+   }
+  },
+  {
+   "no": 99,
+   "q": "In a pressure cooker, cooking is faster because the increase in vapor pressure",
+   "opts": {
+    "A": "Increases the specific heat",
+    "B": "Increases the boiling point",
+    "C": "Decreases the boiling point",
+    "D": "Decreases the specific heat"
+   }
+  },
+  {
+   "no": 100,
+   "q": "In which part of our body most of the nutrients in your food gets absorbed?",
+   "opts": {
+    "A": "Large intestine",
+    "B": "Small intestine",
+    "C": "Stomach",
+    "D": "Heart"
+   }
+  }
+ ]
+}

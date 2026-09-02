@@ -185,7 +185,7 @@ export const modules: AppModule[] = [
     title: 'MPSC System Analyst',
     category: 'Practice',
     subgroup: 'Exam guides',
-    tagline: '727 concepts, 662 questions — Study guide, Daily test, Mock test',
+    tagline: '962 concepts, 1369 questions — Concept guide, Technical I revision guide, Daily and Mock tests',
     glyph: '🖥️',
     kind: 'static',
     path: '/mpsc-system-analyst/index.html',

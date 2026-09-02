@@ -9,6 +9,82 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-04 (later still) — The revision guide is reachable, and the three things called "study guide" are now called three different things
+
+**What shipped.** The generated Technical Paper I guide had been committed and
+deployed for two sessions with **nothing linking to it**. `grep study-guide` over
+`app.js` and `index.html` returned zero hits: the only way to open 890 KB of
+generated revision material was to know the filename. It now has two entry
+points and a way back.
+
+- **Dashboard → Concept guide card** gains a second action beside "Browse
+  concepts". **Study view header** gains the same link next to the search box.
+  Both are real `<a href target="_blank">`, not `data-go` views, because the guide
+  is a separate static page that `app.js` does not render.
+- **The guide gains a `← Trainer` link.** It is opened in a new tab, so browser
+  Back is a dead end from there — it was previously a one-way trip.
+- New `a.btn` rule so an anchor sits level with a `<button class="btn">` beside
+  it (`.btn` set no `display` and anchors carry an underline by default).
+
+**The naming collision was the actual bug.** Three different things were called
+some variant of "study guide": the Dashboard button `Open study guide`, the Study
+view's `<h1>Study guide`, and the generated page's own `<title>… | Study Guide`.
+The first two are the in-app concept browser and the third is not — so the app
+shipped a button labelled "Open study guide" that opened something else. Now:
+
+| what it is | what it is called |
+|---|---|
+| in-app concept browser (962 sub-topics, known/unknown ticks) | **Concept guide** — card title, `<h1>`, and button "Browse concepts" |
+| generated static page, TECH1 Units 1 & 3 | **Technical I revision guide**, labelled `Units 1 & 3 ↗` |
+
+The link label names its scope because the guide covers 100 of that paper's 200
+marks, and an unqualified "revision guide" on a dashboard would read as
+whole-syllabus coverage.
+
+**`vercel.json` was NOT changed, and that is the finding.** The plan was to add
+the static-app directories to its catch-all rewrite exclusion — the rule rewrites
+everything outside `assets/|codex/|labs/|maps/|favicon` to the SPA's
+`index.html`, and five static apps including this one are not on that list. Then
+the deployment was actually tested instead of reasoned about:
+
+```
+/mpsc-system-analyst/study-guide-tech1.html   200  908 010 bytes  <title>… Revision Guide</title>
+/mpsc-system-analyst/styles.css               200  text/css
+/manifest.webmanifest                         200  application/manifest+json
+```
+
+Vercel checks the filesystem *before* applying rewrites, so real files win and
+nothing is broken. Adding eight directories to a regex to defend against a
+hypothetical reordering would have been churn justified by an untested belief.
+Worth recording so the next person does not re-open it: **the catch-all looks
+dangerous and is not.** (The same fetch also showed production serving 36
+official-key badges against 87 locally — the ILM2023 commit is still unpushed.)
+
+**Also.** `registry.ts`'s tagline for this module read "727 concepts, 662
+questions"; actual figures are 962 and 1369. That string is on the SPA's module
+hub, so it was the first thing a reader saw and it understated the bank by half.
+
+**Verified in the browser** at 961px and 375px, both entry points and the return
+trip: heading reads `Concept guide`, "Browse concepts" and the guide link render
+as level buttons (41px both) with no underline, the guide's `← Trainer` link
+round-trips back to `index.html`, console clean, no horizontal overflow at mobile
+width. Guide rebuilt and byte-stable across two runs.
+
+**What's still open.**
+
+- The Dashboard card reads **"962 of 582 syllabus sub-topics defined"** — more
+  concepts than sub-topics, so `TOTAL_SUBTOPICS` is stale or counts something
+  narrower than `CON` does. Pre-existing, not touched here, but it renders as
+  nonsense to a reader.
+- The guide covers TECH1 Units 1 and 3 only. Units 2 and 4 have no guide, and the
+  builder is unit-agnostic — extending it is a `clusters.py` addition plus
+  cram-sheet content, no new machinery. Until then the `Units 1 & 3` qualifier in
+  the link label is load-bearing.
+- Nothing links the guide from the **paper cards**, which is arguably where a
+  reader looking at "Technical I · IT & Communication" would expect it.
+
+---
+
 ## 2026-09-04 (later) — The ILM 2023 official key applied: 136 records re-provenanced, 12 answers overturned, and a question MPSC itself voided
 
 **What shipped.** `tools/system-analyst-build/apply_official_key.py` +

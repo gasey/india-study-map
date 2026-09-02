@@ -139,6 +139,10 @@ main { max-width: 1120px; margin: 0 auto; padding: 1.4rem 1rem 5rem; }
 }
 .btn:hover:not(:disabled) { background: var(--panel-2); }
 .btn:disabled { opacity: .45; cursor: not-allowed; }
+/* The generated revision guide is a separate static page, so its entry points
+   are real <a href> links rather than data-go buttons. Anchors need these two
+   properties to sit level with a <button class="btn"> beside them. */
+a.btn { display: inline-block; text-decoration: none; }
 .btn.pri { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .btn.pri:hover:not(:disabled) { filter: brightness(1.08); }
 .btn.sm { font-size: .8rem; padding: .32rem .6rem; }

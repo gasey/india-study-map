@@ -405,7 +405,7 @@ HTML_SHELL = """<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Technical Paper I — Discrete Maths &amp; Data Structures | Study Guide</title>
+<title>Technical Paper I — Discrete Maths &amp; Data Structures | Revision Guide</title>
 <link rel="stylesheet" href="study-guide.css">
 </head>
 <body>
@@ -413,11 +413,12 @@ HTML_SHELL = """<!DOCTYPE html>
 <header class="gtop">
   <div class="gtop-in">
     <div class="gbrand">
-      <strong>Technical Paper I — Study Guide</strong>
+      <strong>Technical Paper I — Revision Guide</strong>
       <em>Discrete Mathematics &amp; Data Structures · MPSC System Analyst</em>
     </div>
     <div class="gtools">
       <input id="search" type="search" placeholder="Search formulas, facts, questions…" autocomplete="off">
+      <a class="backlink" href="index.html">&larr; Trainer</a>
       <button id="themeBtn" class="icon-btn" title="Toggle theme">&#9686;</button>
       <button id="printBtn" class="icon-btn" title="Print / save as PDF">&#9113;</button>
     </div>

@@ -146,6 +146,24 @@ const shortPaper = pid => ({
   OFFSYL: 'Off-syllabus · not examined',
 }[pid] || pid);
 
+/* Entry point to the generated Technical Paper I revision guide.
+
+   This is a real <a href> and not a `data-go` view because the guide is a
+   SEPARATE static page (study-guide-tech1.html), generated from concepts.js +
+   questions.js by tools/system-analyst-build/build_study_guide.py and committed
+   alongside this app — it is not rendered by app.js at all.
+
+   Deliberately NOT called "study guide": the Study tab's concept browser was
+   already using that name, so for a while the app had a button labelled "Open
+   study guide" that opened something else entirely. The label names the scope
+   (Units 1 and 3 of Technical I — 100 of that paper's 200 marks) so it cannot be
+   mistaken for whole-syllabus coverage, and opens in a new tab so a half-finished
+   test in this one is not lost behind it. */
+const GUIDE_HREF = 'study-guide-tech1.html';
+const revisionGuideLink = (cls = 'btn') =>
+  `<a class="${cls}" href="${GUIDE_HREF}" target="_blank" rel="noopener">`
+  + 'Technical I revision guide <span class="dim">Units 1 &amp; 3 ↗</span></a>';
+
 // answerable questions only (drop voided/undetermined from tests)
 // Denominator for the concept-guide progress line, derived from the syllabus
 // rather than hardcoded so it cannot drift as data lands.
@@ -552,7 +570,10 @@ VIEWS.dash = (el) => {
           You have marked <strong>${known}</strong> as known.
         </p>
         <div class="bar good mb"><i style="width:${pct(known, CON.length || 1)}%"></i></div>
-        <button class="btn" data-go="study">Open study guide</button>
+        <div class="row">
+          <button class="btn" data-go="study">Browse concepts</button>
+          ${revisionGuideLink()}
+        </div>
       </div>
     </div>
 
@@ -694,8 +715,11 @@ VIEWS.study = (el, opts) => {
   }
   el.innerHTML = `
     <div class="spread mb">
-      <h1 style="margin:0">Study guide</h1>
-      <input type="text" id="cSearch" placeholder="Search concepts…" style="min-width:220px">
+      <h1 style="margin:0">Concept guide</h1>
+      <div class="row">
+        ${revisionGuideLink('btn sm')}
+        <input type="text" id="cSearch" placeholder="Search concepts…" style="min-width:220px">
+      </div>
     </div>
     <div class="study-wrap">
       <div class="card tree" id="tree"></div>

@@ -113,6 +113,8 @@ window.SYLLABUS = {
       "authority": "MES Regulations 2013, Schedule-I",
       "syllabus_text_verbatim": "The nature and standard of questions in the General Studies will be such that a well-educated person will be able to answer them without any specialized study. The questions will be such as to test a candidate's general awareness of a variety of subjects, which will have relevance for a career in Engineering Services. The questions are likely to test the candidate's basic understanding of all relevant issues, and ability to analyze, and take a view on conflicting socio-economic goals, objectives and demands.",
       "scope_note": "The regulation gives no topic list, so the unit breakdown below is derived from what MPSC has actually asked in past General Studies / General Knowledge papers for engineering and technical posts.",
+      "scope_revision_2026_09_05": "Unit 11 was ADDED on the evidence of three real engineering GS papers (Oct-2025, July-2023, Jan-2024 = 295 questions). The Jan-2024 PHE paper devotes ELEVEN questions to communication process, listening, group decision making, managerial risk and workplace ethics, and Oct-2025 has one (Gantt charts, dropped at the time for having no home). None of that fits units 1-10, so the original derived list was simply incomplete - the questions were never off-topic. Unit 11's 4 marks are its observed rate (11 of 295, plus the Oct-2025 one). They were taken from unit 7, which observation shows is the most over-weighted unit in the list: IT and digital governance is weighted 10 but appears about 1.4 times per 100 questions. Every paper's units sum to its paper total, so the 4 had to come from somewhere and this was the least-bad place. Unit 10 also gained two leaves (number system/divisibility/squares-cubes, and mensuration/coordinate geometry) at NO marks cost - both are routinely asked and had nowhere to sit, which is why July-2023 Q82 was dropped.",
+      "scope_note_still_open": "The observed distribution says these weights are still wrong beyond the one change made. Against 295 real questions the gaps per 100 are: unit 6 General Science +11.1 (weighted 12, asked 23), unit 10 Reasoning +6.2 (weighted 6, asked 12), unit 3 Geography +4.6, unit 9 Current Affairs +2.6, against unit 7 -4.6 after this revision, unit 4 History -7.6, unit 5 Mizoram -5.3 and unit 2 Economy -4.5. A full evidence-based rebalance is the right next step, but it changes practice sampling weights across the whole paper (app.js samples units in proportion to marks), so it should be a deliberate decision rather than a side effect of an import.",
       "units": [
         {
           "no": "1",
@@ -227,7 +229,7 @@ window.SYLLABUS = {
         {
           "no": "7",
           "title": "Information Technology and Digital Governance Awareness",
-          "marks": 10,
+          "marks": 6,
           "subtopics": [
             "Computer fundamentals and terminology",
             "Internet, e-mail, web basics",
@@ -290,7 +292,24 @@ window.SYLLABUS = {
             "Average, profit and loss",
             "Time and work, time speed distance",
             "Simple and compound interest",
+            "Number system, divisibility, squares and cubes",
+            "Mensuration and coordinate geometry basics",
             "Data interpretation: tables, bar, pie, line graphs"
+          ]
+        },
+        {
+          "no": "11",
+          "title": "Communication, Management and Behavioural Awareness",
+          "marks": 4,
+          "subtopics": [
+            "Communication process: encoding, decoding, feedback, noise",
+            "Verbal and non-verbal communication",
+            "Listening skills and barriers to communication",
+            "Interpersonal relations and cross-cultural awareness",
+            "Group discussion and group decision making",
+            "Managerial decision making: certainty, risk and uncertainty",
+            "Workplace ethics and situational judgement",
+            "Project and time management basics"
           ]
         }
       ]

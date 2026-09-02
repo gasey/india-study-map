@@ -1,0 +1,1114 @@
+{
+ "_sitting": "Jr. Grade of Mizoram Engineering Service (AE/SDO) under Public Health Engineering Department, General Studies, January 2024",
+ "_question_paper": "Old_Questions/Direct_2023-2025/Jr. Grade of MES PHE General Stadies-2024..pdf (sha256:63f43528cdbd0f6e)",
+ "_answer_key": "Answer_Keys/Final Answer Key for recuitment of Jr. Grade of MES (AE SDO) under PHE Department..pdf (sha256:c2a6cf3b9a9850d3), General Studies page, Final Answer Key notified 21 March 2024 under No. MES/A/2023-MPSC for the examination held 23-25 January 2024",
+ "_files_live_in": "mpsc-question-bank repo - a DIFFERENT repo, hence this transcription",
+ "_filename_typo": "The paper is filed as 'General Stadies', not 'General Studies'. That typo hid it from every subject-word search in the previous two sessions' surveys - search by exam name too.",
+ "_paper_extraction": "THE PAPER IS A PURE SCAN: an 8-character text layer, so there is no machine text to trust and OCR is unavoidable. Rendered at 400 dpi and OCR'd twice with different page segmentation: --psm 4 DETACHED the question numbers into a gutter column on page 2, which would have mis-aligned every number against its stem - the silent-misalignment failure this project keeps warning about - so --psm 6, which keeps them attached, is the scaffold and psm4 only a second read. Then all 8 pages were READ BY EYE at 170 dpi and the scaffold corrected: every correction in the script's FIX table is what the page actually says, not a guess. The one that mattered most is Q17, which OCR gave as 'If 7°=343, then 3/343' and the page prints as 'If 7³=343, then ∛343' - unanswerable as OCR'd. Verified: 100 sequential questions, each with exactly options A-D, none empty, none still carrying OCR litter, and every key letter is one of its question's options.",
+ "_key_extraction": "NOT OCR'd. The key PDF has a real 29,739-char text layer, so its General Studies page was parsed the same way as July-2023's: every '<n> (<A-D>)' pair on the page, aborting if any question number yields two different letters. 100/100 entries. So the answers are machine-read from clean text even though the questions had to be eye-verified from a scan.",
+ "_key_quality": "All 100 answers were checked independently, including working every quantitative item by hand (Q13 cubes, Q14, Q17, Q48 page digits, Q49 pass marks, Q55 perimeters, Q56-62, Q79, Q81 direction trace, Q82 house puzzle, Q83, Q84 pair-swap code, Q85 seating, Q86 work rates, Q87 percentage error). Every one agrees with the key. Two are contested and say so on the card: Q15 (the analogy's keyed answer looks wrong) and Q35 (the question is internally inconsistent as printed - see the tags file).",
+ "key": {
+  "1": "A",
+  "2": "A",
+  "3": "D",
+  "4": "B",
+  "5": "A",
+  "6": "D",
+  "7": "A",
+  "8": "C",
+  "9": "D",
+  "10": "D",
+  "11": "A",
+  "12": "A",
+  "13": "B",
+  "14": "A",
+  "15": "B",
+  "16": "B",
+  "17": "B",
+  "18": "A",
+  "19": "B",
+  "20": "A",
+  "21": "C",
+  "22": "B",
+  "23": "A",
+  "24": "D",
+  "25": "B",
+  "26": "B",
+  "27": "A",
+  "28": "C",
+  "29": "B",
+  "30": "B",
+  "31": "D",
+  "32": "C",
+  "33": "C",
+  "34": "A",
+  "35": "D",
+  "36": "A",
+  "37": "C",
+  "38": "C",
+  "39": "C",
+  "40": "C",
+  "41": "A",
+  "42": "C",
+  "43": "A",
+  "44": "B",
+  "45": "C",
+  "46": "C",
+  "47": "B",
+  "48": "C",
+  "49": "D",
+  "50": "B",
+  "51": "C",
+  "52": "C",
+  "53": "A",
+  "54": "A",
+  "55": "C",
+  "56": "D",
+  "57": "B",
+  "58": "B",
+  "59": "D",
+  "60": "D",
+  "61": "B",
+  "62": "B",
+  "63": "A",
+  "64": "C",
+  "65": "D",
+  "66": "D",
+  "67": "A",
+  "68": "A",
+  "69": "B",
+  "70": "D",
+  "71": "C",
+  "72": "B",
+  "73": "C",
+  "74": "C",
+  "75": "C",
+  "76": "D",
+  "77": "B",
+  "78": "B",
+  "79": "C",
+  "80": "A",
+  "81": "A",
+  "82": "D",
+  "83": "B",
+  "84": "C",
+  "85": "B",
+  "86": "D",
+  "87": "D",
+  "88": "B",
+  "89": "A",
+  "90": "D",
+  "91": "C",
+  "92": "A",
+  "93": "B",
+  "94": "D",
+  "95": "C",
+  "96": "D",
+  "97": "C",
+  "98": "A",
+  "99": "B",
+  "100": "D"
+ },
+ "questions": [
+  {
+   "no": 1,
+   "q": "Originally, the Constitution of India was divided into",
+   "opts": {
+    "A": "22 parts",
+    "B": "23 parts",
+    "C": "24 parts",
+    "D": "25 parts"
+   }
+  },
+  {
+   "no": 2,
+   "q": "Who is regarded as the father of Indian Green Revolution?",
+   "opts": {
+    "A": "M.S. Swaminathan",
+    "B": "Vijay Tendulkar",
+    "C": "Manoranjan Rao",
+    "D": "G.S. Bhalla"
+   }
+  },
+  {
+   "no": 3,
+   "q": "The process by which the sun's energy is trapped as the source of energy used by all living organisms-",
+   "opts": {
+    "A": "Absorption",
+    "B": "Adaption",
+    "C": "Metabolism",
+    "D": "Photosynthesis"
+   }
+  },
+  {
+   "no": 4,
+   "q": "All ecosystem taken together make up a",
+   "opts": {
+    "A": "Niche",
+    "B": "Biosphere",
+    "C": "Habitat",
+    "D": "Population"
+   }
+  },
+  {
+   "no": 5,
+   "q": "The mechanism through which living organism adapt and change whereby the genes responsible for the survival of an organism are passed on to the successive generations is called",
+   "opts": {
+    "A": "Natural Selection",
+    "B": "Evolution",
+    "C": "Emigration",
+    "D": "Mutation"
+   }
+  },
+  {
+   "no": 6,
+   "q": "Non- stick cooking utensils are coated with",
+   "opts": {
+    "A": "Polystyrene",
+    "B": "polyvinyl chloride",
+    "C": "Black paint",
+    "D": "Teflon"
+   }
+  },
+  {
+   "no": 7,
+   "q": "Cause of night blindness is a deficiency of vitamin",
+   "opts": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "None of these"
+   }
+  },
+  {
+   "no": 8,
+   "q": "Which letter does not belong in the series \"Z Y X Q W V\"",
+   "opts": {
+    "A": "X",
+    "B": "V",
+    "C": "Q",
+    "D": "Z"
+   }
+  },
+  {
+   "no": 9,
+   "q": "Tractor : Trailer :: Horse : ?",
+   "opts": {
+    "A": "Engine",
+    "B": "Saddle",
+    "C": "Stable",
+    "D": "Cart"
+   }
+  },
+  {
+   "no": 10,
+   "q": "The human eye forms the image of an object at its",
+   "opts": {
+    "A": "Cornea",
+    "B": "Iris",
+    "C": "Pupil",
+    "D": "Retina a 2"
+   }
+  },
+  {
+   "no": 11,
+   "q": "Shaving cream is a colloidal solution of",
+   "opts": {
+    "A": "Gas in liquid",
+    "B": "liquid in liquid",
+    "C": "Solid in liquid",
+    "D": "gas in solid"
+   }
+  },
+  {
+   "no": 12,
+   "q": "Choose the word which is different from the rest",
+   "opts": {
+    "A": "Chicken",
+    "B": "snake",
+    "C": "Swan",
+    "D": "crocodile"
+   }
+  },
+  {
+   "no": 13,
+   "q": "Find the odd one out: 8,27,64,100,125,216,343",
+   "opts": {
+    "A": "27",
+    "B": "100",
+    "C": "125",
+    "D": "343"
+   }
+  },
+  {
+   "no": 14,
+   "q": "Which least number must be added to 1056 so that the sum is completely divisible by 23?",
+   "opts": {
+    "A": "2",
+    "B": "3)",
+    "C": "18",
+    "D": "21"
+   }
+  },
+  {
+   "no": 15,
+   "q": "Disloyal is to True as Disagreeable is to",
+   "opts": {
+    "A": "Cheer",
+    "B": "Steadfast",
+    "C": "Qualify",
+    "D": "Peasant"
+   }
+  },
+  {
+   "no": 16,
+   "q": "Which is the odd one out?",
+   "opts": {
+    "A": "Spirited",
+    "B": "Quenched",
+    "C": "Brisk",
+    "D": "spry"
+   }
+  },
+  {
+   "no": 17,
+   "q": "If 7³=343, then ∛343 is equal to",
+   "opts": {
+    "A": "3",
+    "B": "7",
+    "C": "13",
+    "D": "9"
+   }
+  },
+  {
+   "no": 18,
+   "q": "The GDP of a country takes into account",
+   "opts": {
+    "A": "The total value of final goods and services produced in the country",
+    "B": "The total value of services in the country",
+    "C": "The total industrial production in the country",
+    "D": "The total agricultural income generated by a country"
+   }
+  },
+  {
+   "no": 19,
+   "q": "Which one of the following states has a seat reserved in the Legislative Assembly for the Buddhist monastic community?",
+   "opts": {
+    "A": "Goa",
+    "B": "Sikkim",
+    "C": "Mizoram",
+    "D": "Jammu and Kashmir"
+   }
+  },
+  {
+   "no": 20,
+   "q": "The constituent Assembly which enacted the Constitution for independent India was set up in",
+   "opts": {
+    "A": "1946",
+    "B": "1947",
+    "C": "1949",
+    "D": "1950"
+   }
+  },
+  {
+   "no": 21,
+   "q": "The process of selling government equities in public sector enterprises is called",
+   "opts": {
+    "A": "Liberalization",
+    "B": "Privatization",
+    "C": "Disinvestment",
+    "D": "Downsizing"
+   }
+  },
+  {
+   "no": 22,
+   "q": "The basis of determining dearness allowance of government employees in India is So",
+   "opts": {
+    "A": "National income",
+    "B": "Consumer Price Index",
+    "C": "Standard of living",
+    "D": "Per capita income"
+   }
+  },
+  {
+   "no": 23,
+   "q": "In India, the Economic Survey is published by",
+   "opts": {
+    "A": "The Ministry of Finance",
+    "B": "The Planning Commission",
+    "C": "The Government",
+    "D": "Literacy Level"
+   }
+  },
+  {
+   "no": 24,
+   "q": "Herbivores, carnivores and omnivores are all",
+   "opts": {
+    "A": "Environmental sustainability",
+    "B": "Ecology",
+    "C": "Environmental science",
+    "D": "Consumers"
+   }
+  },
+  {
+   "no": 25,
+   "q": "Earth Day is observed on",
+   "opts": {
+    "A": "22ⁿᵈ March",
+    "B": "22ⁿᵈ April",
+    "C": "23ʳᵈ March",
+    "D": "23ʳᵈ April"
+   }
+  },
+  {
+   "no": 26,
+   "q": "Organic farming does not include",
+   "opts": {
+    "A": "Green manures",
+    "B": "Chemical fertilizers",
+    "C": "Crop rotation",
+    "D": "Compost and farmyard manures"
+   }
+  },
+  {
+   "no": 27,
+   "q": "The weight of body at the centre of the earth is",
+   "opts": {
+    "A": "Zero",
+    "B": "Infinite",
+    "C": "Same as at other places",
+    "D": "None of these"
+   }
+  },
+  {
+   "no": 28,
+   "q": "What makes lemon sour",
+   "opts": {
+    "A": "Tartaric acid",
+    "B": "Oxalic acid",
+    "C": "Citric acid",
+    "D": "Hydrochloric acid"
+   }
+  },
+  {
+   "no": 29,
+   "q": "Which one is water soluble vitamin?",
+   "opts": {
+    "A": "Vitamin A",
+    "B": "Vitamin C",
+    "C": "Vitamin K",
+    "D": "Vitamin D"
+   }
+  },
+  {
+   "no": 30,
+   "q": "Which of the following gas is predominant in the atmosphere?",
+   "opts": {
+    "A": "Argon",
+    "B": "Nitrogen",
+    "C": "Carbon dioxide",
+    "D": "Oxygen"
+   }
+  },
+  {
+   "no": 31,
+   "q": "Weightlessness experienced while orbiting the earth in a spaceship is a result of",
+   "opts": {
+    "A": "Acceleration",
+    "B": "Centre of gravity",
+    "C": "Inertia",
+    "D": "Zero gravity"
+   }
+  },
+  {
+   "no": 32,
+   "q": "Which one of the following solutions will not turn blue litmus to red litmus?",
+   "opts": {
+    "A": "Lemon juice",
+    "B": "Acetic acid",
+    "C": "Sodium Hydroxide",
+    "D": "Hydrochloric acid"
+   }
+  },
+  {
+   "no": 33,
+   "q": "Twinkling of stars is due to",
+   "opts": {
+    "A": "they emit energy",
+    "B": "of diffraction",
+    "C": "atmospheric refraction",
+    "D": "of reflection"
+   }
+  },
+  {
+   "no": 34,
+   "q": "Who introduced the land settlement in the Lushai hills?",
+   "opts": {
+    "A": "J. Shakespear",
+    "B": "G.H. Loch",
+    "C": "Mac Donald",
+    "D": "A.H. Scott"
+   }
+  },
+  {
+   "no": 35,
+   "q": "Find out the alternative which will replace the question mark ZRYQ: KCJB: PWOV: ?",
+   "opts": {
+    "A": "GBHA",
+    "B": "ISJT",
+    "C": "EOFP",
+    "D": "ELDK"
+   }
+  },
+  {
+   "no": 36,
+   "q": "IfA+B means A is the son of B, A-B means A is the husband of B, A×B means A is the sister of B,. then which of the following shows the relation that Q is the maternal uncle of P?",
+   "opts": {
+    "A": "P+B-R×Q",
+    "B": "P-B+R×Q",
+    "C": "P+B×R-Q",
+    "D": "None of these"
+   }
+  },
+  {
+   "no": 37,
+   "q": "The organism that does not require sunlight to live",
+   "opts": {
+    "A": "Algae",
+    "B": "Trees",
+    "C": "Chemosynthetic bacteria",
+    "D": "Photosynthetic bacteria"
+   }
+  },
+  {
+   "no": 38,
+   "q": "Magnifying glass is basically a",
+   "opts": {
+    "A": "Plano-Convex lens",
+    "B": "Concave lens",
+    "C": "Convex lens",
+    "D": "Cylindrical lens"
+   }
+  },
+  {
+   "no": 39,
+   "q": "A group of students order a pizza with mushrooms, ham and pineapple. The mushrooms belong to the kingdom",
+   "opts": {
+    "A": "Protista",
+    "B": "Plantae",
+    "C": "Fungi",
+    "D": "Animalia"
+   }
+  },
+  {
+   "no": 40,
+   "q": "The human body does not produce",
+   "opts": {
+    "A": "Enzymes",
+    "B": "DNA",
+    "C": "Vitamins",
+    "D": "Hormones"
+   }
+  },
+  {
+   "no": 41,
+   "q": "What do you mean by 'Lebensraum' in political geography?",
+   "opts": {
+    "A": "Living Space",
+    "B": "Dead space",
+    "C": "Administrative unit",
+    "D": "Religious organisation"
+   }
+  },
+  {
+   "no": 42,
+   "q": "The psychological reaction you experience when you are in a culture very different from your own is called-",
+   "opts": {
+    "A": "intercultural communication",
+    "B": "culture adjustment",
+    "C": "culture shock",
+    "D": "culture crisis"
+   }
+  },
+  {
+   "no": 43,
+   "q": "A relationship may be strengthened by",
+   "opts": {
+    "A": "Similar beliefs",
+    "B": "withdrawal",
+    "C": "Negative messages",
+    "D": "relatives"
+   }
+  },
+  {
+   "no": 44,
+   "q": "The ability to communicate effectively",
+   "opts": {
+    "A": "is a natural talent that cannot be learned",
+    "B": "can be learned",
+    "C": "depends on the education level of those around you",
+    "D": "depends on not using technology to send messages"
+   }
+  },
+  {
+   "no": 45,
+   "q": "The verbal and non-verbal response to a message is called",
+   "opts": {
+    "A": "a non-verbal code",
+    "B": "a verbal code",
+    "C": "feedback",
+    "D": "external interference"
+   }
+  },
+  {
+   "no": 46,
+   "q": "The interpretation of a message into a form that has eventual meaning for a receiver is called",
+   "opts": {
+    "A": "coding",
+    "B": "recoding",
+    "C": "decoding",
+    "D": "encoding"
+   }
+  },
+  {
+   "no": 47,
+   "q": "Critical listening involves",
+   "opts": {
+    "A": "Bias",
+    "B": "Listening to evaluate the information given",
+    "C": "Jumping to conclusions",
+    "D": "Offering at least a few negative comments"
+   }
+  },
+  {
+   "no": 48,
+   "q": "The total number of digits used in numbering the pages of a book having 435 pages is",
+   "opts": {
+    "A": "1199",
+    "B": "1207",
+    "C": "1197",
+    "D": "1113"
+   }
+  },
+  {
+   "no": 49,
+   "q": "A student has to obtain 35% of the total marks to pass. He got 80 marks and failed by 60 marks. The maximum marks are",
+   "opts": {
+    "A": "100",
+    "B": "200",
+    "C": "300",
+    "D": "400"
+   }
+  },
+  {
+   "no": 50,
+   "q": "Which of the following statements about the group decision making is NOT true?",
+   "opts": {
+    "A": "People in group problem solving share the purpose of agreeing on a solution",
+    "B": "People in group problem solving share the same methods",
+    "C": "People in group problem solving may have different agendas",
+    "D": "People in group problem solving share the purpose of making a decision"
+   }
+  },
+  {
+   "no": 51,
+   "q": "You are travelling in your official car and during the journey someone is hit by your car and dies on the spot, what will you do?",
+   "opts": {
+    "A": "Ask the driver to drive fast",
+    "B": "Ask the driver to stop the car and move out to take the person to the hospital",
+    "C": "Ask the driver to reach the nearby police station and surrender there",
+    "D": "Pull all the blame on your driver to save yourself"
+   }
+  },
+  {
+   "no": 52,
+   "q": "When the outcome of a management decision is uncertain, the decision involves",
+   "opts": {
+    "A": "bounded rationally",
+    "B": "uncertain outcomes",
+    "C": "risk",
+    "D": "fewer feasible solutions"
+   }
+  },
+  {
+   "no": 53,
+   "q": "Which of the following is the aspect of decision making that is based on such facts as costs, revenues, and product design specifications?",
+   "opts": {
+    "A": "Decision quality",
+    "B": "Escalation of commitment",
+    "C": "Optimising",
+    "D": "Satisficing"
+   }
+  },
+  {
+   "no": 54,
+   "q": "A method that can be used to overcome the tendency toward conformity in group decision making is which of the following",
+   "opts": {
+    "A": "Brainstorming",
+    "B": "Nominal Group Technique",
+    "C": "Group think",
+    "D": "Electronic meetings"
+   }
+  },
+  {
+   "no": 55,
+   "q": "Which is the longest perimeter?",
+   "opts": {
+    "A": "A square of side 10cms",
+    "B": "Arectangte of sides 12cms and 9 cms",
+    "C": "A circle of radius 7cms",
+    "D": "A rhombus of side 9cms"
+   }
+  },
+  {
+   "no": 56,
+   "q": "The average height of students in a class of 10 is 105cms. If 20 more students with an average height of 120cm join the class, what will the average height be?",
+   "opts": {
+    "A": "105cm",
+    "B": "110 cm",
+    "C": "112 cm",
+    "D": "115 cm"
+   }
+  },
+  {
+   "no": 57,
+   "q": "A two-digit number is four times the sum of its digit and twice the product of the digits, then the number is",
+   "opts": {
+    "A": "45",
+    "B": "36",
+    "C": "25",
+    "D": "18"
+   }
+  },
+  {
+   "no": 58,
+   "q": "(-2,3) lies in the",
+   "opts": {
+    "A": "I Quadrant",
+    "B": "II Quadrant",
+    "C": "III Quadrant",
+    "D": "IV Quadrant"
+   }
+  },
+  {
+   "no": 59,
+   "q": "If 16% of a number is 2.4, the number is",
+   "opts": {
+    "A": "10",
+    "B": "23",
+    "C": "18",
+    "D": "15"
+   }
+  },
+  {
+   "no": 60,
+   "q": "The distance between A and B is 560 km. A man runs from A to B at 7 AM by a car. At what speed should he run to reach B at 3 pm?",
+   "opts": {
+    "A": "80km/hr",
+    "B": "50km/hr",
+    "C": "60 km/hr",
+    "D": "70 km/hr"
+   }
+  },
+  {
+   "no": 61,
+   "q": "How much copper should be mixed with 63 kg of zinc in order to make an alloy containing 45% zinc and 55% copper?",
+   "opts": {
+    "A": "67 kgs",
+    "B": "77 kgs",
+    "C": "86kgs",
+    "D": "84kgs"
+   }
+  },
+  {
+   "no": 62,
+   "q": "The mean salary of 10 members of group is Rs. 14450, one more member whose monthly salary is Rs. 15000 has joined the group. Then the mean monthly salary of 11 members of the group is",
+   "opts": {
+    "A": "Rs. 14400",
+    "B": "Rs. 14500",
+    "C": "Rs. 15500",
+    "D": "Rs. 16600"
+   }
+  },
+  {
+   "no": 63,
+   "q": "The supremacy of the Indian Constitution is upheld by",
+   "opts": {
+    "A": "The Supreme Court",
+    "B": "The High Courts",
+    "C": "The District Courts",
+    "D": "The Cabinet"
+   }
+  },
+  {
+   "no": 64,
+   "q": "The Union Lists contains of 7",
+   "opts": {
+    "A": "96 items",
+    "B": "47 items",
+    "C": "97 items",
+    "D": "59 items"
+   }
+  },
+  {
+   "no": 65,
+   "q": "Article 371 G deals about special provision for the state of",
+   "opts": {
+    "A": "Jammu and Kashmir",
+    "B": "Punjab",
+    "C": "Nagaland",
+    "D": "Mizoram"
+   }
+  },
+  {
+   "no": 66,
+   "q": "Wind is controlled by",
+   "opts": {
+    "A": "The pressure gradient",
+    "B": "The Coriolis force",
+    "C": "Friction",
+    "D": "All of these"
+   }
+  },
+  {
+   "no": 67,
+   "q": "Demography is the scientific study of",
+   "opts": {
+    "A": "human population",
+    "B": "diseases",
+    "C": "modernized countries",
+    "D": "none of these"
+   }
+  },
+  {
+   "no": 68,
+   "q": "Petroleum (crude oil) is a complex mixture of thousands of substances, the majority of which are",
+   "opts": {
+    "A": "hydrocarbons",
+    "B": "natural gases",
+    "C": "cellulose bases substances",
+    "D": "salts"
+   }
+  },
+  {
+   "no": 69,
+   "q": "Hay fever is a sign of",
+   "opts": {
+    "A": "malnutrition",
+    "B": "allergy",
+    "C": "old age",
+    "D": "over work"
+   }
+  },
+  {
+   "no": 70,
+   "q": "Radio-isotopes are not used in",
+   "opts": {
+    "A": "radiocarbon dating",
+    "B": "making atom bomb",
+    "C": "cancer therapy",
+    "D": "purification of drinking water"
+   }
+  },
+  {
+   "no": 71,
+   "q": "Which of Newton's Law of Motion says that to every action, there is an equal and opposite reaction?",
+   "opts": {
+    "A": "1ˢᵗ Law",
+    "B": "2ⁿᵈ Law",
+    "C": "3ʳᵈ Law",
+    "D": "4ᵗʰ Law"
+   }
+  },
+  {
+   "no": 72,
+   "q": "Which of the following is a silent killer gas when combined with hemoglobin in the blood?",
+   "opts": {
+    "A": "Nitric oxide",
+    "B": "Carbon monoxide",
+    "C": "Carbon dioxide",
+    "D": "Nitro oxide"
+   }
+  },
+  {
+   "no": 73,
+   "q": "The sharpness of a television image is termed as its",
+   "opts": {
+    "A": "clarity",
+    "B": "colour",
+    "C": "resolution",
+    "D": "graphics"
+   }
+  },
+  {
+   "no": 74,
+   "q": "Which one of the following acids is used in lead storage battery?",
+   "opts": {
+    "A": "Hydrochloric acid",
+    "B": "Hydrofluoric acid",
+    "C": "Sulphuric acid",
+    "D": "Nitric acid"
+   }
+  },
+  {
+   "no": 75,
+   "q": "Insects that transmit diseases to human are referred to as",
+   "opts": {
+    "A": "Caries",
+    "B": "Reservoirs",
+    "C": "Vectors",
+    "D": "Incubators"
+   }
+  },
+  {
+   "no": 76,
+   "q": "Fish is regarded as a healthy meat mainly because it is a rich source of",
+   "opts": {
+    "A": "cholesterol",
+    "B": "saturated fats",
+    "C": "low-density lipoproteins",
+    "D": "omega-3 fatty acid"
+   }
+  },
+  {
+   "no": 77,
+   "q": "In India, LPG is chemically a mixture of",
+   "opts": {
+    "A": "methane and propane",
+    "B": "butane and propane",
+    "C": "methane and butane",
+    "D": "butane and ethane"
+   }
+  },
+  {
+   "no": 78,
+   "q": "The most important ore of aluminium is",
+   "opts": {
+    "A": "Alumina",
+    "B": "Bauxite",
+    "C": "Calcite",
+    "D": "Galena"
+   }
+  },
+  {
+   "no": 79,
+   "q": "What is the ratio of the areas of two circles whose radii are in the ratio 1 : 2?",
+   "opts": {
+    "A": "1:2",
+    "B": "1:3",
+    "C": "1:4",
+    "D": "2:7"
+   }
+  },
+  {
+   "no": 80,
+   "q": "An imaginary line on ground, all points of which are at the same elevation above a specified datum surface",
+   "opts": {
+    "A": "Contour",
+    "B": "Hachures",
+    "C": "Spotlight",
+    "D": "Bench mark"
+   }
+  },
+  {
+   "no": 81,
+   "q": "Liana travels 10 km to the south, then takes a left and travels 8 km. He then takes a right and travels 3 km; after which he travels in the southeast direction for 4 km and then towards the northeast for 4 km. Finally, he travels 13 km towards the north. In which direction is he with respect to from where he started?",
+   "opts": {
+    "A": "East",
+    "B": "West",
+    "C": "South",
+    "D": "North"
+   }
+  },
+  {
+   "no": 82,
+   "q": "In a locality, there are five houses in a row. These houses are red, brown, green, purple, and blue in colour. The greenhouse is at the centre. The red and green houses are both adjacent to the brown house. The purple house is second to the right of the brown house. Which house is to the immediate right of the purple house?",
+   "opts": {
+    "A": "Red",
+    "B": "Green",
+    "C": "Brown",
+    "D": "Blue"
+   }
+  },
+  {
+   "no": 83,
+   "q": "A man can cover a distance in 1hr 24min by covering 2/3 of the distance at 4 km/h and the rest at 5km/h. What is the total distance to be covered?",
+   "opts": {
+    "A": "4km",
+    "B": "6km",
+    "C": "10km",
+    "D": "8km"
+   }
+  },
+  {
+   "no": 84,
+   "q": "If TRANSFER is coded as RTNAFSRE, then ELEPHANT would be coded as",
+   "opts": {
+    "A": "LEPEHATN",
+    "B": "LEEPAHTN",
+    "C": "LEPEAHTN",
+    "D": "LEPEAHNT"
+   }
+  },
+  {
+   "no": 85,
+   "q": "A, B, C, D and E are sitting on a bench. A is sitting next to B, C is sitting next to D, D is not sitting with E who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position A is sitting?",
+   "opts": {
+    "A": "Between B and D",
+    "B": "Between B and C",
+    "C": "Between E and D",
+    "D": "Between C and E"
+   }
+  },
+  {
+   "no": 86,
+   "q": "Rinawma and Zosanga can together finish a work 30 days. They worked together for 20 days and then Zosanga left. After another 20 days, Rinawma finished the remaining work. In how many days Rinawma alone can finish the work?",
+   "opts": {
+    "A": "40",
+    "B": "50",
+    "C": "54",
+    "D": "60"
+   }
+  },
+  {
+   "no": 87,
+   "q": "A student multiplied a number by 3/5 instead of 5/3. What is the percentage error in the calculation?",
+   "opts": {
+    "A": "34%",
+    "B": "44%",
+    "C": "54%",
+    "D": "64%"
+   }
+  },
+  {
+   "no": 88,
+   "q": "The India-Myanmar Friendship Road connects which among the following states of India with Myanmar?",
+   "opts": {
+    "A": "Assam",
+    "B": "Manipur",
+    "C": "Meghalaya",
+    "D": "Nagaland"
+   }
+  },
+  {
+   "no": 89,
+   "q": "Which among the following is major source of Salt in India?",
+   "opts": {
+    "A": "Salt Pan",
+    "B": "Salt Lake",
+    "C": "Salt Rocks",
+    "D": "Salt Springs"
+   }
+  },
+  {
+   "no": 90,
+   "q": "The tropic of cancer does not pass through which of these Indian states?",
+   "opts": {
+    "A": "Mizoram",
+    "B": "West Bengal",
+    "C": "Rajasthan",
+    "D": "Odisha"
+   }
+  },
+  {
+   "no": 91,
+   "q": "As of 2023, which country is the world's biggest polluter?",
+   "opts": {
+    "A": "USA",
+    "B": "India",
+    "C": "China",
+    "D": "Russia"
+   }
+  },
+  {
+   "no": 92,
+   "q": "Which is the Cambridge Dictionary's Word of the Year for 2023?",
+   "opts": {
+    "A": "Hallucinate",
+    "B": "Manipulate",
+    "C": "Backfire",
+    "D": "Depression"
+   }
+  },
+  {
+   "no": 93,
+   "q": "Which institution built the Bharat Bill Payments (BBPS)?",
+   "opts": {
+    "A": "RBI",
+    "B": "NPCI",
+    "C": "NASSCOM",
+    "D": "SBI"
+   }
+  },
+  {
+   "no": 94,
+   "q": "Vijay Diwas, celebrated on December 16th every year, commemorates the victory of the Indian armed forces over Pakistan during the 1971 war. Who signed the instrument of surrender from Pakistan side on this day?",
+   "opts": {
+    "A": "General Tikka Khan",
+    "B": "General Ayub Khan",
+    "C": "General Yahya Khan",
+    "D": "General Amir Abdullah Khan Niazi"
+   }
+  },
+  {
+   "no": 95,
+   "q": "Houthi rebels, that were making news recently, originate from which country?",
+   "opts": {
+    "A": "Oman",
+    "B": "Egypt",
+    "C": "Yemen",
+    "D": "Palestine"
+   }
+  },
+  {
+   "no": 96,
+   "q": "How many seats were won by Zoram People's Movement in the latest Mizoram Legislative Assembly election?",
+   "opts": {
+    "A": "24",
+    "B": "25",
+    "C": "26",
+    "D": "27"
+   }
+  },
+  {
+   "no": 97,
+   "q": "A new gecko Cyrtodactylus vairengtensis was recently discovered in India. In which state was it discovered?",
+   "opts": {
+    "A": "Manipur",
+    "B": "Nagaland",
+    "C": "Mizoram",
+    "D": "Assam"
+   }
+  },
+  {
+   "no": 98,
+   "q": "What is the state tree of Mizoram?",
+   "opts": {
+    "A": "Herhse",
+    "B": "Vaube",
+    "C": "Tlaizawng",
+    "D": "Fartuah"
+   }
+  },
+  {
+   "no": 99,
+   "q": "What is the density of population of Mizoram according to 2011 census?",
+   "opts": {
+    "A": "28",
+    "B": "52",
+    "C": "38",
+    "D": "67"
+   }
+  },
+  {
+   "no": 100,
+   "q": "India's first woman Indian Armed Forces officer to be appointed as Aide-de-Camp (ADC) to the Governor of the country was appointed by the Governor of Mizoram. Who is she?",
+   "opts": {
+    "A": "Neha Kapoor",
+    "B": "Mrinalini Dasgupta",
+    "C": "S. Nandini",
+    "D": "Manisha Padhi"
+   }
+  }
+ ]
+}

@@ -9,6 +9,150 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (end of day) — January-2024 PHE lands from a scan, and the paper proves the GS syllabus was missing a unit
+
+**What shipped.** **PHE2024_GS** — Jr. Grade of MES (AE/SDO) under PHE, 23-25
+January 2024, General Studies. **96 of 100 questions imported**, every answer
+from MPSC's official Final Answer Key notified 21 March 2024. Plus a **GS
+syllabus change**: a new unit 11, two new unit-10 leaves, and one question
+recovered from a previous drop. Bank 1581 → **1678**; General Studies 311 →
+**408**, of which **269** are official-keyed.
+
+**A typo'd filename hid this paper from two previous surveys.** It is filed as
+"General **Stadies**". Every search for "General Studies" — including the sweep
+in the entry below — missed it. Search the question-bank repo by exam name and
+fuzzy spelling, never by subject word alone.
+
+**The finding that matters: the GS unit list was incomplete, and this paper
+proves it.** `syllabus.js` has always admitted that the GS breakdown is
+*derived* — "the regulation gives no topic list, so the unit breakdown below is
+derived from what MPSC has actually asked". This paper devotes **eleven
+questions** to the communication process, listening, group decision making,
+managerial risk and workplace ethics. None of it fits units 1-10. And it
+retroactively explains the Oct-2025 Gantt-chart drop, which was written off as
+"project management, maps to no leaf" — so **two of the three engineering GS
+papers on file contain this material**. The questions were never off-topic; the
+scaffold was short a unit. Hence **unit 11, Communication, Management and
+Behavioural Awareness**, 4 marks.
+
+**Where the 4 marks came from, and the number that should worry the next
+session.** Every paper's units sum exactly to its paper total, so 4 marks had to
+come from somewhere. They came from unit 7, which the evidence shows is the most
+over-weighted unit in the list. Measuring all **295 real questions** across the
+three sittings against the declared weights, per 100 questions:
+
+| unit | weighted | actually asked | gap |
+|---|---|---|---|
+| 6 General Science | 12 | 23.1 | **+11.1** |
+| 10 Reasoning & Aptitude | 6 | 12.2 | **+6.2** |
+| 3 Geography | 10 | 14.6 | +4.6 |
+| 9 Current Affairs | 12 | 14.6 | +2.6 |
+| 11 Communication/Mgmt | 0 → 4 | 3.7 | — |
+| 2 Economy | 12 | 7.5 | −4.5 |
+| 7 IT & Digital Governance | 10 → **6** | 1.4 | **−8.6** |
+| 5 Mizoram | 8 | 2.7 | −5.3 |
+| 4 History | 10 | 2.4 | **−7.6** |
+
+Only the unit-7 line was changed, because that was the minimum needed to fund
+unit 11 honestly. **The rest are still wrong**, and they are not cosmetic:
+`app.js:378` samples practice questions in proportion to unit marks, so a
+studier currently gets IT questions at seven times their real rate and reasoning
+at half. A full rebalance is the right next step but it changes what Practice
+serves on every session, so it should be a deliberate decision, not a side
+effect of an import. Recorded in `scope_note_still_open`.
+
+**Two unit-10 leaves added at no marks cost, and a drop recovered.** Unit 10 had
+no home for a divisibility or a mensuration question, which is why July-2023 Q82
+(`n² − 111 = 10914`) was dropped last session. This paper asks four
+number-system questions and three mensuration ones, so the gap is systematic,
+not a one-off. Added **"Number system, divisibility, squares and cubes"** and
+**"Mensuration and coordinate geometry basics"**. **July-2023 Q82 is now
+imported** — a one-field edit, exactly what the drop record existed for. That is
+the drop policy paying off: nothing was thrown away, the reason was on file, and
+recovery cost one line.
+
+**Working from a scan, and how it was kept honest.** Unlike the last two
+sittings the paper has **no text layer at all** — 8 characters. The key does
+(29,739), so answers are machine-read and only the questions went through OCR.
+The method and what it caught:
+
+- OCR'd twice at 400 dpi. **`--psm 4` detached the question numbers into a
+  gutter column on page 2**, which would have mis-aligned every number against
+  its stem — the silent-misalignment class. `--psm 6` keeps them attached, so
+  psm6 is the scaffold and psm4 only a second opinion.
+- **All 8 pages were then read by eye** and the scaffold corrected — 93
+  corrections, each one what the page actually says. The one that mattered:
+  OCR gave Q17 as `If 7°=343, then 3/343`, which is unanswerable; the page reads
+  **`If 7³=343, then ∛343`**.
+- **The sequential-number rule earned its keep twice.** OCR read `50.` as `30.`
+  and `54.` as `34.` — both runs made the same 5→3 error — and read `51.` as the
+  letters `SI`. The parser stopped dead each time instead of accepting a
+  duplicate "30" and quietly shifting every later question by one. Each fix is
+  anchored on a unique stem fragment and listed, not silently patched.
+- Option letters are mangled too (`(a}`, `(2)`, `{c)`, `(¢)`, `(6)`, `(@)`), so
+  rather than enumerate confusions the parser takes **every bracketed 1-2
+  character token and requires exactly four**. An option reading "Both (b) and
+  (c)" would yield six and fail loudly — the Oct-2025 bug, caught by shape.
+
+**The cleanup rule that nearly shipped a wrong question.** An early version of
+the text cleaner stripped trailing single letters as scanner speckle. That
+turned Q29's options — "Vitamin **A** / Vitamin **C** / Vitamin **K**" — into
+three identical "Vitamin". Clean-looking, unanswerable, and it would have
+survived every structural assertion, since all four options were non-empty and
+distinct from the stem. Caught by reading the output back against the page. The
+rule is now a closed list of tokens that *cannot* be content. **A cleanup rule
+must never be able to remove something that might be real.**
+
+**The best key of the three sittings, and the one genuinely broken question.**
+All 100 answers were checked independently and every quantitative item worked by
+hand — page-digit counting, pass marks, perimeters, the direction trace, the
+house puzzle, the pair-swap code, work rates, percentage error. **Not one is
+wrong.** Two carry a caveat on the card, and one question is dropped:
+
+- **Q35 is broken as printed.** Its worked example `ZRYQ → KCJB` is a uniform
+  −15 shift, but the keyed answer `ELDK` requires −11 from `PWOV`. No single
+  rule produces both, and the example's own −15 gives `AHZG`, which is not
+  offered. **Confirmed by zooming the scan** rather than blaming OCR — so it is
+  the Commission's misprint. Dropped: importing it would teach a rule that does
+  not exist.
+- **Q15's key looks simply wrong.** "Disloyal is to True as Disagreeable is to
+  ___" is an antonym relation, and the keyed *Steadfast* is an antonym of
+  **disloyal**, not of disagreeable — it answers the wrong half. *Cheer* fits.
+  The answer follows the key as the bank's rule requires, with the dispute on
+  the card.
+- **Q51 is an ethics question with two defensible answers.** The key prefers
+  surrendering at a police station; many ethics papers prefer taking the victim
+  to hospital first. The card says so rather than pretending it is settled.
+
+**Verified.** Import idempotent; **97 added with zero pre-existing records
+modified**, diffed record-by-record against `HEAD` rather than trusting the
+count (96 new + the recovered July-2023 Q82). All 96 kept questions have four
+non-empty options, a key entry whose letter is one of them, an explanation, and
+a real syllabus leaf. GS unit marks still sum to exactly 100, and so does every
+other paper. Browser: the card reads `official key · 96 MCQ · 96 marks`, all 96
+badged official, none of the 4 drops present, **Q17 renders `7³` and `∛343`
+correctly**, unit-11 questions carry the new unit and leaf pills, the syllabus
+view lists unit 11 at 4 marks, console clean. Other three appliers report 0
+changed; TECH1 guide rebuilds byte-identical.
+
+**What's still open.**
+
+- **July-2024 MES (Combined) GS is NOT done.** It was in scope for this session
+  and did not get built. Both its paper and its key are scans, so unlike this
+  sitting OCR would sit in front of the *answers* too — it needs the key
+  transcribed twice and required to agree, the way the Oct-2025 key was done.
+  It is the last engineering GS sitting with a published key.
+- **The unit weights above.** The single most valuable follow-up, and the
+  cheapest — it is a data edit, not an import.
+- **Q15 and Q51** are worth a human opinion; both are kept behind an official
+  badge with the dispute stated, which is the best the schema can currently do.
+  There is no `contested` flag on GS records the way the TECH1 guide has one.
+- The eight keyless engineering GS papers (2014-2022, ~800 questions with clean
+  text layers) are unchanged from the entry below: importable quickly, but only
+  with derived answers.
+
+---
+
 ## 2026-09-05 (later still) — July-2023 General Studies lands, the current-affairs-heavy one: 79 kept, 21 dropped, and a key that survived every check
 
 **What shipped.** The second sitting in `import_gs_past_papers.py` —

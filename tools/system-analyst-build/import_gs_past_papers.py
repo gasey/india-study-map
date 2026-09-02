@@ -72,6 +72,19 @@ SITTINGS = [
                  "Q{no}; answer from MPSC's official Final Answer Key dated 8 September 2023 "
                  "(no provisional key was published for this sitting)"),
     },
+    {
+        "name": "PHE2024_GS",
+        "source": "gs-phe2024-source.json",
+        "tags": "gs-phe2024-tags.json",
+        "sitting": "Jr. Grade of MES (AE/SDO) under PHE Deptt., January 2024 · General Studies",
+        "id_prefix": "PHE2024_GS_",
+        "prov": ("Jr. Grade of MES (AE/SDO) under Public Health Engineering Department, "
+                 "23-25 January 2024, General Studies, Q{no}; answer from MPSC's official "
+                 "Final Answer Key notified 21 March 2024 under No. MES/A/2023-MPSC. The "
+                 "question paper is a SCAN: its text was OCR'd twice and then read off the "
+                 "rendered page by eye, while the answer key has a real text layer and was "
+                 "parsed"),
+    },
 ]
 
 

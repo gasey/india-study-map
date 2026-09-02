@@ -42,6 +42,18 @@ plausibly did too" — was **half right**. One more sitting was unread. The othe
 367 records genuinely have no published key, and MPSC appears simply not to have
 published keys for exams before roughly 2023.
 
+**The sweep is closed, and the closing number is the useful one: exactly 5 of
+the 120 keys touch a computing subject or post at all.** Two are the ILM 2023
+pair (applied), one is the MES P&E Electrical Wing key (applied here), and two
+are the Informatics Officer November 2024 pair (provisional + final, 70 records
+already keyed from it). Every other key is for Civil, Electrical, Mechanical,
+Electronics, Physics, Agriculture, Health Services, Law, Forestry, Education,
+Cooperation, Excise, or the MCS general papers — subjects this bank does not
+contain. Only one key OCR'd thinly enough to be worth a second look (the Excise
+& Narcotics 2025 corrigendum, 595 chars) and it is not a computing exam. There
+is no more yield here; the next person should not re-run this sweep, they should
+import from the three keys named above.
+
 **The trap I nearly fell into, and the one I did.** `TECH1_OFFICIAL` holds 140
 records: 70 badged official and 70 from an "earlier sitting" claiming no key.
 Two Informatics Officer keys sit in the folder, so this looked like an obvious
@@ -102,15 +114,28 @@ being Q46). Browser: 62/62 badged official, 0 still claiming no key.
   **nothing** from Papers II or III. Those are official-key answers for the exact
   post being studied, already in hand. That is worth far more than
   re-provenancing ever was.
-- **MES (Combined) October 2025** has a published final key (13 pages, scanned)
-  and is not in the bank at all — the most recent CS sitting available.
+- ~~**MES (Combined) October 2025** has a published final key and is not in the
+  bank at all — the most recent CS sitting available.~~ **Wrong, corrected same
+  day.** I claimed this after reading only page 1 of that key (General Studies)
+  and assuming a 13-page key would carry a CS paper. The completed OCR inventory
+  shows all four MES (Combined) keys — the 2024 and 2025 sittings, provisional
+  and final — cover Civil, Electrical, Electronics, Mechanical and General
+  Studies and **no Computer Science paper at all**. Nothing to import. Exactly
+  the mistake this project keeps warning about: I asserted from a partial read
+  instead of waiting for the check that was already running.
 - MES2023 Paper I Section A **Q27 was never imported** (49 of 50), and all of
   Paper III is missing though its key is now staged, including Q21 and Q30 which
   MPSC compensated.
-- The 76 scanned keys were read by OCR for identity only. If a future pass wants
-  to be certain none was missed, the ~15 whose OCR was poor deserve an eye.
-- `ocr_inv.py` lives in scratch. If the folder gains keys it should become a
-  committed tool rather than being rewritten from memory.
+- The 76 scanned keys were read by OCR for identity only. Exactly **one** key
+  came out thin enough to be worth an eye (the Excise & Narcotics 2025
+  corrigendum, 595 chars) and it is not a computing exam — so OCR coverage was
+  not the weak link I expected it to be.
+- The inventory is now a committed tool,
+  `tools/system-analyst-build/inventory_answer_keys.py`, with its result staged
+  as `staged/answer-keys-inventory.json` so the finding survives without the
+  PDFs (they live in the other repo). Re-run it when the folder gains files;
+  smoke-tested on a two-file directory so it is known to run, not just to have
+  run once in scratch.
 
 ---
 

@@ -25030,8 +25030,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "An injection (injective function) from a 4-element set to a 5-element set is a permutation of 4 chosen from 5 targets: P(5,4) = 5*4*3*2 = 120.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q1; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q1; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25052,8 +25052,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "'Injective' and 'one-to-one' are two names for exactly the same property: distinct inputs always map to distinct outputs.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q2; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q2; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25074,8 +25074,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "The mangled symbol before 'N' is the set-membership sign (in): x belongs to N and is prime. There are infinitely many prime numbers, so the set of such x is an infinite set.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q3; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q3; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25096,8 +25096,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "The group axioms require closure, associativity, an identity element and inverses for every element, but not commutativity -- a group without commutativity is simply called non-abelian.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q4; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q4; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25118,8 +25118,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "R = {(x,y),(x,z),(z,x),(z,y)}. It is not symmetric because (x,y) is in R but (y,x) is not. It is not antisymmetric either because both (x,z) and (z,x) are in R while x != z. Since it fails both properties, R is neither symmetric nor antisymmetric.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q5; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q5; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25140,8 +25140,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Up to isomorphism there are exactly 2 abelian groups of order 4: the cyclic group Z4 and the Klein four-group Z2×Z2.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q6; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q6; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25162,8 +25162,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "The power set of the empty set is {∅}, a set containing exactly one element (the empty set itself), so it has exactly one subset overall... more precisely one element, matching option (a) 'One'.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q7; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q7; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25184,8 +25184,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A connected, acyclic graph is the definition of a tree.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q8; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q8; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25206,8 +25206,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "The largest equivalence relation on an n-element set S is the full relation S×S, with n^2 pairs; the smallest is the identity relation {(a,a): a in S}, with n pairs (reflexivity requires at least these).",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q9; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q9; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25227,8 +25227,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Two finite state machines are isomorphic when there is a structure-preserving bijection between their states that respects transitions — equivalent to saying one machine can be turned into the other purely by relabeling its states. The option list is corrupted (a merged, garbled third choice), but option (a) stands as a clean, correct statement.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q10; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q10; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25249,8 +25249,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "In the Chomsky hierarchy, regular (right-linear) languages are a proper subset of context-free languages, which are in turn a proper subset of context-sensitive languages: right-linear ⊂ context-free ⊂ context-sensitive.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q11; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q11; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25271,8 +25271,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "In defuzzification methods, MeOM (mean of maxima) assigns the average of the domain values that achieve the maximum membership.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q12; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q12; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25293,8 +25293,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "An XOR gate outputs 1 when the number of 1-inputs is odd, so cascading XOR gates over a word's bits directly tests odd parity.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q13; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q13; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25313,11 +25313,11 @@ window.QUESTIONS = [
    "C": "Decoder",
    "D": "Demultiplexer"
   },
-  "ans": "A",
-  "exp": "An encoder is the circuit that produces a specific binary code/word as its output when one of its many input lines is active; a decoder does the reverse (binary word in, one line out), so it doesn't fit 'produces a binary word'.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q14; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
+  "ans": "C",
+  "exp": "MPSC's official key marks (c) Decoder, and this one is worth arguing with. An ENCODER is the circuit whose output IS a binary word: it takes 2^n input lines, one of them active, and produces the n-bit code identifying which. A DECODER does the reverse - it accepts a binary word and activates one of 2^n output lines. So 'produces a specific binary word or number' describes (a), the encoder. The key's reading only works if you take 'produces' to mean 'responds to a specific binary word', which is not what the sentence says. Learn the direction of each device, not this letter.",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q14; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
+  "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (c) Decoder; this app previously derived (a) Encoder. An encoder OUTPUTS a binary word; a decoder INPUTS one and drives a single output line. (a) is the defensible answer to the question as printed. Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
   "id": "MES2023_P1_015",
@@ -25335,11 +25335,11 @@ window.QUESTIONS = [
    "C": "Perform serial to parallel conversion",
    "D": "Both (a) & (b)"
   },
-  "ans": "A",
-  "exp": "A demultiplexer takes a single input and, using select lines, routes it to one of many outputs; option (b) describes a multiplexer instead.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q15; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
+  "ans": "D",
+  "exp": "MPSC's official key marks (d) Both (a) & (b) - which cannot be right for a demultiplexer. A demux has ONE input and many outputs: select lines choose which output the input is routed to, which is exactly (a). Option (b) - many inputs down to one output - is the definition of a MULTIPLEXER, the demux's mirror image. A single demux does not do both. The key is defensible only if the question meant a mux/demux pair, which it does not say. Learn the pair: MUX = many-to-one (data selector), DEMUX = one-to-many (data distributor).",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q15; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
+  "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (d) Both (a) & (b); this app previously derived (a). A demultiplexer routes one input to one of many outputs - (a) only. Option (b) describes a multiplexer. Do not take this card to mean a demux also selects many-to-one. Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
   "id": "MES2023_P1_016",
@@ -25359,8 +25359,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "In a PAL (Programmable Array Logic), the AND array is programmable (fuses define product terms) while the OR array is fixed, which is the opposite of a PLA.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q16; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q16; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25381,8 +25381,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Asynchronous inputs such as preset/clear act immediately and override the synchronous (clock-driven) behaviour of a flip-flop.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q17; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q17; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25403,8 +25403,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "In asynchronous (start-stop) transmission the line idles at logic high (mark); the start bit is the transition to logic low that signals the beginning of a character.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q18; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q18; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25425,8 +25425,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Cascaded counters divide the clock by the product of their moduli: 48 kHz / (6*4) = 48 kHz / 24 = 2 kHz.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q19; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q19; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25447,8 +25447,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A ripple-carry (parallel) adder adds multiple bit positions of two numbers together in one pass (carries ripple through), unlike a half-/full-adder which handles a single bit position, or a serial adder which processes one bit per clock cycle.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q20; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q20; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25469,8 +25469,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "The maximum frequency at which data can reliably be clocked into a gate, limited by its propagation delay, is referred to as its operating speed; the other terms aren't standard names for this limit.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q21; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q21; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25489,11 +25489,11 @@ window.QUESTIONS = [
    "C": "5 rows",
    "D": "7 rows"
   },
-  "ans": "B",
-  "exp": "For the basic gated (D) latch, collapsing the input combinations that give the same next-state behaviour yields a primitive flow table with 3 stable total-states/rows; this is a narrow textbook-specific fact and I'm not fully certain the source text uses the same convention.",
-  "conf": "low",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q22; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
+  "ans": "A",
+  "exp": "MPSC's official key marks (a) 1 row, and the previously stored answer said 3 - both are wrong, and the correct answer IS on the paper. The standard primitive flow table for a gated latch (inputs G and D, output Q) has FIVE rows, conventionally labelled a-e: one stable total state per row, one row for each input combination that can hold. That is option (c). A primitive flow table by definition carries exactly one stable state per row, so '1 row' cannot describe any primitive flow table with more than one stable state. Learn the defining property - one stable state per row - and you can rebuild the count instead of memorising it.",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q22; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
+  "note": "BOTH ANSWERS WRONG, INCLUDING THE OFFICIAL ONE. Official key marks (a) 1 row; this app previously derived (b) 3 rows. The gated latch's primitive flow table has FIVE rows - option (c) - since a primitive flow table holds exactly one stable state per row. The earlier explanation already flagged itself as uncertain on this; it was right to. Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
   "id": "MES2023_P1_023",
@@ -25513,8 +25513,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The 7493 is the classic 4-bit binary ripple counter IC; 7492 is a divide-by-12 counter, and the other two option numbers aren't real ripple-counter parts.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q23; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q23; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25535,8 +25535,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Four 8K ROMs occupy 32K = 0x8000 bytes, i.e. addresses 0000H-7FFFH, so the first 4K-word RAM starts right after at 8000H and ends at 8000H+0FFFH = 8FFFH.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q24; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q24; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25555,11 +25555,11 @@ window.QUESTIONS = [
    "C": "structure and behaviour of a computer system as observed by the developer",
    "D": "All of the mentioned"
   },
-  "ans": "C",
-  "exp": "Computer organization covers how the architecture's specified features are actually implemented in hardware, visible to the system/hardware designer (developer), not the programmer/end user, which is the domain of computer architecture.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q25; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
+  "ans": "A",
+  "exp": "MPSC's official key marks (a) - the user-observed view. Standard texts draw the line the other way round: Stallings defines computer ARCHITECTURE as the attributes visible to the programmer (instruction set, addressing modes, word size) and computer ORGANIZATION as the operational units and their interconnections that realise that specification - the implementer's view, which is option (c). By that definition the key has the two terms swapped. The key does match a widely circulated MCQ bank that answers (a) for this exact wording, so this is most likely inherited from the source the paper was set from rather than an independent judgement. Learn the Stallings split: architecture = what the programmer sees, organization = how it is built.",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q25; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
+  "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (a) 'as observed by the user'; this app previously derived (c) 'as observed by the developer'. Under the standard Stallings definition, organization is the implementer's view - (c) - and the user/programmer view is ARCHITECTURE. The key matches a circulating MCQ bank with the terms swapped. Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
   "id": "MES2023_P1_026",
@@ -25579,8 +25579,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The dominant stored-program model underlying most general-purpose computers today is still the Von Neumann architecture, even though Harvard-style separate instruction/data paths appear inside CPU caches.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q26; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q26; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25601,8 +25601,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "A row's bits are held in a latch (sense-amp/row buffer) so all bytes of that row can be read out together instead of being re-fetched one at a time.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q28; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q28; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25623,8 +25623,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Hit rate is defined as the fraction of memory accesses that are successfully satisfied (found) without a miss.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q29; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q29; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25643,11 +25643,11 @@ window.QUESTIONS = [
    "C": "ASCII",
    "D": "EBCDIC"
   },
-  "ans": "C",
-  "exp": "ASCII is the standard 8-bit (extended)/7-bit character encoding used to store text data; EBCDIC is also 8-bit but is IBM-specific and not the usual default answer, and the other two options are garbled non-standard names.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q30; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
+  "ans": "D",
+  "exp": "MPSC's official key marks (d) EBCDIC, and the key is right here - the previously stored (c) ASCII was wrong on a technicality that matters. Standard ASCII is a SEVEN-bit code: 128 code points, 0-127. EBCDIC is genuinely an 8-bit encoding, IBM's 256-code-point scheme for mainframes. The question asks specifically for the 8-bit format, so EBCDIC is the answer. What trips people up is 'extended ASCII', the various 8-bit supersets (ISO-8859-1 and friends) that add codes 128-255 - but plain ASCII, as named in option (c), is 7-bit. Options (a) ANCI and (b) USCII are garbled non-existent names.",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q30; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
+  "note": "Official key marks (d) EBCDIC and this app previously derived (c) ASCII - the key is correct and the earlier answer was wrong. Standard ASCII is 7-bit (128 codes); EBCDIC is 8-bit. 'Extended ASCII' is 8-bit but that is not what option (c) says. Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
   "id": "MES2023_P1_031",
@@ -25667,8 +25667,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "A stack pointer is the register that holds/points to the current top (here described as the 'beginning') of the stack in memory; it is not a subroutine-address storage location or a flag register.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q31; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q31; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25689,8 +25689,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "The Intel 8080 is an 8-bit microprocessor with an 8-bit data bus to memory (its address bus is separately 16-bit).",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q32; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q32; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25711,8 +25711,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "A memory word's natural size is chosen to match the number of bits needed to represent an integer and an instruction, which is the classic definition of 'word' in computer organization texts.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q33; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q33; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25733,8 +25733,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A cache placed between the CPU and the MMU works on virtual addresses and is therefore called a logical (virtual) cache; a physical cache instead sits after the MMU and works on physical addresses.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q34; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q34; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25755,8 +25755,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "RAID level 3 stripes data at the bit level across disks with a single dedicated parity disk, which is why it's called bit-interleaved parity (as in the standard OS textbook treatment).",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q35; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q35; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25777,8 +25777,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "Every process is represented in the OS by a Process Control Block (PCB), which stores all the bookkeeping information the OS needs about it.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q36; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q36; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25799,8 +25799,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "A basic adjacency matrix stores one value per vertex pair, so it can't represent multiple (parallel) edges between the same two vertices without extending it to store counts/weights.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q37; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q37; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25821,8 +25821,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Quicksort has the best average-case behaviour in practice among common comparison sorts, thanks to small constants and good cache locality, despite its O(n^2) worst case.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q38; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q38; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25843,8 +25843,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Algorithm efficiency is standardly measured along two axes: time (steps taken) and space (memory used).",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q39; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q39; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25865,8 +25865,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Inserting 35 at the end (index 9) and sifting up: it beats its parent 15 (index 4) and swaps, then beats its new parent 30 (index 1) and swaps, then stops at root 40 (35<40), giving 40,35,20,10,30,16,17,8,4,15.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q40; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q40; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25887,8 +25887,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Evaluating and checking arithmetic expressions (balancing parentheses, applying operator precedence, infix/postfix conversion) is the classic stack application.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q41; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q41; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25909,8 +25909,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Taking each value mod 10: 3422->2, 3134->4, 1741->1, 7699->9, 9819->9, 1671->1, 7163->3, 9149->9, so 7699/9819/9149 all collide at 9 (statement i true) and 1741/1671 collide at 1 (statement ii true), making 'i and ii only' correct.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q42; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q42; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25931,8 +25931,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "For postorder DEBFCA, the widely-cited reconstruction (matching the tree this question is normally paired with) gives preorder ABDECF; I can't independently re-derive this from postorder alone without the original tree diagram/inorder sequence, so this relies on recognizing the standard version of this question rather than a from-scratch derivation.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q43; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q43; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25953,8 +25953,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Linear search's worst case is n comparisons, which happens both when the item isn't present at all and when it's the very last element checked; option (b) covers both scenarios, making it more complete than (a) or (c) alone.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q44; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q44; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25975,8 +25975,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "This quiz-bank phrasing loosely labels 'an element ending up in the same place before and after sorting' as sort stability; strictly, stability is about equal-key elements keeping their relative order, but 'Sort Stability' is the answer this kind of question is built around among the given options.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q45; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q45; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -25995,11 +25995,11 @@ window.QUESTIONS = [
    "C": "Bottom-up approach",
    "D": "Hierarchical approach"
   },
-  "ans": "A",
-  "exp": "Recursive algorithms are conventionally associated with the divide-and-conquer approach: solving a problem by breaking it into smaller instances of itself.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q46; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
+  "ans": "C",
+  "exp": "MPSC's official key marks (c) Bottom-up approach, which is hard to defend when option (b) Top-down is sitting right there on the same paper. Recursion decomposes a problem into smaller instances of itself and is the textbook example of TOP-DOWN design; bottom-up is what you call the iterative, table-filling form of dynamic programming, which exists precisely as the alternative to recursion. Option (a) divide-and-conquer is also a fair answer, since divide-and-conquer is the classic recursive paradigm. The one description that does not fit is the one the key chose. Learn the contrast: recursive/memoised = top-down, iterative DP = bottom-up.",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q46; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
+  "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (c) Bottom-up; this app previously derived (a) Divide and conquer. Recursion is top-down decomposition - and 'Top-down' is option (b) on this very paper. Bottom-up describes iterative dynamic programming, the alternative to recursion. Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
   "id": "MES2023_P1_047",
@@ -26019,8 +26019,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Tracking the shrinking (low,high) bound while searching for 55: 9 -> (9,inf) -> 85 -> (9,85) -> 47 -> (47,85) -> 68 -> (47,68) -> next node 43 violates the established lower bound of 47, so this path could never occur in a real BST search; the other three sequences all respect their bounds at every step.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q47; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q47; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -26041,8 +26041,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Radix sort complexity is d*(n+k) where d is the number of digit passes, n the element count and k the bucket count. The largest values (9999, 3656) have 4 digits, n=13 elements, k=10 buckets, so 4*(13+10) = 4*23 = 92.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q48; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q48; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -26063,8 +26063,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "A queue can be simulated with exactly two stacks: push all enqueues onto stack 1, and when a dequeue is needed, pour stack 1 into stack 2 (reversing order) and pop from stack 2. One stack alone cannot reverse the order twice to restore FIFO behaviour.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q49; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q49; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -26085,8 +26085,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "Worst-case complexities: Merge Sort and Heap Sort are both O(n log n) (equal), while Quick Sort, Selection Sort, Bubble Sort and Insertion Sort are all O(n^2) in the worst case (equal to each other). That is exactly option A's chain once 'Heap Sport' is read as the OCR-mangled 'Heap Sort'.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q50; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q50; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
@@ -26130,8 +26130,8 @@ window.QUESTIONS = [
   },
   "ans": "D",
   "exp": "MAC, MS-DOS and Windows 10 are all general-purpose operating systems, not real-time ones; 'Process Control' among these choices is meant to evoke an industrial process-control system, the classic textbook example of a real-time OS use case. Kept medium confidence since 'Process Control' as an OS name is an unusual/imprecise option.",
-  "conf": "medium",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q3; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q3; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26152,8 +26152,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "An operating system is best described as the interface layer that mediates between hardware and the software/application programs running on it, not a piece of hardware itself.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q4; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q4; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26174,8 +26174,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Microkernels move most services out of the kernel into user-space servers, so the kernel's core remaining job is providing the IPC mechanism that lets those client/server programs communicate.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q7; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q7; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26194,11 +26194,11 @@ window.QUESTIONS = [
    "C": "The producer is responsible for adding data to the buffer, while the consumer undertakes the task of removing it.",
    "D": "The producer and consumer processes run concurrently, given a shared buffer."
   },
-  "ans": "C",
-  "exp": "In the producer-consumer problem, the producer generates data and places it into a shared buffer, while the consumer removes and processes items from that buffer.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q8; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
+  "ans": "D",
+  "exp": "MPSC's official key marks (d). Both (c) and (d) state true things, and the question's vague phrasing - 'what occurs within the context of' - is what separates them. (c) describes the ROLES: producer adds to the buffer, consumer removes from it. (d) describes the SITUATION the problem is about: two processes running concurrently against a shared buffer, which is what creates the need for synchronisation in the first place. Since the question asks what occurs 'within the context', the key's broader framing is the better fit. Know both: the roles, and why sharing a bounded buffer between concurrent processes needs a mutex plus empty/full counting semaphores.",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q8; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
+  "note": "Official key marks (d); this app previously derived (c). Both statements are true - (c) names the roles, (d) names the concurrent-shared-buffer situation the problem is about. The question asks what occurs 'within the context', so the key's reading is defensible and this is not a key error. Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
   "id": "MES2023_P2_009",
@@ -26218,8 +26218,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "A semaphore is classically defined as an integer variable, accessed only through atomic wait/signal operations, used to solve critical-section synchronization problems.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q9; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q9; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26240,8 +26240,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Shortest Job First always picks the ready process with the smallest remaining CPU burst (the one that 'needs least processor' time), regardless of how long it has waited.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q10; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q10; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26260,11 +26260,11 @@ window.QUESTIONS = [
    "C": "7",
    "D": "8"
   },
-  "ans": "C",
-  "exp": "n sequential fork() calls produce 2^n total processes (2^n - 1 new children), since every existing process (parent and each child made so far) executes each subsequent fork(). As printed with four fork() calls that would be 2^4-1 = 15 new children, which matches none of the given options (10,9,7,8) -- strong evidence one 'fork ();' was duplicated by OCR. With the classic 3-call version of this question, 2^3-1 = 7 new child processes, matching option C, which is given here as the best-effort answer; treat the question as broken and verify the actual number of fork() statements against the source PDF.",
-  "conf": "low",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q11; answer derived by review - no official key exists for this sitting; question defective as printed",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
+  "ans": "B",
+  "exp": "MPSC's official key marks (b) 9, which matches nothing. n sequential fork() calls leave 2^n processes, so 2^n - 1 of them are new children. The stem prints FOUR fork() calls: 2^4 - 1 = 15 children, and 15 is not among (10, 9, 7, 8). Three fork() calls would give 2^3 - 1 = 7, which is exactly option (c) - strong evidence the stem gained a fourth fork() in printing or extraction and that (c) was the intended answer. The key's 9 corresponds to no number of forks at all. Learn the formula: n forks, 2^n processes, 2^n - 1 children.",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q11; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B); question defective as printed",
+  "note": "DEFECTIVE QUESTION AND THE OFFICIAL KEY IS INDEFENSIBLE. Official key marks (b) 9; this app previously derived (c) 7. Four fork() calls create 15 children, which is not an option; three would create 7, which is (c) - so the stem most likely lost a fork() somewhere. No number of fork() calls yields 9. Learn 2^n - 1. Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
   "id": "MES2023_P2_012",
@@ -26284,8 +26284,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The standard process-state model consists of New, Ready, Running, Waiting and Terminated; 'Destroy' is not a recognised separate state (it overlaps with Exit/Terminated), so only (i) Running, (ii) Ready, (iii) New and (iv) Exit are valid.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q12; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q12; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26306,8 +26306,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Seek time is specifically the time taken for the disk arm to move to the cylinder containing the desired track.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q13; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q13; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26328,8 +26328,8 @@ window.QUESTIONS = [
   },
   "ans": "B",
   "exp": "Deadlock detection determines which processes are deadlocked and then grants the requested resources to (or otherwise deals with) those processes to resolve the deadlock.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q14; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q14; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26350,8 +26350,8 @@ window.QUESTIONS = [
   },
   "ans": "A",
   "exp": "FIFO page replacement evicts whichever page has been resident in memory the longest, i.e. the oldest page, regardless of how recently it was used.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q15; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q15; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26372,8 +26372,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "Unlike fixed-size pages, segments are variable-sized, so replacing a segment has to account for differing sizes (fitting the freed space, fragmentation, etc.), making segment replacement algorithms more complex than page replacement ones.",
-  "conf": "high",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q16; answer derived by review - no official key exists for this sitting",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q16; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {
@@ -26394,8 +26394,8 @@ window.QUESTIONS = [
   },
   "ans": "C",
   "exp": "The actual page reference string this question depends on was dropped during extraction -- the question says 'consider the following page reference string' but no string is present -- so the LRU fault count cannot actually be computed as printed. C is given only as a placeholder best guess; this needs to be checked against the source PDF to recover the missing reference string before it can be answered for real.",
-  "conf": "low",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q17; answer derived by review - no official key exists for this sitting; question defective as printed",
+  "conf": "official",
+  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper II, Q17; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B); question defective as printed",
   "note": "Only the Paper-I-syllabus questions from this paper were imported (13 of 50)."
  },
  {

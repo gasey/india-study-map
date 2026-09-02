@@ -1,0 +1,80 @@
+{
+  "_what": "Editorial layer over mes2023-official-key.json, same split as the ILM2023 pair: that file is what MPSC printed, this one is what this project says about the questions the key overturns.",
+  "_policy": "tools/VERIFY_BRIEF.md - the key is the scoring authority even where it is wrong, so `ans` follows it. But six of these eight keys are indefensible or convention-dependent, and a card whose highlighted option teaches a falsehood is the exact harm CLAUDE.md exists to prevent. Every such card carries a note giving the standard result. Two of the eight (Q30, P2 Q8) are cases where the key is BETTER than what the bank stored, and their notes say so plainly rather than manufacturing a dispute.",
+  "_error_rate_note": "8 disagreements in 62 keyed records is 12.9%, against 12 in 135 (8.9%) for ILM2023 - and proportionally more of them are outright wrong rather than merely arguable. Worth knowing before trusting any MPSC key as automatically correct.",
+
+  "annotations": [
+    {
+      "id": "MES2023_P1_014",
+      "no": 14,
+      "derived_ans": "A",
+      "verdict": "key_contradicts_theory",
+      "exp": "MPSC's official key marks (c) Decoder, and this one is worth arguing with. An ENCODER is the circuit whose output IS a binary word: it takes 2^n input lines, one of them active, and produces the n-bit code identifying which. A DECODER does the reverse - it accepts a binary word and activates one of 2^n output lines. So 'produces a specific binary word or number' describes (a), the encoder. The key's reading only works if you take 'produces' to mean 'responds to a specific binary word', which is not what the sentence says. Learn the direction of each device, not this letter.",
+      "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (c) Decoder; this app previously derived (a) Encoder. An encoder OUTPUTS a binary word; a decoder INPUTS one and drives a single output line. (a) is the defensible answer to the question as printed.",
+      "note_mode": "append"
+    },
+    {
+      "id": "MES2023_P1_015",
+      "no": 15,
+      "derived_ans": "A",
+      "verdict": "key_contradicts_theory",
+      "exp": "MPSC's official key marks (d) Both (a) & (b) - which cannot be right for a demultiplexer. A demux has ONE input and many outputs: select lines choose which output the input is routed to, which is exactly (a). Option (b) - many inputs down to one output - is the definition of a MULTIPLEXER, the demux's mirror image. A single demux does not do both. The key is defensible only if the question meant a mux/demux pair, which it does not say. Learn the pair: MUX = many-to-one (data selector), DEMUX = one-to-many (data distributor).",
+      "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (d) Both (a) & (b); this app previously derived (a). A demultiplexer routes one input to one of many outputs - (a) only. Option (b) describes a multiplexer. Do not take this card to mean a demux also selects many-to-one.",
+      "note_mode": "append"
+    },
+    {
+      "id": "MES2023_P1_022",
+      "no": 22,
+      "derived_ans": "B",
+      "verdict": "both_wrong",
+      "exp": "MPSC's official key marks (a) 1 row, and the previously stored answer said 3 - both are wrong, and the correct answer IS on the paper. The standard primitive flow table for a gated latch (inputs G and D, output Q) has FIVE rows, conventionally labelled a-e: one stable total state per row, one row for each input combination that can hold. That is option (c). A primitive flow table by definition carries exactly one stable state per row, so '1 row' cannot describe any primitive flow table with more than one stable state. Learn the defining property - one stable state per row - and you can rebuild the count instead of memorising it.",
+      "note": "BOTH ANSWERS WRONG, INCLUDING THE OFFICIAL ONE. Official key marks (a) 1 row; this app previously derived (b) 3 rows. The gated latch's primitive flow table has FIVE rows - option (c) - since a primitive flow table holds exactly one stable state per row. The earlier explanation already flagged itself as uncertain on this; it was right to.",
+      "note_mode": "append"
+    },
+    {
+      "id": "MES2023_P1_025",
+      "no": 25,
+      "derived_ans": "C",
+      "verdict": "convention_dependent",
+      "exp": "MPSC's official key marks (a) - the user-observed view. Standard texts draw the line the other way round: Stallings defines computer ARCHITECTURE as the attributes visible to the programmer (instruction set, addressing modes, word size) and computer ORGANIZATION as the operational units and their interconnections that realise that specification - the implementer's view, which is option (c). By that definition the key has the two terms swapped. The key does match a widely circulated MCQ bank that answers (a) for this exact wording, so this is most likely inherited from the source the paper was set from rather than an independent judgement. Learn the Stallings split: architecture = what the programmer sees, organization = how it is built.",
+      "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (a) 'as observed by the user'; this app previously derived (c) 'as observed by the developer'. Under the standard Stallings definition, organization is the implementer's view - (c) - and the user/programmer view is ARCHITECTURE. The key matches a circulating MCQ bank with the terms swapped.",
+      "note_mode": "append"
+    },
+    {
+      "id": "MES2023_P1_030",
+      "no": 30,
+      "derived_ans": "C",
+      "verdict": "key_is_better",
+      "exp": "MPSC's official key marks (d) EBCDIC, and the key is right here - the previously stored (c) ASCII was wrong on a technicality that matters. Standard ASCII is a SEVEN-bit code: 128 code points, 0-127. EBCDIC is genuinely an 8-bit encoding, IBM's 256-code-point scheme for mainframes. The question asks specifically for the 8-bit format, so EBCDIC is the answer. What trips people up is 'extended ASCII', the various 8-bit supersets (ISO-8859-1 and friends) that add codes 128-255 - but plain ASCII, as named in option (c), is 7-bit. Options (a) ANCI and (b) USCII are garbled non-existent names.",
+      "note": "Official key marks (d) EBCDIC and this app previously derived (c) ASCII - the key is correct and the earlier answer was wrong. Standard ASCII is 7-bit (128 codes); EBCDIC is 8-bit. 'Extended ASCII' is 8-bit but that is not what option (c) says.",
+      "note_mode": "append"
+    },
+    {
+      "id": "MES2023_P1_046",
+      "no": 46,
+      "derived_ans": "A",
+      "verdict": "key_contradicts_theory",
+      "exp": "MPSC's official key marks (c) Bottom-up approach, which is hard to defend when option (b) Top-down is sitting right there on the same paper. Recursion decomposes a problem into smaller instances of itself and is the textbook example of TOP-DOWN design; bottom-up is what you call the iterative, table-filling form of dynamic programming, which exists precisely as the alternative to recursion. Option (a) divide-and-conquer is also a fair answer, since divide-and-conquer is the classic recursive paradigm. The one description that does not fit is the one the key chose. Learn the contrast: recursive/memoised = top-down, iterative DP = bottom-up.",
+      "note": "KEY CONFLICTS WITH STANDARD THEORY. Official key marks (c) Bottom-up; this app previously derived (a) Divide and conquer. Recursion is top-down decomposition - and 'Top-down' is option (b) on this very paper. Bottom-up describes iterative dynamic programming, the alternative to recursion.",
+      "note_mode": "append"
+    },
+    {
+      "id": "MES2023_P2_008",
+      "no": 8,
+      "derived_ans": "C",
+      "verdict": "key_is_better",
+      "exp": "MPSC's official key marks (d). Both (c) and (d) state true things, and the question's vague phrasing - 'what occurs within the context of' - is what separates them. (c) describes the ROLES: producer adds to the buffer, consumer removes from it. (d) describes the SITUATION the problem is about: two processes running concurrently against a shared buffer, which is what creates the need for synchronisation in the first place. Since the question asks what occurs 'within the context', the key's broader framing is the better fit. Know both: the roles, and why sharing a bounded buffer between concurrent processes needs a mutex plus empty/full counting semaphores.",
+      "note": "Official key marks (d); this app previously derived (c). Both statements are true - (c) names the roles, (d) names the concurrent-shared-buffer situation the problem is about. The question asks what occurs 'within the context', so the key's reading is defensible and this is not a key error.",
+      "note_mode": "append"
+    },
+    {
+      "id": "MES2023_P2_011",
+      "no": 11,
+      "derived_ans": "C",
+      "verdict": "defective_question",
+      "exp": "MPSC's official key marks (b) 9, which matches nothing. n sequential fork() calls leave 2^n processes, so 2^n - 1 of them are new children. The stem prints FOUR fork() calls: 2^4 - 1 = 15 children, and 15 is not among (10, 9, 7, 8). Three fork() calls would give 2^3 - 1 = 7, which is exactly option (c) - strong evidence the stem gained a fourth fork() in printing or extraction and that (c) was the intended answer. The key's 9 corresponds to no number of forks at all. Learn the formula: n forks, 2^n processes, 2^n - 1 children.",
+      "note": "DEFECTIVE QUESTION AND THE OFFICIAL KEY IS INDEFENSIBLE. Official key marks (b) 9; this app previously derived (c) 7. Four fork() calls create 15 children, which is not an option; three would create 7, which is (c) - so the stem most likely lost a fork() somewhere. No number of fork() calls yields 9. Learn 2^n - 1.",
+      "note_mode": "append"
+    }
+  ]
+}

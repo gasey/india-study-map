@@ -9,6 +9,111 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 — The Answer_Keys sweep: 120 keys checked, one new sitting keyed, and most "no official key" claims turn out to be true
+
+**What shipped.** `apply_official_keys.py` — the single-sitting ILM2023 applier
+generalised into a registry, because the sweep found a second matching sitting
+and two near-duplicate scripts is how this kind of thing rots. Ported ILM2023
+into it and **proved the refactor is a no-op**: it reports 0 changed on the
+already-applied sitting. New entry applies **MES 2023** (Jr. Grade of MES, P&E
+Cadre (Electrical Wing), July 2023): 62 Section-A records re-provenanced, **8
+answers overturned**.
+
+**The sweep itself.** All 120 keys in
+`mpsc-question-bank/pdfs/Answer_Keys/` were inventoried — 44 have text layers,
+**76 are pure scans**, so `ocr_inv.py` (scratch, not committed) OCR'd 460 pages
+to read exam identity and paper sections. OCR is used for *discovery only*;
+every key that matched had its tables verified before a letter was applied.
+Result:
+
+| bank sitting | records claiming no key | outcome |
+|---|---|---|
+| MES2023 P1/P2 Section A | 63 | **key found and applied** |
+| ILM2010 P1/P2 | 192 | no key published — claim is TRUE |
+| ILM2018 P1/P2 | 57 | no key published — claim is TRUE |
+| JE2016 P1/P2 | 29 | no key published — claim is TRUE |
+| MES2018_P2 | 12 | no key published — claim is TRUE |
+| MES2015_CSE_P2 | 10 | no key published — claim is TRUE |
+| TECH1_OLD (Informatics Officer, earlier sitting) | 67 | no key published — claim is TRUE |
+| System Manager, all Computer Operator sittings | 0 (provenance unstated) | no CO key exists at all |
+
+So the alarming framing in the last entry — "if this one went unread, others
+plausibly did too" — was **half right**. One more sitting was unread. The other
+367 records genuinely have no published key, and MPSC appears simply not to have
+published keys for exams before roughly 2023.
+
+**The trap I nearly fell into, and the one I did.** `TECH1_OFFICIAL` holds 140
+records: 70 badged official and 70 from an "earlier sitting" claiming no key.
+Two Informatics Officer keys sit in the folder, so this looked like an obvious
+win. It is not: both keys are for the **5–7 November 2024** sitting (one
+provisional, superseded by the final), and comparing stems shows **zero** of the
+70 "earlier sitting" questions match a November-2024 question at the same
+number. Different exam. Applying that key on the strength of the matching exam
+*name* would have overwritten 67 answers with another paper's.
+
+The one I did fall into: my first MES2023 comparison joined on question number
+alone and pulled in `MES2023_P1_B020` — a **Section B** record carrying `no: 20`
+— against Section A's Q20. The Commission published no Section B key, so that
+was a wrong answer about to be written from a key that does not cover the
+question. The registry's `id_re` now ends `_(\d+)$` specifically to exclude the
+`_B` ids, and the reason is commented at the pattern.
+
+**MES2023's keys are worse than ILM2023's.** 8 wrong in 62 (12.9%) against 12 in
+135 (8.9%), and proportionally more are indefensible rather than arguable:
+
+- **Q15** keys "Both (a) & (b)" for *why we use a demultiplexer* — (b) is the
+  definition of a **multiplexer**. A demux does not do both.
+- **Q14** keys *decoder* for the circuit that "produces a specific binary word";
+  that is an **encoder** — a decoder consumes a binary word.
+- **Q46** keys recursion as **bottom-up** when *top-down* is option (b) on the
+  same paper. Bottom-up is iterative DP, the alternative to recursion.
+- **Q22** keys "1 row" for the gated latch's primitive flow table; the answer is
+  **5 rows** — option (c) — and a primitive flow table holds exactly one stable
+  state per row, so "1 row" is impossible. Both the key and the previously
+  stored answer were wrong here.
+- **P2 Q11** keys 9 children for four `fork()` calls. n forks give 2ⁿ−1
+  children: four gives 15 (not offered), three gives 7 — which is the stored
+  answer, so the stem probably gained a `fork()` in printing. **No** number of
+  forks yields 9.
+- **Q25** (computer organization) is convention-dependent: the key matches a
+  widely circulated MCQ bank that has architecture and organization swapped
+  relative to Stallings.
+- **Q30** (EBCDIC over ASCII) and **P2 Q8** are the two where the **key is right
+  and this app was wrong** — ASCII is 7-bit, and their notes say so plainly
+  instead of manufacturing a dispute.
+
+Per `VERIFY_BRIEF.md` `ans` follows the key in all eight. The applier now
+**refuses to run** if the key overturns an answer with no annotation explaining
+it — tested by deleting one annotation and confirming it aborts naming the
+record. That guard is the whole safety property: without it a key error becomes a
+memorised falsehood under an authoritative blue badge.
+
+**Verified.** Both sittings idempotent (0 changed on re-run), diff provably
+scoped to 62 records all `MES2023_*` with no stems touched and no Section B
+record altered, bank total unchanged at 1409, official-key badges 306 → 368,
+guide rebuilt byte-stable with 24 contested-key warnings (up from 23, the new one
+being Q46). Browser: 62/62 badged official, 0 still claiming no key.
+
+**What's still open — and the real prize is bigger than the sweep was.**
+
+- **230 keyed questions are sitting unimported.** The Informatics Officer
+  November 2024 key covers General English II and Technical Papers **I, II and
+  III** at 100 questions each. The bank has only 70 of Technical Paper I and
+  **nothing** from Papers II or III. Those are official-key answers for the exact
+  post being studied, already in hand. That is worth far more than
+  re-provenancing ever was.
+- **MES (Combined) October 2025** has a published final key (13 pages, scanned)
+  and is not in the bank at all — the most recent CS sitting available.
+- MES2023 Paper I Section A **Q27 was never imported** (49 of 50), and all of
+  Paper III is missing though its key is now staged, including Q21 and Q30 which
+  MPSC compensated.
+- The 76 scanned keys were read by OCR for identity only. If a future pass wants
+  to be certain none was missed, the ~15 whose OCR was poor deserve an eye.
+- `ocr_inv.py` lives in scratch. If the folder gains keys it should become a
+  committed tool rather than being rewritten from memory.
+
+---
+
 ## 2026-09-04 (later still) — The revision guide is reachable, and the three things called "study guide" are now called three different things
 
 **What shipped.** The generated Technical Paper I guide had been committed and

@@ -575,8 +575,13 @@ DISPUTED = {
     "MES2023_P1_045":
         "The stem does not describe stability. Stability means **equal keys keep "
         "their relative order**, not that an element stays in the same location. "
-        "Learn the real definition; the keyed option label is the only correct "
-        "part of this question.",
+        "Learn the real definition; the option label MPSC's official key marks is "
+        "the only correct part of this question.",
+    "MES2023_P1_046":
+        "MPSC's official key marks **bottom-up**, which is the one description "
+        "that does not fit — and *top-down* is option (b) on the same paper. "
+        "Recursion decomposes top-down; bottom-up is iterative dynamic "
+        "programming, the alternative to recursion.",
     "ILM2023_P1_014":
         "Describes an **Euler circuit** (every edge once, return to start), which "
         "is not among the options. MPSC's official key marks the Travelling "
@@ -599,7 +604,8 @@ DISPUTED = {
         "than this question's letter.",
     "MES2023_P1_007":
         "Ambiguous as worded. P(∅) = {∅} has **one element** but **two subsets** "
-        "(∅ and {∅}). The question says 'subset' but the key answers for elements.",
+        "(∅ and {∅}). The question says 'subset' but MPSC's official key answers "
+        "for elements.",
     "TECH1_CSE_031":
         "The pivots returned depend on the partition scheme (first / last / "
         "Lomuto / Hoare), which the question never states. Not reliably answerable.",

@@ -1,0 +1,102 @@
+{
+  "CO2018M-P1-1": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Versatility is the standard textbook name for a computer's ability to handle any task reducible to a finite sequence of logical steps. Diligence is the separate property of working without fatigue or loss of accuracy, so it is the classic trap here."
+  },
+  "CO2018M-P1-2": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Second-generation computers (roughly 1956-1963) replaced vacuum tubes with transistors. Vacuum tube belongs to the first generation, IC to the third and VLSI to the fourth, so the generation number maps directly onto the switching device."
+  },
+  "CO2018M-P1-3": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Charles Babbage conceived the Analytical Engine, the first design for a general-purpose programmable computer, and is conventionally called the father of the computer. Von Neumann contributed the stored-program architecture and Turing the theory of computation, but neither is given this title."
+  },
+  "CO2018M-P1-4": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Primary memory is built mainly from RAM, which loses its contents the moment power is removed, making it volatile. USB drives, optical disks and magnetic disks are all secondary storage and retain data without power."
+  },
+  "CO2018M-P1-5": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Registers are the small storage locations inside the CPU that hold operands, addresses and intermediate results temporarily while an instruction is being interpreted and executed. Cache memory is the tempting distractor, but cache is a staging buffer between CPU and main memory rather than the CPU's own temporary holding unit."
+  },
+  "CO2018M-P1-6": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The program counter (instruction pointer) keeps track of the next instruction to be executed by holding its memory address, and is incremented after each fetch. The instruction register is the trap: it holds the instruction currently being decoded and executed, not the next one."
+  },
+  "CO2018M-P1-7": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Processor speed is the clock rate, i.e. the number of clock cycles per second, and that rate is quoted in hertz units such as megahertz and gigahertz. Since all three descriptions name the same measure, the inclusive option is the intended one."
+  },
+  "CO2018M-P1-8": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Access time is defined as the total time to locate and fetch stored data, and on a disk it is the sum of seek time, rotational latency and transfer time. Seek time and latency are only components of it, so picking either understates what the question describes."
+  },
+  "CO2018M-P1-9": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Random access memory is precisely the case where retrieval time is the same regardless of which location is addressed. Sequential access devices such as tape take longer for data stored further along, and direct access (as on a disk) still varies with head position."
+  },
+  "CO2018M-P1-10": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Word length is the number of bits held in one addressable memory location, which is why machines are described as 8-bit, 32-bit or 64-bit. Bit length and word limit are not standard terms in memory organisation."
+  },
+  "CO2018M-P1-11": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "In the binary convention used throughout computer architecture, 1 kilobyte is 2^10 = 1024 bytes. The 1000-byte figure is the decimal SI kilobyte used in marketing disk capacities, and is the usual distractor in this question."
+  },
+  "CO2018M-P1-12": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A magnetic disk surface is divided into invisible concentric circles called tracks. Sectors are the pie-slice divisions that cut across those tracks, so they are the trap for anyone who remembers the pair of terms but not which is circular."
+  },
+  "CO2018M-P1-13": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Magnetic tape must be wound forward or backward to reach a record, so data can only be read in the order written, making it the classic sequential access device. Compact disks, flash drives and microSD cards all allow direct or random access to any location."
+  },
+  "CO2018M-P1-14": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "On a nine-track tape the parallel rows running along the tape's length are the channels (also called tracks); the vertical column of bits taken across the tape width to encode one character is the frame. Frame is therefore the likely trap, though the paper's use of \"horizontal rows\" is loose enough that a setter working from a differently oriented diagram could have intended Frame."
+  },
+  "CO2018M-P1-15": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Data density (recording density, measured in bits or bytes per inch) is defined as the amount of data stored per unit length of tape. Tape capacity is the total quantity the whole reel holds, which is density multiplied by length, not data per given length."
+  },
+  "CO2018M-P1-16": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Disk capacity multiplies out the full addressing hierarchy: recording surfaces x tracks per surface x sectors per track x bytes per sector. The other options each drop or duplicate a level of that hierarchy, so their units do not resolve to bytes."
+  },
+  "CO2018M-P1-17": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Disk size is quoted as the platter diameter, which is why drives are described as 3.5-inch, 5.25-inch or 1.44 MB 3.5-inch floppies. Radius, circumference and area are never used as the nominal size."
+  },
+  "CO2018M-P1-18": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "An optical disk carries a single continuous spiral track running from the inner hub outwards, so the track count is one. This is the key structural contrast with a magnetic disk, which has many separate concentric tracks."
+  },
+  "CO2018M-P1-19": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Because the spiral track begins at the inner hub, the laser assembly reads a CD or DVD from the centre outwards towards the outer edge. Reading outer-edge-to-centre would mean traversing the spiral backwards, which is not how the format is written."
+  },
+  "CO2018M-P1-20": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Incremental backup copies only files created or modified since the previous backup, which is what keeps it fast and small compared with a full backup. Full backup copies everything each time, and \"evolutionary backup\" is not a real backup type."
+  }
+}

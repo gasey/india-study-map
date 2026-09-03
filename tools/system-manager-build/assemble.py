@@ -34,6 +34,8 @@ import re
 import sys
 from collections import Counter
 
+from extracted_meta import EXTRACTED_META
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 STAGED = os.path.join(HERE, "staged")
@@ -41,12 +43,6 @@ EXTRACTED = os.path.join(HERE, "extracted")
 OUT = os.path.join(ROOT, "public", "mpsc-system-manager", "data", "questions.js")
 
 LETTERS = ["A", "B", "C", "D"]
-
-# srcKey -> (sitting label, app paper id) for the vision-extracted papers
-P2_META = {
-    "CO2016A-P2": ("Computer Operator (Contract) under SAD, 2016 - Technical Paper II", "TECH2"),
-    "CO2016B-P2": ("Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II", "TECH2"),
-}
 
 # --- UDC / Assistant / Group B clerical papers -------------------------------
 # These sit in the app as their own `UDC` paper. They are NOT Computer Operator
@@ -127,16 +123,24 @@ def main(force=False):
     else:
         notes.append("staged/harvest.json missing - run harvest.py")
 
-    # --- vision-extracted Paper II ---
+    # --- papers extracted outside the bank (see extracted_meta.py) ---
+    # Two shapes live here. The 2016 Paper IIs were transcribed AND answered by
+    # a vision pass, so they arrive complete. CO2018M-P1 was parsed from a clean
+    # text layer with NO answers, deliberately, so that a transcription bug and
+    # a wrong answer cannot come from the same pass — its answers arrive later
+    # from solve.py's two-blind-pass merge, which overwrites ans/conf/exp/prov
+    # below. `answered` is what tells the two apart.
     for path in sorted(glob.glob(os.path.join(EXTRACTED, "*.json"))):
         key = os.path.splitext(os.path.basename(path))[0]
-        if key not in P2_META:
-            problems.append(f"{key}: unknown srcKey, not in P2_META")
+        if key not in EXTRACTED_META:
+            problems.append(f"{key}: unknown srcKey, not in extracted_meta.py")
             continue
-        sitting, paper = P2_META[key]
+        meta = EXTRACTED_META[key]
+        sitting, paper = meta["sitting"], meta["paper"]
         data = json.load(open(path, encoding="utf-8"))
-        if len(data) != 75:
-            problems.append(f"{key}: {len(data)} questions, expected 75")
+        if len(data) != meta["expect"]:
+            problems.append(f"{key}: {len(data)} questions, "
+                            f"expected {meta['expect']}")
         for r in data:
             rows.append({
                 "id": f"{key}-{r['no']}",
@@ -152,9 +156,22 @@ def main(force=False):
                 "ans": r.get("ans"),
                 "exp": r.get("exp", ""),
                 "conf": r.get("conf"),
-                "prov": f"Transcribed and answered from the scanned {sitting}. "
-                        f"MPSC published no answer key for this paper.",
-                "needs_verify": False,   # the vision pass IS the derivation
+                # Only the answered=True papers may claim they were answered
+                # here. For the rest this string is a placeholder that
+                # solve.py's merged prov overwrites; if the solve has NOT run
+                # it must not assert an answer that does not exist, or an
+                # unanswered question would ship reading as derived-and-checked.
+                "prov": (f"Transcribed and answered from the scanned {sitting}. "
+                         f"MPSC published no answer key for this paper."
+                         if meta["answered"] else
+                         f"Transcribed from {sitting} ({meta['source']}). "
+                         f"MPSC published no answer key for this paper and this "
+                         f"question has not yet been answered."),
+                # answered=True means the extraction pass IS the derivation.
+                # answered=False means nothing has derived an answer yet, so it
+                # genuinely still needs verification — that flag is what puts it
+                # in front of solve.py.
+                "needs_verify": not meta["answered"],
                 "needs_figure": bool(r.get("needs_figure")),
                 "note": "",
                 "_tier": 1,

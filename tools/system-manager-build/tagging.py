@@ -34,14 +34,14 @@ import re
 import sys
 from collections import Counter, defaultdict
 
+from extracted_meta import EXTRACTED_META
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 STAGED = os.path.join(HERE, "staged")
 EXTRACTED = os.path.join(HERE, "extracted")
 BATCHES = os.path.join(STAGED, "tagging")
 
 BATCH_SIZE = 40   # small enough that an agent stays accurate across a batch
-
-P2_PAPER = {"CO2016A-P2": "TECH2", "CO2016B-P2": "TECH2"}
 
 
 def all_questions():
@@ -53,9 +53,15 @@ def all_questions():
             rows.append({"id": r["id"], "paper": r["paper"], "q": r["q"], "opts": r["opts"]})
     for path in sorted(glob.glob(os.path.join(EXTRACTED, "*.json"))):
         key = os.path.splitext(os.path.basename(path))[0]
-        paper = P2_PAPER.get(key)
-        if not paper:
-            continue
+        # A missing entry used to `continue` silently, which meant adding a
+        # paper to extracted/ without updating this table dropped it from the
+        # tagging pass with no message — it would ship untagged, invisible to
+        # Practice's unit filter and linked to no concept. Fail loudly instead.
+        meta = EXTRACTED_META.get(key)
+        if not meta:
+            sys.exit(f"FAIL: extracted/{key}.json has no entry in "
+                     f"extracted_meta.py, so it cannot be tagged")
+        paper = meta["paper"]
         for r in json.load(open(path, encoding="utf-8")):
             rows.append({"id": f"{key}-{r['no']}", "paper": paper,
                          "q": r["q"], "opts": r["opts"]})
@@ -85,8 +91,6 @@ def do_export(retag_all=False):
     units = load_units()
     rows = all_questions()
     os.makedirs(BATCHES, exist_ok=True)
-    for stale in glob.glob(os.path.join(BATCHES, "*.todo.json")):
-        os.remove(stale)
 
     # Only export what still needs a tag. Re-exporting the whole corpus every
     # time a sitting is added would re-tag ~500 already-good questions and give
@@ -105,6 +109,18 @@ def do_export(retag_all=False):
     by_paper = defaultdict(list)
     for r in rows:
         by_paper[r["paper"]].append(r)
+
+    # Clear only the papers we are about to rewrite. This used to delete every
+    # *.todo.json before doing anything, so exporting one paper's new batch
+    # destroyed every other paper's inputs — the record of exactly what each
+    # tagging agent was shown, for tags that are already merged and shipping.
+    # It is not hypothetical: the run that added the 43 JSO questions wiped 27
+    # tracked todo files this way. Papers with no rows this run keep theirs,
+    # which is right — those are still-pending work.
+    for stale in glob.glob(os.path.join(BATCHES, "*.todo.json")):
+        base = os.path.basename(stale)
+        if any(base.startswith(f"{p}-") for p in by_paper):
+            os.remove(stale)
 
     # do_merge() rebuilds tags.json from the *.done.json files alone, so a new
     # batch that reuses an existing batch number would overwrite that file and

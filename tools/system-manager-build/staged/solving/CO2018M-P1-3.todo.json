@@ -1,0 +1,307 @@
+{
+  "srcKey": "CO2018M-P1",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2018M-P1-41",
+      "srcKey": "CO2018M-P1",
+      "no": 41,
+      "paper": "TECH1",
+      "q": "What type of button present mutually exclusive option?",
+      "opts": {
+        "A": "Text boxes",
+        "B": "Check boxes",
+        "C": "Command button",
+        "D": "Radio button"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-42",
+      "srcKey": "CO2018M-P1",
+      "no": 42,
+      "paper": "TECH1",
+      "q": "To open disk Cleanup, we need to do",
+      "opts": {
+        "A": "Click start>All programs>System tools>Disk Cleanup",
+        "B": "Click start>All programs>Accessories>System tools>Disk Cleanup",
+        "C": "Click start>All programs>Disk Cleanup",
+        "D": "Click start>All programs>System tools>Disk Manager> Disk Cleanup"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-43",
+      "srcKey": "CO2018M-P1",
+      "no": 43,
+      "paper": "TECH1",
+      "q": "The DOS command to list all the files with .EXE extension in drive C is",
+      "opts": {
+        "A": "c:\\> list * EXE",
+        "B": "c:\\>dir *EXE",
+        "C": "c:\\>dir*.EXE",
+        "D": "c:\\>list*.EXE"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-44",
+      "srcKey": "CO2018M-P1",
+      "no": 44,
+      "paper": "TECH1",
+      "q": "The DOS command to hide folder(directory) in drive G is",
+      "opts": {
+        "A": "g:\\> attrib +s +h folder_name",
+        "B": "g:\\> attrib -s -h folder_name",
+        "C": "g:\\> attrib +s -h folder_name",
+        "D": "g:\\> attrib -s +h folder_name"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-45",
+      "srcKey": "CO2018M-P1",
+      "no": 45,
+      "paper": "TECH1",
+      "q": "The default extension for MS-Word document is",
+      "opts": {
+        "A": ".doc or .docx",
+        "B": ".doc or .txt",
+        "C": ".docx or .txt",
+        "D": ".file or .txt"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-46",
+      "srcKey": "CO2018M-P1",
+      "no": 46,
+      "paper": "TECH1",
+      "q": "Shortcut key to save MS-Word document is",
+      "opts": {
+        "A": "Alt+s",
+        "B": "Ctrl+s",
+        "C": "Alt+Ctrl+s",
+        "D": "Shift+Ctrl+s"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-47",
+      "srcKey": "CO2018M-P1",
+      "no": 47,
+      "paper": "TECH1",
+      "q": "The Key to bring cursor in the beginning of the current line in MS-Word is",
+      "opts": {
+        "A": "Page Up",
+        "B": "Page Down",
+        "C": "Home",
+        "D": "End"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-48",
+      "srcKey": "CO2018M-P1",
+      "no": 48,
+      "paper": "TECH1",
+      "q": "How many types of alignment of text are there in MS-Word?",
+      "opts": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-49",
+      "srcKey": "CO2018M-P1",
+      "no": 49,
+      "paper": "TECH1",
+      "q": "One of the features of Ms-Word to correct common spelling mistakes is_____",
+      "opts": {
+        "A": "AutoCorrect",
+        "B": "AutoSpelling",
+        "C": "AutoCheck",
+        "D": "AutoVerify"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-50",
+      "srcKey": "CO2018M-P1",
+      "no": 50,
+      "paper": "TECH1",
+      "q": "The ability to combine name and addresses with a standard document is called _________",
+      "opts": {
+        "A": "Document formatting",
+        "B": "Database management",
+        "C": "Mail Merge",
+        "D": "Format letters"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-51",
+      "srcKey": "CO2018M-P1",
+      "no": 51,
+      "paper": "TECH1",
+      "q": "Which can be used for quick access to commonly used commands and tools?",
+      "opts": {
+        "A": "Status bar",
+        "B": "Tool bar",
+        "C": "Menu bar",
+        "D": "Title bar"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-52",
+      "srcKey": "CO2018M-P1",
+      "no": 52,
+      "paper": "TECH1",
+      "q": "“Ctrl + Right Arrow” is used to",
+      "opts": {
+        "A": "Moves the cursor one word right",
+        "B": "Moves the cursor end of the line",
+        "C": "Moves the cursor end of the document",
+        "D": "Moves the cursor one Paragraph down"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-53",
+      "srcKey": "CO2018M-P1",
+      "no": 53,
+      "paper": "TECH1",
+      "q": "Ctrl + G is used to",
+      "opts": {
+        "A": "Open Paragraph Dialog box activating Goto Tab",
+        "B": "Open Page Setup Dialog box activating Goto Tab",
+        "C": "Open Find and Replace Dialog box with activating Goto Tab",
+        "D": "Open Goto Dialog box"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-54",
+      "srcKey": "CO2018M-P1",
+      "no": 54,
+      "paper": "TECH1",
+      "q": "Which view can be used to see how text and graphics will appear on the printed page?",
+      "opts": {
+        "A": "Normal",
+        "B": "Print preview",
+        "C": "Outline",
+        "D": "Web Layout"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-55",
+      "srcKey": "CO2018M-P1",
+      "no": 55,
+      "paper": "TECH1",
+      "q": "How can you apply exactly the same formatting you did to another text?",
+      "opts": {
+        "A": "Copy the text and paste in new location. Then type the new text again",
+        "B": "Copy the text and click on Paste Special tool on new place",
+        "C": "Select the text then click on Format Painter and select the new text",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-56",
+      "srcKey": "CO2018M-P1",
+      "no": 56,
+      "paper": "TECH1",
+      "q": "The maximum number of columns that can be inserted in MS-Word table is",
+      "opts": {
+        "A": "35",
+        "B": "15",
+        "C": "63",
+        "D": "65"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-57",
+      "srcKey": "CO2018M-P1",
+      "no": 57,
+      "paper": "TECH1",
+      "q": "The maximum number of work sheet in a work book is____________",
+      "opts": {
+        "A": "100",
+        "B": "155",
+        "C": "200",
+        "D": "255"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-58",
+      "srcKey": "CO2018M-P1",
+      "no": 58,
+      "paper": "TECH1",
+      "q": "Excel recognizes an entry as formula if it is preceded by either = or __________",
+      "opts": {
+        "A": "+",
+        "B": "-",
+        "C": "*",
+        "D": "/"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-59",
+      "srcKey": "CO2018M-P1",
+      "no": 59,
+      "paper": "TECH1",
+      "q": "By default, MS-Excel uses ____________ referencing while copying formulas.",
+      "opts": {
+        "A": "Absolute",
+        "B": "Relative",
+        "C": "Mixed",
+        "D": "Transitive"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-60",
+      "srcKey": "CO2018M-P1",
+      "no": 60,
+      "paper": "TECH1",
+      "q": "To make the cell referencing absolute, the column label or row number should be preceded by_______",
+      "opts": {
+        "A": "&",
+        "B": "@",
+        "C": "#",
+        "D": "$"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

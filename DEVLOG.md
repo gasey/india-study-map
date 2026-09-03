@@ -9,6 +9,145 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-03 (latest) — Recovered the paper a filename collision destroyed: MIMER 2018 Computer Operator Technical Paper I, all 75 questions
+
+**What shipped.** The one Tier 1 paper that was missing entirely. The System
+Manager bank goes **1,888 → 1,963 questions**, and the 2018 MIMER sitting stops
+being the only one with a hole in it — it had General English and Technical
+Paper II but no Paper I, because the paper was never on this machine.
+
+- **`tools/system-manager-build/extract_p1_2018.py`** — fetches nothing at run
+  time; parses `sources/mimer-2018-computer-operator-technical-paper-i.pdf`
+  (328,026 bytes, sha256 pinned in the script), now committed to the repo. The
+  PDF came from MPSC's live copy at
+  `uploads/attachments/963bc976d8dfb7ce26c046ac1c4dba1b/technical-paper-i-compt.pdf`,
+  the URL the 2026-08-31 entry recorded. Clean 7-page text layer, so this is a
+  **parser, not OCR and not a vision pass** — no model reads the questions and
+  nothing in the path can hallucinate one.
+- **75/75 extracted**, numbering 1..75 with no gaps, none figure-dependent, none
+  quarantined. Answers: **62 high, 9 medium, 4 low**.
+- **`extracted_meta.py`** — one table describing the `extracted/` papers,
+  imported by `assemble.py`, `solve.py` and `tagging.py`. It replaces three
+  separate copies of the same srcKey→paper mapping (`P2_META` in assemble,
+  `P2_PAPER` in tagging, nothing at all in solve).
+- Practice, Mock, Past Papers and Repeats all reach the new questions; a live
+  20-question practice draw pulled 3 of them. Repeats' TECH1 pool grows 296 →
+  **371** and gains 2 groups, with **"needs a source check: 0"** — the new
+  paper's reprints contradict no existing copy.
+
+**Why the header guard is a list and has a negative test.** Last time this
+sitting was touched, a guard asking only for `MIZORAM INSTITUTE OF MEDICAL
+EDUCATION AND RESEARCH` — true of every MIMER paper whatever the post — admitted
+75 **Laboratory Technician** questions as Computer Operator Paper I. So before
+parsing anything I checked the local corpus by printed header rather than
+filename: it holds 13 Computer Operator papers, MIMER 2018 contributes only P-II
+and the common GE, and `1./2./3.Technical Paper-I.pdf` are Medical Record
+Technician / Laboratory Technician / PHE Programmer respectively. The paper
+really was gone. `REQUIRE_HEADER` now pins the post and `REJECT_HEADER` names
+the three MIMER posts that share the flattened filename, so the collision fails
+loudly instead of silently substituting a different exam.
+
+**Two parser bugs the validators caught, both of which would have shipped.**
+
+1. **Q21 options (a) and (b) were destroyed by option (c).** The paper prints
+   `(c) Both (a) and (b)`, and reading those inline markers as fresh option
+   markers overwrote (a) with the word "and" and left (b) empty. Fixed by only
+   accepting a marker whose letter is the *next* one the question still needs.
+   `Both (a) and (b)` is a standard MPSC option, so this was never a one-off.
+2. **Q63's Excel grid was being flattened into `A B C D 1 20 4 5 2 10 10 5 3 10
+   5 8`.** The question gives a worksheet and asks what `=IF(A1+C1>A2+B2,
+   "MIMER","FALKAWN")` returns; with the columns collapsed it is unanswerable,
+   which is the "unanswerable as extracted" class CLAUDE.md lists as a known
+   rough edge. It did not have to be: the grid is right there in the text
+   layer. `assemble_stem()` now keeps column-aligned rows on their own lines and
+   only space-joins genuine prose wraps, and `.qtext`'s `white-space: pre-wrap`
+   carries it to the reader — the same mechanism that already renders the C
+   program in `CO2016B-P1-28`. Verified in the browser: 5 rendered lines, grid
+   intact. (`A1+C1 = 25 > A2+B2 = 20`, so the answer is MIMER.)
+
+**A word-level round-trip check, because a count is not evidence.** Every
+structural check can pass on mangled data — 75 questions with 4 options each is
+exactly what a parser that quietly truncates long stems produces. So the script
+compares the source's words against the parse's words as multisets: **all 1,825
+source words accounted for, none invented**. I negative-tested it, and it
+catches a dropped word, an invented word, and a whole lost question. This bank
+has shipped a silent 280-question loss and a silently garbled question before;
+that history is the reason this check exists.
+
+**Answers: two blind solves by different models, then diffed.** `solve.py`'s own
+docstring requires this where the bank holds no answer, and it holds none here.
+Pass A (Opus) and pass B (Sonnet) each answered all 75 blind, forbidden from
+reading each other or `questions.js`. **74/75 agreed.** The single disagreement
+is Q69 ("how many different slide layout are there in MS-PowerPoint", options
+4/10/14/20), which *both* passes independently rated low and called defective —
+it ships with `alt`, showing both candidates and crediting the rival to "second
+solver" rather than to the bank.
+
+**A third, independent check that earned its keep.** Before the solvers ran I
+matched the 75 against the existing bank for reprints, since MPSC reuses
+Technical Paper I questions. Five matched, and all five agree with what the
+solvers later concluded — but two were traps that a letter-copying shortcut
+would have got wrong, which is worth recording:
+
+- **Q32** — the bank's near-twin `CO2016A-P1-31` asks how many *Chapters* the IT
+  Act 2000 has (keyed D = 13 Chapters). This one asks *sections* (80/94/102/142).
+  Copying letter D would have keyed it to "142 sections". The answer is 94.
+- **Q45** — matched an authored practice question keyed B = `.docx`, but here (b)
+  is `.doc or .txt`. The answer is (a) `.doc or .docx`.
+
+Compare option *text*, never the letter. Same shape as the `/official/i` bug in
+CLAUDE.md: the cheap test agrees with the right answer often enough to look fine.
+
+**One fabricated explanation removed.** Pass A justified Q69 with "The
+circulated exam key for this stock question is 4". There is no circulated key —
+the app's own provenance line for this paper says MPSC published none, and
+SOLVE_BRIEF rule 4 forbids inventing one. The answer was left alone; only the
+invented authority was rewritten, to say plainly that the question is defective
+and that (a) is a guess at intent rather than a fact about PowerPoint. I swept
+all 75 explanations for similar key/authority claims and this was the only one.
+
+**A latent bug fixed on the way.** `tagging.py`'s `all_questions()` did
+`paper = P2_PAPER.get(key)` then `if not paper: continue` — so adding a paper to
+`extracted/` without updating that table dropped it from tagging **with no
+message**. It would have shipped untagged, invisible to Practice's unit filter
+and linked to no concept. It now fails loudly. Also `solve.py --export` used to
+delete *every* `*.todo.json` whenever it ran, so exporting one sitting wiped the
+other nineteen sittings' record of exactly what each solver was shown; it now
+clears only the batches it is about to rewrite.
+
+**What's still open.**
+
+- **Q69 stays disputed.** Genuinely defective as printed — no PowerPoint version
+  has 4, 10, 14 or 20 layouts as *the* answer. Both candidates are shown.
+- **Three real taxonomy gaps the tagging surfaced**, all flagged by the tagging
+  agents rather than papered over. **Unit IV has no plain `Charts` leaf** (only
+  `Pivot Charts`/`Pivot Tables`/`Dashboards`), so Q65's basic Excel pie-chart
+  question sits under `Pivot Charts` and that leaf will silently accumulate
+  non-pivot content. **Magnetic tape has no leaf anywhere** — Q13/14/15 ask
+  about tape's track/frame organisation and are parked under `Backup Concepts`
+  and `Optical and Flash Storage`. **GUI widgets have no leaf** — Q41 (radio vs
+  check box) went under `Windows Operating Systems`. Q32's IT-Act-sections
+  trivia is under `Cyber Ethics` for consistency with `CO2016A-P1-31`, though the
+  MUDAL syllabus does not cover the Act's structure.
+- **`dup_of` is not set on `extracted/` papers.** `harvest.py` tags exact
+  reprints during its own dedup, but papers that bypass harvest never get the
+  field — true of the two 2016 Paper IIs as well as this one. Nothing in the app
+  reads `dup_of` today and the Repeats tab clusters from question text directly,
+  so this is cosmetic; `find_repeats.py --audit` is where it would show up.
+- **Past-paper leaf coverage is still the real gap.** This paper closed 5
+  previously-uncovered TECH1 leaves (61 → 56 with no past-paper question), but
+  TECH2 is untouched at 74. Half the syllabus still rests on authored questions.
+- **CLAUDE.md's source-PDF path is still stale** (unchanged from below), though
+  it is now less load-bearing for this paper specifically: its source PDF lives
+  in the repo at `tools/system-manager-build/sources/`, which is where future
+  recoveries should put theirs rather than depending on `~/Downloads`.
+- **Screenshots could not be captured** — the browser pane's screenshot action
+  timed out repeatedly on this app while JS execution, console reads and page
+  text all worked normally. Verification above is DOM- and click-based, which
+  covers behaviour but not pixels.
+
+---
+
 ## 2026-09-03 (last) — Chasing the Repeats tab's two findings: one was a real OCR bug, the other was a trap I nearly walked into
 
 **What shipped.** Two OCR repairs, and a deliberate refusal to "fix" the other

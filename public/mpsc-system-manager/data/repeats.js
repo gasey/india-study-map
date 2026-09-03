@@ -7,8 +7,8 @@ window.QUESTION_REPEATS = {
  "pool": {
   "paper": "TECH1",
   "src": "past",
-  "questions": 296,
-  "sittings": 4
+  "questions": 371,
+  "sittings": 5
  },
  "groups": [
   {
@@ -81,6 +81,21 @@ window.QUESTION_REPEATS = {
   },
   {
    "ids": [
+    "CO2016A-P1-53",
+    "CO2018M-P1-56"
+   ],
+   "n": 2,
+   "sittings": [
+    "Computer Operator (Contract) under SAD, 2016 - Technical Paper I",
+    "Computer Operator under MIMER, 2018 - Technical Paper I"
+   ],
+   "unit": "III",
+   "sub": "Tables",
+   "mismatch": "",
+   "gid": "R05"
+  },
+  {
+   "ids": [
     "CO2016A-P1-6",
     "CO2019A-P1-17"
    ],
@@ -92,7 +107,22 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "CPU Architecture and Instruction Cycle",
    "mismatch": "",
-   "gid": "R05"
+   "gid": "R06"
+  },
+  {
+   "ids": [
+    "CO2016A-P1-71",
+    "CO2018M-P1-74"
+   ],
+   "n": 2,
+   "sittings": [
+    "Computer Operator (Contract) under SAD, 2016 - Technical Paper I",
+    "Computer Operator under MIMER, 2018 - Technical Paper I"
+   ],
+   "unit": "V",
+   "sub": "Presentation Design",
+   "mismatch": "",
+   "gid": "R07"
   },
   {
    "ids": [
@@ -107,7 +137,7 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "CPU Architecture and Instruction Cycle",
    "mismatch": "",
-   "gid": "R06"
+   "gid": "R08"
   },
   {
    "ids": [
@@ -122,7 +152,7 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "Classification of Computers",
    "mismatch": "",
-   "gid": "R07"
+   "gid": "R09"
   },
   {
    "ids": [
@@ -137,7 +167,7 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "System Bus and Expansion Slots",
    "mismatch": "",
-   "gid": "R08"
+   "gid": "R10"
   },
   {
    "ids": [
@@ -152,7 +182,7 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "Memory Hierarchy",
    "mismatch": "",
-   "gid": "R09"
+   "gid": "R11"
   },
   {
    "ids": [
@@ -167,7 +197,7 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "Evolution and Generations of Computers",
    "mismatch": "",
-   "gid": "R10"
+   "gid": "R12"
   },
   {
    "ids": [
@@ -182,7 +212,7 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "System Software",
    "mismatch": "",
-   "gid": "R11"
+   "gid": "R13"
   },
   {
    "ids": [
@@ -197,7 +227,7 @@ window.QUESTION_REPEATS = {
    "unit": "II",
    "sub": "File Systems",
    "mismatch": "",
-   "gid": "R12"
+   "gid": "R14"
   },
   {
    "ids": [
@@ -212,7 +242,7 @@ window.QUESTION_REPEATS = {
    "unit": "IV",
    "sub": "Formulae and Functions",
    "mismatch": "",
-   "gid": "R13"
+   "gid": "R15"
   },
   {
    "ids": [
@@ -227,7 +257,7 @@ window.QUESTION_REPEATS = {
    "unit": "IV",
    "sub": "Formulae and Functions",
    "mismatch": "",
-   "gid": "R14"
+   "gid": "R16"
   },
   {
    "ids": [
@@ -242,7 +272,7 @@ window.QUESTION_REPEATS = {
    "unit": "IV",
    "sub": "Conditional Formatting",
    "mismatch": "",
-   "gid": "R15"
+   "gid": "R17"
   },
   {
    "ids": [
@@ -257,7 +287,7 @@ window.QUESTION_REPEATS = {
    "unit": "IV",
    "sub": "Workbook Management",
    "mismatch": "",
-   "gid": "R16"
+   "gid": "R18"
   },
   {
    "ids": [
@@ -272,7 +302,7 @@ window.QUESTION_REPEATS = {
    "unit": "V",
    "sub": "Slide Master",
    "mismatch": "",
-   "gid": "R17"
+   "gid": "R19"
   },
   {
    "ids": [
@@ -287,7 +317,7 @@ window.QUESTION_REPEATS = {
    "unit": "V",
    "sub": "Animation",
    "mismatch": "",
-   "gid": "R18"
+   "gid": "R20"
   },
   {
    "ids": [
@@ -302,7 +332,7 @@ window.QUESTION_REPEATS = {
    "unit": "V",
    "sub": "Slide Master",
    "mismatch": "",
-   "gid": "R19"
+   "gid": "R21"
   },
   {
    "ids": [
@@ -317,7 +347,7 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "CPU Architecture and Instruction Cycle",
    "mismatch": "",
-   "gid": "R20"
+   "gid": "R22"
   },
   {
    "ids": [
@@ -332,7 +362,7 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "CPU Architecture and Instruction Cycle",
    "mismatch": "",
-   "gid": "R21"
+   "gid": "R23"
   },
   {
    "ids": [
@@ -347,7 +377,7 @@ window.QUESTION_REPEATS = {
    "unit": "I",
    "sub": "HDD, SSD and NVMe Storage",
    "mismatch": "",
-   "gid": "R22"
+   "gid": "R24"
   },
   {
    "ids": [
@@ -362,7 +392,7 @@ window.QUESTION_REPEATS = {
    "unit": "II",
    "sub": "Command Prompt",
    "mismatch": "",
-   "gid": "R23"
+   "gid": "R25"
   },
   {
    "ids": [
@@ -377,7 +407,7 @@ window.QUESTION_REPEATS = {
    "unit": "III",
    "sub": "Styles and Themes",
    "mismatch": "",
-   "gid": "R24"
+   "gid": "R26"
   },
   {
    "ids": [
@@ -392,63 +422,67 @@ window.QUESTION_REPEATS = {
    "unit": "IV",
    "sub": "Pivot Charts",
    "mismatch": "",
-   "gid": "R25"
+   "gid": "R27"
   }
  ],
  "byId": {
-  "CO2016A-P1-6": "R05",
-  "CO2016A-P1-9": "R06",
-  "CO2016B-P1-1": "R07",
-  "CO2016B-P1-10": "R08",
+  "CO2016A-P1-53": "R05",
+  "CO2016A-P1-6": "R06",
+  "CO2016A-P1-71": "R07",
+  "CO2016A-P1-9": "R08",
+  "CO2016B-P1-1": "R09",
+  "CO2016B-P1-10": "R10",
   "CO2016B-P1-11": "R01",
-  "CO2016B-P1-12": "R09",
-  "CO2016B-P1-3": "R10",
+  "CO2016B-P1-12": "R11",
+  "CO2016B-P1-3": "R12",
   "CO2016B-P1-34": "R02",
-  "CO2016B-P1-40": "R11",
-  "CO2016B-P1-42": "R12",
+  "CO2016B-P1-40": "R13",
+  "CO2016B-P1-42": "R14",
   "CO2016B-P1-52": "R03",
   "CO2016B-P1-54": "R04",
-  "CO2016B-P1-58": "R13",
-  "CO2016B-P1-61": "R14",
-  "CO2016B-P1-63": "R15",
-  "CO2016B-P1-66": "R16",
-  "CO2016B-P1-69": "R17",
-  "CO2016B-P1-70": "R18",
-  "CO2016B-P1-72": "R19",
-  "CO2016B-P1-8": "R20",
-  "CO2016B-P1-9": "R21",
-  "CO2019A-P1-15": "R10",
-  "CO2019A-P1-16": "R20",
-  "CO2019A-P1-17": "R05",
-  "CO2019A-P1-18": "R06",
-  "CO2019A-P1-20": "R09",
-  "CO2019A-P1-27": "R07",
-  "CO2019A-P1-3": "R22",
+  "CO2016B-P1-58": "R15",
+  "CO2016B-P1-61": "R16",
+  "CO2016B-P1-63": "R17",
+  "CO2016B-P1-66": "R18",
+  "CO2016B-P1-69": "R19",
+  "CO2016B-P1-70": "R20",
+  "CO2016B-P1-72": "R21",
+  "CO2016B-P1-8": "R22",
+  "CO2016B-P1-9": "R23",
+  "CO2018M-P1-56": "R05",
+  "CO2018M-P1-74": "R07",
+  "CO2019A-P1-15": "R12",
+  "CO2019A-P1-16": "R22",
+  "CO2019A-P1-17": "R06",
+  "CO2019A-P1-18": "R08",
+  "CO2019A-P1-20": "R11",
+  "CO2019A-P1-27": "R09",
+  "CO2019A-P1-3": "R24",
   "CO2019A-P1-37": "R02",
-  "CO2019A-P1-38": "R23",
-  "CO2019A-P1-39": "R11",
-  "CO2019A-P1-40": "R12",
+  "CO2019A-P1-38": "R25",
+  "CO2019A-P1-39": "R13",
+  "CO2019A-P1-40": "R14",
   "CO2019A-P1-51": "R03",
-  "CO2019A-P1-54": "R24",
+  "CO2019A-P1-54": "R26",
   "CO2019A-P1-56": "R04",
-  "CO2019A-P1-57": "R13",
-  "CO2019A-P1-60": "R25",
-  "CO2019A-P1-63": "R16",
-  "CO2019A-P1-65": "R14",
-  "CO2019A-P1-7": "R21",
-  "CO2019A-P1-73": "R18",
-  "CO2019A-P1-74": "R19",
-  "CO2019A-P1-75": "R17",
-  "CO2019A-P1-8": "R08",
+  "CO2019A-P1-57": "R15",
+  "CO2019A-P1-60": "R27",
+  "CO2019A-P1-63": "R18",
+  "CO2019A-P1-65": "R16",
+  "CO2019A-P1-7": "R23",
+  "CO2019A-P1-73": "R20",
+  "CO2019A-P1-74": "R21",
+  "CO2019A-P1-75": "R19",
+  "CO2019A-P1-8": "R10",
   "CO2019A-P1-9": "R01",
   "CO2019B-P1-16": "R01",
-  "CO2019B-P1-36": "R23",
+  "CO2019B-P1-36": "R25",
   "CO2019B-P1-43": "R02",
   "CO2019B-P1-45": "R03",
-  "CO2019B-P1-46": "R24",
+  "CO2019B-P1-46": "R26",
   "CO2019B-P1-55": "R04",
-  "CO2019B-P1-62": "R15",
-  "CO2019B-P1-68": "R25",
-  "CO2019B-P1-7": "R22"
+  "CO2019B-P1-62": "R17",
+  "CO2019B-P1-68": "R27",
+  "CO2019B-P1-7": "R24"
  }
 };

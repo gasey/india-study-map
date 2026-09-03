@@ -1,0 +1,77 @@
+{
+  "CO2018M-P1-61": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Dragging one column's dividing line while several columns are selected applies that same width to every selected column, which is the standard way to equalise widths. Option D fails because column width lives under Format (or the right-click menu), not Edit, and B misuses Insert."
+  },
+  "CO2018M-P1-62": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A colon is Excel's range operator, so =SUM(F2:F23) totals every cell from F2 through F23. =SUM(F2+F23) adds only the two endpoint cells, and the space and # forms are not valid range syntax."
+  },
+  "CO2018M-P1-63": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A1+C1 = 20+5 = 25 and A2+B2 = 10+10 = 20, so the test 25>20 is TRUE and the formula returns its value_if_true. FALKAWN is the false branch, and 25 is a trap for reading the sum rather than the IF result."
+  },
+  "CO2018M-P1-64": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Excel's what-if Data Table tool comes in exactly two forms: a one-variable (one-input) table that varies a single input down a column or across a row, and a two-variable table that varies two inputs at once. The row/column and vertical/horizontal pairings are invented labels."
+  },
+  "CO2018M-P1-65": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A pie chart shows the parts of a single whole, so it can plot only one data series; extra series are ignored. Charting more than one series at a time needs a doughnut, bar or column chart instead."
+  },
+  "CO2018M-P1-66": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Operation section of Paste Special offers only None, Add, Subtract, Multiply and Divide. SQRT is an ordinary worksheet function, not a paste operation, so it never appears in that dialog box."
+  },
+  "CO2018M-P1-67": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Double-clicking the right border of a column heading auto-fits that column to its widest entry. Double-clicking the heading itself only selects the column, and the left border belongs to the neighbouring column, so it would auto-fit the wrong one."
+  },
+  "CO2018M-P1-68": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "MOD(number, divisor) returns the remainder of the division, e.g. MOD(10,3) gives 1. ROUND only rounds a value, FACT returns a factorial, and DIV is not an Excel worksheet function at all."
+  },
+  "CO2018M-P1-69": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "This question is defective as printed and none of 4/10/14/20 is objectively correct: the number of built-in slide layouts depends entirely on the PowerPoint version and theme, and the default Office Theme master carries about eleven. (a) is the closest reading only if the question means the four broad layout groupings older Office versions listed - Text, Content, Text and Content, Other - which is a guess at intent, not a fact about PowerPoint. A second independent solve read it as (b) instead."
+  },
+  "CO2018M-P1-70": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A template is the ready-made design file that supplies fonts, colours, background and placeholder arrangement for a new presentation. Layout only governs placeholder positions on a single slide, and Designer/Guide are not the term for a stored design."
+  },
+  "CO2018M-P1-71": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Notes Page view shows a slide image above a text box for the presenter's spoken notes, which print as speaker notes. Outline view edits slide text, Slide Sorter rearranges slides, and Slide Show only plays the presentation."
+  },
+  "CO2018M-P1-72": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Rehearse Timings runs the show while recording how long you spend on each slide, storing an individual advance time per slide. The other three option names are not actual PowerPoint commands."
+  },
+  "CO2018M-P1-73": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Slide Transition controls the motion effect that plays as one slide leaves and the next appears. Animation applies to objects within a single slide, which is the classic confusion this question tests, and Slide Design only changes appearance."
+  },
+  "CO2018M-P1-74": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Ctrl+M inserts a new slide into the open presentation. Ctrl+N is the trap, since it creates a whole new blank presentation rather than a slide, while Ctrl+S saves and Ctrl+A selects all."
+  },
+  "CO2018M-P1-75": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Sound in PowerPoint is added as .wav (recorded waveform audio) or .mid/.midi (sequenced music) files. The .gif and .jpg extensions in the other options are image formats and carry no audio."
+  }
+}

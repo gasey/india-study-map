@@ -1,0 +1,307 @@
+{
+  "srcKey": "CO2018M-P1",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2018M-P1-21",
+      "srcKey": "CO2018M-P1",
+      "no": 21,
+      "paper": "TECH1",
+      "q": "Mouse is an example of",
+      "opts": {
+        "A": "Input device",
+        "B": "Point and Draw device",
+        "C": "Both (a) and (b)",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-22",
+      "srcKey": "CO2018M-P1",
+      "no": 22,
+      "paper": "TECH1",
+      "q": "In OCR device , the OCR software perform",
+      "opts": {
+        "A": "Conversion of Bitmap Image into it’s equivalent text",
+        "B": "Conversion of text into Its equivalent Bitmap image",
+        "C": "Conversion of text into Its equivalent ASCII code",
+        "D": "Conversion of ASCII code into Its Equivalent bitmap image"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-23",
+      "srcKey": "CO2018M-P1",
+      "no": 23,
+      "paper": "TECH1",
+      "q": "In an OMR sheet, darkening one of the options is recognize by the system due to",
+      "opts": {
+        "A": "Light absorption",
+        "B": "Light deflection",
+        "C": "Light refraction",
+        "D": "Light Reflection"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-24",
+      "srcKey": "CO2018M-P1",
+      "no": 24,
+      "paper": "TECH1",
+      "q": "In a bar code, the alphanumeric data is represented by",
+      "opts": {
+        "A": "Bar width",
+        "B": "Bar spacing",
+        "C": "Bar length",
+        "D": "Combination of bar width and spacing"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-25",
+      "srcKey": "CO2018M-P1",
+      "no": 25,
+      "paper": "TECH1",
+      "q": "In an ink jet color printer, the color combination for color cartridge is",
+      "opts": {
+        "A": "Cyan, Yellow and Magenta",
+        "B": "Red, Green and Black",
+        "C": "Cyan, Green and Blue",
+        "D": "Magenta, Green and Red"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-26",
+      "srcKey": "CO2018M-P1",
+      "no": 26,
+      "paper": "TECH1",
+      "q": "Programming language translator such as Compiler etc. is an example of",
+      "opts": {
+        "A": "System Software",
+        "B": "Application software",
+        "C": "Utility software",
+        "D": "Enhancing Software"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-27",
+      "srcKey": "CO2018M-P1",
+      "no": 27,
+      "paper": "TECH1",
+      "q": "A software that is used to substitute a hardware and stored in read only memory is called",
+      "opts": {
+        "A": "Middleware",
+        "B": "Firmware",
+        "C": "Bridge ware",
+        "D": "Customized ware"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-28",
+      "srcKey": "CO2018M-P1",
+      "no": 28,
+      "paper": "TECH1",
+      "q": "The first part of software development life cycle is",
+      "opts": {
+        "A": "System design",
+        "B": "System analysis",
+        "C": "Implementation",
+        "D": "Requirement specification"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-29",
+      "srcKey": "CO2018M-P1",
+      "no": 29,
+      "paper": "TECH1",
+      "q": "What is the language understood by a computer without translation?",
+      "opts": {
+        "A": "High Level Language",
+        "B": "Assembly Language",
+        "C": "Machine language",
+        "D": "Object oriented language"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-30",
+      "srcKey": "CO2018M-P1",
+      "no": 30,
+      "paper": "TECH1",
+      "q": "What is the translator for high level language that translate and execute one statement at a time before taking the next statement?",
+      "opts": {
+        "A": "Assembler",
+        "B": "Linker",
+        "C": "Interpreter",
+        "D": "Compiler"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-31",
+      "srcKey": "CO2018M-P1",
+      "no": 31,
+      "paper": "TECH1",
+      "q": "In Mainframe computer system, the main computer is called______________",
+      "opts": {
+        "A": "Host",
+        "B": "Terminal",
+        "C": "Front end computer",
+        "D": "Back End Computer"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-32",
+      "srcKey": "CO2018M-P1",
+      "no": 32,
+      "paper": "TECH1",
+      "q": "The information Technology Act 2000 consist of_____________",
+      "opts": {
+        "A": "80 sections",
+        "B": "94 sections",
+        "C": "102 sections",
+        "D": "142 sections"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-33",
+      "srcKey": "CO2018M-P1",
+      "no": 33,
+      "paper": "TECH1",
+      "q": "An operating system that supports execution of more than one job at a time is called",
+      "opts": {
+        "A": "Multi-User Operating system",
+        "B": "Real Time Operating system",
+        "C": "Concurrent operating system",
+        "D": "Multitasking operating system"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-34",
+      "srcKey": "CO2018M-P1",
+      "no": 34,
+      "paper": "TECH1",
+      "q": "The operating system determines and maintains the order in which jobs are to be executed, This task is called",
+      "opts": {
+        "A": "Job sequencing",
+        "B": "Job Scheduling",
+        "C": "Job arranging",
+        "D": "Job Ordering"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-35",
+      "srcKey": "CO2018M-P1",
+      "no": 35,
+      "paper": "TECH1",
+      "q": "The first window NT was introduced in the year____________",
+      "opts": {
+        "A": "1989",
+        "B": "1990",
+        "C": "1993",
+        "D": "1998"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-36",
+      "srcKey": "CO2018M-P1",
+      "no": 36,
+      "paper": "TECH1",
+      "q": "Which version of windows introduce window System update",
+      "opts": {
+        "A": "Windows NT 4.0",
+        "B": "Windows 98",
+        "C": "Windows Millennium",
+        "D": "Windows 2000"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-37",
+      "srcKey": "CO2018M-P1",
+      "no": 37,
+      "paper": "TECH1",
+      "q": "System restore feature of windows was introduced in_____________",
+      "opts": {
+        "A": "Windows 2000",
+        "B": "Windaws XP",
+        "C": "Windaws 7",
+        "D": "Windaws 10"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-38",
+      "srcKey": "CO2018M-P1",
+      "no": 38,
+      "paper": "TECH1",
+      "q": "The temporary storage for files and documents that have been deleted is___________",
+      "opts": {
+        "A": "My Document",
+        "B": "My Computer",
+        "C": "My Folder",
+        "D": "Recycle Bin"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-39",
+      "srcKey": "CO2018M-P1",
+      "no": 39,
+      "paper": "TECH1",
+      "q": "Shortcut Icons can be identified by_______________",
+      "opts": {
+        "A": "Small arrow in the lower left corner",
+        "B": "Small arrow in the lower right corner",
+        "C": "Small arrow in the upper left corner",
+        "D": "Small arrow in the upper right corner"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-40",
+      "srcKey": "CO2018M-P1",
+      "no": 40,
+      "paper": "TECH1",
+      "q": "The right corner of the task bar has_______________",
+      "opts": {
+        "A": "Start button",
+        "B": "Toolbars",
+        "C": "Task Buttons",
+        "D": "Notification area"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

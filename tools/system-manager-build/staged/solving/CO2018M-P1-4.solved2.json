@@ -1,0 +1,77 @@
+{
+  "CO2018M-P1-61": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Selecting all the visible columns first, then dragging any one column's border, resizes every selected column to match it — this is the standard Excel technique for equal column widths. 'Insert' (B) and 'Edit' (D) name the wrong menus, and dragging with only two columns selected (C) leaves the rest untouched."
+  },
+  "CO2018M-P1-62": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "SUM with a colon denotes a continuous cell range, so =SUM(F2:F23) adds every value from F2 through F23. A plus sign or a space between the cell references is invalid range syntax, and # is not a valid range operator in Excel."
+  },
+  "CO2018M-P1-63": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A1+C1 = 20+5 = 25 and A2+B2 = 10+10 = 20; since 25 is greater than 20, the IF condition is true and the cell displays the value_if_true argument, \"MIMER\", not the FALKAWN fallback or a raw number."
+  },
+  "CO2018M-P1-64": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Excel's What-If Analysis offers exactly two data table types: a one-variable data table, which tests several values of a single input, and a two-variable data table, which tests combinations of two inputs against one formula."
+  },
+  "CO2018M-P1-65": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A pie chart can plot only a single data series, since it shows that series' values as proportional slices of one whole circle; plotting a second series would make the slice proportions meaningless."
+  },
+  "CO2018M-P1-66": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Paste Special dialog's Operation section offers None, Add, Subtract, Multiply, and Divide to combine copied values arithmetically with existing cell contents; SQRT is a worksheet function, not a paste operation."
+  },
+  "CO2018M-P1-67": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Double-clicking a column header's right border tells Excel to auto-fit that column's width to its widest entry; double-clicking the left border or the column name itself does not trigger auto-fit."
+  },
+  "CO2018M-P1-68": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "MOD() returns the remainder after dividing a number by a divisor (e.g. MOD(10,3) = 1); ROUND() rounds a number, FACT() computes a factorial, and DIV() is not an Excel function."
+  },
+  "CO2018M-P1-69": {
+    "ans": "B",
+    "conf": "low",
+    "exp": "This count is genuinely uncertain: modern PowerPoint's default theme ships 9-11 built-in layouts, while older 2003-era PowerPoint grouped roughly 27-31 AutoLayouts into categories, so none of 4/10/14/20 cleanly matches a version I can verify — 10 is picked only as the closest commonly-cited figure, not a confirmed fact."
+  },
+  "CO2018M-P1-70": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A template is a readymade design — theme, color scheme, fonts, and placeholder layout — that a user applies to start a new presentation, distinct from a 'layout', which only arranges placeholders on one slide."
+  },
+  "CO2018M-P1-71": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Notes Page view shows each slide with a dedicated text box beneath it for typing and formatting the speaker's notes; Outline, Slide Sorter, and Slide Show views provide no notes-entry area at all."
+  },
+  "CO2018M-P1-72": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The Rehearse Timings command (on the Slide Show tab) lets the presenter run through the show while PowerPoint records how long each slide is displayed, so individual slides end up with different timings; 'Rehearse timer' is not the actual feature name."
+  },
+  "CO2018M-P1-73": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A Slide Transition is the motion effect played as one slide exits and the next enters; Animation (Objects/Scheme), by contrast, governs how individual elements move within a single slide, not between slides."
+  },
+  "CO2018M-P1-74": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Ctrl+M is PowerPoint's shortcut for inserting a new slide after the current one; Ctrl+N opens a new presentation, Ctrl+S saves the file, and Ctrl+A selects all objects or text."
+  },
+  "CO2018M-P1-75": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "PowerPoint can embed or link two native audio formats for slide sound effects, WAV (uncompressed audio) and MIDI (.mid) files; .gif and .jpg are image formats, not sound files."
+  }
+}

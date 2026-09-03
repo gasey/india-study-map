@@ -54,16 +54,51 @@ import os
 import sys
 from collections import Counter
 
+from extracted_meta import EXTRACTED_META
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 STAGED = os.path.join(HERE, "staged")
+EXTRACTED = os.path.join(HERE, "extracted")
 BATCHES = os.path.join(STAGED, "solving")
 LETTERS = ["A", "B", "C", "D"]
 BATCH_SIZE = 20
 CONFS = {"high", "medium", "low"}
 
 
+def extracted_unanswered():
+    """Extracted papers that arrived with no answers at all.
+
+    harvest.py can only see papers held in mpsc_bank_v2.json. The papers in
+    extracted/ are the ones it cannot reach, and those flagged answered=False
+    carry no answer of any kind — a pure text-layer transcription. They need
+    the same two-blind-pass treatment as Election Dec-2019 Paper II, and for
+    the same reason: with no bank answer to diff against, a lone solve ships
+    its own self-assessed confidence unchecked.
+
+    `_bank_ans` is None for every row here, which routes them down do_merge()'s
+    pass-B branch rather than the bank-comparison branch.
+    """
+    out = []
+    for key, meta in sorted(EXTRACTED_META.items()):
+        if meta["answered"]:
+            continue
+        path = os.path.join(EXTRACTED, f"{key}.json")
+        if not os.path.isfile(path):
+            continue
+        for r in json.load(open(path, encoding="utf-8")):
+            if r.get("ans") or r.get("needs_figure"):
+                continue     # already answered, or quarantine-bound anyway
+            out.append({
+                "id": f"{key}-{r['no']}", "srcKey": key, "no": r["no"],
+                "paper": meta["paper"], "q": r["q"], "opts": r["opts"],
+                "passageTitle": None, "passage": None,
+                "_bank_ans": None,
+            })
+    return out
+
+
 def unverified():
-    """Questions from the bank needing verification, with passages attached."""
+    """Questions needing verification, with passages attached."""
     hp = os.path.join(STAGED, "harvest.json")
     if not os.path.isfile(hp):
         sys.exit("FAIL: staged/harvest.json missing — run harvest.py first")
@@ -88,6 +123,7 @@ def unverified():
             "passage": p["text"] if p else None,
             "_bank_ans": r.get("ans"),      # stripped before export
         })
+    out.extend(extracted_unanswered())
     return out
 
 
@@ -114,8 +150,15 @@ def do_export(only=None, redo=False):
         sys.exit("nothing to export")
 
     os.makedirs(BATCHES, exist_ok=True)
+    # Clear only the batches we are about to rewrite. This used to wipe every
+    # *.todo.json unconditionally, which meant exporting one sitting deleted the
+    # other nineteen sittings' inputs — the record of exactly what each solver
+    # was shown, for answers that are already merged and shipping.
+    stale_keys = set(only) if only else {r["srcKey"] for r in rows}
     for stale in glob.glob(os.path.join(BATCHES, "*.todo.json")):
-        os.remove(stale)
+        base = os.path.basename(stale)
+        if any(base.startswith(f"{k}-") for k in stale_keys):
+            os.remove(stale)
 
     by_src = {}
     for r in rows:

@@ -2219,6 +2219,533 @@
     "agreement": "agree",
     "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
   },
+  "CO2018M-P1-1": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Versatility is the standard textbook name for a computer's ability to handle any task reducible to a finite sequence of logical steps. Diligence is the separate property of working without fatigue or loss of accuracy, so it is the classic trap here.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-2": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Second-generation computers (roughly 1956-1963) replaced vacuum tubes with transistors. Vacuum tube belongs to the first generation, IC to the third and VLSI to the fourth, so the generation number maps directly onto the switching device.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-3": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Charles Babbage conceived the Analytical Engine, the first design for a general-purpose programmable computer, and is conventionally called the father of the computer. Von Neumann contributed the stored-program architecture and Turing the theory of computation, but neither is given this title.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-4": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Primary memory is built mainly from RAM, which loses its contents the moment power is removed, making it volatile. USB drives, optical disks and magnetic disks are all secondary storage and retain data without power.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-5": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Registers are the small storage locations inside the CPU that hold operands, addresses and intermediate results temporarily while an instruction is being interpreted and executed. Cache memory is the tempting distractor, but cache is a staging buffer between CPU and main memory rather than the CPU's own temporary holding unit.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-6": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The program counter (instruction pointer) keeps track of the next instruction to be executed by holding its memory address, and is incremented after each fetch. The instruction register is the trap: it holds the instruction currently being decoded and executed, not the next one.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-7": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Processor speed is the clock rate, i.e. the number of clock cycles per second, and that rate is quoted in hertz units such as megahertz and gigahertz. Since all three descriptions name the same measure, the inclusive option is the intended one.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-8": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Access time is defined as the total time to locate and fetch stored data, and on a disk it is the sum of seek time, rotational latency and transfer time. Seek time and latency are only components of it, so picking either understates what the question describes.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-9": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Random access memory is precisely the case where retrieval time is the same regardless of which location is addressed. Sequential access devices such as tape take longer for data stored further along, and direct access (as on a disk) still varies with head position.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-10": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Word length is the number of bits held in one addressable memory location, which is why machines are described as 8-bit, 32-bit or 64-bit. Bit length and word limit are not standard terms in memory organisation.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-11": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "In the binary convention used throughout computer architecture, 1 kilobyte is 2^10 = 1024 bytes. The 1000-byte figure is the decimal SI kilobyte used in marketing disk capacities, and is the usual distractor in this question.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-12": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A magnetic disk surface is divided into invisible concentric circles called tracks. Sectors are the pie-slice divisions that cut across those tracks, so they are the trap for anyone who remembers the pair of terms but not which is circular.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-13": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Magnetic tape must be wound forward or backward to reach a record, so data can only be read in the order written, making it the classic sequential access device. Compact disks, flash drives and microSD cards all allow direct or random access to any location.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-14": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "On a nine-track tape the parallel rows running along the tape's length are the channels (also called tracks); the vertical column of bits taken across the tape width to encode one character is the frame. Frame is therefore the likely trap, though the paper's use of \"horizontal rows\" is loose enough that a setter working from a differently oriented diagram could have intended Frame.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-15": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Data density (recording density, measured in bits or bytes per inch) is defined as the amount of data stored per unit length of tape. Tape capacity is the total quantity the whole reel holds, which is density multiplied by length, not data per given length.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-16": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Disk capacity multiplies out the full addressing hierarchy: recording surfaces x tracks per surface x sectors per track x bytes per sector. The other options each drop or duplicate a level of that hierarchy, so their units do not resolve to bytes.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-17": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Disk size is quoted as the platter diameter, which is why drives are described as 3.5-inch, 5.25-inch or 1.44 MB 3.5-inch floppies. Radius, circumference and area are never used as the nominal size.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-18": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "An optical disk carries a single continuous spiral track running from the inner hub outwards, so the track count is one. This is the key structural contrast with a magnetic disk, which has many separate concentric tracks.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-19": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Because the spiral track begins at the inner hub, the laser assembly reads a CD or DVD from the centre outwards towards the outer edge. Reading outer-edge-to-centre would mean traversing the spiral backwards, which is not how the format is written.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-20": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Incremental backup copies only files created or modified since the previous backup, which is what keeps it fast and small compared with a full backup. Full backup copies everything each time, and \"evolutionary backup\" is not a real backup type.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-21": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A mouse feeds data into the computer, so it is an input device, and standard computer-fundamentals texts further class it specifically as a point-and-draw device (it positions a cursor and can draw). Since (a) and (b) are both true rather than competing, the combined option is the intended answer.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-22": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "An OCR scanner first captures the page as a bitmap image; the OCR software then recognises the character shapes in that image and turns them into machine-encoded text. Options (b) and (d) reverse the direction of conversion, and (c) describes ordinary keyboard/text encoding, not optical recognition.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-23": {
+    "ans": "D",
+    "conf": "low",
+    "exp": "An OMR reader shines a light beam at each bubble position and a photodetector measures the light coming back, so a darkened bubble is identified by the drop in reflected light. Note the printed options are genuinely ambiguous here: 'light absorption' is equally arguable, since it is the graphite mark absorbing the light that causes the weak reflection - the reflection reading is the mechanism the device actually senses, which is why it is chosen.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-24": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A bar code encodes characters as a pattern of parallel bars and intervening spaces of differing widths, so the data lives in the combination of bar width and spacing. Bar length is irrelevant - it only affects how easily the scanner can be aligned, which rules out (c).",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-25": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Colour inkjet printers use the subtractive CMY(K) model, so the colour cartridge holds cyan, magenta and yellow ink (black usually sits in a separate cartridge). Red/green/blue is the additive model used by monitors, which makes the RGB-flavoured options the classic trap.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-26": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Language translators - compilers, assemblers, interpreters - manage and support the machine itself rather than doing end-user work, which places them in system software along with the operating system. Application software (b) means user-facing programs like a word processor.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-27": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Firmware is software written permanently into ROM so it behaves like part of the hardware, substituting for circuitry that would otherwise have to be wired in. Middleware, by contrast, sits between applications and is not ROM-resident.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-28": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "In the standard software development life cycle the work begins by capturing what the software must do - requirements analysis and specification - and only then moves to design, coding, testing and maintenance. 'System analysis' is a defensible alternative in the older systems-analysis-and-design framing where analysis is named as the first phase, so this pair of options is somewhat overlapping; requirement specification is the phase named first in software-engineering texts.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-29": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Machine language is binary instruction code that the CPU executes directly, so it needs no translation. High-level, assembly and object-oriented languages all require a compiler, interpreter or assembler first.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-30": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "An interpreter takes one source statement, translates it and executes it, then moves to the next - which is why interpreted programs are slower but easier to debug. A compiler is the trap: it translates the entire program into object code before any execution begins.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-31": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "In a mainframe installation the central machine that does the processing and to which the dumb terminals connect is called the host computer. A terminal is only the user's access point, while front-end and back-end processors are auxiliary machines that handle communications or database work for the host.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-32": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "The Information Technology Act, 2000 as enacted was organised into 13 chapters with 94 sections (plus four schedules). The count is often misquoted because later amendments inserted sections such as 66A and 43A, but the Act as passed had 94.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-33": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Multitasking is precisely the ability of an operating system to keep more than one job or task in execution concurrently by interleaving them on the CPU. Multi-user (a) is about several people being served at once, which is a related but distinct property, and a real-time OS is defined by deadline guarantees rather than job count.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-34": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Deciding and maintaining the order in which submitted jobs get the CPU is the operating system's job scheduling function, carried out by the scheduler using policies such as FCFS or priority. 'Job sequencing' and the other two options are not the standard terms used for this OS task.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-35": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The first release in the line, Windows NT 3.1, shipped in July 1993 - it was numbered 3.1 to match the consumer Windows 3.1 of the day, which is why the year is often guessed wrongly as 1990 or 1991.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-36": {
+    "ans": "B",
+    "conf": "low",
+    "exp": "Windows 98 was the release that introduced Windows Update, the built-in web-based service for fetching patches and driver updates. Windows NT 4.0 still relied on manually installed Service Packs.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-37": {
+    "ans": "B",
+    "conf": "low",
+    "exp": "Windows 2000 had no System Restore, so of the versions printed here Windows XP is the earliest that shipped the feature. Strictly the feature debuted slightly earlier in Windows Me (2000), but Windows Millennium is not among the four options, which makes XP the intended answer.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-38": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Deleted files and folders are held in the Recycle Bin, from which they can be restored until the bin is emptied - that is what makes the storage temporary. My Documents and My Computer are ordinary locations for live files, not a holding area for deletions.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-39": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Windows overlays a small curved arrow badge on the lower-left corner of an icon to mark it as a shortcut - a pointer to a file rather than the file itself. The lower-right corner is where overlays such as the sharing or compatibility markers appear, so that is the usual wrong pick.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-40": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The right-hand end of the Windows taskbar holds the notification area (system tray) with the clock, volume, network and background-program icons. The Start button occupies the opposite, left-hand end, and task buttons fill the middle stretch.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-41": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Radio (option) buttons are drawn as a group in which selecting one automatically clears the others, which is exactly what \"mutually exclusive\" means. Check boxes are the classic trap here: they are independent toggles, so several may be ticked at once.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-42": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "In Windows XP/7 the utility sits at Start > All Programs > Accessories > System Tools > Disk Cleanup. The other paths drop the Accessories level, and System Tools is never a direct child of All Programs.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-43": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Listing files needs DIR (there is no LIST command in DOS) and the pattern must be *.EXE, with the dot separating name from extension. Only this option has both, though it is printed without the space after DIR; B keeps the space but its *EXE pattern lacks the dot, so it would not match by extension.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-44": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "The hidden attribute is turned on with a plus sign, so +h hides the folder, and the widely taught DOS recipe pairs it with +s to also mark it as a system folder so Windows keeps it out of view. Note D also sets +h and would hide the folder too, but it clears the system attribute, so A is the standard intended form.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-45": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Word saves as .doc up to Office 2003 and as the XML-based .docx from Office 2007 onward. .txt is plain text with no formatting and is never Word's default.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-46": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Ctrl+S is the Save shortcut across Office and Windows applications. Shift+Ctrl+S is Save As in some versions, not plain Save.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-47": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Home jumps the insertion point to the start of the current line, while End jumps to its end. Page Up/Page Down scroll a screenful and do not target line boundaries.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-48": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Word offers four paragraph alignments: left, centre, right and justify, with buttons for each on the Home tab (Ctrl+L, E, R, J).",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-49": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "AutoCorrect holds a replacement list that silently fixes common typos as you type, such as \"teh\" to \"the\". The other three names are invented; spell checking as a separate feature only underlines errors rather than correcting them automatically.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-50": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Mail Merge combines a main document with a data source of names and addresses to produce one personalised copy per record. \"Form letters\" is the output of a merge, not the name of the feature.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-51": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A toolbar holds icon buttons for frequently used commands so they can be clicked in one step instead of hunting through menus. The menu bar groups the full command set hierarchically, and the status bar and title bar only display information.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-52": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Adding Ctrl to an arrow key enlarges the movement unit, so Ctrl+Right moves the cursor one word to the right. End moves to the end of the line and Ctrl+Down moves a paragraph at a time.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-53": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Ctrl+G opens Word's Find and Replace dialog box with the Go To tab active, letting you jump to a page, section, line or bookmark. There is no standalone Go To dialog in Word, which is why option D is wrong.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-54": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Print Preview renders the page exactly as it will print, including margins, headers, page breaks and graphic placement. Outline view hides graphics and formatting, and Web Layout shows the document as a browser page.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-55": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Format Painter copies only formatting from the selected text and applies it to whatever you then select, leaving the target's words intact. \"All of these\" is the trap: copy-paste and Paste Special move content, so they cannot reformat existing text in place.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-56": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A Word table is capped at 63 columns, while the number of rows is effectively unlimited. This limit is a standard Word specification and is unrelated to Excel's column count.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-57": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "The figure taught for this specification is 255 worksheets in a workbook, which is what the classic Excel limit tables print. In current Excel versions the ceiling is actually only whatever available memory allows, so treat 255 as the exam's expected value rather than a hard modern limit.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-58": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Besides the equals sign, Excel accepts a leading plus sign to start a formula, a carry-over from Lotus 1-2-3 habits, and converts +A1+B1 to =+A1+B1. Be aware the options are slightly loose: a leading minus sign also produces a formula in practice, but + is the answer this standard textbook statement expects.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-59": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Relative referencing is the default, so a copied formula shifts its row and column references by the same offset as the copy. Absolute references stay fixed but only when you deliberately add dollar signs.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-60": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A dollar sign before the column letter or row number locks that part of the address, giving forms like $A$1, $A1 or A$1. The other symbols have no addressing role; # appears only in error displays such as #REF! or ###.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-61": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Dragging one column's dividing line while several columns are selected applies that same width to every selected column, which is the standard way to equalise widths. Option D fails because column width lives under Format (or the right-click menu), not Edit, and B misuses Insert.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-62": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A colon is Excel's range operator, so =SUM(F2:F23) totals every cell from F2 through F23. =SUM(F2+F23) adds only the two endpoint cells, and the space and # forms are not valid range syntax.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-63": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A1+C1 = 20+5 = 25 and A2+B2 = 10+10 = 20, so the test 25>20 is TRUE and the formula returns its value_if_true. FALKAWN is the false branch, and 25 is a trap for reading the sum rather than the IF result.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-64": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Excel's what-if Data Table tool comes in exactly two forms: a one-variable (one-input) table that varies a single input down a column or across a row, and a two-variable table that varies two inputs at once. The row/column and vertical/horizontal pairings are invented labels.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-65": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A pie chart shows the parts of a single whole, so it can plot only one data series; extra series are ignored. Charting more than one series at a time needs a doughnut, bar or column chart instead.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-66": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Operation section of Paste Special offers only None, Add, Subtract, Multiply and Divide. SQRT is an ordinary worksheet function, not a paste operation, so it never appears in that dialog box.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-67": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Double-clicking the right border of a column heading auto-fits that column to its widest entry. Double-clicking the heading itself only selects the column, and the left border belongs to the neighbouring column, so it would auto-fit the wrong one.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-68": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "MOD(number, divisor) returns the remainder of the division, e.g. MOD(10,3) gives 1. ROUND only rounds a value, FACT returns a factorial, and DIV is not an Excel worksheet function at all.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-69": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "This question is defective as printed and none of 4/10/14/20 is objectively correct: the number of built-in slide layouts depends entirely on the PowerPoint version and theme, and the default Office Theme master carries about eleven. (a) is the closest reading only if the question means the four broad layout groupings older Office versions listed - Text, Content, Text and Content, Other - which is a guess at intent, not a fact about PowerPoint. A second independent solve read it as (b) instead.",
+    "agreement": "disagree",
+    "alt_ans": "B",
+    "prov": "Two independent blind solves disagree: (A) and (B). One is wrong and there is no key to settle it — both are shown; judge for yourself.",
+    "note": "second solver said (B)"
+  },
+  "CO2018M-P1-70": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A template is the ready-made design file that supplies fonts, colours, background and placeholder arrangement for a new presentation. Layout only governs placeholder positions on a single slide, and Designer/Guide are not the term for a stored design.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-71": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Notes Page view shows a slide image above a text box for the presenter's spoken notes, which print as speaker notes. Outline view edits slide text, Slide Sorter rearranges slides, and Slide Show only plays the presentation.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-72": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Rehearse Timings runs the show while recording how long you spend on each slide, storing an individual advance time per slide. The other three option names are not actual PowerPoint commands.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-73": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Slide Transition controls the motion effect that plays as one slide leaves and the next appears. Animation applies to objects within a single slide, which is the classic confusion this question tests, and Slide Design only changes appearance.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-74": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Ctrl+M inserts a new slide into the open presentation. Ctrl+N is the trap, since it creates a whole new blank presentation rather than a slide, while Ctrl+S saves and Ctrl+A selects all.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
+  "CO2018M-P1-75": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Sound in PowerPoint is added as .wav (recorded waveform audio) or .mid/.midi (sequenced music) files. The .gif and .jpg extensions in the other options are image formats and carry no audio.",
+    "agreement": "agree-solvers",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key."
+  },
   "CO2019B-P2-1": {
     "ans": "B",
     "conf": "high",

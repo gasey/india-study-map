@@ -1,0 +1,102 @@
+{
+  "CO2018M-P1-1": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Versatility is a computer's ability to carry out any task that can be broken into a finite series of logical/arithmetic steps, from payroll to games; diligence and speed describe how it works, not what it can do."
+  },
+  "CO2018M-P1-2": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Second-generation computers (mid-1950s to mid-1960s) replaced bulky vacuum tubes with transistors, making machines smaller, faster and more reliable; ICs did not appear until the third generation."
+  },
+  "CO2018M-P1-3": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Charles Babbage, designer of the Analytical Engine (the first general-purpose programmable computing machine), is conventionally taught as the 'father of the computer' in this exam's syllabus, though the exact phrase 'modern digital' makes the attribution debatable versus Turing or von Neumann."
+  },
+  "CO2018M-P1-4": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Primary memory (RAM) is volatile: it loses its contents the instant power is cut. USB drives, optical disks and magnetic disks are all non-volatile secondary storage that retain data without power."
+  },
+  "CO2018M-P1-5": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Registers are small, very fast storage elements built directly inside the CPU that hold data and instructions only for the duration of the operation being executed, unlike cache or main memory which sit outside the CPU core."
+  },
+  "CO2018M-P1-6": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The program counter (PC) stores the memory address of the next instruction to be fetched, while the instruction register holds the instruction currently being decoded/executed."
+  },
+  "CO2018M-P1-7": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Processor speed is fundamentally clock cycles per second, and MHz/GHz are just scaled units of that same quantity, so all three descriptions are correct ways of stating it."
+  },
+  "CO2018M-P1-8": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Access time is the total time needed to locate and retrieve data from a storage unit; seek time is only the head-positioning component of that total, and latency is the further rotational delay."
+  },
+  "CO2018M-P1-9": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "When retrieval time does not depend on where the data physically sits (as with RAM), the memory is called random access; sequential and direct access both have location-dependent timing."
+  },
+  "CO2018M-P1-10": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The number of bits a single memory location can hold is called its word length (or word size), a standard architecture term distinct from the invented terms in the other options."
+  },
+  "CO2018M-P1-11": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "By the binary storage convention used for memory, 1 KB equals 2^10 = 1024 bytes; the 1000-byte figure is the decimal SI definition used mainly for storage-drive marketing, not standard memory sizing."
+  },
+  "CO2018M-P1-12": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A track is one of the concentric circular paths on a magnetic disk surface where data is recorded; these circles are normally invisible to the eye. A sector is a pie-slice segment cutting across tracks."
+  },
+  "CO2018M-P1-13": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Magnetic tape must be read in order from the start, so reaching a given record means passing over everything before it, making it the classic sequential-access device, unlike disks or flash media."
+  },
+  "CO2018M-P1-14": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Data on magnetic tape is recorded along parallel tracks (also called channels) running the length of the tape; these are the horizontal lines. A frame, by contrast, is the vertical set of bits across those channels that together encode one character."
+  },
+  "CO2018M-P1-15": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Data (recording) density is defined as how much data can be packed into a given length of tape, conventionally measured in bits per inch; it is not the same as total tape capacity."
+  },
+  "CO2018M-P1-16": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Disk capacity is built up from every physical subdivision: surfaces x tracks per surface x sectors per track x bytes per sector. Option D mixes incompatible units (bytes per track) and omits recording surfaces, so it cannot be correct."
+  },
+  "CO2018M-P1-17": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Magnetic disk size is conventionally quoted by the diameter of the platter (e.g. a 3.5-inch or 5.25-inch disk), not its radius, circumference, or surface area."
+  },
+  "CO2018M-P1-18": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Unlike a magnetic disk's many discrete concentric tracks, an optical disk (CD/DVD) stores data on one continuous spiral groove, so it is effectively a single track."
+  },
+  "CO2018M-P1-19": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The optical drive's laser begins reading the spiral track near the disk's center hub and spirals outward toward the edge, the reverse of how a phonograph record is played."
+  },
+  "CO2018M-P1-20": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "An incremental backup copies only files created or changed since the most recent backup of any type, keeping each backup small; a full backup instead copies everything every time regardless of change."
+  }
+}

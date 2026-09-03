@@ -1,0 +1,307 @@
+{
+  "srcKey": "CO2018M-P1",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2018M-P1-1",
+      "srcKey": "CO2018M-P1",
+      "no": 1,
+      "paper": "TECH1",
+      "q": "The characteristic of a computer to perform almost any task that can be reduced to a finite series of logical steps is called______________",
+      "opts": {
+        "A": "Diligence",
+        "B": "Versatility",
+        "C": "Automatic",
+        "D": "Speed"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-2",
+      "srcKey": "CO2018M-P1",
+      "no": 2,
+      "paper": "TECH1",
+      "q": "The second generation of computer is based on the development of_______________",
+      "opts": {
+        "A": "VLSI",
+        "B": "IC",
+        "C": "Transistor",
+        "D": "Vacuum tube"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-3",
+      "srcKey": "CO2018M-P1",
+      "no": 3,
+      "paper": "TECH1",
+      "q": "Father of modern digital programmable computer is",
+      "opts": {
+        "A": "Charles Babbage",
+        "B": "John Von Neuman",
+        "C": "Alan Turing",
+        "D": "Bill Gates"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-4",
+      "srcKey": "CO2018M-P1",
+      "no": 4,
+      "paper": "TECH1",
+      "q": "Which type of the memory is volatile in nature?",
+      "opts": {
+        "A": "Primary Memory",
+        "B": "USB Drive",
+        "C": "Optical Disk",
+        "D": "Magnetic Disk"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-5",
+      "srcKey": "CO2018M-P1",
+      "no": 5,
+      "paper": "TECH1",
+      "q": "The memory unit that hold information on a temporary basis in a CPU is__________",
+      "opts": {
+        "A": "Cache Memory",
+        "B": "Main Memory",
+        "C": "Auxiliary Memory",
+        "D": "Register"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-6",
+      "srcKey": "CO2018M-P1",
+      "no": 6,
+      "paper": "TECH1",
+      "q": "Which Register hold the next instruction to be executed?",
+      "opts": {
+        "A": "Accumulator",
+        "B": "Memory address Register",
+        "C": "Program counter",
+        "D": "Instruction Register"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-7",
+      "srcKey": "CO2018M-P1",
+      "no": 7,
+      "paper": "TECH1",
+      "q": "The speed of a processor is measure in ________________",
+      "opts": {
+        "A": "Number of Clock Cycles per second",
+        "B": "Mega Hertz",
+        "C": "Giga Hertz",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-8",
+      "srcKey": "CO2018M-P1",
+      "no": 8,
+      "paper": "TECH1",
+      "q": "The time required to locate and retrieve stored data from the storage unit is______________",
+      "opts": {
+        "A": "Seek time",
+        "B": "Access Time",
+        "C": "Latency",
+        "D": "None of These"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-9",
+      "srcKey": "CO2018M-P1",
+      "no": 9,
+      "paper": "TECH1",
+      "q": "If the time taken to access a piece of data from a storage unit is independent of the location, the memory is called_________________",
+      "opts": {
+        "A": "Random Access",
+        "B": "Sequential Access",
+        "C": "Direct Access",
+        "D": "Free Access"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-10",
+      "srcKey": "CO2018M-P1",
+      "no": 10,
+      "paper": "TECH1",
+      "q": "The number of bits that can be stored by each of the memory locations is called_________",
+      "opts": {
+        "A": "Bit length",
+        "B": "Bit limit",
+        "C": "Word length",
+        "D": "Word limit"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-11",
+      "srcKey": "CO2018M-P1",
+      "no": 11,
+      "paper": "TECH1",
+      "q": "1 KB is equal to _____________",
+      "opts": {
+        "A": "1024 Bytes",
+        "B": "1000 Bytes",
+        "C": "1020 Bytes",
+        "D": "1012 Bytes"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-12",
+      "srcKey": "CO2018M-P1",
+      "no": 12,
+      "paper": "TECH1",
+      "q": "A set of invisible concentric circle on magnetic disk is called____________",
+      "opts": {
+        "A": "Sector",
+        "B": "Track",
+        "C": "Pitch",
+        "D": "Dent"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-13",
+      "srcKey": "CO2018M-P1",
+      "no": 13,
+      "paper": "TECH1",
+      "q": "Which of the following is an example of sequential access device",
+      "opts": {
+        "A": "Magnetic tape",
+        "B": "Compact Disk",
+        "C": "Flash Drive",
+        "D": "MicroSD Card"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-14",
+      "srcKey": "CO2018M-P1",
+      "no": 14,
+      "paper": "TECH1",
+      "q": "The horizontal rows in magnetic tape is called______________",
+      "opts": {
+        "A": "Frame",
+        "B": "Even parity",
+        "C": "Odd Parity",
+        "D": "Channel"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-15",
+      "srcKey": "CO2018M-P1",
+      "no": 15,
+      "paper": "TECH1",
+      "q": "The amount of data that can be stored on a given length of magnetic tape is called____________",
+      "opts": {
+        "A": "Tape capacity",
+        "B": "Tape limit",
+        "C": "Data density",
+        "D": "Data amount"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-16",
+      "srcKey": "CO2018M-P1",
+      "no": 16,
+      "paper": "TECH1",
+      "q": "The storage capacity of magnetic disk is",
+      "opts": {
+        "A": "No. Of recording surfaces x No. Of track per surface x No. Of sector per track x No. Of bytes per sector",
+        "B": "No. Of recording surfaces x No. Of track per surface x No. Of Bytes per track",
+        "C": "No. Of recording surfaces x No. Of sector per surface x No. Of sector per track",
+        "D": "No. Of track per surface x No. Of sector per track x No. Of Bytes per track"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-17",
+      "srcKey": "CO2018M-P1",
+      "no": 17,
+      "paper": "TECH1",
+      "q": "The size of magnetic disk is usually referred by______________",
+      "opts": {
+        "A": "It’s diameter",
+        "B": "It’s circumference",
+        "C": "It’s area",
+        "D": "It’s radius"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-18",
+      "srcKey": "CO2018M-P1",
+      "no": 18,
+      "paper": "TECH1",
+      "q": "The total number of track in Optical disk is___________",
+      "opts": {
+        "A": "1",
+        "B": "10",
+        "C": "100",
+        "D": "1000"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-19",
+      "srcKey": "CO2018M-P1",
+      "no": 19,
+      "paper": "TECH1",
+      "q": "The optical disk mechanism reads a disk from____________",
+      "opts": {
+        "A": "Outer Edge to Center",
+        "B": "Center to outer Edge",
+        "C": "Middle to Outer Edge",
+        "D": "Middle to center"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2018M-P1-20",
+      "srcKey": "CO2018M-P1",
+      "no": 20,
+      "paper": "TECH1",
+      "q": "The backup method that copies only newly created files or files changes since the last backup is called",
+      "opts": {
+        "A": "Full backup",
+        "B": "Periodic backup",
+        "C": "Incremental backup",
+        "D": "Evolutionary backup"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

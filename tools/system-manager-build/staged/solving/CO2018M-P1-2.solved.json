@@ -1,0 +1,102 @@
+{
+  "CO2018M-P1-21": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A mouse feeds data into the computer, so it is an input device, and standard computer-fundamentals texts further class it specifically as a point-and-draw device (it positions a cursor and can draw). Since (a) and (b) are both true rather than competing, the combined option is the intended answer."
+  },
+  "CO2018M-P1-22": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "An OCR scanner first captures the page as a bitmap image; the OCR software then recognises the character shapes in that image and turns them into machine-encoded text. Options (b) and (d) reverse the direction of conversion, and (c) describes ordinary keyboard/text encoding, not optical recognition."
+  },
+  "CO2018M-P1-23": {
+    "ans": "D",
+    "conf": "low",
+    "exp": "An OMR reader shines a light beam at each bubble position and a photodetector measures the light coming back, so a darkened bubble is identified by the drop in reflected light. Note the printed options are genuinely ambiguous here: 'light absorption' is equally arguable, since it is the graphite mark absorbing the light that causes the weak reflection - the reflection reading is the mechanism the device actually senses, which is why it is chosen."
+  },
+  "CO2018M-P1-24": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A bar code encodes characters as a pattern of parallel bars and intervening spaces of differing widths, so the data lives in the combination of bar width and spacing. Bar length is irrelevant - it only affects how easily the scanner can be aligned, which rules out (c)."
+  },
+  "CO2018M-P1-25": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Colour inkjet printers use the subtractive CMY(K) model, so the colour cartridge holds cyan, magenta and yellow ink (black usually sits in a separate cartridge). Red/green/blue is the additive model used by monitors, which makes the RGB-flavoured options the classic trap."
+  },
+  "CO2018M-P1-26": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Language translators - compilers, assemblers, interpreters - manage and support the machine itself rather than doing end-user work, which places them in system software along with the operating system. Application software (b) means user-facing programs like a word processor."
+  },
+  "CO2018M-P1-27": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Firmware is software written permanently into ROM so it behaves like part of the hardware, substituting for circuitry that would otherwise have to be wired in. Middleware, by contrast, sits between applications and is not ROM-resident."
+  },
+  "CO2018M-P1-28": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "In the standard software development life cycle the work begins by capturing what the software must do - requirements analysis and specification - and only then moves to design, coding, testing and maintenance. 'System analysis' is a defensible alternative in the older systems-analysis-and-design framing where analysis is named as the first phase, so this pair of options is somewhat overlapping; requirement specification is the phase named first in software-engineering texts."
+  },
+  "CO2018M-P1-29": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Machine language is binary instruction code that the CPU executes directly, so it needs no translation. High-level, assembly and object-oriented languages all require a compiler, interpreter or assembler first."
+  },
+  "CO2018M-P1-30": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "An interpreter takes one source statement, translates it and executes it, then moves to the next - which is why interpreted programs are slower but easier to debug. A compiler is the trap: it translates the entire program into object code before any execution begins."
+  },
+  "CO2018M-P1-31": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "In a mainframe installation the central machine that does the processing and to which the dumb terminals connect is called the host computer. A terminal is only the user's access point, while front-end and back-end processors are auxiliary machines that handle communications or database work for the host."
+  },
+  "CO2018M-P1-32": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Information Technology Act, 2000 as enacted was organised into 13 chapters with 94 sections (plus four schedules). The count is often misquoted because later amendments inserted sections such as 66A and 43A, but the Act as passed had 94."
+  },
+  "CO2018M-P1-33": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Multitasking is precisely the ability of an operating system to keep more than one job or task in execution concurrently by interleaving them on the CPU. Multi-user (a) is about several people being served at once, which is a related but distinct property, and a real-time OS is defined by deadline guarantees rather than job count."
+  },
+  "CO2018M-P1-34": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Deciding and maintaining the order in which submitted jobs get the CPU is the operating system's job scheduling function, carried out by the scheduler using policies such as FCFS or priority. 'Job sequencing' and the other two options are not the standard terms used for this OS task."
+  },
+  "CO2018M-P1-35": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The first release in the line, Windows NT 3.1, shipped in July 1993 - it was numbered 3.1 to match the consumer Windows 3.1 of the day, which is why the year is often guessed wrongly as 1990 or 1991."
+  },
+  "CO2018M-P1-36": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Windows 98 was the release that introduced Windows Update, the built-in web-based service for fetching patches and driver updates. Windows NT 4.0 still relied on manually installed Service Packs."
+  },
+  "CO2018M-P1-37": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Windows 2000 had no System Restore, so of the versions printed here Windows XP is the earliest that shipped the feature. Strictly the feature debuted slightly earlier in Windows Me (2000), but Windows Millennium is not among the four options, which makes XP the intended answer."
+  },
+  "CO2018M-P1-38": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Deleted files and folders are held in the Recycle Bin, from which they can be restored until the bin is emptied - that is what makes the storage temporary. My Documents and My Computer are ordinary locations for live files, not a holding area for deletions."
+  },
+  "CO2018M-P1-39": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Windows overlays a small curved arrow badge on the lower-left corner of an icon to mark it as a shortcut - a pointer to a file rather than the file itself. The lower-right corner is where overlays such as the sharing or compatibility markers appear, so that is the usual wrong pick."
+  },
+  "CO2018M-P1-40": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The right-hand end of the Windows taskbar holds the notification area (system tray) with the clock, volume, network and background-program icons. The Start button occupies the opposite, left-hand end, and task buttons fill the middle stretch."
+  }
+}

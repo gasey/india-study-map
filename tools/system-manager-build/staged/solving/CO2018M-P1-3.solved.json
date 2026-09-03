@@ -1,0 +1,102 @@
+{
+  "CO2018M-P1-41": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Radio (option) buttons are drawn as a group in which selecting one automatically clears the others, which is exactly what \"mutually exclusive\" means. Check boxes are the classic trap here: they are independent toggles, so several may be ticked at once."
+  },
+  "CO2018M-P1-42": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "In Windows XP/7 the utility sits at Start > All Programs > Accessories > System Tools > Disk Cleanup. The other paths drop the Accessories level, and System Tools is never a direct child of All Programs."
+  },
+  "CO2018M-P1-43": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Listing files needs DIR (there is no LIST command in DOS) and the pattern must be *.EXE, with the dot separating name from extension. Only this option has both, though it is printed without the space after DIR; B keeps the space but its *EXE pattern lacks the dot, so it would not match by extension."
+  },
+  "CO2018M-P1-44": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "The hidden attribute is turned on with a plus sign, so +h hides the folder, and the widely taught DOS recipe pairs it with +s to also mark it as a system folder so Windows keeps it out of view. Note D also sets +h and would hide the folder too, but it clears the system attribute, so A is the standard intended form."
+  },
+  "CO2018M-P1-45": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Word saves as .doc up to Office 2003 and as the XML-based .docx from Office 2007 onward. .txt is plain text with no formatting and is never Word's default."
+  },
+  "CO2018M-P1-46": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Ctrl+S is the Save shortcut across Office and Windows applications. Shift+Ctrl+S is Save As in some versions, not plain Save."
+  },
+  "CO2018M-P1-47": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Home jumps the insertion point to the start of the current line, while End jumps to its end. Page Up/Page Down scroll a screenful and do not target line boundaries."
+  },
+  "CO2018M-P1-48": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Word offers four paragraph alignments: left, centre, right and justify, with buttons for each on the Home tab (Ctrl+L, E, R, J)."
+  },
+  "CO2018M-P1-49": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "AutoCorrect holds a replacement list that silently fixes common typos as you type, such as \"teh\" to \"the\". The other three names are invented; spell checking as a separate feature only underlines errors rather than correcting them automatically."
+  },
+  "CO2018M-P1-50": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Mail Merge combines a main document with a data source of names and addresses to produce one personalised copy per record. \"Form letters\" is the output of a merge, not the name of the feature."
+  },
+  "CO2018M-P1-51": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A toolbar holds icon buttons for frequently used commands so they can be clicked in one step instead of hunting through menus. The menu bar groups the full command set hierarchically, and the status bar and title bar only display information."
+  },
+  "CO2018M-P1-52": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Adding Ctrl to an arrow key enlarges the movement unit, so Ctrl+Right moves the cursor one word to the right. End moves to the end of the line and Ctrl+Down moves a paragraph at a time."
+  },
+  "CO2018M-P1-53": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Ctrl+G opens Word's Find and Replace dialog box with the Go To tab active, letting you jump to a page, section, line or bookmark. There is no standalone Go To dialog in Word, which is why option D is wrong."
+  },
+  "CO2018M-P1-54": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Print Preview renders the page exactly as it will print, including margins, headers, page breaks and graphic placement. Outline view hides graphics and formatting, and Web Layout shows the document as a browser page."
+  },
+  "CO2018M-P1-55": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Format Painter copies only formatting from the selected text and applies it to whatever you then select, leaving the target's words intact. \"All of these\" is the trap: copy-paste and Paste Special move content, so they cannot reformat existing text in place."
+  },
+  "CO2018M-P1-56": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A Word table is capped at 63 columns, while the number of rows is effectively unlimited. This limit is a standard Word specification and is unrelated to Excel's column count."
+  },
+  "CO2018M-P1-57": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The figure taught for this specification is 255 worksheets in a workbook, which is what the classic Excel limit tables print. In current Excel versions the ceiling is actually only whatever available memory allows, so treat 255 as the exam's expected value rather than a hard modern limit."
+  },
+  "CO2018M-P1-58": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Besides the equals sign, Excel accepts a leading plus sign to start a formula, a carry-over from Lotus 1-2-3 habits, and converts +A1+B1 to =+A1+B1. Be aware the options are slightly loose: a leading minus sign also produces a formula in practice, but + is the answer this standard textbook statement expects."
+  },
+  "CO2018M-P1-59": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Relative referencing is the default, so a copied formula shifts its row and column references by the same offset as the copy. Absolute references stay fixed but only when you deliberately add dollar signs."
+  },
+  "CO2018M-P1-60": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A dollar sign before the column letter or row number locks that part of the address, giving forms like $A$1, $A1 or A$1. The other symbols have no addressing role; # appears only in error displays such as #REF! or ###."
+  }
+}

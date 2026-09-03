@@ -2127,6 +2127,306 @@
     "unit": "II",
     "sub": "File Systems"
   },
+  "CO2018M-P1-1": {
+    "unit": "I",
+    "sub": "Characteristics and Applications of Computers"
+  },
+  "CO2018M-P1-2": {
+    "unit": "I",
+    "sub": "Evolution and Generations of Computers"
+  },
+  "CO2018M-P1-3": {
+    "unit": "I",
+    "sub": "Evolution and Generations of Computers"
+  },
+  "CO2018M-P1-4": {
+    "unit": "I",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  "CO2018M-P1-5": {
+    "unit": "I",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  "CO2018M-P1-6": {
+    "unit": "I",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  "CO2018M-P1-7": {
+    "unit": "I",
+    "sub": "Performance Measurement"
+  },
+  "CO2018M-P1-8": {
+    "unit": "I",
+    "sub": "Memory Hierarchy"
+  },
+  "CO2018M-P1-9": {
+    "unit": "I",
+    "sub": "Memory Hierarchy"
+  },
+  "CO2018M-P1-10": {
+    "unit": "I",
+    "sub": "Functional Components of a Computer"
+  },
+  "CO2018M-P1-11": {
+    "unit": "I",
+    "sub": "Functional Components of a Computer"
+  },
+  "CO2018M-P1-12": {
+    "unit": "I",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  "CO2018M-P1-13": {
+    "unit": "I",
+    "sub": "Optical and Flash Storage"
+  },
+  "CO2018M-P1-14": {
+    "unit": "I",
+    "sub": "Backup Concepts"
+  },
+  "CO2018M-P1-15": {
+    "unit": "I",
+    "sub": "Backup Concepts"
+  },
+  "CO2018M-P1-16": {
+    "unit": "I",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  "CO2018M-P1-17": {
+    "unit": "I",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  "CO2018M-P1-18": {
+    "unit": "I",
+    "sub": "Optical and Flash Storage"
+  },
+  "CO2018M-P1-19": {
+    "unit": "I",
+    "sub": "Optical and Flash Storage"
+  },
+  "CO2018M-P1-20": {
+    "unit": "I",
+    "sub": "Backup Concepts"
+  },
+  "CO2018M-P1-21": {
+    "unit": "I",
+    "sub": "Modern Input Devices"
+  },
+  "CO2018M-P1-22": {
+    "unit": "I",
+    "sub": "Scanners"
+  },
+  "CO2018M-P1-23": {
+    "unit": "I",
+    "sub": "Scanners"
+  },
+  "CO2018M-P1-24": {
+    "unit": "I",
+    "sub": "Scanners"
+  },
+  "CO2018M-P1-25": {
+    "unit": "I",
+    "sub": "Printers and Multifunction Devices"
+  },
+  "CO2018M-P1-26": {
+    "unit": "I",
+    "sub": "System Software"
+  },
+  "CO2018M-P1-27": {
+    "unit": "I",
+    "sub": "BIOS/UEFI Firmware"
+  },
+  "CO2018M-P1-28": {
+    "unit": "I",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  "CO2018M-P1-29": {
+    "unit": "I",
+    "sub": "Programming Languages"
+  },
+  "CO2018M-P1-30": {
+    "unit": "I",
+    "sub": "System Software"
+  },
+  "CO2018M-P1-31": {
+    "unit": "I",
+    "sub": "Classification of Computers"
+  },
+  "CO2018M-P1-32": {
+    "unit": "I",
+    "sub": "Cyber Ethics"
+  },
+  "CO2018M-P1-33": {
+    "unit": "II",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  "CO2018M-P1-34": {
+    "unit": "II",
+    "sub": "Process Management"
+  },
+  "CO2018M-P1-35": {
+    "unit": "II",
+    "sub": "Windows Operating Systems"
+  },
+  "CO2018M-P1-36": {
+    "unit": "II",
+    "sub": "Windows Operating Systems"
+  },
+  "CO2018M-P1-37": {
+    "unit": "II",
+    "sub": "Windows Utilities"
+  },
+  "CO2018M-P1-38": {
+    "unit": "II",
+    "sub": "File Recovery"
+  },
+  "CO2018M-P1-39": {
+    "unit": "II",
+    "sub": "Windows Operating Systems"
+  },
+  "CO2018M-P1-40": {
+    "unit": "II",
+    "sub": "Windows Operating Systems"
+  },
+  "CO2018M-P1-41": {
+    "unit": "II",
+    "sub": "Windows Operating Systems"
+  },
+  "CO2018M-P1-42": {
+    "unit": "II",
+    "sub": "Windows Utilities"
+  },
+  "CO2018M-P1-43": {
+    "unit": "II",
+    "sub": "Command Prompt"
+  },
+  "CO2018M-P1-44": {
+    "unit": "II",
+    "sub": "Command Prompt"
+  },
+  "CO2018M-P1-45": {
+    "unit": "III",
+    "sub": "Document Creation"
+  },
+  "CO2018M-P1-46": {
+    "unit": "III",
+    "sub": "Document Creation"
+  },
+  "CO2018M-P1-47": {
+    "unit": "III",
+    "sub": "Document Creation"
+  },
+  "CO2018M-P1-48": {
+    "unit": "III",
+    "sub": "Page Layout"
+  },
+  "CO2018M-P1-49": {
+    "unit": "III",
+    "sub": "Review Tools"
+  },
+  "CO2018M-P1-50": {
+    "unit": "III",
+    "sub": "Mail Merge"
+  },
+  "CO2018M-P1-51": {
+    "unit": "III",
+    "sub": "Document Creation"
+  },
+  "CO2018M-P1-52": {
+    "unit": "III",
+    "sub": "Document Creation"
+  },
+  "CO2018M-P1-53": {
+    "unit": "III",
+    "sub": "Document Creation"
+  },
+  "CO2018M-P1-54": {
+    "unit": "III",
+    "sub": "Page Layout"
+  },
+  "CO2018M-P1-55": {
+    "unit": "III",
+    "sub": "Styles and Themes"
+  },
+  "CO2018M-P1-56": {
+    "unit": "III",
+    "sub": "Tables"
+  },
+  "CO2018M-P1-57": {
+    "unit": "IV",
+    "sub": "Workbook Management"
+  },
+  "CO2018M-P1-58": {
+    "unit": "IV",
+    "sub": "Formulae and Functions"
+  },
+  "CO2018M-P1-59": {
+    "unit": "IV",
+    "sub": "Formulae and Functions"
+  },
+  "CO2018M-P1-60": {
+    "unit": "IV",
+    "sub": "Formulae and Functions"
+  },
+  "CO2018M-P1-61": {
+    "unit": "IV",
+    "sub": "Workbook Management"
+  },
+  "CO2018M-P1-62": {
+    "unit": "IV",
+    "sub": "Formulae and Functions"
+  },
+  "CO2018M-P1-63": {
+    "unit": "IV",
+    "sub": "Formulae and Functions"
+  },
+  "CO2018M-P1-64": {
+    "unit": "IV",
+    "sub": "What-if Analysis"
+  },
+  "CO2018M-P1-65": {
+    "unit": "IV",
+    "sub": "Pivot Charts"
+  },
+  "CO2018M-P1-66": {
+    "unit": "IV",
+    "sub": "Workbook Management"
+  },
+  "CO2018M-P1-67": {
+    "unit": "IV",
+    "sub": "Workbook Management"
+  },
+  "CO2018M-P1-68": {
+    "unit": "IV",
+    "sub": "Formulae and Functions"
+  },
+  "CO2018M-P1-69": {
+    "unit": "V",
+    "sub": "Presentation Design"
+  },
+  "CO2018M-P1-70": {
+    "unit": "V",
+    "sub": "Templates and Themes"
+  },
+  "CO2018M-P1-71": {
+    "unit": "V",
+    "sub": "Presenter View"
+  },
+  "CO2018M-P1-72": {
+    "unit": "V",
+    "sub": "Presentation Delivery"
+  },
+  "CO2018M-P1-73": {
+    "unit": "V",
+    "sub": "Animation"
+  },
+  "CO2018M-P1-74": {
+    "unit": "V",
+    "sub": "Presentation Design"
+  },
+  "CO2018M-P1-75": {
+    "unit": "V",
+    "sub": "Multimedia"
+  },
   "CO2016A-P1-41": {
     "unit": "II",
     "sub": "Files and Folders"

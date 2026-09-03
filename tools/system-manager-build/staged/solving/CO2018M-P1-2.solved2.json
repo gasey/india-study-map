@@ -1,0 +1,102 @@
+{
+  "CO2018M-P1-21": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A mouse is both an input device (it feeds position/click data to the computer) and specifically a pointing device used to point and draw, so both (a) and (b) hold simultaneously."
+  },
+  "CO2018M-P1-22": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Optical Character Recognition software's core job is to scan a bitmap image of printed/handwritten text and convert it into editable, machine-readable text, not the reverse."
+  },
+  "CO2018M-P1-23": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "OMR sensors shine light onto the sheet and measure the light reflected back; a darkened bubble reflects noticeably less light than blank paper, and that drop in reflected light is what the reader detects."
+  },
+  "CO2018M-P1-24": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A barcode encodes alphanumeric data through the pattern of varying bar widths together with the spacing between bars, not by any single dimension alone, which is what lets the scanner decode multiple characters."
+  },
+  "CO2018M-P1-25": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Standard inkjet color cartridges use the subtractive CMY model (Cyan, Magenta, Yellow), which mix to produce the visible color range; the other options mix in RGB-style primaries that don't match how ink cartridges work."
+  },
+  "CO2018M-P1-26": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Compilers, assemblers and interpreters are language translators that let other programs run on the hardware, which places them in the System Software category rather than end-user application software."
+  },
+  "CO2018M-P1-27": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Firmware is software permanently written into ROM/EEPROM to control a hardware device, effectively substituting for hardwired circuitry while still being reprogrammable at a low level."
+  },
+  "CO2018M-P1-28": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "In the standard software development life cycle, requirement specification (gathering and documenting what the system must do) comes before system analysis, design and implementation, which all build on that specification."
+  },
+  "CO2018M-P1-29": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Machine language consists of binary instructions the CPU executes directly with no translation step; high-level, assembly and object-oriented code all require an assembler, compiler or interpreter first."
+  },
+  "CO2018M-P1-30": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "An interpreter translates and immediately executes one source statement at a time before moving to the next, unlike a compiler which translates the entire program into machine code before any of it runs."
+  },
+  "CO2018M-P1-31": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "In a mainframe setup the central, powerful computer that other terminals connect to and rely on for processing is called the host; the terminals themselves are the client end, not the host."
+  },
+  "CO2018M-P1-32": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "The Information Technology Act, 2000 as originally enacted contained 94 sections spread across 13 chapters and 4 schedules; later amendments changed some section content but not this original count."
+  },
+  "CO2018M-P1-33": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "An OS that lets more than one job or program appear to run and progress at the same time by rapidly switching the CPU between them is, by definition, a multitasking operating system."
+  },
+  "CO2018M-P1-34": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Deciding and maintaining the order in which waiting jobs get the CPU and other resources is the job scheduling function of the OS, distinct from the everyday term 'sequencing' used as a distractor here."
+  },
+  "CO2018M-P1-35": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Microsoft released the first version, Windows NT 3.1, in July 1993, making that the correct launch year among the options given."
+  },
+  "CO2018M-P1-36": {
+    "ans": "B",
+    "conf": "low",
+    "exp": "The Windows Update mechanism for fetching and installing patches from Microsoft's servers was first tied into the OS with Windows 98; this is a specific historical detail I cannot fully verify with certainty, so treat this as a best-guess answer."
+  },
+  "CO2018M-P1-37": {
+    "ans": "B",
+    "conf": "low",
+    "exp": "System Restore was actually introduced in Windows Me, which is not among the printed options; of the choices given, Windows XP is the first to carry the feature forward as standard (Windows 2000 predates it), so this is the closest defensible pick rather than a fully verified fact."
+  },
+  "CO2018M-P1-38": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Deleted files and folders in Windows are moved to the Recycle Bin, a temporary holding area from which they can still be restored until it is emptied."
+  },
+  "CO2018M-P1-39": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Windows marks shortcut icons with a small curved arrow overlay in the lower-left corner of the icon, distinguishing them from the actual target file or program icon."
+  },
+  "CO2018M-P1-40": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The right end of the Windows taskbar holds the notification area (system tray), showing the clock and status icons for background programs, while the Start button sits at the far left."
+  }
+}

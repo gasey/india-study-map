@@ -741,5 +741,44 @@
   },
   "note": "OPTIONS REPAIRED FROM SOURCE (page 2, question 11 of the same July-2023 MES Electrical Wing Computer Science Paper-I). The proper-subset signs were Symbol-font U+F0CC and had rendered as blanks, so all four options read as bare word lists with no relation between them - the question was unreadable even though its key was right. Answer untouched: this sitting has an official MPSC key.",
   "note_mode": "append"
+ },
+ {
+  "id": "ILM2023_P1_022",
+  "app": "system-analyst",
+  "type": "ocr_damage",
+  "finding_conf": "high",
+  "votes_conf": [
+   "high"
+  ],
+  "action": "repair_text",
+  "q": "Which of the following statements is true about Type 1 grammars?",
+  "opts": {
+   "A": "They are also known as context-free grammars.",
+   "B": "They can be parsed using a finite automaton.",
+   "C": "They can generate context-free languages.",
+   "D": "They can generate context-sensitive languages."
+  },
+  "note": "OCR damage repaired 2026-09-03: the scan rendered the stem as 'Type | grammars' and left run-together words. Repaired WITHOUT the source page, which is not on this machine (only the ILM 2010 papers are) -- so the basis is internal and stated here rather than implied: 'Type |' can only be 'Type 1', because MPSC's official key marks (d) context-sensitive languages, which is precisely the Chomsky Type 1 property, and the very next question asks about Type 3 and keys to regular languages. No answer was changed and none needed to be; only the text a reader sees. If the source scan ever becomes available it should still be checked against this.",
+  "note_mode": "append",
+  "old_note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+ },
+ {
+  "id": "ILM2023_P1_023",
+  "app": "system-analyst",
+  "type": "ocr_damage",
+  "finding_conf": "high",
+  "votes_conf": [
+   "high"
+  ],
+  "action": "repair_text",
+  "opts": {
+   "A": "They can generate context-free languages.",
+   "B": "They can be recognized by a Turing machine.",
+   "C": "They are the most powerful type of grammar.",
+   "D": "They can generate regular languages."
+  },
+  "note": "OCR damage repaired 2026-09-03: option (b) read 'Theycanbe recognized'. Spacing only -- no wording, option order or answer was touched. Found alongside its neighbour ILM2023_P1_022, whose stem had lost the '1' from 'Type 1'.",
+  "note_mode": "append",
+  "old_note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
  }
 ]

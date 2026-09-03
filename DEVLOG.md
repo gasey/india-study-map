@@ -9,6 +9,70 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-03 (last) — Chasing the Repeats tab's two findings: one was a real OCR bug, the other was a trap I nearly walked into
+
+**What shipped.** Two OCR repairs, and a deliberate refusal to "fix" the other
+finding. Both came out of the Repeats tab shipped in the entry below.
+
+- **`ILM2023_P1_022` stem repaired: `Type | grammars` → `Type 1 grammars`.**
+  Also `knownas` → `known as`, `Theycan` → `They can`, and a stray `|` at the
+  end of option (c). Its neighbour **`ILM2023_P1_023`** had `Theycanbe` →
+  `They can be`. Applied through the existing
+  `tools/system-analyst-build/apply_audit_corrections.py` as `repair_text`, so
+  **no answer moved** — the applier enforces that, and both cards keep their
+  official-key `D`. 2 records changed, the other 50 corrections idempotent.
+- Basis is stated in the note rather than implied, because **the source page is
+  not on this machine** — only the ILM *2010* papers are here, and the path
+  CLAUDE.md names (`~/Downloads/mpsc_pdfs_examination/`) does not exist. The
+  repair rests on internal evidence instead: MPSC's official key marks (d)
+  *context-sensitive*, which is exactly the Chomsky **Type 1** property, and
+  Q23 next door asks about Type 3 and keys to *regular*. There is no such thing
+  as a "Type |" grammar. Worth flagging that the card's own `prov` already
+  ended "OCR damage in source scan" — it was known and simply never repaired.
+
+**Why the other finding was left exactly as it was.** The half-subtractor pair
+`TECH1_CSE_193` / `MES2015_PAPER1_023` looked like the higher-value fix. I
+rendered page 3 of the MES 2015 paper (which *is* in the repo, under
+`CSE 2015/`) at 300 dpi, read the overbars, and worked out that (c) is the
+intended key: it is the only option with the correct borrow `X = A'B` *and* any
+XOR structure in `D`, one missing bar away from `D = A'B + AB'`.
+
+Then I read the cards' existing notes. **Both had already been read at 600 dpi
+and at 5× zoom by earlier passes, and both were parked unanswerable on
+purpose.** More pointedly:
+
+- The two notes reach **opposite** best guesses — `TECH1_CSE_193` says the
+  intended key was "almost certainly (a)", `MES2015_PAPER1_023` says "best
+  guess by elimination is (c)". Both declined to assert either.
+- `TECH1_CSE_193`'s note records that a *previous* pass had already keyed it
+  confidently to (A) after reconstructing the textbook option text — and that
+  it was reverted, because the reconstruction had also been applied to (C),
+  leaving (A) and (C) byte-identical and the key arbitrary between them.
+
+So the correction I was about to apply was a guess one note had already made
+and refused to assert, at *higher* confidence (`medium`) than the pass that had
+looked at twice my resolution rated it (`low`), re-introducing a failure mode
+that had already been backed out once. Nothing was changed. The bullet in the
+entry below that called this "needs the source scan" was wrong and is struck
+through — the scan is done; the verdict is *unanswerable as printed*, and it is
+a conclusion, not a gap.
+
+**What's still open.**
+
+- **`MES2015_PAPER1_023` has an empty `exp` and no `conf`** while its identical
+  twin carries a full explanation and `conf: 'low'`. All its reasoning lives in
+  `note`, so the card renders as `derived · unrated` with no explanation shown.
+  A copy-across would fix that, but anything touching these two has now burned
+  three passes, so it should be a decision someone makes deliberately rather
+  than a tidy-up.
+- **The source-PDF path in CLAUDE.md is stale.** `~/Downloads/mpsc_pdfs_examination/`
+  is gone; MES/ILM-2010/JE/Programmer scans live in the repo at `CSE 2015/`,
+  and the ILM 2023 and Computer Operator papers are not on this machine at all.
+  Every brief that says "go check the source PDF" currently points at nothing.
+- **Repeat evidence still isn't feeding `conf`** — unchanged from below.
+
+---
+
 ## 2026-09-03 (later still) — A Repeats tab in both apps: MPSC reuses Technical Paper I questions, and now you can see which ones
 
 **What shipped.** A **Repeats** tab in both static apps, listing the Technical
@@ -94,12 +158,9 @@ real findings, both in the analyst bank and both listed below.
 **What's still open.**
 
 - **`TECH1_CSE_193` / `MES2015_PAPER1_023` carry no answer at all** (flagged
-  `missing`). A binary half-subtractor question. Worse, the two copies
-  transcribe option D differently — `D = AB + A'B' (single bar printed over
-  AB)` vs `(double complement over AB)` — and single vs double overbar changes
-  the maths, so the copies disagree about what the option even *says*. Needs
-  the source scan in `~/Downloads/mpsc_pdfs_examination/`; until then the pair
-  is genuinely unanswerable rather than merely unanswered.
+  `missing`). A binary half-subtractor question. ~~Needs the source scan.~~
+  **Corrected in the entry above — the scan was already read twice, and the
+  pair is parked unanswerable on purpose. Do not "fix" it.**
 - **`JE2016_P2_024` / `PROG2018_P1_066` (`Process is`) are grouped but probably
   shouldn't be.** They share one option of four, which is enough to pass the
   shared-option guard, so they cluster and get badged `options`. Defensible as

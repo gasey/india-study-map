@@ -16752,18 +16752,18 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Chomsky hierarchy",
-  "q": "Which of the following statements is true about Type | grammars?",
+  "q": "Which of the following statements is true about Type 1 grammars?",
   "opts": {
-   "A": "They are also knownas context-free grammars.",
+   "A": "They are also known as context-free grammars.",
    "B": "They can be parsed using a finite automaton.",
-   "C": "They can generate context-free languages. |",
-   "D": "Theycan generate context-sensitive languages."
+   "C": "They can generate context-free languages.",
+   "D": "They can generate context-sensitive languages."
   },
   "ans": "D",
   "exp": "Type-1 (context-sensitive) grammars are defined precisely as the grammars that generate context-sensitive languages; they are not context-free grammars and are strictly more powerful than what a finite automaton can parse.",
   "conf": "official",
   "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q22; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged); OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98). OCR damage repaired 2026-09-03: the scan rendered the stem as 'Type | grammars' and left run-together words. Repaired WITHOUT the source page, which is not on this machine (only the ILM 2010 papers are) -- so the basis is internal and stated here rather than implied: 'Type |' can only be 'Type 1', because MPSC's official key marks (d) context-sensitive languages, which is precisely the Chomsky Type 1 property, and the very next question asks about Type 3 and keys to regular languages. No answer was changed and none needed to be; only the text a reader sees. If the source scan ever becomes available it should still be checked against this."
  },
  {
   "id": "ILM2023_P1_023",
@@ -16777,7 +16777,7 @@ window.QUESTIONS = [
   "q": "Which of the following statements is true about Type 3 grammars?",
   "opts": {
    "A": "They can generate context-free languages.",
-   "B": "Theycanbe recognized by a Turing machine.",
+   "B": "They can be recognized by a Turing machine.",
    "C": "They are the most powerful type of grammar.",
    "D": "They can generate regular languages."
   },
@@ -16785,7 +16785,7 @@ window.QUESTIONS = [
   "exp": "Type-3 grammars are, by definition, regular grammars, and they generate exactly the regular languages.",
   "conf": "official",
   "prov": "Inspector of Legal Metrology, November 2023, Paper I, Q23; answer from MPSC's official final answer key, Notification No. ILM/1/2018-MPSC dated 8 March 2024 (the 14 March 2024 corrigendum revises only the Physics papers and leaves Computer Science & Engineering Paper-I unchanged)",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98). OCR damage repaired 2026-09-03: option (b) read 'Theycanbe recognized'. Spacing only -- no wording, option order or answer was touched. Found alongside its neighbour ILM2023_P1_022, whose stem had lost the '1' from 'Type 1'."
  },
  {
   "id": "ILM2023_P1_024",

@@ -19348,7 +19348,7 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Recurrence relations",
-  "q": "Given that a0 = 1, an = n + (_1)nan - 1 for n  2. What is the value of a4?",
+  "q": "Given that a₀ = 1, aₙ = n + (−1)ⁿaₙ₋₁ for n ≥ 2. What is the value of a₄?",
   "opts": {
    "A": "1",
    "B": "4",
@@ -19356,10 +19356,10 @@ window.QUESTIONS = [
    "D": "8"
   },
   "ans": "C",
-  "exp": "Treating the recurrence as applying from n=1 (a0=1): a1 = 1 + (-1)^1*a0 = 0; a2 = 2 + (-1)^2*a1 = 2; a3 = 3 + (-1)^3*a2 = 1; a4 = 4 + (-1)^4*a3 = 5.",
-  "conf": "high",
+  "exp": "Extending the recurrence down to n = 1 from the given a₀ = 1: a₁ = 1 + (−1)¹·1 = 0, a₂ = 2 + (−1)²·0 = 2, a₃ = 3 + (−1)³·2 = 1, a₄ = 4 + (−1)⁴·1 = 5. Note the stem states the recurrence only 'for n ≥ 2' while giving only a₀, so a₁ is strictly undefined; taking a₁ = a₀ = 1 instead would give a₂ = 3, a₃ = 0, a₄ = 4, which is option (b). The reading that yields 5 assumes the recurrence also holds at n = 1.",
+  "conf": "medium",
   "prov": "Inspector of Legal Metrology, December 2018, Paper I, Q17; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (43 of 99)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (43 of 99). STEM REPAIRED FROM SOURCE (page 2, question 17 of mpsc-question-bank/pdfs/Old_Questions/Direct_2014-2018/4.Computer Science&Engg Paper-I.pdf, rendered at 300dpi and read by eye). Subscripts and the exponent were lost and '≥' was Symbol-font U+F0B3, so the stem had arrived as 'a0 = 1, an = n + (_1)nan - 1 for n  2'. The paper prints a₀, aₙ, aₙ₋₁ and a₄ as subscripts with (−1)ⁿ as an exponent. Key (C) unchanged; confidence lowered from high to medium because a₁ is undefined as printed and option (b) 4 follows from the other reading."
  },
  {
   "id": "ILM2018_P1_020",
@@ -19612,18 +19612,18 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "2",
   "sub": "Karnaugh maps",
-  "q": "The simplest equation which implements the K-map shown below is:",
+  "q": "The simplest equation which implements the K-map shown below is: [K-map, columns C' then C; row A'B' = 0, 0; row A'B = 1, 1; row AB = 1, 1; row AB' = 0, 1]",
   "opts": {
-   "A": "X  AC  B",
-   "B": "X  AB",
-   "C": "X  ABC  ABC  ABC",
-   "D": "X  AB  AB"
+   "A": "X = AC + B",
+   "B": "X = AB",
+   "C": "X = ABC' + ABC + A'B'C",
+   "D": "X = AB + A'B"
   },
-  "ans": "B",
-  "exp": "The options use mangled Symbol-font characters ('\\uf03d','\\uf02b') for '=' and '+', and more importantly the actual K-map diagram the question refers to was not captured in the extracted text, so there is no way to verify which grouping of cells is correct. Picking B (X = AB) only because it is the shortest/simplest expression among the choices, consistent with the question asking for the 'simplest' equation, but this is a guess.",
-  "conf": "low",
+  "ans": "A",
+  "exp": "The 1-cells are A'BC', A'BC, ABC', ABC and AB'C. The four cells in the two B rows cover all of B regardless of A and C, giving the term B; the remaining 1 at AB'C pairs with ABC to give AC. So X = B + AC, which is option (a). Option (b) X = AB is 0 at A'BC' where the map is 1; (d) AB + A'B reduces to B alone and misses AB'C; (c) reduces to AB + A'B'C and misses the whole A'B row.",
+  "conf": "high",
   "prov": "Inspector of Legal Metrology, December 2018, Paper I, Q56; answer derived by review - no official key exists for this sitting; question defective as printed",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (43 of 99)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (43 of 99). STEM, OPTIONS AND KEY REPAIRED FROM SOURCE (page 6, question 56 of mpsc-question-bank/pdfs/Old_Questions/Direct_2014-2018/4.Computer Science&Engg Paper-I.pdf, rendered at 300dpi and read by eye). That file is named only by subject; it was identified as this sitting by its PDF title metadata ('E:\\!IT COPY\\Inspector of Legal ...') together with 28 of the 43 stored ILM2018_P1 stems appearing in it verbatim. THE K-MAP FIGURE HAD NEVER BEEN CAPTURED, so this card was unanswerable as stored and its own explanation said the answer was 'a guess' picked for being the shortest expression; the map is now transcribed into the stem, since the app renders no figures. Complement bars were also lost, which left (c) and (d) with repeated terms. Superseded answer: (B) X = AB, which the map contradicts at A'BC' (map 1, AB 0)."
  },
  {
   "id": "ILM2018_P1_057",
@@ -20869,15 +20869,15 @@ window.QUESTIONS = [
   "q": "The minimum number of colors are required to color the vertices of a cycle with n modes in such a way that no two adjacent nodes have the same color as",
   "opts": {
    "A": "2",
-   "B": "3 n ",
+   "B": "3",
    "C": "4",
-   "D": "n - 2   + 2 2"
+   "D": "n - 2[n/2] + 2"
   },
   "ans": "D",
-  "exp": "The chromatic number of a cycle Cn is 2 for even n and 3 for odd n. The closed form n - 2*floor(n/2) + 2 gives exactly 2 when n is even and 3 when n is odd, matching this. OCR turned the floor brackets into stray symbols, but the intent is recoverable.",
+  "exp": "A cycle needs 2 colours when n is even and 3 when n is odd, so neither (a) nor (b) alone is right for every n. Option (d) covers both: with [ ] read as the floor, even n gives n - 2(n/2) + 2 = 2 and odd n gives n - 2((n-1)/2) + 2 = 3.",
   "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q36; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTIONS REPAIRED FROM SOURCE (page 7, question 36 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). Option (b) is simply '3' - it had picked up ceiling-bracket glyphs from (d) - and (d) reads 'n - 2[n/2] + 2', where the tall brackets were printed as Symbol-font bracket pieces (U+F0E9/EA/EB and U+F0F9/FA/FB) and arrived as scattered junk. The key (D) is unchanged and correct."
  },
  {
   "id": "ILM2010_P1_037",
@@ -20888,18 +20888,18 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Boolean simplification",
-  "q": "Simplifying Boolean expression y  ABCD  ABCD",
+  "q": "Simplifying Boolean expression y = A'B'C'D' + A'B'C'D",
   "opts": {
    "A": "ABC",
-   "B": "ABC",
+   "B": "A'B'C'",
    "C": "A + BCD",
    "D": "AB + CD"
   },
-  "ans": "C",
-  "exp": "As printed, both terms of y are literally identical (ABCD + ABCD), which trivially reduces to ABCD and matches none of the options; complement bars over some literals were almost certainly stripped by OCR, and options A and B are also duplicated, so this cannot be reliably answered as printed.",
-  "conf": "low",
+  "ans": "B",
+  "exp": "Factor the common A'B'C': y = A'B'C'(D' + D) = A'B'C', since D' + D = 1. Option (a) ABC is the un-complemented form and the classic trap here, because the printed complement bars are easy to miss.",
+  "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q37; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 7, question 37 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). Every complement bar in this question was printed in a Symbol font and dropped by extraction, which left the stem as 'y = ABCD + ABCD' and options (a) and (b) both reading 'ABC'. The paper prints (a) ABC and (b) A'B'C'. Superseded answer: (C) 'A + BCD', which the algebra does not support."
  },
  {
   "id": "ILM2010_P1_038",
@@ -20954,18 +20954,18 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Boolean simplification",
-  "q": "After minimization of Boolean expression, y  AC  AB  ABC  BC We get",
+  "q": "After minimization of Boolean expression, y = A'C + A'B + AB'C + BC We get",
   "opts": {
-   "A": "A .B  C",
-   "B": "A .B  C",
-   "C": "A B  BC",
+   "A": "A'.B + C",
+   "B": "A.B + C",
+   "C": "A B' + BC",
    "D": "None of the above"
   },
-  "ans": "D",
-  "exp": "ABC is absorbed by AC (AC already covers ABC), leaving y = AC + AB + BC. Since no literals here are complemented, the consensus theorem cannot remove any further term, so this three-term form is already minimal and matches neither AB+C nor AB+BC — the answer is 'none of the above'.",
-  "conf": "medium",
+  "ans": "A",
+  "exp": "y = A'C + A'B + AB'C + BC is 1 for exactly the minterms 001, 010, 011, 101 and 111. Checking A'B + C on all eight rows: 000->0, 001->1, 010->1, 011->1, 100->0, 101->1, 110->0, 111->1 - the same function, so (a) is an exact minimization. Option (b) A.B + C differs at 010, where the function is 1 and A.B + C is 0.",
+  "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q40; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 7, question 40 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The complement bars were dropped, so options (a) and (b) both arrived as 'A .B + C' and the stem lost every bar. The paper prints (a) with A complemented. Superseded answer: (D) 'None of the above' - which was the only defensible choice while (a) and (b) were indistinguishable, but (a) is correct once the bar is restored."
  },
  {
   "id": "ILM2010_P1_041",
@@ -20998,18 +20998,18 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Recurrence relations",
-  "q": "The recurrence T (n) = 2 T (n - 1) + n for n  2 and T (1) = 1 evalutes to",
+  "q": "The recurrence T (n) = 2 T (n - 1) + n for n ≥ 2 and T (1) = 1 evalutes to",
   "opts": {
-   "A": "2n+1 - n - 2",
-   "B": "2n - n",
-   "C": "2n + n",
-   "D": "2n+1 - 2n - 2"
+   "A": "2ⁿ⁺¹ - n - 2",
+   "B": "2ⁿ - n",
+   "C": "2ⁿ + n",
+   "D": "2ⁿ⁺¹ - 2n - 2"
   },
   "ans": "A",
-  "exp": "Solving T(n)=2T(n-1)+n: the homogeneous part is C*2^n and a particular solution -n-2 satisfies the recurrence, so T(n) = C*2^n - n - 2. Using T(1)=1 gives C=2, so T(n) = 2^(n+1) - n - 2.",
+  "exp": "Unrolling gives T(1)=1, T(2)=4, T(3)=11, T(4)=26. Option (a) reproduces all of them: 2^2-1-2=1, 2^3-2-2=4, 2^4-3-2=11, 2^5-4-2=26. Option (d) 2^(n+1)-2n-2 agrees at n=1 but gives 2 at n=2, so it fails immediately.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q42; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 8, question 42 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The '≥' was a Symbol-font glyph (U+F0B3) and every exponent lost its superscript, so (a) and (d) read '2n+1 - n - 2' and '2n+1 - 2n - 2'. The key (A) is unchanged and correct."
  },
  {
   "id": "ILM2010_P1_043",
@@ -21174,7 +21174,7 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Modular arithmetic",
-  "q": "If a and b are positive integers, define a * b = a where a.b   (modulo 7), with this * operation, the inverse of 3 in group G { 1, 2, 3, 4, 5, 6} is",
+  "q": "If a and b are positive integers, define a * b = a where a.b ≡ α (modulo 7), with this * operation, the inverse of 3 in group G { 1, 2, 3, 4, 5, 6} is",
   "opts": {
    "A": "3",
    "B": "1",
@@ -21182,10 +21182,10 @@ window.QUESTIONS = [
    "D": "4"
   },
   "ans": "C",
-  "exp": "Need x with 3x ≡ 1 (mod 7). 3*5 = 15 = 2*7+1 ≡ 1 (mod 7), so the inverse of 3 is 5.",
+  "exp": "The inverse of 3 modulo 7 is the x with 3x ≡ 1 (mod 7): 3×5 = 15 = 14 + 1 ≡ 1, so x = 5. The trap is (a) 3, which is self-inverse only when the modulus makes 3² ≡ 1, and 9 ≡ 2 (mod 7), not 1.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q50; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 9, question 50 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the congruence sign and the alpha were Symbol-font glyphs (U+F0BA, U+F061). Options and key are unchanged and correct."
  },
  {
   "id": "ILM2010_P1_051",
@@ -21198,16 +21198,16 @@ window.QUESTIONS = [
   "sub": "Propositional logic",
   "q": "Which of the following propositions is tautology?",
   "opts": {
-   "A": " p  q  ",
-   "B": "p   q  p ",
-   "C": "p   p  q ",
-   "D": "p   q  p "
+   "A": "(p ∨ q) →",
+   "B": "p ∨ (q → p)",
+   "C": "p ∨ (p → q)",
+   "D": "p → (q → p)"
   },
   "ans": "D",
-  "exp": "p → (q → p) is a classic tautology: if p is true the consequent is automatically true, and if p is false the whole conditional is vacuously true — this is option (d). However p ∨ (p → q) (option c) is also always true, so as printed the question has two valid tautologies, and option (a) is truncated by OCR. (d) is the conventionally keyed answer for this recycled question.",
+  "exp": "(d) p → (q → p) is a tautology: if p is false the outer implication is vacuously true, and if p is true then q → p is true. But (c) p ∨ (p → q) is ALSO a tautology - when p is false, p → q is true, so the disjunction holds; when p is true the first disjunct holds. The question therefore has two correct options as printed; (d) is the canonical textbook tautology and is kept as the key.",
   "conf": "low",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q51; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTIONS REPAIRED FROM SOURCE (page 9, question 51 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the logical connectives were Symbol-font glyphs (U+F0DA ∨, U+F0AE →, U+F028/F029 brackets). TWO OPTIONS ARE TAUTOLOGIES - both (c) and (d) - so the question is defective as printed. Option (a) is genuinely truncated ON THE PRINTED PAGE, ending '(p ∨ q) →' with nothing after it; that is the paper's own defect, not an extraction loss."
  },
  {
   "id": "ILM2010_P1_052",
@@ -21218,18 +21218,18 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Propositional logic",
-  "q": "The proposition is p    p  q  is",
+  "q": "The proposition is p ∧ (¬p ∨ q) is",
   "opts": {
    "A": "a tautology",
    "B": "a contradiction",
-   "C": "logically equivalent to p  q",
+   "C": "logically equivalent to p ∧ q",
    "D": "none of these"
   },
   "ans": "C",
-  "exp": "By distribution, p ∧ (¬p ∨ q) = (p∧¬p) ∨ (p∧q) = F ∨ (p∧q) = p∧q, so the expression is logically equivalent to p∧q.",
-  "conf": "high",
+  "exp": "Distribute: p ∧ (¬p ∨ q) = (p ∧ ¬p) ∨ (p ∧ q) = F ∨ (p ∧ q) = p ∧ q. So it is neither a tautology nor a contradiction - it is logically equivalent to p ∧ q.",
+  "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q52; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 9, question 52 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The negation sign is a MISSING GLYPH in the source PDF itself - it renders as an empty box on the page and arrived as U+F03A - so it is read here as ¬, which is the only reading under which any printed option is correct. Option (c) carried the same Symbol-font conjunction (U+F0D9) as the stem and is repaired with it. Key (C) unchanged."
  },
  {
   "id": "ILM2010_P1_053",
@@ -21240,16 +21240,16 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Propositional logic",
-  "q": "Let p and q be propositions. Using only the truth table decide whether p  q does not imply p  q is",
+  "q": "Let p and q be propositions. Using only the truth table decide whether p ⇔ q does not imply p → ¬q is",
   "opts": {
    "A": "True",
    "B": "False"
   },
   "ans": "A",
-  "exp": "Reading the mangled connective between p and q as the biconditional (↔): when p=q=T, p↔q is true but p→¬q is false, so p↔q does not always imply p→¬q, making the statement True. The exact connective is OCR-damaged, so this reading cannot be fully verified.",
-  "conf": "low",
+  "exp": "Take p = q = true. Then p ⇔ q is true while p → ¬q is true → false = false, so a true premise gives a false conclusion and the implication fails. The claim being assessed is that p ⇔ q does NOT imply p → ¬q, and that claim is therefore True.",
+  "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q53; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 9, question 53 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the biconditional and negation were Symbol-font glyphs (U+F0DB, U+F0D8). This question really does print only TWO options, (a) True and (b) False - the two-option list is faithful to the paper, not a truncation. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_054",
@@ -21370,18 +21370,18 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Power sets",
-  "q": "Let A be a finite set of size n, the number of elements in the power set of A×A is 2n n2",
+  "q": "Let A be a finite set of size n, the number of elements in the power set of A×A is",
   "opts": {
-   "A": "2",
-   "B": "2",
-   "C": "(2n )2",
+   "A": "2^(2ⁿ)",
+   "B": "2^(n²)",
+   "C": "(2ⁿ)²",
    "D": "None of these"
   },
-  "ans": "D",
-  "exp": "The correct value is 2^(n^2) since |A×A| = n^2. OCR stripped the superscripts from options (a) and (b), so both print as the bare digit '2', and option (c) '(2^n)^2' = 2^(2n) is not equal to 2^(n^2) in general — as legibly printed, none of the options match, so 'none of the above' is the defensible pick.",
-  "conf": "low",
+  "ans": "B",
+  "exp": "|A| = n, so |A×A| = n², and a set of size m has 2^m subsets - hence |P(A×A)| = 2^(n²). Option (c) is the near-miss: (2ⁿ)² = 2^(2n), which equals 2^(n²) only at n = 0 and n = 2.",
+  "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q59; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 10, question 59 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The nested superscripts were lost entirely: options (a) and (b) both arrived as the bare string '2', and the exponents leaked into the stem, which ended '...power set of A×A is 2n n2'. Superseded answer: (D) 'None of these' - understandable while (a) and (b) both read '2', but (b) is correct as printed."
  },
  {
   "id": "ILM2010_P1_060",
@@ -21590,7 +21590,7 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Context-free languages",
-  "q": "The language L = {anb2n | n  1} is",
+  "q": "The language L = {aⁿb²ⁿ | n ≥ 1} is",
   "opts": {
    "A": "Regular language",
    "B": "Context-free language",
@@ -21598,10 +21598,10 @@ window.QUESTIONS = [
    "D": "None of the above"
   },
   "ans": "B",
-  "exp": "L={a^n b^(2n)} is generated by the CFG S → aSbb | abb, so it is context-free; it fails the regular pumping lemma (pumping the a's breaks the 1:2 ratio), so it is not regular.",
+  "exp": "aⁿb²ⁿ needs one counter to match the number of b's against twice the number of a's, which a pushdown stack provides but a finite automaton cannot - so it is context-free and not regular.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q69; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 11, question 69 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the exponents lost their superscripts ('anb2n') and '≥' was U+F0B3. Key (B) unchanged."
  },
  {
   "id": "ILM2010_P1_070",
@@ -21612,7 +21612,7 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Regular languages",
-  "q": "The language L = {a2i | i  0} is",
+  "q": "The language L = {a²ⁱ | i ≥ 0} is",
   "opts": {
    "A": "Regular language",
    "B": "Non regular language",
@@ -21620,10 +21620,10 @@ window.QUESTIONS = [
    "D": "None of the above"
   },
   "ans": "A",
-  "exp": "L = {a^(2i) | i≥0} is just the set of even-length strings of a's, which is exactly the regular language (aa)*.",
+  "exp": "The strings are exactly the even-length runs of a, which a two-state automaton accepts by counting length parity - so the language is regular. Note this is a²ⁱ (even length), not a^(2^i), which would not be regular.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q70; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 11, question 70 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): 'a2i' had lost its superscript and '≥' was U+F0B3. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_071",
@@ -21634,7 +21634,7 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Context-sensitive languages",
-  "q": "The language L = {aibicidi | i  1} is",
+  "q": "The language L = {aⁱbⁱcⁱdⁱ | i ≥ 1} is",
   "opts": {
    "A": "Regular language",
    "B": "Recursively enumerable language",
@@ -21642,10 +21642,10 @@ window.QUESTIONS = [
    "D": "None of the above"
   },
   "ans": "B",
-  "exp": "{a^i b^i c^i d^i} is a classic language that is context-sensitive but not context-free; it is still decidable/recursive and hence recursively enumerable, the closest fit among the given options.",
-  "conf": "medium",
+  "exp": "Four equal counts cannot be checked with one stack, so this is not context-free; but it is decidable - a Turing machine can simply count the four blocks - so it is recursive and hence recursively enumerable.",
+  "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q71; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 11, question 71 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the exponents lost their superscripts and '≥' was U+F0B3. Key (B) unchanged."
  },
  {
   "id": "ILM2010_P1_072",
@@ -21661,13 +21661,13 @@ window.QUESTIONS = [
    "A": "n",
    "B": "(2n - 1)",
    "C": "2n",
-   "D": "2n"
+   "D": "2ⁿ"
   },
   "ans": "B",
-  "exp": "In CNF every rule is A→BC or A→a, so deriving a string of length n needs n terminal-producing steps and n-1 binary-branching steps (a binary tree with n leaves has n-1 internal nodes), for a total of 2n-1 steps.",
+  "exp": "In Chomsky Normal Form every rule is A→BC or A→a. Deriving a terminal string of length n takes n-1 applications of the binary rules to build the tree plus n terminal rules, giving 2n-1 steps in total.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q72; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTIONS REPAIRED FROM SOURCE (page 11, question 72 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): option (d) is 2ⁿ and had lost its superscript, so (c) and (d) both arrived as the string '2n'. Key (B) unchanged and correct."
  },
  {
   "id": "ILM2010_P1_073",
@@ -21766,7 +21766,7 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Context-sensitive languages",
-  "q": "L = {anbncn | n  1}, is",
+  "q": "L = {aⁿbⁿcⁿ | n ≥ 1}, is",
   "opts": {
    "A": "Recursive",
    "B": "Recursively enumerable but non-recursive",
@@ -21774,10 +21774,10 @@ window.QUESTIONS = [
    "D": "None of the above."
   },
   "ans": "A",
-  "exp": "{a^n b^n c^n} is context-sensitive; context-sensitive languages are decidable, so this language is recursive.",
+  "exp": "aⁿbⁿcⁿ is not context-free, but it is decidable: a Turing machine can count the three blocks and halt on every input, so the language is recursive. (b) would require it to be undecidable, which it is not.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q77; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 12, question 77 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the exponents lost their superscripts and '≥' was U+F0B3. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_078",
@@ -21788,7 +21788,7 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Closure properties",
-  "q": "If L1 is a context-free language, and L2 and L3 are regular languages then L1  L2 L3 is",
+  "q": "If L1 is a context-free language, and L2 and L3 are regular languages then L1 ∩ L2 L3 is",
   "opts": {
    "A": "Context-free language",
    "B": "Regular language",
@@ -21796,10 +21796,10 @@ window.QUESTIONS = [
    "D": "None of the above"
   },
   "ans": "A",
-  "exp": "L2 and L3 are regular, so their concatenation L2.L3 is regular (regular languages are closed under concatenation). A context-free language intersected with a regular language is always context-free (a standard closure property), so the result is context-free.",
-  "conf": "high",
+  "exp": "Regular languages are closed under concatenation, so L2L3 is regular, and the intersection of a context-free language with a regular language is always context-free. It need not be regular, which is why (b) is wrong.",
+  "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q78; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 12, question 78 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): '∩' was U+F0C7. The printed stem writes 'L1 ∩ L2 L3' without brackets, so the grouping is the paper's own ambiguity; read as L1 ∩ (L2L3) the answer is the same either way. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_079",
@@ -21810,7 +21810,7 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Closure properties",
-  "q": "If L1 is a context-free language, and L2 is a regular set, then L1  L2 is",
+  "q": "If L1 is a context-free language, and L2 is a regular set, then L1 ∪ L2 is",
   "opts": {
    "A": "Context-free language",
    "B": "Regular language",
@@ -21818,10 +21818,10 @@ window.QUESTIONS = [
    "D": "None of the above"
   },
   "ans": "A",
-  "exp": "Regular languages are a subset of context-free languages, and CFLs are closed under union, so a CFL unioned with a regular language is always a context-free language.",
+  "exp": "Every regular language is context-free, and the context-free languages are closed under union, so the union is context-free. It need not be regular - take L1 = {aⁿbⁿ} and L2 = ∅ - so (b) is wrong.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q79; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 12, question 79 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): '∪' was U+F0C8. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_080",
@@ -21902,13 +21902,14 @@ window.QUESTIONS = [
   "opts": {
    "A": "is always regular",
    "B": "is always context free",
-   "C": "both (a) and (b) (d) need not be regular"
+   "C": "both (a) and (b)",
+   "D": "need not be regular"
   },
   "ans": "B",
-  "exp": "The intersection of a context-free language and a regular language is always context-free (a standard closure property) — it is not guaranteed to be regular. The option list here is corrupted (only 3 entries, with the third merging two choices together), so the letter mapping is uncertain even though the underlying fact is well established.",
+  "exp": "The intersection of a context-free language with a regular language is always context-free - run the PDA and the DFA in parallel - so (b) holds. It is not always regular: {aⁿbⁿ} ∩ a*b* is itself {aⁿbⁿ}, which rules out (a) and therefore (c). Note (d) 'need not be regular' is also a true statement about this intersection, so the question has two defensible answers; (b) is the stronger and standard one.",
   "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q83; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTION (D) RESTORED FROM SOURCE (page 13, question 83 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The paper prints four options; extraction glued (d) onto the end of (c), so the bank held only three, with (c) reading 'both (a) and (b) (d) need not be regular'. Key (B) unchanged. Flagged because (d) as printed is also true."
  },
  {
   "id": "ILM2010_P1_084",
@@ -25067,7 +25068,7 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Set theory",
-  "q": "If x  N and x is prime, then x is ________ set.",
+  "q": "If x ∈ N and x is prime, then x is ________ set.",
   "opts": {
    "A": "Finite set",
    "B": "Empty set",
@@ -25078,7 +25079,7 @@ window.QUESTIONS = [
   "exp": "The mangled symbol before 'N' is the set-membership sign (in): x belongs to N and is prime. There are infinitely many prime numbers, so the set of such x is an infinite set.",
   "conf": "official",
   "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q3; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51). STEM REPAIRED FROM SOURCE (page 1, question 3 of mpsc-question-bank/pdfs/Old_Questions/Direct_2023-2025/Jr. Grade of MES (Electrical Wing) under P&E Deptt., Computer Engg Paper-I..pdf, rendered at 300dpi and read by eye - the cover page confirms 'P&E Cadre (Electrical Wing) ... July-2023, Computer Science and Engineering Paper-I'). The set-membership sign was Symbol-font U+F0CE and had rendered as a blank. Answer untouched: this sitting has an official MPSC key."
  },
  {
   "id": "MES2023_P1_004",
@@ -25244,16 +25245,16 @@ window.QUESTIONS = [
   "sub": "Chomsky hierarchy",
   "q": "Correct hierarchical relationship among context- free, right-linear, and context-sensitive language is",
   "opts": {
-   "A": "context-free  right-linear  context-sensitive",
-   "B": "context-free  context-sensitive  right-linear",
-   "C": "context-sensitive  right-linear  context-free",
-   "D": "right-linear  context-free  context-sensitive"
+   "A": "context-free ⊂ right-linear ⊂ context-sensitive",
+   "B": "context-free ⊂ context-sensitive ⊂ right-linear",
+   "C": "context-sensitive ⊂ right-linear ⊂ context-free",
+   "D": "right-linear ⊂ context-free ⊂ context-sensitive"
   },
   "ans": "D",
   "exp": "In the Chomsky hierarchy, regular (right-linear) languages are a proper subset of context-free languages, which are in turn a proper subset of context-sensitive languages: right-linear ⊂ context-free ⊂ context-sensitive.",
   "conf": "official",
   "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q11; answer from MPSC's official final answer key for this sitting, dated 5 September 2023 (Section A only; the Commission did not publish a key for Section B)",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51). OPTIONS REPAIRED FROM SOURCE (page 2, question 11 of the same July-2023 MES Electrical Wing Computer Science Paper-I). The proper-subset signs were Symbol-font U+F0CC and had rendered as blanks, so all four options read as bare word lists with no relation between them - the question was unreadable even though its key was right. Answer untouched: this sitting has an official MPSC key."
  },
  {
   "id": "MES2023_P1_012",

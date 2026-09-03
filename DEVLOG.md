@@ -9,6 +9,127 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-03 (cont. 2) — Symbol-font damage cleared from the bank: 21 cards read off their source scans, four of them keyed to the wrong option
+
+**What shipped.** 21 corrections in `staged/audit-corrections.json` — 17 to
+`ILM2010_P1_*`, two to `ILM2018_P1_*`, two to `MES2023_P1_*` — every stem and
+option string read off a 300dpi render of its source page. Symbol-font residue
+**bank-wide: 18 cards → 0**. Plus
+`tools/system-analyst-build/check_symbol_residue.py`, the scanner that measures
+it, which exists for reasons given at the bottom of this entry.
+
+The ILM 2010 Paper I block (14 cards, printed pages 6, 8, 9, 10, 11, 12 of
+`CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf`)
+is described first; the four cards from other sittings follow.
+
+**Why the text layer was not enough.** That PDF *has* a text layer — 54,000
+characters — which is why the previous entry called these "cheap to check". They
+were not cheap. The mathematics is set in a Symbol font, and `pdftotext` either
+maps those glyphs into the private-use area (`U+F02B` `+`, `U+F03D` `=`,
+`U+F0AE` `→`, `U+F0B3` `≥`, `U+F0C7` `∩`, `U+F0D9` `∧`, `U+F0DA` `∨`,
+`U+F0DB` `⇔`, `U+F0BA` `≡`, `U+F061` `α`) or drops them entirely. Overbars and
+superscripts are dropped, not mojibaked — no codepoint table recovers them.
+Every one of these 17 required looking at the page.
+
+**Three had the wrong answer, and in each case the damage caused it.**
+
+- **Q37** `y = A'B'C'D' + A'B'C'D` factors to `A'B'C'(D'+D)` = **A'B'C'**, which
+  the paper prints at **(b)**. Keyed (C) `A + BCD`. Losing the bars had made (a)
+  and (b) both read `ABC`.
+- **Q40** `y = A'C + A'B + AB'C + BC` is minterms 001, 010, 011, 101, 111;
+  `A'B + C` matches all eight rows, so the answer is **(a)**. Keyed (D) "None of
+  the above" — which was the only *defensible* choice while the lost bar left
+  (a) and (b) both reading `A .B + C`. The damage manufactured the wrong answer.
+- **Q59** `|A×A| = n²`, so `|P(A×A)| = 2^(n²)` = **(b)**. Keyed (D) "None of
+  these". The nested superscripts had collapsed (a) and (b) to the bare string
+  `2` and leaked the exponents into the stem, which ended `...power set of A×A
+  is 2n n2`.
+
+**Q83 is the first real use of `restores_option`.** The paper prints four
+options; extraction glued (d) onto (c), so the bank held three with (c) reading
+"both (a) and (b) (d) need not be regular". Restored to four. The guard added
+earlier this session refuses a key-set change unless the payload says
+`restores_option`, and refuses to drop a key even then — which is what makes
+restoring a lost option distinguishable from renumbering.
+
+**Two defects that are the paper's own, not the extractor's**, now recorded
+rather than silently "fixed":
+
+- **Q51** option (a) really is truncated on the page, printing `(p ∨ q) →` with
+  nothing after it. And **both (c) `p ∨ (p → q)` and (d) `p → (q → p)` are
+  tautologies**, so the question has two correct answers. (d) is kept as the
+  canonical one, at `conf: low`, with the ambiguity in the note.
+- **Q83** (d) "need not be regular" is also true, so it too has two defensible
+  answers; (b) is the stronger and is kept, `conf: medium`.
+- **Q53** prints only two options, (a) True and (b) False. The two-option list
+  was already faithful — not a truncation, and now noted as such so nobody
+  "repairs" it.
+- **Q52**'s negation sign is a **missing glyph in the source PDF itself** — it
+  renders as an empty box. Read as `¬` because that is the only reading under
+  which any printed option is correct, and the note says so rather than
+  implying the page was legible.
+
+**One miss of my own, caught by re-running the scanner.** The first pass of Q52
+repaired the stem but not the options, and option (c) carried the same
+Symbol-font `∧`. The card came back on the next residue scan. Worth noting
+because the correction *looked* complete and the applier had nothing to object
+to — only re-measuring found it.
+
+**Verified in the browser**, served `public/`: Past Papers → March 2010 Paper I
+→ Browse with answers renders Q40 with **A** `A'.B + C` carrying `opt right`,
+Q59 with **B** `2^(n²)`, and Q83 with four options and **B** marked; no console
+errors; applier idempotent at 0 changed, 46 already up to date; consistency
+checker still exits 0.
+
+**Then the last 4 cards, and the worst single card in the batch.** Finishing the
+class meant finding two more source PDFs, neither named after its sitting:
+
+- **`ILM2018_P1_056` was keyed wrong, and the K-map had never been captured.**
+  Its own explanation said so — "there is no way to verify which grouping of
+  cells is correct… but this is a guess", picking (b) `X = AB` for being the
+  shortest expression. The map is on page 6 of
+  `Old_Questions/Direct_2014-2018/4.Computer Science&Engg Paper-I.pdf`, a file
+  named only by subject; it was identified as the December-2018 ILM sitting by
+  its PDF title metadata (`E:\!IT COPY\Inspector of Legal …`) plus 28 of the 43
+  stored `ILM2018_P1` stems appearing in it verbatim. Transcribed, the map's
+  1-cells are `A'BC', A'BC, ABC', ABC, AB'C`: the two B rows give `B`, and
+  `AB'C` pairs with `ABC` to give `AC`, so **X = AC + B, option (a)**. Checked
+  all four printed options against all eight rows — only (a) matches; (b) fails
+  at `A'BC'`. **The map is now transcribed into the stem**, because the app
+  renders no figures, so repairing only the options would have left the card
+  unanswerable with tidier text.
+- `ILM2018_P1_017`: subscripts and the `(−1)ⁿ` exponent restored. Key (C) 5
+  stands, but confidence drops high → medium: the stem gives only `a₀` while
+  starting the recurrence at `n ≥ 2`, so `a₁` is strictly undefined, and taking
+  `a₁ = a₀` instead yields 4 — which is also on the option list.
+- `MES2023_P1_003` (`∈`) and `MES2023_P1_011` (the `⊂` hierarchy chain, whose
+  four options had rendered as bare word lists with no relation between them):
+  glyphs restored from the July-2023 MES Electrical Wing paper. **Answers
+  untouched** — that sitting has an official MPSC key and both cards carry
+  `conf: official`.
+
+**Symbol-font residue is now 0 bank-wide**, verified with a sanity-checked
+regex both in Python and in the browser against the served data.
+
+**A measurement trap worth recording.** Three separate scans in this session
+reported wrong residue counts — 0, then 1262, then 1711 — because the
+private-use character class was written as literal characters inside a shell
+heredoc or a JS string and collapsed to a literal hyphen, matching every card
+containing `-`. One of those wrong answers was 0, i.e. "the bank is clean". The
+scanner now lives at a fixed path with the range written as `-`
+escapes and an `assert` that it matches `U+F02B` and does **not** match
+`a-b-c`. Any future count should be taken from that file, not retyped inline.
+
+**What's still open.**
+
+- `TECH1_CSE_021` still unresolved for the reason given last entry: no source
+  page exists for "MPSC CSE Paper I (year not recorded)".
+- The three remaining consistency warnings are fidelity nits (`O(n²)` vs
+  `O(n^2)`, `All of these` vs `All of the mentioned`, and 193's parenthetical
+  wording differing from its duplicate's).
+
+---
+
 ## 2026-09-03 (cont.) — The duplicate-pair guard the last entry asked for, and the three Technical Paper I cards it caught
 
 **What shipped.** `tools/system-analyst-build/check_bank_consistency.py`, plus

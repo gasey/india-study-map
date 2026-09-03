@@ -9,6 +9,99 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-03 (cont.) — The duplicate-pair guard the last entry asked for, and the three Technical Paper I cards it caught
+
+**What shipped.** `tools/system-analyst-build/check_bank_consistency.py`, plus
+three corrections applied through `apply_audit_corrections.py` and one new
+repair shape in the applier.
+
+**The guard.** The previous entry closed with: "`apply_audit_corrections.py`
+should arguably resolve corrections by *stem* as well as by id, or the build
+should fail when two cards share a stem and disagree on the answer. Either
+would have caught 195 automatically." This is that check. It compares keyed
+**letters**, keyed **text**, option **lists** and option **order** across every
+pair of cards that share a stem *and* substantially share an option list.
+
+It immediately justified itself: the same previous entry recorded a manual
+sweep of all 21 duplicate pairs concluding only 207 and 195 were broken. **That
+sweep missed two more**, because it compared the keyed option's *text* — and
+both copies of MES2015 Q21 key the string `y=A+B`, under different letters, one
+of them wrong.
+
+**The three cards.**
+
+- **`TECH1_CSE_192` — right expression, wrong letter, off a corrupted option
+  list.** Page 3 Q21 prints (c) `y=A'+B` and (d) `y=A+B`. This copy had dropped
+  the apostrophe from (c), leaving (C) and (D) both reading `y=A+B`, and was
+  keyed **(C)**. Options restored from source; key moved to (D), where its
+  duplicate `MES2015_PAPER1_021` already had it. (`y = A + A'B = A + B`.)
+- **`TECH1_CSE_193` — a confident answer the printed page does not support.**
+  It keyed (A) `D=AB'+A'B, X=A'B`, the textbook half-subtractor identity. The
+  page prints no such option. Read at 600dpi, the four printed D expressions
+  reduce to `AB`, `A`, `A` and `1`; a half subtractor needs `A XOR B`, so **no
+  option is correct**. The same silent reconstruction had been applied to (C),
+  leaving (A) and (C) byte-identical and the key arbitrary between them. Now
+  transcribed as printed and parked unanswerable, matching
+  `MES2015_PAPER1_023`, which reached that verdict from the same page.
+- **`ILM2010_P1_041` — all four options were the same string, and the key was
+  the wrong one.** The complement bars are printed in a Symbol font: pdftotext
+  drops them and maps `+` to private-use `U+F02B`, so the card arrived with its
+  stem as `x y  x y  x y` and every option as the identical `x  y`. The
+  paper (page 8 Q41) prints four distinct options. `x'y' + xy + x'y = x'(y'+y)
+  + xy = x' + xy = x' + y`, which the paper prints at **(d)** — the card was
+  keyed (A), arbitrary among four identical strings and also simply wrong.
+
+**One new applier shape: `unanswerable`.** `repair_text` refused to leave a card
+with `ans: ""`, so the only way to "repair" a card whose printed options are all
+wrong was to invent a key for it — which is how 193 got its (A) in the first
+place. `unanswerable: true` now permits `ans: ""` on a repair, and *requires* a
+note saying why, since an empty answer with no reason reads as missing data.
+That matches the bank's existing convention (`app.js` keeps only
+`q.ans.length === 1` in `ANSWERABLE`) and its three existing parked cards.
+
+**Two rounds of my own false positives, both worth recording** because they are
+the same mistake in opposite directions:
+
+1. Normalising option text the way stems are normalised — stripping all
+   punctuation — reported **33** cards as having a key pointing into duplicated
+   options. `y=A+B`, `y=A'B` and `y=A'+B` all collapse to `y a b` once `'`,
+   `+` and `=` are gone. Almost every one of the 33 was this artifact. Real
+   count after fixing: 3.
+2. Then case-folding options *within* a card flagged `GEN-31`, whose (a)/(b)
+   differ by exactly one capital — `submit` vs `Submit` — in a question that
+   asks which sentence is correctly punctuated. So there are now two
+   normalisers: whitespace-only within a card (case is content), and
+   whitespace-plus-case across cards (one import route lowercased a paper).
+
+**Verified in the browser**, served `public/`: Past Papers → March 2010 Paper I
+→ Browse with answers renders Q41 as `A x'+y' / B x+y / C x+y' / D x'+y` with
+**D** carrying `opt right`; `TECH1_CSE_193` is out of `ANSWERABLE` (1723, and
+Discrete Mathematics' count drops 188 → 187 exactly as it should); no console
+errors. Applier idempotent: second run 0 changed, 29 already up to date.
+
+**What's still open.**
+
+- **18 cards still carry Symbol-font private-use characters** — 15 of them ILM
+  2010 Paper I, the rest ILM 2018 and MES 2023. The codepoints decode
+  mechanically (`U+F02B` `+`, `U+F03D` `=`, `U+F0AE` `→`, `U+F0B3` `≥`,
+  `U+F0CC` `⊂`, `U+F0D9`/`U+F0DA` `∧`/`∨`), but 041 shows the bars are dropped
+  *entirely* rather than mojibaked, so a codepoint map alone will not restore
+  those cards — each needs its page read. These are cheap: that PDF has a real
+  text layer for everything except the Symbol runs.
+- **`TECH1_CSE_021`** keys (A) `2n locations` with (C) reading the same string;
+  the answer is `2^n` and the superscript was lost. Deliberately NOT guessed:
+  its sitting is "MPSC CSE Paper I (year not recorded)", so there is no page to
+  check, and choosing which of (A)/(C) was the superscripted one would be
+  inventing a key — exactly what 193 was.
+- The 21 duplicate pairs are still duplicates; the guard now catches
+  divergence, but nothing dedupes them.
+- `TECH1_CSE_033`/`PROG2018_P1_001` key the same letter with differently worded
+  text (`All of these` vs `All of the mentioned`), and `TECH1_CSE_207`/
+  `MES2015_PAPER1_043` differ by `O(n²)` vs `O(n^2)`. Both are fidelity nits
+  the guard reports as warnings; neither teaches a wrong fact.
+
+---
+
 ## 2026-09-03 — Practice's sub-topic filter could only reach 226 of Technical Paper I's 945 questions, and looked fine doing it
 
 **What shipped.** `fillSubs()` in `public/mpsc-system-analyst/app.js` now builds

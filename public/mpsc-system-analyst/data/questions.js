@@ -13003,13 +13003,14 @@ window.QUESTIONS = [
   "opts": {
    "A": "y=AB",
    "B": "y=A'B",
-   "C": "y=A+B",
+   "C": "y=A'+B",
    "D": "y=A+B"
   },
-  "ans": "C",
-  "exp": "Using Boolean algebra: y=A+A'B = A(1+B)+A'B = A+A'B. By absorption law, when A is true the result is true; when A is false, only B matters, so y=A+B.",
+  "ans": "D",
+  "exp": "y = A + A'B absorbs to A + B: wherever A'B is true B is true, so the A'B term adds nothing that A + B does not already cover (formally A + A'B = (A+A')(A+B) = A+B). Option (c) y=A'+B is the near-miss — it is the complement-of-A form, true when A is false, which is not what A + A'B evaluates to.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "OPTIONS REPAIRED FROM SOURCE (page 3, question 21 of CSE 2015/jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.pdf, read by eye at 600dpi - that PDF is a pure scan with a 1-character text layer). This copy had dropped the apostrophe from printed option (c) y=A'+B, leaving (C) and (D) both reading y=A+B, and was keyed (C). The paper prints y=A+B at (d), which is where the key now sits; its duplicate MES2015_PAPER1_021 already keyed (D) correctly. Superseded answer: (C).",
+  "conf": "high"
  },
  {
   "id": "TECH1_CSE_193",
@@ -13022,15 +13023,16 @@ window.QUESTIONS = [
   "sub": "Discrete Mathematics",
   "q": "For a binary half subtractor having two inputs A and B, the correct set of logical expressions for the outputs D (=A minus B) and X (= borrow) are",
   "opts": {
-   "A": "D=AB̄+ĀB, X=ĀB",
-   "B": "D=ĀB̄+ĀB+AB̄, X=ĀB",
-   "C": "D=AB̄+ĀB, X=ĀB",
-   "D": "D=AB̄+ĀB, X̄=ĀB"
+   "A": "D = AB + AB, X = A'B",
+   "B": "D = AB + AB + AB', X = AB'",
+   "C": "D = AB + AB', X = A'B",
+   "D": "D = AB + A'B' (single bar printed over AB), X = AB"
   },
-  "ans": "A",
-  "exp": "In a half subtractor: Difference D = A⊕B = AB̄+ĀB (XOR); Borrow X = ĀB (when A=0 and B=1).",
+  "ans": "",
+  "exp": "Unanswerable as printed. A binary half subtractor needs D = AB' + A'B (= A XOR B) and X = A'B. The four printed D expressions reduce to AB, A, A and 1 respectively, so none of them is the difference output; (a) and (c) do at least print the correct borrow X = A'B. The intended key was almost certainly (a) with two complement bars lost in printing, but that is a guess about the typesetter, not something the page supports.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "AMBIGUOUS COMPLEMENT NOTATION - NO OPTION IS CORRECT AS PRINTED. Re-read at 600dpi against page 3, question 23 of CSE 2015/jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.pdf. This card previously carried a confident (A) reading 'D=AB'+A'B, X=A'B' - the textbook identity, which the page does not print. That reconstruction had also been applied to (C), leaving (A) and (C) byte-identical and the key arbitrary between them. Options are now transcribed as printed and the card is parked unanswerable, matching its duplicate MES2015_PAPER1_023, which reached the same verdict from the same page. Superseded answer: (A).",
+  "conf": "low"
  },
  {
   "id": "TECH1_CSE_194",
@@ -20974,18 +20976,18 @@ window.QUESTIONS = [
   "paper": "TECH1",
   "unit": "1",
   "sub": "Boolean identities",
-  "q": "The boolean function x y  x y  x y is equivalent to",
+  "q": "The boolean function x'y' + xy + x'y is equivalent to",
   "opts": {
-   "A": "x  y",
-   "B": "x  y",
-   "C": "x  y",
-   "D": "x  y"
+   "A": "x' + y'",
+   "B": "x + y",
+   "C": "x + y'",
+   "D": "x' + y"
   },
-  "ans": "A",
-  "exp": "All four options print identically as 'x + y' after OCR stripped the primes/complements, so the distractors can't be told apart. The identity likely being tested is x'y + xy' + xy = x + y (a standard boolean identity), but as printed there is no way to pick a unique letter.",
-  "conf": "low",
+  "ans": "D",
+  "exp": "Group the first and third terms: x'y' + x'y = x'(y' + y) = x', so the function is x' + xy. Then x' + xy = (x' + x)(x' + y) = x' + y. Truth table check, (x,y) = 00,01,10,11: the printed function gives 1,1,0,1 and x' + y gives 1,1,0,1. The near-misses fail on one row each - x' + y' gives 1 at (1,0) where the function is 0, and x + y' gives 0 at (0,1) where the function is 1.",
+  "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q41; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 8, question 41 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The complement bars were printed in a Symbol font: pdftotext drops them and maps '+' to the private-use codepoint U+F02B, so this card had arrived with the stem as 'x y  x y  x y' and ALL FOUR options as the identical string 'x \\uf02b y'. The paper prints (a) x'+y', (b) x+y, (c) x+y', (d) x'+y - four distinct options. Superseded answer: (A), which was arbitrary among four identical strings; the function reduces to x'+y, which the paper prints at (d)."
  },
  {
   "id": "ILM2010_P1_042",

@@ -59,7 +59,7 @@ ROOT = HERE.parents[1]
 QUESTIONS_FILE = ROOT / "public" / "mpsc-system-analyst" / "data" / "questions.js"
 CORRECTIONS = HERE / "staged" / "audit-corrections.json"
 
-VALID_ACTIONS = {"set_answer", "set_explanation", "note_only", "repair_text"}
+VALID_ACTIONS = {"set_answer", "set_explanation", "note_only", "repair_text", "set_tags"}
 
 
 def load_js(path, name):
@@ -141,20 +141,66 @@ def main():
             if "q" in c:
                 q["q"] = c["q"]
             if "opts" in c:
-                if sorted(c["opts"]) != sorted(q["opts"]):
-                    sys.exit(f"FAIL {c['id']}: repair changes the option KEYS from "
-                             f"{sorted(q['opts'])} to {sorted(c['opts'])} — options are "
-                             f"never renumbered; option A is whatever the paper printed as (a)")
+                old_keys, new_keys = sorted(q["opts"]), sorted(c["opts"])
+                # Growing the key set is RECOVERY, not renumbering: OCR sometimes
+                # glues the printed (d) onto the end of (c), so the bank stores
+                # three options where the paper printed four. Restoring the lost
+                # key is allowed, but only when the payload says so explicitly and
+                # only if every key that already existed survives — that way a
+                # genuine renumbering (which would silently move the answer to a
+                # different option) still fails loudly.
+                if new_keys != old_keys:
+                    if not c.get("restores_option"):
+                        sys.exit(f"FAIL {c['id']}: repair changes the option KEYS from "
+                                 f"{old_keys} to {new_keys} — options are never "
+                                 f"renumbered; option A is whatever the paper printed "
+                                 f"as (a). If the paper really printed an option the "
+                                 f"bank lost, set restores_option: true.")
+                    dropped = [k for k in old_keys if k not in new_keys]
+                    if dropped:
+                        sys.exit(f"FAIL {c['id']}: restores_option may only ADD keys, "
+                                 f"but this repair drops {dropped}")
                 q["opts"] = c["opts"]
             if "ans" in c:
                 q["ans"] = c["ans"]
-            if q["ans"] not in q["opts"]:
+            if c.get("unanswerable"):
+                # Reading the source can establish that NO printed option is
+                # correct — MES2015 Q23's four D-expressions reduce to AB, A, A
+                # and 1, and a half subtractor needs A XOR B. The bank's way of
+                # saying that is `ans: ""` plus an ALL-CAPS reason in `note`,
+                # which drops the card out of ANSWERABLE (app.js keeps only
+                # `q.ans.length === 1`) so it is never scored or drilled but
+                # stays readable. Without this branch the check below makes that
+                # state unreachable, and the only way to "repair" such a card is
+                # to invent a key for it — which is how TECH1_CSE_193 came to
+                # assert a confident (A) that the printed paper does not support.
+                if c.get("ans", q["ans"]) != "":
+                    sys.exit(f"FAIL {c['id']}: unanswerable repairs must set ans to \"\", "
+                             f"got {c.get('ans')!r}")
+                if not c.get("note"):
+                    sys.exit(f"FAIL {c['id']}: an unanswerable card must carry a note saying "
+                             f"why — an empty answer with no reason reads as missing data")
+            elif q["ans"] not in q["opts"]:
                 sys.exit(f"FAIL {c['id']}: after repair, answer {q['ans']!r} is not one of "
                          f"{sorted(q['opts'])}")
             if "exp" in c:
                 q["exp"] = c["exp"]
             if "conf" in c:
                 q["conf"] = c["conf"]
+        elif c["action"] == "set_tags":
+            # Re-filing a question under a different syllabus unit/leaf. Kept
+            # separate from set_answer because it asserts nothing about the
+            # answer — a question can be perfectly answered and still be shelved
+            # in the wrong unit, which is what makes a unit-weighted mock draw
+            # from the wrong pool. Guarded the same way set_answer is: the
+            # payload records what the audit saw, so a card that has moved on
+            # since stops the run rather than being re-filed on a stale verdict.
+            if q.get("unit") not in (c["old_unit"], c["unit"]):
+                sys.exit(f"FAIL {c['id']}: stored unit is {q.get('unit')!r}, but the "
+                         f"audit saw {c['old_unit']!r}. Re-audit rather than re-filing blind.")
+            q["unit"] = c["unit"]
+            if "sub" in c:
+                q["sub"] = c["sub"]
 
         if c.get("note"):
             q["note"] = merge_note(q.get("note"), c["note"], c["note_mode"])
@@ -171,6 +217,7 @@ def main():
         "set_explanation": "explanations rewritten",
         "note_only": "flagged by note only",
         "repair_text": "stems/options repaired from source",
+        "set_tags": "re-filed under a different unit/subtopic",
     }
     by_action = {a: sum(1 for c in corrections if c["action"] == a) for a in VALID_ACTIONS}
     print(f"applied {len(corrections)} corrections to {QUESTIONS_FILE.relative_to(ROOT)}")

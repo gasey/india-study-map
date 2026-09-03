@@ -9,6 +9,49 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-03 — Practice's sub-topic filter could only reach 226 of Technical Paper I's 945 questions, and looked fine doing it
+
+**What shipped.** `fillSubs()` in `public/mpsc-system-analyst/app.js` now builds
+the sub-topic dropdown from the syllabus's printed subtopics **unioned with the
+`sub` tags the questions in that unit actually carry**, syllabus order first so
+the official taxonomy still leads the list. One hunk, no data changes.
+
+**Why.** It read the syllabus only. Technical Paper I's 2026 import tagged
+questions to a fine working taxonomy — "Pumping lemma", "Chomsky hierarchy",
+"Euler graphs" — while the printed syllabus names 27 coarse leaves for the whole
+paper, so **719 of TECH1's 945 questions carried a `sub` no dropdown entry
+matched** and were unreachable through that filter.
+
+Discrete Mathematics was the worst of it: 7 printed leaves against 66 distinct
+tags in the data, and only 2 of those 7 leaves had any questions at all — so the
+filter offered 2 options covering **21 of the unit's 188** answerable questions.
+
+**What made it worth a DEVLOG entry rather than a one-line fix** is that it was
+invisible. The dropdown drops zero-count leaves, so the 5 empty syllabus leaves
+never rendered and the list just looked *short* — not broken. Nothing anywhere
+said "167 questions in this unit cannot be filtered to". Same shape as the
+DEVLOG 2026-08-04 extractor loss: the failure removed its own evidence.
+
+**Verified in the browser** (`static-apps`, Practice → Technical I → Discrete
+Mathematics): the dropdown went from 2 leaves to **62, and its per-leaf counts
+now sum to 188 — the whole unit**, with no console errors. Checked the blast
+radius too: TECH1 is the *only* paper affected. GE, GS, TECH1_LEGACY, TECH2,
+TECH3 and OFFSYL all tag `sub` to a syllabus string exactly, 0 strays each, so
+their dropdowns are byte-identical before and after.
+
+**What's still open.** Surfacing the real tags also surfaces that they were
+never normalised: Discrete Mathematics alone carries "Finite automata" *and*
+"Finite Automata" *and* "Finite Automata / Formal Grammars", "Propositional
+logic" *and* "Propositional Logic", "Set theory" *and* "Set theory basics",
+plus a 37-question catch-all leaf just called "Discrete Mathematics". The fix
+makes all of them reachable, which is strictly better than hiding them, but the
+taxonomy wants a dedup pass — case-folding the obvious pairs and splitting that
+catch-all. That is a data change (`set_tags` in
+`apply_audit_corrections.py` now exists for exactly this), deliberately not
+bundled with a one-hunk UI fix.
+
+---
+
 ## 2026-09-02 — Quick Revision: 320 questions from the August-2026 sitting, and nine places where the booklet's own mark doesn't survive checking
 
 **What shipped.** A new static page, `public/quick-practice/quick-revision/`,

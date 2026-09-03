@@ -1017,11 +1017,28 @@ VIEWS.practice = (el, opts) => {
   // and until now there was no way to reach it: unit 6 alone holds 67 real
   // past-paper questions across eleven different leaves. Only offered once a
   // unit is chosen, because leaf names are only meaningful inside their unit.
+  //
+  // The leaves are the syllabus's own subtopics UNIONED with whatever `sub`
+  // tags the questions in this unit actually carry. Reading only the syllabus
+  // silently strands any question tagged more finely than the printed syllabus
+  // names things, and it strands them invisibly: the zero-count filter below
+  // drops the empty syllabus leaf, so the dropdown just looks short rather
+  // than looking broken. Technical Paper I is the live case — its 2026 import
+  // tagged questions to a ~310-leaf working taxonomy ("Pumping lemma",
+  // "Chomsky hierarchy", "Euler graphs") while the syllabus prints 27 coarse
+  // ones, so Discrete Mathematics offered 2 subtopics covering 21 of its 188
+  // questions and gave no hint the other 167 existed. Every other paper in the
+  // bank tags `sub` to a syllabus string exactly and is unaffected by this.
+  // Syllabus order first, so the official taxonomy still leads the list.
   function fillSubs() {
     const pid = sel.paper.value, uno = sel.unit.value;
     const keep = sel.sub.value;
-    const leaves = (uno && paperById[pid]?.units.find(u => String(u.no) === uno)
+    const syl = (uno && paperById[pid]?.units.find(u => String(u.no) === uno)
       ?.subtopics) || [];
+    const tags = uno ? [...new Set(ANSWERABLE
+      .filter(q => q.paper === pid && String(q.unit) === uno && q.sub)
+      .map(q => q.sub))].filter(s => !syl.includes(s)).sort((a, b) => a.localeCompare(b)) : [];
+    const leaves = [...syl, ...tags];
     sel.sub.innerHTML = `<option value="">All</option>` + leaves
       .map(s => [s, ANSWERABLE.filter(q => q.sub === s && matchesExcept(q, 'sub')).length])
       .filter(([, n]) => n)

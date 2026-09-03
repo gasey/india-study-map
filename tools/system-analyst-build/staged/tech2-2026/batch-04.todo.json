@@ -1,0 +1,451 @@
+[
+ {
+  "id": "N0157",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 62,
+  "hint_topic": "Code reusability",
+  "garbled": false,
+  "question": "Which feature of OOP helps in code reusability?",
+  "options": [
+   "Abstraction",
+   "Polymorphism",
+   "Encapsulation",
+   "Inheritance"
+  ]
+ },
+ {
+  "id": "N0158",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 63,
+  "hint_topic": "Pass by reference",
+  "garbled": false,
+  "question": "What happens when an object is passed by reference?",
+  "options": [
+   "Destructor is called at end of function",
+   "Destructor is called when called explicitly",
+   "Destructor is not called",
+   "Destructoris called when function is out of scope"
+  ]
+ },
+ {
+  "id": "N0159",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 64,
+  "hint_topic": "Abstract class",
+  "garbled": true,
+  "question": "Instance of which type of class can't be created?",
+  "options": [
+   "Parent class",
+   "Abstract class !",
+   "Anonymous class",
+   "Nested class"
+  ]
+ },
+ {
+  "id": "N0160",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 65,
+  "hint_topic": "Exception handling",
+  "garbled": false,
+  "question": "Multiple catch blocks ;",
+  "options": [
+   "Are mandatory for each try block",
+   "Can be combined into a single catch block",
+   "Are not possible for a try block",
+   "Canneverbeassociated with a single try block"
+  ]
+ },
+ {
+  "id": "N0161",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 66,
+  "hint_topic": "OOP features",
+  "garbled": false,
+  "question": "Which features of OOP are extensively used in implementing inheritance?",
+  "options": [
+   "Dynamic binding",
+   "Abstraction",
+   "Operator overloading",
+   "Polymorphism"
+  ]
+ },
+ {
+  "id": "N0162",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 67,
+  "hint_topic": "Object lifetime",
+  "garbled": false,
+  "question": "A object which exists for a particular period.",
+  "options": [
+   "Static objects",
+   "Dynamic objects",
+   "External objects",
+   "Automatic objects"
+  ]
+ },
+ {
+  "id": "N0163",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 68,
+  "hint_topic": "Static objects",
+  "garbled": false,
+  "question": "A object is an object which has the scope of an automatic object but the lifetime of an external object.",
+  "options": [
+   "Static objects",
+   "Dynamic objects",
+   "External objects",
+   "Automatic objects"
+  ]
+ },
+ {
+  "id": "N0164",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 69,
+  "hint_topic": "Constructor properties",
+  "garbled": false,
+  "question": "Which one of the following is not the characteristic of a constructor?",
+  "options": [
+   "Constructors can be virtual",
+   "Constructors cannot be referred by their address",
+   "Constructors cannot be inherited",
+   "Constructors are called automatically"
+  ]
+ },
+ {
+  "id": "N0165",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 70,
+  "hint_topic": "Dynamic binding",
+  "garbled": true,
+  "question": "is associated with polymorphism and inheritance.",
+  "options": [
+   "Message parsing",
+   "Abstraction",
+   "Dynamic Binding",
+   "Encapsulation a - = ee ae ~iRi="
+  ]
+ },
+ {
+  "id": "N0195",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 1,
+  "hint_topic": "Entity attributes",
+  "garbled": false,
+  "question": "A property that describes various characteristics of entity",
+  "options": [
+   "ER Diagram",
+   "Column",
+   "Relationship",
+   "Attribute"
+  ]
+ },
+ {
+  "id": "N0196",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 2,
+  "hint_topic": "Hierarchical model",
+  "garbled": false,
+  "question": "Tree structures are used to store data in this model",
+  "options": [
+   "Network model",
+   "Relation model",
+   "Hierarchical model",
+   "File based system"
+  ]
+ },
+ {
+  "id": "N0197",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 3,
+  "hint_topic": "Order by clause",
+  "garbled": false,
+  "question": "This clause specifies the query result should be sorted in ascending or descending order based on the values of one or more columns",
+  "options": [
+   "View",
+   "Order by",
+   "Group by",
+   "Having"
+  ]
+ },
+ {
+  "id": "N0204",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 10,
+  "hint_topic": "Fifth normal form",
+  "garbled": false,
+  "question": "Fifth Normal form is concerned with",
+  "options": [
+   "Domain-key",
+   "Functional dependency",
+   "Multivalued dependency",
+   "Join dependency"
+  ]
+ },
+ {
+  "id": "N0205",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 11,
+  "hint_topic": "Deadlock database",
+  "garbled": false,
+  "question": "When two or more users are waiting for data locked by each other, such situations are known to be",
+  "options": [
+   "Dead-lock",
+   "Object-lock",
+   "Resource-lock",
+   "Process-lock"
+  ]
+ },
+ {
+  "id": "N0206",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 12,
+  "hint_topic": "Normalization",
+  "garbled": false,
+  "question": "Generating a set of relation schemas that allows storing information without unnecessary redundancy, is goal of",
+  "options": [
+   "Assertions",
+   "Associations",
+   "Normalization",
+   "Integration"
+  ]
+ },
+ {
+  "id": "N0214",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 20,
+  "hint_topic": "Functional dependency",
+  "garbled": false,
+  "question": "If both the functional dependencies : X > Y and Y > X hold for two attributes X and Y then the relationship between X and Y is",
+  "options": [
+   "M:N",
+   "M:1",
+   "1:M",
+   "1:1"
+  ]
+ },
+ {
+  "id": "N0215",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 21,
+  "hint_topic": "Functional dependency",
+  "garbled": true,
+  "question": "If a # holds then so does",
+  "options": [
+   "ya>yB",
+   "a>yB",
+   "both (a) & (b) (d) None of the above"
+  ]
+ },
+ {
+  "id": "N0216",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 22,
+  "hint_topic": "Query transformation",
+  "garbled": false,
+  "question": "As per equivalence rules for query transformation, selection operation distributes over",
+  "options": [
+   "Union",
+   "Intersection",
+   "Set difference",
+   "Allofthe above"
+  ]
+ },
+ {
+  "id": "N0221",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 28,
+  "hint_topic": "Second normal form",
+  "garbled": false,
+  "question": "In 2NF",
+  "options": [
+   "No multivalued dependencies (MVDs) exist",
+   "No functional dependencies (FDs) exist",
+   "No partial MVDs exist",
+   "No partial FDs exist"
+  ]
+ },
+ {
+  "id": "N0222",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 29,
+  "hint_topic": "ER diagram",
+  "garbled": false,
+  "question": "Total participation in ER Diagram is represented by",
+  "options": [
+   "Double lines",
+   "Dashed lines",
+   "Single line",
+   "Triangle"
+  ]
+ },
+ {
+  "id": "N0223",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 30,
+  "hint_topic": "Concurrency control",
+  "garbled": true,
+  "question": "Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock? I. Time-stamp ordering II. 2-phase locking",
+  "options": [
+   "lonly",
+   "Ionly",
+   "BothI and II",
+   "Neither I nor III | she"
+  ]
+ },
+ {
+  "id": "N0224",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 31,
+  "hint_topic": "ACID properties",
+  "garbled": false,
+  "question": "Which of the following is false regarding ACID properties in DBMS?",
+  "options": [
+   "It can cause performance overhead",
+   "It decrease complexity of the system",
+   "It ensure data remains consistent",
+   "Itcan manage multiple transactions"
+  ]
+ },
+ {
+  "id": "N0231",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 38,
+  "hint_topic": "Database design",
+  "garbled": false,
+  "question": "While designing a database , the one guideline to be followed is",
+  "options": [
+   "It should avoid/reduce the redundancy",
+   "A database design may be ambiguous",
+   "Unrelated data should be in the same table so that updating the data will be easy",
+   "Data entity should not have attributes"
+  ]
+ },
+ {
+  "id": "N0232",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 39,
+  "hint_topic": "Query optimization",
+  "garbled": false,
+  "question": "The process of finding a good strategy for processing a query is called",
+  "options": [
+   "Query optimization",
+   "Query processing",
+   "Query management",
+   "Query cost"
+  ]
+ },
+ {
+  "id": "N0233",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 40,
+  "hint_topic": "Relational calculus",
+  "garbled": false,
+  "question": "Asecond form of relational calculus, is known as",
+  "options": [
+   "Extended relational calculus",
+   "Tuple relational calculus",
+   "Domain relational calculus",
+   "Attribute relational calculus"
+  ]
+ },
+ {
+  "id": "N0240",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 47,
+  "hint_topic": "DBMS files",
+  "garbled": false,
+  "question": "The two files that are used during operation of the DBMS.",
+  "options": [
+   "Data dictionary and query language",
+   "Data dictionary and transaction log",
+   "Query languages and utilities",
+   "DMLand query language"
+  ]
+ },
+ {
+  "id": "N0241",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 48,
+  "hint_topic": "Tuple calculus",
+  "garbled": false,
+  "question": "In tuple relational calculus P1 AND P2 is equivalent to",
+  "options": [
+   "(-P1 OR -P2)",
+   "=(-P1 OR -P2)",
+   "-(P1 OR -P2)",
+   "-=(--P1 OR P2)"
+  ]
+ },
+ {
+  "id": "N0248",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 55,
+  "hint_topic": "SQL IN operator",
+  "garbled": true,
+  "question": "This operator is used to compare a value to a list of literals values that have been specified.",
+  "options": [
+   "COMPARE",
+   "BETWEEN",
+   "LIKE",
+   "IN 7 . 7 a «6s"
+  ]
+ },
+ {
+  "id": "N0249",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 56,
+  "hint_topic": "Database keys",
+  "garbled": false,
+  "question": "A list consists of last names, first names, addresses and pin codes. If all people in the list have the same last name and same pin code a useful key would be",
+  "options": [
+   "the pin code",
+   "the last name",
+   "the compound key last name and pincode",
+   "_ the compound key first name and last name"
+  ]
+ },
+ {
+  "id": "N0250",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 57,
+  "hint_topic": "Specialization ER",
+  "garbled": false,
+  "question": "Specialization ,in an E-R diagram, is represented by a",
+  "options": [
+   "Dashed arrow-head",
+   "Double arrow-head",
+   "Hollow arrow-head",
+   "Solid arrow-head"
+  ]
+ }
+]

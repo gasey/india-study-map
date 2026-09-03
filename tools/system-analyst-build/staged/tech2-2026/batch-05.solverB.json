@@ -1,0 +1,272 @@
+[
+  {
+    "id": "N0257",
+    "unit": "3",
+    "subtopic": "Database system concepts, architecture, interfaces and data independence",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A database is an organised collection of related files (or tables); the file is the container one level below it. Records and fields are units *inside* a file, and a sector is a physical disk division, so none of those can name a collection of files.",
+    "note": ""
+  },
+  {
+    "id": "N0258",
+    "unit": "3",
+    "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The classical logical database structures are relational, network and hierarchical (drawn as a tree); \"chain\" is not one of them. Tree is the odd-looking option but it is simply the usual name for the hierarchical structure, which is why it is not the answer.",
+    "note": ""
+  },
+  {
+    "id": "N0259",
+    "unit": "3",
+    "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "answerIndex": 0,
+    "confidence": "medium",
+    "explanation": "Declarative integrity constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL) are the preferred enforcement method because the DBMS applies them automatically to every path that touches the data and can optimise around them. Triggers and stored procedures can enforce the same rules but are procedural code that must be written, maintained and can be bypassed; cursors do not enforce anything.",
+    "note": "\"Preferred method\" is loose phrasing, but constraints-over-triggers is the standard textbook ranking."
+  },
+  {
+    "id": "N0266",
+    "unit": "3",
+    "subtopic": "Database system concepts, architecture, interfaces and data independence",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "The overall design of a database is by definition its schema; the schema is the structure, while the data present at a given moment is the instance. The DDL is only the language used to *state* the schema, which is the near-miss option here.",
+    "note": ""
+  },
+  {
+    "id": "N0267",
+    "unit": "3",
+    "subtopic": "Entity-Relationship modelling",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Mapping cardinality expresses how many entities of one set another entity can be associated with, so it is most useful for binary relationship sets, where the one-to-one / one-to-many / many-to-many labels are well defined. For relationships of degree greater than two the cardinality notation becomes ambiguous, and a unary (recursive) relationship is just a binary relationship on one entity set.",
+    "note": ""
+  },
+  {
+    "id": "N0268",
+    "unit": "3",
+    "subtopic": "Database system concepts, architecture, interfaces and data independence",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Data integrity is exactly the property that stored data is correct, consistent and complete. Data constraints are the mechanism used to enforce integrity rather than the property itself, data independence is insulation of applications from schema changes, and data security is protection against unauthorised access.",
+    "note": ""
+  },
+  {
+    "id": "N0275",
+    "unit": "3",
+    "subtopic": "Transaction processing, schedules and recoverability",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Writes to stable storage are the expensive part of logging and recovery, so an efficient recovery scheme keeps the number of such writes to a minimum (hence log buffering, group commit and deferred output of blocks). Maximising writes would only add I/O overhead without improving recoverability.",
+    "note": ""
+  },
+  {
+    "id": "N0276",
+    "unit": "3",
+    "subtopic": "Entity-Relationship modelling",
+    "answerIndex": 3,
+    "confidence": "medium",
+    "explanation": "A student enrols in many courses and a course is taken by many students, so the relationship is many-to-many (M:M) and needs a separate associative table with a composite key when mapped to relations. The 1:M reading is the classic trap: it is only correct if you wrongly assume a course belongs to one student.",
+    "note": "OCR has run words together in the stem and in option (b); the intended wording is \"A relationship among students and courses is ___\"."
+  },
+  {
+    "id": "N0277",
+    "unit": "3",
+    "subtopic": "Database system concepts, architecture, interfaces and data independence",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The DDL interpreter processes data-definition statements and records the resulting definitions in the data dictionary, which is the database's metadata. The DML compiler and pre-processor translate queries and updates against data that already exists, so they consume metadata rather than create it.",
+    "note": ""
+  },
+  {
+    "id": "N0284",
+    "unit": "3",
+    "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Projection (pi) keeps the named attributes and discards the rest, returning them for every tuple of the input relation. Selection is its counterpart: it keeps whole tuples that satisfy a predicate and drops rows, not columns.",
+    "note": ""
+  },
+  {
+    "id": "N0285",
+    "unit": "3",
+    "subtopic": "Concurrency control, locking and time stamping",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "An exclusive (X) lock grants both read and write access to the item, which is why no other transaction may hold any lock on it at the same time; a shared (S) lock is the read-only mode. Option (d) is the trap: an X lock never forbids reading.",
+    "note": ""
+  },
+  {
+    "id": "N0286",
+    "unit": "3",
+    "subtopic": "Database design, functional dependencies and normal forms",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "If the closure of attribute set K under the given functional dependencies contains every attribute of the relation, K functionally determines the whole tuple and is therefore a superkey. Candidate key is the near-miss: that additionally requires minimality, i.e. no proper subset of K may also have the full relation as its closure.",
+    "note": ""
+  },
+  {
+    "id": "N0293",
+    "unit": "3",
+    "subtopic": "Entity-Relationship modelling",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Aggregation is the ER abstraction that lets a whole relationship set be treated as a single higher-level entity so that it can itself participate in another relationship. Generalisation and specialisation abstract over *entity* sets (superclass/subclass), not over relationships.",
+    "note": "OCR left end-of-paper junk (\"* ee KK K\") attached to option (d); the option itself is just \"Inheritance\"."
+  },
+  {
+    "id": "N1110",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Tracing with b=2: a=2*(b++) uses the old value 2, so a=4 and b becomes 3; then c=2*(++b) increments first to b=4 and uses it, so c=8. Final state a=4, b=4, c=8, which rules out every option asserting b=3. Off-syllabus: this is plain procedural C increment-operator semantics with no object-oriented content.",
+    "note": ""
+  },
+  {
+    "id": "N1111",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 1,
+    "confidence": "low",
+    "explanation": "The question is unanswerable as printed: OCR collapsed the code and the whole (a)-(d) answer list into the option array, leaving only two entries, so no index corresponds to a single printed choice. Reconstructing the intended fragment z = (abs(a) >= abs(b)) ? a : b; the function returns the argument with the larger absolute value, which is choice (c) inside option index 1 - hence index 1 as the closest available option. Off-syllabus: plain C ternary/abs() trivia, no OOP content.",
+    "note": "Severe OCR damage - the code block and the four printed choices were merged into two option strings, so the option indices do not line up with (a)-(d)."
+  },
+  {
+    "id": "N1112",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "FILE is a structure type already declared in <stdio.h>, so FILE *ptr; declares a pointer to that pre-defined structure. It is not user-defined, and there is no standard type called FILE DESCRIPTOR (descriptors are plain ints in the POSIX API, not the C library). Off-syllabus: the C FILE pointer is not C++ stream/OOP file handling.",
+    "note": ""
+  },
+  {
+    "id": "N1113",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "fprintf() takes a format string, so it is the natural choice for writing a mix of strings and integers as formatted text. fputs() writes only a string, fgets() reads instead of writes, and fwrite() dumps raw binary blocks rather than formatted mixed values. Off-syllabus: C stdio, not C++ OOP streams.",
+    "note": ""
+  },
+  {
+    "id": "N1114",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "fseek() repositions the file position indicator to an arbitrary offset, which is what makes random access to records in the middle of a file possible instead of reading sequentially from the start. It performs no searching for words or files. Off-syllabus: plain C file positioning on FILE streams.",
+    "note": ""
+  },
+  {
+    "id": "N1115",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "A union's defining property is that all its members overlay the same block of memory, so it is only large enough for its biggest member and only one member holds a valid value at a time. \"Unions are like structures\" is true of the syntax only and is the deliberately vague trap. Off-syllabus: the C union is not an OOP topic.",
+    "note": ""
+  },
+  {
+    "id": "N1116",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 2,
+    "confidence": "medium",
+    "explanation": "In float *fptr; the declared type applies to what the pointer dereferences: *fptr is the float, while fptr itself has type float* (a pointer) and &fptr has type float**. Off-syllabus: plain C pointer declaration semantics, no object-oriented content.",
+    "note": "Option (c) is misprinted - \"pointer to by fptr\" should read \"pointed to by fptr\"."
+  },
+  {
+    "id": "N1117",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 1,
+    "confidence": "medium",
+    "explanation": "A compiler must emit instructions for a specific instruction set and produce object/executable files in the host platform's format, linking against its system libraries, so it is both machine-dependent and OS-dependent. The claim is loose - cross-compilers target a machine other than the one they run on, and a compiler's front end is largely platform-neutral - but the intended contrast is with a machine-independent language standard. Off-syllabus: compiler/language-implementation trivia sits in none of the four 2026 units.",
+    "note": "Loosely worded: cross-compilers show the dependence is on the *target*, not on the machine the compiler runs on."
+  },
+  {
+    "id": "N1118",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A plain int is signed, and in two's-complement representation the most significant (leftmost) bit carries the sign, leaving the remaining bits for magnitude. Only unsigned int gives that bit up to the value range. Off-syllabus: integer sign-bit representation in C, explicitly outside the OOP unit.",
+    "note": ""
+  },
+  {
+    "id": "N1119",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 1,
+    "confidence": "medium",
+    "explanation": "The standard swap is the three-assignment idiom: temp = a; a = b; b = temp - direct interchange in one step is not something the language provides, so option (a) is wrong. Option (c) is the awkward distractor because arithmetic or XOR swapping genuinely works without a temporary, but it is the special trick rather than the way swapping \"is done\", and it breaks on overflow or when both operands alias.",
+    "note": "Option (c) is also technically true (XOR/arithmetic swap), so the stem relies on the temp-variable method being the intended default."
+  },
+  {
+    "id": "N1120",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Logical NOT (!), sizeof and bitwise complement (~) each take a single operand, so (i), (ii) and (iii) are unary; && is the binary logical AND, which eliminates every option containing (iv). Off-syllabus: plain C operator classification, not object-oriented programming.",
+    "note": ""
+  },
+  {
+    "id": "N1186",
+    "unit": "2",
+    "subtopic": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "HTML heading levels run from <h1> (most important, rendered largest by default) down to <h6> (smallest); there is no <h10>. <head> is the document metadata container, not a heading.",
+    "note": ""
+  },
+  {
+    "id": "N1187",
+    "unit": "2",
+    "subtopic": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "A hyperlink is an anchor element whose destination is given by the href attribute: <a href=\"def.html\">. The anchor takes href, never src (src is for embedded resources like images and scripts), and <link> in the head relates an external resource such as a stylesheet rather than creating a clickable link.",
+    "note": ""
+  },
+  {
+    "id": "N1188",
+    "unit": "2",
+    "subtopic": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+    "answerIndex": 1,
+    "confidence": "medium",
+    "explanation": "<td> marks up table data - the individual cell holding a record's value - as opposed to <th> for a heading cell and <tr> for a row, which is what eliminates options (a) and (c). The wording \"Table Records\" is imprecise, since strictly a <tr> row is the record and <td> is one field within it.",
+    "note": "Loose option wording: <td> is a data cell, not a record, so a strict reader could argue for \"None of these\"."
+  },
+  {
+    "id": "N1189",
+    "unit": "2",
+    "subtopic": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "<ul> is the unordered list, rendered with bullets; <ol> is the ordered list and renders numbers, which is the intended trap. <list> and <nl> are not HTML elements.",
+    "note": ""
+  },
+  {
+    "id": "N1192",
+    "unit": "OFF",
+    "subtopic": "",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "In classic ASP the default server-side scripting language is VBScript; JScript (Microsoft's JavaScript/ECMAScript dialect) and PerlScript are available only if declared explicitly with an @LANGUAGE directive. Off-syllabus: the 2026 backend subtopic covers PHP and Python, and no unit covers legacy classic-ASP scripting.",
+    "note": "Legacy Microsoft classic ASP; kept as OFF because the 2026 backend subtopic is scoped to PHP and Python."
+  },
+  {
+    "id": "N1200",
+    "unit": "3",
+    "subtopic": "Database system concepts, architecture, interfaces and data independence",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Retrieval, insertion, deletion and modification of data are exactly the operations of a data manipulation language. DDL is the near-miss: it defines and alters the schema itself, while view- and storage-definition languages are the DDL subsets for views and physical storage structures.",
+    "note": ""
+  }
+]

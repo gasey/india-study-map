@@ -1,0 +1,451 @@
+[
+ {
+  "id": "N0751",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 34,
+  "hint_topic": "DBMS access",
+  "garbled": false,
+  "question": "A database management system",
+  "options": [
+   "allows simultaneous access to multiple files",
+   "can do more than a record management system",
+   "is a collection of programs for managing data in a single file",
+   "both (a) and (b)"
+  ]
+ },
+ {
+  "id": "N0752",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 35,
+  "hint_topic": "Indexing operation",
+  "garbled": false,
+  "question": "An indexing operation",
+  "options": [
+   "sorts a file using a single key",
+   "sorts a file using two keys",
+   "establishes an index for a file",
+   "both (b) and (c)"
+  ]
+ },
+ {
+  "id": "N0753",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 36,
+  "hint_topic": "Logical schema",
+  "garbled": false,
+  "question": "A logical schema",
+  "options": [
+   "is the entire database",
+   "is a standard way of organizing information into accessible parts",
+   "describes how data is actually stored on disk",
+   "none of the above"
+  ]
+ },
+ {
+  "id": "N0754",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 37,
+  "hint_topic": "Schema design",
+  "garbled": false,
+  "question": "Goals for the design of the logical schema include",
+  "options": [
+   "avoiding data inconsistency",
+   "being able to construct queries easily",
+   "being able to access data efficiently...",
+   "all of the above"
+  ]
+ },
+ {
+  "id": "N0755",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 38,
+  "hint_topic": "Relational tuple",
+  "garbled": false,
+  "question": "In a relational schema, each tuple is divided into fields called",
+  "options": [
+   "Relations",
+   "Domains",
+   "Queries",
+   "none of the above"
+  ]
+ },
+ {
+  "id": "N0756",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 39,
+  "hint_topic": "Data dictionary",
+  "garbled": false,
+  "question": "The data dictionary tells the DBMS",
+  "options": [
+   "what files are in the database",
+   "what attributes are possessed by the data",
+   "what these files contain",
+   "all of the above"
+  ]
+ },
+ {
+  "id": "N0757",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 40,
+  "hint_topic": "Data integrity",
+  "garbled": false,
+  "question": "Data integrity control",
+  "options": [
+   "is used to set upper and lower limits on numeric data",
+   "requires the use of passwords to prohibit unauthorized access to the file",
+   "has the data dictionary keep the data and time of last access",
+   "none of the above"
+  ]
+ },
+ {
+  "id": "N0758",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 41,
+  "hint_topic": "Locked file",
+  "garbled": false,
+  "question": "A locked file can be",
+  "options": [
+   "accessed by only one user",
+   "modified by users with the correct password",
+   "is used to hide sensitive information",
+   "both (b) and (c)"
+  ]
+ },
+ {
+  "id": "N0759",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 42,
+  "hint_topic": "Form definition",
+  "garbled": true,
+  "question": "A form defines",
+  "options": [
+   "where data is placed on the screen ...",
+   "the width of each field",
+   "both (a) and (b) (d) none of the above"
+  ]
+ },
+ {
+  "id": "N0760",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 43,
+  "hint_topic": "Form usage",
+  "garbled": false,
+  "question": "A form can be used to",
+  "options": [
+   "modify records",
+   "delete records",
+   "format printed output",
+   "all of the above"
+  ]
+ },
+ {
+  "id": "N0761",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 44,
+  "hint_topic": "DBMS schema",
+  "garbled": false,
+  "question": "In order to use a DBMS, it is important to understand",
+  "options": [
+   "the physical schema",
+   "all subschemas that the system supports",
+   "one subschema",
+   "both (a) and (b)"
+  ]
+ },
+ {
+  "id": "N0762",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 45,
+  "hint_topic": "File extraction",
+  "garbled": false,
+  "question": "A file manipulation command that extracts some of the records from a file is called",
+  "options": [
+   "SELECT",
+   "PROJECT",
+   "JOIN",
+   "none of the above"
+  ]
+ },
+ {
+  "id": "N0763",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 46,
+  "hint_topic": "Data duplication",
+  "garbled": false,
+  "question": "If a piece of data is stored in two places in the database, then",
+  "options": [
+   "storage space is wasted",
+   "changing the data in one spot will cause data inconsistency",
+   "it can be more easily accessed",
+   "both (a) and (b)"
+  ]
+ },
+ {
+  "id": "N0764",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 47,
+  "hint_topic": "Network schema",
+  "garbled": false,
+  "question": "A network schema",
+  "options": [
+   "restricts the structure to a one-to-many relationship",
+   "permits many-to-many relationships",
+   "stores data in tables",
+   "none of the above"
+  ]
+ },
+ {
+  "id": "N0765",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 48,
+  "hint_topic": "SQL query result",
+  "garbled": false,
+  "question": "A relational schema for a train reservation database is given below Passenger (pid, pname, age) Reservation (pid, class, tid) Table: Passenger Table: Reservation pid pname age pid class tid 0 'Sachin' 65 0 'AC' 8200 1 'Rahul' 66 1 'AC' 8201 2 'Sourav' 67 2 'SC' 8201 3 'Anil' 69 5 'AC' 8203 1 'SC' 8204 3 'AC' 8202 What pids are returned by the following SQL query for the above instance of the tables? SELECT pid FROM Reservation WHERE class = 'AC' AND EXISTS (SELECT * FROM Passenger WHERE age > 65 AND Passenger. pid = Reservation. pid)",
+  "options": [
+   "1, 0",
+   "1, 2",
+   "1, 3",
+   "1, 5"
+  ]
+ },
+ {
+  "id": "N0844",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper_no": "II",
+  "no": 130,
+  "hint_topic": "Web programming language",
+  "garbled": false,
+  "question": "_______ is used to create Large program on internet",
+  "options": [
+   "C++",
+   "HTML",
+   "C language",
+   "Java script"
+  ]
+ },
+ {
+  "id": "N0390",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 31,
+  "hint_topic": "Member access dot",
+  "garbled": false,
+  "question": "How members of an object are accessed?",
+  "options": [
+   "Using dot operator/period symbol",
+   "Using scope resolution operator",
+   "Using member names directly",
+   "Using pointer only"
+  ]
+ },
+ {
+  "id": "N0391",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 32,
+  "hint_topic": "Inheritance reusable",
+  "garbled": false,
+  "question": "Which feature of OOP indicates code reusability?",
+  "options": [
+   "Encapsulation",
+   "Inheritance",
+   "Abstraction",
+   "Polymorphism"
+  ]
+ },
+ {
+  "id": "N0392",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 33,
+  "hint_topic": "Dynamic binding",
+  "garbled": false,
+  "question": "Which of the following concepts means determining at runtime what method to invoke?",
+  "options": [
+   "Data hiding",
+   "Dynamic Typing",
+   "Dynamic binding",
+   "Dynamic loading"
+  ]
+ },
+ {
+  "id": "N0393",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 34,
+  "hint_topic": "Constructor function",
+  "garbled": false,
+  "question": "Which of the following functions are performed by a constructor?",
+  "options": [
+   "Construct a new class",
+   "Construct a new object",
+   "Construct a new function",
+   "Initialize objects"
+  ]
+ },
+ {
+  "id": "N0394",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 35,
+  "hint_topic": "Virtual polymorphism",
+  "garbled": false,
+  "question": "Which type of function among the following shows polymorphism?",
+  "options": [
+   "Inline function",
+   "Virtual function",
+   "Undefined functions",
+   "Class member functions"
+  ]
+ },
+ {
+  "id": "N0395",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 36,
+  "hint_topic": "Inline functions",
+  "garbled": false,
+  "question": "Which of the following statements regarding inline functions is correct?",
+  "options": [
+   "Speed up execution",
+   "Slow down Execution",
+   "Decrease the code size",
+   "increase context switch"
+  ]
+ },
+ {
+  "id": "N0396",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 37,
+  "hint_topic": "Pure virtual abstract",
+  "garbled": false,
+  "question": "Which of the following is used to make an abstract class?",
+  "options": [
+   "Declaring it abstract using static keyword",
+   "Declaring it abstract using virtual keyword",
+   "Making at least one member function as virtual function",
+   "Making at least one member function as pure virtual function"
+  ]
+ },
+ {
+  "id": "N0397",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 38,
+  "hint_topic": "Class access private",
+  "garbled": false,
+  "question": "Which of the following access specifier is used as a default in a class definition?",
+  "options": [
+   "Protected",
+   "public",
+   "Private",
+   "Friend"
+  ]
+ },
+ {
+  "id": "N0398",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 39,
+  "hint_topic": "Destructor called",
+  "garbled": false,
+  "question": "When a destructor is called?",
+  "options": [
+   "After the end of object life",
+   "Anytime in between object's lifespan",
+   "At end of whole program",
+   "Just before the end of an object life"
+  ]
+ },
+ {
+  "id": "N0399",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 40,
+  "hint_topic": "RandomAccessFile",
+  "garbled": false,
+  "question": "RandomAccessFile can be used to :",
+  "options": [
+   "Read from a random access file",
+   "Write to a random access file",
+   "Read and write to a random access file",
+   "Restricts read and write to a random access file"
+  ]
+ },
+ {
+  "id": "N0400",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 42,
+  "hint_topic": "Encapsulation binding",
+  "garbled": false,
+  "question": "The mechanism that binds code and data together and keeps them secure from outside world is known as :",
+  "options": [
+   "Abstraction",
+   "encapsulation",
+   "Polymorphism",
+   "Inheritance"
+  ]
+ },
+ {
+  "id": "N0401",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 43,
+  "hint_topic": "ifstream file mode",
+  "garbled": false,
+  "question": "If we create a file by 'ifstream', then the default mode of the file is :",
+  "options": [
+   "ios::out",
+   "ios::in",
+   "ios::app",
+   "ios::binary"
+  ]
+ },
+ {
+  "id": "N0402",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 44,
+  "hint_topic": "Scope operator",
+  "garbled": false,
+  "question": "The operator that cannot be overloaded is :",
+  "options": [
+   "+ +",
+   "::",
+   "~",
+   "( )"
+  ]
+ },
+ {
+  "id": "N0403",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 47,
+  "hint_topic": "C++ class concept",
+  "garbled": false,
+  "question": "Which concept of OOP is false for C++?",
+  "options": [
+   "Code can be written without using classes",
+   "Code must contain at least one class",
+   "A class must have member functions",
+   "At least one object should be declared in code"
+  ]
+ }
+]

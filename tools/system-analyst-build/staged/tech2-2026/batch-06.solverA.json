@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N1201",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Logical data independence is exactly the ability to change the conceptual schema — add a record type or a field, or split a relation — without altering the external schemas or rewriting the application programs written against them. Physical data independence is the corresponding freedom to change the internal/storage schema without touching the conceptual schema, which is the classic near-miss here.",
+  "note": ""
+ },
+ {
+  "id": "N1202",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "This is the textbook definition of the participation constraint: total participation (existence dependency) means an entity cannot exist unless it is related to another entity via the relationship type, while partial participation makes the relationship optional. A primary key constraint governs uniqueness of identification, not existence dependency.",
+  "note": ""
+ },
+ {
+  "id": "N1203",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Adding a column changes the table's structure, so it is a DDL operation and the statement must begin ALTER TABLE <tablename>; only (a) has both keywords in the right order. (b) drops the TABLE keyword, and (c)/(d) use UPDATE, which modifies row data and can never add a column.",
+  "note": "Strict SQL and Oracle write this as ADD address varchar(30) without the COLUMN keyword; MySQL/PostgreSQL accept ADD COLUMN as printed."
+ },
+ {
+  "id": "N1204",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "An UPDATE with no WHERE clause is unrestricted, so the SET applies to every row: all employees end up with address 'Zarkawt'. The 'current record' option imports a cursor/record-pointer notion from file-based systems that set-oriented SQL does not have.",
+  "note": ""
+ },
+ {
+  "id": "N1205",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Atomicity — a transaction is performed in its entirety or not at all — is one of the four ACID properties of transaction processing, alongside consistency, isolation and durability. A composite attribute is an ER-modelling concept and cost-based optimisation is a query-processing technique, so neither is a transaction property.",
+  "note": ""
+ },
+ {
+  "id": "N1206",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A cascadeless schedule is defined as one in which every transaction reads only items written by transactions that have already committed, which is what rules out cascading rollback. A strict schedule is the deliberate near-miss: it is stronger, forbidding a transaction from reading *or writing* an item until the transaction that last wrote it has committed or aborted.",
+  "note": ""
+ },
+ {
+  "id": "N1207",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Under wait-die, the older transaction (smaller timestamp) is permitted to wait for the younger one, and a younger requester is instead aborted — it 'dies' — and restarted later with its original timestamp, which is precisely the rule quoted. Wound-wait is the mirror scheme: the older transaction pre-empts ('wounds') the younger holder rather than waiting.",
+  "note": ""
+ },
+ {
+  "id": "N1208",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Horizontal fragmentation partitions a relation into subsets of its tuples (rows) using selection predicates, whereas vertical fragmentation partitions it by attributes (columns) and replication stores whole copies at several sites. Filed off-syllabus because fragmentation is distributed-database design, which the 2026 DBMS unit does not reach — it stops at concurrency control.",
+  "note": ""
+ },
+ {
+  "id": "N1209",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "EMPLOYEE_ID is the primary key, so it can be neither NULL nor absent: (a) inserts NULL into it and (b) omits it from the column list, so both fail the implicit NOT NULL. (d) lines its values up positionally against the column list it names, putting 'Smith' into the NUMBER column EMPLOYEE_ID, which will not convert. (c) supplies all three columns in declaration order, '1000' is implicitly converted to NUMBER, and LAST_NAME carries no NOT NULL constraint so the NULL is accepted.",
+  "note": ""
+ },
+ {
+  "id": "N1210",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 1,
+  "confidence": "low",
+  "explanation": "UPDATE is a DML statement, as against CREATE which is DDL and COMMIT which is transaction control — but DELETE is equally DML, so the question as printed has two correct options and no 'both of these' choice to pick. (b) is marked here only because it is the first of the two.",
+  "note": "Defective question: both (b) UPDATE and (c) DELETE are DML statements, so only one of two correct answers can be selected."
+ },
+ {
+  "id": "N1211",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "DROP TABLE is refused while another table's FOREIGN KEY still references the target, because removing it would leave dangling references and break referential integrity; you must drop the referencing constraint first or use DROP TABLE ... CASCADE CONSTRAINTS. A table's own primary or composite key never blocks its own removal, and 'local key' is not an SQL constraint at all.",
+  "note": ""
+ },
+ {
+  "id": "N1212",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Deadlock requires a real lock conflict, and only an exclusive (write) lock is incompatible with locks other transactions already hold. Shared read locks are mutually compatible, so a set of transactions that all request only shared locks can never block each other into a cycle.",
+  "note": ""
+ },
+ {
+  "id": "N1213",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "COMMIT terminates a transaction successfully, making its updates permanent and visible to other transactions; ROLLBACK is its unsuccessful counterpart. DONE, END and QUIT are not SQL transaction-control statements.",
+  "note": ""
+ },
+ {
+  "id": "N1214",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Removing a whole schema object is a DDL action, so the syntax is DROP DATABASE database_name. DELETE only removes rows from inside a table and cannot destroy a database, and (d) leaves out the DATABASE keyword that tells DROP what kind of object to remove.",
+  "note": ""
+ },
+ {
+  "id": "N1215",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A checkpoint flushes the committed buffer contents to disk and writes a marker record in the log, so that after a crash the recovery manager only has to scan the log forward from the last checkpoint instead of from the very beginning. Checkpoints have nothing to do with security, authorization or concurrency control.",
+  "note": ""
+ },
+ {
+  "id": "N1216",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Such a dependency breaks BCNF but not 3NF, so 3NF is the highest form the relation is guaranteed to be in. Working: take R(A,B,C) with AB→C and C→B, giving candidate keys AB and AC; here C (an attribute of key AC) determines B (an attribute of key AB). C is not a superkey, so BCNF fails, but B is a prime attribute, so the 3NF condition 'X is a superkey or A is prime' is still satisfied — and no non-prime attribute is partially dependent on part of a key, so 2NF holds too but is only the weaker claim.",
+  "note": "The stem is loosely worded and some circulated answer keys give 2NF; 2NF is true but not the strongest correct answer."
+ },
+ {
+  "id": "N1217",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "An inner join keeps only the tuple pairs that satisfy the join condition, so unmatched tuples from both R and S are discarded. The outer joins exist precisely to avoid that: left and right outer joins preserve the unmatched tuples of one side and a full outer join preserves both, padding the missing attributes with NULLs.",
+  "note": ""
+ },
+ {
+  "id": "N1218",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Deferred update (NO-UNDO/REDO), immediate update (UNDO/REDO) and shadow paging are the three classic recovery techniques for a single-site database. Two-phase commit is a distributed atomic-commit protocol for coordinating a commit decision across sites, not a method of restoring a database after a failure.",
+  "note": "Option (d) carries OCR bleed-through from the next section of the paper ('Directions (Questions 66)...'); the option itself is just 'Shadow paging'."
+ },
+ {
+  "id": "N1040",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The destructor is invoked automatically at the end of an object's lifetime — when a local object goes out of scope or a dynamic object is deleted — so it can release whatever the object acquired. The constructor is the trap: it runs at the opposite end of the lifetime, when the object comes into scope.",
+  "note": ""
+ },
+ {
+  "id": "N1041",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The prototype int fun(int=0, int=0) gives both parameters default values, so the call fun(5) binds x=5 and takes y=0 by default; the definition returns x+y = 5+0 = 5. There is no compile error: C++ requires the default arguments to be specified once, and specifying them in the declaration but not repeating them in the definition is the normal, legal way to do it.",
+  "note": ""
+ },
+ {
+  "id": "N1042",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "C++ forbids overloading the member-access operator '.', the ternary conditional '?:', and also '::', '.*' and sizeof — so both (b) and (c) are correct and the combined option is the answer. '>>' is the deliberate trap: it is one of the most commonly overloaded operators of all, as the stream-extraction operator.",
+  "note": ""
+ },
+ {
+  "id": "N1043",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "With private inheritance, both the public and the protected members of the base class become private members of the derived class (private base members remain inaccessible either way), so statements (a) and (b) are both true and the 'both' option is correct.",
+  "note": "OCR merged printed options (c) and (d) into a single array entry, so only three options are present; the intended 'both (a) and (b)' is the third entry."
+ },
+ {
+  "id": "N1044",
+  "unit": "1",
+  "subtopic": "I/O streams and file handling in OOP",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "eof() returns true once the end-of-file condition has been set on the stream, i.e. after a read has tried to go past the last character — which is why it is the standard test for having reached the end of a file being read.",
+  "note": ""
+ },
+ {
+  "id": "N1045",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "A default constructor is by definition one that is callable with no arguments, and the compiler generates one implicitly if the class declares no constructor at all. A constructor with one or more arguments is a parameterised constructor (and a single argument of the class's own reference type makes it a copy constructor), not a default one.",
+  "note": ""
+ },
+ {
+  "id": "N1046",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "In multi-level inheritance A → B → C, the intermediate class B is derived from A while simultaneously serving as the base class of C, so it plays both roles and the 'both' option is correct.",
+  "note": "OCR merged printed options (c) and (d) into a single array entry, so only three options are present; the intended 'Both (a) and (b)' is the third entry."
+ },
+ {
+  "id": "N1047",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "To form and use a pointer to a class member from outside the class, the member must be public — private and protected members simply are not accessible there, which is why 'All of these' is wrong. The hedge: inside the class's own member functions or a friend, a pointer to a private member is perfectly legal, so the rule the question wants only holds for external access.",
+  "note": "Stem is loose: the public requirement applies only to code outside the class (or outside a friend/derived context)."
+ },
+ {
+  "id": "N1048",
+  "unit": "1",
+  "subtopic": "I/O streams and file handling in OOP",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "cin is the predefined standard input stream object, so it is the stream a program receives data from. cout is standard (buffered) output and cerr is the unbuffered standard error output stream, so both send data out rather than in.",
+  "note": ""
+ },
+ {
+  "id": "N1049",
+  "unit": "1",
+  "subtopic": "I/O streams and file handling in OOP",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "ios::noreplace makes open() fail if the named file already exists, which is what protects an existing file from being overwritten. ios::nocreate is its exact complement — it fails if the file does not already exist — and ios::trunc (misprinted here as 'trunk') opens the existing file but discards its contents rather than failing.",
+  "note": "ios::noreplace and ios::nocreate are pre-standard Turbo C++ modes and do not exist in standard C++; option (a) is also misprinted as 'ios:: trunk'."
+ },
+ {
+  "id": "N1050",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "In pass-by-reference the formal parameter is bound to the caller's own object, so the object's address is passed implicitly, no copy (and no copy-constructor call) is made, and changes inside the function are visible to the caller. Pass-by-value copies the object, so the function works on a separate duplicate.",
+  "note": "OCR merged printed options (c) and (d) into a single array entry, so only three options are present; this does not affect the correct answer."
+ },
+ {
+  "id": "N1051",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "javac translates Java source into platform-independent byte code stored in .class files, which the JVM then interprets or JIT-compiles into native machine code at run time — so the compiler's own output is byte code, and 'JVM code' is not a standard term for it. Filed off-syllabus: this is Java toolchain and language-implementation trivia rather than any object-oriented programming principle.",
+  "note": ""
+ }
+]

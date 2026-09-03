@@ -1,0 +1,452 @@
+[
+ {
+  "id": "N0404",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 48,
+  "hint_topic": "OOP features match",
+  "garbled": false,
+  "question": "Which of the two features match each other?",
+  "options": [
+   "Inheritance and Encapsulation",
+   "Encapsulation and Polymorphism",
+   "Encapsulation and Abstraction",
+   "Abstraction and Polymorphism"
+  ]
+ },
+ {
+  "id": "N0405",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 49,
+  "hint_topic": "Class size members",
+  "garbled": false,
+  "question": "Size of a class is :",
+  "options": [
+   "Sum of size of all the variables declared inside the class",
+   "Sum of size of all the variables along with inherited variables in the class",
+   "Size of largest size of variable",
+   "Classes doesn't have any size"
+  ]
+ },
+ {
+  "id": "N0406",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 50,
+  "hint_topic": "Member functions",
+  "garbled": false,
+  "question": "Which among the following is false, for member function of a class?",
+  "options": [
+   "All member functions must be defined",
+   "Member functions can be defined inside or outside the class body",
+   "Member functions need not be declared inside the class definition",
+   "Member functions can be made friend to another class using friend keyword"
+  ]
+ },
+ {
+  "id": "N0407",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 51,
+  "hint_topic": "Class structure",
+  "garbled": false,
+  "question": "Which of the following pairs are similar?",
+  "options": [
+   "Class and object",
+   "Class and structure",
+   "Structure and object",
+   "Structure and functions"
+  ]
+ },
+ {
+  "id": "N0408",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 53,
+  "hint_topic": "Function resolution",
+  "garbled": false,
+  "question": "In case of using abstract class or function overloading, which function is supposed to be called first?",
+  "options": [
+   "Local function",
+   "Function with highest priority in compiler",
+   "Global function",
+   "Function with lowest priority because it might have been halted since long time, because of low priority"
+  ]
+ },
+ {
+  "id": "N0409",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 54,
+  "hint_topic": "Static polymorphism",
+  "garbled": false,
+  "question": "Which among the following can't be used for polymorphism?",
+  "options": [
+   "Static member functions",
+   "Member functions overloading",
+   "Predefined operator overloading",
+   "Constructor overloading"
+  ]
+ },
+ {
+  "id": "N0410",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 55,
+  "hint_topic": "Operator overload",
+  "garbled": false,
+  "question": "Which among the following can show polymorphism?",
+  "options": [
+   "Overloading ||",
+   "Overloading +=",
+   "Overloading <<",
+   "Overloading &&"
+  ]
+ },
+ {
+  "id": "N0411",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 56,
+  "hint_topic": "Encapsulation type",
+  "garbled": false,
+  "question": "While using encapsulation, which among the following is possible?",
+  "options": [
+   "Code modification can be additional overhead",
+   "Data member's data type can be changed without changing any other code",
+   "Data member's type can't be changed, or whole code have to be changed",
+   "Member functions can be used to change the data type of data members"
+  ]
+ },
+ {
+  "id": "N0412",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 57,
+  "hint_topic": "Global variables",
+  "garbled": false,
+  "question": "Which among the following violates the principle of encapsulation almost always?",
+  "options": [
+   "Local variables",
+   "Global variables",
+   "Public variables",
+   "Array variables"
+  ]
+ },
+ {
+  "id": "N0413",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 58,
+  "hint_topic": "Encapsulation pointers",
+  "garbled": false,
+  "question": "Which among the following can be a concept against encapsulation rules?",
+  "options": [
+   "Using function pointers",
+   "Using char* string pointer to be passed to non-member function",
+   "Using object array",
+   "Using any kind of pointer/array address in passing to another function"
+  ]
+ },
+ {
+  "id": "N0414",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 59,
+  "hint_topic": "Encapsulation security",
+  "garbled": false,
+  "question": "Using encapsulation data security is :",
+  "options": [
+   "Not ensured",
+   "Ensured to some extent",
+   "Purely ensured",
+   "Very low"
+  ]
+ },
+ {
+  "id": "N0415",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 60,
+  "hint_topic": "Abstraction complexity",
+  "garbled": false,
+  "question": "Hiding the implementation complexity can :",
+  "options": [
+   "Make the programming easy",
+   "Make the programming complex",
+   "Provide more number of features",
+   "Provide better features"
+  ]
+ },
+ {
+  "id": "N0416",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 61,
+  "hint_topic": "Streams files",
+  "garbled": false,
+  "question": "In terms of stream and files :",
+  "options": [
+   "Abstraction is called a stream and device is called a file",
+   "Abstraction is called a file and device is called a stream",
+   "Abstraction can be called both file and stream",
+   "Abstraction can't be defined in terms of files and stream"
+  ]
+ },
+ {
+  "id": "N0417",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 62,
+  "hint_topic": "Protected inheritance",
+  "garbled": false,
+  "question": "Which specifier allows a programmer to make the private members which can be inherited?",
+  "options": [
+   "Private",
+   "Default",
+   "Protected",
+   "Protected and default"
+  ]
+ },
+ {
+  "id": "N0418",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 63,
+  "hint_topic": "Constructor condition",
+  "garbled": false,
+  "question": "Which among the following is not a necessary condition for constructors?",
+  "options": [
+   "Its name must be same as that of class",
+   "It must not have any return type",
+   "It must contain a definition body",
+   "It can contains arguments"
+  ]
+ },
+ {
+  "id": "N0419",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 64,
+  "hint_topic": "Constructor defaults",
+  "garbled": false,
+  "question": "If a programmer defines a class and defines a default value parameterized constructor inside it. He has not defined any default constructor. And then he try to create the object without passing arguments, which among the following will be correct?",
+  "options": [
+   "It will not create the object (as parameterized constructor is used)",
+   "It will create the object (as the default arguments are passed)",
+   "It will not create the object (as the default constructor is not defined)",
+   "It will create the object (as at least some constructor is defined)"
+  ]
+ },
+ {
+  "id": "N0420",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 66,
+  "hint_topic": "OOP object return",
+  "garbled": false,
+  "question": "When an object is returned, __________",
+  "options": [
+   "A temporary object is created to return the value",
+   "The same object used in function is used to return the value",
+   "The Object can be returned without creation of temporary object",
+   "Object are returned implicitly, we can't say how it happens inside program"
+  ]
+ },
+ {
+  "id": "N0421",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 67,
+  "hint_topic": "References vs pointers",
+  "garbled": false,
+  "question": "Why reference is not same as a pointer?",
+  "options": [
+   "A reference can never be null.",
+   "A reference once established cannot be changed.",
+   "Reference doesn't need an explicit dereferencing mechanism.",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N0422",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 68,
+  "hint_topic": "OOP principles",
+  "garbled": false,
+  "question": "Which among the following doesn't come under OOP concept?",
+  "options": [
+   "Platform independent",
+   "Data binding",
+   "Message passing",
+   "Data hiding"
+  ]
+ },
+ {
+  "id": "N0423",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 69,
+  "hint_topic": "Classes vs structures",
+  "garbled": false,
+  "question": "What is the additional feature in classes that was not in structures?",
+  "options": [
+   "Data members",
+   "Member functions",
+   "Static data allowed",
+   "Public access specifier"
+  ]
+ },
+ {
+  "id": "N0424",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "II",
+  "no": 70,
+  "hint_topic": "Access specifiers",
+  "garbled": false,
+  "question": "Which among the following can be used together in a single class?",
+  "options": [
+   "Only private",
+   "Private and Protected together",
+   "Private and Public together",
+   "All three together"
+  ]
+ },
+ {
+  "id": "N0493",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 7,
+  "hint_topic": "Character data types",
+  "garbled": false,
+  "question": "The basic data type char(n) is a __________ length character string and varchar(n) is __________ length character.",
+  "options": [
+   "Fixed, equal",
+   "Equal, variable",
+   "Fixed, variable",
+   "Variable, equal"
+  ]
+ },
+ {
+  "id": "N0494",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 9,
+  "hint_topic": "HAVING clause SQL",
+  "garbled": false,
+  "question": "__________ clause is an additional filter that is applied to the result.",
+  "options": [
+   "Select",
+   "Group-by",
+   "Having",
+   "Order by"
+  ]
+ },
+ {
+  "id": "N0495",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 11,
+  "hint_topic": "Transaction undo",
+  "garbled": false,
+  "question": "In order to undo the work of transaction after last commit which one should be used?",
+  "options": [
+   "View",
+   "Commit",
+   "Rollback",
+   "Flashback"
+  ]
+ },
+ {
+  "id": "N0496",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 14,
+  "hint_topic": "First normal form",
+  "garbled": false,
+  "question": "In the __________ normal form, a composite attribute is converted to individual attributes.",
+  "options": [
+   "First",
+   "Second",
+   "Third",
+   "Fourth"
+  ]
+ },
+ {
+  "id": "N0497",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 16,
+  "hint_topic": "Transaction log",
+  "garbled": false,
+  "question": "Each modification done in database transaction are first recorded into the",
+  "options": [
+   "Hard drive",
+   "Log",
+   "Disk",
+   "Datamart"
+  ]
+ },
+ {
+  "id": "N0498",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 17,
+  "hint_topic": "Armstrong axioms",
+  "garbled": false,
+  "question": "Which of the following is not a Armstrong's Axiom?",
+  "options": [
+   "Reflexivity rule",
+   "Transitivity rule",
+   "Pseudotransitivity rule",
+   "Augmentation rule"
+  ]
+ },
+ {
+  "id": "N0499",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 18,
+  "hint_topic": "Candidate key",
+  "garbled": false,
+  "question": "The subset of super key is a candidate key under what condition?",
+  "options": [
+   "No proper subset is a super key",
+   "All subsets are super keys",
+   "Subset is a super key",
+   "Each subset is a super key"
+  ]
+ },
+ {
+  "id": "N0500",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 20,
+  "hint_topic": "Varchar vs char",
+  "garbled": false,
+  "question": "An attribute A of datatype varchar(20) has the value \"Avi\". The attribute B of datatype char(20) has value \"Reed\" .Here attribute A has __________ spaces and attribute B has __________ spaces.",
+  "options": [
+   "3, 20",
+   "20, 4",
+   "20 , 20",
+   "3, 4"
+  ]
+ },
+ {
+  "id": "N0501",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 21,
+  "hint_topic": "Wildcard patterns",
+  "garbled": false,
+  "question": "'_ _ _ ' matches any string of __________ three characters. '_ _ _ %' matches any string of at __________ three characters.",
+  "options": [
+   "Atleast, Exactly",
+   "Exactly, Atleast",
+   "Atleast, All",
+   "All , Exactly"
+  ]
+ }
+]

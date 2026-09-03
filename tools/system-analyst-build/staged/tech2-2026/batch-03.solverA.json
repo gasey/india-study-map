@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N0502",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "TRIM is the SQL string function that strips padding characters from a string; TRIM(TRAILING FROM s) removes the trailing spaces specifically, and plain TRIM(s) removes them from both ends. UPPER and LOWER only change case and there is no standard SQL function called String.",
+  "note": ""
+ },
+ {
+  "id": "N0503",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "An outer join preserves unmatched rows from one or both relations, padding the missing side with nulls. Equi-join and natural join are both inner joins and drop any tuple with no match, so 'All of these' cannot hold.",
+  "note": ""
+ },
+ {
+  "id": "N0504",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Integrity constraints (primary key, unique, not null, foreign key, check) are conditions the database must satisfy at all times, so the DBMS rejects any update that would violate one. Authorization failures block a user from issuing the update at all, which is a different mechanism from the update being disallowed for breaking a stated constraint.",
+  "note": ""
+ },
+ {
+  "id": "N0505",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "INSERT adds tuples to an existing relation, i.e. it manipulates data rather than schema, which makes it DML. DDL statements (CREATE, ALTER, DROP) change the schema instead.",
+  "note": "Option (a) 'DLL' looks like a misprint for DDL, duplicating option (d)."
+ },
+ {
+  "id": "N0506",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "The select operation is written sigma_predicate(relation), e.g. sigma_(salary>90000)(instructor): the predicate is the subscript on sigma and the relation is the argument in the parentheses. Option (b) is the same pair in the reverse order, which is the trap here.",
+  "note": ""
+ },
+ {
+  "id": "N0507",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A checkpoint facility is exactly this: processing is quiesced, buffers are flushed and the log/journal is synchronized with the data files so recovery need not replay the whole log. The change log records the updates and the recovery manager consumes them, but neither is the mechanism that periodically suspends processing to synchronize.",
+  "note": ""
+ },
+ {
+  "id": "N0508",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 1,
+  "confidence": "low",
+  "explanation": "As printed the question cannot be solved: every arrow in the dependency list has been lost by the scan, leaving the bare token run 'AB B C BC A AD E A DE', so the FD set could be read several incompatible ways and more than one option is a non-key under most of them. E is the safest pick because in every surviving fragment E appears only on the right-hand side (AD -> E, A -> DE) and never as a determinant, so E alone cannot functionally determine A, B or C and is therefore not a key. Do not treat this as a settled answer.",
+  "note": "OCR lost all the -> symbols in the functional dependency list, so the FD set is unrecoverable and the question is unanswerable as printed; verify against the source PDF before trusting it."
+ },
+ {
+  "id": "N0509",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Under multiple-granularity locking, an explicit lock on a coarse node implicitly locks every descendant in the same mode, so an explicit exclusive lock on file Fc gives Ti an implicit exclusive lock on all its records. The mode is inherited unchanged, so the shared-mode options are wrong, and the records are locked implicitly rather than explicitly.",
+  "note": ""
+ },
+ {
+  "id": "N0510",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A hierarchical schema organises records as a tree of parent-child (owner-member) links, which is the top-to-bottom relationship described. A network schema allows a child to have several parents, giving a graph rather than a strict top-to-bottom hierarchy, and a relational schema expresses relationships by matching key values, not by position.",
+  "note": ""
+ },
+ {
+  "id": "N0511",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "The physical (internal) level of the three-schema architecture describes how data is actually stored: file organisation, indexes, blocks and access paths. The conceptual/logical level describes what data is stored and its relationships, and the external/view level describes only the part of the database a given user sees.",
+  "note": ""
+ },
+ {
+  "id": "N0137",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Encapsulation binds data and the functions that operate on it into one unit and exposes only an interface, hiding the implementation details behind access specifiers. Option (a) describes containment/composition, not encapsulation, and (d) is just declaration syntax.",
+  "note": ""
+ },
+ {
+  "id": "N0138",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Inside a non-static member function, 'this' is an implicit pointer to the object the function was invoked on, which is how the function distinguishes its own members from arguments (e.g. this->x = x). It refers to the object, not the class, so (d) is the near-miss trap, and static member functions have no 'this' at all.",
+  "note": ""
+ },
+ {
+  "id": "N0139",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "C++ forbids overloading exactly four operators: the scope resolution operator ::, member access ., pointer-to-member .* and the ternary ?:. Arithmetic and logical operators are overloadable, and << / >> (mislabelled as comparison operators here) are among the most commonly overloaded of all, for stream I/O.",
+  "note": "OCR damage: option (c) carries stray characters and misnames << / >> as comparison operators, and the whole of the next question (No. 44, on pure virtual functions) has bled into option (d)."
+ },
+ {
+  "id": "N0140",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Polymorphism literally means 'many forms': one interface behaves differently depending on the actual object or argument types, as with an overridden virtual function called through a base-class pointer. Having several constructors is overloading, which is one mechanism of polymorphism rather than its definition, and a class can have only one destructor.",
+  "note": ""
+ },
+ {
+  "id": "N0141",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Objects with automatic storage duration are destroyed in reverse order of construction, because the scope behaves like a stack: last constructed is first destroyed. This is guaranteed by the language, so it is neither random nor compiler-dependent.",
+  "note": ""
+ },
+ {
+  "id": "N0142",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "OOP buys reusability, organisation and maintainability, but not speed: virtual dispatch, extra indirection and object construction/destruction generally make OOP code somewhat slower than equivalent procedural code, never inherently faster. So increased execution speed is the odd one out.",
+  "note": "Option (d) ends in stray OCR characters ('ey'); the intended text is 'Enhanced code maintenance'."
+ },
+ {
+  "id": "N0143",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "'new' allocates storage for an object on the free store (heap), runs its constructor and returns a pointer to it, with the lifetime lasting until a matching delete. Declaring classes, functions or constructors is done in source syntax and involves no allocation.",
+  "note": ""
+ },
+ {
+  "id": "N0144",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "A shallow copy (the compiler-generated default) copies member values bitwise, so a pointer member is duplicated as an address and both objects end up sharing the same pointed-to storage; a user-written deep copy constructor allocates fresh storage and copies the pointed-to data. Option (a) states this backwards, which is the trap.",
+  "note": ""
+ },
+ {
+  "id": "N0145",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "A constructor is invoked implicitly by the compiler whenever an object is created, which is its defining property. The near misses are all false: a constructor has no return type (not even void), two constructors with identical parameter lists would be an ambiguous redeclaration, and parameterised constructors are perfectly legal.",
+  "note": ""
+ },
+ {
+  "id": "N0146",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Division / exists only as a binary operator, so it is the one listed that is never unary. The trap is that - and * both have unary forms in C++ (unary negation, and pointer dereference), and ++ is unary by definition.",
+  "note": ""
+ },
+ {
+  "id": "N0147",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "'protected' is the access level that sits between private and public: the member is hidden from outside code but remains accessible to derived classes and their member functions, which is precisely why it exists. Option (a) describes private, and file-scope restriction is what static/internal linkage does, not an access specifier.",
+  "note": ""
+ },
+ {
+  "id": "N0148",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "By definition a default constructor is one callable with no arguments, i.e. it takes no parameters (or has defaults for all of them). Option (a) is the classic near miss: the compiler supplies an implicit default constructor only when you declare no constructor at all, so compiler generation is a consequence, not the definition.",
+  "note": ""
+ },
+ {
+  "id": "N0149",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Composition is the 'has-a' relationship: a class holds objects of other classes as data members and delegates work to them, as against inheritance's 'is-a'. Creating many objects from one class is just instantiation, and shared data members are what static members give you.",
+  "note": ""
+ },
+ {
+  "id": "N0150",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Multiple inheritance is one derived class with two or more direct base classes (class C : public A, public B), which is what brings in the diamond problem and virtual bases. Multilevel is a chain A -> B -> C, and hierarchical is one base with several derived classes.",
+  "note": ""
+ },
+ {
+  "id": "N0151",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Private members are visible only to the class's own members and its friends, so an ordinary non-member function cannot touch them, while public data is freely accessible, which rules out 'All of the above'. Strictly the intended answer is incomplete: protected data is equally inaccessible to a non-member non-friend function, so (a) and (c) are both true of the printed options and (a) is the answer only because it is the one the paper is asking about.",
+  "note": "As printed both (a) private and (c) protected are inaccessible to a non-member function, so the option set has no single wholly correct choice."
+ },
+ {
+  "id": "N0152",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Static data members have exactly one shared copy with static storage duration and are zero-initialised by default, the standard textbook phrasing being that they are set to zero when the first object of the class is created. Local variables are uninitialised garbage unless declared static, and 'external' is a linkage, not an initialisation rule.",
+  "note": "OCR damage: the leading blank has been lost from the stem, and option (d) carries stray characters. Also note the textbook phrasing is loose - static members are zero-initialised before program start, not literally at first object creation."
+ },
+ {
+  "id": "N0153",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Passing an object by value constructs a new object from an existing one, which is exactly the copy constructor's signature X(const X&); the same happens when returning by value or initialising one object from another. A default or parameterised constructor is not involved because the new object is built from an existing instance, not from scratch or from a value list.",
+  "note": ""
+ },
+ {
+  "id": "N0154",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Hierarchical inheritance is one base class with several classes derived directly from it, i.e. one superclass serving many subclasses. Multiple inheritance is the mirror image (one subclass, many superclasses), multilevel is a chain, and hybrid mixes two or more of these forms.",
+  "note": ""
+ },
+ {
+  "id": "N0155",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "If the visibility mode is omitted in 'class D : B', C++ defaults to private inheritance, so the base's public and protected members become private in D. The trap is that this default holds for class; a struct defaults to public inheritance instead.",
+  "note": "OCR damage: the stem ends in a stray ';' and option (d) has lost its spacing; the answer is unaffected, but note the question is only true for 'class', not 'struct'."
+ },
+ {
+  "id": "N0156",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "By elimination, 'partial inheritance' is the only label left for a base whose implementation is unfinished: multiple, virtual and hybrid inheritance all have precise and different meanings (several direct bases, a shared virtual base to resolve the diamond problem, and a mixture of inheritance forms respectively). The concept the paper is pointing at is an abstract base class containing pure virtual functions, which the derived class must complete before it can be instantiated.",
+  "note": "'Partial inheritance' is not standard C++ terminology; the answer rests on eliminating the three options that do have settled meanings."
+ }
+]

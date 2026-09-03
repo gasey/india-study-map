@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N1052",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Polymorphism in the strict C++ sense — one call site behaving differently depending on the object's actual type — is implemented by dynamic (late) binding through virtual functions and the vtable. Overloading and overriding are only the syntactic ways of writing the alternatives; overriding still needs dynamic binding to take effect at run time, and encapsulation is unrelated (it is data hiding).",
+  "note": "Loose stem: overloading gives compile-time polymorphism and overriding gives run-time polymorphism, so (a) and (d) are arguably defensible too; 'dynamic binding' is chosen as the underlying mechanism."
+ },
+ {
+  "id": "N1053",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Construction always proceeds from the most-base class downwards: `new Derived` first runs the Base subobject's constructor, then the Derived constructor body, so that the derived constructor can rely on an already-initialised base. Storing the result in a `Base*` changes nothing — the object created is a complete Derived, so both constructors run (ruling out (c) and (d)); only destruction goes in the reverse order.",
+  "note": ""
+ },
+ {
+  "id": "N1054",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "An object is an instance of a class — i.e. a variable whose data type is that class — and memory is allocated for its data members only when the object is created. Option (d) is the classic trap: a *class* is the collection of data members and member functions; the object is one concrete variable of that type, and its storage duration depends on where it is declared, so it is not 'just like a global variable'.",
+  "note": ""
+ },
+ {
+  "id": "N1068",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The comma in the FROM list is SQL's old-style Cartesian product, which is exactly what CROSS JOIN expresses, so every row of R is paired with every row of S. A natural join or inner join would additionally match on common attributes / an ON predicate and so return fewer rows (and a natural join would also collapse the duplicated join columns).",
+  "note": ""
+ },
+ {
+  "id": "N1069",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "A functional dependency X → Y is the generalisation of the key constraint: it says X determines Y, and a key is just the special case where X determines every attribute of the relation. 'Superset key' is not a term (a superkey is itself defined via an FD on the whole relation), so 'Key' is the intended basis.",
+  "note": "Options (b) 'Key revisited' and (c) 'Superset Key' look like mangled textbook section headings rather than real alternatives."
+ },
+ {
+  "id": "N1070",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Tuple relational calculus is written {t | P(t)} — read as 'the set of all tuples t such that predicate P holds for t', with the tuple variable before the bar and the condition after it. Options (a) and (b) invert or duplicate that structure, so 'All of these' cannot hold.",
+  "note": ""
+ },
+ {
+  "id": "N1071",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Total (mandatory) participation is drawn as a double line joining the entity set to the relationship diamond, meaning every entity of that set must take part in at least one relationship instance. A single line denotes partial participation, a double rectangle denotes a weak entity set, and dashed lines are used for derived attributes.",
+  "note": ""
+ },
+ {
+  "id": "N1072",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A foreign key referencing another table's primary key gives a one-to-many, i.e. parent (referenced) to child (referencing), relationship; referential integrity then requires every child value to exist in the parent. A many-to-many relationship needs a separate junction table with two foreign keys, so it is not created by a single PK/FK pair.",
+  "note": ""
+ },
+ {
+  "id": "N1073",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Consistency means the stored data still mirrors the real-world state it models; when that correspondence is broken the database is by definition in an inconsistent state, which is what a transaction's consistency requirement (and rollback of failed transactions) exists to prevent. 'Atomic' and 'parallel' state are not database states at all.",
+  "note": ""
+ },
+ {
+  "id": "N1074",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Shadow paging keeps a page table of pointers to all pages; updates are written to fresh pages and a copy of the page table is updated, so committing is just switching the current page-table pointer to the new (shadow) table — no undo is needed. A shadow copy duplicates the entire database rather than a page table, and log records are the alternative log-based recovery scheme, so 'All of these' is wrong.",
+  "note": ""
+ },
+ {
+  "id": "N1075",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "A Data Manipulation Language provides retrieval, insertion, deletion and modification of stored data — i.e. manipulation and processing. Describing the logical structure, adding new structures and defining physical storage are all DDL (or storage-definition language) functions, which is the standard distractor here.",
+  "note": ""
+ },
+ {
+  "id": "N1076",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Denormalisation deliberately reintroduces redundancy — pre-joined or duplicated columns — to avoid expensive joins at query time, trading update anomalies for read speed. Normalisation does the exact opposite by decomposing relations to remove redundancy.",
+  "note": ""
+ },
+ {
+  "id": "N1077",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Specialisation is top-down: you start from a single higher-level entity set and identify distinguishing subgroupings (lower-level entity sets) within it. Generalisation is the bottom-up inverse — several entity sets with common attributes are combined into a higher-level entity set.",
+  "note": ""
+ },
+ {
+  "id": "N1078",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "In the three-schema architecture the internal (physical) schema describes how and where data is actually stored — file organisation, record layout, indexes. The conceptual schema describes the community logical structure independent of storage, and an external schema is one user group's view.",
+  "note": ""
+ },
+ {
+  "id": "N1079",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "'Disjointness-less' means the *absence* of the disjoint constraint, i.e. an overlapping specialisation, in which one higher-level entity may simultaneously belong to more than one lower-level entity set (e.g. a person who is both Student and Employee). Option (a) is the trap — that is the definition of the disjoint constraint itself, the opposite of what is asked.",
+  "note": "Stem is awkwardly printed: 'disjoint less constraint' has to be read as 'disjointness-less', i.e. overlapping, otherwise (a) would be the answer."
+ },
+ {
+  "id": "N1080",
+  "unit": "3",
+  "subtopic": "Query processing and optimisation",
+  "answerIndex": 0,
+  "confidence": "low",
+  "explanation": "As printed the stem never says what is being computed — the operator after 'the cost of computing' was lost in the scan — so the question is incomplete. On the standard reading (cost of the natural join R ⋈ S): if the schemas share no attributes, R ∩ S = Φ, the natural join has no join condition and degenerates into the Cartesian product, so it costs the same as R × S; that makes (a) the only coherent option.",
+  "note": "OCR damage: the expression whose cost is asked about (almost certainly the natural join R ⋈ S) is missing from the stem, and Φ here means an empty *attribute* intersection, not empty relations."
+ },
+ {
+  "id": "N1081",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "In the transaction state diagram a transaction moves from active to partially committed the instant its final statement has executed — it is not yet committed because the log records still have to reach stable storage, and it can still fail and roll back. It becomes 'committed' only after that successful log write, which is the near-miss option here.",
+  "note": ""
+ },
+ {
+  "id": "N1082",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Atomicity — all-or-nothing execution — is guaranteed by the DBMS itself through its transaction-management component, not by the application programmer, who only marks the transaction boundaries. Concurrency control handles isolation, so it is not the answer; the recovery manager is the sub-component that actually performs the undo, which makes (d) a defensible near-miss.",
+  "note": "Silberschatz assigns the mechanics of atomicity to the recovery system, so (d) is arguably also correct; (a) is the broader, conventionally keyed answer."
+ },
+ {
+  "id": "N0349",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "A class is a user-defined type that groups state and behaviour together, so it can hold both data members and member functions — that bundling is precisely what encapsulation means. Holding only data would make it a plain struct-as-record, and holding only functions would make it a namespace or library.",
+  "note": ""
+ },
+ {
+  "id": "N0350",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "In C++ a class type may be introduced by any of the three class keys — `class`, `struct` or `union` — all of which can have member functions, constructors and access specifiers; the only differences are the default access (public for struct/union, private for class) and that a union holds one member at a time. `object` is not a C++ keyword, so neither (a) nor (b) alone is complete.",
+  "note": ""
+ },
+ {
+  "id": "N0351",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "A constructor runs automatically when an object is created and is responsible both for bringing the object into a valid initial state and for initialising/constructing its data members (base and member subobjects are built via the member-initialiser list before the body runs), so both stated purposes hold. Note it does not allocate the object's storage — that is done by the declaration or by `new`.",
+  "note": "Options (a) and (b) overlap heavily, so (c) is the intended 'both' answer rather than a genuinely distinct claim."
+ },
+ {
+  "id": "N0352",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Destruction runs in reverse order of construction: when a derived object is destroyed its own destructor body runs and then the base class destructor is invoked automatically, so a derived destructor does reach its base destructor (and it can also be named explicitly as `Base::~Base()`), making (b) false. Option (a) is false as well — a derived constructor explicitly invokes a base constructor through its member-initialiser list, e.g. `Derived() : Base(x) {}`.",
+  "note": "Loose wording: for the base destructor the invocation is normally implicit and compiler-generated rather than something the derived destructor 'calls'."
+ },
+ {
+  "id": "N0353",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "The scope-resolution operator `::` cannot be overloaded, along with `.`, `.*`, `?:` and `sizeof`, because it is resolved at compile time against names rather than values. `+`, `-` and the subscript operator `[]` are all overloadable, `[]` only as a non-static member function.",
+  "note": ""
+ },
+ {
+  "id": "N0354",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Operator overloading extends built-in operators so that they work with objects of user-defined classes — you cannot invent a brand-new operator token (ruling out (c)) and you cannot change how an operator behaves on built-in types. Option (b) is close but imprecise: the operator gains an *additional* meaning for class types while its original meaning for built-ins is untouched.",
+  "note": "Options (a) and (b) are two phrasings of the same idea; (a) is chosen as the more accurate one since the built-in meaning is not replaced."
+ },
+ {
+  "id": "N0355",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "A friend function is exactly the exemption from the rule that private and protected members cannot be touched from outside the class — the class grants it access explicitly, so that rule does not constrain it. Options (b) and (c) are not rules of C++ at all: private and protected members are never accessible 'anywhere'.",
+  "note": "Awkwardly worded stem; read as 'which access rule does not apply to a friend function'."
+ },
+ {
+  "id": "N0356",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 3,
+  "confidence": "low",
+  "explanation": "The question is not well posed — C++ has no defined category of 'essential operators'. All three listed tokens are genuine C++ operators (arithmetic addition, bitwise OR, relational less-than-or-equal), so the only internally consistent choice is 'All of these'; there is no basis for singling out any one of them.",
+  "note": "Ill-posed stem: 'essential operators' is not a standard C++ term, so (d) is chosen only because the three items are all valid operators. Off-syllabus: basic operator trivia with no OOP content."
+ },
+ {
+  "id": "N0357",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "`|` is the bitwise OR operator (its two-symbol form `||` is logical OR), so of the choices only 'or' names it. `sizeof` is a keyword operator, `&` is bitwise AND, and `%` is modulus.",
+  "note": "Off-syllabus: plain bitwise-operator trivia, not object-oriented programming."
+ },
+ {
+  "id": "N0358",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Encapsulation is the mechanism that binds code and data together and keeps both safe from outside interference and misuse — the class is the unit that does this. Option (b), 'a single interface for a general class of actions', is the textbook definition of polymorphism, not encapsulation, which is why 'All of these' cannot be right.",
+  "note": ""
+ },
+ {
+  "id": "N0359",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Inheritance is the mechanism by which one object or class acquires the properties (and behaviour) of another, supporting hierarchical classification and code reuse. Encapsulation binds data with code, abstraction hides implementation detail, and polymorphism gives one interface many implementations.",
+  "note": ""
+ },
+ {
+  "id": "N0360",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "'One interface, multiple methods' is the standard one-line description of polymorphism: a single interface (a function name or a base-class virtual function) is used for a general class of actions, with the specific method selected by the operand or object type. Inheritance is about acquiring properties and encapsulation about binding data to code.",
+  "note": ""
+ }
+]

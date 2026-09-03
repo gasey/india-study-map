@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N0404",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Encapsulation (bundling data with the functions that act on it and restricting direct access) and abstraction (exposing only the essential interface) are the two pillars that overlap, since hiding data is what makes the simplified view possible. Inheritance and polymorphism are about reuse and dispatch, not about hiding, so the pairings involving them do not match.",
+  "note": "Stem is vaguely worded: 'match each other' is asking which two features are conceptually closest."
+ },
+ {
+  "id": "N0405",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "An object of a class must hold storage for its own non-static data members plus the data members it inherits from base classes, so the size is the sum of all of those. Option (a) is the classic near miss because it forgets the inherited members; member functions are stored once for the class, not per object, so they do not add to the size.",
+  "note": "Strictly the size also includes alignment padding, any vtable pointer, and is at least 1 byte for an empty class."
+ },
+ {
+  "id": "N0406",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Every member function must be declared inside the class definition; only its body may be placed outside using the scope resolution operator, so saying the declaration is optional is false. Options (b) and (d) are true, which is why (c) is the intended false statement.",
+  "note": "Option (a) is also arguably false, since a member function that is declared but never used need not be defined."
+ },
+ {
+  "id": "N0407",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "In C++ a class and a struct are the same construct apart from the default access level (private for class, public for struct) and default inheritance access, so they are the similar pair. A class is a type while an object is an instance of it, so class/object and structure/object are not similar things.",
+  "note": ""
+ },
+ {
+  "id": "N0408",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Name resolution starts in the innermost (local) scope, so a matching local function hides a global one and is the candidate considered first when overloads are resolved. The other options invent a non-existent 'compiler priority' scheme; compilers do not schedule functions by priority.",
+  "note": "Loosely phrased; it is really testing scope-based name lookup rather than abstract classes."
+ },
+ {
+  "id": "N0409",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "A static member function belongs to the class rather than to any object, has no this pointer and cannot be declared virtual, so it cannot participate in runtime polymorphism. Function overloading, operator overloading and constructor overloading are all standard forms of compile-time polymorphism.",
+  "note": "Static member functions can still be overloaded, so the claim only holds for runtime (virtual) polymorphism."
+ },
+ {
+  "id": "N0410",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 1,
+  "confidence": "low",
+  "explanation": "+= is the safe choice: overloading a compound assignment operator gives it new meaning for a user-defined type with no loss of its normal behaviour, whereas overloaded || and && lose their built-in short-circuit evaluation and left-to-right sequencing. As printed, however, all four operators are legally overloadable in C++ (operator<< is the textbook stream-insertion example), so no single option is uniquely correct.",
+  "note": "Defective option set: all four operators can be overloaded, so the question has no unique answer as printed."
+ },
+ {
+  "id": "N0411",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Because encapsulated data is reached only through the class's member functions, the internal representation (including a member's data type) can be changed while the public interface stays the same, so client code need not change. Option (c) states the opposite, and option (d) confuses member functions with type declarations.",
+  "note": ""
+ },
+ {
+  "id": "N0412",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "A global variable sits outside every class and is readable and writable from anywhere in the program, so it defeats encapsulation almost by definition. Local variables are already confined to their block, and an array is just a data type, not an access decision.",
+  "note": "Public data members (option c) also break encapsulation; 'almost always' is what makes globals the stronger answer."
+ },
+ {
+  "id": "N0413",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Handing a char* that points at the class's own string data to a non-member function lets outside code read and modify that private data directly, which is exactly the leak encapsulation is meant to prevent. Option (d) is too broad to be the intended answer: passing an address to another function is not in itself a violation when the data is copied or const-qualified.",
+  "note": "Option (d) is a superset of (b), so the two can be argued; (b) names the specific leak."
+ },
+ {
+  "id": "N0414",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Encapsulation restricts casual access to data through access specifiers, but it is a compile-time language rule, not a security mechanism: friend functions, pointer arithmetic and casts can still reach private members. 'Purely ensured' is the trap, since nothing about encapsulation guarantees data security.",
+  "note": ""
+ },
+ {
+  "id": "N0415",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Hiding implementation complexity is abstraction: the user of a class works with a small, meaningful interface and does not have to understand the internals, which makes programming easier. It does not by itself add or improve features, so options (c) and (d) miss the point.",
+  "note": ""
+ },
+ {
+  "id": "N0416",
+  "unit": "1",
+  "subtopic": "I/O streams and file handling in OOP",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "In the C++ I/O model the stream is the abstraction, a logical device that produces or consumes bytes, while the actual physical device it is attached to (disk file, keyboard, screen, printer) is referred to as the file. Option (b) simply swaps the two terms.",
+  "note": ""
+ },
+ {
+  "id": "N0417",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Protected members behave like private members with respect to outside code but are accessible to derived classes, which is exactly 'private members that can be inherited and used'. Truly private members are not accessible in a derived class, so (a) and the options built on 'default' are wrong.",
+  "note": ""
+ },
+ {
+  "id": "N0418",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "Arguments are optional for a constructor: a default constructor takes none, so 'it can contain arguments' is a permission, not a requirement. The other three are genuine requirements, since the constructor's name must match the class, it must declare no return type (not even void), and it needs a body to execute.",
+  "note": "Option (c) is the near miss: an explicitly defaulted or deleted constructor has no user-written body."
+ },
+ {
+  "id": "N0419",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "A constructor whose every parameter has a default value can be called with no arguments, so it serves as the default constructor and the object is created with the default values supplied. The trap is (c): the compiler only synthesises a default constructor when no constructor at all is declared, but here none is needed because the existing one is callable with zero arguments.",
+  "note": ""
+ },
+ {
+  "id": "N0420",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Returning an object by value conceptually constructs a temporary object in the caller's context by copying from the local object, because the local object's lifetime ends when the function returns. Option (b) is wrong for that reason: the function's own object is destroyed on return.",
+  "note": "With return value optimisation/copy elision a real compiler often constructs the result in place and no temporary is materialised."
+ },
+ {
+  "id": "N0421",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "All three statements distinguish references from pointers: a reference must be initialised and cannot be null, it cannot be reseated to refer to a different object once bound, and it is used directly without an explicit * dereference. Since each is individually true, 'All of these' is the answer.",
+  "note": ""
+ },
+ {
+  "id": "N0422",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Platform independence is a property of a language's execution model (for example Java's bytecode and JVM), not an object-oriented design concept. Data binding, message passing and data hiding are all standard items on the list of OOP concepts.",
+  "note": ""
+ },
+ {
+  "id": "N0423",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "The feature classes added over the traditional structure is member functions, which let the data and the operations on it live together in one type. Data members existed in structures already, so (a) is the obvious distractor.",
+  "note": "True of C structures; in C++ a struct may itself have member functions and access specifiers, so the contrast is historical."
+ },
+ {
+  "id": "N0424",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "A class may contain private, protected and public sections all at once, in any order and repeated as often as needed, since each access specifier simply governs the members declared after it. Nothing restricts a class to one or two of them.",
+  "note": ""
+ },
+ {
+  "id": "N0493",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "char(n) is a fixed-length string of exactly n characters, blank-padded if the value is shorter, while varchar(n) is a variable-length string holding up to n characters and storing only what is supplied. 'Equal' is not the standard term for either, which rules out (a), (b) and (d).",
+  "note": ""
+ },
+ {
+  "id": "N0494",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "HAVING is applied after grouping and aggregation, filtering the groups that appear in the result, which is why it is described as an additional filter on the result. WHERE filters rows before grouping; GROUP BY forms the groups and ORDER BY only sorts, neither of them filters.",
+  "note": ""
+ },
+ {
+  "id": "N0495",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "ROLLBACK undoes all the uncommitted work a transaction has done since the last COMMIT, restoring the database to that committed state. COMMIT does the opposite by making the changes permanent, and FLASHBACK is a vendor-specific facility for reading or reverting to a past point in time, not the standard undo statement.",
+  "note": ""
+ },
+ {
+  "id": "N0496",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "First normal form requires every attribute to be atomic, so a composite attribute such as Address must be split into individual attributes (street, city, pin) and repeating groups removed. Second and third normal form deal with partial and transitive dependencies on the key, not with attribute atomicity.",
+  "note": ""
+ },
+ {
+  "id": "N0497",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Under write-ahead logging every modification is recorded in the log (old value, new value, transaction id) before the change is applied to the database itself, which is what makes undo and redo recovery possible after a crash. A data mart is a data warehousing structure and has nothing to do with transaction recovery.",
+  "note": ""
+ },
+ {
+  "id": "N0498",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Armstrong's axioms are exactly three: reflexivity, augmentation and transitivity. Pseudotransitivity is a derived (secondary) rule proved from those three, along with union and decomposition, so it is not itself an axiom.",
+  "note": ""
+ },
+ {
+  "id": "N0499",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A candidate key is a minimal super key, so a subset of a super key qualifies only when no proper subset of it is itself a super key, that is, no attribute can be dropped and still identify tuples uniquely. Options (b), (c) and (d) describe super keys in general and miss the minimality condition, which is the whole point.",
+  "note": ""
+ },
+ {
+  "id": "N0500",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Being varchar(20), attribute A stores only the three characters of 'Avi' and so occupies 3 character positions, while char(20) is fixed length and blank-pads 'Reed' out to the full 20 positions. Option (d) is the trap: char does not shrink to the 4 characters actually supplied.",
+  "note": "The word 'spaces' is ambiguous: read as padding blanks the answer would be 0 and 16 rather than 3 and 20."
+ },
+ {
+  "id": "N0501",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "In an SQL LIKE pattern each underscore matches exactly one character, so '___' matches strings of exactly three characters, while '___%' adds a % that matches any substring including the empty one, giving at least three characters. The blanks are filled 'Exactly' then 'Atleast', so (a) has the pair reversed.",
+  "note": ""
+ }
+]

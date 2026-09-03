@@ -1,0 +1,452 @@
+[
+ {
+  "id": "N1052",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 31,
+  "hint_topic": "Polymorphism binding",
+  "garbled": false,
+  "question": "Polymorphism is achieved by",
+  "options": [
+   "Overloading",
+   "Encapsulation",
+   "Dynamic Binding",
+   "Overriding"
+  ]
+ },
+ {
+  "id": "N1053",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 34,
+  "hint_topic": "Constructor inheritance",
+  "garbled": false,
+  "question": "Assume that we have constructor functions for both base class and derived class. Now consider the declaration in main( ). Base * P = New Derived; in what sequence will the constructor be called?",
+  "options": [
+   "Derived class constructor followed by Base class constructor.",
+   "Base class constructor followed by derived class constructor.",
+   "Base class constructor will not be called.",
+   "Derived class constructor will not be called."
+  ]
+ },
+ {
+  "id": "N1054",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 35,
+  "hint_topic": "Object class instance",
+  "garbled": false,
+  "question": "An object is",
+  "options": [
+   "a variable of class datatype.",
+   "same as a class.",
+   "just like a global variable.",
+   "collection of data-members and member functions."
+  ]
+ },
+ {
+  "id": "N1068",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 3,
+  "hint_topic": "SQL cross join",
+  "garbled": false,
+  "question": "In SQL the statement select * from R, S is equivalent to",
+  "options": [
+   "Select * from R natural join S",
+   "Select * from R cross join S",
+   "Select * from R union join S",
+   "Select * from R inner join S"
+  ]
+ },
+ {
+  "id": "N1069",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 4,
+  "hint_topic": "Functional dependency key",
+  "garbled": false,
+  "question": "Functional Dependencies are the types of constraints that are based on",
+  "options": [
+   "Key",
+   "Key revisited",
+   "Superset Key",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1070",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 5,
+  "hint_topic": "Tuple relational calculus",
+  "garbled": false,
+  "question": "A query in the tuple relational calculus is expressed as",
+  "options": [
+   "{t | P() | t}",
+   "{P(t) | t}",
+   "{t | P(t)}",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N1071",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 6,
+  "hint_topic": "ER total participation",
+  "garbled": false,
+  "question": "The total participation by entities is represented in E-R diagram as",
+  "options": [
+   "Dashed line",
+   "Double line",
+   "Double rectangle",
+   "Circle"
+  ]
+ },
+ {
+  "id": "N1072",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 7,
+  "hint_topic": "Primary foreign key",
+  "garbled": false,
+  "question": "A primary key combined with a foreign key creates",
+  "options": [
+   "Parent-Child relationship between the tables that connect them",
+   "Many to many relationship between the tables that connect them",
+   "Network model between the tables that connect them",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1073",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 8,
+  "hint_topic": "Database inconsistent state",
+  "garbled": false,
+  "question": "If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called",
+  "options": [
+   "Consistent state",
+   "Parallel state",
+   "Atomic state",
+   "Inconsistent state"
+  ]
+ },
+ {
+  "id": "N1074",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 9,
+  "hint_topic": "Shadow paging recovery",
+  "garbled": false,
+  "question": "The ____________ scheme uses a page table containing pointers to all pages; the page table itself and all updated pages are copied to a new location.",
+  "options": [
+   "Shadow copy",
+   "Shadow paging",
+   "Update log records",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N1075",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 10,
+  "hint_topic": "DML database manipulation",
+  "garbled": false,
+  "question": "DML is provided for",
+  "options": [
+   "Description of logical structure of database",
+   "Addition of new structures in the database system",
+   "Manipulation & processing of database",
+   "Definition of physical structure of database system"
+  ]
+ },
+ {
+  "id": "N1076",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 12,
+  "hint_topic": "Denormalization redundancy",
+  "garbled": false,
+  "question": "Which of the following is the process of increasing redundancy in the database either for convenience or to improve performance?",
+  "options": [
+   "Normalisation",
+   "Optimisation",
+   "Dependency",
+   "Denormalisation"
+  ]
+ },
+ {
+  "id": "N1077",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 13,
+  "hint_topic": "Specialization top-down",
+  "garbled": false,
+  "question": "Which of the following is a top-down process?",
+  "options": [
+   "Specialisation",
+   "Categorisation",
+   "Generalisation",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1078",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 14,
+  "hint_topic": "Internal schema storage",
+  "garbled": false,
+  "question": "What defines how and where data are organised in physical data storage?",
+  "options": [
+   "Internal schema",
+   "Conceptual schema",
+   "External schema",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1079",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 15,
+  "hint_topic": "Disjoint constraint entity",
+  "garbled": false,
+  "question": "What is a disjoint less constraint?",
+  "options": [
+   "It requires that an entity belongs to no more than one level entity set.",
+   "The same entity may belong to more than one level.",
+   "The database must contain an unmatched foreign key value.",
+   "An entity can be joined with another entity in the same level entity set."
+  ]
+ },
+ {
+  "id": "N1080",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 16,
+  "hint_topic": "Relational intersection cost",
+  "garbled": true,
+  "question": "When R ∩ S = Φ , then the cost of computing is",
+  "options": [
+   "the same as R × S",
+   "greater the R × S",
+   "less than R × S",
+   "cannot say anything"
+  ]
+ },
+ {
+  "id": "N1081",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 17,
+  "hint_topic": "Transaction committed state",
+  "garbled": false,
+  "question": "A transaction is in __________ state after the final statement has been executed.",
+  "options": [
+   "partially committed",
+   "active",
+   "committed",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1082",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "III",
+  "no": 18,
+  "hint_topic": "Transaction atomicity DBMS",
+  "garbled": false,
+  "question": "Which of the following ensures the atomicity of the transaction?",
+  "options": [
+   "Transaction management component of DBMS",
+   "Application Programmer",
+   "Concurrency control component of DBMS",
+   "Recovery management component of DBMS"
+  ]
+ },
+ {
+  "id": "N0349",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 22,
+  "hint_topic": "Class members",
+  "garbled": false,
+  "question": "What does your class can hold?",
+  "options": [
+   "data",
+   "functions",
+   "both data & functions",
+   "none of these"
+  ]
+ },
+ {
+  "id": "N0350",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 23,
+  "hint_topic": "Class declaration",
+  "garbled": false,
+  "question": "Which other keywords are also used to declare the class other than class?",
+  "options": [
+   "struct",
+   "union",
+   "object",
+   "both struct & union"
+  ]
+ },
+ {
+  "id": "N0351",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 24,
+  "hint_topic": "Constructor initialization",
+  "garbled": false,
+  "question": "Constructors are used to",
+  "options": [
+   "initalize the objects",
+   "construct the data members",
+   "both initalize the objects & construct the data members",
+   "none of these"
+  ]
+ },
+ {
+  "id": "N0352",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 25,
+  "hint_topic": "Destructor inheritance",
+  "garbled": false,
+  "question": "Pick out the correct statement.",
+  "options": [
+   "A derived class's constructor cannot explicitly invokes its base class's constructor",
+   "A derived class's destructor cannot invoke its base class's destructor",
+   "A derived class's destructor can invoke its base class's destructor",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N0353",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 26,
+  "hint_topic": "Operator overload",
+  "garbled": false,
+  "question": "Which of the following operators can't be overloaded?",
+  "options": [
+   "::",
+   "+",
+   "-",
+   "[ ]"
+  ]
+ },
+ {
+  "id": "N0354",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 27,
+  "hint_topic": "Operator overloading",
+  "garbled": false,
+  "question": "Operator overloading is",
+  "options": [
+   "making c++ operator works with objects",
+   "giving new meaning to existing operator",
+   "making new operator",
+   "adding operation to the existing operators"
+  ]
+ },
+ {
+  "id": "N0355",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 28,
+  "hint_topic": "Friend function",
+  "garbled": false,
+  "question": "Which rule will not affect the friend function?",
+  "options": [
+   "private and protected members of a class cannot be accessed from outside",
+   "private and protected member can be accessed anywhere",
+   "protected member can be accessed anywhere",
+   "none of these"
+  ]
+ },
+ {
+  "id": "N0356",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 29,
+  "hint_topic": "C++ operators",
+  "garbled": false,
+  "question": "What are the essential operators in c++?",
+  "options": [
+   "+",
+   "|",
+   "<=",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N0357",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 30,
+  "hint_topic": "Bitwise operator",
+  "garbled": false,
+  "question": "What is the name of | operator?",
+  "options": [
+   "sizeof",
+   "or",
+   "and",
+   "modulus"
+  ]
+ },
+ {
+  "id": "N0358",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 31,
+  "hint_topic": "Encapsulation binding",
+  "garbled": false,
+  "question": "Which of the these is the functionality of 'Encapsulation'?",
+  "options": [
+   "Binds together code and data",
+   "Using single interface for general class of actions.",
+   "Reduce Complexity",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N0359",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 32,
+  "hint_topic": "Inheritance properties",
+  "garbled": false,
+  "question": "Which of the following is a mechanism by which object acquires the properties of another object?",
+  "options": [
+   "Encapsulation",
+   "Abstraction",
+   "Inheritance",
+   "Polymorphism"
+  ]
+ },
+ {
+  "id": "N0360",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 33,
+  "hint_topic": "Polymorphism interface",
+  "garbled": false,
+  "question": "Which of the following concept is often expressed by the phrase, 'One interface, multiple methods'?",
+  "options": [
+   "Abstraction",
+   "Polymorphism",
+   "Inheritance",
+   "Encapsulation"
+  ]
+ }
+]

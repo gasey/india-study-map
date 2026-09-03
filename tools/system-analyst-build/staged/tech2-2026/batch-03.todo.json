@@ -1,0 +1,452 @@
+[
+ {
+  "id": "N0502",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 22,
+  "hint_topic": "TRIM function",
+  "garbled": false,
+  "question": "In SQL the spaces at the end of the string are removed by __________ function .",
+  "options": [
+   "Upper",
+   "String",
+   "Trim",
+   "Lower"
+  ]
+ },
+ {
+  "id": "N0503",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 23,
+  "hint_topic": "Outer join",
+  "garbled": false,
+  "question": "What type of join is needed when you wish to include rows that do not have matching values?",
+  "options": [
+   "Equi-join",
+   "Natural join",
+   "Outer join",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N0504",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 25,
+  "hint_topic": "Integrity constraints",
+  "garbled": false,
+  "question": "Updates that violate __________ are disallowed.",
+  "options": [
+   "Integrity constraints",
+   "Transaction control",
+   "Authorization",
+   "DDL constraints"
+  ]
+ },
+ {
+  "id": "N0505",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 26,
+  "hint_topic": "INSERT statement",
+  "garbled": false,
+  "question": "Insert into instructor values (10211, 'Smith', 'Biology', 66000); What type of statement is this ?",
+  "options": [
+   "DLL",
+   "DML",
+   "Relational",
+   "DDL"
+  ]
+ },
+ {
+  "id": "N0506",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 28,
+  "hint_topic": "Relational algebra",
+  "garbled": false,
+  "question": "In relational algebra, for select operation the __________ appear in the subscript and the __________ argument appears in the parenthesis after the sigma.",
+  "options": [
+   "Predicates, relation",
+   "Relation, Predicates",
+   "Operation, Predicates",
+   "Relation, Operation"
+  ]
+ },
+ {
+  "id": "N0507",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 29,
+  "hint_topic": "Checkpoint recovery",
+  "garbled": false,
+  "question": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of",
+  "options": [
+   "Checkpoint facility",
+   "Backup facility",
+   "Recovery manager",
+   "Database change log"
+  ]
+ },
+ {
+  "id": "N0508",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 30,
+  "hint_topic": "Functional dependency",
+  "garbled": true,
+  "question": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB B C BC  A AD E A DE Which of the following is not a key?",
+  "options": [
+   "A",
+   "E",
+   "B,C",
+   "D"
+  ]
+ },
+ {
+  "id": "N0509",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 33,
+  "hint_topic": "Lock modes",
+  "garbled": false,
+  "question": "If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an __________ on all the records belonging to that file.",
+  "options": [
+   "Explicit lock in exclusive mode",
+   "Implicit lock in shared mode",
+   "Explicit lock in shared mode",
+   "Implicit lock in exclusive mode"
+  ]
+ },
+ {
+  "id": "N0510",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 34,
+  "hint_topic": "Hierarchical schema",
+  "garbled": false,
+  "question": "A top to bottom relationship among the items in a database is established by a:",
+  "options": [
+   "Hierarchical Schema",
+   "Relational Schema",
+   "Network Schema",
+   "Distributed Schema"
+  ]
+ },
+ {
+  "id": "N0511",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper_no": "III",
+  "no": 35,
+  "hint_topic": "Data abstraction",
+  "garbled": false,
+  "question": "The level of data abstraction which describes how the data is actually stored is:",
+  "options": [
+   "Physical level",
+   "Conceptual level",
+   "External level",
+   "View level"
+  ]
+ },
+ {
+  "id": "N0137",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 41,
+  "hint_topic": "OOP encapsulation",
+  "garbled": false,
+  "question": "In OOP, what is the purpose of encapsulation?",
+  "options": [
+   "To create objects that are encapsulated by other objects",
+   "To hide the implementation details of a class",
+   "To define operators that are hidden",
+   "To declare variables and functions"
+  ]
+ },
+ {
+  "id": "N0138",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 42,
+  "hint_topic": "This pointer class",
+  "garbled": false,
+  "question": "What is the purpose of the \"this\" pointer with regards to class and object?",
+  "options": [
+   "To access the global variables of a class",
+   "To reference the current object",
+   "To declare static member functions of aclass",
+   "To reference the current class"
+  ]
+ },
+ {
+  "id": "N0139",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 43,
+  "hint_topic": "C++ operator overload",
+  "garbled": true,
+  "question": "Which type of operators cannot be overloaded in C++?",
+  "options": [
+   "Arithmetic operators (e.g., +, -, *, /)",
+   "Scope Resolution Operator (::)",
+   "Comparison operators (e.g.,<<,>>)scop",
+   "Logical operators (e.g., &&, ||) 44, What isa pure virtual function in C++? (a) A function with an empty body (b) A function that cannot be inherited (c) A function that must be overridden in derived classes (d) A function that cannot have parameters"
+  ]
+ },
+ {
+  "id": "N0140",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 45,
+  "hint_topic": "Polymorphism",
+  "garbled": false,
+  "question": "In OOP, what does the term \"polymorphism\" refer to?",
+  "options": [
+   "The ability ofa class to have multiple constructors",
+   "The ability ofa class to have multiple destructors",
+   "The ability ofan object to take on multiple forms",
+   "The ability to create multiple objects from a class"
+  ]
+ },
+ {
+  "id": "N0141",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 46,
+  "hint_topic": "Object destruction",
+  "garbled": false,
+  "question": "What is the order of destruction of objects when they go out of scope?",
+  "options": [
+   "Inthe order of their creation",
+   "Inreverse order of their creation",
+   "Inrandom order",
+   "It depends on the compiler"
+  ]
+ },
+ {
+  "id": "N0142",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 47,
+  "hint_topic": "OOP benefits",
+  "garbled": true,
+  "question": "Which of the following is NOT a benefit of using OOP concepts?",
+  "options": [
+   "Code reusability",
+   "Improved code organization",
+   "Increased program execution speed",
+   "Enhanced code maintenance ey"
+  ]
+ },
+ {
+  "id": "N0143",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 48,
+  "hint_topic": "New keyword memory",
+  "garbled": false,
+  "question": "What is the purpose of the \"new\" keyword ?",
+  "options": [
+   "To define a new class in the program",
+   "Toallocate memory for an object on the heap",
+   "Tocreate anew function",
+   "To define new constructor"
+  ]
+ },
+ {
+  "id": "N0144",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 49,
+  "hint_topic": "Shallow vs deep copy",
+  "garbled": false,
+  "question": "What is the difference between a shallow copy and a deep copy of an object?",
+  "options": [
+   "Shallow copy copies the object's data, while deep copy copies the object's address",
+   "Shallow copy copies the object's address, while deep copy copies the object's data",
+   "Shallow copy copies object's data only once, while deep copy copies the object's data more than once",
+   "Shallow copy and deep copy are the same thing"
+  ]
+ },
+ {
+  "id": "N0145",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 50,
+  "hint_topic": "Constructors",
+  "garbled": false,
+  "question": "Which of the following statements about constructors is true? .",
+  "options": [
+   "Aclass can have multiple constructors with the same parameter list",
+   "Acconstructor can have a return type",
+   "Aconstructor is automatically called when an object is created",
+   "Constructors cannot have parameters"
+  ]
+ },
+ {
+  "id": "N0146",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 51,
+  "hint_topic": "Unary operators",
+  "garbled": false,
+  "question": "Which of the following is NOT an example of a unary operator?",
+  "options": [
+   "++",
+   "-",
+   "*",
+   "/"
+  ]
+ },
+ {
+  "id": "N0147",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 52,
+  "hint_topic": "Protected access",
+  "garbled": false,
+  "question": "What is the purpose of the \"protected\" access specifier in C++?",
+  "options": [
+   "To make aclass member inaccessible from outside the class",
+   "To specify that a member should be accessible only within the same file",
+   "To declare a member as static '",
+   "To allow derived classes to access the member"
+  ]
+ },
+ {
+  "id": "N0148",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 53,
+  "hint_topic": "Default constructor",
+  "garbled": false,
+  "question": "What is a default constructor?",
+  "options": [
+   "Aconstructor that is automatically generated by the compiler",
+   "Aconstructor that takes no parameters",
+   "Aconstructor that creates objects with random values",
+   "Aconstructor that is used to initialize objects"
+  ]
+ },
+ {
+  "id": "N0149",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 54,
+  "hint_topic": "Composition",
+  "garbled": false,
+  "question": "In OOP, what is \"composition\"?",
+  "options": [
+   "A technique for defining classes with only static members",
+   "A design approach where a class contains objects of other classes as members",
+   "Amethod for creating multiple objects from a single class",
+   "A way to create objects with shared data members"
+  ]
+ },
+ {
+  "id": "N0150",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 55,
+  "hint_topic": "Multiple inheritance",
+  "garbled": false,
+  "question": "Which type of inheritance allows a class to inherit from several base classes?",
+  "options": [
+   "Single inheritance",
+   "Multiple inheritance",
+   "Multilevel inheritance",
+   "Hierarchical inheritance"
+  ]
+ },
+ {
+  "id": "N0151",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 56,
+  "hint_topic": "Access control",
+  "garbled": false,
+  "question": "A non-member function cannot access which data of the class?",
+  "options": [
+   "Private data",
+   "Public data",
+   "Protected data",
+   "Allofthe above"
+  ]
+ },
+ {
+  "id": "N0152",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 57,
+  "hint_topic": "Static members",
+  "garbled": true,
+  "question": "member variables are initialized to zero when the first object of its class is created.",
+  "options": [
+   "Local",
+   "Static",
+   "Global",
+   "External - a. =P - a"
+  ]
+ },
+ {
+  "id": "N0153",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 58,
+  "hint_topic": "Copy constructor",
+  "garbled": false,
+  "question": "The constructor is invoked when an object is passed by value to a function.",
+  "options": [
+   "Parameterized Constructor",
+   "Default Constructors",
+   "Copy Constructor",
+   "Constructor of the function"
+  ]
+ },
+ {
+  "id": "N0154",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 59,
+  "hint_topic": "Hierarchical inheritance",
+  "garbled": false,
+  "question": "In which type of inheritance does one class act as a superclass for more than one sub-class?",
+  "options": [
+   "Hybrid inheritance",
+   "Multiple inheritances",
+   "Hierarchical inheritance",
+   "Multilevel inheritance"
+  ]
+ },
+ {
+  "id": "N0155",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 60,
+  "hint_topic": "Inheritance visibility",
+  "garbled": true,
+  "question": "The default visibility mode in inheritance is ;",
+  "options": [
+   "Protected",
+   "Public",
+   "Private",
+   "Thereisnodefaultmode |"
+  ]
+ },
+ {
+  "id": "N0156",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "II",
+  "no": 61,
+  "hint_topic": "Virtual inheritance",
+  "garbled": false,
+  "question": "This is the type of inheritance in which the implementation of a superclass is incomplete.",
+  "options": [
+   "Partial inheritance",
+   "Multiple inheritances",
+   "Virtual inheritance",
+   "Hybrid inheritance"
+  ]
+ }
+]

@@ -1,0 +1,452 @@
+[
+ {
+  "id": "N0361",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 34,
+  "hint_topic": "Virtual function",
+  "garbled": false,
+  "question": "Runtime polymorphism is achieved by",
+  "options": [
+   "Friend function",
+   "Virtual function",
+   "Operator overloading",
+   "Function overloading"
+  ]
+ },
+ {
+  "id": "N0362",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 35,
+  "hint_topic": "Storage class scope",
+  "garbled": false,
+  "question": "At which point of time a variable comes into existence in memory is determined by its",
+  "options": [
+   "Scope",
+   "Storage class",
+   "Data type",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N0363",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 36,
+  "hint_topic": "Exception handling",
+  "garbled": false,
+  "question": "Exception handling is targeted at",
+  "options": [
+   "Run-time error",
+   "Compile time error",
+   "Logical error",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N0364",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 37,
+  "hint_topic": "Inline functions",
+  "garbled": false,
+  "question": "Member functions, when defined within the class specification",
+  "options": [
+   "Are always inline",
+   "Are not inline",
+   "Are inline by default, unless they are too big or too complicated",
+   "Are not inline by default"
+  ]
+ },
+ {
+  "id": "N0365",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "II",
+  "no": 38,
+  "hint_topic": "Class access default",
+  "garbled": false,
+  "question": "The members of a class by default are",
+  "options": [
+   "Public",
+   "Protected",
+   "Private",
+   "Mandatory to specify"
+  ]
+ },
+ {
+  "id": "N0450",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 1,
+  "hint_topic": "Relational database",
+  "garbled": false,
+  "question": "A relational database consists of a collection of",
+  "options": [
+   "Tables",
+   "Fields",
+   "Records",
+   "Keys"
+  ]
+ },
+ {
+  "id": "N0451",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 2,
+  "hint_topic": "Tuple terminology",
+  "garbled": false,
+  "question": "The term ________ is used to refer to a row.",
+  "options": [
+   "Attribute",
+   "Tuple",
+   "Field",
+   "Instance"
+  ]
+ },
+ {
+  "id": "N0452",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 4,
+  "hint_topic": "Relation and attributes",
+  "garbled": false,
+  "question": "(course_id,sec_id,semester) ,Here the course_id,sec_id and semester are _______ and course is a",
+  "options": [
+   "Relations, Attribute",
+   "Attributes, Relation",
+   "Tuple, Relation",
+   "Tuple, Attributes"
+  ]
+ },
+ {
+  "id": "N0453",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 5,
+  "hint_topic": "Atomic domain",
+  "garbled": false,
+  "question": "A domain is atomic if elements of the domain are considered to be ________ units.",
+  "options": [
+   "Different",
+   "Indivisbile",
+   "Constant",
+   "Divisible"
+  ]
+ },
+ {
+  "id": "N0454",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 9,
+  "hint_topic": "Transaction definition",
+  "garbled": false,
+  "question": "A ________ consists of a sequence of query and/or update statements.",
+  "options": [
+   "Transaction",
+   "Commit",
+   "Rollback",
+   "Flashback"
+  ]
+ },
+ {
+  "id": "N0455",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 10,
+  "hint_topic": "Rollback on shutdown",
+  "garbled": false,
+  "question": "In case of any shut down during transaction before commit which of the following statement is done automatically?",
+  "options": [
+   "View",
+   "Commit",
+   "Rollback",
+   "Flashback"
+  ]
+ },
+ {
+  "id": "N0456",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 11,
+  "hint_topic": "SQL syntax error",
+  "garbled": false,
+  "question": "Select * from employee where dept_name=\"Comp Sci\"; In the SQL given above there is an error . Identify the error .",
+  "options": [
+   "Dept_name",
+   "Employee",
+   "\"Comp Sci\"",
+   "From"
+  ]
+ },
+ {
+  "id": "N0457",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 13,
+  "hint_topic": "Multivalued attribute",
+  "garbled": false,
+  "question": "Which of the following can be a multivalued attribute ?",
+  "options": [
+   "Phone_number",
+   "Name",
+   "Date_of_birth",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N0458",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 14,
+  "hint_topic": "ER vs relational",
+  "garbled": false,
+  "question": "Given the basic ER and relational models, which of the following is INCORRECT?",
+  "options": [
+   "An attribute of an entity can have more than one value",
+   "An attribute of an entity can be composite",
+   "In a row of a relational table, an attribute can have more than one value",
+   "In a row of a relational table, an attribute can have exactly one value or a NULL value"
+  ]
+ },
+ {
+  "id": "N0459",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 15,
+  "hint_topic": "Foreign key",
+  "garbled": false,
+  "question": "Key to represent relationship between tables is called",
+  "options": [
+   "Primary key",
+   "Secondary Key",
+   "Foreign Key",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N0460",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 16,
+  "hint_topic": "Key constraint",
+  "garbled": false,
+  "question": "A table on the many side of a one to many or many to many relationship must:",
+  "options": [
+   "Be in Second Normal Form (2NF)",
+   "Be in Third Normal Form (3NF)",
+   "Have a single attribute key",
+   "Have a composite key"
+  ]
+ },
+ {
+  "id": "N0461",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 17,
+  "hint_topic": "Normalization basis",
+  "garbled": false,
+  "question": "Which forms are based on the concept of functional dependency:",
+  "options": [
+   "1NF",
+   "2NF",
+   "3NF",
+   "4NF"
+  ]
+ },
+ {
+  "id": "N0462",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 18,
+  "hint_topic": "Transaction concept",
+  "garbled": false,
+  "question": "Consider money is transferred from (1)account-A to account-B and (2) account-B to account-A. Which of the following form a transaction ?",
+  "options": [
+   "Only 1",
+   "Only 2",
+   "Both 1 and 2 individually",
+   "Either 1 or 2"
+  ]
+ },
+ {
+  "id": "N0463",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 19,
+  "hint_topic": "Isolation property",
+  "garbled": false,
+  "question": "The database system must take special actions to ensure that transactions operate properly without interference from concurrently executing database statements. This property is referred to as",
+  "options": [
+   "Atomicity",
+   "Durability",
+   "Isolation",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N0491",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper_no": "III",
+  "no": 49,
+  "hint_topic": "OOP construction",
+  "garbled": false,
+  "question": "The construction of object-oriented software begins with the creation of",
+  "options": [
+   "design model",
+   "analysis model",
+   "code levels",
+   "both design and analysis model"
+  ]
+ },
+ {
+  "id": "N0932",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 18,
+  "hint_topic": "Pure OOP features",
+  "garbled": false,
+  "question": "Which of the following features does not belong to describe pure OOP?",
+  "options": [
+   "Classes must be used compulsorily",
+   "Inheritance",
+   "Function Overloading",
+   "Data may or may not be declared using object"
+  ]
+ },
+ {
+  "id": "N0933",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 19,
+  "hint_topic": "Class vs structure",
+  "garbled": false,
+  "question": "What is true about a class and a structure?",
+  "options": [
+   "A class contains both variables and functions but a structure can contain variables only.",
+   "The data items inside a structure are private by default but inside a class pubic by default.",
+   "A class and structure are not similar at all.",
+   "None of the above"
+  ]
+ },
+ {
+  "id": "N0934",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 20,
+  "hint_topic": "C++ default return type",
+  "garbled": false,
+  "question": "In C++, what is the default return value of the functions?",
+  "options": [
+   "float",
+   "int",
+   "char",
+   "void"
+  ]
+ },
+ {
+  "id": "N0935",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 21,
+  "hint_topic": "Destructor member access",
+  "garbled": false,
+  "question": "After invoking the destructor of an object",
+  "options": [
+   "The members of that object cannot be accessed",
+   "The members of that object can be accessed only if the object is const",
+   "The members of that object can be accessed without problem",
+   "All the previous answers are incorrect"
+  ]
+ },
+ {
+  "id": "N0936",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 22,
+  "hint_topic": "C++ sizeof array output",
+  "garbled": false,
+  "question": "What will be output if you will execute following c code? int main(){ char arr[20]=\"MysticRiver\"; cout<<sizeof(arr); return 0; }",
+  "options": [
+   "20",
+   "11",
+   "12",
+   "22"
+  ]
+ },
+ {
+  "id": "N0937",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 23,
+  "hint_topic": "Constructor types",
+  "garbled": false,
+  "question": "Which of the following is not a type of constructor?",
+  "options": [
+   "Copy constructor",
+   "Friend constructor",
+   "Default constructor",
+   "Parameterized constructor"
+  ]
+ },
+ {
+  "id": "N0938",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 24,
+  "hint_topic": "Reusability benefit of OOP",
+  "garbled": false,
+  "question": "Why is reusability a desirable feature?",
+  "options": [
+   "Reduces compilation time",
+   "Decreases testing time",
+   "Lower maintenance cost",
+   "none"
+  ]
+ },
+ {
+  "id": "N0939",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 25,
+  "hint_topic": "Protected inheritance compile",
+  "garbled": false,
+  "question": "What happens when we try to compile the class definition in following code snippet? Class Vehicle {}; class Car : protected Vehicle {};",
+  "options": [
+   "It will not compile because a class cannot be protectedly inherited from other class.",
+   "It will compile successfully.",
+   "It will not compile because class body of Car is not defined.",
+   "It will not compile because class body of Vehicle is not defined."
+  ]
+ },
+ {
+  "id": "N0940",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 26,
+  "hint_topic": "C++ enum value output",
+  "garbled": false,
+  "question": "What is the output of the below program? #include<iostream> using namespace std; int main() { enum {red, blue=5, GREEN}; cout<<red<<\" \"<<GREEN; }",
+  "options": [
+   "0 3",
+   "0 8",
+   "0 6",
+   "0 2"
+  ]
+ },
+ {
+  "id": "N0941",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 27,
+  "hint_topic": "String length function",
+  "garbled": false,
+  "question": "Which of the following is used to return the number of characters in a string?",
+  "options": [
+   "size()",
+   "length()",
+   "length",
+   "both (a) & (b)"
+  ]
+ }
+]

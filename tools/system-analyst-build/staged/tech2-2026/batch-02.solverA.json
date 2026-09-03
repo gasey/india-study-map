@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N0404",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Encapsulation and abstraction are the pair that overlap: both are about hiding — encapsulation binds data with the functions that operate on it and hides the data, abstraction hides the implementation detail and exposes only the interface, so in practice one is achieved through the other. Inheritance (reuse through an is-a hierarchy) and polymorphism (one interface, many forms) address different problems, so options (a), (b) and (d) each pair two unrelated mechanisms.",
+  "note": "\"Match each other\" is loose wording; the intended sense is which two concepts overlap in purpose."
+ },
+ {
+  "id": "N0405",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "An object's layout holds every non-static data member of the class plus every non-static data member inherited from its base classes, so the size accounts for inherited variables too. Option (a) is the classic near miss — it is correct only for a class with no base class; member functions and static members contribute nothing to sizeof, so (c) and (d) are wrong.",
+  "note": "Strictly sizeof can exceed the sum of member sizes because of padding/alignment and any vtable pointer."
+ },
+ {
+  "id": "N0406",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Every member function must be *declared* inside the class definition — only its definition may be moved outside using the scope resolution operator — so the claim that it need not be declared inside the class is the false one. That is exactly why (b) is true, and (d) is true because a class can grant another class friendship over its members.",
+  "note": "Option (a) is also arguably false (a pure virtual or never-called member function need not be defined), but (c) is unambiguously false."
+ },
+ {
+  "id": "N0407",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "In C++ a struct and a class are the same construct — both can hold data members, member functions, constructors and support inheritance — and differ only in the default access specifier (public for struct, private for class). A class is a type while an object is an instance of it, so the class/object and structure/object pairings are not similarities at all.",
+  "note": ""
+ },
+ {
+  "id": "N0408",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Name lookup starts in the innermost enclosing scope, so a locally visible function is found and called before the compiler ever considers a same-named function at global scope — the local candidate wins. Compilers do not rank functions by any \"priority\" and functions are not scheduled tasks, so (b) and (d) are nonsense distractors.",
+  "note": "The stem is loosely worded — it is really asking about scope-based name resolution rather than anything specific to abstract classes."
+ },
+ {
+  "id": "N0409",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "A static member function belongs to the class rather than to any object, has no this pointer and cannot be declared virtual, so it cannot participate in run-time dispatch on an object's type. Overloading member functions, overloading a predefined operator and overloading constructors are all ordinary compile-time polymorphism.",
+  "note": "Static member functions can themselves be overloaded, so the answer holds only for run-time polymorphism."
+ },
+ {
+  "id": "N0410",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 1,
+  "confidence": "low",
+  "explanation": "As printed, the discriminator is that overloading && and || silently destroys their built-in short-circuit evaluation and guaranteed left-to-right sequencing, so those overloads do not behave like the operator they imitate and are the two options meant to be rejected; += overloads cleanly and gives the same operator different meanings for different types, which is compile-time polymorphism. The weakness of the question is that overloading << for a user-defined type is the textbook example of exactly the same thing, so option (c) is defensible too.",
+  "note": "Two options are defensible — += and << are both legitimate polymorphism through operator overloading; only && and || are clearly poor choices."
+ },
+ {
+  "id": "N0411",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Because encapsulated data is reached only through the class's own member functions, the internal representation — including a data member's type — can be changed while the public interface stays the same, so client code need not change. Option (c) states the opposite, and (d) confuses accessors with type declarations: member functions can convert or expose values but cannot alter a member's declared type.",
+  "note": ""
+ },
+ {
+  "id": "N0412",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "A global variable sits outside every class, is reachable and writable from any function in the program, and so belongs to no encapsulated unit at all — which is why it violates encapsulation almost always. Local variables are the most tightly scoped thing in the language, and an array is just a data structure; public members are the near miss, but they are at least declared inside a class and deliberately exposed as part of its interface.",
+  "note": ""
+ },
+ {
+  "id": "N0413",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "low",
+  "explanation": "Handing a char* that points at the class's own character data to a non-member function lets outside code read and overwrite private state directly, bypassing the member functions that were supposed to be the only route to it — that is a straightforward breach of encapsulation. Option (d) makes the same point in a sweeping form that is too strong to be true (passing an address to another member function, or a pointer to unrelated data, breaks nothing), while function pointers and object arrays are neutral by themselves.",
+  "note": "Options (b) and (d) express the same idea at different scopes, so the intended key is genuinely ambiguous."
+ },
+ {
+  "id": "N0414",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Encapsulation restricts access to members through access specifiers, which discourages accidental misuse and so gives a degree of data security — but it is a language-level compile-time restriction, not a security mechanism: friend functions, pointer arithmetic and casts can all reach private data. So the honest answer is that security is ensured only to some extent, not purely.",
+  "note": ""
+ },
+ {
+  "id": "N0415",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "That is the point of abstraction: the user of a class works against a small, well-defined interface and never has to reason about the implementation behind it, which makes programming with it easier. Hiding complexity neither adds features nor improves them — the feature set is whatever the interface exposes — so (c) and (d) confuse convenience with capability.",
+  "note": ""
+ },
+ {
+  "id": "N0416",
+  "unit": "1",
+  "subtopic": "I/O streams and file handling in OOP",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "In the C++ I/O model the stream is the abstraction — a uniform logical device that the program reads from or writes to — while the actual physical device it is attached to (disk file, keyboard, screen, printer) is called the file. This uniformity is what lets the same insertion and extraction operators work on cout and on an ofstream; option (b) simply reverses the two terms.",
+  "note": ""
+ },
+ {
+  "id": "N0417",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "The protected specifier gives members exactly the intended behaviour: hidden from outside code like private, but still directly accessible in derived classes, so they are inherited usably. True private members are never accessible in a derived class, and C++ has no \"default\" access specifier keyword — the implicit access for a class is private — so (b) and (d) are not real options.",
+  "note": ""
+ },
+ {
+  "id": "N0418",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "The rules a constructor must obey are that it shares the class's name and declares no return type, not that it carries a body — a constructor can be declared without a definition (or defaulted/deleted), and the compiler-supplied default constructor is never written out at all, so \"must contain a definition body\" is the condition that is not necessary. Note the trap: an empty body {} is still a body, which is what makes this option look true at first glance.",
+  "note": "Option (d) is also not a necessary condition — arguments are optional — but it is phrased as a permission rather than a requirement, so (c) is the intended answer."
+ },
+ {
+  "id": "N0419",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "A constructor whose every parameter has a default value can be invoked with no arguments, so it doubles as the class's default constructor and the object is created with the default values supplied. The catch worth remembering is the opposite one: because the programmer declared a constructor, the compiler no longer generates an implicit default constructor — and if the parameters had had no defaults, creating the object argument-free would have failed.",
+  "note": ""
+ },
+ {
+  "id": "N0420",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Returning an object by value copies it out of the function's frame into a temporary that lives at the call site, because the local object is destroyed when the function exits — which is why a correctly written copy constructor matters for return-by-value. Option (b) is the trap: the object used inside the function goes out of scope and cannot be the one the caller receives.",
+  "note": "Modern compilers routinely elide the temporary (RVO/copy elision, mandatory in C++17 for prvalues), so the classical answer is a model of what happens rather than a guarantee."
+ },
+ {
+  "id": "N0421",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "All three statements are genuine differences: a reference must be bound to a valid object at initialisation so it cannot be null, it cannot afterwards be reseated to refer to a different object, and it is used directly with no * dereference operator. Since each holds, the combined option is the answer.",
+  "note": ""
+ },
+ {
+  "id": "N0422",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Platform independence is a property of a particular language's implementation — Java's bytecode and JVM, for instance — not an object-oriented concept; C++ is fully object-oriented and compiles to platform-specific machine code. Data binding, message passing and data hiding are all standard OOP concepts.",
+  "note": ""
+ },
+ {
+  "id": "N0423",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The step from the C structure to the class was to let functions live alongside the data they operate on, so member functions are the added feature; data members existed in structures already, and public access is a specifier rather than a new capability.",
+  "note": "True only against the C structure — a C++ struct can itself have member functions and static members, differing from a class only in default access."
+ },
+ {
+  "id": "N0424",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "A class may contain any mix of private, protected and public sections, in any order and repeated as often as wanted — the specifiers are not mutually exclusive, so all three can appear together. The other options are all true but incomplete, and the question asks which combination is possible in a single class.",
+  "note": ""
+ },
+ {
+  "id": "N0493",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "char(n) is a fixed-length string of exactly n characters — shorter values are blank-padded to n — whereas varchar(n) is a variable-length string storing only the characters actually supplied, up to a maximum of n. So the pair is fixed, variable.",
+  "note": ""
+ },
+ {
+  "id": "N0494",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "HAVING is applied after GROUP BY has formed the groups and the aggregate values have been computed, so it filters the result of the grouping — an additional filter on top of WHERE, which filters individual rows before grouping. GROUP BY only forms the groups and ORDER BY only sorts the output, neither filters.",
+  "note": ""
+ },
+ {
+  "id": "N0495",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Work done since the last COMMIT is still uncommitted, and ROLLBACK is the statement that discards it and restores the database to its state at that commit point. COMMIT would make the changes permanent instead of undoing them, and a view is unrelated.",
+  "note": "Oracle's FLASHBACK can recover from *committed* changes, but the question asks about work done after the last commit, which is ROLLBACK's job."
+ },
+ {
+  "id": "N0496",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "First normal form requires every attribute to be atomic and single-valued, so a composite attribute such as Address must be split into Street, City and Pin before the relation is in 1NF. Second and third normal form deal with functional dependencies on the key (partial and transitive dependencies), not with the internal structure of an attribute.",
+  "note": ""
+ },
+ {
+  "id": "N0497",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Recovery relies on write-ahead logging: every modification is first written as a log record (transaction id, data item, old value, new value) to the log before the change is applied to the database on disk, so undo and redo are possible after a crash. Hard drive and disk are storage media rather than the structure that records the modification, and a data mart is a warehousing concept.",
+  "note": ""
+ },
+ {
+  "id": "N0498",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Armstrong's axioms are exactly three — reflexivity (if Y is a subset of X then X determines Y), augmentation (if X determines Y then XZ determines YZ) and transitivity (X determines Y and Y determines Z gives X determines Z). Pseudotransitivity is a *derived* rule, provable from those three along with union and decomposition, so it is the odd one out.",
+  "note": ""
+ },
+ {
+  "id": "N0499",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A candidate key is a minimal super key: it identifies tuples uniquely and no proper subset of it retains that uniqueness. That minimality is the whole point — options (b), (c) and (d) only restate that the set is a super key, which every super key already is, and would make every super key a candidate key.",
+  "note": ""
+ },
+ {
+  "id": "N0500",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "varchar(20) stores only the characters supplied, so \"Avi\" occupies 3 character positions; char(20) is blank-padded to its declared width, so \"Reed\" occupies all 20 (4 characters plus 16 trailing blanks). Hence 3 and 20 — option (d) is the trap, since it ignores char's padding, and (b) reverses the two types.",
+  "note": "The stem's word \"spaces\" means character positions occupied, not blank characters — read literally, B would have 16 blanks."
+ },
+ {
+  "id": "N0501",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "In SQL's LIKE patterns the underscore matches exactly one character, so '___' matches strings of exactly three characters; appending % — which matches any substring including the empty one — gives '___%', matching strings of at least three characters. Hence exactly, then at least.",
+  "note": ""
+ }
+]

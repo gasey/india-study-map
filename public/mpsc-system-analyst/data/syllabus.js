@@ -19,7 +19,7 @@ window.SYLLABUS = {
   ],
   "syllabus_authority": {
     "general_english_and_general_studies": "The Mizoram Engineering Service (Competitive Examination) Regulations, 2013 - Gazette No. Ex-507/2013",
-    "technical_papers": "Informatics Officer syllabus of the Information & Communication Technology (ICT) Department, Govt. of Mizoram (published by MPSC as 'Syllabus for Informatics Officer Examination, 2018')"
+    "technical_papers": "Informatics Officer syllabus of the Information & Communication Technology (ICT) Department, Govt. of Mizoram, notification No. A-12038/68/2025-ICT dated 30 July 2026. Papers I and II both follow this document; the superseded 2018 syllabus is retained as TECH1_LEGACY and TECH2_LEGACY."
   },
   "scoring_note": "General English and General Studies are QUALIFYING ONLY - 50% of total marks is the qualifying mark. They earn no merit. Merit is decided by Technical Papers I + II + III (600 marks) plus the Personal Interview.",
   "papers": [
@@ -399,12 +399,23 @@ window.SYLLABUS = {
           "title": "Hardware & Networking Technologies",
           "marks": 40,
           "subtopics": [
-            "Basic Computer System", "Basic Networking",
-            "Network Devices - Switches, Router, Firewall, etc.", "TCP/IP",
-            "IOS and Security Device Manager", "IP Routing", "Spanning Tree Protocol",
-            "Security", "Wireless Technologies", "Wide Area Networks", "Internetworking",
-            "Sub-netting", "Managing a Cisco Internetwork", "EIGRP and OSPF",
-            "Virtual LANs", "Network Address Translation", "IPv6"
+            "Basic Computer System",
+            "Basic Networking",
+            "Network Devices - Switches, Router, Firewall, etc.",
+            "TCP/IP",
+            "IOS and Security Device Manager",
+            "IP Routing",
+            "Spanning Tree Protocol",
+            "Security",
+            "Wireless Technologies",
+            "Wide Area Networks",
+            "Internetworking",
+            "Sub-netting",
+            "Managing a Cisco Internetwork",
+            "EIGRP and OSPF",
+            "Virtual LANs",
+            "Network Address Translation",
+            "IPv6"
           ]
         },
         {
@@ -417,15 +428,24 @@ window.SYLLABUS = {
             "Software Development Approach: Incremental Development model",
             "Software Development Approach: Prototyping model",
             "Software Development Approach: Rapid Application Development model",
-            "SDLC Methodologies: Waterfall model", "SDLC Methodologies: Iterative model",
-            "SDLC Methodologies: Spiral model", "SDLC Methodologies: V-shaped model",
-            "SDLC Methodologies: Agile model", "Software Design Principles: Introduction",
-            "System Models: Data-flow models", "System Models: Semantic data models",
-            "System Models: Object models", "System Models: Inheritance models",
-            "System Models: Object aggregation", "System Models: Service usage models",
-            "System Models: Data Dictionaries", "Software Design: The design process",
-            "Software Design: Design Methods", "Software Design: Design description",
-            "Software Design: Design strategies", "Software Design: Design quality",
+            "SDLC Methodologies: Waterfall model",
+            "SDLC Methodologies: Iterative model",
+            "SDLC Methodologies: Spiral model",
+            "SDLC Methodologies: V-shaped model",
+            "SDLC Methodologies: Agile model",
+            "Software Design Principles: Introduction",
+            "System Models: Data-flow models",
+            "System Models: Semantic data models",
+            "System Models: Object models",
+            "System Models: Inheritance models",
+            "System Models: Object aggregation",
+            "System Models: Service usage models",
+            "System Models: Data Dictionaries",
+            "Software Design: The design process",
+            "Software Design: Design Methods",
+            "Software Design: Design description",
+            "Software Design: Design strategies",
+            "Software Design: Design quality",
             "Architectural Design: System structuring",
             "Architectural Design: The repository model",
             "Architectural Design: The client-server model",
@@ -435,22 +455,32 @@ window.SYLLABUS = {
             "Architectural Design: Domain-specific architectures",
             "OOAD: Overview of Object Oriented Systems Development",
             "OOAD: Object Oriented Systems Development Life Cycle",
-            "OOAD: Object Oriented Methodologies", "OOAD: Unified Modelling Language (UML)",
+            "OOAD: Object Oriented Methodologies",
+            "OOAD: Unified Modelling Language (UML)",
             "OOAD: Object Oriented Analysis - Identifying Use-Cases",
             "OOAD: Object Analysis - Classification",
             "OOAD: Identifying Relationships, Attributes and Methods",
             "OOAD: Object Oriented Design Process and Design Axioms",
-            "OOAD: Designing Classes", "OOAD: Access Layer", "OOAD: View Layer",
-            "Agile Software Development: Lifecycle", "Agile Software Development: Methods",
+            "OOAD: Designing Classes",
+            "OOAD: Access Layer",
+            "OOAD: View Layer",
+            "Agile Software Development: Lifecycle",
+            "Agile Software Development: Methods",
             "Agile: Adaptive Software Development (ASD)",
-            "Agile: Dynamic System Development Method (DSDM)", "Agile: SCRUM",
-            "Agile: Extreme Programming (XP)", "Configuration Management: Introduction",
+            "Agile: Dynamic System Development Method (DSDM)",
+            "Agile: SCRUM",
+            "Agile: Extreme Programming (XP)",
+            "Configuration Management: Introduction",
             "Configuration Management: Change Management",
             "Version and Release Management: Version identification",
             "Version and Release Management: Release management",
             "Version and Release Management: Version management tools",
-            "Software Maintenance", "The maintenance process", "System documentation",
-            "Maintenance costs", "Maintainability measurement", "Software Reengineering",
+            "Software Maintenance",
+            "The maintenance process",
+            "System documentation",
+            "Maintenance costs",
+            "Maintainability measurement",
+            "Software Reengineering",
             "Software Refactoring"
           ]
         },
@@ -459,19 +489,34 @@ window.SYLLABUS = {
           "title": "Database Management System",
           "marks": 30,
           "subtopics": [
-            "Introduction to Database", "The Relational Model and Normalization",
-            "Data Modeling with ER Model", "SQL for Database Construction",
-            "Managing Multiuser Databases", "XML and ADO.NET",
-            "Database Processing for BIS", "The Database Development Process",
-            "ER Model and Business Rules", "Physical Database Design",
-            "The Client-Server Database", "Data Warehousing", "Distributed Databases",
-            "Object-Oriented Database", "Introduction to SQL",
-            "Database Design Using Normalization", "Data Models into Database Designs",
-            "Database Redesign", "Managing Databases", "ODBC, OLE DB, ADO and ASP",
-            "JDBC, Java Server Pages and MySQL", "The Database Environment",
-            "Modeling Data in the Organization", "Logical Database Design",
-            "Advanced SQL", "The Internet Database Environment",
-            "Data and Database Administration", "Object-Oriented Data Modeling"
+            "Introduction to Database",
+            "The Relational Model and Normalization",
+            "Data Modeling with ER Model",
+            "SQL for Database Construction",
+            "Managing Multiuser Databases",
+            "XML and ADO.NET",
+            "Database Processing for BIS",
+            "The Database Development Process",
+            "ER Model and Business Rules",
+            "Physical Database Design",
+            "The Client-Server Database",
+            "Data Warehousing",
+            "Distributed Databases",
+            "Object-Oriented Database",
+            "Introduction to SQL",
+            "Database Design Using Normalization",
+            "Data Models into Database Designs",
+            "Database Redesign",
+            "Managing Databases",
+            "ODBC, OLE DB, ADO and ASP",
+            "JDBC, Java Server Pages and MySQL",
+            "The Database Environment",
+            "Modeling Data in the Organization",
+            "Logical Database Design",
+            "Advanced SQL",
+            "The Internet Database Environment",
+            "Data and Database Administration",
+            "Object-Oriented Data Modeling"
           ]
         },
         {
@@ -479,25 +524,42 @@ window.SYLLABUS = {
           "title": "Software Testing",
           "marks": 30,
           "subtopics": [
-            "Software Testing Techniques: Introduction", "Software Testing Fundamentals",
-            "Testing Principles", "White Box Testing", "Control Structure Testing",
-            "Black Box Testing", "Boundary Value Analysis", "Testing GUIs",
+            "Software Testing Techniques: Introduction",
+            "Software Testing Fundamentals",
+            "Testing Principles",
+            "White Box Testing",
+            "Control Structure Testing",
+            "Black Box Testing",
+            "Boundary Value Analysis",
+            "Testing GUIs",
             "Testing Documentation and Help Facilities",
             "Software Testing Assurance: Introduction",
             "Verification and Validation: Validation Testing, Validation Test Criteria",
-            "Test Plan and Test Documentation", "Test Strategies: Top-Down Testing",
-            "Test Strategies: Bottom-Up Testing", "Test Strategies: Thread testing",
-            "Test Strategies: Stress testing", "Test Strategies: Back-to-back testing",
+            "Test Plan and Test Documentation",
+            "Test Strategies: Top-Down Testing",
+            "Test Strategies: Bottom-Up Testing",
+            "Test Strategies: Thread testing",
+            "Test Strategies: Stress testing",
+            "Test Strategies: Back-to-back testing",
             "Testing methods and tools: Testing through reviews",
             "Black-box testing (Functional testing)",
-            "White box testing (glass-box testing)", "Testing software changes",
-            "Additional requirements in testing OO Systems", "System Testing",
-            "Acceptance Testing", "Regression testing",
-            "Metrics Collection, Computation and Evaluation", "Test and QA plan",
+            "White box testing (glass-box testing)",
+            "Testing software changes",
+            "Additional requirements in testing OO Systems",
+            "System Testing",
+            "Acceptance Testing",
+            "Regression testing",
+            "Metrics Collection, Computation and Evaluation",
+            "Test and QA plan",
             "Managing Testing Functions",
             "Software Testing Strategies: Organizing for software testing",
-            "Unit Testing and Unit Test Considerations", "Top-down Integration",
-            "Bottom-up Integration", "Six Sigma", "Automated Testing", "CMMI", "Metrics",
+            "Unit Testing and Unit Test Considerations",
+            "Top-down Integration",
+            "Bottom-up Integration",
+            "Six Sigma",
+            "Automated Testing",
+            "CMMI",
+            "Metrics",
             "Testing Estimation"
           ]
         }
@@ -505,14 +567,88 @@ window.SYLLABUS = {
     },
     {
       "id": "TECH2",
-      "name": "Technical Paper II - E-Governance",
+      "name": "Technical Subject Paper II",
+      "marks": 200,
+      "questions": 50,
+      "marks_per_question": 2,
+      "duration_hours": 3,
+      "type": "MCQ (100 marks) + conventional/essay (100 marks)",
+      "counts_for_merit": true,
+      "authority": "ICT Department Informatics Officer syllabus, 30 July 2026",
+      "coverage_note": "Units 2 (Web Technologies) and 4 (Cloud Computing) are new in the 30 July 2026 syllabus and carry 100 of this paper's 200 marks between them. No past MPSC paper tests them: a sweep of all 712 questions extracted from the seven 2010-2023 MES/ILM/JE sittings and all 1764 already in this bank found 5 basic HTML/ASP questions and zero on cloud computing. The unit breakdown here is complete, but the question bank behind these two units is not, and no past paper can fill it.",
+      "units": [
+        {
+          "no": "1",
+          "title": "Object Oriented Programming",
+          "marks": 40,
+          "subtopics": [
+            "OOP concepts, applications and the OOP process",
+            "Classes, objects, member functions and memory allocation",
+            "Constructors and destructors",
+            "Polymorphism, function and operator overloading",
+            "Inheritance, virtual functions and pointers to objects",
+            "I/O streams and file handling in OOP",
+            "Exception handling and strings"
+          ]
+        },
+        {
+          "no": "2",
+          "title": "Web Technologies",
+          "marks": 60,
+          "subtopics": [
+            "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+            "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+            "CSS, Flexbox, Grid and responsive web design",
+            "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+            "Frontend frameworks: components, routing, state management and API integration",
+            "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+            "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+            "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+            "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+            "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law"
+          ]
+        },
+        {
+          "no": "3",
+          "title": "Database Management Systems",
+          "marks": 60,
+          "subtopics": [
+            "Database system concepts, architecture, interfaces and data independence",
+            "Data models and the relational model: keys, tuples, domains and relational algebra",
+            "Entity-Relationship modelling",
+            "SQL and basic query statements",
+            "Database design, functional dependencies and normal forms",
+            "Query processing and optimisation",
+            "Transaction processing, schedules and recoverability",
+            "Concurrency control, locking and time stamping"
+          ]
+        },
+        {
+          "no": "4",
+          "title": "Cloud Computing",
+          "marks": 40,
+          "subtopics": [
+            "Distributed, edge and cloud computing; NIST cloud architecture",
+            "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+            "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+            "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+            "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+            "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+            "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TECH2_LEGACY",
+      "name": "Technical Paper II — E-Governance (superseded syllabus)",
       "marks": 200,
       "questions": 100,
       "marks_per_question": 2,
       "duration_hours": 2,
       "type": "Objective (MCQ)",
-      "counts_for_merit": true,
-      "authority": "Informatics Officer syllabus, ICT Department",
+      "counts_for_merit": false,
+      "authority": "Informatics Officer syllabus of the ICT Department, Govt. of Mizoram, as published by MPSC for the Informatics Officer Examination 2018 — SUPERSEDED for Paper II by the notification of 30 July 2026, which replaced E-Governance with Object Oriented Programming, Web Technologies, Database Management Systems and Cloud Computing. Kept because it is a coherent body of e-governance material worth revising, not because it is still examined.",
       "units": [
         {
           "no": "1",
@@ -859,7 +995,8 @@ window.SYLLABUS = {
             "Attributing impact to the intervention"
           ]
         }
-      ]
+      ],
+      "legacy": true
     },
     {
       "id": "TECH3",
@@ -1266,7 +1403,47 @@ window.SYLLABUS = {
       ]
     },
     {
-      "for": "Technical Paper II — E-Governance",
+      "for": "Technical Paper II — OOP, Web Technologies, DBMS and Cloud",
+      "items": [
+        {
+          "t": "Object Oriented Programming with C++",
+          "by": "E. Balagurusamy, McGraw Hill",
+          "note": "Unit 1. The syllabus is written against C++ specifically — class specifiers, the limitations of operator overloading, pure virtual functions, ifstream/ofstream file modes — and this book's chapter order matches the unit's clause order closely enough to use as the unit's spine."
+        },
+        {
+          "t": "Fundamentals of Database Systems",
+          "by": "Elmasri and Navathe, Pearson",
+          "note": "Unit 3, and the closest thing this paper has to a source text: the unit's wording tracks this book's contents page almost phrase for phrase, including 'schemas and instances', data independence, query processing and optimisation, recoverability and serializability, and time stamping."
+        },
+        {
+          "t": "Database System Concepts",
+          "by": "Silberschatz, Korth and Sudarshan, McGraw Hill",
+          "note": "Unit 3, alternative. Stronger than Elmasri on concurrency control and recovery, which is the unit's last two clauses."
+        },
+        {
+          "t": "MDN Web Docs",
+          "by": "Mozilla — developer.mozilla.org",
+          "note": "Unit 2. Free, and the reference the unit's own vocabulary comes from (semantic elements, Canvas, SVG, Flexbox, Grid, the DOM, Fetch, accessibility standards). No single Indian exam textbook covers this unit's 60 marks — it spans frontend, backend, DevOps and web security — so read it topic by topic against the unit's subtopic list rather than looking for one book."
+        },
+        {
+          "t": "OWASP Top 10",
+          "by": "OWASP Foundation — owasp.org/Top10",
+          "note": "Unit 2, web security. Free, and named explicitly in the syllabus text alongside CSRF, XSS and SQL injection prevention, so it is a primary source rather than a commentary."
+        },
+        {
+          "t": "Cloud Computing: Concepts, Technology & Architecture",
+          "by": "Thomas Erl, Pearson",
+          "note": "Unit 4. Covers the service and deployment models, virtualization, and the shared-responsibility and SLA material the unit ends on."
+        },
+        {
+          "t": "NIST Cloud Computing Reference Architecture (SP 500-292) and The NIST Definition of Cloud Computing (SP 800-145)",
+          "by": "National Institute of Standards and Technology",
+          "note": "Unit 4. Free, short, and cited by name in the syllabus ('NIST Cloud Architecture'), which makes the five essential characteristics and the IaaS/PaaS/SaaS definitions examinable in their original wording."
+        }
+      ]
+    },
+    {
+      "for": "Technical Paper II — E-Governance (superseded syllabus)",
       "items": [
         {
           "t": "E-Governance: Concepts and Case Studies",
@@ -1283,7 +1460,8 @@ window.SYLLABUS = {
           "by": "Government of India",
           "note": "Free. The unit list here — GPR, DPR and RFP, PPP models, change management, capacity building, impact assessment — maps closely onto this curriculum, which is the closest thing to a source text for the paper."
         }
-      ]
+      ],
+      "note": "This group is kept for TECH2_LEGACY. E-Governance was removed from Technical Paper II by the notification of 30 July 2026 — do not buy these for the current exam."
     },
     {
       "for": "Technical Paper III Section B — Aptitude",

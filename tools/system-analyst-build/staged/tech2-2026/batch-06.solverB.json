@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N1201",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Logical data independence is defined exactly as the ability to change the conceptual (logical) schema without altering the external schemas or application programs. Physical data independence is the near-miss distractor: that is freedom to change the internal/storage schema without touching the conceptual schema.",
+  "note": ""
+ },
+ {
+  "id": "N1202",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "The participation (existence-dependency) constraint states whether every entity of a set must take part in a relationship — total participation makes the entity's existence depend on that relationship, partial participation does not. Primary key constraint concerns uniqueness of identifying attributes, not existence dependency.",
+  "note": ""
+ },
+ {
+  "id": "N1203",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Adding a column needs the DDL form ALTER TABLE <table> ADD [COLUMN] <name> <type>, so 'alter table employee add column address varchar(30);' is the only well-formed statement. Option (b) omits the TABLE keyword, and (c)/(d) use UPDATE, which is DML for changing row data and can never add a column.",
+  "note": ""
+ },
+ {
+  "id": "N1204",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "An UPDATE with no WHERE clause has no row filter, so the SET applies to every row in the table — all employees get address 'Zarkawt'. SQL is set-oriented and has no notion of a 'current record' in a plain UPDATE, which is why (c) is a trap carried over from record-at-a-time file processing.",
+  "note": ""
+ },
+ {
+  "id": "N1205",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Atomicity is the first of the ACID properties a transaction must satisfy: the transaction executes entirely or not at all. Composite attribute belongs to ER modelling and cost-based optimisation to query processing, neither of which is a transaction property.",
+  "note": ""
+ },
+ {
+  "id": "N1206",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A cascadeless (avoiding-cascading-rollback) schedule is defined by every transaction reading only values written by already-committed transactions, which removes dirty reads and so removes cascading aborts. Strict schedule is the classic near-miss: it is the stronger condition that a transaction may neither read nor write an item until the writer has committed or aborted.",
+  "note": ""
+ },
+ {
+  "id": "N1207",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "In Wait-die the older (smaller timestamp) requester waits and the younger one is aborted — 'dies' — and restarted later with its original timestamp, exactly as the stem states. Wound-wait is the mirror rule: the older transaction pre-empts (wounds) the younger holder and the younger transaction is the one that waits.",
+  "note": ""
+ },
+ {
+  "id": "N1208",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Horizontal fragmentation splits a relation by rows, each fragment being a subset of tuples (a selection); vertical fragmentation splits it by columns via projection, and 'replication'/'diagonal' fragmentation are not standard schemes. Filed off-syllabus because fragmentation is a distributed-database topic and the 2026 DBMS unit stops at concurrency control.",
+  "note": ""
+ },
+ {
+  "id": "N1209",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Only (c) supplies a value for the primary key EMPLOYEE_ID and leaves a nullable column null: the string '1000' is implicitly converted to the NUMBER column and LAST_NAME is not declared NOT NULL. (a) puts NULL into the primary key and (b) omits it entirely, both violating the key constraint, while (d) lists the columns in an order that sends 1000 to FIRST_NAME and 'Smith' to the numeric EMPLOYEE_ID.",
+  "note": "Option (c) relies on implicit string-to-number conversion, which Oracle performs but stricter engines may reject."
+ },
+ {
+  "id": "N1210",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 1,
+  "confidence": "low",
+  "explanation": "UPDATE is a Data Manipulation Language statement, as against CREATE (DDL) and COMMIT (transaction control). The question is defective, however, because DELETE in option (c) is equally a DML statement, so two of the four options satisfy a singular 'Identify DML statement?'.",
+  "note": "Both UPDATE (b) and DELETE (c) are DML; the question admits two correct answers as printed."
+ },
+ {
+  "id": "N1211",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "DROP TABLE is refused while another table's FOREIGN KEY still references the table, since dropping it would leave dangling references; the fix is to drop the child constraint first or use a CASCADE CONSTRAINTS clause. A table's own primary or composite key never blocks its own DROP, and 'Local Key' is not an SQL constraint at all.",
+  "note": ""
+ },
+ {
+  "id": "N1212",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Shared (read) locks are mutually compatible, so a set of transactions holding only shared locks can never block one another — a deadlock requires at least one transaction to request an exclusive (write) lock. 'Binary' is a lock model rather than a mode requested on an item, and 'Complete' is not a lock type.",
+  "note": ""
+ },
+ {
+  "id": "N1213",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "COMMIT terminates a transaction successfully and makes its updates durable; ROLLBACK is its counterpart for unsuccessful termination. DONE, END and QUIT are not SQL transaction-control statements (END is only an accepted synonym for COMMIT in a few dialects, not the standard answer here).",
+  "note": ""
+ },
+ {
+  "id": "N1214",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "DROP DATABASE database_name removes an entire database and its schema objects; DROP is the DDL verb for destroying objects, while DELETE is DML and only removes rows from within a table. Option (d) omits the DATABASE keyword, so it is not valid syntax.",
+  "note": ""
+ },
+ {
+  "id": "N1215",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A checkpoint flushes log and buffer state to disk and records a marker, so that after a crash recovery need only scan the log from the last checkpoint instead of from the beginning. Security, concurrency and authorization are handled by wholly separate DBMS mechanisms.",
+  "note": ""
+ },
+ {
+  "id": "N1216",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 0,
+  "confidence": "low",
+  "explanation": "2NF is the normal form whose whole subject is dependence on part of a composite key — it requires full functional dependency on the entire key — so of the four options 2NF is the one the described situation bears on. The stem is loosely worded: it describes a dependency that breaks a normal form rather than one that satisfies it, and if the dependent attribute is itself part of a candidate key the strict violation is of BCNF, not 2NF.",
+  "note": "Stem is ambiguous: it describes a violating dependency but asks which form the relation 'is in', so 1NF and BCNF are also arguable readings."
+ },
+ {
+  "id": "N1217",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "An inner join returns only tuples that satisfy the join predicate, discarding unmatched rows from both relations. Left and right outer joins preserve the unmatched rows of one side (padding with NULLs) and a full outer join preserves the unmatched rows of both, so none of those ignores them.",
+  "note": ""
+ },
+ {
+  "id": "N1218",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Deferred update (NO-UNDO/REDO), immediate update (UNDO/REDO) and shadow paging are all single-site crash-recovery techniques, whereas two-phase commit is an atomic-commit protocol that coordinates a distributed transaction across sites — it is the odd one out. It does participate in distributed recovery, which is why the question is a little loose, but it is not itself a recovery technique.",
+  "note": "OCR has appended the paper's 'Directions (Questions 66)' instruction text to the end of option (d); read option (d) as just 'Shadow paging'."
+ },
+ {
+  "id": "N1040",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The destructor is invoked automatically when an object's lifetime ends — when a local object goes out of scope, or when delete is called on a dynamically allocated one. The constructor is the trap here: it runs at the other end of the lifetime, when the object is created.",
+  "note": ""
+ },
+ {
+  "id": "N1041",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The declaration int fun(int=0, int=0); gives both parameters default values, so fun(5) binds x=5 and takes y=0 from the default, returning 5+0 = 5. The defaults are legally supplied in the declaration and repeated nowhere in the definition, so there is no compile error; had both been omitted the call would have returned 0+0 = 0.",
+  "note": ""
+ },
+ {
+  "id": "N1042",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "C++ forbids overloading the conditional operator ?:, the member-access operator ., the scope resolution ::, .* and sizeof, so both (b) and (c) are non-overloadable and the combined option is correct. The stream insertion/extraction operators >> and << are the standard example of operators that are overloaded, so (a) is out.",
+  "note": ""
+ },
+ {
+  "id": "N1043",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "With private inheritance both the public and the protected members of the base class become private members of the derived class (the base's private members remain inaccessible either way), so statements (a) and (b) are both true and the combined option is correct. Note the print/OCR defect described below.",
+  "note": "OCR merged printed options (c) and (d) into one string, so the array holds only three entries; the answer is the '(c) both (a) and (b)' part of that merged entry."
+ },
+ {
+  "id": "N1044",
+  "unit": "1",
+  "subtopic": "I/O streams and file handling in OOP",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "eof() is a stream state function that returns true once the end-of-file flag has been set, i.e. after a read has hit the end of the file. It says nothing about characters, words or the middle of a file, and is strictly a post-read test — which is why testing it before reading is the usual bug.",
+  "note": ""
+ },
+ {
+  "id": "N1045",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "A default constructor is by definition one callable with no arguments, so it takes no argument (or has defaults for all of them) and is what the compiler synthesises when no constructor is declared. A constructor with one argument is a parameterised/conversion constructor, not the default one.",
+  "note": ""
+ },
+ {
+  "id": "N1046",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "In multilevel inheritance A -> B -> C the intermediate class B is derived from A and simultaneously serves as the base of C, so it acts as both — hence the combined option. Note the print/OCR defect described below.",
+  "note": "OCR merged printed options (c) and (d) into one string, so the array holds only three entries; the answer is the '(c) Both (a) and (b)' part of that merged entry."
+ },
+ {
+  "id": "N1047",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Ordinary access rules still apply when taking the address of a member, so a member that is to be reached through a pointer from outside the class must be public; private and protected members are not accessible to non-member code. The wording is loose in that code inside the class or a friend can legitimately form a pointer to a private member, but 'public' is the intended answer.",
+  "note": ""
+ },
+ {
+  "id": "N1048",
+  "unit": "1",
+  "subtopic": "I/O streams and file handling in OOP",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "cin is the standard input stream, the object from which a program extracts data with >>. cout is standard output and cerr is the unbuffered standard error stream, both of which the program writes to rather than reads from.",
+  "note": ""
+ },
+ {
+  "id": "N1049",
+  "unit": "1",
+  "subtopic": "I/O streams and file handling in OOP",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "ios::noreplace makes open() fail if the file already exists, protecting an existing file from being overwritten. Its mirror image ios::nocreate is the classic trap: that mode makes open() fail if the file does not already exist.",
+  "note": "ios::noreplace and ios::nocreate were old-style (pre-standard) Turbo/AT&T stream modes and are not part of standard C++ today."
+ },
+ {
+  "id": "N1050",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "In pass-by-reference the reference parameter is bound to the caller's object, so its address is passed implicitly and the function operates on the original — changes are visible to the caller. Pass-by-value instead copies the object (invoking the copy constructor), so the callee gets its own duplicate and never the address.",
+  "note": "OCR merged printed options (c) and (d) into one string, so the array holds only three entries; this does not affect the correct answer, option (b)."
+ },
+ {
+  "id": "N1051",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "javac compiles Java source into platform-independent byte code stored in .class files, which the JVM then interprets or JIT-compiles to native machine code at run time. Machine and assembly code are what a native compiler emits, and 'JVM code' is not the standard term. Filed off-syllabus: this is Java language-implementation trivia, not an object-oriented programming principle.",
+  "note": ""
+ }
+]

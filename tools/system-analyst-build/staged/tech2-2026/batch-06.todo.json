@@ -1,0 +1,449 @@
+[
+ {
+  "id": "N1201",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 48,
+  "hint_topic": "Logical data independence",
+  "garbled": false,
+  "question": "The capacity to change the conceptual schema without having to change the external schemas is",
+  "options": [
+   "Schema data independence",
+   "Logical data independence",
+   "Physical data independence",
+   "Model data independence"
+  ]
+ },
+ {
+  "id": "N1202",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 49,
+  "hint_topic": "Participation constraint",
+  "garbled": false,
+  "question": "The constraint that specifies whether the existence of an entity depends on its being related to another entity via relationship type.",
+  "options": [
+   "Participation constraint",
+   "Primary key constraint",
+   "Entity types",
+   "Data model"
+  ]
+ },
+ {
+  "id": "N1203",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 50,
+  "hint_topic": "ALTER TABLE ADD",
+  "garbled": false,
+  "question": "The following SQL command is used for adding new column in a table called employee.",
+  "options": [
+   "alter table employee add column address varchar(30);",
+   "alter employee add column address varchar(30);",
+   "update table employee add column address varchar(30);",
+   "update employee add column address varchar(30);"
+  ]
+ },
+ {
+  "id": "N1204",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 51,
+  "hint_topic": "UPDATE all records",
+  "garbled": false,
+  "question": "SQL command update employee set address='Zarkawt' would result in",
+  "options": [
+   "Changing the column address of the first record in the employee table to Zarkawt.",
+   "Changing the column address of the last record in the employee table to Zarkawt.",
+   "Changing the column address of the current record in the employee table to Zarkawt.",
+   "Changing the column address of all the records in the employee table to Zarkawt."
+  ]
+ },
+ {
+  "id": "N1205",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 52,
+  "hint_topic": "Transaction atomicity",
+  "garbled": false,
+  "question": "One of the desirable properties of transaction processing is",
+  "options": [
+   "Composite attribute",
+   "Cost based query optimization",
+   "Atomicity",
+   "Recurrence"
+  ]
+ },
+ {
+  "id": "N1206",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 53,
+  "hint_topic": "Cascadeless schedule",
+  "garbled": false,
+  "question": "If every transaction in the schedule reads only items that were written by committed transactions, then the schedule is said to be",
+  "options": [
+   "Cascadeless schedule",
+   "Partial order",
+   "Strict schedule",
+   "Unstrict schedule"
+  ]
+ },
+ {
+  "id": "N1207",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 54,
+  "hint_topic": "Wait-die timestamp",
+  "garbled": false,
+  "question": "If timestamp (TS) TS(Ti)<TS(Tj), then (Ti older than Tj) Ti is allowed to wait; otherwise (Ti younger than Tj) abort Ti (Ti dies) and restart it later with the same timestamp. The rules mentioned above belong to which scheme.",
+  "options": [
+   "Wait-die",
+   "Wound-wait",
+   "Cautious waiting",
+   "Wait-for graph"
+  ]
+ },
+ {
+  "id": "N1208",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 55,
+  "hint_topic": "Horizontal fragmentation",
+  "garbled": false,
+  "question": "It distributes a relation into sets of tuples (rows)",
+  "options": [
+   "Vertical fragmentation",
+   "Horizontal fragmentation",
+   "Replication fragmentation",
+   "Diagonal fragmentation"
+  ]
+ },
+ {
+  "id": "N1209",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 56,
+  "hint_topic": "INSERT INTO SQL",
+  "garbled": false,
+  "question": "Consider the structure of the EMPLOYEES table: EMPLOYEE_ID NUMBER Primary Key FIRST_NAME VARCHAR2(25) LAST_NAME VARCHAR2(25) Which of the statement insert row into the table EMPLOYEE?",
+  "options": [
+   "INSERT INTO employees VALUES ( NULL, 'John','Smith');",
+   "INSERT INTO employees( first_name, last_name) VALUES('John','Smith');",
+   "INSERT INTO employees VALUES ('1000','John',NULL);",
+   "INSERT INTO employees(first_name,last_name, employee_id) VALUES (1000, 'John','Smith');"
+  ]
+ },
+ {
+  "id": "N1210",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 57,
+  "hint_topic": "UPDATE DML statement",
+  "garbled": false,
+  "question": "Identify DML statement?",
+  "options": [
+   "CREATE",
+   "UPDATE",
+   "DELETE",
+   "COMMIT"
+  ]
+ },
+ {
+  "id": "N1211",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 58,
+  "hint_topic": "Foreign key constraint",
+  "garbled": false,
+  "question": "Drop Table cannot be used to drop a table referenced by a …………… constraint.",
+  "options": [
+   "Local Key",
+   "Primary Key",
+   "Composite Key",
+   "Foreign Key"
+  ]
+ },
+ {
+  "id": "N1212",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 59,
+  "hint_topic": "Exclusive lock deadlock",
+  "garbled": false,
+  "question": "Deadlocks are possible only when one of the transactions wants to obtain a(n) ____ lock on a data item.",
+  "options": [
+   "binary",
+   "exclusive",
+   "shared",
+   "Complete"
+  ]
+ },
+ {
+  "id": "N1213",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 60,
+  "hint_topic": "COMMIT transaction",
+  "garbled": false,
+  "question": "The statement which is used to end a successful transaction is",
+  "options": [
+   "COMMIT",
+   "DONE",
+   "END",
+   "QUIT"
+  ]
+ },
+ {
+  "id": "N1214",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 61,
+  "hint_topic": "DROP DATABASE SQL",
+  "garbled": false,
+  "question": "To delete a database which of the following command is used",
+  "options": [
+   "delete database database_name",
+   "Delete database_name",
+   "drop database database_name",
+   "drop database_name"
+  ]
+ },
+ {
+  "id": "N1215",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 62,
+  "hint_topic": "Checkpoint recovery",
+  "garbled": false,
+  "question": "Checkpoints are used for the purpose of",
+  "options": [
+   "Recovery measures",
+   "Security measures",
+   "Concurrency measures",
+   "Authorization measures"
+  ]
+ },
+ {
+  "id": "N1216",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 63,
+  "hint_topic": "Composite key 2NF",
+  "garbled": false,
+  "question": "If an attribute of a composite key is dependent on an attribute of other composite key, then we say that a relation is in",
+  "options": [
+   "2NF",
+   "3NF",
+   "BCNF",
+   "1NF"
+  ]
+ },
+ {
+  "id": "N1217",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 64,
+  "hint_topic": "Inner join non-matching",
+  "garbled": false,
+  "question": "If two relations R and S are joined, then the non matching tuples of both R and S are ignored in",
+  "options": [
+   "left outer join",
+   "right outer join",
+   "full outer join",
+   "inner join"
+  ]
+ },
+ {
+  "id": "N1218",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 65,
+  "hint_topic": "Recovery techniques DBMS",
+  "garbled": false,
+  "question": "Which of the following is not a recovery technique?",
+  "options": [
+   "Deferred update",
+   "Immediate update",
+   "Two-phase commit",
+   "Shadow paging Directions (Questions 66): Choose the correct alternative that will continue the same pattern and replace the question mark in the given series."
+  ]
+ },
+ {
+  "id": "N1040",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 18,
+  "hint_topic": "Destructor scope",
+  "garbled": false,
+  "question": "Which of the following gets called when an object goes out of scope?",
+  "options": [
+   "Constructor",
+   "Destructor",
+   "main",
+   "virtual function"
+  ]
+ },
+ {
+  "id": "N1041",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 19,
+  "hint_topic": "Default parameter function",
+  "garbled": false,
+  "question": "What is the output of following program code? #include <iostream> using namespace std; int fun(int=0, int=0); int main() { cout << fun(5); return 0; } int fun(int x, int y) { return (x+y); }",
+  "options": [
+   "Compile error",
+   "5",
+   "0",
+   "10"
+  ]
+ },
+ {
+  "id": "N1042",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 20,
+  "hint_topic": "Operator overloading",
+  "garbled": false,
+  "question": "Which of the following operators cannot be overloaded?",
+  "options": [
+   ">>",
+   "? :",
+   ".",
+   "Both (b) and (c)"
+  ]
+ },
+ {
+  "id": "N1043",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 21,
+  "hint_topic": "Private inheritance member",
+  "garbled": false,
+  "question": "When a base class is privately inherited by the derived class, then",
+  "options": [
+   "protected members of the base class become private members of derived class",
+   "public members of the base class become private members of derived class",
+   "both (a) and (b) (d) only (b)"
+  ]
+ },
+ {
+  "id": "N1044",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 22,
+  "hint_topic": "EOF file stream",
+  "garbled": false,
+  "question": "What is use of eof()?",
+  "options": [
+   "Returns true if a file open for reading has reached the next character.",
+   "Returns true if a file open for reading has reached the next word.",
+   "Returns true if a file open for reading has reached the end.",
+   "Returns true if a file open for reading has reached the middle."
+  ]
+ },
+ {
+  "id": "N1045",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 24,
+  "hint_topic": "Default constructor",
+  "garbled": false,
+  "question": "Default constructor has",
+  "options": [
+   "Single argument",
+   "Multiple arguments",
+   "No argument",
+   "Cannot say"
+  ]
+ },
+ {
+  "id": "N1046",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 25,
+  "hint_topic": "Multi-level inheritance",
+  "garbled": false,
+  "question": "In multi-level inheritance, the middle class acts as",
+  "options": [
+   "Base class",
+   "Derived class",
+   "Both (a) and (b) (d) None of these"
+  ]
+ },
+ {
+  "id": "N1047",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 26,
+  "hint_topic": "Class member pointer",
+  "garbled": false,
+  "question": "To have a pointer to class member it must be declared as",
+  "options": [
+   "Public",
+   "Private",
+   "Protected",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N1048",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 27,
+  "hint_topic": "Input stream cin",
+  "garbled": false,
+  "question": "From which stream does the program receive data?",
+  "options": [
+   "Cin",
+   "Cout",
+   "Cerr",
+   "All of these"
+  ]
+ },
+ {
+  "id": "N1049",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 28,
+  "hint_topic": "File open mode noreplace",
+  "garbled": false,
+  "question": "In which file mode open() fails if the file already exists?",
+  "options": [
+   "ios:: trunk",
+   "ios::nocreate",
+   "ios::write",
+   "ios::noreplace"
+  ]
+ },
+ {
+  "id": "N1050",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 29,
+  "hint_topic": "Pass-by-reference method",
+  "garbled": false,
+  "question": "In which method is address of object implicitly passed to the called function?",
+  "options": [
+   "Pass-by-value",
+   "Pass-by-reference",
+   "Both (a) and (b) (d) None of these"
+  ]
+ },
+ {
+  "id": "N1051",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper_no": "II",
+  "no": 30,
+  "hint_topic": "Java bytecode compiler",
+  "garbled": false,
+  "question": "The Java compiler translates source code into",
+  "options": [
+   "Machine code",
+   "Assembly code",
+   "Byte code",
+   "JVM code"
+  ]
+ }
+]

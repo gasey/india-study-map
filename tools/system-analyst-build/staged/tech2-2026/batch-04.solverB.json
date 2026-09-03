@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N0157",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Inheritance lets a derived class take over the data members and member functions of an existing base class, so the same code is reused instead of rewritten. Encapsulation and abstraction control visibility and detail-hiding, and polymorphism gives one interface many behaviours, but only inheritance is the reuse mechanism.",
+  "note": ""
+ },
+ {
+  "id": "N0158",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Passing by reference creates no new object at all, only an alias to the caller's object, so no destructor runs when the function returns. The trap is (a): that is what happens with pass by value, where a temporary copy is constructed and its destructor fires on exit from the function.",
+  "note": ""
+ },
+ {
+  "id": "N0159",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "An abstract class declares at least one pure virtual function, leaving it incomplete, so the compiler refuses to instantiate it; it can only be used as a base class or through a base pointer/reference. Parent, anonymous and nested classes can all be instantiated normally.",
+  "note": "OCR left a stray '!' after option (b); it does not change the option's meaning."
+ },
+ {
+  "id": "N0160",
+  "unit": "1",
+  "subtopic": "Exception handling and strings",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Several catch handlers for related exception types can be collapsed into one, either by catching a common base class or by using catch(...), so (b) is the only true statement. (a) is false because a try block needs only one handler, (c) is false because a try block may have many handlers, and (d) is false because multiple catch blocks are precisely what a single try block carries.",
+  "note": "Stem is truncated by OCR to 'Multiple catch blocks ;' so the answer has to be reached by eliminating the three plainly false options."
+ },
+ {
+  "id": "N0161",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 3,
+  "confidence": "low",
+  "explanation": "Inheritance hierarchies are exercised mainly through polymorphism: a base-class pointer or reference is made to behave as the appropriate derived type by overriding virtual functions, which is why the two features are always taught together. Abstraction and operator overloading are clearly unrelated to implementing inheritance.",
+  "note": "Ambiguous as printed: 'dynamic binding' is the runtime mechanism behind virtual dispatch and is arguably as good an answer as polymorphism, of which it is a part."
+ },
+ {
+  "id": "N0162",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "low",
+  "explanation": "In the usual textbook taxonomy a dynamic object is one the programmer creates with new and destroys with delete, so it exists only for the particular period between those two calls, unlike static and external objects that live for the whole program. Static objects are ruled out here because they last the entire run.",
+  "note": "Stem is a one-line fragment; 'automatic objects', which live only for the duration of their enclosing block, is a defensible reading of 'exists for a particular period'."
+ },
+ {
+  "id": "N0163",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A static object declared inside a block is visible only within that block, exactly like an automatic object, but it is created once and survives until the program ends, exactly like an external (global) object. Automatic objects lose both scope and lifetime at the end of the block, and external objects have file/global scope, so neither combination fits.",
+  "note": ""
+ },
+ {
+  "id": "N0164",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Constructors cannot be virtual: virtual dispatch needs a fully built object with its vtable pointer already set, which is precisely what the constructor is still doing, so (a) is the statement that is not a characteristic of a constructor. The other three are all true, and note the contrast with destructors, which may and often should be virtual.",
+  "note": ""
+ },
+ {
+  "id": "N0165",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Dynamic (late) binding is the link between inheritance and polymorphism: the call to a virtual function through a base-class pointer is resolved at run time from the actual derived object, which is what makes runtime polymorphism over an inheritance hierarchy possible. Message passing, abstraction and encapsulation are separate OOP concepts that do not require an inheritance relationship.",
+  "note": "The stem's leading blank was lost by OCR and option (d) carries trailing scan noise; neither affects the answer."
+ },
+ {
+  "id": "N0195",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "An attribute is the named property that describes a characteristic of an entity, such as name or date_of_birth for an EMPLOYEE entity. 'Column' is the physical table-level counterpart in the relational implementation rather than the ER-model term the question asks for.",
+  "note": ""
+ },
+ {
+  "id": "N0196",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "The hierarchical model organises records as a tree of parent-child links in which every child segment has exactly one parent. The network model is the near-miss: it generalises this to a graph so a member record can have several owners, which is why it is not a tree.",
+  "note": ""
+ },
+ {
+  "id": "N0197",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "ORDER BY sorts the result set on one or more columns, ASC by default and DESC when asked. GROUP BY collapses rows into groups and HAVING filters those groups; neither controls the ordering of the output.",
+  "note": ""
+ },
+ {
+  "id": "N0204",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "5NF, also called project-join normal form, removes join dependencies: a relation is in 5NF if every non-trivial join dependency in it is implied by its candidate keys. Multivalued dependency is the classic trap because that is 4NF, and domain-key dependency belongs to DKNF.",
+  "note": ""
+ },
+ {
+  "id": "N0205",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A deadlock is exactly this circular wait: each transaction holds a lock the other needs and none can proceed until one is rolled back or the wait-for graph is broken. The other three terms are not standard DBMS concurrency-control terminology.",
+  "note": ""
+ },
+ {
+  "id": "N0206",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Normalization is defined as the process of decomposing relation schemas so that the design stores information with minimal redundancy and avoids insert, update and delete anomalies. Assertions and integrity constraints police correctness rather than redundancy.",
+  "note": ""
+ },
+ {
+  "id": "N0214",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "X -> Y means each X value fixes exactly one Y value, and Y -> X means each Y value fixes exactly one X value; holding both directions makes the mapping a bijection, i.e. 1:1. If only X -> Y held, many X values could share one Y, giving M:1.",
+  "note": ""
+ },
+ {
+  "id": "N0215",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "This is Armstrong's augmentation rule: if a -> B holds then adding the same attribute set y to both sides preserves the dependency, so ya -> yB holds, which is option (a). a -> yB does not follow, since nothing in a -> B says a determines y: take R(a, B, y) with a -> B satisfied but two tuples sharing an a value and differing in y.",
+  "note": "Badly OCR-damaged: the stem's dependency symbols are lost ('If a # holds' = 'If a -> B holds'), and printed options (c) and (d) have been merged into a single third array entry, so the array has only three elements."
+ },
+ {
+  "id": "N0216",
+  "unit": "3",
+  "subtopic": "Query processing and optimisation",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Selection distributes over all three set operations: sigma_p(E1 U E2) = sigma_p(E1) U sigma_p(E2), and the same identity holds for intersection and for set difference, which is why the optimiser can push a selection down through any of them. Note that projection does not distribute over intersection or difference, which is the usual source of confusion here.",
+  "note": ""
+ },
+ {
+  "id": "N0221",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "2NF requires that the relation be in 1NF and that every non-prime attribute be fully functionally dependent on the whole of every candidate key, i.e. no partial functional dependency on part of a composite key survives. Removing multivalued dependencies is 4NF, and saying no FDs exist at all is meaningless since key dependencies always exist.",
+  "note": ""
+ },
+ {
+  "id": "N0222",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Total (mandatory) participation is drawn as a double line joining the entity set to the relationship diamond, meaning every entity in that set must take part in at least one instance of the relationship. A single line denotes partial participation, which is the distractor to watch.",
+  "note": ""
+ },
+ {
+  "id": "N0223",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 0,
+  "confidence": "low",
+  "explanation": "Only timestamp ordering gives both properties: it produces conflict-serializable schedules and no transaction ever waits for another (a conflicting request is simply aborted and restarted), so a circular wait cannot form. Two-phase locking guarantees conflict serializability but transactions do block on locks, so 2PL can deadlock, which rules out II.",
+  "note": "OCR has degraded options (a) and (b) to nearly identical strings ('lonly' / 'Ionly') and option (d) reads 'Neither I nor III'; the answer index assumes the printed order (a) I only, (b) II only, so verify against the original paper."
+ },
+ {
+  "id": "N0224",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Enforcing atomicity, consistency, isolation and durability requires logging, locking and recovery machinery, so ACID compliance increases the complexity of the system rather than decreasing it; that makes (b) the false statement. The other three are true: ACID does cost performance, does keep data consistent, and does let the DBMS run many transactions safely at once.",
+  "note": ""
+ },
+ {
+  "id": "N0231",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Reducing redundancy is the core design guideline, because duplicated data is what creates insert, update and delete anomalies. The other three options each state the opposite of good practice: a design must be unambiguous, unrelated data belongs in separate tables, and entities must have attributes.",
+  "note": ""
+ },
+ {
+  "id": "N0232",
+  "unit": "3",
+  "subtopic": "Query processing and optimisation",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Query optimization is precisely the step that enumerates candidate evaluation plans and uses cost estimates to choose a good one. Query processing is the wider pipeline of parsing, translation, optimization and evaluation of which optimization is one stage, which is the near-miss here.",
+  "note": ""
+ },
+ {
+  "id": "N0233",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Standard texts introduce tuple relational calculus first and then present domain relational calculus as the second form, in which the variables range over individual attribute domains rather than over whole tuples. Tuple relational calculus is therefore the first form, not the second.",
+  "note": ""
+ },
+ {
+  "id": "N0240",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The two files the DBMS maintains and consults while running are the data dictionary (the system catalogue holding metadata about schemas, users and constraints) and the transaction log (the record of changes used for recovery). Query languages, DML and utilities are components or interfaces, not files.",
+  "note": ""
+ },
+ {
+  "id": "N0241",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "By De Morgan's law, P1 AND P2 is equivalent to NOT(NOT P1 OR NOT P2), which is what option (b) spells out once the OCR marks are read as negations. Option (a) is that same expression with the outer negation dropped, which inverts the meaning.",
+  "note": "OCR has rendered the negation sign inconsistently as '-' and '=', so the options must be read as (a) (-P1 OR -P2) and (b) -(-P1 OR -P2)."
+ },
+ {
+  "id": "N0248",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "IN tests a value against an explicitly written list of literals, as in WHERE dept IN ('Sales','HR','IT'). BETWEEN compares against a range's two endpoints and LIKE matches a character pattern, so neither takes a list of literals.",
+  "note": "Option (d) carries trailing OCR noise after the word IN."
+ },
+ {
+  "id": "N0249",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "A key has to distinguish rows, and since last name and pin code are identical for everyone in this list they carry no discriminating power, either singly or combined as in option (c). Only first name adds variation, so the compound key first name plus last name is the one useful choice offered.",
+  "note": "Option (d) begins with a stray '_' from the scan."
+ },
+ {
+  "id": "N0250",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "In the ER notation of standard texts the ISA link from a subclass up to its superclass is drawn with a hollow (unfilled) arrow-head, and that is the symbol for specialization/generalization. Double lines are reserved for total participation and total generalization, not for the specialization link itself.",
+  "note": "Notation varies between textbooks: Navathe-style diagrams use a circle with a subset symbol rather than an arrow-head, so this question only has an answer within the arrow-head convention its options assume."
+ }
+]

@@ -1,0 +1,188 @@
+[
+ {
+  "id": "N0418",
+  "batch": "batch-02",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "no": 63,
+  "question": "Which among the following is not a necessary condition for constructors?",
+  "options": [
+   "Its name must be same as that of class",
+   "It must not have any return type",
+   "It must contain a definition body",
+   "It can contains arguments"
+  ],
+  "answer_disagreement": true,
+  "unit_disagreement": false,
+  "A": {
+   "unit": "1",
+   "subtopic": "Constructors and destructors",
+   "answerIndex": 2,
+   "confidence": "medium",
+   "explanation": "The rules a constructor must obey are that it shares the class's name and declares no return type, not that it carries a body — a constructor can be declared without a definition (or defaulted/deleted), and the compiler-supplied default constructor is never written out at all, so \"must contain a definition body\" is the condition that is not necessary. Note the trap: an empty body {} is still a body, which is what makes this option look true at first glance.",
+   "note": "Option (d) is also not a necessary condition — arguments are optional — but it is phrased as a permission rather than a requirement, so (c) is the intended answer."
+  },
+  "B": {
+   "unit": "1",
+   "subtopic": "Constructors and destructors",
+   "answerIndex": 3,
+   "confidence": "medium",
+   "explanation": "Arguments are optional for a constructor: a default constructor takes none, so 'it can contain arguments' is a permission, not a requirement. The other three are genuine requirements, since the constructor's name must match the class, it must declare no return type (not even void), and it needs a body to execute.",
+   "note": "Option (c) is the near miss: an explicitly defaulted or deleted constructor has no user-written body."
+  }
+ },
+ {
+  "id": "N0156",
+  "batch": "batch-03",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "no": 61,
+  "question": "This is the type of inheritance in which the implementation of a superclass is incomplete.",
+  "options": [
+   "Partial inheritance",
+   "Multiple inheritances",
+   "Virtual inheritance",
+   "Hybrid inheritance"
+  ],
+  "answer_disagreement": true,
+  "unit_disagreement": false,
+  "A": {
+   "unit": "1",
+   "subtopic": "Inheritance, virtual functions and pointers to objects",
+   "answerIndex": 0,
+   "confidence": "medium",
+   "explanation": "By elimination, 'partial inheritance' is the only label left for a base whose implementation is unfinished: multiple, virtual and hybrid inheritance all have precise and different meanings (several direct bases, a shared virtual base to resolve the diamond problem, and a mixture of inheritance forms respectively). The concept the paper is pointing at is an abstract base class containing pure virtual functions, which the derived class must complete before it can be instantiated.",
+   "note": "'Partial inheritance' is not standard C++ terminology; the answer rests on eliminating the three options that do have settled meanings."
+  },
+  "B": {
+   "unit": "1",
+   "subtopic": "Inheritance, virtual functions and pointers to objects",
+   "answerIndex": 2,
+   "confidence": "medium",
+   "explanation": "Of the four, only virtual inheritance is a real C++ term, and it is the one the question is fishing for: the base declares virtual (typically pure virtual) functions and leaves them unimplemented, so the superclass is abstract and incomplete until a derived class supplies the bodies. 'Partial inheritance' is not a C++ concept.",
+   "note": "Loose terminology: in standard C++ 'virtual inheritance' means a virtual base class in a diamond, not an abstract base with an incomplete implementation."
+  }
+ },
+ {
+  "id": "N1216",
+  "batch": "batch-06",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "no": 63,
+  "question": "If an attribute of a composite key is dependent on an attribute of other composite key, then we say that a relation is in",
+  "options": [
+   "2NF",
+   "3NF",
+   "BCNF",
+   "1NF"
+  ],
+  "answer_disagreement": true,
+  "unit_disagreement": false,
+  "A": {
+   "unit": "3",
+   "subtopic": "Database design, functional dependencies and normal forms",
+   "answerIndex": 1,
+   "confidence": "medium",
+   "explanation": "Such a dependency breaks BCNF but not 3NF, so 3NF is the highest form the relation is guaranteed to be in. Working: take R(A,B,C) with AB→C and C→B, giving candidate keys AB and AC; here C (an attribute of key AC) determines B (an attribute of key AB). C is not a superkey, so BCNF fails, but B is a prime attribute, so the 3NF condition 'X is a superkey or A is prime' is still satisfied — and no non-prime attribute is partially dependent on part of a key, so 2NF holds too but is only the weaker claim.",
+   "note": "The stem is loosely worded and some circulated answer keys give 2NF; 2NF is true but not the strongest correct answer."
+  },
+  "B": {
+   "unit": "3",
+   "subtopic": "Database design, functional dependencies and normal forms",
+   "answerIndex": 0,
+   "confidence": "low",
+   "explanation": "2NF is the normal form whose whole subject is dependence on part of a composite key — it requires full functional dependency on the entire key — so of the four options 2NF is the one the described situation bears on. The stem is loosely worded: it describes a dependency that breaks a normal form rather than one that satisfies it, and if the dependent attribute is itself part of a candidate key the strict violation is of BCNF, not 2NF.",
+   "note": "Stem is ambiguous: it describes a violating dependency but asks which form the relation 'is in', so 1NF and BCNF are also arguable readings."
+  }
+ },
+ {
+  "id": "N0352",
+  "batch": "batch-07",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "no": 25,
+  "question": "Pick out the correct statement.",
+  "options": [
+   "A derived class's constructor cannot explicitly invokes its base class's constructor",
+   "A derived class's destructor cannot invoke its base class's destructor",
+   "A derived class's destructor can invoke its base class's destructor",
+   "None of these"
+  ],
+  "answer_disagreement": true,
+  "unit_disagreement": false,
+  "A": {
+   "unit": "1",
+   "subtopic": "Constructors and destructors",
+   "answerIndex": 1,
+   "confidence": "medium",
+   "explanation": "Destructors are chained automatically — the derived destructor body runs, then the compiler invokes the base destructor — so a derived destructor does not (and should not) invoke its base destructor the way a constructor invokes a base constructor. The first option is the false statement that traps people: a derived constructor absolutely can invoke its base constructor explicitly, through the member-initialiser list, e.g. Derived() : Base(x) {}.",
+   "note": "Strictly, an explicit Base::~Base() call is syntactically legal but would destroy the subobject twice; the intended point is that base destruction is automatic."
+  },
+  "B": {
+   "unit": "1",
+   "subtopic": "Constructors and destructors",
+   "answerIndex": 2,
+   "confidence": "medium",
+   "explanation": "Destruction runs in reverse order of construction: when a derived object is destroyed its own destructor body runs and then the base class destructor is invoked automatically, so a derived destructor does reach its base destructor (and it can also be named explicitly as `Base::~Base()`), making (b) false. Option (a) is false as well — a derived constructor explicitly invokes a base constructor through its member-initialiser list, e.g. `Derived() : Base(x) {}`.",
+   "note": "Loose wording: for the base destructor the invocation is normally implicit and compiler-generated rather than something the derived destructor 'calls'."
+  }
+ },
+ {
+  "id": "N0354",
+  "batch": "batch-07",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "no": 27,
+  "question": "Operator overloading is",
+  "options": [
+   "making c++ operator works with objects",
+   "giving new meaning to existing operator",
+   "making new operator",
+   "adding operation to the existing operators"
+  ],
+  "answer_disagreement": true,
+  "unit_disagreement": false,
+  "A": {
+   "unit": "1",
+   "subtopic": "Polymorphism, function and operator overloading",
+   "answerIndex": 1,
+   "confidence": "low",
+   "explanation": "Operator overloading is the mechanism of giving an existing C++ operator an additional, user-defined meaning for a class type, which is also why 'making a new operator' is wrong — you cannot invent a new operator token such as ** in C++, only reuse the ones the language already defines. The trouble is that 'making C++ operators work with objects' describes the same mechanism just as accurately, so two of the four options are defensible.",
+   "note": "Two options are effectively both correct; the answer chosen is the definitional one and some keys give 'making c++ operator works with objects' instead."
+  },
+  "B": {
+   "unit": "1",
+   "subtopic": "Polymorphism, function and operator overloading",
+   "answerIndex": 0,
+   "confidence": "medium",
+   "explanation": "Operator overloading extends built-in operators so that they work with objects of user-defined classes — you cannot invent a brand-new operator token (ruling out (c)) and you cannot change how an operator behaves on built-in types. Option (b) is close but imprecise: the operator gains an *additional* meaning for class types while its original meaning for built-ins is untouched.",
+   "note": "Options (a) and (b) are two phrasings of the same idea; (a) is chosen as the more accurate one since the built-in meaning is not replaced."
+  }
+ },
+ {
+  "id": "N0967",
+  "batch": "batch-09",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "no": 3,
+  "question": "__________ component gives an idea about all the entities available in relationship.",
+  "options": [
+   "Multivalued Attribute",
+   "Total Participation",
+   "Relationship",
+   "Derived Attribute"
+  ],
+  "answer_disagreement": true,
+  "unit_disagreement": false,
+  "A": {
+   "unit": "3",
+   "subtopic": "Entity-Relationship modelling",
+   "answerIndex": 2,
+   "confidence": "medium",
+   "explanation": "The relationship (relationship set) is the ER construct that names the participating entity sets, so reading it tells you which entities take part. Total participation is only a constraint on how many entities of one set must participate, and the two attribute options describe properties of a single entity, not the entities involved.",
+   "note": "The stem is loosely worded; \"relationship set\" is what is meant by option (c)."
+  },
+  "B": {
+   "unit": "3",
+   "subtopic": "Entity-Relationship modelling",
+   "answerIndex": 1,
+   "confidence": "medium",
+   "explanation": "Total participation, drawn as a double line between an entity set and a relationship, states that every entity in that set takes part in the relationship — that is what tells you about all the entities available in the relationship. Multivalued and derived attributes describe attribute structure, not participation.",
+   "note": "Loosely worded stem; a reader could also defend 'Relationship' as the component that lists the participating entity sets."
+  }
+ }
+]

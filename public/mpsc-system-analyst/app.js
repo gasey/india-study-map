@@ -150,7 +150,8 @@ const shortPaper = pid => ({
   GE: 'General English', GS: 'General Studies',
   TECH1: 'Technical I · IT & Communication (2026 syllabus)',
   TECH1_LEGACY: 'Technical I · Informatics Officer (legacy syllabus)',
-  TECH2: 'Technical II · E-Governance',
+  TECH2: 'Technical II · OOP, Web, DBMS & Cloud (2026 syllabus)',
+  TECH2_LEGACY: 'Technical II · E-Governance (legacy syllabus)',
   TECH3: 'Technical III · Project Mgmt',
   OFFSYL: 'Off-syllabus · not examined',
 }[pid] || pid);
@@ -534,6 +535,7 @@ VIEWS.syllabus = (el) => {
       ${SYL.reading.map(g => `
         <div class="read-grp">
           <h5>${esc(g.for)}</h5>
+          ${g.note ? `<p class="read-n" style="margin:-.2rem 0 .5rem">${esc(g.note)}</p>` : ''}
           ${g.items.map(b => `
             <div class="read">
               <div class="read-t">${esc(b.t)}</div>
@@ -1230,9 +1232,11 @@ VIEWS.papers = (el) => {
   el.innerHTML = `
     <h1>Past papers</h1>
     <p class="muted">Real past papers, grouped by sitting. The Nov-2024 Informatics Officer sitting predates the
-    30 July 2026 syllabus change — practice it under "Technical I · Informatics Officer (legacy syllabus)" in
-    Study/Practice, not as a preview of the current Technical Paper I. Answers for that sitting come from MPSC's
-    published final answer key.</p>
+    30 July 2026 syllabus change — most of it practices under "Technical I · Informatics Officer (legacy syllabus)"
+    in Study/Practice, not as a preview of the current Technical Paper I. Answers for that sitting come from MPSC's
+    published final answer key. Its database questions are the exception: the 2026 syllabus moved DBMS out of
+    Paper I into Paper II, so they now sit under "Technical II · OOP, Web, DBMS &amp; Cloud (2026 syllabus)" and
+    are still current.</p>
     <div class="grid g2 mt">
       ${keys.map(k => {
         const qs = groups[k].slice().sort((a, b) => a.no - b.no);
@@ -1546,10 +1550,22 @@ VIEWS.mock = (el, opts) => {
       ${merit.map(p => {
         const n = ANSWERABLE.filter(q => q.paper === p.id).length;
         const want = p.questions || 100;
+        /* A paper can hold MORE than enough questions and still be unable to
+           simulate itself, if they all sit in some of its units. TECH2 is the
+           live case: 54 questions is over the 50 it needs, but Web Technologies
+           and Cloud Computing are 100 of its 200 marks and hold none, so a
+           weighted sample silently draws every question from the other two
+           units. Without this line the card reads as a faithful mock of the
+           whole paper. Reported in marks, because marks are what the sampler
+           weights by. */
+        const dead = p.units.filter(u => !ANSWERABLE.some(q => q.paper === p.id && String(q.unit) === String(u.no)));
+        const deadMarks = dead.reduce((m, u) => m + u.marks, 0);
         return `<div class="card">
           <h3 style="margin:0">${esc(shortPaper(p.id))}</h3>
           <p class="dim" style="margin:.35rem 0 .7rem">${want} questions · ${p.marks} marks · ${p.duration_hours || 2} hours<br>
-          bank holds ${n}${n < want ? ` <span style="color:var(--warn)">(short of ${want} — sampled with what exists)</span>` : ''}</p>
+          bank holds ${n}${n < want ? ` <span style="color:var(--warn)">(short of ${want} — sampled with what exists)</span>` : ''}
+          ${deadMarks ? `<br><span style="color:var(--warn)">covers only ${p.marks - deadMarks} of ${p.marks} marks — no questions yet for
+            ${dead.slice(0, 3).map(u => esc(u.title)).join(', ')}${dead.length > 3 ? ` and ${dead.length - 3} more unit${dead.length - 3 > 1 ? 's' : ''}` : ''}</span>` : ''}</p>
           <button class="btn pri sm" data-mock="${p.id}">Start ${p.duration_hours || 2}-hour mock</button>
         </div>`;
       }).join('')}

@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N0157",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Inheritance lets a derived class reuse the data members and member functions already written in its base class, which is the textbook mechanism for reusability in OOP. Encapsulation and abstraction control visibility and detail-hiding, and polymorphism gives one interface many behaviours, but none of them reuse existing code.",
+  "note": ""
+ },
+ {
+  "id": "N0158",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Passing by reference binds the parameter to the caller's existing object instead of constructing a copy, so no extra object is created and therefore no destructor runs when the function returns. The trap is option (a), which is what happens on pass by value, where the copy's destructor fires at end of function.",
+  "note": "The stem is loose: the original object is of course still destroyed later in the caller's scope; the intended point is that the reference parameter itself causes no destructor call."
+ },
+ {
+  "id": "N0159",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "A class containing at least one pure virtual function is abstract, and the compiler forbids instantiating it because part of its interface has no implementation; it can only be used through pointers or references to derived objects. Parent, anonymous and nested classes are all ordinary instantiable classes.",
+  "note": "Option (b) carries a stray OCR character ('Abstract class !'); the wording is otherwise intact and the question is answerable."
+ },
+ {
+  "id": "N0160",
+  "unit": "1",
+  "subtopic": "Exception handling and strings",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Several catch handlers on one try block are optional and can be collapsed into a single handler, either catch(...) or a handler taking a common base-class exception, so option (b) is the only true statement. Options (a), (c) and (d) all assert the opposite of the rule that one try block may have one or many catch blocks.",
+  "note": "The stem is truncated to 'Multiple catch blocks ;' in the scan, so the sentence has to be completed by each option."
+ },
+ {
+  "id": "N0161",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "Standard OOP texts pair the two directly: polymorphism, letting objects at different levels of a hierarchy share one external interface, is what makes an inheritance hierarchy useful, and is described as being extensively used in implementing inheritance. Dynamic binding is the run-time mechanism polymorphism relies on rather than the feature itself, and operator overloading is only one narrow form of polymorphism.",
+  "note": "Dynamic binding is a defensible second reading, since virtual dispatch is how a compiler actually implements the inheritance hierarchy."
+ },
+ {
+  "id": "N0162",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Dynamic objects are allocated with new and destroyed with delete at points the programmer chooses, so they exist only for a particular period decided at run time; static and external objects instead survive for the whole program run. Automatic objects are the near miss, but their period is fixed by block entry and exit rather than being a chosen one.",
+  "note": "The blank naming the object type was lost in the scan, and 'exists for a particular period' could also be read as describing an automatic object."
+ },
+ {
+  "id": "N0163",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A static object declared inside a function is visible only within that block, exactly like an automatic object, but it is created once and lives until the program ends, exactly like an external object. Automatic objects fail the lifetime half of the definition and external objects fail the scope half.",
+  "note": "The blank before 'object' was lost in the scan, so the stem reads 'A object is an object which...'."
+ },
+ {
+  "id": "N0164",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Constructors cannot be declared virtual: the virtual mechanism needs an already-constructed object whose vtable pointer is set, and the exact type is known statically at the point of construction anyway, so option (a) is the non-characteristic. The classic trap is that destructors can and often should be virtual, while the other three statements are genuine constructor properties, including the fact that a constructor has no address you can take.",
+  "note": ""
+ },
+ {
+  "id": "N0165",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Dynamic (late) binding means the code executed for a call is chosen at run time from the actual object's type, which requires both an inheritance hierarchy and a polymorphic virtual interface; that is the standard textbook sentence this stem is taken from. Message passing, abstraction and encapsulation are separate concepts and none of them depend on run-time type resolution.",
+  "note": "OCR noise: the leading blank in the stem is missing and option (d) has trailing garbage ('Encapsulation a - = ee ae ~iRi='); the answer is unaffected."
+ },
+ {
+  "id": "N0195",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "In ER modelling an attribute is precisely the property that describes a characteristic of an entity, such as name or date of birth. 'Column' is the tempting distractor but it is the physical relational-table term for where an attribute is stored, not the ER concept.",
+  "note": ""
+ },
+ {
+  "id": "N0196",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "The hierarchical model organises records as a tree of parent-child links, where every child segment has exactly one parent. The network model is the near miss: it generalises the same idea to a graph so a child may have several parents, which is why it is not a tree.",
+  "note": ""
+ },
+ {
+  "id": "N0197",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "ORDER BY is the clause that sorts the result set on one or more columns, ASC by default and DESC when asked. GROUP BY aggregates rows rather than sorting them, and HAVING filters those groups.",
+  "note": ""
+ },
+ {
+  "id": "N0204",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "5NF, also called project-join normal form, removes join dependencies: a relation is in 5NF when every non-trivial join dependency is implied by its candidate keys, so it cannot be losslessly decomposed further. Multivalued dependency is the classic trap here because that is what 4NF addresses, and plain functional dependency belongs to 2NF/3NF/BCNF.",
+  "note": ""
+ },
+ {
+  "id": "N0205",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A cycle of transactions each waiting for a data item locked by another is the definition of a deadlock, and no transaction in the cycle can ever proceed without intervention. The other three terms are not standard DBMS concurrency terminology.",
+  "note": ""
+ },
+ {
+  "id": "N0206",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Normalization is exactly the process of decomposing schemas, guided by functional dependencies, so that information is stored without unnecessary redundancy and the update, insert and delete anomalies redundancy causes disappear. Assertions and integrity constraints police correctness rather than redundancy.",
+  "note": ""
+ },
+ {
+  "id": "N0214",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "X to Y means each X value determines exactly one Y value, and Y to X means each Y value determines exactly one X value; holding both directions at once makes the mapping a bijection, that is 1:1. If only X to Y held, the relationship would be many-to-one.",
+  "note": "The '>' characters in the stem are OCR for the functional-dependency arrow."
+ },
+ {
+  "id": "N0215",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 0,
+  "confidence": "low",
+  "explanation": "This is Armstrong's augmentation axiom: if alpha to beta holds, then adding the same attribute set gamma to both sides preserves it, giving gamma-alpha to gamma-beta, which is what option (a) 'ya > yB' encodes. Option (b), alpha to gamma-beta, does not follow in general, since alpha need not determine gamma. The question is badly damaged: the dependency in the stem was scanned as 'a #' so the premise is unreadable, and printed options (c) and (d) were merged into a single array entry.",
+  "note": "Damaged beyond safe use: the stem's functional dependency is lost, and options (c) and (d) collapsed into one string, leaving only three array entries for four printed options."
+ },
+ {
+  "id": "N0216",
+  "unit": "3",
+  "subtopic": "Query processing and optimisation",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Among the standard equivalence rules, selection distributes over all three set operations, union, intersection and set difference, because a selection is a row-wise predicate and applying it before or after the set operation yields the same tuples. Projection, by contrast, distributes only over union, which is the distinction this question is testing.",
+  "note": ""
+ },
+ {
+  "id": "N0221",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "2NF requires that no non-prime attribute be functionally dependent on only part of a composite candidate key, that is, no partial functional dependencies exist. Option (b) is the giveaway trap: functional dependencies certainly do still exist in 2NF, and multivalued dependencies are the concern of 4NF, not 2NF.",
+  "note": ""
+ },
+ {
+  "id": "N0222",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Total participation, meaning every entity in the set must take part in the relationship, is drawn as a double line between the entity rectangle and the relationship diamond. A single line denotes partial participation, and dashed lines are used for linking attributes to relationships.",
+  "note": ""
+ },
+ {
+  "id": "N0223",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 0,
+  "confidence": "low",
+  "explanation": "Only timestamp ordering satisfies both requirements: it produces conflict-serializable schedules and it never makes a transaction wait, aborting and restarting the offender instead, so a deadlock cycle cannot form. Two-phase locking guarantees conflict serializability but transactions do wait on locks, so 2PL can deadlock; hence statement I only. The scan is defective here: options (a) and (b) both came out as near-identical text ('lonly' and 'Ionly'), so which printed option carries 'I only' versus 'II only' cannot be confirmed from the extraction, and option (d) refers to a non-existent statement III.",
+  "note": "Options (a) and (b) are indistinguishable after OCR, so index 0 is chosen on the assumption that the mangled '(a) lonly' is the printed 'I only'; verify against the source scan before trusting it."
+ },
+ {
+  "id": "N0224",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Enforcing atomicity, consistency, isolation and durability requires logging, locking and recovery machinery, so ACID adds complexity to a system rather than decreasing it, making that the false statement. The other three are true: ACID does cost performance, does keep data consistent, and is what allows many concurrent transactions to be managed safely.",
+  "note": ""
+ },
+ {
+  "id": "N0231",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Reducing redundancy is the core design guideline, because duplicated data is what produces insertion, update and deletion anomalies. The other three options each invert a rule of good design: a design must be unambiguous, unrelated data belongs in separate tables, and entities are described precisely by their attributes.",
+  "note": ""
+ },
+ {
+  "id": "N0232",
+  "unit": "3",
+  "subtopic": "Query processing and optimisation",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Query optimization is by definition the step that chooses a good, low-cost evaluation plan among the many equivalent ones for a query. Query processing is the wider pipeline of parsing, optimizing and executing, of which optimization is only one phase.",
+  "note": ""
+ },
+ {
+  "id": "N0233",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Standard texts introduce tuple relational calculus first, with variables ranging over tuples, and then present domain relational calculus, whose variables range over attribute domains, as the second form. So the 'second form' being named here is the domain relational calculus; 'attribute relational calculus' is not a real term.",
+  "note": "The stem does not say which form was the first, so the answer relies on the usual textbook order in which tuple calculus is presented before domain calculus."
+ },
+ {
+  "id": "N0240",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "The two files the DBMS itself maintains and consults while running are the data dictionary, holding metadata about schemas, users and privileges, and the transaction log, recording every change so failures can be recovered from. The distractors all name languages or tools, and a query language is not a file.",
+  "note": "Loosely worded textbook question; 'two files' is really shorthand for the metadata catalogue and the log."
+ },
+ {
+  "id": "N0241",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "By De Morgan's law, P1 AND P2 is equivalent to NOT(NOT P1 OR NOT P2), which is the form printed as option (b) once the leading mangled symbol is read as the negation sign. Option (a) is the same expression without the outer negation, which is its complement, and option (c) negates only P2 inside the disjunction.",
+  "note": "The negation symbols were scanned inconsistently as '-' and '=', so option (b) has to be read as NOT(NOT P1 OR NOT P2); option (d) is unreadable as printed."
+ },
+ {
+  "id": "N0248",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "The IN operator tests whether a value matches any member of an explicitly listed set of literals, as in WHERE state IN ('Mizoram','Assam'). BETWEEN compares against a continuous range rather than a list, LIKE matches string patterns, and COMPARE is not an SQL operator.",
+  "note": "Option (d) carries trailing OCR garbage ('IN 7 . 7 a  6s'); the operator name is still legible."
+ },
+ {
+  "id": "N0249",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "If every row shares the same last name and the same pin code, those two columns have a single value throughout and can distinguish nothing, which rules out (a), (b) and the last-name-plus-pin-code compound in (c). Only the first name varies, so the sole option with any discriminating power is the compound key of first name and last name.",
+  "note": "Option (d) has a stray leading underscore from the scan; strictly, first name alone carries all the distinguishing power here and could still repeat, so the key is 'useful' rather than guaranteed unique."
+ },
+ {
+  "id": "N0250",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "In the alternative ER notation used by standard texts, specialization and generalization are drawn as a hollow arrow-head pointing from the subclass entity sets to the higher-level entity set. The classic notation instead uses a triangle labelled ISA, so a reader taught only that notation may find option (d) tempting; a solid or dashed arrow-head is not used for specialization.",
+  "note": "Answer depends on which ER notation the paper assumes; in the older ISA-triangle notation none of the four options is a good fit."
+ }
+]

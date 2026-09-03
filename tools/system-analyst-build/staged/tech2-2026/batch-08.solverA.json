@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N0361",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Runtime (dynamic) polymorphism needs the call to be bound at execution time, which in C++ happens only through a virtual function called via a base-class pointer or reference. Operator overloading and function overloading are resolved by the compiler from the argument signatures, so they are compile-time polymorphism; a friend function is an access mechanism and is not polymorphic at all.",
+  "note": ""
+ },
+ {
+  "id": "N0362",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Storage class (auto/register/static/extern) fixes a variable's storage duration - when it is created and destroyed in memory. Scope is the trap here: scope controls where the name is visible, not when the object comes into existence, and data type only fixes how many bytes and how they are interpreted.",
+  "note": "Storage classes are plain C/C++ language mechanics with no object-oriented content, so this sits outside the 2026 Unit 1 (Object Oriented Programming) syllabus."
+ },
+ {
+  "id": "N0363",
+  "unit": "1",
+  "subtopic": "Exception handling and strings",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "try/throw/catch exists to detect and recover from anomalies that only become known while the program is executing - bad input, allocation failure, divide by zero - i.e. run-time errors. Compile-time errors are caught by the compiler before any code runs, and logical errors produce wrong results without raising anything, so neither can be handled by an exception mechanism.",
+  "note": ""
+ },
+ {
+  "id": "N0364",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "A member function whose body is written inside the class definition is implicitly given the inline specifier, but inline is only a request: compilers routinely decline to expand a function that is large or contains loops, switches, recursion or static variables. That is why the qualified option is preferred over the absolute \"always inline\".",
+  "note": "Strictly, the language does make such functions implicitly inline, so option (a) is defensible if the question is read as a rule about the language rather than about what the compiler actually does."
+ },
+ {
+  "id": "N0365",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "In C++ the members of a class have private access unless an access specifier says otherwise; only struct and union default to public. Nothing is mandatory to specify - omitting the specifier is legal and simply gives you private members.",
+  "note": ""
+ },
+ {
+  "id": "N0450",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "The relational model represents a database as a collection of relations, each of which is presented to the user as a table. Fields (attributes) and records (tuples) are parts of a table rather than the top-level contents of the database, and keys are constraints defined over attributes.",
+  "note": ""
+ },
+ {
+  "id": "N0451",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "In relational terminology a row of a table is a tuple - one set of related values, one instance of the relationship the relation represents. Attribute and field both name a column, not a row.",
+  "note": ""
+ },
+ {
+  "id": "N0452",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "course_id, sec_id and semester are column names, i.e. attributes, while course is the named table over which such attributes are defined, i.e. a relation. The distractors invert the two terms or call the attribute list a tuple, but a tuple is a row of values, not a list of column names.",
+  "note": "The stem is transcribed loosely from the standard university schema example, but the attribute/relation distinction it tests is unambiguous."
+ },
+ {
+  "id": "N0453",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "A domain is atomic when its values are treated as indivisible - the DBMS never looks inside a value for meaningful sub-parts. A composite value such as a full address or a comma-separated list of phone numbers is a divisible (non-atomic) domain, which is exactly what first normal form forbids.",
+  "note": "Option (b) is printed with the misspelling \"Indivisbile\"."
+ },
+ {
+  "id": "N0454",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A transaction is precisely a unit of work made up of a sequence of query and/or update statements executed as one atomic whole. Commit and rollback are the statements that terminate a transaction, and flashback is an Oracle recovery feature - none of them is the sequence itself.",
+  "note": ""
+ },
+ {
+  "id": "N0455",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Atomicity requires all-or-nothing execution, so a transaction interrupted before its commit must leave no trace: on restart the recovery manager performs an automatic rollback (undo) of its uncommitted updates. An automatic commit would be the opposite of atomicity, and flashback is an explicitly invoked feature, not automatic crash recovery.",
+  "note": ""
+ },
+ {
+  "id": "N0456",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "In standard SQL a character string literal is written in single quotes - 'Comp Sci'. Double quotes are reserved for delimited identifiers, so \"Comp Sci\" is read as the name of a column or table and the comparison fails. The table name employee, the column dept_name and the FROM keyword are all well formed.",
+  "note": ""
+ },
+ {
+  "id": "N0457",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A multivalued attribute is one that can hold a set of values for a single entity, and a person can legitimately have several phone numbers. Name and date_of_birth each have exactly one value per entity - name may be composite (first/middle/last), but composite is not the same as multivalued, which is the trap that makes \"All of these\" wrong.",
+  "note": ""
+ },
+ {
+  "id": "N0458",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "The relational model insists on atomic values, so a cell in a row holds exactly one value or NULL - never a set - which makes that statement the incorrect one. The ER model, by contrast, does allow multivalued and composite attributes, which is why they must be flattened into extra tables or extra columns when the ER diagram is mapped to relations.",
+  "note": ""
+ },
+ {
+  "id": "N0459",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "A foreign key is an attribute (or set of attributes) in one table whose values must match a primary key in another table, and that referential constraint is what expresses the relationship between the two tables. A primary key identifies rows within its own table only, and a secondary key is merely an alternative lookup key.",
+  "note": ""
+ },
+ {
+  "id": "N0460",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "In the design pattern this question is testing, the many-side table carries a foreign key from the one-side table, and for a many-to-many relationship the intersection (associative) table's identifier is the pair of foreign keys - a composite key. The normal-form options are wrong because being on the many side of a relationship says nothing about whether a table is in 2NF or 3NF.",
+  "note": "Loosely worded: a composite key is genuinely required only for the associative table of a many-to-many relationship; the many side of a plain one-to-many relationship can perfectly well have a single-attribute key."
+ },
+ {
+  "id": "N0461",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Third normal form is stated purely in terms of functional dependencies - every non-key attribute must depend directly on the whole key, with no transitive dependency X > Y > Z. The contrast the question is drawing is with 1NF, which is about atomic domains, and 4NF, which is defined over multivalued dependencies rather than functional ones.",
+  "note": "Two options are defensible: 2NF (full functional dependency on the key) is just as much an FD-based form as 3NF, and the stem gives no qualifier to separate them."
+ },
+ {
+  "id": "N0462",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Each transfer is self-contained: a debit plus the matching credit that must either both happen or neither happen, so each of (1) and (2) is a complete transaction on its own. The two transfers are unrelated units of work - there is no requirement to run one to make the other valid, so \"either/or\" and the single-option answers are wrong.",
+  "note": ""
+ },
+ {
+  "id": "N0463",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Isolation is the ACID property that requires each transaction to behave as though it were running alone, unaffected by other concurrently executing transactions. Atomicity is about all-or-nothing completion and durability about surviving a crash after commit, so neither concerns interference between concurrent statements.",
+  "note": ""
+ },
+ {
+  "id": "N0491",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "In the object-oriented process, construction (coding) is preceded by both models: the analysis model identifies the problem-domain classes and their responsibilities, and the design model refines them into the classes and interfaces that will actually be implemented. Choosing either model alone omits half of the modelling work that precedes construction.",
+  "note": "Textbook-phrasing question; if the paper intended \"the very first thing created\", the analysis model would be the answer instead."
+ },
+ {
+  "id": "N0932",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "In a pure object-oriented language every piece of data is an object and must be declared inside a class, so \"data may or may not be declared using object\" is exactly the hybrid behaviour (as in C++) that disqualifies a language from being pure. Compulsory classes and inheritance are standard requirements in the usual list of pure-OOP criteria.",
+  "note": "Function overloading is arguably also not a requirement of pure OOP, so option (c) is a weaker but not absurd reading."
+ },
+ {
+  "id": "N0933",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "In C++ a struct may contain member functions just as a class may, so (a) is false; and the defaults are the other way round from (b) - struct members are public by default and class members private; and the two constructs are in fact near-identical apart from that default, so (c) is false too. With all three false, \"None of the above\" is what is left.",
+  "note": "Option (a) would be true of C structures, which is the trap; in C++ it is not."
+ },
+ {
+  "id": "N0934",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "The answer the paper is after is int: in the old implicit-int convention a function declared with no return type was assumed to return int. Note that this is a legacy C rule - C++ has always required the return type to be written explicitly, so a modern compiler rejects such a function outright rather than defaulting it.",
+  "note": "Generic language trivia with no object-oriented content, so it falls outside the 2026 Unit 1 syllabus; also technically obsolete for C++, where there is no default return type."
+ },
+ {
+  "id": "N0935",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "The destructor is the last member function to run on an object; once it returns, the object's lifetime has ended and its storage is released, so touching its members is undefined behaviour. Constness is irrelevant here - a const object is destroyed exactly like any other, which is what makes option (b) a distractor.",
+  "note": ""
+ },
+ {
+  "id": "N0936",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "sizeof is evaluated on the declared type, not on the contents: arr is declared char[20], so sizeof(arr) is 20 regardless of the 11-character string stored in it. The traps are 11 (strlen(arr), the character count) and 12 (strlen plus the terminating '\\0').",
+  "note": "Off-syllabus: plain sizeof semantics with no OOP content, and the stem calls it \"c code\" while using cout without including <iostream>."
+ },
+ {
+  "id": "N0937",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "There is no such thing as a friend constructor - friend is an access declaration granting an outside function or class access to private members, not a kind of constructor. Default, parameterized and copy constructors are the three standard forms (a move constructor being the modern fourth).",
+  "note": ""
+ },
+ {
+  "id": "N0938",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 2,
+  "confidence": "low",
+  "explanation": "Of the three concrete benefits printed, lower maintenance cost is the one standardly attributed to reuse: a defect fixed once in a shared, already-proven component propagates everywhere it is used instead of being fixed in many copies. But this question is defective - reuse also genuinely decreases testing time, so option (b) is equally defensible, and reuse does not reduce compilation time at all.",
+  "note": "Option (d) reads \"none\", which looks like a corruption of \"all of the above\" - the widely circulated version of this question has all three benefits as the key."
+ },
+ {
+  "id": "N0939",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Nothing here is illegal: an empty class body {} is a complete, valid definition, and protected is one of the three legal inheritance access specifiers alongside public and private (it makes the base's public and protected members protected in the derived class). So both definitions compile, and the three failure options each assert a rule that does not exist.",
+  "note": "The stem prints \"Class Vehicle\" with a capital C, which would be a syntax error; that is plainly a transcription artefact and not the point of the question."
+ },
+ {
+  "id": "N0940",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Enumerator values start at 0 and each unnamed one is the previous value plus one, but an explicit initialiser resets the count: red = 0, blue = 5, and GREEN therefore = 5 + 1 = 6. The printed output is \"0 6\"; the 0 3 distractor assumes the explicit 5 is ignored and GREEN just continues 0, 1, 2, 3.",
+  "note": "Off-syllabus: plain enum numbering rules, no object-oriented content."
+ },
+ {
+  "id": "N0941",
+  "unit": "1",
+  "subtopic": "Exception handling and strings",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "std::string provides both size() and length(), and they are exact synonyms - length() is kept for string-like readability while size() satisfies the standard container interface - so both (a) and (b) are correct. Option (c) is a trap: length without parentheses is not a member of std::string (that is Java array or JavaScript syntax).",
+  "note": ""
+ }
+]

@@ -1,0 +1,227 @@
+[
+ {
+  "id": "N0942",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Increment2::add(int) does not overload Increment1::add(double) across the class boundary — it hides it, because name lookup stops at the first scope in which the name 'add' is found. So both calls resolve to add(int): i.add(20) gives 21, and i.add(20.5) converts 20.5 to int 20 and gives 21, printing '21 21'. Option (d) is the trap for anyone who assumes the two functions form one overload set and 20.5 picks the double version.",
+  "note": ""
+ },
+ {
+  "id": "N0943",
+  "unit": "1",
+  "subtopic": "Exception handling and strings",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "A catch-all handler is written catch(...), using the ellipsis; it matches an exception of any type and so must be listed last among the handlers.",
+  "note": ""
+ },
+ {
+  "id": "N0944",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "A static data member is declared with 'static' inside the class body but its out-of-class definition omits the keyword — 'class A { static int c; }; int A::c = 0;'. Repeating 'static' on the definition is a compile error, which is why option (a) is the classic near-miss.",
+  "note": ""
+ },
+ {
+  "id": "N0945",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Members of a class are private by default, so Test() is a private constructor and 'new Test' in main() cannot call it; the access to t->x is likewise private. The compiler rejects the program, so no value — 5, garbage or 0 — is ever printed.",
+  "note": ""
+ },
+ {
+  "id": "N0946",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Friendship is not inherited: show() is declared a friend of A only, so a.x (protected in A) is reachable but b.y, which is private in the derived class B, is not. The compile error is therefore about y, not x, which makes option (a) the trap.",
+  "note": "Option (b) prints the class name in lowercase ('class b') in the original paper."
+ },
+ {
+  "id": "N0947",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Wrapping a primitive value in its corresponding wrapper-class object is called boxing; autoboxing is the narrower term for the compiler doing that conversion implicitly, e.g. 'Integer i = 5;'. Since the stem describes the conversion itself rather than its implicit form, boxing is the better answer, though papers that treat the two terms as synonyms mark (d).",
+  "note": "Java wrapper-class terminology, not a general OOP principle, so it falls outside the 2026 Unit 1 syllabus; boxing vs autoboxing is arguably ambiguous as printed."
+ },
+ {
+  "id": "N0948",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "'new int *[10]' allocates ten objects of type int*, so the expression has type int**, and the receiving variable must be declared int **arr. Option (a) has the right allocation but the wrong pointer level and will not compile; option (c) allocates ten ints, not ten pointers.",
+  "note": ""
+ },
+ {
+  "id": "N0965",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "A DBMS organises data as tables (relations) of rows and columns; images, text and graphs are kinds of values that may sit inside a column, not the storage format of the database itself.",
+  "note": ""
+ },
+ {
+  "id": "N0966",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "The semi-structured model (XML, JSON) is self-describing: each record carries its own tags, so different records of the same type may have different attribute sets and the schema can change without rewriting existing data. A relational schema, by contrast, is fixed at CREATE TABLE time and must be ALTERed.",
+  "note": "The stem reads 'schema evaluation'; the intended term is clearly schema evolution."
+ },
+ {
+  "id": "N0967",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "Total participation, drawn as a double line between an entity set and a relationship, states that every entity in that set takes part in the relationship — that is what tells you about all the entities available in the relationship. Multivalued and derived attributes describe attribute structure, not participation.",
+  "note": "Loosely worded stem; a reader could also defend 'Relationship' as the component that lists the participating entity sets."
+ },
+ {
+  "id": "N0968",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "A dependency obtained indirectly through two others — A → B and B → C giving A → C — is a transitive functional dependency, the kind 3NF exists to remove. Partial dependency instead means a non-key attribute depends on only part of a composite key.",
+  "note": ""
+ },
+ {
+  "id": "N0969",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Sigma (σ) is the select operator, which filters tuples by a predicate: σ_{age>30}(Employee). Project uses pi (π) and rename uses rho (ρ), which is the usual confusion here.",
+  "note": ""
+ },
+ {
+  "id": "N0970",
+  "unit": "3",
+  "subtopic": "Database design, functional dependencies and normal forms",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "Duplicated rows of the kind produced when two independent multivalued facts are stored in one relation (an employee's several skills crossed with several projects) come from a multivalued dependency, and 4NF is the normal form that removes them by decomposing on the MVD. 1NF only forbids multiple values inside a single cell, so it does not address the duplication across tuples.",
+  "note": "'Duplicate information' is imprecise; a course that reads it as repeating groups within a cell would mark First Normal Form."
+ },
+ {
+  "id": "N0971",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "TRUNCATE TABLE removes every row and deallocates the storage the rows occupied, keeping the table structure. DELETE removes rows one at a time and logs them without reclaiming the space, while DROP would destroy the table definition too.",
+  "note": ""
+ },
+ {
+  "id": "N0972",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Choosing particular columns is projection (π), the vertical slice of a relation. Selection (σ) is the horizontal one — it picks particular rows — and is the standard trap in this pair.",
+  "note": ""
+ },
+ {
+  "id": "N0973",
+  "unit": "3",
+  "subtopic": "Query processing and optimisation",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "The simple processes are the evaluation primitives — individual relational-algebra operations annotated with an algorithm — and a sequence of them combined to evaluate a query is a query-evaluation (query-execution) plan. Option (c) names the building blocks rather than the combination the stem asks about, and option (d) names the component that runs the plan.",
+  "note": "The stem says 'analyse a query' where the textbook says 'evaluate a query'."
+ },
+ {
+  "id": "N0974",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "An ER diagram is a conceptual/logical picture of the database — entity sets, attributes and relationships — and says nothing about files, indexes or block layout, which are the physical structure.",
+  "note": ""
+ },
+ {
+  "id": "N0975",
+  "unit": "3",
+  "subtopic": "Entity-Relationship modelling",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "In standard ER notation a single rectangle is an entity set and a double rectangle marks a weak entity set — one with no primary key of its own, identified through its owner via a double-diamond identifying relationship. Total participation is a double line, not a double rectangle.",
+  "note": ""
+ },
+ {
+  "id": "N0976",
+  "unit": "3",
+  "subtopic": "Transaction processing, schedules and recoverability",
+  "answerIndex": 1,
+  "confidence": "low",
+  "explanation": "The question is broken as extracted: the stem stops at 'T1: read' and the OCR has collapsed the rest of the stem plus all four printed choices into a single option, so there is no clean option to select and index 1 is chosen only because it is the fragment that actually contains the answer text. On the underlying question (T1 reads A then B and sets B if A=0; T2 reads B then A and sets A if B=0), a serial run leaves exactly one of A,B equal to 1, whereas any interleaved run can let both transactions read 0 and write 1; the precedence graph then has edges both ways, so the correct choice is 'a schedule that is not conflict serializable', printed as (b) inside that merged option.",
+  "note": "Severe OCR damage: the stem is truncated and options (a)-(d) are merged into option 2, so the four choices cannot be selected individually."
+ },
+ {
+  "id": "N0977",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "COUNT is the aggregate that returns how many values a column has; SUM and AVG combine those values arithmetically, and ADD is not an SQL aggregate function at all.",
+  "note": ""
+ },
+ {
+  "id": "N0978",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Set difference (r − s) returns the tuples of the first relation that are not in the second, i.e. it strips out the tuples common to both. Union does the opposite by merging them, and it is the operation that also removes duplicates, which is the near-miss here.",
+  "note": ""
+ },
+ {
+  "id": "N0979",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "A tuple is one row of a relation, which in file terminology is a record. Fields and columns are the other axis — they correspond to attributes, not tuples.",
+  "note": ""
+ },
+ {
+  "id": "N0980",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "ROLLUP produces a hierarchy of subtotals by dropping grouping columns one at a time in a single direction, right to left — GROUP BY ROLLUP(a,b,c) gives totals for (a,b,c), (a,b), (a) and the grand total. Option (d) describes CUBE, which cross-tabulates over every combination of the grouping columns.",
+  "note": "Option (b) is partly true — ROLLUP does add grand totals — but (c) is the definition that distinguishes it from CUBE."
+ },
+ {
+  "id": "N0981",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "'CREATE TABLE ... AS (select ...)' closely resembles CREATE VIEW because both are defined by the same SELECT query; the difference is that the table is populated once at creation while a view always reflects the current query result. 'CREATE TABLE ... LIKE' copies only the structure, with no query and no rows.",
+  "note": ""
+ },
+ {
+  "id": "N0982",
+  "unit": "3",
+  "subtopic": "Query processing and optimisation",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A cost-based optimizer enumerates the space of equivalent query-evaluation plans, estimates the cost of each from catalogue statistics, and picks the cheapest; the alternatives listed are not recognised optimizer categories (the real contrast is with a rule/heuristic-based optimizer).",
+  "note": ""
+ }
+]

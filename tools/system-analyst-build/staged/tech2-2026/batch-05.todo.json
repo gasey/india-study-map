@@ -1,0 +1,450 @@
+[
+ {
+  "id": "N0257",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 64,
+  "hint_topic": "Database files",
+  "garbled": false,
+  "question": "Large collection of files are called",
+  "options": [
+   "Database",
+   "Records",
+   "Sectors",
+   "Fields"
+  ]
+ },
+ {
+  "id": "N0258",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 65,
+  "hint_topic": "Database model",
+  "garbled": false,
+  "question": "This is not a logical database structure",
+  "options": [
+   "Relational",
+   "Network",
+   "Chain",
+   "Tree"
+  ]
+ },
+ {
+  "id": "N0259",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 66,
+  "hint_topic": "Data integrity",
+  "garbled": false,
+  "question": "For enforcing data integrity, it is a preferred method",
+  "options": [
+   "Constraints",
+   "Triggers",
+   "Stored procedure",
+   "Cursors"
+  ]
+ },
+ {
+  "id": "N0266",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 73,
+  "hint_topic": "Database schema",
+  "garbled": false,
+  "question": "It defines overall design of the database",
+  "options": [
+   "Code",
+   "Data definition language",
+   "Application program",
+   "Schema"
+  ]
+ },
+ {
+  "id": "N0267",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 74,
+  "hint_topic": "Entity cardinality",
+  "garbled": false,
+  "question": "Mapping cardinalities are useful in describing",
+  "options": [
+   "Unary relationships",
+   "Binary relationships",
+   "Composite relationships",
+   "Simple relationships"
+  ]
+ },
+ {
+  "id": "N0268",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 75,
+  "hint_topic": "Data integrity",
+  "garbled": false,
+  "question": "It refers to the correctness and completeness of the data in a database",
+  "options": [
+   "Data constraint",
+   "Data independence",
+   "Data integrity",
+   "Data security"
+  ]
+ },
+ {
+  "id": "N0275",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 82,
+  "hint_topic": "Database recovery",
+  "garbled": false,
+  "question": "Efficient implementation of a recovery scheme requires that the number of writes to be '",
+  "options": [
+   "Minimum",
+   "Maximum",
+   "Dependent",
+   "Independent"
+  ]
+ },
+ {
+  "id": "N0276",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 83,
+  "hint_topic": "Entity relationship",
+  "garbled": false,
+  "question": "Anrelationship among students and courses is ,",
+  "options": [
+   "1:1 relationship",
+   "1:Mrelationship",
+   "M:1 relationship",
+   "M:M relationship"
+  ]
+ },
+ {
+  "id": "N0277",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 84,
+  "hint_topic": "DDL metadata",
+  "garbled": false,
+  "question": "The metadata is created by",
+  "options": [
+   "Query interpreter",
+   "DDL interpreter",
+   "DML compiler",
+   "DML pre-processor"
+  ]
+ },
+ {
+  "id": "N0284",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 91,
+  "hint_topic": "Projection algebra",
+  "garbled": false,
+  "question": "Algebraic operation that outputs specified attributes from all rows of the input relation, is said to be",
+  "options": [
+   "Natural join",
+   "Union operation",
+   "Projection",
+   "Selection"
+  ]
+ },
+ {
+  "id": "N0285",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 92,
+  "hint_topic": "Exclusive lock",
+  "garbled": false,
+  "question": "Ifatransaction T has obtained an exclusive lock on item Q, then T can",
+  "options": [
+   "read Q",
+   "writeQ",
+   "both read and write Q",
+   "write Q but not read Q"
+  ]
+ },
+ {
+  "id": "N0286",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 93,
+  "hint_topic": "Super key closure",
+  "garbled": false,
+  "question": "Ifthe closure of an attribute set is the entire relation, then the attribute set is a",
+  "options": [
+   "super key",
+   "candidate key",
+   "primary key",
+   "notakey"
+  ]
+ },
+ {
+  "id": "N0293",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper_no": "III",
+  "no": 100,
+  "hint_topic": "Aggregation ER",
+  "garbled": true,
+  "question": "It is an abstraction through which relationships are treated as higher level entities",
+  "options": [
+   "Generalization",
+   "Specialization",
+   "Aggregation",
+   "Inheritance * ee KK K"
+  ]
+ },
+ {
+  "id": "N1110",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 17,
+  "hint_topic": "C++ increment output",
+  "garbled": false,
+  "question": "Consider the following program fragment: main() { int a,b,c; b=2; a=2*(b++); c=2*(++b); } Which one of the given answers is correct?",
+  "options": [
+   "a=4,c=6",
+   "b=3,c=8",
+   "b=3,c=6",
+   "a=4,c=8"
+  ]
+ },
+ {
+  "id": "N1111",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 19,
+  "hint_topic": "C function absolute value",
+  "garbled": false,
+  "question": "What is being done by the following function? int test(int a, int b) { int z = (abs",
+  "options": [
+   ">= abs",
+   ") ? a:b; return (z); } (a) Finds the larger of a and b (b) Returns the minimum of a and b (c) Returns the member whose absolute value is largest (d) None of these"
+  ]
+ },
+ {
+  "id": "N1112",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 20,
+  "hint_topic": "FILE pointer C",
+  "garbled": false,
+  "question": "The statement FILE *ptr;",
+  "options": [
+   "Defines a pointer to pre-defined structure type FILE",
+   "Defines a pointer to user defined structure type FILE",
+   "Defines a pointer to pre-defined data type FILE DESCRIPTOR",
+   "None of the above"
+  ]
+ },
+ {
+  "id": "N1113",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 21,
+  "hint_topic": "File fprintf function",
+  "garbled": false,
+  "question": "To write a small number of mixed string and integer variable to a file, the appropriate function is",
+  "options": [
+   "fputs()",
+   "fgets()",
+   "fprintf()",
+   "fwrite()"
+  ]
+ },
+ {
+  "id": "N1114",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 22,
+  "hint_topic": "fseek file access",
+  "garbled": false,
+  "question": "The function fseek()",
+  "options": [
+   "Finds a given word or phrase in a file",
+   "Finds the correct file",
+   "Helps access records in the middle of a file",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1115",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 25,
+  "hint_topic": "Union shared memory",
+  "garbled": false,
+  "question": "Identify the most appropriate sentence to describe unions",
+  "options": [
+   "Unions are like structures",
+   "Unions contain members of different data types which share the same storage area in memory",
+   "Unions are less frequently used in programs",
+   "Unions are used for set operations"
+  ]
+ },
+ {
+  "id": "N1116",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 26,
+  "hint_topic": "Float pointer type",
+  "garbled": false,
+  "question": "In the expression float *fptr; which is represented as type float",
+  "options": [
+   "The variable fptr",
+   "The address of fptr",
+   "The variable pointer to by fptr",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1117",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 27,
+  "hint_topic": "Compiler machine dependent",
+  "garbled": false,
+  "question": "A compiler is",
+  "options": [
+   "Machine-independent and OS-independent",
+   "Machine-dependent and OS-dependent",
+   "Machine-dependent and OS-independent",
+   "Machine-independent-OS-dependent"
+  ]
+ },
+ {
+  "id": "N1118",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 28,
+  "hint_topic": "Integer sign bit",
+  "garbled": false,
+  "question": "In case of ordinary int variables",
+  "options": [
+   "The leftmost bit is reserved for sign",
+   "The rightmost bit is reserved for sign",
+   "No bit is reserved for sign",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1119",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 29,
+  "hint_topic": "Number swapping method",
+  "garbled": false,
+  "question": "Swapping of two numbers is done by",
+  "options": [
+   "Direct interchanging of values with each other",
+   "Storing the value of one in a temp variable and shifting the value of the other into the first and then copying the value of temp to the other",
+   "Transfer one number to other number without storing any number in the temp variable",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1120",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "I",
+  "no": 30,
+  "hint_topic": "Unary operators C",
+  "garbled": false,
+  "question": "Which of the following are unary operators in C? (i) ! (ii) Sizeof (iii) ~ (iv) &&",
+  "options": [
+   "i, ii",
+   "i, iii",
+   "ii, iv",
+   "i, ii, iii"
+  ]
+ },
+ {
+  "id": "N1186",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 33,
+  "hint_topic": "HTML heading tag",
+  "garbled": false,
+  "question": "Choose the correct HTML tag for the largest heading?",
+  "options": [
+   "<H1>",
+   "<H6>",
+   "<H10>",
+   "<HEAD>"
+  ]
+ },
+ {
+  "id": "N1187",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 34,
+  "hint_topic": "HTML link anchor tag",
+  "garbled": false,
+  "question": "What is the correct syntax in HTML for creating a link on a webpage?",
+  "options": [
+   "<LINK SRC= \"abc.html\">",
+   "<BODY LINK = \"abc.html\">",
+   "<A SRC = \"def.html\" >",
+   "< A HREF = \"def.html\">"
+  ]
+ },
+ {
+  "id": "N1188",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 35,
+  "hint_topic": "HTML table data cell",
+  "garbled": false,
+  "question": "<TD> … </TD> tag is used for ________",
+  "options": [
+   "Table heading",
+   "Table Records",
+   "Table row",
+   "None of these"
+  ]
+ },
+ {
+  "id": "N1189",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 36,
+  "hint_topic": "HTML bulleted list",
+  "garbled": false,
+  "question": "How can you make a bulleted list?",
+  "options": [
+   "<list>",
+   "<nl>",
+   "<ul>",
+   "<ol>"
+  ]
+ },
+ {
+  "id": "N1192",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 39,
+  "hint_topic": "ASP VBScript default",
+  "garbled": false,
+  "question": "Default scripting language in ASP.",
+  "options": [
+   "EcmaScript",
+   "VBScript",
+   "PERL",
+   "JavaScript"
+  ]
+ },
+ {
+  "id": "N1200",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper_no": "II",
+  "no": 47,
+  "hint_topic": "DBMS language DML",
+  "garbled": false,
+  "question": "The set of operations or language that the DBMS provides for retrieval, insertion, deletion and modification of data is called",
+  "options": [
+   "View definition language",
+   "Storage definition language",
+   "Data definition language",
+   "Data manipulation language"
+  ]
+ }
+]

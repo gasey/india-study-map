@@ -1,0 +1,375 @@
+[
+ {
+  "id": "N0942",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 28,
+  "hint_topic": "Method overriding output",
+  "garbled": false,
+  "question": "What is the output of the following program? #include <iostream> using namespace std; class Increment1 { public: double add(double x) {return x+0.1;} }; class Increment2 : public Increment1 { public: int add(int x) {return x+1;} }; int main() { Increment2 i; cout<<i.add(20) <<\" \"<<i.add(20.5)<<endl; return 0; }",
+  "options": [
+   "Compile Time Error",
+   "Run Time Error",
+   "21 21",
+   "21 20.6"
+  ]
+ },
+ {
+  "id": "N0943",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 29,
+  "hint_topic": "Exception catch-all operator",
+  "garbled": false,
+  "question": "Which of the following operator is used by catch-all handlers?",
+  "options": [
+   "Ternary operator",
+   "Ellipses operator",
+   "String operator",
+   "Unary operator"
+  ]
+ },
+ {
+  "id": "N0944",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 30,
+  "hint_topic": "Static keyword usage",
+  "garbled": false,
+  "question": "The keyword static is used",
+  "options": [
+   "With declaration inside class and with definition outside the class",
+   "With declaration inside class and not with definition outside the class",
+   "With declaration and definition wherever done",
+   "With each call to the member function"
+  ]
+ },
+ {
+  "id": "N0945",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 31,
+  "hint_topic": "Constructor output prediction",
+  "garbled": false,
+  "question": "Predict the output? #include <iostream> using namespace std; class Test { int x; Test() { x = 5;} }; int main() { Test *t = new Test; cout << t->x; }",
+  "options": [
+   "Compiler Error",
+   "5",
+   "Garbage value",
+   "0"
+  ]
+ },
+ {
+  "id": "N0946",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 32,
+  "hint_topic": "Friend function access scope",
+  "garbled": false,
+  "question": "Predict the output of following program. #include <iostream> using namespace std; class A { protected: int x; public: A() {x = 0;} friend void show(); }; class B: public A { public: B() : y (0) {} private: int y; }; void show() { A a; B b; cout << \"The default value of A::x = \" << a.x << \" \"; cout << \"The default value of B::y = \" << b.y; }",
+  "options": [
+   "Compiler Error in show() because x is protected in class A",
+   "Compiler Error in show() because y is private in class b",
+   "The default value of A::x = 0 The default value of B::y = 0",
+   "Compiler Dependent"
+  ]
+ },
+ {
+  "id": "N0947",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 33,
+  "hint_topic": "Boxing primitive to wrapper",
+  "garbled": false,
+  "question": "Converting a primitive type data into its corresponding wrapper class object instance is called",
+  "options": [
+   "Boxing",
+   "Wrapping",
+   "Instantiation",
+   "Autoboxing"
+  ]
+ },
+ {
+  "id": "N0948",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "II",
+  "no": 34,
+  "hint_topic": "Dynamic pointer array in C++",
+  "garbled": false,
+  "question": "Identify the way to create a dynamic array of pointers (to integers) of size 10 in C++?",
+  "options": [
+   "int *arr = new int *[10];",
+   "int **arr = new int *[10];",
+   "int *arr = new int [10];",
+   "Not Possible"
+  ]
+ },
+ {
+  "id": "N0965",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 1,
+  "hint_topic": "DBMS data storage format",
+  "garbled": false,
+  "question": "In which of the following formats data is stored in the database management system?",
+  "options": [
+   "Image",
+   "Text",
+   "Table",
+   "Graph"
+  ]
+ },
+ {
+  "id": "N0966",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 2,
+  "hint_topic": "Data model schema evolution",
+  "garbled": false,
+  "question": "Which of the following data models support for schema evaluation?",
+  "options": [
+   "Relational Model",
+   "Entity Relationship Model",
+   "Object Based Data Model",
+   "Semi-structured Data Model"
+  ]
+ },
+ {
+  "id": "N0967",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 3,
+  "hint_topic": "ER relationship component",
+  "garbled": false,
+  "question": "__________ component gives an idea about all the entities available in relationship.",
+  "options": [
+   "Multivalued Attribute",
+   "Total Participation",
+   "Relationship",
+   "Derived Attribute"
+  ]
+ },
+ {
+  "id": "N0968",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 4,
+  "hint_topic": "Transitive functional dependency",
+  "garbled": false,
+  "question": "The functional dependencies is said to be __________ if it is indirectly formed by two functional Dependencies.",
+  "options": [
+   "Partial Functional Dependency",
+   "Trivial Functional Dependency",
+   "Non Trivial Functional Dependency",
+   "Transitive Functional Dependency"
+  ]
+ },
+ {
+  "id": "N0969",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 5,
+  "hint_topic": "Relational algebra select op",
+  "garbled": false,
+  "question": "Which operation in relational algebra is denoted by sigma?",
+  "options": [
+   "Project",
+   "Select",
+   "Union",
+   "Rename"
+  ]
+ },
+ {
+  "id": "N0970",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 6,
+  "hint_topic": "Normal form removes duplicates",
+  "garbled": false,
+  "question": "Which Normal is used to remove the duplicate Information?",
+  "options": [
+   "First Normal Form",
+   "Second Normal Form",
+   "Third Normal Form",
+   "Fourth Normal Form"
+  ]
+ },
+ {
+  "id": "N0971",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 7,
+  "hint_topic": "TRUNCATE command",
+  "garbled": false,
+  "question": "Which of the following commands is used to delete all rows and free up space from a table?",
+  "options": [
+   "Drop",
+   "Delete",
+   "Truncate",
+   "Alter"
+  ]
+ },
+ {
+  "id": "N0972",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 8,
+  "hint_topic": "SQL projection columns",
+  "garbled": false,
+  "question": "To select some particular columns, which of the following commands is used?",
+  "options": [
+   "Projection",
+   "Selection",
+   "Join",
+   "Union"
+  ]
+ },
+ {
+  "id": "N0973",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 9,
+  "hint_topic": "Query evaluation plan/primitive",
+  "garbled": false,
+  "question": "A group of simple processes that can be combined to analyse a query is known as",
+  "options": [
+   "Query Evaluation Algebra",
+   "Query Evaluation Plan",
+   "Query Evaluation Primitive",
+   "Query Evaluation Engine"
+  ]
+ },
+ {
+  "id": "N0974",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 10,
+  "hint_topic": "ER diagram logical structure",
+  "garbled": false,
+  "question": "ER Diagram represents a overall __________ of a Database graphically.",
+  "options": [
+   "Physical Structure",
+   "Logical Structure",
+   "Domain Structure",
+   "Architectural Representation"
+  ]
+ },
+ {
+  "id": "N0975",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 11,
+  "hint_topic": "ER weak entity notation",
+  "garbled": false,
+  "question": "Double rectangle representation in ER Diagram indicates",
+  "options": [
+   "Entity Set",
+   "Strong Entity Set",
+   "Weak Entity Set",
+   "Total participation"
+  ]
+ },
+ {
+  "id": "N0976",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 12,
+  "hint_topic": "Transaction serializability",
+  "garbled": false,
+  "question": "Consider the following transactions with data items A and B initialized to zero: T1: read",
+  "options": [
+   "; read",
+   "; if A = 0 then B : = B + 1 ; write (B) ; T2: read (B) ; read (A) ; if B = 0 then A : = A + 1 ; write (A) ; Any non-serial interleaving of T1 and T2 for concurrent execution leads to (a) A serializable schedule (b) A schedule that is not conflict serializable (c) A conflict serializable schedule (d) A schedule for which a precedence graph cannot be drawn"
+  ]
+ },
+ {
+  "id": "N0977",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 13,
+  "hint_topic": "SQL COUNT function",
+  "garbled": false,
+  "question": "__________ function is used to find the number of values in a column.",
+  "options": [
+   "SUM",
+   "COUNT",
+   "ADD",
+   "AVG"
+  ]
+ },
+ {
+  "id": "N0978",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 14,
+  "hint_topic": "Relational difference operation",
+  "garbled": false,
+  "question": "The __________ operation removes common tuples from the first relation.",
+  "options": [
+   "Union",
+   "Difference",
+   "Cartesian Product",
+   "Projection"
+  ]
+ },
+ {
+  "id": "N0979",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 15,
+  "hint_topic": "Tuples as records",
+  "garbled": false,
+  "question": "Tuples can also be called",
+  "options": [
+   "Fields",
+   "Values",
+   "Columns",
+   "Records"
+  ]
+ },
+ {
+  "id": "N0980",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 16,
+  "hint_topic": "ROLLUP SQL operator",
+  "garbled": false,
+  "question": "When the \"ROLLUP\" operator for expression or columns within a \"GROUP BY\" clause is used?",
+  "options": [
+   "Find the groups that make up the subtotal in a row",
+   "Create group-wise grand totals for the groups indicated in a GROUP BY clause",
+   "Group expressions or columns specified in a GROUP BY clause in one direction, from right to left, for computing the subtotals",
+   "To produce a cross-tabular report for computing subtotals by grouping phrases or columns given within a GROUP BY clause in all available directions."
+  ]
+ },
+ {
+  "id": "N0981",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 17,
+  "hint_topic": "CREATE VIEW view",
+  "garbled": false,
+  "question": "__________ resembles Create view.",
+  "options": [
+   "Create table . . . as",
+   "Create view as",
+   "Create table . . .like",
+   "With data"
+  ]
+ },
+ {
+  "id": "N0982",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper_no": "III",
+  "no": 18,
+  "hint_topic": "Cost-based optimizer",
+  "garbled": false,
+  "question": "The optimizer that explores the space of all query-evaluation plans is called",
+  "options": [
+   "Cost-based",
+   "Plan-based",
+   "Estimate-based",
+   "Count-based"
+  ]
+ }
+]

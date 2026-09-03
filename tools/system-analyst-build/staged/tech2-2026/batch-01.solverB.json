@@ -1,0 +1,272 @@
+[
+ {
+  "id": "N0751",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "A DBMS manages an integrated collection of files and can serve several files (and users) at once, and it does strictly more than a single-file record management system, so both (a) and (b) hold. Option (c) is the definition of a record/file management system, not a DBMS.",
+  "note": ""
+ },
+ {
+  "id": "N0752",
+  "unit": "3",
+  "subtopic": "Query processing and optimisation",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Indexing builds a separate access structure (key value to record location) that lets records be reached in key order without physically rearranging the data file; sorting is a different operation that rewrites the file itself. Options (a)/(b) describe sorting, so (d) fails with them.",
+  "note": "Loosely worded: an index build often sorts key values internally, but the operation's defining result is the index, not a sorted file."
+ },
+ {
+  "id": "N0753",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "The logical (conceptual) schema is the organisation of the data into records, fields and relationships as users see them, independent of storage. Option (c) is the internal/physical schema, and the schema is only the description of the database, not the database contents themselves, ruling out (a).",
+  "note": ""
+ },
+ {
+  "id": "N0754",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Logical schema design aims simultaneously at consistency (no contradictory duplicated data), easy query formulation, and efficient access, so all three listed goals apply.",
+  "note": ""
+ },
+ {
+  "id": "N0755",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 1,
+  "confidence": "medium",
+  "explanation": "In relational terminology a table is a relation, a row is a tuple, and each field of a tuple draws its values from a domain, so the fields are identified with domains; 'relations' name whole tables and 'queries' are operations, not parts of a tuple.",
+  "note": "Strictly the fields of a tuple are attributes; 'domain' is the value set an attribute draws from, but it is the only defensible option printed."
+ },
+ {
+  "id": "N0756",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "The data dictionary (system catalog) is the metadata store: it records which files/tables exist, their contents, and the attributes, types and constraints of the data, so all three statements are true.",
+  "note": ""
+ },
+ {
+  "id": "N0757",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Integrity control is about the data being valid, which for a numeric field means range/domain checks such as upper and lower limits. Passwords in (b) are access security, and access timestamps in (c) are auditing, neither of which is integrity.",
+  "note": ""
+ },
+ {
+  "id": "N0758",
+  "unit": "3",
+  "subtopic": "Concurrency control, locking and time stamping",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Locking exists to serialise access, so a locked file is reserved for one user at a time; a password is irrelevant to a lock, and locking does not conceal a file's contents, so (b), (c) and hence (d) are wrong.",
+  "note": ""
+ },
+ {
+  "id": "N0759",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 2,
+  "confidence": "low",
+  "explanation": "A data-entry form is a screen layout definition: it fixes both where each field appears on the screen and how wide each field is, so the intended key is 'both (a) and (b)'. The question is damaged in the scan - only three options survive and the third has option (d) run into it - so the mapping of the printed letters to this array is not fully reliable.",
+  "note": "OCR damage: option (c) and option (d) are merged into a single string and one option is missing, so only three options are present."
+ },
+ {
+  "id": "N0760",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "A form is the DBMS's general-purpose interface layout: the same form facility is used to add, modify and delete records and to lay out printed reports, so all three uses apply.",
+  "note": ""
+ },
+ {
+  "id": "N0761",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Data independence means an application programmer or user only needs the one subschema (external view) their program works through; the physical schema and every other subschema are deliberately hidden, so (a), (b) and (d) all demand knowledge the architecture is designed to withhold.",
+  "note": ""
+ },
+ {
+  "id": "N0762",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "SELECT (sigma) is the relational-algebra operation that picks out rows satisfying a predicate. The trap is PROJECT, which extracts columns rather than records, and JOIN, which combines two relations.",
+  "note": ""
+ },
+ {
+  "id": "N0763",
+  "unit": "3",
+  "subtopic": "Database system concepts, architecture, interfaces and data independence",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Storing the same item twice both wastes space and creates the risk of inconsistency when only one copy is updated - the two classic drawbacks of redundancy that a DBMS exists to control - so both (a) and (b) hold. Faster access in (c) is not a consequence of accidental duplication.",
+  "note": ""
+ },
+ {
+  "id": "N0764",
+  "unit": "3",
+  "subtopic": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The network data model links records through sets of owner-member pointers, and a record can belong to many sets, so many-to-many relationships are expressible. The one-to-many restriction in (a) is the hierarchical model, and tables in (c) are the relational model.",
+  "note": ""
+ },
+ {
+  "id": "N0765",
+  "unit": "3",
+  "subtopic": "SQL and basic query statements",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "The AC reservations are for pids 0, 1, 5 and 3. The correlated EXISTS then keeps only those with a Passenger row of age > 65: pid 0 is age 65 (not strictly greater, so dropped), pid 1 is 66 (kept), pid 5 has no Passenger row at all (dropped), pid 3 is 69 (kept). Result: 1 and 3.",
+  "note": ""
+ },
+ {
+  "id": "N0844",
+  "unit": "2",
+  "subtopic": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "answerIndex": 3,
+  "confidence": "low",
+  "explanation": "Of the four printed choices only JavaScript is a programming language actually used to build applications that run on the web - HTML is a markup language, and C/C++ are not internet languages - so it is the closest fit. The stem is badly worded: 'large program on internet' is the textbook phrasing for Java applets, and the option may be a mis-transcription of 'Java'.",
+  "note": "Stem is vague and the intended option was probably 'Java' rather than 'Java script'; treat the answer as the best available fit, not a settled fact."
+ },
+ {
+  "id": "N0390",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Members of an object are reached with the dot (member-access) operator, as in obj.member. The scope resolution operator :: qualifies names with a class or namespace, not an object instance, and the arrow operator is only needed when you hold a pointer rather than an object.",
+  "note": ""
+ },
+ {
+  "id": "N0391",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Inheritance lets a derived class reuse the data members and member functions already written in its base class, which is exactly the reusability feature. Encapsulation and abstraction are about hiding detail, and polymorphism is about one interface with many behaviours.",
+  "note": ""
+ },
+ {
+  "id": "N0392",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Dynamic (late) binding is by definition the deferral of the function-to-call decision from compile time to run time, implemented in C++ through virtual functions and the vtable. Dynamic loading concerns bringing code into memory, and dynamic typing concerns when types are checked.",
+  "note": ""
+ },
+ {
+  "id": "N0393",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "A constructor runs on storage that has already been allocated for the object, and its job is to initialise that object's members. The classic trap is 'construct a new object': the object is created by the declaration or by new, and the constructor only initialises it.",
+  "note": ""
+ },
+ {
+  "id": "N0394",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "A virtual function is what gives run-time polymorphism: a base-class pointer or reference calls the derived class's override. Inline functions are resolved at compile time and ordinary member functions are statically bound, so neither exhibits polymorphism.",
+  "note": ""
+ },
+ {
+  "id": "N0395",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "An inline function's body is substituted at the call site, removing the call, stack-frame and return overhead, so execution speeds up. It generally increases code size rather than decreasing it, which rules out (c).",
+  "note": "True only for small functions, and inline is a request the compiler may ignore."
+ },
+ {
+  "id": "N0396",
+  "unit": "1",
+  "subtopic": "Inheritance, virtual functions and pointers to objects",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "In C++ a class becomes abstract - non-instantiable - precisely when it declares at least one pure virtual function (virtual f() = 0). The near miss is (c): a merely virtual function still has a body and leaves the class instantiable, and C++ has no 'abstract' keyword at all.",
+  "note": ""
+ },
+ {
+  "id": "N0397",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Members declared in a class before any access specifier are private by default; public is the default for a struct, and friend is not an access specifier at all.",
+  "note": ""
+ },
+ {
+  "id": "N0398",
+  "unit": "1",
+  "subtopic": "Constructors and destructors",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "The destructor runs as the final act of the object's life - when a local goes out of scope or delete is applied - while the object still exists so its members can be cleaned up; hence 'just before the end of an object life'. Option (a) is the trap: once the lifetime is genuinely over there is no object left for the destructor to operate on, and (c) is only true of static/global objects.",
+  "note": "(a) and (d) are close readings of the same event; the paper's intent is that the destructor runs while the object is still alive."
+ },
+ {
+  "id": "N0399",
+  "unit": "OFF",
+  "subtopic": "",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Java's RandomAccessFile is opened in mode \"r\" or \"rw\", so a single instance can both read from and write to the file at arbitrary offsets via seek(). This is a Java library detail rather than a general object-oriented principle.",
+  "note": "Off-syllabus: Java-specific class trivia, not part of the 2026 OOP unit's C++-shaped I/O stream content."
+ },
+ {
+  "id": "N0400",
+  "unit": "1",
+  "subtopic": "OOP concepts, applications and the OOP process",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Encapsulation is the bundling of data and the code that operates on it inside one unit (the class) with access control keeping the internals out of reach - the textbook 'binds code and data together and keeps them safe from outside interference'. Abstraction is the complementary idea of exposing only the essentials.",
+  "note": ""
+ },
+ {
+  "id": "N0401",
+  "unit": "1",
+  "subtopic": "I/O streams and file handling in OOP",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "An ifstream is an input file stream, so its constructor's default mode argument is ios::in; ios::out is the default for ofstream, and app/binary must always be requested explicitly.",
+  "note": ""
+ },
+ {
+  "id": "N0402",
+  "unit": "1",
+  "subtopic": "Polymorphism, function and operator overloading",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The scope resolution operator :: is one of the handful C++ forbids overloading (along with . , .* , ?: and sizeof) because it resolves names at compile time rather than acting on values. Both ++ and ~ and the function-call operator () are overloadable.",
+  "note": ""
+ },
+ {
+  "id": "N0403",
+  "unit": "1",
+  "subtopic": "Classes, objects, member functions and memory allocation",
+  "answerIndex": 1,
+  "confidence": "low",
+  "explanation": "C++ is a hybrid, not a pure object-oriented language: a valid program can consist of nothing but main() and free functions, so the claim that code must contain at least one class is false. The question is defective as printed, however, because (c) and (d) are false for C++ too - a class may declare only data members, and no object need ever be instantiated - so there is no unique false statement; only (a) is actually true.",
+  "note": "Three of the four options are false for C++, so the question has no single correct answer as printed; it would work only if the stem asked which statement is true (answer (a))."
+ }
+]

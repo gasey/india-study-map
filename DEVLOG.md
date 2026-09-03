@@ -187,6 +187,89 @@ real findings, both in the analyst bank and both listed below.
 
 ---
 
+## 2026-09-03 — Technical Paper II 2026: 265 questions double-solved, and the paper we were told had no answer key turns out to have one
+
+**What shipped.** Nothing has been written to `questions.js` yet — this entry
+covers the staging work, and one finding that changes how the import must be
+built.
+
+- **All 9 batches are now double-solved.** `staged/tech2-2026/` holds 265
+  questions × 2 independent passes (530 records). The six missing passes
+  (04B, 07B, 08A/B, 09A/B) were run this session against
+  `TECH2_2026_BRIEF.md`.
+- **`tools/system-analyst-build/check_tech2_2026.py`** — validates the solver
+  output before any import touches the bank. It parses the permitted subtopic
+  strings *out of the brief itself* rather than keeping a second hardcoded
+  copy, because a copy drifts and then approves strings no solver was asked
+  for; the parse is asserted against the unit sizes the brief prints, so a
+  reformat breaks it loudly instead of silently yielding an allow-list that
+  passes everything. Current state: **0 structural failures**, 14 warnings, and
+  a 2.3% A/B disagreement rate written to `staged/tech2-2026/disagreements.json`.
+- **`apply_audit_corrections.py` learned the two repair shapes it lacked**:
+  `restores_option` on `repair_text` (OCR sometimes glues a printed `(d)` onto
+  the end of `(c)`, so restoring the lost key must be possible) and a new
+  `set_tags` action for re-filing a question's unit/subtopic. Both keep the
+  existing guards: `restores_option` may only *add* keys, never drop one, so a
+  genuine renumbering — which would silently move the answer to a different
+  option — still fails the run.
+
+**Why the brief was wrong, and how we know.** The brief told all nine batches
+"no official answer key exists for any of these papers." That is false for one
+of them. **Inspector of Legal Metrology, November 2023 Paper II is the paper
+already transcribed as `cse_paper_2` in `staged/ilm2023-official-key.json`**
+(MPSC Final Answer Key, 8 March 2024).
+
+The labels do not say so — the bank files that exam's papers as "Paper I / Paper
+II" while this extraction calls them "Paper II / Paper III", so going by the
+name gets it backwards. What settles it is answer agreement: over q41–70 the two
+solver passes matched `cse_paper_2` **27/29 and 28/29**, against 18–45% for
+every other pairing of these batches with either keyed paper, while agreeing
+with *each other* 98%. The q-numbers corroborate it — the bank holds
+`ILM2023_P2_*` for q1–40 and this batch covers q41–70, with **zero overlap** and
+zero stem matches above 0.68 similarity, so this batch continues the same paper
+exactly where the earlier import stopped.
+
+Consequence for the import, per `tools/VERIFY_BRIEF.md`: for those 29 questions
+the official key is the scoring authority *even where it looks wrong*, so it
+supersedes the solver's answer and the solver's dissent becomes a `note`. Only
+**one** question is actually affected — **N0162** (q67, "A object which exists
+for a particular period"), where both passes chose (b) *dynamic objects* and the
+official key says (d) *automatic objects*. On **N0156** (q61) solver B already
+matched the key. November 2023 **Paper III** agrees with neither key better than
+chance (27% / 18%) and is genuinely unkeyed, so the brief's premise holds there.
+
+**One question the extractor lost.** ILM Nov-2023 Paper II is a contiguous run
+of q41–70 with exactly one gap, **q44** — and q44's complete text (stem plus all
+four options) is sitting inside option (d) of **N0139**, where OCR spliced it.
+This is the DEVLOG 2026-08-04 silent-loss signature again, caught this time by
+checking q-number continuity per sitting rather than trusting the record count.
+It is fully recoverable: the swallowed text reads "What is a pure virtual
+function in C++?" with (c) "A function that must be overridden in derived
+classes", and the official key for q44 is **C** — which matches. N0139 also
+needs option (d) truncated back to "Logical operators (e.g., &&, ||)".
+
+**What's still open.**
+
+- **No import script exists yet** for `staged/tech2-2026/` → `questions.js`. It
+  must special-case the 29 officially-keyed questions rather than importing all
+  265 as `derived`, or it will label an authoritative answer as agent-derived
+  and get N0162 wrong.
+- **32 of `cse_paper_2`'s 100 questions are in neither the bank nor this batch**
+  — q39, q44, and the whole tail q71–100 — and all 32 have an official key
+  available. That is the largest single block of keyed, unimported material
+  known in this app.
+- **The ILM-2023 official key is still not applied to the bank at all.** Its own
+  `_note` says "NOT YET APPLIED", and it records **12 disagreements** against
+  stored answers in `ILM2023_P1_*`/`P2_*` (see `SPLIT-FINDINGS-REVIEW.md`
+  section 0). Those are 12 questions where the bank currently teaches an answer
+  the official key contradicts.
+- 6 A/B answer disagreements across the 265 to adjudicate; the app's convention
+  is to show both rather than pick one.
+- 14 checker warnings, all of the "OCR left trailing junk, answer unaffected"
+  class — read them, but they are repair-text candidates, not answer bugs.
+
+---
+
 ## 2026-09-03 (cont. 2) — Symbol-font damage cleared from the bank: 21 cards read off their source scans, four of them keyed to the wrong option
 
 **What shipped.** 21 corrections in `staged/audit-corrections.json` — 17 to

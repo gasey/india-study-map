@@ -9,6 +9,123 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-03 (later still) — A Repeats tab in both apps: MPSC reuses Technical Paper I questions, and now you can see which ones
+
+**What shipped.** A **Repeats** tab in both static apps, listing the Technical
+Paper I questions MPSC has printed more than once, sorted most-reprinted first
+and expandable to read every copy inline with its own options, answer and
+`provLine()` badge. Backed by a new generated sidecar per app.
+
+- **`tools/system-analyst-build/find_repeats.py` → `public/mpsc-system-analyst/data/repeats.js`** —
+  **36 groups over 73 questions**, from a pool of 865 `src: 'past'` TECH1
+  questions across 17 sittings.
+- **`tools/system-manager-build/find_repeats.py` → `public/mpsc-system-manager/data/repeats.js`** —
+  **25 groups over 54 questions**, from 296 past TECH1 questions across all four
+  Computer Operator sittings. **Four of those groups appear in 3 of the 4
+  papers** — `Status register is also called as` (answer `D` Flags all three
+  times), the `sub-directory structure` DOS command, MS-Word word-wrap, and
+  MS-Word column autofit.
+- Sidecars, not fields on `questions.js`, following `data/modes.js` for the
+  reason its header gives: the `--merge` rebuilds would silently erase a field
+  added to the question records. Both generators are deterministic (no
+  timestamp) and take `--check` so CI can catch a stale committed file. The
+  manager one also takes `--audit`, which reconciles the clusters against the
+  `dup_of` tags `harvest.py:515` already writes — **all 27 `dup_of` pairs fall
+  inside the new clusters**, an independent cross-check of both implementations.
+- Hot sub-topics per app, as pills: analyst is 32 repeats in Computer
+  Architecture, 15 in Discrete Mathematics, 12 in DSA; manager is 11 in CPU
+  Architecture, 5 in Command Prompt.
+
+**Why the pool is `src: 'past'` only.** A repeat count is evidence of MPSC's
+behaviour only if every copy came from a paper MPSC actually set. Mixing in
+authored questions turns "asked three times" into "asked once, then written
+twice by us" — the number would still read as 3. Same reason groups must span
+two distinct *sittings*: two copies inside one paper are a bank artefact. The
+analyst view says outright that its 17 sittings are different posts, so
+"asked 2×" means MPSC recycled the question between two of its technical
+papers and is **not** a 2-in-17 chance of recurrence. Only the manager app
+states a rate, because there all four papers examine the same post against the
+same syllabus.
+
+**Why matching is near-identical rather than exact, and the four guards that
+keeps honest.** MPSC retypes rather than copy-pastes — it adds a blank, or
+writes "Which DOS command" where the older paper wrote "Which command". Exact
+matching found 33/26 groups; tolerant matching finds 36/25 *after* rejecting
+false positives that a naive similarity score merged:
+
+- **digit multisets must agree.** `Type | grammars` vs `Type 3 grammars` scored
+  1.00 because tokenisation dropped single-character tokens — so `1` and `3`
+  vanished. Digits now survive tokenisation. (Also worth noting: that `|` is
+  itself OCR damage of `Type 1` in `ILM2023_P1_022`.)
+- **unicode is preserved.** Stripping to `[a-z0-9]` made the three formal-language
+  questions `L={aⁿb²ⁿ}`, `L={a²ⁱ}` and `L={aⁱbⁱcⁱdⁱ}` byte-identical.
+- **character ratio ≥ 0.72.** `Operating system` and `What does an operating
+  system do` share every content word and are not the same question.
+- **short stems need a shared option.** `Process is` appears in JE2016 and
+  PROG2018 with *entirely different* option sets — two different questions
+  wearing a two-word stem, not a reprint.
+
+**The mismatch flag went through three wrong versions before it was honest,
+and that is the part worth remembering.** The first version compared answer
+*letters* and reported 4 "conflicts" claiming at least one copy was wrong.
+Every one was a false alarm, for three different reasons:
+
+1. **MPSC reorders options between printings.** The max-heap question is `B root`
+   in ILM2018 and `C Root node` in PROG2018 — same answer, different letter.
+   Fixed by comparing the correct option's *text*, with a subset test so
+   `root` and `root node` agree. Same story for the manager's Format Painter
+   question (`C` vs `B`, identical sentence).
+2. **Symbol and math options normalise to nothing.** `Formulas in Excel start
+   with` has options `%  =  +  –`; `O(n)` reduces to a stopword and a
+   single letter. Treating that emptiness as disagreement flagged three groups
+   whose copies are *character-identical*. Now the raw normalised text is
+   compared first, and only when it carries no signal at all does it fall back
+   to the letter — which is trustworthy exactly when both option lists match.
+3. **"At least one is wrong" is not always true.** So the flag is now a kind,
+   not a boolean: `answer` (comparable options, genuinely different answers —
+   someone is wrong), `options` (reprinted with different distractors, each
+   copy right for its own list) and `missing` (no copy has an answer). Only
+   `answer` gets the red "needs a source check" treatment; `options` gets its
+   own "not a conflict" callout so the badge is never mistaken for an error.
+
+After that: **zero `answer` conflicts in either bank.** What survives is two
+real findings, both in the analyst bank and both listed below.
+
+**What's still open.**
+
+- **`TECH1_CSE_193` / `MES2015_PAPER1_023` carry no answer at all** (flagged
+  `missing`). A binary half-subtractor question. Worse, the two copies
+  transcribe option D differently — `D = AB + A'B' (single bar printed over
+  AB)` vs `(double complement over AB)` — and single vs double overbar changes
+  the maths, so the copies disagree about what the option even *says*. Needs
+  the source scan in `~/Downloads/mpsc_pdfs_examination/`; until then the pair
+  is genuinely unanswerable rather than merely unanswered.
+- **`JE2016_P2_024` / `PROG2018_P1_066` (`Process is`) are grouped but probably
+  shouldn't be.** They share one option of four, which is enough to pass the
+  shared-option guard, so they cluster and get badged `options`. Defensible as
+  shipped — the badge says exactly what is true — but the honest reading is
+  that these are two different questions and the group inflates the analyst
+  count by one.
+- **Repeat evidence is not feeding `conf` yet.** The manager's top group has
+  three copies answering `D` identically, rated `high`, `unrated`, `unrated`.
+  Three independent printings agreeing is decent evidence, and an unrated copy
+  sitting next to a high-confidence twin of itself is a ranking the bank could
+  now fix automatically.
+- **`dup_of` is still unread by the manager UI.** The new sidecar supersedes it
+  for display purposes; `--audit` exists so the two cannot silently diverge,
+  but nothing enforces running it.
+- **Analyst legacy paper excluded.** `TECH1_LEGACY` (the real, superseded
+  Nov-2024 Informatics Officer paper) is out of the pool by choice. Including
+  it adds 2 groups, one of which — `TECH1_2024-89` == `TECH1_OLD-100` — is a
+  genuine reprint of the actual exam for this post. Worth revisiting.
+- **Browser verification was behavioural, not visual.** Both tabs were driven
+  end to end (all filters, expand/collapse-all, per-group toggles, computed
+  CSS in dark theme, clean console), but `computer{action:"screenshot"}` timed
+  out repeatedly on both apps — these pages ship 5 MB of data files and the
+  renderer would not produce a frame. No screenshot exists for this change.
+
+---
+
 ## 2026-09-03 (cont. 2) — Symbol-font damage cleared from the bank: 21 cards read off their source scans, four of them keyed to the wrong option
 
 **What shipped.** 21 corrections in `staged/audit-corrections.json` — 17 to

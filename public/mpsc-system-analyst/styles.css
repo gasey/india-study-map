@@ -448,3 +448,12 @@ label.fld { display: flex; flex-direction: column; gap: .25rem; font-size: .78re
 .mixbar .seg.calculate{background:var(--accent)}
 .mixbar .seg.understand{background:var(--good)}
 .mixbar .seg.memorise{background:var(--warn)}
+
+/* Repeats view. A group card is a clickable summary with its copies folded
+   underneath; the copies are always in the DOM (the pool is under 80
+   questions) so nothing has to re-render on expand. */
+.rep-head { cursor: pointer; align-items: flex-start; gap: 1rem; }
+.rep-head:hover .qtext { color: var(--accent); }
+.rep-copies { margin-top: .9rem; border-top: 1px solid var(--line); padding-top: .9rem; }
+.rep-copy { background: var(--panel-2); border-left: 3px solid var(--accent); }
+.rep-copy:last-child { margin-bottom: 0; }

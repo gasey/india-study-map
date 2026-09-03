@@ -210,5 +210,18 @@
   "note": "Stored answer was (a); corrected to (c) by the 2026-09-02 answer-key audit, upheld by two independent adjudicators. The paper's second independent solver had already named (c); the audit agrees.",
   "old_note": "second solver said (C)",
   "note_mode": "replace"
+ },
+ {
+  "id": "CO2019B-P1-65",
+  "app": "system-manager",
+  "type": "explanation_contradicts",
+  "finding_conf": "high",
+  "votes_conf": [
+   "high"
+  ],
+  "action": "set_explanation",
+  "exp": "The printed format code is a misprint: the paper shows '#,##0.002 with no closing quote, and no such format code exists. The intended code is #,##0.00 — two decimal places with a thousands separator — which renders 1234.5 as 1,234.50. The same question appears in the sibling December 2019 sitting (AH & Vety Dept, Paper I q62) printed correctly as '#,##0.00' over 5436.8, keyed 5,436.80. Option (c) is the unformatted value and (d) drops both the separator and the decimals.",
+  "note": "MPSC's own paper misprints the format code as '#,##0.002 (missing closing quote, stray 2) — verified against the source scan, so this is not an extraction error. Read it as #,##0.00; the AH & Vety sitting prints the same question correctly.",
+  "note_mode": "set"
  }
 ]

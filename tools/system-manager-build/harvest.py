@@ -63,7 +63,14 @@ STAGED = os.path.join(HERE, "staged")
 PERSONAL = os.path.expanduser("~/workspace/projects/personal")
 BANK = os.path.join(PERSONAL, "mpsc-question-bank", "bank", "mpsc_bank_v2.json")
 PDFS = os.path.join(PERSONAL, "mpsc-question-bank", "pdfs")
-JSO = os.path.join(PERSONAL, "mpsc-jso-prep", "data")
+# The JSO app lives in THIS repo, under public/. It used to be read from the
+# standalone ~/workspace/projects/personal/mpsc-jso-prep/ project, which is an
+# unversioned 28-July snapshot that stopped being updated: its p4u* units were
+# expanded here on 2026-08-11 and the copy over there never saw it. Harvesting
+# from it silently capped Tier 4 at 14 questions per unit instead of 36, and
+# nothing caught that because the count was internally consistent (see DEVLOG
+# 2026-09-03). Read the copy the app actually serves.
+JSO = os.path.join(HERE, "..", "..", "public", "mpsc-jso-prep", "data")
 
 LETTERS = ["A", "B", "C", "D"]
 

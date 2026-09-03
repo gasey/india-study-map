@@ -1,0 +1,23 @@
+{
+  "JSO-P4U2-14": { "unit": "II", "sub": "Database Architecture" },
+  "JSO-P4U2-15": { "unit": "II", "sub": "ER Modelling" },
+  "JSO-P4U2-16": { "unit": "II", "sub": "ER Modelling" },
+  "JSO-P4U2-17": { "unit": "II", "sub": "Relational Database Management System" },
+  "JSO-P4U2-18": { "unit": "II", "sub": "Relational Database Management System" },
+  "JSO-P4U2-19": { "unit": "II", "sub": "Data Manipulation Language (DML)" },
+  "JSO-P4U2-20": { "unit": "II", "sub": "Data Manipulation Language (DML)" },
+  "JSO-P4U2-21": { "unit": "II", "sub": "Relational Database Management System" },
+  "JSO-P4U2-22": { "unit": "II", "sub": "Concurrency Control" },
+  "JSO-P4U2-23": { "unit": "II", "sub": "Concurrency Control" },
+  "JSO-P4U2-24": { "unit": "V", "sub": "Digital Reasoning" },
+  "JSO-P4U2-25": { "unit": "II", "sub": "Database Architecture" },
+  "JSO-P4U2-26": { "unit": "II", "sub": "Concurrency Control" },
+  "JSO-P4U2-27": { "unit": "II", "sub": "Database Concepts" },
+  "JSO-P4U2-28": { "unit": "II", "sub": "Data Models" },
+  "JSO-P4U2-29": { "unit": "II", "sub": "Data Definition Language (DDL)" },
+  "JSO-P4U2-30": { "unit": "II", "sub": "Transaction Control Language (TCL)" },
+  "JSO-P4U2-31": { "unit": "II", "sub": "Backup and Recovery" },
+  "JSO-P4U2-32": { "unit": "II", "sub": "Backup and Recovery" },
+  "JSO-P4U2-33": { "unit": "II", "sub": "Transactions" },
+  "JSO-P4U2-34": { "unit": "II", "sub": "Concurrency Control" }
+}

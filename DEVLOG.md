@@ -187,6 +187,155 @@ real findings, both in the analyst bank and both listed below.
 
 ---
 
+## 2026-09-03 (later) — System Manager Technical Paper I audited end to end: 805 questions, zero wrong answers, and the JSO harvest has been reading a stale copy for weeks
+
+**What shipped.** A full independent answer audit of **every** System Manager
+Technical Paper I question — `TECH1` (456) plus `TECH1P` (349) = **805** — two
+corrections from it, and then a pipeline fix the audit exposed that adds 43
+questions the bank should have had all along. Bank **1845 → 1888**.
+
+- **35 Sonnet verifier agents**, 23 questions each, run against the existing
+  `tools/VERIFY_BRIEF.md`. Each re-derived every answer from first principles
+  *before* reading the stored `exp`, and reported problems only.
+- **6 findings, 0 of them a wrong answer.** One skeptic adjudicator (told to
+  defend the stored card and default to `refuted`) refuted all 6. Four of those
+  refutations are right and nothing was changed for them: `CO2016B-P1-2` and
+  `CO2016A-P1-8` already carry the caveat in their own `exp` text, and
+  `CO2019A-P1-33` (F8 Safe Mode) / `CO2019B-P1-62` (pre-ribbon Format menu) are
+  dated *premises* where the stored letter is still the only defensible one — a
+  note there is trivia that would make a candidate doubt a correct answer.
+- **`CO2019B-P1-65` got the explanation it never had**, over the skeptic's
+  refutation. The skeptic was right that the question is answerable and B is
+  correct, so `broken_question` was the wrong finding *type* — but the card was
+  shipping a stem reading `format the cell containing 1234.5 as '#,##0.002` with
+  an **empty `exp`** and an empty note. No such format code exists, so a reader
+  had no way to get from that stem to 1,234.50 except by memorising something
+  false. Now explained, with the misprint named.
+- **`JSO-P4U1-2`: stem repaired.** `The binary number 110110102 expressed in
+  hexadecimal is` — a flattened base subscript, so the "binary" number contains
+  a 2 and cannot be parsed. Fixed to `11011010`, matching how the bank's other
+  base question is phrased (no subscript convention exists here). The `exp`
+  already worked `11011010`, which is how it stayed invisible.
+
+**Why the misprint finding needed the scan, not the reasoning.** The verifier
+called `'#,##0.002` OCR damage and cited this project's own history for it. That
+was the right instinct and the wrong conclusion. `Paper-I(Election).pdf` page 7
+rendered at 200 dpi shows **MPSC printed it that way** — the transcription is
+faithful. What settles the intent is the sibling sitting: AH & Vety Dept,
+December 2019 Paper I q62 prints the same question correctly as
+`'#,##0.00'` over 5436.8, keyed 5,436.80. So the code is `#,##0.00`, B is right,
+and the defect is the *card's silence*, not its answer. Both facts are now in
+the card so the next reader doesn't re-derive them.
+
+**The find that matters most, and the import it unblocked.** `harvest.py` was
+reading JSO questions from `~/workspace/projects/personal/mpsc-jso-prep/data/`
+— a **separate, unversioned, 28-July directory** — not from
+`public/mpsc-jso-prep/data/` in this repo, which is what the app actually
+serves. They had diverged: `p4u1-computer-fundamentals.js` held **14** questions
+in the pipeline's copy and **36** in the served one. That is why `TECH1` carried
+exactly 14 JSO questions. Nothing asserted this was wrong — the harvest printed
+a tier-4 count and the count was internally consistent. Same lesson as the
+October-2023 answer key: *the pipeline's own output is not evidence about its
+inputs.*
+
+Checked the divergence direction before changing anything: the in-repo copy is a
+strict **superset** on every file, and the `p4u*` units were expanded here on
+2026-08-11 while the external copy never saw it. So `JSO` now points at
+`public/mpsc-jso-prep/data/`, and the bank goes **1845 → 1888**:
+
+- `TECH1` **456 → 478** (+22: SJF waiting time, RAID 5, `fork()` return values,
+  DRAM vs SRAM, `mmap`, ISAM, FAT32/NTFS/exFAT internals, type-1 hypervisors,
+  layered OS design, resource-allocation graphs)
+- `TECH2` **582 → 603** (+21 DBMS — the same two-line fix necessarily reaches
+  `p4u2`, which the same stale path had capped at 13 of 34)
+
+All 43 new questions arrived with `unit: null, sub: null`, which `assemble.py`
+passes **silently** — its taxonomy check only validates a tag when `sub is not
+None`, so a null tag is not a tag error, it is invisible. Untagged they would
+have been unreachable from the Syllabus and Study tabs. Tagged via
+`tagging.py --export`/`--merge` (1144/1144 validated against the taxonomy), then
+re-assembled: 70/70 JSO questions now carry a leaf, 0 untagged.
+
+**The 43 new questions were audited before shipping, not after.** Same brief,
+three more Sonnet agents, quantitative items worked by hand (hex→decimal,
+scheduling waiting times, normalisation via FD analysis, isolation-level
+anomalies, epoch arithmetic). **0 findings.** A mechanical scan of all 70 JSO
+questions also came back clean.
+
+**`~/workspace/projects/personal/mpsc-jso-prep/` was NOT deleted**, contrary to
+the obvious tidy-up of removing the second source of truth. It is not a stale
+copy of the app — it is the **original standalone project**, and it holds files
+that exist nowhere else and are in no git repo: `tools/gen_gk.py`,
+`tools/match.py`, `tools/parse_gk.py`, `tools/parse_keys.py`, the whole
+`tools/science-guide/` builder (9 scripts plus
+`primers_{biology,chemistry,physics}.json` and `final.json`),
+`science-study-guide.html`, `MIZORAM_QUESTIONS.md` and its `README.md`. Deleting
+it would have destroyed unversioned build tooling. The path confusion is already
+fixed by `harvest.py` no longer reading it; what that directory still needs is to
+be brought under version control or deliberately archived — a separate decision,
+flagged rather than taken.
+
+**A mechanical damage scan of all 805** — markdown residue in stems/options,
+blank or duplicated options, Symbol-font PUA glyphs, answers naming a
+non-existent option, flattened base subscripts — found **one** real defect
+(`JSO-P4U1-2`, above). The `---`-into-option-D class from this morning's
+practice import is absent. Worth keeping as a check script rather than a
+one-off; it caught what 35 semantic agents walked past, because the explanation
+made the intent readable to a solver and not to a reader.
+
+**Verified.** Done in two stages, each diffed against a snapshot rather than
+trusted.
+
+*The two corrections, before the import:* `harvest.py` and `assemble.py` re-ran
+clean; the rebuilt `questions.js` was diffed field by field against a pre-run
+snapshot — 1845 → 1845, exactly 3 changed fields (`CO2019B-P1-65.exp`, `.note`,
+`JSO-P4U1-2.q`), zero other questions touched. The q65 card was read as rendered
+in Past Papers → Election Dec 2019 Paper I: explanation present, note appended,
+badge still `derived · unrated` (correct — no official key exists). Both
+`p4u1-computer-fundamentals.js` and `questions.js` confirmed **over HTTP** to
+serve the repaired stem.
+
+*The import:* 1888 total, `TECH1` 478 / `TECH2` 603, 70/70 JSO questions tagged
+and 0 untagged. Practice reports `1888 questions match`; Mock Test reads "bank
+holds 478" and "bank holds 603", so both technical mocks see the new pool.
+Drove a real Practice draw (TECH1 · Unit II · authored-only, 68 in pool) and
+read a newly imported card end to end — `JSO-P4U1-36`, correctly filed under
+Unit II · File Systems, explanation rendering, spaced-repetition box advancing
+on a correct answer, and the badge reading `derived · unrated` with the honest
+"authored for MPSC JSO prep, reused here" provenance rather than a blue
+official-key one. No console errors on any tab visited.
+
+**What's still open.**
+
+- **179 of Technical Paper I's 827 are `conf: unrated`** — 143 transcribed 2019
+  plus all 36 JSO ones. (Bank-wide the figure is 570, mostly `GE` 224 and
+  `TECH2` 167, neither of which this pass touched.) This audit gave every
+  Technical Paper I one an independent re-derivation that agreed, which is
+  strictly more than the `unrated` badge claims ("nothing has checked this").
+  Deliberately **not** upgraded, and the user confirmed leaving it: the
+  verifiers were asked to report problems, not to rate agreement, so promoting
+  cards off the back of the *absence* of a finding is exactly the
+  unearned-authority move `provLine()` exists to prevent. Doing it honestly
+  needs a pass that records a per-question verdict, not a bulk `sed`.
+- `CO2019B-P1-65` keeps `conf: unrated` because the overlay's `set_explanation`
+  action does not carry `conf`. Two independent lines of evidence now agree on
+  it, so it is arguably the best-evidenced derived answer in the paper and reads
+  as the worst. Teaching `set_explanation` to carry `conf` is a small change.
+- **`assemble.py` should fail on a null tag, not pass it.** The 43 imported
+  questions shipped `unit: null, sub: null` through every existing assertion.
+  The taxonomy check guards `if sub is not None`, so the one state that makes a
+  question unreachable from the Syllabus and Study tabs is the one state it does
+  not check. `tagging.py --export` did surface them, but only because someone
+  thought to run it.
+- **`~/workspace/projects/personal/mpsc-jso-prep/` is unversioned** and holds
+  the only copy of its `tools/` and `tools/science-guide/` builders. Not this
+  session's call to make, but it is one `rm -rf` from being gone.
+- The audit covered Technical Paper I only. `GE` (388) and the pre-existing
+  `TECH2` (582) had the 2026-09-02 bank-wide pass but not this per-question
+  re-derivation. The 21 new `TECH2` questions did get it.
+
+---
+
 ## 2026-09-03 — Technical Paper II 2026: 265 questions double-solved, and the paper we were told had no answer key turns out to have one
 
 **What shipped.** Nothing has been written to `questions.js` yet — this entry

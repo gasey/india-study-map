@@ -2039,6 +2039,94 @@
     "unit": "I",
     "sub": "CPU Architecture and Instruction Cycle"
   },
+  "JSO-P4U1-15": {
+    "unit": "I",
+    "sub": "Functional Components of a Computer"
+  },
+  "JSO-P4U1-16": {
+    "unit": "I",
+    "sub": "Cache Memory"
+  },
+  "JSO-P4U1-17": {
+    "unit": "II",
+    "sub": "Process Management"
+  },
+  "JSO-P4U1-18": {
+    "unit": "I",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  "JSO-P4U1-19": {
+    "unit": "I",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  "JSO-P4U1-20": {
+    "unit": "II",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  "JSO-P4U1-21": {
+    "unit": "I",
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  "JSO-P4U1-22": {
+    "unit": "II",
+    "sub": "Process Management"
+  },
+  "JSO-P4U1-23": {
+    "unit": "II",
+    "sub": "Process Management"
+  },
+  "JSO-P4U1-24": {
+    "unit": "II",
+    "sub": "Process Management"
+  },
+  "JSO-P4U1-25": {
+    "unit": "II",
+    "sub": "Memory Management"
+  },
+  "JSO-P4U1-26": {
+    "unit": "II",
+    "sub": "File Systems"
+  },
+  "JSO-P4U1-27": {
+    "unit": "I",
+    "sub": "Disaster Recovery Concepts"
+  },
+  "JSO-P4U1-28": {
+    "unit": "II",
+    "sub": "File Systems"
+  },
+  "JSO-P4U1-29": {
+    "unit": "II",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  "JSO-P4U1-30": {
+    "unit": "II",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  "JSO-P4U1-31": {
+    "unit": "II",
+    "sub": "Process Management"
+  },
+  "JSO-P4U1-32": {
+    "unit": "II",
+    "sub": "Process Management"
+  },
+  "JSO-P4U1-33": {
+    "unit": "II",
+    "sub": "File Systems"
+  },
+  "JSO-P4U1-34": {
+    "unit": "II",
+    "sub": "File Systems"
+  },
+  "JSO-P4U1-35": {
+    "unit": "II",
+    "sub": "File Systems"
+  },
+  "JSO-P4U1-36": {
+    "unit": "II",
+    "sub": "File Systems"
+  },
   "CO2016A-P1-41": {
     "unit": "II",
     "sub": "Files and Folders"
@@ -3270,6 +3358,90 @@
   "CO2019B-P2-74": {
     "unit": "V",
     "sub": "Analytical Reasoning"
+  },
+  "JSO-P4U2-14": {
+    "unit": "II",
+    "sub": "Database Architecture"
+  },
+  "JSO-P4U2-15": {
+    "unit": "II",
+    "sub": "ER Modelling"
+  },
+  "JSO-P4U2-16": {
+    "unit": "II",
+    "sub": "ER Modelling"
+  },
+  "JSO-P4U2-17": {
+    "unit": "II",
+    "sub": "Relational Database Management System"
+  },
+  "JSO-P4U2-18": {
+    "unit": "II",
+    "sub": "Relational Database Management System"
+  },
+  "JSO-P4U2-19": {
+    "unit": "II",
+    "sub": "Data Manipulation Language (DML)"
+  },
+  "JSO-P4U2-20": {
+    "unit": "II",
+    "sub": "Data Manipulation Language (DML)"
+  },
+  "JSO-P4U2-21": {
+    "unit": "II",
+    "sub": "Relational Database Management System"
+  },
+  "JSO-P4U2-22": {
+    "unit": "II",
+    "sub": "Concurrency Control"
+  },
+  "JSO-P4U2-23": {
+    "unit": "II",
+    "sub": "Concurrency Control"
+  },
+  "JSO-P4U2-24": {
+    "unit": "V",
+    "sub": "Digital Reasoning"
+  },
+  "JSO-P4U2-25": {
+    "unit": "II",
+    "sub": "Database Architecture"
+  },
+  "JSO-P4U2-26": {
+    "unit": "II",
+    "sub": "Concurrency Control"
+  },
+  "JSO-P4U2-27": {
+    "unit": "II",
+    "sub": "Database Concepts"
+  },
+  "JSO-P4U2-28": {
+    "unit": "II",
+    "sub": "Data Models"
+  },
+  "JSO-P4U2-29": {
+    "unit": "II",
+    "sub": "Data Definition Language (DDL)"
+  },
+  "JSO-P4U2-30": {
+    "unit": "II",
+    "sub": "Transaction Control Language (TCL)"
+  },
+  "JSO-P4U2-31": {
+    "unit": "II",
+    "sub": "Backup and Recovery"
+  },
+  "JSO-P4U2-32": {
+    "unit": "II",
+    "sub": "Backup and Recovery"
+  },
+  "JSO-P4U2-33": {
+    "unit": "II",
+    "sub": "Transactions"
+  },
+  "JSO-P4U2-34": {
+    "unit": "II",
+    "sub": "Concurrency Control"
   },
   "CO2016A-P2-28": {
     "unit": "II",

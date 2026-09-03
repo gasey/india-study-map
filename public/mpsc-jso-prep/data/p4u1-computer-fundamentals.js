@@ -210,7 +210,7 @@ window.MPSC.units.push({
       o: ['0A 0B 0C 0D', '0D 0C 0B 0A', '0B 0A 0D 0C', '0C 0D 0A 0B'], a: 1,
       e: '<p>Little-endian stores the <b>least significant byte at the lowest address</b>. The least significant byte of 0x0A0B0C0D is 0x0D, so the order is 0D 0C 0B 0A — a straight reversal of the bytes.</p><p>Option (a) is the big-endian layout. Option (c) swaps within pairs only, a common distractor.</p>' },
 
-    { q: 'The binary number 110110102 expressed in hexadecimal is',
+    { q: 'The binary number 11011010 expressed in hexadecimal is',
       o: ['0xDA', '0xAD', '0xBC', '0xD2'], a: 0,
       e: '<p>Group into nibbles from the right: <code>1101 1010</code>. 1101 = 13 = D, 1010 = 10 = A. Hence <b>0xDA</b>.</p><p>0xAD would be 10101101 — the nibbles read in the wrong order, which is the intended trap.</p>' },
 

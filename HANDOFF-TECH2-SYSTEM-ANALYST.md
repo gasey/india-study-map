@@ -101,7 +101,14 @@ instructed to refute each key**, not to approve it:
 
 Checkers to run after any change:
 `check_bank_consistency.py` (4 warnings, all pre-existing TECH1/CSE/MES, none in
-Paper II) and `check_symbol_residue.py` (0 private-use residue across 1,830).
+Paper II) and `check_symbol_residue.py` (0 private-use residue).
+
+`check_bank_consistency.py` gained a **fifth check** on 2026-09-05: an MCQ whose
+options were carved out of a descriptive card's stem. Checks 2–4 all skip cards
+with no options, so a descriptive card and an MCQ of the same question were
+never compared — `MES2023_P1_B020` lived in that gap with a live wrong answer.
+If you add an import route that can emit both shapes, this is the check that
+guards it.
 
 ## Open items, most valuable first
 
@@ -142,7 +149,15 @@ Paper II) and `check_symbol_residue.py` (0 private-use residue across 1,830).
    (`GEN-158`, `GEN-215`, `TECH1_OLD-3`). The agent looks right in all three —
    a district count is recall, not computation — but they are flagged for a
    human.
-8. **Unit 4 bundles more than 21 questions can cover.** Zero Trust and IAM have
+8. **188 MES/Informatics-Officer answers are `derived · unrated`** — the 80
+   authored IO-2026 questions and 69 from the IO "earlier sitting", the same
+   sitting whose original answers the 2026-08-29 pass found ~29% wrong. They
+   render honestly (unrated never reads as authoritative), but rating them is
+   the largest remaining correctness pass on that material. Note the MES and
+   Informatics Officer **source PDFs are not on this machine** — only
+   `sources/programmer-2018-technical-paper-i.pdf` is — so this needs the
+   originals before it can be done properly.
+9. **Unit 4 bundles more than 21 questions can cover.** Zero Trust and IAM have
    no dedicated question and Sustainable Cloud Computing has no leaf of its own
    in `syllabus.js`; all three are carried by the concept notes instead. A
    second question pass on Unit 4 would be worthwhile.

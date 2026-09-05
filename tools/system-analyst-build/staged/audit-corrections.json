@@ -780,5 +780,18 @@
   "note": "OCR damage repaired 2026-09-03: option (b) read 'Theycanbe recognized'. Spacing only -- no wording, option order or answer was touched. Found alongside its neighbour ILM2023_P1_022, whose stem had lost the '1' from 'Type 1'.",
   "note_mode": "append",
   "old_note": "Only the Paper-I-syllabus questions from this paper were imported (97 of 98)."
+ },
+ {
+  "id": "MES2023_P1_B020",
+  "app": "system-analyst",
+  "type": "duplicate_card",
+  "finding_conf": "high",
+  "votes_conf": [
+   "high"
+  ],
+  "action": "remove_card",
+  "stem_starts_with": "Identify the heap from the following sequences",
+  "superseded_by": "MES2023_P1_B20",
+  "why": "Corrupted duplicate of MES2023_P1_B20. The source is Section B Q20, a 5-mark conventional short-answer question: 'Identify the heap from the following sequences and determine it is min or max binary heap', followed by five sequences (a)-(e) that the candidate must each classify. This card stripped those five sequences out of the stem, promoted them to MCQ options A-E, and keyed it 'A' -- so it was live in the answerable pool teaching a single-letter answer to a five-part classification exercise. Evidence it is the stale copy: (1) MES2023_P1_B20's prov records it was 'recovered from the source scan after the extractor dropped it', i.e. B20 is the later repair and holds the full stem with all five sequences plus a model answer; (2) this is the ONLY one of the bank's 37 Section-B cards carrying options at all; (3) its own exp concedes 'both are valid heaps of different kinds, so a single-letter answer can't fully capture the intended answer'; (4) its note is a Section-A note ('50 of 51') pasted onto a Section-B question; (5) its `no` is 20, colliding with the real Section-A Q20 (MES2023_P1_020), which is an unrelated adder question. check_bank_consistency.py could not catch this: it skips cards with no options, so a descriptive card and an MCQ sharing a stem were never compared -- that gap is closed in the same pass."
  }
 ]

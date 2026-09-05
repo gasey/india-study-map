@@ -59,7 +59,14 @@ ROOT = HERE.parents[1]
 QUESTIONS_FILE = ROOT / "public" / "mpsc-system-analyst" / "data" / "questions.js"
 CORRECTIONS = HERE / "staged" / "audit-corrections.json"
 
-VALID_ACTIONS = {"set_answer", "set_explanation", "note_only", "repair_text", "set_tags"}
+VALID_ACTIONS = {"set_answer", "set_explanation", "note_only", "repair_text", "set_tags",
+                 "remove_card"}
+
+# Actions that may name an id which is no longer in the bank. Every other action
+# FAILS on a missing id, because a typo must not read as success — but a removal
+# that already ran leaves its own id absent, so it has to be exempt or the second
+# run would fail on the work the first run did correctly.
+ABSENT_OK_ACTIONS = {"remove_card"}
 
 
 def load_js(path, name):
@@ -103,7 +110,8 @@ def main():
     questions = load_js(QUESTIONS_FILE, "QUESTIONS")
     by_id = {q["id"]: q for q in questions}
 
-    unknown = [c["id"] for c in corrections if c["id"] not in by_id]
+    unknown = [c["id"] for c in corrections
+               if c["id"] not in by_id and c.get("action") not in ABSENT_OK_ACTIONS]
     if unknown:
         sys.exit(f"FAIL: {len(unknown)} correction id(s) are not in the bank: {unknown}")
     bad = [c["id"] for c in corrections if c.get("action") not in VALID_ACTIONS]
@@ -112,7 +120,33 @@ def main():
 
     changed = 0
     already = 0
+    removed_ids = set()
     for c in corrections:
+        if c["action"] == "remove_card":
+            # A removal deletes content, so it verifies the card is the one the
+            # finding actually argued about before dropping it — a stale id that
+            # now names a different question must stop the run, not be deleted.
+            q = by_id.get(c["id"])
+            if q is None:
+                already += 1
+                continue
+            stem = (q.get("q") or "").strip()
+            if not stem.startswith(c["stem_starts_with"]):
+                sys.exit(f"FAIL {c['id']}: stem is {stem[:60]!r}, but the finding "
+                         f"expected it to start {c['stem_starts_with']!r}. The card "
+                         f"changed since the finding was written; re-check it rather "
+                         f"than deleting blind.")
+            # The whole justification for deleting this card is that another card
+            # already holds the same question correctly. Verify that survivor is
+            # actually present, or the removal is data loss rather than dedup.
+            keeper = by_id.get(c["superseded_by"])
+            if keeper is None:
+                sys.exit(f"FAIL {c['id']}: the card it defers to, {c['superseded_by']!r}, "
+                         f"is not in the bank. Refusing to remove the only copy.")
+            removed_ids.add(c["id"])
+            changed += 1
+            continue
+
         q = by_id[c["id"]]
         before = json.dumps(q, sort_keys=True, ensure_ascii=False)
 
@@ -210,6 +244,9 @@ def main():
         else:
             changed += 1
 
+    if removed_ids:
+        questions = [q for q in questions if q["id"] not in removed_ids]
+
     save_js(QUESTIONS_FILE, "QUESTIONS", questions)
 
     labels = {
@@ -218,6 +255,7 @@ def main():
         "note_only": "flagged by note only",
         "repair_text": "stems/options repaired from source",
         "set_tags": "re-filed under a different unit/subtopic",
+        "remove_card": "duplicate card(s) removed",
     }
     by_action = {a: sum(1 for c in corrections if c["action"] == a) for a in VALID_ACTIONS}
     print(f"applied {len(corrections)} corrections to {QUESTIONS_FILE.relative_to(ROOT)}")

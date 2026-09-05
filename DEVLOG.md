@@ -9,6 +9,87 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (later still) — Auditing MES and Informatics Officer coverage turned up a live wrong answer the duplicate guard structurally could not see
+
+**What shipped.** `MES2023_P1_B020` removed from the bank (1830 → 1829,
+answerable 1789 → 1788), a `remove_card` action added to
+`apply_audit_corrections.py`, and a fifth check in
+`check_bank_consistency.py` that catches the class of bug it belonged to.
+
+**Why.** The question was a coverage audit — are all the MES and Informatics
+Officer questions present, are they solved, and were the gaps authored? The
+answers are reassuring and are recorded below, but the audit found one card
+teaching a wrong answer.
+
+The source is **Section B Q20**, a 5-mark conventional question: *"Identify the
+heap from the following sequences and determine it is min or max binary heap"*
+followed by five sequences (a)–(e), each of which the candidate must classify.
+One import route lifted those five sequences out of the stem, made them MCQ
+options A–E, keyed it **'A'**, and left the truncated stem behind. The card was
+answerable, so it reached mocks, practice and accuracy stats — teaching a
+one-letter answer to a five-part exercise. Its own `exp` conceded the problem:
+*"both are valid heaps of different kinds, so a single-letter answer can't fully
+capture the intended answer."*
+
+It is a duplicate, not a second question. `MES2023_P1_B20` already holds the
+correct form — full stem, all five sequences, a model answer that works each one
+through — and its `prov` records it was *"recovered from the source scan after
+the extractor dropped it"*, so B20 is the later repair and B020 the copy that
+should have gone with it. Four more signs pointed the same way: B020 was the
+**only one of 37 Section-B cards carrying options at all**; its `note` was a
+Section-A note ("50 of 51") pasted onto a Section-B card; its `no` was 20,
+colliding with the real Section-A Q20, an unrelated adder question; and its
+`sub` was `Heaps` where the repaired card uses `Binary heaps`.
+
+**The guard's blind spot is the more valuable find.** Checks 2–4 all open with
+`opts = q.get("opts") or {}` / `if not opts: continue`, and check 3 only groups
+cards that have options. So a descriptive card and an MCQ of the same question
+were **never compared** — the duplicate-pair guard added on 2026-09-03 could not
+have caught this no matter how the stems read. Stem equality would not have
+found it either: the descriptive copy still carries the `(a)…(e)` list and the
+MCQ copy does not, so the two normalised stems differ.
+
+Check 5 keys on the signature that actually holds — the MCQ's stem is a **prefix**
+of the descriptive stem **and** its option texts are still **inside** that stem.
+Both conditions are required; either alone gives false positives on short stems
+like "Process is". Verified by running it against the pre-removal bank, where it
+reports `5/5 option texts still appear in it` and exits 1, and against the
+current bank, where it is silent — **and across all 1,830 cards it produced no
+other finding**, so it is specific, not a noise generator.
+
+**`remove_card`, and why the applier needed changing rather than a hand-edit.**
+`apply_audit_corrections.py` had no way to delete a card. The new action refuses
+to delete unless it can verify both halves of the argument: the stem still
+starts as the finding described (a stale id that now names a different question
+stops the run), and the card it defers to is actually present (`superseded_by`),
+so a removal can never be the last copy. Missing ids are exempt from the
+fail-loudly rule for this action only — a removal that already ran leaves its own
+id absent, and without the exemption the second run would fail on work the first
+run did correctly. Confirmed idempotent: second run reports *0 changed, 53
+already up to date*, and the diff is 23 deletions and nothing else.
+
+**What the coverage audit actually found — 746 MES + Informatics Officer cards.**
+487 carry MPSC's official key. All syllabus leaves in both current papers have
+questions: **0 bare, 0 with fewer than three**. 41 blank answers bank-wide are
+all correct as blanks — 36 descriptive Section-B cards with model answers, 4
+defective as printed and verified against the scans, 1 MPSC-compensated.
+
+The one alarming-looking pattern was **Informatics Officer q41–70 missing
+identically from both sittings** — a contiguous block, which is the signature of
+the 2026-08-04 silent-loss bug. It is not that: it is the .NET Technologies and
+Java/J2EE units removed at the user's explicit request (see 2026-08-30 entry).
+`TECH1_LEGACY` still shows the matching hole — units 1, 2, **5, 6** — and its
+marks were reduced 200 → 140 to match. Intentional and recoverable.
+
+**What's still open.** 188 of those 746 answers are `derived · unrated`,
+concentrated in two blocks: the 80 authored Informatics-Officer-2026 questions
+and the 69 from the earlier IO sitting — the same sitting whose original answers
+the 2026-08-29 entry found ~29% wrong. Rating those is the obvious next
+correctness pass. The source PDFs for MES and Informatics Officer are **not on
+this machine**, so none of the coverage figures above could be re-verified
+against the originals; they are the bank's own records, and the "(X of Y)"
+import notes are the only claim about what was left out.
+
 ## 2026-09-05 (later) — The "12 live wrong answers" at the top of the open-items list were fixed a day earlier; three stale notes kept them alive
 
 **What shipped.** Nothing in the bank changed, and that is the finding. The item

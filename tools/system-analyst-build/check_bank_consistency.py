@@ -18,7 +18,7 @@ wrong, because one copy had dropped an apostrophe and collapsed two options
 into one. A machine comparing letters and option lists finds that in a second;
 a human comparing answer text does not. Hence: letters AND lists AND order.
 
-THE FOUR CHECKS, and why each is the severity it is.
+THE FIVE CHECKS, and why each is the severity it is.
 
   ERROR  `ans` is neither a key of `opts` nor the bank's parked-card convention
          (`ans: ""` plus a note saying why). app.js keeps a card out of every
@@ -44,6 +44,18 @@ THE FOUR CHECKS, and why each is the severity it is.
          of the duplicates, because then the "right" letter is arbitrary and
          the student is marked wrong for picking the identical other one. 193
          was exactly this.
+
+  ERROR  An MCQ whose options were carved out of a DESCRIPTIVE card's stem.
+         Checks 2-4 all skip cards with no options, so until 2026-09-05 a
+         descriptive card and an MCQ of the same question were never compared
+         at all. MES2023_P1_B020 lived in that gap: the printed Section B Q20
+         lists five sequences (a)-(e) and asks the candidate to classify each,
+         and one import route lifted the five out of the stem, made them
+         options A-E and keyed 'A'. Errors rather than warns because the card
+         is answerable — it reaches mocks and practice teaching a one-letter
+         answer to a five-part question. Detected by requiring BOTH that the
+         MCQ's stem is a prefix of the descriptive stem AND that the option
+         texts still appear inside it; either alone gives false positives.
 
 WHAT IT DOES NOT FLAG. Cards sharing a stem whose option lists barely overlap
 are different questions that happen to be phrased alike — "Identify the
@@ -214,6 +226,46 @@ def main():
                         warnings.append(
                             f"{a['id']} / {b['id']}: same question and key, but option text "
                             f"differs — only in {a['id']}: {only_a}; only in {b['id']}: {only_b}")
+
+    # ---- check 5: an MCQ whose options were carved out of a descriptive stem --
+    #
+    # Checks 3 and 4 only group cards that HAVE options, so a descriptive card and
+    # an MCQ card of the same question were never compared. That is how
+    # MES2023_P1_B020 survived: the source is a 5-mark Section B question listing
+    # five sequences (a)-(e) to classify, and one import route lifted those five
+    # out of the stem, made them options A-E and keyed one of them. The stems are
+    # not equal — the descriptive copy still carries the list, the MCQ copy does
+    # not — so equality on norm_stem finds nothing either.
+    #
+    # The signature that IS reliable: the MCQ's stem is a prefix of the
+    # descriptive card's stem, and the MCQ's option texts are still sitting inside
+    # that stem. Both conditions together mean the options came OUT of this
+    # question rather than being a coincidence of phrasing.
+    descriptive = [q for q in questions
+                   if q.get("q") and not (q.get("opts") or {})]
+    mcq = [q for q in questions if q.get("q") and (q.get("opts") or {})]
+    for d in descriptive:
+        ds = norm_stem(d["q"])
+        if not ds:
+            continue
+        dflat = re.sub(r"\s+", "", ds)
+        for m in mcq:
+            ms = norm_stem(m["q"])
+            # Require a substantial prefix: a short stem like "process is" is a
+            # prefix of plenty of unrelated questions.
+            if len(ms) < 25 or not ds.startswith(ms):
+                continue
+            texts = [norm_opt(v) for v in m["opts"].values()]
+            inside = sum(1 for t in texts if t and re.sub(r"[^a-z0-9]", "", t.lower()) in
+                         re.sub(r"[^a-z0-9]", "", dflat))
+            if inside < max(2, len(texts) - 1):
+                continue
+            errors.append(
+                f"{m['id']} / {d['id']}: {m['id']} is an MCQ whose options were carved out "
+                f"of {d['id']}'s stem ({inside}/{len(texts)} option texts still appear in it). "
+                f"The printed question asks the candidate to work through all of them, so "
+                f"keying one letter ({m.get('ans')!r}) teaches a wrong answer — "
+                f"{m['id']} is a mangled duplicate, not a second question")
 
     print(f"{len(questions)} cards, {pairs} same-question pair(s) compared")
     if warnings:

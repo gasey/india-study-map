@@ -26093,29 +26093,6 @@ window.QUESTIONS = [
   "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
  },
  {
-  "id": "MES2023_P1_B020",
-  "src": "past",
-  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023 · Paper I",
-  "srcKey": "MES2023_P1",
-  "no": 20,
-  "paper": "TECH1",
-  "unit": "3",
-  "sub": "Heaps",
-  "q": "Identify the heap from the following sequences and determine it is min or max binary heap",
-  "opts": {
-   "A": "1, 3, 2, 4, 6, 5",
-   "B": "6,5,3,4,2,1",
-   "C": "30,12,90,8,15",
-   "D": "Jack, Queen, King, Rahul, Frick, Laxman",
-   "E": "Queen, laxman, king, Frick, Eigen, Hive"
-  },
-  "ans": "A",
-  "exp": "Checked as 0-indexed arrays: sequence A (1,3,2,4,6,5) satisfies the min-heap property at every parent-child pair, and sequence B (6,5,3,4,2,1) equally satisfies the max-heap property; both are valid heaps of different kinds, so a single-letter answer can't fully capture the intended answer. C is neither a valid min- nor max-heap, and D/E aren't numeric. Picking A (a valid min-heap), but B is an equally correct max-heap.",
-  "conf": "low",
-  "prov": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023, Paper I, Q20; answer derived by review - no official key exists for this sitting; question defective as printed",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (50 of 51)."
- },
- {
   "id": "MES2023_P2_003",
   "src": "past",
   "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023 · Paper II",

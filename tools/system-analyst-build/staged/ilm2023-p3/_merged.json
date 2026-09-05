@@ -1,0 +1,1205 @@
+[
+ {
+  "no": 1,
+  "q": "A property that describes various characteristics of entity",
+  "opts": {
+   "A": "ER Diagram",
+   "B": "Column",
+   "C": "Relationship",
+   "D": "Attribute"
+  },
+  "flags": [],
+  "_page": 1
+ },
+ {
+  "no": 2,
+  "q": "Tree structures are used to store data in this model",
+  "opts": {
+   "A": "Network model",
+   "B": "Relation model",
+   "C": "Hierarchical model",
+   "D": "File based system"
+  },
+  "flags": [],
+  "_page": 1
+ },
+ {
+  "no": 3,
+  "q": "This clause specifies the query result should be sorted in ascending or descending order based on the values of one or more columns",
+  "opts": {
+   "A": "View",
+   "B": "Order by",
+   "C": "Group by",
+   "D": "Having"
+  },
+  "flags": [],
+  "_page": 1
+ },
+ {
+  "no": 4,
+  "q": "Source S and destination D are connected through two intermediate routers labeled R. Determine how many times each packet has to visit the network layer and the data link layer during a transmission from S to D.",
+  "figure": "A linear network diagram: a square box labelled S, connected by a line to a circle labelled R, connected to a second circle labelled R, connected by a line to a square box labelled D. (S — R — R — D)",
+  "opts": {
+   "A": "Network Layer : 4 times and Data Link Layer : 6 times",
+   "B": "Network Layer : 4 times and Data Link Layer : 5 times",
+   "C": "Network Layer : 4 times and Data Link Layer : 4 times",
+   "D": "Network Layer : 2 times and Data Link Layer : 3 times"
+  },
+  "flags": [
+   "has_figure"
+  ],
+  "_page": 1
+ },
+ {
+  "no": 5,
+  "q": "The network that provides high-speed connectivity or transmission speed is",
+  "opts": {
+   "A": "MAN",
+   "B": "LAN",
+   "C": "WAN",
+   "D": "Internetwork"
+  },
+  "flags": [],
+  "_page": 1
+ },
+ {
+  "no": 6,
+  "q": "Which of the following best describes a single-bit error?",
+  "opts": {
+   "A": "A single bit is inverted",
+   "B": "A single bit per transmission is inverted",
+   "C": "A single bit per data unit is inverted",
+   "D": "A single bit per multiple bits is inverted"
+  },
+  "flags": [],
+  "_page": 1
+ },
+ {
+  "no": 7,
+  "q": "What is the simplest model of software development paradigm?",
+  "opts": {
+   "A": "Spiral model",
+   "B": "Big Bang model",
+   "C": "V-model",
+   "D": "Waterfall model"
+  },
+  "flags": [],
+  "_page": 1
+ },
+ {
+  "no": 8,
+  "q": "Purpose of feasibility study in software engineering.",
+  "opts": {
+   "A": "To determine the financial viability of a software product",
+   "B": "To assess the market potential of a software product",
+   "C": "To evaluate the technical complexity of software development",
+   "D": "To analyze the performance and scalability of existing software"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 9,
+  "q": "What type of software testing is generally used in Software Maintenance?",
+  "opts": {
+   "A": "Regression Testing",
+   "B": "System Testing",
+   "C": "Integration Testing",
+   "D": "Unit Testing"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 10,
+  "q": "Fifth Normal form is concerned with",
+  "opts": {
+   "A": "Domain-key",
+   "B": "Functional dependency",
+   "C": "Multivalued dependency",
+   "D": "Join dependency"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 11,
+  "q": "When two or more users are waiting for data locked by each other, such situations are known to be",
+  "opts": {
+   "A": "Dead-lock",
+   "B": "Object-lock",
+   "C": "Resource-lock",
+   "D": "Process-lock"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 12,
+  "q": "Generating a set of relation schemas that allows storing information without unnecessary redundancy, is goal of",
+  "opts": {
+   "A": "Assertions",
+   "B": "Associations",
+   "C": "Normalization",
+   "D": "Integration"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 13,
+  "q": "Two computers C1 and C2 are configured as follows. C1 has IP address 203.197.2.53 and netmask 255.255.128.0. C2 has IP address 203.197.75.201 and netmask 255.255.192.0. which one of the following statements is true?",
+  "opts": {
+   "A": "C1 and C2 both assume they are on the same network",
+   "B": "C1 and C2 both assume they are on different networks",
+   "C": "C2 assumes C1 is on same network, but C1 assumes C2 is on a different network",
+   "D": "C1 assumes C2 is on same network, but C2 assumes C1 is on a different network"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 14,
+  "q": "The telephone network is a good example of",
+  "opts": {
+   "A": "Half-duplex",
+   "B": "Full duplex",
+   "C": "Simplex",
+   "D": "Four -wire circuit"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 15,
+  "q": "A topology that consists of multiple devices connected by connectors or the main cable is called",
+  "opts": {
+   "A": "Mesh",
+   "B": "Ring",
+   "C": "Bus",
+   "D": "Star"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 16,
+  "q": "Analyst used what method to collect information from individual or from group.",
+  "opts": {
+   "A": "Observations",
+   "B": "Interviews",
+   "C": "Questionnaires",
+   "D": "Record inspection or view"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 17,
+  "q": "The objective of software engineering is to produce",
+  "opts": {
+   "A": "Software Product",
+   "B": "Output",
+   "C": "Generic Product",
+   "D": "Processed Product"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 18,
+  "q": "Why there is a need for Software management?",
+  "opts": {
+   "A": "It is done with few people with fixed skills and abilities",
+   "B": "Software development is complex and expensive",
+   "C": "Software development is not time consuming",
+   "D": "Software development creates job"
+  },
+  "flags": [],
+  "_page": 2
+ },
+ {
+  "no": 19,
+  "q": "LOC-based estimation techniques require problem decomposition based on",
+  "opts": {
+   "A": "Information domain values",
+   "B": "Project Schedule",
+   "C": "Software Functions",
+   "D": "Process Activities"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 20,
+  "q": "If both the functional dependencies : X→Y and Y→X hold for two attributes X and Y then the relationship between X and Y is",
+  "opts": {
+   "A": "M:N",
+   "B": "M:1",
+   "C": "1:M",
+   "D": "1:1"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 21,
+  "q": "If α → β holds then so does",
+  "opts": {
+   "A": "γα → γβ",
+   "B": "α → γβ",
+   "C": "both (a) & (b)",
+   "D": "None of the above"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 22,
+  "q": "As per equivalence rules for query transformation, selection operation distributes over",
+  "opts": {
+   "A": "Union",
+   "B": "Intersection",
+   "C": "Set difference",
+   "D": "All of the above"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 23,
+  "q": "Transmission delay(time) is the ratio of",
+  "opts": {
+   "A": "transmission rate to packet length",
+   "B": "transmission rate to distance",
+   "C": "packet length to transmission rate",
+   "D": "processing time to transmission rate"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 24,
+  "q": "Packets in the IP layer are called",
+  "opts": {
+   "A": "segments",
+   "B": "datagrams",
+   "C": "frames",
+   "D": "fragments"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 25,
+  "q": "This NetWare protocol works on layer 3–network layer of the OSI model.",
+  "opts": {
+   "A": "IPX",
+   "B": "NCP",
+   "C": "SPX",
+   "D": "NetBIOS"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 26,
+  "q": "Effective software project management focuses on four P's which are",
+  "opts": {
+   "A": "People , Performance, Payment, Product",
+   "B": "People, Product, Process, Project",
+   "C": "People, Product, Performance, Project",
+   "D": "People, Product, Payment, Performance"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 27,
+  "q": "First level of prototype is evaluated by",
+  "opts": {
+   "A": "Developer",
+   "B": "Tester",
+   "C": "User",
+   "D": "System Analyst"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 28,
+  "q": "In 2NF",
+  "opts": {
+   "A": "No multivalued dependencies (MVDs) exist",
+   "B": "No functional dependencies (FDs) exist",
+   "C": "No partial MVDs exist",
+   "D": "No partial FDs exist"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 29,
+  "q": "Total participation in ER Diagram is represented by",
+  "opts": {
+   "A": "Double lines",
+   "B": "Dashed lines",
+   "C": "Single line",
+   "D": "Triangle"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 30,
+  "q": "Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock?\nI. Time-stamp ordering\nII. 2-phase locking",
+  "opts": {
+   "A": "I only",
+   "B": "II only",
+   "C": "Both I and II",
+   "D": "Neither I nor III"
+  },
+  "flags": [],
+  "_page": 3
+ },
+ {
+  "no": 31,
+  "q": "Which of the following is false regarding ACID properties in DBMS?",
+  "opts": {
+   "A": "It can cause performance overhead",
+   "B": "It decrease complexity of the system",
+   "C": "It ensure data remains consistent",
+   "D": "It can manage multiple transactions"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 32,
+  "q": "UTP in Networking stands for",
+  "opts": {
+   "A": "Unshielded T-connector port",
+   "B": "Unshielded twisted pair",
+   "C": "Unshielded terminating pair",
+   "D": "Unshielded transmission process"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 33,
+  "q": "The network 198.78.41.0 is a",
+  "opts": {
+   "A": "Class A network",
+   "B": "Class B network",
+   "C": "Class C network",
+   "D": "Class D network"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 34,
+  "q": "What is the minimum number of computers needed for a computer network?",
+  "opts": {
+   "A": "10",
+   "B": "5",
+   "C": "2",
+   "D": "1"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 35,
+  "q": "The importance of software design can be summarized in a single word",
+  "opts": {
+   "A": "Accuracy",
+   "B": "Complexity",
+   "C": "Efficiency",
+   "D": "Quality"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 36,
+  "q": "Which of the following is not a UML diagram used to create a system analysis model?",
+  "opts": {
+   "A": "Activity diagram",
+   "B": "State diagram",
+   "C": "Class diagram",
+   "D": "Dataflow diagram"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 37,
+  "q": "Which of the following is true regarding waterfall model of software development?",
+  "opts": {
+   "A": "A reasonable approach when requirements are well defined",
+   "B": "A good approach when a working program is required quickly",
+   "C": "A best approach to use for projects with large development teams",
+   "D": "An old fashioned model rarely used now"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 38,
+  "q": "While designing a database , the one guideline to be followed is",
+  "opts": {
+   "A": "It should avoid/reduce the redundancy",
+   "B": "A database design may be ambiguous",
+   "C": "Unrelated data should be in the same table so that updating the data will be easy",
+   "D": "Data entity should not have attributes"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 39,
+  "q": "The process of finding a good strategy for processing a query is called",
+  "opts": {
+   "A": "Query optimization",
+   "B": "Query processing",
+   "C": "Query management",
+   "D": "Query cost"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 40,
+  "q": "A second form of relational calculus, is known as",
+  "opts": {
+   "A": "Extended relational calculus",
+   "B": "Tuple relational calculus",
+   "C": "Domain relational calculus",
+   "D": "Attribute relational calculus"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 41,
+  "q": "How many layers are there in the OSI model?",
+  "opts": {
+   "A": "5",
+   "B": "6",
+   "C": "7",
+   "D": "8"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 42,
+  "q": "Which layer of OSI model is responsible for detection and correction of transmission errors using error correction method?",
+  "opts": {
+   "A": "Session",
+   "B": "Transport",
+   "C": "Data Link",
+   "D": "Presentation"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 43,
+  "q": "This protocol is used for remote terminal connection service",
+  "opts": {
+   "A": "RARP",
+   "B": "UDP",
+   "C": "FTP",
+   "D": "TELNET"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 44,
+  "q": "Cohesion metrics and coupling metrics are metrics in which level of design?",
+  "opts": {
+   "A": "User Interface design",
+   "B": "Pattern-based design",
+   "C": "Architectural design",
+   "D": "Component-level design"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 45,
+  "q": "This is not a SQA activity.",
+  "opts": {
+   "A": "Unit Testing",
+   "B": "Integration Testing",
+   "C": "Black Box Testing",
+   "D": "White Box Testing"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 46,
+  "q": "Give three major categories of risk from the following:\n1. Schedule Risk    2. Project Risk\n3. Technical Risk    4. Business Risk",
+  "opts": {
+   "A": "1, 2 and 3",
+   "B": "2, 3 and 4",
+   "C": "1, 2 and 4",
+   "D": "1, 3 and 4"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 47,
+  "q": "The two files that are used during operation of the DBMS.",
+  "opts": {
+   "A": "Data dictionary and query language",
+   "B": "Data dictionary and transaction log",
+   "C": "Query languages and utilities",
+   "D": "DML and query language"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 48,
+  "q": "In tuple relational calculus P1 AND P2 is equivalent to",
+  "opts": {
+   "A": "(¬P1 OR ¬P2)",
+   "B": "¬(¬P1 OR ¬P2)",
+   "C": "¬(P1 OR ¬P2)",
+   "D": "¬(¬P1 OR P2)"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 49,
+  "q": "The Routing Information Protocol (RIP) is based on _______ routing",
+  "opts": {
+   "A": "distance vector",
+   "B": "link state",
+   "C": "path vector",
+   "D": "link-path state"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 50,
+  "q": "This is responsible for the management of Internet domain names and addresses",
+  "opts": {
+   "A": "NIC",
+   "B": "ICANN",
+   "C": "ISOC",
+   "D": "IEFE"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 51,
+  "q": "This is another name of Nodes",
+  "opts": {
+   "A": "Devices",
+   "B": "Links",
+   "C": "Medium",
+   "D": "Modes"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 52,
+  "q": "Efficiency in a software product does not include _______.",
+  "opts": {
+   "A": "Processing time",
+   "B": "Licensing",
+   "C": "Responsiveness",
+   "D": "Memory utilization"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 53,
+  "q": "Cost of maintenance is as high as _______ of the cost of entire software process cycle.",
+  "opts": {
+   "A": "0.61",
+   "B": "0.63",
+   "C": "0.67",
+   "D": "0.71"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 54,
+  "q": "This is not desired in a good Software Requirement Specifications (SRS) document.",
+  "opts": {
+   "A": "Functional Requirement",
+   "B": "Non Functional Requirement",
+   "C": "Goals of Implementation",
+   "D": "Algorithm for Software Implementation"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 55,
+  "q": "This operator is used to compare a value to a list of literals values that have been specified.",
+  "opts": {
+   "A": "COMPARE",
+   "B": "BETWEEN",
+   "C": "LIKE",
+   "D": "IN"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 56,
+  "q": "A list consists of last names, first names, addresses and pin codes. If all people in the list have the same last name and same pin code a useful key would be",
+  "opts": {
+   "A": "the pin code",
+   "B": "the last name",
+   "C": "the compound key last name and pin code",
+   "D": "the compound key first name and last name"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 57,
+  "q": "Specialization ,in an E-R diagram, is represented by a",
+  "opts": {
+   "A": "Dashed arrow-head",
+   "B": "Double arrow-head",
+   "C": "Hollow arrow-head",
+   "D": "Solid arrow-head"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 58,
+  "q": "How many users are normally in a peer-to-peer network?",
+  "opts": {
+   "A": "2-10",
+   "B": "10-50",
+   "C": "50-250",
+   "D": "250-1000"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 59,
+  "q": "How many bits are typically covered in an internet protocol version 6 (IPv6) subnet mask?",
+  "opts": {
+   "A": "24",
+   "B": "48",
+   "C": "64",
+   "D": "128"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 60,
+  "q": "The standard followed by Ethernet is",
+  "opts": {
+   "A": "IEEE 802.10",
+   "B": "IEEE 802.11",
+   "C": "IEEE 802.5",
+   "D": "IEEE 802.3"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 61,
+  "q": "What is the availability of a software with the following reliability figures?\nMean Time Between Failure (MTBF) = 25 days\nMean Time To Repair (MTTR) = 6 hours",
+  "opts": {
+   "A": "1%",
+   "B": "24%",
+   "C": "99%",
+   "D": "99.009%"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 62,
+  "q": "This is not a valid software configuration item",
+  "opts": {
+   "A": "Version control",
+   "B": "Test data",
+   "C": "Case tools",
+   "D": "Documentation"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 63,
+  "q": "Orderly grouping of independent components linked together according to a plan to achieve a specific objective is called",
+  "opts": {
+   "A": "Data",
+   "B": "System",
+   "C": "Relationship",
+   "D": "Interconnection"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 64,
+  "q": "Large collection of files are called",
+  "opts": {
+   "A": "Database",
+   "B": "Records",
+   "C": "Sectors",
+   "D": "Fields"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 65,
+  "q": "This is not a logical database structure",
+  "opts": {
+   "A": "Relational",
+   "B": "Network",
+   "C": "Chain",
+   "D": "Tree"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 66,
+  "q": "For enforcing data integrity, it is a preferred method",
+  "opts": {
+   "A": "Constraints",
+   "B": "Triggers",
+   "C": "Stored procedure",
+   "D": "Cursors"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 67,
+  "q": "Difficult reconnection and troubleshooting (fault isolation) are disadvantages of",
+  "opts": {
+   "A": "Star topology",
+   "B": "Mesh topology",
+   "C": "Bus topology",
+   "D": "Ring topology"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 68,
+  "q": "Transmission impairment in which signal loses strength due to the resistance of transmission medium",
+  "opts": {
+   "A": "Attenuation",
+   "B": "Distortion",
+   "C": "Noise",
+   "D": "Decibel"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 69,
+  "q": "Which multiplexing technique is used for digital signals?",
+  "opts": {
+   "A": "FDM",
+   "B": "TDM",
+   "C": "WDM",
+   "D": "PDM"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 70,
+  "q": "This is not a measurable characteristic of an object-oriented design",
+  "opts": {
+   "A": "Completeness",
+   "B": "Volatility",
+   "C": "Size",
+   "D": "Efficiency"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 71,
+  "q": "If you encounter a class with a large responsibility (large class size), you should consider",
+  "opts": {
+   "A": "Starting a new class hierarchy",
+   "B": "Partitioning the class",
+   "C": "Making it a base class",
+   "D": "Making it a sub class"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 72,
+  "q": "What is the common measure for correctness?",
+  "opts": {
+   "A": "Pages of documentation per KLOC",
+   "B": "Errors per KLOC",
+   "C": "Cost per KLOC",
+   "D": "Defects per KLOC"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 73,
+  "q": "It defines overall design of the database",
+  "opts": {
+   "A": "Code",
+   "B": "Data definition language",
+   "C": "Application program",
+   "D": "Schema"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 74,
+  "q": "Mapping cardinalities are useful in describing",
+  "opts": {
+   "A": "Unary relationships",
+   "B": "Binary relationships",
+   "C": "Composite relationships",
+   "D": "Simple relationships"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 75,
+  "q": "It refers to the correctness and completeness of the data in a database",
+  "opts": {
+   "A": "Data constraint",
+   "B": "Data independence",
+   "C": "Data integrity",
+   "D": "Data security"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 76,
+  "q": "Which of the following is not a guided medium?",
+  "opts": {
+   "A": "Atmosphere",
+   "B": "Coaxial cable",
+   "C": "Fiber optic cable",
+   "D": "Twisted pair cable"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 77,
+  "q": "FDDI is",
+  "opts": {
+   "A": "Bus based network",
+   "B": "Mesh network",
+   "C": "Star network",
+   "D": "Ring network"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 78,
+  "q": "You install Windows NT Server on a computer, making the computer a backup domain controller in an existing domain. After installation, you discover that you used the wrong domain name. What should you do?",
+  "opts": {
+   "A": "Change the domain name by using Control Panel",
+   "B": "Reinstall Windows NT Server",
+   "C": "Change the domain name in the Registry",
+   "D": "Change the domain name by using the Emergency Repair disk"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 79,
+  "q": "Process of obtaining desired software from the specifications in hand.",
+  "opts": {
+   "A": "Re-engineering",
+   "B": "Re-constructing",
+   "C": "Forward Engineering",
+   "D": "Backward Engineering"
+  },
+  "flags": [],
+  "_page": 7
+ },
+ {
+  "no": 80,
+  "q": "The maximum error distribution is in",
+  "opts": {
+   "A": "Coding",
+   "B": "Testing",
+   "C": "Requirement Analysis",
+   "D": "Design"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 81,
+  "q": "CASE stands for",
+  "opts": {
+   "A": "Computer Aid Software Engineering",
+   "B": "Computer Application Software Engineering",
+   "C": "Computer Aided Software Engineering",
+   "D": "Computer Analysis Software Engineering"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 82,
+  "q": "Efficient implementation of a recovery scheme requires that the number of writes to be ________.",
+  "opts": {
+   "A": "Minimum",
+   "B": "Maximum",
+   "C": "Dependent",
+   "D": "Independent"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 83,
+  "q": "An relationship among students and courses is",
+  "opts": {
+   "A": "1:1 relationship",
+   "B": "1:M relationship",
+   "C": "M:1 relationship",
+   "D": "M:M relationship"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 84,
+  "q": "The metadata is created by",
+  "opts": {
+   "A": "Query interpreter",
+   "B": "DDL interpreter",
+   "C": "DML compiler",
+   "D": "DML pre-processor"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 85,
+  "q": "Which of the following device allows sharing of a broadband Internet connection?",
+  "opts": {
+   "A": "adapter",
+   "B": "hub",
+   "C": "router",
+   "D": "plug"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 86,
+  "q": "Packets of the same session may be routed through different paths in",
+  "opts": {
+   "A": "UDP, but not TCP",
+   "B": "TCP, but not UDP",
+   "C": "TCP and UDP",
+   "D": "Neither TCP nor UDP"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 87,
+  "q": "For HTTP, the webserver usually runs on port number",
+  "opts": {
+   "A": "21",
+   "B": "40",
+   "C": "43",
+   "D": "80"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 88,
+  "q": "In software maintenance tackling the changes in the hardware or software environment where the software works, is",
+  "opts": {
+   "A": "Corrective Maintenance",
+   "B": "Adaptive Maintenance",
+   "C": "Perfective Maintenance",
+   "D": "Preventive Maintenance"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 89,
+  "q": "The extent to which a software performs its intended functions without failures, is termed as",
+  "opts": {
+   "A": "Correctness",
+   "B": "Accuracy",
+   "C": "Robustness",
+   "D": "Reliability"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 90,
+  "q": "To execute all loops at their boundaries and within their operational bounds is an example of",
+  "opts": {
+   "A": "Black Box Testing",
+   "B": "Alpha Testing",
+   "C": "Recovery Testing",
+   "D": "White Box Testing"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 91,
+  "q": "Algebraic operation that outputs specified attributes from all rows of the input relation, is said to be",
+  "opts": {
+   "A": "Natural join",
+   "B": "Union operation",
+   "C": "Projection",
+   "D": "Selection"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 92,
+  "q": "If a transaction T has obtained an exclusive lock on item Q, then T can",
+  "opts": {
+   "A": "read Q",
+   "B": "write Q",
+   "C": "both read and write Q",
+   "D": "write Q but not read Q"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 93,
+  "q": "If the closure of an attribute set is the entire relation, then the attribute set is a",
+  "opts": {
+   "A": "super key",
+   "B": "candidate key",
+   "C": "primary key",
+   "D": "not a key"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 94,
+  "q": "CRC stands for",
+  "opts": {
+   "A": "cyclic redundancy check",
+   "B": "code redundancy check",
+   "C": "code repeat check",
+   "D": "cyclic repeat check"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 95,
+  "q": "Dynamic Host Configuration Protocol (DHCP)",
+  "opts": {
+   "A": "is the same as bootp",
+   "B": "helps prevent conflicts between assigned IP addresses",
+   "C": "uses static allocation of IP addresses",
+   "D": "assigns IP addresses, which when allocated, cannot be reused"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 96,
+  "q": "This protocol is used for transfer of email between localhost and a remote host.",
+  "opts": {
+   "A": "HTTP",
+   "B": "SMTP",
+   "C": "FDP",
+   "D": "FTP"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 97,
+  "q": "DFD stands for",
+  "opts": {
+   "A": "Data Flow Diagram",
+   "B": "Depict Flow Diagram",
+   "C": "Data Flow Depicts",
+   "D": "Data Flowchart Diagram"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 98,
+  "q": "Which one of the following set of attributes should not be encompassed by effective software metrics?",
+  "opts": {
+   "A": "Simple and computable",
+   "B": "Consistent and objective",
+   "C": "Consistent in the use of units and dimensions",
+   "D": "Programming language dependent"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 99,
+  "q": "The prototyping model of software development is",
+  "opts": {
+   "A": "a reasonable approach when requirements are well-defined",
+   "B": "a useful approach when a customer cannot define requirements clearly",
+   "C": "the best approach to use for projects with large development teams",
+   "D": "a risky model that rarely produces a meaningful product"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 100,
+  "q": "It is an abstraction through which relationships are treated as higher level entities",
+  "opts": {
+   "A": "Generalization",
+   "B": "Specialization",
+   "C": "Aggregation",
+   "D": "Inheritance"
+  },
+  "flags": [],
+  "_page": 9
+ }
+]

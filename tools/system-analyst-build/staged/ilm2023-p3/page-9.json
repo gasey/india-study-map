@@ -1,0 +1,93 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "no": 93,
+      "q": "If the closure of an attribute set is the entire relation, then the attribute set is a",
+      "opts": {
+        "A": "super key",
+        "B": "candidate key",
+        "C": "primary key",
+        "D": "not a key"
+      },
+      "flags": []
+    },
+    {
+      "no": 94,
+      "q": "CRC stands for",
+      "opts": {
+        "A": "cyclic redundancy check",
+        "B": "code redundancy check",
+        "C": "code repeat check",
+        "D": "cyclic repeat check"
+      },
+      "flags": []
+    },
+    {
+      "no": 95,
+      "q": "Dynamic Host Configuration Protocol (DHCP)",
+      "opts": {
+        "A": "is the same as bootp",
+        "B": "helps prevent conflicts between assigned IP addresses",
+        "C": "uses static allocation of IP addresses",
+        "D": "assigns IP addresses, which when allocated, cannot be reused"
+      },
+      "flags": []
+    },
+    {
+      "no": 96,
+      "q": "This protocol is used for transfer of email between localhost and a remote host.",
+      "opts": {
+        "A": "HTTP",
+        "B": "SMTP",
+        "C": "FDP",
+        "D": "FTP"
+      },
+      "flags": []
+    },
+    {
+      "no": 97,
+      "q": "DFD stands for",
+      "opts": {
+        "A": "Data Flow Diagram",
+        "B": "Depict Flow Diagram",
+        "C": "Data Flow Depicts",
+        "D": "Data Flowchart Diagram"
+      },
+      "flags": []
+    },
+    {
+      "no": 98,
+      "q": "Which one of the following set of attributes should not be encompassed by effective software metrics?",
+      "opts": {
+        "A": "Simple and computable",
+        "B": "Consistent and objective",
+        "C": "Consistent in the use of units and dimensions",
+        "D": "Programming language dependent"
+      },
+      "flags": []
+    },
+    {
+      "no": 99,
+      "q": "The prototyping model of software development is",
+      "opts": {
+        "A": "a reasonable approach when requirements are well-defined",
+        "B": "a useful approach when a customer cannot define requirements clearly",
+        "C": "the best approach to use for projects with large development teams",
+        "D": "a risky model that rarely produces a meaningful product"
+      },
+      "flags": []
+    },
+    {
+      "no": 100,
+      "q": "It is an abstraction through which relationships are treated as higher level entities",
+      "opts": {
+        "A": "Generalization",
+        "B": "Specialization",
+        "C": "Aggregation",
+        "D": "Inheritance"
+      },
+      "flags": []
+    }
+  ]
+}

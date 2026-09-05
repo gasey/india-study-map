@@ -1,0 +1,137 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "no": 19,
+      "q": "LOC-based estimation techniques require problem decomposition based on",
+      "opts": {
+        "A": "Information domain values",
+        "B": "Project Schedule",
+        "C": "Software Functions",
+        "D": "Process Activities"
+      },
+      "flags": []
+    },
+    {
+      "no": 20,
+      "q": "If both the functional dependencies : X→Y and Y→X hold for two attributes X and Y then the relationship between X and Y is",
+      "opts": {
+        "A": "M:N",
+        "B": "M:1",
+        "C": "1:M",
+        "D": "1:1"
+      },
+      "flags": []
+    },
+    {
+      "no": 21,
+      "q": "If α → β holds then so does",
+      "opts": {
+        "A": "γα → γβ",
+        "B": "α → γβ",
+        "C": "both (a) & (b)",
+        "D": "None of the above"
+      },
+      "flags": []
+    },
+    {
+      "no": 22,
+      "q": "As per equivalence rules for query transformation, selection operation distributes over",
+      "opts": {
+        "A": "Union",
+        "B": "Intersection",
+        "C": "Set difference",
+        "D": "All of the above"
+      },
+      "flags": []
+    },
+    {
+      "no": 23,
+      "q": "Transmission delay(time) is the ratio of",
+      "opts": {
+        "A": "transmission rate to packet length",
+        "B": "transmission rate to distance",
+        "C": "packet length to transmission rate",
+        "D": "processing time to transmission rate"
+      },
+      "flags": []
+    },
+    {
+      "no": 24,
+      "q": "Packets in the IP layer are called",
+      "opts": {
+        "A": "segments",
+        "B": "datagrams",
+        "C": "frames",
+        "D": "fragments"
+      },
+      "flags": []
+    },
+    {
+      "no": 25,
+      "q": "This NetWare protocol works on layer 3–network layer of the OSI model.",
+      "opts": {
+        "A": "IPX",
+        "B": "NCP",
+        "C": "SPX",
+        "D": "NetBIOS"
+      },
+      "flags": []
+    },
+    {
+      "no": 26,
+      "q": "Effective software project management focuses on four P's which are",
+      "opts": {
+        "A": "People , Performance, Payment, Product",
+        "B": "People, Product, Process, Project",
+        "C": "People, Product, Performance, Project",
+        "D": "People, Product, Payment, Performance"
+      },
+      "flags": []
+    },
+    {
+      "no": 27,
+      "q": "First level of prototype is evaluated by",
+      "opts": {
+        "A": "Developer",
+        "B": "Tester",
+        "C": "User",
+        "D": "System Analyst"
+      },
+      "flags": []
+    },
+    {
+      "no": 28,
+      "q": "In 2NF",
+      "opts": {
+        "A": "No multivalued dependencies (MVDs) exist",
+        "B": "No functional dependencies (FDs) exist",
+        "C": "No partial MVDs exist",
+        "D": "No partial FDs exist"
+      },
+      "flags": []
+    },
+    {
+      "no": 29,
+      "q": "Total participation in ER Diagram is represented by",
+      "opts": {
+        "A": "Double lines",
+        "B": "Dashed lines",
+        "C": "Single line",
+        "D": "Triangle"
+      },
+      "flags": []
+    },
+    {
+      "no": 30,
+      "q": "Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock?\nI. Time-stamp ordering\nII. 2-phase locking",
+      "opts": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor III"
+      },
+      "flags": []
+    }
+  ]
+}

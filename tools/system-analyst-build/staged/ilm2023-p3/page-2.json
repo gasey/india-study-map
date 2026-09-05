@@ -1,0 +1,126 @@
+{
+  "page": 2,
+  "questions": [
+    {
+      "no": 8,
+      "q": "Purpose of feasibility study in software engineering.",
+      "opts": {
+        "A": "To determine the financial viability of a software product",
+        "B": "To assess the market potential of a software product",
+        "C": "To evaluate the technical complexity of software development",
+        "D": "To analyze the performance and scalability of existing software"
+      },
+      "flags": []
+    },
+    {
+      "no": 9,
+      "q": "What type of software testing is generally used in Software Maintenance?",
+      "opts": {
+        "A": "Regression Testing",
+        "B": "System Testing",
+        "C": "Integration Testing",
+        "D": "Unit Testing"
+      },
+      "flags": []
+    },
+    {
+      "no": 10,
+      "q": "Fifth Normal form is concerned with",
+      "opts": {
+        "A": "Domain-key",
+        "B": "Functional dependency",
+        "C": "Multivalued dependency",
+        "D": "Join dependency"
+      },
+      "flags": []
+    },
+    {
+      "no": 11,
+      "q": "When two or more users are waiting for data locked by each other, such situations are known to be",
+      "opts": {
+        "A": "Dead-lock",
+        "B": "Object-lock",
+        "C": "Resource-lock",
+        "D": "Process-lock"
+      },
+      "flags": []
+    },
+    {
+      "no": 12,
+      "q": "Generating a set of relation schemas that allows storing information without unnecessary redundancy, is goal of",
+      "opts": {
+        "A": "Assertions",
+        "B": "Associations",
+        "C": "Normalization",
+        "D": "Integration"
+      },
+      "flags": []
+    },
+    {
+      "no": 13,
+      "q": "Two computers C1 and C2 are configured as follows. C1 has IP address 203.197.2.53 and netmask 255.255.128.0. C2 has IP address 203.197.75.201 and netmask 255.255.192.0. which one of the following statements is true?",
+      "opts": {
+        "A": "C1 and C2 both assume they are on the same network",
+        "B": "C1 and C2 both assume they are on different networks",
+        "C": "C2 assumes C1 is on same network, but C1 assumes C2 is on a different network",
+        "D": "C1 assumes C2 is on same network, but C2 assumes C1 is on a different network"
+      },
+      "flags": []
+    },
+    {
+      "no": 14,
+      "q": "The telephone network is a good example of",
+      "opts": {
+        "A": "Half-duplex",
+        "B": "Full duplex",
+        "C": "Simplex",
+        "D": "Four -wire circuit"
+      },
+      "flags": []
+    },
+    {
+      "no": 15,
+      "q": "A topology that consists of multiple devices connected by connectors or the main cable is called",
+      "opts": {
+        "A": "Mesh",
+        "B": "Ring",
+        "C": "Bus",
+        "D": "Star"
+      },
+      "flags": []
+    },
+    {
+      "no": 16,
+      "q": "Analyst used what method to collect information from individual or from group.",
+      "opts": {
+        "A": "Observations",
+        "B": "Interviews",
+        "C": "Questionnaires",
+        "D": "Record inspection or view"
+      },
+      "flags": []
+    },
+    {
+      "no": 17,
+      "q": "The objective of software engineering is to produce",
+      "opts": {
+        "A": "Software Product",
+        "B": "Output",
+        "C": "Generic Product",
+        "D": "Processed Product"
+      },
+      "flags": []
+    },
+    {
+      "no": 18,
+      "q": "Why there is a need for Software management?",
+      "opts": {
+        "A": "It is done with few people with fixed skills and abilities",
+        "B": "Software development is complex and expensive",
+        "C": "Software development is not time consuming",
+        "D": "Software development creates job"
+      },
+      "flags": []
+    }
+  ]
+}

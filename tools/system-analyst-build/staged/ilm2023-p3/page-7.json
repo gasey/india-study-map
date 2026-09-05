@@ -1,0 +1,137 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "no": 68,
+      "q": "Transmission impairment in which signal loses strength due to the resistance of transmission medium",
+      "opts": {
+        "A": "Attenuation",
+        "B": "Distortion",
+        "C": "Noise",
+        "D": "Decibel"
+      },
+      "flags": []
+    },
+    {
+      "no": 69,
+      "q": "Which multiplexing technique is used for digital signals?",
+      "opts": {
+        "A": "FDM",
+        "B": "TDM",
+        "C": "WDM",
+        "D": "PDM"
+      },
+      "flags": []
+    },
+    {
+      "no": 70,
+      "q": "This is not a measurable characteristic of an object-oriented design",
+      "opts": {
+        "A": "Completeness",
+        "B": "Volatility",
+        "C": "Size",
+        "D": "Efficiency"
+      },
+      "flags": []
+    },
+    {
+      "no": 71,
+      "q": "If you encounter a class with a large responsibility (large class size), you should consider",
+      "opts": {
+        "A": "Starting a new class hierarchy",
+        "B": "Partitioning the class",
+        "C": "Making it a base class",
+        "D": "Making it a sub class"
+      },
+      "flags": []
+    },
+    {
+      "no": 72,
+      "q": "What is the common measure for correctness?",
+      "opts": {
+        "A": "Pages of documentation per KLOC",
+        "B": "Errors per KLOC",
+        "C": "Cost per KLOC",
+        "D": "Defects per KLOC"
+      },
+      "flags": []
+    },
+    {
+      "no": 73,
+      "q": "It defines overall design of the database",
+      "opts": {
+        "A": "Code",
+        "B": "Data definition language",
+        "C": "Application program",
+        "D": "Schema"
+      },
+      "flags": []
+    },
+    {
+      "no": 74,
+      "q": "Mapping cardinalities are useful in describing",
+      "opts": {
+        "A": "Unary relationships",
+        "B": "Binary relationships",
+        "C": "Composite relationships",
+        "D": "Simple relationships"
+      },
+      "flags": []
+    },
+    {
+      "no": 75,
+      "q": "It refers to the correctness and completeness of the data in a database",
+      "opts": {
+        "A": "Data constraint",
+        "B": "Data independence",
+        "C": "Data integrity",
+        "D": "Data security"
+      },
+      "flags": []
+    },
+    {
+      "no": 76,
+      "q": "Which of the following is not a guided medium?",
+      "opts": {
+        "A": "Atmosphere",
+        "B": "Coaxial cable",
+        "C": "Fiber optic cable",
+        "D": "Twisted pair cable"
+      },
+      "flags": []
+    },
+    {
+      "no": 77,
+      "q": "FDDI is",
+      "opts": {
+        "A": "Bus based network",
+        "B": "Mesh network",
+        "C": "Star network",
+        "D": "Ring network"
+      },
+      "flags": []
+    },
+    {
+      "no": 78,
+      "q": "You install Windows NT Server on a computer, making the computer a backup domain controller in an existing domain. After installation, you discover that you used the wrong domain name. What should you do?",
+      "opts": {
+        "A": "Change the domain name by using Control Panel",
+        "B": "Reinstall Windows NT Server",
+        "C": "Change the domain name in the Registry",
+        "D": "Change the domain name by using the Emergency Repair disk"
+      },
+      "flags": []
+    },
+    {
+      "no": 79,
+      "q": "Process of obtaining desired software from the specifications in hand.",
+      "opts": {
+        "A": "Re-engineering",
+        "B": "Re-constructing",
+        "C": "Forward Engineering",
+        "D": "Backward Engineering"
+      },
+      "flags": []
+    }
+  ]
+}

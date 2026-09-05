@@ -1,0 +1,148 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "no": 80,
+      "q": "The maximum error distribution is in",
+      "opts": {
+        "A": "Coding",
+        "B": "Testing",
+        "C": "Requirement Analysis",
+        "D": "Design"
+      },
+      "flags": []
+    },
+    {
+      "no": 81,
+      "q": "CASE stands for",
+      "opts": {
+        "A": "Computer Aid Software Engineering",
+        "B": "Computer Application Software Engineering",
+        "C": "Computer Aided Software Engineering",
+        "D": "Computer Analysis Software Engineering"
+      },
+      "flags": []
+    },
+    {
+      "no": 82,
+      "q": "Efficient implementation of a recovery scheme requires that the number of writes to be ________.",
+      "opts": {
+        "A": "Minimum",
+        "B": "Maximum",
+        "C": "Dependent",
+        "D": "Independent"
+      },
+      "flags": []
+    },
+    {
+      "no": 83,
+      "q": "An relationship among students and courses is",
+      "opts": {
+        "A": "1:1 relationship",
+        "B": "1:M relationship",
+        "C": "M:1 relationship",
+        "D": "M:M relationship"
+      },
+      "flags": []
+    },
+    {
+      "no": 84,
+      "q": "The metadata is created by",
+      "opts": {
+        "A": "Query interpreter",
+        "B": "DDL interpreter",
+        "C": "DML compiler",
+        "D": "DML pre-processor"
+      },
+      "flags": []
+    },
+    {
+      "no": 85,
+      "q": "Which of the following device allows sharing of a broadband Internet connection?",
+      "opts": {
+        "A": "adapter",
+        "B": "hub",
+        "C": "router",
+        "D": "plug"
+      },
+      "flags": []
+    },
+    {
+      "no": 86,
+      "q": "Packets of the same session may be routed through different paths in",
+      "opts": {
+        "A": "UDP, but not TCP",
+        "B": "TCP, but not UDP",
+        "C": "TCP and UDP",
+        "D": "Neither TCP nor UDP"
+      },
+      "flags": []
+    },
+    {
+      "no": 87,
+      "q": "For HTTP, the webserver usually runs on port number",
+      "opts": {
+        "A": "21",
+        "B": "40",
+        "C": "43",
+        "D": "80"
+      },
+      "flags": []
+    },
+    {
+      "no": 88,
+      "q": "In software maintenance tackling the changes in the hardware or software environment where the software works, is",
+      "opts": {
+        "A": "Corrective Maintenance",
+        "B": "Adaptive Maintenance",
+        "C": "Perfective Maintenance",
+        "D": "Preventive Maintenance"
+      },
+      "flags": []
+    },
+    {
+      "no": 89,
+      "q": "The extent to which a software performs its intended functions without failures, is termed as",
+      "opts": {
+        "A": "Correctness",
+        "B": "Accuracy",
+        "C": "Robustness",
+        "D": "Reliability"
+      },
+      "flags": []
+    },
+    {
+      "no": 90,
+      "q": "To execute all loops at their boundaries and within their operational bounds is an example of",
+      "opts": {
+        "A": "Black Box Testing",
+        "B": "Alpha Testing",
+        "C": "Recovery Testing",
+        "D": "White Box Testing"
+      },
+      "flags": []
+    },
+    {
+      "no": 91,
+      "q": "Algebraic operation that outputs specified attributes from all rows of the input relation, is said to be",
+      "opts": {
+        "A": "Natural join",
+        "B": "Union operation",
+        "C": "Projection",
+        "D": "Selection"
+      },
+      "flags": []
+    },
+    {
+      "no": 92,
+      "q": "If a transaction T has obtained an exclusive lock on item Q, then T can",
+      "opts": {
+        "A": "read Q",
+        "B": "write Q",
+        "C": "both read and write Q",
+        "D": "write Q but not read Q"
+      },
+      "flags": []
+    }
+  ]
+}

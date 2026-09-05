@@ -1,0 +1,137 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "no": 31,
+      "q": "Which of the following is false regarding ACID properties in DBMS?",
+      "opts": {
+        "A": "It can cause performance overhead",
+        "B": "It decrease complexity of the system",
+        "C": "It ensure data remains consistent",
+        "D": "It can manage multiple transactions"
+      },
+      "flags": []
+    },
+    {
+      "no": 32,
+      "q": "UTP in Networking stands for",
+      "opts": {
+        "A": "Unshielded T-connector port",
+        "B": "Unshielded twisted pair",
+        "C": "Unshielded terminating pair",
+        "D": "Unshielded transmission process"
+      },
+      "flags": []
+    },
+    {
+      "no": 33,
+      "q": "The network 198.78.41.0 is a",
+      "opts": {
+        "A": "Class A network",
+        "B": "Class B network",
+        "C": "Class C network",
+        "D": "Class D network"
+      },
+      "flags": []
+    },
+    {
+      "no": 34,
+      "q": "What is the minimum number of computers needed for a computer network?",
+      "opts": {
+        "A": "10",
+        "B": "5",
+        "C": "2",
+        "D": "1"
+      },
+      "flags": []
+    },
+    {
+      "no": 35,
+      "q": "The importance of software design can be summarized in a single word",
+      "opts": {
+        "A": "Accuracy",
+        "B": "Complexity",
+        "C": "Efficiency",
+        "D": "Quality"
+      },
+      "flags": []
+    },
+    {
+      "no": 36,
+      "q": "Which of the following is not a UML diagram used to create a system analysis model?",
+      "opts": {
+        "A": "Activity diagram",
+        "B": "State diagram",
+        "C": "Class diagram",
+        "D": "Dataflow diagram"
+      },
+      "flags": []
+    },
+    {
+      "no": 37,
+      "q": "Which of the following is true regarding waterfall model of software development?",
+      "opts": {
+        "A": "A reasonable approach when requirements are well defined",
+        "B": "A good approach when a working program is required quickly",
+        "C": "A best approach to use for projects with large development teams",
+        "D": "An old fashioned model rarely used now"
+      },
+      "flags": []
+    },
+    {
+      "no": 38,
+      "q": "While designing a database , the one guideline to be followed is",
+      "opts": {
+        "A": "It should avoid/reduce the redundancy",
+        "B": "A database design may be ambiguous",
+        "C": "Unrelated data should be in the same table so that updating the data will be easy",
+        "D": "Data entity should not have attributes"
+      },
+      "flags": []
+    },
+    {
+      "no": 39,
+      "q": "The process of finding a good strategy for processing a query is called",
+      "opts": {
+        "A": "Query optimization",
+        "B": "Query processing",
+        "C": "Query management",
+        "D": "Query cost"
+      },
+      "flags": []
+    },
+    {
+      "no": 40,
+      "q": "A second form of relational calculus, is known as",
+      "opts": {
+        "A": "Extended relational calculus",
+        "B": "Tuple relational calculus",
+        "C": "Domain relational calculus",
+        "D": "Attribute relational calculus"
+      },
+      "flags": []
+    },
+    {
+      "no": 41,
+      "q": "How many layers are there in the OSI model?",
+      "opts": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "flags": []
+    },
+    {
+      "no": 42,
+      "q": "Which layer of OSI model is responsible for detection and correction of transmission errors using error correction method?",
+      "opts": {
+        "A": "Session",
+        "B": "Transport",
+        "C": "Data Link",
+        "D": "Presentation"
+      },
+      "flags": []
+    }
+  ]
+}

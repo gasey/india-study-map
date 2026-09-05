@@ -1,0 +1,137 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "no": 56,
+      "q": "A list consists of last names, first names, addresses and pin codes. If all people in the list have the same last name and same pin code a useful key would be",
+      "opts": {
+        "A": "the pin code",
+        "B": "the last name",
+        "C": "the compound key last name and pin code",
+        "D": "the compound key first name and last name"
+      },
+      "flags": []
+    },
+    {
+      "no": 57,
+      "q": "Specialization ,in an E-R diagram, is represented by a",
+      "opts": {
+        "A": "Dashed arrow-head",
+        "B": "Double arrow-head",
+        "C": "Hollow arrow-head",
+        "D": "Solid arrow-head"
+      },
+      "flags": []
+    },
+    {
+      "no": 58,
+      "q": "How many users are normally in a peer-to-peer network?",
+      "opts": {
+        "A": "2-10",
+        "B": "10-50",
+        "C": "50-250",
+        "D": "250-1000"
+      },
+      "flags": []
+    },
+    {
+      "no": 59,
+      "q": "How many bits are typically covered in an internet protocol version 6 (IPv6) subnet mask?",
+      "opts": {
+        "A": "24",
+        "B": "48",
+        "C": "64",
+        "D": "128"
+      },
+      "flags": []
+    },
+    {
+      "no": 60,
+      "q": "The standard followed by Ethernet is",
+      "opts": {
+        "A": "IEEE 802.10",
+        "B": "IEEE 802.11",
+        "C": "IEEE 802.5",
+        "D": "IEEE 802.3"
+      },
+      "flags": []
+    },
+    {
+      "no": 61,
+      "q": "What is the availability of a software with the following reliability figures?\nMean Time Between Failure (MTBF) = 25 days\nMean Time To Repair (MTTR) = 6 hours",
+      "opts": {
+        "A": "1%",
+        "B": "24%",
+        "C": "99%",
+        "D": "99.009%"
+      },
+      "flags": []
+    },
+    {
+      "no": 62,
+      "q": "This is not a valid software configuration item",
+      "opts": {
+        "A": "Version control",
+        "B": "Test data",
+        "C": "Case tools",
+        "D": "Documentation"
+      },
+      "flags": []
+    },
+    {
+      "no": 63,
+      "q": "Orderly grouping of independent components linked together according to a plan to achieve a specific objective is called",
+      "opts": {
+        "A": "Data",
+        "B": "System",
+        "C": "Relationship",
+        "D": "Interconnection"
+      },
+      "flags": []
+    },
+    {
+      "no": 64,
+      "q": "Large collection of files are called",
+      "opts": {
+        "A": "Database",
+        "B": "Records",
+        "C": "Sectors",
+        "D": "Fields"
+      },
+      "flags": []
+    },
+    {
+      "no": 65,
+      "q": "This is not a logical database structure",
+      "opts": {
+        "A": "Relational",
+        "B": "Network",
+        "C": "Chain",
+        "D": "Tree"
+      },
+      "flags": []
+    },
+    {
+      "no": 66,
+      "q": "For enforcing data integrity, it is a preferred method",
+      "opts": {
+        "A": "Constraints",
+        "B": "Triggers",
+        "C": "Stored procedure",
+        "D": "Cursors"
+      },
+      "flags": []
+    },
+    {
+      "no": 67,
+      "q": "Difficult reconnection and troubleshooting (fault isolation) are disadvantages of",
+      "opts": {
+        "A": "Star topology",
+        "B": "Mesh topology",
+        "C": "Bus topology",
+        "D": "Ring topology"
+      },
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "no": 1,
+      "q": "A property that describes various characteristics of entity",
+      "opts": {
+        "A": "ER Diagram",
+        "B": "Column",
+        "C": "Relationship",
+        "D": "Attribute"
+      },
+      "flags": []
+    },
+    {
+      "no": 2,
+      "q": "Tree structures are used to store data in this model",
+      "opts": {
+        "A": "Network model",
+        "B": "Relation model",
+        "C": "Hierarchical model",
+        "D": "File based system"
+      },
+      "flags": []
+    },
+    {
+      "no": 3,
+      "q": "This clause specifies the query result should be sorted in ascending or descending order based on the values of one or more columns",
+      "opts": {
+        "A": "View",
+        "B": "Order by",
+        "C": "Group by",
+        "D": "Having"
+      },
+      "flags": []
+    },
+    {
+      "no": 4,
+      "q": "Source S and destination D are connected through two intermediate routers labeled R. Determine how many times each packet has to visit the network layer and the data link layer during a transmission from S to D.",
+      "figure": "A linear network diagram: a square box labelled S, connected by a line to a circle labelled R, connected to a second circle labelled R, connected by a line to a square box labelled D. (S — R — R — D)",
+      "opts": {
+        "A": "Network Layer : 4 times and Data Link Layer : 6 times",
+        "B": "Network Layer : 4 times and Data Link Layer : 5 times",
+        "C": "Network Layer : 4 times and Data Link Layer : 4 times",
+        "D": "Network Layer : 2 times and Data Link Layer : 3 times"
+      },
+      "flags": ["has_figure"]
+    },
+    {
+      "no": 5,
+      "q": "The network that provides high-speed connectivity or transmission speed is",
+      "opts": {
+        "A": "MAN",
+        "B": "LAN",
+        "C": "WAN",
+        "D": "Internetwork"
+      },
+      "flags": []
+    },
+    {
+      "no": 6,
+      "q": "Which of the following best describes a single-bit error?",
+      "opts": {
+        "A": "A single bit is inverted",
+        "B": "A single bit per transmission is inverted",
+        "C": "A single bit per data unit is inverted",
+        "D": "A single bit per multiple bits is inverted"
+      },
+      "flags": []
+    },
+    {
+      "no": 7,
+      "q": "What is the simplest model of software development paradigm?",
+      "opts": {
+        "A": "Spiral model",
+        "B": "Big Bang model",
+        "C": "V-model",
+        "D": "Waterfall model"
+      },
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+[
+ {
+  "id": "GEN-T2U1-040",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "A C++ class is declared as class D : private B. Which statement about the resulting access is correct?",
+  "opts": {
+   "A": "B's public members become protected in D, and B's protected members become private in D",
+   "B": "B's private members become reachable inside D's member functions, because the inheritance itself is private",
+   "C": "B's public and protected members become private members of D: D's own member functions can still use them, but a class further derived from D cannot",
+   "D": "Code outside D may still convert a D* to a B* implicitly, because the B subobject exists whatever the inheritance specifier says"
+  },
+  "ans": "C",
+  "exp": "Private inheritance lowers every accessible base member to private in the derived class, which stops the chain one level down: D can use them, anything derived from D cannot. Option D is the tempting one because the B subobject genuinely is there, but the derived-to-base pointer conversion is itself an access-controlled operation and is available only inside D's members and friends.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-041",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Assume the usual includes.\n\nstruct Storage { int id; };\nstruct Reader : Storage { };\nstruct Writer : Storage { };\nstruct ReadWriter : Reader, Writer { void set() { id = 5; } };\n\nWhat happens at the line id = 5;, and what is the standard remedy?",
+  "opts": {
+   "A": "It compiles and writes both inherited copies of id, since they share a name and a type",
+   "B": "It is rejected as an ambiguous reference, because ReadWriter contains two Storage subobjects; declaring Reader and Writer as struct Reader : virtual Storage and struct Writer : virtual Storage gives ReadWriter a single shared Storage subobject",
+   "C": "It compiles and writes the copy inherited through Writer, because Writer is listed last in ReadWriter's base list",
+   "D": "It compiles, but which of the two copies is written is unspecified, so the result varies between compilers"
+  },
+  "ans": "B",
+  "exp": "This is the diamond: ReadWriter inherits Storage twice, so the unqualified name id names two distinct members and the lookup is ambiguous at compile time, not at run time. Virtual inheritance on the two intermediate classes is the language's answer, collapsing them to one shared base subobject; nothing about base-list ordering makes the compiler pick one, which is why the last-listed-wins option is wrong.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-042",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct B { virtual void f(int n = 1) { cout << \"B\" << n; } };\nstruct D : B { void f(int n = 2) override { cout << \"D\" << n; } };\nint main() { B* p = new D; p->f(); }",
+  "opts": {
+   "A": "B1",
+   "B": "B2",
+   "C": "D2",
+   "D": "D1"
+  },
+  "ans": "D",
+  "exp": "Which function body runs is decided at run time from the object's dynamic type, so D::f executes, but a default argument is not part of the dispatch: the compiler substitutes it at the call site from the static type of the expression, which is B*, giving n = 1. D2 is the trap for assuming the default travels with the overriding function; this mismatch is exactly why overriding a virtual function with a different default argument is considered a defect in a design.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-043",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct B { B() { speak(); } virtual void speak() { cout << \"B\"; } };\nstruct D : B { void speak() override { cout << \"D\"; } };\nint main() { D d; }",
+  "opts": {
+   "A": "B",
+   "B": "D",
+   "C": "BD",
+   "D": "Nothing is guaranteed; the behaviour is undefined and either letter may appear"
+  },
+  "ans": "A",
+  "exp": "While a base constructor is running, the object is not yet a D: its dynamic type is B, so a virtual call from inside B's constructor resolves to B::speak. The behaviour is fully defined here, which rules out the undefined-behaviour option. It would become undefined if speak() were declared pure virtual, and that holds whether or not the pure virtual function is given a definition — [class.abstract] makes a virtual call to a pure virtual function from a constructor or destructor of an abstract class undefined either way, so providing a body does not rescue it.",
+  "conf": "high",
+  "reviewFix": "Explanation corrected; flagged independently by both blind reviewers of this half. The key was right and the program's output was confirmed by compiling, but the final clause stated the undefined-behaviour condition more narrowly than the standard does: \"only ... if speak() were pure virtual with no definition, since there would then be no function to call\". [class.abstract] makes the virtual call undefined whether or not the pure virtual function has a definition, so the stated reason was wrong as well as the condition. Key A unchanged."
+ },
+ {
+  "id": "GEN-T2U1-044",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "A function is declared void render(Shape s);. Shape has a virtual draw(), and Circle derives publicly from Shape and overrides draw(). A Circle object is passed to render, yet inside render the call s.draw() runs Shape::draw. What explains this, and what fixes it?",
+  "opts": {
+   "A": "Circle::draw must carry the virtual keyword of its own; the base's declaration does not extend to the derived class",
+   "B": "render takes its parameter by value, so only the Shape subobject is copied: the object is sliced and the parameter's dynamic type really is Shape. Declaring the parameter const Shape& restores dynamic dispatch",
+   "C": "Dynamic dispatch occurs only through a pointer, so the parameter must be changed to Shape*",
+   "D": "Shape's copy constructor should be declared virtual so that the Circle part of the object is copied as well"
+  },
+  "ans": "B",
+  "exp": "A by-value parameter is a fresh Shape object copy-constructed from the Shape subobject of the argument, so the Circle part is discarded and there is no derived object left to dispatch to. Option C is the near-miss: references dispatch dynamically just as pointers do, so a const Shape& parameter is enough, and option D fails because a constructor can never be virtual.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-045",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Which statement about a pure virtual function in C++ is correct?",
+  "opts": {
+   "A": "It may be given a definition outside the class body, and an override can then invoke it through a qualified call such as Base::f(); the class remains abstract either way",
+   "B": "The = 0 specifier and a function body are mutually exclusive, so any attempt to define the function is rejected",
+   "C": "Supplying a definition for it makes the class concrete, so objects of that class can then be created",
+   "D": "Only a pure virtual destructor may be given a definition; every other pure virtual function must be left undefined"
+  },
+  "ans": "A",
+  "exp": "Declaring a function pure virtual says only that a derived class must provide an override, not that the base may not supply shared code, so an out-of-class definition is legal and is reachable through a qualified call that suppresses dispatch. What the definition does not do is change abstractness, which is what option C gets wrong: the class stays abstract because the declaration still carries = 0.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-046",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Given class A { }; class B : public A { }; class C : public B { }; which term names this arrangement, and in what order do the three constructor bodies run when a C object is created?",
+  "opts": {
+   "A": "Multilevel inheritance; C's constructor body runs first, then B's, then A's",
+   "B": "Hierarchical inheritance; A's constructor body runs first, then B's, then C's",
+   "C": "Multilevel inheritance; A's constructor body runs first, then B's, then C's",
+   "D": "Multiple inheritance; A's constructor runs twice, once for each level of derivation"
+  },
+  "ans": "C",
+  "exp": "A chain in which each class derives from the one before it is multilevel inheritance, and construction proceeds from the most-base class outwards, so A's body finishes before B's begins and B's before C's. Hierarchical inheritance is the distractor worth naming: that is several classes deriving from one common base, which is a different shape even though its construction order for any one branch would look the same.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-047",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Base* p = new Derived; compiles, but the next line p->reset(); does not, where reset() is a non-virtual member function declared only in Derived. Why, and what is the minimal correct fix?",
+  "opts": {
+   "A": "The name reset is looked up in the pointer's static type Base, which declares no such member, so the call is rejected at compile time regardless of what p actually points to; either declare reset() in Base, or obtain a Derived* for the object and call through that",
+   "B": "The problem is that reset() is not virtual; adding virtual to Derived::reset() would let the compiler find it through a Base*",
+   "C": "The compiler cannot prove that p is non-null, so guarding the call with if (p) makes it compile",
+   "D": "Base's destructor is not virtual, which limits what may be reached through a Base* to the base's data members"
+  },
+  "ans": "A",
+  "exp": "Member name lookup is a compile-time operation performed on the static type of the expression, and the dynamic type is irrelevant to it, so a member absent from Base's interface is simply not callable through a Base*. Option B is the natural wrong guess: virtual affects which body runs for a name already present in the base, and cannot introduce a name into Base's interface from the derived side.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-048",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Shape declares virtual double area() const = 0;. Square defines double area() { return s * s; } and nothing else. The compiler rejects the declaration Square sq; saying that Square is an abstract type. What is wrong?",
+  "opts": {
+   "A": "A pure virtual function cannot be overridden by a directly derived class; an intermediate class must sit between Shape and Square",
+   "B": "Shape must supply a definition for area() before any derived class is permitted to override it",
+   "C": "Square::area() is not const-qualified, so it does not match Shape::area() const and declares a new function that merely hides the base one; Shape::area remains pure and unoverridden, leaving Square abstract. Writing override on Square::area() would have made the compiler report the mismatch at the declaration",
+   "D": "Square::area() must itself be marked virtual before it can override the base's pure virtual function"
+  },
+  "ans": "C",
+  "exp": "Const-qualification is part of a member function's signature, so area() and area() const are two different functions, and declaring the unqualified one leaves the pure virtual unimplemented while quietly hiding it in Square's scope. Option D is the plausible-sounding one, but virtual is inherited automatically: repeating it changes nothing, and it is precisely because a silent mismatch like this is so easy to write that the override specifier exists.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-049",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Consider struct B { virtual B* clone() const; }; struct D : B { D* clone() const override; };. Is D::clone a valid override of B::clone?",
+  "opts": {
+   "A": "No; an override must repeat the base's return type exactly, so this declaration is ill-formed",
+   "B": "No; the differing return type makes D::clone an overload rather than an override, so a call through a B* still selects B::clone",
+   "C": "Yes, but only because both functions are const-qualified; drop const from both and the return types would have to match exactly",
+   "D": "Yes; this is a covariant return type, and an override may return D* where the base returns B* provided B is an accessible and unambiguous base class of D. Covariance is permitted for pointers and references only, never for returns by value"
+  },
+  "ans": "D",
+  "exp": "C++ relaxes the same-return-type rule for exactly this case, so that a caller holding a D* gets a D* back from clone() without a cast, while a call through B* still returns B* and still dispatches to D::clone. Option B misreads the situation twice over: return type alone can never distinguish overloads, and here the signatures match, so nothing is being overloaded.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-050",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "A C++ project built with GCC on Linux compiles every translation unit cleanly, but the link fails with 'undefined reference to vtable for Widget'. Widget has several virtual member functions. Which explanation fits?",
+  "opts": {
+   "A": "Widget's destructor is not declared virtual, so no vtable is generated for the class at all",
+   "B": "Widget's key function — the first non-inline, non-pure virtual member function it declares — is declared but never defined; under the Itanium C++ ABI that GCC follows, the vtable is emitted only in the translation unit that defines the key function, so it is never emitted anywhere",
+   "C": "Two translation units each emitted a copy of Widget's vtable and the linker rejected the conflicting definitions",
+   "D": "Widget's constructor is not declared virtual, so the vtable pointer is never initialised in the constructed object"
+  },
+  "ans": "B",
+  "exp": "The key-function rule exists so that a polymorphic class does not emit its vtable into every translation unit that merely sees the header, and its cost is this diagnostic: forget to define that one function and the vtable has no home, which the linker reports as a missing vtable rather than a missing function. Option C describes the opposite failure and is wrong on both counts — a duplicate would be a multiple-definition error, and vtables are emitted as mergeable symbols anyway; option D is impossible, since a constructor cannot be virtual.",
+  "conf": "high"
+ }
+]

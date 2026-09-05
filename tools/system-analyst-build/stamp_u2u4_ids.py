@@ -38,7 +38,12 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-GEN = ROOT / "system-analyst-build/staged/tech2-u2u4-gen"
+DEFAULT_GEN = ROOT / "system-analyst-build/staged/tech2-u2u4-gen"
+
+# Set from --dir. Defaults to the U2/U4 batch this script was written for; the
+# id format is derived from each brief's unit number, so the same code serves
+# any authored batch (Unit 1 yields GEN-T2U1-nnn without further configuration).
+GEN = DEFAULT_GEN
 
 
 def die(msg):
@@ -72,9 +77,16 @@ def derive():
 
 
 def main():
+    global GEN
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--dir", default=None,
+                    help="staged batch directory (default: the U2/U4 batch)")
     args = ap.parse_args()
+    if args.dir:
+        GEN = Path(args.dir).resolve()
+        if not GEN.is_dir():
+            die("--dir %s is not a directory" % GEN)
 
     records = derive()
 

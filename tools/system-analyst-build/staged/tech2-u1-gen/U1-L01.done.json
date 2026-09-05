@@ -1,0 +1,114 @@
+[
+ {
+  "id": "GEN-T2U1-001",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A Rectangle class has virtual setWidth(int) and setHeight(int). Square is derived publicly from Rectangle and overrides both so that setting either dimension sets the other as well, keeping the sides equal. Existing code that was written and tested against Rectangle — void grow(Rectangle& r) { r.setWidth(5); r.setHeight(4); assert(r.area() == 20); } — now fails when a Square is passed to it. Which design principle does this hierarchy violate?",
+  "opts": {
+   "A": "Open/Closed Principle — grow() has to be modified every time a new subclass of Rectangle is introduced",
+   "B": "Interface Segregation Principle — Square is forced to depend on setter functions it has no use for",
+   "C": "Liskov Substitution Principle — Square cannot be used through a Rectangle reference without breaking the behaviour that Rectangle's existing clients were written against",
+   "D": "Single Responsibility Principle — Rectangle is made responsible both for storing its dimensions and for computing its area"
+  },
+  "ans": "C",
+  "exp": "Substitutability is a behavioural contract, not merely a compilable one: Rectangle's clients rely on setWidth leaving the height alone, and Square breaks that guarantee, so a Square object is not a valid stand-in for a Rectangle. The Interface Segregation reading is the tempting one, but Square is not forced to depend on methods it does not use — it implements both setters, just with different behaviour; and grow() was never modified, so nothing here contradicts the Open/Closed Principle either.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-002",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A PayrollReport class builds its own data source: its constructor executes db_ = new MySqlConnection(...). The team now wants to exercise PayrollReport against a test double, and later against a different database product, without editing PayrollReport at all. Which restructuring applies the Dependency Inversion Principle?",
+  "opts": {
+   "A": "Declare an abstract base class IDataSource with pure virtual query functions, make MySqlConnection derive from it, and pass an IDataSource& into PayrollReport's constructor",
+   "B": "Make MySqlConnection a singleton reached through a static instance() function, so that the database object is created in exactly one place",
+   "C": "Derive PayrollReport from MySqlConnection, so that the database operations become inherited member functions",
+   "D": "Keep the existing constructor but change db_ from private to protected, so that a test-only class derived from PayrollReport can replace it"
+  },
+  "ans": "A",
+  "exp": "Dependency inversion means the high-level policy and the low-level detail both depend on an abstraction, and that the choice of concrete type is made outside the class that uses it — an abstract base plus constructor injection achieves exactly that. The singleton is the most tempting alternative because it does centralise construction, but PayrollReport still names MySqlConnection in its code, so no substitute can be supplied; deriving PayrollReport from MySqlConnection asserts a false is-a relationship and does not remove the concrete dependency either.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-003",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A C++ class TimedCache must reuse the implementation of an existing class Buffer, must override Buffer's virtual function onFull(), and must not allow its own clients to call any of Buffer's public member functions on a TimedCache object. Which mechanism satisfies all three requirements at once?",
+  "opts": {
+   "A": "Hold a Buffer object as a private data member of TimedCache and forward to it",
+   "B": "Derive publicly from Buffer and then bring the unwanted inherited members into TimedCache's private section with using-declarations",
+   "C": "Declare TimedCache a friend of Buffer so it can reach Buffer's internals without inheriting from it",
+   "D": "Derive privately from Buffer"
+  },
+  "ans": "D",
+  "exp": "Private inheritance expresses \"is implemented in terms of\": the derived class may override the base's virtual functions and use its protected members, while the base's public interface does not become part of the derived class's interface and outside code cannot convert a TimedCache to a Buffer. Composition is the correct default and is the tempting answer here, but an enclosing class cannot override the virtual functions of a member object; and public inheritance with private using-declarations still leaves the base subobject reachable through a Buffer reference or pointer.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-004",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A department's system handles exactly three record types, which have not changed in a decade, but analysts add new operations over those records — a new levy calculation, a new export format — several times a year. The code today is procedural: one function per operation, branching internally on a record-type tag. A developer proposes converting it so that each record type becomes a class and every operation becomes a virtual function. Which assessment correctly states the trade-off?",
+  "opts": {
+   "A": "It is an improvement whatever the change profile, because an operation added to the base class automatically gives every record type a correct implementation of it",
+   "B": "It moves the cost of change to the wrong place: every new operation must now be added to each class in the hierarchy, whereas the procedural form confines a new operation to one new function — dynamic dispatch pays off when new types are frequent, not when new operations are",
+   "C": "It is an improvement because virtual dispatch eliminates the type tag and the branch on it, and that branch is the dominant cost in code of this kind",
+   "D": "The choice is neutral for future maintenance, because a table of virtual functions and a switch on a type tag are mechanically equivalent to each other"
+  },
+  "ans": "B",
+  "exp": "The two decompositions differ in which axis of change is cheap: class hierarchies absorb new types without touching existing code but spread each new operation across every class, while a function branching on a tag absorbs new operations in one place but must be edited for every new type. Option D is the trap — the two forms are indeed inter-convertible in expressive power, which is exactly why the real difference is where future edits land rather than what can be expressed; and a base-class implementation inherited by every record type is a default, not a correct one.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-005",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "In a college system, a Course object refers to the Student objects enrolled in it. A student may be enrolled in several courses at once, exists before and after any particular course, and must continue to exist when a course object is destroyed at the end of a term. Which UML relationship describes this, and which C++ member is the faithful realisation of it?",
+  "opts": {
+   "A": "Composition (filled diamond); Course holds std::vector<Student>, storing the students by value",
+   "B": "Aggregation (hollow diamond); Course holds std::vector<std::unique_ptr<Student>>, since unique_ptr records that a student belongs to one course at a time",
+   "C": "Aggregation (hollow diamond); Course holds std::vector<Student*>, non-owning pointers to Student objects whose lifetime is managed elsewhere",
+   "D": "Composition (filled diamond); Course holds std::vector<std::unique_ptr<Student>>, so that the students are destroyed with the course"
+  },
+  "ans": "C",
+  "exp": "Aggregation is the whole-part relationship in which the part is shareable and outlives the whole, and the standard C++ realisation is a non-owning handle to an object owned by some other part of the system. Option B is the tempting one because it names the right relationship, but unique_ptr asserts exclusive ownership and destroys the Student when the Course is destroyed — that is precisely composition's lifetime rule, and it also makes enrolment in a second course impossible.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-006",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A module exposes void generate(const Report& r, bool asPdf); where the second argument selects between two entirely different formatting routines inside the function body, so the caller has to know how the callee is internally organised in order to pass the right value. In the standard coupling taxonomy, which form of coupling does that second parameter introduce?",
+  "opts": {
+   "A": "Data coupling",
+   "B": "Stamp coupling",
+   "C": "Common coupling",
+   "D": "Control coupling"
+  },
+  "ans": "D",
+  "exp": "Control coupling is present when one module passes another an element of control — a flag, a mode, a switch value — that directs which path the callee takes, which is why it leaks the callee's internal structure to the caller and is normally removed by splitting the function or by dispatching on a polymorphic object instead. Data coupling would be the answer if the bool were consumed as ordinary data rather than as a selector; common coupling refers to modules sharing global data, and neither module here does.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-007",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "Consider this C++ class, in which post() appends to txns_ and adjusts balance_ so that the two always agree:\n\nclass Account {\n  std::vector<Txn> txns_;\n  double balance_;\npublic:\n  void post(const Txn&);\n  std::vector<Txn>& transactions();\n};\n\nWhat is the design defect introduced by transactions()?",
+  "opts": {
+   "A": "It hands callers a modifiable handle to the internal container, so transactions can be added or removed without going through post(), and the class can no longer guarantee that balance_ agrees with txns_",
+   "B": "It returns a reference to a member, which dangles as soon as the Account object is copied",
+   "C": "The private specifier is defeated because member functions are permitted to read private data; txns_ should be declared protected so that only derived classes can reach it",
+   "D": "The only defect is one of efficiency — returning the vector by value would copy the entire history on each call, so returning a reference is right and the design is sound"
+  },
+  "ans": "A",
+  "exp": "Encapsulation means the class controls every change to its own state, not merely that a member carries the private keyword; a non-const reference handed out by a public function exports write access to that state and destroys the invariant post() exists to maintain, and the usual repair is to return const std::vector<Txn>& or an iterator range. Option D correctly identifies that copying the vector would be expensive, which is what makes it tempting, but it draws the wrong conclusion — the reference being cheap does not make an unrestricted, non-const one safe.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-008",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "In structured development, analysis yields data flow diagrams and a data dictionary, which must then be transformed into a different kind of artefact — a structure chart of functional modules — before coding can begin. Object-oriented development is instead commonly described as \"seamless\". What does that description actually refer to?",
+  "opts": {
+   "A": "That object-oriented CASE tools generate the implementation directly from the analysis diagrams, so the design phase is no longer performed",
+   "B": "That the same abstractions — the classes and the relationships between them — are carried forward and progressively refined from analysis into design and into code, so no translation into a different kind of model is required at each phase boundary, which is what makes iterating back and forth between the phases cheap",
+   "C": "That requirements need not be recorded separately, because the class diagram produced during design serves as the requirements specification",
+   "D": "That testing merges into coding, because encapsulation confines every defect to the class containing it and so removes the need for integration testing"
+  },
+  "ans": "B",
+  "exp": "The claim of seamlessness is about representational continuity: an object identified during analysis becomes a class refined during design and a class defined in code, so there is no notational gap of the kind that separates a data flow diagram from a structure chart, and revisiting an earlier phase therefore does not mean redoing a translation. Option D is the closest thing to a real benefit on the list — encapsulation does localise many defects — but it does not describe seamlessness, and objects that collaborate still have to be tested together.",
+  "conf": "high"
+ }
+]

@@ -1,0 +1,954 @@
+[
+ {
+  "id": "GEN-T2U1-001",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A Rectangle class has virtual setWidth(int) and setHeight(int). Square is derived publicly from Rectangle and overrides both so that setting either dimension sets the other as well, keeping the sides equal. Existing code that was written and tested against Rectangle — void grow(Rectangle& r) { r.setWidth(5); r.setHeight(4); assert(r.area() == 20); } — now fails when a Square is passed to it. Which design principle does this hierarchy violate?",
+  "opts": {
+   "A": "Open/Closed Principle — grow() has to be modified every time a new subclass of Rectangle is introduced",
+   "B": "Interface Segregation Principle — Square is forced to depend on setter functions it has no use for",
+   "C": "Liskov Substitution Principle — Square cannot be used through a Rectangle reference without breaking the behaviour that Rectangle's existing clients were written against",
+   "D": "Single Responsibility Principle — Rectangle is made responsible both for storing its dimensions and for computing its area"
+  },
+  "ans": "C",
+  "exp": "Substitutability is a behavioural contract, not merely a compilable one: Rectangle's clients rely on setWidth leaving the height alone, and Square breaks that guarantee, so a Square object is not a valid stand-in for a Rectangle. The Interface Segregation reading is the tempting one, but Square is not forced to depend on methods it does not use — it implements both setters, just with different behaviour; and grow() was never modified, so nothing here contradicts the Open/Closed Principle either.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-002",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A PayrollReport class builds its own data source: its constructor executes db_ = new MySqlConnection(...). The team now wants to exercise PayrollReport against a test double, and later against a different database product, without editing PayrollReport at all. Which restructuring applies the Dependency Inversion Principle?",
+  "opts": {
+   "A": "Declare an abstract base class IDataSource with pure virtual query functions, make MySqlConnection derive from it, and pass an IDataSource& into PayrollReport's constructor",
+   "B": "Make MySqlConnection a singleton reached through a static instance() function, so that the database object is created in exactly one place",
+   "C": "Derive PayrollReport from MySqlConnection, so that the database operations become inherited member functions",
+   "D": "Keep the existing constructor but change db_ from private to protected, so that a test-only class derived from PayrollReport can replace it"
+  },
+  "ans": "A",
+  "exp": "Dependency inversion means the high-level policy and the low-level detail both depend on an abstraction, and that the choice of concrete type is made outside the class that uses it — an abstract base plus constructor injection achieves exactly that. The singleton is the most tempting alternative because it does centralise construction, but PayrollReport still names MySqlConnection in its code, so no substitute can be supplied; deriving PayrollReport from MySqlConnection asserts a false is-a relationship and does not remove the concrete dependency either.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-003",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A C++ class TimedCache must reuse the implementation of an existing class Buffer, must override Buffer's virtual function onFull(), and must not allow its own clients to call any of Buffer's public member functions on a TimedCache object. Which mechanism satisfies all three requirements at once?",
+  "opts": {
+   "A": "Hold a Buffer object as a private data member of TimedCache and forward to it",
+   "B": "Derive publicly from Buffer and then bring the unwanted inherited members into TimedCache's private section with using-declarations",
+   "C": "Declare TimedCache a friend of Buffer so it can reach Buffer's internals without inheriting from it",
+   "D": "Derive privately from Buffer"
+  },
+  "ans": "D",
+  "exp": "Private inheritance expresses \"is implemented in terms of\": the derived class may override the base's virtual functions and use its protected members, while the base's public interface does not become part of the derived class's interface and outside code cannot convert a TimedCache to a Buffer. Composition is the correct default and is the tempting answer here, but an enclosing class cannot override the virtual functions of a member object; and public inheritance with private using-declarations still leaves the base subobject reachable through a Buffer reference or pointer.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-004",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A department's system handles exactly three record types, which have not changed in a decade, but analysts add new operations over those records — a new levy calculation, a new export format — several times a year. The code today is procedural: one function per operation, branching internally on a record-type tag. A developer proposes converting it so that each record type becomes a class and every operation becomes a virtual function. Which assessment correctly states the trade-off?",
+  "opts": {
+   "A": "It is an improvement whatever the change profile, because an operation added to the base class automatically gives every record type a correct implementation of it",
+   "B": "It moves the cost of change to the wrong place: every new operation must now be added to each class in the hierarchy, whereas the procedural form confines a new operation to one new function — dynamic dispatch pays off when new types are frequent, not when new operations are",
+   "C": "It is an improvement because virtual dispatch eliminates the type tag and the branch on it, and that branch is the dominant cost in code of this kind",
+   "D": "The choice is neutral for future maintenance, because a table of virtual functions and a switch on a type tag are mechanically equivalent to each other"
+  },
+  "ans": "B",
+  "exp": "The two decompositions differ in which axis of change is cheap: class hierarchies absorb new types without touching existing code but spread each new operation across every class, while a function branching on a tag absorbs new operations in one place but must be edited for every new type. Option D is the trap — the two forms are indeed inter-convertible in expressive power, which is exactly why the real difference is where future edits land rather than what can be expressed; and a base-class implementation inherited by every record type is a default, not a correct one.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-005",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "In a college system, a Course object refers to the Student objects enrolled in it. A student may be enrolled in several courses at once, exists before and after any particular course, and must continue to exist when a course object is destroyed at the end of a term. Which UML relationship describes this, and which C++ member is the faithful realisation of it?",
+  "opts": {
+   "A": "Composition (filled diamond); Course holds std::vector<Student>, storing the students by value",
+   "B": "Aggregation (hollow diamond); Course holds std::vector<std::unique_ptr<Student>>, since unique_ptr records that a student belongs to one course at a time",
+   "C": "Aggregation (hollow diamond); Course holds std::vector<Student*>, non-owning pointers to Student objects whose lifetime is managed elsewhere",
+   "D": "Composition (filled diamond); Course holds std::vector<std::unique_ptr<Student>>, so that the students are destroyed with the course"
+  },
+  "ans": "C",
+  "exp": "Aggregation is the whole-part relationship in which the part is shareable and outlives the whole, and the standard C++ realisation is a non-owning handle to an object owned by some other part of the system. Option B is the tempting one because it names the right relationship, but unique_ptr asserts exclusive ownership and destroys the Student when the Course is destroyed — that is precisely composition's lifetime rule, and it also makes enrolment in a second course impossible.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-006",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A module exposes void generate(const Report& r, bool asPdf); where the second argument selects between two entirely different formatting routines inside the function body, so the caller has to know how the callee is internally organised in order to pass the right value. In the standard coupling taxonomy, which form of coupling does that second parameter introduce?",
+  "opts": {
+   "A": "Data coupling",
+   "B": "Stamp coupling",
+   "C": "Common coupling",
+   "D": "Control coupling"
+  },
+  "ans": "D",
+  "exp": "Control coupling is present when one module passes another an element of control — a flag, a mode, a switch value — that directs which path the callee takes, which is why it leaks the callee's internal structure to the caller and is normally removed by splitting the function or by dispatching on a polymorphic object instead. Data coupling would be the answer if the bool were consumed as ordinary data rather than as a selector; common coupling refers to modules sharing global data, and neither module here does.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-007",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "Consider this C++ class, in which post() appends to txns_ and adjusts balance_ so that the two always agree:\n\nclass Account {\n  std::vector<Txn> txns_;\n  double balance_;\npublic:\n  void post(const Txn&);\n  std::vector<Txn>& transactions();\n};\n\nWhat is the design defect introduced by transactions()?",
+  "opts": {
+   "A": "It hands callers a modifiable handle to the internal container, so transactions can be added or removed without going through post(), and the class can no longer guarantee that balance_ agrees with txns_",
+   "B": "It returns a reference to a member, which dangles as soon as the Account object is copied",
+   "C": "The private specifier is defeated because member functions are permitted to read private data; txns_ should be declared protected so that only derived classes can reach it",
+   "D": "The only defect is one of efficiency — returning the vector by value would copy the entire history on each call, so returning a reference is right and the design is sound"
+  },
+  "ans": "A",
+  "exp": "Encapsulation means the class controls every change to its own state, not merely that a member carries the private keyword; a non-const reference handed out by a public function exports write access to that state and destroys the invariant post() exists to maintain, and the usual repair is to return const std::vector<Txn>& or an iterator range. Option D correctly identifies that copying the vector would be expensive, which is what makes it tempting, but it draws the wrong conclusion — the reference being cheap does not make an unrestricted, non-const one safe.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-008",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "In structured development, analysis yields data flow diagrams and a data dictionary, which must then be transformed into a different kind of artefact — a structure chart of functional modules — before coding can begin. Object-oriented development is instead commonly described as \"seamless\". What does that description actually refer to?",
+  "opts": {
+   "A": "That object-oriented CASE tools generate the implementation directly from the analysis diagrams, so the design phase is no longer performed",
+   "B": "That the same abstractions — the classes and the relationships between them — are carried forward and progressively refined from analysis into design and into code, so no translation into a different kind of model is required at each phase boundary, which is what makes iterating back and forth between the phases cheap",
+   "C": "That requirements need not be recorded separately, because the class diagram produced during design serves as the requirements specification",
+   "D": "That testing merges into coding, because encapsulation confines every defect to the class containing it and so removes the need for integration testing"
+  },
+  "ans": "B",
+  "exp": "The claim of seamlessness is about representational continuity: an object identified during analysis becomes a class refined during design and a class defined in code, so there is no notational gap of the kind that separates a data flow diagram from a structure chart, and revisiting an earlier phase therefore does not mean redoing a translation. Option D is the closest thing to a real benefit on the list — encapsulation does localise many defects — but it does not describe seamlessness, and objects that collaborate still have to be tested together.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-009",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class has four non-static data members, one static data member and eight member functions. Ten objects of this class are created. Ignoring alignment padding, what is replicated inside each of the ten objects?",
+  "opts": {
+   "A": "All of the data members and all eight member functions, so that each object can dispatch its own calls without any lookup",
+   "B": "The four non-static data members and the static data member, but not the member functions",
+   "C": "Only the four non-static data members; the static data member exists once for the whole class and the member function code exists once and is shared",
+   "D": "The four non-static data members and the eight member functions, while the static data member exists once for the whole class"
+  },
+  "ans": "C",
+  "exp": "Member function code is generated once per class and shared by every object, which receives the address of the object it is to work on; only the non-static data members are laid out inside an object, and a static data member has a single shared definition outside every object. Option D is the classic misconception — objects do not carry copies of their member functions, which is exactly why adding a member function to a class does not make its objects any bigger.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-010",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "The body of class Counter contains the line `static int instances;` and its constructor increments that member. Every translation unit compiles, but the link fails with an undefined reference to `Counter::instances`. What is missing?",
+  "opts": {
+   "A": "`instances` must be initialised in the member-initialiser list of every constructor of Counter",
+   "B": "`instances` must be declared `public`, because a linker symbol cannot be emitted for a private member",
+   "C": "`instances` must be declared `const`, because a static data member cannot otherwise be given storage",
+   "D": "A definition at namespace scope in exactly one source file, such as `int Counter::instances = 0;` — the line inside the class body is only a declaration (since C++17 the member may instead be declared `inline` in the class, which supplies the definition)"
+  },
+  "ans": "D",
+  "exp": "A non-inline static data member declared in the class body is only declared there; it needs exactly one definition at namespace scope to acquire storage and a linker symbol, which is why the error appears at link time and not at compile time. A member-initialiser list cannot serve, because it initialises the object under construction, and a static member belongs to the class rather than to any object.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-011",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class computes an expensive result the first time it is asked for and stores it in a data member so later requests are cheap. The accessor that does this must remain usable on objects of the class that are themselves declared `const`. Which is the correct way to let the accessor write to that member while remaining a `const` member function?",
+  "opts": {
+   "A": "Declare the cache data member `mutable`",
+   "B": "Cast the constness away inside the accessor with a `const_cast` on `this` and write through the result",
+   "C": "Declare the cache data member `static`, so that it is not covered by any object's constness",
+   "D": "Overload the accessor on constness and let the non-const overload perform the update"
+  },
+  "ans": "A",
+  "exp": "`mutable` exempts a single data member from the constness the enclosing object imposes, so a `const` member function may still assign to it — this is the sanctioned way to implement a lazily filled cache. The `const_cast` route is the tempting alternative, but writing to an object that was itself declared `const` through such a cast is undefined behaviour; and the non-const overload in D would never be selected for a `const` object in the first place.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-012",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "Assuming the usual includes and `using namespace std`, what does this program print?\n\nstruct P { static int n; P() { ++n; } P(const P&) { ++n; } };\nint P::n = 0;\nint main() { P a[3]; P b = a[0]; cout << P::n; }",
+  "opts": {
+   "A": "1",
+   "B": "3",
+   "C": "4",
+   "D": "5"
+  },
+  "ans": "C",
+  "exp": "`P a[3];` default-constructs three elements, so the shared counter reaches 3, and `P b = a[0];` copy-initialises a fourth object from an lvalue, where no copy can be elided, so the user-provided copy constructor increments the counter once more. Answering 3 is the trap: it counts the array and forgets that the copy constructor was written to increment `n` as well.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-013",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "Consider this class:\n\nclass M {\n    int v;\npublic:\n    explicit M(int x) : v(x) {}\n    bool bigger(const M& o) const { return v > o.v; }\n};\n\nWhich statement about the expression `o.v` is correct?",
+  "opts": {
+   "A": "It is illegal: `v` is private to each individual object, so reading another object's `v` requires M to declare itself a friend",
+   "B": "It is legal only because `bigger` is a `const` member function; a non-const member function could not read another object's `v`",
+   "C": "It is legal only because `o` is a reference; the same expression on a parameter of type M taken by value would not compile",
+   "D": "It is legal: access control is granted per class, not per object, so a member function of M may read the private members of any M object it can name"
+  },
+  "ans": "D",
+  "exp": "Access specifiers apply to the class as a whole, not to individual objects, so any member function of M may touch the private members of every M it can reach; a class never needs a friend declaration to see into its own type, which is what makes comparison and copy operations writable at all. Constness of `bigger` and the reference-ness of `o` are irrelevant to access — a by-value M parameter would be readable in exactly the same way.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-014",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "Assuming the usual includes and `using namespace std`, what does this program print?\n\nstruct L { ~L() { cout << 'd'; } };\nint main() { L* p = new L; L q; cout << 'e'; }",
+  "opts": {
+   "A": "edd",
+   "B": "ed",
+   "C": "de",
+   "D": "ded"
+  },
+  "ans": "B",
+  "exp": "`q` is an automatic object, so its destructor runs when `main` returns — that is, after `'e'` has already been printed — while the object created on the free store is never passed to `delete`, so its destructor is simply never called. 'edd' is the tempting answer because it assumes the runtime destroys leaked free-store objects at program exit; it does not, and that is precisely why an unmatched `new` leaks resources rather than merely memory.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-015",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class `Item` declares exactly one constructor, `Item(int code);`. The declaration `Item shelf[5];` fails to compile. Which explanation and remedy are correct?",
+  "opts": {
+   "A": "Array elements are copy-initialised from a temporary, so `Item` must supply a copy constructor",
+   "B": "Declaring any constructor of its own suppresses the implicitly declared default constructor, and `Item shelf[5];` default-initialises each element; give `Item` a default constructor, or initialise every element explicitly, as in `Item shelf[5] = {Item(1), Item(2), Item(3), Item(4), Item(5)};`",
+   "C": "The constructor must be declared `explicit` before the compiler will use it to build array elements",
+   "D": "Arrays of class type are not permitted in C++; `std::vector<Item>` with `reserve(5)` is the only way to hold five `Item` objects"
+  },
+  "ans": "B",
+  "exp": "The implicit default constructor is declared only when the class declares no constructor at all, so `Item(int)` removes it, and an array declared without an initialiser default-initialises every element and therefore demands that missing default constructor. Marking the constructor `explicit` changes only whether implicit conversions may use it and does nothing about default construction, while arrays of class type are perfectly legal once each element can be initialised.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-016",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "`Widget* p = new Widget[10];` allocates ten objects, and the code later releases them with `delete p;`. What does the C++ standard say about this?",
+  "opts": {
+   "A": "The behaviour is undefined: storage obtained from a `new[]` expression must be released with `delete[]`, which is the form that destroys every element",
+   "B": "It is well defined — `delete` consults the element count recorded with the allocation and destroys all ten objects",
+   "C": "It is well defined — exactly one destructor runs and the remaining nine objects leak",
+   "D": "It is well defined when `Widget` has a trivial destructor and undefined only when the destructor is non-trivial"
+  },
+  "ans": "A",
+  "exp": "The standard requires the form of the delete-expression to match the form of the new-expression that produced the pointer; mismatching them is undefined behaviour, and only `delete[]` is obliged to destroy each element and release the array allocation. Option C is the most tempting distractor because it describes what some implementations appear to do, but 'one destructor runs and the rest leak' is not a guarantee the language makes, and there is no exemption for trivial destructors either.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-017",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class has no data members and no virtual functions. Why can `sizeof` applied to that class never yield 0?",
+  "opts": {
+   "A": "Because every object carries a hidden pointer to its class's run-time type information",
+   "B": "Because two distinct complete objects of the same type are required to have distinct addresses, which would be impossible if a complete object occupied no storage",
+   "C": "Because the compiler must store the addresses of the class's member functions inside each object",
+   "D": "Because alignment rules round every object up to at least the size of a machine word"
+  },
+  "ans": "B",
+  "exp": "Distinct complete objects of the same type must be distinguishable by address — an array of them must have addressable elements — so a complete object always occupies at least one byte, and its exact size beyond that is up to the implementation. There is no run-time type information pointer to blame here since the class has no virtual functions, and member function addresses are never stored inside objects.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-018",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class currently has no virtual functions. On a typical implementation that dispatches virtual calls through a per-class virtual table, which single change to the class would be expected to increase `sizeof` for its objects?",
+  "opts": {
+   "A": "Adding a static data member to the class",
+   "B": "Adding one more non-virtual member function",
+   "C": "Declaring the class's destructor `virtual`",
+   "D": "Adding a `friend` declaration for a free function"
+  },
+  "ans": "C",
+  "exp": "Giving a class its first virtual function — and a virtual destructor counts as one — makes a vtable-based implementation embed a virtual-table pointer in every object, which is the usual reason a class's objects suddenly grow. A static data member lives once outside every object, an ordinary member function is shared code, and a friend declaration only grants access rights; none of those three adds per-object storage.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-019",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A header defines class C. One member function, `f`, is defined inside the class body; another, `g`, is only declared inside the body and then defined below the class in the same header as `void C::g() { ... }`. When several translation units include this header, the link fails with a multiple-definition error for `C::g` but not for `C::f`. Why?",
+  "opts": {
+   "A": "A function defined inside the class body is given internal linkage, so every translation unit gets its own private copy that cannot clash",
+   "B": "The in-body definition is only a declaration; the compiler regenerates the body at each call site, so no symbol for `C::f` ever exists",
+   "C": "A function defined inside the class body is always expanded at the call site, so the linker never sees a definition for it",
+   "D": "A function defined inside the class body is implicitly `inline`, and an inline function may be defined identically in every translation unit; `C::g` is not implicitly inline, so it must be marked `inline` or moved into a single source file"
+  },
+  "ans": "D",
+  "exp": "Defining a member function inside the class body makes it implicitly `inline`, and the one-definition rule specifically permits an inline function to be defined once in each translation unit provided the definitions are identical; an out-of-class definition sitting in a header is an ordinary external definition and breaks that rule the moment two translation units include it. `inline` does not confer internal linkage — the definitions still denote one entity with one address — and it is not a promise that any call is expanded in place.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-020",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct T { T(int n) { cout << n; } };\nstruct S { T x, y; S() : y(2), x(1) {} };\nint main() { S s; }",
+  "opts": {
+   "A": "21",
+   "B": "It does not compile, because the mem-initialiser list must follow declaration order",
+   "C": "12",
+   "D": "Either 12 or 21, because the order of member initialisation is unspecified"
+  },
+  "ans": "C",
+  "exp": "Non-static data members are initialised in the order they are declared in the class, never in the order they happen to appear in the mem-initialiser list, so x(1) runs before y(2) and 1 is printed first. 21 is the trap of reading the list top to bottom; the mismatch draws a warning such as -Wreorder but the code is well-formed, and the order is fixed by the language rather than left to the implementation.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-021",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct B { B() { f(); } virtual void f() { cout << 1; } };\nstruct D : B { void f() override { cout << 2; } };\nint main() { D d; }",
+  "opts": {
+   "A": "1",
+   "B": "2",
+   "C": "12",
+   "D": "Nothing, because calling a virtual function while the D sub-object is still unconstructed is undefined behaviour"
+  },
+  "ans": "A",
+  "exp": "While a base class constructor is running, the object's dynamic type is that base class, so a virtual call made from B's constructor resolves to B::f even though the complete object will be a D. The behaviour is well defined, not undefined, and that is exactly what makes the pitfall dangerous: the derived override is silently skipped instead of the program failing loudly.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-022",
+  "sub": "Constructors and destructors",
+  "q": "A class X declares a constructor with the signature X(X other), taking its parameter by value. How does the compiler treat that declaration?",
+  "opts": {
+   "A": "It is accepted, but every copy recurses without end and overflows the stack at run time",
+   "B": "It is accepted, and the compiler passes the argument by reference anyway because the copy is elided",
+   "C": "It is accepted, and behaves as a copy constructor for any class that owns no dynamically allocated memory",
+   "D": "It is rejected at compile time: a constructor for X whose only parameter is an X by value is ill-formed"
+  },
+  "ans": "D",
+  "exp": "A constructor for X whose first parameter is X by value, with no other parameters or with all the rest defaulted, is ill-formed and must be diagnosed, because binding that by-value parameter would itself require invoking a copy constructor. The tempting answer is runtime infinite recursion; the recursion is real in principle, which is precisely why the language forbids the declaration rather than letting it compile and then loop.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-023",
+  "sub": "Constructors and destructors",
+  "q": "A class owns a raw pointer and therefore declares a destructor to free it. It declares no other special member function. Which special members does the compiler still supply?",
+  "opts": {
+   "A": "The copy constructor and copy assignment operator are implicitly deleted, because a user-declared destructor suppresses them",
+   "B": "The copy constructor and copy assignment operator are still supplied, but no move constructor or move assignment is declared, so intended moves silently copy",
+   "C": "The move constructor and move assignment operator are still supplied, while the copy operations are implicitly deleted",
+   "D": "No copy or move operation is supplied at all once any special member function is user-declared"
+  },
+  "ans": "B",
+  "exp": "A user-declared destructor blocks the implicit declaration of the move constructor and move assignment operator, while the copy operations continue to be implicitly declared (their implicit definition in this situation is deprecated, but they exist). So std::move on such an object still compiles and merely copies the raw pointer, producing the double free the destructor was written to prevent, which is the Rule of Five in one sentence. Option A inverts the rule: it is the moves, not the copies, that the destructor suppresses.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-024",
+  "sub": "Constructors and destructors",
+  "q": "Given struct Buffer { Buffer(int n); }; and void consume(Buffer);, the call consume(64) currently compiles. What changes if the constructor is marked explicit?",
+  "opts": {
+   "A": "Buffer b(64); stops compiling, while consume(64) still converts implicitly as before",
+   "B": "Nothing changes for consume(64), because explicit constrains conversion operators rather than constructors",
+   "C": "consume(64) and Buffer b = 64; both stop compiling, while consume(Buffer(64)) still compiles",
+   "D": "Both consume(64) and consume(Buffer(64)) stop compiling, because explicit forbids passing a Buffer by value"
+  },
+  "ans": "C",
+  "exp": "explicit removes a constructor from consideration for implicit conversions and for copy-initialisation, so an int can no longer turn itself into a Buffer at a call site or across an = sign, while direct-initialisation and an explicitly written Buffer(64) are untouched. explicit applies to constructors as well as to conversion functions, which is why option B is wrong.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-025",
+  "sub": "Constructors and destructors",
+  "q": "A constructor is written as Widget(int n) : Widget(), count(n) {}, where Widget() is another constructor of the same class and count is a data member. The compiler rejects it. Why?",
+  "opts": {
+   "A": "Delegation is permitted only from the default constructor to a parameterised one, not in this direction",
+   "B": "count would be initialised twice, and initialising a member twice is forbidden",
+   "C": "A delegating constructor must be declared after the constructor it targets",
+   "D": "A mem-initialiser that names the constructor's own class must be the only entry in the list"
+  },
+  "ans": "D",
+  "exp": "When a mem-initialiser designates the constructor's own class it is a delegation, and the language requires it to stand alone, because the target constructor completely constructs the object before the delegating constructor's body starts; anything else the delegating constructor wants must be done in that body, here as count = n;. Delegation has no required direction, and the order in which constructors are declared inside the class is irrelevant.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-026",
+  "sub": "Constructors and destructors",
+  "q": "Base declares a virtual destructor and Derived inherits from it publicly. Code executes Base* p = new Derived[3]; and later delete[] p;. What is the outcome?",
+  "opts": {
+   "A": "Undefined behaviour, because for an array the operand's static element type must match the dynamic element type, and a virtual destructor does not rescue it",
+   "B": "Well defined and correct, because the virtual destructor ensures all three Derived destructors run",
+   "C": "Only the first element is destroyed correctly, and the other two are leaked",
+   "D": "It fails to compile, because a Base* cannot be initialised from an array of Derived"
+  },
+  "ans": "A",
+  "exp": "Array deletion is undefined when the static type of the operand differs from the dynamic type of the array elements: delete[] walks the array using sizeof(Base) while the elements are spaced by sizeof(Derived), so the addresses it destroys are not the objects. A virtual destructor fixes only the single-object case and cannot correct the element stride, which is why option B is the trap and why arrays of derived objects should never be held through a base pointer. The initialisation itself does compile, since Derived* converts to Base*.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-027",
+  "sub": "Constructors and destructors",
+  "q": "In C++11 and later, an exception escapes a destructor that carries no exception specification of its own. What happens?",
+  "opts": {
+   "A": "It propagates like an exception from any other function and can be caught by an enclosing handler",
+   "B": "The program is ill-formed and the compiler rejects the destructor",
+   "C": "std::terminate is called, because a destructor is implicitly noexcept unless declared otherwise",
+   "D": "It propagates unless the destructor is running during stack unwinding, in which case it is silently swallowed"
+  },
+  "ans": "C",
+  "exp": "Since C++11 a destructor with no explicit exception specification is implicitly noexcept, so an escaping exception crosses a noexcept boundary and std::terminate runs without any enclosing handler being consulted. Option A is the pre-C++11 answer; declaring the destructor noexcept(false) restores it, but even then an exception thrown while another is already unwinding the stack terminates the program, which is the underlying reason destructors should not throw.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-028",
+  "sub": "Constructors and destructors",
+  "q": "A struct with two public int members was routinely created with Point p;. After a constructor Point(int x, int y) is added to it, every such line stops compiling. What explains this?",
+  "opts": {
+   "A": "The struct is no longer an aggregate, and a non-aggregate cannot be default-initialised",
+   "B": "Declaring any constructor stops the compiler from implicitly declaring a default constructor",
+   "C": "A class with a user-declared constructor can only be created with new",
+   "D": "The implicit default constructor is still declared, but is now implicitly deleted because the int members have no initialisers"
+  },
+  "ans": "B",
+  "exp": "The default constructor is implicitly declared only when the class has no user-declared constructor of any kind, so adding Point(int, int) removes it and Point p; then finds no viable constructor; writing Point() = default; alongside brings it back. Option D is the near-miss: nothing deletes the default constructor here, it is simply never declared, and members of built-in type leave a default constructor uninitialised rather than deleted.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-029",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Which of the following operators can be overloaded in C++?",
+  "opts": {
+   "A": "The scope resolution operator ::",
+   "B": "The member selection operator . applied to an object",
+   "C": "The class member access operator ->",
+   "D": "sizeof"
+  },
+  "ans": "C",
+  "exp": "operator-> can be overloaded, and doing so is what makes smart-pointer and proxy classes usable with pointer syntax; the compiler applies the overload repeatedly until a real pointer is produced. The other three are on the short list the language reserves — ::, .,  .*, ?:, sizeof, typeid and alignof — because each one either operates on a name or a type rather than on a value, so there is no operand for a user-defined function to receive. Option B is the tempting one: -> is overloadable while the closely related . is not, and the asymmetry is deliberate rather than an oversight.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-030",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Base declares both void print() and void print(int). Derived, which inherits publicly from Base, declares only void print(int). What happens at the call d.print(), where d is a Derived object?",
+  "opts": {
+   "A": "It compiles and calls Base::print(), because public inheritance makes all of Base's members available",
+   "B": "It fails to compile, because Derived::print hides every Base overload of that name regardless of signature",
+   "C": "It compiles and calls Derived::print(int) with a default-constructed int argument",
+   "D": "It compiles only if Base::print() is declared virtual"
+  },
+  "ans": "B",
+  "exp": "Name lookup stops at the first scope in which the name appears, so finding print in Derived means Base's scope is never searched — overload resolution then runs on the single candidate print(int) and fails for a call with no arguments. The hiding is by name, not by signature, which is why option A's reasoning breaks down even though the member genuinely is inherited and accessible; writing using Base::print; inside Derived pulls the base overloads back into the same scope and makes the call work. Declaring the base function virtual, as option D suggests, changes which override runs but has no effect on name lookup.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-031",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "A Money class overloads multiplication as a member function, Money operator*(int n) const. The expression m * 2 compiles, but 2 * m does not. What is the reason?",
+  "opts": {
+   "A": "The int operand must be converted with an explicit cast before any overloaded operator will accept it",
+   "B": "Member operator functions can only be used when both operands are of the same class type",
+   "C": "The overload must be declared with the commutative keyword for either operand order to work",
+   "D": "A member operator function is called on its left operand, so the left operand has to be a Money object; 2 * m would require int to have such a member"
+  },
+  "ans": "D",
+  "exp": "For a binary member operator, the left operand is the implicit *this, so m * 2 rewrites to m.operator*(2) while 2 * m would need 2.operator*(m) — and a built-in type has no member functions. The fix is a non-member overload, Money operator*(int n, const Money& m), which receives both operands as ordinary parameters and so places no requirement on which side the class appears; this is the usual reason arithmetic operators are written as non-members. Option B is wrong in an instructive way: m * 2 is itself a member call with operands of different types, which is exactly what disproves it. C invents a keyword that does not exist.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-032",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "A Counter class overloads both forms of ++. The conventional prefix form returns Counter& while the conventional postfix form returns Counter by value. What makes the postfix form unable to return a reference the way the prefix form does?",
+  "opts": {
+   "A": "Postfix must yield the value the object had before the increment, and that earlier value survives only as a local copy inside the operator, so returning a reference to it would leave a dangling reference",
+   "B": "Returning a reference from any operator that takes a dummy parameter is forbidden by the language",
+   "C": "Postfix increment is resolved at compile time, and compile-time binding cannot produce references",
+   "D": "The object is const during a postfix increment, so only a copy can be returned"
+  },
+  "ans": "A",
+  "exp": "Prefix ++ leaves the incremented object itself as its result, so it can hand back *this, which outlives the call; postfix has to produce the old value, which the operator must save in a local before modifying the object, and that local is destroyed when the function returns. This is also why postfix is the more expensive of the two for a non-trivial class and why the prefix form is preferred in loops. Option D inverts the situation: the object is being modified, so it is emphatically not const — the copy is needed because of the value the caller expects, not because of constness.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-033",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Given only the overloads void f(int) and void f(double), which describes the calls f('a') and f(7L)?",
+  "opts": {
+   "A": "f('a') calls f(int); f(7L) is ambiguous and fails to compile",
+   "B": "Both calls select f(int), since integral types always prefer an integral parameter",
+   "C": "f('a') is ambiguous; f(7L) calls f(int)",
+   "D": "Both calls are ambiguous, because neither char nor long matches a parameter exactly"
+  },
+  "ans": "A",
+  "exp": "char to int is an integral promotion, which overload resolution ranks strictly better than the char-to-double conversion, so f('a') has a unique best match; long to int and long to double are both ordinary conversions of the same rank, so neither candidate is better and f(7L) is ambiguous. Option B states the appealing but false rule that an integral argument always prefers an integral parameter — long is integral, yet it does not select f(int). The distinction that actually decides both calls is promotion versus conversion, not integral versus floating.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-034",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Two functions in the same scope are declared as int compute(int x) and double compute(int x). What is the result?",
+  "opts": {
+   "A": "They form a valid overload set; the compiler picks one from the type expected at the call site",
+   "B": "They form a valid overload set, but only if the calls always assign the result to a variable",
+   "C": "It is ill-formed: functions whose parameter lists are identical cannot be distinguished by return type alone",
+   "D": "It is valid, and the second declaration silently replaces the first"
+  },
+  "ans": "C",
+  "exp": "Overload resolution examines only the arguments at the call site, so two candidates with identical parameter lists give it nothing to choose between and the second declaration is rejected where it stands, before any call is written. The reasoning behind options A and B is what makes them tempting — a call really can appear in a context that wants a particular type — but a context is not an argument, and an expression such as compute(1); in a discarded-value statement would have no expected type at all. Note that overloads may certainly differ in return type as long as their parameters also differ; it is sameness of parameters that is fatal.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-035",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Function overloading and operator overloading are usually classified as which kind of polymorphism, and on what grounds?",
+  "opts": {
+   "A": "Run-time polymorphism, because the correct function is located through the object's vtable",
+   "B": "Compile-time polymorphism, because the overload is selected from the static types of the arguments while the program is being translated",
+   "C": "Run-time polymorphism, because the arguments are not known until the program executes",
+   "D": "Neither, since polymorphism refers only to inheritance hierarchies"
+  },
+  "ans": "B",
+  "exp": "Overload resolution is performed entirely by the compiler using the declared types of the argument expressions, and the call that reaches the linker names one specific function, which is why it is also called static or early binding. Run-time polymorphism is the separate mechanism in which a call through a base pointer or reference is dispatched on the dynamic type of the object, and it needs a virtual function to exist at all — options A and C attach that machinery to overloading, which does not use it. Option D is too narrow: dispatching on a hierarchy is one form of polymorphism, not the definition of it.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-036",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Why is a copy-assignment operator conventionally declared as Vec& operator=(const Vec& other) rather than as void operator=(const Vec& other)?",
+  "opts": {
+   "A": "Because a void operator= will not compile",
+   "B": "Because returning a reference is what tells the compiler to perform a member-by-member copy",
+   "C": "Because the returned reference is what the destructor uses to release the previous contents",
+   "D": "Because assignment in C++ is an expression that yields its left operand, so returning Vec& lets a = b = c chain and lets the result be used where a Vec is expected"
+  },
+  "ans": "D",
+  "exp": "For the built-in types a = b = c parses as a = (b = c) and the inner assignment yields the assigned-to object, so a user-defined operator= that returns Vec& keeps class types consistent with that behaviour and permits the same chaining. Option A overstates the case, which is what makes it the plausible one: void operator= compiles perfectly well and works for a plain a = b, so the reason for the convention is expressiveness and consistency rather than legality. Returning a reference has no bearing on how members are copied or on destruction.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-037",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Which of these is a genuine limitation of operator overloading in C++?",
+  "opts": {
+   "A": "The precedence, associativity and number of operands of an operator are fixed by the grammar and cannot be altered by an overload, and no new operator token such as ** can be introduced",
+   "B": "An overloaded operator may not be declared as a non-member function",
+   "C": "An overloaded operator cannot be given a meaning unrelated to the operator's built-in meaning; the compiler rejects such definitions",
+   "D": "At most one operator may be overloaded per class"
+  },
+  "ans": "A",
+  "exp": "Overloading supplies a new function body for an existing operator token; the parser has already fixed how that token binds, so a * b keeps its precedence relative to a + b whatever the operands are, and a token the grammar does not define cannot be given one. Option C describes a real convention rather than a rule — nothing stops a class from defining operator+ to do something surprising, and the compiler will not complain, which is precisely why the guidance to preserve conventional meaning has to be a matter of discipline. Option B has it backwards, since operators such as << and the symmetric arithmetic ones are normally non-members.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-038",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "A class Point needs to support cout << p. Why must the stream insertion operator be overloaded as a non-member function, typically declared a friend of Point?",
+  "opts": {
+   "A": "Because operator<< is a bitwise operator and member overloads of bitwise operators are not permitted",
+   "B": "Because friend functions execute faster, avoiding the this pointer",
+   "C": "Because a member operator<< would belong to Point, making the call p << cout instead; the left operand of cout << p is the ostream, which is a standard library class the programmer cannot add members to",
+   "D": "Because std::ostream is abstract and cannot appear as a parameter of a member function"
+  },
+  "ans": "C",
+  "exp": "The left operand of a binary member operator is the object the function is called on, so Point::operator<< would only serve expressions of the form p << something; making the ostream the left operand would mean adding a member to std::ostream, which is not open to modification. A non-member taking (std::ostream&, const Point&) puts both operands in the parameter list and is declared a friend only when it needs access to private members — the non-member part is required, the friend part is a convenience. Option D is simply untrue of std::ostream, and nothing about the bitwise origin of the token restricts where it may be overloaded.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-039",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "A Buffer class declares both int& operator[](int i) and const int& operator[](int i) const. Given Buffer b; and const Buffer& cb = b;, which overload does each of b[0] and cb[0] select?",
+  "opts": {
+   "A": "Both select the const version, because the const overload is declared second",
+   "B": "b[0] selects the non-const version and cb[0] selects the const version, because the constness of the object the operator is called on participates in overload resolution",
+   "C": "Both select the non-const version, since b and cb name the same object",
+   "D": "The pair is ill-formed, because two operators with identical parameter lists cannot be overloaded"
+  },
+  "ans": "B",
+  "exp": "The cv-qualification of the implicit object parameter is part of the member function's signature, so the two declarations are genuinely distinct overloads and resolution matches the non-const one to a non-const object and the const one to a const object or reference. This is the standard way to let b[0] = 7 work while still permitting reads through a const reference, and it is why option D is wrong — the parameter lists match but the implicit object parameters do not. Option C mistakes identity of the object for the static type used to reach it: resolution happens at compile time and sees only that cb is a reference to const.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-040",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "A C++ class is declared as class D : private B. Which statement about the resulting access is correct?",
+  "opts": {
+   "A": "B's public members become protected in D, and B's protected members become private in D",
+   "B": "B's private members become reachable inside D's member functions, because the inheritance itself is private",
+   "C": "B's public and protected members become private members of D: D's own member functions can still use them, but a class further derived from D cannot",
+   "D": "Code outside D may still convert a D* to a B* implicitly, because the B subobject exists whatever the inheritance specifier says"
+  },
+  "ans": "C",
+  "exp": "Private inheritance lowers every accessible base member to private in the derived class, which stops the chain one level down: D can use them, anything derived from D cannot. Option D is the tempting one because the B subobject genuinely is there, but the derived-to-base pointer conversion is itself an access-controlled operation and is available only inside D's members and friends.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-041",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Assume the usual includes.\n\nstruct Storage { int id; };\nstruct Reader : Storage { };\nstruct Writer : Storage { };\nstruct ReadWriter : Reader, Writer { void set() { id = 5; } };\n\nWhat happens at the line id = 5;, and what is the standard remedy?",
+  "opts": {
+   "A": "It compiles and writes both inherited copies of id, since they share a name and a type",
+   "B": "It is rejected as an ambiguous reference, because ReadWriter contains two Storage subobjects; declaring Reader and Writer as struct Reader : virtual Storage and struct Writer : virtual Storage gives ReadWriter a single shared Storage subobject",
+   "C": "It compiles and writes the copy inherited through Writer, because Writer is listed last in ReadWriter's base list",
+   "D": "It compiles, but which of the two copies is written is unspecified, so the result varies between compilers"
+  },
+  "ans": "B",
+  "exp": "This is the diamond: ReadWriter inherits Storage twice, so the unqualified name id names two distinct members and the lookup is ambiguous at compile time, not at run time. Virtual inheritance on the two intermediate classes is the language's answer, collapsing them to one shared base subobject; nothing about base-list ordering makes the compiler pick one, which is why the last-listed-wins option is wrong.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-042",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct B { virtual void f(int n = 1) { cout << \"B\" << n; } };\nstruct D : B { void f(int n = 2) override { cout << \"D\" << n; } };\nint main() { B* p = new D; p->f(); }",
+  "opts": {
+   "A": "B1",
+   "B": "B2",
+   "C": "D2",
+   "D": "D1"
+  },
+  "ans": "D",
+  "exp": "Which function body runs is decided at run time from the object's dynamic type, so D::f executes, but a default argument is not part of the dispatch: the compiler substitutes it at the call site from the static type of the expression, which is B*, giving n = 1. D2 is the trap for assuming the default travels with the overriding function; this mismatch is exactly why overriding a virtual function with a different default argument is considered a defect in a design.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-043",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct B { B() { speak(); } virtual void speak() { cout << \"B\"; } };\nstruct D : B { void speak() override { cout << \"D\"; } };\nint main() { D d; }",
+  "opts": {
+   "A": "B",
+   "B": "D",
+   "C": "BD",
+   "D": "Nothing is guaranteed; the behaviour is undefined and either letter may appear"
+  },
+  "ans": "A",
+  "exp": "While a base constructor is running, the object is not yet a D: its dynamic type is B, so a virtual call from inside B's constructor resolves to B::speak. The behaviour is fully defined here, which rules out the undefined-behaviour option; it would only become undefined if speak() were pure virtual with no definition, since there would then be no function to call.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-044",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "A function is declared void render(Shape s);. Shape has a virtual draw(), and Circle derives publicly from Shape and overrides draw(). A Circle object is passed to render, yet inside render the call s.draw() runs Shape::draw. What explains this, and what fixes it?",
+  "opts": {
+   "A": "Circle::draw must carry the virtual keyword of its own; the base's declaration does not extend to the derived class",
+   "B": "render takes its parameter by value, so only the Shape subobject is copied: the object is sliced and the parameter's dynamic type really is Shape. Declaring the parameter const Shape& restores dynamic dispatch",
+   "C": "Dynamic dispatch occurs only through a pointer, so the parameter must be changed to Shape*",
+   "D": "Shape's copy constructor should be declared virtual so that the Circle part of the object is copied as well"
+  },
+  "ans": "B",
+  "exp": "A by-value parameter is a fresh Shape object copy-constructed from the Shape subobject of the argument, so the Circle part is discarded and there is no derived object left to dispatch to. Option C is the near-miss: references dispatch dynamically just as pointers do, so a const Shape& parameter is enough, and option D fails because a constructor can never be virtual.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-045",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Which statement about a pure virtual function in C++ is correct?",
+  "opts": {
+   "A": "It may be given a definition outside the class body, and an override can then invoke it through a qualified call such as Base::f(); the class remains abstract either way",
+   "B": "The = 0 specifier and a function body are mutually exclusive, so any attempt to define the function is rejected",
+   "C": "Supplying a definition for it makes the class concrete, so objects of that class can then be created",
+   "D": "Only a pure virtual destructor may be given a definition; every other pure virtual function must be left undefined"
+  },
+  "ans": "A",
+  "exp": "Declaring a function pure virtual says only that a derived class must provide an override, not that the base may not supply shared code, so an out-of-class definition is legal and is reachable through a qualified call that suppresses dispatch. What the definition does not do is change abstractness, which is what option C gets wrong: the class stays abstract because the declaration still carries = 0.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-046",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Given class A { }; class B : public A { }; class C : public B { }; which term names this arrangement, and in what order do the three constructor bodies run when a C object is created?",
+  "opts": {
+   "A": "Multilevel inheritance; C's constructor body runs first, then B's, then A's",
+   "B": "Hierarchical inheritance; A's constructor body runs first, then B's, then C's",
+   "C": "Multilevel inheritance; A's constructor body runs first, then B's, then C's",
+   "D": "Multiple inheritance; A's constructor runs twice, once for each level of derivation"
+  },
+  "ans": "C",
+  "exp": "A chain in which each class derives from the one before it is multilevel inheritance, and construction proceeds from the most-base class outwards, so A's body finishes before B's begins and B's before C's. Hierarchical inheritance is the distractor worth naming: that is several classes deriving from one common base, which is a different shape even though its construction order for any one branch would look the same.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-047",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Base* p = new Derived; compiles, but the next line p->reset(); does not, where reset() is a non-virtual member function declared only in Derived. Why, and what is the minimal correct fix?",
+  "opts": {
+   "A": "The name reset is looked up in the pointer's static type Base, which declares no such member, so the call is rejected at compile time regardless of what p actually points to; either declare reset() in Base, or obtain a Derived* for the object and call through that",
+   "B": "The problem is that reset() is not virtual; adding virtual to Derived::reset() would let the compiler find it through a Base*",
+   "C": "The compiler cannot prove that p is non-null, so guarding the call with if (p) makes it compile",
+   "D": "Base's destructor is not virtual, which limits what may be reached through a Base* to the base's data members"
+  },
+  "ans": "A",
+  "exp": "Member name lookup is a compile-time operation performed on the static type of the expression, and the dynamic type is irrelevant to it, so a member absent from Base's interface is simply not callable through a Base*. Option B is the natural wrong guess: virtual affects which body runs for a name already present in the base, and cannot introduce a name into Base's interface from the derived side.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-048",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Shape declares virtual double area() const = 0;. Square defines double area() { return s * s; } and nothing else. The compiler rejects the declaration Square sq; saying that Square is an abstract type. What is wrong?",
+  "opts": {
+   "A": "A pure virtual function cannot be overridden by a directly derived class; an intermediate class must sit between Shape and Square",
+   "B": "Shape must supply a definition for area() before any derived class is permitted to override it",
+   "C": "Square::area() is not const-qualified, so it does not match Shape::area() const and declares a new function that merely hides the base one; Shape::area remains pure and unoverridden, leaving Square abstract. Writing override on Square::area() would have made the compiler report the mismatch at the declaration",
+   "D": "Square::area() must itself be marked virtual before it can override the base's pure virtual function"
+  },
+  "ans": "C",
+  "exp": "Const-qualification is part of a member function's signature, so area() and area() const are two different functions, and declaring the unqualified one leaves the pure virtual unimplemented while quietly hiding it in Square's scope. Option D is the plausible-sounding one, but virtual is inherited automatically: repeating it changes nothing, and it is precisely because a silent mismatch like this is so easy to write that the override specifier exists.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-049",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Consider struct B { virtual B* clone() const; }; struct D : B { D* clone() const override; };. Is D::clone a valid override of B::clone?",
+  "opts": {
+   "A": "No; an override must repeat the base's return type exactly, so this declaration is ill-formed",
+   "B": "No; the differing return type makes D::clone an overload rather than an override, so a call through a B* still selects B::clone",
+   "C": "Yes, but only because both functions are const-qualified; drop const from both and the return types would have to match exactly",
+   "D": "Yes; this is a covariant return type, and an override may return D* where the base returns B* provided B is an accessible and unambiguous base class of D. Covariance is permitted for pointers and references only, never for returns by value"
+  },
+  "ans": "D",
+  "exp": "C++ relaxes the same-return-type rule for exactly this case, so that a caller holding a D* gets a D* back from clone() without a cast, while a call through B* still returns B* and still dispatches to D::clone. Option B misreads the situation twice over: return type alone can never distinguish overloads, and here the signatures match, so nothing is being overloaded.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-050",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "A C++ project built with GCC on Linux compiles every translation unit cleanly, but the link fails with 'undefined reference to vtable for Widget'. Widget has several virtual member functions. Which explanation fits?",
+  "opts": {
+   "A": "Widget's destructor is not declared virtual, so no vtable is generated for the class at all",
+   "B": "Widget's key function — the first non-inline, non-pure virtual member function it declares — is declared but never defined; under the Itanium C++ ABI that GCC follows, the vtable is emitted only in the translation unit that defines the key function, so it is never emitted anywhere",
+   "C": "Two translation units each emitted a copy of Widget's vtable and the linker rejected the conflicting definitions",
+   "D": "Widget's constructor is not declared virtual, so the vtable pointer is never initialised in the constructed object"
+  },
+  "ans": "B",
+  "exp": "The key-function rule exists so that a polymorphic class does not emit its vtable into every translation unit that merely sees the header, and its cost is this diagnostic: forget to define that one function and the vtable has no home, which the linker reports as a missing vtable rather than a missing function. Option C describes the opposite failure and is wrong on both counts — a duplicate would be a multiple-definition error, and vtables are emitted as mergeable symbols anyway; option D is impossible, since a constructor cannot be virtual.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-051",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Assume the usual includes and using namespace std. The file nums.txt contains the three numbers 10 20 30 separated by single spaces and followed by one newline. How many times does the body of this loop execute?\n\nifstream in(\"nums.txt\");\nint x, count = 0;\nwhile (!in.eof()) { in >> x; ++count; }\ncout << count;",
+  "opts": {
+   "A": "3 times, once for each number in the file",
+   "B": "4 times, because the newline after 30 leaves eofbit clear until one more extraction is attempted",
+   "C": "5 times, because both the space before 30 and the trailing newline are extracted as separate items",
+   "D": "The body never stops executing, because a failed extraction sets failbit and leaves eofbit clear"
+  },
+  "ans": "B",
+  "exp": "Extraction of 30 stops at the newline without touching end-of-file, so eof() is still false and the loop is entered a fourth time; that fourth >> skips the newline, hits end-of-file and fails, and only then is eofbit set. This is why eof() is the wrong loop condition: option D inverts the fact, since a read that fails at end-of-file sets eofbit and failbit together, which is what finally stops the loop.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-052",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "An ifstream f has just had an extraction fail at end of file. The program wants to re-read the file from the start, so it calls f.seekg(0, ios::beg) and then extracts again, but nothing is read and the get pointer never moves. What explains this?",
+  "opts": {
+   "A": "eofbit permanently marks the stream as exhausted, so no further get operation on that object can succeed",
+   "B": "The get pointer did move, but the stream's buffer must be re-synchronised with sync() before the repositioned data becomes visible",
+   "C": "failbit is still set, so the seek and every later operation on the stream are ignored until clear() resets the state flags",
+   "D": "ios::beg applies only to the put pointer; a get pointer must be rewound with the single-argument form seekg(0)"
+  },
+  "ans": "C",
+  "exp": "A stream in a failed state ignores subsequent input operations, and seekg is one of them, so the reposition itself silently does nothing until clear() puts the stream back in a good state. Option A is the tempting one because eofbit was indeed set, but eofbit is not permanent either; clear() resets the whole state word, after which the seek and the reads work normally.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-053",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "A program opens an existing record file with fstream f(\"rec.dat\", ios::out | ios::binary), seeks to one record and rewrites it in place. Afterwards the file holds only that single record and every other record is gone. What explains the loss?",
+  "opts": {
+   "A": "ios::out on its own truncates the file to zero length at the moment it is opened, so updating an existing file in place needs ios::in | ios::out",
+   "B": "ios::binary implies ios::trunc, so it was the binary flag that discarded the earlier records",
+   "C": "The put pointer starts at offset zero, so the write landed on the first record and the stream then shortened the file to the number of bytes written",
+   "D": "Without ios::app an fstream replaces the whole file on each write rather than at open time"
+  },
+  "ans": "A",
+  "exp": "Opening with out and neither in nor app creates-or-truncates the file, exactly like the \"w\" mode of C stdio, so the records were destroyed before the seek ever ran; combining in with out opens the existing file without truncating and allows read-modify-write in place. Option C is plausible only if you assume truncation happens at write time, but the file was already empty at open, which is also why the seek to a later record could not find anything.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-054",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Employee is a struct of fixed-size members with no pointers and no virtual functions, and emp is a non-const Employee object. Which statement writes the raw bytes of emp to an already-open binary ofstream f?",
+  "opts": {
+   "A": "f.write(&emp, sizeof(emp));",
+   "B": "f << emp << sizeof(emp);",
+   "C": "f.put(reinterpret_cast<char*>(&emp), sizeof(emp));",
+   "D": "f.write(reinterpret_cast<char*>(&emp), sizeof(emp));"
+  },
+  "ans": "D",
+  "exp": "write takes a pointer to characters and a byte count, so the object's address has to be reinterpreted as a char pointer before it can be passed. Option A is the near miss: it is the same call without the cast, and there is no implicit conversion from Employee* to char*, so it does not compile; put transfers one character and takes no length argument.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-055",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "The file data.bin is exactly 40 bytes long. Assume the usual includes and using namespace std. What does this fragment print?\n\nifstream f(\"data.bin\", ios::binary);\nchar buf[100];\nf.read(buf, 100);\ncout << f.gcount();",
+  "opts": {
+   "A": "100",
+   "B": "0, because the read failed and no complete request was satisfied",
+   "C": "40",
+   "D": "39, because one position is reserved for a terminating null character"
+  },
+  "ans": "C",
+  "exp": "read stops when the file is exhausted, transfers the 40 bytes that were available and sets eofbit and failbit; gcount() reports the number of characters the last unformatted input operation actually extracted, which is 40. Option B is the trap: a failed read still transfers what it could, and gcount() is precisely the way to find out how much, so it does not report zero.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-056",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "An existing file is opened as ifstream f(\"img.bin\", ios::binary). Which sequence yields the size of the file in bytes?",
+  "opts": {
+   "A": "f.seekg(0, ios::beg); streampos n = f.tellg();",
+   "B": "f.seekg(0, ios::end); streampos n = f.tellg();",
+   "C": "f.seekp(0, ios::end); streampos n = f.tellp();",
+   "D": "streamsize n = f.gcount();"
+  },
+  "ans": "B",
+  "exp": "Seeking zero bytes relative to ios::end leaves the get pointer just past the last byte, and tellg then reports that offset, which in binary mode is the file's length in bytes. Option C looks symmetrical but an ifstream has only a get pointer, so seekp and tellp are not members of it and the code does not compile; option A reports the offset of the beginning, which is always 0.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-057",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "A function creates a local ofstream object, writes several lines through it, and returns without ever calling close(). What happens to data still sitting in the stream's buffer?",
+  "opts": {
+   "A": "The file is closed when the object goes out of scope, but whatever is still buffered is dropped, so an explicit flush() is needed before returning",
+   "B": "The buffer is written out only at normal program termination, when the standard streams are flushed",
+   "C": "The behaviour is undefined, because an ofstream whose lifetime ends while it is still open leaves the file in an indeterminate state",
+   "D": "The ofstream destructor runs at the end of the scope and closes the file, and closing flushes the buffer first"
+  },
+  "ans": "D",
+  "exp": "A file stream owns its file as a resource: the destructor closes it, and closing flushes any buffered characters to the file, which is why explicit close() calls are optional rather than mandatory. Option A is the common fear and is wrong on the important half; the close performed by the destructor is a real close, not an abandonment of the buffer.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-058",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Why can one fstream object be used both for extraction with >> and for insertion with <<?",
+  "opts": {
+   "A": "fstream derives from iostream, which itself derives from both istream and ostream, so it inherits both sets of operations",
+   "B": "fstream declares its own member overloads of >> and <<, which dispatch on the open mode passed to its constructor",
+   "C": "fstream holds an ifstream and an ofstream as data members and forwards each operator to the appropriate one",
+   "D": "Both operators are non-member functions taking an ios& parameter, so they accept any class derived from ios"
+  },
+  "ans": "A",
+  "exp": "The stream hierarchy gives fstream its dual capability by inheritance: iostream multiply inherits from istream and ostream, and fstream extends iostream with file-specific members such as open and close. Option D is the closest miss, but the insertion and extraction operations live in ostream and istream, not in ios, so a base of type ios would supply neither.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-059",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Assume the usual includes, including <iomanip>, and using namespace std. What does this line print?\n\ncout << setfill('*') << setw(5) << 42 << 7 << endl;",
+  "opts": {
+   "A": "***42****7",
+   "B": "***42*7",
+   "C": "***427",
+   "D": "42***7"
+  },
+  "ans": "C",
+  "exp": "setw sets the field width for the next insertion only, after which the width reverts to zero, whereas setfill changes a stream member that persists until it is changed again; so 42 is padded to five characters with asterisks and 7 is printed with no padding at all. Option A is what you would get if width persisted the way fill does, which is exactly the asymmetry being tested.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-060",
+  "sub": "Exception handling and strings",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct T { const char* n; ~T() { cout << n; } };\nvoid f() { T a{\"a\"}; throw 1; T b{\"b\"}; }\nint main() {\n  try { T c{\"c\"}; f(); } catch (int) { cout << \"X\"; }\n}",
+  "opts": {
+   "A": "abcX",
+   "B": "cX",
+   "C": "acX",
+   "D": "Xac"
+  },
+  "ans": "C",
+  "exp": "Stack unwinding destroys every automatic object that was fully constructed since the try block was entered, in reverse order of construction, and it completes before the handler body runs — so a is destroyed, then c, then X is printed. abcX is the trap: b is never constructed because the throw precedes its declaration, and an object that was never constructed is never destroyed; Xac inverts the guaranteed ordering of unwinding and handler entry.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-061",
+  "sub": "Exception handling and strings",
+  "q": "A std::out_of_range is thrown and caught by a handler written catch (const std::exception& e). The handler logs the message and then writes throw e; to pass the exception outwards. An enclosing handler for catch (const std::out_of_range&) never fires, though a plain catch (const std::exception&) on the outer try does. What explains this?",
+  "opts": {
+   "A": "throw e; copy-initialises a new exception object of the operand's static type, std::exception, so the dynamic type is lost; a bare throw; would have propagated the original std::out_of_range object untouched",
+   "B": "throw e; is ill-formed inside a handler, so the compiler rewrites it as a call to std::terminate and the outer try is bypassed entirely",
+   "C": "throw e; preserves the dynamic type correctly, but a rethrown object can only be matched by a handler that takes it by value, so the outer clause had to be written catch (std::out_of_range)",
+   "D": "throw e; throws a pointer to the handler's own parameter, which is destroyed as the handler exits, so the outer clause is skipped to avoid matching a dangling object"
+  },
+  "ans": "A",
+  "exp": "The operand of a throw-expression is copied into a fresh exception object whose type is the operand's static type, so throwing the base-typed handler parameter discards everything below std::exception; a bare throw; instead reactivates the exception object already in flight, dynamic type intact. Option C inverts the actual rule — handlers routinely match rethrown objects by reference, and catching by value is precisely what would slice again.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-062",
+  "sub": "Exception handling and strings",
+  "q": "A function is declared noexcept, and at run time an exception it did not anticipate propagates out of its body. What does the C++ standard say happens?",
+  "opts": {
+   "A": "The program is ill-formed: a throw that can reach the boundary of a noexcept function is diagnosed at compile time",
+   "B": "The exception object is replaced by a std::bad_exception, which then propagates to the caller normally",
+   "C": "noexcept is only an optimisation hint to the compiler, so the exception propagates to the caller unchanged",
+   "D": "std::terminate is invoked, and the stack is not guaranteed to have been unwound before that call"
+  },
+  "ans": "D",
+  "exp": "Violating a noexcept specification is a run-time event, not a diagnosable one, and the reaction is a call to std::terminate; because unwinding before that call is not required, destructors of intervening automatic objects may never run. Substitution by std::bad_exception belonged to the old dynamic exception specifications (throw(...) lists), which were removed from the language and never applied to noexcept.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-063",
+  "sub": "Exception handling and strings",
+  "q": "In the standard exception hierarchy of <stdexcept>, which of these types derives from std::logic_error rather than from std::runtime_error?",
+  "opts": {
+   "A": "std::range_error",
+   "B": "std::length_error",
+   "C": "std::overflow_error",
+   "D": "std::system_error"
+  },
+  "ans": "B",
+  "exp": "std::length_error sits on the logic_error branch: it reports an attempt to produce an object beyond its own maximum size, a fault visible from the program's arguments before the operation is attempted. std::range_error is the near-miss — despite the similar name it is a runtime_error, reported for a result that cannot be represented, and std::overflow_error and std::system_error are runtime_error descendants too.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-064",
+  "sub": "Exception handling and strings",
+  "q": "In C++11 and later, an exception escapes from a destructor that carries no explicit exception specification and whose base and member destructors are all non-throwing. What is the result?",
+  "opts": {
+   "A": "It propagates to the enclosing handler exactly as an exception thrown from an ordinary member function would",
+   "B": "It propagates normally unless another exception is already in flight, in which case std::terminate is called",
+   "C": "std::terminate is called, because such a destructor has an implicit non-throwing exception specification",
+   "D": "std::unexpected is invoked, giving the program the chance to substitute a different exception before propagation"
+  },
+  "ans": "C",
+  "exp": "Since C++11 a destructor's implicit exception specification is non-throwing whenever its subobjects' destructors are, so letting an exception out of one is a noexcept violation and calls std::terminate whether or not unwinding is under way. Option B is the pre-C++11 rule that many people still carry — back then the escape was legal on its own and only fatal during unwinding of another exception.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-065",
+  "sub": "Exception handling and strings",
+  "q": "A function allocates a buffer with new, performs work that may throw, and calls delete at the end. When the work throws, the buffer leaks. Which change makes the function leak-free without adding any catch clause?",
+  "opts": {
+   "A": "Make the pointer static, so its storage survives the unwinding of the function",
+   "B": "Declare the function noexcept, so the exception cannot escape and the delete is reached",
+   "C": "Rely on the compiler, which emits the matching delete as part of the unwinding code it generates for the function",
+   "D": "Hold the allocation in a local std::unique_ptr, whose destructor is run automatically while the stack unwinds"
+  },
+  "ans": "D",
+  "exp": "Unwinding runs the destructor of every fully-constructed automatic object, so tying the resource's lifetime to a local object — RAII — releases it on both the normal and the exceptional path with no handler at all. Declaring the function noexcept does not reach the delete: it converts the escape into a call to std::terminate, and the standard does not even require the stack to be unwound first.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-066",
+  "sub": "Exception handling and strings",
+  "q": "Assuming the usual includes, this fragment reports a separator in a string that plainly contains none:\n\nstd::string s = \"192.168.1.10\";\nstd::size_t p = s.find(':');\nif (p >= 0) std::cout << \"separator found\";\n\nWhat is wrong?",
+  "opts": {
+   "A": "find() returns 0 when the search fails, and 0 >= 0 is true; the result has to be compared against s.size() instead",
+   "B": "find() returns std::string::npos on failure, and as an unsigned size_type that is the largest representable value, so p >= 0 can never be false; the test must be p != std::string::npos",
+   "C": "find() returns -1 on failure, and the comparison widens it to a large positive value only on 64-bit builds, so the bug appears on some platforms and not others",
+   "D": "The single-character overload of find() treats its argument as a set of characters to search for, so it matched one of the '.' characters"
+  },
+  "ans": "B",
+  "exp": "std::string::find reports failure with std::string::npos, a size_type constant equal to the largest value that type can hold, so any comparison of the unsigned result against 0 with >= is vacuously true on every platform. Option C describes the C-style convention of returning -1: npos is indeed defined as size_type(-1), but the result variable is unsigned, so nothing is ever negative and the defect is not platform-dependent. Option D confuses find() with find_first_of().",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-067",
+  "sub": "Exception handling and strings",
+  "q": "Assuming the usual includes, what is the status of this fragment?\n\nstd::string s = \"abc\";\nconst char* p = s.c_str();\ns += \"defghijklmnopqrstuvwxyz0123456789\";\nstd::cout << p;",
+  "opts": {
+   "A": "Undefined behaviour: c_str() hands back a pointer into the string's own storage, and a modifying member call such as operator+= invalidates it",
+   "B": "Well defined, printing abc, because c_str() returns a freshly allocated null-terminated copy that stays valid until the string is destroyed",
+   "C": "Well defined, because small-string optimisation guarantees that a literal as short as \"abc\" lives inside the string object itself and can never be moved",
+   "D": "Well defined, printing the whole concatenated text, because c_str() returns a pointer that follows the string's current contents"
+  },
+  "ans": "A",
+  "exp": "c_str() exposes the string's internal character sequence rather than a copy, and any non-const member call other than the few exempted accessors may invalidate the pointers, references and iterators into it — so p is dangling the moment the append runs, regardless of whether reallocation actually occurred. Option C is the standard misreading of small-string optimisation: it is a permitted implementation technique, not a guarantee the standard offers, and an append of this length would exceed any such internal buffer anyway.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-068",
+  "sub": "Exception handling and strings",
+  "q": "For a std::string object s, which statement about size(), length() and capacity() is accurate?",
+  "opts": {
+   "A": "size() and length() are exact synonyms, and capacity() is at least size(), reporting how many characters the current storage can hold before a reallocation is needed",
+   "B": "length() returns the count of characters, while size() returns that count plus one for the terminating null character",
+   "C": "capacity() is always equal to size() until reserve() is called explicitly on the object",
+   "D": "size() counts characters while length() counts bytes, so the two differ for a string holding multi-byte UTF-8 text"
+  },
+  "ans": "A",
+  "exp": "length() is specified as returning size(), and capacity() is a separate quantity never smaller than size() that describes the allocated storage rather than the content. Option D is the most tempting because the two names invite it, but std::string is a sequence of char with no encoding awareness at all: both functions return the same byte count, and neither counts the null that c_str() must supply.",
+  "conf": "high"
+ }
+]

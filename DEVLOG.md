@@ -9,6 +9,82 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 — Finished the stranded Unit 1 batch, and recovered the MES2023 question a "50 of 51" note was hiding
+
+**What shipped.** Three pieces of System Analyst work, all of them items the
+TODO named and whose *Check* lines confirmed still open before anything started.
+
+**1. TECH2 Unit 1 (OOP) is at depth.** A previous session left this batch
+half-built and uncommitted: 7 authoring briefs, only 6 `.done.json`, and a
+review directory that turned out to be reviewing something else entirely (the
+12 *pre-existing* bank questions, not the new ones). So the import could never
+have run — it requires all 7 leaves, stamped ids, and two reviews of the batch
+itself. Finished it: authored the missing `U1-L04` (11 questions on
+polymorphism and overloading, every behavioural claim compiled under g++ 13.3
+before being written), froze `_all.json`, stamped ids, and put all 68 through
+four blind adversarial reviewers — two per half, one solving independently and
+one trying to refute.
+
+**No wrong keys in 68 questions.** 7 were flagged, and 4 of those were raised
+independently by both reviewers of their half, which is the signal the blind
+design exists to produce. Six of the seven were the same defect: *a correct key
+justified by a rule stated more broadly than it holds.* That is now three
+consecutive passes where that shape dominates, so the Unit 1 review brief calls
+it out by name and asks for a separate read of the explanations alone.
+
+Every reviewer claim was re-verified here before being applied, because a
+reviewer is as capable of being confidently wrong as an author. Two examples:
+a destructor is *not* unconditionally implicitly `noexcept`
+(`is_nothrow_destructible` is 0 for a class holding a `noexcept(false)` member
+dtor), and `<stdexcept>` genuinely does not declare `std::system_error` —
+including only that header and naming the type is a hard compile error. Both
+checked out; the fixes went in.
+
+One flag was a **duplicate across two leaves** — exactly the failure
+`make_u1_briefs.py` predicted in its own docstring, where two adjacent leaves
+land on the same fact from opposite sides and neither author can see the other's
+batch. `GEN-T2U1-015` and `-028` both keyed "declaring any constructor
+suppresses the implicit default constructor". 028 keeps it; 015 was re-aimed at
+its own leaf's ground (array default-initialisation vs `vector::reserve`).
+
+All 7 Unit 1 leaves now hold 12 questions, matching Unit 4. Bank 2096 → 2164.
+
+**2. Two live explanations that taught false C++ rules.** Separate from the
+above — these were already shipping behind `derived · high confidence` badges.
+Both keys were right; both rationales were false as written, and both were
+confirmed false by compiling: `badbit` alone *does* make a stream test false (so
+failbit is not "the bit the boolean conversion reports"), and
+`ofstream(f, ios::app)` does *not* truncate (so "opening for output without
+`ios::in` is what discards the contents" is wrong).
+
+**3. MES2023 Paper I Q27, and a note that was wrong twice over.** The bank held
+Section A 001–050 with a silent hole at 027. Every record carried a note saying
+"50 of 51 imported" — but the paper has exactly **50** Section A questions (the
+string "51." does not appear anywhere in it) and only **49** had landed. The two
+errors concealed each other: 49 present looked like the 50 the note promised.
+Q27 was read from the source PDF's text layer and confirmed against its OCR
+sidecar; the extractor had dropped it because its options came out column-major
+across a blank line instead of as an (a)–(d) run. Its answer is not derived —
+MPSC's official key gives (a) RISC, and the importer asserts against the
+transcribed key rather than hard-coding the letter. The consistency checker then
+cross-validated it against `ILM2018_P1_100`, an independent transcription of the
+same recycled question from a different sitting, which also keys RISC.
+
+**Why.** The Unit 1 batch was dead weight — it could not be imported and could
+not be reasoned about without reconstructing what a previous session intended.
+The MES2023 gap is the failure mode this bank has been bitten by twice: silent
+loss with no numbering gap to reveal it, plus a note asserting a completeness
+that did not exist.
+
+**What's still open.** The 68 new questions are authored practice, not past
+papers, and carry `src: 'generated'` — there is still no official key for this
+material. TECH2 Units 2, 3, 5+ have had no equivalent depth pass. The audit
+found nothing wrong with the 12 pre-existing Unit 1 questions beyond the two
+explanations, but the other units' authored questions have never been reviewed
+at all.
+
+---
+
 ## 2026-09-06 — The corpus CLAUDE.md said was deleted is alive at `/home.old/`, and it just gave System Manager Paper II its first official-key questions
 
 **What shipped.** Two things, and the first matters more than the second.

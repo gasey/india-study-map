@@ -1,0 +1,129 @@
+[
+ {
+  "id": "GEN-T2U1-020",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct T { T(int n) { cout << n; } };\nstruct S { T x, y; S() : y(2), x(1) {} };\nint main() { S s; }",
+  "opts": {
+   "A": "21",
+   "B": "It does not compile, because the mem-initialiser list must follow declaration order",
+   "C": "12",
+   "D": "Either 12 or 21, because the order of member initialisation is unspecified"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Non-static data members are initialised in the order they are declared in the class, never in the order they happen to appear in the mem-initialiser list, so x(1) runs before y(2) and 1 is printed first. 21 is the trap of reading the list top to bottom; the mismatch draws a warning such as -Wreorder but the code is well-formed, and the order is fixed by the language rather than left to the implementation."
+ },
+ {
+  "id": "GEN-T2U1-021",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct B { B() { f(); } virtual void f() { cout << 1; } };\nstruct D : B { void f() override { cout << 2; } };\nint main() { D d; }",
+  "opts": {
+   "A": "1",
+   "B": "2",
+   "C": "12",
+   "D": "Nothing, because calling a virtual function while the D sub-object is still unconstructed is undefined behaviour"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "While a base class constructor is running, the object's dynamic type is that base class, so a virtual call made from B's constructor resolves to B::f even though the complete object will be a D. The behaviour is well defined, not undefined, and that is exactly what makes the pitfall dangerous: the derived override is silently skipped instead of the program failing loudly."
+ },
+ {
+  "id": "GEN-T2U1-022",
+  "sub": "Constructors and destructors",
+  "q": "A class X declares a constructor with the signature X(X other), taking its parameter by value. How does the compiler treat that declaration?",
+  "opts": {
+   "A": "It is accepted, but every copy recurses without end and overflows the stack at run time",
+   "B": "It is accepted, and the compiler passes the argument by reference anyway because the copy is elided",
+   "C": "It is accepted, and behaves as a copy constructor for any class that owns no dynamically allocated memory",
+   "D": "It is rejected at compile time: a constructor for X whose only parameter is an X by value is ill-formed"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A constructor for X whose first parameter is X by value, with no other parameters or with all the rest defaulted, is ill-formed and must be diagnosed, because binding that by-value parameter would itself require invoking a copy constructor. The tempting answer is runtime infinite recursion; the recursion is real in principle, which is precisely why the language forbids the declaration rather than letting it compile and then loop."
+ },
+ {
+  "id": "GEN-T2U1-023",
+  "sub": "Constructors and destructors",
+  "q": "A class owns a raw pointer and therefore declares a destructor to free it. It declares no other special member function. Which special members does the compiler still supply?",
+  "opts": {
+   "A": "The copy constructor and copy assignment operator are implicitly deleted, because a user-declared destructor suppresses them",
+   "B": "The copy constructor and copy assignment operator are still supplied, but no move constructor or move assignment is declared, so intended moves silently copy",
+   "C": "The move constructor and move assignment operator are still supplied, while the copy operations are implicitly deleted",
+   "D": "No copy or move operation is supplied at all once any special member function is user-declared"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A user-declared destructor blocks the implicit declaration of the move constructor and move assignment operator, while the copy operations continue to be implicitly declared (their implicit definition in this situation is deprecated, but they exist). So std::move on such an object still compiles and merely copies the raw pointer, producing the double free the destructor was written to prevent, which is the Rule of Five in one sentence. Option A inverts the rule: it is the moves, not the copies, that the destructor suppresses."
+ },
+ {
+  "id": "GEN-T2U1-024",
+  "sub": "Constructors and destructors",
+  "q": "Given struct Buffer { Buffer(int n); }; and void consume(Buffer);, the call consume(64) currently compiles. What changes if the constructor is marked explicit?",
+  "opts": {
+   "A": "Buffer b(64); stops compiling, while consume(64) still converts implicitly as before",
+   "B": "Nothing changes for consume(64), because explicit constrains conversion operators rather than constructors",
+   "C": "consume(64) and Buffer b = 64; both stop compiling, while consume(Buffer(64)) still compiles",
+   "D": "Both consume(64) and consume(Buffer(64)) stop compiling, because explicit forbids passing a Buffer by value"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "explicit removes a constructor from consideration for implicit conversions and for copy-initialisation, so an int can no longer turn itself into a Buffer at a call site or across an = sign, while direct-initialisation and an explicitly written Buffer(64) are untouched. explicit applies to constructors as well as to conversion functions, which is why option B is wrong."
+ },
+ {
+  "id": "GEN-T2U1-025",
+  "sub": "Constructors and destructors",
+  "q": "A constructor is written as Widget(int n) : Widget(), count(n) {}, where Widget() is another constructor of the same class and count is a data member. The compiler rejects it. Why?",
+  "opts": {
+   "A": "Delegation is permitted only from the default constructor to a parameterised one, not in this direction",
+   "B": "count would be initialised twice, and initialising a member twice is forbidden",
+   "C": "A delegating constructor must be declared after the constructor it targets",
+   "D": "A mem-initialiser that names the constructor's own class must be the only entry in the list"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "When a mem-initialiser designates the constructor's own class it is a delegation, and the language requires it to stand alone, because the target constructor completely constructs the object before the delegating constructor's body starts; anything else the delegating constructor wants must be done in that body, here as count = n;. Delegation has no required direction, and the order in which constructors are declared inside the class is irrelevant."
+ },
+ {
+  "id": "GEN-T2U1-026",
+  "sub": "Constructors and destructors",
+  "q": "Base declares a virtual destructor and Derived inherits from it publicly. Code executes Base* p = new Derived[3]; and later delete[] p;. What is the outcome?",
+  "opts": {
+   "A": "Undefined behaviour, because for an array the operand's static element type must match the dynamic element type, and a virtual destructor does not rescue it",
+   "B": "Well defined and correct, because the virtual destructor ensures all three Derived destructors run",
+   "C": "Only the first element is destroyed correctly, and the other two are leaked",
+   "D": "It fails to compile, because a Base* cannot be initialised from an array of Derived"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Array deletion is undefined when the static type of the operand differs from the dynamic type of the array elements: delete[] walks the array using sizeof(Base) while the elements are spaced by sizeof(Derived), so the addresses it destroys are not the objects. A virtual destructor fixes only the single-object case and cannot correct the element stride, which is why option B is the trap and why arrays of derived objects should never be held through a base pointer. The initialisation itself does compile, since Derived* converts to Base*."
+ },
+ {
+  "id": "GEN-T2U1-027",
+  "sub": "Constructors and destructors",
+  "q": "In C++11 and later, an exception escapes the destructor of a class that has no bases or members with throwing destructors, and whose destructor carries no exception specification of its own. What happens?",
+  "opts": {
+   "A": "It propagates like an exception from any other function and can be caught by an enclosing handler",
+   "B": "The program is ill-formed and the compiler rejects the destructor",
+   "C": "std::terminate is called, because a destructor is implicitly noexcept unless declared otherwise",
+   "D": "It propagates unless the destructor is running during stack unwinding, in which case it is silently swallowed"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Since C++11 a destructor with no exception specification of its own is implicitly noexcept unless one of its base or member destructors is itself potentially throwing — which the stem rules out — so an escaping exception here crosses a noexcept boundary and std::terminate runs without any enclosing handler being consulted. Option A is the pre-C++11 answer; declaring the destructor noexcept(false) restores it, but even then an exception thrown while another is already unwinding the stack terminates the program, which is the underlying reason destructors should not throw.",
+  "reviewFix": "Stem and explanation qualified; flagged independently by both blind reviewers of this half. The key was right for the ordinary case, but the rule was stated unconditionally: a destructor with no exception-specification of its own is implicitly noexcept only when no base or member destructor is potentially throwing. Verified by compiling — a class holding a member whose destructor is noexcept(false) reports is_nothrow_destructible == 0, where a plain class reports 1. The stem now excludes that case so the question has exactly one defensible answer, and the explanation states the qualified rule. Key C unchanged."
+ },
+ {
+  "id": "GEN-T2U1-028",
+  "sub": "Constructors and destructors",
+  "q": "A struct with two public int members was routinely created with Point p;. After a constructor Point(int x, int y) is added to it, every such line stops compiling. What explains this?",
+  "opts": {
+   "A": "The struct is no longer an aggregate, and a non-aggregate cannot be default-initialised",
+   "B": "Declaring any constructor stops the compiler from implicitly declaring a default constructor",
+   "C": "A class with a user-declared constructor can only be created with new",
+   "D": "The implicit default constructor is still declared, but is now implicitly deleted because the int members have no initialisers"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "The default constructor is implicitly declared only when the class has no user-declared constructor of any kind, so adding Point(int, int) removes it and Point p; then finds no viable constructor; writing Point() = default; alongside brings it back. Option D is the near-miss: nothing deletes the default constructor here, it is simply never declared, and members of built-in type leave a default constructor uninitialised rather than deleted."
+ }
+]

@@ -1,0 +1,158 @@
+[
+ {
+  "id": "GEN-T2U1-009",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class has four non-static data members, one static data member and eight member functions. Ten objects of this class are created. Ignoring alignment padding, what is replicated inside each of the ten objects?",
+  "opts": {
+   "A": "All of the data members and all eight member functions, so that each object can dispatch its own calls without any lookup",
+   "B": "The four non-static data members and the static data member, but not the member functions",
+   "C": "Only the four non-static data members; the static data member exists once for the whole class and the member function code exists once and is shared",
+   "D": "The four non-static data members and the eight member functions, while the static data member exists once for the whole class"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Member function code is generated once per class and shared by every object, which receives the address of the object it is to work on; only the non-static data members are laid out inside an object, and a static data member has a single shared definition outside every object. Option D is the classic misconception — objects do not carry copies of their member functions, which is why adding a non-virtual member function to a class does not make its objects any bigger. Adding the first virtual function is the exception, since a vtable-based implementation then has to store a pointer inside each object.",
+  "reviewFix": "Explanation qualified. The key was right, but the closing generalisation — \"adding a member function to a class does not make its objects any bigger\" — is false for the first virtual member function, which on a vtable-based implementation adds a pointer to every object. GEN-T2U1-018 in this same batch teaches exactly that, so the two questions contradicted each other. The sentence now says non-virtual and names the exception. Key C unchanged."
+ },
+ {
+  "id": "GEN-T2U1-010",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "The body of class Counter contains the line `static int instances;` and its constructor increments that member. Every translation unit compiles, but the link fails with an undefined reference to `Counter::instances`. What is missing?",
+  "opts": {
+   "A": "`instances` must be initialised in the member-initialiser list of every constructor of Counter",
+   "B": "`instances` must be declared `public`, because a linker symbol cannot be emitted for a private member",
+   "C": "`instances` must be declared `const`, because a static data member cannot otherwise be given storage",
+   "D": "A definition at namespace scope in exactly one source file, such as `int Counter::instances = 0;` — the line inside the class body is only a declaration (since C++17 the member may instead be declared `inline` in the class, which supplies the definition)"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A non-inline static data member declared in the class body is only declared there; it needs exactly one definition at namespace scope to acquire storage and a linker symbol, which is why the error appears at link time and not at compile time. A member-initialiser list cannot serve, because it initialises the object under construction, and a static member belongs to the class rather than to any object."
+ },
+ {
+  "id": "GEN-T2U1-011",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class computes an expensive result the first time it is asked for and stores it in a data member so later requests are cheap. The accessor that does this must remain usable on objects of the class that are themselves declared `const`. Which is the correct way to let the accessor write to that member while remaining a `const` member function?",
+  "opts": {
+   "A": "Declare the cache data member `mutable`",
+   "B": "Cast the constness away inside the accessor with a `const_cast` on `this` and write through the result",
+   "C": "Declare the cache data member `static`, so that it is not covered by any object's constness",
+   "D": "Overload the accessor on constness and let the non-const overload perform the update"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "`mutable` exempts a single data member from the constness the enclosing object imposes, so a `const` member function may still assign to it — this is the sanctioned way to implement a lazily filled cache. The `const_cast` route is the tempting alternative, but writing to an object that was itself declared `const` through such a cast is undefined behaviour; and the non-const overload in D would never be selected for a `const` object in the first place."
+ },
+ {
+  "id": "GEN-T2U1-012",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "Assuming the usual includes and `using namespace std`, what does this program print?\n\nstruct P { static int n; P() { ++n; } P(const P&) { ++n; } };\nint P::n = 0;\nint main() { P a[3]; P b = a[0]; cout << P::n; }",
+  "opts": {
+   "A": "1",
+   "B": "3",
+   "C": "4",
+   "D": "5"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "`P a[3];` default-constructs three elements, so the shared counter reaches 3, and `P b = a[0];` copy-initialises a fourth object from an lvalue, where no copy can be elided, so the user-provided copy constructor increments the counter once more. Answering 3 is the trap: it counts the array and forgets that the copy constructor was written to increment `n` as well."
+ },
+ {
+  "id": "GEN-T2U1-013",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "Consider this class:\n\nclass M {\n    int v;\npublic:\n    explicit M(int x) : v(x) {}\n    bool bigger(const M& o) const { return v > o.v; }\n};\n\nWhich statement about the expression `o.v` is correct?",
+  "opts": {
+   "A": "It is illegal: `v` is private to each individual object, so reading another object's `v` requires M to declare itself a friend",
+   "B": "It is legal only because `bigger` is a `const` member function; a non-const member function could not read another object's `v`",
+   "C": "It is legal only because `o` is a reference; the same expression on a parameter of type M taken by value would not compile",
+   "D": "It is legal: access control is granted per class, not per object, so a member function of M may read the private members of any M object it can name"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Access specifiers apply to the class as a whole, not to individual objects, so any member function of M may touch the private members of every M it can reach; a class never needs a friend declaration to see into its own type, which is what makes comparison and copy operations writable at all. Constness of `bigger` and the reference-ness of `o` are irrelevant to access — a by-value M parameter would be readable in exactly the same way."
+ },
+ {
+  "id": "GEN-T2U1-014",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "Assuming the usual includes and `using namespace std`, what does this program print?\n\nstruct L { ~L() { cout << 'd'; } };\nint main() { L* p = new L; L q; cout << 'e'; }",
+  "opts": {
+   "A": "edd",
+   "B": "ed",
+   "C": "de",
+   "D": "ded"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "`q` is an automatic object, so its destructor runs when `main` returns — that is, after `'e'` has already been printed — while the object created on the free store is never passed to `delete`, so its destructor is simply never called. 'edd' is the tempting answer because it assumes the runtime destroys leaked free-store objects at program exit; it does not, and that is precisely why an unmatched `new` leaks resources rather than merely memory."
+ },
+ {
+  "id": "GEN-T2U1-015",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A Widget has a default constructor that logs each time it runs. Comparing `Widget a[5];` with `std::vector<Widget> v; v.reserve(5);`, how many times does the default constructor run in each case?",
+  "opts": {
+   "A": "Five times for the array and five times for the reserve, since both set aside room for five Widgets",
+   "B": "Five times for the array, and not at all for the reserve: reserve only acquires raw capacity, leaving the vector's size at 0 with no elements constructed",
+   "C": "Not at all for the array, since array elements are constructed lazily on first use, and five times for the reserve",
+   "D": "Once for the array, which then copies that element into the other four slots, and once for the reserve"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "An array of class type default-initialises every one of its elements at the point of declaration, so all five Widgets exist immediately. reserve() is the opposite: it only guarantees capacity for five, allocating raw storage without constructing anything, so size() stays 0 until elements are actually inserted. Option C inverts the array case — there is no lazy construction of array elements — and resize(5), not reserve(5), is the vector call that would construct five objects.",
+  "reviewFix": "Rewritten because it duplicated GEN-T2U1-028. Both keyed the same proposition — that declaring any constructor suppresses the implicitly declared default constructor — reached from opposite sides on two different leaves, which is precisely the cross-leaf duplication make_u1_briefs.py warned about, since neither author could see the other's batch. 028 sits on the constructors-and-destructors leaf where that fact belongs and is kept as written. This question is re-aimed at its own leaf's ground, memory allocation for objects and arrays of objects, and now contrasts array default-initialisation with vector::reserve. Verified by compiling: `W a[5]` runs five constructors, `vector<W> v; v.reserve(5)` runs none and leaves size 0, capacity 5. Key remains B."
+ },
+ {
+  "id": "GEN-T2U1-016",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "`Widget* p = new Widget[10];` allocates ten objects, and the code later releases them with `delete p;`. What does the C++ standard say about this?",
+  "opts": {
+   "A": "The behaviour is undefined: storage obtained from a `new[]` expression must be released with `delete[]`, which is the form that destroys every element",
+   "B": "It is well defined — `delete` consults the element count recorded with the allocation and destroys all ten objects",
+   "C": "It is well defined — exactly one destructor runs and the remaining nine objects leak",
+   "D": "It is well defined when `Widget` has a trivial destructor and undefined only when the destructor is non-trivial"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The standard requires the form of the delete-expression to match the form of the new-expression that produced the pointer; mismatching them is undefined behaviour, and only `delete[]` is obliged to destroy each element and release the array allocation. Option C is the most tempting distractor because it describes what some implementations appear to do, but 'one destructor runs and the rest leak' is not a guarantee the language makes, and there is no exemption for trivial destructors either."
+ },
+ {
+  "id": "GEN-T2U1-017",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class has no data members and no virtual functions. Why can `sizeof` applied to that class never yield 0?",
+  "opts": {
+   "A": "Because every object carries a hidden pointer to its class's run-time type information",
+   "B": "Because two distinct complete objects of the same type are required to have distinct addresses, which would be impossible if a complete object occupied no storage",
+   "C": "Because the compiler must store the addresses of the class's member functions inside each object",
+   "D": "Because alignment rules round every object up to at least the size of a machine word"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Distinct complete objects of the same type must be distinguishable by address — an array of them must have addressable elements — so a complete object always occupies at least one byte, and its exact size beyond that is up to the implementation. There is no run-time type information pointer to blame here since the class has no virtual functions, and member function addresses are never stored inside objects."
+ },
+ {
+  "id": "GEN-T2U1-018",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class currently has no virtual functions. On a typical implementation that dispatches virtual calls through a per-class virtual table, which single change to the class would be expected to increase `sizeof` for its objects?",
+  "opts": {
+   "A": "Adding a static data member to the class",
+   "B": "Adding one more non-virtual member function",
+   "C": "Declaring the class's destructor `virtual`",
+   "D": "Adding a `friend` declaration for a free function"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Giving a class its first virtual function — and a virtual destructor counts as one — makes a vtable-based implementation embed a virtual-table pointer in every object, which is the usual reason a class's objects suddenly grow. A static data member lives once outside every object, an ordinary member function is shared code, and a friend declaration only grants access rights; none of those three adds per-object storage."
+ },
+ {
+  "id": "GEN-T2U1-019",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A header defines class C. One member function, `f`, is defined inside the class body; another, `g`, is only declared inside the body and then defined below the class in the same header as `void C::g() { ... }`. When several translation units include this header, the link fails with a multiple-definition error for `C::g` but not for `C::f`. Why?",
+  "opts": {
+   "A": "A function defined inside the class body is given internal linkage, so every translation unit gets its own private copy that cannot clash",
+   "B": "The in-body definition is only a declaration; the compiler regenerates the body at each call site, so no symbol for `C::f` ever exists",
+   "C": "A function defined inside the class body is always expanded at the call site, so the linker never sees a definition for it",
+   "D": "A function defined inside the class body is implicitly `inline`, and an inline function may be defined identically in every translation unit; `C::g` is not implicitly inline, so it must be marked `inline` or moved into a single source file"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Defining a member function inside the class body makes it implicitly `inline`, and the one-definition rule specifically permits an inline function to be defined once in each translation unit provided the definitions are identical; an out-of-class definition sitting in a header is an ordinary external definition and breaks that rule the moment two translation units include it. `inline` does not confer internal linkage — the definitions still denote one entity with one address — and it is not a promise that any call is expanded in place."
+ }
+]

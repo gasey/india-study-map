@@ -1,0 +1,129 @@
+[
+ {
+  "id": "GEN-T2U1-060",
+  "sub": "Exception handling and strings",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct T { const char* n; ~T() { cout << n; } };\nvoid f() { T a{\"a\"}; throw 1; T b{\"b\"}; }\nint main() {\n  try { T c{\"c\"}; f(); } catch (int) { cout << \"X\"; }\n}",
+  "opts": {
+   "A": "abcX",
+   "B": "cX",
+   "C": "acX",
+   "D": "Xac"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Stack unwinding destroys every automatic object that was fully constructed since the try block was entered, in reverse order of construction, and it completes before the handler body runs — so a is destroyed, then c, then X is printed. abcX is the trap: b is never constructed because the throw precedes its declaration, and an object that was never constructed is never destroyed; Xac inverts the guaranteed ordering of unwinding and handler entry."
+ },
+ {
+  "id": "GEN-T2U1-061",
+  "sub": "Exception handling and strings",
+  "q": "A std::out_of_range is thrown and caught by a handler written catch (const std::exception& e). The handler logs the message and then writes throw e; to pass the exception outwards. An enclosing handler for catch (const std::out_of_range&) never fires, though a plain catch (const std::exception&) on the outer try does. What explains this?",
+  "opts": {
+   "A": "throw e; copy-initialises a new exception object of the operand's static type, std::exception, so the dynamic type is lost; a bare throw; would have propagated the original std::out_of_range object untouched",
+   "B": "throw e; is ill-formed inside a handler, so the compiler rewrites it as a call to std::terminate and the outer try is bypassed entirely",
+   "C": "throw e; preserves the dynamic type correctly, but a rethrown object can only be matched by a handler that takes it by value, so the outer clause had to be written catch (std::out_of_range)",
+   "D": "throw e; throws a pointer to the handler's own parameter, which is destroyed as the handler exits, so the outer clause is skipped to avoid matching a dangling object"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The operand of a throw-expression is copied into a fresh exception object whose type is the operand's static type, so throwing the base-typed handler parameter discards everything below std::exception; a bare throw; instead reactivates the exception object already in flight, dynamic type intact. Option C inverts the actual rule — handlers routinely match rethrown objects by reference, and catching by value is precisely what would slice again."
+ },
+ {
+  "id": "GEN-T2U1-062",
+  "sub": "Exception handling and strings",
+  "q": "A function is declared noexcept, and at run time an exception it did not anticipate propagates out of its body. What does the C++ standard say happens?",
+  "opts": {
+   "A": "The program is ill-formed: a throw that can reach the boundary of a noexcept function is diagnosed at compile time",
+   "B": "The exception object is replaced by a std::bad_exception, which then propagates to the caller normally",
+   "C": "noexcept is only an optimisation hint to the compiler, so the exception propagates to the caller unchanged",
+   "D": "std::terminate is invoked, and the stack is not guaranteed to have been unwound before that call"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Violating a noexcept specification is a run-time event, not a diagnosable one, and the reaction is a call to std::terminate; because unwinding before that call is not required, destructors of intervening automatic objects may never run. Substitution by std::bad_exception belonged to the old dynamic exception specifications (throw(...) lists), which were removed from the language and never applied to noexcept."
+ },
+ {
+  "id": "GEN-T2U1-063",
+  "sub": "Exception handling and strings",
+  "q": "In the standard exception hierarchy of <stdexcept>, which of these types derives from std::logic_error rather than from std::runtime_error?",
+  "opts": {
+   "A": "std::range_error",
+   "B": "std::length_error",
+   "C": "std::overflow_error",
+   "D": "std::underflow_error"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "std::length_error sits on the logic_error branch: it reports an attempt to produce an object beyond its own maximum size, a fault visible from the program's arguments before the operation is attempted. std::range_error is the near-miss — despite the similar name it is a runtime_error, reported for a result that cannot be represented — and std::overflow_error and std::underflow_error are runtime_error descendants too.",
+  "reviewFix": "Option D replaced; flagged independently by both blind reviewers of this half. The key was right, but the stem asked about \"the standard exception hierarchy of <stdexcept>\" while offering std::system_error, which that header does not declare — verified by compiling: including only <stdexcept> and naming std::system_error is a hard error, \"'system_error' in namespace 'std' does not name a type\". It lives in <system_error>. Option D is now std::underflow_error, which is in <stdexcept> and is a runtime_error, so it remains a wrong-but-plausible distractor. Key B unchanged."
+ },
+ {
+  "id": "GEN-T2U1-064",
+  "sub": "Exception handling and strings",
+  "q": "In C++11 and later, an exception escapes from a destructor that carries no explicit exception specification and whose base and member destructors are all non-throwing. What is the result?",
+  "opts": {
+   "A": "It propagates to the enclosing handler exactly as an exception thrown from an ordinary member function would",
+   "B": "It propagates normally unless another exception is already in flight, in which case std::terminate is called",
+   "C": "std::terminate is called, because such a destructor has an implicit non-throwing exception specification",
+   "D": "std::unexpected is invoked, giving the program the chance to substitute a different exception before propagation"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Since C++11 a destructor's implicit exception specification is non-throwing whenever its subobjects' destructors are, so letting an exception out of one is a noexcept violation and calls std::terminate whether or not unwinding is under way. Option B is the pre-C++11 rule that many people still carry — back then the escape was legal on its own and only fatal during unwinding of another exception."
+ },
+ {
+  "id": "GEN-T2U1-065",
+  "sub": "Exception handling and strings",
+  "q": "A function allocates a buffer with new, performs work that may throw, and calls delete at the end. When the work throws, the buffer leaks. Which change makes the function leak-free without adding any catch clause?",
+  "opts": {
+   "A": "Make the pointer static, so its storage survives the unwinding of the function",
+   "B": "Declare the function noexcept, so the exception cannot escape and the delete is reached",
+   "C": "Rely on the compiler, which emits the matching delete as part of the unwinding code it generates for the function",
+   "D": "Hold the allocation in a local std::unique_ptr, whose destructor is run automatically while the stack unwinds"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Unwinding runs the destructor of every fully-constructed automatic object, so tying the resource's lifetime to a local object — RAII — releases it on both the normal and the exceptional path with no handler at all. Declaring the function noexcept does not reach the delete: it converts the escape into a call to std::terminate, and the standard does not even require the stack to be unwound first."
+ },
+ {
+  "id": "GEN-T2U1-066",
+  "sub": "Exception handling and strings",
+  "q": "Assuming the usual includes, this fragment reports a separator in a string that plainly contains none:\n\nstd::string s = \"192.168.1.10\";\nstd::size_t p = s.find(':');\nif (p >= 0) std::cout << \"separator found\";\n\nWhat is wrong?",
+  "opts": {
+   "A": "find() returns 0 when the search fails, and 0 >= 0 is true; the result has to be compared against s.size() instead",
+   "B": "find() returns std::string::npos on failure, and as an unsigned size_type that is the largest representable value, so p >= 0 can never be false; the test must be p != std::string::npos",
+   "C": "find() returns -1 on failure, and the comparison widens it to a large positive value only on 64-bit builds, so the bug appears on some platforms and not others",
+   "D": "The single-character overload of find() treats its argument as a set of characters to search for, so it matched one of the '.' characters"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "std::string::find reports failure with std::string::npos, a size_type constant equal to the largest value that type can hold, so any comparison of the unsigned result against 0 with >= is vacuously true on every platform. Option C describes the C-style convention of returning -1: npos is indeed defined as size_type(-1), but the result variable is unsigned, so nothing is ever negative and the defect is not platform-dependent. Option D confuses find() with find_first_of()."
+ },
+ {
+  "id": "GEN-T2U1-067",
+  "sub": "Exception handling and strings",
+  "q": "Assuming the usual includes, what is the status of this fragment?\n\nstd::string s = \"abc\";\nconst char* p = s.c_str();\ns += \"defghijklmnopqrstuvwxyz0123456789\";\nstd::cout << p;",
+  "opts": {
+   "A": "Undefined behaviour: c_str() hands back a pointer into the string's own storage, and a modifying member call such as operator+= invalidates it",
+   "B": "Well defined, printing abc, because c_str() returns a freshly allocated null-terminated copy that stays valid until the string is destroyed",
+   "C": "Well defined, because small-string optimisation guarantees that a literal as short as \"abc\" lives inside the string object itself and can never be moved",
+   "D": "Well defined, printing the whole concatenated text, because c_str() returns a pointer that follows the string's current contents"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "c_str() exposes the string's internal character sequence rather than a copy, and any non-const member call other than the few exempted accessors may invalidate the pointers, references and iterators into it — so p is dangling the moment the append runs, regardless of whether reallocation actually occurred. Option C is the standard misreading of small-string optimisation: it is a permitted implementation technique, not a guarantee the standard offers, and an append of this length would exceed any such internal buffer anyway."
+ },
+ {
+  "id": "GEN-T2U1-068",
+  "sub": "Exception handling and strings",
+  "q": "For a std::string object s, which statement about size(), length() and capacity() is accurate?",
+  "opts": {
+   "A": "size() and length() are exact synonyms, and capacity() is at least size(), reporting how many characters the current storage can hold before a reallocation is needed",
+   "B": "length() returns the count of characters, while size() returns that count plus one for the terminating null character",
+   "C": "capacity() is always equal to size() until reserve() is called explicitly on the object",
+   "D": "size() counts characters while length() counts bytes, so the two differ for a string holding multi-byte UTF-8 text"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "length() is specified as returning size(), and capacity() is a separate quantity never smaller than size() that describes the allocated storage rather than the content. Option D is the most tempting because the two names invite it, but std::string is a sequence of char with no encoding awareness at all: both functions return the same byte count, and neither counts the null that c_str() must supply."
+ }
+]

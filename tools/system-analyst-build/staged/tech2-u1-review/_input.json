@@ -1,0 +1,170 @@
+[
+ {
+  "id": "GEN-TECH2-U1-ee6151",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "In the object-oriented development process, identifying the problem-domain entities and the responsibilities of each, without committing to any implementation, belongs to which phase?",
+  "opts": {
+   "A": "Object-oriented analysis",
+   "B": "Object-oriented design",
+   "C": "Object-oriented implementation",
+   "D": "Object-oriented testing"
+  },
+  "ans": "A",
+  "exp": "Object-oriented analysis works in the vocabulary of the problem domain: which objects exist and what each one is responsible for. Object-oriented design is the following step, where those findings are turned into concrete class hierarchies, member function signatures and access specifiers, and it presumes the analysis has already named the objects.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-b5ce17",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A Car class needs the behaviour of an Engine class, but a Car is not a kind of Engine. Which relationship should the design use?",
+  "opts": {
+   "A": "Public inheritance of Engine by Car",
+   "B": "Composition, with Car holding an Engine object as a data member",
+   "C": "Private virtual inheritance of Engine by Car",
+   "D": "A friend declaration naming Engine inside Car"
+  },
+  "ans": "B",
+  "exp": "Public inheritance models an is-a relationship in which the derived type is substitutable for the base, and a Car is not substitutable for an Engine, so it fails that test. Composition expresses the has-a relationship that actually holds, giving Car access to Engine's behaviour through a member object. A friend declaration only relaxes access control and creates no structural relationship at all.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-5b557e",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "Which statement correctly distinguishes abstraction from encapsulation?",
+  "opts": {
+   "A": "Abstraction restricts access to members, while encapsulation presents a simplified interface to clients",
+   "B": "Abstraction applies only to base classes, while encapsulation applies only to derived classes",
+   "C": "Abstraction presents a simplified interface and hides implementation detail, while encapsulation binds data together with the operations on it and controls access to them",
+   "D": "Abstraction is resolved at run time, while encapsulation is resolved when the program is linked"
+  },
+  "ans": "C",
+  "exp": "Abstraction concerns what a client is allowed to see, namely a simplified view expressed as an interface with the implementation kept out of sight. Encapsulation is the packaging mechanism that puts data and the operations on it into a single unit and uses access specifiers to control reach. Option A states the two the wrong way round, which is the usual confusion between them.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-ebec27",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct A { ~A() { cout << \"A\"; } };\nstruct B { ~B() { cout << \"B\"; } };\nstruct C { A a; B b; ~C() { cout << \"C\"; } };\nint main() { C c; }",
+  "opts": {
+   "A": "ABC",
+   "B": "BAC",
+   "C": "CAB",
+   "D": "CBA"
+  },
+  "ans": "D",
+  "exp": "The enclosing object's own destructor body runs first, so C is printed. Its members are then destroyed in the reverse of their declaration order, giving b and therefore B, then a and therefore A. The full output is CBA, which is the exact mirror of the construction order a, then b, then C's body.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-91c240",
+  "sub": "Constructors and destructors",
+  "q": "A base class pointer holds a dynamically allocated derived class object, and delete is applied to that pointer. What is required for the derived class destructor to run?",
+  "opts": {
+   "A": "The base class destructor must be declared virtual",
+   "B": "The derived class destructor must be declared virtual",
+   "C": "The derived class must overload operator delete",
+   "D": "The base class destructor must be declared protected"
+  },
+  "ans": "A",
+  "exp": "A delete through a base class pointer dispatches to the derived destructor only when the base class destructor is virtual; otherwise the behaviour is undefined and in practice only the base part is destroyed, leaking whatever the derived part owns. Marking only the derived destructor virtual does not help, because the call site sees the base class's static type, so the virtual declaration has to be visible there.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-f591a5",
+  "sub": "Constructors and destructors",
+  "q": "Which kind of data member must be initialised at the point the object is created and cannot simply be assigned inside the constructor body?",
+  "opts": {
+   "A": "A pointer data member",
+   "B": "A reference data member",
+   "C": "A data member of built-in integer type",
+   "D": "A static data member of the class"
+  },
+  "ans": "B",
+  "exp": "A reference has to be bound to its referent at the moment it comes into existence and can never be rebound afterwards, and the constructor body runs only after every member has already been constructed, so a reference member must be initialised where it is created -- in the member-initialiser list, or by a default member initialiser -- and never by assignment in the body. Pointers and plain integers are perfectly assignable in the body, and a static member belongs to the class rather than to any one object, so no constructor initialises it.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-0b2d3a",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Which call moves the get pointer of an open ifstream object f backwards by 20 bytes from its current position?",
+  "opts": {
+   "A": "f.seekg(20, ios::beg)",
+   "B": "f.tellg(-20)",
+   "C": "f.seekg(-20, ios::cur)",
+   "D": "f.seekp(-20, ios::cur)"
+  },
+  "ans": "C",
+  "exp": "seekg repositions the get, or read, pointer and takes an offset together with a seek direction, so a negative offset measured from ios::cur steps backwards from wherever the pointer currently sits. An ifstream is input-only and has no seekp member at all, and tellg merely reports the current position and takes no argument. Note that on a read-write fstream the get and put positions are a single shared file position, so there seekp would have moved the read position as well.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-47f665",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "An extraction such as in >> x is attempted on a file stream when no data remains. Which stream state results, and why does the stream then test as false?",
+  "opts": {
+   "A": "Only badbit is set, because the underlying read operation was invalid",
+   "B": "Only eofbit is set, and the stream remains usable for further extraction",
+   "C": "goodbit is set, and it can be cleared only by an explicit call to clear()",
+   "D": "eofbit and failbit are both set, and it is failbit that makes the stream test false"
+  },
+  "ans": "D",
+  "exp": "Reaching end of file sets eofbit, and because the extraction produced no value it also sets failbit, which is the bit a stream's boolean conversion actually reports. That combination is why a loop written as while (in >> x) stops at exactly the right point, whereas one controlled by while (!in.eof()) runs an extra iteration on an extraction that has already failed.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-e01c9b",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "What is the difference between opening a file with ios::app and opening it with ios::ate?",
+  "opts": {
+   "A": "ios::app sends every write to the end of the file, whereas ios::ate only positions the pointer at the end when the file is opened",
+   "B": "ios::app discards the existing contents of the file first, whereas ios::ate preserves them",
+   "C": "ios::app opens the file for reading only, whereas ios::ate opens it for writing only",
+   "D": "ios::app is valid only for binary files, whereas ios::ate is valid only for text files"
+  },
+  "ans": "A",
+  "exp": "Under ios::app every write is appended at the end of the file no matter where the put pointer has been moved to, while ios::ate merely seeks to the end once at open time, after which a seek can move the pointer back and overwrite existing data. Option B inverts the risk: ios::app never discards anything, whereas ios::ate preserves the contents only when the file is also opened for input -- an ofstream opened with ios::ate alone still truncates, because opening for output without ios::in is itself what discards the contents.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-9360f4",
+  "sub": "Exception handling and strings",
+  "q": "Why is an exception of class type normally caught by reference rather than by value?",
+  "opts": {
+   "A": "Catching a class type by value is rejected by the compiler",
+   "B": "A by-value handler copies the thrown object and slices a derived exception down to the handler's base type",
+   "C": "Only a by-reference handler permits the exception to be rethrown to an outer try block",
+   "D": "A by-value handler suppresses the unwinding of objects created inside the try block"
+  },
+  "ans": "B",
+  "exp": "A by-value handler copy-initialises its parameter from the thrown object, so an exception thrown as a derived type but caught as a base loses its derived state and its overrides, which is the classic slicing problem. A reference handler binds to the thrown object itself and keeps its dynamic type intact. Rethrowing with a bare throw statement works from either kind of handler, so option C is not the reason.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-9cdfbf",
+  "sub": "Exception handling and strings",
+  "q": "A try block lists a handler for catch (const std::exception&) before a handler for catch (const std::out_of_range&). What happens when an out_of_range object is thrown inside that try block?",
+  "opts": {
+   "A": "The out_of_range handler runs, because it is the more derived and therefore the better match",
+   "B": "Both handlers run, the base one first and the derived one afterwards",
+   "C": "The std::exception handler runs, because handlers are examined in the order they are written",
+   "D": "The program calls std::terminate, because this ordering of handlers is ill-formed"
+  },
+  "ans": "C",
+  "exp": "Handlers are examined from top to bottom and the first one able to catch the thrown object is selected; there is no best-match ranking of the kind overload resolution performs, so the base handler shadows the derived one that follows it. This is why a derived handler must be written before its base, and why exactly one handler runs for any given exception.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-TECH2-U1-83968b",
+  "sub": "Exception handling and strings",
+  "q": "For a std::string holding 5 characters, how does at(9) differ in behaviour from operator[](9)?",
+  "opts": {
+   "A": "Both throw std::out_of_range",
+   "B": "Both silently return a reference to the string's terminating null character",
+   "C": "at(9) returns a default-constructed char, while operator[](9) throws std::length_error",
+   "D": "at(9) throws std::out_of_range, while operator[](9) is unchecked and gives undefined behaviour"
+  },
+  "ans": "D",
+  "exp": "at() is the bounds-checked accessor and reports a violation by throwing std::out_of_range, which makes it the right choice when an index arrives from input that has not been validated. operator[] performs no bounds check at all, so an out-of-range index is undefined behaviour that may appear to work by accident and can never be relied on to signal the error.",
+  "conf": "high"
+ }
+]

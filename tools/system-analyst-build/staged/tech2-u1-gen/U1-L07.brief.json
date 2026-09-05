@@ -1,0 +1,116 @@
+{
+ "slug": "U1-L07",
+ "unit": "1",
+ "unit_title": "Object Oriented Programming",
+ "marks": 40,
+ "leaf": "Exception handling and strings",
+ "need": 9,
+ "already_on_this_leaf": 3,
+ "target_per_leaf": 12,
+ "language": "Write in C++ unless a question is genuinely language-neutral. The syllabus is explicitly C++ (operator overloading, virtual functions, pointers to object, I/O streams, file handling with OOP), and all 16 existing Unit 1 questions are C++. Do not write a question whose answer would differ in Java or Python without the stem naming the language.",
+ "verbatim_syllabus": "Introduction of OOP; application of OOP; process of OOP; Classes and Objects; Overview of Classes and Objects; Class definition; class specifiers; defining member functions; Memory allocation for objects; array of objects; constructor; destructor; Polymoxphism; Function of Overloading; uses in program; operator overloading; defining operator overloading; limitations of operator overloading; overloading unary and binary operators; Inheritance and its types with examples; virtual functions; pointers to object; pure Virtual Functions and its implementation in program; managing I/0 operations; I/0 streams; File handling with OOP; Error handling in file operations; random file access; exception handling methods; throwing mechanism; catching mechanism; string characteristics and uses;",
+ "verbatim_syllabus_ocr_notes": [
+  "'Polymoxphism' is the printed form of 'Polymorphism' — OCR damage, not a term.",
+  "'I/0 operations' and 'I/0 streams' use a digit zero; read them as I/O.",
+  "'Function of Overloading' is the printed form of 'Function Overloading'.",
+  "The page heading prints 'THCHNICAL SUBJHCT PAPER-II'; the same substitution of H for E appears elsewhere on the page and is scanner noise."
+ ],
+ "existing_stems": [
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "Which feature allows open recursion, among the following?",
+   "ans_text": "Use of this pointer",
+   "src": "past"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Which language does not support all 4 types of inheritance?",
+   "ans_text": "Java",
+   "src": "past"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "Overloading a postfix increment operator by means of a member function takes :",
+   "ans_text": "one argument",
+   "src": "past"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "In the object-oriented development process, identifying the problem-domain entities and the responsibilities of each, without committing to any implementation, belongs to which phase?",
+   "ans_text": "Object-oriented analysis",
+   "src": "generated"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "A Car class needs the behaviour of an Engine class, but a Car is not a kind of Engine. Which relationship should the design use?",
+   "ans_text": "Composition, with Car holding an Engine object as a data member",
+   "src": "generated"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "Which statement correctly distinguishes abstraction from encapsulation?",
+   "ans_text": "Abstraction presents a simplified interface and hides implementation detail, while encapsulation binds data together with the operations on it and controls access to them",
+   "src": "generated"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct A { ~A() { cout << \"A\"; } };\nstruct B { ~B() { cout << \"B\"; } };\nstruct C { A a; B b; ~C() { cout << \"C\"; } };\nint main() { C c; }",
+   "ans_text": "CBA",
+   "src": "generated"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "A base class pointer holds a dynamically allocated derived class object, and delete is applied to that pointer. What is required for the derived class destructor to run?",
+   "ans_text": "The base class destructor must be declared virtual",
+   "src": "generated"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "Which kind of data member must be initialised at the point the object is created and cannot simply be assigned inside the constructor body?",
+   "ans_text": "A reference data member",
+   "src": "generated"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "Which call moves the get pointer of an open ifstream object f backwards by 20 bytes from its current position?",
+   "ans_text": "f.seekg(-20, ios::cur)",
+   "src": "generated"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "An extraction such as in >> x is attempted on a file stream when no data remains. Which stream state results, and why does the stream then test as false?",
+   "ans_text": "eofbit and failbit are both set, and it is failbit that makes the stream test false",
+   "src": "generated"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "What is the difference between opening a file with ios::app and opening it with ios::ate?",
+   "ans_text": "ios::app sends every write to the end of the file, whereas ios::ate only positions the pointer at the end when the file is opened",
+   "src": "generated"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "Why is an exception of class type normally caught by reference rather than by value?",
+   "ans_text": "A by-value handler copies the thrown object and slices a derived exception down to the handler's base type",
+   "src": "generated"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "A try block lists a handler for catch (const std::exception&) before a handler for catch (const std::out_of_range&). What happens when an out_of_range object is thrown inside that try block?",
+   "ans_text": "The std::exception handler runs, because handlers are examined in the order they are written",
+   "src": "generated"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "For a std::string holding 5 characters, how does at(9) differ in behaviour from operator[](9)?",
+   "ans_text": "at(9) throws std::out_of_range, while operator[](9) is unchecked and gives undefined behaviour",
+   "src": "generated"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "The construction of object-oriented software begins with the creation of",
+   "ans_text": "both design and analysis model",
+   "src": "past"
+  }
+ ]
+}

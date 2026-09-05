@@ -1,0 +1,129 @@
+[
+ {
+  "id": "GEN-T2U1-051",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Assume the usual includes and using namespace std. The file nums.txt contains the three numbers 10 20 30 separated by single spaces and followed by one newline. How many times does the body of this loop execute?\n\nifstream in(\"nums.txt\");\nint x, count = 0;\nwhile (!in.eof()) { in >> x; ++count; }\ncout << count;",
+  "opts": {
+   "A": "3 times, once for each number in the file",
+   "B": "4 times, because the newline after 30 leaves eofbit clear until one more extraction is attempted",
+   "C": "5 times, because both the space before 30 and the trailing newline are extracted as separate items",
+   "D": "The body never stops executing, because a failed extraction sets failbit and leaves eofbit clear"
+  },
+  "ans": "B",
+  "exp": "Extraction of 30 stops at the newline without touching end-of-file, so eof() is still false and the loop is entered a fourth time; that fourth >> skips the newline, hits end-of-file and fails, and only then is eofbit set. This is why eof() is the wrong loop condition: option D inverts the fact, since a read that fails at end-of-file sets eofbit and failbit together, which is what finally stops the loop.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-052",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "An ifstream f has just had an extraction fail at end of file. The program wants to re-read the file from the start, so it calls f.seekg(0, ios::beg) and then extracts again, but nothing is read and the get pointer never moves. What explains this?",
+  "opts": {
+   "A": "eofbit permanently marks the stream as exhausted, so no further get operation on that object can succeed",
+   "B": "The get pointer did move, but the stream's buffer must be re-synchronised with sync() before the repositioned data becomes visible",
+   "C": "failbit is still set, so the seek and every later operation on the stream are ignored until clear() resets the state flags",
+   "D": "ios::beg applies only to the put pointer; a get pointer must be rewound with the single-argument form seekg(0)"
+  },
+  "ans": "C",
+  "exp": "A stream in a failed state ignores subsequent input operations, and seekg is one of them, so the reposition itself silently does nothing until clear() puts the stream back in a good state. Option A is the tempting one because eofbit was indeed set, but eofbit is not permanent either; clear() resets the whole state word, after which the seek and the reads work normally.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-053",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "A program opens an existing record file with fstream f(\"rec.dat\", ios::out | ios::binary), seeks to one record and rewrites it in place. Afterwards the file holds only that single record and every other record is gone. What explains the loss?",
+  "opts": {
+   "A": "ios::out on its own truncates the file to zero length at the moment it is opened, so updating an existing file in place needs ios::in | ios::out",
+   "B": "ios::binary implies ios::trunc, so it was the binary flag that discarded the earlier records",
+   "C": "The put pointer starts at offset zero, so the write landed on the first record and the stream then shortened the file to the number of bytes written",
+   "D": "Without ios::app an fstream replaces the whole file on each write rather than at open time"
+  },
+  "ans": "A",
+  "exp": "Opening with out and neither in nor app creates-or-truncates the file, exactly like the \"w\" mode of C stdio, so the records were destroyed before the seek ever ran; combining in with out opens the existing file without truncating and allows read-modify-write in place. Option C is plausible only if you assume truncation happens at write time, whereas the file was already empty when the stream was opened.",
+  "conf": "high",
+  "reviewFix": "Explanation trimmed. The key was right and the truncation-at-open behaviour was confirmed by compiling, but the closing clause — that the file being empty is \"why the seek to a later record could not find anything\" — describes something that does not happen. Seeking past the end of an output stream is not an error and does not fail to \"find\" anything; a subsequent write simply extends the file from that offset. The clause is removed rather than reworded, since the preceding sentence already carries the whole explanation. Key A unchanged."
+ },
+ {
+  "id": "GEN-T2U1-054",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Employee is a struct of fixed-size members with no pointers and no virtual functions, and emp is a non-const Employee object. Which statement writes the raw bytes of emp to an already-open binary ofstream f?",
+  "opts": {
+   "A": "f.write(&emp, sizeof(emp));",
+   "B": "f << emp << sizeof(emp);",
+   "C": "f.put(reinterpret_cast<char*>(&emp), sizeof(emp));",
+   "D": "f.write(reinterpret_cast<char*>(&emp), sizeof(emp));"
+  },
+  "ans": "D",
+  "exp": "write takes a pointer to characters and a byte count, so the object's address has to be reinterpreted as a char pointer before it can be passed. Option A is the near miss: it is the same call without the cast, and there is no implicit conversion from Employee* to char*, so it does not compile; put transfers one character and takes no length argument.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-055",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "The file data.bin is exactly 40 bytes long. Assume the usual includes and using namespace std. What does this fragment print?\n\nifstream f(\"data.bin\", ios::binary);\nchar buf[100];\nf.read(buf, 100);\ncout << f.gcount();",
+  "opts": {
+   "A": "100",
+   "B": "0, because the read failed and no complete request was satisfied",
+   "C": "40",
+   "D": "39, because one position is reserved for a terminating null character"
+  },
+  "ans": "C",
+  "exp": "read stops when the file is exhausted, transfers the 40 bytes that were available and sets eofbit and failbit; gcount() reports the number of characters the last unformatted input operation actually extracted, which is 40. Option B is the trap: a failed read still transfers what it could, and gcount() is precisely the way to find out how much, so it does not report zero.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-056",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "An existing file is opened as ifstream f(\"img.bin\", ios::binary). Which sequence yields the size of the file in bytes?",
+  "opts": {
+   "A": "f.seekg(0, ios::beg); streampos n = f.tellg();",
+   "B": "f.seekg(0, ios::end); streampos n = f.tellg();",
+   "C": "f.seekp(0, ios::end); streampos n = f.tellp();",
+   "D": "streamsize n = f.gcount();"
+  },
+  "ans": "B",
+  "exp": "Seeking zero bytes relative to ios::end leaves the get pointer just past the last byte, and tellg then reports that offset, which in binary mode is the file's length in bytes. Option C looks symmetrical but an ifstream has only a get pointer, so seekp and tellp are not members of it and the code does not compile; option A reports the offset of the beginning, which is always 0.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-057",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "A function creates a local ofstream object, writes several lines through it, and returns without ever calling close(). What happens to data still sitting in the stream's buffer?",
+  "opts": {
+   "A": "The file is closed when the object goes out of scope, but whatever is still buffered is dropped, so an explicit flush() is needed before returning",
+   "B": "The buffer is written out only at normal program termination, when the standard streams are flushed",
+   "C": "The behaviour is undefined, because an ofstream whose lifetime ends while it is still open leaves the file in an indeterminate state",
+   "D": "The ofstream destructor runs at the end of the scope and closes the file, and closing flushes the buffer first"
+  },
+  "ans": "D",
+  "exp": "A file stream owns its file as a resource: the destructor closes it, and closing flushes any buffered characters to the file, which is why explicit close() calls are optional rather than mandatory. Option A is the common fear and is wrong on the important half; the close performed by the destructor is a real close, not an abandonment of the buffer.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-058",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Why can one fstream object be used both for extraction with >> and for insertion with <<?",
+  "opts": {
+   "A": "fstream derives from iostream, which itself derives from both istream and ostream, so it inherits both sets of operations",
+   "B": "fstream declares its own member overloads of >> and <<, which dispatch on the open mode passed to its constructor",
+   "C": "fstream holds an ifstream and an ofstream as data members and forwards each operator to the appropriate one",
+   "D": "Both operators are non-member functions taking an ios& parameter, so they accept any class derived from ios"
+  },
+  "ans": "A",
+  "exp": "The stream hierarchy gives fstream its dual capability by inheritance: iostream multiply inherits from istream and ostream, and fstream extends iostream with file-specific members such as open and close. Option D is the closest miss, but the insertion and extraction operations live in ostream and istream, not in ios, so a base of type ios would supply neither.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1-059",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Assume the usual includes, including <iomanip>, and using namespace std. What does this line print?\n\ncout << setfill('*') << setw(5) << 42 << 7 << endl;",
+  "opts": {
+   "A": "***42****7",
+   "B": "***42*7",
+   "C": "***427",
+   "D": "42***7"
+  },
+  "ans": "C",
+  "exp": "setw sets the field width for the next insertion only, after which the width reverts to zero, whereas setfill changes a stream member that persists until it is changed again; so 42 is padded to five characters with asterisks and 7 is printed with no padding at all. Option A is what you would get if width persisted the way fill does, which is exactly the asymmetry being tested.",
+  "conf": "high"
+ }
+]

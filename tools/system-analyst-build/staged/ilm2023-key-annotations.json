@@ -1,6 +1,6 @@
 {
   "_what": "The editorial layer over ilm2023-official-key.json. That file is a faithful transcription of what MPSC printed and nothing else; this one is what THIS PROJECT says about the questions the key changes. Kept separate so the transcription stays checkable against the PDF by diff.",
-  "_source_read": "All option text below was read off the rendered source scan (CSE 2015/computer-science-engineering-paper-i.pdf and -ii.pdf, 200dpi, by eye). Those PDFs are pure scans - a 10-character text layer - so pdftotext returns nothing and every claim here required looking at the page.",
+  "_source_read": "All option text below was read off the rendered source scan (mpsc-cse-papers/computer-science-engineering-paper-i.pdf and -ii.pdf, 200dpi, by eye). Those PDFs are pure scans - a 10-character text layer - so pdftotext returns nothing and every claim here required looking at the page.",
   "_policy": "tools/VERIFY_BRIEF.md: where an official MPSC key exists it is the scoring authority even when it is wrong, so `ans` follows the key. But the reader is revising for a real exam, so a key that contradicts standard theory MUST say so on the card - the note is not optional decoration, it is the thing that stops the card teaching a falsehood.",
 
   "annotations": [

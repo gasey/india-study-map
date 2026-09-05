@@ -13009,7 +13009,7 @@ window.QUESTIONS = [
   "ans": "D",
   "exp": "y = A + A'B absorbs to A + B: wherever A'B is true B is true, so the A'B term adds nothing that A + B does not already cover (formally A + A'B = (A+A')(A+B) = A+B). Option (c) y=A'+B is the near-miss — it is the complement-of-A form, true when A is false, which is not what A + A'B evaluates to.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "OPTIONS REPAIRED FROM SOURCE (page 3, question 21 of CSE 2015/jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.pdf, read by eye at 600dpi - that PDF is a pure scan with a 1-character text layer). This copy had dropped the apostrophe from printed option (c) y=A'+B, leaving (C) and (D) both reading y=A+B, and was keyed (C). The paper prints y=A+B at (d), which is where the key now sits; its duplicate MES2015_PAPER1_021 already keyed (D) correctly. Superseded answer: (C).",
+  "note": "OPTIONS REPAIRED FROM SOURCE (page 3, question 21 of mpsc-cse-papers/jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.pdf, read by eye at 600dpi - that PDF is a pure scan with a 1-character text layer). This copy had dropped the apostrophe from printed option (c) y=A'+B, leaving (C) and (D) both reading y=A+B, and was keyed (C). The paper prints y=A+B at (d), which is where the key now sits; its duplicate MES2015_PAPER1_021 already keyed (D) correctly. Superseded answer: (C).",
   "conf": "high"
  },
  {
@@ -13031,7 +13031,7 @@ window.QUESTIONS = [
   "ans": "",
   "exp": "Unanswerable as printed. A binary half subtractor needs D = AB' + A'B (= A XOR B) and X = A'B. The four printed D expressions reduce to AB, A, A and 1 respectively, so none of them is the difference output; (a) and (c) do at least print the correct borrow X = A'B. The intended key was almost certainly (a) with two complement bars lost in printing, but that is a guess about the typesetter, not something the page supports.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": "AMBIGUOUS COMPLEMENT NOTATION - NO OPTION IS CORRECT AS PRINTED. Re-read at 600dpi against page 3, question 23 of CSE 2015/jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.pdf. This card previously carried a confident (A) reading 'D=AB'+A'B, X=A'B' - the textbook identity, which the page does not print. That reconstruction had also been applied to (C), leaving (A) and (C) byte-identical and the key arbitrary between them. Options are now transcribed as printed and the card is parked unanswerable, matching its duplicate MES2015_PAPER1_023, which reached the same verdict from the same page. Superseded answer: (A).",
+  "note": "AMBIGUOUS COMPLEMENT NOTATION - NO OPTION IS CORRECT AS PRINTED. Re-read at 600dpi against page 3, question 23 of mpsc-cse-papers/jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.pdf. This card previously carried a confident (A) reading 'D=AB'+A'B, X=A'B' - the textbook identity, which the page does not print. That reconstruction had also been applied to (C), leaving (A) and (C) byte-identical and the key arbitrary between them. Options are now transcribed as printed and the card is parked unanswerable, matching its duplicate MES2015_PAPER1_023, which reached the same verdict from the same page. Superseded answer: (A).",
   "conf": "low"
  },
  {
@@ -20877,7 +20877,7 @@ window.QUESTIONS = [
   "exp": "A cycle needs 2 colours when n is even and 3 when n is odd, so neither (a) nor (b) alone is right for every n. Option (d) covers both: with [ ] read as the floor, even n gives n - 2(n/2) + 2 = 2 and odd n gives n - 2((n-1)/2) + 2 = 3.",
   "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q36; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTIONS REPAIRED FROM SOURCE (page 7, question 36 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). Option (b) is simply '3' - it had picked up ceiling-bracket glyphs from (d) - and (d) reads 'n - 2[n/2] + 2', where the tall brackets were printed as Symbol-font bracket pieces (U+F0E9/EA/EB and U+F0F9/FA/FB) and arrived as scattered junk. The key (D) is unchanged and correct."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTIONS REPAIRED FROM SOURCE (page 7, question 36 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). Option (b) is simply '3' - it had picked up ceiling-bracket glyphs from (d) - and (d) reads 'n - 2[n/2] + 2', where the tall brackets were printed as Symbol-font bracket pieces (U+F0E9/EA/EB and U+F0F9/FA/FB) and arrived as scattered junk. The key (D) is unchanged and correct."
  },
  {
   "id": "ILM2010_P1_037",
@@ -20899,7 +20899,7 @@ window.QUESTIONS = [
   "exp": "Factor the common A'B'C': y = A'B'C'(D' + D) = A'B'C', since D' + D = 1. Option (a) ABC is the un-complemented form and the classic trap here, because the printed complement bars are easy to miss.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q37; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 7, question 37 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). Every complement bar in this question was printed in a Symbol font and dropped by extraction, which left the stem as 'y = ABCD + ABCD' and options (a) and (b) both reading 'ABC'. The paper prints (a) ABC and (b) A'B'C'. Superseded answer: (C) 'A + BCD', which the algebra does not support."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 7, question 37 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). Every complement bar in this question was printed in a Symbol font and dropped by extraction, which left the stem as 'y = ABCD + ABCD' and options (a) and (b) both reading 'ABC'. The paper prints (a) ABC and (b) A'B'C'. Superseded answer: (C) 'A + BCD', which the algebra does not support."
  },
  {
   "id": "ILM2010_P1_038",
@@ -20965,7 +20965,7 @@ window.QUESTIONS = [
   "exp": "y = A'C + A'B + AB'C + BC is 1 for exactly the minterms 001, 010, 011, 101 and 111. Checking A'B + C on all eight rows: 000->0, 001->1, 010->1, 011->1, 100->0, 101->1, 110->0, 111->1 - the same function, so (a) is an exact minimization. Option (b) A.B + C differs at 010, where the function is 1 and A.B + C is 0.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q40; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 7, question 40 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The complement bars were dropped, so options (a) and (b) both arrived as 'A .B + C' and the stem lost every bar. The paper prints (a) with A complemented. Superseded answer: (D) 'None of the above' - which was the only defensible choice while (a) and (b) were indistinguishable, but (a) is correct once the bar is restored."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 7, question 40 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The complement bars were dropped, so options (a) and (b) both arrived as 'A .B + C' and the stem lost every bar. The paper prints (a) with A complemented. Superseded answer: (D) 'None of the above' - which was the only defensible choice while (a) and (b) were indistinguishable, but (a) is correct once the bar is restored."
  },
  {
   "id": "ILM2010_P1_041",
@@ -20987,7 +20987,7 @@ window.QUESTIONS = [
   "exp": "Group the first and third terms: x'y' + x'y = x'(y' + y) = x', so the function is x' + xy. Then x' + xy = (x' + x)(x' + y) = x' + y. Truth table check, (x,y) = 00,01,10,11: the printed function gives 1,1,0,1 and x' + y gives 1,1,0,1. The near-misses fail on one row each - x' + y' gives 1 at (1,0) where the function is 0, and x + y' gives 0 at (0,1) where the function is 1.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q41; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 8, question 41 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The complement bars were printed in a Symbol font: pdftotext drops them and maps '+' to the private-use codepoint U+F02B, so this card had arrived with the stem as 'x y  x y  x y' and ALL FOUR options as the identical string 'x \\uf02b y'. The paper prints (a) x'+y', (b) x+y, (c) x+y', (d) x'+y - four distinct options. Superseded answer: (A), which was arbitrary among four identical strings; the function reduces to x'+y, which the paper prints at (d)."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 8, question 41 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The complement bars were printed in a Symbol font: pdftotext drops them and maps '+' to the private-use codepoint U+F02B, so this card had arrived with the stem as 'x y  x y  x y' and ALL FOUR options as the identical string 'x \\uf02b y'. The paper prints (a) x'+y', (b) x+y, (c) x+y', (d) x'+y - four distinct options. Superseded answer: (A), which was arbitrary among four identical strings; the function reduces to x'+y, which the paper prints at (d)."
  },
  {
   "id": "ILM2010_P1_042",
@@ -21009,7 +21009,7 @@ window.QUESTIONS = [
   "exp": "Unrolling gives T(1)=1, T(2)=4, T(3)=11, T(4)=26. Option (a) reproduces all of them: 2^2-1-2=1, 2^3-2-2=4, 2^4-3-2=11, 2^5-4-2=26. Option (d) 2^(n+1)-2n-2 agrees at n=1 but gives 2 at n=2, so it fails immediately.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q42; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 8, question 42 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The '≥' was a Symbol-font glyph (U+F0B3) and every exponent lost its superscript, so (a) and (d) read '2n+1 - n - 2' and '2n+1 - 2n - 2'. The key (A) is unchanged and correct."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 8, question 42 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The '≥' was a Symbol-font glyph (U+F0B3) and every exponent lost its superscript, so (a) and (d) read '2n+1 - n - 2' and '2n+1 - 2n - 2'. The key (A) is unchanged and correct."
  },
  {
   "id": "ILM2010_P1_043",
@@ -21185,7 +21185,7 @@ window.QUESTIONS = [
   "exp": "The inverse of 3 modulo 7 is the x with 3x ≡ 1 (mod 7): 3×5 = 15 = 14 + 1 ≡ 1, so x = 5. The trap is (a) 3, which is self-inverse only when the modulus makes 3² ≡ 1, and 9 ≡ 2 (mod 7), not 1.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q50; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 9, question 50 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the congruence sign and the alpha were Symbol-font glyphs (U+F0BA, U+F061). Options and key are unchanged and correct."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 9, question 50 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the congruence sign and the alpha were Symbol-font glyphs (U+F0BA, U+F061). Options and key are unchanged and correct."
  },
  {
   "id": "ILM2010_P1_051",
@@ -21207,7 +21207,7 @@ window.QUESTIONS = [
   "exp": "(d) p → (q → p) is a tautology: if p is false the outer implication is vacuously true, and if p is true then q → p is true. But (c) p ∨ (p → q) is ALSO a tautology - when p is false, p → q is true, so the disjunction holds; when p is true the first disjunct holds. The question therefore has two correct options as printed; (d) is the canonical textbook tautology and is kept as the key.",
   "conf": "low",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q51; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTIONS REPAIRED FROM SOURCE (page 9, question 51 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the logical connectives were Symbol-font glyphs (U+F0DA ∨, U+F0AE →, U+F028/F029 brackets). TWO OPTIONS ARE TAUTOLOGIES - both (c) and (d) - so the question is defective as printed. Option (a) is genuinely truncated ON THE PRINTED PAGE, ending '(p ∨ q) →' with nothing after it; that is the paper's own defect, not an extraction loss."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTIONS REPAIRED FROM SOURCE (page 9, question 51 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the logical connectives were Symbol-font glyphs (U+F0DA ∨, U+F0AE →, U+F028/F029 brackets). TWO OPTIONS ARE TAUTOLOGIES - both (c) and (d) - so the question is defective as printed. Option (a) is genuinely truncated ON THE PRINTED PAGE, ending '(p ∨ q) →' with nothing after it; that is the paper's own defect, not an extraction loss."
  },
  {
   "id": "ILM2010_P1_052",
@@ -21229,7 +21229,7 @@ window.QUESTIONS = [
   "exp": "Distribute: p ∧ (¬p ∨ q) = (p ∧ ¬p) ∨ (p ∧ q) = F ∨ (p ∧ q) = p ∧ q. So it is neither a tautology nor a contradiction - it is logically equivalent to p ∧ q.",
   "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q52; answer derived by review - no official key exists for this sitting; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 9, question 52 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The negation sign is a MISSING GLYPH in the source PDF itself - it renders as an empty box on the page and arrived as U+F03A - so it is read here as ¬, which is the only reading under which any printed option is correct. Key (C) unchanged. STEM REPAIRED FROM SOURCE (page 9, question 52 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The negation sign is a MISSING GLYPH in the source PDF itself - it renders as an empty box on the page and arrived as U+F03A - so it is read here as ¬, which is the only reading under which any printed option is correct. Option (c) carried the same Symbol-font conjunction (U+F0D9) as the stem and is repaired with it. Key (C) unchanged."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 9, question 52 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The negation sign is a MISSING GLYPH in the source PDF itself - it renders as an empty box on the page and arrived as U+F03A - so it is read here as ¬, which is the only reading under which any printed option is correct. Key (C) unchanged. STEM REPAIRED FROM SOURCE (page 9, question 52 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The negation sign is a MISSING GLYPH in the source PDF itself - it renders as an empty box on the page and arrived as U+F03A - so it is read here as ¬, which is the only reading under which any printed option is correct. Option (c) carried the same Symbol-font conjunction (U+F0D9) as the stem and is repaired with it. Key (C) unchanged."
  },
  {
   "id": "ILM2010_P1_053",
@@ -21249,7 +21249,7 @@ window.QUESTIONS = [
   "exp": "Take p = q = true. Then p ⇔ q is true while p → ¬q is true → false = false, so a true premise gives a false conclusion and the implication fails. The claim being assessed is that p ⇔ q does NOT imply p → ¬q, and that claim is therefore True.",
   "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q53; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 9, question 53 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the biconditional and negation were Symbol-font glyphs (U+F0DB, U+F0D8). This question really does print only TWO options, (a) True and (b) False - the two-option list is faithful to the paper, not a truncation. Key (A) unchanged."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 9, question 53 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the biconditional and negation were Symbol-font glyphs (U+F0DB, U+F0D8). This question really does print only TWO options, (a) True and (b) False - the two-option list is faithful to the paper, not a truncation. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_054",
@@ -21381,7 +21381,7 @@ window.QUESTIONS = [
   "exp": "|A| = n, so |A×A| = n², and a set of size m has 2^m subsets - hence |P(A×A)| = 2^(n²). Option (c) is the near-miss: (2ⁿ)² = 2^(2n), which equals 2^(n²) only at n = 0 and n = 2.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q59; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 10, question 59 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The nested superscripts were lost entirely: options (a) and (b) both arrived as the bare string '2', and the exponents leaked into the stem, which ended '...power set of A×A is 2n n2'. Superseded answer: (D) 'None of these' - understandable while (a) and (b) both read '2', but (b) is correct as printed."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM AND OPTIONS REPAIRED FROM SOURCE (page 10, question 59 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The nested superscripts were lost entirely: options (a) and (b) both arrived as the bare string '2', and the exponents leaked into the stem, which ended '...power set of A×A is 2n n2'. Superseded answer: (D) 'None of these' - understandable while (a) and (b) both read '2', but (b) is correct as printed."
  },
  {
   "id": "ILM2010_P1_060",
@@ -21601,7 +21601,7 @@ window.QUESTIONS = [
   "exp": "aⁿb²ⁿ needs one counter to match the number of b's against twice the number of a's, which a pushdown stack provides but a finite automaton cannot - so it is context-free and not regular.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q69; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 11, question 69 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the exponents lost their superscripts ('anb2n') and '≥' was U+F0B3. Key (B) unchanged."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 11, question 69 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the exponents lost their superscripts ('anb2n') and '≥' was U+F0B3. Key (B) unchanged."
  },
  {
   "id": "ILM2010_P1_070",
@@ -21623,7 +21623,7 @@ window.QUESTIONS = [
   "exp": "The strings are exactly the even-length runs of a, which a two-state automaton accepts by counting length parity - so the language is regular. Note this is a²ⁱ (even length), not a^(2^i), which would not be regular.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q70; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 11, question 70 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): 'a2i' had lost its superscript and '≥' was U+F0B3. Key (A) unchanged."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 11, question 70 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): 'a2i' had lost its superscript and '≥' was U+F0B3. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_071",
@@ -21645,7 +21645,7 @@ window.QUESTIONS = [
   "exp": "Four equal counts cannot be checked with one stack, so this is not context-free; but it is decidable - a Turing machine can simply count the four blocks - so it is recursive and hence recursively enumerable.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q71; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 11, question 71 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the exponents lost their superscripts and '≥' was U+F0B3. Key (B) unchanged."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 11, question 71 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the exponents lost their superscripts and '≥' was U+F0B3. Key (B) unchanged."
  },
  {
   "id": "ILM2010_P1_072",
@@ -21667,7 +21667,7 @@ window.QUESTIONS = [
   "exp": "In Chomsky Normal Form every rule is A→BC or A→a. Deriving a terminal string of length n takes n-1 applications of the binary rules to build the tree plus n terminal rules, giving 2n-1 steps in total.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q72; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTIONS REPAIRED FROM SOURCE (page 11, question 72 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): option (d) is 2ⁿ and had lost its superscript, so (c) and (d) both arrived as the string '2n'. Key (B) unchanged and correct."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTIONS REPAIRED FROM SOURCE (page 11, question 72 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): option (d) is 2ⁿ and had lost its superscript, so (c) and (d) both arrived as the string '2n'. Key (B) unchanged and correct."
  },
  {
   "id": "ILM2010_P1_073",
@@ -21777,7 +21777,7 @@ window.QUESTIONS = [
   "exp": "aⁿbⁿcⁿ is not context-free, but it is decidable: a Turing machine can count the three blocks and halt on every input, so the language is recursive. (b) would require it to be undecidable, which it is not.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q77; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 12, question 77 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the exponents lost their superscripts and '≥' was U+F0B3. Key (A) unchanged."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 12, question 77 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): the exponents lost their superscripts and '≥' was U+F0B3. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_078",
@@ -21799,7 +21799,7 @@ window.QUESTIONS = [
   "exp": "Regular languages are closed under concatenation, so L2L3 is regular, and the intersection of a context-free language with a regular language is always context-free. It need not be regular, which is why (b) is wrong.",
   "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q78; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 12, question 78 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): '∩' was U+F0C7. The printed stem writes 'L1 ∩ L2 L3' without brackets, so the grouping is the paper's own ambiguity; read as L1 ∩ (L2L3) the answer is the same either way. Key (A) unchanged."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 12, question 78 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): '∩' was U+F0C7. The printed stem writes 'L1 ∩ L2 L3' without brackets, so the grouping is the paper's own ambiguity; read as L1 ∩ (L2L3) the answer is the same either way. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_079",
@@ -21821,7 +21821,7 @@ window.QUESTIONS = [
   "exp": "Every regular language is context-free, and the context-free languages are closed under union, so the union is context-free. It need not be regular - take L1 = {aⁿbⁿ} and L2 = ∅ - so (b) is wrong.",
   "conf": "high",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q79; answer derived by review - no official key exists for this sitting",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 12, question 79 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): '∪' was U+F0C8. Key (A) unchanged."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). STEM REPAIRED FROM SOURCE (page 12, question 79 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye): '∪' was U+F0C8. Key (A) unchanged."
  },
  {
   "id": "ILM2010_P1_080",
@@ -21909,7 +21909,7 @@ window.QUESTIONS = [
   "exp": "The intersection of a context-free language with a regular language is always context-free - run the PDA and the DFA in parallel - so (b) holds. It is not always regular: {aⁿbⁿ} ∩ a*b* is itself {aⁿbⁿ}, which rules out (a) and therefore (c). Note (d) 'need not be regular' is also a true statement about this intersection, so the question has two defensible answers; (b) is the stronger and standard one.",
   "conf": "medium",
   "prov": "Inspector of Legal Metrology, March 2010, Paper I, Q83; answer derived by review - no official key exists for this sitting; question defective as printed; OCR damage in source scan",
-  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTION (D) RESTORED FROM SOURCE (page 13, question 83 of CSE 2015/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The paper prints four options; extraction glued (d) onto the end of (c), so the bank held only three, with (c) reading 'both (a) and (b) (d) need not be regular'. Key (B) unchanged. Flagged because (d) as printed is also true."
+  "note": "Only the Paper-I-syllabus questions from this paper were imported (104 of 149). OPTION (D) RESTORED FROM SOURCE (page 13, question 83 of mpsc-cse-papers/inspector-of-legal-metrology-2010-computer-science-engineering-i.pdf, rendered at 300dpi and read by eye). The paper prints four options; extraction glued (d) onto the end of (c), so the bank held only three, with (c) reading 'both (a) and (b) (d) need not be regular'. Key (B) unchanged. Flagged because (d) as printed is also true."
  },
  {
   "id": "ILM2010_P1_084",

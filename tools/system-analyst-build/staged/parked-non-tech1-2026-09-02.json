@@ -1,7 +1,7 @@
 {
  "generated_by": "CSE-2015-folder extraction, 2026-09-02",
  "what": "Questions extracted from the CSE 2015 folder that are NOT Technical Paper I. Classified but NOT solved - they have no answer key. A later session can solve them for TECH2/TECH3 without redoing PDF extraction.",
- "source_pdfs": "india-study-map/CSE 2015/ (7 MPSC sittings, 2010-2023)",
+ "source_pdfs": "india-study-map/mpsc-cse-papers/ (7 MPSC sittings, 2010-2023)",
  "counts": {
   "NONE": 164,
   "TECH2": 265,

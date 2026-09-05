@@ -379,7 +379,7 @@ checked against the source PDF the decode matched the scan exactly — see §3.1
 of `SPLIT-FINDINGS-REVIEW.md`.
 
 A 28-question source-read work list is staged in `tools/RECOVER_BRIEF.md`, and
-all five source PDFs are present in the repo under `CSE 2015/`.
+all five source PDFs are present in the repo under `mpsc-cse-papers/`.
 
 **The `recover-damaged-stems` workflow (`wf_7b642dd6-162`) was launched and
 died before returning anything — 28 agents started, 0 results in its journal.**

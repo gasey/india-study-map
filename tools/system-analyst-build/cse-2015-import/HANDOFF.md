@@ -24,7 +24,7 @@ General English and General Studies are qualifying only.
 
 ## The source folder is mislabelled — this matters
 
-`india-study-map/CSE 2015/` is **not** one 2015 sitting. It holds **18 papers
+`india-study-map/mpsc-cse-papers/` is **not** one 2015 sitting. It holds **18 papers
 from 7 different MPSC sittings, 2010–2023**, and several filenames are simply
 wrong (`computer-scienceengg-paper-i.pdf` is actually *Inspector of Legal
 Metrology, December 2018*). The real identity of each file is read off its own
@@ -149,7 +149,7 @@ These were not caused by this import; they were found while verifying it.
 losing them: `` = ⊕, `` = ≥, and a literal `F` in a set-valued table
 is Φ/∅. Equations set as images drop out of the text layer entirely — render the
 page (`pdftoppm -r 150 -png`) and read it. That is how the induction formula in
-MES2023 P-I Q3 and the NFA table in Q5 were recovered. `CSE 2015/…-paper-i.pdf`
+MES2023 P-I Q3 and the NFA table in Q5 were recovered. `mpsc-cse-papers/…-paper-i.pdf`
 for MES2015 has **no text layer at all** (6 bytes); it is image-only.
 
 ## Verified, not assumed

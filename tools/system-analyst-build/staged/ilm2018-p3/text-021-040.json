@@ -1,0 +1,225 @@
+{
+  "range": "21-40",
+  "questions": [
+    {
+      "no": 21,
+      "q": "’_ _ _ ’ matches any string of __________ three characters. ’_ _ _ %’ matches any string of at __________ three characters.",
+      "opts": {
+        "A": "Atleast, Exactly",
+        "B": "Exactly, Atleast",
+        "C": "Atleast, All",
+        "D": "All , Exactly"
+      },
+      "flags": []
+    },
+    {
+      "no": 22,
+      "q": "In SQL the spaces at the end of the string are removed by __________ function .",
+      "opts": {
+        "A": "Upper",
+        "B": "String",
+        "C": "Trim",
+        "D": "Lower"
+      },
+      "flags": []
+    },
+    {
+      "no": 23,
+      "q": "What type of join is needed when you wish to include rows that do not have matching values?",
+      "opts": {
+        "A": "Equi-join",
+        "B": "Natural join",
+        "C": "Outer join",
+        "D": "All of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 24,
+      "q": "The attribute AGE is calculated from DATE_OF_BIRTH . The attribute AGE is",
+      "opts": {
+        "A": "Single valued",
+        "B": "Multi valued",
+        "C": "Composite",
+        "D": "Derived"
+      },
+      "flags": []
+    },
+    {
+      "no": 25,
+      "q": "Updates that violate __________ are disallowed.",
+      "opts": {
+        "A": "Integrity constraints",
+        "B": "Transaction control",
+        "C": "Authorization",
+        "D": "DDL constraints"
+      },
+      "flags": []
+    },
+    {
+      "no": 26,
+      "q": "Insert into instructor values (10211, ’Smith’, ’Biology’, 66000);\nWhat type of statement is this ?",
+      "opts": {
+        "A": "DLL",
+        "B": "DML",
+        "C": "Relational",
+        "D": "DDL"
+      },
+      "flags": []
+    },
+    {
+      "no": 27,
+      "q": "Fill in with correct keyword to update the instructor relation.\nUPDATE instructor __________ salary= salary * 1.05;",
+      "opts": {
+        "A": "Where",
+        "B": "Set",
+        "C": "In",
+        "D": "Select"
+      },
+      "flags": []
+    },
+    {
+      "no": 28,
+      "q": "In relational algebra, for select operation the __________ appear in the subscript and the __________ argument appears in the parenthesis after the sigma.",
+      "opts": {
+        "A": "Predicates, relation",
+        "B": "Relation, Predicates",
+        "C": "Operation, Predicates",
+        "D": "Relation, Operation"
+      },
+      "flags": []
+    },
+    {
+      "no": 29,
+      "q": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of",
+      "opts": {
+        "A": "Checkpoint facility",
+        "B": "Backup facility",
+        "C": "Recovery manager",
+        "D": "Database change log"
+      },
+      "flags": []
+    },
+    {
+      "no": 30,
+      "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies:\nA → B\nB → C\nBC → A\nA → D\nE → A\nD → E\nWhich of the following is not a key?",
+      "opts": {
+        "A": "A",
+        "B": "E",
+        "C": "B,C",
+        "D": "D"
+      },
+      "flags": []
+    },
+    {
+      "no": 31,
+      "q": "Which of the following is used to insert a tuple from another relation.",
+      "opts": {
+        "A": "INSERT INTO course (courseid, title, deptname, credits)\nVALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);",
+        "B": "INSERT INTO instructor\nSELECT ID, name, deptname, 18000\nFROM student\nWHERE deptname = ’Music’ AND totcred > 144;",
+        "C": "INSERT INTO course VALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 32,
+      "q": "Which of the following protocols ensures conflict serializability and safety from deadlocks?",
+      "opts": {
+        "A": "Two-phase locking protocol",
+        "B": "Time-stamp ordering protocol",
+        "C": "Graph based protocol",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 33,
+      "q": "If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an __________ on all the records belonging to that file.",
+      "opts": {
+        "A": "Explicit lock in exclusive mode",
+        "B": "Implicit lock in shared mode",
+        "C": "Explicit lock in shared mode",
+        "D": "Implicit lock in exclusive mode"
+      },
+      "flags": []
+    },
+    {
+      "no": 34,
+      "q": "A top to bottom relationship among the items in a database is established by a:",
+      "opts": {
+        "A": "Hierarchical Schema",
+        "B": "Relational Schema",
+        "C": "Network Schema",
+        "D": "Distributed Schema"
+      },
+      "flags": []
+    },
+    {
+      "no": 35,
+      "q": "The level of data abstraction which describes how the data is actually stored is:",
+      "opts": {
+        "A": "Physical level",
+        "B": "Conceptual level",
+        "C": "External level",
+        "D": "View level"
+      },
+      "flags": []
+    },
+    {
+      "no": 36,
+      "q": "Which layer is responsible for process to process delivery?",
+      "opts": {
+        "A": "network layer",
+        "B": "transport layer",
+        "C": "session layer",
+        "D": "data link layer"
+      },
+      "flags": []
+    },
+    {
+      "no": 37,
+      "q": "Which layers of the OSI model are host-to-host layers?",
+      "opts": {
+        "A": "Transport, Session, Presentation, Application",
+        "B": "Network, Transport, Session, Presentation",
+        "C": "Datalink, Network, Transport, Session",
+        "D": "Physical, Datalink, Network, Transport"
+      },
+      "flags": []
+    },
+    {
+      "no": 38,
+      "q": "In OSI network architecture, the routing is performed by",
+      "opts": {
+        "A": "session layer",
+        "B": "application layer",
+        "C": "Network layer",
+        "D": "Transport layer"
+      },
+      "flags": []
+    },
+    {
+      "no": 39,
+      "q": "Which multiplexing technique transmits digital signals?",
+      "opts": {
+        "A": "FDM",
+        "B": "TDM",
+        "C": "WDM",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 40,
+      "q": "In __________ TDM, slots are dynamically allocated to improve bandwidth efficiency.",
+      "opts": {
+        "A": "synchronous",
+        "B": "statistical",
+        "C": "isochronous",
+        "D": "asynchronous"
+      },
+      "flags": []
+    }
+  ]
+}

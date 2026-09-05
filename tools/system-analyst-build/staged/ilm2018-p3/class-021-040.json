@@ -1,0 +1,182 @@
+[
+ {
+  "no": 21,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Tests the SQL LIKE pattern wildcards '_' and '%' in a string-matching predicate; a basic SQL query-statement topic.",
+  "confidence": "high"
+ },
+ {
+  "no": 22,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks for the SQL built-in string function that strips trailing spaces (RTRIM/TRIM) — SQL built-in functions used in query statements.",
+  "confidence": "high"
+ },
+ {
+  "no": 23,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks which join type retains non-matching rows (outer join). Join types are part of basic SQL query statements.",
+  "confidence": "high"
+ },
+ {
+  "no": 24,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "AGE computed from DATE_OF_BIRTH is the textbook definition of a derived attribute, an Entity-Relationship modelling concept.",
+  "confidence": "high"
+ },
+ {
+  "no": 25,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Standard textbook line about updates violating integrity constraints being disallowed; integrity constraints on keys/domains belong to the relational model leaf. Could arguably sit under SQL instead, hence not full confidence.",
+  "confidence": "medium"
+ },
+ {
+  "no": 26,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Classifies an INSERT INTO ... VALUES statement (a DML statement). Straight SQL statement identification.",
+  "confidence": "high"
+ },
+ {
+  "no": 27,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Fill in the SQL keyword (SET) in an UPDATE statement — basic SQL query/DML statement syntax.",
+  "confidence": "high"
+ },
+ {
+  "no": 28,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Relational algebra select (sigma): predicate in the subscript, relation argument in parentheses. Explicitly the relational algebra part of this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 29,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "Describes checkpointing — suspending processing to synchronize data files with the log/journal — which is recovery machinery under transaction processing and recoverability.",
+  "confidence": "high"
+ },
+ {
+  "no": 30,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Given a set of functional dependencies over R(A,B,C,D,E), identify which attribute set is not a key — closure/candidate-key computation from FDs.",
+  "confidence": "high"
+ },
+ {
+  "no": 31,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks which construct inserts tuples drawn from another relation (INSERT INTO ... SELECT) — basic SQL statement form.",
+  "confidence": "high"
+ },
+ {
+  "no": 32,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Concurrency control, locking and time stamping",
+  "why": "Asks which concurrency-control protocol guarantees conflict serializability and freedom from deadlock (tree/graph-based or timestamp protocol).",
+  "confidence": "high"
+ },
+ {
+  "no": 33,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Concurrency control, locking and time stamping",
+  "why": "Multiple-granularity locking: an explicit exclusive lock on a file confers an implicit lock on its records. Locking protocol content.",
+  "confidence": "high"
+ },
+ {
+  "no": 34,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "A 'top to bottom' relationship among database items is the hierarchical data model; the leaf opens with 'Data models', which covers the classical model taxonomy. Fit is arguable because the leaf's detail is relational-specific.",
+  "confidence": "medium"
+ },
+ {
+  "no": 35,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "why": "The abstraction level describing how data is actually stored is the physical/internal level — three-schema architecture and data independence.",
+  "confidence": "high"
+ },
+ {
+  "no": 36,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Process-to-process delivery is the OSI/TCP-IP transport layer. This is general data communications and networking; the 2026 syllabus has no networking unit, and TECH2 Unit 2's web leaf covers HTTP/HTTPS/DNS and client-server web architecture, not the OSI layer model.",
+  "confidence": "high"
+ },
+ {
+  "no": 37,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Identifying the host-to-host layers of the OSI reference model is general data communications/networking, which no unit of TECH1 or TECH2 covers.",
+  "confidence": "high"
+ },
+ {
+  "no": 38,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Routing and the OSI network layer — data communications and networking. Routing is explicitly outside the web-architecture leaf, which is about HTTP/HTTPS, DNS and hosting.",
+  "confidence": "high"
+ },
+ {
+  "no": 39,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Multiplexing techniques for digital signals (TDM vs FDM/WDM) are physical-layer data communications; no 2026 unit covers transmission or multiplexing.",
+  "confidence": "high"
+ },
+ {
+  "no": 40,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Statistical/asynchronous TDM slot allocation — data communications, outside every TECH1 and TECH2 unit.",
+  "confidence": "high"
+ }
+]

@@ -1,0 +1,614 @@
+[
+ {
+  "no": 1,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "Database __________, which is the logical design of the database, and the database __________, which is a snapshot of the data in the database at a given instant in time.",
+  "opts": {
+   "A": "Instance, Schema",
+   "B": "Relation, Schema",
+   "C": "Relation, Domain",
+   "D": "Schema, Instance"
+  },
+  "ans": "D",
+  "exp": "The schema is the logical design of the database — the structure of the relations, fixed at design time and rarely changed. The instance is the set of data actually held at a particular moment, a snapshot that changes with every insert and delete. Option A is the same pair in the wrong order, which is the trap: it puts the snapshot where the design belongs.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 2,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A domain is atomic if elements of the domain are considered to be __________ units.",
+  "opts": {
+   "A": "Different",
+   "B": "Indivisible",
+   "C": "Constant",
+   "D": "Divisible"
+  },
+  "ans": "B",
+  "exp": "A domain is atomic when its values are treated as indivisible units — the DBMS never looks inside a value for component parts. A set-valued or composite domain (say a phone-number list) is non-atomic and violates first normal form. 'Divisible' (D) states the exact opposite of the definition.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 3,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A attribute in a relation is a foreign key if the __________ key from one relation is used as an attribute in that relation.",
+  "opts": {
+   "A": "Candidate",
+   "B": "Primary",
+   "C": "Super",
+   "D": "Sub"
+  },
+  "ans": "B",
+  "exp": "A foreign key is an attribute in one relation whose values are drawn from the primary key of another (the referenced) relation, which is what makes referential integrity checkable. 'Candidate' (A) is tempting because the primary key is itself a candidate key, but the standard definition names the primary key specifically — a foreign key references the declared primary key, not any arbitrary candidate key.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 4,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
+  "opts": {
+   "A": "Referential",
+   "B": "Referencing",
+   "C": "Specific",
+   "D": "Primary"
+  },
+  "ans": "A",
+  "exp": "That is the textbook statement of a referential integrity constraint: values in the referencing relation must actually exist in the referenced relation, so no dangling reference is possible. 'Referencing' (B) names one of the two relations involved rather than the constraint itself, and 'Primary' (D) describes a key constraint on a single relation, not a cross-relation one.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 5,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Which one of the following is a procedural language ?",
+  "opts": {
+   "A": "Domain relational calculus",
+   "B": "Tuple relational calculus",
+   "C": "Relational algebra",
+   "D": "Query language"
+  },
+  "ans": "C",
+  "exp": "Relational algebra is procedural: a query is written as a sequence of operations (select, project, join) that says how to compute the result. Tuple and domain relational calculus are non-procedural — they describe what the result should contain without prescribing an evaluation order — so A and B are the classic traps here.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 6,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Identify which of the following operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.",
+  "opts": {
+   "A": "Join",
+   "B": "Cartesian product",
+   "C": "Intersection",
+   "D": "Set difference"
+  },
+  "ans": "B",
+  "exp": "The Cartesian product pairs every tuple of one relation with every tuple of the other, with no matching condition at all, giving m x n tuples. Join (A) is the trap: a join is exactly a Cartesian product followed by a selection on matching attribute values, so it keeps only the pairs that match.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 7,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "The basic data type char(n) is a __________ length character string and varchar(n) is __________ length character.",
+  "opts": {
+   "A": "Fixed, equal",
+   "B": "Equal, variable",
+   "C": "Fixed, variable",
+   "D": "Variable, equal"
+  },
+  "ans": "C",
+  "exp": "char(n) is a fixed-length string of exactly n characters, padded with blanks if the value is shorter; varchar(n) is a variable-length string of at most n characters, storing only what is supplied. Options using 'equal' are not standard SQL terminology for either type.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 8,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "To remove a relation from an SQL database, we use the __________ command.",
+  "opts": {
+   "A": "Delete",
+   "B": "Purge",
+   "C": "Remove",
+   "D": "Drop table"
+  },
+  "ans": "D",
+  "exp": "DROP TABLE removes the relation itself — both the tuples and the schema definition — from the database. DELETE (A) is the trap: it removes tuples but leaves an empty relation with its schema still defined. 'Purge' and 'Remove' are not SQL commands for this.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 9,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "__________ clause is an additional filter that is applied to the result.",
+  "opts": {
+   "A": "Select",
+   "B": "Group-by",
+   "C": "Having",
+   "D": "Order by"
+  },
+  "ans": "C",
+  "exp": "HAVING filters the groups produced after grouping and aggregation, so it acts as an extra filter applied to the result of GROUP BY, unlike WHERE which filters tuples before grouping. GROUP BY (B) is the trap: it forms the groups but does not itself discard anything, and ORDER BY only sorts.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 10,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the MilleniumCenter building which is in department relation.",
+  "opts": {
+   "A": "DELETE FROM instructor\nWHERE dept_name IN ‘ MilleniumCenter ‘;",
+   "B": "DELETE FROM department\nWHERE building=’ MilleniumCenter ‘;",
+   "C": "DELETE FROM instructor\nWHERE dept_name IN (SELECT dept name\nFROM department\nWHERE building = ’ MilleniumCenter’);",
+   "D": "None of these"
+  },
+  "ans": "C",
+  "exp": "Only option C deletes from the instructor relation while getting the department names from a subquery over department where building = 'MilleniumCenter', which is exactly what the question asks. B is the trap: it deletes departments, not instructors; A compares dept_name directly to the building name and has no subquery at all. Note the paper misprints 'dept name' without the underscore inside the subquery, but C is still the only structurally correct choice.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 11,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "q": "In order to undo the work of transaction after last commit which one should be used?",
+  "opts": {
+   "A": "View",
+   "B": "Commit",
+   "C": "Rollback",
+   "D": "Flashback"
+  },
+  "ans": "C",
+  "exp": "ROLLBACK undoes all the updates a transaction has made since the last COMMIT, restoring the database to that last committed point, which is the standard SQL answer. Flashback (D) is the genuine alternative reading — it is the Oracle-specific feature for recovering data that has already been committed — so if the examiner meant 'undo work that was itself committed', D would be intended; the wording is ambiguous, hence medium confidence.",
+  "conf": "medium",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 12,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "To include integrity constraint in a existing relation use :",
+  "opts": {
+   "A": "Create table",
+   "B": "Modify table",
+   "C": "Alter table",
+   "D": "Drop table"
+  },
+  "ans": "C",
+  "exp": "ALTER TABLE modifies an existing relation's definition, including adding a constraint such as PRIMARY KEY, FOREIGN KEY or CHECK. CREATE TABLE (A) is the trap: it can declare constraints, but only while defining a brand-new relation, not on one that already exists.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 13,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "q": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
+  "opts": {
+   "A": "Strong entity set",
+   "B": "Variant set",
+   "C": "Weak entity set",
+   "D": "Variable set"
+  },
+  "ans": "C",
+  "exp": "An entity set lacking enough attributes of its own to form a primary key is a weak entity set; it is identified by a discriminator combined with the primary key of the identifying (owner) strong entity set. A strong entity set (A) is the opposite — by definition it does have a sufficient primary key.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 14,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "In the __________ normal form, a composite attribute is converted to individual attributes.",
+  "opts": {
+   "A": "First",
+   "B": "Second",
+   "C": "Third",
+   "D": "Fourth"
+  },
+  "ans": "A",
+  "exp": "First normal form requires every attribute to be atomic, so a composite attribute (such as an address holding street, city and state) must be broken into separate individual attributes. Second normal form (B) is the trap: it concerns removing partial dependencies on part of a composite key, which is a different issue from composite attributes.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 15,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "Empdt1(empcode, name, street, city, state,pincode).\nFor any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, Empdt1 is a relation in",
+  "opts": {
+   "A": "1 NF only",
+   "B": "2 NF and hence also in 1 NF",
+   "C": "3NF and hence also in 2NF and 1NF",
+   "D": "BCNF and hence also in 3NF, 2NF and 1NF"
+  },
+  "ans": "B",
+  "exp": "The key is empcode; since it is a single attribute there can be no partial dependency, so the relation is automatically in 2NF. But empcode determines pincode and pincode determines city and state, a transitive dependency on the key, so 3NF fails — making C and D wrong.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 16,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "q": "Each modification done in database transaction are first recorded into the",
+  "opts": {
+   "A": "Hard drive",
+   "B": "Log",
+   "C": "Disk",
+   "D": "Datamart"
+  },
+  "ans": "B",
+  "exp": "Under write-ahead logging, every modification is first written as a record to the log before the change is applied to the database itself, which is what makes undo and redo recovery possible after a crash. 'Disk' (C) and 'Hard drive' (A) are tempting because the log ultimately lives on stable storage, but they name the medium rather than the structure the question is after.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 17,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "Which of the following is not a Armstrong’s Axiom?",
+  "opts": {
+   "A": "Reflexivity rule",
+   "B": "Transitivity rule",
+   "C": "Pseudotransitivity rule",
+   "D": "Augmentation rule"
+  },
+  "ans": "C",
+  "exp": "Armstrong's axioms are exactly three: reflexivity, augmentation and transitivity, and they are sound and complete for functional dependencies. Pseudotransitivity is a derived rule proved from those three, useful in practice but not itself an axiom — the trap is that it is a legitimate inference rule, just not part of the axiom set.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 18,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "The subset of super key is a candidate key under what condition?",
+  "opts": {
+   "A": "No proper subset is a super key",
+   "B": "All subsets are super keys",
+   "C": "Subset is a super key",
+   "D": "Each subset is a super key"
+  },
+  "ans": "A",
+  "exp": "A candidate key is a minimal superkey: it determines every attribute, and no proper subset of it is still a superkey. Options B, C and D all assert that subsets remain superkeys, which is precisely the condition that would make the set non-minimal and therefore not a candidate key.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 19,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas?",
+  "opts": {
+   "A": "DML(Data Manipulation Langauge)",
+   "B": "DDL(Data Definition Langauge)",
+   "C": "Query",
+   "D": "Relational Schema"
+  },
+  "ans": "B",
+  "exp": "DDL statements (CREATE TABLE, DROP TABLE, ALTER TABLE) are exactly what define a relation's structure, delete relations, and declare the schema-level links between them. DML (option A) only manipulates the rows inside an already-defined relation, so it cannot create or drop the relation itself. The paper misspells 'Language' as 'Langauge' in both A and B; this does not change the answer.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 20,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value “Reed” .Here attribute A has __________ spaces and attribute B has __________ spaces.",
+  "opts": {
+   "A": "3, 20",
+   "B": "20, 4",
+   "C": "20 , 20",
+   "D": "3, 4"
+  },
+  "ans": "A",
+  "exp": "varchar(20) is variable-length, so 'Avi' occupies only the 3 character positions actually supplied. char(20) is fixed-length and blank-pads the value, so 'Reed' still occupies all 20 positions. The tempting option D (3, 4) treats char like varchar and forgets the padding, which is the entire distinction the question is testing.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 21,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "’_ _ _ ’ matches any string of __________ three characters. ’_ _ _ %’ matches any string of at __________ three characters.",
+  "opts": {
+   "A": "Atleast, Exactly",
+   "B": "Exactly, Atleast",
+   "C": "Atleast, All",
+   "D": "All , Exactly"
+  },
+  "ans": "B",
+  "exp": "In a SQL LIKE pattern each underscore matches exactly one character, so '_ _ _' matches strings of exactly three characters. Appending '%', which matches any run of zero or more characters, makes '_ _ _ %' match strings of at least three characters. Option A simply reverses the two, which is the classic trap here.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 22,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "In SQL the spaces at the end of the string are removed by __________ function .",
+  "opts": {
+   "A": "Upper",
+   "B": "String",
+   "C": "Trim",
+   "D": "Lower"
+  },
+  "ans": "C",
+  "exp": "SQL's trim() function strips padding blanks from a string — trim(trailing from x) removes exactly the spaces at the end. Upper and lower (A, D) only change letter case and leave any trailing blanks untouched, and 'String' is not a SQL function at all.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 23,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "What type of join is needed when you wish to include rows that do not have matching values?",
+  "opts": {
+   "A": "Equi-join",
+   "B": "Natural join",
+   "C": "Outer join",
+   "D": "All of these"
+  },
+  "ans": "C",
+  "exp": "An outer join is defined precisely to retain tuples that have no matching counterpart, padding the missing side with nulls. Equi-join and natural join (A, B) are inner joins and silently discard unmatched rows, so 'All of these' (D) is wrong for the same reason.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 24,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "q": "The attribute AGE is calculated from DATE_OF_BIRTH . The attribute AGE is",
+  "opts": {
+   "A": "Single valued",
+   "B": "Multi valued",
+   "C": "Composite",
+   "D": "Derived"
+  },
+  "ans": "D",
+  "exp": "A derived attribute is one whose value is computed from other stored data rather than stored itself; AGE computed from DATE_OF_BIRTH is the textbook example in ER modelling. 'Single valued' (A) is also true of AGE, but it describes cardinality and would be equally true of DATE_OF_BIRTH — it does not capture what the question is pointing at.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 25,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Updates that violate __________ are disallowed.",
+  "opts": {
+   "A": "Integrity constraints",
+   "B": "Transaction control",
+   "C": "Authorization",
+   "D": "DDL constraints"
+  },
+  "ans": "A",
+  "exp": "Integrity constraints — primary key, foreign key, not null, check — are the conditions the DBMS enforces on every modification, and any update that would violate one is rejected. Authorization (C) is the tempting alternative but it decides who is permitted to issue an update, not whether the resulting database state is legal.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 26,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "Insert into instructor values (10211, ’Smith’, ’Biology’, 66000);\nWhat type of statement is this ?",
+  "opts": {
+   "A": "DLL",
+   "B": "DML",
+   "C": "Relational",
+   "D": "DDL"
+  },
+  "ans": "B",
+  "exp": "INSERT adds rows to an existing relation without changing its structure, which makes it a Data Manipulation Language statement. DDL (D) covers CREATE, ALTER and DROP, none of which is happening here; option A's 'DLL' is not an SQL sub-language at all — the paper genuinely prints DLL and DDL as two separate options.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 27,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "Fill in with correct keyword to update the instructor relation.\nUPDATE instructor __________ salary= salary * 1.05;",
+  "opts": {
+   "A": "Where",
+   "B": "Set",
+   "C": "In",
+   "D": "Select"
+  },
+  "ans": "B",
+  "exp": "The UPDATE syntax is UPDATE <relation> SET <column> = <expression> [WHERE ...], so SET is the keyword that introduces the assignment salary = salary * 1.05. WHERE (A) is the tempting pick but it only filters which rows are affected and cannot carry an assignment; with no WHERE clause every instructor simply gets the 5% raise.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 28,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "In relational algebra, for select operation the __________ appear in the subscript and the __________ argument appears in the parenthesis after the sigma.",
+  "opts": {
+   "A": "Predicates, relation",
+   "B": "Relation, Predicates",
+   "C": "Operation, Predicates",
+   "D": "Relation, Operation"
+  },
+  "ans": "A",
+  "exp": "The select operation is written sigma with the selection predicate as a subscript and the relation as the argument in parentheses, e.g. sigma(dept_name='Physics')(instructor). Option B swaps the two, which would put the relation in the subscript — that is the notation for the projection's attribute list, not for select's operand.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 29,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "q": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of",
+  "opts": {
+   "A": "Checkpoint facility",
+   "B": "Backup facility",
+   "C": "Recovery manager",
+   "D": "Database change log"
+  },
+  "ans": "A",
+  "exp": "A checkpoint is exactly this mechanism: the DBMS temporarily suspends transaction processing, flushes buffered log and data pages to disk, and writes a checkpoint record so that recovery need not replay the log from the beginning. The database change log (D) is the file being synchronized, not the facility that periodically performs the synchronization.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 30,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies:\nA → B\nB → C\nBC → A\nA → D\nE → A\nD → E\nWhich of the following is not a key?",
+  "opts": {
+   "A": "A",
+   "B": "E",
+   "C": "B,C",
+   "D": "D"
+  },
+  "ans": "C",
+  "exp": "Take closures: A+ gives B, then C, plus D and hence E, so A is a key; E+ gives A and then everything; D+ gives E, then A, then all. Crucially B alone is already a key (B gives C, so BC gives A, then D, then E), which means {B,C} has a proper subset that is a superkey and is therefore not a minimal key. D is the tempting answer because it appears on the right-hand side of A -> D, but D -> E -> A closes the cycle and makes D a genuine key.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 31,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "Which of the following is used to insert a tuple from another relation.",
+  "opts": {
+   "A": "INSERT INTO course (courseid, title, deptname, credits)\nVALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);",
+   "B": "INSERT INTO instructor\nSELECT ID, name, deptname, 18000\nFROM student\nWHERE deptname = ’Music’ AND totcred > 144;",
+   "C": "INSERT INTO course VALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);",
+   "D": "None of these"
+  },
+  "ans": "B",
+  "exp": "Only the INSERT ... SELECT form copies tuples out of another relation — here rows are drawn from student and inserted into instructor. Options A and C both use VALUES, which supplies a single literal tuple typed by hand rather than sourced from a relation. The paper prints the identifiers with underscores and spaces missing (courseid, deptname, totcred, 'DATABASESystems', 'CompSci.'); the question is answered as printed since the structural difference between VALUES and SELECT is unaffected.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 32,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Concurrency control, locking and time stamping",
+  "q": "Which of the following protocols ensures conflict serializability and safety from deadlocks?",
+  "opts": {
+   "A": "Two-phase locking protocol",
+   "B": "Time-stamp ordering protocol",
+   "C": "Graph based protocol",
+   "D": "None of these"
+  },
+  "ans": "B",
+  "exp": "The timestamp-ordering protocol ensures conflict serializability, and it is free of deadlock because no transaction ever waits: an operation arriving out of timestamp order is rejected and its transaction is rolled back and restarted rather than blocked. Two-phase locking (A) guarantees conflict serializability but is famously deadlock-prone, which is the trap this question sets. Be aware that the graph-based (tree) protocol in (C) is ALSO conflict-serializable and deadlock-free in Silberschatz's treatment, so this question has two textbook-defensible answers and MPSC could have marked it either way.",
+  "conf": "medium",
+  "note": "Two defensible answers. Silberschatz states deadlock freedom for the timestamp-ordering protocol (\"no transaction ever waits\") and, separately, for the graph-based tree protocol (\"ensures conflict serializability as well as freedom from deadlock\"). The two independent solvers of this paper both chose (C) graph-based, each at medium confidence. It is keyed (B) here to agree with TECH1_CSE_134 — the same question already in the bank, whose (B) was upheld by two independent adjudicators in the 2026-09-02 answer-key audit after that audit explicitly considered and rejected (C). Recorded rather than reconciled away, because the ambiguity is real. Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 33,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Concurrency control, locking and time stamping",
+  "q": "If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an __________ on all the records belonging to that file.",
+  "opts": {
+   "A": "Explicit lock in exclusive mode",
+   "B": "Implicit lock in shared mode",
+   "C": "Explicit lock in shared mode",
+   "D": "Implicit lock in exclusive mode"
+  },
+  "ans": "D",
+  "exp": "Under multiple-granularity locking, an explicit lock on a coarser node of the hierarchy implicitly locks every node beneath it in the same mode, so an exclusive lock on file Fc implicitly X-locks all records in that file. Option B is the trap: the implicit lock inherits the mode of the explicit lock, so it is exclusive, not shared.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 34,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A top to bottom relationship among the items in a database is established by a:",
+  "opts": {
+   "A": "Hierarchical Schema",
+   "B": "Relational Schema",
+   "C": "Network Schema",
+   "D": "Distributed Schema"
+  },
+  "ans": "A",
+  "exp": "The hierarchical model arranges records as a parent-child tree in which every child has exactly one parent, which is precisely a top-to-bottom relationship among items. The network schema (C) is the tempting alternative, but it permits a record to have several owners, producing a general graph rather than a strict top-down ordering.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 35,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "The level of data abstraction which describes how the data is actually stored is:",
+  "opts": {
+   "A": "Physical level",
+   "B": "Conceptual level",
+   "C": "External level",
+   "D": "View level"
+  },
+  "ans": "A",
+  "exp": "In the three-level ANSI/SPARC architecture, the physical (internal) level describes how the data is actually stored — file organization, block layout, indexes. The conceptual level (B) describes what data is stored and how entities relate, deliberately hiding storage detail, and the external/view level (C, D) shows only a user-specific slice.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ },
+ {
+  "no": 53,
+  "paper": "TECH2",
+  "unit": "4",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "When collection of various computers seems a single coherent system to its client, then it is called",
+  "opts": {
+   "A": "computer network",
+   "B": "distributed system",
+   "C": "networking system",
+   "D": "none of these"
+  },
+  "ans": "B",
+  "exp": "Tanenbaum's standard definition of a distributed system is a collection of independent computers that appears to its users as a single coherent system, which is word-for-word what the question describes. A computer network (A) also interconnects machines, but it deliberately exposes them as separate machines the user must address individually — the transparency that makes the collection look like one system is what distinguishes the distributed system.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (36 of 100)."
+ }
+]

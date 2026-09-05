@@ -1,0 +1,110 @@
+[
+ {
+  "no": 19,
+  "ans": "B",
+  "conf": "high",
+  "exp": "Defining the structure of a relation, dropping relations and altering schemas are all schema-level operations, which is exactly what a Data Definition Language does (CREATE TABLE, DROP TABLE, ALTER TABLE). DML (option A) is the tempting pick because the question says 'deleting relations', but DML's DELETE removes tuples from inside a relation; removing the relation itself is DROP, a DDL statement. The question is printed with typos ('relating schemas', 'Langauge') but the intent is unambiguous."
+ },
+ {
+  "no": 20,
+  "ans": "A",
+  "conf": "high",
+  "exp": "varchar(n) is variable-length, so it stores only the characters actually supplied: 'Avi' occupies 3 positions. char(n) is fixed-length and pads the value with trailing blanks out to the declared width, so 'Reed' in a char(20) occupies all 20. Option D (3, 4) is the trap for anyone who treats char like varchar and counts only the four letters of 'Reed'."
+ },
+ {
+  "no": 21,
+  "ans": "B",
+  "conf": "high",
+  "exp": "In SQL's LIKE patterns the underscore matches exactly one character, so three underscores match a string of exactly three characters. Appending % — which matches any substring of zero or more characters — relaxes the pattern to at least three characters, which is why the second blank is completed by the printed word 'at'. Option A simply reverses the two, and it also breaks the sentence, since 'at exactly' is not the phrase printed."
+ },
+ {
+  "no": 22,
+  "ans": "C",
+  "conf": "high",
+  "exp": "The SQL trim function strips padding characters from a string; trim(trailing from x) removes the spaces at the end, and plain trim(x) removes leading and trailing blanks. Upper and lower (options A and D) only change letter case and leave every space untouched, and 'String' is not an SQL function at all."
+ },
+ {
+  "no": 23,
+  "ans": "C",
+  "conf": "high",
+  "exp": "An outer join is defined precisely by preserving rows that find no match on the other side, padding the missing columns with NULLs. Equi-join and natural join are both inner joins and discard unmatched rows, so 'All of these' (option D) is wrong for exactly that reason."
+ },
+ {
+  "no": 24,
+  "ans": "D",
+  "conf": "high",
+  "exp": "AGE is not stored independently; it is computed from the stored DATE_OF_BIRTH, which is the definition of a derived attribute (drawn as a dashed ellipse in ER diagrams). Single valued (option A) is tempting because a person has only one age, but that describes cardinality, not where the value comes from — a derived attribute is also single valued, and the property the question is testing is derivation."
+ },
+ {
+  "no": 25,
+  "ans": "A",
+  "conf": "high",
+  "exp": "Integrity constraints (primary key, foreign key, NOT NULL, CHECK) are the rules the DBMS enforces on data values, and any insert or update that would violate one is rejected. Authorization (option C) is the tempting alternative, but it decides whether a given user is permitted to attempt the update at all, not whether the resulting data would be valid."
+ },
+ {
+  "no": 26,
+  "ans": "B",
+  "conf": "high",
+  "exp": "INSERT adds rows to an existing table, so it manipulates data rather than defining structure — it is a Data Manipulation Language statement. Option D (DDL) is the trap: DDL covers CREATE, ALTER and DROP, which change the schema, not the contents. Option A is printed as 'DLL', which is not an SQL category at all."
+ },
+ {
+  "no": 27,
+  "ans": "B",
+  "conf": "high",
+  "exp": "The UPDATE syntax is UPDATE <table> SET <column> = <expression> [WHERE ...], so the keyword introducing the assignment salary = salary * 1.05 is SET. WHERE (option A) is the tempting pick because it commonly follows the table name in other statements, but WHERE only filters which rows are affected and cannot carry an assignment; with no WHERE clause here, every instructor simply gets the 5% raise."
+ },
+ {
+  "no": 28,
+  "ans": "A",
+  "conf": "high",
+  "exp": "The select operation is written sigma with the selection predicate as a subscript and the relation in parentheses, as in sigma(salary > 90000)(instructor). So the predicate is the subscript and the relation is the parenthesised argument. Option B reverses the two, which would describe no valid relational-algebra notation."
+ },
+ {
+  "no": 29,
+  "ans": "A",
+  "conf": "high",
+  "exp": "A checkpoint is exactly the operation described: the DBMS temporarily suspends transaction processing, flushes dirty buffers to disk and writes a checkpoint record to the log, so files and journals are synchronised and recovery need not scan the whole log. The database change log (option D) is the file being synchronised, not the facility that performs the synchronisation, and a backup facility copies the database rather than reconciling it with the log."
+ },
+ {
+  "no": 30,
+  "ans": "C",
+  "conf": "high",
+  "exp": "Taking closures: A+ gives B (A->B), then C (B->C), D (A->D) and E (D->E), so A is a key; E+ gives A (E->A) and then everything A gives, so E is a key; D+ gives E (D->E) and then everything E gives, so D is a key. B alone is already a key, because B->C yields C, then BC->A yields A, then A->D and D->E — so {B,C} does determine all attributes but has a proper subset (B) that is itself a superkey, making {B,C} a superkey and not a candidate key. Option D is the tempting answer since D appears only on the right of A->D and the left of D->E, but that single arrow is enough to cascade through E and A to the whole relation."
+ },
+ {
+  "no": 31,
+  "ans": "B",
+  "conf": "high",
+  "exp": "Only option B uses the INSERT INTO ... SELECT form, which draws its tuples from another relation (here selecting from student to populate instructor) instead of listing literals. Option C is the tempting near-miss: it is a valid insert, but VALUES supplies a hand-written tuple rather than reading one from another relation. The options are printed with the underscores missing from course_id, dept_name and tot_cred and with spacing lost in the literals, but that misprint affects every option equally and does not change which form reads from another relation."
+ },
+ {
+  "no": 32,
+  "ans": "C",
+  "conf": "medium",
+  "exp": "Graph-based protocols such as the tree protocol impose a partial ordering on data items and let a transaction lock an item only if it holds a lock on the parent, which guarantees conflict-serializable schedules and, because locks are always acquired in the same downward order, freedom from deadlock. Two-phase locking (option A) is the classic trap: it does ensure conflict serializability but says nothing about deadlocks and routinely deadlocks. Confidence is medium rather than high because timestamp ordering (option B) is also conflict-serializable and deadlock-free (it rolls transactions back instead of making them wait), so the question has two defensible answers; the phrasing matches the standard textbook sentence about the tree protocol, which is why C is chosen."
+ },
+ {
+  "no": 33,
+  "ans": "D",
+  "conf": "high",
+  "exp": "This is the multiple-granularity locking rule: a lock taken explicitly at a coarse level is inherited implicitly by everything below it, and the inherited lock is in the same mode as the explicit one. So an explicit exclusive lock on file Fc gives Ti an implicit exclusive lock on every record in that file. Option A is the trap — the record-level locks are never requested explicitly, which is the whole point of locking the file instead, and option B wrongly weakens the mode to shared."
+ },
+ {
+  "no": 34,
+  "ans": "A",
+  "conf": "high",
+  "exp": "A hierarchical schema organises data as a tree of parent-child (owner-member) links, which is precisely a top-to-bottom relationship among items. The network schema (option C) is the tempting alternative because it also uses explicit links, but it permits a record to have several parents, forming a general graph rather than a strict top-down hierarchy."
+ },
+ {
+  "no": 35,
+  "ans": "A",
+  "conf": "high",
+  "exp": "In the three-level ANSI/SPARC abstraction, the physical (internal) level is the lowest and describes how data is actually stored — file organisation, indexes, block layout. The conceptual level (option B) is the tempting distractor, but it describes what data is stored and how it relates, deliberately hiding the storage details, while the external/view level shows only part of the database to a particular user."
+ },
+ {
+  "no": 53,
+  "ans": "B",
+  "conf": "high",
+  "exp": "Tanenbaum's standard definition of a distributed system is a collection of independent computers that appears to its users as a single coherent system, which is the sentence this question paraphrases. Computer network (option A) is the deliberate contrast case: in a plain network the machines remain visibly separate and the user must address each one explicitly, whereas the distributed system hides that separation behind a single-system image."
+ }
+]

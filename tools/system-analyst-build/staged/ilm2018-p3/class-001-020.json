@@ -1,0 +1,182 @@
+[
+ {
+  "no": 1,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "why": "Schema (logical design) versus instance (snapshot at an instant) is the core schema/instance distinction taught as a basic database system concept alongside data independence.",
+  "confidence": "high"
+ },
+ {
+  "no": 2,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Atomic domains — whether domain elements are indivisible — is a property of domains in the relational model, named explicitly in this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 3,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Foreign key defined via the primary key of another relation; this is straight relational-model key terminology.",
+  "confidence": "high"
+ },
+ {
+  "no": 4,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Referential integrity stated in referencing/referenced relation terms is a foreign-key constraint of the relational model. Could arguably sit under SQL constraints, hence medium.",
+  "confidence": "medium"
+ },
+ {
+  "no": 5,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Asks which of relational algebra / tuple calculus / domain calculus is procedural; relational algebra is named verbatim in this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 6,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "All pairs of tuples regardless of matching attribute values is the Cartesian product, a relational algebra operation.",
+  "confidence": "high"
+ },
+ {
+  "no": 7,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "char(n) fixed-length vs varchar(n) variable-length are SQL basic data types. The leaf names SQL but emphasises query statements, so the fit to data types is slightly loose.",
+  "confidence": "medium"
+ },
+ {
+  "no": 8,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Removing a relation is the SQL DROP TABLE statement — basic SQL DDL.",
+  "confidence": "high"
+ },
+ {
+  "no": 9,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "HAVING as an additional filter applied to the grouped result is a basic SQL query clause.",
+  "confidence": "high"
+ },
+ {
+  "no": 10,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks which DELETE statement, including a nested SELECT subquery, is correct — basic SQL, judged as printed despite the mangled quoting and 'dept name' typo in option C.",
+  "confidence": "high"
+ },
+ {
+  "no": 11,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "ROLLBACK to undo a transaction's work is transaction control; sits under transaction processing and recoverability. Could also be read as a plain SQL-command question, hence medium.",
+  "confidence": "medium"
+ },
+ {
+  "no": 12,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Adding an integrity constraint to an existing relation is ALTER TABLE — basic SQL DDL.",
+  "confidence": "high"
+ },
+ {
+  "no": 13,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "An entity set with insufficient attributes for a primary key is a weak entity set, a pure ER modelling term.",
+  "confidence": "high"
+ },
+ {
+  "no": 14,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Which normal form converts a composite attribute into individual attributes (1NF) is directly a normal-forms question.",
+  "confidence": "high"
+ },
+ {
+  "no": 15,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Given the stated functional dependencies on Empdt1, decide the highest normal form it satisfies — functional dependencies and normal forms exactly.",
+  "confidence": "high"
+ },
+ {
+  "no": 16,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "Each modification being recorded first in the log is write-ahead logging, the mechanism behind recoverability. The leaf says 'recoverability' rather than 'recovery/logging', so the match is good but not literal.",
+  "confidence": "medium"
+ },
+ {
+  "no": 17,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Armstrong's Axioms are the inference rules for functional dependencies, named in this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 18,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "A candidate key is a minimal superkey (no proper subset is a superkey) — relational-model key definitions.",
+  "confidence": "high"
+ },
+ {
+  "no": 19,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Defining relation structure, deleting relations and relating schemas is DDL, a part of SQL. Judged as printed despite the garbled 'relating schemas' phrasing and the 'Langauge' misspellings in the options.",
+  "confidence": "high"
+ },
+ {
+  "no": 20,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Blank-padding behaviour of char(20) versus varchar(20) is SQL string data-type semantics. Same slight looseness as Q7: data types rather than query statements.",
+  "confidence": "medium"
+ }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "no": 1,
+    "ans": "D",
+    "conf": "high",
+    "exp": "The schema is the logical design — the structure of the database, which changes rarely; the instance is the actual content at a given moment, which changes with every insert, update and delete. The sentence therefore reads \"database schema ... database instance\", so the pair must be in that order. Option A is the same two words reversed, which is the classic trap: an instance is emphatically not the logical design."
+  },
+  {
+    "no": 2,
+    "ans": "B",
+    "conf": "high",
+    "exp": "A domain is atomic when its values are treated by the DBMS as indivisible — the system never looks inside a value to find component parts. This is exactly the property first normal form demands, which is why a set-valued or composite column breaks 1NF. \"Divisible\" (D) states the opposite, and \"constant\" confuses immutability with atomicity."
+  },
+  {
+    "no": 3,
+    "ans": "B",
+    "conf": "high",
+    "exp": "The standard definition is that an attribute of a relation is a foreign key when the primary key of another (referenced) relation is used as an attribute in it. A candidate key (A) is tempting because a primary key is chosen from among the candidate keys, but the FK reference is defined against the one key actually designated primary, not any candidate. A superkey may carry redundant attributes and is never the target of a foreign key."
+  },
+  {
+    "no": 4,
+    "ans": "A",
+    "conf": "high",
+    "exp": "This is the textbook wording of the referential integrity constraint: values in the referencing relation's attributes must also occur in the referenced relation, which is what prevents dangling foreign-key references. \"Referencing\" (B) names one side of the relationship, not the constraint itself. A primary-key constraint (D) only enforces uniqueness and non-nullity within a single relation and says nothing about matching values across two relations."
+  },
+  {
+    "no": 5,
+    "ans": "C",
+    "conf": "high",
+    "exp": "Relational algebra is procedural — you specify a sequence of operations (select, project, join) that describes how to compute the result. Tuple and domain relational calculus are both non-procedural: they describe what the result should contain without saying how to get it. \"Query language\" (D) is a category, not a specific language, and SQL-style query languages are largely declarative anyway."
+  },
+  {
+    "no": 6,
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Cartesian product combines every tuple of the first relation with every tuple of the second, unconditionally, so its cardinality is the product of the two. A join (A) is the tempting answer because it is built on top of the Cartesian product, but a join then applies a matching predicate and keeps only the pairs that satisfy it — the phrase \"regardless of whether their attribute values match\" rules it out."
+  },
+  {
+    "no": 7,
+    "ans": "C",
+    "conf": "high",
+    "exp": "char(n) is a fixed-length string of exactly n characters — shorter values are padded with blanks — while varchar(n) is a variable-length string that stores only the characters actually supplied, up to a maximum of n. Option A is the trap: it gets char right but calls varchar \"equal\" length, which is just another way of saying fixed and contradicts the whole reason varchar exists."
+  },
+  {
+    "no": 8,
+    "ans": "D",
+    "conf": "high",
+    "exp": "DROP TABLE removes the relation itself — both its tuples and its schema definition — from the database. DELETE (A) is the standard trap: it removes rows but leaves the empty table and its definition in place, so the relation still exists. PURGE and REMOVE are not SQL commands for this purpose."
+  },
+  {
+    "no": 9,
+    "ans": "C",
+    "conf": "high",
+    "exp": "HAVING is applied after grouping and aggregation, so it acts as an additional filter on the grouped result rather than on individual input rows. WHERE would be the filter on rows before grouping, but it is not among the options; GROUP BY (B) forms the groups rather than filtering them, and ORDER BY (D) only sorts and discards nothing."
+  },
+  {
+    "no": 10,
+    "ans": "C",
+    "conf": "high",
+    "exp": "Only option C deletes from the instructor relation while using a subquery on department to find which dept_name values sit in the MilleniumCenter building, which is exactly what the question asks. Option B is the trap: it targets the right building but deletes from department, removing the departments instead of the instructors. Note the paper misprints the subquery's column as \"dept name\" without the underscore; read as intended it is dept_name, and C remains the only option matching the requirement."
+  },
+  {
+    "no": 11,
+    "ans": "C",
+    "conf": "high",
+    "exp": "ROLLBACK discards all the work a transaction has done since its last COMMIT, restoring the database to that committed state. COMMIT (B) does the opposite — it makes the work permanent. FLASHBACK (D) is the tempting distractor but it is an Oracle-specific facility for recovering data from after a commit, whereas the question asks about undoing work that has not yet been committed."
+  },
+  {
+    "no": 12,
+    "ans": "C",
+    "conf": "high",
+    "exp": "ALTER TABLE ... ADD CONSTRAINT is the DDL statement that attaches an integrity constraint to a relation that already exists. CREATE TABLE (A) is the trap, since constraints are commonly written there, but that statement only applies at the moment the relation is first defined. \"MODIFY TABLE\" is not a standard SQL statement — MODIFY appears only as a clause inside ALTER TABLE in some dialects."
+  },
+  {
+    "no": 13,
+    "ans": "C",
+    "conf": "high",
+    "exp": "An entity set whose own attributes cannot uniquely identify its members is a weak entity set; it depends on an identifying (owner) entity set and is identified by that owner's primary key combined with its own discriminator or partial key. A strong entity set (A) is precisely the opposite case — it does have a sufficient primary key of its own. \"Variant set\" and \"variable set\" are not ER-model terms at all."
+  },
+  {
+    "no": 14,
+    "ans": "A",
+    "conf": "high",
+    "exp": "First normal form requires every attribute to hold a single atomic value, so a composite attribute such as Address must be broken into separate attributes (street, city, pincode) to satisfy it. Second normal form (B) is the tempting next step, but 2NF assumes 1NF already holds and deals with a different problem — partial dependency of non-key attributes on part of a composite key."
+  },
+  {
+    "no": 15,
+    "ans": "B",
+    "conf": "high",
+    "exp": "The only candidate key is empcode, since nothing else determines name; because that key is a single attribute there can be no partial dependency, so the relation is automatically in 2NF. It is not in 3NF, however, because pincode -> city, state is a transitive dependency in which pincode is not a superkey and city/state are not prime attributes. That transitive dependency is exactly why option C is wrong even though the relation looks well-behaved."
+  },
+  {
+    "no": 16,
+    "ans": "B",
+    "conf": "high",
+    "exp": "Under write-ahead logging, every modification is written to the log (with the old and new values) before the change is allowed to reach the database itself, which is what makes undo and redo possible after a crash. Options A and C name the physical storage where data pages eventually land, but the log record is written first and is the ordering guarantee the recovery manager relies on."
+  },
+  {
+    "no": 17,
+    "ans": "C",
+    "conf": "high",
+    "exp": "Armstrong's axioms are exactly three — reflexivity, augmentation and transitivity — and they are sound and complete on their own. Pseudotransitivity is a derived rule (like union and decomposition), provable from the three axioms rather than assumed as one, so it is the odd one out. The trap is that pseudotransitivity is genuinely a valid inference rule for functional dependencies, so it looks correct unless you remember the axiom set is only three rules."
+  },
+  {
+    "no": 18,
+    "ans": "A",
+    "conf": "high",
+    "exp": "A candidate key is a minimal superkey: it must determine every attribute, and no proper subset of it may still be a superkey. Options C and D are the traps because they describe a superkey that contains redundant attributes — if a proper subset were itself a superkey, the larger set would not be minimal and so would not qualify as a candidate key."
+  }
+]

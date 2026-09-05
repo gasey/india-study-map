@@ -1,0 +1,110 @@
+[
+  {
+    "no": 19,
+    "ans": "B",
+    "conf": "high",
+    "exp": "DDL statements (CREATE TABLE, DROP TABLE, ALTER TABLE) are exactly what define a relation's structure, delete relations, and declare the schema-level links between them. DML (option A) only manipulates the rows inside an already-defined relation, so it cannot create or drop the relation itself. The paper misspells 'Language' as 'Langauge' in both A and B; this does not change the answer."
+  },
+  {
+    "no": 20,
+    "ans": "A",
+    "conf": "high",
+    "exp": "varchar(20) is variable-length, so 'Avi' occupies only the 3 character positions actually supplied. char(20) is fixed-length and blank-pads the value, so 'Reed' still occupies all 20 positions. The tempting option D (3, 4) treats char like varchar and forgets the padding, which is the entire distinction the question is testing."
+  },
+  {
+    "no": 21,
+    "ans": "B",
+    "conf": "high",
+    "exp": "In a SQL LIKE pattern each underscore matches exactly one character, so '_ _ _' matches strings of exactly three characters. Appending '%', which matches any run of zero or more characters, makes '_ _ _ %' match strings of at least three characters. Option A simply reverses the two, which is the classic trap here."
+  },
+  {
+    "no": 22,
+    "ans": "C",
+    "conf": "high",
+    "exp": "SQL's trim() function strips padding blanks from a string — trim(trailing from x) removes exactly the spaces at the end. Upper and lower (A, D) only change letter case and leave any trailing blanks untouched, and 'String' is not a SQL function at all."
+  },
+  {
+    "no": 23,
+    "ans": "C",
+    "conf": "high",
+    "exp": "An outer join is defined precisely to retain tuples that have no matching counterpart, padding the missing side with nulls. Equi-join and natural join (A, B) are inner joins and silently discard unmatched rows, so 'All of these' (D) is wrong for the same reason."
+  },
+  {
+    "no": 24,
+    "ans": "D",
+    "conf": "high",
+    "exp": "A derived attribute is one whose value is computed from other stored data rather than stored itself; AGE computed from DATE_OF_BIRTH is the textbook example in ER modelling. 'Single valued' (A) is also true of AGE, but it describes cardinality and would be equally true of DATE_OF_BIRTH — it does not capture what the question is pointing at."
+  },
+  {
+    "no": 25,
+    "ans": "A",
+    "conf": "high",
+    "exp": "Integrity constraints — primary key, foreign key, not null, check — are the conditions the DBMS enforces on every modification, and any update that would violate one is rejected. Authorization (C) is the tempting alternative but it decides who is permitted to issue an update, not whether the resulting database state is legal."
+  },
+  {
+    "no": 26,
+    "ans": "B",
+    "conf": "high",
+    "exp": "INSERT adds rows to an existing relation without changing its structure, which makes it a Data Manipulation Language statement. DDL (D) covers CREATE, ALTER and DROP, none of which is happening here; option A's 'DLL' is not an SQL sub-language at all — the paper genuinely prints DLL and DDL as two separate options."
+  },
+  {
+    "no": 27,
+    "ans": "B",
+    "conf": "high",
+    "exp": "The UPDATE syntax is UPDATE <relation> SET <column> = <expression> [WHERE ...], so SET is the keyword that introduces the assignment salary = salary * 1.05. WHERE (A) is the tempting pick but it only filters which rows are affected and cannot carry an assignment; with no WHERE clause every instructor simply gets the 5% raise."
+  },
+  {
+    "no": 28,
+    "ans": "A",
+    "conf": "high",
+    "exp": "The select operation is written sigma with the selection predicate as a subscript and the relation as the argument in parentheses, e.g. sigma(dept_name='Physics')(instructor). Option B swaps the two, which would put the relation in the subscript — that is the notation for the projection's attribute list, not for select's operand."
+  },
+  {
+    "no": 29,
+    "ans": "A",
+    "conf": "high",
+    "exp": "A checkpoint is exactly this mechanism: the DBMS temporarily suspends transaction processing, flushes buffered log and data pages to disk, and writes a checkpoint record so that recovery need not replay the log from the beginning. The database change log (D) is the file being synchronized, not the facility that periodically performs the synchronization."
+  },
+  {
+    "no": 30,
+    "ans": "C",
+    "conf": "high",
+    "exp": "Take closures: A+ gives B, then C, plus D and hence E, so A is a key; E+ gives A and then everything; D+ gives E, then A, then all. Crucially B alone is already a key (B gives C, so BC gives A, then D, then E), which means {B,C} has a proper subset that is a superkey and is therefore not a minimal key. D is the tempting answer because it appears on the right-hand side of A -> D, but D -> E -> A closes the cycle and makes D a genuine key."
+  },
+  {
+    "no": 31,
+    "ans": "B",
+    "conf": "high",
+    "exp": "Only the INSERT ... SELECT form copies tuples out of another relation — here rows are drawn from student and inserted into instructor. Options A and C both use VALUES, which supplies a single literal tuple typed by hand rather than sourced from a relation. The paper prints the identifiers with underscores and spaces missing (courseid, deptname, totcred, 'DATABASESystems', 'CompSci.'); the question is answered as printed since the structural difference between VALUES and SELECT is unaffected."
+  },
+  {
+    "no": 32,
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The graph-based (tree) protocol imposes a partial order on the data items and requires locks to be acquired down that order, so no cyclic wait can ever form: it yields conflict-serializable schedules and is deadlock-free, which is the textbook sentence this question is quoting. Two-phase locking (A) guarantees conflict serializability but is famously deadlock-prone, so it is the main trap. Confidence is medium rather than high because timestamp ordering (B) is also conflict-serializable and deadlock-free — it aborts instead of waiting — so the question is not cleanly single-answer as printed."
+  },
+  {
+    "no": 33,
+    "ans": "D",
+    "conf": "high",
+    "exp": "Under multiple-granularity locking, an explicit lock on a coarser node of the hierarchy implicitly locks every node beneath it in the same mode, so an exclusive lock on file Fc implicitly X-locks all records in that file. Option B is the trap: the implicit lock inherits the mode of the explicit lock, so it is exclusive, not shared."
+  },
+  {
+    "no": 34,
+    "ans": "A",
+    "conf": "high",
+    "exp": "The hierarchical model arranges records as a parent-child tree in which every child has exactly one parent, which is precisely a top-to-bottom relationship among items. The network schema (C) is the tempting alternative, but it permits a record to have several owners, producing a general graph rather than a strict top-down ordering."
+  },
+  {
+    "no": 35,
+    "ans": "A",
+    "conf": "high",
+    "exp": "In the three-level ANSI/SPARC architecture, the physical (internal) level describes how the data is actually stored — file organization, block layout, indexes. The conceptual level (B) describes what data is stored and how entities relate, deliberately hiding storage detail, and the external/view level (C, D) shows only a user-specific slice."
+  },
+  {
+    "no": 53,
+    "ans": "B",
+    "conf": "high",
+    "exp": "Tanenbaum's standard definition of a distributed system is a collection of independent computers that appears to its users as a single coherent system, which is word-for-word what the question describes. A computer network (A) also interconnects machines, but it deliberately exposes them as separate machines the user must address individually — the transparency that makes the collection look like one system is what distinguishes the distributed system."
+  }
+]

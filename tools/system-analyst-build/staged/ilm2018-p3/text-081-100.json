@@ -1,0 +1,225 @@
+{
+  "range": "81-100",
+  "questions": [
+    {
+      "no": 81,
+      "q": "Which chart is a tool that depicts project as network diagram that is capable of graphically representing main events of project in both parallel and consecutive way?",
+      "opts": {
+        "A": "PERT chart",
+        "B": "Gantt chart",
+        "C": "Pie Chart",
+        "D": "Bar Chart"
+      },
+      "flags": []
+    },
+    {
+      "no": 82,
+      "q": "Which is the most important feature of spiral model?",
+      "opts": {
+        "A": "Quality management",
+        "B": "Risk management",
+        "C": "Performance management",
+        "D": "Efficiency management"
+      },
+      "flags": []
+    },
+    {
+      "no": 83,
+      "q": "The model in which the requirements are implemented by its category is __________ .",
+      "opts": {
+        "A": "Evolutionary Development Model",
+        "B": "Waterfall Model",
+        "C": "Prototyping",
+        "D": "Iterative Enhancement Model"
+      },
+      "flags": []
+    },
+    {
+      "no": 84,
+      "q": "Identify the disadvantage of Spiral Model.",
+      "opts": {
+        "A": "Doesn’t work well for smaller projects",
+        "B": "High amount of risk analysis",
+        "C": "Strong approval and documentation control",
+        "D": "Additional Functionality can be added at a later date"
+      },
+      "flags": []
+    },
+    {
+      "no": 85,
+      "q": "In which test design each input is tested at both ends of its valid range and just outside its valid range?",
+      "opts": {
+        "A": "Boundary value testing",
+        "B": "Equivalence class partitioning",
+        "C": "Boundary value testing AND Equivalence class partitioning",
+        "D": "Decision tables"
+      },
+      "flags": []
+    },
+    {
+      "no": 86,
+      "q": "Which of the following is not defined in a good Software Requirement Specification (SRS) document?",
+      "opts": {
+        "A": "Functional Requirement",
+        "B": "Nonfunctional Requirement",
+        "C": "Goals of implementation",
+        "D": "Algorithm for software implementation"
+      },
+      "flags": []
+    },
+    {
+      "no": 87,
+      "q": "Which of the following is not a characteristic common to all design methods?",
+      "opts": {
+        "A": "configuration management",
+        "B": "functional component",
+        "C": "notation quality assessment",
+        "D": "guidelines refinement heuristics"
+      },
+      "flags": []
+    },
+    {
+      "no": 88,
+      "q": "Checking quality of software in both simulated and live environments is known as",
+      "opts": {
+        "A": "Validity",
+        "B": "Usability",
+        "C": "Checking",
+        "D": "Validation"
+      },
+      "flags": []
+    },
+    {
+      "no": 89,
+      "q": "Which may be estimated either in terms of KLOC (Kilo Line of Code) or by calculating number of function points in the software?",
+      "opts": {
+        "A": "Time estimation",
+        "B": "Effort estimation",
+        "C": "Cost estimation",
+        "D": "Software size estimation"
+      },
+      "flags": []
+    },
+    {
+      "no": 90,
+      "q": "Selection of a model is based on",
+      "opts": {
+        "A": "Requirements",
+        "B": "Development team & Users",
+        "C": "Project type and associated risk",
+        "D": "All of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 91,
+      "q": "Which two models doesn’t allow defining requirements early in the cycle?",
+      "opts": {
+        "A": "Waterfall & RAD",
+        "B": "Prototyping & Spiral",
+        "C": "Prototyping & RAD",
+        "D": "Waterfall & Spiral"
+      },
+      "flags": []
+    },
+    {
+      "no": 92,
+      "q": "Which one of the following is not a software process quality?",
+      "opts": {
+        "A": "Productivity",
+        "B": "Portability",
+        "C": "Timeliness",
+        "D": "Visibility"
+      },
+      "flags": []
+    },
+    {
+      "no": 93,
+      "q": "Purpose of process is to deliver software",
+      "opts": {
+        "A": "in time",
+        "B": "with acceptable quality",
+        "C": "that is cost efficient",
+        "D": "both ‘in time’ & ‘with acceptable quality’"
+      },
+      "flags": []
+    },
+    {
+      "no": 94,
+      "q": "The work associated with software engineering can be categorized into three generic phases,regardless of application area, project size, or complexity namely the__________ phase which focuses on what, the__________ phase which focuses on how and the__________ phase which focuses on change.\ni. support\nii. development\niii. definition",
+      "opts": {
+        "A": "i, ii, iii",
+        "B": "ii, i, iii",
+        "C": "iii, ii, i",
+        "D": "iii, i, ii"
+      },
+      "flags": []
+    },
+    {
+      "no": 95,
+      "q": "Which is one of the most important stakeholder from the following ?",
+      "opts": {
+        "A": "Entry level personnel",
+        "B": "Middle level stakeholder",
+        "C": "Managers",
+        "D": "Users of the software"
+      },
+      "flags": []
+    },
+    {
+      "no": 96,
+      "q": "Which is the first step in the software development life cycle ?",
+      "opts": {
+        "A": "Analysis",
+        "B": "Design",
+        "C": "Problem/Opportunity Identification",
+        "D": "Development and Documentation"
+      },
+      "flags": []
+    },
+    {
+      "no": 97,
+      "q": "In Design phase, which is the primary area of concern?",
+      "opts": {
+        "A": "Architecture",
+        "B": "Data",
+        "C": "Interface",
+        "D": "All of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 98,
+      "q": "Architectural Design Metrics are __________ in nature.",
+      "opts": {
+        "A": "Black Box",
+        "B": "White Box",
+        "C": "Gray Box",
+        "D": "Green Box"
+      },
+      "flags": []
+    },
+    {
+      "no": 99,
+      "q": "The amount of time that the software is available for use is known as",
+      "opts": {
+        "A": "Reliability",
+        "B": "Usability",
+        "C": "Efficiency",
+        "D": "Functionality"
+      },
+      "flags": []
+    },
+    {
+      "no": 100,
+      "q": "What are attributes of good software?",
+      "opts": {
+        "A": "Software maintainability",
+        "B": "Software functionality",
+        "C": "Software development",
+        "D": "Software maintainability & functionality"
+      },
+      "flags": []
+    }
+  ]
+}

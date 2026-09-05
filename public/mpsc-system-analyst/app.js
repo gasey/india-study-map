@@ -1248,7 +1248,12 @@ VIEWS.papers = (el) => {
         const ok = mcq.filter(q => S.questions[q.id]?.lastOk).length;
         const off = qs.some(q => q.prov && /\bofficial\b/i.test(q.prov)
                                  && !/\b(?:no|without|never)\s+official/i.test(q.prov));
-        const partial = qs.find(q => q.note && q.note.startsWith('Only the Paper-I'));
+        // Coverage note — "N of M imported". Paper-I sittings word it "Only the
+        // Paper-I-syllabus questions..." and Paper III sittings "Only the questions
+        // matching the 2026 syllabus...", so matching the Paper-I wording alone
+        // silently hid the note on every Paper III card: they showed a bare MCQ
+        // count that reads as the paper's full length rather than 36 of 100.
+        const partial = qs.find(q => q.note && /^Only the /.test(q.note));
         return `<div class="card">
           <div class="spread"><h3 style="margin:0">${esc(qs[0].sitting)}</h3>
           <span class="pill ${off ? 'ok' : 'wn'}">${off ? 'official key' : 'derived answers'}</span></div>

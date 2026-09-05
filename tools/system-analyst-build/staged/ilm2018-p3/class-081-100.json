@@ -1,0 +1,182 @@
+[
+  {
+    "no": 81,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software project management / project scheduling tools (PERT vs Gantt). The 2026 syllabus has no software engineering or project management unit. The words 'network diagram' brush against TECH1 Unit 1 'Graph theory, trees and graph algorithms', but the question tests recognition of a PM charting tool, not any graph-theoretic property or algorithm.",
+    "confidence": "medium"
+  },
+  {
+    "no": 82,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software process models — the defining feature of the Spiral model. Software engineering was dropped entirely from the 2026 syllabus; no TECH1 or TECH2 unit covers SDLC process models.",
+    "confidence": "high"
+  },
+  {
+    "no": 83,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software process models (Iterative Enhancement vs Waterfall vs Prototyping). Software engineering / SDLC is not in the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 84,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software process models — drawbacks of the Spiral model. No unit of TECH1 or TECH2 covers software engineering process models.",
+    "confidence": "high"
+  },
+  {
+    "no": 85,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software testing — black-box test design techniques (boundary value analysis vs equivalence partitioning). Testing is part of software engineering, which the 2026 syllabus does not contain.",
+    "confidence": "high"
+  },
+  {
+    "no": 86,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Requirements engineering — contents of an SRS document. The brief names SRS explicitly as dropped software engineering material.",
+    "confidence": "high"
+  },
+  {
+    "no": 87,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software design methodology — the common characteristics of software design methods (notation, refinement heuristics, quality assessment). Software engineering design is not in the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 88,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software quality assurance — verification vs validation. SQA is software engineering, which the 2026 syllabus dropped.",
+    "confidence": "high"
+  },
+  {
+    "no": 89,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software size/effort estimation via KLOC and function points. Software project estimation is software engineering; note this is unrelated to TECH1 Unit 3's 'Algorithm development and complexity', which is about asymptotic algorithmic cost, not project metrics.",
+    "confidence": "high"
+  },
+  {
+    "no": 90,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Criteria for selecting a software process model. Software engineering / SDLC, absent from the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 91,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Comparison of software process models on when requirements are fixed. Software engineering process models are not in the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 92,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software process quality attributes (productivity, timeliness, visibility) versus product attributes. Software engineering quality material, not covered by any 2026 unit.",
+    "confidence": "high"
+  },
+  {
+    "no": 93,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Purpose/goals of a software process. Software engineering, dropped from the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 94,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "The three generic phases of software engineering (definition, development, support). Explicitly software engineering, absent from TECH1 and TECH2.",
+    "confidence": "high"
+  },
+  {
+    "no": 95,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Stakeholder identification in requirements engineering / systems analysis. The brief lists systems analysis and requirements work as dropped material.",
+    "confidence": "high"
+  },
+  {
+    "no": 96,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "The ordering of SDLC phases. SDLC is software engineering and systems analysis, which the 2026 syllabus does not contain.",
+    "confidence": "high"
+  },
+  {
+    "no": 97,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Areas of concern in the software design phase (architecture, data, interface). This is software-engineering design, not TECH1 Unit 2 computer architecture and not TECH2 Unit 2's MVC/microservices leaf — the word 'Architecture' here is an answer option about design-phase scope.",
+    "confidence": "high"
+  },
+  {
+    "no": 98,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software design metrics — whether architectural design metrics are black-box in nature. Software engineering metrics; no 2026 unit covers them.",
+    "confidence": "high"
+  },
+  {
+    "no": 99,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software product quality attributes (the question describes availability but the printed options offer reliability/usability/efficiency/functionality). Software quality characteristics are software engineering, outside the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 100,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Attributes of good software (maintainability, functionality) — software engineering product quality. Not covered by any TECH1 or TECH2 unit.",
+    "confidence": "high"
+  }
+]

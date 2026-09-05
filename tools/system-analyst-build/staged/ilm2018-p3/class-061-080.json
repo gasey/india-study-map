@@ -1,0 +1,182 @@
+[
+ {
+  "no": 61,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Asks where the OSI/TCP-IP application layer is implemented (end system vs NIC vs Ethernet). This is general data communications / OSI layering, not web architecture; no TECH1 or TECH2 leaf covers the OSI stack.",
+  "confidence": "high"
+ },
+ {
+  "no": 62,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Header encapsulation/decapsulation as a packet moves up the OSI layers. Pure data communications and networking, which the 2026 syllabus does not contain.",
+  "confidence": "high"
+ },
+ {
+  "no": 63,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Properties of the OSI reference model (layer independence, duplicated functionality). General networking theory; no leaf in either paper covers the OSI model.",
+  "confidence": "high"
+ },
+ {
+  "no": 64,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Addressing levels in TCP/IP — physical vs logical vs port vs specific address. This is data communications addressing, not OS process management and not web architecture.",
+  "confidence": "high"
+ },
+ {
+  "no": 65,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Function of the OSI physical layer (bit-by-bit delivery). Data communications; outside the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 66,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Mechanical and electrical specifications provided by the physical layer, i.e. connectors, cables and signal levels. Transmission media / data communications, explicitly outside the current syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 67,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Relationship between the physical layer and the layer above it in the OSI stack. General networking layering, not covered by any TECH1 or TECH2 unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 68,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Wireless transmission media — radio, microwave, infrared. Transmission media is data communications and has no leaf in the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 69,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "LLC vs MAC sublayers of the data link layer. Data communications / LAN standards; not web architecture and not in any unit of either paper.",
+  "confidence": "high"
+ },
+ {
+  "no": 70,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Hamming distance between identical code words — error detection and coding theory. The Discrete Mathematics unit covers sets, logic, combinatorics, graphs, automata and fuzzy sets, none of which reach coding theory.",
+  "confidence": "medium"
+ },
+ {
+  "no": 71,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software process models (Build & Fix, Prototyping, Evolutionary, Waterfall) and their ability to absorb change. Software engineering, which the 2026 syllabus dropped entirely.",
+  "confidence": "high"
+ },
+ {
+  "no": 72,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Choosing a software life cycle model based on team experience. Software engineering / process models; no unit of TECH1 or TECH2 covers SDLC.",
+  "confidence": "high"
+ },
+ {
+  "no": 73,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Internal vs external software quality attributes. Software quality assurance, part of software engineering and outside the current syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 74,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Classifying a quality requirement as developer-facing (testability) versus user-facing. Software requirements engineering / quality attributes — software engineering.",
+  "confidence": "high"
+ },
+ {
+  "no": 75,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of coupling as a module's degree of interconnection. Cohesion and coupling are software design metrics; the 2026 syllabus contains no software engineering unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 76,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Size-oriented software metrics based on lines of code. Software measurement and project management — software engineering.",
+  "confidence": "high"
+ },
+ {
+  "no": 77,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Risk categories in software project management (product vs project vs business risk). Software engineering; not covered by either paper.",
+  "confidence": "high"
+ },
+ {
+  "no": 78,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Granularity levels of software testing and which one exercises module cooperation. Software testing, part of software engineering and outside the syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 79,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Risk exposure formula RE = P * L from software risk management. Software project management — software engineering, dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 80,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Characteristics of a good SRS (verifiable, traceable, modifiable, complete). Requirements engineering — software engineering, not present in TECH1 or TECH2.",
+  "confidence": "high"
+ }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "no": 1,
+    "ans": "D",
+    "conf": "high",
+    "exp": "The schema is the logical design of the database — the structure of the relations, fixed at design time and rarely changed. The instance is the set of data actually held at a particular moment, a snapshot that changes with every insert and delete. Option A is the same pair in the wrong order, which is the trap: it puts the snapshot where the design belongs."
+  },
+  {
+    "no": 2,
+    "ans": "B",
+    "conf": "high",
+    "exp": "A domain is atomic when its values are treated as indivisible units — the DBMS never looks inside a value for component parts. A set-valued or composite domain (say a phone-number list) is non-atomic and violates first normal form. 'Divisible' (D) states the exact opposite of the definition."
+  },
+  {
+    "no": 3,
+    "ans": "B",
+    "conf": "high",
+    "exp": "A foreign key is an attribute in one relation whose values are drawn from the primary key of another (the referenced) relation, which is what makes referential integrity checkable. 'Candidate' (A) is tempting because the primary key is itself a candidate key, but the standard definition names the primary key specifically — a foreign key references the declared primary key, not any arbitrary candidate key."
+  },
+  {
+    "no": 4,
+    "ans": "A",
+    "conf": "high",
+    "exp": "That is the textbook statement of a referential integrity constraint: values in the referencing relation must actually exist in the referenced relation, so no dangling reference is possible. 'Referencing' (B) names one of the two relations involved rather than the constraint itself, and 'Primary' (D) describes a key constraint on a single relation, not a cross-relation one."
+  },
+  {
+    "no": 5,
+    "ans": "C",
+    "conf": "high",
+    "exp": "Relational algebra is procedural: a query is written as a sequence of operations (select, project, join) that says how to compute the result. Tuple and domain relational calculus are non-procedural — they describe what the result should contain without prescribing an evaluation order — so A and B are the classic traps here."
+  },
+  {
+    "no": 6,
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Cartesian product pairs every tuple of one relation with every tuple of the other, with no matching condition at all, giving m x n tuples. Join (A) is the trap: a join is exactly a Cartesian product followed by a selection on matching attribute values, so it keeps only the pairs that match."
+  },
+  {
+    "no": 7,
+    "ans": "C",
+    "conf": "high",
+    "exp": "char(n) is a fixed-length string of exactly n characters, padded with blanks if the value is shorter; varchar(n) is a variable-length string of at most n characters, storing only what is supplied. Options using 'equal' are not standard SQL terminology for either type."
+  },
+  {
+    "no": 8,
+    "ans": "D",
+    "conf": "high",
+    "exp": "DROP TABLE removes the relation itself — both the tuples and the schema definition — from the database. DELETE (A) is the trap: it removes tuples but leaves an empty relation with its schema still defined. 'Purge' and 'Remove' are not SQL commands for this."
+  },
+  {
+    "no": 9,
+    "ans": "C",
+    "conf": "high",
+    "exp": "HAVING filters the groups produced after grouping and aggregation, so it acts as an extra filter applied to the result of GROUP BY, unlike WHERE which filters tuples before grouping. GROUP BY (B) is the trap: it forms the groups but does not itself discard anything, and ORDER BY only sorts."
+  },
+  {
+    "no": 10,
+    "ans": "C",
+    "conf": "high",
+    "exp": "Only option C deletes from the instructor relation while getting the department names from a subquery over department where building = 'MilleniumCenter', which is exactly what the question asks. B is the trap: it deletes departments, not instructors; A compares dept_name directly to the building name and has no subquery at all. Note the paper misprints 'dept name' without the underscore inside the subquery, but C is still the only structurally correct choice."
+  },
+  {
+    "no": 11,
+    "ans": "C",
+    "conf": "medium",
+    "exp": "ROLLBACK undoes all the updates a transaction has made since the last COMMIT, restoring the database to that last committed point, which is the standard SQL answer. Flashback (D) is the genuine alternative reading — it is the Oracle-specific feature for recovering data that has already been committed — so if the examiner meant 'undo work that was itself committed', D would be intended; the wording is ambiguous, hence medium confidence."
+  },
+  {
+    "no": 12,
+    "ans": "C",
+    "conf": "high",
+    "exp": "ALTER TABLE modifies an existing relation's definition, including adding a constraint such as PRIMARY KEY, FOREIGN KEY or CHECK. CREATE TABLE (A) is the trap: it can declare constraints, but only while defining a brand-new relation, not on one that already exists."
+  },
+  {
+    "no": 13,
+    "ans": "C",
+    "conf": "high",
+    "exp": "An entity set lacking enough attributes of its own to form a primary key is a weak entity set; it is identified by a discriminator combined with the primary key of the identifying (owner) strong entity set. A strong entity set (A) is the opposite — by definition it does have a sufficient primary key."
+  },
+  {
+    "no": 14,
+    "ans": "A",
+    "conf": "high",
+    "exp": "First normal form requires every attribute to be atomic, so a composite attribute (such as an address holding street, city and state) must be broken into separate individual attributes. Second normal form (B) is the trap: it concerns removing partial dependencies on part of a composite key, which is a different issue from composite attributes."
+  },
+  {
+    "no": 15,
+    "ans": "B",
+    "conf": "high",
+    "exp": "The key is empcode; since it is a single attribute there can be no partial dependency, so the relation is automatically in 2NF. But empcode determines pincode and pincode determines city and state, a transitive dependency on the key, so 3NF fails — making C and D wrong."
+  },
+  {
+    "no": 16,
+    "ans": "B",
+    "conf": "high",
+    "exp": "Under write-ahead logging, every modification is first written as a record to the log before the change is applied to the database itself, which is what makes undo and redo recovery possible after a crash. 'Disk' (C) and 'Hard drive' (A) are tempting because the log ultimately lives on stable storage, but they name the medium rather than the structure the question is after."
+  },
+  {
+    "no": 17,
+    "ans": "C",
+    "conf": "high",
+    "exp": "Armstrong's axioms are exactly three: reflexivity, augmentation and transitivity, and they are sound and complete for functional dependencies. Pseudotransitivity is a derived rule proved from those three, useful in practice but not itself an axiom — the trap is that it is a legitimate inference rule, just not part of the axiom set."
+  },
+  {
+    "no": 18,
+    "ans": "A",
+    "conf": "high",
+    "exp": "A candidate key is a minimal superkey: it determines every attribute, and no proper subset of it is still a superkey. Options B, C and D all assert that subsets remain superkeys, which is precisely the condition that would make the set non-minimal and therefore not a candidate key."
+  }
+]

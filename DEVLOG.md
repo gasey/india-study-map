@@ -9,6 +9,89 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (late) — Paper III #2 (ILM Dec 2018): 36 more, a cross-paper answer contradiction caught by the checker, and a coverage note that had never rendered
+
+**What shipped.** `import_ilm2018_p3.py` + `staged/ilm2018-p3-import.json` — 36
+questions from ILM December 2018 CSE Paper III into TECH2 (35 in Unit 3 DBMS,
+1 in Unit 4). Bank 1865 → 1901. Plus a one-line fix in `app.js` (see below).
+
+**Why the count is 36 again.** Coincidence, not a bug — different questions.
+This paper is a long DBMS run (Q1–Q35) and then leaves the syllabus completely:
+Q36–Q70 are data communications and OSI, Q71–Q100 are software engineering.
+Neither subject exists in the 2026 syllabus. Per-question exclusion reasons are
+in `staged/ilm2018-p3/_classified.json`. Zero questions mapped to TECH1.
+
+**Transcription was easier than Nov 2023, and the risk moved.** This PDF has a
+clean text layer, so `pdftotext -layout` gave the whole paper and five agents
+transcribed 20-question slices from it. But `-layout` preserves the printed
+two-column option arrangement, so the live risk stopped being *dropped text* and
+became *silent option permutation* — read `(a) (b)` / `(c) (d)` in the wrong
+order and the stored answer letter now points at a different option. Option
+order was checked against the source, and for page 4 against the **rendered page
+image**, including Q37 where the second column starts almost flush against
+option (a)'s text.
+
+**The `course_id` non-bug.** Q31's SQL prints `courseid`, `deptname`, `totcred`,
+`’DATABASESystems’`, `’CompSci.’` — no underscores, missing spaces. It is the
+Silberschatz example, so this reads exactly like `pdftotext` dropping glyphs, and
+an obvious "fix" would be to restore the underscores. The page was rendered and
+read: **the paper really is printed that way.** MPSC lost them when they retyped
+the example. Recorded in `staged/ilm2018-p3/README.md` because the repair is
+tempting and would have silently edited the paper. Q30's arrows are the mirror
+case — a Symbol-font `U+F0AE` in the dump that the page really does print as `→`,
+so decoding it is faithful rather than a repair.
+
+**A false corruption alarm, and the check that would have missed a real one.**
+The Q21–40 classifier reported unprompted that questions 21–40 had lost their
+option text and held only the literal strings `"A"`,`"B"`,`"C"`,`"D"`. It was
+wrong — every one has real option text. What almost certainly misled it is
+**Q30**, whose options genuinely *are* `A`, `E`, `B,C`, `D`, because it asks
+which attribute of `R(A,B,C,D,E)` is not a key: a real question that looks like
+corruption. Its verdicts were still correct on inspection, but it had misread its
+own input while producing them, so they were re-derived rather than trusted.
+
+The uncomfortable part: **the mechanical check that ran before it would not have
+caught that corruption if it had been real.** It verified `opts` had keys A–D,
+non-empty values, and no two identical values — and `{"A":"A","B":"B","C":"C","D":"D"}`
+passes all three. `import_ilm2018_p3.py` now fails when *every* option equals its
+own key, which closes the hole without rejecting Q30.
+
+**A cross-paper answer contradiction, caught by `check_bank_consistency.py`.**
+The importer's own checks all passed; the consistency checker then flagged that
+`ILM2018_P3_032` and the existing `TECH1_CSE_134` are the same question keyed
+differently — *"Which of the following protocols ensures conflict serializability
+and safety from deadlocks?"*, C vs. B. Both are textbook-defensible: Silberschatz
+states deadlock freedom for the tree protocol **and** for timestamp ordering.
+
+Resolution: `TECH1_CSE_134` was already corrected A→B by the 2026-09-02 audit and
+upheld by two independent adjudicators, whose note explicitly records that option
+C was considered and rejected. Two adjudicators who weighed C beat two solvers who
+each rated C only *medium*, so **the new record was aligned to (B)** rather than
+the audited record flipped. Q32 keeps `conf: medium` and carries a note stating
+both readings, why (B) was chosen, and that MPSC could have marked it either way.
+The ambiguity is recorded, not reconciled away.
+
+**A coverage note that had never rendered.** Chasing the above surfaced that
+`app.js` selected the "N of M imported" line with
+`note.startsWith('Only the Paper-I')`. Paper III sittings word it *"Only the
+questions matching the 2026 syllabus..."*, so **both Paper III cards had always
+shown a bare "36 MCQ" with nothing saying 64 questions were excluded** — which
+reads as the paper's full length. This was shipped, unnoticed, with the Nov 2023
+import. The predicate is now `/^Only the /`; verified in the browser that Paper I
+cards are byte-identical and both Paper III cards gained the line.
+
+**What's still open.**
+- Three Paper IIIs remain: P&E Aug 2018, MES/P&E July 2023, MES Nov 2015.
+- CLAUDE.md points at `~/Downloads/mpsc_pdfs_examination/` for source PDFs; that
+  path does not exist on this machine. They are in-repo at `mpsc-cse-papers/`.
+  The PDF→sitting mapping is in `staged/ilm2018-p3/README.md`.
+- The two mediums here (Q11 ROLLBACK vs. FLASHBACK, Q32 above) are genuine
+  question ambiguities, not solver weakness — neither improves by re-solving.
+- No screenshot: the Browser pane's screenshot action timed out repeatedly on
+  this page. Verification was textual (DOM content, provenance strings, console).
+
+---
+
 ## 2026-09-05 (evening) — The first Paper III ever imported: 36 of 100 survive the 2026 syllabus, and two independent solvers agreed on every one
 
 **What shipped.** `import_ilm2023_p3.py` + `staged/ilm2023-p3-import.json` — 36

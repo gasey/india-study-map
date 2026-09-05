@@ -1,0 +1,235 @@
+{
+  "range": "1-20",
+  "questions": [
+    {
+      "no": 1,
+      "q": "Database __________, which is the logical design of the database, and the database __________, which is a snapshot of the data in the database at a given instant in time.",
+      "opts": {
+        "A": "Instance, Schema",
+        "B": "Relation, Schema",
+        "C": "Relation, Domain",
+        "D": "Schema, Instance"
+      },
+      "flags": []
+    },
+    {
+      "no": 2,
+      "q": "A domain is atomic if elements of the domain are considered to be __________ units.",
+      "opts": {
+        "A": "Different",
+        "B": "Indivisible",
+        "C": "Constant",
+        "D": "Divisible"
+      },
+      "flags": []
+    },
+    {
+      "no": 3,
+      "q": "A attribute in a relation is a foreign key if the __________ key from one relation is used as an attribute in that relation.",
+      "opts": {
+        "A": "Candidate",
+        "B": "Primary",
+        "C": "Super",
+        "D": "Sub"
+      },
+      "flags": []
+    },
+    {
+      "no": 4,
+      "q": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
+      "opts": {
+        "A": "Referential",
+        "B": "Referencing",
+        "C": "Specific",
+        "D": "Primary"
+      },
+      "flags": []
+    },
+    {
+      "no": 5,
+      "q": "Which one of the following is a procedural language ?",
+      "opts": {
+        "A": "Domain relational calculus",
+        "B": "Tuple relational calculus",
+        "C": "Relational algebra",
+        "D": "Query language"
+      },
+      "flags": []
+    },
+    {
+      "no": 6,
+      "q": "Identify which of the following operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.",
+      "opts": {
+        "A": "Join",
+        "B": "Cartesian product",
+        "C": "Intersection",
+        "D": "Set difference"
+      },
+      "flags": []
+    },
+    {
+      "no": 7,
+      "q": "The basic data type char(n) is a __________ length character string and varchar(n) is __________ length character.",
+      "opts": {
+        "A": "Fixed, equal",
+        "B": "Equal, variable",
+        "C": "Fixed, variable",
+        "D": "Variable, equal"
+      },
+      "flags": []
+    },
+    {
+      "no": 8,
+      "q": "To remove a relation from an SQL database, we use the __________ command.",
+      "opts": {
+        "A": "Delete",
+        "B": "Purge",
+        "C": "Remove",
+        "D": "Drop table"
+      },
+      "flags": []
+    },
+    {
+      "no": 9,
+      "q": "__________ clause is an additional filter that is applied to the result.",
+      "opts": {
+        "A": "Select",
+        "B": "Group-by",
+        "C": "Having",
+        "D": "Order by"
+      },
+      "flags": []
+    },
+    {
+      "no": 10,
+      "q": "Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the MilleniumCenter building which is in department relation.",
+      "opts": {
+        "A": "DELETE FROM instructor\nWHERE dept_name IN ‘ MilleniumCenter ‘;",
+        "B": "DELETE FROM department\nWHERE building=’ MilleniumCenter ‘;",
+        "C": "DELETE FROM instructor\nWHERE dept_name IN (SELECT dept name\nFROM department\nWHERE building = ’ MilleniumCenter’);",
+        "D": "None of these"
+      },
+      "flags": [
+        "misprint"
+      ],
+      "note": "Options print one per line (not two-column). Paper's own typography preserved: option (c) prints `SELECT dept name` with a space where `dept_name` is meant, and the string quoting mixes ‘ and ’ glyphs with stray spaces inside the quotes."
+    },
+    {
+      "no": 11,
+      "q": "In order to undo the work of transaction after last commit which one should be used?",
+      "opts": {
+        "A": "View",
+        "B": "Commit",
+        "C": "Rollback",
+        "D": "Flashback"
+      },
+      "flags": []
+    },
+    {
+      "no": 12,
+      "q": "To include integrity constraint in a existing relation use :",
+      "opts": {
+        "A": "Create table",
+        "B": "Modify table",
+        "C": "Alter table",
+        "D": "Drop table"
+      },
+      "flags": []
+    },
+    {
+      "no": 13,
+      "q": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
+      "opts": {
+        "A": "Strong entity set",
+        "B": "Variant set",
+        "C": "Weak entity set",
+        "D": "Variable set"
+      },
+      "flags": []
+    },
+    {
+      "no": 14,
+      "q": "In the __________ normal form, a composite attribute is converted to individual attributes.",
+      "opts": {
+        "A": "First",
+        "B": "Second",
+        "C": "Third",
+        "D": "Fourth"
+      },
+      "flags": []
+    },
+    {
+      "no": 15,
+      "q": "Empdt1(empcode, name, street, city, state,pincode).\nFor any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, Empdt1 is a relation in",
+      "opts": {
+        "A": "1 NF only",
+        "B": "2 NF and hence also in 1 NF",
+        "C": "3NF and hence also in 2NF and 1NF",
+        "D": "BCNF and hence also in 3NF, 2NF and 1NF"
+      },
+      "flags": [],
+      "note": "Options print one per line (not two-column)."
+    },
+    {
+      "no": 16,
+      "q": "Each modification done in database transaction are first recorded into the",
+      "opts": {
+        "A": "Hard drive",
+        "B": "Log",
+        "C": "Disk",
+        "D": "Datamart"
+      },
+      "flags": []
+    },
+    {
+      "no": 17,
+      "q": "Which of the following is not a Armstrong’s Axiom?",
+      "opts": {
+        "A": "Reflexivity rule",
+        "B": "Transitivity rule",
+        "C": "Pseudotransitivity rule",
+        "D": "Augmentation rule"
+      },
+      "flags": []
+    },
+    {
+      "no": 18,
+      "q": "The subset of super key is a candidate key under what condition?",
+      "opts": {
+        "A": "No proper subset is a super key",
+        "B": "All subsets are super keys",
+        "C": "Subset is a super key",
+        "D": "Each subset is a super key"
+      },
+      "flags": []
+    },
+    {
+      "no": 19,
+      "q": "Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas?",
+      "opts": {
+        "A": "DML(Data Manipulation Langauge)",
+        "B": "DDL(Data Definition Langauge)",
+        "C": "Query",
+        "D": "Relational Schema"
+      },
+      "flags": [
+        "misprint"
+      ],
+      "note": "Paper prints “Langauge” (sic) in options (a) and (b), and a space before the comma in “relation ,deleting”."
+    },
+    {
+      "no": 20,
+      "q": "An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value “Reed” .Here attribute A has __________ spaces and attribute B has __________ spaces.",
+      "opts": {
+        "A": "3, 20",
+        "B": "20, 4",
+        "C": "20 , 20",
+        "D": "3, 4"
+      },
+      "flags": [
+        "misprint"
+      ],
+      "note": "Paper prints “Reed” .Here with a stray space before the full stop and no space after it; option (c) prints “20 , 20” with a space before the comma."
+    }
+  ]
+}

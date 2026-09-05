@@ -1,0 +1,401 @@
+                    MIZORAM PUBLIC SERVICE COMMISSION
+             COMPETITIVE EXAMINATIONS FOR RECRUITMENT TO THE POST OF
+  INSPECTOR OF LEGAL METROLOGY UNDER FOOD, CIVIL SUPPLIES & CONSUMER AFFAIRS
+              DEPARTMENT, GOVERNMENT OF MIZORAM, DECEMBER, 2018
+
+                       COMPUTER SCIENCE & ENGINEERING
+                                               PAPER - III
+
+Time Allowed : 2 hours                                                                         Full Marks : 200
+
+                            All questions carry equal marks of two (2) each.
+                                         Attempt all questions.
+
+  1. Database __________, which is the logical design of the database, and the database __________,
+     which is a snapshot of the data in the database at a given instant in time.
+      (a) Instance, Schema                                 (b) Relation, Schema
+      (c) Relation, Domain                                 (d) Schema, Instance
+  2. A domain is atomic if elements of the domain are considered to be __________ units.
+      (a) Different                                     (b) Indivisible
+      (c) Constant                                      (d) Divisible
+  3. A attribute in a relation is a foreign key if the __________ key from one relation is used as an
+     attribute in that relation.
+      (a) Candidate                                       (b) Primary
+      (c) Super                                           (d) Sub
+  4. A __________ integrity constraint requires that the values appearing in specified attributes of any
+     tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced
+     relation.
+       (a) Referential                                        (b) Referencing
+       (c) Specific                                           (d) Primary
+  5. Which one of the following is a procedural language ?
+      (a) Domain relational calculus                    (b) Tuple relational calculus
+      (c) Relational algebra                            (d) Query language
+  6. Identify which of the following operation contains all pairs of tuples from the two relations, regardless
+     of whether their attribute values match.
+      (a) Join                                              (b) Cartesian product
+      (c) Intersection                                      (d) Set difference
+  7. The basic data type char(n) is a __________ length character string and varchar(n) is __________
+     length character.
+       (a) Fixed, equal                                 (b) Equal, variable
+       (c) Fixed, variable                              (d) Variable, equal
+  8. To remove a relation from an SQL database, we use the __________ command.
+      (a) Delete                                      (b) Purge
+      (c) Remove                                      (d) Drop table
+                                                    -2-
+
+ 9. __________ clause is an additional filter that is applied to the result.
+     (a) Select                                          (b) Group-by
+     (c) Having                                          (d) Order by
+10. Which of the following deletes all tuples in the instructor relation for those instructors associated with
+    a department located in the MilleniumCenter building which is in department relation.
+     (a) DELETE FROM instructor
+          WHERE dept_name IN ‘ MilleniumCenter ‘;
+     (b) DELETE FROM department
+          WHERE building=’ MilleniumCenter ‘;
+     (c) DELETE FROM instructor
+          WHERE dept_name IN (SELECT dept name
+          FROM department
+          WHERE building = ’ MilleniumCenter’);
+     (d) None of these
+11. In order to undo the work of transaction after last commit which one should be used?
+     (a) View                                             (b) Commit
+     (c) Rollback                                         (d) Flashback
+12. To include integrity constraint in a existing relation use :
+     (a) Create table                                       (b) Modify table
+     (c) Alter table                                        (d) Drop table
+13. An entity set that does not have sufficient attributes to form a primary key is termed a __________
+     (a) Strong entity set                                 (b) Variant set
+     (c) Weak entity set                                   (d) Variable set
+14. In the __________ normal form, a composite attribute is converted to individual attributes.
+     (a) First                                        (b) Second
+     (c) Third                                        (d) Fourth
+15. Empdt1(empcode, name, street, city, state,pincode).
+    For any pincode, there is only one city and state. Also, for given street, city and state, there is just one
+    pincode. In normalization terms, Empdt1 is a relation in
+     (a) 1 NF only
+     (b) 2 NF and hence also in 1 NF
+     (c) 3NF and hence also in 2NF and 1NF
+     (d) BCNF and hence also in 3NF, 2NF and 1NF
+16. Each modification done in database transaction are first recorded into the
+     (a) Hard drive                                     (b) Log
+     (c) Disk                                           (d) Datamart
+17. Which of the following is not a Armstrong’s Axiom?
+     (a) Reflexivity rule                              (b) Transitivity rule
+     (c) Pseudotransitivity rule                       (d) Augmentation rule
+18. The subset of super key is a candidate key under what condition?
+     (a) No proper subset is a super key               (b) All subsets are super keys
+     (c) Subset is a super key                         (d) Each subset is a super key
+                                                    -3-
+
+19. Which one of the following is used to define the structure of the relation ,deleting relations and relating
+    schemas?
+     (a) DML(Data Manipulation Langauge)                   (b) DDL(Data Definition Langauge)
+     (c) Query                                             (d) Relational Schema
+20. An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has
+    value “Reed” .Here attribute A has __________ spaces and attribute B has __________ spaces.
+     (a) 3, 20                                           (b) 20, 4
+     (c) 20 , 20                                         (d) 3, 4
+21. ’_ _ _ ’ matches any string of __________ three characters. ’_ _ _ %’ matches any string of at
+    __________ three characters.
+     (a) Atleast, Exactly                            (b) Exactly, Atleast
+     (c) Atleast, All                                (d) All , Exactly
+22. In SQL the spaces at the end of the string are removed by __________ function .
+     (a) Upper                                          (b) String
+     (c) Trim                                           (d) Lower
+23. What type of join is needed when you wish to include rows that do not have matching values?
+     (a) Equi-join                                     (b) Natural join
+     (c) Outer join                                    (d) All of these
+24. The attribute AGE is calculated from DATE_OF_BIRTH . The attribute AGE is
+     (a) Single valued                             (b) Multi valued
+     (c) Composite                                 (d) Derived
+25. Updates that violate __________ are disallowed.
+     (a) Integrity constraints                      (b) Transaction control
+     (c) Authorization                              (d) DDL constraints
+26. Insert into instructor values (10211, ’Smith’, ’Biology’, 66000);
+    What type of statement is this ?
+     (a) DLL                                             (b) DML
+     (c) Relational                                      (d) DDL
+27. Fill in with correct keyword to update the instructor relation.
+    UPDATE instructor __________ salary= salary * 1.05;
+     (a) Where                                            (b) Set
+     (c) In                                               (d) Select
+28. In relational algebra, for select operation the __________ appear in the subscript and the __________
+    argument appears in the parenthesis after the sigma.
+     (a) Predicates, relation                              (b) Relation, Predicates
+     (c) Operation, Predicates                             (d) Relation, Operation
+29. DBMS periodically suspends all processing and synchronizes its files and journals through the use of
+     (a) Checkpoint facility                          (b) Backup facility
+     (c) Recovery manager                             (d) Database change log
+                                                  -4-
+
+30. Suppose relation R(A,B,C,D,E) has the following functional dependencies:
+         AB
+         B C
+         BC  A
+         AD
+         E A
+         DE
+    Which of the following is not a key?
+     (a) A                                            (b) E
+     (c) B,C                                          (d) D
+31. Which of the following is used to insert a tuple from another relation.
+    (a) INSERT INTO course (courseid, title, deptname, credits)
+        VALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);
+    (b) INSERT INTO instructor
+        SELECT ID, name, deptname, 18000
+        FROM student
+        WHERE deptname = ’Music’ AND totcred > 144;
+    (c) INSERT INTO course VALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);
+    (d) None of these
+32. Which of the following protocols ensures conflict serializability and safety from deadlocks?
+     (a) Two-phase locking protocol                      (b) Time-stamp ordering protocol
+     (c) Graph based protocol                            (d) None of these
+33. If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an __________ on
+    all the records belonging to that file.
+      (a) Explicit lock in exclusive mode                    (b) Implicit lock in shared mode
+      (c) Explicit lock in shared mode                       (d) Implicit lock in exclusive mode
+34. A top to bottom relationship among the items in a database is established by a:
+     (a) Hierarchical Schema                            (b) Relational Schema
+     (c) Network Schema                                 (d) Distributed Schema
+35. The level of data abstraction which describes how the data is actually stored is:
+     (a) Physical level                                 (b) Conceptual level
+     (c) External level                                 (d) View level
+36. Which layer is responsible for process to process delivery?
+     (a) network layer                                  (b) transport layer
+     (c) session layer                                  (d) data link layer
+37. Which layers of the OSI model are host-to-host layers?
+     (a) Transport, Session, Presentation, Application (b) Network, Transport, Session, Presentation
+     (c) Datalink, Network, Transport, Session         (d) Physical, Datalink, Network, Transport
+38. In OSI network architecture, the routing is performed by
+     (a) session layer                                  (b) application layer
+     (c) Network layer                                  (d) Transport layer
+                                                 -5-
+
+39. Which multiplexing technique transmits digital signals?
+     (a) FDM                                              (b) TDM
+     (c) WDM                                              (d) None of these
+40. In __________ TDM, slots are dynamically allocated to improve bandwidth efficiency.
+     (a) synchronous                                 (b) statistical
+     (c) isochronous                                 (d) asynchronous
+41. ASK, PSK, FSK, and QAM are examples of __________ encoding.
+     (a) analog-to-digital                     (b) analog-to-analog
+     (c) digital-to-analog                     (d) digital-to-digital
+42. Phase shift keying (psk) method is used to modulate digital signals at 9600 bps using 16 levels. Find
+    the line signaling speed (i.e., modulation rate)
+      (a) 1200 bands                                    (b) 2400 bands
+      (c) 3600 bands                                    (d) 4800 bands
+43. How many bits are there in the Ethernet address?
+     (a) 64 bits                                         (b) 32 bits
+     (c) 16 bits                                         (d) 8 bits
+44. FTP uses __________ parallel TCP connections to transfer a file
+     (a) 1                                          (b) 2
+     (c) 3                                          (d) 4
+45. Typically the TCP port used by SMTP is
+     (a) 25                                              (b) 35
+     (c) 50                                              (d) 15
+46. Connection establishment in TCP is done by which mechanism?
+    (a) Flow control                                 (b) Three-Way Handshaking
+    (c) Forwarding                                   (d) Synchronization
+47. Which operating mode of telnet is full duplex?
+    (a) default mode                                     (b) server mode
+    (c) line mode                                        (d) client mode
+48. Which error detection method consists of just one redundant bit per data unit?
+     (a) CRC                                            (b) Checksum
+     (c) Simple parity check                            (d) Two-dimensional parity check
+49. A __________ error means that two or more bits in the data unit have changed.
+     (a) burst                                       (b) double-bit
+     (c) single-bit                                  (d) none of these
+50. Network in which every computer is capable of playing the role of client, server or both at the same
+    time is called
+      (a) peer-to-peer network                        (b) local area network
+      (c) dedicated server network                    (d) wide area network
+51. The __________ is the physical path over which a message travels
+     (a) Path                                         (b) Medium
+     (c) Protocol                                     (d) Route
+                                                 -6-
+
+52. A set of rules that governs data communication
+     (a) Protocols                                       (b) Standards
+     (c) RFCs                                            (d) None of these
+53. When collection of various computers seems a single coherent system to its client, then it is called
+     (a) computer network                             (b) distributed system
+     (c) networking system                            (d) none of these
+54. Two devices are in network if
+     (a) a process in one device is able to exchange information with a process in another device
+     (b) a process is running on both devices
+     (c) PIDs of the processes running of different devices are same
+     (d) none of these
+55. Communication channel is shared by all the machines on the network in
+     (a) broadcast network                            (b) unicast network
+     (c) multicast network                            (d) none of these
+56. Bluetooth is an example of
+     (a) personal area network                           (b) local area network
+     (c) virtual private network                         (d) none of these
+57. A __________ is a device that forwards packets between networks by processing the routing
+    information included in the packet.
+     (a) bridge                                    (b) firewall
+     (c) router                                    (d) all of these
+58. A list of protocols used by a system, one protocol per layer, is called
+     (a) protocol architecture                          (b) protocol stack
+     (c) protocol suit                                  (d) none of these
+59. Which one of the following extends a private network across public networks?
+     (a) local area network                           (b) virtual private network
+     (c) enterprise private network                   (d) storage area network
+60. The number of layers in Internet protocol stack
+     (a) 5                                               (b) 7
+     (c) 6                                               (d) None of these
+61. Application layer is implemented in
+     (a) End system                                      (b) NIC
+     (c) Ethernet                                        (d) None of these
+62. In the OSI model, as a data packet moves from the lower to the upper layers, headers are ________
+     (a) Added                                         (b) Removed
+     (c) Rearranged                                    (d) None of these
+63. Identify the statement which cannot be associated with OSI model
+     (a) A structured way to discuss and easier update syatem components
+     (b) One layer may duplicate lower layer functionality
+     (c) Functionality at one layer no way requires information from another layer
+     (d) None of these
+                                                 -7-
+
+64. Which address identifies a process on a host?
+     (a) physical address                                (b) logical address
+     (c) port address                                    (d) specific address
+65. The physical layer concerns with
+     (a) bit-by-bit delivery                             (b) process to process delivery
+     (c) application to application delivery             (d) none of these
+66. physical layer provides
+     (a) mechanical specifications of electrical connectors and cables
+     (b) electrical specification of transmission line signal level
+     (c) specification for IR over optical fiber
+     (d) all of these
+67. The physical layer translates logical communication requests from the __________ into hardware
+    specific operations.
+     (a) data link layer                              (b) network layer
+     (c) trasnport layer                              (d) application layer
+68. Wireless transmission can be done via
+     (a) radio waves                                     (b) microwaves
+     (c) infrared                                        (d) all of these
+69. Which sublayer of the data link layer performs data link functions that depend upon the type of
+    medium?
+     (a) logical link control sublayer                (b) media access control sublayer
+     (c) network interface control sublayer           (d) none of these
+70. The Hamming distance between equal code words is __________.
+     (a) 0                                         (b) 1
+     (c) n                                         (d) 2n
+71. Which one of the following models is not suitable for accommodating any change?
+     (a) Build & Fix Model                              (b) Prototyping Model
+     (c) Evolutionary Model                             (d) Waterfall Model
+72. Which of the following life cycle model can be chosen if the development team has less experience on
+    similar projects?
+      (a) Spiral                                        (b) Waterfall
+      (c) RAD                                           (d) Iterative Enhancement Model
+73. Choose an internal software quality from given below:
+     (a) scalability                                   (b) usability
+     (c) reusability                                   (d) reliability
+74. Which one of the following is a requirement that fits in a developer’s module ?
+     (a) Availability                                    (b) Testability
+     (c) Usability                                       (d) Flexibility
+                                                    -8-
+
+75. Coupling is a qualitative indication of the degree to which a module
+     (a) can be written more compactly
+     (b) focuses on just one thing
+     (c) is able to complete its function in a timely manner
+     (d) is connected to other modules and the outside world
+76. In size oriented metrics, metrics are developed based on the __________
+     (a) number of Functions                            (b) number of user inputs
+     (c) number of lines of code                        (d) amount of memory usage
+77. Which of the following risk is the failure of a purchased component to perform as expected?
+     (a) Product risk                                     (b) Project risk
+     (c) Business risk                                    (d) Programming risk
+78. Which granularity level of testing checks the behavior of module cooperation?
+     (a) Unit Testing                                    (b) Integration Testing
+     (c) Acceptance Testing                              (d) Regression Testing
+79. If P is risk probability, L is loss, then Risk Exposure (RE) is computed as__________ .
+      (a) RE = P/L                                         (b) RE = P + L
+      (c) RE = P*L                                         (d) RE = 2* P *L
+80. If every requirement can be checked by a cost-effective process, then the SRS is __________ .
+      (a) Verifiable                                   (b) Traceable
+      (c) Modifiable                                   (d) Complete
+81. Which chart is a tool that depicts project as network diagram that is capable of graphically representing
+    main events of project in both parallel and consecutive way?
+     (a) PERT chart                                         (b) Gantt chart
+     (c) Pie Chart                                          (d) Bar Chart
+82. Which is the most important feature of spiral model?
+     (a) Quality management                             (b) Risk management
+     (c) Performance management                         (d) Efficiency management
+83. The model in which the requirements are implemented by its category is __________ .
+     (a) Evolutionary Development Model             (b) Waterfall Model
+     (c) Prototyping                                (d) Iterative Enhancement Model
+84. Identify the disadvantage of Spiral Model.
+     (a) Doesn’t work well for smaller projects
+     (b) High amount of risk analysis
+     (c) Strong approval and documentation control
+     (d) Additional Functionality can be added at a later date
+85. In which test design each input is tested at both ends of its valid range and just outside its valid range?
+     (a) Boundary value testing
+     (b) Equivalence class partitioning
+     (c) Boundary value testing AND Equivalence class partitioning
+     (d) Decision tables
+                                                 -9-
+
+86. Which of the following is not defined in a good Software Requirement Specification (SRS) document?
+     (a) Functional Requirement                          (b) Nonfunctional Requirement
+     (c) Goals of implementation                         (d) Algorithm for software implementation
+87. Which of the following is not a characteristic common to all design methods?
+     (a) configuration management                       (b) functional component
+     (c) notation quality assessment                    (d) guidelines refinement heuristics
+88. Checking quality of software in both simulated and live environments is known as
+     (a) Validity                                        (b) Usability
+     (c) Checking                                        (d) Validation
+89. Which may be estimated either in terms of KLOC (Kilo Line of Code) or by calculating number of
+    function points in the software?
+     (a) Time estimation                            (b) Effort estimation
+     (c) Cost estimation                            (d) Software size estimation
+90. Selection of a model is based on
+     (a) Requirements                                    (b) Development team & Users
+     (c) Project type and associated risk                (d) All of these
+91. Which two models doesn’t allow defining requirements early in the cycle?
+     (a) Waterfall & RAD                             (b) Prototyping & Spiral
+     (c) Prototyping & RAD                           (d) Waterfall & Spiral
+92. Which one of the following is not a software process quality?
+     (a) Productivity                                   (b) Portability
+     (c) Timeliness                                     (d) Visibility
+93. Purpose of process is to deliver software
+     (a) in time                                         (b) with acceptable quality
+     (c) that is cost efficient                          (d) both ‘in time’ & ‘with acceptable quality’
+94. The work associated with software engineering can be categorized into three generic phases,regardless
+    of application area, project size, or complexity namely the__________ phase which focuses on
+    what, the__________ phase which focuses on how and the__________ phase which focuses on
+    change.
+              i. support
+             ii. development
+            iii. definition
+     (a) i, ii, iii                                     (b) ii, i, iii
+     (c) iii, ii, i                                     (d) iii, i, ii
+95. Which is one of the most important stakeholder from the following ?
+     (a) Entry level personnel                         (b) Middle level stakeholder
+     (c) Managers                                      (d) Users of the software
+96. Which is the first step in the software development life cycle ?
+     (a) Analysis                                         (b) Design
+     (c) Problem/Opportunity Identification               (d) Development and Documentation
+                                                 - 10 -
+
+ 97. In Design phase, which is the primary area of concern?
+      (a) Architecture                                   (b) Data
+      (c) Interface                                      (d) All of these
+ 98. Architectural Design Metrics are __________ in nature.
+      (a) Black Box                                   (b) White Box
+      (c) Gray Box                                    (d) Green Box
+ 99. The amount of time that the software is available for use is known as
+      (a) Reliability                                     (b) Usability
+      (c) Efficiency                                      (d) Functionality
+100. What are attributes of good software?
+      (a) Software maintainability                        (b) Software functionality
+      (c) Software development                            (d) Software maintainability & functionality
+
+
+
+
+                                                 *******
+

@@ -1,0 +1,1118 @@
+[
+ {
+  "no": 1,
+  "q": "Database __________, which is the logical design of the database, and the database __________, which is a snapshot of the data in the database at a given instant in time.",
+  "opts": {
+   "A": "Instance, Schema",
+   "B": "Relation, Schema",
+   "C": "Relation, Domain",
+   "D": "Schema, Instance"
+  },
+  "flags": []
+ },
+ {
+  "no": 2,
+  "q": "A domain is atomic if elements of the domain are considered to be __________ units.",
+  "opts": {
+   "A": "Different",
+   "B": "Indivisible",
+   "C": "Constant",
+   "D": "Divisible"
+  },
+  "flags": []
+ },
+ {
+  "no": 3,
+  "q": "A attribute in a relation is a foreign key if the __________ key from one relation is used as an attribute in that relation.",
+  "opts": {
+   "A": "Candidate",
+   "B": "Primary",
+   "C": "Super",
+   "D": "Sub"
+  },
+  "flags": []
+ },
+ {
+  "no": 4,
+  "q": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
+  "opts": {
+   "A": "Referential",
+   "B": "Referencing",
+   "C": "Specific",
+   "D": "Primary"
+  },
+  "flags": []
+ },
+ {
+  "no": 5,
+  "q": "Which one of the following is a procedural language ?",
+  "opts": {
+   "A": "Domain relational calculus",
+   "B": "Tuple relational calculus",
+   "C": "Relational algebra",
+   "D": "Query language"
+  },
+  "flags": []
+ },
+ {
+  "no": 6,
+  "q": "Identify which of the following operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.",
+  "opts": {
+   "A": "Join",
+   "B": "Cartesian product",
+   "C": "Intersection",
+   "D": "Set difference"
+  },
+  "flags": []
+ },
+ {
+  "no": 7,
+  "q": "The basic data type char(n) is a __________ length character string and varchar(n) is __________ length character.",
+  "opts": {
+   "A": "Fixed, equal",
+   "B": "Equal, variable",
+   "C": "Fixed, variable",
+   "D": "Variable, equal"
+  },
+  "flags": []
+ },
+ {
+  "no": 8,
+  "q": "To remove a relation from an SQL database, we use the __________ command.",
+  "opts": {
+   "A": "Delete",
+   "B": "Purge",
+   "C": "Remove",
+   "D": "Drop table"
+  },
+  "flags": []
+ },
+ {
+  "no": 9,
+  "q": "__________ clause is an additional filter that is applied to the result.",
+  "opts": {
+   "A": "Select",
+   "B": "Group-by",
+   "C": "Having",
+   "D": "Order by"
+  },
+  "flags": []
+ },
+ {
+  "no": 10,
+  "q": "Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the MilleniumCenter building which is in department relation.",
+  "opts": {
+   "A": "DELETE FROM instructor\nWHERE dept_name IN ‘ MilleniumCenter ‘;",
+   "B": "DELETE FROM department\nWHERE building=’ MilleniumCenter ‘;",
+   "C": "DELETE FROM instructor\nWHERE dept_name IN (SELECT dept name\nFROM department\nWHERE building = ’ MilleniumCenter’);",
+   "D": "None of these"
+  },
+  "flags": [
+   "misprint"
+  ],
+  "note": "Options print one per line (not two-column). Paper's own typography preserved: option (c) prints `SELECT dept name` with a space where `dept_name` is meant, and the string quoting mixes ‘ and ’ glyphs with stray spaces inside the quotes."
+ },
+ {
+  "no": 11,
+  "q": "In order to undo the work of transaction after last commit which one should be used?",
+  "opts": {
+   "A": "View",
+   "B": "Commit",
+   "C": "Rollback",
+   "D": "Flashback"
+  },
+  "flags": []
+ },
+ {
+  "no": 12,
+  "q": "To include integrity constraint in a existing relation use :",
+  "opts": {
+   "A": "Create table",
+   "B": "Modify table",
+   "C": "Alter table",
+   "D": "Drop table"
+  },
+  "flags": []
+ },
+ {
+  "no": 13,
+  "q": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
+  "opts": {
+   "A": "Strong entity set",
+   "B": "Variant set",
+   "C": "Weak entity set",
+   "D": "Variable set"
+  },
+  "flags": []
+ },
+ {
+  "no": 14,
+  "q": "In the __________ normal form, a composite attribute is converted to individual attributes.",
+  "opts": {
+   "A": "First",
+   "B": "Second",
+   "C": "Third",
+   "D": "Fourth"
+  },
+  "flags": []
+ },
+ {
+  "no": 15,
+  "q": "Empdt1(empcode, name, street, city, state,pincode).\nFor any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, Empdt1 is a relation in",
+  "opts": {
+   "A": "1 NF only",
+   "B": "2 NF and hence also in 1 NF",
+   "C": "3NF and hence also in 2NF and 1NF",
+   "D": "BCNF and hence also in 3NF, 2NF and 1NF"
+  },
+  "flags": [],
+  "note": "Options print one per line (not two-column)."
+ },
+ {
+  "no": 16,
+  "q": "Each modification done in database transaction are first recorded into the",
+  "opts": {
+   "A": "Hard drive",
+   "B": "Log",
+   "C": "Disk",
+   "D": "Datamart"
+  },
+  "flags": []
+ },
+ {
+  "no": 17,
+  "q": "Which of the following is not a Armstrong’s Axiom?",
+  "opts": {
+   "A": "Reflexivity rule",
+   "B": "Transitivity rule",
+   "C": "Pseudotransitivity rule",
+   "D": "Augmentation rule"
+  },
+  "flags": []
+ },
+ {
+  "no": 18,
+  "q": "The subset of super key is a candidate key under what condition?",
+  "opts": {
+   "A": "No proper subset is a super key",
+   "B": "All subsets are super keys",
+   "C": "Subset is a super key",
+   "D": "Each subset is a super key"
+  },
+  "flags": []
+ },
+ {
+  "no": 19,
+  "q": "Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas?",
+  "opts": {
+   "A": "DML(Data Manipulation Langauge)",
+   "B": "DDL(Data Definition Langauge)",
+   "C": "Query",
+   "D": "Relational Schema"
+  },
+  "flags": [
+   "misprint"
+  ],
+  "note": "Paper prints “Langauge” (sic) in options (a) and (b), and a space before the comma in “relation ,deleting”."
+ },
+ {
+  "no": 20,
+  "q": "An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value “Reed” .Here attribute A has __________ spaces and attribute B has __________ spaces.",
+  "opts": {
+   "A": "3, 20",
+   "B": "20, 4",
+   "C": "20 , 20",
+   "D": "3, 4"
+  },
+  "flags": [
+   "misprint"
+  ],
+  "note": "Paper prints “Reed” .Here with a stray space before the full stop and no space after it; option (c) prints “20 , 20” with a space before the comma."
+ },
+ {
+  "no": 21,
+  "q": "’_ _ _ ’ matches any string of __________ three characters. ’_ _ _ %’ matches any string of at __________ three characters.",
+  "opts": {
+   "A": "Atleast, Exactly",
+   "B": "Exactly, Atleast",
+   "C": "Atleast, All",
+   "D": "All , Exactly"
+  },
+  "flags": []
+ },
+ {
+  "no": 22,
+  "q": "In SQL the spaces at the end of the string are removed by __________ function .",
+  "opts": {
+   "A": "Upper",
+   "B": "String",
+   "C": "Trim",
+   "D": "Lower"
+  },
+  "flags": []
+ },
+ {
+  "no": 23,
+  "q": "What type of join is needed when you wish to include rows that do not have matching values?",
+  "opts": {
+   "A": "Equi-join",
+   "B": "Natural join",
+   "C": "Outer join",
+   "D": "All of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 24,
+  "q": "The attribute AGE is calculated from DATE_OF_BIRTH . The attribute AGE is",
+  "opts": {
+   "A": "Single valued",
+   "B": "Multi valued",
+   "C": "Composite",
+   "D": "Derived"
+  },
+  "flags": []
+ },
+ {
+  "no": 25,
+  "q": "Updates that violate __________ are disallowed.",
+  "opts": {
+   "A": "Integrity constraints",
+   "B": "Transaction control",
+   "C": "Authorization",
+   "D": "DDL constraints"
+  },
+  "flags": []
+ },
+ {
+  "no": 26,
+  "q": "Insert into instructor values (10211, ’Smith’, ’Biology’, 66000);\nWhat type of statement is this ?",
+  "opts": {
+   "A": "DLL",
+   "B": "DML",
+   "C": "Relational",
+   "D": "DDL"
+  },
+  "flags": []
+ },
+ {
+  "no": 27,
+  "q": "Fill in with correct keyword to update the instructor relation.\nUPDATE instructor __________ salary= salary * 1.05;",
+  "opts": {
+   "A": "Where",
+   "B": "Set",
+   "C": "In",
+   "D": "Select"
+  },
+  "flags": []
+ },
+ {
+  "no": 28,
+  "q": "In relational algebra, for select operation the __________ appear in the subscript and the __________ argument appears in the parenthesis after the sigma.",
+  "opts": {
+   "A": "Predicates, relation",
+   "B": "Relation, Predicates",
+   "C": "Operation, Predicates",
+   "D": "Relation, Operation"
+  },
+  "flags": []
+ },
+ {
+  "no": 29,
+  "q": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of",
+  "opts": {
+   "A": "Checkpoint facility",
+   "B": "Backup facility",
+   "C": "Recovery manager",
+   "D": "Database change log"
+  },
+  "flags": []
+ },
+ {
+  "no": 30,
+  "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies:\nA → B\nB → C\nBC → A\nA → D\nE → A\nD → E\nWhich of the following is not a key?",
+  "opts": {
+   "A": "A",
+   "B": "E",
+   "C": "B,C",
+   "D": "D"
+  },
+  "flags": []
+ },
+ {
+  "no": 31,
+  "q": "Which of the following is used to insert a tuple from another relation.",
+  "opts": {
+   "A": "INSERT INTO course (courseid, title, deptname, credits)\nVALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);",
+   "B": "INSERT INTO instructor\nSELECT ID, name, deptname, 18000\nFROM student\nWHERE deptname = ’Music’ AND totcred > 144;",
+   "C": "INSERT INTO course VALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 32,
+  "q": "Which of the following protocols ensures conflict serializability and safety from deadlocks?",
+  "opts": {
+   "A": "Two-phase locking protocol",
+   "B": "Time-stamp ordering protocol",
+   "C": "Graph based protocol",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 33,
+  "q": "If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an __________ on all the records belonging to that file.",
+  "opts": {
+   "A": "Explicit lock in exclusive mode",
+   "B": "Implicit lock in shared mode",
+   "C": "Explicit lock in shared mode",
+   "D": "Implicit lock in exclusive mode"
+  },
+  "flags": []
+ },
+ {
+  "no": 34,
+  "q": "A top to bottom relationship among the items in a database is established by a:",
+  "opts": {
+   "A": "Hierarchical Schema",
+   "B": "Relational Schema",
+   "C": "Network Schema",
+   "D": "Distributed Schema"
+  },
+  "flags": []
+ },
+ {
+  "no": 35,
+  "q": "The level of data abstraction which describes how the data is actually stored is:",
+  "opts": {
+   "A": "Physical level",
+   "B": "Conceptual level",
+   "C": "External level",
+   "D": "View level"
+  },
+  "flags": []
+ },
+ {
+  "no": 36,
+  "q": "Which layer is responsible for process to process delivery?",
+  "opts": {
+   "A": "network layer",
+   "B": "transport layer",
+   "C": "session layer",
+   "D": "data link layer"
+  },
+  "flags": []
+ },
+ {
+  "no": 37,
+  "q": "Which layers of the OSI model are host-to-host layers?",
+  "opts": {
+   "A": "Transport, Session, Presentation, Application",
+   "B": "Network, Transport, Session, Presentation",
+   "C": "Datalink, Network, Transport, Session",
+   "D": "Physical, Datalink, Network, Transport"
+  },
+  "flags": []
+ },
+ {
+  "no": 38,
+  "q": "In OSI network architecture, the routing is performed by",
+  "opts": {
+   "A": "session layer",
+   "B": "application layer",
+   "C": "Network layer",
+   "D": "Transport layer"
+  },
+  "flags": []
+ },
+ {
+  "no": 39,
+  "q": "Which multiplexing technique transmits digital signals?",
+  "opts": {
+   "A": "FDM",
+   "B": "TDM",
+   "C": "WDM",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 40,
+  "q": "In __________ TDM, slots are dynamically allocated to improve bandwidth efficiency.",
+  "opts": {
+   "A": "synchronous",
+   "B": "statistical",
+   "C": "isochronous",
+   "D": "asynchronous"
+  },
+  "flags": []
+ },
+ {
+  "no": 41,
+  "q": "ASK, PSK, FSK, and QAM are examples of __________ encoding.",
+  "opts": {
+   "A": "analog-to-digital",
+   "B": "analog-to-analog",
+   "C": "digital-to-analog",
+   "D": "digital-to-digital"
+  },
+  "flags": []
+ },
+ {
+  "no": 42,
+  "q": "Phase shift keying (psk) method is used to modulate digital signals at 9600 bps using 16 levels. Find the line signaling speed (i.e., modulation rate)",
+  "opts": {
+   "A": "1200 bands",
+   "B": "2400 bands",
+   "C": "3600 bands",
+   "D": "4800 bands"
+  },
+  "flags": [
+   "misprint"
+  ]
+ },
+ {
+  "no": 43,
+  "q": "How many bits are there in the Ethernet address?",
+  "opts": {
+   "A": "64 bits",
+   "B": "32 bits",
+   "C": "16 bits",
+   "D": "8 bits"
+  },
+  "flags": []
+ },
+ {
+  "no": 44,
+  "q": "FTP uses __________ parallel TCP connections to transfer a file",
+  "opts": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "flags": []
+ },
+ {
+  "no": 45,
+  "q": "Typically the TCP port used by SMTP is",
+  "opts": {
+   "A": "25",
+   "B": "35",
+   "C": "50",
+   "D": "15"
+  },
+  "flags": []
+ },
+ {
+  "no": 46,
+  "q": "Connection establishment in TCP is done by which mechanism?",
+  "opts": {
+   "A": "Flow control",
+   "B": "Three-Way Handshaking",
+   "C": "Forwarding",
+   "D": "Synchronization"
+  },
+  "flags": []
+ },
+ {
+  "no": 47,
+  "q": "Which operating mode of telnet is full duplex?",
+  "opts": {
+   "A": "default mode",
+   "B": "server mode",
+   "C": "line mode",
+   "D": "client mode"
+  },
+  "flags": []
+ },
+ {
+  "no": 48,
+  "q": "Which error detection method consists of just one redundant bit per data unit?",
+  "opts": {
+   "A": "CRC",
+   "B": "Checksum",
+   "C": "Simple parity check",
+   "D": "Two-dimensional parity check"
+  },
+  "flags": []
+ },
+ {
+  "no": 49,
+  "q": "A __________ error means that two or more bits in the data unit have changed.",
+  "opts": {
+   "A": "burst",
+   "B": "double-bit",
+   "C": "single-bit",
+   "D": "none of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 50,
+  "q": "Network in which every computer is capable of playing the role of client, server or both at the same time is called",
+  "opts": {
+   "A": "peer-to-peer network",
+   "B": "local area network",
+   "C": "dedicated server network",
+   "D": "wide area network"
+  },
+  "flags": []
+ },
+ {
+  "no": 51,
+  "q": "The __________ is the physical path over which a message travels",
+  "opts": {
+   "A": "Path",
+   "B": "Medium",
+   "C": "Protocol",
+   "D": "Route"
+  },
+  "flags": []
+ },
+ {
+  "no": 52,
+  "q": "A set of rules that governs data communication",
+  "opts": {
+   "A": "Protocols",
+   "B": "Standards",
+   "C": "RFCs",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 53,
+  "q": "When collection of various computers seems a single coherent system to its client, then it is called",
+  "opts": {
+   "A": "computer network",
+   "B": "distributed system",
+   "C": "networking system",
+   "D": "none of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 54,
+  "q": "Two devices are in network if",
+  "opts": {
+   "A": "a process in one device is able to exchange information with a process in another device",
+   "B": "a process is running on both devices",
+   "C": "PIDs of the processes running of different devices are same",
+   "D": "none of these"
+  },
+  "flags": [
+   "misprint"
+  ]
+ },
+ {
+  "no": 55,
+  "q": "Communication channel is shared by all the machines on the network in",
+  "opts": {
+   "A": "broadcast network",
+   "B": "unicast network",
+   "C": "multicast network",
+   "D": "none of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 56,
+  "q": "Bluetooth is an example of",
+  "opts": {
+   "A": "personal area network",
+   "B": "local area network",
+   "C": "virtual private network",
+   "D": "none of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 57,
+  "q": "A __________ is a device that forwards packets between networks by processing the routing information included in the packet.",
+  "opts": {
+   "A": "bridge",
+   "B": "firewall",
+   "C": "router",
+   "D": "all of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 58,
+  "q": "A list of protocols used by a system, one protocol per layer, is called",
+  "opts": {
+   "A": "protocol architecture",
+   "B": "protocol stack",
+   "C": "protocol suit",
+   "D": "none of these"
+  },
+  "flags": [
+   "misprint"
+  ]
+ },
+ {
+  "no": 59,
+  "q": "Which one of the following extends a private network across public networks?",
+  "opts": {
+   "A": "local area network",
+   "B": "virtual private network",
+   "C": "enterprise private network",
+   "D": "storage area network"
+  },
+  "flags": []
+ },
+ {
+  "no": 60,
+  "q": "The number of layers in Internet protocol stack",
+  "opts": {
+   "A": "5",
+   "B": "7",
+   "C": "6",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 61,
+  "q": "Application layer is implemented in",
+  "opts": {
+   "A": "End system",
+   "B": "NIC",
+   "C": "Ethernet",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 62,
+  "q": "In the OSI model, as a data packet moves from the lower to the upper layers, headers are ________",
+  "opts": {
+   "A": "Added",
+   "B": "Removed",
+   "C": "Rearranged",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 63,
+  "q": "Identify the statement which cannot be associated with OSI model",
+  "opts": {
+   "A": "A structured way to discuss and easier update syatem components",
+   "B": "One layer may duplicate lower layer functionality",
+   "C": "Functionality at one layer no way requires information from another layer",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 64,
+  "q": "Which address identifies a process on a host?",
+  "opts": {
+   "A": "physical address",
+   "B": "logical address",
+   "C": "port address",
+   "D": "specific address"
+  },
+  "flags": []
+ },
+ {
+  "no": 65,
+  "q": "The physical layer concerns with",
+  "opts": {
+   "A": "bit-by-bit delivery",
+   "B": "process to process delivery",
+   "C": "application to application delivery",
+   "D": "none of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 66,
+  "q": "physical layer provides",
+  "opts": {
+   "A": "mechanical specifications of electrical connectors and cables",
+   "B": "electrical specification of transmission line signal level",
+   "C": "specification for IR over optical fiber",
+   "D": "all of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 67,
+  "q": "The physical layer translates logical communication requests from the __________ into hardware specific operations.",
+  "opts": {
+   "A": "data link layer",
+   "B": "network layer",
+   "C": "trasnport layer",
+   "D": "application layer"
+  },
+  "flags": []
+ },
+ {
+  "no": 68,
+  "q": "Wireless transmission can be done via",
+  "opts": {
+   "A": "radio waves",
+   "B": "microwaves",
+   "C": "infrared",
+   "D": "all of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 69,
+  "q": "Which sublayer of the data link layer performs data link functions that depend upon the type of medium?",
+  "opts": {
+   "A": "logical link control sublayer",
+   "B": "media access control sublayer",
+   "C": "network interface control sublayer",
+   "D": "none of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 70,
+  "q": "The Hamming distance between equal code words is __________.",
+  "opts": {
+   "A": "0",
+   "B": "1",
+   "C": "n",
+   "D": "2n"
+  },
+  "flags": []
+ },
+ {
+  "no": 71,
+  "q": "Which one of the following models is not suitable for accommodating any change?",
+  "opts": {
+   "A": "Build & Fix Model",
+   "B": "Prototyping Model",
+   "C": "Evolutionary Model",
+   "D": "Waterfall Model"
+  },
+  "flags": []
+ },
+ {
+  "no": 72,
+  "q": "Which of the following life cycle model can be chosen if the development team has less experience on similar projects?",
+  "opts": {
+   "A": "Spiral",
+   "B": "Waterfall",
+   "C": "RAD",
+   "D": "Iterative Enhancement Model"
+  },
+  "flags": []
+ },
+ {
+  "no": 73,
+  "q": "Choose an internal software quality from given below:",
+  "opts": {
+   "A": "scalability",
+   "B": "usability",
+   "C": "reusability",
+   "D": "reliability"
+  },
+  "flags": []
+ },
+ {
+  "no": 74,
+  "q": "Which one of the following is a requirement that fits in a developer’s module ?",
+  "opts": {
+   "A": "Availability",
+   "B": "Testability",
+   "C": "Usability",
+   "D": "Flexibility"
+  },
+  "flags": []
+ },
+ {
+  "no": 75,
+  "q": "Coupling is a qualitative indication of the degree to which a module",
+  "opts": {
+   "A": "can be written more compactly",
+   "B": "focuses on just one thing",
+   "C": "is able to complete its function in a timely manner",
+   "D": "is connected to other modules and the outside world"
+  },
+  "flags": []
+ },
+ {
+  "no": 76,
+  "q": "In size oriented metrics, metrics are developed based on the __________",
+  "opts": {
+   "A": "number of Functions",
+   "B": "number of user inputs",
+   "C": "number of lines of code",
+   "D": "amount of memory usage"
+  },
+  "flags": []
+ },
+ {
+  "no": 77,
+  "q": "Which of the following risk is the failure of a purchased component to perform as expected?",
+  "opts": {
+   "A": "Product risk",
+   "B": "Project risk",
+   "C": "Business risk",
+   "D": "Programming risk"
+  },
+  "flags": []
+ },
+ {
+  "no": 78,
+  "q": "Which granularity level of testing checks the behavior of module cooperation?",
+  "opts": {
+   "A": "Unit Testing",
+   "B": "Integration Testing",
+   "C": "Acceptance Testing",
+   "D": "Regression Testing"
+  },
+  "flags": []
+ },
+ {
+  "no": 79,
+  "q": "If P is risk probability, L is loss, then Risk Exposure (RE) is computed as__________ .",
+  "opts": {
+   "A": "RE = P/L",
+   "B": "RE = P + L",
+   "C": "RE = P*L",
+   "D": "RE = 2* P *L"
+  },
+  "flags": []
+ },
+ {
+  "no": 80,
+  "q": "If every requirement can be checked by a cost-effective process, then the SRS is __________ .",
+  "opts": {
+   "A": "Verifiable",
+   "B": "Traceable",
+   "C": "Modifiable",
+   "D": "Complete"
+  },
+  "flags": []
+ },
+ {
+  "no": 81,
+  "q": "Which chart is a tool that depicts project as network diagram that is capable of graphically representing main events of project in both parallel and consecutive way?",
+  "opts": {
+   "A": "PERT chart",
+   "B": "Gantt chart",
+   "C": "Pie Chart",
+   "D": "Bar Chart"
+  },
+  "flags": []
+ },
+ {
+  "no": 82,
+  "q": "Which is the most important feature of spiral model?",
+  "opts": {
+   "A": "Quality management",
+   "B": "Risk management",
+   "C": "Performance management",
+   "D": "Efficiency management"
+  },
+  "flags": []
+ },
+ {
+  "no": 83,
+  "q": "The model in which the requirements are implemented by its category is __________ .",
+  "opts": {
+   "A": "Evolutionary Development Model",
+   "B": "Waterfall Model",
+   "C": "Prototyping",
+   "D": "Iterative Enhancement Model"
+  },
+  "flags": []
+ },
+ {
+  "no": 84,
+  "q": "Identify the disadvantage of Spiral Model.",
+  "opts": {
+   "A": "Doesn’t work well for smaller projects",
+   "B": "High amount of risk analysis",
+   "C": "Strong approval and documentation control",
+   "D": "Additional Functionality can be added at a later date"
+  },
+  "flags": []
+ },
+ {
+  "no": 85,
+  "q": "In which test design each input is tested at both ends of its valid range and just outside its valid range?",
+  "opts": {
+   "A": "Boundary value testing",
+   "B": "Equivalence class partitioning",
+   "C": "Boundary value testing AND Equivalence class partitioning",
+   "D": "Decision tables"
+  },
+  "flags": []
+ },
+ {
+  "no": 86,
+  "q": "Which of the following is not defined in a good Software Requirement Specification (SRS) document?",
+  "opts": {
+   "A": "Functional Requirement",
+   "B": "Nonfunctional Requirement",
+   "C": "Goals of implementation",
+   "D": "Algorithm for software implementation"
+  },
+  "flags": []
+ },
+ {
+  "no": 87,
+  "q": "Which of the following is not a characteristic common to all design methods?",
+  "opts": {
+   "A": "configuration management",
+   "B": "functional component",
+   "C": "notation quality assessment",
+   "D": "guidelines refinement heuristics"
+  },
+  "flags": []
+ },
+ {
+  "no": 88,
+  "q": "Checking quality of software in both simulated and live environments is known as",
+  "opts": {
+   "A": "Validity",
+   "B": "Usability",
+   "C": "Checking",
+   "D": "Validation"
+  },
+  "flags": []
+ },
+ {
+  "no": 89,
+  "q": "Which may be estimated either in terms of KLOC (Kilo Line of Code) or by calculating number of function points in the software?",
+  "opts": {
+   "A": "Time estimation",
+   "B": "Effort estimation",
+   "C": "Cost estimation",
+   "D": "Software size estimation"
+  },
+  "flags": []
+ },
+ {
+  "no": 90,
+  "q": "Selection of a model is based on",
+  "opts": {
+   "A": "Requirements",
+   "B": "Development team & Users",
+   "C": "Project type and associated risk",
+   "D": "All of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 91,
+  "q": "Which two models doesn’t allow defining requirements early in the cycle?",
+  "opts": {
+   "A": "Waterfall & RAD",
+   "B": "Prototyping & Spiral",
+   "C": "Prototyping & RAD",
+   "D": "Waterfall & Spiral"
+  },
+  "flags": []
+ },
+ {
+  "no": 92,
+  "q": "Which one of the following is not a software process quality?",
+  "opts": {
+   "A": "Productivity",
+   "B": "Portability",
+   "C": "Timeliness",
+   "D": "Visibility"
+  },
+  "flags": []
+ },
+ {
+  "no": 93,
+  "q": "Purpose of process is to deliver software",
+  "opts": {
+   "A": "in time",
+   "B": "with acceptable quality",
+   "C": "that is cost efficient",
+   "D": "both ‘in time’ & ‘with acceptable quality’"
+  },
+  "flags": []
+ },
+ {
+  "no": 94,
+  "q": "The work associated with software engineering can be categorized into three generic phases,regardless of application area, project size, or complexity namely the__________ phase which focuses on what, the__________ phase which focuses on how and the__________ phase which focuses on change.\ni. support\nii. development\niii. definition",
+  "opts": {
+   "A": "i, ii, iii",
+   "B": "ii, i, iii",
+   "C": "iii, ii, i",
+   "D": "iii, i, ii"
+  },
+  "flags": []
+ },
+ {
+  "no": 95,
+  "q": "Which is one of the most important stakeholder from the following ?",
+  "opts": {
+   "A": "Entry level personnel",
+   "B": "Middle level stakeholder",
+   "C": "Managers",
+   "D": "Users of the software"
+  },
+  "flags": []
+ },
+ {
+  "no": 96,
+  "q": "Which is the first step in the software development life cycle ?",
+  "opts": {
+   "A": "Analysis",
+   "B": "Design",
+   "C": "Problem/Opportunity Identification",
+   "D": "Development and Documentation"
+  },
+  "flags": []
+ },
+ {
+  "no": 97,
+  "q": "In Design phase, which is the primary area of concern?",
+  "opts": {
+   "A": "Architecture",
+   "B": "Data",
+   "C": "Interface",
+   "D": "All of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 98,
+  "q": "Architectural Design Metrics are __________ in nature.",
+  "opts": {
+   "A": "Black Box",
+   "B": "White Box",
+   "C": "Gray Box",
+   "D": "Green Box"
+  },
+  "flags": []
+ },
+ {
+  "no": 99,
+  "q": "The amount of time that the software is available for use is known as",
+  "opts": {
+   "A": "Reliability",
+   "B": "Usability",
+   "C": "Efficiency",
+   "D": "Functionality"
+  },
+  "flags": []
+ },
+ {
+  "no": 100,
+  "q": "What are attributes of good software?",
+  "opts": {
+   "A": "Software maintainability",
+   "B": "Software functionality",
+   "C": "Software development",
+   "D": "Software maintainability & functionality"
+  },
+  "flags": []
+ }
+]

@@ -1,0 +1,512 @@
+[
+ {
+  "no": 1,
+  "q": "Database __________, which is the logical design of the database, and the database __________, which is a snapshot of the data in the database at a given instant in time.",
+  "opts": {
+   "A": "Instance, Schema",
+   "B": "Relation, Schema",
+   "C": "Relation, Domain",
+   "D": "Schema, Instance"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence"
+ },
+ {
+  "no": 2,
+  "q": "A domain is atomic if elements of the domain are considered to be __________ units.",
+  "opts": {
+   "A": "Different",
+   "B": "Indivisible",
+   "C": "Constant",
+   "D": "Divisible"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra"
+ },
+ {
+  "no": 3,
+  "q": "A attribute in a relation is a foreign key if the __________ key from one relation is used as an attribute in that relation.",
+  "opts": {
+   "A": "Candidate",
+   "B": "Primary",
+   "C": "Super",
+   "D": "Sub"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra"
+ },
+ {
+  "no": 4,
+  "q": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
+  "opts": {
+   "A": "Referential",
+   "B": "Referencing",
+   "C": "Specific",
+   "D": "Primary"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra"
+ },
+ {
+  "no": 5,
+  "q": "Which one of the following is a procedural language ?",
+  "opts": {
+   "A": "Domain relational calculus",
+   "B": "Tuple relational calculus",
+   "C": "Relational algebra",
+   "D": "Query language"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra"
+ },
+ {
+  "no": 6,
+  "q": "Identify which of the following operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.",
+  "opts": {
+   "A": "Join",
+   "B": "Cartesian product",
+   "C": "Intersection",
+   "D": "Set difference"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra"
+ },
+ {
+  "no": 7,
+  "q": "The basic data type char(n) is a __________ length character string and varchar(n) is __________ length character.",
+  "opts": {
+   "A": "Fixed, equal",
+   "B": "Equal, variable",
+   "C": "Fixed, variable",
+   "D": "Variable, equal"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 8,
+  "q": "To remove a relation from an SQL database, we use the __________ command.",
+  "opts": {
+   "A": "Delete",
+   "B": "Purge",
+   "C": "Remove",
+   "D": "Drop table"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 9,
+  "q": "__________ clause is an additional filter that is applied to the result.",
+  "opts": {
+   "A": "Select",
+   "B": "Group-by",
+   "C": "Having",
+   "D": "Order by"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 10,
+  "q": "Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the MilleniumCenter building which is in department relation.",
+  "opts": {
+   "A": "DELETE FROM instructor\nWHERE dept_name IN ‘ MilleniumCenter ‘;",
+   "B": "DELETE FROM department\nWHERE building=’ MilleniumCenter ‘;",
+   "C": "DELETE FROM instructor\nWHERE dept_name IN (SELECT dept name\nFROM department\nWHERE building = ’ MilleniumCenter’);",
+   "D": "None of these"
+  },
+  "flags": [
+   "misprint"
+  ],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 11,
+  "q": "In order to undo the work of transaction after last commit which one should be used?",
+  "opts": {
+   "A": "View",
+   "B": "Commit",
+   "C": "Rollback",
+   "D": "Flashback"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability"
+ },
+ {
+  "no": 12,
+  "q": "To include integrity constraint in a existing relation use :",
+  "opts": {
+   "A": "Create table",
+   "B": "Modify table",
+   "C": "Alter table",
+   "D": "Drop table"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 13,
+  "q": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
+  "opts": {
+   "A": "Strong entity set",
+   "B": "Variant set",
+   "C": "Weak entity set",
+   "D": "Variable set"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling"
+ },
+ {
+  "no": 14,
+  "q": "In the __________ normal form, a composite attribute is converted to individual attributes.",
+  "opts": {
+   "A": "First",
+   "B": "Second",
+   "C": "Third",
+   "D": "Fourth"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms"
+ },
+ {
+  "no": 15,
+  "q": "Empdt1(empcode, name, street, city, state,pincode).\nFor any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, Empdt1 is a relation in",
+  "opts": {
+   "A": "1 NF only",
+   "B": "2 NF and hence also in 1 NF",
+   "C": "3NF and hence also in 2NF and 1NF",
+   "D": "BCNF and hence also in 3NF, 2NF and 1NF"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms"
+ },
+ {
+  "no": 16,
+  "q": "Each modification done in database transaction are first recorded into the",
+  "opts": {
+   "A": "Hard drive",
+   "B": "Log",
+   "C": "Disk",
+   "D": "Datamart"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability"
+ },
+ {
+  "no": 17,
+  "q": "Which of the following is not a Armstrong’s Axiom?",
+  "opts": {
+   "A": "Reflexivity rule",
+   "B": "Transitivity rule",
+   "C": "Pseudotransitivity rule",
+   "D": "Augmentation rule"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms"
+ },
+ {
+  "no": 18,
+  "q": "The subset of super key is a candidate key under what condition?",
+  "opts": {
+   "A": "No proper subset is a super key",
+   "B": "All subsets are super keys",
+   "C": "Subset is a super key",
+   "D": "Each subset is a super key"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra"
+ },
+ {
+  "no": 19,
+  "q": "Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas?",
+  "opts": {
+   "A": "DML(Data Manipulation Langauge)",
+   "B": "DDL(Data Definition Langauge)",
+   "C": "Query",
+   "D": "Relational Schema"
+  },
+  "flags": [
+   "misprint"
+  ],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 20,
+  "q": "An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value “Reed” .Here attribute A has __________ spaces and attribute B has __________ spaces.",
+  "opts": {
+   "A": "3, 20",
+   "B": "20, 4",
+   "C": "20 , 20",
+   "D": "3, 4"
+  },
+  "flags": [
+   "misprint"
+  ],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 21,
+  "q": "’_ _ _ ’ matches any string of __________ three characters. ’_ _ _ %’ matches any string of at __________ three characters.",
+  "opts": {
+   "A": "Atleast, Exactly",
+   "B": "Exactly, Atleast",
+   "C": "Atleast, All",
+   "D": "All , Exactly"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 22,
+  "q": "In SQL the spaces at the end of the string are removed by __________ function .",
+  "opts": {
+   "A": "Upper",
+   "B": "String",
+   "C": "Trim",
+   "D": "Lower"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 23,
+  "q": "What type of join is needed when you wish to include rows that do not have matching values?",
+  "opts": {
+   "A": "Equi-join",
+   "B": "Natural join",
+   "C": "Outer join",
+   "D": "All of these"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 24,
+  "q": "The attribute AGE is calculated from DATE_OF_BIRTH . The attribute AGE is",
+  "opts": {
+   "A": "Single valued",
+   "B": "Multi valued",
+   "C": "Composite",
+   "D": "Derived"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling"
+ },
+ {
+  "no": 25,
+  "q": "Updates that violate __________ are disallowed.",
+  "opts": {
+   "A": "Integrity constraints",
+   "B": "Transaction control",
+   "C": "Authorization",
+   "D": "DDL constraints"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra"
+ },
+ {
+  "no": 26,
+  "q": "Insert into instructor values (10211, ’Smith’, ’Biology’, 66000);\nWhat type of statement is this ?",
+  "opts": {
+   "A": "DLL",
+   "B": "DML",
+   "C": "Relational",
+   "D": "DDL"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 27,
+  "q": "Fill in with correct keyword to update the instructor relation.\nUPDATE instructor __________ salary= salary * 1.05;",
+  "opts": {
+   "A": "Where",
+   "B": "Set",
+   "C": "In",
+   "D": "Select"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 28,
+  "q": "In relational algebra, for select operation the __________ appear in the subscript and the __________ argument appears in the parenthesis after the sigma.",
+  "opts": {
+   "A": "Predicates, relation",
+   "B": "Relation, Predicates",
+   "C": "Operation, Predicates",
+   "D": "Relation, Operation"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra"
+ },
+ {
+  "no": 29,
+  "q": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of",
+  "opts": {
+   "A": "Checkpoint facility",
+   "B": "Backup facility",
+   "C": "Recovery manager",
+   "D": "Database change log"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability"
+ },
+ {
+  "no": 30,
+  "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies:\nA → B\nB → C\nBC → A\nA → D\nE → A\nD → E\nWhich of the following is not a key?",
+  "opts": {
+   "A": "A",
+   "B": "E",
+   "C": "B,C",
+   "D": "D"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms"
+ },
+ {
+  "no": 31,
+  "q": "Which of the following is used to insert a tuple from another relation.",
+  "opts": {
+   "A": "INSERT INTO course (courseid, title, deptname, credits)\nVALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);",
+   "B": "INSERT INTO instructor\nSELECT ID, name, deptname, 18000\nFROM student\nWHERE deptname = ’Music’ AND totcred > 144;",
+   "C": "INSERT INTO course VALUES (’CS-437’, ’DATABASESystems’, ’CompSci.’, 4);",
+   "D": "None of these"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements"
+ },
+ {
+  "no": 32,
+  "q": "Which of the following protocols ensures conflict serializability and safety from deadlocks?",
+  "opts": {
+   "A": "Two-phase locking protocol",
+   "B": "Time-stamp ordering protocol",
+   "C": "Graph based protocol",
+   "D": "None of these"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Concurrency control, locking and time stamping"
+ },
+ {
+  "no": 33,
+  "q": "If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an __________ on all the records belonging to that file.",
+  "opts": {
+   "A": "Explicit lock in exclusive mode",
+   "B": "Implicit lock in shared mode",
+   "C": "Explicit lock in shared mode",
+   "D": "Implicit lock in exclusive mode"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Concurrency control, locking and time stamping"
+ },
+ {
+  "no": 34,
+  "q": "A top to bottom relationship among the items in a database is established by a:",
+  "opts": {
+   "A": "Hierarchical Schema",
+   "B": "Relational Schema",
+   "C": "Network Schema",
+   "D": "Distributed Schema"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra"
+ },
+ {
+  "no": 35,
+  "q": "The level of data abstraction which describes how the data is actually stored is:",
+  "opts": {
+   "A": "Physical level",
+   "B": "Conceptual level",
+   "C": "External level",
+   "D": "View level"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence"
+ },
+ {
+  "no": 53,
+  "q": "When collection of various computers seems a single coherent system to its client, then it is called",
+  "opts": {
+   "A": "computer network",
+   "B": "distributed system",
+   "C": "networking system",
+   "D": "none of these"
+  },
+  "flags": [],
+  "paper": "TECH2",
+  "unit": "4",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture"
+ }
+]

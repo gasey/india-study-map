@@ -1,0 +1,902 @@
+[
+ {
+  "no": 1,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "why": "Schema (logical design) versus instance (snapshot at an instant) is the core schema/instance distinction taught as a basic database system concept alongside data independence.",
+  "confidence": "high"
+ },
+ {
+  "no": 2,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Atomic domains — whether domain elements are indivisible — is a property of domains in the relational model, named explicitly in this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 3,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Foreign key defined via the primary key of another relation; this is straight relational-model key terminology.",
+  "confidence": "high"
+ },
+ {
+  "no": 4,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Referential integrity stated in referencing/referenced relation terms is a foreign-key constraint of the relational model. Could arguably sit under SQL constraints, hence medium.",
+  "confidence": "medium"
+ },
+ {
+  "no": 5,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Asks which of relational algebra / tuple calculus / domain calculus is procedural; relational algebra is named verbatim in this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 6,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "All pairs of tuples regardless of matching attribute values is the Cartesian product, a relational algebra operation.",
+  "confidence": "high"
+ },
+ {
+  "no": 7,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "char(n) fixed-length vs varchar(n) variable-length are SQL basic data types. The leaf names SQL but emphasises query statements, so the fit to data types is slightly loose.",
+  "confidence": "medium"
+ },
+ {
+  "no": 8,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Removing a relation is the SQL DROP TABLE statement — basic SQL DDL.",
+  "confidence": "high"
+ },
+ {
+  "no": 9,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "HAVING as an additional filter applied to the grouped result is a basic SQL query clause.",
+  "confidence": "high"
+ },
+ {
+  "no": 10,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks which DELETE statement, including a nested SELECT subquery, is correct — basic SQL, judged as printed despite the mangled quoting and 'dept name' typo in option C.",
+  "confidence": "high"
+ },
+ {
+  "no": 11,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "ROLLBACK to undo a transaction's work is transaction control; sits under transaction processing and recoverability. Could also be read as a plain SQL-command question, hence medium.",
+  "confidence": "medium"
+ },
+ {
+  "no": 12,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Adding an integrity constraint to an existing relation is ALTER TABLE — basic SQL DDL.",
+  "confidence": "high"
+ },
+ {
+  "no": 13,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "An entity set with insufficient attributes for a primary key is a weak entity set, a pure ER modelling term.",
+  "confidence": "high"
+ },
+ {
+  "no": 14,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Which normal form converts a composite attribute into individual attributes (1NF) is directly a normal-forms question.",
+  "confidence": "high"
+ },
+ {
+  "no": 15,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Given the stated functional dependencies on Empdt1, decide the highest normal form it satisfies — functional dependencies and normal forms exactly.",
+  "confidence": "high"
+ },
+ {
+  "no": 16,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "Each modification being recorded first in the log is write-ahead logging, the mechanism behind recoverability. The leaf says 'recoverability' rather than 'recovery/logging', so the match is good but not literal.",
+  "confidence": "medium"
+ },
+ {
+  "no": 17,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Armstrong's Axioms are the inference rules for functional dependencies, named in this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 18,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "A candidate key is a minimal superkey (no proper subset is a superkey) — relational-model key definitions.",
+  "confidence": "high"
+ },
+ {
+  "no": 19,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Defining relation structure, deleting relations and relating schemas is DDL, a part of SQL. Judged as printed despite the garbled 'relating schemas' phrasing and the 'Langauge' misspellings in the options.",
+  "confidence": "high"
+ },
+ {
+  "no": 20,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Blank-padding behaviour of char(20) versus varchar(20) is SQL string data-type semantics. Same slight looseness as Q7: data types rather than query statements.",
+  "confidence": "medium"
+ },
+ {
+  "no": 21,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Tests the SQL LIKE pattern wildcards '_' and '%' in a string-matching predicate; a basic SQL query-statement topic.",
+  "confidence": "high"
+ },
+ {
+  "no": 22,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks for the SQL built-in string function that strips trailing spaces (RTRIM/TRIM) — SQL built-in functions used in query statements.",
+  "confidence": "high"
+ },
+ {
+  "no": 23,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks which join type retains non-matching rows (outer join). Join types are part of basic SQL query statements.",
+  "confidence": "high"
+ },
+ {
+  "no": 24,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "AGE computed from DATE_OF_BIRTH is the textbook definition of a derived attribute, an Entity-Relationship modelling concept.",
+  "confidence": "high"
+ },
+ {
+  "no": 25,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Standard textbook line about updates violating integrity constraints being disallowed; integrity constraints on keys/domains belong to the relational model leaf. Could arguably sit under SQL instead, hence not full confidence.",
+  "confidence": "medium"
+ },
+ {
+  "no": 26,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Classifies an INSERT INTO ... VALUES statement (a DML statement). Straight SQL statement identification.",
+  "confidence": "high"
+ },
+ {
+  "no": 27,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Fill in the SQL keyword (SET) in an UPDATE statement — basic SQL query/DML statement syntax.",
+  "confidence": "high"
+ },
+ {
+  "no": 28,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Relational algebra select (sigma): predicate in the subscript, relation argument in parentheses. Explicitly the relational algebra part of this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 29,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "Describes checkpointing — suspending processing to synchronize data files with the log/journal — which is recovery machinery under transaction processing and recoverability.",
+  "confidence": "high"
+ },
+ {
+  "no": 30,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Given a set of functional dependencies over R(A,B,C,D,E), identify which attribute set is not a key — closure/candidate-key computation from FDs.",
+  "confidence": "high"
+ },
+ {
+  "no": 31,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks which construct inserts tuples drawn from another relation (INSERT INTO ... SELECT) — basic SQL statement form.",
+  "confidence": "high"
+ },
+ {
+  "no": 32,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Concurrency control, locking and time stamping",
+  "why": "Asks which concurrency-control protocol guarantees conflict serializability and freedom from deadlock (tree/graph-based or timestamp protocol).",
+  "confidence": "high"
+ },
+ {
+  "no": 33,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Concurrency control, locking and time stamping",
+  "why": "Multiple-granularity locking: an explicit exclusive lock on a file confers an implicit lock on its records. Locking protocol content.",
+  "confidence": "high"
+ },
+ {
+  "no": 34,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "A 'top to bottom' relationship among database items is the hierarchical data model; the leaf opens with 'Data models', which covers the classical model taxonomy. Fit is arguable because the leaf's detail is relational-specific.",
+  "confidence": "medium"
+ },
+ {
+  "no": 35,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "why": "The abstraction level describing how data is actually stored is the physical/internal level — three-schema architecture and data independence.",
+  "confidence": "high"
+ },
+ {
+  "no": 36,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Process-to-process delivery is the OSI/TCP-IP transport layer. This is general data communications and networking; the 2026 syllabus has no networking unit, and TECH2 Unit 2's web leaf covers HTTP/HTTPS/DNS and client-server web architecture, not the OSI layer model.",
+  "confidence": "high"
+ },
+ {
+  "no": 37,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Identifying the host-to-host layers of the OSI reference model is general data communications/networking, which no unit of TECH1 or TECH2 covers.",
+  "confidence": "high"
+ },
+ {
+  "no": 38,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Routing and the OSI network layer — data communications and networking. Routing is explicitly outside the web-architecture leaf, which is about HTTP/HTTPS, DNS and hosting.",
+  "confidence": "high"
+ },
+ {
+  "no": 39,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Multiplexing techniques for digital signals (TDM vs FDM/WDM) are physical-layer data communications; no 2026 unit covers transmission or multiplexing.",
+  "confidence": "high"
+ },
+ {
+  "no": 40,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Statistical/asynchronous TDM slot allocation — data communications, outside every TECH1 and TECH2 unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 41,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "ASK/PSK/FSK/QAM as digital-to-analog encoding is signal modulation, part of physical-layer data communications. The 2026 syllabus has no data-communications unit; TECH2 Unit 2 covers web architecture, not signal encoding.",
+  "confidence": "high"
+ },
+ {
+  "no": 42,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "A baud-rate / modulation-rate calculation for 16-level PSK. Pure data communications (physical layer signalling), which the 2026 syllabus does not cover anywhere.",
+  "confidence": "high"
+ },
+ {
+  "no": 43,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Length of an Ethernet MAC address. LAN/data-link addressing, i.e. data communications and networking, not web architecture or any other 2026 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 44,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "The control/data TCP connections used by FTP. FTP is a file-transfer protocol from a networking course; the nearest leaf covers HTTP/HTTPS, DNS and hosting specifically, and stretching it to FTP is not warranted.",
+  "confidence": "medium"
+ },
+ {
+  "no": 45,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Well-known TCP port number for SMTP. Email transport protocol trivia from data communications; no 2026 leaf covers SMTP or port numbering.",
+  "confidence": "high"
+ },
+ {
+  "no": 46,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "TCP three-way handshake for connection establishment. Transport-layer networking; the web leaf covers the client-server web model and HTTP/HTTPS, not TCP connection setup mechanics.",
+  "confidence": "medium"
+ },
+ {
+  "no": 47,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Telnet operating modes and duplex behaviour. Remote-login protocol from data communications; not covered by any TECH1 or TECH2 unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 48,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Simple parity check as a single-redundant-bit error detection method. Error detection is explicitly a data-communications topic with no home in the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 49,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Terminology for multi-bit (burst) errors in a data unit. Error types in data transmission — data communications, not on the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 50,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Peer-to-peer versus dedicated-server/LAN/WAN network taxonomy. This tests network types from a data-communications course rather than the client-server web architecture leaf of TECH2 Unit 2.",
+  "confidence": "medium"
+ },
+ {
+  "no": 51,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of the transmission medium as the physical path of a message. Transmission media is core data communications, absent from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 52,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of a protocol as the rules governing data communication. Introductory data-communications terminology, not covered by any 2026 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 53,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "4",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "why": "This is the standard definition of a distributed system (a collection of computers appearing to its users as a single coherent system), which is the opening concept of the distributed/cloud computing leaf. It is printed inside a networking block, so the fit is good but not airtight.",
+  "confidence": "medium"
+ },
+ {
+  "no": 54,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of when two devices are networked (processes able to exchange information). Introductory data-communications material with no 2026 leaf; the printed option (c) is also garbled ('running of different devices').",
+  "confidence": "high"
+ },
+ {
+  "no": 55,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Broadcast versus unicast/multicast network classification. Data communications transmission modes, not covered by the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 56,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Bluetooth as a personal area network. Network scale classification (PAN/LAN/VPN) from data communications; no 2026 leaf covers it.",
+  "confidence": "high"
+ },
+ {
+  "no": 57,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Identifying a router as the device that forwards packets using routing information. Internetworking devices and routing are data communications, explicitly outside the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 58,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of a protocol stack (one protocol per layer). Layered network architecture terminology from data communications; note the printed option (c) misspells 'suite' as 'suit'.",
+  "confidence": "high"
+ },
+ {
+  "no": 59,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "VPN as a private network extended across public networks. Network types from data communications; the cloud unit's networking leaf concerns cloud networking services, not VPN-versus-LAN terminology.",
+  "confidence": "medium"
+ },
+ {
+  "no": 60,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Number of layers in the Internet (TCP/IP) protocol stack. Layered network models are data communications, which the 2026 syllabus dropped entirely.",
+  "confidence": "high"
+ },
+ {
+  "no": 61,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Asks where the OSI/TCP-IP application layer is implemented (end system vs NIC vs Ethernet). This is general data communications / OSI layering, not web architecture; no TECH1 or TECH2 leaf covers the OSI stack.",
+  "confidence": "high"
+ },
+ {
+  "no": 62,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Header encapsulation/decapsulation as a packet moves up the OSI layers. Pure data communications and networking, which the 2026 syllabus does not contain.",
+  "confidence": "high"
+ },
+ {
+  "no": 63,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Properties of the OSI reference model (layer independence, duplicated functionality). General networking theory; no leaf in either paper covers the OSI model.",
+  "confidence": "high"
+ },
+ {
+  "no": 64,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Addressing levels in TCP/IP — physical vs logical vs port vs specific address. This is data communications addressing, not OS process management and not web architecture.",
+  "confidence": "high"
+ },
+ {
+  "no": 65,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Function of the OSI physical layer (bit-by-bit delivery). Data communications; outside the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 66,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Mechanical and electrical specifications provided by the physical layer, i.e. connectors, cables and signal levels. Transmission media / data communications, explicitly outside the current syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 67,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Relationship between the physical layer and the layer above it in the OSI stack. General networking layering, not covered by any TECH1 or TECH2 unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 68,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Wireless transmission media — radio, microwave, infrared. Transmission media is data communications and has no leaf in the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 69,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "LLC vs MAC sublayers of the data link layer. Data communications / LAN standards; not web architecture and not in any unit of either paper.",
+  "confidence": "high"
+ },
+ {
+  "no": 70,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Hamming distance between identical code words — error detection and coding theory. The Discrete Mathematics unit covers sets, logic, combinatorics, graphs, automata and fuzzy sets, none of which reach coding theory.",
+  "confidence": "medium"
+ },
+ {
+  "no": 71,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software process models (Build & Fix, Prototyping, Evolutionary, Waterfall) and their ability to absorb change. Software engineering, which the 2026 syllabus dropped entirely.",
+  "confidence": "high"
+ },
+ {
+  "no": 72,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Choosing a software life cycle model based on team experience. Software engineering / process models; no unit of TECH1 or TECH2 covers SDLC.",
+  "confidence": "high"
+ },
+ {
+  "no": 73,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Internal vs external software quality attributes. Software quality assurance, part of software engineering and outside the current syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 74,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Classifying a quality requirement as developer-facing (testability) versus user-facing. Software requirements engineering / quality attributes — software engineering.",
+  "confidence": "high"
+ },
+ {
+  "no": 75,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of coupling as a module's degree of interconnection. Cohesion and coupling are software design metrics; the 2026 syllabus contains no software engineering unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 76,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Size-oriented software metrics based on lines of code. Software measurement and project management — software engineering.",
+  "confidence": "high"
+ },
+ {
+  "no": 77,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Risk categories in software project management (product vs project vs business risk). Software engineering; not covered by either paper.",
+  "confidence": "high"
+ },
+ {
+  "no": 78,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Granularity levels of software testing and which one exercises module cooperation. Software testing, part of software engineering and outside the syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 79,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Risk exposure formula RE = P * L from software risk management. Software project management — software engineering, dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 80,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Characteristics of a good SRS (verifiable, traceable, modifiable, complete). Requirements engineering — software engineering, not present in TECH1 or TECH2.",
+  "confidence": "high"
+ },
+ {
+  "no": 81,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software project management / project scheduling tools (PERT vs Gantt). The 2026 syllabus has no software engineering or project management unit. The words 'network diagram' brush against TECH1 Unit 1 'Graph theory, trees and graph algorithms', but the question tests recognition of a PM charting tool, not any graph-theoretic property or algorithm.",
+  "confidence": "medium"
+ },
+ {
+  "no": 82,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software process models — the defining feature of the Spiral model. Software engineering was dropped entirely from the 2026 syllabus; no TECH1 or TECH2 unit covers SDLC process models.",
+  "confidence": "high"
+ },
+ {
+  "no": 83,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software process models (Iterative Enhancement vs Waterfall vs Prototyping). Software engineering / SDLC is not in the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 84,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software process models — drawbacks of the Spiral model. No unit of TECH1 or TECH2 covers software engineering process models.",
+  "confidence": "high"
+ },
+ {
+  "no": 85,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software testing — black-box test design techniques (boundary value analysis vs equivalence partitioning). Testing is part of software engineering, which the 2026 syllabus does not contain.",
+  "confidence": "high"
+ },
+ {
+  "no": 86,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Requirements engineering — contents of an SRS document. The brief names SRS explicitly as dropped software engineering material.",
+  "confidence": "high"
+ },
+ {
+  "no": 87,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software design methodology — the common characteristics of software design methods (notation, refinement heuristics, quality assessment). Software engineering design is not in the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 88,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software quality assurance — verification vs validation. SQA is software engineering, which the 2026 syllabus dropped.",
+  "confidence": "high"
+ },
+ {
+  "no": 89,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software size/effort estimation via KLOC and function points. Software project estimation is software engineering; note this is unrelated to TECH1 Unit 3's 'Algorithm development and complexity', which is about asymptotic algorithmic cost, not project metrics.",
+  "confidence": "high"
+ },
+ {
+  "no": 90,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Criteria for selecting a software process model. Software engineering / SDLC, absent from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 91,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Comparison of software process models on when requirements are fixed. Software engineering process models are not in the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 92,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software process quality attributes (productivity, timeliness, visibility) versus product attributes. Software engineering quality material, not covered by any 2026 unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 93,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Purpose/goals of a software process. Software engineering, dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 94,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "The three generic phases of software engineering (definition, development, support). Explicitly software engineering, absent from TECH1 and TECH2.",
+  "confidence": "high"
+ },
+ {
+  "no": 95,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Stakeholder identification in requirements engineering / systems analysis. The brief lists systems analysis and requirements work as dropped material.",
+  "confidence": "high"
+ },
+ {
+  "no": 96,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "The ordering of SDLC phases. SDLC is software engineering and systems analysis, which the 2026 syllabus does not contain.",
+  "confidence": "high"
+ },
+ {
+  "no": 97,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Areas of concern in the software design phase (architecture, data, interface). This is software-engineering design, not TECH1 Unit 2 computer architecture and not TECH2 Unit 2's MVC/microservices leaf — the word 'Architecture' here is an answer option about design-phase scope.",
+  "confidence": "high"
+ },
+ {
+  "no": 98,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software design metrics — whether architectural design metrics are black-box in nature. Software engineering metrics; no 2026 unit covers them.",
+  "confidence": "high"
+ },
+ {
+  "no": 99,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software product quality attributes (the question describes availability but the printed options offer reliability/usability/efficiency/functionality). Software quality characteristics are software engineering, outside the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 100,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Attributes of good software (maintainability, functionality) — software engineering product quality. Not covered by any TECH1 or TECH2 unit.",
+  "confidence": "high"
+ }
+]

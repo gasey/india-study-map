@@ -1,0 +1,225 @@
+{
+  "range": "61-80",
+  "questions": [
+    {
+      "no": 61,
+      "q": "Application layer is implemented in",
+      "opts": {
+        "A": "End system",
+        "B": "NIC",
+        "C": "Ethernet",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 62,
+      "q": "In the OSI model, as a data packet moves from the lower to the upper layers, headers are ________",
+      "opts": {
+        "A": "Added",
+        "B": "Removed",
+        "C": "Rearranged",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 63,
+      "q": "Identify the statement which cannot be associated with OSI model",
+      "opts": {
+        "A": "A structured way to discuss and easier update syatem components",
+        "B": "One layer may duplicate lower layer functionality",
+        "C": "Functionality at one layer no way requires information from another layer",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 64,
+      "q": "Which address identifies a process on a host?",
+      "opts": {
+        "A": "physical address",
+        "B": "logical address",
+        "C": "port address",
+        "D": "specific address"
+      },
+      "flags": []
+    },
+    {
+      "no": 65,
+      "q": "The physical layer concerns with",
+      "opts": {
+        "A": "bit-by-bit delivery",
+        "B": "process to process delivery",
+        "C": "application to application delivery",
+        "D": "none of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 66,
+      "q": "physical layer provides",
+      "opts": {
+        "A": "mechanical specifications of electrical connectors and cables",
+        "B": "electrical specification of transmission line signal level",
+        "C": "specification for IR over optical fiber",
+        "D": "all of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 67,
+      "q": "The physical layer translates logical communication requests from the __________ into hardware specific operations.",
+      "opts": {
+        "A": "data link layer",
+        "B": "network layer",
+        "C": "trasnport layer",
+        "D": "application layer"
+      },
+      "flags": []
+    },
+    {
+      "no": 68,
+      "q": "Wireless transmission can be done via",
+      "opts": {
+        "A": "radio waves",
+        "B": "microwaves",
+        "C": "infrared",
+        "D": "all of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 69,
+      "q": "Which sublayer of the data link layer performs data link functions that depend upon the type of medium?",
+      "opts": {
+        "A": "logical link control sublayer",
+        "B": "media access control sublayer",
+        "C": "network interface control sublayer",
+        "D": "none of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 70,
+      "q": "The Hamming distance between equal code words is __________.",
+      "opts": {
+        "A": "0",
+        "B": "1",
+        "C": "n",
+        "D": "2n"
+      },
+      "flags": []
+    },
+    {
+      "no": 71,
+      "q": "Which one of the following models is not suitable for accommodating any change?",
+      "opts": {
+        "A": "Build & Fix Model",
+        "B": "Prototyping Model",
+        "C": "Evolutionary Model",
+        "D": "Waterfall Model"
+      },
+      "flags": []
+    },
+    {
+      "no": 72,
+      "q": "Which of the following life cycle model can be chosen if the development team has less experience on similar projects?",
+      "opts": {
+        "A": "Spiral",
+        "B": "Waterfall",
+        "C": "RAD",
+        "D": "Iterative Enhancement Model"
+      },
+      "flags": []
+    },
+    {
+      "no": 73,
+      "q": "Choose an internal software quality from given below:",
+      "opts": {
+        "A": "scalability",
+        "B": "usability",
+        "C": "reusability",
+        "D": "reliability"
+      },
+      "flags": []
+    },
+    {
+      "no": 74,
+      "q": "Which one of the following is a requirement that fits in a developer’s module ?",
+      "opts": {
+        "A": "Availability",
+        "B": "Testability",
+        "C": "Usability",
+        "D": "Flexibility"
+      },
+      "flags": []
+    },
+    {
+      "no": 75,
+      "q": "Coupling is a qualitative indication of the degree to which a module",
+      "opts": {
+        "A": "can be written more compactly",
+        "B": "focuses on just one thing",
+        "C": "is able to complete its function in a timely manner",
+        "D": "is connected to other modules and the outside world"
+      },
+      "flags": []
+    },
+    {
+      "no": 76,
+      "q": "In size oriented metrics, metrics are developed based on the __________",
+      "opts": {
+        "A": "number of Functions",
+        "B": "number of user inputs",
+        "C": "number of lines of code",
+        "D": "amount of memory usage"
+      },
+      "flags": []
+    },
+    {
+      "no": 77,
+      "q": "Which of the following risk is the failure of a purchased component to perform as expected?",
+      "opts": {
+        "A": "Product risk",
+        "B": "Project risk",
+        "C": "Business risk",
+        "D": "Programming risk"
+      },
+      "flags": []
+    },
+    {
+      "no": 78,
+      "q": "Which granularity level of testing checks the behavior of module cooperation?",
+      "opts": {
+        "A": "Unit Testing",
+        "B": "Integration Testing",
+        "C": "Acceptance Testing",
+        "D": "Regression Testing"
+      },
+      "flags": []
+    },
+    {
+      "no": 79,
+      "q": "If P is risk probability, L is loss, then Risk Exposure (RE) is computed as__________ .",
+      "opts": {
+        "A": "RE = P/L",
+        "B": "RE = P + L",
+        "C": "RE = P*L",
+        "D": "RE = 2* P *L"
+      },
+      "flags": []
+    },
+    {
+      "no": 80,
+      "q": "If every requirement can be checked by a cost-effective process, then the SRS is __________ .",
+      "opts": {
+        "A": "Verifiable",
+        "B": "Traceable",
+        "C": "Modifiable",
+        "D": "Complete"
+      },
+      "flags": []
+    }
+  ]
+}

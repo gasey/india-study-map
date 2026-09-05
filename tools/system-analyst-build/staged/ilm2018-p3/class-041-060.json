@@ -1,0 +1,182 @@
+[
+ {
+  "no": 41,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "ASK/PSK/FSK/QAM as digital-to-analog encoding is signal modulation, part of physical-layer data communications. The 2026 syllabus has no data-communications unit; TECH2 Unit 2 covers web architecture, not signal encoding.",
+  "confidence": "high"
+ },
+ {
+  "no": 42,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "A baud-rate / modulation-rate calculation for 16-level PSK. Pure data communications (physical layer signalling), which the 2026 syllabus does not cover anywhere.",
+  "confidence": "high"
+ },
+ {
+  "no": 43,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Length of an Ethernet MAC address. LAN/data-link addressing, i.e. data communications and networking, not web architecture or any other 2026 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 44,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "The control/data TCP connections used by FTP. FTP is a file-transfer protocol from a networking course; the nearest leaf covers HTTP/HTTPS, DNS and hosting specifically, and stretching it to FTP is not warranted.",
+  "confidence": "medium"
+ },
+ {
+  "no": 45,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Well-known TCP port number for SMTP. Email transport protocol trivia from data communications; no 2026 leaf covers SMTP or port numbering.",
+  "confidence": "high"
+ },
+ {
+  "no": 46,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "TCP three-way handshake for connection establishment. Transport-layer networking; the web leaf covers the client-server web model and HTTP/HTTPS, not TCP connection setup mechanics.",
+  "confidence": "medium"
+ },
+ {
+  "no": 47,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Telnet operating modes and duplex behaviour. Remote-login protocol from data communications; not covered by any TECH1 or TECH2 unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 48,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Simple parity check as a single-redundant-bit error detection method. Error detection is explicitly a data-communications topic with no home in the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 49,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Terminology for multi-bit (burst) errors in a data unit. Error types in data transmission — data communications, not on the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 50,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Peer-to-peer versus dedicated-server/LAN/WAN network taxonomy. This tests network types from a data-communications course rather than the client-server web architecture leaf of TECH2 Unit 2.",
+  "confidence": "medium"
+ },
+ {
+  "no": 51,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of the transmission medium as the physical path of a message. Transmission media is core data communications, absent from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 52,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of a protocol as the rules governing data communication. Introductory data-communications terminology, not covered by any 2026 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 53,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "4",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "why": "This is the standard definition of a distributed system (a collection of computers appearing to its users as a single coherent system), which is the opening concept of the distributed/cloud computing leaf. It is printed inside a networking block, so the fit is good but not airtight.",
+  "confidence": "medium"
+ },
+ {
+  "no": 54,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of when two devices are networked (processes able to exchange information). Introductory data-communications material with no 2026 leaf; the printed option (c) is also garbled ('running of different devices').",
+  "confidence": "high"
+ },
+ {
+  "no": 55,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Broadcast versus unicast/multicast network classification. Data communications transmission modes, not covered by the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 56,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Bluetooth as a personal area network. Network scale classification (PAN/LAN/VPN) from data communications; no 2026 leaf covers it.",
+  "confidence": "high"
+ },
+ {
+  "no": 57,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Identifying a router as the device that forwards packets using routing information. Internetworking devices and routing are data communications, explicitly outside the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 58,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of a protocol stack (one protocol per layer). Layered network architecture terminology from data communications; note the printed option (c) misspells 'suite' as 'suit'.",
+  "confidence": "high"
+ },
+ {
+  "no": 59,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "VPN as a private network extended across public networks. Network types from data communications; the cloud unit's networking leaf concerns cloud networking services, not VPN-versus-LAN terminology.",
+  "confidence": "medium"
+ },
+ {
+  "no": 60,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Number of layers in the Internet (TCP/IP) protocol stack. Layered network models are data communications, which the 2026 syllabus dropped entirely.",
+  "confidence": "high"
+ }
+]

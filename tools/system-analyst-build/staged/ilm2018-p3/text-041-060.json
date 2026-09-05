@@ -1,0 +1,225 @@
+{
+  "range": "41-60",
+  "questions": [
+    {
+      "no": 41,
+      "q": "ASK, PSK, FSK, and QAM are examples of __________ encoding.",
+      "opts": {
+        "A": "analog-to-digital",
+        "B": "analog-to-analog",
+        "C": "digital-to-analog",
+        "D": "digital-to-digital"
+      },
+      "flags": []
+    },
+    {
+      "no": 42,
+      "q": "Phase shift keying (psk) method is used to modulate digital signals at 9600 bps using 16 levels. Find the line signaling speed (i.e., modulation rate)",
+      "opts": {
+        "A": "1200 bands",
+        "B": "2400 bands",
+        "C": "3600 bands",
+        "D": "4800 bands"
+      },
+      "flags": ["misprint"]
+    },
+    {
+      "no": 43,
+      "q": "How many bits are there in the Ethernet address?",
+      "opts": {
+        "A": "64 bits",
+        "B": "32 bits",
+        "C": "16 bits",
+        "D": "8 bits"
+      },
+      "flags": []
+    },
+    {
+      "no": 44,
+      "q": "FTP uses __________ parallel TCP connections to transfer a file",
+      "opts": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "flags": []
+    },
+    {
+      "no": 45,
+      "q": "Typically the TCP port used by SMTP is",
+      "opts": {
+        "A": "25",
+        "B": "35",
+        "C": "50",
+        "D": "15"
+      },
+      "flags": []
+    },
+    {
+      "no": 46,
+      "q": "Connection establishment in TCP is done by which mechanism?",
+      "opts": {
+        "A": "Flow control",
+        "B": "Three-Way Handshaking",
+        "C": "Forwarding",
+        "D": "Synchronization"
+      },
+      "flags": []
+    },
+    {
+      "no": 47,
+      "q": "Which operating mode of telnet is full duplex?",
+      "opts": {
+        "A": "default mode",
+        "B": "server mode",
+        "C": "line mode",
+        "D": "client mode"
+      },
+      "flags": []
+    },
+    {
+      "no": 48,
+      "q": "Which error detection method consists of just one redundant bit per data unit?",
+      "opts": {
+        "A": "CRC",
+        "B": "Checksum",
+        "C": "Simple parity check",
+        "D": "Two-dimensional parity check"
+      },
+      "flags": []
+    },
+    {
+      "no": 49,
+      "q": "A __________ error means that two or more bits in the data unit have changed.",
+      "opts": {
+        "A": "burst",
+        "B": "double-bit",
+        "C": "single-bit",
+        "D": "none of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 50,
+      "q": "Network in which every computer is capable of playing the role of client, server or both at the same time is called",
+      "opts": {
+        "A": "peer-to-peer network",
+        "B": "local area network",
+        "C": "dedicated server network",
+        "D": "wide area network"
+      },
+      "flags": []
+    },
+    {
+      "no": 51,
+      "q": "The __________ is the physical path over which a message travels",
+      "opts": {
+        "A": "Path",
+        "B": "Medium",
+        "C": "Protocol",
+        "D": "Route"
+      },
+      "flags": []
+    },
+    {
+      "no": 52,
+      "q": "A set of rules that governs data communication",
+      "opts": {
+        "A": "Protocols",
+        "B": "Standards",
+        "C": "RFCs",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 53,
+      "q": "When collection of various computers seems a single coherent system to its client, then it is called",
+      "opts": {
+        "A": "computer network",
+        "B": "distributed system",
+        "C": "networking system",
+        "D": "none of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 54,
+      "q": "Two devices are in network if",
+      "opts": {
+        "A": "a process in one device is able to exchange information with a process in another device",
+        "B": "a process is running on both devices",
+        "C": "PIDs of the processes running of different devices are same",
+        "D": "none of these"
+      },
+      "flags": ["misprint"]
+    },
+    {
+      "no": 55,
+      "q": "Communication channel is shared by all the machines on the network in",
+      "opts": {
+        "A": "broadcast network",
+        "B": "unicast network",
+        "C": "multicast network",
+        "D": "none of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 56,
+      "q": "Bluetooth is an example of",
+      "opts": {
+        "A": "personal area network",
+        "B": "local area network",
+        "C": "virtual private network",
+        "D": "none of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 57,
+      "q": "A __________ is a device that forwards packets between networks by processing the routing information included in the packet.",
+      "opts": {
+        "A": "bridge",
+        "B": "firewall",
+        "C": "router",
+        "D": "all of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 58,
+      "q": "A list of protocols used by a system, one protocol per layer, is called",
+      "opts": {
+        "A": "protocol architecture",
+        "B": "protocol stack",
+        "C": "protocol suit",
+        "D": "none of these"
+      },
+      "flags": ["misprint"]
+    },
+    {
+      "no": 59,
+      "q": "Which one of the following extends a private network across public networks?",
+      "opts": {
+        "A": "local area network",
+        "B": "virtual private network",
+        "C": "enterprise private network",
+        "D": "storage area network"
+      },
+      "flags": []
+    },
+    {
+      "no": 60,
+      "q": "The number of layers in Internet protocol stack",
+      "opts": {
+        "A": "5",
+        "B": "7",
+        "C": "6",
+        "D": "None of these"
+      },
+      "flags": []
+    }
+  ]
+}

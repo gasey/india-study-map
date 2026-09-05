@@ -85,6 +85,71 @@ at all.
 
 ---
 
+## 2026-09-05 — `gs1_history_modern` held 98% of history, and 73 of those questions were not history
+
+**What shipped.** The TODO's §4c said finer history sub-tagging "was done — it
+just puts 98% in one bucket, which is barely better than the single bucket it
+replaced". Both halves of that turned out to understate the problem.
+
+`retag_history.py` splits the flat `gs1_history` bucket by a per-id lookup with
+a **default of `gs1_history_modern`**. That was fine for the 235 questions it
+was written against in 2026-08. Since then the bank has grown to 3,479, and
+every new GS-I history question — plus every GS-I question matching no keyword
+rule at all — has silently landed in that default. Measured today: 521 of 530.
+
+Read all 521 and split them:
+
+- **448 are genuinely modern Indian history**, now across eight period/theme
+  buckets (colonial rule 145, Gandhian era 83, social reform 80, early
+  nationalism 55, constitutional 36, revolutionaries & INA 20, revolt of 1857
+  15, post-independence 6). Largest bucket is now 32% of history, not 98%.
+- **73 were not history at all.** This is the part the TODO did not predict.
+  `mpsc-fccas-inspector-2019-gs-i-q052..q100` is very nearly an entire
+  current-affairs section filed under "Modern India & Freedom Struggle" — Nobel
+  2018, Wimbledon 2018, the sitting CJI, Sophia the robot — and the 2021 papers
+  contribute another block. They go back to `gs1_current`, except the handful
+  that are really polity, economy, geography, science or Mizoram GK, which go to
+  *those* topics rather than being swept into current affairs, since that would
+  only relocate the lumping problem.
+
+This is the **same leak `retag_history.py` documented and fixed for the 2016
+paper, recurring in every sitting added since**, because those sittings were
+never added to its override table. The new `retag_history_modern.py` therefore
+reports any unclassified straggler by id instead of letting it inherit a period
+it was never assessed for.
+
+The classification is a checked-in per-id lookup
+(`history-modern-split.json`), not a heuristic — the same choice
+`retag_history.py` made, for the same reason: keyword rules are what produced
+the mess.
+
+**Two UI fixes fell out of it.** The topic pills and filter rendered the raw
+slug with underscores swapped for spaces. Survivable as "gs1 history modern";
+absurd as "gs1 history modern early nationalism" — and the data has carried a
+human `topicLabel` all along. Fixed. Building that label map then surfaced a
+second, older bug **only visible in the browser**: taking the first label seen
+per topic titled the 155-question vocabulary bucket "IDIOM MEANING (BITE THE
+BULLET)" and the 270-question grammar bucket "ENGLISH-I", because those topics
+carry inconsistent labels. It now takes the most common label, and the pipeline
+normalises the five history records that still said `topicLabel: "General"`,
+`subject: "gk"`.
+
+**Why.** A topic that holds 98% of its subject is not a topic; you cannot revise
+"Modern India" as a unit when it means everything from Plassey to a 2021 chess
+grandmaster. And a current-affairs question filed as history is worse than
+untagged — it is confidently mis-shelved.
+
+**What's still open.** The 73 moved-out questions were judged by reading the
+stem; a few sit near a boundary (Moplah 1921 as Gandhian-era vs a
+peasant-movements bucket that does not exist; "scientific temper" as sci-tech vs
+post-independence). Classifiers also noticed in passing that several *answers*
+in this bucket look wrong (Sati→"Lord Hastings", Discovery of India→"Bose",
+Frontier Gandhi→"Patel") — not touched here, but worth an answer-audit pass.
+`gs1_history_ancient` still holds only 2 questions and `_medieval` 10, so the
+pre-1757 coverage is genuinely thin rather than mis-tagged.
+
+---
+
 ## 2026-09-06 — The corpus CLAUDE.md said was deleted is alive at `/home.old/`, and it just gave System Manager Paper II its first official-key questions
 
 **What shipped.** Two things, and the first matters more than the second.

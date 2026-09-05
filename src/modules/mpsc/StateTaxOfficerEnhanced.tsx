@@ -52,6 +52,12 @@ function subjectClass(unitOrTopic: string | undefined): string {
   return '';
 }
 
+// De-slugged topic, used only where no question object is at hand to supply
+// its own `topicLabel` — see topicLabels in the component.
+function deslug(topic: string | undefined): string {
+  return (topic ?? '').replace(/_/g, ' ');
+}
+
 // renderEmphasis moved to lib/renderEmphasis.tsx — the MPSC bank's
 // QuestionCard renders corrected stems too, and that regex's
 // fill-in-the-blank gotcha is not worth having two copies of.
@@ -126,7 +132,7 @@ function QuestionCard({
   return (
     <div className="sto-card space-y-2">
       <div className="flex items-center gap-2 flex-wrap text-xs">
-        <span className={`sto-pill sto-subject ${subjectClass(q.topic)}`}>{q.topic?.replace(/_/g, ' ')}</span>
+        <span className={`sto-pill sto-subject ${subjectClass(q.topic)}`}>{q.topicLabel || deslug(q.topic)}</span>
         {(() => {
           const prov = answerProvenance(q);
           return <span className={`sto-pill ${prov.cls}`} title={prov.title}>{prov.label}</span>;
@@ -308,6 +314,31 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
     return counts;
   }, [stateTaxQuestions]);
 
+  // The topic weight rows and the topic filter are keyed by slug, so unlike a
+  // question card they have no `topicLabel` to hand. Before the 2026-09-05
+  // history split they rendered the de-slugged slug and it read acceptably
+  // ("gs1 history modern"); eight period buckets turned that into lines like
+  // "gs1 history modern early nationalism". The label is already in the data.
+  //
+  // Takes the MOST COMMON label for a slug, not the first one seen: a topic's
+  // labels are not consistent in this bank. `eng_vocab` carries "English
+  // Vocabulary" on 151 questions and a distinct per-question label on four
+  // more ("Idiom meaning (bite the bullet)"), and `eng_grammar` carries
+  // "English Grammar" on 268 and "English-I" on 2. First-wins therefore titled
+  // the whole 155-question vocabulary bucket after one idiom.
+  const topicLabels = useMemo(() => {
+    const tally: Record<string, Record<string, number>> = {};
+    stateTaxQuestions.forEach((q) => {
+      if (!q.topic || !q.topicLabel) return;
+      (tally[q.topic] ??= {})[q.topicLabel] = (tally[q.topic][q.topicLabel] || 0) + 1;
+    });
+    const labels: Record<string, string> = {};
+    for (const [topic, counts] of Object.entries(tally)) {
+      labels[topic] = Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
+    }
+    return labels;
+  }, [stateTaxQuestions]);
+
   const filteredPrimers = useMemo(() => {
     if (!selectedUnit) return allPrimers;
     return allPrimers.filter((p) => p.unit === selectedUnit);
@@ -394,12 +425,13 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
 
       {/* Tab Content */}
       <div className="flex-1 overflow-y-auto px-5 py-5">
-        {prepTab === 'overview' && <OverviewTab questions={stateTaxQuestions} unitCounts={unitCounts} exams={exams} />}
+        {prepTab === 'overview' && <OverviewTab questions={stateTaxQuestions} unitCounts={unitCounts} topicLabels={topicLabels} exams={exams} />}
         {prepTab === 'primers' && <PrimersTab primers={filteredPrimers} selectedUnit={selectedUnit} onSelectUnit={setSelectedUnit} />}
         {prepTab === 'bank' && (
           <QuestionBankTab
             questions={stateTaxQuestions}
             unitCounts={unitCounts}
+            topicLabels={topicLabels}
             questionExamName={questionExamName}
             questionSitting={questionSitting}
             corrections={corrections}
@@ -456,7 +488,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   );
 }
 
-function OverviewTab({ questions, unitCounts, exams }: { questions: BankQuestion[]; unitCounts: Record<string, number>; exams: string[] }) {
+function OverviewTab({ questions, unitCounts, topicLabels, exams }: { questions: BankQuestion[]; unitCounts: Record<string, number>; topicLabels: Record<string, string>; exams: string[] }) {
   const maxCount = Math.max(1, ...Object.values(unitCounts));
   const totalPrimers = allPrimers.length;
 
@@ -503,7 +535,7 @@ function OverviewTab({ questions, unitCounts, exams }: { questions: BankQuestion
             .map(([topic, count]) => (
               <div key={topic} className={`sto-weight-row ${subjectClass(topic)}`}>
                 <div className="flex items-center gap-2 min-w-0">
-                  <span className="sto-pill sto-subject">{topic.replace(/_/g, ' ')}</span>
+                  <span className="sto-pill sto-subject">{topicLabels[topic] ?? deslug(topic)}</span>
                   <div className="sto-weight-track flex-1" style={{ width: 'min(38vw, 220px)' }}>
                     <div className="sto-weight-bar" style={{ width: `${Math.max(4, (count / maxCount) * 100)}%` }} />
                   </div>
@@ -578,10 +610,11 @@ function PrimersTab({ primers, selectedUnit, onSelectUnit }: { primers: typeof a
 }
 
 function QuestionBankTab({
-  questions, unitCounts, questionExamName, questionSitting, corrections,
+  questions, unitCounts, topicLabels, questionExamName, questionSitting, corrections,
 }: {
   questions: McqBankQuestion[];
   unitCounts: Record<string, number>;
+  topicLabels: Record<string, string>;
   questionExamName: (q: BankQuestion) => string;
   questionSitting: (q: BankQuestion) => ExamPaper | null;
   corrections: Record<string, Correction>;
@@ -638,7 +671,7 @@ function QuestionBankTab({
         >
           <option value="">Any topic</option>
           {Object.keys(unitCounts).sort().map((t) => (
-            <option key={t} value={t}>{t.replace(/_/g, ' ')} ({unitCounts[t]})</option>
+            <option key={t} value={t}>{topicLabels[t] ?? deslug(t)} ({unitCounts[t]})</option>
           ))}
         </select>
         <select

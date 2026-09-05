@@ -95,8 +95,16 @@ cosmetic — a wrong answer teaches the user something false for a real exam.
   `answerSource: 'derived'` (agent-solved, no official MPSC key exists) —
   ~66 of those 548 answers are self-flagged medium/low confidence, worth a
   human review pass eventually, especially the Mizoram-specific GK batch.
-- 232 history questions still sit under one broad `gs1_history` topic —
-  finer sub-topic tagging was never done.
+- ~~232 history questions still sit under one broad `gs1_history` topic —
+  finer sub-topic tagging was never done.~~ **Fixed 2026-09-05.** History in
+  `mpsc-state-tax-officer.ts` is now 457 questions across 11 buckets, largest
+  32%. Note the trap that produced this line's successor problem:
+  `tools/bank-rebuild/retag_history.py` splits by a per-id lookup with a
+  **default**, so every sitting added after it was written silently piles into
+  that default — by 2026-09-05 it held 521 of 530 history questions, 73 of
+  which were not history at all (whole GS-I current-affairs sections). If you
+  add a sitting, add its ids to `history-modern-split.json`;
+  `retag_history_modern.py` reports stragglers rather than guessing.
 - A handful of questions are unanswerable as extracted (missing
   figures/data tables the OCR never captured) and carry low-confidence
   placeholder answers rather than being dropped.

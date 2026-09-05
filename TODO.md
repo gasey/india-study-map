@@ -90,39 +90,28 @@ it was deleted; both are corrected. Nobody has inventoried it since.
 
 ## 4. Known data gaps
 
-- **OPEN — MES2023 Paper I Section A Q27 was never imported** (49 of 50).
-  *Check:* search the System Analyst bank for `MES2023` Q27.
 - **OPEN — 6 System Manager questions quarantined** for an underline marker the
   extractor lost, and **4** for a reading passage never extracted. Both need a
   page render read by eye, as `patch_underlines.py` did for SAD GE Q39–44.
   `extract_passages.py` covers only the two 2016 sittings; it needs extending to
   the 2018/2019 papers.
   *Check:* `python3 tools/system-manager-build/assemble.py` prints both counts.
-- **OPEN — history sub-tagging exists but is lopsided.** `CLAUDE.md`'s "Known
-  rough edges" still says 232 questions "sit under one broad `gs1_history`
-  topic" and that "finer sub-topic tagging was never done". Both are now wrong:
-  measured 2026-09-06, `mpsc-state-tax-officer.ts` has **530** history questions
-  already split into `_ancient` 2, `_art_culture` 4, `_medieval` 3 and
-  `_modern` **521**. So the tagging was done — it just puts 98% in one bucket,
-  which is barely better than the single bucket it replaced. The real work is
-  splitting `gs1_history_modern`. Fix the `CLAUDE.md` line at the same time.
-  *Check:* `grep -oE '"topic": *"gs1_history[a-z_]*"' src/data/banks/mpsc-state-tax-officer.ts | sort | uniq -c`
 - **OPEN — the 76 held-back IO2024-P2 questions** are a coherent e-Governance
   policy set with an official key. They do not fit the System Manager syllabus,
   but they are recorded in `staged/io2024-p2-manifest.json` and would suit any
   future e-governance-facing post.
 
-## 5. Uncommitted / in-flight work
+## 5. Authored-content review debt
 
-- **OPEN — System Analyst TECH2 Unit 1 generation is staged but not imported.**
-  `tools/system-analyst-build/staged/tech2-u1-gen/` and `tech2-u1-review/` exist
-  along with `import_tech2_u1_gen.py`, `make_u1_briefs.py` and
-  `apply_u1_review_fixes.py`. This predates the 2026-09-06 session and was not
-  written by it. Someone should finish or discard it.
-  *Check:* `git status --short tools/system-analyst-build/`
-- **OPEN — `stamp_u2u4_ids.py` has uncommitted local edits** from before
-  2026-09-06. Unreviewed.
-  *Check:* `git diff tools/system-analyst-build/stamp_u2u4_ids.py`
+- **OPEN — the authored questions outside Unit 1 have never been reviewed.**
+  Units 2 and 4 went through eight blind reviewers, and Unit 1 through four
+  (2026-09-05, no wrong keys in 68). Everything else authored — TECH1, the GEN
+  practice sets, Paper III Section B — shipped with no adversarial pass at all.
+  The recurring defect is *a correct key justified by a false rule*, which
+  nothing downstream disagrees with, so only a review finds it.
+  *Check:* `grep -L reviewFix` won't work — instead count records with
+  `src: 'generated'` in `public/mpsc-system-analyst/data/questions.js` whose
+  `srcKey` is not `GEN-TECH2-U1D`, `GEN-TECH2-U2D` or `GEN-TECH2-U4D`.
 
 ## 6. Environment papercut
 

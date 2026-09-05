@@ -1,0 +1,61 @@
+{
+  "paper": "TECH2",
+  "unit": "2",
+  "unitTitle": "Web Technologies",
+  "unitMarks": 60,
+  "brief": "tools/system-analyst-build/CONCEPT_BRIEF.md",
+  "siblingSubtopics": [
+    "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+    "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+    "CSS, Flexbox, Grid and responsive web design",
+    "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+    "Frontend frameworks: components, routing, state management and API integration",
+    "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+    "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+    "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+    "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+    "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law"
+  ],
+  "targets": [
+    {
+      "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "CSS, Flexbox, Grid and responsive web design",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Frontend frameworks: components, routing, state management and API integration",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+      "questionsInBank": 3
+    }
+  ]
+}

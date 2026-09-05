@@ -1,0 +1,13 @@
+{
+  "paper": "TECH2",
+  "unit": "3",
+  "unitTitle": "Database Management Systems",
+  "unitMarks": 60,
+  "perTarget": 3,
+  "brief": "tools/system-analyst-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Query processing and optimisation"
+    }
+  ]
+}

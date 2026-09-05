@@ -1439,1275 +1439,335 @@ window.QUESTION_MODES = {
   "mode": "understand",
   "why": "Applies the unity concept to a concrete paragraph — the irrelevant sentence is identified by reasoning."
  },
- "GEN-TECH1-U3-1dc67b": {
+ "GEN-TECH2-U1-0b2d3a": {
   "conf": "medium",
   "mode": "memorise",
-  "why": "That the flag governs process lifetime and not priority is a CLR convention; understanding threading does not yield it."
+  "why": "Depends on recalling the seekg/seekp/tellg API names and signatures; the ios::cur part is reasonable but the member names are not."
  },
- "GEN-TECH1-U3-2261b8": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Which of the RCW/CCW pair applies in which direction is a naming convention that is trivially inverted."
- },
- "GEN-TECH1-U3-2a4477": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Choosing the right interop attribute name from four real ones is recall of the API surface."
- },
- "GEN-TECH1-U3-2bb453": {
+ "GEN-TECH2-U1-47f665": {
   "conf": "medium",
   "mode": "memorise",
-  "why": "Mapping a described intent onto the GoF pattern's name is catalogue recall; the labels themselves are arbitrary."
+  "why": "Which bits the stream sets, and that failbit alone drives the boolean conversion, is library convention rather than derivable."
  },
- "GEN-TECH1-U3-330d71": {
+ "GEN-TECH2-U1-5b557e": {
   "conf": "high",
   "mode": "understand",
-  "why": "Architectural contrast: separating contract from binding is what permits multiple transports, and two distractors invert known facts."
+  "why": "The correct option restates what each concept is; the inverted distractor is recognisable to anyone who grasps the two."
  },
- "GEN-TECH1-U3-35e1aa": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "What 'local processing' must mean — no server in the loop — follows from the term itself and rules out the other options."
- },
- "GEN-TECH1-U3-37c358": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The whole answer rests on the single remembered fact that a monitor is re-entrant; the fragment has no values to trace."
- },
- "GEN-TECH1-U3-55d7cf": {
+ "GEN-TECH2-U1-83968b": {
   "conf": "high",
   "mode": "memorise",
-  "why": "A three-letter mnemonic expanded to three exact attribute names; pure recall."
+  "why": "Which of the two accessors is bounds-checked is an arbitrary library choice a competent user can get backwards."
  },
- "GEN-TECH1-U3-5e9095": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The reason for the GAC is the type-identity argument, which is reasoned from what a shared strong-named assembly guarantees."
- },
- "GEN-TECH1-U3-6b4e5e": {
+ "GEN-TECH2-U1-91c240": {
   "conf": "high",
-  "mode": "memorise",
-  "why": "The rename to <ApplicationName>.exe.config is a build convention with no derivation path."
+  "mode": "understand",
+  "why": "Follows from how dynamic dispatch works at a call site that sees only the static base type."
  },
- "GEN-TECH1-U3-9429db": {
+ "GEN-TECH2-U1-9360f4": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Slicing follows from what copy-initialising a base parameter from a derived object does."
+ },
+ "GEN-TECH2-U1-9cdfbf": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "First-match-wins rather than best-match is a language rule; understanding exceptions does not tell you which one C++ chose."
+ },
+ "GEN-TECH2-U1-b5ce17": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The is-a substitutability test rules out inheritance and leaves composition; pure reasoning from the relationship."
+ },
+ "GEN-TECH2-U1-e01c9b": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The semantic split between two similarly named open-mode flags has to be committed; the names alone do not distinguish them."
+ },
+ "GEN-TECH2-U1-ebec27": {
   "conf": "high",
   "mode": "calculate",
-  "why": "Apply the operator rules to the run-time types and concatenate; different operands give a different computable output."
+  "why": "Code-output prediction: apply the destructor-order rule mechanically to the given fragment."
  },
- "GEN-TECH1-U3-94c981": {
+ "GEN-TECH2-U1-ee6151": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Naming entities without committing to implementation follows directly from what analysis is as opposed to design."
+ },
+ "GEN-TECH2-U1-f591a5": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from what a reference is -- bound at creation, never rebindable -- and from when the constructor body runs."
+ },
+ "GEN-TECH2-U2-014531": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "The missing-value default of submit is an arbitrary HTML spec choice with no derivation path."
+ },
+ "GEN-TECH2-U2-05ebf0": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from which commands rewrite existing commits and what that costs a shared branch."
+ },
+ "GEN-TECH2-U2-0e7fb8": {
   "conf": "medium",
   "mode": "memorise",
-  "why": "The metadata= keyword and its three artefacts are a connection-string format detail; leaning memorise on the tie-break."
+  "why": "Which of target and currentTarget names the origin is arbitrary naming; the delegation concept does not disambiguate them."
  },
- "GEN-TECH1-U3-9a250f": {
+ "GEN-TECH2-U2-1ea42c": {
   "conf": "high",
   "mode": "understand",
-  "why": "The timing follows from what a unit-of-work change tracker is for; the distractors describe behaviour incompatible with tracking."
+  "why": "Separating statement from data makes reparse structurally impossible; the filtering options fail on reasoning alone."
  },
- "GEN-TECH1-U3-9fbab8": {
+ "GEN-TECH2-U2-2e0e39": {
   "conf": "high",
   "mode": "understand",
-  "why": "The limit follows from what inheriting an implementation costs versus satisfying a contract; the distractors are self-contradictory."
+  "why": "Follows from the fact that the client router does not exist until the bundle has loaded."
  },
- "GEN-TECH1-U3-b62803": {
+ "GEN-TECH2-U2-34c6aa": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The principle's own name states the test the scenario fails; mapping scenario to principle is reasoning, not list recall."
+ },
+ "GEN-TECH2-U2-3b9135": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The 1 + 100 query count diagnoses lazy loading directly; only the N+1 label and the eager-loading vocabulary are learned."
+ },
+ "GEN-TECH2-U2-44c084": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The options spell out each code's meaning, so 'validator still matches, nothing to resend' picks itself; only the bare number would be recall."
+ },
+ "GEN-TECH2-U2-58e5c0": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "That fetch resolves on any completed exchange is an API design choice other HTTP clients made differently; nothing derives it."
+ },
+ "GEN-TECH2-U2-5c4506": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "That the DPDP Act rests on prior notice-and-consent, and who counts as fiduciary, is statutory content to be committed."
+ },
+ "GEN-TECH2-U2-5c63ca": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from what an image layer is -- a distributed, inspectable artefact."
+ },
+ "GEN-TECH2-U2-70bbd5": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from what flex-basis does to the starting size before free space is divided."
+ },
+ "GEN-TECH2-U2-73c199": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from what a build-time substitution does -- the value ships inside the bundle."
+ },
+ "GEN-TECH2-U2-7b7f5e": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Immediate-mode versus retained-mode cost follows from what each rendering model keeps around."
+ },
+ "GEN-TECH2-U2-7c58be": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Simultaneous expiry of one hot key explains the failure and the lock-plus-jitter fix follows from it."
+ },
+ "GEN-TECH2-U2-8f5966": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from what a placeholder is -- a hint that disappears -- versus what an accessible name must be."
+ },
+ "GEN-TECH2-U2-91d519": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Which of the two valid session designs PHP defaults to is an implementation fact; frameworks genuinely differ here."
+ },
+ "GEN-TECH2-U2-925c08": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Recognising a race rather than a rate problem is what eliminates debouncing; pure reasoning about ordering."
+ },
+ "GEN-TECH2-U2-937904": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Shrink-to-fit points at the layout viewport rather than the CSS, though the default wide viewport is itself a learned fact."
+ },
+ "GEN-TECH2-U2-93ac14": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from how the browser attaches cookies by origin; the read-based distractors are eliminable by reasoning."
+ },
+ "GEN-TECH2-U2-9efcbb": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The client/server split MCP chose is a fact about one protocol; understanding LLM tooling does not yield it."
+ },
+ "GEN-TECH2-U2-ac203f": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from what each sink does -- parse as markup versus create a text node."
+ },
+ "GEN-TECH2-U2-cbb5e5": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Idempotence follows from what PUT means -- make the resource at this URI equal this -- versus POST's server-chosen URI."
+ },
+ "GEN-TECH2-U2-cbcc5c": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The answer follows from the division of responsibility that defines MVC."
+ },
+ "GEN-TECH2-U2-d66afd": {
   "conf": "high",
   "mode": "calculate",
-  "why": "Answer is produced by tracing virtual dispatch against the static type; regenerate with any override/new arrangement and the output follows mechanically."
+  "why": "Code-output prediction: apply the event-loop ordering rule mechanically to the given script."
  },
- "GEN-TECH1-U3-b921cf": {
+ "GEN-TECH2-U2-d84c27": {
   "conf": "medium",
   "mode": "understand",
-  "why": "The option states the artefact's role, so knowing a proxy needs operations, types and bindings selects it by reasoning."
+  "why": "Reasoning from handshake ordering rules out the encrypted Host header; the option text supplies the mechanism's name."
  },
- "GEN-TECH1-U3-c9497e": {
+ "GEN-TECH2-U2-df5b6d": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The minmax floor plus 1fr share is reasonable from the values; only the auto-fill keyword's exact sense is learned."
+ },
+ "GEN-TECH2-U2-e79bbe": {
   "conf": "high",
-  "mode": "memorise",
-  "why": "Which Windows Forms property name carries which resize behaviour is API naming, indistinguishable by reasoning from Dock."
+  "mode": "understand",
+  "why": "The answer restates what 'controlled' means -- state is the single source of truth."
  },
- "GEN-TECH1-U3-cabf86": {
+ "GEN-TECH2-U2-e9b6a8": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "That traversal maps to the x bit and listing to r on a directory is a Unix convention, not derivable from what a directory is."
+ },
+ "GEN-TECH2-U2-fba0e5": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from what a TTL is -- how long a resolver may keep a cached answer."
+ },
+ "GEN-TECH2-U3-083c94": {
   "conf": "high",
   "mode": "calculate",
-  "why": "Join makes the result deterministic and the printed value is the summation 1..100; change the bound and it recomputes."
+  "why": "Direct substitution into the block nested-loop cost formula b_r * b_s + b_r = 100 x 50 + 100."
  },
- "GEN-TECH1-U3-cb67fd": {
-  "conf": "medium",
+ "GEN-TECH2-U3-0d2140": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Applying selection-pushdown and product-to-join rules; the answer follows from which relation each conjunct mentions, no arithmetic needed."
+ },
+ "GEN-TECH2-U3-672532": {
+  "conf": "high",
   "mode": "calculate",
-  "why": "Trace deferred evaluation to the enumeration point and count the qualifying elements; new list and predicate give a new computed number."
+  "why": "Arithmetic on the intermediate size: one write pass plus one read pass, 500 + 500 = 1,000 extra transfers."
  },
- "GEN-TECH1-U3-d5f477": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Which UML diagram type owns which notation is taxonomy recall; a practitioner who never learned the names can miss it."
- },
- "GEN-TECH1-U3-dbb947": {
+ "GEN-TECH2-U4-0d8b5c": {
   "conf": "medium",
   "mode": "understand",
-  "why": "Only the run-time-failure option survives once you know binding is deferred; the exception's exact name is not needed to choose it."
+  "why": "A when-to-use-what comparison whose distractors invert the properties, though it does rest on knowing each tool's model."
  },
- "GEN-TECH1-U3-dcc3e5": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Once local mode means in-process rendering, the deployment requirement is deduced rather than remembered."
- },
- "GEN-TECH1-U3-e1e868": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Filled versus hollow diamond is a pure notational convention with nothing to reason from."
- },
- "GEN-TECH1-U3-e31ff4": {
+ "GEN-TECH2-U4-13eb4b": {
   "conf": "high",
   "mode": "understand",
-  "why": "The difference falls straight out of when each keyword resolves a member; no convention to recall."
+  "why": "Reasoning about where the latency budget goes; the numbers only set up a comparison, they are not computed into the answer."
  },
- "GEN-TECH1-U3-e4fb0d": {
+ "GEN-TECH2-U4-1cbb44": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Reasoning about a control loop slower than the demand it tracks; nothing here has to be recalled."
+ },
+ "GEN-TECH2-U4-1fcf8d": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Which number denotes bare metal is an arbitrary naming convention, even though the three false statements can also be eliminated."
+ },
+ "GEN-TECH2-U4-204b70": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Role assignment within NIST's five-actor taxonomy — a defined convention, though the word 'carrier' does hint at the transport role."
+ },
+ "GEN-TECH2-U4-28dbf1": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Small random in-place writes conflict with whole-object HTTP semantics; the mismatch follows from what object storage is."
+ },
+ "GEN-TECH2-U4-4056b8": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Overlapping address ranges force per-tenant encapsulation; the VLAN cap is a supporting detail, not the reasoning path."
+ },
+ "GEN-TECH2-U4-5efc94": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Path routing needs the HTTP request parsed; the layer boundary itself dictates which capabilities are possible."
+ },
+ "GEN-TECH2-U4-693ae6": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Requests schedule, limits enforce, and memory is incompressible so it kills — conceptual, but the kill-versus-throttle rule is platform-specific behaviour."
+ },
+ "GEN-TECH2-U4-7445f0": {
   "conf": "high",
   "mode": "memorise",
-  "why": "A file extension against three near-miss extensions; arbitrary, no derivation path."
+  "why": "Which four names NIST canonised versus which are vendor coinages — pure list membership with no derivation path."
  },
- "GEN-TECH1-U3-fba5de": {
+ "GEN-TECH2-U4-780d6e": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "A guest aware it is virtualized implies hypercalls; the distractors describe full virtualization and containers, both distinguishable by concept."
+ },
+ "GEN-TECH2-U4-804935": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Reasoning about which layers are standardised and which are proprietary; no list to recall."
+ },
+ "GEN-TECH2-U4-845f89": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The data/control plane split follows from which component sits in the request path, not from a remembered feature list."
+ },
+ "GEN-TECH2-U4-913750": {
   "conf": "medium",
+  "mode": "understand",
+  "why": "Limiting versus isolating is the definitional split between cgroups and namespaces, but it is still a which-mechanism-does-X pairing."
+ },
+ "GEN-TECH2-U4-9d7953": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The cold-start symptom follows from scale-to-zero; the distractors are eliminable by what each failure mode would actually look like."
+ },
+ "GEN-TECH2-U4-b01a23": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "Membership of NIST's enumerated five-characteristic list; the odd one out is only wrong for not being on that list."
+ },
+ "GEN-TECH2-U4-b6b2c3": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The responsibility boundary follows from where the IaaS abstraction line sits, so each option can be placed above or below it."
+ },
+ "GEN-TECH2-U4-cc90cb": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Matching a described responsibility split to a service model; the boundaries follow from what each model hands over."
+ },
+ "GEN-TECH2-U4-dd714c": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Choosing the best response from FinOps principles — eliminate waste before committing spend — rather than recalling a fact."
+ },
+ "GEN-TECH2-U4-fb730d": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Only per-request correlation attributes time to a hop; reasoning about what each telemetry type can show settles it."
+ },
+ "GEN-TECH2-U4-fd97dc": {
+  "conf": "high",
   "mode": "calculate",
-  "why": "Both lines are derived by applying boxing and reference-equality rules to the fragment; vary the boxings and the printed pair recomputes."
- },
- "GEN-TECH1-U3-fe2c4c": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Picking the right Form method out of four real ones is API recall, not derivation."
- },
- "GEN-TECH2-U1-075b3e": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Applying the G2G label follows from reading who the two actors are."
- },
- "GEN-TECH2-U1-0b2749": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Rationale follows from what publishing a service standard does to the relationship."
- },
- "GEN-TECH2-U1-1fbf4b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Derivable from what distinguishes a commitment from mere information."
- },
- "GEN-TECH2-U1-2dbd16": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Conceptual distinction between institution and process, derivable without recall."
- },
- "GEN-TECH2-U1-3a6a25": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Meaning is derivable from the term and contrasts cleanly with the other listed functions."
- },
- "GEN-TECH2-U1-3e19f7": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Each description is the definition of the attribute named."
- },
- "GEN-TECH2-U1-47305c": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The principle follows from the gap between internal disposal and actual redress."
- },
- "GEN-TECH2-U1-4c0310": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Content of rule of law follows from the concept; consensus is a separate attribute."
- },
- "GEN-TECH2-U1-66caeb": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on separating procedural excess from corruption, a conceptual distinction."
- },
- "GEN-TECH2-U1-7aeb8a": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about diagnostic versus workload data."
- },
- "GEN-TECH2-U1-af7e3b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "An unmeasurable commitment cannot be breached; follows from what enforceability requires."
- },
- "GEN-TECH2-U1-b068ab": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Answer follows from the economic definition of a public good."
- },
- "GEN-TECH2-U1-ce5823": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about what an output count cannot capture."
- },
- "GEN-TECH2-U1-fafaf6": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about why a top-down document fails to change behaviour."
- },
- "GEN-TECH2-U10-084e47": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Risk-based reasoning about consequence of compromise; the distractors carry no risk information."
- },
- "GEN-TECH2-U10-1dd315": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what the leaked attributes let an attacker do; not a remembered enumeration."
- },
- "GEN-TECH2-U10-2881f6": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Sharing part of the consequence with another party' describes insurance transparently, though the four treatment names are a standard's list."
- },
- "GEN-TECH2-U10-32c326": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The adoption-dependency argument is reasoned from how e-governance benefits are realised."
- },
- "GEN-TECH2-U10-35a5b0": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The ordering follows logically — you must size a risk before treating it — though it is also a named standard's step list."
- },
- "GEN-TECH2-U10-48b72c": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Threat-vulnerability-asset is the definition of risk itself, not an arbitrary convention."
- },
- "GEN-TECH2-U10-4c7d41": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Only encryption survives loss of custody; the reasoning is about where each control still applies."
- },
- "GEN-TECH2-U10-563718": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Segregation of duties is derivable from the need for an independent check on privileged action."
- },
- "GEN-TECH2-U10-681e1b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Detection versus inline prevention follows from the words; no arbitrary detail involved."
- },
- "GEN-TECH2-U10-70c2ac": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "'Residual' is self-describing and the acceptance requirement follows from controls never reaching zero risk."
- },
- "GEN-TECH2-U10-8674bd": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The role follows from why security accountability is kept separate from IT delivery."
- },
- "GEN-TECH2-U10-97e665": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Operational versus technical splits on whether people or technology enforces it, which the options make derivable."
- },
- "GEN-TECH2-U10-a84232": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Baseline-as-floor follows from why a minimum set exists at all; no specific catalogue is being recalled."
- },
- "GEN-TECH2-U10-b2f0ef": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Central collection plus correlation follows from the expansion, though knowing what SIEM designates is itself learned."
- },
- "GEN-TECH2-U10-c66dac": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scenario reasoning: loss of data availability halts the dependent service."
- },
- "GEN-TECH2-U10-ca431d": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on revocability — a property you can reason to, not a fact to be told."
- },
- "GEN-TECH2-U10-e15210": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The function follows from the term itself and is separable from firewall/IPS roles by reasoning."
- },
- "GEN-TECH2-U10-e6ce33": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Static versus dynamic follows from whether the code is executed; the names carry the concept."
- },
- "GEN-TECH2-U11-24c561": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The split follows from whether a control is embedded in one business process or spans the environment."
- },
- "GEN-TECH2-U11-521873": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The remit of a specific named Indian body is institutional fact, though the expansion given in the stem hints at it."
- },
- "GEN-TECH2-U11-618347": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The criterion-condition-risk-recommendation shape follows from what a reader of a finding needs, though it is also a textbook four-element list."
- },
- "GEN-TECH2-U11-64d33b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scenario judgement about how to treat an exception; no recalled fact involved."
- },
- "GEN-TECH2-U11-817842": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The independence argument follows from what makes an audit opinion worth anything."
- },
- "GEN-TECH2-U11-967483": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Identity of a named framework behind an opaque acronym; elimination helps, so the tie-break applies."
- },
- "GEN-TECH2-U11-9d80b0": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about how weak change control undermines reliance on tested application logic."
- },
- "GEN-TECH2-U11-cafc4c": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Tamper-resistance follows from what makes a log usable as evidence."
- },
- "GEN-TECH2-U11-dfca71": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a reported weakness not being a removed weakness."
- },
- "GEN-TECH2-U11-e4b5f9": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from an audit being point-in-time assurance against a moving system and threat landscape."
- },
- "GEN-TECH2-U11-e51797": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scope follows from what 'security' audit means as against content, branding or procurement review."
- },
- "GEN-TECH2-U11-eca731": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Requires knowing what an arbitrarily numbered standard certifies; nothing about security reasoning yields '27001 means ISMS'."
- },
- "GEN-TECH2-U12-08f7d6": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Outcome-based versus input-based payment follows from what each model bills for."
- },
- "GEN-TECH2-U12-11f5dc": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Viability gap funding' maps onto the scenario's stated viability shortfall; the other three are recognisably security instruments."
- },
- "GEN-TECH2-U12-457c0d": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the rules, not the software, deciding what counts as a valid instrument."
- },
- "GEN-TECH2-U12-547f26": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The stem spells out Build-Own-Operate-Transfer, so the ownership position follows from the words themselves."
- },
- "GEN-TECH2-U12-5b4d88": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Cross-subsidy through differential pricing' describes the arrangement transparently once the scenario is analysed."
- },
- "GEN-TECH2-U12-77a370": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "'Per-core' names its own cost driver; the reasoning is about which metric the licence counts."
- },
- "GEN-TECH2-U12-9ad838": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Concurrent versus named-user follows from what each metric counts; the numbers are illustrative, not computed."
- },
- "GEN-TECH2-U12-a3ffec": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a statutory fee being fixed by law and a channel charge covering channel costs."
- },
- "GEN-TECH2-U12-c6ee11": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The pairwise-integration argument is reasoned from what standards remove."
- },
- "GEN-TECH2-U12-d4db19": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about what happens when an unreformed workflow is encoded in software."
- },
- "GEN-TECH2-U12-e21975": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The difference follows from what a right-to-use for an indefinite term does and does not include."
- },
- "GEN-TECH2-U12-feb8ad": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The remuneration design of one specific national scheme; reasoning from 'entrepreneur' helps but the model is a scheme fact."
- },
- "GEN-TECH2-U13-0633f7": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Separating a lock-in argument from a cost argument is conceptual reasoning about the rationale."
- },
- "GEN-TECH2-U13-1deda2": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Which named licence family is copyleft rather than permissive is a fact about specific licences; understanding copyleft alone does not identify GPL."
- },
- "GEN-TECH2-U13-2029c1": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Auditability follows directly from source availability; the wrong options overclaim what open source guarantees."
- },
- "GEN-TECH2-U13-68694f": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning that removing the licence fee leaves the service costs untouched."
- },
- "GEN-TECH2-U13-6f6e54": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The linking exception is a specific provision of one licence; 'Lesser' hints at it but the actual scope must be learned."
- },
- "GEN-TECH2-U13-9a7ee1": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The precise obligation a named national policy imposes; elimination narrows it, so the tie-break applies."
- },
- "GEN-TECH2-U14-588a42": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The upward channel follows from why the role exists; the distractors are other functions entirely."
- },
- "GEN-TECH2-U14-748807": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about peer credibility as the mechanism of acceptance."
- },
- "GEN-TECH2-U14-77f654": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The message-channel-frequency-owner-feedback set is a textbook list, but the alternatives are recognisably execution details rather than plan content."
- },
- "GEN-TECH2-U14-7954c4": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Magnitude follows from how far process logic and roles shift; the reasoning is applied to the scenario."
- },
- "GEN-TECH2-U14-a840fc": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about who has authority to sanction changed roles and accountabilities."
- },
- "GEN-TECH2-U14-b7e3dd": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from scope of change spanning process, people and rules, not just technology."
- },
- "GEN-TECH2-U14-ba5283": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The 'why' versus 'how' distinction is reasoned from what each role is for."
- },
- "GEN-TECH2-U14-d6821c": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The rumour-vacuum argument is reasoned from how uncertainty behaves, not recalled."
- },
- "GEN-TECH2-U14-de89ba": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from champions working through persuasion rather than authority."
- },
- "GEN-TECH2-U14-e4790e": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from process and role changes being decided at design time, not at rollout."
- },
- "GEN-TECH2-U14-f1a9f9": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Enabler versus disabler follows from whether the item raises or lowers the cost of the change."
- },
- "GEN-TECH2-U14-f9e9d4": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The purpose follows from the list being an input to a mitigation plan."
- },
- "GEN-TECH2-U15-070d6a": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Content of a specific statutory amendment; elimination narrows it, so the tie-break applies."
- },
- "GEN-TECH2-U15-08b7c2": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The infringement-versus-passing-off consequence of registration is settled legal doctrine, not something the concept of a mark yields."
- },
- "GEN-TECH2-U15-12cd5b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The distinction turns on when the dishonest intent operates, which is reasoned from the elements the option itself states."
- },
- "GEN-TECH2-U15-1c6146": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The precise obligation a named national policy imposes; a policy provision rather than a derivation."
- },
- "GEN-TECH2-U15-268e78": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a zero licence fee leaving integration, support and training costs untouched."
- },
- "GEN-TECH2-U15-4544dd": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The scenario maps onto the offence by its defining elements — deception inducing delivery — rather than onto a section number."
- },
- "GEN-TECH2-U15-495ed9": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Controller of Certifying Authorities' names its own supervisory function over the bodies that issue certificates."
- },
- "GEN-TECH2-U15-7d2e13": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Which framework a named amendment introduced is a statutory fact, not derivable from technology."
- },
- "GEN-TECH2-U15-82595b": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The records-management duty follows from the Act's purpose; the wrong options defeat it outright."
- },
- "GEN-TECH2-U15-83f4a8": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Turns on prior entrustment as the element separating breach of trust from cheating."
- },
- "GEN-TECH2-U15-84bce1": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A statutorily coined label — India says 'fiduciary' where other regimes say 'controller'; pure naming convention."
- },
- "GEN-TECH2-U15-855ad0": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The plan's stated organising formula; reasoning rules out the extremes but the specific principle is a policy fact."
- },
- "GEN-TECH2-U15-947160": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the two statutes covering different layers of the same conduct."
- },
- "GEN-TECH2-U15-965f7c": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what each statute governs — the electronic means versus the substantive offence — with no section number to recall."
- },
- "GEN-TECH2-U15-9f6236": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Source-indication versus expression follows from what each right is for."
- },
- "GEN-TECH2-U15-a30015": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The legal effect follows from why signature provisions exist — equivalence with a signed paper document."
- },
- "GEN-TECH2-U15-abb509": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from evidence law having been paper-framed; admissibility versus conclusiveness is a conceptual distinction."
- },
- "GEN-TECH2-U15-ec02f1": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "The name of a specific institutional body created under a named programme."
- },
- "GEN-TECH2-U15-f18878": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A specific statutory procedural requirement — the certificate regime — that has to be known rather than inferred."
- },
- "GEN-TECH2-U16-3b7cb6": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The competition and price-discovery consequences are reasoned from what a single-product specification does."
- },
- "GEN-TECH2-U16-5704de": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from the technical threshold being a gate, though the unopened-envelope mechanic is a procurement convention."
- },
- "GEN-TECH2-U16-60980e": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "'Quality and Cost Based' names its own method — a weighted combination of both scores."
- },
- "GEN-TECH2-U16-67db0e": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a requirement needing to be testable if acceptance is to be decided."
- },
- "GEN-TECH2-U16-8eb5b1": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what makes an award fair and defensible; no rule needs to be recalled."
- },
- "GEN-TECH2-U16-b9ed9f": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scenario reasoning: the stem itself clears technical and financial feasibility, leaving the rules as the constraint."
- },
- "GEN-TECH2-U16-c39bff": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The purpose follows from a DPR being a pre-sanction decision document; the wrong options belong to later stages."
- },
- "GEN-TECH2-U16-d89b26": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Functional versus non-functional follows from whether the clause states what the system does or how well it does it."
- },
- "GEN-TECH2-U17-0aa672": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning from support lifecycles being shorter than the contract term."
- },
- "GEN-TECH2-U17-6b745c": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The continuity problem escrow solves follows from the vendor holding the only copy of the code."
- },
- "GEN-TECH2-U17-8b8b49": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The 'risk to the party best able to manage it' principle follows from what mispriced risk does to a bid."
- },
- "GEN-TECH2-U17-999269": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The lock-in and continuity argument is reasoned from what a handover must achieve."
- },
- "GEN-TECH2-U17-b0e87d": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Change control follows from needing to re-baseline scope, cost and schedule together."
- },
- "GEN-TECH2-U17-b995a9": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The dependence-at-renewal argument is reasoned from what happens when ownership is unstated."
- },
- "GEN-TECH2-U17-c89843": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from outsourcing delivery not outsourcing the state's obligation to the citizen."
- },
- "GEN-TECH2-U17-db1655": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The pre-agreed nature of the sum is spelled out in the option, so the concept rather than the legal label decides it."
- },
- "GEN-TECH2-U17-f64d29": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from only the contract documents being enforceable; scenario reasoning throughout."
- },
- "GEN-TECH2-U17-f864a0": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a percentage being unenforceable until measurement and exclusions are agreed."
- },
- "GEN-TECH2-U18-03d69d": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'While still in progress, to correct the project' identifies the mid-term type by timing rather than by recalled terminology."
- },
- "GEN-TECH2-U18-4278e9": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what an indicator needs before anyone can actually report a number."
- },
- "GEN-TECH2-U18-4fcdc9": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scenario reasoning about attribution requiring a comparison point."
- },
- "GEN-TECH2-U18-a41f7f": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from measurability being a precondition of an indicator being reported at all."
- },
- "GEN-TECH2-U18-a74491": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The distinction follows from what each function is for; the wrong options invert or conflate them."
- },
- "GEN-TECH2-U18-abfef2": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Means of verification' names its own content; the distractors belong to other columns."
- },
- "GEN-TECH2-U18-b420cc": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The baseline-is-irrecoverable argument is pure reasoning about measurement."
- },
- "GEN-TECH2-U18-db2f49": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Separating outcome from output and input follows from whose experience each measures."
- },
- "GEN-TECH2-U18-e50540": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The four column names are self-describing enough that the external-conditions column is identified by meaning, though the matrix is a named framework's fixed structure."
- },
- "GEN-TECH2-U18-f0395f": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "'Before' value versus target is a conceptual distinction, not a recalled definition."
- },
- "GEN-TECH2-U19-1b2bfc": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Equity and transparency are recognisably public-sphere effects rather than individual or departmental ones."
- },
- "GEN-TECH2-U19-1c6190": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from reasoning about what a citizen actually spends to obtain a service, not from a recalled list."
- },
- "GEN-TECH2-U19-38b4eb": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The dimension follows from who bears the effect — the applicant or the administration."
- },
- "GEN-TECH2-U19-474be4": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "What a specific named national portal does is an institutional fact, though elimination narrows it."
- },
- "GEN-TECH2-U19-9cf06b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Method reasoning about before-and-after measurement; no figure is actually computed from the stem."
- },
- "GEN-TECH2-U19-eb7f47": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The usage-is-not-impact argument follows from the difference between an output measure and an outcome."
- },
- "GEN-TECH2-U2-09beb4": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about why standalone departmental systems could not interoperate."
- },
- "GEN-TECH2-U2-2ff319": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Purpose follows from why different stakeholder groups need different messages."
- },
- "GEN-TECH2-U2-35f03c": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The risk is derivable from what dependence on one individual implies."
- },
- "GEN-TECH2-U2-7a2d54": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Purpose of a pilot follows from limiting the blast radius of defects."
- },
- "GEN-TECH2-U2-9d907a": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on separating change management from change control conceptually."
- },
- "GEN-TECH2-U2-cccb0a": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on applying the demand/supply distinction to the listed factors."
- },
- "GEN-TECH2-U2-d1efbd": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about why process and legal change, not the technology, is the hard part."
- },
- "GEN-TECH2-U2-dc3951": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Sequence follows from an RFP needing a defined scope to price."
- },
- "GEN-TECH2-U3-02db9a": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Definition follows from taking the user's side of the transaction."
- },
- "GEN-TECH2-U3-2c367d": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on the strategic-versus-design altitude of each option."
- },
- "GEN-TECH2-U3-344dee": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "A single cut-over follows from the contrast with the other named approaches."
- },
- "GEN-TECH2-U3-40a93b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a support unit's role relative to the accountable department."
- },
- "GEN-TECH2-U3-453dfb": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what is needed to evaluate benefit after the fact."
- },
- "GEN-TECH2-U3-458b46": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Purpose of gap analysis follows from its position between as-is and vision."
- },
- "GEN-TECH2-U3-4d1dfc": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The cost of a long coexistence follows from running two arrangements at once."
- },
- "GEN-TECH2-U3-73051c": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Requires only the outcome-versus-output distinction."
- },
- "GEN-TECH2-U3-8052f5": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The risk follows from having switched off the fallback."
- },
- "GEN-TECH2-U3-88b8b3": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Meaning follows from what 'multi-channel' implies for the back-end."
- },
- "GEN-TECH2-U3-b3a4dd": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "What a roadmap is follows from its position between strategy and procurement."
- },
- "GEN-TECH2-U3-c6440c": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The programme-versus-project distinction is conceptual."
- },
- "GEN-TECH2-U3-c928ab": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Double entry follows directly from running both systems on the same live workload."
- },
- "GEN-TECH2-U3-d15b1b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The inclusion rationale follows from who cannot use a self-service channel."
- },
- "GEN-TECH2-U3-d3afbb": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Power and interest are the sensible dimensions on reasoning, though the grid is a named tool."
- },
- "GEN-TECH2-U3-d577d4": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from why phasing is done at all, namely learning between phases."
- },
- "GEN-TECH2-U3-d87bae": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The vision-versus-strategy distinction is conceptual."
- },
- "GEN-TECH2-U3-ece0f0": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Definition follows from contrasting with big-bang and phased approaches."
- },
- "GEN-TECH2-U4-0402cc": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Purpose of an as-is map follows from needing a baseline for the to-be."
- },
- "GEN-TECH2-U4-0b67c6": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Prioritisation criteria follow from where re-engineering effort yields the most relief."
- },
- "GEN-TECH2-U4-3a5a01": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the fact that automation reproduces whatever process it is given."
- },
- "GEN-TECH2-U5-00c672": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Demand risk follows from revenue depending entirely on volumes."
- },
- "GEN-TECH2-U5-10399d": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "What a named platform is scoped to cover; the name helps but the boundary is a scheme fact."
- },
- "GEN-TECH2-U5-25a14d": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Whole-life quality-and-cost reasoning, not a remembered rule."
- },
- "GEN-TECH2-U5-32ac94": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what advance disclosure does for bidders and for defensibility of the award."
- },
- "GEN-TECH2-U5-3da736": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The recovery mechanism follows from what a transaction fee is."
- },
- "GEN-TECH2-U5-6c7d0d": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The objective defeated follows from what a single-product specification does to the bidder pool."
- },
- "GEN-TECH2-U5-705298": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about technology obsolescence over a multi-year contract."
- },
- "GEN-TECH2-U5-7fb8e1": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The method's own name carries the derivation, though telling it from least-cost selection is a learned convention."
- },
- "GEN-TECH2-U5-8b616d": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from converting capital expenditure into usage-linked revenue outgo."
- },
- "GEN-TECH2-U6-01379d": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Time saved follows from the partner having already done the procurement and the build."
- },
- "GEN-TECH2-U6-05f8d4": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what a financial penalty does to an operator's incentives."
- },
- "GEN-TECH2-U6-11dc41": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from the expansion of Application Service Provider, which the stem supplies."
- },
- "GEN-TECH2-U6-132bd6": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The citizen benefit follows from a single window at published charges under an enforceable time."
- },
- "GEN-TECH2-U6-20ded7": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from which route keeps build and hiring off the critical path."
- },
- "GEN-TECH2-U6-2a465e": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "No private capital and no revenue risk leaves only fee-for-management."
- },
- "GEN-TECH2-U6-4a82d6": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Shared equity follows from what 'joint venture' means, though model definitions are otherwise conventions."
- },
- "GEN-TECH2-U6-506cb4": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Tenure and assured volumes follow from what makes an upfront investment recoverable."
- },
- "GEN-TECH2-U6-6341b1": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Permanent private ownership plus usage revenue maps onto the model names written out in the options."
- },
- "GEN-TECH2-U6-65c5b2": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Independent measurement follows from SLA-linked payment needing a credible referee."
- },
- "GEN-TECH2-U6-82759a": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Hosted-and-subscribed follows from the model, though the ASP/SaaS equivalence is a learned association."
- },
- "GEN-TECH2-U6-86e08c": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Statutory discretion cannot be outsourced; follows from what a statutory power is."
- },
- "GEN-TECH2-U6-8f6496": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The allocation principle follows from a party pricing in any risk it cannot manage."
- },
- "GEN-TECH2-U6-99bb20": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The regulator role follows from transferring delivery but not accountability."
- },
- "GEN-TECH2-U6-a4042d": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Who bears demand risk follows from whether payment is fixed or volume-linked."
- },
- "GEN-TECH2-U6-adcef9": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Demand risk follows from being paid per transaction."
- },
- "GEN-TECH2-U6-b18ef3": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The acronym is expanded in the stem, so the obligation set follows by reading it."
- },
- "GEN-TECH2-U6-ba119e": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The name states the arrangement, though the exact risk allocation is a model convention."
- },
- "GEN-TECH2-U6-bba8a7": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Turns on where ownership sits in each model, derivable from the expanded names."
- },
- "GEN-TECH2-U6-d0382f": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "A single accountable party follows from bundling delivery under one contract."
- },
- "GEN-TECH2-U6-fda96b": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Both acronyms are expanded in the stem, so the trailing 'Transfer' follows by reading rather than recall."
- },
- "GEN-TECH2-U6-ffb788": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Ring-fencing follows from what a separate project company achieves for lenders."
- },
- "GEN-TECH2-U7-1742b8": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The meaning of 'shareable' follows from the citizen controlling disclosure."
- },
- "GEN-TECH2-U7-2aacfd": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The role follows from assisted delivery plus training at the last mile."
- },
- "GEN-TECH2-U7-2c9cad": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "What a named project covers; the ministry acronym is the only derivation path."
- },
- "GEN-TECH2-U7-4ae6fb": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Choosing buffer and service-area analysis follows from what the siting question asks."
- },
- "GEN-TECH2-U7-56eee6": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Scope follows from the project's name and the tier of administration it addresses."
- },
- "GEN-TECH2-U7-60b5b3": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A specific policy obligation; the name hints at sharing but the classify-and-publish duty is a stated provision."
- },
- "GEN-TECH2-U7-64f473": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The distinguishing mechanic follows from what a virtual payment address does, once the concept is held."
- },
- "GEN-TECH2-U7-70e6ea": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Middleware's role follows from converting point-to-point links into a hub."
- },
- "GEN-TECH2-U7-7607d0": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The function of a named platform, not derivable from GIS knowledge alone."
- },
- "GEN-TECH2-U7-7a2216": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Single-window means one application routed onward, not the abolition of approvals."
- },
- "GEN-TECH2-U7-8cee83": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The function of a named centre; the Hindi word hints at cleaning but the botnet mandate is a fact to be known."
- },
- "GEN-TECH2-U7-8d44da": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The scheme's name states the mechanism; central authentication follows from it."
- },
- "GEN-TECH2-U7-9c54ba": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from federated APIs versus a consolidated database as competing integration designs."
- },
- "GEN-TECH2-U7-b2f436": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The expansion is printed and 'unified' carries the answer; the distractors are other platforms' functions."
- },
- "GEN-TECH2-U7-b59bca": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from what 'issued by the authority' implies about signature and evidentiary value."
- },
- "GEN-TECH2-U7-c376da": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A specific policy provision, preference plus recorded justification, not derivable from the idea of open source."
- },
- "GEN-TECH2-U7-c600c5": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A scheme target pitched at the household; arbitrary without recall."
- },
- "GEN-TECH2-U7-e397a9": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The meaning of portability follows from the entitlement following the person."
- },
- "GEN-TECH2-U7-e6f1ca": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "What the account-identity-mobile combination enables follows from what each element supplies."
- },
- "GEN-TECH2-U7-ff593d": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Turns on the institutional division of mandates; the acronym expansion is the only derivation path."
- },
- "GEN-TECH2-U8-191141": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Counts and control totals follow from what proving completeness actually requires."
- },
- "GEN-TECH2-U8-72e4e5": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from un-indexed page images being unsearchable."
- },
- "GEN-TECH2-U8-890bd7": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The consequence follows from what inconsistent field definitions do to data exchange."
- },
- "GEN-TECH2-U8-bbf9d3": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Purpose of a rehearsal follows from wanting errors surfaced before go-live."
- },
- "GEN-TECH2-U8-bea03a": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the back-end verification step needing a machine-readable record."
- },
- "GEN-TECH2-U8-da7326": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what managed custody adds over plain storage."
- },
- "GEN-TECH2-U8-fb1b54": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The term largely describes itself, though 'day-forward' is a coined label."
- },
- "GEN-TECH2-U8-fd0345": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "What OCR adds follows from the difference between an image and text."
- },
- "GEN-TECH2-U9-1402d4": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The role follows from WSDL being a service description language, though the acronym itself has to be known."
- },
- "GEN-TECH2-U9-2a3b24": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The rows-and-interrogatives structure of a named framework must be learned; it does not follow from any concept."
- },
- "GEN-TECH2-U9-3062f7": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Recall of the canonical four-layer list; elimination helps but the exact set is a convention, so tie-break applies."
- },
- "GEN-TECH2-U9-5884a5": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scenario reasoning about one authoritative implementation; no list membership involved."
- },
- "GEN-TECH2-U9-5ba133": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Distinguishing interoperability from availability and scalability is conceptual discrimination."
- },
- "GEN-TECH2-U9-67284b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about departmental silos and what an architecture framework fixes yields the answer."
- },
- "GEN-TECH2-U9-86bc2b": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The answer follows from what any EA framework does; no TOGAF-specific detail is needed."
- },
- "GEN-TECH2-U9-92ae51": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The distinction follows from what a style and a protocol respectively are."
- },
- "GEN-TECH2-U9-9f8245": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The lock-in and long-term-readability argument follows from what an open specification is."
- },
- "GEN-TECH2-U9-a6a6ec": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The point-to-point versus hub argument is reasoned from what integration costs, not recalled."
- },
- "GEN-TECH2-U9-cc4a7a": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The effect of shared metadata follows from what common data definitions do."
- },
- "GEN-TECH2-U9-dd07bb": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The answer is the definition of coupling itself — dependence on contract, not internals."
+  "why": "Availability-to-downtime conversion: 30 x 24 x 60 x 0.001 = 43.2 minutes, mechanical for any percentage and period."
  },
  "TECH1_2024-1": {
   "conf": "medium",
@@ -2889,180 +1949,30 @@ window.QUESTION_MODES = {
   "mode": "understand",
   "why": "UML's breadth over any single narrower modelling purpose follows from what a general modelling language is for."
  },
- "TECH1_2024-41": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Which vendor ships which web server is product-name recall, not derivable from anything."
- },
- "TECH1_2024-42": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The analogy follows from both platforms compiling to a VM-executed intermediate form; the distractors are category errors."
- },
- "TECH1_2024-43": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Exact Microsoft product name against invented look-alikes; pure recall."
- },
- "TECH1_2024-44": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Runtime plus libraries hosting many languages is a platform by definition, reasoned not recalled."
- },
- "TECH1_2024-45": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The option's own expansion states query-integrated-into-the-language, so the match is readable rather than remembered."
- },
- "TECH1_2024-46": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Which Microsoft framework covers which application category is product knowledge; leaning memorise on the tie-break."
- },
- "TECH1_2024-47": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Eliminating the distractors needs knowledge of what each named Microsoft product is."
- },
- "TECH1_2024-48": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Official component name against fabricated near-misses; recognition only."
- },
- "TECH1_2024-49": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "That pooling is configured through connection-string keywords is an API convention of the provider."
- },
  "TECH1_2024-5": {
   "conf": "medium",
   "mode": "understand",
   "why": "Link-level error control is what the data link layer is for; the layer follows from the function."
- },
- "TECH1_2024-50": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "A view-shaped data carrier between controller and view follows from what MVC separation is for."
- },
- "TECH1_2024-51": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reclaiming unreachable memory is what garbage collection means; the distractors are other named subsystems."
- },
- "TECH1_2024-52": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Ruling out UpdatePanel and ScriptManager needs recall of each control's job in the AJAX toolkit."
- },
- "TECH1_2024-53": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Which reserved attribute carries which piece of XML metadata is a spec convention."
- },
- "TECH1_2024-54": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A comparison of two products' control coverage; only familiarity with both settles it."
- },
- "TECH1_2024-55": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "An invokable action decoupled from its trigger follows from the command abstraction itself."
- },
- "TECH1_2024-56": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Servlet versus applet is a vocabulary distinction; the words themselves do not say which tier each runs on."
- },
- "TECH1_2024-57": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "API acronym recall against fabricated alternatives."
- },
- "TECH1_2024-58": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Which layer is the minimal foundation follows from each option building on the one below it."
- },
- "TECH1_2024-59": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "'Everything is an object' as the purity test rules primitives in and the other options out by reasoning."
  },
  "TECH1_2024-6": {
   "conf": "medium",
   "mode": "memorise",
   "why": "Load-bearing fact is the remembered 128-bit address size; the option magnitudes are decades apart so no real computation is exercised."
  },
- "TECH1_2024-60": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The specific name is a convention; the generic option describes the same thing equally well."
- },
- "TECH1_2024-61": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Markup versus scripting and client versus server tiers eliminate the distractors by reasoning."
- },
- "TECH1_2024-62": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The expansion in the name states calling into native code; the distractors describe other named APIs."
- },
- "TECH1_2024-63": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Java's single-class-inheritance rule is a language design decision you have to have been told."
- },
- "TECH1_2024-64": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Which call spawns a thread follows from what a thread of execution needs; the wrong options invert the relationship."
- },
- "TECH1_2024-65": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "A last-chance hook before reclamation follows from the garbage-collection lifecycle."
- },
- "TECH1_2024-66": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Exact method name among plausible invented ones; recall of the API surface."
- },
- "TECH1_2024-67": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Metadata about a result set means data about its columns, distinguishable from the data itself by reasoning."
- },
- "TECH1_2024-68": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Exact method name and receiver object; two of the distractors do not exist."
- },
- "TECH1_2024-69": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "The nine implicit objects are a fixed enumerated list; the odd one is wrong only for not being on it."
- },
  "TECH1_2024-7": {
   "conf": "high",
   "mode": "calculate",
   "why": "Host count from the mask: 32-19 host bits, 2^13 - 2, computable from the stem alone."
  },
- "TECH1_2024-70": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The annotation name restates the bean type asked for, so no separate fact has to be recalled."
- },
  "TECH1_2024-71": {
   "conf": "high",
   "mode": "understand",
-  "why": "What a referential constraint must decide follows from what happens to child rows when a parent goes; distractors are other concerns entirely."
+  "why": "Referential actions follow from what a foreign key is; the distractors are capacity/staffing concerns anyone can eliminate."
  },
  "TECH1_2024-72": {
-  "conf": "medium",
+  "conf": "high",
   "mode": "understand",
-  "why": "Fires-automatically-on-a-data-event distinguishes it from an explicitly called routine by reasoning."
+  "why": "'Fires as a side-effect of a data operation' is the defining behaviour of a trigger, and each distractor is a different kind of object."
  },
  "TECH1_2024-73": {
   "conf": "medium",
@@ -3071,33 +1981,33 @@ window.QUESTION_MODES = {
  },
  "TECH1_2024-74": {
   "conf": "medium",
-  "mode": "memorise",
-  "why": "Which of the key terms carries the minimality requirement is naming convention; 'candidate' does not say minimal."
+  "mode": "understand",
+  "why": "Minimality is what separates candidate from super key, but picking the right label is partly nomenclature."
  },
  "TECH1_2024-75": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Same key-terminology convention: the word 'super' does not itself signal non-minimal unique identification."
+  "conf": "high",
+  "mode": "understand",
+  "why": "The options are property descriptions; the correct one follows from what functional determination of a tuple means."
  },
  "TECH1_2024-76": {
-  "conf": "low",
+  "conf": "medium",
   "mode": "understand",
-  "why": "Logical versus physical follows from the words, but the printed blanks are in reversed order so the item is defective."
+  "why": "Logical-vs-physical design follows from what each layer concerns, but the printed blanks are in reversed order."
  },
  "TECH1_2024-77": {
   "conf": "low",
   "mode": "understand",
-  "why": "What normalisation does and does not buy is reasoned, but no option lists the correct pair and the printed key contradicts its own explanation."
+  "why": "Evidently asking what normalization buys you, but the printed key credits readability and drops integrity, so reasoning does not reach it."
  },
  "TECH1_2024-78": {
   "conf": "high",
   "mode": "understand",
-  "why": "Which side keeps unmatched rows follows from what 'left outer' means; no list involved."
+  "why": "Which side keeps its unmatched rows follows directly from what 'left outer' means."
  },
  "TECH1_2024-79": {
   "conf": "medium",
-  "mode": "understand",
-  "why": "Data-about-data reads straight off the term; note the near-identical OLD-84 is keyed to a different option."
+  "mode": "memorise",
+  "why": "Metadata vs catalog vs dictionary is a term-preference convention; the near-identical TECH1_OLD-84 is keyed the other way."
  },
  "TECH1_2024-8": {
   "conf": "medium",
@@ -3107,17 +2017,17 @@ window.QUESTION_MODES = {
  "TECH1_2024-80": {
   "conf": "medium",
   "mode": "understand",
-  "why": "Definition versus manipulation is legible from the expansions, and the other pairs are not language categories at all."
+  "why": "Design-vs-data maps onto the DDL/DML split conceptually, though it does rest on knowing the two expansions."
  },
  "TECH1_2024-81": {
   "conf": "high",
   "mode": "understand",
-  "why": "The term states multiple values per instance; the distractors describe other named attribute kinds."
+  "why": "The name states the property; each distractor describes a different, recognisable ER concept."
  },
  "TECH1_2024-82": {
   "conf": "high",
   "mode": "memorise",
-  "why": "Turns on the exact clause wording, with the bare keyword offered as a near-miss."
+  "why": "Turns on the exact clause spelling ON DELETE CASCADE rather than the bare keyword — syntax recall, not reasoning."
  },
  "TECH1_2024-83": {
   "conf": "high",
@@ -3127,12 +2037,12 @@ window.QUESTION_MODES = {
  "TECH1_2024-84": {
   "conf": "high",
   "mode": "understand",
-  "why": "Role boundaries follow from what each adjacent job is responsible for."
+  "why": "Role boundaries: the distractors belong to developers and network admins, eliminable by reasoning about what a DBA owns."
  },
  "TECH1_2024-85": {
   "conf": "high",
   "mode": "understand",
-  "why": "'Derived' says computed-from-others; the distractors are other clearly different constructs."
+  "why": "'Derived' means computed from other attributes; the answer restates the concept."
  },
  "TECH1_2024-86": {
   "conf": "medium",
@@ -3208,6 +2118,146 @@ window.QUESTION_MODES = {
   "conf": "low",
   "mode": "understand",
   "why": "The fault-targeting name matches the stem, but the stem describes testing generally so the intended term is uncertain."
+ },
+ "TECH1_CSE_096": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Turns on recalling the term 'open recursion' itself; once the label is known the answer follows, but nothing about OOP yields the label."
+ },
+ "TECH1_CSE_100": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Which named language omits multiple inheritance is a per-language fact, not derivable from what inheritance is."
+ },
+ "TECH1_CSE_101": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "The dummy int parameter is an arbitrary C++ disambiguation convention with no derivation path."
+ },
+ "TECH1_CSE_130": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Design-vs-snapshot maps onto schema and instance by what each word denotes."
+ },
+ "TECH1_CSE_131": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Algebra specifies a sequence of operators and calculus states a condition, so 'procedural' follows — but the label is taught, not obvious."
+ },
+ "TECH1_CSE_132": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "The UPDATE ... SET keyword is fixed SQL syntax with no derivation path."
+ },
+ "TECH1_CSE_133": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "'Insufficient attributes for a primary key' is the definition of weak; the other options are invented terms."
+ },
+ "TECH1_CSE_135": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "ALTER rather than MODIFY is an arbitrary keyword choice; the distractor is equally sensible English."
+ },
+ "TECH1_CSE_136": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "DROP rather than Delete/Purge/Remove is fixed SQL vocabulary, not something the concept dictates."
+ },
+ "TECH1_CSE_137": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The stem spells out the constraint; 'referential' follows from the referencing/referenced relationship described."
+ },
+ "TECH1_CSE_138": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "What a foreign key points at follows from what it is for — linking to another relation's identifier."
+ },
+ "TECH1_CSE_140": {
+  "conf": "low",
+  "mode": "calculate",
+  "why": "Candidate keys come from attribute-closure computation, but the OCR has lost every arrow so the dependency set is unusable as printed."
+ },
+ "TECH1_CSE_141": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Picking the nested-subquery form follows from what the delete has to reference, though it also rests on SQL syntax familiarity."
+ },
+ "TECH1_CSE_142": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "'All pairs regardless of match' is what a Cartesian product means; join/intersection/difference are eliminable by definition."
+ },
+ "TECH1_CSE_143": {
+  "conf": "low",
+  "mode": "calculate",
+  "why": "Attribute-closure derivation is the method, but three of the printed dependencies are trivial and the key contradicts the same question at TECH1_CSE_140."
+ },
+ "TECH1_CSE_144": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Defining versus manipulating maps onto DDL/DML conceptually, though it leans on knowing the expansions."
+ },
+ "TECH1_CSE_147": {
+  "conf": "high",
+  "mode": "calculate",
+  "why": "Worked as a procedure: find the candidate key, test partial then transitive dependencies, stop at the highest normal form satisfied."
+ },
+ "TECH1_CSE_148": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "INSERT ... SELECT follows from needing a query rather than a literal row, but recognising the form is partly syntax recall."
+ },
+ "TECH1_CSE_167": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "'Set of permitted values' is the definition of a domain; the distractors name different structural objects."
+ },
+ "TECH1_CSE_168": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "A relation is a set, and sets are unordered — the answer follows from the model."
+ },
+ "TECH1_CSE_169": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "'Descriptive property of an entity' is what attribute means; entity/relation/model are different levels of the model."
+ },
+ "TECH1_CSE_171": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Turns on the stem omitting minimality, which separates super key from candidate key — reasoning, but a subtle reading."
+ },
+ "TECH1_CSE_173": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Procedural follows from algebra prescribing operations, but the procedural/declarative labelling is a taught classification."
+ },
+ "TECH1_CSE_174": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Existence of no adequate primary key is the defining property of a weak entity set; two distractors are non-terms."
+ },
+ "TECH1_CSE_177": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The name maps onto the layer it insulates against, though the logical/physical pair is the classic thing to invert."
+ },
+ "TECH1_CSE_210": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Same super-key-versus-candidate-key reading; conceptual, but decided by a missing minimality clause."
+ },
+ "TECH1_CSE_215": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The formal construction takes products of value sets, so 'domains' follows — but the attributes distractor is a real trap."
+ },
+ "TECH1_CSE_217": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Category reasoning about what SQL is; loosely framed, with the generic distractors doing most of the work."
  },
  "TECH1_OLD-1": {
   "conf": "high",
@@ -3389,185 +2439,35 @@ window.QUESTION_MODES = {
   "mode": "memorise",
   "why": "'Predictable risk' is a taxonomy label; the alternatives are equally plausible words without the textbook's split."
  },
- "TECH1_OLD-41": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Discriminates on exact method-name capitalisation; nothing but recall of the API surface separates the options."
- },
- "TECH1_OLD-42": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Exact interface name against two invented ones; recognition only."
- },
- "TECH1_OLD-43": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Platform independence follows from AJAX being browser-side standard technology; statements 3 and 4 self-contradict."
- },
- "TECH1_OLD-44": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "All three sources reduce to the same enumerable surface, which is reasoned from how LINQ queries work."
- },
- "TECH1_OLD-45": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The true statements are verbatim vendor blurb, so the false ones are spotted by recalling the wording, not by reasoning."
- },
- "TECH1_OLD-46": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "'Routed' versus 'bubbled' is the framework's chosen term; both read plausibly to someone who understands the tree traversal."
- },
- "TECH1_OLD-47": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Each listed piece is obviously needed for a plugin app to run, so the umbrella answer is reasoned."
- },
- "TECH1_OLD-48": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Exact delimiter characters; the wrong options differ only by a symbol."
- },
- "TECH1_OLD-49": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Each claim follows from what a managed runtime does, so no list membership is needed."
- },
  "TECH1_OLD-5": {
   "conf": "high",
   "mode": "memorise",
   "why": "Maximum range figure for a standard; an arbitrary published number with no derivation path."
- },
- "TECH1_OLD-50": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Separating class libraries from the runtime, the spec and COM turns on knowing what each named component is."
- },
- "TECH1_OLD-51": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "'Directive' is the framework's term for page-level settings; the concept alone does not name it."
- },
- "TECH1_OLD-52": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Every class deriving from the common root settles it; the distractor invents a non-existent base type."
- },
- "TECH1_OLD-53": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Which vendor authored which server is a fact about products, with no derivation path."
- },
- "TECH1_OLD-54": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Exact namespace name; near-miss options differ only in a word."
- },
- "TECH1_OLD-55": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Selecting from the vendor's enumerated list of constituent parts, where one listed part is only there by convention."
- },
- "TECH1_OLD-56": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "That the spec leaves equal-priority ordering to the scheduler follows from what a thread priority is and is not."
- },
- "TECH1_OLD-57": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The code trace is trivial; the load-bearing fact is the convention that the initial thread is named 'main', which no procedure yields."
- },
- "TECH1_OLD-58": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "JDBC type-name to precision mapping is an arbitrary convention, and the obvious-looking name is deliberately wrong."
- },
- "TECH1_OLD-59": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A remembered count of constants in a specification version, not a computed one."
  },
  "TECH1_OLD-6": {
   "conf": "high",
   "mode": "calculate",
   "why": "Transmission delay = bits / bit-rate; both figures are in the stem and the method generalises to any numbers."
  },
- "TECH1_OLD-60": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Bean-managed means the bean demarcates the transaction, so it must obtain the handle itself."
- },
- "TECH1_OLD-61": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Each listed ingredient is recognisably part of a Java web MVC stack, so the umbrella answer is reasoned."
- },
- "TECH1_OLD-62": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "A per-user locale must come from a per-user signal, which rules out the static config file."
- },
- "TECH1_OLD-63": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Protected and private are meaningless without an enclosing type, which follows from what those modifiers mean."
- },
- "TECH1_OLD-64": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Overloading is chosen from declared argument types, so resolution must precede execution; two options are non-existent phases."
- },
- "TECH1_OLD-65": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Development kit versus runtime environment follows from what each is for, not from a memorised inventory."
- },
- "TECH1_OLD-66": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Thread creation semantics reason directly from what a separate call stack requires."
- },
- "TECH1_OLD-67": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Reasoning about thread state transitions, but the stem's 'ensure running' is not true of any option, so the intent is unclear."
- },
- "TECH1_OLD-68": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The four scopes differ by lifetime, and matching them follows from what a session is."
- },
- "TECH1_OLD-69": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The ordering is forced by dependency: nothing can be initialised or cleaned up before it is compiled."
- },
  "TECH1_OLD-7": {
   "conf": "high",
   "mode": "memorise",
   "why": "Acronym recall against three invented look-alikes."
  },
- "TECH1_OLD-70": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Last-in-first-out call frames follow from how nested calls must return."
- },
  "TECH1_OLD-71": {
   "conf": "medium",
-  "mode": "memorise",
-  "why": "Formal-model vocabulary mapping (table/row/column to relation/tuple/attribute) is convention, not derivation."
+  "mode": "understand",
+  "why": "Core relational vocabulary that comes with the model itself, though the table/relation mapping is still nomenclature."
  },
  "TECH1_OLD-72": {
   "conf": "high",
   "mode": "understand",
-  "why": "Exclusive versus shared follows from what each lock must permit; the other pair describes acquisition, not access."
+  "why": "'Exclusive' entails blocking every other lock; shared/implicit/explicit are separable by what each word means."
  },
  "TECH1_OLD-73": {
-  "conf": "medium",
+  "conf": "high",
   "mode": "understand",
-  "why": "Two options state the opposite of what a usable business rule must be, so elimination is by reasoning."
+  "why": "Each option can be judged against what a business rule is for; no list to recall."
  },
  "TECH1_OLD-74": {
   "conf": "medium",
@@ -3580,24 +2480,24 @@ window.QUESTION_MODES = {
   "why": "Heterogeneous and distributed each constrain one property; combining them is pure reasoning over the options."
  },
  "TECH1_OLD-76": {
-  "conf": "medium",
+  "conf": "high",
   "mode": "understand",
-  "why": "Classifying the join means applying the definitions to the printed query, not recalling a fact or computing a value."
+  "why": "Classifying the join from an equality predicate in WHERE follows from what equi- and natural joins do."
  },
  "TECH1_OLD-77": {
   "conf": "medium",
   "mode": "understand",
-  "why": "A dependency chain that bypasses the key follows from what 'transitive' means."
+  "why": "Transitivity through a non-key attribute follows from the X->Y->Z shape, though the prime/non-prime wording is textbook phrasing."
  },
  "TECH1_OLD-78": {
   "conf": "medium",
   "mode": "memorise",
-  "why": "Weak versus ID-dependent is a fine textbook sub-distinction that the terms themselves do not convey."
+  "why": "Splits weak entity from ID-dependent entity, a taxonomy specific to one textbook rather than something ER modelling entails."
  },
  "TECH1_OLD-79": {
-  "conf": "medium",
+  "conf": "high",
   "mode": "understand",
-  "why": "Automatic firing on DML events versus explicit invocation separates the options conceptually."
+  "why": "Automatic execution on INSERT/DELETE/UPDATE is the defining property of a trigger versus a called procedure or function."
  },
  "TECH1_OLD-8": {
   "conf": "medium",
@@ -3607,32 +2507,32 @@ window.QUESTION_MODES = {
  "TECH1_OLD-80": {
   "conf": "high",
   "mode": "understand",
-  "why": "A mutual waiting cycle is what deadlock means; the other states describe a single transaction."
+  "why": "The stem states the circular-wait condition; deadlock follows from it rather than having to be recalled."
  },
  "TECH1_OLD-81": {
   "conf": "medium",
   "mode": "understand",
-  "why": "That rollback cannot reach past a commit follows from what committing guarantees, leaving the other mechanism."
+  "why": "Reasoning that ROLLBACK cannot survive a COMMIT eliminates the rest, though 'Flashback' is a product-specific feature name."
  },
  "TECH1_OLD-82": {
-  "conf": "medium",
+  "conf": "high",
   "mode": "understand",
-  "why": "Which joins drop unmatched rows follows from the join semantics; natural join makes the intended answer slightly ambiguous."
+  "why": "Which joins drop unmatched tuples follows from what inner and outer mean, even though natural join is arguably also correct."
  },
  "TECH1_OLD-83": {
   "conf": "medium",
-  "mode": "memorise",
-  "why": "Turns on which key term omits minimality, a convention of the terminology rather than a derivable property."
+  "mode": "understand",
+  "why": "Hinges on the absence of a minimality requirement in the stem — conceptual, but a fine distinction against candidate key."
  },
  "TECH1_OLD-84": {
-  "conf": "low",
+  "conf": "medium",
   "mode": "memorise",
-  "why": "Splits hairs between catalog, dictionary and metadata; the bank keys the near-identical 2024-79 to a different one of them."
+  "why": "Catalog vs metadata vs dictionary is a preferred-term convention; the near-identical TECH1_2024-79 is keyed to the other word."
  },
  "TECH1_OLD-85": {
   "conf": "high",
   "mode": "understand",
-  "why": "Computed-from-another-attribute is what derived means, applied to the given example."
+  "why": "AGE computed from DATE_OF_BIRTH is derivation by definition; the other options describe unrelated properties."
  },
  "TECH1_OLD-86": {
   "conf": "low",
@@ -3708,1855 +2608,5 @@ window.QUESTION_MODES = {
   "conf": "low",
   "mode": "memorise",
   "why": "Named OO integration strategies from one text; more than one option is genuinely a valid step, so only the source's wording decides."
- },
- "TECH2_2021-1": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows directly from the citizen-centric definition of good governance."
- },
- "TECH2_2021-10": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A named technique; understanding expert judgement does not yield the word 'Delphi'."
- },
- "TECH2_2021-100": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "The named three-way list a specific ministry framework prescribes; pure enumeration."
- },
- "TECH2_2021-11": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A doctrinal assertion about which item is 'the foundation'; several options are plausible without the taught statement."
- },
- "TECH2_2021-12": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The settled term for the closure repository; 'database' and 'storage' are equally reasonable to a pure reasoner."
- },
- "TECH2_2021-13": {
-  "conf": "medium",
-  "mode": "calculate",
-  "why": "Sign of each variance derives mechanically from CV = EV - AC and SV = EV - PV; any combination could be generated and worked out cold."
- },
- "TECH2_2021-14": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what a vision statement is as against a quantified target."
- },
- "TECH2_2021-15": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Turns on the textbook allocation of items across G2C/G2B/G2E, which reasoning alone does not settle."
- },
- "TECH2_2021-16": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Risk ranking follows from what fallback each changeover approach leaves in place."
- },
- "TECH2_2021-17": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Acronym expansion; the distractors are nonsense, so elimination softens it, but nothing derives 'Conference'."
- },
- "TECH2_2021-18": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from change management spanning people, process and technology together."
- },
- "TECH2_2021-19": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Symptom reasoning, but the question is defective: 'corrupt officers' is an equally valid sign of poor governance."
- },
- "TECH2_2021-2": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Both statements restate properties implied by what a charter is."
- },
- "TECH2_2021-20": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Asks the ordinal position within an enumerated step list; the logical sequence only partly rescues it."
- },
- "TECH2_2021-21": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The false statement inverts the service-process relation, which reasoning catches."
- },
- "TECH2_2021-22": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Internal, citizen-invisible workflow is by definition the back office."
- },
- "TECH2_2021-23": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Automating the as-is is recognisably the anti-pattern GPR exists to prevent."
- },
- "TECH2_2021-24": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from why legacy manual steps cannot simply be lifted into software."
- },
- "TECH2_2021-25": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Each listed trigger is recognisable as a process failure on reasoning."
- },
- "TECH2_2021-26": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Turns on the settled improvement-versus-reengineering naming convention."
- },
- "TECH2_2021-27": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what bundling under one prime vendor does to accountability and coordination."
- },
- "TECH2_2021-28": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Volume numbering of a model RFP is arbitrary and, as the bank notes, varies between departments — so the item is unsafe as printed."
- },
- "TECH2_2021-29": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The procurement mode names describe themselves, so the match to 'price is the only factor' is reasoned."
- },
- "TECH2_2021-3": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Reasoning about distributed versus centralised delivery, though the centralisation item is genuinely arguable."
- },
- "TECH2_2021-30": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A scheme name and its expansion, with no derivation path."
- },
- "TECH2_2021-31": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A named term; 'adaptation' and 'specialization' are equally plausible to someone who never learned it."
- },
- "TECH2_2021-32": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Recurrence follows from staff turnover, but the classification is genuinely arguable."
- },
- "TECH2_2021-33": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Revenue-in versus operator-cost reasoning, but the option set is loosely drafted and the CSC fee is arguable either way."
- },
- "TECH2_2021-34": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Retaining all risk and return follows from government building and running it itself."
- },
- "TECH2_2021-35": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Retained accountability follows from what a PPP does and does not transfer."
- },
- "TECH2_2021-36": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The three wrong options state the opposite of a benefit."
- },
- "TECH2_2021-37": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "An acronym expansion; the 'Buy' variants are wrong only by convention."
- },
- "TECH2_2021-38": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Membership of a named framework's building block; the five segment types are an enumerated list."
- },
- "TECH2_2021-39": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Value' is recognisably not a way of receiving money, so reasoning suffices despite the canvas framing."
- },
- "TECH2_2021-4": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Turns on membership of the canonical good-governance attribute list; 'democracy' is excluded only by not being on it."
- },
- "TECH2_2021-40": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Matches a definition to a named canvas block; 'resources' is guessable but the block names are conventions."
- },
- "TECH2_2021-41": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The described behaviour names itself: customers serving themselves."
- },
- "TECH2_2021-42": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A slogan; arbitrary wording with no derivation path."
- },
- "TECH2_2021-43": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Membership of the three-item vision list; the odd one out merely is not on it."
- },
- "TECH2_2021-44": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The allocation of items across the three vision areas is a textbook mapping, though 'literacy' semantically hints at empowerment."
- },
- "TECH2_2021-45": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Acronym membership in the CSC three-tier structure; SCD is wrong only by not existing."
- },
- "TECH2_2021-46": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A design fact about a named platform; Aadhaar is a reasonable guess but not derivable."
- },
- "TECH2_2021-47": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Turns on the exact wording of a pillar name, with a near-miss rename as the trap."
- },
- "TECH2_2021-48": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A launch date."
- },
- "TECH2_2021-49": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Names a specific pilot project under a specific mission; no derivation path."
- },
- "TECH2_2021-5": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Which constitutional list an entry sits on is an arbitrary allocation with no derivation path."
- },
- "TECH2_2021-50": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "An acronym expansion."
- },
- "TECH2_2021-51": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Names the system behind a described feature; recall of UPI and NPCI is what is tested."
- },
- "TECH2_2021-52": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scenario reasoning about off-site copies versus a single physical location."
- },
- "TECH2_2021-53": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Stakeholder list of a named platform; the odd one out is wrong only by not being on it."
- },
- "TECH2_2021-54": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "The name of a specific national portal; arbitrary, with no derivation path."
- },
- "TECH2_2021-55": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Business-to-IT traversal is inherent to every EA framework, so it is reasoned rather than recalled."
- },
- "TECH2_2021-56": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from architecture being a design choice rather than a derivation, though options B and C are both defensible readings."
- },
- "TECH2_2021-57": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The stem's description is the definition of SOA; the other acronyms are not architectural taxonomies."
- },
- "TECH2_2021-58": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "'Malicious code' is the category that follows from what those three programs are, not a list to recall."
- },
- "TECH2_2021-59": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Position in a named lifecycle's ordered stage list, with no derivation path; options A and D name nearly the same stage."
- },
- "TECH2_2021-6": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Membership of the canonical four-domain set; C2G is excluded only by convention."
- },
- "TECH2_2021-60": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Pure acronym expansion of a specific Indian framework."
- },
- "TECH2_2021-61": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The stem is the standard definition of integrity; the distractors are mechanisms rather than properties."
- },
- "TECH2_2021-62": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The false claim follows from deep payload inspection costing performance, though option B's wording is muddled."
- },
- "TECH2_2021-63": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The odd one out is carriage infrastructure, recognisably outside a trust framework — conceptual, not list recall."
- },
- "TECH2_2021-64": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Turns on non-repudiation needing a signature over content, which follows from what each mechanism guarantees."
- },
- "TECH2_2021-65": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Replying confirms a live address — reasoned from the spammer's incentive, not memorised."
- },
- "TECH2_2021-66": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Fits ethical hacking into one label of a textbook audit taxonomy; the item is weakly framed and more than one option is arguable."
- },
- "TECH2_2021-67": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what an audit is for — finding the gaps — rather than from any recalled fact."
- },
- "TECH2_2021-68": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Acronym recall — matching a definition to the expansion 'Commercial Off-The-Shelf'."
- },
- "TECH2_2021-69": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Picks the standard term from near-synonyms; conceptual but the options are only loosely distinguishable."
- },
- "TECH2_2021-7": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "List membership from a textbook's 'essential elements'; the wording is weak and several options are defensible."
- },
- "TECH2_2021-70": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The odd one out follows from the idea-expression distinction, not merely from a list of IPR types."
- },
- "TECH2_2021-71": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Depends on the textbook e-Administration / e-Citizens / e-Society allocation, which is what excludes the citizen-interaction trap."
- },
- "TECH2_2021-72": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Judging two rationale statements against what open licensing actually allows; no list membership involved."
- },
- "TECH2_2021-73": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The odd one out is recognisably inconsistent with openness, rather than merely absent from the definition's enumerated list."
- },
- "TECH2_2021-74": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Same reasoning as the vendor-accountability item; support versus reliability is a judgement, not a recalled figure."
- },
- "TECH2_2021-75": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Picks the umbrella cause by reasoning about where the difficulty lies, though stakeholder management is a defensible alternative."
- },
- "TECH2_2021-76": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Recognising two members of a named model's fixed five-element list; pure list membership."
- },
- "TECH2_2021-77": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Conceptual judgement on communication principles, but Principle 2 is so badly worded that the intended reading has to be reverse-engineered from the options."
- },
- "TECH2_2021-78": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The failure cause follows from what happens when nothing is prioritised; the rest are healthy conditions."
- },
- "TECH2_2021-79": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Which numbered phase of a named framework a given activity sits in is arbitrary placement with no derivation path."
- },
- "TECH2_2021-8": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The phase follows from the fact that IT-enablement opportunities describe the to-be."
- },
- "TECH2_2021-80": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The tool's purpose follows from its own name; the distractors describe different instruments."
- },
- "TECH2_2021-81": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Internal versus external follows from where the driver originates, not from a list."
- },
- "TECH2_2021-82": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Each cause follows from perceived personal cost; the reasoning yields 'all of the above'."
- },
- "TECH2_2021-83": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The three phase names are self-ordering, so 'foundation first' is reasoned rather than recalled."
- },
- "TECH2_2021-84": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Episodic' transparently matches the described on-off pattern, though the four-way taxonomy is a specific textbook's."
- },
- "TECH2_2021-85": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Section number recall, with Section 5 as the standard confusion."
- },
- "TECH2_2021-86": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a freely available public key being unable to provide confidentiality."
- },
- "TECH2_2021-87": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The RA-versus-CA division follows from what 'registration' and 'certifying' respectively name, though the split is a statutory arrangement."
- },
- "TECH2_2021-88": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Certificate class numbering is an arbitrary convention; the assurance ladder must be learned."
- },
- "TECH2_2021-89": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The Act titles themselves separate IPR statutes from the electronic-records statute."
- },
- "TECH2_2021-9": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Derivable from as-is documenting the present against a forward-looking strategy."
- },
- "TECH2_2021-90": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from copyright protecting original expression and the others protecting marks, inventions and appearance."
- },
- "TECH2_2021-91": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Turns on novelty being the substantive test, though 'grant' is a defensible second answer that the bank itself concedes."
- },
- "TECH2_2021-92": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "All three listed items are recognisably financial, so the answer follows from what 'financial part' means."
- },
- "TECH2_2021-93": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on the roles and sequence of the two documents, which the reasoning about who prepares each supplies."
- },
- "TECH2_2021-94": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Which heading of a particular model contract template these clauses sit under is arbitrary, and the bank concedes another option is equally defensible."
- },
- "TECH2_2021-95": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what distinguishes a PPP from a departmental build."
- },
- "TECH2_2021-96": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The false statement is the one that belongs to evaluation; the boundary is conceptual, not a list."
- },
- "TECH2_2021-97": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The odd item is recognisably not an evaluation stage, so the odd-one-out is conceptually inconsistent rather than merely off-list."
- },
- "TECH2_2021-98": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Placing evaluation at the outcome level follows from the results chain, though the level labels are a convention."
- },
- "TECH2_2021-99": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Requires placing each option on the activity-output-outcome-impact chain, though 'reduction in polio' is a genuinely tempting one-level-down answer."
- },
- "TECH2_2024-1": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Accountability, transparency and consensus all follow from what good governance is; only mild list-membership risk."
- },
- "TECH2_2024-10": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Gap assessment follows logically from comparing as-is with to-be."
- },
- "TECH2_2024-100": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Arbitrary section number; the four options are all real sections of the same Act."
- },
- "TECH2_2024-11": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Turns on separating personal rapport from institutional criteria; two options are near-duplicates."
- },
- "TECH2_2024-12": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Attributes a fixed four-stage sequence to a named model; the escalation logic only partly derives it."
- },
- "TECH2_2024-13": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The vision/objective distinction is conceptual, but the question is loosely framed and other options are arguable."
- },
- "TECH2_2024-14": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Reasoning about human barriers to transition, but the item is defective — 'E-Fear' and 'Change resistance' are both defensible and the bank's own explanation argues against its key."
- },
- "TECH2_2024-15": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what capacity building is for; the wrong options work against adoption."
- },
- "TECH2_2024-16": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The objective follows from what e-Governance is; the other options are its opposite."
- },
- "TECH2_2024-17": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Applying the G2B label follows from identifying who consumes the service."
- },
- "TECH2_2024-18": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Taxonomy application, but the record is defective: the key says B while the explanation argues A, and the options are poorly discriminated."
- },
- "TECH2_2024-19": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Turns on the textbook's exact statement of GPR purposes; the record is defective, since the key excludes documentation while the explanation endorses it."
- },
- "TECH2_2024-2": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The standard term itself is the answer; the invented distractor names are equally plausible without recall."
- },
- "TECH2_2024-20": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what redesign means as against mere restatement."
- },
- "TECH2_2024-21": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Ranking by immediacy is reasoning, but the judgement is genuinely fuzzy."
- },
- "TECH2_2024-22": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The benefit follows from what risk-based prioritisation does."
- },
- "TECH2_2024-23": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The three wrong options are good-governance outcomes, so reasoning eliminates them."
- },
- "TECH2_2024-24": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what preceded digitisation."
- },
- "TECH2_2024-25": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "One arbitrary word from a framework's principle list with no derivation path; the record is broken, the key saying D while the explanation argues C."
- },
- "TECH2_2024-26": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A named platform; nothing about procurement reform yields the name GeM."
- },
- "TECH2_2024-27": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "That an RFP is a solicitation document follows from the term itself."
- },
- "TECH2_2024-28": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The three-envelope sequence is a procurement convention; the screening logic only partly derives it."
- },
- "TECH2_2024-29": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the split between technical and commercial bid content."
- },
- "TECH2_2024-3": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The trade-off follows from what easing access does to verification safeguards."
- },
- "TECH2_2024-30": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Confidentiality exposure is recognisably a PPP risk rather than a strength."
- },
- "TECH2_2024-31": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Reasoning eliminates the unchanged-cost condition, though the list is loosely drafted."
- },
- "TECH2_2024-32": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Reasoning about structural risk versus a contracting failure, but the record is defective: the key says C while the explanation argues D."
- },
- "TECH2_2024-33": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Asks for a platform name, and the printed options are near-synonyms so the intended answer is genuinely unclear."
- },
- "TECH2_2024-34": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "One-time versus recurring follows from what each cost item actually is."
- },
- "TECH2_2024-35": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Only one option is money flowing in because of the digital channel."
- },
- "TECH2_2024-36": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from what 'project finance' means as against funding from the exchequer."
- },
- "TECH2_2024-37": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The role follows from being the counterparty to a concession agreement."
- },
- "TECH2_2024-38": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Maps a described sequence onto an arbitrary model acronym; BOO, BOOT and TOT are naming conventions."
- },
- "TECH2_2024-39": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Shared financing with retained government accountability follows from what a partnership is."
- },
- "TECH2_2024-4": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Definition follows from the concept; distractors describe unrelated state powers."
- },
- "TECH2_2024-40": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A named application; nothing about QR payments yields the name BHIM."
- },
- "TECH2_2024-41": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Net' means net of value lost over time; definitional reasoning rather than a computation."
- },
- "TECH2_2024-42": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A platform name, with plausible invented names as distractors."
- },
- "TECH2_2024-43": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A named platform under Digital India; recall of the brand is what is tested."
- },
- "TECH2_2024-44": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "The name of a specific government service, not derivable from what it does."
- },
- "TECH2_2024-45": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A scheme name under NEP 2020; nothing derives the acronym."
- },
- "TECH2_2024-46": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Membership of the three stated vision areas; elimination helps here but the list itself is what is being tested."
- },
- "TECH2_2024-47": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A scheme name for financial inclusion, arbitrary without recall."
- },
- "TECH2_2024-48": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The contribution follows from what a last-mile assisted access point does."
- },
- "TECH2_2024-49": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Membership of the enumerated nine pillars; the odd one out is wrong only by not being listed."
- },
- "TECH2_2024-5": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The three wrong options contradict the purpose of a charter, so reasoning eliminates them."
- },
- "TECH2_2024-50": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A platform name; the distractors are all real platforms with other functions."
- },
- "TECH2_2024-51": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "The exact scheme name behind a described ID; distractors are plausible inventions."
- },
- "TECH2_2024-52": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Turns on the exact canonical four-layer terminology, not on any concept; and the item is defective since all four options name plausible EA layers."
- },
- "TECH2_2024-53": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The description of reusable networked services identifies SOA directly; the distractors are invented terms."
- },
- "TECH2_2024-54": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The false statement contradicts what 'public key infrastructure' asymmetrically requires; reasoning from key-pair logic settles it."
- },
- "TECH2_2024-55": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The purpose follows from what EA is; the wrong options are narrow operational activities."
- },
- "TECH2_2024-56": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Cost and accuracy follow from what conversion actually involves; the other options are backwards."
- },
- "TECH2_2024-57": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The four attack-category names are largely self-describing, so scanning maps to probing by meaning rather than by recall."
- },
- "TECH2_2024-58": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Three options are recognisable anti-patterns; the odd one out follows from what a control is for."
- },
- "TECH2_2024-59": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Separating access control from IDS/IPS and from encryption is conceptual discrimination."
- },
- "TECH2_2024-6": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Cause follows from what the digital divide is; the other options are implausible on their face."
- },
- "TECH2_2024-60": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Signing with a private key implies origin authentication and non-repudiation; it follows from the mechanism."
- },
- "TECH2_2024-61": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Requires knowing that AES and DES are specifically symmetric ciphers — algorithm classification is learned, not derived."
- },
- "TECH2_2024-62": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Maps key roles onto encryption versus identity proof by reasoning, but the stem's 'visualized respectively as' phrasing is loose."
- },
- "TECH2_2024-63": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The description of the activity identifies IT audit directly; distractors are unrelated kinds of checking."
- },
- "TECH2_2024-64": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Ordering follows from the citizen-centric premise, though the exact triple is textbook phrasing."
- },
- "TECH2_2024-65": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "A 'most critical' judgement weighing consequence of compromise, though several listed risks are genuinely defensible."
- },
- "TECH2_2024-66": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what keeps a system funded once the initial grant is exhausted."
- },
- "TECH2_2024-67": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Reasoning about who seeds public infrastructure, though the option set is weak."
- },
- "TECH2_2024-68": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from government processes being too department-specific for unmodified packages, though it is stated as a textbook generalisation."
- },
- "TECH2_2024-69": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Pricing drivers follow from a product being sold and licensed rather than built."
- },
- "TECH2_2024-7": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about which listed factor could plausibly slow an approval chain."
- },
- "TECH2_2024-70": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A statutory default rule on where copyright vests; a legal convention, not something the technology yields."
- },
- "TECH2_2024-71": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The appeal follows from what open licensing gives up and gains; the wrong options are plainly false statements."
- },
- "TECH2_2024-72": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The requirement follows from what copyleft means, though the stem generalises it to all open-source licensing, which is inaccurate for permissive licences."
- },
- "TECH2_2024-73": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The distinction follows from what each model permits; the distractors simply invert it."
- },
- "TECH2_2024-74": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "The correct option restates the stem, so the item tests nothing beyond spotting the tautology; labelled on what it evidently intended."
- },
- "TECH2_2024-75": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Recall of which off-the-shelf acronym exists and what its initial stands for, against near-identical distractors."
- },
- "TECH2_2024-76": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The expansion 'Free and Open Source Software' is transparent, and the distractors are a language and a product bundle."
- },
- "TECH2_2024-77": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Reasons from the absence of a single accountable vendor, though reliability is a defensible alternative reading."
- },
- "TECH2_2024-78": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Completing a textbook's three-word step sequence; the missing word is a fixed term, not a derivation."
- },
- "TECH2_2024-79": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Continuous parallel communication follows from what the change process demands of people."
- },
- "TECH2_2024-8": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Membership in a named framework's Phase-1 activity list, with no derivation path; the record is also defective, the key saying D while the explanation argues C."
- },
- "TECH2_2024-80": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Three options describe success factors; the failure follows from what 'poor prioritisation' means."
- },
- "TECH2_2024-81": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Reasoning that financial symptoms follow from failure to adapt, though the claim is a textbook generalisation."
- },
- "TECH2_2024-82": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Conceptual in form, but broken as printed — the bank's explanation argues for manpower change while the key records technological change."
- },
- "TECH2_2024-83": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The accepted name of a two-way classification; the pairing is a taught convention rather than a derived one."
- },
- "TECH2_2024-84": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Picks the accepted term of art from invented near-synonyms; vocabulary convention, not reasoning."
- },
- "TECH2_2024-85": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Enactment year of a statute — an arbitrary date with no derivation path."
- },
- "TECH2_2024-86": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A specific section number; nothing about the offence yields '66A' rather than '66C'."
- },
- "TECH2_2024-87": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Only one option describes a cryptographic signature at all, so the concept carries it despite the section number in the stem."
- },
- "TECH2_2024-88": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Which international instrument a statute was modelled on is a historical fact, not an inference."
- },
- "TECH2_2024-89": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Membership of the Act's schedule of excluded document classes — an enumerated statutory list."
- },
- "TECH2_2024-9": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Legacy incompatibility follows from what integrating with pre-existing systems means."
- },
- "TECH2_2024-90": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from why signing uses the private key — verifiability by the public key."
- },
- "TECH2_2024-91": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Sustaining benefits' maps to the Sustainability heading by plain meaning, though the heading set is a document template."
- },
- "TECH2_2024-92": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Which named procurement document plays which role is a naming convention; the four options are all real documents."
- },
- "TECH2_2024-93": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Asks what the clause does, and 'both parties released by an extraordinary event' follows once the concept is grasped; the other options are named by their own clauses."
- },
- "TECH2_2024-94": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Asks for the heading a clause is filed under — a drafting-convention label rather than a concept."
- },
- "TECH2_2024-95": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The ongoing monitoring-and-enforcement role follows from what managing a service level means."
- },
- "TECH2_2024-96": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Attribution reasoning in form, but the item is broken as printed — the bank's explanation argues for Impact Evaluation while the key records Outcome Evaluation."
- },
- "TECH2_2024-97": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The pairing follows from what continuous tracking and periodic judgement respectively mean."
- },
- "TECH2_2024-98": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The sequence follows logically — you cannot invite bids before defining the project or sign before selecting."
- },
- "TECH2_2024-99": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Matching a description to one of four procurement acronyms; the distinction between them is a naming convention."
- },
- "TECH3_2021-1": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Business need and environmental consideration read just as well for this scenario; only the guide's own worked example fixes 'market demand'."
- },
- "TECH3_2021-10": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "'Independent' versus 'interdependent' is a PMBOK doctrinal position; both read defensibly without recalling which one the guide asserts."
- },
- "TECH3_2021-100": {
-  "conf": "medium",
-  "mode": "calculate",
-  "why": "Same constraint-ordering procedure: the three positional statements pin a unique left-to-right order."
- },
- "TECH3_2021-11": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from ordering — the group that starts a project must finish before the group that ends it begins — rather than from reading the overlap diagram."
- },
- "TECH3_2021-12": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Each distractor is logically impossible (planning before initiating, monitoring before planning), so the sequence is reconstructible without recall."
- },
- "TECH3_2021-13": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Spend follows the work, and the deliverable-producing group is where the work happens."
- },
- "TECH3_2021-14": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Interchangeable staff is recognisably at odds with what makes a project team effective, so the odd one out is inconsistent rather than merely off-list."
- },
- "TECH3_2021-15": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Assigning a specific activity to one of the five groups is grid recall; asset updates are in fact outputs of many processes, so only the Closing description settles it."
- },
- "TECH3_2021-16": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The odd one out is a document the project produces rather than a condition surrounding it — inconsistent in kind, not merely off-list."
- },
- "TECH3_2021-17": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Recognising the one option that is the guide's fixed term for consulting an expert; the other three are plausible English."
- },
- "TECH3_2021-18": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Classifying raw counts and dates as data rather than analysed information follows from the data/information distinction itself."
- },
- "TECH3_2021-19": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Turns on the enumerated change-request categories and the guide's stance on the charter; the bank's own explanation concedes it is a close call."
- },
- "TECH3_2021-2": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "All four option triples are plausible competency groupings; only recall of the PMCD framework's three names separates them."
- },
- "TECH3_2021-20": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Three distractors abbreviate to the same letters; only the exact remembered expansion separates them."
- },
- "TECH3_2021-21": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The stem's verbs — combine, unify, coordinate — are what integration means, so the knowledge area names itself."
- },
- "TECH3_2021-22": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Membership of PMBOK's four named characteristics of integration; 'review' is excluded only for being off that list."
- },
- "TECH3_2021-23": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The process name is transparent — integrating subsidiary plans into one plan is developing the project management plan."
- },
- "TECH3_2021-24": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Every wrong ordering is logically impossible — decomposing before requirements exist, accepting before decomposing — so the sequence is reconstructible."
- },
- "TECH3_2021-25": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Output-of-process grid recall, turning on which document the guide assigns to Define Scope versus the adjacent processes."
- },
- "TECH3_2021-26": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "A decomposition of the work to be done is plainly scope work; the knowledge area follows from what a WBS decomposes."
- },
- "TECH3_2021-27": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Scenario judgement about routing a proposed addition through a formal gate, though 'scope management' is a defensible near-miss."
- },
- "TECH3_2021-28": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the purpose of control — filtering unapproved additions, not forbidding change outright."
- },
- "TECH3_2021-29": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Turns on the pedantic distinction that the baseline is nested inside a listed input rather than listed itself — pure ITTO enumeration."
- },
- "TECH3_2021-3": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the division of labour between an organisation-level office and a single project's manager, not from a listed set of PMO duties."
- },
- "TECH3_2021-30": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the plan-of-plans structure: a subsidiary management plan lives inside the overall plan, not inside a deliverable."
- },
- "TECH3_2021-31": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The stem's words (determining and documenting stakeholder needs) name the process directly; no arbitrary mapping involved."
- },
- "TECH3_2021-32": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Choosing the guide's fixed term over an equally sensible English synonym ('deconstruction'); the distinction is conventional."
- },
- "TECH3_2021-33": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The false option is self-contradictory — a calendar of availability cannot cover resources not yet identified."
- },
- "TECH3_2021-34": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The named pair of compression techniques; the distractors are genuine scheduling techniques, so only knowing which two carry the label separates them."
- },
- "TECH3_2021-35": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Changing logical dependencies is by definition sequencing work, so the process follows from what was done, not from an ITTO row."
- },
- "TECH3_2021-36": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Rests on the convention that overlap is recorded as a lead on a finish-to-start link rather than reclassifying the relationship type."
- },
- "TECH3_2021-37": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Membership of the guide's enumerated activity-attributes list; 'when to perform' is excluded only for being off it."
- },
- "TECH3_2021-38": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from who is accountable for delivering against an externally imposed date — both the schedule owner and the resource suppliers."
- },
- "TECH3_2021-39": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what a management plan is for — how the area will be measured and controlled — versus what a deliverable or charter contains."
- },
- "TECH3_2021-4": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The breadth of 'resource' follows from the ordinary meaning of the word; an all-inclusive option needs no recall."
- },
- "TECH3_2021-40": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Where subsidiary plans get combined follows from what each named process does, not from recalling an ITTO row."
- },
- "TECH3_2021-41": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Lower accuracy follows from the method being a top-down proxy on a similar past project rather than detailed build-up."
- },
- "TECH3_2021-42": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Pure ITTO-row recall across four paired options; the input lists for adjacent cost processes are an arbitrary enumeration."
- },
- "TECH3_2021-43": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from where cost risk lands: reimbursing costs plus a guaranteed fee shifts overrun risk to the buyer."
- },
- "TECH3_2021-44": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Each distractor describes a different cost process, and aggregating activity costs into a baseline is what budgeting means."
- },
- "TECH3_2021-45": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The ordering is forced by dependency — you cannot budget before estimating or control before a baseline exists."
- },
- "TECH3_2021-46": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a control chart being a statistical device; nothing is computed and the distractors are not limit-setting methods."
- },
- "TECH3_2021-47": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "An independent check of compliance against standards is what auditing means; the answer follows from the scenario's description."
- },
- "TECH3_2021-48": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "A list used to confirm required steps were done is what a checklist is; the distractors serve visibly different purposes."
- },
- "TECH3_2021-49": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Recalling what a monitoring-and-evaluation framework is stipulated to contain; the four options are nested, so only the taught composition settles it."
- },
- "TECH3_2021-5": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A glossary term-to-definition match where 'project' and 'project cycle' read almost as well; only the PMBOK wording settles it."
- },
- "TECH3_2021-50": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "All three named tools plainly serve pre-planning diagnosis, so the inclusive option follows without recall."
- },
- "TECH3_2021-51": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Negative form over the guide's named examples of networking; the odd one out is off-list rather than logically inconsistent."
- },
- "TECH3_2021-52": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Reasoning from geographic dispersion to what it most threatens, though team-building is a defensible competing read."
- },
- "TECH3_2021-53": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A practitioner could reasonably answer 'the project manager'; only the guide's explicit statement fixes shared enforcement."
- },
- "TECH3_2021-54": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Turns on which word pairs with 'retention' to cover the whole employment cycle — a language judgement, not a recalled fact."
- },
- "TECH3_2021-55": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Maps a situation onto a named HR technique with no derivation path, and the bank flags its own answer as uncertain outside PMBOK terminology."
- },
- "TECH3_2021-56": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Encode-transmit-decode is derivable, but the deciding step is whether acknowledge precedes feedback, which is the model's own convention."
- },
- "TECH3_2021-57": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "ITTO provenance recall, turning on the fine distinction between work performance reports and work performance information."
- },
- "TECH3_2021-58": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Classifying the scenario follows from what makes a message formal and official — written, deliberate, on the record."
- },
- "TECH3_2021-59": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from why outward-facing communication is documented at all: accountability with parties outside the organisation."
- },
- "TECH3_2021-6": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Negative form over PMBOK's enumerated process-and-procedure asset list; the odd one out is wrong only for being off-list."
- },
- "TECH3_2021-60": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Reasoning about which element is a hub rather than a message or a party; no list to recall."
- },
- "TECH3_2021-61": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "A breakdown structure is by definition a hierarchy; the register is a list, so the terms give the answer."
- },
- "TECH3_2021-62": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from risks emerging as a project unfolds; the other three adjectives are self-evidently wrong."
- },
- "TECH3_2021-63": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Reasoning about what makes identification systematic — a structure of sources to sweep — rather than recalling a plan component."
- },
- "TECH3_2021-64": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Prioritises for further analysis' places it before the numeric step, so the qualitative/quantitative split follows from sequence."
- },
- "TECH3_2021-65": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Asks which method, not for a figure; summing probability times stake follows from what an expected value is, though option A is awkwardly worded."
- },
- "TECH3_2021-66": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Turns on which plan components the guide lists as updates of this process; all four are plausible without that list."
- },
- "TECH3_2021-67": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The three distractors are one-sided by construction, so the mutual-benefit answer follows from what a win-win is."
- },
- "TECH3_2021-68": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "ITTO provenance recall — which named artefact flows from one process into another — rather than reasoning about procurement."
- },
- "TECH3_2021-69": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "All four are genuine procurement techniques; only knowing which process the guide files each under separates them."
- },
- "TECH3_2021-7": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "An 'all of the above' item answerable by exam technique rather than knowledge; the underlying point is conceptual but the question barely tests it."
- },
- "TECH3_2021-70": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Which contract family carries the 'hybrid' label is a classification convention of the guide, not something the contract's mechanics announce."
- },
- "TECH3_2021-71": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "An acronym expansion — arbitrary letters with no derivation path."
- },
- "TECH3_2021-72": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the cost-of-change idea — influence is greatest while scope is still unfixed."
- },
- "TECH3_2021-73": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Turns on which assets the guide lists for this process; a plan template is excluded for being off-list rather than for being irrelevant in principle."
- },
- "TECH3_2021-74": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "ITTO recall including the classic input-versus-output trap of the stakeholder register."
- },
- "TECH3_2021-75": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "A competitor's exclusion follows from what having a stake in the outcome means."
- },
- "TECH3_2021-76": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Second-differences are constant, so the next term is computed, not recalled."
- },
- "TECH3_2021-77": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Convert each fraction to a decimal and sort; wholly mechanical."
- },
- "TECH3_2021-78": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Constant ratio (divide by 5) identified by division, then applied once more."
- },
- "TECH3_2021-79": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Split into alternate positions and extend each arithmetic sub-series."
- },
- "TECH3_2021-8": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The ordering follows from the logic of development — identify need, analyse, design, then test and deliver — rather than from a memorised phase list."
- },
- "TECH3_2021-80": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Same alternate-position split; each sub-series has a constant decrement to apply."
- },
- "TECH3_2021-81": {
-  "conf": "medium",
-  "mode": "calculate",
-  "why": "Once the triple grouping is seen the continuation is arithmetic, but the grouping itself must be spotted rather than derived."
- },
- "TECH3_2021-82": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Alternating divide-by-2 / add-8 rule, confirmed against the given later term and then applied."
- },
- "TECH3_2021-83": {
-  "conf": "low",
-  "mode": "calculate",
-  "why": "A (n, n+1, n+6) group rule computes the blank, but the printed series carries an OCR slip so the rule is reconstructed."
- },
- "TECH3_2021-84": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The analogy structure is easy, but choosing between the options requires knowing 'diva' and 'thespian' - vocabulary is the load-bearing part."
- },
- "TECH3_2021-85": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Common words throughout; the work is spotting the deprivation relationship, which is reasoning."
- },
- "TECH3_2021-86": {
-  "conf": "low",
-  "mode": "calculate",
-  "why": "A drop-a-letter-and-swap-blocks rule is applied, but the printed code has a stray letter so the rule is reconstructed rather than certain."
- },
- "TECH3_2021-87": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Letter-by-letter alphabetical ordering is a mechanical procedure; any four words could be substituted and ranked the same way."
- },
- "TECH3_2021-88": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Permuting three letters is mechanical, but deciding which strings are real words is lexical recall."
- },
- "TECH3_2021-89": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Recording-medium relationship is inferred from what a camera and a tape do."
- },
- "TECH3_2021-9": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Turns on PMBOK's exact wording for matrix team composition; the bank's own explanation concedes the options are too close to separate by reasoning."
- },
- "TECH3_2021-90": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Grouping three synonyms against an opposite is reasoning, though it presupposes the four common words are known."
- },
- "TECH3_2021-96": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Solve each statement's solution set and intersect them; sufficiency falls out of the arithmetic."
- },
- "TECH3_2021-97": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Plot the three legs as vectors; the north-south components cancel and the remainder is the distance."
- },
- "TECH3_2021-98": {
-  "conf": "high",
-  "mode": "calculate",
-  "why": "Day-of-week is 59 mod 7 advanced from Thursday; any starting day and offset computes the same way."
- },
- "TECH3_2021-99": {
-  "conf": "medium",
-  "mode": "calculate",
-  "why": "The 'only daughter' clause forces an identity in the family tree; tracing the tree yields the relation mechanically."
- },
- "TECH3_2024-1": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The three wrong options all describe ongoing/repetitive operations, so grasping project-versus-operations eliminates them — though the stem is verbatim glossary recall."
- },
- "TECH3_2024-10": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Defective as printed — the stem already contains the answer word — but the point it was testing (responsibility narrows lower down a hierarchy) is conceptual."
- },
- "TECH3_2024-11": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The three distractors are workflows from other domains entirely, so the generic shape of any project's life eliminates them without recalling the exact group names."
- },
- "TECH3_2024-12": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Recognising commercial product names; nothing about project management tells you which brands exist."
- },
- "TECH3_2024-13": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Doing the work that the plan defines is what 'executing' means; the answer follows from the group's name."
- },
- "TECH3_2024-14": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Rests on the general data-versus-information distinction (raw measurements versus analysed context), not on a PMBOK-specific list."
- },
- "TECH3_2024-15": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Three options are invented terms, and 'coordinating sub-components' is what integration means, so the answer follows from the word."
- },
- "TECH3_2024-16": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Straight ITTO-grid lookup: which technique the guide lists under one named process, an arbitrary enumeration."
- },
- "TECH3_2024-17": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Output-of-process grid recall; each distractor is the named output of a different process, which is exactly the list being tested."
- },
- "TECH3_2024-18": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The general definition follows from the words 'cost' and 'overrun'; the distractors are causes or unrelated problems, recognisably narrower."
- },
- "TECH3_2024-19": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Membership of the three named quality processes; testing is a real quality activity and is excluded only for not carrying a process label."
- },
- "TECH3_2024-2": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Picking between near-synonym labels with no derivation path, and the item is broken — the key says 'task scheduling' while its own explanation argues for 'project scheduling'."
- },
- "TECH3_2024-20": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Solvable by internal consistency — the fourth statement contradicts the first and third — with no list to recall."
- },
- "TECH3_2024-21": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Tests the proactive-assurance versus inspection-control distinction, but the item is broken: the key says quality control while its own explanation argues quality assurance."
- },
- "TECH3_2024-22": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "How something is measured is what a metric is, as against a requirement (what must hold) or an acceptance criterion (when to sign off)."
- },
- "TECH3_2024-23": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The clustered-versus-centred distinction follows from what measurement means, though the exactness/correctness wording is the guide's own."
- },
- "TECH3_2024-24": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Causal reasoning about what uneven allocation does to a team; the excluded statement is recognisably about a different subject."
- },
- "TECH3_2024-25": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "'Optimal' implies trade-off across several factors, so the single-factor and punitive options fail on their own terms."
- },
- "TECH3_2024-26": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Reasoning about which tier does day-to-day people work, but the item is genuinely ambiguous — the guide assigns Manage Project Team to the project manager, as the bank's own note concedes."
- },
- "TECH3_2024-27": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "Recognising commercial product names; no amount of resource-management understanding tells you which vendors exist."
- },
- "TECH3_2024-28": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what distance does to communication; the other options are advantages, wrong on their face."
- },
- "TECH3_2024-29": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Managing information flow is what a communications knowledge area is; two distractors are not knowledge areas at all."
- },
- "TECH3_2024-3": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what each phase does — the deliverable-producing phase must dominate the duration; no list to recall."
- },
- "TECH3_2024-30": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The inside-the-organisation versus outward-facing split follows from the words internal and external; the distractors classify on a different axis."
- },
- "TECH3_2024-31": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Requires the guide's exact scope boundaries between the named communications processes, and the stem reads equally well as Manage Communications — the bank flags this itself."
- },
- "TECH3_2024-32": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Recipients retrieving at their own discretion is what 'pull' means, so the method follows from the metaphor rather than a recalled list."
- },
- "TECH3_2024-33": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Membership of the guide's enumerated dimension pairs; 'dynamic and static' is a perfectly sensible pairing excluded only for being off-list."
- },
- "TECH3_2024-34": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Classification follows from where the risk originates — inside the performing organisation — not from a memorised category list."
- },
- "TECH3_2024-35": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The odd one out arises from the project's own execution, so it is inconsistent with 'external' rather than merely off a list."
- },
- "TECH3_2024-36": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Answerable by ordering logic (analysis must precede prioritisation), but no option reproduces the standard sequence, so the item is imprecise as printed."
- },
- "TECH3_2024-37": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Turns on which named technique the guide files under categorising rather than identifying; risk categories or an RBS would be the more natural answer."
- },
- "TECH3_2024-38": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Each option is a different response strategy and each is recognisable from what its verb means — reduce, transfer, accept, avoid."
- },
- "TECH3_2024-39": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Deciding what must be bought is logically prior to buying it, so the phase follows from sequence rather than an ITTO row."
- },
- "TECH3_2024-4": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Which of portfolio and program is the one that also encompasses operations is a PMI naming convention, not derivable from the words."
- },
- "TECH3_2024-40": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Solicitation documents must exist before they can be issued, so their creation belongs to the planning step by necessity."
- },
- "TECH3_2024-41": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The stem describes signalling interest without a firm scope or price, which is what the term itself names."
- },
- "TECH3_2024-42": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Role reasoning about who holds commercial expertise, but genuinely organisation-dependent — the bank flags the intended key as uncertain."
- },
- "TECH3_2024-43": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Contract-family taxonomy with no derivation path, and the stem describes an incentive variant that is not among the options as printed."
- },
- "TECH3_2024-44": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Ongoing oversight during contract performance is what control means; planning precedes and closing follows."
- },
- "TECH3_2024-45": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Four near-identical paraphrases of one definition, so it tests exact remembered wording; the bank's own explanation is internally inconsistent about which option it endorses."
- },
- "TECH3_2024-46": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from influence falling as decisions harden and change gets costlier — the same curve as risk and uncertainty."
- },
- "TECH3_2024-47": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Applying the stakeholder test to a concrete case; the losing bidder has no remaining exposure to this project's outcome."
- },
- "TECH3_2024-48": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The stem describes managing people with an interest in the project, which names the discipline directly."
- },
- "TECH3_2024-49": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Membership of an enumerated '7 C's' checklist; the odd one out is only wrong for not being on the list."
- },
- "TECH3_2024-5": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The PMO type names sit on an obvious control spectrum — 'directive' means it directs — so the ordering follows from the labels themselves."
- },
- "TECH3_2024-50": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Rests on the ordinary meanings of objective (what is aimed at) and scope (boundary of work done), not on a PM-specific list."
- },
- "TECH3_2024-51": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "All four options are interchangeable-sounding word pairs; only the officially fixed name of the process group separates them."
- },
- "TECH3_2024-52": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from authority — a charter must be issued by someone who can fund and authorise the project — though real practice muddies it."
- },
- "TECH3_2024-53": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning from what a plan-of-plans is: only the option naming it a single integrating basis can be the defining benefit."
- },
- "TECH3_2024-54": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what a baseline is — controlled, not frozen and not informal — so the three alternatives are self-inconsistent."
- },
- "TECH3_2024-55": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Mapping a description onto one of four similarly-worded named configuration activities; the boundary between them is a convention of the guide."
- },
- "TECH3_2024-56": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The term names its own definition — breaking work down into a structure — and the distractors describe other knowledge areas."
- },
- "TECH3_2024-57": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Formal acceptance is what validating deliverables means; the validate-versus-control split follows from the two activities' purposes."
- },
- "TECH3_2024-58": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Producing a detailed description is definition by any reading; the process name is transparent rather than arbitrary."
- },
- "TECH3_2024-59": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The odd one out is about time rather than scope — inconsistent in kind, so recalling the six-process list is not required."
- },
- "TECH3_2024-6": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The odd one out is inconsistent with the stakeholder definition itself (affects or is affected by), not merely absent from a list."
- },
- "TECH3_2024-60": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The odd one out is a scope concern rather than a time concern — inconsistent in kind, not merely off the process list."
- },
- "TECH3_2024-61": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A fixed three-item composition; nothing about what a baseline is tells you the dictionary is in and the plan is out."
- },
- "TECH3_2024-62": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Item is broken — the key says B while its own explanation argues for C and rejects B — but the point intended (a code scheme locates an element in the hierarchy) is conceptual."
- },
- "TECH3_2024-63": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The excluded item belongs to risk, not scope, so the odd one out is inconsistent in subject rather than merely off a list."
- },
- "TECH3_2024-64": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Producing dated activities from sequence, duration and constraints is what developing a schedule means; the name is transparent."
- },
- "TECH3_2024-65": {
-  "conf": "low",
-  "mode": "understand",
-  "why": "Reasoning about direct versus indirect consequences, but 'least affected' is subjective and the bank itself warns the printed key may differ."
- },
- "TECH3_2024-66": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Identifying and documenting what work exists is definition rather than estimation or sequencing; follows from the words."
- },
- "TECH3_2024-67": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Predecessors, successors and resource gating are all relationships; rework is recognisably a different kind of thing."
- },
- "TECH3_2024-68": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what bottom-up estimating is: break down further until each piece is estimable, then aggregate."
- },
- "TECH3_2024-69": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from cost being resources priced out, so the resource estimate is what a cost estimate consumes."
- },
- "TECH3_2024-7": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The OPA/EEF split is conceptual — an owned procedure versus an external condition — so the options sort themselves once the distinction is grasped."
- },
- "TECH3_2024-70": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Staying within a baseline is an ongoing control activity by definition; a one-off estimate cannot do it."
- },
- "TECH3_2024-71": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Asks only what the three points are, and 'three-point' plus a range naturally means optimistic, most likely and pessimistic — no figure is computed."
- },
- "TECH3_2024-72": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The exact three vertices of the named iron triangle are a fixed taught trio; 'resource, time and cost' is equally plausible without recall."
- },
- "TECH3_2024-73": {
-  "conf": "low",
-  "mode": "memorise",
-  "why": "Fitting an outlay to a named accounting-cost label with no derivation path, and the item is broken — the key says current costs while its own explanation argues replacement costs."
- },
- "TECH3_2024-74": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Asks for the formula's shape, not a figure; value earned minus money actually spent follows from what the two terms mean and from positive-is-good."
- },
- "TECH3_2024-75": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reading a ratio of value earned to cost spent — above one means more value than spend — and the index name rules out the schedule options."
- },
- "TECH3_2024-8": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Reporting-line reasoning: only a structure organised wholly around projects can dedicate staff full-time to one."
- },
- "TECH3_2024-9": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The shape of the staffing curve follows from when the bulk of the work happens; nothing arbitrary to recall."
  }
 };

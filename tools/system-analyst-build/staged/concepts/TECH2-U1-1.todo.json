@@ -1,0 +1,46 @@
+{
+  "paper": "TECH2",
+  "unit": "1",
+  "unitTitle": "Object Oriented Programming",
+  "unitMarks": 40,
+  "brief": "tools/system-analyst-build/CONCEPT_BRIEF.md",
+  "siblingSubtopics": [
+    "OOP concepts, applications and the OOP process",
+    "Classes, objects, member functions and memory allocation",
+    "Constructors and destructors",
+    "Polymorphism, function and operator overloading",
+    "Inheritance, virtual functions and pointers to objects",
+    "I/O streams and file handling in OOP",
+    "Exception handling and strings"
+  ],
+  "targets": [
+    {
+      "sub": "OOP concepts, applications and the OOP process",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Classes, objects, member functions and memory allocation",
+      "questionsInBank": 1
+    },
+    {
+      "sub": "Constructors and destructors",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Polymorphism, function and operator overloading",
+      "questionsInBank": 1
+    },
+    {
+      "sub": "Inheritance, virtual functions and pointers to objects",
+      "questionsInBank": 1
+    },
+    {
+      "sub": "I/O streams and file handling in OOP",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Exception handling and strings",
+      "questionsInBank": 3
+    }
+  ]
+}

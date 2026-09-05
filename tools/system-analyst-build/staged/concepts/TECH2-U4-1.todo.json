@@ -1,0 +1,46 @@
+{
+  "paper": "TECH2",
+  "unit": "4",
+  "unitTitle": "Cloud Computing",
+  "unitMarks": 40,
+  "brief": "tools/system-analyst-build/CONCEPT_BRIEF.md",
+  "siblingSubtopics": [
+    "Distributed, edge and cloud computing; NIST cloud architecture",
+    "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+    "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+    "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+    "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+    "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+    "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs"
+  ],
+  "targets": [
+    {
+      "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+      "questionsInBank": 3
+    }
+  ]
+}

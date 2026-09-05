@@ -1,0 +1,321 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 21,
+ "questions": [
+  {
+   "id": "GEN-TECH2-U4-b01a23",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "question": "Which of the following is NOT one of the five essential characteristics of cloud computing in the NIST definition?",
+   "options": {
+    "A": "Rapid elasticity",
+    "B": "Resource pooling",
+    "C": "Provider-managed disaster recovery",
+    "D": "Measured service"
+   },
+   "answer": "C",
+   "explanation": "NIST lists exactly five essential characteristics: on-demand self-service, broad network access, resource pooling, rapid elasticity and measured service. Disaster recovery is commonly sold as a managed offering, but it is a product a provider may choose to sell rather than a defining property of cloud computing, so it is the odd one out."
+  },
+  {
+   "id": "GEN-TECH2-U4-204b70",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "question": "In the NIST cloud computing reference architecture, which actor is responsible for providing the connectivity and transport of cloud services between provider and consumer?",
+   "options": {
+    "A": "Cloud broker",
+    "B": "Cloud carrier",
+    "C": "Cloud auditor",
+    "D": "Cloud provider"
+   },
+   "answer": "B",
+   "explanation": "The reference architecture names five actors — consumer, provider, carrier, broker and auditor — and assigns the network and telecommunication transport role to the cloud carrier. A cloud broker is the tempting distractor: it negotiates, aggregates and intermediates services on the consumer's behalf, but it does not carry the traffic."
+  },
+  {
+   "id": "GEN-TECH2-U4-13eb4b",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "question": "An assembly-line inspection system must accept or reject each part within 20 ms of capturing its image. The nearest cloud region has a measured round-trip time of 60 ms. Running the inference model on an edge node inside the plant primarily removes which constraint?",
+   "options": {
+    "A": "The wide-area round-trip time, which on its own already exceeds the control loop's deadline",
+    "B": "The need to encrypt the inspection images while they are in transit",
+    "C": "A shortage of accelerator capacity in cloud regions",
+    "D": "An inability of cloud platforms to scale horizontally under load"
+   },
+   "answer": "A",
+   "explanation": "At 60 ms round trip the network alone consumes three times the entire 20 ms budget before any inference time is counted, so no amount of remote compute can meet the deadline — placing the computation next to the sensor is the only way to fit it. Encryption cost and capacity planning are real concerns, but neither is what makes the deadline unachievable here."
+  },
+  {
+   "id": "GEN-TECH2-U4-7445f0",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "question": "Which of the following is one of the four cloud deployment models defined by NIST?",
+   "options": {
+    "A": "Virtual private cloud",
+    "B": "Multi-cloud",
+    "C": "Distributed cloud",
+    "D": "Community cloud"
+   },
+   "answer": "D",
+   "explanation": "NIST defines exactly four deployment models — private, community, public and hybrid — where a community cloud is provisioned for exclusive use by several organisations that share concerns such as mission, policy or compliance regime. Virtual private cloud, multi-cloud and distributed cloud are vendor and industry terms that sit outside that definition."
+  },
+  {
+   "id": "GEN-TECH2-U4-cc90cb",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "question": "A team must run a long-lived Java web application. It wants to deploy its own build artefact and control how many application instances run, but does not want to patch the operating system, the JVM or the web server. Which service model fits this best?",
+   "options": {
+    "A": "IaaS",
+    "B": "PaaS",
+    "C": "SaaS",
+    "D": "Function as a Service"
+   },
+   "answer": "B",
+   "explanation": "PaaS hands the customer the deployment unit and the instance-count and scaling controls while the provider owns operating system, runtime and middleware patching, which is precisely the split described. FaaS would also hide the OS but is event-driven with short-lived invocations and no long-running instance count to manage, and IaaS would leave OS and JVM patching with the team."
+  },
+  {
+   "id": "GEN-TECH2-U4-9d7953",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "question": "A serverless function backing a low-traffic internal API responds in about 40 ms most of the time, but the first request after several idle hours takes over two seconds. What is the most likely cause?",
+   "options": {
+    "A": "The platform scaled the function to zero, so a new execution environment has to be initialised before the handler runs",
+    "B": "DNS records for the API endpoint expiring from cache",
+    "C": "The function exceeding its configured memory limit",
+    "D": "The API gateway rate-limiting the first request after an idle period"
+   },
+   "answer": "A",
+   "explanation": "Scaling to zero when idle is normal for a Function-as-a-Service platform, so with no warm environment available the platform must allocate a sandbox, load the deployment package and initialise the runtime before invoking the handler — the cold start seen only on the first request after idleness. A memory-limit breach would fail the invocation rather than merely delay it, and rate limiting rejects requests rather than slowing them."
+  },
+  {
+   "id": "GEN-TECH2-U4-845f89",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "question": "In a microservices deployment running a service mesh, which task belongs to the sidecar proxies of the data plane rather than to the mesh's control plane?",
+   "options": {
+    "A": "Distributing routing policy and issued workload certificates to the proxies",
+    "B": "Terminating and originating mutual TLS on each individual service-to-service request and applying its retry and timeout rules",
+    "C": "Holding the mesh's desired configuration and reconciling drift from it",
+    "D": "Exposing the operator-facing API through which traffic-shifting rules are declared"
+   },
+   "answer": "B",
+   "explanation": "The data plane is the set of sidecar proxies that sit directly in the request path — every call into and out of a workload passes through one, which is where mutual TLS, retries, timeouts and per-request telemetry are actually enforced. The control plane never touches an individual request: it computes configuration and issues certificates, then pushes both to those proxies."
+  },
+  {
+   "id": "GEN-TECH2-U4-5efc94",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "question": "Which capability requires a Layer 7 load balancer and cannot be provided by a Layer 4 load balancer?",
+   "options": {
+    "A": "Distributing inbound TCP connections across a pool of backends",
+    "B": "Removing an unhealthy backend from rotation when a health check fails",
+    "C": "Preserving the client's source IP address towards the backend",
+    "D": "Sending requests for /api to one backend pool and requests for /static to another"
+   },
+   "answer": "D",
+   "explanation": "Path-based and Host-header-based routing requires the balancer to parse the HTTP request itself, which only a Layer 7 proxy does; a Layer 4 balancer forwards TCP or UDP flows and never sees the URL. Connection distribution and health checking exist at both layers, and preserving the client source IP is in fact easier at Layer 4 because no proxy hop is introduced."
+  },
+  {
+   "id": "GEN-TECH2-U4-1cbb44",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "question": "A stateless API autoscales on average CPU evaluated over a five-minute window, but its real traffic arrives as 30-second bursts about ten times an hour. What behaviour is most likely to be observed?",
+   "options": {
+    "A": "The group scales down but never scales back up again",
+    "B": "The group adds instances continuously until it reaches its maximum size",
+    "C": "Latency and errors spike during each burst, and whatever instances are added arrive after the burst has already passed",
+    "D": "The load balancer stops health-checking the group for the duration of each burst"
+   },
+   "answer": "C",
+   "explanation": "A five-minute averaging window smooths a 30-second burst almost out of existence, and even when it does trigger, provisioning and warm-up complete after the burst is over, so the capacity arrives when it is no longer needed. Elasticity only helps when the control loop reacts faster than the demand it tracks; the fixes here are a shorter evaluation window, a queue to absorb bursts, or holding headroom in reserve."
+  },
+  {
+   "id": "GEN-TECH2-U4-1fcf8d",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "question": "Which statement correctly distinguishes a Type-1 hypervisor from a Type-2 hypervisor?",
+   "options": {
+    "A": "A Type-1 hypervisor runs directly on the host hardware, while a Type-2 hypervisor runs as a process on top of a host operating system",
+    "B": "A Type-1 hypervisor requires paravirtualized guests, while a Type-2 hypervisor can run unmodified guests",
+    "C": "A Type-1 hypervisor can host only Linux guests, while a Type-2 hypervisor can host any operating system",
+    "D": "A Type-1 hypervisor emulates every device in software, while a Type-2 hypervisor passes all devices straight through to the guest"
+   },
+   "answer": "A",
+   "explanation": "The classification turns purely on what the hypervisor sits on: a bare-metal Type-1 hypervisor is itself the layer that owns the hardware, whereas a hosted Type-2 hypervisor is an application scheduled by an underlying host operating system. Whether guests need modification is the separate full-versus-paravirtualization question and does not follow from the type."
+  },
+  {
+   "id": "GEN-TECH2-U4-780d6e",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "question": "Under paravirtualization, how does the guest operating system differ from a fully virtualized guest?",
+   "options": {
+    "A": "It runs entirely in ring 0 with no hypervisor mediation of any kind",
+    "B": "It is presented with emulated hardware indistinguishable from a physical machine and needs no changes",
+    "C": "It shares the host kernel instead of running a kernel of its own",
+    "D": "It is modified so that sensitive privileged operations are replaced by explicit hypercalls into the hypervisor"
+   },
+   "answer": "D",
+   "explanation": "Paravirtualization trades guest portability for speed: the guest kernel is ported to be aware that it is virtualized and calls the hypervisor directly, avoiding the cost of trapping and emulating every privileged instruction. Option B describes full virtualization, where an unmodified guest is deliberately kept unaware, and sharing the host kernel describes containers rather than a virtual machine of either kind."
+  },
+  {
+   "id": "GEN-TECH2-U4-4056b8",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "question": "A provider must let tens of thousands of tenants use overlapping private IPv4 ranges on top of one shared physical fabric. Which network-virtualization approach makes that workable?",
+   "options": {
+    "A": "Assigning each tenant its own physical top-of-rack switch",
+    "B": "An overlay that encapsulates tenant Layer-2 frames for transport across the fabric, tagging each with a per-tenant network identifier in the encapsulation header",
+    "C": "802.1Q VLAN tagging alone, with one VLAN per tenant",
+    "D": "Source NAT applied at the first-hop router for every tenant"
+   },
+   "answer": "B",
+   "explanation": "Overlay encapsulation such as VXLAN wraps each tenant's frames in an outer packet carrying a per-tenant segment identifier, so identical addresses in different tenants never meet and the physical fabric only has to route the outer header. A plain 802.1Q VLAN ID is 12 bits, capping usable segments at 4094, which cannot reach tens of thousands of tenants, and per-tenant hardware defeats the purpose of a shared fabric."
+  },
+  {
+   "id": "GEN-TECH2-U4-693ae6",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "question": "A container in a Kubernetes Pod declares a memory request of 256Mi and a memory limit of 512Mi. Which statement about how those two values are used is correct?",
+   "options": {
+    "A": "The scheduler reserves 512Mi on the node and the container is CPU-throttled once it exceeds 256Mi",
+    "B": "Both values are advisory only and neither is enforced at runtime",
+    "C": "The container is throttled rather than terminated when its memory usage passes 512Mi",
+    "D": "The scheduler places the Pod against the 256Mi request, and the container is terminated if its usage exceeds 512Mi"
+   },
+   "answer": "D",
+   "explanation": "Requests drive scheduling — the scheduler only needs a node with 256Mi of allocatable memory remaining — while limits are enforced at runtime on the node. Memory is an incompressible resource, so a container exceeding its memory limit is killed for being out of memory; throttling is what happens to a container over its CPU limit, which is exactly what makes option C the tempting wrong answer."
+  },
+  {
+   "id": "GEN-TECH2-U4-0d8b5c",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "question": "Terraform and Ansible are both used to manage infrastructure as code. Which description of the usual division of labour between them is accurate?",
+   "options": {
+    "A": "Both are agent-based and require an agent to be installed on every managed node before use",
+    "B": "Terraform configures software inside existing servers, while Ansible creates the servers themselves",
+    "C": "Terraform declares desired infrastructure and reconciles it against recorded state to create, change or destroy resources, while Ansible is primarily agentless configuration management that runs tasks over SSH",
+    "D": "Terraform is imperative and executes ordered steps, while Ansible is declarative and keeps a state file of what it built"
+   },
+   "answer": "C",
+   "explanation": "Terraform's model is declarative provisioning plus a state file mapping configuration to real resource identifiers, which is how it knows what to add, change or delete on the next apply; Ansible pushes tasks to hosts over SSH with no agent installed and keeps no comparable state of record. Option D inverts both properties and option B swaps the two tools' primary roles."
+  },
+  {
+   "id": "GEN-TECH2-U4-913750",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "question": "Linux containers rest on two distinct kernel mechanisms. Which one caps how much CPU time and memory a container may consume, as opposed to controlling what it can see?",
+   "options": {
+    "A": "Control groups (cgroups)",
+    "B": "Namespaces",
+    "C": "Union filesystem layers",
+    "D": "Seccomp filters"
+   },
+   "answer": "A",
+   "explanation": "cgroups account for and limit a process group's consumption of resources such as CPU, memory and block I/O, and are the mechanism a container runtime uses to honour a declared resource limit. Namespaces do the other half of the job by isolating the view of PIDs, mounts, network and users; seccomp restricts which system calls may be made, and union layers supply the image filesystem."
+  },
+  {
+   "id": "GEN-TECH2-U4-28dbf1",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "question": "Which workload is the poorest fit for object storage and should sit on block storage instead?",
+   "options": {
+    "A": "Long-term retention copies of nightly backups",
+    "B": "Static images and JavaScript files served to browsers",
+    "C": "A media archive read sequentially by a transcoding job",
+    "D": "The data files of a transactional relational database doing small random in-place updates"
+   },
+   "answer": "D",
+   "explanation": "Object storage exposes whole objects over an HTTP API with no partial in-place write and comparatively high per-operation latency, which is the opposite of what a database's small random block updates need; that workload belongs on a block volume the guest can format and write at block granularity. The other three are write-once, read-many patterns that object storage is designed to serve cheaply."
+  },
+  {
+   "id": "GEN-TECH2-U4-fb730d",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "question": "A user request passes through eight microservices and is intermittently slow, yet every individual service's own latency dashboard looks normal. Which telemetry most directly identifies which hop is consuming the time?",
+   "options": {
+    "A": "Distributed tracing, with a trace context propagated across every hop so each span's duration is recorded within one request",
+    "B": "Raising the log level to DEBUG on all eight services",
+    "C": "Host-level CPU and memory metrics collected at a finer interval",
+    "D": "An aggregated error-rate counter for each service"
+   },
+   "answer": "A",
+   "explanation": "Per-service aggregates hide a tail that only some requests hit, whereas a trace follows one request end to end and attributes elapsed time to each span, making the slow hop visible directly. Finer host metrics and error counters describe resource consumption and failures rather than where a single request spent its time, and DEBUG logging across eight services produces volume without a correlating request identifier."
+  },
+  {
+   "id": "GEN-TECH2-U4-804935",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "question": "An organisation runs the same containerised application on two cloud providers to avoid lock-in. In practice, what most commonly limits that portability?",
+   "options": {
+    "A": "Container image formats being mutually incompatible between providers",
+    "B": "Differences in the Linux kernel version each provider offers",
+    "C": "Dependence on provider-specific managed services — the IAM model, the managed database, the queue and the object-storage API — which have no common interface to target",
+    "D": "Differences in how each provider implements TCP/IP"
+   },
+   "answer": "C",
+   "explanation": "The compute layer is the part that is already standardised, since OCI-format images and Kubernetes manifests run essentially unchanged on either provider, so the coupling that actually hurts is everything around it: identity and access models, managed database engines and endpoints, queues and storage APIs all differ and must be abstracted or reimplemented per provider. Image formats and TCP/IP are open standards, not points of divergence."
+  },
+  {
+   "id": "GEN-TECH2-U4-b6b2c3",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "question": "Under the shared responsibility model, for a virtual machine that a customer runs on an IaaS platform, which of these is the customer's responsibility?",
+   "options": {
+    "A": "Patching the hypervisor on which the virtual machine runs",
+    "B": "Applying security patches to the guest operating system and the application stack running on that virtual machine",
+    "C": "Physical access control at the data centre housing the host",
+    "D": "Replacing failed disks in the underlying storage fabric"
+   },
+   "answer": "B",
+   "explanation": "The IaaS boundary puts the provider in charge of everything up to and including the virtualization layer and the facility, and the customer in charge of everything from the guest operating system upwards — patching, configuration, identity and data. Hypervisor patching, physical security and hardware replacement all sit below that boundary and remain the provider's obligations."
+  },
+  {
+   "id": "GEN-TECH2-U4-fd97dc",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "question": "A provider's SLA commits to 99.9% availability measured over a 30-day month. What is the maximum downtime that commitment permits in such a month?",
+   "options": {
+    "A": "About 4 minutes 20 seconds",
+    "B": "About 7 hours 12 minutes",
+    "C": "About 3 hours 36 minutes",
+    "D": "About 43 minutes"
+   },
+   "answer": "D",
+   "explanation": "A 30-day month is 30 x 24 x 60 = 43,200 minutes, and the unavailable allowance is 0.1% of that: 43,200 x 0.001 = 43.2 minutes, or 43 minutes 12 seconds. Each distractor is a neighbouring tier over the same month — 43,200 x 0.0001 = 4.32 minutes is 99.99%, 43,200 x 0.005 = 216 minutes is 99.5%, and 43,200 x 0.01 = 432 minutes, or 7.2 hours, is 99%."
+  },
+  {
+   "id": "GEN-TECH2-U4-dd714c",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "question": "A FinOps review reports a fleet of 200 always-on virtual machines averaging 4% CPU and 12% memory utilisation over 30 days. Which response is the most direct FinOps action on that finding?",
+   "options": {
+    "A": "Purchase one-year reserved capacity for the fleet at its current instance sizes",
+    "B": "Rightsize the instances to smaller types and consolidate the workloads, so that both committed spend and idle capacity fall",
+    "C": "Raise the autoscaling group's maximum size to give the fleet more headroom",
+    "D": "Move the fleet to a larger instance family so that reported utilisation percentages fall further"
+   },
+   "answer": "B",
+   "explanation": "FinOps eliminates waste before it optimises rate: 4% average CPU across 200 always-on instances is capacity that is paid for and never used, so rightsizing and consolidation cut the bill at its source — and because an idle server still draws close to its baseline power, the same action is the standard sustainable-cloud lever. Buying a reservation first is the tempting wrong answer, since it only locks the oversized footprint in for a year at a discount."
+  }
+ ]
+}

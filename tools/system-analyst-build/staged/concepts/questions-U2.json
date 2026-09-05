@@ -1,0 +1,332 @@
+[
+ {
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A browser re-requests a cached stylesheet, sending If-None-Match with the ETag it stored. The file on the server has not changed. Which status code should the server return?",
+  "opts": {
+   "A": "200 OK, with the stylesheet body",
+   "B": "204 No Content",
+   "C": "304 Not Modified",
+   "D": "412 Precondition Failed"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A day before migrating a web application to a new server, the administrator drops the TTL on the site's DNS A record from 86400 to 300 seconds. What does this achieve?",
+  "opts": {
+   "A": "Resolver caches expire quickly, so clients pick up the new IP address soon after the record is changed",
+   "B": "The registrar propagates the change to all root name servers immediately",
+   "C": "The authoritative name server gains extra query capacity for the duration of the migration",
+   "D": "The old server begins refusing new connections as soon as the record is changed"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "Dozens of HTTPS sites share a single IP address on a hosting server. Which mechanism lets the server pick the right TLS certificate for the site the client asked for?",
+  "opts": {
+   "A": "The HTTP Host header carried in the request",
+   "B": "The Server Name Indication extension in the TLS ClientHello",
+   "C": "ALPN negotiation of the application protocol",
+   "D": "OCSP stapling of the certificate's revocation status"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A dashboard must plot a scatter chart of 50,000 points and redraw it on every mouse drag. Why is a canvas element normally preferred here over inline SVG?",
+  "opts": {
+   "A": "SVG cannot be scripted from JavaScript once the document has loaded",
+   "B": "Only canvas supports colour gradients and opacity",
+   "C": "Canvas draws pixels immediately and keeps no node per point, avoiding the layout and hit-testing cost of a 50,000-element tree",
+   "D": "Canvas drawings are exposed to assistive technology automatically, so no fallback is needed"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A text input is given only a placeholder attribute and no associated label element. What is the accessibility defect?",
+  "opts": {
+   "A": "Placeholder text cannot be restyled with CSS",
+   "B": "Screen readers announce the placeholder twice",
+   "C": "The input is omitted from the form submission",
+   "D": "The placeholder disappears once the user types, and it is not a reliable accessible name for the field"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "Inside a form element, a developer writes a button element with no type attribute, and the user clicks it. What happens by default?",
+  "opts": {
+   "A": "The form is submitted",
+   "B": "The form's fields are reset to their initial values",
+   "C": "Nothing happens until a click handler is attached",
+   "D": "The button behaves as type=\"button\" and only runs its own handler"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "Four items sit in a flex row and one holds far more text than the others. Which declaration on the items makes all four end up the same width, assuming no item contains an unbreakable token wider than its share?",
+  "opts": {
+   "A": "flex: 1 1 auto",
+   "B": "flex: 1 1 0",
+   "C": "flex-shrink: 0",
+   "D": "justify-content: space-between on the container"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A card container is styled grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)). What layout does this produce as the container is made narrower?",
+  "opts": {
+   "A": "A fixed column count whose cards shrink below 220px",
+   "B": "A single 220px column at every viewport width",
+   "C": "As many columns of at least 220px as fit, dropping to fewer columns as space runs out, with the columns sharing any leftover space equally",
+   "D": "One column per card, scrolling horizontally once they no longer fit"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A site's media queries are written correctly, yet on a phone the full desktop layout appears shrunk to fit the screen. What is missing?",
+  "opts": {
+   "A": "A viewport meta tag declaring width=device-width, initial-scale=1",
+   "B": "A max-width: 100% rule on the body element",
+   "C": "The screen keyword on each media query",
+   "D": "A second stylesheet linked with a media attribute"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "What does this script log, in order?\n\nconsole.log('A');\nsetTimeout(() => console.log('B'), 0);\nPromise.resolve().then(() => console.log('C'));\nconsole.log('D');",
+  "opts": {
+   "A": "A, B, C, D",
+   "B": "A, D, C, B",
+   "C": "A, D, B, C",
+   "D": "A, C, D, B"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A fetch call to an endpoint that responds 500 Internal Server Error with a JSON error body is made. What does the returned promise do?",
+  "opts": {
+   "A": "Rejects with an error describing the 500 response",
+   "B": "Resolves with null, since the body is not a successful payload",
+   "C": "Rejects, because only 2xx responses resolve",
+   "D": "Resolves with a Response whose ok is false and whose status is 500"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A table body is filled with rows created after page load, and one click listener is attached to the tbody element. Inside the handler, which property refers to the element the user actually clicked?",
+  "opts": {
+   "A": "event.currentTarget",
+   "B": "this, in a normal function listener",
+   "C": "event.target",
+   "D": "event.srcTarget"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A single-page app uses history-based client-side routing. In-app navigation to /reports/7 works, but reloading the browser on that URL returns 404 from the web server. What is required?",
+  "opts": {
+   "A": "Switch the router to hash-based URLs, since history-based routing cannot be served over HTTP",
+   "B": "Register /reports/:id as a server-side route that renders the report itself",
+   "C": "Configure the web server to fall back to index.html for unmatched paths so the client router can resolve the URL",
+   "D": "Add a router redirect from /reports/7 back to /"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "In a framework's controlled form input, where does the value shown in the field come from on every render?",
+  "opts": {
+   "A": "The DOM node's own internal value, which the component reads back when the form is submitted",
+   "B": "Component state, with a change handler writing each keystroke back into that state",
+   "C": "The defaultValue attribute, mutated in place by the browser",
+   "D": "A two-way binding maintained by the browser's autofill machinery"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A search component fetches results whenever the query changes. A slow response for an earlier query can arrive after a faster response for a later one, briefly showing results for the wrong query. What is the standard fix?",
+  "opts": {
+   "A": "Debounce the input so requests are issued less often",
+   "B": "Move the fetch into the render body so it re-runs synchronously",
+   "C": "Send the requests with POST instead of GET",
+   "D": "Cancel or ignore the superseded request in the effect's cleanup, so only the latest query's response is applied"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A client's request times out and it retries. Which HTTP method's semantics guarantee that the retry cannot create a second copy of the resource?",
+  "opts": {
+   "A": "POST",
+   "B": "PUT",
+   "C": "PATCH",
+   "D": "POST accompanied by a Retry-After response header"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "With PHP's default session handling, what does the cookie sent to the browser contain?",
+  "opts": {
+   "A": "The serialised contents of the $_SESSION array",
+   "B": "A signed copy of the session data, which the server verifies on each request",
+   "C": "The user's credentials, encrypted with the session key",
+   "D": "Only a session identifier, with the session data held server-side"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A Python view iterates 100 order records and reads order.customer.name on each, and the ORM issues 101 queries. What is this, and how is it removed?",
+  "opts": {
+   "A": "A lazy-loading N+1 problem, removed by eager-loading the related rows in the initial query",
+   "B": "Connection-pool exhaustion, removed by raising the pool size",
+   "C": "A transaction isolation problem, removed by moving to serialisable isolation",
+   "D": "A cache miss storm, removed by holding each customer row in a memory cache"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A defective commit has already been pushed to a shared main branch. Which command undoes its effect without rewriting published history?",
+  "opts": {
+   "A": "git reset --hard HEAD~1",
+   "B": "git revert on that commit",
+   "C": "git rebase -i HEAD~2, dropping the commit",
+   "D": "git checkout HEAD~1 -- ."
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "Nginx serves a static site from /var/www/site/. For the worker process's user to read /var/www/site/index.html, which permission must it hold on /var, /var/www and /var/www/site?",
+  "opts": {
+   "A": "Write permission",
+   "B": "Read permission only",
+   "C": "Execute, that is search, permission",
+   "D": "Ownership of each directory"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A CI pipeline builds a Docker image for a web application. Why should the application's secret API key be supplied as a run-time environment variable rather than written into the Dockerfile with ENV?",
+  "opts": {
+   "A": "ENV variables set in a Dockerfile are not visible to the application process at run time",
+   "B": "Run-time variables are encrypted by the container runtime whereas build-time ones are not",
+   "C": "ENV values are length-limited and would truncate the key",
+   "D": "Anything set in the Dockerfile is baked into an inspectable image layer, so anyone who can pull the image can read the secret"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "Which measure reliably prevents SQL injection in a PHP application querying MySQL?",
+  "opts": {
+   "A": "Prepared statements with bound parameters, so user input never becomes part of the SQL text",
+   "B": "Passing every input through addslashes() before concatenating it into the query",
+   "C": "Stripping quote and semicolon characters from all input with str_replace()",
+   "D": "Disabling error display so the database's messages never reach the attacker"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An application authenticates users with a session cookie and takes no further precaution. What makes a CSRF attack against it possible?",
+  "opts": {
+   "A": "JavaScript on the attacker's page can read the session cookie's value",
+   "B": "The browser attaches the cookie automatically to requests that the attacker's page triggers towards the application",
+   "C": "The attacker can read the application's responses from a cross-origin page",
+   "D": "The session identifier is predictable enough to be guessed"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "User-supplied comment text is inserted into a page with element.innerHTML = comment. Which change reliably removes the cross-site scripting risk at this sink, independently of how the value was stored?",
+  "opts": {
+   "A": "Assign to element.textContent instead, so the string becomes a text node and is never parsed as markup",
+   "B": "HTML-escape the comment once when it is stored in the database and keep using innerHTML",
+   "C": "Remove script tags from the comment with a regular expression before assigning it",
+   "D": "Wrap the comment in encodeURIComponent() before assigning it"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A payment class contains a switch over payment types, and adding a new payment type always means editing that switch. Which SOLID principle does this violate?",
+  "opts": {
+   "A": "Single Responsibility Principle",
+   "B": "Interface Segregation Principle",
+   "C": "Liskov Substitution Principle",
+   "D": "Open/Closed Principle"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "In the MVC pattern as applied to web frameworks, what is the controller's primary responsibility?",
+  "opts": {
+   "A": "Holding the application's business rules and persistence logic",
+   "B": "Generating the HTML or JSON that is sent to the client",
+   "C": "Interpreting the incoming request, invoking the appropriate model operations and selecting what to render in response",
+   "D": "Owning the database connection pool and transaction boundaries for the whole application"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A heavily read cache key expires and thousands of concurrent requests all miss and hit the database at once, overloading it. What is this failure mode, and what is a standard mitigation?",
+  "opts": {
+   "A": "A cache stampede, mitigated by letting one request rebuild the entry under a lock while the others serve the stale value, and by jittering expiry times",
+   "B": "A write-through inconsistency, mitigated by moving to a write-back cache",
+   "C": "Cache poisoning, mitigated by signing each cache entry",
+   "D": "Eviction thrash, mitigated by changing the policy from LRU to LFU"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "In the Model Context Protocol (MCP), what is the role of an MCP server in relation to the LLM application that connects to it?",
+  "opts": {
+   "A": "It holds the language model weights and runs inference on behalf of the client",
+   "B": "It exposes tools, resources and prompts that the client application can discover and invoke",
+   "C": "It fine-tunes the model on the organisation's private documents before each session",
+   "D": "It caches the client's earlier completions so repeated prompts cost fewer tokens"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A single-page frontend calls a hosted generative AI API directly from browser JavaScript, sending the provider's API key from a build-time environment variable. Why must this be moved behind a backend proxy before going to production?",
+  "opts": {
+   "A": "The browser cannot set an Authorization header on a cross-origin request",
+   "B": "The provider requires the model name to be selected server-side, not by the client",
+   "C": "A streamed response body cannot be read incrementally by browser JavaScript",
+   "D": "The key is inlined into the shipped bundle at build time and is readable by any visitor"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A state government portal wants to embed a third-party web analytics script that sets a persistent cookie to identify returning visitors and report on their journeys. Under the consent framework of the DPDP Act 2023, what does the portal have to get right first?",
+  "opts": {
+   "A": "Give a clear notice of purpose and obtain free, specific, informed consent before the tracking identifier is set, with a means to withdraw it",
+   "B": "Keep the collected analytics data on servers located outside India so the Act's obligations do not attach",
+   "C": "Anonymise the stored data after a fixed retention period, which cures the absence of consent retrospectively",
+   "D": "Designate the analytics vendor as the data fiduciary so that responsibility passes from the portal to the vendor"
+  },
+  "ans": "A"
+ }
+]

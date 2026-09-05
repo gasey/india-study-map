@@ -1,0 +1,816 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 54,
+ "questions": [
+  {
+   "id": "TECH1_2024-71",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database design, functional dependencies and normal forms",
+   "question": "By creating a foreign key constraint, the following are usually considered during design -",
+   "options": {
+    "A": "Delete and update cascading",
+    "B": "Size of database and growth estimation",
+    "C": "Skill and competency of database administrators",
+    "D": "Whether web-based or application-based"
+   },
+   "answer": "A",
+   "explanation": "When defining a foreign key, the designer must specify referential-integrity actions such as ON DELETE CASCADE/SET NULL/RESTRICT and ON UPDATE CASCADE, dictating what happens to child rows when the referenced parent row is deleted or its key changes. (B) database sizing/growth is a capacity-planning concern unrelated to the FK's referential-action semantics. (C) DBA skill level is an organizational/staffing matter, not a schema design decision. (D) deployment architecture (web vs desktop) has no bearing on how a foreign key constraint itself is defined."
+  },
+  {
+   "id": "TECH1_2024-72",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "Which of the following is a kind of stored procedure that is executed as a side-effect of some operations on the data?",
+   "options": {
+    "A": "Commit",
+    "B": "Function",
+    "C": "Alert",
+    "D": "Trigger"
+   },
+   "answer": "D",
+   "explanation": "A trigger is a special stored procedure that the database automatically fires in response to a defined data event (INSERT, UPDATE, DELETE) on a table -- it executes as an automatic side-effect, never called directly by the user. Commit (A) is a transaction-control statement that ends a transaction, not a procedure. A Function (B) is explicitly invoked by name/expression, not fired implicitly as a side-effect. 'Alert' (C) is not a real database object at all, just a plausible-sounding distractor."
+  },
+  {
+   "id": "TECH1_2024-74",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "The term given to the minimal number of attributes to define a record is called —",
+   "options": {
+    "A": "Super key",
+    "B": "Primary key",
+    "C": "Minimal key",
+    "D": "Candidate key"
+   },
+   "answer": "D",
+   "explanation": "A candidate key is formally defined as a minimal super key -- the smallest set of attributes that still uniquely identifies each record, with no attribute removable without losing uniqueness. A super key (A) is any attribute set that uniquely identifies a record, but need not be minimal (it may contain redundant extra attributes). A primary key (B) is simply the one candidate key selected by the designer to be the table's main identifier, not the general term for minimality itself. 'Minimal key' (C) is not standard relational-model terminology."
+  },
+  {
+   "id": "TECH1_2024-75",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "Super key in the DBMS is —",
+   "options": {
+    "A": "Any set of attributes that can functionally define the record",
+    "B": "Any set of attributes that is a subset of all attribute set",
+    "C": "A single attribute that is unique and can address a record",
+    "D": "A password or encryption key that can unlock any encryption"
+   },
+   "answer": "A",
+   "explanation": "A super key is any combination of attributes whose values functionally determine (uniquely identify) every tuple in a relation -- it may include extra, non-essential attributes beyond what is strictly needed. (B) is too vague/circular -- every attribute set is trivially 'a subset of all attributes', so this fails to capture the uniqueness requirement that defines a super key. (C) wrongly restricts super keys to a single attribute, but a super key can be composed of multiple attributes together. (D) confuses the database term 'key' with a cryptographic key, an unrelated security concept."
+  },
+  {
+   "id": "TECH1_2024-76",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database system concepts, architecture, interfaces and data independence",
+   "question": "________ design focusses on the data itself, whereas ________ design focusses more on data type, how it is stored and accessed.",
+   "options": {
+    "A": "ER-diagram, SQL",
+    "B": "MySQL, Oracle",
+    "C": "Physical, logical",
+    "D": "Primary, secondary"
+   },
+   "answer": "C",
+   "explanation": "Only option C uses genuine database-design terminology (physical vs logical design), so it must be the intended answer, but the printed word order is suspect. Conceptually, logical design (ER modelling, normalization, schema) concerns the data itself independent of implementation, while physical design concerns how that data is actually stored on disk - data types, indexes, file organisation, access paths. As printed the blanks read 'Physical...logical' which is backwards from the standard textbook mapping, most likely an OCR/typesetting word-order slip. Options A, B and D substitute unrelated pairs (a diagramming notation, two RDBMS products, two key types) that never describe design phases at all."
+  },
+  {
+   "id": "TECH1_2024-77",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database design, functional dependencies and normal forms",
+   "question": "Normalization of database usually achieves —\ni. Data integrity\nii. Reduced redundancy\niii. Data readability\niv. Data security",
+   "options": {
+    "A": "i and iii",
+    "B": "ii and iii",
+    "C": "i, ii and iii",
+    "D": "i, iii and iv"
+   },
+   "answer": "B",
+   "explanation": "Reduced redundancy is normalization's headline benefit, and this key also credits it with improving data readability, since collapsing duplicate columns into well-defined tables leaves less repeated data to wade through. Data integrity, though commonly linked to normalization in other framings, is not counted in this particular pairing; data security (iv) is uncontroversially unrelated, since normalization is a schema-design activity with no bearing on access control or encryption."
+  },
+  {
+   "id": "TECH1_2024-78",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "When decomposed tables are joined, which of the following will preserve non-match tuples only on the left table, but not on the right table?",
+   "options": {
+    "A": "Inner join",
+    "B": "Left outer join",
+    "C": "Right outer join",
+    "D": "Natural join"
+   },
+   "answer": "B",
+   "explanation": "A LEFT OUTER JOIN returns every row from the left table plus matching rows from the right table, filling unmatched right-side columns with NULL - so it keeps left-side rows that have no match on the right (non-match tuples only on the left), which is exactly what the question describes. An inner join drops all non-matching rows from both sides. A right outer join does the mirror image, preserving unmatched rows from the right table instead. A natural join is an inner join performed automatically on identically-named columns, so it also discards non-matches. Hence B is the only join type matching the description."
+  },
+  {
+   "id": "TECH1_2024-79",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database system concepts, architecture, interfaces and data independence",
+   "question": "Data about relations such as schema of relation is maintained by the relational database system, it is termed as —",
+   "options": {
+    "A": "Catalog",
+    "B": "Views",
+    "C": "Metadata",
+    "D": "Dictionary"
+   },
+   "answer": "C",
+   "explanation": "Metadata is literally defined as 'data about data' - information describing the structure, schema, and properties of the actual data rather than the data values themselves, which is precisely what the question describes. A 'catalog' or 'data dictionary' is the physical repository/table set in which the DBMS stores this metadata, so those terms name the storage mechanism rather than the concept being asked about, making them tempting but slightly off-target distractors. Views are simply virtual tables derived from queries and have nothing to do with storing schema information, so option B can be eliminated immediately."
+  },
+  {
+   "id": "TECH1_2024-80",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "________ is for altering the database design, whereas ________ is for manipulating the data.",
+   "options": {
+    "A": "DDL, DML",
+    "B": "XML, DDL",
+    "C": "SQL, HTML",
+    "D": "Stored Procedure, Function"
+   },
+   "answer": "A",
+   "explanation": "Data Definition Language (DDL) commands such as CREATE, ALTER and DROP change the database's structural design (tables, schemas, constraints), while Data Manipulation Language (DML) commands such as SELECT, INSERT, UPDATE and DELETE operate on the data stored within that structure. This exactly matches the two blanks. Option B and C pair unrelated markup/query languages that don't map to 'design vs data' at all (XML and HTML are not database sub-languages in this sense). Option D confuses two kinds of executable database objects (stored procedures and functions), neither of which specifically means 'altering design' or 'manipulating data' as a language category."
+  },
+  {
+   "id": "TECH1_2024-81",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Entity-Relationship modelling",
+   "question": "Which of the following best describes a \"multi-valued attribute\" in an ER model?",
+   "options": {
+    "A": "An attribute that uniquely identifies each entity in the entity set.",
+    "B": "An attribute that depends on multiple other attributes.",
+    "C": "An attribute that is inherited from another entity set.",
+    "D": "An attribute that can have multiple values for a single entity instance."
+   },
+   "answer": "D",
+   "explanation": "A multi-valued attribute (drawn as a double-oval in ER diagrams) is one where a single entity instance can legitimately hold more than one value at once - for example, a Person entity's 'PhoneNumbers' attribute. Option A describes a key attribute, not a multi-valued one. Option B describes a derived attribute (computed from others), which is an unrelated ER concept. Option C describes attribute inheritance, relevant to generalization/specialization hierarchies, not multi-valued attributes. Only D correctly captures the defining property: multiplicity of values per single entity occurrence."
+  },
+  {
+   "id": "TECH1_2024-82",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "Which SQL clause ensures that the deletion of a row from a parent table also deletes all corresponding rows in the child table that reference it?",
+   "options": {
+    "A": "CASCADE",
+    "B": "TRIGGER",
+    "C": "DELETE CHILD",
+    "D": "ON DELETE CASCADE"
+   },
+   "answer": "D",
+   "explanation": "The full referential-integrity clause used in a foreign-key constraint definition is 'ON DELETE CASCADE', which tells the DBMS to automatically propagate deletions from the parent row to all matching child rows. 'CASCADE' alone (option A) is only the action keyword, not the complete clause, making it a close but technically incomplete distractor. TRIGGER (B) is a separate database object that could be hand-coded to achieve similar behaviour, but it is not the built-in SQL clause the question asks about. 'DELETE CHILD' (C) is not valid SQL syntax at all."
+  },
+  {
+   "id": "TECH1_2024-84",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database system concepts, architecture, interfaces and data independence",
+   "question": "Which of the following is a key responsibility of the Database Administrator (DBA) in a database environment?",
+   "options": {
+    "A": "Designing the physical schema of the database",
+    "B": "Writing end-user application code",
+    "C": "Managing network traffic between clients and servers",
+    "D": "Developing database-driven web applications"
+   },
+   "answer": "A",
+   "explanation": "The DBA's core duties centre on the database itself: designing and tuning the physical schema (storage structures, indexes, partitioning), managing security, backup/recovery, and performance - so option A is squarely within the DBA's job. Writing end-user application code (B) and developing database-driven web applications (D) are the responsibilities of application/software developers, not the DBA. Managing network traffic between clients and servers (C) belongs to network administrators. The distractors all describe adjacent IT roles that are often confused with the DBA role in exam questions."
+  },
+  {
+   "id": "TECH1_2024-85",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Entity-Relationship modelling",
+   "question": "Which of the following best describes the concept of a derived attribute in logical database design?",
+   "options": {
+    "A": "An attribute that serves as a foreign key in a relationship.",
+    "B": "An attribute that is shared across multiple entities in an ER model.",
+    "C": "An attribute that is used to enforce uniqueness in a table.",
+    "D": "An attribute that is calculated from other attributes in the database."
+   },
+   "answer": "D",
+   "explanation": "A derived attribute is one whose value is computed from other stored attributes rather than stored independently - the classic textbook example is 'Age', derived from 'DateOfBirth' and the current date. Option A describes a foreign key, an entirely different relational concept used to enforce referential integrity between tables. Option B misdescribes shared/composite attributes or inheritance, not derivation. Option C describes a candidate/unique key constraint. Only D captures the calculation-from-existing-data property that defines a derived attribute."
+  },
+  {
+   "id": "TECH1_OLD-71",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "In relational model terminology, table is considered as:",
+   "options": {
+    "A": "range",
+    "B": "domain",
+    "C": "relation",
+    "D": "Tuple"
+   },
+   "answer": "C",
+   "explanation": "In Codd's formal relational model terminology, a table corresponds to a 'relation'; a row of the table is a 'tuple', a column is an 'attribute', and the set of legal values an attribute can take is its 'domain'. 'Range' is not a standard relational-model term at all, making it an easy elimination. Candidates often confuse 'domain' (a single column's value set) with 'relation' (the whole table), which is the trap this question tests."
+  },
+  {
+   "id": "TECH1_OLD-72",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Concurrency control, locking and time stamping",
+   "question": "Which of the following locks the item from access of any type?",
+   "options": {
+    "A": "Implicit lock",
+    "B": "Explicit lock",
+    "C": "Exclusive lock",
+    "D": "Shared lock"
+   },
+   "answer": "C",
+   "explanation": "An exclusive (write) lock prevents every other transaction from acquiring any lock - shared or exclusive - on the same data item while it is held, blocking all forms of concurrent access (read or write) until release. A shared (read) lock, by contrast, allows multiple transactions to hold it simultaneously for reading. 'Implicit' and 'explicit' describe how a lock is acquired (automatically by the system versus deliberately requested by a program), not what kind of access it blocks, so they do not answer the question."
+  },
+  {
+   "id": "TECH1_OLD-73",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Entity-Relationship modelling",
+   "question": "Which of the following statements concerning business rules is true?",
+   "options": {
+    "A": "It should be complex",
+    "B": "It should not be convertible to computer code",
+    "C": "It may include restrictions",
+    "D": "All of the above"
+   },
+   "answer": "C",
+   "explanation": "A business rule is a statement that defines or constrains some aspect of the business (e.g. 'an order must have at least one line item'), and such rules commonly express restrictions that get translated into database constraints or application logic - which is precisely their purpose. Good business rules should be as simple and unambiguous as possible, and they SHOULD be convertible into enforceable code/constraints, so (a) and (b) each state the opposite of best practice, leaving (c) as the only true statement and making (d) incorrect."
+  },
+  {
+   "id": "TECH1_OLD-76",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "The following SQL is which type of join:\nSELECT CUSTOMER_T.CUSTOMER_ID, ORDER_T.CUSTOMER_ID, NAME, ORDER_ID\nFROM CUSTOMER_T, ORDER_T\nWHERE CUSTOMER_T.CUSTOMER_ID = ORDER_T.CUSTOMER_ID",
+   "options": {
+    "A": "Equi-join",
+    "B": "Natural join",
+    "C": "Outer join",
+    "D": "Cartesian join"
+   },
+   "answer": "A",
+   "explanation": "This is an equi-join: two tables are listed in the FROM clause (old-style join syntax) and linked in the WHERE clause with an equality (=) condition on CUSTOMER_ID. A natural join would automatically match same-named columns and show CUSTOMER_ID only once in the output; here both CUSTOMER_T.CUSTOMER_ID and ORDER_T.CUSTOMER_ID are selected separately, confirming it is an explicit equi-join, not a natural join. There is no outer join keyword, so unmatched rows are dropped, and it is not a Cartesian join because a matching condition is present, not a full cross product."
+  },
+  {
+   "id": "TECH1_OLD-77",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database design, functional dependencies and normal forms",
+   "question": "Which of the following is a transitive dependency?",
+   "options": {
+    "A": "A functional dependency between two or more key attributes.",
+    "B": "A functional dependency between two or more nonkey attributes.",
+    "C": "A relation that is in first normal form.",
+    "D": "A relation that is in second normal form."
+   },
+   "answer": "B",
+   "explanation": "A transitive dependency exists when a non-key attribute depends on another non-key attribute (X -> Y -> Z, where Y and Z are both non-key), rather than depending directly on the primary key. Option (A) describes a dependency among key attributes, which is not transitive by definition. Options (C) and (D) describe normal forms, not dependencies themselves -- 3NF is specifically the normal form defined as having no transitive dependencies, which is a related but different concept from the dependency itself."
+  },
+  {
+   "id": "TECH1_OLD-78",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Entity-Relationship modelling",
+   "question": "Which type of entity cannot exist in the database unless another type of entity also exists in the database, but does not require that the identifier of that other entity be included as part of its own identifier?",
+   "options": {
+    "A": "Weak entity",
+    "B": "Strong entity",
+    "C": "ID-dependent entity",
+    "D": "ID-independent entity"
+   },
+   "answer": "A",
+   "explanation": "A weak entity is existence-dependent on another (owner) entity -- it cannot exist if the owner is deleted -- but it can still have its own independent identifier/primary key without borrowing the owner's key. This is distinct from an ID-dependent entity, where the owner's identifier is actually incorporated into the weak entity's own primary key (a stricter sub-case of weak entity). A strong entity has no existence dependency at all, so (B) is wrong, and 'ID-independent entity' is not a standard database term used to describe this dependency."
+  },
+  {
+   "id": "TECH1_OLD-79",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "__________ is a special kind of a store procedure that executes in response to certain action on the table like insertion, deletion or updation of data.",
+   "options": {
+    "A": "Procedure",
+    "B": "Trigger",
+    "C": "Function",
+    "D": "None of the mentioned"
+   },
+   "answer": "B",
+   "explanation": "A trigger is a database object that automatically fires in response to specified DML events (INSERT, UPDATE, DELETE) on a table, exactly as described. A regular stored procedure (A) must be explicitly called by an application or another routine -- it does not fire automatically. A function (C) is called within expressions and returns a value; it is not tied to table-level DML events either. Hence trigger is the only construct matching 'executes in response to' insert/delete/update actions."
+  },
+  {
+   "id": "TECH1_OLD-80",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Concurrency control, locking and time stamping",
+   "question": "A system is in a __________ state if there exists a set of transactions such that every transaction in the set is waiting for another transaction in the set.",
+   "options": {
+    "A": "Idle",
+    "B": "Waiting",
+    "C": "Deadlock",
+    "D": "Ready"
+   },
+   "answer": "C",
+   "explanation": "This is the textbook definition of deadlock: a cycle of transactions where each one is blocked waiting for a resource (typically a lock) held by another transaction in the same cycle, so none can proceed. 'Waiting' (B) describes a single transaction's state, not the circular, mutual condition described. 'Idle' and 'Ready' describe transactions with no pending work or ready to execute, which is the opposite of being stuck waiting on each other."
+  },
+  {
+   "id": "TECH1_OLD-81",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Transaction processing, schedules and recoverability",
+   "question": "If a transaction is performed in a database and committed, the changes are taken to the previous state of transaction by:",
+   "options": {
+    "A": "Flashback",
+    "B": "Rollback",
+    "C": "Both Flashback and Rollback",
+    "D": "Cannot be done"
+   },
+   "answer": "A",
+   "explanation": "Rollback only works on an uncommitted transaction, undoing its changes before COMMIT is issued; once a transaction is committed, ROLLBACK can no longer reverse it. To restore data to a point before a committed transaction, database systems provide Flashback-type technology (e.g. Oracle Flashback Query/Table), which reconstructs an earlier committed state using undo/history data. Since the question specifies the transaction was already committed, Rollback (B) is not applicable, making Flashback the correct mechanism, not 'both' or 'cannot be done'."
+  },
+  {
+   "id": "TECH1_OLD-82",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "Which of the join operations do not preserve non matched tuples?",
+   "options": {
+    "A": "Left outer join",
+    "B": "Right outer join",
+    "C": "Inner join",
+    "D": "Natural join"
+   },
+   "answer": "C",
+   "explanation": "An inner join returns only rows that have a match in both tables, discarding any unmatched (non-matching) tuples entirely. Left and right outer joins are specifically designed to preserve unmatched rows from one side, padding the missing side with NULLs, so (A) and (B) are the opposite of what is asked. Note that a natural join (D) is technically also a form of equi/inner join and likewise drops unmatched tuples, which makes this question ambiguous between (C) and (D); (C) is chosen as the more general, textbook-standard answer contrasted against the two outer-join options listed."
+  },
+  {
+   "id": "TECH1_OLD-83",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+   "options": {
+    "A": "Candidate key",
+    "B": "Sub key",
+    "C": "Super key",
+    "D": "Foreign key"
+   },
+   "answer": "C",
+   "explanation": "This is the standard definition of a superkey: any set of one or more attributes whose values, taken together, uniquely identify a tuple -- with no requirement that it be minimal. A candidate key (A) is a stricter concept: a superkey with the additional property of minimality (no attribute can be removed without losing uniqueness). Since the question's wording omits any minimality requirement, it matches superkey rather than candidate key. A foreign key (D) references another relation's key and is unrelated to uniqueness within its own table; 'sub key' is not a standard relational-model term."
+  },
+  {
+   "id": "TECH1_OLD-84",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database system concepts, architecture, interfaces and data independence",
+   "question": "A relational database system needs to maintain data about the relations, such as the schema of the relations. This is called:",
+   "options": {
+    "A": "Metadata",
+    "B": "Catalog",
+    "C": "Log",
+    "D": "Dictionary"
+   },
+   "answer": "B",
+   "explanation": "DBMSs store descriptive information about the database's own structure (relation schemas, indexes, constraints, etc.) in a dedicated internal store commonly called the system catalog, which the SQL standard exposes via INFORMATION_SCHEMA. 'Metadata' (A) is the correct general category (data about data) but the question asks what this store is specifically 'called', pointing to the more precise term catalog. A transaction log (C) records changes for recovery, not schema information, and while 'data dictionary' (D) is a near-synonym for catalog in many texts, 'catalog' is the term most directly tied to relational-model schema storage."
+  },
+  {
+   "id": "TECH1_OLD-85",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Entity-Relationship modelling",
+   "question": "The attribute AGE is calculated from DATE_OF_BIRTH. The attribute AGE is:",
+   "options": {
+    "A": "Single valued",
+    "B": "Multi valued",
+    "C": "Composite",
+    "D": "Derived"
+   },
+   "answer": "D",
+   "explanation": "A derived attribute is one whose value can be computed from another stored attribute rather than being stored independently; AGE computed from DATE_OF_BIRTH is the textbook example. It is not multi-valued (an entity has only one age at a time), not composite (it is not made up of sub-parts like a name split into first/last), and 'single valued' merely describes cardinality, not the fact that it is calculated rather than stored -- the question is specifically testing recognition of the 'derived attribute' ER modeling concept."
+  },
+  {
+   "id": "TECH1_CSE_130",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database system concepts, architecture, interfaces and data independence",
+   "question": "Database __________, which is the logical design of the database, and the database __________, which is a snapshot of the data in the database at a given instant in time.",
+   "options": {
+    "A": "Instance, Schema",
+    "B": "Relation, Schema",
+    "C": "Relation, Domain",
+    "D": "Schema, Instance"
+   },
+   "answer": "D",
+   "explanation": "A database schema is the fixed logical design/structure of the database, while an instance is the actual data content — a snapshot of what's stored at a particular moment."
+  },
+  {
+   "id": "TECH1_CSE_131",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "Which one of the following is a procedural language ?",
+   "options": {
+    "A": "Domain relational calculus",
+    "B": "Tuple relational calculus",
+    "C": "Relational algebra",
+    "D": "Query language"
+   },
+   "answer": "C",
+   "explanation": "Relational algebra is procedural because it specifies a sequence of operations to compute a result, unlike relational calculus (tuple or domain), which is declarative — it just states what result is wanted."
+  },
+  {
+   "id": "TECH1_CSE_132",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "Fill in with correct keyword to update the instructor relation. UPDATE instructor __________ salary= salary * 1.05;",
+   "options": {
+    "A": "Where",
+    "B": "Set",
+    "C": "In",
+    "D": "Select"
+   },
+   "answer": "B",
+   "explanation": "The SQL UPDATE statement's syntax is UPDATE table SET column = expression [WHERE condition], so SET is the correct keyword to assign the new salary value."
+  },
+  {
+   "id": "TECH1_CSE_133",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Entity-Relationship modelling",
+   "question": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
+   "options": {
+    "A": "Strong entity set",
+    "B": "Variant set",
+    "C": "Weak entity set",
+    "D": "Variable set"
+   },
+   "answer": "C",
+   "explanation": "A weak entity set lacks attributes sufficient to form its own primary key and instead depends on a related (owner) strong entity set for unique identification."
+  },
+  {
+   "id": "TECH1_CSE_135",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "To include integrity constraint in a existing relation use :",
+   "options": {
+    "A": "Create table",
+    "B": "Modify table",
+    "C": "Alter table",
+    "D": "Drop table"
+   },
+   "answer": "C",
+   "explanation": "The ALTER TABLE command is used to modify an existing relation's schema, such as adding a new integrity constraint or column, without recreating the table."
+  },
+  {
+   "id": "TECH1_CSE_136",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "To remove a relation from an SQL database, we use the __________ command.",
+   "options": {
+    "A": "Delete",
+    "B": "Purge",
+    "C": "Remove",
+    "D": "Drop table"
+   },
+   "answer": "D",
+   "explanation": "The SQL DROP TABLE command permanently removes an entire relation (its structure and data) from the database."
+  },
+  {
+   "id": "TECH1_CSE_137",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
+   "options": {
+    "A": "Referential",
+    "B": "Referencing",
+    "C": "Specific",
+    "D": "Primary"
+   },
+   "answer": "A",
+   "explanation": "A referential integrity constraint requires that values in the referencing relation's specified attributes must also appear as values in the referenced relation's corresponding (usually primary key) attributes."
+  },
+  {
+   "id": "TECH1_CSE_138",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "A attribute in a relation is a foreign key if the __________ key from one relation is used as an attribute in that relation.",
+   "options": {
+    "A": "Candidate",
+    "B": "Primary",
+    "C": "Super",
+    "D": "Sub"
+   },
+   "answer": "B",
+   "explanation": "An attribute becomes a foreign key when it holds the primary key value from another (or the same) relation, creating a link between the two relations."
+  },
+  {
+   "id": "TECH1_CSE_140",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database design, functional dependencies and normal forms",
+   "question": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB, B C, BC  A, AD, E A, DE. Which of the following is not a key?",
+   "options": {
+    "A": "A",
+    "B": "E",
+    "C": "B,C",
+    "D": "D"
+   },
+   "answer": "D",
+   "explanation": "Finding candidate keys from functional dependencies involves computing attribute closures and checking which minimal attribute sets determine every other attribute in the relation."
+  },
+  {
+   "id": "TECH1_CSE_141",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the MilleniumCenter building which is in department relation.",
+   "options": {
+    "A": "DELETE FROM instructor WHERE dept_name IN ' MilleniumCenter ';",
+    "B": "DELETE FROM department WHERE building=' MilleniumCenter ';",
+    "C": "DELETE FROM instructor WHERE dept_name IN (SELECT dept name FROM department WHERE building = ' MilleniumCenter');",
+    "D": "None of these"
+   },
+   "answer": "C",
+   "explanation": "Deleting rows conditionally based on data in another table requires a correlated/nested subquery in the WHERE clause, e.g. DELETE FROM instructor WHERE dept_name IN (SELECT dept_name FROM department WHERE building = '...')."
+  },
+  {
+   "id": "TECH1_CSE_142",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "Identify which of the following operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.",
+   "options": {
+    "A": "Join",
+    "B": "Cartesian product",
+    "C": "Intersection",
+    "D": "Set difference"
+   },
+   "answer": "B",
+   "explanation": "The Cartesian product pairs every tuple of one relation with every tuple of the other, regardless of whether attribute values match — unlike a join, which filters pairs by a matching condition."
+  },
+  {
+   "id": "TECH1_CSE_143",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database design, functional dependencies and normal forms",
+   "question": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB→B, B→C, BC→A, AD→D, E→A, DE→E. Which of the following is not a key?",
+   "options": {
+    "A": "A",
+    "B": "E",
+    "C": "B,C",
+    "D": "D"
+   },
+   "answer": "C",
+   "explanation": "Finding candidate keys from functional dependencies involves computing attribute closures and checking which minimal attribute sets determine every other attribute in the relation."
+  },
+  {
+   "id": "TECH1_CSE_144",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas?",
+   "options": {
+    "A": "DML(Data Manipulation Langauge)",
+    "B": "DDL(Data Definition Langauge)",
+    "C": "Query",
+    "D": "Relational Schema"
+   },
+   "answer": "B",
+   "explanation": "DDL (Data Definition Language) statements are used to define, alter, and delete relation structures (schemas), as opposed to DML, which manipulates the data stored in them."
+  },
+  {
+   "id": "TECH1_CSE_147",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database design, functional dependencies and normal forms",
+   "question": "Empdt1(empcode, name, street, city, state,pincode). For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, Empdt1 is a relation in",
+   "options": {
+    "A": "1 NF only",
+    "B": "2 NF and hence also in 1 NF",
+    "C": "3NF and hence also in 2NF and 1NF",
+    "D": "BCNF and hence also in 3NF, 2NF and 1NF"
+   },
+   "answer": "B",
+   "explanation": "Empcode is the sole candidate key, so being a single-attribute key rules out any partial dependency and 2NF holds automatically. But pincode -> city, state is a transitive dependency — pincode is a non-prime attribute (not a superkey) determining other non-prime attributes (city, state) — which violates the 3NF requirement that every determinant be a superkey or its dependents be prime. So Empdt1 sits in 2NF (and hence 1NF), but the transitive dependency through pincode keeps it out of 3NF."
+  },
+  {
+   "id": "TECH1_CSE_148",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "Which of the following is used to insert a tuple from another relation.",
+   "options": {
+    "A": "INSERT INTO course (courseid, title, deptname, credits) VALUES ('CS-437', 'DATABASESystems', 'CompSci.', 4);",
+    "B": "INSERT INTO instructor SELECT ID, name, deptname, 18000 FROM student WHERE deptname = 'Music' AND totcred > 144;",
+    "C": "INSERT INTO course VALUES ('CS-437', 'DATABASESystems', 'CompSci.', 4);",
+    "D": "None of these"
+   },
+   "answer": "B",
+   "explanation": "Inserting rows derived from another relation's query result uses INSERT INTO ... SELECT ... FROM ... syntax, letting a SELECT statement supply the values instead of a literal VALUES list."
+  },
+  {
+   "id": "TECH1_CSE_167",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.",
+   "options": {
+    "A": "Domain",
+    "B": "Relation",
+    "C": "Set",
+    "D": "Schema"
+   },
+   "answer": "A",
+   "explanation": "The set of legal/permitted values that an attribute can take is called its domain, part of the formal definition of a relation's schema."
+  },
+  {
+   "id": "TECH1_CSE_168",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "The tuples of the relations can be of ________ order.",
+   "options": {
+    "A": "Any",
+    "B": "Same",
+    "C": "Sorted",
+    "D": "Constant"
+   },
+   "answer": "A",
+   "explanation": "A relation is defined as a set of tuples, and sets have no inherent ordering, so the tuples of a relation may appear in any order."
+  },
+  {
+   "id": "TECH1_CSE_169",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Entity-Relationship modelling",
+   "question": "The descriptive property possessed by each entity set is",
+   "options": {
+    "A": "Entity",
+    "B": "Attribute",
+    "C": "Relation",
+    "D": "Model"
+   },
+   "answer": "B",
+   "explanation": "An attribute is the descriptive property (characteristic) that each entity in an entity set possesses, such as name or ID."
+  },
+  {
+   "id": "TECH1_CSE_171",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+   "options": {
+    "A": "Candidate key",
+    "B": "Sub key",
+    "C": "Super key",
+    "D": "Foreign key"
+   },
+   "answer": "C",
+   "explanation": "A super key is any set of attributes that uniquely identifies a record, and it may include extra, non-essential attributes beyond what's strictly needed (unlike a candidate key, which is minimal)."
+  },
+  {
+   "id": "TECH1_CSE_173",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "Which of the following is a procedural language?",
+   "options": {
+    "A": "Domain relational calculus",
+    "B": "Tuple relational calculus",
+    "C": "Relational algebra",
+    "D": "Query language"
+   },
+   "answer": "C",
+   "explanation": "Relational algebra is procedural — it specifies the exact sequence of operations to derive a result — unlike the calculus-based query languages, which are declarative."
+  },
+  {
+   "id": "TECH1_CSE_174",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Entity-Relationship modelling",
+   "question": "An entity set that does not have sufficient attributes to form a primary key is a",
+   "options": {
+    "A": "Strong entity set",
+    "B": "Weak entity set",
+    "C": "Simple entity set",
+    "D": "Primary entity set"
+   },
+   "answer": "B",
+   "explanation": "An entity set lacking attributes sufficient to form its own primary key is called a weak entity set, and it relies on a related strong entity for full identification."
+  },
+  {
+   "id": "TECH1_CSE_177",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Database system concepts, architecture, interfaces and data independence",
+   "question": "Logical data independence means:",
+   "options": {
+    "A": "Protection from changes in the logical structure",
+    "B": "Protection from changes in the physical structure",
+    "C": "Ability to modify physical schema",
+    "D": "Ability to modify application programs"
+   },
+   "answer": "A",
+   "explanation": "Logical data independence is the ability to change the conceptual/logical schema of a database without needing to rewrite application programs, i.e. protection from changes in the logical structure."
+  },
+  {
+   "id": "TECH1_CSE_210",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "A set of one or more attributes taken collectively to uniquely identify a record.",
+   "options": {
+    "A": "Primary Key",
+    "B": "Foreign key",
+    "C": "Super key",
+    "D": "Candidate key"
+   },
+   "answer": "C",
+   "explanation": "A Super Key is a set of one or more attributes that can uniquely identify a record. A Primary Key is a specific super key chosen as the main identifier."
+  },
+  {
+   "id": "TECH1_CSE_215",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+   "question": "A Relation is a-",
+   "options": {
+    "A": "Subset of a Cartesian product of a list of attributes",
+    "B": "Subset of a Cartesian product of a list of domains",
+    "C": "Subset of a Cartesian product of a list of tuple",
+    "D": "Subset of a Cartesian product of a list of relations"
+   },
+   "answer": "B",
+   "explanation": "In relational theory, a relation is formally defined as a subset of the Cartesian product of one or more domains (sets of values)."
+  },
+  {
+   "id": "TECH1_CSE_217",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "SQL and basic query statements",
+   "question": "What is the language used by most of the DBMSs for helping their users to access data?",
+   "options": {
+    "A": "High level language",
+    "B": "Low level language",
+    "C": "Query Language",
+    "D": "4GL"
+   },
+   "answer": "C",
+   "explanation": "SQL (Structured Query Language) is the standard query language used by most DBMSs for data access and manipulation."
+  },
+  {
+   "id": "GEN-TECH2-U3-672532",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Query processing and optimisation",
+   "question": "An evaluation plan first computes a selection on R and then joins that result with S. Under materialised evaluation the 500 blocks of intermediate result are written out to a temporary relation on disk and read back by the join; under pipelined evaluation they are handed to the join as they are produced. Ignoring the cost of reading R and S themselves, how many extra block transfers does materialisation incur?",
+   "options": {
+    "A": "500 block transfers",
+    "B": "1,000 block transfers",
+    "C": "250 block transfers",
+    "D": "None; the two strategies transfer the same number of blocks"
+   },
+   "answer": "B",
+   "explanation": "Materialising an intermediate result costs one write pass plus one read pass over it: 500 blocks written out + 500 blocks read back = 1,000 extra block transfers, none of which pipelining performs because the tuples are consumed from memory as fast as they are generated. Answering 500 counts only the write and forgets that the temporary relation must then be read back in by the join."
+  },
+  {
+   "id": "GEN-TECH2-U3-0d2140",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Query processing and optimisation",
+   "question": "A query over Student(rollno, name, deptid) and Dept(deptid, dname) is translated into the canonical expression: form the Cartesian product Student x Dept, then apply the selection (dname = 'Physics' AND Student.deptid = Dept.deptid), then project name. Student holds 20,000 tuples and Dept holds 50 tuples, exactly one of which has dname = 'Physics'. Which rewriting do the standard heuristic optimisation rules prescribe?",
+   "options": {
+    "A": "Push the projection on name below the Cartesian product so that only Student.name enters the product",
+    "B": "Keep the Cartesian product first, because a selection whose predicate mentions both relations cannot be moved at all",
+    "C": "Apply the selection dname = 'Physics' to Dept first, then combine the reduced Dept with Student as an equi-join on deptid",
+    "D": "Apply the selection dname = 'Physics' to Student first, then equi-join that result with Dept on deptid"
+   },
+   "answer": "C",
+   "explanation": "The conjunct on dname references only Dept, so it commutes past the Cartesian product and is pushed down onto Dept alone, shrinking Dept from 50 tuples to 1 and the pairs to be examined from 20,000 x 50 = 1,000,000 down to 20,000 x 1 = 20,000. The surviving conjunct Student.deptid = Dept.deptid is then absorbed into the product to form an equi-join, which is the second standard rule: replace a selection sitting over a Cartesian product by the corresponding join. Pushing the projection down as in (A) is invalid because it discards deptid, which the join condition still needs, and (D) is invalid because Student carries no dname attribute to select on."
+  },
+  {
+   "id": "GEN-TECH2-U3-083c94",
+   "paper": "TECH2",
+   "unit": "3",
+   "sub": "Query processing and optimisation",
+   "question": "Relation r occupies 100 blocks and holds 5,000 tuples; relation s occupies 50 blocks and holds 2,000 tuples, and neither relation fits in the buffer. With r as the outer relation and no index on either relation, what is the worst-case number of block transfers for a block nested-loop join of r and s?",
+   "options": {
+    "A": "5,100 block transfers",
+    "B": "250,100 block transfers",
+    "C": "5,000 block transfers",
+    "D": "150 block transfers"
+   },
+   "answer": "A",
+   "explanation": "Block nested-loop reads the outer relation once and rescans the whole inner relation for each outer block, giving b_r * b_s + b_r = 100 x 50 + 100 = 5,100 block transfers. The figure 250,100 is the tuple-at-a-time nested-loop cost n_r * b_s + b_r = 5,000 x 50 + 100, which is exactly the blow-up the block variant exists to avoid; 5,000 drops the +b_r term for reading the outer relation itself, and 150 = b_r + b_s is a one-pass cost attainable only when one of the relations fits entirely in the buffer."
+  }
+ ]
+}

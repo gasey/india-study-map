@@ -1,0 +1,353 @@
+[
+  {
+    "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+    "q": "A browser re-requests a cached stylesheet, sending If-None-Match with the ETag it stored. The file on the server has not changed. Which status code should the server return?",
+    "opts": {
+      "A": "200 OK, with the stylesheet body",
+      "B": "204 No Content",
+      "C": "304 Not Modified",
+      "D": "412 Precondition Failed"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A conditional GET whose validator still matches is answered with 304 Not Modified and no message body, telling the browser its cached copy is still usable. 204 also carries no body but means the request succeeded with nothing to return, not that a cached representation is fresh, and 412 reports a precondition that failed on an unsafe request."
+  },
+  {
+    "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+    "q": "A day before migrating a web application to a new server, the administrator drops the TTL on the site's DNS A record from 86400 to 300 seconds. What does this achieve?",
+    "opts": {
+      "A": "Resolver caches expire quickly, so clients pick up the new IP address soon after the record is changed",
+      "B": "The registrar propagates the change to all root name servers immediately",
+      "C": "The authoritative name server gains extra query capacity for the duration of the migration",
+      "D": "The old server begins refusing new connections as soon as the record is changed"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "TTL tells recursive resolvers how long they may keep serving a cached answer, so shrinking it ahead of a planned change limits how long a stale IP address stays in circulation. Root name servers hold no A record for the site, and DNS has no way to tell resolvers to discard an answer early, which is exactly why the TTL has to be lowered in advance rather than at cutover."
+  },
+  {
+    "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+    "q": "Dozens of HTTPS sites share a single IP address on a hosting server. Which mechanism lets the server pick the right TLS certificate for the site the client asked for?",
+    "opts": {
+      "A": "The HTTP Host header carried in the request",
+      "B": "The Server Name Indication extension in the TLS ClientHello",
+      "C": "ALPN negotiation of the application protocol",
+      "D": "OCSP stapling of the certificate's revocation status"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "SNI puts the requested hostname in the ClientHello, before any certificate has been chosen, which is precisely what name-based HTTPS virtual hosting needs. The Host header cannot serve this purpose because it travels inside the encrypted request, which only exists after the handshake has already committed to a certificate."
+  },
+  {
+    "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+    "q": "A dashboard must plot a scatter chart of 50,000 points and redraw it on every mouse drag. Why is a canvas element normally preferred here over inline SVG?",
+    "opts": {
+      "A": "SVG cannot be scripted from JavaScript once the document has loaded",
+      "B": "Only canvas supports colour gradients and opacity",
+      "C": "Canvas draws pixels immediately and keeps no node per point, avoiding the layout and hit-testing cost of a 50,000-element tree",
+      "D": "Canvas drawings are exposed to assistive technology automatically, so no fallback is needed"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Canvas is an immediate-mode raster surface: the drawing calls leave behind no retained objects, so the cost is the draw itself and nothing more. SVG keeps every point as a DOM element the browser must style, lay out and hit-test, which is what makes very large, continuously redrawn datasets slow; canvas is in fact the weaker of the two for accessibility, needing explicit fallback content."
+  },
+  {
+    "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+    "q": "A text input is given only a placeholder attribute and no associated label element. What is the accessibility defect?",
+    "opts": {
+      "A": "Placeholder text cannot be restyled with CSS",
+      "B": "Screen readers announce the placeholder twice",
+      "C": "The input is omitted from the form submission",
+      "D": "The placeholder disappears once the user types, and it is not a reliable accessible name for the field"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A placeholder is a hint, not a name: it vanishes as soon as the field has a value, leaving the user with no persistent statement of what the field is, and its exposure as an accessible name is inconsistent across assistive technology. A label bound to the input's id gives a permanent, reliably announced name and enlarges the clickable target as a bonus."
+  },
+  {
+    "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+    "q": "Inside a form element, a developer writes a button element with no type attribute, and the user clicks it. What happens by default?",
+    "opts": {
+      "A": "The form is submitted",
+      "B": "The form's fields are reset to their initial values",
+      "C": "Nothing happens until a click handler is attached",
+      "D": "The button behaves as type=\"button\" and only runs its own handler"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The missing-value default for a button's type is submit, so the click submits the owning form and the page navigates away, which is a common reason a handler appears to run and then lose its work. Writing type=\"button\" explicitly is what makes the element inert with respect to submission."
+  },
+  {
+    "sub": "CSS, Flexbox, Grid and responsive web design",
+    "q": "Four items sit in a flex row and one holds far more text than the others. Which declaration on the items makes all four end up the same width, assuming no item contains an unbreakable token wider than its share?",
+    "opts": {
+      "A": "flex: 1 1 auto",
+      "B": "flex: 1 1 0",
+      "C": "flex-shrink: 0",
+      "D": "justify-content: space-between on the container"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Equal widths require growth to start from a zero base: a flex-basis of 0 discards each item's content-derived size, so the container's free space is the only thing being divided and equal flex-grow divides it evenly. With a basis of auto the content width is the starting point, so the text-heavy item stays wider even though every item grows at the same rate. Flex items do default to min-width: auto, so an item is never laid out narrower than its min-content size -- equalising truly regardless of content also needs min-width: 0."
+  },
+  {
+    "sub": "CSS, Flexbox, Grid and responsive web design",
+    "q": "A card container is styled grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)). What layout does this produce as the container is made narrower?",
+    "opts": {
+      "A": "A fixed column count whose cards shrink below 220px",
+      "B": "A single 220px column at every viewport width",
+      "C": "As many columns of at least 220px as fit, dropping to fewer columns as space runs out, with the columns sharing any leftover space equally",
+      "D": "One column per card, scrolling horizontally once they no longer fit"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "auto-fill asks the grid for as many tracks as the container can hold, while minmax(220px, 1fr) sets each track's floor at 220px and lets it absorb an equal share of the surplus. The track count therefore falls as the container narrows, which is how a responsive card grid is built without writing a media query at all."
+  },
+  {
+    "sub": "CSS, Flexbox, Grid and responsive web design",
+    "q": "A site's media queries are written correctly, yet on a phone the full desktop layout appears shrunk to fit the screen. What is missing?",
+    "opts": {
+      "A": "A viewport meta tag declaring width=device-width, initial-scale=1",
+      "B": "A max-width: 100% rule on the body element",
+      "C": "The screen keyword on each media query",
+      "D": "A second stylesheet linked with a media attribute"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Without that meta tag a mobile browser assumes a layout viewport of roughly 980px and then scales the rendered page down to the device, so min-width breakpoints are evaluated against the fictitious wide viewport and the mobile rules never match. Setting the layout viewport to the device width lets the media queries see the real dimensions."
+  },
+  {
+    "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+    "q": "What does this script log, in order?\n\nconsole.log('A');\nsetTimeout(() => console.log('B'), 0);\nPromise.resolve().then(() => console.log('C'));\nconsole.log('D');",
+    "opts": {
+      "A": "A, B, C, D",
+      "B": "A, D, C, B",
+      "C": "A, D, B, C",
+      "D": "A, C, D, B"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The synchronous statements run to completion first, logging A then D. When the call stack empties the microtask queue is drained before any macrotask, so the already-resolved promise's callback logs C. The setTimeout callback is a timer task and only runs after that, logging B: a zero-millisecond delay does not promote it ahead of a microtask."
+  },
+  {
+    "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+    "q": "A fetch call to an endpoint that responds 500 Internal Server Error with a JSON error body is made. What does the returned promise do?",
+    "opts": {
+      "A": "Rejects with an error describing the 500 response",
+      "B": "Resolves with null, since the body is not a successful payload",
+      "C": "Rejects, because only 2xx responses resolve",
+      "D": "Resolves with a Response whose ok is false and whose status is 500"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "fetch rejects only when the request itself fails, such as a DNS failure, a refused connection, a CORS refusal or an abort, and treats any completed HTTP exchange as a success however unhappy the status line. Code must therefore test response.ok or response.status before reading the body, which is why omitting that check lets server errors flow silently down the success path."
+  },
+  {
+    "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+    "q": "A table body is filled with rows created after page load, and one click listener is attached to the tbody element. Inside the handler, which property refers to the element the user actually clicked?",
+    "opts": {
+      "A": "event.currentTarget",
+      "B": "this, in a normal function listener",
+      "C": "event.target",
+      "D": "event.srcTarget"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "As an event bubbles, target stays fixed on the deepest element where it originated, whereas currentTarget, and this in a normal function listener, refer to the tbody the listener is bound to. That distinction is the whole basis of event delegation: one listener on a stable ancestor, with target and closest() identifying which dynamically added descendant was hit."
+  },
+  {
+    "sub": "Frontend frameworks: components, routing, state management and API integration",
+    "q": "A single-page app uses history-based client-side routing. In-app navigation to /reports/7 works, but reloading the browser on that URL returns 404 from the web server. What is required?",
+    "opts": {
+      "A": "Switch the router to hash-based URLs, since history-based routing cannot be served over HTTP",
+      "B": "Register /reports/:id as a server-side route that renders the report itself",
+      "C": "Configure the web server to fall back to index.html for unmatched paths so the client router can resolve the URL",
+      "D": "Add a router redirect from /reports/7 back to /"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Client-side routing only exists once the app's JavaScript is running, so a cold request for a deep path is an ordinary HTTP request for a file the server does not have. A catch-all rewrite to index.html, such as try_files with an index.html fallback in Nginx, lets the bundle load and then resolve the path itself; redirecting to the root would stop the 404 but throw away the URL the user asked for."
+  },
+  {
+    "sub": "Frontend frameworks: components, routing, state management and API integration",
+    "q": "In a framework's controlled form input, where does the value shown in the field come from on every render?",
+    "opts": {
+      "A": "The DOM node's own internal value, which the component reads back when the form is submitted",
+      "B": "Component state, with a change handler writing each keystroke back into that state",
+      "C": "The defaultValue attribute, mutated in place by the browser",
+      "D": "A two-way binding maintained by the browser's autofill machinery"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A controlled input's value is driven from state, so state is the single source of truth and the DOM node merely reflects it; the change handler exists precisely to put the user's keystroke into state so the next render shows it. The other arrangement is the uncontrolled input, where the DOM holds the value and the component reads it out through a ref when it needs it."
+  },
+  {
+    "sub": "Frontend frameworks: components, routing, state management and API integration",
+    "q": "A search component fetches results whenever the query changes. A slow response for an earlier query can arrive after a faster response for a later one, briefly showing results for the wrong query. What is the standard fix?",
+    "opts": {
+      "A": "Debounce the input so requests are issued less often",
+      "B": "Move the fetch into the render body so it re-runs synchronously",
+      "C": "Send the requests with POST instead of GET",
+      "D": "Cancel or ignore the superseded request in the effect's cleanup, so only the latest query's response is applied"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "This is a race, not a rate problem, so correctness has to come from discarding stale responses: the effect's cleanup either aborts the in-flight request through an AbortController or sets a flag the resolved handler checks before touching state. Debouncing only makes the race less frequent, and fetching during render breaks render purity and can loop."
+  },
+  {
+    "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+    "q": "A client's request times out and it retries. Which HTTP method's semantics guarantee that the retry cannot create a second copy of the resource?",
+    "opts": {
+      "A": "POST",
+      "B": "PUT",
+      "C": "PATCH",
+      "D": "POST accompanied by a Retry-After response header"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "PUT is idempotent: it means make the resource at this URI equal to this representation, so applying it twice leaves the same end state as applying it once and a blind retry is safe. POST creates a new subordinate resource at a server-chosen URI and stays non-idempotent whatever headers accompany it, and PATCH is not idempotent in general because a delta such as increment by one compounds on replay."
+  },
+  {
+    "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+    "q": "With PHP's default session handling, what does the cookie sent to the browser contain?",
+    "opts": {
+      "A": "The serialised contents of the $_SESSION array",
+      "B": "A signed copy of the session data, which the server verifies on each request",
+      "C": "The user's credentials, encrypted with the session key",
+      "D": "Only a session identifier, with the session data held server-side"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Calling session_start() issues an opaque identifier, PHPSESSID by default, and keeps the data itself in a server-side session store, so the cookie is nothing more than a pointer into that store. A signed cookie carrying the session payload is a different design that some frameworks use: stateless and horizontally scalable, but with the data genuinely in the client's hands and a correspondingly different threat model."
+  },
+  {
+    "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+    "q": "A Python view iterates 100 order records and reads order.customer.name on each, and the ORM issues 101 queries. What is this, and how is it removed?",
+    "opts": {
+      "A": "A lazy-loading N+1 problem, removed by eager-loading the related rows in the initial query",
+      "B": "Connection-pool exhaustion, removed by raising the pool size",
+      "C": "A transaction isolation problem, removed by moving to serialisable isolation",
+      "D": "A cache miss storm, removed by holding each customer row in a memory cache"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "One query fetches the orders and each lazy attribute access fires another for its customer, which is the classic N+1 whose cost grows linearly with the row count. Eager loading, through select_related or prefetch_related in Django and joinedload or selectinload in SQLAlchemy, collapses it to a small constant number of queries; caching only hides the pattern and still pays it on every cold key."
+  },
+  {
+    "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+    "q": "A defective commit has already been pushed to a shared main branch. Which command undoes its effect without rewriting published history?",
+    "opts": {
+      "A": "git reset --hard HEAD~1",
+      "B": "git revert on that commit",
+      "C": "git rebase -i HEAD~2, dropping the commit",
+      "D": "git checkout HEAD~1 -- ."
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "git revert records a new commit whose diff is the inverse of the offending one, so the branch stays append-only and every collaborator's clone fast-forwards cleanly. A hard reset and an interactive rebase both rewrite existing commits, which on a shared branch means a force push and broken working copies for anyone who has already pulled."
+  },
+  {
+    "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+    "q": "Nginx serves a static site from /var/www/site/. For the worker process's user to read /var/www/site/index.html, which permission must it hold on /var, /var/www and /var/www/site?",
+    "opts": {
+      "A": "Write permission",
+      "B": "Read permission only",
+      "C": "Execute, that is search, permission",
+      "D": "Ownership of each directory"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "On a directory the execute bit means may traverse, and resolving a path requires traversing every component of it, so a missing x anywhere up the chain produces a 403 even when the file itself is world-readable. Read permission on a directory only permits listing the names it contains, which is not what path resolution needs."
+  },
+  {
+    "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+    "q": "A CI pipeline builds a Docker image for a web application. Why should the application's secret API key be supplied as a run-time environment variable rather than written into the Dockerfile with ENV?",
+    "opts": {
+      "A": "ENV variables set in a Dockerfile are not visible to the application process at run time",
+      "B": "Run-time variables are encrypted by the container runtime whereas build-time ones are not",
+      "C": "ENV values are length-limited and would truncate the key",
+      "D": "Anything set in the Dockerfile is baked into an inspectable image layer, so anyone who can pull the image can read the secret"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Image layers and their build metadata are readable with docker history and docker inspect by anyone who obtains the image, so a secret committed at build time is published along with it and survives in the registry and in every derived image. Injecting it at run time from the orchestrator's secret store keeps the artefact itself free of credentials; the runtime does not encrypt environment variables either way."
+  },
+  {
+    "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+    "q": "Which measure reliably prevents SQL injection in a PHP application querying MySQL?",
+    "opts": {
+      "A": "Prepared statements with bound parameters, so user input never becomes part of the SQL text",
+      "B": "Passing every input through addslashes() before concatenating it into the query",
+      "C": "Stripping quote and semicolon characters from all input with str_replace()",
+      "D": "Disabling error display so the database's messages never reach the attacker"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Binding sends the statement and the data along separate paths, so the database treats input as a value that can never be reparsed as syntax, which makes the injection structurally impossible rather than merely filtered. Escaping and character blacklisting are both bypassable, notably in numeric contexts where no quote is needed at all, and hiding errors removes only the attacker's feedback while the hole stays open."
+  },
+  {
+    "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+    "q": "An application authenticates users with a session cookie and takes no further precaution. What makes a CSRF attack against it possible?",
+    "opts": {
+      "A": "JavaScript on the attacker's page can read the session cookie's value",
+      "B": "The browser attaches the cookie automatically to requests that the attacker's page triggers towards the application",
+      "C": "The attacker can read the application's responses from a cross-origin page",
+      "D": "The session identifier is predictable enough to be guessed"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "CSRF exploits ambient authority: the browser sends the victim's cookie with any request to that origin, including a form post or image load initiated by an unrelated site, so the server sees a fully authenticated request the user never intended. The attacker needs neither to read the cookie nor to see the response, which is why an unguessable identifier does not help and why the defences are an unpredictable per-request token plus SameSite cookies."
+  },
+  {
+    "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+    "q": "User-supplied comment text is inserted into a page with element.innerHTML = comment. Which change reliably removes the cross-site scripting risk at this sink, independently of how the value was stored?",
+    "opts": {
+      "A": "Assign to element.textContent instead, so the string becomes a text node and is never parsed as markup",
+      "B": "HTML-escape the comment once when it is stored in the database and keep using innerHTML",
+      "C": "Remove script tags from the comment with a regular expression before assigning it",
+      "D": "Wrap the comment in encodeURIComponent() before assigning it"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "textContent creates a text node, so angle brackets and attributes stay inert characters and there is no HTML parse step left to hijack, whatever is already in the database. Tag blacklisting fails against event-handler payloads such as an img element with an onerror attribute, and encodeURIComponent is a URL encoding and wrong for an HTML context. Escaping once at storage time does neutralise this sink, but it leaves every row stored before the change untouched, corrupts the value for every non-HTML consumer, and protects no sink added later."
+  },
+  {
+    "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+    "q": "A payment class contains a switch over payment types, and adding a new payment type always means editing that switch. Which SOLID principle does this violate?",
+    "opts": {
+      "A": "Single Responsibility Principle",
+      "B": "Interface Segregation Principle",
+      "C": "Liskov Substitution Principle",
+      "D": "Open/Closed Principle"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Open/Closed asks that behaviour be extensible without modifying existing, already-tested code, and a central switch forces exactly that modification for every new case. Replacing it with a common payment interface and one implementation per type lets a new type arrive as new code only. Single Responsibility concerns how many reasons a class has to change, not whether extending it requires an edit."
+  },
+  {
+    "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+    "q": "In the MVC pattern as applied to web frameworks, what is the controller's primary responsibility?",
+    "opts": {
+      "A": "Holding the application's business rules and persistence logic",
+      "B": "Generating the HTML or JSON that is sent to the client",
+      "C": "Interpreting the incoming request, invoking the appropriate model operations and selecting what to render in response",
+      "D": "Owning the database connection pool and transaction boundaries for the whole application"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The controller is the request-handling seam: it translates parameters, delegates the real work to the model and decides which view or representation answers the request. Business rules and persistence belong to the model and markup to the view, and collapsing either into the controller produces the fat controller that makes MVC code hard to test in isolation."
+  },
+  {
+    "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+    "q": "A heavily read cache key expires and thousands of concurrent requests all miss and hit the database at once, overloading it. What is this failure mode, and what is a standard mitigation?",
+    "opts": {
+      "A": "A cache stampede, mitigated by letting one request rebuild the entry under a lock while the others serve the stale value, and by jittering expiry times",
+      "B": "A write-through inconsistency, mitigated by moving to a write-back cache",
+      "C": "Cache poisoning, mitigated by signing each cache entry",
+      "D": "Eviction thrash, mitigated by changing the policy from LRU to LFU"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "When a hot entry expires every concurrent reader misses simultaneously, so the cache stops absorbing load at exactly the moment it is needed most; this is the stampede, or thundering herd. Serialising the rebuild so only one request recomputes the value, and spreading TTLs with random jitter so keys do not expire in lockstep, are the usual answers, whereas an eviction policy change addresses capacity pressure, which is a different problem."
+  }
+]

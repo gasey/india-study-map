@@ -1,0 +1,233 @@
+[
+ {
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "Which of the following is NOT one of the five essential characteristics of cloud computing in the NIST definition?",
+  "opts": {
+   "A": "Rapid elasticity",
+   "B": "Resource pooling",
+   "C": "Provider-managed disaster recovery",
+   "D": "Measured service"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "In the NIST cloud computing reference architecture, which actor is responsible for providing the connectivity and transport of cloud services between provider and consumer?",
+  "opts": {
+   "A": "Cloud broker",
+   "B": "Cloud carrier",
+   "C": "Cloud auditor",
+   "D": "Cloud provider"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "An assembly-line inspection system must accept or reject each part within 20 ms of capturing its image. The nearest cloud region has a measured round-trip time of 60 ms. Running the inference model on an edge node inside the plant primarily removes which constraint?",
+  "opts": {
+   "A": "The wide-area round-trip time, which on its own already exceeds the control loop's deadline",
+   "B": "The need to encrypt the inspection images while they are in transit",
+   "C": "A shortage of accelerator capacity in cloud regions",
+   "D": "An inability of cloud platforms to scale horizontally under load"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "Which of the following is one of the four cloud deployment models defined by NIST?",
+  "opts": {
+   "A": "Virtual private cloud",
+   "B": "Multi-cloud",
+   "C": "Distributed cloud",
+   "D": "Community cloud"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A team must run a long-lived Java web application. It wants to deploy its own build artefact and control how many application instances run, but does not want to patch the operating system, the JVM or the web server. Which service model fits this best?",
+  "opts": {
+   "A": "IaaS",
+   "B": "PaaS",
+   "C": "SaaS",
+   "D": "Function as a Service"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A serverless function backing a low-traffic internal API responds in about 40 ms most of the time, but the first request after several idle hours takes over two seconds. What is the most likely cause?",
+  "opts": {
+   "A": "The platform scaled the function to zero, so a new execution environment has to be initialised before the handler runs",
+   "B": "DNS records for the API endpoint expiring from cache",
+   "C": "The function exceeding its configured memory limit",
+   "D": "The API gateway rate-limiting the first request after an idle period"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "In a microservices deployment running a service mesh, which task belongs to the sidecar proxies of the data plane rather than to the mesh's control plane?",
+  "opts": {
+   "A": "Distributing routing policy and issued workload certificates to the proxies",
+   "B": "Terminating and originating mutual TLS on each individual service-to-service request and applying its retry and timeout rules",
+   "C": "Holding the mesh's desired configuration and reconciling drift from it",
+   "D": "Exposing the operator-facing API through which traffic-shifting rules are declared"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "Which capability requires a Layer 7 load balancer and cannot be provided by a Layer 4 load balancer?",
+  "opts": {
+   "A": "Distributing inbound TCP connections across a pool of backends",
+   "B": "Removing an unhealthy backend from rotation when a health check fails",
+   "C": "Preserving the client's source IP address towards the backend",
+   "D": "Sending requests for /api to one backend pool and requests for /static to another"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A stateless API autoscales on average CPU evaluated over a five-minute window, but its real traffic arrives as 30-second bursts about ten times an hour. What behaviour is most likely to be observed?",
+  "opts": {
+   "A": "The group scales down but never scales back up again",
+   "B": "The group adds instances continuously until it reaches its maximum size",
+   "C": "Latency and errors spike during each burst, and whatever instances are added arrive after the burst has already passed",
+   "D": "The load balancer stops health-checking the group for the duration of each burst"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "Which statement correctly distinguishes a Type-1 hypervisor from a Type-2 hypervisor?",
+  "opts": {
+   "A": "A Type-1 hypervisor runs directly on the host hardware, while a Type-2 hypervisor runs as a process on top of a host operating system",
+   "B": "A Type-1 hypervisor requires paravirtualized guests, while a Type-2 hypervisor can run unmodified guests",
+   "C": "A Type-1 hypervisor can host only Linux guests, while a Type-2 hypervisor can host any operating system",
+   "D": "A Type-1 hypervisor emulates every device in software, while a Type-2 hypervisor passes all devices straight through to the guest"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "Under paravirtualization, how does the guest operating system differ from a fully virtualized guest?",
+  "opts": {
+   "A": "It runs entirely in ring 0 with no hypervisor mediation of any kind",
+   "B": "It is presented with emulated hardware indistinguishable from a physical machine and needs no changes",
+   "C": "It shares the host kernel instead of running a kernel of its own",
+   "D": "It is modified so that sensitive privileged operations are replaced by explicit hypercalls into the hypervisor"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A provider must let tens of thousands of tenants use overlapping private IPv4 ranges on top of one shared physical fabric. Which network-virtualization approach makes that workable?",
+  "opts": {
+   "A": "Assigning each tenant its own physical top-of-rack switch",
+   "B": "An overlay that encapsulates tenant Layer-2 frames for transport across the fabric, tagging each with a per-tenant network identifier in the encapsulation header",
+   "C": "802.1Q VLAN tagging alone, with one VLAN per tenant",
+   "D": "Source NAT applied at the first-hop router for every tenant"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A container in a Kubernetes Pod declares a memory request of 256Mi and a memory limit of 512Mi. Which statement about how those two values are used is correct?",
+  "opts": {
+   "A": "The scheduler reserves 512Mi on the node and the container is CPU-throttled once it exceeds 256Mi",
+   "B": "Both values are advisory only and neither is enforced at runtime",
+   "C": "The container is throttled rather than terminated when its memory usage passes 512Mi",
+   "D": "The scheduler places the Pod against the 256Mi request, and the container is terminated if its usage exceeds 512Mi"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Terraform and Ansible are both used to manage infrastructure as code. Which description of the usual division of labour between them is accurate?",
+  "opts": {
+   "A": "Both are agent-based and require an agent to be installed on every managed node before use",
+   "B": "Terraform configures software inside existing servers, while Ansible creates the servers themselves",
+   "C": "Terraform declares desired infrastructure and reconciles it against recorded state to create, change or destroy resources, while Ansible is primarily agentless configuration management that runs tasks over SSH",
+   "D": "Terraform is imperative and executes ordered steps, while Ansible is declarative and keeps a state file of what it built"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Linux containers rest on two distinct kernel mechanisms. Which one caps how much CPU time and memory a container may consume, as opposed to controlling what it can see?",
+  "opts": {
+   "A": "Control groups (cgroups)",
+   "B": "Namespaces",
+   "C": "Union filesystem layers",
+   "D": "Seccomp filters"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "Which workload is the poorest fit for object storage and should sit on block storage instead?",
+  "opts": {
+   "A": "Long-term retention copies of nightly backups",
+   "B": "Static images and JavaScript files served to browsers",
+   "C": "A media archive read sequentially by a transcoding job",
+   "D": "The data files of a transactional relational database doing small random in-place updates"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A user request passes through eight microservices and is intermittently slow, yet every individual service's own latency dashboard looks normal. Which telemetry most directly identifies which hop is consuming the time?",
+  "opts": {
+   "A": "Distributed tracing, with a trace context propagated across every hop so each span's duration is recorded within one request",
+   "B": "Raising the log level to DEBUG on all eight services",
+   "C": "Host-level CPU and memory metrics collected at a finer interval",
+   "D": "An aggregated error-rate counter for each service"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An organisation runs the same containerised application on two cloud providers to avoid lock-in. In practice, what most commonly limits that portability?",
+  "opts": {
+   "A": "Container image formats being mutually incompatible between providers",
+   "B": "Differences in the Linux kernel version each provider offers",
+   "C": "Dependence on provider-specific managed services — the IAM model, the managed database, the queue and the object-storage API — which have no common interface to target",
+   "D": "Differences in how each provider implements TCP/IP"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "Under the shared responsibility model, for a virtual machine that a customer runs on an IaaS platform, which of these is the customer's responsibility?",
+  "opts": {
+   "A": "Patching the hypervisor on which the virtual machine runs",
+   "B": "Applying security patches to the guest operating system and the application stack running on that virtual machine",
+   "C": "Physical access control at the data centre housing the host",
+   "D": "Replacing failed disks in the underlying storage fabric"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A provider's SLA commits to 99.9% availability measured over a 30-day month. What is the maximum downtime that commitment permits in such a month?",
+  "opts": {
+   "A": "About 4 minutes 20 seconds",
+   "B": "About 7 hours 12 minutes",
+   "C": "About 3 hours 36 minutes",
+   "D": "About 43 minutes"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A FinOps review reports a fleet of 200 always-on virtual machines averaging 4% CPU and 12% memory utilisation over 30 days. Which response is the most direct FinOps action on that finding?",
+  "opts": {
+   "A": "Purchase one-year reserved capacity for the fleet at its current instance sizes",
+   "B": "Rightsize the instances to smaller types and consolidate the workloads, so that both committed spend and idle capacity fall",
+   "C": "Raise the autoscaling group's maximum size to give the fleet more headroom",
+   "D": "Move the fleet to a larger instance family so that reported utilisation percentages fall further"
+  },
+  "ans": "B"
+ }
+]

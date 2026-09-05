@@ -1,44 +1,74 @@
 [
- { "id": "GEN-240", "mode": "calculate", "confidence": "high",
-   "why": "Successive-difference method on the series yields the next term; new numbers give a new answer mechanically." },
- { "id": "GEN-241", "mode": "calculate", "confidence": "high",
-   "why": "The stem states the rule (third = product of first two); the missing cell is a multiplication." },
- { "id": "GEN-242", "mode": "calculate", "confidence": "high",
-   "why": "Standard age problem: set up one linear equation and solve." },
- { "id": "GEN-243", "mode": "calculate", "confidence": "high",
-   "why": "Ratio parts and a stated difference give x by division; total is arithmetic." },
- { "id": "GEN-244", "mode": "calculate", "confidence": "high",
-   "why": "Mean of an evenly spaced run equals its middle term; largest follows by adding the step twice." },
- { "id": "GEN-245", "mode": "calculate", "confidence": "high",
-   "why": "Direct application of A = P(1+r/100)^n, then CI = A - P." },
- { "id": "GEN-246", "mode": "calculate", "confidence": "high",
-   "why": "SP = CP x (1 + profit%/100), a one-step formula." },
- { "id": "GEN-247", "mode": "calculate", "confidence": "high",
-   "why": "Rates add: 1/12 + 1/18, then invert. Pure method, no recall." },
- { "id": "GEN-248", "mode": "calculate", "confidence": "high",
-   "why": "Speed from distance/time, then time = distance/speed." },
- { "id": "GEN-249", "mode": "calculate", "confidence": "high",
-   "why": "Sum the four table entries and divide by four; the table is only a data source." },
- { "id": "GEN-250", "mode": "calculate", "confidence": "high",
-   "why": "Order-of-operations evaluation of a fixed expression." },
- { "id": "GEN-251", "mode": "calculate", "confidence": "high",
-   "why": "LCM by prime factorisation, a procedure that works on any pair of numbers." },
- { "id": "TECH3_2021-76", "mode": "calculate", "confidence": "high",
-   "why": "Second-differences are constant, so the next term is computed, not recalled." },
- { "id": "TECH3_2021-77", "mode": "calculate", "confidence": "high",
-   "why": "Convert each fraction to a decimal and sort; wholly mechanical." },
- { "id": "TECH3_2021-78", "mode": "calculate", "confidence": "high",
-   "why": "Constant ratio (divide by 5) identified by division, then applied once more." },
- { "id": "TECH3_2021-79", "mode": "calculate", "confidence": "high",
-   "why": "Split into alternate positions and extend each arithmetic sub-series." },
- { "id": "TECH3_2021-80", "mode": "calculate", "confidence": "high",
-   "why": "Same alternate-position split; each sub-series has a constant decrement to apply." },
- { "id": "TECH3_2021-81", "mode": "calculate", "confidence": "medium",
-   "why": "Once the triple grouping is seen the continuation is arithmetic, but the grouping itself must be spotted rather than derived." },
- { "id": "TECH3_2021-82", "mode": "calculate", "confidence": "high",
-   "why": "Alternating divide-by-2 / add-8 rule, confirmed against the given later term and then applied." },
- { "id": "TECH3_2021-83", "mode": "calculate", "confidence": "low",
-   "why": "A (n, n+1, n+6) group rule computes the blank, but the printed series carries an OCR slip so the rule is reconstructed." },
- { "id": "TECH3_2021-98", "mode": "calculate", "confidence": "high",
-   "why": "Day-of-week is 59 mod 7 advanced from Thursday; any starting day and offset computes the same way." }
+ {
+  "id": "GEN-240",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Successive-difference method on the series yields the next term; new numbers give a new answer mechanically."
+ },
+ {
+  "id": "GEN-241",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "The stem states the rule (third = product of first two); the missing cell is a multiplication."
+ },
+ {
+  "id": "GEN-242",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Standard age problem: set up one linear equation and solve."
+ },
+ {
+  "id": "GEN-243",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Ratio parts and a stated difference give x by division; total is arithmetic."
+ },
+ {
+  "id": "GEN-244",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Mean of an evenly spaced run equals its middle term; largest follows by adding the step twice."
+ },
+ {
+  "id": "GEN-245",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Direct application of A = P(1+r/100)^n, then CI = A - P."
+ },
+ {
+  "id": "GEN-246",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "SP = CP x (1 + profit%/100), a one-step formula."
+ },
+ {
+  "id": "GEN-247",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Rates add: 1/12 + 1/18, then invert. Pure method, no recall."
+ },
+ {
+  "id": "GEN-248",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Speed from distance/time, then time = distance/speed."
+ },
+ {
+  "id": "GEN-249",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Sum the four table entries and divide by four; the table is only a data source."
+ },
+ {
+  "id": "GEN-250",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Order-of-operations evaluation of a fixed expression."
+ },
+ {
+  "id": "GEN-251",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "LCM by prime factorisation, a procedure that works on any pair of numbers."
+ }
 ]

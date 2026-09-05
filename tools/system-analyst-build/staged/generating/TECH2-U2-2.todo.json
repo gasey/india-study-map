@@ -1,0 +1,13 @@
+{
+  "paper": "TECH2",
+  "unit": "2",
+  "unitTitle": "Web Technologies",
+  "unitMarks": 60,
+  "perTarget": 3,
+  "brief": "tools/system-analyst-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law"
+    }
+  ]
+}

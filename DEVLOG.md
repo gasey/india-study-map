@@ -9,6 +9,258 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 — Paper II finished: 32 concepts close the Study pane's hole, every question gets a study mode, and modes.js turned out to be 62% dead ids
+
+**What shipped.** Technical Paper II is now complete — questions, concepts and
+study-mode labels, all four units, zero bare leaves. Yesterday's entry left it
+with 120 questions and **0 concepts**, so the Study pane was empty for a paper
+worth 200 marks.
+
+- **32 concept entries**, one per syllabus leaf (7 / 10 / 8 / 7). Concepts
+  994 → and `author_concepts.py --report` now shows **0 bare** for every TECH2
+  unit. Mean `exp` length **6,929 characters**, all 32 carry a mnemonic, and
+  every `rel` link resolves — verified in the browser against `app.js`'s own
+  three-step resolution chain, which drops unresolvable entries *silently*.
+- **`tools/system-analyst-build/author_concepts.py` + `CONCEPT_BRIEF.md`** —
+  new. Nothing authored concepts before; they were written straight into
+  `concepts.js` by hand, which is why the 2026 migration left the new paper
+  with none. Same contract as `generate.py`: validate-before-write, idempotent
+  rebuild keyed on a `src: "authored-2026-syllabus"` marker, content-derived
+  ids.
+- **All 120 Paper II questions now carry a study-mode label** (86 understand /
+  26 memorise / 8 calculate), including all 66 authored ones. Practice's mode
+  filter can reach them.
+
+**The concept granularity question, settled by measurement.** `--report` was
+written before authoring anything, and it immediately showed that TECH1 is the
+odd one out: GE, GS, TECH1_LEGACY, TECH2_LEGACY and TECH3 all run **exactly one
+concept per syllabus leaf**, while TECH1 holds 266 concepts across 27 leaves at
+a finer granularity ("Sets, subsets, power set, cardinality" under the leaf
+"Sets, mappings and relations"). Paper II follows the majority convention. That
+makes the leaves wide — one entry has to carry
+`JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch`
+end to end — so the brief tells authors to walk the leaf's named parts rather
+than pick a favourite, and the entries came out long on purpose.
+
+**A bug I wrote, caught by the agents I sent to use it.** `author_concepts.py`
+resolved each row's `rel` against `out`, the list of rows validated *earlier in
+the same loop* — while its own comment claimed it resolved "against the world as
+it will be AFTER this merge". Authors are told to draw `rel` from the unit's
+sibling leaves, so in a batch introducing a unit's first concepts row #1
+necessarily points at rows that come after it: row #1 could never carry a `rel`,
+was rejected, and cascaded to every row referring back to it. **Both** the U1 and
+U3 agents hit it, both diagnosed it correctly as a bug in the shared tool, and
+both refused to mangle their `rel` lists to work around it — which is the right
+call and the reason it got fixed rather than papered over. `rel` validation is
+now a second pass over the complete post-merge universe; a row rejected in the
+first pass correctly does not count towards resolution.
+
+**`modes.js` was 62% dead weight, and `classify.py --merge` had been blocked.**
+Of its 1,111 labels, **684 pointed at question ids that are not in the bank** —
+`GEN-TECH1-U3-*` ids from the authoring pass parked yesterday, and `TECH1_OLD-*`
+ids that no longer exist. `classify.py` exits on any problem, exactly like
+`generate.py`, so **no label had been written since 31 August** and the new
+Paper II labels could not land either. Same root cause as yesterday's finding:
+the 2026 migration plus an authoring pass that never merged.
+
+Before moving anything, the safe-to-park claim was **proven rather than
+assumed**: computing the post-park label set against the currently-live valid
+set gave **0 labels lost, 94 gained, all TECH2**. 44 all-stale batches went to
+`staged/parked-classifying-stale-2026-09-05/`; three mixed TECH3 batches kept
+their in-bank rows and lost only dead ones. `modes.js` now holds **521 labels
+and 0 dead ids**.
+
+One related repair, made by the U3/U4 classifier and checked here: 26 rows in
+`TECH1-U5-01.done.json` still labelled the DBMS questions that
+`migrate_tech2_2026.py` moved into TECH2 Unit 3, and won the ordering against
+the new batch. Those 26 were removed; the **4** data-warehousing questions that
+deliberately stayed in `TECH1_LEGACY` kept their labels.
+
+**Verified in the browser.** Syllabus tab now reads "7 concepts · 15 questions",
+"10 concepts · 30 questions", "8 concepts · 54 questions", "7 concepts · 21
+questions" against yesterday's "0 concepts" on all four. Study → search →
+`NIST cloud architecture` opens the Unit 4 entry and renders definition,
+explanation and status. Console clean throughout. `check_symbol_residue.py`-style
+scan of the new prose: **0 private-use characters across all 994 concepts**, and
+no internal `_tag` field leaked into the app.
+
+**A process note worth keeping.** The first attempt at these 32 concepts lost
+**four agents and ~400k tokens** to a session limit with nothing written: each
+held its whole batch until the end, and each was reading the 1.8 MB
+`questions.js` to calibrate. The retry pre-extracted per-unit question files of
+6–18 KB and told every agent to rewrite its `.done.json` after each entry. Both
+changes are now written into `CONCEPT_BRIEF.md`'s workflow and
+`HANDOFF-TECH2-SYSTEM-ANALYST.md`.
+
+**What's still open.** `HANDOFF-TECH2-SYSTEM-ANALYST.md` is the cold-start
+document for this paper and carries the full list. The headline items are
+unchanged and none are Paper II's: the **ILM-2023 official key is still not
+applied, with 12 live wrong answers**; `staged/tech2-2026/`'s 265 questions
+still have no import script (and q44 is still swallowed inside N0139's option
+(d)); 32 keyed `cse_paper_2` questions remain unimported; the 254 parked
+authored questions still need `_LEGACY` support in `generate.py`; and 1,309
+questions — TECH1's 945 among them — still have no study-mode label.
+
+Also open, and deliberately **not** acted on: `--report` lists all 27 TECH1
+leaves as bare. That is the granularity artifact described above, not breakage,
+and running `author_concepts.py --export --paper TECH1` would author 27
+duplicate concepts on top of 266 good ones.
+
+One new finding, surfaced by building the `rel` validator and then pointing it
+at the whole file: **358 `rel` links in TECH1's concepts resolve to nothing and
+are dropped silently.** Across all 994 concepts it is TECH1 358, GS 3,
+TECH1_LEGACY 3, GE 1, TECH3 1 and **TECH2 0**. `app.js` resolves `rel` by `sub`
+string and ends with `.filter(Boolean)`, so the reader simply sees a shorter
+list of related concepts and nothing errors anywhere — the same silent-drop
+shape as the incidents CLAUDE.md records, just cosmetic rather than a wrong
+answer. Same likely cause as everything else this week: leaf names the 2026
+migration renamed. `author_concepts.py`'s second pass already has the exact
+resolution logic to reuse for a repair.
+
+---
+
+## 2026-09-04 — Technical Paper II built out to the 2026 syllabus: 66 authored questions close all 22 bare leaves, and the whole generation pipeline turned out to be blocked
+
+**What shipped.** System Analyst Technical Paper II goes **54 → 120 questions**,
+and for the first time every unit of the 30 July 2026 syllabus has coverage.
+Web Technologies and Cloud Computing were **100 of the paper's 200 marks with
+zero questions between them**; both are now populated. Bank total 1,764 → 1,830.
+
+| Unit | Marks | Before | After |
+|---|---|---|---|
+| 1 Object Oriented Programming | 40 | 3 | 15 |
+| 2 Web Technologies | 60 | **0** | 30 |
+| 3 Database Management Systems | 60 | 51 | 54 |
+| 4 Cloud Computing | 40 | **0** | 21 |
+
+TECH2's bare-leaf count goes **22 → 0**. Answer spread across the 66 is
+A 17 / B 18 / C 15 / D 16, so nothing to pattern-match on.
+
+**Why authored and not extracted.** The 265 double-solved questions in
+`staged/tech2-2026/` are recovered from MES / ILM / JE papers of 2010–2023, and
+they cannot fill this paper: classified against the new syllabus they come out
+roughly Unit 1 = 105, Unit 3 = 133, Unit 2 = **5**, Unit 4 = **0**, plus 22
+off-syllabus. No MPSC paper for this post has ever examined Kubernetes, OWASP,
+service mesh or Model Context Protocol, because the syllabus that names them is
+six weeks old. Extraction can't reach content that was never printed, so the
+only route to those 100 marks is authoring.
+
+Each authoring agent was given its unit's **verbatim text from the notification**
+(File No. A-12038/68/2025-ICT, `~/workspace/projects/personal/syllabusex.pdf`,
+sha256 `8b66196…`) rather than just the subtopic labels, so questions are written
+to the syllabus MPSC will actually set from. The PDF's text layer has OCR damage
+in exactly the places that matter — `Kubemetes`, `CSRE` for CSRF, `Apls` for
+APIs, `Polymoxphism`, `I/0`, `Concurring Control` — and those normalisations were
+stated in each prompt so no agent had to guess.
+
+**The pipeline was blocked, and had been for days.** `staged/generating/` held
+**254 authored questions across 23 batch files, none of which were in the app** —
+`questions.js` had zero questions with a `GEN-` `srcKey`. `generate.py --merge`
+rejected all 254 and wrote nothing:
+
+    254 PROBLEM(S) — questions.js NOT written:
+      - TECH1-U3-1#1: sub 'Object-Oriented Programming (in .NET)' is not a leaf of TECH1 U3
+
+The cause is the 2026 migration itself: it replaced both technical papers' units
+and subtopics wholesale, so every question from the 2026-08-30 e-governance pass
+and the TECH1 .NET pass is tagged to a leaf that no longer exists. **The merge
+guard behaved exactly as designed** — it refused to write rather than dropping
+rejected rows behind a success line, which is the failure it was hardened against
+after the TECH2-U15 incident. Nothing was corrupted; the work was simply
+unreachable, and it blocked all new authoring.
+
+Those 254 are now in `staged/parked-legacy-syllabus-2026-09-04/` with a README
+explaining recovery. They are **not** lost and not irrelevant — their `sub`
+strings still match leaves of `TECH2_LEGACY`/`TECH1_LEGACY`, which
+`migrate_tech2_2026.py` deliberately kept as first-class revisable papers. But
+`generate.py`'s filename regex `(TECH\d|GE|GS)-U([0-9A-D]+)-(\d+)` cannot express
+a `_LEGACY` target at all, so re-pointing them needs a pipeline change, not a
+rename.
+
+**Verification found no wrong answers and five real defects.** The five authoring
+agents self-checked, which is not independent, so a separate adversarial pass was
+run over all 66 with instructions to *refute* each key. Result: **0 wrong keys.**
+Unit 3/4's checker recomputed 16 calculations and read the NIST definitions out
+of SP 800-145 and SP 500-292 directly; Unit 1's compiled and ran 9 of its 12
+questions under `g++ -std=c++17`. The five defects it did confirm were fixed at
+source in the batch files and re-merged:
+
+1. **Ambiguous, U1 —** a stem said "an open **fstream**", and `basic_filebuf`
+   keeps *one* shared file position (`seekoff` ignores its `which` argument), so
+   the distractor `f.seekp(-20, ios::cur)` moved the get pointer too and was
+   observably identical to the key. Verified by compiling: `seekg(50)` then
+   `seekp(-20, cur)` gives `tellg() == 30`. Narrowed to `ifstream`, which has no
+   `seekp` at all, and the shared-position fact became the explanation's teaching
+   point.
+2. **Ambiguous, U2 —** asking which change removes XSS "at this sink" let
+   *HTML-escape at storage time* in as a second true answer; it is bad
+   architecture, not a false statement, and the explanation itself conceded as
+   much. Stem now asks for the fix that holds **independently of how the value
+   was stored**, which leaves `textContent` uniquely correct.
+3. **False explanation, U1 —** "discarding the previous contents is the job of
+   `ios::trunc`" is wrong: `ofstream f("a.txt", ios::ate)` truncates with no
+   `trunc` anywhere, because output without `ios::in` maps to stdio `"w"`.
+   Verified by compiling. That is precisely the trap the question's own
+   distractor sets, so the explanation had to get it right.
+4. **Overstated stem, U2 —** `flex: 1 1 0` does not equalise widths "regardless
+   of content"; flex items default to `min-width: auto` and one unbreakable token
+   defeats a zero basis. Stem qualified, and `min-width: 0` added to the
+   explanation.
+5. **Version-dependent absolute, U1 —** "must be initialised in a constructor's
+   member-initialiser list" stopped being true in C++11, where a default member
+   initialiser works (`int& r = g;` compiles clean). Reworded to turn on the
+   claim that actually holds: initialised where created, never assigned in the
+   body.
+
+**Verified in the browser**, not just by typecheck: static server on `:8123`,
+Practice → Technical II → Unit 4 → Start practice draws Cloud Computing
+questions, the unit dropdown reads all four units with live counts
+(`4. Cloud Computing (40m · 21)`), answering shows the explanation, and the
+provenance line renders **`derived · high confidence`** — correctly *not* badged
+as an official key, which is the inversion CLAUDE.md records. Console clean on
+load and through the flow. `check_bank_consistency.py` reports no cross-card
+contradictions and its 4 warnings are all pre-existing TECH1/CSE/MES cards, none
+of the new 66; `check_symbol_residue.py` reports 0 private-use residue across all
+1,830.
+
+One diagnostic worth recording: the Practice source dropdown showed a separate
+"Authored practice question (287)" entry, which looked at first like the missing
+generated questions. It is not — those 287 are `srcKey: 'GEN'` (no hyphen), ids
+`GEN-1`…`GEN-287`, and they are GE/GS/TECH3 only. `--merge` keys its rebuild on
+`startswith("GEN-")`, so it never touches them. They still use the sequential-id
+scheme that `generate.py` abandoned for content hashes precisely because adding a
+batch renumbered everything after it.
+
+**What's still open.**
+
+- **TECH2 has 120 questions and 0 concepts.** The Syllabus tab reads "0 concepts
+  · 15 questions" for every one of the four units, against 70/66/65/65 for
+  TECH1's. The concept guide has 962 entries and not one is TECH2, so the Study
+  pane is empty for this paper. This is the same authoring track as Part 3 of
+  `HANDOFF-VERIFY-AUTHOR.md`, now needed for Paper II too.
+- **The 254 parked questions are still unreachable.** Needs `generate.py` to be
+  able to name a `_LEGACY` paper. Do not delete
+  `staged/parked-legacy-syllabus-2026-09-04/` until the app reports 254 `GEN-`
+  questions.
+- **The 66 carry no study-mode label.** `classify.py` has not been run over them,
+  so `modeOf()` returns null — no mode badge and default Leitner pacing. Not a
+  regression (TECH1's 945 are unlabelled too, and 719 of 1,830 overall), and the
+  app degrades gracefully via `MODE_PACE[...] || 1`, but the Practice mode filter
+  cannot reach them.
+- **Unit 4 bundles more named topics than 21 questions can cover.** Zero Trust
+  and IAM have no dedicated question (they appear inside the multi-cloud and
+  service-mesh rows), and Sustainable Cloud Computing has no leaf of its own in
+  `syllabus.js` so it rides along in the FinOps row. Worth a second pass at
+  `perTarget` for that unit.
+- **Everything from the 2026-09-03 TECH2 entry is still open**, untouched by this
+  session: no import script for `staged/tech2-2026/`'s 265 questions, the ILM-2023
+  official key still `NOT YET APPLIED` with **12 questions where the bank
+  contradicts it**, the 32 keyed-but-unimported `cse_paper_2` questions, and q44
+  still swallowed inside N0139's option (d). The 12 contradicted answers are live
+  wrong answers and are the highest-value correctness fix outstanding in this app.
+
+---
+
 ## 2026-09-03 (latest) — Recovered the paper a filename collision destroyed: MIMER 2018 Computer Operator Technical Paper I, all 75 questions
 
 **What shipped.** The one Tier 1 paper that was missing entirely. The System

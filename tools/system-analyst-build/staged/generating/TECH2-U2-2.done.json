@@ -1,0 +1,41 @@
+[
+  {
+    "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+    "q": "In the Model Context Protocol (MCP), what is the role of an MCP server in relation to the LLM application that connects to it?",
+    "opts": {
+      "A": "It holds the language model weights and runs inference on behalf of the client",
+      "B": "It exposes tools, resources and prompts that the client application can discover and invoke",
+      "C": "It fine-tunes the model on the organisation's private documents before each session",
+      "D": "It caches the client's earlier completions so repeated prompts cost fewer tokens"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "MCP is an open protocol that separates the host application and its client from servers which publish capabilities over a standard transport: tools the model can call, resources it can read, and reusable prompt templates. Inference stays with the model provider, so adding a new data source means writing or configuring a server rather than hand-coding another bespoke integration."
+  },
+  {
+    "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+    "q": "A single-page frontend calls a hosted generative AI API directly from browser JavaScript, sending the provider's API key from a build-time environment variable. Why must this be moved behind a backend proxy before going to production?",
+    "opts": {
+      "A": "The browser cannot set an Authorization header on a cross-origin request",
+      "B": "The provider requires the model name to be selected server-side, not by the client",
+      "C": "A streamed response body cannot be read incrementally by browser JavaScript",
+      "D": "The key is inlined into the shipped bundle at build time and is readable by any visitor"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Build tools substitute environment variables into the client bundle as literal text, so a key placed there ships to every visitor and can be extracted from the JavaScript or the network tab and used to bill the account. A server-side proxy keeps the credential private and is also the only place you can enforce your own per-user authentication, quotas and prompt-injection filtering. Cross-origin requests may carry an Authorization header whenever CORS permits it, so option A is not the obstacle."
+  },
+  {
+    "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+    "q": "A state government portal wants to embed a third-party web analytics script that sets a persistent cookie to identify returning visitors and report on their journeys. Under the consent framework of the DPDP Act 2023, what does the portal have to get right first?",
+    "opts": {
+      "A": "Give a clear notice of purpose and obtain free, specific, informed consent before the tracking identifier is set, with a means to withdraw it",
+      "B": "Keep the collected analytics data on servers located outside India so the Act's obligations do not attach",
+      "C": "Anonymise the stored data after a fixed retention period, which cures the absence of consent retrospectively",
+      "D": "Designate the analytics vendor as the data fiduciary so that responsibility passes from the portal to the vendor"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The DPDP Act is built on notice and consent: consent must be free, specific, informed and capable of being withdrawn, and it must follow a notice stating the purpose, so a tracking cookie should not be written on first paint. Because the portal decides the purpose and means of processing it remains the data fiduciary, and the analytics vendor processing on its behalf is a data processor, so contractual labelling does not transfer the duty; nor does storing the data abroad, since the Act reaches processing of personal data of individuals in India."
+  }
+]

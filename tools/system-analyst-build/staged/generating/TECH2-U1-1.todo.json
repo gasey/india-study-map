@@ -1,0 +1,22 @@
+{
+  "paper": "TECH2",
+  "unit": "1",
+  "unitTitle": "Object Oriented Programming",
+  "unitMarks": 40,
+  "perTarget": 3,
+  "brief": "tools/system-analyst-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "OOP concepts, applications and the OOP process"
+    },
+    {
+      "sub": "Constructors and destructors"
+    },
+    {
+      "sub": "I/O streams and file handling in OOP"
+    },
+    {
+      "sub": "Exception handling and strings"
+    }
+  ]
+}

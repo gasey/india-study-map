@@ -1,0 +1,167 @@
+[
+ {
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "Which feature allows open recursion, among the following?",
+  "opts": {
+   "A": "Use of this pointer",
+   "B": "Use of pointers",
+   "C": "Use of pass by value",
+   "D": "Use of parameterized constructor"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Which language does not support all 4 types of inheritance?",
+  "opts": {
+   "A": "C++",
+   "B": "Java",
+   "C": "Kotlin",
+   "D": "Small Talk"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Overloading a postfix increment operator by means of a member function takes :",
+  "opts": {
+   "A": "no argument",
+   "B": "one argument",
+   "C": "two argument",
+   "D": "three argument"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "In the object-oriented development process, identifying the problem-domain entities and the responsibilities of each, without committing to any implementation, belongs to which phase?",
+  "opts": {
+   "A": "Object-oriented analysis",
+   "B": "Object-oriented design",
+   "C": "Object-oriented implementation",
+   "D": "Object-oriented testing"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A Car class needs the behaviour of an Engine class, but a Car is not a kind of Engine. Which relationship should the design use?",
+  "opts": {
+   "A": "Public inheritance of Engine by Car",
+   "B": "Composition, with Car holding an Engine object as a data member",
+   "C": "Private virtual inheritance of Engine by Car",
+   "D": "A friend declaration naming Engine inside Car"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "Which statement correctly distinguishes abstraction from encapsulation?",
+  "opts": {
+   "A": "Abstraction restricts access to members, while encapsulation presents a simplified interface to clients",
+   "B": "Abstraction applies only to base classes, while encapsulation applies only to derived classes",
+   "C": "Abstraction presents a simplified interface and hides implementation detail, while encapsulation binds data together with the operations on it and controls access to them",
+   "D": "Abstraction is resolved at run time, while encapsulation is resolved when the program is linked"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct A { ~A() { cout << \"A\"; } };\nstruct B { ~B() { cout << \"B\"; } };\nstruct C { A a; B b; ~C() { cout << \"C\"; } };\nint main() { C c; }",
+  "opts": {
+   "A": "ABC",
+   "B": "BAC",
+   "C": "CAB",
+   "D": "CBA"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Constructors and destructors",
+  "q": "A base class pointer holds a dynamically allocated derived class object, and delete is applied to that pointer. What is required for the derived class destructor to run?",
+  "opts": {
+   "A": "The base class destructor must be declared virtual",
+   "B": "The derived class destructor must be declared virtual",
+   "C": "The derived class must overload operator delete",
+   "D": "The base class destructor must be declared protected"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Constructors and destructors",
+  "q": "Which kind of data member must be initialised at the point the object is created and cannot simply be assigned inside the constructor body?",
+  "opts": {
+   "A": "A pointer data member",
+   "B": "A reference data member",
+   "C": "A data member of built-in integer type",
+   "D": "A static data member of the class"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Which call moves the get pointer of an open ifstream object f backwards by 20 bytes from its current position?",
+  "opts": {
+   "A": "f.seekg(20, ios::beg)",
+   "B": "f.tellg(-20)",
+   "C": "f.seekg(-20, ios::cur)",
+   "D": "f.seekp(-20, ios::cur)"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "I/O streams and file handling in OOP",
+  "q": "An extraction such as in >> x is attempted on a file stream when no data remains. Which stream state results, and why does the stream then test as false?",
+  "opts": {
+   "A": "Only badbit is set, because the underlying read operation was invalid",
+   "B": "Only eofbit is set, and the stream remains usable for further extraction",
+   "C": "goodbit is set, and it can be cleared only by an explicit call to clear()",
+   "D": "eofbit and failbit are both set, and it is failbit that makes the stream test false"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "I/O streams and file handling in OOP",
+  "q": "What is the difference between opening a file with ios::app and opening it with ios::ate?",
+  "opts": {
+   "A": "ios::app sends every write to the end of the file, whereas ios::ate only positions the pointer at the end when the file is opened",
+   "B": "ios::app discards the existing contents of the file first, whereas ios::ate preserves them",
+   "C": "ios::app opens the file for reading only, whereas ios::ate opens it for writing only",
+   "D": "ios::app is valid only for binary files, whereas ios::ate is valid only for text files"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Exception handling and strings",
+  "q": "Why is an exception of class type normally caught by reference rather than by value?",
+  "opts": {
+   "A": "Catching a class type by value is rejected by the compiler",
+   "B": "A by-value handler copies the thrown object and slices a derived exception down to the handler's base type",
+   "C": "Only a by-reference handler permits the exception to be rethrown to an outer try block",
+   "D": "A by-value handler suppresses the unwinding of objects created inside the try block"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Exception handling and strings",
+  "q": "A try block lists a handler for catch (const std::exception&) before a handler for catch (const std::out_of_range&). What happens when an out_of_range object is thrown inside that try block?",
+  "opts": {
+   "A": "The out_of_range handler runs, because it is the more derived and therefore the better match",
+   "B": "Both handlers run, the base one first and the derived one afterwards",
+   "C": "The std::exception handler runs, because handlers are examined in the order they are written",
+   "D": "The program calls std::terminate, because this ordering of handlers is ill-formed"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Exception handling and strings",
+  "q": "For a std::string holding 5 characters, how does at(9) differ in behaviour from operator[](9)?",
+  "opts": {
+   "A": "Both throw std::out_of_range",
+   "B": "Both silently return a reference to the string's terminating null character",
+   "C": "at(9) returns a default-constructed char, while operator[](9) throws std::length_error",
+   "D": "at(9) throws std::out_of_range, while operator[](9) is unchecked and gives undefined behaviour"
+  },
+  "ans": "D"
+ }
+]

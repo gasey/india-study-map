@@ -1,0 +1,596 @@
+[
+ {
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "By creating a foreign key constraint, the following are usually considered during design -",
+  "opts": {
+   "A": "Delete and update cascading",
+   "B": "Size of database and growth estimation",
+   "C": "Skill and competency of database administrators",
+   "D": "Whether web-based or application-based"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "Which of the following is a kind of stored procedure that is executed as a side-effect of some operations on the data?",
+  "opts": {
+   "A": "Commit",
+   "B": "Function",
+   "C": "Alert",
+   "D": "Trigger"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "The term given to the minimal number of attributes to define a record is called —",
+  "opts": {
+   "A": "Super key",
+   "B": "Primary key",
+   "C": "Minimal key",
+   "D": "Candidate key"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Super key in the DBMS is —",
+  "opts": {
+   "A": "Any set of attributes that can functionally define the record",
+   "B": "Any set of attributes that is a subset of all attribute set",
+   "C": "A single attribute that is unique and can address a record",
+   "D": "A password or encryption key that can unlock any encryption"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "________ design focusses on the data itself, whereas ________ design focusses more on data type, how it is stored and accessed.",
+  "opts": {
+   "A": "ER-diagram, SQL",
+   "B": "MySQL, Oracle",
+   "C": "Physical, logical",
+   "D": "Primary, secondary"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "Normalization of database usually achieves —\ni. Data integrity\nii. Reduced redundancy\niii. Data readability\niv. Data security",
+  "opts": {
+   "A": "i and iii",
+   "B": "ii and iii",
+   "C": "i, ii and iii",
+   "D": "i, iii and iv"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "When decomposed tables are joined, which of the following will preserve non-match tuples only on the left table, but not on the right table?",
+  "opts": {
+   "A": "Inner join",
+   "B": "Left outer join",
+   "C": "Right outer join",
+   "D": "Natural join"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "Data about relations such as schema of relation is maintained by the relational database system, it is termed as —",
+  "opts": {
+   "A": "Catalog",
+   "B": "Views",
+   "C": "Metadata",
+   "D": "Dictionary"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "________ is for altering the database design, whereas ________ is for manipulating the data.",
+  "opts": {
+   "A": "DDL, DML",
+   "B": "XML, DDL",
+   "C": "SQL, HTML",
+   "D": "Stored Procedure, Function"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Entity-Relationship modelling",
+  "q": "Which of the following best describes a \"multi-valued attribute\" in an ER model?",
+  "opts": {
+   "A": "An attribute that uniquely identifies each entity in the entity set.",
+   "B": "An attribute that depends on multiple other attributes.",
+   "C": "An attribute that is inherited from another entity set.",
+   "D": "An attribute that can have multiple values for a single entity instance."
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "Which SQL clause ensures that the deletion of a row from a parent table also deletes all corresponding rows in the child table that reference it?",
+  "opts": {
+   "A": "CASCADE",
+   "B": "TRIGGER",
+   "C": "DELETE CHILD",
+   "D": "ON DELETE CASCADE"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "Which of the following is a key responsibility of the Database Administrator (DBA) in a database environment?",
+  "opts": {
+   "A": "Designing the physical schema of the database",
+   "B": "Writing end-user application code",
+   "C": "Managing network traffic between clients and servers",
+   "D": "Developing database-driven web applications"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Entity-Relationship modelling",
+  "q": "Which of the following best describes the concept of a derived attribute in logical database design?",
+  "opts": {
+   "A": "An attribute that serves as a foreign key in a relationship.",
+   "B": "An attribute that is shared across multiple entities in an ER model.",
+   "C": "An attribute that is used to enforce uniqueness in a table.",
+   "D": "An attribute that is calculated from other attributes in the database."
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "In relational model terminology, table is considered as:",
+  "opts": {
+   "A": "range",
+   "B": "domain",
+   "C": "relation",
+   "D": "Tuple"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Concurrency control, locking and time stamping",
+  "q": "Which of the following locks the item from access of any type?",
+  "opts": {
+   "A": "Implicit lock",
+   "B": "Explicit lock",
+   "C": "Exclusive lock",
+   "D": "Shared lock"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Entity-Relationship modelling",
+  "q": "Which of the following statements concerning business rules is true?",
+  "opts": {
+   "A": "It should be complex",
+   "B": "It should not be convertible to computer code",
+   "C": "It may include restrictions",
+   "D": "All of the above"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "The following SQL is which type of join:\nSELECT CUSTOMER_T.CUSTOMER_ID, ORDER_T.CUSTOMER_ID, NAME, ORDER_ID\nFROM CUSTOMER_T, ORDER_T\nWHERE CUSTOMER_T.CUSTOMER_ID = ORDER_T.CUSTOMER_ID",
+  "opts": {
+   "A": "Equi-join",
+   "B": "Natural join",
+   "C": "Outer join",
+   "D": "Cartesian join"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "Which of the following is a transitive dependency?",
+  "opts": {
+   "A": "A functional dependency between two or more key attributes.",
+   "B": "A functional dependency between two or more nonkey attributes.",
+   "C": "A relation that is in first normal form.",
+   "D": "A relation that is in second normal form."
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Entity-Relationship modelling",
+  "q": "Which type of entity cannot exist in the database unless another type of entity also exists in the database, but does not require that the identifier of that other entity be included as part of its own identifier?",
+  "opts": {
+   "A": "Weak entity",
+   "B": "Strong entity",
+   "C": "ID-dependent entity",
+   "D": "ID-independent entity"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "__________ is a special kind of a store procedure that executes in response to certain action on the table like insertion, deletion or updation of data.",
+  "opts": {
+   "A": "Procedure",
+   "B": "Trigger",
+   "C": "Function",
+   "D": "None of the mentioned"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Concurrency control, locking and time stamping",
+  "q": "A system is in a __________ state if there exists a set of transactions such that every transaction in the set is waiting for another transaction in the set.",
+  "opts": {
+   "A": "Idle",
+   "B": "Waiting",
+   "C": "Deadlock",
+   "D": "Ready"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Transaction processing, schedules and recoverability",
+  "q": "If a transaction is performed in a database and committed, the changes are taken to the previous state of transaction by:",
+  "opts": {
+   "A": "Flashback",
+   "B": "Rollback",
+   "C": "Both Flashback and Rollback",
+   "D": "Cannot be done"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "Which of the join operations do not preserve non matched tuples?",
+  "opts": {
+   "A": "Left outer join",
+   "B": "Right outer join",
+   "C": "Inner join",
+   "D": "Natural join"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+  "opts": {
+   "A": "Candidate key",
+   "B": "Sub key",
+   "C": "Super key",
+   "D": "Foreign key"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "A relational database system needs to maintain data about the relations, such as the schema of the relations. This is called:",
+  "opts": {
+   "A": "Metadata",
+   "B": "Catalog",
+   "C": "Log",
+   "D": "Dictionary"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Entity-Relationship modelling",
+  "q": "The attribute AGE is calculated from DATE_OF_BIRTH. The attribute AGE is:",
+  "opts": {
+   "A": "Single valued",
+   "B": "Multi valued",
+   "C": "Composite",
+   "D": "Derived"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "Database __________, which is the logical design of the database, and the database __________, which is a snapshot of the data in the database at a given instant in time.",
+  "opts": {
+   "A": "Instance, Schema",
+   "B": "Relation, Schema",
+   "C": "Relation, Domain",
+   "D": "Schema, Instance"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Which one of the following is a procedural language ?",
+  "opts": {
+   "A": "Domain relational calculus",
+   "B": "Tuple relational calculus",
+   "C": "Relational algebra",
+   "D": "Query language"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "Fill in with correct keyword to update the instructor relation. UPDATE instructor __________ salary= salary * 1.05;",
+  "opts": {
+   "A": "Where",
+   "B": "Set",
+   "C": "In",
+   "D": "Select"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Entity-Relationship modelling",
+  "q": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
+  "opts": {
+   "A": "Strong entity set",
+   "B": "Variant set",
+   "C": "Weak entity set",
+   "D": "Variable set"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "To include integrity constraint in a existing relation use :",
+  "opts": {
+   "A": "Create table",
+   "B": "Modify table",
+   "C": "Alter table",
+   "D": "Drop table"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "To remove a relation from an SQL database, we use the __________ command.",
+  "opts": {
+   "A": "Delete",
+   "B": "Purge",
+   "C": "Remove",
+   "D": "Drop table"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
+  "opts": {
+   "A": "Referential",
+   "B": "Referencing",
+   "C": "Specific",
+   "D": "Primary"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A attribute in a relation is a foreign key if the __________ key from one relation is used as an attribute in that relation.",
+  "opts": {
+   "A": "Candidate",
+   "B": "Primary",
+   "C": "Super",
+   "D": "Sub"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB, B C, BC  A, AD, E A, DE. Which of the following is not a key?",
+  "opts": {
+   "A": "A",
+   "B": "E",
+   "C": "B,C",
+   "D": "D"
+  },
+  "ans": "D"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the MilleniumCenter building which is in department relation.",
+  "opts": {
+   "A": "DELETE FROM instructor WHERE dept_name IN ' MilleniumCenter ';",
+   "B": "DELETE FROM department WHERE building=' MilleniumCenter ';",
+   "C": "DELETE FROM instructor WHERE dept_name IN (SELECT dept name FROM department WHERE building = ' MilleniumCenter');",
+   "D": "None of these"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Identify which of the following operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.",
+  "opts": {
+   "A": "Join",
+   "B": "Cartesian product",
+   "C": "Intersection",
+   "D": "Set difference"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB→B, B→C, BC→A, AD→D, E→A, DE→E. Which of the following is not a key?",
+  "opts": {
+   "A": "A",
+   "B": "E",
+   "C": "B,C",
+   "D": "D"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas?",
+  "opts": {
+   "A": "DML(Data Manipulation Langauge)",
+   "B": "DDL(Data Definition Langauge)",
+   "C": "Query",
+   "D": "Relational Schema"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "Empdt1(empcode, name, street, city, state,pincode). For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, Empdt1 is a relation in",
+  "opts": {
+   "A": "1 NF only",
+   "B": "2 NF and hence also in 1 NF",
+   "C": "3NF and hence also in 2NF and 1NF",
+   "D": "BCNF and hence also in 3NF, 2NF and 1NF"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "Which of the following is used to insert a tuple from another relation.",
+  "opts": {
+   "A": "INSERT INTO course (courseid, title, deptname, credits) VALUES ('CS-437', 'DATABASESystems', 'CompSci.', 4);",
+   "B": "INSERT INTO instructor SELECT ID, name, deptname, 18000 FROM student WHERE deptname = 'Music' AND totcred > 144;",
+   "C": "INSERT INTO course VALUES ('CS-437', 'DATABASESystems', 'CompSci.', 4);",
+   "D": "None of these"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.",
+  "opts": {
+   "A": "Domain",
+   "B": "Relation",
+   "C": "Set",
+   "D": "Schema"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "The tuples of the relations can be of ________ order.",
+  "opts": {
+   "A": "Any",
+   "B": "Same",
+   "C": "Sorted",
+   "D": "Constant"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Entity-Relationship modelling",
+  "q": "The descriptive property possessed by each entity set is",
+  "opts": {
+   "A": "Entity",
+   "B": "Attribute",
+   "C": "Relation",
+   "D": "Model"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+  "opts": {
+   "A": "Candidate key",
+   "B": "Sub key",
+   "C": "Super key",
+   "D": "Foreign key"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Which of the following is a procedural language?",
+  "opts": {
+   "A": "Domain relational calculus",
+   "B": "Tuple relational calculus",
+   "C": "Relational algebra",
+   "D": "Query language"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Entity-Relationship modelling",
+  "q": "An entity set that does not have sufficient attributes to form a primary key is a",
+  "opts": {
+   "A": "Strong entity set",
+   "B": "Weak entity set",
+   "C": "Simple entity set",
+   "D": "Primary entity set"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "Logical data independence means:",
+  "opts": {
+   "A": "Protection from changes in the logical structure",
+   "B": "Protection from changes in the physical structure",
+   "C": "Ability to modify physical schema",
+   "D": "Ability to modify application programs"
+  },
+  "ans": "A"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A set of one or more attributes taken collectively to uniquely identify a record.",
+  "opts": {
+   "A": "Primary Key",
+   "B": "Foreign key",
+   "C": "Super key",
+   "D": "Candidate key"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A Relation is a-",
+  "opts": {
+   "A": "Subset of a Cartesian product of a list of attributes",
+   "B": "Subset of a Cartesian product of a list of domains",
+   "C": "Subset of a Cartesian product of a list of tuple",
+   "D": "Subset of a Cartesian product of a list of relations"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "SQL and basic query statements",
+  "q": "What is the language used by most of the DBMSs for helping their users to access data?",
+  "opts": {
+   "A": "High level language",
+   "B": "Low level language",
+   "C": "Query Language",
+   "D": "4GL"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Query processing and optimisation",
+  "q": "An evaluation plan first computes a selection on R and then joins that result with S. Under materialised evaluation the 500 blocks of intermediate result are written out to a temporary relation on disk and read back by the join; under pipelined evaluation they are handed to the join as they are produced. Ignoring the cost of reading R and S themselves, how many extra block transfers does materialisation incur?",
+  "opts": {
+   "A": "500 block transfers",
+   "B": "1,000 block transfers",
+   "C": "250 block transfers",
+   "D": "None; the two strategies transfer the same number of blocks"
+  },
+  "ans": "B"
+ },
+ {
+  "sub": "Query processing and optimisation",
+  "q": "A query over Student(rollno, name, deptid) and Dept(deptid, dname) is translated into the canonical expression: form the Cartesian product Student x Dept, then apply the selection (dname = 'Physics' AND Student.deptid = Dept.deptid), then project name. Student holds 20,000 tuples and Dept holds 50 tuples, exactly one of which has dname = 'Physics'. Which rewriting do the standard heuristic optimisation rules prescribe?",
+  "opts": {
+   "A": "Push the projection on name below the Cartesian product so that only Student.name enters the product",
+   "B": "Keep the Cartesian product first, because a selection whose predicate mentions both relations cannot be moved at all",
+   "C": "Apply the selection dname = 'Physics' to Dept first, then combine the reduced Dept with Student as an equi-join on deptid",
+   "D": "Apply the selection dname = 'Physics' to Student first, then equi-join that result with Dept on deptid"
+  },
+  "ans": "C"
+ },
+ {
+  "sub": "Query processing and optimisation",
+  "q": "Relation r occupies 100 blocks and holds 5,000 tuples; relation s occupies 50 blocks and holds 2,000 tuples, and neither relation fits in the buffer. With r as the outer relation and no index on either relation, what is the worst-case number of block transfers for a block nested-loop join of r and s?",
+  "opts": {
+   "A": "5,100 block transfers",
+   "B": "250,100 block transfers",
+   "C": "5,000 block transfers",
+   "D": "150 block transfers"
+  },
+  "ans": "A"
+ }
+]

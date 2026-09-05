@@ -1,0 +1,31 @@
+{
+  "paper": "TECH2",
+  "unit": "4",
+  "unitTitle": "Cloud Computing",
+  "unitMarks": 40,
+  "perTarget": 3,
+  "brief": "tools/system-analyst-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Distributed, edge and cloud computing; NIST cloud architecture"
+    },
+    {
+      "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless"
+    },
+    {
+      "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing"
+    },
+    {
+      "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization"
+    },
+    {
+      "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps"
+    },
+    {
+      "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud"
+    },
+    {
+      "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs"
+    }
+  ]
+}

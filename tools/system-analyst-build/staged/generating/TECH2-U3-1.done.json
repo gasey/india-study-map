@@ -1,0 +1,41 @@
+[
+  {
+    "sub": "Query processing and optimisation",
+    "q": "An evaluation plan first computes a selection on R and then joins that result with S. Under materialised evaluation the 500 blocks of intermediate result are written out to a temporary relation on disk and read back by the join; under pipelined evaluation they are handed to the join as they are produced. Ignoring the cost of reading R and S themselves, how many extra block transfers does materialisation incur?",
+    "opts": {
+      "A": "500 block transfers",
+      "B": "1,000 block transfers",
+      "C": "250 block transfers",
+      "D": "None; the two strategies transfer the same number of blocks"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Materialising an intermediate result costs one write pass plus one read pass over it: 500 blocks written out + 500 blocks read back = 1,000 extra block transfers, none of which pipelining performs because the tuples are consumed from memory as fast as they are generated. Answering 500 counts only the write and forgets that the temporary relation must then be read back in by the join."
+  },
+  {
+    "sub": "Query processing and optimisation",
+    "q": "A query over Student(rollno, name, deptid) and Dept(deptid, dname) is translated into the canonical expression: form the Cartesian product Student x Dept, then apply the selection (dname = 'Physics' AND Student.deptid = Dept.deptid), then project name. Student holds 20,000 tuples and Dept holds 50 tuples, exactly one of which has dname = 'Physics'. Which rewriting do the standard heuristic optimisation rules prescribe?",
+    "opts": {
+      "A": "Push the projection on name below the Cartesian product so that only Student.name enters the product",
+      "B": "Keep the Cartesian product first, because a selection whose predicate mentions both relations cannot be moved at all",
+      "C": "Apply the selection dname = 'Physics' to Dept first, then combine the reduced Dept with Student as an equi-join on deptid",
+      "D": "Apply the selection dname = 'Physics' to Student first, then equi-join that result with Dept on deptid"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The conjunct on dname references only Dept, so it commutes past the Cartesian product and is pushed down onto Dept alone, shrinking Dept from 50 tuples to 1 and the pairs to be examined from 20,000 x 50 = 1,000,000 down to 20,000 x 1 = 20,000. The surviving conjunct Student.deptid = Dept.deptid is then absorbed into the product to form an equi-join, which is the second standard rule: replace a selection sitting over a Cartesian product by the corresponding join. Pushing the projection down as in (A) is invalid because it discards deptid, which the join condition still needs, and (D) is invalid because Student carries no dname attribute to select on."
+  },
+  {
+    "sub": "Query processing and optimisation",
+    "q": "Relation r occupies 100 blocks and holds 5,000 tuples; relation s occupies 50 blocks and holds 2,000 tuples, and neither relation fits in the buffer. With r as the outer relation and no index on either relation, what is the worst-case number of block transfers for a block nested-loop join of r and s?",
+    "opts": {
+      "A": "5,100 block transfers",
+      "B": "250,100 block transfers",
+      "C": "5,000 block transfers",
+      "D": "150 block transfers"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Block nested-loop reads the outer relation once and rescans the whole inner relation for each outer block, giving b_r * b_s + b_r = 100 x 50 + 100 = 5,100 block transfers. The figure 250,100 is the tuple-at-a-time nested-loop cost n_r * b_s + b_r = 5,000 x 50 + 100, which is exactly the blow-up the block variant exists to avoid; 5,000 drops the +b_r term for reading the outer relation itself, and 150 = b_r + b_s is a one-pass cost attainable only when one of the relations fits entirely in the buffer."
+  }
+]

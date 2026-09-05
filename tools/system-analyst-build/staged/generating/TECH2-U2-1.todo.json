@@ -1,0 +1,37 @@
+{
+  "paper": "TECH2",
+  "unit": "2",
+  "unitTitle": "Web Technologies",
+  "unitMarks": 60,
+  "perTarget": 3,
+  "brief": "tools/system-analyst-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting"
+    },
+    {
+      "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility"
+    },
+    {
+      "sub": "CSS, Flexbox, Grid and responsive web design"
+    },
+    {
+      "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch"
+    },
+    {
+      "sub": "Frontend frameworks: components, routing, state management and API integration"
+    },
+    {
+      "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM"
+    },
+    {
+      "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment"
+    },
+    {
+      "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention"
+    },
+    {
+      "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues"
+    }
+  ]
+}

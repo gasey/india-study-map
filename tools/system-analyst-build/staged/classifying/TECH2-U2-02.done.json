@@ -1,0 +1,182 @@
+[
+ {
+  "id": "GEN-TECH2-U2-44c084",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The options spell out each code's meaning, so 'validator still matches, nothing to resend' picks itself; only the bare number would be recall."
+ },
+ {
+  "id": "GEN-TECH2-U2-fba0e5",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what a TTL is -- how long a resolver may keep a cached answer."
+ },
+ {
+  "id": "GEN-TECH2-U2-d84c27",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Reasoning from handshake ordering rules out the encrypted Host header; the option text supplies the mechanism's name."
+ },
+ {
+  "id": "GEN-TECH2-U2-7b7f5e",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Immediate-mode versus retained-mode cost follows from what each rendering model keeps around."
+ },
+ {
+  "id": "GEN-TECH2-U2-8f5966",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what a placeholder is -- a hint that disappears -- versus what an accessible name must be."
+ },
+ {
+  "id": "GEN-TECH2-U2-014531",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "The missing-value default of submit is an arbitrary HTML spec choice with no derivation path."
+ },
+ {
+  "id": "GEN-TECH2-U2-70bbd5",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what flex-basis does to the starting size before free space is divided."
+ },
+ {
+  "id": "GEN-TECH2-U2-df5b6d",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The minmax floor plus 1fr share is reasonable from the values; only the auto-fill keyword's exact sense is learned."
+ },
+ {
+  "id": "GEN-TECH2-U2-937904",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Shrink-to-fit points at the layout viewport rather than the CSS, though the default wide viewport is itself a learned fact."
+ },
+ {
+  "id": "GEN-TECH2-U2-d66afd",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Code-output prediction: apply the event-loop ordering rule mechanically to the given script."
+ },
+ {
+  "id": "GEN-TECH2-U2-58e5c0",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "That fetch resolves on any completed exchange is an API design choice other HTTP clients made differently; nothing derives it."
+ },
+ {
+  "id": "GEN-TECH2-U2-0e7fb8",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Which of target and currentTarget names the origin is arbitrary naming; the delegation concept does not disambiguate them."
+ },
+ {
+  "id": "GEN-TECH2-U2-2e0e39",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from the fact that the client router does not exist until the bundle has loaded."
+ },
+ {
+  "id": "GEN-TECH2-U2-e79bbe",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The answer restates what 'controlled' means -- state is the single source of truth."
+ },
+ {
+  "id": "GEN-TECH2-U2-925c08",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Recognising a race rather than a rate problem is what eliminates debouncing; pure reasoning about ordering."
+ },
+ {
+  "id": "GEN-TECH2-U2-cbb5e5",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Idempotence follows from what PUT means -- make the resource at this URI equal this -- versus POST's server-chosen URI."
+ },
+ {
+  "id": "GEN-TECH2-U2-91d519",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Which of the two valid session designs PHP defaults to is an implementation fact; frameworks genuinely differ here."
+ },
+ {
+  "id": "GEN-TECH2-U2-3b9135",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The 1 + 100 query count diagnoses lazy loading directly; only the N+1 label and the eager-loading vocabulary are learned."
+ },
+ {
+  "id": "GEN-TECH2-U2-05ebf0",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from which commands rewrite existing commits and what that costs a shared branch."
+ },
+ {
+  "id": "GEN-TECH2-U2-e9b6a8",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "That traversal maps to the x bit and listing to r on a directory is a Unix convention, not derivable from what a directory is."
+ },
+ {
+  "id": "GEN-TECH2-U2-5c63ca",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what an image layer is -- a distributed, inspectable artefact."
+ },
+ {
+  "id": "GEN-TECH2-U2-1ea42c",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Separating statement from data makes reparse structurally impossible; the filtering options fail on reasoning alone."
+ },
+ {
+  "id": "GEN-TECH2-U2-93ac14",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from how the browser attaches cookies by origin; the read-based distractors are eliminable by reasoning."
+ },
+ {
+  "id": "GEN-TECH2-U2-ac203f",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what each sink does -- parse as markup versus create a text node."
+ },
+ {
+  "id": "GEN-TECH2-U2-34c6aa",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The principle's own name states the test the scenario fails; mapping scenario to principle is reasoning, not list recall."
+ },
+ {
+  "id": "GEN-TECH2-U2-cbcc5c",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The answer follows from the division of responsibility that defines MVC."
+ },
+ {
+  "id": "GEN-TECH2-U2-7c58be",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Simultaneous expiry of one hot key explains the failure and the lock-plus-jitter fix follows from it."
+ },
+ {
+  "id": "GEN-TECH2-U2-9efcbb",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The client/server split MCP chose is a fact about one protocol; understanding LLM tooling does not yield it."
+ },
+ {
+  "id": "GEN-TECH2-U2-73c199",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what a build-time substitution does -- the value ships inside the bundle."
+ },
+ {
+  "id": "GEN-TECH2-U2-5c4506",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "That the DPDP Act rests on prior notice-and-consent, and who counts as fiduciary, is statutory content to be committed."
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "TECH1_CSE_096",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Turns on recalling the term 'open recursion' itself; once the label is known the answer follows, but nothing about OOP yields the label."
+ },
+ {
+  "id": "TECH1_CSE_100",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Which named language omits multiple inheritance is a per-language fact, not derivable from what inheritance is."
+ },
+ {
+  "id": "TECH1_CSE_101",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "The dummy int parameter is an arbitrary C++ disambiguation convention with no derivation path."
+ },
+ {
+  "id": "GEN-TECH2-U1-ee6151",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Naming entities without committing to implementation follows directly from what analysis is as opposed to design."
+ },
+ {
+  "id": "GEN-TECH2-U1-b5ce17",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The is-a substitutability test rules out inheritance and leaves composition; pure reasoning from the relationship."
+ },
+ {
+  "id": "GEN-TECH2-U1-5b557e",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The correct option restates what each concept is; the inverted distractor is recognisable to anyone who grasps the two."
+ },
+ {
+  "id": "GEN-TECH2-U1-ebec27",
+  "mode": "calculate",
+  "confidence": "high",
+  "why": "Code-output prediction: apply the destructor-order rule mechanically to the given fragment."
+ },
+ {
+  "id": "GEN-TECH2-U1-91c240",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from how dynamic dispatch works at a call site that sees only the static base type."
+ },
+ {
+  "id": "GEN-TECH2-U1-f591a5",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what a reference is -- bound at creation, never rebindable -- and from when the constructor body runs."
+ },
+ {
+  "id": "GEN-TECH2-U1-0b2d3a",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Depends on recalling the seekg/seekp/tellg API names and signatures; the ios::cur part is reasonable but the member names are not."
+ },
+ {
+  "id": "GEN-TECH2-U1-47f665",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Which bits the stream sets, and that failbit alone drives the boolean conversion, is library convention rather than derivable."
+ },
+ {
+  "id": "GEN-TECH2-U1-e01c9b",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The semantic split between two similarly named open-mode flags has to be committed; the names alone do not distinguish them."
+ },
+ {
+  "id": "GEN-TECH2-U1-9360f4",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Slicing follows from what copy-initialising a base parameter from a derived object does."
+ },
+ {
+  "id": "GEN-TECH2-U1-9cdfbf",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "First-match-wins rather than best-match is a language rule; understanding exceptions does not tell you which one C++ chose."
+ },
+ {
+  "id": "GEN-TECH2-U1-83968b",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Which of the two accessors is bounds-checked is an arbitrary library choice a competent user can get backwards."
+ }
+]

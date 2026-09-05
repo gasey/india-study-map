@@ -1,38 +1,74 @@
 [
- { "id": "GEN-252", "mode": "understand", "confidence": "high",
-   "why": "The tool-to-function relationship is inferred from what a pen and a knife are; no learned pairing needed." },
- { "id": "GEN-253", "mode": "understand", "confidence": "high",
-   "why": "The category (fruit vs vegetable) follows from what the items are, so the outlier is recognisable by reasoning." },
- { "id": "GEN-254", "mode": "memorise", "confidence": "high",
-   "why": "The meaning of 'benevolent' is learned vocabulary; nothing about the sentence derives it." },
- { "id": "GEN-255", "mode": "memorise", "confidence": "high",
-   "why": "Turns entirely on knowing what 'meticulous' means; no derivation path from the options." },
- { "id": "GEN-256", "mode": "understand", "confidence": "high",
-   "why": "The concessive 'Although' fixes the required contrast; the answer follows from sentence logic, not word recall." },
- { "id": "GEN-257", "mode": "memorise", "confidence": "high",
-   "why": "Idiom meaning is a fixed convention; the literal words do not yield 'risky task for the group'." },
- { "id": "GEN-258", "mode": "memorise", "confidence": "medium",
-   "why": "That 'neither' is grammatically singular is an arbitrary usage convention a fluent speaker can miss; labelled memorise under the tie-break." },
- { "id": "GEN-259", "mode": "memorise", "confidence": "medium",
-   "why": "Core knowledge is the learned meaning of 'curtail'; the recession context only narrows, it does not derive it." },
- { "id": "GEN-260", "mode": "understand", "confidence": "high",
-   "why": "A constitution is a document rather than a form of government - the odd one out follows from what each term is." },
- { "id": "GEN-261", "mode": "understand", "confidence": "high",
-   "why": "Ordering follows from understanding a plant's life cycle, not from a memorised list." },
- { "id": "GEN-262", "mode": "understand", "confidence": "high",
-   "why": "Inference is drawn from the passage itself; the distractors contradict what was stated." },
- { "id": "GEN-263", "mode": "memorise", "confidence": "high",
-   "why": "Fixed idiomatic meaning; a learner who has not met the phrase cannot derive it from the words." },
- { "id": "TECH3_2021-84", "mode": "memorise", "confidence": "medium",
-   "why": "The analogy structure is easy, but choosing between the options requires knowing 'diva' and 'thespian' - vocabulary is the load-bearing part." },
- { "id": "TECH3_2021-85", "mode": "understand", "confidence": "high",
-   "why": "Common words throughout; the work is spotting the deprivation relationship, which is reasoning." },
- { "id": "TECH3_2021-87", "mode": "calculate", "confidence": "high",
-   "why": "Letter-by-letter alphabetical ordering is a mechanical procedure; any four words could be substituted and ranked the same way." },
- { "id": "TECH3_2021-88", "mode": "memorise", "confidence": "medium",
-   "why": "Permuting three letters is mechanical, but deciding which strings are real words is lexical recall." },
- { "id": "TECH3_2021-89", "mode": "understand", "confidence": "high",
-   "why": "Recording-medium relationship is inferred from what a camera and a tape do." },
- { "id": "TECH3_2021-90", "mode": "understand", "confidence": "medium",
-   "why": "Grouping three synonyms against an opposite is reasoning, though it presupposes the four common words are known." }
+ {
+  "id": "GEN-252",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The tool-to-function relationship is inferred from what a pen and a knife are; no learned pairing needed."
+ },
+ {
+  "id": "GEN-253",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The category (fruit vs vegetable) follows from what the items are, so the outlier is recognisable by reasoning."
+ },
+ {
+  "id": "GEN-254",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "The meaning of 'benevolent' is learned vocabulary; nothing about the sentence derives it."
+ },
+ {
+  "id": "GEN-255",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Turns entirely on knowing what 'meticulous' means; no derivation path from the options."
+ },
+ {
+  "id": "GEN-256",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The concessive 'Although' fixes the required contrast; the answer follows from sentence logic, not word recall."
+ },
+ {
+  "id": "GEN-257",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Idiom meaning is a fixed convention; the literal words do not yield 'risky task for the group'."
+ },
+ {
+  "id": "GEN-258",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "That 'neither' is grammatically singular is an arbitrary usage convention a fluent speaker can miss; labelled memorise under the tie-break."
+ },
+ {
+  "id": "GEN-259",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Core knowledge is the learned meaning of 'curtail'; the recession context only narrows, it does not derive it."
+ },
+ {
+  "id": "GEN-260",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "A constitution is a document rather than a form of government - the odd one out follows from what each term is."
+ },
+ {
+  "id": "GEN-261",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Ordering follows from understanding a plant's life cycle, not from a memorised list."
+ },
+ {
+  "id": "GEN-262",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Inference is drawn from the passage itself; the distractors contradict what was stated."
+ },
+ {
+  "id": "GEN-263",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Fixed idiomatic meaning; a learner who has not met the phrase cannot derive it from the words."
+ }
 ]

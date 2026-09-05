@@ -1,0 +1,51 @@
+{
+  "paper": "TECH2",
+  "unit": "3",
+  "unitTitle": "Database Management Systems",
+  "unitMarks": 60,
+  "brief": "tools/system-analyst-build/CONCEPT_BRIEF.md",
+  "siblingSubtopics": [
+    "Database system concepts, architecture, interfaces and data independence",
+    "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "Entity-Relationship modelling",
+    "SQL and basic query statements",
+    "Database design, functional dependencies and normal forms",
+    "Query processing and optimisation",
+    "Transaction processing, schedules and recoverability",
+    "Concurrency control, locking and time stamping"
+  ],
+  "targets": [
+    {
+      "sub": "Database system concepts, architecture, interfaces and data independence",
+      "questionsInBank": 6
+    },
+    {
+      "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+      "questionsInBank": 14
+    },
+    {
+      "sub": "Entity-Relationship modelling",
+      "questionsInBank": 8
+    },
+    {
+      "sub": "SQL and basic query statements",
+      "questionsInBank": 14
+    },
+    {
+      "sub": "Database design, functional dependencies and normal forms",
+      "questionsInBank": 6
+    },
+    {
+      "sub": "Query processing and optimisation",
+      "questionsInBank": 3
+    },
+    {
+      "sub": "Transaction processing, schedules and recoverability",
+      "questionsInBank": 1
+    },
+    {
+      "sub": "Concurrency control, locking and time stamping",
+      "questionsInBank": 2
+    }
+  ]
+}

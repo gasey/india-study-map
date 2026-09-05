@@ -9,7 +9,168 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-09-05 (night, latest) — Technical Paper II Units 2 & 4 taken to 12 per leaf, and the review gate that could never have been satisfied
+## 2026-09-06 — The corpus CLAUDE.md said was deleted is alive at `/home.old/`, and it just gave System Manager Paper II its first official-key questions
+
+**What shipped.** Two things, and the first matters more than the second.
+
+**1. `~/Downloads/mpsc_pdfs_examination/` was never deleted. It moved.** CLAUDE.md
+has been telling every session that this corpus "**no longer exists on this
+machine**", that "those parsers cannot be re-run as written", and — explicitly —
+"don't burn time looking for it". All of that was wrong. The home directory was
+renamed; the corpus is intact at **`/home.old/hruaia/Downloads/mpsc_pdfs_examination/`**,
+3,715 PDFs, with `Old_Questions/`, `Answer_Keys/`, `Syllabus/` and `index.csv` all
+present. Every hardcoded `~/Downloads/...` path in `tools/bank-rebuild/*.py`
+resolves to nothing, which is exactly what a deleted corpus looks like from
+inside a script. CLAUDE.md is corrected, with the reason, so the next session
+checks `/home.old/` before concluding a source is gone.
+
+This is the second time this project has lost data to a *description* rather than
+to an actual loss — the 2026-09-05 entry below is about three stale notes keeping
+a fixed bug alive for a day. The pattern is the same: a claim written once,
+believed thereafter, never re-checked against the thing it describes.
+
+**2. Informatics Officer Technical Paper II, November 2024 — 18 questions, all
+carrying MPSC's own answer key.** `IO2024-P2`, bank **1963 → 1981**. (24 imported,
+then 6 removed by a review pass the same day — see below.)
+
+Before today the System Manager bank held **zero** official-key questions in
+TECH2. Every past question in it is a Computer Operator paper, and MPSC never
+published a key for any Computer Operator sitting, so all 352 were derived. These
+are the first Paper II answers that are the Commission's rather than a model's.
+
+**Why an Informatics Officer paper is in a Computer Operator build.**
+`BUILD_GUIDE.md` §2 rules these papers out as "too hard". That is right about
+Technical Paper **I** — CS theory, addressing modes, OSPF, UML. It is wrong about
+Technical Paper **II**, which is an e-Governance / IT-governance / IT-procurement
+paper at conceptual difficulty. The verdict had been reached from the post's name,
+not the paper's contents, and nobody had opened it.
+
+**What the numbers actually were, against what I predicted.** I told the user to
+expect 60–80 of the 100 questions to be usable. The real answer is **24**, and the
+gap is instructive. TECH2 Unit IV's "Digital Governance Systems" section is not
+about e-governance *policy* — its nine leaves are eOffice-specific (NIC eOffice,
+DSC, workflow configuration, metadata management, record retention). So the
+paper's large opening block on good governance, citizen charters, the digital
+divide and e-Gov strategy phases has no home on this syllabus at all. Two
+independent mapping passes, run without seeing each other, reached 26 and 24
+on-syllabus respectively; only the 24 both agreed on went forward (18 of those
+survived the review pass below). The 76 held back at this stage are
+listed with reasons in `staged/io2024-p2-manifest.json` — 74 both passes called
+off-syllabus, 2 they split on (Q44 eSign, Q97 monitoring-vs-evaluation).
+
+Where the 24 landed: **IT Procurement 8** (was 2 authored), **Software Asset
+Management 5** (was 2), **PKI 3**, **Encryption 2**, **ITSM 2**, and one each of
+Cyber Threats, Cyber Hygiene, Firewalls, KMS.
+
+**Same-day review cut that back to 18** — see the section below.
+
+### Review pass on Unit V: 6 of the 24 removed, and what the mapping passes get wrong
+
+**What shipped.** `REVIEW_EXCLUDE` in `import_io2024_p2.py`, dropping 6
+questions. `IO2024-P2` **24 → 18**, bank **1987 → 1981**, TECH2 Unit V
+**112 → 106**. Unit IV untouched at 9.
+
+**Why.** The two mapping passes are reliable on *"is this subject on the
+syllabus"* and over-eager on *"which leaf"*. Five questions (Q71, 72, 73, 76, 77)
+were filed under **Software Asset Management** but are about open-source versus
+proprietary licensing as a philosophy — why FOSS is popular, what copyleft
+requires, what FOSS stands for. The tell was sitting in the same leaf the whole
+time: its two authored questions are licence *compliance* ("an office purchased
+40 licences and installed on 55 computers"). That is what the leaf means here.
+A question filed under a leaf it does not test is worse than a missing one — it
+teaches the reader that the leaf covers something it does not, and they revise
+the wrong thing.
+
+The sixth, **Q94**, is a near-duplicate of Q93: both ask which contract head
+covers Force Majeure. Q93 kept, Q94 dropped.
+
+Kept as genuinely on-leaf: Q26/27/28/29/33/98 (GeM, RFP, three-bid order,
+commercial bid, e-Procurement, project execution order), Q93, and Q95/Q99 (SLM
+and SLA under ITSM).
+
+**The exclusions live in the importer, not in `questions.js`.** That file is
+generated; a hand-edit there is undone by the next `assemble.py` run and leaves
+no record of why. `REVIEW_EXCLUDE` carries the reason per question, the manifest
+records them under `rejected_on_review`, and a stale entry — one naming a
+question the mapping no longer proposes — **fails the build** rather than sitting
+there documenting a decision the build is not making. Verified by adding a bogus
+id: exit 1, named the id. This project has now lost time twice to notes that
+outlived what they described; a guard is cheaper than a third time.
+
+**Unit V coverage, checked rather than assumed:** all **21 of 21** leaves hold at
+least one question, 0 bare. But 15 of the 21 hold fewer than 6, and 11 hold
+exactly 2 — covered is not drilled. A depth pass was offered and deferred.
+
+**The check that makes the transcription trustworthy.** The vision pass answered
+all 100 questions *blind* — it was never shown the key — and its answers were then
+scored against MPSC's. **94 of 99 agreed** (Q52 excepted, below). More useful than
+the rate: **none of the 5 disagreements was on a question the pass rated
+high-confidence.** All 73 high-confidence answers matched the Commission exactly.
+A mis-ordered option column would have scattered disagreements across confident
+questions; concentrated entirely in the pass's own low/medium flags, they mean the
+lettering is sound and those five questions are simply hard.
+
+Both key PDFs (provisional, 12 Nov; final, 27 Nov) were transcribed independently
+and agree on 99 of 100 — that agreement is what backs the key transcription, since
+a misread cell would have to be misread identically in two separately-typeset
+documents. The one difference: **Q52 was `(C)` provisionally and Compensated in the
+final key.** MPSC withdrew it. `assemble.py` therefore ships it answerless rather
+than taking the retracted provisional answer, and it fell out on the syllabus
+filter anyway. Worth noting the extraction agent independently called Q52
+defective — "all four options are genuine TOGAF EA domains" — though it had been
+told from the brief that MPSC compensated it, so that is corroboration, not a
+blind confirmation.
+
+**Two bugs found while verifying, both in the direction of hiding good answers.**
+
+- `app.js`'s Past Papers card tested `q.prov.includes('Official')` — **case
+  sensitive**. Every official provenance string here spells it lowercase ("the
+  official MPSC Provisional Answer Key"), so the test was false for all **35**
+  UDC/Assistant questions that genuinely have an MPSC key, and their card had been
+  reading "derived answers". This is the exact mirror of the bug CLAUDE.md already
+  documents for the System Analyst app, where a bare `/official/i` badged 309
+  *derived* answers as authoritative. Same root cause — a substring standing in
+  for "does a key exist" — opposite direction. Fixed by extracting the one
+  predicate `hasOfficialKey()` and having both `provLine()` and the card call it.
+  The card also now uses `every`, not `some`: one keyed question among ninety-nine
+  derived ones must not make a paper read as authoritative.
+- The Past Papers intro still asserted "MPSC never published an answer key for any
+  of them — every answer here was derived", which the import made false the moment
+  it landed. Rewritten, and the new copy's claim ("two papers here are marked
+  official key") was verified against the rendered card count rather than trusted.
+
+**Verified in the browser**, not just by typecheck: 1981 questions, 18 `IO2024-P2`
+cards all badged blue `official key`, unit/sub pills correct, answers matching the
+key transcription, console clean, and both official-key cards now showing.
+`assemble.py` reproduces the pre-import `questions.js` byte-for-byte
+(md5 `335c194c…`), so none of the pipeline changes touched existing content — the
+diff is 528 lines, all insertions.
+
+*Cache note for whoever verifies next:* the in-app browser served a stale `app.js`
+through a server restart, `force: true` navigation and cache-busting query
+strings. Loading the page from `127.0.0.1` instead of `localhost` is a different
+cache key and picked up the new file immediately. Check `typeof` a
+newly-added function before trusting what you see.
+
+**What's still open.**
+
+- **The rest of the recovered corpus is unexamined.** The immediate neighbours are
+  Informatics Officer Technical Paper **III** 2024 (100 more questions, same
+  official key — IT project/quality/HR management, a narrower fit that would feed
+  Unit V's Project Management and Documentation Standards) and General English
+  Papers I and II. Beyond those, 3,715 PDFs nobody has inventoried since the path
+  was declared dead.
+- **The 76 held-back questions are not waste.** They are a coherent e-Governance
+  policy set with an official key. They do not fit *this* syllabus, but the
+  manifest keeps them addressable if that ever changes.
+- **TECH2 is still thin.** 111 of its 136 leaves hold fewer than 6 questions. This
+  import moved 9 leaves; it did not move the distribution.
+- The 5 blind-vs-key disagreements (Q8, 18, 32, 82, 96) all fell in the
+  off-syllabus set, so none shipped. If Paper III is imported, the same comparison
+  should be run and any high-confidence disagreement treated as a transcription
+  bug until proven otherwise.
+
+## 2026-09-05 (night) — Technical Paper II Units 2 & 4 taken to 12 per leaf, and the review gate that could never have been satisfied
 
 **What shipped.** The first depth pass either unit has had. Every one of the 17
 syllabus leaves in TECH2 Unit 2 (Web Technologies) and Unit 4 (Cloud Computing)

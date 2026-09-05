@@ -1,0 +1,362 @@
+[
+  {
+    "no": 1,
+    "q": "Which of the following is/are regarded as the properties of good governance?\ni. Accountability\nii. Transparency\niii. Consensus",
+    "opts": {
+      "A": "i only",
+      "B": "i and ii only",
+      "C": "ii and iii only",
+      "D": "i, ii and iii"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Accountability, transparency and consensus-orientation are all listed among the characteristics of good governance in the standard UNESCAP eight-attribute framework (along with participation, rule of law, responsiveness, equity/inclusiveness and effectiveness/efficiency). Since none of the three is excluded, the all-inclusive option is correct.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 2,
+    "q": "Government services such as obtaining driving license, property registration etc which are directly utilized by the people are collectively termed as –",
+    "opts": {
+      "A": "B2C services",
+      "B": "Citizen Common Services",
+      "C": "Citizen Centric Services",
+      "D": "Citizen Prioritized Services"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Services consumed directly by citizens from government are called Citizen Centric Services (the G2C category), the term used throughout NeGP/e-Kranti documentation. B2C is a private-sector commerce term and the other two are not established categories.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 3,
+    "q": "Which of the following could to be a trade-off and challenge when services are to be provided to people?",
+    "opts": {
+      "A": "Consensus vs Transparency",
+      "B": "Accountability vs Moral reform",
+      "C": "Responsiveness and inclusiveness",
+      "D": "Ease of getting service vs Security"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Convenience and security pull against each other in every service-delivery design: every extra authentication or verification step that protects the citizen also makes the service harder to obtain. The other options are not genuine trade-offs — note option (c) is not even framed as a 'vs' pair, and the stem itself carries a printing error ('could to be').",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 4,
+    "q": "In good governance, what does the term \"responsiveness\" refer to?",
+    "opts": {
+      "A": "The ability of government to respond to the needs and preferences of the public in a timely and effective manner.",
+      "B": "The speed at which laws are enacted and enforced.",
+      "C": "The level of government control over private enterprises.",
+      "D": "The degree of government surveillance and regulation."
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Responsiveness in the good-governance framework means institutions serve all stakeholders within a reasonable timeframe, i.e. reacting to public needs promptly and effectively. Speed of law-making (b) is a narrow legislative measure, and (c) and (d) describe state control, not responsiveness.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 5,
+    "q": "Which of the following is a key principle of a Citizen Charter?",
+    "opts": {
+      "A": "Secrecy",
+      "B": "Exclusivity",
+      "C": "Centralization",
+      "D": "Accountability"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A Citizen's Charter publicly commits an organisation to declared service standards and a grievance-redress route, which is precisely a mechanism of accountability. Secrecy, exclusivity and centralization are the opposite of what a charter is for.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 6,
+    "q": "Which factor contributes most to the digital divide, posing a challenge for e-Governance projects in rural areas?",
+    "opts": {
+      "A": "Lack of interest in digital services",
+      "B": "Inadequate internet connectivity and limited access to digital devices",
+      "C": "Over-saturation of digital literacy programs",
+      "D": "Too many competing e-Governance platforms"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The digital divide is fundamentally a gap in access — connectivity and device availability — which is why rural broadband and CSC infrastructure are the first-order interventions. Options (c) and (d) describe surpluses that do not exist in rural India, and (a) mistakes an effect for the cause.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 7,
+    "q": "Which issue can cause delays in the implementation of e-Governance projects?",
+    "opts": {
+      "A": "Streamlined decision-making processes",
+      "B": "Complex procurement procedures and lengthy government approval processes",
+      "C": "Lack of digital literacy training programs",
+      "D": "Overwhelming public demand for quick implementation"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Tendering, technical evaluation and multi-level administrative sanction are the classic schedule killers in government IT projects. Streamlined decision-making (a) would speed things up, and (c) and (d) affect adoption and pressure rather than implementation timelines.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 8,
+    "q": "Which of the following is not a key activity in Phase 1: e-Governance Strategy Development?",
+    "opts": {
+      "A": "Define clear vision & objectives",
+      "B": "Incorporate domestic and global learning",
+      "C": "Define funding requirements",
+      "D": "Stakeholder needs and expectations"
+    },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Strategy development is about setting direction — articulating the vision and objectives, drawing on domestic and international experience, and understanding stakeholder needs. Costing and funding requirements belong to the later project-planning/implementation-roadmap phase, once the scope is known.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 9,
+    "q": "Which challenge is commonly faced during the implementation of IT systems in e-Governance projects?",
+    "opts": {
+      "A": "Lack of stakeholder involvement",
+      "B": "Overabundance of technical resources",
+      "C": "Too much user engagement",
+      "D": "Integration issues with legacy systems, which may not be compatible with the newly developed IT infrastructure"
+    },
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Legacy integration is the textbook implementation-stage obstacle: departments hold data in older, often undocumented systems that will not interoperate with new platforms. Options (b) and (c) describe conditions that are not problems at all; (a) is a real challenge too, but it belongs to the planning stage rather than IT-system implementation, which is what the stem asks about.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 10,
+    "q": "Current-state study and desired-state study is likely to produce __________ immediately, then other processes.",
+    "opts": {
+      "A": "Gap assessment",
+      "B": "Process reengineering",
+      "C": "Resource requirement",
+      "D": "Automation"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Comparing the As-Is (current state) with the To-Be (desired state) yields, by definition, the gap between them; gap assessment is the immediate output. Reengineering, resource estimation and automation are all downstream activities that act on the identified gaps.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 11,
+    "q": "When deciding whether inhouse or outsourcing development, which of the following could be the least deciding factor?",
+    "opts": {
+      "A": "Competency of IT staff of government",
+      "B": "Trust between government officer and private partner",
+      "C": "Sensitivity of data and information",
+      "D": "Trust system between government and private partners"
+    },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Personal trust between an individual officer and a vendor is not a legitimate sourcing criterion — it is person-dependent and vanishes on transfer, which is exactly why option (d), an institutional trust framework between the two organisations, is listed separately as a valid factor. In-house capability (a) and data sensitivity (c) are the two primary decision drivers. Note (b) and (d) are near-identical in wording, so this hinges on reading 'officer' versus 'system'.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 12,
+    "q": "As per Gartner e-Governance Maturity Model, following is the correct order of phases –",
+    "opts": {
+      "A": "Information, interaction, transaction and transformation",
+      "B": "Interaction, information, transaction and transformation",
+      "C": "Transaction, information, interaction and transformation",
+      "D": "Transaction, interaction, information and transformation"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Gartner's four-stage model runs Presence/Information → Interaction → Transaction → Transformation: a government first publishes information one-way, then allows two-way interaction, then completes transactions online, and finally restructures itself around the digital channel.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 13,
+    "q": "E-Gov vision and e-Gov objectives differ mainly in –",
+    "opts": {
+      "A": "The domain where they are to be implemented",
+      "B": "The level of authority where the responsibility lies",
+      "C": "The kind of technology to be used",
+      "D": "The group of people who will actually benefit"
+    },
+    "ans": "B",
+    "conf": "low",
+    "exp": "A vision is set and owned at the apex political/administrative level for the state or department as a whole, whereas objectives are assigned to and delivered by implementing units — so the level of authority responsible is the dimension that separates them. Flagging this as low confidence: the vision/objectives distinction is normally taught as breadth-and-time-horizon rather than authority, and option (a) is a defensible reading of the same idea.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 14,
+    "q": "Which of the following is one of the biggest challenges involving people's mind regarding transformation from existing system to the e-enabled system?",
+    "opts": {
+      "A": "Financial concern",
+      "B": "Security concern",
+      "C": "E-Fear",
+      "D": "Change resistance"
+    },
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Resistance to change is the standard change-management answer for the psychological barrier to digital transformation: staff fear loss of discretion, status and familiar routines. 'E-Fear' (c) is a plausible near-synonym for the same mindset problem, which is why confidence is only medium; financial and security concerns are institutional rather than 'people's mind' issues.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 15,
+    "q": "How does \"capacity building\" contribute to the success of an e-Governance strategy?",
+    "opts": {
+      "A": "By reducing the need for skilled professionals",
+      "B": "By ensuring that government staff and citizens are trained and capable of utilizing new e-Governance systems effectively",
+      "C": "By outsourcing all e-Governance initiatives",
+      "D": "By focusing only on physical infrastructure development"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Capacity building under NeGP means creating the human skills and institutional structures to run e-Governance — training officials and raising citizen digital literacy. The distractors invert the concept: it increases rather than reduces the need for skills, and it is explicitly about people, not outsourcing or hardware.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 16,
+    "q": "What is a fundamental objective of e-Governance?",
+    "opts": {
+      "A": "To enhance the efficiency, accessibility, and transparency of public services through the use of technology",
+      "B": "To increase bureaucracy and paperwork in government services",
+      "C": "To reduce the use of technology in public administration",
+      "D": "To centralize all government services in one physical location"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "e-Governance uses ICT to make public services more efficient, more accessible and more transparent — the SMART governance formulation. The other three options each state the opposite of what e-Governance sets out to do.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 17,
+    "q": "Which of the following is an example of a G2B (Government to Business) service?",
+    "opts": {
+      "A": "Issuance of business licenses and permits",
+      "B": "Government's internal communication network",
+      "C": "Delivery of healthcare services to citizens",
+      "D": "Voting systems for citizens"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Licensing and permitting is government dealing with a business entity, the defining G2B transaction. Option (b) is G2G (internal), while (c) and (d) are G2C services delivered to citizens.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 18,
+    "q": "Which of the following most probably fall under G2G service?",
+    "opts": {
+      "A": "Application of new electricity connection by Transport department",
+      "B": "Revenue disbursement to government by electricity department",
+      "C": "Payment of electricity bills by consumers to the department",
+      "D": "Complaints made by Transport department regarding their electricity connection"
+    },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "One government department (Transport) availing a service from another government department (Electricity) is a service transaction between two government entities, i.e. G2G. Only (c) is clearly not G2G — it is G2C — so this question is weak: (b) and (d) also involve two government bodies, but (b) is a fund transfer and (d) a grievance rather than a service request, which is why (a) is the best fit.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 19,
+    "q": "The primary purpose(s) of GPR is/are –\ni. To review and re-make government processes\nii. To analyze the existing process and to make documentation\niii. To make the system more efficient",
+    "opts": {
+      "A": "i only",
+      "B": "i and ii only",
+      "C": "i and iii only",
+      "D": "i, ii and iii"
+    },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Government Process Re-engineering exists to rethink and redesign processes (i) so that service delivery becomes more efficient (iii); documenting the As-Is (ii) is a method step used to get there, not a purpose in itself, and the stem says 'primary purpose'. Confidence is medium because As-Is analysis and documentation is a core GPR activity, so (d) is a defensible alternative reading.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 20,
+    "q": "Process Reengineering is not –",
+    "opts": {
+      "A": "Translation of processes",
+      "B": "Transformation of processes",
+      "C": "Finding more efficient and more effective process",
+      "D": "Bridging As-Is and To-Be"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Reengineering fundamentally redesigns a process rather than merely rendering the existing one in a new medium — 'translating' a paper form into an online form without changing the process is exactly the anti-pattern GPR warns against. Options (b), (c) and (d) are all accurate descriptions of what reengineering does.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 21,
+    "q": "Which of the following is the least immediate result of poor governance?",
+    "opts": {
+      "A": "Declining morality",
+      "B": "People not getting their rights",
+      "C": "Poor access to government services",
+      "D": "Poor service provided to citizens"
+    },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Denial of rights, poor access and poor service quality are all felt directly and at once when governance fails; a decline in public morality is a slow, second-order societal consequence, so it is the least immediate. The word 'least' is doing all the work here — the other three are also results, just faster ones.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 22,
+    "q": "Which of the following is an advantage of prioritizing services based on risk in GPR?",
+    "opts": {
+      "A": "High-risk services are ignored to focus on low-risk ones",
+      "B": "High-risk services are addressed first, reducing the likelihood of system failures and service disruptions",
+      "C": "Risky services are left unchanged to avoid complexity",
+      "D": "The focus is only on aesthetics rather than functionality"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Risk-based prioritisation means tackling the highest-risk services first so that the largest failure exposures are removed earliest. The remaining options all describe avoiding or ignoring risk, which is the opposite of prioritising by it.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 23,
+    "q": "Which of the following is a common symptom of poor governance in Government Process Re-engineering (GPR)?",
+    "opts": {
+      "A": "Frequent delays and inefficiencies in service delivery",
+      "B": "Increased transparency and accountability",
+      "C": "Successful implementation of process improvements",
+      "D": "Effective stakeholder engagement"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Chronic delay and inefficiency in delivering services is the visible symptom that signals governance failure and triggers the need for GPR. Options (b), (c) and (d) are all indicators of good governance, not poor.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 24,
+    "q": "Which of the following best describes the traditional approach to government service delivery?",
+    "opts": {
+      "A": "Emphasis on digital interactions and automated processes",
+      "B": "Use of advanced IT systems to streamline operations",
+      "C": "Implementation of online self-service portals",
+      "D": "Reliance on manual, paper-based processes and face-to-face interactions"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The traditional model requires the citizen to visit an office in person and moves work on paper files — the very pattern e-Governance replaces. The other three options all describe the modern, ICT-enabled approach.",
+    "needs_figure": false,
+    "page": 3
+  }
+]

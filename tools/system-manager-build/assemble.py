@@ -138,10 +138,56 @@ def main(force=False):
         meta = EXTRACTED_META[key]
         sitting, paper = meta["sitting"], meta["paper"]
         data = json.load(open(path, encoding="utf-8"))
-        if len(data) != meta["expect"]:
+        if meta["expect"] is not None and len(data) != meta["expect"]:
             problems.append(f"{key}: {len(data)} questions, "
                             f"expected {meta['expect']}")
+
+        # --- MPSC's own key, where one was published (see extracted_meta.py) ---
+        # The extraction pass answered this paper blind. Those answers do NOT
+        # ship: the Commission's key outranks any model, so it overwrites `ans`
+        # here. The blind answer survives only as a check on the transcription —
+        # if a model reading the scan and MPSC reading their own paper disagree,
+        # either the options were transcribed out of order or the question is
+        # genuinely contested, and both deserve a visible note rather than a
+        # silent overwrite.
+        okey = None
+        if meta.get("key_file"):
+            kp = os.path.join(STAGED, meta["key_file"])
+            if not os.path.isfile(kp):
+                problems.append(f"{key}: key_file {meta['key_file']} missing — refusing to "
+                                f"ship this paper claiming an official key it cannot load")
+                continue
+            okey = json.load(open(kp, encoding="utf-8"))
+
         for r in data:
+            ans, conf, note, prov_official = r.get("ans"), r.get("conf"), "", None
+            if okey:
+                blind = ans
+                ans = okey["final"].get(str(r["no"]))
+                # Compensated: MPSC withdrew the question and awarded it to every
+                # candidate, so there is no correct option to teach. Ship it
+                # answerless and say why — the app's ANSWERABLE filter keeps it
+                # out of tests, and inventing an answer here would be inventing
+                # one the Commission itself retracted.
+                if r["no"] in okey.get("compensated", []):
+                    note = ("MPSC compensated this question in the final key — it was "
+                            "withdrawn and awarded to all candidates, so no option is "
+                            "the official answer. Shown for practice only.")
+                    conf = None
+                elif ans and blind and ans != blind:
+                    note = (f"An independent solve of the scan answered ({blind}); MPSC's "
+                            f"final key says ({ans}). The key is authoritative and is what "
+                            f"is marked here — but the disagreement is worth a second look.")
+                    conf = None
+                else:
+                    conf = None  # an official answer is not "derived · <confidence>"
+                prov_official = (
+                    f"Official MPSC final answer key for the {sitting} "
+                    f"(Notification {okey['notification']}, dated "
+                    f"{okey['final_key_dated']}). Question text transcribed from the "
+                    f"scanned paper by a vision pass, which also answered it blind; "
+                    f"that blind answer was compared against the key, not shipped."
+                )
             rows.append({
                 "id": f"{key}-{r['no']}",
                 "src": "past",
@@ -149,19 +195,28 @@ def main(force=False):
                 "sitting": sitting,
                 "no": r["no"],
                 "paper": paper,
-                "unit": None,
-                "sub": None,
+                # Normally None here and filled by the tag pass below. IO2024-P2
+                # arrives pre-tagged instead, the way generated.json does: its
+                # syllabus mapping was a deliberate per-question judgement (does
+                # an Informatics Officer question belong on the System Manager
+                # syllabus at all?) recorded alongside the questions it dropped,
+                # not a keyword pass that could be re-derived. The taxonomy check
+                # below validates these exactly like tagged rows.
+                "unit": r.get("unit"),
+                "sub": r.get("sub"),
                 "q": r["q"],
                 "opts": r["opts"],
-                "ans": r.get("ans"),
+                "ans": ans,
                 "exp": r.get("exp", ""),
-                "conf": r.get("conf"),
+                "conf": conf,
                 # Only the answered=True papers may claim they were answered
                 # here. For the rest this string is a placeholder that
                 # solve.py's merged prov overwrites; if the solve has NOT run
                 # it must not assert an answer that does not exist, or an
                 # unanswered question would ship reading as derived-and-checked.
-                "prov": (f"Transcribed and answered from the scanned {sitting}. "
+                "prov": (prov_official
+                         if prov_official else
+                         f"Transcribed and answered from the scanned {sitting}. "
                          f"MPSC published no answer key for this paper."
                          if meta["answered"] else
                          f"Transcribed from {sitting} ({meta['source']}). "
@@ -173,7 +228,11 @@ def main(force=False):
                 # in front of solve.py.
                 "needs_verify": not meta["answered"],
                 "needs_figure": bool(r.get("needs_figure")),
-                "note": "",
+                # Set where the official key compensated the question, or where
+                # the blind solve and the key disagree. Renders next to the
+                # provenance badge, so the reader sees the caveat on the card
+                # rather than only in a staged file they will never open.
+                "note": note,
                 "_tier": 1,
                 "_page": r.get("page"),
             })
@@ -464,12 +523,23 @@ def main(force=False):
         notes.append("staged/tags.json missing - questions will ship untagged")
 
     tax = load_taxonomy()
+    # taxonomy.json describes the three papers of the official MUDAL syllabus
+    # (GE, TECH1, TECH2) and nothing else. TECH1P (the authored practice paper)
+    # and UDC (the clerical warm-up papers) are tagged against their own unit
+    # lists, so they have no leaves here to match and must not be checked
+    # against these — 419 rows fail the moment you forget that.
+    tax_papers = {p for (p, _u, _s) in tax[0]} if tax else set()
+
     for r in rows:
         t = tags.get(r["id"])
-        if not t:
-            continue
-        r["unit"], r["sub"] = t.get("unit"), t.get("sub")
-        if tax and r["sub"] is not None:
+        if t:
+            r["unit"], r["sub"] = t.get("unit"), t.get("sub")
+        # Validate every tagged row of a paper the taxonomy covers, not only the
+        # ones tags.json supplied. generated.json and IO2024-P2 arrive
+        # pre-tagged; until this checked them too, a pre-tagged row could name a
+        # subtopic that is not on the syllabus at all and ship with a pill
+        # pointing nowhere.
+        if tax and r["sub"] is not None and r["paper"] in tax_papers:
             if (r["paper"], str(r["unit"]), r["sub"]) not in tax[0]:
                 problems.append(f"{r['id']}: tag ({r['paper']}, {r['unit']}, {r['sub']!r}) "
                                 f"is not a leaf in the taxonomy")

@@ -8,9 +8,18 @@ narrative; this file is the operational part.
 
 ## Where the source material actually is
 
-**Not in this repo, and not in `~/Downloads/mpsc_pdfs_examination/`** (that path
-is named in `CLAUDE.md` but does not exist on this machine). Everything lives in
-a sibling repo:
+**Not in this repo.** The clerical papers live in a sibling repo:
+
+⚠️**CORRECTED 2026-09-06.** This section used to add "and not in
+`~/Downloads/mpsc_pdfs_examination/` (that path is named in `CLAUDE.md` but does
+not exist on this machine)". The second half was wrong. That corpus was never
+deleted — the home directory was renamed, so the `~/Downloads/...` path resolves
+to nothing while the files sit intact at
+**`/home.old/hruaia/Downloads/mpsc_pdfs_examination/`** (3,715 PDFs, with
+`Old_Questions/`, `Answer_Keys/`, `Syllabus/` and `index.csv`). It is a real
+source of official MPSC answer keys — the Informatics Officer Paper II import of
+2026-09-06 came from there. Check it before concluding a paper is unavailable.
+The advice below still holds for the clerical papers specifically:
 
 ```
 ~/workspace/projects/personal/mpsc-question-bank/

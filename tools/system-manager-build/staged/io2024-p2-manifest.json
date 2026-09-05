@@ -1,0 +1,548 @@
+{
+  "_comment": [
+    "Every one of the paper's 100 questions is accounted for here: those",
+    "that shipped, and those held back with the reason. Nothing is dropped",
+    "silently -- a held question can be revisited, an invisible one cannot.",
+    "",
+    "'(X of 100)' is the only honest way to describe this import, and this",
+    "file is what backs that claim."
+  ],
+  "srcKey": "IO2024-P2",
+  "source_paper_questions": 100,
+  "shipped": 18,
+  "held": 82,
+  "blind_vs_official_key": {
+    "_comment": "The vision pass answered every question WITHOUT seeing the key; this is that answer set scored against MPSC's. It measures the transcription, not the reader's exam.",
+    "scored": 99,
+    "agreed": 94,
+    "disagreed": 5,
+    "disagreements": [
+      {
+        "no": 8,
+        "blind": "C",
+        "official": "D",
+        "blind_conf": "medium"
+      },
+      {
+        "no": 18,
+        "blind": "A",
+        "official": "B",
+        "blind_conf": "medium"
+      },
+      {
+        "no": 32,
+        "blind": "D",
+        "official": "C",
+        "blind_conf": "low"
+      },
+      {
+        "no": 82,
+        "blind": "C",
+        "official": "A",
+        "blind_conf": "low"
+      },
+      {
+        "no": 96,
+        "blind": "A",
+        "official": "C",
+        "blind_conf": "medium"
+      }
+    ],
+    "high_confidence_disagreements": 0
+  },
+  "compensated_questions_shipped_answerless": [],
+  "held_questions": [
+    {
+      "no": 1,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Properties of good governance (accountability, transparency, consensus) — public-administration theory; no TECH2 leaf covers governance principles. pass2: Properties of good governance (accountability, transparency, consensus) — public-administration theory; no TECH2 leaf covers governance principles.",
+      "q": "Which of the following is/are regarded as the properties of good governance?\ni. Accountability\nii. Transparency\niii. Consensus"
+    },
+    {
+      "no": 2,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Terminology for citizen-facing government services (Citizen Centric Services) — e-Governance vocabulary, not on the TECH2 syllabus. pass2: Terminology for citizen-facing government services (G2C); e-Governance service taxonomy is not on the TECH2 syllabus.",
+      "q": "Government services such as obtaining driving license, property registration etc which are directly utilized by the people are collectively termed as –"
+    },
+    {
+      "no": 3,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Trade-offs in public service delivery design — e-Governance policy, not any networking/DBMS/web/security/IT-governance leaf. pass2: Trade-offs in designing public service delivery; a policy-design question with no TECH2 leaf.",
+      "q": "Which of the following could to be a trade-off and challenge when services are to be provided to people?"
+    },
+    {
+      "no": 4,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Definition of 'responsiveness' in good governance — public-administration theory, no covering leaf. pass2: Definition of 'responsiveness' in good governance — public-administration theory, not IT governance.",
+      "q": "In good governance, what does the term \"responsiveness\" refer to?"
+    },
+    {
+      "no": 5,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Principles of a Citizen Charter — public-administration doctrine, not on the TECH2 syllabus. pass2: Principles of a Citizen Charter — administrative-reform doctrine, not covered by any TECH2 leaf.",
+      "q": "Which of the following is a key principle of a Citizen Charter?"
+    },
+    {
+      "no": 6,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Causes of the digital divide in rural e-Governance — policy/socio-economic, no covering leaf. pass2: Causes of the digital divide in rural e-Governance — development policy, no TECH2 leaf.",
+      "q": "Which factor contributes most to the digital divide, posing a challenge for e-Governance projects in rural areas?"
+    },
+    {
+      "no": 7,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Causes of delay in e-Governance project implementation — e-Gov programme management, not IT Procurement practice as such. pass2: Causes of delay in e-Governance project implementation; about programme delivery generally, not IT procurement practice.",
+      "q": "Which issue can cause delays in the implementation of e-Governance projects?"
+    },
+    {
+      "no": 8,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Key activities of 'Phase 1: e-Governance Strategy Development' — a specific e-Gov strategy framework, no covering leaf. pass2: Activities in the e-Governance Strategy Development phase — an e-Gov programme framework not on the TECH2 syllabus.",
+      "q": "Which of the following is not a key activity in Phase 1: e-Governance Strategy Development?"
+    },
+    {
+      "no": 9,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Common challenges implementing IT systems in e-Governance projects — e-Gov programme management, no covering leaf. pass2: Implementation challenges of e-Governance IT systems (legacy integration); no TECH2 leaf covers e-Gov programme management.",
+      "q": "Which challenge is commonly faced during the implementation of IT systems in e-Governance projects?"
+    },
+    {
+      "no": 10,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Gap assessment from as-is/to-be studies in Government Process Re-engineering — GPR methodology, not on the TECH2 syllabus. pass2: Gap assessment in the current-state/desired-state study of GPR; a business-analysis method with no TECH2 leaf.",
+      "q": "Current-state study and desired-state study is likely to produce __________ immediately, then other processes."
+    },
+    {
+      "no": 11,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: In-house vs outsourced development decision factors for government — e-Gov sourcing strategy, beyond the IT Procurement leaf. pass2: In-house versus outsourced development decision factors for government; no TECH2 leaf covers sourcing strategy.",
+      "q": "When deciding whether inhouse or outsourcing development, which of the following could be the least deciding factor?"
+    },
+    {
+      "no": 12,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Gartner e-Governance Maturity Model phase order — e-Gov maturity framework, no covering leaf. pass2: Gartner e-Governance Maturity Model phases — an e-Gov maturity framework absent from TECH2.",
+      "q": "As per Gartner e-Governance Maturity Model, following is the correct order of phases –"
+    },
+    {
+      "no": 13,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Difference between e-Gov vision and e-Gov objectives — e-Gov strategy theory, no covering leaf. pass2: Distinction between e-Gov vision and objectives — strategy doctrine, no TECH2 leaf.",
+      "q": "E-Gov vision and e-Gov objectives differ mainly in –"
+    },
+    {
+      "no": 14,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Change resistance during transformation to e-enabled systems — organisational change management, no covering leaf. pass2: Change resistance during transition to e-enabled systems — organisational change management, not on TECH2.",
+      "q": "Which of the following is one of the biggest challenges involving people's mind regarding transformation from existing system to the e-enabled system?"
+    },
+    {
+      "no": 15,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Role of capacity building in e-Governance strategy — e-Gov programme design, no covering leaf. pass2: Role of capacity building in e-Governance strategy; a programme-design topic with no TECH2 leaf.",
+      "q": "How does \"capacity building\" contribute to the success of an e-Governance strategy?"
+    },
+    {
+      "no": 16,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Fundamental objective of e-Governance — e-Gov doctrine, no covering leaf. pass2: Fundamental objectives of e-Governance — policy rationale, no TECH2 leaf.",
+      "q": "What is a fundamental objective of e-Governance?"
+    },
+    {
+      "no": 17,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Identifying a G2B service — e-Governance service-category taxonomy, not on the TECH2 syllabus. pass2: Identifying a G2B service; e-Governance service-category taxonomy is not on TECH2.",
+      "q": "Which of the following is an example of a G2B (Government to Business) service?"
+    },
+    {
+      "no": 18,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Identifying a G2G service — e-Governance service-category taxonomy, not on the TECH2 syllabus. pass2: Identifying a G2G service; same e-Gov taxonomy, no TECH2 leaf.",
+      "q": "Which of the following most probably fall under G2G service?"
+    },
+    {
+      "no": 19,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Purpose of Government Process Re-engineering (GPR) — GPR methodology, no covering leaf. pass2: Purpose of Government Process Re-engineering — a public-sector BPR topic absent from TECH2.",
+      "q": "The primary purpose(s) of GPR is/are –\ni. To review and re-make government processes\nii. To analyze the existing process and to make documentation\niii. To make "
+    },
+    {
+      "no": 20,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: What Process Reengineering is not — GPR methodology, no covering leaf. pass2: What process reengineering is and is not — BPR theory, no TECH2 leaf.",
+      "q": "Process Reengineering is not –"
+    },
+    {
+      "no": 21,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Consequences of poor governance — public-administration theory, no covering leaf. pass2: Consequences of poor governance — public-administration theory, no TECH2 leaf.",
+      "q": "Which of the following is the least immediate result of poor governance?"
+    },
+    {
+      "no": 22,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Risk-based prioritisation of services within GPR — GPR methodology, no covering leaf. pass2: Risk-based prioritisation of services within GPR — BPR method, not on TECH2.",
+      "q": "Which of the following is an advantage of prioritizing services based on risk in GPR?"
+    },
+    {
+      "no": 23,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Symptoms of poor governance in GPR — GPR methodology, no covering leaf. pass2: Symptoms of poor governance in GPR — BPR/governance diagnosis, no TECH2 leaf.",
+      "q": "Which of the following is a common symptom of poor governance in Government Process Re-engineering (GPR)?"
+    },
+    {
+      "no": 24,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Characterising the traditional (paper-based) government service delivery model — e-Gov context-setting, no covering leaf. pass2: Characterising the traditional (manual, paper-based) service delivery model; e-Gov background, no TECH2 leaf.",
+      "q": "Which of the following best describes the traditional approach to government service delivery?"
+    },
+    {
+      "no": 25,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Named principles of Process Reengineering — GPR methodology, no covering leaf. pass2: Principles of process reengineering — BPR theory, not on TECH2.",
+      "q": "Which of the following is the principle for Process Reengineering?"
+    },
+    {
+      "no": 30,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Strengths of the Public-Private Partnership delivery model — infrastructure/PPP policy, not IT procurement practice. pass2: Strengths of the Public-Private Partnership model — PPP/public-finance theory, no TECH2 leaf.",
+      "q": "Which of the following is not considered as the strength of using PPP?"
+    },
+    {
+      "no": 31,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Conditions a PPP arrangement must satisfy — PPP policy doctrine, no covering leaf. pass2: Conditions a PPP must satisfy — PPP doctrine, beyond the TECH2 IT Governance leaves.",
+      "q": "PPP must satisfy the following(s) –\ni. Win-win situation for both public and private\nii. It should save troubles for public\niii. Cost of service should remain s"
+    },
+    {
+      "no": 32,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Risk concerns in PPP arrangements — PPP policy doctrine, no covering leaf. pass2: Risk concerns in PPP arrangements — PPP theory, no TECH2 leaf.",
+      "q": "Which of the following is considered incorrect when risk concern is addressed in PPP?"
+    },
+    {
+      "no": 34,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Distinguishing one-time project costs from recurring AMC in e-Gov project costing — project cost modelling, no covering leaf. pass2: Classifying one-time versus recurring project costs; IT project costing/budgeting is not a TECH2 leaf.",
+      "q": "This is a one-time cost associated with costs related to the software design, development and maintenance projects."
+    },
+    {
+      "no": 35,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Revenue streams for e-Governance initiatives — e-Gov business/financial model, no covering leaf. pass2: Revenue streams for e-Governance initiatives — project financing, no TECH2 leaf.",
+      "q": "Which of the following is a potential revenue stream for e-Governance initiatives?"
+    },
+    {
+      "no": 36,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: How the Project Finance model funds a project — infrastructure finance, no covering leaf. pass2: How the Project Finance model funds a project — infrastructure finance, not on TECH2.",
+      "q": "In the Project Finance model, how is the project typically funded?"
+    },
+    {
+      "no": 37,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Role of a 'Concessionaire' in the Private Finance model — infrastructure finance, no covering leaf. pass2: Role of a concessionaire in the Private Finance model — PPP contracting theory, no TECH2 leaf.",
+      "q": "What is the role of a “Concessionaire” in the Private Finance model?"
+    },
+    {
+      "no": 38,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Identifying the BOOT business model — PPP/infrastructure delivery models, no covering leaf. pass2: Identifying the BOOT delivery model — PPP business models, absent from TECH2.",
+      "q": "An e-governance business model in which public sector hired private partner to build the service model, take care as its own, operate and after running smoothly"
+    },
+    {
+      "no": 39,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Key feature of the PPP model — PPP policy doctrine, no covering leaf. pass2: Key feature of the PPP model — PPP theory, no TECH2 leaf.",
+      "q": "What is a key feature of the Public-Private Partnership (PPP) model?"
+    },
+    {
+      "no": 40,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Identifying BHIM among Digital India payment apps — national scheme general knowledge, no covering leaf. pass2: Recall of the BHIM/UPI mobile payment app under Digital India — a scheme-awareness question with no TECH2 leaf.",
+      "q": "Which mobile payment system, launched under Digital India, enables users to make payments using their smartphones by scanning QR codes?"
+    },
+    {
+      "no": 41,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Net investment = gross investment minus depreciation — an economics definition, not a numerical-ability computation. pass2: Net investment equals gross investment minus depreciation — an economics definition, not a Numerical Ability computation.",
+      "q": "Net investment of private entity on equipment is best described by –"
+    },
+    {
+      "no": 42,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Identifying the National Digital Library of India — national scheme general knowledge, no covering leaf. pass2: Recall of the National Digital Library platform — government scheme awareness, no TECH2 leaf.",
+      "q": "Which platform was developed by Ministry of Education for open access to academic resources?"
+    },
+    {
+      "no": 43,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Identifying DigiLocker — national scheme general knowledge; the Digital Governance Systems leaves cover eOffice, not DigiLocker. pass2: Recall of DigiLocker — Digital India scheme awareness, not covered by the e-Office/records leaves.",
+      "q": "Platform through which documents such as educational, insurance, vehicle documents, driving license etc were made available digitally and accepted by government"
+    },
+    {
+      "no": 44,
+      "reason": "mapping_disagreement_on_off",
+      "detail": "one pass placed this at IV/'Digital Signature Certificate (DSC)', the other called it off-syllabus: Recall of the eSign e-KYC service by name — Digital India scheme awareness rather than DSC concepts.",
+      "q": "Signing and authenticating documents over online system by means of e-KYC can be done with the provision called –"
+    },
+    {
+      "no": 45,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Academic Bank of Credits under NEP 2020 — education-policy general knowledge, no covering leaf. pass2: Academic Bank of Credits under NEP 2020 — education policy, no TECH2 leaf.",
+      "q": "Which of the following is an initiative under NEP 2020 in which a centralized bank of students' academic records that allows students to carry their credits ove"
+    },
+    {
+      "no": 46,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Vision areas of the Digital India programme — national scheme general knowledge, no covering leaf. pass2: Vision areas of the Digital India programme — scheme awareness, no TECH2 leaf.",
+      "q": "Which of the following is a key vision area under the Digital India program?"
+    },
+    {
+      "no": 47,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: PMJDY and financial inclusion — national scheme general knowledge, no covering leaf. pass2: PMJDY financial-inclusion programme — scheme awareness, no TECH2 leaf.",
+      "q": "Which program under Digital India focuses on providing universal access to banking facilities, particularly through mobile banking and financial services?"
+    },
+    {
+      "no": 48,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Role of Common Service Centres in Digital India — national scheme general knowledge, no covering leaf. pass2: Role of Common Service Centres in Digital India — scheme awareness, no TECH2 leaf.",
+      "q": "How do Common Service Centers (CSCs) contribute to the Digital India vision?"
+    },
+    {
+      "no": 49,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: The nine pillars of Digital India — national scheme general knowledge, no covering leaf. pass2: The nine pillars of Digital India — scheme awareness, no TECH2 leaf.",
+      "q": "Which of the following is NOT one of the nine pillars of the Digital India program?"
+    },
+    {
+      "no": 50,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Identifying SWAYAM as the Digital India education platform — national scheme general knowledge, no covering leaf. pass2: Recall of the SWAYAM education platform — scheme awareness, no TECH2 leaf.",
+      "q": "Which platform under Digital India provides free and accessible educational resources for students across the country?"
+    },
+    {
+      "no": 51,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: APAAR, the 12-digit student identifier — education-policy general knowledge, no covering leaf. pass2: APAAR/student ID registry under NEP — education policy recall, no TECH2 leaf.",
+      "q": "A 12-digit unique number which is designed for identification of each student in India and is supposed to be linked with institutions' roll number so that stude"
+    },
+    {
+      "no": 52,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Components of Enterprise Architecture — EA discipline; TECH2 has no enterprise-architecture leaf. pass2: Components of enterprise architecture; EA is not among the TECH2 leaves.",
+      "q": "Which of the following may not be included in the components of enterprise architecture?"
+    },
+    {
+      "no": 53,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Service Oriented Architecture as a reuse-based architectural style — software architecture, not the REST API concept leaf. pass2: Service Oriented Architecture as an architectural style; TECH2 covers REST APIs as a concept but not SOA/EA.",
+      "q": "Which type of architectural platform makes use of existing reusable services available in the internet/network to build applications?"
+    },
+    {
+      "no": 55,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Primary goal of Enterprise Architecture (aligning IT strategy with business goals) — EA discipline, no covering leaf. pass2: Primary goal of Enterprise Architecture — an EA discipline question with no TECH2 leaf.",
+      "q": "What is the primary goal of Enterprise Architecture (EA) in an organization?"
+    },
+    {
+      "no": 56,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Cost and accuracy challenges of bulk data digitisation — records-conversion project practice, no covering leaf. pass2: Cost and accuracy challenges of bulk data digitization; the TECH2 records leaves are e-Office specific, not digitization projects.",
+      "q": "What is a common challenge faced during the data digitization process?"
+    },
+    {
+      "no": 63,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Naming 'IT audit of e-Governance' as the review activity — IT audit is not a TECH2 leaf. pass2: IT audit of e-Governance as an assurance activity; the TECH2 'Auditing' leaf is database auditing, not organisational IT audit.",
+      "q": "To check whether organizational network and systems are secure or not, whether software serve their purpose or not, the organization may conduct –"
+    },
+    {
+      "no": 64,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Priority ordering for policy makers reviewing e-Governance status — e-Gov review doctrine, no covering leaf. pass2: Priority ordering for political review of e-Governance status — governance policy, no TECH2 leaf.",
+      "q": "Policy makers and people's representatives should maintain one of the following deceasing lists of priorities when reviewing status of e-Governance is concerned"
+    },
+    {
+      "no": 65,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Most critical risk to assess in an IT audit of an e-Governance project — IT audit practice, not a TECH2 leaf. pass2: Most critical risk in an IT audit of an e-Gov project; audit risk assessment is not a TECH2 leaf.",
+      "q": "Which of the following is the most critical risk to assess during an IT audit of an e-Governance project?"
+    },
+    {
+      "no": 66,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: What makes an e-Governance project sustainable (revenue model) — e-Gov business model, no covering leaf. pass2: Sustainability of e-Governance projects via a revenue model — project financing, no TECH2 leaf.",
+      "q": "To ensure the sustainability of e-Governance projects, which of the following is crucial?"
+    },
+    {
+      "no": 67,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Who bears the largest initial investment in e-Governance — e-Gov financing, no covering leaf. pass2: Who bears the largest initial e-Governance investment — project financing, no TECH2 leaf.",
+      "q": "The initial investment in implementing e-Governance is largest from –"
+    },
+    {
+      "no": 68,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Predominant development approach for e-Governance applications — e-Gov delivery practice, no covering leaf. pass2: Predominant software development approach in e-Governance; a sector-practice observation with no TECH2 leaf.",
+      "q": "What is the predominant software development approach used for e-Governance applications?"
+    },
+    {
+      "no": 69,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Cost drivers of COTS/ERP applications for e-Governance — e-Gov project costing, beyond software asset management. pass2: What drives COTS/ERP pricing in e-Gov projects; product-costing rather than software asset management practice.",
+      "q": "Which factor primarily influences the cost of COTS/ERP applications for e-Governance?"
+    },
+    {
+      "no": 70,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: What the Copyright Act says about source-code ownership — intellectual-property law, no covering leaf. pass2: Source-code ownership under the Copyright Act — intellectual property law, no TECH2 leaf.",
+      "q": "What does the Copyright Act state about the ownership of source code?"
+    },
+    {
+      "no": 71,
+      "reason": "rejected_on_review",
+      "detail": "both passes mapped this to V/'Software Asset Management', but human review rejected it: open-source popularity — licensing philosophy, not Software Asset Management",
+      "q": "Why has open-source software gained significant popularity and influence in recent years?"
+    },
+    {
+      "no": 72,
+      "reason": "rejected_on_review",
+      "detail": "both passes mapped this to V/'Software Asset Management', but human review rejected it: copyleft redistribution terms — licensing law, not Software Asset Management",
+      "q": "In the context of open-source licensing, what is required if modifications are made to the source code?"
+    },
+    {
+      "no": 73,
+      "reason": "rejected_on_review",
+      "detail": "both passes mapped this to V/'Software Asset Management', but human review rejected it: proprietary vs open-source licensing models — not Software Asset Management",
+      "q": "What distinguishes the Proprietary Model from the Open Source Model in software licensing?"
+    },
+    {
+      "no": 74,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: The people dimension of organisational change — change management, no covering leaf. pass2: The people dimension of organisational change; change management is not among the TECH2 leaves.",
+      "q": "What is a key component of the people dimension of change that significantly impacts project success?"
+    },
+    {
+      "no": 75,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: MOTS/COTS/GOTS acquisition-category jargon — software acquisition trivia, too narrow for any leaf. pass2: MOTS/COTS/GOTS acquisition jargon — specialist software-acquisition vocabulary with no TECH2 leaf.",
+      "q": "Software which is modified and tailor made from existing reusable platforms and functions and is for specific application is called –"
+    },
+    {
+      "no": 76,
+      "reason": "rejected_on_review",
+      "detail": "both passes mapped this to V/'Software Asset Management', but human review rejected it: definition of FOSS — licensing terminology, not Software Asset Management",
+      "q": "Software whose source code is available publicly and could provide freedom for developers and users to modify for their needs is termed as –"
+    },
+    {
+      "no": 77,
+      "reason": "rejected_on_review",
+      "detail": "both passes mapped this to V/'Software Asset Management', but human review rejected it: support risk of OSS in e-Governance — procurement opinion, not asset management",
+      "q": "What could be the main concern in using Open Source software for e-Governance implementation?"
+    },
+    {
+      "no": 79,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Principle that communication must run in parallel with change — change-management communication, not a Business Communication leaf. pass2: Communication principles within a change programme — organisational change management, not business communication formats.",
+      "q": "Which principle of effective communication emphasizes that communication must be fully integrated with the change process?"
+    },
+    {
+      "no": 80,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Poor prioritisation as a cause of change-initiative failure — change management, no covering leaf. pass2: Poor prioritisation as a cause of change-initiative failure — change management, no TECH2 leaf.",
+      "q": "Which of the following is a key reason for failure in a change initiative due to poor prioritization?"
+    },
+    {
+      "no": 81,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Why large organisations decline (non-adaptability to change) — organisational theory, no covering leaf. pass2: Why large organisations decline (non-adaptability to change) — management theory, no TECH2 leaf.",
+      "q": "Many of the large organizations fade in time primarily due to -"
+    },
+    {
+      "no": 82,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Primary challenge in managing change during e-Governance transition — change management, no covering leaf. pass2: Primary challenge in managing change during e-Governance transition — change management, no TECH2 leaf.",
+      "q": "One of the primary challenges in management of change in transition to e-Governance is -"
+    },
+    {
+      "no": 83,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Classifying change management as incremental vs transformational — change-management theory, no covering leaf. pass2: Classifying change as incremental versus transformational — change management typology, no TECH2 leaf.",
+      "q": "When trying to classify change management into two types, what could be the most probable types?"
+    },
+    {
+      "no": 84,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Legal framework needed for changes to laws and codes under e-Governance — legal/regulatory, no covering leaf. pass2: Legal framework needed for changes to laws and codes under e-Governance — legal/policy, no TECH2 leaf.",
+      "q": "Which framework is necessary to take care of change of laws, codes, regulations when implementing e-Governance?"
+    },
+    {
+      "no": 85,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Year of the Information Technology Act — cyber law; TECH2 has no IT Act or cyber-law leaf. pass2: Year of the Information Technology Act; cyber law is not among the TECH2 leaves.",
+      "q": "Information Technology Act __________ is mainly responsible for incorporation of IT related laws, rules and regulations such as e-Commerce, cybercrime etc."
+    },
+    {
+      "no": 86,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Section 66A of the IT Act and its 2015 striking down — cyber law, no covering leaf. pass2: Section 66A of the IT Act and its 2015 striking down — statute recall, no TECH2 leaf.",
+      "q": "Which section of the Information Technology Act criminalizes sending offensive messages through computer or other communication devices but has been struct down"
+    },
+    {
+      "no": 87,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: What Section 5 of the IT Act accepts as a digital signature — statutory cyber law, no covering leaf. pass2: What Section 5 of the IT Act recognises as a digital signature — legal recall keyed to a section number, no TECH2 leaf.",
+      "q": "The digital signature accepted by Section 5 of Information Technology Act is -"
+    },
+    {
+      "no": 88,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: The UNCITRAL Model Law as the basis of the IT Act, 2000 — cyber law, no covering leaf. pass2: The UNCITRAL Model Law basis of the IT Act, 2000 — legal history, no TECH2 leaf.",
+      "q": "The IT Act, 2000 was modelled on which international framework?"
+    },
+    {
+      "no": 89,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Documents excluded from the IT Act, 2000 — statutory cyber law, no covering leaf. pass2: Exceptions to the applicability of the IT Act, 2000 — statute recall, no TECH2 leaf.",
+      "q": "What exception is extended to the applicability of the IT Act, 2000?"
+    },
+    {
+      "no": 91,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Which section of a Detailed Project Report covers sustainability — DPR structure, an e-Gov project artefact with no leaf. pass2: Which DPR section covers sustainability and replicability; DPR structure is an e-Gov project artefact with no TECH2 leaf.",
+      "q": "In a DPR, what section would cover \"Means of sustaining the project benefits\" and \"Means of replicating the project success\"?"
+    },
+    {
+      "no": 92,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Definition of a Detailed Project Report — e-Gov project funding artefact, no covering leaf. pass2: Definition of a Detailed Project Report — project-funding documentation not covered by the TECH2 documentation leaf.",
+      "q": "The document which is prepared to get funding and support by the funding agency justifying all technical and financial matters is called -"
+    },
+    {
+      "no": 94,
+      "reason": "rejected_on_review",
+      "detail": "both passes mapped this to V/'IT Procurement', but human review rejected it: near-duplicate of Q93; both ask which contract head covers Force Majeure",
+      "q": "Clause(s) in contract agreement that deals with the procedure when natural catastrophe or unforeseen situation arises is usually put under the head -"
+    },
+    {
+      "no": 96,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Distinguishing impact, process and outcome evaluation — monitoring-and-evaluation methodology, no covering leaf. pass2: Impact versus process versus outcome evaluation — programme evaluation methodology, no TECH2 leaf.",
+      "q": "Which type of evaluation assesses whether changes are a result of the interventions?"
+    },
+    {
+      "no": 97,
+      "reason": "mapping_disagreement_on_off",
+      "detail": "one pass placed this at V/'Project Management Fundamentals', the other called it off-syllabus: Distinction between monitoring and evaluation — M&E methodology, not standard project management fundamentals.",
+      "q": "__________ tries to ensure meeting of specification time to time, whereas __________ rather measures the meeting of intended purpose."
+    },
+    {
+      "no": 100,
+      "reason": "off_syllabus",
+      "detail": "both passes agree this is off the System Manager syllabus. pass1: Which IT Act section gives electronic records legal parity with paper — statutory cyber law, no covering leaf. pass2: Which IT Act section gives digital records legal parity with paper — statute recall, no TECH2 leaf.",
+      "q": "Which section of the Information Technology Act recognize digital records be legally equivalent to paper records as long as they are accessible for future refer"
+    }
+  ]
+}

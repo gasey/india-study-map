@@ -1,0 +1,407 @@
+[
+  {
+    "no": 54,
+    "q": "Which of the following is not true?",
+    "opts": {
+      "A": "Public Key Infrastructure uses only public key",
+      "B": "Digital Signature system requires public and private keys",
+      "C": "Digital certificate requires digital signature",
+      "D": "The digital certificate is valid only approved by CA"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "PKI is by definition an asymmetric system: every entity holds a key pair, and the private key is what signs or decrypts, so saying PKI uses only the public key is false. The other three statements are accurate descriptions of digital signatures, certificates and CA validation.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 55,
+    "q": "What is the primary goal of Enterprise Architecture (EA) in an organization?",
+    "opts": {
+      "A": "To define the physical layout of the office buildings",
+      "B": "To develop mobile applications for the organization",
+      "C": "To enhance the organization's social media presence",
+      "D": "To align the organization's IT strategy with its business goals and improve overall efficiency"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Enterprise Architecture is a discipline for aligning IT capability, data and processes with business strategy so that technology investment serves organizational objectives. The 'physical layout' option is the classic trap that reads 'architecture' literally.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 56,
+    "q": "What is a common challenge faced during the data digitization process?",
+    "opts": {
+      "A": "Lack of physical storage space",
+      "B": "Difficulty in maintaining electronic records",
+      "C": "High costs of digitization and ensuring data accuracy during conversion",
+      "D": "Limited access to paper documents"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Bulk conversion of legacy records is expensive and error-prone; scan/OCR quality and validation of converted data are the standard difficulties cited in e-Governance digitization projects. Options (a) and (d) describe problems digitization solves rather than causes.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 57,
+    "q": "Which of the following is an example of an attack that scans a network to gather information or find vulnerabilities?",
+    "opts": {
+      "A": "Probing",
+      "B": "Packet Sniffing",
+      "C": "Denial of Service (DOS)",
+      "D": "Malware"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Probing (reconnaissance scanning) actively queries hosts and ports to enumerate services and weaknesses. Packet sniffing is passive interception of traffic already flowing, not scanning, and is the common distractor here.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 58,
+    "q": "Which of the following is an example of a security best practice?",
+    "opts": {
+      "A": "Using tools like MD5 checksums to ensure system integrity",
+      "B": "Avoiding the use of encryption for sensitive data",
+      "C": "Disabling audit systems to reduce data storage requirements",
+      "D": "Avoiding system upgrades to prevent disruptions"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "File-integrity checking against known checksums is a recognised control, and the other three options each describe an explicitly bad practice. Note for a 2026 reader: MD5 is now cryptographically broken and SHA-256 is used instead, but integrity checking as a practice is still correct.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 59,
+    "q": "What is the function of a firewall in network security?",
+    "opts": {
+      "A": "To encrypt network data",
+      "B": "To block unauthorized access to private network resources",
+      "C": "To monitor network activity for suspicious behaviour",
+      "D": "To detect and respond to intrusions"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A firewall enforces an access-control policy at the network boundary, permitting or denying traffic to protected resources. Options (c) and (d) describe IDS and IPS respectively, which are the intended distractors.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 60,
+    "q": "What is a digital signature primarily used for in cryptographic communications?",
+    "opts": {
+      "A": "Encrypting the entire message",
+      "B": "Verifying the sender's identity and ensuring non-repudiation",
+      "C": "Monitoring network traffic",
+      "D": "Blocking unauthorized access to the network"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A digital signature binds a message hash to the signer's private key, giving authentication, integrity and non-repudiation. It does not provide confidentiality, so 'encrypting the entire message' is the trap.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 61,
+    "q": "Which of the following technique(s) uses same key for encryption and decryption?\ni. PKI\nii. AES\niii. DES",
+    "opts": {
+      "A": "i and ii only",
+      "B": "i and iii only",
+      "C": "ii and iii only",
+      "D": "i, ii and iii"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "AES and DES are symmetric block ciphers, where the same secret key both encrypts and decrypts. PKI is asymmetric by definition, so any option containing (i) is wrong.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 62,
+    "q": "Main role of public key and private key pair can be visualized respectively as –",
+    "opts": {
+      "A": "Guest and Authenticated user",
+      "B": "Encryption and authentication",
+      "C": "Username and password",
+      "D": "Internet and LAN"
+    },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Taken in the stated order, the public key is what others use to encrypt to you, while the private key is what proves your identity when signing, i.e. authentication. Option (c) is a tempting analogy but a username is not a cryptographic key and carries no encryption role.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 63,
+    "q": "To check whether organizational network and systems are secure or not, whether software serve their purpose or not, the organization may conduct –",
+    "opts": {
+      "A": "Fault search",
+      "B": "Physical audit",
+      "C": "IT audit of e-Governance",
+      "D": "Financial checking"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An IT audit is precisely the systematic examination of information systems controls, security posture and fitness for purpose. Physical audit and financial checking cover assets and accounts, not systems.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 64,
+    "q": "Policy makers and people's representatives should maintain one of the following deceasing lists of priorities when reviewing status of e-Governance is concerned –",
+    "opts": {
+      "A": "Department, Resources, Recruitment",
+      "B": "Financial, Manpower, Infrastructures",
+      "C": "Technical position, financial position, current status",
+      "D": "Citizen, Services, Implementation"
+    },
+    "ans": "D",
+    "conf": "medium",
+    "exp": "e-Governance doctrine is citizen-centric: the citizen comes first, then the services delivered to them, then the implementation machinery. The other lists are all internally focused on the department's own resources. The stem's 'deceasing' is a printing error for 'decreasing'.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 65,
+    "q": "Which of the following is the most critical risk to assess during an IT audit of an e-Governance project?",
+    "opts": {
+      "A": "Financial instability of the vendor",
+      "B": "Lack of user adoption",
+      "C": "Data privacy and confidentiality breaches",
+      "D": "Vendor contract fulfillment"
+    },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "e-Governance systems hold large volumes of citizen personal data, so breach of privacy and confidentiality is the risk with the gravest and least reversible consequences, and it is squarely within an IT audit's scope. Vendor solvency and contract performance are real risks but belong more to procurement and financial audit.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 66,
+    "q": "To ensure the sustainability of e-Governance projects, which of the following is crucial?",
+    "opts": {
+      "A": "Revenue model",
+      "B": "Technical model",
+      "C": "Data flow diagram",
+      "D": "Use case diagram"
+    },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Sustainability here means the project can fund its own operation and maintenance after the initial grant is spent, which is what a revenue model provides. DFDs and use case diagrams are design artefacts and say nothing about long-run viability.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 67,
+    "q": "The initial investment in implementing e-Governance is largest from –",
+    "opts": {
+      "A": "Corporations",
+      "B": "State Bank of India",
+      "C": "PPP",
+      "D": "Government"
+    },
+    "ans": "D",
+    "conf": "medium",
+    "exp": "e-Governance infrastructure such as SWAN, SDCs and CSCs is overwhelmingly funded up front by the government under national programmes like NeGP. PPP arrangements exist but supply a smaller share of the initial capital outlay.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 68,
+    "q": "What is the predominant software development approach used for e-Governance applications?",
+    "opts": {
+      "A": "Off-the-shelf COTS/ERP applications",
+      "B": "Outsourcing development to third parties",
+      "C": "Predominantly custom software development",
+      "D": "Open-source software only"
+    },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Government processes are defined by statute and departmental rules that packaged products rarely match, so most e-Governance applications are custom built to the department's workflow. Option (b) describes who does the work, not the development approach, which is the ambiguity in this item.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 69,
+    "q": "Which factor primarily influences the cost of COTS/ERP applications for e-Governance?",
+    "opts": {
+      "A": "The functionality of the custom code",
+      "B": "The vendor, the product, and the number of users",
+      "C": "The local regulations and policies",
+      "D": "The quality of in-house development teams"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "COTS and ERP products are licensed commercially, so price is driven by which vendor and product is chosen and by the seat or user count. Custom-code effort and in-house team quality drive the cost of bespoke development, not of a bought package.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 70,
+    "q": "What does the Copyright Act state about the ownership of source code?",
+    "opts": {
+      "A": "The government automatically owns the source code",
+      "B": "The source code ownership automatically rests with the developer or private partner",
+      "C": "The source code is owned jointly by the government and the vendor",
+      "D": "The government must purchase the source code separately"
+    },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Under copyright law the author of a computer program is the first owner of the copyright, so ownership vests in the developer unless the contract expressly assigns it to the procuring department. This is why e-Governance procurement guidance insists on an explicit IPR assignment clause.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 71,
+    "q": "Why has open-source software gained significant popularity and influence in recent years?",
+    "opts": {
+      "A": "It is solely used by large IT corporations.",
+      "B": "It is more expensive than proprietary software.",
+      "C": "It is primarily used for hardware development.",
+      "D": "It offers independence from software producers and supports the 'free-of-charge principle.'"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Freedom from vendor lock-in plus zero licence cost are the standard reasons governments cite for adopting FOSS. The other three options are factually wrong statements about open source.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 72,
+    "q": "In the context of open-source licensing, what is required if modifications are made to the source code?",
+    "opts": {
+      "A": "The modified software must be distributed under a different license",
+      "B": "The modifications must be kept confidential",
+      "C": "The modifications must be distributed under the same terms as the original license",
+      "D": "The modified software cannot be distributed"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "This is the copyleft or share-alike condition found in the GPL and similar licences: derivative works must carry the same licence terms as the original. Note that permissive licences such as MIT and BSD do not impose this, so the statement holds for copyleft licences specifically.",
+    "needs_figure": false,
+    "page": 9
+  },
+  {
+    "no": 73,
+    "q": "What distinguishes the Proprietary Model from the Open Source Model in software licensing?",
+    "opts": {
+      "A": "Proprietary licenses allow sublicensing and modifications",
+      "B": "Open Source licenses restrict modifications and upgrades",
+      "C": "Proprietary licenses prohibit modifications and generally do not allow sublicensing",
+      "D": "Open Source licenses charge fees for the source code"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Proprietary licences withhold the source code and forbid modification or redistribution, which is exactly the freedom open-source licences grant. Options (a), (b) and (d) each invert the true position of one of the two models.",
+    "needs_figure": false,
+    "page": 9
+  },
+  {
+    "no": 74,
+    "q": "What is a key component of the people dimension of change that significantly impacts project success?",
+    "opts": {
+      "A": "The number of new technologies introduced",
+      "B": "Effective management of the people dimension",
+      "C": "The cost of the new system",
+      "D": "The duration of the project"
+    },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Change management literature holds that the human side, not the technology, decides whether a project is adopted, so managing the people dimension is the determining component. The option is circular as printed, restating the stem rather than naming a component, but the remaining three are not people factors at all.",
+    "needs_figure": false,
+    "page": 9
+  },
+  {
+    "no": 75,
+    "q": "Software which is modified and tailor made from existing reusable platforms and functions and is for specific application is called –",
+    "opts": {
+      "A": "MOTS",
+      "B": "COTS",
+      "C": "GOTS",
+      "D": "NOTS"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "MOTS stands for Modified Off-The-Shelf, a commercial base product customised for a particular deployment, which matches 'modified and tailor made'. COTS is used unmodified and GOTS is government-developed, so the modification detail is what discriminates.",
+    "needs_figure": false,
+    "page": 9
+  },
+  {
+    "no": 76,
+    "q": "Software whose source code is available publicly and could provide freedom for developers and users to modify for their needs is termed as –",
+    "opts": {
+      "A": "FOSS",
+      "B": "PHP",
+      "C": "FOPS",
+      "D": "XAMPP"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "FOSS, Free and Open Source Software, is the category name for software distributed with source code and rights to modify it. PHP and XAMPP are individual products that happen to be open source, not the term for the category.",
+    "needs_figure": false,
+    "page": 9
+  },
+  {
+    "no": 77,
+    "q": "What could be the main concern in using Open Source software for e-Governance implementation?",
+    "opts": {
+      "A": "Reliability",
+      "B": "Support",
+      "C": "Cost",
+      "D": "Ease of use"
+    },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Open source has no contractually bound vendor obliged to fix defects within an SLA, and that absence of assured support is the objection raised most often against it in mission-critical government deployments. Cost is the opposite of a concern, since FOSS removes licence fees.",
+    "needs_figure": false,
+    "page": 9
+  },
+  {
+    "no": 78,
+    "q": "As far as knowledge is concerned, it has to be managed in the following series of steps – emerged, stored and __________.",
+    "opts": {
+      "A": "Processed",
+      "B": "Translated",
+      "C": "Transcripted",
+      "D": "Transferred"
+    },
+    "ans": "D",
+    "conf": "medium",
+    "exp": "The knowledge management cycle ends in sharing or transfer, because knowledge that is captured but never disseminated delivers no value. 'Processed' would come before storage in the sequence given, which is why it does not fit the third slot.",
+    "needs_figure": false,
+    "page": 9
+  },
+  {
+    "no": 79,
+    "q": "Which principle of effective communication emphasizes that communication must be fully integrated with the change process?",
+    "opts": {
+      "A": "Communication is a one-time event.",
+      "B": "Communication should be done only at the beginning and end of the process.",
+      "C": "Communication should be handled by external consultants only.",
+      "D": "Communication must occur in parallel with the change process."
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Integration with the change process means communication runs continuously alongside it rather than at isolated points. The other three options all describe communication as detached or episodic, the opposite of integration.",
+    "needs_figure": false,
+    "page": 9
+  },
+  {
+    "no": 80,
+    "q": "Which of the following is a key reason for failure in a change initiative due to poor prioritization?",
+    "opts": {
+      "A": "All activities are given equal importance and taken up simultaneously.",
+      "B": "Customers' needs are thoroughly understood and incorporated.",
+      "C": "Employees are actively involved in the project.",
+      "D": "Clear benefits at the individual level are demonstrated."
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Treating every activity as equally important and launching them all at once is the definition of failed prioritization, and it spreads scarce capacity too thin to finish anything. Options (b), (c) and (d) are success factors, not failure causes.",
+    "needs_figure": false,
+    "page": 9
+  }
+]

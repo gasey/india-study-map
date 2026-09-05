@@ -33,21 +33,38 @@ import sys
 BANK_PDFS = os.path.expanduser(
     "~/workspace/projects/personal/mpsc-question-bank/pdfs/Old_Questions/Direct_2014-2018")
 
-# srcKey -> (filename, sitting label, expected question count)
+# The MPSC download corpus. CLAUDE.md used to say this was deleted; it was only
+# moved when the home directory was renamed, so every hardcoded "~/Downloads/..."
+# path in this repo resolves to nothing and the corpus reads as gone. It is not.
+MPSC_CORPUS = "/home.old/hruaia/Downloads/mpsc_pdfs_examination"
+
+# srcKey -> (source dir, filename, sitting label, expected question count, dpi)
 PAPERS = {
     "CO2016A-P2": (
+        BANK_PDFS,
         "3.Computer Operator (Contract) under SAD 2016 Technical Paper II.pdf",
         "Computer Operator (Contract) under SAD, 2016 - Technical Paper II",
-        75,
+        75, 400,
     ),
     "CO2016B-P2": (
+        BANK_PDFS,
         "3.Computer Operator (CB) under Mizoram Information Commission 2016 Paper II.pdf",
         "Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II",
-        75,
+        75, 400,
+    ),
+    # Added 2026-09-05. The only paper in this build with a published MPSC answer
+    # key. 200dpi rather than the 400 the 2016 papers need: this is a clean
+    # greyscale scan with a single-column option layout, not a 1-bit CCITTFax
+    # fax, and 200 was verified legible end to end before the pass was run.
+    "IO2024-P2": (
+        os.path.join(MPSC_CORPUS, "Old_Questions", "Direct_2023-2025"),
+        "Informatics Officer Technical Paper-II 2024..pdf",
+        "Informatics Officer under ICT Deptt., November 2024 - Technical Paper II",
+        100, 200,
     ),
 }
 
-DPI = 400  # verified legible; the scans are ~578x822pt
+DPI = 400  # default; per-paper override is the 5th field of PAPERS
 
 
 def main():
@@ -62,8 +79,8 @@ def main():
     os.makedirs(args.outdir, exist_ok=True)
     manifest = {}
 
-    for key, (fname, sitting, expect) in PAPERS.items():
-        src = os.path.join(BANK_PDFS, fname)
+    for key, (srcdir, fname, sitting, expect, dpi) in PAPERS.items():
+        src = os.path.join(srcdir, fname)
         if not os.path.isfile(src):
             sys.exit(f"FAIL: source PDF missing: {src}")
 
@@ -74,7 +91,7 @@ def main():
         # pdftoppm writes CCITTFax stream warnings to stderr for these files and
         # still produces correct images - don't treat stderr as failure, check
         # the output instead.
-        subprocess.run(["pdftoppm", "-r", str(DPI), "-gray", "-png", src, prefix],
+        subprocess.run(["pdftoppm", "-r", str(dpi), "-gray", "-png", src, prefix],
                        stderr=subprocess.DEVNULL, check=True)
 
         pages = sorted(f for f in os.listdir(args.outdir) if f.startswith(key + "-"))
@@ -85,10 +102,10 @@ def main():
             "sitting": sitting,
             "source_pdf": src,
             "expected_questions": expect,
-            "dpi": DPI,
+            "dpi": dpi,
             "pages": pages,
         }
-        print(f"OK  {key}: {len(pages)} pages @ {DPI}dpi -> {os.path.relpath(args.outdir)}/")
+        print(f"OK  {key}: {len(pages)} pages @ {dpi}dpi -> {os.path.relpath(args.outdir)}/")
 
     mpath = os.path.join(args.outdir, "manifest.json")
     with open(mpath, "w", encoding="utf-8") as f:
@@ -98,9 +115,14 @@ def main():
     print(f"\nmanifest: {os.path.relpath(mpath)}")
     print(f"expect {total_expected} questions total ("
           + " + ".join(f"{p['expected_questions']} {k}" for k, p in manifest.items()) + ")")
-    print("\nNEXT: vision pass over these pages. Derive answers in the same pass -- no\n"
-          "official key exists for either sitting, so this absorbs Phase 3 for them.\n"
-          "Assert 75 per paper and contiguous numbering 1-75 before writing questions.js.")
+    print("\nNEXT: vision pass over these pages, asserting each paper's own expected\n"
+          "count with contiguous numbering before anything is written downstream.\n"
+          "Answers: the two CO2016 papers have no published key, so the vision pass\n"
+          "derives them and absorbs Phase 3. IO2024-P2 DOES have an official MPSC key\n"
+          "-- there the pass still answers blind, and the blind answer is compared\n"
+          "against the key rather than replacing it, so a disagreement surfaces either\n"
+          "a transcription error or a genuinely contested question instead of being\n"
+          "silently overwritten.")
 
 
 if __name__ == "__main__":

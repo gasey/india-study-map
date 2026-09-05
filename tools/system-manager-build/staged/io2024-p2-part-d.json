@@ -1,0 +1,302 @@
+[
+  {
+    "no": 81,
+    "q": "Many of the large organizations fade in time primarily due to -",
+    "opts": {
+      "A": "Insufficient revenue generation",
+      "B": "Insufficient capital",
+      "C": "Lack in management",
+      "D": "Non-adaptability to change"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "This sits in the change-management block of the paper: large, established organizations decline mainly because they fail to adapt to changing technology, markets and expectations, not because capital or revenue dries up first. Capital and revenue shortfalls are usually symptoms of that failure to adapt, which is why they read as plausible distractors.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 82,
+    "q": "One of the primary challenges in management of change in transition to e-Governance is -",
+    "opts": {
+      "A": "Technological change",
+      "B": "Financial change",
+      "C": "Manpower change",
+      "D": "Leadership change"
+    },
+    "ans": "C",
+    "conf": "low",
+    "exp": "Change management in e-Governance is conventionally framed as a people problem rather than a machine problem - the hardest part of moving a department from paper to digital is retraining staff and overcoming their resistance, which the paper calls 'manpower change'. Flagged low confidence: 'Technological change' (a) is a defensible reading of the same sentence, and the question does not say whose challenge is being ranked.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 83,
+    "q": "When trying to classify change management into two types, what could be the most probable types?",
+    "opts": {
+      "A": "Real change and superficial change",
+      "B": "Incremental change and circular change",
+      "C": "Radical change and transformational change",
+      "D": "Incremental change and transformational change"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The standard two-way split is incremental (small, continuous, adjusting the existing way of working) versus transformational (fundamental redesign of processes and structure). Option (c) is the classic trap: radical and transformational are near-synonyms, so they cannot be the two contrasting types.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 84,
+    "q": "Which framework is necessary to take care of change of laws, codes, regulations when implementing e-Governance?",
+    "opts": {
+      "A": "Law framework",
+      "B": "Legal framework",
+      "C": "Court regulations",
+      "D": "Justice framework"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "'Legal framework' is the standard term for the body of laws, rules, codes and regulations that has to be amended so that electronic records, digital signatures and online transactions are valid - the enabling layer the IT Act, 2000 was written to provide. The other three are not established terms in e-Governance readiness literature.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 85,
+    "q": "Information Technology Act __________ is mainly responsible for incorporation of IT related laws, rules and regulations such as e-Commerce, cybercrime etc.",
+    "opts": {
+      "A": "1998",
+      "B": "2000",
+      "C": "2005",
+      "D": "2015"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Information Technology Act, 2000 is India's primary cyber law, covering electronic records, digital signatures, e-commerce and cyber offences; it received presidential assent on 9 June 2000. It was substantially amended in 2008, but the Act itself remains 'the IT Act, 2000'.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 86,
+    "q": "Which section of the Information Technology Act criminalizes sending offensive messages through computer or other communication devices but has been struct down by the Supreme Court in 2015?",
+    "opts": {
+      "A": "Section 66A",
+      "B": "Section 56B",
+      "C": "Section 66C",
+      "D": "Section 55A"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Section 66A punished sending 'grossly offensive' or 'menacing' messages by computer or communication device, and the Supreme Court struck it down as unconstitutionally vague in Shreya Singhal v. Union of India (2015). Section 66C, the nearest distractor, deals with identity theft and is still in force. (The stem's 'struct down' is a printing error in the original paper, transcribed as printed.)",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 87,
+    "q": "The digital signature accepted by Section 5 of Information Technology Act is -",
+    "opts": {
+      "A": "Scanned signature which can be verified in the public database",
+      "B": "Digital form of signature that is based on private-public key pair",
+      "C": "Fingerprint stored in the UID database",
+      "D": "Combination of facial, fingerprint and iris scan in personal social media account"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Section 5 gives a digital signature the same legal effect as a handwritten one, and Section 3 defines that signature as being affixed by asymmetric crypto-system - a private key to sign, the matching public key to verify. A scanned image of a signature and biometric identifiers are not digital signatures under the Act.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 88,
+    "q": "The IT Act, 2000 was modelled on which international framework?",
+    "opts": {
+      "A": "WTO Law",
+      "B": "European Union Directives",
+      "C": "UNCITRAL Model Law",
+      "D": "OECD Guidelines"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "India enacted the IT Act, 2000 to give effect to the UNCITRAL Model Law on Electronic Commerce (1996), which the UN General Assembly had recommended member states adopt - the Act's preamble says so explicitly. The EU Directives and OECD Guidelines influenced data-protection thinking elsewhere but were not the model for this Act.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 89,
+    "q": "What exception is extended to the applicability of the IT Act, 2000?",
+    "opts": {
+      "A": "Power-of-attorney documents",
+      "B": "Electronic filing of government documents",
+      "C": "e-Payments",
+      "D": "Admissibility of digital signatures"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Section 1(4) read with the First Schedule excludes a short list of instruments from the Act, including a negotiable instrument, a power-of-attorney, a trust, a will, and any contract for the sale or conveyance of immovable property. The other three options are things the Act specifically enables, not exceptions to it.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 90,
+    "q": "When a document is digitally signed, it authenticates the person who signed and it also closely mean-",
+    "opts": {
+      "A": "The document hash is encrypted with signatory's private key",
+      "B": "The document hash is encrypted with signatory's public key",
+      "C": "The scanned physical signature is pasted in the document",
+      "D": "The physically signed document is scanned"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Signing means hashing the document and encrypting that hash with the signer's private key; anyone can then decrypt it with the public key, proving only the holder of the private key could have produced it. Option (b) inverts the key pair - encrypting with the public key gives confidentiality, not authentication, since anyone could do it.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 91,
+    "q": "In a DPR, what section would cover \"Means of sustaining the project benefits\" and \"Means of replicating the project success\"?",
+    "opts": {
+      "A": "Sustainability",
+      "B": "Financials",
+      "C": "Impact Assessment",
+      "D": "Technology Options"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The sustainability section of a Detailed Project Report answers how benefits will be maintained after the funding and implementation period ends, and how the model can be replicated or scaled elsewhere. Impact Assessment is the nearest trap: it measures what the project achieved, not how that achievement will be kept alive.",
+    "needs_figure": false,
+    "page": 10
+  },
+  {
+    "no": 92,
+    "q": "The document which is prepared to get funding and support by the funding agency justifying all technical and financial matters is called -",
+    "opts": {
+      "A": "Expression of Interest",
+      "B": "Detailed Project Report",
+      "C": "Tender document",
+      "D": "Request for Proposal"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Detailed Project Report is the appraisal document submitted to a funding agency, setting out the technical solution, costs, financing plan and justification so the project can be sanctioned. An EOI and an RFP are procurement instruments issued to bidders after funding is secured, not to the funder.",
+    "needs_figure": false,
+    "page": 11
+  },
+  {
+    "no": 93,
+    "q": "In the context of e-Governance contracts, what is a 'Force Majeure' clause designed to address?",
+    "opts": {
+      "A": "Compensation for project delays",
+      "B": "Extraordinary events that release both parties from liability or obligation",
+      "C": "Confidentiality of project data",
+      "D": "Quality assurance for deliverables"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Force majeure covers extraordinary events outside either party's control - natural disaster, war, epidemic - and suspends or excuses performance so neither side is held in breach. Option (a) is the trap: a force majeure clause typically removes the delay penalty rather than triggering compensation for it.",
+    "needs_figure": false,
+    "page": 11
+  },
+  {
+    "no": 94,
+    "q": "Clause(s) in contract agreement that deals with the procedure when natural catastrophe or unforeseen situation arises is usually put under the head -",
+    "opts": {
+      "A": "Force Majeure",
+      "B": "Terms and Conditions",
+      "C": "Background",
+      "D": "Arbitration"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Natural catastrophe and other unforeseen events outside the parties' control are the textbook content of a force majeure clause. Arbitration is the distractor - it governs how disputes are resolved, not what happens when an act of God prevents performance.",
+    "needs_figure": false,
+    "page": 11
+  },
+  {
+    "no": 95,
+    "q": "What does Service Level Management (SLM) ensure in the context of SLAs?",
+    "opts": {
+      "A": "The drafting of legal contracts and agreements",
+      "B": "Selection and evaluation of service providers",
+      "C": "Financial management and cost control of the project",
+      "D": "Effective implementation of service levels and enforcement of SLAs"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "SLM is the ongoing process of negotiating, monitoring, reporting on and enforcing agreed service levels once the SLA is in place - it is an operational discipline, not a drafting or procurement activity. Options (a) and (b) describe the contracting and vendor-selection stages that precede SLM.",
+    "needs_figure": false,
+    "page": 11
+  },
+  {
+    "no": 96,
+    "q": "Which type of evaluation assesses whether changes are a result of the interventions?",
+    "opts": {
+      "A": "Impact Evaluation",
+      "B": "Process Evaluation",
+      "C": "Outcome Evaluation",
+      "D": "Financial Evaluation"
+    },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Impact evaluation is the one type defined by attribution - it asks whether the observed change was caused by the intervention rather than by other factors, typically using a counterfactual or control comparison. Outcome evaluation is the close trap: it measures whether the intended results occurred, without establishing that the project caused them.",
+    "needs_figure": false,
+    "page": 11
+  },
+  {
+    "no": 97,
+    "q": "__________ tries to ensure meeting of specification time to time, whereas __________ rather measures the meeting of intended purpose.",
+    "opts": {
+      "A": "Evaluation, monitoring",
+      "B": "Quality assurance, monitoring",
+      "C": "Monitoring, evaluation",
+      "D": "Contractor, site engineer"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Monitoring is the continuous, periodic check that work is proceeding to specification and schedule; evaluation is the periodic judgement of whether the intended objectives and purpose are actually being met. Option (a) is the same pair reversed, which is the intended trap.",
+    "needs_figure": false,
+    "page": 11
+  },
+  {
+    "no": 98,
+    "q": "Following is the correct order of execution of project -",
+    "opts": {
+      "A": "Detailed Project Report, Contract Agreement, Request for Proposal",
+      "B": "Selection procedure, Contract Agreement, Detailed Project Report",
+      "C": "Detailed Project Report, Request for Proposal, Contractor Selection, Contract Agreement",
+      "D": "Detailed Project Report, Contractor Selection, Contract Agreement"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The project first defines and justifies itself in the DPR, then issues an RFP to the market, evaluates bids to select a contractor, and finally signs the contract agreement. Option (d) is a truncated version of the same sequence that skips the RFP, so (c) is the complete and correct order.",
+    "needs_figure": false,
+    "page": 11
+  },
+  {
+    "no": 99,
+    "q": "An abbreviated form for the specific agreement that is signed by the client (Government) and the third party contractor for services to be provided in terms of quality, delivery mode, time etc is -",
+    "opts": {
+      "A": "SLA",
+      "B": "EOI",
+      "C": "RFP",
+      "D": "CA"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A Service Level Agreement is exactly the instrument that fixes measurable service parameters - quality, mode of delivery, response and resolution times - between the government client and its service provider. CA (Contract Agreement) is the broader master contract; the SLA is the specific service-parameter agreement the stem describes.",
+    "needs_figure": false,
+    "page": 11
+  },
+  {
+    "no": 100,
+    "q": "Which section of the Information Technology Act recognize digital records be legally equivalent to paper records as long as they are accessible for future reference?",
+    "opts": {
+      "A": "Section 4",
+      "B": "Section 8",
+      "C": "Section 10",
+      "D": "Section 12"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Section 4 gives legal recognition to electronic records, satisfying any law that requires information to be in writing provided the record is rendered accessible so as to be usable for subsequent reference - the exact wording the stem paraphrases. Section 8 is the nearest trap: it covers publication of rules and notifications in the Electronic Gazette.",
+    "needs_figure": false,
+    "page": 11
+  }
+]

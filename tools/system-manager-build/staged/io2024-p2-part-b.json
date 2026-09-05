@@ -1,0 +1,437 @@
+[
+  {
+    "no": 25,
+    "q": "Which of the following is the principle for Process Reengineering?",
+    "opts": {
+      "A": "Arrange",
+      "B": "Plan",
+      "C": "Devise",
+      "D": "Orchestrate"
+    },
+    "ans": "D",
+    "conf": "low",
+    "exp": "None of the four is a canonical Hammer/Champy BPR principle (those are phrased as 'organise around outcomes, not tasks', 'capture information once at the source', etc.), so this question has no clean answer. Orchestration — coordinating an end-to-end process across departmental silos instead of optimising each step separately — is the only option that is a term of art in process/BPM literature; the other three are ordinary words.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 26,
+    "q": "In order to streamline procurement by government entities, the following has been devised and implemented –",
+    "opts": {
+      "A": "GeM",
+      "B": "E-Market",
+      "C": "E-GovMarket",
+      "D": "Digilocker"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "GeM (Government e-Marketplace), launched in 2016 by the Ministry of Commerce and Industry, is the national online procurement platform through which central and state government entities buy goods and services. Digilocker is a document-storage service and the other two are invented names.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 27,
+    "q": "Request for Proposal (RFP) is basically –",
+    "opts": {
+      "A": "Tender document",
+      "B": "Detailed Project Report (DPR)",
+      "C": "Employment notice",
+      "D": "Job application"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An RFP is the formal tender document a government entity issues to invite bids: it states scope, requirements, evaluation criteria and contract terms. The DPR is the internal feasibility/design study prepared before the RFP, which is the classic trap here.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 28,
+    "q": "In a three-bid format for implementing e-governance, the bids are evaluated in the order –",
+    "opts": {
+      "A": "Technical, Financial and Final Selection Criteria",
+      "B": "DPR, Tender and Selection",
+      "C": "Pre-qualification, Technical and Financial",
+      "D": "Tender, Selection and Award"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A three-bid (three-envelope) tender opens pre-qualification/eligibility first, then the technical bid of those who qualify, and only then the financial bid of the technically qualified – the commercial envelope is always opened last so price cannot influence the technical scoring.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 29,
+    "q": "Which of the following is false regarding commercial bid?",
+    "opts": {
+      "A": "It contains details for software license cost etc.",
+      "B": "It contains the detailed plan for the proposed implementation steps",
+      "C": "It contains financial quote from the potential service provider",
+      "D": "It is a practice to be opened last"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The implementation methodology and plan belong in the technical bid, not the commercial one; mixing them in would let the evaluator see approach and price together. The commercial bid carries only priced items – licence costs, rates, the financial quote – and is opened last.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 30,
+    "q": "Which of the following is not considered as the strength of using PPP?",
+    "opts": {
+      "A": "Ability to deliver value for money service",
+      "B": "Utilizing one's skill on agreement basis rather than recruitment",
+      "C": "Possibility of keeping government's confidential files",
+      "D": "Simplifying offering of services from the viewpoint of government"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Handing government's confidential records to a private operator is a risk of PPP, not a strength – the same paper lists leakage of confidential matter as a PPP risk concern. Value for money, buying skills by contract instead of recruitment, and simplified service delivery are the standard cited strengths.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 31,
+    "q": "PPP must satisfy the following(s) –\ni. Win-win situation for both public and private\nii. It should save troubles for public\niii. Cost of service should remain same\niv. Private should have monetary benefits",
+    "opts": {
+      "A": "i and ii only",
+      "B": "ii and iii only",
+      "C": "i, ii and iv only",
+      "D": "i, ii, iii and iv"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A PPP has to be win-win (i), has to improve service for the citizen (ii) and has to leave the private partner a return, otherwise no one bids (iv). Statement iii is the odd one out: PPPs routinely change the cost of service through user charges or tariffs, and holding cost constant is not a condition of the model.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 32,
+    "q": "Which of the following is considered incorrect when risk concern is addressed in PPP?",
+    "opts": {
+      "A": "Public sector may lose managerial control over its services",
+      "B": "Confidential matters may be leaked to public",
+      "C": "Procurements in PPP may be time consuming and complicate",
+      "D": "Proper agreement may not be signed between the parties"
+    },
+    "ans": "D",
+    "conf": "low",
+    "exp": "Loss of managerial control, confidentiality leakage and slow, complicated procurement are all standard PPP risk concerns. A concession or service agreement is constitutive of a PPP – without it there is no partnership at all – so 'no proper agreement is signed' is not a risk of operating a PPP. Confidence is low: all four statements are loosely worded and (b) or (c) could be argued.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 33,
+    "q": "Name of web application for Government's online tendering that allows downloading of tender document and to submit it online is –",
+    "opts": {
+      "A": "e-Procurement",
+      "B": "e-Tendering",
+      "C": "Government e-Tendering",
+      "D": "Government e-Marketplace"
+    },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "The deployed web application is the Government e-Procurement System (GePNIC / eprocure.gov.in, and the Mizoram tender portal built on it), which publishes tender documents for download and accepts encrypted bids online. GeM is a catalogue marketplace for off-the-shelf goods, not tendering. Note (b) 'e-Tendering' is a defensible answer if the paper meant the process rather than the application – hence medium confidence – but (b) and (c) are near-duplicates, which usually marks both as distractors.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 34,
+    "q": "This is a one-time cost associated with costs related to the software design, development and maintenance projects.",
+    "opts": {
+      "A": "Application cost for ERPs solution",
+      "B": "AMC for software licenses",
+      "C": "Training and Capacity Building",
+      "D": "Software maintenance and support"
+    },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Buying or building the ERP application is a capital, one-time outlay. AMC and maintenance/support are by definition recurring annual costs, which rules out (b) and (d); training is usually treated as recurring too because each new batch of staff needs it.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 35,
+    "q": "Which of the following is a potential revenue stream for e-Governance initiatives?",
+    "opts": {
+      "A": "Fees for accessing public records at physical locations",
+      "B": "Costs associated with physical infrastructure maintenance",
+      "C": "Advertising revenue from government service centres",
+      "D": "Tax deductions for digital service providers"
+    },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Advertising carried at common service centres and on portals is a recognised non-transaction revenue stream in e-governance business models. (b) is a cost not a revenue, (d) is a concession given away rather than money received, and (a) is a physical-counter fee, which is precisely what an e-governance initiative replaces.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 36,
+    "q": "In the Project Finance model, how is the project typically funded?",
+    "opts": {
+      "A": "Through the project's assets and potential future earnings",
+      "B": "By issuing government bonds",
+      "C": "Through government taxes and tariffs",
+      "D": "Through public-private partnerships without debt financing"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Project finance is non-recourse or limited-recourse lending: the lender looks to the project's own cash flows and assets for repayment rather than to the sponsor's balance sheet. That reliance on future earnings is the defining feature; sovereign bonds and tax revenue are ordinary public funding, not project finance.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 37,
+    "q": "What is the role of a “Concessionaire” in the Private Finance model?",
+    "opts": {
+      "A": "A government agency responsible for financing the project",
+      "B": "The private partner who enters into a concession agreement with the government",
+      "C": "The entity responsible for overseeing the bidding process",
+      "D": "The legal advisor for the project"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The concessionaire is the private party granted the concession – the right to build, finance, operate and charge for a public facility for a fixed term under a concession agreement. The government side is the grantor or concessioning authority, which is the mirror-image trap in (a).",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 38,
+    "q": "An e-governance business model in which public sector hired private partner to build the service model, take care as its own, operate and after running smoothly, transfer the working model to the government is –",
+    "opts": {
+      "A": "BOO",
+      "B": "PPP",
+      "C": "BOOT",
+      "D": "TOT"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Build–Own–Operate–Transfer matches the question clause for clause: build, own ('take care as its own'), operate, then transfer to government. BOO is identical except that the asset is never transferred, which is the trap; TOT is Transfer–Operate–Transfer of an asset that already exists, and PPP is the umbrella category rather than a specific model.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 39,
+    "q": "What is a key feature of the Public-Private Partnership (PPP) model?",
+    "opts": {
+      "A": "The private sector owns the infrastructure permanently",
+      "B": "The government funds the entire project alone",
+      "C": "The government does not retain any responsibility for service delivery",
+      "D": "The private sector delivers services and finances or part-finances the project"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "PPP means the private partner brings both delivery capability and capital – financing or part-financing the asset while operating the service under contract. Government retains accountability for the service (ruling out c) and does not fund alone (b); permanent private ownership (a) describes divestiture or privatisation, not PPP.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 40,
+    "q": "Which mobile payment system, launched under Digital India, enables users to make payments using their smartphones by scanning QR codes?",
+    "opts": {
+      "A": "UPI (Unified Payments Interface)",
+      "B": "Paytm",
+      "C": "BHIM (Bharat Interface for Money)",
+      "D": "Google Pay"
+    },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "BHIM is the government-launched smartphone app (NPCI, December 2016, under Digital India) that lets a user pay by scanning a QR code. Paytm and Google Pay are private apps. UPI is a genuine near-answer – it is the underlying rails BHIM runs on – but it is a payment interface, not the mobile app the question describes; hence medium confidence.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 41,
+    "q": "Net investment of private entity on equipment is best described by –",
+    "opts": {
+      "A": "Gross investment minus unexpected damage of capital",
+      "B": "Gross investment minus damage of capital due to natural calamity",
+      "C": "Gross investment minus loss of value over time",
+      "D": "Gross investment only"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Net investment = gross investment minus depreciation, and depreciation is exactly the loss of an asset's value over time through wear and obsolescence. Options (a) and (b) describe sudden capital loss from accident or calamity, which is not depreciation.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 42,
+    "q": "Which platform was developed by Ministry of Education for open access to academic resources?",
+    "opts": {
+      "A": "Indian Open Access Library",
+      "B": "e-Library",
+      "C": "National Digital Library of India",
+      "D": "e-PG Pathshala"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The National Digital Library of India, built at IIT Kharagpur under the Ministry of Education, is the single-window open-access repository of learning resources across disciplines and levels. e-PG Pathshala is also a ministry platform but is narrowly postgraduate course content, not a general open-access library.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 43,
+    "q": "Platform through which documents such as educational, insurance, vehicle documents, driving license etc were made available digitally and accepted by government is –",
+    "opts": {
+      "A": "mParivahan",
+      "B": "Digilocker",
+      "C": "E-Digits",
+      "D": "National Document Library"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "DigiLocker issues and stores documents in a citizen's cloud account, and documents fetched from it carry the same legal status as originals under Rule 9A of the IT Rules. mParivahan is limited to transport documents only – a subset, which is the trap.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 44,
+    "q": "Signing and authenticating documents over online system by means of e-KYC can be done with the provision called –",
+    "opts": {
+      "A": "eSign",
+      "B": "eSignature",
+      "C": "Verisign",
+      "D": "SureSign"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "eSign is the CCA-governed online electronic signature service in which the signer is authenticated by Aadhaar e-KYC and a certifying authority issues a one-time key pair for that transaction. Verisign is a commercial certificate authority brand; the other two are not named Indian services.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 45,
+    "q": "Which of the following is an initiative under NEP 2020 in which a centralized bank of students' academic records that allows students to carry their credits over different universities and institutions?",
+    "opts": {
+      "A": "Swayam",
+      "B": "MOOCS",
+      "C": "E-Panchshala",
+      "D": "ABC"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "ABC is the Academic Bank of Credits created under NEP 2020: a digital store of credits earned at any registered institution, which students can redeem toward a degree elsewhere, enabling multiple entry and exit. SWAYAM and MOOCs are course-delivery platforms, not credit registries.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 46,
+    "q": "Which of the following is a key vision area under the Digital India program?",
+    "opts": {
+      "A": "Manufacturing excellence",
+      "B": "Digital infrastructure as a core utility for every citizen",
+      "C": "Promoting international trade",
+      "D": "Strengthening foreign relations"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Digital India has exactly three vision areas, and the first is 'Digital Infrastructure as a Core Utility to Every Citizen' (the others being governance and services on demand, and digital empowerment of citizens). Trade and foreign relations are not part of the programme's stated vision.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 47,
+    "q": "Which program under Digital India focuses on providing universal access to banking facilities, particularly through mobile banking and financial services?",
+    "opts": {
+      "A": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "B": "Digital Literacy Mission",
+      "C": "Make in India",
+      "D": "Startup India"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "PMJDY is the financial-inclusion mission that gave every household a zero-balance bank account with RuPay card and mobile banking access, and it forms the 'J' of the JAM trinity underpinning digital service delivery. The Digital Literacy Mission teaches IT skills, not banking access.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 48,
+    "q": "How do Common Service Centers (CSCs) contribute to the Digital India vision?",
+    "opts": {
+      "A": "By centralizing urban internet services",
+      "B": "By offering free mobile phones to every citizen",
+      "C": "By providing government jobs to local citizens",
+      "D": "By bridging the digital divide through access to e-governance services, banking, and other digital services in rural areas"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "CSCs are village-level entrepreneur-run access points that deliver G2C services, banking correspondence, utility payments and digital literacy where citizens lack their own connectivity – that is, they close the rural digital divide. Note the VLE is a self-employed franchisee, not a government employee, ruling out (c).",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 49,
+    "q": "Which of the following is NOT one of the nine pillars of the Digital India program?",
+    "opts": {
+      "A": "Digital Infrastructure as a Utility to Every Citizen",
+      "B": "Governance and Services on Demand",
+      "C": "Promotion of Industrial Manufacturing",
+      "D": "Digital Empowerment of Citizens"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The manufacturing pillar of Digital India is 'Electronics Manufacturing – Target Net Zero Imports', which is specific to electronics, not industrial manufacturing generally. The other three options are verbatim pillar names (and are also the programme's three vision areas).",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 50,
+    "q": "Which platform under Digital India provides free and accessible educational resources for students across the country?",
+    "opts": {
+      "A": "SWAYAM",
+      "B": "Digi Locker",
+      "C": "UMANG",
+      "D": "MyGov"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "SWAYAM (Study Webs of Active Learning for Young Aspiring Minds) hosts free MOOCs from Class 9 to postgraduate level with credit transfer. DigiLocker stores documents, UMANG aggregates government service apps, and MyGov is a citizen-engagement platform – none of them teaches.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 51,
+    "q": "A 12-digit unique number which is designed for identification of each student in India and is supposed to be linked with institutions' roll number so that students' records may be centralized in a platform is called –",
+    "opts": {
+      "A": "Automated Permanent Academic Account Registry",
+      "B": "Unique Identification of Students",
+      "C": "National Identification Number for Academicians",
+      "D": "Students' Identification Number"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "APAAR – Automated Permanent Academic Account Registry – is the 12-digit 'One Nation One Student ID' issued under NEP 2020, linked to the Academic Bank of Credits so a student's records follow them across institutions. The other three are invented names.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 52,
+    "q": "Which of the following may not be included in the components of enterprise architecture?",
+    "opts": {
+      "A": "Business architecture",
+      "B": "Information architecture",
+      "C": "Technology architecture",
+      "D": "Application architecture"
+    },
+    "ans": "B",
+    "conf": "low",
+    "exp": "This question is defective: TOGAF's four architecture domains are Business, Data/Information, Application and Technology, so all four options are standard components of enterprise architecture and none is excludable. 'Information architecture' is the closest to an outlier only because the TOGAF domain is formally named Data Architecture, and information architecture is elsewhere a content/UX discipline. Treat this answer as unsafe.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 53,
+    "q": "Which type of architectural platform makes use of existing reusable services available in the internet/network to build applications?",
+    "opts": {
+      "A": "Service Oriented Architecture",
+      "B": "Software Operating Procedure",
+      "C": "Standard Application Package",
+      "D": "Standard Layered Architecture"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "SOA composes applications out of loosely coupled, network-accessible services that are published once and reused by many consumers – exactly the description given. The other three are not architectural styles; (b) and (c) are invented expansions of familiar-looking acronyms.",
+    "needs_figure": false,
+    "page": 6
+  }
+]

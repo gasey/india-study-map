@@ -23,6 +23,16 @@ importers.
          CO2018M-P1 is this case, deliberately: separating transcription from
          answering means a parse bug and a wrong answer cannot be introduced by
          the same pass, and it lets the blind-solve diff do real work.
+
+`key_file` is optional and rarer. It names a staged JSON holding MPSC's own
+published answer key for the paper. Where it is set, that key — not the
+extraction pass's answer — becomes the shipped answer, and the extraction's
+blind answer is kept only to be compared against it. Only IO2024-P2 has one;
+MPSC published no key for any Computer Operator sitting, which is why every
+other answer in this app is derived. Do NOT set this field speculatively: an
+answer that claims official backing it does not have is the single worst
+failure mode this bank has, and provLine() in app.js renders it as a blue
+"official key" badge that tells the reader to stop doubting it.
 """
 
 EXTRACTED_META = {
@@ -45,5 +55,28 @@ EXTRACTED_META = {
         sitting="Computer Operator under MIMER, 2018 - Technical Paper I",
         paper="TECH1", expect=75, answered=False,
         source="MPSC live PDF, text-layer parse (extract_p1_2018.py)",
+    ),
+    # Added 2026-09-05. The first paper in this app carrying a published MPSC
+    # answer key, and the only non-Computer-Operator past paper here.
+    #
+    # WHY AN INFORMATICS OFFICER PAPER IS IN A COMPUTER OPERATOR BUILD.
+    # BUILD_GUIDE.md §2 says Informatics Officer papers "are too hard" for this
+    # post. That is true of Technical Paper I, which is CS theory — addressing
+    # modes, OSPF, UML, spanning tree. It is NOT true of Technical Paper II,
+    # which is an e-Governance / IT-governance / IT-procurement paper at
+    # conceptual difficulty, and which lands on TECH2 Units IV and V — the two
+    # thinnest sections in the build, where every question was authored because
+    # no past paper covered them. The guide's verdict was written from the
+    # post's name, not from this paper's contents.
+    #
+    # `expect` is the count in the extracted file AFTER the syllabus filter, not
+    # the 100 questions the paper holds. import_io2024_p2.py writes both that
+    # file and staged/io2024-p2-manifest.json, which records every question left
+    # out and why — the count here moves only when that script is re-run.
+    "IO2024-P2": dict(
+        sitting="Informatics Officer under ICT Deptt., November 2024 - Technical Paper II",
+        paper="TECH2", expect=None, answered=True,
+        source="scanned paper, vision extraction pass (EXTRACT_BRIEF_IO2024.md)",
+        key_file="io2024-p2-key.json",
     ),
 }

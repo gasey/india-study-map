@@ -218,15 +218,28 @@ function disputeBlock(q) {
    authoritative, which is exactly the failure this app must not have.
    CLAUDE.md flags the missing badge as a known gap in the System Analyst app;
    fixed here. Used by every site that renders an explanation. */
-function provLine(q) {
-  // The badge must key on an official key EXISTING, not on the word appearing.
-  // Most provenance strings here end "...No official MPSC key exists", and a bare
-  // /official/i matched that negation — 309 derived answers were rendering the
-  // blue "official key" badge, the exact inverse of the truth, on the one control
-  // that tells a reader which answers to distrust.
-  const official = q.prov
+/* Does this question's answer come from a key MPSC actually published?
+   The test must key on an official key EXISTING, not on the word appearing.
+   Most provenance strings here end "...No official MPSC key exists", and a bare
+   /official/i matched that negation — 309 derived answers were rendering the
+   blue "official key" badge, the exact inverse of the truth, on the one control
+   that tells a reader which answers to distrust.
+
+   Exported as its own function because the Past Papers card needs the same
+   question and had been asking it differently: `q.prov.includes('Official')`,
+   case-sensitive. Every official prov string here spells it lowercase ("the
+   official MPSC Provisional Answer Key"), so that test answered false for all
+   35 questions that DO have a key and badged their card "derived answers" —
+   the under-claiming mirror of the bug above, hiding the only authoritative
+   answers in the app. One predicate, every caller. */
+function hasOfficialKey(q) {
+  return !!(q.prov
     && /official/i.test(q.prov)
-    && !/\b(?:no|without|never)\s+official/i.test(q.prov);
+    && !/\b(?:no|without|never)\s+official/i.test(q.prov));
+}
+
+function provLine(q) {
+  const official = hasOfficialKey(q);
   const badge = official
     ? '<span class="pill acc">official key</span>'
     : ({
@@ -881,18 +894,27 @@ VIEWS.papers = (el) => {
   if (!keys.length) { el.innerHTML = emptyBank(); return; }
   el.innerHTML = `
     <h1>Past papers</h1>
-    <p class="muted">The System Manager technical papers use the Computer Operator syllabus, so these are the closest
-    thing to your actual exam that exists — every Computer Operator sitting MPSC has ever examined: SAD and Mizoram
-    Information Commission (2016), MIMER (2018), AH &amp; Vety (May 2019) and Election Dept (December 2019). MPSC never
-    published an answer key for any of them — every answer here was derived and carries a confidence rating. Check the
-    provenance line under any answer you doubt, and treat the <em>unrated</em> papers with the most suspicion: those
-    answers came from the question bank and have not yet been independently re-derived.</p>
+    <p class="muted">The System Manager technical papers use the Computer Operator syllabus, so those papers are the
+    closest thing to your actual exam that exists — every Computer Operator sitting MPSC has ever examined: SAD and
+    Mizoram Information Commission (2016), MIMER (2018), AH &amp; Vety (May 2019) and Election Dept (December 2019).
+    <strong>MPSC never published an answer key for any Computer Operator sitting</strong>, so every answer on those
+    papers was derived and carries a confidence rating. Check the provenance line under any answer you doubt, and treat
+    the <em>unrated</em> papers with the most suspicion: those answers came from the question bank and have not yet been
+    independently re-derived.</p>
+    <p class="muted">Two papers here are not Computer Operator sittings and are marked <span class="pill ok">official
+    key</span> — the UDC/Assistant clerical paper, and the Informatics Officer Technical Paper II. Those answers are
+    MPSC's own. The Informatics Officer paper was set for a harder post, and only the questions that genuinely sit on
+    <em>this</em> syllabus were imported, so it is shown as a partial paper rather than the 100 questions it holds.</p>
     <div class="grid g2 mt">
       ${keys.map(k => {
         const qs = groups[k].slice().sort((a, b) => a.no - b.no);
         const att = qs.filter(q => S.questions[q.id]?.att).length;
         const ok = qs.filter(q => S.questions[q.id]?.lastOk).length;
-        const off = qs.some(q => q.prov && q.prov.includes('Official'));
+        // `every`, not `some`: this badge speaks for the whole paper, and one
+        // keyed question among ninety-nine derived ones does not make the card
+        // authoritative. No paper is mixed today; the stricter test is what
+        // keeps that true if one ever is.
+        const off = qs.every(hasOfficialKey);
         return `<div class="card">
           <div class="spread"><h3 style="margin:0">${esc(qs[0].sitting)}</h3>
           <span class="pill ${off ? 'ok' : 'wn'}">${off ? 'official key' : 'derived answers'}</span></div>

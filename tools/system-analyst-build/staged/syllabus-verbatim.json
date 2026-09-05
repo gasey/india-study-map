@@ -1,0 +1,28 @@
+{
+ "1": {
+  "title": "Object Oriented Programming",
+  "marks": 40,
+  "verbatim": "Introduction of OOP; application of OOP; process of OOP; Classes and Objects; Overview of Classes and Objects; Class definition; class specifiers; defining member functions; Memory allocation for objects; array of objects; constructor; destructor; Polymoxphism; Function of Overloading; uses in program; operator overloading; defining operator overloading; limitations of operator overloading; overloading unary and binary operators; Inheritance and its types with examples; virtual functions; pointers to object; pure Virtual Functions and its implementation in program; managing I/0 operations; I/0 streams; File handling with OOP; Error handling in file operations; random file access; exception handling methods; throwing mechanism; catching mechanism; string characteristics and uses;",
+  "ocr_notes": [
+   "'Polymoxphism' is the printed form of 'Polymorphism'.",
+   "'I/0' uses a digit zero; read as I/O.",
+   "'Function of Overloading' means Function Overloading."
+  ]
+ },
+ "2": {
+  "title": "Web Technologies",
+  "marks": 60,
+  "verbatim": "Modern Web Development and Full Stack Engineering: Evolution of the Internet and Web Architecture; Client-Server Communication; HTTP/HTTPS; DNS and Web Hosting; HTML Semantic Elements, Forms, Multimedia, Canvas, SVG and Web Accessibility Standards; CSS, Flexbox, Grid, Responsive Web Design; Git Version Control; Javascript, DOM Manipulation, Event Handling, Asynchronous Programming, JSON and Fetch API; Frontend Development using Javascript Framework including Components, Routing, State Management, Forms and API Integration; Backend Development using PHP - Python; RESTful APIs, CRUD Operations, Middleware, Authentication and Authorization, Session and Cookie Management; ORM Concepts, Websockets; Serverless Computing, Docker, Kubernetes and CI/CD Pipelines; Linux Administration, Web Servers - Nginx, Deployment and Monitoring; Web Security Fundamentals including OWASP Top 10, HTTPS, SSL/TLS, CSRF, XSS and SQL Injection Prevention; MVC Architecture; Microservices Architecture, SOLID Principles, Dependency Management, Event-Driven Systems, Caching and Queue Management; AI-assisted Web Development, Generative AI APIs, Model Context Protocol (MCP), Web Analytics, Scalable Deployment, Ethics, Privacy and Legal Aspects of Modern Web Applications.",
+  "ocr_notes": [
+   "'CSRE' is CSRF; 'Apls' is APIs; 'Kubemetes' is Kubernetes."
+  ]
+ },
+ "4": {
+  "title": "Cloud Computing",
+  "marks": 40,
+  "verbatim": "Cloud Architecture and Distributed Systems: Evolution of Distributed, Edge and Cloud Computing; NIST Cloud Architecture; Cloud Deployment and Service Models (IaaS, PaaS, SaaS, Serverless); Cloud-native Architecture, Microservices, Service Mesh, Elasticity, High Availability, Load Balancing, and Sustainable Cloud Computing. Virtualization and Cloud Infrastructure: Virtual Machines, Hypervisors, Full and Para Virtualization; CPU, Storage, and Network Virtualization; Containers, Docker Architecture, Kubernetes orchestration, Resource Management, Infrastructure as Code using Terraform and Ansible, CI/CD Pipelines, and DevOps Practices. Cloud Storage, Compute, Networking, Managed Databases, Serverless Computing, Monitoring and Observability, OpenStack, Hybrid and Multi-cloud Management, and AI/ML Infrastructure. Cloud Security and Governance: Shared Responsibility Model, IAM, MFA, Zero Trust Security, Encryption, Backup and Disaster Recovery, Container and Kubernetes Security, DevSecOps, API Security, Virtualization Attacks, FinOps, and Service Level Agreements (SLAs).",
+  "ocr_notes": [
+   "'Kubemetes' is the printed form of 'Kubernetes'."
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "reviewer": "u1b-b-A — adversarial refutation pass, blind to the second reviewer",
+ "reviewed": 21,
+ "flags": [
+  {
+   "id": "GEN-T2U1B-026",
+   "type": "ambiguous",
+   "severity": "medium",
+   "detail": "The stem asks 'which compiles' and lists all four options as bare declarations (semicolon-terminated prototypes, no function body): 'void transmit(const Connection& c);', 'Connection make();', 'void transmit(Connection c);', 'Connection buffer[4];'. Verified with g++ -std=c++17 -Wall -pedantic-errors: as literally written, A, B, and C all compile cleanly (exit 0) — only D fails ('creating array of Connection, which is an abstract class type'). A bare function declaration/prototype never requires its parameter or return type to be non-abstract; the standard's restriction on abstract types as parameter/return types is only enforced at the point of *definition* (confirmed separately: giving 'Connection make(){...}' and 'void transmit(Connection c){...}' actual bodies, even empty/trivial ones that never construct or use the parameter, does trigger 'invalid abstract return type for function' and 'cannot declare parameter ... to be of abstract type' respectively). So the explanation's reasoning ('every other option requires the compiler to create a complete, independent object') is only true once the reader silently assumes these are meant to be full definitions, not the plain declarations actually shown. A test-taker who checks exactly what's on the page correctly concludes B and C compile too, and the single keyed answer A becomes non-unique.",
+   "suggested": "Show B and C as full definitions with bodies (e.g. 'Connection make() { Connection c; return c; }' and 'void transmit(Connection c) { }') so they concretely fail to compile as the explanation claims, or restrict all four options to actual definitions/uses consistently."
+  }
+ ],
+ "notes": "Batch is otherwise solid: every other keyed answer, distractor-elimination, and explanation I checked (compiling/running fragments for 022, 024, 025, 027, 028, 029, 030, 032, 033, 034, 036, 038, 039, 041, 042, plus reasoning-only checks on 023, 031, 035, 037, 040) matched real g++ -std=c++17 behaviour or documented standard guarantees. The one real defect is 026, where the options are phrased as bare declarations rather than the definitions the explanation implicitly assumes, making three of four choices independently correct as written."
+}

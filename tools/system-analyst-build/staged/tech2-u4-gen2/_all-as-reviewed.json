@@ -1,0 +1,590 @@
+[
+ {
+  "id": "GEN-T2U4B-001",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A state government commissions an independent third party to examine a cloud provider's security controls, privacy practices and performance against its published SLA. The party does not itself offer, resell or combine any cloud service — it only produces the independent assessment. In the NIST cloud computing reference architecture (SP 500-292), which actor is this?",
+  "opts": {
+   "A": "Cloud broker",
+   "B": "Cloud auditor",
+   "C": "Cloud carrier",
+   "D": "Cloud provider"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Conducting an independent examination of a cloud service's operation, controls and performance is exactly the cloud auditor's role in SP 500-292. A cloud broker is tempting because it also sits between consumer and provider, but a broker adds value by negotiating, aggregating or integrating services for the consumer — it does not perform an independent, arm's-length audit."
+ },
+ {
+  "id": "GEN-T2U4B-002",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A hospital's diagnostic-imaging inference has a comfortable multi-second latency budget and a modest per-image data volume — well within what a distant cloud region can serve without strain. The hospital still insists on running the inference on-premises rather than sending images to that region. Which constraint is most likely driving this, given that latency and bandwidth are explicitly not the bottleneck?",
+  "opts": {
+   "A": "A legal or regulatory requirement that patient data not leave the country or the premises (data localisation / data sovereignty)",
+   "B": "The cloud region cannot support broad network access for imaging workloads",
+   "C": "The cloud region cannot provide rapid elasticity for bursty imaging workloads",
+   "D": "The cloud region cannot provide measured, usage-based billing for the imaging workload"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "With latency and bandwidth ruled out by the scenario, the remaining reason to keep processing local is a compliance constraint on where the data itself may reside — data sovereignty, which is a common driver for edge/on-premises processing independent of the technical case. Options B–D each misuse a genuine NIST essential characteristic (broad network access, rapid elasticity, measured service) as if credible cloud regions routinely lack it, which they do not."
+ },
+ {
+  "id": "GEN-T2U4B-003",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A distributed configuration store organises its nodes into a single quorum group. A network partition splits it into a majority side and a minority side. The minority side stops accepting both reads and writes until the partition heals, while the majority side keeps operating normally. In CAP terms, which choice does this system make under partition?",
+  "opts": {
+   "A": "Availability and partition tolerance (AP): the minority partition keeps serving using stale data",
+   "B": "Consistency and availability, because partition tolerance was successfully avoided",
+   "C": "Consistency and partition tolerance (CP): the minority partition sacrifices availability rather than risk serving stale or diverged data",
+   "D": "The system violates the CAP theorem, because a distributed store cannot legitimately refuse service"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Refusing to serve on the minority side is precisely a CP choice: consistency is preserved by giving up availability during the partition. Option A describes the opposite (AP) behaviour, which this system explicitly does not exhibit. Option B is incoherent because the partition has already happened — CAP's premise is that partitions must be tolerated, not that they can be assumed away."
+ },
+ {
+  "id": "GEN-T2U4B-004",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A social app lets a user update their profile photo. Immediately after the save, requests for \"your own profile\" from that same user are routed to the primary node that accepted the write, while every other user's view of that profile is served from asynchronously updated replicas. Which consistency guarantee is being engineered for the writer here, without making the whole system strongly consistent?",
+  "opts": {
+   "A": "Eventual consistency for every reader, including the writer",
+   "B": "Strong (linearizable) consistency across all replicas for every reader",
+   "C": "Causal consistency guaranteed for every reader of the profile",
+   "D": "Read-your-writes consistency: the writer is guaranteed to see at least their own latest write, though other readers may briefly still see stale replica data"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Routing the writer's own subsequent reads to the node that has their write is the textbook mechanism for read-your-writes consistency — a session-level guarantee, not a system-wide one. Plain eventual consistency (A) is exactly what this design deliberately avoids for the writer, since eventual consistency alone gives no guarantee the writer ever sees their own edit promptly; strong consistency (B) and universal causal consistency (C) would require far more than routing one user's reads to one node."
+ },
+ {
+  "id": "GEN-T2U4B-005",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "Two servers in different data centres timestamp events with their local wall clocks; NTP keeps them within roughly 50 ms of true time. A request on server A triggers a response processed 10 ms later on server B, yet B's recorded timestamp is sometimes earlier than A's. What does this illustrate, and what technique avoids drawing a wrong conclusion from it?",
+  "opts": {
+   "A": "Clock skew is fully eliminated by tighter NTP synchronisation, so no special ordering technique is needed",
+   "B": "This is caused by a network partition rather than clock skew, and is addressed by choosing CP over AP",
+   "C": "Wall-clock timestamps cannot reliably order causally related events across nodes because of clock skew; logical clocks such as Lamport timestamps order events by causality instead of by clock reading",
+   "D": "The two events are not actually causally related, so no ordering guarantee is expected or needed here"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A 50 ms skew is larger than the 10 ms causal gap between the two events, so wall-clock order can invert true causal order — exactly what a Lamport (or vector) clock is designed to get right by tracking happens-before relationships instead of physical time. Tighter NTP (A) only shrinks skew, it never guarantees skew stays below every causal gap; this scenario has nothing to do with a partition (B), and the events are stated to be causally related (B triggered by A), so D is false."
+ },
+ {
+  "id": "GEN-T2U4B-006",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A team's database is nearing capacity. Option 1: move it to a single larger machine with more CPU and RAM. Option 2: partition its data across additional commodity machines. Which statement correctly distinguishes these as scaling up versus scaling out?",
+  "opts": {
+   "A": "Scaling up requires the application and data layer to be redesigned for partitioning, while scaling out does not",
+   "B": "Scaling up (vertical) is bounded by the largest machine available and keeps the software single-node, while scaling out (horizontal) removes that ceiling but requires the application/data layer to be designed for partitioning and coordination across nodes",
+   "C": "Scaling out is always cheaper per unit of capacity than scaling up",
+   "D": "Scaling up and scaling out are interchangeable terms, both referring to adding more virtual CPUs to an existing instance"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Vertical scaling hits a hard ceiling at the largest available machine and needs no change to how the software is structured; horizontal scaling has no such ceiling but only works if the data and logic can be split and coordinated across nodes, which is real engineering effort. A reverses which option needs the redesign, and C is not generally true — horizontal scaling trades hardware cost for the added cost of distributed-systems complexity, it is not unconditionally cheaper."
+ },
+ {
+  "id": "GEN-T2U4B-007",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "Vendor lock-in is usually described as shallowest under IaaS and deepest under SaaS. Which reasoning correctly explains why SaaS sits at the deep end?",
+  "opts": {
+   "A": "Because SaaS pricing is usage-based while IaaS pricing is capacity-based, and usage-based costs cannot be forecast, which prevents budgeting a migration project.",
+   "B": "Because under SaaS the customer runs no artefact of its own at all — no image, no code, no container — so leaving the vendor means migrating data into a new application's data model and rebuilding the surrounding business process, rather than simply redeploying an artefact elsewhere.",
+   "C": "Because SaaS applications are deployed on the customer's own IaaS infrastructure, whereas IaaS applications run solely on the provider's hardware.",
+   "D": "Because SaaS multi-tenancy means a customer's data physically shares database rows with other tenants, making export technically impossible."
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "SaaS leaves the customer with no reusable artefact — no VM image, no deployable code — so switching means re-entering data into a different vendor's data model and workflow, a fundamentally harder migration than redeploying a portable artefact elsewhere. Option D is the classic wrong turn: SaaS tenant data is logically separated per tenant, not physically comingled, so export is laborious, not impossible."
+ },
+ {
+  "id": "GEN-T2U4B-008",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A citizen-facing workflow depends, in series, on three separately contracted services: an IaaS virtual machine SLA of 99.9% availability, a managed PaaS database SLA of 99.95%, and a SaaS payment gateway SLA of 99.9%. The workflow fails whenever any single one of the three is down. Which statement about the workflow's effective availability is correct?",
+  "opts": {
+   "A": "It equals the average of the three contracted figures, about 99.92%, since SLAs combine additively across a dependency chain.",
+   "B": "The three SLAs cannot be combined at all, because the three vendors are contractually independent of one another.",
+   "C": "It is at best the product of the three, about 99.75%, which is lower than any single component's contracted figure, because the workflow only succeeds when all three are simultaneously up.",
+   "D": "It equals the lowest of the three contracted figures, 99.9%, since the weakest link's SLA sets the ceiling for the whole chain."
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "For a serial dependency the chain is up only when every link is up, so availabilities multiply: 0.999 × 0.9995 × 0.999 ≈ 99.75%, worse than any individual contract. Option D is the tempting near-miss — the composed figure isn't just capped at the weakest link's number, it's pulled below it by the other two links' own chances of failure."
+ },
+ {
+  "id": "GEN-T2U4B-009",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A team runs its application on a managed Kubernetes service (for example Amazon EKS, Azure AKS or GKE) instead of installing Kubernetes itself on IaaS virtual machines — a model often labelled Containers as a Service (CaaS). Where does this sit relative to IaaS and PaaS in terms of what the provider patches?",
+  "opts": {
+   "A": "The provider operates and patches the Kubernetes control plane, but with standard node pools the customer still provisions and patches the worker nodes' operating system (unless a further-managed, node-less option such as Fargate or Autopilot is used) — placing CaaS between IaaS and PaaS in how much of the stack the provider takes over.",
+   "B": "CaaS is functionally identical to IaaS, because Kubernetes is simply a hypervisor marketed under a different name.",
+   "C": "In all managed Kubernetes offerings, the provider automatically patches both the control plane and every worker node's operating system, making CaaS equivalent to PaaS in patching responsibility.",
+   "D": "CaaS eliminates the operating system entirely, since containers do not run on top of a kernel."
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Managed Kubernetes takes the control plane off the customer's hands, but with ordinary worker-node pools on EKS, AKS or GKE, node OS patching remains the customer's job unless a node-less mode like Fargate or Autopilot is chosen — which is exactly why CaaS sits between IaaS (customer patches everything) and PaaS (provider patches everything). Option C overreaches by claiming this holds for every managed offering by default, which is not true for standard node pools."
+ },
+ {
+  "id": "GEN-T2U4B-010",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A serverless HTTP function sets a variable at module scope while handling a request, intending to read it back on the same user's very next request a few seconds later so it can skip a database lookup. In production, some requests get the cached value and others unpredictably don't. What does this reveal about the serverless execution model, and where must such shared state actually live?",
+  "opts": {
+   "A": "Module-scope variables in a serverless function are reset to their initial value on every single invocation without exception, so this kind of caching should never be attempted.",
+   "B": "The behaviour indicates the platform's request timeout was reached before the variable could be read back.",
+   "C": "The behaviour is a networking issue: requests are being routed to different regions that do not share a data plane.",
+   "D": "Concurrent or later requests may land on a different, freshly started execution environment that never ran the code path which set the variable, so state that must survive across invocations belongs in an external store — a managed cache or database — not in the function's own memory."
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Serverless platforms may run several execution environments for the same function in parallel and can recycle an idle one at any time, so a module-scope variable is visible only to invocations that happen to land on the one environment that set it — exactly the intermittent pattern described. Option A overstates the opposite failure: warm invocations on the same environment do retain module-scope state, which is precisely why the caching sometimes appeared to work."
+ },
+ {
+  "id": "GEN-T2U4B-011",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A team wants a single AWS Lambda function, invoked synchronously through the Lambda invoke API, to accept a 50 MB video file, transcode it, and return the transcoded file in the response — a job that normally takes about 20 minutes. Ignoring cost, which two independent AWS Lambda limits does this design run into?",
+  "opts": {
+   "A": "The 15-minute (900-second) hard cap on a single invocation's execution time, and the 6 MB cap on a synchronous invocation's request/response payload.",
+   "B": "The 15-minute execution-time cap only; Lambda payloads have no fixed size limit and are simply billed by size.",
+   "C": "The 6 MB payload cap only; execution time can be extended indefinitely by enabling provisioned concurrency.",
+   "D": "Neither limit applies here, because both the 15-minute cap and the payload cap are properties of API Gateway, not of a function invoked directly through the Lambda invoke API."
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "AWS Lambda enforces a hard 900-second execution ceiling on every invocation with no way to raise it, and a synchronous invocation's combined request and response payload is capped at 6 MB — this job exceeds both regardless of cost. Option D has the ownership backwards: those two caps belong to the Lambda function itself, not to API Gateway, so invoking it directly through the Lambda API does not sidestep them."
+ },
+ {
+  "id": "GEN-T2U4B-012",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A CPU-bound video-transcoding workload runs near-continuously, more than 20 hours a day, every day, on a fleet of reserved virtual machines. An engineer proposes moving it to a Function-as-a-Service platform, expecting cost to fall because 'serverless only charges for compute actually used.' What is the flaw in that reasoning for this specific workload?",
+  "opts": {
+   "A": "Function-as-a-Service platforms cannot execute CPU-bound work at all, only I/O-bound work such as handling HTTP requests.",
+   "B": "Because the workload's utilisation is already near-continuous, per-invocation pricing has little idle time left to eliminate, and the job must still be chopped to fit the platform's per-invocation execution-time cap; a steady, sustained, high-utilisation workload is generally cheaper on reserved or always-on compute than on a per-invocation billing model.",
+   "C": "Moving to Function-as-a-Service always increases cost regardless of workload shape, since providers price serverless at a fixed premium over reserved instances.",
+   "D": "Reserved virtual machines bill by the second while Function-as-a-Service platforms bill only by the hour, so the billing granularity works against serverless here."
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Per-invocation billing saves money by eliminating paid idle time, but a workload already busy 20+ hours a day has almost no idle time to eliminate, while still needing to be split into pieces that fit the platform's execution-time cap — so reserved or always-on compute wins on cost for sustained, steady, heavy utilisation. Option C is the overreach to avoid: serverless genuinely is cheaper for bursty, idle-heavy workloads, so 'always' is false — it depends on the workload's shape."
+ },
+ {
+  "id": "GEN-T2U4B-013",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "The 'database per service' pattern says each microservice should own its own private data store, exposed to other services only through its own API. Two services, Orders and Inventory, are each given separate codebases and deployment pipelines but both read and write the same shared PostgreSQL database. Which specific problem does breaking this rule usually cause?",
+  "opts": {
+   "A": "Two services sharing a database can no longer be deployed independently, because a schema change made by one team can silently break queries that the other team's service already relies on",
+   "B": "Shared databases always violate ACID guarantees, since two services writing to one database cannot both use transactions safely",
+   "C": "A shared database prevents either service from using its own client-side caching for reads",
+   "D": "A shared database forces both services to be written in the same programming language, since they share one connection driver"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A shared schema re-couples the two services at the data layer, so a table change made for one service's benefit can break the other's queries without either team's API contract ever changing — reintroducing exactly the coordinated-deployment coupling microservices decomposition is meant to remove. B is false: a single database still gives each service ordinary local ACID transactions. C and D don't follow from data ownership at all."
+ },
+ {
+  "id": "GEN-T2U4B-014",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A team splits a monolith into a dozen separately-deployed services, yet a single feature change routinely requires redeploying eight of them together in a fixed order, because each service calls several others synchronously and hard-codes assumptions about their current internal behaviour. What does this describe?",
+  "opts": {
+   "A": "A well-designed microservices architecture, because splitting a monolith into a dozen services is itself the definition of microservices",
+   "B": "A distributed monolith: the services are physically separate processes but remain coupled tightly enough that they can only be deployed and changed as one unit, losing microservices' main benefit of independent deployability",
+   "C": "A service mesh, because sidecar proxies are coordinating the deployment order across services",
+   "D": "An event-driven architecture, since services call each other directly rather than through a message broker"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Being split into separate processes is not sufficient for microservices; if a change still forces a coordinated multi-service redeploy, the services remain coupled as tightly as modules in a monolith, just with network calls between them — the common 'distributed monolith' failure mode. A is wrong because process separation alone doesn't confer independent deployability. C and D describe unrelated mechanisms that this scenario never mentions."
+ },
+ {
+  "id": "GEN-T2U4B-015",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "An order-processing flow spans three services — Payment, Inventory and Shipping — each with its own private database. No distributed two-phase-commit transaction is available across them. Payment succeeds and Inventory succeeds, but Shipping then fails permanently. Which pattern is designed to bring the system back to a consistent state in this situation?",
+  "opts": {
+   "A": "A two-phase commit coordinator that rolls back all three databases atomically",
+   "B": "A circuit breaker that stops further calls to the Shipping service",
+   "C": "A saga: the flow proceeds as a sequence of local transactions, and when a step fails, the previously completed steps are undone by explicit compensating transactions — for example refunding the payment and releasing the reserved inventory",
+   "D": "Eventual consistency achieved simply by retrying the failed Shipping call until it succeeds"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A saga replaces one distributed transaction with a chain of local transactions plus compensating actions that explicitly undo whatever already committed, which is exactly what recovers Payment and Inventory here. A is the very mechanism the stem says is unavailable. B only stops future calls, it does nothing to undo the already-committed payment and inventory reservation. D assumes the failure is transient and retryable, but the stem states it is permanent."
+ },
+ {
+  "id": "GEN-T2U4B-016",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A team wants to migrate a large legacy monolith to microservices without a risky one-shot cutover. It places a routing layer in front of the monolith that initially forwards all traffic to the old system, then incrementally redirects individual routes to new services as each is built, until nothing is left pointing at the monolith. What is this migration approach called?",
+  "opts": {
+   "A": "Blue-green deployment",
+   "B": "Canary release",
+   "C": "Sidecar pattern",
+   "D": "Strangler fig pattern"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The strangler fig pattern names exactly this: a facade routes traffic to the legacy system by default and functionality is peeled off into new services route by route until the old system can be retired. Blue-green is an atomic all-or-nothing cutover between two complete environments of the same system, not a route-by-route architectural replacement. Canary release rolls out a new version of one service to a traffic subset; it doesn't describe replacing a monolith piece by piece. The sidecar pattern is a co-located per-instance helper process, unrelated to migration strategy."
+ },
+ {
+  "id": "GEN-T2U4B-017",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "An Istio VirtualService for the `checkout` service is updated to:\n\n  http:\n  - route:\n    - destination:\n        host: checkout\n        subset: v1\n      weight: 90\n    - destination:\n        host: checkout\n        subset: v2\n      weight: 10\n\nBoth v1 and v2 remain deployed and serving live traffic throughout, and the weights are expected to shift further as confidence grows. Which release strategy does this configuration implement?",
+  "opts": {
+   "A": "Canary release: v2 receives a small, controlled share of live production traffic alongside v1, and the split can be adjusted incrementally as confidence in v2 grows",
+   "B": "Blue-green deployment: all traffic is switched atomically from v1 to v2 once v2 passes its checks",
+   "C": "Rolling update: Pods running v1 are replaced one at a time by Pods running v2 until none of v1 remain",
+   "D": "A/B testing: users are routed to v1 or v2 based on which cohort they belong to, in order to compare a product metric rather than to validate release safety"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A weighted split between two live subsets of the same service, tuned upward over time, is the textbook mesh-level implementation of a canary release. Blue-green switches all traffic at once between two complete environments rather than holding a partial percentage split. A rolling update replaces Pods directly and isn't expressed as a mesh traffic weight at all. This configuration routes by a fixed percentage, not by user cohort, so it isn't A/B testing."
+ },
+ {
+  "id": "GEN-T2U4B-018",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A service calls two downstream dependencies, Search and Recommendations, using two separate, fixed-size thread pools — one dedicated to each dependency. Recommendations becomes slow and its thread pool fills up and stays blocked. What does isolating the thread pools like this specifically prevent?",
+  "opts": {
+   "A": "It prevents Recommendations from ever becoming slow in the first place, since a fixed pool size caps its response time",
+   "B": "It prevents calls to the slow Recommendations dependency from exhausting the threads that calls to Search need, so Search keeps working even while Recommendations is degraded — this is the bulkhead pattern",
+   "C": "It automatically retries failed Recommendations calls using threads from the Search pool instead",
+   "D": "It removes the need for a circuit breaker, since bulkheading by itself stops repeated calls to a failing dependency"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Partitioning resources per dependency, the bulkhead pattern, contains the blast radius of one dependency's failure so it can't starve threads that unrelated calls need — Search stays healthy even while Recommendations is stuck. A is false: pool sizing limits concurrency, not latency. C describes cross-pool retries that isolated pools are built specifically to prevent, not perform. D conflates two complementary but distinct mechanisms — a bulkhead isolates resources, but only a circuit breaker actually stops the calling service from continuing to issue calls to a dependency that is already failing."
+ },
+ {
+  "id": "GEN-T2U4B-019",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On VMware ESXi hosts, inter-VM Transparent Page Sharing (TPS) is disabled by default while intra-VM TPS (deduplicating a single VM's own redundant pages) remains enabled by default. Why was inter-VM TPS specifically disabled?",
+  "opts": {
+   "A": "Because deduplicating identical pages across different VMs was shown to let one VM infer information about another VM's memory contents through the timing of the copy-on-write fault when a shared page is written",
+   "B": "Because the balloon driver conflicts with TPS whenever both mechanisms try to reclaim the same physical page",
+   "C": "Because TPS operating across VMs on different hosts violates vMotion compatibility requirements",
+   "D": "Because current CPUs no longer expose the memory-mapping support TPS depends on"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Sharing a page copy-on-write across VMs let one VM infer, from copy-on-write fault timing, that its page's content matched another VM's memory — a side channel that could leak secrets such as cryptographic key material across the VM boundary. VMware closed this from vSphere 6 onward by disabling inter-VM TPS by default while leaving harmless intra-VM deduplication on; this is specifically a VMware default, since other hypervisors scope memory deduplication differently. The balloon driver named in one option is an unrelated overcommit mechanism with no such conflict."
+ },
+ {
+  "id": "GEN-T2U4B-020",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A VM is configured with 32 vCPUs and 256 GiB of memory on a host whose physical NUMA nodes each have 16 cores and 128 GiB of local memory, so the VM spans two NUMA nodes. What is the direct consequence for that VM, independent of which hypervisor is used?",
+  "opts": {
+   "A": "The hypervisor caps the VM at the vCPU count of a single node and silently ignores the extra 16 vCPUs",
+   "B": "Some of the VM's memory accesses must cross the inter-node interconnect to reach memory local to the other node, adding latency compared with a VM that fits within one node",
+   "C": "The VM's memory is transparently migrated in the background until all of it becomes local to a single node, eliminating the penalty",
+   "D": "The guest operating system cannot boot because ACPI reports two NUMA nodes to a single guest kernel"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A VM whose vCPU/memory footprint exceeds one physical NUMA node cannot keep all of its memory local, so some accesses must cross the inter-node interconnect, which costs more than a local access on any NUMA-aware hypervisor (ESXi, Hyper-V, KVM/QEMU alike). Hypervisors mitigate this by exposing a virtual NUMA topology so the guest's own scheduler can place work near its memory, but that only reduces rather than eliminates the remote-access cost, so the option claiming it is eliminated overstates it. Hypervisors run such wide VMs rather than truncating vCPU count, and guests routinely boot fine with multi-node vNUMA topologies."
+ },
+ {
+  "id": "GEN-T2U4B-021",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A storage admin creates two new virtual disks of the same logical 500 GB size on the same datastore: one thin-provisioned, one thick-provisioned and eager-zeroed. Both are attached to idle VMs that have not yet written any data. Which statement correctly contrasts the two, right after creation?",
+  "opts": {
+   "A": "Both disks consume the full 500 GB immediately; the only difference between them is which one supports snapshots",
+   "B": "The thin disk is faster for every subsequent write because the hypervisor pre-allocates its blocks lazily in the background before the guest requests them",
+   "C": "The thin disk consumes only a small amount of actual datastore space until data is written, while the eager-zeroed thick disk immediately consumes the full 500 GB because every block was allocated and zeroed at creation time",
+   "D": "The eager-zeroed thick disk consumes only as much space as has actually been written, identical to the thin disk, until the guest issues its first write"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A thin disk only allocates and zeroes a block the first time it is written, so an idle thin disk barely touches the datastore, whereas an eager-zeroed thick disk has every block allocated and zeroed at creation time and so consumes its full logical size immediately — the opposite of the option claiming they start identical. Because the eager-zeroed disk's blocks are already zeroed, its first write to a given block is typically faster than a thin disk's first write to the same block, not slower as one distractor claims."
+ },
+ {
+  "id": "GEN-T2U4B-022",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A VM has run for eight months with an active chain of 14 linked snapshots that were never consolidated. Guest disk I/O has grown steadily slower over that time even though the workload hasn't changed. What is the mechanism, and what is the standard fix?",
+  "opts": {
+   "A": "Snapshots have no run-time I/O cost at all; the slowdown must come from an unrelated cause such as the guest's own filesystem fragmentation",
+   "B": "Each snapshot silently doubles the VM's configured RAM reservation, so the slowdown is memory pressure on the host, not a storage effect",
+   "C": "The base disk is deleted the moment the first snapshot is taken, so all 14 deltas are being read from cache with no disk involved",
+   "D": "Each read not satisfied by the newest delta may have to be looked up back through progressively older deltas toward the base disk, and every write lands on the already-large topmost delta; consolidating the chain back into the base disk removes this lookup overhead"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A long, uncommitted snapshot chain means a read not found in the newest delta must be looked up back through progressively older deltas toward the base disk, and every write lands on the already-large top delta, so I/O cost grows with chain depth; consolidating the chain back into the base disk removes that lookup overhead. Snapshots are not free at run time, ruling out the option that claims zero cost; snapshot count has nothing to do with RAM reservation; and the base disk is retained read-only underneath the chain rather than deleted."
+ },
+ {
+  "id": "GEN-T2U4B-023",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "Several VMs share the same backend storage array. One VM starts a heavy sequential batch-write job, and a different VM on the same array — previously seeing single-digit-millisecond latency on small random reads — now sees latency spike into the hundreds of milliseconds, even though neither VM's CPU, memory or network is under pressure. What explains this, and what is the standard hypervisor-side control for it?",
+  "opts": {
+   "A": "The array's IOPS/throughput capacity is a shared, finite resource, and the batch job is consuming a disproportionate share of it; a storage I/O control mechanism that enforces per-VM shares or hard IOPS/throughput limits addresses it",
+   "B": "This can only be a network problem, because storage arrays scale their IOPS automatically to whatever is demanded of them with no shared ceiling",
+   "C": "The two VMs must be on different NUMA nodes, and moving them onto the same node removes the contention",
+   "D": "Latency spikes on a shared array are unrelated to another VM's workload; the affected VM's own virtual disk must be corrupted"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Physical storage arrays have a finite shared IOPS/throughput budget, and one VM's heavy sequential batch job can consume a disproportionate share of it, starving a co-located VM's small random reads even though neither VM is CPU-, memory- or network-bound — the classic noisy-neighbour problem. Storage I/O control mechanisms that enforce per-VM shares or hard IOPS/throughput limits at the array or hypervisor layer are the standard remedy. CPU NUMA placement and disk corruption, named in two distractors, are unrelated to a shared-array contention symptom like this."
+ },
+ {
+  "id": "GEN-T2U4B-024",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A cloud provider originally isolated tenant networks using 802.1Q VLANs, but as it onboarded more tenants it exhausted usable VLAN IDs long before running out of any other capacity, and migrated to VXLAN overlays instead. Which specific limitation of VLAN tagging forced that move, and how does VXLAN address it?",
+  "opts": {
+   "A": "VLANs cannot be routed between subnets at all, while VXLAN adds native Layer-3 routing to every packet",
+   "B": "VLAN tags are stripped by any Layer-3 device, so VLANs cannot exist inside a data-centre core; VXLAN was invented to let tagged frames cross routers unmodified",
+   "C": "The VLAN ID field is 12 bits, allowing at most 4094 usable VLANs; VXLAN instead uses a 24-bit Virtual Network Identifier, supporting over 16 million logical segments",
+   "D": "VLANs top out at 256 IDs because the tag is one byte; VXLAN raises this to 4094"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The VLAN tag is a 12-bit field, capping usable VLAN IDs at 4094, which multi-tenant cloud providers exhaust quickly; VXLAN instead carries a 24-bit Virtual Network Identifier, supporting over 16 million logical segments, which is why it replaced VLANs for large-scale tenant isolation. The option claiming a 256-ID, one-byte limit misstates the actual VLAN tag width. VLANs can in fact be routed between subnets via Layer-3 switches, so the other two distractors' claims about routing and tag-stripping are also false."
+ },
+ {
+  "id": "GEN-T2U4B-025",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A team wants a single DORA metric that captures the elapsed time between a commit landing on the mainline and that same change running in production. Which metric is this?",
+  "opts": {
+   "A": "Deployment frequency",
+   "B": "Lead time for changes",
+   "C": "Change failure rate",
+   "D": "Time to restore service (MTTR)"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Lead time for changes is defined as the time from a commit reaching the mainline to that same change running in production. Deployment frequency instead counts how often releases happen at all, which is the distractor this stem is built to catch; change failure rate and MTTR describe outcomes after a deploy, not the time to get there."
+ },
+ {
+  "id": "GEN-T2U4B-026",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Team A's feature branches often live for several weeks before merging into main, and the eventual merge is usually painful with large conflicts. Team B requires every branch to merge back into main within a day, gating any unfinished work behind a feature flag rather than a long-lived branch. Which practice does Team B follow, and why does it reduce the pain Team A experiences?",
+  "opts": {
+   "A": "Trunk-based development; frequent small merges keep divergence from main small, so conflicts stay small and are resolved while still cheap",
+   "B": "GitFlow; a dedicated release branch isolates the pain of merging into one window per release",
+   "C": "Continuous deployment; every commit is automatically promoted to production so there is no merge step left to conflict",
+   "D": "Blue-green deployment; running two parallel production environments avoids merge conflicts entirely"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Keeping every branch's lifetime to about a day and merging into a shared mainline is trunk-based development; because divergence from main never has time to grow large, conflicts stay small and are caught immediately instead of compounding for weeks. GitFlow (B) is built around exactly the long-lived release/feature branches causing Team A's pain, and continuous deployment and blue-green deployment (C, D) are release mechanics that say nothing about how branches are merged."
+ },
+ {
+  "id": "GEN-T2U4B-027",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A CI pipeline already runs unit tests, a linter, and a container image vulnerability scan on every commit, before the image is pushed to the registry. A dependency with a critical, publicly known remote-code-execution CVE still reaches production, because the vulnerability scan step is configured to record its findings without affecting the pipeline's exit code. Which single change most directly fixes this recurrence?",
+  "opts": {
+   "A": "Add a second, independent scanning tool alongside the first, run in the same non-blocking way",
+   "B": "Move the scan out of the build stage into a nightly job that scans the already-deployed production registry",
+   "C": "Require a manual security sign-off email before each release, in addition to the existing scan",
+   "D": "Configure the scan step to fail the pipeline when findings meet or exceed a defined severity threshold, instead of only logging them"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The scan already runs before the registry push, so it is already shifted left; what is missing is that its result never gates the pipeline, so a critical finding cannot stop the build. Running a second scanner the same non-blocking way (A) repeats the exact mistake, moving the scan to a nightly job against images already in production (B) moves detection later rather than earlier, and a manual sign-off email (C) doesn't scale and still leaves the scan's own output unused."
+ },
+ {
+  "id": "GEN-T2U4B-028",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A process running inside a container reports itself as PID 1 when listed with `ps` from inside the container, but the same process shows up under an ordinary high-numbered PID when listed with `ps` on the container host. What explains this, and what does it imply about what the container has of its own?",
+  "opts": {
+   "A": "The container has its own cgroup hierarchy, which independently numbers the processes it is allowed to run",
+   "B": "The container runs inside a lightweight virtual machine with its own guest kernel, so its PID numbering is independent of the host's",
+   "C": "The container has its own PID namespace, which gives it an independent process-ID numbering; it does not have its own kernel, since it shares the host's kernel",
+   "D": "The hypervisor remaps every PID inside the container through a translation table maintained outside the kernel"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A PID namespace gives the container its own independent process numbering, so PID 1 inside the container and its ordinary PID on the host are two views of the same process on the one shared kernel; a container has no kernel of its own, which rules out the lightweight-VM story in B. Cgroups (A) govern resource limits such as CPU and memory shares, not process-ID numbering, and no per-container PID translation table exists outside the kernel (D)."
+ },
+ {
+  "id": "GEN-T2U4B-029",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A cluster admin wants exactly one instance of a log-shipping agent Pod running on every node in the cluster, including any node added later, without manually adjusting a replica count as nodes come and go. Which Kubernetes workload object is designed for this?",
+  "opts": {
+   "A": "DaemonSet",
+   "B": "Deployment, with replicas set equal to the current node count",
+   "C": "StatefulSet, with one replica per node label",
+   "D": "Job, with a completions count equal to the number of nodes"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A DaemonSet's controller schedules exactly one matching Pod onto every node that satisfies its selector, and automatically places one onto any node added afterward, with no manual bookkeeping. A Deployment's replica count (B) is a fixed number decoupled from node identity, so it neither tracks cluster size nor guarantees one Pod per node; a StatefulSet (C) gives stable per-replica identity but still needs explicit scheduling constraints to pin one per node; and a Job (D) runs its Pods to completion rather than as a continuously running per-node agent."
+ },
+ {
+  "id": "GEN-T2U4B-030",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A Deployment with 4 desired replicas sets its rolling update strategy as follows:\n\n  strategy:\n    type: RollingUpdate\n    rollingUpdate:\n      maxSurge: 0\n      maxUnavailable: 1\n\nWhat happens during a rollout?",
+  "opts": {
+   "A": "Kubernetes creates 1 extra Pod above the desired count before removing any old Pod, so capacity briefly rises to 5",
+   "B": "All 4 old Pods are terminated together, then 4 new Pods are created",
+   "C": "The rollout is rejected, because maxSurge and maxUnavailable cannot both be set below 1",
+   "D": "Kubernetes takes down up to 1 old Pod at a time and replaces it before touching another, never exceeding the desired count of 4"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "With maxSurge: 0, the total running Pod count can never exceed the desired count of 4, so an old Pod must be removed under the maxUnavailable: 1 budget before its replacement is created, cycling one at a time. That rules out ever reaching 5 Pods (A), it is not the terminate-all-then-recreate pattern of B, and this combination is a valid, if briefly under-capacity, configuration rather than one Kubernetes rejects (C)."
+ },
+ {
+  "id": "GEN-T2U4B-031",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A retailer has already avoided provider-specific compute APIs by containerizing every workload so it runs unmodified on any cloud. It still finds moving its multi-petabyte data warehouse from Cloud Provider A to Cloud Provider B commercially unworkable: the migration stalls once Provider A's per-GB egress charge to export the whole warehouse is priced out. Which factor is chiefly responsible for the lock-in here, given that the compute layer was never the obstacle?",
+  "opts": {
+   "A": "Lack of a common container orchestration API between the two providers",
+   "B": "Data gravity: the accumulated dataset itself, combined with the cost of moving it out, anchors the workload to the provider that already holds it",
+   "C": "The absence of a service mesh spanning the two providers' Kubernetes clusters",
+   "D": "The two providers using different hypervisors under their compute instances"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "The stem already ruled out the compute layer as portable, so what's left holding the workload in place is the data itself plus the egress bill to extract it — the textbook data-gravity lock-in, distinct from the API-dependency form of lock-in. Option A is the tempting trap because it names a real portability concern, but containerization already solved it here; a genuinely multi-cloud posture like this also tends to double IAM, monitoring and networking configuration per provider, which is the separate reason multi-cloud raises operational cost even where lock-in is avoided."
+ },
+ {
+  "id": "GEN-T2U4B-032",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A team migrating a data pipeline off self-hosted Hadoop is worried about eventual consistency in the target object store and builds a retry-with-backoff wrapper around every read that follows a write, based on guidance in an older tutorial. If the target is Amazon S3 in 2026, is that wrapper still necessary?",
+  "opts": {
+   "A": "Yes — S3 only guarantees read-your-own-writes consistency for the client that performed the write; other clients may still see a stale version for some time",
+   "B": "Yes — S3's strong consistency applies only to bucket-listing operations, not to reads of individual objects, so a wrapper around GET requests is still required",
+   "C": "No — since December 2020, S3 provides strong read-after-write consistency automatically and globally for all requests from any client, so any reader immediately sees the result of a completed write, overwrite, or delete",
+   "D": "No — the wrapper was already unnecessary before 2020 too, because S3 has been strongly consistent since it first launched in 2006"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "AWS made S3 strongly consistent for every request from every client automatically in December 2020 — not just for the writer's own subsequent reads (kills A) and not limited to listings while excluding object GETs (kills B, which actually has it backwards: both are covered). D lands on the right conclusion for the wrong reason: before that 2020 change, S3 genuinely was only eventually consistent for overwrites and deletes, so the old tutorial's workaround wasn't always pointless."
+ },
+ {
+  "id": "GEN-T2U4B-033",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A marketing site serves logo.png through a CDN, with the origin response carrying Cache-Control: max-age=86400. The team replaces the file at that same URL with a new version. Twelve hours later, most visitors still see the old logo — including visitors loading the page for the first time, who have no prior browser cache of it. Which change fixes the staleness without simply waiting out the remaining TTL?",
+  "opts": {
+   "A": "Invalidate (purge) the cached copy of that URL at the CDN's edge locations, or publish the new file under a version-fingerprinted URL and update the page to reference it",
+   "B": "Ask visitors to clear their browser cache",
+   "C": "Reduce the origin server's response time so the CDN refreshes its cache sooner",
+   "D": "Add a Vary: User-Agent header to the response"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "That first-time visitors also see the stale image proves this is edge-cache staleness, not a per-user browser cache — so B is a non-fix (kills B), and the direct remedy is an edge purge or, better, a fresh versioned URL so the old cached object is simply never requested again. Origin response time (C) has no bearing on how long an edge already holds a cached object under its TTL, and a Vary header (D) changes which cached variant a request maps to, not whether the CDN discards a stale one."
+ },
+ {
+  "id": "GEN-T2U4B-034",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "On AWS, a batch of application servers sits in a private subnet with no public IP addresses assigned, so nothing on the internet can reach them directly. They still need outbound HTTPS to reach an external package registry during deployment. Which addition to the private subnet's route table provides that outbound path without exposing the servers to unsolicited inbound connections from the internet?",
+  "opts": {
+   "A": "An internet gateway attached directly to the private subnet's route table",
+   "B": "A VPC peering connection to another VPC",
+   "C": "A network ACL rule allowing outbound TCP 443",
+   "D": "A NAT gateway placed in a public subnet, with the private subnet's default route pointing at it"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A NAT gateway sits in a public subnet with its own route to the internet gateway and performs the address translation that lets instances with no public IP of their own reach out, while nothing can initiate a connection back in. Option A is the classic trap: an internet gateway route only works for instances that already have a public/Elastic IP, so adding it to this private subnet's table would not actually restore connectivity. Peering (B) only reaches another VPC, not the public internet, and a bare NACL rule (C) permits traffic but supplies no route to anywhere."
+ },
+ {
+  "id": "GEN-T2U4B-035",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "Read replicas and sharding both let a relational database handle more load, but they address different bottlenecks. Which statement correctly distinguishes what each actually fixes?",
+  "opts": {
+   "A": "Read replicas partition the dataset by key range to spread writes, while sharding creates full read-only copies of the entire dataset to spread reads",
+   "B": "Read replicas add read throughput by serving queries from asynchronously replicated copies of the full dataset; sharding addresses a single primary's write throughput or storage-size limit by partitioning the data itself across independent instances, each owning a subset of the keyspace",
+   "C": "Both solve the same problem — insufficient storage capacity on a single instance — and differ only in how many replicas are provisioned",
+   "D": "Sharding is a special case of read replication where every replica is made writable"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A read replica is a full asynchronous copy of the dataset that only offloads reads, while sharding is what you reach for when a single primary's writes or on-disk size outgrow one instance, since it actually partitions the data itself. Option A simply swaps the two definitions (the common confusion this question targets), and C is wrong because a read replica does nothing for storage capacity — it duplicates the full dataset rather than partitioning it, so it cannot relieve a single-instance storage ceiling the way sharding can."
+ },
+ {
+  "id": "GEN-T2U4B-036",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A managed relational database (for example Amazon RDS, Azure SQL Database, or Cloud SQL) is configured with automated daily snapshots retained for 7 days, and separately has continuous transaction-log backup enabled that supports point-in-time recovery anywhere within that same 7-day window. At 14:32 a faulty migration script corrupts several tables. The most recent snapshot was taken at 03:00 that same day. Which recovery option loses the least data?",
+  "opts": {
+   "A": "Restore the 03:00 snapshot, since a snapshot is always more consistent than a point-in-time restore",
+   "B": "Take a fresh snapshot immediately and restore from that, since the newest snapshot is always the safest recovery point",
+   "C": "Restore using point-in-time recovery to roughly 14:31, just before the corrupting statement executed, since continuous log shipping lets recovery target any moment in the retention window rather than only the moments a snapshot was taken",
+   "D": "Restore the 03:00 snapshot and manually replay the application server's own logs to recover the lost hours"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Point-in-time recovery replays the continuously shipped transaction log up to an arbitrary target moment, so it can land a restore seconds before the corrupting statement instead of jumping back to whatever hour the last snapshot happened to be taken — restoring the 03:00 snapshot instead (A) throws away over 11 hours of otherwise-good writes for no reason. A snapshot taken now (B) would simply preserve the corruption itself rather than undo it, and application-server logs (D) are not the database's authoritative transaction log and cannot reconstruct exact row-level state."
+ },
+ {
+  "id": "GEN-T2U4B-037",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A department adopts a fully managed SaaS office-productivity suite, so the vendor operates the application code, the platform and the underlying infrastructure entirely. Under the shared responsibility model, which of the following still remains the department's own responsibility?",
+  "opts": {
+   "A": "Deciding which employees can access which mailboxes and folders, and classifying the sensitive data stored there",
+   "B": "Patching the operating system underneath the SaaS application",
+   "C": "Maintaining the physical security of the data centres hosting the service",
+   "D": "Ensuring the application's own source code is free of vulnerabilities"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Across every service model — IaaS, PaaS or SaaS — the customer never hands off ownership of its own data or of who is granted access to it (identity and access management); as the boundary shifts toward SaaS the vendor absorbs everything else, including the OS (B), the data-centre facility (C) and the application code itself (D)."
+ },
+ {
+  "id": "GEN-T2U4B-038",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "AWS describes its shared responsibility model using the phrases 'security of the cloud' and 'security in the cloud'. A customer runs an application on Amazon EC2. Which task falls under AWS's 'security of the cloud' responsibility rather than the customer's?",
+  "opts": {
+   "A": "Configuring the security groups that control inbound traffic to the instance",
+   "B": "Patching the guest operating system running on the instance",
+   "C": "Physically securing and maintaining the data centre hardware the instance runs on",
+   "D": "Setting IAM policies that govern who may start or stop the instance"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "AWS's 'security of the cloud' covers the physical facilities, hardware and host infrastructure it alone controls; everything the customer configures on top of an EC2 instance — security groups (A), guest-OS patches (B) and IAM policy (D) — falls under 'security in the cloud', which stays the customer's job regardless of AWS's own security posture."
+ },
+ {
+  "id": "GEN-T2U4B-039",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A data centre's internal network lets any server reach any other server on the same flat VLAN once past the perimeter firewall. An attacker compromises a low-value print server and then pivots freely to a payments database on the same network. Adopting a Zero Trust architecture, which change most directly prevents that pivot?",
+  "opts": {
+   "A": "Requiring a stronger password policy for the print server's administrator account",
+   "B": "Replacing the flat network with micro-segmentation, so each workload can only reach the specific destinations its policy explicitly permits",
+   "C": "Doubling the perimeter firewall's inbound rule set at the network edge",
+   "D": "Encrypting traffic between the print server and the payments database"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Zero Trust replaces a flat, perimeter-trusted internal network with micro-segmentation: every workload-to-workload path must be explicitly authorised, so compromising one low-value host does not grant reachability to unrelated systems. A stronger perimeter (C) or in-transit encryption (D) does nothing once the attacker is already inside, and a password policy (A) doesn't limit what a compromised host can reach."
+ },
+ {
+  "id": "GEN-T2U4B-040",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A web application authenticates a user once at login and then, for the next eight hours, trusts every request bearing that session's cookie without re-checking the user's current authorisation for the specific resource being requested. Which Zero Trust principle does this design violate?",
+  "opts": {
+   "A": "Encrypting the session cookie in transit with TLS",
+   "B": "Requiring multi-factor authentication at login",
+   "C": "Rotating the session cookie's signing key periodically",
+   "D": "Evaluating trust continuously per request against the resource being accessed, rather than granting a standing trust once authentication succeeds"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Zero Trust's 'never trust, always verify' means authorisation is re-evaluated for each request against the specific resource and current context — for example whether the account has since been disabled or its access to that resource revoked — not granted as a standing trust for a session's lifetime. TLS (A), MFA at login (B) and key rotation (C) are all sound practices, but none of them re-evaluates trust on a per-request basis."
+ },
+ {
+  "id": "GEN-T2U4B-041",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A checkout service calls two independent upstream services, a pricing service and an inventory service, and must receive a successful response from both to complete an order. Each upstream service is contracted at 99.9% monthly availability, and their failures are independent of each other. What is the best estimate of the checkout service's own resulting availability?",
+  "opts": {
+   "A": "99.9%, because both dependencies carry the same SLA",
+   "B": "99.95%, the average of the two dependencies' SLAs",
+   "C": "About 99.8%, because the probabilities of each dependency being up must be multiplied, not averaged",
+   "D": "100%, because both services are independently contracted at 99.9%"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "When a request must succeed against every one of several independent dependencies, the combined availability is the product of each dependency's availability, not their average: 0.999 x 0.999 is about 0.998, i.e. roughly 99.8%, which is lower than either dependency's own 99.9% figure. Averaging (B) or assuming the composite matches a single dependency's SLA (A, D) both overstate the true guarantee."
+ },
+ {
+  "id": "GEN-T2U4B-042",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An online retailer's checkout service is unreachable for three hours during a flash sale because of an outage at its cloud provider, breaching the provider's 99.9% monthly SLA. The retailer estimates it lost several times the monthly service fee in cancelled sales. Under the standard terms most cloud provider SLAs use, what can the retailer expect to recover from the provider for that breach?",
+  "opts": {
+   "A": "A service credit against a future bill, typically capped at a percentage of the fees for the affected period, since service credits are stated as the customer's sole remedy and explicitly exclude lost profits or business losses",
+   "B": "Full reimbursement of the estimated lost sales, since the SLA was breached",
+   "C": "Automatic termination of the contract with a refund of all fees paid to date",
+   "D": "A cash payment equal to the provider's own estimated cost of the outage"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Standard cloud SLAs name service credits as the customer's sole and exclusive remedy for an availability breach, capped as a small percentage of the affected period's fees, and expressly disclaim liability for consequential losses such as lost sales; the retailer has no contractual path to recover the lost revenue itself, however large it was. Full reimbursement (B), automatic termination (C) and a cost-based cash payment (D) all overstate what the standard terms actually provide."
+ }
+]

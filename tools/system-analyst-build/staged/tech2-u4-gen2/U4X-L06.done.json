@@ -1,0 +1,87 @@
+[
+ {
+  "id": "GEN-T2U4B-031",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A retailer has already avoided provider-specific compute APIs by containerizing every workload so it runs unmodified on any cloud. It still finds moving its multi-petabyte data warehouse from Cloud Provider A to Cloud Provider B commercially unworkable: the migration stalls once Provider A's per-GB egress charge to export the whole warehouse is priced out. Which factor is chiefly responsible for the lock-in here, given that the compute layer was never the obstacle?",
+  "opts": {
+   "A": "Lack of a common container orchestration API between the two providers",
+   "B": "Data gravity: the accumulated dataset itself, combined with the cost of moving it out, anchors the workload to the provider that already holds it",
+   "C": "The absence of a service mesh spanning the two providers' Kubernetes clusters",
+   "D": "The two providers using different hypervisors under their compute instances"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "The stem already ruled out the compute layer as portable, so what's left holding the workload in place is the data itself plus the egress bill to extract it — the textbook data-gravity lock-in, distinct from the API-dependency form of lock-in. Option A is the tempting trap because it names a real portability concern, but containerization already solved it here; a genuinely multi-cloud posture like this also tends to double IAM, monitoring and networking configuration per provider, which is the separate reason multi-cloud raises operational cost even where lock-in is avoided."
+ },
+ {
+  "id": "GEN-T2U4B-032",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A team migrating a data pipeline off self-hosted Hadoop is worried about eventual consistency in the target object store and builds a retry-with-backoff wrapper around every read that follows a write, based on guidance in an older tutorial. If the target is Amazon S3 in 2026, is that wrapper still necessary?",
+  "opts": {
+   "A": "Yes — S3 only guarantees read-your-own-writes consistency for the client that performed the write; other clients may still see a stale version for some time",
+   "B": "Yes — S3's strong consistency applies only to bucket-listing operations, not to reads of individual objects, so a wrapper around GET requests is still required",
+   "C": "No — since December 2020, S3 provides strong read-after-write consistency automatically, in every AWS Region, for all requests from any client, at no extra cost and with no change to the application",
+   "D": "No — the wrapper was already unnecessary before 2020 too, because S3 has been strongly consistent since it first launched in 2006"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "AWS made S3 strongly consistent for every request from every client automatically in December 2020 — not merely for the writer's own subsequent reads (which kills A), and not limited to listings while excluding object GETs (which kills B, and in fact has it backwards: both are covered). The guarantee is delivered in every AWS Region while preserving regional isolation, so it says nothing about a write in one Region being immediately readable from another — cross-region replication remains asynchronous. D lands on the right conclusion for the wrong reason: before the 2020 change S3 genuinely was only eventually consistent for overwrites and deletes.",
+  "reviewFix": "Wording tightened from 'globally' to 'in every AWS Region', and the explanation now states the regional-isolation limit explicitly. The key was correct — no retry wrapper is needed — but AWS's December 2020 announcement delivers strong read-after-write consistency in all Regions while preserving regional isolation, so 'globally' could be read as promising that a write in one Region is immediately visible to a reader in another. It is not, and cross-region replication is still asynchronous. Key C unchanged."
+ },
+ {
+  "id": "GEN-T2U4B-033",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A marketing site serves logo.png through a CDN, with the origin response carrying Cache-Control: max-age=86400. The team replaces the file at that same URL with a new version. Twelve hours later, most visitors still see the old logo — including visitors loading the page for the first time, who have no prior browser cache of it. Which change fixes the staleness without simply waiting out the remaining TTL?",
+  "opts": {
+   "A": "Invalidate (purge) the cached copy of that URL at the CDN's edge locations, or publish the new file under a version-fingerprinted URL and update the page to reference it",
+   "B": "Ask visitors to clear their browser cache",
+   "C": "Reduce the origin server's response time so the CDN refreshes its cache sooner",
+   "D": "Add a Vary: User-Agent header to the response"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "That first-time visitors also see the stale image proves this is edge-cache staleness, not a per-user browser cache — so B is a non-fix (kills B), and the direct remedy is an edge purge or, better, a fresh versioned URL so the old cached object is simply never requested again. Origin response time (C) has no bearing on how long an edge already holds a cached object under its TTL, and a Vary header (D) changes which cached variant a request maps to, not whether the CDN discards a stale one."
+ },
+ {
+  "id": "GEN-T2U4B-034",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "On AWS, a batch of application servers sits in a private subnet with no public IP addresses assigned, so nothing on the internet can reach them directly. They still need outbound HTTPS to reach an external package registry during deployment. Which addition to the private subnet's route table provides that outbound path without exposing the servers to unsolicited inbound connections from the internet?",
+  "opts": {
+   "A": "An internet gateway attached directly to the private subnet's route table",
+   "B": "A VPC peering connection to another VPC",
+   "C": "A network ACL rule allowing outbound TCP 443",
+   "D": "A NAT gateway placed in a public subnet, with the private subnet's default route pointing at it"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A NAT gateway sits in a public subnet with its own route to the internet gateway and performs the address translation that lets instances with no public IP of their own reach out, while nothing can initiate a connection back in. Option A is the classic trap: an internet gateway route only works for instances that already have a public/Elastic IP, so adding it to this private subnet's table would not actually restore connectivity. Peering (B) only reaches another VPC, not the public internet, and a bare NACL rule (C) permits traffic but supplies no route to anywhere."
+ },
+ {
+  "id": "GEN-T2U4B-035",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "Read replicas and sharding both let a relational database handle more load, but they address different bottlenecks. Which statement correctly distinguishes what each actually fixes?",
+  "opts": {
+   "A": "Read replicas partition the dataset by key range to spread writes, while sharding creates full read-only copies of the entire dataset to spread reads",
+   "B": "Read replicas add read throughput by serving queries from asynchronously replicated copies of the full dataset; sharding addresses a single primary's write throughput or storage-size limit by partitioning the data itself across independent instances, each owning a subset of the keyspace",
+   "C": "Both solve the same problem — insufficient storage capacity on a single instance — and differ only in how many replicas are provisioned",
+   "D": "Sharding is a special case of read replication where every replica is made writable"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A read replica is a full asynchronous copy of the dataset that only offloads reads, while sharding is what you reach for when a single primary's writes or on-disk size outgrow one instance, since it actually partitions the data itself. Option A simply swaps the two definitions (the common confusion this question targets), and C is wrong because a read replica does nothing for storage capacity — it duplicates the full dataset rather than partitioning it, so it cannot relieve a single-instance storage ceiling the way sharding can."
+ },
+ {
+  "id": "GEN-T2U4B-036",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A managed relational database (for example Amazon RDS, Azure SQL Database, or Cloud SQL) is configured with automated daily snapshots retained for 7 days, and separately has continuous transaction-log backup enabled that supports point-in-time recovery anywhere within that same 7-day window. At 14:32 a faulty migration script corrupts several tables. The most recent snapshot was taken at 03:00 that same day. Which recovery option loses the least data?",
+  "opts": {
+   "A": "Restore the 03:00 snapshot, since a snapshot is always more consistent than a point-in-time restore",
+   "B": "Take a fresh snapshot immediately and restore from that, since the newest snapshot is always the safest recovery point",
+   "C": "Restore using point-in-time recovery to roughly 14:31, just before the corrupting statement executed, since continuous log shipping lets recovery target any moment in the retention window rather than only the moments a snapshot was taken",
+   "D": "Restore the 03:00 snapshot and manually replay the application server's own logs to recover the lost hours"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Point-in-time recovery replays the continuously shipped transaction log up to an arbitrary target moment, so it can land a restore seconds before the corrupting statement instead of jumping back to whatever hour the last snapshot happened to be taken — restoring the 03:00 snapshot instead (A) throws away over 11 hours of otherwise-good writes for no reason. A snapshot taken now (B) would simply preserve the corruption itself rather than undo it, and application-server logs (D) are not the database's authoritative transaction log and cannot reconstruct exact row-level state."
+ }
+]

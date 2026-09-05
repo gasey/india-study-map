@@ -1,0 +1,86 @@
+[
+ {
+  "id": "GEN-T2U4B-037",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A department adopts a fully managed SaaS office-productivity suite, so the vendor operates the application code, the platform and the underlying infrastructure entirely. Under the shared responsibility model, which of the following still remains the department's own responsibility?",
+  "opts": {
+   "A": "Deciding which employees can access which mailboxes and folders, and classifying the sensitive data stored there",
+   "B": "Patching the operating system underneath the SaaS application",
+   "C": "Maintaining the physical security of the data centres hosting the service",
+   "D": "Ensuring the application's own source code is free of vulnerabilities"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Across every service model — IaaS, PaaS or SaaS — the customer never hands off ownership of its own data or of who is granted access to it (identity and access management); as the boundary shifts toward SaaS the vendor absorbs everything else, including the OS (B), the data-centre facility (C) and the application code itself (D)."
+ },
+ {
+  "id": "GEN-T2U4B-038",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "AWS describes its shared responsibility model using the phrases 'security of the cloud' and 'security in the cloud'. A customer runs an application on Amazon EC2. Which task falls under AWS's 'security of the cloud' responsibility rather than the customer's?",
+  "opts": {
+   "A": "Configuring the security groups that control inbound traffic to the instance",
+   "B": "Patching the guest operating system running on the instance",
+   "C": "Physically securing and maintaining the data centre hardware the instance runs on",
+   "D": "Setting IAM policies that govern who may start or stop the instance"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "AWS's 'security of the cloud' covers the physical facilities, hardware and host infrastructure it alone controls; everything the customer configures on top of an EC2 instance — security groups (A), guest-OS patches (B) and IAM policy (D) — falls under 'security in the cloud', which stays the customer's job regardless of AWS's own security posture."
+ },
+ {
+  "id": "GEN-T2U4B-039",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A data centre's internal network lets any server reach any other server on the same flat VLAN once past the perimeter firewall. An attacker compromises a low-value print server and then pivots freely to a payments database on the same network. Adopting a Zero Trust architecture, which change most directly prevents that pivot?",
+  "opts": {
+   "A": "Requiring a stronger password policy for the print server's administrator account",
+   "B": "Replacing the flat network with micro-segmentation, so each workload can only reach the specific destinations its policy explicitly permits",
+   "C": "Doubling the perimeter firewall's inbound rule set at the network edge",
+   "D": "Encrypting traffic between the print server and the payments database"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Zero Trust replaces a flat, perimeter-trusted internal network with micro-segmentation: every workload-to-workload path must be explicitly authorised, so compromising one low-value host does not grant reachability to unrelated systems. A stronger perimeter (C) or in-transit encryption (D) does nothing once the attacker is already inside, and a password policy (A) doesn't limit what a compromised host can reach."
+ },
+ {
+  "id": "GEN-T2U4B-040",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A web application authenticates a user once at login and then, for the next eight hours, trusts every request bearing that session's cookie without re-checking the user's current authorisation for the specific resource being requested. Which Zero Trust principle does this design violate?",
+  "opts": {
+   "A": "Encrypting the session cookie in transit with TLS",
+   "B": "Requiring multi-factor authentication at login",
+   "C": "Rotating the session cookie's signing key periodically",
+   "D": "Evaluating trust continuously per request against the resource being accessed, rather than granting a standing trust once authentication succeeds"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Zero Trust's 'never trust, always verify' means authorisation is re-evaluated for each request against the specific resource and current context — for example whether the account has since been disabled or its access to that resource revoked — not granted as a standing trust for a session's lifetime. TLS (A), MFA at login (B) and key rotation (C) are all sound practices, but none of them re-evaluates trust on a per-request basis."
+ },
+ {
+  "id": "GEN-T2U4B-041",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A checkout service calls two independent upstream services, a pricing service and an inventory service, and must receive a successful response from both to complete an order. Each upstream service is contracted at 99.9% monthly availability, and their failures are independent of each other. What is the best estimate of the checkout service's own resulting availability?",
+  "opts": {
+   "A": "99.9%, because both dependencies carry the same SLA",
+   "B": "99.95%, the average of the two dependencies' SLAs",
+   "C": "About 99.8%, because the probabilities of each dependency being up must be multiplied, not averaged",
+   "D": "100%, because both services are independently contracted at 99.9%"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "When a request must succeed against every one of several independent dependencies, the combined availability is the product of each dependency's availability, not their average: 0.999 x 0.999 is about 0.998, i.e. roughly 99.8%, which is lower than either dependency's own 99.9% figure. Averaging (B) or assuming the composite matches a single dependency's SLA (A, D) both overstate the true guarantee."
+ },
+ {
+  "id": "GEN-T2U4B-042",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An online retailer's checkout service is unreachable for three hours during a flash sale because of an outage at its cloud provider, breaching the provider's 99.9% monthly SLA. The retailer estimates it lost several times the monthly service fee in cancelled sales. Under the standard terms most cloud provider SLAs use, what can the retailer expect to recover from the provider for that breach?",
+  "opts": {
+   "A": "A service credit against a future bill, typically capped at a percentage of the fees for the affected period, since service credits are stated as the customer's sole remedy and explicitly exclude lost profits or business losses",
+   "B": "Full reimbursement of the estimated lost sales, since the SLA was breached",
+   "C": "Automatic termination of the contract with a refund of all fees paid to date",
+   "D": "A cash payment equal to the provider's own estimated cost of the outage"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Standard cloud SLAs name service credits as the customer's sole and exclusive remedy for an availability breach, capped as a small percentage of the affected period's fees, and expressly disclaim liability for consequential losses such as lost sales; the retailer has no contractual path to recover the lost revenue itself, however large it was. Full reimbursement (B), automatic termination (C) and a cost-based cash payment (D) all overstate what the standard terms actually provide."
+ }
+]

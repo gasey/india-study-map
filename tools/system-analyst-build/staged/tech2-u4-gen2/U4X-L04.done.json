@@ -1,0 +1,86 @@
+[
+ {
+  "id": "GEN-T2U4B-019",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On VMware ESXi hosts, inter-VM Transparent Page Sharing (TPS) is disabled by default while intra-VM TPS (deduplicating a single VM's own redundant pages) remains enabled by default. Why was inter-VM TPS specifically disabled?",
+  "opts": {
+   "A": "Because deduplicating identical pages across different VMs was shown to let one VM infer information about another VM's memory contents through the timing of the copy-on-write fault when a shared page is written",
+   "B": "Because the balloon driver conflicts with TPS whenever both mechanisms try to reclaim the same physical page",
+   "C": "Because TPS operating across VMs on different hosts violates vMotion compatibility requirements",
+   "D": "Because current CPUs no longer expose the memory-mapping support TPS depends on"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Sharing a page copy-on-write across VMs let one VM infer, from copy-on-write fault timing, that its page's content matched another VM's memory — a side channel that could leak secrets such as cryptographic key material across the VM boundary. VMware closed this from vSphere 6 onward by disabling inter-VM TPS by default while leaving harmless intra-VM deduplication on; this is specifically a VMware default, since other hypervisors scope memory deduplication differently. The balloon driver named in one option is an unrelated overcommit mechanism with no such conflict."
+ },
+ {
+  "id": "GEN-T2U4B-020",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A VM is configured with 32 vCPUs and 256 GiB of memory on a host whose physical NUMA nodes each have 16 cores and 128 GiB of local memory, so the VM spans two NUMA nodes. What is the direct consequence for that VM, independent of which hypervisor is used?",
+  "opts": {
+   "A": "The hypervisor caps the VM at the vCPU count of a single node and silently ignores the extra 16 vCPUs",
+   "B": "Some of the VM's memory accesses must cross the inter-node interconnect to reach memory local to the other node, adding latency compared with a VM that fits within one node",
+   "C": "The VM's memory is transparently migrated in the background until all of it becomes local to a single node, eliminating the penalty",
+   "D": "The guest operating system cannot boot because ACPI reports two NUMA nodes to a single guest kernel"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A VM whose vCPU/memory footprint exceeds one physical NUMA node cannot keep all of its memory local, so some accesses must cross the inter-node interconnect, which costs more than a local access on any NUMA-aware hypervisor (ESXi, Hyper-V, KVM/QEMU alike). Hypervisors mitigate this by exposing a virtual NUMA topology so the guest's own scheduler can place work near its memory, but that only reduces rather than eliminates the remote-access cost, so the option claiming it is eliminated overstates it. Hypervisors run such wide VMs rather than truncating vCPU count, and guests routinely boot fine with multi-node vNUMA topologies."
+ },
+ {
+  "id": "GEN-T2U4B-021",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A storage admin creates two new virtual disks of the same logical 500 GB size on the same datastore: one thin-provisioned, one thick-provisioned and eager-zeroed. Both are attached to idle VMs that have not yet written any data. Which statement correctly contrasts the two, right after creation?",
+  "opts": {
+   "A": "Both disks consume the full 500 GB immediately; the only difference between them is which one supports snapshots",
+   "B": "The thin disk is faster for every subsequent write because the hypervisor pre-allocates its blocks lazily in the background before the guest requests them",
+   "C": "The thin disk consumes only a small amount of actual datastore space until data is written, while the eager-zeroed thick disk immediately consumes the full 500 GB because every block was allocated and zeroed at creation time",
+   "D": "The eager-zeroed thick disk consumes only as much space as has actually been written, identical to the thin disk, until the guest issues its first write"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A thin disk only allocates and zeroes a block the first time it is written, so an idle thin disk barely touches the datastore, whereas an eager-zeroed thick disk has every block allocated and zeroed at creation time and so consumes its full logical size immediately — the opposite of the option claiming they start identical. Because the eager-zeroed disk's blocks are already zeroed, its first write to a given block is typically faster than a thin disk's first write to the same block, not slower as one distractor claims."
+ },
+ {
+  "id": "GEN-T2U4B-022",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A VM has run for eight months with an active chain of 14 linked snapshots that were never consolidated. Guest disk I/O has grown steadily slower over that time even though the workload hasn't changed. What is the mechanism, and what is the standard fix?",
+  "opts": {
+   "A": "Snapshots have no run-time I/O cost at all; the slowdown must come from an unrelated cause such as the guest's own filesystem fragmentation",
+   "B": "Each snapshot silently doubles the VM's configured RAM reservation, so the slowdown is memory pressure on the host, not a storage effect",
+   "C": "The base disk is deleted the moment the first snapshot is taken, so all 14 deltas are being read from cache with no disk involved",
+   "D": "Each read not satisfied by the newest delta may have to be looked up back through progressively older deltas toward the base disk, and every write lands on the already-large topmost delta; consolidating the chain back into the base disk removes this lookup overhead"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A long, uncommitted snapshot chain means a read not found in the newest delta must be looked up back through progressively older deltas toward the base disk, and every write lands on the already-large top delta, so I/O cost grows with chain depth; consolidating the chain back into the base disk removes that lookup overhead. Snapshots are not free at run time, ruling out the option that claims zero cost; snapshot count has nothing to do with RAM reservation; and the base disk is retained read-only underneath the chain rather than deleted."
+ },
+ {
+  "id": "GEN-T2U4B-023",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "Several VMs share the same backend storage array. One VM starts a heavy sequential batch-write job, and a different VM on the same array — previously seeing single-digit-millisecond latency on small random reads — now sees latency spike into the hundreds of milliseconds, even though neither VM's CPU, memory or network is under pressure. What explains this, and what is the standard hypervisor-side control for it?",
+  "opts": {
+   "A": "The array's IOPS/throughput capacity is a shared, finite resource, and the batch job is consuming a disproportionate share of it; a storage I/O control mechanism that enforces per-VM shares or hard IOPS/throughput limits addresses it",
+   "B": "This can only be a network problem, because storage arrays scale their IOPS automatically to whatever is demanded of them with no shared ceiling",
+   "C": "The two VMs must be on different NUMA nodes, and moving them onto the same node removes the contention",
+   "D": "Latency spikes on a shared array are unrelated to another VM's workload; the affected VM's own virtual disk must be corrupted"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Physical storage arrays have a finite shared IOPS/throughput budget, and one VM's heavy sequential batch job can consume a disproportionate share of it, starving a co-located VM's small random reads even though neither VM is CPU-, memory- or network-bound — the classic noisy-neighbour problem. Storage I/O control mechanisms that enforce per-VM shares or hard IOPS/throughput limits at the array or hypervisor layer are the standard remedy. CPU NUMA placement and disk corruption, named in two distractors, are unrelated to a shared-array contention symptom like this."
+ },
+ {
+  "id": "GEN-T2U4B-024",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A cloud provider originally isolated tenant networks using 802.1Q VLANs, but as it onboarded more tenants it exhausted usable VLAN IDs long before running out of any other capacity, and migrated to VXLAN overlays instead. Which specific limitation of VLAN tagging forced that move, and how does VXLAN address it?",
+  "opts": {
+   "A": "VLANs cannot be routed between subnets at all, while VXLAN adds native Layer-3 routing to every packet",
+   "B": "VLAN tags are stripped by any Layer-3 device, so VLANs cannot exist inside a data-centre core; VXLAN was invented to let tagged frames cross routers unmodified",
+   "C": "The VLAN ID field is 12 bits, allowing at most 4094 usable VLANs; VXLAN instead uses a 24-bit Virtual Network Identifier, supporting over 16 million logical segments",
+   "D": "VLANs top out at 256 IDs because the tag is one byte; VXLAN raises this to 4094"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The VLAN tag is a 12-bit field, capping usable VLAN IDs at 4094, which multi-tenant cloud providers exhaust quickly; VXLAN instead carries a 24-bit Virtual Network Identifier, supporting over 16 million logical segments, which is why it replaced VLANs for large-scale tenant isolation. The option claiming a 256-ID, one-byte limit misstates the actual VLAN tag width. VLANs can in fact be routed between subnets via Layer-3 switches, so the other two distractors' claims about routing and tag-stripping are also false."
+ }
+]

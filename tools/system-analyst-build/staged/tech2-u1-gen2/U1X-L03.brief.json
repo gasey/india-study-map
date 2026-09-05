@@ -1,0 +1,446 @@
+{
+ "slug": "U1X-L03",
+ "unit": "1",
+ "unit_title": "Object Oriented Programming",
+ "marks": 40,
+ "leaf": "Constructors and destructors",
+ "need": 6,
+ "already_on_this_leaf": 12,
+ "target_per_leaf": 18,
+ "language": "Write in C++ unless a question is genuinely language-neutral. The syllabus is explicitly C++ (operator overloading, virtual functions, pointers to object, I/O streams, file handling), and every existing Unit 1 question is C++. Do not write a question whose answer would differ in Java or Python without the stem naming the language.",
+ "priority_concepts": [
+  "limitations of operator overloading (which operators cannot be overloaded, arity and precedence unchanged, at least one operand must be a class type, which must be members)",
+  "array of objects",
+  "random file access",
+  "class specifiers",
+  "pure virtual function implementation"
+ ],
+ "verbatim_syllabus": "Introduction of OOP; application of OOP; process of OOP; Classes and Objects; Overview of Classes and Objects; Class definition; class specifiers; defining member functions; Memory allocation for objects; array of objects; constructor; destructor; Polymoxphism; Function of Overloading; uses in program; operator overloading; defining operator overloading; limitations of operator overloading; overloading unary and binary operators; Inheritance and its types with examples; virtual functions; pointers to object; pure Virtual Functions and its implementation in program; managing I/0 operations; I/0 streams; File handling with OOP; Error handling in file operations; random file access; exception handling methods; throwing mechanism; catching mechanism; string characteristics and uses;",
+ "verbatim_syllabus_ocr_notes": [
+  "'Polymoxphism' is the printed form of 'Polymorphism'.",
+  "'I/0' uses a digit zero; read as I/O.",
+  "'Function of Overloading' means Function Overloading."
+ ],
+ "existing_stems": [
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "Which feature allows open recursion, among the following?",
+   "ans_text": "Use of this pointer"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Which language does not support all 4 types of inheritance?",
+   "ans_text": "Java"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "Overloading a postfix increment operator by means of a member function takes :",
+   "ans_text": "one argument"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "In the object-oriented development process, identifying the problem-domain entities and the responsibilities of each, without committing to any implementation, belongs to which phase?",
+   "ans_text": "Object-oriented analysis"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "A Car class needs the behaviour of an Engine class, but a Car is not a kind of Engine. Which relationship should the design use?",
+   "ans_text": "Composition, with Car holding an Engine object as a data member"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "Which statement correctly distinguishes abstraction from encapsulation?",
+   "ans_text": "Abstraction presents a simplified interface and hides implementation detail, while encapsulation binds data together with the operations on it and controls access to them"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct A { ~A() { cout << \"A\"; } };\nstruct B { ~B() { cout << \"B\"; } };\nstruct C { A a; B b; ~C() { cout << \"C\"; } };\nint main() { C c; }",
+   "ans_text": "CBA"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "A base class pointer holds a dynamically allocated derived class object, and delete is applied to that pointer. What is required for the derived class destructor to run?",
+   "ans_text": "The base class destructor must be declared virtual"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "Which kind of data member must be initialised at the point the object is created and cannot simply be assigned inside the constructor body?",
+   "ans_text": "A reference data member"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "Which call moves the get pointer of an open ifstream object f backwards by 20 bytes from its current position?",
+   "ans_text": "f.seekg(-20, ios::cur)"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "An extraction such as in >> x is attempted on a file stream when no data remains. Which stream state results, and why does the stream then test as false?",
+   "ans_text": "eofbit and failbit are both set, and it is failbit that makes the stream test false"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "What is the difference between opening a file with ios::app and opening it with ios::ate?",
+   "ans_text": "ios::app sends every write to the end of the file, whereas ios::ate only positions the pointer at the end when the file is opened"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "Why is an exception of class type normally caught by reference rather than by value?",
+   "ans_text": "A by-value handler copies the thrown object and slices a derived exception down to the handler's base type"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "A try block lists a handler for catch (const std::exception&) before a handler for catch (const std::out_of_range&). What happens when an out_of_range object is thrown inside that try block?",
+   "ans_text": "The std::exception handler runs, because handlers are examined in the order they are written"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "For a std::string holding 5 characters, how does at(9) differ in behaviour from operator[](9)?",
+   "ans_text": "at(9) throws std::out_of_range, while operator[](9) is unchecked and gives undefined behaviour"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "The construction of object-oriented software begins with the creation of",
+   "ans_text": "both design and analysis model"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "A Rectangle class has virtual setWidth(int) and setHeight(int). Square is derived publicly from Rectangle and overrides both so that setting either dimension sets the other as well, keeping the sides equal. Existing code that was written and tested against Rectangle — void grow(Rectangle& r) { r.setWidth(5); r.setHeight(4); assert(r.area() == 20); } — now fails when a Square is passed to it. Which design principle does this hierarchy violate?",
+   "ans_text": "Liskov Substitution Principle — Square cannot be used through a Rectangle reference without breaking the behaviour that Rectangle's existing clients were written against"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "A PayrollReport class builds its own data source: its constructor executes db_ = new MySqlConnection(...). The team now wants to exercise PayrollReport against a test double, and later against a different database product, without editing PayrollReport at all. Which restructuring applies the Dependency Inversion Principle?",
+   "ans_text": "Declare an abstract base class IDataSource with pure virtual query functions, make MySqlConnection derive from it, and pass an IDataSource& into PayrollReport's constructor"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "A C++ class TimedCache must reuse the implementation of an existing class Buffer, must override Buffer's virtual function onFull(), and must not allow its own clients to call any of Buffer's public member functions on a TimedCache object. Which mechanism satisfies all three requirements at once?",
+   "ans_text": "Derive privately from Buffer"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "A department's system handles exactly three record types, which have not changed in a decade, but analysts add new operations over those records — a new levy calculation, a new export format — several times a year. The code today is procedural: one function per operation, branching internally on a record-type tag. A developer proposes converting it so that each record type becomes a class and every operation becomes a virtual function. Which assessment correctly states the trade-off?",
+   "ans_text": "It moves the cost of change to the wrong place: every new operation must now be added to each class in the hierarchy, whereas the procedural form confines a new operation to one new function — dynamic dispatch pays off when new types are frequent, not when new operations are"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "In a college system, a Course object refers to the Student objects enrolled in it. A student may be enrolled in several courses at once, exists before and after any particular course, and must continue to exist when a course object is destroyed at the end of a term. Which UML relationship describes this, and which C++ member is the faithful realisation of it?",
+   "ans_text": "Aggregation (hollow diamond); Course holds std::vector<Student*>, non-owning pointers to Student objects whose lifetime is managed elsewhere"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "A module exposes void generate(const Report& r, bool asPdf); where the second argument selects between two entirely different formatting routines inside the function body, so the caller has to know how the callee is internally organised in order to pass the right value. In the standard coupling taxonomy, which form of coupling does that second parameter introduce?",
+   "ans_text": "Control coupling"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "Consider this C++ class, in which post() appends to txns_ and adjusts balance_ so that the two always agree:\n\nclass Account {\n  std::vector<Txn> txns_;\n  double balance_;\npublic:\n  void post(const Txn&);\n  std::vector<Txn>& transactions();\n};\n\nWhat is the design defect introduced by transactions()?",
+   "ans_text": "It hands callers a modifiable handle to the internal container, so transactions can be added or removed without going through post(), and the class can no longer guarantee that balance_ agrees with txns_"
+  },
+  {
+   "leaf": "OOP concepts, applications and the OOP process",
+   "q": "In structured development, analysis yields data flow diagrams and a data dictionary, which must then be transformed into a different kind of artefact — a structure chart of functional modules — before coding can begin. Object-oriented development is instead commonly described as \"seamless\". What does that description actually refer to?",
+   "ans_text": "That the same abstractions — the classes and the relationships between them — are carried forward and progressively refined from analysis into design and into code, so no translation into a different kind of model is required at each phase boundary, which is what makes iterating back and forth between the phases cheap"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "A class has four non-static data members, one static data member and eight member functions. Ten objects of this class are created. Ignoring alignment padding, what is replicated inside each of the ten objects?",
+   "ans_text": "Only the four non-static data members; the static data member exists once for the whole class and the member function code exists once and is shared"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "The body of class Counter contains the line `static int instances;` and its constructor increments that member. Every translation unit compiles, but the link fails with an undefined reference to `Counter::instances`. What is missing?",
+   "ans_text": "A definition at namespace scope in exactly one source file, such as `int Counter::instances = 0;` — the line inside the class body is only a declaration (since C++17 the member may instead be declared `inline` in the class, which supplies the definition)"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "A class computes an expensive result the first time it is asked for and stores it in a data member so later requests are cheap. The accessor that does this must remain usable on objects of the class that are themselves declared `const`. Which is the correct way to let the accessor write to that member while remaining a `const` member function?",
+   "ans_text": "Declare the cache data member `mutable`"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "Assuming the usual includes and `using namespace std`, what does this program print?\n\nstruct P { static int n; P() { ++n; } P(const P&) { ++n; } };\nint P::n = 0;\nint main() { P a[3]; P b = a[0]; cout << P::n; }",
+   "ans_text": "4"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "Consider this class:\n\nclass M {\n    int v;\npublic:\n    explicit M(int x) : v(x) {}\n    bool bigger(const M& o) const { return v > o.v; }\n};\n\nWhich statement about the expression `o.v` is correct?",
+   "ans_text": "It is legal: access control is granted per class, not per object, so a member function of M may read the private members of any M object it can name"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "Assuming the usual includes and `using namespace std`, what does this program print?\n\nstruct L { ~L() { cout << 'd'; } };\nint main() { L* p = new L; L q; cout << 'e'; }",
+   "ans_text": "ed"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "A Widget has a default constructor that logs each time it runs. Comparing `Widget a[5];` with `std::vector<Widget> v; v.reserve(5);`, how many times does the default constructor run in each case?",
+   "ans_text": "Five times for the array, and not at all for the reserve: reserve only acquires raw capacity, leaving the vector's size at 0 with no elements constructed"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "`Widget* p = new Widget[10];` allocates ten objects, and the code later releases them with `delete p;`. What does the C++ standard say about this?",
+   "ans_text": "The behaviour is undefined: storage obtained from a `new[]` expression must be released with `delete[]`, which is the form that destroys every element"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "A class has no data members and no virtual functions. Why can `sizeof` applied to that class never yield 0?",
+   "ans_text": "Because two distinct complete objects of the same type are required to have distinct addresses, which would be impossible if a complete object occupied no storage"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "A class currently has no virtual functions. On a typical implementation that dispatches virtual calls through a per-class virtual table, which single change to the class would be expected to increase `sizeof` for its objects?",
+   "ans_text": "Declaring the class's destructor `virtual`"
+  },
+  {
+   "leaf": "Classes, objects, member functions and memory allocation",
+   "q": "A header defines class C. One member function, `f`, is defined inside the class body; another, `g`, is only declared inside the body and then defined below the class in the same header as `void C::g() { ... }`. When several translation units include this header, the link fails with a multiple-definition error for `C::g` but not for `C::f`. Why?",
+   "ans_text": "A function defined inside the class body is implicitly `inline`, and an inline function may be defined identically in every translation unit; `C::g` is not implicitly inline, so it must be marked `inline` or moved into a single source file"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct T { T(int n) { cout << n; } };\nstruct S { T x, y; S() : y(2), x(1) {} };\nint main() { S s; }",
+   "ans_text": "12"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct B { B() { f(); } virtual void f() { cout << 1; } };\nstruct D : B { void f() override { cout << 2; } };\nint main() { D d; }",
+   "ans_text": "1"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "A class X declares a constructor with the signature X(X other), taking its parameter by value. How does the compiler treat that declaration?",
+   "ans_text": "It is rejected at compile time: a constructor for X whose only parameter is an X by value is ill-formed"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "A class owns a raw pointer and therefore declares a destructor to free it. It declares no other special member function. Which special members does the compiler still supply?",
+   "ans_text": "The copy constructor and copy assignment operator are still supplied, but no move constructor or move assignment is declared, so intended moves silently copy"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "Given struct Buffer { Buffer(int n); }; and void consume(Buffer);, the call consume(64) currently compiles. What changes if the constructor is marked explicit?",
+   "ans_text": "consume(64) and Buffer b = 64; both stop compiling, while consume(Buffer(64)) still compiles"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "A constructor is written as Widget(int n) : Widget(), count(n) {}, where Widget() is another constructor of the same class and count is a data member. The compiler rejects it. Why?",
+   "ans_text": "A mem-initialiser that names the constructor's own class must be the only entry in the list"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "Base declares a virtual destructor and Derived inherits from it publicly. Code executes Base* p = new Derived[3]; and later delete[] p;. What is the outcome?",
+   "ans_text": "Undefined behaviour, because for an array the operand's static element type must match the dynamic element type, and a virtual destructor does not rescue it"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "In C++11 and later, an exception escapes the destructor of a class that has no bases or members with throwing destructors, and whose destructor carries no exception specification of its own. What happens?",
+   "ans_text": "std::terminate is called, because a destructor is implicitly noexcept unless declared otherwise"
+  },
+  {
+   "leaf": "Constructors and destructors",
+   "q": "A struct with two public int members was routinely created with Point p;. After a constructor Point(int x, int y) is added to it, every such line stops compiling. What explains this?",
+   "ans_text": "Declaring any constructor stops the compiler from implicitly declaring a default constructor"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "Which of the following operators can be overloaded in C++?",
+   "ans_text": "The class member access operator ->"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "Base declares both void print() and void print(int). Derived, which inherits publicly from Base, declares only void print(int). What happens at the call d.print(), where d is a Derived object?",
+   "ans_text": "It fails to compile, because Derived::print hides every Base overload of that name regardless of signature"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "A Money class overloads multiplication as a member function, Money operator*(int n) const. The expression m * 2 compiles, but 2 * m does not. What is the reason?",
+   "ans_text": "A member operator function is called on its left operand, so the left operand has to be a Money object; 2 * m would require int to have such a member"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "A Counter class overloads both forms of ++. The conventional prefix form returns Counter& while the conventional postfix form returns Counter by value. What makes the postfix form unable to return a reference the way the prefix form does?",
+   "ans_text": "Postfix must yield the value the object had before the increment, and that earlier value survives only as a local copy inside the operator, so returning a reference to it would leave a dangling reference"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "Given only the overloads void f(int) and void f(double), which describes the calls f('a') and f(7L)?",
+   "ans_text": "f('a') calls f(int); f(7L) is ambiguous and fails to compile"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "Two functions in the same scope are declared as int compute(int x) and double compute(int x). What is the result?",
+   "ans_text": "It is ill-formed: functions whose parameter lists are identical cannot be distinguished by return type alone"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "Function overloading and operator overloading are usually classified as which kind of polymorphism, and on what grounds?",
+   "ans_text": "Compile-time polymorphism, because the overload is selected from the static types of the arguments while the program is being translated"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "Why is a copy-assignment operator conventionally declared as Vec& operator=(const Vec& other) rather than as void operator=(const Vec& other)?",
+   "ans_text": "Because assignment in C++ is an expression that yields its left operand, so returning Vec& lets a = b = c chain and lets the result be used where a Vec is expected"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "Which of these is a genuine limitation of operator overloading in C++?",
+   "ans_text": "The precedence, associativity and number of operands of an operator are fixed by the grammar and cannot be altered by an overload, and no new operator token such as ** can be introduced"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "A class Point needs to support cout << p. Why must the stream insertion operator be overloaded as a non-member function, typically declared a friend of Point?",
+   "ans_text": "Because a member operator<< would belong to Point, making the call p << cout instead; the left operand of cout << p is the ostream, which is a standard library class the programmer cannot add members to"
+  },
+  {
+   "leaf": "Polymorphism, function and operator overloading",
+   "q": "A Buffer class declares both int& operator[](int i) and const int& operator[](int i) const. Given Buffer b; and const Buffer& cb = b;, which overload does each of b[0] and cb[0] select?",
+   "ans_text": "b[0] selects the non-const version and cb[0] selects the const version, because the constness of the object the operator is called on participates in overload resolution"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "A C++ class is declared as class D : private B. Which statement about the resulting access is correct?",
+   "ans_text": "B's public and protected members become private members of D: D's own member functions can still use them, but a class further derived from D cannot"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Assume the usual includes.\n\nstruct Storage { int id; };\nstruct Reader : Storage { };\nstruct Writer : Storage { };\nstruct ReadWriter : Reader, Writer { void set() { id = 5; } };\n\nWhat happens at the line id = 5;, and what is the standard remedy?",
+   "ans_text": "It is rejected as an ambiguous reference, because ReadWriter contains two Storage subobjects; declaring Reader and Writer as struct Reader : virtual Storage and struct Writer : virtual Storage gives ReadWriter a single shared Storage subobject"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct B { virtual void f(int n = 1) { cout << \"B\" << n; } };\nstruct D : B { void f(int n = 2) override { cout << \"D\" << n; } };\nint main() { B* p = new D; p->f(); }",
+   "ans_text": "D1"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct B { B() { speak(); } virtual void speak() { cout << \"B\"; } };\nstruct D : B { void speak() override { cout << \"D\"; } };\nint main() { D d; }",
+   "ans_text": "B"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "A function is declared void render(Shape s);. Shape has a virtual draw(), and Circle derives publicly from Shape and overrides draw(). A Circle object is passed to render, yet inside render the call s.draw() runs Shape::draw. What explains this, and what fixes it?",
+   "ans_text": "render takes its parameter by value, so only the Shape subobject is copied: the object is sliced and the parameter's dynamic type really is Shape. Declaring the parameter const Shape& restores dynamic dispatch"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Which statement about a pure virtual function in C++ is correct?",
+   "ans_text": "It may be given a definition outside the class body, and an override can then invoke it through a qualified call such as Base::f(); the class remains abstract either way"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Given class A { }; class B : public A { }; class C : public B { }; which term names this arrangement, and in what order do the three constructor bodies run when a C object is created?",
+   "ans_text": "Multilevel inheritance; A's constructor body runs first, then B's, then C's"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Base* p = new Derived; compiles, but the next line p->reset(); does not, where reset() is a non-virtual member function declared only in Derived. Why, and what is the minimal correct fix?",
+   "ans_text": "The name reset is looked up in the pointer's static type Base, which declares no such member, so the call is rejected at compile time regardless of what p actually points to; either declare reset() in Base, or obtain a Derived* for the object and call through that"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Shape declares virtual double area() const = 0;. Square defines double area() { return s * s; } and nothing else. The compiler rejects the declaration Square sq; saying that Square is an abstract type. What is wrong?",
+   "ans_text": "Square::area() is not const-qualified, so it does not match Shape::area() const and declares a new function that merely hides the base one; Shape::area remains pure and unoverridden, leaving Square abstract. Writing override on Square::area() would have made the compiler report the mismatch at the declaration"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "Consider struct B { virtual B* clone() const; }; struct D : B { D* clone() const override; };. Is D::clone a valid override of B::clone?",
+   "ans_text": "Yes; this is a covariant return type, and an override may return D* where the base returns B* provided B is an accessible and unambiguous base class of D. Covariance is permitted for pointers and references only, never for returns by value"
+  },
+  {
+   "leaf": "Inheritance, virtual functions and pointers to objects",
+   "q": "A C++ project built with GCC on Linux compiles every translation unit cleanly, but the link fails with 'undefined reference to vtable for Widget'. Widget has several virtual member functions. Which explanation fits?",
+   "ans_text": "Widget's key function — the first non-inline, non-pure virtual member function it declares — is declared but never defined; under the Itanium C++ ABI that GCC follows, the vtable is emitted only in the translation unit that defines the key function, so it is never emitted anywhere"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "Assume the usual includes and using namespace std. The file nums.txt contains the three numbers 10 20 30 separated by single spaces and followed by one newline. How many times does the body of this loop execute?\n\nifstream in(\"nums.txt\");\nint x, count = 0;\nwhile (!in.eof()) { in >> x; ++count; }\ncout << count;",
+   "ans_text": "4 times, because the newline after 30 leaves eofbit clear until one more extraction is attempted"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "An ifstream f has just had an extraction fail at end of file. The program wants to re-read the file from the start, so it calls f.seekg(0, ios::beg) and then extracts again, but nothing is read and the get pointer never moves. What explains this?",
+   "ans_text": "failbit is still set, so the seek and every later operation on the stream are ignored until clear() resets the state flags"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "A program opens an existing record file with fstream f(\"rec.dat\", ios::out | ios::binary), seeks to one record and rewrites it in place. Afterwards the file holds only that single record and every other record is gone. What explains the loss?",
+   "ans_text": "ios::out on its own truncates the file to zero length at the moment it is opened, so updating an existing file in place needs ios::in | ios::out"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "Employee is a struct of fixed-size members with no pointers and no virtual functions, and emp is a non-const Employee object. Which statement writes the raw bytes of emp to an already-open binary ofstream f?",
+   "ans_text": "f.write(reinterpret_cast<char*>(&emp), sizeof(emp));"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "The file data.bin is exactly 40 bytes long. Assume the usual includes and using namespace std. What does this fragment print?\n\nifstream f(\"data.bin\", ios::binary);\nchar buf[100];\nf.read(buf, 100);\ncout << f.gcount();",
+   "ans_text": "40"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "An existing file is opened as ifstream f(\"img.bin\", ios::binary). Which sequence yields the size of the file in bytes?",
+   "ans_text": "f.seekg(0, ios::end); streampos n = f.tellg();"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "A function creates a local ofstream object, writes several lines through it, and returns without ever calling close(). What happens to data still sitting in the stream's buffer?",
+   "ans_text": "The ofstream destructor runs at the end of the scope and closes the file, and closing flushes the buffer first"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "Why can one fstream object be used both for extraction with >> and for insertion with <<?",
+   "ans_text": "fstream derives from iostream, which itself derives from both istream and ostream, so it inherits both sets of operations"
+  },
+  {
+   "leaf": "I/O streams and file handling in OOP",
+   "q": "Assume the usual includes, including <iomanip>, and using namespace std. What does this line print?\n\ncout << setfill('*') << setw(5) << 42 << 7 << endl;",
+   "ans_text": "***427"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct T { const char* n; ~T() { cout << n; } };\nvoid f() { T a{\"a\"}; throw 1; T b{\"b\"}; }\nint main() {\n  try { T c{\"c\"}; f(); } catch (int) { cout << \"X\"; }\n}",
+   "ans_text": "acX"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "A std::out_of_range is thrown and caught by a handler written catch (const std::exception& e). The handler logs the message and then writes throw e; to pass the exception outwards. An enclosing handler for catch (const std::out_of_range&) never fires, though a plain catch (const std::exception&) on the outer try does. What explains this?",
+   "ans_text": "throw e; copy-initialises a new exception object of the operand's static type, std::exception, so the dynamic type is lost; a bare throw; would have propagated the original std::out_of_range object untouched"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "A function is declared noexcept, and at run time an exception it did not anticipate propagates out of its body. What does the C++ standard say happens?",
+   "ans_text": "std::terminate is invoked, and the stack is not guaranteed to have been unwound before that call"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "In the standard exception hierarchy of <stdexcept>, which of these types derives from std::logic_error rather than from std::runtime_error?",
+   "ans_text": "std::length_error"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "In C++11 and later, an exception escapes from a destructor that carries no explicit exception specification and whose base and member destructors are all non-throwing. What is the result?",
+   "ans_text": "std::terminate is called, because such a destructor has an implicit non-throwing exception specification"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "A function allocates a buffer with new, performs work that may throw, and calls delete at the end. When the work throws, the buffer leaks. Which change makes the function leak-free without adding any catch clause?",
+   "ans_text": "Hold the allocation in a local std::unique_ptr, whose destructor is run automatically while the stack unwinds"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "Assuming the usual includes, this fragment reports a separator in a string that plainly contains none:\n\nstd::string s = \"192.168.1.10\";\nstd::size_t p = s.find(':');\nif (p >= 0) std::cout << \"separator found\";\n\nWhat is wrong?",
+   "ans_text": "find() returns std::string::npos on failure, and as an unsigned size_type that is the largest representable value, so p >= 0 can never be false; the test must be p != std::string::npos"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "Assuming the usual includes, what is the status of this fragment?\n\nstd::string s = \"abc\";\nconst char* p = s.c_str();\ns += \"defghijklmnopqrstuvwxyz0123456789\";\nstd::cout << p;",
+   "ans_text": "Undefined behaviour: c_str() hands back a pointer into the string's own storage, and a modifying member call such as operator+= invalidates it"
+  },
+  {
+   "leaf": "Exception handling and strings",
+   "q": "For a std::string object s, which statement about size(), length() and capacity() is accurate?",
+   "ans_text": "size() and length() are exact synonyms, and capacity() is at least size(), reporting how many characters the current storage can hold before a reallocation is needed"
+  }
+ ]
+}

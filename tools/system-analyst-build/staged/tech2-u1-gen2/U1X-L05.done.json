@@ -1,0 +1,87 @@
+[
+ {
+  "id": "GEN-T2U1B-025",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "A class declares `virtual ~Widget() = 0;` to force the class to be abstract, with no other pure virtual member. No definition of `~Widget` is supplied anywhere in the program. A derived class `Gadget` defines its own destructor, and the program creates and destroys a `Gadget` object. What happens?",
+  "opts": {
+   "A": "The program compiles and links; the base part of the object is destroyed without Widget::~Widget ever running.",
+   "B": "The program fails to compile, because a pure virtual function is not permitted to have a definition.",
+   "C": "The program compiles but fails to link, because destroying a Gadget still implicitly calls Widget::~Widget as part of the destruction chain, and a pure virtual destructor still needs a definition.",
+   "D": "The program compiles and links, but the base part of the object is destroyed twice."
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A derived class's destructor always implicitly calls its base class destructor after its own body runs, and that holds even for a pure virtual destructor — the '= 0' only forces Widget to be abstract, it does not excuse the compiler from needing a definition to call. Since Widget::~Widget() is declared but never defined, ~Gadget()'s implicit call to it leaves an unresolved symbol at link time. Option B is the trap: pure virtual functions are allowed to have definitions, and a pure virtual destructor in particular almost always needs one, since it is guaranteed to be invoked."
+ },
+ {
+  "id": "GEN-T2U1B-026",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Connection is an abstract class: it declares `virtual void send() = 0;` and no other pure virtual member. Which of the following definitions compiles?",
+  "opts": {
+   "A": "void transmit(const Connection& c) { }   (a function taking a reference)",
+   "B": "Connection make() { Connection c; return c; }   (returning one by value)",
+   "C": "void transmit(Connection c) { }   (a parameter taken by value)",
+   "D": "Connection buffer[4];   (an array of Connection)"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A reference parameter binds to an existing object without constructing a new one, so it is unaffected by Connection being abstract. Each other option makes the compiler create a complete, independent Connection — as a return value, as a by-value parameter, or as four default-constructed array elements — and an object of an abstract class cannot be created anywhere. Note the options are definitions on purpose: a bare declaration such as `Connection make();` compiles quite happily, because the restriction on abstract return and parameter types is enforced where the function is defined, not where it is declared.",
+  "reviewFix": "Options rewritten as definitions; keyed letter A unchanged. Both blind passes independently found the question ambiguous, and compiling settles it: as originally written the options were bare prototypes, and A, B and C ALL compiled — only D failed. The C++ ban on abstract class types as by-value parameters or return types bites at the point of definition, not declaration, so `Connection make();` and `void transmit(Connection c);` are both legal until a body appears. Re-verified independently with g++ -std=c++17 before editing: the three declarations compile, each fails once given a body, and with the options as definitions exactly one option now compiles. The explanation additionally teaches the declaration-versus-definition distinction, which is the actual subtlety the original question tripped over."
+ },
+ {
+  "id": "GEN-T2U1B-027",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "What is the outcome of compiling this?\n\nstruct Base {\n  virtual void step() final {}\n};\nstruct Derived : Base {\n  void step() {}\n};",
+  "opts": {
+   "A": "It compiles; Derived::step overrides Base::step in the usual way.",
+   "B": "It compiles; Derived::step hides Base::step rather than overriding it.",
+   "C": "It compiles only because Derived::step omits the `virtual` keyword; writing `virtual` back in would fail.",
+   "D": "It fails to compile, because Base::step is declared final and no further-derived class may declare a function matching that signature."
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "final on a virtual function is a hard prohibition: any class deriving from Base that declares a function matching Base::step's signature is ill-formed, whether or not it repeats virtual or override. The failure is a compile error at the point Derived::step is declared, not a silent hide (B), and it has nothing to do with whether virtual is re-stated (C) — final blocks the override regardless."
+ },
+ {
+  "id": "GEN-T2U1B-028",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "A class is declared `class D : protected B { ... };`. Which statement about the resulting access is correct?",
+  "opts": {
+   "A": "B's public members remain public in D, and only B's protected members become protected.",
+   "B": "B's public and protected members both become protected members of D — usable by D's own member functions and by classes further derived from D, but not by code outside the hierarchy.",
+   "C": "B's public and protected members become private members of D, and are inaccessible to any class derived from D.",
+   "D": "Protected inheritance affects only virtual function dispatch and leaves ordinary member access exactly as declared in B."
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Protected inheritance caps everything inherited at protected: both B's public and protected members become protected members of D, visible to D's own code and to D's further subclasses, but hidden from ordinary outside callers. Option A describes public inheritance, option C describes private inheritance, and option D is simply false — the inheritance kind changes access, not dispatch."
+ },
+ {
+  "id": "GEN-T2U1B-029",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Given:\n\nstruct Base {\n  void show(int) {}\n  void show(double) {}\n};\nstruct Derived : Base {\n  using Base::show;\n  void show(const char*) {}\n};\n\nDerived d; Which of these is true of d.show(3), d.show(3.5) and d.show(\"hi\")?",
+  "opts": {
+   "A": "Only d.show(\"hi\") compiles; the other two remain hidden despite the using-declaration.",
+   "B": "None of the three compile, because a using-declaration cannot bring member functions into scope, only data members.",
+   "C": "All three compile, because `using Base::show;` pulls Base's show overloads into Derived's scope, where they overload alongside Derived::show(const char*) instead of being hidden by it.",
+   "D": "Only d.show(3) and d.show(3.5) compile; the using-declaration replaces Derived::show(const char*)."
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Without the using-declaration, Derived::show(const char*) alone would hide every Base::show overload for lookup starting at Derived. The using-declaration explicitly re-introduces Base::show(int) and Base::show(double) into Derived's scope, so overload resolution sees all three signatures side by side and each call binds to the matching one. B is wrong because using-declarations routinely apply to member functions; D is wrong because the using-declaration adds overloads, it does not remove Derived's own."
+ },
+ {
+  "id": "GEN-T2U1B-030",
+  "sub": "Inheritance, virtual functions and pointers to objects",
+  "q": "Given:\n\nstruct Base {\n  virtual void notify() {}\n  void notify(int n) {}\n};\nstruct Derived : Base {\n  void notify() override {}\n};\n\nDerived d; Base* bp = &d; Derived* dp = &d; Which call fails to compile?",
+  "opts": {
+   "A": "bp->notify(5);",
+   "B": "dp->notify(5);",
+   "C": "bp->notify();",
+   "D": "dp->notify();"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Member name lookup starts at the static type of the pointer used to make the call. Through dp, lookup starts at Derived's own scope, which only declares notify() with no parameters — Derived::notify() hides Base::notify(int) there, so dp->notify(5) has no matching overload and fails to compile. Through bp, lookup starts directly at Base's scope, where notify(int) is found untouched, so bp->notify(5) compiles fine: the hiding introduced inside Derived is invisible from a pointer whose static type is Base."
+ }
+]

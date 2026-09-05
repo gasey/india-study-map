@@ -1,0 +1,86 @@
+[
+ {
+  "id": "GEN-T2U4B-001",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A state government commissions an independent third party to examine a cloud provider's security controls, privacy practices and performance against its published SLA. The party does not itself offer, resell or combine any cloud service — it only produces the independent assessment. In the NIST cloud computing reference architecture (SP 500-292), which actor is this?",
+  "opts": {
+   "A": "Cloud broker",
+   "B": "Cloud auditor",
+   "C": "Cloud carrier",
+   "D": "Cloud provider"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Conducting an independent examination of a cloud service's operation, controls and performance is exactly the cloud auditor's role in SP 500-292. A cloud broker is tempting because it also sits between consumer and provider, but a broker adds value by negotiating, aggregating or integrating services for the consumer — it does not perform an independent, arm's-length audit."
+ },
+ {
+  "id": "GEN-T2U4B-002",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A hospital's diagnostic-imaging inference has a comfortable multi-second latency budget and a modest per-image data volume — well within what a distant cloud region can serve without strain. The hospital still insists on running the inference on-premises rather than sending images to that region. Which constraint is most likely driving this, given that latency and bandwidth are explicitly not the bottleneck?",
+  "opts": {
+   "A": "A legal or regulatory requirement that patient data not leave the country or the premises (data localisation / data sovereignty)",
+   "B": "The cloud region cannot support broad network access for imaging workloads",
+   "C": "The cloud region cannot provide rapid elasticity for bursty imaging workloads",
+   "D": "The cloud region cannot provide measured, usage-based billing for the imaging workload"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "With latency and bandwidth ruled out by the scenario, the remaining reason to keep processing local is a compliance constraint on where the data itself may reside — data sovereignty, which is a common driver for edge/on-premises processing independent of the technical case. Options B–D each misuse a genuine NIST essential characteristic (broad network access, rapid elasticity, measured service) as if credible cloud regions routinely lack it, which they do not."
+ },
+ {
+  "id": "GEN-T2U4B-003",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A distributed configuration store organises its nodes into a single quorum group. A network partition splits it into a majority side and a minority side. The minority side stops accepting both reads and writes until the partition heals, while the majority side keeps operating normally. In CAP terms, which choice does this system make under partition?",
+  "opts": {
+   "A": "Availability and partition tolerance (AP): the minority partition keeps serving using stale data",
+   "B": "Consistency and availability, because partition tolerance was successfully avoided",
+   "C": "Consistency and partition tolerance (CP): the minority partition sacrifices availability rather than risk serving stale or diverged data",
+   "D": "The system violates the CAP theorem, because a distributed store cannot legitimately refuse service"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Refusing to serve on the minority side is precisely a CP choice: consistency is preserved by giving up availability during the partition. Option A describes the opposite (AP) behaviour, which this system explicitly does not exhibit. Option B is incoherent because the partition has already happened — CAP's premise is that partitions must be tolerated, not that they can be assumed away."
+ },
+ {
+  "id": "GEN-T2U4B-004",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A social app lets a user update their profile photo. Immediately after the save, requests for \"your own profile\" from that same user are routed to the primary node that accepted the write, while every other user's view of that profile is served from asynchronously updated replicas. Which consistency guarantee is being engineered for the writer here, without making the whole system strongly consistent?",
+  "opts": {
+   "A": "Eventual consistency for every reader, including the writer",
+   "B": "Strong (linearizable) consistency across all replicas for every reader",
+   "C": "Causal consistency guaranteed for every reader of the profile",
+   "D": "Read-your-writes consistency: the writer is guaranteed to see at least their own latest write, though other readers may briefly still see stale replica data"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Routing the writer's own subsequent reads to the node that has their write is the textbook mechanism for read-your-writes consistency — a session-level guarantee, not a system-wide one. Plain eventual consistency (A) is exactly what this design deliberately avoids for the writer, since eventual consistency alone gives no guarantee the writer ever sees their own edit promptly; strong consistency (B) and universal causal consistency (C) would require far more than routing one user's reads to one node."
+ },
+ {
+  "id": "GEN-T2U4B-005",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "Two servers in different data centres timestamp events with their local wall clocks; NTP keeps them within roughly 50 ms of true time. A request on server A triggers a response processed 10 ms later on server B, yet B's recorded timestamp is sometimes earlier than A's. What does this illustrate, and what technique avoids drawing a wrong conclusion from it?",
+  "opts": {
+   "A": "Clock skew is fully eliminated by tighter NTP synchronisation, so no special ordering technique is needed",
+   "B": "This is caused by a network partition rather than clock skew, and is addressed by choosing CP over AP",
+   "C": "Wall-clock timestamps cannot reliably order causally related events across nodes because of clock skew; logical clocks such as Lamport timestamps order events by causality instead of by clock reading",
+   "D": "The two events are not actually causally related, so no ordering guarantee is expected or needed here"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A 50 ms skew is larger than the 10 ms causal gap between the two events, so wall-clock order can invert true causal order — exactly what a Lamport (or vector) clock is designed to get right by tracking happens-before relationships instead of physical time. Tighter NTP (A) only shrinks skew, it never guarantees skew stays below every causal gap; this scenario has nothing to do with a partition (B), and the events are stated to be causally related (B triggered by A), so D is false."
+ },
+ {
+  "id": "GEN-T2U4B-006",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A team's database is nearing capacity. Option 1: move it to a single larger machine with more CPU and RAM. Option 2: partition its data across additional commodity machines. Which statement correctly distinguishes these as scaling up versus scaling out?",
+  "opts": {
+   "A": "Scaling up requires the application and data layer to be redesigned for partitioning, while scaling out does not",
+   "B": "Scaling up (vertical) is bounded by the largest machine available and keeps the software single-node, while scaling out (horizontal) removes that ceiling but requires the application/data layer to be designed for partitioning and coordination across nodes",
+   "C": "Scaling out is always cheaper per unit of capacity than scaling up",
+   "D": "Scaling up and scaling out are interchangeable terms, both referring to adding more virtual CPUs to an existing instance"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Vertical scaling hits a hard ceiling at the largest available machine and needs no change to how the software is structured; horizontal scaling has no such ceiling but only works if the data and logic can be split and coordinated across nodes, which is real engineering effort. A reverses which option needs the redesign, and C is not generally true — horizontal scaling trades hardware cost for the added cost of distributed-systems complexity, it is not unconditionally cheaper."
+ }
+]

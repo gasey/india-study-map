@@ -1,0 +1,6 @@
+{
+ "reviewer": "u4b-b-B — independent solve-then-compare pass, blind to the first reviewer",
+ "reviewed": 21,
+ "flags": [],
+ "notes": "Solved all 21 independently before checking keys and agreed with every keyed letter (snapshot-chain I/O, storage noisy-neighbour, VLAN/VXLAN bit widths, DORA lead time, trunk-based dev, CI gate, PID namespace, DaemonSet, RollingUpdate maxSurge/maxUnavailable math, data gravity, S3 strong consistency since Dec 2020, CDN edge-purge, NAT gateway, read replica vs sharding, PITR, shared responsibility, Zero Trust micro-segmentation and per-request trust, composite-SLA multiplication, SLA remedy terms — spot-checked the two riskiest ones, S3 consistency and snapshot-chain mechanics, against current sources). Second sweep over the exp fields of all agreed-key questions found no false-rule-behind-a-true-key defects, no fabricated specifics, and no unpinned provider-dependent assumptions; this sub-batch (022-042) contains no DPDP/CERT-In/MeitY content to check. Batch is clean, zero flags."
+}

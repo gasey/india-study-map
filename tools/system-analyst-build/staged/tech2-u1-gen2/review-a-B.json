@@ -1,0 +1,14 @@
+{
+  "reviewer": "u1b-a-B — independent solve-then-compare pass, blind to the first reviewer",
+  "reviewed": 21,
+  "flags": [
+    {
+      "id": "GEN-T2U1B-010",
+      "type": "bad-explanation",
+      "severity": "low",
+      "detail": "Key (A) is correct and the const/volatile reasoning is right, but the explanation collapses two different reasons into one false unifying rule: it says a static member function 'cannot carry const, volatile or virtual, all of which qualify an implicit object parameter they don't have.' const and volatile are genuinely cv-qualifiers on the implicit object parameter's type, so that part is accurate. 'virtual' is not a qualifier on the implicit object parameter at all — it isn't part of the function's type/signature the way cv-qualifiers or ref-qualifiers are, and it plays no role in overload resolution the way const does. The real reason a static member function can't be virtual is that virtual dispatch resolves through a vtable pointer stored in a particular object instance, and a static call has no object instance to dispatch on — a different mechanism than 'qualifying this'. As written, a student could come away believing 'virtual' is a this-qualifier akin to const, which is false and would misinform later reasoning about overload resolution / function types.",
+      "suggested": "Split the rationale: 'const/volatile are disallowed because they qualify the implicit object parameter, which static member functions don't have; virtual is disallowed for a separate reason — dynamic dispatch requires an actual object instance (a vtable pointer stored in that object) to dispatch on, and a static call has none.'"
+    }
+  ],
+  "notes": "Solved all 21 independently before checking the key and agreed with every keyed letter; compiled and ran the fragments for every question turning on observable behaviour (arrays needing a default ctor, chained builder return-by-ref vs return-by-value, copy/move overload resolution under std::move, deleted copy ctor suppressing the move ctor, delegating-constructor body order, destructor behaviour on a throwing constructor, friend non-inheritance, const-object member-call rejection, struct-vs-class default access, private-override-still-dispatches-via-base-ref, static member function rejecting a const qualifier) and every result matched the keyed answer and stated behaviour exactly. The batch is clean apart from the one explanation-precision issue above; no wrong keys, no defensible second options, no fabricated specifics, no staleness, and no duplicates found."
+}

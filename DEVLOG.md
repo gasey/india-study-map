@@ -9,6 +9,106 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (night, last) — OOP and Cloud to 18 per leaf, one reusable pipeline instead of a third copied importer, and a coverage audit that measures syllabus phrases rather than counting questions
+
+**What shipped.** Technical Paper II Units 1 (OOP) and 4 (Cloud Computing) both go
+**12 → 18 questions per leaf**, 84 new questions. Bank **2164 → 2248**. Unit 1:
+84 → 126. Unit 4: 84 → 126.
+
+- **A reusable depth-pass pipeline**, replacing what was about to become a third
+  near-copy of the same importer: `make_depth_briefs.py`, `stamp_depth_ids.py`,
+  `stage_review_batches.py`, `import_depth_gen.py`, plus
+  `staged/syllabus-verbatim.json` holding each unit's notification text.
+- **A syllabus coverage audit** that drove what got written.
+- 84 questions through 8 blind reviewers; 6 flags, all resolved.
+
+**Why "12 per leaf" was not the same as "covered".** Leaf counts measure depth,
+not whether the syllabus's own phrases are examined. A keyword sweep over
+existing question text against the concepts the notification actually names
+found **nothing missing** in either unit — but real thin spots: OOP's
+*limitations of operator overloading* sat on **one** question despite the
+syllabus naming it explicitly, and Cloud had six concepts at 1–2 questions
+(cloud-native/microservices, DevOps, multi-cloud, shared responsibility, Zero
+Trust, SLAs). Those became `priority_concepts` in the briefs. After the pass:
+operator-overloading limitations 1 → 7, multi-cloud 2 → 10, SLAs 2 → 11,
+microservices 2 → 9, Zero Trust 2 → 6, shared responsibility 2 → 4.
+
+**A caution about that audit, since it will be re-run.** DevOps appeared to
+stay at 1 → 1, which was the *metric* being wrong, not the content: three
+genuine DevOps questions had landed (DORA lead time, trunk-based versus
+long-lived branches, CI security gating) and simply never use the word
+"DevOps". Broadening the pattern to the practice vocabulary shows 1 → 4. A
+keyword proxy measures vocabulary, not understanding — treat a flat number as a
+prompt to go and look, not as a finding.
+
+**Two things the generic pipeline fixes by construction.**
+- **Batch identity is data, not a recompiled constant.** Each batch dir carries
+  a `_batch.json` with its srcKey, id prefix and sitting. `make_depth_briefs.py`
+  refuses an id prefix already present in the bank — verified by trying to reuse
+  `GEN-T2U1`, which is rejected. Batch 2 therefore cannot inherit batch 1's ids.
+- **Provenance is derived from the bank, not typed.** The U2/U4 prov says no
+  MPSC paper has ever examined those units — true there, **false for Unit 1**,
+  which has 4 past-paper questions. Copying that sentence forward would have
+  printed a false claim under every OOP answer. `import_depth_gen.py` now counts
+  the unit's actual `src == 'past'` records and writes the sentence that
+  matches. A fact the bank can check itself should never be a constant someone
+  has to remember to edit.
+
+**What the reviewers found.** 168 question-reviews over 84 questions →
+**8 flag instances on 6 questions, and no wrong keys anywhere.** Two were raised
+independently by both passes of their batch. The C++ reviewers had a compiler
+and used it — one compiled 16 of its 21, another 12 of 21, with ASAN for a
+string-invalidation case.
+
+- **`GEN-T2U1B-026` was genuinely ambiguous, and compiling proved it.** The stem
+  asked which option "compiles" and listed bare prototypes. `A`, `B` **and** `C`
+  all compile: the ban on abstract class types as by-value parameters and return
+  types bites at the point of *definition*, not declaration. Both passes found
+  it independently; re-verified here before editing (the three declarations
+  compile; each fails once given a body). Options are now definitions, restoring
+  exactly one compiling answer, and the explanation teaches the
+  declaration-versus-definition distinction the original tripped over.
+- **`GEN-T2U4B-009` asserted EKS behaviour of all managed Kubernetes.** Both
+  passes checked provider docs: GKE enables node auto-upgrade by default on
+  Standard clusters and AKS defaults new clusters to the NodeImage channel, so
+  "the customer still patches the node OS" is true of EKS only. Pinned to EKS,
+  with the divergence now taught rather than hidden. Same defect shape as the
+  archive-storage question in the previous pass.
+- `GEN-T2U1B-013` — said a destructor-only declaration forces "needless copies".
+  Generic textbook truth, false for that class: it holds a `unique_ptr`, so the
+  fallback copy constructor is deleted too and the type becomes neither movable
+  nor copyable — a hard error, strictly worse than the stated outcome.
+- `GEN-T2U1B-010`, `-019`, `GEN-T2U4B-032` — correct keys, over-broad
+  rationales: `virtual` is not barred from a static member function for the same
+  reason `const` is; unary `!` has no sequencing guarantee to lose; and S3's
+  December 2020 strong consistency is per-Region, not "global".
+
+**A UI defect caught only by looking.** The source dropdown ended up with **two
+identically-labelled entries** — OOP batch 1 (68) and batch 2 (42) — separable
+only by their counts. Both batch-2 sets are now "depth pass 2 (…)", fixed in the
+manifests so a re-run reproduces it and in the 84 imported records.
+
+**Verified in the browser.** Bank loads 2248, both units at 18/leaf, zero
+leakage into Past Papers, all four depth-pass sets distinctly labelled, a
+question renders with the **"practice" pill** and `derived · high confidence`,
+and the OOP provenance correctly states the unit *does* have some past coverage.
+No console errors.
+
+**What's still open.**
+- Unit 3 (DBMS, 60 marks) is untouched at 166 questions and has never had a
+  coverage audit; it is the last TECH2 unit not measured this way.
+- Unit 2 (Web, 60 marks) remains at 12 per leaf, not 18.
+- The reviewers ran on Sonnet this round rather than the previous rounds' model.
+  They still found a compile-verified ambiguity and a provider-specific claim,
+  so the method held — but the previous round's finds (the OWASP 2025 re-key, a
+  lodash version that does not exist) were subtler, and a like-for-like
+  comparison has not been made.
+- `GEN-T2U4B-009` and `-026` were edited after review, so the text now in the
+  bank has not itself been through a blind pass — the same debt noted for
+  `GEN-T2U4-006` previously.
+
+---
+
 ## 2026-09-05 — Finished the stranded Unit 1 batch, and recovered the MES2023 question a "50 of 51" note was hiding
 
 **What shipped.** Three pieces of System Analyst work, all of them items the

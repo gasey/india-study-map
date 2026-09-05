@@ -1,0 +1,445 @@
+{
+ "slug": "U4X-L03",
+ "unit": "4",
+ "unit_title": "Cloud Computing",
+ "marks": 40,
+ "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+ "need": 6,
+ "already_on_this_leaf": 12,
+ "target_per_leaf": 18,
+ "language": "",
+ "priority_concepts": [
+  "cloud-native architecture and microservices",
+  "DevOps and DevSecOps practices",
+  "multi-cloud and vendor lock-in",
+  "the shared responsibility model",
+  "Zero Trust",
+  "SLAs, service credits and availability maths"
+ ],
+ "verbatim_syllabus": "Cloud Architecture and Distributed Systems: Evolution of Distributed, Edge and Cloud Computing; NIST Cloud Architecture; Cloud Deployment and Service Models (IaaS, PaaS, SaaS, Serverless); Cloud-native Architecture, Microservices, Service Mesh, Elasticity, High Availability, Load Balancing, and Sustainable Cloud Computing. Virtualization and Cloud Infrastructure: Virtual Machines, Hypervisors, Full and Para Virtualization; CPU, Storage, and Network Virtualization; Containers, Docker Architecture, Kubernetes orchestration, Resource Management, Infrastructure as Code using Terraform and Ansible, CI/CD Pipelines, and DevOps Practices. Cloud Storage, Compute, Networking, Managed Databases, Serverless Computing, Monitoring and Observability, OpenStack, Hybrid and Multi-cloud Management, and AI/ML Infrastructure. Cloud Security and Governance: Shared Responsibility Model, IAM, MFA, Zero Trust Security, Encryption, Backup and Disaster Recovery, Container and Kubernetes Security, DevSecOps, API Security, Virtualization Attacks, FinOps, and Service Level Agreements (SLAs).",
+ "verbatim_syllabus_ocr_notes": [
+  "'Kubemetes' is the printed form of 'Kubernetes'."
+ ],
+ "existing_stems": [
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "Which of the following is NOT one of the five essential characteristics of cloud computing in the NIST definition?",
+   "ans_text": "Provider-managed disaster recovery"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "In the NIST cloud computing reference architecture, which actor is responsible for providing the connectivity and transport of cloud services between provider and consumer?",
+   "ans_text": "Cloud carrier"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "An assembly-line inspection system must accept or reject each part within 20 ms of capturing its image. The nearest cloud region has a measured round-trip time of 60 ms. Running the inference model on an edge node inside the plant primarily removes which constraint?",
+   "ans_text": "The wide-area round-trip time, which on its own already exceeds the control loop's deadline"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "Which of the following is one of the four cloud deployment models defined by NIST?",
+   "ans_text": "Community cloud"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "A team must run a long-lived Java web application. It wants to deploy its own build artefact and control how many application instances run, but does not want to patch the operating system, the JVM or the web server. Which service model fits this best?",
+   "ans_text": "PaaS"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "A serverless function backing a low-traffic internal API responds in about 40 ms most of the time, but the first request after several idle hours takes over two seconds. What is the most likely cause?",
+   "ans_text": "The platform scaled the function to zero, so a new execution environment has to be initialised before the handler runs"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "In a microservices deployment running a service mesh, which task belongs to the sidecar proxies of the data plane rather than to the mesh's control plane?",
+   "ans_text": "Terminating and originating mutual TLS on each individual service-to-service request and applying its retry and timeout rules"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "Which capability requires a Layer 7 load balancer and cannot be provided by a Layer 4 load balancer?",
+   "ans_text": "Sending requests for /api to one backend pool and requests for /static to another"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "A stateless API autoscales on average CPU evaluated over a five-minute window, but its real traffic arrives as 30-second bursts about ten times an hour. What behaviour is most likely to be observed?",
+   "ans_text": "Latency and errors spike during each burst, and whatever instances are added arrive after the burst has already passed"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "Which statement correctly distinguishes a Type-1 hypervisor from a Type-2 hypervisor?",
+   "ans_text": "A Type-1 hypervisor runs directly on the host hardware, while a Type-2 hypervisor runs as a process on top of a host operating system"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "Under paravirtualization, how does the guest operating system differ from a fully virtualized guest?",
+   "ans_text": "It is modified so that sensitive privileged operations are replaced by explicit hypercalls into the hypervisor"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "A provider must let tens of thousands of tenants use overlapping private IPv4 ranges on top of one shared physical fabric. Which network-virtualization approach makes that workable?",
+   "ans_text": "An overlay that encapsulates tenant Layer-2 frames for transport across the fabric, tagging each with a per-tenant network identifier in the encapsulation header"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "A container in a Kubernetes Pod declares a memory request of 256Mi and a memory limit of 512Mi. Which statement about how those two values are used is correct?",
+   "ans_text": "The scheduler places the Pod against the 256Mi request, and the container is terminated if its usage exceeds 512Mi"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "Terraform and Ansible are both used to manage infrastructure as code. Which description of the usual division of labour between them is accurate?",
+   "ans_text": "Terraform declares desired infrastructure and reconciles it against recorded state to create, change or destroy resources, while Ansible is primarily agentless configuration management that runs tasks over SSH"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "Linux containers rest on two distinct kernel mechanisms. Which one caps how much CPU time and memory a container may consume, as opposed to controlling what it can see?",
+   "ans_text": "Control groups (cgroups)"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "Which workload is the poorest fit for object storage and should sit on block storage instead?",
+   "ans_text": "The data files of a transactional relational database doing small random in-place updates"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "A user request passes through eight microservices and is intermittently slow, yet every individual service's own latency dashboard looks normal. Which telemetry most directly identifies which hop is consuming the time?",
+   "ans_text": "Distributed tracing, with a trace context propagated across every hop so each span's duration is recorded within one request"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "An organisation runs the same containerised application on two cloud providers to avoid lock-in. In practice, what most commonly limits that portability?",
+   "ans_text": "Dependence on provider-specific managed services — the IAM model, the managed database, the queue and the object-storage API — which have no common interface to target"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "Under the shared responsibility model, for a virtual machine that a customer runs on an IaaS platform, which of these is the customer's responsibility?",
+   "ans_text": "Applying security patches to the guest operating system and the application stack running on that virtual machine"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "A provider's SLA commits to 99.9% availability measured over a 30-day month. What is the maximum downtime that commitment permits in such a month?",
+   "ans_text": "About 43 minutes"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "A FinOps review reports a fleet of 200 always-on virtual machines averaging 4% CPU and 12% memory utilisation over 30 days. Which response is the most direct FinOps action on that finding?",
+   "ans_text": "Rightsize the instances to smaller types and consolidate the workloads, so that both committed spend and idle capacity fall"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "When collection of various computers seems a single coherent system to its client, then it is called",
+   "ans_text": "distributed system"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "A cloud provider's console shows a customer, in near real time, the GB-hours of storage and vCPU-seconds each project has consumed, and bills strictly on those counters. Which of the five essential characteristics in the NIST definition of cloud computing does this most directly illustrate?",
+   "ans_text": "Measured service"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "A firm sits between a government department and three cloud providers: it combines their services into one composite offering, adds single sign-on and a consolidated bill, and negotiates terms on the department's behalf. In the NIST cloud computing reference architecture, which actor is this firm?",
+   "ans_text": "Cloud broker"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "A globally replicated profile store keeps accepting reads and writes on both sides of a network partition and merges the diverged versions after the partition heals. Users occasionally read a value older than one they just wrote. In CAP terms, what does this describe?",
+   "ans_text": "Availability and partition tolerance are chosen, so a read is not guaranteed to reflect the most recent acknowledged write"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "A plant streams video from 200 cameras to a cloud region for defect detection. Alerts are needed within 30 seconds, a deadline the existing cloud round trip already meets comfortably. The team moves the detection model onto an on-site edge server that uploads only short clips of detected defects. What does this change primarily achieve?",
+   "ans_text": "It cuts the sustained upstream bandwidth the site must carry, because only event clips rather than continuous streams cross the wide-area link"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "A replicated key-value store keeps N = 5 replicas. A write is acknowledged once W = 3 replicas confirm it, and a read consults R = 2 replicas. Under the usual quorum rule, is every read guaranteed to observe the most recently acknowledged write?",
+   "ans_text": "No — R + W is not greater than N, so a read set can consist entirely of the two replicas that did not take the write"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "Four state departments jointly commission a cloud environment that only those four may use, sharing it because they are bound by the same data-handling and compliance rules. A private vendor owns and operates it, hosted in the vendor's own data centre. Under NIST SP 800-145, which deployment model is this?",
+   "ans_text": "Community cloud, because it is provisioned for exclusive use by a specific community of consumers from organisations that have shared concerns, and it may be owned and operated by a third party off premises"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "A service invokes a peer over the network and the call times out. Compared with a function call failing inside a single process, what is the fundamental new difficulty this introduces?",
+   "ans_text": "The caller cannot tell whether the peer never received the request, is merely slow, or executed it and lost the reply, so the outcome of the operation is unknown"
+  },
+  {
+   "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+   "q": "A datacentre team calls its on-premises cluster 'scalable' because more nodes can be racked once a capacity request is approved. Judged against NIST's essential characteristic of rapid elasticity, what is still missing?",
+   "ans_text": "Capacity must be both acquired and released rapidly and in proportion to current demand, without waiting on a procurement or approval cycle"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "A department runs an internal private cloud and separately subscribes to a public-cloud SaaS email service. The two share no data, no tooling and no identity integration. Which requirement of the NIST SP 800-145 hybrid cloud definition does this arrangement fail to meet?",
+   "ans_text": "The constituent infrastructures must remain distinct entities yet be bound together by standardised or proprietary technology that enables data and application portability"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "Under the NIST SP 800-145 definition of Infrastructure as a Service, which of the following is the consumer said to control?",
+   "ans_text": "Operating systems, storage and deployed applications, together with limited control of select networking components such as host firewalls"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "A critical vulnerability is disclosed in the guest operating system's TLS library. The same application is deployed three ways: (i) on an IaaS virtual machine the team launched from its own image, (ii) on a PaaS platform to which the team uploads only a deployable artefact, and (iii) as a function on a serverless FaaS platform. In which deployments must the customer itself apply the operating-system patch?",
+   "ans_text": "(i) only"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "Which characteristic most fundamentally distinguishes a Function-as-a-Service deployment from a PaaS deployment of the same application?",
+   "ans_text": "In the default pay-per-use model, capacity is allocated per invocation and no compute is charged while no requests are being served, so there is no baseline instance count to provision"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "A file-upload feature writes user files to a local directory and later serves them back from there. It works on an IaaS virtual machine. Redeployed unchanged onto a PaaS platform running several application instances behind the platform's router, some uploads return 404 on a later request and all of them vanish after a redeploy. What explains this?",
+   "ans_text": "Each instance has its own ephemeral local filesystem and requests are spread across instances, so a file written on one instance is neither visible to the others nor durable across redeploys"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "A state department contracts a vendor to build, own and operate a cloud environment that only that department may use, hosted entirely in the vendor's own data centre. Under NIST SP 800-145, which deployment model is this?",
+   "ans_text": "Private cloud, because the model is defined by provisioning for exclusive use by a single organisation, and the infrastructure may be owned, managed and operated by a third party and sit off premises"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "A function on a serverless FaaS platform reads messages from a queue and opens a connection to a managed relational database at the start of each invocation. During a traffic spike the platform runs roughly 800 concurrent executions and the function starts failing. What is the most likely cause?",
+   "ans_text": "The database refuses new connections once its configured maximum is reached, because each concurrent execution environment holds a connection of its own"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "A customer of a multi-tenant SaaS application asks the vendor to keep its tenant on the previous release for six months while it revalidates internal processes. The vendor replies that this is not possible. Which property of the SaaS model explains that answer?",
+   "ans_text": "All tenants are served by one running version of the provider's application with tenant data separated logically, so there is no per-tenant build to hold back"
+  },
+  {
+   "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+   "q": "A serverless function returns quickly, but its audit records are written for some invocations and missing for others:\n\n    exports.handler = async (event) => {\n      writeAuditRecord(event);      // returns a promise; not awaited\n      return { statusCode: 200 };\n    };\n\nWhich property of the FaaS execution model explains the missing records?",
+   "ans_text": "Once the handler returns, the platform may freeze or reclaim the execution environment, so work that was not awaited is not guaranteed to run to completion"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "A data centre reports a Power Usage Effectiveness (PUE) of 1.5. The operations team then consolidates workloads onto fewer physical servers and powers down the freed machines. The facility's measured total electricity draw falls, yet the reported PUE rises to 1.8. What best explains this?",
+   "ans_text": "PUE is the ratio of total facility energy to IT-equipment energy, and much of the non-IT overhead (cooling plant, UPS losses, lighting) does not scale down with IT load, so shrinking the denominator raises the ratio even though total energy fell"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "A sustainability team wants to account for the greenhouse-gas emissions produced by mining, manufacturing and shipping the servers it buys, as distinct from the emissions of the electricity those servers draw while running. It notes that stretching the hardware refresh cycle from three years to five reduces this quantity per year of service. Which term names it?",
+   "ans_text": "Embodied carbon"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "A Kubernetes HorizontalPodAutoscaler (autoscaling/v2) is configured with minReplicas: 2, maxReplicas: 10, and a single Resource metric on cpu with target type Utilization and averageUtilization: 50. The Deployment is currently running 4 pods, and each pod is averaging 100% of its requested CPU. Ignoring stabilisation windows and scaling policies, what replica count does the HPA compute?",
+   "ans_text": "8"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "A pool of identically sized backend instances serves a mix of sub-10 ms API calls and occasional multi-second report generations. Under plain round-robin distribution, a few instances are saturated with long requests while others sit nearly idle. Assuming the load balancer can observe how many requests it currently has in flight to each backend, which algorithm most directly corrects this?",
+   "ans_text": "Least outstanding requests (least connections), sending each new request to the backend with the fewest in-flight requests"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "A five-node consensus-based datastore that commits writes on a majority quorum is deployed across two availability zones: three nodes in AZ-a and two in AZ-b. AZ-a becomes unreachable. What happens to the cluster?",
+   "ans_text": "The two surviving nodes cannot form a majority of the five configured members, so the cluster loses quorum and refuses writes until AZ-a returns or the membership is changed by an operator"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "During every rolling deployment behind a cloud load balancer, a small number of users see connections reset mid-request, even though replacement instances pass their health checks before the old instances are taken out of service. Which load-balancer setting addresses this most directly?",
+   "ans_text": "Connection draining (deregistration delay), which stops new requests to a departing instance but lets in-flight requests finish within a grace period"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "Service A calls service B synchronously. B's p99 latency rises from 40 ms to 20 seconds. A's request-handling threads all end up blocked waiting on B, and A starts failing requests on endpoints that never touch B at all. Which resilience mechanism is specifically designed to stop A from continuing to issue calls to a dependency that is already failing?",
+   "ans_text": "A circuit breaker that opens after a failure or slow-call threshold is crossed and fails calls to B immediately while open"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "A cluster runs an API gateway at its edge and a service mesh internally. Which responsibility properly belongs to the API gateway rather than to the service mesh?",
+   "ans_text": "Authenticating external third-party consumers by API key and enforcing a per-consumer request quota on traffic entering the cluster from the public internet"
+  },
+  {
+   "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+   "q": "A cloud provider offers carbon-aware scheduling for deferrable batch workloads such as nightly model retraining. What does such a scheduler actually exploit in order to reduce emissions?",
+   "ans_text": "The carbon intensity of grid electricity (grams of CO2e per kWh) varies by hour and by region, so a job with a flexible deadline can be run at a time, or in a region, where the electricity is cleaner"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "On 32-bit x86 before Intel VT-x and AMD-V, a hypervisor could not run a guest kernel by pure trap-and-emulate. Which property of that instruction set was the obstacle?",
+   "ans_text": "Several sensitive instructions were not privileged: executed from user mode they quietly returned host state or ignored the operation instead of faulting to the hypervisor"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "Compared with the binary-translation approach of early x86 hypervisors, what does hardware-assisted virtualisation (Intel VT-x / AMD-V) actually add to the processor?",
+   "ans_text": "A second, orthogonal execution mode: the guest runs in non-root mode at its own normal privilege level, and configured sensitive events cause a VM exit into root mode where the hypervisor handles them"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "A hypervisor moves from software-maintained shadow page tables to hardware nested paging (Intel EPT / AMD RVI). What is the essential trade-off of that move?",
+   "ans_text": "It removes the VM exits previously needed to keep shadow tables synchronised with guest page-table edits, but a TLB miss now costs a two-dimensional walk through both guest and nested tables"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "A host is short of physical memory, so the hypervisor inflates the balloon driver running inside one of its guests. What does inflating the balloon accomplish?",
+   "ans_text": "It allocates and pins pages inside the guest, letting the guest's own memory manager choose which pages to surrender, after which the hypervisor reclaims the host frames backing them"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "On a contended VMware vSphere cluster, a VM configured with 16 vCPUs performs worse than the same VM did with 8 vCPUs. The application is heavily multithreaded and keeps nearly all of its vCPUs busy, and the host's physical cores are oversubscribed across many VMs. What best explains this?",
+   "ans_text": "The VM's vCPUs must progress within a bounded skew of one another, so a vCPU that runs ahead is co-stopped until its lagging siblings can be scheduled alongside it, which on a contended host shows up as co-stop time (%CSTP)"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "A tenant VM needs near-line-rate throughput from a shared 25 GbE NIC with minimal host CPU cost, so the operator enables SR-IOV on that NIC and assigns the VM a virtual function. What has changed for that VM's traffic?",
+   "ans_text": "The NIC presents itself as several lightweight PCIe functions; one is assigned directly to the VM, which drives it with its own driver and DMAs into guest memory, bypassing the hypervisor's software switch"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "On a KVM host, `qemu-img info` reports the following for a VM's disk image:\n  file format: qcow2\n  virtual size: 40 GiB\n  disk size: 1.31 GiB\n  backing file: golden-base.qcow2\nWhich statement about this disk is correct?",
+   "ans_text": "It is a copy-on-write overlay: only blocks written since it was created are stored here, every untouched block is read from golden-base.qcow2, which must remain present and unmodified"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "A guest deletes 200 GB of files from a thin-provisioned virtual disk on a SAN-backed datastore. Free space inside the guest filesystem rises at once, but consumed capacity on the datastore and on the array does not fall. What explains this, and what brings the space back?",
+   "ans_text": "Deleting a file only rewrites guest filesystem metadata, so the underlying blocks stay allocated until the guest issues SCSI UNMAP / TRIM and the virtualisation and storage stack passes that reclamation down to the array"
+  },
+  {
+   "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+   "q": "A write-heavy in-memory database VM is being live-migrated between two hosts that use shared storage. The hypervisor copies its memory, then copies more memory, and after several passes the migration is abandoned instead of completing. What is happening?",
+   "ans_text": "Pre-copy migration re-sends the pages dirtied during the previous pass; this workload dirties memory faster than the migration link can ship it, so the residual set never shrinks enough to enter the brief stop-and-copy phase"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "A team runs a sharded datastore on Kubernetes. Each replica needs a hostname that stays the same across rescheduling, and its own PersistentVolume that is re-attached to that same replica rather than to whichever Pod starts first. Which workload object provides this?",
+   "ans_text": "A StatefulSet with a volumeClaimTemplate"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "Which Service configuration makes cluster DNS resolve the Service name to the individual Pod IP addresses of its ready endpoints, instead of to one virtual IP that load-balances across them?",
+   "ans_text": "Setting clusterIP: None, i.e. a headless Service"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "A container's readiness probe starts failing while its liveness probe keeps succeeding. What does Kubernetes do?",
+   "ans_text": "The Pod's address is removed from the Service's endpoints, but the container is left running"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "A Dockerfile contains:\n\nFROM debian:stable-slim\nRUN apt-get update && apt-get install -y gcc\nRUN rm -rf /var/lib/apt/lists/*\nCOPY ./src /src\n\nThe image is built normally, with no multi-stage build and no squashing. What is the effect of the third instruction on the size of the resulting image?",
+   "ans_text": "The image does not shrink; the files stay in the earlier layer and the new layer only records their deletion"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "With default options, what does `terraform plan` compare in order to produce the diff it prints?",
+   "ans_text": "The configuration against state that has first been refreshed from the providers' real remote objects, making no changes of its own"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "An Ansible playbook task that invokes a shell command reports `changed` on every single run, even when the target host is already in the desired state. What explains this?",
+   "ans_text": "The command and shell modules cannot inspect prior state, so Ansible reports changed unless the task is guarded with `creates`, `removes` or a `changed_when` condition"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "A CI/CD pipeline builds a versioned artefact once and then promotes that identical artefact through test, staging and production, rather than rebuilding it from source at each stage. Which risk does this practice principally remove?",
+   "ans_text": "The binary that passed testing differing from the binary that reaches production, because a later rebuild resolved different dependencies or used a different toolchain"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "Kubernetes removed the in-tree Docker shim from the kubelet some releases ago. Which interface does the kubelet use to create and manage containers on a node?",
+   "ans_text": "The Container Runtime Interface (CRI), a gRPC API implemented by runtimes such as containerd and CRI-O"
+  },
+  {
+   "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+   "q": "A HorizontalPodAutoscaler raises a Deployment from 4 to 10 replicas under load. The six new Pods stay `Pending`, and `kubectl describe pod` reports `0/3 nodes are available: 3 Insufficient cpu`. What is happening?",
+   "ans_text": "No node has enough unreserved allocatable CPU left to satisfy the new Pods' CPU requests, and nothing will add capacity unless a cluster autoscaler is running"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "An application writes about five million log objects a day to Google Cloud Storage; each object is roughly 20 KB and is deleted about 30 days after it is written. To cut cost the team adds a lifecycle rule that transitions every object to the Archive class 7 days after creation. The monthly bill rises instead of falling. What best explains this?",
+   "ans_text": "The Archive class bills every object for a minimum storage duration far longer than these objects live, so each one incurs an early-deletion charge, and each lifecycle transition is itself a chargeable operation"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "On AWS, an EC2 instance in a public subnet serves HTTPS. Its security group allows inbound TCP 443 from 0.0.0.0/0 and all outbound traffic. The subnet's network ACL allows inbound TCP 443 from 0.0.0.0/0, but its outbound entries allow only TCP 443. Clients get no response at all and eventually time out. What explains it?",
+   "ans_text": "Network ACLs are stateless, so the server's replies — which leave from port 443 towards the client's ephemeral port — need their own outbound entry covering the ephemeral port range; the security group is stateful and needs no matching rule"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "An enterprise replaces its site-to-cloud IPsec VPN over the public internet with a dedicated private interconnect to the provider (for example AWS Direct Connect or Azure ExpressRoute). Which statement about the change is correct?",
+   "ans_text": "The interconnect gives more predictable bandwidth and latency by bypassing the public internet, but carries traffic unencrypted by default — confidentiality must still be added on top, for example with IPsec or MACsec"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "An application uses Amazon RDS for PostgreSQL in a Multi-AZ instance deployment (one standby) with two read replicas, and routes all read queries to the replicas. A user saves a profile change and the very next page load shows the old value. Which explains the behaviour?",
+   "ans_text": "Read replicas are kept current by asynchronous replication, so a replica can lag the primary and a just-committed write is not guaranteed to be visible there yet"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "A serverless function backing a public API scales out to several hundred concurrent executions, each opening its own connection to a managed PostgreSQL instance. The database begins refusing connections once its configured limit is reached, and simply raising that limit starves the instance of memory. Which remedy addresses the cause?",
+   "ans_text": "Place a connection pooler or managed database proxy between the functions and the database, so that many short-lived client connections are multiplexed onto a small, stable pool of backend connections"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "A team adds the end user's account ID as a label on a request-count metric in a Prometheus-style metrics system. Within days, ingestion memory and query latency degrade sharply. What is the mechanism?",
+   "ans_text": "Every distinct combination of label values defines a separate time series, so an unbounded label such as a user ID multiplies the number of stored series by the size of the user base"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "Which statement best captures the distinction usually drawn between monitoring and observability?",
+   "ans_text": "Monitoring watches predefined signals and alerts on failure modes anticipated in advance, whereas observability is the property of a system whose external outputs are rich enough to answer new, unanticipated questions about its internal state without shipping fresh instrumentation"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "An OpenStack tenant needs storage that survives termination of the instance it is attached to, presents to the guest as a raw block device which the guest formats itself, and is attached to one Nova instance at a time. Which OpenStack service provides it?",
+   "ans_text": "Cinder"
+  },
+  {
+   "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+   "q": "A 40-hour distributed GPU training job is placed on discounted preemptible (spot) capacity to reduce cost. Nodes are reclaimed every few hours with roughly two minutes' warning, and each reclamation loses all progress made since the job started. Which change lets the job keep using preemptible capacity?",
+   "ans_text": "Checkpoint model weights and optimizer state to durable shared storage at regular intervals and on receipt of the preemption notice, and have the job resume from the latest checkpoint when it restarts"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "A department migrates a PostgreSQL database from a self-managed installation on IaaS virtual machines to the cloud provider's managed database service (PaaS). Under the shared responsibility model, which responsibility moves from the department to the provider as a result of that migration?",
+   "ans_text": "Applying security patches to the database engine binaries and to the operating system beneath them"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "An internal payroll API accepts any request arriving from the corporate VPN address range, on the reasoning that only authenticated employees can reach that range. Which change most directly addresses the assumption that Zero Trust rejects?",
+   "ans_text": "Authenticate and authorise every individual request against a verified user or workload identity, irrespective of the network the request arrives from"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "An application running on a cloud virtual machine must call the provider's object storage API. The requirement is that no long-lived credential exists anywhere — not on the host, not in the image, not in the source tree. Which approach satisfies that?",
+   "ans_text": "Attach a cloud IAM role (managed identity) to the instance so the platform issues short-lived, automatically rotated credentials to the workload"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "A cloud admin console is protected by multi-factor authentication. In an adversary-in-the-middle phishing campaign, a look-alike site relays the victim's password and second factor to the real console in real time and steals the resulting session. Which second factor would have defeated that attack by design?",
+   "ans_text": "A FIDO2/WebAuthn security key or platform authenticator"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "A disaster recovery plan for a citizen-facing service states RPO 15 minutes and RTO 4 hours. The current design ships a full database snapshot to a second region every 6 hours, and a rehearsed failover brings the service back from the latest snapshot in about 90 minutes. What does the rehearsal establish?",
+   "ans_text": "The RTO is met but the RPO is not, so continuous replication or transaction-log shipping is needed to close the gap"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "An object storage service uses envelope encryption: each object is encrypted with its own data encryption key (DEK), and that DEK is stored alongside the object in wrapped form, encrypted under a customer-managed key held in the cloud KMS. The department disables the customer-managed key. What is the immediate effect on objects already stored?",
+   "ans_text": "The objects become unreadable, because the wrapped DEK can no longer be unwrapped even though the ciphertext itself is untouched"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "A DevSecOps pipeline already runs static analysis over the team's own source, unit tests, and a dynamic scan against the deployed staging URL. A critical vulnerability still reaches production, in a transitive library pulled in by one of the declared dependencies. Which pipeline control was missing?",
+   "ans_text": "Software composition analysis that resolves the full dependency tree and matches every resolved component against a vulnerability database"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "Under the CERT-In directions issued in April 2022, which apply to service providers, intermediaries, data centres and body corporates in India, within what period of noticing a specified cyber security incident, or of it being brought to notice, must the incident be reported to CERT-In?",
+   "ans_text": "6 hours"
+  },
+  {
+   "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+   "q": "A state department stores citizens' personal data on a MeitY-empanelled cloud service provider's infrastructure, and the provider processes that data only on the department's documented instructions under a contract. Under the Digital Personal Data Protection Act, 2023, which statement about accountability is correct?",
+   "ans_text": "The department remains the accountable Data Fiduciary; the provider is a Data Processor engaged under contract, and outsourcing the processing does not shift the Fiduciary's obligations"
+  }
+ ]
+}

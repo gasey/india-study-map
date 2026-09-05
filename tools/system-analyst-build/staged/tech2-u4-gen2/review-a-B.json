@@ -1,0 +1,14 @@
+{
+ "reviewer": "u4b-a-B — independent solve-then-compare pass, blind to the first reviewer",
+ "reviewed": 21,
+ "flags": [
+  {
+   "id": "GEN-T2U4B-009",
+   "type": "stale",
+   "severity": "medium",
+   "detail": "The keyed option A is still the best of the four (B, C and D are clearly wrong), but A's supporting claim — 'with standard node pools the customer still provisions and patches the worker nodes' operating system (unless a further-managed, node-less option such as Fargate or Autopilot is used)' — is stated as if it holds uniformly across EKS, AKS and GKE. It does not, as of 2026. Verified against current provider docs: (1) GKE — node auto-upgrade (which patches both the Kubernetes version and the underlying node OS image) has been enabled by default for new Standard clusters/node pools created via Console or gcloud for years, with no Autopilot required; (2) AKS — since API version 2023-06-01, any new AKS Standard cluster defaults its node OS auto-upgrade channel to `NodeImage`, which AKS-manages weekly VHD patches automatically, again with no Fargate-equivalent 'node-less' mode required. Only EKS managed node groups genuinely require the customer to trigger AMI/node replacement themselves (confirmed: AWS does not auto-deploy patched AMIs to running managed node groups). So the option's premise is true for one of the three named providers and false (or requires the customer to have actively disabled a default) for the other two. This is exactly the 'provider-specific behaviour stated as universal' failure mode, compounded by staleness (AKS's default changed in mid-2023, GKE's default predates that). It teaches a false generalization even though letter A remains the least-wrong choice among four options.",
+   "suggested": "Either name a single provider (e.g. rephrase around EKS specifically, where the manual-patch claim is accurate), or rewrite the option/explanation to state that patching responsibility for standard node pools varies by provider and by configuration — GKE and AKS both default to automatic node OS patching today, while EKS requires the customer to trigger node group/AMI updates — rather than asserting a uniform 'customer still patches unless Fargate/Autopilot' rule across all three."
+  }
+ ],
+ "notes": "This batch is largely clean and well-constructed: keys were correct on independent solving for 20 of 21 questions, distractors are mostly genuinely eliminable rather than merely awkward, and the numeric/spec claims I checked against primary sources (NIST SP 500-292 actor definitions, AWS Lambda's 900s timeout and 6MB sync payload caps, the SLA composition arithmetic) all held up. The one real defect (GEN-T2U4B-009) is the same species of risk flagged in the brief — a cross-provider generalization that's actually provider-specific and has drifted since the underlying defaults changed."
+}

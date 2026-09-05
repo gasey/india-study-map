@@ -1,0 +1,86 @@
+[
+ {
+  "id": "GEN-T2U4B-025",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A team wants a single DORA metric that captures the elapsed time between a commit landing on the mainline and that same change running in production. Which metric is this?",
+  "opts": {
+   "A": "Deployment frequency",
+   "B": "Lead time for changes",
+   "C": "Change failure rate",
+   "D": "Time to restore service (MTTR)"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Lead time for changes is defined as the time from a commit reaching the mainline to that same change running in production. Deployment frequency instead counts how often releases happen at all, which is the distractor this stem is built to catch; change failure rate and MTTR describe outcomes after a deploy, not the time to get there."
+ },
+ {
+  "id": "GEN-T2U4B-026",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Team A's feature branches often live for several weeks before merging into main, and the eventual merge is usually painful with large conflicts. Team B requires every branch to merge back into main within a day, gating any unfinished work behind a feature flag rather than a long-lived branch. Which practice does Team B follow, and why does it reduce the pain Team A experiences?",
+  "opts": {
+   "A": "Trunk-based development; frequent small merges keep divergence from main small, so conflicts stay small and are resolved while still cheap",
+   "B": "GitFlow; a dedicated release branch isolates the pain of merging into one window per release",
+   "C": "Continuous deployment; every commit is automatically promoted to production so there is no merge step left to conflict",
+   "D": "Blue-green deployment; running two parallel production environments avoids merge conflicts entirely"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Keeping every branch's lifetime to about a day and merging into a shared mainline is trunk-based development; because divergence from main never has time to grow large, conflicts stay small and are caught immediately instead of compounding for weeks. GitFlow (B) is built around exactly the long-lived release/feature branches causing Team A's pain, and continuous deployment and blue-green deployment (C, D) are release mechanics that say nothing about how branches are merged."
+ },
+ {
+  "id": "GEN-T2U4B-027",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A CI pipeline already runs unit tests, a linter, and a container image vulnerability scan on every commit, before the image is pushed to the registry. A dependency with a critical, publicly known remote-code-execution CVE still reaches production, because the vulnerability scan step is configured to record its findings without affecting the pipeline's exit code. Which single change most directly fixes this recurrence?",
+  "opts": {
+   "A": "Add a second, independent scanning tool alongside the first, run in the same non-blocking way",
+   "B": "Move the scan out of the build stage into a nightly job that scans the already-deployed production registry",
+   "C": "Require a manual security sign-off email before each release, in addition to the existing scan",
+   "D": "Configure the scan step to fail the pipeline when findings meet or exceed a defined severity threshold, instead of only logging them"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The scan already runs before the registry push, so it is already shifted left; what is missing is that its result never gates the pipeline, so a critical finding cannot stop the build. Running a second scanner the same non-blocking way (A) repeats the exact mistake, moving the scan to a nightly job against images already in production (B) moves detection later rather than earlier, and a manual sign-off email (C) doesn't scale and still leaves the scan's own output unused."
+ },
+ {
+  "id": "GEN-T2U4B-028",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A process running inside a container reports itself as PID 1 when listed with `ps` from inside the container, but the same process shows up under an ordinary high-numbered PID when listed with `ps` on the container host. What explains this, and what does it imply about what the container has of its own?",
+  "opts": {
+   "A": "The container has its own cgroup hierarchy, which independently numbers the processes it is allowed to run",
+   "B": "The container runs inside a lightweight virtual machine with its own guest kernel, so its PID numbering is independent of the host's",
+   "C": "The container has its own PID namespace, which gives it an independent process-ID numbering; it does not have its own kernel, since it shares the host's kernel",
+   "D": "The hypervisor remaps every PID inside the container through a translation table maintained outside the kernel"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A PID namespace gives the container its own independent process numbering, so PID 1 inside the container and its ordinary PID on the host are two views of the same process on the one shared kernel; a container has no kernel of its own, which rules out the lightweight-VM story in B. Cgroups (A) govern resource limits such as CPU and memory shares, not process-ID numbering, and no per-container PID translation table exists outside the kernel (D)."
+ },
+ {
+  "id": "GEN-T2U4B-029",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A cluster admin wants exactly one instance of a log-shipping agent Pod running on every node in the cluster, including any node added later, without manually adjusting a replica count as nodes come and go. Which Kubernetes workload object is designed for this?",
+  "opts": {
+   "A": "DaemonSet",
+   "B": "Deployment, with replicas set equal to the current node count",
+   "C": "StatefulSet, with one replica per node label",
+   "D": "Job, with a completions count equal to the number of nodes"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A DaemonSet's controller schedules exactly one matching Pod onto every node that satisfies its selector, and automatically places one onto any node added afterward, with no manual bookkeeping. A Deployment's replica count (B) is a fixed number decoupled from node identity, so it neither tracks cluster size nor guarantees one Pod per node; a StatefulSet (C) gives stable per-replica identity but still needs explicit scheduling constraints to pin one per node; and a Job (D) runs its Pods to completion rather than as a continuously running per-node agent."
+ },
+ {
+  "id": "GEN-T2U4B-030",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A Deployment with 4 desired replicas sets its rolling update strategy as follows:\n\n  strategy:\n    type: RollingUpdate\n    rollingUpdate:\n      maxSurge: 0\n      maxUnavailable: 1\n\nWhat happens during a rollout?",
+  "opts": {
+   "A": "Kubernetes creates 1 extra Pod above the desired count before removing any old Pod, so capacity briefly rises to 5",
+   "B": "All 4 old Pods are terminated together, then 4 new Pods are created",
+   "C": "The rollout is rejected, because maxSurge and maxUnavailable cannot both be set below 1",
+   "D": "Kubernetes takes down up to 1 old Pod at a time and replaces it before touching another, never exceeding the desired count of 4"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "With maxSurge: 0, the total running Pod count can never exceed the desired count of 4, so an old Pod must be removed under the maxUnavailable: 1 budget before its replacement is created, cycling one at a time. That rules out ever reaching 5 Pods (A), it is not the terminate-all-then-recreate pattern of B, and this combination is a valid, if briefly under-capacity, configuration rather than one Kubernetes rejects (C)."
+ }
+]

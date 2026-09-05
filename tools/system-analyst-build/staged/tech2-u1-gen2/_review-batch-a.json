@@ -1,0 +1,296 @@
+[
+ {
+  "id": "GEN-T2U1B-001",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A ReportManager class in a codebase has grown to include methods for formatting dates, validating email addresses, computing tax, and rendering PDF output — none of which depend on each other's data or on one another. Which design criterion is most directly violated here, and what does that criterion actually measure?",
+  "opts": {
+   "A": "Coupling — how much one module depends on the internal details of another module",
+   "B": "Cohesion — how closely the responsibilities within a single module relate to one another and operate on the module's own data",
+   "C": "Encapsulation — whether a class's data members are declared private",
+   "D": "Polymorphism — whether the class overrides functions inherited from a common base"
+  },
+  "ans": "B",
+  "exp": "ReportManager bundles four unrelated responsibilities that share no data, which is exactly what low cohesion means — a module should have a single, tightly related set of responsibilities. Coupling measures inter-module dependency, not what's wrong inside this one class, and nothing here indicates broken data hiding or misused polymorphism.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-002",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "An abstract base class Printer declares pure virtual print(), scan(), and fax(). SimpleInkjetPrinter, which can only print, is forced to override scan() and fax(), and both overrides simply throw std::logic_error whenever called. Which principle is being violated, and what is the standard fix?",
+  "opts": {
+   "A": "Interface Segregation Principle — split Printer into narrower interfaces such as Printable, Scannable, and Faxable, and have SimpleInkjetPrinter implement only Printable",
+   "B": "Liskov Substitution Principle — keep the single Printer interface, but change scan() and fax() to silently do nothing instead of throwing",
+   "C": "Open/Closed Principle — modify Printer's print() implementation so it can be extended without changing SimpleInkjetPrinter",
+   "D": "Single Responsibility Principle — merge Printer and SimpleInkjetPrinter into one concrete, non-polymorphic class"
+  },
+  "ans": "A",
+  "exp": "Forcing a class to implement operations it cannot support is the signature of a fat interface; the fix is to segregate Printer into role-specific interfaces so clients depend only on what they use. The Liskov-labelled option misnames the principle and its 'fix' — silently doing nothing when scan() is called is itself a Liskov violation, not a repair of one — and the Open/Closed and Single Responsibility options address problems this scenario doesn't describe.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-003",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "class File { public: virtual void write(const std::string& data); }; is inherited publicly by class ReadOnlyFile : public File, which overrides write() to immediately throw std::runtime_error, since writing isn't meaningful for a read-only file. Existing code holding a File& calls write() expecting it to succeed except for genuine I/O failures such as a full disk. Which statement correctly frames the problem in terms of behavioural subtyping?",
+  "opts": {
+   "A": "There is no violation, because ReadOnlyFile is still syntactically a File, and every File member function remains callable with the identical signature",
+   "B": "This is purely an access-control problem, and declaring write() private in ReadOnlyFile would resolve it while keeping the inheritance public",
+   "C": "This is an Open/Closed Principle violation, because File had to be modified to accommodate ReadOnlyFile",
+   "D": "ReadOnlyFile strengthens the precondition write() offers its callers, since it now fails unconditionally for callers who did nothing wrong that existing File clients were never written to expect — a Liskov Substitution Principle violation"
+  },
+  "ans": "D",
+  "exp": "Liskov substitutability is about the behavioural contract, not the signature: a subtype must not add failure conditions the base type never promised, and unconditional throwing does exactly that. Matching signatures is not matching behaviour, so there is a real violation; and declaring write() private in ReadOnlyFile would not even work in C++, since a call through a File& resolves access against the static type File and still dynamically dispatches to ReadOnlyFile's override regardless of its access specifier there. File itself was never modified, so this is not an Open/Closed issue.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-004",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "During object-oriented analysis of a library system, the question arises: should Book or Loan be responsible for calculating whether a loan is overdue? Loan already stores dueDate; Book stores nothing about dates or loan status. Applying the principle that a responsibility should be assigned to the class holding the information needed to fulfil it, which class should own the calculation?",
+  "opts": {
+   "A": "Book, because responsibilities should always be centralised on the entity the system is fundamentally about",
+   "B": "Neither — the calculation belongs in a free function outside any class, since C++ permits functions independent of classes",
+   "C": "Loan, because it already holds the data — dueDate — that the calculation needs",
+   "D": "Whichever class is declared first in the header file, since C++ resolves ambiguous responsibility by declaration order"
+  },
+  "ans": "C",
+  "exp": "This is the Information Expert guideline for assigning responsibilities during OO analysis: give a responsibility to the class that already holds the data it needs, and only Loan holds dueDate. 'Centralise on the entity the system is about' is not a real design criterion, and declaration order has no bearing on responsibility assignment in C++ — both distractors invent rules that don't exist, and routing the calculation to a free function sidesteps the actual design question being asked.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-005",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A CachingDataSource must reuse an existing DataSource's fetch(int id) by caching its results, but client code must not be able to call fetch() directly on a CachingDataSource and bypass the cache — only a getCached(int id) method should be exposed. Which relationship best achieves this, and why?",
+  "opts": {
+   "A": "Public inheritance from DataSource, because inheriting is always the most direct way to reuse another class's behaviour",
+   "B": "Composition, holding a private DataSource member and exposing only getCached(), which internally calls the held object's fetch() — delegation, because it lets CachingDataSource choose exactly which operations to expose",
+   "C": "Multiple inheritance from both DataSource and a separate caching mixin class, since more base classes means more reused code",
+   "D": "A friend declaration inside DataSource granting CachingDataSource access to fetch(), since friendship is the standard mechanism for reusing behaviour across unrelated classes"
+  },
+  "ans": "B",
+  "exp": "Composition plus a forwarding member function — delegation — is what lets CachingDataSource keep fetch() out of its own public interface entirely while still reusing it internally. Public inheritance would make the inherited fetch() directly callable on a CachingDataSource, defeating the stated requirement; friendship only grants access and doesn't create or hide a public interface; and adding a mixin base class doesn't address exposure at all.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-006",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A pipeline processes one million Shape objects per frame. In version 1, shapes live as std::vector<Shape*> pointing to individually heap-allocated polymorphic objects (Circle, Square, ...), and computeArea() is a virtual function called once per shape. In version 2, the same data is held as parallel std::vector<float> arrays of just the numeric fields per shape kind, processed by ordinary loops with no virtual calls. Version 2 measurably outperforms version 1 on identical input. Which factor, beyond the virtual call's own dispatch overhead, most directly explains this?",
+  "opts": {
+   "A": "Version 1's heap-scattered objects and pointer indirection defeat cache locality and block compiler vectorisation of the loop, while version 2's contiguous flat arrays are cache-friendly and inlinable",
+   "B": "Version 1 is slower purely because a virtual call is resolved through a hash-table lookup at run time, which is inherently slower than indexing an array",
+   "C": "Version 2 is faster only because it declares fewer classes, and class count alone determines runtime performance in C++",
+   "D": "There is no meaningful difference; virtual dispatch and flat-array processing compile down to identical machine code, so any measured gap is measurement error"
+  },
+  "ans": "A",
+  "exp": "This is the real cost side of OOP: pointers to individually heap-allocated polymorphic objects scatter data across memory, generating cache misses and blocking the vectorisation that a flat, contiguous array of plain numbers allows. Virtual dispatch is resolved through a vtable pointer plus an offset, not a hash-table lookup, so that option is factually wrong, and the two versions demonstrably neither compile to the same code nor perform identically.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-007",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "struct S { int a; };\nclass C { int a; };\n\nNo access specifier is written before member `a` in either body. What is `a`'s access in each type?",
+  "opts": {
+   "A": "Private in both, because every C++ user-defined type defaults to private access for its members",
+   "B": "Public in S, private in C — a struct defaults member access to public while a class defaults it to private",
+   "C": "Public in both; the keywords differ only in whether the type may declare member functions",
+   "D": "Protected in both, matching the default used when either is inherited from privately"
+  },
+  "ans": "B",
+  "exp": "struct and class are the same construct apart from this one default: members with no explicit specifier are public in a struct and private in a class, so `a` is public in S and private in C. A wrongly claims struct also defaults to private; C invents a restriction that doesn't exist, since both keywords permit member functions identically; D substitutes protected, which is not the member-access default for either keyword.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-008",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "class Widget {\npublic:\n  explicit Widget(int id);\nprivate:\n  int id_;\n};\n\nGiven only this declared constructor, what happens when the code writes `Widget arr[3];`?",
+  "opts": {
+   "A": "It compiles: the compiler synthesises a default constructor for arrays even when a parameterized constructor already exists",
+   "B": "It fails to compile because `explicit` constructors can never be used to build arrays of objects",
+   "C": "It fails to compile: Widget has no default constructor, and each element of an array of objects must be default-constructible unless an initializer is supplied for every element",
+   "D": "It compiles, and each element is left uninitialised until id_ is explicitly assigned"
+  },
+  "ans": "C",
+  "exp": "Declaring the constructor Widget(int) suppresses the compiler-generated default constructor, and `Widget arr[3];` needs to default-construct all three elements since no per-element initialisers are supplied, so the declaration is ill-formed. A invents a special array-only synthesis rule that does not exist. D is wrong because the compile fails outright rather than silently proceeding. B is wrong: `explicit` only suppresses implicit conversions and copy-initialisation — it has no bearing on array construction; the real blocker is the missing default constructor.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-009",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "class Account {\n  friend class Auditor;\n  double balance_;\n};\nclass Auditor { /* ... */ };\nclass Regulator : public Auditor { /* ... */ };\n\nCan a member function of Regulator directly access Account::balance_?",
+  "opts": {
+   "A": "Yes — friendship, once granted to a class, extends automatically to every class that later derives from it",
+   "B": "Yes, but only if Regulator also inherits from Account",
+   "C": "No — friend declarations only grant access to non-member functions, never to classes",
+   "D": "No — friendship is not inherited, so being derived from a friend class does not itself make Regulator a friend of Account"
+  },
+  "ans": "D",
+  "exp": "A friend declaration names a specific class as a friend, and that grant is neither inherited nor transitive, so Regulator gains no special access to Account merely by deriving from Auditor. A states the opposite of the rule. B is irrelevant, since Regulator inheriting from Account has no bearing on whether Regulator was itself named a friend. C is factually wrong: `friend class Auditor;` is exactly the syntax C++ uses to grant friendship to a whole class.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-010",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class declares a static member function `static int count();`. Which statement correctly explains why this function has no `this` pointer, and what follows from that?",
+  "opts": {
+   "A": "A static member function is not associated with any particular object, so there is no object to point at; it may only access other static members directly, and it cannot be declared const or virtual",
+   "B": "A static member function does have a this pointer, but the pointer is always null unless the function is called through an object",
+   "C": "A static member function has no this pointer only when the class itself has no non-static data members",
+   "D": "A static member function has no this pointer, but it can still be declared const to indicate it does not modify the class's static data"
+  },
+  "ans": "A",
+  "exp": "Static member functions belong to the class rather than to any instance, so there is no implicit object argument to bind this to; consequently they can name only static members without qualification. Two separate rules follow, and they are worth keeping apart: const and volatile are barred because they qualify the implicit object parameter, which a static member function does not have, whereas virtual is barred for an unrelated reason — dynamic dispatch resolves through a vtable pointer stored inside a particular object, and a static member function is called without one. B invents a null this pointer the language does not provide, and C wrongly makes the rule depend on whether the class has non-static data members, when it depends only on the function's own static declaration.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-011",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "class Builder {\n  int v_ = 0;\npublic:\n  Builder& add(int n) { v_ += n; return *this; }\n  int value() const { return v_; }\n};\nBuilder b;\nb.add(1).add(2).add(3);\ncout << b.value();\n\nWhat does this print, and what would b.value() report instead if add() returned Builder by value rather than Builder&?",
+  "opts": {
+   "A": "6 either way, since the return type of add() cannot change which object the later calls in the chain operate on",
+   "B": "6 either way for the chained expression's own final value, but with a by-value return, b.value() afterwards would report 1, not 6 — only the first call in the chain acts on b itself, and every later call in the chain acts on a temporary copy that is discarded",
+   "C": "6 with reference return, but the code fails to compile with a by-value return because a temporary Builder has no add() member to call",
+   "D": "3 in both cases, because v_ is reset to 0 at the start of every call to add()"
+  },
+  "ans": "B",
+  "exp": "With Builder&, every call in the chain returns a reference to the same b, so b accumulates 1+2+3 and b.value() reports 6. With a by-value return, only the first call, b.add(1), acts on b itself and sets b.v_ to 1; add(2) and add(3) then run on the anonymous temporaries the previous call returned, mutating and discarding each in turn, so b is never touched again and b.value() reports 1. A ignores that reference-vs-value return changes which object later calls act on; C is wrong because a member function can legally be called on a temporary (a prvalue) in C++; D misreads += as an assignment that resets state each time.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-012",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "class Point {\n  int x_, y_;\npublic:\n  Point(int x, int y) : x_(x), y_(y) {}\n  int getX() const { return x_; }\n  void setX(int x) { x_ = x; }\n};\nconst Point p(3, 4);\np.setX(10);\n\nWhat is the status of the last line?",
+  "opts": {
+   "A": "It compiles and sets p's x_ to 10, because const only prevents reassigning p as a whole, not calling its member functions",
+   "B": "It fails to compile, but a const_cast on p before calling setX() would make the write legal and well-defined",
+   "C": "It fails to compile: p is a const object, and a const object may only have its const-qualified member functions called on it; setX() is not const-qualified",
+   "D": "It compiles but has no effect, because the compiler silently ignores writes made through a const object"
+  },
+  "ans": "C",
+  "exp": "A const object may invoke only member functions that themselves promise, via the trailing const qualifier, not to modify the object's members; setX() carries no such promise, so calling it on the const object p is rejected at compile time. A wrongly claims const still permits arbitrary mutating calls, which is exactly what const blocks. D invents a silent no-op that C++ does not have. B is wrong: casting away constness with const_cast to modify an object that was actually declared const, not merely reached through a const reference to a non-const object, is undefined behaviour, not legal.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-013",
+  "sub": "Constructors and destructors",
+  "q": "A class `Report` holds three data members: `std::string title`, `std::vector<Section> sections`, and `std::unique_ptr<Logger> logger` — each of which already manages its own resource correctly through its own special member functions. Which special member functions should `Report` itself declare?",
+  "opts": {
+   "A": "None at all — the compiler-generated versions perform the right member-wise operations because every member already manages its own resource (the Rule of Zero)",
+   "B": "All five (destructor, copy constructor, copy assignment, move constructor, move assignment), so Report explicitly documents its resource ownership",
+   "C": "Only the destructor, so that it explicitly frees the unique_ptr on scope exit",
+   "D": "Only the copy constructor and copy assignment operator, since unique_ptr is not copyable and must be handled by hand"
+  },
+  "ans": "A",
+  "exp": "Every member here already implements RAII correctly, so the compiler-generated destructor and copy/move operations for Report do exactly the right member-wise thing — this is the Rule of Zero. Declaring only the destructor, as in C, is the classic trap: a user-declared destructor suppresses the implicit move constructor and move assignment. For this class the damage is worse than the usual silent fall back to copying, because Report holds a std::unique_ptr and its implicit copy constructor is therefore deleted too — so `Report r2 = std::move(r1);` does not copy, it fails to compile, leaving a type that is neither movable nor copyable.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-014",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct Box {\n  Box() {}\n  Box(const Box&) { cout << 'C'; }\n  Box(Box&&) { cout << 'M'; }\n};\nint main() { Box a; Box b = a; Box c = std::move(a); }",
+  "opts": {
+   "A": "MM",
+   "B": "CM",
+   "C": "CC",
+   "D": "MC"
+  },
+  "ans": "B",
+  "exp": "Box b = a; initializes from the lvalue a, so overload resolution binds to Box(const Box&) and prints 'C'; Box c = std::move(a); casts a to an xvalue, which binds to Box(Box&&) and prints 'M', giving \"CM\". Neither initialization is from a temporary, so no copy-elision rule is in play here — std::move never elides a constructor call, it only changes which overload is picked.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-015",
+  "sub": "Constructors and destructors",
+  "q": "A class declares only `Widget(const Widget&) = delete;` and no other constructors, destructor, or assignment operators are declared. What happens when code writes `Widget b = std::move(a);` for a `Widget` object `a`?",
+  "opts": {
+   "A": "It compiles and calls a compiler-generated move constructor",
+   "B": "It compiles and silently falls back to a memberwise copy, ignoring std::move",
+   "C": "It fails to compile: declaring the copy constructor, even as deleted, is a user declaration that suppresses the implicitly-generated move constructor, so overload resolution falls back to the copy constructor, which is deleted",
+   "D": "It fails to compile because std::move cannot be applied to a class with any deleted special member function"
+  },
+  "ans": "C",
+  "exp": "A user-declared copy constructor — even one defined as = delete — is still a user declaration, and any user-declared copy constructor suppresses the compiler's implicit generation of a move constructor. With no move constructor in the overload set, Widget b = std::move(a); resolves to the copy constructor (an rvalue still binds to const Widget&), and calling a deleted function makes the program ill-formed rather than silently falling back to a copy, as B tempts one to think.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-016",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct W {\n  W() { cout << 'A'; }\n  W(int n) : W() { cout << 'B'; }\n};\nint main() { W w(5); }",
+  "opts": {
+   "A": "BA",
+   "B": "A",
+   "C": "B",
+   "D": "AB"
+  },
+  "ans": "D",
+  "exp": "A delegating constructor's target constructor — here W() — runs to completion, body included, before control returns to the delegating constructor's own body, so 'A' prints first and 'B' second, giving \"AB\". The tempting error is to assume delegation only forwards initialization without running the target's full body, but the standard guarantees the entire target constructor finishes first.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-017",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct A { ~A() { cout << 'a'; } };\nstruct B { A m; B() { throw 1; } ~B() { cout << 'b'; } };\nint main() { try { B x; } catch (...) { cout << 'c'; } }",
+  "opts": {
+   "A": "ac",
+   "B": "bac",
+   "C": "ab",
+   "D": "c"
+  },
+  "ans": "A",
+  "exp": "B's constructor throws before its own body completes, so B is never considered fully constructed and ~B() (which would print 'b') is never invoked; but its member m, of type A, already finished constructing, so ~A() still runs during stack unwinding and prints 'a', after which the catch block prints 'c', giving \"ac\". The tempting wrong answer 'bac' assumes the object's own destructor runs despite the constructor never completing, which C++ explicitly does not do.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-018",
+  "sub": "Constructors and destructors",
+  "q": "Two separate translation units each define a non-local (namespace-scope) object with static storage duration: TU1.cpp defines `Logger globalLogger;` and TU2.cpp defines `Config globalConfig;`, and Config's constructor calls a method on globalLogger. The program crashes intermittently at startup depending on link order. What is the correct diagnosis?",
+  "opts": {
+   "A": "This is a linker bug; recompiling with a different optimization level resolves it permanently",
+   "B": "Non-local static objects defined in different translation units have no defined relative order of initialization between each other, so globalConfig's constructor may run before globalLogger's — this is the \"static initialization order fiasco\"; the standard fix is to replace the global object with a function-local static returned by an accessor function",
+   "C": "The compiler always initializes global objects in the order their translation units appear in the final link command",
+   "D": "Objects with static storage duration are destroyed in the same order they were constructed, so simply reordering the two source files in the build command fixes the ordering problem for good"
+  },
+  "ans": "B",
+  "exp": "The C++ standard leaves the relative order of initialization of non-local static objects defined in separate translation units unspecified, so whichever of globalLogger or globalConfig happens to initialize first depends on link order and toolchain behaviour — this is the classic static initialization order fiasco, and the standard fix is to replace the global object with a function-local static inside an accessor function, which is guaranteed to construct on first call. Option C's claim of a link-order guarantee is exactly the false assumption that causes the bug in the first place.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-019",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Which of the following groups consists entirely of operators that C++ never permits any class to overload, however the class is written?",
+  "opts": {
+   "A": "new  delete  new[]  delete[]",
+   "B": ".  .*  ::  ?:  sizeof",
+   "C": "&&  ||  ,  !",
+   "D": "=  []  ()  ->"
+  },
+  "ans": "B",
+  "exp": "The dot, pointer-to-member, scope-resolution, conditional and sizeof operators are fixed by the core language grammar itself and never route through operator-function lookup, so no class can redefine them (typeid is excluded for the same reason). A is the trap: new, delete, new[] and delete[] are among the operators a class explicitly can overload, to control its own memory allocation. C and D both name operators that can be overloaded — and C's members are a different kind of limitation, not a ban: overloading && , || or the comma operator costs their built-in short-circuit and sequencing guarantees, though unary ! has no such guarantee to lose in the first place.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-020",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "A class Flag overloads operator&& as a member function, so that a && b for two Flag objects calls that function. Which behaviour of the built-in && is lost as a result?",
+  "opts": {
+   "A": "Nothing is lost; the compiler still special-cases && so the second operand is skipped whenever overloading makes the first operand false",
+   "B": "The result type changes from bool to Flag, so && can no longer appear inside an if condition",
+   "C": "Overloading operator&& is rejected by the compiler, because && can never be given a class-type overload",
+   "D": "Short-circuit evaluation: the overload is an ordinary function call, so both arguments are evaluated with no guarantee that b is skipped when a is false"
+  },
+  "ans": "D",
+  "exp": "Once operator&& is overloaded it is an ordinary function call, and C++ gives function arguments no evaluation-order or skip guarantee, so both a and b are evaluated even when a is false; the same loss of special behaviour applies to an overloaded || or comma operator. A is wrong because the built-in short-circuit special-casing applies only to the primitive-type form of &&, never to an overload. B and C invent effects (a changed result type, a rejected declaration) that the standard does not impose — a class-type && is legal, it is just no longer short-circuiting.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U1B-021",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Overload resolution, overriding and hiding are three distinct mechanisms in C++ that are often confused with one another. Which statement correctly distinguishes them?",
+  "opts": {
+   "A": "Overload resolution picks among same-named functions with different parameter lists at compile time from the static types of the arguments; overriding replaces a virtual function's behaviour in a derived class for a matching signature and is dispatched at run time through the object's dynamic type; hiding occurs when a derived class declares a name that makes every base-class function of that name in that scope invisible to ordinary unqualified lookup, whether or not the signatures or virtual-ness match",
+   "B": "Overload resolution and overriding are the same mechanism applied respectively to non-virtual and virtual functions, while hiding is a compiler error that always stops the program from compiling",
+   "C": "Overriding is decided at compile time from the static type of the pointer or reference used to call it, while overload resolution and hiding both happen only at run time",
+   "D": "Hiding only happens when a derived class redeclares a function with a signature identical to a base class virtual function, which is also exactly what overriding requires"
+  },
+  "ans": "A",
+  "exp": "The three operate on different axes — parameter-list matching at compile time for overload resolution, dynamic-type dispatch at run time for overriding, and plain name lookup (ignoring signature and virtual-ness) for hiding — and A states all three correctly. B wrongly collapses overriding into overload resolution and mischaracterises hiding as always an error, when unrelated base and derived overloads coexisting is perfectly legal C++ (just inconvenient). C reverses overriding's actual run-time dispatch. D is backwards: a matching signature on a virtual function is precisely what turns a would-be hiding declaration into an override instead of hiding it.",
+  "conf": "high"
+ }
+]

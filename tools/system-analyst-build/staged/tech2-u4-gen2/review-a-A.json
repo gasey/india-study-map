@@ -1,0 +1,14 @@
+{
+ "reviewer": "u4b-a-A — adversarial refutation pass, blind to the second reviewer",
+ "reviewed": 21,
+ "flags": [
+  {
+   "id": "GEN-T2U4B-009",
+   "type": "unstated-assumption",
+   "severity": "medium",
+   "detail": "The question names EKS, AKS and GKE interchangeably as examples of 'CaaS where, with standard node pools, the customer still provisions and patches the worker nodes' OS unless a node-less option like Fargate/Autopilot is used.' That claim is provider-dependent, not uniform across the three named providers: (1) GKE — node auto-upgrade is enabled BY DEFAULT for new Standard-mode clusters/node pools created via Console or gcloud, and Google's own docs state it 'keeps nodes at the current Kubernetes and OS security patch level' automatically, with no customer action required unless the customer explicitly disables it. (2) AKS — the default ('Unmanaged/legacy') channel already applies OS security patches to Linux nodes automatically on a nightly rolling basis (unattended-upgrades baked into the node image); the customer's remaining job is only handling reboots (e.g. via kured) or choosing a node-image-upgrade channel, not applying the patches themselves. (3) EKS is the one case that actually matches the option's claim cleanly: AWS builds a patched EKS-optimized AMI but the customer must explicitly trigger the node-group update to deploy it. So changing which of the three named providers is meant changes whether option A's premise holds — the stem lumps them together instead of pinning one, and the explanation states as universal fact ('node OS patching remains the customer's job... on EKS, AKS or GKE') something that is only true for EKS's default configuration.",
+   "suggested": "Either pin the question to EKS specifically (where the claim is accurate), or rewrite to acknowledge that GKE and AKS both ship default auto-patching/auto-upgrade behavior for node OS that EKS does not, so the IaaS/PaaS spectrum framing should be scoped per-provider rather than asserted as one uniform CaaS behavior across all three."
+  }
+ ],
+ "notes": "This batch is largely clean and well-verified against primary sources (NIST SP 500-292 actor roles, AWS Lambda's 900s/6MB limits, VMware's inter-VM TPS side-channel history, Istio weighted VirtualService syntax, GKE/AKS/EKS node-patching defaults, SLA composition arithmetic all checked out). The one real issue is GEN-T2U4B-009's cross-provider generalization about worker-node OS patching, which is exactly the 'provider-specific behaviour stated as universal' trap this subject is prone to — GKE and AKS both default to automatic node-OS patching in ways EKS does not."
+}

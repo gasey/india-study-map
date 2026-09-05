@@ -1,0 +1,86 @@
+[
+ {
+  "id": "GEN-T2U1B-037",
+  "sub": "Exception handling and strings",
+  "q": "A try block contains a single handler, catch (...) { ... }. Which statement about that handler is correct?",
+  "opts": {
+   "A": "Inside the handler body there is no way to name or inspect the caught object, but a bare throw; still rethrows the exact exception that was caught",
+   "B": "It can only be used for exceptions of built-in type such as int or const char*, not for class-type exceptions",
+   "C": "It requires an exception-declaration naming std::exception, since (...) is shorthand for that type",
+   "D": "If the exception thrown is derived from std::exception, catch (...) does not match it; only a same-named catch (const std::exception&) does"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "catch (...) matches any exception, including class types, but because the caught type is never named there is nothing to call what() or any other member function on inside the handler; it can still forward the untouched exception onward with a bare throw;. It is not restricted to built-in types and is not sugar for std::exception."
+ },
+ {
+  "id": "GEN-T2U1B-038",
+  "sub": "Exception handling and strings",
+  "q": "A constructor is written using a function-try-block: Widget::Widget(int n) try : buf_(n) { } catch (const std::bad_alloc&) { /* log it */ }. If the member-initialiser for buf_ throws std::bad_alloc, what happens once the catch block's body finishes executing?",
+  "opts": {
+   "A": "Construction succeeds anyway, because the catch block handled the exception, and the resulting Widget object is usable",
+   "B": "The exception is automatically rethrown to the constructor's caller once the handler finishes, because a function-try-block on a constructor cannot stop the exception from propagating",
+   "C": "The compiler treats reaching the end of the catch block as returning from the constructor normally, exactly as it would for an ordinary function's function-try-block",
+   "D": "A new object of type std::bad_alloc is thrown in place of the original exception, discarding the original"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "For a constructor's (or destructor's) function-try-block, reaching the end of the handler always rethrows the exception that was caught — the language never lets a constructor 'succeed' after one of its subobjects failed to initialise. This is exactly where function-try-block semantics differ from an ordinary function, where falling off the end of the handler would just return normally."
+ },
+ {
+  "id": "GEN-T2U1B-039",
+  "sub": "Exception handling and strings",
+  "q": "Which statement about the <stdexcept>/<new> exception hierarchy is correct?",
+  "opts": {
+   "A": "std::out_of_range derives from std::runtime_error, and std::bad_alloc derives from std::runtime_error as well",
+   "B": "std::bad_alloc derives from std::logic_error, since insufficient memory can be predicted in advance by checking available resources",
+   "C": "std::out_of_range derives from std::logic_error, and std::bad_alloc derives directly from std::exception rather than from std::runtime_error",
+   "D": "std::out_of_range and std::bad_alloc both derive directly from std::exception, bypassing logic_error and runtime_error entirely"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "std::out_of_range is one of the logic_error subclasses in <stdexcept>, while std::bad_alloc is declared in <new> as a direct subclass of std::exception — it sits under neither logic_error nor runtime_error, since an allocation failure is not a predictable caller bug."
+ },
+ {
+  "id": "GEN-T2U1B-040",
+  "sub": "Exception handling and strings",
+  "q": "A function offers the basic exception guarantee but not the strong guarantee. If the function throws partway through, what is guaranteed?",
+  "opts": {
+   "A": "The operation either completes fully or has no observable effect at all, as if it had never been called",
+   "B": "The function is guaranteed not to throw at all under any circumstances",
+   "C": "Only the memory allocated during the call is guaranteed to be freed; other data members may be left in an invalid, undefined state",
+   "D": "No resources are leaked and every object involved remains in some valid, destructible state, but the values it held before the call are not guaranteed to be restored"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The basic guarantee promises only that nothing leaks and every object stays in some valid, usable state after a partial failure — it does not promise the pre-call values are restored. That commit-or-rollback promise is the strong guarantee (option A), and never throwing at all describes the no-throw guarantee (option B), a stronger property still."
+ },
+ {
+  "id": "GEN-T2U1B-041",
+  "sub": "Exception handling and strings",
+  "q": "Given std::string s = \"hi\"; auto it = s.begin(); char& r = s[0]; s.push_back('!'); — assume this push_back triggers a reallocation of the string's buffer. What is the status of it and r afterward?",
+  "opts": {
+   "A": "Both it and r are invalidated; using either afterward is undefined behaviour",
+   "B": "it is invalidated but r remains valid, because operator[] returns a reference bound directly to a character rather than to the string's buffer",
+   "C": "Both remain valid, because std::string guarantees contiguous storage is never moved by push_back",
+   "D": "r is invalidated but it remains valid, since iterators are position-based offsets recomputed automatically after reallocation"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A reallocating push_back invalidates every iterator, pointer and reference into the old buffer — operator[]'s reference and begin()'s iterator are both just views into that same storage, so both die together. Contiguous storage is not the same guarantee as storage never moving, and iterators are not magically recomputed after a move."
+ },
+ {
+  "id": "GEN-T2U1B-042",
+  "sub": "Exception handling and strings",
+  "q": "For a std::string s of length 5, consider s.substr(3, 10) and s.substr(10, 1). What happens in each case?",
+  "opts": {
+   "A": "Both calls throw std::out_of_range, because the requested length in each case exceeds the number of characters actually available",
+   "B": "s.substr(3, 10) returns the 2 remaining characters from position 3 to the end, with the count silently clamped; s.substr(10, 1) throws std::out_of_range because 10 exceeds s.size()",
+   "C": "Both calls silently clamp to whatever characters are available, and neither ever throws, since substr never validates its position argument",
+   "D": "s.substr(3, 10) throws because the count exceeds the string, while s.substr(10, 1) silently returns an empty string"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "substr(pos, count) throws std::out_of_range only when pos exceeds size(); the count argument is simply clamped to whichever characters remain and never itself causes a throw. pos=3 is within a 5-character string, so it returns the 2 available characters, while pos=10 fails that bounds check and throws."
+ }
+]

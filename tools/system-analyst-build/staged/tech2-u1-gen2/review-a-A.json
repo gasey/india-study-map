@@ -1,0 +1,21 @@
+{
+ "reviewer": "u1b-a-A — adversarial refutation pass, blind to the second reviewer",
+ "reviewed": 21,
+ "flags": [
+  {
+   "id": "GEN-T2U1B-013",
+   "type": "bad-explanation",
+   "severity": "medium",
+   "detail": "The keyed answer (A, Rule of Zero) is correct, but the explanation's claim about option C's failure mode is wrong for this exact class. It says declaring only the destructor 'suppresses the implicitly-generated move constructor and move assignment operator, forcing needless copies instead.' That is the generic textbook consequence, but it does not hold here: Report has a std::unique_ptr<Logger> member, so the implicitly-declared (fallback) copy constructor is itself implicitly deleted regardless of the destructor. Verified by compiling: with only a user-declared destructor added to this exact class, `Report r2 = std::move(r1);` fails to compile with 'use of deleted function Report::Report(const Report&)' — the type becomes neither movable nor copyable, a hard compile error, not a silent fallback to copying. Fix: change the explanation to say the destructor-only declaration breaks the type entirely here (no move, and copy is also deleted because of the unique_ptr member), rather than 'forcing needless copies.'",
+   "suggested": "Reword explanation: '...declaring only the destructor suppresses the implicit move operations; since Report also holds a non-copyable unique_ptr member, the compiler's fallback copy constructor is itself implicitly deleted, so option C actually breaks the type outright (neither copyable nor movable) rather than merely degrading moves into copies.'"
+  },
+  {
+   "id": "GEN-T2U1B-019",
+   "type": "bad-explanation",
+   "severity": "low",
+   "detail": "Key (B) is correct and the core reasoning for rejecting group C (&& || , !) — that all four can be overloaded — is correct. But the explanation adds 'C loses special evaluation-order behaviour when overloaded' as a blanket property of the whole group. That's true for &&, ||, and the comma operator (all have built-in sequencing/short-circuit guarantees that vanish once overloaded), but not for unary `!`: `!` takes a single operand, so there is no operand evaluation-order or short-circuit guarantee for it to lose in the first place, built-in or overloaded. Stating the property as if it applies across the whole group is a minor overgeneralization.",
+   "suggested": "Narrow the claim: 'C loses special evaluation-order behaviour when overloaded (true of &&, ||, and comma; ! has no such guarantee to begin with, being unary) — a different limitation from B's absolute ban.'"
+  }
+ ],
+ "notes": "The batch is largely clean and unusually well-verified — every code-snippet question (007, 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018, 020) was compiled and its output/error checked against g++ 13.3 with -std=c++17 (and -std=c++20 for the chaining question), and all matched the keyed answer and explanation exactly except for the two flags above. Both flags are explanation-only defects (rule 4): the keyed letters throughout the batch are correct and no distractor is genuinely defensible."
+}

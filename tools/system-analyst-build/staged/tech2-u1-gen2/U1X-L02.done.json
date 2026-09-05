@@ -1,0 +1,87 @@
+[
+ {
+  "id": "GEN-T2U1B-007",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "struct S { int a; };\nclass C { int a; };\n\nNo access specifier is written before member `a` in either body. What is `a`'s access in each type?",
+  "opts": {
+   "A": "Private in both, because every C++ user-defined type defaults to private access for its members",
+   "B": "Public in S, private in C — a struct defaults member access to public while a class defaults it to private",
+   "C": "Public in both; the keywords differ only in whether the type may declare member functions",
+   "D": "Protected in both, matching the default used when either is inherited from privately"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "struct and class are the same construct apart from this one default: members with no explicit specifier are public in a struct and private in a class, so `a` is public in S and private in C. A wrongly claims struct also defaults to private; C invents a restriction that doesn't exist, since both keywords permit member functions identically; D substitutes protected, which is not the member-access default for either keyword."
+ },
+ {
+  "id": "GEN-T2U1B-008",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "class Widget {\npublic:\n  explicit Widget(int id);\nprivate:\n  int id_;\n};\n\nGiven only this declared constructor, what happens when the code writes `Widget arr[3];`?",
+  "opts": {
+   "A": "It compiles: the compiler synthesises a default constructor for arrays even when a parameterized constructor already exists",
+   "B": "It fails to compile because `explicit` constructors can never be used to build arrays of objects",
+   "C": "It fails to compile: Widget has no default constructor, and each element of an array of objects must be default-constructible unless an initializer is supplied for every element",
+   "D": "It compiles, and each element is left uninitialised until id_ is explicitly assigned"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Declaring the constructor Widget(int) suppresses the compiler-generated default constructor, and `Widget arr[3];` needs to default-construct all three elements since no per-element initialisers are supplied, so the declaration is ill-formed. A invents a special array-only synthesis rule that does not exist. D is wrong because the compile fails outright rather than silently proceeding. B is wrong: `explicit` only suppresses implicit conversions and copy-initialisation — it has no bearing on array construction; the real blocker is the missing default constructor."
+ },
+ {
+  "id": "GEN-T2U1B-009",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "class Account {\n  friend class Auditor;\n  double balance_;\n};\nclass Auditor { /* ... */ };\nclass Regulator : public Auditor { /* ... */ };\n\nCan a member function of Regulator directly access Account::balance_?",
+  "opts": {
+   "A": "Yes — friendship, once granted to a class, extends automatically to every class that later derives from it",
+   "B": "Yes, but only if Regulator also inherits from Account",
+   "C": "No — friend declarations only grant access to non-member functions, never to classes",
+   "D": "No — friendship is not inherited, so being derived from a friend class does not itself make Regulator a friend of Account"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A friend declaration names a specific class as a friend, and that grant is neither inherited nor transitive, so Regulator gains no special access to Account merely by deriving from Auditor. A states the opposite of the rule. B is irrelevant, since Regulator inheriting from Account has no bearing on whether Regulator was itself named a friend. C is factually wrong: `friend class Auditor;` is exactly the syntax C++ uses to grant friendship to a whole class."
+ },
+ {
+  "id": "GEN-T2U1B-010",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "A class declares a static member function `static int count();`. Which statement correctly explains why this function has no `this` pointer, and what follows from that?",
+  "opts": {
+   "A": "A static member function is not associated with any particular object, so there is no object to point at; it may only access other static members directly, and it cannot be declared const or virtual",
+   "B": "A static member function does have a this pointer, but the pointer is always null unless the function is called through an object",
+   "C": "A static member function has no this pointer only when the class itself has no non-static data members",
+   "D": "A static member function has no this pointer, but it can still be declared const to indicate it does not modify the class's static data"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Static member functions belong to the class rather than to any instance, so there is no implicit object argument to bind this to; consequently they can name only static members without qualification. Two separate rules follow, and they are worth keeping apart: const and volatile are barred because they qualify the implicit object parameter, which a static member function does not have, whereas virtual is barred for an unrelated reason — dynamic dispatch resolves through a vtable pointer stored inside a particular object, and a static member function is called without one. B invents a null this pointer the language does not provide, and C wrongly makes the rule depend on whether the class has non-static data members, when it depends only on the function's own static declaration.",
+  "reviewFix": "Explanation split into the two rules it had collapsed into one. It said a static member function 'cannot carry const, volatile or virtual, all of which qualify an implicit object parameter they don't have'. That is accurate for const and volatile, which genuinely are cv-qualifiers on the implicit object parameter, but virtual is not a qualifier on that parameter at all — it is not part of the function type the way cv-qualifiers are and plays no part in overload resolution. Virtual is barred because dispatch needs a real instance carrying a vtable pointer. Key A unchanged."
+ },
+ {
+  "id": "GEN-T2U1B-011",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "class Builder {\n  int v_ = 0;\npublic:\n  Builder& add(int n) { v_ += n; return *this; }\n  int value() const { return v_; }\n};\nBuilder b;\nb.add(1).add(2).add(3);\ncout << b.value();\n\nWhat does this print, and what would b.value() report instead if add() returned Builder by value rather than Builder&?",
+  "opts": {
+   "A": "6 either way, since the return type of add() cannot change which object the later calls in the chain operate on",
+   "B": "6 either way for the chained expression's own final value, but with a by-value return, b.value() afterwards would report 1, not 6 — only the first call in the chain acts on b itself, and every later call in the chain acts on a temporary copy that is discarded",
+   "C": "6 with reference return, but the code fails to compile with a by-value return because a temporary Builder has no add() member to call",
+   "D": "3 in both cases, because v_ is reset to 0 at the start of every call to add()"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "With Builder&, every call in the chain returns a reference to the same b, so b accumulates 1+2+3 and b.value() reports 6. With a by-value return, only the first call, b.add(1), acts on b itself and sets b.v_ to 1; add(2) and add(3) then run on the anonymous temporaries the previous call returned, mutating and discarding each in turn, so b is never touched again and b.value() reports 1. A ignores that reference-vs-value return changes which object later calls act on; C is wrong because a member function can legally be called on a temporary (a prvalue) in C++; D misreads += as an assignment that resets state each time."
+ },
+ {
+  "id": "GEN-T2U1B-012",
+  "sub": "Classes, objects, member functions and memory allocation",
+  "q": "class Point {\n  int x_, y_;\npublic:\n  Point(int x, int y) : x_(x), y_(y) {}\n  int getX() const { return x_; }\n  void setX(int x) { x_ = x; }\n};\nconst Point p(3, 4);\np.setX(10);\n\nWhat is the status of the last line?",
+  "opts": {
+   "A": "It compiles and sets p's x_ to 10, because const only prevents reassigning p as a whole, not calling its member functions",
+   "B": "It fails to compile, but a const_cast on p before calling setX() would make the write legal and well-defined",
+   "C": "It fails to compile: p is a const object, and a const object may only have its const-qualified member functions called on it; setX() is not const-qualified",
+   "D": "It compiles but has no effect, because the compiler silently ignores writes made through a const object"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A const object may invoke only member functions that themselves promise, via the trailing const qualifier, not to modify the object's members; setX() carries no such promise, so calling it on the const object p is rejected at compile time. A wrongly claims const still permits arbitrary mutating calls, which is exactly what const blocks. D invents a silent no-op that C++ does not have. B is wrong: casting away constness with const_cast to modify an object that was actually declared const, not merely reached through a const reference to a non-const object, is undefined behaviour, not legal."
+ }
+]

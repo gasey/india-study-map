@@ -1,0 +1,14 @@
+{
+ "reviewer": "u1b-b-B — independent solve-then-compare pass, blind to the first reviewer",
+ "reviewed": 21,
+ "flags": [
+  {
+   "id": "GEN-T2U1B-026",
+   "type": "ambiguous",
+   "severity": "medium",
+   "detail": "The stem shows options B and C as bare function declarations (prototypes with a semicolon, no body, never called anywhere): `Connection make();` and `void transmit(Connection c);`. I compiled exactly these two lines (plus the abstract Connection class) with g++ -std=c++17 -Wall and BOTH compile cleanly with zero diagnostics — a mere declaration of a function returning/taking an abstract class by value is accepted. The 'invalid abstract return type' / 'cannot declare parameter to be of abstract type' errors only fire once the function is actually DEFINED (I verified this too: adding `{ }` to either line immediately produces the expected error). So as literally written, 3 of the 4 options compile (A, B, C), not 1 — only D (the array, which really does default-construct 4 objects) fails as claimed. The explanation's blanket claim that 'every other option requires the compiler to create a complete, independent Connection object' is false for B and C in their given (declaration-only) form; it is only true once they are defined or invoked, which the stem never shows.",
+   "suggested": "Show B and C as defined/used, not bare prototypes, e.g. `Connection make() { ... }` or a call site `transmit(Connection(...))`, so the intended compile failure actually manifests. Keep A and D as-is (both verified correct as-is: A compiles, D fails to compile)."
+  }
+ ],
+ "notes": "This batch is otherwise clean and unusually well-grounded — I independently derived the same answer as the key on all 21 questions and verified the non-obvious behavioural ones (redefinition rules, pure-virtual-destructor linkage, final-override enforcement, gcount on short reads, the cin>>/getline stray-newline trap, static_cast vs reinterpret_cast rejection, function-try-block rethrow, substr bounds) by compiling and running the actual fragments; all matched the stated key and explanation exactly. The one flag (026) is a real defect in how the abstract-class options are phrased (declaration vs. definition), not a wrong key."
+}

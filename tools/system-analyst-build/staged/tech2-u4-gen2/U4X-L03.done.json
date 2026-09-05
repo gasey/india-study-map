@@ -1,0 +1,86 @@
+[
+ {
+  "id": "GEN-T2U4B-013",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "The 'database per service' pattern says each microservice should own its own private data store, exposed to other services only through its own API. Two services, Orders and Inventory, are each given separate codebases and deployment pipelines but both read and write the same shared PostgreSQL database. Which specific problem does breaking this rule usually cause?",
+  "opts": {
+   "A": "Two services sharing a database can no longer be deployed independently, because a schema change made by one team can silently break queries that the other team's service already relies on",
+   "B": "Shared databases always violate ACID guarantees, since two services writing to one database cannot both use transactions safely",
+   "C": "A shared database prevents either service from using its own client-side caching for reads",
+   "D": "A shared database forces both services to be written in the same programming language, since they share one connection driver"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A shared schema re-couples the two services at the data layer, so a table change made for one service's benefit can break the other's queries without either team's API contract ever changing — reintroducing exactly the coordinated-deployment coupling microservices decomposition is meant to remove. B is false: a single database still gives each service ordinary local ACID transactions. C and D don't follow from data ownership at all."
+ },
+ {
+  "id": "GEN-T2U4B-014",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A team splits a monolith into a dozen separately-deployed services, yet a single feature change routinely requires redeploying eight of them together in a fixed order, because each service calls several others synchronously and hard-codes assumptions about their current internal behaviour. What does this describe?",
+  "opts": {
+   "A": "A well-designed microservices architecture, because splitting a monolith into a dozen services is itself the definition of microservices",
+   "B": "A distributed monolith: the services are physically separate processes but remain coupled tightly enough that they can only be deployed and changed as one unit, losing microservices' main benefit of independent deployability",
+   "C": "A service mesh, because sidecar proxies are coordinating the deployment order across services",
+   "D": "An event-driven architecture, since services call each other directly rather than through a message broker"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Being split into separate processes is not sufficient for microservices; if a change still forces a coordinated multi-service redeploy, the services remain coupled as tightly as modules in a monolith, just with network calls between them — the common 'distributed monolith' failure mode. A is wrong because process separation alone doesn't confer independent deployability. C and D describe unrelated mechanisms that this scenario never mentions."
+ },
+ {
+  "id": "GEN-T2U4B-015",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "An order-processing flow spans three services — Payment, Inventory and Shipping — each with its own private database. No distributed two-phase-commit transaction is available across them. Payment succeeds and Inventory succeeds, but Shipping then fails permanently. Which pattern is designed to bring the system back to a consistent state in this situation?",
+  "opts": {
+   "A": "A two-phase commit coordinator that rolls back all three databases atomically",
+   "B": "A circuit breaker that stops further calls to the Shipping service",
+   "C": "A saga: the flow proceeds as a sequence of local transactions, and when a step fails, the previously completed steps are undone by explicit compensating transactions — for example refunding the payment and releasing the reserved inventory",
+   "D": "Eventual consistency achieved simply by retrying the failed Shipping call until it succeeds"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A saga replaces one distributed transaction with a chain of local transactions plus compensating actions that explicitly undo whatever already committed, which is exactly what recovers Payment and Inventory here. A is the very mechanism the stem says is unavailable. B only stops future calls, it does nothing to undo the already-committed payment and inventory reservation. D assumes the failure is transient and retryable, but the stem states it is permanent."
+ },
+ {
+  "id": "GEN-T2U4B-016",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A team wants to migrate a large legacy monolith to microservices without a risky one-shot cutover. It places a routing layer in front of the monolith that initially forwards all traffic to the old system, then incrementally redirects individual routes to new services as each is built, until nothing is left pointing at the monolith. What is this migration approach called?",
+  "opts": {
+   "A": "Blue-green deployment",
+   "B": "Canary release",
+   "C": "Sidecar pattern",
+   "D": "Strangler fig pattern"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The strangler fig pattern names exactly this: a facade routes traffic to the legacy system by default and functionality is peeled off into new services route by route until the old system can be retired. Blue-green is an atomic all-or-nothing cutover between two complete environments of the same system, not a route-by-route architectural replacement. Canary release rolls out a new version of one service to a traffic subset; it doesn't describe replacing a monolith piece by piece. The sidecar pattern is a co-located per-instance helper process, unrelated to migration strategy."
+ },
+ {
+  "id": "GEN-T2U4B-017",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "An Istio VirtualService for the `checkout` service is updated to:\n\n  http:\n  - route:\n    - destination:\n        host: checkout\n        subset: v1\n      weight: 90\n    - destination:\n        host: checkout\n        subset: v2\n      weight: 10\n\nBoth v1 and v2 remain deployed and serving live traffic throughout, and the weights are expected to shift further as confidence grows. Which release strategy does this configuration implement?",
+  "opts": {
+   "A": "Canary release: v2 receives a small, controlled share of live production traffic alongside v1, and the split can be adjusted incrementally as confidence in v2 grows",
+   "B": "Blue-green deployment: all traffic is switched atomically from v1 to v2 once v2 passes its checks",
+   "C": "Rolling update: Pods running v1 are replaced one at a time by Pods running v2 until none of v1 remain",
+   "D": "A/B testing: users are routed to v1 or v2 based on which cohort they belong to, in order to compare a product metric rather than to validate release safety"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A weighted split between two live subsets of the same service, tuned upward over time, is the textbook mesh-level implementation of a canary release. Blue-green switches all traffic at once between two complete environments rather than holding a partial percentage split. A rolling update replaces Pods directly and isn't expressed as a mesh traffic weight at all. This configuration routes by a fixed percentage, not by user cohort, so it isn't A/B testing."
+ },
+ {
+  "id": "GEN-T2U4B-018",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A service calls two downstream dependencies, Search and Recommendations, using two separate, fixed-size thread pools — one dedicated to each dependency. Recommendations becomes slow and its thread pool fills up and stays blocked. What does isolating the thread pools like this specifically prevent?",
+  "opts": {
+   "A": "It prevents Recommendations from ever becoming slow in the first place, since a fixed pool size caps its response time",
+   "B": "It prevents calls to the slow Recommendations dependency from exhausting the threads that calls to Search need, so Search keeps working even while Recommendations is degraded — this is the bulkhead pattern",
+   "C": "It automatically retries failed Recommendations calls using threads from the Search pool instead",
+   "D": "It removes the need for a circuit breaker, since bulkheading by itself stops repeated calls to a failing dependency"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Partitioning resources per dependency, the bulkhead pattern, contains the blast radius of one dependency's failure so it can't starve threads that unrelated calls need — Search stays healthy even while Recommendations is stuck. A is false: pool sizing limits concurrency, not latency. C describes cross-pool retries that isolated pools are built specifically to prevent, not perform. D conflates two complementary but distinct mechanisms — a bulkhead isolates resources, but only a circuit breaker actually stops the calling service from continuing to issue calls to a dependency that is already failing."
+ }
+]

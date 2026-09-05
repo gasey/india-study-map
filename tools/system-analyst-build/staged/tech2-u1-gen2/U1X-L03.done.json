@@ -1,0 +1,87 @@
+[
+ {
+  "id": "GEN-T2U1B-013",
+  "sub": "Constructors and destructors",
+  "q": "A class `Report` holds three data members: `std::string title`, `std::vector<Section> sections`, and `std::unique_ptr<Logger> logger` — each of which already manages its own resource correctly through its own special member functions. Which special member functions should `Report` itself declare?",
+  "opts": {
+   "A": "None at all — the compiler-generated versions perform the right member-wise operations because every member already manages its own resource (the Rule of Zero)",
+   "B": "All five (destructor, copy constructor, copy assignment, move constructor, move assignment), so Report explicitly documents its resource ownership",
+   "C": "Only the destructor, so that it explicitly frees the unique_ptr on scope exit",
+   "D": "Only the copy constructor and copy assignment operator, since unique_ptr is not copyable and must be handled by hand"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Every member here already implements RAII correctly, so the compiler-generated destructor and copy/move operations for Report do exactly the right member-wise thing — this is the Rule of Zero. Declaring only the destructor, as in C, is the classic trap: a user-declared destructor suppresses the implicit move constructor and move assignment. For this class the damage is worse than the usual silent fall back to copying, because Report holds a std::unique_ptr and its implicit copy constructor is therefore deleted too — so `Report r2 = std::move(r1);` does not copy, it fails to compile, leaving a type that is neither movable nor copyable.",
+  "reviewFix": "Explanation corrected. The key (Rule of Zero) was right, but the stated consequence of option C was the generic textbook one and false for this particular class: it said a destructor-only declaration suppresses the moves, 'forcing needless copies instead'. Report holds a std::unique_ptr<Logger>, so its implicit copy constructor is deleted regardless of the destructor — the reviewer compiled this exact class and `Report r2 = std::move(r1);` fails with 'use of deleted function'. The type becomes neither copyable nor movable, a hard compile error rather than a silent performance loss, which is a strictly worse outcome than the explanation described. Key A unchanged."
+ },
+ {
+  "id": "GEN-T2U1B-014",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct Box {\n  Box() {}\n  Box(const Box&) { cout << 'C'; }\n  Box(Box&&) { cout << 'M'; }\n};\nint main() { Box a; Box b = a; Box c = std::move(a); }",
+  "opts": {
+   "A": "MM",
+   "B": "CM",
+   "C": "CC",
+   "D": "MC"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Box b = a; initializes from the lvalue a, so overload resolution binds to Box(const Box&) and prints 'C'; Box c = std::move(a); casts a to an xvalue, which binds to Box(Box&&) and prints 'M', giving \"CM\". Neither initialization is from a temporary, so no copy-elision rule is in play here — std::move never elides a constructor call, it only changes which overload is picked."
+ },
+ {
+  "id": "GEN-T2U1B-015",
+  "sub": "Constructors and destructors",
+  "q": "A class declares only `Widget(const Widget&) = delete;` and no other constructors, destructor, or assignment operators are declared. What happens when code writes `Widget b = std::move(a);` for a `Widget` object `a`?",
+  "opts": {
+   "A": "It compiles and calls a compiler-generated move constructor",
+   "B": "It compiles and silently falls back to a memberwise copy, ignoring std::move",
+   "C": "It fails to compile: declaring the copy constructor, even as deleted, is a user declaration that suppresses the implicitly-generated move constructor, so overload resolution falls back to the copy constructor, which is deleted",
+   "D": "It fails to compile because std::move cannot be applied to a class with any deleted special member function"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A user-declared copy constructor — even one defined as = delete — is still a user declaration, and any user-declared copy constructor suppresses the compiler's implicit generation of a move constructor. With no move constructor in the overload set, Widget b = std::move(a); resolves to the copy constructor (an rvalue still binds to const Widget&), and calling a deleted function makes the program ill-formed rather than silently falling back to a copy, as B tempts one to think."
+ },
+ {
+  "id": "GEN-T2U1B-016",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct W {\n  W() { cout << 'A'; }\n  W(int n) : W() { cout << 'B'; }\n};\nint main() { W w(5); }",
+  "opts": {
+   "A": "BA",
+   "B": "A",
+   "C": "B",
+   "D": "AB"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A delegating constructor's target constructor — here W() — runs to completion, body included, before control returns to the delegating constructor's own body, so 'A' prints first and 'B' second, giving \"AB\". The tempting error is to assume delegation only forwards initialization without running the target's full body, but the standard guarantees the entire target constructor finishes first."
+ },
+ {
+  "id": "GEN-T2U1B-017",
+  "sub": "Constructors and destructors",
+  "q": "Assuming the usual includes and using namespace std, what does this program print?\n\nstruct A { ~A() { cout << 'a'; } };\nstruct B { A m; B() { throw 1; } ~B() { cout << 'b'; } };\nint main() { try { B x; } catch (...) { cout << 'c'; } }",
+  "opts": {
+   "A": "ac",
+   "B": "bac",
+   "C": "ab",
+   "D": "c"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "B's constructor throws before its own body completes, so B is never considered fully constructed and ~B() (which would print 'b') is never invoked; but its member m, of type A, already finished constructing, so ~A() still runs during stack unwinding and prints 'a', after which the catch block prints 'c', giving \"ac\". The tempting wrong answer 'bac' assumes the object's own destructor runs despite the constructor never completing, which C++ explicitly does not do."
+ },
+ {
+  "id": "GEN-T2U1B-018",
+  "sub": "Constructors and destructors",
+  "q": "Two separate translation units each define a non-local (namespace-scope) object with static storage duration: TU1.cpp defines `Logger globalLogger;` and TU2.cpp defines `Config globalConfig;`, and Config's constructor calls a method on globalLogger. The program crashes intermittently at startup depending on link order. What is the correct diagnosis?",
+  "opts": {
+   "A": "This is a linker bug; recompiling with a different optimization level resolves it permanently",
+   "B": "Non-local static objects defined in different translation units have no defined relative order of initialization between each other, so globalConfig's constructor may run before globalLogger's — this is the \"static initialization order fiasco\"; the standard fix is to replace the global object with a function-local static returned by an accessor function",
+   "C": "The compiler always initializes global objects in the order their translation units appear in the final link command",
+   "D": "Objects with static storage duration are destroyed in the same order they were constructed, so simply reordering the two source files in the build command fixes the ordering problem for good"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "The C++ standard leaves the relative order of initialization of non-local static objects defined in separate translation units unspecified, so whichever of globalLogger or globalConfig happens to initialize first depends on link order and toolchain behaviour — this is the classic static initialization order fiasco, and the standard fix is to replace the global object with a function-local static inside an accessor function, which is guaranteed to construct on first call. Option C's claim of a link-order guarantee is exactly the false assumption that causes the bug in the first place."
+ }
+]

@@ -1,0 +1,14 @@
+{
+ "reviewer": "u4b-b-A — adversarial refutation pass, blind to the second reviewer",
+ "reviewed": 21,
+ "flags": [
+  {
+   "id": "GEN-T2U4B-032",
+   "type": "wrong-specific",
+   "severity": "low",
+   "detail": "The keyed option (C) says S3's Dec 2020 strong-consistency change applies 'automatically and globally for all requests from any client.' Verified against the actual AWS announcement (aws.amazon.com/about-aws/whats-new/2020/12/...): the feature is delivered 'in all AWS Regions' with explicit 'regional isolation' preserved — it is a per-region guarantee, not a cross-region/global one. 'Globally' as worded could be misread by a student as implying a write in one region is immediately consistent from a client reading in another region, which is not what changed and is not true. The key itself is still correct (no wrapper needed within a region, which is the realistic scenario a migrated pipeline would hit), so this is not a wrong-key flag — just an imprecise word that should be tightened.",
+   "suggested": "Reword to 'automatically, in every AWS Region, for all requests from any client' instead of 'globally', to avoid implying cross-region propagation."
+  }
+ ],
+ "notes": "This batch is technically solid: I independently re-derived an answer for all 21 before checking the key and verified the load-bearing specifics (802.1Q's 12-bit/4094 vs VXLAN's 24-bit/16M VNI space, the Dec 2020 S3 strong-consistency change and what it did/didn't cover, DORA's commit-to-production definition of lead time for changes, DaemonSet semantics, K8s maxSurge/maxUnavailable interaction, AWS SLA service-credit-as-sole-remedy language, and the 99.9% x 99.9% ≈ 99.8% composed-availability math) against primary/authoritative sources rather than recall. No wrong keys, no genuinely defensible second options, and no fabricated specifics found; only one low-severity wording imprecision worth tightening."
+}

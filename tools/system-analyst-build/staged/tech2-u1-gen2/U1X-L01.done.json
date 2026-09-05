@@ -1,0 +1,86 @@
+[
+ {
+  "id": "GEN-T2U1B-001",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A ReportManager class in a codebase has grown to include methods for formatting dates, validating email addresses, computing tax, and rendering PDF output — none of which depend on each other's data or on one another. Which design criterion is most directly violated here, and what does that criterion actually measure?",
+  "opts": {
+   "A": "Coupling — how much one module depends on the internal details of another module",
+   "B": "Cohesion — how closely the responsibilities within a single module relate to one another and operate on the module's own data",
+   "C": "Encapsulation — whether a class's data members are declared private",
+   "D": "Polymorphism — whether the class overrides functions inherited from a common base"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "ReportManager bundles four unrelated responsibilities that share no data, which is exactly what low cohesion means — a module should have a single, tightly related set of responsibilities. Coupling measures inter-module dependency, not what's wrong inside this one class, and nothing here indicates broken data hiding or misused polymorphism."
+ },
+ {
+  "id": "GEN-T2U1B-002",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "An abstract base class Printer declares pure virtual print(), scan(), and fax(). SimpleInkjetPrinter, which can only print, is forced to override scan() and fax(), and both overrides simply throw std::logic_error whenever called. Which principle is being violated, and what is the standard fix?",
+  "opts": {
+   "A": "Interface Segregation Principle — split Printer into narrower interfaces such as Printable, Scannable, and Faxable, and have SimpleInkjetPrinter implement only Printable",
+   "B": "Liskov Substitution Principle — keep the single Printer interface, but change scan() and fax() to silently do nothing instead of throwing",
+   "C": "Open/Closed Principle — modify Printer's print() implementation so it can be extended without changing SimpleInkjetPrinter",
+   "D": "Single Responsibility Principle — merge Printer and SimpleInkjetPrinter into one concrete, non-polymorphic class"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Forcing a class to implement operations it cannot support is the signature of a fat interface; the fix is to segregate Printer into role-specific interfaces so clients depend only on what they use. The Liskov-labelled option misnames the principle and its 'fix' — silently doing nothing when scan() is called is itself a Liskov violation, not a repair of one — and the Open/Closed and Single Responsibility options address problems this scenario doesn't describe."
+ },
+ {
+  "id": "GEN-T2U1B-003",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "class File { public: virtual void write(const std::string& data); }; is inherited publicly by class ReadOnlyFile : public File, which overrides write() to immediately throw std::runtime_error, since writing isn't meaningful for a read-only file. Existing code holding a File& calls write() expecting it to succeed except for genuine I/O failures such as a full disk. Which statement correctly frames the problem in terms of behavioural subtyping?",
+  "opts": {
+   "A": "There is no violation, because ReadOnlyFile is still syntactically a File, and every File member function remains callable with the identical signature",
+   "B": "This is purely an access-control problem, and declaring write() private in ReadOnlyFile would resolve it while keeping the inheritance public",
+   "C": "This is an Open/Closed Principle violation, because File had to be modified to accommodate ReadOnlyFile",
+   "D": "ReadOnlyFile strengthens the precondition write() offers its callers, since it now fails unconditionally for callers who did nothing wrong that existing File clients were never written to expect — a Liskov Substitution Principle violation"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Liskov substitutability is about the behavioural contract, not the signature: a subtype must not add failure conditions the base type never promised, and unconditional throwing does exactly that. Matching signatures is not matching behaviour, so there is a real violation; and declaring write() private in ReadOnlyFile would not even work in C++, since a call through a File& resolves access against the static type File and still dynamically dispatches to ReadOnlyFile's override regardless of its access specifier there. File itself was never modified, so this is not an Open/Closed issue."
+ },
+ {
+  "id": "GEN-T2U1B-004",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "During object-oriented analysis of a library system, the question arises: should Book or Loan be responsible for calculating whether a loan is overdue? Loan already stores dueDate; Book stores nothing about dates or loan status. Applying the principle that a responsibility should be assigned to the class holding the information needed to fulfil it, which class should own the calculation?",
+  "opts": {
+   "A": "Book, because responsibilities should always be centralised on the entity the system is fundamentally about",
+   "B": "Neither — the calculation belongs in a free function outside any class, since C++ permits functions independent of classes",
+   "C": "Loan, because it already holds the data — dueDate — that the calculation needs",
+   "D": "Whichever class is declared first in the header file, since C++ resolves ambiguous responsibility by declaration order"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "This is the Information Expert guideline for assigning responsibilities during OO analysis: give a responsibility to the class that already holds the data it needs, and only Loan holds dueDate. 'Centralise on the entity the system is about' is not a real design criterion, and declaration order has no bearing on responsibility assignment in C++ — both distractors invent rules that don't exist, and routing the calculation to a free function sidesteps the actual design question being asked."
+ },
+ {
+  "id": "GEN-T2U1B-005",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A CachingDataSource must reuse an existing DataSource's fetch(int id) by caching its results, but client code must not be able to call fetch() directly on a CachingDataSource and bypass the cache — only a getCached(int id) method should be exposed. Which relationship best achieves this, and why?",
+  "opts": {
+   "A": "Public inheritance from DataSource, because inheriting is always the most direct way to reuse another class's behaviour",
+   "B": "Composition, holding a private DataSource member and exposing only getCached(), which internally calls the held object's fetch() — delegation, because it lets CachingDataSource choose exactly which operations to expose",
+   "C": "Multiple inheritance from both DataSource and a separate caching mixin class, since more base classes means more reused code",
+   "D": "A friend declaration inside DataSource granting CachingDataSource access to fetch(), since friendship is the standard mechanism for reusing behaviour across unrelated classes"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Composition plus a forwarding member function — delegation — is what lets CachingDataSource keep fetch() out of its own public interface entirely while still reusing it internally. Public inheritance would make the inherited fetch() directly callable on a CachingDataSource, defeating the stated requirement; friendship only grants access and doesn't create or hide a public interface; and adding a mixin base class doesn't address exposure at all."
+ },
+ {
+  "id": "GEN-T2U1B-006",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "A pipeline processes one million Shape objects per frame. In version 1, shapes live as std::vector<Shape*> pointing to individually heap-allocated polymorphic objects (Circle, Square, ...), and computeArea() is a virtual function called once per shape. In version 2, the same data is held as parallel std::vector<float> arrays of just the numeric fields per shape kind, processed by ordinary loops with no virtual calls. Version 2 measurably outperforms version 1 on identical input. Which factor, beyond the virtual call's own dispatch overhead, most directly explains this?",
+  "opts": {
+   "A": "Version 1's heap-scattered objects and pointer indirection defeat cache locality and block compiler vectorisation of the loop, while version 2's contiguous flat arrays are cache-friendly and inlinable",
+   "B": "Version 1 is slower purely because a virtual call is resolved through a hash-table lookup at run time, which is inherently slower than indexing an array",
+   "C": "Version 2 is faster only because it declares fewer classes, and class count alone determines runtime performance in C++",
+   "D": "There is no meaningful difference; virtual dispatch and flat-array processing compile down to identical machine code, so any measured gap is measurement error"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "This is the real cost side of OOP: pointers to individually heap-allocated polymorphic objects scatter data across memory, generating cache misses and blocking the vectorisation that a flat, contiguous array of plain numbers allows. Virtual dispatch is resolved through a vtable pointer plus an offset, not a hash-table lookup, so that option is factually wrong, and the two versions demonstrably neither compile to the same code nor perform identically."
+ }
+]

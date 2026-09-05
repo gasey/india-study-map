@@ -1,0 +1,87 @@
+[
+ {
+  "id": "GEN-T2U1B-019",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Which of the following groups consists entirely of operators that C++ never permits any class to overload, however the class is written?",
+  "opts": {
+   "A": "new  delete  new[]  delete[]",
+   "B": ".  .*  ::  ?:  sizeof",
+   "C": "&&  ||  ,  !",
+   "D": "=  []  ()  ->"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "The dot, pointer-to-member, scope-resolution, conditional and sizeof operators are fixed by the core language grammar itself and never route through operator-function lookup, so no class can redefine them (typeid is excluded for the same reason). A is the trap: new, delete, new[] and delete[] are among the operators a class explicitly can overload, to control its own memory allocation. C and D both name operators that can be overloaded — and C's members are a different kind of limitation, not a ban: overloading && , || or the comma operator costs their built-in short-circuit and sequencing guarantees, though unary ! has no such guarantee to lose in the first place.",
+  "reviewFix": "Explanation narrowed. The key was right, but the rebuttal of group C asserted that it 'loses special evaluation-order behaviour when overloaded' as a property of all four operators listed. That holds for &&, || and the comma operator, which have built-in short-circuit or sequencing guarantees that vanish once overloaded, but not for unary !, which takes a single operand and has no such guarantee to begin with. The claim is now scoped to the three operators it is true of. Key B unchanged."
+ },
+ {
+  "id": "GEN-T2U1B-020",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "A class Flag overloads operator&& as a member function, so that a && b for two Flag objects calls that function. Which behaviour of the built-in && is lost as a result?",
+  "opts": {
+   "A": "Nothing is lost; the compiler still special-cases && so the second operand is skipped whenever overloading makes the first operand false",
+   "B": "The result type changes from bool to Flag, so && can no longer appear inside an if condition",
+   "C": "Overloading operator&& is rejected by the compiler, because && can never be given a class-type overload",
+   "D": "Short-circuit evaluation: the overload is an ordinary function call, so both arguments are evaluated with no guarantee that b is skipped when a is false"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Once operator&& is overloaded it is an ordinary function call, and C++ gives function arguments no evaluation-order or skip guarantee, so both a and b are evaluated even when a is false; the same loss of special behaviour applies to an overloaded || or comma operator. A is wrong because the built-in short-circuit special-casing applies only to the primitive-type form of &&, never to an overload. B and C invent effects (a changed result type, a rejected declaration) that the standard does not impose — a class-type && is legal, it is just no longer short-circuiting."
+ },
+ {
+  "id": "GEN-T2U1B-021",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "Overload resolution, overriding and hiding are three distinct mechanisms in C++ that are often confused with one another. Which statement correctly distinguishes them?",
+  "opts": {
+   "A": "Overload resolution picks among same-named functions with different parameter lists at compile time from the static types of the arguments; overriding replaces a virtual function's behaviour in a derived class for a matching signature and is dispatched at run time through the object's dynamic type; hiding occurs when a derived class declares a name that makes every base-class function of that name in that scope invisible to ordinary unqualified lookup, whether or not the signatures or virtual-ness match",
+   "B": "Overload resolution and overriding are the same mechanism applied respectively to non-virtual and virtual functions, while hiding is a compiler error that always stops the program from compiling",
+   "C": "Overriding is decided at compile time from the static type of the pointer or reference used to call it, while overload resolution and hiding both happen only at run time",
+   "D": "Hiding only happens when a derived class redeclares a function with a signature identical to a base class virtual function, which is also exactly what overriding requires"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The three operate on different axes — parameter-list matching at compile time for overload resolution, dynamic-type dispatch at run time for overriding, and plain name lookup (ignoring signature and virtual-ness) for hiding — and A states all three correctly. B wrongly collapses overriding into overload resolution and mischaracterises hiding as always an error, when unrelated base and derived overloads coexisting is perfectly legal C++ (just inconvenient). C reverses overriding's actual run-time dispatch. D is backwards: a matching signature on a virtual function is precisely what turns a would-be hiding declaration into an override instead of hiding it."
+ },
+ {
+  "id": "GEN-T2U1B-022",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "A class defines two member functions with bodies:\n\nvoid save(int x) const { /* A */ }\nvoid save(const int x) const { /* B */ }\n\nwhere the const in the second declaration qualifies the parameter x itself, not anything it points to or refers to. What happens when this class is compiled?",
+  "opts": {
+   "A": "It compiles, and save(5) calls whichever definition appears first in the class; the second definition is silently ignored",
+   "B": "It compiles and forms a valid overload pair, with the const version selected only when save is called through a const object",
+   "C": "It fails to compile: a top-level const on a pass-by-value parameter is not part of the function's parameter-type list, so both lines declare the exact same function, and giving that one function two separate bodies is a redefinition error",
+   "D": "It compiles, but calling save(5) is ambiguous and must be disambiguated with an explicit cast"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A const on a by-value parameter only stops the function body from reassigning its own local copy; it is invisible to callers and plays no part in the function's type, so int x and const int x describe one function, not two, and defining it twice is a redefinition error. B is the tempting mistake — const genuinely does distinguish overloads for a reference or pointer parameter (const T& versus T&), but never for a plain by-value one."
+ },
+ {
+  "id": "GEN-T2U1B-023",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "A Meters class has a non-explicit converting constructor from int and needs to support both m + 5 and 5 + m. operator+ is currently a member function, Meters operator+(const Meters& other) const. Why does this signature fail for 5 + m, and what is the fix?",
+  "opts": {
+   "A": "Nothing needs to change: the compiler automatically retries the reversed order on a member operator+ whenever the forward order fails to compile",
+   "B": "A member operator function's left operand is always the object it is called through, so 5 + m would require int to have a member operator+; making operator+ a free function, Meters operator+(const Meters&, const Meters&), lets the converting constructor apply to either argument and satisfies both orders",
+   "C": "The member function must instead be declared static, so that it no longer has an implicit first argument",
+   "D": "The fix is to add a second member overload, Meters operator+(int) const, inside the same class; that alone makes 5 + m compile"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "m.operator+(5) works for m + 5 because a member operator's left operand is fixed to the object it is invoked on, but there is no way to write 5.operator+(m) since int has no members — so 5 + m can only compile if operator+ is a free function, letting overload resolution apply Meters's converting constructor to whichever argument needs it. D fails because an added member operator+(int) still only fixes the m + 5 order; it does nothing for 5 + m, where m is not the left operand."
+ },
+ {
+  "id": "GEN-T2U1B-024",
+  "sub": "Polymorphism, function and operator overloading",
+  "q": "A Vector class defines Vector& operator+=(const Vector& rhs); as a member function and wants to implement operator+ in terms of it, without duplicating the addition logic. Which is the canonical way to define operator+ so that a + b leaves both a and b unchanged?",
+  "opts": {
+   "A": "Vector& operator+(const Vector& rhs) { *this += rhs; return *this; } written as a member function, so that a + b mutates a and returns a reference to it",
+   "B": "Vector& operator+(const Vector& lhs, const Vector& rhs) { lhs += rhs; return lhs; }, mutating and returning the caller's own lhs object directly",
+   "C": "Vector operator+(const Vector& lhs, const Vector& rhs) { return lhs += rhs; }, calling operator+= directly through the const reference",
+   "D": "Vector operator+(Vector lhs, const Vector& rhs) { lhs += rhs; return lhs; }, taking the left operand by value so it becomes a modifiable local copy that operator+= mutates and the function returns"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Taking the left-hand operand by value gives the function its own private copy, so lhs += rhs mutates only that copy, which is then returned; the caller's original a and b are untouched, exactly matching the value semantics expected of +. A is the classic bug hiding in plain sight: a member operator+ written as *this += rhs; return *this; silently mutates the left-hand operand of a + b, which no caller expects from +. B and C both try to call the non-const operator+= through a const Vector& parameter, which does not compile."
+ }
+]

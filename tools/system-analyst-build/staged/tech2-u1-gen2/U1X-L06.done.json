@@ -1,0 +1,86 @@
+[
+ {
+  "id": "GEN-T2U1B-031",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "A binary file store.dat holds fixed-size Record objects (assume sizeof(Record) exactly equals each record's on-disk size, with no padding) written back-to-back with no separators, and f is an already-open fstream on that file. Which call correctly positions the stream to read the 8th record (index 7, 0-based) directly, without reading any record before it?",
+  "opts": {
+   "A": "f.seekp(7 * sizeof(Record), ios::cur);",
+   "B": "f.seekg(7 * sizeof(Record), ios::beg);",
+   "C": "f.seekg(7, ios::beg);",
+   "D": "f.tellg(7 * sizeof(Record));"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "seekg(offset, ios::beg) with offset = 7 * sizeof(Record) computes the absolute byte position of the 8th record and moves the get pointer that reading uses; the tempting option C treats the record index itself as a byte offset and lands inside record 0 instead of at the start of record 7. Option A moves the wrong pointer (seekp is for writing) by a relative amount, and D is not a valid call — tellg takes no argument, it only reports the current position."
+ },
+ {
+  "id": "GEN-T2U1B-032",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Employee is a struct of fixed-size members with no pointers and no virtual functions, and emp is an Employee variable. Which call correctly reads sizeof(emp) bytes from an already-open binary ifstream f directly into emp, and why does it need reinterpret_cast rather than static_cast?",
+  "opts": {
+   "A": "f.read(static_cast<char*>(&emp), sizeof(emp));",
+   "B": "f.read(&emp, sizeof(emp));",
+   "C": "f >> emp;",
+   "D": "f.read(reinterpret_cast<char*>(&emp), sizeof(emp));"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "istream::read requires a char* destination, and Employee* is an unrelated pointer type with no implicit or static conversion path to char* — reinterpret_cast exists precisely to perform that low-level reinterpretation. Option A is the trap: static_cast only converts between related types (or through void*), so static_cast<char*>(&emp) is rejected by the compiler. Option B passes an Employee* where char* is required and fails to compile, and option C assumes an operator>> overload that a plain struct does not have."
+ },
+ {
+  "id": "GEN-T2U1B-033",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "Rec is defined as struct Rec { char data[10]; }; (size exactly 10, no padding). The file recs.bin is exactly 25 bytes long. What does this fragment print, and what is the resulting state of arr[2]?\n\nifstream f(\"recs.bin\", ios::binary);\nRec arr[3];\nf.read(reinterpret_cast<char*>(arr), sizeof(arr));\ncout << f.gcount() << ' ' << (f.gcount() / sizeof(Rec));",
+  "opts": {
+   "A": "25 2 — arr[0] and arr[1] are fully valid records; arr[2] has only its first 5 bytes overwritten from the file, and its remaining bytes are indeterminate.",
+   "B": "30 3 — the read succeeds because arr provides enough room for all three records.",
+   "C": "25 2 — but f.read() throws an exception because the file was shorter than requested, so this line never executes.",
+   "D": "0 0 — reading past the requested size fails immediately and no bytes are transferred."
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "f.gcount() reports the 25 bytes actually transferred before end-of-file, not the 30 requested, and 25 / sizeof(Rec) == 2 shows only arr[0] and arr[1] are complete; arr[2] ends up with its first 5 bytes overwritten and the rest indeterminate. Option C is the trap: istream::read never throws by default on a short read, it just sets eofbit and failbit, so execution reaches the cout line normally."
+ },
+ {
+  "id": "GEN-T2U1B-034",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "The input available to this program is the two lines \"30\" and \"Alice\" (i.e. the stream content is \"30\\nAlice\\n\"). What does it print?\n\nint age;\nstring name;\ncin >> age;\ngetline(cin, name);\ncout << '[' << name << ']';",
+  "opts": {
+   "A": "[Alice] — getline always skips a single leading newline left behind by a previous >> extraction.",
+   "B": "compile error — std::getline cannot be called on a stream that a previous operator>> has already extracted from.",
+   "C": "[] — the newline left in the buffer after cin >> age extracts 30 is exactly the delimiter getline is looking for, so getline returns immediately with an empty string and \"Alice\" is never read this way.",
+   "D": "[30] — cin >> age consumes the entire first line including its newline, so getline goes on to read \"Alice\"."
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "cin >> age stops right after the digits and leaves the trailing '\\n' sitting in the buffer; getline's default behaviour is to read up to and including its delimiter, and since that delimiter is the very next character, it returns an empty string without ever reaching \"Alice\". Option A is the trap — unlike >>, which skips leading whitespace before reading, getline does not skip a leading delimiter. The standard fix is an explicit cin.ignore(numeric_limits<streamsize>::max(), '\\n') between the two calls."
+ },
+ {
+  "id": "GEN-T2U1B-035",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "A hand-written parser calls int c = in.get(); to inspect the next character, then decides that character does not belong to the current token and must be the next one read again. Which single call correctly restores exactly that character to the stream?",
+  "opts": {
+   "A": "in.peek();",
+   "B": "in.putback(static_cast<char>(c));",
+   "C": "in.ignore();",
+   "D": "in.seekg(-1, ios::cur);"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "putback(c) works purely at the level of the stream's internal buffer, pushing the character back so the next extraction reads it again, regardless of what device the stream is attached to. Option D is the trap: seekg repositions by asking the underlying stream buffer to reposition its data source, which fails and sets failbit on a non-seekable source such as cin attached to a terminal or pipe. peek() only inspects whatever character now follows in the stream and changes nothing, and ignore() discards a character going forward rather than restoring one."
+ },
+ {
+  "id": "GEN-T2U1B-036",
+  "sub": "I/O streams and file handling in OOP",
+  "q": "A line read from a file is const std::string line = \"42,New Delhi,110001\"; holding an id, a place name that itself contains a space, and a pincode. Using std::istringstream iss(line), which sequence correctly recovers id as int, place as std::string with its internal space intact, and pin as std::string?",
+  "opts": {
+   "A": "int id; std::string place, pin; iss >> id >> place >> pin;",
+   "B": "int id; std::string place, pin; std::getline(iss, place); iss >> id >> pin;",
+   "C": "int id; std::string place, pin; std::getline(iss, place, ','); iss >> id >> pin;",
+   "D": "int id; iss >> id; iss.ignore(1, ','); std::string place; std::getline(iss, place, ','); std::string pin; iss >> pin;"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Reading id first, discarding exactly the following comma with ignore(1, ','), then bounding the next getline at the following ',' is what keeps the embedded space in \"New Delhi\" intact while still stopping cleanly before \"110001\". Option A is the trap: plain iss >> place stops only at whitespace, so it swallows the leading comma into place as \",New\" and leaves \"Delhi,110001\" for pin. Options B and C call getline before id is ever extracted, so they capture either the whole rest of the line or just \"42\" into place instead of the actual place name."
+ }
+]

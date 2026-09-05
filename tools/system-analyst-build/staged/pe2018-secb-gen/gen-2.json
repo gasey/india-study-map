@@ -1,0 +1,86 @@
+[
+  {
+    "sectionBNo": 3,
+    "sub": "Entity-Relationship modelling",
+    "q": "In the ER model, an attribute A of an entity type E with value set V is formally defined as a function. Which mapping does that definition use?",
+    "opts": {
+      "A": "A : V -> E, mapping each value in the value set to the entity that holds it",
+      "B": "A : E -> V, so that each entity of E is assigned exactly one value drawn from V",
+      "C": "A : E -> P(V), so that each entity of E is assigned a subset of V",
+      "D": "A : P(E) -> V, so that each subset of entities of E is assigned one value from V"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The standard formalisation is A : E -> P(V), mapping each entity to a subset of the value set, because that one form covers single-valued attributes (a singleton subset), multivalued attributes (a larger subset) and nulls (the empty set). The mapping E -> V is the tempting simplification, but it can only express an attribute that is single-valued and mandatory for every entity."
+  },
+  {
+    "sectionBNo": 3,
+    "sub": "Entity-Relationship modelling",
+    "q": "An entity type EMPLOYEE has an attribute Phones whose value set is the set of all 10-digit numeric strings. One employee has two phone numbers recorded. Which statement describes this correctly?",
+    "opts": {
+      "A": "Phones is multivalued; its value set is still every 10-digit string, and that employee's two numbers form a subset of it",
+      "B": "The value set of Phones for that employee is exactly the two numbers recorded, so each entity carries its own value set",
+      "C": "Phones must be split into Phone1 and Phone2, because an attribute may map an entity to at most one member of its value set",
+      "D": "The value set of Phones must be redeclared as the set of all sets of 10-digit strings before two numbers can be held"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A value set belongs to the attribute in the schema, not to an individual entity: it remains the set of all 10-digit strings, and any one employee's numbers are a subset of it. Reading the two recorded numbers as the value set confuses the attribute's value for one entity with the value set declared for the attribute."
+  },
+  {
+    "sectionBNo": 3,
+    "sub": "Entity-Relationship modelling",
+    "q": "An ER schema declares the attribute Marital_Status of entity type PERSON with the value set {single, married, divorced, widowed}. Which change alters the value set of Marital_Status rather than an attribute value of it?",
+    "opts": {
+      "A": "Correcting one person's Marital_Status from single to married",
+      "B": "Recording a Marital_Status for a person who previously had none",
+      "C": "Deleting the PERSON entity whose Marital_Status was widowed",
+      "D": "Permitting the attribute to take the further status separated"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The value set is the schema-level set of permitted values for an attribute, so extending which statuses are allowed changes it, whereas inserting, correcting or deleting individual statuses changes only attribute values. Correcting single to married is the tempting choice, but it merely selects a different member of the same unchanged value set."
+  },
+  {
+    "sectionBNo": 4,
+    "sub": "Entity-Relationship modelling",
+    "q": "In the standard ER diagram conventions used by Elmasri and Navathe, an attribute enclosed in a dashed (broken-line) ellipse denotes:",
+    "opts": {
+      "A": "A multivalued attribute",
+      "B": "A derived attribute",
+      "C": "The partial key of a weak entity type",
+      "D": "An attribute that belongs to a relationship type rather than an entity type"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A dashed ellipse marks a derived attribute, one whose value is computed from other stored data rather than stored itself, such as Age derived from Birth_date. A dashed line does also appear on a weak entity's partial key, but there it is a dashed underline beneath the attribute name inside an ordinary ellipse; a multivalued attribute is drawn as a double ellipse."
+  },
+  {
+    "sectionBNo": 4,
+    "sub": "Entity-Relationship modelling",
+    "q": "In an ER diagram, EMPLOYEE and DEPARTMENT are joined through a relationship WORKS_FOR, and the line from EMPLOYEE to the WORKS_FOR diamond is drawn as a double line. What does that double line convey?",
+    "opts": {
+      "A": "WORKS_FOR is an identifying relationship, so EMPLOYEE is a weak entity type",
+      "B": "An employee may be related to many departments through WORKS_FOR at the same time",
+      "C": "Participation of EMPLOYEE in WORKS_FOR is partial: an employee need not belong to any department",
+      "D": "Participation of EMPLOYEE in WORKS_FOR is total: every employee entity must be related to some department"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A double line between an entity type and a relationship diamond denotes total participation, also called existence dependency: no entity of that type may exist without taking part in the relationship. An identifying relationship is instead shown by a double diamond, and how many departments an employee may be linked to is carried by the cardinality ratio label (1, N or M), not by the doubled line."
+  },
+  {
+    "sectionBNo": 4,
+    "sub": "Entity-Relationship modelling",
+    "q": "An ER diagram is to show DEPENDENT as a weak entity type whose owner is EMPLOYEE, with Name as its partial key. Which combination of drawing conventions is correct?",
+    "opts": {
+      "A": "DEPENDENT in a double rectangle, the identifying relationship in a double diamond, and Name in a dashed ellipse",
+      "B": "DEPENDENT in a double rectangle, the identifying relationship in a double diamond, and Name underlined with a dashed line",
+      "C": "DEPENDENT in a double rectangle, the identifying relationship in a single diamond, and Name underlined with a solid line",
+      "D": "DEPENDENT in a rectangle with a dashed border, the identifying relationship in a double diamond, and none of its attributes underlined"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A weak entity type is drawn in a double rectangle, its identifying relationship in a double diamond, and its partial key is underlined with a dashed or dotted line. Putting Name in a dashed ellipse is the tempting error: the dashing belongs to the underline, and a dashed ellipse would instead declare the attribute derived."
+  }
+]

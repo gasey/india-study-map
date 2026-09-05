@@ -1,0 +1,387 @@
+[
+ {
+  "id": "GEN-PE2018-SB-001",
+  "sectionBNo": 1,
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "In a database system the complete description of the stored structure — file names, record layouts, data types and constraints — is held in the DBMS catalog rather than inside the application programs. In standard DBMS terminology, what is this property called?",
+  "opts": {
+   "A": "Logical data independence",
+   "B": "Controlled redundancy of stored data",
+   "C": "The self-describing nature of a database system",
+   "D": "Program-operation independence"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A database is called self-describing because the catalog stores the meta-data defining the database alongside the database itself, whereas a file-processing program hard-codes the same record description in its own source. Logical data independence is a different property — the ability to change the conceptual schema without disturbing external schemas — which the catalog enables but is not itself.",
+  "origin": "gen-1.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-002",
+  "sectionBNo": 1,
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "A large table is reorganised from an unordered heap file into a clustered B+-tree, and a secondary index is added. Applications that query the table need no source change and no recompilation. Which property of the database approach makes this possible?",
+  "opts": {
+   "A": "Physical data independence",
+   "B": "Logical data independence",
+   "C": "Atomicity of transactions",
+   "D": "Controlled redundancy of stored data"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Reorganising files and indexes alters only the internal schema, and physical data independence is precisely the capacity to change the internal schema while leaving the conceptual schema — and therefore the programs written against it — untouched. Logical data independence is the tempting neighbour, but it covers changes to the conceptual schema itself, such as adding or splitting a relation, not changes to how rows are stored.",
+  "origin": "gen-1.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-003",
+  "sectionBNo": 1,
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "Two departments must work from the same base tables, but each needs a different subset of the columns plus its own derived totals, and neither may see the other's columns. Which feature of the database approach meets this requirement without duplicating the base data?",
+  "opts": {
+   "A": "Assigning each department its own tablespace for the tables",
+   "B": "Defining a separate external view for each department over the shared base tables",
+   "C": "Maintaining a per-department copy of the tables, refreshed nightly",
+   "D": "Running each department's sessions at a stricter transaction isolation level"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Support for multiple views of the same data is a defining characteristic of the database approach: a view is a virtual relation derived from the base tables, so each department can be given exactly the columns and computed values it needs, with privileges granted on the view rather than on the tables. A per-department copy would expose the same columns but reintroduces exactly the duplicated, drift-prone data the database approach exists to eliminate.",
+  "origin": "gen-1.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-004",
+  "sectionBNo": 2,
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "An embedded instrument stores a small, fixed set of readings whose layout will never change, is read and written by exactly one program, and must meet hard real-time deadlines. Which is the strongest reason to keep direct file access instead of adopting a general-purpose DBMS?",
+  "opts": {
+   "A": "File-level access enforces integrity constraints more strictly than a DBMS can",
+   "B": "A DBMS cannot guarantee that a committed write has reached stable storage",
+   "C": "The DBMS's overhead for generality — concurrency control, recovery, query processing — buys nothing here",
+   "D": "A DBMS would force the stored layout to be normalised to at least third normal form"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The textbook case for staying with file processing is exactly this one: a single-user application over a simple, unchanging structure with real-time constraints, where the price a DBMS charges for generality is pure cost because nothing in the workload needs concurrency control, ad-hoc querying or recovery from multi-user conflicts. The durability claim is simply false — a DBMS forces a transaction's log records to stable storage before acknowledging commit, which is one of the things that costs it latency.",
+  "origin": "gen-1.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-005",
+  "sectionBNo": 2,
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "Five departments' separate file systems are consolidated into one centralised database. Which new risk does the consolidation itself introduce?",
+  "opts": {
+   "A": "Integrity constraints can no longer be expressed for one department's data alone",
+   "B": "One server failure now halts all five departments at once, raising the availability bar sharply",
+   "C": "Redundant storage of the commonly used data necessarily increases",
+   "D": "Query results stop being repeatable within a single transaction"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Centralisation concentrates the failure domain: an outage that previously cost one department its files now denies every department access, so a centralised DBMS has to be backed by far stronger availability engineering — replication, standby servers, tested restores — than the file systems it replaced. Option C reads plausibly but inverts the effect, since consolidation is what removes the duplicate copies each department used to keep.",
+  "origin": "gen-1.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-006",
+  "sectionBNo": 2,
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "q": "A shared corporate database serves fifteen applications. Compared with the private per-application files it replaced, why has altering a base table's definition become harder?",
+  "opts": {
+   "A": "A DBMS does not permit DDL statements to run while the database is online",
+   "B": "Every application must be recompiled whenever the table's physical storage layout changes",
+   "C": "A table's definition cannot be altered once the table contains rows",
+   "D": "The definition is shared by fifteen dependants, so the change must be coordinated across all of them"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Sharing is the database approach's central benefit and also the source of this cost: no application privately owns the data any more, so a schema change must be negotiated, scheduled and regression-tested against every dependant — organisational work that private files never required. Option B inverts physical data independence, which is exactly the insulation from storage-layout changes that a DBMS does provide.",
+  "origin": "gen-1.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-007",
+  "sectionBNo": 3,
+  "sub": "Entity-Relationship modelling",
+  "q": "In Elmasri and Navathe's formalisation of the ER model, an attribute A of an entity set E whose value set is V is defined as a function chosen so that one definition covers single-valued, multivalued and null-valued attributes alike. Which mapping is it?",
+  "opts": {
+   "A": "A : V -> E, mapping each value in the value set to the entity that holds it",
+   "B": "A : E -> V, so that each entity of E is assigned exactly one value drawn from V",
+   "C": "A : E -> P(V), so that each entity of E is assigned a subset of V",
+   "D": "A : P(E) -> V, so that each subset of entities of E is assigned one value from V"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Elmasri and Navathe define an attribute as A : E -> P(V), mapping each entity to a subset of the value set, because that single form covers single-valued attributes (a singleton subset), multivalued attributes (a larger subset) and nulls (the empty set). Option B, A : E -> V, is not a naive error — it is Chen's original 1976 definition and the one Silberschatz uses — but as a total function it can only express an attribute that is single-valued and mandatory for every entity, which is exactly why E&N generalise to the power set.",
+  "origin": "gen-2.json",
+  "reviewFix": "Stem and explanation both rewritten after review. Both adversarial reviewers flagged the original stem ('in the ER model...') as text-dependent: E&N give A : E -> P(V), while Chen 1976 and Silberschatz give A : E -> V, which is option B. A third reviewer then caught that the first stem fix left the explanation calling E -> P(V) 'the standard formalisation' unattributed and option B 'the tempting simplification' — which would teach a Silberschatz reader that their own textbook is wrong. The explanation now attributes both definitions. Options were never touched and the keyed letter is unchanged throughout. Also corrected 'entity type' -> 'entity set' (a function's domain is the set of instances, not the schema construct)."
+ },
+ {
+  "id": "GEN-PE2018-SB-008",
+  "sectionBNo": 3,
+  "sub": "Entity-Relationship modelling",
+  "q": "An entity type EMPLOYEE has an attribute Phones whose value set is the set of all 10-digit numeric strings. One employee has two phone numbers recorded. Which statement describes this correctly?",
+  "opts": {
+   "A": "Phones is multivalued; its value set is still every 10-digit string, and that employee's two numbers form a subset of it",
+   "B": "The value set of Phones for that employee is exactly the two numbers recorded, so each entity carries its own value set",
+   "C": "Phones must be split into Phone1 and Phone2, because an attribute may map an entity to at most one member of its value set",
+   "D": "The value set of Phones must be redeclared as the set of all sets of 10-digit strings before two numbers can be held"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A value set belongs to the attribute in the schema, not to an individual entity: it remains the set of all 10-digit strings, and any one employee's numbers are a subset of it. Reading the two recorded numbers as the value set confuses the attribute's value for one entity with the value set declared for the attribute.",
+  "origin": "gen-2.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-009",
+  "sectionBNo": 3,
+  "sub": "Entity-Relationship modelling",
+  "q": "An ER schema declares the attribute Marital_Status of entity type PERSON with the value set {single, married, divorced, widowed}. Which change alters the value set of Marital_Status rather than an attribute value of it?",
+  "opts": {
+   "A": "Correcting one person's Marital_Status from single to married",
+   "B": "Recording a Marital_Status for a person who previously had none",
+   "C": "Deleting the PERSON entity whose Marital_Status was widowed",
+   "D": "Permitting the attribute to take the further status separated"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The value set is the schema-level set of permitted values for an attribute, so extending which statuses are allowed changes it, whereas inserting, correcting or deleting individual statuses changes only attribute values. Correcting single to married is the tempting choice, but it merely selects a different member of the same unchanged value set.",
+  "origin": "gen-2.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-010",
+  "sectionBNo": 4,
+  "sub": "Entity-Relationship modelling",
+  "q": "In the standard ER diagram conventions used by Elmasri and Navathe, an attribute enclosed in a dashed (broken-line) ellipse denotes:",
+  "opts": {
+   "A": "A multivalued attribute",
+   "B": "A derived attribute",
+   "C": "The partial key of a weak entity type",
+   "D": "An attribute that belongs to a relationship type rather than an entity type"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A dashed ellipse marks a derived attribute, one whose value is computed from other stored data rather than stored itself, such as Age derived from Birth_date. A dashed line does also appear on a weak entity's partial key, but there it is a dashed underline beneath the attribute name inside an ordinary ellipse; a multivalued attribute is drawn as a double ellipse.",
+  "origin": "gen-2.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-011",
+  "sectionBNo": 4,
+  "sub": "Entity-Relationship modelling",
+  "q": "In an ER diagram, EMPLOYEE and DEPARTMENT are joined through a relationship WORKS_FOR, and the line from EMPLOYEE to the WORKS_FOR diamond is drawn as a double line. What does that double line convey?",
+  "opts": {
+   "A": "WORKS_FOR is an identifying relationship, so EMPLOYEE is a weak entity type",
+   "B": "An employee may be related to many departments through WORKS_FOR at the same time",
+   "C": "Participation of EMPLOYEE in WORKS_FOR is partial: an employee need not belong to any department",
+   "D": "Participation of EMPLOYEE in WORKS_FOR is total: every employee entity must be related to some department"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A double line between an entity type and a relationship diamond denotes total participation, also called existence dependency: no entity of that type may exist without taking part in the relationship. An identifying relationship is instead shown by a double diamond, and how many departments an employee may be linked to is carried by the cardinality ratio label (1, N or M), not by the doubled line.",
+  "origin": "gen-2.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-012",
+  "sectionBNo": 4,
+  "sub": "Entity-Relationship modelling",
+  "q": "An ER diagram is to show DEPENDENT as a weak entity type whose owner is EMPLOYEE, with Name as its partial key. Which combination of drawing conventions is correct?",
+  "opts": {
+   "A": "DEPENDENT in a double rectangle, the identifying relationship in a double diamond, and Name in a dashed ellipse",
+   "B": "DEPENDENT in a double rectangle, the identifying relationship in a double diamond, and Name underlined with a dashed line",
+   "C": "DEPENDENT in a double rectangle, the identifying relationship in a single diamond, and Name underlined with a solid line",
+   "D": "DEPENDENT in a rectangle with a dashed border, the identifying relationship in a double diamond, and none of its attributes underlined"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A weak entity type is drawn in a double rectangle, its identifying relationship in a double diamond, and its partial key is underlined with a dashed or dotted line. Putting Name in a dashed ellipse is the tempting error: the dashing belongs to the underline, and a dashed ellipse would instead declare the attribute derived.",
+  "origin": "gen-2.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-013",
+  "sectionBNo": 5,
+  "sub": "SQL and basic query statements",
+  "q": "Under the SQL standard's rules for updatable views, which one of the following view definitions permits an UPDATE issued against the view to be propagated to the underlying base table?",
+  "opts": {
+   "A": "CREATE VIEW v AS SELECT dno, COUNT(*) AS emp_count FROM employee GROUP BY dno",
+   "B": "CREATE VIEW v AS SELECT DISTINCT dno FROM employee",
+   "C": "CREATE VIEW v AS SELECT ssn, fname, salary FROM employee WHERE dno = 5",
+   "D": "CREATE VIEW v AS SELECT e.fname, d.dname FROM employee e, department d WHERE e.dno = d.dnumber"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Standard SQL treats a view as updatable only when it is defined over a single base table, without DISTINCT, GROUP BY or aggregate functions, and its columns are plain column references — which describes C alone. The join view in D is the tempting choice, but an update to one of its rows has no unambiguous single-tuple effect on either base table, so the standard does not admit it.",
+  "origin": "gen-3.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-014",
+  "sectionBNo": 5,
+  "sub": "SQL and basic query statements",
+  "q": "A view is created as: CREATE VIEW dept5 AS SELECT ssn, fname, dno FROM employee WHERE dno = 5 WITH CHECK OPTION. What does the WITH CHECK OPTION clause achieve?",
+  "opts": {
+   "A": "An INSERT or UPDATE issued through dept5 is rejected if the resulting row would not satisfy dno = 5",
+   "B": "The view becomes read-only, so no INSERT, UPDATE or DELETE may be issued through it at all",
+   "C": "The view's rows are materialised into a stored table that is refreshed whenever employee changes",
+   "D": "The system verifies at creation time that employee exists and that the view's creator holds SELECT on it"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "WITH CHECK OPTION makes the view's defining condition a constraint on modifications made through the view, so a row that would immediately vanish from the view (here, one with dno other than 5) cannot be inserted or updated into existence. It does not make the view read-only as B claims — the view stays updatable, and the clause only exists because modifications through it are permitted.",
+  "origin": "gen-3.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-015",
+  "sectionBNo": 5,
+  "sub": "SQL and basic query statements",
+  "q": "An account must be able to read only those rows of employee whose dno is 4, and nothing else in that table. SQL's relation-level privileges provide no clause for attaching a row condition to a grant. What is the standard way to enforce this restriction?",
+  "opts": {
+   "A": "Grant SELECT on employee and attach the condition WHERE dno = 4 to the GRANT statement",
+   "B": "Grant SELECT on only those individual columns of employee that the account needs to read",
+   "C": "Give the account the account-level CREATE VIEW privilege so that it defines its own filtered view",
+   "D": "Define a view that selects only the rows with dno = 4 and grant SELECT on that view instead of on employee"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A view is SQL's mechanism for content-based, row-level authorisation: the owner grants SELECT on the view rather than on the base table, so the account can never see rows that the view's WHERE clause excludes. Column-level grants as in B give only vertical granularity — they control which columns are visible, not which rows.",
+  "origin": "gen-3.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-016",
+  "sectionBNo": 6,
+  "sub": "Entity-Relationship modelling",
+  "q": "A binary relationship WORKS_FOR links EMPLOYEE and DEPARTMENT with cardinality ratio N:1 (many employees to one department), and every employee must be assigned to a department. Mapping this to a relational schema by the foreign key approach, without introducing an additional relation, gives:",
+  "opts": {
+   "A": "A foreign key in EMPLOYEE referencing the primary key of DEPARTMENT, declared NOT NULL",
+   "B": "A foreign key in DEPARTMENT referencing the primary key of EMPLOYEE, declared NOT NULL",
+   "C": "A foreign key in EMPLOYEE referencing DEPARTMENT that is allowed to be NULL",
+   "D": "The primary key of DEPARTMENT included as part of the primary key of EMPLOYEE"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "In the foreign key approach the key of the 1-side relation is placed in the relation on the N-side, so DEPARTMENT's key goes into EMPLOYEE; total participation of EMPLOYEE is then enforced by a NOT NULL constraint on that column. Allowing the column to be NULL, as in option C, would express partial participation and so lose the stated rule that every employee belongs to a department.",
+  "origin": "gen-4.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-017",
+  "sectionBNo": 6,
+  "sub": "Entity-Relationship modelling",
+  "q": "A ternary relationship SUPPLIES records that a given supplier supplied a given part to a given project. A designer proposes replacing it with three binary relationships: SUPPLIER-PART, PART-PROJECT and SUPPLIER-PROJECT. The main consequence of this change is that:",
+  "opts": {
+   "A": "Nothing is lost, because the three binary relationships together carry exactly the same information as the ternary one",
+   "B": "The cardinality ratios are preserved but the participation constraints of the ternary relationship can no longer be expressed",
+   "C": "Every (supplier, part, project) combination is still recorded, but descriptive attributes can no longer be attached to the relationship",
+   "D": "Information is lost, because the three binary relationships cannot record which supplier supplied which part to which project"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A ternary relationship asserts facts about triples, and decomposing it into three binaries records only the pairwise associations, from which the original triples generally cannot be reconstructed — a supplier linked to a part and to a project does not imply that supplier supplied that part to that project. Option A states the reverse of this well-known non-equivalence; the loss is of the triples themselves, not merely of constraints or relationship attributes.",
+  "origin": "gen-4.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-018",
+  "sectionBNo": 6,
+  "sub": "Entity-Relationship modelling",
+  "q": "An M:N binary relationship ENROLLED_IN between STUDENT and COURSE carries a descriptive attribute grade. In the resulting relational schema, grade is correctly placed:",
+  "opts": {
+   "A": "In the STUDENT relation, since the grade is earned by the student",
+   "B": "In the COURSE relation, since the grade is awarded by the course",
+   "C": "In a separate relation whose primary key is the combination of the STUDENT and COURSE primary keys",
+   "D": "As a multivalued attribute of STUDENT holding one grade for each course taken"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "An M:N relationship maps to its own relation whose key is the pair of participating primary keys, and a descriptive attribute of the relationship — one grade per (student, course) pair — belongs there. A multivalued attribute of STUDENT is not available in the relational model, and it would in any case not say which grade goes with which course.",
+  "origin": "gen-4.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-019",
+  "sectionBNo": 7,
+  "sub": "SQL and basic query statements",
+  "q": "In SQL's discretionary access control, privileges are assigned at two levels: the account level and the relation level. Which of the following is an account-level privilege?",
+  "opts": {
+   "A": "SELECT on the relation employee",
+   "B": "The CREATE SCHEMA privilege, which allows the holder to create new schemas in the database",
+   "C": "REFERENCES on the dno column of employee",
+   "D": "UPDATE on the salary column of employee"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Account-level privileges attach to the account itself and govern what the user may do independently of any particular relation — CREATE SCHEMA, CREATE TABLE, CREATE VIEW, ALTER and DROP among them. The other three are relation-level privileges, since each is meaningful only with respect to the named relation or column it is granted on.",
+  "origin": "gen-3.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-020",
+  "sectionBNo": 7,
+  "sub": "SQL and basic query statements",
+  "q": "A DBA executes GRANT SELECT ON employee TO A WITH GRANT OPTION. Account A then executes GRANT SELECT ON employee TO B. Which statement about B's resulting authorisation is correct?",
+  "opts": {
+   "A": "A's grant fails, because only the owner of a relation may grant privileges on that relation",
+   "B": "B may query employee and may in turn grant SELECT on it to further accounts",
+   "C": "B may query employee but may not grant SELECT on it to any other account",
+   "D": "B may query employee only for as long as A's own session remains open"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The grant option is not inherited automatically: A held it and could therefore pass the privilege on, but A's grant to B omitted WITH GRANT OPTION, so B receives only the right to use SELECT, not to propagate it. B's privilege is also not tied to A's session as D suggests — it persists until it is revoked.",
+  "origin": "gen-3.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-021",
+  "sectionBNo": 7,
+  "sub": "SQL and basic query statements",
+  "q": "A DBA grants SELECT on employee to A WITH GRANT OPTION, and A grants SELECT on employee to B, who holds no other grant of that privilege. The DBA then executes REVOKE SELECT ON employee FROM A CASCADE. What is the effect on B?",
+  "opts": {
+   "A": "B loses SELECT on employee too, because the privilege B held descended from A's now-revoked grant",
+   "B": "B keeps SELECT on employee, because the privilege was granted by A rather than by the DBA",
+   "C": "B keeps SELECT on employee, and the DBA must issue a separate REVOKE naming B to remove it",
+   "D": "The REVOKE is rejected, because A has already passed the privilege on to another account"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "CASCADE revokes the privilege from the named grantee and, transitively, from every account whose only grant of it descended from that grantee, so B's derived SELECT disappears along with A's. D describes the other drop behaviour, RESTRICT, which refuses the revoke precisely because dependent privileges exist.",
+  "origin": "gen-3.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-022",
+  "sectionBNo": 8,
+  "sub": "Concurrency control, locking and time stamping",
+  "q": "Transaction T1 currently holds a shared lock on data item Q. T2 then requests an exclusive lock on Q, and T3 requests a shared lock on Q. If the lock manager grants a request as soon as it is compatible with the locks already held, and applies no anti-starvation queuing policy, then:",
+  "opts": {
+   "A": "T2 is granted its lock and T3 must wait, because an exclusive request has priority",
+   "B": "Both T2 and T3 must wait until T1 releases its lock on Q",
+   "C": "T3 is granted a shared lock, while T2 waits until every shared lock on Q is released",
+   "D": "Both requests are granted, because lock conflicts are only checked when the transactions commit"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Shared locks are compatible with one another but not with an exclusive lock, so T3's shared request can be granted immediately while T2's exclusive request must wait for all readers to finish — which is precisely how a stream of shared requests can starve a writer. Exclusive requests carry no inherent priority in the compatibility matrix, so option A describes a scheduling policy rather than the matrix itself.",
+  "origin": "gen-4.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-023",
+  "sectionBNo": 8,
+  "sub": "Concurrency control, locking and time stamping",
+  "q": "Basic two-phase locking already guarantees conflict-serializable schedules. Strict 2PL additionally requires that a transaction hold all its exclusive locks until it commits or aborts. What does this extra requirement buy?",
+  "opts": {
+   "A": "Freedom from deadlock, since exclusive locks are never released early",
+   "B": "Cascadeless schedules, since no transaction can read or write an item written by an uncommitted transaction",
+   "C": "Freedom from starvation, since every waiting transaction is eventually granted its lock",
+   "D": "The ability to upgrade a shared lock to an exclusive lock, which basic 2PL forbids"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Holding write locks until commit means an uncommitted transaction's updates are unreadable by others, so no transaction can be forced to roll back because another one aborted — the schedule is recoverable and cascadeless. Strict 2PL does nothing about deadlock: two transactions can still each hold a lock the other needs, so option A is false and deadlock detection or prevention is still required.",
+  "origin": "gen-4.json"
+ },
+ {
+  "id": "GEN-PE2018-SB-024",
+  "sectionBNo": 8,
+  "sub": "Concurrency control, locking and time stamping",
+  "q": "In a two-phase locking protocol extended to permit lock conversion, when may a transaction convert its locks?",
+  "opts": {
+   "A": "An upgrade from shared to exclusive only during the growing phase; a downgrade from exclusive to shared only during the shrinking phase",
+   "B": "An upgrade from shared to exclusive only during the shrinking phase; a downgrade from exclusive to shared only during the growing phase",
+   "C": "Both upgrades and downgrades only during the growing phase, since any conversion acquires a new lock",
+   "D": "Both upgrades and downgrades only during the shrinking phase, since any conversion releases the previously held lock"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "An upgrade strengthens a lock and so counts as an acquisition, which 2PL confines to the growing phase, while a downgrade weakens a lock and so counts as a release, confined to the shrinking phase. Option C treats a downgrade as an acquisition; because it hands back privileges rather than taking them, placing it in the growing phase would violate the two-phase discipline.",
+  "origin": "gen-4.json"
+ }
+]

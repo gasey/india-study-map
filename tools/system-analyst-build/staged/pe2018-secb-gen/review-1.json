@@ -1,0 +1,194 @@
+[
+ {
+  "id": "GEN-PE2018-SB-001",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-002",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-003",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-004",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-005",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-006",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-007",
+  "verdict": "flag",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": "B — Chen's original 1976 ER paper formalises an attribute as a function from the entity set into a value set (E -> V); only Elmasri & Navathe use the power set P(V), and Silberschatz gives no function-based definition at all.",
+  "issue": "The stem says only 'in the ER model' and 'formally defined as a function', but the answer depends entirely on which text's formalisation is meant: E&N give A : E -> P(V) (the key), Chen gives E -> V (option B). The stem should name the E&N convention, or hint that the definition must accommodate multivalued and null-valued attributes."
+ },
+ {
+  "id": "GEN-PE2018-SB-008",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-009",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-010",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-011",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-012",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-013",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-014",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-015",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-016",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-017",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-018",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-019",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-020",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-021",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-022",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-023",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-024",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ }
+]

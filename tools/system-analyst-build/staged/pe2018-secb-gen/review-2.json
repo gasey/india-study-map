@@ -1,0 +1,194 @@
+[
+ {
+  "id": "GEN-PE2018-SB-001",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-002",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-003",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-004",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-005",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-006",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-007",
+  "verdict": "flag",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": "B — Silberschatz formalises an attribute as a function from the entity set into a domain (A : E -> V); only Elmasri & Navathe use the power-set form A : E -> P(V).",
+  "issue": "Textbook-convention dependent and the stem names no textbook (unlike SB-010, which does). The keyed C is right under Elmasri & Navathe — signalled only by the E&N-specific phrase 'value set' — but a candidate taught Silberschatz's definition would defend B, and 'formally defined as a function' does not by itself disambiguate."
+ },
+ {
+  "id": "GEN-PE2018-SB-008",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-009",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-010",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-011",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-012",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-013",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-014",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-015",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-016",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-017",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-018",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-019",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-020",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-021",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-022",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-023",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ },
+ {
+  "id": "GEN-PE2018-SB-024",
+  "verdict": "ok",
+  "keyCorrect": true,
+  "proposedAns": null,
+  "secondDefensible": null,
+  "issue": null
+ }
+]

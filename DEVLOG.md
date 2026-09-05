@@ -9,6 +9,110 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (night, later) — Section B, first pass: 24 authored practice MCQs instead of 20 fake past-paper ones, and an adversarial review wired in as a build dependency
+
+**What shipped.** `import_pe2018_secb_gen.py` + `staged/pe2018-secb-gen/` — 24
+**authored** practice MCQs (`src: 'generated'`) covering the on-syllabus topics
+of P&E Aug 2018 Paper III **Section B**. Bank 1921 → 1945 (1488 `past`, 377
+`generated`). The 20 Section B originals are untouched and are **not** imported.
+
+**Why authored questions rather than converted ones.** The previous entry left
+Section B as "the largest known gap in Paper III coverage" — 60 open-ended
+5-mark prompts across three papers, deferred because a descriptive question
+needs a model answer and `SOLVE_BRIEF.md` is written for MCQs. The tempting
+shortcut is to turn each prompt into an MCQ. **That is a known defect in this
+bank, not a shortcut.** Earlier the same day, `MES2023_P1_B020` was *removed*
+(3e88b90) for exactly this: an import route had lifted a five-part exercise's
+parts into options A–E, keyed it `A`, and left a truncated stem, so a five-part
+question taught a one-letter answer. "Explain locking techniques for concurrency
+control" has no correct letter, and inventing one produces a card that is wrong
+in a way no checker can see. So these 24 are standalone questions *about the
+concepts each prompt examines*, each with one defensible answer — and they are
+labelled as authored, not as MPSC questions.
+
+**They cannot masquerade as past-paper questions, and that is enforced by the
+app rather than by convention.** Past Papers groups only `src === 'past'`
+(`app.js` ~1229), and any non-`past` record renders a **"practice" pill** in
+place of a sitting name (~2196). `sitting` on a generated record is only a
+filter-dropdown label, sorted after real papers, so it was set to the descriptive
+`Authored practice — P&E Aug 2018 Paper III, Section B topics` — traceable back
+to the source topics without being readable as a paper that exists.
+
+**Scope: 8 of the 20 Section B questions.** Q1–Q8 are on the 2026 syllabus (all
+TECH2 Unit 3 DBMS); Q9–Q14 are data communications and Q15–Q20 software
+engineering, neither of which the 2026 syllabus contains. Q19 — *"What is the
+importance of data dictionary?"* — is excluded as a **judgement call**, read as
+the systems-analysis artefact given that Q15–Q20 are uniformly software
+engineering, rather than as the DBMS system catalogue. It is recorded as a
+judgement rather than a fact because if the reading is ever revised it is a ninth
+topic. 3 MCQs per source topic = 24; answer letters spread A6/B6/C7/D5.
+
+**Why the review mattered more here than on any import so far.** A past-paper
+import can be diffed against the printed paper. **Authored content has no source
+of truth at all** — if the author is wrong, nothing downstream disagrees. So the
+24 went to **two adversarial reviewers working blind**, each told to try to
+refute every item (wrong key, a second defensible option, an underspecified stem,
+an accidentally-true distractor, an explanation contradicting its own key) and to
+default to flagging when unsure. One was additionally handed a targeted warning
+list, including that 2PL does not prevent deadlock.
+
+They converged exactly: **both flagged the same single item and nothing else,
+neither found a wrong key anywhere, and both proposed the same fix.**
+
+**The one flag, and the fix that needed fixing.** `GEN-PE2018-SB-007` asked for
+"attribute as a function" in the ER model. That is text-dependent: Elmasri &
+Navathe give `A : E → P(V)` (the keyed option C), while **Chen 1976 and
+Silberschatz give `A : E → V`, which is option B**. The stem named no textbook,
+so both were defensible. `GENERATE_BRIEF` rule 3 leaves no room to ship that
+hedged, so the stem was fixed to name E&N.
+
+A **third reviewer, blind to the original**, then caught that the fix was
+incomplete in the more dangerous direction: the *explanation* still called
+`E → P(V)` "the standard formalisation" unattributed and dismissed option B as
+"the tempting simplification" — which would have told a Silberschatz reader that
+their own textbook was a naive error. The explanation now attributes both
+definitions and says why E&N generalise. **Options were never touched and the
+keyed letter never changed at any point.** (`entity type` → `entity set` was
+corrected in the same pass: a function's domain is the set of instances.)
+
+**The review is a build dependency, not a note.** An adversarial pass whose
+findings can be ignored silently is theatre, so the importer **refuses to import
+while any reviewer flag lacks a recorded `reviewFix` on the question it flagged**.
+Both guards were confirmed by fault injection rather than assumed: delete the
+review files and the import fails; add an unresolved flag and the import fails.
+
+**Verified in the app.** Consistency check clean — 44 records added (20 past +
+24 generated), nothing removed or modified, no new warnings. Past Papers renders
+**23 cards, none of them the authored set**, and August 2018 still shows exactly
+two papers. The new bank is selectable in the filter, and a generated question
+renders with the **"practice" pill and no paper attribution**. Console clean.
+
+One self-inflicted scare worth recording: a page-text check reported
+`hasOfficialKeyBadge: true`. The regex was naive — it had matched the substring
+"official key" inside the provenance's own *"no official key"*. Testing the badge
+elements instead showed the real badges are `practice` and
+`derived · high confidence`, and `provLine()`'s negation had handled the phrasing
+correctly all along. The lesson is the one already in CLAUDE.md about that helper:
+**test that a key exists, not that the word appears.**
+
+**What's still open.**
+- **40 Section B questions remain**, across MES Nov 2015 and MES P&E Jul 2023.
+  This pass establishes the route; those papers are not imported yet.
+- The other **12 of this paper's 20** are off-syllabus, so they are deliberately
+  not covered — not a gap, but don't re-derive that next session.
+- Q19's exclusion is a reading, not a fact. If "data dictionary" is ever read as
+  the DBMS catalogue, it is a ninth topic and 3 more questions.
+- **All 24 self-rate `conf: 'high'`.** No authored question rated itself lower,
+  which is plausible for material written to be answerable but is exactly the
+  pattern `SOLVE_BRIEF.md` warns about as confidence inflation. The adversarial
+  pass is the counterweight; if a future authoring batch also comes back 100%
+  high, treat that as a signal about the rating step, not about the questions.
+- No screenshot — the Browser pane's screenshot action timed out again, as in the
+  previous two sessions, while JS, `read_page` and the console all worked.
+  Verification was textual.
+
+---
+
 ## 2026-09-05 (night) — Paper III #3 (P&E Aug 2018): the "five Section B sets" scare was a doc bug, the lower-of-two rule is now executable, and this import split one sitting into two before the browser caught it
 
 **What shipped.**

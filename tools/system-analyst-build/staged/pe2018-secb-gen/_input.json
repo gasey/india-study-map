@@ -1,0 +1,49 @@
+{
+  "provenanceNote": "Source Section B questions are the on-syllabus subset of MES P&E August 2018 CSE Paper III, Section B (20 short-answer questions, 5 marks each). Q9-Q14 (data communications) and Q15-Q20 (software engineering) are off the 2026 syllabus and are excluded. Q19 ('importance of data dictionary') is excluded as a judgement call: read as the systems-analysis artefact given that Q15-Q20 are all software engineering, not as the DBMS system catalogue.",
+  "paper": "TECH2",
+  "unit": "3",
+  "unitTitle": "Database Management Systems",
+  "perTarget": 3,
+  "targets": [
+    {
+      "sectionBNo": 1,
+      "sourceQuestion": "What are the characteristics of a data in a database?",
+      "sub": "Database system concepts, architecture, interfaces and data independence"
+    },
+    {
+      "sectionBNo": 2,
+      "sourceQuestion": "What are the disadvantages of database system? Explain them briefly.",
+      "sub": "Database system concepts, architecture, interfaces and data independence"
+    },
+    {
+      "sectionBNo": 3,
+      "sourceQuestion": "Explain the difference between an attribute and value set.",
+      "sub": "Entity-Relationship modelling"
+    },
+    {
+      "sectionBNo": 4,
+      "sourceQuestion": "Discuss the conventions for displaying an ER schema as an ER diagram.",
+      "sub": "Entity-Relationship modelling"
+    },
+    {
+      "sectionBNo": 5,
+      "sourceQuestion": "What is the significance of views in SQL? Give SQL statement to update data.",
+      "sub": "SQL and basic query statements"
+    },
+    {
+      "sectionBNo": 6,
+      "sourceQuestion": "What are the different types of relations between the entities in a table?",
+      "sub": "Entity-Relationship modelling"
+    },
+    {
+      "sectionBNo": 7,
+      "sourceQuestion": "Discuss the types of privileges at the account level and at the relational level.",
+      "sub": "SQL and basic query statements"
+    },
+    {
+      "sectionBNo": 8,
+      "sourceQuestion": "Explain locking techniques for concurrency control.",
+      "sub": "Concurrency control, locking and time stamping"
+    }
+  ]
+}

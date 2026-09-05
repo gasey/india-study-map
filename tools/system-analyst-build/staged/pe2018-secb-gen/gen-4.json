@@ -1,0 +1,86 @@
+[
+  {
+    "sectionBNo": 6,
+    "sub": "Entity-Relationship modelling",
+    "q": "A binary relationship WORKS_FOR links EMPLOYEE and DEPARTMENT with cardinality ratio N:1 (many employees to one department), and every employee must be assigned to a department. Mapping this to a relational schema by the foreign key approach, without introducing an additional relation, gives:",
+    "opts": {
+      "A": "A foreign key in EMPLOYEE referencing the primary key of DEPARTMENT, declared NOT NULL",
+      "B": "A foreign key in DEPARTMENT referencing the primary key of EMPLOYEE, declared NOT NULL",
+      "C": "A foreign key in EMPLOYEE referencing DEPARTMENT that is allowed to be NULL",
+      "D": "The primary key of DEPARTMENT included as part of the primary key of EMPLOYEE"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "In the foreign key approach the key of the 1-side relation is placed in the relation on the N-side, so DEPARTMENT's key goes into EMPLOYEE; total participation of EMPLOYEE is then enforced by a NOT NULL constraint on that column. Allowing the column to be NULL, as in option C, would express partial participation and so lose the stated rule that every employee belongs to a department."
+  },
+  {
+    "sectionBNo": 6,
+    "sub": "Entity-Relationship modelling",
+    "q": "A ternary relationship SUPPLIES records that a given supplier supplied a given part to a given project. A designer proposes replacing it with three binary relationships: SUPPLIER-PART, PART-PROJECT and SUPPLIER-PROJECT. The main consequence of this change is that:",
+    "opts": {
+      "A": "Nothing is lost, because the three binary relationships together carry exactly the same information as the ternary one",
+      "B": "The cardinality ratios are preserved but the participation constraints of the ternary relationship can no longer be expressed",
+      "C": "Every (supplier, part, project) combination is still recorded, but descriptive attributes can no longer be attached to the relationship",
+      "D": "Information is lost, because the three binary relationships cannot record which supplier supplied which part to which project"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A ternary relationship asserts facts about triples, and decomposing it into three binaries records only the pairwise associations, from which the original triples generally cannot be reconstructed — a supplier linked to a part and to a project does not imply that supplier supplied that part to that project. Option A states the reverse of this well-known non-equivalence; the loss is of the triples themselves, not merely of constraints or relationship attributes."
+  },
+  {
+    "sectionBNo": 6,
+    "sub": "Entity-Relationship modelling",
+    "q": "An M:N binary relationship ENROLLED_IN between STUDENT and COURSE carries a descriptive attribute grade. In the resulting relational schema, grade is correctly placed:",
+    "opts": {
+      "A": "In the STUDENT relation, since the grade is earned by the student",
+      "B": "In the COURSE relation, since the grade is awarded by the course",
+      "C": "In a separate relation whose primary key is the combination of the STUDENT and COURSE primary keys",
+      "D": "As a multivalued attribute of STUDENT holding one grade for each course taken"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An M:N relationship maps to its own relation whose key is the pair of participating primary keys, and a descriptive attribute of the relationship — one grade per (student, course) pair — belongs there. A multivalued attribute of STUDENT is not available in the relational model, and it would in any case not say which grade goes with which course."
+  },
+  {
+    "sectionBNo": 8,
+    "sub": "Concurrency control, locking and time stamping",
+    "q": "Transaction T1 currently holds a shared lock on data item Q. T2 then requests an exclusive lock on Q, and T3 requests a shared lock on Q. If the lock manager grants a request as soon as it is compatible with the locks already held, and applies no anti-starvation queuing policy, then:",
+    "opts": {
+      "A": "T2 is granted its lock and T3 must wait, because an exclusive request has priority",
+      "B": "Both T2 and T3 must wait until T1 releases its lock on Q",
+      "C": "T3 is granted a shared lock, while T2 waits until every shared lock on Q is released",
+      "D": "Both requests are granted, because lock conflicts are only checked when the transactions commit"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Shared locks are compatible with one another but not with an exclusive lock, so T3's shared request can be granted immediately while T2's exclusive request must wait for all readers to finish — which is precisely how a stream of shared requests can starve a writer. Exclusive requests carry no inherent priority in the compatibility matrix, so option A describes a scheduling policy rather than the matrix itself."
+  },
+  {
+    "sectionBNo": 8,
+    "sub": "Concurrency control, locking and time stamping",
+    "q": "Basic two-phase locking already guarantees conflict-serializable schedules. Strict 2PL additionally requires that a transaction hold all its exclusive locks until it commits or aborts. What does this extra requirement buy?",
+    "opts": {
+      "A": "Freedom from deadlock, since exclusive locks are never released early",
+      "B": "Cascadeless schedules, since no transaction can read or write an item written by an uncommitted transaction",
+      "C": "Freedom from starvation, since every waiting transaction is eventually granted its lock",
+      "D": "The ability to upgrade a shared lock to an exclusive lock, which basic 2PL forbids"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Holding write locks until commit means an uncommitted transaction's updates are unreadable by others, so no transaction can be forced to roll back because another one aborted — the schedule is recoverable and cascadeless. Strict 2PL does nothing about deadlock: two transactions can still each hold a lock the other needs, so option A is false and deadlock detection or prevention is still required."
+  },
+  {
+    "sectionBNo": 8,
+    "sub": "Concurrency control, locking and time stamping",
+    "q": "In a two-phase locking protocol extended to permit lock conversion, when may a transaction convert its locks?",
+    "opts": {
+      "A": "An upgrade from shared to exclusive only during the growing phase; a downgrade from exclusive to shared only during the shrinking phase",
+      "B": "An upgrade from shared to exclusive only during the shrinking phase; a downgrade from exclusive to shared only during the growing phase",
+      "C": "Both upgrades and downgrades only during the growing phase, since any conversion acquires a new lock",
+      "D": "Both upgrades and downgrades only during the shrinking phase, since any conversion releases the previously held lock"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An upgrade strengthens a lock and so counts as an acquisition, which 2PL confines to the growing phase, while a downgrade weakens a lock and so counts as a release, confined to the shrinking phase. Option C treats a downgrade as an acquisition; because it hands back privileges rather than taking them, placing it in the growing phase would violate the two-phase discipline."
+  }
+]

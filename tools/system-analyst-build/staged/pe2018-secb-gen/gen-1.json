@@ -1,0 +1,86 @@
+[
+  {
+    "sectionBNo": 1,
+    "sub": "Database system concepts, architecture, interfaces and data independence",
+    "q": "In a database system the complete description of the stored structure — file names, record layouts, data types and constraints — is held in the DBMS catalog rather than inside the application programs. In standard DBMS terminology, what is this property called?",
+    "opts": {
+      "A": "Logical data independence",
+      "B": "Controlled redundancy of stored data",
+      "C": "The self-describing nature of a database system",
+      "D": "Program-operation independence"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A database is called self-describing because the catalog stores the meta-data defining the database alongside the database itself, whereas a file-processing program hard-codes the same record description in its own source. Logical data independence is a different property — the ability to change the conceptual schema without disturbing external schemas — which the catalog enables but is not itself."
+  },
+  {
+    "sectionBNo": 1,
+    "sub": "Database system concepts, architecture, interfaces and data independence",
+    "q": "A large table is reorganised from an unordered heap file into a clustered B+-tree, and a secondary index is added. Applications that query the table need no source change and no recompilation. Which property of the database approach makes this possible?",
+    "opts": {
+      "A": "Physical data independence",
+      "B": "Logical data independence",
+      "C": "Atomicity of transactions",
+      "D": "Controlled redundancy of stored data"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Reorganising files and indexes alters only the internal schema, and physical data independence is precisely the capacity to change the internal schema while leaving the conceptual schema — and therefore the programs written against it — untouched. Logical data independence is the tempting neighbour, but it covers changes to the conceptual schema itself, such as adding or splitting a relation, not changes to how rows are stored."
+  },
+  {
+    "sectionBNo": 1,
+    "sub": "Database system concepts, architecture, interfaces and data independence",
+    "q": "Two departments must work from the same base tables, but each needs a different subset of the columns plus its own derived totals, and neither may see the other's columns. Which feature of the database approach meets this requirement without duplicating the base data?",
+    "opts": {
+      "A": "Assigning each department its own tablespace for the tables",
+      "B": "Defining a separate external view for each department over the shared base tables",
+      "C": "Maintaining a per-department copy of the tables, refreshed nightly",
+      "D": "Running each department's sessions at a stricter transaction isolation level"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Support for multiple views of the same data is a defining characteristic of the database approach: a view is a virtual relation derived from the base tables, so each department can be given exactly the columns and computed values it needs, with privileges granted on the view rather than on the tables. A per-department copy would expose the same columns but reintroduces exactly the duplicated, drift-prone data the database approach exists to eliminate."
+  },
+  {
+    "sectionBNo": 2,
+    "sub": "Database system concepts, architecture, interfaces and data independence",
+    "q": "An embedded instrument stores a small, fixed set of readings whose layout will never change, is read and written by exactly one program, and must meet hard real-time deadlines. Which is the strongest reason to keep direct file access instead of adopting a general-purpose DBMS?",
+    "opts": {
+      "A": "File-level access enforces integrity constraints more strictly than a DBMS can",
+      "B": "A DBMS cannot guarantee that a committed write has reached stable storage",
+      "C": "The DBMS's overhead for generality — concurrency control, recovery, query processing — buys nothing here",
+      "D": "A DBMS would force the stored layout to be normalised to at least third normal form"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The textbook case for staying with file processing is exactly this one: a single-user application over a simple, unchanging structure with real-time constraints, where the price a DBMS charges for generality is pure cost because nothing in the workload needs concurrency control, ad-hoc querying or recovery from multi-user conflicts. The durability claim is simply false — a DBMS forces a transaction's log records to stable storage before acknowledging commit, which is one of the things that costs it latency."
+  },
+  {
+    "sectionBNo": 2,
+    "sub": "Database system concepts, architecture, interfaces and data independence",
+    "q": "Five departments' separate file systems are consolidated into one centralised database. Which new risk does the consolidation itself introduce?",
+    "opts": {
+      "A": "Integrity constraints can no longer be expressed for one department's data alone",
+      "B": "One server failure now halts all five departments at once, raising the availability bar sharply",
+      "C": "Redundant storage of the commonly used data necessarily increases",
+      "D": "Query results stop being repeatable within a single transaction"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Centralisation concentrates the failure domain: an outage that previously cost one department its files now denies every department access, so a centralised DBMS has to be backed by far stronger availability engineering — replication, standby servers, tested restores — than the file systems it replaced. Option C reads plausibly but inverts the effect, since consolidation is what removes the duplicate copies each department used to keep."
+  },
+  {
+    "sectionBNo": 2,
+    "sub": "Database system concepts, architecture, interfaces and data independence",
+    "q": "A shared corporate database serves fifteen applications. Compared with the private per-application files it replaced, why has altering a base table's definition become harder?",
+    "opts": {
+      "A": "A DBMS does not permit DDL statements to run while the database is online",
+      "B": "Every application must be recompiled whenever the table's physical storage layout changes",
+      "C": "A table's definition cannot be altered once the table contains rows",
+      "D": "The definition is shared by fifteen dependants, so the change must be coordinated across all of them"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Sharing is the database approach's central benefit and also the source of this cost: no application privately owns the data any more, so a schema change must be negotiated, scheduled and regression-tested against every dependant — organisational work that private files never required. Option B inverts physical data independence, which is exactly the insulation from storage-layout changes that a DBMS does provide."
+  }
+]

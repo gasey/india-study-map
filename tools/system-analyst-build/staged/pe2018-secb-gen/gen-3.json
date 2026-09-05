@@ -1,0 +1,86 @@
+[
+  {
+    "sectionBNo": 5,
+    "sub": "SQL and basic query statements",
+    "q": "Under the SQL standard's rules for updatable views, which one of the following view definitions permits an UPDATE issued against the view to be propagated to the underlying base table?",
+    "opts": {
+      "A": "CREATE VIEW v AS SELECT dno, COUNT(*) AS emp_count FROM employee GROUP BY dno",
+      "B": "CREATE VIEW v AS SELECT DISTINCT dno FROM employee",
+      "C": "CREATE VIEW v AS SELECT ssn, fname, salary FROM employee WHERE dno = 5",
+      "D": "CREATE VIEW v AS SELECT e.fname, d.dname FROM employee e, department d WHERE e.dno = d.dnumber"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Standard SQL treats a view as updatable only when it is defined over a single base table, without DISTINCT, GROUP BY or aggregate functions, and its columns are plain column references — which describes C alone. The join view in D is the tempting choice, but an update to one of its rows has no unambiguous single-tuple effect on either base table, so the standard does not admit it."
+  },
+  {
+    "sectionBNo": 5,
+    "sub": "SQL and basic query statements",
+    "q": "A view is created as: CREATE VIEW dept5 AS SELECT ssn, fname, dno FROM employee WHERE dno = 5 WITH CHECK OPTION. What does the WITH CHECK OPTION clause achieve?",
+    "opts": {
+      "A": "An INSERT or UPDATE issued through dept5 is rejected if the resulting row would not satisfy dno = 5",
+      "B": "The view becomes read-only, so no INSERT, UPDATE or DELETE may be issued through it at all",
+      "C": "The view's rows are materialised into a stored table that is refreshed whenever employee changes",
+      "D": "The system verifies at creation time that employee exists and that the view's creator holds SELECT on it"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "WITH CHECK OPTION makes the view's defining condition a constraint on modifications made through the view, so a row that would immediately vanish from the view (here, one with dno other than 5) cannot be inserted or updated into existence. It does not make the view read-only as B claims — the view stays updatable, and the clause only exists because modifications through it are permitted."
+  },
+  {
+    "sectionBNo": 5,
+    "sub": "SQL and basic query statements",
+    "q": "An account must be able to read only those rows of employee whose dno is 4, and nothing else in that table. SQL's relation-level privileges provide no clause for attaching a row condition to a grant. What is the standard way to enforce this restriction?",
+    "opts": {
+      "A": "Grant SELECT on employee and attach the condition WHERE dno = 4 to the GRANT statement",
+      "B": "Grant SELECT on only those individual columns of employee that the account needs to read",
+      "C": "Give the account the account-level CREATE VIEW privilege so that it defines its own filtered view",
+      "D": "Define a view that selects only the rows with dno = 4 and grant SELECT on that view instead of on employee"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A view is SQL's mechanism for content-based, row-level authorisation: the owner grants SELECT on the view rather than on the base table, so the account can never see rows that the view's WHERE clause excludes. Column-level grants as in B give only vertical granularity — they control which columns are visible, not which rows."
+  },
+  {
+    "sectionBNo": 7,
+    "sub": "SQL and basic query statements",
+    "q": "In SQL's discretionary access control, privileges are assigned at two levels: the account level and the relation level. Which of the following is an account-level privilege?",
+    "opts": {
+      "A": "SELECT on the relation employee",
+      "B": "The CREATE SCHEMA privilege, which allows the holder to create new schemas in the database",
+      "C": "REFERENCES on the dno column of employee",
+      "D": "UPDATE on the salary column of employee"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Account-level privileges attach to the account itself and govern what the user may do independently of any particular relation — CREATE SCHEMA, CREATE TABLE, CREATE VIEW, ALTER and DROP among them. The other three are relation-level privileges, since each is meaningful only with respect to the named relation or column it is granted on."
+  },
+  {
+    "sectionBNo": 7,
+    "sub": "SQL and basic query statements",
+    "q": "A DBA executes GRANT SELECT ON employee TO A WITH GRANT OPTION. Account A then executes GRANT SELECT ON employee TO B. Which statement about B's resulting authorisation is correct?",
+    "opts": {
+      "A": "A's grant fails, because only the owner of a relation may grant privileges on that relation",
+      "B": "B may query employee and may in turn grant SELECT on it to further accounts",
+      "C": "B may query employee but may not grant SELECT on it to any other account",
+      "D": "B may query employee only for as long as A's own session remains open"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The grant option is not inherited automatically: A held it and could therefore pass the privilege on, but A's grant to B omitted WITH GRANT OPTION, so B receives only the right to use SELECT, not to propagate it. B's privilege is also not tied to A's session as D suggests — it persists until it is revoked."
+  },
+  {
+    "sectionBNo": 7,
+    "sub": "SQL and basic query statements",
+    "q": "A DBA grants SELECT on employee to A WITH GRANT OPTION, and A grants SELECT on employee to B, who holds no other grant of that privilege. The DBA then executes REVOKE SELECT ON employee FROM A CASCADE. What is the effect on B?",
+    "opts": {
+      "A": "B loses SELECT on employee too, because the privilege B held descended from A's now-revoked grant",
+      "B": "B keeps SELECT on employee, because the privilege was granted by A rather than by the DBA",
+      "C": "B keeps SELECT on employee, and the DBA must issue a separate REVOKE naming B to remove it",
+      "D": "The REVOKE is rejected, because A has already passed the privilege on to another account"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "CASCADE revokes the privilege from the named grantee and, transitively, from every account whose only grant of it descended from that grantee, so B's derived SELECT disappears along with A's. D describes the other drop behaviour, RESTRICT, which refuses the revoke precisely because dependent privileges exist."
+  }
+]

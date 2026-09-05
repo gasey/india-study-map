@@ -1,0 +1,110 @@
+[
+ {
+  "id": "ILM2023_P3_050",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "ICANN (Internet Corporation for Assigned Names and Numbers) coordinates the global domain name system and IP address allocation. NIC here is a network interface card (or a national registry), ISOC is the policy/education body behind the IETF, and the printed 'IEFE' is a misspelling of IETF, which writes protocol standards rather than managing names."
+ },
+ {
+  "id": "ILM2023_P3_055",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "The IN operator tests whether a value matches any member of an explicitly listed set of literals, e.g. WHERE dept IN ('CS','EE','ME'). BETWEEN compares against a continuous range rather than a list, LIKE does pattern matching on strings, and SQL has no COMPARE operator."
+ },
+ {
+  "id": "ILM2023_P3_056",
+  "answerIndex": 3,
+  "confidence": "medium",
+  "explanation": "A key must discriminate between rows, so any attribute that is identical for everyone (last name, pin code) carries zero distinguishing power, which also kills the last-name+pin-code compound. Only the compound including the first name varies across the list, so it is the only workable key of the four, even though strictly it distinguishes on the first name alone."
+ },
+ {
+  "id": "ILM2023_P3_057",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "In the arrow-based ER notation, specialization/generalization is drawn as a hollow (open) triangular arrow-head on the line running from the subclass up to the superclass, distinguishing it from ordinary relationship lines. Note that Silberschatz's main notation instead uses an ISA triangle, so this question is testing the alternative arrow convention; dashed and solid arrow-heads carry other meanings (weak/derived links and cardinality direction)."
+ },
+ {
+  "id": "ILM2023_P3_064",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "The classic data hierarchy runs bit to character to field to record to file to database, so a large collection of related files is a database. Records and fields sit below the file level, and sectors are a physical disk-storage unit, not a logical grouping of files."
+ },
+ {
+  "id": "ILM2023_P3_065",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "The recognised logical database structures are relational, hierarchical (tree) and network; 'chain' is not one of them, it merely names a pointer-linking technique used inside file organisations. Tree is simply the usual name for the hierarchical model, so it does not qualify as the odd one out."
+ },
+ {
+  "id": "ILM2023_P3_066",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Declarative constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL) are the preferred integrity mechanism because the DBMS enforces them automatically for every access path and can optimise around them. Triggers and stored procedures can enforce the same rules only procedurally, at higher cost and with more room for bugs, and cursors have nothing to do with integrity."
+ },
+ {
+  "id": "ILM2023_P3_073",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "The schema is the overall design of the database, the structure that stays fixed while the instance (the stored data) changes. DDL is only the language used to write the schema down, which is the trap here: the artefact defining the design is the schema, not the language that expresses it."
+ },
+ {
+  "id": "ILM2023_P3_074",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Mapping cardinality states how many entities of one set can associate with entities of another (1:1, 1:M, M:1, M:M), which is well defined only when exactly two entity sets are involved. Standard texts say plainly that mapping cardinalities are most useful in describing binary relationship sets; for relationships of higher degree the notion becomes ambiguous."
+ },
+ {
+  "id": "ILM2023_P3_075",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Data integrity is the property that stored data is accurate, complete and consistent over its lifetime. Data security is about protecting data from unauthorised access, data independence about insulating applications from schema changes, and a constraint is one of the tools used to enforce integrity rather than the property itself."
+ },
+ {
+  "id": "ILM2023_P3_082",
+  "answerIndex": 0,
+  "confidence": "medium",
+  "explanation": "Log-based recovery forces log records and data blocks out to stable storage, and every such output is an expensive disk write, so an efficient scheme keeps the number of writes to a minimum (this is exactly why checkpointing and deferred/immediate update schemes try to batch or postpone output). 'Maximum' would defeat the purpose, and dependent/independent describe no recognised efficiency criterion here."
+ },
+ {
+  "id": "ILM2023_P3_083",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "One student enrols in many courses and one course is taken by many students, so student-course enrolment is the textbook many-to-many relationship, which in a relational schema is resolved by an extra junction table holding the pair of keys."
+ },
+ {
+  "id": "ILM2023_P3_084",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Metadata is the description of the database structure itself, and it is produced when the DDL interpreter parses CREATE/ALTER statements and records the resulting definitions in the data dictionary. The DML compiler and its pre-processor only translate data-manipulation statements against a schema that already exists."
+ },
+ {
+  "id": "ILM2023_P3_087",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "HTTP's well-known port is 80 (HTTPS uses 443). Port 21 is FTP's control connection and 43 is WHOIS, both common distractors in this style of question."
+ },
+ {
+  "id": "ILM2023_P3_091",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Projection picks columns: it keeps the listed attributes from every tuple of the relation and discards the rest. Selection is the mirror-image operation that keeps whole rows satisfying a predicate, which is the usual confusion in this pair."
+ },
+ {
+  "id": "ILM2023_P3_092",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "An exclusive (X) lock grants full access, so the holder may both read and write the item, while all other transactions are locked out entirely. The trap is (d): exclusive mode does not forbid reading, it is the shared (S) lock that permits reading only."
+ },
+ {
+  "id": "ILM2023_P3_093",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "If the attribute closure under the given FDs yields every attribute of the relation, the set functionally determines the whole tuple, which is precisely the definition of a super key. It is only a candidate key if it is additionally minimal, i.e. no proper subset has the same full closure, so 'candidate key' is the classic over-claim here."
+ },
+ {
+  "id": "ILM2023_P3_100",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Aggregation is the ER abstraction that treats an entire relationship set as though it were a single higher-level entity, so it can itself participate in another relationship (e.g. a works-on relationship linked to a manages relationship). Generalization and specialization abstract over entity sets, not relationships."
+ }
+]

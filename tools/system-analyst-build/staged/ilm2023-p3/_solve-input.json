@@ -1,0 +1,398 @@
+[
+ {
+  "id": "ILM2023_P3_001",
+  "no": 1,
+  "question": "A property that describes various characteristics of entity",
+  "options": [
+   "ER Diagram",
+   "Column",
+   "Relationship",
+   "Attribute"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_002",
+  "no": 2,
+  "question": "Tree structures are used to store data in this model",
+  "options": [
+   "Network model",
+   "Relation model",
+   "Hierarchical model",
+   "File based system"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_003",
+  "no": 3,
+  "question": "This clause specifies the query result should be sorted in ascending or descending order based on the values of one or more columns",
+  "options": [
+   "View",
+   "Order by",
+   "Group by",
+   "Having"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_010",
+  "no": 10,
+  "question": "Fifth Normal form is concerned with",
+  "options": [
+   "Domain-key",
+   "Functional dependency",
+   "Multivalued dependency",
+   "Join dependency"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_011",
+  "no": 11,
+  "question": "When two or more users are waiting for data locked by each other, such situations are known to be",
+  "options": [
+   "Dead-lock",
+   "Object-lock",
+   "Resource-lock",
+   "Process-lock"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_012",
+  "no": 12,
+  "question": "Generating a set of relation schemas that allows storing information without unnecessary redundancy, is goal of",
+  "options": [
+   "Assertions",
+   "Associations",
+   "Normalization",
+   "Integration"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_020",
+  "no": 20,
+  "question": "If both the functional dependencies : X→Y and Y→X hold for two attributes X and Y then the relationship between X and Y is",
+  "options": [
+   "M:N",
+   "M:1",
+   "1:M",
+   "1:1"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_021",
+  "no": 21,
+  "question": "If α → β holds then so does",
+  "options": [
+   "γα → γβ",
+   "α → γβ",
+   "both (a) & (b)",
+   "None of the above"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_022",
+  "no": 22,
+  "question": "As per equivalence rules for query transformation, selection operation distributes over",
+  "options": [
+   "Union",
+   "Intersection",
+   "Set difference",
+   "All of the above"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_028",
+  "no": 28,
+  "question": "In 2NF",
+  "options": [
+   "No multivalued dependencies (MVDs) exist",
+   "No functional dependencies (FDs) exist",
+   "No partial MVDs exist",
+   "No partial FDs exist"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_029",
+  "no": 29,
+  "question": "Total participation in ER Diagram is represented by",
+  "options": [
+   "Double lines",
+   "Dashed lines",
+   "Single line",
+   "Triangle"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_030",
+  "no": 30,
+  "question": "Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock?\nI. Time-stamp ordering\nII. 2-phase locking",
+  "options": [
+   "I only",
+   "II only",
+   "Both I and II",
+   "Neither I nor III"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_031",
+  "no": 31,
+  "question": "Which of the following is false regarding ACID properties in DBMS?",
+  "options": [
+   "It can cause performance overhead",
+   "It decrease complexity of the system",
+   "It ensure data remains consistent",
+   "It can manage multiple transactions"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_038",
+  "no": 38,
+  "question": "While designing a database , the one guideline to be followed is",
+  "options": [
+   "It should avoid/reduce the redundancy",
+   "A database design may be ambiguous",
+   "Unrelated data should be in the same table so that updating the data will be easy",
+   "Data entity should not have attributes"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_039",
+  "no": 39,
+  "question": "The process of finding a good strategy for processing a query is called",
+  "options": [
+   "Query optimization",
+   "Query processing",
+   "Query management",
+   "Query cost"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_040",
+  "no": 40,
+  "question": "A second form of relational calculus, is known as",
+  "options": [
+   "Extended relational calculus",
+   "Tuple relational calculus",
+   "Domain relational calculus",
+   "Attribute relational calculus"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_047",
+  "no": 47,
+  "question": "The two files that are used during operation of the DBMS.",
+  "options": [
+   "Data dictionary and query language",
+   "Data dictionary and transaction log",
+   "Query languages and utilities",
+   "DML and query language"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_048",
+  "no": 48,
+  "question": "In tuple relational calculus P1 AND P2 is equivalent to",
+  "options": [
+   "(¬P1 OR ¬P2)",
+   "¬(¬P1 OR ¬P2)",
+   "¬(P1 OR ¬P2)",
+   "¬(¬P1 OR P2)"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_050",
+  "no": 50,
+  "question": "This is responsible for the management of Internet domain names and addresses",
+  "options": [
+   "NIC",
+   "ICANN",
+   "ISOC",
+   "IEFE"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_055",
+  "no": 55,
+  "question": "This operator is used to compare a value to a list of literals values that have been specified.",
+  "options": [
+   "COMPARE",
+   "BETWEEN",
+   "LIKE",
+   "IN"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_056",
+  "no": 56,
+  "question": "A list consists of last names, first names, addresses and pin codes. If all people in the list have the same last name and same pin code a useful key would be",
+  "options": [
+   "the pin code",
+   "the last name",
+   "the compound key last name and pin code",
+   "the compound key first name and last name"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_057",
+  "no": 57,
+  "question": "Specialization ,in an E-R diagram, is represented by a",
+  "options": [
+   "Dashed arrow-head",
+   "Double arrow-head",
+   "Hollow arrow-head",
+   "Solid arrow-head"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_064",
+  "no": 64,
+  "question": "Large collection of files are called",
+  "options": [
+   "Database",
+   "Records",
+   "Sectors",
+   "Fields"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_065",
+  "no": 65,
+  "question": "This is not a logical database structure",
+  "options": [
+   "Relational",
+   "Network",
+   "Chain",
+   "Tree"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_066",
+  "no": 66,
+  "question": "For enforcing data integrity, it is a preferred method",
+  "options": [
+   "Constraints",
+   "Triggers",
+   "Stored procedure",
+   "Cursors"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_073",
+  "no": 73,
+  "question": "It defines overall design of the database",
+  "options": [
+   "Code",
+   "Data definition language",
+   "Application program",
+   "Schema"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_074",
+  "no": 74,
+  "question": "Mapping cardinalities are useful in describing",
+  "options": [
+   "Unary relationships",
+   "Binary relationships",
+   "Composite relationships",
+   "Simple relationships"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_075",
+  "no": 75,
+  "question": "It refers to the correctness and completeness of the data in a database",
+  "options": [
+   "Data constraint",
+   "Data independence",
+   "Data integrity",
+   "Data security"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_082",
+  "no": 82,
+  "question": "Efficient implementation of a recovery scheme requires that the number of writes to be ________.",
+  "options": [
+   "Minimum",
+   "Maximum",
+   "Dependent",
+   "Independent"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_083",
+  "no": 83,
+  "question": "An relationship among students and courses is",
+  "options": [
+   "1:1 relationship",
+   "1:M relationship",
+   "M:1 relationship",
+   "M:M relationship"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_084",
+  "no": 84,
+  "question": "The metadata is created by",
+  "options": [
+   "Query interpreter",
+   "DDL interpreter",
+   "DML compiler",
+   "DML pre-processor"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_087",
+  "no": 87,
+  "question": "For HTTP, the webserver usually runs on port number",
+  "options": [
+   "21",
+   "40",
+   "43",
+   "80"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_091",
+  "no": 91,
+  "question": "Algebraic operation that outputs specified attributes from all rows of the input relation, is said to be",
+  "options": [
+   "Natural join",
+   "Union operation",
+   "Projection",
+   "Selection"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_092",
+  "no": 92,
+  "question": "If a transaction T has obtained an exclusive lock on item Q, then T can",
+  "options": [
+   "read Q",
+   "write Q",
+   "both read and write Q",
+   "write Q but not read Q"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_093",
+  "no": 93,
+  "question": "If the closure of an attribute set is the entire relation, then the attribute set is a",
+  "options": [
+   "super key",
+   "candidate key",
+   "primary key",
+   "not a key"
+  ]
+ },
+ {
+  "id": "ILM2023_P3_100",
+  "no": 100,
+  "question": "It is an abstraction through which relationships are treated as higher level entities",
+  "options": [
+   "Generalization",
+   "Specialization",
+   "Aggregation",
+   "Inheritance"
+  ]
+ }
+]

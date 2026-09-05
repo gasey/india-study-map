@@ -1,0 +1,182 @@
+[
+  {
+    "no": 21,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Database design, functional dependencies and normal forms",
+    "why": "Armstrong's augmentation axiom for functional dependencies (a -> b implies ya -> yb). Functional dependency inference rules sit in this leaf.",
+    "confidence": "high"
+  },
+  {
+    "no": 22,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Query processing and optimisation",
+    "why": "Equivalence rules for query transformation are the algebraic rewriting step of query optimisation.",
+    "confidence": "high"
+  },
+  {
+    "no": 23,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Transmission delay = packet length / transmission rate is a data-communications performance formula. Not web architecture; the 2026 syllabus contains no networking unit.",
+    "confidence": "high"
+  },
+  {
+    "no": 24,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "OSI/TCP-IP layer terminology (segments vs datagrams vs frames). Pure data communications, not HTTP/DNS/client-server web architecture.",
+    "confidence": "high"
+  },
+  {
+    "no": 25,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "NetWare protocol stack (IPX/SPX/NCP/NetBIOS) mapped onto OSI layers. Legacy LAN networking; no unit of TECH1 or TECH2 covers OSI layer protocols.",
+    "confidence": "high"
+  },
+  {
+    "no": 26,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "The four P's of software project management (People, Product, Process, Project). Software project management was dropped entirely from the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 27,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Prototyping process model from software engineering / systems analysis. No TECH1 or TECH2 unit covers SDLC process models.",
+    "confidence": "high"
+  },
+  {
+    "no": 28,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Database design, functional dependencies and normal forms",
+    "why": "Definition of second normal form (no partial functional dependencies). Squarely a normal-forms question.",
+    "confidence": "high"
+  },
+  {
+    "no": 29,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Entity-Relationship modelling",
+    "why": "ER diagram notation for total participation constraints.",
+    "confidence": "high"
+  },
+  {
+    "no": 30,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Concurrency control, locking and time stamping",
+    "why": "Compares timestamp ordering against two-phase locking on conflict serializability and deadlock freedom - exactly this leaf.",
+    "confidence": "high"
+  },
+  {
+    "no": 31,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Transaction processing, schedules and recoverability",
+    "why": "ACID properties are the defining guarantees of a database transaction.",
+    "confidence": "high"
+  },
+  {
+    "no": 32,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Unshielded twisted pair is a transmission medium - data communications cabling. Nothing in the 2026 syllabus covers transmission media.",
+    "confidence": "high"
+  },
+  {
+    "no": 33,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "IPv4 classful addressing (identifying a Class C address). Networking address arithmetic, explicitly outside the web-architecture leaf.",
+    "confidence": "high"
+  },
+  {
+    "no": 34,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Definition trivia about what constitutes a computer network. General networking fundamentals, not covered by any 2026 unit.",
+    "confidence": "high"
+  },
+  {
+    "no": 35,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software design principles from software engineering (design quality). The 2026 syllabus dropped software engineering entirely.",
+    "confidence": "high"
+  },
+  {
+    "no": 36,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "UML diagrams and DFDs used to build a system analysis model. Systems analysis and design / software engineering modelling, absent from the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 37,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Waterfall SDLC process model. Software engineering process models are not in TECH1 or TECH2.",
+    "confidence": "high"
+  },
+  {
+    "no": 38,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Database design, functional dependencies and normal forms",
+    "why": "Database design guidelines - avoiding redundancy, unambiguous schemas, keeping related data together. This is the informal-design-guidelines material that opens the design/normalisation topic.",
+    "confidence": "medium"
+  },
+  {
+    "no": 39,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Query processing and optimisation",
+    "why": "Definition of query optimisation as choosing a good execution strategy for a query.",
+    "confidence": "high"
+  },
+  {
+    "no": 40,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Tuple vs domain relational calculus - the formal query languages of the relational model. The leaf names tuples, domains and relational algebra; relational calculus is taught alongside them. Slight stretch since 'calculus' is not spelled out.",
+    "confidence": "medium"
+  }
+]

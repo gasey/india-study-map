@@ -1,0 +1,110 @@
+[
+ {
+  "id": "ILM2023_P3_050",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "ICANN (Internet Corporation for Assigned Names and Numbers) is the body that coordinates the global domain name system and IP address allocation, having taken over the IANA functions in 1998. ISOC is a policy/standards umbrella body and IETF (misprinted here as 'IEFE') writes protocol standards, neither of which administers names and addresses."
+ },
+ {
+  "id": "ILM2023_P3_055",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "The SQL IN operator tests a value against an explicitly written list of literals, as in WHERE dept IN ('Sales','HR','IT'). BETWEEN compares against a range endpoint pair, LIKE matches a pattern, and COMPARE is not an SQL operator."
+ },
+ {
+  "id": "ILM2023_P3_056",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "A key must take a different value for each record, so any attribute that is constant across the whole list (last name, pin code) carries no distinguishing power. Only the combination that includes first name can separate the rows, making the first-name-plus-last-name compound key the sole workable choice among the options."
+ },
+ {
+  "id": "ILM2023_P3_057",
+  "answerIndex": 2,
+  "confidence": "medium",
+  "explanation": "Specialization/generalization is drawn as an unfilled (hollow) triangular arrowhead whose point faces the higher-level, more general entity set — the 'ISA' triangle of Silberschatz and the same convention UML uses for generalization. The textbook name for the symbol is a triangle, which is not offered, so 'hollow arrow-head' is the option describing it."
+ },
+ {
+  "id": "ILM2023_P3_064",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "The storage hierarchy runs field to record to file to database, so a large collection of related files is a database. Records, sectors and fields all sit below the file level."
+ },
+ {
+  "id": "ILM2023_P3_065",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "The recognised logical data structures are relational, network and tree (hierarchical); 'chain' is a physical linkage technique for connecting records, not a logical database model."
+ },
+ {
+  "id": "ILM2023_P3_066",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Declarative constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL) are the preferred integrity mechanism because the DBMS enforces them itself on every path that touches the data, at lower cost than procedural code. Triggers and stored procedures are the fallback for rules constraints cannot express, and cursors have nothing to do with integrity."
+ },
+ {
+  "id": "ILM2023_P3_073",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "A schema is the overall logical design of the database — its tables, attributes, types and constraints — as distinct from the instance, which is the data held at a moment. DDL is the language used to state the schema, not the design itself."
+ },
+ {
+  "id": "ILM2023_P3_074",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "Silberschatz states that mapping cardinalities are most useful in describing binary relationship sets, where one-to-one, one-to-many, many-to-one and many-to-many are cleanly defined. For relationships of degree greater than two the cardinality notation becomes ambiguous."
+ },
+ {
+  "id": "ILM2023_P3_075",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Data integrity is precisely the property that stored data is accurate, consistent and complete over its lifetime. Data independence concerns insulating schema levels from each other, and data security concerns access control."
+ },
+ {
+  "id": "ILM2023_P3_082",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Writes to stable storage are the dominant cost in logging and recovery, so an efficient recovery scheme is one that keeps the number of such writes to a minimum — the reason deferred/immediate update schemes batch log records and use checkpoints rather than forcing every change out."
+ },
+ {
+  "id": "ILM2023_P3_083",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "A student enrols in many courses and each course is taken by many students, so the enrolment relationship is many-to-many."
+ },
+ {
+  "id": "ILM2023_P3_084",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The DDL interpreter parses data-definition statements and records the resulting definitions — tables, columns, types, constraints — in the data dictionary, which is the database's metadata. DML compilers and pre-processors handle queries and updates over the data itself, not its description."
+ },
+ {
+  "id": "ILM2023_P3_087",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "HTTP's IANA-assigned well-known port is 80 (HTTPS uses 443). Port 21 is FTP control and 43 is WHOIS."
+ },
+ {
+  "id": "ILM2023_P3_091",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Projection (Pi) keeps every row of the input relation but returns only the listed attributes, discarding the rest. Selection is the complementary operation that keeps all attributes but only the rows satisfying a predicate."
+ },
+ {
+  "id": "ILM2023_P3_092",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "An exclusive (X) lock grants the holder full access, so T may both read and write Q; a shared (S) lock is the one restricted to reading. The exclusive mode merely bars any other transaction from locking Q concurrently."
+ },
+ {
+  "id": "ILM2023_P3_093",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "An attribute set whose closure yields every attribute of the relation functionally determines the whole tuple, which is exactly the definition of a super key. It qualifies as a candidate key only if it is additionally minimal — no proper subset has the same closure — and that is not asserted here."
+ },
+ {
+  "id": "ILM2023_P3_100",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Aggregation is the ER abstraction that treats an entire relationship set, together with its participating entities, as a single higher-level entity so that it can itself participate in another relationship. Generalization and specialization abstract over entity sets, not relationships."
+ }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "no": 41,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "Number of layers in the OSI model. Pure data communications/networking theory. TECH2 Unit 2's networking leaf is scoped to web architecture, client-server, HTTP/HTTPS, DNS and hosting — the OSI stack is not that.",
+    "confidence": "high"
+  },
+  {
+    "no": 42,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "Which OSI layer does error detection and correction. Data link layer / error control is data communications, explicitly outside the 2026 syllabus; no TECH1 or TECH2 unit covers the OSI layer model.",
+    "confidence": "high"
+  },
+  {
+    "no": 43,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "TELNET as the remote terminal protocol, against RARP/UDP/FTP. This is TCP/IP protocol-suite trivia, not web architecture — the Unit 2 leaf names HTTP/HTTPS and DNS specifically, and none of the four options is either.",
+    "confidence": "high"
+  },
+  {
+    "no": 44,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "Cohesion and coupling metrics at component-level design. Software engineering design metrics; the 2026 syllabus dropped software engineering entirely.",
+    "confidence": "high"
+  },
+  {
+    "no": 45,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "Software quality assurance activities and testing types (unit/integration/black box/white box). SQA and testing are software engineering, absent from both papers.",
+    "confidence": "high"
+  },
+  {
+    "no": 46,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "The three major categories of software risk (project, technical, business). Software project management / risk management — explicitly named in the brief as dropped.",
+    "confidence": "high"
+  },
+  {
+    "no": 47,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Database system concepts, architecture, interfaces and data independence",
+    "why": "The two files a DBMS uses during operation: the data dictionary (system catalog) and the transaction log. Both are components of DBMS architecture, which is what this leaf covers.",
+    "confidence": "medium"
+  },
+  {
+    "no": 48,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Equivalence of predicates in tuple relational calculus. Tuple calculus is the companion formalism to relational algebra and is taught under the relational model; this is the only leaf that names tuples and relational algebra. Note the underlying skill tested is De Morgan's law, so TECH1 Unit 1 'Propositional logic and logical equivalence' is a defensible alternative placement.",
+    "confidence": "medium"
+  },
+  {
+    "no": 49,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "RIP is distance-vector routing. The brief names RIP explicitly as an out-of-scope data-communications topic; routing protocols appear in no 2026 unit.",
+    "confidence": "high"
+  },
+  {
+    "no": 50,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "2",
+    "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+    "why": "ICANN as the body that manages Internet domain names and addresses. Domain-name administration and registration is part of the DNS-and-hosting leaf, not routing or link-level data communications. Borderline: it is an institutional/governance fact rather than a technical DNS mechanism.",
+    "confidence": "medium"
+  },
+  {
+    "no": 51,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "Nodes are another name for devices — introductory networking vocabulary (nodes, links, transmission medium). Data communications, covered by no 2026 unit.",
+    "confidence": "high"
+  },
+  {
+    "no": 52,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "What efficiency as a software quality attribute does not include. Software engineering quality characteristics; no unit of either paper covers software product quality attributes.",
+    "confidence": "high"
+  },
+  {
+    "no": 53,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "Maintenance as a percentage of total software process cost. Software maintenance and cost estimation — the brief names cost of maintenance explicitly as dropped.",
+    "confidence": "high"
+  },
+  {
+    "no": 54,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "What a good SRS document should not contain. Requirements engineering — the brief names SRS explicitly as dropped.",
+    "confidence": "high"
+  },
+  {
+    "no": 55,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "SQL and basic query statements",
+    "why": "The SQL IN operator versus BETWEEN and LIKE. Straight SQL predicate syntax.",
+    "confidence": "high"
+  },
+  {
+    "no": 56,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Choosing a useful (compound) key when candidate attributes are non-distinguishing. This is key selection in the relational model, which this leaf names directly.",
+    "confidence": "high"
+  },
+  {
+    "no": 57,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Entity-Relationship modelling",
+    "why": "Notation for specialization in an E-R diagram. Specialization/generalization is core EER modelling.",
+    "confidence": "high"
+  },
+  {
+    "no": 58,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "Typical user count of a peer-to-peer network. Network-type trivia from data communications; not the client-server web model the Unit 2 leaf covers, and no other unit touches LAN sizing.",
+    "confidence": "high"
+  },
+  {
+    "no": 59,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "Bits in an IPv6 subnet mask. Addressing and netmask arithmetic — the brief names netmask calculation explicitly as out of scope.",
+    "confidence": "high"
+  },
+  {
+    "no": 60,
+    "verdict": "off",
+    "paper": null, "unit": null, "sub": null,
+    "why": "The IEEE standard for Ethernet (802.3 vs 802.5/802.11). LAN standards are data communications; no 2026 unit covers them.",
+    "confidence": "high"
+  }
+]

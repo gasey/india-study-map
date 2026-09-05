@@ -9,6 +9,73 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (evening) — The first Paper III ever imported: 36 of 100 survive the 2026 syllabus, and two independent solvers agreed on every one
+
+**What shipped.** `import_ilm2023_p3.py` + `staged/ilm2023-p3-import.json` — 36
+questions from ILM November 2023 CSE Paper III, into TECH2 (34 in Unit 3 DBMS,
+2 in Unit 2 Web). Bank 1829 → 1865, answerable 1788 → 1824.
+
+**Why this paper at all.** No Paper III from any sitting had ever been in this
+bank, and five of them sit in `mpsc-cse-papers/` — about 350 MCQs plus five
+Section B sets. No decision to skip them was ever recorded; the imports simply
+never covered Paper III. This is the first one recovered.
+
+**Why only 36 of 100, and why that is the right number.** The paper was set for
+the pre-2026 syllabus. All 100 questions were classified leaf-by-leaf against
+`syllabus.js`, and 64 came back off-syllabus in three clean blocks: software
+engineering (SDLC, SRS, SQA, cohesion/coupling, risk categories, Pressman
+metrics), data communications (topologies, duplex, RIP, OSI, CRC, transmission
+media), and systems analysis (fact-finding methods, DFDs). None of those is a
+unit of TECH1 (Discrete Maths / Architecture / Data Structures / OS) or TECH2
+(OOP / Web / DBMS / Cloud) — the 2026 syllabus genuinely dropped all three
+subjects. The reason for every exclusion is recorded per-question in
+`staged/ilm2023-p3/_classified.json`, so the 64 are recoverable if the syllabus
+ever widens.
+
+The boundary that needed care was networking. TECH2 Unit 2 names *"Web
+architecture, client-server communication, HTTP/HTTPS, DNS and hosting"*, so
+the classifiers were told to admit DNS/HTTP questions and reject data
+communications — which is why ICANN (domain-name administration) and HTTP port
+80 are in, while DHCP, SMTP, RIP and a netmask calculation are out. Sixteen
+verdicts came back `medium` and every one was reviewed by hand.
+
+Not one question mapped to TECH1. That is the expected shape rather than a
+worry: Paper III is the DBMS/networking paper.
+
+**Two independent solvers, and they agreed on all 36.** No official key exists —
+MPSC's key for this sitting covers `cse_paper_1` and `cse_paper_2` only, which
+was checked in the staged file rather than assumed. Following the convention
+`import_prog2018_p1.py` set, two solvers worked the same 36 questions without
+seeing each other's output, and the two answer sets were diffed: **36/36
+agreement, 0 disagreements.** Stored `conf` is the LOWER of the two
+self-ratings — 31 high, 5 medium, 0 low — so a question either solver hedged on
+cannot render as certain.
+
+**Transcription.** The PDF is a pure scan (10-character text layer), so all nine
+pages were rendered at 300 dpi and read by eye, one agent per page under the
+incremental-write rule. Verified mechanically (100 questions, 1–100, no gaps, no
+duplicates, four options each) and then pages 2 and 5 were re-read independently
+and matched line by line — including the three things a careless transcriber
+would silently "fix": `Four -wire circuit`, `IEFE` where the paper means IETF,
+and Q48's asymmetric negations. The other seven pages are mechanically verified
+but not re-read, and `staged/ilm2023-p3/README.md` says so.
+
+Two printing defects are carried into the bank as `note` text rather than
+repaired: Q30's option (d) reads "Neither I nor III" where the stem lists only I
+and II, and Q50's (d) reads "IEFE". Neither is the keyed answer.
+
+**Verified in the app**, not just in the data: the sitting appears in Past
+Papers as "36 MCQ · 72 marks", all 36 cards render, the provenance badges read
+31 `derived · high confidence` and 5 `derived · medium`, **zero** render as
+`official key` — the `provLine()` trap the PROV string was written to avoid —
+and the console is clean.
+
+**What's still open.** Four Paper IIIs remain unimported: ILM December 2018
+(100 questions), and MES P&E August 2018, MES November 2015 and MES P&E
+Electrical July 2023 (50 MCQs plus a Section B each). All four have real text
+layers, so extraction is cheaper than this one was. Expect a similar survival
+rate — they are the same vintage and the same subject mix.
+
 ## 2026-09-05 (later still) — Auditing MES and Informatics Officer coverage turned up a live wrong answer the duplicate guard structurally could not see
 
 **What shipped.** `MES2023_P1_B020` removed from the bank (1830 → 1829,

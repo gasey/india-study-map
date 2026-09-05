@@ -1,0 +1,242 @@
+[
+ {
+  "no": 41,
+  "q": "How many layers are there in the OSI model?",
+  "opts": {
+   "A": "5",
+   "B": "6",
+   "C": "7",
+   "D": "8"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 42,
+  "q": "Which layer of OSI model is responsible for detection and correction of transmission errors using error correction method?",
+  "opts": {
+   "A": "Session",
+   "B": "Transport",
+   "C": "Data Link",
+   "D": "Presentation"
+  },
+  "flags": [],
+  "_page": 4
+ },
+ {
+  "no": 43,
+  "q": "This protocol is used for remote terminal connection service",
+  "opts": {
+   "A": "RARP",
+   "B": "UDP",
+   "C": "FTP",
+   "D": "TELNET"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 44,
+  "q": "Cohesion metrics and coupling metrics are metrics in which level of design?",
+  "opts": {
+   "A": "User Interface design",
+   "B": "Pattern-based design",
+   "C": "Architectural design",
+   "D": "Component-level design"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 45,
+  "q": "This is not a SQA activity.",
+  "opts": {
+   "A": "Unit Testing",
+   "B": "Integration Testing",
+   "C": "Black Box Testing",
+   "D": "White Box Testing"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 46,
+  "q": "Give three major categories of risk from the following:\n1. Schedule Risk    2. Project Risk\n3. Technical Risk    4. Business Risk",
+  "opts": {
+   "A": "1, 2 and 3",
+   "B": "2, 3 and 4",
+   "C": "1, 2 and 4",
+   "D": "1, 3 and 4"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 47,
+  "q": "The two files that are used during operation of the DBMS.",
+  "opts": {
+   "A": "Data dictionary and query language",
+   "B": "Data dictionary and transaction log",
+   "C": "Query languages and utilities",
+   "D": "DML and query language"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 48,
+  "q": "In tuple relational calculus P1 AND P2 is equivalent to",
+  "opts": {
+   "A": "(¬P1 OR ¬P2)",
+   "B": "¬(¬P1 OR ¬P2)",
+   "C": "¬(P1 OR ¬P2)",
+   "D": "¬(¬P1 OR P2)"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 49,
+  "q": "The Routing Information Protocol (RIP) is based on _______ routing",
+  "opts": {
+   "A": "distance vector",
+   "B": "link state",
+   "C": "path vector",
+   "D": "link-path state"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 50,
+  "q": "This is responsible for the management of Internet domain names and addresses",
+  "opts": {
+   "A": "NIC",
+   "B": "ICANN",
+   "C": "ISOC",
+   "D": "IEFE"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 51,
+  "q": "This is another name of Nodes",
+  "opts": {
+   "A": "Devices",
+   "B": "Links",
+   "C": "Medium",
+   "D": "Modes"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 52,
+  "q": "Efficiency in a software product does not include _______.",
+  "opts": {
+   "A": "Processing time",
+   "B": "Licensing",
+   "C": "Responsiveness",
+   "D": "Memory utilization"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 53,
+  "q": "Cost of maintenance is as high as _______ of the cost of entire software process cycle.",
+  "opts": {
+   "A": "0.61",
+   "B": "0.63",
+   "C": "0.67",
+   "D": "0.71"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 54,
+  "q": "This is not desired in a good Software Requirement Specifications (SRS) document.",
+  "opts": {
+   "A": "Functional Requirement",
+   "B": "Non Functional Requirement",
+   "C": "Goals of Implementation",
+   "D": "Algorithm for Software Implementation"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 55,
+  "q": "This operator is used to compare a value to a list of literals values that have been specified.",
+  "opts": {
+   "A": "COMPARE",
+   "B": "BETWEEN",
+   "C": "LIKE",
+   "D": "IN"
+  },
+  "flags": [],
+  "_page": 5
+ },
+ {
+  "no": 56,
+  "q": "A list consists of last names, first names, addresses and pin codes. If all people in the list have the same last name and same pin code a useful key would be",
+  "opts": {
+   "A": "the pin code",
+   "B": "the last name",
+   "C": "the compound key last name and pin code",
+   "D": "the compound key first name and last name"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 57,
+  "q": "Specialization ,in an E-R diagram, is represented by a",
+  "opts": {
+   "A": "Dashed arrow-head",
+   "B": "Double arrow-head",
+   "C": "Hollow arrow-head",
+   "D": "Solid arrow-head"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 58,
+  "q": "How many users are normally in a peer-to-peer network?",
+  "opts": {
+   "A": "2-10",
+   "B": "10-50",
+   "C": "50-250",
+   "D": "250-1000"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 59,
+  "q": "How many bits are typically covered in an internet protocol version 6 (IPv6) subnet mask?",
+  "opts": {
+   "A": "24",
+   "B": "48",
+   "C": "64",
+   "D": "128"
+  },
+  "flags": [],
+  "_page": 6
+ },
+ {
+  "no": 60,
+  "q": "The standard followed by Ethernet is",
+  "opts": {
+   "A": "IEEE 802.10",
+   "B": "IEEE 802.11",
+   "C": "IEEE 802.5",
+   "D": "IEEE 802.3"
+  },
+  "flags": [],
+  "_page": 6
+ }
+]

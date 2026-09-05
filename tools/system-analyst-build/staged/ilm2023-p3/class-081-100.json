@@ -1,0 +1,182 @@
+[
+ {
+  "no": 81,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "CASE = Computer Aided Software Engineering. Software engineering tooling; the 2026 syllabus dropped software engineering entirely.",
+  "confidence": "high"
+ },
+ {
+  "no": 82,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "Recovery scheme efficiency and number of writes to the log/database is core DBMS crash recovery.",
+  "confidence": "high"
+ },
+ {
+  "no": 83,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "Cardinality of a students-courses relationship is textbook ER modelling.",
+  "confidence": "high"
+ },
+ {
+  "no": 84,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "why": "DDL interpreter creating metadata in the data dictionary is part of DBMS internal architecture and its component interfaces.",
+  "confidence": "high"
+ },
+ {
+  "no": 85,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Router vs hub vs adapter is networking hardware / data communications, not web architecture. No unit covers LAN devices.",
+  "confidence": "high"
+ },
+ {
+  "no": 86,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "TCP/UDP packet routing over different paths is transport-layer networking, not the HTTP/DNS/client-server web model the syllabus covers.",
+  "confidence": "high"
+ },
+ {
+  "no": 87,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "2",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "why": "HTTP default port 80 is directly about HTTP and web server hosting.",
+  "confidence": "high"
+ },
+ {
+  "no": 88,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Adaptive vs corrective vs perfective maintenance is software maintenance taxonomy — software engineering, dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 89,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Software quality attributes (reliability, correctness, robustness) belong to software engineering / SQA, not to any TECH1 or TECH2 unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 90,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Loop testing / white-box testing is software testing, part of software engineering, which the 2026 syllabus does not contain.",
+  "confidence": "high"
+ },
+ {
+  "no": 91,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Projection is a named relational algebra operator.",
+  "confidence": "high"
+ },
+ {
+  "no": 92,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Concurrency control, locking and time stamping",
+  "why": "Semantics of an exclusive lock is lock-based concurrency control.",
+  "confidence": "high"
+ },
+ {
+  "no": 93,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Attribute closure under functional dependencies determining superkey status is a functional-dependency topic.",
+  "confidence": "medium"
+ },
+ {
+  "no": 94,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "CRC is error detection in data communications; no unit covers it.",
+  "confidence": "high"
+ },
+ {
+  "no": 95,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "DHCP and IP address allocation is network administration / data communications, not the HTTP-DNS-hosting web architecture leaf.",
+  "confidence": "medium"
+ },
+ {
+  "no": 96,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "SMTP is an email transfer protocol. The web architecture leaf names HTTP/HTTPS and DNS specifically; mail protocols are general networking and are not covered.",
+  "confidence": "medium"
+ },
+ {
+  "no": 97,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Data Flow Diagram belongs to systems analysis and design, which the 2026 syllabus does not contain.",
+  "confidence": "high"
+ },
+ {
+  "no": 98,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Attributes of effective software metrics is software measurement / software engineering.",
+  "confidence": "high"
+ },
+ {
+  "no": 99,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Prototyping is a software process model — SDLC content, dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 100,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "Aggregation, alongside generalization and specialization, is an ER model abstraction.",
+  "confidence": "high"
+ }
+]

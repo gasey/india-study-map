@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ILM2023_P3_001",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "An attribute is by definition a property or characteristic of an entity in the ER model. A column is the relational-table implementation of that idea, but the ER-model term asked for here is attribute."
+  },
+  {
+    "id": "ILM2023_P3_002",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The hierarchical model organises records as a tree with a single root and parent-child links, allowing each child exactly one parent. The network model generalises this to a graph, which is why it is not the tree-based answer."
+  },
+  {
+    "id": "ILM2023_P3_003",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "ORDER BY is the SQL clause that sorts the result set on one or more columns, with ASC or DESC controlling direction. GROUP BY aggregates rows and HAVING filters those groups; neither sorts."
+  },
+  {
+    "id": "ILM2023_P3_010",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "5NF (project-join normal form) removes join dependencies that are not implied by the candidate keys. Multivalued dependency belongs to 4NF, functional dependency to 2NF/3NF/BCNF, and domain-key to DKNF."
+  },
+  {
+    "id": "ILM2023_P3_011",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A deadlock is precisely the circular-wait state in which each transaction holds a lock the other needs, so none can proceed. The other three options are not standard DBMS concurrency terms."
+  },
+  {
+    "id": "ILM2023_P3_012",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Normalization is the formal process of decomposing relation schemas so that data is stored without unnecessary redundancy and update anomalies. Assertions and integrity constraints police correctness but do not generate the schemas."
+  },
+  {
+    "id": "ILM2023_P3_020",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "X→Y means each X value maps to exactly one Y value, and Y→X means each Y value maps to exactly one X value; together that is a one-to-one correspondence. Hence the relationship is 1:1."
+  },
+  {
+    "id": "ILM2023_P3_021",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Armstrong's augmentation rule states that if α→β then γα→γβ for any attribute set γ. The second option, α→γβ, does not follow in general because α need not determine γ, so 'both' is wrong."
+  },
+  {
+    "id": "ILM2023_P3_022",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "The standard equivalence rules give σθ(E1 ∪ E2) = σθ(E1) ∪ σθ(E2), and the same identity holds for intersection and set difference. Selection therefore distributes over all three set operations."
+  },
+  {
+    "id": "ILM2023_P3_028",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "2NF requires that every non-prime attribute be fully functionally dependent on the whole candidate key, i.e. no partial functional dependencies remain. Multivalued dependencies are the concern of 4NF, not 2NF."
+  },
+  {
+    "id": "ILM2023_P3_029",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "In Chen-style ER notation a double line between an entity set and a relationship set denotes total participation, meaning every entity must take part. A single line denotes partial participation."
+  },
+  {
+    "id": "ILM2023_P3_030",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Timestamp ordering never makes a transaction wait for a lock — it aborts and restarts the offending transaction instead — so it is conflict serializable and deadlock-free, whereas two-phase locking is conflict serializable but can deadlock. Option (d) is misprinted as 'Neither I nor III', but that does not affect the correct choice."
+  },
+  {
+    "id": "ILM2023_P3_031",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Enforcing atomicity, consistency, isolation and durability requires logging, locking and recovery machinery, so ACID increases rather than decreases system complexity. The other three statements are true of ACID."
+  },
+  {
+    "id": "ILM2023_P3_038",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Reducing redundancy is the core aim of good database design, since duplicated data causes insert, update and delete anomalies. The other three options describe bad practice — ambiguity, mixing unrelated data in one table, and attribute-less entities."
+  },
+  {
+    "id": "ILM2023_P3_039",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Query optimization is the phase that searches among equivalent evaluation plans for the cheapest strategy. Query processing is the whole pipeline of parsing, optimization and evaluation, of which optimization is only the plan-choosing step."
+  },
+  {
+    "id": "ILM2023_P3_040",
+    "answerIndex": 2,
+    "confidence": "medium",
+    "explanation": "Standard textbooks introduce tuple relational calculus first and then present domain relational calculus as the second form, in which variables range over attribute domains rather than whole tuples. The answer depends on that conventional ordering, hence medium confidence."
+  },
+  {
+    "id": "ILM2023_P3_047",
+    "answerIndex": 1,
+    "confidence": "medium",
+    "explanation": "The data dictionary holds the metadata the DBMS consults on every access, and the transaction log records changes for recovery, so these are the two files the DBMS itself uses during operation. Query languages, utilities and DML are tools or interfaces rather than files."
+  },
+  {
+    "id": "ILM2023_P3_048",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "By De Morgan's law, ¬(¬P1 ∨ ¬P2) simplifies to P1 ∧ P2, which is exactly the conjunction asked for. Option (a) is the negation of that conjunction, while (c) reduces to ¬P1 ∧ P2 and (d) to P1 ∧ ¬P2."
+  }
+]

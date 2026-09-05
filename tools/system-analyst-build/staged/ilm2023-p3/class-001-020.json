@@ -1,0 +1,182 @@
+[
+  {
+    "no": 1,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Entity-Relationship modelling",
+    "why": "Attribute as a property describing characteristics of an entity is core ER vocabulary (entity, attribute, relationship).",
+    "confidence": "high"
+  },
+  {
+    "no": 2,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Asks which data model stores data as a tree (hierarchical), i.e. comparing the classical DBMS data models. This leaf is the syllabus's data-models leaf.",
+    "confidence": "medium"
+  },
+  {
+    "no": 3,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "SQL and basic query statements",
+    "why": "ORDER BY versus GROUP BY / HAVING / VIEW is straightforward SQL clause knowledge.",
+    "confidence": "high"
+  },
+  {
+    "no": 4,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Counting network-layer and data-link-layer visits across intermediate routers is OSI layering and packet forwarding — general data communications. Not web architecture (no HTTP/DNS/client-server), and no TECH1 or TECH2 unit covers networking layers.",
+    "confidence": "high"
+  },
+  {
+    "no": 5,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "LAN/MAN/WAN classification by transmission speed is general data communications and networking, which the 2026 syllabus does not contain.",
+    "confidence": "high"
+  },
+  {
+    "no": 6,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Definition of a single-bit error is error detection in data transmission — general data communications, explicitly outside the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 7,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software process models (Waterfall, Spiral, V-model, Big Bang). The 2026 syllabus dropped software engineering entirely.",
+    "confidence": "high"
+  },
+  {
+    "no": 8,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Feasibility study in software engineering — named explicitly in the brief as out of scope; no TECH1 or TECH2 unit covers it.",
+    "confidence": "high"
+  },
+  {
+    "no": 9,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software testing levels and software maintenance. Software engineering is absent from the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 10,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Database design, functional dependencies and normal forms",
+    "why": "Fifth normal form and join dependency — a normal form, squarely this leaf.",
+    "confidence": "high"
+  },
+  {
+    "no": 11,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Concurrency control, locking and time stamping",
+    "why": "Users mutually waiting on data each other has locked is deadlock arising from DBMS locking, i.e. concurrency control. Phrased in DBMS terms (users, locked data) rather than OS processes and resources.",
+    "confidence": "medium"
+  },
+  {
+    "no": 12,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Database design, functional dependencies and normal forms",
+    "why": "Designing relation schemas free of unnecessary redundancy is the definition of normalization.",
+    "confidence": "high"
+  },
+  {
+    "no": 13,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "A netmask / subnet calculation — the brief names this exact case as data communications, not web architecture.",
+    "confidence": "high"
+  },
+  {
+    "no": 14,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Simplex / half-duplex / full-duplex transmission modes — data communications, explicitly out of scope.",
+    "confidence": "high"
+  },
+  {
+    "no": 15,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Bus versus star/ring/mesh topology — the brief names topology questions as data communications and out of scope.",
+    "confidence": "high"
+  },
+  {
+    "no": 16,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "The analyst's fact-finding methods (interviews, questionnaires, observation, record inspection) — systems analysis and design, which the 2026 syllabus does not contain.",
+    "confidence": "high"
+  },
+  {
+    "no": 17,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Software engineering objectives. The 2026 syllabus dropped software engineering entirely — no unit of TECH1 or TECH2 covers SDLC, SRS, SQA, cohesion/coupling or process models.",
+    "confidence": "high"
+  },
+  {
+    "no": 18,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Rationale for software project management — software engineering, absent from the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 19,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "LOC-based effort estimation and problem decomposition — software project management, out of scope. Note this is estimation of software size, not algorithm complexity, so TECH1 Unit 3 does not apply.",
+    "confidence": "high"
+  },
+  {
+    "no": 20,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Database design, functional dependencies and normal forms",
+    "why": "Reasoning about the cardinality implied by mutual functional dependencies X→Y and Y→X — functional dependency theory.",
+    "confidence": "high"
+  }
+]

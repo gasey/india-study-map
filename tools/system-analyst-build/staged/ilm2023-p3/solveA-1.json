@@ -1,0 +1,116 @@
+[
+ {
+  "id": "ILM2023_P3_001",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "An attribute is the named property that describes a characteristic of an entity, such as name or age of a Student. \"Column\" is the physical relational-table word for the same idea and is the standard trap here; the ER-model vocabulary the question uses is \"attribute\"."
+ },
+ {
+  "id": "ILM2023_P3_002",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "The hierarchical model stores records as a tree in which every child segment has exactly one parent. The network model is the usual distractor: it also uses pointers, but its structure is a graph, so a record may have several parents."
+ },
+ {
+  "id": "ILM2023_P3_003",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "ORDER BY sorts the result set ascending (default) or descending on one or more listed columns. GROUP BY only collapses rows into groups and HAVING only filters those groups; neither imposes any ordering."
+ },
+ {
+  "id": "ILM2023_P3_010",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Fifth normal form, also called project-join normal form, removes join dependencies that are not implied by the candidate keys. Multivalued dependency is the trap: that is what 4NF addresses, while functional dependency belongs to 2NF/3NF/BCNF."
+ },
+ {
+  "id": "ILM2023_P3_011",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A circular wait in which each transaction holds a lock the other needs is the textbook definition of deadlock. The DBMS must break it by detection-and-rollback of a victim, or prevent it by a scheme such as wait-die or wound-wait."
+ },
+ {
+  "id": "ILM2023_P3_012",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Normalization is exactly the process of decomposing relation schemas so that data is stored without unnecessary redundancy and without insert, update or delete anomalies. Assertions and integrity constraints police the data; they do not design the schemas."
+ },
+ {
+  "id": "ILM2023_P3_020",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "X to Y means each X value has exactly one Y value, and Y to X means each Y value has exactly one X value; together that makes the mapping one-to-one. A single-sided dependency X to Y alone would only give M:1."
+ },
+ {
+  "id": "ILM2023_P3_021",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "This is Armstrong's augmentation axiom: if alpha determines beta, then adding the same attribute set gamma to both sides preserves the dependency, so gamma-alpha determines gamma-beta. Option (b) does not follow, because nothing guarantees that alpha determines gamma, so (c) fails with it."
+ },
+ {
+  "id": "ILM2023_P3_022",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "The standard equivalence rule for query transformation states that selection distributes over all three set operations: union, intersection and set difference. For set difference the weaker form also holds (the selection need only be applied to the first relation), but applying it to both operands remains valid."
+ },
+ {
+  "id": "ILM2023_P3_028",
+  "answerIndex": 3,
+  "confidence": "high",
+  "explanation": "Second normal form is 1NF plus the requirement that no non-prime attribute is dependent on only part of a candidate key, i.e. no partial functional dependencies remain. Multivalued dependencies are the concern of 4NF, so the MVD options are out of scope."
+ },
+ {
+  "id": "ILM2023_P3_029",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "In Chen notation total participation, meaning every entity in the set must take part in the relationship, is drawn as a double line joining the entity set to the relationship set. A single line denotes partial participation."
+ },
+ {
+  "id": "ILM2023_P3_030",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Timestamp ordering never makes a transaction wait for another's lock: a conflicting operation is rejected and the transaction is rolled back and restarted, so it is conflict serializable and inherently deadlock-free. Basic two-phase locking guarantees conflict serializability but transactions block on locks and can deadlock. Option (d) is misprinted as \"Neither I nor III\", but it is not the answer either way."
+ },
+ {
+  "id": "ILM2023_P3_031",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "The false statement is that ACID decreases system complexity: enforcing atomicity, consistency, isolation and durability requires logging, locking and recovery machinery, which increases complexity. The other three are true, including the performance overhead that ACID guarantees impose."
+ },
+ {
+  "id": "ILM2023_P3_038",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "A core database design guideline is to avoid or minimise redundancy, since duplicated data is what produces update, insert and delete anomalies. The other options invert good practice: a design must be unambiguous, unrelated data belongs in separate tables, and an entity without attributes carries no information."
+ },
+ {
+  "id": "ILM2023_P3_039",
+  "answerIndex": 0,
+  "confidence": "high",
+  "explanation": "Query optimization is the step that selects a good evaluation plan from the many equivalent ones for a query. Query processing is the whole pipeline of parsing, optimization and evaluation, and query cost is the metric the optimizer uses, not the process itself."
+ },
+ {
+  "id": "ILM2023_P3_040",
+  "answerIndex": 2,
+  "confidence": "high",
+  "explanation": "Domain relational calculus is presented as the second form of relational calculus, after tuple relational calculus; its variables range over the domains of individual attributes rather than over whole tuples. It has the same expressive power as tuple calculus and relational algebra when restricted to safe expressions."
+ },
+ {
+  "id": "ILM2023_P3_047",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "During operation the DBMS relies on the data dictionary, which holds the metadata describing the schema, and the transaction log, which records changes for recovery. Query languages, DML and utilities are interfaces and tools, not files the system maintains."
+ },
+ {
+  "id": "ILM2023_P3_048",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "By De Morgan's law, P1 AND P2 is the negation of (NOT P1 OR NOT P2), which is option (b) exactly. Options (c) and (d) negate only one of the two predicates before the outer negation, so they reduce to (NOT P1 AND P2) and (P1 AND NOT P2) respectively; that asymmetry is how they are printed on the paper and it is what makes them wrong."
+ },
+ {
+  "id": "ILM2023_P3_050",
+  "answerIndex": 1,
+  "confidence": "high",
+  "explanation": "ICANN, the Internet Corporation for Assigned Names and Numbers, coordinates the domain name system and the allocation of IP address space. Option (d) is printed \"IEFE\" and is meant to be the IETF, which develops protocol standards rather than administering names; NIC is a generic network information centre, not the global authority."
+ }
+]

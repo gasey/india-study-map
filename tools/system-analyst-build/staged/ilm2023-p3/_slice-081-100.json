@@ -1,0 +1,242 @@
+[
+ {
+  "no": 81,
+  "q": "CASE stands for",
+  "opts": {
+   "A": "Computer Aid Software Engineering",
+   "B": "Computer Application Software Engineering",
+   "C": "Computer Aided Software Engineering",
+   "D": "Computer Analysis Software Engineering"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 82,
+  "q": "Efficient implementation of a recovery scheme requires that the number of writes to be ________.",
+  "opts": {
+   "A": "Minimum",
+   "B": "Maximum",
+   "C": "Dependent",
+   "D": "Independent"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 83,
+  "q": "An relationship among students and courses is",
+  "opts": {
+   "A": "1:1 relationship",
+   "B": "1:M relationship",
+   "C": "M:1 relationship",
+   "D": "M:M relationship"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 84,
+  "q": "The metadata is created by",
+  "opts": {
+   "A": "Query interpreter",
+   "B": "DDL interpreter",
+   "C": "DML compiler",
+   "D": "DML pre-processor"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 85,
+  "q": "Which of the following device allows sharing of a broadband Internet connection?",
+  "opts": {
+   "A": "adapter",
+   "B": "hub",
+   "C": "router",
+   "D": "plug"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 86,
+  "q": "Packets of the same session may be routed through different paths in",
+  "opts": {
+   "A": "UDP, but not TCP",
+   "B": "TCP, but not UDP",
+   "C": "TCP and UDP",
+   "D": "Neither TCP nor UDP"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 87,
+  "q": "For HTTP, the webserver usually runs on port number",
+  "opts": {
+   "A": "21",
+   "B": "40",
+   "C": "43",
+   "D": "80"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 88,
+  "q": "In software maintenance tackling the changes in the hardware or software environment where the software works, is",
+  "opts": {
+   "A": "Corrective Maintenance",
+   "B": "Adaptive Maintenance",
+   "C": "Perfective Maintenance",
+   "D": "Preventive Maintenance"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 89,
+  "q": "The extent to which a software performs its intended functions without failures, is termed as",
+  "opts": {
+   "A": "Correctness",
+   "B": "Accuracy",
+   "C": "Robustness",
+   "D": "Reliability"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 90,
+  "q": "To execute all loops at their boundaries and within their operational bounds is an example of",
+  "opts": {
+   "A": "Black Box Testing",
+   "B": "Alpha Testing",
+   "C": "Recovery Testing",
+   "D": "White Box Testing"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 91,
+  "q": "Algebraic operation that outputs specified attributes from all rows of the input relation, is said to be",
+  "opts": {
+   "A": "Natural join",
+   "B": "Union operation",
+   "C": "Projection",
+   "D": "Selection"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 92,
+  "q": "If a transaction T has obtained an exclusive lock on item Q, then T can",
+  "opts": {
+   "A": "read Q",
+   "B": "write Q",
+   "C": "both read and write Q",
+   "D": "write Q but not read Q"
+  },
+  "flags": [],
+  "_page": 8
+ },
+ {
+  "no": 93,
+  "q": "If the closure of an attribute set is the entire relation, then the attribute set is a",
+  "opts": {
+   "A": "super key",
+   "B": "candidate key",
+   "C": "primary key",
+   "D": "not a key"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 94,
+  "q": "CRC stands for",
+  "opts": {
+   "A": "cyclic redundancy check",
+   "B": "code redundancy check",
+   "C": "code repeat check",
+   "D": "cyclic repeat check"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 95,
+  "q": "Dynamic Host Configuration Protocol (DHCP)",
+  "opts": {
+   "A": "is the same as bootp",
+   "B": "helps prevent conflicts between assigned IP addresses",
+   "C": "uses static allocation of IP addresses",
+   "D": "assigns IP addresses, which when allocated, cannot be reused"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 96,
+  "q": "This protocol is used for transfer of email between localhost and a remote host.",
+  "opts": {
+   "A": "HTTP",
+   "B": "SMTP",
+   "C": "FDP",
+   "D": "FTP"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 97,
+  "q": "DFD stands for",
+  "opts": {
+   "A": "Data Flow Diagram",
+   "B": "Depict Flow Diagram",
+   "C": "Data Flow Depicts",
+   "D": "Data Flowchart Diagram"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 98,
+  "q": "Which one of the following set of attributes should not be encompassed by effective software metrics?",
+  "opts": {
+   "A": "Simple and computable",
+   "B": "Consistent and objective",
+   "C": "Consistent in the use of units and dimensions",
+   "D": "Programming language dependent"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 99,
+  "q": "The prototyping model of software development is",
+  "opts": {
+   "A": "a reasonable approach when requirements are well-defined",
+   "B": "a useful approach when a customer cannot define requirements clearly",
+   "C": "the best approach to use for projects with large development teams",
+   "D": "a risky model that rarely produces a meaningful product"
+  },
+  "flags": [],
+  "_page": 9
+ },
+ {
+  "no": 100,
+  "q": "It is an abstraction through which relationships are treated as higher level entities",
+  "opts": {
+   "A": "Generalization",
+   "B": "Specialization",
+   "C": "Aggregation",
+   "D": "Inheritance"
+  },
+  "flags": [],
+  "_page": 9
+ }
+]

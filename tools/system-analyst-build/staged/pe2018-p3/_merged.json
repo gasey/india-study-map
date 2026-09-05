@@ -1,0 +1,552 @@
+[
+ {
+  "no": 1,
+  "q": "A relational database consists of a collection of",
+  "opts": {
+   "A": "Tables",
+   "B": "Fields",
+   "C": "Records",
+   "D": "Keys"
+  },
+  "flags": []
+ },
+ {
+  "no": 2,
+  "q": "The term ________ is used to refer to a row.",
+  "opts": {
+   "A": "Attribute",
+   "B": "Tuple",
+   "C": "Field",
+   "D": "Instance"
+  },
+  "flags": []
+ },
+ {
+  "no": 3,
+  "q": "For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.",
+  "opts": {
+   "A": "Domain",
+   "B": "Relation",
+   "C": "Set",
+   "D": "Schema"
+  },
+  "flags": []
+ },
+ {
+  "no": 4,
+  "q": "(course_id,sec_id,semester) ,Here the course_id,sec_id and semester are _______ and course is a",
+  "opts": {
+   "A": "Relations, Attribute",
+   "B": "Attributes, Relation",
+   "C": "Tuple, Relation",
+   "D": "Tuple, Attributes"
+  },
+  "flags": []
+ },
+ {
+  "no": 5,
+  "q": "A domain is atomic if elements of the domain are considered to be ________ units.",
+  "opts": {
+   "A": "Different",
+   "B": "Indivisbile",
+   "C": "Constant",
+   "D": "Divisible"
+  },
+  "flags": []
+ },
+ {
+  "no": 6,
+  "q": "The tuples of the relations can be of ________ order.",
+  "opts": {
+   "A": "Any",
+   "B": "Same",
+   "C": "Sorted",
+   "D": "Constant"
+  },
+  "flags": []
+ },
+ {
+  "no": 7,
+  "q": "A attribute in a relation is a foreign key if the ________ key from one relation is used as an attribute in that relation .",
+  "opts": {
+   "A": "Candidate",
+   "B": "Primary",
+   "C": "Super",
+   "D": "Sub"
+  },
+  "flags": []
+ },
+ {
+  "no": 8,
+  "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+  "opts": {
+   "A": "Candidate key",
+   "B": "Sub key",
+   "C": "Super key",
+   "D": "Foreign key"
+  },
+  "flags": []
+ },
+ {
+  "no": 9,
+  "q": "A ________ consists of a sequence of query and/or update statements.",
+  "opts": {
+   "A": "Transaction",
+   "B": "Commit",
+   "C": "Rollback",
+   "D": "Flashback"
+  },
+  "flags": []
+ },
+ {
+  "no": 10,
+  "q": "In case of any shut down during transaction before commit which of the following statement is done automatically?",
+  "opts": {
+   "A": "View",
+   "B": "Commit",
+   "C": "Rollback",
+   "D": "Flashback"
+  },
+  "flags": []
+ },
+ {
+  "no": 11,
+  "q": "Select * from employee where dept_name=”Comp Sci”; In the SQL given above there is an error . Identify the error .",
+  "opts": {
+   "A": "Dept_name",
+   "B": "Employee",
+   "C": "“Comp Sci”",
+   "D": "From"
+  },
+  "flags": []
+ },
+ {
+  "no": 12,
+  "q": "The descriptive property possessed by each entity set is",
+  "opts": {
+   "A": "Entity",
+   "B": "Attribute",
+   "C": "Relation",
+   "D": "Model"
+  },
+  "flags": []
+ },
+ {
+  "no": 13,
+  "q": "Which of the following can be a multivalued attribute ?",
+  "opts": {
+   "A": "Phone_number",
+   "B": "Name",
+   "C": "Date_of_birth",
+   "D": "All of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 14,
+  "q": "Given the basic ER and relational models, which of the following is INCORRECT?",
+  "opts": {
+   "A": "An attribute of an entity can have more than one value",
+   "B": "An attribute of an entity can be composite",
+   "C": "In a row of a relational table, an attribute can have more than one value",
+   "D": "In a row of a relational table, an attribute can have exactly one value or a NULL value"
+  },
+  "flags": []
+ },
+ {
+  "no": 15,
+  "q": "Key to represent relationship between tables is called",
+  "opts": {
+   "A": "Primary key",
+   "B": "Secondary Key",
+   "C": "Foreign Key",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 16,
+  "q": "A table on the many side of a one to many or many to many relationship must:",
+  "opts": {
+   "A": "Be in Second Normal Form (2NF)",
+   "B": "Be in Third Normal Form (3NF)",
+   "C": "Have a single attribute key",
+   "D": "Have a composite key"
+  },
+  "flags": []
+ },
+ {
+  "no": 17,
+  "q": "Which forms are based on the concept of functional dependency:",
+  "opts": {
+   "A": "1NF",
+   "B": "2NF",
+   "C": "3NF",
+   "D": "4NF"
+  },
+  "flags": []
+ },
+ {
+  "no": 18,
+  "q": "Consider money is transferred from (1)account-A to account-B and (2) account-B to account-A. Which of the following form a transaction ?",
+  "opts": {
+   "A": "Only 1",
+   "B": "Only 2",
+   "C": "Both 1 and 2 individually",
+   "D": "Either 1 or 2"
+  },
+  "flags": []
+ },
+ {
+  "no": 19,
+  "q": "The database system must take special actions to ensure that transactions operate properly without interference from concurrently executing database statements. This property is referred to as",
+  "opts": {
+   "A": "Atomicity",
+   "B": "Durability",
+   "C": "Isolation",
+   "D": "All of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 20,
+  "q": "In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are",
+  "opts": {
+   "A": "Added",
+   "B": "Removed",
+   "C": "Rearranged",
+   "D": "Modified"
+  },
+  "flags": []
+ },
+ {
+  "no": 21,
+  "q": "Communication between a computer and a keyboard involves ________ transmission",
+  "opts": {
+   "A": "Automatic",
+   "B": "Half-duplex",
+   "C": "Full-duplex",
+   "D": "Simplex"
+  },
+  "flags": []
+ },
+ {
+  "no": 22,
+  "q": "The ________ is the physical path over which a message travels",
+  "opts": {
+   "A": "Path",
+   "B": "Medium",
+   "C": "Protocol",
+   "D": "Route"
+  },
+  "flags": []
+ },
+ {
+  "no": 23,
+  "q": "In TCP, sending and receiving data is done as",
+  "opts": {
+   "A": "Stream of bytes",
+   "B": "Sequence of characters",
+   "C": "Lines of data",
+   "D": "Packets"
+  },
+  "flags": []
+ },
+ {
+  "no": 24,
+  "q": "TCP groups a number of bytes together into a packet called",
+  "opts": {
+   "A": "Packet",
+   "B": "Buffer",
+   "C": "Segment",
+   "D": "Stack"
+  },
+  "flags": []
+ },
+ {
+  "no": 25,
+  "q": "Which of the following is false with respect to UDP",
+  "opts": {
+   "A": "Connection-oriented",
+   "B": "Unreliable",
+   "C": "Transport layer protocol",
+   "D": "All of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 26,
+  "q": "Beyond IP, TCP provides additional services such as",
+  "opts": {
+   "A": "Routing and switching",
+   "B": "Sending and receiving of packets",
+   "C": "Multiplexing and demultiplexing",
+   "D": "Demultiplexing and error checking"
+  },
+  "flags": []
+ },
+ {
+  "no": 27,
+  "q": "When the mail server sends mail to other mail servers it becomes",
+  "opts": {
+   "A": "SMTP server",
+   "B": "SMTP client",
+   "C": "Peer",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 28,
+  "q": "Physical or logical arrangement of network is",
+  "opts": {
+   "A": "Topology",
+   "B": "Routing",
+   "C": "Networking",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 29,
+  "q": "In TDM, slots are further divided into",
+  "opts": {
+   "A": "Seconds",
+   "B": "Frames",
+   "C": "Packets",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 30,
+  "q": "Which multiplexing technique transmits digital signals ?",
+  "opts": {
+   "A": "FDM",
+   "B": "TDM",
+   "C": "WDM",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 31,
+  "q": "UTP is commonly used in",
+  "opts": {
+   "A": "DSL",
+   "B": "FTTP",
+   "C": "HTTP",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 32,
+  "q": "Radio channels are attractive medium because",
+  "opts": {
+   "A": "Can penetrate walls",
+   "B": "Connectivity can be given to mobile user",
+   "C": "Can carry signals for long distance",
+   "D": "All of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 33,
+  "q": "Optical fibre works in the principle of",
+  "opts": {
+   "A": "Total internal reflection",
+   "B": "Total internal refraction",
+   "C": "Total external reflection",
+   "D": "Total external refraction"
+  },
+  "flags": []
+ },
+ {
+  "no": 34,
+  "q": "Which of this is not a guided media ?",
+  "opts": {
+   "A": "Fiber optical cable",
+   "B": "Coaxial cable",
+   "C": "Wireless LAN",
+   "D": "Copper wire"
+  },
+  "flags": []
+ },
+ {
+  "no": 35,
+  "q": "In Network Management System, maps track each piece of hardware and its connection to the",
+  "opts": {
+   "A": "IP Server",
+   "B": "Domain",
+   "C": "Network",
+   "D": "Data"
+  },
+  "flags": []
+ },
+ {
+  "no": 36,
+  "q": "“Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to:",
+  "opts": {
+   "A": "Unauthorized access to computer material",
+   "B": "Unauthorized modification of computer material",
+   "C": "Dissemination of viruses or other malware",
+   "D": "All of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 37,
+  "q": "What is a Software ?",
+  "opts": {
+   "A": "Software is set of programs",
+   "B": "Software is documentation and configuration of data",
+   "C": "Software is set of programs, documentation & configuration of data",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 38,
+  "q": "RAD stands for",
+  "opts": {
+   "A": "Relative Application Development",
+   "B": "Rapid Application Development",
+   "C": "Rapid Application Document",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 39,
+  "q": "Which model can be selected if user is involved in all the phases of SDLC?",
+  "opts": {
+   "A": "Waterfall Model",
+   "B": "Prototyping Model",
+   "C": "RAD Model",
+   "D": "both Prototyping Model & RAD Model"
+  },
+  "flags": []
+ },
+ {
+  "no": 40,
+  "q": "Which one of the following is not an Evolutionary Process Model?",
+  "opts": {
+   "A": "WINWIN Spiral Model",
+   "B": "Incremental Model",
+   "C": "Concurrent Development Model",
+   "D": "All of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 41,
+  "q": "Which one of the following is not a fundamental activity for software processes in software engineering?",
+  "opts": {
+   "A": "Software Verification",
+   "B": "Software Validation",
+   "C": "Software design and implementation",
+   "D": "Software evolution"
+  },
+  "flags": []
+ },
+ {
+  "no": 42,
+  "q": "Which is the first step in the software development life cycle ?",
+  "opts": {
+   "A": "Analysis",
+   "B": "Design",
+   "C": "Problem/Opportunity Identification",
+   "D": "Development and Documentation"
+  },
+  "flags": []
+ },
+ {
+  "no": 43,
+  "q": "In the Analysis phase, the development of the ________ occurs, which is a clear statement of the goals and objectives of the project.",
+  "opts": {
+   "A": "documentation",
+   "B": "flowchart",
+   "C": "program specification",
+   "D": "design"
+  },
+  "flags": []
+ },
+ {
+  "no": 44,
+  "q": "White Box techniques are also classified as",
+  "opts": {
+   "A": "Design based testing",
+   "B": "Structural testing",
+   "C": "Error guessing technique",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 45,
+  "q": "Alpha testing is done at",
+  "opts": {
+   "A": "Developer’s end",
+   "B": "User’s end",
+   "C": "Developer’s & User’s end",
+   "D": "None of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 46,
+  "q": "Software Testing with real data in real environment is known as",
+  "opts": {
+   "A": "alpha testing",
+   "B": "beta testing",
+   "C": "regression testing",
+   "D": "none of these"
+  },
+  "flags": []
+ },
+ {
+  "no": 47,
+  "q": "Which of the following is not a conflict in software development team?",
+  "opts": {
+   "A": "Simultaneous updates",
+   "B": "Shared and common code",
+   "C": "Versions",
+   "D": "Graphics issues"
+  },
+  "flags": []
+ },
+ {
+  "no": 48,
+  "q": "Which of the following is not a part of Software Configuration Management Basics?",
+  "opts": {
+   "A": "Identification",
+   "B": "Version",
+   "C": "Auditing and Reviewing",
+   "D": "Status Accounting"
+  },
+  "flags": []
+ },
+ {
+  "no": 49,
+  "q": "The construction of object-oriented software begins with the creation of",
+  "opts": {
+   "A": "design model",
+   "B": "analysis model",
+   "C": "code levels",
+   "D": "both design and analysis model"
+  },
+  "flags": []
+ },
+ {
+  "no": 50,
+  "q": "________ methods can be used to drive validations tests",
+  "opts": {
+   "A": "Yellow-box testing",
+   "B": "Black-box testing",
+   "C": "White-box testing",
+   "D": "All of these"
+  },
+  "flags": []
+ }
+]

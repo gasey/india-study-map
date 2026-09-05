@@ -1,0 +1,227 @@
+[
+  {
+    "no": 1,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Asks what a relational database is a collection of (tables/relations). Core relational-model vocabulary.",
+    "confidence": "high"
+  },
+  {
+    "no": 2,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "The term for a row is 'tuple' — the leaf names tuples explicitly.",
+    "confidence": "high"
+  },
+  {
+    "no": 3,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "The set of permitted values for an attribute is its domain — the leaf names domains explicitly.",
+    "confidence": "high"
+  },
+  {
+    "no": 4,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Tests the attribute-vs-relation distinction on a course schema. Relational-model terminology.",
+    "confidence": "high"
+  },
+  {
+    "no": 5,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Atomicity of a domain (indivisible elements) is a property of domains in the relational model.",
+    "confidence": "high"
+  },
+  {
+    "no": 6,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Whether tuples of a relation have an inherent order is a property of relations in the relational model.",
+    "confidence": "high"
+  },
+  {
+    "no": 7,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Definition of a foreign key in terms of a primary key — the leaf covers keys.",
+    "confidence": "high"
+  },
+  {
+    "no": 8,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "Distinguishes super key from candidate/foreign key. Squarely the keys part of this leaf.",
+    "confidence": "high"
+  },
+  {
+    "no": 9,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Transaction processing, schedules and recoverability",
+    "why": "Definition of a transaction as a sequence of query/update statements.",
+    "confidence": "high"
+  },
+  {
+    "no": 10,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Transaction processing, schedules and recoverability",
+    "why": "What happens on a shutdown before commit (rollback) is transaction recovery/recoverability.",
+    "confidence": "high"
+  },
+  {
+    "no": 11,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "SQL and basic query statements",
+    "why": "Asks to spot the syntax error in a SELECT statement (the smart double quotes around the string literal).",
+    "confidence": "high"
+  },
+  {
+    "no": 12,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Entity-Relationship modelling",
+    "why": "The descriptive property of an entity set is an attribute — standard ER-model terminology.",
+    "confidence": "high"
+  },
+  {
+    "no": 13,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Entity-Relationship modelling",
+    "why": "Multivalued attributes are an ER-model attribute classification.",
+    "confidence": "high"
+  },
+  {
+    "no": 14,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Entity-Relationship modelling",
+    "why": "Contrasts ER attributes (multivalued, composite) with relational-table cells; the question names the basic ER model first, so it sits here rather than under the relational-model leaf.",
+    "confidence": "medium"
+  },
+  {
+    "no": 15,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "why": "The key that represents a relationship between tables is the foreign key — the keys part of this leaf.",
+    "confidence": "high"
+  },
+  {
+    "no": 16,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Database design, functional dependencies and normal forms",
+    "why": "Asks what the table on the many side of a 1:M / M:N relationship must have; the options are normal forms and key structure, so it is relational schema design. The 'must' as printed is arguable, hence medium.",
+    "confidence": "medium"
+  },
+  {
+    "no": 17,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Database design, functional dependencies and normal forms",
+    "why": "Which normal forms rest on functional dependency — the leaf names functional dependencies and normal forms directly.",
+    "confidence": "high"
+  },
+  {
+    "no": 18,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Transaction processing, schedules and recoverability",
+    "why": "Asks which of two fund transfers constitutes a transaction — the transaction abstraction itself.",
+    "confidence": "high"
+  },
+  {
+    "no": 19,
+    "verdict": "on",
+    "paper": "TECH2",
+    "unit": "3",
+    "sub": "Transaction processing, schedules and recoverability",
+    "why": "Names the ACID isolation property. Filed under transaction processing since it asks for the property name, though the concurrency-control leaf is a defensible alternative.",
+    "confidence": "medium"
+  },
+  {
+    "no": 20,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Encapsulation and header addition as a packet descends the OSI/TCP-IP layer hierarchy. That is general data communications and networking, which the 2026 syllabus does not carry; TECH2 Unit 2's networking leaf is limited to web architecture, HTTP/HTTPS and DNS.",
+    "confidence": "high"
+  },
+  {
+    "no": 21,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Simplex vs half/full duplex transmission modes — data communications fundamentals, not web architecture or any other 2026 leaf.",
+    "confidence": "high"
+  },
+  {
+    "no": 22,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Transmission medium as the physical path of a message — data communications, explicitly outside the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 23,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "TCP's byte-stream service model — transport-layer internals, not the HTTP/DNS/client-server web architecture the syllabus admits.",
+    "confidence": "high"
+  },
+  {
+    "no": 24,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "TCP segmentation terminology — transport-layer internals, outside the 2026 syllabus.",
+    "confidence": "high"
+  },
+  {
+    "no": 25,
+    "verdict": "off",
+    "paper": null,
+    "unit": null,
+    "sub": null,
+    "why": "Properties of UDP as a transport-layer protocol — general networking, not covered by any TECH1 or TECH2 leaf.",
+    "confidence": "high"
+  }
+]

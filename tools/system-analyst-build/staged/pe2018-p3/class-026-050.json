@@ -1,0 +1,227 @@
+[
+ {
+  "no": 26,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "TCP transport-layer services (multiplexing/demultiplexing, error checking). TCP internals are general data communications; the only networking leaf in the 2026 syllabus is TECH2 Unit 2's web architecture/HTTP/DNS leaf, which this does not touch.",
+  "confidence": "high"
+ },
+ {
+  "no": 27,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "SMTP client/server roles in mail relay. Email protocols are not in the 2026 syllabus; the TECH2 Unit 2 leaf covers web client-server communication over HTTP/HTTPS and DNS, not SMTP.",
+  "confidence": "medium"
+ },
+ {
+  "no": 28,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Network topology (physical vs logical arrangement) — explicitly a data communications topic with no leaf in either 2026 paper.",
+  "confidence": "high"
+ },
+ {
+  "no": 29,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Time-division multiplexing frame/slot structure. Multiplexing belongs to data communications, which the 2026 syllabus dropped entirely.",
+  "confidence": "high"
+ },
+ {
+  "no": 30,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Comparison of FDM/TDM/WDM multiplexing techniques — data communications, no corresponding leaf in TECH1 or TECH2.",
+  "confidence": "high"
+ },
+ {
+  "no": 31,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "UTP cabling and its use in DSL — transmission media, a data communications topic absent from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 32,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Properties of radio channels as a transmission medium — wireless data communications, not covered by any 2026 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 33,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Physics of optical fibre (total internal reflection) — transmission media, outside both 2026 papers.",
+  "confidence": "high"
+ },
+ {
+  "no": 34,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Guided vs unguided transmission media — data communications, no leaf in the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 35,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Network Management Systems and hardware/connection maps — network administration, not web architecture or hosting; nothing in TECH1 or TECH2 covers it.",
+  "confidence": "high"
+ },
+ {
+  "no": 36,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Professional ethics/misuse from the software engineering code of conduct. The syllabus's only 'ethics and law' wording sits inside the AI-assisted web development leaf, which this does not test.",
+  "confidence": "medium"
+ },
+ {
+  "no": 37,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of software (programs + documentation + configuration data) — software engineering fundamentals, dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 38,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "RAD as an SDLC process model acronym — software engineering process models, not covered by TECH1 or TECH2.",
+  "confidence": "high"
+ },
+ {
+  "no": 39,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Choosing an SDLC process model based on user involvement — software engineering process models, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 40,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Classification of evolutionary process models (spiral, incremental, concurrent) — software engineering, no 2026 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 41,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Fundamental activities of the software process (specification, design, validation, evolution) — software engineering, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 42,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "First step of the SDLC — systems analysis and software engineering lifecycle, absent from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 43,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Deliverable of the analysis phase (program specification) — systems analysis and design, which the 2026 syllabus does not contain.",
+  "confidence": "high"
+ },
+ {
+  "no": 44,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "White-box testing as structural testing — software testing, part of the dropped software engineering subject.",
+  "confidence": "high"
+ },
+ {
+  "no": 45,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Alpha testing venue — software testing, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 46,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Beta testing (real data in a real environment) — software testing, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 47,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Conflicts handled by software configuration management (simultaneous updates, shared code, versions). Arguably adjacent to the 'Git version control' leaf in TECH2 Unit 2, but it tests an SE-textbook SCM list rather than any Git/CI-CD practice.",
+  "confidence": "low"
+ },
+ {
+  "no": 48,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "The four SCM tasks (identification, version control, auditing, status accounting) — software configuration management theory from software engineering, not the Git/CI-CD tooling leaf.",
+  "confidence": "medium"
+ },
+ {
+  "no": 49,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "1",
+  "sub": "OOP concepts, applications and the OOP process",
+  "why": "Asks where object-oriented development starts (analysis model before design model), which is the object-oriented development process named in this leaf. Fit is textual rather than obvious, since the question is drawn from a software engineering chapter.",
+  "confidence": "medium"
+ },
+ {
+  "no": 50,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Black-box methods for driving validation tests — software testing techniques, off-syllabus.",
+  "confidence": "high"
+ }
+]

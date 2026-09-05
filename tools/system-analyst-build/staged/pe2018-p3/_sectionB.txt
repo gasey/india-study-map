@@ -1,0 +1,29 @@
+SECTION - B (Short answer type question)
+                                         (100 Marks)
+                             All questions carry equal marks of 5 each.
+              This Section should be answered only on the Answer Sheet provided.
+
+ 1. What are the characteristics of a data in a database?
+ 2. What are the disadvantages of database system? Explain them briefly.
+ 3. Explain the difference between an attribute and value set.
+ 4. Discuss the conventions for displaying an ER schema as an ER diagram.
+ 5. What is the significance of views in SQL? Give SQL statement to update data.
+ 6. What are the different types of relations between the entities in a table?
+ 7. Discuss the types of privileges at the account level and at the relational level.
+ 8. Explain locking techniques for concurrency control.
+ 9. Discuss the TCP Header.
+10. What are the different types of transmission impairments?
+11. Distinguish between adaptive and non-adaptive routing algorithms.
+12. Explain function of token bus.
+13. Compare and contrast FDMA, TDMA and CDMA techniques.
+14. What is ISDN? Explain types of services provided by ISDN.
+15. What are the various categories of software?
+16. What are the Drawbacks of RAD Model?
+17. What are the benefits of prototyping?
+18. What is the role of SRS? Explain.
+19. What is the importance of data dictionary?
+20. Differentiate between verification and Validation.
+
+
+                                              *******
+

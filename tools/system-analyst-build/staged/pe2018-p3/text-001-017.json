@@ -1,0 +1,192 @@
+{
+  "range": "1-17",
+  "questions": [
+    {
+      "no": 1,
+      "q": "A relational database consists of a collection of",
+      "opts": {
+        "A": "Tables",
+        "B": "Fields",
+        "C": "Records",
+        "D": "Keys"
+      },
+      "flags": []
+    },
+    {
+      "no": 2,
+      "q": "The term ________ is used to refer to a row.",
+      "opts": {
+        "A": "Attribute",
+        "B": "Tuple",
+        "C": "Field",
+        "D": "Instance"
+      },
+      "flags": []
+    },
+    {
+      "no": 3,
+      "q": "For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.",
+      "opts": {
+        "A": "Domain",
+        "B": "Relation",
+        "C": "Set",
+        "D": "Schema"
+      },
+      "flags": []
+    },
+    {
+      "no": 4,
+      "q": "(course_id,sec_id,semester) ,Here the course_id,sec_id and semester are _______ and course is a",
+      "opts": {
+        "A": "Relations, Attribute",
+        "B": "Attributes, Relation",
+        "C": "Tuple, Relation",
+        "D": "Tuple, Attributes"
+      },
+      "flags": []
+    },
+    {
+      "no": 5,
+      "q": "A domain is atomic if elements of the domain are considered to be ________ units.",
+      "opts": {
+        "A": "Different",
+        "B": "Indivisbile",
+        "C": "Constant",
+        "D": "Divisible"
+      },
+      "flags": []
+    },
+    {
+      "no": 6,
+      "q": "The tuples of the relations can be of ________ order.",
+      "opts": {
+        "A": "Any",
+        "B": "Same",
+        "C": "Sorted",
+        "D": "Constant"
+      },
+      "flags": []
+    },
+    {
+      "no": 7,
+      "q": "A attribute in a relation is a foreign key if the ________ key from one relation is used as an attribute in that relation .",
+      "opts": {
+        "A": "Candidate",
+        "B": "Primary",
+        "C": "Super",
+        "D": "Sub"
+      },
+      "flags": []
+    },
+    {
+      "no": 8,
+      "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+      "opts": {
+        "A": "Candidate key",
+        "B": "Sub key",
+        "C": "Super key",
+        "D": "Foreign key"
+      },
+      "flags": []
+    },
+    {
+      "no": 9,
+      "q": "A ________ consists of a sequence of query and/or update statements.",
+      "opts": {
+        "A": "Transaction",
+        "B": "Commit",
+        "C": "Rollback",
+        "D": "Flashback"
+      },
+      "flags": []
+    },
+    {
+      "no": 10,
+      "q": "In case of any shut down during transaction before commit which of the following statement is done automatically?",
+      "opts": {
+        "A": "View",
+        "B": "Commit",
+        "C": "Rollback",
+        "D": "Flashback"
+      },
+      "flags": []
+    },
+    {
+      "no": 11,
+      "q": "Select * from employee where dept_name=”Comp Sci”; In the SQL given above there is an error . Identify the error .",
+      "opts": {
+        "A": "Dept_name",
+        "B": "Employee",
+        "C": "“Comp Sci”",
+        "D": "From"
+      },
+      "flags": []
+    },
+    {
+      "no": 12,
+      "q": "The descriptive property possessed by each entity set is",
+      "opts": {
+        "A": "Entity",
+        "B": "Attribute",
+        "C": "Relation",
+        "D": "Model"
+      },
+      "flags": []
+    },
+    {
+      "no": 13,
+      "q": "Which of the following can be a multivalued attribute ?",
+      "opts": {
+        "A": "Phone_number",
+        "B": "Name",
+        "C": "Date_of_birth",
+        "D": "All of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 14,
+      "q": "Given the basic ER and relational models, which of the following is INCORRECT?",
+      "opts": {
+        "A": "An attribute of an entity can have more than one value",
+        "B": "An attribute of an entity can be composite",
+        "C": "In a row of a relational table, an attribute can have more than one value",
+        "D": "In a row of a relational table, an attribute can have exactly one value or a NULL value"
+      },
+      "flags": []
+    },
+    {
+      "no": 15,
+      "q": "Key to represent relationship between tables is called",
+      "opts": {
+        "A": "Primary key",
+        "B": "Secondary Key",
+        "C": "Foreign Key",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 16,
+      "q": "A table on the many side of a one to many or many to many relationship must:",
+      "opts": {
+        "A": "Be in Second Normal Form (2NF)",
+        "B": "Be in Third Normal Form (3NF)",
+        "C": "Have a single attribute key",
+        "D": "Have a composite key"
+      },
+      "flags": []
+    },
+    {
+      "no": 17,
+      "q": "Which forms are based on the concept of functional dependency:",
+      "opts": {
+        "A": "1NF",
+        "B": "2NF",
+        "C": "3NF",
+        "D": "4NF"
+      },
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+ {
+  "no": 1,
+  "ans": "A",
+  "conf": "high",
+  "exp": "In the relational model a database is a collection of relations, each presented to the user as a table of rows and columns. Fields, records and keys are components inside a table, not the units the database itself is composed of."
+ },
+ {
+  "no": 2,
+  "ans": "B",
+  "conf": "high",
+  "exp": "A row of a relation is formally a tuple, while the columns are attributes. 'Field' and 'record' are the older file-processing terms for column and row respectively, so 'field' cannot denote a row."
+ },
+ {
+  "no": 3,
+  "ans": "A",
+  "conf": "high",
+  "exp": "The set of permitted values for an attribute is called its domain. A schema is the logical design of the whole relation, not the value set of a single attribute."
+ },
+ {
+  "no": 4,
+  "ans": "B",
+  "conf": "high",
+  "exp": "In a schema written course(course_id, sec_id, semester), the parenthesised names are attributes and 'course' is the relation. Calling them tuples is the classic mix-up: a tuple is one row of values, not a column name."
+ },
+ {
+  "no": 5,
+  "ans": "B",
+  "conf": "high",
+  "exp": "A domain is atomic when its elements are treated as indivisible units - the value cannot be meaningfully broken into parts by the DBMS, which is what First Normal Form requires. The printed option misspells 'Indivisible', but the intent is unambiguous."
+ },
+ {
+  "no": 6,
+  "ans": "A",
+  "conf": "high",
+  "exp": "A relation is mathematically a set of tuples, and a set has no inherent ordering, so the tuples may appear in any order without changing the relation. Physical sorting is only an implementation or ORDER BY concern."
+ },
+ {
+  "no": 7,
+  "ans": "B",
+  "conf": "high",
+  "exp": "A foreign key is an attribute (or set of attributes) whose values are drawn from the primary key of a referenced relation, which is what enforces referential integrity. A candidate key that is not the chosen primary key is not what a foreign key normally references in the textbook definition."
+ },
+ {
+  "no": 8,
+  "ans": "C",
+  "conf": "high",
+  "exp": "A superkey is a set of one or more attributes that, taken collectively, identify a tuple uniquely - exactly the wording here. Candidate key is the trap: it is a *minimal* superkey, and the question imposes no minimality condition."
+ },
+ {
+  "no": 9,
+  "ans": "A",
+  "conf": "high",
+  "exp": "A transaction is a unit of work made up of a sequence of query and/or update statements that must succeed or fail as a whole. COMMIT and ROLLBACK are single statements that end a transaction, not sequences of statements."
+ },
+ {
+  "no": 10,
+  "ans": "C",
+  "conf": "high",
+  "exp": "If the system shuts down before a COMMIT, the recovery manager undoes the incomplete transaction - an automatic rollback - which is what preserves atomicity. An uncommitted transaction is never auto-committed."
+ },
+ {
+  "no": 11,
+  "ans": "C",
+  "conf": "high",
+  "exp": "SQL string literals must be enclosed in single quotes ('Comp Sci'); double quotes denote a delimited identifier (and the smart quotes printed here are not valid SQL at all), so the comparison value is the error. The table name, column name and FROM keyword are all well formed."
+ },
+ {
+  "no": 12,
+  "ans": "B",
+  "conf": "high",
+  "exp": "In the ER model, an attribute is the descriptive property that every member of an entity set possesses (e.g. every student has a name and an ID). An entity is the thing being described, not the description."
+ },
+ {
+  "no": 13,
+  "ans": "A",
+  "conf": "high",
+  "exp": "A multivalued attribute can hold a set of values for a single entity, and one person may have several phone numbers. Name is single-valued (it can be *composite*, which is a different concept) and a person has exactly one date of birth, so 'All of these' is wrong."
+ },
+ {
+  "no": 14,
+  "ans": "C",
+  "conf": "high",
+  "exp": "The relational model requires atomic single values per cell, so an attribute in a row can hold exactly one value or NULL - never several - which makes this statement the incorrect one. Multivalued and composite attributes (options a and b) are perfectly legal in the ER model; they only have to be flattened when the ER design is mapped to tables."
+ },
+ {
+  "no": 15,
+  "ans": "C",
+  "conf": "high",
+  "exp": "A foreign key in one table refers to the primary key of another, and that reference is what represents the relationship between the two tables. A primary key only identifies rows within its own table."
+ },
+ {
+  "no": 16,
+  "ans": "D",
+  "conf": "medium",
+  "exp": "The intended answer is the composite key: resolving a many-to-many relationship produces an associative table keyed on the combination of both parent keys, so the many-side table carries a multi-attribute key rather than a single-attribute one. Note the question is loosely worded - on the many side of a plain one-to-many relationship the child table need not have a composite key at all, so the 'must' really only holds for the many-to-many case."
+ },
+ {
+  "no": 17,
+  "ans": "C",
+  "conf": "low",
+  "exp": "3NF is the normal form conventionally identified with functional dependency, being defined by removing transitive functional dependencies on the key, whereas 4NF rests on multivalued dependencies and 1NF only on atomicity. Marked low confidence because 2NF (partial functional dependency) is equally based on functional dependency, so this single-answer question is genuinely ambiguous between (b) and (c)."
+ },
+ {
+  "no": 18,
+  "ans": "C",
+  "conf": "high",
+  "exp": "Each transfer is a self-contained unit of work - debit one account, credit the other - that must be all-or-nothing, so each of (1) and (2) individually qualifies as a transaction. 'Either 1 or 2' is the trap: it implies only one of them counts, when both do."
+ },
+ {
+  "no": 19,
+  "ans": "C",
+  "conf": "high",
+  "exp": "Isolation is the ACID property guaranteeing that concurrently executing transactions do not interfere with one another, each behaving as if it ran alone. Atomicity concerns all-or-nothing execution and durability concerns surviving crashes, so 'All of these' overreaches."
+ },
+ {
+  "no": 49,
+  "ans": "D",
+  "conf": "medium",
+  "exp": "Standard OO software-engineering texts state that construction of object-oriented software begins with the creation of analysis and design models, which are then elaborated directly into code - so the combined option is the intended one. 'Analysis model' alone is the tempting partial answer, but it ignores the design model that construction also builds on."
+ }
+]

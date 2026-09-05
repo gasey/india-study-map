@@ -15,8 +15,19 @@ cosmetic — a wrong answer teaches the user something false for a real exam.
   question rendered as a garbled MCQ with blank options — same date). If
   something in the app looks "off" (garbled text, missing options, a
   question that doesn't quite make sense), the right instinct is to go
-  check the original source PDF (`~/Downloads/mpsc_pdfs_examination/`),
-  not to patch around the symptom in the UI.
+  check the original source PDF, not to patch around the symptom in the UI.
+
+  **Where the source PDFs are:** in-repo at `mpsc-cse-papers/` (the 18 CSE
+  Paper I/II/III PDFs — see that dir's `README.md` for the PDF→sitting
+  mapping, which the filenames do *not* make obvious), plus
+  `tools/system-analyst-build/sources/` and
+  `tools/system-manager-build/sources/`. The
+  `~/Downloads/mpsc_pdfs_examination/` path that older DEVLOG entries and
+  `tools/bank-rebuild/*.py` still hardcode **no longer exists on this
+  machine** — that was the `Old_Questions/` + `Answer_Keys/` corpus, and it
+  is gone, so those parsers cannot be re-run as written. Don't burn time
+  looking for it; if a question traces back to that corpus, the staged JSON
+  under `tools/*/staged/` is the most upstream copy left.
 - **Browse, not just quiz.** Every "group by X" view (By Exam, By Year, By
   Paper) must let you expand a group and actually read the questions
   inline — not just fire a mock test. This was explicitly requested after

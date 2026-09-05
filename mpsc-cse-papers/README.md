@@ -20,10 +20,10 @@ in this material has already destroyed a paper once (DEVLOG 2026-09-03).
 | `inspector-of-legal-metrology-2010-…-ii.pdf` | ILM, March 2010 | II | 88 |
 | `computer-scienceengg-paper-i.pdf` | **ILM, December 2018** | I | 43 |
 | `computer-scienceengg-paper-ii.pdf` | **ILM, December 2018** | II | 14 |
-| `computer-scienceengg-paper-iii.pdf` | **ILM, December 2018** | III | **0** |
+| `computer-scienceengg-paper-iii.pdf` | **ILM, December 2018** | III | **36** of 100 |
 | `computer-science-engineering-paper-i.pdf` | **ILM, November 2023** | I | 97 |
 | `computer-science-engineering-paper-ii.pdf` | **ILM, November 2023** | II | 39 |
-| `computer-science-engineering-paper-iii.pdf` | **ILM, November 2023** | III | **0** |
+| `computer-science-engineering-paper-iii.pdf` | **ILM, November 2023** | III | **36** of 100 |
 | `computer-scienceengg-paper-ii-pe.pdf` | MES P&E, August 2018 | II | 21 |
 | `computer-scienceengg-paper-iii-pe.pdf` | MES P&E, August 2018 | III | **0** |
 | `jr-grade-…-mes-2015-…-paper-i.pdf` | MES, November 2015 | I | 50 |
@@ -40,12 +40,49 @@ Note the two near-identical prefixes: `computer-scienceengg-` is **ILM December
 `computer-science-engineering-` is **ILM November 2023**. One hyphen apart, five
 years and two posts different.
 
-## No Paper III has ever been imported
+## Paper III: two of five imported (as of 2026-09-05)
 
-Every Paper III here has **zero** questions in the bank — roughly 350 MCQs plus
-five Section B sets. This was not a decision anyone recorded; it looks like the
-imports simply never covered Paper III. Sizes: ILM Dec 2018 and ILM Nov 2023 are
-100 questions each; the three MES/P&E Paper IIIs are 50 MCQs plus a Section B.
+For years every Paper III here had **zero** questions in the bank — ~350 MCQs
+unreachable. No decision to skip them was ever recorded; the imports simply
+never covered Paper III. Two are now in:
+
+| Sitting | Section A | Section B | Status |
+|---|---|---|---|
+| ILM, Nov 2023 | 100 MCQ (2 mk each) | **none** | **imported** — 36 on-syllabus |
+| ILM, Dec 2018 | 100 MCQ (2 mk each) | **none** | **imported** — 36 on-syllabus |
+| MES P&E, Aug 2018 | 50 MCQ (100 mk) | 20 × 5 mk | pending |
+| MES P&E Electrical, Jul 2023 | 50 MCQ (100 mk) | 20 × 5 mk | pending |
+| MES, Nov 2015 | 50 MCQ (100 mk) | 20 × 5 mk | pending |
+
+**Only three of the five have a Section B, not five.** An earlier version of
+this file said "roughly 350 MCQs plus five Section B sets"; that was written
+from the file listing before the papers were opened. The two ILM papers are
+pure MCQ — ILM Nov 2023's cover reads *"All questions carry equal marks of 2
+each"* with no Part A/B split (100 × 2 = its Full Marks 200) and its last page
+ends at Q100. Nothing was dropped from either import. The 350 total was right
+by coincidence: 100 + 100 + 50 + 50 + 50.
+
+Only ~36 of each 100-MCQ ILM paper survives classification, because these
+papers were set for the pre-2026 syllabus and the 2026 one dropped software
+engineering, data communications and systems analysis outright. Expect a
+similar rate on the remaining three. Per-question exclusion reasons are kept in
+`tools/system-analyst-build/staged/<sitting>/_classified.json` so the excluded
+questions are recoverable if the syllabus ever widens.
+
+### Two extraction traps in the three pending papers
+
+Both would corrupt an import silently:
+
+- **MES Nov 2015 prints "Part A" / "Part B", not "SECTION - A/B".** Grepping
+  for `SECTION` finds the split in the other two papers and returns *nothing*
+  here — which reads as "this paper has no Section B" rather than as a failed
+  match.
+- **A wrapped line can impersonate a question number.** In MES Jul 2023,
+  Section B Q12 continues onto a line beginning `46.4 ms.`, which any
+  `^\s*\d+\.` splitter reads as question 46 — tearing Q12 in half and
+  desynchronising every question after it. Section B stems wrap freely and
+  carry numeric data, so anchor the splitter on the expected next number, not
+  on the bare pattern.
 
 The ILM 2023 official answer key covers `cse_paper_1` and `cse_paper_2` **only**,
 so Paper III has no key in `staged/ilm2023-official-key.json`. Its answers must

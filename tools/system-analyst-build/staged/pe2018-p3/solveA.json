@@ -1,0 +1,122 @@
+[
+  {
+    "no": 1,
+    "ans": "A",
+    "conf": "high",
+    "exp": "In the relational model a database is a collection of relations, which are presented as tables. Fields, records and keys are components *within* a table, not the units the database itself is a collection of."
+  },
+  {
+    "no": 2,
+    "ans": "B",
+    "conf": "high",
+    "exp": "A row of a relation is formally called a tuple; a column heading is the attribute. 'Field' and 'record' belong to file-processing vocabulary, not the relational-model terms this question tests."
+  },
+  {
+    "no": 3,
+    "ans": "A",
+    "conf": "high",
+    "exp": "The set of permitted values for an attribute is its domain. The schema is the logical structure of the whole relation, not the value set of one attribute."
+  },
+  {
+    "no": 4,
+    "ans": "B",
+    "conf": "high",
+    "exp": "course_id, sec_id and semester are column names, hence attributes, while course is the relation (table) they belong to. Tuples are rows, so both 'Tuple' options are wrong."
+  },
+  {
+    "no": 5,
+    "ans": "B",
+    "conf": "high",
+    "exp": "A domain is atomic when its elements are treated as indivisible units — a value cannot be split into meaningful sub-parts. (The paper misspells it 'Indivisbile'.) 'Divisible' is the exact opposite and is the trap."
+  },
+  {
+    "no": 6,
+    "ans": "A",
+    "conf": "high",
+    "exp": "A relation is mathematically a set of tuples, so tuple order carries no meaning and the tuples may appear in any order. Sorting is imposed only later by an ORDER BY clause or an index, never by the relation itself."
+  },
+  {
+    "no": 7,
+    "ans": "B",
+    "conf": "high",
+    "exp": "A foreign key is an attribute whose values must match the primary key of the referenced relation. Candidate and super keys are broader notions and are not what the standard foreign-key definition references."
+  },
+  {
+    "no": 8,
+    "ans": "C",
+    "conf": "high",
+    "exp": "A superkey is any set of one or more attributes that collectively identifies a record uniquely — no minimality is required. Candidate key is the classic trap: it is a superkey that is additionally *minimal*, a condition this stem never states."
+  },
+  {
+    "no": 9,
+    "ans": "A",
+    "conf": "high",
+    "exp": "A transaction is a unit of work made up of a sequence of query and/or update statements. COMMIT and ROLLBACK are the statements that *end* a transaction, not the sequence itself."
+  },
+  {
+    "no": 10,
+    "ans": "C",
+    "conf": "high",
+    "exp": "If the system shuts down before a COMMIT, recovery undoes the partial work — an automatic rollback — which is what preserves atomicity. Uncommitted changes are never silently committed, ruling out (b)."
+  },
+  {
+    "no": 11,
+    "ans": "C",
+    "conf": "high",
+    "exp": "Standard SQL delimits string literals with single quotes, so 'Comp Sci' is required; the double-quoted “Comp Sci” is read as an identifier, not a string value, and is the error. The table name, column name and FROM keyword are all valid."
+  },
+  {
+    "no": 12,
+    "ans": "B",
+    "conf": "high",
+    "exp": "In the ER model each entity set is described by attributes — the descriptive properties its members possess. An entity is the thing being described, not the property."
+  },
+  {
+    "no": 13,
+    "ans": "A",
+    "conf": "high",
+    "exp": "A person can hold several phone numbers, so phone_number is the textbook multivalued attribute; name and date_of_birth each hold a single value. 'All of these' over-reaches and is the trap."
+  },
+  {
+    "no": 14,
+    "ans": "C",
+    "conf": "high",
+    "exp": "The relational model requires atomic values, so a cell in a row holds exactly one value or NULL — that makes statement (c) the incorrect one. The ER model by contrast genuinely does permit multivalued and composite attributes, which is why (a) and (b) are correct statements and not the answer."
+  },
+  {
+    "no": 15,
+    "ans": "C",
+    "conf": "high",
+    "exp": "A foreign key is the attribute that links a child table to its parent, so it is what represents a relationship between tables. A primary key identifies rows within its own table only."
+  },
+  {
+    "no": 16,
+    "ans": "D",
+    "conf": "medium",
+    "exp": "When a many-to-many relationship is resolved into a junction table, the two foreign keys together form its composite primary key, so the many-side table carries a composite key. Note the stem over-generalises: a table on the many side of a plain one-to-many relationship needs only its own single-attribute key plus a foreign key, so 'must' is only strictly true of the many-to-many case — the standard key for this item is still (d)."
+  },
+  {
+    "no": 17,
+    "ans": "C",
+    "conf": "medium",
+    "exp": "3NF is defined purely in terms of functional dependencies — it removes transitive functional dependencies on the key — whereas 4NF moves to multivalued dependencies and 1NF is only about atomicity. The question is loosely worded, since 2NF (full functional dependency, i.e. no partial dependency) is equally FD-based; 3NF is the conventionally keyed answer for this item."
+  },
+  {
+    "no": 18,
+    "ans": "C",
+    "conf": "high",
+    "exp": "A transaction is any collection of operations forming a single logical unit of work, and each transfer is complete in itself (debit one account, credit the other), so 1 and 2 each qualify individually. The trap is reading them as two halves of one transaction, which they are not — they are independent transfers in opposite directions."
+  },
+  {
+    "no": 19,
+    "ans": "C",
+    "conf": "high",
+    "exp": "Isolation is the ACID property that shields a transaction from the effects of other concurrently executing transactions. Atomicity is all-or-nothing execution and durability is survival of committed data after a crash, so 'All of these' is wrong."
+  },
+  {
+    "no": 49,
+    "ans": "D",
+    "conf": "high",
+    "exp": "Pressman states that the construction of object-oriented software begins with the creation of analysis *and* design models, which then evolve from informal requirement sketches into detailed class, relationship and object designs. Picking 'analysis model' alone is the trap, since OO construction is driven by the pair, not by analysis in isolation."
+  }
+]

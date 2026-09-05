@@ -1,0 +1,7 @@
+{
+  "5": "Option (b) is printed \"Indivisbile\" in the paper. The misspelling is carried through rather than repaired, and it is the keyed answer.",
+  "11": "The stem's curly quotes around ”Comp Sci” are exactly what the paper prints, and they are not extractor damage. The question turns on quoting: SQL string literals take single quotes, while double quotes denote a delimited identifier.",
+  "16": "The stem over-generalises. A composite key is required of the associative table that resolves a many-to-many relationship, but the many side of a plain one-to-many needs only its own key plus a foreign key — so the printed \"must\" does not hold for the one-to-many half of the question. Both solvers chose (d) at medium confidence.",
+  "17": "Not cleanly single-answer as printed. 3NF is defined by removing transitive functional dependencies and 2NF by removing partial functional dependencies, so both are \"based on the concept of functional dependency\"; only 1NF (atomicity) and 4NF (multivalued dependencies) are clearly excluded. Keyed (c) as the conventional textbook identification, at low confidence, with (b) equally defensible. MPSC published no key for Paper III, so which one it intended cannot be checked.",
+  "49": "The two solvers split on self-rating here (high and medium) rather than on the answer, so this is stored medium. The wording turns on whether the setter wanted the textbook phrase \"analysis and design models\" or \"analysis model\" alone; (d) reads as the intended option."
+}

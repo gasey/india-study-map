@@ -9,6 +9,136 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (night) — Paper III #3 (P&E Aug 2018): the "five Section B sets" scare was a doc bug, the lower-of-two rule is now executable, and this import split one sitting into two before the browser caught it
+
+**What shipped.**
+
+- `import_pe2018_p3.py` + `staged/pe2018-p3-import.json` — 20 questions from
+  MES P&E August 2018 CSE Paper III Section A into TECH2 (19 Unit 3 DBMS, 1
+  Unit 1 OOP). Bank 1901 → 1921.
+- `merge_solves.py` — new, generic. Turns the two-solver merge from a hand
+  operation into a script.
+- Corrections to `mpsc-cse-papers/README.md`, `CLAUDE.md` and one earlier
+  DEVLOG entry, all of which were wrong in ways that would mislead the next
+  session.
+
+**The scare that started the session, and why it was a doc bug.** The previous
+entry and `mpsc-cse-papers/README.md` both said the five Paper IIIs hold "about
+350 MCQs plus **five** Section B sets". If true, the two ILM papers already
+imported had each silently dropped 20 conventional questions — the exact
+failure class this project has been bitten by twice.
+
+They had not. **Only three of the five papers have a conventional section.** ILM
+Nov 2023 is a pure scan, so this could not be settled by grep: its cover page
+was rendered and read, and it says *"All questions carry equal marks of 2 each"*
+with no Part A/B split (100 × 2 = its printed Full Marks 200), and page 9 ends
+at Q100 with `*******`. ILM Dec 2018's text layer ends the same way. Both
+imports were complete. The claim had been written from the file listing before
+anyone opened the papers, and the 350 total was right by coincidence
+(100+100+50+50+50).
+
+Both files now carry the verified per-paper structure. The false claim is marked
+as a correction in place rather than silently rewritten.
+
+**Two extraction traps found while confirming that, both silent-corruption
+class.** These matter for the two remaining papers:
+
+- **MES Nov 2015 prints "Part A" / "Part B", not "SECTION - A/B".** Grepping
+  `SECTION` finds the split in the other two papers and returns *nothing* here —
+  which reads as "this paper has no Section B" rather than as a failed match.
+  This is very nearly the bug that was almost believed today.
+- **A wrapped line can impersonate a question number.** MES Jul 2023's Section
+  B Q12 continues onto a line beginning `46.4 ms.`, which any `^\s*\d+\.`
+  splitter reads as question 46 — tearing Q12 in half and desynchronising every
+  question after it. Found because a crude scan of question numbers fell for it.
+
+**`merge_solves.py`, and why the rule needed to stop being manual.** Every Paper
+III uses the same convention — two solvers who never see each other's work,
+`conf` = the LOWER of their two self-ratings — but ILM Nov 2023 and ILM Dec 2018
+both applied it *by hand* at the merge step. "Take the lower of two" is exactly
+the kind of one-line judgement that quietly becomes "take solver A's" on a long
+session, and `conf` drives a visible badge, so getting it wrong tells the reader
+an uncertain answer is settled.
+
+Three guards in it were tested by fault injection rather than assumed:
+
+- A **disagreement is a hard failure**, not a vote. With n=2 there is no
+  majority, and preferring one solver silently discards the only signal the
+  second pass exists to produce. The questions go to `_disagreements.json` and
+  the script exits 1.
+- The `--coverage` text **must start with "Only the "**, because the static app
+  finds the "N of M imported" line with an anchored `/^Only the /`. This encodes
+  the defect fixed earlier today, so it cannot come back by rewording.
+- A solver whose question set does not match the input, or whose answer letter
+  is not one of that question's own options, fails the merge.
+
+**Why 20 of 50, and why it is not just the opening run.** 30 questions are off
+the 2026 syllabus in two clean blocks: data communications and networking
+(Q20–Q35) and software engineering (Q36–Q48, Q50). The survivors are **Q1–Q19
+plus Q49** — Q49 sits *inside* the software-engineering block but is genuinely
+TECH2 Unit 1 OOP, while Q48 and Q50 either side of it are not. Worth stating
+because "the classifier just took the contiguous DBMS prefix" is a reasonable
+suspicion given the shape of the first two papers, and here it demonstrably did
+not. Per-question exclusion reasons are in `staged/pe2018-p3/_classified.json`.
+
+**Section B is deferred, not dropped** — 20 short-answer questions, recorded in
+`staged/pe2018-p3/README.md` and stated in the importer's own output on every
+run. It is not off-syllabus filler; several questions are core TECH2 Unit 3
+(views and SQL updates, account- vs relation-level privileges, locking for
+concurrency control). It is deferred because a descriptive question needs an
+authored model answer with no key to check it against, and `SOLVE_BRIEF.md` is
+written for MCQs. 60 such questions exist across the three remaining papers, so
+the brief is worth writing once.
+
+**The bug this import created, caught only in the browser.** The first run
+invented the sitting name *"Junior Grade, Mizoram Engineering Service (Power &
+Electricity), August 2018 · Paper III"*. Paper II from the **same sitting** was
+already in the bank as *"Jr. Grade of M.E.S. (P&E Dept), August 2018 · Paper
+II"*. The sitting name is the grouping key for By Year / By Paper, so Past
+Papers rendered the August 2018 sitting **twice, under two names, each looking
+complete** — a close cousin of the `CSE 2015` naming incident (3fc5f9b). Nothing
+in the data was invalid; every mechanical check passed. It was visible only by
+looking at the list.
+
+`import_pe2018_p3.py` now fails when the sitting prefix appears nowhere else in
+the bank and suggests the near-matches by month and year. Verified by injecting
+the original bad name: it exits 1 and names the right alternative.
+
+**Corroboration from a second sitting, via a warning that looks like a defect.**
+`check_bank_consistency.py` flagged `PE2018_P3_005` and `ILM2018_P3_002` as the
+same question keyed (B) with differing option text — *"A domain is atomic if
+elements of the domain are considered to be ____ units"*, where this paper
+misprints (b) as `Indivisbile` and ILM Dec 2018 prints `Indivisible`. MPSC
+reused the question across two sittings. **Two independent solver pairs, in two
+separate sessions, both keyed it (B).** With no official key for any Paper III,
+that cross-sitting agreement is the strongest corroboration available. The
+warning is expected, not a defect — the misprint is preserved deliberately.
+
+**Verified in the app.** The sitting shows one card per paper under a single
+name; the Paper III card reads "20 MCQ · 40 marks" with the "20 of 50" coverage
+line; all 20 questions browse; provenance badges are **17 `derived · high`, 2
+`medium`, 1 `low`** and **zero** read `official key` — the `provLine()` trap the
+PROV string is worded to avoid; the preserved misprints render; console clean.
+
+**What's still open.**
+- Two Paper IIIs remain: MES Nov 2015 and MES P&E Electrical Jul 2023. Both are
+  50 MCQ + 20 Section B, and both carry the traps above.
+- **Section B: 60 descriptive questions across three papers, and no brief.**
+  This is now the largest known gap in Paper III coverage.
+- `Jr. Grade of MES, November 2015` (50 records) has no `· Paper I` suffix while
+  its Paper II does. Importing MES Nov 2015 Paper III will meet this: the new
+  guard checks the *prefix*, which matches, so it will not fire — but the card
+  list will read inconsistently. Decide the suffix before that import, not
+  during it.
+- Q17 is keyed on a conventional textbook reading of an ambiguous stem, at
+  `low`. If an official P&E Paper III key ever surfaces, it is the first thing
+  to check.
+- No screenshot: the Browser pane's screenshot action timed out on every
+  attempt, at two viewport sizes, while JS execution, `read_page` and the
+  console all worked. Verification was textual, as for the previous two imports.
+
+---
+
 ## 2026-09-05 (late) — Paper III #2 (ILM Dec 2018): 36 more, a cross-paper answer contradiction caught by the checker, and a coverage note that had never rendered
 
 **What shipped.** `import_ilm2018_p3.py` + `staged/ilm2018-p3-import.json` — 36
@@ -81,7 +211,27 @@ import. The predicate is now `/^Only the /`; verified in the browser that Paper 
 cards are byte-identical and both Paper III cards gained the line.
 
 **What's still open.**
-- Three Paper IIIs remain: P&E Aug 2018, MES/P&E July 2023, MES Nov 2015.
+- Three Paper IIIs remain, and their structure is now verified rather than
+  assumed — all three are **50 MCQs + 20 short-answer**, unlike the two
+  100-MCQ ILM papers already imported:
+
+  | Sitting | PDF | Section A | Section B |
+  |---|---|---|---|
+  | P&E Dept, Aug 2018 | `computer-scienceengg-paper-iii-pe.pdf` | 50 MCQ (100 mk) | 20 × 5 mk |
+  | MES Electrical Wing / P&E, Jul 2023 | `jr-grade-of-mes-electrical-wing-...-paper-iii.pdf` | 50 MCQ (100 mk) | 20 × 5 mk |
+  | MES 2015 / P&E, Nov 2015 | `jr-grade-of-mizoram-engineering-service-mes-2015-...-paper-iii.pdf` | 50 MCQ (100 mk) | 20 × 5 mk |
+
+  Two gotchas found while confirming this, both of which would corrupt an
+  extraction silently:
+  - **MES Nov 2015 prints "Part A" / "Part B", not "SECTION - A/B".** A grep
+    for `SECTION` finds the split in the other two and returns *nothing* for
+    this paper — which reads as "no Section B" rather than as a failed match.
+  - **A wrapped line can impersonate a question number.** In MES Jul 2023,
+    Section B Q12 continues onto a line beginning `46.4 ms.`, which any
+    `^\s*\d+\.` question splitter reads as question 46 — tearing Q12 in half
+    and desynchronising everything after it. Section B stems wrap freely and
+    carry numeric data, so the splitter for these three must anchor on
+    expected-next-number, not on the bare pattern.
 - CLAUDE.md points at `~/Downloads/mpsc_pdfs_examination/` for source PDFs; that
   path does not exist on this machine. They are in-repo at `mpsc-cse-papers/`.
   The PDF→sitting mapping is in `staged/ilm2018-p3/README.md`.
@@ -102,6 +252,16 @@ questions from ILM November 2023 CSE Paper III, into TECH2 (34 in Unit 3 DBMS,
 bank, and five of them sit in `mpsc-cse-papers/` — about 350 MCQs plus five
 Section B sets. No decision to skip them was ever recorded; the imports simply
 never covered Paper III. This is the first one recovered.
+
+> **Correction (2026-09-05, later).** "Plus five Section B sets" was wrong —
+> written from the file listing before the papers were opened. Only **three**
+> of the five Paper IIIs have a conventional section. Both ILM papers (Nov 2023
+> and Dec 2018) are pure 100-MCQ papers: ILM Nov 2023's cover page reads *"All
+> questions carry equal marks of 2 each"* with no Part A/B split (100 × 2 = its
+> Full Marks 200) and page 9 ends at Q100; ILM Dec 2018's text layer ends the
+> same way. **Nothing was dropped from either import.** The 350 figure was
+> right by luck: 100 + 100 + 50 + 50 + 50. The accurate inventory is in the
+> 2026-09-05 (late) entry's open items.
 
 **Why only 36 of 100, and why that is the right number.** The paper was set for
 the pre-2026 syllabus. All 100 questions were classified leaf-by-leaf against

@@ -1,0 +1,342 @@
+[
+ {
+  "no": 1,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A relational database consists of a collection of",
+  "opts": {
+   "A": "Tables",
+   "B": "Fields",
+   "C": "Records",
+   "D": "Keys"
+  },
+  "ans": "A",
+  "exp": "In the relational model a database is a collection of relations, each presented to the user as a table of rows and columns. Fields, records and keys are components inside a table, not the units the database itself is composed of.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 2,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "The term ________ is used to refer to a row.",
+  "opts": {
+   "A": "Attribute",
+   "B": "Tuple",
+   "C": "Field",
+   "D": "Instance"
+  },
+  "ans": "B",
+  "exp": "A row of a relation is formally a tuple, while the columns are attributes. 'Field' and 'record' are the older file-processing terms for column and row respectively, so 'field' cannot denote a row.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 3,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.",
+  "opts": {
+   "A": "Domain",
+   "B": "Relation",
+   "C": "Set",
+   "D": "Schema"
+  },
+  "ans": "A",
+  "exp": "The set of permitted values for an attribute is called its domain. A schema is the logical design of the whole relation, not the value set of a single attribute.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 4,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "(course_id,sec_id,semester) ,Here the course_id,sec_id and semester are _______ and course is a",
+  "opts": {
+   "A": "Relations, Attribute",
+   "B": "Attributes, Relation",
+   "C": "Tuple, Relation",
+   "D": "Tuple, Attributes"
+  },
+  "ans": "B",
+  "exp": "In a schema written course(course_id, sec_id, semester), the parenthesised names are attributes and 'course' is the relation. Calling them tuples is the classic mix-up: a tuple is one row of values, not a column name.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 5,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A domain is atomic if elements of the domain are considered to be ________ units.",
+  "opts": {
+   "A": "Different",
+   "B": "Indivisbile",
+   "C": "Constant",
+   "D": "Divisible"
+  },
+  "ans": "B",
+  "exp": "A domain is atomic when its elements are treated as indivisible units - the value cannot be meaningfully broken into parts by the DBMS, which is what First Normal Form requires. The printed option misspells 'Indivisible', but the intent is unambiguous.",
+  "conf": "high",
+  "note": "Option (b) is printed \"Indivisbile\" in the paper. The misspelling is carried through rather than repaired, and it is the keyed answer. Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 6,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "The tuples of the relations can be of ________ order.",
+  "opts": {
+   "A": "Any",
+   "B": "Same",
+   "C": "Sorted",
+   "D": "Constant"
+  },
+  "ans": "A",
+  "exp": "A relation is mathematically a set of tuples, and a set has no inherent ordering, so the tuples may appear in any order without changing the relation. Physical sorting is only an implementation or ORDER BY concern.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 7,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "A attribute in a relation is a foreign key if the ________ key from one relation is used as an attribute in that relation .",
+  "opts": {
+   "A": "Candidate",
+   "B": "Primary",
+   "C": "Super",
+   "D": "Sub"
+  },
+  "ans": "B",
+  "exp": "A foreign key is an attribute (or set of attributes) whose values are drawn from the primary key of a referenced relation, which is what enforces referential integrity. A candidate key that is not the chosen primary key is not what a foreign key normally references in the textbook definition.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 8,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+  "opts": {
+   "A": "Candidate key",
+   "B": "Sub key",
+   "C": "Super key",
+   "D": "Foreign key"
+  },
+  "ans": "C",
+  "exp": "A superkey is a set of one or more attributes that, taken collectively, identify a tuple uniquely - exactly the wording here. Candidate key is the trap: it is a *minimal* superkey, and the question imposes no minimality condition.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 9,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "q": "A ________ consists of a sequence of query and/or update statements.",
+  "opts": {
+   "A": "Transaction",
+   "B": "Commit",
+   "C": "Rollback",
+   "D": "Flashback"
+  },
+  "ans": "A",
+  "exp": "A transaction is a unit of work made up of a sequence of query and/or update statements that must succeed or fail as a whole. COMMIT and ROLLBACK are single statements that end a transaction, not sequences of statements.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 10,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "q": "In case of any shut down during transaction before commit which of the following statement is done automatically?",
+  "opts": {
+   "A": "View",
+   "B": "Commit",
+   "C": "Rollback",
+   "D": "Flashback"
+  },
+  "ans": "C",
+  "exp": "If the system shuts down before a COMMIT, the recovery manager undoes the incomplete transaction - an automatic rollback - which is what preserves atomicity. An uncommitted transaction is never auto-committed.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 11,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "q": "Select * from employee where dept_name=”Comp Sci”; In the SQL given above there is an error . Identify the error .",
+  "opts": {
+   "A": "Dept_name",
+   "B": "Employee",
+   "C": "“Comp Sci”",
+   "D": "From"
+  },
+  "ans": "C",
+  "exp": "SQL string literals must be enclosed in single quotes ('Comp Sci'); double quotes denote a delimited identifier (and the smart quotes printed here are not valid SQL at all), so the comparison value is the error. The table name, column name and FROM keyword are all well formed.",
+  "conf": "high",
+  "note": "The stem's curly quotes around ”Comp Sci” are exactly what the paper prints, and they are not extractor damage. The question turns on quoting: SQL string literals take single quotes, while double quotes denote a delimited identifier. Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 12,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "q": "The descriptive property possessed by each entity set is",
+  "opts": {
+   "A": "Entity",
+   "B": "Attribute",
+   "C": "Relation",
+   "D": "Model"
+  },
+  "ans": "B",
+  "exp": "In the ER model, an attribute is the descriptive property that every member of an entity set possesses (e.g. every student has a name and an ID). An entity is the thing being described, not the description.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 13,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "q": "Which of the following can be a multivalued attribute ?",
+  "opts": {
+   "A": "Phone_number",
+   "B": "Name",
+   "C": "Date_of_birth",
+   "D": "All of these"
+  },
+  "ans": "A",
+  "exp": "A multivalued attribute can hold a set of values for a single entity, and one person may have several phone numbers. Name is single-valued (it can be *composite*, which is a different concept) and a person has exactly one date of birth, so 'All of these' is wrong.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 14,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "q": "Given the basic ER and relational models, which of the following is INCORRECT?",
+  "opts": {
+   "A": "An attribute of an entity can have more than one value",
+   "B": "An attribute of an entity can be composite",
+   "C": "In a row of a relational table, an attribute can have more than one value",
+   "D": "In a row of a relational table, an attribute can have exactly one value or a NULL value"
+  },
+  "ans": "C",
+  "exp": "The relational model requires atomic single values per cell, so an attribute in a row can hold exactly one value or NULL - never several - which makes this statement the incorrect one. Multivalued and composite attributes (options a and b) are perfectly legal in the ER model; they only have to be flattened when the ER design is mapped to tables.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 15,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "q": "Key to represent relationship between tables is called",
+  "opts": {
+   "A": "Primary key",
+   "B": "Secondary Key",
+   "C": "Foreign Key",
+   "D": "None of these"
+  },
+  "ans": "C",
+  "exp": "A foreign key in one table refers to the primary key of another, and that reference is what represents the relationship between the two tables. A primary key only identifies rows within its own table.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 16,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "A table on the many side of a one to many or many to many relationship must:",
+  "opts": {
+   "A": "Be in Second Normal Form (2NF)",
+   "B": "Be in Third Normal Form (3NF)",
+   "C": "Have a single attribute key",
+   "D": "Have a composite key"
+  },
+  "ans": "D",
+  "exp": "The intended answer is the composite key: resolving a many-to-many relationship produces an associative table keyed on the combination of both parent keys, so the many-side table carries a multi-attribute key rather than a single-attribute one. Note the question is loosely worded - on the many side of a plain one-to-many relationship the child table need not have a composite key at all, so the 'must' really only holds for the many-to-many case.",
+  "conf": "medium",
+  "note": "The stem over-generalises. A composite key is required of the associative table that resolves a many-to-many relationship, but the many side of a plain one-to-many needs only its own key plus a foreign key — so the printed \"must\" does not hold for the one-to-many half of the question. Both solvers chose (d) at medium confidence. Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 17,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "q": "Which forms are based on the concept of functional dependency:",
+  "opts": {
+   "A": "1NF",
+   "B": "2NF",
+   "C": "3NF",
+   "D": "4NF"
+  },
+  "ans": "C",
+  "exp": "3NF is the normal form conventionally identified with functional dependency, being defined by removing transitive functional dependencies on the key, whereas 4NF rests on multivalued dependencies and 1NF only on atomicity. Marked low confidence because 2NF (partial functional dependency) is equally based on functional dependency, so this single-answer question is genuinely ambiguous between (b) and (c).",
+  "conf": "low",
+  "note": "Not cleanly single-answer as printed. 3NF is defined by removing transitive functional dependencies and 2NF by removing partial functional dependencies, so both are \"based on the concept of functional dependency\"; only 1NF (atomicity) and 4NF (multivalued dependencies) are clearly excluded. Keyed (c) as the conventional textbook identification, at low confidence, with (b) equally defensible. MPSC published no key for Paper III, so which one it intended cannot be checked. Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 18,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "q": "Consider money is transferred from (1)account-A to account-B and (2) account-B to account-A. Which of the following form a transaction ?",
+  "opts": {
+   "A": "Only 1",
+   "B": "Only 2",
+   "C": "Both 1 and 2 individually",
+   "D": "Either 1 or 2"
+  },
+  "ans": "C",
+  "exp": "Each transfer is a self-contained unit of work - debit one account, credit the other - that must be all-or-nothing, so each of (1) and (2) individually qualifies as a transaction. 'Either 1 or 2' is the trap: it implies only one of them counts, when both do.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 19,
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "q": "The database system must take special actions to ensure that transactions operate properly without interference from concurrently executing database statements. This property is referred to as",
+  "opts": {
+   "A": "Atomicity",
+   "B": "Durability",
+   "C": "Isolation",
+   "D": "All of these"
+  },
+  "ans": "C",
+  "exp": "Isolation is the ACID property guaranteeing that concurrently executing transactions do not interfere with one another, each behaving as if it ran alone. Atomicity concerns all-or-nothing execution and durability concerns surviving crashes, so 'All of these' overreaches.",
+  "conf": "high",
+  "note": "Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ },
+ {
+  "no": 49,
+  "paper": "TECH2",
+  "unit": "1",
+  "sub": "OOP concepts, applications and the OOP process",
+  "q": "The construction of object-oriented software begins with the creation of",
+  "opts": {
+   "A": "design model",
+   "B": "analysis model",
+   "C": "code levels",
+   "D": "both design and analysis model"
+  },
+  "ans": "D",
+  "exp": "Standard OO software-engineering texts state that construction of object-oriented software begins with the creation of analysis and design models, which are then elaborated directly into code - so the combined option is the intended one. 'Analysis model' alone is the tempting partial answer, but it ignores the design model that construction also builds on.",
+  "conf": "medium",
+  "note": "The two solvers split on self-rating here (high and medium) rather than on the answer, so this is stored medium. The wording turns on whether the setter wanted the textbook phrase \"analysis and design models\" or \"analysis model\" alone; (d) reads as the intended option. Only the questions matching the 2026 syllabus were imported from this paper (20 of 50)."
+ }
+]

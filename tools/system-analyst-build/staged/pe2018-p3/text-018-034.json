@@ -1,0 +1,192 @@
+{
+  "range": "18-34",
+  "questions": [
+    {
+      "no": 18,
+      "q": "Consider money is transferred from (1)account-A to account-B and (2) account-B to account-A. Which of the following form a transaction ?",
+      "opts": {
+        "A": "Only 1",
+        "B": "Only 2",
+        "C": "Both 1 and 2 individually",
+        "D": "Either 1 or 2"
+      },
+      "flags": []
+    },
+    {
+      "no": 19,
+      "q": "The database system must take special actions to ensure that transactions operate properly without interference from concurrently executing database statements. This property is referred to as",
+      "opts": {
+        "A": "Atomicity",
+        "B": "Durability",
+        "C": "Isolation",
+        "D": "All of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 20,
+      "q": "In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are",
+      "opts": {
+        "A": "Added",
+        "B": "Removed",
+        "C": "Rearranged",
+        "D": "Modified"
+      },
+      "flags": []
+    },
+    {
+      "no": 21,
+      "q": "Communication between a computer and a keyboard involves ________ transmission",
+      "opts": {
+        "A": "Automatic",
+        "B": "Half-duplex",
+        "C": "Full-duplex",
+        "D": "Simplex"
+      },
+      "flags": []
+    },
+    {
+      "no": 22,
+      "q": "The ________ is the physical path over which a message travels",
+      "opts": {
+        "A": "Path",
+        "B": "Medium",
+        "C": "Protocol",
+        "D": "Route"
+      },
+      "flags": []
+    },
+    {
+      "no": 23,
+      "q": "In TCP, sending and receiving data is done as",
+      "opts": {
+        "A": "Stream of bytes",
+        "B": "Sequence of characters",
+        "C": "Lines of data",
+        "D": "Packets"
+      },
+      "flags": []
+    },
+    {
+      "no": 24,
+      "q": "TCP groups a number of bytes together into a packet called",
+      "opts": {
+        "A": "Packet",
+        "B": "Buffer",
+        "C": "Segment",
+        "D": "Stack"
+      },
+      "flags": []
+    },
+    {
+      "no": 25,
+      "q": "Which of the following is false with respect to UDP",
+      "opts": {
+        "A": "Connection-oriented",
+        "B": "Unreliable",
+        "C": "Transport layer protocol",
+        "D": "All of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 26,
+      "q": "Beyond IP, TCP provides additional services such as",
+      "opts": {
+        "A": "Routing and switching",
+        "B": "Sending and receiving of packets",
+        "C": "Multiplexing and demultiplexing",
+        "D": "Demultiplexing and error checking"
+      },
+      "flags": []
+    },
+    {
+      "no": 27,
+      "q": "When the mail server sends mail to other mail servers it becomes",
+      "opts": {
+        "A": "SMTP server",
+        "B": "SMTP client",
+        "C": "Peer",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 28,
+      "q": "Physical or logical arrangement of network is",
+      "opts": {
+        "A": "Topology",
+        "B": "Routing",
+        "C": "Networking",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 29,
+      "q": "In TDM, slots are further divided into",
+      "opts": {
+        "A": "Seconds",
+        "B": "Frames",
+        "C": "Packets",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 30,
+      "q": "Which multiplexing technique transmits digital signals ?",
+      "opts": {
+        "A": "FDM",
+        "B": "TDM",
+        "C": "WDM",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 31,
+      "q": "UTP is commonly used in",
+      "opts": {
+        "A": "DSL",
+        "B": "FTTP",
+        "C": "HTTP",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 32,
+      "q": "Radio channels are attractive medium because",
+      "opts": {
+        "A": "Can penetrate walls",
+        "B": "Connectivity can be given to mobile user",
+        "C": "Can carry signals for long distance",
+        "D": "All of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 33,
+      "q": "Optical fibre works in the principle of",
+      "opts": {
+        "A": "Total internal reflection",
+        "B": "Total internal refraction",
+        "C": "Total external reflection",
+        "D": "Total external refraction"
+      },
+      "flags": []
+    },
+    {
+      "no": 34,
+      "q": "Which of this is not a guided media ?",
+      "opts": {
+        "A": "Fiber optical cable",
+        "B": "Coaxial cable",
+        "C": "Wireless LAN",
+        "D": "Copper wire"
+      },
+      "flags": []
+    }
+  ]
+}

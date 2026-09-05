@@ -1,0 +1,452 @@
+[
+ {
+  "no": 1,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Asks what a relational database is a collection of (tables/relations). Core relational-model vocabulary.",
+  "confidence": "high"
+ },
+ {
+  "no": 2,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "The term for a row is 'tuple' — the leaf names tuples explicitly.",
+  "confidence": "high"
+ },
+ {
+  "no": 3,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "The set of permitted values for an attribute is its domain — the leaf names domains explicitly.",
+  "confidence": "high"
+ },
+ {
+  "no": 4,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Tests the attribute-vs-relation distinction on a course schema. Relational-model terminology.",
+  "confidence": "high"
+ },
+ {
+  "no": 5,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Atomicity of a domain (indivisible elements) is a property of domains in the relational model.",
+  "confidence": "high"
+ },
+ {
+  "no": 6,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Whether tuples of a relation have an inherent order is a property of relations in the relational model.",
+  "confidence": "high"
+ },
+ {
+  "no": 7,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Definition of a foreign key in terms of a primary key — the leaf covers keys.",
+  "confidence": "high"
+ },
+ {
+  "no": 8,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Distinguishes super key from candidate/foreign key. Squarely the keys part of this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 9,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "Definition of a transaction as a sequence of query/update statements.",
+  "confidence": "high"
+ },
+ {
+  "no": 10,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "What happens on a shutdown before commit (rollback) is transaction recovery/recoverability.",
+  "confidence": "high"
+ },
+ {
+  "no": 11,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks to spot the syntax error in a SELECT statement (the smart double quotes around the string literal).",
+  "confidence": "high"
+ },
+ {
+  "no": 12,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "The descriptive property of an entity set is an attribute — standard ER-model terminology.",
+  "confidence": "high"
+ },
+ {
+  "no": 13,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "Multivalued attributes are an ER-model attribute classification.",
+  "confidence": "high"
+ },
+ {
+  "no": 14,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "Contrasts ER attributes (multivalued, composite) with relational-table cells; the question names the basic ER model first, so it sits here rather than under the relational-model leaf.",
+  "confidence": "medium"
+ },
+ {
+  "no": 15,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "The key that represents a relationship between tables is the foreign key — the keys part of this leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 16,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Asks what the table on the many side of a 1:M / M:N relationship must have; the options are normal forms and key structure, so it is relational schema design. The 'must' as printed is arguable, hence medium.",
+  "confidence": "medium"
+ },
+ {
+  "no": 17,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Which normal forms rest on functional dependency — the leaf names functional dependencies and normal forms directly.",
+  "confidence": "high"
+ },
+ {
+  "no": 18,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "Asks which of two fund transfers constitutes a transaction — the transaction abstraction itself.",
+  "confidence": "high"
+ },
+ {
+  "no": 19,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "Names the ACID isolation property. Filed under transaction processing since it asks for the property name, though the concurrency-control leaf is a defensible alternative.",
+  "confidence": "medium"
+ },
+ {
+  "no": 20,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Encapsulation and header addition as a packet descends the OSI/TCP-IP layer hierarchy. That is general data communications and networking, which the 2026 syllabus does not carry; TECH2 Unit 2's networking leaf is limited to web architecture, HTTP/HTTPS and DNS.",
+  "confidence": "high"
+ },
+ {
+  "no": 21,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Simplex vs half/full duplex transmission modes — data communications fundamentals, not web architecture or any other 2026 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 22,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Transmission medium as the physical path of a message — data communications, explicitly outside the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 23,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "TCP's byte-stream service model — transport-layer internals, not the HTTP/DNS/client-server web architecture the syllabus admits.",
+  "confidence": "high"
+ },
+ {
+  "no": 24,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "TCP segmentation terminology — transport-layer internals, outside the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 25,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Properties of UDP as a transport-layer protocol — general networking, not covered by any TECH1 or TECH2 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 26,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "TCP transport-layer services (multiplexing/demultiplexing, error checking). TCP internals are general data communications; the only networking leaf in the 2026 syllabus is TECH2 Unit 2's web architecture/HTTP/DNS leaf, which this does not touch.",
+  "confidence": "high"
+ },
+ {
+  "no": 27,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "SMTP client/server roles in mail relay. Email protocols are not in the 2026 syllabus; the TECH2 Unit 2 leaf covers web client-server communication over HTTP/HTTPS and DNS, not SMTP.",
+  "confidence": "medium"
+ },
+ {
+  "no": 28,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Network topology (physical vs logical arrangement) — explicitly a data communications topic with no leaf in either 2026 paper.",
+  "confidence": "high"
+ },
+ {
+  "no": 29,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Time-division multiplexing frame/slot structure. Multiplexing belongs to data communications, which the 2026 syllabus dropped entirely.",
+  "confidence": "high"
+ },
+ {
+  "no": 30,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Comparison of FDM/TDM/WDM multiplexing techniques — data communications, no corresponding leaf in TECH1 or TECH2.",
+  "confidence": "high"
+ },
+ {
+  "no": 31,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "UTP cabling and its use in DSL — transmission media, a data communications topic absent from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 32,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Properties of radio channels as a transmission medium — wireless data communications, not covered by any 2026 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 33,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Physics of optical fibre (total internal reflection) — transmission media, outside both 2026 papers.",
+  "confidence": "high"
+ },
+ {
+  "no": 34,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Guided vs unguided transmission media — data communications, no leaf in the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 35,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Network Management Systems and hardware/connection maps — network administration, not web architecture or hosting; nothing in TECH1 or TECH2 covers it.",
+  "confidence": "high"
+ },
+ {
+  "no": 36,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Professional ethics/misuse from the software engineering code of conduct. The syllabus's only 'ethics and law' wording sits inside the AI-assisted web development leaf, which this does not test.",
+  "confidence": "medium"
+ },
+ {
+  "no": 37,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Definition of software (programs + documentation + configuration data) — software engineering fundamentals, dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 38,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "RAD as an SDLC process model acronym — software engineering process models, not covered by TECH1 or TECH2.",
+  "confidence": "high"
+ },
+ {
+  "no": 39,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Choosing an SDLC process model based on user involvement — software engineering process models, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 40,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Classification of evolutionary process models (spiral, incremental, concurrent) — software engineering, no 2026 leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 41,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Fundamental activities of the software process (specification, design, validation, evolution) — software engineering, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 42,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "First step of the SDLC — systems analysis and software engineering lifecycle, absent from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 43,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Deliverable of the analysis phase (program specification) — systems analysis and design, which the 2026 syllabus does not contain.",
+  "confidence": "high"
+ },
+ {
+  "no": 44,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "White-box testing as structural testing — software testing, part of the dropped software engineering subject.",
+  "confidence": "high"
+ },
+ {
+  "no": 45,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Alpha testing venue — software testing, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 46,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Beta testing (real data in a real environment) — software testing, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 47,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Conflicts handled by software configuration management (simultaneous updates, shared code, versions). Arguably adjacent to the 'Git version control' leaf in TECH2 Unit 2, but it tests an SE-textbook SCM list rather than any Git/CI-CD practice.",
+  "confidence": "low"
+ },
+ {
+  "no": 48,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "The four SCM tasks (identification, version control, auditing, status accounting) — software configuration management theory from software engineering, not the Git/CI-CD tooling leaf.",
+  "confidence": "medium"
+ },
+ {
+  "no": 49,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "1",
+  "sub": "OOP concepts, applications and the OOP process",
+  "why": "Asks where object-oriented development starts (analysis model before design model), which is the object-oriented development process named in this leaf. Fit is textual rather than obvious, since the question is drawn from a software engineering chapter.",
+  "confidence": "medium"
+ },
+ {
+  "no": 50,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Black-box methods for driving validation tests — software testing techniques, off-syllabus.",
+  "confidence": "high"
+ }
+]

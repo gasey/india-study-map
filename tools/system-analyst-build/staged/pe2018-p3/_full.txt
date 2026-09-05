@@ -1,0 +1,218 @@
+                    MIZORAM PUBLIC SERVICE COMMISSION
+                  COMPETITIVE EXAMINATIONS FOR JUNIOR GRADE OF M.E.S.
+                  UNDER POWER & ELECTRICITY DEPARTMENT, AUGUST, 2018.
+
+
+
+                       COMPUTER SCIENCE & ENGINEERING
+                                                PAPER - III
+
+Time Allowed : 3 hours                                                                                FM : 200
+
+                              SECTION - A (Multiple Choice questions)
+                                            (100 Marks)
+                  All questions carry equal mark of 2 each. Attempt all questions.
+           This Section should be answered only on the OMR Response Sheet provided.
+
+  1. A relational database consists of a collection of
+      (a) Tables                                              (b) Fields
+      (c) Records                                             (d) Keys
+  2. The term ________ is used to refer to a row.
+      (a) Attribute                                           (b) Tuple
+      (c) Field                                               (d) Instance
+  3. For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.
+      (a) Domain                                               (b) Relation
+      (c) Set                                                  (d) Schema
+  4. (course_id,sec_id,semester) ,Here the course_id,sec_id and semester are _______ and course is a
+      (a) Relations, Attribute                         (b) Attributes, Relation
+      (c) Tuple, Relation                              (d) Tuple, Attributes
+  5. A domain is atomic if elements of the domain are considered to be ________ units.
+      (a) Different                                     (b) Indivisbile
+      (c) Constant                                      (d) Divisible
+  6. The tuples of the relations can be of ________ order.
+      (a) Any                                           (b) Same
+      (c) Sorted                                        (d) Constant
+  7. A attribute in a relation is a foreign key if the ________ key from one relation is used as an attribute
+     in that relation .
+       (a) Candidate                                         (b) Primary
+       (c) Super                                             (d) Sub
+  8. Which one of the following is a set of one or more attributes taken collectively to uniquely identify a
+     record?
+      (a) Candidate key                                    (b) Sub key
+      (c) Super key                                        (d) Foreign key
+                                                -2-
+
+ 9. A ________ consists of a sequence of query and/or update statements.
+     (a) Transaction                                 (b) Commit
+     (c) Rollback                                    (d) Flashback
+10. In case of any shut down during transaction before commit which of the following statement is done
+    automatically?
+     (a) View                                           (b) Commit
+     (c) Rollback                                       (d) Flashback
+11. Select * from employee where dept_name=”Comp Sci”; In the SQL given above there is an error .
+    Identify the error .
+     (a) Dept_name                               (b) Employee
+     (c) “Comp Sci”                              (d) From
+12. The descriptive property possessed by each entity set is
+     (a) Entity                                        (b) Attribute
+     (c) Relation                                      (d) Model
+13. Which of the following can be a multivalued attribute ?
+     (a) Phone_number                                   (b) Name
+     (c) Date_of_birth                                  (d) All of these
+14. Given the basic ER and relational models, which of the following is INCORRECT?
+     (a) An attribute of an entity can have more than one value
+     (b) An attribute of an entity can be composite
+     (c) In a row of a relational table, an attribute can have more than one value
+     (d) In a row of a relational table, an attribute can have exactly one value or a NULL value
+15. Key to represent relationship between tables is called
+     (a) Primary key                                     (b) Secondary Key
+     (c) Foreign Key                                     (d) None of these
+16. A table on the many side of a one to many or many to many relationship must:
+     (a) Be in Second Normal Form (2NF)                (b) Be in Third Normal Form (3NF)
+     (c) Have a single attribute key                   (d) Have a composite key
+17. Which forms are based on the concept of functional dependency:
+     (a) 1NF                                           (b) 2NF
+     (c) 3NF                                           (d) 4NF
+18. Consider money is transferred from (1)account-A to account-B and (2) account-B to account-A.
+    Which of the following form a transaction ?
+     (a) Only 1                                     (b) Only 2
+     (c) Both 1 and 2 individually                  (d) Either 1 or 2
+19. The database system must take special actions to ensure that transactions operate properly without
+    interference from concurrently executing database statements. This property is referred to as
+     (a) Atomicity                                     (b) Durability
+     (c) Isolation                                     (d) All of these
+20. In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are
+     (a) Added                                          (b) Removed
+     (c) Rearranged                                     (d) Modified
+                                                -3-
+
+21. Communication between a computer and a keyboard involves ________ transmission
+     (a) Automatic                                (b) Half-duplex
+     (c) Full-duplex                              (d) Simplex
+22. The ________ is the physical path over which a message travels
+     (a) Path                                        (b) Medium
+     (c) Protocol                                    (d) Route
+23. In TCP, sending and receiving data is done as
+     (a) Stream of bytes                               (b) Sequence of characters
+     (c) Lines of data                                 (d) Packets
+24. TCP groups a number of bytes together into a packet called
+     (a) Packet                                       (b) Buffer
+     (c) Segment                                      (d) Stack
+25. Which of the following is false with respect to UDP
+     (a) Connection-oriented                            (b) Unreliable
+     (c) Transport layer protocol                       (d) All of these
+26. Beyond IP, TCP provides additional services such as
+     (a) Routing and switching                        (b) Sending and receiving of packets
+     (c) Multiplexing and demultiplexing              (d) Demultiplexing and error checking
+27. When the mail server sends mail to other mail servers it becomes
+     (a) SMTP server                                    (b) SMTP client
+     (c) Peer                                           (d) None of these
+28. Physical or logical arrangement of network is
+     (a) Topology                                      (b) Routing
+     (c) Networking                                    (d) None of these
+29. In TDM, slots are further divided into
+     (a) Seconds                                       (b) Frames
+     (c) Packets                                       (d) None of these
+30. Which multiplexing technique transmits digital signals ?
+     (a) FDM                                             (b) TDM
+     (c) WDM                                             (d) None of these
+31. UTP is commonly used in
+     (a) DSL                                           (b) FTTP
+     (c) HTTP                                          (d) None of these
+32. Radio channels are attractive medium because
+     (a) Can penetrate walls                           (b) Connectivity can be given to mobile user
+     (c) Can carry signals for long distance           (d) All of these
+33. Optical fibre works in the principle of
+     (a) Total internal reflection                     (b) Total internal refraction
+     (c) Total external reflection                     (d) Total external refraction
+34. Which of this is not a guided media ?
+     (a) Fiber optical cable                           (b) Coaxial cable
+     (c) Wireless LAN                                  (d) Copper wire
+                                                   -4-
+
+35. In Network Management System, maps track each piece of hardware and its connection to the
+     (a) IP Server                                (b) Domain
+     (c) Network                                  (d) Data
+36. “Software engineers should not use their technical skills to misuse other people’s computers.”Here
+    the term misuse refers to:
+     (a) Unauthorized access to computer material
+     (b) Unauthorized modification of computer material
+     (c) Dissemination of viruses or other malware
+     (d) All of these
+37. What is a Software ?
+     (a) Software is set of programs
+    (b) Software is documentation and configuration of data
+     (c) Software is set of programs, documentation & configuration of data
+    (d) None of these
+38. RAD stands for
+     (a) Relative Application Development                  (b) Rapid Application Development
+     (c) Rapid Application Document                        (d) None of these
+39. Which model can be selected if user is involved in all the phases of SDLC?
+     (a) Waterfall Model                                (b) Prototyping Model
+     (c) RAD Model                                      (d) both Prototyping Model & RAD Model
+40. Which one of the following is not an Evolutionary Process Model?
+     (a) WINWIN Spiral Model                            (b) Incremental Model
+     (c) Concurrent Development Model                   (d) All of these
+41. Which one of the following is not a fundamental activity for software processes in software engineering?
+     (a) Software Verification                             (b) Software Validation
+     (c) Software design and implementation                (d) Software evolution
+42. Which is the first step in the software development life cycle ?
+     (a) Analysis                                         (b) Design
+     (c) Problem/Opportunity Identification               (d) Development and Documentation
+43. In the Analysis phase, the development of the ________ occurs, which is a clear statement of the
+    goals and objectives of the project.
+     (a) documentation                                (b) flowchart
+     (c) program specification                        (d) design
+44. White Box techniques are also classified as
+     (a) Design based testing                              (b) Structural testing
+     (c) Error guessing technique                          (d) None of these
+45. Alpha testing is done at
+     (a) Developer’s end                                   (b) User’s end
+     (c) Developer’s & User’s end                          (d) None of these
+46. Software Testing with real data in real environment is known as
+     (a) alpha testing                                   (b) beta testing
+     (c) regression testing                              (d) none of these
+                                                   -5-
+
+47. Which of the following is not a conflict in software development team?
+     (a) Simultaneous updates                             (b) Shared and common code
+     (c) Versions                                         (d) Graphics issues
+48. Which of the following is not a part of Software Configuration Management Basics?
+     (a) Identification                                 (b) Version
+     (c) Auditing and Reviewing                         (d) Status Accounting
+49. The construction of object-oriented software begins with the creation of
+     (a) design model                                  (b) analysis model
+     (c) code levels                                   (d) both design and analysis model
+50. ________ methods can be used to drive validations tests
+     (a) Yellow-box testing                          (b) Black-box testing
+     (c) White-box testing                           (d) All of these
+
+                            SECTION - B (Short answer type question)
+                                         (100 Marks)
+                             All questions carry equal marks of 5 each.
+              This Section should be answered only on the Answer Sheet provided.
+
+ 1. What are the characteristics of a data in a database?
+ 2. What are the disadvantages of database system? Explain them briefly.
+ 3. Explain the difference between an attribute and value set.
+ 4. Discuss the conventions for displaying an ER schema as an ER diagram.
+ 5. What is the significance of views in SQL? Give SQL statement to update data.
+ 6. What are the different types of relations between the entities in a table?
+ 7. Discuss the types of privileges at the account level and at the relational level.
+ 8. Explain locking techniques for concurrency control.
+ 9. Discuss the TCP Header.
+10. What are the different types of transmission impairments?
+11. Distinguish between adaptive and non-adaptive routing algorithms.
+12. Explain function of token bus.
+13. Compare and contrast FDMA, TDMA and CDMA techniques.
+14. What is ISDN? Explain types of services provided by ISDN.
+15. What are the various categories of software?
+16. What are the Drawbacks of RAD Model?
+17. What are the benefits of prototyping?
+18. What is the role of SRS? Explain.
+19. What is the importance of data dictionary?
+20. Differentiate between verification and Validation.
+
+
+                                              *******
+

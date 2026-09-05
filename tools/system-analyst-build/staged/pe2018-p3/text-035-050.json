@@ -1,0 +1,181 @@
+{
+  "range": "35-50",
+  "questions": [
+    {
+      "no": 35,
+      "q": "In Network Management System, maps track each piece of hardware and its connection to the",
+      "opts": {
+        "A": "IP Server",
+        "B": "Domain",
+        "C": "Network",
+        "D": "Data"
+      },
+      "flags": []
+    },
+    {
+      "no": 36,
+      "q": "“Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to:",
+      "opts": {
+        "A": "Unauthorized access to computer material",
+        "B": "Unauthorized modification of computer material",
+        "C": "Dissemination of viruses or other malware",
+        "D": "All of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 37,
+      "q": "What is a Software ?",
+      "opts": {
+        "A": "Software is set of programs",
+        "B": "Software is documentation and configuration of data",
+        "C": "Software is set of programs, documentation & configuration of data",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 38,
+      "q": "RAD stands for",
+      "opts": {
+        "A": "Relative Application Development",
+        "B": "Rapid Application Development",
+        "C": "Rapid Application Document",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 39,
+      "q": "Which model can be selected if user is involved in all the phases of SDLC?",
+      "opts": {
+        "A": "Waterfall Model",
+        "B": "Prototyping Model",
+        "C": "RAD Model",
+        "D": "both Prototyping Model & RAD Model"
+      },
+      "flags": []
+    },
+    {
+      "no": 40,
+      "q": "Which one of the following is not an Evolutionary Process Model?",
+      "opts": {
+        "A": "WINWIN Spiral Model",
+        "B": "Incremental Model",
+        "C": "Concurrent Development Model",
+        "D": "All of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 41,
+      "q": "Which one of the following is not a fundamental activity for software processes in software engineering?",
+      "opts": {
+        "A": "Software Verification",
+        "B": "Software Validation",
+        "C": "Software design and implementation",
+        "D": "Software evolution"
+      },
+      "flags": []
+    },
+    {
+      "no": 42,
+      "q": "Which is the first step in the software development life cycle ?",
+      "opts": {
+        "A": "Analysis",
+        "B": "Design",
+        "C": "Problem/Opportunity Identification",
+        "D": "Development and Documentation"
+      },
+      "flags": []
+    },
+    {
+      "no": 43,
+      "q": "In the Analysis phase, the development of the ________ occurs, which is a clear statement of the goals and objectives of the project.",
+      "opts": {
+        "A": "documentation",
+        "B": "flowchart",
+        "C": "program specification",
+        "D": "design"
+      },
+      "flags": []
+    },
+    {
+      "no": 44,
+      "q": "White Box techniques are also classified as",
+      "opts": {
+        "A": "Design based testing",
+        "B": "Structural testing",
+        "C": "Error guessing technique",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 45,
+      "q": "Alpha testing is done at",
+      "opts": {
+        "A": "Developer’s end",
+        "B": "User’s end",
+        "C": "Developer’s & User’s end",
+        "D": "None of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 46,
+      "q": "Software Testing with real data in real environment is known as",
+      "opts": {
+        "A": "alpha testing",
+        "B": "beta testing",
+        "C": "regression testing",
+        "D": "none of these"
+      },
+      "flags": []
+    },
+    {
+      "no": 47,
+      "q": "Which of the following is not a conflict in software development team?",
+      "opts": {
+        "A": "Simultaneous updates",
+        "B": "Shared and common code",
+        "C": "Versions",
+        "D": "Graphics issues"
+      },
+      "flags": []
+    },
+    {
+      "no": 48,
+      "q": "Which of the following is not a part of Software Configuration Management Basics?",
+      "opts": {
+        "A": "Identification",
+        "B": "Version",
+        "C": "Auditing and Reviewing",
+        "D": "Status Accounting"
+      },
+      "flags": []
+    },
+    {
+      "no": 49,
+      "q": "The construction of object-oriented software begins with the creation of",
+      "opts": {
+        "A": "design model",
+        "B": "analysis model",
+        "C": "code levels",
+        "D": "both design and analysis model"
+      },
+      "flags": []
+    },
+    {
+      "no": 50,
+      "q": "________ methods can be used to drive validations tests",
+      "opts": {
+        "A": "Yellow-box testing",
+        "B": "Black-box testing",
+        "C": "White-box testing",
+        "D": "All of these"
+      },
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "U2-L07",
+ "unit": "2",
+ "unit_title": "Web Technologies",
+ "marks": 60,
+ "leaf": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+ "need": 9,
+ "verbatim_syllabus": "Modern Web Development and Full Stack Engineering: Evolution of the Internet and Web Architecture; Client-Server Communication; HTTP/HTTPS; DNS and Web Hosting; HTML Semantic Elements, Forms, Multimedia, Canvas, SVG and Web Accessibility Standards; CSS, Flexbox, Grid, Responsive Web Design; Git Version Control; Javascript, DOM Manipulation, Event Handling, Asynchronous Programming, JSON and Fetch API; Frontend Development using Javascript Framework including Components, Routing, State Management, Forms and API Integration; Backend Development using PHP - Python; RESTful APIs, CRUD Operations, Middleware, Authentication and Authorization, Session and Cookie Management; ORM Concepts, Websockets; Serverless Computing, Docker, Kubernetes and CI/CD Pipelines; Linux Administration, Web Servers - Nginx, Deployment and Monitoring; Web Security Fundamentals including OWASP Top 10, HTTPS, SSL/TLS, CSRF, XSS and SQL Injection Prevention; MVC Architecture; Microservices Architecture, SOLID Principles, Dependency Management, Event-Driven Systems, Caching and Queue Management; AI-assisted Web Development, Generative AI APIs, Model Context Protocol (MCP), Web Analytics, Scalable Deployment, Ethics, Privacy and Legal Aspects of Modern Web Applications.",
+ "existing_stems": [
+  {
+   "q": "A defective commit has already been pushed to a shared main branch. Which command undoes its effect without rewriting published history?",
+   "ans_text": "git revert on that commit"
+  },
+  {
+   "q": "Nginx serves a static site from /var/www/site/. For the worker process's user to read /var/www/site/index.html, which permission must it hold on /var, /var/www and /var/www/site?",
+   "ans_text": "Execute, that is search, permission"
+  },
+  {
+   "q": "A CI pipeline builds a Docker image for a web application. Why should the application's secret API key be supplied as a run-time environment variable rather than written into the Dockerfile with ENV?",
+   "ans_text": "Anything set in the Dockerfile is baked into an inspectable image layer, so anyone who can pull the image can read the secret"
+  }
+ ]
+}

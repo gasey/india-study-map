@@ -1,0 +1,23 @@
+{
+ "slug": "U4-L07",
+ "unit": "4",
+ "unit_title": "Cloud Computing",
+ "marks": 40,
+ "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+ "need": 9,
+ "verbatim_syllabus": "Cloud Architecture and Distributed Systems: Evolution of Distributed, Edge and Cloud Computing; NIST Cloud Architecture; Cloud Deployment and Service Models (IaaS, PaaS, SaaS, Serverless); Cloud-native Architecture, Microservices, Service Mesh, Elasticity, High Availability, Load Balancing, and Sustainable Cloud Computing. Virtualization and Cloud Infrastructure: Virtual Machines, Hypervisors, Full and Para Virtualization; CPU, Storage, and Network Virtualization; Containers, Docker Architecture, Kubernetes orchestration, Resource Management, Infrastructure as Code using Terraform and Ansible, CI/CD Pipelines, and DevOps Practices. Cloud Storage, Compute, Networking, Managed Databases, Serverless Computing, Monitoring and Observability, OpenStack, Hybrid and Multi-cloud Management, and AI/ML Infrastructure. Cloud Security and Governance: Shared Responsibility Model, IAM, MFA, Zero Trust Security, Encryption, Backup and Disaster Recovery, Container and Kubernetes Security, DevSecOps, API Security, Virtualization Attacks, FinOps, and Service Level Agreements (SLAs).",
+ "existing_stems": [
+  {
+   "q": "Under the shared responsibility model, for a virtual machine that a customer runs on an IaaS platform, which of these is the customer's responsibility?",
+   "ans_text": "Applying security patches to the guest operating system and the application stack running on that virtual machine"
+  },
+  {
+   "q": "A provider's SLA commits to 99.9% availability measured over a 30-day month. What is the maximum downtime that commitment permits in such a month?",
+   "ans_text": "About 43 minutes"
+  },
+  {
+   "q": "A FinOps review reports a fleet of 200 always-on virtual machines averaging 4% CPU and 12% memory utilisation over 30 days. Which response is the most direct FinOps action on that finding?",
+   "ans_text": "Rightsize the instances to smaller types and consolidate the workloads, so that both committed spend and idle capacity fall"
+  }
+ ]
+}

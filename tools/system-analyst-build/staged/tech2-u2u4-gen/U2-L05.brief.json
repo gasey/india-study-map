@@ -1,0 +1,23 @@
+{
+ "slug": "U2-L05",
+ "unit": "2",
+ "unit_title": "Web Technologies",
+ "marks": 60,
+ "leaf": "Frontend frameworks: components, routing, state management and API integration",
+ "need": 9,
+ "verbatim_syllabus": "Modern Web Development and Full Stack Engineering: Evolution of the Internet and Web Architecture; Client-Server Communication; HTTP/HTTPS; DNS and Web Hosting; HTML Semantic Elements, Forms, Multimedia, Canvas, SVG and Web Accessibility Standards; CSS, Flexbox, Grid, Responsive Web Design; Git Version Control; Javascript, DOM Manipulation, Event Handling, Asynchronous Programming, JSON and Fetch API; Frontend Development using Javascript Framework including Components, Routing, State Management, Forms and API Integration; Backend Development using PHP - Python; RESTful APIs, CRUD Operations, Middleware, Authentication and Authorization, Session and Cookie Management; ORM Concepts, Websockets; Serverless Computing, Docker, Kubernetes and CI/CD Pipelines; Linux Administration, Web Servers - Nginx, Deployment and Monitoring; Web Security Fundamentals including OWASP Top 10, HTTPS, SSL/TLS, CSRF, XSS and SQL Injection Prevention; MVC Architecture; Microservices Architecture, SOLID Principles, Dependency Management, Event-Driven Systems, Caching and Queue Management; AI-assisted Web Development, Generative AI APIs, Model Context Protocol (MCP), Web Analytics, Scalable Deployment, Ethics, Privacy and Legal Aspects of Modern Web Applications.",
+ "existing_stems": [
+  {
+   "q": "A single-page app uses history-based client-side routing. In-app navigation to /reports/7 works, but reloading the browser on that URL returns 404 from the web server. What is required?",
+   "ans_text": "Configure the web server to fall back to index.html for unmatched paths so the client router can resolve the URL"
+  },
+  {
+   "q": "In a framework's controlled form input, where does the value shown in the field come from on every render?",
+   "ans_text": "Component state, with a change handler writing each keystroke back into that state"
+  },
+  {
+   "q": "A search component fetches results whenever the query changes. A slow response for an earlier query can arrive after a faster response for a later one, briefly showing results for the wrong query. What is the standard fix?",
+   "ans_text": "Cancel or ignore the superseded request in the effect's cleanup, so only the latest query's response is applied"
+  }
+ ]
+}

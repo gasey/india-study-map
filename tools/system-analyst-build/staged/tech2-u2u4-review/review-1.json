@@ -1,0 +1,49 @@
+{
+ "reviewer": "A — adversarial refutation pass, blind to reviewer B",
+ "reviewed": 51,
+ "flags": [
+  {
+   "id": "GEN-TECH2-U2-93ac14",
+   "type": "outdated",
+   "severity": "medium",
+   "detail": "Keyed option B ('the browser attaches the cookie automatically to requests the attacker's page triggers') is no longer unconditionally true. Since 2020 Chrome, and now Edge and Firefox, treat a cookie with no SameSite attribute as SameSite=Lax, so a cross-site form POST or subresource load does NOT carry the session cookie; only top-level GET navigations do. The stem says the app 'takes no further precaution', which under a 2026 browser is already largely protected by browser defaults. The mechanism the key names is still the right one, but a well-prepared candidate could reasonably object.",
+   "suggested_fix": "Keep key B; pin the stem's assumption to SameSite=None (or state the cookie carries no SameSite restriction and the browser honours that), and amend the explanation to note SameSite=Lax-by-default is now a browser-side partial mitigation."
+  },
+  {
+   "id": "GEN-TECH2-U2-1ea42c",
+   "type": "bad_explanation",
+   "severity": "low",
+   "detail": "Option A's wording 'so user input never becomes part of the SQL text' is literally false for the most common PHP/MySQL setup: PDO's MySQL driver ships with PDO::ATTR_EMULATE_PREPARES = true, which interpolates bound values into the SQL string client-side. The protection is real but the stated mechanism describes only true server-side prepares. The explanation's 'structurally impossible' also skips that placeholders cannot bind identifiers (table/column names, ORDER BY), which remains a live injection surface.",
+   "suggested_fix": "Key A is correct; tighten the explanation to require PDO::ATTR_EMULATE_PREPARES=false for genuine server-side prepares, and note placeholders bind values only — identifiers must be whitelisted."
+  },
+  {
+   "id": "GEN-TECH2-U2-2e0e39",
+   "type": "ambiguous",
+   "severity": "low",
+   "detail": "Stem asks 'What is required?' but option B (register /reports/:id as a server-side route that renders the report) genuinely eliminates the 404 too — that is server-side rendering, mainstream and valid, and what Next.js/Nuxt/Remix-style apps do. Nothing in the stem rules out an SSR-capable stack or says the fix must be minimal. Two options are defensible; the key wins only on an unstated assumption.",
+   "suggested_fix": "Key C is correct as intended; constrain the stem to 'without changing the app from client-side rendering'."
+  },
+  {
+   "id": "GEN-TECH2-U2-70bbd5",
+   "type": "underspecified",
+   "severity": "low",
+   "detail": "The explanation concedes the keyed declaration alone does not achieve the outcome ('equalising truly regardless of content also needs min-width: 0'), and the stem's escape hatch only excludes 'an unbreakable token wider than its share'. A long word is not the only thing that raises a flex item's automatic minimum size: a replaced element such as an image, a fixed-width or min-width child, a table, or horizontal padding/border under content-box all break the equality just as effectively.",
+   "suggested_fix": "Key B stays. Broaden the stem's caveat to 'assuming each item's min-content size is smaller than its equal share', which covers images, fixed-width children and padding as well as long words."
+  },
+  {
+   "id": "GEN-TECH2-U2-5c4506",
+   "type": "ambiguous",
+   "severity": "low",
+   "detail": "Two problems with keyed option A. (1) The timing requirement — consent 'before the tracking identifier is set' — is an ePrivacy/GDPR construct; the DPDP Act 2023 has no cookie-specific provision. Its duty attaches to processing digital personal data, so the answer rests on the unstated premise that a pseudonymous analytics cookie ID is personal data under s.2(t). (2) Commencement: as of 2026-09-05 the DPDP Rules 2025 brought only a subset of provisions into force, with notice-and-consent machinery phased in later, so 'has to get right first' describes the framework's design rather than a currently enforceable duty. A candidate aware of the phasing, or of s.17(2) exemptions for instrumentalities of the State, could argue the stem overstates the position for a state government portal.",
+   "suggested_fix": "Key A remains best since B, C and D are plainly wrong. Reword the stem to 'Under the notice-and-consent scheme of the DPDP Act 2023, what must the portal do?' (dropping 'first'), and note in the explanation that the Act has no cookie-specific rule — the duty arises because the persistent identifier plus journey data is personal data."
+  },
+  {
+   "id": "GEN-TECH2-U2-44c084",
+   "type": "bad_explanation",
+   "severity": "low",
+   "detail": "The explanation's gloss '412 reports a precondition that failed on an unsafe request' is not accurate. RFC 9110 ties 412 to a failed precondition on any method: a GET carrying If-Match or If-Unmodified-Since that does not match returns 412, and GET is safe. The relevant rule is about method, not safety: If-None-Match that matches returns 304 for GET/HEAD and 412 for any other method. The key is correct; only the distractor rationale is wrong, and it would teach a false rule.",
+   "suggested_fix": "Keep key C. Replace the final clause with: '412 is what a failed precondition returns — for example an If-Match that no longer matches, or an If-None-Match match on a method other than GET or HEAD.'"
+  }
+ ],
+ "notes": "Unusually clean set — no wrong key found across all 51, each checked against the relevant spec (RFC 9110 conditional requests, HTML button missing-value default, CSS flex/grid resolution, HTML event loop ordering, fetch's reject-only-on-network-failure rule, PHP session semantics, NIST SP 800-145 five characteristics / four deployment models, NIST SP 500-292 cloud carrier, Kubernetes request-vs-limit and incompressible-memory OOM kill, 802.1Q 12-bit VID vs VXLAN, and the 99.9%/30-day arithmetic at 43.2 minutes with all three distractors correctly mapped). All six flags are wording, currency or scoping issues, not wrong answers. The only one I would insist on fixing before shipping is the CSRF stem, because SameSite=Lax-by-default has genuinely changed the truth conditions of the keyed statement. Specifically checked and NOT flagged: GEN-TECH2-U4-693ae6 (Kubernetes MemoryQoS / cgroup v2 memory.high could make 'throttled' look defensible — it does not, memory.high throttles below the limit while exceeding the limit still OOM-kills, and the gate is not on by default); GEN-TECH2-U2-05ebf0 ('git checkout HEAD~1 -- .' is a near-miss but incomplete — it neither commits nor removes files the bad commit added, so revert remains unambiguous). Everything is on-syllabus."
+}

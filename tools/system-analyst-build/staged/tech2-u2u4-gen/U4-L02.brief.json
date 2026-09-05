@@ -1,0 +1,23 @@
+{
+ "slug": "U4-L02",
+ "unit": "4",
+ "unit_title": "Cloud Computing",
+ "marks": 40,
+ "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+ "need": 9,
+ "verbatim_syllabus": "Cloud Architecture and Distributed Systems: Evolution of Distributed, Edge and Cloud Computing; NIST Cloud Architecture; Cloud Deployment and Service Models (IaaS, PaaS, SaaS, Serverless); Cloud-native Architecture, Microservices, Service Mesh, Elasticity, High Availability, Load Balancing, and Sustainable Cloud Computing. Virtualization and Cloud Infrastructure: Virtual Machines, Hypervisors, Full and Para Virtualization; CPU, Storage, and Network Virtualization; Containers, Docker Architecture, Kubernetes orchestration, Resource Management, Infrastructure as Code using Terraform and Ansible, CI/CD Pipelines, and DevOps Practices. Cloud Storage, Compute, Networking, Managed Databases, Serverless Computing, Monitoring and Observability, OpenStack, Hybrid and Multi-cloud Management, and AI/ML Infrastructure. Cloud Security and Governance: Shared Responsibility Model, IAM, MFA, Zero Trust Security, Encryption, Backup and Disaster Recovery, Container and Kubernetes Security, DevSecOps, API Security, Virtualization Attacks, FinOps, and Service Level Agreements (SLAs).",
+ "existing_stems": [
+  {
+   "q": "Which of the following is one of the four cloud deployment models defined by NIST?",
+   "ans_text": "Community cloud"
+  },
+  {
+   "q": "A team must run a long-lived Java web application. It wants to deploy its own build artefact and control how many application instances run, but does not want to patch the operating system, the JVM or the web server. Which service model fits this best?",
+   "ans_text": "PaaS"
+  },
+  {
+   "q": "A serverless function backing a low-traffic internal API responds in about 40 ms most of the time, but the first request after several idle hours takes over two seconds. What is the most likely cause?",
+   "ans_text": "The platform scaled the function to zero, so a new execution environment has to be initialised before the handler runs"
+  }
+ ]
+}

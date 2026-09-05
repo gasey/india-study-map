@@ -1,0 +1,129 @@
+[
+ {
+  "id": "GEN-T2U2-026",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "What is the return value of JSON.stringify([1, undefined, function () {}, 4]) ?",
+  "opts": {
+   "A": "'[1,4]'",
+   "B": "'[1,undefined,undefined,4]'",
+   "C": "'[1,null,null,4]'",
+   "D": "It throws a TypeError, because a function is not serialisable"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "When JSON.stringify meets undefined, a function or a symbol it omits the property if it is inside an object, but censors it to null inside an array, because an array element cannot simply vanish without shifting the indices. '[1,4]' is the behaviour you would get for object properties, not array elements, and nothing here throws."
+ },
+ {
+  "id": "GEN-T2U2-027",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A page served from https://app.example.gov.in calls fetch('https://api.example.gov.in/profile'). The API already responds with Access-Control-Allow-Origin set to the exact app origin and Access-Control-Allow-Credentials: true, yet the browser still sends no session cookie. Which change to the fetch call is required?",
+  "opts": {
+   "A": "Add credentials: 'include' to the request options",
+   "B": "Add mode: 'cors' to the request options",
+   "C": "Add mode: 'no-cors' to the request options",
+   "D": "Attach the session cookie yourself through the headers option"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "fetch defaults to credentials: 'same-origin', so cookies are withheld on a cross-origin request until the caller opts in with 'include'; the server-side CORS headers are already in place here. mode: 'cors' is already the default for a cross-origin request and changes nothing, and Cookie is a forbidden header name that script cannot set."
+ },
+ {
+  "id": "GEN-T2U2-028",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "save() returns a Promise. What does this function do?\n\nasync function saveAll(items) {\n  items.forEach(async (item) => {\n    await save(item);\n  });\n  console.log('all saved');\n}",
+  "opts": {
+   "A": "Logs 'all saved' only after every save() has resolved",
+   "B": "Logs 'all saved' before any save() has resolved",
+   "C": "Throws a TypeError, because forEach does not accept an async callback",
+   "D": "Runs the saves strictly one after another, then logs 'all saved'"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "forEach discards whatever its callback returns, so the promise from each async callback is thrown away; each callback runs synchronously only as far as its first await, and then forEach returns and the log executes before any continuation resumes. Sequential execution (option D) is what for...of with await would give you; Promise.all(items.map(save)) gives the concurrent wait."
+ },
+ {
+  "id": "GEN-T2U2-029",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A submit listener added to a form with addEventListener logs its message and calls event.stopPropagation(), but the browser still submits the form and reloads the page. Why?",
+  "opts": {
+   "A": "stopPropagation() takes effect only on listeners registered for the capture phase",
+   "B": "The listener must be registered with { passive: false } before cancellation can take effect",
+   "C": "The handler must return false; addEventListener treats a false return value as a cancellation",
+   "D": "stopPropagation() only halts further propagation of the event; suppressing the browser's default submit needs preventDefault()"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Propagation and default action are two independent things: stopPropagation() keeps other listeners on ancestors from firing, while only preventDefault() cancels the navigation. Returning false cancels the default in inline handlers and in jQuery, but a return value from an addEventListener callback is ignored, and { passive: false } merely restores the ability to call preventDefault on scroll-blocking events such as touchstart and wheel."
+ },
+ {
+  "id": "GEN-T2U2-030",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A dashboard issues six independent fetch calls and must render every panel whose call succeeded while marking the ones that failed, so a single rejection must not discard the other five results. Which promise combinator fits?",
+  "opts": {
+   "A": "Promise.all",
+   "B": "Promise.allSettled",
+   "C": "Promise.any",
+   "D": "Promise.race"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Promise.allSettled waits for every input promise and resolves with an array of {status, value} or {status, reason} objects, which is exactly the successes-plus-failures shape needed. Promise.all short-circuits on the first rejection and throws the other results away, while Promise.any resolves with only the first fulfilment."
+ },
+ {
+  "id": "GEN-T2U2-031",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "Which statement correctly distinguishes an element's textContent from its innerText?",
+  "opts": {
+   "A": "textContent returns the text of every descendant node, including ones hidden by CSS, whereas innerText approximates the rendered text and leaves them out",
+   "B": "Assigning a string to textContent parses it as HTML, whereas assigning to innerText does not",
+   "C": "innerText is read-only, whereas textContent can be both read and written",
+   "D": "Reading textContent forces a layout reflow, whereas reading innerText does not"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "innerText is layout-aware, so it reflects what a user would actually see and skips subtrees hidden with display:none, while textContent walks the DOM and concatenates all text nodes regardless of styling. Option D is the truth reversed, since it is innerText that can trigger a reflow; neither property parses HTML on assignment, and both are writable."
+ },
+ {
+  "id": "GEN-T2U2-032",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A type-ahead search box fires a fetch on every keystroke, and a stale response sometimes overwrites a newer one. The requirement is to actually cancel the earlier in-flight request when the next keystroke arrives. What does that?",
+  "opts": {
+   "A": "Call Promise.reject() inside the new keystroke handler to reject the earlier promise",
+   "B": "Call .cancel() on the promise object that the earlier fetch() returned",
+   "C": "Pass an AbortController's signal into fetch() and call controller.abort() on the next keystroke",
+   "D": "Set keepalive: false on the earlier request so the browser drops it"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "AbortController is the standard cancellation channel for fetch: the request aborts and its promise rejects with an AbortError DOMException you can filter out in the catch block. Promises have no .cancel() method and cannot be rejected from outside, and keepalive only controls whether a request may outlive the page."
+ },
+ {
+  "id": "GEN-T2U2-033",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "An external script tag inside <head> runs document.querySelector('#app') and gets null, although that element exists in the body markup. Without moving the tag or wrapping the code in a DOMContentLoaded listener, which attribute fixes it while still guaranteeing this script runs before another external script tag that follows it in the document and carries the same attribute?",
+  "opts": {
+   "A": "async",
+   "B": "nomodule",
+   "C": "crossorigin=\"anonymous\"",
+   "D": "defer"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "defer downloads the script in parallel but delays execution until the document has been parsed, and deferred scripts run in document order, so both requirements are met. That ordering guarantee holds among deferred scripts only: a later plain classic script carries no defer or async, is parser-blocking, and would still run first — which is why the stem pins the following script to the same attribute. async also defers download but executes as soon as the file arrives, which may be before parsing finishes and in an order that depends on network timing.",
+  "reviewFix": "Flagged by both blind passes as resting on an unstated assumption, and they were right. defer guarantees document order only against OTHER deferred scripts; if the following external script were a plain classic script it would be parser-blocking and execute BEFORE the deferred one, inverting the ordering the stem claimed to guarantee. As literally written no option satisfied the second requirement, and a student could have generalised that defer orders a script ahead of any later tag. The stem now pins the following script to the same attribute and the explanation states the limit of the guarantee. Key D unchanged."
+ },
+ {
+  "id": "GEN-T2U2-034",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "What happens on the last line?\n\nconst res = await fetch(url);\nconst text = await res.text();\nconst data = await res.json();",
+  "opts": {
+   "A": "data is parsed correctly, because text() and json() both read from an internally buffered copy",
+   "B": "json() resolves with null once text() has already been called",
+   "C": "json() rejects with a TypeError, because the response body stream has already been consumed",
+   "D": "It fails only when the response's Content-Type is not application/json"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A Response body is a one-shot stream: the first read sets bodyUsed to true, and any later body-reading method returns a promise rejected with a TypeError. There is no internal buffer to re-read, so the fix is either res.clone() before the first read or JSON.parse(text); note that json() ignores Content-Type entirely and parses whatever bytes it is given."
+ }
+]

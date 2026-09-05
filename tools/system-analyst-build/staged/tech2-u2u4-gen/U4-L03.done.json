@@ -1,0 +1,128 @@
+[
+ {
+  "id": "GEN-T2U4-018",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A data centre reports a Power Usage Effectiveness (PUE) of 1.5. The operations team then consolidates workloads onto fewer physical servers and powers down the freed machines. The facility's measured total electricity draw falls, yet the reported PUE rises to 1.8. What best explains this?",
+  "opts": {
+   "A": "PUE is the ratio of total facility energy to IT-equipment energy, and much of the non-IT overhead (cooling plant, UPS losses, lighting) does not scale down with IT load, so shrinking the denominator raises the ratio even though total energy fell",
+   "B": "Servers that are powered down but still racked are reclassified from IT load into facility load, so they move into the numerator only",
+   "C": "Consolidation raises per-rack power density, and the additional cooling this demands always outweighs the energy saved by switching servers off",
+   "D": "PUE excludes virtualised servers from its IT-equipment term, so moving workloads onto hypervisors artificially shrinks the denominator"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "PUE is total facility energy divided by IT energy, so it is an efficiency ratio and not a measure of absolute consumption; fixed overhead makes it worsen whenever IT load drops. Option C is tempting but is contradicted by the stem, which states total draw actually fell — this is why PUE alone is a poor sustainability target and is paired with absolute energy and carbon metrics."
+ },
+ {
+  "id": "GEN-T2U4-019",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A sustainability team wants to account for the greenhouse-gas emissions produced by mining, manufacturing and shipping the servers it buys, as distinct from the emissions of the electricity those servers draw while running. It notes that stretching the hardware refresh cycle from three years to five reduces this quantity per year of service. Which term names it?",
+  "opts": {
+   "A": "Operational carbon",
+   "B": "Embodied carbon",
+   "C": "Carbon Usage Effectiveness (CUE)",
+   "D": "Power Usage Effectiveness (PUE)"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Embodied (or embedded) carbon is the emissions locked into a device before it is ever switched on, which is why longer refresh cycles amortise it over more service years. Carbon Usage Effectiveness is the closest trap: it is total CO2e from facility energy divided by IT energy, so it measures operational emissions, not manufacturing ones."
+ },
+ {
+  "id": "GEN-T2U4-020",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A Kubernetes HorizontalPodAutoscaler (autoscaling/v2) is configured with minReplicas: 2, maxReplicas: 10, and a single Resource metric on cpu with target type Utilization and averageUtilization: 50. The Deployment is currently running 4 pods, and each pod is averaging 100% of its requested CPU. Ignoring stabilisation windows and scaling policies, what replica count does the HPA compute?",
+  "opts": {
+   "A": "5",
+   "B": "6",
+   "C": "8",
+   "D": "10"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The HPA applies desiredReplicas = ceil(currentReplicas x currentMetricValue / desiredMetricValue), which here is ceil(4 x 100 / 50) = 8, comfortably under maxReplicas. Option D assumes a breach of the target jumps straight to the maximum, and option A assumes the controller adds one replica per reconcile loop; neither reflects how the ratio-based algorithm works."
+ },
+ {
+  "id": "GEN-T2U4-021",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A pool of identically sized backend instances serves a mix of sub-10 ms API calls and occasional multi-second report generations. Under plain round-robin distribution, a few instances are saturated with long requests while others sit nearly idle. Assuming the load balancer can observe how many requests it currently has in flight to each backend, which algorithm most directly corrects this?",
+  "opts": {
+   "A": "Weighted round robin, with weights assigned in proportion to each instance's size",
+   "B": "Source-IP hashing, so each client is pinned to one backend",
+   "C": "Uniformly random backend selection on every request",
+   "D": "Least outstanding requests (least connections), sending each new request to the backend with the fewest in-flight requests"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Least-outstanding-requests is the standard remedy for highly variable request cost because it reacts to live occupancy rather than to position in a rotation. Weighted round robin is the tempting alternative but its weights are static and reflect capacity, not the current backlog, so an instance stuck on a long report keeps receiving its share."
+ },
+ {
+  "id": "GEN-T2U4-022",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A five-node consensus-based datastore that commits writes on a majority quorum is deployed across two availability zones: three nodes in AZ-a and two in AZ-b. AZ-a becomes unreachable. What happens to the cluster?",
+  "opts": {
+   "A": "The two surviving nodes cannot form a majority of the five configured members, so the cluster loses quorum and refuses writes until AZ-a returns or the membership is changed by an operator",
+   "B": "The two surviving nodes elect a leader among themselves and continue accepting writes at reduced throughput",
+   "C": "Quorum is automatically recalculated against the reachable membership, so two out of two becomes the new majority and service continues",
+   "D": "Writes continue to be accepted and are reconciled by last-write-wins once AZ-a rejoins"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A majority quorum is computed against the configured membership of five, so three nodes are required and the surviving two are stranded — which is precisely why quorum systems are spread across three availability zones rather than two. Option C is the most seductive, but automatic shrinking of the quorum on partition is exactly what would allow both sides to accept conflicting writes, so consensus protocols require an explicit operator-driven membership change instead."
+ },
+ {
+  "id": "GEN-T2U4-023",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "During every rolling deployment behind a cloud load balancer, a small number of users see connections reset mid-request, even though replacement instances pass their health checks before the old instances are taken out of service. Which load-balancer setting addresses this most directly?",
+  "opts": {
+   "A": "Lengthening the health-check interval so instances are probed less aggressively",
+   "B": "Connection draining (deregistration delay), which stops new requests to a departing instance but lets in-flight requests finish within a grace period",
+   "C": "Enabling sticky sessions so each client stays bound to one instance",
+   "D": "Raising the load balancer's idle timeout for keep-alive connections"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Without a deregistration delay, an instance is removed from rotation and terminated while requests already dispatched to it are still executing, which the client observes as a reset. Sticky sessions are the tempting choice because they also concern client-to-instance binding, but they make the problem worse — a pinned client is guaranteed to be affected when its instance goes away."
+ },
+ {
+  "id": "GEN-T2U4-024",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "Service A calls service B synchronously. B's p99 latency rises from 40 ms to 20 seconds. A's request-handling threads all end up blocked waiting on B, and A starts failing requests on endpoints that never touch B at all. Which resilience mechanism is specifically designed to stop A from continuing to issue calls to a dependency that is already failing?",
+  "opts": {
+   "A": "Automatic retries with exponential backoff and jitter on every call to B",
+   "B": "Horizontally autoscaling service A on average CPU utilisation",
+   "C": "A circuit breaker that opens after a failure or slow-call threshold is crossed and fails calls to B immediately while open",
+   "D": "Increasing A's client-side timeout for B so that slow responses are not abandoned"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A circuit breaker trips on observed failure or slow-call rate and then fails fast, freeing A's threads instead of parking them on a dependency that cannot answer. Retries with backoff and jitter are the trap: they are good practice for transient errors but here they multiply load against an already-overloaded B and hold A's threads even longer, and autoscaling A on CPU will not even fire, since threads blocked on I/O consume almost no CPU."
+ },
+ {
+  "id": "GEN-T2U4-025",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A cluster runs an API gateway at its edge and a service mesh internally. Which responsibility properly belongs to the API gateway rather than to the service mesh?",
+  "opts": {
+   "A": "Terminating mutual TLS on a call from one internal service to another",
+   "B": "Retrying an idempotent internal call against a second replica after the first returns 503",
+   "C": "Propagating trace-context headers across internal service-to-service hops",
+   "D": "Authenticating external third-party consumers by API key and enforcing a per-consumer request quota on traffic entering the cluster from the public internet"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The gateway owns north-south traffic — the boundary where untrusted external clients are identified, monetised and rate-limited per consumer — while the mesh owns east-west traffic between services that are already inside the trust boundary. The other three options all describe internal hops, which are exactly the sidecar's job in a mesh."
+ },
+ {
+  "id": "GEN-T2U4-026",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A cloud provider offers carbon-aware scheduling for deferrable batch workloads such as nightly model retraining. What does such a scheduler actually exploit in order to reduce emissions?",
+  "opts": {
+   "A": "It reduces the total kilowatt-hours the job consumes by compressing the same work into a shorter wall-clock window",
+   "B": "The carbon intensity of grid electricity (grams of CO2e per kWh) varies by hour and by region, so a job with a flexible deadline can be run at a time, or in a region, where the electricity is cleaner",
+   "C": "It retires renewable-energy certificates after the run so that the job's reported emissions net out to zero",
+   "D": "It restricts scheduling to providers that have published a net-zero commitment for the calendar year"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Carbon-aware scheduling is temporal and spatial shifting: the same kilowatt-hours are moved to a window or region where the marginal generation mix is less carbon-intense, which is why it only works for workloads with slack in their deadline. Option C describes offsetting, an accounting step applied after consumption that changes no scheduling decision at all."
+ }
+]

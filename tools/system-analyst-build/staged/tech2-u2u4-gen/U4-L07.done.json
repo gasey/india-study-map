@@ -1,0 +1,128 @@
+[
+ {
+  "id": "GEN-T2U4-054",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A department migrates a PostgreSQL database from a self-managed installation on IaaS virtual machines to the cloud provider's managed database service (PaaS). Under the shared responsibility model, which responsibility moves from the department to the provider as a result of that migration?",
+  "opts": {
+   "A": "Deciding which application accounts hold write privileges on each schema",
+   "B": "Classifying which columns hold personal data and setting how long those rows are retained",
+   "C": "Applying security patches to the database engine binaries and to the operating system beneath them",
+   "D": "Choosing the backup retention window and verifying that a restore actually reconstitutes the database"
+  },
+  "ans": "C",
+  "exp": "Moving up the service models transfers the layers below the abstraction being sold, so with a managed database the provider owns the host OS and engine patching that the department itself performed on IaaS. Backup retention is the tempting miss: a managed service runs the backup job for you, but how long copies are kept and whether restores are rehearsed remain customer decisions, as do data classification and privilege grants, which never transfer in any service model.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-055",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An internal payroll API accepts any request arriving from the corporate VPN address range, on the reasoning that only authenticated employees can reach that range. Which change most directly addresses the assumption that Zero Trust rejects?",
+  "opts": {
+   "A": "Place the API on a dedicated VLAN routed only from payroll workstations",
+   "B": "Require multi-factor authentication at the point where the user logs in to the VPN",
+   "C": "Enforce mutual TLS between the VPN concentrator and the API so the transport is encrypted and the concentrator is authenticated",
+   "D": "Authenticate and authorise every individual request against a verified user or workload identity, irrespective of the network the request arrives from"
+  },
+  "ans": "D",
+  "exp": "Zero Trust's defining move is to stop treating network location as evidence of trustworthiness and to evaluate identity, device posture and authorisation per request. Strengthening the VPN login with MFA is the most tempting answer and is a real improvement, but it only hardens the perimeter and still grants everything behind it implicit trust once a session exists; segmentation and mutual TLS likewise relocate or encrypt the implicit trust rather than removing it.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-056",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An application running on a cloud virtual machine must call the provider's object storage API. The requirement is that no long-lived credential exists anywhere — not on the host, not in the image, not in the source tree. Which approach satisfies that?",
+  "opts": {
+   "A": "Create an IAM user with an access key pair and inject it through an environment variable when the process starts",
+   "B": "Attach a cloud IAM role (managed identity) to the instance so the platform issues short-lived, automatically rotated credentials to the workload",
+   "C": "Store an access key pair in the provider's secrets manager and have the application fetch it over TLS at startup",
+   "D": "Bake the access key pair into the machine image and restrict which accounts may launch that image"
+  },
+  "ans": "B",
+  "exp": "An instance role makes the platform itself the credential issuer: the workload receives temporary, scoped, auto-rotating credentials from the instance metadata service, so there is no static secret to leak or rotate. The secrets manager option is the trap — it is genuinely better than an environment variable or a baked-in image because it centralises and audits access, but the key pair it holds is still long-lived, which is exactly what the requirement forbids.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-057",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A cloud admin console is protected by multi-factor authentication. In an adversary-in-the-middle phishing campaign, a look-alike site relays the victim's password and second factor to the real console in real time and steals the resulting session. Which second factor would have defeated that attack by design?",
+  "opts": {
+   "A": "A FIDO2/WebAuthn security key or platform authenticator",
+   "B": "A time-based one-time password from an authenticator app",
+   "C": "A six-digit one-time code delivered by SMS",
+   "D": "A push notification that the user approves in the provider's mobile app"
+  },
+  "ans": "A",
+  "exp": "A WebAuthn assertion is signed over the origin the browser is actually connected to and is bound to that relying party, so a proxy sitting on a look-alike domain cannot obtain a signature the real console will accept. The other three all produce a bearer value or a yes/no decision that carries no binding to the site being visited, which is precisely what lets a real-time relay forward it — the push option is the most tempting because it looks 'modern', but an approval prompt still approves the attacker's session.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-058",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A disaster recovery plan for a citizen-facing service states RPO 15 minutes and RTO 4 hours. The current design ships a full database snapshot to a second region every 6 hours, and a rehearsed failover brings the service back from the latest snapshot in about 90 minutes. What does the rehearsal establish?",
+  "opts": {
+   "A": "Both objectives are met, since the failover completes well inside 4 hours",
+   "B": "The RPO is met but the RTO is not, so a warm standby is needed to shorten the recovery",
+   "C": "The RTO is met but the RPO is not, so continuous replication or transaction-log shipping is needed to close the gap",
+   "D": "Neither objective is met, because a snapshot-based design cannot satisfy either target"
+  },
+  "ans": "C",
+  "exp": "RTO is how long the service may stay down and RPO is how much data may be lost, so the 90-minute recovery comfortably clears the 4-hour RTO while a 6-hour snapshot interval can lose up to 6 hours of writes against a 15-minute RPO. Option B inverts the two definitions, which is the standard confusion: shortening restore time does nothing about data loss, and only increasing replication frequency moves the RPO.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-059",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An object storage service uses envelope encryption: each object is encrypted with its own data encryption key (DEK), and that DEK is stored alongside the object in wrapped form, encrypted under a customer-managed key held in the cloud KMS. The department disables the customer-managed key. What is the immediate effect on objects already stored?",
+  "opts": {
+   "A": "Nothing changes for stored objects; disabling the key only prevents new objects from being written",
+   "B": "The provider transparently re-wraps the existing DEKs under a platform-managed key so that reads continue",
+   "C": "Every stored object is re-encrypted in place under a freshly generated key before the disable takes effect",
+   "D": "The objects become unreadable, because the wrapped DEK can no longer be unwrapped even though the ciphertext itself is untouched"
+  },
+  "ans": "D",
+  "exp": "In envelope encryption the KMS key never leaves the KMS and is used only to unwrap the DEK on each read, so removing the ability to use it breaks every read that depends on it — this is the basis of crypto-shredding as a data-destruction control. Option A is the common misreading: the key gates decryption as well as encryption, so existing data is affected immediately, and no provider silently substitutes its own key to keep reads working, since that would defeat the point of customer-managed keys.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-060",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A DevSecOps pipeline already runs static analysis over the team's own source, unit tests, and a dynamic scan against the deployed staging URL. A critical vulnerability still reaches production, in a transitive library pulled in by one of the declared dependencies. Which pipeline control was missing?",
+  "opts": {
+   "A": "An authenticated dynamic scan, so that endpoints behind login are also exercised",
+   "B": "Software composition analysis that resolves the full dependency tree and matches every resolved component against a vulnerability database",
+   "C": "Static analysis with a wider rule set and inter-procedural taint tracking",
+   "D": "Secret scanning across the repository history to catch committed credentials"
+  },
+  "ans": "B",
+  "exp": "Composition analysis is the only one of these that inspects code the team did not write: it resolves transitive dependencies, typically emits an SBOM, and matches each component and version against known advisories. Widening the static analysis rules is the tempting answer but static analysis is pointed at first-party source and would not flag a flaw sitting inside a third-party package that the build merely pulls in.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-061",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "Under the CERT-In directions issued in April 2022, which apply to service providers, intermediaries, data centres and body corporates in India, within what period of noticing a specified cyber security incident, or of it being brought to notice, must the incident be reported to CERT-In?",
+  "opts": {
+   "A": "6 hours",
+   "B": "24 hours",
+   "C": "72 hours",
+   "D": "7 days"
+  },
+  "ans": "A",
+  "exp": "The 2022 directions set a 6-hour reporting window for the listed categories of incident, alongside the requirement to keep ICT system logs for 180 days within Indian jurisdiction and to synchronise system clocks to NIC or NPL time servers. The 72-hour option is the one candidates reach for because it is the breach-notification deadline familiar from the EU GDPR, which has no bearing on the CERT-In obligation.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-062",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A state department stores citizens' personal data on a MeitY-empanelled cloud service provider's infrastructure, and the provider processes that data only on the department's documented instructions under a contract. Under the Digital Personal Data Protection Act, 2023, which statement about accountability is correct?",
+  "opts": {
+   "A": "MeitY empanelment transfers statutory responsibility for the personal data to the provider for the empanelled workloads",
+   "B": "The provider becomes a joint Data Fiduciary, because the data physically resides on infrastructure it owns and operates",
+   "C": "The department remains the accountable Data Fiduciary; the provider is a Data Processor engaged under contract, and outsourcing the processing does not shift the Fiduciary's obligations",
+   "D": "The obligations attach to whoever operates the infrastructure, since that party determines how the processing is actually carried out"
+  },
+  "ans": "C",
+  "exp": "The Act keys the role to who determines the purpose and means of processing, so a department that instructs a provider is the Data Fiduciary and stays answerable for compliance even where a Data Processor performs the work on its behalf. Empanelment is the trap: MeitY empanelment is a procurement and assurance mechanism that tells a government buyer a provider has been assessed against defined requirements, and it confers no statutory transfer of accountability.",
+  "conf": "high"
+ }
+]

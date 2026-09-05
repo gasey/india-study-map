@@ -1,0 +1,380 @@
+[
+ {
+  "id": "GEN-T2U4-036",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A team runs a sharded datastore on Kubernetes. Each replica needs a hostname that stays the same across rescheduling, and its own PersistentVolume that is re-attached to that same replica rather than to whichever Pod starts first. Which workload object provides this?",
+  "opts": {
+   "A": "A Deployment whose Pod template mounts a PersistentVolumeClaim",
+   "B": "A DaemonSet, so that each replica is pinned to one node",
+   "C": "A StatefulSet with a volumeClaimTemplate",
+   "D": "A ReplicaSet with pod anti-affinity across nodes"
+  },
+  "ans": "C",
+  "exp": "A StatefulSet gives every Pod a stable ordinal identity and name, and its volumeClaimTemplate creates a separate PersistentVolumeClaim per ordinal that is rebound to the same ordinal whenever that Pod is recreated. A Deployment mounting a PersistentVolumeClaim (A) points every replica at the one same claim and hands out randomised Pod names, so neither the identity nor the per-replica volume requirement is met.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-037",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Which Service configuration makes cluster DNS resolve the Service name to the individual Pod IP addresses of its ready endpoints, instead of to one virtual IP that load-balances across them?",
+  "opts": {
+   "A": "Setting clusterIP: None, i.e. a headless Service",
+   "B": "type: NodePort",
+   "C": "type: ExternalName",
+   "D": "type: LoadBalancer with externalTrafficPolicy: Local"
+  },
+  "ans": "A",
+  "exp": "A headless Service is allocated no virtual IP, so the cluster DNS server answers the Service name with one address record per ready endpoint — the mechanism StatefulSet members use to find their peers directly. ExternalName is the other DNS-special Service type but it returns a CNAME to a name outside the cluster and has no endpoints at all.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-038",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A container's readiness probe starts failing while its liveness probe keeps succeeding. What does Kubernetes do?",
+  "opts": {
+   "A": "The kubelet restarts the container once the readiness probe's failureThreshold is reached",
+   "B": "The Pod is evicted and rescheduled onto a different node",
+   "C": "Nothing changes for that Pod until the liveness probe also begins to fail",
+   "D": "The Pod's address is removed from the Service's endpoints, but the container is left running"
+  },
+  "ans": "D",
+  "exp": "Readiness controls endpoint membership only: a Pod that reports not-ready is dropped from the Service's endpoints so it stops receiving traffic, while its container continues to run untouched. Restarting a container is strictly the liveness probe's job, which is why C is wrong — the Pod's traffic does change immediately, even though nothing restarts.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-039",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A Dockerfile contains:\n\nFROM debian:stable-slim\nRUN apt-get update && apt-get install -y gcc\nRUN rm -rf /var/lib/apt/lists/*\nCOPY ./src /src\n\nThe image is built normally, with no multi-stage build and no squashing. What is the effect of the third instruction on the size of the resulting image?",
+  "opts": {
+   "A": "The image shrinks by roughly the size of the deleted package lists",
+   "B": "The image does not shrink; the files stay in the earlier layer and the new layer only records their deletion",
+   "C": "The build fails, because a RUN instruction cannot delete files created by a previous RUN instruction",
+   "D": "The image shrinks only because the deletion happens before the final COPY instruction"
+  },
+  "ans": "B",
+  "exp": "Image layers are additive and immutable: deleting a file in a later layer writes a whiteout entry that hides it from the assembled filesystem, but the earlier layer still ships the bytes, so the sum of the layers is unchanged. To actually reclaim the space the cleanup must run inside the same RUN instruction that created the files, or the wanted artefacts must be copied into a fresh stage.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-040",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "With default options, what does `terraform plan` compare in order to produce the diff it prints?",
+  "opts": {
+   "A": "The configuration against state that has first been refreshed from the providers' real remote objects, making no changes of its own",
+   "B": "The configuration against the state file exactly as stored, without contacting any provider API",
+   "C": "The current configuration against the previous revision of the configuration in version control",
+   "D": "The state file against the dependency lock file that pins provider versions"
+  },
+  "ans": "A",
+  "exp": "By default a plan reads the real objects back from the provider APIs, updates its in-memory view of state, and only then diffs that against the configuration to propose create/update/destroy actions without performing them. Trusting the stored state alone (B) is what `-refresh=false` does, and it makes the plan blind to out-of-band drift — the very thing a plan is expected to surface.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-041",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "An Ansible playbook task that invokes a shell command reports `changed` on every single run, even when the target host is already in the desired state. What explains this?",
+  "opts": {
+   "A": "Fact gathering has been disabled for the play, so Ansible has nothing to compare the host against",
+   "B": "The task is missing `become: true`, so its result is reported but never actually committed",
+   "C": "The command and shell modules cannot inspect prior state, so Ansible reports changed unless the task is guarded with `creates`, `removes` or a `changed_when` condition",
+   "D": "Ansible is agentless, so idempotent reporting requires an agent-based tool such as Puppet"
+  },
+  "ans": "C",
+  "exp": "Idempotent status in Ansible comes from modules that inspect the current state and report `ok` when there was nothing to do; command and shell just execute an opaque process whose effect Ansible cannot reason about, so they report `changed` unconditionally unless bounded by `creates`, `removes` or `changed_when`. Agentlessness (D) is irrelevant — `apt`, `file` and `copy` are equally agentless and still report `ok` correctly.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-042",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A CI/CD pipeline builds a versioned artefact once and then promotes that identical artefact through test, staging and production, rather than rebuilding it from source at each stage. Which risk does this practice principally remove?",
+  "opts": {
+   "A": "Build-time secrets being baked into the image and readable by anyone who pulls it",
+   "B": "The binary that passed testing differing from the binary that reaches production, because a later rebuild resolved different dependencies or used a different toolchain",
+   "C": "Drift between the recorded Terraform state and the real infrastructure",
+   "D": "A container process escaping its namespaces onto the host"
+  },
+  "ans": "B",
+  "exp": "A rebuild is not guaranteed to be bit-identical — a floating dependency version, a moved base-image tag or a different build agent can quietly yield a different binary from the one the tests approved. Promoting a single immutable artefact makes \"tested\" and \"deployed\" the same object, with per-environment differences injected as configuration at deploy time instead.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-043",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Kubernetes removed the in-tree Docker shim from the kubelet some releases ago. Which interface does the kubelet use to create and manage containers on a node?",
+  "opts": {
+   "A": "The Open Container Initiative runtime specification, as implemented by runc",
+   "B": "The Container Network Interface (CNI)",
+   "C": "libcontainer, linked directly into the kubelet binary",
+   "D": "The Container Runtime Interface (CRI), a gRPC API implemented by runtimes such as containerd and CRI-O"
+  },
+  "ans": "D",
+  "exp": "CRI is the gRPC contract between the kubelet and whatever container runtime a node runs; dropping dockershim only meant Docker Engine lost its special in-tree adapter to that contract. The OCI runtime specification (A) is real but sits a level lower — it is how a high-level runtime like containerd asks runc to start the process, not something the kubelet speaks.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-044",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A HorizontalPodAutoscaler raises a Deployment from 4 to 10 replicas under load. The six new Pods stay `Pending`, and `kubectl describe pod` reports `0/3 nodes are available: 3 Insufficient cpu`. What is happening?",
+  "opts": {
+   "A": "No node has enough unreserved allocatable CPU left to satisfy the new Pods' CPU requests, and nothing will add capacity unless a cluster autoscaler is running",
+   "B": "The HPA's maxReplicas has been reached, so the scheduler is refusing to admit the surplus Pods",
+   "C": "The new Pods have exceeded their CPU limits and are being throttled into the Pending state",
+   "D": "The Deployment's rolling update strategy is holding the new Pods back until the original four terminate"
+  },
+  "ans": "A",
+  "exp": "An HPA only edits the replica count; the scheduler still has to find a node whose unreserved allocatable CPU covers each Pod's CPU request, and Kubernetes never adds machines on its own without a cluster autoscaler. Exceeding a CPU limit (C) throttles an already-running container and can never put a Pod into Pending, which is a pre-scheduling state.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-045",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An application writes about five million log objects a day to a cloud object store; each object is roughly 20 KB and is deleted about 30 days after it is written. To cut cost the team adds a lifecycle rule that transitions every object to the provider's archive storage class 7 days after creation. The monthly bill rises instead of falling. What best explains this?",
+  "opts": {
+   "A": "Archive classes are held in a single availability zone, and single-zone storage carries a durability surcharge that outweighs the lower per-GB rate",
+   "B": "The lifecycle rule copies each object into the archive class but leaves the original in the standard class until it is deleted explicitly, so every object is billed in both classes",
+   "C": "Archive classes bill each object for a minimum storage duration and against a minimum billable object size, and each transition is itself a chargeable request — so small, short-lived objects cost more there than in the standard class",
+   "D": "Objects are re-encrypted with provider-managed keys on transition, and key operations are then billed per object per month"
+  },
+  "ans": "C",
+  "exp": "Cold and archive classes price against a minimum billable object size and a minimum storage duration, and charge a per-object request for the transition itself; 20 KB objects deleted at 30 days trip all three at once. B is the tempting misreading — a lifecycle transition changes an object's storage class in place and does not leave a second billable copy behind.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-046",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "On AWS, an EC2 instance in a public subnet serves HTTPS. Its security group allows inbound TCP 443 from 0.0.0.0/0 and all outbound traffic. The subnet's network ACL allows inbound TCP 443 from 0.0.0.0/0, but its outbound entries allow only TCP 443. Clients get no response at all and eventually time out. What explains it?",
+  "opts": {
+   "A": "Security groups are evaluated only on traffic crossing the VPC boundary, so the inbound 443 rule never applies to traffic arriving via the internet gateway",
+   "B": "Network ACLs are stateless, so the server's replies — which leave from port 443 towards the client's ephemeral port — need their own outbound entry covering the ephemeral port range; the security group is stateful and needs no matching rule",
+   "C": "Security groups evaluate their rules in numbered order and stop at the first match, so the allow-all outbound rule is shadowed by the inbound 443 rule",
+   "D": "A network ACL governs only traffic between subnets of the same VPC, so it cannot affect traffic destined for an internet client"
+  },
+  "ans": "B",
+  "exp": "A network ACL evaluates inbound and outbound entries independently with no connection state, so the response packet is a fresh outbound flow to the client's ephemeral port and is denied by the implicit deny. The security group is not at fault precisely because it is stateful: return traffic for an allowed inbound flow is permitted automatically, which is the whole difference between the two controls.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-047",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An enterprise replaces its site-to-cloud IPsec VPN over the public internet with a dedicated private interconnect to the provider (for example AWS Direct Connect or Azure ExpressRoute). Which statement about the change is correct?",
+  "opts": {
+   "A": "The interconnect performs address translation between on-premises and cloud address space, so overlapping private IP ranges cease to be a problem",
+   "B": "The interconnect is encrypted end to end by the provider at line rate, making any tunnel running over it redundant",
+   "C": "The interconnect removes the need for BGP or any other routing exchange, because on-premises routes are learned from the provider's DHCP service",
+   "D": "The interconnect gives more predictable bandwidth and latency by bypassing the public internet, but carries traffic unencrypted by default — confidentiality must still be added on top, for example with IPsec or MACsec"
+  },
+  "ans": "D",
+  "exp": "A dedicated interconnect is a private path, not a cryptographic one: it buys deterministic throughput and latency and keeps traffic off the public internet, but it applies no confidentiality of its own. B is the usual and dangerous misconception — 'private circuit' gets read as 'encrypted circuit', and for a regulated workload that assumption is exactly where the exposure sits.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-048",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An application uses Amazon RDS for PostgreSQL in a Multi-AZ instance deployment (one standby) with two read replicas, and routes all read queries to the replicas. A user saves a profile change and the very next page load shows the old value. Which explains the behaviour?",
+  "opts": {
+   "A": "Read replicas are kept current by asynchronous replication, so a replica can lag the primary and a just-committed write is not guaranteed to be visible there yet",
+   "B": "Read replicas serve from the most recent automated snapshot, which is taken on a fixed schedule rather than continuously",
+   "C": "Read replicas run at a lower transaction isolation level than the primary, so they cannot see committed rows until their next checkpoint",
+   "D": "The Multi-AZ standby answered the read; standbys replicate synchronously but expose their data only once a failover has completed"
+  },
+  "ans": "A",
+  "exp": "RDS read replicas are maintained by asynchronous streaming replication, so replica lag is normal operation and read-your-own-writes holds only if that read goes to the primary or the application waits for the replica to catch up. D is the plausible trap, but the standby in a Multi-AZ instance deployment serves no query traffic at all — it exists solely for failover, so it cannot have answered anything.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-049",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A serverless function backing a public API scales out to several hundred concurrent executions, each opening its own connection to a managed PostgreSQL instance. The database begins refusing connections once its configured limit is reached, and simply raising that limit starves the instance of memory. Which remedy addresses the cause?",
+  "opts": {
+   "A": "Move the connection open and close inside the request handler so that each connection is released before the invocation returns",
+   "B": "Lower the database's transaction isolation level so that transactions release their connections sooner",
+   "C": "Place a connection pooler or managed database proxy between the functions and the database, so that many short-lived client connections are multiplexed onto a small, stable pool of backend connections",
+   "D": "Add read replicas and route all traffic to them; the connection limit is enforced cluster-wide, so additional replicas raise the total available"
+  },
+  "ans": "C",
+  "exp": "Each execution environment holds its own connection, so it is peak concurrency rather than per-invocation lifetime that sets the connection count, and a pooler such as PgBouncer or a managed proxy is what decouples the two. A is the intuitive fix and is wrong: opening and closing inside the handler leaves the peak unchanged and merely adds a TLS and authentication handshake to every request.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-050",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A team adds the end user's account ID as a label on a request-count metric in a Prometheus-style metrics system. Within days, ingestion memory and query latency degrade sharply. What is the mechanism?",
+  "opts": {
+   "A": "Every distinct combination of label values defines a separate time series, so an unbounded label such as a user ID multiplies the number of stored series by the size of the user base",
+   "B": "Label values are held in a full-text index, so the cost is driven by the character length of each value rather than by how many distinct values occur",
+   "C": "Adding a label raises the effective scrape resolution for that metric, so more samples are collected per unit of time",
+   "D": "The cost comes from the number of label keys attached to a metric rather than from their values — each extra key multiplies storage by a fixed factor whatever values it takes"
+  },
+  "ans": "A",
+  "exp": "Cardinality is the product of the distinct values of every label, and each combination becomes an independently stored and indexed time series, so a user ID grows the series count without bound. D states the common inversion — it is the distinct values, not the count of label keys, that drives cost, and this is why per-user detail belongs in logs or traces rather than in metric labels.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-051",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "Which statement best captures the distinction usually drawn between monitoring and observability?",
+  "opts": {
+   "A": "Monitoring is agent-based collection while observability is agentless collection; the signals gathered are otherwise the same",
+   "B": "Monitoring covers infrastructure such as hosts and networks, while observability covers application code only",
+   "C": "Monitoring is what a cloud provider performs on its own platform; observability is what a customer performs on the workloads it runs there",
+   "D": "Monitoring watches predefined signals and alerts on failure modes anticipated in advance, whereas observability is the property of a system whose external outputs are rich enough to answer new, unanticipated questions about its internal state without shipping fresh instrumentation"
+  },
+  "ans": "D",
+  "exp": "The working distinction is about which questions can be asked: monitoring answers the ones chosen before the incident, while observability is the property that lets a system be interrogated after it behaves in a way nobody predicted, using telemetry it already emits. A, B and C describe collection mechanics or ownership boundaries — an agent-based pipeline over infrastructure metrics can be highly observable, so none of them is the accepted distinction.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-052",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An OpenStack tenant needs storage that survives termination of the instance it is attached to, presents to the guest as a raw block device which the guest formats itself, and is attached to one Nova instance at a time. Which OpenStack service provides it?",
+  "opts": {
+   "A": "Swift",
+   "B": "Cinder",
+   "C": "Manila",
+   "D": "Glance"
+  },
+  "ans": "B",
+  "exp": "Cinder is OpenStack's block storage service: it provisions volumes that Nova attaches as block devices and whose lifecycle is independent of the instance. Manila is the closest trap because it is a genuine OpenStack storage service, but it serves shared file systems over protocols such as NFS or CIFS rather than raw block devices; Swift is object storage reached over HTTP, and Glance catalogues VM images.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-053",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A 40-hour distributed GPU training job is placed on discounted preemptible (spot) capacity to reduce cost. Nodes are reclaimed every few hours with roughly two minutes' warning, and each reclamation loses all progress made since the job started. Which change lets the job keep using preemptible capacity?",
+  "opts": {
+   "A": "Checkpoint model weights and optimizer state to durable shared storage at regular intervals and on receipt of the preemption notice, and have the job resume from the latest checkpoint when it restarts",
+   "B": "Enable gradient accumulation, so that the partial gradients built up on a node survive its termination and are merged when the job restarts",
+   "C": "Stage the training dataset on each node's local NVMe disk, so that a reclaimed node loses no training progress",
+   "D": "Collapse the job into a single process with a proportionally larger batch size, so that there is no distributed state for a reclamation to lose"
+  },
+  "ans": "A",
+  "exp": "Preemptible capacity is a durability problem rather than a throughput one, so the defence is periodic checkpointing of weights and optimizer state to storage outside the node, together with a signal handler that flushes on the termination notice so a restart resumes instead of starting over. B misreads gradient accumulation: it accumulates across micro-batches within a single optimizer step, entirely in GPU memory, and dies with the process.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-054",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A department migrates a PostgreSQL database from a self-managed installation on IaaS virtual machines to the cloud provider's managed database service (PaaS). Under the shared responsibility model, which responsibility moves from the department to the provider as a result of that migration?",
+  "opts": {
+   "A": "Deciding which application accounts hold write privileges on each schema",
+   "B": "Classifying which columns hold personal data and setting how long those rows are retained",
+   "C": "Applying security patches to the database engine binaries and to the operating system beneath them",
+   "D": "Choosing the backup retention window and verifying that a restore actually reconstitutes the database"
+  },
+  "ans": "C",
+  "exp": "Moving up the service models transfers the layers below the abstraction being sold, so with a managed database the provider owns the host OS and engine patching that the department itself performed on IaaS. Backup retention is the tempting miss: a managed service runs the backup job for you, but how long copies are kept and whether restores are rehearsed remain customer decisions, as do data classification and privilege grants, which never transfer in any service model.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-055",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An internal payroll API accepts any request arriving from the corporate VPN address range, on the reasoning that only authenticated employees can reach that range. Which change most directly addresses the assumption that Zero Trust rejects?",
+  "opts": {
+   "A": "Place the API on a dedicated VLAN routed only from payroll workstations",
+   "B": "Require multi-factor authentication at the point where the user logs in to the VPN",
+   "C": "Enforce mutual TLS between the VPN concentrator and the API so the transport is encrypted and the concentrator is authenticated",
+   "D": "Authenticate and authorise every individual request against a verified user or workload identity, irrespective of the network the request arrives from"
+  },
+  "ans": "D",
+  "exp": "Zero Trust's defining move is to stop treating network location as evidence of trustworthiness and to evaluate identity, device posture and authorisation per request. Strengthening the VPN login with MFA is the most tempting answer and is a real improvement, but it only hardens the perimeter and still grants everything behind it implicit trust once a session exists; segmentation and mutual TLS likewise relocate or encrypt the implicit trust rather than removing it.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-056",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An application running on a cloud virtual machine must call the provider's object storage API. The requirement is that no long-lived credential exists anywhere — not on the host, not in the image, not in the source tree. Which approach satisfies that?",
+  "opts": {
+   "A": "Create an IAM user with an access key pair and inject it through an environment variable when the process starts",
+   "B": "Attach a cloud IAM role (managed identity) to the instance so the platform issues short-lived, automatically rotated credentials to the workload",
+   "C": "Store an access key pair in the provider's secrets manager and have the application fetch it over TLS at startup",
+   "D": "Bake the access key pair into the machine image and restrict which accounts may launch that image"
+  },
+  "ans": "B",
+  "exp": "An instance role makes the platform itself the credential issuer: the workload receives temporary, scoped, auto-rotating credentials from the instance metadata service, so there is no static secret to leak or rotate. The secrets manager option is the trap — it is genuinely better than an environment variable or a baked-in image because it centralises and audits access, but the key pair it holds is still long-lived, which is exactly what the requirement forbids.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-057",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A cloud admin console is protected by multi-factor authentication. In an adversary-in-the-middle phishing campaign, a look-alike site relays the victim's password and second factor to the real console in real time and steals the resulting session. Which second factor would have defeated that attack by design?",
+  "opts": {
+   "A": "A FIDO2/WebAuthn security key or platform authenticator",
+   "B": "A time-based one-time password from an authenticator app",
+   "C": "A six-digit one-time code delivered by SMS",
+   "D": "A push notification that the user approves in the provider's mobile app"
+  },
+  "ans": "A",
+  "exp": "A WebAuthn assertion is signed over the origin the browser is actually connected to and is bound to that relying party, so a proxy sitting on a look-alike domain cannot obtain a signature the real console will accept. The other three all produce a bearer value or a yes/no decision that carries no binding to the site being visited, which is precisely what lets a real-time relay forward it — the push option is the most tempting because it looks 'modern', but an approval prompt still approves the attacker's session.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-058",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A disaster recovery plan for a citizen-facing service states RPO 15 minutes and RTO 4 hours. The current design ships a full database snapshot to a second region every 6 hours, and a rehearsed failover brings the service back from the latest snapshot in about 90 minutes. What does the rehearsal establish?",
+  "opts": {
+   "A": "Both objectives are met, since the failover completes well inside 4 hours",
+   "B": "The RPO is met but the RTO is not, so a warm standby is needed to shorten the recovery",
+   "C": "The RTO is met but the RPO is not, so continuous replication or transaction-log shipping is needed to close the gap",
+   "D": "Neither objective is met, because a snapshot-based design cannot satisfy either target"
+  },
+  "ans": "C",
+  "exp": "RTO is how long the service may stay down and RPO is how much data may be lost, so the 90-minute recovery comfortably clears the 4-hour RTO while a 6-hour snapshot interval can lose up to 6 hours of writes against a 15-minute RPO. Option B inverts the two definitions, which is the standard confusion: shortening restore time does nothing about data loss, and only increasing replication frequency moves the RPO.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-059",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An object storage service uses envelope encryption: each object is encrypted with its own data encryption key (DEK), and that DEK is stored alongside the object in wrapped form, encrypted under a customer-managed key held in the cloud KMS. The department disables the customer-managed key. What is the immediate effect on objects already stored?",
+  "opts": {
+   "A": "Nothing changes for stored objects; disabling the key only prevents new objects from being written",
+   "B": "The provider transparently re-wraps the existing DEKs under a platform-managed key so that reads continue",
+   "C": "Every stored object is re-encrypted in place under a freshly generated key before the disable takes effect",
+   "D": "The objects become unreadable, because the wrapped DEK can no longer be unwrapped even though the ciphertext itself is untouched"
+  },
+  "ans": "D",
+  "exp": "In envelope encryption the KMS key never leaves the KMS and is used only to unwrap the DEK on each read, so removing the ability to use it breaks every read that depends on it — this is the basis of crypto-shredding as a data-destruction control. Option A is the common misreading: the key gates decryption as well as encryption, so existing data is affected immediately, and no provider silently substitutes its own key to keep reads working, since that would defeat the point of customer-managed keys.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-060",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A DevSecOps pipeline already runs static analysis over the team's own source, unit tests, and a dynamic scan against the deployed staging URL. A critical vulnerability still reaches production, in a transitive library pulled in by one of the declared dependencies. Which pipeline control was missing?",
+  "opts": {
+   "A": "An authenticated dynamic scan, so that endpoints behind login are also exercised",
+   "B": "Software composition analysis that resolves the full dependency tree and matches every resolved component against a vulnerability database",
+   "C": "Static analysis with a wider rule set and inter-procedural taint tracking",
+   "D": "Secret scanning across the repository history to catch committed credentials"
+  },
+  "ans": "B",
+  "exp": "Composition analysis is the only one of these that inspects code the team did not write: it resolves transitive dependencies, typically emits an SBOM, and matches each component and version against known advisories. Widening the static analysis rules is the tempting answer but static analysis is pointed at first-party source and would not flag a flaw sitting inside a third-party package that the build merely pulls in.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-061",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "Under the CERT-In directions issued in April 2022, which apply to service providers, intermediaries, data centres and body corporates in India, within what period of noticing a specified cyber security incident, or of it being brought to notice, must the incident be reported to CERT-In?",
+  "opts": {
+   "A": "6 hours",
+   "B": "24 hours",
+   "C": "72 hours",
+   "D": "7 days"
+  },
+  "ans": "A",
+  "exp": "The 2022 directions set a 6-hour reporting window for the listed categories of incident, alongside the requirement to keep ICT system logs for 180 days within Indian jurisdiction and to synchronise system clocks to NIC or NPL time servers. The 72-hour option is the one candidates reach for because it is the breach-notification deadline familiar from the EU GDPR, which has no bearing on the CERT-In obligation.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-062",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A state department stores citizens' personal data on a MeitY-empanelled cloud service provider's infrastructure, and the provider processes that data only on the department's documented instructions under a contract. Under the Digital Personal Data Protection Act, 2023, which statement about accountability is correct?",
+  "opts": {
+   "A": "MeitY empanelment transfers statutory responsibility for the personal data to the provider for the empanelled workloads",
+   "B": "The provider becomes a joint Data Fiduciary, because the data physically resides on infrastructure it owns and operates",
+   "C": "The department remains the accountable Data Fiduciary; the provider is a Data Processor engaged under contract, and outsourcing the processing does not shift the Fiduciary's obligations",
+   "D": "The obligations attach to whoever operates the infrastructure, since that party determines how the processing is actually carried out"
+  },
+  "ans": "C",
+  "exp": "The Act keys the role to who determines the purpose and means of processing, so a department that instructs a provider is the Data Fiduciary and stays answerable for compliance even where a Data Processor performs the work on its behalf. Empanelment is the trap: MeitY empanelment is a procurement and assurance mechanism that tells a government buyer a provider has been assessed against defined requirements, and it confers no statutory transfer of accountability.",
+  "conf": "high"
+ }
+]

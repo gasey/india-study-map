@@ -1,0 +1,115 @@
+[
+ {
+  "id": "GEN-T2U4-001",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A cloud provider's console shows a customer, in near real time, the GB-hours of storage and vCPU-seconds each project has consumed, and bills strictly on those counters. Which of the five essential characteristics in the NIST definition of cloud computing does this most directly illustrate?",
+  "opts": {
+   "A": "Rapid elasticity",
+   "B": "Measured service",
+   "C": "Resource pooling",
+   "D": "On-demand self-service"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Measured service is NIST's term for metering resource use at a level of abstraction appropriate to the service, with usage monitored, controlled and reported transparently to both provider and consumer. Rapid elasticity is about capacity following demand, not about the meter that records it."
+ },
+ {
+  "id": "GEN-T2U4-002",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A firm sits between a government department and three cloud providers: it combines their services into one composite offering, adds single sign-on and a consolidated bill, and negotiates terms on the department's behalf. In the NIST cloud computing reference architecture, which actor is this firm?",
+  "opts": {
+   "A": "Cloud auditor",
+   "B": "Cloud carrier",
+   "C": "Cloud broker",
+   "D": "Cloud provider"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The cloud broker manages the use, performance and delivery of cloud services and negotiates relationships between providers and consumers, with service intermediation, aggregation and arbitrage as its named functions. The cloud auditor only conducts independent assessment of services, operations, performance and security, and never resells or aggregates them."
+ },
+ {
+  "id": "GEN-T2U4-003",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A globally replicated profile store keeps accepting reads and writes on both sides of a network partition and merges the diverged versions after the partition heals. Users occasionally read a value older than one they just wrote. In CAP terms, what does this describe?",
+  "opts": {
+   "A": "Availability and partition tolerance are chosen, so a read is not guaranteed to reflect the most recent acknowledged write",
+   "B": "Consistency and partition tolerance are chosen, so the stale reads must be a client-side caching defect rather than a consequence of the design",
+   "C": "Consistency and availability are chosen, and because the replicas sit inside one provider's network a partition cannot arise",
+   "D": "All three properties are achieved, because eventual consistency is strong consistency with a bounded delay"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A partition forces a choice, and staying writable on both sides is the AP choice: until the replicas converge, a read may legitimately miss the newest acknowledged write. Option D is the standard misreading — eventual consistency promises convergence eventually, with no bound and no guarantee that any particular read is current."
+ },
+ {
+  "id": "GEN-T2U4-004",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A plant streams video from 200 cameras to a cloud region for defect detection. Alerts are needed within 30 seconds, a deadline the existing cloud round trip already meets comfortably. The team moves the detection model onto an on-site edge server that uploads only short clips of detected defects. What does this change primarily achieve?",
+  "opts": {
+   "A": "It removes the plant's need for wide-area connectivity, since all processing is now local",
+   "B": "It eliminates round-trip latency that would otherwise cause the 30-second deadline to be missed",
+   "C": "It makes each camera's detection results strongly consistent with the central database",
+   "D": "It cuts the sustained upstream bandwidth the site must carry, because only event clips rather than continuous streams cross the wide-area link"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Filtering at the edge changes what crosses the wide-area link from 200 continuous streams to occasional clips, which is a bandwidth and transport-cost reduction rather than a latency one. Option B is ruled out by the stem, which states the cloud round trip already meets the 30-second deadline; option A is wrong because the site still uploads clips and must be managed remotely."
+ },
+ {
+  "id": "GEN-T2U4-005",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A replicated key-value store keeps N = 5 replicas. A write is acknowledged once W = 3 replicas confirm it, and a read consults R = 2 replicas. Under the usual quorum rule, is every read guaranteed to observe the most recently acknowledged write?",
+  "opts": {
+   "A": "Yes — W = 3 is a majority of the replicas, and a majority write by itself guarantees any later read observes it",
+   "B": "No — R + W is not greater than N, so a read set can consist entirely of the two replicas that did not take the write",
+   "C": "Yes — the overlap condition is R + W ≥ N, and 2 + 3 satisfies it",
+   "D": "No — read sets and write sets can overlap only when R = N, so any smaller R makes stale reads certain"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Quorum overlap requires R + W > N; here 2 + 3 = 5 exactly equals N, so the two replicas a reader consults can be precisely the two that missed the write. Option C is the off-by-one that makes this configuration look safe, stating the condition as ≥ instead of >."
+ },
+ {
+  "id": "GEN-T2U4-006",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "Four state departments jointly commission a cloud environment that only those four may use, sharing it because they are bound by the same data-handling and compliance rules. A private vendor owns and operates it, hosted in the vendor's own data centre. Under NIST SP 800-145, which deployment model is this?",
+  "opts": {
+   "A": "Community cloud, because it is provisioned for exclusive use by a specific community of consumers from organisations that have shared concerns, and it may be owned and operated by a third party off premises",
+   "B": "Public cloud, because a commercial vendor owns the infrastructure and hosts it in its own data centre",
+   "C": "Private cloud, because access is restricted to a named set of government departments rather than open to the general public",
+   "D": "Hybrid cloud, because several distinct organisations are bound together into a single environment"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "NIST defines a community cloud as infrastructure provisioned for exclusive use by a specific community of consumers from organisations that have shared concerns — it gives mission, security requirements, policy and compliance considerations as the examples — and expressly allows it to be owned, managed and operated by a third party and to exist off premises. Private cloud is the near miss: it is equally non-public, but it is provisioned for a single organisation comprising multiple consumers, whereas here four separate departments share one environment on the strength of a common concern. Hybrid cloud means a composition of two or more distinct cloud infrastructures bound together, not several tenants of one.",
+  "reviewFix": "Rewritten from private cloud to community cloud. Both blind passes independently found this a duplicate of GEN-T2U4-014: the same load-bearing NIST sentence, the same trap that vendor-owned and off-premises implies public cloud, and near-verbatim the same correct-option wording — one revision card printed twice, which they slipped past because the two sit under different sub-topic tags. Both judged 014 the stronger of the pair, since it makes the candidate apply the rule to a scenario rather than recall a definition, so 014 is kept unchanged and 006 is re-pointed at the community cloud model, which nothing else in either unit tested. The new stem, options and explanation are written against the deployment-model definitions extracted verbatim from the published NIST SP 800-145 PDF, not from recall."
+ },
+ {
+  "id": "GEN-T2U4-007",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A service invokes a peer over the network and the call times out. Compared with a function call failing inside a single process, what is the fundamental new difficulty this introduces?",
+  "opts": {
+   "A": "The caller cannot tell whether the peer never received the request, is merely slow, or executed it and lost the reply, so the outcome of the operation is unknown",
+   "B": "The failure is handled entirely by the transport layer, so the application code needs no new logic",
+   "C": "The peer's failure necessarily leaves the whole system unavailable, unlike a local exception which is contained",
+   "D": "A timeout in a distributed system always means the peer crashed, so the caller can safely assume the request did not run"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A timeout carries no information about whether the remote side executed the request, which is why distributed designs need idempotency keys, retries and reconciliation rather than plain exception handling. Option D states the opposite and is the assumption that produces duplicate side effects: a timed-out request may well have committed on the peer."
+ },
+ {
+  "id": "GEN-T2U4-008",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A datacentre team calls its on-premises cluster 'scalable' because more nodes can be racked once a capacity request is approved. Judged against NIST's essential characteristic of rapid elasticity, what is still missing?",
+  "opts": {
+   "A": "Provisioning must be fully automatic, since the definition requires automation in every case",
+   "B": "The provider must actually hold unlimited physical capacity behind the service",
+   "C": "Capacity must be added by moving to larger machines rather than by adding more of them",
+   "D": "Capacity must be both acquired and released rapidly and in proportion to current demand, without waiting on a procurement or approval cycle"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "NIST's rapid elasticity requires capabilities to be provisioned and released so as to scale rapidly outward and inward commensurate with demand — release matters as much as acquisition, and an approval cycle defeats 'rapid'. Option A overreads the definition, which says elasticity is automatic only in some cases, and option B overreads it in the other direction: capacity need only appear unlimited to the consumer."
+ }
+]

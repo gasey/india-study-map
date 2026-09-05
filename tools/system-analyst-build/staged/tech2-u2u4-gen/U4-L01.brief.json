@@ -1,0 +1,27 @@
+{
+ "slug": "U4-L01",
+ "unit": "4",
+ "unit_title": "Cloud Computing",
+ "marks": 40,
+ "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+ "need": 8,
+ "verbatim_syllabus": "Cloud Architecture and Distributed Systems: Evolution of Distributed, Edge and Cloud Computing; NIST Cloud Architecture; Cloud Deployment and Service Models (IaaS, PaaS, SaaS, Serverless); Cloud-native Architecture, Microservices, Service Mesh, Elasticity, High Availability, Load Balancing, and Sustainable Cloud Computing. Virtualization and Cloud Infrastructure: Virtual Machines, Hypervisors, Full and Para Virtualization; CPU, Storage, and Network Virtualization; Containers, Docker Architecture, Kubernetes orchestration, Resource Management, Infrastructure as Code using Terraform and Ansible, CI/CD Pipelines, and DevOps Practices. Cloud Storage, Compute, Networking, Managed Databases, Serverless Computing, Monitoring and Observability, OpenStack, Hybrid and Multi-cloud Management, and AI/ML Infrastructure. Cloud Security and Governance: Shared Responsibility Model, IAM, MFA, Zero Trust Security, Encryption, Backup and Disaster Recovery, Container and Kubernetes Security, DevSecOps, API Security, Virtualization Attacks, FinOps, and Service Level Agreements (SLAs).",
+ "existing_stems": [
+  {
+   "q": "Which of the following is NOT one of the five essential characteristics of cloud computing in the NIST definition?",
+   "ans_text": "Provider-managed disaster recovery"
+  },
+  {
+   "q": "In the NIST cloud computing reference architecture, which actor is responsible for providing the connectivity and transport of cloud services between provider and consumer?",
+   "ans_text": "Cloud carrier"
+  },
+  {
+   "q": "An assembly-line inspection system must accept or reject each part within 20 ms of capturing its image. The nearest cloud region has a measured round-trip time of 60 ms. Running the inference model on an edge node inside the plant primarily removes which constraint?",
+   "ans_text": "The wide-area round-trip time, which on its own already exceeds the control loop's deadline"
+  },
+  {
+   "q": "When collection of various computers seems a single coherent system to its client, then it is called",
+   "ans_text": "distributed system"
+  }
+ ]
+}

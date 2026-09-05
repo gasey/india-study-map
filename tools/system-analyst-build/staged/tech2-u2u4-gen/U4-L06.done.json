@@ -1,0 +1,129 @@
+[
+ {
+  "id": "GEN-T2U4-045",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An application writes about five million log objects a day to Google Cloud Storage; each object is roughly 20 KB and is deleted about 30 days after it is written. To cut cost the team adds a lifecycle rule that transitions every object to the Archive class 7 days after creation. The monthly bill rises instead of falling. What best explains this?",
+  "opts": {
+   "A": "Archive classes are held in a single availability zone, and single-zone storage carries a durability surcharge that outweighs the lower per-GB rate",
+   "B": "The lifecycle rule copies each object into the archive class but leaves the original in the standard class until it is deleted explicitly, so every object is billed in both classes",
+   "C": "The Archive class bills every object for a minimum storage duration far longer than these objects live, so each one incurs an early-deletion charge, and each lifecycle transition is itself a chargeable operation",
+   "D": "Objects are re-encrypted with provider-managed keys on transition, and key operations are then billed per object per month"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Archive storage on Google Cloud carries a 365-day minimum storage duration, so an object deleted after 30 days is still billed as though it had been stored for a year: short-lived data is the worst possible fit for the class, and five million transitions a day are themselves billed as operations. B is the tempting misreading — a lifecycle transition changes an object's storage class in place and does not leave a second billable copy behind. The provider is named in the stem because the economics differ: Google Cloud Storage documents no minimum object size for any class, whereas S3 applies a 128 KB minimum billable object size on several classes and, since September 2024, its Lifecycle default refuses to transition objects under 128 KB at all.",
+  "reviewFix": "Provider pinned to Google Cloud Storage, and the answer re-based on the mechanisms that actually apply. The stem named no provider while the key and explanation stated a 'minimum billable object size' as a universal property of archive classes — it is not: GCS documents 'No minimum object size' for every class and Azure defines its cool/cold/archive tiers purely by minimum retention, so a student would have memorised an AWS-only rule as general. The same pass also found the scenario's premise broken on AWS, where since September 2024 S3 Lifecycle applies a default that prevents objects under 128 KB from transitioning to any class, so a 20 KB object would not move at all and no bill rise would occur. Both were verified against the GCS storage-classes documentation and the AWS September 2024 lifecycle change before acting. The question now turns on Archive's 365-day minimum storage duration plus per-object transition operations, both true as stated for the named provider, and the explanation teaches the AWS contrast rather than hiding it. Key C unchanged. NOTE: the second reviewer of this batch returned zero flags and asserted that its provider-dependent items pinned their provider in the stem; that was false of this question, so the divergence was resolved against the zero-flag pass."
+ },
+ {
+  "id": "GEN-T2U4-046",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "On AWS, an EC2 instance in a public subnet serves HTTPS. Its security group allows inbound TCP 443 from 0.0.0.0/0 and all outbound traffic. The subnet's network ACL allows inbound TCP 443 from 0.0.0.0/0, but its outbound entries allow only TCP 443. Clients get no response at all and eventually time out. What explains it?",
+  "opts": {
+   "A": "Security groups are evaluated only on traffic crossing the VPC boundary, so the inbound 443 rule never applies to traffic arriving via the internet gateway",
+   "B": "Network ACLs are stateless, so the server's replies — which leave from port 443 towards the client's ephemeral port — need their own outbound entry covering the ephemeral port range; the security group is stateful and needs no matching rule",
+   "C": "Security groups evaluate their rules in numbered order and stop at the first match, so the allow-all outbound rule is shadowed by the inbound 443 rule",
+   "D": "A network ACL governs only traffic between subnets of the same VPC, so it cannot affect traffic destined for an internet client"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A network ACL evaluates inbound and outbound entries independently with no connection state, so the response packet is a fresh outbound flow to the client's ephemeral port and is denied by the implicit deny. The security group is not at fault precisely because it is stateful: return traffic for an allowed inbound flow is permitted automatically, which is the whole difference between the two controls."
+ },
+ {
+  "id": "GEN-T2U4-047",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An enterprise replaces its site-to-cloud IPsec VPN over the public internet with a dedicated private interconnect to the provider (for example AWS Direct Connect or Azure ExpressRoute). Which statement about the change is correct?",
+  "opts": {
+   "A": "The interconnect performs address translation between on-premises and cloud address space, so overlapping private IP ranges cease to be a problem",
+   "B": "The interconnect is encrypted end to end by the provider at line rate, making any tunnel running over it redundant",
+   "C": "The interconnect removes the need for BGP or any other routing exchange, because on-premises routes are learned from the provider's DHCP service",
+   "D": "The interconnect gives more predictable bandwidth and latency by bypassing the public internet, but carries traffic unencrypted by default — confidentiality must still be added on top, for example with IPsec or MACsec"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A dedicated interconnect is a private path, not a cryptographic one: it buys deterministic throughput and latency and keeps traffic off the public internet, but it applies no confidentiality of its own. B is the usual and dangerous misconception — 'private circuit' gets read as 'encrypted circuit', and for a regulated workload that assumption is exactly where the exposure sits."
+ },
+ {
+  "id": "GEN-T2U4-048",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An application uses Amazon RDS for PostgreSQL in a Multi-AZ instance deployment (one standby) with two read replicas, and routes all read queries to the replicas. A user saves a profile change and the very next page load shows the old value. Which explains the behaviour?",
+  "opts": {
+   "A": "Read replicas are kept current by asynchronous replication, so a replica can lag the primary and a just-committed write is not guaranteed to be visible there yet",
+   "B": "Read replicas serve from the most recent automated snapshot, which is taken on a fixed schedule rather than continuously",
+   "C": "Read replicas run at a lower transaction isolation level than the primary, so they cannot see committed rows until their next checkpoint",
+   "D": "The Multi-AZ standby answered the read; standbys replicate synchronously but expose their data only once a failover has completed"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "RDS read replicas are maintained by asynchronous streaming replication, so replica lag is normal operation and read-your-own-writes holds only if that read goes to the primary or the application waits for the replica to catch up. D is the plausible trap, but the standby in a Multi-AZ instance deployment serves no query traffic at all — it exists solely for failover, so it cannot have answered anything."
+ },
+ {
+  "id": "GEN-T2U4-049",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A serverless function backing a public API scales out to several hundred concurrent executions, each opening its own connection to a managed PostgreSQL instance. The database begins refusing connections once its configured limit is reached, and simply raising that limit starves the instance of memory. Which remedy addresses the cause?",
+  "opts": {
+   "A": "Move the connection open and close inside the request handler so that each connection is released before the invocation returns",
+   "B": "Lower the database's transaction isolation level so that transactions release their connections sooner",
+   "C": "Place a connection pooler or managed database proxy between the functions and the database, so that many short-lived client connections are multiplexed onto a small, stable pool of backend connections",
+   "D": "Add read replicas and route all traffic to them; the connection limit is enforced cluster-wide, so additional replicas raise the total available"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Each execution environment holds its own connection, so it is peak concurrency rather than per-invocation lifetime that sets the connection count, and a pooler such as PgBouncer or a managed proxy is what decouples the two. A is the intuitive fix and is wrong: opening and closing inside the handler leaves the peak unchanged and merely adds a TLS and authentication handshake to every request."
+ },
+ {
+  "id": "GEN-T2U4-050",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A team adds the end user's account ID as a label on a request-count metric in a Prometheus-style metrics system. Within days, ingestion memory and query latency degrade sharply. What is the mechanism?",
+  "opts": {
+   "A": "Every distinct combination of label values defines a separate time series, so an unbounded label such as a user ID multiplies the number of stored series by the size of the user base",
+   "B": "Label values are held in a full-text index, so the cost is driven by the character length of each value rather than by how many distinct values occur",
+   "C": "Adding a label raises the effective scrape resolution for that metric, so more samples are collected per unit of time",
+   "D": "The cost comes from the number of label keys attached to a metric rather than from their values — each extra key multiplies storage by a fixed factor whatever values it takes"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Cardinality is the product of the distinct values of every label, and each combination becomes an independently stored and indexed time series, so a user ID grows the series count without bound. D states the common inversion — it is the distinct values, not the count of label keys, that drives cost, and this is why per-user detail belongs in logs or traces rather than in metric labels."
+ },
+ {
+  "id": "GEN-T2U4-051",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "Which statement best captures the distinction usually drawn between monitoring and observability?",
+  "opts": {
+   "A": "Monitoring is agent-based collection while observability is agentless collection; the signals gathered are otherwise the same",
+   "B": "Monitoring covers infrastructure such as hosts and networks, while observability covers application code only",
+   "C": "Monitoring is what a cloud provider performs on its own platform; observability is what a customer performs on the workloads it runs there",
+   "D": "Monitoring watches predefined signals and alerts on failure modes anticipated in advance, whereas observability is the property of a system whose external outputs are rich enough to answer new, unanticipated questions about its internal state without shipping fresh instrumentation"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The working distinction is about which questions can be asked: monitoring answers the ones chosen before the incident, while observability is the property that lets a system be interrogated after it behaves in a way nobody predicted, using telemetry it already emits. A, B and C describe collection mechanics or ownership boundaries — an agent-based pipeline over infrastructure metrics can be highly observable, so none of them is the accepted distinction."
+ },
+ {
+  "id": "GEN-T2U4-052",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An OpenStack tenant needs storage that survives termination of the instance it is attached to, presents to the guest as a raw block device which the guest formats itself, and is attached to one Nova instance at a time. Which OpenStack service provides it?",
+  "opts": {
+   "A": "Swift",
+   "B": "Cinder",
+   "C": "Manila",
+   "D": "Glance"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Cinder is OpenStack's block storage service: it provisions volumes that Nova attaches as block devices and whose lifecycle is independent of the instance. Manila is the closest trap because it is a genuine OpenStack storage service, but it serves shared file systems over protocols such as NFS or CIFS rather than raw block devices; Swift is object storage reached over HTTP, and Glance catalogues VM images."
+ },
+ {
+  "id": "GEN-T2U4-053",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A 40-hour distributed GPU training job is placed on discounted preemptible (spot) capacity to reduce cost. Nodes are reclaimed every few hours with roughly two minutes' warning, and each reclamation loses all progress made since the job started. Which change lets the job keep using preemptible capacity?",
+  "opts": {
+   "A": "Checkpoint model weights and optimizer state to durable shared storage at regular intervals and on receipt of the preemption notice, and have the job resume from the latest checkpoint when it restarts",
+   "B": "Enable gradient accumulation, so that the partial gradients built up on a node survive its termination and are merged when the job restarts",
+   "C": "Stage the training dataset on each node's local NVMe disk, so that a reclaimed node loses no training progress",
+   "D": "Collapse the job into a single process with a proportionally larger batch size, so that there is no distributed state for a reclamation to lose"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Preemptible capacity is a durability problem rather than a throughput one, so the defence is periodic checkpointing of weights and optimizer state to storage outside the node, together with a signal handler that flushes on the termination notice so a restart resumes instead of starting over. B misreads gradient accumulation: it accumulates across micro-batches within a single optimizer step, entirely in GPU memory, and dies with the process."
+ }
+]

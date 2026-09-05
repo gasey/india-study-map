@@ -1,0 +1,31 @@
+{
+ "slug": "U2-L01",
+ "unit": "2",
+ "unit_title": "Web Technologies",
+ "marks": 60,
+ "leaf": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+ "need": 7,
+ "verbatim_syllabus": "Modern Web Development and Full Stack Engineering: Evolution of the Internet and Web Architecture; Client-Server Communication; HTTP/HTTPS; DNS and Web Hosting; HTML Semantic Elements, Forms, Multimedia, Canvas, SVG and Web Accessibility Standards; CSS, Flexbox, Grid, Responsive Web Design; Git Version Control; Javascript, DOM Manipulation, Event Handling, Asynchronous Programming, JSON and Fetch API; Frontend Development using Javascript Framework including Components, Routing, State Management, Forms and API Integration; Backend Development using PHP - Python; RESTful APIs, CRUD Operations, Middleware, Authentication and Authorization, Session and Cookie Management; ORM Concepts, Websockets; Serverless Computing, Docker, Kubernetes and CI/CD Pipelines; Linux Administration, Web Servers - Nginx, Deployment and Monitoring; Web Security Fundamentals including OWASP Top 10, HTTPS, SSL/TLS, CSRF, XSS and SQL Injection Prevention; MVC Architecture; Microservices Architecture, SOLID Principles, Dependency Management, Event-Driven Systems, Caching and Queue Management; AI-assisted Web Development, Generative AI APIs, Model Context Protocol (MCP), Web Analytics, Scalable Deployment, Ethics, Privacy and Legal Aspects of Modern Web Applications.",
+ "existing_stems": [
+  {
+   "q": "A browser re-requests a cached stylesheet, sending If-None-Match with the ETag it stored. The file on the server has not changed. Which status code should the server return?",
+   "ans_text": "304 Not Modified"
+  },
+  {
+   "q": "A day before migrating a web application to a new server, the administrator drops the TTL on the site's DNS A record from 86400 to 300 seconds. What does this achieve?",
+   "ans_text": "Resolver caches expire quickly, so clients pick up the new IP address soon after the record is changed"
+  },
+  {
+   "q": "Dozens of HTTPS sites share a single IP address on a hosting server. Which mechanism lets the server pick the right TLS certificate for the site the client asked for?",
+   "ans_text": "The Server Name Indication extension in the TLS ClientHello"
+  },
+  {
+   "q": "This is responsible for the management of Internet domain names and addresses",
+   "ans_text": "ICANN"
+  },
+  {
+   "q": "For HTTP, the webserver usually runs on port number",
+   "ans_text": "80"
+  }
+ ]
+}

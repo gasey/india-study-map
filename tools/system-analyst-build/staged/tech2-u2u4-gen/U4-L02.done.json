@@ -1,0 +1,129 @@
+[
+ {
+  "id": "GEN-T2U4-009",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A department runs an internal private cloud and separately subscribes to a public-cloud SaaS email service. The two share no data, no tooling and no identity integration. Which requirement of the NIST SP 800-145 hybrid cloud definition does this arrangement fail to meet?",
+  "opts": {
+   "A": "Both constituent infrastructures must be operated by the same cloud provider",
+   "B": "The same workload must be running simultaneously on the private and the public infrastructure",
+   "C": "The constituent infrastructures must remain distinct entities yet be bound together by standardised or proprietary technology that enables data and application portability",
+   "D": "At least one of the constituent infrastructures must be a community cloud"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "NIST defines hybrid cloud as a composition of two or more distinct cloud infrastructures that remain unique entities but are bound together by technology enabling data and application portability, so merely holding two unrelated subscriptions is not a composition. B is the tempting one because cloud bursting is NIST's own illustration of such binding, but bursting is one permitted use of the binding, not a requirement that both infrastructures run the workload at once."
+ },
+ {
+  "id": "GEN-T2U4-010",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "Under the NIST SP 800-145 definition of Infrastructure as a Service, which of the following is the consumer said to control?",
+  "opts": {
+   "A": "The hypervisor's scheduling and memory-overcommit policy on the physical host",
+   "B": "Operating systems, storage and deployed applications, together with limited control of select networking components such as host firewalls",
+   "C": "The provider's underlying storage fabric and physical network topology",
+   "D": "The physical rack and data-hall placement of the servers running its instances"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "The IaaS definition states that the consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage and deployed applications, and possibly limited control of select networking components such as host firewalls. A is the near-miss: IaaS hands the consumer virtual machines, but the hypervisor that schedules them stays on the provider's side of the line."
+ },
+ {
+  "id": "GEN-T2U4-011",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A critical vulnerability is disclosed in the guest operating system's TLS library. The same application is deployed three ways: (i) on an IaaS virtual machine the team launched from its own image, (ii) on a PaaS platform to which the team uploads only a deployable artefact, and (iii) as a function on a serverless FaaS platform. In which deployments must the customer itself apply the operating-system patch?",
+  "opts": {
+   "A": "(i) only",
+   "B": "(i) and (ii) only",
+   "C": "(ii) and (iii) only",
+   "D": "(i) and (iii) only"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Patching the guest operating system falls to the customer only where the customer supplies and boots the OS image, which is exactly the boundary that defines IaaS; PaaS and FaaS platforms both supply and maintain the operating system underneath the customer's code. B tempts because a PaaS consumer still owns and uploads the artefact, but that artefact is the application, not the operating system."
+ },
+ {
+  "id": "GEN-T2U4-012",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "Which characteristic most fundamentally distinguishes a Function-as-a-Service deployment from a PaaS deployment of the same application?",
+  "opts": {
+   "A": "In the default pay-per-use model, capacity is allocated per invocation and no compute is charged while no requests are being served, so there is no baseline instance count to provision",
+   "B": "Only PaaS lets the consumer choose the programming language and runtime version",
+   "C": "Only FaaS provides automatic scaling; PaaS deployments must be resized by hand",
+   "D": "Only PaaS runs on virtualised infrastructure, whereas FaaS executes directly on bare metal"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "FaaS removes the provisioned instance from the default model: the platform creates execution capacity per event, scales to zero when idle, and bills on invocations and execution time rather than on running instances. The exception worth holding is that every major platform now sells an opt-in always-warm tier — AWS Lambda Provisioned Concurrency, Azure Functions always-ready instances, Cloud Run and Cloud Functions min-instances — which does keep initialised instances and does bill for them while idle, trading the scale-to-zero saving for the elimination of cold starts. C is the popular near-miss, since mainstream PaaS offerings have shipped autoscaling for years, so automatic scaling by itself does not separate the two models.",
+  "reviewFix": "Option A and the explanation qualified to the default consumption model. Both blind passes flagged that 'nothing is charged while no requests are being served, so there is no provisioned instance count at all' has not been universally true of FaaS since 2019: AWS Lambda Provisioned Concurrency bills for the configured concurrency whether or not it serves a request, and Azure Functions always-ready instances and GCP min-instances behave the same way — on all three major platforms a FaaS deployment can have exactly a provisioned instance count and an idle charge. The distinction being tested is real and the key is still the only defensible option, but it is now scoped to the default model and the always-warm tiers are named as the exception. Key A unchanged."
+ },
+ {
+  "id": "GEN-T2U4-013",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A file-upload feature writes user files to a local directory and later serves them back from there. It works on an IaaS virtual machine. Redeployed unchanged onto a PaaS platform running several application instances behind the platform's router, some uploads return 404 on a later request and all of them vanish after a redeploy. What explains this?",
+  "opts": {
+   "A": "The platform mounts the application's filesystem read-only, so the writes are silently discarded",
+   "B": "The platform's router strips multipart request bodies unless the application declares a file-upload route",
+   "C": "The platform packages the application immutably at build time, so any runtime write takes effect only after a fresh deployment",
+   "D": "Each instance has its own ephemeral local filesystem and requests are spread across instances, so a file written on one instance is neither visible to the others nor durable across redeploys"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The PaaS model treats application instances as disposable and interchangeable, so local disk is scratch space tied to one instance's lifetime, which is why uploads belong in an object store or an attached managed volume. A is the tempting alternative, but the writes plainly succeed - the file is readable immediately afterwards from the instance that stored it, which a read-only mount would not allow."
+ },
+ {
+  "id": "GEN-T2U4-014",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A state department contracts a vendor to build, own and operate a cloud environment that only that department may use, hosted entirely in the vendor's own data centre. Under NIST SP 800-145, which deployment model is this?",
+  "opts": {
+   "A": "Private cloud, because the model is defined by provisioning for exclusive use by a single organisation, and the infrastructure may be owned, managed and operated by a third party and sit off premises",
+   "B": "Public cloud, because the infrastructure is owned by a commercial provider and located outside the department's premises",
+   "C": "Hybrid cloud, because operational responsibility is split between the department and the vendor",
+   "D": "Community cloud, because a government body and a commercial vendor both participate in it"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "NIST defines private cloud by exclusivity of use rather than by ownership or location, and explicitly permits the infrastructure to be owned, managed and operated by a third party and to exist off premises. B is the standard trap: vendor-owned and off-premises does describe most public clouds, but public cloud is defined by provisioning for open use by the general public, which this environment is not."
+ },
+ {
+  "id": "GEN-T2U4-015",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A function on a serverless FaaS platform reads messages from a queue and opens a connection to a managed relational database at the start of each invocation. During a traffic spike the platform runs roughly 800 concurrent executions and the function starts failing. What is the most likely cause?",
+  "opts": {
+   "A": "The queue stops delivering messages, because a FaaS function can consume a queue only one message at a time",
+   "B": "The database refuses new connections once its configured maximum is reached, because each concurrent execution environment holds a connection of its own",
+   "C": "Cold starts serialise the invocations, so the queue's visibility timeout expires before any handler can finish",
+   "D": "The platform transparently pools connections across execution environments, so the surplus connections are queued until they time out"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "FaaS scales out by creating many independent execution environments, so consumer concurrency translates almost one-to-one into database connections and quickly exhausts a relational database's connection limit; the usual remedy is a connection pooler or proxy between the function and the database. D is tempting but backwards - no mainstream FaaS platform pools application-level database connections on the consumer's behalf."
+ },
+ {
+  "id": "GEN-T2U4-016",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A customer of a multi-tenant SaaS application asks the vendor to keep its tenant on the previous release for six months while it revalidates internal processes. The vendor replies that this is not possible. Which property of the SaaS model explains that answer?",
+  "opts": {
+   "A": "Under SaaS it is the consumer, not the provider, who is responsible for applying application updates",
+   "B": "SaaS is defined by a dedicated application instance per tenant, and the vendor will not fund a second instance",
+   "C": "All tenants are served by one running version of the provider's application with tenant data separated logically, so there is no per-tenant build to hold back",
+   "D": "The provider's SLA obliges it to run only the most recent release in order to meet its availability commitment"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "In SaaS the consumer uses the provider's application running on the provider's infrastructure and controls only limited user-specific configuration settings; a single shared codebase serving every tenant is what makes that model work, and it leaves no per-tenant version to freeze. B inverts the model, since a dedicated instance per tenant describes single-tenant hosting, which is precisely what multi-tenancy is not."
+ },
+ {
+  "id": "GEN-T2U4-017",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A serverless function returns quickly, but its audit records are written for some invocations and missing for others:\n\n    exports.handler = async (event) => {\n      writeAuditRecord(event);      // returns a promise; not awaited\n      return { statusCode: 200 };\n    };\n\nWhich property of the FaaS execution model explains the missing records?",
+  "opts": {
+   "A": "Concurrent invocations share a single event loop, so pending promises are cancelled whenever any handler returns",
+   "B": "Returning a 2xx status causes the platform to discard everything the invocation did after the response was built",
+   "C": "FaaS runtimes forbid outbound network calls from a handler unless the call is awaited",
+   "D": "Once the handler returns, the platform may freeze or reclaim the execution environment, so work that was not awaited is not guaranteed to run to completion"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A FaaS platform treats the handler's return as the end of the invocation and may freeze the execution environment immediately, leaving the un-awaited promise suspended - sometimes finished much later by a subsequent invocation that reuses the same environment, which is why the records appear intermittently rather than never. B describes a similar outcome but blames the status code; the freeze happens on return whatever the handler returned."
+ }
+]

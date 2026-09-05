@@ -1,0 +1,604 @@
+[
+ {
+  "id": "GEN-T2U2-001",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "An API endpoint has moved permanently to a new path. Clients POST JSON to the old path, and the server's redirect makes browsers re-issue the call as a GET with no body, so the write silently never happens. Which redirect status code should the server return so that clients repeat the request permanently at the new URL while keeping the POST method and the body?",
+  "opts": {
+   "A": "301 Moved Permanently",
+   "B": "303 See Other",
+   "C": "308 Permanent Redirect",
+   "D": "302 Found"
+  },
+  "ans": "C",
+  "exp": "308 is the only permanent redirect that forbids the user agent from changing the request method or dropping the body. 307 preserves the method too but signals a temporary move; 301 and 302 are the exact codes whose historical handling rewrites POST to GET, and 303 mandates that rewrite by definition.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-002",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A Python application is deployed behind Nginx acting as a reverse proxy on the same host. Its audit log, which records the requester's IP for every state-changing action, now shows 127.0.0.1 for every request. What is the correct fix?",
+  "opts": {
+   "A": "Have Nginx add the originating address in an X-Forwarded-For header and configure the application to read the client IP from that trusted header",
+   "B": "Add `proxy_set_header Host $host;` to the proxied location so the upstream sees the real hostname",
+   "C": "Disable `proxy_buffering` so Nginx streams the request straight through without rewriting it",
+   "D": "Bind the application to 0.0.0.0 instead of 127.0.0.1 so it receives connections directly"
+  },
+  "ans": "A",
+  "exp": "A reverse proxy terminates the client's TCP connection and opens its own to the upstream, so the upstream legitimately sees the proxy's address; the original address survives only if the proxy forwards it in a header such as X-Forwarded-For and the app is told to trust that header from the proxy. Setting the Host header is a real and often necessary directive, but Host carries the requested site name, not the client address.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-003",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "Nginx proxies to an application server with `proxy_read_timeout 60s;`. A report-generation request takes about 90 seconds to complete. The upstream is up and accepts the connection, but the browser gets an error page at the one-minute mark. Which status does Nginx return?",
+  "opts": {
+   "A": "502 Bad Gateway",
+   "B": "504 Gateway Timeout",
+   "C": "503 Service Unavailable",
+   "D": "408 Request Timeout"
+  },
+  "ans": "B",
+  "exp": "When the upstream accepts the connection but sends nothing within proxy_read_timeout, Nginx gives up waiting and returns 504, the code reserved for a gateway that did not get a timely response from the server it depends on. 502 is what you would see if the upstream refused the connection or returned a malformed response, which is not the case here; 408 concerns a client that is slow to send its own request.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-004",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A department wants the bare domain `revenue.mizoram.in` to resolve to a cloud load balancer that is published only as a hostname, not as a fixed IP address. Adding a CNAME record at the zone apex is rejected. Why, and what is the standard remedy?",
+  "opts": {
+   "A": "CNAME records may not carry a TTL below 300 seconds; raise the TTL and the record will be accepted",
+   "B": "The apex may only hold records for subdomains; move the site to `www.revenue.mizoram.in` as the only possible option",
+   "C": "A DNAME record should be placed at the apex, since DNAME is the form of aliasing defined for a zone's own name",
+   "D": "A CNAME cannot coexist with other records at the same name, and the apex must hold SOA and NS records; DNS providers solve this with an ALIAS/ANAME-style record that resolves the target and answers with its A/AAAA addresses"
+  },
+  "ans": "D",
+  "exp": "DNS forbids a CNAME alongside any other record at the same owner name, and every zone apex necessarily carries SOA and NS records, so an apex CNAME is invalid by construction; providers work around it with a synthetic ALIAS/ANAME record (also marketed as CNAME flattening) that follows the target and returns address records instead. DNAME is the tempting wrong answer: it aliases everything *below* a name, not the name itself, so it does not answer a query for the apex.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-005",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "An administrator wants a single free Let's Encrypt certificate covering `*.mizoram.in`, because new subdomains are created for departments without notice. Which challenge type must be used to obtain it?",
+  "opts": {
+   "A": "HTTP-01, by serving a token file under /.well-known/acme-challenge/ on each host",
+   "B": "DNS-01, by publishing the required TXT record under _acme-challenge in the zone",
+   "C": "TLS-ALPN-01, by presenting the validation certificate during the TLS handshake on port 443",
+   "D": "Any of the challenge types; wildcard issuance only requires that the account has already validated the base domain"
+  },
+  "ans": "B",
+  "exp": "Let's Encrypt issues wildcard certificates only against DNS-01 validation, because control of an individual web server proves nothing about the arbitrary subdomains a wildcard would cover, whereas writing a TXT record proves control of the zone itself. HTTP-01 is the everyday default for ordinary hostnames and is the most tempting choice here, but it is explicitly not accepted for wildcard names.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-006",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "HTTP/2 already multiplexes many concurrent streams over one connection, yet on a lossy mobile link a single dropped packet still stalls every stream in flight. Which property of HTTP/3 addresses this?",
+  "opts": {
+   "A": "It runs over QUIC on UDP, where loss recovery is per-stream, so a lost packet delays only the stream whose data it carried",
+   "B": "It compresses headers, so fewer packets are sent and the chance of loss is correspondingly reduced",
+   "C": "It opens a separate TCP connection per stream, restoring the parallelism that HTTP/1.1 clients got from multiple connections",
+   "D": "It makes encryption mandatory, so retransmissions are handled inside the TLS record layer rather than by the transport"
+  },
+  "ans": "A",
+  "exp": "HTTP/2 removed head-of-line blocking at the application layer but still rides a single TCP connection, whose in-order delivery guarantee holds back every multiplexed stream until the missing segment is retransmitted; QUIC keeps streams independent at the transport layer, so only the affected stream waits. Header compression is real in both HTTP/2 (HPACK) and HTTP/3 (QPACK) but does nothing about ordering, and HTTP/3 uses fewer connections, not one per stream.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-007",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A site responds over HTTPS with `Strict-Transport-Security: max-age=31536000; includeSubDomains`. A user who visited the site yesterday now types `http://site.gov.in/login` into the same browser. What does a compliant browser do?",
+  "opts": {
+   "A": "Sends the plaintext HTTP request as typed, then follows the server's 301 redirect to the HTTPS URL",
+   "B": "Sends the request over HTTP but adds an Upgrade-Insecure-Requests header asking the server to switch",
+   "C": "Rewrites the URL to https:// internally and makes no cleartext request to the site at all",
+   "D": "Refuses to load the page and shows a certificate error until the user types the https:// form explicitly"
+  },
+  "ans": "C",
+  "exp": "While a host's HSTS policy is still within max-age, the browser upgrades any http:// URL for that host to https:// before opening a connection, which is precisely what removes the one cleartext round trip an on-path downgrade attack needs. Option A describes the pre-HSTS behaviour that a plain redirect gives you, and it is the tempting answer because the server usually still sends that redirect — the browser just never reaches it.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-008",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A developer nests an <h1> inside a <section> that is itself inside another <section>, expecting assistive technology to announce it as a third-level heading. What actually happens in current browsers and screen readers?",
+  "opts": {
+   "A": "It is announced as a level 1 heading; the sectioning-based outline algorithm was never implemented by browsers and has been dropped from the HTML standard",
+   "B": "It is announced as a level 3 heading, matching the depth of <section> nesting",
+   "C": "It is announced as a level 2 heading, because a sectioning element demotes its heading by exactly one level however deeply it is nested",
+   "D": "It is announced as a heading of undefined level, leaving assistive technology to infer structure from document order"
+  },
+  "ans": "A",
+  "exp": "Heading level is taken from the tag name alone: <h1> is level 1 no matter how many sectioning ancestors wrap it, because the proposed document outline algorithm shipped in no engine and was removed from the spec. The level-3 option describes the behaviour the algorithm was supposed to produce, which is exactly why the myth persists; author the correct <h2>/<h3> explicitly.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-009",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A page has a site-wide menu and a breadcrumb trail, each in its own <nav> element. A screen-reader user opening the landmarks list hears \"navigation\" twice with nothing to distinguish them. What is the correct fix?",
+  "opts": {
+   "A": "Give each <nav> a unique id, which assistive technology exposes as the landmark's accessible name",
+   "B": "Put aria-hidden=\"true\" on the breadcrumb <nav> so only one navigation landmark is announced",
+   "C": "Give each <nav> a distinct accessible name with aria-label or aria-labelledby",
+   "D": "Replace the breadcrumb <nav> with <div role=\"navigation\">, which does not create a duplicate landmark entry"
+  },
+  "ans": "C",
+  "exp": "Repeated landmarks of the same type are disambiguated by giving each one an accessible name, which for a <nav> comes from aria-label or aria-labelledby. The <div role=\"navigation\"> option changes nothing, since an explicit role and its native element expose the identical landmark; and aria-hidden would remove the breadcrumbs from the accessibility tree entirely rather than label them.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-010",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A checkout form contains <input name=\"coupon\" value=\"FEST26\" disabled>. The user presses the submit button. What does the server receive for coupon?",
+  "opts": {
+   "A": "coupon=FEST26, because the value attribute is present regardless of the control's state",
+   "B": "Nothing at all — a disabled control is not successful, so no name/value pair is sent for it",
+   "C": "coupon= with an empty value",
+   "D": "Nothing, and the browser additionally blocks the submission with a constraint-validation error"
+  },
+  "ans": "B",
+  "exp": "Disabled controls are excluded from the form's entry list, so the key is simply absent from the payload — not present-and-empty, which is what readonly would give you (readonly controls are submitted with their value). Nothing about disabled participates in constraint validation either, so the submission itself proceeds normally.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-011",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "Five radio buttons ask the candidate to choose a preferred exam centre. Each <input> has its own correctly associated <label>, but a screen-reader user hears only the individual centre names and never the question itself. Which markup supplies the group's accessible name?",
+  "opts": {
+   "A": "Wrap the radios in a <fieldset> whose <legend> contains the question text",
+   "B": "Wrap all five inputs in one <label> element that also contains the question text",
+   "C": "Place an <h3> containing the question immediately before the radio buttons",
+   "D": "Put title=\"Preferred exam centre\" on the <div> that contains the radios"
+  },
+  "ans": "A",
+  "exp": "<fieldset> groups related controls and its <legend> becomes the group's accessible name, so each radio is announced together with the question. A preceding <h3> is the most tempting alternative because it looks right on screen, but a heading is not programmatically associated with the controls; and a plain <div> has no role, so a title on it exposes no name.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-012",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A landing page uses <video src=\"promo.mp4\" autoplay> with an ordinary audio track. On desktop Chrome the video sits on its first frame and never starts; the only sign of trouble is a rejected play() promise. What explains this?",
+  "opts": {
+   "A": "The autoplay attribute has no effect unless preload=\"auto\" is also set",
+   "B": "A <video> element will not start automatically unless the controls attribute is present",
+   "C": "The src attribute is ignored on <video>; media must be supplied through child <source> elements",
+   "D": "Browser autoplay policy blocks unmuted autoplay without a user gesture; adding muted (with playsinline for mobile) lets it start"
+  },
+  "ans": "D",
+  "exp": "Chrome and the other major engines permit autoplay only when the media is muted or the user has already interacted with the origin, and a blocked attempt surfaces as a rejected play() promise exactly as described. The preload option is a red herring — preload governs buffering, not permission to play — and <video> accepts src directly, with <source> only needed for multiple formats.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-013",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A recorded training video already ships a <track> with kind=\"subtitles\" carrying a translation of the dialogue. An accessibility audit still records a failure for deaf and hard-of-hearing users. Which track kind must be added?",
+  "opts": {
+   "A": "kind=\"descriptions\", which narrates what is happening on screen",
+   "B": "kind=\"captions\", which carries the dialogue plus speaker identification and relevant non-speech sound",
+   "C": "kind=\"chapters\", which exposes navigable sections of the timeline",
+   "D": "kind=\"metadata\", which carries cue data for scripts to consume"
+  },
+  "ans": "B",
+  "exp": "Subtitles assume the viewer can hear and only render the spoken words, whereas captions are written for a viewer who hears nothing and must therefore also convey speaker changes and meaningful non-speech audio. The descriptions option is a genuine track kind but solves the opposite problem — it serves blind users by narrating the visuals.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-014",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "An interactive seat-selection map is drawn entirely with the Canvas 2D API, and clicks are resolved from pointer coordinates against an internal seat array. Screen-reader users perceive nothing on the page. Which approach fixes this using the mechanism Canvas itself provides?",
+  "opts": {
+   "A": "Add an alt attribute to the <canvas> element describing the seating layout",
+   "B": "Set aria-live=\"polite\" on the <canvas> so each drawing operation is announced as it occurs",
+   "C": "Place focusable, labelled DOM elements — one per seat — inside the <canvas> element as its fallback content, and keep them in sync with what is drawn",
+   "D": "Supply a <noscript> block containing an accessible seat list"
+  },
+  "ans": "C",
+  "exp": "Child content of <canvas> is the spec's designated fallback and shadow DOM for the bitmap: it is exposed to assistive technology and can be focused and activated, so mirroring each seat as a real button gives keyboard and screen-reader access to the same interaction. aria-live is the seductive wrong answer — drawing to a canvas mutates a bitmap, not the DOM, so there is no mutation for a live region to announce, and <noscript> never renders for a screen-reader user with JavaScript enabled.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-015",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "An icon exists as an .svg file. The team needs it to take its fill from the page's currentColor and to change colour on hover through an ordinary CSS rule. This works when the <svg> markup is inlined in the page but not when it is referenced as <img src=\"icon.svg\">. Why?",
+  "opts": {
+   "A": "<img> rasterises the SVG at load time, discarding the vector paths that CSS would target",
+   "B": "SVG elements obey only presentation attributes such as fill; CSS declarations never apply to them",
+   "C": "currentColor is a CSS-only keyword with no meaning inside SVG, so only literal colour values work there",
+   "D": "An SVG loaded through <img> is an isolated document — the page's CSS and scripts cannot reach its elements, and inherited values such as currentColor do not cross that boundary"
+  },
+  "ans": "D",
+  "exp": "Referencing an SVG from <img> renders it as an independent, non-scriptable document, so page stylesheets never match its shapes and it has no parent from which to inherit currentColor; inlining puts the same shapes in the page's own DOM where both apply. The rasterisation option is wrong on its own terms — the image still scales as a vector, it is simply unreachable from outside.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-016",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "GIGW 3.0, the Guidelines for Indian Government Websites issued under MeitY, requires government websites and mobile apps to conform to WCAG 2.1 at which conformance level?",
+  "opts": {
+   "A": "Level A",
+   "B": "Level AA",
+   "C": "Level AAA",
+   "D": "WCAG 2.1 defines no conformance levels; GIGW substitutes its own percentage compliance score"
+  },
+  "ans": "B",
+  "exp": "GIGW 3.0 sets Level AA of WCAG 2.1 as the accessibility bar for Indian government web properties, matching the level used in public-procurement accessibility requirements internationally. Level AAA is not the answer anywhere — WCAG itself advises against requiring full AAA conformance for entire sites, since some AAA criteria cannot be met for all content types.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-017",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A flex row contains an item holding a long unbroken log line. The item refuses to shrink and pushes the row wider than its container, even though flex-shrink is at its default of 1. Which declaration on that flex item resolves the overflow?",
+  "opts": {
+   "A": "flex-shrink: 2",
+   "B": "min-width: 0",
+   "C": "max-width: 100%",
+   "D": "flex-basis: 0"
+  },
+  "ans": "B",
+  "exp": "A flex item's initial min-width is auto, which floors its used width at its min-content size, so shrinking stops there; min-width: 0 removes that floor. flex-shrink: 2 changes nothing because the item is already being asked to shrink and is blocked by the automatic minimum, and max-width cannot help because the minimum size wins over the maximum when the two conflict.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-018",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "In a display: flex navigation row, the final link must sit hard against the right edge while the remaining links stay grouped at the left. No spacer element may be added and justify-content must stay at its default. Which declaration on the last item achieves this?",
+  "opts": {
+   "A": "align-self: flex-end",
+   "B": "justify-self: end",
+   "C": "margin-left: auto",
+   "D": "float: right"
+  },
+  "ans": "C",
+  "exp": "An auto margin on a flex item absorbs all free space on that side before justify-content is applied, so margin-left: auto pushes the item to the far end of the main axis. align-self only moves the item on the cross axis, justify-self is ignored in flex layout entirely, and float has no effect on a flex item because floating is blockified away during flex item creation.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-019",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A CSS Grid gallery mixes single-column items with items that span two columns, and is declared grid-auto-flow: row dense. Compared with plain grid-auto-flow: row, what does the dense keyword change?",
+  "opts": {
+   "A": "It reduces the gap between tracks so items pack together with no leftover space",
+   "B": "It forces all auto-placed items onto one row, creating implicit columns as needed",
+   "C": "It makes every implicitly created row take the height of the tallest item in the grid",
+   "D": "It lets the placement algorithm go back and fill earlier holes with later items that fit, so visual order can diverge from DOM order"
+  },
+  "ans": "D",
+  "exp": "Sparse (default) placement never moves the cursor backwards, so a wide item that does not fit leaves a hole; dense placement revisits those holes with any later item small enough to fit, which is why it can reorder content visually and is an accessibility concern for keyboard and screen-reader order. Gap size is controlled by the gap property and is untouched by grid-auto-flow.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-020",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A hero image must be a wide landscape crop on desktop and a genuinely different, tighter portrait crop on phones — two separate files, not two sizes of one file. Which approach lets the browser fetch only the crop it will actually display?",
+  "opts": {
+   "A": "A single <img> whose srcset lists both files with w descriptors and a matching sizes attribute",
+   "B": "A <picture> element with a <source media=\"(max-width: 600px)\"> pointing at the portrait crop and an <img> fallback carrying the landscape crop",
+   "C": "A single <img> whose srcset lists both files with x descriptors for 1x and 2x",
+   "D": "Two <img> elements, with the unwanted one hidden via display: none inside a media query"
+  },
+  "ans": "B",
+  "exp": "This is art direction rather than resolution switching: <picture> evaluates each <source> media condition in order and loads only the first match, so the crop is chosen deterministically by viewport. The srcset options are wrong because w and x descriptors are hints for resolution switching and the browser is free to pick either candidate regardless of viewport shape, and display: none does not reliably prevent an <img> from being fetched.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-021",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A design system wraps its base selectors in :where(...) so that page-level CSS can override them without specificity fights. Compared with :is(...), what does :where() do differently?",
+  "opts": {
+   "A": ":where() always contributes zero specificity, while :is() takes the specificity of its most specific argument",
+   "B": ":where() matches only the first selector in its list, while :is() matches any of them",
+   "C": ":where() pierces shadow DOM boundaries, while :is() is confined to the current tree",
+   "D": ":where() may appear only at the start of a compound selector, while :is() may appear anywhere in it"
+  },
+  "ans": "A",
+  "exp": "The two pseudo-classes match identically; the sole difference is specificity, with :where() contributing nothing and :is() adopting the weight of its heaviest argument. That is exactly why a reset written as :where(.card) h2 is overridable by a later single-class rule, whereas :is(.card) h2 would still carry class-level weight.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-022",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A card component appears both in a wide main column and in a narrow sidebar on the same page at the same viewport width, and must switch to its stacked layout only when it is in the sidebar. Which CSS mechanism expresses this?",
+  "opts": {
+   "A": "@media (max-width: 400px), because media query lengths resolve against the nearest block container",
+   "B": "@supports (inline-size: 400px), which tests the element's own box against the given size",
+   "C": "@container after declaring container-type: inline-size on the card's wrapper, because media queries only ever resolve against the viewport",
+   "D": "@media (min-width: 400px) placed in the sidebar's own stylesheet, since media queries are scoped to the stylesheet that declares them"
+  },
+  "ans": "C",
+  "exp": "Media queries have exactly one subject, the viewport (or print surface), so they cannot distinguish two instances of a component that share a viewport; container queries evaluate against a named ancestor that has opted in via container-type, making the component responsive to its own available inline size. @supports is a feature query that tests declaration support, not element dimensions.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-023",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A section heading is styled position: sticky; top: 0 and the browser supports sticky positioning, yet the heading scrolls away with the content instead of pinning. What is the most likely cause?",
+  "opts": {
+   "A": "An ancestor of the heading has overflow set to hidden, auto or scroll, so the heading sticks within that ancestor's scrollport rather than within the page",
+   "B": "position: sticky requires an explicit height on the sticky element itself",
+   "C": "position: sticky requires the parent to be position: relative to establish a containing block",
+   "D": "top: 0 is ignored on a sticky element unless z-index is set to auto"
+  },
+  "ans": "A",
+  "exp": "A sticky element is positioned relative to its nearest scrolling ancestor, and any ancestor with a non-visible overflow value becomes that scroll container; if that container does not itself scroll, the element appears never to stick even though the CSS is valid. Option C is the familiar rule for position: absolute and does not apply here — sticky needs no positioned ancestor.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-024",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A full-screen hero uses height: 100vh. On mobile browsers with a retracting URL bar the hero is taller than the visible area while the bar is shown. Which unit sizes the hero to the viewport as it currently is, growing and shrinking as the browser chrome retracts and returns?",
+  "opts": {
+   "A": "100svh",
+   "B": "100lvh",
+   "C": "100vmin",
+   "D": "100dvh"
+  },
+  "ans": "D",
+  "exp": "The dynamic viewport unit dvh tracks the viewport as browser chrome expands and collapses, which is precisely the behaviour asked for. svh and lvh are the tempting near-misses: both are stable values, svh assuming the chrome is always shown and lvh assuming it is always retracted, and lvh is what 100vh effectively resolves to on those browsers in the first place.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-025",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A heading is declared font-size: clamp(1rem, 4vw, 2rem). The root font size is the default 16px and the viewport width resolves to 1200px. What computed font size results?",
+  "opts": {
+   "A": "16px",
+   "B": "24px",
+   "C": "32px",
+   "D": "48px"
+  },
+  "ans": "C",
+  "exp": "The preferred value 4vw evaluates to 48px at a 1200px viewport, which exceeds the maximum, so clamp() returns the maximum of 2rem = 32px. 48px is the trap for reading the middle argument as the result without applying the upper bound; note also that vw is a fraction of viewport width and is unaffected by the root font size.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-026",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "What is the return value of JSON.stringify([1, undefined, function () {}, 4]) ?",
+  "opts": {
+   "A": "'[1,4]'",
+   "B": "'[1,undefined,undefined,4]'",
+   "C": "'[1,null,null,4]'",
+   "D": "It throws a TypeError, because a function is not serialisable"
+  },
+  "ans": "C",
+  "exp": "When JSON.stringify meets undefined, a function or a symbol it omits the property if it is inside an object, but censors it to null inside an array, because an array element cannot simply vanish without shifting the indices. '[1,4]' is the behaviour you would get for object properties, not array elements, and nothing here throws.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-027",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A page served from https://app.example.gov.in calls fetch('https://api.example.gov.in/profile'). The API already responds with Access-Control-Allow-Origin set to the exact app origin and Access-Control-Allow-Credentials: true, yet the browser still sends no session cookie. Which change to the fetch call is required?",
+  "opts": {
+   "A": "Add credentials: 'include' to the request options",
+   "B": "Add mode: 'cors' to the request options",
+   "C": "Add mode: 'no-cors' to the request options",
+   "D": "Attach the session cookie yourself through the headers option"
+  },
+  "ans": "A",
+  "exp": "fetch defaults to credentials: 'same-origin', so cookies are withheld on a cross-origin request until the caller opts in with 'include'; the server-side CORS headers are already in place here. mode: 'cors' is already the default for a cross-origin request and changes nothing, and Cookie is a forbidden header name that script cannot set.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-028",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "save() returns a Promise. What does this function do?\n\nasync function saveAll(items) {\n  items.forEach(async (item) => {\n    await save(item);\n  });\n  console.log('all saved');\n}",
+  "opts": {
+   "A": "Logs 'all saved' only after every save() has resolved",
+   "B": "Logs 'all saved' before any save() has resolved",
+   "C": "Throws a TypeError, because forEach does not accept an async callback",
+   "D": "Runs the saves strictly one after another, then logs 'all saved'"
+  },
+  "ans": "B",
+  "exp": "forEach discards whatever its callback returns, so the promise from each async callback is thrown away; each callback runs synchronously only as far as its first await, and then forEach returns and the log executes before any continuation resumes. Sequential execution (option D) is what for...of with await would give you; Promise.all(items.map(save)) gives the concurrent wait.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-029",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A submit listener added to a form with addEventListener logs its message and calls event.stopPropagation(), but the browser still submits the form and reloads the page. Why?",
+  "opts": {
+   "A": "stopPropagation() takes effect only on listeners registered for the capture phase",
+   "B": "The listener must be registered with { passive: false } before cancellation can take effect",
+   "C": "The handler must return false; addEventListener treats a false return value as a cancellation",
+   "D": "stopPropagation() only halts further propagation of the event; suppressing the browser's default submit needs preventDefault()"
+  },
+  "ans": "D",
+  "exp": "Propagation and default action are two independent things: stopPropagation() keeps other listeners on ancestors from firing, while only preventDefault() cancels the navigation. Returning false cancels the default in inline handlers and in jQuery, but a return value from an addEventListener callback is ignored, and { passive: false } merely restores the ability to call preventDefault on scroll-blocking events such as touchstart and wheel.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-030",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A dashboard issues six independent fetch calls and must render every panel whose call succeeded while marking the ones that failed, so a single rejection must not discard the other five results. Which promise combinator fits?",
+  "opts": {
+   "A": "Promise.all",
+   "B": "Promise.allSettled",
+   "C": "Promise.any",
+   "D": "Promise.race"
+  },
+  "ans": "B",
+  "exp": "Promise.allSettled waits for every input promise and resolves with an array of {status, value} or {status, reason} objects, which is exactly the successes-plus-failures shape needed. Promise.all short-circuits on the first rejection and throws the other results away, while Promise.any resolves with only the first fulfilment.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-031",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "Which statement correctly distinguishes an element's textContent from its innerText?",
+  "opts": {
+   "A": "textContent returns the text of every descendant node, including ones hidden by CSS, whereas innerText approximates the rendered text and leaves them out",
+   "B": "Assigning a string to textContent parses it as HTML, whereas assigning to innerText does not",
+   "C": "innerText is read-only, whereas textContent can be both read and written",
+   "D": "Reading textContent forces a layout reflow, whereas reading innerText does not"
+  },
+  "ans": "A",
+  "exp": "innerText is layout-aware, so it reflects what a user would actually see and skips subtrees hidden with display:none, while textContent walks the DOM and concatenates all text nodes regardless of styling. Option D is the truth reversed, since it is innerText that can trigger a reflow; neither property parses HTML on assignment, and both are writable.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-032",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A type-ahead search box fires a fetch on every keystroke, and a stale response sometimes overwrites a newer one. The requirement is to actually cancel the earlier in-flight request when the next keystroke arrives. What does that?",
+  "opts": {
+   "A": "Call Promise.reject() inside the new keystroke handler to reject the earlier promise",
+   "B": "Call .cancel() on the promise object that the earlier fetch() returned",
+   "C": "Pass an AbortController's signal into fetch() and call controller.abort() on the next keystroke",
+   "D": "Set keepalive: false on the earlier request so the browser drops it"
+  },
+  "ans": "C",
+  "exp": "AbortController is the standard cancellation channel for fetch: the request aborts and its promise rejects with an AbortError DOMException you can filter out in the catch block. Promises have no .cancel() method and cannot be rejected from outside, and keepalive only controls whether a request may outlive the page.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-033",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "An external script tag inside <head> runs document.querySelector('#app') and gets null, although that element exists in the body markup. Without moving the tag or wrapping the code in a DOMContentLoaded listener, which attribute fixes it while still guaranteeing this script runs before another external script tag that follows it?",
+  "opts": {
+   "A": "async",
+   "B": "nomodule",
+   "C": "crossorigin=\"anonymous\"",
+   "D": "defer"
+  },
+  "ans": "D",
+  "exp": "defer downloads the script in parallel but delays execution until the document has been parsed, and deferred scripts run in document order, so both requirements are met. async also defers download but executes as soon as the file arrives, which may be before parsing finishes and in an order that depends on network timing.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-034",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "What happens on the last line?\n\nconst res = await fetch(url);\nconst text = await res.text();\nconst data = await res.json();",
+  "opts": {
+   "A": "data is parsed correctly, because text() and json() both read from an internally buffered copy",
+   "B": "json() resolves with null once text() has already been called",
+   "C": "json() rejects with a TypeError, because the response body stream has already been consumed",
+   "D": "It fails only when the response's Content-Type is not application/json"
+  },
+  "ans": "C",
+  "exp": "A Response body is a one-shot stream: the first read sets bodyUsed to true, and any later body-reading method returns a promise rejected with a TypeError. There is no internal buffer to re-read, so the fix is either res.clone() before the first read or JSON.parse(text); note that json() ignores Content-Type entirely and parses whatever bytes it is given.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-035",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A React list is rendered as `items.map((item, i) => <Row key={i} item={item} />)`, and each `Row` holds its own local expanded/collapsed state. An item is then deleted from the middle of the array. What is the most likely visible bug?",
+  "opts": {
+   "A": "React logs a duplicate-key warning and refuses to render the rows after the deleted one",
+   "B": "Every row unmounts and remounts, so all rows reset to collapsed",
+   "C": "The expanded/collapsed state stays attached to list positions, so rows that shifted up now show the state that belonged to the row previously at that index",
+   "D": "The list stops re-rendering until the parent component is remounted"
+  },
+  "ans": "C",
+  "exp": "With the array index as the key, reconciliation matches a component to a position rather than to an item, so deleting from the middle leaves each surviving row inheriting the local state of whatever previously sat at its new index. Full unmount-and-remount of every row is what a stable unique key would avoid, not what an index key causes — index keys make React reuse instances, which is exactly the problem.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-036",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A React component holds `const [items, setItems] = useState([])`. Its add handler runs `items.push(newItem); setItems(items);`. What happens when the handler fires?",
+  "opts": {
+   "A": "React throws an error because component state was mutated directly",
+   "B": "The UI does not update, because setItems receives the same array reference and React bails out of the re-render",
+   "C": "The component re-renders, but the newly pushed item is missing from the output",
+   "D": "The component re-renders twice, briefly showing the new item duplicated"
+  },
+  "ans": "B",
+  "exp": "React compares the next state to the current one with Object.is, and a mutated-then-reassigned array is the same reference, so the update is skipped and the pushed item never appears; passing a new array such as `setItems([...items, newItem])` is the fix. React does not throw on direct mutation — it simply cannot detect the change, which is why the failure is silent rather than an error.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-037",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A dashboard has a persistent sidebar and header, while three sub-pages swap in and out of the content area as the URL changes. The sidebar must not re-mount or lose its scroll position during those swaps. Which client-side router feature describes this?",
+  "opts": {
+   "A": "Nested routes, where the child route renders into an outlet placed inside the parent route's component so the parent stays mounted",
+   "B": "Hash-based routing, which keeps the layout portion out of the URL path",
+   "C": "Route guards, which block navigation until the surrounding layout has finished loading",
+   "D": "Programmatic navigation, pushing each sub-page URL onto the history stack from an event handler"
+  },
+  "ans": "A",
+  "exp": "Nested routing lets a parent route own persistent chrome and designate an outlet slot into which the matched child route renders, so only the child subtree changes on navigation. Programmatic navigation only chooses when to navigate; it says nothing about which parts of the tree survive the navigation.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-038",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "An SPA uses a client-side route guard that redirects non-admin users away from /admin. A tester with an ordinary account opens devtools, calls GET /api/admin/users directly and receives the full data. What does this demonstrate?",
+  "opts": {
+   "A": "The guard was registered on the parent route only and must be repeated on every child route",
+   "B": "The access token should be stored in an httpOnly cookie instead of localStorage",
+   "C": "The admin screens should be moved into a lazy-loaded chunk so non-admins never download that code",
+   "D": "Route guards only decide what the SPA renders; authorization must be enforced by the server on every API request"
+  },
+  "ans": "D",
+  "exp": "Everything a browser client does is under the user's control, so a guard is a navigation convenience and the API is the only place an access decision can actually be enforced. Lazy-loading the admin chunk is reasonable hygiene but changes nothing here — the endpoint was called directly, without loading any of the app's admin code.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-039",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A Vite-built SPA keeps a third-party API key in `.env` as `VITE_API_KEY`, reads it via `import.meta.env.VITE_API_KEY`, and calls the third-party API straight from the browser. The `.env` file is gitignored. Why is the key still exposed?",
+  "opts": {
+   "A": "The `.env` file is copied into the `dist/` output and served as a static asset",
+   "B": "Vite substitutes the literal value into the JavaScript bundle at build time, so it ships to every visitor and is readable in devtools",
+   "C": "`import.meta.env` is resolved by an HTTP request to the origin server on page load, exposing the value in the network tab",
+   "D": "The value is only exposed if source maps are deployed alongside the production bundle"
+  },
+  "ans": "B",
+  "exp": "Vite performs a static text replacement of `import.meta.env.VITE_*` during the build, so the secret becomes a string literal inside the shipped JavaScript regardless of how the `.env` file is handled in version control; a browser-callable secret must instead be proxied through a backend. Source maps are irrelevant — the literal is present in the minified bundle whether or not maps are published.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-040",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "In an SPA, most navigation uses the router's link component, but one menu entry was written as a plain `<a href='/reports'>`. Clicking it reaches the right page, yet the page visibly reloads and the app's in-memory store is empty afterwards. Why?",
+  "opts": {
+   "A": "The anchor is missing the router's configured base path, so the client router cannot match it against its route table",
+   "B": "The web server has no history fallback rule, so it re-serves index.html from cache instead of the route",
+   "C": "A plain anchor performs a full document navigation, so the browser tears down the running JavaScript context and boots a fresh app instance, discarding in-memory state",
+   "D": "The router intercepts clicks only on elements rendered inside its outlet, so the anchor must be moved inside the outlet"
+  },
+  "ans": "C",
+  "exp": "Router link components exist precisely to intercept the click and call the History API instead of letting the browser navigate, which is what preserves the running app and its store. A missing history fallback would produce a 404 on reload, not a successful-but-full reload, so it does not explain this symptom.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-041",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A team already runs a global client-state store (Redux, Pinia or NgRx) and additionally adopts a dedicated server-state library such as TanStack Query for its REST calls. What does the server-state library primarily add?",
+  "opts": {
+   "A": "Caching keyed by request, deduplication of in-flight identical requests, staleness tracking and background refetching for data the server owns",
+   "B": "A single immutable state tree that makes UI state transitions predictable and replayable",
+   "C": "Enforcement of one-way data flow from parent components down to child components",
+   "D": "Persistence of the entire application state to localStorage so it survives a page reload"
+  },
+  "ans": "A",
+  "exp": "Remote data is a cache of something another system owns, so it needs cache keys, invalidation, deduplication and refetch-on-stale — concerns a general-purpose store does not model. A single predictable state tree is what the store already provides, so it cannot be what the second library is being added for.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-042",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A task list flips a to-do's `completed` flag in local state immediately and fires the PATCH afterwards, so the checkbox responds instantly. Beyond applying the change early, what must this optimistic-update pattern also implement to remain correct?",
+  "opts": {
+   "A": "A debounce, so rapid repeated toggles collapse into a single request",
+   "B": "A longer request timeout, so the PATCH still completes on slow connections",
+   "C": "Polling the server every few seconds to re-synchronise the list",
+   "D": "A rollback that restores the previous value, and surfaces the failure, if the request is rejected"
+  },
+  "ans": "D",
+  "exp": "An optimistic update asserts a server outcome before it is known, so the pattern is only sound if the pre-update snapshot is retained and reapplied when the request fails, otherwise the UI silently diverges from the database. Debouncing is a request-volume optimisation and does nothing about a rejected write.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-043",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A React app renders `<AuthContext.Provider value={{ user, setUser }}>` high in the tree. Profiling shows that every consumer of that context re-renders whenever the provider's own component re-renders, even when `user` is unchanged. What explains this?",
+  "opts": {
+   "A": "Context providers re-run all consumers on every render by design; the provider value is never compared",
+   "B": "Consumers must be wrapped in `React.memo` to skip re-renders caused by context",
+   "C": "The inline object literal produces a new value reference on each render, and consumers re-render when the provider value is not referentially equal to the previous one",
+   "D": "`setUser` must be excluded from the context value, because function identities are never stable across renders"
+  },
+  "ans": "C",
+  "exp": "React compares the provider's value by reference, and `{{ user, setUser }}` allocates a fresh object each render, so memoising the value (for example with useMemo) is what stops the cascade. React.memo is the tempting wrong answer: it compares props and does not prevent a context update from re-rendering a consumer.",
+  "conf": "high"
+ }
+]

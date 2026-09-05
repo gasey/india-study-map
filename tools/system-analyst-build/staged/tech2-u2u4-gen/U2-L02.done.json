@@ -1,0 +1,128 @@
+[
+ {
+  "id": "GEN-T2U2-008",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A developer nests an <h1> inside a <section> that is itself inside another <section>, expecting assistive technology to announce it as a third-level heading. What actually happens in current browsers and screen readers?",
+  "opts": {
+   "A": "It is announced as a level 1 heading; the sectioning-based outline algorithm was never implemented by browsers and has been dropped from the HTML standard",
+   "B": "It is announced as a level 3 heading, matching the depth of <section> nesting",
+   "C": "It is announced as a level 2 heading, because a sectioning element demotes its heading by exactly one level however deeply it is nested",
+   "D": "It is announced as a heading of undefined level, leaving assistive technology to infer structure from document order"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Heading level is taken from the tag name alone: <h1> is level 1 no matter how many sectioning ancestors wrap it, because the proposed document outline algorithm shipped in no engine and was removed from the spec. The level-3 option describes the behaviour the algorithm was supposed to produce, which is exactly why the myth persists; author the correct <h2>/<h3> explicitly."
+ },
+ {
+  "id": "GEN-T2U2-009",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A page has a site-wide menu and a breadcrumb trail, each in its own <nav> element. A screen-reader user opening the landmarks list hears \"navigation\" twice with nothing to distinguish them. What is the correct fix?",
+  "opts": {
+   "A": "Give each <nav> a unique id, which assistive technology exposes as the landmark's accessible name",
+   "B": "Put aria-hidden=\"true\" on the breadcrumb <nav> so only one navigation landmark is announced",
+   "C": "Give each <nav> a distinct accessible name with aria-label or aria-labelledby",
+   "D": "Replace the breadcrumb <nav> with <div role=\"navigation\">, which does not create a duplicate landmark entry"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Repeated landmarks of the same type are disambiguated by giving each one an accessible name, which for a <nav> comes from aria-label or aria-labelledby. The <div role=\"navigation\"> option changes nothing, since an explicit role and its native element expose the identical landmark; and aria-hidden would remove the breadcrumbs from the accessibility tree entirely rather than label them."
+ },
+ {
+  "id": "GEN-T2U2-010",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A checkout form contains <input name=\"coupon\" value=\"FEST26\" disabled>. The user presses the submit button. What does the server receive for coupon?",
+  "opts": {
+   "A": "coupon=FEST26, because the value attribute is present regardless of the control's state",
+   "B": "Nothing at all — a disabled control is not successful, so no name/value pair is sent for it",
+   "C": "coupon= with an empty value",
+   "D": "Nothing, and the browser additionally blocks the submission with a constraint-validation error"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Disabled controls are excluded from the form's entry list, so the key is simply absent from the payload — not present-and-empty, which is what readonly would give you (readonly controls are submitted with their value). Nothing about disabled participates in constraint validation either, so the submission itself proceeds normally."
+ },
+ {
+  "id": "GEN-T2U2-011",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "Five radio buttons ask the candidate to choose a preferred exam centre. Each <input> has its own correctly associated <label>, but a screen-reader user hears only the individual centre names and never the question itself. Which markup supplies the group's accessible name?",
+  "opts": {
+   "A": "Wrap the radios in a <fieldset> whose <legend> contains the question text",
+   "B": "Wrap all five inputs in one <label> element that also contains the question text",
+   "C": "Place an <h3> containing the question immediately before the radio buttons",
+   "D": "Put title=\"Preferred exam centre\" on the <div> that contains the radios"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "<fieldset> groups related controls and its <legend> becomes the group's accessible name, so each radio is announced together with the question. A preceding <h3> is the most tempting alternative because it looks right on screen, but a heading is not programmatically associated with the controls; and a plain <div> has no role, so a title on it exposes no name."
+ },
+ {
+  "id": "GEN-T2U2-012",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A landing page uses <video src=\"promo.mp4\" autoplay> with an ordinary audio track. On desktop Chrome the video sits on its first frame and never starts; the only sign of trouble is a rejected play() promise. What explains this?",
+  "opts": {
+   "A": "The autoplay attribute has no effect unless preload=\"auto\" is also set",
+   "B": "A <video> element will not start automatically unless the controls attribute is present",
+   "C": "The src attribute is ignored on <video>; media must be supplied through child <source> elements",
+   "D": "Browser autoplay policy blocks unmuted autoplay without a user gesture; adding muted (with playsinline for mobile) lets it start"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Chrome and the other major engines permit autoplay only when the media is muted or the user has already interacted with the origin, and a blocked attempt surfaces as a rejected play() promise exactly as described. The preload option is a red herring — preload governs buffering, not permission to play — and <video> accepts src directly, with <source> only needed for multiple formats."
+ },
+ {
+  "id": "GEN-T2U2-013",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A recorded training video already ships a <track> with kind=\"subtitles\" carrying a translation of the dialogue. An accessibility audit still records a failure for deaf and hard-of-hearing users. Which track kind must be added?",
+  "opts": {
+   "A": "kind=\"descriptions\", which narrates what is happening on screen",
+   "B": "kind=\"captions\", which carries the dialogue plus speaker identification and relevant non-speech sound",
+   "C": "kind=\"chapters\", which exposes navigable sections of the timeline",
+   "D": "kind=\"metadata\", which carries cue data for scripts to consume"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Subtitles assume the viewer can hear and only render the spoken words, whereas captions are written for a viewer who hears nothing and must therefore also convey speaker changes and meaningful non-speech audio. The descriptions option is a genuine track kind but solves the opposite problem — it serves blind users by narrating the visuals."
+ },
+ {
+  "id": "GEN-T2U2-014",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "An interactive seat-selection map is drawn entirely with the Canvas 2D API, and clicks are resolved from pointer coordinates against an internal seat array. Screen-reader users perceive nothing on the page. Which approach fixes this using the mechanism Canvas itself provides?",
+  "opts": {
+   "A": "Add an alt attribute to the <canvas> element describing the seating layout",
+   "B": "Set aria-live=\"polite\" on the <canvas> so each drawing operation is announced as it occurs",
+   "C": "Place focusable, labelled DOM elements — one per seat — inside the <canvas> element as its fallback content, and keep them in sync with what is drawn",
+   "D": "Supply a <noscript> block containing an accessible seat list"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Child content of <canvas> is the spec's designated fallback and shadow DOM for the bitmap: it is exposed to assistive technology and can be focused and activated, so mirroring each seat as a real button gives keyboard and screen-reader access to the same interaction. aria-live is the seductive wrong answer — drawing to a canvas mutates a bitmap, not the DOM, so there is no mutation for a live region to announce, and <noscript> never renders for a screen-reader user with JavaScript enabled."
+ },
+ {
+  "id": "GEN-T2U2-015",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "An icon exists as an .svg file. The team needs it to take its fill from the page's currentColor and to change colour on hover through an ordinary CSS rule. This works when the <svg> markup is inlined in the page but not when it is referenced as <img src=\"icon.svg\">. Why?",
+  "opts": {
+   "A": "<img> rasterises the SVG at load time, discarding the vector paths that CSS would target",
+   "B": "SVG elements obey only presentation attributes such as fill; CSS declarations never apply to them",
+   "C": "currentColor is a CSS-only keyword with no meaning inside SVG, so only literal colour values work there",
+   "D": "An SVG loaded through <img> is an isolated document — the page's CSS and scripts cannot reach its elements, and inherited values such as currentColor do not cross that boundary"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Referencing an SVG from <img> renders it as an independent, non-scriptable document, so page stylesheets never match its shapes and it has no parent from which to inherit currentColor; inlining puts the same shapes in the page's own DOM where both apply. The rasterisation option is wrong on its own terms — the image still scales as a vector, it is simply unreachable from outside."
+ },
+ {
+  "id": "GEN-T2U2-016",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "GIGW 3.0, the Guidelines for Indian Government Websites issued under MeitY, requires government websites and mobile apps to conform to WCAG 2.1 at which conformance level?",
+  "opts": {
+   "A": "Level A",
+   "B": "Level AA",
+   "C": "Level AAA",
+   "D": "WCAG 2.1 defines no conformance levels; GIGW substitutes its own percentage compliance score"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "GIGW 3.0 sets Level AA of WCAG 2.1 as the accessibility bar for Indian government web properties, matching the level used in public-procurement accessibility requirements internationally. Level AAA is not the answer anywhere — WCAG itself advises against requiring full AAA conformance for entire sites, since some AAA criteria cannot be met for all content types."
+ }
+]

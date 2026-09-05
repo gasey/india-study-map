@@ -1,0 +1,128 @@
+[
+ {
+  "id": "GEN-T2U2-035",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A React list is rendered as `items.map((item, i) => <Row key={i} item={item} />)`, and each `Row` holds its own local expanded/collapsed state. An item is then deleted from the middle of the array. What is the most likely visible bug?",
+  "opts": {
+   "A": "React logs a duplicate-key warning and refuses to render the rows after the deleted one",
+   "B": "Every row unmounts and remounts, so all rows reset to collapsed",
+   "C": "The expanded/collapsed state stays attached to list positions, so rows that shifted up now show the state that belonged to the row previously at that index",
+   "D": "The list stops re-rendering until the parent component is remounted"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "With the array index as the key, reconciliation matches a component to a position rather than to an item, so deleting from the middle leaves each surviving row inheriting the local state of whatever previously sat at its new index. Full unmount-and-remount of every row is what a stable unique key would avoid, not what an index key causes — index keys make React reuse instances, which is exactly the problem."
+ },
+ {
+  "id": "GEN-T2U2-036",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A React component holds `const [items, setItems] = useState([])`. Its add handler runs `items.push(newItem); setItems(items);`. What happens when the handler fires?",
+  "opts": {
+   "A": "React throws an error because component state was mutated directly",
+   "B": "The UI does not update, because setItems receives the same array reference and React bails out of the re-render",
+   "C": "The component re-renders, but the newly pushed item is missing from the output",
+   "D": "The component re-renders twice, briefly showing the new item duplicated"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "React compares the next state to the current one with Object.is, and a mutated-then-reassigned array is the same reference, so the update is skipped and the pushed item never appears; passing a new array such as `setItems([...items, newItem])` is the fix. React does not throw on direct mutation — it simply cannot detect the change, which is why the failure is silent rather than an error."
+ },
+ {
+  "id": "GEN-T2U2-037",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A dashboard has a persistent sidebar and header, while three sub-pages swap in and out of the content area as the URL changes. The sidebar must not re-mount or lose its scroll position during those swaps. Which client-side router feature describes this?",
+  "opts": {
+   "A": "Nested routes, where the child route renders into an outlet placed inside the parent route's component so the parent stays mounted",
+   "B": "Hash-based routing, which keeps the layout portion out of the URL path",
+   "C": "Route guards, which block navigation until the surrounding layout has finished loading",
+   "D": "Programmatic navigation, pushing each sub-page URL onto the history stack from an event handler"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Nested routing lets a parent route own persistent chrome and designate an outlet slot into which the matched child route renders, so only the child subtree changes on navigation. Programmatic navigation only chooses when to navigate; it says nothing about which parts of the tree survive the navigation."
+ },
+ {
+  "id": "GEN-T2U2-038",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "An SPA uses a client-side route guard that redirects non-admin users away from /admin. A tester with an ordinary account opens devtools, calls GET /api/admin/users directly and receives the full data. What does this demonstrate?",
+  "opts": {
+   "A": "The guard was registered on the parent route only and must be repeated on every child route",
+   "B": "The access token should be stored in an httpOnly cookie instead of localStorage",
+   "C": "The admin screens should be moved into a lazy-loaded chunk so non-admins never download that code",
+   "D": "Route guards only decide what the SPA renders; authorization must be enforced by the server on every API request"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Everything a browser client does is under the user's control, so a guard is a navigation convenience and the API is the only place an access decision can actually be enforced. Lazy-loading the admin chunk is reasonable hygiene but changes nothing here — the endpoint was called directly, without loading any of the app's admin code."
+ },
+ {
+  "id": "GEN-T2U2-039",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A Vite-built SPA keeps a third-party API key in `.env` as `VITE_API_KEY`, reads it via `import.meta.env.VITE_API_KEY`, and calls the third-party API straight from the browser. The `.env` file is gitignored. Why is the key still exposed?",
+  "opts": {
+   "A": "The `.env` file is copied into the `dist/` output and served as a static asset",
+   "B": "Vite substitutes the literal value into the JavaScript bundle at build time, so it ships to every visitor and is readable in devtools",
+   "C": "`import.meta.env` is resolved by an HTTP request to the origin server on page load, exposing the value in the network tab",
+   "D": "The value is only exposed if source maps are deployed alongside the production bundle"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Vite performs a static text replacement of `import.meta.env.VITE_*` during the build, so the secret becomes a string literal inside the shipped JavaScript regardless of how the `.env` file is handled in version control; a browser-callable secret must instead be proxied through a backend. Source maps are irrelevant — the literal is present in the minified bundle whether or not maps are published."
+ },
+ {
+  "id": "GEN-T2U2-040",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "In an SPA, most navigation uses the router's link component, but one menu entry was written as a plain `<a href='/reports'>`. Clicking it reaches the right page, yet the page visibly reloads and the app's in-memory store is empty afterwards. Why?",
+  "opts": {
+   "A": "The anchor is missing the router's configured base path, so the client router cannot match it against its route table",
+   "B": "The web server has no history fallback rule, so it re-serves index.html from cache instead of the route",
+   "C": "A plain anchor performs a full document navigation, so the browser tears down the running JavaScript context and boots a fresh app instance, discarding in-memory state",
+   "D": "The router intercepts clicks only on elements rendered inside its outlet, so the anchor must be moved inside the outlet"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Router link components exist precisely to intercept the click and call the History API instead of letting the browser navigate, which is what preserves the running app and its store. A missing history fallback would produce a 404 on reload, not a successful-but-full reload, so it does not explain this symptom."
+ },
+ {
+  "id": "GEN-T2U2-041",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A team already runs a global client-state store (Redux, Pinia or NgRx) and additionally adopts a dedicated server-state library such as TanStack Query for its REST calls. What does the server-state library primarily add?",
+  "opts": {
+   "A": "Caching keyed by request, deduplication of in-flight identical requests, staleness tracking and background refetching for data the server owns",
+   "B": "A single immutable state tree that makes UI state transitions predictable and replayable",
+   "C": "Enforcement of one-way data flow from parent components down to child components",
+   "D": "Persistence of the entire application state to localStorage so it survives a page reload"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Remote data is a cache of something another system owns, so it needs cache keys, invalidation, deduplication and refetch-on-stale — concerns a general-purpose store does not model. A single predictable state tree is what the store already provides, so it cannot be what the second library is being added for."
+ },
+ {
+  "id": "GEN-T2U2-042",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A task list flips a to-do's `completed` flag in local state immediately and fires the PATCH afterwards, so the checkbox responds instantly. Beyond applying the change early, what must this optimistic-update pattern also implement to remain correct?",
+  "opts": {
+   "A": "A debounce, so rapid repeated toggles collapse into a single request",
+   "B": "A longer request timeout, so the PATCH still completes on slow connections",
+   "C": "Polling the server every few seconds to re-synchronise the list",
+   "D": "A rollback that restores the previous value, and surfaces the failure, if the request is rejected"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "An optimistic update asserts a server outcome before it is known, so the pattern is only sound if the pre-update snapshot is retained and reapplied when the request fails, otherwise the UI silently diverges from the database. Debouncing is a request-volume optimisation and does nothing about a rejected write."
+ },
+ {
+  "id": "GEN-T2U2-043",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A React app renders `<AuthContext.Provider value={{ user, setUser }}>` high in the tree. Profiling shows that every consumer of that context re-renders whenever the provider's own component re-renders, even when `user` is unchanged. What explains this?",
+  "opts": {
+   "A": "Context providers re-run all consumers on every render by design; the provider value is never compared",
+   "B": "Consumers must be wrapped in `React.memo` to skip re-renders caused by context",
+   "C": "The inline object literal produces a new value reference on each render, and consumers re-render when the provider value is not referentially equal to the previous one",
+   "D": "`setUser` must be excluded from the context value, because function identities are never stable across renders"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "React compares the provider's value by reference, and `{{ user, setUser }}` allocates a fresh object each render, so memoising the value (for example with useMemo) is what stops the cascade. React.memo is the tempting wrong answer: it compares props and does not prevent a context update from re-rendering a consumer."
+ }
+]

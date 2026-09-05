@@ -1,0 +1,23 @@
+{
+ "slug": "U2-L02",
+ "unit": "2",
+ "unit_title": "Web Technologies",
+ "marks": 60,
+ "leaf": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+ "need": 9,
+ "verbatim_syllabus": "Modern Web Development and Full Stack Engineering: Evolution of the Internet and Web Architecture; Client-Server Communication; HTTP/HTTPS; DNS and Web Hosting; HTML Semantic Elements, Forms, Multimedia, Canvas, SVG and Web Accessibility Standards; CSS, Flexbox, Grid, Responsive Web Design; Git Version Control; Javascript, DOM Manipulation, Event Handling, Asynchronous Programming, JSON and Fetch API; Frontend Development using Javascript Framework including Components, Routing, State Management, Forms and API Integration; Backend Development using PHP - Python; RESTful APIs, CRUD Operations, Middleware, Authentication and Authorization, Session and Cookie Management; ORM Concepts, Websockets; Serverless Computing, Docker, Kubernetes and CI/CD Pipelines; Linux Administration, Web Servers - Nginx, Deployment and Monitoring; Web Security Fundamentals including OWASP Top 10, HTTPS, SSL/TLS, CSRF, XSS and SQL Injection Prevention; MVC Architecture; Microservices Architecture, SOLID Principles, Dependency Management, Event-Driven Systems, Caching and Queue Management; AI-assisted Web Development, Generative AI APIs, Model Context Protocol (MCP), Web Analytics, Scalable Deployment, Ethics, Privacy and Legal Aspects of Modern Web Applications.",
+ "existing_stems": [
+  {
+   "q": "A dashboard must plot a scatter chart of 50,000 points and redraw it on every mouse drag. Why is a canvas element normally preferred here over inline SVG?",
+   "ans_text": "Canvas draws pixels immediately and keeps no node per point, avoiding the layout and hit-testing cost of a 50,000-element tree"
+  },
+  {
+   "q": "A text input is given only a placeholder attribute and no associated label element. What is the accessibility defect?",
+   "ans_text": "The placeholder disappears once the user types, and it is not a reliable accessible name for the field"
+  },
+  {
+   "q": "Inside a form element, a developer writes a button element with no type attribute, and the user clicks it. What happens by default?",
+   "ans_text": "The form is submitted"
+  }
+ ]
+}

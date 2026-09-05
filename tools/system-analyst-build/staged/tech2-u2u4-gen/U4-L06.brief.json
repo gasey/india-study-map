@@ -1,0 +1,23 @@
+{
+ "slug": "U4-L06",
+ "unit": "4",
+ "unit_title": "Cloud Computing",
+ "marks": 40,
+ "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+ "need": 9,
+ "verbatim_syllabus": "Cloud Architecture and Distributed Systems: Evolution of Distributed, Edge and Cloud Computing; NIST Cloud Architecture; Cloud Deployment and Service Models (IaaS, PaaS, SaaS, Serverless); Cloud-native Architecture, Microservices, Service Mesh, Elasticity, High Availability, Load Balancing, and Sustainable Cloud Computing. Virtualization and Cloud Infrastructure: Virtual Machines, Hypervisors, Full and Para Virtualization; CPU, Storage, and Network Virtualization; Containers, Docker Architecture, Kubernetes orchestration, Resource Management, Infrastructure as Code using Terraform and Ansible, CI/CD Pipelines, and DevOps Practices. Cloud Storage, Compute, Networking, Managed Databases, Serverless Computing, Monitoring and Observability, OpenStack, Hybrid and Multi-cloud Management, and AI/ML Infrastructure. Cloud Security and Governance: Shared Responsibility Model, IAM, MFA, Zero Trust Security, Encryption, Backup and Disaster Recovery, Container and Kubernetes Security, DevSecOps, API Security, Virtualization Attacks, FinOps, and Service Level Agreements (SLAs).",
+ "existing_stems": [
+  {
+   "q": "Which workload is the poorest fit for object storage and should sit on block storage instead?",
+   "ans_text": "The data files of a transactional relational database doing small random in-place updates"
+  },
+  {
+   "q": "A user request passes through eight microservices and is intermittently slow, yet every individual service's own latency dashboard looks normal. Which telemetry most directly identifies which hop is consuming the time?",
+   "ans_text": "Distributed tracing, with a trace context propagated across every hop so each span's duration is recorded within one request"
+  },
+  {
+   "q": "An organisation runs the same containerised application on two cloud providers to avoid lock-in. In practice, what most commonly limits that portability?",
+   "ans_text": "Dependence on provider-specific managed services — the IAM model, the managed database, the queue and the object-storage API — which have no common interface to target"
+  }
+ ]
+}

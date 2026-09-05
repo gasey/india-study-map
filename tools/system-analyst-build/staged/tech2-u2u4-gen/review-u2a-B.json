@@ -1,0 +1,21 @@
+{
+  "reviewer": "u2a-B — independent solve-then-compare pass, blind to the first reviewer",
+  "reviewed": 43,
+  "flags": [
+    {
+      "id": "GEN-T2U2-033",
+      "type": "unstated-assumption",
+      "severity": "low",
+      "detail": "The stem asks for the attribute that fixes the null querySelector \"while still guaranteeing this script runs before another external script tag that follows it\". `defer` only guarantees document-order execution relative to OTHER deferred scripts. If the following <script src=...> is a plain classic script with no attribute, it executes during parsing and therefore runs BEFORE the deferred script — so as literally stated, no offered option satisfies the second requirement, and a student can come away with the wrong generalisation that defer orders a script ahead of any later script tag. The keyed letter is still the only viable one (async is worse; nomodule and crossorigin are irrelevant), so this is a stem-precision defect rather than a wrong key. Fix: pin the assumption in the stem — e.g. '...before another deferred external script tag that follows it' — and add a clause to the explanation stating that defer's ordering guarantee holds only among deferred scripts, not against parser-blocking ones.",
+      "suggested": "Keep ans D; reword stem to '...guaranteeing this script runs before another external script that also carries the attribute and follows it in the document.'"
+    },
+    {
+      "id": "GEN-T2U2-018",
+      "type": "bad-explanation",
+      "severity": "low",
+      "detail": "Key C (margin-left: auto) is right and the other three rebuttals are accurate, but the float rebuttal states a false mechanism: 'float has no effect on a flex item because floating is blockified away during flex item creation.' Blockification and float-ignoring are two separate rules in css-flexbox-1: the display value of a flex item is blockified (§4), and separately 'float and clear do not create floating or clearance for flex items, and do not take the flex item out-of-flow' (§3). Float is not 'blockified away' — it is simply ignored for layout purposes while still remaining a specified value. The wording also inverts the normal-flow rule, where it is float that causes blockification. Conclusion is correct, causal claim is not.",
+      "suggested": "Reword the last clause to: 'and float has no effect because a flex container ignores float and clear on its items — they neither float nor are taken out of flow.'"
+    }
+  ],
+  "notes": "Solved all 43 blind before reading the keys and disagreed with none of them; every keyed letter is the uniquely best option, and each explanation's distractor rebuttals are substantively correct. Two India/2026-specific facts I checked against sources rather than memory both hold: GIGW 3.0 does mandate WCAG 2.1 Level AA (GEN-T2U2-016), and DNS-01 remains the only Let's Encrypt challenge that can issue wildcards (GEN-T2U2-005) — DNS-PERSIST-01 is DNS-based and wildcard-capable via policy=wildcard, but as of Sept 2026 it is staging-only with production slipped past Q2, so the question is not yet stale; it will need a revisit once that ships. The two flags raised are both low-severity precision defects that leave the keyed letters intact."
+}

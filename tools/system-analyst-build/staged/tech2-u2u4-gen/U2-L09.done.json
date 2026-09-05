@@ -1,0 +1,129 @@
+[
+ {
+  "id": "GEN-T2U2-071",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A `Rectangle` class exposes `setWidth()` and `setHeight()`. A `Square` subclass overrides both so that setting one dimension silently sets the other. Reporting code that has always worked against a `Rectangle` reference — set width 5, set height 4, expect area 20 — starts producing 16 once a `Square` instance is passed in. Which SOLID principle has been violated?",
+  "opts": {
+   "A": "Single Responsibility Principle",
+   "B": "Interface Segregation Principle",
+   "C": "Liskov Substitution Principle",
+   "D": "Open/Closed Principle"
+  },
+  "ans": "C",
+  "exp": "Liskov substitution requires that an instance of a subtype can replace the supertype without breaking any guarantee the caller was entitled to rely on, and `Square` breaks the independent-dimensions contract that `Rectangle` advertises. The Open/Closed Principle is the tempting alternative but it concerns whether new behaviour can be added without editing existing code, and nothing here was extended by modification — the inheritance itself is what is unsound.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-072",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A team argues that because every collaborator is supplied through a dependency-injection container rather than constructed with `new`, the codebase satisfies the Dependency Inversion Principle. What does DIP additionally require that a DI container by itself does not give you?",
+  "opts": {
+   "A": "That object graphs be wired by a framework rather than by hand-written factory code",
+   "B": "That the high-level policy and the low-level implementation both depend on an abstraction defined in terms of the high-level module's needs, rather than the policy depending on the concrete implementation",
+   "C": "That every concrete class in the system be paired with an interface, even where only one implementation exists",
+   "D": "That dependencies be resolved at runtime from configuration rather than being fixed at compile time"
+  },
+  "ans": "B",
+  "exp": "DIP is a statement about the direction of source-level dependencies — the policy layer owns the abstraction and the detail layer conforms to it — so a container that injects a concrete database class into a service still inverts nothing. Runtime resolution from configuration is a real capability of DI containers and sounds authoritative, but late binding is a mechanism, not the ownership rule DIP is about.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-073",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "An order-placement flow spans an Order service, a Payment service and an Inventory service, each owning its own database. The architect rules out holding one ACID transaction open across all three. Which approach keeps the business outcome consistent instead?",
+  "opts": {
+   "A": "Two-phase commit driven by a coordinator in the API gateway",
+   "B": "Optimistic locking with a version column on the order row, retried on conflict",
+   "C": "Giving the three services a shared schema so a single database transaction can span them",
+   "D": "A saga: a sequence of local transactions in which each service commits its own step and publishes an event, with compensating transactions undoing earlier steps if a later one fails"
+  },
+  "ans": "D",
+  "exp": "A saga trades atomicity for eventual consistency, replacing rollback with explicit compensating actions such as refunding a payment or releasing a stock reservation, which is exactly the pattern for cross-service consistency without a distributed lock. Two-phase commit is the most tempting option because it does deliver atomicity, but it is precisely the distributed transaction that was ruled out — the coordinator becomes a blocking single point of failure holding locks across all three databases.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-074",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A recommendation service begins responding in about 30 seconds instead of 50 milliseconds. The checkout service, which calls it synchronously on the product page, exhausts its request-handling thread pool waiting, and within minutes checkout stops serving even requests that never touch recommendations. Which pattern is specifically intended to stop this propagation?",
+  "opts": {
+   "A": "A circuit breaker that opens after a failure or latency threshold and fails fast on the recommendation call until the dependency is probed healthy again",
+   "B": "Retrying each recommendation call with exponential backoff and jitter",
+   "C": "Horizontally scaling the checkout service to more replicas",
+   "D": "Raising the HTTP client timeout on the recommendation call so slow responses still succeed"
+  },
+  "ans": "A",
+  "exp": "The failure is resource exhaustion caused by threads parked on a slow dependency, so the fix is to stop calling it: an open circuit breaker returns immediately with a fallback, freeing capacity for unrelated work, and a bulkhead limiting that dependency to its own bounded pool serves the same containment goal. Retry with backoff is a genuinely good practice for transient errors, which makes it tempting, but against an overloaded dependency it multiplies in-flight calls and accelerates the collapse; raising the timeout holds threads even longer.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-075",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A service publishes `AccountDebited` and `AccountCredited` events to an Apache Kafka topic with six partitions, consumed by a consumer group. Events concerning the same account must be processed in the order they were produced, while events for different accounts may be processed in parallel. Which measure achieves this?",
+  "opts": {
+   "A": "Configuring the consumer group with exactly as many consumer instances as there are partitions",
+   "B": "Producing every event with the account identifier as the message key, so that all events for one account are routed to the same partition",
+   "C": "Setting `auto.offset.reset` to `earliest` on the consumer group",
+   "D": "Increasing the topic's partition count so each account is statistically likely to get its own partition"
+  },
+  "ans": "B",
+  "exp": "Kafka guarantees ordering only within a single partition, and the default partitioner hashes the message key, so keying by account identifier pins one account's whole event stream to one partition read by one consumer in the group. Adding partitions is the opposite of a fix — it spreads an unkeyed account's events across more partitions and destroys any ordering, and no partition count makes the routing deterministic without a key.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-076",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A worker consuming an Amazon SQS standard queue throws an unhandled exception on one malformed message. The message's visibility timeout expires, it returns to the queue, the worker picks it up and crashes again, and this repeats indefinitely while healthy messages pile up behind it. Which queue configuration is the standard remedy for this poison-message loop?",
+  "opts": {
+   "A": "Lengthening the visibility timeout so the message stays invisible longer between attempts",
+   "B": "Converting the queue to FIFO so the message is delivered exactly once",
+   "C": "A redrive policy that moves the message to a dead-letter queue once its receive count exceeds `maxReceiveCount`",
+   "D": "Adding more worker instances so the malformed message occupies a smaller share of consumer capacity"
+  },
+  "ans": "C",
+  "exp": "A redrive policy counts deliveries per message and diverts anything exceeding `maxReceiveCount` to a dead-letter queue, quarantining the bad message for offline inspection while the main queue drains. FIFO queues are the most plausible distractor because they do offer exactly-once processing within the deduplication window, but that governs duplicate sends, not repeated redelivery after a consumer failure — a FIFO queue would in fact make things worse by blocking the whole message group behind the poison message.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-077",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A write-heavy service places a cache in front of its database. The design requires the lowest achievable write latency and explicitly accepts that a crash of a cache node may lose the most recent writes that have not yet been flushed to the database. Which cache write strategy is being described?",
+  "opts": {
+   "A": "Write-behind (write-back), where the write is acknowledged from the cache and persisted to the database asynchronously in batches",
+   "B": "Write-through, where every write goes to the cache and the database as one synchronous operation",
+   "C": "Cache-aside, where the application writes to the database and invalidates the cached entry",
+   "D": "Refresh-ahead, where the cache proactively reloads entries that are about to expire"
+  },
+  "ans": "A",
+  "exp": "Write-behind acknowledges the client as soon as the cache accepts the write and drains to the database later, which is what buys the low latency and what creates the durability window the requirement concedes. Write-through is the natural competitor and shares the same access shape, but because it commits to the database before acknowledging it has strictly higher write latency and loses nothing on a cache failure.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-078",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A frontend codebase is described as MVVM rather than MVC. Which statement identifies the defining structural difference?",
+  "opts": {
+   "A": "MVVM eliminates the model layer, so the view obtains data by calling the backend API directly",
+   "B": "In MVVM the view model produces the rendered markup while the view holds the application state",
+   "C": "MVVM applies only to server-rendered pages, whereas MVC applies only to client-side applications",
+   "D": "In MVVM the view binds declaratively to observable state exposed by a view model that holds no reference to the view, so state changes propagate through the binding rather than through a controller that handles each interaction"
+  },
+  "ans": "D",
+  "exp": "MVVM's distinguishing mechanism is data binding: the view model publishes observable state and commands and is deliberately ignorant of any view, which is what makes it unit-testable without a rendering surface. The claim that MVVM drops the model is the most seductive wrong answer because view models are often mistaken for models, but MVVM keeps a domain/model layer and adds the view model as a presentation-shaped adapter over it.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-079",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A Node.js project's `package.json` declares a dependency as `\"lodash\": \"^4.17.20\"` and the lockfile has been deleted. Under npm's semantic-versioning range rules, which of these versions may `npm install` resolve the dependency to?",
+  "opts": {
+   "A": "3.10.1",
+   "B": "4.18.1",
+   "C": "5.0.1",
+   "D": "4.17.19"
+  },
+  "ans": "B",
+  "exp": "The caret range `^4.17.20` admits any version at or above 4.17.20 but below the next major, i.e. `>=4.17.20 <5.0.0`, so 4.18.1 is in range and npm will take the highest published match. 4.17.19 is the trap: it looks close enough to satisfy the caret, but it is lower than the stated minimum, and 5.0.1 crosses the major boundary the caret exists to hold.",
+  "conf": "high",
+  "reviewFix": "Keyed option corrected from 4.19.3 to 4.18.1. The stem named a real package and asked which 'published' version npm may resolve to, but lodash 4.19.3 has never been published — registry.npmjs.org lists no such version and dist-tags.latest is 4.18.1 — so the only in-range option did not exist, and a candidate who actually knew lodash's release history had no defensible answer. 4.18.1 is both real and the version npm would in fact resolve to, so the semver rule under test is unchanged and now true. The stem no longer asserts that all four listed versions are published. KNOWN AND ACCEPTED: a reviewer also judged this mis-filed, since npm caret resolution is not 'Architecture and scale' material. Left in place deliberately — per-leaf counts are contractual against the authoring briefs and the importer enforces them, so moving it would require moving another question back the other way, and replacing it outright would ship an unreviewed question. Recorded here as a placement debt rather than silently fixed."
+ }
+]

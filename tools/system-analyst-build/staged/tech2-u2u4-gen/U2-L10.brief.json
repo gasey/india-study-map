@@ -1,0 +1,23 @@
+{
+ "slug": "U2-L10",
+ "unit": "2",
+ "unit_title": "Web Technologies",
+ "marks": 60,
+ "leaf": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+ "need": 9,
+ "verbatim_syllabus": "Modern Web Development and Full Stack Engineering: Evolution of the Internet and Web Architecture; Client-Server Communication; HTTP/HTTPS; DNS and Web Hosting; HTML Semantic Elements, Forms, Multimedia, Canvas, SVG and Web Accessibility Standards; CSS, Flexbox, Grid, Responsive Web Design; Git Version Control; Javascript, DOM Manipulation, Event Handling, Asynchronous Programming, JSON and Fetch API; Frontend Development using Javascript Framework including Components, Routing, State Management, Forms and API Integration; Backend Development using PHP - Python; RESTful APIs, CRUD Operations, Middleware, Authentication and Authorization, Session and Cookie Management; ORM Concepts, Websockets; Serverless Computing, Docker, Kubernetes and CI/CD Pipelines; Linux Administration, Web Servers - Nginx, Deployment and Monitoring; Web Security Fundamentals including OWASP Top 10, HTTPS, SSL/TLS, CSRF, XSS and SQL Injection Prevention; MVC Architecture; Microservices Architecture, SOLID Principles, Dependency Management, Event-Driven Systems, Caching and Queue Management; AI-assisted Web Development, Generative AI APIs, Model Context Protocol (MCP), Web Analytics, Scalable Deployment, Ethics, Privacy and Legal Aspects of Modern Web Applications.",
+ "existing_stems": [
+  {
+   "q": "In the Model Context Protocol (MCP), what is the role of an MCP server in relation to the LLM application that connects to it?",
+   "ans_text": "It exposes tools, resources and prompts that the client application can discover and invoke"
+  },
+  {
+   "q": "A single-page frontend calls a hosted generative AI API directly from browser JavaScript, sending the provider's API key from a build-time environment variable. Why must this be moved behind a backend proxy before going to production?",
+   "ans_text": "The key is inlined into the shipped bundle at build time and is readable by any visitor"
+  },
+  {
+   "q": "A state government portal wants to embed a third-party web analytics script that sets a persistent cookie to identify returning visitors and report on their journeys. Under the consent framework of the DPDP Act 2023, what does the portal have to get right first?",
+   "ans_text": "Give a clear notice of purpose and obtain free, specific, informed consent before the tracking identifier is set, with a means to withdraw it"
+  }
+ ]
+}

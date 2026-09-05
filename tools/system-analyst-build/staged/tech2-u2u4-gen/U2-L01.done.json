@@ -1,0 +1,100 @@
+[
+ {
+  "id": "GEN-T2U2-001",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "An API endpoint has moved permanently to a new path. Clients POST JSON to the old path, and the server's redirect makes browsers re-issue the call as a GET with no body, so the write silently never happens. Which redirect status code should the server return so that clients repeat the request permanently at the new URL while keeping the POST method and the body?",
+  "opts": {
+   "A": "301 Moved Permanently",
+   "B": "303 See Other",
+   "C": "308 Permanent Redirect",
+   "D": "302 Found"
+  },
+  "ans": "C",
+  "exp": "308 is the only permanent redirect that forbids the user agent from changing the request method or dropping the body. 307 preserves the method too but signals a temporary move; 301 and 302 are the exact codes whose historical handling rewrites POST to GET, and 303 mandates that rewrite by definition.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-002",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A Python application is deployed behind Nginx acting as a reverse proxy on the same host. Its audit log, which records the requester's IP for every state-changing action, now shows 127.0.0.1 for every request. What is the correct fix?",
+  "opts": {
+   "A": "Have Nginx add the originating address in an X-Forwarded-For header and configure the application to read the client IP from that trusted header",
+   "B": "Add `proxy_set_header Host $host;` to the proxied location so the upstream sees the real hostname",
+   "C": "Disable `proxy_buffering` so Nginx streams the request straight through without rewriting it",
+   "D": "Bind the application to 0.0.0.0 instead of 127.0.0.1 so it receives connections directly"
+  },
+  "ans": "A",
+  "exp": "A reverse proxy terminates the client's TCP connection and opens its own to the upstream, so the upstream legitimately sees the proxy's address; the original address survives only if the proxy forwards it in a header such as X-Forwarded-For and the app is told to trust that header from the proxy. Setting the Host header is a real and often necessary directive, but Host carries the requested site name, not the client address.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-003",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "Nginx proxies to an application server with `proxy_read_timeout 60s;`. A report-generation request takes about 90 seconds to complete. The upstream is up and accepts the connection, but the browser gets an error page at the one-minute mark. Which status does Nginx return?",
+  "opts": {
+   "A": "502 Bad Gateway",
+   "B": "504 Gateway Timeout",
+   "C": "503 Service Unavailable",
+   "D": "408 Request Timeout"
+  },
+  "ans": "B",
+  "exp": "When the upstream accepts the connection but sends nothing within proxy_read_timeout, Nginx gives up waiting and returns 504, the code reserved for a gateway that did not get a timely response from the server it depends on. 502 is what you would see if the upstream refused the connection or returned a malformed response, which is not the case here; 408 concerns a client that is slow to send its own request.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-004",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A department wants the bare domain `revenue.mizoram.in` to resolve to a cloud load balancer that is published only as a hostname, not as a fixed IP address. Adding a CNAME record at the zone apex is rejected. Why, and what is the standard remedy?",
+  "opts": {
+   "A": "CNAME records may not carry a TTL below 300 seconds; raise the TTL and the record will be accepted",
+   "B": "The apex may only hold records for subdomains; move the site to `www.revenue.mizoram.in` as the only possible option",
+   "C": "A DNAME record should be placed at the apex, since DNAME is the form of aliasing defined for a zone's own name",
+   "D": "A CNAME cannot coexist with other records at the same name, and the apex must hold SOA and NS records; DNS providers solve this with an ALIAS/ANAME-style record that resolves the target and answers with its A/AAAA addresses"
+  },
+  "ans": "D",
+  "exp": "DNS forbids a CNAME alongside any other record at the same owner name, and every zone apex necessarily carries SOA and NS records, so an apex CNAME is invalid by construction; providers work around it with a synthetic ALIAS/ANAME record (also marketed as CNAME flattening) that follows the target and returns address records instead. DNAME is the tempting wrong answer: it aliases everything *below* a name, not the name itself, so it does not answer a query for the apex.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-005",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "An administrator wants a single free Let's Encrypt certificate covering `*.mizoram.in`, because new subdomains are created for departments without notice. Which challenge type must be used to obtain it?",
+  "opts": {
+   "A": "HTTP-01, by serving a token file under /.well-known/acme-challenge/ on each host",
+   "B": "DNS-01, by publishing the required TXT record under _acme-challenge in the zone",
+   "C": "TLS-ALPN-01, by presenting the validation certificate during the TLS handshake on port 443",
+   "D": "Any of the challenge types; wildcard issuance only requires that the account has already validated the base domain"
+  },
+  "ans": "B",
+  "exp": "Let's Encrypt issues wildcard certificates only against DNS-01 validation, because control of an individual web server proves nothing about the arbitrary subdomains a wildcard would cover, whereas writing a TXT record proves control of the zone itself. HTTP-01 is the everyday default for ordinary hostnames and is the most tempting choice here, but it is explicitly not accepted for wildcard names.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-006",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "HTTP/2 already multiplexes many concurrent streams over one connection, yet on a lossy mobile link a single dropped packet still stalls every stream in flight. Which property of HTTP/3 addresses this?",
+  "opts": {
+   "A": "It runs over QUIC on UDP, where loss recovery is per-stream, so a lost packet delays only the stream whose data it carried",
+   "B": "It compresses headers, so fewer packets are sent and the chance of loss is correspondingly reduced",
+   "C": "It opens a separate TCP connection per stream, restoring the parallelism that HTTP/1.1 clients got from multiple connections",
+   "D": "It makes encryption mandatory, so retransmissions are handled inside the TLS record layer rather than by the transport"
+  },
+  "ans": "A",
+  "exp": "HTTP/2 removed head-of-line blocking at the application layer but still rides a single TCP connection, whose in-order delivery guarantee holds back every multiplexed stream until the missing segment is retransmitted; QUIC keeps streams independent at the transport layer, so only the affected stream waits. Header compression is real in both HTTP/2 (HPACK) and HTTP/3 (QPACK) but does nothing about ordering, and HTTP/3 uses fewer connections, not one per stream.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-007",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A site responds over HTTPS with `Strict-Transport-Security: max-age=31536000; includeSubDomains`. A user who visited the site yesterday now types `http://site.gov.in/login` into the same browser. What does a compliant browser do?",
+  "opts": {
+   "A": "Sends the plaintext HTTP request as typed, then follows the server's 301 redirect to the HTTPS URL",
+   "B": "Sends the request over HTTP but adds an Upgrade-Insecure-Requests header asking the server to switch",
+   "C": "Rewrites the URL to https:// internally and makes no cleartext request to the site at all",
+   "D": "Refuses to load the page and shows a certificate error until the user types the https:// form explicitly"
+  },
+  "ans": "C",
+  "exp": "While a host's HSTS policy is still within max-age, the browser upgrades any http:// URL for that host to https:// before opening a connection, which is precisely what removes the one cleartext round trip an on-path downgrade attack needs. Option A describes the pre-HSTS behaviour that a plain redirect gives you, and it is the tempting answer because the server usually still sends that redirect — the browser just never reaches it.",
+  "conf": "high"
+ }
+]

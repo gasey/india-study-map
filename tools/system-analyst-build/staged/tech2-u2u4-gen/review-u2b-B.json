@@ -1,0 +1,13 @@
+{
+  "reviewer": "u2b-B — independent solve-then-compare pass, blind to the first reviewer",
+  "reviewed": 45,
+  "flags": [
+    {
+      "id": "GEN-T2U2-067",
+      "type": "bad-explanation",
+      "severity": "low",
+      "detail": "The key (D) and the option text are both correct — an inline event handler attribute is inline script and `script-src 'self'` blocks it. But the explanation's parenthetical is wrong on the spec: it says the handler is refused when the policy omits 'unsafe-inline' \"(and supplies no matching nonce or hash)\", which implies a nonce or a bare hash is a route to permitting an inline event handler. It is not. Nonces apply only to elements (script-src-elem / a `nonce` attribute on a `<script>` tag); an `onerror=` attribute has no place to carry a nonce and is governed by script-src-attr, whose only permitting source expressions are 'unsafe-inline' and 'unsafe-hashes' (a hash of the handler body works ONLY when 'unsafe-hashes' is also present). As written the sentence teaches a reader that a nonce-based policy can whitelist an event handler attribute, which would lead them to write a policy that silently does not do what they think. Fix: change the parenthetical to '(and does not supply 'unsafe-hashes' together with a matching hash)', or simply drop it and say the policy omits 'unsafe-inline'. The following clause about nonce-based policies blunting reflected XSS is fine and should stay — it is precisely because nonces cannot be attached to injected inline handlers that they work."
+    }
+  ],
+  "notes": "I solved all 45 blind before reading the keys and agreed with the key on 45/45; no wrong-key, ambiguity, or unstated-assumption findings survived a second adversarial pass over the distractors. Version- and provider-sensitive items are properly pinned in the stems (OWASP 2021 edition, npm semver rules, SQS/Kafka/systemd/nginx named, 'ignoring prompt caching' on the token-growth question), and I spot-verified the specifics that could most easily have been fabricated — session_regenerate_id(true) destroying the old server-side session while preserving $_SESSION, the CERT-In 28-Apr-2022 six-hour reporting window and 180-day log retention, npm ci installing devDependencies by default with --omit=dev as the separate opt-out, and that the Chrome 'Lax+POST' two-minute carve-out applies only to Lax-by-default cookies and so does not rescue distractor A on GEN-T2U2-062. One stylistic tell worth passing to the author rather than flagging: on several questions (049, 068, 069, 072, 078) the key is the longest and most heavily qualified option, which is guessable without knowing the material."
+}

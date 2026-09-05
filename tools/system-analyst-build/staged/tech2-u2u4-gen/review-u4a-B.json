@@ -1,0 +1,28 @@
+{
+  "reviewer": "u4a-B — independent solve-then-compare pass, blind to the first reviewer",
+  "reviewed": 35,
+  "flags": [
+    {
+      "id": "GEN-T2U4-031",
+      "type": "wrong-specific",
+      "severity": "medium",
+      "detail": "The key (A) is right about the mechanism but names the wrong VMware counter. Option A says the oversized VM 'accumulates CPU ready time' and the explanation reinforces it: 'that shows up as high CPU ready (%RDY) while the guest itself looks idle'. In vSphere these are two distinct documented counters: %RDY is time a vCPU was ready to run but no physical CPU was available, whereas %CSTP (co-stop) is specifically the time a vSMP VM's vCPUs were held back by co-scheduling skew constraints — %CSTP is the documented signature of 'too many vCPUs' and the counter VMware right-sizing guidance tells you to watch (target <3%). As written the question teaches the user to diagnose a co-scheduling problem with the counter that does not measure it. Secondary point: option A's phrasing 'waits until enough physical cores are free' describes strict co-scheduling (pre-ESX 3.x); under the relaxed co-scheduling the explanation itself invokes, only the skewed vCPUs must be co-started, and idle/halted vCPUs do not accrue skew at all — so the stem's own detail that 12 of the 16 vCPUs are idle actually undercuts the mechanism as stated. Fix: change 'CPU ready time' to 'co-stop time (%CSTP)' in option A and in the explanation, and reword 'waits until enough physical cores are free' to 'must wait for its skewed siblings to be co-started'.",
+      "suggested": "Keep key A; replace '%RDY / CPU ready time' with '%CSTP / co-stop time' in both the option and the explanation."
+    },
+    {
+      "id": "GEN-T2U4-012",
+      "type": "stale",
+      "severity": "low",
+      "detail": "Key A is still the best of the four (B, C and D are all plainly false), but the option and explanation state as an absolute something that has not been universally true of FaaS since 2019. Option A: 'nothing is charged while no requests are being served, so there is no provisioned instance count at all'; explanation: 'FaaS removes the provisioned instance entirely'. AWS Lambda Provisioned Concurrency (GA Dec 2019) keeps a configured number of execution environments initialised and bills for them continuously whether or not a request arrives; Azure Functions Premium/Flex Consumption 'always ready instances' likewise bill for provisioned memory while idle; GCP min-instances behaves the same way. So on all three major platforms a FaaS deployment can have exactly a provisioned instance count and an idle charge. Fix: qualify the option to the default consumption model ('in the default pay-per-use model, capacity is allocated per invocation and no compute is charged while no requests are served'), and add a sentence to the explanation noting provisioned/always-ready concurrency as an opt-in exception that trades the idle-cost saving for cold-start elimination.",
+      "suggested": "Keep key A; qualify option A with 'in the default consumption/pay-per-use model' and note provisioned/always-ready concurrency as an opt-in exception in the explanation."
+    },
+    {
+      "id": "GEN-T2U4-006",
+      "type": "duplicate",
+      "severity": "low",
+      "detail": "Same load-bearing fact as GEN-T2U4-014, and the correct options are near-verbatim the same sentence. 006-C: 'provisioned for exclusive use by a single organisation, but it may be owned, managed and operated by a third party and may exist off premises'. 014-A: 'the model is defined by provisioning for exclusive use by a single organisation, and the infrastructure may be owned, managed and operated by a third party and sit off premises'. Both explanations then make the identical point that location and ownership are not part of the definition. The two sit in different sub-topic buckets ('NIST cloud architecture' vs 'Deployment and service models'), which is presumably how it slipped through, but to a user revising these are one card printed twice. 014 is the stronger question (it applies the rule to a scenario and its distractor B is a genuinely tempting trap), so keep 014 and repoint 006 at a different part of SP 800-145 that the batch does not otherwise cover — e.g. the community cloud definition (shared by organisations with common concerns such as mission, security requirements, policy and compliance considerations), which 006's own option D gestures at but never actually tests.",
+      "suggested": "Keep GEN-T2U4-014 as is; rewrite GEN-T2U4-006 to test the community cloud deployment model instead."
+    }
+  ],
+  "notes": "I solved all 35 blind before reading the keys and agreed with the key on 35/35, including the two computational items (HPA ceil(4 x 100/50) = 8; R+W = 5 does not satisfy R+W > N = 5). The virtualisation half (027-035) is the strongest run in the batch — Popek and Goldberg, VT-x root/non-root, EPT two-dimensional walk, ballooning vs page sharing vs host swap, SR-IOV vs plain passthrough, qcow2 backing files, UNMAP/TRIM and pre-copy convergence are all stated accurately and the distractor-refutations are correct. The three flags are all secondary: one wrong counter name in an otherwise correct vSphere explanation, one absolute serverless claim that current provisioned-concurrency offerings contradict, and one genuine duplicate of the NIST private-cloud rule. No key needs to change."
+}

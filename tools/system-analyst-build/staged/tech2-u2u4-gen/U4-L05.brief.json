@@ -1,0 +1,23 @@
+{
+ "slug": "U4-L05",
+ "unit": "4",
+ "unit_title": "Cloud Computing",
+ "marks": 40,
+ "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+ "need": 9,
+ "verbatim_syllabus": "Cloud Architecture and Distributed Systems: Evolution of Distributed, Edge and Cloud Computing; NIST Cloud Architecture; Cloud Deployment and Service Models (IaaS, PaaS, SaaS, Serverless); Cloud-native Architecture, Microservices, Service Mesh, Elasticity, High Availability, Load Balancing, and Sustainable Cloud Computing. Virtualization and Cloud Infrastructure: Virtual Machines, Hypervisors, Full and Para Virtualization; CPU, Storage, and Network Virtualization; Containers, Docker Architecture, Kubernetes orchestration, Resource Management, Infrastructure as Code using Terraform and Ansible, CI/CD Pipelines, and DevOps Practices. Cloud Storage, Compute, Networking, Managed Databases, Serverless Computing, Monitoring and Observability, OpenStack, Hybrid and Multi-cloud Management, and AI/ML Infrastructure. Cloud Security and Governance: Shared Responsibility Model, IAM, MFA, Zero Trust Security, Encryption, Backup and Disaster Recovery, Container and Kubernetes Security, DevSecOps, API Security, Virtualization Attacks, FinOps, and Service Level Agreements (SLAs).",
+ "existing_stems": [
+  {
+   "q": "A container in a Kubernetes Pod declares a memory request of 256Mi and a memory limit of 512Mi. Which statement about how those two values are used is correct?",
+   "ans_text": "The scheduler places the Pod against the 256Mi request, and the container is terminated if its usage exceeds 512Mi"
+  },
+  {
+   "q": "Terraform and Ansible are both used to manage infrastructure as code. Which description of the usual division of labour between them is accurate?",
+   "ans_text": "Terraform declares desired infrastructure and reconciles it against recorded state to create, change or destroy resources, while Ansible is primarily agentless configuration management that runs tasks over SSH"
+  },
+  {
+   "q": "Linux containers rest on two distinct kernel mechanisms. Which one caps how much CPU time and memory a container may consume, as opposed to controlling what it can see?",
+   "ans_text": "Control groups (cgroups)"
+  }
+ ]
+}

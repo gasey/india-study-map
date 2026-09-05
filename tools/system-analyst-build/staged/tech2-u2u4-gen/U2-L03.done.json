@@ -1,0 +1,129 @@
+[
+ {
+  "id": "GEN-T2U2-017",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A flex row contains an item holding a long unbroken log line. The item refuses to shrink and pushes the row wider than its container, even though flex-shrink is at its default of 1. Which declaration on that flex item resolves the overflow?",
+  "opts": {
+   "A": "flex-shrink: 2",
+   "B": "min-width: 0",
+   "C": "max-width: 100%",
+   "D": "flex-basis: 0"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A flex item's initial min-width is auto, which floors its used width at its min-content size, so shrinking stops there; min-width: 0 removes that floor. flex-shrink: 2 changes nothing because the item is already being asked to shrink and is blocked by the automatic minimum, and max-width cannot help because the minimum size wins over the maximum when the two conflict."
+ },
+ {
+  "id": "GEN-T2U2-018",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "In a display: flex navigation row, the final link must sit hard against the right edge while the remaining links stay grouped at the left. No spacer element may be added and justify-content must stay at its default. Which declaration on the last item achieves this?",
+  "opts": {
+   "A": "align-self: flex-end",
+   "B": "justify-self: end",
+   "C": "margin-left: auto",
+   "D": "float: right"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "An auto margin on a flex item absorbs all free space on that side before justify-content is applied, so margin-left: auto pushes the item to the far end of the main axis. align-self only moves the item on the cross axis, justify-self is ignored in flex layout entirely, and float has no effect because a flex container ignores float and clear on its items: they neither float nor are taken out of flow. Blockification is a separate rule — it changes a flex item's display value — and it is not what disables the float.",
+  "reviewFix": "Explanation fixed. The key (margin-left: auto) and the other rebuttals were correct, but the float rebuttal gave a false mechanism: 'float has no effect on a flex item because floating is blockified away during flex item creation'. css-flexbox-1 treats these as two separate rules — a flex item's display value is blockified, and separately float and clear do not create floating or clearance for flex items and do not take them out of flow. Float is not blockified away; it is ignored while remaining a specified value. The wording also inverted the normal-flow rule, where float is what causes blockification. Key unchanged."
+ },
+ {
+  "id": "GEN-T2U2-019",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A CSS Grid gallery mixes single-column items with items that span two columns, and is declared grid-auto-flow: row dense. Compared with plain grid-auto-flow: row, what does the dense keyword change?",
+  "opts": {
+   "A": "It reduces the gap between tracks so items pack together with no leftover space",
+   "B": "It forces all auto-placed items onto one row, creating implicit columns as needed",
+   "C": "It makes every implicitly created row take the height of the tallest item in the grid",
+   "D": "It lets the placement algorithm go back and fill earlier holes with later items that fit, so visual order can diverge from DOM order"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Sparse (default) placement never moves the cursor backwards, so a wide item that does not fit leaves a hole; dense placement revisits those holes with any later item small enough to fit, which is why it can reorder content visually and is an accessibility concern for keyboard and screen-reader order. Gap size is controlled by the gap property and is untouched by grid-auto-flow."
+ },
+ {
+  "id": "GEN-T2U2-020",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A hero image must be a wide landscape crop on desktop and a genuinely different, tighter portrait crop on phones — two separate files, not two sizes of one file. Which approach lets the browser fetch only the crop it will actually display?",
+  "opts": {
+   "A": "A single <img> whose srcset lists both files with w descriptors and a matching sizes attribute",
+   "B": "A <picture> element with a <source media=\"(max-width: 600px)\"> pointing at the portrait crop and an <img> fallback carrying the landscape crop",
+   "C": "A single <img> whose srcset lists both files with x descriptors for 1x and 2x",
+   "D": "Two <img> elements, with the unwanted one hidden via display: none inside a media query"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "This is art direction rather than resolution switching: <picture> evaluates each <source> media condition in order and loads only the first match, so the crop is chosen deterministically by viewport. The srcset options are wrong because w and x descriptors are hints for resolution switching and the browser is free to pick either candidate regardless of viewport shape, and display: none does not reliably prevent an <img> from being fetched."
+ },
+ {
+  "id": "GEN-T2U2-021",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A design system wraps its base selectors in :where(...) so that page-level CSS can override them without specificity fights. Compared with :is(...), what does :where() do differently?",
+  "opts": {
+   "A": ":where() always contributes zero specificity, while :is() takes the specificity of its most specific argument",
+   "B": ":where() matches only the first selector in its list, while :is() matches any of them",
+   "C": ":where() pierces shadow DOM boundaries, while :is() is confined to the current tree",
+   "D": ":where() may appear only at the start of a compound selector, while :is() may appear anywhere in it"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The two pseudo-classes match identically; the sole difference is specificity, with :where() contributing nothing and :is() adopting the weight of its heaviest argument. That is exactly why a reset written as :where(.card) h2 is overridable by a later single-class rule, whereas :is(.card) h2 would still carry class-level weight."
+ },
+ {
+  "id": "GEN-T2U2-022",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A card component appears both in a wide main column and in a narrow sidebar on the same page at the same viewport width, and must switch to its stacked layout only when it is in the sidebar. Which CSS mechanism expresses this?",
+  "opts": {
+   "A": "@media (max-width: 400px), because media query lengths resolve against the nearest block container",
+   "B": "@supports (inline-size: 400px), which tests the element's own box against the given size",
+   "C": "@container after declaring container-type: inline-size on the card's wrapper, because media queries only ever resolve against the viewport",
+   "D": "@media (min-width: 400px) placed in the sidebar's own stylesheet, since media queries are scoped to the stylesheet that declares them"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Media queries have exactly one subject, the viewport (or print surface), so they cannot distinguish two instances of a component that share a viewport; container queries evaluate against a named ancestor that has opted in via container-type, making the component responsive to its own available inline size. @supports is a feature query that tests declaration support, not element dimensions."
+ },
+ {
+  "id": "GEN-T2U2-023",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A section heading is styled position: sticky; top: 0 and the browser supports sticky positioning, yet the heading scrolls away with the content instead of pinning. What is the most likely cause?",
+  "opts": {
+   "A": "An ancestor of the heading has overflow set to hidden, auto or scroll, so the heading sticks within that ancestor's scrollport rather than within the page",
+   "B": "position: sticky requires an explicit height on the sticky element itself",
+   "C": "position: sticky requires the parent to be position: relative to establish a containing block",
+   "D": "top: 0 is ignored on a sticky element unless z-index is set to auto"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A sticky element is positioned relative to its nearest scrolling ancestor, and any ancestor with a non-visible overflow value becomes that scroll container; if that container does not itself scroll, the element appears never to stick even though the CSS is valid. Option C is the familiar rule for position: absolute and does not apply here — sticky needs no positioned ancestor."
+ },
+ {
+  "id": "GEN-T2U2-024",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A full-screen hero uses height: 100vh. On mobile browsers with a retracting URL bar the hero is taller than the visible area while the bar is shown. Which unit sizes the hero to the viewport as it currently is, growing and shrinking as the browser chrome retracts and returns?",
+  "opts": {
+   "A": "100svh",
+   "B": "100lvh",
+   "C": "100vmin",
+   "D": "100dvh"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The dynamic viewport unit dvh tracks the viewport as browser chrome expands and collapses, which is precisely the behaviour asked for. svh and lvh are the tempting near-misses: both are stable values, svh assuming the chrome is always shown and lvh assuming it is always retracted, and lvh is what 100vh effectively resolves to on those browsers in the first place."
+ },
+ {
+  "id": "GEN-T2U2-025",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A heading is declared font-size: clamp(1rem, 4vw, 2rem). The root font size is the default 16px and the viewport width resolves to 1200px. What computed font size results?",
+  "opts": {
+   "A": "16px",
+   "B": "24px",
+   "C": "32px",
+   "D": "48px"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The preferred value 4vw evaluates to 48px at a 1200px viewport, which exceeds the maximum, so clamp() returns the maximum of 2rem = 32px. 48px is the trap for reading the middle argument as the result without applying the upper bound; note also that vw is a fraction of viewport width and is unaffected by the root font size."
+ }
+]

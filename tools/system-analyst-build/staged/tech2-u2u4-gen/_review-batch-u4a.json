@@ -1,0 +1,492 @@
+[
+ {
+  "id": "GEN-T2U4-001",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A cloud provider's console shows a customer, in near real time, the GB-hours of storage and vCPU-seconds each project has consumed, and bills strictly on those counters. Which of the five essential characteristics in the NIST definition of cloud computing does this most directly illustrate?",
+  "opts": {
+   "A": "Rapid elasticity",
+   "B": "Measured service",
+   "C": "Resource pooling",
+   "D": "On-demand self-service"
+  },
+  "ans": "B",
+  "exp": "Measured service is NIST's term for metering resource use at a level of abstraction appropriate to the service, with usage monitored, controlled and reported transparently to both provider and consumer. Rapid elasticity is about capacity following demand, not about the meter that records it.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-002",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A firm sits between a government department and three cloud providers: it combines their services into one composite offering, adds single sign-on and a consolidated bill, and negotiates terms on the department's behalf. In the NIST cloud computing reference architecture, which actor is this firm?",
+  "opts": {
+   "A": "Cloud auditor",
+   "B": "Cloud carrier",
+   "C": "Cloud broker",
+   "D": "Cloud provider"
+  },
+  "ans": "C",
+  "exp": "The cloud broker manages the use, performance and delivery of cloud services and negotiates relationships between providers and consumers, with service intermediation, aggregation and arbitrage as its named functions. The cloud auditor only conducts independent assessment of services, operations, performance and security, and never resells or aggregates them.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-003",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A globally replicated profile store keeps accepting reads and writes on both sides of a network partition and merges the diverged versions after the partition heals. Users occasionally read a value older than one they just wrote. In CAP terms, what does this describe?",
+  "opts": {
+   "A": "Availability and partition tolerance are chosen, so a read is not guaranteed to reflect the most recent acknowledged write",
+   "B": "Consistency and partition tolerance are chosen, so the stale reads must be a client-side caching defect rather than a consequence of the design",
+   "C": "Consistency and availability are chosen, and because the replicas sit inside one provider's network a partition cannot arise",
+   "D": "All three properties are achieved, because eventual consistency is strong consistency with a bounded delay"
+  },
+  "ans": "A",
+  "exp": "A partition forces a choice, and staying writable on both sides is the AP choice: until the replicas converge, a read may legitimately miss the newest acknowledged write. Option D is the standard misreading — eventual consistency promises convergence eventually, with no bound and no guarantee that any particular read is current.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-004",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A plant streams video from 200 cameras to a cloud region for defect detection. Alerts are needed within 30 seconds, a deadline the existing cloud round trip already meets comfortably. The team moves the detection model onto an on-site edge server that uploads only short clips of detected defects. What does this change primarily achieve?",
+  "opts": {
+   "A": "It removes the plant's need for wide-area connectivity, since all processing is now local",
+   "B": "It eliminates round-trip latency that would otherwise cause the 30-second deadline to be missed",
+   "C": "It makes each camera's detection results strongly consistent with the central database",
+   "D": "It cuts the sustained upstream bandwidth the site must carry, because only event clips rather than continuous streams cross the wide-area link"
+  },
+  "ans": "D",
+  "exp": "Filtering at the edge changes what crosses the wide-area link from 200 continuous streams to occasional clips, which is a bandwidth and transport-cost reduction rather than a latency one. Option B is ruled out by the stem, which states the cloud round trip already meets the 30-second deadline; option A is wrong because the site still uploads clips and must be managed remotely.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-005",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A replicated key-value store keeps N = 5 replicas. A write is acknowledged once W = 3 replicas confirm it, and a read consults R = 2 replicas. Under the usual quorum rule, is every read guaranteed to observe the most recently acknowledged write?",
+  "opts": {
+   "A": "Yes — W = 3 is a majority of the replicas, and a majority write by itself guarantees any later read observes it",
+   "B": "No — R + W is not greater than N, so a read set can consist entirely of the two replicas that did not take the write",
+   "C": "Yes — the overlap condition is R + W ≥ N, and 2 + 3 satisfies it",
+   "D": "No — read sets and write sets can overlap only when R = N, so any smaller R makes stale reads certain"
+  },
+  "ans": "B",
+  "exp": "Quorum overlap requires R + W > N; here 2 + 3 = 5 exactly equals N, so the two replicas a reader consults can be precisely the two that missed the write. Option C is the off-by-one that makes this configuration look safe, stating the condition as ≥ instead of >.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-006",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "Under the NIST definition of cloud computing, which statement about the private cloud deployment model is correct?",
+  "opts": {
+   "A": "The infrastructure must be located on the consuming organisation's own premises",
+   "B": "The infrastructure must be owned and operated by the consuming organisation's own staff",
+   "C": "The infrastructure is provisioned for exclusive use by a single organisation, but it may be owned, managed and operated by a third party and may exist off premises",
+   "D": "It differs from a community cloud only in the number of virtual machines provisioned; both serve a single organisation"
+  },
+  "ans": "C",
+  "exp": "NIST defines a private cloud by exclusivity of use — a single organisation comprising multiple consumers — and expressly allows it to be owned, managed and operated by that organisation, a third party, or a combination, on or off premises. The on-premises assumption in option A is the most common misreading: physical location is not part of the definition at all.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-007",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A service invokes a peer over the network and the call times out. Compared with a function call failing inside a single process, what is the fundamental new difficulty this introduces?",
+  "opts": {
+   "A": "The caller cannot tell whether the peer never received the request, is merely slow, or executed it and lost the reply, so the outcome of the operation is unknown",
+   "B": "The failure is handled entirely by the transport layer, so the application code needs no new logic",
+   "C": "The peer's failure necessarily leaves the whole system unavailable, unlike a local exception which is contained",
+   "D": "A timeout in a distributed system always means the peer crashed, so the caller can safely assume the request did not run"
+  },
+  "ans": "A",
+  "exp": "A timeout carries no information about whether the remote side executed the request, which is why distributed designs need idempotency keys, retries and reconciliation rather than plain exception handling. Option D states the opposite and is the assumption that produces duplicate side effects: a timed-out request may well have committed on the peer.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-008",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A datacentre team calls its on-premises cluster 'scalable' because more nodes can be racked once a capacity request is approved. Judged against NIST's essential characteristic of rapid elasticity, what is still missing?",
+  "opts": {
+   "A": "Provisioning must be fully automatic, since the definition requires automation in every case",
+   "B": "The provider must actually hold unlimited physical capacity behind the service",
+   "C": "Capacity must be added by moving to larger machines rather than by adding more of them",
+   "D": "Capacity must be both acquired and released rapidly and in proportion to current demand, without waiting on a procurement or approval cycle"
+  },
+  "ans": "D",
+  "exp": "NIST's rapid elasticity requires capabilities to be provisioned and released so as to scale rapidly outward and inward commensurate with demand — release matters as much as acquisition, and an approval cycle defeats 'rapid'. Option A overreads the definition, which says elasticity is automatic only in some cases, and option B overreads it in the other direction: capacity need only appear unlimited to the consumer.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-009",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A department runs an internal private cloud and separately subscribes to a public-cloud SaaS email service. The two share no data, no tooling and no identity integration. Which requirement of the NIST SP 800-145 hybrid cloud definition does this arrangement fail to meet?",
+  "opts": {
+   "A": "Both constituent infrastructures must be operated by the same cloud provider",
+   "B": "The same workload must be running simultaneously on the private and the public infrastructure",
+   "C": "The constituent infrastructures must remain distinct entities yet be bound together by standardised or proprietary technology that enables data and application portability",
+   "D": "At least one of the constituent infrastructures must be a community cloud"
+  },
+  "ans": "C",
+  "exp": "NIST defines hybrid cloud as a composition of two or more distinct cloud infrastructures that remain unique entities but are bound together by technology enabling data and application portability, so merely holding two unrelated subscriptions is not a composition. B is the tempting one because cloud bursting is NIST's own illustration of such binding, but bursting is one permitted use of the binding, not a requirement that both infrastructures run the workload at once.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-010",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "Under the NIST SP 800-145 definition of Infrastructure as a Service, which of the following is the consumer said to control?",
+  "opts": {
+   "A": "The hypervisor's scheduling and memory-overcommit policy on the physical host",
+   "B": "Operating systems, storage and deployed applications, together with limited control of select networking components such as host firewalls",
+   "C": "The provider's underlying storage fabric and physical network topology",
+   "D": "The physical rack and data-hall placement of the servers running its instances"
+  },
+  "ans": "B",
+  "exp": "The IaaS definition states that the consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage and deployed applications, and possibly limited control of select networking components such as host firewalls. A is the near-miss: IaaS hands the consumer virtual machines, but the hypervisor that schedules them stays on the provider's side of the line.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-011",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A critical vulnerability is disclosed in the guest operating system's TLS library. The same application is deployed three ways: (i) on an IaaS virtual machine the team launched from its own image, (ii) on a PaaS platform to which the team uploads only a deployable artefact, and (iii) as a function on a serverless FaaS platform. In which deployments must the customer itself apply the operating-system patch?",
+  "opts": {
+   "A": "(i) only",
+   "B": "(i) and (ii) only",
+   "C": "(ii) and (iii) only",
+   "D": "(i) and (iii) only"
+  },
+  "ans": "A",
+  "exp": "Patching the guest operating system falls to the customer only where the customer supplies and boots the OS image, which is exactly the boundary that defines IaaS; PaaS and FaaS platforms both supply and maintain the operating system underneath the customer's code. B tempts because a PaaS consumer still owns and uploads the artefact, but that artefact is the application, not the operating system.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-012",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "Which characteristic most fundamentally distinguishes a Function-as-a-Service deployment from a PaaS deployment of the same application?",
+  "opts": {
+   "A": "Capacity is allocated per invocation and nothing is charged while no requests are being served, so there is no provisioned instance count at all",
+   "B": "Only PaaS lets the consumer choose the programming language and runtime version",
+   "C": "Only FaaS provides automatic scaling; PaaS deployments must be resized by hand",
+   "D": "Only PaaS runs on virtualised infrastructure, whereas FaaS executes directly on bare metal"
+  },
+  "ans": "A",
+  "exp": "FaaS removes the provisioned instance entirely: the platform creates execution capacity per event, scales to zero when idle, and bills on invocations and execution time rather than on running instances. C is the popular near-miss, since mainstream PaaS offerings have shipped autoscaling for years, so automatic scaling by itself does not separate the two models.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-013",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A file-upload feature writes user files to a local directory and later serves them back from there. It works on an IaaS virtual machine. Redeployed unchanged onto a PaaS platform running several application instances behind the platform's router, some uploads return 404 on a later request and all of them vanish after a redeploy. What explains this?",
+  "opts": {
+   "A": "The platform mounts the application's filesystem read-only, so the writes are silently discarded",
+   "B": "The platform's router strips multipart request bodies unless the application declares a file-upload route",
+   "C": "The platform packages the application immutably at build time, so any runtime write takes effect only after a fresh deployment",
+   "D": "Each instance has its own ephemeral local filesystem and requests are spread across instances, so a file written on one instance is neither visible to the others nor durable across redeploys"
+  },
+  "ans": "D",
+  "exp": "The PaaS model treats application instances as disposable and interchangeable, so local disk is scratch space tied to one instance's lifetime, which is why uploads belong in an object store or an attached managed volume. A is the tempting alternative, but the writes plainly succeed - the file is readable immediately afterwards from the instance that stored it, which a read-only mount would not allow.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-014",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A state department contracts a vendor to build, own and operate a cloud environment that only that department may use, hosted entirely in the vendor's own data centre. Under NIST SP 800-145, which deployment model is this?",
+  "opts": {
+   "A": "Private cloud, because the model is defined by provisioning for exclusive use by a single organisation, and the infrastructure may be owned, managed and operated by a third party and sit off premises",
+   "B": "Public cloud, because the infrastructure is owned by a commercial provider and located outside the department's premises",
+   "C": "Hybrid cloud, because operational responsibility is split between the department and the vendor",
+   "D": "Community cloud, because a government body and a commercial vendor both participate in it"
+  },
+  "ans": "A",
+  "exp": "NIST defines private cloud by exclusivity of use rather than by ownership or location, and explicitly permits the infrastructure to be owned, managed and operated by a third party and to exist off premises. B is the standard trap: vendor-owned and off-premises does describe most public clouds, but public cloud is defined by provisioning for open use by the general public, which this environment is not.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-015",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A function on a serverless FaaS platform reads messages from a queue and opens a connection to a managed relational database at the start of each invocation. During a traffic spike the platform runs roughly 800 concurrent executions and the function starts failing. What is the most likely cause?",
+  "opts": {
+   "A": "The queue stops delivering messages, because a FaaS function can consume a queue only one message at a time",
+   "B": "The database refuses new connections once its configured maximum is reached, because each concurrent execution environment holds a connection of its own",
+   "C": "Cold starts serialise the invocations, so the queue's visibility timeout expires before any handler can finish",
+   "D": "The platform transparently pools connections across execution environments, so the surplus connections are queued until they time out"
+  },
+  "ans": "B",
+  "exp": "FaaS scales out by creating many independent execution environments, so consumer concurrency translates almost one-to-one into database connections and quickly exhausts a relational database's connection limit; the usual remedy is a connection pooler or proxy between the function and the database. D is tempting but backwards - no mainstream FaaS platform pools application-level database connections on the consumer's behalf.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-016",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A customer of a multi-tenant SaaS application asks the vendor to keep its tenant on the previous release for six months while it revalidates internal processes. The vendor replies that this is not possible. Which property of the SaaS model explains that answer?",
+  "opts": {
+   "A": "Under SaaS it is the consumer, not the provider, who is responsible for applying application updates",
+   "B": "SaaS is defined by a dedicated application instance per tenant, and the vendor will not fund a second instance",
+   "C": "All tenants are served by one running version of the provider's application with tenant data separated logically, so there is no per-tenant build to hold back",
+   "D": "The provider's SLA obliges it to run only the most recent release in order to meet its availability commitment"
+  },
+  "ans": "C",
+  "exp": "In SaaS the consumer uses the provider's application running on the provider's infrastructure and controls only limited user-specific configuration settings; a single shared codebase serving every tenant is what makes that model work, and it leaves no per-tenant version to freeze. B inverts the model, since a dedicated instance per tenant describes single-tenant hosting, which is precisely what multi-tenancy is not.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-017",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A serverless function returns quickly, but its audit records are written for some invocations and missing for others:\n\n    exports.handler = async (event) => {\n      writeAuditRecord(event);      // returns a promise; not awaited\n      return { statusCode: 200 };\n    };\n\nWhich property of the FaaS execution model explains the missing records?",
+  "opts": {
+   "A": "Concurrent invocations share a single event loop, so pending promises are cancelled whenever any handler returns",
+   "B": "Returning a 2xx status causes the platform to discard everything the invocation did after the response was built",
+   "C": "FaaS runtimes forbid outbound network calls from a handler unless the call is awaited",
+   "D": "Once the handler returns, the platform may freeze or reclaim the execution environment, so work that was not awaited is not guaranteed to run to completion"
+  },
+  "ans": "D",
+  "exp": "A FaaS platform treats the handler's return as the end of the invocation and may freeze the execution environment immediately, leaving the un-awaited promise suspended - sometimes finished much later by a subsequent invocation that reuses the same environment, which is why the records appear intermittently rather than never. B describes a similar outcome but blames the status code; the freeze happens on return whatever the handler returned.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-018",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A data centre reports a Power Usage Effectiveness (PUE) of 1.5. The operations team then consolidates workloads onto fewer physical servers and powers down the freed machines. The facility's measured total electricity draw falls, yet the reported PUE rises to 1.8. What best explains this?",
+  "opts": {
+   "A": "PUE is the ratio of total facility energy to IT-equipment energy, and much of the non-IT overhead (cooling plant, UPS losses, lighting) does not scale down with IT load, so shrinking the denominator raises the ratio even though total energy fell",
+   "B": "Servers that are powered down but still racked are reclassified from IT load into facility load, so they move into the numerator only",
+   "C": "Consolidation raises per-rack power density, and the additional cooling this demands always outweighs the energy saved by switching servers off",
+   "D": "PUE excludes virtualised servers from its IT-equipment term, so moving workloads onto hypervisors artificially shrinks the denominator"
+  },
+  "ans": "A",
+  "exp": "PUE is total facility energy divided by IT energy, so it is an efficiency ratio and not a measure of absolute consumption; fixed overhead makes it worsen whenever IT load drops. Option C is tempting but is contradicted by the stem, which states total draw actually fell — this is why PUE alone is a poor sustainability target and is paired with absolute energy and carbon metrics.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-019",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A sustainability team wants to account for the greenhouse-gas emissions produced by mining, manufacturing and shipping the servers it buys, as distinct from the emissions of the electricity those servers draw while running. It notes that stretching the hardware refresh cycle from three years to five reduces this quantity per year of service. Which term names it?",
+  "opts": {
+   "A": "Operational carbon",
+   "B": "Embodied carbon",
+   "C": "Carbon Usage Effectiveness (CUE)",
+   "D": "Power Usage Effectiveness (PUE)"
+  },
+  "ans": "B",
+  "exp": "Embodied (or embedded) carbon is the emissions locked into a device before it is ever switched on, which is why longer refresh cycles amortise it over more service years. Carbon Usage Effectiveness is the closest trap: it is total CO2e from facility energy divided by IT energy, so it measures operational emissions, not manufacturing ones.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-020",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A Kubernetes HorizontalPodAutoscaler (autoscaling/v2) is configured with minReplicas: 2, maxReplicas: 10, and a single Resource metric on cpu with target type Utilization and averageUtilization: 50. The Deployment is currently running 4 pods, and each pod is averaging 100% of its requested CPU. Ignoring stabilisation windows and scaling policies, what replica count does the HPA compute?",
+  "opts": {
+   "A": "5",
+   "B": "6",
+   "C": "8",
+   "D": "10"
+  },
+  "ans": "C",
+  "exp": "The HPA applies desiredReplicas = ceil(currentReplicas x currentMetricValue / desiredMetricValue), which here is ceil(4 x 100 / 50) = 8, comfortably under maxReplicas. Option D assumes a breach of the target jumps straight to the maximum, and option A assumes the controller adds one replica per reconcile loop; neither reflects how the ratio-based algorithm works.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-021",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A pool of identically sized backend instances serves a mix of sub-10 ms API calls and occasional multi-second report generations. Under plain round-robin distribution, a few instances are saturated with long requests while others sit nearly idle. Assuming the load balancer can observe how many requests it currently has in flight to each backend, which algorithm most directly corrects this?",
+  "opts": {
+   "A": "Weighted round robin, with weights assigned in proportion to each instance's size",
+   "B": "Source-IP hashing, so each client is pinned to one backend",
+   "C": "Uniformly random backend selection on every request",
+   "D": "Least outstanding requests (least connections), sending each new request to the backend with the fewest in-flight requests"
+  },
+  "ans": "D",
+  "exp": "Least-outstanding-requests is the standard remedy for highly variable request cost because it reacts to live occupancy rather than to position in a rotation. Weighted round robin is the tempting alternative but its weights are static and reflect capacity, not the current backlog, so an instance stuck on a long report keeps receiving its share.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-022",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A five-node consensus-based datastore that commits writes on a majority quorum is deployed across two availability zones: three nodes in AZ-a and two in AZ-b. AZ-a becomes unreachable. What happens to the cluster?",
+  "opts": {
+   "A": "The two surviving nodes cannot form a majority of the five configured members, so the cluster loses quorum and refuses writes until AZ-a returns or the membership is changed by an operator",
+   "B": "The two surviving nodes elect a leader among themselves and continue accepting writes at reduced throughput",
+   "C": "Quorum is automatically recalculated against the reachable membership, so two out of two becomes the new majority and service continues",
+   "D": "Writes continue to be accepted and are reconciled by last-write-wins once AZ-a rejoins"
+  },
+  "ans": "A",
+  "exp": "A majority quorum is computed against the configured membership of five, so three nodes are required and the surviving two are stranded — which is precisely why quorum systems are spread across three availability zones rather than two. Option C is the most seductive, but automatic shrinking of the quorum on partition is exactly what would allow both sides to accept conflicting writes, so consensus protocols require an explicit operator-driven membership change instead.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-023",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "During every rolling deployment behind a cloud load balancer, a small number of users see connections reset mid-request, even though replacement instances pass their health checks before the old instances are taken out of service. Which load-balancer setting addresses this most directly?",
+  "opts": {
+   "A": "Lengthening the health-check interval so instances are probed less aggressively",
+   "B": "Connection draining (deregistration delay), which stops new requests to a departing instance but lets in-flight requests finish within a grace period",
+   "C": "Enabling sticky sessions so each client stays bound to one instance",
+   "D": "Raising the load balancer's idle timeout for keep-alive connections"
+  },
+  "ans": "B",
+  "exp": "Without a deregistration delay, an instance is removed from rotation and terminated while requests already dispatched to it are still executing, which the client observes as a reset. Sticky sessions are the tempting choice because they also concern client-to-instance binding, but they make the problem worse — a pinned client is guaranteed to be affected when its instance goes away.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-024",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "Service A calls service B synchronously. B's p99 latency rises from 40 ms to 20 seconds. A's request-handling threads all end up blocked waiting on B, and A starts failing requests on endpoints that never touch B at all. Which resilience mechanism is specifically designed to stop A from continuing to issue calls to a dependency that is already failing?",
+  "opts": {
+   "A": "Automatic retries with exponential backoff and jitter on every call to B",
+   "B": "Horizontally autoscaling service A on average CPU utilisation",
+   "C": "A circuit breaker that opens after a failure or slow-call threshold is crossed and fails calls to B immediately while open",
+   "D": "Increasing A's client-side timeout for B so that slow responses are not abandoned"
+  },
+  "ans": "C",
+  "exp": "A circuit breaker trips on observed failure or slow-call rate and then fails fast, freeing A's threads instead of parking them on a dependency that cannot answer. Retries with backoff and jitter are the trap: they are good practice for transient errors but here they multiply load against an already-overloaded B and hold A's threads even longer, and autoscaling A on CPU will not even fire, since threads blocked on I/O consume almost no CPU.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-025",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A cluster runs an API gateway at its edge and a service mesh internally. Which responsibility properly belongs to the API gateway rather than to the service mesh?",
+  "opts": {
+   "A": "Terminating mutual TLS on a call from one internal service to another",
+   "B": "Retrying an idempotent internal call against a second replica after the first returns 503",
+   "C": "Propagating trace-context headers across internal service-to-service hops",
+   "D": "Authenticating external third-party consumers by API key and enforcing a per-consumer request quota on traffic entering the cluster from the public internet"
+  },
+  "ans": "D",
+  "exp": "The gateway owns north-south traffic — the boundary where untrusted external clients are identified, monetised and rate-limited per consumer — while the mesh owns east-west traffic between services that are already inside the trust boundary. The other three options all describe internal hops, which are exactly the sidecar's job in a mesh.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-026",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A cloud provider offers carbon-aware scheduling for deferrable batch workloads such as nightly model retraining. What does such a scheduler actually exploit in order to reduce emissions?",
+  "opts": {
+   "A": "It reduces the total kilowatt-hours the job consumes by compressing the same work into a shorter wall-clock window",
+   "B": "The carbon intensity of grid electricity (grams of CO2e per kWh) varies by hour and by region, so a job with a flexible deadline can be run at a time, or in a region, where the electricity is cleaner",
+   "C": "It retires renewable-energy certificates after the run so that the job's reported emissions net out to zero",
+   "D": "It restricts scheduling to providers that have published a net-zero commitment for the calendar year"
+  },
+  "ans": "B",
+  "exp": "Carbon-aware scheduling is temporal and spatial shifting: the same kilowatt-hours are moved to a window or region where the marginal generation mix is less carbon-intense, which is why it only works for workloads with slack in their deadline. Option C describes offsetting, an accounting step applied after consumption that changes no scheduling decision at all.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-027",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On 32-bit x86 before Intel VT-x and AMD-V, a hypervisor could not run a guest kernel by pure trap-and-emulate. Which property of that instruction set was the obstacle?",
+  "opts": {
+   "A": "The architecture offered only two usable privilege levels, leaving no ring in which a guest kernel could sit between applications and the hypervisor",
+   "B": "Instructions were variable-length, so the hypervisor could not decode the guest instruction stream quickly enough to emulate it in software",
+   "C": "Several sensitive instructions were not privileged: executed from user mode they quietly returned host state or ignored the operation instead of faulting to the hypervisor",
+   "D": "The MMU exposed host physical addresses to ring 3, so any guest could read memory frames belonging to a co-resident guest"
+  },
+  "ans": "C",
+  "exp": "Popek and Goldberg's condition for classical virtualisability is that every sensitive instruction also be privileged, and x86 broke it: instructions such as PUSHF/POPF and the store-descriptor-table family execute in user mode without trapping, so the hypervisor never gains control to emulate them. Ring count was never the problem — x86 has four rings, and VMware's answer was binary translation of the offending instructions, not extra rings.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-028",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "Compared with the binary-translation approach of early x86 hypervisors, what does hardware-assisted virtualisation (Intel VT-x / AMD-V) actually add to the processor?",
+  "opts": {
+   "A": "A second, orthogonal execution mode: the guest runs in non-root mode at its own normal privilege level, and configured sensitive events cause a VM exit into root mode where the hypervisor handles them",
+   "B": "A hardware rewriting engine that converts guest kernel instructions into safe host instructions, taking over the job of the hypervisor's software translation cache",
+   "C": "A firmware-reserved physical core on which all of a guest's privileged instructions are executed in isolation from the rest of the host",
+   "D": "An extra privilege ring below ring 0 into which the guest kernel is deprivileged, so that every ring-0 instruction it issues faults in the normal way"
+  },
+  "ans": "A",
+  "exp": "VT-x and AMD-V introduce root and non-root operation with guest state held in a hardware control structure (VMCS on Intel, VMCB on AMD): the guest kernel keeps running at ring 0 inside non-root mode and leaves via VM exits, so no instruction rewriting is required. The popular 'ring -1' phrasing behind option D is loose — it is the hypervisor that moves into a separate mode, not the guest that is pushed into a new ring.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-029",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A hypervisor moves from software-maintained shadow page tables to hardware nested paging (Intel EPT / AMD RVI). What is the essential trade-off of that move?",
+  "opts": {
+   "A": "It removes the memory overhead of the shadow tables, but requires the guest kernel to be modified so that every page-table update becomes an explicit hypercall",
+   "B": "It removes the host's dependence on an IOMMU, but in exchange no physical device can any longer be assigned directly to a guest",
+   "C": "It eliminates the guest's own page tables entirely, but the hypervisor must then service every page fault the guest takes",
+   "D": "It removes the VM exits previously needed to keep shadow tables synchronised with guest page-table edits, but a TLB miss now costs a two-dimensional walk through both guest and nested tables"
+  },
+  "ans": "D",
+  "exp": "Nested paging lets the CPU walk the guest and host translations itself, so the guest may edit its own page tables freely and the exit-heavy shadow-table maintenance disappears, at the cost of a far longer walk on each TLB miss — which is exactly why large pages matter more under EPT/RVI. Option A describes a paravirtualised MMU, a different technique in which the guest is modified; nested paging needs no guest changes at all.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-030",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A host is short of physical memory, so the hypervisor inflates the balloon driver running inside one of its guests. What does inflating the balloon accomplish?",
+  "opts": {
+   "A": "It compresses the guest's least-recently-used pages into a host-side compression cache so that reclaiming them does not require disk I/O",
+   "B": "It allocates and pins pages inside the guest, letting the guest's own memory manager choose which pages to surrender, after which the hypervisor reclaims the host frames backing them",
+   "C": "It scans co-resident VMs for pages with identical contents and maps them onto a single shared host frame, freeing the duplicates",
+   "D": "It writes the guest's pages out to the host's swap file without the guest's participation and entirely transparently to the guest OS"
+  },
+  "ans": "B",
+  "exp": "Ballooning is deliberately cooperative: the in-guest driver demands memory, and because the guest OS picks the victims it gives up the pages it considers least valuable, which is far better than the host guessing blindly. Option D is host swapping — the uncooperative fallback used when ballooning cannot reclaim fast enough — while C is transparent page sharing and A is memory compression, both separate reclamation techniques.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-031",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On a contended VMware vSphere cluster, an application VM configured with 16 vCPUs performs worse than the same VM did with 4 vCPUs, even though the application never keeps more than four threads busy and guest-visible CPU utilisation stays low. What best explains this?",
+  "opts": {
+   "A": "The wider VM must have its vCPUs progress together within a bounded skew, so on a contended host it waits until enough physical cores are free and accumulates CPU ready time",
+   "B": "Each extra vCPU reserves a fixed slice of host RAM for its register save area, leaving the guest with markedly less memory for its page cache",
+   "C": "The hypervisor pins each vCPU to a dedicated physical core, so a 16-vCPU VM cannot be scheduled at all unless 16 cores are permanently idle",
+   "D": "The guest scheduler keeps migrating the four busy threads across all 16 vCPUs, and each such migration forces a VM exit into the hypervisor"
+  },
+  "ans": "A",
+  "exp": "ESXi's relaxed co-scheduling caps how far one vCPU may run ahead of its siblings, so an oversized VM needs many physical cores available at roughly the same time; on a busy host that shows up as high CPU ready (%RDY) while the guest itself looks idle, which is why right-sizing vCPU counts is standard practice. Option C overstates the mechanism — vCPUs are time-shared against physical cores, not permanently pinned to them.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-032",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A tenant VM needs near-line-rate throughput from a shared 25 GbE NIC with minimal host CPU cost, so the operator enables SR-IOV on that NIC and assigns the VM a virtual function. What has changed for that VM's traffic?",
+  "opts": {
+   "A": "The hypervisor's software switch is given exclusive use of a physical core, so its packet-processing loop is no longer preempted by guest vCPUs",
+   "B": "The emulated NIC in the guest is replaced by a paravirtualised device whose driver shares a descriptor ring with the host, halving the number of packet copies",
+   "C": "The entire NIC port is handed to the VM through the IOMMU, so that VM has sole use of the port and every other VM must be placed on a different port",
+   "D": "The NIC presents itself as several lightweight PCIe functions; one is assigned directly to the VM, which drives it with its own driver and DMAs into guest memory, bypassing the hypervisor's software switch"
+  },
+  "ans": "D",
+  "exp": "SR-IOV splits one physical function into many virtual functions that the NIC switches between in hardware, so each VM owns a VF directly while the IOMMU confines that VF's DMA to the owning guest's memory. Option C describes plain PCI passthrough, which cannot scale beyond the number of physical ports, and option B describes a paravirtualised device such as virtio-net, whose packets still traverse the host.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-033",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On a KVM host, `qemu-img info` reports the following for a VM's disk image:\n  file format: qcow2\n  virtual size: 40 GiB\n  disk size: 1.31 GiB\n  backing file: golden-base.qcow2\nWhich statement about this disk is correct?",
+  "opts": {
+   "A": "The 40 GiB figure is an upper quota only; the guest currently sees just 1.31 GiB of usable disk until the image is explicitly resized",
+   "B": "It is a copy-on-write overlay: only blocks written since it was created are stored here, every untouched block is read from golden-base.qcow2, which must remain present and unmodified",
+   "C": "golden-base.qcow2 is an incremental backup written after each shutdown of this VM, and may safely be deleted once the VM has booted cleanly",
+   "D": "The image is a compressed full clone in which 1.31 GiB holds the compressed form of the 40 GiB volume, and the base image is no longer referenced at runtime"
+  },
+  "ans": "B",
+  "exp": "A backing file makes the image an overlay: any cluster the overlay has never written is read through to the base, so deleting or editing golden-base.qcow2 corrupts every overlay built on it — this is precisely how golden images and linked clones are implemented. The guest still sees the full 40 GiB; `disk size` merely reports how much of the host's storage the sparse overlay occupies today, which is why option A misreads the two figures.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-034",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A guest deletes 200 GB of files from a thin-provisioned virtual disk on a SAN-backed datastore. Free space inside the guest filesystem rises at once, but consumed capacity on the datastore and on the array does not fall. What explains this, and what brings the space back?",
+  "opts": {
+   "A": "The array is holding the freed blocks in its write cache; consumed capacity will drop of its own accord once that cache destages to disk",
+   "B": "Consumed capacity is recomputed only when a snapshot is taken, so the figure will correct itself at the next scheduled snapshot of the VM",
+   "C": "Deleting a file only rewrites guest filesystem metadata, so the underlying blocks stay allocated until the guest issues SCSI UNMAP / TRIM and the virtualisation and storage stack passes that reclamation down to the array",
+   "D": "For a thin-provisioned disk the datastore always displays the provisioned size rather than actual usage, so the figure shown was never going to change"
+  },
+  "ans": "C",
+  "exp": "A delete is a metadata operation inside the guest filesystem, so the hypervisor and the array still believe those blocks are in use; reclamation requires an UNMAP/TRIM hint propagated from the guest filesystem through the virtual disk down to the array, which is why guests are mounted with discard support or run a periodic trim. Option D is the reverse of how thin provisioning is reported — the whole point of a thin datastore is that it reports blocks actually allocated, not the provisioned size.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U4-035",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A write-heavy in-memory database VM is being live-migrated between two hosts that use shared storage. The hypervisor copies its memory, then copies more memory, and after several passes the migration is abandoned instead of completing. What is happening?",
+  "opts": {
+   "A": "The destination host reports a different CPU model, so each page must be re-encoded for that model before the destination will accept it",
+   "B": "Because storage is shared, the virtual disk is transferred alongside memory on every pass, and the disk is far larger than the VM's RAM",
+   "C": "Pre-copy migration re-sends the pages dirtied during the previous pass; this workload dirties memory faster than the migration link can ship it, so the residual set never shrinks enough to enter the brief stop-and-copy phase",
+   "D": "Every pass retransmits the guest's entire memory from the beginning, so the total transfer time is fixed and simply exceeds the configured migration timeout"
+  },
+  "ans": "C",
+  "exp": "Pre-copy converges only while the guest's page dirty rate stays below the achievable transfer rate; a write-heavy in-memory workload can outrun the link, leaving a large residual working set and forcing the hypervisor to give up — the usual remedies are a faster migration network, throttling the vCPUs, or a post-copy strategy that resumes on the destination and faults pages across. Option B inverts the purpose of shared storage: the disk is not copied at all, only memory and device state are.",
+  "conf": "high"
+ }
+]

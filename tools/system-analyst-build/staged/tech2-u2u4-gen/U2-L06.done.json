@@ -1,0 +1,128 @@
+[
+ {
+  "id": "GEN-T2U2-044",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A POST to /api/v1/orders succeeds and a new order resource now exists at its own URI. Which status code and response header pairing is the conventional REST result for this?",
+  "opts": {
+   "A": "200 OK, with a Content-Location header naming the new order",
+   "B": "202 Accepted, with a Retry-After header telling the client when to look again",
+   "C": "201 Created, with a Location header naming the new order",
+   "D": "204 No Content, with an ETag header for the new order"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A resource that has been created is reported with 201 Created, and the URI of the thing just created is advertised in the Location header. 202 Accepted is the tempting alternative but it means the work was only queued and no resource necessarily exists yet, which contradicts a stem that says the order was created."
+ },
+ {
+  "id": "GEN-T2U2-045",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A Django project served by Gunicorn's default synchronous workers must add a WebSocket endpoint for live order tracking. Why can this deployment not host that endpoint as it stands?",
+  "opts": {
+   "A": "Synchronous Gunicorn workers cannot terminate TLS, and WebSocket endpoints must be served over TLS",
+   "B": "WSGI models a request as a single call in and a single response out, with no representation for a long-lived bidirectional connection, so an ASGI server is required instead",
+   "C": "Django's ORM is synchronous, so a WebSocket handler would be unable to query the database at all",
+   "D": "WebSockets are carried over HTTP/2 streams, which synchronous Gunicorn workers do not implement"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "WSGI's contract is one callable invoked per request that returns one response body, which leaves no place for a connection that stays open and carries frames in both directions; ASGI was defined precisely to add that, and is what servers such as Uvicorn or Daphne speak. Option D is the plausible-sounding trap: the WebSocket handshake is an HTTP/1.1 Upgrade and does not depend on HTTP/2."
+ },
+ {
+  "id": "GEN-T2U2-046",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A PHP login handler runs:\n\nsession_start();\n$_SESSION['user_id'] = 42;\nsession_regenerate_id(true);\n\nWhat is the state immediately after the third line?",
+  "opts": {
+   "A": "$_SESSION is now empty and the application must write user_id again under the new identifier",
+   "B": "The session identifier is unchanged; only the session cookie's expiry time has been refreshed",
+   "C": "$_SESSION still holds user_id 42 under a new identifier, and the old session's data remains valid server-side until garbage collection removes it",
+   "D": "$_SESSION still holds user_id 42 under a newly issued identifier, and the old session's server-side data has been deleted"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "session_regenerate_id() carries the current $_SESSION contents across to a freshly issued identifier, and its boolean argument controls whether the old session's server-side data is destroyed; passing true destroys it. Option C is exactly what happens when the argument is false or omitted, which is why the defence against session fixation is to regenerate with deletion at the moment privilege changes."
+ },
+ {
+  "id": "GEN-T2U2-047",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "An API endpoint requires a write scope. A request arrives bearing an OAuth 2.0 access token that is well-formed, correctly signed and unexpired, but whose granted scopes are read-only. Which HTTP status expresses this outcome?",
+  "opts": {
+   "A": "403 Forbidden",
+   "B": "401 Unauthorized",
+   "C": "400 Bad Request",
+   "D": "422 Unprocessable Content"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The server has successfully authenticated the caller and is refusing on authorization grounds, which is what 403 means. 401 is the frequent wrong pick: it signals that valid authentication credentials are absent or unusable, and re-presenting the same token would be the client's only recourse — pointless here, since the token is fine and the permission is not."
+ },
+ {
+  "id": "GEN-T2U2-048",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A single-page app on https://app.example.com calls an API on https://api.example.com. The browser's preflight OPTIONS request returns 401, so no cross-origin call ever completes — yet the identical requests succeed from curl with the same valid token. What is the most likely cause?",
+  "opts": {
+   "A": "The API omits the Access-Control-Allow-Credentials header from its responses",
+   "B": "Browsers strip the Authorization header from preflight requests only when the target is served over HTTPS",
+   "C": "The authentication middleware is registered ahead of the CORS middleware, so it rejects the deliberately credential-less preflight before CORS can answer it",
+   "D": "OPTIONS is a non-idempotent method, so the API's rate-limiting middleware refuses to serve it"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A preflight OPTIONS request is generated by the browser and carries neither Authorization headers nor cookies by design, so any auth middleware sitting in front of the CORS middleware sees an unauthenticated request and answers 401 before the CORS headers are ever attached; registering CORS first, or exempting OPTIONS from auth, resolves it. A missing Access-Control-Allow-Credentials header would show up as a browser-blocked response on the real request, not as a 401 on the preflight."
+ },
+ {
+  "id": "GEN-T2U2-049",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "Doctrine ORM and Eloquent are both PHP persistence libraries, but they implement different data-access patterns. Which statement characterises the difference correctly?",
+  "opts": {
+   "A": "Eloquent is a Data Mapper whose plain models are persisted by a separate EntityManager, while Doctrine entities save themselves",
+   "B": "Eloquent is an Active Record implementation, where a model both maps a row and knows how to persist itself, while Doctrine is a Data Mapper that keeps entities free of persistence logic and delegates it to an EntityManager",
+   "C": "Both are Active Record implementations, differing only in whether mappings are declared as attributes or as properties on the model class",
+   "D": "Doctrine is an Active Record implementation tuned for read-heavy workloads, while Eloquent is a query builder that performs no object mapping"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Eloquent models inherit persistence behaviour — save(), delete() and the query interface live on the model itself, the defining trait of Active Record — whereas a Doctrine entity is an ordinary PHP object with no knowledge of the database, and the EntityManager performs the mapping. Option A is the same distinction stated with the two libraries swapped, which is the mistake worth catching."
+ },
+ {
+  "id": "GEN-T2U2-050",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "In a Python service using the SQLAlchemy ORM:\n\nuser = session.get(User, 1)\nuser.email = \"new@example.com\"\nsession.commit()\n\nNo UPDATE statement appears anywhere in the code, yet the row changes. Which ORM mechanism accounts for this?",
+  "opts": {
+   "A": "The unit-of-work pattern — the Session tracks attribute changes on the instances it manages and flushes the resulting UPDATE as part of the commit",
+   "B": "session.get() returns a write-through proxy that pushes each attribute assignment to the database as the assignment happens",
+   "C": "The commit re-reads the object and rewrites every column of the row unconditionally, so no change tracking is needed",
+   "D": "The Session runs in autocommit mode by default, so each attribute assignment becomes its own transaction"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Objects loaded through a Session stay in its identity map, mutating a mapped attribute marks the instance dirty, and the flush that precedes commit emits an UPDATE covering the changed columns — that accumulate-then-flush behaviour is the unit-of-work pattern. Option B is the intuitive but wrong model: nothing whatsoever reaches the database at assignment time, which is why rolling back discards the edit."
+ },
+ {
+  "id": "GEN-T2U2-051",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "An API implements optimistic concurrency: clients GET a resource, receive an ETag, and echo it in an If-Match header on the follow-up PUT. Two clients edit the same resource, and the second PUT arrives carrying an ETag that no longer matches the stored representation. Which status should the server return?",
+  "opts": {
+   "A": "409 Conflict",
+   "B": "428 Precondition Required",
+   "C": "423 Locked",
+   "D": "412 Precondition Failed"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "HTTP semantics say that when a conditional request header such as If-Match evaluates to false, the server must not perform the method and answers 412 Precondition Failed. 428 Precondition Required is the inverse situation — the server demanding a conditional header that the client failed to send — and here the client did send one."
+ },
+ {
+  "id": "GEN-T2U2-052",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A PHP application stores credentials as password_hash($pw, PASSWORD_DEFAULT). A later PHP upgrade changes what PASSWORD_DEFAULT resolves to, and the team wants existing users silently migrated at their next successful login. Which built-in function performs exactly the check of whether a stored hash was produced with different parameters and therefore ought to be recomputed?",
+  "opts": {
+   "A": "password_get_info()",
+   "B": "password_needs_rehash()",
+   "C": "hash_equals()",
+   "D": "password_verify(), passing the desired algorithm as a third argument"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "password_needs_rehash() compares the algorithm and options embedded in an existing hash against the ones supplied and returns true when they differ, so it is called right after a successful verify — the one moment the plaintext is available to rehash. password_get_info() merely reports what a hash was made with and makes no comparison and no decision, and password_verify() takes only the password and the hash."
+ }
+]

@@ -1,0 +1,23 @@
+{
+ "slug": "U2-L06",
+ "unit": "2",
+ "unit_title": "Web Technologies",
+ "marks": 60,
+ "leaf": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+ "need": 9,
+ "verbatim_syllabus": "Modern Web Development and Full Stack Engineering: Evolution of the Internet and Web Architecture; Client-Server Communication; HTTP/HTTPS; DNS and Web Hosting; HTML Semantic Elements, Forms, Multimedia, Canvas, SVG and Web Accessibility Standards; CSS, Flexbox, Grid, Responsive Web Design; Git Version Control; Javascript, DOM Manipulation, Event Handling, Asynchronous Programming, JSON and Fetch API; Frontend Development using Javascript Framework including Components, Routing, State Management, Forms and API Integration; Backend Development using PHP - Python; RESTful APIs, CRUD Operations, Middleware, Authentication and Authorization, Session and Cookie Management; ORM Concepts, Websockets; Serverless Computing, Docker, Kubernetes and CI/CD Pipelines; Linux Administration, Web Servers - Nginx, Deployment and Monitoring; Web Security Fundamentals including OWASP Top 10, HTTPS, SSL/TLS, CSRF, XSS and SQL Injection Prevention; MVC Architecture; Microservices Architecture, SOLID Principles, Dependency Management, Event-Driven Systems, Caching and Queue Management; AI-assisted Web Development, Generative AI APIs, Model Context Protocol (MCP), Web Analytics, Scalable Deployment, Ethics, Privacy and Legal Aspects of Modern Web Applications.",
+ "existing_stems": [
+  {
+   "q": "A client's request times out and it retries. Which HTTP method's semantics guarantee that the retry cannot create a second copy of the resource?",
+   "ans_text": "PUT"
+  },
+  {
+   "q": "With PHP's default session handling, what does the cookie sent to the browser contain?",
+   "ans_text": "Only a session identifier, with the session data held server-side"
+  },
+  {
+   "q": "A Python view iterates 100 order records and reads order.customer.name on each, and the ORM issues 101 queries. What is this, and how is it removed?",
+   "ans_text": "A lazy-loading N+1 problem, removed by eager-loading the related rows in the initial query"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "U2-L03",
+ "unit": "2",
+ "unit_title": "Web Technologies",
+ "marks": 60,
+ "leaf": "CSS, Flexbox, Grid and responsive web design",
+ "need": 9,
+ "verbatim_syllabus": "Modern Web Development and Full Stack Engineering: Evolution of the Internet and Web Architecture; Client-Server Communication; HTTP/HTTPS; DNS and Web Hosting; HTML Semantic Elements, Forms, Multimedia, Canvas, SVG and Web Accessibility Standards; CSS, Flexbox, Grid, Responsive Web Design; Git Version Control; Javascript, DOM Manipulation, Event Handling, Asynchronous Programming, JSON and Fetch API; Frontend Development using Javascript Framework including Components, Routing, State Management, Forms and API Integration; Backend Development using PHP - Python; RESTful APIs, CRUD Operations, Middleware, Authentication and Authorization, Session and Cookie Management; ORM Concepts, Websockets; Serverless Computing, Docker, Kubernetes and CI/CD Pipelines; Linux Administration, Web Servers - Nginx, Deployment and Monitoring; Web Security Fundamentals including OWASP Top 10, HTTPS, SSL/TLS, CSRF, XSS and SQL Injection Prevention; MVC Architecture; Microservices Architecture, SOLID Principles, Dependency Management, Event-Driven Systems, Caching and Queue Management; AI-assisted Web Development, Generative AI APIs, Model Context Protocol (MCP), Web Analytics, Scalable Deployment, Ethics, Privacy and Legal Aspects of Modern Web Applications.",
+ "existing_stems": [
+  {
+   "q": "Four items sit in a flex row and one holds far more text than the others. Which declaration on the items makes all four end up the same width, assuming no item contains an unbreakable token wider than its share?",
+   "ans_text": "flex: 1 1 0"
+  },
+  {
+   "q": "A card container is styled grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)). What layout does this produce as the container is made narrower?",
+   "ans_text": "As many columns of at least 220px as fit, dropping to fewer columns as space runs out, with the columns sharing any leftover space equally"
+  },
+  {
+   "q": "A site's media queries are written correctly, yet on a phone the full desktop layout appears shrunk to fit the screen. What is missing?",
+   "ans_text": "A viewport meta tag declaring width=device-width, initial-scale=1"
+  }
+ ]
+}

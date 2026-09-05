@@ -1,0 +1,128 @@
+[
+ {
+  "id": "GEN-T2U2-053",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A developer adds the line `config/secrets.env` to the repository's root `.gitignore` and commits it, but `git status` continues to report modifications to `config/secrets.env`. What explains this, and what stops it?",
+  "opts": {
+   "A": "`.gitignore` entries must be anchored with a leading slash to match a path inside a subdirectory, so the entry should read `/config/secrets.env`",
+   "B": "A `.gitignore` in the repository root does not apply to subdirectories, so a separate `.gitignore` has to be placed inside `config/`",
+   "C": "`.gitignore` is consulted only for untracked paths, so a file already in the index stays tracked; `git rm --cached config/secrets.env` and a commit stop it being tracked",
+   "D": "An ignore rule takes effect only after `.gitignore` itself is pushed to the remote, so the entry does nothing until the branch is pushed"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Ignore rules are applied when Git decides whether to start tracking an untracked path; a path already recorded in the index is unaffected, so it must be removed from the index with `git rm --cached` while being left on disk. The leading-slash option is wrong because a slash only anchors the pattern to the repository root, which `config/secrets.env` already is — anchoring was never the problem."
+ },
+ {
+  "id": "GEN-T2U2-054",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A feature branch has three commits that exist only locally. The developer runs `git reset --soft HEAD~2`. What is the state of the branch, index and working tree immediately afterwards?",
+  "opts": {
+   "A": "HEAD moves back two commits and the changes those commits introduced are discarded from both the index and the working tree",
+   "B": "HEAD moves back two commits, the changes those commits introduced are left staged in the index, and the working tree is untouched",
+   "C": "HEAD moves back two commits and the changes those commits introduced appear as unstaged modifications, with the index matching the new HEAD",
+   "D": "The branch pointer stays on the newest commit and only the index is rewound by two commits"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "`--soft` moves the branch ref and HEAD only, leaving the index and working tree exactly as they were, which is why the squashed content shows up already staged and ready to be recommitted as one commit. The unstaged-modifications option describes `--mixed`, the default, which resets the index to the new HEAD but not the working tree; wholesale discarding is `--hard`."
+ },
+ {
+  "id": "GEN-T2U2-055",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A Node web application's Dockerfile contains, in this order:\n\n    COPY . .\n    RUN npm ci\n\nEvery build after a one-line source edit re-runs the full dependency install. Which change restores build-cache reuse for the install step?",
+  "opts": {
+   "A": "Move `RUN npm ci` above `COPY . .`, leaving both lines otherwise unchanged",
+   "B": "Add `--no-cache` to the `npm ci` invocation",
+   "C": "Replace `COPY . .` with `ADD . .`",
+   "D": "Copy `package.json` and `package-lock.json` alone, run `npm ci`, and only then `COPY . .`"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A layer's cache entry is invalidated when the contents it copies change, so copying the whole source tree before installing makes any source edit invalidate the install layer; copying just the manifest and lockfile first means the install layer is only rebuilt when dependencies actually change. Simply hoisting `RUN npm ci` above `COPY . .` fails outright, because at that point no `package.json` exists in the image for npm to read."
+ },
+ {
+  "id": "GEN-T2U2-056",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A React application is packaged with a multi-stage Dockerfile whose final stage starts from `nginx:alpine` and copies only the built `dist/` directory out of the Node build stage. What is the principal advantage over a single-stage image that keeps the Node toolchain and serves the build itself?",
+  "opts": {
+   "A": "The shipped image contains no Node runtime, compilers or dev dependencies, which cuts both image size and the attack surface that has to be patched",
+   "B": "The intermediate build stage's layers are pushed alongside the final image and shared with other images, lowering total registry storage",
+   "C": "Nginx negotiates HTTP/3 for the static assets by default, which a Node-based static server cannot do",
+   "D": "The stages of a multi-stage build run in parallel, so the dependency install overlaps with the production bundle step"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The value of the pattern is that only the artefacts explicitly copied into the final stage survive into the shipped image, so build-time tooling and dev dependencies never become part of the deployed surface. The registry-storage option inverts the mechanism: intermediate stages are not part of the resulting image and are not pushed at all."
+ },
+ {
+  "id": "GEN-T2U2-057",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "In the install step of a CI job for a Node web application, why is `npm ci` normally preferred over `npm install`?",
+  "opts": {
+   "A": "`npm ci` installs only production dependencies, so devDependencies never reach the CI runner",
+   "B": "`npm ci` installs exactly the dependency tree recorded in `package-lock.json` and fails outright if the lockfile and `package.json` disagree, so the build is reproducible",
+   "C": "`npm ci` first refreshes `package-lock.json` to the newest versions permitted by the declared semver ranges, so CI always tests against current dependencies",
+   "D": "`npm ci` links packages from the runner's global cache instead of creating a local `node_modules` directory, so nothing has to be written to disk"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "`npm ci` treats the lockfile as authoritative rather than as a hint, so it cannot silently resolve a different version than a developer got, and a lockfile that has drifted out of sync with `package.json` breaks the build instead of being quietly rewritten. The devDependencies option is wrong because omitting them is a separate choice controlled by `--omit=dev`; `npm ci` installs the full tree by default, which CI needs in order to run tests and linters."
+ },
+ {
+  "id": "GEN-T2U2-058",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A web application's pipeline compiles the application from source once for the staging deployment and again for the production deployment, both from the same Git commit. Production deployments occasionally misbehave in ways the staging run that approved them did not. Which pipeline change most directly eliminates this class of failure?",
+  "opts": {
+   "A": "Pin the CI runner image to a fixed tag so that both builds begin from an identical base operating system",
+   "B": "Tag the Git commit before the production build so that both deployments are traceable to a single revision",
+   "C": "Build the artefact once and promote that same immutable artefact from staging into production, supplying environment-specific values as configuration at deploy time",
+   "D": "Re-run the full test suite against the production environment immediately after every deployment"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Two builds are two artefacts, and anything non-deterministic in the build — a floating transitive dependency, a differing toolchain, a stale cache — means the thing tested in staging is not the thing running in production; building once and promoting the identical artefact removes the divergence by construction. Pinning the runner image narrows one source of drift but still produces two separately built artefacts, so the failure mode survives."
+ },
+ {
+  "id": "GEN-T2U2-059",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A Django application served by Gunicorn is managed as a systemd service on a Linux server. Which setting in its unit file causes systemd to bring the service back automatically when the process exits with a non-zero status?",
+  "opts": {
+   "A": "`Restart=on-failure` in the `[Service]` section",
+   "B": "`WantedBy=multi-user.target` in the `[Install]` section",
+   "C": "`After=network.target` in the `[Unit]` section",
+   "D": "`RemainAfterExit=yes` in the `[Service]` section"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "`Restart=on-failure` is the directive that tells systemd to restart the unit when it terminates with a non-zero exit code or is killed by a signal. `RemainAfterExit=yes` is close in appearance but does the opposite of what is wanted: it makes systemd regard the unit as still active after its process has exited, so nothing is restarted; `WantedBy` only governs whether the unit starts at boot when enabled."
+ },
+ {
+  "id": "GEN-T2U2-060",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "Nginx terminates TLS at the edge and reverse-proxies to an application on 127.0.0.1:8000. The application's access log records every request as coming from 127.0.0.1. Assuming the application is already configured to trust a forwarded client-address header, which line added to the proxying `location` block gives it the real client address?",
+  "opts": {
+   "A": "`proxy_set_header Host $host;`",
+   "B": "`proxy_pass_request_headers on;`",
+   "C": "`real_ip_header X-Forwarded-For;`",
+   "D": "`proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;`"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "From the application's point of view the TCP peer genuinely is Nginx on the loopback address, so the client address has to be carried in a header that Nginx sets on the upstream request; `$proxy_add_x_forwarded_for` appends `$remote_addr` to any inbound `X-Forwarded-For` value. `real_ip_header` looks apt but solves the mirror-image problem — it tells *Nginx* to take its own `$remote_addr` from a header when Nginx itself sits behind another proxy, and it changes nothing about what the upstream receives."
+ },
+ {
+  "id": "GEN-T2U2-061",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A client-side-routed single-page application is served by Nginx from `/var/www/app`, which contains `index.html` and a hashed asset bundle. Navigating within the app works, but reloading the browser on `/dashboard` returns 404. Which directive in the `location /` block fixes it?",
+  "opts": {
+   "A": "`autoindex on;`",
+   "B": "`try_files $uri $uri/ /index.html;`",
+   "C": "`index index.html index.htm;`",
+   "D": "`rewrite ^/dashboard$ / permanent;`"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "`/dashboard` exists only as a route inside the JavaScript router, not as a file on disk, so Nginx must fall back to serving `index.html` for any path it cannot resolve and let the client-side router read the URL; `try_files` with `/index.html` as its final fallback does exactly that while still serving real files such as the asset bundle directly. The `index` directive does not help because it only chooses a default file for requests that resolve to a directory, and `/dashboard` resolves to nothing at all."
+ }
+]

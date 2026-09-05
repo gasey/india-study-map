@@ -1,0 +1,87 @@
+[
+ {
+  "unit": "2",
+  "leaf": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "need": 7
+ },
+ {
+  "unit": "2",
+  "leaf": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "need": 9
+ },
+ {
+  "unit": "2",
+  "leaf": "CSS, Flexbox, Grid and responsive web design",
+  "need": 9
+ },
+ {
+  "unit": "2",
+  "leaf": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "need": 9
+ },
+ {
+  "unit": "2",
+  "leaf": "Frontend frameworks: components, routing, state management and API integration",
+  "need": 9
+ },
+ {
+  "unit": "2",
+  "leaf": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "need": 9
+ },
+ {
+  "unit": "2",
+  "leaf": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "need": 9
+ },
+ {
+  "unit": "2",
+  "leaf": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "need": 9
+ },
+ {
+  "unit": "2",
+  "leaf": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "need": 9
+ },
+ {
+  "unit": "2",
+  "leaf": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "need": 9
+ },
+ {
+  "unit": "4",
+  "leaf": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "need": 8
+ },
+ {
+  "unit": "4",
+  "leaf": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "need": 9
+ },
+ {
+  "unit": "4",
+  "leaf": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "need": 9
+ },
+ {
+  "unit": "4",
+  "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "need": 9
+ },
+ {
+  "unit": "4",
+  "leaf": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "need": 9
+ },
+ {
+  "unit": "4",
+  "leaf": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "need": 9
+ },
+ {
+  "unit": "4",
+  "leaf": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "need": 9
+ }
+]

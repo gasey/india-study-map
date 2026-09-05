@@ -1,0 +1,14 @@
+{
+  "reviewer": "u2a-A — adversarial refutation pass, blind to the second reviewer",
+  "reviewed": 43,
+  "flags": [
+    {
+      "id": "GEN-T2U2-033",
+      "type": "unstated-assumption",
+      "severity": "low",
+      "detail": "The stem demands an attribute that fixes the null querySelector 'while still guaranteeing this script runs before another external script tag that follows it', but never says what the following script is. defer only guarantees relative order against OTHER deferred scripts: if the following external <script> is a plain classic script with no defer/async, it is parser-blocking and executes during parsing, i.e. BEFORE the deferred one — so adding defer inverts the very ordering the stem says it guarantees. The explanation ('deferred scripts run in document order, so both requirements are met') states the guarantee unconditionally and is therefore only true under an assumption the stem omits. D is still the only workable option among the four (async explicitly does not preserve order, nomodule and crossorigin are irrelevant), so this is a precision defect, not a wrong key. Fix: pin the assumption in the stem — e.g. '...runs before another external script tag that follows it and is also marked defer', or 'before the other deferred script that follows it'.",
+      "suggested": "Keep key D; amend the stem to state that the following external script is also deferred (and amend the explanation to say deferred scripts run in document order relative to one another)."
+    }
+  ],
+  "notes": "This is a genuinely strong batch: I attacked every keyed answer and every distractor and could not break 42 of 43. All named specifics check out against spec/vendor behaviour — 308 vs 301/302/303 method preservation, Nginx 504 on proxy_read_timeout, the apex-CNAME/DNAME/ALIAS distinction, Let's Encrypt wildcard requiring DNS-01, HSTS internal upgrade before any cleartext request, the removal of the HTML sectioning outline algorithm, disabled-vs-readonly form submission, the five <track> kinds, flex automatic minimum size, :where() zero specificity, dvh/svh/lvh semantics, clamp() arithmetic (4vw of 1200px = 48px, clamped to 2rem = 32px), JSON.stringify array censoring to null, Response body one-shot stream, index-key state carryover, Vite build-time env inlining, and React's Object.is provider-value comparison. I verified the one India-specific claim externally: GIGW 3.0 does set WCAG 2.1 Level AA, so GEN-T2U2-016 stands. Several distractors are true statements in isolation (proxy_set_header Host, QPACK header compression, httpOnly cookie storage, lazy-loading the admin chunk) but none of them answer the question actually asked, so I do not count them as competing answers."
+}

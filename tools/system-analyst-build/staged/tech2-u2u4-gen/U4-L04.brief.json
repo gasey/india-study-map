@@ -1,0 +1,23 @@
+{
+ "slug": "U4-L04",
+ "unit": "4",
+ "unit_title": "Cloud Computing",
+ "marks": 40,
+ "leaf": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+ "need": 9,
+ "verbatim_syllabus": "Cloud Architecture and Distributed Systems: Evolution of Distributed, Edge and Cloud Computing; NIST Cloud Architecture; Cloud Deployment and Service Models (IaaS, PaaS, SaaS, Serverless); Cloud-native Architecture, Microservices, Service Mesh, Elasticity, High Availability, Load Balancing, and Sustainable Cloud Computing. Virtualization and Cloud Infrastructure: Virtual Machines, Hypervisors, Full and Para Virtualization; CPU, Storage, and Network Virtualization; Containers, Docker Architecture, Kubernetes orchestration, Resource Management, Infrastructure as Code using Terraform and Ansible, CI/CD Pipelines, and DevOps Practices. Cloud Storage, Compute, Networking, Managed Databases, Serverless Computing, Monitoring and Observability, OpenStack, Hybrid and Multi-cloud Management, and AI/ML Infrastructure. Cloud Security and Governance: Shared Responsibility Model, IAM, MFA, Zero Trust Security, Encryption, Backup and Disaster Recovery, Container and Kubernetes Security, DevSecOps, API Security, Virtualization Attacks, FinOps, and Service Level Agreements (SLAs).",
+ "existing_stems": [
+  {
+   "q": "Which statement correctly distinguishes a Type-1 hypervisor from a Type-2 hypervisor?",
+   "ans_text": "A Type-1 hypervisor runs directly on the host hardware, while a Type-2 hypervisor runs as a process on top of a host operating system"
+  },
+  {
+   "q": "Under paravirtualization, how does the guest operating system differ from a fully virtualized guest?",
+   "ans_text": "It is modified so that sensitive privileged operations are replaced by explicit hypercalls into the hypervisor"
+  },
+  {
+   "q": "A provider must let tens of thousands of tenants use overlapping private IPv4 ranges on top of one shared physical fabric. Which network-virtualization approach makes that workable?",
+   "ans_text": "An overlay that encapsulates tenant Layer-2 frames for transport across the fabric, tagging each with a per-tenant network identifier in the encapsulation header"
+  }
+ ]
+}

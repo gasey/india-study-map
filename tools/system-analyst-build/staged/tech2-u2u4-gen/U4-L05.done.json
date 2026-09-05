@@ -1,0 +1,128 @@
+[
+ {
+  "id": "GEN-T2U4-036",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A team runs a sharded datastore on Kubernetes. Each replica needs a hostname that stays the same across rescheduling, and its own PersistentVolume that is re-attached to that same replica rather than to whichever Pod starts first. Which workload object provides this?",
+  "opts": {
+   "A": "A Deployment whose Pod template mounts a PersistentVolumeClaim",
+   "B": "A DaemonSet, so that each replica is pinned to one node",
+   "C": "A StatefulSet with a volumeClaimTemplate",
+   "D": "A ReplicaSet with pod anti-affinity across nodes"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A StatefulSet gives every Pod a stable ordinal identity and name, and its volumeClaimTemplate creates a separate PersistentVolumeClaim per ordinal that is rebound to the same ordinal whenever that Pod is recreated. A Deployment mounting a PersistentVolumeClaim (A) points every replica at the one same claim and hands out randomised Pod names, so neither the identity nor the per-replica volume requirement is met."
+ },
+ {
+  "id": "GEN-T2U4-037",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Which Service configuration makes cluster DNS resolve the Service name to the individual Pod IP addresses of its ready endpoints, instead of to one virtual IP that load-balances across them?",
+  "opts": {
+   "A": "Setting clusterIP: None, i.e. a headless Service",
+   "B": "type: NodePort",
+   "C": "type: ExternalName",
+   "D": "type: LoadBalancer with externalTrafficPolicy: Local"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A headless Service is allocated no virtual IP, so the cluster DNS server answers the Service name with one address record per ready endpoint — the mechanism StatefulSet members use to find their peers directly. ExternalName is the other DNS-special Service type but it returns a CNAME to a name outside the cluster and has no endpoints at all."
+ },
+ {
+  "id": "GEN-T2U4-038",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A container's readiness probe starts failing while its liveness probe keeps succeeding. What does Kubernetes do?",
+  "opts": {
+   "A": "The kubelet restarts the container once the readiness probe's failureThreshold is reached",
+   "B": "The Pod is evicted and rescheduled onto a different node",
+   "C": "Nothing changes for that Pod until the liveness probe also begins to fail",
+   "D": "The Pod's address is removed from the Service's endpoints, but the container is left running"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Readiness controls endpoint membership only: a Pod that reports not-ready is dropped from the Service's endpoints so it stops receiving traffic, while its container continues to run untouched. Restarting a container is strictly the liveness probe's job, which is why C is wrong — the Pod's traffic does change immediately, even though nothing restarts."
+ },
+ {
+  "id": "GEN-T2U4-039",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A Dockerfile contains:\n\nFROM debian:stable-slim\nRUN apt-get update && apt-get install -y gcc\nRUN rm -rf /var/lib/apt/lists/*\nCOPY ./src /src\n\nThe image is built normally, with no multi-stage build and no squashing. What is the effect of the third instruction on the size of the resulting image?",
+  "opts": {
+   "A": "The image shrinks by roughly the size of the deleted package lists",
+   "B": "The image does not shrink; the files stay in the earlier layer and the new layer only records their deletion",
+   "C": "The build fails, because a RUN instruction cannot delete files created by a previous RUN instruction",
+   "D": "The image shrinks only because the deletion happens before the final COPY instruction"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Image layers are additive and immutable: deleting a file in a later layer writes a whiteout entry that hides it from the assembled filesystem, but the earlier layer still ships the bytes, so the sum of the layers is unchanged. To actually reclaim the space the cleanup must run inside the same RUN instruction that created the files, or the wanted artefacts must be copied into a fresh stage."
+ },
+ {
+  "id": "GEN-T2U4-040",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "With default options, what does `terraform plan` compare in order to produce the diff it prints?",
+  "opts": {
+   "A": "The configuration against state that has first been refreshed from the providers' real remote objects, making no changes of its own",
+   "B": "The configuration against the state file exactly as stored, without contacting any provider API",
+   "C": "The current configuration against the previous revision of the configuration in version control",
+   "D": "The state file against the dependency lock file that pins provider versions"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "By default a plan reads the real objects back from the provider APIs, updates its in-memory view of state, and only then diffs that against the configuration to propose create/update/destroy actions without performing them. Trusting the stored state alone (B) is what `-refresh=false` does, and it makes the plan blind to out-of-band drift — the very thing a plan is expected to surface."
+ },
+ {
+  "id": "GEN-T2U4-041",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "An Ansible playbook task that invokes a shell command reports `changed` on every single run, even when the target host is already in the desired state. What explains this?",
+  "opts": {
+   "A": "Fact gathering has been disabled for the play, so Ansible has nothing to compare the host against",
+   "B": "The task is missing `become: true`, so its result is reported but never actually committed",
+   "C": "The command and shell modules cannot inspect prior state, so Ansible reports changed unless the task is guarded with `creates`, `removes` or a `changed_when` condition",
+   "D": "Ansible is agentless, so idempotent reporting requires an agent-based tool such as Puppet"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Idempotent status in Ansible comes from modules that inspect the current state and report `ok` when there was nothing to do; command and shell just execute an opaque process whose effect Ansible cannot reason about, so they report `changed` unconditionally unless bounded by `creates`, `removes` or `changed_when`. Agentlessness (D) is irrelevant — `apt`, `file` and `copy` are equally agentless and still report `ok` correctly."
+ },
+ {
+  "id": "GEN-T2U4-042",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A CI/CD pipeline builds a versioned artefact once and then promotes that identical artefact through test, staging and production, rather than rebuilding it from source at each stage. Which risk does this practice principally remove?",
+  "opts": {
+   "A": "Build-time secrets being baked into the image and readable by anyone who pulls it",
+   "B": "The binary that passed testing differing from the binary that reaches production, because a later rebuild resolved different dependencies or used a different toolchain",
+   "C": "Drift between the recorded Terraform state and the real infrastructure",
+   "D": "A container process escaping its namespaces onto the host"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A rebuild is not guaranteed to be bit-identical — a floating dependency version, a moved base-image tag or a different build agent can quietly yield a different binary from the one the tests approved. Promoting a single immutable artefact makes \"tested\" and \"deployed\" the same object, with per-environment differences injected as configuration at deploy time instead."
+ },
+ {
+  "id": "GEN-T2U4-043",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Kubernetes removed the in-tree Docker shim from the kubelet some releases ago. Which interface does the kubelet use to create and manage containers on a node?",
+  "opts": {
+   "A": "The Open Container Initiative runtime specification, as implemented by runc",
+   "B": "The Container Network Interface (CNI)",
+   "C": "libcontainer, linked directly into the kubelet binary",
+   "D": "The Container Runtime Interface (CRI), a gRPC API implemented by runtimes such as containerd and CRI-O"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "CRI is the gRPC contract between the kubelet and whatever container runtime a node runs; dropping dockershim only meant Docker Engine lost its special in-tree adapter to that contract. The OCI runtime specification (A) is real but sits a level lower — it is how a high-level runtime like containerd asks runc to start the process, not something the kubelet speaks."
+ },
+ {
+  "id": "GEN-T2U4-044",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A HorizontalPodAutoscaler raises a Deployment from 4 to 10 replicas under load. The six new Pods stay `Pending`, and `kubectl describe pod` reports `0/3 nodes are available: 3 Insufficient cpu`. What is happening?",
+  "opts": {
+   "A": "No node has enough unreserved allocatable CPU left to satisfy the new Pods' CPU requests, and nothing will add capacity unless a cluster autoscaler is running",
+   "B": "The HPA's maxReplicas has been reached, so the scheduler is refusing to admit the surplus Pods",
+   "C": "The new Pods have exceeded their CPU limits and are being throttled into the Pending state",
+   "D": "The Deployment's rolling update strategy is holding the new Pods back until the original four terminate"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "An HPA only edits the replica count; the scheduler still has to find a node whose unreserved allocatable CPU covers each Pod's CPU request, and Kubernetes never adds machines on its own without a cluster autoscaler. Exceeding a CPU limit (C) throttles an already-running container and can never put a Pod into Pending, which is a pre-scheduling state."
+ }
+]

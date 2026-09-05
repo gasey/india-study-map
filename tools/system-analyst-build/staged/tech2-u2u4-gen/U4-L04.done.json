@@ -1,0 +1,129 @@
+[
+ {
+  "id": "GEN-T2U4-027",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On 32-bit x86 before Intel VT-x and AMD-V, a hypervisor could not run a guest kernel by pure trap-and-emulate. Which property of that instruction set was the obstacle?",
+  "opts": {
+   "A": "The architecture offered only two usable privilege levels, leaving no ring in which a guest kernel could sit between applications and the hypervisor",
+   "B": "Instructions were variable-length, so the hypervisor could not decode the guest instruction stream quickly enough to emulate it in software",
+   "C": "Several sensitive instructions were not privileged: executed from user mode they quietly returned host state or ignored the operation instead of faulting to the hypervisor",
+   "D": "The MMU exposed host physical addresses to ring 3, so any guest could read memory frames belonging to a co-resident guest"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Popek and Goldberg's condition for classical virtualisability is that every sensitive instruction also be privileged, and x86 broke it: instructions such as PUSHF/POPF and the store-descriptor-table family execute in user mode without trapping, so the hypervisor never gains control to emulate them. Ring count was never the problem — x86 has four rings, and VMware's answer was binary translation of the offending instructions, not extra rings."
+ },
+ {
+  "id": "GEN-T2U4-028",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "Compared with the binary-translation approach of early x86 hypervisors, what does hardware-assisted virtualisation (Intel VT-x / AMD-V) actually add to the processor?",
+  "opts": {
+   "A": "A second, orthogonal execution mode: the guest runs in non-root mode at its own normal privilege level, and configured sensitive events cause a VM exit into root mode where the hypervisor handles them",
+   "B": "A hardware rewriting engine that converts guest kernel instructions into safe host instructions, taking over the job of the hypervisor's software translation cache",
+   "C": "A firmware-reserved physical core on which all of a guest's privileged instructions are executed in isolation from the rest of the host",
+   "D": "An extra privilege ring below ring 0 into which the guest kernel is deprivileged, so that every ring-0 instruction it issues faults in the normal way"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "VT-x and AMD-V introduce root and non-root operation with guest state held in a hardware control structure (VMCS on Intel, VMCB on AMD): the guest kernel keeps running at ring 0 inside non-root mode and leaves via VM exits, so no instruction rewriting is required. The popular 'ring -1' phrasing behind option D is loose — it is the hypervisor that moves into a separate mode, not the guest that is pushed into a new ring."
+ },
+ {
+  "id": "GEN-T2U4-029",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A hypervisor moves from software-maintained shadow page tables to hardware nested paging (Intel EPT / AMD RVI). What is the essential trade-off of that move?",
+  "opts": {
+   "A": "It removes the memory overhead of the shadow tables, but requires the guest kernel to be modified so that every page-table update becomes an explicit hypercall",
+   "B": "It removes the host's dependence on an IOMMU, but in exchange no physical device can any longer be assigned directly to a guest",
+   "C": "It eliminates the guest's own page tables entirely, but the hypervisor must then service every page fault the guest takes",
+   "D": "It removes the VM exits previously needed to keep shadow tables synchronised with guest page-table edits, but a TLB miss now costs a two-dimensional walk through both guest and nested tables"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Nested paging lets the CPU walk the guest and host translations itself, so the guest may edit its own page tables freely and the exit-heavy shadow-table maintenance disappears, at the cost of a far longer walk on each TLB miss — which is exactly why large pages matter more under EPT/RVI. Option A describes a paravirtualised MMU, a different technique in which the guest is modified; nested paging needs no guest changes at all."
+ },
+ {
+  "id": "GEN-T2U4-030",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A host is short of physical memory, so the hypervisor inflates the balloon driver running inside one of its guests. What does inflating the balloon accomplish?",
+  "opts": {
+   "A": "It compresses the guest's least-recently-used pages into a host-side compression cache so that reclaiming them does not require disk I/O",
+   "B": "It allocates and pins pages inside the guest, letting the guest's own memory manager choose which pages to surrender, after which the hypervisor reclaims the host frames backing them",
+   "C": "It scans co-resident VMs for pages with identical contents and maps them onto a single shared host frame, freeing the duplicates",
+   "D": "It writes the guest's pages out to the host's swap file without the guest's participation and entirely transparently to the guest OS"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Ballooning is deliberately cooperative: the in-guest driver demands memory, and because the guest OS picks the victims it gives up the pages it considers least valuable, which is far better than the host guessing blindly. Option D is host swapping — the uncooperative fallback used when ballooning cannot reclaim fast enough — while C is transparent page sharing and A is memory compression, both separate reclamation techniques."
+ },
+ {
+  "id": "GEN-T2U4-031",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On a contended VMware vSphere cluster, a VM configured with 16 vCPUs performs worse than the same VM did with 8 vCPUs. The application is heavily multithreaded and keeps nearly all of its vCPUs busy, and the host's physical cores are oversubscribed across many VMs. What best explains this?",
+  "opts": {
+   "A": "The VM's vCPUs must progress within a bounded skew of one another, so a vCPU that runs ahead is co-stopped until its lagging siblings can be scheduled alongside it, which on a contended host shows up as co-stop time (%CSTP)",
+   "B": "Each extra vCPU reserves a fixed slice of host RAM for its register save area, leaving the guest with markedly less memory for its page cache",
+   "C": "The hypervisor pins each vCPU to a dedicated physical core, so a 16-vCPU VM cannot be scheduled at all unless 16 cores are permanently idle",
+   "D": "The guest scheduler keeps migrating threads across all 16 vCPUs, and each such migration forces a VM exit into the hypervisor"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "ESXi uses relaxed co-scheduling: it tracks how far each vCPU has fallen behind its siblings and co-starts the skewed ones together, so a wide VM on an oversubscribed host repeatedly waits for enough physical cores to free up at the same moment. The documented signature is co-stop time, %CSTP, and it is distinct from %RDY: %RDY counts time a vCPU was ready to run with no physical CPU available, whereas %CSTP counts time lost specifically to co-scheduling skew, which is the counter VMware's right-sizing guidance says to watch. Relaxed co-scheduling deliberately does not penalise idle vCPUs — a halted vCPU accrues no skew — so this bites a genuinely busy wide VM rather than a mostly idle one. Option C overstates the mechanism: vCPUs are time-shared against physical cores, not permanently pinned to them.",
+  "reviewFix": "Stem, key option and explanation all corrected; keyed letter A unchanged. Both blind passes flagged this, and their two findings compounded. First, the old stem stipulated that only four threads were ever busy and guest CPU utilisation stayed low — which is precisely the workload relaxed co-scheduling was designed NOT to penalise, since a descheduled idle vCPU accrues no skew, so the question asserted a co-start stall in the one case ESXi exempts. The stem now has the guest actually keeping its vCPUs busy, which makes co-scheduling the honest explanation. Second, the option and explanation diagnosed it with the wrong counter: %RDY is time a vCPU was ready with no physical CPU free, while %CSTP (co-stop) is the documented signature of an oversized vSMP VM and the one right-sizing guidance tells you to watch. Both now say %CSTP, and the explanation states the idle-vCPU exemption explicitly so the rule is not over-generalised."
+ },
+ {
+  "id": "GEN-T2U4-032",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A tenant VM needs near-line-rate throughput from a shared 25 GbE NIC with minimal host CPU cost, so the operator enables SR-IOV on that NIC and assigns the VM a virtual function. What has changed for that VM's traffic?",
+  "opts": {
+   "A": "The hypervisor's software switch is given exclusive use of a physical core, so its packet-processing loop is no longer preempted by guest vCPUs",
+   "B": "The emulated NIC in the guest is replaced by a paravirtualised device whose driver shares a descriptor ring with the host, halving the number of packet copies",
+   "C": "The entire NIC port is handed to the VM through the IOMMU, so that VM has sole use of the port and every other VM must be placed on a different port",
+   "D": "The NIC presents itself as several lightweight PCIe functions; one is assigned directly to the VM, which drives it with its own driver and DMAs into guest memory, bypassing the hypervisor's software switch"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "SR-IOV splits one physical function into many virtual functions that the NIC switches between in hardware, so each VM owns a VF directly while the IOMMU confines that VF's DMA to the owning guest's memory. Option C describes plain PCI passthrough, which cannot scale beyond the number of physical ports, and option B describes a paravirtualised device such as virtio-net, whose packets still traverse the host."
+ },
+ {
+  "id": "GEN-T2U4-033",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On a KVM host, `qemu-img info` reports the following for a VM's disk image:\n  file format: qcow2\n  virtual size: 40 GiB\n  disk size: 1.31 GiB\n  backing file: golden-base.qcow2\nWhich statement about this disk is correct?",
+  "opts": {
+   "A": "The 40 GiB figure is an upper quota only; the guest currently sees just 1.31 GiB of usable disk until the image is explicitly resized",
+   "B": "It is a copy-on-write overlay: only blocks written since it was created are stored here, every untouched block is read from golden-base.qcow2, which must remain present and unmodified",
+   "C": "golden-base.qcow2 is an incremental backup written after each shutdown of this VM, and may safely be deleted once the VM has booted cleanly",
+   "D": "The image is a compressed full clone in which 1.31 GiB holds the compressed form of the 40 GiB volume, and the base image is no longer referenced at runtime"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A backing file makes the image an overlay: any cluster the overlay has never written is read through to the base, so deleting or editing golden-base.qcow2 corrupts every overlay built on it — this is precisely how golden images and linked clones are implemented. The guest still sees the full 40 GiB; `disk size` merely reports how much of the host's storage the sparse overlay occupies today, which is why option A misreads the two figures."
+ },
+ {
+  "id": "GEN-T2U4-034",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A guest deletes 200 GB of files from a thin-provisioned virtual disk on a SAN-backed datastore. Free space inside the guest filesystem rises at once, but consumed capacity on the datastore and on the array does not fall. What explains this, and what brings the space back?",
+  "opts": {
+   "A": "The array is holding the freed blocks in its write cache; consumed capacity will drop of its own accord once that cache destages to disk",
+   "B": "Consumed capacity is recomputed only when a snapshot is taken, so the figure will correct itself at the next scheduled snapshot of the VM",
+   "C": "Deleting a file only rewrites guest filesystem metadata, so the underlying blocks stay allocated until the guest issues SCSI UNMAP / TRIM and the virtualisation and storage stack passes that reclamation down to the array",
+   "D": "For a thin-provisioned disk the datastore always displays the provisioned size rather than actual usage, so the figure shown was never going to change"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A delete is a metadata operation inside the guest filesystem, so the hypervisor and the array still believe those blocks are in use; reclamation requires an UNMAP/TRIM hint propagated from the guest filesystem through the virtual disk down to the array, which is why guests are mounted with discard support or run a periodic trim. Option D is the reverse of how thin provisioning is reported — the whole point of a thin datastore is that it reports blocks actually allocated, not the provisioned size."
+ },
+ {
+  "id": "GEN-T2U4-035",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A write-heavy in-memory database VM is being live-migrated between two hosts that use shared storage. The hypervisor copies its memory, then copies more memory, and after several passes the migration is abandoned instead of completing. What is happening?",
+  "opts": {
+   "A": "The destination host reports a different CPU model, so each page must be re-encoded for that model before the destination will accept it",
+   "B": "Because storage is shared, the virtual disk is transferred alongside memory on every pass, and the disk is far larger than the VM's RAM",
+   "C": "Pre-copy migration re-sends the pages dirtied during the previous pass; this workload dirties memory faster than the migration link can ship it, so the residual set never shrinks enough to enter the brief stop-and-copy phase",
+   "D": "Every pass retransmits the guest's entire memory from the beginning, so the total transfer time is fixed and simply exceeds the configured migration timeout"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Pre-copy converges only while the guest's page dirty rate stays below the achievable transfer rate; a write-heavy in-memory workload can outrun the link, leaving a large residual working set and forcing the hypervisor to give up — the usual remedies are a faster migration network, throttling the vCPUs, or a post-copy strategy that resumes on the destination and faults pages across. Option B inverts the purpose of shared storage: the disk is not copied at all, only memory and device state are."
+ }
+]

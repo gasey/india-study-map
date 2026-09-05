@@ -1,0 +1,128 @@
+[
+ {
+  "id": "GEN-T2U2-080",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "An Nginx reverse proxy fronts a Node backend that streams a generative AI completion to the browser as Server-Sent Events. Run locally the tokens appear one by one; through Nginx the client receives nothing until the model has finished, and then the whole response arrives at once. The location block is:\n\nlocation /api/chat/ {\n    proxy_pass http://127.0.0.1:8080;\n    proxy_http_version 1.1;\n    proxy_set_header Connection \"\";\n}\n\nWhich addition fixes the delivery?",
+  "opts": {
+   "A": "proxy_read_timeout 3600s;",
+   "B": "proxy_set_header Upgrade $http_upgrade;",
+   "C": "proxy_buffering off;",
+   "D": "proxy_cache_bypass $http_pragma;"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Nginx buffers the upstream response by default, so an SSE stream is withheld until a buffer fills or the upstream closes the connection; turning buffering off for that location (or having the upstream send X-Accel-Buffering: no) passes each chunk straight through. The Upgrade header pair matters for the WebSocket handshake, not for SSE, which is an ordinary long-lived HTTP response."
+ },
+ {
+  "id": "GEN-T2U2-081",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "An MCP server for a deployment platform has to expose two capabilities: the text of a service's log file, which the host application should be able to fetch and place into the model's context on demand, and an operation that restarts that service. Which MCP primitives fit these two respectively?",
+  "opts": {
+   "A": "Both as tools, since either way the host has to make a call to the server",
+   "B": "The log file as a resource and the restart as a tool",
+   "C": "The log file as a prompt and the restart as a resource",
+   "D": "Both as resources, with the restart modelled as a writable resource"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "MCP resources are addressable, readable context that a client retrieves and hands to the model, whereas tools are invocable functions with side effects that the model can choose to call — a log file is context, a restart is an action. Option A is tempting because both involve a round trip to the server, but it discards precisely the distinction MCP draws so that a host can apply different trust and approval rules to reading data versus performing actions; prompts, the third primitive, are reusable templated interactions, not file contents."
+ },
+ {
+  "id": "GEN-T2U2-082",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "Messages exchanged between a host application's MCP client and an MCP server are encoded using which pre-existing specification?",
+  "opts": {
+   "A": "JSON-RPC 2.0",
+   "B": "gRPC with Protocol Buffers",
+   "C": "GraphQL queries over HTTP POST",
+   "D": "SOAP 1.2 envelopes over HTTP"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "MCP defines its requests, responses and notifications as JSON-RPC 2.0 messages, which is what lets the identical message shapes travel over a local stdio pipe or an HTTP-based transport without change. gRPC is the natural guess because it is the usual choice for machine-to-machine RPC, but it requires a binary codec and HTTP/2 and so would not suit the plain stdio local-subprocess server that MCP is built to support."
+ },
+ {
+  "id": "GEN-T2U2-083",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "Reviewing code produced by an AI coding assistant, a developer finds an import of an npm package whose name resembles, but is not, a well-known library. npm install succeeds and CI is green. Why is this a supply-chain concern rather than merely a typo?",
+  "opts": {
+   "A": "The invented name will break semantic-version resolution the next time the lockfile is refreshed",
+   "B": "npm silently substitutes the nearest published package name, so runtime behaviour differs from the source",
+   "C": "No type declarations will be found, so TypeScript degrades the import to any and hides errors",
+   "D": "Models invent the same plausible package names repeatedly, and attackers pre-register those names, so a successful install pulls attacker-controlled code"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Hallucinated dependency names cluster rather than being random, so an attacker who publishes them obtains code execution in every build and developer machine that installs one — which is why the install succeeding is the alarming outcome, not a failing one. npm performs no nearest-name substitution: an unpublished name simply 404s, so the fact that it resolved at all is the evidence that somebody registered it."
+ },
+ {
+  "id": "GEN-T2U2-084",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A support chat widget calls a stateless hosted generative AI chat-completion API, so the backend resends the whole transcript on every turn. Ignoring prompt caching, and assuming the transcript still fits inside the context window, how do the cumulative billed input tokens for one session grow with the number of turns n?",
+  "opts": {
+   "A": "Roughly linearly in n, because exactly one request is issued per turn",
+   "B": "Roughly with n squared, because each turn resends everything that preceded it",
+   "C": "Constant after the first turn, because the provider deduplicates context it has already seen in the session",
+   "D": "Bounded by the model's context window, so the session's cost stops rising once that size is reached"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Turn k carries about k turns' worth of transcript, and summing k from 1 to n produces an n-squared term, so a long conversation costs far more than n times the opening request. Option D confuses a per-request limit with a per-session total: the context window caps how much any single call may carry, but every later call still bills that retained context again."
+ },
+ {
+  "id": "GEN-T2U2-085",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A first-party web analytics script must post a small end-of-session payload as the user navigates away, but requests started from a visibilitychange or unload handler are frequently cancelled when the document is torn down. Which browser API was introduced specifically to hand such a request to the user agent for delivery after the page is gone?",
+  "opts": {
+   "A": "navigator.sendBeacon()",
+   "B": "window.requestIdleCallback()",
+   "C": "A synchronous XMLHttpRequest issued inside the unload handler",
+   "D": "A beforeunload listener that returns a string"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "sendBeacon() queues a small POST with the user agent, which undertakes to send it even after the document unloads, and it returns immediately so navigation is never delayed. Synchronous XHR in unload was the old workaround that sendBeacon exists to replace — browsers now block or ignore it precisely because it stalls the next navigation."
+ },
+ {
+  "id": "GEN-T2U2-086",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A Kubernetes Deployment proxies user requests to an external generative AI provider; each request occupies a pod for 20-40 seconds while awaiting the upstream. Under load, queueing latency climbs steeply, but the HorizontalPodAutoscaler targeting 70% CPU utilisation reports the pods at about 5% CPU and never scales out. What explains this, and what is the correct fix?",
+  "opts": {
+   "A": "The CPU target is set too high; lowering it to 30% will make the same signal trigger scale-out",
+   "B": "The pods declare no CPU requests, so the HPA cannot compute utilisation; adding requests restores scaling",
+   "C": "The pods are blocked on I/O so CPU stays low; autoscale instead on a metric reflecting concurrency, such as in-flight requests or queue depth",
+   "D": "The readiness probe marks pods unready during long requests, so the HPA excludes them when averaging the metric"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The workload is I/O-bound on the upstream API, so CPU is a poor proxy for saturation — the resource actually exhausted is concurrent in-flight requests per pod, which is what the autoscaler must observe via a custom or external metric. Lowering the target, as option A proposes, changes nothing when measured utilisation is 5%: the threshold is not the problem, the choice of signal is; and the reported 5% figure shows utilisation is being computed, so option B's missing-requests scenario is not what is happening."
+ },
+ {
+  "id": "GEN-T2U2-087",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A state government department discovers that its public web portal has been defaced and a table of registered users exfiltrated. Under the CERT-In directions issued in April 2022, within what period of noticing such an incident must it be reported to CERT-In?",
+  "opts": {
+   "A": "72 hours",
+   "B": "24 hours",
+   "C": "30 days",
+   "D": "6 hours"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The 2022 directions require the specified categories of cyber incident to be reported to CERT-In within six hours of noticing them or being brought to notice, a far tighter window than practitioners expect. Option A is the trap because 72 hours is the GDPR breach-notification deadline, which is frequently and wrongly assumed to apply in India; the same CERT-In directions also require ICT system logs to be maintained for 180 days within Indian jurisdiction."
+ },
+ {
+  "id": "GEN-T2U2-088",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A web assistant fetches third-party pages and summarises them, and is also connected to an MCP server that can send email on the user's behalf. One retrieved page contains text instructing the assistant to forward the user's recent messages to an outside address. Which mitigation actually addresses this class of attack?",
+  "opts": {
+   "A": "Adding a line to the system prompt telling the model to disregard any instructions found inside retrieved content",
+   "B": "Enforcing authorisation and explicit user confirmation at the tool layer, so a send action cannot occur on the model's decision alone",
+   "C": "HTML-escaping the retrieved page before inserting its text into the prompt",
+   "D": "Lowering the sampling temperature so the model's output becomes more deterministic"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Untrusted retrieved text and trusted instructions reach the model as one undifferentiated token stream, so no wording inside the prompt reliably separates them; the durable control sits outside the model, in least-privilege tool scopes and a confirmation step before any side-effecting call. Option A is the usual first attempt and is defeated by rephrased injections, because it asks the model to police the very boundary it cannot perceive; escaping HTML does nothing, since the payload is ordinary prose, not markup."
+ }
+]

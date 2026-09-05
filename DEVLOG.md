@@ -9,6 +9,152 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (night, latest) — Technical Paper II Units 2 & 4 taken to 12 per leaf, and the review gate that could never have been satisfied
+
+**What shipped.** The first depth pass either unit has had. Every one of the 17
+syllabus leaves in TECH2 Unit 2 (Web Technologies) and Unit 4 (Cloud Computing)
+now holds exactly **12** questions, up from 3.
+
+- **150 new authored questions** — `import_tech2_u2u4_gen.py` +
+  `staged/tech2-u2u4-gen/`. Bank **1945 → 2095**. Unit 2: 88 new (120 total),
+  Unit 4: 62 new (84 total). Answer spread A/B/C/D = 39/40/39/32.
+- **The 51 pre-existing *authored* U2/U4 questions reviewed for the first time** — they came
+  from the 2026-09-04 "close all bare leaves" breadth pass, had no review
+  artifacts, and all self-rated `high` while sitting live in the app behind
+  `derived · high confidence` badges. Two blind reviewers found **no wrong keys**
+  and 7 questions needing repair; all 7 fixed in place, each carrying a
+  `reviewFix` recording what was wrong.
+- **A real bug in the importer's review gate** (below), plus `stamp_u2u4_ids.py`.
+
+**Why authored at all.** Units 2 and 4 are 100 of Technical Paper II's 200 marks
+and **no MPSC paper has ever examined them**. That is not an extraction gap: the
+syllabus naming Kubernetes, OWASP and Model Context Protocol is from 2026, and a
+scan of all past-paper records finds 4 questions mentioning any web term and
+*zero* mentioning cloud. Extraction cannot reach content that was never printed.
+Authors worked from the **verbatim unit text of MPSC's notification**
+(File No. A-12038/68/2025-ICT, `syllabusex.pdf`, sha256 `8b6619681c…`, which
+still verifies) rather than from the subtopic labels — including its OCR damage
+(`Kubemetes`, `CSRE` for CSRF, `Apls`, `Polymoxphism`), normalised in the prompts
+so no author had to guess.
+
+**The review gate could not have been satisfied by anyone.** The importer
+resolves a reviewer flag by finding a `reviewFix` on the question whose `id` the
+reviewer cited:
+
+```python
+fixed_ids = {q["id"] for q in records if q.get("id") and q.get("reviewFix")}
+```
+
+but `records` is built from the per-leaf `*.done.json` files, and **authors never
+write an `id`** — the importer *derives* ids itself, further down, after the gate
+has already run. So `fixed_ids` was unconditionally empty and *any* flag would
+have been permanently unresolvable. This is worse than a bug that fails loudly:
+a gate that cannot be satisfied is indistinguishable, from the outside, from a
+gate that is merely strict. It would have been "resolved" by deleting flags.
+
+Fixed in three parts. `stamp_u2u4_ids.py` writes each question's import-time id
+into its `.done.json`, but **refuses unless the recomputed ids match `_all.json`
+question-for-question, comparing stems and not just counts** — because
+`_all.json` is what the review batches were cut from, so if the two ever
+disagree the ids reviewers cited are not the ids the questions will receive, and
+stamping would silently attach a fix to a *neighbouring* question. The importer
+now also hard-stops on that drift at id-assignment time, and rejects a flag
+citing an unknown id (previously unresolvable-by-construction, with an error
+blaming a question that does not exist). Structural validation was moved *ahead*
+of the review gate: a malformed batch is the author's to fix and should not need
+two reviews to surface.
+
+`_all-as-reviewed.json` is kept frozen alongside `_all.json` as the exact
+snapshot the reviewers saw, since the fixes deliberately diverge from it.
+
+**What the 8 reviewers found.** Two blind passes over each of 4 batches, given
+deliberately different methods so agreement carries information — refutation-first
+vs. independent-solve-then-compare. 300 question-reviews → **14 flags on 9
+questions, and no wrong keys anywhere**. 4 of the 9 were raised independently by
+both passes. The dominant defect was not a bad key but **a correct key reached by
+a false rule**, which is precisely the failure a key-only check cannot see.
+
+Every external claim was verified against primary source before being acted on,
+because a reviewer is as capable of being confidently wrong as an author:
+
+- **`GEN-T2U2-063` was actively teaching the wrong answer.** It keyed SSRF as
+  `A10:2021` and taught the student to *reject* "Broken Access Control". The
+  OWASP Top 10:2025 (published 6 Nov 2025) retired the standalone SSRF category
+  and folded CWE-918 into **A01:2025 Broken Access Control** — confirmed on
+  `owasp.org/Top10/2025/A01_2025-Broken_Access_Control/`. Edition-pinning made it
+  internally consistent but not safe to drill for a 2026 exam. Re-keyed D → A,
+  with all four options rebuilt against the verified 2025 list (which also moved
+  Injection to A05 and Security Misconfiguration to A02), not relabelled.
+- **`GEN-T2U2-079` keyed a version that has never existed.** lodash `4.19.3`
+  returns nothing from `registry.npmjs.org`; `dist-tags.latest` is `4.18.1`. The
+  only in-range option did not exist, so a candidate who actually knew lodash had
+  no defensible answer. Re-keyed to `4.18.1`, which is both real and what npm
+  would resolve to.
+- **`GEN-T2U4-045` asserted an AWS-only rule as universal**, in a stem naming no
+  provider: GCS documents "No minimum object size" for *every* class. Its premise
+  was also stale — since September 2024 S3 Lifecycle refuses by default to
+  transition objects under 128 KB at all, so the 20 KB scenario would not occur.
+  Pinned to Google Cloud Storage and re-based on Archive's 365-day minimum
+  storage duration plus per-object transition operations.
+- **`GEN-T2U4-031` described the co-scheduling model VMware abandoned**, in the
+  one case the current model exempts: relaxed co-scheduling does not penalise
+  *idle* vCPUs, yet the stem stipulated 12 of 16 sat idle. It also named `%RDY`
+  where the documented signature of an oversized vSMP VM is `%CSTP`. Stem now has
+  the guest genuinely busy; both counters corrected.
+- `GEN-T2U4-006` was a near-verbatim duplicate of `GEN-T2U4-014` (both blind
+  passes caught it; they slipped past each other because the two sit under
+  different sub-topic tags). Rewritten to test the **community cloud** model,
+  against deployment-model definitions extracted verbatim from the published
+  NIST SP 800-145 PDF rather than recalled.
+- `GEN-T2U2-018`, `-033`, `-067`, `GEN-T2U4-012` — correct keys, false or
+  over-broad rationales: float on flex items is *ignored*, not "blockified away";
+  `defer` orders only against other deferred scripts; a CSP **nonce cannot
+  whitelist an `onerror=` attribute** (that needs `unsafe-hashes`); and FaaS
+  "nothing is charged while idle" stopped being universally true when Provisioned
+  Concurrency shipped in 2019.
+
+**One reviewer disagreement, resolved against the quieter one.** For batch u4b,
+one pass returned **zero flags** and asserted its provider-dependent items pinned
+their provider in the stem; the other flagged `GEN-T2U4-045`. Reading the
+question settles it — it names no provider. The zero-flag pass was wrong. Worth
+remembering the next time a clean review looks reassuring.
+
+**Verified in the browser, not just by typecheck.** Served `public/` and drove
+the real flow: bank loads 2095, the new set appears in the source filter as
+"Authored practice — Technical Paper II depth pass … (150)", a question renders
+with the **"practice" pill** rather than a sitting name, and the badge reads
+**`derived · high confidence`**, never "official key" — the `provLine()`
+negation guard correctly catches this batch's provenance string, which contains
+the words "no official key". Past Papers shows zero leakage. No console errors.
+
+**What's still open.**
+- `GEN-T2U2-079` (npm caret resolution) is **filed under the wrong leaf** —
+  "Architecture and scale" rather than the Git/Docker/CI-CD/deployment leaf. Left
+  in place deliberately and recorded as placement debt: per-leaf counts are
+  contractual against the authoring briefs and the importer enforces them, so
+  moving it needs a swap in the other direction, and replacing it outright would
+  ship an unreviewed question.
+- `GEN-T2U4-006` was **rewritten after** its review, so the version now in the
+  bank has not itself been through a blind pass. Its facts are quoted from
+  SP 800-145, but it is the one record here whose current text two reviewers
+  never saw.
+- Units 2 and 4 sit at 12 per leaf; the other TECH2 units and the rest of the
+  2026 syllabus are still at breadth-pass depth (3 per leaf).
+- The 201 **authored** U2/U4 questions all remain `derived` — there is no
+  official key to promote them against, and there will not be one until MPSC
+  actually sets these units.
+- Counting note for whoever reconciles these numbers next: U2/U4 holds **204**
+  records, not 201. Three are real past-paper questions (`ILM2023_P3_050`,
+  `ILM2023_P3_087`, `ILM2018_P3_053`) tagged onto U2/U4 leaves — DNS, the default
+  HTTP port, and the definition of a distributed system. They are transcribed
+  from the ILM CSE Paper III scans in `mpsc-cse-papers/`, so they were correctly
+  **out of scope** for an adversarial review of authored content and were not
+  part of the 51. They are also the reason "no MPSC paper has ever examined these
+  units" needs its qualifier: no paper *for this post* has, though a handful of
+  general questions from other posts' CSE papers do land on these leaves.
+
+---
+
 ## 2026-09-05 (night, later) — Section B, first pass: 24 authored practice MCQs instead of 20 fake past-paper ones, and an adversarial review wired in as a build dependency
 
 **What shipped.** `import_pe2018_secb_gen.py` + `staged/pe2018-secb-gen/` — 24

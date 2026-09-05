@@ -1,0 +1,21 @@
+{
+ "reviewer": "B — independent solve-then-compare pass, blind to reviewer A",
+ "reviewed": 51,
+ "flags": [
+  {
+   "id": "GEN-TECH2-U2-7c58be",
+   "type": "bad_explanation",
+   "severity": "low",
+   "detail": "Keyed option A describes the mitigation as 'letting one request rebuild the entry under a lock while the others serve the stale value'. In the scenario as stated the key has expired, so in a plain TTL cache there is no stale value left to serve; serving stale during rebuild requires an additional design (soft TTL / stale-while-revalidate / probabilistic early expiration) the stem does not posit. The key is still the only correct option — cache stampede is unambiguously right and B, C, D are clearly wrong — but a strong candidate can be snagged by the half-sentence. The explanation itself is accurate (lock plus TTL jitter), so option and explanation are out of step.",
+   "suggested_fix": "Reword option A to '...letting one request rebuild the entry under a lock while the others wait or serve a retained stale copy, and by jittering expiry times' — or drop the stale-serving clause, matching the explanation."
+  },
+  {
+   "id": "GEN-TECH2-U2-2e0e39",
+   "type": "true_distractor",
+   "severity": "low",
+   "detail": "Option B, 'Register /reports/:id as a server-side route that renders the report itself', would in fact stop the 404 on reload — it is server-side rendering, a real and widely used answer to the deep-link problem, not a false statement. The stem asks 'What is required?', which overstates the uniqueness of C. C is the intended and minimal SPA answer, and the explanation only rebuts option D (redirect to root), never B.",
+   "suggested_fix": "Tighten the stem to pin the intent, e.g. '...what is the minimal change to the web server configuration that fixes this while keeping the app a pure client-rendered SPA?', and note in the explanation that server-rendering the route also works but abandons the SPA model."
+  }
+ ],
+ "notes": "Strong, unusually clean set. I independently answered all 51 before comparing, and every key matches my own answer — no wrong keys, no option-letter transpositions. Coverage maps cleanly onto the stated Unit 2 and Unit 4 syllabus topics; nothing off-syllabus. Fact-currency spot checks held as of 2026-09: NIST SP 800-145 five characteristics and four deployment models, NIST SP 500-292 five actors, MCP's tools/resources/prompts server role, Terraform state-file provisioning vs agentless Ansible over SSH, Kubernetes memory request-vs-limit (OOMKill not throttle), cgroups vs namespaces, 802.1Q's 12-bit / 4094-segment cap vs VXLAN overlays, and the 99.9%-of-43,200-minutes arithmetic. Two items checked hard and decided were fine rather than flags: GEN-TECH2-U2-ac203f (option B, escape-at-storage, is defensible, but the stem's qualifier 'independently of how the value was stored' pins A and the explanation handles B); GEN-TECH2-U2-70bbd5 (min-width: auto would normally make 'same width' false, but the stem's no-unbreakable-token assumption and the explanation's closing sentence cover it). One currency caveat, not a defect in the key: GEN-TECH2-U2-5c4506 tests the DPDP Act 2023 consent framework, whose operative consent-and-notice obligations are phasing in under the DPDP Rules 2025 and are not fully in force today — the stem describes the framework rather than a present enforcement duty, so option A remains correct, but the phrasing should be re-checked if reused after 2027. Stylistic nits deliberately not raised as flags: GEN-TECH2-U2-44c084's explanation says 412 applies 'on an unsafe request', a mild overstatement (412 can also answer a conditional safe request); GEN-TECH2-U4-845f89's option B says mTLS is terminated 'on each individual service-to-service request' where a proxy terminates per connection. Neither changes the correct answer."
+}

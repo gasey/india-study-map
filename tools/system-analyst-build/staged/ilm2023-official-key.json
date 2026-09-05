@@ -4,7 +4,7 @@
   "~/Downloads/mpsc_pdfs_examination/Answer_Keys/Inspector of Legal Metrology under FCS&CA Deptt. Final Answer Key..pdf",
   "~/Downloads/mpsc_pdfs_examination/Answer_Keys/Corrigendum of Final Answer Key of Inspector, Legal Metrology under FCS&CA Deptt...pdf"
  ],
- "_note": "P1 is taken from the corrigendum (which supersedes the 8-Mar key); for CS Paper-I the two are identical in substance. P2 is not covered by the corrigendum, so the 8-Mar key stands. Paper-I Q29 is keyed '(Compensated)' - no correct answer exists. NOT YET APPLIED to the bank; see SPLIT-FINDINGS-REVIEW.md section 0.",
+ "_note": "P1 is taken from the corrigendum (which supersedes the 8-Mar key); for CS Paper-I the two are identical in substance. P2 is not covered by the corrigendum, so the 8-Mar key stands. Paper-I Q29 is keyed '(Compensated)' - no correct answer exists. APPLIED to the bank on 2026-09-04 by apply_official_keys.py --sitting ILM2023 --write; re-verified 2026-09-05 (0 changed, 136 already up to date, 100.0% agreement). The 12 entries in disagreements_vs_bank are a HISTORICAL record of what the bank held before that run - they are all resolved in MPSC's favour now, so do not read them as outstanding bugs. See SPLIT-FINDINGS-REVIEW.md section 0.",
  "_bank_check": {
   "records_compared": 136,
   "agree": 123,

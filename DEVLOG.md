@@ -9,6 +9,74 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-05 (later) — The "12 live wrong answers" at the top of the open-items list were fixed a day earlier; three stale notes kept them alive
+
+**What shipped.** Nothing in the bank changed, and that is the finding. The item
+this session set out to fix — *"the ILM-2023 official key is still `NOT YET
+APPLIED`, 12 live wrong answers"*, ranked #1 in
+`HANDOFF-TECH2-SYSTEM-ANALYST.md` and repeated in the 2026-09-05 DEVLOG entry —
+was **already done on 2026-09-04**. Corrected the three places that still said
+otherwise and removed it from the open list.
+
+**Why it survived a day of being false.** The claim lived in three files and the
+fix touched none of them:
+
+- `HANDOFF-TECH2-SYSTEM-ANALYST.md` open item #1, written from
+- the 2026-09-05 DEVLOG "what's still open", written from
+- `staged/ilm2023-official-key.json`'s own `_note`, which still read
+  `NOT YET APPLIED to the bank` — and still does record 12 entries under
+  `disagreements_vs_bank`.
+
+That last one is the root cause and the trap. `disagreements_vs_bank` is a
+**historical** record of what the bank held *before* the applier ran; nothing
+rewrites it afterwards, so it reads identically whether the key is applied or
+not. Every reader who checked "is this done?" by opening the key file got a
+list of 12 disagreements and a note saying NOT YET APPLIED, and concluded no.
+The `_note` now states the applied date, the re-verification result, and
+explicitly that those 12 entries are historical.
+
+A second snag on the way: the applier the 2026-09-04 entry names,
+`apply_official_key.py`, does not exist. Commit `4222fe1` generalised it to
+**`apply_official_keys.py`** (plural) during the 120-key sweep, and git reports
+that as a delete, so "the script that did this is gone" looks true for about a
+minute. It isn't; the registry inside it still carries an `ILM2023` entry.
+
+**Verified against the data, not the prose.** The reason to trust "already
+applied" is not the 2026-09-04 DEVLOG entry — that is exactly the kind of
+self-report this project has learned not to take at face value:
+
+- All **12** `disagreements_vs_bank` ids now hold MPSC's letter, not the old
+  bank answer (P1 Q6 D→B, Q9 A→B, Q27 D→B, Q28 A→B, Q35 B→A, Q46 D→A, Q58 B→C,
+  Q66 D→A, Q80 B→D, Q93 A→D; P2 Q8 C→B, Q20 B→C).
+- **136/136** ILM2023 records pass `provLine()`'s actual official-key test —
+  re-implemented from `app.js` rather than grepped for the word "official",
+  which is the mistake CLAUDE.md already warns about.
+- `ILM2023_P1_029` is `ans: ""` — the question MPSC compensated.
+- A dry run of `apply_official_keys.py --sitting ILM2023` reports
+  *135 agree, 0 disagree, 1 compensated, 100.0% agreement, 0 record(s) changed,
+  136 already up to date*.
+
+Then confirmed in the browser, since a correct data file that the app renders
+wrongly is still a wrong answer on screen: Past papers → ILM Nov-2023 Paper I →
+Browse with answers shows **97/97 cards badging blue `official key` and 0
+`derived`**, Q6 highlights **B**, and Q29 highlights **no option at all**. Both
+Nov-2023 sittings read "official key" in the paper list where every other
+sitting reads "derived answers", and P1 is listed as 97 of 98 — Q29 correctly
+dropping out of the answerable pool.
+
+**What's still open.** The open-items list is renumbered and now starts at
+`staged/tech2-2026/`'s 265 questions with no import script. The ILM-2023 item
+moved to the handoff's "Things not to re-derive" section with the re-check
+command, so the next reader stops rather than re-investigating.
+
+One thing deliberately not fixed: **this file's entries are no longer in date
+order.** Below the 2026-09-02 entry the dates run 09-06, 09-05, 09-05, 09-05,
+09-04 — two sessions' streams interleaved at some point. Newest-on-top still
+holds for recent entries, but a reader scanning downward for "the latest word
+on X" can hit an older entry first, which is a mild version of the same failure
+this entry is about. Untangling it means reordering ~6,400 lines of an
+append-only log and is a job of its own.
+
 ## 2026-09-05 — Paper II finished: 32 concepts close the Study pane's hole, every question gets a study mode, and modes.js turned out to be 62% dead ids
 
 **What shipped.** Technical Paper II is now complete — questions, concepts and
@@ -95,7 +163,9 @@ changes are now written into `CONCEPT_BRIEF.md`'s workflow and
 **What's still open.** `HANDOFF-TECH2-SYSTEM-ANALYST.md` is the cold-start
 document for this paper and carries the full list. The headline items are
 unchanged and none are Paper II's: the **ILM-2023 official key is still not
-applied, with 12 live wrong answers**; `staged/tech2-2026/`'s 265 questions
+applied, with 12 live wrong answers** — ***CORRECTION, see the 2026-09-05
+(later) entry above: this was false when written. The key had been applied on
+2026-09-04; all 12 answers were already right.*** `staged/tech2-2026/`'s 265 questions
 still have no import script (and q44 is still swallowed inside N0139's option
 (d)); 32 keyed `cse_paper_2` questions remain unimported; the 254 parked
 authored questions still need `_LEGACY` support in `generate.py`; and 1,309

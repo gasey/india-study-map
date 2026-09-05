@@ -105,29 +105,23 @@ Paper II) and `check_symbol_residue.py` (0 private-use residue across 1,830).
 
 ## Open items, most valuable first
 
-1. **The ILM-2023 official key is still `NOT YET APPLIED`.** It records **12
-   questions where the bank teaches an answer MPSC's official key contradicts**
-   (10 in `ILM2023_P1_*`, 2 in `P2_*`; see `disagreements_vs_bank` in
-   `staged/ilm2023-official-key.json` and §0 of `SPLIT-FINDINGS-REVIEW.md`).
-   These are **live wrong answers** and this is the highest-value correctness
-   fix in the app. Untouched by the Paper II work.
-2. **`staged/tech2-2026/` — 265 double-solved questions, still no import
+1. **`staged/tech2-2026/` — 265 double-solved questions, still no import
    script.** It must special-case the 29 questions ILM Nov-2023 Paper II's
    official key covers rather than importing all 265 as `derived`, or it will
    label an authoritative answer agent-derived and get **N0162** wrong. **q44 is
    still swallowed inside option (d) of N0139** and must be recovered in the
    same pass. Full detail in the DEVLOG entry of 2026-09-03.
-3. **32 keyed-but-unimported `cse_paper_2` questions** (q39, q44, q71–100) — the
+2. **32 keyed-but-unimported `cse_paper_2` questions** (q39, q44, q71–100) — the
    largest block of keyed material not in the app.
-4. **254 authored questions are parked and unreachable**, in
+3. **254 authored questions are parked and unreachable**, in
    `staged/parked-legacy-syllabus-2026-09-04/` (see its README). Their `sub`
    strings match `TECH2_LEGACY`/`TECH1_LEGACY` leaves, but `generate.py`'s
    filename regex `(TECH\d|GE|GS)-U([0-9A-D]+)-(\d+)` cannot name a `_LEGACY`
    paper. Needs a pipeline change, then re-merge, then confirm the app reports
    254 `GEN-` questions. **Do not delete that directory until it does.**
-5. **1,309 questions still have no study-mode label**, TECH1's 945 among them.
+4. **1,309 questions still have no study-mode label**, TECH1's 945 among them.
    `classify.py --export --paper TECH1` is the next batch.
-6. **TECH1's 266 concepts do not map to its 2026 syllabus leaves.**
+5. **TECH1's 266 concepts do not map to its 2026 syllabus leaves.**
    `author_concepts.py --report` shows all 27 TECH1 leaves as bare while unit 1
    alone holds 70 concepts — they are authored at a finer granularity
    ("Sets, subsets, power set, cardinality" under the leaf "Sets, mappings and
@@ -136,7 +130,7 @@ Paper II) and `check_symbol_residue.py` (0 private-use residue across 1,830).
    re-tagged to leaves or whether the report should model both shapes — but do
    **not** "fix" it by running `author_concepts.py --export --paper TECH1`,
    which would author 27 duplicate concepts on top of good ones.
-7. **358 `rel` links in TECH1's concepts resolve to nothing and are dropped
+6. **358 `rel` links in TECH1's concepts resolve to nothing and are dropped
    silently by the app.** Measured across all 994 concepts: TECH1 358, GS 3,
    TECH1_LEGACY 3, GE 1, TECH3 1, **TECH2 0**. `app.js` resolves `rel` by `sub`
    string with a trailing `.filter(Boolean)`, so the reader just sees a shorter
@@ -144,17 +138,33 @@ Paper II) and `check_symbol_residue.py` (0 private-use residue across 1,830).
    migration: TECH1's concepts point at leaf names that were renamed. Worth a
    pass — `author_concepts.py`'s second-pass validator has the exact resolution
    logic to reuse.
-8. **3 rule/agent study-mode disagreements** printed by `classify.py --merge`
+7. **3 rule/agent study-mode disagreements** printed by `classify.py --merge`
    (`GEN-158`, `GEN-215`, `TECH1_OLD-3`). The agent looks right in all three —
    a district count is recall, not computation — but they are flagged for a
    human.
-9. **Unit 4 bundles more than 21 questions can cover.** Zero Trust and IAM have
+8. **Unit 4 bundles more than 21 questions can cover.** Zero Trust and IAM have
    no dedicated question and Sustainable Cloud Computing has no leaf of its own
    in `syllabus.js`; all three are carried by the concept notes instead. A
    second question pass on Unit 4 would be worthwhile.
 
 ## Things not to re-derive
 
+- **The ILM-2023 official key is applied.** Earlier revisions of this file and
+  of the 2026-09-05 DEVLOG entry listed it as the top open item with "12 live
+  wrong answers". That was **wrong** — it had been applied on 2026-09-04 by
+  `apply_official_keys.py`, and the claim survived because three places still
+  said `NOT YET APPLIED`: this file, that DEVLOG entry, and the `_note` field
+  of `staged/ilm2023-official-key.json` itself. Verified 2026-09-05 against
+  the data, not the prose: all **12** disagreements now hold MPSC's letter,
+  **136/136** records pass `provLine()`'s official-key test, `ILM2023_P1_029`
+  is `ans: ""` (compensated), and a dry run reports *0 changed, 136 already up
+  to date, 100.0% agreement*. Re-check with:
+
+      python3 tools/system-analyst-build/apply_official_keys.py --sitting ILM2023
+
+  Note the applier is `apply_official_keys.py` (**plural**). The DEVLOG entry
+  of 2026-09-04 names `apply_official_key.py`, which was correct when written
+  and was generalised into the plural form by commit `4222fe1`.
 - **`staged/parked-classifying-stale-2026-09-05/`** holds 684 classification
   rows whose question ids are not in the bank. Before parking them it was
   proven that **0 currently-live valid labels would be lost and 94 gained**;

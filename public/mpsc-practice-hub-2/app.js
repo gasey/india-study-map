@@ -17,7 +17,7 @@
 (function () {
   'use strict';
 
-  var PAPERS = window.PH2_PAPERS || [];
+  var PAPERS = (window.PH2_PAPERS || []).slice();
   var META = window.PH2_META || { topics: [], groups: [], totals: {} };
   var STORE_KEY = 'ph2:v1';   // deliberately its own namespace — see BUILD_GUIDE
                               // on the shared-localStorage bug that corrupted
@@ -30,14 +30,108 @@
   var BY_KEY = {};              // key -> question
   var PAPER_BY_ID = {};
 
-  PAPERS.forEach(function (p) {
+  function indexPaper(p) {
     PAPER_BY_ID[p.paperId] = p;
     (p.questions || []).forEach(function (q) {
       q._paper = p;
       BY_KEY[q.key] = q;
       ALL.push(q);
     });
-  });
+  }
+
+  PAPERS.forEach(indexPaper);
+
+  function slugify(value) {
+    return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
+
+  /* Current Affairs is maintained as dated JSON files by its own pipeline.
+   * Adapt those records into the same paper/question contract as the static
+   * past-paper bundle, without copying them into generated papers.js. */
+  function currentAffairsPaper(day) {
+    var date = day.date;
+    var questions = (day.mcqs || []).map(function (q, i) {
+      var topicSlug = 'ca-' + slugify(q.topic || 'general');
+      return {
+        id: q.id,
+        n: i + 1,
+        part: 'CA',
+        direction: null,
+        q: q.question,
+        opts: q.options,
+        answer: q.correctAnswer,
+        marked: null,
+        conf: 'medium',
+        why: q.explanation,
+        topic: topicSlug,
+        topicLabel: q.topic || 'Current Affairs',
+        flag: null,
+        source: 'current-affairs',
+        key: 'ca:' + date + ':' + q.id,
+        topicGroup: 'gk',
+        disagrees: false
+      };
+    });
+    return {
+      paperId: 'current-affairs-' + date,
+      exam: 'MPSC Current Affairs',
+      examShort: 'CA',
+      dept: 'Daily current-affairs digest',
+      sitting: 'Daily · ' + date,
+      year: Number(date.slice(0, 4)),
+      paper: date,
+      paperTitle: day.source && day.source.title ? day.source.title : 'Current Affairs',
+      sittingLabel: 'Current Affairs · ' + date,
+      series: null,
+      maxMarks: questions.length,
+      durationMin: Math.max(15, Math.ceil(questions.length * 1.25)),
+      negativeMark: 0,
+      markPerQuestion: 1,
+      sourcePdf: day.source && day.source.links ? day.source.links.join(' · ') : '',
+      descriptive: [],
+      questions: questions,
+      sections: [{ direction: null, ids: questions.map(function (q) { return q.id; }) }],
+      stats: { questions: questions.length, descriptive: 0, disagreements: 0, flagged: 0, topics: {} }
+    };
+  }
+
+  function addCurrentAffairsMeta(papers) {
+    var topicCounts = {};
+    papers.forEach(function (p) {
+      p.questions.forEach(function (q) {
+        topicCounts[q.topic] = (topicCounts[q.topic] || 0) + 1;
+      });
+    });
+    var existing = {};
+    (META.topics || []).forEach(function (t) { existing[t.slug] = t; });
+    Object.keys(topicCounts).forEach(function (slug) {
+      if (existing[slug]) existing[slug].count += topicCounts[slug];
+      else {
+        var label = slug.replace(/^ca-/, '').replace(/-/g, ' ')
+          .replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+        META.topics.push({ slug: slug, label: label, group: 'gk', count: topicCounts[slug], known: true });
+      }
+    });
+    META.topics.sort(function (a, b) { return a.label.localeCompare(b.label); });
+    META.totals.papers = (META.totals.papers || 0) + papers.length;
+    META.totals.questions = (META.totals.questions || 0) + papers.reduce(function (n, p) { return n + p.questions.length; }, 0);
+    META.totals.confidence = META.totals.confidence || { high: 0, medium: 0, low: 0 };
+    META.totals.confidence.medium += papers.reduce(function (n, p) { return n + p.questions.length; }, 0);
+  }
+
+  async function loadCurrentAffairs() {
+    var manifestResponse = await fetch('/data/current-affairs/index.json');
+    if (!manifestResponse.ok) throw new Error('current-affairs index ' + manifestResponse.status);
+    var manifest = await manifestResponse.json();
+    var days = await Promise.all((manifest.days || []).map(async function (entry) {
+      var response = await fetch('/data/current-affairs/' + encodeURIComponent(entry.date) + '.json');
+      if (!response.ok) throw new Error('current-affairs ' + entry.date + ' ' + response.status);
+      return response.json();
+    }));
+    var papers = days.map(currentAffairsPaper);
+    papers.forEach(function (p) { PAPERS.push(p); indexPaper(p); });
+    addCurrentAffairsMeta(papers);
+  }
 
   /* ------------------------------------------------------------------ store */
 
@@ -363,7 +457,7 @@
     var html = '';
     html += '<div class="page-head"><h1>Dashboard</h1><p>' +
       esc(t.questions || 0) + ' solved questions across ' + esc(t.papers || 0) +
-      ' MPSC papers. Every answer here is derived — none of these sittings has a ' +
+      ' papers and current-affairs sets. Every answer here is derived — none of these sets has a ' +
       'published official key — so each one carries its own confidence rating.</p></div>';
 
     html += '<div class="grid g4">' +
@@ -1463,7 +1557,12 @@
     save();
   }
 
-  function boot() {
+  async function boot() {
+    try {
+      await loadCurrentAffairs();
+    } catch (e) {
+      console.warn('[ph2] current affairs could not be loaded; past papers remain available', e);
+    }
     if (!PAPERS.length) {
       document.getElementById('main').innerHTML =
         '<div class="card"><h1>No question data loaded</h1>' +

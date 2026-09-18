@@ -23,6 +23,13 @@ bundle. So adding a paper is four steps and no app code:
 The app picks it up on reload. If you catch yourself about to type a `paperId`
 into `app.js`, the data model is missing something — fix the data model.
 
+The app also loads the daily Current Affairs archive at runtime from
+`public/data/current-affairs/index.json` and its dated JSON files. Those records
+are adapted into the same paper/question shape in `public/mpsc-practice-hub-2/app.js`
+so they participate in Browse, Practice, Mock Test, Review and Progress without
+being copied into this generated bundle. New current-affairs dates therefore
+appear in Hub 2 after deployment without rebuilding `papers.js`.
+
 ### Files
 
 | File | Role |

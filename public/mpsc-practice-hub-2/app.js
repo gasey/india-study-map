@@ -764,6 +764,67 @@
     if (rl) rl.addEventListener('click', function () { readList(picked); });
   }
 
+  function isCurrentAffairsQuestion(q) {
+    return q && q._paper && q._paper.paperId.indexOf('current-affairs-') === 0;
+  }
+
+  function currentAffairsQuestions() {
+    return ALL.filter(isCurrentAffairsQuestion);
+  }
+
+  /* A single entry point for the daily archive. The Browse Papers view is
+   * deliberately answer-first; this tab is the tappable exam-drill surface. */
+  function viewCurrentAffairs() {
+    var main = document.getElementById('main');
+    var qs = currentAffairsQuestions();
+    var attempted = qs.filter(function (q) { return !!att(q.key); }).length;
+    var wrong = qs.filter(function (q) { var a = att(q.key); return a && !a.lastOk; }).length;
+    var dates = {};
+    qs.forEach(function (q) {
+      var p = q._paper;
+      dates[p.paper] = dates[p.paper] || { p: p, n: 0, done: 0 };
+      dates[p.paper].n++;
+      if (att(q.key)) dates[p.paper].done++;
+    });
+
+    main.innerHTML =
+      '<div class="page-head"><h1>Current Affairs</h1><p>All daily and weekly current-affairs MCQs in one exam-drill pool. Tap an option to answer; explanations appear after each choice.</p></div>' +
+      '<div class="grid g4">' +
+        stat('Questions', qs.length, Object.keys(dates).length + ' dated sets') +
+        stat('Attempted', attempted, pct(attempted, qs.length) + '% of current affairs') +
+        stat('Wrong last time', wrong, 'ready to re-drill', wrong ? 'bad' : '') +
+        stat('Unattempted', qs.length - attempted, 'fresh questions') +
+      '</div>' +
+      '<div class="card mt"><h2>Exam drill</h2><p class="dim">This combines every current-affairs file currently in the archive. Your progress is saved separately for each question.</p><div class="row mt">' +
+        '<button class="btn pri" id="caDrill">Start all-current-affairs drill</button>' +
+        '<button class="btn" id="caMock">Take timed current-affairs mock</button>' +
+        '<button class="btn" id="caWrong"' + (wrong ? '' : ' disabled') + '>Drill wrong last time (' + wrong + ')</button>' +
+      '</div></div>' +
+      '<div class="card mt"><h2>Dated sets</h2><div class="scroll-x"><table><thead><tr><th>Date</th><th>Source set</th><th class="num">Questions</th><th class="num">Attempted</th></tr></thead><tbody>' +
+      Object.keys(dates).sort().reverse().map(function (date) {
+        var d = dates[date];
+        return '<tr><td><strong>' + esc(date) + '</strong></td><td>' + esc(d.p.paperTitle) + '</td><td class="num">' + d.n + '</td><td class="num">' + d.done + '</td></tr>';
+      }).join('') +
+      '</tbody></table></div></div>';
+
+    function setCurrentAffairsFilters(status) {
+      setFilters({
+        papers: Object.keys(dates).map(function (date) { return dates[date].p.paperId; }),
+        topics: [], groups: [], confs: [], flaggedOnly: false, disagreeOnly: false,
+        status: status || 'all', shuffle: true
+      });
+    }
+    document.getElementById('caDrill').addEventListener('click', function () {
+      setCurrentAffairsFilters('all'); startDrill();
+    });
+    document.getElementById('caMock').addEventListener('click', function () {
+      customMockDialog(qs);
+    });
+    document.getElementById('caWrong').addEventListener('click', function () {
+      setCurrentAffairsFilters('wrong_last'); startDrill();
+    });
+  }
+
   function renderFilters(box, onChange) {
     var f = S.filters;
 
@@ -1543,6 +1604,7 @@
     var v = S.view;
     if (v === 'dash') viewDash();
     else if (v === 'papers') viewPapers();
+    else if (v === 'current-affairs') viewCurrentAffairs();
     else if (v === 'practice') viewPractice();
     else if (v === 'mock') viewMock();
     else if (v === 'review') viewReview(S.reviewTab);

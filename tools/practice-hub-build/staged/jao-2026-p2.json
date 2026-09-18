@@ -1,0 +1,2027 @@
+{
+ "paperId": "jao-2026-p2",
+ "exam": "Junior Accounts Officer (JAO)",
+ "examShort": "JAO",
+ "dept": "Food, Civil Supplies & Consumer Affairs Department, Govt. of Mizoram",
+ "sitting": "July 2026",
+ "year": 2026,
+ "paper": "Paper II",
+ "paperTitle": "General Knowledge, Arithmetic & Reasoning",
+ "series": "A",
+ "maxMarks": 200,
+ "durationMin": 120,
+ "negativeMark": 0.33,
+ "markPerQuestion": 2,
+ "sourcePdf": "jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-series-a.pdf",
+ "descriptive": [],
+ "questions": [
+  {
+   "id": "Q1",
+   "n": 1,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Recently, INTERPOL has published its first ever Silver Notice, it is associated with:",
+   "opts": {
+    "a": "tracing and recovering criminally obtained assets.",
+    "b": "locating missing persons.",
+    "c": "seeking the location and arrest of persons wanted for prosecution.",
+    "d": "seeking information on unidentified bodies."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "INTERPOL's Silver Notice, piloted from January 2025, is used to trace and recover criminally obtained assets such as laundered property and accounts. The distractors are the existing Yellow (missing persons), Red (wanted for prosecution) and Black (unidentified bodies) notices.",
+   "topic": "current_affairs",
+   "flag": null
+  },
+  {
+   "id": "Q2",
+   "n": 2,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The ‘Project Waterworth’, sometimes mentioned in the news, is related to:",
+   "opts": {
+    "a": "A global initiative aimed at improving groundwater recharge and conservation.",
+    "b": "A technology-driven project for realtime water quality monitoring and assessment.",
+    "c": "A sustainable desalination project for providing potable water in coastal regions.",
+    "d": "A subsea cable network to strengthen the scale and reliability of the world’s digital highways."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Project Waterworth is Meta's multi-billion-dollar subsea cable project announced in February 2025, planned as the world's longest undersea cable and touching India among five continents. The word 'Water' in the name is the trap — it has nothing to do with water resources.",
+   "topic": "current_affairs",
+   "flag": null
+  },
+  {
+   "id": "Q3",
+   "n": 3,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The TALASH programme, recently launched by the Government of India in collaboration with UNICEF, aims to:",
+   "opts": {
+    "a": "Provide career counselling and life skills education to empower tribal students studying in Eklavya Model Residential Schools (EMRSs)",
+    "b": "Investigate juvenile delinquency among tribal students in residential schools across India",
+    "c": "Promote sports and cultural exchange among tribal students at the national level",
+    "d": "Identify and train tribal youth for recruitment into government services"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "TALASH (Tribal Aptitude, Life Skills and Self-Esteem Hub) was launched by the Ministry of Tribal Affairs through NESTS with UNICEF India, delivering aptitude testing, career counselling and life-skills education in Eklavya Model Residential Schools.",
+   "topic": "current_affairs",
+   "flag": null
+  },
+  {
+   "id": "Q4",
+   "n": 4,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The “Yala Glacier”, recently declared as “dead”, is located in which one of the following countries?",
+   "opts": {
+    "a": "Russia",
+    "b": "Bhutan",
+    "c": "Greenland",
+    "d": "Nepal"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Yala Glacier in the Langtang region of Nepal was formally declared 'dead' in 2025, the first glacier in Nepal (and in Asia) to receive a memorial plaque of this kind. It sits in the Himalaya, not in Bhutan or the Arctic.",
+   "topic": "geography_world",
+   "flag": null
+  },
+  {
+   "id": "Q5",
+   "n": 5,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements with reference to Subsidiary Alliance:\n1. Under the Alliance, a British Resident was posted in the court of Indian rulers.\n2. It was introduced by the Governor- General Warren Hastings.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Stationing a British Resident at the ruler's court was a defining feature of the Subsidiary Alliance, so statement 1 holds. Statement 2 is wrong: the system was introduced by Lord Wellesley (1798), not Warren Hastings.",
+   "topic": "history_modern",
+   "flag": null
+  },
+  {
+   "id": "Q6",
+   "n": 6,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In the Gupta administration, the empire was divided into provinces, each under a governor, and further into districts under local heads. Which of the following terms correctly refer to the provincial governors and the district heads, respectively?",
+   "opts": {
+    "a": "Uparikas and Vishayapatis",
+    "b": "Bhogikas and Vishayapatis",
+    "c": "Amatyas and Uparikas",
+    "d": "Vishayapatis and Sannidhatas"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Gupta provinces (bhuktis) were headed by an Uparika and districts (vishayas) by a Vishayapati. Amatya was a general term for a minister and Sannidhata the treasurer, so those pairings do not fit.",
+   "topic": "history_ancient_medieval",
+   "flag": null
+  },
+  {
+   "id": "Q7",
+   "n": 7,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "With reference to the Anglo–Maratha Wars, consider the following statements:\n1. The First Anglo–Maratha War ended with the Treaty of Salbai.\n2. The Second Anglo–Maratha War took place during the tenure of Lord Wellesley.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The First Anglo-Maratha War closed with the Treaty of Salbai in 1782, and the Second Anglo-Maratha War (1803-05) was fought under Governor-General Lord Wellesley. Both statements are therefore correct.",
+   "topic": "history_modern",
+   "flag": null
+  },
+  {
+   "id": "Q8",
+   "n": 8,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements:\n1. Convectional rainfall occurs primarily in polar regions.\n2. Orographic rainfall is caused by mountains forcing moist air to rise.\nWhich of the above statements is/are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Convectional rainfall needs intense surface heating and so is characteristic of equatorial and tropical regions, not polar ones, making statement 1 wrong. Statement 2 correctly describes orographic (relief) rainfall.",
+   "topic": "geography_physical",
+   "flag": null
+  },
+  {
+   "id": "Q9",
+   "n": 9,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In the context of Earth’s climate system, what does the term “Heat Budget” refer to?",
+   "opts": {
+    "a": "The total heat stored in oceans and continents at any given time",
+    "b": "The balance between incoming solar radiation and outgoing terrestrial radiation.",
+    "c": "The total energy reflected by clouds and the Earth’s surface",
+    "d": "The heat absorbed by water vapour and greenhouse gases"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The Earth's heat budget is the equilibrium between insolation received and terrestrial radiation lost, which keeps the planet's average temperature roughly constant. Option (c) describes albedo, a component of the budget rather than the budget itself.",
+   "topic": "geography_physical",
+   "flag": null
+  },
+  {
+   "id": "Q10",
+   "n": 10,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following statements is not correct regarding the Inter Tropical Convergence Zone (ITCZ)?\n1. It is a high-pressure zone located at the equator where trade winds converge.\n2. The seasonal migration of the ITCZ is one of the major factors responsible for the onset and withdrawal of the Indian monsoon.\nSelect the correct answer using the code given below.",
+   "opts": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The ITCZ is a low-pressure belt of convergence, not a high-pressure zone, so statement 1 is the incorrect one. Statement 2 is a correct description of the ITCZ's role in the Indian monsoon, and the question asks which is NOT correct.",
+   "topic": "geography_physical",
+   "flag": null
+  },
+  {
+   "id": "Q11",
+   "n": 11,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "With reference to Fundamental Duties under the Constitution of India, consider the following statements:\n1. These were not present in the original Constitution adopted on 26th January 1950.\n2. They are applicable to all persons residing in the territory of India.\n3. Parliament can enforce the Fundamental Duties by enacting a law.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "2 only",
+    "b": "1 and 2 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Fundamental Duties were inserted by the 42nd Amendment in 1976 (statement 1 correct) and, being non-justiciable, can be given legal force only through legislation by Parliament (statement 3 correct). Statement 2 fails because Article 51A binds citizens only, not every person residing in India.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q12",
+   "n": 12,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Who among the following was not a member of the Drafting Committee of the Constituent Assembly?",
+   "opts": {
+    "a": "J.B. Kripalani",
+    "b": "K.M. Munshi",
+    "c": "Syed Mohammad Saadullah",
+    "d": "T.T. Krishanamachari"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The seven-member Drafting Committee comprised B.R. Ambedkar, Alladi Krishnaswamy Ayyar, N. Gopalaswami Ayyangar, K.M. Munshi, Syed Mohammad Saadullah, N. Madhava Rau and T.T. Krishnamachari. J.B. Kripalani, though Congress President in 1947, was never on it.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q13",
+   "n": 13,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements regarding Gross National Product (GNP):\n1. It measures the total monetary value of output produced by a country’s residents and foreigners in the domestic territory of the country.\n2. It does not include intermediate goods and services.\nWhich of the statements given above is/are not correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Statement 1 actually defines GDP (output within the domestic territory, by residents and foreigners); GNP is output by a country's nationals wherever located, so statement 1 is not correct. Statement 2 is correct because GNP counts only final goods and services, so only statement 1 answers the 'not correct' question.",
+   "topic": "economy",
+   "flag": null
+  },
+  {
+   "id": "Q14",
+   "n": 14,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The UNDP’s Human Development Index (HDI) does not include which of the following indicators?",
+   "opts": {
+    "a": "Life expectancy at birth",
+    "b": "Gross National Income per capita",
+    "c": "Mean years of schooling",
+    "d": "Infant mortality rate"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "HDI combines exactly three dimensions: life expectancy at birth, education (mean and expected years of schooling) and GNI per capita (PPP). Infant mortality rate is not one of its components.",
+   "topic": "economy",
+   "flag": null
+  },
+  {
+   "id": "Q15",
+   "n": 15,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which one of the following subsidies is most likely to fall under the Amber Box category of the World Trade Organization (WTO)?",
+   "opts": {
+    "a": "Direct income support to farmers not linked to production",
+    "b": "Public investment in agricultural research and extension services",
+    "c": "Subsidies directly linked to production that are considered to distort trade and output",
+    "d": "Payments to farmers for adopting environmentally sustainable farming practices"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Under the WTO Agreement on Agriculture, the Amber Box holds trade-distorting domestic support tied to output or price, subject to reduction commitments. Options (a), (b) and (d) are decoupled or public-service style support and fall in the Green (or Blue) Box.",
+   "topic": "economy",
+   "flag": null
+  },
+  {
+   "id": "Q16",
+   "n": 16,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Green pages in the Red Data Book of the International Union for Conservation of Nature denote:",
+   "opts": {
+    "a": "Species that have never been endangered",
+    "b": "Species that were previously endangered, but are no longer threatened",
+    "c": "Species that are in the least concern category",
+    "d": "Species that are in the data-deficient category"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "In the colour-coded Red Data Book, green pages record species that were formerly endangered or threatened but have recovered enough to no longer be at risk. Red pages hold critically endangered species and white/grey pages the data-deficient ones.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q17",
+   "n": 17,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In the context of ecology, Amensalism refers to:",
+   "opts": {
+    "a": "an interaction where both species are harmed.",
+    "b": "a relationship in which one species is inhibited while the other is unaffected.",
+    "c": "an association where both species benefit.",
+    "d": "a relationship in which one organism is benefited by direct utilization of another."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Amensalism is a (-, 0) interaction: one species is harmed or inhibited while the other is neither helped nor harmed, as when Penicillium suppresses nearby bacteria. Option (a) is competition, (c) is mutualism and (d) is parasitism/predation.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q18",
+   "n": 18,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A man is pushing hard against a rigid brick wall. In this context, which among the following is correct?",
+   "opts": {
+    "a": "The internal energy used by the man is zero.",
+    "b": "The work done by the man is zero.",
+    "c": "The force applied by the man is zero.",
+    "d": "None of the above"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "In physics, work equals force times displacement along the force; the wall does not move, so displacement and hence work are zero. The man still applies a force and still burns metabolic energy, which rules out (a) and (c).",
+   "topic": "science_physics",
+   "flag": null
+  },
+  {
+   "id": "Q19",
+   "n": 19,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following are advantages of Lithium-ion batteries over conventional lead–acid batteries?\n1. Light weight\n2. High energy density\n3. Lower cost\nSelect the correct answer using the code given below:",
+   "opts": {
+    "a": "1 only",
+    "b": "1 and 2 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Lithium-ion cells are markedly lighter and store far more energy per unit mass and volume than lead-acid cells, so 1 and 2 hold. Cost per kWh is higher for lithium-ion, so statement 3 is not an advantage.",
+   "topic": "science_chemistry",
+   "flag": null
+  },
+  {
+   "id": "Q20",
+   "n": 20,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Radioisotope Iodine-131 is commonly used in the treatment of which of the following medical conditions?",
+   "opts": {
+    "a": "Lung infections",
+    "b": "Prostate cancer",
+    "c": "Thyroid disorders",
+    "d": "Kidney stones"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The thyroid gland selectively takes up iodine, so beta-emitting I-131 concentrates there and is used to treat hyperthyroidism and thyroid carcinoma. Prostate brachytherapy uses Iodine-125 or Palladium-103 instead.",
+   "topic": "science_physics",
+   "flag": null
+  },
+  {
+   "id": "Q21",
+   "n": 21,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The term ‘Zupui Ni’ is associated with which Mizo festival?",
+   "opts": {
+    "a": "Mim Kut",
+    "b": "Pawl Kut",
+    "c": "Chapchar Kut",
+    "d": "Hnahsin Kut"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "medium",
+   "why": "Traditional Chapchar Kut ran over several named days, and 'Zupui Ni' (the day of the great zu/rice-beer) is generally listed among them alongside Zuthlum Ni. I could not check this against a printed Mizo source, so treat the day-name list as the point to verify rather than the festival's identity.",
+   "topic": "mizoram_gk",
+   "flag": null
+  },
+  {
+   "id": "Q22",
+   "n": 22,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "‘Operation Jericho’, often mentioned in the history of Mizoram, refers to:",
+   "opts": {
+    "a": "The British annexation of the Lushai Hills after the 1871–72 expedition",
+    "b": "The MNF-led armed uprising aimed at securing independence for Mizoram in 1966",
+    "c": "The formation of a Mizo battalion during the Second World War",
+    "d": "The aerial bombing of Aizawl by the Indian Air Force in March 1966."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Operation Jericho was the code name for the Mizo National Front's coordinated armed uprising launched on the night of 28 February/1 March 1966, when MNF volunteers attacked Assam Rifles posts and treasuries and declared independence. The IAF bombing of Aizawl was the Indian state's response to it, not the operation itself.",
+   "topic": "mizoram_history",
+   "flag": null
+  },
+  {
+   "id": "Q23",
+   "n": 23,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In Mizo folklore, a female character is said to have miraculously emerged from a festering wound on a man’s thumb. Who was she?",
+   "opts": {
+    "a": "Chhingpuii",
+    "b": "Chemtei",
+    "c": "Kungawrhi",
+    "d": "Chawngchilhi"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "medium",
+   "why": "The Kungawrhi legend has her born from a swelling or boil on her father Keichala's thumb, after which she is carried off by the Khuavang and rescued. Chhingpuii is the tragic beauty of a different tale and Chawngchilhi the girl of the serpent story.",
+   "topic": "mizoram_gk",
+   "flag": null
+  },
+  {
+   "id": "Q24",
+   "n": 24,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In which year were the North and South Lushai Hills united into a single district with its headquarters at Aizawl?",
+   "opts": {
+    "a": "1871",
+    "b": "1890",
+    "c": "1898",
+    "d": "1947"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The North Lushai Hills (under Assam) and the South Lushai Hills (under Bengal) were amalgamated on 1 April 1898 into one Lushai Hills district under Assam, with its headquarters at Aizawl. 1871-72 was the punitive expedition and 1890 the establishment of the Aizawl post.",
+   "topic": "mizoram_history",
+   "flag": null
+  },
+  {
+   "id": "Q25",
+   "n": 25,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the followintg Stadium became the first venue to host three FIFA World Cup opening matches?",
+   "opts": {
+    "a": "BC Plate",
+    "b": "Rose Bowl",
+    "c": "Estadio Azteca",
+    "d": "Metlife Studium"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Estadio Azteca in Mexico City staged the opening matches of the 1970 and 1986 World Cups and is set to open the 2026 tournament, making it the first three-time opening venue. Options are printed with the paper's own spellings ('BC Plate', 'Metlife Studium').",
+   "topic": "sports_misc",
+   "flag": "Printed typos retained verbatim: 'followintg' in the stem, 'BC Plate' (BC Place) and 'Metlife Studium' (MetLife Stadium) in the options."
+  },
+  {
+   "id": "Q26",
+   "n": 26,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The recently launched ‘Project Thaichhawninu’ will be implemented in:",
+   "opts": {
+    "a": "28 RD Blocks",
+    "b": "27 RD Blocks",
+    "c": "26 RD Blocks",
+    "d": "25 RD Blocks"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "low",
+   "why": "I could not verify this Mizoram state project or the block count it covers from any source I can check, so this answer simply follows the marked option. Mizoram's RD block total is variously given as 26 in older references and higher after the 2019 district reorganisation, so the count itself needs confirmation from the Rural Development Department before this is trusted.",
+   "topic": "mizoram_gk",
+   "flag": "Unverified: no independent source available for 'Project Thaichhawninu' or the current number of RD Blocks in Mizoram. Answer follows the marked option only."
+  },
+  {
+   "id": "Q27",
+   "n": 27,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The Ilbert Bill controversy during British India was related to:",
+   "opts": {
+    "a": "Press freedom",
+    "b": "Judicial equality between Indians and Europeans",
+    "c": "Land revenue reforms",
+    "d": "Expansion of railways"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The Ilbert Bill (1883) proposed allowing Indian magistrates and sessions judges to try European British subjects, and the furious European agitation against it forced its dilution. Press freedom is the Vernacular Press Act, a different measure.",
+   "topic": "history_modern",
+   "flag": null
+  },
+  {
+   "id": "Q28",
+   "n": 28,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The Vernacular Press Act of 1878 was enacted to:",
+   "opts": {
+    "a": "Promote Indian language newspapers",
+    "b": "Restrict criticism of British policies in Indian-language newspapers",
+    "c": "Encourage literacy among peasants",
+    "d": "Regulate English education"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Lytton's Vernacular Press Act of 1878 empowered the government to seize presses and demand bonds from Indian-language newspapers publishing seditious matter, while leaving the English press untouched. It was repealed by Ripon in 1882.",
+   "topic": "history_modern",
+   "flag": null
+  },
+  {
+   "id": "Q29",
+   "n": 29,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements regarding the Cripps Mission:\n1. It was sent during the Second World War.\n2. It proposed Dominion Status after the war.\n3. It was accepted unanimously by Congress and the Muslim League.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Stafford Cripps came in March 1942, in the middle of the war, offering Dominion Status with a constitution-making body after it, so 1 and 2 are correct. Statement 3 fails: Congress rejected the offer (Gandhi's 'post-dated cheque') and the Muslim League objected to the absence of a clear Pakistan provision.",
+   "topic": "history_modern",
+   "flag": null
+  },
+  {
+   "id": "Q30",
+   "n": 30,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements regarding cyclones:\n1. Tropical cyclones derive energy from warm ocean waters.\n2. Cyclones rotate clockwise in the Northern Hemisphere.\n3. The eye of a cyclone is generally calm.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Tropical cyclones are fuelled by latent heat from warm sea surfaces (statement 1) and their central eye is a region of subsidence with light winds (statement 3). Statement 2 inverts the Coriolis effect: cyclonic circulation is anticlockwise in the Northern Hemisphere.",
+   "topic": "geography_physical",
+   "flag": null
+  },
+  {
+   "id": "Q31",
+   "n": 31,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements:\n1. The Equator passes through Sri Lanka.\n2. The Tropic of Cancer passes through India.\n3. The Prime Meridian passes through Greenwich.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 and 3 only",
+    "b": "1 only",
+    "c": "2 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Sri Lanka lies between roughly 6°N and 10°N, well north of the Equator, so statement 1 is false. The Tropic of Cancer crosses eight Indian states and the Prime Meridian is defined through Greenwich, so 2 and 3 are correct.",
+   "topic": "geography_world",
+   "flag": null
+  },
+  {
+   "id": "Q32",
+   "n": 32,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The highest plateau in the world is:",
+   "opts": {
+    "a": "Deccan Plateau",
+    "b": "Colorado Plateau",
+    "c": "Tibetan Plateau",
+    "d": "Iranian Plateau"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The Tibetan Plateau, averaging about 4,500 m in elevation, is the world's highest and largest plateau and is known as the 'Roof of the World'. The Deccan, Colorado and Iranian plateaus are all far lower.",
+   "topic": "geography_world",
+   "flag": null
+  },
+  {
+   "id": "Q33",
+   "n": 33,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements regarding Money Bills:\n1. A Money Bill can be introduced only in the Lok Sabha.\n2. The Rajya Sabha can reject a Money Bill.\n3. The Speaker certifies whether a Bill is a Money Bill.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "1 and 3 only",
+    "c": "2 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": null,
+   "answer": "b",
+   "conf": "high",
+   "why": "Article 109 restricts introduction of a Money Bill to the Lok Sabha and Article 110(4) makes the Speaker's certificate final, so 1 and 3 are correct. Statement 2 is wrong: the Rajya Sabha can neither reject nor amend a Money Bill, it may only recommend changes and must return the Bill within 14 days.",
+   "topic": "polity",
+   "flag": "Source has TWO options highlighted, (a) and (b); marked recorded as null. On the merits only (b) is defensible."
+  },
+  {
+   "id": "Q34",
+   "n": 34,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The term “Judicial Review” refers to the power of the judiciary to:",
+   "opts": {
+    "a": "Amend the Constitution",
+    "b": "Review the working of political parties",
+    "c": "Examine the constitutional validity of laws and executive actions",
+    "d": "Conduct elections"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Judicial review is the courts' power to test legislative enactments and executive actions against the Constitution and strike down what is inconsistent with it. Amending the Constitution is Parliament's power under Article 368, and elections are the Election Commission's job.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q35",
+   "n": 35,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which Schedule of the Constitution deals with anti-defection provisions?",
+   "opts": {
+    "a": "Seventh Schedule",
+    "b": "Eighth Schedule",
+    "c": "Tenth Schedule",
+    "d": "Eleventh Schedule"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The Tenth Schedule, added by the 52nd Amendment in 1985, contains the anti-defection law. The Seventh lists the three legislative lists, the Eighth the scheduled languages and the Eleventh the panchayat subjects.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q36",
+   "n": 36,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which among the following is NOT a constitutional body?",
+   "opts": {
+    "a": "UPSC",
+    "b": "Finance Commission",
+    "c": "NITI Aayog",
+    "d": "Election Commission"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "NITI Aayog was created in 2015 by an executive resolution of the Union Cabinet and has no constitutional basis. UPSC (Art. 315), the Finance Commission (Art. 280) and the Election Commission (Art. 324) are all established by the Constitution.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q37",
+   "n": 37,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements regarding Self Help Groups (SHGs):\n1. They function exclusively in urban areas.\n2. They promote financial inclusion.\n3. They are generally formed by small groups with common socio-economic objectives.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "SHGs are small homogeneous groups formed around shared socio-economic goals and are a core instrument of financial inclusion through SHG-bank linkage. The word 'exclusively' sinks statement 1, since SHGs are predominantly rural but exist in both rural and urban settings.",
+   "topic": "economy",
+   "flag": null
+  },
+  {
+   "id": "Q38",
+   "n": 38,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The “dependency ratio” refers to:",
+   "opts": {
+    "a": "Ratio of exports to imports",
+    "b": "Ratio of dependent population to working-age population",
+    "c": "Ratio of urban to rural population",
+    "d": "Ratio of tax revenue to GDP"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The dependency ratio compares the non-working-age population (usually 0-14 and 65+) with the working-age population (15-64), and a falling ratio is what produces a demographic dividend.",
+   "topic": "economy",
+   "flag": null
+  },
+  {
+   "id": "Q39",
+   "n": 39,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Sustainable development was most famously defined in which report?",
+   "opts": {
+    "a": "Kothari Commission Report",
+    "b": "Brundtland Report",
+    "c": "Sarkaria Commission Report",
+    "d": "Kelkar Committee Report"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The Brundtland Commission's 1987 report 'Our Common Future' gave the classic definition of development that meets present needs without compromising future generations' ability to meet theirs. Kothari dealt with education, Sarkaria with Centre-State relations and Kelkar with tax reform.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q40",
+   "n": 40,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following pollutants is mainly responsible for acid rain?",
+   "opts": {
+    "a": "Carbon monoxide and methane",
+    "b": "Sulphur dioxide and nitrogen oxides",
+    "c": "Ozone and helium",
+    "d": "Hydrogen and oxygen"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "SO2 and NOx released mainly by coal combustion and vehicles oxidise in the atmosphere to sulphuric and nitric acid, which fall as acid rain. Carbon monoxide and methane are pollutants and greenhouse gases but are not the acid-forming ones.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q41",
+   "n": 41,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements regarding biosphere reserves:\n1. They aim to balance conservation and sustainable use.\n2. They are recognized under UNESCO’s Man and Biosphere Programme.\n3. Human activities are completely prohibited in all zones.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "1 only",
+    "c": "2 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Biosphere reserves are designated under UNESCO's MAB Programme precisely to reconcile conservation with sustainable human use, so 1 and 2 are correct. Statement 3 is false: only the core zone is strictly protected, while the buffer and transition zones permit regulated human activity.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q42",
+   "n": 42,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The term “biomagnification” refers to:",
+   "opts": {
+    "a": "Rapid growth of forests",
+    "b": "Increase in biodiversity over time",
+    "c": "Progressive accumulation of toxic substances along the food chain",
+    "d": "Migration of species to higher altitudes"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Biomagnification is the rising concentration of persistent, fat-soluble toxins such as DDT or mercury at each successive trophic level, which is why top predators carry the heaviest burden.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q43",
+   "n": 43,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements:\n1. Wetlands act as natural flood buffers.\n2. Coral bleaching is associated with rising sea temperatures.\n3. Biodiversity enhances ecosystem resilience.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Wetlands store and slow floodwaters, thermal stress causes corals to expel their zooxanthellae and bleach, and greater biodiversity buffers ecosystems against disturbance. All three statements are standard and correct.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q44",
+   "n": 44,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which part of the human brain is primarily responsible for maintaining balance and coordination?",
+   "opts": {
+    "a": "Cerebrum",
+    "b": "Medulla oblongata",
+    "c": "Cerebellum",
+    "d": "Hypothalamus"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The cerebellum coordinates voluntary movement, posture and equilibrium. The medulla controls involuntary functions such as heartbeat and breathing, and the hypothalamus regulates temperature, hunger and endocrine signalling.",
+   "topic": "science_biology",
+   "flag": null
+  },
+  {
+   "id": "Q45",
+   "n": 45,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following phenomena explains the blue colour of the sky?",
+   "opts": {
+    "a": "Reflection",
+    "b": "Refraction",
+    "c": "Dispersion",
+    "d": "Scattering of light"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Rayleigh scattering by air molecules is far stronger for short wavelengths, so blue light is scattered across the sky much more than red. Dispersion explains the rainbow, not the sky's colour.",
+   "topic": "science_physics",
+   "flag": null
+  },
+  {
+   "id": "Q46",
+   "n": 46,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements:\n1. Human beings normally have 48 chromosomes.\n2. RNA is involved in protein synthesis.\n3. DNA carries hereditary information.\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Humans normally have 46 chromosomes (23 pairs), so statement 1 is false; 48 is the chimpanzee/gorilla count. mRNA, tRNA and rRNA all participate in protein synthesis and DNA is the hereditary material, so 2 and 3 are correct.",
+   "topic": "science_biology",
+   "flag": null
+  },
+  {
+   "id": "Q47",
+   "n": 47,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In Mizo mythology, the tall tree standing at the centre of the Earth was called:",
+   "opts": {
+    "a": "Thingvandek",
+    "b": "Thingvando",
+    "c": "Thingvantawng",
+    "d": "Thingvanchen"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "low",
+   "why": "'Thingvantawng' parses as thing (tree) + van (sky) + tawng (to reach/touch), i.e. the sky-reaching world tree, which fits a tree at the centre of the earth better than the other three coinages. This is a reading of the name rather than a citation — I could not check it against a Mizo folklore source, so treat it as unverified.",
+   "topic": "mizoram_gk",
+   "flag": "Unverified Mizo mythology term; answer rests on the semantics of the name, not on a checked source."
+  },
+  {
+   "id": "Q48",
+   "n": 48,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which Mizo dance was also known as Thingdim lam?",
+   "opts": {
+    "a": "Tlang lam",
+    "b": "Chawnglaizawn",
+    "c": "Cheraw",
+    "d": "Khuallam"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "low",
+   "why": "This answer follows the marked option; I could not verify the alternative name 'Thingdim lam' against any Mizo cultural source. Khuallam is the guest dance performed at Khuangchawi, but whether that is the dance carrying this second name needs checking.",
+   "topic": "mizoram_gk",
+   "flag": "Unverified: no source available for the alternative name 'Thingdim lam'. Answer follows the marked option only."
+  },
+  {
+   "id": "Q49",
+   "n": 49,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which British administrator was nicknamed “Ram sem sap” owing to his practice of fixing the boundaries of the Mizo chiefs’ jurisdiction?",
+   "opts": {
+    "a": "Henry Walter George Cole",
+    "b": "John Shakespear",
+    "c": "Col. Granville Henry Loch",
+    "d": "N.E. Parry"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "low",
+   "why": "'Ram sem sap' means roughly 'the sahib who divides the land', and John Shakespear, first Superintendent of the amalgamated Lushai Hills district from 1898, was the officer who carried out the initial demarcation of chiefs' boundaries. N.E. Parry (Superintendent in the 1920s) is a plausible rival candidate, so this needs checking against a Mizo history text.",
+   "topic": "mizoram_history",
+   "flag": "Low confidence: Shakespear vs N.E. Parry not resolvable from memory; verify against a Mizoram history source."
+  },
+  {
+   "id": "Q50",
+   "n": 50,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Who was the 2nd Governor of Mizoram after it achieved Statehood?",
+   "opts": {
+    "a": "HS Dubey",
+    "b": "Hiteswar Saikia",
+    "c": "KV Krishna Rao",
+    "d": "Williamson A. Sangma"
+   },
+   "marked": "c",
+   "answer": "d",
+   "conf": "low",
+   "why": "Mizoram's first Governor after statehood on 20 February 1987 was Hiteswar Saikia, and my recollection of the Raj Bhavan succession puts Williamson A. Sangma next, in 1989. The marked option says K.V. Krishna Rao, who did hold north-eastern governorships in this period, so the two candidates must be checked against Raj Bhavan Mizoram's official list before either is trusted.",
+   "topic": "mizoram_gk",
+   "flag": "Disagreement with the marked option and low confidence on both sides; verify the Governor succession list for 1987-1990 directly."
+  },
+  {
+   "id": "Q51",
+   "n": 51,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many integers are there between −12 and 9?",
+   "opts": {
+    "a": "19",
+    "b": "20",
+    "c": "21",
+    "d": "22"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Between' excludes the endpoints, so the integers run from −11 to 8: 8 − (−11) + 1 = 20. Counting inclusively would give 22, which is the trap in option (d).",
+   "topic": "number_system",
+   "flag": null
+  },
+  {
+   "id": "Q52",
+   "n": 52,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The HCF and LCM of two numbers are 12 and 180 respectively. If one of the numbers is 36, then the other number is:",
+   "opts": {
+    "a": "45",
+    "b": "60",
+    "c": "72",
+    "d": "90"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Product of the numbers = HCF × LCM, so the other number = (12 × 180)/36 = 60. Checked: HCF(36, 60) = 12 and LCM(36, 60) = 180.",
+   "topic": "number_system",
+   "flag": null
+  },
+  {
+   "id": "Q53",
+   "n": 53,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Find the 16th term from the end in the following sequence:\n7, 11, 15, …, 215",
+   "opts": {
+    "a": "151",
+    "b": "155",
+    "c": "161",
+    "d": "145"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The AP has a = 7, d = 4 and last term 215, giving 215 = 7 + (n−1)4 so n = 53 terms. Counting back from the end, the 16th term from the end = 215 − 15 × 4 = 155 (equivalently the 38th term: 7 + 37 × 4 = 155).",
+   "topic": "number_series",
+   "flag": null
+  },
+  {
+   "id": "Q54",
+   "n": 54,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If the mean of x, x+2, x+4, x+6, x+8 is 11, then the value of ‘x’ is:",
+   "opts": {
+    "a": "4",
+    "b": "5",
+    "c": "6",
+    "d": "7"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The five terms sum to 5x + 20, so the mean is (5x + 20)/5 = x + 4. Setting x + 4 = 11 gives x = 7.",
+   "topic": "average",
+   "flag": null
+  },
+  {
+   "id": "Q55",
+   "n": 55,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If α and β are roots of x² - 3x+2=0, then α² + β² =",
+   "opts": {
+    "a": "5",
+    "b": "9",
+    "c": "13",
+    "d": "4"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "By Vieta, α + β = 3 and αβ = 2, so α² + β² = (α+β)² − 2αβ = 9 − 4 = 5. Directly, the roots are 1 and 2, and 1 + 4 = 5.",
+   "topic": "algebra",
+   "flag": null
+  },
+  {
+   "id": "Q56",
+   "n": 56,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A student needs to secure 40% to pass. If he gets 72 marks and fails by 8 marks, what are the total marks?",
+   "opts": {
+    "a": "150",
+    "b": "180",
+    "c": "200",
+    "d": "160"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Failing by 8 means the pass mark is 72 + 8 = 80, and 80 is 40% of the total, so total = 80/0.40 = 200.",
+   "topic": "percentage",
+   "flag": null
+  },
+  {
+   "id": "Q57",
+   "n": 57,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Among the 10 students of a coaching class, the average weight of 6 students is 56kg. If the average weight of the remaining students is 59kg, then what is the average weight of all students?",
+   "opts": {
+    "a": "54kg",
+    "b": "55kg",
+    "c": "56kg",
+    "d": "57kg"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "medium",
+   "why": "Total weight = 6 × 56 + 4 × 59 = 336 + 236 = 572 kg, so the overall average is 572/10 = 57.2 kg. No option gives 57.2, and 57 kg is the nearest, so the printed options are defective rather than the method.",
+   "topic": "average",
+   "flag": "Exact answer is 57.2 kg; no option is exactly correct and (d) 57kg is only the nearest value."
+  },
+  {
+   "id": "Q58",
+   "n": 58,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The single discount equivalent to two successive discounts of 20% and 10% is:",
+   "opts": {
+    "a": "24%",
+    "b": "25%",
+    "c": "27%",
+    "d": "28%"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Successive discounts multiply the remaining fraction: 0.80 × 0.90 = 0.72, so 28% is taken off in all. Adding 20 + 10 = 30% is the classic trap.",
+   "topic": "percentage",
+   "flag": null
+  },
+  {
+   "id": "Q59",
+   "n": 59,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The ratio of the cost price and selling price of a ceiling fan is 5:7. The gain percent is:",
+   "opts": {
+    "a": "30%",
+    "b": "40%",
+    "c": "45%",
+    "d": "50%"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Taking CP = 5 and SP = 7, profit = 2, so gain% = (2/5) × 100 = 40%. The denominator must be the cost price, not the selling price.",
+   "topic": "profit_loss",
+   "flag": null
+  },
+  {
+   "id": "Q60",
+   "n": 60,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "By selling a coat for ₹630, a shopkeeper gains 5%. The cost price of the coat is:",
+   "opts": {
+    "a": "₹600",
+    "b": "₹630",
+    "c": "₹650",
+    "d": "₹700"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "CP = SP/(1 + gain) = 630/1.05 = ₹600. Check: 5% of 600 is 30 and 600 + 30 = 630.",
+   "topic": "profit_loss",
+   "flag": null
+  },
+  {
+   "id": "Q61",
+   "n": 61,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If P:Q = 2:3 and Q:R = 5:7, then P:Q:R = ?",
+   "opts": {
+    "a": "10:15:21",
+    "b": "2:3:7",
+    "c": "10:3:7",
+    "d": "2:15:21"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Make Q common by scaling the first ratio by 5 and the second by 3: P:Q = 10:15 and Q:R = 15:21, so P:Q:R = 10:15:21.",
+   "topic": "ratio_proportion",
+   "flag": null
+  },
+  {
+   "id": "Q62",
+   "n": 62,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Divide ₹4,800 into three parts such that the second part is 3/4 of the first part and the third part is 5/3 of the second part. The amount of the first part is:",
+   "opts": {
+    "a": "₹1,200",
+    "b": "₹1,600",
+    "c": "₹1,800",
+    "d": "₹2,000"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "With the first part x, the second is 3x/4 and the third is (5/3)(3x/4) = 5x/4, so x + 0.75x + 1.25x = 3x = 4800 and x = ₹1,600. The three parts are 1600, 1200 and 2000.",
+   "topic": "ratio_proportion",
+   "flag": null
+  },
+  {
+   "id": "Q63",
+   "n": 63,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A alone can complete the work in 18 days while B alone in 15 days. B alone worked at it for 10 days and then left the work. In how many more days will A alone complete the remaining work?",
+   "opts": {
+    "a": "5 days",
+    "b": "6 days",
+    "c": "7 days",
+    "d": "8 days"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "In 10 days B finishes 10/15 = 2/3 of the work, leaving 1/3. A does the whole job in 18 days, so a third takes 18/3 = 6 days.",
+   "topic": "time_work",
+   "flag": null
+  },
+  {
+   "id": "Q64",
+   "n": 64,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The simple interest on a sum for 5 years is one-fourth of the sum. The rate of interest per annum is:",
+   "opts": {
+    "a": "8%",
+    "b": "6%",
+    "c": "5%",
+    "d": "4%"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "SI = PRT/100, so P/4 = P × R × 5/100, giving R = 100/(4 × 5) = 5% per annum.",
+   "topic": "simple_compound_interest",
+   "flag": null
+  },
+  {
+   "id": "Q65",
+   "n": 65,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "What would be the compound interest on ₹25,000 for 2 years at 5% per annum?",
+   "opts": {
+    "a": "₹2,500",
+    "b": "₹2,562",
+    "c": "₹2,562.50",
+    "d": "₹2,425.25"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Amount = 25000 × 1.05² = 25000 × 1.1025 = ₹27,562.50, so CI = ₹2,562.50. Simple interest would have been ₹2,500, which is the distractor in (a).",
+   "topic": "simple_compound_interest",
+   "flag": null
+  },
+  {
+   "id": "Q66",
+   "n": 66,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A square park of side 20 m has a path 2 m wide running around it on the inside. The area of the path is:",
+   "opts": {
+    "a": "144 sq.m",
+    "b": "160 sq.m",
+    "c": "176 sq.m",
+    "d": "184 sq.m"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The path runs inside, so the inner square has side 20 − 2 × 2 = 16 m. Area of path = 20² − 16² = 400 − 256 = 144 sq.m.",
+   "topic": "mensuration",
+   "flag": null
+  },
+  {
+   "id": "Q67",
+   "n": 67,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If the volume of a sphere is 36π cm³, then its radius is:",
+   "opts": {
+    "a": "2 cm",
+    "b": "3 cm",
+    "c": "4 cm",
+    "d": "6 cm"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "(4/3)πr³ = 36π gives r³ = 27, so r = 3 cm.",
+   "topic": "mensuration",
+   "flag": null
+  },
+  {
+   "id": "Q68",
+   "n": 68,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many distinct permutations can be made from the letters of the word ‘COMMITTEE’?",
+   "opts": {
+    "a": "22680",
+    "b": "45360",
+    "c": "90720",
+    "d": "181440"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "COMMITTEE has 9 letters with M, T and E each repeated twice, so the count is 9!/(2!·2!·2!) = 362880/8 = 45,360. Forgetting one of the three repeats gives 90,720, the trap in (c).",
+   "topic": "permutation_combination",
+   "flag": null
+  },
+  {
+   "id": "Q69",
+   "n": 69,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "From 7 men and 4 women, a committee of 6 is to be formed with at least 4 men. In how many ways can this be done?",
+   "opts": {
+    "a": "371",
+    "b": "364",
+    "c": "385",
+    "d": "301"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Sum the cases: 4M+2W = C(7,4)·C(4,2) = 35·6 = 210, 5M+1W = C(7,5)·C(4,1) = 21·4 = 84, and 6M+0W = C(7,6) = 7. Total = 210 + 84 + 7 = 301.",
+   "topic": "permutation_combination",
+   "flag": null
+  },
+  {
+   "id": "Q70",
+   "n": 70,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Pipe A can fill a tank in 10 minutes while pipe B can empty it in 15 minutes. If both the pipes are opened in that empty tank, the time taken to fill the tank is:",
+   "opts": {
+    "a": "20 min",
+    "b": "25 min",
+    "c": "30 min",
+    "d": "35 min"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Net filling rate = 1/10 − 1/15 = (3 − 2)/30 = 1/30 of the tank per minute, so the tank fills in 30 minutes.",
+   "topic": "pipes_cisterns",
+   "flag": null
+  },
+  {
+   "id": "Q71",
+   "n": 71,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Observe the Histogram given below and answer the question that follows:\n\nHow many students scored more than the average marks of the class?",
+   "opts": {
+    "a": "11",
+    "b": "8",
+    "c": "6",
+    "d": "10"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Frequencies against class marks are 125→1, 130→3, 135→2, 140→8, 145→5, 150→4, 155→1, so N = 24 and Σfx = 3385, giving mean = 3385/24 = 141.04. Bars strictly above that mean are 145, 150 and 155, i.e. 5 + 4 + 1 = 10 students — note the question asks for students above the average mark, not the number of bars.",
+   "topic": "data_interpretation",
+   "flag": null,
+   "figure": "A histogram titled with y-axis 'No. of students' (scale 0 to 9) and x-axis 'Marks Obtained'. Seven adjacent shaded bars stand over the x-axis labels 125, 130, 135, 140, 145, 150 and 155, each label centred under its bar (so the labels are class marks). The bar heights, written above each bar, are: 125 → 1, 130 → 3, 135 → 2, 140 → 8, 145 → 5, 150 → 4, 155 → 1. Total frequency is 24."
+  },
+  {
+   "id": "Q72",
+   "n": 72,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If √(3ⁿ) = 81, then the value of n is:",
+   "opts": {
+    "a": "4",
+    "b": "6",
+    "c": "8",
+    "d": "10"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "√(3ⁿ) = 3^(n/2) and 81 = 3⁴, so n/2 = 4 and n = 8. Check: √(3⁸) = √6561 = 81.",
+   "topic": "algebra",
+   "flag": null
+  },
+  {
+   "id": "Q73",
+   "n": 73,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The value of 9^(−3/2) is:",
+   "opts": {
+    "a": "1/3",
+    "b": "1/9",
+    "c": "1/27",
+    "d": "1/71"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "9^(−3/2) = 1/9^(3/2) = 1/(√9)³ = 1/3³ = 1/27.",
+   "topic": "algebra",
+   "flag": null
+  },
+  {
+   "id": "Q74",
+   "n": 74,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "An 800ml mixture contains water and milk in the ratio 8:2. How much more water and milk should be added in the same mixture to get them in the ratio 9:3?",
+   "opts": {
+    "a": "90ml and 80ml, respectively.",
+    "b": "80ml and 90ml, respectively.",
+    "c": "90ml each.",
+    "d": "80ml each."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The 800 ml holds 640 ml water and 160 ml milk, and the target 9:3 is just 3:1. Adding 80 ml of each gives 720:240 = 3:1 exactly; the other options give 3.04, 2.88 and 2.92, none of which is 3.",
+   "topic": "mixture_alligation",
+   "flag": null
+  },
+  {
+   "id": "Q75",
+   "n": 75,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A 300m long train is running at the speed of 60 km/hr. If it crosses a tunnel in 2 minutes, what is the length of the tunnel?",
+   "opts": {
+    "a": "1500 m.",
+    "b": "1700 m.",
+    "c": "1800 m.",
+    "d": "2100 m."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "60 km/hr = 1000 m/min, so in 2 minutes the train covers 2000 m, which equals tunnel + train length. Tunnel = 2000 − 300 = 1700 m.",
+   "topic": "speed_distance_time",
+   "flag": null
+  },
+  {
+   "id": "Q76",
+   "n": 76,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many 1/6 are there in 25 1/3 ?",
+   "opts": {
+    "a": "123",
+    "b": "125",
+    "c": "132",
+    "d": "152"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "25⅓ = 76/3, and (76/3) ÷ (1/6) = 76 × 6/3 = 152.",
+   "topic": "number_system",
+   "flag": null
+  },
+  {
+   "id": "Q77",
+   "n": 77,
+   "part": "B",
+   "direction": "Direction (Question Nos. 77 & 78): The following pie chart shows the expenditure of a family on different items out of a total income of ₹24,000/- from all sources. Answer the questions based on the data given in the pie chart:",
+   "passageRef": null,
+   "q": "The central angle subtended by the savings portion on the pie chart is approximately equal to:",
+   "opts": {
+    "a": "30°",
+    "b": "65°",
+    "c": "90°",
+    "d": "180°"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Savings is 18% of the total, so its central angle = 18% of 360° = 64.8°, which is approximately 65°.",
+   "topic": "data_interpretation",
+   "flag": null,
+   "figure": "A pie chart headed 'EXPENDITURE' divided into four labelled sectors: Food 48%, Rent 26%, Savings 18% and Electricity 8%. The four percentages sum to 100%, and the stated total income is ₹24,000."
+  },
+  {
+   "id": "Q78",
+   "n": 78,
+   "part": "B",
+   "direction": "Direction (Question Nos. 77 & 78): The following pie chart shows the expenditure of a family on different items out of a total income of ₹24,000/- from all sources. Answer the questions based on the data given in the pie chart:",
+   "passageRef": null,
+   "q": "What is the ratio of the expenditure on electricity to that on rent?",
+   "opts": {
+    "a": "1:6",
+    "b": "9:13",
+    "c": "4:13",
+    "d": "4:9"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Electricity is 8% and rent 26%, so the ratio is 8:26 = 4:13. In rupees that is ₹1,920 : ₹6,240, which reduces to the same 4:13.",
+   "topic": "data_interpretation",
+   "flag": null,
+   "figure": "A pie chart headed 'EXPENDITURE' divided into four labelled sectors: Food 48%, Rent 26%, Savings 18% and Electricity 8%. The four percentages sum to 100%, and the stated total income is ₹24,000."
+  },
+  {
+   "id": "Q79",
+   "n": 79,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "There are 12 boys in a class of 20 students. A student is chosen from the class at random to be the class representative. What is the probability that the class representative is a girl?",
+   "opts": {
+    "a": "40%",
+    "b": "30%",
+    "c": "50%",
+    "d": "25%"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Girls = 20 − 12 = 8, so P(girl) = 8/20 = 0.4 = 40%.",
+   "topic": "probability",
+   "flag": null
+  },
+  {
+   "id": "Q80",
+   "n": 80,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A clock is set right at 6 AM. If the clock gains 12 minutes in 24 hours, what will be the right time when the clock indicates 12 Noon on the following day?",
+   "opts": {
+    "a": "12:12 PM",
+    "b": "12:18 PM",
+    "c": "11:48 AM",
+    "d": "11:42 AM"
+   },
+   "marked": "d",
+   "answer": "c",
+   "conf": "low",
+   "why": "From 6 AM to 12 noon the next day the clock shows 30 hours = 1800 clock-minutes, and 1452 clock-minutes correspond to 1440 true minutes, so true elapsed time = 1800 × 1440/1452 = 1785.12 min = 29 h 45 min 07 s; the right time is 11:45:07 AM. That value is not printed, and 11:48 AM is nearer to it (2 min 53 s away) than 11:42 AM (3 min 07 s away), so I take (c) while flagging the question as defective.",
+   "topic": "calendar_clock",
+   "flag": "No option is correct: the true time is 11:45:07 AM. The source carries a handwritten margin note 'compensated' beside this question, which is consistent with MPSC having voided it. Marked option (d) 11:42 AM would require a 36-hour interval, not the actual 30 hours."
+  },
+  {
+   "id": "Q81",
+   "n": 81,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Select the option that is related to the third term in the same way as the second term is related to the first term: String : Sitar :: Percussion : ?",
+   "opts": {
+    "a": "Violin",
+    "b": "Piano",
+    "c": "Tabla",
+    "d": "Trumpet"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The sitar is an example of a string instrument, so the answer must be an example of a percussion instrument: the tabla. Violin is a string, trumpet a wind instrument, and piano is conventionally classed as a keyboard/string instrument in these analogies.",
+   "topic": "analogy",
+   "flag": null
+  },
+  {
+   "id": "Q82",
+   "n": 82,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the word which has the same relationship among the three given words:\nCricket, Hockey, Football",
+   "opts": {
+    "a": "Tennis",
+    "b": "Kabaddi",
+    "c": "Chess",
+    "d": "Swimming"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Cricket, hockey and football are all outdoor team sports played on a field, and kabaddi is the only option that shares all three features. Tennis and swimming are essentially individual, and chess is an indoor board game.",
+   "topic": "classification",
+   "flag": null
+  },
+  {
+   "id": "Q83",
+   "n": 83,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Arrange the following words related to flood management in a meaningful sequence and logical order.\n(i) Relief, (ii) Warning, (iii) Flood, (iv) Rescue, (v) Rehabilitation",
+   "opts": {
+    "a": "ii, iii, iv, i, v",
+    "b": "iii, ii, i, iv, v",
+    "c": "ii, iii, i, iv, v",
+    "d": "iii, iv, ii, i, v"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The real sequence is Warning (before the event), Flood, Rescue of those trapped, Relief supplies, then long-term Rehabilitation — that is ii, iii, iv, i, v. Option (c) is the near-miss that puts relief before rescue.",
+   "topic": "logical_sequence",
+   "flag": null
+  },
+  {
+   "id": "Q84",
+   "n": 84,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Find the next term: 2, 6, 24, 120, ?",
+   "opts": {
+    "a": "480",
+    "b": "600",
+    "c": "720",
+    "d": "840"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The terms are 2!, 3!, 4!, 5!, so the next is 6! = 720. Read as multipliers it is the same thing: ×3, ×4, ×5, then ×6 gives 120 × 6 = 720.",
+   "topic": "number_series",
+   "flag": null
+  },
+  {
+   "id": "Q85",
+   "n": 85,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If ‘he will say’ is coded as ‘1 3 9’ and ‘say to him’ is coded as ‘3 5 2’ and ‘he may do’ is coded as ‘8 7 9’, then what will be the code of ‘will’?",
+   "opts": {
+    "a": "3",
+    "b": "1",
+    "c": "9",
+    "d": "8"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The first and second statements share only 'say' and only the digit 3, so say = 3; the first and third share only 'he' and only the digit 9, so he = 9. That leaves 1 for 'will'.",
+   "topic": "coding_decoding",
+   "flag": null
+  },
+  {
+   "id": "Q86",
+   "n": 86,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many meaningful English words can be made from ‘RTEA’ using each letter once?",
+   "opts": {
+    "a": "One",
+    "b": "Two",
+    "c": "Three",
+    "d": "Four"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "medium",
+   "why": "Using all four letters exactly once gives RATE, TEAR and TARE — three words. The count depends on accepting TARE (the weight of an empty container), which is a standard dictionary word.",
+   "topic": "alphabet_test",
+   "flag": null
+  },
+  {
+   "id": "Q87",
+   "n": 87,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If ‘P’ means ‘×’, ‘Q’ means ‘÷’, ‘R’ means ‘+’, ‘S’ means ‘−’, then\n18 Q 3 P 4 R 5 S 6 = ?",
+   "opts": {
+    "a": "23",
+    "b": "24",
+    "c": "25",
+    "d": "26"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Substituting gives 18 ÷ 3 × 4 + 5 − 6. By BODMAS, division and multiplication go left to right: 18 ÷ 3 = 6, 6 × 4 = 24, then 24 + 5 − 6 = 23.",
+   "topic": "coding_decoding",
+   "flag": null
+  },
+  {
+   "id": "Q88",
+   "n": 88,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In a row of boys, Liana is 12th from the left and 15th from the right. How many boys are there in the row?",
+   "opts": {
+    "a": "25",
+    "b": "26",
+    "c": "27",
+    "d": "28"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Total = (position from left) + (position from right) − 1 = 12 + 15 − 1 = 26, subtracting 1 because Liana is counted in both positions.",
+   "topic": "ranking",
+   "flag": null
+  },
+  {
+   "id": "Q89",
+   "n": 89,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Find the missing character:",
+   "opts": {
+    "a": "30",
+    "b": "35",
+    "c": "40",
+    "d": "28"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Two consistent rules give the same value. Row 1 = (Row 2)²: 3²=9, 4²=16, 5²=25; and Row 3 = Row 1 + Row 2: 9+3=12, 16+4=20, so 25+5 = 30. Equivalently Row 3 = n(n+1): 3·4=12, 4·5=20, 5·6 = 30.",
+   "topic": "matrix_reasoning",
+   "flag": null,
+   "figure": "A 3-row by 3-column table of numbers. Top row: 9, 16, 25. Middle row: 3, 4, 5. Bottom row: 12, 20, ? (the question mark occupies the bottom-right cell)."
+  },
+  {
+   "id": "Q90",
+   "n": 90,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many triangles are there in the given figure?",
+   "opts": {
+    "a": "8",
+    "b": "7",
+    "c": "9",
+    "d": "10"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "medium",
+   "why": "Modelling the eleven drawn segments and enumerating every triple that meets in three distinct points gives 10 triangles: the three staircase right triangles, the sub-triangle each of the second and third staircase hypotenuses cuts off on the vertical to its left, the triangle the long diagonal cuts on the third horizontal, the three triangles the long diagonal makes with the base and each of the three verticals, and the right-hand triangle formed by the base, the third vertical and the right slant. Confidence is medium because the count depends on reading the long diagonal as passing exactly through the corner where the middle horizontal meets the middle vertical.",
+   "topic": "figure_counting",
+   "flag": null,
+   "figure": "A staircase of three right triangles above a large triangle. Three vertical lines V1 (leftmost), V2 (middle) and V3 (rightmost) all run down to a common horizontal base line; V1 is the tallest, V2 shorter, V3 shortest, their tops stepping down and to the right. From the top of each vertical a hypotenuse runs down-left at roughly 45 degrees. Triangle 1: from the top of V1 the hypotenuse falls to the left end of a short horizontal H1, which runs right to meet V1. Triangle 2: from the top of V2 the hypotenuse falls to the left end of horizontal H2, which runs right to V2; this hypotenuse passes exactly through the point where H1 meets V1. Triangle 3: from the top of V3 a long diagonal falls down-left, crossing V2 at the right-hand end of H2 and crossing V1 at the left-hand end of horizontal H3 (H3 runs right from V1 to V3), and continues all the way down to the left-hand end of the base line. Finally, from the right-hand end of the base line a slanted side rises up-left to the point where H3 meets the top of V3, closing the large bottom triangle on its right. The outer left and right slants do not meet each other, so no single all-enclosing triangle exists."
+  },
+  {
+   "id": "Q91",
+   "n": 91,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A piece of paper is folded and cut as shown below in the question figures. How would this paper look when unfolded?",
+   "opts": {
+    "a": "A square with four small circles arranged in a 2×2 block in the upper-left area.",
+    "b": "A square with four small circles: one near the top, two side by side below it, and one below-left of those.",
+    "c": "A square with three small circles: two near the top-left set diagonally, and one near the bottom-right.",
+    "d": "A square with five small circles: a 2×2 block of four in the upper-left area plus one near the bottom-right."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Fold 1 brings the top strip (about 31% of the height) down, and fold 2 brings the left strip (about 31% of the width) rightwards, so the remaining square has a 4-layer top-left region, two 2-layer regions and a 1-layer bottom-right region. The punch in the top-left sits over 4 layers and opens out as a 2×2 block of holes, while the punch at the bottom-right sits over a single layer and stays one hole — five holes in that exact arrangement, which is only option (d).",
+   "topic": "paper_folding",
+   "flag": null,
+   "figure": "Three question figures. (1) A square with a dashed horizontal crease about 31% down from the top and a downward arrow: the top strip is folded down. (2) The resulting wide rectangle (the folded-away strip shown dotted above it) with a dashed vertical crease about 31% in from the left and a rightward arrow: the left strip is folded to the right. (3) The resulting small square (folded-away parts shown dotted to its left and above) containing two small circular punches, one near its top-left corner and one near its bottom-right corner. The four answer figures are squares showing (a) a 2×2 block of four circles in the upper-left, (b) four circles in a loose diamond in the upper-right area, (c) three circles — two diagonal near the top-left and one at the bottom-right, and (d) five circles — a 2×2 block of four in the upper-left plus one at the bottom-right."
+  },
+  {
+   "id": "Q92",
+   "n": 92,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If today is a Monday, after 75 days it will be:",
+   "opts": {
+    "a": "Friday",
+    "b": "Saturday",
+    "c": "Sunday",
+    "d": "Monday"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "75 ÷ 7 leaves a remainder of 5 (70 days are exactly 10 weeks), so the day advances five places from Monday: Tue, Wed, Thu, Fri, Sat — Saturday.",
+   "topic": "calendar_clock",
+   "flag": null
+  },
+  {
+   "id": "Q93",
+   "n": 93,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "One sunny morning, Mawii walks towards the east and saw her friend Liana coming from a certain direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is Liana approaching from?",
+   "opts": {
+    "a": "North",
+    "b": "South",
+    "c": "East",
+    "d": "South-East"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "In the morning the sun is in the east, so every shadow falls towards the west. For Liana's shadow to lie on Liana's left, Liana must be facing north, which means she is walking northwards and therefore approaching from the south. Confidence is medium only because the pronoun 'his' is ambiguous — read as Mawii's left it would put a shadow to the north, which is impossible in the morning, so the Liana reading is the only coherent one.",
+   "topic": "direction_sense",
+   "flag": "Pronoun slip in the stem: Mawii is 'her friend' but the shadow is said to be on 'his left side'. The question only resolves if 'his' means Liana's."
+  },
+  {
+   "id": "Q94",
+   "n": 94,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the odd one out from the given figures:",
+   "opts": {
+    "a": "Top row: up-arrow, down-arrow; bottom row: down-arrow, up-arrow.",
+    "b": "Top row: up-arrow, down-arrow; bottom row: up-arrow, down-arrow.",
+    "c": "Top row: right-arrow, left-arrow; bottom row: left-arrow, right-arrow.",
+    "d": "Top row: left-arrow, right-arrow; bottom row: right-arrow, left-arrow."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "In (a), (c) and (d) the bottom row is the reverse of the top row, so the arrows match along the diagonals and each figure is unchanged by a 180° turn. In (b) the bottom row simply repeats the top row, so each column carries the same arrow — that is the odd one out.",
+   "topic": "odd_one_out",
+   "flag": null,
+   "figure": "Four bracketed 2×2 arrangements of arrows. (a) top row up, down; bottom row down, up. (b) top row up, down; bottom row up, down. (c) top row right, left; bottom row left, right. (d) top row left, right; bottom row right, left."
+  },
+  {
+   "id": "Q95",
+   "n": 95,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In the following figure, what should replace the question mark?",
+   "opts": {
+    "a": "169",
+    "b": "196",
+    "c": "256",
+    "d": "289"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Each block holds the letters and, below them, powers of 1, 2 and 3: ABC gives 1¹, 2¹, 3¹ = 1, 2, 3; DEF gives 1², 2², 3² = 1, 4, 9; GHI gives 1⁴, 2⁴, 3⁴ = 1, 16, 81; so JKL must give 1⁸, 2⁸, 3⁸ = 1, 256, 6561 (and 3⁸ = 6561 confirms the exponent). The missing value is 2⁸ = 256.",
+   "topic": "matrix_reasoning",
+   "flag": null,
+   "figure": "A box divided into four blocks, each block having a top row of three letters and a bottom row of three numbers. Block 1: letters A B C over numbers 1, 2, 3. Block 2: letters D E F over numbers 1, 4, 9. Block 3: letters G H I over numbers 1, 16, 81. Block 4: letters J K L over numbers 1, ?, 6561."
+  },
+  {
+   "id": "Q96",
+   "n": 96,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Statements:\nAll fruits are flowers.\nAll seeds are fruits.\nConclusions:\nI. All flowers are fruits.\nII. All seeds are flowers.\nSelect the best option from the following:",
+   "opts": {
+    "a": "If both Conclusions I and II follow.",
+    "b": "If neither Conclusions I nor II follows.",
+    "c": "If only Conclusions I follows.",
+    "d": "If only Conclusions II follows."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Seeds ⊆ fruits ⊆ flowers, so all seeds are flowers and Conclusion II follows. Conclusion I is the illicit converse of 'all fruits are flowers' — the flower set may be larger — so only II follows.",
+   "topic": "syllogism",
+   "flag": null
+  },
+  {
+   "id": "Q97",
+   "n": 97,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Six friends are sitting in a row. Puia sits exactly in between Sanga and Vula. Nunga sits exactly in between Lawma and Thanga. Five friends sit to the left of Sanga. Thanga is not sitting immediately next to Vula. Who sits second to the left of Vula?",
+   "opts": {
+    "a": "Nunga",
+    "b": "Lawma",
+    "c": "Sanga",
+    "d": "Thanga"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Five friends to Sanga's left fixes Sanga at seat 6, and Puia between Sanga and Vula forces Vula 4, Puia 5. Nunga between Lawma and Thanga takes seat 2 with the other two at 1 and 3, and since Thanga cannot be next to Vula, seat 3 is Lawma and seat 1 Thanga; the row is Thanga, Nunga, Lawma, Vula, Puia, Sanga, so two seats left of Vula is Nunga.",
+   "topic": "seating_arrangement",
+   "flag": null
+  },
+  {
+   "id": "Q98",
+   "n": 98,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In a certain code language, LOVE is written as MUWI and GOOD is written as HUUE. How will KIND be written in the same language?",
+   "opts": {
+    "a": "MUME",
+    "b": "MOME",
+    "c": "LOOE",
+    "d": "LOME"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Consonants move one letter forward (L→M, V→W, G→H, D→E) while vowels move to the next vowel (O→U, E→I). Applying this to KIND: K→L, I→O, N→O, D→E, giving LOOE.",
+   "topic": "coding_decoding",
+   "flag": null
+  },
+  {
+   "id": "Q99",
+   "n": 99,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If the letters of the word REASONING are arranged in alphabetical order, how many letters will remain in the same position?",
+   "opts": {
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "3"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "REASONING sorts to AEGINNORS. Comparing position by position — R/A, E/E, A/G, S/I, O/N, N/N, I/O, N/R, G/S — only positions 2 (E) and 6 (N) match, so 2 letters stay put.",
+   "topic": "alphabet_test",
+   "flag": null
+  },
+  {
+   "id": "Q100",
+   "n": 100,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "T is the daughter of S whose wife is R. R is the daughter of P whose husband is Q. How is S related to P?",
+   "opts": {
+    "a": "Mother-in-law",
+    "b": "Son-in-law",
+    "c": "Son",
+    "d": "Grandson"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "S is male (R is described as S's wife) and R is P's daughter, so S is the husband of P's daughter — P's son-in-law. T is P's granddaughter and Q is P's husband, neither of which changes S's relation.",
+   "topic": "blood_relation",
+   "flag": null
+  }
+ ]
+}

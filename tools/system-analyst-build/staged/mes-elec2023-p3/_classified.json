@@ -1,0 +1,632 @@
+[
+ {
+  "no": 1,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Asks what format DBMS data is stored in (tables). Same question as PE2018_P3 Q1 — basic relational-model vocabulary.",
+  "confidence": "high"
+ },
+ {
+  "no": 2,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "why": "Asks which data model supports schema evolution (semi-structured). A comparison of data-model architectures, which is the database-concepts/architecture leaf rather than the relational-model-specific leaf.",
+  "confidence": "medium"
+ },
+ {
+  "no": 3,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "Asks which ER component conveys the entities participating in a relationship. ER-model terminology.",
+  "confidence": "high"
+ },
+ {
+  "no": 4,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Names the functional dependency formed indirectly through two FDs (transitive FD) — functional dependency theory.",
+  "confidence": "high"
+ },
+ {
+  "no": 5,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Asks which relational algebra operation sigma denotes (Select). The leaf names relational algebra directly.",
+  "confidence": "high"
+ },
+ {
+  "no": 6,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Asks which normal form removes duplicate information — normalisation theory.",
+  "confidence": "medium"
+ },
+ {
+  "no": 7,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks which SQL command deletes all rows and frees space (TRUNCATE) — basic SQL command vocabulary.",
+  "confidence": "high"
+ },
+ {
+  "no": 8,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Asks which relational algebra operation selects columns (Projection); phrased as a 'command' but the four options are algebra operation names.",
+  "confidence": "medium"
+ },
+ {
+  "no": 9,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Query processing and optimisation",
+  "why": "Names the group of simple processes combined to evaluate a query (query evaluation primitive) — query processing terminology.",
+  "confidence": "high"
+ },
+ {
+  "no": 10,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "Asks what an ER diagram represents graphically (logical structure) — ER modelling.",
+  "confidence": "high"
+ },
+ {
+  "no": 11,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "why": "Asks what a double rectangle denotes in an ER diagram (weak entity set) — ER modelling notation.",
+  "confidence": "high"
+ },
+ {
+  "no": 12,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "why": "Interleaved-transaction serializability puzzle (T1/T2 read/write on A, B) — schedules and serializability.",
+  "confidence": "high"
+ },
+ {
+  "no": 13,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Names the SQL aggregate function that counts values in a column (COUNT) — basic SQL.",
+  "confidence": "high"
+ },
+ {
+  "no": 14,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Names the relational algebra operation that removes common tuples from the first relation (Difference).",
+  "confidence": "high"
+ },
+ {
+  "no": 15,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "why": "Asks for a synonym of 'tuple' (record) — relational-model vocabulary.",
+  "confidence": "high"
+ },
+ {
+  "no": 16,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks what the ROLLUP operator in a GROUP BY clause is used for — a SQL query-language feature, the closest fit even though ROLLUP itself is more advanced than the leaf's 'basic' framing.",
+  "confidence": "medium"
+ },
+ {
+  "no": 17,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks which statement resembles CREATE VIEW (CREATE TABLE...AS) — basic SQL DDL statements.",
+  "confidence": "high"
+ },
+ {
+  "no": 18,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Query processing and optimisation",
+  "why": "Names the optimizer that explores the full space of query-evaluation plans (cost-based) — query optimisation.",
+  "confidence": "high"
+ },
+ {
+  "no": 19,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Transmission modes (simplex/half-duplex/full-duplex) — general data communications, which the 2026 syllabus dropped entirely; not a web-architecture topic.",
+  "confidence": "high"
+ },
+ {
+  "no": 20,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Matching application/transport/network/data-link/physical-layer protocols (SMTP, BGP, TCP, PPP) to OSI/TCP-IP layers — general networking layer classification, outside both 2026 papers.",
+  "confidence": "high"
+ },
+ {
+  "no": 21,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Distance-vector routing update/convergence puzzle — routing algorithms are general data communications/networking, not web architecture.",
+  "confidence": "high"
+ },
+ {
+  "no": 22,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Whether TCP/UDP allow same-session packets to take different paths — transport/network-layer routing behaviour, general networking.",
+  "confidence": "high"
+ },
+ {
+  "no": 23,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Class-B subnetting for 64 departments — subnetting is explicitly called out as data communications, off-syllabus regardless of any web-adjacent wording.",
+  "confidence": "high"
+ },
+ {
+  "no": 24,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Which socket system call sends a SYN packet — TCP handshake/socket programming internals, general networking, not a web-architecture topic.",
+  "confidence": "high"
+ },
+ {
+  "no": 25,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Maximum data size the application layer can hand to TCP — transport-layer internals, general data communications.",
+  "confidence": "high"
+ },
+ {
+  "no": 26,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Which application protocol (HTTP/Telnet/DNS/SMTP) uses UDP as its transport — this tests transport-layer protocol association, general data communications; mentions HTTP and DNS but is not testing web architecture or DNS-as-hosting, so it stays off per the guidance that mentioning HTTP/DNS doesn't itself qualify a question for the Web Technologies leaf.",
+  "confidence": "high"
+ },
+ {
+  "no": 27,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Class-B subnetting with a 6-bit subnet field, computing subnets/hosts — subnetting, explicitly off-syllabus data communications.",
+  "confidence": "high"
+ },
+ {
+  "no": 28,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Which device (hub/switch/bridge/router) uses logical addressing — networking hardware/addressing, general data communications.",
+  "confidence": "high"
+ },
+ {
+  "no": 29,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "PDU name for the application layer (message) — OSI/TCP-IP layer terminology, general networking.",
+  "confidence": "high"
+ },
+ {
+  "no": 30,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Matching activities (m1/m2/m3) to application-layer protocols (HTTP/SMTP/POP/FTP/IMAP) — protocol-layer classification, general networking, not web architecture.",
+  "confidence": "high"
+ },
+ {
+  "no": 31,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "What ARP resolves (MAC from IP) — explicitly named in the task brief as a data-communications topic that stays off even though it could be misread as network/web-adjacent.",
+  "confidence": "high"
+ },
+ {
+  "no": 32,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Optimum packet size given message size and per-packet header overhead in a multi-hop packet-switched path — packet-switching internals, general data communications.",
+  "confidence": "high"
+ },
+ {
+  "no": 33,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "2",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "why": "Asks which protocol is primarily used for browsing (HTTP) — a bare-bones recall question, but its entire content is identifying HTTP as the web's protocol, which is squarely the 'HTTP/HTTPS' part of the Web Technologies architecture leaf, unlike the OSI/transport-layer classification questions around it.",
+  "confidence": "medium"
+ },
+ {
+  "no": 34,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "TCP slow-start congestion window growth — explicitly named in the task brief as data communications = off even though it's about TCP, a protocol also used by the web.",
+  "confidence": "high"
+ },
+ {
+  "no": 35,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Most important feature of the spiral model (risk management) — software engineering process models, dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 36,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "What should NOT be in a good SRS document — software requirements engineering, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 37,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "True/false statements about DFD conventions (context diagram, external entities, control information, data stores) — systems analysis/DFDs, explicitly dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 38,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Which statement about requirements documents/prototyping/reviews is true — requirements engineering, software engineering, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 39,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Desirable cohesion/coupling combination in modular software design — general software design principles; the syllabus's OOP unit does not list cohesion/coupling, and the Web Technologies architecture leaf names MVC/microservices/SOLID/event-driven/caching specifically, none of which this question tests, so it is not stretched into either unit.",
+  "confidence": "high"
+ },
+ {
+  "no": 40,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "What an SRS document should avoid discussing — requirements engineering, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 41,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Fault-seeding estimation arithmetic (100 seeded, 159 detected, 75 seeded detected) — software testing/reliability estimation, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 42,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "What COCOMO estimates (effort and duration from size) — software project estimation, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 43,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Error-seeding estimation arithmetic (20 seeded, 16 detected, 200 non-seeded detected) — software testing estimation, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 44,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "What statistical software quality assurance involves (sampling vs exhaustive testing) — software quality engineering, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 45,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Primary determinant for selecting activities in each spiral-model iteration (risk) — software process models, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 46,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Name for testing done on the development platform (alpha test) — software testing terminology, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 47,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Which testing category basis-path testing falls under (white box) — software testing techniques, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 48,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Which SDLC phase has the minimum error distribution (requirement analysis) — software engineering process/quality data, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 49,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Which integration-testing strategy tests the whole system at once (Big-Bang testing) — software testing strategies, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 50,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "What SRS is also known as a specification of (black box testing) — software testing terminology tacked onto an SRS question, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1001,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "why": "Asks for the difference between SQL and NoSQL databases. The 2026 syllabus never names NoSQL explicitly, but comparing relational vs non-relational database architectures is squarely a 'database system concepts and architecture' overview question; flagged medium rather than high because NoSQL itself has no named leaf.",
+  "confidence": "medium"
+ },
+ {
+  "no": 1002,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Given a set of functional dependencies over an 8-attribute relation, asks how many candidate keys it has — functional-dependency/candidate-key derivation is core normal-form theory.",
+  "confidence": "high"
+ },
+ {
+  "no": 1003,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks how many tuples a correlated SQL query (SELECT ... WHERE age > ALL (subquery)) returns over three given tables — SQL query semantics.",
+  "confidence": "high"
+ },
+ {
+  "no": 1004,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks what a correlated subquery is — SQL query-language concept.",
+  "confidence": "high"
+ },
+ {
+  "no": 1005,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "why": "Asks to list Codd's Rules on relational databases — these rules (including physical/logical data independence) define the 'database system concepts, architecture ... and data independence' leaf almost by name.",
+  "confidence": "high"
+ },
+ {
+  "no": 1006,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "why": "Asks why the multivalue/multicolumn problem is another form of the multivalued-dependency problem — 4NF/multivalued-dependency theory, normalisation.",
+  "confidence": "high"
+ },
+ {
+  "no": 1007,
+  "verdict": "on",
+  "paper": "TECH2",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "why": "Asks what stored procedures are and their advantages — a SQL/database programming construct; filed under the SQL leaf as the closest available fit, though stored procedures go beyond 'basic query statements'.",
+  "confidence": "medium"
+ },
+ {
+  "no": 1008,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Asks what a network is and its benefits — general data-communications/networking fundamentals, dropped from the 2026 syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1009,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Transmission + propagation delay computation over a two-router, three-link path — data communications delay analysis, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1010,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Advantages/disadvantages of STAR topology — network topology, explicitly a data-communications topic with no leaf in either 2026 paper.",
+  "confidence": "high"
+ },
+ {
+  "no": 1011,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "What multiplexing is and how Synchronous TDM works — multiplexing is explicitly named in the task brief as an off-syllabus data-communications topic.",
+  "confidence": "high"
+ },
+ {
+  "no": 1012,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Minimum Ethernet frame size from round-trip propagation delay and jamming signal length — data-link-layer/Ethernet internals, general networking, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1013,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Token-bucket traffic-shaping duration calculation — network traffic engineering, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1014,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Responsibilities of the Application Layer — OSI/TCP-IP layer model, general networking, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1015,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "How the risk factor affects the spiral model — software process models, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1016,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Distinguish software faults from software failures — software engineering/reliability terminology, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1017,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Compare basic vs detailed COCOMO models — software cost estimation, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1018,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Slack time of a task in a 5-task project schedule (critical-path-style scheduling) — software project management, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1019,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Cyclomatic complexity of a given code module — software testing/metrics, off-syllabus.",
+  "confidence": "high"
+ },
+ {
+  "no": 1020,
+  "verdict": "off",
+  "paper": null,
+  "unit": null,
+  "sub": null,
+  "why": "Risk exposure calculation from probability and cost-of-reuse-shortfall figures — software risk management arithmetic, off-syllabus.",
+  "confidence": "high"
+ }
+]

@@ -1,0 +1,352 @@
+{
+ "B1": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The action is happening at this very moment (\"I can't hear what you are saying\"), so the present continuous \"is talking\" is required. \"Talks\" is the trap: it agrees correctly with the singular \"everybody\", but simple present states a habit, not noise going on right now.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B10": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The change took place before the past moment of failing to recognise her, so the past perfect \"had changed\" is needed. \"Has changed\" would tie the change to the present, which contradicts the past-tense main clause \"I didn't recognize\".",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B11": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The fixed legal collocation is \"acquitted of\" a charge — the verb always takes \"of\" for the offence a person is cleared of. \"Acquitted on all charges\" is heard loosely in journalism but is not the form tested in grammar papers.",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B12": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"Hint\" as a verb takes \"at\": to hint at something is to suggest it indirectly. \"Hint of\" exists only with the noun (\"a hint of sarcasm\"), so it does not fit after the verb \"hinted\".",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B13": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The set phrase expressing an unexpected discovery is \"to my surprise\", so \"to\" completes it. \"Beyond\" and \"above\" would need a measurable quantity to exceed, which \"surprise\" is not in this idiom.",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B14": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"Known for\" introduces the reason or achievement someone is famous on account of, so \"for the books he has written\" is right. \"Known by\" introduces a name or identifying label (\"known by the name Thanga\"), not an achievement.",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B15": {
+  "answer": "a",
+  "conf": "high",
+  "why": "\"Pursuant\" is invariably followed by \"to\" — \"pursuant to the recommendation\" means in accordance with it. No other preposition collocates with this formal legal adjective.",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B16": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The adjective \"indifferent\" takes \"to\" when it means showing no interest in something. \"Indifferent about\" is occasionally heard in casual speech but \"indifferent to\" is the standard form tested here.",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B17": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Skill at an activity is expressed with \"good at\" — good at painting, good at chess. \"Good in\" is used only of a field or subject in loose usage and is not accepted as the standard collocation for an activity.",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B18": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"Conversant\" collocates with \"with\": to be conversant with a subject is to be familiar with it. \"Conversant in\" is sometimes used of languages, but that option is not offered and \"of\"/\"at\"/\"on\" never follow this adjective.",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B19": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"Proficient\" takes \"in\" before a field or a language — proficient in three languages. \"Proficient with\" is used only of tools or instruments (proficient with a rifle), not of languages.",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B2": {
+  "answer": "d",
+  "conf": "high",
+  "why": "A longer background action interrupted by a sudden one takes the past continuous, so \"was watching\" is right when Damien \"called\". Simple past \"watched\" would wrongly mean the film finished before the call rather than being in progress during it.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B20": {
+  "answer": "b",
+  "conf": "high",
+  "why": "A matter that lies inside a court's authority \"falls under the jurisdiction\" of that court. \"Falls in\" is not idiomatic here, and \"over\" would reverse the relationship — it is the court that has jurisdiction over the matter, not the matter over the jurisdiction.",
+  "topic": "prepositions",
+  "flag": null
+ },
+ "B21": {
+  "answer": "d",
+  "conf": "high",
+  "why": "A simple sentence has exactly one finite verb, so the first clause must become a participial phrase: 'Climbing up the tree, he plucked some mangoes.' Option (b) is the same structure but slips the tense to the present 'plucks', which the original does not license.",
+  "topic": "sentence_transformation",
+  "flag": null
+ },
+ "B22": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The active is simple present interrogative ('Does ... catch'), so the passive keeps simple present: 'Is the thief caught by the police officer?' Option (c) shifts to the present perfect and (b) to the past perfect, which changes the tense the question actually asked about.",
+  "topic": "voice",
+  "flag": null
+ },
+ "B23": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "The finite verb being passivised is 'hopes', and with a that-clause object the passive takes the impersonal form 'It is hoped that he will win a prize.' Option (b) passivises only the infinitive and throws away 'hopes' altogether, and (c) is not a passive at all.",
+  "topic": "voice",
+  "flag": null
+ },
+ "B24": {
+  "answer": "b",
+  "conf": "high",
+  "why": "'Let the poor not be teased' is the passive of a negative imperative, so the active is simply 'Do not tease the poor.' Option (c) is still passive (it just adds the agent) and (a) is ungrammatical — 'Let people not teased' has no infinitive.",
+  "topic": "voice",
+  "flag": null
+ },
+ "B25": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The reporting verb 'said' is past, so the reported simple past 'wrote' back-shifts one step to the past perfect: 'John had written the letter.' Option (c) keeps the present perfect 'has written', which fails the back-shift rule.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B26": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Going back to direct speech, 'would' returns to 'will', 'her' to 'you', and 'the following day' to 'tomorrow'. Option (c) has the right words but the wrong reporting verb: in direct speech the convention is 'said to Mala', since 'told' takes the listener as an object without a comma-quotation.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B27": {
+  "answer": "a",
+  "conf": "high",
+  "why": "'too ... to' converts to the negative pattern 'so ... that ... not': 'He was so ill that he could not attend school yesterday.' Option (b) just inserts 'not' in front of 'too', which reverses the meaning — it says he was well enough to go.",
+  "topic": "sentence_transformation",
+  "flag": null
+ },
+ "B28": {
+  "answer": "c",
+  "conf": "high",
+  "why": "An exclamatory 'How + adverb' becomes an assertive statement with an intensifier: 'She sings very sweetly.' Option (d) changes the meaning (it praises the song, not the singing) and (a) also shifts the tense to the past.",
+  "topic": "sentence_transformation",
+  "flag": null
+ },
+ "B29": {
+  "answer": "b",
+  "conf": "high",
+  "why": "A negative statement becomes a rhetorical question by dropping the negative word: 'never' turns into 'ever' — 'Can I ever forget your kindness?' Option (a) keeps 'never', which would make the question mean the opposite, and (c)/(d) are punctuated as statements.",
+  "topic": "sentence_transformation",
+  "flag": null
+ },
+ "B3": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"By this time next year\" sets a deadline in the future, and the future perfect \"will have completed\" marks an action finished before that point. It also matches the second verb \"and found a job\", which shares the same \"will have\" auxiliary; \"will complete\" or \"will be completing\" cannot carry that completed sense.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B30": {
+  "answer": "a",
+  "conf": "high",
+  "why": "'Would that ...' is an optative formula meaning a wish, so the assertive form is 'I wish I were a king.' The subjunctive 'were' must survive; (d) replaces it with 'would be' and keeps the exclamation mark, so it is not assertive.",
+  "topic": "sentence_transformation",
+  "flag": null
+ },
+ "B31": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Adjective. 'However tired he was' is a concessive clause built on 'he was tired': 'tired' is the subject complement after the linking verb 'was', describing 'he'. A word that describes a noun/pronoun after be/seem/become is an adjective, not an adverb. The tempting option is Adverb (c), because the whole phrase 'however tired he was' modifies the main clause adverbially — but the underline is on 'tired' alone, and the adverb in that phrase is 'however', which modifies 'tired'. Only an adverb can modify an adjective, which confirms 'tired' is the adjective. Agrees with the booklet's highlight.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B32": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Plural noun. 'Righteous' is an adjective by origin, but in the 'the + adjective' pattern it is substantivised — 'the righteous' means 'righteous people' and works as the subject of the sentence. The decisive proof is the verb: the sentence says 'emerge', not 'emerges', so the subject is plural. The tempting option is Adjective (a), the word's dictionary class, and Singular Noun (d) is wrong for the same reason 'emerge' is plural. Other members of this pattern behave identically: the poor, the blind, the elderly. Agrees with the booklet's highlight.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B33": {
+  "answer": "c",
+  "conf": "high",
+  "why": "[adjudicated: derived] Sentence: \"Sawmi goes to school **every** day.\" The markup underlines only the single word *every* — and the direction itself says each sentence \"has a **word** underlined,\" singular, which rules out the two-word phrase *every day* being the target.\n\nWork it from first principles. Ask what *every* is doing in the sentence: it sits in front of the noun *day* and tells you which/how many days. That slot — before a noun, limiting or specifying it — is the determiner slot, the same slot filled by *the, this, some, each, my*. So *every* is a **Determiner (c)**.\n\nCheck the other three the same way:\n- **Adverb** — an adverb modifies a verb, adjective or another adverb. *Every* modifies the noun *day*, not the verb *goes*. Note the trap: the whole phrase *every day* does work adverbially (it answers \"how often does Sawmi go?\"). But that adverbial force belongs to the phrase as a unit, not to the word *every*. A determiner inside an adverbial phrase is still a determiner — exactly as *this* is still a determiner in *this morning*.\n- **Pronoun** — a pronoun stands in place of a noun, alone. *Every* can never stand alone; you cannot say \"Every came.\" English uses *everyone / everybody / everything* for that job. (Its cousins *each* and *all* can be pronouns — \"each of them\", \"all are here\" — which is probably why the option is here to tempt you. *Every* cannot.)\n- **Preposition** — a preposition shows a relation and takes an object (*to* school, *in* the morning). *Every* does neither.\n\nSo the highlighted answer in the booklet, (a) Adverb, is **wrong**, and you should not memorise it. It is the answer you get if you underline *every day* instead of *every* — a plausible typesetting slip in a booklet that already carries known errors, and MPSC published no official key for this sitting. Treat the highlight as a scan artefact, not as authority.\n\nOne older-textbook caveat that does not change the answer: some Indian grammars still label *every* an \"adjective of number/quantity.\" \"Adjective\" is not on the menu here; \"Determiner\" is the modern term for precisely that role, so (c) is the intended and the correct choice either way.\n\nTakeaway rule: for a part-of-speech question, test the *underlined word by itself*, never the phrase it happens to sit in.",
+  "topic": "parts_of_speech",
+  "flag": "Source highlight (a) contradicts the underline scope and is judged an error. The booklet's marked answer \"Adverb\" is only defensible if the underline spans \"every day\"; the markup and the direction's singular \"a word\" both say it spans only \"every\". No official MPSC key exists for this sitting, so the highlight carries no authority. Recommend storing as answerSource 'derived' with answer (c) and a note that the printed highlight disagrees. Worth checking whether sibling questions B31-B40 in the same 31-40 block show the same phrase-vs-word underline drift."
+ },
+ "B34": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Verb. 'Seems' is the finite verb of the sentence — it carries the tense and agrees with the singular subject 'He' (he seems / they seem). It is a linking (copular) verb, joining the subject to the complement 'very tired'. The tempting option is Adjective (c), because the thing being described is a state; but the adjective here is 'tired', not 'seems'. Test it by swapping in 'is': 'He is very tired' — the slot 'seems' fills is the verb slot. Agrees with the booklet's highlight.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B35": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Abstract noun. 'Happiness' is the subject of 'was' and names a quality/state that cannot be seen or touched, which is exactly the definition of an abstract noun; the -ness suffix builds abstract nouns from adjectives (happy → happiness, kind → kindness). The tempting option is Adjective (c), because the related word 'happy' is an adjective and the sentence is about a description — but the adjective in this sentence is 'obvious'. Agrees with the booklet's highlight.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B36": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Noun. 'Wonder' is the head of the noun phrase 'a natural wonder', the subject complement after 'is'; the article 'a' in front of it is proof it is a noun, since articles introduce nouns. The tempting option is Adjective (a), because 'wonder' sits at the end of a descriptive phrase — but the adjective there is 'natural', which modifies 'wonder'. Note 'wonder' can also be a verb ('I wonder why'); word class is decided by the job the word does in this sentence, and here it is named, counted and articled, so it is a noun. Agrees with the booklet's highlight.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B37": {
+  "answer": "c",
+  "conf": "low",
+  "why": "Defective item — no option is strictly correct. Because 'this' is immediately followed by the noun it points to ('this question'), it is functioning as a determiner (traditional grammar: demonstrative adjective), not as a pronoun. A demonstrative is a pronoun only when it stands alone in a noun's place — 'Can you answer this?' would be a pronoun. The option list here offers Preposition, Noun, Pronoun, Adverb, with no Determiner or Adjective, so the intended key (c) is only right under the loose school convention that calls this/that/these/those 'demonstrative pronouns' whatever their position. I match the booklet's highlight (c) as the closest available choice, but do not learn from this item: with a noun after it, 'this' is a determiner. That is also why Question 33 above answers 'Determiner'.",
+  "topic": "parts_of_speech",
+  "flag": "No correct option: underlined 'this' modifies the noun 'question', so it is a determiner / demonstrative adjective, but the options list only Preposition, Noun, Pronoun, Adverb. (c) is the least-wrong choice, not a right one."
+ },
+ "B38": {
+  "answer": "a",
+  "conf": "high",
+  "why": "[adjudicated: derived] Answer: (a) Adjective. The booklet's highlighted (c) Verb is wrong.\n\nThe question is whether \"are pleased\" is a passive verb (making \"pleased\" a past participle) or a linking verb + adjective. Four standard tests all give the same answer:\n\n1. Degree word. Adjectives take a bare \"very\"; true passives need \"very much\". \"We are VERY pleased to come here\" is completely natural — \"very much pleased\" is stilted. Adjective.\n2. Linking-verb frame. Only adjectives can follow seem/look/feel: \"They SEEMED pleased,\" \"She LOOKED pleased.\" A genuine passive cannot (\"They seemed arrested\" is not English on the event reading). Adjective.\n3. Coordination. You can join it to an undisputed adjective: \"We are HAPPY AND pleased to come here.\" You can never coordinate an adjective with a passive participle.\n4. The \"to\"-phrase. \"pleased TO COME\" is the same pattern as glad to, eager to, sorry to, delighted to, happy to — an adjective pattern. Substitute the plainest adjective there is and nothing changes: \"We are GLAD to come here.\"\n\nAnd the meaning test: a real passive describes an action done to someone, and allows an agent (\"We were pleased BY the news\"). Here nobody performs any pleasing — the sentence describes our state of mind. It is a polite formula meaning \"we are glad.\"\n\nSo \"pleased\" is a participial adjective: a word born from a verb that has settled into the adjective class, exactly like tired, interested, surprised, worried, excited. \"I am tired\" is not passive voice, and neither is this.\n\nWhy the booklet marked Verb: whoever prepared the key saw \"are + past participle\" and reflexively called it passive voice. That shorthand works for \"The letter is written by him,\" but not for stative participles with a to-infinitive. The Wren & Martin tradition these papers are written from teaches the same thing — such participles after \"be\" are adjectives.\n\nExam rule of thumb: if the underlined -ed word can take \"very\" and can follow \"seem,\" it is an adjective, not part of the verb.",
+  "topic": "parts_of_speech",
+  "flag": "Extracted `direction` text is truncated mid-sentence: \"...has a word underlined. Find\" — the rest of the instruction (presumably naming the part of speech of the underlined word) is missing from the JSON. Worth re-extracting the Q31-40 direction from the source PDF before this batch ships, since the task is only inferable from the options as it stands."
+ },
+ "B39": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Adjective. Underlined 'still' sits before the noun 'water' and tells you what kind of water — motionless, not flowing — so it is an attributive adjective (the proverb is normally printed 'Still waters run deep'). The tempting option is Adverb (c), because 'still' is far more common as an adverb of time ('He is still here'); word class is decided by the job in this sentence, and here it modifies a noun, which adverbs never do. Note 'deep' at the end is also being used adjectivally as a complement, not as the adverb 'deeply'. Agrees with the booklet's highlight.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B4": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The not-seeing happened before the past event of running into the friend, so the earlier of two past actions takes the past perfect \"had not seen\". \"Have not seen\" is the trap — the present perfect would imply the gap continues up to now, but the meeting already ended that gap last week.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B40": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Conjunction. 'Or' joins the two nouns 'tea' and 'coffee' as alternatives inside one sentence, which is the defining job of a coordinating conjunction (the set is and, but, or, nor, for, yet, so). The tempting option is Interjection (b), which is an exclamation standing outside the sentence structure ('Oh!', 'Alas!') — 'or' is structurally essential here, remove it and the sentence breaks. Agrees with the booklet's highlight. ('cofee' is a printing typo for 'coffee'; it does not change the grammar being tested, so the item is still sound.)",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B41": {
+  "answer": "a",
+  "conf": "high",
+  "why": "\"A bone of contention\" is the issue two parties keep fighting over — a subject of disagreement. Option (c) is a near-homophone trap: \"contention\" means dispute, while \"contentment\" means satisfaction, the opposite sense.",
+  "topic": "idioms_phrases",
+  "flag": null
+ },
+ "B42": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"To pay through the nose\" means to pay far more than a thing is worth — an excessive, painful price. Option (c) describes \"to pay the price\" / \"face the music\", a different idiom about consequences rather than cost.",
+  "topic": "idioms_phrases",
+  "flag": null
+ },
+ "B43": {
+  "answer": "a",
+  "conf": "high",
+  "why": "\"To see eye to eye with\" someone means to agree with them — to hold the same opinion. It has nothing to do with literal eyesight, so (b) and (c), which read the phrase word-for-word, are the traps.",
+  "topic": "idioms_phrases",
+  "flag": null
+ },
+ "B44": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"Apprise\" means to inform or notify — you apprise someone of the facts. Option (a) defines \"appraise\" (to assess or value something); the two words differ by one letter and are the classic confusion pair being tested here.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B45": {
+  "answer": "a",
+  "conf": "high",
+  "why": "\"To officiate\" is to perform the duties of an office or preside over a ceremony — a priest officiates at a wedding, a referee officiates a match. Option (b) is \"to plead/litigate\", a lawyer's role, not an officiant's.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B46": {
+  "answer": "a",
+  "conf": "high",
+  "why": "An \"embargo\" is an official ban on trade with a country — a legal prohibition on commerce. Options (b) and (c) invert the meaning: an embargo blocks trade, it does not free or license it.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B47": {
+  "answer": "c",
+  "conf": "high",
+  "why": "\"Expunge\" means to erase or strike out completely, usually from a record — remarks are expunged from the minutes. Option (a), \"destroy completely\", is the tempting near-miss: expunging removes an entry, it does not annihilate the thing itself.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B48": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"Articulate\" as an adjective means able to express oneself fluently and clearly. Option (c) is baited by the look-alike \"artistic\"; \"articulate\" comes from articulus (joint/distinct utterance), not from art.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B49": {
+  "answer": "c",
+  "conf": "high",
+  "why": "\"A dime a dozen\" describes something so plentiful it is nearly worthless — common and cheap. Options (a) and (b) reverse it: a dime buying twelve of a thing is the whole point of the phrase's contempt.",
+  "topic": "idioms_phrases",
+  "flag": null
+ },
+ "B5": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"While\" joins two actions running in parallel in the past, and the first clause is already past continuous (\"was reading\"), so the second must match with \"was sleeping\". Simple past \"slept\" would break the sense of simultaneous, ongoing action.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B50": {
+  "answer": "c",
+  "conf": "high",
+  "why": "\"To pick holes (in)\" means to find fault with, i.e. to criticise. Option (a) is close but wrong in kind: picking holes is one-sided fault-finding and needs no quarrel or exchange of words to occur.",
+  "topic": "idioms_phrases",
+  "flag": null
+ },
+ "B6": {
+  "answer": "c",
+  "conf": "high",
+  "why": "\"By the end of this year\" points to a future moment and \"for twenty-five years\" measures a stretch of time continuing up to it — that is exactly the future perfect continuous, \"will have been working\". The present and past perfect options cannot be used with a future deadline at all.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B7": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The train's departure happened before the arrival at the station, so the earlier past action takes the past perfect \"had already left\". \"Has already left\" is wrong because the whole sentence is set in the past, not linked to the present moment.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B8": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The reporting verb \"said\" is past, so the future perfect \"will have finished\" is backshifted to \"would have finished\" in reported speech. \"Would finish\" loses the sense of completion before the arrival, and any \"will\" form clashes with the past reporting verb.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B9": {
+  "answer": "d",
+  "conf": "medium",
+  "why": "\"By next December ... for fifteen years\" measures an unbroken stretch of time running up to a future point, which is the standard use of the future perfect continuous \"will have been serving\". Be aware that the plain future perfect \"will have served\" (c) is also acceptable English here; the continuous is preferred only because it emphasises the duration the sentence is measuring.",
+  "topic": "word_usage",
+  "flag": "Both (c) 'will have served' and (d) 'will have been serving' are grammatically defensible with 'for fifteen years'; the continuous is the better duration-emphasis answer but this is not a clean single-answer item."
+ }
+}

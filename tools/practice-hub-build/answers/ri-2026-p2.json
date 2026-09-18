@@ -1,0 +1,702 @@
+{
+ "B1": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Argentina was invited to join BRICS from 1 January 2024 but declined the invitation under President Milei, so it never became a member. Egypt did join in that January 2024 expansion and Indonesia was admitted as a full member in January 2025, which is why both read as tempting answers.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B10": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Kalidasa, author of Abhijnanashakuntalam, Meghaduta and Raghuvamsa, belongs to the Gupta age and is traditionally counted among the 'nine gems' of Chandragupta II's court. Classical Sanskrit literature peaked under the Guptas, not the Mauryas, and the Mughal court's literary language was Persian.",
+  "topic": "history_ancient_medieval",
+  "flag": null
+ },
+ "B100": {
+  "answer": "c",
+  "conf": "low",
+  "why": "A two-view dice question is solved by finding the face common to both views, rotating about it to fix the rest, then reading off the face opposite 1 — but views (i) and (ii) are images the extraction did not capture, so no face values are available. The answer given follows the option highlighted in the source PDF and is unverified.",
+  "topic": "dice",
+  "flag": "Missing figure: dice positions (i) and (ii) are absent from the extracted text, making the question unanswerable as stored. Option (d) also carries OCR noise (\"cannot be determined * * * * * * *\"). Answer follows the PDF highlight only."
+ },
+ "B11": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Guru Gobind Singh, the tenth Guru, founded the Khalsa Panth at Anandpur Sahib on Baisakhi 1699, initiating the Panj Piare and prescribing the five Ks. Guru Nanak founded Sikhism itself and Guru Arjan compiled the Adi Granth, but neither created the Khalsa order.",
+  "topic": "history_ancient_medieval",
+  "flag": null
+ },
+ "B12": {
+  "answer": "a",
+  "conf": "high",
+  "why": "'Jai Hind' was adopted by Subhas Chandra Bose as the greeting and battle cry of the Azad Hind Fauj (INA) — it is credited to his associate Abid Hasan — and passed into national use after independence. Gandhi's associated calls were 'Do or Die' and 'Quit India'; Tilak's was 'Swaraj is my birthright'.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B13": {
+  "answer": "c",
+  "conf": "high",
+  "why": "In the standard four-phase account of India's population growth, 1951-1981 is the period of population explosion: death rates fell sharply with better health care and food security while birth rates stayed high, pushing annual growth above 2 per cent. 1901-1921 is the stagnant phase (1921 being the 'demographic divide'), 1921-1951 steady growth, and 1981 onwards high but decelerating growth.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B14": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Both statements are wrong, so 'neither' is right: India's thorium reserves in monazite beach sands are among the world's largest and far exceed its modest uranium reserves — precisely the reason the three-stage nuclear programme is built around thorium. Jharkhand's nuclear importance is uranium at Jaduguda, while thorium-bearing monazite is concentrated in the coastal sands of Andhra Pradesh, Tamil Nadu, Kerala and Odisha.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B15": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The strait joins the Persian Gulf to the Gulf of Oman and so to the Arabian Sea (1), and about a fifth of the world's oil consumption passes through it, making it the single most important oil chokepoint (3). Statement 2 is false: Iran lies to the north but Oman's Musandam peninsula lies to the south, so the strait and its shipping lanes are shared, not entirely Iranian.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B16": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "Sand has a low specific heat and retains heat poorly, so after sunset it radiates away almost all the energy it took in during the day and desert temperatures fall steeply. Option (c) is the mirror-image trap — rapid absorption explains the hot desert day, not the cold night; clear skies (b) genuinely assist the heat loss, but the property being tested is sand's rapid re-radiation.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B17": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The Mizo or Lushai Hills are part of the Purvanchal, the north-south chain of eastern hills — Patkai Bum, Naga Hills, Manipur Hills, Mizo Hills — that forms the eastern extension of the Himalayas. Barail is a single range further north in Assam/Nagaland, while the Aravalli and Satpura lie in peninsular India far from the Northeast.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B18": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The Tropic of Cancer crosses eight Indian states from west to east: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. It touches Mizoram but not Manipur, Assam or Meghalaya, which is where most miscounts come from.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B19": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Article 1(1) reads 'India, that is Bharat, shall be a Union of States', so the expression 'Union of India' covers the States alone — they are the federating units that share power with the Centre. Union territories and territories that may be acquired enter under Article 1(3) as part of the wider 'territory of India'; they are centrally administered but are not members of the Union in that federal sense, and confusing the two expressions is the whole point of the question.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B2": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The Schengen Area abolished checks at internal borders, so people cross between member states without passport control — it is about movement of people, not money or goods. Option (c) describes the Eurozone and (b) a trade arrangement; the memberships do not even coincide (Ireland is in the EU but outside Schengen, Switzerland is in Schengen but outside the EU).",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B20": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Article 243U, inserted by the 74th Amendment, gives every municipality five years from the date of its first meeting unless it is dissolved sooner, so statement 1 is correct. Statement 2 is the classic trap: under Article 243U(4) a municipality constituted after premature dissolution continues only for the unexpired remainder of the original term, and if that remainder is less than six months no election need be held at all.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B21": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The 42nd Amendment (1976) is called the 'mini constitution' because it altered the Preamble (adding 'Socialist', 'Secular', 'Integrity'), added the Fundamental Duties and Part IVA, and changed dozens of articles in one sweep. The 44th (1978) is the tempting distractor, but it mostly *undid* 42nd Amendment excesses rather than rewriting the Constitution wholesale.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B22": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The Constitution came into force on 26 January 1950, and that day was the 1st Republic Day. Counting inclusively, 26 January 2026 is the 77th (2026 − 1950 = 76 anniversaries, plus the original day). The classic error is subtracting 1950 from 2026 and answering 76th.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B23": {
+  "answer": "d",
+  "conf": "high",
+  "why": "NITI Aayog stands for National Institution for Transforming India; it replaced the Planning Commission on 1 January 2015. 'Institute' (option c) is the standard trap — the body is an institution, not an institute.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B24": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Sikkim's Legislative Assembly has the Sangha constituency, reserved for the Buddhist monasteries (lamas of recognised gompas vote in it) — the only religion-based seat in any Indian legislature. Reservations elsewhere, as in Goa or Uttar Pradesh, are for SCs and STs, which are caste/tribe-based, not religious.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B25": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Ways and Means Advances are temporary overdraft-style credit the RBI extends to the Centre and states under Section 17(5) of the RBI Act to bridge short-run mismatches between receipts and payments; they must be repaid within 90 days and are not a deficit-financing instrument. That rules out option b — WMA is explicitly short-term and is not money raised by issuing bonds.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B26": {
+  "answer": "c",
+  "conf": "high",
+  "why": "A demographic dividend is the growth potential that appears when the working-age population (15–64) rises relative to dependents, so the dependency ratio falls and more of the population is producing rather than consuming. Options a, b and d all describe the opposite condition — a shrinking or more burdened workforce.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B27": {
+  "answer": "a",
+  "conf": "low",
+  "why": "The VB-G RAM G legislation was brought in to repeal and replace MGNREGA, 2005 with a new rural employment and livelihoods framework tied to the Viksit Bharat 2047 goal, so statement 1 is right; the guarantee was not reported as being raised to 150 days per household, so statement 2 is wrong. This is very recent legislation and the exact guaranteed-days figure could not be verified here — treat the rejection of statement 2 as the marked paper's evidence rather than a confirmed fact.",
+  "topic": "current_affairs",
+  "flag": "Unverified 2025 current affairs: the guaranteed-days provision of the VB-G RAM G Act could not be checked against a source. Answer follows the marked option."
+ },
+ "B28": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Dr. Arvind Panagariya, former NITI Aayog Vice-Chairman, was appointed Chairman of the 16th Finance Commission (constituted 31 December 2023) to recommend tax devolution for 2026–31. Ajay Narayan Jha, Niranjan Rajadhyaksha and Soumya Kanti Ghosh are members of the same Commission, not its chairman — which is what makes them plausible distractors.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B29": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "Under the ULLAS / Nav Bharat Saksharta Karyakram a state is declared 'fully literate' at 95% literacy, and Mizoram, Goa, Tripura and Himachal Pradesh were the states so declared in 2025. Kerala's full-literacy declaration dates from 1991, not 2025, and Ladakh is a Union Territory declared in 2024 — which eliminates options b, c and d.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B3": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The e-Rupee is the RBI's central bank digital currency, so it is sovereign currency and legal tender (1), and the RBI runs both a wholesale pilot (CBDC-W, for interbank settlement) and a retail pilot (CBDC-R, for the public), so (3) holds too. Statement 2 is the trap: retail e-Rupee reaches users *through* commercial banks as distributing intermediaries, so it supplements them rather than removing them.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B30": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The 17 SDGs were adopted in 2015 as part of the 2030 Agenda for Sustainable Development, with a target date of 2030. 2047 is the Viksit Bharat target year, a purely Indian goal, and is the trap here.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B31": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Biosphere reserves protect species in their natural habitat, which makes them in-situ conservation; botanical gardens, zoos and aquariums all keep organisms away from their habitat and are therefore ex-situ. The question asks which is NOT ex-situ, so the in-situ item is the answer.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B32": {
+  "answer": "b",
+  "conf": "medium",
+  "why": "The Cold Desert Biosphere Reserve of Himachal Pradesh was the addition that took India to 13 sites on UNESCO's World Network of Biosphere Reserves. Sundarbans (2001), Nanda Devi (2004) and Dehang-Dibang — the last of which is not on the UNESCO network at all — are older or ineligible, so none of them could be the newest entry.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B33": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The Stockholm Convention (2001, in force 2004) is indeed a legally binding treaty against Persistent Organic Pollutants, so statement 1 is correct. Statement 2 is out of date: it began with the 'dirty dozen' 12 chemicals but successive Conferences of the Parties have listed many more, taking the total past 30, so only statement 1 stands.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B34": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Rain water is condensed water vapour, so it is naturally distilled and carries the fewest dissolved salts and impurities — the purest natural source. Well water looks clean but percolates through soil and rock and picks up dissolved minerals; sea water is the most impure of all.",
+  "topic": "science_chemistry",
+  "flag": null
+ },
+ "B35": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Mizoram has two national parks: Murlen National Park in Champhai district and Phawngpui (Blue Mountain) National Park in Lawngtlai district. Its other protected areas — Dampa, Ngengpui, Khawnglung and so on — are wildlife sanctuaries or a tiger reserve, not national parks, which is why the count is often overstated.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B36": {
+  "answer": "d",
+  "conf": "medium",
+  "why": "Green Mizoram Day is observed across the state on 11 June each year, a mass tree-planting day instituted in 1999 by the state government. 22 April is Earth Day and 22 March is World Water Day — global observances, not the Mizoram-specific one the question asks for.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B37": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Kessler Syndrome, proposed by NASA scientist Donald Kessler in 1978, is the runaway scenario in which orbital debris density grows so high that each collision produces fragments that cause further collisions, potentially making low Earth orbit unusable. Option a describes a solar storm or geomagnetic event, a different hazard entirely.",
+  "topic": "science_physics",
+  "flag": null
+ },
+ "B38": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Only statement 1 is right: gravity is purely attractive while the electromagnetic force attracts unlike and repels like charges. Statement 2 is wrong because the electromagnetic force depends on charge, not on mass; statement 3 is wrong because both forces obey an inverse-square law and so both weaken with distance.",
+  "topic": "science_physics",
+  "flag": null
+ },
+ "B39": {
+  "answer": "d",
+  "conf": "high",
+  "why": "A magnifying glass is a converging (convex) lens used with the object inside its focal length, which produces an enlarged, erect, virtual image. A concave lens diverges light and always gives a diminished image, so it can never magnify.",
+  "topic": "science_physics",
+  "flag": null
+ },
+ "B4": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Orion is the crew spacecraft that carries astronauts to lunar orbit; Artemis is the name of the programme, so Artemis-I and Artemis-II are mission names, not vehicles — that is the distinction the question is testing. Skylab was a 1970s Earth-orbiting space station with no lunar role.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B40": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Vinegar is a dilute (roughly 4–8%) solution of acetic acid, also called ethanoic acid, CH3COOH. Citric acid is the acid of citrus fruits, malic acid that of apples, and pyruvic acid is a metabolic intermediate — none of them is vinegar.",
+  "topic": "science_chemistry",
+  "flag": null
+ },
+ "B41": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Oxygenated blood returns from the lungs through the pulmonary veins, which empty into the left atrium; from there it passes to the left ventricle and out through the aorta. The left ventricle is a tempting answer but it receives that blood second, from the atrium, not directly from the lungs; the right-side chambers handle deoxygenated blood.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B42": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Saliva contains the enzyme ptyalin (salivary amylase), which begins breaking starch down into maltose in the mouth. Proteins wait for pepsin in the stomach and fats for lipase and bile in the small intestine, so neither is digested by saliva; vitamins are absorbed, not digested.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B43": {
+  "answer": "b",
+  "conf": "medium",
+  "why": "Early Mizo villages practised shifting (jhum) cultivation and abandoned a site once its soil was exhausted, and this moving of the whole settlement to fresh land is called 'Ram zuan' — literally leaping from one land to another. 'Khawkhawm' is the opposite idea, the grouping or gathering together of villages, while 'Ram lak' refers to seizing land rather than migrating.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B44": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Solakia (Sarlamkai) is the warriors' dance performed after a successful raid or hunt, celebrating the victor and, in traditional belief, binding the slain enemy's spirit to serve him in the afterlife. Cheraw is the bamboo dance, Khuallam the dance that welcomes guests at a Khuangchawi, and Chailam a festive community dance — none of them is a war-victory rite.",
+  "topic": "mizoram_culture",
+  "flag": null
+ },
+ "B45": {
+  "answer": "b",
+  "conf": "high",
+  "why": "N.E. Parry, Superintendent of the Lushai Hills in the 1920s, wrote 'A Monograph on Lushai Customs and Ceremonies' (1928). J. Shakespear is remembered for 'The Lushei Kuki Clans' and T.H. Lewin for 'The Wild Races of South-Eastern India', so those are the classic mix-ups here.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B46": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The first major Lushai Expedition was launched in 1871–72, after raids on the Cachar tea gardens and the abduction of Mary Winchester from Alexandrapore. 1889–90 saw the later Chin-Lushai Expedition that led to annexation, but the first punitive campaign is firmly dated 1871–72.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B47": {
+  "answer": "c",
+  "conf": "low",
+  "why": "Following the marked option: John Shakespear, the first Superintendent of the Lushai Hills (1898–1905), set up the district's early administration including the fixing of chiefs' land boundaries. Treat this as unverified — the exact officer credited with introducing the land settlement is not something this explanation can confirm from an independent source.",
+  "topic": "mizoram_history",
+  "flag": "Unverified: which colonial officer introduced the land settlement in the Lushai Hills could not be confirmed; answer follows the source highlight."
+ },
+ "B48": {
+  "answer": "a",
+  "conf": "low",
+  "why": "Following the marked option, 'Awkpaka' is associated with the Zawlbuk, the bachelors' dormitory that was the centre of a Mizo village's social and military training. This is unverified — the precise meaning of the term could not be checked against a source, so treat it as the best available evidence rather than a confirmed fact.",
+  "topic": "mizoram_culture",
+  "flag": "Unverified Mizo-language term; answer follows the source highlight rather than a checked definition."
+ },
+ "B49": {
+  "answer": "a",
+  "conf": "low",
+  "why": "Following the marked option, Captain Lalrinawma Sailo is given as the first Mizo officer awarded the Kirti Chakra, India's second-highest peacetime gallantry decoration. Note that 'Gunner' Lallawmzuala is not an officer rank, so that option does not fit the wording even though the name may be a genuine gallantry awardee; the answer itself is unverified.",
+  "topic": "mizoram_gk",
+  "flag": "Unverified: the first Mizo officer to receive the Kirti Chakra could not be confirmed; answer follows the source highlight."
+ },
+ "B5": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The 2026 World Cup co-hosted by the USA, Canada and Mexico is the first expanded edition with 48 teams in 12 groups of four. 32 is the old format used from 1998 to 2022 and is the standard distractor.",
+  "topic": "sports_misc",
+  "flag": null
+ },
+ "B50": {
+  "answer": "c",
+  "conf": "low",
+  "why": "Following the marked option, 'Kham leh Suar' is given as the Mizo Academy of Letters Book of the Year 2025. This is recent Mizoram literary current affairs that could not be independently verified, so treat it as unconfirmed and check the MAL announcement before relying on it.",
+  "topic": "mizoram_gk",
+  "flag": "Unverified 2025 current-affairs fact (MAL Book of the Year); answer follows the source highlight."
+ },
+ "B51": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Use the identity a² + b² = (a + b)² − 2ab = 6² − 2(6) = 36 − 12 = 24. The trap is to forget the −2ab term and simply square the sum, or to subtract ab only once, which would give 30.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "B52": {
+  "answer": "d",
+  "conf": "high",
+  "why": "For x > 3: (1) squaring gives x² > 9; (2) 2x + 1 > 7 rearranges to x > 3, which is exactly the given condition; (3) x² − 6x + 9 = (x − 3)², and since x ≠ 3 the square is strictly positive. All three hold, so 'All of the above' is correct — statement 3 only looks doubtful until you spot it is a perfect square.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "B53": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Melting preserves volume, so (2/3)πr³ = πr²h, and cancelling πr² leaves h = 2r/3. Answer 4r/3 comes from using the full sphere volume (4/3)πr³ instead of the hemisphere's.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "B54": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Total work = 10 × 20 = 200 worker-days; in the first 5 days 10 × 5 = 50 worker-days are done, leaving 150. With 6 workers remaining, 150 ÷ 6 = 25 more days. The common slip is to give 30 (150 ÷ 5) or to forget that the question asks only for the additional days.",
+  "topic": "time_work",
+  "flag": null
+ },
+ "B55": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Let the number be 10a + b. Reversing adds 27, so (10b + a) − (10a + b) = 9(b − a) = 27, giving b − a = 3; with ab = 18 the digits are 3 and 6, so the number is 36. 63 is the reversed number, not the original, which is exactly the trap.",
+  "topic": "number_system",
+  "flag": null
+ },
+ "B56": {
+  "answer": "d",
+  "conf": "high",
+  "why": "By Thales' theorem, the angle subtended by a diameter at any point on the circle is a right angle, so ∠ACB = 90° wherever C sits on the semicircle. The other options would only arise for a chord that is not a diameter.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "B57": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Full volume = πr²h = (22/7) × 7 × 7 × 10 = 1540 m³, and 70% of 1540 is 1078 m³. Option (b) 1078.6 is the near-miss you get from sloppy rounding of π; with r = 7 the 22/7 value cancels exactly, so the answer is a clean 1078.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "B58": {
+  "answer": "a",
+  "conf": "high",
+  "why": "aₙ = a + (n − 1)d, so a₁₂ = 50 + 11 × (−3) = 50 − 33 = 17. Using 12 instead of 11 for the number of steps gives 14, and forgetting the negative sign inflates the answer — the count of common differences is always one less than the term number.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "B59": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Let d be the distance from the nearer point: h = d·tan60° = d√3, and h = (d + 20)·tan30° = (d + 20)/√3. Equating gives 3d = d + 20, so d = 10 and h = 10√3 m; 20√3 comes from wrongly taking the 20 m as the distance from the tower.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "B6": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The Memorandum of Settlement signed on 14 April 2026 at Vengpui Community Hall, Sakawrdai was between the Government of Mizoram and HPC-D (LF) — the Hmar People's Convention-Democratic faction led by Lalhmingthanga Sanate — ending the last active insurgency in the state, with 43 cadres surrendering later that month. The other options are earlier chapters of the same story: the parent HPC signed the 1994 accord that created the Sinlung Hills Development Council, and HPC-D signed the 2018 settlement.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B60": {
+  "answer": "d",
+  "conf": "high",
+  "why": "SI for 2 years at 5% is 0.10P; CI for 2 years at 6.25% is P(1.0625² − 1) = 0.12890625P. The difference 0.02890625P = 37 gives P = 1280. Note the two rates differ, so the usual shortcut 'difference = P(r/100)²' does not apply here.",
+  "topic": "simple_compound_interest",
+  "flag": null
+ },
+ "B61": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Cost per item = 1000/50 = Rs 20. SP of 30 items at +20% = 30x20x1.20 = 720; SP of 20 items at -10% = 20x20x0.90 = 360. Total SP = 1080 against cost 1000, so profit = 80 = 8%. The trap is averaging +20% and -10% to get 10% or 5% - percentages must be weighted by the money involved, and the two lots are not equal (30 vs 20).",
+  "topic": "profit_loss",
+  "flag": null
+ },
+ "B62": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The digits 1+2+3+4+5 sum to 15, which is divisible by 3, so EVERY five-digit arrangement of them is divisible by 3 and far larger than 3 - hence composite. None of the 120 permutations can be prime, so the count is zero; you never need to test individual numbers once you spot the digit-sum rule.",
+  "topic": "number_system",
+  "flag": null
+ },
+ "B63": {
+  "answer": "b",
+  "conf": "high",
+  "why": "7^(2n) - 1 = 49^n - 1, and x^n - 1 is always divisible by x - 1, so it is divisible by 48 and therefore by 24. Checking n = 1 gives 48, which is divisible by 24 but not by 7, 15 or 21 - so the other three options fail at the very first case.",
+  "topic": "number_system",
+  "flag": null
+ },
+ "B64": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Let the son be S and the father 3S. After 12 years 3S + 12 = 2(S + 12), giving S = 12 and father = 36. Option (a) 24, 8 satisfies the 3-times condition today but in 12 years gives 36 and 20, which is not a 2:1 ratio.",
+  "topic": "age_problems",
+  "flag": null
+ },
+ "B65": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The difference between the 4th and 2nd terms is stated in the question itself as 6, so that is the answer whatever the ratio is. Sanity check: ar^3 - ar = 6 and ar^4 - ar^2 = 24 divide to give r = 4, so ar = 0.4 and the terms run 0.1, 0.4, 1.6, 6.4, 25.6 - and 6.4 - 0.4 = 6.",
+  "topic": "algebra",
+  "flag": "OCR-garbled stem: the ordinals collapsed into 'by 6 thrdndth and 5 term is greater than 3 term by 24'. Reconstructed as 4th-2nd = 6 and 5th-3rd = 24, on which reading the question asks for a quantity it already supplies. No other option (1.5, 24, 96) is reachable from the data, so 6 is safe, but the wording is worth checking against the source PDF."
+ },
+ "B66": {
+  "answer": "a",
+  "conf": "high",
+  "why": "A trailing zero needs a factor of 10, i.e. a 2 paired with a 5. Factorising: 24 = 2^3 x 3, 32 = 2^5, and 17, 23, 19 are primes - there is no factor of 5 anywhere, so there are no trailing zeros. 'Sixteen' tempts you by counting the 2s, but 2s alone produce no zeros.",
+  "topic": "number_system",
+  "flag": null
+ },
+ "B67": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Take P as origin: 50 km east reaches (50, 0); facing east a right turn is south, so 30 km gives (50, -30); from south a left turn is east, so 30 km gives (80, -30); a right turn from east is south again, so Q = (80, -60). Straight-line PQ = sqrt(80^2 + 60^2) = 100 km - the 140 km option is just the total distance walked, not the shortest distance.",
+  "topic": "direction_sense",
+  "flag": null
+ },
+ "B68": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Lion, tiger and leopard are all wild big cats; the cat is the only domesticated one. All four belong to the cat family, so family membership cannot be the distinction - domestic versus wild is.",
+  "topic": "odd_one_out",
+  "flag": null
+ },
+ "B69": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The rule is: shift each letter one step back in the alphabet and reverse the word. LIFE -> KHED -> DEHK, and NEXT -> MDWS -> SWDM, so both given codes check out. FINE -> EHMD -> reversed = DMHE. Option (b) MDHE swaps the first two letters, the usual slip when the reversal is done carelessly.",
+  "topic": "coding_decoding",
+  "flag": null
+ },
+ "B7": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Gandhi attended only the Second Round Table Conference (London, 1931), going as the sole Congress representative under the terms of the Gandhi-Irwin Pact. Congress boycotted the First RTC (1930) with its leaders in jail, and by the Third RTC (1932) Gandhi was imprisoned again after Civil Disobedience resumed.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B70": {
+  "answer": "d",
+  "conf": "low",
+  "why": "This question depends entirely on a diagram that was not captured with the text, so the triangle count cannot be derived from what is printed here. The answer recorded follows the marked option in the source paper and is unverified - treat it as provisional until the figure is checked in the original PDF.",
+  "topic": "figure_counting",
+  "flag": "Missing figure: the stem says 'the given figure' but no diagram was extracted, so the count is unverifiable. Answer follows the source highlight only; needs the source PDF."
+ },
+ "B71": {
+  "answer": "a",
+  "conf": "high",
+  "why": "A blind person is one who cannot perceive light, so the relation is 'faculty : the person deprived of it' - and a dumb person is one who cannot produce speech. Option (b) is close but wrong in kind: a deaf person is deprived of sound or hearing, not of language, and deaf people use language fluently.",
+  "topic": "analogy",
+  "flag": null
+ },
+ "B72": {
+  "answer": "b",
+  "conf": "high",
+  "why": "A sedative is what relieves pain, so the pattern is 'affliction : what soothes it', and consolation is exactly what relieves grief. Option (c) reverses the logic - a narcotic causes a trance rather than relieving it - and (a) pairs comfort with a stimulant, which relieves nothing.",
+  "topic": "analogy",
+  "flag": null
+ },
+ "B73": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Deer have 4 legs and peacocks 2. From d + p = 80 and 4d + 2p = 200, subtract twice the first: 2d = 40, so d = 20 and p = 60. The trap is option (a) 20, which is the number of deer, not the peacocks the question asks about.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "B74": {
+  "answer": "c",
+  "conf": "high",
+  "why": "'Misologist' is from Greek misos (hatred) + logos (reason, learning) - one who hates knowledge, reasoning and learning. A bibliophile loves books, a philologist studies language, and a misogynist hates women, so only (c) fits.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B75": {
+  "answer": "d",
+  "conf": "high",
+  "why": "'All apples are bananas' and 'all bananas are sweet' chain to give 'all apples are sweet', and 'all' entails 'some', so Conclusion I follows. Conclusion II is the valid converse of a universal affirmative - if every apple is a banana then at least some bananas are apples - so it follows too. 'Either/or' (option c) is wrong because that applies only to complementary pairs where exactly one can be true.",
+  "topic": "syllogism",
+  "flag": null
+ },
+ "B76": {
+  "answer": "a",
+  "conf": "high",
+  "why": "By years marked: silver jubilee 25, golden jubilee 50, diamond jubilee 60, centenary 100, millennium 1000 - giving 3, 5, 2, 4, 1. Every distractor opens with 2 (diamond jubilee), but 60 years cannot come before the silver and golden jubilees.",
+  "topic": "logical_sequence",
+  "flag": null
+ },
+ "B77": {
+  "answer": "c",
+  "conf": "high",
+  "why": "For equal distances each way the average speed is the harmonic mean: 2 x 40 x 60 / (40 + 60) = 4800/100 = 48 km/h. The tempting 50 km/h is the plain arithmetic mean, which overstates the result because more time is spent on the slower leg.",
+  "topic": "speed_distance_time",
+  "flag": null
+ },
+ "B78": {
+  "answer": "a",
+  "conf": "high",
+  "why": "17 is congruent to -1 modulo 18, so 17^200 is congruent to (-1)^200 = 1. The exponent is even, so the remainder is 1; an odd exponent would have left 17, which is exactly why option (d) is planted there.",
+  "topic": "number_system",
+  "flag": null
+ },
+ "B79": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The pair sums are A + B = 30,100, B + C = 30,700 and A + C = 30,400; adding all three gives 2(A + B + C) = 91,200, so A + B + C = 45,600. Then A = 45,600 - (B + C) = 45,600 - 30,700 = Rs 14,900 - you must subtract the pair that does NOT contain A. Option (b) is just one of the given averages, not A's income.",
+  "topic": "average",
+  "flag": null
+ },
+ "B8": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The Battle of Chinsurah, also called the Battle of Bedara or Biderra (1759), was fought between the Dutch East India Company and the English under Colonel Forde, and it destroyed Dutch power in Bengal. The Anglo-French struggle was settled in the Carnatic Wars and at Wandiwash (1760), which is the usual mix-up here.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B80": {
+  "answer": "b",
+  "conf": "high",
+  "why": "For any two numbers, product = LCM x HCF = 35 x 15 = 525. Be aware the data itself is impossible: the HCF must always divide the LCM, and 15 does not divide 35, so no such pair of numbers actually exists - but 525 is the only value the standard formula yields.",
+  "topic": "number_system",
+  "flag": "Invalid data as printed: HCF must divide LCM, but 15 does not divide 35, so no two integers have this LCM/HCF pair. The formula still gives 525 uniquely so the intended answer is unambiguous, but the question is mathematically unsound - worth verifying the figures against the source PDF."
+ },
+ "B81": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"Straight\" covers both positions where the hands lie on one line: coinciding (0°) and opposite (180°). In 12 hours the hands coincide 11 times and are opposite 11 times, so 22 in 12 hours and 44 in a full day. The trap is 22, which counts only one of the two cases (or only a 12-hour span).",
+  "topic": "calendar_clock",
+  "flag": null
+ },
+ "B82": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The ratio 2:7:4 has 2 + 7 + 4 = 13 parts, so one part = 7774 ÷ 13 = 598 and green = 7 × 598 = 4186. Option (a) 1110 is close to the red count and (c) 6663 is what you get by wrongly treating green as everything except red.",
+  "topic": "ratio_proportion",
+  "flag": null
+ },
+ "B83": {
+  "answer": "b",
+  "conf": "high",
+  "why": "There are 6 + 8 = 14 balls in all and 8 are white, so P(white) = 8/14 = 4/7. The tempting 3/4 comes from dividing by a wrong total; always divide by every ball in the bag, then reduce the fraction.",
+  "topic": "probability",
+  "flag": null
+ },
+ "B84": {
+  "answer": "c",
+  "conf": "high",
+  "why": "One side is left unpainted, so the painted sides are the side opposite it plus both perpendicular sides: 9 + 2w = 37 gives w = 14, and area = 9 × 14 = 126 sq ft. Option (d) 252 is the classic slip of taking w = 28, i.e. forgetting there are two such sides.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "B85": {
+  "answer": "c",
+  "conf": "high",
+  "why": "One diagonal splits any quadrilateral into two triangles, and each contributes 180°, so the interior angles total 2 × 180° = 360°. 180° is a triangle and 540° is a pentagon.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "B86": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The distance formula is Pythagoras applied to the horizontal and vertical gaps between the two points: √[(x₂ − x₁)² + (y₂ − y₁)²]. Option (b) √(x² + y²) is only the special case of distance from the origin, where x₁ = y₁ = 0.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "B87": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Joining the centre to the midpoint of a chord makes two congruent triangles (two equal radii and a shared side), so the two angles at the chord are equal and each must be 90° — the line is perpendicular to the chord. \"Secant\" and \"tangent\" describe how a line meets the circle, not the angle it makes with a chord.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "B88": {
+  "answer": "c",
+  "conf": "high",
+  "why": "An equilateral triangle has all three sides equal, so all three angles are equal, and 180° ÷ 3 = 60° each. \"Only two sides are equal\" describes an isosceles triangle, which is the standard distractor here.",
+  "topic": "mensuration",
+  "flag": "OCR artifact: option (d) reads \"All sides are unequal 50403020\". The trailing digits are bleed-through of the exponents 50/40/30/20 that belong to Q89's options and are not part of this option."
+ },
+ "B89": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The printed options 350/620/530/440 are really the powers 3⁵⁰, 6²⁰, 5³⁰ and 4⁴⁰ (their exponent digits leaked into Q88's option (d) during extraction). Rewrite each as a tenth power — 3⁵⁰ = 243¹⁰, 4⁴⁰ = 256¹⁰, 5³⁰ = 125¹⁰, 6²⁰ = 36¹⁰ — and 256¹⁰ is the largest, so 4⁴⁰ wins. The trap is assuming the biggest base (6) or the biggest exponent (50) must win; you have to equalise one of them first.",
+  "topic": "number_system",
+  "flag": "Extraction damage: the stem should read \"the greatest number among 3⁵⁰, 4⁴⁰, 5³⁰ and 6²⁰\" and the options are powers, not plain integers. As currently stored (\"greatest among 3, 4, 5, and 6\" with options 350/620/530/440) the question is nonsense — restore the superscripts from the source PDF before publishing."
+ },
+ "B9": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The Poona Pact of September 1932, agreed between Gandhi and Ambedkar, replaced the separate electorates that Ramsay MacDonald's Communal Award had granted the Depressed Classes with reserved seats inside the joint Hindu electorate, ending Gandhi's fast unto death at Yerwada. The Simon Commission and the Nehru Report belong to 1927-28 and had nothing to do with this settlement.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B90": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The series adds consecutive squares: 53 +2²=57, +3²=66, +4²=82, +5²=107, +6²=143, +7²=192. The fifth term should be 107, so 110 is the intruder — and note 143 and 192 both fit perfectly once 107 is used, confirming 110 is the single break.",
+  "topic": "number_series",
+  "flag": null
+ },
+ "B91": {
+  "answer": "b",
+  "conf": "high",
+  "why": "C > A > B from the first clue, B > D > E from the second and F > C from the third, giving the full order F > C > A > B > D > E. F is tallest, so C is second tallest; A is only third.",
+  "topic": "ranking",
+  "flag": null
+ },
+ "B92": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Each term is one less than a perfect square: 2²−1 = 3, 3²−1 = 8, 4²−1 = 15, 5²−1 = 24, 6²−1 = 35, so the next is 7²−1 = 48. Equivalently the gaps grow 5, 7, 9, 11, 13, and 35 + 13 = 48; answering 46 assumes the gap stays at 11.",
+  "topic": "number_series",
+  "flag": null
+ },
+ "B93": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Substituting the symbols gives 39 − 4 ÷ 2 × 3. BODMAS does division and multiplication first — 4 ÷ 2 = 2, then 2 × 3 = 6 — leaving 39 − 6 = 33. Working strictly left to right instead gives (39 − 4) ÷ 2 × 3 = 52.5, and answering 6 means stopping after the inner arithmetic.",
+  "topic": "coding_decoding",
+  "flag": null
+ },
+ "B94": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Swap every symbol first, then apply BODMAS. Option (a) becomes 15 × 5 − 8 + 2 = 75 − 8 + 2 = 69, which matches the stated result. The rest fail: (b) → 16 ÷ 5 + 7 × 9 = 66.2, (c) → 15 × 6 − 8 + 2 = 84, (d) → 18 ÷ 8 × 4 − 11 = −2.",
+  "topic": "coding_decoding",
+  "flag": null
+ },
+ "B95": {
+  "answer": "c",
+  "conf": "medium",
+  "why": "Rice is a kind of Food, so the Rice circle sits wholly inside the Food circle, while Glass is neither a food nor a rice and stays completely separate — exactly the arrangement in (c). Option (b) is wrong because it would make Glass a food too, and the overlapping chains in (a) and (d) would wrongly claim Rice and Glass share members.",
+  "topic": "venn_diagram",
+  "flag": null
+ },
+ "B96": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Look for each vowel whose immediate right-hand neighbour is also a vowel: E-A, U-I, E-U, U-O, A-E and E-O — six of them. The common slip is counting both letters of a pair (e.g. the E and the A in E-A), which inflates the total.",
+  "topic": "alphabet_test",
+  "flag": null
+ },
+ "B97": {
+  "answer": "b",
+  "conf": "high",
+  "why": "C is A's brother and D is C's son, so D is A's nephew; since B is A's wife, D is her nephew too. \"Uncle\" and \"maternal uncle\" reverse the direction of the relation, and the F clause only confirms that B married into A's family.",
+  "topic": "blood_relation",
+  "flag": null
+ },
+ "B98": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Triangle, square and circle are all two-dimensional plane figures, whereas a cylinder is a three-dimensional solid. Picking the circle because it alone has no straight sides is the trap — the grouping rule here is dimension, not curvature.",
+  "topic": "odd_one_out",
+  "flag": null
+ },
+ "B99": {
+  "answer": "d",
+  "conf": "low",
+  "why": "This is a figure-series question in which a dot and a short double line rotate around a hexagon from box to box, but the four series boxes are images the extraction never captured, so the rotation rule cannot be worked out from the stored text. The answer given follows the option highlighted in the source PDF and is unverified.",
+  "topic": "figure_series",
+  "flag": "Missing figure: the four-box series and the option figures are images absent from the extracted text, so the question is unanswerable as stored. Answer follows the PDF highlight only — needs the original figure before it is trusted."
+ }
+}

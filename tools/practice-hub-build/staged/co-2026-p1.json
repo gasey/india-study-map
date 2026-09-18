@@ -1,0 +1,1344 @@
+{
+ "paperId": "co-2026-p1",
+ "exam": "Circle Officer",
+ "examShort": "CO",
+ "dept": "Social Welfare, Women and Child Development Department, Govt. of Mizoram",
+ "sitting": "April 2026",
+ "year": 2026,
+ "paper": "Paper I",
+ "paperTitle": "General English",
+ "series": "A",
+ "maxMarks": 100,
+ "durationMin": 180,
+ "negativeMark": 0.33,
+ "markPerQuestion": 1,
+ "sourcePdf": "marked answer pp1 circle-officer-april-2026-paper-i-series-a.pdf",
+ "descriptive": [
+  {
+   "id": "A1",
+   "n": 1,
+   "kind": "essay",
+   "marks": 10,
+   "prompt": "Write an essay choosing one of the topics given below:",
+   "choices": [
+    "(a) The role of NGOs in community development.",
+    "(b) Minimum Government, Maximum Governance",
+    "(c) Challenges faced by working women in modern society."
+   ],
+   "passage": null,
+   "guidance": "Ten marks for one essay means roughly 400-500 words in four to five paragraphs: an introduction that states your position, two or three body paragraphs each carrying one argument plus one concrete example, and a conclusion that resolves rather than repeats. Pick the topic you can supply specifics for, and prefer Mizoram/North-East examples since the examiner is an MPSC board. For (a), build around what NGOs do that government cannot — last-mile reach, community mobilisation, pilot innovation — with Mizoram examples (church-based welfare bodies, YMA, Mizo Hmeichhe Insuihkhawm Pawl) and be honest about limits: dependence on donor funding, weak accountability, patchy coverage. For (b), define the slogan (fewer intrusive processes, more effective delivery), then evidence it — self-attestation, DBT, single-window clearances, decriminalising minor offences, GST — and note the tension that 'minimum government' must not mean a withdrawn state in welfare or regulation. For (c), organise the challenges into the wage/promotion gap, the double burden of unpaid domestic work, workplace safety and harassment (POSH Act, 2013), child-care and maternity provision, and social attitudes; close with remedies (creches, flexible hours, transparent promotion criteria, paternity leave) rather than only lament. Do not pad with proverbs or quotations; examiners mark structure, specificity and clean grammar."
+  },
+  {
+   "id": "A2",
+   "n": 2,
+   "kind": "precis",
+   "marks": 10,
+   "prompt": "Write a precis of the following passage in  about one-third of the words content. Give a suitable title.",
+   "choices": null,
+   "passage": "The rapid pace of urbanisation in the modern era has created a significant imbalance between the city and the countryside. While cities are often viewed as engines of economic growth and hubs of innovation, they are increasingly becoming overcrowded, leading to a decline in the quality of life. This phenomenon is largely driven by the lack of opportunities in rural areas, forcing the youth to migrate in search of better livelihoods. However, a sustainable future for the nation does not lie in the endless expansion of urban borders, but in the holistic development of our villages.\n\nTrue progress can only be achieved when rural areas are equipped with modern infrastructure, quality education, and accessible healthcare. If we can provide the same digital and physical connectivity in villages that is currently exclusive to cities, we can curb forced migration. Furthermore, empowering rural industries and agriculture through technology will create local employment, reducing the burden on urban resources. The goal should not be to turn every village into a city, but to provide urban-like amenities in a rural setting. Only by bridging this developmental gap can we ensure balanced national growth and prevent our cities from collapsing under the weight of their own population.",
+   "guidance": "The passage runs to about 202 words, so 'about one-third' means a precis of roughly 65-70 words — write the count at the end, as MPSC expects. The central thesis is that India's answer to overcrowded cities is not further urban expansion but developing villages so that rural youth are not forced to migrate. Compress to one paragraph in your own words, third person, reported/indirect style, past-neutral present tense, and no examples, no rhetorical questions, no first-person comment. Keep only four ideas: (i) rapid urbanisation has unbalanced city and countryside and degraded urban quality of life; (ii) the driver is the absence of rural opportunity, which pushes youth to migrate; (iii) the remedy is rural infrastructure, education, healthcare, digital and physical connectivity, and technology-led rural industry and agriculture; (iv) the aim is urban-like amenities in a rural setting, giving balanced national growth. Drop the ornamental phrasing ('engines of economic growth', 'collapsing under the weight of their own population') and never lift whole sentences. A suitable title should name the thesis, not the topic: 'Developing Villages to Save Our Cities' or 'Rural Development: The Answer to Urban Overcrowding'."
+  },
+  {
+   "id": "A3",
+   "n": 3,
+   "kind": "letter",
+   "marks": 10,
+   "prompt": "Write a Letter to the Mayor of Aizawl Municipal Corporation highlighting the rising incidence of burglary in various localities of Aizawl city and urging him to implement concrete measures to address the issue, including some remedial suggestions. Sign as XYZ of ABC locality.",
+   "choices": null,
+   "passage": null,
+   "guidance": "This is a formal letter to a public authority, so use the full official layout: sender's address (XYZ, ABC Locality, Aizawl, Mizoram) and date; the addressee block 'The Mayor, Aizawl Municipal Corporation, Aizawl, Mizoram'; a subject line ('Sub: Rising incidence of burglary in Aizawl localities — request for remedial measures'); the salutation 'Sir,'; three short body paragraphs; then 'Yours faithfully, XYZ, ABC Locality'. Do NOT sign with your real name — the paper says sign as XYZ of ABC locality, and inventing a name loses marks. Paragraph one states the purpose and who you write as (a resident of ABC locality). Paragraph two gives the substance: burglaries rising across several localities, break-ins during daytime working hours and at night, unlit lanes and blind corners, absent or non-functional street lighting, houses left empty during office hours, and the resulting fear among elderly residents and women living alone. Paragraph three carries the remedial suggestions the question explicitly asks for — restore and extend street lighting on inner lanes, install CCTV at locality entry points and junctions, support and coordinate with local Y.M.A. and Village Council night patrols, request the Mayor to take up increased night beat patrolling with the district police, publish a locality-wise complaint helpline, and clear overgrown vegetation and abandoned structures that give cover. Close by requesting early action and offering the locality's cooperation. Keep the tone respectful and factual, never accusatory, and stay under about 200 words in the body."
+  },
+  {
+   "id": "partA-passage",
+   "n": 4,
+   "kind": "passage",
+   "marks": 0,
+   "prompt": "Read the following passage carefully and answer the questions that follow.",
+   "choices": null,
+   "passage": "In the contemporary digital era, social media has emerged as a dominant force shaping the lives of young individuals. While it provides unprecedented opportunities for communication, self-expression, and access to information, its pervasive influence has raised serious concerns regarding youth mental health. The constant exposure to curated and idealized representations of life often leads to unhealthy comparisons, fostering feelings of inadequacy, low self-esteem, and anxiety among adolescents.\n\nMoreover, the addictive nature of social media platforms exacerbates these issues. The pursuit of validation through likes, comments, and followers can create a cycle of dependency, where self-worth becomes contingent upon virtual approval. This phenomenon not only distracts young people from real-life interactions but also contributes to social isolation and emotional distress. Studies have shown that excessive screen time is closely associated with sleep disturbances, reduced concentration, and increased levels of stress.\n\nAnother critical aspect is the prevalence of cyberbullying, which has become a significant threat in the digital landscape. Unlike traditional forms of bullying, online harassment can be relentless and far-reaching, leaving victims with little respite. The anonymity afforded by social media often emboldens perpetrators, intensifying the psychological impact on victims and, in severe cases, leading to depression and suicidal tendencies.\n\nHowever, it is important to acknowledge that social media is not inherently detrimental. When used responsibly, it can serve as a platform for awareness, support, and community building. Mental health campaigns, peer support groups, and access to professional resources have become more accessible through digital channels.\n\nIn conclusion, while social media offers numerous benefits, its adverse effects on youth mental health cannot be overlooked. A balanced approach involving digital literacy, parental guidance, and self-regulation is essential to mitigate its negative consequences and promote overall well-being.",
+   "guidance": "This is the shared reading passage for Q4(a)-(d) (2 marks each, written on the Answer Booklet) and for the two objective vocabulary items 4(e) and 4(f) (1 mark each). Note the source misprints 'comparisons' as 'comparisions' when it re-quotes the first paragraph in 4(e). Answer strictly from the passage: every one of the six sub-questions is answerable by locating and rephrasing a specific sentence, and marks are lost for importing outside opinion about social media. For the 2-mark written parts, two or three sentences each is the right length — name the point, then quote or paraphrase the supporting phrase."
+  },
+  {
+   "id": "A4a",
+   "n": 4,
+   "kind": "comprehension_written",
+   "marks": 2,
+   "prompt": "What are the positive aspects of social media mentioned in the passage?",
+   "choices": null,
+   "passage": null,
+   "guidance": "Model answer: the passage credits social media with 'unprecedented opportunities for communication, self-expression, and access to information'. It adds that when used responsibly it can be a platform for awareness, support and community building, and that mental health campaigns, peer support groups and access to professional resources have become more accessible through digital channels. Two marks means both clusters — the opportunities in paragraph one and the responsible-use benefits in paragraph four — should appear; giving only one of the two typically scores half."
+  },
+  {
+   "id": "A4b",
+   "n": 4,
+   "kind": "comprehension_written",
+   "marks": 2,
+   "prompt": "How does social media contribute to low self-esteem among youth?",
+   "choices": null,
+   "passage": null,
+   "guidance": "Model answer: constant exposure to curated and idealized representations of life leads young people into unhealthy comparisons, which foster feelings of inadequacy, low self-esteem and anxiety among adolescents. Reinforce this with the second paragraph: the pursuit of validation through likes, comments and followers creates a cycle of dependency in which self-worth becomes contingent upon virtual approval. The key causal chain the examiner is looking for is idealized content leads to comparison, comparison leads to a sense of inadequacy, and self-worth becomes dependent on external virtual approval."
+  },
+  {
+   "id": "A4c",
+   "n": 4,
+   "kind": "comprehension_written",
+   "marks": 2,
+   "prompt": "Why does anonymity increase the severity of cyberbullying?",
+   "choices": null,
+   "passage": null,
+   "guidance": "Model answer: the anonymity afforded by social media emboldens perpetrators, because they can harass without being identified and so without fear of consequence. This intensifies the psychological impact on victims and in severe cases leads to depression and suicidal tendencies. Add the contrast the passage itself draws: unlike traditional bullying, online harassment can be relentless and far-reaching, leaving victims with little respite — so anonymity multiplies an attack that the victim already cannot escape."
+  },
+  {
+   "id": "A4d",
+   "n": 4,
+   "kind": "comprehension_written",
+   "marks": 2,
+   "prompt": "What measures are suggested to reduce the negative impact of social media?",
+   "choices": null,
+   "passage": null,
+   "guidance": "Model answer: the passage's concluding paragraph prescribes a balanced approach resting on three things — digital literacy, parental guidance, and self-regulation — as essential to mitigate the negative consequences of social media and promote overall well-being. You may add the implicit fourth measure from paragraph four, namely responsible use, which turns the platform towards awareness, support, community building and access to professional mental health resources. Name all three of the explicit measures: dropping one of the three is the commonest way candidates lose a mark here."
+  }
+ ],
+ "questions": [
+  {
+   "id": "A4e",
+   "n": 4,
+   "part": "A",
+   "direction": "Read the following passage carefully and answer the questions that follow",
+   "passageRef": "partA-passage",
+   "q": "In the sentence: \"The constant exposure to curated and idealized representations of life often leads to unhealthy comparisions…\" Choose the word closest in meaning to **curated** in this context:",
+   "opts": {
+    "a": "Random",
+    "b": "Carefully selected",
+    "c": "Overlooked",
+    "d": "Haphazard"
+   },
+   "marked": null,
+   "answer": "b",
+   "conf": "high",
+   "why": "In the passage 'curated' describes feeds that have been deliberately chosen and edited to show only an idealized life, so 'carefully selected' is the sense required. 'Random' and 'Haphazard' are the exact opposite — the whole point of the sentence is that this content is anything but random. (The source misprints 'comparisons' as 'comparisions'.)",
+   "topic": "vocabulary_synonym",
+   "flag": null
+  },
+  {
+   "id": "A4f",
+   "n": 4,
+   "part": "A",
+   "direction": "Read the following passage carefully and answer the questions that follow",
+   "passageRef": "partA-passage",
+   "q": "In the sentence: \"It is important to acknowledge that social media is not inherently detrimental…\" Choose the word most opposite in meaning to **inherently** in the context of the passage:",
+   "opts": {
+    "a": "Naturally",
+    "b": "Intrinsically",
+    "c": "Incidentally",
+    "d": "Fundamentally"
+   },
+   "marked": null,
+   "answer": "c",
+   "conf": "high",
+   "why": "'Inherently' means by its very nature, as an essential part of something; its opposite is 'incidentally', meaning by chance or as a side effect rather than essentially. 'Naturally', 'Intrinsically' and 'Fundamentally' are all synonyms of 'inherently', which makes (c) the only possible answer.",
+   "topic": "vocabulary_antonym",
+   "flag": null
+  },
+  {
+   "id": "B1",
+   "n": 1,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "**Still** waters run deep.",
+   "opts": {
+    "a": "Noun",
+    "b": "Adjective",
+    "c": "Verb",
+    "d": "Adverb"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Still' here qualifies the noun 'waters' (waters that are still, i.e. motionless), so it is an adjective. The trap is that 'still' is very often an adverb ('He is still here'), but an adverb cannot sit between nothing and a plural noun as its modifier.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B2",
+   "n": 2,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "He knows **better** than to quarrel.",
+   "opts": {
+    "a": "Adverb",
+    "b": "Noun",
+    "c": "Verb",
+    "d": "Adjective"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Better' modifies the verb 'knows' (knows in a better way), so it is an adverb — the comparative of the adverb 'well'. It would be an adjective only if it qualified a noun, as in 'a better plan'.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B3",
+   "n": 3,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "What **most** annoys me is his obstinacy.",
+   "opts": {
+    "a": "Noun",
+    "b": "Verb",
+    "c": "Adjective",
+    "d": "Adverb"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'Most' modifies the verb 'annoys' (annoys to the greatest degree), so it is an adverb of degree. 'Most' would be an adjective in 'most people' and a noun in 'Most of them left', but neither applies here.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B4",
+   "n": 4,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "**Right** the wrong.",
+   "opts": {
+    "a": "Noun",
+    "b": "Adverb",
+    "c": "Verb",
+    "d": "Adjective"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "This is an imperative sentence, so 'Right' is its verb, meaning 'to set right, to correct', and 'the wrong' is its object. The trap is that 'right' is far commoner as an adjective or adverb, but an imperative must open with a verb.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B5",
+   "n": 5,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "**Since** you say so, I believe it.",
+   "opts": {
+    "a": "Relative pronoun",
+    "b": "Adverb",
+    "c": "Verb",
+    "d": "Conjunction"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'Since' joins the subordinate clause 'you say so' to the main clause 'I believe it' in the sense of 'because', so it is a subordinating conjunction. It would be a preposition before a noun ('since Monday') and an adverb in 'I have not seen him since'.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B6",
+   "n": 6,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "The **near** side of the moon is better known.",
+   "opts": {
+    "a": "Adverb",
+    "b": "Adjective",
+    "c": "Preposition",
+    "d": "Verb"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Near' stands between the article 'The' and the noun 'side' and tells us which side, so it is an adjective. 'Near' is a preposition when it governs a noun ('near the house') and an adverb in 'Come near'.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B7",
+   "n": 7,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "He is **but** a child.",
+   "opts": {
+    "a": "Conjunction",
+    "b": "Relative Pronoun",
+    "c": "Adverb",
+    "d": "Preposition"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Here 'but' means 'only, merely' — 'He is only a child' — and a word meaning 'only' that limits the following complement is an adverb; this is the standard textbook example of adverbial 'but'. It is not a conjunction because it joins nothing, and it is not a preposition: prepositional 'but' means 'except' and needs something for the exception to be carved out of ('all but one', 'nothing but water'), which this sentence does not supply.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B8",
+   "n": 8,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "He kept a **fast** for a week.",
+   "opts": {
+    "a": "Adverb",
+    "b": "Adjective",
+    "c": "Noun",
+    "d": "Verb"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Fast' is preceded by the article 'a' and is the object of the verb 'kept', so it is a noun meaning a period of abstaining from food. The trap is the far commoner adjective/adverb 'fast' meaning quick or quickly, but neither can follow 'a'.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B9",
+   "n": 9,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "The **heavens** declare the glory of God.",
+   "opts": {
+    "a": "Collective Noun",
+    "b": "Abstract Noun",
+    "c": "Common Noun",
+    "d": "Proper Noun"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Heavens' is the plural of the ordinary countable noun 'heaven' (the sky), a name shared by things of the same class, which is exactly what a common noun is. It is not a collective noun: a collective noun is a singular word naming a group of individuals taken as one unit (crowd, jury, fleet), whereas 'heavens' is simply a plural. It is not abstract, since the sky is perceptible, and not proper, since it names no one particular individual.",
+   "topic": "collective_nouns",
+   "flag": null
+  },
+  {
+   "id": "B10",
+   "n": 10,
+   "part": "B",
+   "direction": "Identify the appropriate Parts of Speech for the words underlined",
+   "passageRef": null,
+   "q": "There is no excuse **for** such a behaviour.",
+   "opts": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Pronoun",
+    "d": "Preposition"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'For' governs the noun phrase 'such a behaviour' and links it to 'excuse', which is the defining job of a preposition. ('For' can be a conjunction meaning 'because', but that option is not offered and no clause follows here.)",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B11",
+   "n": 11,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "The officials have the habit of fawning _______ ministers.",
+   "opts": {
+    "a": "above",
+    "b": "at",
+    "c": "on",
+    "d": "in"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The fixed collocation is 'to fawn on (or upon) someone', meaning to flatter servilely. 'Fawn at', 'fawn above' and 'fawn in' are not English.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B12",
+   "n": 12,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "You cannot expect respect from him because he is lost _______ senses of shame.",
+   "opts": {
+    "a": "in",
+    "b": "to",
+    "c": "into",
+    "d": "of"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "The idiom the setter is reaching for is 'to be lost to all sense of shame' — that is, to be dead to shame, past feeling it — so 'to' is the intended preposition. Confidence is only medium because the printed sentence is itself defective: the idiom requires the singular 'all sense of shame', not 'senses of shame', and with the plural and no 'all' the sentence is not idiomatic English whichever preposition you insert. Note that 'lost in' would mean absorbed in something, which reverses the meaning.",
+   "topic": "prepositions",
+   "flag": "source sentence is ungrammatical — the idiom is 'lost to all sense of shame', but the paper prints 'lost ___ senses of shame'"
+  },
+  {
+   "id": "B13",
+   "n": 13,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "You do not need to get up because the phone is lying _______ hand.",
+   "opts": {
+    "a": "at",
+    "b": "in",
+    "c": "on",
+    "d": "from"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'At hand' is the set phrase for 'within easy reach', which is exactly why the listener need not get up. 'In hand' means under control or in one's possession, and 'on hand' means available in stock — neither fits a phone lying within reach.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B14",
+   "n": 14,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "There is no limit _______ the wants of man.",
+   "opts": {
+    "a": "for",
+    "b": "to",
+    "c": "in",
+    "d": "of"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The noun 'limit' takes 'to' when it means a boundary or ceiling on something: 'there is no limit to his ambition'. 'Limit of' is used for the extent of a thing itself ('the limits of the city'), which does not fit 'no limit ___ the wants of man'.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B15",
+   "n": 15,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "The team was elated with joy _______ their victory.",
+   "opts": {
+    "a": "of",
+    "b": "to",
+    "c": "from",
+    "d": "over"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "One is elated over (or at) an event, so 'elated with joy over their victory' is the only idiomatic option. 'Of', 'to' and 'from' cannot introduce the cause of elation.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B16",
+   "n": 16,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "He talks _______ his father.",
+   "opts": {
+    "a": "like",
+    "b": "as",
+    "c": "from",
+    "d": "at"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The blank is followed by the bare noun phrase 'his father', and it is 'like' that works as a preposition before a noun to express resemblance — 'He talks like his father'. 'As' introduces a clause with its own verb ('He talks as his father does') or states a role or capacity ('He spoke as chairman'); with a bare noun it would mean he talks in the capacity of his father, which is not the sense. This is also why the same sentence is a parts-of-speech question elsewhere: 'like' here is a preposition, not a conjunction.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B17",
+   "n": 17,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "The seminar is _______ 20th January, 2022.",
+   "opts": {
+    "a": "in",
+    "b": "on",
+    "c": "Above",
+    "d": "at"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'On' is the preposition for a specific date or day. 'In' is for months, years and longer periods ('in January 2022') and 'at' is for clock times ('at 10 a.m.').",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B18",
+   "n": 18,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "Can we expect the result of the examination _______ the end of June?",
+   "opts": {
+    "a": "until",
+    "b": "on",
+    "c": "about",
+    "d": "by"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'By' gives a deadline — not later than the end of June — which is what asking when a result can be expected requires. 'Until' would mean continuously up to that point, which makes no sense with a single event, and 'on the end of June' is not English.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B19",
+   "n": 19,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "Abiding _______law is the culture of civilized nations.",
+   "opts": {
+    "a": "of",
+    "b": "to",
+    "c": "by",
+    "d": "for"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The phrasal verb is 'to abide by' a rule, law or decision, meaning to obey or comply with it. 'Abide in' exists only in the archaic sense of dwelling somewhere; 'abide of/to/for' do not exist.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B20",
+   "n": 20,
+   "part": "B",
+   "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
+   "passageRef": null,
+   "q": "India is committed _______ a policy of peaceful existence.",
+   "opts": {
+    "a": "of",
+    "b": "to",
+    "c": "with",
+    "d": "for"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Committed to' is the fixed pattern for being pledged or dedicated to something. 'Committed with/of/for' are not idiomatic in this sense.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B21",
+   "n": 21,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "He is showing signs of **senility**.",
+   "opts": {
+    "a": "virility",
+    "b": "laziness",
+    "c": "maturity",
+    "d": "exhaustion"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Senility' is the physical and mental decay of old age, so its opposite is 'virility', the vigour and strength of youthful manhood. 'Maturity' is the tempting distractor but it is not an opposite — maturity is a stage on the way to senility, not its reverse; 'laziness' and 'exhaustion' are unrelated to age.",
+   "topic": "vocabulary_antonym",
+   "flag": null
+  },
+  {
+   "id": "B22",
+   "n": 22,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "They approached the stranger **warily**.",
+   "opts": {
+    "a": "suspiciously",
+    "b": "cautiously",
+    "c": "carefully",
+    "d": "carelessly"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'Warily' means with caution and watchfulness against danger, so its opposite is 'carelessly'. The item is a clean one because the other three options — suspiciously, cautiously, carefully — are all synonyms of 'warily', not antonyms, which leaves only (d).",
+   "topic": "vocabulary_antonym",
+   "flag": null
+  },
+  {
+   "id": "B23",
+   "n": 23,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "The booking-clerk looked very **grumpy**.",
+   "opts": {
+    "a": "surly",
+    "b": "pleasant",
+    "c": "efficient",
+    "d": "honest"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Grumpy' means bad-tempered and sulky, whose opposite is 'pleasant', that is good-humoured and agreeable. 'Surly' is the trap: it is a near-synonym of grumpy, not its antonym, while 'efficient' and 'honest' describe unrelated qualities.",
+   "topic": "vocabulary_antonym",
+   "flag": null
+  },
+  {
+   "id": "B24",
+   "n": 24,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "He has given up his **vicious** habits.",
+   "opts": {
+    "a": "godly",
+    "b": "sublime",
+    "c": "virtuous",
+    "d": "friendly"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Vicious' here carries its root sense of full of vice, depraved, so the exact opposite is 'virtuous' — vice against virtue. 'Godly' is only loosely opposed (it concerns piety rather than moral character), 'sublime' concerns grandeur, and 'friendly' opposes only the secondary sense of vicious meaning savage.",
+   "topic": "vocabulary_antonym",
+   "flag": null
+  },
+  {
+   "id": "B25",
+   "n": 25,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "There is not a trace of **vanity** in her behaviour.",
+   "opts": {
+    "a": "modesty",
+    "b": "selflessness",
+    "c": "proudness",
+    "d": "dignity"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Vanity' is excessive pride in oneself, and its standard antonym is 'modesty'. 'Proudness' is a synonym, 'selflessness' is the opposite of selfishness rather than of vanity, and 'dignity' is a proper self-respect that is compatible with modesty, not opposed to vanity.",
+   "topic": "vocabulary_antonym",
+   "flag": null
+  },
+  {
+   "id": "B26",
+   "n": 26,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "He is a **sturdy** youngman.",
+   "opts": {
+    "a": "dynamic",
+    "b": "weak",
+    "c": "lively",
+    "d": "strong"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Sturdy' means strongly and robustly built, so 'weak' is its opposite. 'Strong' is the deliberate trap — it is a synonym — and 'dynamic' and 'lively' describe energy rather than physical robustness. (The paper prints 'youngman' as one word.)",
+   "topic": "vocabulary_antonym",
+   "flag": null
+  },
+  {
+   "id": "B27",
+   "n": 27,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "He listened **intently**, drawin by the speaker's authority.",
+   "opts": {
+    "a": "casually",
+    "b": "closely",
+    "c": "lazily",
+    "d": "diligently"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Intently' means with fixed and earnest attention, and its established antonym is 'casually', that is without attention or seriousness. 'Closely' and 'diligently' are synonyms; 'lazily' opposes effort rather than attention, so it is weaker than 'casually'. The sentence itself is misprinted — 'drawin' should be 'drawn' — but this does not affect the antonym.",
+   "topic": "vocabulary_antonym",
+   "flag": "misprint in the source sentence: 'drawin by the speaker's authority' should read 'drawn by the speaker's authority'"
+  },
+  {
+   "id": "B28",
+   "n": 28,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "The **rapid** stream flowed gradually.",
+   "opts": {
+    "a": "fast",
+    "b": "sluggish",
+    "c": "brisk",
+    "d": "exepeditions"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Rapid' means moving swiftly, so 'sluggish' — slow-moving, inert — is the opposite, and it is the natural word for a slow stream. 'Fast' and 'brisk' are synonyms of rapid, and option (d) is printed as 'exepeditions', a misspelling of 'expeditious' (itself a synonym of rapid), so it could not be the answer even if spelled correctly.",
+   "topic": "vocabulary_antonym",
+   "flag": "misspelling makes option (d) unreadable: 'exepeditions' is presumably intended as 'expeditious'"
+  },
+  {
+   "id": "B29",
+   "n": 29,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "He is **abstemious** in eating and drinking.",
+   "opts": {
+    "a": "greedy",
+    "b": "temperate",
+    "c": "profligate",
+    "d": "self-indulgent"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "medium",
+   "why": "'Abstemious' means sparing and moderate specifically in food and drink, and the precise contrary of that restraint is 'self-indulgent'. Confidence is medium because the item offers more than one defensible antonym: 'greedy' opposes moderation in eating, and 'profligate' means recklessly dissolute or extravagant, so both point the same way — but 'self-indulgent' is the dictionary-standard antonym of abstemious and covers both eating and drinking, so it is the best answer. Note that (b) 'temperate' is a synonym, not an antonym.",
+   "topic": "vocabulary_antonym",
+   "flag": "more than one defensible option — (a) greedy and (c) profligate are also broadly antonymous; (d) self-indulgent is the most precise"
+  },
+  {
+   "id": "B30",
+   "n": 30,
+   "part": "B",
+   "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "passageRef": null,
+   "q": "The antonym for **mendacious** is.",
+   "opts": {
+    "a": "accurate",
+    "b": "truthful",
+    "c": "false",
+    "d": "deceptive"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Mendacious' means lying or given to telling untruths, so its opposite is 'truthful'. 'False' and 'deceptive' are synonyms of mendacious, and 'accurate' is about factual correctness rather than the honesty of the speaker, which is what mendacious describes.",
+   "topic": "vocabulary_antonym",
+   "flag": null
+  },
+  {
+   "id": "B31",
+   "n": 31,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "Go abegging",
+   "opts": {
+    "a": "go in vain",
+    "b": "go for begging",
+    "c": "beg for something",
+    "d": "request for something"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "'To go a-begging' is an idiom meaning to find no taker — a thing is available but nobody wants it, so the offer is wasted; of the four options only 'go in vain' captures that sense of coming to nothing. Confidence is medium because 'go in vain' is an approximation rather than a translation: the idiom's core sense is 'to be unwanted', which none of the options states exactly. Options (b), (c) and (d) all take 'begging' literally, which is precisely the trap.",
+   "topic": "idioms_phrases",
+   "flag": null
+  },
+  {
+   "id": "B32",
+   "n": 32,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "Tread on one's toe",
+   "opts": {
+    "a": "walk on toes",
+    "b": "tread with toes",
+    "c": "flatter someone",
+    "d": "to give offence"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'To tread on someone's toes' means to offend or hurt someone's feelings, often by encroaching on their sphere, so 'to give offence' is the substitute. (a) and (b) read the phrase literally and (c) reverses the sense.",
+   "topic": "idioms_phrases",
+   "flag": null
+  },
+  {
+   "id": "B33",
+   "n": 33,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "A damp squib",
+   "opts": {
+    "a": "extremely exciting",
+    "b": "full of action",
+    "c": "a disappointing result",
+    "d": "Fair result"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "A squib is a small firework, and a damp one fails to go off — hence the idiom means something that turns out far less impressive than expected, a disappointment. (a) and (b) are the exact opposite, and a 'fair result' is a middling outcome rather than a failure.",
+   "topic": "idioms_phrases",
+   "flag": null
+  },
+  {
+   "id": "B34",
+   "n": 34,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "Bore the palm",
+   "opts": {
+    "a": "played quite well",
+    "b": "was victorious",
+    "c": "was defeated",
+    "d": "played a very boring match"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'To bear the palm' is to carry off the prize and so to win — from the Roman palm branch awarded to a victor; 'bore' is simply its past tense. Option (d) plays on the spelling of 'bore' as in tedious, which is the trap.",
+   "topic": "idioms_phrases",
+   "flag": null
+  },
+  {
+   "id": "B35",
+   "n": 35,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "A jack of all trades",
+   "opts": {
+    "a": "someone who has hit a jackpot",
+    "b": "A great businessman",
+    "c": "someone who has many skills",
+    "d": "A confident and not serious person"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'A jack of all trades' is a person able to turn a hand to many different kinds of work, that is someone with many skills (the full proverb adds 'and master of none'). 'Trades' here means crafts or occupations, not commerce, so (b) misreads the word and (a) merely echoes 'jack'.",
+   "topic": "idioms_phrases",
+   "flag": null
+  },
+  {
+   "id": "B36",
+   "n": 36,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "One who is always doubting",
+   "opts": {
+    "a": "Deist",
+    "b": "Rationalist",
+    "c": "Sceptic",
+    "d": "Positivist"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "A 'sceptic' is by definition one who habitually doubts and questions accepted beliefs. A deist believes in a God known through reason but not revelation, a rationalist makes reason the test of truth, and a positivist admits only what science can verify — each holds a positive doctrine rather than doubting as such.",
+   "topic": "one_word_substitution",
+   "flag": null
+  },
+  {
+   "id": "B37",
+   "n": 37,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "Knowing everything",
+   "opts": {
+    "a": "Omnigenous",
+    "b": "Omnipotent",
+    "c": "Omnipresent",
+    "d": "Omniscient"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'Omniscient' comes from omnis (all) plus scire (to know), so it means all-knowing. The distractors change the second root: omnipotent is all-powerful, omnipresent is present everywhere, and omnigenous means of all kinds.",
+   "topic": "one_word_substitution",
+   "flag": null
+  },
+  {
+   "id": "B38",
+   "n": 38,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "An inscription on a tomb",
+   "opts": {
+    "a": "Epitaph",
+    "b": "Espionage",
+    "c": "Epilogue",
+    "d": "Elegy"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "An 'epitaph' is precisely the writing carved on a tomb or gravestone. 'Elegy' is the near-miss: it is a mournful poem for the dead but is not inscribed on the tomb; an epilogue closes a book or play, and espionage is spying.",
+   "topic": "one_word_substitution",
+   "flag": null
+  },
+  {
+   "id": "B39",
+   "n": 39,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "An official pardon",
+   "opts": {
+    "a": "redemption",
+    "b": "amnesty",
+    "c": "regicide",
+    "d": "amnesia"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Amnesty' is a general pardon granted by an authority, typically to political offenders. 'Amnesia' is the loss of memory and is offered only as a look-alike trap; 'redemption' is deliverance or buying back, and 'regicide' is the killing of a king.",
+   "topic": "one_word_substitution",
+   "flag": null
+  },
+  {
+   "id": "B40",
+   "n": 40,
+   "part": "B",
+   "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
+   "passageRef": null,
+   "q": "A person who lives outside his native country",
+   "opts": {
+    "a": "indigenous",
+    "b": "expatriate",
+    "c": "natal",
+    "d": "intrinsic"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "An 'expatriate' — ex (out of) plus patria (native land) — is one who lives outside his own country. 'Indigenous' means native to a place, the opposite idea; 'natal' relates to birth; 'intrinsic' means belonging to the essential nature of a thing.",
+   "topic": "one_word_substitution",
+   "flag": null
+  },
+  {
+   "id": "B41",
+   "n": 41,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "The manager asked us **if we could finish the project by Monday**.",
+   "opts": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Conditional clause"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The underlined clause is the object of the verb 'asked' — it is the thing that was asked — and a clause doing the work of a noun is a noun clause. 'If' here means 'whether' and reports a question; it is not conditional, which is the trap the fourth option sets.",
+   "topic": "clauses",
+   "flag": null
+  },
+  {
+   "id": "B42",
+   "n": 42,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "We left the park early **because it started raining.**",
+   "opts": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Conditional clause"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Because it started raining' tells why we left, so it modifies the verb 'left' and is an adverb clause of reason. It qualifies no noun (so not adjective) and fills no noun slot (so not noun).",
+   "topic": "clauses",
+   "flag": null
+  },
+  {
+   "id": "B43",
+   "n": 43,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "The painting **which was stolen yesterday** has been recovered.",
+   "opts": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Conditional clause"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The relative clause introduced by 'which' qualifies the noun 'painting', telling us which painting is meant, so it does the work of an adjective. A relative pronoun beginning the clause is the usual signal of an adjective (relative) clause.",
+   "topic": "clauses",
+   "flag": null
+  },
+  {
+   "id": "B44",
+   "n": 44,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "She was late **as she missed the bus**.",
+   "opts": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Conditional clause"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'As' here means 'because' and the clause gives the reason for her being late, so it is an adverb clause of reason modifying the predicate 'was late'.",
+   "topic": "clauses",
+   "flag": null
+  },
+  {
+   "id": "B45",
+   "n": 45,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "I like the house **whose garden is full of flowers**.",
+   "opts": {
+    "a": "Conditional clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Adjective clause"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'Whose' is a relative pronoun and the clause it introduces describes the noun 'house', so the clause functions as an adjective. Note that the option order is shuffled in this item — the adjective-clause option is (d) here, not (a) as in Q41-Q44.",
+   "topic": "clauses",
+   "flag": null
+  },
+  {
+   "id": "B46",
+   "n": 46,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "\"We will help you tomorrow,\" they said.",
+   "opts": {
+    "a": "They said that they will help me tomorrow.",
+    "b": "They said that they would help me the next day.",
+    "c": "They said that they would help you tomorrow.",
+    "d": "They said that they help me tomorrow."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The reporting verb 'said' is past, so three changes are required together: 'will' backshifts to 'would', the addressee 'you' becomes 'me' (the reporter was the person addressed), and 'tomorrow' becomes 'the next day'. Option (a) fails to backshift 'will', (c) leaves 'you' and 'tomorrow' unchanged, and (d) drops the future entirely.",
+   "topic": "narration",
+   "flag": null
+  },
+  {
+   "id": "B47",
+   "n": 47,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "\"I can finish this work by evening,\" he said.",
+   "opts": {
+    "a": "He said that he could finish that work by evening.",
+    "b": "He said that he can finish this work by evening.",
+    "c": "He said that he could finish that work by that evening.",
+    "d": "He said that he could finish this work by that evening."
+   },
+   "marked": "d",
+   "answer": "c",
+   "conf": "high",
+   "why": "Reporting in the past requires all three shifts: 'can' to 'could', the demonstrative 'this' to 'that', and 'evening' to 'that evening'. Only option (c) makes all three. The marked option (d) shifts the tense and the time expression but leaves 'this work' unchanged, and 'this' cannot survive into indirect speech when the reporting verb is past — so the marked answer is wrong here and (c) is correct. Option (a) backshifts 'this' but not the time reference, and (b) backshifts nothing.",
+   "topic": "narration",
+   "flag": null
+  },
+  {
+   "id": "B48",
+   "n": 48,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "\"I shall never forget this day,\" she said.",
+   "opts": {
+    "a": "She said that she shall never forget that day.",
+    "b": "She said that she would never forget that day.",
+    "c": "She said she will never forget this day.",
+    "d": "She said that she would never forget this day."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Shall' backshifts to 'would' and 'this day' becomes 'that day', both of which only option (b) does. (a) leaves 'shall' unchanged, (c) leaves both 'will' and 'this day', and (d) — the near-miss — backshifts the verb but keeps the demonstrative 'this'.",
+   "topic": "narration",
+   "flag": null
+  },
+  {
+   "id": "B49",
+   "n": 49,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "He said that he must submit the report the next day.",
+   "opts": {
+    "a": "He said, \"I must submit the report tomorrow.\"",
+    "b": "He said, \"I must submit the report the next day.\"",
+    "c": "He said, \"I have to submit the report tomorrow.\"",
+    "d": "He said, \"I should submit the report tomorrow.\""
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Converting back to direct speech reverses the usual changes: 'he' becomes 'I' and 'the next day' becomes 'tomorrow', while 'must' is unchanged because it has no separate past form and is normally retained. (b) keeps the indirect-speech time phrase inside the quotation, and (c) and (d) substitute 'have to' and 'should' for 'must', altering the speaker's actual words.",
+   "topic": "narration",
+   "flag": null
+  },
+  {
+   "id": "B50",
+   "n": 50,
+   "part": "B",
+   "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "passageRef": null,
+   "q": "He said that he would help me the next day.",
+   "opts": {
+    "a": "He said, \"I will help you the next day.\"",
+    "b": "He said, \"I would help you tomorrow.\"",
+    "c": "He said, \"I will help you tomorrow.\"",
+    "d": "He said, \"I would help you the next day.\""
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Going back to direct speech, 'would' returns to 'will', 'me' becomes 'you', and 'the next day' becomes 'tomorrow' — all three only in option (c). (a) and (d) keep 'the next day' inside the quotation, and (b) and (d) leave the backshifted 'would' in the speaker's own words.",
+   "topic": "narration",
+   "flag": null
+  },
+  {
+   "id": "B51",
+   "n": 51,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "She sings very well. (Change into interrogative)",
+   "opts": {
+    "a": "Does she sing very well?",
+    "b": "How well does she sing?",
+    "c": "She sings well?",
+    "d": "She sings very well, right?"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The mechanical interrogative of a simple present statement adds the auxiliary 'do/does', inverts it with the subject and returns the verb to its base form: 'Does she sing very well?'. (b) is a wh-question that changes what is being asked, (c) is only a statement with a question mark, and (d) is a tag-like colloquialism, not a transformation.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B52",
+   "n": 52,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "Hardly had he reached the station when the train left. (Change into affirmative)",
+   "opts": {
+    "a": "He reached the station before the train left.",
+    "b": "He had reached the station when the train left.",
+    "c": "The train left after he reached the station.",
+    "d": "He reached the station just as the train left."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'Hardly' is a quasi-negative, so the affirmative version must drop it while keeping its meaning — that the second event followed the first immediately, as in 'as soon as' or 'just as'. Only (d) preserves that immediacy. (a) and (c) state a bare sequence and lose the 'no sooner...than' force, and (b) keeps the past perfect and merely deletes 'hardly'.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B53",
+   "n": 53,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "Hardly had he finished his work when the boss called him again. (Change into interrogative)",
+   "opts": {
+    "a": "Had he hardly finished his work when the boss called him?",
+    "b": "Did he finish his work before the boss called?",
+    "c": "Had he finished his work when the boss called him?",
+    "d": "Was the boss calling him while he finished?"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "medium",
+   "why": "The standard rule for turning a negative or quasi-negative statement into an interrogative is to drop the negative element and question the positive — as 'He is not a fool' becomes 'Is he a fool?' — which here gives 'Had he finished his work when the boss called him?'. Confidence is only medium because (a) is also arguable: it retains 'hardly' and so keeps the original's sense of immediacy, whereas (c) loses it, but 'Had he hardly finished...' is awkward English and is not the form these exercises expect. (b) changes the tense and (d) changes the subject and the aspect.",
+   "topic": "sentence_transformation",
+   "flag": "two defensible options — (c) follows the drop-the-quasi-negative rule but loses the immediacy of 'hardly...when'; (a) keeps 'hardly' at the cost of awkward English"
+  },
+  {
+   "id": "B54",
+   "n": 54,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "The exam was so tough that many students failed. (Change into exclamatory)",
+   "opts": {
+    "a": "How tough the exam was!",
+    "b": "Exam was tough!",
+    "c": "Many students failed the exam!",
+    "d": "The exam was tough!"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "An exclamatory transformation of the 'so...that' pattern uses 'How + adjective + subject + verb!', giving 'How tough the exam was!'. (b), (c) and (d) are ordinary assertive sentences with an exclamation mark tacked on, and (b) is additionally faulty for dropping the article before 'Exam'.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B55",
+   "n": 55,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "She always speaks the truth. (Change into negative)",
+   "opts": {
+    "a": "She never speaks the truth.",
+    "b": "She hardly ever speaks the truth.",
+    "c": "She does not always speak the truth.",
+    "d": "She rarely speaks the truth."
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "medium",
+   "why": "Among the options given, (c) is the only genuine negative transformation of the sentence as printed — insert 'does not' and return the verb to its base form. Confidence is medium because a proper affirmative-to-negative transformation should preserve meaning, and the textbook meaning-preserving answer, 'She never fails to speak the truth' (or 'She never tells a lie'), is not offered; (c) actually reverses the sense. (a), (b) and (d) go further still, asserting that she is untruthful, so they are worse.",
+   "topic": "sentence_transformation",
+   "flag": "no option preserves the meaning — the meaning-preserving negative is 'She never fails to speak the truth'; (c) is only the mechanical insertion of 'not', which reverses the sense"
+  },
+  {
+   "id": "B56",
+   "n": 56,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "The dog barked loudly, and the cat ran away. (Change into simple sentence)",
+   "opts": {
+    "a": "Hearing the dog bark loudly, the cat ran away.",
+    "b": "The dog barked loudly, so the cat ran away.",
+    "c": "Although the dog barked loudly, the cat ran away.",
+    "d": "The dog barked loudly; the cat ran away."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "A simple sentence has exactly one finite verb, and only (a) achieves this by reducing the first clause to the participial phrase 'Hearing the dog bark loudly', leaving 'ran' as the sole finite verb. (b) and (d) remain compound (two main clauses, joined by 'so' and by a semicolon), and (c) is complex.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B57",
+   "n": 57,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "I was hungry. I did not eat lunch. (Change into complex sentence)",
+   "opts": {
+    "a": "I was hungry, and I did not eat lunch.",
+    "b": "I was hungry, but I did not eat lunch.",
+    "c": "I was hungry, so I did not eat lunch.",
+    "d": "Although I was hungry, I did not eat lunch."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "A complex sentence needs a main clause plus a subordinate clause, and 'Although' is a subordinating conjunction, so (d) alone is complex — and 'although' correctly conveys the contrast between being hungry and not eating. (a), (b) and (c) use the coordinating conjunctions 'and', 'but' and 'so', which produce compound sentences.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B58",
+   "n": 58,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "It rained heavily. The match was postponed. (Change into compound sentence)",
+   "opts": {
+    "a": "Because it rained heavily, the match was postponed.",
+    "b": "It rained heavily, so the match was postponed.",
+    "c": "Although it rained heavily, the match was postponed.",
+    "d": "It rained heavily and the match was postponed."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "A compound sentence joins two main clauses with a coordinating conjunction, and 'so' is the coordinating conjunction of result, so (b) is compound and additionally preserves the cause-and-effect link between the two original sentences. Confidence is medium because (d), joining the same two main clauses with 'and', is also formally a compound sentence — the item therefore has two structurally correct options, and (b) wins only on meaning. (a) and (c) use subordinating conjunctions and are complex, not compound.",
+   "topic": "sentence_transformation",
+   "flag": "two defensible options — both (b) with 'so' and (d) with 'and' are formally compound sentences; (b) is preferred only because it keeps the cause-effect relation"
+  },
+  {
+   "id": "B59",
+   "n": 59,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "Me and my brother went to the market. (Correct the sentence)",
+   "opts": {
+    "a": "Me and my brother went to the market.",
+    "b": "My brother and me went to the market.",
+    "c": "My brother and I went to the market.",
+    "d": "I and my brother went to the market."
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The phrase is the subject of 'went', so it needs the subject form 'I', not the object form 'me' — which rules out (a) and (b). Between (c) and (d), convention places the first person last in a compound subject, so 'My brother and I' is correct and 'I and my brother' is faulty.",
+   "topic": "sentence_correction",
+   "flag": null
+  },
+  {
+   "id": "B60",
+   "n": 60,
+   "part": "B",
+   "direction": "Choose the correct answer from the alternatives for the following questions as directed",
+   "passageRef": null,
+   "q": "\"I suggested him to apply for the job.\" (Correct the sentence)",
+   "opts": {
+    "a": "I suggested him to apply for the job.",
+    "b": "I suggested that he applies for the job.",
+    "c": "I suggested that he apply for the job.",
+    "d": "I suggested him applying for the job."
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Suggest' does not take an indirect object followed by an infinitive — you cannot 'suggest someone to do' something — so (a), the uncorrected original, and (d) are both out. 'Suggest' takes a that-clause in the mandative subjunctive, where the verb stays in its base form regardless of the subject: 'I suggested that he apply for the job'. (b) is the trap, using the indicative 'applies' where the subjunctive 'apply' is required.",
+   "topic": "sentence_correction",
+   "flag": null
+  }
+ ]
+}

@@ -1,0 +1,287 @@
+[
+ {
+  "no": 1,
+  "q": "In which of the following formats data is stored in the database management system?",
+  "opts": {
+   "A": "Image",
+   "B": "Text",
+   "C": "Table",
+   "D": "Graph"
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 2,
+  "q": "Which of the following data models support for schema evaluation?",
+  "opts": {
+   "A": "Relational Model",
+   "B": "Entity Relationship Model",
+   "C": "Object Based Data Model",
+   "D": "Semi-structured Data Model"
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 3,
+  "q": "__________ component gives an idea about all the entities available in relationship.",
+  "opts": {
+   "A": "Multivalued Attribute",
+   "B": "Total Participation",
+   "C": "Relationship",
+   "D": "Derived Attribute"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 4,
+  "q": "The functional dependencies is said to be __________ if it is indirectly formed by two functional Dependencies.",
+  "opts": {
+   "A": "Partial Functional Dependency",
+   "B": "Trivial Functional Dependency",
+   "C": "Non Trivial Functional Dependency",
+   "D": "Transitive Functional Dependency"
+  },
+  "official_ans": "D",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 5,
+  "q": "Which operation in relational algebra is denoted by sigma?",
+  "opts": {
+   "A": "Project",
+   "B": "Select",
+   "C": "Union",
+   "D": "Rename"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 6,
+  "q": "Which Normal is used to remove the duplicate Information?",
+  "opts": {
+   "A": "First Normal Form",
+   "B": "Second Normal Form",
+   "C": "Third Normal Form",
+   "D": "Fourth Normal Form"
+  },
+  "official_ans": "A",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 7,
+  "q": "Which of the following commands is used to delete all rows and free up space from a table?",
+  "opts": {
+   "A": "Drop",
+   "B": "Delete",
+   "C": "Truncate",
+   "D": "Alter"
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 8,
+  "q": "To select some particular columns, which of the following commands is used?",
+  "opts": {
+   "A": "Projection",
+   "B": "Selection",
+   "C": "Join",
+   "D": "Union"
+  },
+  "official_ans": "A",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 9,
+  "q": "A group of simple processes that can be combined to analyse a query is known as",
+  "opts": {
+   "A": "Query Evaluation Algebra",
+   "B": "Query Evaluation Plan",
+   "C": "Query Evaluation Primitive",
+   "D": "Query Evaluation Engine"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Query processing and optimisation",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 10,
+  "q": "ER Diagram represents a overall __________ of a Database graphically.",
+  "opts": {
+   "A": "Physical Structure",
+   "B": "Logical Structure",
+   "C": "Domain Structure",
+   "D": "Architectural Representation"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 11,
+  "q": "Double rectangle representation in ER Diagram indicates",
+  "opts": {
+   "A": "Entity Set",
+   "B": "Strong Entity Set",
+   "C": "Weak Entity Set",
+   "D": "Total participation"
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 12,
+  "q": "Consider the following transactions with data items A and B initialized to zero:\nT1: read (A) ;\n      read (B) ;\n      if A = 0 then B : = B + 1 ;\n      write (B) ;\nT2: read (B) ;\n      read (A) ;\n      if B = 0 then A : = A + 1 ;\n      write (A) ;\nAny non-serial interleaving of T1 and T2 for concurrent execution leads to",
+  "opts": {
+   "A": "A serializable schedule",
+   "B": "A schedule that is not conflict serializable",
+   "C": "A conflict serializable schedule",
+   "D": "A schedule for which a precedence graph cannot be drawn"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 13,
+  "q": "__________ function is used to find the number of values in a column.",
+  "opts": {
+   "A": "SUM",
+   "B": "COUNT",
+   "C": "ADD",
+   "D": "AVG"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 14,
+  "q": "The __________ operation removes common tuples from the first relation.",
+  "opts": {
+   "A": "Union",
+   "B": "Difference",
+   "C": "Cartesian Product",
+   "D": "Projection"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 15,
+  "q": "Tuples can also be called",
+  "opts": {
+   "A": "Fields",
+   "B": "Values",
+   "C": "Columns",
+   "D": "Records"
+  },
+  "official_ans": "D",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 16,
+  "q": "When the “ROLLUP” operator for expression or columns within a “GROUP BY” clause is used?",
+  "opts": {
+   "A": "Find the groups that make up the subtotal in a row",
+   "B": "Create group-wise grand totals for the groups indicated in a GROUP BY clause",
+   "C": "Group expressions or columns specified in a GROUP BY clause in one direction, from right to left, for computing the subtotals",
+   "D": "To produce a cross-tabular report for computing subtotals by grouping phrases or columns given within a GROUP BY clause in all available directions."
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 17,
+  "q": "__________ resembles Create view.",
+  "opts": {
+   "A": "Create table . . . as",
+   "B": "Create view as",
+   "C": "Create table . . .like",
+   "D": "With data"
+  },
+  "official_ans": "A",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 18,
+  "q": "The optimizer that explores the space of all query-evaluation plans is called",
+  "opts": {
+   "A": "Cost-based",
+   "B": "Plan-based",
+   "C": "Estimate-based",
+   "D": "Count-based"
+  },
+  "official_ans": "A",
+  "unit": "3",
+  "sub": "Query processing and optimisation",
+  "note": "",
+  "exp": ""
+ },
+ {
+  "no": 33,
+  "q": "Identify the protocol primarily used for browsing data.",
+  "opts": {
+   "A": "FTP",
+   "B": "TCP",
+   "C": "TFTP",
+   "D": "HTTP"
+  },
+  "official_ans": "D",
+  "unit": "2",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "note": "",
+  "exp": ""
+ }
+]

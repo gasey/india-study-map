@@ -1,0 +1,282 @@
+{
+ "range": "1-25",
+ "questions": [
+  {
+   "no": 1,
+   "q": "In which of the following formats data is stored in the database management system?",
+   "opts": {
+    "A": "Image",
+    "B": "Text",
+    "C": "Table",
+    "D": "Graph"
+   },
+   "flags": []
+  },
+  {
+   "no": 2,
+   "q": "Which of the following data models support for schema evaluation?",
+   "opts": {
+    "A": "Relational Model",
+    "B": "Entity Relationship Model",
+    "C": "Object Based Data Model",
+    "D": "Semi-structured Data Model"
+   },
+   "flags": []
+  },
+  {
+   "no": 3,
+   "q": "__________ component gives an idea about all the entities available in relationship.",
+   "opts": {
+    "A": "Multivalued Attribute",
+    "B": "Total Participation",
+    "C": "Relationship",
+    "D": "Derived Attribute"
+   },
+   "flags": []
+  },
+  {
+   "no": 4,
+   "q": "The functional dependencies is said to be __________ if it is indirectly formed by two functional Dependencies.",
+   "opts": {
+    "A": "Partial Functional Dependency",
+    "B": "Trivial Functional Dependency",
+    "C": "Non Trivial Functional Dependency",
+    "D": "Transitive Functional Dependency"
+   },
+   "flags": []
+  },
+  {
+   "no": 5,
+   "q": "Which operation in relational algebra is denoted by sigma?",
+   "opts": {
+    "A": "Project",
+    "B": "Select",
+    "C": "Union",
+    "D": "Rename"
+   },
+   "flags": []
+  },
+  {
+   "no": 6,
+   "q": "Which Normal is used to remove the duplicate Information?",
+   "opts": {
+    "A": "First Normal Form",
+    "B": "Second Normal Form",
+    "C": "Third Normal Form",
+    "D": "Fourth Normal Form"
+   },
+   "flags": []
+  },
+  {
+   "no": 7,
+   "q": "Which of the following commands is used to delete all rows and free up space from a table?",
+   "opts": {
+    "A": "Drop",
+    "B": "Delete",
+    "C": "Truncate",
+    "D": "Alter"
+   },
+   "flags": []
+  },
+  {
+   "no": 8,
+   "q": "To select some particular columns, which of the following commands is used?",
+   "opts": {
+    "A": "Projection",
+    "B": "Selection",
+    "C": "Join",
+    "D": "Union"
+   },
+   "flags": []
+  },
+  {
+   "no": 9,
+   "q": "A group of simple processes that can be combined to analyse a query is known as",
+   "opts": {
+    "A": "Query Evaluation Algebra",
+    "B": "Query Evaluation Plan",
+    "C": "Query Evaluation Primitive",
+    "D": "Query Evaluation Engine"
+   },
+   "flags": []
+  },
+  {
+   "no": 10,
+   "q": "ER Diagram represents a overall __________ of a Database graphically.",
+   "opts": {
+    "A": "Physical Structure",
+    "B": "Logical Structure",
+    "C": "Domain Structure",
+    "D": "Architectural Representation"
+   },
+   "flags": []
+  },
+  {
+   "no": 11,
+   "q": "Double rectangle representation in ER Diagram indicates",
+   "opts": {
+    "A": "Entity Set",
+    "B": "Strong Entity Set",
+    "C": "Weak Entity Set",
+    "D": "Total participation"
+   },
+   "flags": []
+  },
+  {
+   "no": 12,
+   "q": "Consider the following transactions with data items A and B initialized to zero:\nT1: read (A) ;\n      read (B) ;\n      if A = 0 then B : = B + 1 ;\n      write (B) ;\nT2: read (B) ;\n      read (A) ;\n      if B = 0 then A : = A + 1 ;\n      write (A) ;\nAny non-serial interleaving of T1 and T2 for concurrent execution leads to",
+   "opts": {
+    "A": "A serializable schedule",
+    "B": "A schedule that is not conflict serializable",
+    "C": "A conflict serializable schedule",
+    "D": "A schedule for which a precedence graph cannot be drawn"
+   },
+   "flags": []
+  },
+  {
+   "no": 13,
+   "q": "__________ function is used to find the number of values in a column.",
+   "opts": {
+    "A": "SUM",
+    "B": "COUNT",
+    "C": "ADD",
+    "D": "AVG"
+   },
+   "flags": []
+  },
+  {
+   "no": 14,
+   "q": "The __________ operation removes common tuples from the first relation.",
+   "opts": {
+    "A": "Union",
+    "B": "Difference",
+    "C": "Cartesian Product",
+    "D": "Projection"
+   },
+   "flags": []
+  },
+  {
+   "no": 15,
+   "q": "Tuples can also be called",
+   "opts": {
+    "A": "Fields",
+    "B": "Values",
+    "C": "Columns",
+    "D": "Records"
+   },
+   "flags": []
+  },
+  {
+   "no": 16,
+   "q": "When the “ROLLUP” operator for expression or columns within a “GROUP BY” clause is used?",
+   "opts": {
+    "A": "Find the groups that make up the subtotal in a row",
+    "B": "Create group-wise grand totals for the groups indicated in a GROUP BY clause",
+    "C": "Group expressions or columns specified in a GROUP BY clause in one direction, from right to left, for computing the subtotals",
+    "D": "To produce a cross-tabular report for computing subtotals by grouping phrases or columns given within a GROUP BY clause in all available directions."
+   },
+   "flags": []
+  },
+  {
+   "no": 17,
+   "q": "__________ resembles Create view.",
+   "opts": {
+    "A": "Create table . . . as",
+    "B": "Create view as",
+    "C": "Create table . . .like",
+    "D": "With data"
+   },
+   "flags": []
+  },
+  {
+   "no": 18,
+   "q": "The optimizer that explores the space of all query-evaluation plans is called",
+   "opts": {
+    "A": "Cost-based",
+    "B": "Plan-based",
+    "C": "Estimate-based",
+    "D": "Count-based"
+   },
+   "flags": []
+  },
+  {
+   "no": 19,
+   "q": "In __________ transmission, the channel capacity is shared by both communicating devices at all times.",
+   "opts": {
+    "A": "simplex",
+    "B": "half-duplex",
+    "C": "full-duplex",
+    "D": "half-simplex"
+   },
+   "flags": []
+  },
+  {
+   "no": 20,
+   "q": "Match the following.\n     (P) SMTP                    (1)   Application layer\n     (Q) BGP                     (2)   Transport layer\n     (R) TCP                     (3)   Data link layer\n     (S) PPP                     (4)   Network layer\n                                 (5)   Physical layer",
+   "opts": {
+    "A": "P-2, Q-1. R-3, S-5",
+    "B": "P-1, Q-4, R-2, S-3",
+    "C": "P-1, Q-4, R-2, S-5",
+    "D": "P-2, Q-4, R-1, S-3"
+   },
+   "flags": [],
+   "note": "Option (a) prints a period after Q-1 (\"Q-1.\") rather than a comma, exactly as in the source PDF; preserved verbatim, not a transcription error."
+  },
+  {
+   "no": 21,
+   "q": "After the update in the previous question, the link N1-N2 goes down. N2 will reflect this change immediately in its distance vector as cost, ∞. After the NEXT ROUND of update, what will be cost to N1 in the distance vector of N3?",
+   "opts": {
+    "A": "3",
+    "B": "9",
+    "C": "10",
+    "D": "∞"
+   },
+   "flags": [],
+   "note": "Option (d) is the infinity symbol ∞, dropped by the pdftotext text layer (rendered blank) and recovered by rendering page 3 of the source PDF at 150dpi and reading it directly. The stem's reference to \"the previous question\" does not match Q20 (a protocol/layer matching question, not a routing/topology setup) — this looks like a question recycled from a textbook/question-bank pair without its actual predecessor, a defect in the source paper itself, not an extraction artifact."
+  },
+  {
+   "no": 22,
+   "q": "Packets of the same session may be routed through different paths in",
+   "opts": {
+    "A": "TCP, but not UDP",
+    "B": "TCP and UDP",
+    "C": "UDP, but not TCP",
+    "D": "Neither TCP nor UDP"
+   },
+   "flags": []
+  },
+  {
+   "no": 23,
+   "q": "An organization has a class B network and wishes to form subnets for 64 departments. The subnet mask would be",
+   "opts": {
+    "A": "255.255.0.0",
+    "B": "255.255.64.0",
+    "C": "255.255.128.0",
+    "D": "255.255.252.0"
+   },
+   "flags": []
+  },
+  {
+   "no": 24,
+   "q": "Which of the following system calls results in the sending of SYN packets?",
+   "opts": {
+    "A": "Socket",
+    "B": "Bind",
+    "C": "Listen",
+    "D": "connect"
+   },
+   "flags": []
+  },
+  {
+   "no": 25,
+   "q": "What is the maximum size of data that the application layer can pass on to the TCP layer below?",
+   "opts": {
+    "A": "Any size",
+    "B": "2^16 bytes-size of TCP header",
+    "C": "2^16 bytes",
+    "D": "500 bytes"
+   },
+   "flags": []
+  }
+ ]
+}

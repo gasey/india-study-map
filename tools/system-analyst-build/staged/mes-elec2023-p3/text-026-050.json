@@ -1,0 +1,280 @@
+{
+ "range": "26-50",
+ "questions": [
+  {
+   "no": 26,
+   "q": "Which one of the following uses UDP as the transport protocol?",
+   "opts": {
+    "A": "HTTP",
+    "B": "Telnet",
+    "C": "DNS",
+    "D": "SMTP"
+   },
+   "flags": []
+  },
+  {
+   "no": 27,
+   "q": "The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet?",
+   "opts": {
+    "A": "62 subnets and 262142 hosts.",
+    "B": "64 subnets and 262142 hosts.",
+    "C": "62 subnets and 1022 hosts.",
+    "D": "64 subnets and 1024 hosts."
+   },
+   "flags": []
+  },
+  {
+   "no": 28,
+   "q": "Logical addressing system is used by which device?",
+   "opts": {
+    "A": "Hub",
+    "B": "Switch",
+    "C": "Bridge",
+    "D": "Router"
+   },
+   "flags": []
+  },
+  {
+   "no": 29,
+   "q": "The protocol data unit(PDU) for the application layer in the Internet stack is",
+   "opts": {
+    "A": "Segment",
+    "B": "Datagram",
+    "C": "Message",
+    "D": "Frame"
+   },
+   "flags": []
+  },
+  {
+   "no": 30,
+   "q": "Which is the applicable level protocol user in each activity?",
+   "opts": {
+    "A": "m1:HTTP, m2:SMTP, m3:POP",
+    "B": "m1:SMTP, m2:FTP, m3:HTTP",
+    "C": "m1:SMTP, m2:POP, m3:HTTP",
+    "D": "m1:POP, m2:SMTP, m3:IMAP"
+   },
+   "flags": []
+  },
+  {
+   "no": 31,
+   "q": "The address resolution protocol (ARP) is used for",
+   "opts": {
+    "A": "Finding the IP address from the DNS",
+    "B": "Finding the IP address of the default gateway",
+    "C": "Finding the IP address that corresponds to a MAC address",
+    "D": "Finding the MAC address that corresponds to an IP address"
+   },
+   "flags": []
+  },
+  {
+   "no": 32,
+   "q": "In a packet switching network, packets are routed from source to destination along a single path having two intermediate nodes. If the message size is 24 bytes and each packet contains a header of 3 bytes, then the optimum packet size is",
+   "opts": {
+    "A": "4",
+    "B": "6",
+    "C": "7",
+    "D": "9"
+   },
+   "flags": []
+  },
+  {
+   "no": 33,
+   "q": "Identify the protocol primarily used for browsing data.",
+   "opts": {
+    "A": "FTP",
+    "B": "TCP",
+    "C": "TFTP",
+    "D": "HTTP"
+   },
+   "flags": []
+  },
+  {
+   "no": 34,
+   "q": "In the slow start phase of the TCP congestion control algorithm, the size of the congestion window",
+   "opts": {
+    "A": "does not increase",
+    "B": "increases linearly",
+    "C": "increases quadratically",
+    "D": "increases exponentially"
+   },
+   "flags": []
+  },
+  {
+   "no": 35,
+   "q": "The most important feature of spiral model is",
+   "opts": {
+    "A": "requirement analysis.",
+    "B": "risk management.",
+    "C": "quality management.",
+    "D": "configuration management."
+   },
+   "flags": []
+  },
+  {
+   "no": 36,
+   "q": "Which one of the following is NOT desired in a good Software Requirement Specifications (SRS) document?",
+   "opts": {
+    "A": "Functional Requirements",
+    "B": "Non-Functional Requirements",
+    "C": "Goals of Implementation",
+    "D": "Algorithms for Software Implementation"
+   },
+   "flags": []
+  },
+  {
+   "no": 37,
+   "q": "Which of the following statements are TRUE?\n     I. The context diagram should depict the system as a single bubble.\n    II. External entities should be identified clearly at all levels of DFDs.\n  III. Control information should not be represented in a DFD.\n   IV. A data store can be connected either to another data store or to an external entity.",
+   "opts": {
+    "A": "II and III",
+    "B": "II and IV",
+    "C": "I and III",
+    "D": "I, II and III"
+   },
+   "flags": []
+  },
+  {
+   "no": 38,
+   "q": "Which one of the following is TRUE?",
+   "opts": {
+    "A": "The requirements document also describes how the requirements that are listed in the document are implemented efficiently.",
+    "B": "Consistency and completeness of functional requirements are always achieved in practice.",
+    "C": "Prototyping is a method of requirements validation",
+    "D": "Requirements review is carried out to find the errors in system design"
+   },
+   "flags": []
+  },
+  {
+   "no": 39,
+   "q": "In the context of modular software design, which one of the following combinations is desirable?",
+   "opts": {
+    "A": "High cohesion and high coupling",
+    "B": "High cohesion and low coupling",
+    "C": "Low cohesion and high coupling",
+    "D": "Low cohesion and low coupling"
+   },
+   "flags": []
+  },
+  {
+   "no": 40,
+   "q": "A Software Requirements Specification (SRS) document should avoid discussing which one of the following?",
+   "opts": {
+    "A": "User interface issues",
+    "B": "Non-functional requirements",
+    "C": "Design specification",
+    "D": "Interfaces with third party software"
+   },
+   "flags": []
+  },
+  {
+   "no": 41,
+   "q": "Consider a software program that is artificially seeded with 100 faults. While testing this program, 159 faults are detected, out of which 75 faults are from those artificially seeded faults. Assuming that both real and seeded faults are of same nature and have same distribution, the estimated number of undetected real faults is",
+   "opts": {
+    "A": "28",
+    "B": "175",
+    "C": "56",
+    "D": "84"
+   },
+   "flags": []
+  },
+  {
+   "no": 42,
+   "q": "In a software project, COCOMO (Constructive Cost Model) is used to estimate",
+   "opts": {
+    "A": "effort and duration based on the size of the software",
+    "B": "size and duration based on the effort of the software",
+    "C": "effort and cost based on the duration of the software",
+    "D": "size, effort and duration based on the cost of the software"
+   },
+   "flags": []
+  },
+  {
+   "no": 43,
+   "q": "A software was tested using the error seeding strategy in which 20 errors were seeded in the code. When the code was tested using the complete test suite, 16 of the seeded errors were detected. The same test suite also detected 200 non-seeded errors. What is the estimated number of undetected errors in the code after this testing?",
+   "opts": {
+    "A": "4",
+    "B": "50",
+    "C": "200",
+    "D": "250"
+   },
+   "flags": []
+  },
+  {
+   "no": 44,
+   "q": "Statistical software quality assurance in software engineering involves",
+   "opts": {
+    "A": "using sampling in place of exhaustive testing of software.",
+    "B": "surveying customers to find out their opinions about product quality.",
+    "C": "tracing each defect to its underlying cause, isolating the vital few causes, and moving to correct them.",
+    "D": "tracing each defect to its underlying causes, and using the Pareto principle to correct each problem found."
+   },
+   "flags": []
+  },
+  {
+   "no": 45,
+   "q": "In the Spiral model of software development, the primary determinant in selecting activities in each iteration is",
+   "opts": {
+    "A": "Iteration size",
+    "B": "Cost",
+    "C": "Adopted process such as Rational Unified Process or Extreme Programming",
+    "D": "Risk"
+   },
+   "flags": []
+  },
+  {
+   "no": 46,
+   "q": "Testing done on development platform is",
+   "opts": {
+    "A": "beta test",
+    "B": "eta test",
+    "C": "alpha test",
+    "D": "gamma test"
+   },
+   "flags": []
+  },
+  {
+   "no": 47,
+   "q": "Basis path testing falls under",
+   "opts": {
+    "A": "system testing",
+    "B": "white box testing",
+    "C": "black box testing",
+    "D": "unit testing"
+   },
+   "flags": []
+  },
+  {
+   "no": 48,
+   "q": "The minimum error distribution in the period of software development is in",
+   "opts": {
+    "A": "requirement analysis",
+    "B": "design phase",
+    "C": "coding",
+    "D": "testing"
+   },
+   "flags": []
+  },
+  {
+   "no": 49,
+   "q": "All the modules of the system are integrated and tested as complete system in the case of",
+   "opts": {
+    "A": "Bottom up testing",
+    "B": "Top-down testing",
+    "C": "Sandwich testing",
+    "D": "Big-Bang testing"
+   },
+   "flags": []
+  },
+  {
+   "no": 50,
+   "q": "SRS is also known as specification of",
+   "opts": {
+    "A": "White box testing",
+    "B": "Stress testing",
+    "C": "Integrated testing",
+    "D": "Black box testing"
+   },
+   "flags": []
+  }
+ ]
+}

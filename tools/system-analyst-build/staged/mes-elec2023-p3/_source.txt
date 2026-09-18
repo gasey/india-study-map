@@ -1,0 +1,312 @@
+                   MIZORAM PUBLIC SERVICE COMMISSION
+                          TECHNICAL COMPETITIVE EXAMINATIONS FOR
+JUNIOR GRADE OF MIZORAM ENGINEERING SERVICE, P&E CADRE (ELECTRICAL WING)
+                 UNDER POWER & ELECTRICITY DEPARTMENT,
+
+                           GOVERNMENT OF MIZORAM, JULY-2023
+
+                   COMPUTER SCIENCE AND ENGINEERING
+                                            PAPER-III
+
+Time Allowed : 3 hours                                                                      FM : 200
+
+                     SECTION - A (Multiple Choice questions) (100 Marks)
+                 All questions carry equal mark of 2 each. Attempt all questions.
+          This Section should be answered only on the OMR Response Sheet provided.
+
+  1. In which of the following formats data is stored in the database management system?
+      (a) Image                                            (b) Text
+      (c) Table                                            (d) Graph
+  2. Which of the following data models support for schema evaluation?
+      (a) Relational Model                              (b) Entity Relationship Model
+      (c) Object Based Data Model                       (d) Semi-structured Data Model
+  3. __________ component gives an idea about all the entities available in relationship.
+      (a) Multivalued Attribute                        (b) Total Participation
+      (c) Relationship                                 (d) Derived Attribute
+  4. The functional dependencies is said to be __________ if it is indirectly formed by two functional
+     Dependencies.
+      (a) Partial Functional Dependency               (b) Trivial Functional Dependency
+      (c) Non Trivial Functional Dependency           (d) Transitive Functional Dependency
+  5. Which operation in relational algebra is denoted by sigma?
+      (a) Project                                         (b) Select
+      (c) Union                                           (d) Rename
+  6. Which Normal is used to remove the duplicate Information?
+      (a) First Normal Form                            (b) Second Normal Form
+      (c) Third Normal Form                            (d) Fourth Normal Form
+  7. Which of the following commands is used to delete all rows and free up space from a table?
+      (a) Drop                                         (b) Delete
+      (c) Truncate                                     (d) Alter
+  8. To select some particular columns, which of the following commands is used?
+      (a) Projection                                      (b) Selection
+      (c) Join                                            (d) Union
+                                                  -2-
+
+ 9. A group of simple processes that can be combined to analyse a query is known as
+    (a) Query Evaluation Algebra                     (b) Query Evaluation Plan
+    (c) Query Evaluation Primitive                   (d) Query Evaluation Engine
+10. ER Diagram represents a overall __________ of a Database graphically.
+     (a) Physical Structure                          (b) Logical Structure
+     (c) Domain Structure                            (d) Architectural Representation
+11. Double rectangle representation in ER Diagram indicates
+     (a) Entity Set                                    (b) Strong Entity Set
+     (c) Weak Entity Set                               (d) Total participation
+12. Consider the following transactions with data items A and B initialized to zero:
+    T1: read (A) ;
+          read (B) ;
+          if A = 0 then B : = B + 1 ;
+          write (B) ;
+    T2: read (B) ;
+          read (A) ;
+          if B = 0 then A : = A + 1 ;
+          write (A) ;
+    Any non-serial interleaving of T1 and T2 for concurrent execution leads to
+     (a) A serializable schedule
+     (b) A schedule that is not conflict serializable
+     (c) A conflict serializable schedule
+     (d) A schedule for which a precedence graph cannot be drawn
+13. __________ function is used to find the number of values in a column.
+     (a) SUM                                           (b) COUNT
+     (c) ADD                                           (d) AVG
+14. The __________ operation removes common tuples from the first relation.
+     (a) Union                                    (b) Difference
+     (c) Cartesian Product                        (d) Projection
+15. Tuples can also be called
+     (a) Fields                                          (b) Values
+     (c) Columns                                         (d) Records
+16. When the “ROLLUP” operator for expression or columns within a “GROUP BY” clause is used?
+     (a) Find the groups that make up the subtotal in a row
+    (b) Create group-wise grand totals for the groups indicated in a GROUP BY clause
+     (c) Group expressions or columns specified in a GROUP BY clause in one direction, from right to
+         left, for computing the subtotals
+    (d) To produce a cross-tabular report for computing subtotals by grouping phrases or columns
+         given within a GROUP BY clause in all available directions.
+17. __________ resembles Create view.
+     (a) Create table . . . as                           (b) Create view as
+     (c) Create table . . .like                          (d) With data
+                                                 -3-
+
+18. The optimizer that explores the space of all query-evaluation plans is called
+     (a) Cost-based                                      (b) Plan-based
+     (c) Estimate-based                                  (d) Count-based
+19. In __________ transmission, the channel capacity is shared by both communicating devices at all
+    times.
+      (a) simplex                                     (b) half-duplex
+      (c) full-duplex                                 (d) half-simplex
+20. Match the following.
+          (P) SMTP                    (1)   Application layer
+         (Q) BGP                      (2)   Transport layer
+          (R) TCP                     (3)   Data link layer
+          (S) PPP                     (4)   Network layer
+                                      (5)   Physical layer
+      (a) P-2, Q-1. R-3, S-5                               (b) P-1, Q-4, R-2, S-3
+      (c) P-1, Q-4, R-2, S-5                               (d) P-2, Q-4, R-1, S-3
+21. After the update in the previous question, the link N1-N2 goes down. N2 will reflect this change
+    immediately in its distance vector as cost,  . After the NEXT ROUND of update, what will be cost
+    to N1 in the distance vector of N3?
+     (a) 3                                                 (b) 9
+     (c) 10                                                (d) 
+22. Packets of the same session may be routed through different paths in
+     (a) TCP, but not UDP                              (b) TCP and UDP
+     (c) UDP, but not TCP                              (d) Neither TCP nor UDP
+23. An organization has a class B network and wishes to form subnets for 64 departments. The subnet
+    mask would be
+     (a) 255.255.0.0                                  (b) 255.255.64.0
+     (c) 255.255.128.0                                (d) 255.255.252.0
+24. Which of the following system calls results in the sending of SYN packets?
+     (a) Socket                                          (b) Bind
+     (c) Listen                                          (d) connect
+25. What is the maximum size of data that the application layer can pass on to the TCP layer below?
+     (a) Any size                                      (b) 2^16 bytes-size of TCP header
+     (c) 2^16 bytes                                    (d) 500 bytes
+26. Which one of the following uses UDP as the transport protocol?
+     (a) HTTP                                         (b) Telnet
+     (c) DNS                                          (d) SMTP
+27. The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the
+    maximum number of subnets and the maximum number of hosts in each subnet?
+     (a) 62 subnets and 262142 hosts.                   (b) 64 subnets and 262142 hosts.
+     (c) 62 subnets and 1022 hosts.                     (d) 64 subnets and 1024 hosts.
+28. Logical addressing system is used by which device?
+     (a) Hub                                           (b) Switch
+     (c) Bridge                                        (d) Router
+                                                 -4-
+
+29. The protocol data unit(PDU) for the application layer in the Internet stack is
+     (a) Segment                                       (b) Datagram
+     (c) Message                                       (d) Frame
+30. Which is the applicable level protocol user in each activity?
+     (a) m1:HTTP, m2:SMTP, m3:POP                         (b) m1:SMTP, m2:FTP, m3:HTTP
+     (c) m1:SMTP, m2:POP, m3:HTTP                         (d) m1:POP, m2:SMTP, m3:IMAP
+31. The address resolution protocol (ARP) is used for
+     (a) Finding the IP address from the DNS
+     (b) Finding the IP address of the default gateway
+     (c) Finding the IP address that corresponds to a MAC address
+     (d) Finding the MAC address that corresponds to an IP address
+32. In a packet switching network, packets are routed from source to destination along a single path
+    having two intermediate nodes. If the message size is 24 bytes and each packet contains a header of
+    3 bytes, then the optimum packet size is
+     (a) 4                                              (b) 6
+     (c) 7                                              (d) 9
+33. Identify the protocol primarily used for browsing data.
+     (a) FTP                                             (b) TCP
+     (c) TFTP                                            (d) HTTP
+34. In the slow start phase of the TCP congestion control algorithm, the size of the congestion window
+     (a) does not increase                              (b) increases linearly
+     (c) increases quadratically                        (d) increases exponentially
+35. The most important feature of spiral model is
+     (a) requirement analysis.                           (b) risk management.
+     (c) quality management.                             (d) configuration management.
+36. Which one of the following is NOT desired in a good Software Requirement Specifications (SRS)
+    document?
+     (a) Functional Requirements                      (b) Non-Functional Requirements
+     (c) Goals of Implementation                      (d) Algorithms for Software Implementation
+37. Which of the following statements are TRUE?
+             I. The context diagram should depict the system as a single bubble.
+            II. External entities should be identified clearly at all levels of DFDs.
+          III. Control information should not be represented in a DFD.
+           IV. A data store can be connected either to another data store or to an external entity.
+     (a) II and III                                       (b) II and IV
+     (c) I and III                                        (d) I, II and III
+38. Which one of the following is TRUE?
+     (a) The requirements document also describes how the requirements that are listed in the document
+         are implemented efficiently.
+    (b) Consistency and completeness of functional requirements are always achieved in practice.
+     (c) Prototyping is a method of requirements validation
+    (d) Requirements review is carried out to find the errors in system design
+                                                   -5-
+
+39. In the context of modular software design, which one of the following combinations is desirable?
+     (a) High cohesion and high coupling                (b) High cohesion and low coupling
+     (c) Low cohesion and high coupling                 (d) Low cohesion and low coupling
+40. A Software Requirements Specification (SRS) document should avoid discussing which one of the
+    following?
+      (a) User interface issues                     (b) Non-functional requirements
+      (c) Design specification                      (d) Interfaces with third party software
+41. Consider a software program that is artificially seeded with 100 faults. While testing this program,
+    159 faults are detected, out of which 75 faults are from those artificially seeded faults. Assuming that
+    both real and seeded faults are of same nature and have same distribution, the estimated number of
+    undetected real faults is
+     (a) 28                                                (b) 175
+     (c) 56                                                (d) 84
+42. In a software project, COCOMO (Constructive Cost Model) is used to estimate
+     (a) effort and duration based on the size of the software
+     (b) size and duration based on the effort of the software
+     (c) effort and cost based on the duration of the software
+     (d) size, effort and duration based on the cost of the software
+43. A software was tested using the error seeding strategy in which 20 errors were seeded in the code.
+    When the code was tested using the complete test suite, 16 of the seeded errors were detected. The
+    same test suite also detected 200 non-seeded errors. What is the estimated number of undetected
+    errors in the code after this testing?
+     (a) 4                                              (b) 50
+     (c) 200                                            (d) 250
+44. Statistical software quality assurance in software engineering involves
+     (a) using sampling in place of exhaustive testing of software.
+     (b) surveying customers to find out their opinions about product quality.
+     (c) tracing each defect to its underlying cause, isolating the vital few causes, and moving to correct
+           them.
+     (d) tracing each defect to its underlying causes, and using the Pareto principle to correct each
+           problem found.
+45. In the Spiral model of software development, the primary determinant in selecting activities in each
+    iteration is
+      (a) Iteration size
+      (b) Cost
+      (c) Adopted process such as Rational Unified Process or Extreme Programming
+      (d) Risk
+46. Testing done on development platform is
+     (a) beta test                                         (b) eta test
+     (c) alpha test                                        (d) gamma test
+47. Basis path testing falls under
+     (a) system testing                                    (b) white box testing
+     (c) black box testing                                 (d) unit testing
+                                                 -6-
+
+48. The minimum error distribution in the period of software development is in
+     (a) requirement analysis                           (b) design phase
+     (c) coding                                         (d) testing
+49. All the modules of the system are integrated and tested as complete system in the case of
+     (a) Bottom up testing                              (b) Top-down testing
+     (c) Sandwich testing                               (d) Big-Bang testing
+50. SRS is also known as specification of
+     (a) White box testing                               (b) Stress testing
+     (c) Integrated testing                              (d) Black box testing
+
+                    SECTION - B (Short answer type question) (100 Marks)
+                            All questions carry equal marks of 5 each.
+               This Section should be answered only on the Answer Sheet provided.
+
+ 1. What is the difference between SQL and NoSQL?
+ 2. Relation R has eight attributes ABCDEFGH. Fields of R contain only atomic values.
+      F = {CH  G, A  BC, B  CFH, E  A, F  EG} is a set of functional dependencies (FDs)
+      so that F+ is exactly the set of FDs that hold for R. How many candidate keys does the relation R
+      have?
+ 3.       Table A
+          Id      Name               Age
+          ————————
+          12      Arun               60
+          15      Shreya             24
+          99      Rohit              11
+          Table B
+          Id      Name               Age
+          ————————
+          15      Shreya             24
+          25      Hari               40
+          98      Rohit              20
+          99      Rohit              11
+          Table C
+          Id      Phone              Area
+          ————————
+          10      2200               02
+          99      2100               01
+      Consider the above tables A, B and C. How many tuples does the result of the following SQL query
+      contains?
+          SELECT A.id
+          FROM A
+          WHERE A.age > ALL (SELECT B.age
+                       FROM B
+                      WHERE B. name = “arun”)
+                                                   -7-
+
+ 4. What do you mean by Correlated sub query?
+ 5. List the Codd’s Rules on Relational Databases.
+ 6. Why is the multivalue, multicolumn problem another form of the multivalued dependency problem?
+ 7. What are stored-procedures? And what are the advantages of using them?
+ 8. What is a network and what are benefits of network?
+ 9. Consider a source computer (S) transmitting a file of size 106 bits to a destination computer (D) over
+    a network of two routers (R1 and R2) and three links (L1, L2 and L3). L1 connects S to R1;L2
+    connects R1 to R2; and L3 connects R2 to D. Let each link be of length 100km. Assume signals
+    travel over each link at a speed of 10^8 meters per second. Assume that the link bandwidth on each
+    link is 1Mbps. Let the file be broken down into 1000 packets each of size 1000 bits. Find the total
+    sum of transmission and propagation delays in transmitting the file from S to D?
+10. What are two advantage and disadvantage of STAR Topology?
+11. What is Multiplexing? Briefly explain the working of Synchronous TDM.
+12. Suppose the round trip propagation delay for a 10 Mbps Ethernet having 48-bit jamming signal is
+    46.4 ms. The minimum frame size is:
+13. A computer on a 10Mbps network is regulated by a token bucket. The token bucket is filled at a rate
+    of 2Mbps. It is initially filled to capacity with 16Megabits. What is the maximum duration for which
+    the computer can transmit at the full 10Mbps?
+14. What are the responsibilities of Application Layer?
+15. How does the risk factor affect the spiral model of software development?
+16. Distinguish software faults and software failures.
+17. Compare the basic COCOMO model with the detailed COCOMO model.
+18. A software project involves execution of 5 tasks T1, T2, T3, T4 and T5 of duration 10, 15, 18, 30
+    and 40 days, respectively. T2 and T4 can start only after T1 completes. T3 can start after T2 completes.
+    T5 can start only after both T3 and T4 complete. What is the slack time of the task T3 in days?
+19. Consider the following program module:
+         int module1 (int x, int y) {
+             while (x! = y) {
+                if (x > y)
+                   x = x - y,
+                else y = y - x;
+                }
+             return x;
+         }
+    What is Cyclomatic complexity of the above module?
+20. Assume that the software team defines a project risk with 80% probability of occurrence of risk in
+    the following manner : Only 70 percent of the software components scheduled for reuse will be
+    integrated into the application and the remaining functionality will have to be custom developed. If 60
+    reusable components were planned with average component size as 100 LOC and software engineering
+    cost for each LOC as $ 14, then the risk exposure would be..
+
+
+
+                                              *******
+

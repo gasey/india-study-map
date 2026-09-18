@@ -1,0 +1,554 @@
+[
+ {
+  "no": 1,
+  "q": "In which of the following formats data is stored in the database management system?",
+  "opts": {
+   "A": "Image",
+   "B": "Text",
+   "C": "Table",
+   "D": "Graph"
+  },
+  "flags": []
+ },
+ {
+  "no": 2,
+  "q": "Which of the following data models support for schema evaluation?",
+  "opts": {
+   "A": "Relational Model",
+   "B": "Entity Relationship Model",
+   "C": "Object Based Data Model",
+   "D": "Semi-structured Data Model"
+  },
+  "flags": []
+ },
+ {
+  "no": 3,
+  "q": "__________ component gives an idea about all the entities available in relationship.",
+  "opts": {
+   "A": "Multivalued Attribute",
+   "B": "Total Participation",
+   "C": "Relationship",
+   "D": "Derived Attribute"
+  },
+  "flags": []
+ },
+ {
+  "no": 4,
+  "q": "The functional dependencies is said to be __________ if it is indirectly formed by two functional Dependencies.",
+  "opts": {
+   "A": "Partial Functional Dependency",
+   "B": "Trivial Functional Dependency",
+   "C": "Non Trivial Functional Dependency",
+   "D": "Transitive Functional Dependency"
+  },
+  "flags": []
+ },
+ {
+  "no": 5,
+  "q": "Which operation in relational algebra is denoted by sigma?",
+  "opts": {
+   "A": "Project",
+   "B": "Select",
+   "C": "Union",
+   "D": "Rename"
+  },
+  "flags": []
+ },
+ {
+  "no": 6,
+  "q": "Which Normal is used to remove the duplicate Information?",
+  "opts": {
+   "A": "First Normal Form",
+   "B": "Second Normal Form",
+   "C": "Third Normal Form",
+   "D": "Fourth Normal Form"
+  },
+  "flags": []
+ },
+ {
+  "no": 7,
+  "q": "Which of the following commands is used to delete all rows and free up space from a table?",
+  "opts": {
+   "A": "Drop",
+   "B": "Delete",
+   "C": "Truncate",
+   "D": "Alter"
+  },
+  "flags": []
+ },
+ {
+  "no": 8,
+  "q": "To select some particular columns, which of the following commands is used?",
+  "opts": {
+   "A": "Projection",
+   "B": "Selection",
+   "C": "Join",
+   "D": "Union"
+  },
+  "flags": []
+ },
+ {
+  "no": 9,
+  "q": "A group of simple processes that can be combined to analyse a query is known as",
+  "opts": {
+   "A": "Query Evaluation Algebra",
+   "B": "Query Evaluation Plan",
+   "C": "Query Evaluation Primitive",
+   "D": "Query Evaluation Engine"
+  },
+  "flags": []
+ },
+ {
+  "no": 10,
+  "q": "ER Diagram represents a overall __________ of a Database graphically.",
+  "opts": {
+   "A": "Physical Structure",
+   "B": "Logical Structure",
+   "C": "Domain Structure",
+   "D": "Architectural Representation"
+  },
+  "flags": []
+ },
+ {
+  "no": 11,
+  "q": "Double rectangle representation in ER Diagram indicates",
+  "opts": {
+   "A": "Entity Set",
+   "B": "Strong Entity Set",
+   "C": "Weak Entity Set",
+   "D": "Total participation"
+  },
+  "flags": []
+ },
+ {
+  "no": 12,
+  "q": "Consider the following transactions with data items A and B initialized to zero:\nT1: read (A) ;\n      read (B) ;\n      if A = 0 then B : = B + 1 ;\n      write (B) ;\nT2: read (B) ;\n      read (A) ;\n      if B = 0 then A : = A + 1 ;\n      write (A) ;\nAny non-serial interleaving of T1 and T2 for concurrent execution leads to",
+  "opts": {
+   "A": "A serializable schedule",
+   "B": "A schedule that is not conflict serializable",
+   "C": "A conflict serializable schedule",
+   "D": "A schedule for which a precedence graph cannot be drawn"
+  },
+  "flags": []
+ },
+ {
+  "no": 13,
+  "q": "__________ function is used to find the number of values in a column.",
+  "opts": {
+   "A": "SUM",
+   "B": "COUNT",
+   "C": "ADD",
+   "D": "AVG"
+  },
+  "flags": []
+ },
+ {
+  "no": 14,
+  "q": "The __________ operation removes common tuples from the first relation.",
+  "opts": {
+   "A": "Union",
+   "B": "Difference",
+   "C": "Cartesian Product",
+   "D": "Projection"
+  },
+  "flags": []
+ },
+ {
+  "no": 15,
+  "q": "Tuples can also be called",
+  "opts": {
+   "A": "Fields",
+   "B": "Values",
+   "C": "Columns",
+   "D": "Records"
+  },
+  "flags": []
+ },
+ {
+  "no": 16,
+  "q": "When the “ROLLUP” operator for expression or columns within a “GROUP BY” clause is used?",
+  "opts": {
+   "A": "Find the groups that make up the subtotal in a row",
+   "B": "Create group-wise grand totals for the groups indicated in a GROUP BY clause",
+   "C": "Group expressions or columns specified in a GROUP BY clause in one direction, from right to left, for computing the subtotals",
+   "D": "To produce a cross-tabular report for computing subtotals by grouping phrases or columns given within a GROUP BY clause in all available directions."
+  },
+  "flags": []
+ },
+ {
+  "no": 17,
+  "q": "__________ resembles Create view.",
+  "opts": {
+   "A": "Create table . . . as",
+   "B": "Create view as",
+   "C": "Create table . . .like",
+   "D": "With data"
+  },
+  "flags": []
+ },
+ {
+  "no": 18,
+  "q": "The optimizer that explores the space of all query-evaluation plans is called",
+  "opts": {
+   "A": "Cost-based",
+   "B": "Plan-based",
+   "C": "Estimate-based",
+   "D": "Count-based"
+  },
+  "flags": []
+ },
+ {
+  "no": 19,
+  "q": "In __________ transmission, the channel capacity is shared by both communicating devices at all times.",
+  "opts": {
+   "A": "simplex",
+   "B": "half-duplex",
+   "C": "full-duplex",
+   "D": "half-simplex"
+  },
+  "flags": []
+ },
+ {
+  "no": 20,
+  "q": "Match the following.\n     (P) SMTP                    (1)   Application layer\n     (Q) BGP                     (2)   Transport layer\n     (R) TCP                     (3)   Data link layer\n     (S) PPP                     (4)   Network layer\n                                 (5)   Physical layer",
+  "opts": {
+   "A": "P-2, Q-1. R-3, S-5",
+   "B": "P-1, Q-4, R-2, S-3",
+   "C": "P-1, Q-4, R-2, S-5",
+   "D": "P-2, Q-4, R-1, S-3"
+  },
+  "flags": [],
+  "note": "Option (a) prints a period after Q-1 (\"Q-1.\") rather than a comma, exactly as in the source PDF; preserved verbatim, not a transcription error."
+ },
+ {
+  "no": 21,
+  "q": "After the update in the previous question, the link N1-N2 goes down. N2 will reflect this change immediately in its distance vector as cost, ∞. After the NEXT ROUND of update, what will be cost to N1 in the distance vector of N3?",
+  "opts": {
+   "A": "3",
+   "B": "9",
+   "C": "10",
+   "D": "∞"
+  },
+  "flags": [],
+  "note": "Option (d) is the infinity symbol ∞, dropped by the pdftotext text layer (rendered blank) and recovered by rendering page 3 of the source PDF at 150dpi and reading it directly. The stem's reference to \"the previous question\" does not match Q20 (a protocol/layer matching question, not a routing/topology setup) — this looks like a question recycled from a textbook/question-bank pair without its actual predecessor, a defect in the source paper itself, not an extraction artifact."
+ },
+ {
+  "no": 22,
+  "q": "Packets of the same session may be routed through different paths in",
+  "opts": {
+   "A": "TCP, but not UDP",
+   "B": "TCP and UDP",
+   "C": "UDP, but not TCP",
+   "D": "Neither TCP nor UDP"
+  },
+  "flags": []
+ },
+ {
+  "no": 23,
+  "q": "An organization has a class B network and wishes to form subnets for 64 departments. The subnet mask would be",
+  "opts": {
+   "A": "255.255.0.0",
+   "B": "255.255.64.0",
+   "C": "255.255.128.0",
+   "D": "255.255.252.0"
+  },
+  "flags": []
+ },
+ {
+  "no": 24,
+  "q": "Which of the following system calls results in the sending of SYN packets?",
+  "opts": {
+   "A": "Socket",
+   "B": "Bind",
+   "C": "Listen",
+   "D": "connect"
+  },
+  "flags": []
+ },
+ {
+  "no": 25,
+  "q": "What is the maximum size of data that the application layer can pass on to the TCP layer below?",
+  "opts": {
+   "A": "Any size",
+   "B": "2^16 bytes-size of TCP header",
+   "C": "2^16 bytes",
+   "D": "500 bytes"
+  },
+  "flags": []
+ },
+ {
+  "no": 26,
+  "q": "Which one of the following uses UDP as the transport protocol?",
+  "opts": {
+   "A": "HTTP",
+   "B": "Telnet",
+   "C": "DNS",
+   "D": "SMTP"
+  },
+  "flags": []
+ },
+ {
+  "no": 27,
+  "q": "The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet?",
+  "opts": {
+   "A": "62 subnets and 262142 hosts.",
+   "B": "64 subnets and 262142 hosts.",
+   "C": "62 subnets and 1022 hosts.",
+   "D": "64 subnets and 1024 hosts."
+  },
+  "flags": []
+ },
+ {
+  "no": 28,
+  "q": "Logical addressing system is used by which device?",
+  "opts": {
+   "A": "Hub",
+   "B": "Switch",
+   "C": "Bridge",
+   "D": "Router"
+  },
+  "flags": []
+ },
+ {
+  "no": 29,
+  "q": "The protocol data unit(PDU) for the application layer in the Internet stack is",
+  "opts": {
+   "A": "Segment",
+   "B": "Datagram",
+   "C": "Message",
+   "D": "Frame"
+  },
+  "flags": []
+ },
+ {
+  "no": 30,
+  "q": "Which is the applicable level protocol user in each activity?",
+  "opts": {
+   "A": "m1:HTTP, m2:SMTP, m3:POP",
+   "B": "m1:SMTP, m2:FTP, m3:HTTP",
+   "C": "m1:SMTP, m2:POP, m3:HTTP",
+   "D": "m1:POP, m2:SMTP, m3:IMAP"
+  },
+  "flags": []
+ },
+ {
+  "no": 31,
+  "q": "The address resolution protocol (ARP) is used for",
+  "opts": {
+   "A": "Finding the IP address from the DNS",
+   "B": "Finding the IP address of the default gateway",
+   "C": "Finding the IP address that corresponds to a MAC address",
+   "D": "Finding the MAC address that corresponds to an IP address"
+  },
+  "flags": []
+ },
+ {
+  "no": 32,
+  "q": "In a packet switching network, packets are routed from source to destination along a single path having two intermediate nodes. If the message size is 24 bytes and each packet contains a header of 3 bytes, then the optimum packet size is",
+  "opts": {
+   "A": "4",
+   "B": "6",
+   "C": "7",
+   "D": "9"
+  },
+  "flags": []
+ },
+ {
+  "no": 33,
+  "q": "Identify the protocol primarily used for browsing data.",
+  "opts": {
+   "A": "FTP",
+   "B": "TCP",
+   "C": "TFTP",
+   "D": "HTTP"
+  },
+  "flags": []
+ },
+ {
+  "no": 34,
+  "q": "In the slow start phase of the TCP congestion control algorithm, the size of the congestion window",
+  "opts": {
+   "A": "does not increase",
+   "B": "increases linearly",
+   "C": "increases quadratically",
+   "D": "increases exponentially"
+  },
+  "flags": []
+ },
+ {
+  "no": 35,
+  "q": "The most important feature of spiral model is",
+  "opts": {
+   "A": "requirement analysis.",
+   "B": "risk management.",
+   "C": "quality management.",
+   "D": "configuration management."
+  },
+  "flags": []
+ },
+ {
+  "no": 36,
+  "q": "Which one of the following is NOT desired in a good Software Requirement Specifications (SRS) document?",
+  "opts": {
+   "A": "Functional Requirements",
+   "B": "Non-Functional Requirements",
+   "C": "Goals of Implementation",
+   "D": "Algorithms for Software Implementation"
+  },
+  "flags": []
+ },
+ {
+  "no": 37,
+  "q": "Which of the following statements are TRUE?\n     I. The context diagram should depict the system as a single bubble.\n    II. External entities should be identified clearly at all levels of DFDs.\n  III. Control information should not be represented in a DFD.\n   IV. A data store can be connected either to another data store or to an external entity.",
+  "opts": {
+   "A": "II and III",
+   "B": "II and IV",
+   "C": "I and III",
+   "D": "I, II and III"
+  },
+  "flags": []
+ },
+ {
+  "no": 38,
+  "q": "Which one of the following is TRUE?",
+  "opts": {
+   "A": "The requirements document also describes how the requirements that are listed in the document are implemented efficiently.",
+   "B": "Consistency and completeness of functional requirements are always achieved in practice.",
+   "C": "Prototyping is a method of requirements validation",
+   "D": "Requirements review is carried out to find the errors in system design"
+  },
+  "flags": []
+ },
+ {
+  "no": 39,
+  "q": "In the context of modular software design, which one of the following combinations is desirable?",
+  "opts": {
+   "A": "High cohesion and high coupling",
+   "B": "High cohesion and low coupling",
+   "C": "Low cohesion and high coupling",
+   "D": "Low cohesion and low coupling"
+  },
+  "flags": []
+ },
+ {
+  "no": 40,
+  "q": "A Software Requirements Specification (SRS) document should avoid discussing which one of the following?",
+  "opts": {
+   "A": "User interface issues",
+   "B": "Non-functional requirements",
+   "C": "Design specification",
+   "D": "Interfaces with third party software"
+  },
+  "flags": []
+ },
+ {
+  "no": 41,
+  "q": "Consider a software program that is artificially seeded with 100 faults. While testing this program, 159 faults are detected, out of which 75 faults are from those artificially seeded faults. Assuming that both real and seeded faults are of same nature and have same distribution, the estimated number of undetected real faults is",
+  "opts": {
+   "A": "28",
+   "B": "175",
+   "C": "56",
+   "D": "84"
+  },
+  "flags": []
+ },
+ {
+  "no": 42,
+  "q": "In a software project, COCOMO (Constructive Cost Model) is used to estimate",
+  "opts": {
+   "A": "effort and duration based on the size of the software",
+   "B": "size and duration based on the effort of the software",
+   "C": "effort and cost based on the duration of the software",
+   "D": "size, effort and duration based on the cost of the software"
+  },
+  "flags": []
+ },
+ {
+  "no": 43,
+  "q": "A software was tested using the error seeding strategy in which 20 errors were seeded in the code. When the code was tested using the complete test suite, 16 of the seeded errors were detected. The same test suite also detected 200 non-seeded errors. What is the estimated number of undetected errors in the code after this testing?",
+  "opts": {
+   "A": "4",
+   "B": "50",
+   "C": "200",
+   "D": "250"
+  },
+  "flags": []
+ },
+ {
+  "no": 44,
+  "q": "Statistical software quality assurance in software engineering involves",
+  "opts": {
+   "A": "using sampling in place of exhaustive testing of software.",
+   "B": "surveying customers to find out their opinions about product quality.",
+   "C": "tracing each defect to its underlying cause, isolating the vital few causes, and moving to correct them.",
+   "D": "tracing each defect to its underlying causes, and using the Pareto principle to correct each problem found."
+  },
+  "flags": []
+ },
+ {
+  "no": 45,
+  "q": "In the Spiral model of software development, the primary determinant in selecting activities in each iteration is",
+  "opts": {
+   "A": "Iteration size",
+   "B": "Cost",
+   "C": "Adopted process such as Rational Unified Process or Extreme Programming",
+   "D": "Risk"
+  },
+  "flags": []
+ },
+ {
+  "no": 46,
+  "q": "Testing done on development platform is",
+  "opts": {
+   "A": "beta test",
+   "B": "eta test",
+   "C": "alpha test",
+   "D": "gamma test"
+  },
+  "flags": []
+ },
+ {
+  "no": 47,
+  "q": "Basis path testing falls under",
+  "opts": {
+   "A": "system testing",
+   "B": "white box testing",
+   "C": "black box testing",
+   "D": "unit testing"
+  },
+  "flags": []
+ },
+ {
+  "no": 48,
+  "q": "The minimum error distribution in the period of software development is in",
+  "opts": {
+   "A": "requirement analysis",
+   "B": "design phase",
+   "C": "coding",
+   "D": "testing"
+  },
+  "flags": []
+ },
+ {
+  "no": 49,
+  "q": "All the modules of the system are integrated and tested as complete system in the case of",
+  "opts": {
+   "A": "Bottom up testing",
+   "B": "Top-down testing",
+   "C": "Sandwich testing",
+   "D": "Big-Bang testing"
+  },
+  "flags": []
+ },
+ {
+  "no": 50,
+  "q": "SRS is also known as specification of",
+  "opts": {
+   "A": "White box testing",
+   "B": "Stress testing",
+   "C": "Integrated testing",
+   "D": "Black box testing"
+  },
+  "flags": []
+ }
+]

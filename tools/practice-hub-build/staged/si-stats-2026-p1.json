@@ -1,0 +1,1383 @@
+{
+ "exam": "Sub-Inspector of Statistics",
+ "examShort": "SI Statistics",
+ "dept": "Planning & Programme Implementation Department, Govt. of Mizoram",
+ "sitting": "January 2026",
+ "year": 2026,
+ "paper": "Paper I",
+ "paperTitle": "General English",
+ "series": null,
+ "maxMarks": 150,
+ "durationMin": 180,
+ "negativeMark": 0,
+ "markPerQuestion": 2,
+ "sourcePdf": "marked sub-inspector-of-statistic-paper-i.pdf",
+ "paperId": "si-stats-2026-p1",
+ "questions": [
+  {
+   "id": "B1",
+   "n": 1,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "I’m sorry I can’t hear what you are saying because everybody ________(talk) so loudly.",
+   "opts": {
+    "a": "talks",
+    "b": "is talking",
+    "c": "has talked",
+    "d": "was talking"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The action is happening at this very moment (\"I can't hear what you are saying\"), so the present continuous \"is talking\" is required. \"Talks\" is the trap: it agrees correctly with the singular \"everybody\", but simple present states a habit, not noise going on right now.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B2",
+   "n": 2,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "When Damien called last night, I ________(watch) the Titanic Movie.",
+   "opts": {
+    "a": "watched",
+    "b": "am watching",
+    "c": "has been watching",
+    "d": "was watching"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "A longer background action interrupted by a sudden one takes the past continuous, so \"was watching\" is right when Damien \"called\". Simple past \"watched\" would wrongly mean the film finished before the call rather than being in progress during it.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.665
+   }
+  },
+  {
+   "id": "B3",
+   "n": 3,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "By this time next year, you ________(complete) your studies and found a job.",
+   "opts": {
+    "a": "will be completing",
+    "b": "will have completed",
+    "c": "will complete",
+    "d": "will have been completing"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"By this time next year\" sets a deadline in the future, and the future perfect \"will have completed\" marks an action finished before that point. It also matches the second verb \"and found a job\", which shares the same \"will have\" auxiliary; \"will complete\" or \"will be completing\" cannot carry that completed sense.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B4",
+   "n": 4,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "Last week, I ran into an old friend of mine. We________(see, not) each other in years and both of us had changed a great deal.",
+   "opts": {
+    "a": "have not seen",
+    "b": "did not see",
+    "c": "had not seen",
+    "d": "has not seen"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The not-seeing happened before the past event of running into the friend, so the earlier of two past actions takes the past perfect \"had not seen\". \"Have not seen\" is the trap — the present perfect would imply the gap continues up to now, but the meeting already ended that gap last week.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B5",
+   "n": 5,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "Rama was reading a novel while his wife________(sleep).",
+   "opts": {
+    "a": "sleeps",
+    "b": "slept",
+    "c": "has been sleeping",
+    "d": "was sleeping"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"While\" joins two actions running in parallel in the past, and the first clause is already past continuous (\"was reading\"), so the second must match with \"was sleeping\". Simple past \"slept\" would break the sense of simultaneous, ongoing action.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.731
+   }
+  },
+  {
+   "id": "B6",
+   "n": 6,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "By the end of this year, she________(work) in this department for twenty-five years.",
+   "opts": {
+    "a": "has worked",
+    "b": "had worked",
+    "c": "will have been working",
+    "d": "is working"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"By the end of this year\" points to a future moment and \"for twenty-five years\" measures a stretch of time continuing up to it — that is exactly the future perfect continuous, \"will have been working\". The present and past perfect options cannot be used with a future deadline at all.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B7",
+   "n": 7,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "When I reached the station, the train ________(leave).",
+   "opts": {
+    "a": "already left",
+    "b": "has already left",
+    "c": "had already left",
+    "d": "was already left"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The train's departure happened before the arrival at the station, so the earlier past action takes the past perfect \"had already left\". \"Has already left\" is wrong because the whole sentence is set in the past, not linked to the present moment.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B8",
+   "n": 8,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "He said that by the time we arrived, they________(finish) everything.",
+   "opts": {
+    "a": "will finish",
+    "b": "would finish",
+    "c": "would have finished",
+    "d": "will have finished"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The reporting verb \"said\" is past, so the future perfect \"will have finished\" is backshifted to \"would have finished\" in reported speech. \"Would finish\" loses the sense of completion before the arrival, and any \"will\" form clashes with the past reporting verb.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B9",
+   "n": 9,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "By next December, he________ (serve) as the principal for fifteen years.",
+   "opts": {
+    "a": "will serve",
+    "b": "will be serving",
+    "c": "will have served",
+    "d": "will have been serving"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "medium",
+   "why": "\"By next December ... for fifteen years\" measures an unbroken stretch of time running up to a future point, which is the standard use of the future perfect continuous \"will have been serving\". Be aware that the plain future perfect \"will have served\" (c) is also acceptable English here; the continuous is preferred only because it emphasises the duration the sentence is measuring.",
+   "topic": "word_usage",
+   "flag": "Both (c) 'will have served' and (d) 'will have been serving' are grammatically defensible with 'for fifteen years'; the continuous is the better duration-emphasis answer but this is not a clean single-answer item.",
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.699
+   }
+  },
+  {
+   "id": "B10",
+   "n": 10,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
+   "passageRef": null,
+   "q": "I didn’t recognize her at first because she ________ (change) so much.",
+   "opts": {
+    "a": "changed",
+    "b": "had changed",
+    "c": "was changing",
+    "d": "has changed"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The change took place before the past moment of failing to recognise her, so the past perfect \"had changed\" is needed. \"Has changed\" would tie the change to the present, which contradicts the past-tense main clause \"I didn't recognize\".",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.671,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B11",
+   "n": 11,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "The man was acquitted ________all charges.",
+   "opts": {
+    "a": "of",
+    "b": "on",
+    "c": "in",
+    "d": "at"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The fixed legal collocation is \"acquitted of\" a charge — the verb always takes \"of\" for the offence a person is cleared of. \"Acquitted on all charges\" is heard loosely in journalism but is not the form tested in grammar papers.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B12",
+   "n": 12,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "He hinted ________some loss of treasure.",
+   "opts": {
+    "a": "of",
+    "b": "in",
+    "c": "for",
+    "d": "at"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Hint\" as a verb takes \"at\": to hint at something is to suggest it indirectly. \"Hint of\" exists only with the noun (\"a hint of sarcasm\"), so it does not fit after the verb \"hinted\".",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.665
+   }
+  },
+  {
+   "id": "B13",
+   "n": 13,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "He is a great orator________my surprise.",
+   "opts": {
+    "a": "beyond",
+    "b": "upon",
+    "c": "to",
+    "d": "above"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The set phrase expressing an unexpected discovery is \"to my surprise\", so \"to\" completes it. \"Beyond\" and \"above\" would need a measurable quantity to exceed, which \"surprise\" is not in this idiom.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B14",
+   "n": 14,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "Thanga is well known in Mizoram________the books he has already written.",
+   "opts": {
+    "a": "by",
+    "b": "for",
+    "c": "on",
+    "d": "about"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Known for\" introduces the reason or achievement someone is famous on account of, so \"for the books he has written\" is right. \"Known by\" introduces a name or identifying label (\"known by the name Thanga\"), not an achievement.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.671,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B15",
+   "n": 15,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "He took action pursuant________the recommendation of the Board.",
+   "opts": {
+    "a": "to",
+    "b": "of",
+    "c": "with",
+    "d": "on"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Pursuant\" is invariably followed by \"to\" — \"pursuant to the recommendation\" means in accordance with it. No other preposition collocates with this formal legal adjective.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B16",
+   "n": 16,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "Mawia is indifferent ________ any request made by his students just yesterday.",
+   "opts": {
+    "a": "about",
+    "b": "on",
+    "c": "at",
+    "d": "to"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The adjective \"indifferent\" takes \"to\" when it means showing no interest in something. \"Indifferent about\" is occasionally heard in casual speech but \"indifferent to\" is the standard form tested here.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.665
+   }
+  },
+  {
+   "id": "B17",
+   "n": 17,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "Liani is good ________ painting and playing Chess.",
+   "opts": {
+    "a": "in",
+    "b": "on",
+    "c": "at",
+    "d": "for"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Skill at an activity is expressed with \"good at\" — good at painting, good at chess. \"Good in\" is used only of a field or subject in loose usage and is not accepted as the standard collocation for an activity.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B18",
+   "n": 18,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "Sanga is conversant________modern history.",
+   "opts": {
+    "a": "of",
+    "b": "at",
+    "c": "on",
+    "d": "with"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Conversant\" collocates with \"with\": to be conversant with a subject is to be familiar with it. \"Conversant in\" is sometimes used of languages, but that option is not offered and \"of\"/\"at\"/\"on\" never follow this adjective.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.665
+   }
+  },
+  {
+   "id": "B19",
+   "n": 19,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "She is proficient ________three languages",
+   "opts": {
+    "a": "on",
+    "b": "of",
+    "c": "with",
+    "d": "in"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Proficient\" takes \"in\" before a field or a language — proficient in three languages. \"Proficient with\" is used only of tools or instruments (proficient with a rifle), not of languages.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.663
+   }
+  },
+  {
+   "id": "B20",
+   "n": 20,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
+   "passageRef": null,
+   "q": "The matter falls________the jurisdiction of the Supreme court.",
+   "opts": {
+    "a": "on",
+    "b": "under",
+    "c": "over",
+    "d": "in"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A matter that lies inside a court's authority \"falls under the jurisdiction\" of that court. \"Falls in\" is not idiomatic here, and \"over\" would reverse the relationship — it is the court that has jurisdiction over the matter, not the matter over the jurisdiction.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B21",
+   "n": 21,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "He climbed up the tree and plucked some mangoes. (Change to a Simple sentence)",
+   "opts": {
+    "a": "He climbed up the tree and plucked some mangoes.",
+    "b": "Climbing up the tree, he plucks some mangoes.",
+    "c": "He climbed up the tree so he plucked some mangoes.",
+    "d": "Climbing up the tree, he plucked some mangoes."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "A simple sentence has exactly one finite verb, so the first clause must become a participial phrase: 'Climbing up the tree, he plucked some mangoes.' Option (b) is the same structure but slips the tense to the present 'plucks', which the original does not license.",
+   "topic": "sentence_transformation",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.722
+   }
+  },
+  {
+   "id": "B22",
+   "n": 22,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "Does the police officer catch the thief? (Change the Voice)",
+   "opts": {
+    "a": "Is the thief caught by the police officer?",
+    "b": "Had the thief been caught by the police officer?",
+    "c": "Has the thief been caught by the police officer?",
+    "d": "Is the thief been caught by the police officer?"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The active is simple present interrogative ('Does ... catch'), so the passive keeps simple present: 'Is the thief caught by the police officer?' Option (c) shifts to the present perfect and (b) to the past perfect, which changes the tense the question actually asked about.",
+   "topic": "voice",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B23",
+   "n": 23,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "He hopes to win a prize. (Change the voice)",
+   "opts": {
+    "a": "It is hoped that he will win a prize.",
+    "b": "A prize is to be won by him.",
+    "c": "He hopes that he wins the prize.",
+    "d": "It is hoped to win a prize."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "The finite verb being passivised is 'hopes', and with a that-clause object the passive takes the impersonal form 'It is hoped that he will win a prize.' Option (b) passivises only the infinitive and throws away 'hopes' altogether, and (c) is not a passive at all.",
+   "topic": "voice",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B24",
+   "n": 24,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "Let the poor not be teased. (Change the voice)",
+   "opts": {
+    "a": "Let people not teased the poor.",
+    "b": "Do not tease the poor.",
+    "c": "Let the poor not be teased by people.",
+    "d": "Do not tease the poor people."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'Let the poor not be teased' is the passive of a negative imperative, so the active is simply 'Do not tease the poor.' Option (c) is still passive (it just adds the agent) and (a) is ungrammatical — 'Let people not teased' has no infinitive.",
+   "topic": "voice",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B25",
+   "n": 25,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "Mandy said, “John wrote the letter.” (Change the speech)",
+   "opts": {
+    "a": "Mandy said that John had written the letter.",
+    "b": "Mandy told that John was writing the letter.",
+    "c": "Mandy said that John has written the letter.",
+    "d": "Mandy says that John writes the letter."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The reporting verb 'said' is past, so the reported simple past 'wrote' back-shifts one step to the past perfect: 'John had written the letter.' Option (c) keeps the present perfect 'has written', which fails the back-shift rule.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B26",
+   "n": 26,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "I told Mala that I would see her the following day. (Change the Speech)",
+   "opts": {
+    "a": "I said to Mala, “I will see you the following day.”",
+    "b": "I said to Mala, “I will see you tomorrow.”",
+    "c": "I told Mala, “ I will see you tomorrow.”",
+    "d": "I said to Mala, “I would see you tomorrow.”"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Going back to direct speech, 'would' returns to 'will', 'her' to 'you', and 'the following day' to 'tomorrow'. Option (c) has the right words but the wrong reporting verb: in direct speech the convention is 'said to Mala', since 'told' takes the listener as an object without a comma-quotation.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.727,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B27",
+   "n": 27,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "He was too ill to attend school yesterday. (Change to Negative)",
+   "opts": {
+    "a": "He was so ill that he could not attend school yesterday.",
+    "b": "He was not too ill to attend school yesterday.",
+    "c": "He was too ill to not attend school yesterday.",
+    "d": "He was not so ill to attend school yesterday."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'too ... to' converts to the negative pattern 'so ... that ... not': 'He was so ill that he could not attend school yesterday.' Option (b) just inserts 'not' in front of 'too', which reverses the meaning — it says he was well enough to go.",
+   "topic": "sentence_transformation",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B28",
+   "n": 28,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "How sweetly she sings! (Change to Assertive)",
+   "opts": {
+    "a": "She sang a song sweetly.",
+    "b": "Oh! How sweetly her song is!",
+    "c": "She sings very sweetly.",
+    "d": "She sings a sweet song."
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "An exclamatory 'How + adverb' becomes an assertive statement with an intensifier: 'She sings very sweetly.' Option (d) changes the meaning (it praises the song, not the singing) and (a) also shifts the tense to the past.",
+   "topic": "sentence_transformation",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B29",
+   "n": 29,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "I can never forget your kindness. (Change to Interrogative)",
+   "opts": {
+    "a": "Can I never forget your kindness?",
+    "b": "Can I ever forget your kindness?",
+    "c": "Can I never forget your kindness.",
+    "d": "Can I ever forget your kindness."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A negative statement becomes a rhetorical question by dropping the negative word: 'never' turns into 'ever' — 'Can I ever forget your kindness?' Option (a) keeps 'never', which would make the question mean the opposite, and (c)/(d) are punctuated as statements.",
+   "topic": "sentence_transformation",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.671,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B30",
+   "n": 30,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
+   "passageRef": null,
+   "q": "Would that I were a king! (Change to Assertive)",
+   "opts": {
+    "a": "I wish I were a king.",
+    "b": "I would be a king.",
+    "c": "Would I be a king?",
+    "d": "I wish I would be a king!"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Would that ...' is an optative formula meaning a wish, so the assertive form is 'I wish I were a king.' The subjunctive 'were' must survive; (d) replaces it with 'would be' and keeps the exclamation mark, so it is not assertive.",
+   "topic": "sentence_transformation",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B31",
+   "n": 31,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "However **tired** he was, he finished the task.",
+   "opts": {
+    "a": "Noun",
+    "b": "Verb",
+    "c": "Adverb",
+    "d": "Adjective"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Adjective. 'However tired he was' is a concessive clause built on 'he was tired': 'tired' is the subject complement after the linking verb 'was', describing 'he'. A word that describes a noun/pronoun after be/seem/become is an adjective, not an adverb. The tempting option is Adverb (c), because the whole phrase 'however tired he was' modifies the main clause adverbially — but the underline is on 'tired' alone, and the adverb in that phrase is 'however', which modifies 'tired'. Only an adverb can modify an adjective, which confirms 'tired' is the adjective. Agrees with the booklet's highlight.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.722
+   }
+  },
+  {
+   "id": "B32",
+   "n": 32,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "The **righteous** always emerge victorious.",
+   "opts": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Plural Noun",
+    "d": "Singular Noun"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Plural noun. 'Righteous' is an adjective by origin, but in the 'the + adjective' pattern it is substantivised — 'the righteous' means 'righteous people' and works as the subject of the sentence. The decisive proof is the verb: the sentence says 'emerge', not 'emerges', so the subject is plural. The tempting option is Adjective (a), the word's dictionary class, and Singular Noun (d) is wrong for the same reason 'emerge' is plural. Other members of this pattern behave identically: the poor, the blind, the elderly. Agrees with the booklet's highlight.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B33",
+   "n": 33,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "Sawmi goes to school **every** day.",
+   "opts": {
+    "a": "Adverb",
+    "b": "Pronoun",
+    "c": "Determiner",
+    "d": "Preposition"
+   },
+   "marked": "a",
+   "answer": "c",
+   "conf": "high",
+   "why": "[adjudicated: derived] Sentence: \"Sawmi goes to school **every** day.\" The markup underlines only the single word *every* — and the direction itself says each sentence \"has a **word** underlined,\" singular, which rules out the two-word phrase *every day* being the target.\n\nWork it from first principles. Ask what *every* is doing in the sentence: it sits in front of the noun *day* and tells you which/how many days. That slot — before a noun, limiting or specifying it — is the determiner slot, the same slot filled by *the, this, some, each, my*. So *every* is a **Determiner (c)**.\n\nCheck the other three the same way:\n- **Adverb** — an adverb modifies a verb, adjective or another adverb. *Every* modifies the noun *day*, not the verb *goes*. Note the trap: the whole phrase *every day* does work adverbially (it answers \"how often does Sawmi go?\"). But that adverbial force belongs to the phrase as a unit, not to the word *every*. A determiner inside an adverbial phrase is still a determiner — exactly as *this* is still a determiner in *this morning*.\n- **Pronoun** — a pronoun stands in place of a noun, alone. *Every* can never stand alone; you cannot say \"Every came.\" English uses *everyone / everybody / everything* for that job. (Its cousins *each* and *all* can be pronouns — \"each of them\", \"all are here\" — which is probably why the option is here to tempt you. *Every* cannot.)\n- **Preposition** — a preposition shows a relation and takes an object (*to* school, *in* the morning). *Every* does neither.\n\nSo the highlighted answer in the booklet, (a) Adverb, is **wrong**, and you should not memorise it. It is the answer you get if you underline *every day* instead of *every* — a plausible typesetting slip in a booklet that already carries known errors, and MPSC published no official key for this sitting. Treat the highlight as a scan artefact, not as authority.\n\nOne older-textbook caveat that does not change the answer: some Indian grammars still label *every* an \"adjective of number/quantity.\" \"Adjective\" is not on the menu here; \"Determiner\" is the modern term for precisely that role, so (c) is the intended and the correct choice either way.\n\nTakeaway rule: for a part-of-speech question, test the *underlined word by itself*, never the phrase it happens to sit in.",
+   "topic": "parts_of_speech",
+   "flag": "Source highlight (a) contradicts the underline scope and is judged an error. The booklet's marked answer \"Adverb\" is only defensible if the underline spans \"every day\"; the markup and the direction's singular \"a word\" both say it spans only \"every\". No official MPSC key exists for this sitting, so the highlight carries no authority. Recommend storing as answerSource 'derived' with answer (c) and a note that the printed highlight disagrees. Worth checking whether sibling questions B31-B40 in the same 31-40 block show the same phrase-vs-word underline drift.",
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B34",
+   "n": 34,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "He **seems** very tired after the long journey",
+   "opts": {
+    "a": "Adverb",
+    "b": "Determiner",
+    "c": "Adjective",
+    "d": "Verb"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Verb. 'Seems' is the finite verb of the sentence — it carries the tense and agrees with the singular subject 'He' (he seems / they seem). It is a linking (copular) verb, joining the subject to the complement 'very tired'. The tempting option is Adjective (c), because the thing being described is a state; but the adjective here is 'tired', not 'seems'. Test it by swapping in 'is': 'He is very tired' — the slot 'seems' fills is the verb slot. Agrees with the booklet's highlight.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.694
+   }
+  },
+  {
+   "id": "B35",
+   "n": 35,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "Her **happiness** was obvious.",
+   "opts": {
+    "a": "Abstract noun",
+    "b": "Adverb",
+    "c": "Adjective",
+    "d": "Preposition"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Abstract noun. 'Happiness' is the subject of 'was' and names a quality/state that cannot be seen or touched, which is exactly the definition of an abstract noun; the -ness suffix builds abstract nouns from adjectives (happy → happiness, kind → kindness). The tempting option is Adjective (c), because the related word 'happy' is an adjective and the sentence is about a description — but the adjective in this sentence is 'obvious'. Agrees with the booklet's highlight.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B36",
+   "n": 36,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "The Grand Canyon is a natural **wonder.**",
+   "opts": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Preposition",
+    "d": "Noun"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Noun. 'Wonder' is the head of the noun phrase 'a natural wonder', the subject complement after 'is'; the article 'a' in front of it is proof it is a noun, since articles introduce nouns. The tempting option is Adjective (a), because 'wonder' sits at the end of a descriptive phrase — but the adjective there is 'natural', which modifies 'wonder'. Note 'wonder' can also be a verb ('I wonder why'); word class is decided by the job the word does in this sentence, and here it is named, counted and articled, so it is a noun. Agrees with the booklet's highlight.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.665
+   }
+  },
+  {
+   "id": "B37",
+   "n": 37,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "Can you answer **this** question?",
+   "opts": {
+    "a": "Preposition",
+    "b": "Noun",
+    "c": "Pronoun",
+    "d": "Adverb"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "low",
+   "why": "Defective item — no option is strictly correct. Because 'this' is immediately followed by the noun it points to ('this question'), it is functioning as a determiner (traditional grammar: demonstrative adjective), not as a pronoun. A demonstrative is a pronoun only when it stands alone in a noun's place — 'Can you answer this?' would be a pronoun. The option list here offers Preposition, Noun, Pronoun, Adverb, with no Determiner or Adjective, so the intended key (c) is only right under the loose school convention that calls this/that/these/those 'demonstrative pronouns' whatever their position. I match the booklet's highlight (c) as the closest available choice, but do not learn from this item: with a noun after it, 'this' is a determiner. That is also why Question 33 above answers 'Determiner'.",
+   "topic": "parts_of_speech",
+   "flag": "No correct option: underlined 'this' modifies the noun 'question', so it is a determiner / demonstrative adjective, but the options list only Preposition, Noun, Pronoun, Adverb. (c) is the least-wrong choice, not a right one.",
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B38",
+   "n": 38,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "We are **pleased** to come here.",
+   "opts": {
+    "a": "Adjective",
+    "b": "Pronoun",
+    "c": "Verb",
+    "d": "Noun"
+   },
+   "marked": "c",
+   "answer": "a",
+   "conf": "high",
+   "why": "[adjudicated: derived] Answer: (a) Adjective. The booklet's highlighted (c) Verb is wrong.\n\nThe question is whether \"are pleased\" is a passive verb (making \"pleased\" a past participle) or a linking verb + adjective. Four standard tests all give the same answer:\n\n1. Degree word. Adjectives take a bare \"very\"; true passives need \"very much\". \"We are VERY pleased to come here\" is completely natural — \"very much pleased\" is stilted. Adjective.\n2. Linking-verb frame. Only adjectives can follow seem/look/feel: \"They SEEMED pleased,\" \"She LOOKED pleased.\" A genuine passive cannot (\"They seemed arrested\" is not English on the event reading). Adjective.\n3. Coordination. You can join it to an undisputed adjective: \"We are HAPPY AND pleased to come here.\" You can never coordinate an adjective with a passive participle.\n4. The \"to\"-phrase. \"pleased TO COME\" is the same pattern as glad to, eager to, sorry to, delighted to, happy to — an adjective pattern. Substitute the plainest adjective there is and nothing changes: \"We are GLAD to come here.\"\n\nAnd the meaning test: a real passive describes an action done to someone, and allows an agent (\"We were pleased BY the news\"). Here nobody performs any pleasing — the sentence describes our state of mind. It is a polite formula meaning \"we are glad.\"\n\nSo \"pleased\" is a participial adjective: a word born from a verb that has settled into the adjective class, exactly like tired, interested, surprised, worried, excited. \"I am tired\" is not passive voice, and neither is this.\n\nWhy the booklet marked Verb: whoever prepared the key saw \"are + past participle\" and reflexively called it passive voice. That shorthand works for \"The letter is written by him,\" but not for stative participles with a to-infinitive. The Wren & Martin tradition these papers are written from teaches the same thing — such participles after \"be\" are adjectives.\n\nExam rule of thumb: if the underlined -ed word can take \"very\" and can follow \"seem,\" it is an adjective, not part of the verb.",
+   "topic": "parts_of_speech",
+   "flag": "Extracted `direction` text is truncated mid-sentence: \"...has a word underlined. Find\" — the rest of the instruction (presumably naming the part of speech of the underlined word) is missing from the JSON. Worth re-extracting the Q31-40 direction from the source PDF before this batch ships, since the task is only inferable from the options as it stands.",
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B39",
+   "n": 39,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "**Still** water runs deep.",
+   "opts": {
+    "a": "Noun",
+    "b": "Adjective",
+    "c": "Adverb",
+    "d": "Preposition"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Adjective. Underlined 'still' sits before the noun 'water' and tells you what kind of water — motionless, not flowing — so it is an attributive adjective (the proverb is normally printed 'Still waters run deep'). The tempting option is Adverb (c), because 'still' is far more common as an adverb of time ('He is still here'); word class is decided by the job in this sentence, and here it modifies a noun, which adverbs never do. Note 'deep' at the end is also being used adjectivally as a complement, not as the adverb 'deeply'. Agrees with the booklet's highlight.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.671,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B40",
+   "n": 40,
+   "part": "B",
+   "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "passageRef": null,
+   "q": "Do you prefer tea **or** cofee?",
+   "opts": {
+    "a": "Conjunction",
+    "b": "Interjection",
+    "c": "Adverb",
+    "d": "Verb"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Conjunction. 'Or' joins the two nouns 'tea' and 'coffee' as alternatives inside one sentence, which is the defining job of a coordinating conjunction (the set is and, but, or, nor, for, yet, so). The tempting option is Interjection (b), which is an exclamation standing outside the sentence structure ('Oh!', 'Alas!') — 'or' is structurally essential here, remove it and the sentence breaks. Agrees with the booklet's highlight. ('cofee' is a printing typo for 'coffee'; it does not change the grammar being tested, so the item is still sound.)",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B41",
+   "n": 41,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "A bone of contention",
+   "opts": {
+    "a": "A subject of disagreement",
+    "b": "A dog’s favourite bone",
+    "c": "A subject of contentment",
+    "d": "A good thought or idea"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"A bone of contention\" is the issue two parties keep fighting over — a subject of disagreement. Option (c) is a near-homophone trap: \"contention\" means dispute, while \"contentment\" means satisfaction, the opposite sense.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B42",
+   "n": 42,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "To pay through the nose",
+   "opts": {
+    "a": "To pay less amount of money.",
+    "b": "To pay far more money than something is worth.",
+    "c": "To pay for one’s own actions.",
+    "d": "To pay off a debt."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"To pay through the nose\" means to pay far more than a thing is worth — an excessive, painful price. Option (c) describes \"to pay the price\" / \"face the music\", a different idiom about consequences rather than cost.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.727,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B43",
+   "n": 43,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "To see eye to eye with",
+   "opts": {
+    "a": "To have the same opinion with someone about something.",
+    "b": "To be able to see clearly",
+    "c": "To look intensely, curiously or carefully",
+    "d": "To remain calm and show no fear"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"To see eye to eye with\" someone means to agree with them — to hold the same opinion. It has nothing to do with literal eyesight, so (b) and (c), which read the phrase word-for-word, are the traps.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B44",
+   "n": 44,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "Apprise",
+   "opts": {
+    "a": "To examine and form an opinion about something",
+    "b": "To inform about something",
+    "c": "To approve formally",
+    "d": "To criticize harshly"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Apprise\" means to inform or notify — you apprise someone of the facts. Option (a) defines \"appraise\" (to assess or value something); the two words differ by one letter and are the classic confusion pair being tested here.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.727,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B45",
+   "n": 45,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "Officiate",
+   "opts": {
+    "a": "To perform a ceremony, function or duty",
+    "b": "To argue a case in a law court",
+    "c": "To delay or postpone an important matter",
+    "d": "To decorate or make something look attractive"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"To officiate\" is to perform the duties of an office or preside over a ceremony — a priest officiates at a wedding, a referee officiates a match. Option (b) is \"to plead/litigate\", a lawyer's role, not an officiant's.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B46",
+   "n": 46,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "Embargo",
+   "opts": {
+    "a": "A legal prohibition on commerce",
+    "b": "A formal agreement between two nations to increase free trade",
+    "c": "An official permission granted to export special goods",
+    "d": "A minor penalty given to government officials"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "An \"embargo\" is an official ban on trade with a country — a legal prohibition on commerce. Options (b) and (c) invert the meaning: an embargo blocks trade, it does not free or license it.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B47",
+   "n": 47,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "Expunge",
+   "opts": {
+    "a": "To destroy completely",
+    "b": "To praise enthusiastically",
+    "c": "To remove completely",
+    "d": "To recognise enthusiastically"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Expunge\" means to erase or strike out completely, usually from a record — remarks are expunged from the minutes. Option (a), \"destroy completely\", is the tempting near-miss: expunging removes an entry, it does not annihilate the thing itself.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B48",
+   "n": 48,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "Articulate",
+   "opts": {
+    "a": "Having extensive knowledge",
+    "b": "Skilled in practical task rather than theoretical knowledge",
+    "c": "Fond of artistic activities",
+    "d": "Able to express oneself effectively and clearly"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Articulate\" as an adjective means able to express oneself fluently and clearly. Option (c) is baited by the look-alike \"artistic\"; \"articulate\" comes from articulus (joint/distinct utterance), not from art.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.722
+   }
+  },
+  {
+   "id": "B49",
+   "n": 49,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "A dime a dozen",
+   "opts": {
+    "a": "Expensive",
+    "b": "Valuable and rare",
+    "c": "Common and Cheap",
+    "d": "Unique"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"A dime a dozen\" describes something so plentiful it is nearly worthless — common and cheap. Options (a) and (b) reverse it: a dime buying twelve of a thing is the whole point of the phrase's contempt.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B50",
+   "n": 50,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
+   "passageRef": null,
+   "q": "To pick holes",
+   "opts": {
+    "a": "To quarrel with someone",
+    "b": "To cut holes in something",
+    "c": "To criticise someone",
+    "d": "To applaud someone"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"To pick holes (in)\" means to find fault with, i.e. to criticise. Option (a) is close but wrong in kind: picking holes is one-sided fault-finding and needs no quarrel or exchange of words to occur.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  }
+ ],
+ "descriptive": [
+  {
+   "id": "A1",
+   "kind": "essay",
+   "marks": 20,
+   "prompt": "Write an essay on any one of the following topics:\n(i) Creating a prosperous, just and harmonious India.\n(ii) Instilling ethical values in youth: Forging virtuous citizens through moral education.\n(iii) Investment in knowledge pays the best interest.",
+   "guidance": "20 marks and three hours' paper time means a planned essay of roughly 800-1000 words, not a brain-dump. Spend five minutes on a skeleton: introduction stating your line of argument, three or four body paragraphs each with one idea and a concrete Indian example (a scheme, a constitutional provision, a datum), and a conclusion that answers the question rather than restating it. Topic (iii) is a Benjamin Franklin quotation — read it as being about education and human capital, and it rewards examples such as the demographic dividend, NEP 2020 or skilling missions. Examiners reward structure and specificity; generalities about 'our great nation' score poorly."
+  },
+  {
+   "id": "partA-passage",
+   "kind": "passage",
+   "marks": 10,
+   "prompt": "Read the following passage and answer the questions that follow.",
+   "guidance": "A comprehension passage on the short- and long-term benefits of regular exercise. Answer from the passage only.",
+   "body": "Regular exercise provides a wide array of benefits for both physical and mental health, including weight management, disease prevention, and improved mood and cognitive function. Engaging in physical activity strengthens muscles and bones, boosts energy levels, and improves sleep patterns. Furthermore, exercise is a crucial tool for reducing stress, anxiety, and the risk of chronic diseases, ultimately leading to a higher quality of life and a longer life expectancy. In the short term, exercise offers immediate improvements to physical and mental well-being. It releases endorphins, which boost mood and act as a natural stress reliever, and can help improve sleep quality. The physical act of moving the body also increases energy levels and can help manage appetite. For those who feel sluggish, a workout can actually be the catalyst for feeling more energized throughout the day. Over the long term, consistent exercise builds a stronger, more resilient body. Activities like weightlifting and running strengthen bones and muscles, which can prevent osteoporosis and reduce the risk of falls later in life. Exercise also strengthens the cardiovascular system, lowers blood pressure, and improves blood circulation, all of which reduce the risk of developing heart disease, stroke, type 2 diabetes, and certain cancers. Beyond physical fitness, regular exercise is a powerful tool for mental health. It improves brain function, enhances cognitive abilities, and can even lower the risk of developing dementia. Exercise provides a sense of accomplishment and pride, which helps build self-esteem and emotional balance. It also creates opportunities for social interaction through group activities like sports teams or exercise classes, which can combat loneliness and foster a sense of community."
+  },
+  {
+   "id": "A2a",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "What induces a longer life expectancy and in what way?",
+   "guidance": "Regular exercise. It reduces stress and anxiety and lowers the risk of chronic diseases, which the passage links to a higher quality of life and a longer life expectancy. The question has two halves — name the cause and state the mechanism — so answer both."
+  },
+  {
+   "id": "A2b",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "How does exercise change an individual's emotional state at a particular time?",
+   "guidance": "This asks about the short term. Exercise releases endorphins, which lift mood and act as a natural stress reliever; it also improves sleep quality and raises energy levels. Do not answer with the long-term cardiovascular benefits — those belong to a different question."
+  },
+  {
+   "id": "A2c",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "What are the longer-term benefits of regular exercise for the human heart?",
+   "guidance": "Exercise strengthens the cardiovascular system, lowers blood pressure and improves blood circulation, which together reduce the risk of heart disease and stroke (and, the passage adds, type 2 diabetes and certain cancers)."
+  },
+  {
+   "id": "A2d",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "According to this passage, how is a more resilient body achieved?",
+   "guidance": "Through consistent exercise over the long term — activities such as weightlifting and running strengthen bones and muscles, which can prevent osteoporosis and reduce the risk of falls later in life."
+  },
+  {
+   "id": "A2e",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "Find the synonym of the words given below from the passage. (1+1=2)\n(i) Essential\n(ii) Memory loss",
+   "guidance": "(i) 'Crucial' — the passage calls exercise 'a crucial tool for reducing stress'. (ii) 'Dementia' — 'can even lower the risk of developing dementia'. The instruction is to find the word in the passage, so give the passage's word, not a dictionary synonym of your own."
+  },
+  {
+   "id": "A3",
+   "kind": "precis",
+   "marks": 20,
+   "prompt": "Write a precis of the passage given below.",
+   "guidance": "Reduce to about one-third and give it a title. The passage is deliberately two-sided: the benefits of social media (instant communication across distance, communities of shared interest, mobilisation for social and political causes, creative expression, business promotion, faster news) set against the harms. A précis that reports only one side loses marks even if it is well written. Keep it impersonal and in your own words; resist quoting the platform names as a substitute for summarising the argument.",
+   "body": "The rise of social media has fundamentally changed how we interact, communicate, and consume information. Platforms like Facebook, Twitter, and Instagram have become dominant forces in our daily lives, offering new avenues for connection but also presenting new challenges. On the positive side, these platforms allow for instant communication across vast distances, enabling people to maintain relationships, form communities around shared interests, and mobilize for social and political causes. They provide a space for creative expression, business promotion, and the dissemination of news, often at a faster rate than traditional media. However, the negative aspects are significant. The constant bombardment of curated and often unrealistic portrayals of life can lead to feelings of inadequacy and a decline in mental well-being. The spread of misinformation and “fake news” is a major concern, as algorithms can amplify sensational or false content, making it difficult for users to distinguish between truth and falsehood. Furthermore, the addictive nature of social media, designed to maximize user engagement through likes, shares, and notifications, can lead to reduced productivity and a decline in face-to-face social skills. Privacy concerns are also paramount, as users often share vast amounts of personal data, which can be exploited by companies for targeted advertising or other purposes. In conclusion, while social media offers unprecedented opportunities for connection and information sharing, its pervasive influence comes with significant risks to mental health, social cohesion, and individual privacy, necessitating a more critical and balanced approach to its use."
+  }
+ ]
+}

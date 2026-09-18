@@ -1,0 +1,2623 @@
+{
+ "exam": "Research Investigator",
+ "examShort": "Research Investigator",
+ "dept": "Art & Culture Department, Govt. of Mizoram",
+ "sitting": "May 2026",
+ "year": 2026,
+ "paper": "Paper II",
+ "paperTitle": "General Knowledge, Aptitude & Reasoning",
+ "series": null,
+ "maxMarks": 200,
+ "durationMin": 120,
+ "negativeMark": 0.33,
+ "markPerQuestion": 2,
+ "sourcePdf": "research-invetigator-may-2026-paper-ii.pdf",
+ "paperId": "ri-2026-p2",
+ "questions": [
+  {
+   "id": "B1",
+   "n": 1,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which country given below is not a member of BRICS grouping?",
+   "opts": {
+    "a": "Brazil",
+    "b": "Egypt",
+    "c": "Argentina",
+    "d": "Indonesia"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Argentina was invited to join BRICS from 1 January 2024 but declined the invitation under President Milei, so it never became a member. Egypt did join in that January 2024 expansion and Indonesia was admitted as a full member in January 2025, which is why both read as tempting answers.",
+   "topic": "current_affairs",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.776,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B2",
+   "n": 2,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The ‘Schengen Zone’, recently seen in the news, is a zone related to:",
+   "opts": {
+    "a": "a passport-free travel and borderless zone in Europe",
+    "b": "an economic region comprising European countries that has a Free Trade Agreement between them",
+    "c": "an economic and geographic region comprising European Union countries that use the Euro as their national currency",
+    "d": "a territorial disputed region between UK and other EU countries situated in the Atlantic ocean."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The Schengen Area abolished checks at internal borders, so people cross between member states without passport control — it is about movement of people, not money or goods. Option (c) describes the Eurozone and (b) a trade arrangement; the memberships do not even coincide (Ireland is in the EU but outside Schengen, Switzerland is in Schengen but outside the EU).",
+   "topic": "current_affairs",
+   "flag": null,
+   "_cov": {
+    "a": 0.672,
+    "b": 0.026,
+    "c": 0.011,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B3",
+   "n": 3,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "With reference to the e-Rupee issued by the Reserve Bank of India, consider: 1.It is a sovereign digital currency and legal tender. 2.It eliminates the need for commercial banks in the financial system. 3.It can be used for both wholesale and retail transactions.",
+   "opts": {
+    "a": "1 and 3 only",
+    "b": "2 and 3 only",
+    "c": "1 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The e-Rupee is the RBI's central bank digital currency, so it is sovereign currency and legal tender (1), and the RBI runs both a wholesale pilot (CBDC-W, for interbank settlement) and a retail pilot (CBDC-R, for the public), so (3) holds too. Statement 2 is the trap: retail e-Rupee reaches users *through* commercial banks as distributing intermediaries, so it supplements them rather than removing them.",
+   "topic": "economy",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.012
+   }
+  },
+  {
+   "id": "B4",
+   "n": 4,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The name of the spacecraft used by NASA for their recent lunar program is:",
+   "opts": {
+    "a": "Artemis-I",
+    "b": "Artemis-II",
+    "c": "Orion",
+    "d": "Skylab"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Orion is the crew spacecraft that carries astronauts to lunar orbit; Artemis is the name of the programme, so Artemis-I and Artemis-II are mission names, not vehicles — that is the distinction the question is testing. Skylab was a 1970s Earth-orbiting space station with no lunar role.",
+   "topic": "current_affairs",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.776,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B5",
+   "n": 5,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many teams will participate in the 2026 FIFA World Cup ?",
+   "opts": {
+    "a": "32",
+    "b": "36",
+    "c": "42",
+    "d": "48"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The 2026 World Cup co-hosted by the USA, Canada and Mexico is the first expanded edition with 48 teams in 12 groups of four. 32 is the old format used from 1998 to 2022 and is the standard distractor.",
+   "topic": "sports_misc",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.73
+   }
+  },
+  {
+   "id": "B6",
+   "n": 6,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Government of Mizoram recently signed Memorandum of Settlement (MoS) with:",
+   "opts": {
+    "a": "HPC",
+    "b": "HPC-D",
+    "c": "HPC-D (LF)",
+    "d": "HPC-D (LS)"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The Memorandum of Settlement signed on 14 April 2026 at Vengpui Community Hall, Sakawrdai was between the Government of Mizoram and HPC-D (LF) — the Hmar People's Convention-Democratic faction led by Lalhmingthanga Sanate — ending the last active insurgency in the state, with 43 cadres surrendering later that month. The other options are earlier chapters of the same story: the parent HPC signed the 1994 accord that created the Sinlung Hills Development Council, and HPC-D signed the 2018 settlement.",
+   "topic": "mizoram_gk",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.771,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B7",
+   "n": 7,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Gandhiji attended which of the following Round Table Conference (RTC)? 1.First RTC 2.Second RTC 3.Third RTC Select the correct answer using the code given below.",
+   "opts": {
+    "a": "1 only",
+    "b": "2 and 3 only",
+    "c": "2 only",
+    "d": "None"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Gandhi attended only the Second Round Table Conference (London, 1931), going as the sole Congress representative under the terms of the Gandhi-Irwin Pact. Congress boycotted the First RTC (1930) with its leaders in jail, and by the Third RTC (1932) Gandhi was imprisoned again after Civil Disobedience resumed.",
+   "topic": "history_modern",
+   "flag": null,
+   "_cov": {
+    "a": 0.014,
+    "b": 0.015,
+    "c": 0.772,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B8",
+   "n": 8,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The Battle of Chinsurah was one of the decisive battles in the struggle among European powers in India. It was fought between which of the following countries?",
+   "opts": {
+    "a": "The Dutch and the British",
+    "b": "The French and the British",
+    "c": "The Portuguese and the British",
+    "d": "The Danes and the Dutch"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The Battle of Chinsurah, also called the Battle of Bedara or Biderra (1759), was fought between the Dutch East India Company and the English under Colonel Forde, and it destroyed Dutch power in Bengal. The Anglo-French struggle was settled in the Carnatic Wars and at Wandiwash (1760), which is the usual mix-up here.",
+   "topic": "history_modern",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.015,
+    "c": 0.007,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B9",
+   "n": 9,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The Poona Pact of 1932 was related to which of the following?",
+   "opts": {
+    "a": "response to the Simon Commission Report",
+    "b": "settlement of differences arising out of the Communal Award",
+    "c": "opposition to the Nehru Report",
+    "d": "negotiations at the First Round Table Conference"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The Poona Pact of September 1932, agreed between Gandhi and Ambedkar, replaced the separate electorates that Ramsay MacDonald's Communal Award had granted the Depressed Classes with reserved seats inside the joint Hindu electorate, ending Gandhi's fast unto death at Yerwada. The Simon Commission and the Nehru Report belong to 1927-28 and had nothing to do with this settlement.",
+   "topic": "history_modern",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.727,
+    "c": 0.007,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B10",
+   "n": 10,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Kalidasa was a poet of ?",
+   "opts": {
+    "a": "Maurya empire",
+    "b": "Gupta empire",
+    "c": "Mughal empire",
+    "d": "British India"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Kalidasa, author of Abhijnanashakuntalam, Meghaduta and Raghuvamsa, belongs to the Gupta age and is traditionally counted among the 'nine gems' of Chandragupta II's court. Classical Sanskrit literature peaked under the Guptas, not the Mauryas, and the Mughal court's literary language was Persian.",
+   "topic": "history_ancient_medieval",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.731,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B11",
+   "n": 11,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Who among the following Sikh Gurus laid the foundation of the Khalsa Panth ?",
+   "opts": {
+    "a": "Guru Nanak",
+    "b": "Guru Arjan",
+    "c": "Guru Gobind Singh",
+    "d": "Guru Hargobin"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Guru Gobind Singh, the tenth Guru, founded the Khalsa Panth at Anandpur Sahib on Baisakhi 1699, initiating the Panj Piare and prescribing the five Ks. Guru Nanak founded Sikhism itself and Guru Arjan compiled the Adi Granth, but neither created the Khalsa order.",
+   "topic": "history_ancient_medieval",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.662,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B12",
+   "n": 12,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "“Jai Hind” slogan was adopted by?",
+   "opts": {
+    "a": "Netaji Subhas Chandra Bose",
+    "b": "Mahatma Gandhi",
+    "c": "Bal Gangadhar Tilak",
+    "d": "Sardar Patel"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Jai Hind' was adopted by Subhas Chandra Bose as the greeting and battle cry of the Azad Hind Fauj (INA) — it is credited to his associate Abid Hasan — and passed into national use after independence. Gandhi's associated calls were 'Do or Die' and 'Quit India'; Tilak's was 'Swaraj is my birthright'.",
+   "topic": "history_modern",
+   "flag": null,
+   "_cov": {
+    "a": 0.672,
+    "b": 0.015,
+    "c": 0.007,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B13",
+   "n": 13,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which phase of population growth in India is referred to as the period of “Population Explosion”?",
+   "opts": {
+    "a": "1901–1921",
+    "b": "1921–1951",
+    "c": "1951-1981",
+    "d": "1981-Present"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "In the standard four-phase account of India's population growth, 1951-1981 is the period of population explosion: death rates fell sharply with better health care and food security while birth rates stayed high, pushing annual growth above 2 per cent. 1901-1921 is the stagnant phase (1921 being the 'demographic divide'), 1921-1951 steady growth, and 1981 onwards high but decelerating growth.",
+   "topic": "geography_world",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.771,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B14",
+   "n": 14,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "With reference to nuclear fuel, consider the following statements: 1.India has more uranium reserves than thorium reserves. 2.Jharkhand has the largest Thorium reserves in India. Which of the above statements are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Both statements are wrong, so 'neither' is right: India's thorium reserves in monazite beach sands are among the world's largest and far exceed its modest uranium reserves — precisely the reason the three-stage nuclear programme is built around thorium. Jharkhand's nuclear importance is uranium at Jaduguda, while thorium-bearing monazite is concentrated in the coastal sands of Andhra Pradesh, Tamil Nadu, Kerala and Odisha.",
+   "topic": "geography_world",
+   "flag": null,
+   "_cov": {
+    "a": 0.014,
+    "b": 0.015,
+    "c": 0.012,
+    "d": 0.541
+   }
+  },
+  {
+   "id": "B15",
+   "n": 15,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "With reference to the Strait of Hormuz, consider the following statements: 1.It connects the Persian Gulf with the Arabian Sea through the Gulf of Oman. 2.It lies entirely within the territorial waters of Iran. 3.A significant portion of global crude oil trade passes through it. Which of the statements given above are correct?",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "1 and 3 only",
+    "c": "2 and 3 only",
+    "d": "All of the above"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The strait joins the Persian Gulf to the Gulf of Oman and so to the Arabian Sea (1), and about a fifth of the world's oil consumption passes through it, making it the single most important oil chokepoint (3). Statement 2 is false: Iran lies to the north but Oman's Musandam peninsula lies to the south, so the strait and its shipping lanes are shared, not entirely Iranian.",
+   "topic": "geography_world",
+   "flag": null,
+   "_cov": {
+    "a": 0.014,
+    "b": 0.731,
+    "c": 0.012,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B16",
+   "n": 16,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Nights are cooler in the deserts than in the plains because:",
+   "opts": {
+    "a": "Sand radiates heat more quickly than the earth",
+    "b": "The sky remains clear most of the time",
+    "c": "Sand absorbs heat more quickly than the earth",
+    "d": "The sky is generally cloudy"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "Sand has a low specific heat and retains heat poorly, so after sunset it radiates away almost all the energy it took in during the day and desert temperatures fall steeply. Option (c) is the mirror-image trap — rapid absorption explains the hot desert day, not the cold night; clear skies (b) genuinely assist the heat loss, but the property being tested is sand's rapid re-radiation.",
+   "topic": "geography_physical",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.026,
+    "c": 0.011,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B17",
+   "n": 17,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following mountain ranges do Mizoram belongs to:",
+   "opts": {
+    "a": "Aravali Range",
+    "b": "Barail Range",
+    "c": "Purvanchal Range",
+    "d": "Satpura Range"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The Mizo or Lushai Hills are part of the Purvanchal, the north-south chain of eastern hills — Patkai Bum, Naga Hills, Manipur Hills, Mizo Hills — that forms the eastern extension of the Himalayas. Barail is a single range further north in Assam/Nagaland, while the Aravalli and Satpura lie in peninsular India far from the Northeast.",
+   "topic": "geography_world",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.776,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B18",
+   "n": 18,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Tropic of cancer passes through ___ Indian states.",
+   "opts": {
+    "a": "7",
+    "b": "8",
+    "c": "9",
+    "d": "10"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The Tropic of Cancer crosses eight Indian states from west to east: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. It touches Mizoram but not Manipur, Assam or Meghalaya, which is where most miscounts come from.",
+   "topic": "geography_world",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.736,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B19",
+   "n": 19,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The expression Union of India under Article 1 of the Indian constitution include(s) which of the following? 1.States 2.Union Territories 3.Territories that India may acquire in the future Select the correct answer using the code given below.",
+   "opts": {
+    "a": "1 only",
+    "b": "1 and 2 only",
+    "c": "2 and 3 only",
+    "d": "1,2 and 3"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Article 1(1) reads 'India, that is Bharat, shall be a Union of States', so the expression 'Union of India' covers the States alone — they are the federating units that share power with the Centre. Union territories and territories that may be acquired enter under Article 1(3) as part of the wider 'territory of India'; they are centrally administered but are not members of the Union in that federal sense, and confusing the two expressions is the whole point of the question.",
+   "topic": "polity",
+   "flag": null,
+   "_cov": {
+    "a": 0.598,
+    "b": 0.012,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B20",
+   "n": 20,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "With reference to the tenure of municipalities under the 74th Constitutional Amendment Act, 1992, consider the following statements: 1.Every municipality has a five-year term from its first meeting, unless dissolved earlier. 2.A municipality reconstituted after premature dissolution enjoys a fresh full term of five years. Which of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Article 243U, inserted by the 74th Amendment, gives every municipality five years from the date of its first meeting unless it is dissolved sooner, so statement 1 is correct. Statement 2 is the classic trap: under Article 243U(4) a municipality constituted after premature dissolution continues only for the unexpired remainder of the original term, and if that remainder is less than six months no election need be held at all.",
+   "topic": "polity",
+   "flag": null,
+   "_cov": {
+    "a": 0.569,
+    "b": 0.012,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B21",
+   "n": 21,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which Amendment Act is referred as ‘mini constitution’?",
+   "opts": {
+    "a": "7th Constitutional Amendment Act, 1956",
+    "b": "24th Constitutional Amendment Act, 1971",
+    "c": "42nd Constitutional Amendment Act, 1976",
+    "d": "44th Constitutional Amendment Act, 1978"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The 42nd Amendment (1976) is called the 'mini constitution' because it altered the Preamble (adding 'Socialist', 'Secular', 'Integrity'), added the Fundamental Duties and Part IVA, and changed dozens of articles in one sweep. The 44th (1978) is the tempting distractor, but it mostly *undid* 42nd Amendment excesses rather than rewriting the Constitution wholesale.",
+   "topic": "polity",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.012,
+    "c": 0.776,
+    "d": 0.012
+   }
+  },
+  {
+   "id": "B22",
+   "n": 22,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "India celebrated its ________ Republic Day on 26th January, 2026",
+   "opts": {
+    "a": "75th",
+    "b": "76th",
+    "c": "77th",
+    "d": "78th"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The Constitution came into force on 26 January 1950, and that day was the 1st Republic Day. Counting inclusively, 26 January 2026 is the 77th (2026 − 1950 = 76 anniversaries, plus the original day). The classic error is subtracting 1950 from 2026 and answering 76th.",
+   "topic": "current_affairs",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.776,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B23",
+   "n": 23,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The full form of  NITI Aayog is:",
+   "opts": {
+    "a": "National Idea for Transforming India",
+    "b": "National Innovation for Transforming India",
+    "c": "National Institute for Transforming India",
+    "d": "National Institution for Transforming India"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "NITI Aayog stands for National Institution for Transforming India; it replaced the Planning Commission on 1 January 2015. 'Institute' (option c) is the standard trap — the body is an institution, not an institute.",
+   "topic": "polity",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.026,
+    "c": 0.011,
+    "d": 0.558
+   }
+  },
+  {
+   "id": "B24",
+   "n": 24,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which one of the following states has a seat reserved in the Legislative Assembly on the basis of religion?",
+   "opts": {
+    "a": "Goa",
+    "b": "Sikkim",
+    "c": "Jammu & Kashmir",
+    "d": "Uttar Pradesh"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Sikkim's Legislative Assembly has the Sangha constituency, reserved for the Buddhist monasteries (lamas of recognised gompas vote in it) — the only religion-based seat in any Indian legislature. Reservations elsewhere, as in Goa or Uttar Pradesh, are for SCs and STs, which are caste/tribe-based, not religious.",
+   "topic": "polity",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.736,
+    "c": 0.011,
+    "d": 0.012
+   }
+  },
+  {
+   "id": "B25",
+   "n": 25,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The term ‘Ways and Means Advances (WMA)’, sometimes seen in the news, refers to:",
+   "opts": {
+    "a": "A mechanism by the Reserve Bank of India to provide short-term credit to governments to",
+    "b": "A long-term fiscal deficit financing tool through issuance of treasury bonds",
+    "c": "A special window for commercial banks to borrow funds to meet capital adequacy norms",
+    "d": "A subsidy scheme launched by the Government of India to support state finances"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Ways and Means Advances are temporary overdraft-style credit the RBI extends to the Centre and states under Section 17(5) of the RBI Act to bridge short-run mismatches between receipts and payments; they must be repaid within 90 days and are not a deficit-financing instrument. That rules out option b — WMA is explicitly short-term and is not money raised by issuing bonds.",
+   "topic": "economy",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.013,
+    "c": 0.007,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B26",
+   "n": 26,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following is a key feature of demographic dividend?",
+   "opts": {
+    "a": "Declining working-age population",
+    "b": "High dependency ratio",
+    "c": "Increase in working-age population relative to dependents",
+    "d": "Rising infant mortality"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "A demographic dividend is the growth potential that appears when the working-age population (15–64) rises relative to dependents, so the dependency ratio falls and more of the population is producing rather than consuming. Options a, b and d all describe the opposite condition — a shrinking or more burdened workforce.",
+   "topic": "economy",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.013,
+    "c": 0.771,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B27",
+   "n": 27,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "With reference to the Viksit Bharat—Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB-G RAM G) Act, 2025, consider the following statements: 1.It replaces the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) with a new statutory framework aligned with Viksit Bharat 2047 2.It increases guaranteed wage employment from 100 to 150 days per rural household annually. Which of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "low",
+   "why": "The VB-G RAM G legislation was brought in to repeal and replace MGNREGA, 2005 with a new rural employment and livelihoods framework tied to the Viksit Bharat 2047 goal, so statement 1 is right; the guarantee was not reported as being raised to 150 days per household, so statement 2 is wrong. This is very recent legislation and the exact guaranteed-days figure could not be verified here — treat the rejection of statement 2 as the marked paper's evidence rather than a confirmed fact.",
+   "topic": "current_affairs",
+   "flag": "Unverified 2025 current affairs: the guaranteed-days provision of the VB-G RAM G Act could not be checked against a source. Answer follows the marked option.",
+   "_cov": {
+    "a": 0.75,
+    "b": 0.015,
+    "c": 0.012,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B28",
+   "n": 28,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Who is the chairman of the 16th Finance Commission of India ?",
+   "opts": {
+    "a": "Ajay Narayan Jha",
+    "b": "Dr. Niranjan Rajadhyaksha",
+    "c": "Dr. Arvind Panagariya",
+    "d": "Dr. Soumya Kanti Ghosh"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Dr. Arvind Panagariya, former NITI Aayog Vice-Chairman, was appointed Chairman of the 16th Finance Commission (constituted 31 December 2023) to recommend tax devolution for 2026–31. Ajay Narayan Jha, Niranjan Rajadhyaksha and Soumya Kanti Ghosh are members of the same Commission, not its chairman — which is what makes them plausible distractors.",
+   "topic": "polity",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.771,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B29",
+   "n": 29,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following are declared ‘fully literate states’ in 2025 ?",
+   "opts": {
+    "a": "Mizoram, Goa, Tripura, Himachal Pradesh",
+    "b": "Mizoram, Goa, Kerala, Himachal Pradesh",
+    "c": "Mizoram, Goa, Ladakh, Himachal Pradesh",
+    "d": "Mizoram, Goa, Tripura, Kerala"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "Under the ULLAS / Nav Bharat Saksharta Karyakram a state is declared 'fully literate' at 95% literacy, and Mizoram, Goa, Tripura and Himachal Pradesh were the states so declared in 2025. Kerala's full-literacy declaration dates from 1991, not 2025, and Ladakh is a Union Territory declared in 2024 — which eliminates options b, c and d.",
+   "topic": "current_affairs",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.013,
+    "c": 0.007,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B30",
+   "n": 30,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The United Nation’s 17 Sustainable Development Goals (SDGs) are the plan to build a better world for people and our planet by:",
+   "opts": {
+    "a": "2030",
+    "b": "2035",
+    "c": "2045",
+    "d": "2047"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The 17 SDGs were adopted in 2015 as part of the 2030 Agenda for Sustainable Development, with a target date of 2030. 2047 is the Viksit Bharat target year, a purely Indian goal, and is the trap here.",
+   "topic": "environment_ecology",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B31",
+   "n": 31,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following is not the ex-situ methods of biodiversity conservation?",
+   "opts": {
+    "a": "Botanical Garden",
+    "b": "Zoo",
+    "c": "Biosphere Reserves",
+    "d": "Aquariums"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Biosphere reserves protect species in their natural habitat, which makes them in-situ conservation; botanical gardens, zoos and aquariums all keep organisms away from their habitat and are therefore ex-situ. The question asks which is NOT ex-situ, so the in-situ item is the answer.",
+   "topic": "environment_ecology",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.015,
+    "c": 0.771,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B32",
+   "n": 32,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Recently, which of the following was added as India’s 13th site to UNESCO’s World Network of Biosphere Reserves?",
+   "opts": {
+    "a": "Dehang-Dibang Biosphere Reserve",
+    "b": "Cold Desert Biosphere Reserve",
+    "c": "Sundarbans Biosphere Reserve",
+    "d": "Nanda Devi Biosphere Reserve"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "The Cold Desert Biosphere Reserve of Himachal Pradesh was the addition that took India to 13 sites on UNESCO's World Network of Biosphere Reserves. Sundarbans (2001), Nanda Devi (2004) and Dehang-Dibang — the last of which is not on the UNESCO network at all — are older or ineligible, so none of them could be the newest entry.",
+   "topic": "environment_ecology",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.736,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B33",
+   "n": 33,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "With respect to Stockholm Convention, consider the following statements: 1.Stockholm Convention is a legally binding international agreement to protect human health and environment from Persistent Organic Pollutants (POPs). 2.At present, 12 chemicals are covered under the Stockholm Convention Which of the statements given above are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The Stockholm Convention (2001, in force 2004) is indeed a legally binding treaty against Persistent Organic Pollutants, so statement 1 is correct. Statement 2 is out of date: it began with the 'dirty dozen' 12 chemicals but successive Conferences of the Parties have listed many more, taking the total past 30, so only statement 1 stands.",
+   "topic": "environment_ecology",
+   "flag": null,
+   "_cov": {
+    "a": 0.501,
+    "b": 0.015,
+    "c": 0.012,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B34",
+   "n": 34,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which one of the following is considered to be the purest source of water?",
+   "opts": {
+    "a": "River water",
+    "b": "Well water",
+    "c": "Rain Water",
+    "d": "Sea water"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Rain water is condensed water vapour, so it is naturally distilled and carries the fewest dissolved salts and impurities — the purest natural source. Well water looks clean but percolates through soil and rock and picks up dissolved minerals; sea water is the most impure of all.",
+   "topic": "science_chemistry",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.576,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B35",
+   "n": 35,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many National Parks are there in Mizoram ?",
+   "opts": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Mizoram has two national parks: Murlen National Park in Champhai district and Phawngpui (Blue Mountain) National Park in Lawngtlai district. Its other protected areas — Dampa, Ngengpui, Khawnglung and so on — are wildlife sanctuaries or a tiger reserve, not national parks, which is why the count is often overstated.",
+   "topic": "mizoram_gk",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.736,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B36",
+   "n": 36,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Green Mizoram Day is observed on:",
+   "opts": {
+    "a": "22nd March",
+    "b": "22nd April",
+    "c": "11th May",
+    "d": "11th June"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "medium",
+   "why": "Green Mizoram Day is observed across the state on 11 June each year, a mass tree-planting day instituted in 1999 by the state government. 22 April is Earth Day and 22 March is World Water Day — global observances, not the Mizoram-specific one the question asks for.",
+   "topic": "mizoram_gk",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.542
+   }
+  },
+  {
+   "id": "B37",
+   "n": 37,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The term ‘Kessler Syndrome’ refers to a situation in which:",
+   "opts": {
+    "a": "intense solar activity disrupts satellite communication systems",
+    "b": "Failure of Earth’s magnetic field results in increased solar radiation exposure on satellites",
+    "c": "Excessive launch of rockets causes depletion of atmospheric oxygen in upper layers",
+    "d": "orbital debris accumulation triggers cascading satellite collisions"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Kessler Syndrome, proposed by NASA scientist Donald Kessler in 1978, is the runaway scenario in which orbital debris density grows so high that each collision produces fragments that cause further collisions, potentially making low Earth orbit unusable. Option a describes a solar storm or geomagnetic event, a different hazard entirely.",
+   "topic": "science_physics",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.026,
+    "c": 0.011,
+    "d": 0.7
+   }
+  },
+  {
+   "id": "B38",
+   "n": 38,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In the context of gravitational force and electromagnetic force, consider the following statements: 1.While gravitational force is always attractive, electromagnetic force can be both attractive and repulsive. 2.While gravitational force is only dependent on mass, the electromagnetic force is dependent on both mass and charge. 3.While gravitational force is dependent upon the distance between the two bodies, the electromagnetic force is independent of it. Which of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Only statement 1 is right: gravity is purely attractive while the electromagnetic force attracts unlike and repels like charges. Statement 2 is wrong because the electromagnetic force depends on charge, not on mass; statement 3 is wrong because both forces obey an inverse-square law and so both weaken with distance.",
+   "topic": "science_physics",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.012,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B39",
+   "n": 39,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "What type of lens is used in a magnifying glass?",
+   "opts": {
+    "a": "Bifocal lens",
+    "b": "Macro lens",
+    "c": "Concave lens",
+    "d": "Convex lens"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "A magnifying glass is a converging (convex) lens used with the object inside its focal length, which produces an enlarged, erect, virtual image. A concave lens diverges light and always gives a diminished image, so it can never magnify.",
+   "topic": "science_physics",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.542
+   }
+  },
+  {
+   "id": "B40",
+   "n": 40,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "What is the chemical name of vinegar ?",
+   "opts": {
+    "a": "Citric acid",
+    "b": "Acetic acid",
+    "c": "Pyruvic acid",
+    "d": "Malic acid"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Vinegar is a dilute (roughly 4–8%) solution of acetic acid, also called ethanoic acid, CH3COOH. Citric acid is the acid of citrus fruits, malic acid that of apples, and pyruvic acid is a metabolic intermediate — none of them is vinegar.",
+   "topic": "science_chemistry",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.609,
+    "c": 0.011,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B41",
+   "n": 41,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In humans, which chamber of the heart receives oxygen-rich blood from the lungs first?",
+   "opts": {
+    "a": "Left atrium",
+    "b": "Right atrium",
+    "c": "Left ventricle",
+    "d": "Right ventricle"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Oxygenated blood returns from the lungs through the pulmonary veins, which empty into the left atrium; from there it passes to the left ventricle and out through the aorta. The left ventricle is a tempting answer but it receives that blood second, from the atrium, not directly from the lungs; the right-side chambers handle deoxygenated blood.",
+   "topic": "science_biology",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B42",
+   "n": 42,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Saliva helps in the digestion of:",
+   "opts": {
+    "a": "Fats",
+    "b": "Proteins",
+    "c": "Vitamins",
+    "d": "Starch"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Saliva contains the enzyme ptyalin (salivary amylase), which begins breaking starch down into maltose in the mouth. Proteins wait for pepsin in the stomach and fats for lipase and bile in the small intestine, so neither is digested by saliva; vitamins are absorbed, not digested.",
+   "topic": "science_biology",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.013,
+    "c": 0.011,
+    "d": 0.542
+   }
+  },
+  {
+   "id": "B43",
+   "n": 43,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Practice of nomadism was prevalent in early Mizo history. This practice of migrating from one settlement to another settlement is known as",
+   "opts": {
+    "a": "Ram tuk rel",
+    "b": "Ram zuan",
+    "c": "Khawkhawm",
+    "d": "Ram lak"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "Early Mizo villages practised shifting (jhum) cultivation and abandoned a site once its soil was exhausted, and this moving of the whole settlement to fresh land is called 'Ram zuan' — literally leaping from one land to another. 'Khawkhawm' is the opposite idea, the grouping or gathering together of villages, while 'Ram lak' refers to seizing land rather than migrating.",
+   "topic": "mizoram_history",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.623,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B44",
+   "n": 44,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following dance was performed to celebrate victory in warfare, intended to honour the victor and ensure the vanquished foe’s spirit remained a slave to the victor?",
+   "opts": {
+    "a": "Cheraw",
+    "b": "Khuallam",
+    "c": "Solakia/Sarlamkai",
+    "d": "Chailam"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Solakia (Sarlamkai) is the warriors' dance performed after a successful raid or hunt, celebrating the victor and, in traditional belief, binding the slain enemy's spirit to serve him in the afterlife. Cheraw is the bamboo dance, Khuallam the dance that welcomes guests at a Khuangchawi, and Chailam a festive community dance — none of them is a war-victory rite.",
+   "topic": "mizoram_culture",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.532,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B45",
+   "n": 45,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A Monograph on Lushai Customs and Ceremonies was written by:",
+   "opts": {
+    "a": "J. Shakespear",
+    "b": "N.E. Parry",
+    "c": "T.H. Lewin",
+    "d": "A.G. Woodthrope"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "N.E. Parry, Superintendent of the Lushai Hills in the 1920s, wrote 'A Monograph on Lushai Customs and Ceremonies' (1928). J. Shakespear is remembered for 'The Lushei Kuki Clans' and T.H. Lewin for 'The Wild Races of South-Eastern India', so those are the classic mix-ups here.",
+   "topic": "mizoram_history",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.545,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B46",
+   "n": 46,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In the context of Mizo history, in which year did the first major “Lushai Expedition” took place?",
+   "opts": {
+    "a": "1871–1872",
+    "b": "1873-1874",
+    "c": "1851-1852",
+    "d": "1901-1902"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The first major Lushai Expedition was launched in 1871–72, after raids on the Cachar tea gardens and the abduction of Mary Winchester from Alexandrapore. 1889–90 saw the later Chin-Lushai Expedition that led to annexation, but the first punitive campaign is firmly dated 1871–72.",
+   "topic": "mizoram_history",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B47",
+   "n": 47,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Who introduced the land settlement in the Lushai Hills?",
+   "opts": {
+    "a": "G.H.Loch",
+    "b": "A.H. Scott",
+    "c": "J.Shakespeare",
+    "d": "Mac Donald"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "low",
+   "why": "Following the marked option: John Shakespear, the first Superintendent of the Lushai Hills (1898–1905), set up the district's early administration including the fixing of chiefs' land boundaries. Treat this as unverified — the exact officer credited with introducing the land settlement is not something this explanation can confirm from an independent source.",
+   "topic": "mizoram_history",
+   "flag": "Unverified: which colonial officer introduced the land settlement in the Lushai Hills could not be confirmed; answer follows the source highlight.",
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.771,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B48",
+   "n": 48,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "‘Awkpaka’ in Mizo traditional society relates with:",
+   "opts": {
+    "a": "Zawlbuk",
+    "b": "Lal In",
+    "c": "Pum",
+    "d": "Thlam"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "low",
+   "why": "Following the marked option, 'Awkpaka' is associated with the Zawlbuk, the bachelors' dormitory that was the centre of a Mizo village's social and military training. This is unverified — the precise meaning of the term could not be checked against a source, so treat it as the best available evidence rather than a confirmed fact.",
+   "topic": "mizoram_culture",
+   "flag": "Unverified Mizo-language term; answer follows the source highlight rather than a checked definition.",
+   "_cov": {
+    "a": 0.748,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B49",
+   "n": 49,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The first Mizo officer to receive the Kirti Chakra was:",
+   "opts": {
+    "a": "Captain Lalrinawma Sailo",
+    "b": "Gunner Lallawmzuala",
+    "c": "Lt. Col. Clement Lalhmingthanga",
+    "d": "Lt. Col. Laldinpuia"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "low",
+   "why": "Following the marked option, Captain Lalrinawma Sailo is given as the first Mizo officer awarded the Kirti Chakra, India's second-highest peacetime gallantry decoration. Note that 'Gunner' Lallawmzuala is not an officer rank, so that option does not fit the wording even though the name may be a genuine gallantry awardee; the answer itself is unverified.",
+   "topic": "mizoram_gk",
+   "flag": "Unverified: the first Mizo officer to receive the Kirti Chakra could not be confirmed; answer follows the source highlight.",
+   "_cov": {
+    "a": 0.647,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B50",
+   "n": 50,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Mizo Academy of Letters (MAL) ‘Book of the Year 2025’ is:",
+   "opts": {
+    "a": "Mizo Lal Zakapa",
+    "b": "April Fool",
+    "c": "Kham leh Suar",
+    "d": "Chhuk leh Chho"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "low",
+   "why": "Following the marked option, 'Kham leh Suar' is given as the Mizo Academy of Letters Book of the Year 2025. This is recent Mizoram literary current affairs that could not be independently verified, so treat it as unconfirmed and check the MAL announcement before relying on it.",
+   "topic": "mizoram_gk",
+   "flag": "Unverified 2025 current-affairs fact (MAL Book of the Year); answer follows the source highlight.",
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.65,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B51",
+   "n": 51,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If a+b=6and ab=6, then the value of a²+b²is:",
+   "opts": {
+    "a": "24",
+    "b": "0",
+    "c": "12",
+    "d": "30"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Use the identity a² + b² = (a + b)² − 2ab = 6² − 2(6) = 36 − 12 = 24. The trap is to forget the −2ab term and simply square the sum, or to subtract ab only once, which would give 30.",
+   "topic": "algebra",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B52",
+   "n": 52,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If x>3, then which is always true? 1.x²>9 2.2x+1>7 3.x²−6x+9>0",
+   "opts": {
+    "a": "1 only",
+    "b": "1 and 2 only",
+    "c": "1 and 3 only",
+    "d": "All of the above"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "For x > 3: (1) squaring gives x² > 9; (2) 2x + 1 > 7 rearranges to x > 3, which is exactly the given condition; (3) x² − 6x + 9 = (x − 3)², and since x ≠ 3 the square is strictly positive. All three hold, so 'All of the above' is correct — statement 3 only looks doubtful until you spot it is a perfect square.",
+   "topic": "algebra",
+   "flag": null,
+   "_cov": {
+    "a": 0.014,
+    "b": 0.015,
+    "c": 0.012,
+    "d": 0.541
+   }
+  },
+  {
+   "id": "B53",
+   "n": 53,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A solid hemisphere has radius r. If melted and recast into a cylinder of same radius, height will be:",
+   "opts": {
+    "a": "2r/3",
+    "b": "r/3",
+    "c": "4r/3",
+    "d": "r"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Melting preserves volume, so (2/3)πr³ = πr²h, and cancelling πr² leaves h = 2r/3. Answer 4r/3 comes from using the full sphere volume (4/3)πr³ instead of the hemisphere's.",
+   "topic": "mensuration",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B54",
+   "n": 54,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "10 workers can complete a piece of work in 20 days. After 5 days, 4 workers leave the job. How many more days will it take to complete the remaining work?",
+   "opts": {
+    "a": "20 days",
+    "b": "22 days",
+    "c": "25 days",
+    "d": "30 days"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Total work = 10 × 20 = 200 worker-days; in the first 5 days 10 × 5 = 50 worker-days are done, leaving 150. With 6 workers remaining, 150 ÷ 6 = 25 more days. The common slip is to give 30 (150 ÷ 5) or to forget that the question asks only for the additional days.",
+   "topic": "time_work",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.686,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B55",
+   "n": 55,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The product of digits of a two-digit number is 18. If the digits are reversed, the new number is 27 more than the original number. The number is:",
+   "opts": {
+    "a": "36",
+    "b": "63",
+    "c": "54",
+    "d": "45"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Let the number be 10a + b. Reversing adds 27, so (10b + a) − (10a + b) = 9(b − a) = 27, giving b − a = 3; with ab = 18 the digits are 3 and 6, so the number is 36. 63 is the reversed number, not the original, which is exactly the trap.",
+   "topic": "number_system",
+   "flag": null,
+   "_cov": {
+    "a": 0.549,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B56",
+   "n": 56,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A triangle is inscribed in a semicircle with diameter AB. If C is any point on the semicircle, then ∠ACB is:",
+   "opts": {
+    "a": "30°",
+    "b": "45°",
+    "c": "60°",
+    "d": "90°"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "By Thales' theorem, the angle subtended by a diameter at any point on the circle is a right angle, so ∠ACB = 90° wherever C sits on the semicircle. The other options would only arise for a chord that is not a diameter.",
+   "topic": "mensuration",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.541
+   }
+  },
+  {
+   "id": "B57",
+   "n": 57,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A cylindrical tank has radius 7 m and height 10 m. If it is filled with water up to 70%, the volume of water is:",
+   "opts": {
+    "a": "1078 m³",
+    "b": "1078.6 m³",
+    "c": "1080 m³",
+    "d": "1085 m³"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Full volume = πr²h = (22/7) × 7 × 7 × 10 = 1540 m³, and 70% of 1540 is 1078 m³. Option (b) 1078.6 is the near-miss you get from sloppy rounding of π; with r = 7 the 22/7 value cancels exactly, so the answer is a clean 1078.",
+   "topic": "mensuration",
+   "flag": null,
+   "_cov": {
+    "a": 0.553,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B58",
+   "n": 58,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The first term of an Arithmetic Progression is 50 and has a common difference of -3.What is the 12th term?",
+   "opts": {
+    "a": "17",
+    "b": "18",
+    "c": "19",
+    "d": "20"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "aₙ = a + (n − 1)d, so a₁₂ = 50 + 11 × (−3) = 50 − 33 = 17. Using 12 instead of 11 for the number of steps gives 14, and forgetting the negative sign inflates the answer — the count of common differences is always one less than the term number.",
+   "topic": "algebra",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B59",
+   "n": 59,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "From a point, angle of elevation of top of tower is 30°. After moving 20 m towards tower, angle becomes 60°. Height of tower is:",
+   "opts": {
+    "a": "10√3 m",
+    "b": "20 m",
+    "c": "20√3 m",
+    "d": "30 m"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Let d be the distance from the nearer point: h = d·tan60° = d√3, and h = (d + 20)·tan30° = (d + 20)/√3. Equating gives 3d = d + 20, so d = 10 and h = 10√3 m; 20√3 comes from wrongly taking the 20 m as the distance from the tower.",
+   "topic": "mensuration",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B60",
+   "n": 60,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If the difference between simple interest for 2 years at 5% p.a. on a certain amount and compound interest for 2 years at 6.25% p.a. on the same amount compounded annually is Rs. 37, find the principal amount.",
+   "opts": {
+    "a": "Rs. 1190",
+    "b": "Rs. 1480",
+    "c": "Rs. 1570",
+    "d": "Rs. 1280"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "SI for 2 years at 5% is 0.10P; CI for 2 years at 6.25% is P(1.0625² − 1) = 0.12890625P. The difference 0.02890625P = 37 gives P = 1280. Note the two rates differ, so the usual shortcut 'difference = P(r/100)²' does not apply here.",
+   "topic": "simple_compound_interest",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.649
+   }
+  },
+  {
+   "id": "B61",
+   "n": 61,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A shopkeeper buys 50 identical items at a total cost of Rs. 1000. He sells 30 of these items at a 20% profit and the remaining 20 items at a 10% loss. Calculate the overall profit or loss percentage.",
+   "opts": {
+    "a": "10%",
+    "b": "6%",
+    "c": "12%",
+    "d": "8%"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Cost per item = 1000/50 = Rs 20. SP of 30 items at +20% = 30x20x1.20 = 720; SP of 20 items at -10% = 20x20x0.90 = 360. Total SP = 1080 against cost 1000, so profit = 80 = 8%. The trap is averaging +20% and -10% to get 10% or 5% - percentages must be weighted by the money involved, and the two lots are not equal (30 vs 20).",
+   "topic": "profit_loss",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.73
+   }
+  },
+  {
+   "id": "B62",
+   "n": 62,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many five-digit prime numbers can be obtained by using all the digits 1, 2, 3, 4 and 5 without repetition of digits?",
+   "opts": {
+    "a": "Zero",
+    "b": "One",
+    "c": "Nine",
+    "d": "Ten"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The digits 1+2+3+4+5 sum to 15, which is divisible by 3, so EVERY five-digit arrangement of them is divisible by 3 and far larger than 3 - hence composite. None of the 120 permutations can be prime, so the count is zero; you never need to test individual numbers once you spot the digit-sum rule.",
+   "topic": "number_system",
+   "flag": null,
+   "_cov": {
+    "a": 0.646,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B63",
+   "n": 63,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If n is a natural number, then7²ⁿ−1 is divisible by: ()",
+   "opts": {
+    "a": "7",
+    "b": "24",
+    "c": "15",
+    "d": "21"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "7^(2n) - 1 = 49^n - 1, and x^n - 1 is always divisible by x - 1, so it is divisible by 48 and therefore by 24. Checking n = 1 gives 48, which is divisible by 24 but not by 7, 15 or 21 - so the other three options fail at the very first case.",
+   "topic": "number_system",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.736,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B64",
+   "n": 64,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A father is three times as old as his son. After 12 years, the father’s age will be twice that of his son’s age. What are the present ages of the father and the son respectively?",
+   "opts": {
+    "a": "24, 8",
+    "b": "36, 12",
+    "c": "21, 7",
+    "d": "30, 8"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Let the son be S and the father 3S. After 12 years 3S + 12 = 2(S + 12), giving S = 12 and father = 36. Option (a) 24, 8 satisfies the 3-times condition today but in 12 years gives 36 and 20, which is not a 2:1 ratio.",
+   "topic": "age_problems",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.736,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B65",
+   "n": 65,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "There are six numbers forming a Geometric Progression series. If the 4th term is greater than the 2nd by 6 and the 5th term is greater than the 3rd by 24, then find the difference between the 2nd term and the 4th term.",
+   "opts": {
+    "a": "2",
+    "b": "4",
+    "c": "6",
+    "d": "8"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The difference between the 4th and 2nd terms is stated in the question itself as 6, so that is the answer whatever the ratio is. Sanity check: ar^3 - ar = 6 and ar^4 - ar^2 = 24 divide to give r = 4, so ar = 0.4 and the terms run 0.1, 0.4, 1.6, 6.4, 25.6 - and 6.4 - 0.4 = 6.",
+   "topic": "algebra",
+   "flag": "OCR-garbled stem: the ordinals collapsed into 'by 6 thrdndth and 5 term is greater than 3 term by 24'. Reconstructed as 4th-2nd = 6 and 5th-3rd = 24, on which reading the question asks for a quantity it already supplies. No other option (1.5, 24, 96) is reachable from the data, so 6 is safe, but the wording is worth checking against the source PDF.",
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.68,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B66",
+   "n": 66,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many zeros are there at the end of the following product? 24 × 32 × 17 × 23 × 19",
+   "opts": {
+    "a": "Zero",
+    "b": "Five",
+    "c": "Four",
+    "d": "Sixteen"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "A trailing zero needs a factor of 10, i.e. a 2 paired with a 5. Factorising: 24 = 2^3 x 3, 32 = 2^5, and 17, 23, 19 are primes - there is no factor of 5 anywhere, so there are no trailing zeros. 'Sixteen' tempts you by counting the 2s, but 2s alone produce no zeros.",
+   "topic": "number_system",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B67",
+   "n": 67,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Liani drove 50 km towards east from a city ‘P’ and then turned right and drove another 30 km. Now she turned to her left and drove another 30 km. Finally she turned to her right and drove 30 km to reach a city ‘Q’. Find the shortest straight distance between cities P and Q.",
+   "opts": {
+    "a": "100 km",
+    "b": "140 km",
+    "c": "120 km",
+    "d": "80 km"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Take P as origin: 50 km east reaches (50, 0); facing east a right turn is south, so 30 km gives (50, -30); from south a left turn is east, so 30 km gives (80, -30); a right turn from east is south again, so Q = (80, -60). Straight-line PQ = sqrt(80^2 + 60^2) = 100 km - the 140 km option is just the total distance walked, not the shortest distance.",
+   "topic": "direction_sense",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B68",
+   "n": 68,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which one of the following is different in some sense?",
+   "opts": {
+    "a": "Lion",
+    "b": "Cat",
+    "c": "Tiger",
+    "d": "Leopard"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Lion, tiger and leopard are all wild big cats; the cat is the only domesticated one. All four belong to the cat family, so family membership cannot be the distinction - domestic versus wild is.",
+   "topic": "odd_one_out",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.731,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B69",
+   "n": 69,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If LIFE is coded as DEHK and NEXT is coded as SWDM, how will FINE be coded ?",
+   "opts": {
+    "a": "DEHM",
+    "b": "MDHE",
+    "c": "DMHE",
+    "d": "EHMD"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The rule is: shift each letter one step back in the alphabet and reverse the word. LIFE -> KHED -> DEHK, and NEXT -> MDWS -> SWDM, so both given codes check out. FINE -> EHMD -> reversed = DMHE. Option (b) MDHE swaps the first two letters, the usual slip when the reversal is done carelessly.",
+   "topic": "coding_decoding",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.589,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B70",
+   "n": 70,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Find the number of triangles in the given figure:",
+   "opts": {
+    "a": "18",
+    "b": "16",
+    "c": "17",
+    "d": "14"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "low",
+   "why": "This question depends entirely on a diagram that was not captured with the text, so the triangle count cannot be derived from what is printed here. The answer recorded follows the marked option in the source paper and is unverified - treat it as provisional until the figure is checked in the original PDF.",
+   "topic": "figure_counting",
+   "flag": "Missing figure: the stem says 'the given figure' but no diagram was extracted, so the count is unverifiable. Answer follows the source highlight only; needs the source PDF.",
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.727
+   },
+   "figure": "The stem refers to a figure that is an image in the source PDF and has no text layer. The triangle count cannot be derived from the stored text."
+  },
+  {
+   "id": "B71",
+   "n": 71,
+   "part": "B",
+   "direction": "DIRECTIONS (Question No. 71 & 72) : Each question consist of two words which have a certain",
+   "passageRef": null,
+   "q": "LIGHT:BLIND",
+   "opts": {
+    "a": "speech:dumb",
+    "b": "language:deaf",
+    "c": "tongue:sound",
+    "d": "voice:vibration"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "A blind person is one who cannot perceive light, so the relation is 'faculty : the person deprived of it' - and a dumb person is one who cannot produce speech. Option (b) is close but wrong in kind: a deaf person is deprived of sound or hearing, not of language, and deaf people use language fluently.",
+   "topic": "analogy",
+   "flag": null,
+   "_cov": {
+    "a": 0.641,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B72",
+   "n": 72,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "PAIN:SEDATIVE",
+   "opts": {
+    "a": "comfort:stimulant",
+    "b": "grief:consolation",
+    "c": "trance:narcotic",
+    "d": "ache:extraction"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A sedative is what relieves pain, so the pattern is 'affliction : what soothes it', and consolation is exactly what relieves grief. Option (c) reverses the logic - a narcotic causes a trance rather than relieving it - and (a) pairs comfort with a stimulant, which relieves nothing.",
+   "topic": "analogy",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.731,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B73",
+   "n": 73,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "There are deer and peacocks in a zoo. By counting heads they are 80. The number of their legs is 200. How many peacocks are there?",
+   "opts": {
+    "a": "20",
+    "b": "30",
+    "c": "50",
+    "d": "60"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Deer have 4 legs and peacocks 2. From d + p = 80 and 4d + 2p = 200, subtract twice the first: 2d = 40, so d = 20 and p = 60. The trap is option (a) 20, which is the number of deer, not the peacocks the question asks about.",
+   "topic": "algebra",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.541
+   }
+  },
+  {
+   "id": "B74",
+   "n": 74,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A hater of knowledge and learning is:",
+   "opts": {
+    "a": "Bibliophile",
+    "b": "Philologist",
+    "c": "Misologist",
+    "d": "Misogynist"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Misologist' is from Greek misos (hatred) + logos (reason, learning) - one who hates knowledge, reasoning and learning. A bibliophile loves books, a philologist studies language, and a misogynist hates women, so only (c) fits.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.771,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B75",
+   "n": 75,
+   "part": "B",
+   "direction": "DIRECTIONS (Question No. 75) : In question No. 75, two statements are given followed by two",
+   "passageRef": null,
+   "q": "Statements: I.All apples are bananas II.All bananas are sweet Conclusions: I.Some apples are sweet II.Some bananas are apples",
+   "opts": {
+    "a": "Only conclusion I follows",
+    "b": "Only conclusion II follows",
+    "c": "Either conclusion I or II follows",
+    "d": "Both conclusions I and II follows"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'All apples are bananas' and 'all bananas are sweet' chain to give 'all apples are sweet', and 'all' entails 'some', so Conclusion I follows. Conclusion II is the valid converse of a universal affirmative - if every apple is a banana then at least some bananas are apples - so it follows too. 'Either/or' (option c) is wrong because that applies only to complementary pairs where exactly one can be true.",
+   "topic": "syllogism",
+   "flag": null,
+   "_cov": {
+    "a": 0.014,
+    "b": 0.015,
+    "c": 0.012,
+    "d": 0.542
+   }
+  },
+  {
+   "id": "B76",
+   "n": 76,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Arrange the following words in their ascending order : 1.Millenium2.Diamond jubilee 3.Silver jubilee4.Centenary 5.Golden jubilee",
+   "opts": {
+    "a": "3, 5, 2, 4, 1",
+    "b": "2, 3, 5, 4, 1",
+    "c": "2, 5, 3, 1, 4",
+    "d": "2, 3, 5, 1, 4"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "By years marked: silver jubilee 25, golden jubilee 50, diamond jubilee 60, centenary 100, millennium 1000 - giving 3, 5, 2, 4, 1. Every distractor opens with 2 (diamond jubilee), but 60 years cannot come before the silver and golden jubilees.",
+   "topic": "logical_sequence",
+   "flag": null,
+   "_cov": {
+    "a": 0.679,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B77",
+   "n": 77,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Ruata travels from Aizawl to Lunglei at a speed of 40 km/h and returns to Aizawl at a speed of 60 km/h. The average speed for the whole journey is:",
+   "opts": {
+    "a": "50 km/h",
+    "b": "42 km/h",
+    "c": "48 km/h",
+    "d": "54 km/h"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "For equal distances each way the average speed is the harmonic mean: 2 x 40 x 60 / (40 + 60) = 4800/100 = 48 km/h. The tempting 50 km/h is the plain arithmetic mean, which overstates the result because more time is spent on the slower leg.",
+   "topic": "speed_distance_time",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.013,
+    "c": 0.576,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B78",
+   "n": 78,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If 17²⁰⁰ is divided by 18, the remainder is:",
+   "opts": {
+    "a": "1",
+    "b": "2",
+    "c": "16",
+    "d": "17"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "17 is congruent to -1 modulo 18, so 17^200 is congruent to (-1)^200 = 1. The exponent is even, so the remainder is 1; an odd exponent would have left 17, which is exactly why option (d) is planted there.",
+   "topic": "number_system",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B79",
+   "n": 79,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The average monthly income of A and B is ₹15,050/-, the average monthly income of B and C is ₹15,350/-, and the average monthly income of A and C is ₹15,200/-. The monthly income of A is:",
+   "opts": {
+    "a": "₹15,900/-",
+    "b": "₹15,200/-",
+    "c": "₹15,500/-",
+    "d": "₹14,900/-"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The pair sums are A + B = 30,100, B + C = 30,700 and A + C = 30,400; adding all three gives 2(A + B + C) = 91,200, so A + B + C = 45,600. Then A = 45,600 - (B + C) = 45,600 - 30,700 = Rs 14,900 - you must subtract the pair that does NOT contain A. Option (b) is just one of the given averages, not A's income.",
+   "topic": "average",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.542
+   }
+  },
+  {
+   "id": "B80",
+   "n": 80,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The LCM and HCF of two numbers are 35 and 15 respectively. The product of these numbers is:",
+   "opts": {
+    "a": "625",
+    "b": "525",
+    "c": "425",
+    "d": "325"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "For any two numbers, product = LCM x HCF = 35 x 15 = 525. Be aware the data itself is impossible: the HCF must always divide the LCM, and 15 does not divide 35, so no such pair of numbers actually exists - but 525 is the only value the standard formula yields.",
+   "topic": "number_system",
+   "flag": "Invalid data as printed: HCF must divide LCM, but 15 does not divide 35, so no two integers have this LCM/HCF pair. The formula still gives 525 uniquely so the intended answer is unambiguous, but the question is mathematically unsound - worth verifying the figures against the source PDF.",
+   "_cov": {
+    "a": 0.013,
+    "b": 0.548,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B81",
+   "n": 81,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many times in a day the hands of a clock are straight?",
+   "opts": {
+    "a": "22",
+    "b": "24",
+    "c": "42",
+    "d": "44"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Straight\" covers both positions where the hands lie on one line: coinciding (0°) and opposite (180°). In 12 hours the hands coincide 11 times and are opposite 11 times, so 22 in 12 hours and 44 in a full day. The trap is 22, which counts only one of the two cases (or only a 12-hour span).",
+   "topic": "calendar_clock",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.598
+   }
+  },
+  {
+   "id": "B82",
+   "n": 82,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A company produces red, green and blue buckets in the ratio of 2:7:4. If a week’s production totals 7774 buckets, how many green buckets are produced?",
+   "opts": {
+    "a": "1110",
+    "b": "4186",
+    "c": "6663",
+    "d": "1196"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The ratio 2:7:4 has 2 + 7 + 4 = 13 parts, so one part = 7774 ÷ 13 = 598 and green = 7 × 598 = 4186. Option (a) 1110 is close to the red count and (c) 6663 is what you get by wrongly treating green as everything except red.",
+   "topic": "ratio_proportion",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.629,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B83",
+   "n": 83,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A bag contains 6 black and 8 white balls. One ball is drawn at random. What is the probability that the ball drawn is white?",
+   "opts": {
+    "a": "3/4",
+    "b": "4/7",
+    "c": "1/8",
+    "d": "9/52"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "There are 6 + 8 = 14 balls in all and 8 are white, so P(white) = 8/14 = 4/7. The tempting 3/4 comes from dividing by a wrong total; always divide by every ball in the bag, then reduce the fraction.",
+   "topic": "probability",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.736,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B84",
+   "n": 84,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A rectangular parking space is marked out by painting three of its sides. If the length of the unpainted side is 9 feet, and the sum of the lengths of the painted sides is 37 feet, then what is the area of the parking space in square feet?",
+   "opts": {
+    "a": "46",
+    "b": "81",
+    "c": "126",
+    "d": "252"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "One side is left unpainted, so the painted sides are the side opposite it plus both perpendicular sides: 9 + 2w = 37 gives w = 14, and area = 9 × 14 = 126 sq ft. Option (d) 252 is the classic slip of taking w = 28, i.e. forgetting there are two such sides.",
+   "topic": "mensuration",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.576,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B85",
+   "n": 85,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "What is the sum of all angles in any quadrilateral?",
+   "opts": {
+    "a": "180°",
+    "b": "270°",
+    "c": "360°",
+    "d": "540°"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "One diagonal splits any quadrilateral into two triangles, and each contributes 180°, so the interior angles total 2 × 180° = 360°. 180° is a triangle and 540° is a pentagon.",
+   "topic": "mensuration",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.776,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B86",
+   "n": 86,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which formula is used to find distance between two points?",
+   "opts": {
+    "a": "x + y",
+    "b": "√(x² + y²)",
+    "c": "√[(x₂ − x₁)² + (y₂ − y₁)²]",
+    "d": "x² + y²"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The distance formula is Pythagoras applied to the horizontal and vertical gaps between the two points: √[(x₂ − x₁)² + (y₂ − y₁)²]. Option (b) √(x² + y²) is only the special case of distance from the origin, where x₁ = y₁ = 0.",
+   "topic": "mensuration",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.776,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B87",
+   "n": 87,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If a line from the centre bisects a chord, then it is:",
+   "opts": {
+    "a": "Secant",
+    "b": "Tangent",
+    "c": "Equal to the chord",
+    "d": "Perpendicular to the chord"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Joining the centre to the midpoint of a chord makes two congruent triangles (two equal radii and a shared side), so the two angles at the chord are equal and each must be 90° — the line is perpendicular to the chord. \"Secant\" and \"tangent\" describe how a line meets the circle, not the angle it makes with a chord.",
+   "topic": "mensuration",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.015,
+    "c": 0.007,
+    "d": 0.373
+   }
+  },
+  {
+   "id": "B88",
+   "n": 88,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In an equilateral triangle:",
+   "opts": {
+    "a": "One angle is 90°",
+    "b": "Only two sides are equal",
+    "c": "Each angle is 60°",
+    "d": "All sides are unequal"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "An equilateral triangle has all three sides equal, so all three angles are equal, and 180° ÷ 3 = 60° each. \"Only two sides are equal\" describes an isosceles triangle, which is the standard distractor here.",
+   "topic": "mensuration",
+   "flag": "OCR artifact: option (d) reads \"All sides are unequal 50403020\". The trailing digits are bleed-through of the exponents 50/40/30/20 that belong to Q89's options and are not part of this option.",
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.582,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B89",
+   "n": 89,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The greatest number among 3⁵⁰, 4⁴⁰, 5³⁰, and 6²⁰ is:",
+   "opts": {
+    "a": "3⁵⁰",
+    "b": "6²⁰",
+    "c": "5³⁰",
+    "d": "4⁴⁰"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The printed options 350/620/530/440 are really the powers 3⁵⁰, 6²⁰, 5³⁰ and 4⁴⁰ (their exponent digits leaked into Q88's option (d) during extraction). Rewrite each as a tenth power — 3⁵⁰ = 243¹⁰, 4⁴⁰ = 256¹⁰, 5³⁰ = 125¹⁰, 6²⁰ = 36¹⁰ — and 256¹⁰ is the largest, so 4⁴⁰ wins. The trap is assuming the biggest base (6) or the biggest exponent (50) must win; you have to equalise one of them first.",
+   "topic": "number_system",
+   "flag": "Extraction damage: the stem should read \"the greatest number among 3⁵⁰, 4⁴⁰, 5³⁰ and 6²⁰\" and the options are powers, not plain integers. As currently stored (\"greatest among 3, 4, 5, and 6\" with options 350/620/530/440) the question is nonsense — restore the superscripts from the source PDF before publishing.",
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.605
+   }
+  },
+  {
+   "id": "B90",
+   "n": 90,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The following numbers form a series that follows a certain pattern. Find the odd one out. 53, 57, 66, 82, 110, 143, 192",
+   "opts": {
+    "a": "57",
+    "b": "82",
+    "c": "110",
+    "d": "143"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The series adds consecutive squares: 53 +2²=57, +3²=66, +4²=82, +5²=107, +6²=143, +7²=192. The fifth term should be 107, so 110 is the intruder — and note 143 and 192 both fit perfectly once 107 is used, confirming 110 is the single break.",
+   "topic": "number_series",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.633,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B91",
+   "n": 91,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A is taller than B but shorter than C. D is shorter than B but taller than E. F is taller than C. Who is the second tallest person?",
+   "opts": {
+    "a": "A",
+    "b": "C",
+    "c": "F",
+    "d": "B"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "C > A > B from the first clue, B > D > E from the second and F > C from the third, giving the full order F > C > A > B > D > E. F is tallest, so C is second tallest; A is only third.",
+   "topic": "ranking",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.602,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B92",
+   "n": 92,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Find the missing number: 3, 8, 15, 24, 35, ?",
+   "opts": {
+    "a": "46",
+    "b": "48",
+    "c": "50",
+    "d": "52"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Each term is one less than a perfect square: 2²−1 = 3, 3²−1 = 8, 4²−1 = 15, 5²−1 = 24, 6²−1 = 35, so the next is 7²−1 = 48. Equivalently the gaps grow 5, 7, 9, 11, 13, and 35 + 13 = 48; answering 46 assumes the gap stays at 11.",
+   "topic": "number_series",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.731,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B93",
+   "n": 93,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If $ means ‘divided by’; @ means ‘multiplied by’; # means ‘minus’, then the value of 39#4$2@3 is:",
+   "opts": {
+    "a": "27",
+    "b": "6",
+    "c": "22",
+    "d": "33"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Substituting the symbols gives 39 − 4 ÷ 2 × 3. BODMAS does division and multiplication first — 4 ÷ 2 = 2, then 2 × 3 = 6 — leaving 39 − 6 = 33. Working strictly left to right instead gives (39 − 4) ÷ 2 × 3 = 52.5, and answering 6 means stopping after the inner arithmetic.",
+   "topic": "coding_decoding",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.602
+   }
+  },
+  {
+   "id": "B94",
+   "n": 94,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If ‘-’ stands for addition, ‘+’ stands for division, ‘÷’ stands for multiplication, and ‘×’ stands for subtraction, which one of the following equations is correct?",
+   "opts": {
+    "a": "15÷5×8-2 = 69",
+    "b": "16+5-7÷9 = 40",
+    "c": "15÷6×8-2 = 33",
+    "d": "18+8÷4×11 = 19"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Swap every symbol first, then apply BODMAS. Option (a) becomes 15 × 5 − 8 + 2 = 75 − 8 + 2 = 69, which matches the stated result. The rest fail: (b) → 16 ÷ 5 + 7 × 9 = 66.2, (c) → 15 × 6 − 8 + 2 = 84, (d) → 18 ÷ 8 × 4 − 11 = −2.",
+   "topic": "coding_decoding",
+   "flag": null,
+   "_cov": {
+    "a": 0.707,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B95",
+   "n": 95,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following Venn Diagrams best indicates the relation among Rice, Glass and Food?",
+   "opts": {
+    "a": "Three circles of equal size in a vertical chain, each overlapping the next",
+    "b": "One large circle containing two separate small circles side by side",
+    "c": "One large circle containing a smaller circle, with a third circle wholly outside",
+    "d": "Three equal circles in a horizontal row, each touching the next"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "medium",
+   "why": "Rice is a kind of Food, so the Rice circle sits wholly inside the Food circle, while Glass is neither a food nor a rice and stays completely separate — exactly the arrangement in (c). Option (b) is wrong because it would make Glass a food too, and the overlapping chains in (a) and (d) would wrongly claim Rice and Glass share members.",
+   "topic": "venn_diagram",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.663,
+    "d": 0.017
+   },
+   "figure": "Four Venn diagrams labelled (a)-(d). The options are images in the source; the text here describes each arrangement."
+  },
+  {
+   "id": "B96",
+   "n": 96,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following sequence: E A D G U I H E U O F C A E H F C H E O B D C D I F How many vowels are followed by a vowel in the above sequence?",
+   "opts": {
+    "a": "5",
+    "b": "6",
+    "c": "7",
+    "d": "8"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Look for each vowel whose immediate right-hand neighbour is also a vowel: E-A, U-I, E-U, U-O, A-E and E-O — six of them. The common slip is counting both letters of a pair (e.g. the E and the A in E-A), which inflates the total.",
+   "topic": "alphabet_test",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.545,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B97",
+   "n": 97,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A and B are a married couple, A being the male member. D is the only son of C, who is the brother of A. E is the sister of D. B is the daughter-in-law of F. How is D related to B?",
+   "opts": {
+    "a": "Uncle",
+    "b": "Nephew",
+    "c": "Father",
+    "d": "Maternal Uncle"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "C is A's brother and D is C's son, so D is A's nephew; since B is A's wife, D is her nephew too. \"Uncle\" and \"maternal uncle\" reverse the direction of the relation, and the F clause only confirms that B married into A's family.",
+   "topic": "blood_relation",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.548,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B98",
+   "n": 98,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which one does not belong to the group?",
+   "opts": {
+    "a": "Triangle",
+    "b": "Square",
+    "c": "Circle",
+    "d": "Cylinder"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Triangle, square and circle are all two-dimensional plane figures, whereas a cylinder is a three-dimensional solid. Picking the circle because it alone has no straight sides is the trap — the grouping rule here is dimension, not curvature.",
+   "topic": "odd_one_out",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.542
+   }
+  },
+  {
+   "id": "B99",
+   "n": 99,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Select the figure that will come next in the following series,",
+   "opts": {
+    "a": "Hexagon with a filled dot at upper left and a short double line on the lower right edge",
+    "b": "Hexagon with a filled dot at lower left and a short double line on the upper right edge",
+    "c": "Hexagon with a small hollow circle at upper left and a double line on the upper right edge",
+    "d": "Hexagon with a filled dot at upper left and a double line on the upper right edge"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "low",
+   "why": "This is a figure-series question in which a dot and a short double line rotate around a hexagon from box to box, but the four series boxes are images the extraction never captured, so the rotation rule cannot be worked out from the stored text. The answer given follows the option highlighted in the source PDF and is unverified.",
+   "topic": "figure_series",
+   "flag": "Missing figure: the four-box series and the option figures are images absent from the extracted text, so the question is unanswerable as stored. Answer follows the PDF highlight only — needs the original figure before it is trusted.",
+   "_cov": {
+    "a": 0.013,
+    "b": 0.026,
+    "c": 0.011,
+    "d": 0.558
+   },
+   "figure": "A four-box series of hexagons, each carrying a dot (filled or hollow) and a short line whose positions rotate between boxes; four hexagon options follow. Both series and options are images in the source."
+  },
+  {
+   "id": "B100",
+   "n": 100,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Two positions of a dice are shown below (i) and (ii). When 1 is at the top, which number will be at the bottom?",
+   "opts": {
+    "a": "2",
+    "b": "3",
+    "c": "5",
+    "d": "cannot be determined"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "low",
+   "why": "A two-view dice question is solved by finding the face common to both views, rotating about it to fix the rest, then reading off the face opposite 1 — but views (i) and (ii) are images the extraction did not capture, so no face values are available. The answer given follows the option highlighted in the source PDF and is unverified.",
+   "topic": "dice",
+   "flag": "Missing figure: dice positions (i) and (ii) are absent from the extracted text, making the question unanswerable as stored. Option (d) also carries OCR noise (\"cannot be determined * * * * * * *\"). Answer follows the PDF highlight only.",
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.776,
+    "d": 0.015
+   },
+   "figure": "Two dice positions, shown as images in the source PDF, are referred to as (i) and (ii). The face arrangement is not recoverable from the text layer."
+  }
+ ],
+ "descriptive": []
+}

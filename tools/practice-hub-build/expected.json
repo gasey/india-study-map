@@ -1,0 +1,52 @@
+{
+  "jao-2026-p1": {
+    "expectedQuestions": 65,
+    "expectedDescriptive": 6,
+    "note": "60 Part-B MCQs + 5 Part-A comprehension MCQs (A4-A8). Descriptive: essay, precis, letter, Q9, Q10, plus the Part-A passage entry."
+  },
+  "jao-2026-p2": {
+    "expectedQuestions": 100,
+    "expectedDescriptive": 0,
+    "note": "100 MCQs, 2 marks each. No conventional section."
+  },
+  "co-2026-p1": {
+    "expectedQuestions": 62,
+    "expectedDescriptive": 8,
+    "note": "60 Part-B MCQs + the two vocabulary MCQs inside Part-A Q4 (A4e 'curated', A4f 'inherently'). Descriptive: essay, precis, letter, Q4a-d, plus the Part-A passage entry."
+  },
+  "co-2026-p2": {
+    "expectedQuestions": 100,
+    "expectedDescriptive": 0,
+    "note": "100 MCQs, 2 marks each. No conventional section."
+  },
+  "leso-2026-p1": {
+    "expectedQuestions": 66,
+    "expectedDescriptive": 9,
+    "note": "Part B only: 66 MCQs, 1 mark each (66 of the 100 marks). Part A is 34 marks of conventional work and is staged as descriptive. Q15 carries no highlight in the source - verified against a render, not a detection miss."
+  },
+  "leso-2026-p2": {
+    "expectedQuestions": 100,
+    "expectedDescriptive": 0,
+    "note": "100 MCQs, 1 mark each. No conventional section. Booklet states no negative marking."
+  },
+  "si-stats-2026-p1": {
+    "expectedQuestions": 50,
+    "expectedDescriptive": 8,
+    "note": "Section B only: 50 MCQs at 2 marks each = 100 of the 150 marks. Section A is 50 marks conventional. Section A Q2 prints written sub-parts (a)-(e) that look exactly like MCQ options - it is comprehension, not an MCQ."
+  },
+  "si-stats-2026-p2": {
+    "expectedQuestions": 100,
+    "expectedDescriptive": 0,
+    "note": "Group A General Mathematics 50 + Group B General Knowledge 50, 1 mark each. Five questions set fractions/exponents that the text layer cannot represent; transcribed from a render via visual-fixes.json."
+  },
+  "ri-2026-p1": {
+    "expectedQuestions": 60,
+    "expectedDescriptive": 9,
+    "note": "Part B only: 60 MCQs, 1 mark each (60 of the 100 marks). Part A is 40 marks conventional. Negative marking 1/3 per the booklet."
+  },
+  "ri-2026-p2": {
+    "expectedQuestions": 100,
+    "expectedDescriptive": 0,
+    "note": "100 MCQs, 2 marks each. Negative marking 1/3. Q95 and Q99 have image-only options (Venn diagrams, figure series) described in prose via visual-fixes.json."
+  }
+}

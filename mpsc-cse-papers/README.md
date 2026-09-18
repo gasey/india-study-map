@@ -50,9 +50,24 @@ never covered Paper III. Two are now in:
 |---|---|---|---|
 | ILM, Nov 2023 | 100 MCQ (2 mk each) | **none** | **imported** — 36 on-syllabus |
 | ILM, Dec 2018 | 100 MCQ (2 mk each) | **none** | **imported** — 36 on-syllabus |
-| MES P&E, Aug 2018 | 50 MCQ (100 mk) | 20 × 5 mk | pending |
-| MES P&E Electrical, Jul 2023 | 50 MCQ (100 mk) | 20 × 5 mk | pending |
-| MES, Nov 2015 | 50 MCQ (100 mk) | 20 × 5 mk | pending |
+| MES P&E, Aug 2018 | 50 MCQ (100 mk) | 20 × 5 mk | **imported** — 20 of 50 on-syllabus (Section A only) |
+| MES P&E Electrical, Jul 2023 | 50 MCQ (100 mk) | 20 × 5 mk | **extracted + classified 2026-09-05**, 26 on-syllabus, not yet solved or merged |
+| MES, Nov 2015 | 50 MCQ (100 mk) | 20 × 5 mk | Part A done; **Part B never extracted** (see below) |
+
+⚠️ **Two corrections made 2026-09-05.** This table read "pending / 0" for MES P&E
+Aug 2018 Paper III long after it was imported (`staged/pe2018-p3-import.json`,
+live as `PE2018_P3_*`) — a stale row here is how a paper gets mined twice or
+skipped forever, so check `staged/` before trusting a "pending".
+
+And **MES Nov 2015's Part B was silently never extracted** — both Paper II and
+Paper III print `Part B - Short Answer Questions (100 Marks)` with 20 questions
+each, and `cse-2015-import/staged/descriptive.json` contains **zero** MES2015
+records (all 100 are MES2023/MES2018). This is the Part-A/B-vs-SECTION trap named
+below, but it was only ever avoided for the *MCQ* split: the descriptive pass
+grepped for `SECTION`, matched nothing, and that read as "this paper has no
+Section B" instead of as a failed match. 40 questions / 200 marks still missing.
+Part A itself is fine — all 50 parsed; the 40 in the parked file are 50 minus
+legitimate dedup.
 
 **Only three of the five have a Section B, not five.** An earlier version of
 this file said "roughly 350 MCQs plus five Section B sets"; that was written

@@ -1,0 +1,422 @@
+{
+ "B1": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The bolded word is \"country\" — a general name for any one of a class of things, so a common noun. \"Proper Noun\" is the trap: \"India\" in the same sentence is a proper noun, but it is not the bolded word.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B10": {
+  "answer": "c",
+  "conf": "high",
+  "why": "\"but\" joins two independent clauses in contrast, which is the work of a coordinating conjunction. It is not an adverb: remove it and you are left with two complete sentences that needed a link, not a modified verb.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B11": {
+  "answer": "a",
+  "conf": "high",
+  "why": "\"brilliant\" sits before the noun \"student\" and describes it, so it is an adjective. A describing word is an adverb only when it modifies a verb, adjective or another adverb — here it modifies a noun.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B12": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The bolded word is \"book\", the subject of the sentence and the name of a thing, so a noun. \"on\" in the same sentence is a preposition, but preposition is not even offered and \"on\" is not the bolded word.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B13": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"after\" is followed by the noun \"lunch\", and a word governing a noun to show its relation to the rest of the sentence is a preposition. \"after\" can be a conjunction, but only when a full clause follows it (\"after they had eaten\") — here there is no verb after it.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B14": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"and\" links the two nouns \"tea\" and \"coffee\", so it is a conjunction. It is not a noun itself — the nouns are the two things being joined, and \"and\" only does the joining.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B15": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"very\" modifies the adjective \"intelligent\", and a word that modifies an adjective is an adverb. Students often call it an adjective because it stands next to one, but the test is what a word modifies, not what it stands beside.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B16": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The bolded word is \"sit\", the action word and the imperative verb of the sentence. \"Adverb\" is the trap here: \"here\" is indeed an adverb of place, but it is not the word in bold.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B17": {
+  "answer": "c",
+  "conf": "high",
+  "why": "\"two\" tells you how many books, so it modifies the noun and is an adjective (specifically an adjective of number). Every other option describes a different word in the sentence — \"I\" the pronoun, \"have\" the verb, \"books\" the noun — so identify the bolded word first.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B18": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"Oh!\" expresses sudden feeling and is grammatically detached from the rest of the sentence, which makes it an interjection. The exclamation mark standing immediately after it is the giveaway: it belongs to no clause.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B19": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The bolded word is \"old\", which describes the noun \"man\", so it is an adjective. \"Adverb\" is the tempting wrong answer because \"slowly\" later in the sentence is an adverb of manner — but the question asks about \"old\".",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B2": {
+  "answer": "c",
+  "conf": "high",
+  "why": "\"Honesty\" names a quality you cannot see or touch, which is the definition of an abstract noun. \"Common Noun\" tempts because honesty is not the name of a particular person or place, but common nouns denote countable physical things (policy, book, man), not qualities.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B20": {
+  "answer": "a",
+  "conf": "high",
+  "why": "\"above\" governs the noun \"the trees\" and shows the birds' position in relation to them, so it is a preposition. It would be an adverb only if no noun followed it, as in \"the birds are flying above\".",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B21": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Courteous means well-mannered and respectful towards others, i.e. polite. 'Regal' (kingly) and 'official' tempt because courtesy is associated with courts and formality, but they describe status or office, not manners.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B22": {
+  "answer": "a",
+  "conf": "high",
+  "why": "To despise is to regard with contempt, which is exactly what disdain means. 'Disagree' is far too weak — you can disagree with someone you like — and 'respect' is the antonym.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B23": {
+  "answer": "b",
+  "conf": "high",
+  "why": "A foe is an enemy or adversary; the word survives mainly in the pairing 'friend or foe'. 'Duo' is a lookalike trap chosen on spelling rather than meaning — it means a pair.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B24": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Meticulous means showing great attention to detail, i.e. very careful. 'Strict' is the near-miss: strictness is about enforcing rules on others, whereas meticulousness is about the thoroughness of one's own work. 'Careless' is the direct opposite.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B25": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Agony is intense physical or mental suffering, so pain is the synonym. 'Desire' may be pulled in by phrases like 'agony of longing', but desire by itself carries no suffering.",
+  "topic": "vocabulary_synonym",
+  "flag": null
+ },
+ "B26": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Stationary, with an 'a', means not moving — fixed in place. The trap is its homophone 'stationery' with an 'e', which means writing materials; remember 'e' for envelope.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B27": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Dewy-eyed describes someone naive and innocently trusting, hence lacking experience or informed judgement. 'Seasoned' is its exact opposite (experienced), and a sceptical person has judgement and is exercising it doubtfully.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B28": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Notorious means famous specifically for something bad, unlike plain 'famous', which is neutral. 'Incredible' only means hard to believe and carries no negative moral charge.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B29": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Conspicuous means standing out so as to be clearly visible, and therefore likely to attract attention. 'Sombre' (dark, gloomy) is the opposite in effect, and 'ostracize' and 'mortify' are verbs, not descriptions of appearance.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B3": {
+  "answer": "a",
+  "conf": "high",
+  "why": "\"beautiful\" tells you what kind of state Mizoram is, so it is an adjective of quality. Adjectives of quantity (much, some) answer \"how much\" and adjectives of number (two, many) answer \"how many\" — neither applies here.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B30": {
+  "answer": "b",
+  "conf": "high",
+  "why": "To denigrate is to disparage — to criticise unfairly and so express a scornfully low opinion. 'Proclaim' is simply to announce publicly with no scorn implied, and 'tumultuous' and 'ferocious' are adjectives about noise and violence.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B31": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Articulate means able to speak fluently and clearly. 'Verbatim' is the tempting speech-related option, but it means word-for-word repetition and says nothing about fluency.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B32": {
+  "answer": "a",
+  "conf": "high",
+  "why": "An epitaph is the inscription carved on a tombstone. Distinguish it from an 'elegy' (a mournful poem for the dead) and a 'eulogy' (a speech of praise, usually at a funeral) — only the epitaph is physically on the tomb.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B33": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Heresy is a belief or opinion contrary to established or orthodox doctrine, especially religious doctrine. 'Controversy' merely means a public dispute and does not require any accepted doctrine to be contradicted; 'convention' is the accepted practice itself.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B34": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Conscientious means guided by conscience and a sense of duty, doing one's work carefully and thoroughly. The trap is the near-identical 'conscious', which only means awake or aware — one letter changes the meaning entirely.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B35": {
+  "answer": "b",
+  "conf": "high",
+  "why": "An affidavit is precisely a written statement confirmed by oath before a magistrate or other authorised officer. A 'dossier' is only a collection of documents about a person and involves no oath, so it lacks the defining legal element.",
+  "topic": "one_word_substitution",
+  "flag": null
+ },
+ "B36": {
+  "answer": "d",
+  "conf": "high",
+  "why": "When the reporting verb is present tense ('says'), there is no backshift, so 'is' stays 'is'. Option (a) wrongly backshifts to 'was' despite the present reporting verb, and (b) silently changes 'says' to 'said', which the question never licensed.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B37": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The reporting verb 'said' is past, so the present continuous 'are crying' backshifts to the past continuous 'were crying'. Option (d) leaves the tense unchanged, breaking the sequence-of-tenses rule.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B38": {
+  "answer": "b",
+  "conf": "high",
+  "why": "After a past reporting verb, 'will' backshifts to 'would', giving 'would play'. Option (c) does not backshift at all, and (d) over-shifts to 'would have played', which wrongly implies the action never happened.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B39": {
+  "answer": "a",
+  "conf": "high",
+  "why": "'Said' is past, so 'I will cook' becomes 'she would cook' — the first-person pronoun shifts to third person and 'will' backshifts to 'would'. Option (d) is wrong because the backshifted form of 'will' is 'would', not 'shall'.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B4": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"such\" points out which sort of coward is meant, and is grouped with this, that, these, those and same as a demonstrative adjective. It is not an adjective of quality because it names no quality of its own — it only refers back to one already understood.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B40": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Two changes are required: 'do not like' backshifts to 'did not like' after the past reporting verb, and 'your' becomes 'my' because the listener is now the reporter. Option (a) makes the pronoun change but forgets the backshift.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B41": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The reporting verb 'said' is past, so the present continuous 'am going' backshifts to 'was going' and 'tomorrow' becomes 'the next day'. (b) leaves 'will go' un-backshifted, and (c)/(d) keep the first-person 'I', which must become 'she' once someone else is reporting.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B42": {
+  "answer": "b",
+  "conf": "high",
+  "why": "A reported question takes statement word order and drops the auxiliary 'do', while 'live' backshifts to 'lived' after the past 'asked'. (c) keeps the interrogative order 'do you live', and (a) forgets the backshift.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B43": {
+  "answer": "c",
+  "conf": "high",
+  "why": "'Please' marks a polite request, which is reported as 'requested' + object + to-infinitive, keeping the full action 'sit down'. (a) carries the word 'please' into indirect speech, which never happens, and (b) downgrades it to a neutral 'asked' and drops 'down'.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B44": {
+  "answer": "c",
+  "conf": "high",
+  "why": "After the past reporting verb 'said', 'we' becomes 'they', 'will' becomes 'would', and 'tomorrow' becomes 'the next day'. (d) is the classic trap: it changes the pronoun and the time word but leaves 'will' unshifted.",
+  "topic": "narration",
+  "flag": null
+ },
+ "B45": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "A 'please' imperative is reported with 'requested' plus a to-infinitive, and (a) is the only option built that way: (b) just repeats the imperative, (c) strands the word 'please', and (d) is not reported speech at all. Be aware that (a) is clipped — full English would name the listener, 'She requested them to close the door'.",
+  "topic": "narration",
+  "flag": "Printed English of the intended answer (a) is defective: 'requested' is left without an object. The choice is still unambiguous, since no other option uses a reporting verb at all."
+ },
+ "B46": {
+  "answer": "b",
+  "conf": "high",
+  "why": "'was' + present participle 'singing' is the Past Continuous, an action in progress at some past moment. Past Indefinite would be plain 'sang', and Present Continuous would need 'is singing'.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B47": {
+  "answer": "c",
+  "conf": "high",
+  "why": "'has been' + '-ing' is the Present Perfect Continuous — an action begun earlier and still running, which 'all year round' confirms. Present Perfect would be 'has attended'; it is the 'been ...-ing' that makes it continuous.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B48": {
+  "answer": "c",
+  "conf": "high",
+  "why": "'shall have been' + '-ing' is the Future Perfect Continuous, an action that will have been going on up to a future point. Future Continuous would be only 'shall be waiting' — the added 'have been' pushes it into the perfect continuous.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B49": {
+  "answer": "b",
+  "conf": "high",
+  "why": "A bare past form ('went') with no auxiliary is the Past Indefinite, or simple past — a completed action. Past Perfect would require 'had gone' and Past Continuous 'was going'.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B5": {
+  "answer": "a",
+  "conf": "high",
+  "why": "\"he\" stands for the third person, Sanga, so it is a personal pronoun. A relative pronoun (who, which, that) would have to join a clause to a noun before it; \"because\" is doing that joining job here, not \"he\".",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B50": {
+  "answer": "a",
+  "conf": "high",
+  "why": "'will have' + past participle is the Future Perfect: something expected to be complete by a future time. Do not let the word 'had' mislead you — here it is the past participle of 'have', and 'will' fixes the sentence firmly in the future.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B51": {
+  "answer": "c",
+  "conf": "high",
+  "why": "An imaginary or contrary-to-fact condition takes the subjunctive 'were' for every subject, and the 'would travel' in the main clause confirms the condition is unreal. 'was' is the trap: normal past tense, but not the subjunctive form formal grammar requires here.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B52": {
+  "answer": "b",
+  "conf": "medium",
+  "why": "The sentence itself treats the committee as a single body — it says 'in its opinion' — so the verb must be singular: 'The Committee is divided in its opinion'. The textbook version that takes a plural verb reads 'The Committee are divided in their opinions', and that plural pronoun is not what is printed here; let the pronoun already on the page decide the number.",
+  "topic": "subject_verb_agreement",
+  "flag": null
+ },
+ "B53": {
+  "answer": "b",
+  "conf": "high",
+  "why": "In 'one of those writers who...', the relative pronoun 'who' refers back to the plural 'writers', not to 'one', so the verb is plural: 'have always inspired me'. Matching the verb to 'one' and choosing 'has' is the standard trap.",
+  "topic": "subject_verb_agreement",
+  "flag": null
+ },
+ "B54": {
+  "answer": "d",
+  "conf": "high",
+  "why": "'Each' is always singular and the phrase 'of the players' does not change the subject, so the verb is 'has performed'; the plural noun sitting right before the blank is the bait for 'have' and 'are'. 'had performed' is past perfect and would need an earlier past event to be measured against, which this stand-alone sentence never supplies.",
+  "topic": "subject_verb_agreement",
+  "flag": null
+ },
+ "B55": {
+  "answer": "b",
+  "conf": "high",
+  "why": "'than' demands a comparative, and 'far' is the usual intensifier for one: 'far more interesting than I expected'. 'very', 'too' and 'quite' modify the positive degree and cannot take a 'than' clause.",
+  "topic": "degrees_of_comparison",
+  "flag": null
+ },
+ "B56": {
+  "answer": "b",
+  "conf": "high",
+  "why": "If even experts found the arguments hard to follow, the arguments were 'obscure' — unclear. 'lucid', 'coherent' and 'rational' all mean clear or well reasoned and so contradict the 'so ... that' result clause.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B57": {
+  "answer": "a",
+  "conf": "high",
+  "why": "'Evocative' means calling up strong images or feelings, which sits naturally alongside 'vivid imagery' as praise for a style. 'bland', 'dull' and 'rigid' are negative and clash with the admiring 'known for'.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B58": {
+  "answer": "d",
+  "conf": "high",
+  "why": "'Mitigate' means to lessen the severity of something, the only option consistent with a system built to act on errors before they occur. 'amplify' and 'escalate' would make errors worse, and no system is deliberately designed to 'ignore' them.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B59": {
+  "answer": "c",
+  "conf": "high",
+  "why": "'Proactive' means acting in advance rather than merely reacting, which the clause 'addressing them immediately' spells out. 'indifferent', 'dismissive' and 'passive' all describe a manager who fails to act, contradicting the rest of the sentence.",
+  "topic": "word_usage",
+  "flag": null
+ },
+ "B6": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"myself\" is the object of \"hurt\" and turns the action back on the subject \"I\", which makes it reflexive. It would be emphatic only if it merely stressed a noun without being needed as an object, as in \"I myself saw it\".",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B60": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Results that 'required further verification' cannot have settled the matter, so they were 'inconclusive'. 'reliable', 'definite' and 'conclusive' all mean the findings were already firm, which would remove any need for more checking.",
+  "topic": "word_usage",
+  "flag": "Extraction artifact: option (d) reads 'inconclusive * * * * * * *'. The asterisks are the end-of-paper decoration bleeding into the last option, not part of the word — strip them. The answer is unaffected."
+ },
+ "B7": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"those\" stands in place of the noun \"oranges\" to avoid repeating it, so it is a demonstrative pronoun. Had a noun followed it (\"those oranges\") it would instead be a demonstrative adjective; here it stands alone, so it is a pronoun.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B8": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"daily\" answers \"when / how often\" the milk is delivered, which places it with adverbs of time. Adverbs of manner answer \"how\" (slowly, neatly) — \"daily\" says nothing about the way the delivery is done.",
+  "topic": "parts_of_speech",
+  "flag": null
+ },
+ "B9": {
+  "answer": "d",
+  "conf": "high",
+  "why": "\"fully\" tells you to what extent they are prepared, so it is an adverb of degree. It looks like a manner adverb because of the -ly ending, but manner adverbs answer \"how the action was done\", and here \"fully\" is measuring the adjective \"prepared\".",
+  "topic": "parts_of_speech",
+  "flag": null
+ }
+}

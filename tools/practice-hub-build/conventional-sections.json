@@ -1,0 +1,129 @@
+{
+ "_README": [
+  "Authoring spec for the written (conventional) sections of the three Paper I",
+  "booklets: LESO General English Part A (34 marks), SI Statistics Paper I",
+  "Section A (50 marks), RI Paper I Part A (40 marks).",
+  "",
+  "Long passage bodies are NOT retyped here. `from` pulls them out of the text",
+  "extract.py already recovered, sliced between `after` and `before` markers, so",
+  "the wording in the app is the wording the extractor read off the PDF rather",
+  "than something a human re-keyed. Only the prompts and the model-answer",
+  "`guidance` are authored.",
+  "",
+  "These items cannot be drilled as MCQs, so `guidance` is the only thing",
+  "carrying them -- it is what the student actually studies from."
+ ],
+
+ "leso-2026-p1": [
+  {
+   "id": "A1", "kind": "precis", "marks": 14,
+   "prompt": "Write a précis of the following passage.",
+   "from": {"n": 1, "after": "passage :(14)"},
+   "guidance": "Target roughly one-third of the original (about 120-130 words) and give it a title. The passage has four causes and one remedy: educational/skills disparity, a polarised labour market (worsened by gender, race and ethnicity), concentration of wealth that compounds itself, and — as the answer to all three — progressive taxation, investment in education and social safety nets. A précis must be in your own words and in reported, impersonal third person; do not quote, do not add examples of your own, and do not keep the conclusion's rhetorical framing. Marks are lost most often for copying whole sentences and for exceeding the length."
+  },
+  {
+   "id": "A2", "kind": "letter", "marks": 10,
+   "prompt": "To maintain 'work-life' balance, there is a surge of people coming on short and budgeted vacations. Seizing this opportunity more people are offering the 'home stay' option. Write a letter to the editor of your local newspaper sharing your views on this trend.",
+   "guidance": "This is a letter to the editor, so use the formal layout: sender's address, date, 'The Editor' with the paper's name and address, subject line, 'Sir/Madam', body, 'Yours faithfully'. Three body paragraphs work well — why the trend has arisen (work-life balance, budget travel), what it offers (local income, authentic experience, cheaper stays), and a balanced reservation (regulation, safety, quality, pressure on neighbourhoods) closing with a concrete suggestion such as registration or minimum standards. A letter to the editor argues a view for a public audience; do not write it as a personal letter to a friend, and keep it inside one page."
+  },
+  {
+   "id": "partA-passage", "kind": "passage", "marks": 10,
+   "prompt": "Read the passage and answer the questions that follow.",
+   "from": {"n": 3, "after": "questions that follow :", "before": "(i)How can"},
+   "guidance": "A comprehension passage on raising employee earnings through labour productivity and motivation. Answer only from the passage — do not import outside theory."
+  },
+  {"id": "A3i", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "How can organizations derive maximum advantages?",
+   "guidance": "By increasing labour productivity through enhanced skills and motivation. The passage calls this 'an almost unlimited resource', in contrast to raising prices, cutting profits or using cheaper materials — each of which damages the firm's competitive strength."},
+  {"id": "A3ii", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "State two things that contribute to an increase in employee earnings according to the passage.",
+   "guidance": "Any two of: raising the selling price of the firm's products and services; reducing profits; reducing the cost of raw materials; augmenting labour productivity. The question asks only to state them, so a list is enough — do not evaluate them."},
+  {"id": "A3iii", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "How do employees feel motivated to work?",
+   "guidance": "Per the expectancy theorists cited, motivation rises when an employee feels their performance is an instrument for obtaining desired rewards — i.e. when reward is tied to performance rather than granted merely for being employed."},
+  {"id": "A3iv", "kind": "comprehension_written", "marks": 1, "passageRef": "partA-passage",
+   "prompt": "Pick out the word from the passage which means stimulate or influence.",
+   "guidance": "'Induce' (from 'alternative form of incentives which will induce employees to improve work performance'). One word only — the instruction is to pick it out of the passage, so do not offer a synonym of your own."},
+  {"id": "A3v", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "What factor determines the quality of human efforts?",
+   "guidance": "Human motivation. The passage states that the development of economic resources is the product of human effort, and that the quality of that effort depends in large part on human motivation."},
+  {"id": "A3vi", "kind": "comprehension_written", "marks": 1, "passageRef": "partA-passage",
+   "prompt": "In the context of the passage, a company's competitive strength in the market is affected mainly because of _________.",
+   "guidance": "Increasing employee earnings by any means other than increased labour productivity — since higher prices mean fewer customers, reduced profit means less capital investment, and low-cost materials mean poor product quality."}
+ ],
+
+ "si-stats-2026-p1": [
+  {
+   "id": "A1", "kind": "essay", "marks": 20,
+   "prompt": "Write an essay on any one of the following topics:\n(i) Creating a prosperous, just and harmonious India.\n(ii) Instilling ethical values in youth: Forging virtuous citizens through moral education.\n(iii) Investment in knowledge pays the best interest.",
+   "guidance": "20 marks and three hours' paper time means a planned essay of roughly 800-1000 words, not a brain-dump. Spend five minutes on a skeleton: introduction stating your line of argument, three or four body paragraphs each with one idea and a concrete Indian example (a scheme, a constitutional provision, a datum), and a conclusion that answers the question rather than restating it. Topic (iii) is a Benjamin Franklin quotation — read it as being about education and human capital, and it rewards examples such as the demographic dividend, NEP 2020 or skilling missions. Examiners reward structure and specificity; generalities about 'our great nation' score poorly."
+  },
+  {
+   "id": "partA-passage", "kind": "passage", "marks": 10,
+   "prompt": "Read the following passage and answer the questions that follow.",
+   "from": {"n": 2, "after": "questions that follow:"},
+   "guidance": "A comprehension passage on the short- and long-term benefits of regular exercise. Answer from the passage only."
+  },
+  {"id": "A2a", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "What induces a longer life expectancy and in what way?",
+   "guidance": "Regular exercise. It reduces stress and anxiety and lowers the risk of chronic diseases, which the passage links to a higher quality of life and a longer life expectancy. The question has two halves — name the cause and state the mechanism — so answer both."},
+  {"id": "A2b", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "How does exercise change an individual's emotional state at a particular time?",
+   "guidance": "This asks about the short term. Exercise releases endorphins, which lift mood and act as a natural stress reliever; it also improves sleep quality and raises energy levels. Do not answer with the long-term cardiovascular benefits — those belong to a different question."},
+  {"id": "A2c", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "What are the longer-term benefits of regular exercise for the human heart?",
+   "guidance": "Exercise strengthens the cardiovascular system, lowers blood pressure and improves blood circulation, which together reduce the risk of heart disease and stroke (and, the passage adds, type 2 diabetes and certain cancers)."},
+  {"id": "A2d", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "According to this passage, how is a more resilient body achieved?",
+   "guidance": "Through consistent exercise over the long term — activities such as weightlifting and running strengthen bones and muscles, which can prevent osteoporosis and reduce the risk of falls later in life."},
+  {"id": "A2e", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "Find the synonym of the words given below from the passage. (1+1=2)\n(i) Essential\n(ii) Memory loss",
+   "guidance": "(i) 'Crucial' — the passage calls exercise 'a crucial tool for reducing stress'. (ii) 'Dementia' — 'can even lower the risk of developing dementia'. The instruction is to find the word in the passage, so give the passage's word, not a dictionary synonym of your own."},
+  {
+   "id": "A3", "kind": "precis", "marks": 20,
+   "prompt": "Write a precis of the passage given below.",
+   "from": {"n": 3, "after": "given below:(20)"},
+   "guidance": "Reduce to about one-third and give it a title. The passage is deliberately two-sided: the benefits of social media (instant communication across distance, communities of shared interest, mobilisation for social and political causes, creative expression, business promotion, faster news) set against the harms. A précis that reports only one side loses marks even if it is well written. Keep it impersonal and in your own words; resist quoting the platform names as a substitute for summarising the argument."
+  }
+ ],
+
+ "ri-2026-p1": [
+  {
+   "id": "A1", "kind": "essay", "marks": 10,
+   "prompt": "Write an essay choosing one of the topics below:\n(a) Research and Documentation in Culture\n(b) Smart Cities and Environmental Sustainability\n(c) Measures to preserve and promote Mizo cultural practices in this day and age",
+   "guidance": "Only 10 marks here, so aim for roughly 400-500 words and a tight structure — this is not the place for a 1000-word essay. The post is Research Investigator under the Art & Culture Department, so (a) and (c) play to the job: for (c), name real instruments — documentation of folk songs and oral history, Chapchar Kut and other festivals, the role of the Mizo language in schools, handloom and handicraft promotion, archives and museums, and the tension between preservation and living practice. Concrete Mizoram-specific detail is what separates a good answer from a generic one."
+  },
+  {
+   "id": "A2", "kind": "precis", "marks": 10,
+   "prompt": "Write a precis of the following passage by reducing it to one third of its length.",
+   "from": {"n": 2, "after": "one third of its length.(10)"},
+   "guidance": "The length instruction is explicit — one third — so count roughly and stay near it. The passage is a chain of analogies (trees, sandalwood, sugar cane, gold) all making one point: a good person exists for the benefit of others, and a life lived only for itself is worthless. A strong précis states that thesis once and compresses the analogies rather than listing all four; a weak one reproduces each image in turn and runs over length."
+  },
+  {
+   "id": "A3", "kind": "letter", "marks": 10,
+   "prompt": "Write a letter to the Station Master complaining about the unclean condition of platforms at your local railway station. Suggest measures to improve cleanliness. Sign as ABC.",
+   "guidance": "A formal complaint letter: sender's address, date, 'The Station Master' with the station's address, subject line, 'Sir/Madam', body, 'Yours faithfully, ABC'. The question asks for two things and marks both — describe the problem specifically (overflowing bins, waste on the tracks, unclean toilets, stray litter after trains depart) and then suggest remedies (more bins and more frequent clearing, regular sanitation staff and supervision, penalties for littering, awareness signage). Sign exactly as ABC; using your own name is a standard way to lose marks."
+  },
+  {
+   "id": "partA-passage", "kind": "passage", "marks": 10,
+   "prompt": "Direction (Question Nos. 4-8): Read the following passage and answer the questions based on the given passage.",
+   "from": {"kind": "passage", "after": "given passage:"},
+   "guidance": "A comprehension passage on the effects of rapid technological advancement. Answer strictly from the passage."
+  },
+  {"id": "A4", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "What are the two main benefits of technology mentioned in the passage?",
+   "guidance": "Increased efficiency and global connectivity. The question says two and the passage names exactly those two — do not pad the answer with benefits the passage does not mention."},
+  {"id": "A5", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "What does the passage suggest about automation and employment?",
+   "guidance": "That the effect is a shift rather than simple loss: many experts argue certain jobs will become obsolete while new opportunities emerge requiring different skill sets, which is why adaptability and continuous learning matter."},
+  {"id": "A6", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "What balance does the author suggest individuals should maintain?",
+   "guidance": "A balance between digital and real-world interactions — promoting responsible usage so society can harness technology's benefits while minimising its drawbacks."},
+  {"id": "A7", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "What is meant by 'continuous learning' in the context of the passage?",
+   "guidance": "Continually acquiring new and different skill sets so as to stay employable as automation and AI make some jobs obsolete and create others. Answer it in the passage's context of the changing workforce, not as a general definition of lifelong learning."},
+  {"id": "A8", "kind": "comprehension_written", "marks": 2, "passageRef": "partA-passage",
+   "prompt": "Why has the risk of data misuse increased in recent years?",
+   "guidance": "Because individuals share more personal information online, which has increased the risk of data breaches and misuse — putting governments and organisations under pressure to impose stricter regulation and improve cybersecurity."}
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "TECH1": {
+  "1": {
+   "title": "Discrete Mathematics",
+   "marks": 40,
+   "subtopics": [
+    "Sets, mappings and relations",
+    "Posets, lattices and mathematical induction",
+    "Propositional logic and logical equivalence",
+    "Permutation, combination, generating functions and recurrences",
+    "Graph theory, trees and graph algorithms",
+    "Finite automata and formal grammars",
+    "Fuzzy sets"
+   ]
+  },
+  "2": {
+   "title": "Computer Architecture and Organization",
+   "marks": 40,
+   "subtopics": [
+    "Computer organization, registers and instruction cycle",
+    "Control unit, machine language and assembly language",
+    "Number representation and computer arithmetic",
+    "Instruction formats, addressing modes and RISC",
+    "Input/output organization and peripherals",
+    "Memory hierarchy, virtual memory and cache",
+    "Pipelining, vector and parallel processing"
+   ]
+  },
+  "3": {
+   "title": "Data Structures and Algorithms",
+   "marks": 60,
+   "subtopics": [
+    "Arrays, strings and linear lists",
+    "Algorithm development and complexity",
+    "Recursion, searching and sorting",
+    "Stacks, queues and expression evaluation",
+    "Graphs, disjoint sets and greedy algorithms",
+    "Trees, AVL trees, heaps, B-trees and external search"
+   ]
+  },
+  "4": {
+   "title": "Operating System",
+   "marks": 60,
+   "subtopics": [
+    "OS concepts, structure and services",
+    "Processes, concurrency and synchronization",
+    "CPU and multiprocessor scheduling",
+    "Deadlocks",
+    "Memory management and virtual memory",
+    "I/O management and disk scheduling",
+    "File systems"
+   ]
+  }
+ },
+ "TECH2": {
+  "1": {
+   "title": "Object Oriented Programming",
+   "marks": 40,
+   "subtopics": [
+    "OOP concepts, applications and the OOP process",
+    "Classes, objects, member functions and memory allocation",
+    "Constructors and destructors",
+    "Polymorphism, function and operator overloading",
+    "Inheritance, virtual functions and pointers to objects",
+    "I/O streams and file handling in OOP",
+    "Exception handling and strings"
+   ]
+  },
+  "2": {
+   "title": "Web Technologies",
+   "marks": 60,
+   "subtopics": [
+    "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+    "HTML, semantic elements, forms, multimedia, Canvas, SVG and accessibility",
+    "CSS, Flexbox, Grid and responsive web design",
+    "JavaScript, the DOM, event handling, asynchronous programming, JSON and Fetch",
+    "Frontend frameworks: components, routing, state management and API integration",
+    "Backend development in PHP and Python: REST APIs, CRUD, middleware, auth, sessions and ORM",
+    "Git version control, Docker, CI/CD, Linux administration, Nginx and deployment",
+    "Web security: OWASP Top 10, SSL/TLS, CSRF, XSS and SQL injection prevention",
+    "Architecture and scale: MVC, microservices, SOLID, event-driven systems, caching and queues",
+    "AI-assisted web development, generative AI APIs, Model Context Protocol, analytics, ethics and law"
+   ]
+  },
+  "3": {
+   "title": "Database Management Systems",
+   "marks": 60,
+   "subtopics": [
+    "Database system concepts, architecture, interfaces and data independence",
+    "Data models and the relational model: keys, tuples, domains and relational algebra",
+    "Entity-Relationship modelling",
+    "SQL and basic query statements",
+    "Database design, functional dependencies and normal forms",
+    "Query processing and optimisation",
+    "Transaction processing, schedules and recoverability",
+    "Concurrency control, locking and time stamping"
+   ]
+  },
+  "4": {
+   "title": "Cloud Computing",
+   "marks": 40,
+   "subtopics": [
+    "Distributed, edge and cloud computing; NIST cloud architecture",
+    "Deployment and service models: IaaS, PaaS, SaaS and serverless",
+    "Cloud-native architecture, microservices, service mesh, elasticity and load balancing",
+    "Virtualization: virtual machines, hypervisors, and CPU/storage/network virtualization",
+    "Containers, Docker, Kubernetes orchestration, Infrastructure as Code and DevOps",
+    "Cloud storage, compute, networking, managed databases, monitoring and multi-cloud",
+    "Cloud security and governance: shared responsibility, IAM, Zero Trust, DevSecOps, FinOps and SLAs"
+   ]
+  }
+ }
+}

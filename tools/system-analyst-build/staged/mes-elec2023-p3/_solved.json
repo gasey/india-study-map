@@ -1,0 +1,287 @@
+[
+ {
+  "no": 1,
+  "q": "In which of the following formats data is stored in the database management system?",
+  "opts": {
+   "A": "Image",
+   "B": "Text",
+   "C": "Table",
+   "D": "Graph"
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": "A relational DBMS organizes all data into tables of rows and columns -- that is the storage/logical unit the system itself works with. Images, text and graphs are just data *types* that end up as values inside a table's columns, not storage formats the DBMS uses in place of a table."
+ },
+ {
+  "no": 2,
+  "q": "Which of the following data models support for schema evaluation?",
+  "opts": {
+   "A": "Relational Model",
+   "B": "Entity Relationship Model",
+   "C": "Object Based Data Model",
+   "D": "Semi-structured Data Model"
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "Database system concepts, architecture, interfaces and data independence",
+  "note": "",
+  "exp": "Object-based (object-oriented) data models are built to support schema evolution -- a class's attributes and methods can be added, dropped or changed while existing object instances migrate to the new definition, a capability the relational model lacks (there, schema changes mean ALTER TABLE and reorganisation). Semi-structured models don't solve this problem so much as avoid it: they are largely schema-less/self-describing to begin with, so there is no fixed schema to evolve. The ER model is a design notation, not an implemented data model that evolves at runtime."
+ },
+ {
+  "no": 3,
+  "q": "__________ component gives an idea about all the entities available in relationship.",
+  "opts": {
+   "A": "Multivalued Attribute",
+   "B": "Total Participation",
+   "C": "Relationship",
+   "D": "Derived Attribute"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "note": "",
+  "exp": "Total participation (drawn as a double line on the relationship edge in an ER diagram) is the constraint that every entity in an entity set must occur in at least one instance of the relationship -- it is exactly what tells you whether all entities of that set are accounted for in the relationship. A multivalued attribute is about one attribute holding several values, and a derived attribute is one computed from other attributes -- neither says anything about entity coverage in a relationship."
+ },
+ {
+  "no": 4,
+  "q": "The functional dependencies is said to be __________ if it is indirectly formed by two functional Dependencies.",
+  "opts": {
+   "A": "Partial Functional Dependency",
+   "B": "Trivial Functional Dependency",
+   "C": "Non Trivial Functional Dependency",
+   "D": "Transitive Functional Dependency"
+  },
+  "official_ans": "D",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "note": "",
+  "exp": "A transitive functional dependency is one formed by chaining two dependencies together -- if A -> B and B -> C, then A -> C holds transitively, and it is exactly this kind of redundancy that 3NF is designed to remove. A partial dependency instead means a proper subset of a composite key determines a non-key attribute, and trivial/non-trivial dependencies classify whether the determined attribute is already contained in the determinant -- neither describes chaining two dependencies into a third."
+ },
+ {
+  "no": 5,
+  "q": "Which operation in relational algebra is denoted by sigma?",
+  "opts": {
+   "A": "Project",
+   "B": "Select",
+   "C": "Union",
+   "D": "Rename"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": "Sigma (σ) denotes selection -- filtering out the rows (tuples) of a relation that satisfy a given predicate. This is the classic mix-up with pi (π), which denotes projection -- picking out columns, not rows -- so confusing σ with π is exactly the trap this question sets."
+ },
+ {
+  "no": 6,
+  "q": "Which Normal is used to remove the duplicate Information?",
+  "opts": {
+   "A": "First Normal Form",
+   "B": "Second Normal Form",
+   "C": "Third Normal Form",
+   "D": "Fourth Normal Form"
+  },
+  "official_ans": "A",
+  "unit": "3",
+  "sub": "Database design, functional dependencies and normal forms",
+  "note": "",
+  "exp": "First Normal Form's defining rule is to eliminate repeating groups and duplicate columns within a single table, splitting repeated data out into its own rows or tables so each attribute holds one atomic value -- the baseline every later normal form builds on. 2NF and 3NF address redundancy caused by partial and transitive dependencies on the key, and 4NF addresses multivalued dependencies -- these are refinements on top of 1NF's basic duplicate-elimination step, not the step itself."
+ },
+ {
+  "no": 7,
+  "q": "Which of the following commands is used to delete all rows and free up space from a table?",
+  "opts": {
+   "A": "Drop",
+   "B": "Delete",
+   "C": "Truncate",
+   "D": "Alter"
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "note": "",
+  "exp": "TRUNCATE is a DDL statement that removes every row from a table and deallocates the data pages, actually reclaiming the storage they occupied (and resetting any identity counter) -- which is exactly 'delete all rows and free up space'. DELETE is a DML statement that removes rows individually, is fully logged, and does not reclaim that freed space the way TRUNCATE does. DROP removes the table's structure entirely, not just its rows, and ALTER changes a table's definition without touching its rows at all."
+ },
+ {
+  "no": 8,
+  "q": "To select some particular columns, which of the following commands is used?",
+  "opts": {
+   "A": "Projection",
+   "B": "Selection",
+   "C": "Join",
+   "D": "Union"
+  },
+  "official_ans": "A",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": "Projection (π) is the relational algebra operation that picks out specific columns (attributes) of a relation and discards the rest. Selection (σ) instead filters rows by a condition, join combines two relations on a common attribute, and union merges the rows of two union-compatible relations -- none of those isolates particular columns."
+ },
+ {
+  "no": 9,
+  "q": "A group of simple processes that can be combined to analyse a query is known as",
+  "opts": {
+   "A": "Query Evaluation Algebra",
+   "B": "Query Evaluation Plan",
+   "C": "Query Evaluation Primitive",
+   "D": "Query Evaluation Engine"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Query processing and optimisation",
+  "note": "",
+  "exp": "A query-evaluation plan is an annotated extended relational-algebra expression -- each operator paired with the algorithm used to execute it -- assembled from these simple annotated operations to fully evaluate a query, which is exactly 'a group of simple processes combined'. A query-evaluation primitive is a single one of those building blocks, not the combined group; the query-evaluation engine is the runtime component that executes a plan once built, not the plan itself."
+ },
+ {
+  "no": 10,
+  "q": "ER Diagram represents a overall __________ of a Database graphically.",
+  "opts": {
+   "A": "Physical Structure",
+   "B": "Logical Structure",
+   "C": "Domain Structure",
+   "D": "Architectural Representation"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "note": "",
+  "exp": "An ER diagram works at the conceptual/logical level -- it captures entities, attributes and relationships abstractly, independent of how the data will actually be stored. Physical structure concerns implementation details like file organisation and indexing, which an ER diagram deliberately leaves out."
+ },
+ {
+  "no": 11,
+  "q": "Double rectangle representation in ER Diagram indicates",
+  "opts": {
+   "A": "Entity Set",
+   "B": "Strong Entity Set",
+   "C": "Weak Entity Set",
+   "D": "Total participation"
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "Entity-Relationship modelling",
+  "note": "",
+  "exp": "A double-bordered rectangle denotes a weak entity set -- one with no complete key of its own, which depends for identification on a strong (owner) entity set via an identifying relationship (itself drawn as a double diamond). A plain single rectangle denotes an ordinary strong entity set, and total participation is shown with a double line on the relationship edge, not on the entity box."
+ },
+ {
+  "no": 12,
+  "q": "Consider the following transactions with data items A and B initialized to zero:\nT1: read (A) ;\n      read (B) ;\n      if A = 0 then B : = B + 1 ;\n      write (B) ;\nT2: read (B) ;\n      read (A) ;\n      if B = 0 then A : = A + 1 ;\n      write (A) ;\nAny non-serial interleaving of T1 and T2 for concurrent execution leads to",
+  "opts": {
+   "A": "A serializable schedule",
+   "B": "A schedule that is not conflict serializable",
+   "C": "A conflict serializable schedule",
+   "D": "A schedule for which a precedence graph cannot be drawn"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Transaction processing, schedules and recoverability",
+  "note": "",
+  "exp": "Work the schedule through: in either serial order exactly one of A, B ends at 1 (T1-then-T2 leaves B=1, A=0; T2-then-T1 leaves A=1, B=0). But interleave the reads before either write executes -- both transactions read A=0 and B=0 before checking their condition -- so both conditions are still true when the writes run, T1 sets B=1 and T2 sets A=1, and the schedule ends with A=1 and B=1 simultaneously, an outcome no serial execution can produce. That means T1's read of B must precede T2's write of B while T2's read of A must precede T1's write of A, giving a cycle in the precedence graph -- the schedule is not conflict serializable."
+ },
+ {
+  "no": 13,
+  "q": "__________ function is used to find the number of values in a column.",
+  "opts": {
+   "A": "SUM",
+   "B": "COUNT",
+   "C": "ADD",
+   "D": "AVG"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "note": "",
+  "exp": "COUNT returns the number of non-null values in a column, which is exactly what's asked. SUM and AVG aggregate the actual values (total and mean respectively) rather than counting how many there are, and ADD is not a SQL aggregate function at all."
+ },
+ {
+  "no": 14,
+  "q": "The __________ operation removes common tuples from the first relation.",
+  "opts": {
+   "A": "Union",
+   "B": "Difference",
+   "C": "Cartesian Product",
+   "D": "Projection"
+  },
+  "official_ans": "B",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": "The set difference operation R - S returns only the tuples of R that do not also appear in S -- in other words it strips out of R whatever tuples R has in common with S. Union combines the tuples of both relations, cartesian product pairs every tuple of one with every tuple of the other, and projection operates on columns rather than removing shared tuples; intersection would do the opposite of what's described here, keeping only the common tuples instead of removing them."
+ },
+ {
+  "no": 15,
+  "q": "Tuples can also be called",
+  "opts": {
+   "A": "Fields",
+   "B": "Values",
+   "C": "Columns",
+   "D": "Records"
+  },
+  "official_ans": "D",
+  "unit": "3",
+  "sub": "Data models and the relational model: keys, tuples, domains and relational algebra",
+  "note": "",
+  "exp": "A tuple is one row of a relation, and 'record' is the equivalent term inherited from file-based/pre-relational terminology for the same thing. Fields and columns both name attributes -- the vertical dimension of a table -- and a value is a single data item within one field of one tuple, so none of those names a whole row."
+ },
+ {
+  "no": 16,
+  "q": "When the “ROLLUP” operator for expression or columns within a “GROUP BY” clause is used?",
+  "opts": {
+   "A": "Find the groups that make up the subtotal in a row",
+   "B": "Create group-wise grand totals for the groups indicated in a GROUP BY clause",
+   "C": "Group expressions or columns specified in a GROUP BY clause in one direction, from right to left, for computing the subtotals",
+   "D": "To produce a cross-tabular report for computing subtotals by grouping phrases or columns given within a GROUP BY clause in all available directions."
+  },
+  "official_ans": "C",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "note": "",
+  "exp": "ROLLUP builds a hierarchy of subtotals by dropping the GROUP BY columns one at a time from right to left -- the most detailed grouping first, then progressively coarser subtotals, up to a single grand total -- which is exactly the 'one direction, right to left' behaviour described in (C). That single-direction hierarchy is what distinguishes ROLLUP from CUBE, which instead computes subtotals for every combination of the grouping columns in all directions, cross-tab style -- option (D) describes CUBE, not ROLLUP."
+ },
+ {
+  "no": 17,
+  "q": "__________ resembles Create view.",
+  "opts": {
+   "A": "Create table . . . as",
+   "B": "Create view as",
+   "C": "Create table . . .like",
+   "D": "With data"
+  },
+  "official_ans": "A",
+  "unit": "3",
+  "sub": "SQL and basic query statements",
+  "note": "",
+  "exp": "CREATE TABLE ... AS (CTAS) defines a new table from the result of a SELECT query, which structurally resembles CREATE VIEW ... AS -- both are defined by attaching a SELECT statement -- except a view stores only the query and recomputes it on access, while CTAS materializes the result as an actual, physically stored table. CREATE TABLE ... LIKE only copies another table's column definitions with no query and no data involved, and WITH DATA is a clause that controls whether a CTAS statement populates rows, not a standalone command comparable to CREATE VIEW."
+ },
+ {
+  "no": 18,
+  "q": "The optimizer that explores the space of all query-evaluation plans is called",
+  "opts": {
+   "A": "Cost-based",
+   "B": "Plan-based",
+   "C": "Estimate-based",
+   "D": "Count-based"
+  },
+  "official_ans": "A",
+  "unit": "3",
+  "sub": "Query processing and optimisation",
+  "note": "",
+  "exp": "A cost-based optimizer estimates the I/O and CPU cost of the various possible query-evaluation plans for a query and picks the cheapest one -- which is precisely what 'exploring the space of all query-evaluation plans' means. 'Plan-based', 'estimate-based' and 'count-based' are not standard names for a type of query optimizer."
+ },
+ {
+  "no": 33,
+  "q": "Identify the protocol primarily used for browsing data.",
+  "opts": {
+   "A": "FTP",
+   "B": "TCP",
+   "C": "TFTP",
+   "D": "HTTP"
+  },
+  "official_ans": "D",
+  "unit": "2",
+  "sub": "Web architecture, client-server communication, HTTP/HTTPS, DNS and hosting",
+  "note": "",
+  "exp": "HTTP is the application-layer protocol web browsers use to request pages from servers and render the response, making it the protocol used for browsing. FTP and TFTP are for transferring files, not rendering browsable web content, and TCP is the transport-layer protocol HTTP itself runs on top of, not the browsing protocol."
+ }
+]

@@ -62,6 +62,28 @@ PAPERS = {
         "Informatics Officer under ICT Deptt., November 2024 - Technical Paper II",
         100, 200,
     ),
+    # Added 2026-09-05, same sitting and same published key as IO2024-P2 (the
+    # 4-page key notification carries Technical Paper-III on page 4). Subject is
+    # IT project / quality / HR management, so the expected syllabus yield is
+    # narrower than Paper II's — mostly TECH2 Unit V. Same clean greyscale scan
+    # and single-column layout as Paper II, so the same 200dpi applies.
+    "IO2024-P3": (
+        os.path.join(MPSC_CORPUS, "Old_Questions", "Direct_2023-2025"),
+        "Informatics Officer Technical Paper-III 2024..pdf",
+        "Informatics Officer under ICT Deptt., November 2024 - Technical Paper III",
+        100, 200,
+    ),
+    # General English Paper-II, same sitting, key on page 1 of the same
+    # notification. 100 one-mark MCQs. NOTE: General English Paper-I of this
+    # sitting is descriptive (a 500-word essay and other written tasks), which
+    # is why the key notification has no page for it — it is not a missing key,
+    # there is nothing to key.
+    "IO2024-GE2": (
+        os.path.join(MPSC_CORPUS, "Old_Questions", "Direct_2023-2025"),
+        "Informatics Officer General English Paper-II 2024..pdf",
+        "Informatics Officer under ICT Deptt., November 2024 - General English Paper II",
+        100, 200,
+    ),
 }
 
 DPI = 400  # default; per-paper override is the 5th field of PAPERS

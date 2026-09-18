@@ -1,0 +1,135 @@
+[
+ {
+  "no": 1,
+  "official_ans": "C",
+  "my_independent_ans": "C",
+  "verdict": "agree",
+  "reasoning": "A relational DBMS's user-visible storage unit is the table (rows/columns) -- Codd's relational model and every mainstream textbook (Codd 1970; Elmasri & Navathe; Silberschatz) define this as the basic organising structure. Image, Text and Graph are data *types/formats* that end up as column values, not alternative storage formats a DBMS presents in place of a table. No defensible reading of the stem points elsewhere."
+ },
+ {
+  "no": 2,
+  "official_ans": "C",
+  "my_independent_ans": "C",
+  "verdict": "ambiguous",
+  "reasoning": "Reading 'schema evaluation' as a typo for 'schema evolution' (near-certain, since 'schema evaluation' is not a defined DBMS term): Elmasri & Navathe's Object/Object-Relational Database chapter has an explicit 'Schema Evolution' treatment of OODBs -- a class's attributes/methods can be added, dropped, or changed while existing instances migrate, which is the textbook feature this question is most directly quoting, supporting the keyed answer C. However, semi-structured/self-describing data models (XML/JSON) are independently cited in the DB literature (Abiteboul/Buneman/Suciu; also Silberschatz's semistructured-data motivation) as the preferred model precisely *because* the schema is not fixed and can change rapidly without requiring conversion of existing data -- i.e. they also 'support schema evolution' by sidestepping the rigidity problem altogether, which is arguably an even stronger claim to make than the OODB one (D's own note that semi-structured models 'avoid the problem' rather than 'solve' it is a judgment call, not a settled fact). Given the stem itself is corrupted/ambiguous and two distinct textbook lineages support two different letters, I don't think this is a clean 'agree' -- I lean toward C as the more directly on-point citation but flag D as a live alternative rather than rubber-stamping the key."
+ },
+ {
+  "no": 3,
+  "official_ans": "B",
+  "my_independent_ans": "B",
+  "verdict": "agree",
+  "reasoning": "The stem's emphasis on 'ALL the entities' is the discriminator: Total Participation (Elmasri & Navathe; Silberschatz -- drawn as a double line on the relationship edge) is exactly the constraint that every entity in an entity set must appear in at least one relationship instance, i.e. it tells you whether the relationship accounts for the entity set's full population. 'Relationship' alone (option C) just names the association, without asserting anything about coverage of all entities; a multivalued or derived attribute constraint says nothing about entity coverage at all. B is the correct, standard answer."
+ },
+ {
+  "no": 4,
+  "official_ans": "D",
+  "my_independent_ans": "D",
+  "verdict": "agree",
+  "reasoning": "A transitive FD (A -> B, B -> C therefore A -> C) is by definition an FD formed indirectly by chaining two others -- this is exactly the redundancy 3NF is designed to eliminate (Codd; Elmasri & Navathe; Silberschatz all define it identically). Partial dependency concerns a proper subset of a composite key, and trivial/non-trivial classify whether the dependent attribute is already in the determinant -- neither is about chaining two FDs into a third."
+ },
+ {
+  "no": 5,
+  "official_ans": "B",
+  "my_independent_ans": "B",
+  "verdict": "agree",
+  "reasoning": "Standard relational-algebra notation (Codd; every DB textbook) is unambiguous: sigma (σ) = selection (row filter), pi (π) = projection (column filter), ∪ = union, ρ = rename. No authority disputes this; the only realistic trap is confusing σ with π, which the key avoids."
+ },
+ {
+  "no": 6,
+  "official_ans": "A",
+  "my_independent_ans": "A",
+  "verdict": "ambiguous",
+  "reasoning": "The stem is genuinely underspecified about *which* duplication. Under the widely-circulated normalization mnemonic (traceable to William Kent's 'A Simple Guide to Five Normal Forms', reproduced almost verbatim across countless DB tutorial sites that Indian competitive-exam question-writers commonly lift from), 1NF is glossed as 'eliminate repeating groups / duplicate columns from the same table' while 2NF is glossed as 'eliminate redundant data' -- under that specific popular phrasing, the word 'duplicate' maps to 1NF, supporting the key. But under rigorous relational theory (Elmasri & Navathe; Codd), the redundancy that normalization theory is actually built to remove -- the same non-key fact repeated across multiple rows, causing update/insertion/deletion anomalies -- is squarely the job of 2NF (partial-dependency redundancy) and 3NF (transitive-dependency redundancy); 1NF is about atomic domains/no repeating groups within a single tuple, a different and narrower notion of 'duplicate.' Since 'duplicate information' can defensibly mean either intra-row repeating-group duplication (1NF) or cross-row redundant-value duplication (2NF/3NF), and the stem gives no way to disambiguate, I would not treat A as the only defensible answer -- B is a live alternative under the more academically rigorous reading."
+ },
+ {
+  "no": 7,
+  "official_ans": "C",
+  "my_independent_ans": "C",
+  "verdict": "agree",
+  "reasoning": "TRUNCATE is the standard textbook answer for 'delete all rows and reclaim/free the space' (it's DDL, deallocates data pages, resets identity counters, minimally logged) versus DELETE (DML, row-at-a-time, fully logged, does not release the freed pages back for reuse the same way). DROP removes the table's structure entirely -- the stem says 'delete all rows,' i.e. keep the table, which rules DROP out -- and ALTER changes definition, not rows. This DELETE-vs-TRUNCATE distinction is uncontested across SQL references (ANSI SQL, all major RDBMS docs)."
+ },
+ {
+  "no": 8,
+  "official_ans": "A",
+  "my_independent_ans": "A",
+  "verdict": "agree",
+  "reasoning": "Projection (π) is defined in relational algebra (Codd; every textbook) as selecting specific attributes/columns and discarding the rest. Selection (σ) filters rows, join combines relations, union merges union-compatible relations -- none of these isolate columns. Unambiguous."
+ },
+ {
+  "no": 9,
+  "official_ans": "B",
+  "my_independent_ans": "B",
+  "verdict": "agree",
+  "reasoning": "Silberschatz/Korth/Sudarshan define a query-evaluation plan as an annotated extended-relational-algebra expression -- a sequence/combination of evaluation primitives (each primitive an operator paired with an execution algorithm) -- built up to fully evaluate a query. That matches 'a group of simple processes combined' exactly. A primitive is a single one of those building blocks (not the combined group), and the evaluation engine is the runtime component that executes an already-built plan, not the plan itself."
+ },
+ {
+  "no": 10,
+  "official_ans": "B",
+  "my_independent_ans": "B",
+  "verdict": "agree",
+  "reasoning": "ER diagrams operate at the conceptual/logical level -- entities, attributes, relationships, independent of storage/implementation (Elmasri & Navathe explicitly place ER modelling at the 'logical/conceptual design' stage, prior to physical design). Physical structure (file organisation, indexing, storage layout) is a separate, later design phase the ER diagram deliberately does not capture."
+ },
+ {
+  "no": 11,
+  "official_ans": "C",
+  "my_independent_ans": "C",
+  "verdict": "agree",
+  "reasoning": "Standard ER diagram notation (Chen notation, used by Elmasri & Navathe and Silberschatz): a double-bordered rectangle denotes a weak entity set (no key of its own; existence-dependent on an owner/strong entity via an identifying relationship, itself drawn with a double diamond). A single rectangle is an ordinary strong entity set; total participation is shown via a double *line* on the relationship edge, not on the entity box, so it can't be confused with C here."
+ },
+ {
+  "no": 12,
+  "official_ans": "B",
+  "my_independent_ans": "B",
+  "verdict": "agree",
+  "reasoning": "Worked from scratch (A, B start at 0). Either serial order gives exactly one of A, B equal to 1, never both: T1-then-T2 yields (A=0, B=1); T2-then-T1 yields (A=1, B=0). Now consider a non-serial interleaving that reads a bit deeper: for a schedule to be non-serial at all, at least one operation of each transaction must fall between two operations of the other. That forces T1's read(A) to occur before T2's write(A) completes (unless T2 runs to completion before T1 starts anything, which is just the serial order), and symmetrically forces T2's read(B) to occur before T1's write(B) completes (unless T1 runs to completion first). Whenever both of those hold -- which is exactly the definition of 'non-serial' here -- both transactions read A=0 and B=0 before either write happens, so both conditions ('if A=0'/'if B=0') fire, both writes execute, and the schedule ends with A=1 AND B=1 simultaneously -- an outcome impossible under any serial execution, and neither write is a blind write (each transaction reads the item it later writes), so this also fails view-serializability, not just conflict-serializability. Equivalently: T1's read(A) precedes T2's write(A) (edge T1->T2) and T2's read(B) precedes T1's write(B) (edge T2->T1) in the precedence graph, giving a 2-cycle -- not conflict serializable. This rules out A ('serializable') outright, and rules out D too since a precedence graph plainly *can* be drawn (that's how the cycle above was found) -- D's claim that one 'cannot be drawn' is simply false. B is correct and the reasoning generalizes to 'any' non-serial interleaving as the stem claims."
+ },
+ {
+  "no": 13,
+  "official_ans": "B",
+  "my_independent_ans": "B",
+  "verdict": "agree",
+  "reasoning": "COUNT is the SQL aggregate that returns the number of (non-null) values in a column -- standard ANSI SQL. SUM/AVG aggregate the values themselves rather than counting them, and ADD is not a SQL aggregate function."
+ },
+ {
+  "no": 14,
+  "official_ans": "B",
+  "my_independent_ans": "B",
+  "verdict": "agree",
+  "reasoning": "Set difference R - S (Codd's relational algebra) returns tuples of R that do not also appear in S, i.e. it strips out of R exactly the tuples R and S have in common -- precisely 'removes common tuples from the first relation.' This is the reverse of intersection (R ∩ S), which *keeps* only the common tuples rather than removing them, so the stem's wording ('removes,' not 'keeps') cleanly rules intersection out. Union and Cartesian product don't remove anything, and projection acts on columns, not tuples. No ambiguity."
+ },
+ {
+  "no": 15,
+  "official_ans": "D",
+  "my_independent_ans": "D",
+  "verdict": "agree",
+  "reasoning": "'Tuple' (relational model) and 'record' (older file-based/network/hierarchical terminology) are standard synonyms for one row of a relation, noted as such in essentially every DB textbook (Codd; Date; Elmasri & Navathe; Silberschatz). Fields/columns name the vertical dimension (attributes), and a value is a single item within one field -- none of those name a whole row."
+ },
+ {
+  "no": 16,
+  "official_ans": "C",
+  "my_independent_ans": "C",
+  "verdict": "agree",
+  "reasoning": "ROLLUP's defining behaviour (documented identically across SQL references, e.g. Oracle's SQL Language Reference: ROLLUP 'creates subtotals that roll up from the most detailed level to a grand total, following a grouping list ... moving from right to left through the list of grouping columns') is to successively drop grouping columns starting from the rightmost, producing a strict hierarchy of subtotals ending in a grand total. That is exactly option C's 'one direction, right to left.' Option D describes CUBE (all combinations/directions, cross-tab style) -- the two are commonly paired as a trap in exactly this way, and the key correctly avoids it. Option B is too generic (would equally describe a plain GROUP BY) and omits the hierarchical/directional behaviour that is ROLLUP's actual distinguishing feature."
+ },
+ {
+  "no": 17,
+  "official_ans": "A",
+  "my_independent_ans": "A",
+  "verdict": "agree",
+  "reasoning": "CREATE TABLE ... AS SELECT (CTAS) and CREATE VIEW ... AS SELECT share the same defining structure -- both are specified by attaching a SELECT query -- documented as directly analogous across SQL references, differing only in that a view stores the query and recomputes on access while CTAS materializes the result as a real stored table. CREATE TABLE ... LIKE only copies another table's column definitions, with no query and no data involved, so it does not resemble CREATE VIEW at all; WITH DATA is a modifier clause on CTAS, not a standalone command comparable to CREATE VIEW. Option B ('Create view as') is a decoy that just restates the term being compared to, not a genuine alternative."
+ },
+ {
+  "no": 18,
+  "official_ans": "A",
+  "my_independent_ans": "A",
+  "verdict": "agree",
+  "reasoning": "A cost-based optimizer is, by definition (Silberschatz/Korth/Sudarshan's query-optimization chapter), the component that enumerates/explores the space of equivalent query-evaluation plans and picks the one with lowest estimated I/O+CPU cost. 'Plan-based', 'estimate-based' and 'count-based' are not standard optimizer taxonomy terms in any DB textbook."
+ },
+ {
+  "no": 33,
+  "official_ans": "D",
+  "my_independent_ans": "D",
+  "verdict": "agree",
+  "reasoning": "HTTP is the application-layer protocol web browsers use to request and render pages -- the protocol 'primarily used for browsing.' FTP/TFTP are for file transfer, not rendering browsable content, and TCP is the transport-layer protocol HTTP itself rides on top of, not a browsing protocol. Unambiguous, standard networking-stack fact."
+ }
+]

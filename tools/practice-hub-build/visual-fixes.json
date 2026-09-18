@@ -1,0 +1,146 @@
+{
+ "_README": [
+  "Questions whose text layer cannot represent what the page prints, transcribed",
+  "by reading a 150-DPI render of the source PDF. Applied by stage.py over the",
+  "extract.py output, so the correction survives a re-extract instead of being a",
+  "hand-edit that the next pipeline run silently reverts.",
+  "",
+  "Two causes, both structural rather than fixable in the extractor:",
+  "  * stacked fractions -- numerator and denominator are separate text runs",
+  "    joined by a rule the text layer never mentions, so there is no reading",
+  "    order to recover. These arrive as blank or scrambled options.",
+  "  * figure options -- the option IS an image, so there is no text at all.",
+  "",
+  "Every entry here was read off the render and the marked highlight re-checked",
+  "against it at the same time. `figure` carries a prose description of an",
+  "image-only option, per the schema in README.md."
+ ],
+
+ "si-stats-2026-p2": {
+  "A7": {
+   "opts": {"a": "₹ 31,800", "b": "₹ 32,000", "c": "₹ 32,600", "d": "₹ 33,000"},
+   "_note": "option (d) had a stray '3' appended from neighbouring layout"
+  },
+  "A8": {
+   "q": "If tanθ = 3/4, then secθ =",
+   "opts": {"a": "3/5", "b": "4/5", "c": "5/4", "d": "5/3"},
+   "_note": "text layer gave 'If tanθ=,  then secθ= 4 34' with (a) and (c) blank"
+  },
+  "A22": {
+   "q": "A bag contains 5 white, 3 red, and 2 black balls. One ball is drawn at random. What is the probability that the ball drawn is neither white nor black?",
+   "opts": {"a": "1/5", "b": "3/10", "c": "2/5", "d": "1/2"}
+  },
+  "A25": {
+   "q": "If 2ˣ · 4ˣ⁺⁶ = 8²ˣ, then x equals",
+   "opts": {"a": "1", "b": "2", "c": "3", "d": "4"},
+   "_note": "text layer gave 'If 2⋅4=8, then x equals' -- every exponent lost, leaving it unanswerable"
+  },
+  "A43": {
+   "q": "If one is added to the denominator of a fraction, the fraction becomes 1/2. If one is added to the numerator of the fraction, the fraction becomes 1. The fraction is:",
+   "opts": {"a": "1/3", "b": "2/3", "c": "1/2", "d": "3/2"}
+  },
+
+  "A17": {
+   "opts": {"a": "20 years", "b": "24 years", "c": "30 years", "d": "34 years"},
+   "_note": "option (d) read '34 years thththth' -- Q18's ordinal suffixes landed on the wrong line"
+  },
+  "A18": {
+   "q": "The 12th term of an A.P. is 5 more than twice its 5th term. If the 9th term is 39, then the nth term is",
+   "_note": "the ordinals that belong here are the ones that bled into Q17 option (d)"
+  },
+  "A19": {
+   "q": "cos28° sin62° + sin28° cos62° =",
+   "opts": {"a": "0", "b": "1/2", "c": "1", "d": "sin34°"},
+   "_note": "the stem had swallowed the answer value ('= 1'); option (b) is a stacked fraction"
+  },
+  "A24": {
+   "opts": {"a": "2", "b": "3", "c": "10", "d": "5"},
+   "_note": "option (d) read '5 xx+62x' -- exponents from Q25 bled in"
+  },
+  "A31": {
+   "opts": {"a": "5 units", "b": "2√2 units", "c": "√2 units", "d": "10 units"}
+  },
+  "A33": {
+   "q": "The LCM of (2x³ − 5x² − 3x) and (x⁴ − 27x) is",
+   "opts": {
+    "a": "x(x² + 3x + 9)(2x + 1)(x + 3)",
+    "b": "x(x² + 3x + 9)(2x + 1)(x − 3)",
+    "c": "(x² + 3x + 9)(2x + 1)(x − 3)",
+    "d": "(x² + 3x + 9)(2x + 1)(x + 3)"
+   }
+  },
+  "A41": {
+   "q": "Find the value of x in the equation 1⅔ ÷ 2/7 × x/7 = 1¼ × 2/3 ÷ 1/6",
+   "opts": {"a": "0.6", "b": "0.4", "c": "6", "d": "4"},
+   "_note": "extracted as '1÷×=1×÷ 377436' -- every fraction collapsed, leaving it unanswerable"
+  },
+  "A49": {
+   "direction": "Directions (Question Nos. 49 – 50): Study the given table and answer the question that follows. The expenditure for one month incurred by a family is given below:\nItem      | Food | Rent | Education | Savings | Miscellaneous\nAmount (in Rs) | 3150 | 2400 | 2100 | 1200 | 1950",
+   "_note": "the table sits between the Direction line and Q49, which the parser only captured inside conventional sections -- without it Q49 and Q50 are unanswerable"
+  },
+  "A50": {
+   "direction": "Directions (Question Nos. 49 – 50): Study the given table and answer the question that follows. The expenditure for one month incurred by a family is given below:\nItem      | Food | Rent | Education | Savings | Miscellaneous\nAmount (in Rs) | 3150 | 2400 | 2100 | 1200 | 1950"
+  }
+ },
+
+ "ri-2026-p2": {
+  "B83": {
+   "q": "A bag contains 6 black and 8 white balls. One ball is drawn at random. What is the probability that the ball drawn is white?",
+   "opts": {"a": "3/4", "b": "4/7", "c": "1/8", "d": "9/52"}
+  },
+  "B86": {
+   "q": "Which formula is used to find distance between two points?",
+   "opts": {
+    "a": "x + y",
+    "b": "√(x² + y²)",
+    "c": "√[(x₂ − x₁)² + (y₂ − y₁)²]",
+    "d": "x² + y²"
+   }
+  },
+  "B95": {
+   "q": "Which of the following Venn Diagrams best indicates the relation among Rice, Glass and Food?",
+   "opts": {
+    "a": "Three circles of equal size in a vertical chain, each overlapping the next",
+    "b": "One large circle containing two separate small circles side by side",
+    "c": "One large circle containing a smaller circle, with a third circle wholly outside",
+    "d": "Three equal circles in a horizontal row, each touching the next"
+   },
+   "figure": "Four Venn diagrams labelled (a)-(d). The options are images in the source; the text here describes each arrangement.",
+   "_note": "options are image-only, so all four extracted blank"
+  },
+  "B99": {
+   "q": "Select the figure that will come next in the following series,",
+   "opts": {
+    "a": "Hexagon with a filled dot at upper left and a short double line on the lower right edge",
+    "b": "Hexagon with a filled dot at lower left and a short double line on the upper right edge",
+    "c": "Hexagon with a small hollow circle at upper left and a double line on the upper right edge",
+    "d": "Hexagon with a filled dot at upper left and a double line on the upper right edge"
+   },
+   "figure": "A four-box series of hexagons, each carrying a dot (filled or hollow) and a short line whose positions rotate between boxes; four hexagon options follow. Both series and options are images in the source.",
+   "_note": "options are image-only, so all four extracted blank; a figure-series item cannot be verified from text and is flagged accordingly"
+  },
+
+  "B65": {
+   "q": "There are six numbers forming a Geometric Progression series. If the 4th term is greater than the 2nd by 6 and the 5th term is greater than the 3rd by 24, then find the difference between the 2nd term and the 4th term.",
+   "_note": "ordinals collapsed and bled together as '6 thrdndth and 5 term ... 3 term'"
+  },
+  "B88": {
+   "opts": {"a": "One angle is 90°", "b": "Only two sides are equal",
+            "c": "Each angle is 60°", "d": "All sides are unequal"},
+   "_note": "option (d) read 'All sides are unequal 50403020' -- Q89's exponents bled in"
+  },
+  "B89": {
+   "q": "The greatest number among 3⁵⁰, 4⁴⁰, 5³⁰, and 6²⁰ is:",
+   "opts": {"a": "3⁵⁰", "b": "6²⁰", "c": "5³⁰", "d": "4⁴⁰"},
+   "_note": "every exponent was stripped, leaving 'greatest among 3, 4, 5, and 6' with options 350/620/530/440"
+  },
+  "B70": {
+   "figure": "The stem refers to a figure that is an image in the source PDF and has no text layer. The triangle count cannot be derived from the stored text.",
+   "_note": "figure-dependent; the answer follows the source highlight and is flagged as unverifiable from text"
+  },
+  "B100": {
+   "figure": "Two dice positions, shown as images in the source PDF, are referred to as (i) and (ii). The face arrangement is not recoverable from the text layer.",
+   "_note": "figure-dependent; option (d) also carried the end-of-paper asterisks, now stripped in extract.py"
+  }
+ }
+}

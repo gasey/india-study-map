@@ -1,0 +1,1650 @@
+{
+ "exam": "Research Investigator",
+ "examShort": "Research Investigator",
+ "dept": "Art & Culture Department, Govt. of Mizoram",
+ "sitting": "May 2026",
+ "year": 2026,
+ "paper": "Paper I",
+ "paperTitle": "General English",
+ "series": null,
+ "maxMarks": 100,
+ "durationMin": 180,
+ "negativeMark": 0.33,
+ "markPerQuestion": 1,
+ "sourcePdf": "research-invetigator-may-2026-paper-i.pdf",
+ "paperId": "ri-2026-p1",
+ "questions": [
+  {
+   "id": "B1",
+   "n": 1,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "India is a country with diverse cultures and languages.",
+   "opts": {
+    "a": "Adjective of Quality",
+    "b": "Proper Noun",
+    "c": "Adjective of Quantity",
+    "d": "Common Noun"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The bolded word is \"country\" — a general name for any one of a class of things, so a common noun. \"Proper Noun\" is the trap: \"India\" in the same sentence is a proper noun, but it is not the bolded word.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.574
+   }
+  },
+  {
+   "id": "B2",
+   "n": 2,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "Honesty is the best policy.",
+   "opts": {
+    "a": "Common Noun",
+    "b": "Proper Noun",
+    "c": "Abstract Noun",
+    "d": "Collective Noun"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Honesty\" names a quality you cannot see or touch, which is the definition of an abstract noun. \"Common Noun\" tempts because honesty is not the name of a particular person or place, but common nouns denote countable physical things (policy, book, man), not qualities.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.569,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B3",
+   "n": 3,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "Mizoram is a beautiful state.",
+   "opts": {
+    "a": "Adjective of Quality",
+    "b": "Adjective of Quantity",
+    "c": "Adjective of Number",
+    "d": "Demonstrative Adjective"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"beautiful\" tells you what kind of state Mizoram is, so it is an adjective of quality. Adjectives of quantity (much, some) answer \"how much\" and adjectives of number (two, many) answer \"how many\" — neither applies here.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.553,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.012
+   }
+  },
+  {
+   "id": "B4",
+   "n": 4,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "Do not be such a coward.",
+   "opts": {
+    "a": "Adjective of Quality",
+    "b": "Adjective of Quantity",
+    "c": "Adjective of Number",
+    "d": "Demonstrative Adjective"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"such\" points out which sort of coward is meant, and is grouped with this, that, these, those and same as a demonstrative adjective. It is not an adjective of quality because it names no quality of its own — it only refers back to one already understood.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.574
+   }
+  },
+  {
+   "id": "B5",
+   "n": 5,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "Sanga is well mannered because he has a good upbringing.",
+   "opts": {
+    "a": "Personal Pronoun",
+    "b": "Demonstrative Pronoun",
+    "c": "Relative Pronoun",
+    "d": "Emphatic Pronoun"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"he\" stands for the third person, Sanga, so it is a personal pronoun. A relative pronoun (who, which, that) would have to join a clause to a noun before it; \"because\" is doing that joining job here, not \"he\".",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B6",
+   "n": 6,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "I hurt myself during the match.",
+   "opts": {
+    "a": "Personal Pronoun",
+    "b": "Demonstrative Pronoun",
+    "c": "Relative Pronoun",
+    "d": "Reflexive Pronoun"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"myself\" is the object of \"hurt\" and turns the action back on the subject \"I\", which makes it reflexive. It would be emphatic only if it merely stressed a noun without being needed as an object, as in \"I myself saw it\".",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.542
+   }
+  },
+  {
+   "id": "B7",
+   "n": 7,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "Oranges from Mizoram are sweeter than those from the plains.",
+   "opts": {
+    "a": "Personal Pronoun",
+    "b": "Demonstrative Pronoun",
+    "c": "Relative Pronoun",
+    "d": "Reflexive Pronoun"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"those\" stands in place of the noun \"oranges\" to avoid repeating it, so it is a demonstrative pronoun. Had a noun followed it (\"those oranges\") it would instead be a demonstrative adjective; here it stands alone, so it is a pronoun.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.548,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B8",
+   "n": 8,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "The milkman delivers milk daily.",
+   "opts": {
+    "a": "Adverb of Place",
+    "b": "Adverb of Time",
+    "c": "Adverb of Manner",
+    "d": "Adverb of Degree"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"daily\" answers \"when / how often\" the milk is delivered, which places it with adverbs of time. Adverbs of manner answer \"how\" (slowly, neatly) — \"daily\" says nothing about the way the delivery is done.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.548,
+    "c": 0.011,
+    "d": 0.012
+   }
+  },
+  {
+   "id": "B9",
+   "n": 9,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "They are fully prepared for the conference.",
+   "opts": {
+    "a": "Adverb of Place",
+    "b": "Adverb of Time",
+    "c": "Adverb of Manner",
+    "d": "Adverb of Degree"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"fully\" tells you to what extent they are prepared, so it is an adverb of degree. It looks like a manner adverb because of the -ly ending, but manner adverbs answer \"how the action was done\", and here \"fully\" is measuring the adjective \"prepared\".",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.574
+   }
+  },
+  {
+   "id": "B10",
+   "n": 10,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "Our home is humble, but it is filled with love.",
+   "opts": {
+    "a": "Pronoun",
+    "b": "Adjective",
+    "c": "Conjunction",
+    "d": "Adverb"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"but\" joins two independent clauses in contrast, which is the work of a coordinating conjunction. It is not an adverb: remove it and you are left with two complete sentences that needed a link, not a modified verb.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.771,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B11",
+   "n": 11,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "The teacher praised the brilliant student.",
+   "opts": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Noun",
+    "d": "Conjunction"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"brilliant\" sits before the noun \"student\" and describes it, so it is an adjective. A describing word is an adverb only when it modifies a verb, adjective or another adverb — here it modifies a noun.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.597,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B12",
+   "n": 12,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "The book is on the table.",
+   "opts": {
+    "a": "Adverb",
+    "b": "Conjunction",
+    "c": "Noun",
+    "d": "Adjective"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The bolded word is \"book\", the subject of the sentence and the name of a thing, so a noun. \"on\" in the same sentence is a preposition, but preposition is not even offered and \"on\" is not the bolded word.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.015,
+    "c": 0.578,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B13",
+   "n": 13,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "They went to the market after lunch.",
+   "opts": {
+    "a": "Noun",
+    "b": "Preposition",
+    "c": "Conjunction",
+    "d": "Adverb"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"after\" is followed by the noun \"lunch\", and a word governing a noun to show its relation to the rest of the sentence is a preposition. \"after\" can be a conjunction, but only when a full clause follows it (\"after they had eaten\") — here there is no verb after it.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.731,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B14",
+   "n": 14,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "I like tea and coffee.",
+   "opts": {
+    "a": "Noun",
+    "b": "Adjective",
+    "c": "Interjection",
+    "d": "Conjunction"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"and\" links the two nouns \"tea\" and \"coffee\", so it is a conjunction. It is not a noun itself — the nouns are the two things being joined, and \"and\" only does the joining.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.73
+   }
+  },
+  {
+   "id": "B15",
+   "n": 15,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "He is a very intelligent boy.",
+   "opts": {
+    "a": "Verb",
+    "b": "Pronoun",
+    "c": "Preposition",
+    "d": "Adverb"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"very\" modifies the adjective \"intelligent\", and a word that modifies an adjective is an adverb. Students often call it an adjective because it stands next to one, but the test is what a word modifies, not what it stands beside.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.015,
+    "c": 0.007,
+    "d": 0.68
+   }
+  },
+  {
+   "id": "B16",
+   "n": 16,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "Please sit here.",
+   "opts": {
+    "a": "Verb",
+    "b": "Noun",
+    "c": "Adjective",
+    "d": "Adverb"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The bolded word is \"sit\", the action word and the imperative verb of the sentence. \"Adverb\" is the trap here: \"here\" is indeed an adverb of place, but it is not the word in bold.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.694,
+    "b": 0.015,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B17",
+   "n": 17,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "I have two books.",
+   "opts": {
+    "a": "Noun",
+    "b": "Verb",
+    "c": "Adjective",
+    "d": "Pronoun"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"two\" tells you how many books, so it modifies the noun and is an adjective (specifically an adjective of number). Every other option describes a different word in the sentence — \"I\" the pronoun, \"have\" the verb, \"books\" the noun — so identify the bolded word first.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.771,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B18",
+   "n": 18,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "Oh! That hurts.",
+   "opts": {
+    "a": "Preposition",
+    "b": "Interjection",
+    "c": "Verb",
+    "d": "Adjective"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Oh!\" expresses sudden feeling and is grammatically detached from the rest of the sentence, which makes it an interjection. The exclamation mark standing immediately after it is the giveaway: it belongs to no clause.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.731,
+    "c": 0.007,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B19",
+   "n": 19,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "The old man walked slowly.",
+   "opts": {
+    "a": "Conjunction",
+    "b": "Noun",
+    "c": "Adverb",
+    "d": "Adjective"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The bolded word is \"old\", which describes the noun \"man\", so it is an adjective. \"Adverb\" is the tempting wrong answer because \"slowly\" later in the sentence is an adverb of manner — but the question asks about \"old\".",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.73
+   }
+  },
+  {
+   "id": "B20",
+   "n": 20,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
+   "passageRef": null,
+   "q": "The birds are flying above the trees.",
+   "opts": {
+    "a": "Preposition",
+    "b": "Noun",
+    "c": "Verb",
+    "d": "Conjunction"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"above\" governs the noun \"the trees\" and shows the birds' position in relation to them, so it is a preposition. It would be an adverb only if no noun followed it, as in \"the birds are flying above\".",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B21",
+   "n": 21,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
+   "passageRef": null,
+   "q": "courteous",
+   "opts": {
+    "a": "regal",
+    "b": "orderly",
+    "c": "official",
+    "d": "polite"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Courteous means well-mannered and respectful towards others, i.e. polite. 'Regal' (kingly) and 'official' tempt because courtesy is associated with courts and formality, but they describe status or office, not manners.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.727
+   }
+  },
+  {
+   "id": "B22",
+   "n": 22,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
+   "passageRef": null,
+   "q": "despise",
+   "opts": {
+    "a": "disdain",
+    "b": "disagree",
+    "c": "respect",
+    "d": "wise"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "To despise is to regard with contempt, which is exactly what disdain means. 'Disagree' is far too weak — you can disagree with someone you like — and 'respect' is the antonym.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.549,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B23",
+   "n": 23,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
+   "passageRef": null,
+   "q": "foe",
+   "opts": {
+    "a": "duo",
+    "b": "enemy",
+    "c": "noble",
+    "d": "rage"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A foe is an enemy or adversary; the word survives mainly in the pairing 'friend or foe'. 'Duo' is a lookalike trap chosen on spelling rather than meaning — it means a pair.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.69,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B24",
+   "n": 24,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
+   "passageRef": null,
+   "q": "meticulous",
+   "opts": {
+    "a": "strict",
+    "b": "careful",
+    "c": "blissful",
+    "d": "careless"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Meticulous means showing great attention to detail, i.e. very careful. 'Strict' is the near-miss: strictness is about enforcing rules on others, whereas meticulousness is about the thoroughness of one's own work. 'Careless' is the direct opposite.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.548,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B25",
+   "n": 25,
+   "part": "B",
+   "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
+   "passageRef": null,
+   "q": "agony",
+   "opts": {
+    "a": "pain",
+    "b": "chance",
+    "c": "desire",
+    "d": "compel"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Agony is intense physical or mental suffering, so pain is the synonym. 'Desire' may be pulled in by phrases like 'agony of longing', but desire by itself carries no suffering.",
+   "topic": "vocabulary_synonym",
+   "flag": null,
+   "_cov": {
+    "a": 0.699,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B26",
+   "n": 26,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "A thing that remains fixed.",
+   "opts": {
+    "a": "mobile",
+    "b": "stationery",
+    "c": "stationary",
+    "d": "mettle"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Stationary, with an 'a', means not moving — fixed in place. The trap is its homophone 'stationery' with an 'e', which means writing materials; remember 'e' for envelope.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.776,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B27",
+   "n": 27,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "Lacking in experience or informed judgement.",
+   "opts": {
+    "a": "dewy eyed",
+    "b": "seasoned",
+    "c": "vain",
+    "d": "sceptical"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Dewy-eyed describes someone naive and innocently trusting, hence lacking experience or informed judgement. 'Seasoned' is its exact opposite (experienced), and a sceptical person has judgement and is exercising it doubtfully.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B28",
+   "n": 28,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "Known for bad things",
+   "opts": {
+    "a": "incredible",
+    "b": "gullible",
+    "c": "expatriate",
+    "d": "notorious"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Notorious means famous specifically for something bad, unlike plain 'famous', which is neutral. 'Incredible' only means hard to believe and carries no negative moral charge.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.542
+   }
+  },
+  {
+   "id": "B29",
+   "n": 29,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "Likely to attract attention",
+   "opts": {
+    "a": "sombre",
+    "b": "conspicuous",
+    "c": "ostracize",
+    "d": "mortify"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Conspicuous means standing out so as to be clearly visible, and therefore likely to attract attention. 'Sombre' (dark, gloomy) is the opposite in effect, and 'ostracize' and 'mortify' are verbs, not descriptions of appearance.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.736,
+    "c": 0.011,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B30",
+   "n": 30,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "To express scornfully one’s low opinion",
+   "opts": {
+    "a": "tumultuous",
+    "b": "denigrate",
+    "c": "ferocious",
+    "d": "proclaim"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "To denigrate is to disparage — to criticise unfairly and so express a scornfully low opinion. 'Proclaim' is simply to announce publicly with no scorn implied, and 'tumultuous' and 'ferocious' are adjectives about noise and violence.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.538,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B31",
+   "n": 31,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "Fluent and clear in speech.",
+   "opts": {
+    "a": "Emotional",
+    "b": "Enthusiastic",
+    "c": "Verbatim",
+    "d": "Articulate"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Articulate means able to speak fluently and clearly. 'Verbatim' is the tempting speech-related option, but it means word-for-word repetition and says nothing about fluency.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.556
+   }
+  },
+  {
+   "id": "B32",
+   "n": 32,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "An inscription on a tomb.",
+   "opts": {
+    "a": "Epitaph",
+    "b": "Epilogue",
+    "c": "Elegy",
+    "d": "Eulogy"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "An epitaph is the inscription carved on a tombstone. Distinguish it from an 'elegy' (a mournful poem for the dead) and a 'eulogy' (a speech of praise, usually at a funeral) — only the epitaph is physically on the tomb.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.683,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B33",
+   "n": 33,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "Opinion contrary to accepted doctrines.",
+   "opts": {
+    "a": "Controversy",
+    "b": "Convention",
+    "c": "Advocacy",
+    "d": "Heresy"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Heresy is a belief or opinion contrary to established or orthodox doctrine, especially religious doctrine. 'Controversy' merely means a public dispute and does not require any accepted doctrine to be contradicted; 'convention' is the accepted practice itself.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.542
+   }
+  },
+  {
+   "id": "B34",
+   "n": 34,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "Governed by a sense of duty.",
+   "opts": {
+    "a": "Conscious",
+    "b": "Conscientious",
+    "c": "Intelligent",
+    "d": "Sensible"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Conscientious means guided by conscience and a sense of duty, doing one's work carefully and thoroughly. The trap is the near-identical 'conscious', which only means awake or aware — one letter changes the meaning entirely.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.579,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B35",
+   "n": 35,
+   "part": "B",
+   "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
+   "passageRef": null,
+   "q": "A written declaration made on oath in the presence of a magistrate.",
+   "opts": {
+    "a": "Document",
+    "b": "Affidavit",
+    "c": "Dossier",
+    "d": "Voucher"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "An affidavit is precisely a written statement confirmed by oath before a magistrate or other authorised officer. A 'dossier' is only a collection of documents about a person and involves no oath, so it lacks the defining legal element.",
+   "topic": "one_word_substitution",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.548,
+    "c": 0.011,
+    "d": 0.012
+   }
+  },
+  {
+   "id": "B36",
+   "n": 36,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "Sanga says, “Mawia is very intelligent.”",
+   "opts": {
+    "a": "Sanga says that Mawia was very intelligent.",
+    "b": "Sanga said that Mawia is very intelligent.",
+    "c": "Sanga expressed that Mawia is very intelligent.",
+    "d": "Sanga says that Mawia is very intelligent."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "When the reporting verb is present tense ('says'), there is no backshift, so 'is' stays 'is'. Option (a) wrongly backshifts to 'was' despite the present reporting verb, and (b) silently changes 'says' to 'said', which the question never licensed.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.013,
+    "c": 0.007,
+    "d": 0.722
+   }
+  },
+  {
+   "id": "B37",
+   "n": 37,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "The teacher said, “The students are crying.”",
+   "opts": {
+    "a": "The teacher said that the students were crying.",
+    "b": "The teacher has said that the students are crying.",
+    "c": "The teacher says that the students were crying.",
+    "d": "The teacher said that the students are crying."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The reporting verb 'said' is past, so the present continuous 'are crying' backshifts to the past continuous 'were crying'. Option (d) leaves the tense unchanged, breaking the sequence-of-tenses rule.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.013,
+    "c": 0.007,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B38",
+   "n": 38,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "Sarah said, “Jonathan will play basketball.”",
+   "opts": {
+    "a": "Sarah said that Jonathan will be playing basketball.",
+    "b": "Sarah said that Jonathan would play basketball.",
+    "c": "Sarah said that Jonathan will play basketball.",
+    "d": "Sarah said that Jonathan would have played basketball."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "After a past reporting verb, 'will' backshifts to 'would', giving 'would play'. Option (c) does not backshift at all, and (d) over-shifts to 'would have played', which wrongly implies the action never happened.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.727,
+    "c": 0.007,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B39",
+   "n": 39,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "She said, “I will cook dinner in the evening.”",
+   "opts": {
+    "a": "She said that she would cook dinner in the evening.",
+    "b": "She said that she will cook dinner in the evening.",
+    "c": "She said that she will be cooking dinner in the evening.",
+    "d": "She said that she shall cook dinner in the evening."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Said' is past, so 'I will cook' becomes 'she would cook' — the first-person pronoun shifts to third person and 'will' backshifts to 'would'. Option (d) is wrong because the backshifted form of 'will' is 'would', not 'shall'.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.549,
+    "b": 0.013,
+    "c": 0.007,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B40",
+   "n": 40,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "He said to me, “I do not like your new purchase.”",
+   "opts": {
+    "a": "He told me that he does not like my new purchase.",
+    "b": "He told me that he did not like my new purchase.",
+    "c": "He told me that he is disliking my new purchase.",
+    "d": "He told me that he will not like my new purchase."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Two changes are required: 'do not like' backshifts to 'did not like' after the past reporting verb, and 'your' becomes 'my' because the listener is now the reporter. Option (a) makes the pronoun change but forgets the backshift.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.585,
+    "c": 0.235,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B41",
+   "n": 41,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "“I am going to the school tomorrow,” she said.",
+   "opts": {
+    "a": "She said that she was going to the school the next day.",
+    "b": "She said she will go to school the next day.",
+    "c": "She said I will go to school tomorrow.",
+    "d": "She said that I was going to the school the next day."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The reporting verb 'said' is past, so the present continuous 'am going' backshifts to 'was going' and 'tomorrow' becomes 'the next day'. (b) leaves 'will go' un-backshifted, and (c)/(d) keep the first-person 'I', which must become 'she' once someone else is reporting.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.748,
+    "b": 0.013,
+    "c": 0.007,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B42",
+   "n": 42,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "“Where do you live?”,  he asked.",
+   "opts": {
+    "a": "He asked where I live.",
+    "b": "He asked where I lived.",
+    "c": "He asked where do you live.",
+    "d": "He asked where was I living."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A reported question takes statement word order and drops the auxiliary 'do', while 'live' backshifts to 'lived' after the past 'asked'. (c) keeps the interrogative order 'do you live', and (a) forgets the backshift.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.727,
+    "c": 0.007,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B43",
+   "n": 43,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "“Please sit down,” she said.",
+   "opts": {
+    "a": "She told them to sit down, please.",
+    "b": "She asked them to sit.",
+    "c": "She requested them to sit down.",
+    "d": "She says please, sit down."
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Please' marks a polite request, which is reported as 'requested' + object + to-infinitive, keeping the full action 'sit down'. (a) carries the word 'please' into indirect speech, which never happens, and (b) downgrades it to a neutral 'asked' and drops 'down'.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.013,
+    "c": 0.771,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B44",
+   "n": 44,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "They said, “we will arrive tomorrow”.",
+   "opts": {
+    "a": "They said we will arrive the next day.",
+    "b": "They said we will come tomorrow.",
+    "c": "They said that they would arrive the next day.",
+    "d": "They said that they will arrive the next day."
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "After the past reporting verb 'said', 'we' becomes 'they', 'will' becomes 'would', and 'tomorrow' becomes 'the next day'. (d) is the classic trap: it changes the pronoun and the time word but leaves 'will' unshifted.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.026,
+    "c": 0.724,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B45",
+   "n": 45,
+   "part": "B",
+   "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+   "passageRef": null,
+   "q": "“Please close the door”, she said.",
+   "opts": {
+    "a": "She requested to close the door.",
+    "b": "She said close the door.",
+    "c": "She please asked to close the door.",
+    "d": "Close the door she requested."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "A 'please' imperative is reported with 'requested' plus a to-infinitive, and (a) is the only option built that way: (b) just repeats the imperative, (c) strands the word 'please', and (d) is not reported speech at all. Be aware that (a) is clipped — full English would name the listener, 'She requested them to close the door'.",
+   "topic": "narration",
+   "flag": "Printed English of the intended answer (a) is defective: 'requested' is left without an object. The choice is still unambiguous, since no other option uses a reporting verb at all.",
+   "_cov": {
+    "a": 0.753,
+    "b": 0.026,
+    "c": 0.011,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B46",
+   "n": 46,
+   "part": "B",
+   "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
+   "passageRef": null,
+   "q": "He was singing a beautiful song.",
+   "opts": {
+    "a": "Past Indefinite Tense",
+    "b": "Past Continuous Tense",
+    "c": "Past Perfect Tense",
+    "d": "Present Continuous Tense"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'was' + present participle 'singing' is the Past Continuous, an action in progress at some past moment. Past Indefinite would be plain 'sang', and Present Continuous would need 'is singing'.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.364,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B47",
+   "n": 47,
+   "part": "B",
+   "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
+   "passageRef": null,
+   "q": "She has been attending classes all year round.",
+   "opts": {
+    "a": "Present Continuous Tense",
+    "b": "Past Continuous Tense",
+    "c": "Present Perfect Continuous Tense",
+    "d": "Present Perfect Tense"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'has been' + '-ing' is the Present Perfect Continuous — an action begun earlier and still running, which 'all year round' confirms. Present Perfect would be 'has attended'; it is the 'been ...-ing' that makes it continuous.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.679,
+    "d": 0.012
+   }
+  },
+  {
+   "id": "B48",
+   "n": 48,
+   "part": "B",
+   "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
+   "passageRef": null,
+   "q": "I shall have been waiting for the next bus.",
+   "opts": {
+    "a": "Future Continuous Tense",
+    "b": "Past Perfect Continuous Tense",
+    "c": "Future Perfect Continuous Tense",
+    "d": "Present Perfect Tense"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'shall have been' + '-ing' is the Future Perfect Continuous, an action that will have been going on up to a future point. Future Continuous would be only 'shall be waiting' — the added 'have been' pushes it into the perfect continuous.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.012,
+    "c": 0.776,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B49",
+   "n": 49,
+   "part": "B",
+   "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
+   "passageRef": null,
+   "q": "She went to the hospital.",
+   "opts": {
+    "a": "Present Indefinite Tense",
+    "b": "Past Indefinite Tense",
+    "c": "Past Perfect Tense",
+    "d": "Past Continuous Tense"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A bare past form ('went') with no auxiliary is the Past Indefinite, or simple past — a completed action. Past Perfect would require 'had gone' and Past Continuous 'was going'.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.736,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B50",
+   "n": 50,
+   "part": "B",
+   "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
+   "passageRef": null,
+   "q": "You will have had your lunch.",
+   "opts": {
+    "a": "Future Perfect Tense",
+    "b": "Past Indefinite Tense",
+    "c": "Past Perfect Tense",
+    "d": "Past Continuous Tense"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'will have' + past participle is the Future Perfect: something expected to be complete by a future time. Do not let the word 'had' mislead you — here it is the past participle of 'have', and 'will' fixes the sentence firmly in the future.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.753,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B51",
+   "n": 51,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "If I ______ rich, I would travel the world.",
+   "opts": {
+    "a": "am",
+    "b": "was",
+    "c": "were",
+    "d": "be"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "An imaginary or contrary-to-fact condition takes the subjunctive 'were' for every subject, and the 'would travel' in the main clause confirms the condition is unreal. 'was' is the trap: normal past tense, but not the subjunctive form formal grammar requires here.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.776,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B52",
+   "n": 52,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "The Committee ______ divided in its opinion.",
+   "opts": {
+    "a": "are",
+    "b": "is",
+    "c": "were",
+    "d": "have"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "The sentence itself treats the committee as a single body — it says 'in its opinion' — so the verb must be singular: 'The Committee is divided in its opinion'. The textbook version that takes a plural verb reads 'The Committee are divided in their opinions', and that plural pronoun is not what is printed here; let the pronoun already on the page decide the number.",
+   "topic": "subject_verb_agreement",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.548,
+    "c": 0.011,
+    "d": 0.013
+   }
+  },
+  {
+   "id": "B53",
+   "n": 53,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "She is one of those writers who ______ always inspired me.",
+   "opts": {
+    "a": "has",
+    "b": "have",
+    "c": "is",
+    "d": "was"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "In 'one of those writers who...', the relative pronoun 'who' refers back to the plural 'writers', not to 'one', so the verb is plural: 'have always inspired me'. Matching the verb to 'one' and choosing 'has' is the standard trap.",
+   "topic": "subject_verb_agreement",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.548,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B54",
+   "n": 54,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "Each of the players ______ performed well.",
+   "opts": {
+    "a": "have",
+    "b": "had",
+    "c": "are",
+    "d": "has"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'Each' is always singular and the phrase 'of the players' does not change the subject, so the verb is 'has performed'; the plural noun sitting right before the blank is the bait for 'have' and 'are'. 'had performed' is past perfect and would need an earlier past event to be measured against, which this stand-alone sentence never supplies.",
+   "topic": "subject_verb_agreement",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.015,
+    "c": 0.011,
+    "d": 0.73
+   }
+  },
+  {
+   "id": "B55",
+   "n": 55,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "This book is ______ interesting than I expected.",
+   "opts": {
+    "a": "very",
+    "b": "far more",
+    "c": "too",
+    "d": "quite"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'than' demands a comparative, and 'far' is the usual intensifier for one: 'far more interesting than I expected'. 'very', 'too' and 'quite' modify the positive degree and cannot take a 'than' clause.",
+   "topic": "degrees_of_comparison",
+   "flag": null,
+   "_cov": {
+    "a": 0.013,
+    "b": 0.736,
+    "c": 0.011,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B56",
+   "n": 56,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "His arguments were so ______ that even experts found them difficult to understand.",
+   "opts": {
+    "a": "lucid",
+    "b": "obscure",
+    "c": "coherent",
+    "d": "rational"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "If even experts found the arguments hard to follow, the arguments were 'obscure' — unclear. 'lucid', 'coherent' and 'rational' all mean clear or well reasoned and so contradict the 'so ... that' result clause.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.731,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B57",
+   "n": 57,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "The author’s writing style is known for its ______ descriptions and vivid imagery.",
+   "opts": {
+    "a": "evocative",
+    "b": "bland",
+    "c": "dull",
+    "d": "rigid"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Evocative' means calling up strong images or feelings, which sits naturally alongside 'vivid imagery' as praise for a style. 'bland', 'dull' and 'rigid' are negative and clash with the admiring 'known for'.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.552,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.017
+   }
+  },
+  {
+   "id": "B58",
+   "n": 58,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "The system is designed to ______ errors before they occur.",
+   "opts": {
+    "a": "amplify",
+    "b": "ignore",
+    "c": "escalate",
+    "d": "mitigate"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'Mitigate' means to lessen the severity of something, the only option consistent with a system built to act on errors before they occur. 'amplify' and 'escalate' would make errors worse, and no system is deliberately designed to 'ignore' them.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.727
+   }
+  },
+  {
+   "id": "B59",
+   "n": 59,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "The manager took a ______ approach to employee complaints, addressing them immediately.",
+   "opts": {
+    "a": "indifferent",
+    "b": "dismissive",
+    "c": "proactive",
+    "d": "passive"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Proactive' means acting in advance rather than merely reacting, which the clause 'addressing them immediately' spells out. 'indifferent', 'dismissive' and 'passive' all describe a manager who fails to act, contradicting the rest of the sentence.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.771,
+    "d": 0.015
+   }
+  },
+  {
+   "id": "B60",
+   "n": 60,
+   "part": "B",
+   "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
+   "passageRef": null,
+   "q": "The results were so ______ that they required further verification.",
+   "opts": {
+    "a": "reliable",
+    "b": "definite",
+    "c": "conclusive",
+    "d": "inconclusive"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Results that 'required further verification' cannot have settled the matter, so they were 'inconclusive'. 'reliable', 'definite' and 'conclusive' all mean the findings were already firm, which would remove any need for more checking.",
+   "topic": "word_usage",
+   "flag": "Extraction artifact: option (d) reads 'inconclusive * * * * * * *'. The asterisks are the end-of-paper decoration bleeding into the last option, not part of the word — strip them. The answer is unaffected.",
+   "_cov": {
+    "a": 0.009,
+    "b": 0.011,
+    "c": 0.007,
+    "d": 0.727
+   }
+  }
+ ],
+ "descriptive": [
+  {
+   "id": "A1",
+   "kind": "essay",
+   "marks": 10,
+   "prompt": "Write an essay choosing one of the topics below:\n(a) Research and Documentation in Culture\n(b) Smart Cities and Environmental Sustainability\n(c) Measures to preserve and promote Mizo cultural practices in this day and age",
+   "guidance": "Only 10 marks here, so aim for roughly 400-500 words and a tight structure — this is not the place for a 1000-word essay. The post is Research Investigator under the Art & Culture Department, so (a) and (c) play to the job: for (c), name real instruments — documentation of folk songs and oral history, Chapchar Kut and other festivals, the role of the Mizo language in schools, handloom and handicraft promotion, archives and museums, and the tension between preservation and living practice. Concrete Mizoram-specific detail is what separates a good answer from a generic one."
+  },
+  {
+   "id": "A2",
+   "kind": "precis",
+   "marks": 10,
+   "prompt": "Write a precis of the following passage by reducing it to one third of its length.",
+   "guidance": "The length instruction is explicit — one third — so count roughly and stay near it. The passage is a chain of analogies (trees, sandalwood, sugar cane, gold) all making one point: a good person exists for the benefit of others, and a life lived only for itself is worthless. A strong précis states that thesis once and compresses the analogies rather than listing all four; a weak one reproduces each image in turn and runs over length.",
+   "body": "Trees give shade for the benefit of others, while they themselves stand in the sun and endure the scorching heat. They produce fruit by which others profit. The character of a good man is like that of trees. What is the use of this perishable body if it is not used for the benefit of mankind? The more sandalwood is rubbed, the more scent it gives. The more sugar cane is peeled and cut into pieces, the more juice it produces. The more gold is burnt, the more brightly it shines. Noble people do not lose their qualities even by losing their lives. What does it matter whether man praises them or not? What difference does it make whether riches abide with them or not? What does it matter whether they die at this moment or their lives are prolonged? Come what may, those who tread on the right path will not set foot on any other. Life itself is unprofitable to a man who does not live for others. To live for the sake of living one’s life is to live a worthless life."
+  },
+  {
+   "id": "A3",
+   "kind": "letter",
+   "marks": 10,
+   "prompt": "Write a letter to the Station Master complaining about the unclean condition of platforms at your local railway station. Suggest measures to improve cleanliness. Sign as ABC.",
+   "guidance": "A formal complaint letter: sender's address, date, 'The Station Master' with the station's address, subject line, 'Sir/Madam', body, 'Yours faithfully, ABC'. The question asks for two things and marks both — describe the problem specifically (overflowing bins, waste on the tracks, unclean toilets, stray litter after trains depart) and then suggest remedies (more bins and more frequent clearing, regular sanitation staff and supervision, penalties for littering, awareness signage). Sign exactly as ABC; using your own name is a standard way to lose marks."
+  },
+  {
+   "id": "partA-passage",
+   "kind": "passage",
+   "marks": 10,
+   "prompt": "Direction (Question Nos. 4-8): Read the following passage and answer the questions based on the given passage.",
+   "guidance": "A comprehension passage on the effects of rapid technological advancement. Answer strictly from the passage.",
+   "body": "In recent years, the rapid advancement of technology has transformed the way people communicate, work, and access information. While these changes have brought undeniable benefits— such as increased efficiency and global connectivity—they have also introduced new challenges. One such challenge is the growing dependence on digital devices, which has raised concerns about reduced attention spans and diminished face-to-face interactions. Moreover, the rise of automation and artificial intelligence has sparked debates about the future of employment. Many experts argue that while certain jobs will become obsolete, new opportunities will emerge that require different skill sets. This shift emphasizes the importance of adaptability and continuous learning in the modern workforce. Another significant issue is data privacy. As individuals share more personal information online, the risk of data breaches and misuse has increased. Governments and organizations are now under pressure to implement stricter regulations and improve cybersecurity measures to protect users. Despite these concerns, it is important to recognize that technology itself is not inherently harmful. Its impact largely depends on how it is used. By promoting responsible usage and maintaining a balance between digital and real-world interactions, society can harness the benefits of technology while minimizing its drawbacks."
+  },
+  {
+   "id": "A4",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "What are the two main benefits of technology mentioned in the passage?",
+   "guidance": "Increased efficiency and global connectivity. The question says two and the passage names exactly those two — do not pad the answer with benefits the passage does not mention."
+  },
+  {
+   "id": "A5",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "What does the passage suggest about automation and employment?",
+   "guidance": "That the effect is a shift rather than simple loss: many experts argue certain jobs will become obsolete while new opportunities emerge requiring different skill sets, which is why adaptability and continuous learning matter."
+  },
+  {
+   "id": "A6",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "What balance does the author suggest individuals should maintain?",
+   "guidance": "A balance between digital and real-world interactions — promoting responsible usage so society can harness technology's benefits while minimising its drawbacks."
+  },
+  {
+   "id": "A7",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "What is meant by 'continuous learning' in the context of the passage?",
+   "guidance": "Continually acquiring new and different skill sets so as to stay employable as automation and AI make some jobs obsolete and create others. Answer it in the passage's context of the changing workforce, not as a general definition of lifelong learning."
+  },
+  {
+   "id": "A8",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "Why has the risk of data misuse increased in recent years?",
+   "guidance": "Because individuals share more personal information online, which has increased the risk of data breaches and misuse — putting governments and organisations under pressure to impose stricter regulation and improve cybersecurity."
+  }
+ ]
+}

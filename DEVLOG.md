@@ -9,6 +9,286 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-15 — Practice Hub 2 takes six new papers to 803 questions, by reading the highlights the text layer cannot see — and the underline that *is* the question
+
+**What shipped.** Six MPSC booklets — three sittings, none previously mined —
+extracted, verified and merged into Practice Hub 2. It goes from 327 questions
+across 4 papers and 2 exams to **803 across 10 papers and 5 exams**, with no
+change to `app.js` beyond one cosmetic fix: exams, papers, mark schemes and
+topics all come from the generated bundle, which was the whole point of that
+pipeline's design.
+
+| Paper | Sitting | MCQ | Written | Mark scheme |
+|---|---|---|---|---|
+| Assistant LESO — General English | Apr 2026 | 66 | 9 | 66 × 1, no negative |
+| Assistant LESO — General Studies | Apr 2026 | 100 | — | 100 × 1, no negative |
+| SI Statistics — Paper I | Jan 2026 | 50 | 8 | 50 × 2, no negative |
+| SI Statistics — Paper II | Jan 2026 | 100 | — | 100 × 1, no negative |
+| Research Investigator — Paper I | May 2026 | 60 | 9 | 60 × 1, −1/3 |
+| Research Investigator — Paper II | May 2026 | 100 | — | 100 × 2, −1/3 |
+
+476 MCQs + 40 written items. Every mark scheme was read off the booklet cover,
+not guessed — and note that **only the two RI papers carry a negative-marking
+clause**. The other four state none, so their `negativeMark` is 0 and their mocks
+must not deduct. Copying 0.33 across from the existing papers would have silently
+misreported every LESO and SI score.
+
+New tooling in `tools/practice-hub-build/`: `extract.py`, `stage.py`,
+`merge_answers.py`, plus three authored inputs — `visual-fixes.json`,
+`conventional-sections.json` and `answers/<paperId>.json`.
+
+**Why the marked answers needed a renderer.** These booklets have the answer
+highlighted, which sounds like a free answer key and is not one. Two problems.
+
+First, the highlight is *invisible to every text tool*. It is a filled rectangle
+in the content stream; `pdftotext` cannot see it, and pdfminer reports every path
+as black. It only exists as colour, so the page has to be rasterised.
+
+The obvious method — cluster highlight-coloured pixels into boxes, read whatever
+text sits under each — was built first and is quietly wrong in **both**
+directions: padding loose enough to rejoin an antialiased fragment is also loose
+enough to merge two vertically adjacent options. It reported 74 highlights on a
+60-question paper and 99 on a 100-question one, simultaneously.
+
+Inverting it removes the clustering entirely: for each `(a)`–`(d)` marker the
+text layer already gives us, measure what fraction of its pixels carry the
+highlight colour. Coverage comes out sharply bimodal, and the fraction doubles as
+a confidence signal.
+
+The threshold is then derived, not tuned — but *how* matters. Splitting the
+distribution at its widest gap is the natural choice and it is subtly wrong:
+highlights vary in how tightly they are drawn, so the spread **within** the
+marked population can exceed the gap separating it from the unmarked one. On SI
+Paper II the widest gap fell at 0.436→0.204 rather than 0.204→0.0, which threw
+away a real but faintly-boxed mark on Q28 and reported the question as unmarked.
+Every MCQ carries exactly one highlight, so the cut is now chosen to maximise the
+number of questions with exactly one — optimising the structure we expect instead
+of a property of the histogram.
+
+**The underline is the question.** The find that justified the whole exercise.
+22 questions — LESO Paper I Q1–10 and Q51–52, SI Paper I Q31–40 — turn on a word
+underlined in the source, and the underline is a thin rectangle the text layer
+drops. Without it:
+
+- `Sawmi goes to school every day.` gives no way to know that only **every** is
+  underlined, not `every day` — which is the difference between determiner and
+  adverb, and the source's own highlight gets it wrong.
+- `Identify the underlined phrase: "She spoke in a very soft voice."` is
+  **literally unanswerable**.
+
+`README.md` already specified `**word**` for exactly this and nothing produced
+it. Underlines are now recovered from the rule geometry. Because headings are
+underlined too, all structural matching moved to an un-emphasised copy of each
+line — otherwise `**SECTION** **- A**` stops matching `SECTION_RE`.
+
+**Eight extraction bugs, each of which would have shipped silently.** Beyond the
+two above:
+
+1. Superscripts arrive as their own short line, so `x² − kx − 3 = 0` extracted as
+   `x−kx−3=0` — an unanswerable question with no visible damage. Now folded back
+   by vertical overlap. The same bug sent Q18's ordinals into Q17's option (d) as
+   `34 years thththth`, and Q89's exponents into Q88's.
+2. A bare `^\d+\.` question splitter shredded RI Paper II into questions numbered
+   1..200 with a fresh "Q1" on every page, because these papers print numbered
+   statement lists *inside* questions. Fixed by anchoring on the expected next
+   number — the same fix MES 2023 P3 needed (2026-09-05).
+3. Conventional sections number their written sub-parts `(a)`, `(b)`, `(c)`…
+   exactly like MCQ options, so SI Paper I's comprehension question was emitted
+   as a bogus 4-option MCQ with sub-part (e) pasted onto option (d). That is
+   precisely the corruption `CLAUDE.md` records from 2026-08-04. Section type is
+   now read from the booklet, which declares it.
+4. An option may quote another one — `Both (a) and (b) are correct` — and those
+   in-text references are shaped exactly like option markers. Taken as real they
+   overwrote the true (a)/(b) coverage with the 0.0 measured at the quote, which
+   is how SI Q89 lost a highlight that is plainly on the page. Markers must now
+   continue the a→b→c→d sequence.
+5. The rupee sign is drawn as vector art, absent from the text layer entirely —
+   `₹800 per month` extracted as `800 per month`.
+6. Running footers (`- 3 -`) and the end-of-paper `* * * * * * *` landed on
+   whichever option was open at the page break, shipping as part of an answer.
+7. A `Direction` stayed attached to every later question, so RI Q89 displayed the
+   two-statements rubric belonging to Q75 — 28 questions affected. A Direction
+   states the range it governs; it is now read.
+8. Stacked fractions and image-only options have no reading order to recover at
+   all. These are transcribed from renders via `visual-fixes.json` (23 questions),
+   applied over the extractor output so a re-extract cannot revert them.
+
+**Verification: the highlights are wrong six times in 476.** Every answer was
+re-derived independently rather than copied from the highlight, and every
+disagreement went to a second, adversarial adjudicator. 469 of 476 agreed; all
+**6 disputes were adjudicated "derived" at high confidence — the source highlight
+is wrong in every one**:
+
+- LESO P1 Q9 `Of two evils choose the **less**` — marked *adjective*, is a **noun**
+  (object of "choose", no following noun to modify).
+- LESO P1 Q58 — marked a `very ... that` construction that is not grammatical;
+  the complex sentence is `so ... that`.
+- LESO P2 Q83 — marked *three* biodiversity hotspots; India has **four**
+  (Sundaland reaches India via the Nicobars).
+- SI P1 Q33 `school **every** day` — marked *adverb*, is a **determiner**.
+- SI P1 Q38 `We are **pleased** to come here` — marked *verb*, is a participial
+  **adjective** (it takes "very"; a real passive cannot).
+- SI P2 Q45 — adjudicated against the highlight.
+
+Two adjudicators independently rendered the PDF to settle Q33, one measuring the
+underline rectangle at x 192.60–219.36 against `day.` beginning at 221.64. That
+is the same geometry the extractor now reads — arrived at from the other
+direction, which is the best confirmation available that the fix is right.
+
+Whole hub now: **702 high / 60 medium / 41 low** confidence, 12 answers differing
+from the marked key, 84 flagged. Nothing reads as authoritative by omission —
+these sittings have no official MPSC key and every answer renders `derived`.
+
+**Verified in the browser**, not just typechecked: dashboard counts, the
+Review → "differs from marked key" view showing both options with reasoning,
+underlines rendering as `<b>` with no literal `**` anywhere, the repaired maths
+questions, per-paper mock scoring (`−0.00` for the four papers with no penalty
+clause, `−0.33`/`−0.66` for RI), and the written sections rendering with their
+guidance. Console clean.
+
+**What's still open.**
+
+1. **41 low-confidence answers, concentrated in Mizoram-specific GK and 2026
+   current affairs** — Mizo folklore, local geography, a Mizo bird name, the
+   first woman Everest summiteer from Mizoram. These follow the source highlight
+   because nothing else was available, and they say so. They are the ones worth a
+   human pass.
+2. **Three genuinely figure-dependent questions** (RI P2 Q70 triangle count, Q99
+   figure series, Q100 dice) carry prose descriptions of images and cannot be
+   verified from text. Answers follow the highlight and are flagged.
+3. **84 flagged questions** include real source defects worth knowing before the
+   exam — RI P2 Q100 prints "Iron thong" and "Iron tong" as two separate options,
+   LESO P2 Q83 spells Sundaland as "Sunderland", SI P2 Q49–50's table had to be
+   recovered from the PDF.
+4. A few flag texts are stale: they describe extraction damage (asterisks,
+   missing underlines) that has since been fixed, because they were written
+   during the pass that found it.
+5. `expectedDescriptive` is asserted for the three papers with written sections
+   but the other three assert 0 — fine today, worth revisiting if a conventional
+   section is ever added to a Paper II.
+
+---
+
+## 2026-09-07 — MPSC Practice Hub 2 (written retroactively on 2026-09-15)
+
+**What shipped.** A fourth standalone static app at
+`/mpsc-practice-hub-2/index.html`, registered in `src/modules/registry.ts` as
+`practice-hub-2`. Distinct from the older
+`public/quick-practice/mpsc-mcq-practice-hub.html`. Built from four papers — JAO
+July 2026 Paper I & II, Circle Officer April 2026 Paper I & II — for 327 MCQs and
+14 written items. Six views: Dashboard, Browse Papers, Practice (filtered drill),
+Mock Test (real duration, mark scheme and negative marking), Review, Progress.
+Attempts live in `localStorage` under their own `ph2:v1` namespace, keyed
+`<paperId>:<questionId>`, which is what makes "not attempted" and "wrong last
+time" survive a rebuild.
+
+**Why it is logged late.** It never got an entry — this is the gap being closed.
+Worth recording for itself: nothing paper-specific lives in `app.js`, so adding a
+paper is authoring `staged/<paperId>.json`, adding counts to `expected.json`, and
+running `validate.py` then `build.py`. The 2026-09-15 session above added six
+papers and touched `app.js` exactly once, for a cosmetic null-series fix — which
+is the design working.
+
+Two decisions from that build worth keeping in view: `marked` (the PDF highlight)
+and `answer` are separate fields on purpose, because MPSC published no key for
+these sittings and the highlights contain outright errors; and `expected.json` is
+a hard count gate rather than a hint, a direct descendant of the ~280-question
+silent-loss incident of 2026-08-04.
+
+---
+
+## 2026-09-05 (night, later) — The last unmined paper is extracted, and the answer to "where are the Web Technologies past questions" is: there are three, in the whole corpus
+
+**What shipped.** **MES P&E Electrical Wing, July 2023, Paper III** — the last
+paper in `mpsc-cse-papers/` with zero questions in the bank — is fully extracted
+and classified, staged in `tools/system-analyst-build/staged/mes-elec2023-p3/`.
+70 questions recovered (Section A 50/50, Section B 20/20, contiguous), classified
+**26 on-syllabus / 44 off**: 25 DBMS (TECH2 unit 3) and **1 Web Technologies**.
+**Nothing is merged into the live bank yet** — staging and classification only.
+
+Both extraction traps `mpsc-cse-papers/README.md` documents for this paper were
+live and both were handled:
+
+- The wrapped line **`46.4 ms.`** (`_source.txt` line 282) is a continuation of
+  Section B Q12. A bare `^\s*\d+\.` splitter reads it as "question 46", which
+  would tear Q12 in half and desynchronise every question after it. The splitter
+  anchors on the expected next number (13) instead. Verified after the fact: Q12
+  is whole and no phantom Q46 exists.
+- Two questions lost content to the text layer and were recovered by rendering
+  the page: Section B Q2's five functional-dependency arrows (`CH → G` printed as
+  `CH  G`) and Section A Q21's `∞`.
+
+Two things that *looked* like extraction damage were checked against the render
+and left verbatim, because they are what the paper prints: Section B Q9's file
+size as `106 bits` (inconsistent with `10^8 meters per second` two lines down)
+and Q19's `x = x - y,` ending in a comma. Section A Q21 also refers to "the
+previous question" for a routing setup Q20 does not provide — a defect in the
+source paper, flagged rather than repaired.
+
+**Why this was the session's question, and what the real answer turned out to be.**
+The ask was to "complete the System Analyst Web Technologies questions from the
+CSE 2015 paper", possibly a Paper III, possibly a "computer engineering" PDF. The
+premise does not survive contact with the sources, and the useful finding is the
+negative one:
+
+- The three MES Nov 2015 papers contain **no** Web Technologies content. A
+  keyword sweep of their text layers returns four hits, all inside one
+  data-communications block (transmission medium, gateway, OSI layers,
+  topology). Paper II is pure C++/OOP; Paper I is an image-only scan already in
+  the bank.
+- Swept **all 18 PDFs**. Every web-keyword hit in every paper lands in a
+  computer-networks or software-engineering block — both of which the 2026
+  syllabus dropped outright.
+- Audited the already-imported Paper IIIs for *wrongly excluded* web questions,
+  since that was the real risk. There are none: each of the 64+64+30 `off`
+  verdicts names data communications specifically, and the classifier had
+  already correctly caught the two genuine ones.
+
+So across all 18 papers there are exactly **three** real Web Technologies
+questions: ILM 2023 P3 Q50 (ICANN manages domain names), ILM 2023 P3 Q87 (HTTP
+default port 80) — both already in the bank — and the one found this session,
+MES Electrical 2023 P3 Q33 ("Identify the protocol primarily used for browsing
+data" → HTTP), classified `medium` confidence deliberately, not inflated: it
+sits in a run of otherwise-off networking questions and its only web content is
+naming HTTP.
+
+The structural reason is worth writing down so nobody re-runs this search:
+**MPSC has never examined Web Technologies for this post.** It is Unit 2 of the
+2026 Informatics Officer syllabus, and every paper in this repo predates it.
+Unit 2's 120 questions are 118 authored + 2 real, and that ratio is not a gap in
+the import pipeline — it is the ceiling the source material imposes. Web
+Technologies marks can only ever be authored.
+
+**What's still open.**
+
+1. **The 26 on-syllabus questions are unsolved and unmerged.** No answers yet.
+   The 7 Section B DBMS questions need a decision first — see
+   `import_pe2018_secb_gen.py`, which records that `MES2023_P1_B020` (Section B
+   of this *same* sitting's Paper I) was pulled from the bank after an import
+   mangled a multi-part question into bad MCQ options. Its resolution was to
+   author standalone MCQs on the same topics rather than import Section B as
+   `type: 'descriptive'`. Same call applies here.
+2. **Unit 2 (Web Technologies) is the one unit still at 12 per leaf** while
+   Units 1 and 4 went to 18 (previous entry). 10 leaves × 6 = 60 questions to
+   close it. Given the finding above, this is authoring work by necessity, not
+   by shortcut.
+3. **A real silent extraction gap, found in passing: 40 short-answer questions
+   never extracted.** MES Nov 2015 Papers II and III each print a
+   `Part B - Short Answer Questions (100 Marks)` section of 20 questions.
+   `cse-2015-import/staged/descriptive.json` holds 100 descriptive records, all
+   from MES2023 and MES2018, and **zero** from MES2015 — `parse_report.json`
+   reports `descriptive: 0` for both files. This is the "Part A/Part B, not
+   SECTION - A/B" trap the README names, but it was only ever avoided for the
+   MCQ split; the descriptive pass looked for `SECTION` and matched nothing,
+   which read as "this paper has no Section B" rather than as a failed match.
+   200 marks of real material, still unrecovered.
+4. `mpsc-cse-papers/README.md`'s Paper III table was stale on one row — MES P&E
+   Aug 2018 Paper III reads "pending" but has been imported (20 of 50) since
+   `staged/pe2018-p3-import.json`. Corrected in this session along with the row
+   for this paper.
+
+---
+
 ## 2026-09-05 (night, last) — OOP and Cloud to 18 per leaf, one reusable pipeline instead of a third copied importer, and a coverage audit that measures syllabus phrases rather than counting questions
 
 **What shipped.** Technical Paper II Units 1 (OOP) and 4 (Cloud Computing) both go

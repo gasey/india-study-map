@@ -1,0 +1,1384 @@
+{
+ "paperId": "jao-2026-p1",
+ "exam": "Junior Accounts Officer (JAO)",
+ "examShort": "JAO",
+ "dept": "Food, Civil Supplies & Consumer Affairs Department, Govt. of Mizoram",
+ "sitting": "July 2026",
+ "year": 2026,
+ "paper": "Paper I",
+ "paperTitle": "General English",
+ "series": "A",
+ "maxMarks": 100,
+ "durationMin": 180,
+ "negativeMark": 0.33,
+ "markPerQuestion": 1,
+ "sourcePdf": "jr-accounts-officer-paper-i-general-english-series-a.pdf",
+ "descriptive": [
+  {
+   "id": "A1",
+   "n": 1,
+   "kind": "essay",
+   "marks": 10,
+   "prompt": "Write an essay on any one of the following topics:",
+   "choices": [
+    "(a) Digital Ration Cards and the Modernisation of the Public Distribution System",
+    "(b) The Impact of Digital Technology and Internet Connectivity on Education and Employment in Mizoram",
+    "(c) Eco-Tourism: The Future of Mizoram's Economy."
+   ],
+   "passage": null,
+   "guidance": "Ten marks buys roughly 400-500 words, so the examiner is looking for a tight four-to-five paragraph essay, not a survey. Structure: (1) a definitional opening that states your thesis in one sentence; (2) two or three body paragraphs each carrying one argument plus one concrete, checkable detail; (3) a conclusion that names a specific way forward rather than restating the introduction. Because this is a Food & Civil Supplies Department paper, ground the essay in the department's own world wherever the topic allows: topic (a) should cover One Nation One Ration Card portability, Aadhaar seeding and ePoS authentication at fair price shops, leakage and ghost-card elimination, and the connectivity and biometric-failure problems that hit hill districts hardest. Topic (b) should contrast the National Optical Fibre / BharatNet rollout and 4G reach in Mizoram with the reality of terrain, power cuts and device access, then move to online education after 2020, remote and gig work, and the state's IT/BPO ambitions. Topic (c) should name real Mizoram assets - Reiek, Phawngpui (Blue Mountain) National Park, Vantawng Falls, Murlen and Dampa, Champhai's vineyards, homestay-based village tourism - and argue the carrying-capacity and community-ownership case rather than merely praising the scenery. In every version, close with a policy-flavoured recommendation; a Jr. Accounts Officer paper rewards the administrative register over the lyrical one."
+  },
+  {
+   "id": "A2",
+   "n": 2,
+   "kind": "precis",
+   "marks": 10,
+   "prompt": "Write a precis of the following passage.",
+   "choices": null,
+   "passage": "The greatness of a nation is often measured by its economic prowess or military strength, yet the true bedrock of a stable society lies in the character and ethical conduct of its individual citizens. Character is not an inherited trait but a cultivated habit, forged in the crucible of daily choices and social interactions. In a world increasingly driven by material competition, the virtues of empathy, integrity, and self-discipline are frequently sidelined as antiquated ideals. However, history demonstrates that without a strong moral compass, the most sophisticated civilizations eventually crumble under the weight of internal greed and social fragmentation.\n\nEducation plays a pivotal role in this character-building process, though its current trajectory often leans dangerously toward mere vocational training. True education should aim at the “refinement of the soul,” encouraging individuals to look beyond personal gain toward the collective welfare. When citizens prioritize their duties over their rights, the social fabric strengthens, creating an environment where justice and harmony can flourish naturally. This transition from “self-centeredness” to “social-consciousness” is the hallmark of a mature society.\n\nMoreover, leadership in such a society must not be defined by the exercise of power, but by the spirit of service. A leader who lacks integrity cannot inspire a nation to greatness, regardless of their intellectual brilliance. Therefore, the pursuit of ethical excellence is not merely a personal spiritual journey but a fundamental civic necessity for the survival and prosperity of any organized human community.",
+   "guidance": "The passage runs to 240 words, so write about 80 words - one-third is the standing convention, and examiners do count. Give it a title (something like \"Character: The Real Strength of a Nation\") and write it as a single unbroken paragraph in your own words, in the third person and the past-neutral reporting register; never quote, never use \"I\" or \"the author says\", and never add an example or opinion of your own. The central thesis to preserve is this: a nation's true strength rests not on wealth or arms but on the cultivated moral character of its citizens. The three supporting movements you must not drop are (1) character is a cultivated habit, not an inheritance, and civilizations without a moral compass collapse from internal greed; (2) education must refine character rather than merely train for a vocation, shifting people from self-centredness to social consciousness and from rights to duties; (3) leadership must rest on service and integrity, not power, which makes ethical excellence a civic necessity rather than a private pursuit. Safe to compress or cut: the lists of virtues (empathy, integrity, self-discipline), the \"crucible of daily choices\" metaphor, and \"regardless of their intellectual brilliance\"."
+  },
+  {
+   "id": "A3",
+   "n": 3,
+   "kind": "letter",
+   "marks": 10,
+   "prompt": "As a Jr. Accounts Officer, write a formal letter to a ration shop dealer directing him/her to maintain proper stock and distribution records and to ensure fair distribution of essential commodities to consumers.",
+   "choices": null,
+   "passage": null,
+   "guidance": "This is an official/government letter from an officer to a licensee, not a business letter between equals, so use the full official format and a directive tone: sender's designation and office block (Jr. Accounts Officer, Food, Civil Supplies & Consumer Affairs Department, Government of Mizoram), letter number and date, then \"To: The Dealer, Fair Price Shop No. ____\", then \"Subject: Maintenance of stock and distribution records and fair distribution of essential commodities - reg.\", then a \"Sir/Madam,\" salutation. Body in three short paragraphs: (1) the occasion - inspection findings, consumer complaints, or a routine review have shown lapses in record-keeping; (2) the actual directions, numbered, which is where the marks sit - maintain the stock register, sales/distribution register and beneficiary register up to date daily, display the stock position, rates and shop timings on the notice board, issue receipts, use the ePoS device for every transaction and complete biometric authentication, distribute the full entitled quantity at the notified issue price without any deduction or overcharging, and keep the shop open on the notified days and hours; (3) the compliance clause - submit monthly returns by a stated date, produce all records for inspection on demand, and a warning that failure will attract action under the Essential Commodities Act, 1955 and the terms of the licence. Close with \"Yours faithfully,\" the signature block with designation, and a \"Copy to:\" line for the District Supply Officer. Keep it under one page; the examiner rewards correct format and specific, enforceable directions far more than fine prose."
+  },
+  {
+   "id": "partA-passage",
+   "n": 0,
+   "kind": "passage",
+   "marks": 0,
+   "prompt": "Read the following passage carefully and answer the questions that follow (Q4-Q10).",
+   "choices": null,
+   "passage": "The small hill station looked especially beautiful after the rain. Drops of water still clung to the pine needles, and a thin mist floated slowly across the valley. Binya walked carefully along the narrow mountain path with a basket of apricots balanced on her head. The earth smelled fresh and clean, and from somewhere in the forest came the soft call of a cuckoo. At the edge of the road stood an old cherry tree. Beneath it sat Grandfather Hari, wrapped in a faded woollen shawl, watching the clouds drift over the hills. Every morning, he came to the same spot with his walking stick and a small tin cup of tea.\n\n“Good morning, Grandfather,” Binya called cheerfully. “Ah, Binya,” he replied with a smile. “You are late today.” “The rain flooded the lower path,” she explained. “I had to walk through the forest trail.”\n\nGrandfather Hari nodded slowly. “The forest keeps many secrets after rain,” he said. “When I was young, I once lost my way there for two whole days.” Binya laughed. “You must have been frightened!” “Not frightened,” he said thoughtfully. “Only lonely. But the trees became my friends. In the hills, one is never truly alone.” A cool wind rustled through the branches above them. For a few moments neither spoke. They listened to the distant sound of cowbells and the steady murmur of the river far below.\n\nThen Grandfather Hari pointed toward a small green shoot growing beside the cherry tree. “That little plant was only a seed when your father was a boy,” he said proudly. “Now look at it. Someday it will give shade to travellers long after we are gone.” Binya looked at the young tree quietly. Somehow, the hills suddenly seemed older and wiser than before.",
+   "guidance": "This is the source text for Q4-Q8 (one-mark MCQs) and Q9-Q10 (written answers). The passage is a Ruskin Bond-style hill-station vignette; every factual MCQ answer is stated literally in the text, so the marks are lost only by careless reading. Note the two details candidates most often misread: Grandfather Hari sits beneath the cherry tree (not near the river, though the river is audible far below), and it was the trees - not people or animals - that became his friends when he was lost in the forest as a young man."
+  },
+  {
+   "id": "A9",
+   "n": 9,
+   "kind": "comprehension_written",
+   "marks": 2,
+   "prompt": "What did Grandfather Hari say about the small green shoot beside the cherry tree?",
+   "choices": null,
+   "passage": null,
+   "guidance": "Model answer (2 marks, two or three sentences): Grandfather Hari pointed to the small green shoot growing beside the cherry tree and said proudly that the little plant had been only a seed when Binya's father was a boy. He told her to look at how much it had grown, and said that someday it would give shade to travellers long after he and Binya were gone. The two marks are carried by the two facts - that it was a mere seed in her father's boyhood, and that it will one day shade travellers after they are gone - so a candidate who mentions only the growth and omits the future shade should expect one mark. Write it in your own words and in reported speech; do not simply copy the quoted lines."
+  },
+  {
+   "id": "A10",
+   "n": 10,
+   "kind": "comprehension_written",
+   "marks": 3,
+   "prompt": "What idea does the passage convey about nature and human life?",
+   "choices": null,
+   "passage": null,
+   "guidance": "Model answer (3 marks, a short paragraph of four or five sentences): The passage suggests that human life and nature are quietly bound together, and that nature is a companion and a teacher rather than a mere setting. Grandfather Hari's memory of being lost in the forest shows this - he was lonely but not frightened, because the trees became his friends, and in the hills, as he says, one is never truly alone. The passage also sets human life against nature's longer time-scale: the seed planted in Binya's father's boyhood is now a young tree that will shade travellers long after both of them are gone, so nature outlives us and our care for it becomes a gift to people we will never meet. That thought is what makes the hills seem to Binya suddenly older and wiser than before. Structure your three marks as one idea each - companionship, continuity across generations, and the humility or wisdom nature teaches - and anchor each to a detail from the passage rather than writing general praise of nature."
+  }
+ ],
+ "questions": [
+  {
+   "id": "A4",
+   "n": 4,
+   "part": "A",
+   "direction": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:",
+   "passageRef": "partA-passage",
+   "q": "What was the weather like in the hill station?",
+   "opts": {
+    "a": "Hot and dusty",
+    "b": "Rainy and misty",
+    "c": "Stormy and windy",
+    "d": "Snowy and cold"
+   },
+   "marked": null,
+   "answer": "b",
+   "conf": "high",
+   "why": "The opening lines state the hill station looked beautiful after the rain, that drops of water still clung to the pine needles and that a thin mist floated across the valley. Nothing in the passage suggests storm, snow or dust; the wind mentioned later is only a cool breeze rustling the branches, not stormy weather.",
+   "topic": "comprehension",
+   "flag": null
+  },
+  {
+   "id": "A5",
+   "n": 5,
+   "part": "A",
+   "direction": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:",
+   "passageRef": "partA-passage",
+   "q": "Where was Grandfather Hari sitting?",
+   "opts": {
+    "a": "Outside his house",
+    "b": "Near the river",
+    "c": "Beneath a cherry tree",
+    "d": "Inside the forest"
+   },
+   "marked": null,
+   "answer": "c",
+   "conf": "high",
+   "why": "An old cherry tree stood at the edge of the road, and the passage says that beneath it sat Grandfather Hari, wrapped in a faded woollen shawl. \"Near the river\" is the trap: the river is mentioned, but only as a steady murmur heard far below.",
+   "topic": "comprehension",
+   "flag": null
+  },
+  {
+   "id": "A6",
+   "n": 6,
+   "part": "A",
+   "direction": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:",
+   "passageRef": "partA-passage",
+   "q": "Why was Binya late?",
+   "opts": {
+    "a": "She overslept and missed the bus",
+    "b": "The rain flooded the lower path and she had to walk",
+    "c": "She lost her way in the forest",
+    "d": "She had to cross the flooded river on a boat"
+   },
+   "marked": null,
+   "answer": "b",
+   "conf": "high",
+   "why": "Binya explains in her own words that the rain flooded the lower path and that she had to walk through the forest trail instead. Option (c) belongs to Grandfather Hari, who lost his way in the forest as a young man - not to Binya.",
+   "topic": "comprehension",
+   "flag": null
+  },
+  {
+   "id": "A7",
+   "n": 7,
+   "part": "A",
+   "direction": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:",
+   "passageRef": "partA-passage",
+   "q": "What did Grandfather Hari say about the forest?",
+   "opts": {
+    "a": "It should be avoided",
+    "b": "It is a mysterious and dangerous place",
+    "c": "It keeps many secrets after rain",
+    "d": "It makes you lonely"
+   },
+   "marked": null,
+   "answer": "c",
+   "conf": "high",
+   "why": "His exact remark is that the forest keeps many secrets after rain. Option (d) misattributes the loneliness: he says he felt lonely when he was lost, but immediately adds that the trees became his friends, so he does not claim the forest makes one lonely.",
+   "topic": "comprehension",
+   "flag": null
+  },
+  {
+   "id": "A8",
+   "n": 8,
+   "part": "A",
+   "direction": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:",
+   "passageRef": "partA-passage",
+   "q": "Who became friends of Binya's grandfather when he was a boy?",
+   "opts": {
+    "a": "The animals in the forest",
+    "b": "The boys in his village",
+    "c": "The trees in the forest",
+    "d": "The cows in the hills"
+   },
+   "marked": null,
+   "answer": "c",
+   "conf": "high",
+   "why": "Recalling the two days he was lost, Grandfather Hari says he was not frightened, only lonely, \"But the trees became my friends.\" The cowbells heard in the distance are scenery, not companions, which is what makes option (d) tempting to a skimming reader.",
+   "topic": "comprehension",
+   "flag": null
+  },
+  {
+   "id": "B1",
+   "n": 1,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The famous gym in that area is hers. In the sentence, “hers” is a:",
+   "opts": {
+    "a": "Possessive adjective",
+    "b": "Reflexive pronoun",
+    "c": "Possessive pronoun",
+    "d": "Demonstrative pronoun"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Hers\" stands alone as the complement of \"is\" and replaces a whole noun phrase (\"her gym\"), which is exactly what a possessive pronoun does. A possessive adjective such as \"her\" cannot stand alone - it must sit before a noun - so (a) is the trap here.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B2",
+   "n": 2,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following is a pronoun?",
+   "opts": {
+    "a": "Alas!",
+    "b": "River",
+    "c": "They",
+    "d": "Softly"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"They\" is a third-person plural personal pronoun, a word used in place of a noun. \"Alas!\" is an interjection, \"River\" a common noun and \"Softly\" an adverb.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B3",
+   "n": 3,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A word that modifies a verb, an adjective, or another adverb is called:",
+   "opts": {
+    "a": "Adjective",
+    "b": "Preposition",
+    "c": "Adverb",
+    "d": "Conjunction"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "That is the textbook definition of an adverb. An adjective modifies only a noun or pronoun, which is the distinction the question is testing.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B4",
+   "n": 4,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the sentence where “watch” is used as a noun.",
+   "opts": {
+    "a": "They watch television every evening.",
+    "b": "Please watch the road carefully.",
+    "c": "His watch stopped working yesterday.",
+    "d": "The teacher asked us to watch the experiment quietly."
+   },
+   "marked": "d",
+   "answer": "c",
+   "conf": "high",
+   "why": "In (c) \"watch\" is preceded by the possessive determiner \"His\" and is the subject of the verb \"stopped\" - it names a timepiece, so it is a noun. In the marked option (d) \"to watch\" is an infinitive verb governing the object \"the experiment\"; (a) and (b) are likewise finite and imperative verbs. The marked answer (d) is wrong.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B5",
+   "n": 5,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following words functions as a **determiner** in the sentence 'Several students participated in the competition'?",
+   "opts": {
+    "a": "Students",
+    "b": "Participated",
+    "c": "Several",
+    "d": "Competition"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Several\" sits before the noun \"students\" and specifies quantity, which is the defining job of a determiner. \"Students\" and \"competition\" are nouns and \"participated\" is the verb.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B6",
+   "n": 6,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which part of speech describes a noun?",
+   "opts": {
+    "a": "Verb",
+    "b": "Adjective",
+    "c": "Pronoun",
+    "d": "Conjunction"
+   },
+   "marked": "a",
+   "answer": "b",
+   "conf": "high",
+   "why": "An adjective is by definition the part of speech that describes or qualifies a noun or pronoun. The marked answer (a) Verb is plainly wrong - a verb expresses action or state; a pronoun replaces a noun rather than describing it.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B7",
+   "n": 7,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following is a common noun?",
+   "opts": {
+    "a": "India",
+    "b": "Monday",
+    "c": "Country",
+    "d": "Dr. Ravi"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Country\" names a class of things rather than one particular member of it, which is what makes it a common noun. \"India\", \"Monday\" and \"Dr. Ravi\" are all proper nouns naming specific entities.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B8",
+   "n": 8,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which word replaces a noun?",
+   "opts": {
+    "a": "Adjective",
+    "b": "Verb",
+    "c": "Pronoun",
+    "d": "Adverb"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "A pronoun is used in place of a noun, which is the standard definition. An adjective merely qualifies a noun; it does not stand in for one.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B9",
+   "n": 9,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The word “eloquently” modifies:",
+   "opts": {
+    "a": "Noun",
+    "b": "Verb",
+    "c": "Pronoun",
+    "d": "Article"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The -ly ending marks \"eloquently\" as an adverb of manner, and an adverb of manner typically modifies a verb (\"she spoke eloquently\"). Adverbs never modify nouns, pronouns or articles, so (a), (c) and (d) are ruled out on principle.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B10",
+   "n": 10,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A non-finite verb ending in 'ing' that functions as a noun is called a:",
+   "opts": {
+    "a": "Participle",
+    "b": "Gerund",
+    "c": "Infinitive",
+    "d": "Auxiliary"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A gerund is the -ing form of a verb doing the work of a noun, as in \"Swimming is good exercise\". The present participle has the same -ing shape but works as an adjective or forms continuous tenses, which is why (a) is the standing trap in this pair.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B11",
+   "n": 11,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "The **children** played happily.",
+   "opts": {
+    "a": "Pronoun",
+    "b": "Noun",
+    "c": "Verb",
+    "d": "Adverb"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Children\" names the people performing the action and is the subject of \"played\", preceded by the article \"The\" - both marks of a noun (here the irregular plural of \"child\").",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B12",
+   "n": 12,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "She bought a **turquoise** dress",
+   "opts": {
+    "a": "Verb",
+    "b": "Adjective",
+    "c": "Noun",
+    "d": "Conjunction"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Here \"turquoise\" stands between the article and the noun and describes the colour of the dress, so it is an adjective. \"Turquoise\" can also be a noun (the gemstone or the colour itself), which is the trap in option (c), but in this position it qualifies \"dress\".",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B13",
+   "n": 13,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "Abigail wanted to go shopping, **but** she stayed home because of the rain.",
+   "opts": {
+    "a": "Preposition",
+    "b": "Conjunction",
+    "c": "Interjection",
+    "d": "Adverb"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"But\" here joins two complete independent clauses in a relation of contrast, which makes it a coordinating conjunction. Contrast this with Q16, where \"but\" means \"except\" and governs a noun phrase instead.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B14",
+   "n": 14,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "We walked **across** the bridge.",
+   "opts": {
+    "a": "Verb",
+    "b": "Preposition",
+    "c": "Adjective",
+    "d": "Pronoun"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Across\" takes the noun \"the bridge\" as its object and shows the relation between that noun and the verb \"walked\", so it is a preposition. Had the sentence ended \"We walked across\" with no object following, it would have been an adverb - the same test that decides Q19 and Q20.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B15",
+   "n": 15,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "**Gosh!** I didn't expect to fail!",
+   "opts": {
+    "a": "Interjection",
+    "b": "Adverb",
+    "c": "Conjunction",
+    "d": "Preposition"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Gosh!\" expresses sudden emotion, stands outside the grammar of the sentence and carries its own exclamation mark - the classic signature of an interjection.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B16",
+   "n": 16,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "None **but** the brave deserve the fair.",
+   "opts": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Pronoun",
+    "d": "Preposition"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "In this proverb \"but\" means \"except\" and governs the noun phrase \"the brave\", so it is a preposition - Wren & Martin cite this very sentence as the standard example. \"But\" can also be an adverb meaning \"only\" (\"He is but a child\") or a relative pronoun (\"There is no one but knows it\"), but neither reading fits here, and \"conjunction\" is not even offered.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B17",
+   "n": 17,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "He talks **like** his father.",
+   "opts": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Pronoun",
+    "d": "Preposition"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Like\" here takes the noun phrase \"his father\" as its object and expresses resemblance, which makes it a preposition. It would be a conjunction only if a clause with its own verb followed (\"He talks like his father does\"), and prescriptive grammar prefers \"as\" in that case - but \"conjunction\" is not an option and no clause follows.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B18",
+   "n": 18,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "The earth is **round.**",
+   "opts": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Preposition",
+    "d": "Noun"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Round\" follows the linking verb \"is\" and describes the subject \"The earth\", so it is a predicative adjective. \"Round\" can elsewhere be a preposition (\"round the corner\"), an adverb (\"turn round\") or a noun (\"a round of applause\"), but after a copular verb describing the subject it can only be an adjective.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B19",
+   "n": 19,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "The **after** effects of the drug are dangerous.",
+   "opts": {
+    "a": "Preposition",
+    "b": "Adverb",
+    "c": "Adjective",
+    "d": "Noun"
+   },
+   "marked": "b",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"After\" here sits between the article and the noun and qualifies \"effects\" - which effects? the after ones - so it is an attributive adjective, exactly as in \"in after years\". The marked answer (b) Adverb is wrong: there is no verb, adjective or adverb here for it to modify, and it is not a preposition either because it governs no object. Compare Q20, where the same word genuinely is an adverb.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B20",
+   "n": 20,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "passageRef": null,
+   "q": "They arrived soon **after**.",
+   "opts": {
+    "a": "Preposition",
+    "b": "Adjective",
+    "c": "Conjunction",
+    "d": "Adverb"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Nothing follows \"after\" - it has no object - so it cannot be a preposition; it stands at the end modifying the verb \"arrived\" in time, which makes it an adverb. The presence or absence of an object is the whole test that separates this from Q14.",
+   "topic": "parts_of_speech",
+   "flag": null
+  },
+  {
+   "id": "B21",
+   "n": 21,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Select the correct sentence.",
+   "opts": {
+    "a": "Neither of the answers are correct.",
+    "b": "Neither of the answers is correct.",
+    "c": "Neither of the answer were correct.",
+    "d": "Neither of the answers have correct."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Neither\" is the singular subject and takes the singular verb \"is\"; the plural \"answers\" inside the of-phrase is not the subject, which is the proximity trap that makes (a) sound acceptable in speech. Option (c) also mismatches \"the answer\" with \"were\", and (d) is simply ungrammatical.",
+   "topic": "subject_verb_agreement",
+   "flag": null
+  },
+  {
+   "id": "B22",
+   "n": 22,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the correct word to complete the sentence: He has been working here _________ 2020.",
+   "opts": {
+    "a": "for",
+    "b": "from",
+    "c": "since",
+    "d": "by"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"2020\" is a point in time, and with the present perfect continuous a point of origin takes \"since\". \"For\" would need a duration (\"for five years\"), and \"from\" needs a matching end point (\"from 2020 to 2023\") and does not idiomatically pair with the present perfect.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B23",
+   "n": 23,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Identify the correctly used idiom.",
+   "opts": {
+    "a": "He kicked the bucket with anger.",
+    "b": "They hit the books on the playground.",
+    "c": "He broke the ice by falling down.",
+    "d": "She spilled the beans about the surprise party."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Spill the beans\" means to reveal a secret, and revealing a surprise party is exactly that use. \"Kick the bucket\" means to die, so it cannot be done \"with anger\"; \"hit the books\" means to study hard, not something done on a playground; and \"break the ice\" means to ease initial awkwardness, not to slip over.",
+   "topic": "idioms_phrases",
+   "flag": null
+  },
+  {
+   "id": "B24",
+   "n": 24,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the correct sentence.",
+   "opts": {
+    "a": "The furniture are expensive.",
+    "b": "The furniture is expensive.",
+    "c": "The furnitures are expensive.",
+    "d": "The furnitures is expensive."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Furniture\" is an uncountable noun: it has no plural form \"furnitures\" and takes a singular verb. That kills (c) and (d) outright and leaves (a) failing on agreement.",
+   "topic": "subject_verb_agreement",
+   "flag": null
+  },
+  {
+   "id": "B25",
+   "n": 25,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the antonym of “expand.”",
+   "opts": {
+    "a": "Increase",
+    "b": "Develop",
+    "c": "Reduce",
+    "d": "Stretch"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "To expand is to grow larger, so \"reduce\" - to make smaller - is the opposite. Increase, develop and stretch are all synonyms or near-synonyms of expand, which is why (c) is the only option pointing the other way.",
+   "topic": "vocabulary_antonym",
+   "flag": null
+  },
+  {
+   "id": "B26",
+   "n": 26,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the correct sentence.",
+   "opts": {
+    "a": "Each of the boys have completed the task.",
+    "b": "Each of the boys has completed the task.",
+    "c": "Each of the boys were completed the task.",
+    "d": "Each of the boys complete the task."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Each\" is a singular distributive pronoun and takes the singular verb \"has\", regardless of the plural \"boys\" that follows in the of-phrase. Option (c) additionally turns an active sentence into a nonsensical passive, and (d) uses the plural \"complete\".",
+   "topic": "subject_verb_agreement",
+   "flag": null
+  },
+  {
+   "id": "B27",
+   "n": 27,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the correct word to fill in the bank. I deeply _________ getting pregnant but I couldn't go against the wishes of my boyfriend.",
+   "opts": {
+    "a": "dreaded",
+    "b": "wanted",
+    "c": "eagerly",
+    "d": "wished"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The contrastive \"but I couldn't go against the wishes of my boyfriend\" requires a verb of aversion in the blank - the speaker did not want this but yielded anyway - and only \"dreaded\" supplies it. \"Wanted\" and \"wished\" destroy the contrast, and \"eagerly\" is an adverb, which is ungrammatical after \"I deeply\". (The paper prints \"fill in the bank\" for \"blank\"; the typo is retained verbatim.)",
+   "topic": "word_usage",
+   "flag": null
+  },
+  {
+   "id": "B28",
+   "n": 28,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "One who talks while asleep is called:",
+   "opts": {
+    "a": "Somnambulist",
+    "b": "Somniloquist",
+    "c": "Somniferous",
+    "d": "Sleeptalker"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Latin somnus (sleep) plus loqui (to speak) gives somniloquist, one who talks in his sleep. A somnambulist walks in his sleep (ambulare, to walk) and somniferous means sleep-inducing; \"sleeptalker\" is a plain descriptive compound, not the one-word substitution being tested.",
+   "topic": "one_word_substitution",
+   "flag": null
+  },
+  {
+   "id": "B29",
+   "n": 29,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Iconoclast is one who:",
+   "opts": {
+    "a": "Destroys images.",
+    "b": "A group of icons.",
+    "c": "Is a popular figure of the society.",
+    "d": "Is a popular figure of the history."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "From Greek eikon (image) and klastes (breaker), an iconoclast is literally an image-breaker, and by extension one who attacks cherished beliefs. Option (b) does not even fit the frame \"one who...\", and (c) and (d) confuse iconoclast with \"icon\".",
+   "topic": "one_word_substitution",
+   "flag": null
+  },
+  {
+   "id": "B30",
+   "n": 30,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "One who collects coins is:",
+   "opts": {
+    "a": "Collector",
+    "b": "Narcissist",
+    "c": "Calligrapher",
+    "d": "Numismatist"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Numismatics is the study and collection of coins and currency, so its practitioner is a numismatist. \"Collector\" is the generic word the question is asking you to replace; a narcissist is in love with himself and a calligrapher practises fine handwriting.",
+   "topic": "one_word_substitution",
+   "flag": null
+  },
+  {
+   "id": "B31",
+   "n": 31,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A government ruled by the people is called:",
+   "opts": {
+    "a": "Monarchy",
+    "b": "Dictatorship",
+    "c": "Democracy",
+    "d": "Oligarchy"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Greek demos (people) plus kratos (rule) gives democracy. Monarchy is rule by a single hereditary sovereign, dictatorship rule by an absolute ruler, and oligarchy rule by a small privileged group.",
+   "topic": "one_word_substitution",
+   "flag": null
+  },
+  {
+   "id": "B32",
+   "n": 32,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A ____________ of pilgrims entered the city.",
+   "opts": {
+    "a": "band",
+    "b": "bevy",
+    "c": "assembly",
+    "d": "herd"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "\"A band of pilgrims\" is the pairing that appears in the standard collective-noun lists these papers draw on, alongside \"a band of musicians\" and \"a band of robbers\". \"Bevy\" belongs to quails or ladies and \"herd\" to cattle, so both are clearly wrong; \"assembly\" is the real competitor, since an assembly is a gathering of people, but it is a generic word for any meeting rather than the fixed collective for pilgrims.",
+   "topic": "collective_nouns",
+   "flag": "Two options are defensible: 'assembly' is ordinary English for a gathering of people and would not be wrong in isolation. 'Band' is the conventional textbook collective for pilgrims and is almost certainly the intended key."
+  },
+  {
+   "id": "B33",
+   "n": 33,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A ____________ of dogs was spotted nearby.",
+   "opts": {
+    "a": "litter",
+    "b": "kennel",
+    "c": "gaggle",
+    "d": "pride"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "\"Gaggle\" belongs to geese and \"pride\" to lions, so both are out; \"litter\" is used only of newborn puppies (or kittens or piglets), not of dogs generally. That leaves \"kennel\", which the traditional collective-noun lists do give for dogs, even though the word more naturally names the shelter than the group.",
+   "topic": "collective_nouns",
+   "flag": "The genuinely standard collective for dogs - 'a pack of dogs' - is not among the options. 'Kennel' is the best of what is offered and is listed in the usual exam tables, but it is a weak collective noun since it primarily denotes the shelter rather than the group."
+  },
+  {
+   "id": "B34",
+   "n": 34,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "An ____________ of ships approached the shore.",
+   "opts": {
+    "a": "pack",
+    "b": "band",
+    "c": "shoal",
+    "d": "armada"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "An armada is a fleet of warships, and the printed article \"An\" confirms it - it is the only option beginning with a vowel sound, so the sentence is grammatical with no other choice. \"Shoal\" is the trap for anyone thinking of the sea, but a shoal is of fish, not ships; \"pack\" belongs to wolves or hounds.",
+   "topic": "collective_nouns",
+   "flag": null
+  },
+  {
+   "id": "B35",
+   "n": 35,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The new software update is the ____________ one we've had to install.",
+   "opts": {
+    "a": "complicated",
+    "b": "more complicated",
+    "c": "most complicated",
+    "d": "complicates"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The definite article \"the\" before the blank signals the superlative degree, which for a long adjective is formed with \"most\". \"More complicated\" is the comparative and would need a \"than\" phrase, and \"complicates\" is a finite verb that cannot sit in an adjective slot.",
+   "topic": "degrees_of_comparison",
+   "flag": null
+  },
+  {
+   "id": "B36",
+   "n": 36,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which sentence uses the comparative degree correctly?",
+   "opts": {
+    "a": "She is smarter than any student in the class.",
+    "b": "She is smarter than any other student in the class.",
+    "c": "She is smartest than any other student in the class.",
+    "d": "She is more smarter than any other student in the class."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "When a member of a group is compared with the rest of that group, the comparative needs \"any other\" to exclude the subject from the comparison. Option (a) illogically makes her smarter than herself, (c) mixes the superlative form with \"than\", and (d) is a double comparative.",
+   "topic": "degrees_of_comparison",
+   "flag": null
+  },
+  {
+   "id": "B37",
+   "n": 37,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the correct sentence.",
+   "opts": {
+    "a": "No sooner had he arrived than it started raining.",
+    "b": "No sooner had he arrived when it started raining.",
+    "c": "No sooner he had arrived than it started raining.",
+    "d": "No sooner did he arrived than it started raining."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"No sooner\" is a negative adverbial that forces subject-auxiliary inversion (\"had he arrived\") and correlates with \"than\", never \"when\". Option (b) uses the wrong correlative, (c) omits the required inversion, and (d) follows the auxiliary \"did\" with a past form instead of the bare infinitive \"arrive\".",
+   "topic": "sentence_correction",
+   "flag": null
+  },
+  {
+   "id": "B38",
+   "n": 38,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Her explanation was so ____________ that nobody could understand what she really meant.",
+   "opts": {
+    "a": "lucid",
+    "b": "ambiguous",
+    "c": "precise",
+    "d": "evident"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The result clause says nobody could understand her, so the blank needs a word meaning open to more than one interpretation - \"ambiguous\". Lucid, precise and evident all mean clear, which would contradict the second half of the sentence.",
+   "topic": "word_usage",
+   "flag": null
+  },
+  {
+   "id": "B39",
+   "n": 39,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The scientist's discovery was considered ____________ because it changed the course of medical research.",
+   "opts": {
+    "a": "trivial",
+    "b": "revolutionary",
+    "c": "ordinary",
+    "d": "obsolete"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Something that changes the course of an entire field is revolutionary. Trivial and ordinary say the opposite, and obsolete means out of date - impossible for a new discovery that is reshaping research.",
+   "topic": "word_usage",
+   "flag": null
+  },
+  {
+   "id": "B40",
+   "n": 40,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The manager appreciated employees who were ____________ and completed tasks without supervision.",
+   "opts": {
+    "a": "lethargic",
+    "b": "diligent",
+    "c": "arrogant",
+    "d": "careless"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Diligent\" means hard-working and conscientious, which is precisely what \"completed tasks without supervision\" describes and what a manager would appreciate. Lethargic, arrogant and careless are all negative traits and clash with \"appreciated\".",
+   "topic": "word_usage",
+   "flag": null
+  },
+  {
+   "id": "B41",
+   "n": 41,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "Being ill, he could not attend the classes at school. (Complex Sentence)",
+   "opts": {
+    "a": "His illness prevented him from attending the classes at school.",
+    "b": "As he was ill, he could not attend the classes at school.",
+    "c": "He could not attend the classes at school because of his illness.",
+    "d": "He was ill and so he could not attend the classes at school."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A complex sentence needs one main clause plus at least one subordinate clause with its own finite verb, and only (b) supplies one - the adverb clause of reason \"As he was ill\". Option (c) is the trap: \"because of his illness\" is a prepositional phrase, not a clause, so (c) is still a simple sentence; (a) is likewise simple and (d) is compound.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B42",
+   "n": 42,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "He finished his homework and went out to play. (Simple Sentence)",
+   "opts": {
+    "a": "After he finished his homework, he went out to play.",
+    "b": "He went out to play because he finished his homework.",
+    "c": "He finished his homework so that he could go out to play.",
+    "d": "Having finished his homework, he went out to play."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "A simple sentence has exactly one finite verb, and (d) reduces the first clause to the participial phrase \"Having finished his homework\", leaving \"went\" as the only finite verb. Options (a), (b) and (c) all keep two finite verbs joined by a subordinating conjunction, so each is complex, not simple.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B43",
+   "n": 43,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "If you do not work hard, you will fail. (Compound Sentence)",
+   "opts": {
+    "a": "Work hard or you will fail",
+    "b": "Since you didn't work hard, you failed",
+    "c": "By working hard, you can avoid failure.",
+    "d": "You will fail unless you work hard."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "A compound sentence joins two independent clauses with a coordinating conjunction, and \"Work hard or you will fail\" does exactly that with \"or\" while preserving the original meaning. Options (b) and (d) use the subordinators \"since\" and \"unless\", making them complex, and (c) shifts to the past-free simple form with a phrase.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B44",
+   "n": 44,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "Why did your brother write such a letter? (Passive Voice)",
+   "opts": {
+    "a": "Why had such a letter been written by your brother?",
+    "b": "Why was such a letter written by your brother?",
+    "c": "Why did such a letter be written by your brother?",
+    "d": "Why such a letter written by your brother?"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The active is simple past, so the passive must be \"was/were + past participle\" with the interrogative order preserved: \"Why was such a letter written by your brother?\" Option (a) wrongly shifts to the past perfect, (c) is ungrammatical because \"did\" cannot be followed by \"be written\", and (d) has no auxiliary at all.",
+   "topic": "voice",
+   "flag": null
+  },
+  {
+   "id": "B45",
+   "n": 45,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "The room was filled with smoke. (Active Voice)",
+   "opts": {
+    "a": "Smoke has filled the room",
+    "b": "Smoke filled the room.",
+    "c": "Smoke fills the room.",
+    "d": "Smoke had filled the room."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The passive \"was filled\" is simple past, so the active must also be simple past with the agent \"smoke\" promoted to subject: \"Smoke filled the room.\" Options (a), (c) and (d) all change the tense to present perfect, simple present and past perfect respectively, which the instruction \"without changing the meaning\" forbids.",
+   "topic": "voice",
+   "flag": null
+  },
+  {
+   "id": "B46",
+   "n": 46,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "No one was absent. (Affirmative Sentence)",
+   "opts": {
+    "a": "All were absent.",
+    "b": "Everyone was present.",
+    "c": "Someone was present.",
+    "d": "Everyone was not absent"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Removing the negative \"No one\" while keeping the sense requires replacing \"absent\" with its opposite: if nobody was absent, then everybody was present. Option (a) reverses the meaning, (c) weakens \"all\" to \"some\", and (d) keeps the negative word \"not\" and so is not affirmative at all.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B47",
+   "n": 47,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "The committee approved the proposal. (Passive Voice)",
+   "opts": {
+    "a": "The proposal approves the committee.",
+    "b": "The proposal was approved by the committee.",
+    "c": "The committee was approved by the proposal.",
+    "d": "The proposal has approved the committee."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The object \"the proposal\" becomes the subject, the verb becomes \"was approved\", and the original subject becomes the agent after \"by\". Options (a), (c) and (d) all swap the roles the wrong way round, making the proposal the approver.",
+   "topic": "voice",
+   "flag": null
+  },
+  {
+   "id": "B48",
+   "n": 48,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "The bridge was constructed by skilled engineers. (Active Voice)",
+   "opts": {
+    "a": "Skilled engineers constructed the bridge.",
+    "b": "Skilled engineers were constructing the bridge.",
+    "c": "The bridge constructed skilled engineers.",
+    "d": "Skilled engineers are constructing the bridge"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The agent becomes the subject and \"was constructed\" becomes the simple past active \"constructed\". Options (b) and (d) change the aspect to past and present continuous, and (c) reverses the roles so that the bridge does the building.",
+   "topic": "voice",
+   "flag": null
+  },
+  {
+   "id": "B49",
+   "n": 49,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "Everyone admired his honesty. (Negative sentence)",
+   "opts": {
+    "a": "Nobody admired his honesty.",
+    "b": "No one failed to admire his honesty.",
+    "c": "No one admired his honesty.",
+    "d": "Everyone did not admire his honesty."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The transformation must add a negative without reversing the sense, and only a double negative does that: no one failed to admire = everyone admired. Options (a) and (c) flip the meaning to nobody admiring him, and (d) is both ambiguous and, on its natural reading, a denial of the original.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B50",
+   "n": 50,
+   "part": "B",
+   "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
+   "passageRef": null,
+   "q": "The night was very beautiful. (Exclamatory sentence)",
+   "opts": {
+    "a": "The night was not beautiful!",
+    "b": "Was the night beautiful!",
+    "c": "How beautiful the night was!",
+    "d": "The night is beautiful indeed!"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The standard exclamatory pattern for an adjective is \"How + adjective + subject + verb!\", which (c) follows exactly while keeping the past tense. Option (a) negates the meaning, (b) is interrogative in form, and (d) is a plain assertion that also shifts to the present tense.",
+   "topic": "sentence_transformation",
+   "flag": null
+  },
+  {
+   "id": "B51",
+   "n": 51,
+   "part": "B",
+   "direction": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
+   "passageRef": null,
+   "q": "I know that **he is honest**.",
+   "opts": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Principal clause"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The underlined clause is the object of the verb \"know\" - it answers \"I know what?\" - and a clause doing the work of a noun is a noun clause. It cannot be the principal clause, since \"I know\" is the main clause here.",
+   "topic": "clauses",
+   "flag": null
+  },
+  {
+   "id": "B52",
+   "n": 52,
+   "part": "B",
+   "direction": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
+   "passageRef": null,
+   "q": "The boy **who won the prize** is my cousin.",
+   "opts": {
+    "a": "Noun clause",
+    "b": "Adjective clause",
+    "c": "Adverb clause",
+    "d": "Coordinate clause"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The relative clause introduced by \"who\" qualifies the noun \"boy\" - it tells us which boy - so it does an adjective's work and is an adjective (relative) clause.",
+   "topic": "clauses",
+   "flag": null
+  },
+  {
+   "id": "B53",
+   "n": 53,
+   "part": "B",
+   "direction": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
+   "passageRef": null,
+   "q": "**When the rain stopped**, the children went outside.",
+   "opts": {
+    "a": "Noun clause",
+    "b": "Adverb clause",
+    "c": "Adjective clause",
+    "d": "Coordinate clause"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The clause is introduced by the subordinating conjunction \"When\" and tells us when the children went outside, modifying the verb - an adverb clause of time. Note that \"when\" here is not a relative pronoun attached to a noun, which is what would have made it adjectival.",
+   "topic": "clauses",
+   "flag": null
+  },
+  {
+   "id": "B54",
+   "n": 54,
+   "part": "B",
+   "direction": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
+   "passageRef": null,
+   "q": "This is the house **where I was born**.",
+   "opts": {
+    "a": "Noun clause",
+    "b": "Adverb clause",
+    "c": "Adjective clause",
+    "d": "Main clause"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Where\" is functioning as a relative adverb attached to the noun \"house\" and the clause tells us which house, so it qualifies a noun and is an adjective (relative) clause. The trap is to see \"where\" and reach for \"adverb clause\": an adverb clause of place would modify a verb, as in \"I was born where the river bends\".",
+   "topic": "clauses",
+   "flag": null
+  },
+  {
+   "id": "B55",
+   "n": 55,
+   "part": "B",
+   "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
+   "passageRef": null,
+   "q": "The two parties have arrived _________ a mutual agreement.",
+   "opts": {
+    "a": "at",
+    "b": "in",
+    "c": "on",
+    "d": "by"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The fixed collocation is \"arrive at\" a decision, conclusion or agreement. \"Arrive in\" is used only of large places (arrive in Aizawl), and \"arrive on\" and \"arrive by\" take dates and modes of transport respectively.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B56",
+   "n": 56,
+   "part": "B",
+   "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
+   "passageRef": null,
+   "q": "Scientists are usually absorbed _________ their works, often forgetting to eat.",
+   "opts": {
+    "a": "at",
+    "b": "in",
+    "c": "on",
+    "d": "with"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Absorbed in\" is the fixed collocation for being deeply engaged in an activity. \"Absorbed by\" exists but means taken up or swallowed by something, and \"with\" is not offered in that sense here.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B57",
+   "n": 57,
+   "part": "B",
+   "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
+   "passageRef": null,
+   "q": "He was so engrossed _________ his study for written exam that he didn't hear the alarm go off.",
+   "opts": {
+    "a": "at",
+    "b": "with",
+    "c": "in",
+    "d": "on"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Engrossed in\" is the standard collocation, exactly parallel to \"absorbed in\" in the previous question. None of at, with or on collocates with \"engrossed\".",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B58",
+   "n": 58,
+   "part": "B",
+   "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
+   "passageRef": null,
+   "q": "The judge ruled that the evidence was not relevant _________ the case being tried.",
+   "opts": {
+    "a": "to",
+    "b": "with",
+    "c": "for",
+    "d": "about"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Relevant\" is always followed by \"to\" - relevant to the case, to the discussion, to the issue. \"Relevant for\" appears occasionally in loose usage but is not standard, and \"relevant with/about\" is simply wrong.",
+   "topic": "prepositions",
+   "flag": null
+  },
+  {
+   "id": "B59",
+   "n": 59,
+   "part": "B",
+   "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
+   "passageRef": null,
+   "q": "It is difficult to distinguish between a career politician and one who acts __________ conviction.",
+   "opts": {
+    "a": "with",
+    "b": "by",
+    "c": "out of",
+    "d": "through"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "medium",
+   "why": "\"Out of\" is the preposition English uses for motive - one acts out of pity, out of fear, out of conviction - and motive is what the sentence needs, since the contrast being drawn is between someone driven by career and someone driven by principle. \"With conviction\" is perfectly good English but describes manner, not motive: it would mean acting firmly or forcefully, which does not contrast with being a career politician at all.",
+   "topic": "prepositions",
+   "flag": "Two options are grammatically and idiomatically defensible. (a) 'with conviction' is standard English and a candidate choosing it is not making a collocation error; only the logic of the career-politician contrast, which requires a motive rather than a manner, settles the item in favour of (c)."
+  },
+  {
+   "id": "B60",
+   "n": 60,
+   "part": "B",
+   "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
+   "passageRef": null,
+   "q": "She has a remarkable knack _______ finding the best school in the city she visits.",
+   "opts": {
+    "a": "of",
+    "b": "in",
+    "c": "with",
+    "d": "for"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "medium",
+   "why": "\"A knack for doing something\" is the dominant modern collocation and is what the paper is testing; \"knack with\" and \"knack in\" are not idiomatic. The reservation is (a): \"a knack of doing something\" is also attested, particularly in older and British usage, and dictionaries list the headword as \"knack of/for\".",
+   "topic": "prepositions",
+   "flag": "Two options are defensible: 'a knack of finding' is an attested (chiefly British and older) variant that dictionaries record alongside 'a knack for'. 'For' is the more common modern form and the evident intended key, but 'of' is not an outright error."
+  }
+ ]
+}

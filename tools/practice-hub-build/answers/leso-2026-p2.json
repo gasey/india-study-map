@@ -1,0 +1,702 @@
+{
+ "B1": {
+  "answer": "c",
+  "conf": "low",
+  "why": "Five assemblies fall due in 2026 — Assam, West Bengal, Kerala, Tamil Nadu and Puducherry — so the question turns on which four actually polled in April; Puducherry's term runs latest, which is why it is the one left out here. This depends on the Election Commission's published 2026 schedule and is not verified from source.",
+  "topic": "current_affairs",
+  "flag": "Unverified 2026 current affairs: the exact April-2026 polling schedule could not be checked; answer follows the source highlight."
+ },
+ "B10": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Hiuen Tsang (Xuanzang) visited India c. 630–645 CE during Harshavardhana's reign and left the account Si-Yu-Ki. Fa-Hien came earlier, under Chandragupta II of the Guptas, and I-Tsing came later, after Harsha.",
+  "topic": "history_ancient_medieval",
+  "flag": null
+ },
+ "B100": {
+  "answer": "c",
+  "conf": "low",
+  "why": "The paper marks Kaphleia, an early Mizo writer known for short stories and essays, as the author of 'Thlirtu'. Attribution of individual Mizo essays could not be verified here, so this follows the source rather than a checked reference.",
+  "topic": "mizoram_culture",
+  "flag": "Unverified. Authorship of the Mizo essay 'Thlirtu' could not be confirmed; note also that option (d) carries a stray '* * * * * * *' end-of-paper marker in the printed text, which is not part of the option."
+ },
+ "B11": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The Chalukyas ruled the Deccan from the 6th to the 12th century through three branches — Badami, Eastern Chalukyas of Vengi and Western Chalukyas of Kalyani — so only a regional name can cover the whole 600–1200 AD span. Badami and Kalyani are merely two of those capitals, and Thanjavur was the Chola capital.",
+  "topic": "history_ancient_medieval",
+  "flag": null
+ },
+ "B12": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Shivaji founded the Maratha kingdom, was crowned Chhatrapati in 1674, and is conventionally called the father of the Maratha nation. Shahu was his grandson who inherited a state that already existed, and Babur founded the Mughal empire, not a Maratha one.",
+  "topic": "history_ancient_medieval",
+  "flag": null
+ },
+ "B13": {
+  "answer": "b",
+  "conf": "high",
+  "why": "W. C. Bonnerjee presided over the first session of the Indian National Congress at Bombay in December 1885. Dadabhai Naoroji and Badruddin Tyabji presided over the 1886 and 1887 sessions respectively, so they are the near-miss distractors.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B14": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The massacre took place on 13 April 1919, the day of Baisakhi, which is precisely why so large a crowd had gathered in the walled garden at Amritsar. The festival date is the fact being tested, not the year.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B15": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "The Tlawng (called the Dhaleswari in Assam) is Mizoram's longest river; it rises in the south, flows north through the state and drains into the Barak system. Chhimtuipui and Kolodyne are two names for the same south-flowing river, so they cannot be right; the Tuirial also flows north into the Barak as the Sonai but is a smaller stream than the Tlawng.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B16": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The Suez Canal, opened in 1869, links the Mediterranean to the Red Sea and removed the long haul around the Cape of Good Hope from the India–Europe route. The Panama Canal joins the Atlantic and Pacific in Central America and does nothing for India–Europe traffic.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B17": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Blue = fish (5), Grey = fertilizers (3), Round = potato (4), White = milk (2), Red = meat (1), giving 5-3-4-2-1. Working the two you are surest of — White/milk and Blue/fish — is enough to eliminate every other option.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B18": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Bhakra Dam on the Sutlej, at about 226 m, is India's highest gravity dam — a concrete structure that resists water purely by its own weight. Tehri is taller overall but is an earth-and-rockfill embankment dam, not a gravity dam, so it does not compete for this title.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B19": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Tropical thorn forests and scrubs grow where annual rainfall is under about 70 cm — the semi-arid north-west of Rajasthan, Gujarat, Punjab and Haryana. Mangroves need tidal coasts and evergreen forests need over 200 cm of rain, so neither can be confined to the dry north-west.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B2": {
+  "answer": "a",
+  "conf": "low",
+  "why": "This records the result of the 2026 ICC Men's T20 World Cup final, a fact after the solver's reliable knowledge horizon. The answer follows the source's marked option rather than any independently checked scorecard.",
+  "topic": "sports_misc",
+  "flag": "Unverified 2026 current affairs: the T20 World Cup 2026 final result could not be confirmed; answer follows the source highlight."
+ },
+ "B20": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Mercury and Venus are the only planets in the solar system with no moons, being too close to the Sun for satellites to hold stable orbits. Earth has one and Mars has two (Phobos and Deimos), so (b) is the standard trap.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B21": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The 44th Amendment (1978) deleted Article 19(1)(f) and Article 31, stripping property of Fundamental Right status, and inserted Article 300A: 'No person shall be deprived of his property save by authority of law.' Because 300A says 'person', not 'citizen', it protects foreigners and companies too — so (a) and (c) both fail on the citizens-only restriction.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B22": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The Sixth Schedule covers the tribal areas of Assam, Meghalaya, Tripura and Mizoram through Autonomous District and Regional Councils. Manipur, Arunachal Pradesh and Nagaland are the standard traps — their tribal areas are handled by other arrangements (Article 371A/371C and hill councils), not the Sixth Schedule.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B23": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Article 243Q names three urban bodies: Nagar Panchayat (area in transition from rural to urban), Municipal Council (smaller urban area) and Municipal Corporation (larger urban area). Gram Panchayat is a rural body created under Part IX (Article 243B), not Part IXA, so it is the odd one out.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B24": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Article 280 makes the Finance Commission, constituted every five years by the President, the body that recommends how net tax proceeds are divided between the Union and the States and among the States. NITI Aayog (and the erstwhile Planning Commission) is only an advisory think-tank with no constitutional role in tax devolution.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B25": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Article 123 lets the President promulgate an Ordinance when either House is not in session; it has the same force as an Act but lapses six weeks after Parliament reassembles. Articles 352, 356 and 360 are the three emergency provisions (National, President's Rule and Financial), a different power altogether.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B26": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The Constituent Assembly adopted the Constitution on 26 November 1949, which is why that date is now observed as Constitution Day. 26 January 1950 is the date it came into force (Republic Day) — adoption and commencement are deliberately different dates and the classic trap here.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B27": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The Preamble is not enforceable in a court — no one can sue on it — but the Supreme Court has repeatedly used it as a guide to the intent of the framers and to interpret ambiguous provisions (Berubari Union, Kesavananda Bharati). It is part of the Constitution, not a separate statute, so (c) is wrong.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B28": {
+  "answer": "d",
+  "conf": "high",
+  "why": "At independence in 1947 the area was the Lushai Hills District of Assam. The Lushai Hills Autonomous District Council only came in 1952 under the Sixth Schedule, Union Territory status followed the 1971 reorganisation (effective 1972), and statehood only in 1987 — so (a), (b) and (c) all describe later stages.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B29": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The UNDP's Human Development Index is a composite of three dimensions: a long and healthy life (life expectancy), knowledge (schooling) and a decent standard of living (GNI per capita). Income alone is exactly what HDI was designed to move beyond, so (a) misses the point of the index.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B3": {
+  "answer": "d",
+  "conf": "low",
+  "why": "Chapchar Kut is the Mizo spring festival held in March, and each year's celebration is given a theme under a slogan line; the 2026 theme is recorded here as \"Zo Nun Ze Mawi: Inremna\" (harmony/reconciliation). Note that \"Tlawmngaihna\", the best-known Mizo virtue, is the obvious trap option but is not the stated theme.",
+  "topic": "mizoram_culture",
+  "flag": "Unverified Mizoram-specific 2026 current affairs: the announced Chapchar Kut 2026 theme could not be checked; answer follows the source highlight."
+ },
+ "B30": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The 2030 Agenda adopted by the UN in 2015 sets 17 Sustainable Development Goals with 169 targets, succeeding the 8 Millennium Development Goals. 'Sixteen' is a common misremembering because SDG 16 (Peace, Justice and Strong Institutions) is often quoted as the last substantive goal — but SDG 17, Partnerships for the Goals, follows it.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B31": {
+  "answer": "b",
+  "conf": "high",
+  "why": "In India the poverty line is fixed on monthly per-capita consumption expenditure needed to buy a minimum basket of food (a calorie norm) plus essential non-food items, measured through NSSO consumption surveys. Income is not used because informal-sector incomes are irregular and badly reported, which is why (a) is the tempting but wrong choice.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B32": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "The Government announced the delayed Census in two phases — House Listing Operations beginning 1 April 2026, with population enumeration referenced to 1 March 2027 (1 October 2026 for snow-bound areas). April 2026 is therefore the start date; the later months are distractors drawn from the enumeration phase. Dates for this census have already slipped once, so treat the schedule as provisional.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B33": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Car manufacturing turns raw materials into goods, which puts it in the secondary (industrial) sector. Banking, insurance and transport all produce services rather than physical goods and sit squarely in the tertiary sector.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B34": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Kerala's low infant mortality is attributed to its dense network of primary health centres, near-universal institutional delivery and immunisation, backed by high female literacy — i.e. the actual provision of basic health and educational facilities. (b) is a consequence of the same public investment rather than the cause, and climate (a) has no bearing on infant deaths.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B35": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Climate change drives habitat loss, range shifts and coral bleaching, so biodiversity falls — it does not increase. Rising sea levels, more frequent heatwaves and melting polar ice are all documented consequences, which makes (b) the only option that is not one.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B36": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "The Paris Agreement (2015) commits parties to hold warming 'well below 2°C' while pursuing efforts to limit it to 1.5°C above pre-industrial levels; the IPCC's 1.5°C Special Report is what made 1.5 the figure associated with avoiding the most severe impacts. Note the wording: 2°C is the outer ceiling, 1.5°C is the safer limit the question is asking about.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B37": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The IPCC, set up by UNEP and WMO in 1988, is the body that assesses published climate science and issues the Assessment Reports covering impacts, adaptation and mitigation. The UN as a whole hosts the UNFCCC process but does not itself do the assessment, and Greenpeace is an advocacy NGO, not an intergovernmental scientific body.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B38": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Mizoram has two national parks: Murlen (Champhai district) and Phawngpui Blue Mountain (Lawngtlai district, around the state's highest peak). Lengteng and Tokalo are wildlife sanctuaries, not national parks — a different protected-area category under the Wildlife (Protection) Act.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B39": {
+  "answer": "c",
+  "conf": "low",
+  "why": "The Kyoto Protocol (1997) is the UNFCCC instrument that set binding greenhouse-gas cuts, so it pairs with climate change. But note the question is defective: Project Hangul does target the hangul, the Kashmir stag, which is a deer — so (d) is correctly matched too. The clearly wrong pairs are (a), since the Montreal Protocol addresses ozone-depleting substances rather than global warming, and (b), since Project Tiger is for tigers while the lion is covered by the Asiatic Lion project at Gir.",
+  "topic": "environment_ecology",
+  "flag": "Two options are correctly matched: (c) Kyoto Protocol–Climate Change and (d) Project Hangul–Deer (the hangul is the Kashmir stag, Cervus hanglu hanglu). Following the marked option (c) as the intended answer, but the question as printed has no single correct response."
+ },
+ "B4": {
+  "answer": "c",
+  "conf": "low",
+  "why": "The Aizawl Municipal Corporation has 19 wards and the Mizoram municipal law reserves roughly one-third of them for women; one-third of 19 is 6.33, which is recorded here as 6 seats. Be careful: if the notification wording is \"not less than one-third\" the figure rounds up to 7, so this is a number to confirm against the official election notification.",
+  "topic": "mizoram_gk",
+  "flag": "Unverified: 6 vs 7 depends on how the one-third-of-19 reservation is rounded in the AMC 2026 notification; answer follows the source highlight."
+ },
+ "B40": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The oceans hold roughly fifty times more carbon than the atmosphere and absorb about a quarter of annual human CO2 emissions, making them the largest carbon sink on Earth. Forests are the largest terrestrial sink and the usual trap, but they are far smaller than the ocean reservoir.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B41": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Anatomy is the study of the structure and internal organisation of living bodies — animal and plant. The tempting trap is (b): the *functioning* of organs is physiology, not anatomy, and the study of cells and tissues specifically (d) is cytology/histology.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B42": {
+  "answer": "c",
+  "conf": "high",
+  "why": "John McCarthy coined the term 'artificial intelligence' for the 1956 Dartmouth Conference and created the Lisp language, which is why he is called the Father of AI. Charles Babbage is the father of the computer, not of AI.",
+  "topic": "sports_misc",
+  "flag": null
+ },
+ "B43": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Sound travels as a disturbance passed from particle to particle, so the closer packing and stronger intermolecular forces in a solid transmit it far faster. Option (a) is the classic trap — taken alone, higher density actually *slows* sound; solids win because their elasticity rises far more than their density does.",
+  "topic": "science_physics",
+  "flag": null
+ },
+ "B44": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Bats navigate and hunt by echolocation, emitting ultrasonic pulses and reading the returning echoes, so sound effectively does the work of eyes. Night herons hunt at night but with ordinary vision.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B45": {
+  "answer": "a",
+  "conf": "high",
+  "why": "A swing is a pendulum with period T = 2π√(L/g), where L is the distance from the pivot to the centre of mass. Standing up raises the girl's centre of mass, shortening the effective length L, so the period gets shorter — note it depends on L, not on mass, so her weight is irrelevant.",
+  "topic": "science_physics",
+  "flag": null
+ },
+ "B46": {
+  "answer": "d",
+  "conf": "high",
+  "why": "LED stands for Light Emitting Diode — it is a semiconductor diode that emits light when forward-biased. Options using 'Device' miss the essential point that the component is specifically a diode.",
+  "topic": "science_physics",
+  "flag": null
+ },
+ "B47": {
+  "answer": "b",
+  "conf": "medium",
+  "why": "'Hawilopari' by L. Biakliana is conventionally credited as the first Mizo novel, dated 1936. 'Chhingpuii' (James Dokhuma) and 'Rimenhawihi' are much later works, and 'Lali' — also by Biakliana — is a short story, not the novel in question.",
+  "topic": "mizoram_culture",
+  "flag": null
+ },
+ "B48": {
+  "answer": "d",
+  "conf": "medium",
+  "why": "The body was founded as the Young Lushai Association in June 1935 and took the name Young Mizo Association in 1947, as 'Mizo' displaced the colonial term 'Lushai'. 1935 (a) is the founding year, which is the trap here, not the year of renaming.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B49": {
+  "answer": "c",
+  "conf": "medium",
+  "why": "Dr Peter Fraser, a Welsh medical missionary, is remembered chiefly for taking up the 'bawi' controversy and campaigning against the bawi/sal system of bondage, even against the colonial administration. Durtlang Hospital's founding is associated with the mission generally rather than being his signature contribution.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B5": {
+  "answer": "d",
+  "conf": "low",
+  "why": "The Vanglaini Mizo Award is the annual honour given by the Mizo daily Vanglaini, and the 2025 award is recorded here as going to B. Lalthangliana. Sangthankima, the Padma Shri-winning founder of the Thutak Nunpuitu Team orphanage, is the plausible-looking distractor.",
+  "topic": "mizoram_gk",
+  "flag": "Unverified Mizoram-specific current affairs: the Vanglaini Mizo Award 2025 recipient could not be confirmed; answer follows the source highlight."
+ },
+ "B50": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "In Mizo folklore Chawngtinleri is the queen of the Lasi, the spirits who own, make and guard wild animals, and hunters sought her favour for a good hunt. 'Lasi' (b) names the whole class of such spirits, not the queen the question asks for.",
+  "topic": "mizoram_culture",
+  "flag": null
+ },
+ "B51": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Mary Winchester, the young daughter of a tea planter, was carried off in the 1871 raid on Alexandrapur, and the British mounted the Lushai Expedition of 1871–72 which recovered her. The later Chin-Lushai Expedition of 1889–90 was about annexation, not rescue.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B52": {
+  "answer": "d",
+  "conf": "medium",
+  "why": "Kawtchhuah Ropui, the 'great gateway' of carved menhirs, stands at Vangchhia in Champhai District, the site of the Vangchhia heritage excavations. Khawzawl District was carved out of Champhai in 2019, but Vangchhia stayed in Champhai.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B53": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "In the traditional Mizo calendar November is Sahmulphah thla; December is Pawltlak thla and January is Pawlkut thla, so those two options are one and two months off respectively. Khuangchawi thla is October.",
+  "topic": "mizoram_culture",
+  "flag": null
+ },
+ "B54": {
+  "answer": "a",
+  "conf": "low",
+  "why": "The marked option is Captain L.Z. Sailo, and it is the best evidence available — this particular award record is not one I can verify independently, so treat it as unconfirmed. One useful cross-check: Brigadier Thenphunga Sailo's Padma award was the Padma Shri, a lower grade, so (c) is not the Padma Bhushan answer.",
+  "topic": "mizoram_gk",
+  "flag": "Unverified — I cannot confirm from my own knowledge who holds Mizoram's only Padma Bhushan; answer follows the source highlight. Worth a human check against the official Padma awards list."
+ },
+ "B55": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Mizo is a Kuki-Chin language within the Tibeto-Burman branch of the Sino-Tibetan family. 'Mongoloid' (a) is a racial category, not a language family, and is the standard trap in this question; Indo-Aryan covers Hindi, Bengali and the like, not Mizo.",
+  "topic": "mizoram_culture",
+  "flag": null
+ },
+ "B56": {
+  "answer": "d",
+  "conf": "high",
+  "why": "BIOFACH, the world's leading trade fair for organic food, is held every year at the Nuremberg exhibition centre in Germany. The Asian spin-off (BIOFACH India / Southeast Asia) is a separate, smaller event, which is what makes the Asian options tempting.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B57": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "The proposed renaming is to 'Keralam', the name of the state in Malayalam, which the Kerala Assembly had resolved on unanimously before the Centre acted. Travancore and Malabar are historic regions within the state, not proposed names for it.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B58": {
+  "answer": "c",
+  "conf": "low",
+  "why": "The marked option is Razorpay, partnering the Bengaluru voice-AI firm Gnani.ai on an agentic platform that completes UPI payments inside a live call. I cannot verify this partnership independently, so treat it as unconfirmed rather than settled fact.",
+  "topic": "current_affairs",
+  "flag": "Unverified 2026 current affairs — the Gnani.ai partner is not something I can confirm; answer follows the source highlight."
+ },
+ "B59": {
+  "answer": "c",
+  "conf": "low",
+  "why": "The marked option is Mojtaba Khamenei, long the most-discussed potential successor as Supreme Leader. Two distractors can be ruled out on structure alone: Masoud Pezeshkian is the elected President, an office separate from the Supreme Leader, and Ebrahim Raisi died in the May 2024 helicopter crash, so he cannot be named to anything.",
+  "topic": "current_affairs",
+  "flag": "Unverified — the event described (assassination of Ayatollah Khamenei and a successor being named) is beyond what I can confirm; answer follows the source highlight."
+ },
+ "B6": {
+  "answer": "b",
+  "conf": "medium",
+  "why": "Cyclone, drought, flood, earthquake, landslide and cloudburst are already among the twelve centrally notified disasters eligible for SDRF/NDRF assistance, so options (a), (c) and (d) propose adding things that are on the list. Heatwaves and lightning strikes are the two long-demanded omissions, which is what the 16th Finance Commission recommended notifying.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B60": {
+  "answer": "a",
+  "conf": "low",
+  "why": "The marked option is Tarique Rahman, the BNP leader, as Prime Minister after the 13th Jatiya Sangsad election. Structurally the others do not fit: Muhammad Yunus headed the interim government as Chief Adviser, not as an elected PM, and Mohammed Shahabuddin is the President.",
+  "topic": "current_affairs",
+  "flag": "Unverified 2026 current affairs — I cannot confirm the outcome of Bangladesh's 13th parliamentary election; answer follows the source highlight."
+ },
+ "B61": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The 1857 rebels marched to Delhi and proclaimed the last Mughal, Bahadur Shah II (Zafar), as Emperor of Hindustan; he was later exiled to Rangoon. Bahadur Shah I ruled 1707-12 and Shah Alam II died in 1806, so neither was alive in 1857.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B62": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Lord Curzon announced the Partition of Bengal in July 1905 and it took effect on 16 October 1905, triggering the Swadeshi movement; it was annulled in 1911. 1908 and 1910 are distractor years with no partition event.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B63": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The Government of India Act 1935 was the governing law until the Constitution was adopted on 26 November 1949 (in force 26 January 1950), and much of the Constitution's administrative machinery is borrowed from it. There is no Government of India Act 1936, and the 1909 Act (Morley-Minto) had long been superseded.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B64": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Subhas Chandra Bose founded the All India Forward Bloc in 1939 after resigning as Congress President following his clash with Gandhi. Rash Behari Bose is associated with the Ghadar conspiracy and the Indian Independence League, not the Forward Bloc.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B65": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Vande Mataram, from Bankim Chandra Chattopadhyay's novel Anandamath, was first sung at the 1896 Calcutta session of the Indian National Congress by Rabindranath Tagore, who set it to music. The later years listed are simply distractors.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B66": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The 38th parallel north was the line dividing Korea after 1945 into the Soviet-backed North and the US-backed South. The India-Pakistan divide is the Radcliffe Line/LoC and the India-China boundary is the McMahon Line/LAC; the 49th parallel is the one separating the USA and Canada.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B67": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The Gulf of Cambay (Khambhat) has India's highest identified tidal power potential, roughly 7,000 MW, thanks to its funnel shape and very large tidal range. The Gulf of Kutch is the classic trap: it hosts India's first proposed tidal plant but carries only about 1,200 MW of potential.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B68": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Uttar Pradesh touches eight states (Uttarakhand, Himachal Pradesh, Haryana, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, Bihar) plus the NCT of Delhi, the most of any state. Assam is the common trap with seven neighbours, and Chhattisgarh also has seven.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B69": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The Maginot Line was the fortified defensive barrier France built along its eastern frontier with Germany in the 1930s; Germany bypassed it through the Ardennes in 1940. It has nothing to do with the other pairs listed.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B7": {
+  "answer": "c",
+  "conf": "high",
+  "why": "China takes the overwhelming majority of Iran's crude exports, largely through independent \"teapot\" refiners buying at a discount despite US sanctions. India stopped importing Iranian crude in 2019 once the US sanctions waiver lapsed, so (b) is out of date.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B70": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Majuli, in the Brahmaputra in Assam, is the world's largest river island and is also a centre of Vaishnavite satra culture. Bhavani Island in the Krishna is much smaller, and Agatti is a coral island in Lakshadweep, not a river island at all.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B71": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The ionosphere, the ion-rich region that reflects radio waves back to earth and makes long-range wireless communication possible, lies within the thermosphere. The stratosphere is the ozone layer's home and the troposphere is the weather layer; neither ionises appreciably.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B72": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Article 109 read with Article 110 allows a Money Bill to be introduced only in the Lok Sabha, and only on the President's recommendation. The Rajya Sabha can merely make recommendations within 14 days, which the Lok Sabha may reject outright.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B73": {
+  "answer": "d",
+  "conf": "high",
+  "why": "English has never been placed in the Eighth Schedule at all; it continues as an associate official language under Article 343 and the Official Languages Act 1963, so statement (d) is the false one. The Schedule did start with 14 languages in 1950 and now has 22, making (a) a true statement and therefore not the answer.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B74": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Article 359, as amended by the 44th Amendment 1978, bars suspension of Articles 20 and 21 (protection in respect of conviction, and life and personal liberty) even during a National Emergency. Article 19 is the trap: it is automatically suspended, but only when the Emergency is declared on grounds of war or external aggression.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B75": {
+  "answer": "d",
+  "conf": "medium",
+  "why": "Article 32 gives every person whose Fundamental Right is violated the right to move the Supreme Court directly, and the standard classification of the Court's powers calls this its writ jurisdiction. 'Original jurisdiction' is the tempting alternative, but in the usual textbook scheme that term is reserved for Article 131 disputes between the Union and the States; since both options are printed here, the more specific writ jurisdiction is intended.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B76": {
+  "answer": "c",
+  "conf": "medium",
+  "why": "The United States is the world's largest producer of LPG, a by-product of its shale gas and natural gas liquids boom, and is also the largest exporter. China is the trap because it is the world's biggest LPG consumer and importer, not producer, while Saudi Arabia is a large exporter but well behind the US in output.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B77": {
+  "answer": "a",
+  "conf": "low",
+  "why": "The deal is denominated in CAD, the Canadian dollar, which points to Canada; Canada is also a top-three uranium producer and a long-standing supplier to India under the 2013 civil nuclear cooperation agreement. This is a March 2026 news item I cannot independently confirm, so treat the amount and the 'Strategic Energy Partnership' label as unverified.",
+  "topic": "current_affairs",
+  "flag": "2026 current affairs — cannot verify from own knowledge. Answer rests on the CAD currency clue plus the marked option."
+ },
+ "B78": {
+  "answer": "d",
+  "conf": "medium",
+  "why": "Reliance Industries, which runs the Jamnagar refinery complex geared to heavy sour crude, is the Indian company reported to have obtained a US (OFAC) licence to resume lifting Venezuelan crude. The public-sector oil companies listed have not held such an authorisation.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B79": {
+  "answer": "b",
+  "conf": "low",
+  "why": "ICRA's quarterly GDP projections for FY2025-26 ran in the low-to-mid 7 per cent range, and 7.2% is the figure recorded for Q3. This is a dated ratings-agency estimate I cannot verify, so it is taken from the source paper's own marking rather than independent confirmation.",
+  "topic": "economy",
+  "flag": "Specific 2026 ratings-agency projection — unverified; follows the marked option as the only available evidence."
+ },
+ "B8": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Pataliputra (modern Patna) was the Mauryan capital from Chandragupta through Ashoka. Ujjain and Taxila were important provincial headquarters that Ashoka governed as a prince, which is exactly why they are offered as traps.",
+  "topic": "history_ancient_medieval",
+  "flag": null
+ },
+ "B80": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Ayushman Bharat PM-JAY, launched in 2018, is the world's largest government-funded health assurance scheme, covering over 10 crore (now about 12 crore) poor families with Rs 5 lakh per family per year for secondary and tertiary care. Jan Aushadhi supplies cheap generic medicines and PMAY-G and Jal Jeevan Mission are housing and drinking-water schemes, so none of them is a healthcare coverage programme.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B81": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The Rights of Persons with Disabilities Act 2016 replaced the 1995 Act and expanded the recognised conditions from 7 to 21, adding categories such as autism spectrum disorder, thalassaemia, acid-attack injury and multiple sclerosis. The figure 7 is the old 1995 count, so options offering 10, 15 or 23 are simply wrong totals.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B82": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The Montreal Protocol (1987) phases out ozone-depleting substances such as CFCs and halons, so its aim is protection of the ozone layer. Global warming and climate change belong to the UNFCCC/Kyoto/Paris track, and biodiversity to the CBD — a classic mix-up.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B83": {
+  "answer": "d",
+  "conf": "high",
+  "why": "[adjudicated: derived] The correct answer is (d) A, B, C, D — all four. India has four global biodiversity hotspots, not three: (1) the Himalaya, (2) the Western Ghats (part of the Western Ghats & Sri Lanka hotspot), (3) Indo-Burma, covering the northeast including Mizoram, and (4) Sundaland, which reaches Indian territory through the Nicobar Islands. \"The Sunderland\" in option C is simply a misspelling of Sundaland; read alongside \"The Himalayas\" and \"The Western Ghats\" it is plainly meant as the hotspot, and it is a real one. The highlight on (b) in the booklet is an error. It reflects the older NCERT-era line that India has \"three hotspots,\" which dropped Sundaland because the Nicobar link is easy to overlook. Current Government of India material — MoEFCC reports, the National Biodiversity Authority, and PIB releases — consistently states four. Memory aid: three on the mainland arc (Himalaya, Western Ghats, Indo-Burma) plus one island entry (Sundaland via the Nicobars). If an exam ever asks for \"hotspots wholly inside India,\" the answer is none — every one of the four straddles national borders.",
+  "topic": "environment_ecology",
+  "flag": "Minor text defect, not answer-breaking: the paper spells Sundaland as \"Sunderland\" (also a city in England), which could mislead a student into reading it as a fabricated distractor — worth correcting to \"Sundaland\" in the bank. Residual risk: because no official MPSC key exists for this sitting, it is possible the setter intended the outdated three-hotspot key, which is what the booklet highlight suggests; the fact itself, however, is not in doubt."
+ },
+ "B84": {
+  "answer": "d",
+  "conf": "high",
+  "why": "This is the wording of Article 51A(g), one of the Fundamental Duties inserted by the 42nd Amendment in 1976. Article 51 (without the A) is a Directive Principle about promoting international peace, which is the trap here.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B85": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Primary consumers feed directly on producers (green plants), so they are the herbivores at the second trophic level. Carnivores eating herbivores are secondary consumers, and decomposers sit outside the consumer levels entirely, breaking down dead matter.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B86": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The Kaveri (Cauvery) rises in Karnataka and flows into Tamil Nadu, and the long-running sharing dispute is principally between those two States (with Kerala and Puducherry as lesser parties before the Tribunal). Punjab–Haryana is the Ravi-Beas/SYL dispute, a different case often confused with this one.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B87": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Biotic potential is the maximum reproductive capacity of an organism under ideal, unlimited conditions. Carrying capacity is the opposite side of the coin — the ceiling the environment actually imposes on that population — so it is the tempting but incorrect choice.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B88": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Alfred Wegener put forward Continental Drift in 1912, proposing that the continents once formed Pangaea and have since drifted apart. Harry Hess proposed sea-floor spreading and McKenzie and Parker helped formulate plate tectonics — both later theories that built on, but did not originate, continental drift.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B89": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Commercial jets cruise in the lower stratosphere because it is stable, free of weather turbulence and clouds, and the thinner air reduces drag. The mesosphere and above are far too high for aircraft, which cannot generate lift or engine thrust there.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B9": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The thirty rock-cut caves at Ajanta in Maharashtra are Buddhist chaityas and viharas, famous for their murals of the Jataka tales. The nearby Ellora caves are the ones that combine Buddhist, Hindu and Jain excavations, which is where the confusion usually comes from.",
+  "topic": "history_ancient_medieval",
+  "flag": null
+ },
+ "B90": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Melanin, produced by melanocytes, is the pigment that determines the colour of skin, hair and the iris of the eye. Alizarin, phthalocyanine and quinacridone are industrial dyes and pigments, not biological ones.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B91": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Ethyl mercaptan (ethanethiol) is the odourant added to LPG so that leaks can be detected by smell, since LPG itself is odourless. Hydrogen sulphide also smells foul but is toxic and corrosive, which rules it out as a deliberate additive.",
+  "topic": "science_chemistry",
+  "flag": null
+ },
+ "B92": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Bile from the liver emulsifies fat into fine droplets and pancreatic juice supplies the lipase that actually breaks them down, so the pair works together on fats. Saliva contains amylase and acts on starch, not fat, which is why every option containing saliva is wrong.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B93": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Ascorbic acid is vitamin C, not a B-complex member. Riboflavin (B2), folic acid (B9) and thiamine (B1) are all part of the B complex, so they are the correct pairings and the odd one out is ascorbic acid.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B94": {
+  "answer": "d",
+  "conf": "medium",
+  "why": "Mizo leh Vai Chanchinbu, started in 1902, was the first regularly published monthly newspaper in the Mizo language and carried accounts of earlier times ('Hmasang Chanchin') alongside news. Kristian Tlangau came later as a mission magazine, so it is the plausible-looking but incorrect choice.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B95": {
+  "answer": "c",
+  "conf": "medium",
+  "why": "Khuangchawi was the culminating public feast and dance through which a man who had completed the required series of feasts was publicly recognised as Thangchhuah. Sa-aih and Sechhun are individual feasts within the qualifying sequence rather than the ceremony that confers the status itself.",
+  "topic": "mizoram_culture",
+  "flag": null
+ },
+ "B96": {
+  "answer": "b",
+  "conf": "low",
+  "why": "The paper's marked answer is David Zohmangaiha as the first Mizo man to summit Mt. Everest. This is a Mizoram-specific record that could not be independently verified here, so treat it as the paper's answer rather than a confirmed fact.",
+  "topic": "mizoram_gk",
+  "flag": "Unverified. Identity of the first Mizo male Everest summiteer could not be confirmed from available knowledge; following the source PDF highlight as the best available evidence."
+ },
+ "B97": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Mizoram's boundary with Myanmar is 510 km, the longest stretch of the India–Myanmar border after Arunachal Pradesh. Do not confuse it with Mizoram's other international boundary, the roughly 318 km it shares with Bangladesh.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B98": {
+  "answer": "a",
+  "conf": "low",
+  "why": "Sadawt (the chief's priest) and Bawlpu (the priest who performed sacrifices for the sick) are correctly defined, so the mismatch lies elsewhere; the paper marks 'Fanghmano ei' as the wrong pair, its listed gloss being the literal rendering rather than the term's actual sense. The Mizo idiom could not be independently checked here.",
+  "topic": "mizoram_culture",
+  "flag": "Unverified. The answer turns on the precise meanings of the Mizo terms 'Fanghmano ei' and 'Lalruangasehnawt', which could not be confirmed; only options (c) and (d) could be ruled out with confidence."
+ },
+ "B99": {
+  "answer": "b",
+  "conf": "low",
+  "why": "Thingchangvar is the Mizo term for the brief false dawn — a faint light that appears and then fades before true daybreak. The other options were not verifiable as terms for this phenomenon, so this rests on the paper's marking.",
+  "topic": "mizoram_culture",
+  "flag": "Unverified. Mizo vocabulary item for the pre-dawn false light; could not be confirmed against a source, following the PDF highlight."
+ }
+}

@@ -200,6 +200,16 @@ export const modules: AppModule[] = [
     kind: 'static',
     path: '/mpsc-system-manager/index.html',
   },
+  {
+    id: 'practice-hub-2',
+    title: 'MPSC Practice Hub 2',
+    category: 'Practice',
+    subgroup: 'Exam guides',
+    tagline: '327 solved questions from 4 past papers — Browse by paper, drill only what you got wrong, timed mocks',
+    glyph: '📝',
+    kind: 'static',
+    path: '/mpsc-practice-hub-2/index.html',
+  },
 
   // ---- Practice: Labs ----
   {

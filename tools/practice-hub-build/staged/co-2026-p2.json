@@ -1,0 +1,2026 @@
+{
+ "paperId": "co-2026-p2",
+ "exam": "Circle Officer",
+ "examShort": "CO",
+ "dept": "Social Welfare, Women and Child Development Department, Govt. of Mizoram",
+ "sitting": "April 2026",
+ "year": 2026,
+ "paper": "Paper II",
+ "paperTitle": "General Knowledge, Arithmetic & Reasoning",
+ "series": "A",
+ "maxMarks": 200,
+ "durationMin": 120,
+ "negativeMark": 0.33,
+ "markPerQuestion": 2,
+ "sourcePdf": "marked answer pp2 circle-officer-april-2026-paper-ii-series-a.pdf",
+ "descriptive": [],
+ "questions": [
+  {
+   "id": "Q1",
+   "n": 1,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Who, the first Indian astronaut to visit the ISS in 2025 and, was awarded the Ashoka Chakra in 2026?",
+   "opts": {
+    "a": "Shubhanshu Shukla.",
+    "b": "Arshdeep Singh",
+    "c": "Doleshwar Subba",
+    "d": "Buddhadeb Bhattacharjee"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Group Captain Shubhanshu Shukla flew on Axiom Mission 4 in June 2025 and became the first Indian to board the International Space Station. The other three names are a cricketer and two unrelated public figures.",
+   "topic": "current_affairs",
+   "flag": null
+  },
+  {
+   "id": "Q2",
+   "n": 2,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The PANKHUDI portal was launched on January 8, 2026 by which ministry?",
+   "opts": {
+    "a": "Ministry of Finance",
+    "b": "Ministry of Women and Child Development",
+    "c": "Ministry of Health and Family Welfare",
+    "d": "Ministry of Science and Technology"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "PANKHUDI is the Ministry of Women and Child Development's integrated CSR and partnership portal, launched 8 January 2026 to channel corporate/NGO support into Mission Saksham Anganwadi & Poshan 2.0, Mission Vatsalya and Mission Shakti.",
+   "topic": "current_affairs",
+   "flag": null
+  },
+  {
+   "id": "Q3",
+   "n": 3,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which country has introduced the world's first comprehensive Artificial Intelligence (AI) law called the AI Basic Act on January 22, 2026?",
+   "opts": {
+    "a": "South Korea",
+    "b": "Japan",
+    "c": "Australia",
+    "d": "New Zealand"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "South Korea's Act on the Development of Artificial Intelligence and Establishment of Trust (the AI Basic Act) was promulgated on 21 January 2025 and took effect on 22 January 2026, making it the first national comprehensive AI statute in force.",
+   "topic": "current_affairs",
+   "flag": null
+  },
+  {
+   "id": "Q4",
+   "n": 4,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The Strait of Hormuz, a crucial global oil transit chokepoint, is best governed under which maritime legal regime?",
+   "opts": {
+    "a": "Territorial Sea with absolute sovereignty",
+    "b": "Exclusive Economic Zone with resource control",
+    "c": "Transit passage under international straits as per UNCLOS",
+    "d": "High Seas with no restrictions"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Hormuz is a strait used for international navigation, so Part III of UNCLOS applies and the transit passage regime governs it; transit passage cannot be suspended, which is why option (a)'s 'absolute sovereignty' is wrong even though the strait lies within territorial seas.",
+   "topic": "geography_world",
+   "flag": null
+  },
+  {
+   "id": "Q5",
+   "n": 5,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Kavach 5.0, introduced by Indian Railways, is primarily aimed at enhancing safety by preventing:",
+   "opts": {
+    "a": "Track corrosion",
+    "b": "Train collisions due to human error",
+    "c": "Ticket fraud",
+    "d": "Platform overcrowding"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Kavach is India's indigenous Automatic Train Protection system: it applies brakes automatically when a loco pilot misses a signal or overspeeds, i.e. it targets collisions caused by human error.",
+   "topic": "current_affairs",
+   "flag": null
+  },
+  {
+   "id": "Q6",
+   "n": 6,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which Ward in Aizawl Municipal Corporation is recognized as the ward that has never had a woman corporator/councillor in all three rounds of seat reservation rotations and elections conducted since inception of the municipality?",
+   "opts": {
+    "a": "Ward No. III",
+    "b": "Ward No. V",
+    "c": "Ward No. VI",
+    "d": "Ward No. VIII"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "low",
+   "why": "AMC has 19 elected wards with one-third of seats reserved for women on a five-yearly rotation, but no published ward-wise record of which ward has never returned a woman councillor could be located, so this cannot be independently confirmed. Recorded as marked; treat as unverified rather than settled.",
+   "topic": "mizoram_gk",
+   "flag": null
+  },
+  {
+   "id": "Q7",
+   "n": 7,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "By which one of the following Acts did the Governor General of Bengal became the Governor General of India?",
+   "opts": {
+    "a": "The Regulating Act",
+    "b": "The Pit's Indian Act",
+    "c": "The Charter Act of 1793",
+    "d": "The Charter Act of 1833"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The Charter Act of 1833 redesignated the Governor-General of Bengal as Governor-General of India, William Bentinck being the first to hold that title. The Regulating Act of 1773 had only created the Governor-General of Bengal.",
+   "topic": "history_modern",
+   "flag": "Option (b) is printed 'The Pit's Indian Act'; the Act is Pitt's India Act, 1784. Transcribed verbatim."
+  },
+  {
+   "id": "Q8",
+   "n": 8,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Gandhiji raised the slogan \"Do or Die\" during the time of which of the following movement?",
+   "opts": {
+    "a": "Non-cooperation movement",
+    "b": "Civil disobedience movement",
+    "c": "Khilafat movement",
+    "d": "Quit India movement"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Gandhi gave the 'Karo ya Maro' (Do or Die) call in his 8 August 1942 Gowalia Tank speech launching the Quit India Movement.",
+   "topic": "history_modern",
+   "flag": null
+  },
+  {
+   "id": "Q9",
+   "n": 9,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Jammu and Kashmir became an integral part of India on –",
+   "opts": {
+    "a": "26 October, 1947",
+    "b": "26 October, 1948",
+    "c": "26 November, 1948",
+    "d": "26 November, 1947"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Maharaja Hari Singh signed the Instrument of Accession on 26 October 1947, and Lord Mountbatten accepted it the next day.",
+   "topic": "history_modern",
+   "flag": null
+  },
+  {
+   "id": "Q10",
+   "n": 10,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The Balkan Plan for fragmentation of India was the brain child of:",
+   "opts": {
+    "a": "W. Churchil",
+    "b": "M.A Jinnah",
+    "c": "Lord Mountbatten",
+    "d": "V.P Menon"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The 'Plan Balkan', which would have transferred power to individual provinces and princely states, was Mountbatten's own scheme (drafted with Lord Ismay); Nehru rejected it at Simla and V.P. Menon then produced the substitute Dickie Bird/June 3 Plan.",
+   "topic": "history_modern",
+   "flag": null
+  },
+  {
+   "id": "Q11",
+   "n": 11,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following policies of Muhammad bin Tughlaq was intended to improve administrative control over the Deccan?",
+   "opts": {
+    "a": "Introduction of token currency",
+    "b": "Transfer of capital from Delhi to Daulatabad",
+    "c": "Increase in land revenue in Doab",
+    "d": "Establishment of Diwan-i-Kohi"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Daulatabad (Devagiri) was moved to in 1327 precisely because it lay centrally with respect to the newly annexed Deccan; token currency, the Doab tax hike and Diwan-i-Kohi (agriculture department) had nothing to do with Deccan control.",
+   "topic": "history_ancient_medieval",
+   "flag": null
+  },
+  {
+   "id": "Q12",
+   "n": 12,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following statements is/are correct regarding Koh-i-Noor?\n1. It was once part of the Peacock Throne\n2. It was taken by Nadir Shah during his invasion of India\n3. It is currently kept in the Tower of London\n\nChoose the correct answer from the options given below:",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "All three hold: the stone was set in Shah Jahan's Peacock Throne, Nadir Shah carried it off after sacking Delhi in 1739, and it is today displayed with the Crown Jewels in the Tower of London.",
+   "topic": "history_ancient_medieval",
+   "flag": null
+  },
+  {
+   "id": "Q13",
+   "n": 13,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The Indian Armed Forces operation named 'Operation Meghdoot' was associated with the capture of which of the following Indian glaciers?",
+   "opts": {
+    "a": "Sonapani Glacier",
+    "b": "Satopanth glacier",
+    "c": "Siachen Glacier",
+    "d": "Zemu Glacier"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Operation Meghdoot, launched 13 April 1984, put Indian troops on the Saltoro Ridge and gave India control of the Siachen Glacier.",
+   "topic": "geography_physical",
+   "flag": null
+  },
+  {
+   "id": "Q14",
+   "n": 14,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which layer of the atmosphere conducts electricity, making long-distance short wave radio transmission possible?",
+   "opts": {
+    "a": "Mesosphere",
+    "b": "Stratospause",
+    "c": "Isothermal layer",
+    "d": "Ionosphere"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The ionosphere is ionised by solar radiation, so it is electrically conducting and reflects short-wave radio signals back to earth, allowing them to travel beyond the horizon.",
+   "topic": "geography_physical",
+   "flag": null
+  },
+  {
+   "id": "Q15",
+   "n": 15,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which four countries are called the Asian Tigers?",
+   "opts": {
+    "a": "Hong Kong, Singapore, South Korea, Taiwan",
+    "b": "Hong Kong, China, South Korea, Japan",
+    "c": "Hong Kong, Singapore, China, Taiwan",
+    "d": "Hong Kong, Malaysia, South Korea, China"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The Four Asian Tigers are Hong Kong, Singapore, South Korea and Taiwan — the economies that industrialised rapidly between the 1960s and 1990s. Japan and China are never counted among them.",
+   "topic": "geography_world",
+   "flag": null
+  },
+  {
+   "id": "Q16",
+   "n": 16,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which oceanic ridge separates the Indian Plate from the African Plate?",
+   "opts": {
+    "a": "Mid-Atlantic Ridge",
+    "b": "Carlsberg Ridge",
+    "c": "East Pacific Rise",
+    "d": "Walvis Ridge"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The Carlsberg Ridge in the north-western Indian Ocean is the divergent boundary between the Indian and African (Somali) plates.",
+   "topic": "geography_physical",
+   "flag": null
+  },
+  {
+   "id": "Q17",
+   "n": 17,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The shadow zone of earthquake S-waves is primarily due to:",
+   "opts": {
+    "a": "Inability to pass through liquid outer core",
+    "b": "Absorption in mantle",
+    "c": "Reflection in crust",
+    "d": "Refraction in atmosphere"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "S-waves are transverse and cannot travel through liquids, so the molten outer core blocks them, producing a shadow zone beyond about 103° from the epicentre — the classic evidence that the outer core is liquid.",
+   "topic": "geography_physical",
+   "flag": null
+  },
+  {
+   "id": "Q18",
+   "n": 18,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following states is least affected by cyclones compared to coastal regions?",
+   "opts": {
+    "a": "Arunachal Pradesh",
+    "b": "Assam",
+    "c": "Meghalaya",
+    "d": "Tripura"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "All four are landlocked, but Arunachal Pradesh lies farthest from the Bay of Bengal and is shielded by high Himalayan relief, so cyclonic remnants reach it least. The stem is loosely worded since none of the four is a coastal state.",
+   "topic": "geography_physical",
+   "flag": null
+  },
+  {
+   "id": "Q19",
+   "n": 19,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "According to the provision of the Constitution a 'Metropolitan area' means an area having a population of :",
+   "opts": {
+    "a": "20 lakh or more",
+    "b": "5 lakh or more",
+    "c": "10 lakh or more",
+    "d": "15 lakh or more"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Article 243P(c), inserted by the 74th Amendment, defines a metropolitan area as one with a population of ten lakh or more comprised in one or more districts.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q20",
+   "n": 20,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Who among the following headed the Advisory Committee on Fundamental Rights, Minorities and Tribal and Excluded Areas, a committee under the Constituent Assembly?",
+   "opts": {
+    "a": "Jawahar Lal Nehru",
+    "b": "Vallabhbhai Patel",
+    "c": "H C Mukherjee",
+    "d": "Maulana Azad"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Sardar Vallabhbhai Patel chaired the Advisory Committee on Fundamental Rights, Minorities and Tribal and Excluded Areas; H.C. Mukherjee chaired its Minorities sub-committee, which is the usual trap here.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q21",
+   "n": 21,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following provisions were added to the Constitution of India by the 42nd Constitutional Amendment Act?\n1. Equal pay for equal work\n2. Protection of environment\n3. Free legal aid\n4. Participation of workers in management\n\nChoose the correct answer from the options given below:",
+   "opts": {
+    "a": "1, 2, 3 and 4",
+    "b": "2, 3 and 4 only",
+    "c": "1, 3 and 4 only",
+    "d": "2 and 3 only"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The 42nd Amendment added Articles 39A (free legal aid), 43A (workers' participation in management) and 48A (protection of environment). 'Equal pay for equal work' is Article 39(d), part of the original 1950 Constitution — the deliberate trap in statement 1.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q22",
+   "n": 22,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following provisions can be amended by a simple majority of Parliament?\n1. Citizenship – acquisition and termination\n2. Delimitation of constituencies\n3. Fifth Schedule and Sixth Schedule\n4. Any of the Lists in the Seventh Schedule\n\nChoose the correct answer from the options given below:",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "1, 2 and 4 only",
+    "c": "1, 2 and 3 only",
+    "d": "All of the above"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Citizenship (Art. 11), delimitation, and amendment of the Fifth Schedule (para 7) and Sixth Schedule (para 21) are all outside Article 368 and need only a simple majority. Changing the Seventh Schedule Lists requires a special majority plus ratification by half the states, so statement 4 fails.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q23",
+   "n": 23,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "With reference to the following bodies, which of them are statutory bodies and not constitutional bodies?\n1. National Commission for Women\n2. Central Information Commission\n3. National Human Rights Commission\n4. National Commission for Scheduled Tribes\n\nChoose the correct answer from the options given below:",
+   "opts": {
+    "a": "2 and 3 only",
+    "b": "2 and 4 only",
+    "c": "3 and 4 only",
+    "d": "1, 2 and 3 only"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "NCW (Act of 1990), CIC (RTI Act, 2005) and NHRC (Protection of Human Rights Act, 1993) are statutory. The National Commission for Scheduled Tribes is constitutional, created by Article 338A via the 89th Amendment, so 4 must be excluded.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q24",
+   "n": 24,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A political party becomes a National Party if it is recognised as a State Party in at least:",
+   "opts": {
+    "a": "2 states",
+    "b": "3 states",
+    "c": "4 states",
+    "d": "5 states"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Under the Election Symbols (Reservation and Allotment) Order, one route to national party status is recognition as a State Party in four or more states.",
+   "topic": "polity",
+   "flag": null
+  },
+  {
+   "id": "Q25",
+   "n": 25,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "What is meant by the term \"Fomoflation\" that was often seen in news?",
+   "opts": {
+    "a": "Inflation caused by increase in fuel prices",
+    "b": "Inflation caused by government monetary policy",
+    "c": "Inflation driven by panic buying and fear of scarcity",
+    "d": "Inflation due to high production costs"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Fomoflation' fuses FOMO (fear of missing out) with inflation: prices rise because consumers rush to stock up on a rumoured shortage, creating artificial demand rather than because of any macroeconomic fundamental.",
+   "topic": "economy",
+   "flag": null
+  },
+  {
+   "id": "Q26",
+   "n": 26,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The practice of selling goods in a foreign country at a price below their domestic selling price is called:",
+   "opts": {
+    "a": "Diplomacy",
+    "b": "Discrimination",
+    "c": "Dumping",
+    "d": "Double pricing"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Selling exports below normal (home-market) value is dumping, against which importing countries levy anti-dumping duties under the WTO Anti-Dumping Agreement.",
+   "topic": "economy",
+   "flag": null
+  },
+  {
+   "id": "Q27",
+   "n": 27,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "What is 'Zero Base Budgeting'?",
+   "opts": {
+    "a": "Infinite deficit Budget",
+    "b": "No curtailment in unproductive expenditure in the Budget",
+    "c": "No appraisal of new programmes in the Budget",
+    "d": "Preparation of new Budget every time"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "medium",
+   "why": "Zero-base budgeting discards the previous year's figures entirely and requires every item of expenditure to be justified afresh, so in effect a fresh budget is built each cycle. All four options are poorly framed, but (d) is the only one that reflects the technique; (b) and (c) state the opposite of what ZBB does.",
+   "topic": "economy",
+   "flag": "All four options are loosely worded; (d) is the intended answer only by elimination."
+  },
+  {
+   "id": "Q28",
+   "n": 28,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following statements is correct about PM Surya Ghar Yojana?",
+   "opts": {
+    "a": "It aims to provide free LPG connections to poor households.",
+    "b": "It promotes rooftop solar energy for households.",
+    "c": "It provides employment in rural areas.",
+    "d": "It focuses on irrigation facilities."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "PM Surya Ghar: Muft Bijli Yojana (Feb 2024) subsidises rooftop solar panels to give one crore households up to 300 units of free electricity a month. Free LPG connections are Ujjwala, the trap in option (a).",
+   "topic": "current_affairs",
+   "flag": null
+  },
+  {
+   "id": "Q29",
+   "n": 29,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements:\n1. PM Vishwakarma promotes traditional skills and crafts.\n2. PMEGP is related to micro-enterprise development.\n3. Vatsalya scheme focuses on welfare and protection of children\n4. UNNATI focuses only on industrial production.\n\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "2 , 3 and 4 only",
+    "b": "2 and 3 only",
+    "c": "1, 2 and 4 only",
+    "d": "1, 2 and 3 only"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "PM Vishwakarma supports 18 traditional artisan trades, PMEGP is a credit-linked micro-enterprise subsidy scheme, and Mission Vatsalya is the child protection and welfare scheme — all correct. UNNATI (Uttar Poorva Transformative Industrialization Scheme, 2024) also targets employment and balanced regional development, so the word 'only' makes statement 4 false.",
+   "topic": "current_affairs",
+   "flag": null
+  },
+  {
+   "id": "Q30",
+   "n": 30,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements:\n1. Repo rate is the rate at which RBI lends money to commercial banks.\n2. Reverse repo rate is the rate at which RBI borrows money from banks.\n3. Increase in repo rate helps control inflation.\n\nWhich of the statements given above is/are correct?",
+   "opts": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "All three are standard: repo is RBI's lending rate to banks against securities, reverse repo is the rate at which RBI absorbs liquidity from banks, and raising the repo rate makes credit costlier, squeezing demand and thus inflation.",
+   "topic": "economy",
+   "flag": null
+  },
+  {
+   "id": "Q31",
+   "n": 31,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following gas is emitted naturally by the soil?",
+   "opts": {
+    "a": "Carbon Dioxide",
+    "b": "Radon",
+    "c": "Ozone",
+    "d": "Formaldehyde"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "Radon-222 is produced by the radioactive decay of uranium and radium in soil and rock and seeps out of the ground naturally, which is why it accumulates in basements; ozone and formaldehyde are not soil gases. Rated medium because soil respiration does release carbon dioxide naturally too, so option (a) is arguably defensible — radon is the intended answer as the gas the soil itself gives off.",
+   "topic": "environment_ecology",
+   "flag": "Option (a) carbon dioxide is also naturally emitted by soil (soil respiration), so two options are arguably correct; radon is the intended one."
+  },
+  {
+   "id": "Q32",
+   "n": 32,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following stages are comprised in 2006 Amendment to Environment Impact Assessment cycle?\n1. Screening\n2. Scoping\n3. Public hearing\n4. Appraisal\n\nSelect the correct option from the codes given below:",
+   "opts": {
+    "a": "Only 1, 2 & 3",
+    "b": "Only 2, 3 & 4",
+    "c": "Only 1, 3 & 4",
+    "d": "1, 2, 3 & 4"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The EIA Notification, 2006 prescribes a four-stage cycle — Screening, Scoping, Public Consultation (public hearing) and Appraisal — so all four listed stages belong.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q33",
+   "n": 33,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The 'super bug' used in controlling oil pollution is:",
+   "opts": {
+    "a": "Analgal strain",
+    "b": "Fungalomabin",
+    "c": "Pseudomonas putida.",
+    "d": "Phytodebug"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Ananda Mohan Chakrabarty's genetically engineered Pseudomonas putida, carrying multiple hydrocarbon-degrading plasmids, is the 'superbug' used for oil-spill bioremediation. The other three names are invented.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q34",
+   "n": 34,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following organisms are classified as autotrophs?\n1. Green plants\n2. Algae\n3. Cyanobacteria\n4. Fungi\n\nWhich of the above options are correct?",
+   "opts": {
+    "a": "1, 2 and 3 only",
+    "b": "1 and 2 only",
+    "c": "2, 3 and 4 only",
+    "d": "1, 2, 3 and 4"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Green plants, algae and cyanobacteria all fix carbon photosynthetically. Fungi have no chlorophyll and absorb organic matter, making them heterotrophs (saprotrophs), so 4 is excluded.",
+   "topic": "science_biology",
+   "flag": null
+  },
+  {
+   "id": "Q35",
+   "n": 35,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Consider the following statements:\n1. In-situ conservation involves protecting species in their natural habitat.\n2. Botanical gardens are used for in-situ conservation.\n3. Zoos and seed banks are examples of ex-situ conservation.\n\nWhich of the above is/are correct?",
+   "opts": {
+    "a": "1 only",
+    "b": "1 and 3 only",
+    "c": "2 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Statement 1 is the definition of in-situ conservation and statement 3 correctly classes zoos and seed banks as ex-situ. Botanical gardens keep species away from their natural habitat, so they are ex-situ, not in-situ — statement 2 is the error.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q36",
+   "n": 36,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Match the following:\nList I (Convention/Protocol)\n1. Vienna Convention\n2. Basel Convention\n3. Kyoto Protocol\n4. Ramsar Convention\n\nList II (Objective)\na. Control of hazardous waste movement\nb. Reduction of greenhouse gas emissions\nc. Protection of ozone layer\nd. Conservation of wetlands\n\nOptions:",
+   "opts": {
+    "a": "1-c, 2-a, 3-b, 4-d",
+    "b": "1-a, 2-b, 3-c, 4-d",
+    "c": "1-c, 2-b, 3-a, 4-d",
+    "d": "1-d, 2-a, 3-b, 4-c"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Vienna Convention (1985) protects the ozone layer, Basel (1989) controls transboundary movement of hazardous waste, Kyoto (1997) cuts greenhouse gases and Ramsar (1971) conserves wetlands — giving 1-c, 2-a, 3-b, 4-d.",
+   "topic": "environment_ecology",
+   "flag": null
+  },
+  {
+   "id": "Q37",
+   "n": 37,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Newton's first law is also called as :",
+   "opts": {
+    "a": "Law of moments",
+    "b": "Law of inertia",
+    "c": "Law of energy",
+    "d": "Law of momentum"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Newton's first law states that a body continues at rest or in uniform motion unless acted on by an external force — a statement of inertia, hence the 'law of inertia'.",
+   "topic": "science_physics",
+   "flag": null
+  },
+  {
+   "id": "Q38",
+   "n": 38,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Who designed the symbol of Indian rupee?",
+   "opts": {
+    "a": "Vijay Kumar Chopra",
+    "b": "Srikumar Banerjee",
+    "c": "Subroto Chattopadhyay",
+    "d": "Uday Kumar Dharmalingam"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "D. Udaya Kumar Dharmalingam, then a doctoral student at IIT Bombay, designed the ₹ symbol adopted by the Union Cabinet in July 2010; it blends the Devanagari 'ra' with the Roman 'R'.",
+   "topic": "sports_misc",
+   "flag": null
+  },
+  {
+   "id": "Q39",
+   "n": 39,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The intensity of the Earth's gravitational field is maximum at:",
+   "opts": {
+    "a": "The equator",
+    "b": "The centre of the Earth",
+    "c": "The pole",
+    "d": "The epicentre"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Earth is an oblate spheroid, so the poles are closer to the centre and there is no centrifugal reduction there; g is therefore greatest at the poles (about 9.83 m/s²) and least at the equator. At the centre of the Earth g is zero, the trap in option (b).",
+   "topic": "science_physics",
+   "flag": null
+  },
+  {
+   "id": "Q40",
+   "n": 40,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following elements has the highest electronegativity?",
+   "opts": {
+    "a": "Oxygen",
+    "b": "Fluorine",
+    "c": "Nitrogen",
+    "d": "Chlorine"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Fluorine tops the Pauling scale at 3.98, the highest of any element; oxygen (3.44) is second.",
+   "topic": "science_chemistry",
+   "flag": null
+  },
+  {
+   "id": "Q41",
+   "n": 41,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "What is the SI unit of electric resistance?",
+   "opts": {
+    "a": "Ohm",
+    "b": "Ampere",
+    "c": "Volt",
+    "d": "Watt"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Resistance is measured in ohms (Ω); ampere is current, volt is potential difference and watt is power.",
+   "topic": "science_physics",
+   "flag": null
+  },
+  {
+   "id": "Q42",
+   "n": 42,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A person standing on Earth throws a ball vertically upward. At the highest point, which of the following is true?",
+   "opts": {
+    "a": "Velocity and acceleration both are zero",
+    "b": "Velocity is maximum",
+    "c": "Acceleration becomes zero",
+    "d": "Velocity is zero but acceleration due to gravity is present"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "At the top of the flight the ball is momentarily at rest, but gravity never switches off — acceleration remains 9.8 m/s² downward, which is exactly why the ball starts falling back. Options (a) and (c) are the standard misconception.",
+   "topic": "science_physics",
+   "flag": null
+  },
+  {
+   "id": "Q43",
+   "n": 43,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Early Mizo musical instrument called 'Bengbung' is :",
+   "opts": {
+    "a": "Made up of three small bamboos having different size",
+    "b": "Usually played by girls in their leisure",
+    "c": "A kind of fiddle or violin having only one string",
+    "d": "Made from the horn of Mithun having four string"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Bengbung is a xylophone-like instrument of flat bars struck to give a few notes, and the standard description of it is that it was typically played by girls at leisure. The three distractors each describe a different instrument: three bamboo tubes of different sizes is Tumphit, the one-stringed fiddle is Tingtang, and the mithun-horn instrument is Seki.",
+   "topic": "mizoram_culture",
+   "flag": null
+  },
+  {
+   "id": "Q44",
+   "n": 44,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In Mizo history, the leader who carried out the massacre of the Thlanrawn Pawih during the 'Thlanrawn Rawt' event was :",
+   "opts": {
+    "a": "Phunthanga",
+    "b": "Lalburha",
+    "c": "Thanchhuma",
+    "d": "Lallula"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Lallula of Zopui invited the Thlanrawn tribute-collectors to a feast, plied them with zu and had them killed in their sleep at a gong signal. Thanchhuma was the Thlanrawn chief and Phunthanga his elder — both victims, not perpetrators.",
+   "topic": "mizoram_history",
+   "flag": null
+  },
+  {
+   "id": "Q45",
+   "n": 45,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Vawkpa Sût Nghak is associated with:",
+   "opts": {
+    "a": "Khuangchawi",
+    "b": "Dawino Chhui",
+    "c": "Sadawt",
+    "d": "Chawng"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "medium",
+   "why": "The vawkpa sutnghak was the first male pig reared for the Sakung sacrifice, and the Sakung ritual was performed in the house by the sadawt, the family/clan priest of the sakhua. Khuangchawi and Chawng are public merit feasts, not the pig-rearing ritual. Rated medium because the option names the priest rather than the ritual itself.",
+   "topic": "mizoram_culture",
+   "flag": null
+  },
+  {
+   "id": "Q46",
+   "n": 46,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following was not regarded as an evil spirit by the Mizos?",
+   "opts": {
+    "a": "Thla ai",
+    "b": "Tuitu",
+    "c": "Rawt",
+    "d": "Thlamsawi"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "'Thla' in Mizo means the soul, and thla ai refers to the rite of calling a sick person's departing soul back — it is a ritual concerning a human soul, not a huai. Rawt is documented as a spirit that frightened people at work in the fields, and Tuitu and Thlamsawi likewise belong to the huai class.",
+   "topic": "mizoram_culture",
+   "flag": null
+  },
+  {
+   "id": "Q47",
+   "n": 47,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which Mizo zai/hla was not known before crossing Tiau River by Mizo ancestors?",
+   "opts": {
+    "a": "Hlado leh Bawh hla",
+    "b": "Chai hla",
+    "c": "Pi Hmuaki zai",
+    "d": "Saikuti zai"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "medium",
+   "why": "Saikuti zai belongs to the later group of named zai (with Lianchhiari zai, Darpawngi zai and Awithangpa zai) that emerged after the Mizos had migrated across the Tiau. Hlado (hunting chants), Bawh hla (war chants), Chai hla and Pi Hmuaki's songs all predate that crossing.",
+   "topic": "mizoram_culture",
+   "flag": null
+  },
+  {
+   "id": "Q48",
+   "n": 48,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Chhip zawn, a unit for measuring paddy, is equal to:",
+   "opts": {
+    "a": "Phur 100",
+    "b": "Phur 200",
+    "c": "Phur 80",
+    "d": "Phur 150"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "low",
+   "why": "Chhip zawn appears in the traditional Mizo graduated scale of paddy measures alongside pahmei zawn, tuha zawn, hreiha zawn, kak zawn, silai zawn, mautlawn zawn and pang kakpui zawn, but no accessible source gives its equivalent in phur. Recorded as marked and rated low: since 'chhip' means top/summit, an argument could be made for the largest value (200), so treat this as unconfirmed.",
+   "topic": "mizoram_culture",
+   "flag": null
+  },
+  {
+   "id": "Q49",
+   "n": 49,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which of the following best describes the meaning:  \"One person's loss/missing is another's gain/ happiness\" ?",
+   "opts": {
+    "a": "Mi kuta rulkaw zen ang",
+    "b": "Mi kuta sahrang hmu lian",
+    "c": "Hnung lama sabarh ang",
+    "d": "Arpuia lungchhia sanghara lunglawm"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "'Ar pui a lungchhia, sanghar a lunglawm' literally means the hen grieves while the wildcat rejoices — exactly the sense of one party's loss being another's gain. Option (b), about another's game animal looking bigger, is the 'grass is greener' idea, a different proverb.",
+   "topic": "mizoram_culture",
+   "flag": null
+  },
+  {
+   "id": "Q50",
+   "n": 50,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The second oldest college in Mizoram is:",
+   "opts": {
+    "a": "Government Aizawl College",
+    "b": "Pachhunga University College",
+    "c": "Lunglei Government College",
+    "d": "Government Hrangbana College"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Pachhunga University College, founded in 1958 as Aijal College, is the oldest; Lunglei Government College followed on 10 September 1964. Government Aizawl College dates from 1975 and Government Hrangbana College from 1980, so Lunglei is second.",
+   "topic": "mizoram_gk",
+   "flag": null
+  },
+  {
+   "id": "Q51",
+   "n": 51,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Three ropes of lengths 15 m, 20 m and 25 m are cut into equal pieces of maximum length. What is the length of each piece?",
+   "opts": {
+    "a": "10",
+    "b": "15",
+    "c": "5",
+    "d": "20"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The maximum equal piece length is the HCF: 15 = 3×5, 20 = 2²×5, 25 = 5², so HCF(15, 20, 25) = 5 m, giving 3 + 4 + 5 = 12 pieces.",
+   "topic": "number_system",
+   "flag": null
+  },
+  {
+   "id": "Q52",
+   "n": 52,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A number is increased by 20% and then decreased by 20%. What is the net change?",
+   "opts": {
+    "a": "No change",
+    "b": "Increase of 4%",
+    "c": "Decrease of 2%",
+    "d": "Decrease of 4%"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Successive factors multiply: 1.20 × 0.80 = 0.96, so the number falls to 96% of itself — a 4% decrease. (Equivalently −20²/100 = −4%.) 'No change' is the classic trap.",
+   "topic": "percentage",
+   "flag": null
+  },
+  {
+   "id": "Q53",
+   "n": 53,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The average of 4 numbers is 15. If one number is 18, what is the average of the remaining 3 numbers?",
+   "opts": {
+    "a": "12",
+    "b": "15",
+    "c": "16",
+    "d": "14"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Total = 4 × 15 = 60; removing 18 leaves 42, and 42 ÷ 3 = 14.",
+   "topic": "average",
+   "flag": null
+  },
+  {
+   "id": "Q54",
+   "n": 54,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The average rainfall for the three months from January to March is 12 cm, and for the four months from March to June is 18 cm. If the average rainfall for the six months from January to June is 16 cm, what is the rainfall in the month of March?",
+   "opts": {
+    "a": "10 cm",
+    "b": "12 cm",
+    "c": "14 cm",
+    "d": "16 cm"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Jan–Mar sums to 3×12 = 36 and Mar–Jun to 4×18 = 72; adding these counts March twice, so 36 + 72 = (Jan–Jun total) + March = 6×16 + March = 96 + March, giving March = 12 cm.",
+   "topic": "average",
+   "flag": null
+  },
+  {
+   "id": "Q55",
+   "n": 55,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In an examination, 80% of the students pass in Paper I and 70% pass in Paper II. If 15% of the students fail in both Paper I and Paper II, and the number of students who pass in both papers is 520, what is the total number of students who appeared in the examination?",
+   "opts": {
+    "a": "600",
+    "b": "700",
+    "c": "800",
+    "d": "900"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "15% fail both, so 85% pass at least one. By inclusion-exclusion, both = 80% + 70% − 85% = 65%. Then 0.65 × T = 520, so T = 800 — consistent with the marked option.",
+   "topic": "percentage",
+   "flag": null
+  },
+  {
+   "id": "Q56",
+   "n": 56,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If a : b = 4 : 7 and b : c = 3 : 5, find a : b : c",
+   "opts": {
+    "a": "4 : 7 : 5",
+    "b": "4 : 3 : 5",
+    "c": "12 : 7 : 5",
+    "d": "12 : 21 : 35"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Make b common: multiply the first ratio by 3 and the second by 7, giving a : b = 12 : 21 and b : c = 21 : 35, hence a : b : c = 12 : 21 : 35.",
+   "topic": "ratio_proportion",
+   "flag": null
+  },
+  {
+   "id": "Q57",
+   "n": 57,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A sum of money is divided among A, B, and C in the ratio 2 : 3 : 5. If C receives ₹ 200 more than B, what is the total sum of money?",
+   "opts": {
+    "a": "₹ 1200",
+    "b": "₹ 800",
+    "c": "₹ 600",
+    "d": "₹ 1000"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Let the parts be 2x, 3x, 5x. C − B = 5x − 3x = 2x = 200, so x = 100 and the total 10x = ₹1,000.",
+   "topic": "ratio_proportion",
+   "flag": null
+  },
+  {
+   "id": "Q58",
+   "n": 58,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A man sells two articles for ₹ 100 each. On one he gains 20% and on the other he loses 20%. What is his overall result?",
+   "opts": {
+    "a": "No profit no loss",
+    "b": "Loss of 2%",
+    "c": "Loss of 4%",
+    "d": "Gain of 4%"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Cost prices are 100/1.2 = ₹83.33 and 100/0.8 = ₹125, totalling ₹208.33 against ₹200 received — a loss of ₹8.33, i.e. 4%. Equal-percentage gain and loss on the same selling price always gives a loss of x²/100 = 4%.",
+   "topic": "profit_loss",
+   "flag": null
+  },
+  {
+   "id": "Q59",
+   "n": 59,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A can complete a work in 12 days and B can complete it in 6 days. In how many days will they complete the work together?",
+   "opts": {
+    "a": "3 days",
+    "b": "4 days",
+    "c": "5 days",
+    "d": "6 days"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Combined one-day work = 1/12 + 1/6 = 1/12 + 2/12 = 3/12 = 1/4, so the job takes 4 days.",
+   "topic": "time_work",
+   "flag": null
+  },
+  {
+   "id": "Q60",
+   "n": 60,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Pipe A can fill a tank in 15 hours and Pipe B can empty it in 20 hours. If both are opened together, how long will it take to fill the tank?",
+   "opts": {
+    "a": "40 hours",
+    "b": "60 hours",
+    "c": "75 hours",
+    "d": "100 hours"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Net filling per hour = 1/15 − 1/20 = (4 − 3)/60 = 1/60 of the tank, so it fills in 60 hours.",
+   "topic": "pipes_cisterns",
+   "flag": null
+  },
+  {
+   "id": "Q61",
+   "n": 61,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "In how many years will ₹ 1200 become ₹ 1560 at 10% per annum simple interest?",
+   "opts": {
+    "a": "3 years",
+    "b": "2 years",
+    "c": "4 years",
+    "d": "5 years"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Interest = 1560 − 1200 = ₹360. With SI = PRT/100, 360 = 1200 × 10 × T / 100 = 120T, so T = 3 years.",
+   "topic": "simple_compound_interest",
+   "flag": null
+  },
+  {
+   "id": "Q62",
+   "n": 62,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A car travels at a speed of 60 km/h. How much distance will it cover in 2 hours?",
+   "opts": {
+    "a": "120 km",
+    "b": "110 km",
+    "c": "100 km",
+    "d": "130 km"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Distance = speed × time = 60 × 2 = 120 km.",
+   "topic": "speed_distance_time",
+   "flag": null
+  },
+  {
+   "id": "Q63",
+   "n": 63,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A boat can travel 30 km downstream in 2 hours and the same distance upstream in 3 hours. What is the speed of the boat in still water?",
+   "opts": {
+    "a": "10 km/h",
+    "b": "12 km/h",
+    "c": "15 km/h",
+    "d": "12.5 km/h"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Downstream speed = 30/2 = 15 km/h, upstream = 30/3 = 10 km/h. Still-water speed is their mean, (15 + 10)/2 = 12.5 km/h (the stream is 2.5 km/h).",
+   "topic": "speed_distance_time",
+   "flag": null
+  },
+  {
+   "id": "Q64",
+   "n": 64,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A circular field has a radius of 7 m. A footpath of width 7 m is constructed outside it. Find the area of the footpath.",
+   "opts": {
+    "a": "308 m²",
+    "b": "462 m²",
+    "c": "616 m²",
+    "d": "770 m²"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The path is the annulus between radii 14 m and 7 m: area = π(14² − 7²) = (22/7)(196 − 49) = (22/7)(147) = 462 m². Option (c), 616 m², is the whole outer circle — the trap.",
+   "topic": "mensuration",
+   "flag": null
+  },
+  {
+   "id": "Q65",
+   "n": 65,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A cuboid of dimensions 12 cm × 10 cm × 8 cm is melted to form cubes of side 4 cm. How many such cubes can be formed?\nOptions:",
+   "opts": {
+    "a": "6",
+    "b": "12",
+    "c": "20",
+    "d": "15"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Cuboid volume = 12 × 10 × 8 = 960 cm³; each cube is 4³ = 64 cm³; 960 ÷ 64 = 15 exactly, so the count is a whole number and 15 cubes are formed.",
+   "topic": "mensuration",
+   "flag": null
+  },
+  {
+   "id": "Q66",
+   "n": 66,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A square floor has dimensions 40 ft × 40 ft. Tiles of area 4 sq ft are used. If the cost of each tile is ₹ 200, what is the total expenditure?",
+   "opts": {
+    "a": "₹ 60,000",
+    "b": "₹ 80,000",
+    "c": "₹ 1,60,000",
+    "d": "₹ 2,00,000"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Floor area = 1,600 sq ft; number of tiles = 1600/4 = 400; cost = 400 × 200 = ₹80,000.",
+   "topic": "mensuration",
+   "flag": null
+  },
+  {
+   "id": "Q67",
+   "n": 67,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The total of the ages of Dinga, Hminga and Liana is 80 years. What was the total of their ages three years ago?",
+   "opts": {
+    "a": "71 years",
+    "b": "72 years",
+    "c": "74 years",
+    "d": "77 years"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Each of the three was 3 years younger, so the total drops by 3 × 3 = 9: 80 − 9 = 71 years. Subtracting only 3 (giving 77) is the standard trap.",
+   "topic": "age_problems",
+   "flag": null
+  },
+  {
+   "id": "Q68",
+   "n": 68,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Today is Mawii's birthday. One year, from today she will be twice as old as she was 12 years ago. How old is Mawii today?",
+   "opts": {
+    "a": "20 years",
+    "b": "22 years",
+    "c": "25 years",
+    "d": "27 years"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Let her present age be x. Then x + 1 = 2(x − 12) ⇒ x + 1 = 2x − 24 ⇒ x = 25. Check: 26 = 2 × 13. ✓",
+   "topic": "age_problems",
+   "flag": null
+  },
+  {
+   "id": "Q69",
+   "n": 69,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A man walking at the rate of 5 km/hr. crosses a bridge in 15 minutes. The length of the bridge (in metres) is :",
+   "opts": {
+    "a": "600",
+    "b": "750",
+    "c": "1000",
+    "d": "1250"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "15 minutes is 1/4 hour, so distance = 5 × 1/4 = 1.25 km = 1,250 m.",
+   "topic": "speed_distance_time",
+   "flag": null
+  },
+  {
+   "id": "Q70",
+   "n": 70,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Two men are standing on opposite ends of a bridge 1200 metres long. If they walk towards each other at the rate of 5m/minute and 10m/minute respectively, in how much time will they meet each other?",
+   "opts": {
+    "a": "60 minutes",
+    "b": "80 minutes",
+    "c": "85 minutes",
+    "d": "90 minutes"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Walking towards each other, the relative speed is 5 + 10 = 15 m/min, so the 1,200 m gap closes in 1200/15 = 80 minutes.",
+   "topic": "speed_distance_time",
+   "flag": null
+  },
+  {
+   "id": "Q71",
+   "n": 71,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "What will be the compound interest (in ₹) on a sum of ₹7,200 for 18 months at a rate of 20% per annum, if the interest is compounded half-yearly (nearest to an integer)?",
+   "opts": {
+    "a": "₹2,833",
+    "b": "₹2,383",
+    "c": "₹2,338",
+    "d": "₹3,238"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Half-yearly compounding at 20% p.a. means 10% per half-year for 18 months = 3 periods. Amount = 7200 × 1.1³ = 7200 × 1.331 = ₹9,583.20, so CI = 9583.20 − 7200 = ₹2,383.20 ≈ ₹2,383.",
+   "topic": "simple_compound_interest",
+   "flag": null
+  },
+  {
+   "id": "Q72",
+   "n": 72,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If 12276 ÷ 155 = 79.2, the value of 122.76 ÷ 15.5 is:",
+   "opts": {
+    "a": "7.092",
+    "b": "7.92",
+    "c": "79.02",
+    "d": "7.2"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The dividend is divided by 100 and the divisor by 10, so the quotient is divided by 10: 79.2 ÷ 10 = 7.92. Direct check: 122.76 ÷ 15.5 = 7.92.",
+   "topic": "number_system",
+   "flag": null
+  },
+  {
+   "id": "Q73",
+   "n": 73,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The largest six-digit number exactly divisible by 243 is:",
+   "opts": {
+    "a": "999947",
+    "b": "999945",
+    "c": "999949",
+    "d": "999943"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "999999 ÷ 243 = 4115 remainder 54, so the largest multiple is 243 × 4115 = 999,945. (999999 − 54 = 999945.)",
+   "topic": "number_system",
+   "flag": null
+  },
+  {
+   "id": "Q74",
+   "n": 74,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Rama has one quarter more money than Kima, Kima has two third money as of Muana. If Muana has ₹876 with him, how much money Rama has?",
+   "opts": {
+    "a": "₹365",
+    "b": "₹467.20",
+    "c": "₹730",
+    "d": "₹760"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Kima = (2/3) × 876 = ₹584; Rama = 584 + (1/4)(584) = 584 × 1.25 = ₹730.",
+   "topic": "ratio_proportion",
+   "flag": null
+  },
+  {
+   "id": "Q75",
+   "n": 75,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A persons working 6 hours per day earn ₹900. How much money will 20 persons earn, working 10 hours per day?",
+   "opts": {
+    "a": "₹1,800",
+    "b": "₹2,000",
+    "c": "₹1,500",
+    "d": "₹2,100"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "Earnings vary as persons × hours. Testing integer values of the missing count 'A': only A = 15 gives an option, 900 × (20/15) × (10/6) = ₹2,000 = (b); A = 20 would give ₹1,500 but makes the question degenerate (20 persons asked about 20 persons), and no other integer reproduces ₹1,800 or ₹2,100. So the stem almost certainly read '15 persons'.",
+   "topic": "time_work",
+   "flag": "Stem prints 'A persons working 6 hours per day' — the number of persons is missing/garbled. Reconstructed as 15 persons because that is the only integer that yields a printed option without making the question trivial."
+  },
+  {
+   "id": "Q76",
+   "n": 76,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The population of a town increased by 15% in 2018 and 10% in 2019. Due to a pandemic, it decreased by 10% in 2020. What was the percentage increase in the population of the town in 3 years?",
+   "opts": {
+    "a": "12.5%",
+    "b": "17.5%",
+    "c": "15%",
+    "d": "13.85%"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Chain the factors: 1.15 × 1.10 × 0.90 = 1.1385, so the population is 113.85% of the original — a 13.85% increase. Simply adding 15 + 10 − 10 = 15% ignores compounding and is the trap in option (c).",
+   "topic": "percentage",
+   "flag": null
+  },
+  {
+   "id": "Q77",
+   "n": 77,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A reduction of 20% in the rate of sugar enables Liani to get 6 kg more sugar for ₹960. What is the reduced rate of sugar per kg?",
+   "opts": {
+    "a": "₹36",
+    "b": "₹35",
+    "c": "₹40",
+    "d": "₹32"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "If the original rate is r, then 960/(0.8r) − 960/r = 6 ⇒ (960/r)(1.25 − 1) = 6 ⇒ 240/r = 6 ⇒ r = ₹40. The reduced rate is 0.8 × 40 = ₹32/kg. Option (c) ₹40 is the original rate, the trap.",
+   "topic": "percentage",
+   "flag": null
+  },
+  {
+   "id": "Q78",
+   "n": 78,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "– 224 + ( - 314) × (- 9) =?",
+   "opts": {
+    "a": "547",
+    "b": "-547",
+    "c": "2602",
+    "d": "-2602"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Multiplication first: (−314) × (−9) = +2826; then −224 + 2826 = 2602.",
+   "topic": "number_system",
+   "flag": null
+  },
+  {
+   "id": "Q79",
+   "n": 79,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "₹6200 amount to ₹9176 in 4 years at simple interest. If the interest rate is increased by 3%, it would amount to how much?",
+   "opts": {
+    "a": "₹8,432",
+    "b": "₹9,820",
+    "c": "₹9,822",
+    "d": "₹9,920"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Interest = 9176 − 6200 = ₹2,976, so R = 2976 × 100/(6200 × 4) = 12%. At 15%, interest = 6200 × 15 × 4/100 = ₹3,720 and the amount = 6200 + 3720 = ₹9,920. (Shortcut: extra 3% for 4 years adds 6200 × 0.12 = ₹744.)",
+   "topic": "simple_compound_interest",
+   "flag": null
+  },
+  {
+   "id": "Q80",
+   "n": 80,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Ngura donates blood thrice in 2 years each time 350 ml. How many litres of blood will he donate in 6 years?",
+   "opts": {
+    "a": "1.2",
+    "b": "1.5",
+    "c": "3.15",
+    "d": "4.5"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "6 years contains three 2-year spans, so 3 × 3 = 9 donations; 9 × 350 ml = 3,150 ml = 3.15 litres.",
+   "topic": "ratio_proportion",
+   "flag": null
+  },
+  {
+   "id": "Q81",
+   "n": 81,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "The Managing Director entered the conference room ten minutes before 12:30 hours for an interview. He came 20 minutes before the chairman who was 30 minutes late. At what time, the interviews were scheduled?",
+   "opts": {
+    "a": "12:50",
+    "b": "12:40",
+    "c": "12:20",
+    "d": "12:10"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The MD arrived at 12:30 − 0:10 = 12:20. The chairman came 20 minutes after him, at 12:40. Since the chairman was 30 minutes late, the scheduled time was 12:40 − 0:30 = 12:10.",
+   "topic": "calendar_clock",
+   "flag": null
+  },
+  {
+   "id": "Q82",
+   "n": 82,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the correct image as the rotated image of the given image, when the image is rotated in the specified direction and through the angle mentioned:",
+   "opts": {
+    "a": "(C)",
+    "b": "(D)",
+    "c": "(B)",
+    "d": "(A)"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A 180° turn swaps diagonally opposite quadrants and inverts each element. The diamond-with-cross moves from bottom-right to top-left (unchanged in appearance), the two hatched quadrants swap, and the three-circle 'V' moves from top-left to bottom-right where it must appear inverted as 'Λ'. Only (D) shows the inverted Λ; (C) is identical to (D) except that its V is still upright, which is the trap.",
+   "topic": "figure_series",
+   "flag": null,
+   "figure": "A square divided into four equal quadrants, with a curved arrow above it labelled 180°. Top-left quadrant: a 'V' shape drawn as two line segments meeting at a lower vertex, with small open circles at all three ends (two at the top, one at the bottom vertex). Top-right quadrant: parallel diagonal hatching lines running lower-left to upper-right ('/' direction). Bottom-left quadrant: the same '/' diagonal hatching. Bottom-right quadrant: a diamond (square rotated 45°) with a vertical and a horizontal line crossing inside it. The four answer figures are: (A) top-left '/' hatching, top-right a sideways three-circle 'V' opening left, bottom-left diamond-with-cross, bottom-right '/' hatching. (B) top-left '/' hatching, top-right an upright three-circle 'V', bottom-left diamond-with-cross, bottom-right '/' hatching. (C) top-left diamond-with-cross, top-right '/' hatching, bottom-left '/' hatching, bottom-right an upright three-circle 'V'. (D) top-left diamond-with-cross, top-right '/' hatching, bottom-left '/' hatching, bottom-right an inverted three-circle 'Λ' with two circles at the bottom ends and one at the top vertex."
+  },
+  {
+   "id": "Q83",
+   "n": 83,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Study the following questions carefully and choose the right answer:\n1. Curd    2. Grass    3. Butter    4.Milk    5.Cow",
+   "opts": {
+    "a": "2, 5, 4, 3, 1",
+    "b": "4, 2, 5, 3, 1",
+    "c": "5, 2, 3, 4, 1",
+    "d": "5, 2, 4, 1, 3"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "medium",
+   "why": "The natural process chain is grass → cow → milk → curd → butter, i.e. 2, 5, 4, 1, 3 — which is not offered. Of what is printed, (d) 5, 2, 4, 1, 3 keeps milk → curd → butter in the right order and only shifts the cow ahead of the grass; option (a) puts butter before curd, which is definitely wrong.",
+   "topic": "logical_sequence",
+   "flag": "No option gives the natural order 2, 5, 4, 1, 3 (Grass–Cow–Milk–Curd–Butter); the best available answer inverts Cow and Grass. Stem also reads 'following questions' where 'following words' is meant."
+  },
+  {
+   "id": "Q84",
+   "n": 84,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "How many 'K's are there in the following sequence that are preceded by 'N' and succeeded by 'M'?\n\nNMKNKMMKKNNMKNKMKKMNKMKKNNKKMK",
+   "opts": {
+    "a": "3",
+    "b": "4",
+    "c": "2",
+    "d": "1"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Scanning the 30-character string for the pattern N-K-M gives matches at positions 4–6, 14–16 and 20–22 (the K's at index 5, 15 and 21, 1-based), so the count is 3.",
+   "topic": "alphabet_test",
+   "flag": null
+  },
+  {
+   "id": "Q85",
+   "n": 85,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "There are five brothers — Suman, Kiran, Mohan, Aaron and Rajan. Mohan is the tallest. Suman is shorter than Kiran but taller than Rajan. Aaron is a little shorter than Kiran and a little taller than Suman. Who is the shortest?",
+   "opts": {
+    "a": "Rajan",
+    "b": "Aaron",
+    "c": "Suman",
+    "d": "Kiran"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Mohan is tallest; Kiran > Aaron > Suman from the third clue, and Suman > Rajan from the second. The full order is Mohan > Kiran > Aaron > Suman > Rajan, so Rajan is shortest.",
+   "topic": "ranking",
+   "flag": null
+  },
+  {
+   "id": "Q86",
+   "n": 86,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Vacant : Empty :: Dearth :?",
+   "opts": {
+    "a": "Descend",
+    "b": "Scarcity",
+    "c": "Squander",
+    "d": "Abundant"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The relation is synonymy: vacant means empty, and dearth means scarcity. 'Abundant' is the antonym trap.",
+   "topic": "analogy",
+   "flag": null
+  },
+  {
+   "id": "Q87",
+   "n": 87,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "One morning Udai and Vishal were talking to each other face to face at a crossing. If Vishal's shadow was exactly to the left of Udai, which direction was Udai facing?",
+   "opts": {
+    "a": "East",
+    "b": "West",
+    "c": "North",
+    "d": "South"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "In the morning the sun is in the east, so all shadows fall to the west. The shadow lies to Udai's left, so west is on Udai's left — and a person facing north has west on their left. Udai therefore faces North.",
+   "topic": "direction_sense",
+   "flag": null
+  },
+  {
+   "id": "Q88",
+   "n": 88,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "SCD, TEF, UGH, _____, WKL",
+   "opts": {
+    "a": "CMN",
+    "b": "UJI",
+    "c": "VIJ",
+    "d": "IJT"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The first letters run S, T, U, V, W (+1 each); the second letters run C, E, G, I, K (+2 each); the third letters run D, F, H, J, L (+2 each). The missing term is therefore VIJ.",
+   "topic": "alphabet_test",
+   "flag": null
+  },
+  {
+   "id": "Q89",
+   "n": 89,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Find the next figure that completes the given sequence:",
+   "opts": {
+    "a": "(C)",
+    "b": "(D)",
+    "c": "(B)",
+    "d": "(A)"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Two rules run together. The seven circles gain one shaded circle each step at alternate positions: 1 shaded, then 1 and 3, then 1, 3 and 5, so next comes 1, 3, 5 and 7 — four shaded. The arrow pairs also grow by one each step, with every pair pointing inward except the last, which points outward: so the fourth figure needs top ↓↓↓↑ and bottom ↑↑↑↓. Only (D) has both four shaded circles and that arrow pattern; (A) has only three shaded circles.",
+   "topic": "figure_series",
+   "flag": null,
+   "figure": "A left-to-right series of three block arrows pointing right, each containing a row of seven circles, followed by a question mark. Figure 1: circle 1 shaded, circles 2–7 open; one vertical arrow above the body pointing up and one below pointing down, both at the left end. Figure 2: circles 1 and 3 shaded; two arrows above (first pointing down, second pointing up) and two below (first pointing up, second pointing down). Figure 3: circles 1, 3 and 5 shaded; three arrows above (down, down, up) and three below (up, up, down). Answer figures, each a right-pointing block arrow with seven circles: (A) circles 1, 3, 5 shaded; four arrows above all pointing down and four below all pointing up. (B) circles 1, 3, 5, 7 shaded; four arrows above pointing down, up, down, up and four below pointing up, down, up, down. (C) circles 1, 3, 5, 7 shaded; four arrows above all pointing up and four below all pointing down. (D) circles 1, 3, 5, 7 shaded; four arrows above pointing down, down, down, up and four below pointing up, up, up, down."
+  },
+  {
+   "id": "Q90",
+   "n": 90,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If in a certain language NATURE is coded as MASUQE, how is FAMINE coded in that code?",
+   "opts": {
+    "a": "FBMJND",
+    "b": "FZMHND",
+    "c": "GANIOE",
+    "d": "EALIME"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Compare NATURE → MASUQE letter by letter: N→M, A→A, T→S, U→U, R→Q, E→E — the 1st, 3rd and 5th letters move back one place and the even-position letters stay. Applying this to FAMINE: F→E, A→A, M→L, I→I, N→M, E→E, giving EALIME.",
+   "topic": "coding_decoding",
+   "flag": null
+  },
+  {
+   "id": "Q91",
+   "n": 91,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Choose the odd one out:",
+   "opts": {
+    "a": "Latitude",
+    "b": "Longitude",
+    "c": "Equator",
+    "d": "Tropic of Cancer"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The Equator and the Tropic of Cancer are both particular lines of latitude, so three of the four terms belong to the latitude family. Longitude, which measures east–west position, is the odd one.",
+   "topic": "odd_one_out",
+   "flag": null
+  },
+  {
+   "id": "Q92",
+   "n": 92,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "If FLOWER = GMPXFS, then GARDEN =?",
+   "opts": {
+    "a": "HBSEFO",
+    "b": "HBSFEN",
+    "c": "HBSFEO",
+    "d": "HCSFEO"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Every letter of FLOWER advances by one: F→G, L→M, O→P, W→X, E→F, R→S. The same +1 shift on GARDEN gives G→H, A→B, R→S, D→E, E→F, N→O = HBSEFO.",
+   "topic": "coding_decoding",
+   "flag": null
+  },
+  {
+   "id": "Q93",
+   "n": 93,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "A man walks 10 m south, 10 m east, 10 m north. Distance from the start is:",
+   "opts": {
+    "a": "10 m",
+    "b": "20 m",
+    "c": "√200",
+    "d": "0"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The 10 m south and the 10 m north cancel, leaving only the 10 m east leg, so he ends 10 m due east of the start.",
+   "topic": "direction_sense",
+   "flag": null
+  },
+  {
+   "id": "Q94",
+   "n": 94,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Six persons sit in a circle, Arun is opposite to Chitra. Bina sits next to the right of Chitra. Suta sits between Chitra and Kala next to the left of Chitra and Deepak sits next to the right of Bina. Who is sitting opposite to Suta?",
+   "opts": {
+    "a": "Chitra",
+    "b": "Bima",
+    "c": "Deepak",
+    "d": "Arun"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "Fix Chitra at seat 1. Bina takes seat 2 (her right), Deepak seat 3 (Bina's right), Suta seat 6 (Chitra's left) and Kala seat 5 (beyond Suta), leaving seat 4 for Arun — which is indeed opposite seat 1, matching the first clue. In a circle of six, seat 6 faces seat 3, so Deepak sits opposite Suta.",
+   "topic": "seating_arrangement",
+   "flag": "The stem names 'Bina' but option (b) prints 'Bima'. The mismatch does not change the answer, which is Deepak either way."
+  },
+  {
+   "id": "Q95",
+   "n": 95,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Mirror image of \"ATM\" in a plane mirror?",
+   "opts": {
+    "a": "MTA",
+    "b": "TAM",
+    "c": "AMT",
+    "d": "Cannot determine"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "A plane mirror laterally inverts, so the letter order reverses: A-T-M is read as M-T-A.",
+   "topic": "mirror_image",
+   "flag": null
+  },
+  {
+   "id": "Q96",
+   "n": 96,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Observe this diagram:\n\nSelect the set of classes, the relationship among which is best illustrated in the above Venn diagram.",
+   "opts": {
+    "a": "Doctor, Father, Sister",
+    "b": "Stationery, Staplers, Erasers",
+    "c": "Extrovert, Men, Handsome",
+    "d": "Bureaucrats, Men, Women"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The figure shows three circles of similar size that overlap each other in pairs and share a common central region, i.e. three partly overlapping classes with some members in all three. Only 'Extrovert, Men, Handsome' fits: some men are extroverts, some are handsome, and some are both. Father and Sister (a) and Men and Women (d) are mutually exclusive, and in (b) staplers and erasers are both wholly inside stationery but disjoint from each other.",
+   "topic": "venn_diagram",
+   "flag": null,
+   "figure": "Three circles of roughly equal size arranged in a triangle: one at the upper left, one at the upper right, and one below and between them. Each circle overlaps both of the others, and the three overlaps meet in a small common region near the centre, so every pairwise intersection and the triple intersection are non-empty. No circle is contained inside another and none is separate. The regions are unlabelled."
+  },
+  {
+   "id": "Q97",
+   "n": 97,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Two position of a dice are shown below, which number will appear on the face opposite to the face with the number 5?",
+   "opts": {
+    "a": "1",
+    "b": "2",
+    "c": "6",
+    "d": "4"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "3 is on top in both views, so 1, 5, 2 and 6 are all side faces and 4 is the hidden bottom. Reading the sides clockwise from above, view 1 gives (5, 1, …) and view 2 gives (6, 2, …); the only cycle consistent with both is 5 → 1 → 6 → 2. Faces two apart in that cycle are opposite, so 5 lies opposite 6 (and 1 opposite 2, 3 opposite 4).",
+   "topic": "dice",
+   "flag": null,
+   "figure": "Two isometric drawings of the same cubical die. Left die: top face shows 3, the front-left face shows 1, the right face shows 5. Right die: top face shows 3, the front-left face shows 2, the right face shows 6. The bottom, back and left faces are hidden in both views."
+  },
+  {
+   "id": "Q98",
+   "n": 98,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Study the following Figure and answer the questions given below?\n\nHow many educated people are employed?",
+   "opts": {
+    "a": "8",
+    "b": "5",
+    "c": "9",
+    "d": "6"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Educated = triangle, Employed = circle. The regions lying inside both are the one marked 3 (also inside the rectangle, so educated + employed + backward) and the one marked 2 (educated + employed only). Their total is 3 + 2 = 5.",
+   "topic": "venn_diagram",
+   "flag": null,
+   "figure": "Three overlapping shapes with an arrow-label to each: a triangle labelled 'Educated people', a circle labelled 'Employed people', and a rectangle labelled 'Backward People'. The triangle sits at the top; the rectangle is a tall rectangle overlapping the triangle's lower-left part and extending well below it; the circle sits to the right of centre, overlapping both the triangle and the rectangle. Seven regions carry numbers: 8 lies inside the triangle only; 1 lies inside the triangle and rectangle but outside the circle; 3 lies inside all three shapes; 2 lies inside the triangle and circle but outside the rectangle; 5 lies inside the circle and rectangle but below the triangle; 4 lies inside the circle only; 7 lies inside the rectangle only."
+  },
+  {
+   "id": "Q99",
+   "n": 99,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which one will replace the question mark(?) ?",
+   "opts": {
+    "a": "L₁₀",
+    "b": "K₁₅",
+    "c": "I₁₅",
+    "d": "K₈"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The letters run A, C, E, G, I, ?, M, O, Q — every alternate letter — so the missing letter is K. The subscripts obey 'first + second = third' in each row: 2 + 4 = 6 and 5 + 9 = 14, so row two gives 3 + 5 = 8. The cell is K₈.",
+   "topic": "matrix_reasoning",
+   "flag": null,
+   "figure": "A 3×3 grid of cells, each holding a capital letter with a subscript number. Row 1: A with subscript 2, C with subscript 4, E with subscript 6. Row 2: G with subscript 3, I with subscript 5, and a question mark. Row 3: M with subscript 5, O with subscript 9, Q with subscript 14."
+  },
+  {
+   "id": "Q100",
+   "n": 100,
+   "part": "B",
+   "direction": null,
+   "passageRef": null,
+   "q": "Which one will replace the question mark (?) ?",
+   "opts": {
+    "a": "41",
+    "b": "64",
+    "c": "35",
+    "d": "61"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The four quadrants hold consecutive cubes read clockwise from the top left: 1 = 1³, 8 = 2³, 27 = 3³, so the bottom-left quadrant must be 4³ = 64.",
+   "topic": "matrix_reasoning",
+   "flag": null,
+   "figure": "A circle divided into four quadrants by one vertical and one horizontal diameter. The top-left quadrant contains 1, the top-right contains 8, the bottom-right contains 27, and the bottom-left contains a question mark."
+  }
+ ]
+}

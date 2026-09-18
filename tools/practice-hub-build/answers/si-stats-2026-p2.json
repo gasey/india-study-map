@@ -1,0 +1,702 @@
+{
+ "A1": {
+  "answer": "a",
+  "conf": "high",
+  "why": "CI for 2 years = P[(1+r)²−1] = P[(1.15)²−1] = 0.3225P, so P = 3225 / 0.3225 = ₹10,000. Option (d) ₹32,250 is the trap for anyone who treats ₹3225 as simple interest of 10% — it ignores that the 15% rate compounds.",
+  "topic": "simple_compound_interest",
+  "flag": null
+ },
+ "A10": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Perimeter of a semicircle including the diameter = πr + 2r = r(22/7 + 2) = 36r/7, so 36r/7 = 108 gives r = 21 cm. Using only the curved part (πr = 108) would give r ≈ 34.4 cm — the phrase 'including its diameter' is what forces the +2r.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "A11": {
+  "answer": "a",
+  "conf": "high",
+  "why": "A quadrant is a quarter circle: (1/4)πr² = (1/4)(22/7)(14²) = 616/4 = 154 cm². Option (d) 77 cm² halves it again, as if the quadrant were an eighth of the circle.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "A12": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Original total = 20 × 30 = 600; correcting the entry adds 40−20 = 20, so the true total is 620 and the mean is 620/20 = 31. The mean shifts by the error divided by n (20/20 = 1), not by the full 20 — which is why 'the mean is unchanged' (b) and any larger jump are both wrong.",
+  "topic": "average",
+  "flag": null
+ },
+ "A13": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Gain = 1000−800 = ₹200, and gain% is always computed on cost price: 200/800 × 100 = 25%. Option (a) 20% comes from dividing by the selling price (200/1000) instead of the cost price.",
+  "topic": "profit_loss",
+  "flag": null
+ },
+ "A14": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Discount = 600−510 = ₹90, and discount% is taken on the marked price: 90/600 × 100 = 15%. Dividing by the selling price (90/510) gives about 17.6%, which is not on offer — discount is always a percentage of the marked price.",
+  "topic": "profit_loss",
+  "flag": null
+ },
+ "A15": {
+  "answer": "a",
+  "conf": "high",
+  "why": "If 0.18x = 27 then x = 150, so 30% of it is 45. A quicker route: 30% is 5/3 of 18%, so the answer is 27 × 5/3 = 45 — no need to find the number itself.",
+  "topic": "percentage",
+  "flag": null
+ },
+ "A16": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Discounted price = 20,000 × 0.85 = ₹17,000; adding 10% tax on that gives 17,000 × 1.10 = ₹18,700. Option (a) ₹17,800 comes from netting the 15% and 10% against each other (a 5% net cut), but the tax is levied on the reduced price, so the two percentages do not simply cancel.",
+  "topic": "profit_loss",
+  "flag": null
+ },
+ "A17": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Let the ages be 4x and 5x; then (4x−6)/(5x−6) = 3/4 gives 16x−24 = 15x−18, so x = 6 and B is 5 × 6 = 30 years. Check: 24 and 30 now, 18 and 24 six years ago — exactly 3:4. Subtracting 6 from only one age, or applying the 3:4 ratio to the present ages, produces the other options.",
+  "topic": "age_problems",
+  "flag": "OCR artifact in the options: option (d) reads '34 years thththth'. It is a wrong option either way, so the question is still answerable, but the stray characters should be cleaned in the extraction."
+ },
+ "A18": {
+  "answer": "a",
+  "conf": "high",
+  "why": "From T₁₂ = 2T₅ + 5: a+11d = 2(a+4d)+5 gives a = 3d−5; then T₉ = a+8d = 11d−5 = 39, so d = 4 and a = 7, making Tₙ = 7+(n−1)4 = 4n+3. Option (d) 4n−3 has the right common difference but a first term of 1 instead of 7, so its 9th term is 33, not 39.",
+  "topic": "algebra",
+  "flag": "The stem lost its ordinal superscripts in extraction ('12 term', '5 term', '9 term' should read 12th, 5th, 9th term). Meaning is still recoverable, so the question is answerable."
+ },
+ "A19": {
+  "answer": "c",
+  "conf": "high",
+  "why": "This is the expansion of sin(A+B) with A = 62° and B = 28°: sin62°cos28° + cos62°sin28° = sin90° = 1. Option (d) sin34° is the trap for anyone who subtracts the angles — that would be the cos(A+B) or sin(A−B) pattern, which needs a minus sign between the terms.",
+  "topic": "algebra",
+  "flag": "OCR artifact: the stem ends 'cos62°= 1', i.e. the answer value has been pulled into the question text. The stem should end with '=' only. Does not change what is being asked."
+ },
+ "A2": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Equal distances each way means the harmonic mean applies: 2(60)(40)/(60+40) = 4800/100 = 48 km/hr. The tempting (b) 50 km/hr is the plain arithmetic mean of 60 and 40, which is wrong because the car spends more time on the slower leg (3 hr total for 240 km).",
+  "topic": "speed_distance_time",
+  "flag": null
+ },
+ "A20": {
+  "answer": "c",
+  "conf": "high",
+  "why": "To pass a platform the train covers its own length plus the platform: 200+100 = 300 m, at 90 km/hr = 90 × 5/18 = 25 m/s, so time = 300/25 = 12 s. Option (a) 8 s ignores the platform and uses only the 200 m train length — that figure would apply to passing a pole or a standing man.",
+  "topic": "speed_distance_time",
+  "flag": null
+ },
+ "A21": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Work with rates per hour: the filler adds 1/8 of the tank, the waste pipe removes 1/12, so the net rate is 1/8 − 1/12 = 1/24 and the tank fills in 24 hours. The trap is averaging or adding the two times (8+12=20, option c); rates add, times do not.",
+  "topic": "pipes_cisterns",
+  "flag": null
+ },
+ "A22": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"Neither white nor black\" leaves only the red balls, so the favourable count is 3 out of 5+3+2 = 10 balls, giving 3/10. Option c (2/5) comes from mistakenly counting the 2 black balls instead of excluding them.",
+  "topic": "probability",
+  "flag": null
+ },
+ "A23": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Floor area is 18×12 = 216 m² and the untiled platform is 12×6 = 72 m², so 144 m² needs tiling; each 3 m tile covers 9 m², giving 144/9 = 16 tiles. The margins left round the platform are 3 m on every side, so the tiles fit exactly with none cut — option d is not needed.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "A24": {
+  "answer": "d",
+  "conf": "high",
+  "why": "180 = 2²×3²×5, and only the 5 is unpaired, so multiplying by 5 gives 900 = 30², a perfect square. Option a (2) or b (3) would break existing pairs rather than complete the lone one.",
+  "topic": "number_system",
+  "flag": "Option (d) is OCR-garbled in the source as \"5 xx+62x\"; it reads as the printed value 5, which is the mathematically correct answer. Worth checking the source PDF for the clean option text."
+ },
+ "A25": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Put everything on base 2: 2ˣ · 2^(2x+12) = 2^(6x), so x + 2x + 12 = 6x, giving 3x = 12 and x = 4. The usual slip is writing 4^(x+6) as 2^(x+6) instead of 2^(2x+12), which wrongly yields x = 6.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "A26": {
+  "answer": "b",
+  "conf": "high",
+  "why": "\"Exceeds 16% of itself by 42\" means N − 0.16N = 42, so 0.84N = 42 and N = 50. Option a (52) is what you get from the reversed reading N = 42 + 16% of 42.",
+  "topic": "percentage",
+  "flag": null
+ },
+ "A27": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The first four primes are 2, 3, 5 and 7, and 2+3+5+7 = 17. Option a (10) comes from wrongly starting the primes at 1 (1+2+3+4 style) — 1 is not a prime number.",
+  "topic": "number_system",
+  "flag": null
+ },
+ "A28": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Substituting x = 3 into x² − kx − 3 = 0 gives 9 − 3k − 3 = 0, so 3k = 6 and k = 2. Check: x² − 2x − 3 = (x−3)(x+1), whose roots are 3 and −1, confirming the fit; the sign slip that drops the −3 constant produces k = 3.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "A29": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The common difference is 7 − 4 = 3, so 31 = 4 + (n−1)·3 gives 3(n−1) = 27, n−1 = 9 and n = 10. A common error is forgetting the \"−1\" in the nth-term formula, which gives 9 terms and no matching option.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "A3": {
+  "answer": "d",
+  "conf": "high",
+  "why": "North and east are perpendicular, so the displacement is the hypotenuse: √(7²+24²) = √625 = 25 m. Note 7-24-25 is a standard Pythagorean triple; adding the legs to get 31 m, or guessing 26 m, confuses total path walked with straight-line distance.",
+  "topic": "direction_sense",
+  "flag": null
+ },
+ "A30": {
+  "answer": "a",
+  "conf": "high",
+  "why": "With b blue balls the total is 5+b, so b/(5+b) = 3 × 5/(5+b); the equal denominators cancel and b = 15. Because the totals are identical on both sides, you never need to solve a quadratic — the probability condition reduces to \"blue = 3 × red\".",
+  "topic": "probability",
+  "flag": null
+ },
+ "A31": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Distance from the origin is √(x²+y²) = √((−8)² + 6²) = √(64+36) = √100 = 10 units. The negative sign on −8 disappears once squared, so it does not reduce the distance; option a (5) would need the point (−4,3).",
+  "topic": "mensuration",
+  "flag": "Options (b), (c) and (d) are OCR-mangled in the source (\"units 22\", \"units\", \"10 units 2\"). Only (d) contains the correct value 10, so it is the intended answer, but the printed option text should be re-checked against the PDF."
+ },
+ "A32": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The roots are (−b ± √(b²−4ac))/2a, so a negative discriminant forces the square root of a negative number and both roots become complex — no real roots. Option c (b²−4ac = 0) still gives one real repeated root, and option a gives two distinct real roots.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "A33": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Factorise both: 2x³−5x²−3x = x(2x+1)(x−3) and x⁴−27x = x(x−3)(x²+3x+9), so the LCM takes each distinct factor once — x(x²+3x+9)(2x+1)(x−3). Options with (x+3) are wrong because x³−27 is a difference of cubes giving (x−3)(x²+3x+9), never (x+3); options dropping the leading x miss the factor common to both expressions.",
+  "topic": "algebra",
+  "flag": "All four options are OCR-mangled (stray \"()()\" and lost brackets). Option (b) is the only one whose factors match the correct LCM x(x²+3x+9)(2x+1)(x−3); the printed text should be re-checked against the PDF."
+ },
+ "A34": {
+  "answer": "a",
+  "conf": "high",
+  "why": "2 min 30 sec is 150 seconds, so the speed is 750/150 = 5 m/s, and multiplying by 18/5 converts to 18 km/hr. The trap is treating the time as 2.30 minutes or dividing by 2.5 without converting units, which gives the 15 or 12.5 distractors.",
+  "topic": "speed_distance_time",
+  "flag": null
+ },
+ "A35": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The angle sum gives A + B = 180 − 70 = 110, and with A − B = 26 adding the two equations gives 2A = 136, so A = 68° (and B = 42°). Option a (40°) comes from subtracting instead of adding, which yields B rather than A.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "A36": {
+  "answer": "d",
+  "conf": "high",
+  "why": "If c answers are correct then 90 − c are wrong, so 2c − 0.25(90 − c) = 153, giving 2.25c = 175.5 and c = 78. Verify: 78×2 = 156 marks minus 12×0.25 = 3 penalty = 153; the 10 unattempted questions carry no penalty, which is why the total is 90 and not 100.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "A37": {
+  "answer": "a",
+  "conf": "high",
+  "why": "For zeroes −3 and 4 the sum is 1 and the product is −12, so the polynomial is x² − (sum)x + product = x² − x − 12, which factors as (x+3)(x−4). Option b looks similar but 2x²+2x−24 = 2(x+4)(x−3) has zeroes 3 and −4 — the signs are swapped.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "A38": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The return speed is 40 + 50% = 60 km/hr, and for equal distances the average speed is the harmonic mean 2×40×60/(40+60) = 4800/100 = 48 km/hr. The classic error is the plain average (40+60)/2 = 50, which overstates the speed because more time is spent on the slower leg.",
+  "topic": "speed_distance_time",
+  "flag": null
+ },
+ "A39": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Multiply both numbers by 100 to clear the decimals: 4.036/0.04 = 403.6/4 = 100.9. A quick sanity check is that dividing by a number smaller than 1 must make the result larger than 4.036, which rules out options a and c.",
+  "topic": "number_system",
+  "flag": null
+ },
+ "A4": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Each hour mark is 360°/12 = 30°, and at exactly 3:00 the hands are three marks apart: 3 × 30° = 90°. Option (c) 30° is the size of one hour-gap only, not the three-gap separation.",
+  "topic": "calendar_clock",
+  "flag": null
+ },
+ "A40": {
+  "answer": "c",
+  "conf": "high",
+  "why": "A container that exactly measures both amounts must divide both, and the largest such measure is the HCF of 70 and 105: 70 = 2×5×7, 105 = 3×5×7, so HCF = 35 litres. The LCM (210) is the wrong tool here — that would be the smallest quantity both pots can fill, not the measure that divides them.",
+  "topic": "number_system",
+  "flag": null
+ },
+ "A41": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The source PDF prints stacked fractions: 1⅔ ÷ 2/7 × x/7 = 1¼ × 2/3 ÷ 1/6. Left side = (5/3)(7/2)(x/7) = 5x/6; right side = (5/4)(2/3)(6) = 5; so 5x/6 = 5 and x = 6. The decimal options 0.6 and 0.4 are traps for anyone who inverts a division somewhere.",
+  "topic": "algebra",
+  "flag": "Extracted question text is corrupt — it reads '1÷×=1×÷ 377436'. Verified against the source PDF (Sub-Inspector of Statistic Paper-II, p.5): the equation is 1 2/3 ÷ 2/7 × x/7 = 1 1/4 × 2/3 ÷ 1/6. The stored text must be repaired before this is shown to a student."
+ },
+ "A42": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The wire's length is the circle's circumference: 2 × (22/7) × 56 = 352 cm. Bent into a square that becomes the perimeter, so each side is 352/4 = 88 cm and the area is 88² = 7744 cm². Do not carry over the circle's area (9856 cm²) — only the length of wire is conserved, not the enclosed area.",
+  "topic": "mensuration",
+  "flag": "Option (d) carries a stray trailing '1' in the extracted data ('7744 cm² 1'); the PDF prints only '7744 cm2'."
+ },
+ "A43": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Let the fraction be x/y. x/(y+1) = 1/2 gives 2x = y + 1, and (x+1)/y = 1 gives y = x + 1. Substituting, 2x = x + 2, so x = 2 and y = 3, giving 2/3. Check: 2/4 = 1/2 and 3/3 = 1, so both conditions hold; 1/2 satisfies the second condition but not the first, since 1/(2+1) = 1/3.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "A44": {
+  "answer": "c",
+  "conf": "high",
+  "why": "21 pens and 9 notebooks is exactly three times 7 pens and 3 notebooks, so the cost is 819 ÷ 3 = Rs. 273. You never need the individual price of a pen or a notebook — spotting the 3:1 scaling is the whole question, and the data is in fact insufficient to find the separate prices.",
+  "topic": "ratio_proportion",
+  "flag": null
+ },
+ "A45": {
+  "answer": "b",
+  "conf": "high",
+  "why": "[adjudicated: derived] Correct answer: (b) Rs. 24. A 30% discount means you pay 70% of the list price, so 0.70 x LP = 21, giving LP = 21 / 0.70 = Rs. 30. With a 20% discount you pay 80% of that: 0.80 x 30 = Rs. 24. Quick check you can do without any algebra: a smaller discount must leave a HIGHER selling price, so the answer has to be more than Rs. 21. The option highlighted in the source booklet, (a) Rs. 20, is less than 21 and is therefore impossible — that highlight is an error, not an official key. The distractors correspond to list prices of Rs. 27.50 (for 22) and Rs. 31.25 (for 25), neither of which yields Rs. 21 at a 30% discount. The general shortcut: SP scales with the proportion left after discount, so SP_new = 21 x (80/70) = 24.",
+  "topic": "profit_loss",
+  "flag": null
+ },
+ "A46": {
+  "answer": "a",
+  "conf": "high",
+  "why": "80 litres in the ratio 7:3 is 56 litres of milk and 24 litres of water. The milk is unchanged, so 56/(24 + w) = 2/1 gives 24 + w = 28 and w = 4 litres. The trap is applying the new 2:1 ratio to the original 80 litres, which forgets that adding water raises the total.",
+  "topic": "mixture_alligation",
+  "flag": null
+ },
+ "A47": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Simple interest = P × R × T / 100, so 5400 = P × 12 × 3 / 100 = 0.36P, giving P = Rs. 15,000. Rs. 14,000 and Rs. 14,500 are near-miss distractors — substitute back to check: 15,000 × 0.36 = 5,400 exactly, while 14,000 yields only 5,040.",
+  "topic": "simple_compound_interest",
+  "flag": null
+ },
+ "A48": {
+  "answer": "a",
+  "conf": "high",
+  "why": "A cube has 6 equal faces, so 6a² = 150 gives a² = 25 and a = 5 cm; volume = 5³ = 125 cm³. Option (d) 216 cm³ is the trap of assuming a = 6, but a 6 cm cube has surface area 216 cm², not 150.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "A49": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The table gives Food 3150, Rent 2400, Education 2100, Savings 1200 and Miscellaneous 1950, a total of Rs. 10,800. Rent's central angle is (2400/10800) × 360° = 80°. Remember a pie chart divides 360°, not 100 — computing the percentage (22.2%) and stopping there is the usual slip.",
+  "topic": "data_interpretation",
+  "flag": "The table the Directions refer to was dropped by the extractor. Recovered from the source PDF (p.6, 'expenditure for one month incurred by a family'): Food 3150, Rent 2400, Education 2100, Savings 1200, Miscellaneous 1950 (amounts in Rs). The question is unanswerable until that table is attached."
+ },
+ "A5": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Only tea = 35−20 = 15; only coffee = 40−20 = 20; total liking at least one = 35+40−20 = 55, so neither = 80−55 = 25, giving 15, 20, 25. Option (b) 15, 20, 45 keeps the correct 'only' figures but forgets to subtract the 20 who like both when counting the remainder.",
+  "topic": "venn_diagram",
+  "flag": null
+ },
+ "A50": {
+  "answer": "a",
+  "conf": "high",
+  "why": "From the same table, Food : Education = 3150 : 2100. Dividing both by 1050 gives 3:2. Option (b) 2:3 is the same numbers in the wrong order — the question names food first, so the larger figure leads.",
+  "topic": "data_interpretation",
+  "flag": "Same missing table as Q49. Recovered from the source PDF (p.6): Food 3150, Rent 2400, Education 2100, Savings 1200, Miscellaneous 1950."
+ },
+ "A6": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The perpendicular from the centre bisects the chord, so half the chord = √(10²−6²) = √64 = 8 cm and the full chord = 16 cm. Answering 8 cm (or picking 12 cm) means stopping at the half-chord instead of doubling it.",
+  "topic": "mensuration",
+  "flag": null
+ },
+ "A7": {
+  "answer": "c",
+  "conf": "high",
+  "why": "6% of ₹30,000 = ₹1,800, giving ₹31,800, and the flat ₹800 is added on top: ₹32,600. Option (a) ₹31,800 is the trap — it applies the percentage rise but drops the extra ₹800.",
+  "topic": "percentage",
+  "flag": null
+ },
+ "A8": {
+  "answer": "c",
+  "conf": "high",
+  "why": "From sec²θ = 1 + tan²θ = 1 + 9/16 = 25/16, secθ = 5/4 (taking θ acute). With the 3-4-5 triangle, tan = opp/adj = 3/4 so cos = 4/5 and sec = 1/cos = 5/4; option (b) 4/5 is cosθ, not secθ.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "A9": {
+  "answer": "b",
+  "conf": "high",
+  "why": "tan45° = height/base = 1, so the height equals the base distance, 20 m. A 45° elevation always makes the tower as tall as the observer is distant — halving it to 10 m would require an elevation of about 26.6°.",
+  "topic": "algebra",
+  "flag": null
+ },
+ "B100": {
+  "answer": "b",
+  "conf": "low",
+  "why": "'Suankual' is taken here as a traditional iron tong — a hearth implement — rather than brassware. Note the printing problem: option (a) 'iron thong' and option (b) 'iron tong' differ by a single letter and read as the same intended item, so the pair is effectively a duplicate and the identification is unverified.",
+  "topic": "mizoram_culture",
+  "flag": "Defective options: (a) 'Iron thong' and (b) 'Iron tong' are the same item with a one-letter typo, so two options are equally defensible. Option (d) also carries the stray end-of-paper marker '* * * * * * *'. Answer follows the source PDF's highlight."
+ },
+ "B51": {
+  "answer": "c",
+  "conf": "high",
+  "why": "NATGRID (National Intelligence Grid) was conceived after the 26/11 Mumbai attacks precisely to break the information silos between agencies, letting authorised users query linked databases such as immigration, banking and telecom records. CMS is the Central Monitoring System for communications interception — a different tool — and Palantir is a private US data-analytics firm, not an Indian platform.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B52": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The RBI's Foreign Liabilities and Assets (FLA) Census for 2024-25 put the United States at about 20% and Singapore at about 14.3% of India's total FDI — together over one-third, ahead of Mauritius, the UK and the Netherlands. Mauritius tempts in option (b) because it is a long-standing top source, but it did not form the leading pair in this particular RBI census.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B53": {
+  "answer": "d",
+  "conf": "high",
+  "why": "After a years-long contest with Australia was resolved in November 2025, Türkiye was confirmed as host of COP31, to be held in Antalya in November 2026, with Australia taking the President of Negotiations role. The question asks who will host, so the answer is Türkiye even though Australia leads the talks — that split is exactly what makes this question worth remembering.",
+  "topic": "environment_ecology",
+  "flag": null
+ },
+ "B54": {
+  "answer": "b",
+  "conf": "high",
+  "why": "ISRO opened 2026 with PSLV-C62, launched on 12 January 2026 from Sriharikota carrying the EOS-N1 earth observation satellite and co-passengers (a third-stage roll anomaly meant it did not reach orbit). CMS-03 flew in November 2025 and SpaDeX in December 2024, so neither could be the first mission of 2026.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B55": {
+  "answer": "c",
+  "conf": "medium",
+  "why": "Karnataka's Menstrual Leave Policy, cleared by its Cabinet in October 2025, is the first in India to mandate one paid day per month (12 a year) across both government and private employers. Odisha tempts because it announced a one-day-per-month menstrual leave in 2024, but that entitlement is binding only on state government employees, so it does not cover the private sector this question specifies; Bihar's 1992 scheme is older still but is also government-only and is not an option.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B56": {
+  "answer": "a",
+  "conf": "high",
+  "why": "When the Lushai Hills became the Union Territory of Mizoram, the Pawi-Lakher Regional Council was trifurcated on 2 April 1972 and the three successor bodies were upgraded to full Autonomous District Councils on 29 April 1972; the Pawi council was renamed the Lai Autonomous District Council in 1988. Option (d) 1954 is the trap — that points at the older Pawi-Lakher Regional Council era (set up 1953), not at the LADC itself.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B57": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The 'Doomsday Glacier' is the nickname of Thwaites Glacier in West Antarctica, so called because its collapse could destabilise the West Antarctic Ice Sheet and raise global sea level by several metres. Greenland's fast-changing ice streams (such as Jakobshavn) are large too, but the Doomsday label belongs specifically to Thwaites.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B58": {
+  "answer": "a",
+  "conf": "medium",
+  "why": "Sovereign Gold Bonds are issued by the Reserve Bank of India, which runs the tranches, fixes the issue price and services the interest — RBI is the institution behind the scheme's operation and the standard exam answer. Be aware the scheme itself was announced by the Government of India in the 2015-16 Budget and RBI issues the bonds on its behalf, which is why 'Finance Ministry' reads tempting.",
+  "topic": "economy",
+  "flag": "Arguably ambiguous: SGB is a Government of India scheme (announced in Budget 2015-16) issued by RBI on its behalf, so options (a) and (d) are both defensible."
+ },
+ "B59": {
+  "answer": "b",
+  "conf": "medium",
+  "why": "In the line/staff framework used in Indian administration texts, staff agencies advise and assist the chief executive rather than deliver services — the Cabinet Secretariat, the Cabinet Committees and the erstwhile Planning Commission all sit in that category. The Department of Economic Affairs is a functional department of the Finance Ministry handling macroeconomic policy and the Budget, so it is a line/auxiliary unit, not a staff agency.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B60": {
+  "answer": "c",
+  "conf": "high",
+  "why": "'Fomoflation' blends FOMO (fear of missing out) with inflation: prices rise because consumers panic-buy ahead of feared shortages, creating artificial demand rather than reflecting any real supply shock. Options (a) and (d) describe classic cost-push inflation from fuel prices or input costs, which is a different mechanism entirely.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B61": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Justice Surya Kant was sworn in as the 53rd Chief Justice of India in November 2025, succeeding Justice B.R. Gavai. The other three names are simply earlier in the same sequence — Chandrachud was the 50th CJI, Sanjiv Khanna the 51st and Gavai the 52nd — so the numbering alone rules them out.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B62": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Chavang Kut is the post-harvest thanksgiving festival of the Kuki-Chin communities and is observed as a state holiday on 1 November in Manipur. Mizoram is the trap because the same tribal family lives there, but Mizoram's own harvest festivals are Mim Kut and Pawl Kut.",
+  "topic": "sports_misc",
+  "flag": null
+ },
+ "B63": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The fracture-prone belts of the crust, along plate margins and fault lines, are called seismic zones because that is where accumulated stress releases as earthquakes. Granitic (sial) and basaltic (sima) describe what the crust is made of rather than where it is weak, and 'formic zone' is not a geological term at all.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B64": {
+  "answer": "c",
+  "conf": "high",
+  "why": "South Korea switched on the world's first nationwide commercial 5G network on 3 April 2019. The United States is the deliberate trap: Verizon launched the same day but a few hours later and only in parts of two cities, while Japan and China followed in 2019-2020.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B65": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Group Captain Shubhanshu Shukla flew as pilot on Axiom Mission 4 in June 2025, becoming the first Indian to board the International Space Station. Rakesh Sharma is the tempting answer but his 1984 flight was to the Soviet Salyut-7 station, years before the ISS existed; Nair and Krishnan are fellow Gaganyaan astronaut-designates who did not fly Ax-4.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B66": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The UN General Assembly designated 2026 as the International Year of Rangelands and Pastoralists, to draw attention to grazing lands and herding communities. Glaciers' Preservation is the near-miss — that was the 2025 International Year — and Sustainable Tourism for Development was 2017.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B67": {
+  "answer": "c",
+  "conf": "high",
+  "why": "A full rotation measured against the fixed stars — the sidereal day — takes 23 hours 56 minutes 4 seconds. The familiar 24 hours is the solar day: because Earth also advances about one degree along its orbit each day, it has to turn roughly four minutes extra for the Sun to return to the same position in the sky.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B68": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The Bureau of Indian Standards Act was passed in 1986 and BIS came into existence on 1 April 1987, taking over the assets and functions of the Indian Standards Institution set up in 1947. The question asks for the commencement date, not the year of the Act, so 1987 is correct.",
+  "topic": "sports_misc",
+  "flag": null
+ },
+ "B69": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Article 324 vests superintendence, direction and control of the electoral rolls and the conduct of all elections to Parliament, the State Legislatures and the offices of President and Vice-President in the Election Commission. Article 325 is the nearby trap — it only bars exclusion from the rolls on grounds of religion, race, caste or sex; Article 243 concerns panchayats and 342 Scheduled Tribes.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B70": {
+  "answer": "c",
+  "conf": "low",
+  "why": "The figure the paper is after for broad-gauge electrification by November 2025 is 99.2 per cent, with Indian Railways close to fully electrifying its BG network. Treat the exact decimal as the source's claim, not a verified fact — the four options sit within about a percentage point of each other and the published number moves month to month, so hold on to the concept (near-total BG electrification) rather than the digit.",
+  "topic": "current_affairs",
+  "flag": "Unverified statistic: the November 2025 electrification percentage could not be confirmed independently, and 99.1 / 99.2 / 99.6 are within normal reporting variation of one another. Following the marked option as the best available evidence."
+ },
+ "B71": {
+  "answer": "b",
+  "conf": "medium",
+  "why": "General (Dr.) Vijay Kumar Singh, the former Army Chief and Union Minister, was appointed Governor of Mizoram in 2024 and holds the post at the time of this paper. The question is built entirely from past Mizoram Governors — Aziz Qureshi (2014-15), P.S. Sreedharan Pillai (2019-21) and Hari Babu Kambhampati (2021-24, later moved to Odisha) — so every option looks plausible and only the current holder counts.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B72": {
+  "answer": "b",
+  "conf": "high",
+  "why": "FSDL expands to Football Sports Development Limited, the company that operates the Indian Super League. Option (c) is the trap — the registered name carries no ampersand between 'Football' and 'Sports' — and the two 'Federation' variants are invented, so read such expansions word for word.",
+  "topic": "sports_misc",
+  "flag": null
+ },
+ "B73": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Meerut, where sepoys of the 3rd Light Cavalry mutinied on 10 May 1857, lies in western Uttar Pradesh. Delhi tempts because the rebels marched there the very next day and proclaimed Bahadur Shah Zafar emperor, but the revolt itself began at Meerut, some 70 km away.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B74": {
+  "answer": "d",
+  "conf": "high",
+  "why": "There is no exchange in India called 'Derivatives Exchange Commodity' — the name is invented. BSE and NSE are the two principal SEBI-recognised stock exchanges, and the Multi Commodity Exchange is a genuine SEBI-recognised exchange too, although the paper mis-abbreviates it as MCE when its actual short name is MCX.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B75": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The Lorenz curve plots the cumulative share of income or wealth against the cumulative share of population; the area between it and the 45-degree line of perfect equality yields the Gini coefficient. The Kuznets curve is the classic distractor — it describes inequality rising then falling as an economy develops, rather than graphing the distribution itself — and the Phillips curve is inflation against unemployment.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B76": {
+  "answer": "b",
+  "conf": "medium",
+  "why": "Registration follows the Building and Other Construction Workers Act, 1996, which the Mizoram Welfare Board applies: a worker must have been engaged in construction work for not less than ninety days in the preceding twelve months (and be aged 18-60). The 60, 70 and 80-day options are plausible round numbers with no statutory basis.",
+  "topic": "mizoram_gk",
+  "flag": null
+ },
+ "B77": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The Planning Commission was created by a Cabinet resolution in March 1950 with the Prime Minister as its ex-officio Chairman, so Jawaharlal Nehru was its first Chairman. Rajendra Prasad is the trap for anyone confusing the Commission with the Constituent Assembly, which he presided over; as President he had no role in it.",
+  "topic": "economy",
+  "flag": null
+ },
+ "B78": {
+  "answer": "c",
+  "conf": "high",
+  "why": "The question asks for the INCORRECT statement, and (c) is false: Microsoft Copilot is built precisely to integrate with the Microsoft ecosystem — Windows, Word, Excel, Outlook and Teams. The other three are all true, so they cannot be the answer: ChatGPT is OpenAI's, Gemini was rebranded from Bard in 2024, and Meta AI runs inside Instagram, WhatsApp and Facebook.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B79": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Mission Shakti is the Ministry of Women and Child Development's umbrella scheme for women's safety, security and empowerment, running the Sambal and Samarthya sub-schemes (One Stop Centres, the women's helpline, Beti Bachao Beti Padhao). Do not confuse it with the 2019 anti-satellite test of the same name, which was DRDO's under the Ministry of Defence — an option not offered here.",
+  "topic": "current_affairs",
+  "flag": null
+ },
+ "B80": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Surface waves (Love and Rayleigh) travel along the ground rather than through the interior, are the slowest to arrive and carry the largest amplitude for the longest duration, so they do the most structural damage. S-waves tempt because their sideways shaking is more damaging than the compressional P-waves, but they still decay ahead of the surface waves; gamma waves are electromagnetic radiation, not seismic waves at all.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B81": {
+  "answer": "c",
+  "conf": "high",
+  "why": "IST is fixed to the 82°30'E meridian passing near Mirzapur; 82.5° × 4 minutes per degree = 330 minutes = 5 hours 30 minutes ahead of GMT. 5:45 is the offset for Nepal, not India.",
+  "topic": "geography_world",
+  "flag": null
+ },
+ "B82": {
+  "answer": "c",
+  "conf": "low",
+  "why": "The paper marks Lalrintluangi as the first Mizo woman to stand on the summit of Everest. Baryl Vanneihsangi is a politician and media personality, not a mountaineer, which rules out that distractor. Unverified — this rests on a Mizoram-specific record this explanation could not confirm from an independent source.",
+  "topic": "mizoram_gk",
+  "flag": "Unverified Mizoram-specific fact; answer follows the source PDF's highlight only. Worth checking against a news report on Mizoram's first woman Everest summiteer."
+ },
+ "B83": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The National Center for Seismology (NCS), under the Ministry of Earth Sciences, is India's nodal agency for monitoring, recording and reporting earthquake activity. Options (a) and (d) are invented lookalike names, and IIT Delhi does research, not national seismic monitoring.",
+  "topic": "geography_physical",
+  "flag": null
+ },
+ "B84": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The Supreme Court has read privacy (Puttaswamy), shelter (Chameli Singh) and the right to marry a person of one's choice into Article 21's 'life and personal liberty'. The right to vote is not a fundamental right at all — it is a constitutional/statutory right under Article 326 and the Representation of the People Act.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B85": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The Act of 1935 grew out of the Simon Commission report (1930), the Round Table Conferences and the 1933 White Paper. The Hunter Commission (1919 Jallianwala inquiry), Wood's Despatch (1854 education) and the Whiteley Commission (labour) have nothing to do with the 1935 constitutional framework.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B86": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Khalsa is the Sikh order founded by Guru Gobind Singh in 1699 — entirely outside Gandhi's vocabulary. Ahimsa, satyagraha and mass mobilisation are the three pillars of Gandhian method.",
+  "topic": "history_modern",
+  "flag": null
+ },
+ "B87": {
+  "answer": "d",
+  "conf": "high",
+  "why": "The question asks which item is wrongly listed as cognizable: defamation is a non-cognizable, bailable and compoundable offence under the BNSS/BNS, prosecuted on a private complaint, not an FIR. Murder, molestation and disrobing a woman are all cognizable, allowing arrest without a warrant.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B88": {
+  "answer": "d",
+  "conf": "high",
+  "why": "India borrowed the Canadian model — a strong centre, 'Union of States' with residuary powers vested in the Union. The American model is the tempting trap, but it is a genuine dual federation of states that retain residuary powers, the opposite of India's quasi-federal design.",
+  "topic": "polity",
+  "flag": null
+ },
+ "B89": {
+  "answer": "b",
+  "conf": "low",
+  "why": "The paper marks the Chakma Autonomous District Council as the body placed under Governor's Rule from 7 July 2025; the CADC has historically been the Mizoram council most often suspended after collapses of its executive committee. Unverified 2025 current affairs — treat the date and council with caution and check a news source.",
+  "topic": "mizoram_gk",
+  "flag": "2025 current affairs that could not be verified; answer follows the source PDF's highlight only."
+ },
+ "B90": {
+  "answer": "a",
+  "conf": "high",
+  "why": "The additive primaries of light are red, green and blue — combine all three and you get white, which is why screens use RGB sub-pixels. Red-yellow-blue is the old subtractive set taught for paint and pigment, not for light.",
+  "topic": "science_physics",
+  "flag": null
+ },
+ "B91": {
+  "answer": "c",
+  "conf": "high",
+  "why": "Foot-and-mouth disease of cattle, pigs and other cloven-hoofed animals is caused by a picornavirus (the FMD aphthovirus), which is why it spreads so explosively and is controlled by vaccination and culling rather than antibiotics. Salmonella is a bacterium and causes an entirely different enteric disease.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B92": {
+  "answer": "c",
+  "conf": "high",
+  "why": "In WHO/NFHS nutrition indicators, stunting is low height-for-age — the marker of chronic, long-term undernutrition. 'Weight-for-height' is the definition of wasting, which measures acute undernutrition, and that is the classic confusion in this question.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B93": {
+  "answer": "a",
+  "conf": "high",
+  "why": "Insulin is secreted by the beta cells of the islets of Langerhans in the pancreas. The stomach and intestine secrete digestive enzymes and gut hormones, and saliva contains amylase — none of them produce insulin.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B94": {
+  "answer": "d",
+  "conf": "high",
+  "why": "Excess calcium raises urinary calcium excretion, and calcium oxalate crystallises out as kidney stones; severe hypercalcaemia also causes nausea and confusion. Cholera and diphtheria are infections and hypothermia is a loss of body heat, so none can follow from a dietary mineral excess.",
+  "topic": "science_biology",
+  "flag": null
+ },
+ "B95": {
+  "answer": "d",
+  "conf": "low",
+  "why": "The paper attributes 'Hmanah kaisar lal lian' to Pu Rokunga, the best known of modern Mizo composers. Unverified — the song's reference to the Kaisar points to the First World War period, so the attribution is worth checking against a Mizo hymnody or zaimi reference before relying on it.",
+  "topic": "mizoram_culture",
+  "flag": "Unverified authorship of a Mizo song; answer follows the source PDF's highlight only."
+ },
+ "B96": {
+  "answer": "a",
+  "conf": "low",
+  "why": "Selesih was the legendary Mizo settlement said to hold seven thousand houses (sang sarih), founded under Lallula in the eastern hills; the paper places its site between Khawbung South and Zawlsei. Unverified — all four options name villages in the same Champhai district belt, so the distinction rests on a local siting fact that could not be confirmed here.",
+  "topic": "mizoram_history",
+  "flag": "Unverified local-geography fact; all four options are plausible Champhai-area villages. Answer follows the source PDF's highlight only."
+ },
+ "B97": {
+  "answer": "b",
+  "conf": "high",
+  "why": "The MNF launched 'Operation Jericho' on the night of 28 February–1 March 1966, declaring independence and attacking Assam Rifles posts in Aizawl and Lunglei. 1965 is the year to reject — the MNF existed as a political party from 1961 but did not rise in arms until 1966.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B98": {
+  "answer": "b",
+  "conf": "high",
+  "why": "Reginald Arthur Lorrain founded the Lakher Pioneer Mission and began work among the Mara (Lakher) people of southern Mizoram in 1907. The trap is his brother James Herbert Lorrain, who with F. W. Savidge pioneered the earlier Lushai mission and the Mizo alphabet — a different man and a different mission.",
+  "topic": "mizoram_history",
+  "flag": null
+ },
+ "B99": {
+  "answer": "c",
+  "conf": "low",
+  "why": "The paper identifies 'Thangfenpa Bawp' with the Indian cuckoo, a bird that recurs in Mizo folklore through its distinctive call. Unverified — options (a) and (b) can be ruled out, since the dodo was a flightless Mauritian bird never found in this region, but the positive identification could not be confirmed.",
+  "topic": "mizoram_culture",
+  "flag": "Unverified Mizo bird name; answer follows the source PDF's highlight only."
+ }
+}

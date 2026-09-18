@@ -1,0 +1,1807 @@
+{
+ "exam": "Assistant Labour, Employment, Skill Development & Entrepreneurship Officer",
+ "examShort": "Assistant LESO",
+ "dept": "Labour, Employment, Skill Development & Entrepreneurship Department, Govt. of Mizoram",
+ "sitting": "April 2026",
+ "year": 2026,
+ "paper": "General English",
+ "paperTitle": "Précis, Letter, Comprehension & Grammar",
+ "series": null,
+ "maxMarks": 100,
+ "durationMin": 180,
+ "negativeMark": 0,
+ "markPerQuestion": 1,
+ "sourcePdf": "assistant-leso-2026-general-english.pdf",
+ "paperId": "leso-2026-p1",
+ "questions": [
+  {
+   "id": "B1",
+   "n": 1,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "The **Bible** is the holy book of the Christians.",
+   "opts": {
+    "a": "Noun",
+    "b": "Pronoun",
+    "c": "Adjective",
+    "d": "Preposition"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The underlined word is 'Bible', the subject of the sentence and the name of a specific book — a proper noun. Test it the usual way: it takes the definite article ('The Bible') and can be replaced by a pronoun ('It is the holy book of the Christians'), both of which only nouns allow. 'Adjective' (c) tempts anyone who reads ahead to 'holy book' and grabs the wrong word, but the underline is on 'Bible', not on 'holy'.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B2",
+   "n": 2,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "**None** of my lost books was found.",
+   "opts": {
+    "a": "Adverb",
+    "b": "Adjective",
+    "c": "Pronoun",
+    "d": "Verb"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'None' here stands alone as the subject — it does not modify any noun, it replaces one ('None of my lost books' = 'not one of them'). A word that stands in place of a noun is a pronoun. 'Adjective' (b) is the trap: 'no' is the adjective/determiner form ('no books were found'), while 'none' is its pronoun counterpart and is followed by 'of' rather than sitting directly in front of a noun.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B3",
+   "n": 3,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "It was a **beautiful** sunset.",
+   "opts": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Conjunction",
+    "d": "Article"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Beautiful' sits between the article 'a' and the noun 'sunset' and tells us what kind of sunset it was — that attributive, noun-modifying job is the definition of an adjective. 'Adverb' (b) would be right only for 'beautifully', which would have to modify a verb; there is no verb here for it to attach to, since 'was' is a linking verb and the slot is inside the noun phrase.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B4",
+   "n": 4,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "He completed his work **quickly**.",
+   "opts": {
+    "a": "Determiner",
+    "b": "Verb",
+    "c": "Adverb",
+    "d": "Pronoun"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Quickly' modifies the verb 'completed', telling us HOW the work was done — an adverb of manner, and the -ly form confirms it. 'Verb' (b) is the distractor for students who see the underline near 'completed' and mis-locate it; the verb is 'completed', and 'quickly' is the word describing that verb, not the verb itself.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B5",
+   "n": 5,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "I really wanted to go, **but** it started raining.",
+   "opts": {
+    "a": "Interjection",
+    "b": "Conjunction",
+    "c": "Adjective",
+    "d": "Noun"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'But' joins two independent clauses — 'I really wanted to go' and 'it started raining' — and marks the contrast between them. A word that links clauses of equal rank is a coordinating conjunction. 'Interjection' (a) is wrong because an interjection expresses sudden feeling and is grammatically detached (Oh! Alas!); 'but' is doing structural work here, not emotional work.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.727,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B6",
+   "n": 6,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "He was a man **fertile** in resource.",
+   "opts": {
+    "a": "noun",
+    "b": "adverb",
+    "c": "adjective",
+    "d": "interjection"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Fertile' describes 'a man', so it is an adjective — it just sits AFTER its noun ('a man fertile in resource' = 'a resourceful man'), a post-positive placement common when the adjective carries its own complement ('in resource'). 'Adverb' (b) is the trap created by that unusual position: because it follows the noun, students assume it must be modifying the verb 'was', but it is describing the man, not the being.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B7",
+   "n": 7,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "He **who** is merciful shall meet mercy.",
+   "opts": {
+    "a": "pronoun",
+    "b": "verb",
+    "c": "adverb",
+    "d": "noun"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Who' introduces the relative clause 'who is merciful' and simultaneously stands for its antecedent 'He' — that double duty (standing for a noun + linking a clause) makes it a relative pronoun. 'Verb' (b) is the careless pick from readers who see 'who is' as a unit; the verb in that clause is 'is', and 'who' is its subject, which only a noun or pronoun can be.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B8",
+   "n": 8,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "I did not expect to pass, **and see**, I was among the top five.",
+   "opts": {
+    "a": "noun",
+    "b": "interjection",
+    "c": "adjective",
+    "d": "adverb"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "'And see' is thrown into the sentence parenthetically to express surprise — the same slot as 'and lo!' or 'and behold!'. It is grammatically detached (remove it and the sentence still stands complete), which is exactly what defines an interjection. 'Verb' is not offered, and rightly so: 'see' is not predicating anything about a subject here, it is an exclamatory formula. The other options fail outright — it names nothing (noun), modifies no noun (adjective) and modifies no verb (adverb).",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.671,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B9",
+   "n": 9,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "Of two evils choose the **less**.",
+   "opts": {
+    "a": "verb",
+    "b": "noun",
+    "c": "adverb",
+    "d": "adjective"
+   },
+   "marked": "d",
+   "answer": "b",
+   "conf": "high",
+   "why": "[adjudicated: derived] Correct answer: (b) noun. The booklet's highlight of (d) adjective is wrong.\n\nParse the slot, not the dictionary. \"Choose\" is a transitive verb and needs a direct object. What follows it is \"the less\" — the definite article opens a noun phrase, and nothing comes after \"less\" for it to modify. So \"less\" is the head of that phrase and fills the object slot itself. A word standing between \"the\" and a verb's object position, with no noun behind it, is functioning as a noun (an adjective used substantively, exactly like \"the rich are not always happy\" or \"the poor\"). Part of speech in this sentence: noun.\n\nWhy (d) is tempting and still wrong: \"less\" is an adjective in its ordinary use — \"I have less money\", where it modifies \"money\". The highlight reflects that habitual use rather than the use in the printed sentence, which is precisely what this question is testing. The direction line says \"pick out the correct part of speech of each italicized word\", i.e. its function here, not its usual class.\n\nHold the standard contrast set in mind, because these papers reuse it:\n- \"I have less money than you.\" — less modifies the noun money -> adjective\n- \"He is less hungry than I am.\" — less modifies the adjective hungry -> adverb\n- \"Of two evils choose the less.\" — less is the object of choose -> noun\n\nNote the sentence was almost certainly chosen for the paper *because* it is the noun case; the adjective case would have been written as the trivial \"less money\" example. Treat (d) as a booklet error.",
+   "topic": "parts_of_speech",
+   "flag": "Highlight disputed: source PDF highlights (d) adjective; adjudicated to (b) noun. The highlight is not an official key. If a later official key for this sitting says (d), re-open — but the grammar here is not genuinely ambiguous under traditional parsing: \"the less\" is the direct object of \"choose\" with no following noun.",
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.665
+   }
+  },
+  {
+   "id": "B10",
+   "n": 10,
+   "part": "B",
+   "direction": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "passageRef": null,
+   "q": "What happened **next**?",
+   "opts": {
+    "a": "adverb",
+    "b": "verb",
+    "c": "interjection",
+    "d": "adjective"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "'Next' modifies the verb 'happened' — it answers 'when did it happen?' — so it is an adverb of time. 'Adjective' (d) is the trap because 'next' is an adjective in its more familiar use, where it sits in front of a noun ('the next question', 'next week'). Here there is no noun after it at all; the sentence is complete without one, so the only thing 'next' can be modifying is the verb.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B11",
+   "n": 11,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :",
+   "passageRef": null,
+   "q": "I am not interested about anything that happened ___ the very remote past.",
+   "opts": {
+    "a": "with",
+    "b": "in",
+    "c": "on",
+    "d": "at"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Periods of time take \"in\" — things happen in the past, in the remote past, in 1947. \"At\" is for points of time and \"on\" for days and dates, neither of which a stretch like \"the very remote past\" is. (The printed stem's \"interested about\" is itself faulty English — the idiom is \"interested in\" — but that word is not the blank.)",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B12",
+   "n": 12,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :",
+   "passageRef": null,
+   "q": "She made a point ____ coming late so that everyone would look at her.",
+   "opts": {
+    "a": "of",
+    "b": "at",
+    "c": "in",
+    "d": "about"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Make a point of\" + -ing is a fixed idiom meaning to do something deliberately, which is exactly the sense here (\"so that everyone would look at her\"). None of \"at\", \"in\" or \"about\" combines with \"make a point\" in that meaning.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B13",
+   "n": 13,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :",
+   "passageRef": null,
+   "q": "I’m not exactly keen ____ cooking; but I prefer it to washing.",
+   "opts": {
+    "a": "at",
+    "b": "in",
+    "c": "of",
+    "d": "on"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "The adjective \"keen\" takes \"on\" when it means fond of an activity — \"keen on cooking\". \"Keen of\" is not English, and \"keen on\" should not be confused with \"keen to\" + infinitive (\"keen to help\"), which is a different pattern.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.663
+   }
+  },
+  {
+   "id": "B14",
+   "n": 14,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :",
+   "passageRef": null,
+   "q": "Passengers may leave bulky articles under the stairs ____ the conductor’s permission.",
+   "opts": {
+    "a": "with",
+    "b": "by",
+    "c": "at",
+    "d": "for"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"With permission\" is the standard collocation for doing something because permission has been granted — \"with the conductor's permission\". \"By\" only works in the fixed phrase \"by permission of\" (not \"by the conductor's permission\"), and \"at\" / \"for\" do not combine with \"permission\" at all in this sense.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.436,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B15",
+   "n": 15,
+   "part": "B",
+   "direction": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :",
+   "passageRef": null,
+   "q": "As she was getting _____ the car one of her buttons fell off.",
+   "opts": {
+    "a": "on",
+    "b": "in",
+    "c": "into",
+    "d": "by"
+   },
+   "marked": null,
+   "answer": "c",
+   "conf": "medium",
+   "why": "Entering a car is movement from outside to inside, and the preposition of movement is \"into\" — you get into a car and out of it (but on to a bus and off it). \"In\" is very common in casual speech, which is why it is the trap here, but it strictly expresses position rather than the movement the sentence describes.",
+   "topic": "prepositions",
+   "flag": "The source PDF carries no highlight for this question (the extractor logged it as UNMARKED), so there is no marked answer to compare against; this answer is derived.",
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B16",
+   "n": 16,
+   "part": "B",
+   "direction": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:",
+   "passageRef": null,
+   "q": "You will not succeed ___________ you work hard.",
+   "opts": {
+    "a": "unless",
+    "b": "if",
+    "c": "because",
+    "d": "although"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Unless\" means \"if... not\", so \"You will not succeed unless you work hard\" = you will succeed only if you work hard. Putting \"if\" in reverses the sense into a promise of failure for the hard worker.",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B17",
+   "n": 17,
+   "part": "B",
+   "direction": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:",
+   "passageRef": null,
+   "q": "She acted __________ she knew everything about the matter.",
+   "opts": {
+    "a": "because",
+    "b": "although",
+    "c": "as if",
+    "d": "unless"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"As if\" introduces a clause of manner describing a pretended or supposed state — she behaved in the manner of someone who knew everything. \"Because\" would assert that she really did know, which the sentence is not claiming.",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B18",
+   "n": 18,
+   "part": "B",
+   "direction": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:",
+   "passageRef": null,
+   "q": "__________ you apologize, I will not forgive you.",
+   "opts": {
+    "a": "If",
+    "b": "Unless",
+    "c": "Because",
+    "d": "Although"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The main clause is already negative (\"I will not forgive you\"), so the condition needed is \"if you do not apologize\" — which is exactly what \"Unless\" means. \"If\" would give the nonsense reading that apologizing guarantees no forgiveness.",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B19",
+   "n": 19,
+   "part": "B",
+   "direction": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:",
+   "passageRef": null,
+   "q": "I don’t know ___________ he will come or not.",
+   "opts": {
+    "a": "whether",
+    "b": "although",
+    "c": "because",
+    "d": "unless"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Whether\" is the conjunction that introduces an indirect yes/no question, and the tell-tale \"... or not\" at the end confirms it. \"If\" can sometimes replace it, but \"if... or not\" is awkward and \"if\" is not offered here anyway.",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B20",
+   "n": 20,
+   "part": "B",
+   "direction": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:",
+   "passageRef": null,
+   "q": "She kept quiet __________ she was angry.",
+   "opts": {
+    "a": "although",
+    "b": "because",
+    "c": "so",
+    "d": "unless"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "\"Although\" sets up the concession the sentence is built on: staying silent is the opposite of what anger would normally produce. \"Because\" is not ungrammatical — some people do go quiet when angry — but the item is testing contrast, and \"so\" is wrong outright since it would need the clauses swapped (\"She was angry, so she kept quiet\").",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B21",
+   "n": 21,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "The book is ________ the table.",
+   "opts": {
+    "a": "under",
+    "b": "over",
+    "c": "in",
+    "d": "between"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "medium",
+   "why": "\"Under\" is the only option that gives a natural resting position for a book relative to a table; \"in the table\" is impossible and \"between\" needs two or more objects. \"Over\" is grammatically possible but describes something suspended above rather than lying there, so \"under\" is the intended answer.",
+   "topic": "prepositions",
+   "flag": "The direction for Q21–30 says \"determiner\", but every item in the run tests a preposition, not a determiner. This item is also weakly written: \"over the table\" is not ungrammatical, so the answer rests on which reading is more natural rather than on a rule.",
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B22",
+   "n": 22,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "She walked __________ the room quietly.",
+   "opts": {
+    "a": "on",
+    "b": "of",
+    "c": "across",
+    "d": "out"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Across\" expresses movement from one side of a space to the other, which is what walking through a room is. \"Out\" would need \"out of the room\", and \"on\"/\"of\" cannot take \"the room\" as an object of motion.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B23",
+   "n": 23,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "The picture is hanging ___________ the wall.",
+   "opts": {
+    "a": "at",
+    "b": "on",
+    "c": "of",
+    "d": "for"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Things attached to a flat vertical surface take \"on\": on the wall, on the board, on the ceiling. \"At the wall\" would mean directed towards it (throwing something at the wall), not resting against it.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.671,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B24",
+   "n": 24,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "I have been waiting _______ more than two hours.",
+   "opts": {
+    "a": "till",
+    "b": "some",
+    "c": "for",
+    "d": "to"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"For\" marks a duration — for two hours, for a week — which is what \"more than two hours\" is. \"Till/until\" marks an end point (till 5 o'clock), so it cannot take a length of time.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B25",
+   "n": 25,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "They travelled _______ train.",
+   "opts": {
+    "a": "by",
+    "b": "in",
+    "c": "at",
+    "d": "to"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Means of transport take \"by\" with no article: by train, by bus, by air. \"In\" is used only when the vehicle is specified or determined (\"in the train we caught at noon\"), which is not the case here.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B26",
+   "n": 26,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "He jumped ________ the river.",
+   "opts": {
+    "a": "at",
+    "b": "on",
+    "c": "by",
+    "d": "into"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Into\" shows movement from outside to inside, which is what jumping from the bank to the water is. \"Jumped at\" means seized eagerly (he jumped at the offer) and \"jumped on\" means landed on top of something, so neither describes entering the water.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.665
+   }
+  },
+  {
+   "id": "B27",
+   "n": 27,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "She is interested _______ dancing.",
+   "opts": {
+    "a": "in",
+    "b": "at",
+    "c": "On",
+    "d": "to"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "The fixed adjective + preposition pairing is \"interested in\". \"Good at\", \"surprised at\" take \"at\", but \"interested\" never does in standard usage.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B28",
+   "n": 28,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "He stood _______ the door wairing.",
+   "opts": {
+    "a": "on",
+    "b": "in",
+    "c": "at",
+    "d": "for"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"At the door\" treats the door as a point where someone waits, which the sentence describes. \"In the door\" would mean wedged inside the doorframe, and \"on the door\" means touching its surface.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B29",
+   "n": 29,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "He is afraid _____ the dark.",
+   "opts": {
+    "a": "of",
+    "b": "at",
+    "c": "with",
+    "d": "to"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Afraid\" always takes \"of\" before the thing feared: afraid of dogs, afraid of the dark. \"Afraid at/with\" is not English, and \"afraid to\" is followed by a verb (afraid to speak), not by a noun.",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B30",
+   "n": 30,
+   "part": "B",
+   "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:",
+   "passageRef": null,
+   "q": "She was born _____ 1960.",
+   "opts": {
+    "a": "at",
+    "b": "in",
+    "c": "on",
+    "d": "by"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Years take \"in\" (in 1960, in March), while \"on\" is for full dates and days (on 5 June) and \"at\" is for clock times (at six). So a birth year needs \"in\".",
+   "topic": "prepositions",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.671,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B31",
+   "n": 31,
+   "part": "B",
+   "direction": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:",
+   "passageRef": null,
+   "q": "His speech was so _________ that even critics praised his clarity and depth.",
+   "opts": {
+    "a": "verbose",
+    "b": "eloquent",
+    "c": "taciturn",
+    "d": "ambiguous"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Eloquent\" means fluent and persuasive in speech, which matches praise for clarity and depth. \"Verbose\" is the trap: it means wordy and long-winded, a criticism, and \"taciturn\" (saying very little) contradicts giving a speech at all.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B32",
+   "n": 32,
+   "part": "B",
+   "direction": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:",
+   "passageRef": null,
+   "q": "The scientist’s theory was initially met with __________ , but later gained acceptance.",
+   "opts": {
+    "a": "scepticism",
+    "b": "acclaim",
+    "c": "enthusiasm",
+    "d": "compliance"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"But later gained acceptance\" signals that the first reaction was the opposite of acceptance, so \"scepticism\" (doubt) fits. \"Acclaim\" and \"enthusiasm\" are both positive and would make \"but\" meaningless.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B33",
+   "n": 33,
+   "part": "B",
+   "direction": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:",
+   "passageRef": null,
+   "q": "She gave a __________ smile, hiding her true disappointment.",
+   "opts": {
+    "a": "radiant",
+    "b": "benevolent",
+    "c": "forced",
+    "d": "genuine"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Hiding her true disappointment\" means the smile was not real, so it was \"forced\". \"Genuine\" is the direct contradiction, and \"radiant\"/\"benevolent\" describe sincere warmth rather than concealment.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B34",
+   "n": 34,
+   "part": "B",
+   "direction": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:",
+   "passageRef": null,
+   "q": "The manager was accused of being _________ favoring only a select group of employees.",
+   "opts": {
+    "a": "impartial",
+    "b": "biased",
+    "c": "neutral",
+    "d": "objective"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Favouring only a select group is the definition of being \"biased\", and \"accused of\" signals a fault. \"Impartial\", \"neutral\" and \"objective\" are near-synonyms of each other and all mean the opposite, so none can follow an accusation.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B35",
+   "n": 35,
+   "part": "B",
+   "direction": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:",
+   "passageRef": null,
+   "q": "The child showed _______ curiosity, asking endless questions.",
+   "opts": {
+    "a": "limited",
+    "b": "indifferent",
+    "c": "reluctant",
+    "d": "insatiable"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Insatiable\" means impossible to satisfy, which is exactly what endless questions show. \"Limited\", \"indifferent\" and \"reluctant\" all describe low curiosity and contradict the second half of the sentence.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.663
+   }
+  },
+  {
+   "id": "B36",
+   "n": 36,
+   "part": "B",
+   "direction": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:",
+   "passageRef": null,
+   "q": "Her success was not due to luck but to her _________ efforts.",
+   "opts": {
+    "a": "sporadic",
+    "b": "relentless",
+    "c": "casual",
+    "d": "indifferent"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Not due to luck but to her ___ efforts\" demands a word for sustained hard work, and \"relentless\" means never letting up. \"Sporadic\" (occasional) and \"casual\" would make the effort sound slight, which undercuts the contrast with luck.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B37",
+   "n": 37,
+   "part": "B",
+   "direction": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:",
+   "passageRef": null,
+   "q": "The lawyer’s argument was so __________ that it weakened his entire case.",
+   "opts": {
+    "a": "flawed",
+    "b": "compelling",
+    "c": "persuasive",
+    "d": "logical"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Only a defect in the argument could weaken the case, and \"flawed\" names that defect. \"Compelling\", \"persuasive\" and \"logical\" are all positive and would strengthen the case, not weaken it — and the fact that three options mean roughly the same thing is itself a clue that the odd one out is intended.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B38",
+   "n": 38,
+   "part": "B",
+   "direction": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:",
+   "passageRef": null,
+   "q": "His remarks were ________ and offended many people.",
+   "opts": {
+    "a": "considerate",
+    "b": "insensitive",
+    "c": "polite",
+    "d": "thoughtful"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "Remarks that offend people are \"insensitive\", i.e. showing no regard for others' feelings. \"Considerate\", \"polite\" and \"thoughtful\" are synonyms of each other and describe remarks that would not cause offence.",
+   "topic": "word_usage",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B39",
+   "n": 39,
+   "part": "B",
+   "direction": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold",
+   "passageRef": null,
+   "q": "Although the market is volatile, investors are advised to keep their powder dry until the next quarter’s results are released.",
+   "opts": {
+    "a": "To panic and sell all assets immediately",
+    "b": "To spend all resources instantly",
+    "c": "To keep gun powder in a dry place",
+    "d": "To remain cautious and ready for action"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "\"Keep your powder dry\" comes from musket warfare — keep the gunpowder usable so you can fire when the moment comes — and now means stay cautious but ready to act. Option (c) is the literal trap: an idiom question asks for the figurative sense, not the original image.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.722
+   }
+  },
+  {
+   "id": "B40",
+   "n": 40,
+   "part": "B",
+   "direction": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold",
+   "passageRef": null,
+   "q": "His claim that all politicians are corrupt is a sweeping statement.",
+   "opts": {
+    "a": "Untrue declaration",
+    "b": "Misunderstanding",
+    "c": "Overly generalized statement",
+    "d": "Statement that is proven to be true"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "A \"sweeping statement\" is one that covers everyone or everything without allowing exceptions — here, all politicians. \"Untrue declaration\" is the trap: a sweeping statement is faulted for over-generalising, and may contain some truth, so falsity is not what the phrase asserts.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B41",
+   "n": 41,
+   "part": "B",
+   "direction": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold",
+   "passageRef": null,
+   "q": "The need for diversity and inclusion has come to the fore in many workplaces.",
+   "opts": {
+    "a": "Become prominent",
+    "b": "Be invincible",
+    "c": "Inconspicuous",
+    "d": "Ahead of others"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Come to the fore\" means to become prominent or move into a position of importance — the opposite of \"inconspicuous\" (c), which is the trap for anyone guessing from the word \"fore\" alone. \"Ahead of others\" (d) confuses it with \"forge ahead\"; the idiom is about visibility, not winning a race.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B42",
+   "n": 42,
+   "part": "B",
+   "direction": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold",
+   "passageRef": null,
+   "q": "It is said that he has a finger in the pie.",
+   "opts": {
+    "a": "To have no stake",
+    "b": "Be involved in something",
+    "c": "Have wealth and luxury",
+    "d": "Acquire distinction or glory"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"To have a finger in the pie\" means to be involved or have a share in something, often with a hint of meddling. Option (a) states the exact opposite, and (c) confuses it with the unrelated image of sharing out wealth.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.679,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B43",
+   "n": 43,
+   "part": "B",
+   "direction": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold",
+   "passageRef": null,
+   "q": "Growing up in the mountains, I’ve been surrounded by people who are the salt of the earth.",
+   "opts": {
+    "a": "Sensitive people",
+    "b": "Good and honest people",
+    "c": "Hard-working people",
+    "d": "Simple and carefree people"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"The salt of the earth\" (from Matthew 5:13) describes people who are fundamentally good, honest and dependable. It is often loosely associated with ordinary hard-working country folk, which makes (c) and (d) tempting, but the defining sense is moral worth, not labour or simplicity.",
+   "topic": "idioms_phrases",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.679,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B44",
+   "n": 44,
+   "part": "B",
+   "direction": "Direction (Questions No 44– 48) : Identify the correct form of sentences :",
+   "passageRef": null,
+   "q": "I have no time that I can waste on idle talk.",
+   "opts": {
+    "a": "Simple Sentence",
+    "b": "Compound Sentence",
+    "c": "Complex Sentence",
+    "d": "None of these"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "The sentence has one main clause, \"I have no time\", plus the subordinate relative clause \"that I can waste on idle talk\" — a main clause with a dependent clause is a complex sentence. It is not compound (b) because there is no coordinating conjunction joining two independent clauses.",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B45",
+   "n": 45,
+   "part": "B",
+   "direction": "Direction (Questions No 44– 48) : Identify the correct form of sentences :",
+   "passageRef": null,
+   "q": "Not many people would be cruel to animals.",
+   "opts": {
+    "a": "Assertive Sentence",
+    "b": "Affirmative Sentence",
+    "c": "Negative Sentence",
+    "d": "Comparative Sentence"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "medium",
+   "why": "The sentence carries the negative word \"Not\", so in form it is a negative sentence. It is also assertive (a statement), but \"assertive\" is the broad class that splits into affirmative and negative, so the specific label the question wants is negative.",
+   "topic": "sentence_transformation",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B46",
+   "n": 46,
+   "part": "B",
+   "direction": "Direction (Questions No 44– 48) : Identify the correct form of sentences :",
+   "passageRef": null,
+   "q": "Very few cities in India are as rich as Mumbai.",
+   "opts": {
+    "a": "Comparative Sentence",
+    "b": "Negative Sentence",
+    "c": "Affirmative Sentence",
+    "d": "Positive Sentence"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "low",
+   "why": "The sentence contains no negative word, so on the affirmative/negative axis it is affirmative; \"as rich as\" is the positive degree, not the comparative, so (a) is wrong. Be aware that (d) \"Positive\" is defensible too — as a polarity label it means the same as \"Affirmative\", and as a degree label it is exactly right for the \"as…as\" construction.",
+   "topic": "sentence_transformation",
+   "flag": "Defective question: (c) \"Affirmative\" and (d) \"Positive\" are synonyms on the polarity axis, and the sentence is genuinely in the positive degree of comparison, so (d) is equally defensible. Answer follows the source highlight; treat as unreliable.",
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B47",
+   "n": 47,
+   "part": "B",
+   "direction": "Direction (Questions No 44– 48) : Identify the correct form of sentences :",
+   "passageRef": null,
+   "q": "Do you not remember her who was formerly your foe?",
+   "opts": {
+    "a": "Complex Sentence",
+    "b": "Compound Sentence",
+    "c": "Simple Sentence",
+    "d": "None of these"
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"who was formerly your foe\" is a subordinate relative clause attached to the main clause \"Do you not remember her?\", which makes the sentence complex. The interrogative form is a distraction — the question asks about clause structure, not function, and there is no coordinating conjunction to make it compound.",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B48",
+   "n": 48,
+   "part": "B",
+   "direction": "Direction (Questions No 44– 48) : Identify the correct form of sentences :",
+   "passageRef": null,
+   "q": "There was a great fall, my countrymen.",
+   "opts": {
+    "a": "Affirmative Sentence",
+    "b": "Assertive Sentence",
+    "c": "Positive Sentence",
+    "d": "Exclamatory Sentence"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "medium",
+   "why": "The sentence simply states a fact, so it is assertive (declarative); it is the assertive rewrite of the exclamatory \"What a great fall was there, my countrymen!\", which is why (d) is the trap. \"Affirmative\" and \"Positive\" describe only its polarity, not its sentence type, and they are synonyms of each other — neither can be the intended single answer.",
+   "topic": "sentence_transformation",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.671,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B49",
+   "n": 49,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Identify the type of sentence : “ She enjoys reading books every evening.”",
+   "opts": {
+    "a": "Imperative",
+    "b": "Affirmative",
+    "c": "Interrogative",
+    "d": "Exclamatory"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"She enjoys reading books every evening\" is a plain positive statement — affirmative. It has no command (imperative), no question mark or inverted word order (interrogative), and no exclamation (exclamatory).",
+   "topic": "sentence_transformation",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B50",
+   "n": 50,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Choose the sentence that functions as Imperative.",
+   "opts": {
+    "a": "Do you like listening to music ?",
+    "b": "What a beautiful flower it is!",
+    "c": "Finish your work on time.",
+    "d": "He does not play football on Sundays."
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Finish your work on time\" gives a command with an understood subject \"you\" and a bare-infinitive verb in front position — the defining shape of an imperative. (a) is interrogative, (b) exclamatory, and (d) a negative statement.",
+   "topic": "sentence_transformation",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B51",
+   "n": 51,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Identify the underlined phrase : “She spoke **in a very soft voice**.”",
+   "opts": {
+    "a": "Adjective phrase",
+    "b": "Adverb phrase",
+    "c": "Noun Phrase",
+    "d": "Verb phrase"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "The underlined string 'in a very soft voice' is a prepositional phrase, and the way to classify a phrase is by the job it does, not by its internal shape. Here it modifies the verb 'spoke' and answers 'how did she speak?' — manner — so it is an adverb phrase (equivalent to the single adverb 'softly'). 'Adjective phrase' (a) is the trap, because the phrase contains the adjective 'soft'; but 'soft' is inside the phrase modifying 'voice', while the phrase as a whole is attached to the verb, not to any noun.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.671,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B52",
+   "n": 52,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Identify the underlined phrase : “You **could have been told** the truth earlier.”",
+   "opts": {
+    "a": "Adverb phrase",
+    "b": "Noun phrase",
+    "c": "Verb phrase",
+    "d": "Adjective phrase"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "'Could have been told' is a chain of the modal 'could' plus auxiliaries 'have' and 'been' plus the past participle 'told' — a finite verb phrase (modal + perfect + passive) serving as the predicate of 'You'. 'Adverb phrase' (a) is the distractor for anyone whose eye jumps to 'earlier', which is indeed an adverb, but 'earlier' lies OUTSIDE the underline. The marked-up string contains no noun and no head noun to modify, so noun phrase (b) and adjective phrase (d) are out on structure alone.",
+   "topic": "parts_of_speech",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B53",
+   "n": 53,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Choose the correct Clause to complete the blank : “He continued working _______ he was completely exhausted.",
+   "opts": {
+    "a": "since",
+    "b": "even though",
+    "c": "as if",
+    "d": "as long as"
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "\"Even though\" introduces a clause of concession — he kept working in spite of being exhausted — which is the only reading that makes sense here. \"Since\" (a) would make exhaustion the reason for working, and \"as long as\" (d) would make it a condition, both of which are absurd.",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.666,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B54",
+   "n": 54,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Which is the correct Clause to complete the sentence ? “The teacher asked me _________ .”",
+   "opts": {
+    "a": "where was I going",
+    "b": "where I go",
+    "c": "where I was going",
+    "d": "where am I going"
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "An indirect question keeps statement word order (subject before verb) and backshifts the tense after the past reporting verb \"asked\": where + I + was going. (a) and (d) keep the inverted question order, and (b) fails to backshift \"go\" to \"was going\".",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B55",
+   "n": 55,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Choose the correct conditional sentence.",
+   "opts": {
+    "a": "If you will work hard, you will succeed.",
+    "b": "If you worked hard, you will succeed.",
+    "c": "If you work hard, you would succeed.",
+    "d": "If you work hard, you will succeed."
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "This is the first conditional: simple present in the if-clause, \"will\" + base verb in the main clause. (a) is the classic error of putting \"will\" inside the if-clause; (b) and (c) mix a second-conditional half with a first-conditional half.",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.722
+   }
+  },
+  {
+   "id": "B56",
+   "n": 56,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Pick the correctly structured sentence.",
+   "opts": {
+    "a": "Scarcely had I reached the station when the train had left.",
+    "b": "Scarcely I had reached the station when the train left.",
+    "c": "Scarcely had I reached the station when the train left.",
+    "d": "Scarcely had I reached the station than the train left."
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "\"Scarcely\" at the start forces inversion (\"had I reached\"), pairs with \"when\", and the second clause takes the simple past. (a) wrongly puts the second clause in the past perfect, (b) omits the inversion, and (d) uses \"than\", which belongs with \"no sooner\", not \"scarcely\".",
+   "topic": "sentence_correction",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.736,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B57",
+   "n": 57,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Identify the correct sentence.",
+   "opts": {
+    "a": "Each of the students has completed his work.",
+    "b": "Each of the students has completed their work.",
+    "c": "Each of the students have completed their work.",
+    "d": "Each of the students has completed their works."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "\"Each\" is singular, so it takes the singular verb \"has\" and the singular possessive \"his\" — that rules out (c) at the verb and (b) at the pronoun. (d) also spoils it with the plural \"works\", since \"work\" here is uncountable.",
+   "topic": "subject_verb_agreement",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B58",
+   "n": 58,
+   "part": "B",
+   "direction": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "passageRef": null,
+   "q": "Choose the correct complex sentence.",
+   "opts": {
+    "a": "He is too tired that he cannot walk.",
+    "b": "He is very tired that he cannot walk.",
+    "c": "He is such tired that he cannot walk.",
+    "d": "He is so tired that he cannot walk."
+   },
+   "marked": "b",
+   "answer": "d",
+   "conf": "high",
+   "why": "[adjudicated: derived] Correct answer: (d) \"He is so tired that he cannot walk.\" The source booklet highlights (b), and that highlight is an error — (b) is not grammatical English.\n\nThe test here is which intensifier can introduce a result clause beginning with \"that\". Only \"so\" can: the pattern is **so + adjective + that + clause** (\"so tired that he cannot walk\"). That \"that\"-clause is a subordinate clause, which is also what makes the sentence *complex*, as the question demands.\n\nWhy the others fail:\n- (a) \"too tired that...\" — \"too\" takes an infinitive, not a \"that\"-clause. The correct form is \"too tired **to walk**.\"\n- (b) \"very tired that...\" — \"very\" is a bare degree adverb with no correlative partner at all. You cannot hang a result \"that\"-clause off it. You would have to write \"very tired, **so** he cannot walk,\" which is a compound sentence, not a complex one. This is the highlighted option and it is simply wrong.\n- (c) \"such tired that...\" — \"such\" is a determiner and needs a noun phrase after it: \"**such a tired man** that he cannot walk.\" Before a bare adjective, English requires \"so\", not \"such\".\n\nRemember the pair: **so ... that** (with an adjective/adverb) and **such ... that** (with a noun phrase).",
+   "topic": "clauses",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.679,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B59",
+   "n": 59,
+   "part": "B",
+   "direction": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the",
+   "passageRef": null,
+   "q": "“Have you anything to tell me, little bird?” asked Ulysses.",
+   "opts": {
+    "a": "Ulysses asked of the bird if it has anything to tell him.",
+    "b": "Ulysses asked the bird whether it had anything to tell him.",
+    "c": "Ulysses asked the little bird if there is anything to tell him.",
+    "d": "Ulysses asked to the bird whether it has anything to tell him."
+   },
+   "marked": "b",
+   "answer": "b",
+   "conf": "high",
+   "why": "A yes/no question in reported speech takes \"if/whether\", drops the question mark and inversion, and backshifts \"have\" to \"had\" after the past reporting verb \"asked\". (a) and (d) leave the present \"has\", and (d) adds the wrong preposition (\"asked to the bird\" — one asks someone, not to someone).",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.679,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B60",
+   "n": 60,
+   "part": "B",
+   "direction": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the",
+   "passageRef": null,
+   "q": "He said that he did not wish to see any of them and ordered them to go away.",
+   "opts": {
+    "a": "He said, “I do not wish to see any of them so go away”",
+    "b": "He ordered, “I do not want to see any of you so go away”",
+    "c": "He said, “Go away, I did not wish to see any of you”",
+    "d": "He said, “I do not wish to see any of you; go away.’"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Turning the report back into direct speech un-backshifts \"did not wish\" to \"do not wish\", changes \"them\" to the second-person \"you\" the speaker is addressing, and renders the order as the imperative \"go away\". (b) wrongly swaps the reporting verb \"said\" for \"ordered\", and (c) leaves the past-tense \"did not wish\" inside the quotation marks.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.675
+   }
+  },
+  {
+   "id": "B61",
+   "n": 61,
+   "part": "B",
+   "direction": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the",
+   "passageRef": null,
+   "q": "She said to me, “I have often told you not to mess with me.”",
+   "opts": {
+    "a": "She reminded me that she had often told me not to mess with her.",
+    "b": "She told me that she has often told me not to mess with her.",
+    "c": "She said that she often reminded me not to mess with her.",
+    "d": "She told me not to mess with her."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "Reporting into indirect speech, the present perfect \"have often told\" must backshift to the past perfect \"had often told\", and \"you/me\" become \"me/her\"; only (a) does both. (b) keeps \"has often told\" with no backshift, (c) rewrites the meaning as a repeated reminder, and (d) drops the \"often told\" content altogether.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B62",
+   "n": 62,
+   "part": "B",
+   "direction": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the",
+   "passageRef": null,
+   "q": "He replied that he had promised to reward his employees and that he had kept his word.",
+   "opts": {
+    "a": "He replied, “I promised to reward my employees and I kept word.”",
+    "b": "He replied, “I had promised to reward my employees and had kept my word.”",
+    "c": "He replied, “I promise to reward my employees. I keep my word.”",
+    "d": "He replied, “I have promised to reward my employees. I have kept my word.”"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Working backwards from indirect to direct, the past perfect \"had promised … had kept\" unwinds to the present perfect \"I have promised … I have kept\", which is (d). (b) is the trap: it leaves the past perfect inside the quotation marks, but a speaker saying \"I had promised\" would be reported with a past perfect already in place, and (a) both uses simple past and drops the possessive in \"kept word\".",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.675
+   }
+  },
+  {
+   "id": "B63",
+   "n": 63,
+   "part": "B",
+   "direction": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the",
+   "passageRef": null,
+   "q": "She said, “Will you have time to do it?” And I said, “Yes”.",
+   "opts": {
+    "a": "She asked if I will have time to do it and I replied that I will.",
+    "b": "She asked me if I will have time to do it and I said that I would.",
+    "c": "She asked me if I would have time to do it and I said that I would.",
+    "d": "She asked if I have the time to do it and I said that I will have the time."
+   },
+   "marked": "c",
+   "answer": "c",
+   "conf": "high",
+   "why": "A yes/no question becomes an \"if/whether\" clause with normal word order, \"will\" backshifts to \"would\", and \"said to me\" becomes \"asked me\" — so both halves read \"would\", as in (c). (a) and (b) are the traps: they leave \"will\" unshifted in the reported question even though the reporting verb is past.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.741,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B64",
+   "n": 64,
+   "part": "B",
+   "direction": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the",
+   "passageRef": null,
+   "q": "He said, “ I am going to the market.”",
+   "opts": {
+    "a": "He said that he was going to the market.",
+    "b": "He said that he is going to the market.",
+    "c": "He said that I am going to the market.",
+    "d": "He said that I was going to the market."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "With a past reporting verb the present continuous \"am going\" backshifts to \"was going\", and the first-person \"I\" takes the gender of the speaker, giving \"he was going\". (b) fails to backshift the tense, while (c) and (d) keep \"I\", which would make the reporter rather than \"he\" the one going to the market.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  },
+  {
+   "id": "B65",
+   "n": 65,
+   "part": "B",
+   "direction": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the",
+   "passageRef": null,
+   "q": "She asked me why I was late.",
+   "opts": {
+    "a": "She asked me, “Why I am late?”",
+    "b": "She asked, “Why were you late?”",
+    "c": "She said to me, “Why was I late?”",
+    "d": "She said to me, “Why are you late?”"
+   },
+   "marked": "d",
+   "answer": "d",
+   "conf": "high",
+   "why": "Turning the reported question back into direct speech, the backshifted \"was\" returns to the present \"are\" and the reported \"I\" returns to \"you\", the person addressed: \"Why are you late?\". (b) is the trap — \"Why were you late?\" would have been reported as \"why I had been late\", and (a) and (c) keep reported word order or the wrong pronoun inside the quotation.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.0,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.722
+   }
+  },
+  {
+   "id": "B66",
+   "n": 66,
+   "part": "B",
+   "direction": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the",
+   "passageRef": null,
+   "q": "The teacher said, “Honesty is the best policy.”",
+   "opts": {
+    "a": "The teacher said that honesty is the best policy.",
+    "b": "The teacher said that honesty was the best policy.",
+    "c": "The teacher said honesty had been the best policy.",
+    "d": "The teacher said that honesty will be the best policy."
+   },
+   "marked": "a",
+   "answer": "a",
+   "conf": "high",
+   "why": "A universal truth or proverb keeps its present tense when reported, so \"Honesty is the best policy\" stays \"is\" even after \"said that\". (b) is the classic trap of applying mechanical backshift to a general truth; (c) and (d) change the meaning to something that merely was, or will be, true.",
+   "topic": "narration",
+   "flag": null,
+   "_cov": {
+    "a": 0.714,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 0.0
+   }
+  }
+ ],
+ "descriptive": [
+  {
+   "id": "A1",
+   "kind": "precis",
+   "marks": 14,
+   "prompt": "Write a précis of the following passage.",
+   "guidance": "Target roughly one-third of the original (about 120-130 words) and give it a title. The passage has four causes and one remedy: educational/skills disparity, a polarised labour market (worsened by gender, race and ethnicity), concentration of wealth that compounds itself, and — as the answer to all three — progressive taxation, investment in education and social safety nets. A précis must be in your own words and in reported, impersonal third person; do not quote, do not add examples of your own, and do not keep the conclusion's rhetorical framing. Marks are lost most often for copying whole sentences and for exceeding the length.",
+   "body": "Economic inequality is a persistent and growing issue that affects societies worldwide. It refers to the unequal distribution of income, wealth, and opportunities among individuals and groups. While some level of inequality is inevitable in any society, excessive economic disparity can lead to social unrest, reduced economic mobility, and weakened social cohesion. One of the primary drivers of economic inequality is the disparity in education and skills. Individuals with higher levels of education and specialised skills tend to have better job prospects and higher incomes. In contrast, those with limited education and skills often face difficulties in securing well-paying jobs, leading to a widening income gap. This educational inequality is often rooted in socio-economic factors, such as access to quality schools, parental support, and community resources. The labour market also plays a significant role in economic inequality. Technological advancements and globalization have created high-demand, high-paying jobs in certain sectors, while other sectors experience job losses and wage stagnation. This has resulted in a polarized labour market, where a small proportion of workers enjoy significant financial rewards, while many others struggle to make ends meet. Additionally, factors such as gender, race, and ethnicity can further exacerbate labour market inequalities, leading to systemic discrimination and biases. Wealth inequality is another critical aspect of economic disparity. Wealth, which includes assets such as property, investments, and savings, tends to be highly concentrated among a small proportion of the population. This concentration of wealth allows the affluent to generate more income through investments and access better opportunities, perpetuating a cycle of inequality. Conversely, those with little or no wealth have limited financial security and opportunities for upward mobility. Addressing economic inequality requires comprehensive policy interventions. Governments can play a pivotal by implementing progressive taxation, investing in education and skills development, and promoting social safety nets. Progressive taxation ensures that those with higher incomes contribute a fair share to public resources, while investments in education can help bridge the skills gap and provide equal opportunities for all. Social safety nets, such as unemployment benefits and healthcare, can provide financial security and support for those in need. In conclusion, economic inequality is a complex and multifaceted issue that poses significant challenges to social and economic stability. By addressing the root causes of inequality and implementing inclusive policies, we can work towards a more equitable society where all individuals have the opportunity to thrive and contribute to economic growth."
+  },
+  {
+   "id": "A2",
+   "kind": "letter",
+   "marks": 10,
+   "prompt": "To maintain 'work-life' balance, there is a surge of people coming on short and budgeted vacations. Seizing this opportunity more people are offering the 'home stay' option. Write a letter to the editor of your local newspaper sharing your views on this trend.",
+   "guidance": "This is a letter to the editor, so use the formal layout: sender's address, date, 'The Editor' with the paper's name and address, subject line, 'Sir/Madam', body, 'Yours faithfully'. Three body paragraphs work well — why the trend has arisen (work-life balance, budget travel), what it offers (local income, authentic experience, cheaper stays), and a balanced reservation (regulation, safety, quality, pressure on neighbourhoods) closing with a concrete suggestion such as registration or minimum standards. A letter to the editor argues a view for a public audience; do not write it as a personal letter to a friend, and keep it inside one page."
+  },
+  {
+   "id": "partA-passage",
+   "kind": "passage",
+   "marks": 10,
+   "prompt": "Read the passage and answer the questions that follow.",
+   "guidance": "A comprehension passage on raising employee earnings through labour productivity and motivation. Answer only from the passage — do not import outside theory.",
+   "body": "There is absolutely no point in complaining that over the years, there has been pressure for increased productivity and higher earnings for workers in industry. There are several ways for increasing employees earnings. Employee earnings can be increased by raising the selling price of the firm’s products and services, reducing profits or costs of raw materials, or augmenting labour productivity. However, increasing employee earning by means other than increased labour productivity jeopardizes the firm’s competitive strength in the market. Higher prices usually mean fewer customer, reduced profit means less capital investment, and low-cost material mean poor product quality. But, increasing labour productivity by enhancing skills and motivation creates an almost unlimited resource. The development of economic resources, human as well as nonhuman, is the product of human effort, and the quality of human effort in large part depends on human motivation. Enthusing employees with workaholic spirit through traditional authority and financial incentives has become increasingly difficult as employees become economically secure and their dependency on any one particular organization decreases. According to expectancy theorists, the motivation to work increases when an employee feels his performance is an instrument for obtaining desired rewards. Nevertheless, in many organization today employees are entitled to organizational rewards just by being employed. Unions, governmental regulations, and the nature of the job itself in some cases prevent management from relating financial rewards to performance. People may be attracted to join and remain in organizations to receive organizational rewards, but being motivated to join an organization is not the same as being motivated to exert effort in an organization. The challenge to management is to find and administer alternative form of incentives which will induce employees to improve work performance. Such alternative forms of reinforcement will require increased understanding of motivational theories and programmes."
+  },
+  {
+   "id": "A3i",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "How can organizations derive maximum advantages?",
+   "guidance": "By increasing labour productivity through enhanced skills and motivation. The passage calls this 'an almost unlimited resource', in contrast to raising prices, cutting profits or using cheaper materials — each of which damages the firm's competitive strength."
+  },
+  {
+   "id": "A3ii",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "State two things that contribute to an increase in employee earnings according to the passage.",
+   "guidance": "Any two of: raising the selling price of the firm's products and services; reducing profits; reducing the cost of raw materials; augmenting labour productivity. The question asks only to state them, so a list is enough — do not evaluate them."
+  },
+  {
+   "id": "A3iii",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "How do employees feel motivated to work?",
+   "guidance": "Per the expectancy theorists cited, motivation rises when an employee feels their performance is an instrument for obtaining desired rewards — i.e. when reward is tied to performance rather than granted merely for being employed."
+  },
+  {
+   "id": "A3iv",
+   "kind": "comprehension_written",
+   "marks": 1,
+   "passageRef": "partA-passage",
+   "prompt": "Pick out the word from the passage which means stimulate or influence.",
+   "guidance": "'Induce' (from 'alternative form of incentives which will induce employees to improve work performance'). One word only — the instruction is to pick it out of the passage, so do not offer a synonym of your own."
+  },
+  {
+   "id": "A3v",
+   "kind": "comprehension_written",
+   "marks": 2,
+   "passageRef": "partA-passage",
+   "prompt": "What factor determines the quality of human efforts?",
+   "guidance": "Human motivation. The passage states that the development of economic resources is the product of human effort, and that the quality of that effort depends in large part on human motivation."
+  },
+  {
+   "id": "A3vi",
+   "kind": "comprehension_written",
+   "marks": 1,
+   "passageRef": "partA-passage",
+   "prompt": "In the context of the passage, a company's competitive strength in the market is affected mainly because of _________.",
+   "guidance": "Increasing employee earnings by any means other than increased labour productivity — since higher prices mean fewer customers, reduced profit means less capital investment, and low-cost materials mean poor product quality."
+  }
+ ]
+}

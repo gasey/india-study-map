@@ -1,0 +1,210 @@
+{
+ "range": "B1-B20",
+ "questions": [
+  {
+   "no": 1,
+   "type": "descriptive",
+   "q": "What is the difference between SQL and NoSQL?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 2,
+   "type": "descriptive",
+   "q": "Relation R has eight attributes ABCDEFGH. Fields of R contain only atomic values.\nF = {CH → G, A → BC, B → CFH, E → A, F → EG} is a set of functional dependencies (FDs) so that F+ is exactly the set of FDs that hold for R. How many candidate keys does the relation R have?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": [],
+   "note": "The functional-dependency arrows (→) were dropped by the pdftotext text layer (each printed as blank space, e.g. \"CH  G\"); recovered by rendering page 6 of the source PDF at 150dpi and reading the arrows directly."
+  },
+  {
+   "no": 3,
+   "type": "descriptive",
+   "q": "Table A\nId      Name               Age\n————————\n12      Arun               60\n15      Shreya             24\n99      Rohit              11\nTable B\nId      Name               Age\n————————\n15      Shreya             24\n25      Hari               40\n98      Rohit              20\n99      Rohit              11\nTable C\nId      Phone              Area\n————————\n10      2200               02\n99      2100               01\nConsider the above tables A, B and C. How many tuples does the result of the following SQL query contains?\nSELECT A.id\nFROM A\nWHERE A.age > ALL (SELECT B.age\n             FROM B\n            WHERE B.name = “arun”)",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": [],
+   "note": "Table values were present in the pdftotext text layer and were cross-checked against a 150dpi render of page 6; both agree, transcribed verbatim including the lower-case \"arun\" in the query literal (the printed rows use \"Arun\" with a capital A) and the curly quotes around it."
+  },
+  {
+   "no": 4,
+   "type": "descriptive",
+   "q": "What do you mean by Correlated sub query?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 5,
+   "type": "descriptive",
+   "q": "List the Codd’s Rules on Relational Databases.",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 6,
+   "type": "descriptive",
+   "q": "Why is the multivalue, multicolumn problem another form of the multivalued dependency problem?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 7,
+   "type": "descriptive",
+   "q": "What are stored-procedures? And what are the advantages of using them?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 8,
+   "type": "descriptive",
+   "q": "What is a network and what are benefits of network?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 9,
+   "type": "descriptive",
+   "q": "Consider a source computer (S) transmitting a file of size 106 bits to a destination computer (D) over a network of two routers (R1 and R2) and three links (L1, L2 and L3). L1 connects S to R1; L2 connects R1 to R2; and L3 connects R2 to D. Let each link be of length 100km. Assume signals travel over each link at a speed of 10^8 meters per second. Assume that the link bandwidth on each link is 1Mbps. Let the file be broken down into 1000 packets each of size 1000 bits. Find the total sum of transmission and propagation delays in transmitting the file from S to D?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": [],
+   "note": "\"106 bits\" is verbatim from the source PDF — confirmed at 3x zoom on a 150dpi render of page 7 that it prints as plain \"106\", same font/size as surrounding text, no dropped superscript caret (unlike \"10^8 meters per second\" two sentences later, which does print a caret). Preserved as printed rather than silently corrected to \"10^6\", though the packet math (1000 packets x 1000 bits = 10^6 bits total) strongly suggests 10^6 bits was intended — a setter inconsistency in the source paper, not an extraction artifact."
+  },
+  {
+   "no": 10,
+   "type": "descriptive",
+   "q": "What are two advantage and disadvantage of STAR Topology?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 11,
+   "type": "descriptive",
+   "q": "What is Multiplexing? Briefly explain the working of Synchronous TDM.",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 12,
+   "type": "descriptive",
+   "q": "Suppose the round trip propagation delay for a 10 Mbps Ethernet having 48-bit jamming signal is 46.4 ms. The minimum frame size is:",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": [],
+   "note": "This stem wraps onto a line beginning \"46.4 ms.\" (source_txt line 282) that a naive numbered-line splitter would misread as the start of a new \"question 46\"; anchored on the expected next question number (13) instead, per the extraction brief."
+  },
+  {
+   "no": 13,
+   "type": "descriptive",
+   "q": "A computer on a 10Mbps network is regulated by a token bucket. The token bucket is filled at a rate of 2Mbps. It is initially filled to capacity with 16Megabits. What is the maximum duration for which the computer can transmit at the full 10Mbps?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 14,
+   "type": "descriptive",
+   "q": "What are the responsibilities of Application Layer?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 15,
+   "type": "descriptive",
+   "q": "How does the risk factor affect the spiral model of software development?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 16,
+   "type": "descriptive",
+   "q": "Distinguish software faults and software failures.",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 17,
+   "type": "descriptive",
+   "q": "Compare the basic COCOMO model with the detailed COCOMO model.",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 18,
+   "type": "descriptive",
+   "q": "A software project involves execution of 5 tasks T1, T2, T3, T4 and T5 of duration 10, 15, 18, 30 and 40 days, respectively. T2 and T4 can start only after T1 completes. T3 can start after T2 completes. T5 can start only after both T3 and T4 complete. What is the slack time of the task T3 in days?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  },
+  {
+   "no": 19,
+   "type": "descriptive",
+   "q": "Consider the following program module:\nint module1 (int x, int y) {\n    while (x != y) {\n       if (x > y)\n          x = x - y,\n       else y = y - x;\n       }\n    return x;\n}\nWhat is Cyclomatic complexity of the above module?",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": [],
+   "note": "The line \"x = x - y,\" ends in a comma rather than a semicolon in the source PDF; confirmed against a 150dpi render of page 7 as exactly what is printed (a setter typo), preserved verbatim rather than silently corrected."
+  },
+  {
+   "no": 20,
+   "type": "descriptive",
+   "q": "Assume that the software team defines a project risk with 80% probability of occurrence of risk in the following manner : Only 70 percent of the software components scheduled for reuse will be integrated into the application and the remaining functionality will have to be custom developed. If 60 reusable components were planned with average component size as 100 LOC and software engineering cost for each LOC as $ 14, then the risk exposure would be..",
+   "opts": {},
+   "ans": "",
+   "model": "",
+   "points": [],
+   "flags": []
+  }
+ ]
+}

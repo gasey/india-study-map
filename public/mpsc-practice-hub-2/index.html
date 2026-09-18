@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MPSC Practice Hub 2</title>
+<meta name="description" content="MPSC past-paper practice hub — browse papers, drill by topic, take timed mock tests, and re-attempt only what you got wrong.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">PH2</span>
+    <span class="brand-text">
+      <strong>MPSC Practice Hub 2</strong>
+      <em id="brandSub">—</em>
+    </span>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button data-view="dash"     class="on">Dashboard</button>
+    <button data-view="papers">Browse Papers</button>
+    <button data-view="practice">Practice</button>
+    <button data-view="mock">Mock Test</button>
+    <button data-view="review">Review</button>
+    <button data-view="progress">Progress</button>
+  </nav>
+  <div class="topbar-right">
+    <button id="themeBtn" class="icon-btn" title="Toggle light / dark / auto">&#9681;</button>
+    <button id="dataBtn"  class="icon-btn" title="Backup, restore or reset progress">&#9707;</button>
+  </div>
+</header>
+
+<main id="main"></main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-card">
+    <button class="modal-x" id="modalX">&times;</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="data/papers.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

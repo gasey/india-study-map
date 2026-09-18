@@ -210,6 +210,16 @@ export const modules: AppModule[] = [
     kind: 'static',
     path: '/mpsc-practice-hub-2/index.html',
   },
+  {
+    id: 'mpsc-group-c-study',
+    title: 'MPSC Group-C Study Deck',
+    category: 'Practice',
+    subgroup: 'Exam guides',
+    tagline: 'Old-question study deck — browse, quiz, and focus your revision by topic',
+    glyph: '📚',
+    kind: 'static',
+    path: '/mpsc-group-c-study.html',
+  },
 
   // ---- Practice: Labs ----
   {

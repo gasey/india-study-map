@@ -180,12 +180,30 @@ width, not by reading the diff:
   `/arena` and `/mindset` turned out not to be stranded after all — both are
   registry modules, so Home lists them, and Home is the mark in the header.
 
+**Fifth pass — the two pre-existing bugs, both now closed.**
+- **Library's date label was invisible** at 1.0:1 and had been since the cards
+  shipped. It used `--on-accent` (near-white), which is right for the count
+  badge and group tag beside it — those sit on `background: hue`, a saturated
+  ground — but wrong for this one, which sits on the *cover gradient*, whose
+  stops are the hue mixed 55%/20% into `--bg-panel` and so are pale in any
+  light theme. `--text-primary` is the theme-aware answer: dark on the light
+  themes' pale cover, light on ink/neon where that same gradient goes dark.
+  The `opacity: 0.85` had to go too — at 9px this is small text, so the bar is
+  4.5:1, and measuring all five themes showed only full strength clears it
+  everywhere (0.9 still leaves ink at 4.22). Now: paper 7.17, parchment 6.15,
+  neon 5.26, ink 4.78, collectible 7.85.
+- **The neon glass blur needed no change.** Adding `.rail`/`.app-header` as
+  styling hooks made that rule live for the first time, so it had never been
+  seen rendered. Checked: `backdrop-filter: blur(14px)` now applies to both,
+  it reads correctly as glass, and it does not wash out the nav labels —
+  worst label measures 7.14:1, active 9.15:1. It blurs a dark gradient behind
+  a dark translucent surface, so the composite stays dark. The rule was right
+  all along; it simply never ran.
+
 **What's still open.**
 - The mobile frames also give each *page* a coloured header with its own title
   and badge. Only the sub-tab rail is ported; pages still show their own local
   mobile headers.
-- Library's date label (contrast 1.0) is still open — spun off as its own task
-  rather than fixed here, since it is pre-existing and not skin-specific.
 - Every number in the source frames is illustrative. Nothing was copied into
   the app — Home still reads `stats.ts`, `weakTopics.ts` and `mpscApi.ts`, and
   the tab counts are derived (see the third pass above, where the design's

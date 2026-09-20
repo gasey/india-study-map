@@ -16,7 +16,7 @@ export function MiniQuiz({ questions }: { questions: QuizQuestion[] }) {
       {questions.map((q, qi) => {
         const chosen = picked[qi];
         return (
-          <div key={qi} className="rounded-lg p-4" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+          <div key={qi} className="surface rounded-lg p-4">
             <div className="text-sm font-medium mb-2.5" style={{ color: 'var(--text-primary)' }}>{q.q}</div>
             <div className="grid sm:grid-cols-2 gap-2">
               {q.options.map((opt, oi) => {

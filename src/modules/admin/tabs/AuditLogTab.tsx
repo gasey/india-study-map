@@ -61,7 +61,7 @@ export function AuditLogTab() {
       />
 
       {selected && (selected.before || selected.after) && (
-        <div className="rounded-lg p-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="surface rounded-lg p-3">
           <div className="text-xs font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>Before / after</div>
           <div className="grid grid-cols-2 gap-3">
             <pre className="p-2 rounded overflow-x-auto text-[11px]" style={{ background: 'var(--bg-app)', color: 'var(--text-secondary)' }}>{JSON.stringify(selected.before, null, 2)}</pre>

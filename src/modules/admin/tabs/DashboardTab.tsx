@@ -22,7 +22,7 @@ export function DashboardTab() {
           { value: stats.totalCorrections, label: 'Corrections made' },
           { value: stats.totalComments, label: 'Comments posted' },
         ].map((s) => (
-          <div key={s.label} className="rounded-lg px-4 py-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+          <div key={s.label} className="surface rounded-lg px-4 py-3">
             <div className="font-mono text-2xl font-semibold" style={{ color: 'var(--text-primary)' }}>{s.value}</div>
             <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>{s.label}</div>
           </div>

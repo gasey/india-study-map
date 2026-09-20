@@ -97,7 +97,7 @@ export function FlashcardFlip({
 
   if (pool.length === 0 || done) {
     return (
-      <div className="rounded-xl p-8 text-center fact-in" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+      <div className="surface rounded-xl p-8 text-center fact-in">
         <div className="text-3xl mb-2">{pool.length === 0 ? '🎉' : '🏁'}</div>
         <p className="font-medium mb-1">{emptyTitle ?? (pool.length === 0 ? 'Everything here is marked Known.' : 'Run complete.')}</p>
         {emptyBody && <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>{emptyBody}</p>}
@@ -121,7 +121,7 @@ export function FlashcardFlip({
 
       <div className="flip-scene cursor-pointer select-none" onClick={() => setFlipped((f) => !f)} role="button" aria-label={flipped ? 'Show question' : 'Show answer'}>
         <div className={`flip-inner ${flipped ? 'is-flipped' : ''}`} key={card.id}>
-          <div className="flip-face rounded-xl p-8" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+          <div className="surface flip-face rounded-xl p-8">
             <div className="text-xs mb-3" style={{ color: 'var(--text-secondary)' }}>{card.topicLabel} · tap to flip · space</div>
             <p className="text-lg font-medium leading-relaxed">{card.front}</p>
           </div>

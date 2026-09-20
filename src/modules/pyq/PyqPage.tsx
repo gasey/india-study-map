@@ -202,8 +202,7 @@ export function PyqPage() {
           </span>
           <button
             onClick={toggleTheme}
-            className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
-            style={{ border: '1px solid var(--border)' }}
+            className={`bordered ${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
             title="Toggle theme"
           >
             {theme === 'light' ? '🌙' : '☀️'}
@@ -251,8 +250,8 @@ export function PyqPage() {
         {mode === 'practice' && (
           <button
             onClick={() => setSeed((s) => s + 1)}
-            className="px-2.5 py-1.5 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors"
-            style={{ border: '1px solid var(--border)' }}
+            className="bordered px-2.5 py-1.5 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors"
+            
           >
             ⟳ Shuffle
           </button>
@@ -271,7 +270,7 @@ export function PyqPage() {
         <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-6 flex justify-center">
           <div className="w-full max-w-2xl">
             {!q ? (
-              <div className="rounded-xl p-8 text-center fact-in" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+              <div className="surface rounded-xl p-8 text-center fact-in">
                 {filtered.length === 0 ? (
                   <p style={{ color: 'var(--text-secondary)' }}>No questions match these filters.</p>
                 ) : (
@@ -290,7 +289,7 @@ export function PyqPage() {
                 )}
               </div>
             ) : (
-              <div className="rounded-xl p-6 fact-in" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }} key={q.id}>
+              <div className="surface rounded-xl p-6 fact-in"  key={q.id}>
                 <div className="flex items-center gap-2 mb-3 text-xs" style={{ color: 'var(--text-secondary)' }}>
                   <span className="px-1.5 py-0.5 rounded" style={{ background: 'var(--bg-panel-elev)' }}>{q.topicLabel}</span>
                   <span className="px-1.5 py-0.5 rounded capitalize" style={{ background: 'var(--bg-panel-elev)' }}>{q.difficulty}</span>
@@ -401,7 +400,7 @@ export function PyqPage() {
         <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-6 flex justify-center">
           <div className="w-full max-w-2xl space-y-3">
             {browseList.length === 0 ? (
-              <div className="rounded-xl p-8 text-center" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+              <div className="surface rounded-xl p-8 text-center">
                 <p style={{ color: 'var(--text-secondary)' }}>No questions match these filters.</p>
               </div>
             ) : (
@@ -452,7 +451,7 @@ function McqBrowseCard({
   onJumpToChapter: (id: string) => void;
 }) {
   return (
-    <div className="rounded-xl p-6" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface rounded-xl p-6">
       <div className="flex items-center gap-2 mb-3 text-xs" style={{ color: 'var(--text-secondary)' }}>
         <span className="px-1.5 py-0.5 rounded" style={{ background: 'var(--bg-panel-elev)' }}>{q.topicLabel}</span>
         <span className="px-1.5 py-0.5 rounded capitalize" style={{ background: 'var(--bg-panel-elev)' }}>{q.difficulty}</span>

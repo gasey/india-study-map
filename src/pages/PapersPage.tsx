@@ -329,8 +329,7 @@ export default function PapersPage() {
             {[0, 1].map((i) => (
               <div
                 key={i}
-                className="rounded-xl p-[16px_18px]"
-                style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+                className="surface rounded-xl p-[16px_18px]"
               >
                 <SkeletonRows rows={2} />
               </div>
@@ -381,8 +380,7 @@ export default function PapersPage() {
                 return (
                 <div
                   key={s.key}
-                  className="rounded-xl p-[16px_18px]"
-                  style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+                  className="surface rounded-xl p-[16px_18px]"
                 >
                   <div className="flex items-center gap-[9px] flex-wrap mb-2.5">
                     {s.examType && (

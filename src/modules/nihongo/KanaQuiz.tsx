@@ -38,7 +38,7 @@ export function KanaQuiz({ rows, script }: { rows: typeof KANA; script: Script }
   }
 
   return (
-    <div className="rounded-lg p-5" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface rounded-lg p-5">
       <div className="flex items-center justify-between mb-5">
         <div className="inline-flex rounded-lg p-1 gap-0.5" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
           {(['mcq', 'type'] as QuizMode[]).map((m) => (

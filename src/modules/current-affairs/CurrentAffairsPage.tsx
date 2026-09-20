@@ -63,8 +63,7 @@ export function CurrentAffairsPage() {
           </span>
           <button
             onClick={toggleTheme}
-            className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
-            style={{ border: '1px solid var(--border)' }}
+            className={`bordered ${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
             title="Toggle theme"
           >
             {theme === 'light' ? '🌙' : '☀️'}
@@ -75,13 +74,13 @@ export function CurrentAffairsPage() {
       <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-6 flex justify-center">
         <div className="w-full max-w-2xl">
           {state.status === 'loading' && (
-            <div className="rounded-xl p-8 text-center" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+            <div className="surface rounded-xl p-8 text-center">
               <p style={{ color: 'var(--text-secondary)' }}>Loading…</p>
             </div>
           )}
 
           {state.status === 'error' && (
-            <div className="rounded-xl p-8 text-center" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+            <div className="surface rounded-xl p-8 text-center">
               <div className="text-3xl mb-2">⚠️</div>
               <p className="font-medium mb-1">Couldn't load Current Affairs.</p>
               <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Check your connection and try reloading.</p>
@@ -89,7 +88,7 @@ export function CurrentAffairsPage() {
           )}
 
           {state.status === 'ready' && days.length === 0 && (
-            <div className="rounded-xl p-8 text-center fact-in" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+            <div className="surface rounded-xl p-8 text-center fact-in">
               <div className="text-3xl mb-2">📰</div>
               <p className="font-medium mb-1">No quizzes yet.</p>
               <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Check back once the first daily digest is published.</p>

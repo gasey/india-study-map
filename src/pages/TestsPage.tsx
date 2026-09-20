@@ -61,7 +61,7 @@ function AttemptsPanel() {
   }, [user]);
 
   return (
-    <div className="rounded-xl p-[18px_20px]" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface rounded-xl p-[18px_20px]">
       <div className="text-[15px] font-semibold mb-3.5" style={{ color: 'var(--text-primary)' }}>Recent attempts</div>
       {attempts === null && (
         <div className="flex flex-col gap-2.5" aria-label="Loading attempts">

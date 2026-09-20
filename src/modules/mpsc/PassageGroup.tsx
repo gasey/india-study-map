@@ -21,7 +21,7 @@ export function PassageGroup({ passage, questions, corrections, showCorrections 
   if (questions.length === 0) return null;
 
   return (
-    <div className="space-y-3 p-4 rounded-lg" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface space-y-3 p-4 rounded-lg">
       {/* Passage header — collapsible */}
       <details open={expanded} onToggle={(e) => setExpanded(e.currentTarget.open)}>
         <summary

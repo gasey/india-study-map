@@ -74,7 +74,7 @@ export function PapersTab() {
   return (
     <div className="flex flex-col gap-4">
       {editing && (
-        <div className="rounded-lg p-4 flex flex-col gap-2.5" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="surface rounded-lg p-4 flex flex-col gap-2.5">
           <div className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
             Editing <span className="font-mono">{editing.id}</span>
           </div>

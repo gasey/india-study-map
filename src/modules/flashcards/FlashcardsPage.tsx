@@ -108,8 +108,7 @@ export function FlashcardsPage() {
           </span>
           <button
             onClick={toggleTheme}
-            className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
-            style={{ border: '1px solid var(--border)' }}
+            className={`bordered ${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
             title="Toggle theme"
           >
             {theme === 'light' ? '🌙' : '☀️'}
@@ -134,8 +133,8 @@ export function FlashcardsPage() {
         </label>
         <button
           onClick={() => setSeed((s) => s + 1)}
-          className="px-2.5 py-1.5 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors"
-          style={{ border: '1px solid var(--border)' }}
+          className="bordered px-2.5 py-1.5 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors"
+          
         >
           ⟳ Shuffle
         </button>

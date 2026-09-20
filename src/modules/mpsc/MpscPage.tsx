@@ -242,7 +242,7 @@ export function MpscPage() {
         {tab === 'browser' && (
           <div className="flex gap-4 h-full px-5 py-5">
             <FilterRail filters={filters} onChange={setFilters} facets={facets} />
-            <div className="flex-1 min-w-0 rounded-xl flex flex-col min-h-0" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+            <div className="surface clb-flat flex-1 min-w-0 rounded-xl flex flex-col min-h-0">
               <QuestionList
                 questions={correctedPage}
                 paperById={paperById}
@@ -293,7 +293,7 @@ export function MpscPage() {
 // ---- Practice: quick drill launcher ----
 function Practice({ total, loading, onStartTest }: { total: number; loading: boolean; onStartTest: () => void }) {
   return (
-    <div className="max-w-md mx-auto text-center rounded-xl p-8" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface max-w-md mx-auto text-center rounded-xl p-8">
       <div className="text-3xl mb-2">✍️</div>
       <p className="font-medium mb-1">{total} question{total === 1 ? '' : 's'} match your filters</p>
       <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
@@ -322,7 +322,7 @@ function History({ results }: { results: ReturnType<typeof useApp.getState>['tes
         const pct = Math.round((r.score / r.total) * 100);
         const d = new Date(r.answeredAt);
         return (
-          <div key={i} className="rounded-lg px-4 py-3 flex items-center gap-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+          <div key={i} className="surface rounded-lg px-4 py-3 flex items-center gap-3">
             <div className="flex-1 min-w-0">
               <p className="text-sm font-medium truncate">{r.label}</p>
               <p className="text-xs" style={{ color: 'var(--text-secondary)' }}>
@@ -358,8 +358,7 @@ function Shell({ theme, toggleTheme, hasDesktopChrome, children }: {
         </div>
         <button
           onClick={toggleTheme}
-          className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
-          style={{ border: '1px solid var(--border)' }}
+          className={`bordered ${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
           title="Toggle theme"
         >
           {theme === 'light' ? '🌙' : '☀️'}

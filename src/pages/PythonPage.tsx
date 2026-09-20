@@ -47,7 +47,7 @@ export default function PythonPage() {
           ))}
         </div>
 
-        <div className="rounded-lg p-5" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="surface rounded-lg p-5">
           <h2 className="text-lg font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>{stage.title}</h2>
           <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>{stage.blurb}</p>
 
@@ -58,7 +58,7 @@ export default function PythonPage() {
           </ul>
 
           {stage.code && (
-            <div className="rounded-md overflow-hidden mb-4" style={{ border: '1px solid var(--border)' }}>
+            <div className="bordered rounded-md overflow-hidden mb-4" >
               <div className="px-3 py-1.5 text-[11px] font-mono flex items-center justify-between" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>
                 <span>{stage.code.label}</span>
                 {stage.code.source && <span>{stage.code.source}</span>}

@@ -97,8 +97,7 @@ export function FilterRail({ filters, onChange, facets }: FilterRailProps) {
 
   return (
     <div
-      className="w-full sm:w-64 shrink-0 flex flex-col gap-3 p-3 rounded-xl sm:sticky sm:top-0 sm:self-start sm:max-h-[calc(100vh-8rem)] sm:overflow-y-auto"
-      style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+      className="surface clb-flat w-full sm:w-64 shrink-0 flex flex-col gap-3 p-3 rounded-xl sm:sticky sm:top-0 sm:self-start sm:max-h-[calc(100vh-8rem)] sm:overflow-y-auto"
     >
       <div className="flex items-center justify-between">
         <span className="text-xs font-semibold tracking-wide" style={{ color: 'var(--text-secondary)' }}>FILTERS</span>

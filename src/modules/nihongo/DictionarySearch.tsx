@@ -53,7 +53,7 @@ function WordCard({
   const singleKanji = word.kanji.length === 1 && [...word.kanji[0]].length === 1 ? kanjiByLiteral.get(word.kanji[0]) : undefined;
 
   return (
-    <div className="rounded-lg p-4 flex flex-col gap-2" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface rounded-lg p-4 flex flex-col gap-2">
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-baseline gap-2 flex-wrap">
           <span style={{ fontSize: 20, color: 'var(--text-primary)' }}>{word.kanji.length > 0 ? word.kanji.join('・') : word.kana.join('・')}</span>

@@ -6,6 +6,7 @@ import { PassageGroup } from './PassageGroup';
 import { SkeletonRows } from '@/components/states/Skeleton';
 import { EmptyState, ErrorState } from '@/components/states/StateMessage';
 import type { MpscFilters } from './useMpscData';
+import { useHideNavOnScroll } from '@/lib/useHideNavOnScroll';
 
 // Human labels for the filter dimensions, so the empty state can name which
 // filters are actually narrowing the result — see the honesty note on
@@ -84,6 +85,7 @@ export function QuestionList({
 }: QuestionListProps) {
   const [showAnswers, setShowAnswers] = useState(false);
   const activeSort = SORTS.find((s) => s.by === sortBy && s.dir === sortDir) ?? SORTS[0];
+  const hideNavRef = useHideNavOnScroll();
 
   return (
     <div className="flex flex-col h-full min-h-0">
@@ -148,7 +150,9 @@ export function QuestionList({
         </button>
       </div>
 
-      <div className="flex-1 min-h-0 overflow-y-auto scroll-panel px-4 py-3 flex flex-col gap-3">
+      {/* Reading down here collapses the mobile nav bands; scrolling up
+          restores them. See useHideNavOnScroll. */}
+      <div ref={hideNavRef} className="flex-1 min-h-0 overflow-y-auto scroll-panel px-4 py-3 flex flex-col gap-3">
         {loading ? (
           <SkeletonRows rows={4} />
         ) : error ? (

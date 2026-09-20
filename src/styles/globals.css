@@ -105,6 +105,31 @@ button, a, [role="button"], .label-eyebrow, header, aside > div > div:first-chil
   }
 }
 
+/* Mobile nav bands that collapse while a long list is read downward, so the
+   content gets the screen back. Driven by `navHidden` in the store — see
+   useHideNavOnScroll. Collapsing max-height (rather than sliding with a
+   transform) is deliberate: a transform leaves the band's space reserved,
+   which is the whole thing we are trying to reclaim. 200px clears the
+   tallest band (the 93px section header) with room to spare. */
+.nav-collapsible {
+  max-height: 200px;
+  overflow: hidden;
+  transition: max-height var(--dur-2) var(--ease), opacity var(--dur-1) var(--ease);
+}
+/* Compounded, not a bare `.nav-collapsed`: at equal specificity the winner
+   is whichever rule the stylesheet emits last, and that order is not
+   guaranteed — Vite re-injects CSS on hot reload and the collapsed rule can
+   land before the base one, at which point max-height:200px wins and the
+   band never collapses. `.nav-collapsible.nav-collapsed` outranks it. */
+.nav-collapsible.nav-collapsed {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-collapsible { transition: none; }
+}
+
 /* Safe-area padding for notches / home-indicator / Android gesture bar.
    Applied via utility classes rather than globally so desktop is unaffected. */
 .safe-top { padding-top: env(safe-area-inset-top, 0px); }

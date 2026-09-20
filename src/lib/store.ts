@@ -239,6 +239,11 @@ export interface AppState {
   toggleTheme: () => void;
   setSkin: (skin: Skin) => void;
   toggleSkin: () => void;
+  /** Transient (never persisted): true while a long scrollable list is being
+   *  read downward, so the mobile shell can collapse its nav bands and give
+   *  the content the screen. Set by useHideNavOnScroll, read by AppShell. */
+  navHidden: boolean;
+  setNavHidden: (hidden: boolean) => void;
   setChapter: (id: string) => void;
   toggleLayer: (layerId: string) => void;
   toggleBaseLayer: (layerId: string) => void;
@@ -354,6 +359,9 @@ export const useApp = create<AppState>()(
 
       toggleTheme: () =>
         set((s) => ({ theme: s.theme === 'light' ? 'dark' : 'light' })),
+
+      navHidden: false,
+      setNavHidden: (navHidden) => set((s) => (s.navHidden === navHidden ? s : { navHidden })),
 
       setSkin: (skin) => set({ skin }),
 

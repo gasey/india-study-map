@@ -68,6 +68,7 @@ function MobileBottomBar() {
   const loc = useLocation();
   const [moreOpen, setMoreOpen] = useState(false);
   const skin = useApp((s) => s.skin);
+  const navHidden = useApp((s) => s.navHidden);
   const collectible = skin === 'collectible';
 
   /* The source's bottom bar is 64px, sits under a 3px ink rule, and marks
@@ -88,7 +89,7 @@ function MobileBottomBar() {
   return (
     <>
       <nav
-        className={`mobile-bottom-bar lg:hidden flex items-stretch shrink-0 safe-bottom ${collectible ? 'h-[64px]' : 'h-[60px]'}`}
+        className={`mobile-bottom-bar nav-collapsible${navHidden ? ' nav-collapsed' : ''} lg:hidden flex items-stretch shrink-0 safe-bottom ${collectible ? 'h-[64px]' : 'h-[60px]'}`}
         style={collectible ? undefined : { borderTop: '1px solid var(--border)', background: 'var(--bg-panel)' }}
       >
         {collectible
@@ -169,6 +170,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const isMap = loc.pathname.startsWith('/map');
   const header = headerFor(loc.pathname);
   const collectible = useApp((s) => s.skin) === 'collectible';
+  const navHidden = useApp((s) => s.navHidden);
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)' }}>
@@ -178,7 +180,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           re-hung here — without it the four bottom tabs would be the only
           navigation and /tests, /papers and /recall would be unreachable. */}
       {collectible && (
-        <div className="lg:hidden shrink-0">
+        <div className={`lg:hidden shrink-0 nav-collapsible${navHidden ? ' nav-collapsed' : ''}`}>
           {/* /map suppresses the bottom bar (its own swipeable sheet owns the
               bottom of the viewport), so on that route the bottom bar can't
               be the tab switcher. Without this the map became a dead end on

@@ -147,6 +147,8 @@ interface MindsetState {
   lastCheckInDay: string;
   /** Rotates the curated message pool instead of picking fully at random. */
   lastShownMessageIdx: number;
+  /** toDateString() the rotation last advanced — gates bumpMindsetMessage to once/day. */
+  lastMessageDay: string;
   sitWithItLog: SitWithItAttempt[];
   reflections: DailyReflection[];
   lastReflectionDay: string;
@@ -352,6 +354,7 @@ export const useApp = create<AppState>()(
         lastCheckIn: null,
         lastCheckInDay: '',
         lastShownMessageIdx: -1,
+        lastMessageDay: '',
         sitWithItLog: [],
         reflections: [],
         lastReflectionDay: '',
@@ -591,7 +594,11 @@ export const useApp = create<AppState>()(
 
       bumpMindsetMessage: () =>
         set((s) => ({
-          mindset: { ...s.mindset, lastShownMessageIdx: s.mindset.lastShownMessageIdx + 1 },
+          mindset: {
+            ...s.mindset,
+            lastShownMessageIdx: s.mindset.lastShownMessageIdx + 1,
+            lastMessageDay: new Date().toDateString(),
+          },
         })),
     }),
     {
@@ -639,7 +646,14 @@ export const useApp = create<AppState>()(
       // the whole sub-object wholesale, leaving new fields `undefined`
       // instead of falling back to their default.
       merge: (persisted, current) => {
-        const p = persisted as Partial<AppState>;
+        // `persisted` is `undefined` whenever there is no stored value yet
+        // (first-ever visit, cleared site data, incognito) — the dot-access
+        // below on `p.chronicle`/`p.arena`/etc. would otherwise throw,
+        // which persist's own hydrate() swallows silently, leaving
+        // `hasHydrated()` stuck false forever and every `useHasHydrated()`
+        // gate (the Return to Learning card, Chronicle's saved viewport)
+        // permanently hidden for that browser.
+        const p = (persisted ?? {}) as Partial<AppState>;
         return {
           ...current,
           ...p,

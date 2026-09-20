@@ -36,10 +36,11 @@ export function DailyLearningReset() {
 
   const checkInToday = mindset.lastCheckInDay === todayStr ? mindset.lastCheckIn : null;
 
-  // Advance the message rotation once, the first time the card renders
-  // "fresh" today (no check-in yet) — not on every re-render.
+  // Advance the message rotation once per day, the first time the card
+  // renders "fresh" today (no check-in yet) — not on every re-render, and
+  // not only on the very first day the feature is ever used.
   useEffect(() => {
-    if (shouldShow && !checkInToday && mindset.lastShownMessageIdx < 0) {
+    if (shouldShow && !checkInToday && mindset.lastMessageDay !== todayStr) {
       bumpMessage();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

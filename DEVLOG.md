@@ -9,6 +9,67 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-20 — Return to Learning: the card never showed for a fresh browser, and the message rotation was stuck on message #2 forever
+
+**What shipped:** two bugs found while checking whether the "Return to
+Learning" system (DEVLOG 2026-08-11) was actually complete.
+
+- **`store.ts`'s custom `persist` `merge()` threw on first hydration for
+  any browser with no `india-study-map` localStorage key yet** — first-ever
+  visit, cleared site data, incognito, a fresh device. Zustand's persist
+  calls `merge(undefined, currentState)` when there's nothing stored;
+  `const p = persisted as Partial<AppState>` doesn't turn `undefined` into
+  `{}`, so `p.chronicle` on the next line threw `Cannot read properties of
+  undefined`. Persist's own `hydrate()` swallows that in a trailing
+  `.catch` with no re-throw and no console output, so `hasHydrated()` got
+  stuck `false` **forever**, silently — no crash, no error, the page just
+  rendered normally. Every `useHasHydrated()` gate (the Return to Learning
+  card, and per its own doc comment, Chronicle's saved-viewport restore)
+  was permanently hidden on any such browser. Fix: `const p = (persisted ??
+  {}) as Partial<AppState>`.
+- **The daily message rotation only ever advanced once, on the very first
+  day the feature was used.** `DailyLearningReset`'s effect gated
+  `bumpMindsetMessage()` on `mindset.lastShownMessageIdx < 0`, but that
+  field is persisted and starts at `-1` — the first render bumps it to
+  `0`, and the guard is false on every day after that for the rest of the
+  app's life. In practice this meant message index 1 (`MINDSET_MESSAGES[1]`,
+  "Don't prepare yourself into certainty...") showed every single day,
+  and 32 of the 33 curated messages were unreachable. Added a persisted
+  `mindset.lastMessageDay` (`toDateString()` of the last bump, mirroring
+  the existing `lastCheckInDay` pattern) and gated on `lastMessageDay !==
+  todayStr` instead — advances once per calendar day, same as intended.
+
+Found by verifying in a genuinely fresh browser profile (cleared
+localStorage) rather than trusting the existing dev session's
+already-hydrated state — the bug is invisible on any browser that already
+has real persisted data, which is presumably why it went unnoticed.
+Verified live: dynamic-imported the store module and called
+`useApp.persist.hasHydrated()` directly to confirm it was stuck `false`
+pre-fix and `true` post-fix on empty storage; confirmed the card renders,
+"Not today" dismisses it, and `lastShownMessageIdx` no longer advances on
+a same-day reload. `tsc --noEmit` clean.
+
+**Why:** user asked whether "Return to Learning" (the Home dashboard card
+from the 2026-08-11 mindset system) was actually complete or still vague.
+The feature itself was fully built — this was root-causing why it didn't
+render in a clean test environment, per this repo's standing instinct
+(CLAUDE.md) to chase symptoms back to source rather than patch around them.
+
+**What's still open:**
+- Same session also surfaced that the Library page's "Exam guides" group
+  (backend-driven `StaticSet` table, `/api/static-sets/`) is missing rows
+  for System Analyst and System Manager, even though both are registered
+  in `registry.ts` with `subgroup: 'Exam guides'` (so they show in the nav
+  dropdown/mobile switcher, just not in Library). Needs two
+  `POST /api/admin/static-sets/` calls, `group: 'exam_guide'`, routes
+  `/embed/system-analyst` and `/embed/system-manager` — not done here,
+  data entry rather than a code change.
+- The `merge()` bug class (silent hydration failure on empty storage) was
+  fixed at the one call site; no test added guarding against a future
+  regression if `merge` is touched again.
+
+---
+
 ## 2026-09-19 — "Study OS v3 bright" lands as an opt-in skin, and the anti-FOUC script turns out to have been deciding the theme behind React's back
 
 **What shipped.** The `collectible` skin — a port of `Study OS v3 bright.dc.html`

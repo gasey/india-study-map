@@ -44,9 +44,23 @@ interface FilterRailProps {
   filters: MpscFilters;
   onChange: (patch: Partial<MpscFilters>) => void;
   facets: Record<string, Record<string, number>>;
+  /** Phone-width disclosure. The rail is always visible from `sm` up; below
+   *  that it only renders when its owner opens it, so the question list gets
+   *  the screen instead of ~42vh of facets. Defaults to open so the other
+   *  consumer (TestBuilder) is unaffected. */
+  mobileOpen?: boolean;
 }
 
-export function FilterRail({ filters, onChange, facets }: FilterRailProps) {
+/** Number of axes the reader has actually narrowed — drives the count on the
+ *  mobile "Filters" button. Counts axes, not values: "3" reads as three
+ *  things narrowed, which is what you want to know before opening a panel
+ *  you currently cannot see. */
+export function activeFilterCount(f: MpscFilters): number {
+  const axes: (keyof MpscFilters)[] = ['examType', 'post', 'year', 'paperId', 'subject', 'difficulty', 'type'];
+  return axes.filter((k) => (f[k] as string[]).length > 0).length + (f.search.trim() ? 1 : 0);
+}
+
+export function FilterRail({ filters, onChange, facets, mobileOpen = true }: FilterRailProps) {
   const [open, setOpen] = useState<Record<string, boolean>>(loadOpenState);
   // "Hide technical posts" — a quick toggle over the same Post facet the
   // rail already exposes as checkboxes. Unlike PapersPage's Sitting.post
@@ -97,10 +111,11 @@ export function FilterRail({ filters, onChange, facets }: FilterRailProps) {
 
   return (
     <div
-      /* Capped and scrollable on mobile too: once the layout stacks, an
-         uncapped rail full of facets pushes the question list off-screen
-         entirely. The sm: variants take over from the breakpoint up. */
-      className="surface clb-flat w-full sm:w-64 shrink-0 flex flex-col gap-3 p-3 rounded-xl max-h-[42vh] overflow-y-auto sm:max-h-[calc(100vh-8rem)] sm:sticky sm:top-0 sm:self-start"
+      /* Capped and scrollable on mobile: even when opened, an uncapped rail
+         full of facets would push the question list off-screen. Hidden
+         entirely at phone width until opened. The sm: variants take over
+         from the breakpoint up, where it is always shown. */
+      className={`surface clb-flat ${mobileOpen ? 'flex' : 'hidden'} sm:flex w-full sm:w-64 shrink-0 flex-col gap-3 p-3 rounded-xl max-h-[42vh] overflow-y-auto sm:max-h-[calc(100vh-8rem)] sm:sticky sm:top-0 sm:self-start`}
     >
       <div className="flex items-center justify-between">
         <span className="text-xs font-semibold tracking-wide" style={{ color: 'var(--text-secondary)' }}>FILTERS</span>

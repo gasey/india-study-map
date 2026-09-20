@@ -88,7 +88,10 @@ export function QuestionList({
   return (
     <div className="flex flex-col h-full min-h-0">
       <div
-        className="flex items-center gap-3 flex-wrap px-4 py-3 shrink-0"
+        /* Tighter on phones: with `flex-wrap` these four controls fall onto
+           three rows at 390px, and every row here is a row the question
+           list does not get. */
+        className="flex items-center gap-x-3 gap-y-1.5 flex-wrap px-4 py-2 sm:py-3 shrink-0"
         style={{ borderBottom: '1px solid var(--border)' }}
       >
         <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>
@@ -101,7 +104,9 @@ export function QuestionList({
           ) : (
             <>
               <span className="font-mono font-semibold" style={{ color: 'var(--text-primary)' }}>{total.toLocaleString()}</span>
-              {bankTotal !== null && <> of <span className="font-mono">{bankTotal.toLocaleString()}</span></>} questions match
+              {/* "of 140,529" is the widest part of this string and is the
+                  least useful once you are filtering — dropped on phones. */}
+              {bankTotal !== null && <span className="hidden sm:inline"> of <span className="font-mono">{bankTotal.toLocaleString()}</span></span>} questions match
             </>
           )}
         </span>
@@ -134,7 +139,12 @@ export function QuestionList({
           className="ml-auto text-xs font-medium disabled:opacity-50"
           style={{ color: 'var(--accent)' }}
         >
-          {startingTest ? 'Building…' : 'Mock test from these →'}
+          {startingTest ? 'Building…' : (
+            <>
+              <span className="sm:hidden">Mock test →</span>
+              <span className="hidden sm:inline">Mock test from these →</span>
+            </>
+          )}
         </button>
       </div>
 

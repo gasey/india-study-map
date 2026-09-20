@@ -11,7 +11,7 @@ import {
   useBankPapers, useBankQuestionPage, useBankFacets, applyCorrections,
   BANK_ID, type MpscFilters,
 } from './useMpscData';
-import { FilterRail } from './FilterRail';
+import { FilterRail, activeFilterCount } from './FilterRail';
 import { PaginationControls } from './FilterBar';
 import { TestPlayer } from './TestPlayer';
 import { loadPaper, savePaper } from './useAttemptState';
@@ -82,10 +82,14 @@ export function MpscPage() {
   );
   const [activeTest, setActiveTest] = useState<ActiveTest | null>(null);
   const [samplingTest, setSamplingTest] = useState(false);
+  /** Phone-only: the filter rail starts closed so the question list gets the
+   *  screen. Ignored from sm up, where the rail is always shown. */
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   // Browse/Practice's shared filter, sort, and page position — all live in
   // the URL so a filtered view is shareable/refreshable.
   const filters = useMemo(() => filtersFromParams(searchParams), [searchParams]);
+  const activeFilters = activeFilterCount(filters);
   const offset = Number(searchParams.get('offset') ?? 0) || 0;
   const sortBy = (searchParams.get('sortBy') as SortKey) || 'year';
   const sortDir = (searchParams.get('sortDir') as 'asc' | 'desc') || 'desc';
@@ -245,7 +249,21 @@ export function MpscPage() {
              the question list to ~4px — the list was rendering, just not
              visible. */
           <div className="flex flex-col sm:flex-row gap-4 h-full px-5 py-5">
-            <FilterRail filters={filters} onChange={setFilters} facets={facets} />
+            {/* Phone-only disclosure. Even capped at 42vh the rail left the
+                question list a sliver — the reason to open this screen is
+                the questions, not the facets, so filters start closed and
+                the list gets the height. Always visible from sm up. */}
+            <button
+              onClick={() => setFiltersOpen((o) => !o)}
+              className="bordered sm:hidden shrink-0 rounded-lg px-3 py-2 text-[13px] font-semibold flex items-center justify-between gap-2"
+              aria-expanded={filtersOpen}
+            >
+              <span style={{ color: 'var(--text-primary)' }}>
+                Filters{activeFilters > 0 ? ` · ${activeFilters}` : ''}
+              </span>
+              <span style={{ color: 'var(--text-secondary)' }}>{filtersOpen ? '▲' : '▼'}</span>
+            </button>
+            <FilterRail filters={filters} onChange={setFilters} facets={facets} mobileOpen={filtersOpen} />
             <div className="surface clb-flat flex-1 min-w-0 rounded-xl flex flex-col min-h-0">
               <QuestionList
                 questions={correctedPage}

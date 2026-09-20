@@ -39,7 +39,7 @@ function fmt(n: number) {
 /** The four primary tabs — frame 3e's header row. An active tab is a paper
  *  block with a hard offset shadow, so it reads as lifted off the yellow
  *  band; the rest are flat with just the ink rule. */
-export function CollectibleTabs() {
+export function CollectibleTabs({ compact }: { compact?: boolean } = {}) {
   const loc = useLocation();
   const active = activeTabFor(loc.pathname);
   const counts = staticTabCounts();
@@ -55,11 +55,15 @@ export function CollectibleTabs() {
             key={tab.id}
             to={tab.to}
             aria-current={on ? 'page' : undefined}
-            className={`clb-tab${on ? ' clb-tab-on' : ''} flex items-center gap-2 shrink-0`}
+            className={`clb-tab${on ? ' clb-tab-on' : ''}${compact ? ' clb-tab-compact' : ''} flex items-center gap-2 shrink-0`}
           >
             <IconSvg d={tab.icon} size={18} />
             <span className="text-[14.5px] font-extrabold">{tab.label}</span>
-            {count != null && <span className="clb-num text-[11px] font-bold">{fmt(count)}</span>}
+            {/* Counts are dropped in compact mode. With them the four tabs
+                measure 547px against a 390px phone viewport, so the row has
+                to be swiped to reach Lab; without them it fits. The figures
+                are still on the desktop bar and in each section header. */}
+            {!compact && count != null && <span className="clb-num text-[11px] font-bold">{fmt(count)}</span>}
           </Link>
         );
       })}
@@ -77,13 +81,24 @@ export function CollectibleTabs() {
  *  The badge reads real data — chapters/apps/labs counted at render, and
  *  Bank's question total from the API — for the same reason the tab counts
  *  do. The source's badges ("21 chapters", "18 apps") are illustrative. */
-export function CollectibleSectionHeader() {
+export function CollectibleSectionHeader({ subTabsOnly }: { subTabsOnly?: boolean } = {}) {
   const loc = useLocation();
   const active = activeTabFor(loc.pathname);
   const tab = COLLECTIBLE_TABS.find((t) => t.id === active);
   const counts = staticTabCounts();
   const bankTotal = useBankTotal();
   if (!tab) return null;
+
+  // On /map the primary tab strip is already on screen with Atlas lit, so
+  // the title row would repeat it — 41px of a phone viewport that the map
+  // itself should have.
+  if (subTabsOnly) {
+    return (
+      <div className="clb-section" data-tab={tab.id}>
+        <CollectibleSubTabs inSection />
+      </div>
+    );
+  }
 
   const badge =
     tab.id === 'bank'

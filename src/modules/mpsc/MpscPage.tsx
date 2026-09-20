@@ -240,7 +240,11 @@ export function MpscPage() {
 
       <main className={`flex-1 min-h-0 ${tab === 'browser' ? 'overflow-hidden' : 'scroll-panel overflow-y-auto px-5 py-5'}`}>
         {tab === 'browser' && (
-          <div className="flex gap-4 h-full px-5 py-5">
+          /* Stacks below sm. FilterRail is `w-full sm:w-64 shrink-0`, so in a
+             row at phone widths it claimed the entire viewport and squeezed
+             the question list to ~4px — the list was rendering, just not
+             visible. */
+          <div className="flex flex-col sm:flex-row gap-4 h-full px-5 py-5">
             <FilterRail filters={filters} onChange={setFilters} facets={facets} />
             <div className="surface clb-flat flex-1 min-w-0 rounded-xl flex flex-col min-h-0">
               <QuestionList
@@ -267,7 +271,7 @@ export function MpscPage() {
           </div>
         )}
         {tab === 'practice' && (
-          <div className="flex gap-4 min-h-full">
+          <div className="flex flex-col sm:flex-row gap-4 min-h-full">
             <FilterRail filters={filters} onChange={setFilters} facets={facets} />
             <div className="flex-1">
               <Practice total={page.total} loading={samplingTest} onStartTest={launchPracticeTest} />

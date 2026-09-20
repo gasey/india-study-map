@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { modules, type ModuleCategory } from '@/modules/registry';
-import { getChapter } from '@/data';
+import { chapters, getChapter } from '@/data';
 import { moduleProgress, quizAccuracy, studyStreak, flashcardsRemaining } from '@/lib/stats';
 import { weakTopics } from '@/lib/weakTopics';
 import { levelInfo } from '@/lib/xp';
@@ -223,8 +223,49 @@ function WeakTopicsPanel() {
 // ============================================
 interface ResumeCard { kicker: string; title: string; meta: string; color: string; to: string }
 
+/** Study Map, promoted to the top of Home — the first thing on the page,
+ *  above Return to Learning.
+ *
+ *  Every figure is read, not written: the chapter count is `chapters.length`,
+ *  and the open chapter and its attempted-question count come from the same
+ *  `progress[chapter.id].attempts` the "Jump back in" card already derives,
+ *  so the two can never disagree. A chapter with no quiz shows its fact count
+ *  instead of a fake "0 of 0". */
+function StudyMapHero() {
+  const { currentChapterId, progress } = useApp();
+  const chapter = getChapter(currentChapterId);
+  const attempted = chapter ? Object.keys(progress[chapter.id]?.attempts ?? {}).length : 0;
+
+  return (
+    <Link
+      to="/map"
+      className="surface clb-card-lg rounded-xl px-5 py-4 flex items-center gap-4"
+    >
+      <span className="shrink-0" style={{ color: 'var(--accent)' }}>
+        <IconSvg d={IC.map} size={26} />
+      </span>
+      <span className="flex-1 min-w-0">
+        <span className="block font-mono text-[9px] tracking-wider uppercase" style={{ color: 'var(--text-secondary)' }}>
+          Study Map · {chapters.length} chapters
+        </span>
+        <span className="block text-[17px] font-semibold truncate" style={{ color: 'var(--text-primary)' }}>
+          {chapter ? chapter.title : 'Open the map'}
+        </span>
+        {chapter && (
+          <span className="block text-[12px] mt-0.5" style={{ color: 'var(--text-secondary)' }}>
+            {chapter.quiz.length > 0
+              ? `${attempted} of ${chapter.quiz.length} quiz questions attempted`
+              : `${chapter.facts.length} facts`}
+          </span>
+        )}
+      </span>
+      <span className="shrink-0 text-[13px] font-semibold" style={{ color: 'var(--accent)' }}>Open →</span>
+    </Link>
+  );
+}
+
 function JumpBackInGrid() {
-  const { currentChapterId, progress, arena, pythonLastStage, postgresLastStage, nihongoCourseLastStage } = useApp();
+  const { arena, pythonLastStage, postgresLastStage, nihongoCourseLastStage } = useApp();
   const cards: ResumeCard[] = [];
 
   const resumable = listResumableAttempts();
@@ -233,11 +274,9 @@ function JumpBackInGrid() {
     cards.push({ kicker: 'Mock test · paused', title: 'Continue your sitting', meta: `${r.answered} of ${r.total} answered`, color: 'var(--warn)', to: '/tests' });
   }
 
-  const chapter = getChapter(currentChapterId);
-  if (chapter) {
-    const attempted = Object.keys(progress[chapter.id]?.attempts ?? {}).length;
-    cards.push({ kicker: 'Study Map', title: chapter.title, meta: chapter.quiz.length > 0 ? `${attempted} of ${chapter.quiz.length} quiz questions attempted` : `${chapter.facts.length} facts`, color: 'var(--blue)', to: '/map' });
-  }
+  // Study Map is deliberately absent here: StudyMapHero at the top of the
+  // page now shows the same chapter with the same attempted-count, and two
+  // identical cards on one screen just reads as a bug.
 
   if (pythonLastStage) {
     const stage = pyStages.find((s) => s.id === pythonLastStage);
@@ -319,6 +358,8 @@ export function Home() {
     <div className="h-full overflow-y-auto scroll-panel">
       <div className="max-w-[1000px] mx-auto px-8 py-9 flex flex-col gap-6">
         <GreetingHeader />
+        {/* Study Map sits above Return to Learning — asked for 2026-09-20. */}
+        <StudyMapHero />
         <DailyLearningReset />
         <div className="grid gap-4 grid-cols-1 lg:[grid-template-columns:minmax(0,1.55fr)_minmax(0,1fr)]">
           <TodaysPlanHero />

@@ -6,6 +6,9 @@ import { AdminNavMenu } from './AdminNavMenu';
 import { MORE_ITEMS } from './MoreFlyout';
 import { IC, IconSvg } from './icons';
 import { modules } from '@/modules/registry';
+import { useApp } from '@/lib/store';
+import { CollectibleSectionHeader, CollectibleTabs } from './CollectibleTabBar';
+import { COLLECTIBLE_TABS, activeTabFor } from './collectibleTabs';
 import { OfflineBanner } from '@/components/states/OfflineBanner';
 
 /** Route -> AppHeader kicker/title. Every module page's own local header
@@ -64,32 +67,67 @@ const MOBILE_MAIN_ITEMS = [
 function MobileBottomBar() {
   const loc = useLocation();
   const [moreOpen, setMoreOpen] = useState(false);
+  const skin = useApp((s) => s.skin);
+  const collectible = skin === 'collectible';
+
+  /* The source's bottom bar is 64px, sits under a 3px ink rule, and marks
+     the active tab as a solid yellow cell with an ink divider between
+     cells — not a tinted icon. Inactive cells stay paper, so the bar reads
+     as a printed strip of four blocks.
+
+     Class-driven, never inline var(--clb-*): inline resolves before
+     ThemeSync sets data-theme and is never re-resolved. See the
+     .clb-nav-item comment in collectible.css. */
+  const cellClass = (active: boolean) =>
+    `flex-1 flex flex-col items-center justify-center gap-0.5 py-1.5${
+      collectible ? ` clb-nav-cell${active ? ' clb-nav-cell-active' : ''}` : ''
+    }`;
+  const cellStyle = (active: boolean) =>
+    collectible ? undefined : { color: active ? 'var(--accent)' : 'var(--text-secondary)' };
 
   return (
     <>
       <nav
-        className="lg:hidden flex items-stretch h-[60px] shrink-0 safe-bottom"
-        style={{ borderTop: '1px solid var(--border)', background: 'var(--bg-panel)' }}
+        className={`mobile-bottom-bar lg:hidden flex items-stretch shrink-0 safe-bottom ${collectible ? 'h-[64px]' : 'h-[60px]'}`}
+        style={collectible ? undefined : { borderTop: '1px solid var(--border)', background: 'var(--bg-panel)' }}
       >
-        {MOBILE_MAIN_ITEMS.map((item) => (
-          <Link
-            key={item.to}
-            to={item.to}
-            className="flex-1 flex flex-col items-center justify-center gap-0.5 py-1.5"
-            style={{ color: loc.pathname === item.to ? 'var(--accent)' : 'var(--text-secondary)' }}
-          >
-            <IconSvg d={item.icon} size={18} />
-            <span className="text-[10px] font-medium">{item.label}</span>
-          </Link>
-        ))}
-        <button
-          onClick={() => setMoreOpen(true)}
-          className="flex-1 flex flex-col items-center justify-center gap-0.5 py-1.5"
-          style={{ color: 'var(--text-secondary)' }}
-        >
-          <IconSvg d={IC.more} size={18} />
-          <span className="text-[10px] font-medium">More</span>
-        </button>
+        {collectible
+          ? /* The source's mobile bar is the same four tabs as desktop, and
+               drops the More sheet entirely. Nothing is stranded: the
+               sub-tab rail below the header covers each tab's routes, and
+               Guides lists every standalone app. */
+            COLLECTIBLE_TABS.map((tab) => {
+              const on = activeTabFor(loc.pathname) === tab.id;
+              return (
+                <Link key={tab.id} to={tab.to} className={cellClass(on)} style={cellStyle(on)} aria-current={on ? 'page' : undefined}>
+                  <IconSvg d={tab.icon} size={18} />
+                  <span className="text-[10px] font-medium">{tab.label}</span>
+                </Link>
+              );
+            })
+          : (
+            <>
+              {MOBILE_MAIN_ITEMS.map((item) => (
+                <Link
+                  key={item.to}
+                  to={item.to}
+                  className={cellClass(loc.pathname === item.to)}
+                  style={cellStyle(loc.pathname === item.to)}
+                >
+                  <IconSvg d={item.icon} size={18} />
+                  <span className="text-[10px] font-medium">{item.label}</span>
+                </Link>
+              ))}
+              <button
+                onClick={() => setMoreOpen(true)}
+                className={cellClass(false)}
+                style={cellStyle(false)}
+              >
+                <IconSvg d={IC.more} size={18} />
+                <span className="text-[10px] font-medium">More</span>
+              </button>
+            </>
+          )}
         <AdminNavMenu placement="bottom" />
       </nav>
       {moreOpen && (
@@ -130,13 +168,36 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const loc = useLocation();
   const isMap = loc.pathname.startsWith('/map');
   const header = headerFor(loc.pathname);
+  const collectible = useApp((s) => s.skin) === 'collectible';
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)' }}>
       <AppHeader kicker={header.kicker} title={header.title} />
       <OfflineBanner />
+      {/* AppHeader is desktop-only, so on mobile the sub-tab rail has to be
+          re-hung here — without it the four bottom tabs would be the only
+          navigation and /tests, /papers and /recall would be unreachable. */}
+      {collectible && (
+        <div className="lg:hidden shrink-0">
+          {/* /map suppresses the bottom bar (its own swipeable sheet owns the
+              bottom of the viewport), so on that route the bottom bar can't
+              be the tab switcher. Without this the map became a dead end on
+              mobile — the Atlas sub-rail was the only navigation left once
+              the per-page ModuleSwitcher went away. */}
+          {isMap && (
+            <div className="clb-mobile-tabs flex items-center gap-2 px-4 overflow-x-auto">
+              <CollectibleTabs />
+            </div>
+          )}
+          <CollectibleSectionHeader />
+        </div>
+      )}
       <div className="flex-1 flex overflow-hidden min-h-0">
-        <Rail />
+        {/* The collectible direction replaces the rail (and its More flyout)
+            with AppHeader's four-tab band — see collectibleTabs.ts. Both
+            shells stay in the tree so switching skin switches the whole
+            navigation model, which is the point of keeping it A/B-able. */}
+        {!collectible && <Rail />}
         <main className="flex-1 min-w-0 overflow-hidden">{children}</main>
       </div>
       {!isMap && <MobileBottomBar />}

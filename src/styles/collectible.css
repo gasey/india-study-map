@@ -1,0 +1,366 @@
+/* ============================================================
+   Collectible skin — "Study OS v3 bright"
+   ============================================================
+   Ported from the Claude Design project `Study OS v3 bright.dc.html`
+   (project 384289ae-60d1-4a7d-935d-169b44d6cb19, frames 3a–3e).
+
+   The palette lives in tokens.css under [data-theme="collectible"].
+   THIS file carries the things a palette can't express: the form
+   language. Square corners, printed ink rules, hard offset shadows
+   instead of blurs, uppercase small-caps labels, tabular figures.
+
+   Everything here is scoped under [data-theme="collectible"], so the
+   paper / ink / parchment / neon themes are untouched. The skin is
+   selected on its own axis (`skin` in store.ts), never together with
+   .dark — see the Skin comment there.
+
+   KNOWN GAP, deliberately left: ~215 call sites in src/ set
+   `border: 1px solid var(--border)` as an *inline* style. Inline wins
+   over a stylesheet, so those keep a 1px rule rather than the source's
+   2–3px. They still turn ink (--line is #241f18 in this theme), which
+   carries most of the effect. Widening them means converting call
+   sites to the .clb-card / .clb-rule utilities below — a mechanical
+   follow-up, not something to force with a blanket !important that
+   would also thicken inputs, table cells and dividers.
+   ============================================================ */
+
+[data-theme="collectible"] body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--clb-ground);
+}
+
+/* ---- Square everything, except what is meant to be a dot ----
+   The app rounds via Tailwind utilities (~375 call sites), not the
+   --r-* tokens, so flattening has to happen at the class level.
+   rounded-full is exempt: the source uses border-radius 999px for
+   subject dots, status pips and avatars. */
+[data-theme="collectible"] [class*="rounded"]:not([class*="rounded-full"]) {
+  border-radius: 0;
+}
+
+/* ---- Cards ----
+   3px ink border + a hard offset shadow, no blur. The source uses
+   4px on phone cards and 7px on the desktop frame's hero cards. */
+[data-theme="collectible"] .surface,
+[data-theme="collectible"] .surface-elev,
+[data-theme="collectible"] .clb-card {
+  border: 3px solid var(--ink);
+  border-radius: 0;
+  background: var(--clb-paper);
+  box-shadow: var(--sh-2);
+}
+
+[data-theme="collectible"] .clb-card-lg {
+  box-shadow: var(--sh-3);
+}
+
+/* Opt-out for surfaces that are NOT content cards: dropdown menus, command
+   palettes, structural panes, and dense per-item grid cells. The source
+   reserves the 3px-plus-offset-shadow treatment for discrete cards — a
+   64px kana cell or an anchored menu wearing one reads as clutter, and a
+   menu that casts a printed shadow stops looking like it floats. These
+   keep a square 2px ink rule instead. */
+[data-theme="collectible"] .clb-flat {
+  border-width: 2px;
+  box-shadow: none;
+}
+
+/* A card's internal row divider is a warm hairline, NOT the ink border —
+   ink everywhere would turn a list into a grid of boxes. */
+[data-theme="collectible"] .clb-rule {
+  border-top: 2px solid var(--clb-rule);
+}
+
+/* Background-less bordered controls — takes the source's 2px chip weight.
+   Not 3px: these are controls and wrappers, not cards, and .surface above
+   already owns the card weight. */
+[data-theme="collectible"] .bordered {
+  border-width: 2px;
+  border-radius: 0;
+}
+
+/* ---- Category band ----
+   The saturated strip across the top of each card. Paper-white label on
+   a saturated ground; the tint variants below are for ink labels. */
+[data-theme="collectible"] .clb-band {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 12px;
+  border-bottom: 3px solid var(--ink);
+  color: var(--clb-paper);
+}
+[data-theme="collectible"] .clb-band-ink {
+  background: var(--ink);
+  color: var(--clb-yellow);
+}
+[data-theme="collectible"] .clb-band-purple { background: var(--clb-purple); }
+[data-theme="collectible"] .clb-band-green  { background: var(--clb-green); }
+[data-theme="collectible"] .clb-band-orange { background: var(--clb-orange); }
+
+/* Light tints — use these wherever the label on top is ink, so ink
+   clears 4.5:1. The design's own revision history records fixing the
+   contrast bug that comes from putting an ink label on the saturated
+   hue instead. */
+[data-theme="collectible"] .clb-band-tint-green  { background: var(--clb-lt-green); color: var(--ink); }
+[data-theme="collectible"] .clb-band-tint-orange { background: var(--clb-lt-orange); color: var(--ink); }
+[data-theme="collectible"] .clb-band-tint-blue   { background: var(--clb-lt-blue); color: var(--ink); }
+[data-theme="collectible"] .clb-band-tint-purple { background: var(--clb-lt-purple); color: var(--ink); }
+[data-theme="collectible"] .clb-band-yellow      { background: var(--clb-yellow); color: var(--ink); }
+
+/* ---- Type ----
+   .sc — the small-caps kicker used for every label in the source.
+   .num — tabular figures for every count, so columns line up. */
+[data-theme="collectible"] .clb-sc,
+[data-theme="collectible"] .label-eyebrow {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+[data-theme="collectible"] .clb-num {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+}
+
+/* ---- Chips / badges ----
+   2px ink border, square, ink label on a tint or on paper. */
+[data-theme="collectible"] .clb-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid var(--ink);
+  border-radius: 0;
+  padding: 2px 6px;
+  color: var(--ink);
+  background: var(--clb-paper);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/* The existing subject chip is pill-shaped and washed out — in this skin
+   it becomes a hard-edged printed tag, matching the card-type metaphor. */
+[data-theme="collectible"] .subject-chip {
+  border-radius: 0;
+  border: 2px solid var(--ink);
+  color: var(--ink);
+  background: color-mix(in srgb, var(--subject) 34%, #fffdf7);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 800;
+}
+[data-theme="collectible"] .subject-dot {
+  border: 2px solid var(--ink);
+  width: 12px;
+  height: 12px;
+}
+
+/* ---- Buttons that look pressable ----
+   The source's phrase. A button carries the same offset shadow as a card
+   and loses it on press, so the surface appears to travel. */
+[data-theme="collectible"] .clb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 3px solid var(--ink);
+  border-radius: 0;
+  background: var(--clb-yellow);
+  color: var(--ink);
+  font-weight: 800;
+  font-size: 15px;
+  padding: 12px 16px;
+  box-shadow: var(--sh-1);
+  transition: transform var(--dur-1) var(--ease), box-shadow var(--dur-1) var(--ease);
+}
+[data-theme="collectible"] .clb-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+[data-theme="collectible"] .clb-btn-green { background: var(--clb-green); color: var(--clb-paper); }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-theme="collectible"] .clb-btn { transition: none; }
+}
+
+/* ---- Shell chrome ----
+   The frames put a hard ink rule under the header and above the bottom
+   bar, and the active tab is a yellow block rather than a tinted icon. */
+[data-theme="collectible"] .app-header {
+  background: var(--clb-yellow);
+  border-bottom: 3px solid var(--ink);
+}
+[data-theme="collectible"] .rail {
+  background: var(--clb-paper);
+  border-right: 3px solid var(--ink);
+}
+[data-theme="collectible"] .clb-mark {
+  border: 2px solid var(--ink);
+}
+[data-theme="collectible"] .clb-mark > div {
+  background: var(--ink);
+}
+/* Nav items (rail + mobile bottom bar).
+   These MUST be driven by a class rather than an inline `style` carrying
+   var() references. An inline `background: var(--clb-paper)` is computed
+   when React first renders the element — before ThemeSync's effect has
+   put data-theme on <html> — and at that point --clb-paper does not
+   exist, so the declaration is invalid at computed-value time and the
+   element paints transparent with the *previous* theme's --ink. Chrome
+   does not re-resolve it when the attribute lands. A class has no such
+   problem: the rule simply starts matching. */
+[data-theme="collectible"] .clb-nav-item {
+  background: var(--clb-paper);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  font-weight: 800;
+}
+[data-theme="collectible"] .clb-nav-item-active {
+  background: var(--clb-yellow);
+}
+[data-theme="collectible"] .clb-nav-cell {
+  background: var(--clb-paper);
+  color: var(--ink);
+  border-right: 2px solid var(--ink);
+  font-weight: 800;
+}
+[data-theme="collectible"] .clb-nav-cell-active {
+  background: var(--clb-yellow);
+}
+[data-theme="collectible"] .mobile-bottom-bar {
+  background: var(--clb-paper);
+  border-top: 3px solid var(--ink);
+}
+
+/* ---- The four primary tabs (frame 3e's header row) ----
+   An active tab is a paper block lifted off the yellow band by a hard
+   offset shadow; the rest are flat, carrying only the ink rule. */
+[data-theme="collectible"] .clb-tab {
+  padding: 8px 13px;
+  border: 3px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  box-shadow: none;
+}
+[data-theme="collectible"] .clb-tab-on {
+  background: var(--clb-paper);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+/* Mobile tab strip — only rendered where the bottom bar can't be the tab
+   switcher (i.e. /map). Same yellow band as the header's. */
+[data-theme="collectible"] .clb-mobile-tabs {
+  background: var(--clb-yellow);
+  border-bottom: 3px solid var(--ink);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  scrollbar-width: none;
+}
+[data-theme="collectible"] .clb-mobile-tabs::-webkit-scrollbar { display: none; }
+
+/* ---- Sub-tab rail (frames 3b/3c) ----
+   Notched into the content below: 2px ink on three sides, no bottom
+   border, so the active one reads as continuous with the pane. */
+/* The band is coloured per section, the way the mobile frames are: Bank is
+   purple (3b), Atlas green (3c), Guides oxblood (3d). Driven by a data
+   attribute rather than an inline style — an inline `background:
+   var(--clb-purple)` would be resolved before data-theme lands and then
+   never re-resolved (see .clb-nav-item). Yellow is the fallback, which is
+   what Home's band (3a) uses. */
+[data-theme="collectible"] .clb-subtabs {
+  background: var(--clb-yellow);
+  border-bottom: 3px solid var(--ink);
+  padding-top: 8px;
+  gap: 6px;
+}
+/* Mobile section header — one band holding mark + title + badge + rail
+   (frames 3b/3c/3d). Same per-section colours as the rail itself. */
+[data-theme="collectible"] .clb-section {
+  background: var(--clb-yellow);
+  border-bottom: 3px solid var(--ink);
+  padding-top: 13px;
+  color: var(--clb-paper);
+}
+[data-theme="collectible"] .clb-section[data-tab="bank"]   { background: var(--clb-purple); }
+[data-theme="collectible"] .clb-section[data-tab="atlas"]  { background: var(--clb-green); }
+[data-theme="collectible"] .clb-section[data-tab="guides"] { background: var(--clb-orange); }
+[data-theme="collectible"] .clb-section[data-tab="lab"]    { background: var(--clb-blue); }
+[data-theme="collectible"] .clb-section-mark {
+  width: 20px;
+  height: 20px;
+  background: var(--clb-yellow);
+  border: 2px solid var(--ink);
+  transform: rotate(45deg);
+}
+/* The rail when it sits inside .clb-section: no ground of its own, and no
+   second ink rule — the section already draws one. */
+[data-theme="collectible"] .clb-subtabs-bare {
+  background: transparent;
+  border-bottom: 0;
+  padding-top: 0;
+}
+
+[data-theme="collectible"] .clb-subtabs[data-tab="bank"]  { background: var(--clb-purple); }
+[data-theme="collectible"] .clb-subtabs[data-tab="atlas"] { background: var(--clb-green); }
+[data-theme="collectible"] .clb-subtabs[data-tab="guides"] { background: var(--clb-orange); }
+[data-theme="collectible"] .clb-subtabs[data-tab="lab"]   { background: var(--clb-blue); }
+[data-theme="collectible"] .clb-subtab {
+  padding: 7px 11px;
+  border: 2px solid var(--ink);
+  border-bottom: 0;
+  background: var(--clb-ground);
+  color: var(--ink);
+  font-size: 13.5px;
+  font-weight: 800;
+  position: relative;
+  bottom: -3px; /* sit on the band's ink rule, not above it */
+}
+[data-theme="collectible"] .clb-subtab-on {
+  background: var(--clb-yellow);
+}
+
+/* Light/dark toggles are no-ops in this skin — it is light-only, so
+   data-theme stays "collectible" whatever `theme` says. Nine pages carry
+   their own copy of that button in a local header; rather than thread a
+   `skin` check through all nine, hide them on their shared accessible
+   name. `display: none` also takes them out of the tab order, so it does
+   not leave an invisible control focusable. The rail's and the map
+   TopBar's copies are hidden in their components instead, because those
+   two needed a `collectible` branch for other reasons anyway. */
+[data-theme="collectible"] [title="Toggle theme"],
+[data-theme="collectible"] [aria-label="Toggle theme"] {
+  display: none;
+}
+
+/* Scrollbars: a printed edge, not a floating capsule. */
+[data-theme="collectible"] ::-webkit-scrollbar-thumb {
+  background: var(--ink);
+  border-radius: 0;
+  border: 2px solid var(--clb-paper);
+}
+
+/* Two globals.css aliases are declared literal in :root and are never
+   re-stated per theme, so without these they leak into the skin:
+
+     --accent-light  #9184d9 — the exact purple the design brief singles
+                     out as the one to get away from. Four Chronicle
+                     gradients interpolate --accent -> --accent-light, so
+                     leaving it would put the old accent back on screen in
+                     the one skin meant to escape it. The replacement stays
+                     dark enough that the white label those gradients carry
+                     still clears AA (4.6:1) — a light tint like the
+                     source's LT_PURPLE would look on-palette and make that
+                     text unreadable.
+     --map-bg        the ground behind unloaded Leaflet tiles; matched to
+                     the atlas frame's pale green. */
+[data-theme="collectible"] {
+  --accent-light: #8a5cd1;
+  --map-bg: #d9e8d2;
+}
+[data-theme="collectible"] .leaflet-popup-content-wrapper {
+  border-radius: 0 !important;
+  border: 3px solid var(--ink) !important;
+  box-shadow: var(--sh-2) !important;
+}

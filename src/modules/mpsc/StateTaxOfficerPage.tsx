@@ -46,8 +46,9 @@ export default function StateTaxOfficerPage() {
           <LoginPanel />
           <button
             onClick={toggleTheme}
-            className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2.5 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)]`}
-            style={{ border: '1px solid var(--border)' }}
+            title="Toggle theme"
+            aria-label="Toggle theme"
+            className={`bordered ${hasDesktopChrome ? 'lg:hidden' : ''} px-2.5 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)]`}
           >
             {theme === 'dark' ? '☀️' : '🌙'}
           </button>

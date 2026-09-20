@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { CollectibleTabs, CollectibleSubTabs } from './CollectibleTabBar';
 import { useApp } from '@/lib/store';
 import { modules } from '@/modules/registry';
 import { chapters } from '@/data';
@@ -9,6 +10,7 @@ import type { BankQuestion } from '@/data/banks/types';
 import type { ExamPaper } from '@/data/banks/types';
 import type { StaticSet } from '@/lib/mpscApi';
 import { IC, IconSvg } from './icons';
+import { AdminNavMenu } from './AdminNavMenu';
 
 /** Migrated from the old CommandBar's SearchBox, then widened to the real
  *  four-group ⌘K palette (Jump to / Questions / Papers / Library) once real
@@ -109,8 +111,7 @@ function SearchBox() {
       </div>
       {open && q.trim() && (
         <div
-          className="absolute left-0 right-0 mt-1.5 rounded-lg shadow-lg z-[1200] overflow-hidden max-h-80 overflow-y-auto"
-          style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+          className="surface clb-flat absolute left-0 right-0 mt-1.5 rounded-lg shadow-lg z-[1200] overflow-hidden max-h-80 overflow-y-auto"
         >
           {results.chapters.length === 0 && results.modules.length === 0 && results.papers.length === 0 && results.sets.length === 0 && questionHits.length === 0 && (
             <div className="px-3 py-3 text-xs" style={{ color: 'var(--text-muted)' }}>No matches</div>
@@ -221,40 +222,84 @@ interface AppHeaderProps {
  *  selector) keeps that bar visible at desktop too, dropping only its
  *  now-redundant title text. */
 export function AppHeader({ kicker, title, tabs }: AppHeaderProps) {
-  const { progress, bankProgress } = useApp();
+  const { progress, bankProgress, skin, toggleSkin } = useApp();
   const streak = studyStreak(progress, bankProgress);
+  const collectible = skin === 'collectible';
 
   return (
     <header
-      className="hidden lg:flex flex-col shrink-0 safe-top"
-      style={{ borderBottom: '1px solid var(--border)', background: 'var(--bg-panel)' }}
+      /* `app-header` is the other selector tokens.css's neon glass rule has
+         always targeted without the class existing — see Rail.tsx. */
+      /* Collectible's yellow band + ink rule come from collectible.css's
+         `.app-header` rule; setting them inline would resolve var(--clb-*)
+         before the theme attribute exists. See collectible.css. */
+      className="app-header hidden lg:flex flex-col shrink-0 safe-top"
+      style={collectible ? undefined : { borderBottom: '1px solid var(--border)', background: 'var(--bg-panel)' }}
     >
-      <div className="flex items-center gap-4 h-[54px] px-6">
-        <div className="min-w-0">
-          {kicker && (
-            <div
-              className="text-[10px] font-mono uppercase tracking-[0.12em] truncate"
-              style={{ color: 'var(--text-muted)' }}
-            >
-              {kicker}
-            </div>
-          )}
-          <div className="text-[15px] font-medium truncate" style={{ color: 'var(--text-primary)' }}>{title}</div>
-        </div>
+      <div className={`flex items-center gap-4 px-6 ${collectible ? 'h-[62px]' : 'h-[54px]'}`}>
+        {collectible ? (
+          /* Frame 3e puts the mark and the four tabs where the kicker/title
+             block normally sits, on one 62px band with the search and streak
+             still on the right. The route title is dropped rather than
+             squeezed in: the active tab and sub-tab already name the
+             location, so a title would repeat them. */
+          <>
+            <Link to="/" aria-label="Home" className="clb-mark shrink-0 w-[30px] h-[30px] flex items-center justify-center">
+              <div className="w-3 h-3 rotate-45" />
+            </Link>
+            <CollectibleTabs />
+          </>
+        ) : (
+          <div className="min-w-0">
+            {kicker && (
+              <div
+                className="text-[10px] font-mono uppercase tracking-[0.12em] truncate"
+                style={{ color: 'var(--text-muted)' }}
+              >
+                {kicker}
+              </div>
+            )}
+            <div className="text-[15px] font-medium truncate" style={{ color: 'var(--text-primary)' }}>{title}</div>
+          </div>
+        )}
 
         <div className="flex-1" />
 
         {streak > 0 && (
           <span
-            className="text-[11px] px-2.5 py-1 rounded-full shrink-0"
-            style={{ border: '1px solid var(--accent-soft)', color: 'var(--accent)' }}
+            className={collectible ? 'clb-chip shrink-0' : 'text-[11px] px-2.5 py-1 rounded-full shrink-0'}
+            style={collectible ? undefined : { border: '1px solid var(--accent-soft)', color: 'var(--accent)' }}
           >
             {streak}-day streak
           </span>
         )}
 
         <SearchBox />
+
+        {/* Account and the skin toggle live in the rail, which this skin
+            hides — without these two, switching to Bright would strand you
+            in it with no way back and no way to reach /account. */}
+        {collectible && (
+          <>
+            {/* Admin's only desktop entry point was AdminNavMenu inside the
+                rail, which this skin hides — it renders nothing for
+                non-admins, so this costs nothing for everyone else. */}
+            <AdminNavMenu placement="header" />
+            <Link to="/account" aria-label="Account" className="clb-chip shrink-0" title="Account">
+              <IconSvg d={IC.avatar} size={15} />
+            </Link>
+            <button
+              onClick={toggleSkin}
+              className="clb-chip shrink-0"
+              title="Back to the default skin"
+            >
+              Default
+            </button>
+          </>
+        )}
       </div>
+
+      {collectible && <CollectibleSubTabs />}
 
       {tabs && tabs.length > 0 && (
         <div className="flex items-center gap-1 px-6 -mt-px">

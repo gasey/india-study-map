@@ -2,6 +2,7 @@ import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Analytics } from '@vercel/analytics/react';
 import { useApp } from '@/lib/store';
+import { applyTheme } from '@/lib/applyTheme';
 import { AppShell } from '@/components/shell/AppShell';
 import { Home } from '@/pages/Home';
 import { EmbedPage } from '@/pages/EmbedPage';
@@ -52,10 +53,10 @@ function Loading() {
 /** Theme class must apply on every module, not just the map. */
 function ThemeSync() {
   const theme = useApp((s) => s.theme);
+  const skin = useApp((s) => s.skin);
   useEffect(() => {
-    document.documentElement.classList.toggle('dark', theme === 'dark');
-    document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'ink' : 'paper');
-  }, [theme]);
+    applyTheme(theme, skin);
+  }, [theme, skin]);
   return null;
 }
 

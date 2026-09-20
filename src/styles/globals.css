@@ -214,6 +214,15 @@ button, a, [role="button"], .label-eyebrow, header, aside > div > div:first-chil
     background: var(--bg-panel-elev);
     border: 1px solid var(--border);
   }
+  /* A themed rule with NO background — for the many controls and wrappers
+     that want the border but keep whatever is behind them. Exists so those
+     call sites stop repeating the inline style, and so a theme can restate
+     the rule's weight (the collectible skin takes it to 2px). Deliberately
+     separate from .surface: adding a background to these would be a
+     visible change. */
+  .bordered {
+    border: 1px solid var(--border);
+  }
   .text-secondary { color: var(--text-secondary); }
   .text-muted { color: var(--text-muted); }
   .border-themed { border-color: var(--border); }

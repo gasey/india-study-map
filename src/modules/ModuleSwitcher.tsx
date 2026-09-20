@@ -1,15 +1,27 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { modules, type ModuleCategory, type PracticeSubgroup } from './registry';
+import { useApp } from '@/lib/store';
 
 const CATEGORY_ORDER: ModuleCategory[] = ['Study', 'Practice'];
 const SUBGROUP_ORDER: PracticeSubgroup[] = ['In-app modules', 'Exam guides', 'Labs', 'Quick practice (one-offs)'];
 
-/** App-switcher pill — drop it into any module's header. */
+/** App-switcher pill — drop it into any module's header.
+ *
+ *  Renders nothing under the collectible skin. That shell already navigates
+ *  with four tabs plus a sub-tab rail, so this pill would be a third way to
+ *  reach the same destinations on the same screen — and the source has no
+ *  such control. Returning null here covers all four call sites (TopBar,
+ *  MindMapsPage, ArenaPage, QuizPlayerPage) rather than guarding each.
+ *
+ *  Before this could go, Mind Maps needed a real Atlas sub-tab: with the
+ *  mobile More sheet dropped too, this pill had briefly become the only
+ *  navigation to that route. */
 export function ModuleSwitcher() {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const loc = useLocation();
+  const collectible = useApp((s) => s.skin) === 'collectible';
   const onQuestionBank = loc.pathname === '/question-bank';
   const current =
     modules.find((m) => m.kind === 'route' && (m.path === loc.pathname || loc.pathname.startsWith(`${m.path}/`))) ??
@@ -22,6 +34,10 @@ export function ModuleSwitcher() {
     document.addEventListener('mousedown', onDoc);
     return () => document.removeEventListener('mousedown', onDoc);
   }, []);
+
+  // After the hooks, never before — bailing earlier would change the hook
+  // order between skins and break the rules of hooks on every toggle.
+  if (collectible) return null;
 
   return (
     <div ref={ref} className="relative">
@@ -40,8 +56,7 @@ export function ModuleSwitcher() {
       {open && (
         <div
           role="menu"
-          className="absolute left-0 mt-1.5 w-72 rounded-lg shadow-lg z-[1200] overflow-hidden"
-          style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+          className="surface clb-flat absolute left-0 mt-1.5 w-72 rounded-lg shadow-lg z-[1200] overflow-hidden"
         >
           <Link
             to="/question-bank"

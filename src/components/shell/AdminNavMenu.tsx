@@ -12,13 +12,22 @@ const PENDING_COUNT = 0;
  *  deep-link into a dropdown of two bank-specific `?tab=admin` pages
  *  before Phase 6a; now a single direct link, since the admin console is
  *  one standalone bank-agnostic route, not a tab duplicated per bank. */
-export function AdminNavMenu({ placement }: { placement: 'rail' | 'bottom' }) {
+export function AdminNavMenu({ placement }: { placement: 'rail' | 'bottom' | 'header' }) {
   const { user } = useAuthStore();
 
   // admin.stats is rank-5 (admin/owner only) — same bar the old
   // role === 'admin' check drew, now derived from the backend's
   // capability list instead of a hardcoded role string.
   if (!hasCap(user, 'admin.stats')) return null;
+
+  if (placement === 'header') {
+    return (
+      <Link to="/admin" className="clb-chip shrink-0 relative" title="Admin" aria-label="Admin">
+        <IconSvg d={IC.admin} size={15} />
+        {PENDING_COUNT > 0 && <Badge count={PENDING_COUNT} />}
+      </Link>
+    );
+  }
 
   if (placement === 'bottom') {
     return (

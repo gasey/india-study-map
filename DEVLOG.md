@@ -200,10 +200,35 @@ width, not by reading the diff:
   a dark translucent surface, so the composite stays dark. The rule was right
   all along; it simply never ran.
 
+**Sixth pass — the leftover mobile bar, found by measuring rather than looking.**
+The open question was whether each page's local mobile header now duplicates
+the section header. Walked every module route at a 420px viewport and read the
+*visible* text of each band — visible specifically, because `textContent`
+includes `display: none` subtrees and had already produced one false alarm (a
+theme toggle that reads as present in the text but is hidden).
+
+The answer was: only one. `/question-bank` and `/mpsc` share `MpscPage`'s
+Shell, whose header holds a back link, the ModuleSwitcher, a title that is
+`hidden md:inline`, and a light/dark toggle. Under this skin the switcher and
+the toggle are both hidden and the title never shows at that width, leaving a
+48px bar containing nothing but a back arrow the section header's own mark
+already provides. That one is now dropped under the skin.
+
+Every other local header stays, because measuring showed they carry real
+content the section header does not: `/pyq` "0/130 mastered", `/flashcards`
+"92/92 due", `/arena` "🪙 0", `/current-affairs` "8 days", `/mindmaps` "Fit".
+Hiding those wholesale to match the frames would have cost working UI for
+cosmetic fidelity. `/papers`, `/tests`, `/games` and `/state-tax-officer` have
+no local header at all.
+
+So the mobile stack is now: section band (mark + title + real badge +
+sub-tabs), the page's own header only where it earns its place, content, and
+the four-tab bottom bar.
+
 **What's still open.**
-- The mobile frames also give each *page* a coloured header with its own title
-  and badge. Only the sub-tab rail is ported; pages still show their own local
-  mobile headers.
+- Nothing tracked. The frames give each page's band a per-section colour and
+  the pages keep their own headers where those carry content — a deliberate
+  deviation, recorded above, not an omission.
 - Every number in the source frames is illustrative. Nothing was copied into
   the app — Home still reads `stats.ts`, `weakTopics.ts` and `mpscApi.ts`, and
   the tab counts are derived (see the third pass above, where the design's

@@ -344,9 +344,18 @@ function History({ results }: { results: ReturnType<typeof useApp.getState>['tes
 function Shell({ theme, toggleTheme, hasDesktopChrome, children }: {
   theme: string; toggleTheme: () => void; hasDesktopChrome: boolean; children: React.ReactNode;
 }) {
+  const collectible = useApp((s) => s.skin) === 'collectible';
+
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
-      {/* Hidden at desktop widths — AppHeader already covers the title there. */}
+      {/* Hidden at desktop widths — AppHeader already covers the title there.
+          Dropped entirely under the collectible skin: its title is
+          `hidden md:inline`, and that skin also hides the ModuleSwitcher and
+          the light/dark toggle, which leaves a 48px bar on mobile holding
+          nothing but a back arrow the section header's mark already
+          provides. The other modules' mobile headers stay — theirs carry
+          real content ("0/130 mastered", "92/92 due", Mind Maps' Fit). */}
+      {!collectible && (
       <header
         className="lg:hidden safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
@@ -364,6 +373,7 @@ function Shell({ theme, toggleTheme, hasDesktopChrome, children }: {
           {theme === 'light' ? '🌙' : '☀️'}
         </button>
       </header>
+      )}
       {children}
     </div>
   );

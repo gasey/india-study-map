@@ -35,7 +35,7 @@ export function AccountPage() {
       <div className="h-full overflow-y-auto scroll-panel">
         <div className="max-w-[420px] mx-auto px-8 py-9 flex flex-col gap-4">
           <h1 className="text-2xl font-medium tracking-tight" style={{ color: 'var(--text-primary)' }}>Account</h1>
-          <div className="rounded-lg p-5 flex flex-col gap-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+          <div className="surface rounded-lg p-5 flex flex-col gap-3">
             <div>
               <div className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{user.displayName ?? user.username}</div>
               <div className="text-xs mt-0.5" style={{ color: 'var(--text-secondary)' }}>

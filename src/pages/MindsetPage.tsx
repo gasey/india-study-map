@@ -38,7 +38,7 @@ const STRUGGLE_LABEL: Record<StruggleType, string> = Object.fromEntries(
 
 function Card({ children }: { children: React.ReactNode }) {
   return (
-    <div className="rounded-2xl p-6" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface rounded-2xl p-6">
       {children}
     </div>
   );

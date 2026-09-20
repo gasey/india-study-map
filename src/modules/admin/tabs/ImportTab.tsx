@@ -92,7 +92,7 @@ export function ImportTab() {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="rounded-lg p-4 flex flex-col gap-2.5" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+      <div className="surface rounded-lg p-4 flex flex-col gap-2.5">
         <div className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>New import</div>
         <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
           Upload a JSON file — <span className="font-mono">{'{ papers: [...], questions: [...] }'}</span>. This only parses and previews; nothing is written until you Apply.

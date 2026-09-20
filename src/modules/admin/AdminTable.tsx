@@ -74,7 +74,7 @@ export function AdminTable({
 
       {filters && <FilterBar>{filters}</FilterBar>}
 
-      <div className="rounded-lg overflow-hidden" style={{ border: '1px solid var(--border)' }}>
+      <div className="bordered rounded-lg overflow-hidden" >
         <div
           className="grid gap-3 px-3 py-2 text-[10px] font-semibold uppercase"
           style={{ gridTemplateColumns: rowActions ? `${grid} auto` : grid, letterSpacing: '0.04em', background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}

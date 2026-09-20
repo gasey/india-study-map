@@ -129,7 +129,7 @@ export function QuestionsTab() {
       )}
 
       {selectedId && (
-        <div className="rounded-lg p-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="surface rounded-lg p-3">
           <div className="text-xs font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>
             Edit history for {selectedId}
           </div>

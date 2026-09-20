@@ -57,8 +57,7 @@ export function TopBar({ viewInfo, onOpenPalette }: TopBarProps) {
       <div className="flex items-center gap-2.5 shrink-0">
         <button
           onClick={toggleTheme}
-          className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
-          style={{ border: '1px solid var(--border)' }}
+          className={`bordered ${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
           title="Toggle theme"
         >
           {theme === 'light' ? '🌙' : '☀️'}
@@ -76,8 +75,8 @@ export function TopBar({ viewInfo, onOpenPalette }: TopBarProps) {
         </div>
 
         <div
-          className="flex rounded-lg overflow-hidden shrink-0"
-          style={{ border: '1px solid var(--border)' }}
+          className="bordered flex rounded-lg overflow-hidden shrink-0"
+          
         >
           <button
             onClick={() => setChronicleView('canvas')}

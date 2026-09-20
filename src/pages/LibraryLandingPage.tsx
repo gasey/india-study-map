@@ -59,8 +59,7 @@ export function LibraryLandingPage() {
         </div>
 
         <div
-          className="rounded-lg px-4 py-3 flex items-center gap-3 flex-wrap"
-          style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+          className="surface rounded-lg px-4 py-3 flex items-center gap-3 flex-wrap"
         >
           <span
             className="text-[10px] font-bold uppercase px-2 py-0.5 rounded"

@@ -7,6 +7,17 @@ import type { Importance } from '@/data/timeline/types';
 import { initSchedule, gradeCard as sm2Grade, type CardSchedule, type Grade } from '@/lib/sm2';
 
 type Theme = 'light' | 'dark';
+/** Visual skin, orthogonal to light/dark.
+ *
+ *  'default'     — the paper/ink themes the app has always shipped.
+ *  'collectible' — the "Study OS v3 bright" direction (warm paper ground,
+ *                  3px ink borders, hard offset shadows, saturated category
+ *                  bands). Deliberately a *separate axis* from Theme rather
+ *                  than a third Theme value: every `theme === 'dark' ? a : b`
+ *                  ternary in the app stays correct, and toggleTheme keeps
+ *                  its binary meaning. Collectible is light-only by design —
+ *                  see tokens.css's [data-theme="collectible"] block. */
+type Skin = 'default' | 'collectible';
 type Mode = 'study' | 'quiz';
 
 interface ChapterProgress {
@@ -191,6 +202,7 @@ interface ChronicleState {
 
 export interface AppState {
   theme: Theme;
+  skin: Skin;
   currentChapterId: string;
   activeLayerIds: string[];
   /** Always-available base layer ids that are currently on. */
@@ -225,6 +237,8 @@ export interface AppState {
 
   // actions
   toggleTheme: () => void;
+  setSkin: (skin: Skin) => void;
+  toggleSkin: () => void;
   setChapter: (id: string) => void;
   toggleLayer: (layerId: string) => void;
   toggleBaseLayer: (layerId: string) => void;
@@ -285,6 +299,7 @@ export const useApp = create<AppState>()(
   persist(
     (set, get) => ({
       theme: 'light',
+      skin: 'default',
       currentChapterId: chapters[0]?.id ?? '',
       activeLayerIds: initialLayersFor(chapters[0]?.id ?? ''),
       activeBaseLayerIds: baseLayers.filter((l) => l.defaultOn).map((l) => l.id),
@@ -339,6 +354,11 @@ export const useApp = create<AppState>()(
 
       toggleTheme: () =>
         set((s) => ({ theme: s.theme === 'light' ? 'dark' : 'light' })),
+
+      setSkin: (skin) => set({ skin }),
+
+      toggleSkin: () =>
+        set((s) => ({ skin: s.skin === 'default' ? 'collectible' : 'default' })),
 
       setChapter: (id) =>
         set({
@@ -570,6 +590,7 @@ export const useApp = create<AppState>()(
       name: 'india-study-map',
       partialize: (s) => ({
         theme: s.theme,
+        skin: s.skin,
         progress: s.progress,
         bankProgress: s.bankProgress,
         deckProgress: s.deckProgress,

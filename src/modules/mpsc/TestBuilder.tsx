@@ -121,7 +121,7 @@ export function TestBuilder({ onCreated, onPlay }: TestBuilderProps) {
   };
 
   return (
-    <div className="rounded-lg p-4 flex flex-col gap-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface rounded-lg p-4 flex flex-col gap-3">
       <div>
         <div className="text-[15px] font-semibold" style={{ color: 'var(--text-primary)' }}>Build a custom test</div>
         <div className="text-xs mt-0.5" style={{ color: 'var(--text-secondary)' }}>

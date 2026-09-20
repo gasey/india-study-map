@@ -105,7 +105,7 @@ function TodaysPlanHero() {
 
   if (steps.length === 0) {
     return (
-      <div className="rounded-2xl p-5 flex items-center" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+      <div className="surface rounded-2xl p-5 flex items-center">
         <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>
           Answer a few questions anywhere in the app and your plan for today will build itself here.
         </div>
@@ -166,7 +166,7 @@ function LevelCard() {
   const accuracy = quizAccuracy(progress, bankProgress, 30);
   const lvl = levelInfo(progress, bankProgress, arena);
   return (
-    <div className="rounded-xl p-4" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface rounded-xl p-4">
       <div className="flex items-baseline justify-between mb-3.5">
         <span className="font-mono text-[10px] tracking-wider uppercase" style={{ color: 'var(--text-muted)' }}>Level {lvl.level} · {lvl.title}</span>
         <span className="font-mono text-[11px]" style={{ color: 'var(--text-secondary)' }}>{lvl.xpIntoLevel} / {lvl.xpForNextLevel} XP</span>
@@ -196,7 +196,7 @@ function WeakTopicsPanel() {
   const topics = weakTopics(progress, bankProgress);
   if (topics.length === 0) return null;
   return (
-    <div className="rounded-xl p-4 flex-1" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface rounded-xl p-4 flex-1">
       <div className="font-mono text-[10px] tracking-wider uppercase mb-3" style={{ color: 'var(--text-muted)' }}>Weakest topics</div>
       <div className="flex flex-col gap-2.5">
         {topics.map((t) => (
@@ -268,8 +268,7 @@ function JumpBackInGrid() {
           <Link
             key={c.kicker}
             to={c.to}
-            className="rounded-xl px-4 py-3.5 flex flex-col gap-1.5"
-            style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+            className="surface rounded-xl px-4 py-3.5 flex flex-col gap-1.5"
           >
             <span className="font-mono text-[9px] tracking-wider uppercase" style={{ color: c.color }}>{c.kicker}</span>
             <span className="text-[13px] font-semibold truncate" style={{ color: 'var(--text-primary)' }}>{c.title}</span>
@@ -297,8 +296,7 @@ function ModuleGroupedCards() {
                 <ModuleLink
                   key={m.id}
                   m={m}
-                  className="rounded-lg px-4 py-4 flex flex-col gap-2"
-                  style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+                  className="surface rounded-lg px-4 py-4 flex flex-col gap-2"
                 >
                   <div className="flex items-center justify-between">
                     <span style={{ color: 'var(--accent)' }}><IconSvg d={MODULE_ICON[m.id] ?? IC.map} size={20} /></span>

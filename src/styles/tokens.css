@@ -214,6 +214,95 @@
   --plum: #f472b6;
 }
 
+/* ---- Collectible (Study OS v3 "bright") --------------------- */
+/* Ported from the Claude Design project's `Study OS v3 bright.dc.html`
+   (project 384289ae…, page 3a–3e). Every hex below is lifted from that
+   file's own constants, not eyeballed from a screenshot:
+
+     INK #241f18   YELLOW #f5b915   PURPLE #6b3fb0   GREEN #1d7a3f
+     BLUE #2f7fd6  ORANGE #c03f18   PAPER #fffdf7    ground #f4ead6
+
+   The light tints (LT_*) exist in the source for one specific reason:
+   they're used wherever the label sitting on top is ink rather than paper,
+   so ink clears 4.5:1. Don't swap a saturated hue in for a tint on an
+   ink-labelled chip — that's the exact contrast bug the design's own
+   revision history records fixing.
+
+   Note this skin is light-only on purpose. It is selected via the `skin`
+   axis in store.ts, so `.dark` never co-applies with it. */
+[data-theme="collectible"] {
+  --bg: #f4ead6;
+  --bg-flat: #f4ead6;
+  --surface: #fffdf7;
+  --sunk: #f4ead6;
+  --line: #241f18;
+  --line-strong: #241f18;
+
+  --ink: #241f18;
+  --muted: #5c5346;
+  --faint: #6b6152;
+
+  --accent: #6b3fb0;
+  --accent-hover: #55318c;
+  /* 0.28, not the other themes' 0.14: ~26 call sites paint active pills and
+     selected rows with `background: var(--accent-soft)`, and at 0.14 they
+     read as a faint wash rather than the source's printed block. Over the
+     paper ground 0.28 composites to roughly #d6c1eb — effectively the
+     source's LT_PURPLE — and --accent (#6b3fb0) on it clears AA at 5.2:1.
+     It stays *translucent* on purpose: MiniMap.tsx's viewport window uses
+     this token as an overlay on top of the event ticks, so an opaque value
+     would hide them. */
+  --accent-soft: rgba(107, 63, 176, 0.28);
+  --accent-faint: rgba(107, 63, 176, 0.1);
+  --on-accent: #fffdf7;
+
+  /* Hard offset shadows, not blurs — the whole point of the direction.
+     The three steps map to the source's 4px / 5px / 7px offsets. */
+  --sh-1: 3px 3px 0 #241f18;
+  --sh-2: 4px 4px 0 #241f18;
+  --sh-3: 7px 7px 0 #241f18;
+  --sh-flyout: 5px 5px 0 #241f18;
+
+  /* Square by default; .sc/.num and dots re-round explicitly. */
+  --r-sm: 0px;
+  --r-md: 0px;
+  --r-lg: 0px;
+  --r-xl: 0px;
+
+  --ok: #1d7a3f;
+  --warn: #8a5a12;
+  --bad: #c03f18;
+  --info: #2f7fd6;
+
+  /* subject hues — the source assigns a colour per subject the way a
+     trading card gets a type. Kept on the same seven names so every
+     existing subject chip picks these up without a code change. */
+  --green: #1d7a3f;   /* geography */
+  --blue: #2f7fd6;    /* polity */
+  --brown: #8a5a12;   /* history, mizoram */
+  --gold: #6b5a2e;    /* economy — the source's index-number brown */
+  --indigo: #6b3fb0;  /* aptitude */
+  --forest: #1d7a3f;  /* sci & tech, python, postgres */
+  --plum: #6b3fb0;    /* english, essay */
+
+  /* Collectible-only extras, consumed by collectible.css. */
+  --clb-paper: #fffdf7;
+  --clb-ground: #f4ead6;
+  --clb-rule: #e2d7bf;     /* the hairline *inside* a card, between rows */
+  --clb-yellow: #f5b915;
+  --clb-purple: #6b3fb0;
+  --clb-green: #1d7a3f;
+  --clb-blue: #2f7fd6;
+  --clb-orange: #c03f18;
+  --clb-index: #6b5a2e;
+  --clb-lt-green: #9adcb4;
+  --clb-lt-orange: #f7b295;
+  --clb-lt-blue: #a8c9f2;
+  --clb-lt-purple: #c9b3ec;
+
+  color-scheme: light;
+}
+
 /* neon is glass: the rail and header must blur what is behind them */
 [data-theme="neon"] .rail,
 [data-theme="neon"] .app-header {

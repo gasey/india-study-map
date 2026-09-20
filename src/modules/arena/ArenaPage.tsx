@@ -227,8 +227,7 @@ export default function ArenaPage() {
           </span>
           <button
             onClick={toggleTheme}
-            className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
-            style={{ border: '1px solid var(--border)' }}
+            className={`bordered ${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
             title="Toggle theme"
           >
             {theme === 'light' ? '🌙' : '☀️'}

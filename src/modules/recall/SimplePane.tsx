@@ -37,7 +37,7 @@ interface SimplePaneProps {
 export function SimplePane({ heading, blurb, cta, canvasLabel, canvasTools, canvasBody, footNote, listLabel, items }: SimplePaneProps) {
   return (
     <div className="flex flex-col gap-[18px]">
-      <div className="rounded-xl p-[18px_20px] flex flex-col sm:flex-row items-start gap-4" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+      <div className="surface rounded-xl p-[18px_20px] flex flex-col sm:flex-row items-start gap-4">
         <div className="flex-1 min-w-0">
           <div className="text-[16px] font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>{heading}</div>
           <div className="text-[13px] leading-relaxed max-w-[76ch]" style={{ color: 'var(--text-secondary)' }}>{blurb}</div>
@@ -54,7 +54,7 @@ export function SimplePane({ heading, blurb, cta, canvasLabel, canvasTools, canv
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-4 items-start">
-        <div className="rounded-xl overflow-hidden" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="surface rounded-xl overflow-hidden">
           <div className="flex items-center gap-2.5 px-4 py-[11px]" style={{ borderBottom: '1px solid var(--border)' }}>
             <span className="font-mono text-[10px] uppercase tracking-[0.12em]" style={{ color: 'var(--text-muted)' }}>{canvasLabel}</span>
             <div className="flex-1" />
@@ -79,7 +79,7 @@ export function SimplePane({ heading, blurb, cta, canvasLabel, canvasTools, canv
           <div className="px-4 py-[13px] text-[12px]" style={{ color: 'var(--text-secondary)' }}>{footNote}</div>
         </div>
 
-        <div className="rounded-xl p-[17px_19px]" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="surface rounded-xl p-[17px_19px]">
           <div className="font-mono text-[10px] uppercase tracking-[0.12em] mb-3" style={{ color: 'var(--text-muted)' }}>{listLabel}</div>
           <div className="flex flex-col gap-[3px]">
             {items.map((i) => (

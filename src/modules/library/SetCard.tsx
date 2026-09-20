@@ -62,7 +62,20 @@ export function SetCard({ set, onOpen }: SetCardProps) {
             <span className="text-lg">•</span>
           )}
         </div>
-        <div className="absolute font-mono text-[9px] uppercase" style={{ left: 16, top: 16, letterSpacing: '0.12em', color: 'var(--on-accent)', opacity: 0.85 }}>
+        {/* --text-primary, NOT --on-accent. The badge and the group tag below
+            sit on `background: hue` — a saturated ground, where a near-white
+            label is right. This one sits on the *cover gradient*, whose stops
+            are the hue mixed 55%/20% into --bg-panel, so in any light theme it
+            is a pale tint and a near-white label measured 1.0:1 — invisible.
+            --text-primary is the theme-aware answer: dark on the light themes'
+            pale cover, light on ink/neon, where --bg-panel makes that same
+            gradient dark.
+
+            No opacity either. At 9px this is small text, so the bar is 4.5:1,
+            and measured across all five themes only full strength clears it
+            everywhere — 0.9 still leaves ink at 4.22. Worst case now is ink
+            at 4.78. */}
+        <div className="absolute font-mono text-[9px] uppercase" style={{ left: 16, top: 16, letterSpacing: '0.12em', color: 'var(--text-primary)' }}>
           {fmtAdded(set.createdAt)}
         </div>
       </div>

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import type { TouchEvent } from 'react';
 import { useApp } from '@/lib/store';
+import { applyTheme } from '@/lib/applyTheme';
 import { getChapter } from '@/data';
 import { baseLayers } from '@/data/baseLayers';
 import { LeftPanel } from '@/components/LeftPanel';
@@ -24,6 +25,7 @@ const mapCfg: { leftPanel: 'docked' | 'docked-tree' | 'floating'; rightPanel: 'd
 export function App() {
   const {
     theme,
+    skin,
     currentChapterId,
     activeLayerIds,
     activeBaseLayerIds,
@@ -72,9 +74,8 @@ export function App() {
   }
 
   useEffect(() => {
-    document.documentElement.classList.toggle('dark', theme === 'dark');
-    document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'ink' : 'paper');
-  }, [theme]);
+    applyTheme(theme, skin);
+  }, [theme, skin]);
 
   useChapterTheme(chapter ?? ({} as any), theme === 'dark');
 
@@ -219,8 +220,7 @@ export function App() {
           {/* Floating chrome — shell style 1c (Focus Atlas). Desktop only; mobile keeps the drawer/sheet. */}
           {!authorMode && mapCfg.breadcrumbOverlay && (
             <div
-              className="hidden lg:flex absolute top-4 left-1/2 -translate-x-1/2 z-[560] items-center gap-2.5 rounded-full shadow-lg px-2 py-1.5 pl-4"
-              style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+              className="surface hidden lg:flex absolute top-4 left-1/2 -translate-x-1/2 z-[560] items-center gap-2.5 rounded-full shadow-lg px-2 py-1.5 pl-4"
             >
               <span className={`w-1.5 h-1.5 rounded-full subject-${chapter.subject}`} style={{ background: 'var(--subject)' }} />
               <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{chapter.title}</span>
@@ -244,16 +244,16 @@ export function App() {
           )}
           {!authorMode && mapCfg.leftPanel === 'floating' && (
             <div
-              className="hidden lg:flex absolute top-4 left-4 bottom-4 w-[264px] z-[550] rounded-2xl shadow-lg overflow-hidden"
-              style={{ border: '1px solid var(--border)' }}
+              className="bordered hidden lg:flex absolute top-4 left-4 bottom-4 w-[264px] z-[550] rounded-2xl shadow-lg overflow-hidden"
+              
             >
               <LeftPanel chapter={chapter} floating />
             </div>
           )}
           {!authorMode && mapCfg.rightPanel === 'floating' && (
             <div
-              className="hidden lg:flex absolute top-4 right-4 w-80 max-h-[calc(100%-32px)] z-[550] rounded-2xl shadow-lg overflow-hidden"
-              style={{ border: '1px solid var(--border)' }}
+              className="bordered hidden lg:flex absolute top-4 right-4 w-80 max-h-[calc(100%-32px)] z-[550] rounded-2xl shadow-lg overflow-hidden"
+              
             >
               <RightPanel
                 chapter={chapter}

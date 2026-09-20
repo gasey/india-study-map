@@ -9,6 +9,237 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-19 — "Study OS v3 bright" lands as an opt-in skin, and the anti-FOUC script turns out to have been deciding the theme behind React's back
+
+**What shipped.** The `collectible` skin — a port of `Study OS v3 bright.dc.html`
+from the Claude Design project `384289ae-60d1-4a7d-935d-169b44d6cb19` — as a
+**fifth theme selected on its own axis**, not a replacement for anything.
+
+- `store.ts` gains `skin: 'default' | 'collectible'` (persisted) with
+  `setSkin`/`toggleSkin`. Deliberately *not* a third `Theme` value: every
+  `theme === 'dark' ? a : b` ternary in the app stays correct and
+  `toggleTheme` keeps its binary meaning.
+- `tokens.css` gains `[data-theme="collectible"]`, every hex lifted from the
+  design file's own constants rather than eyeballed — ink `#241f18`, yellow
+  `#f5b915`, purple `#6b3fb0`, green `#1d7a3f`, orange `#c03f18`, paper
+  `#fffdf7`, ground `#f4ead6`. Radius tokens go to 0 and the `--sh-*` steps
+  become hard offset shadows (`4px 4px 0`, `7px 7px 0`) instead of blurs.
+- New `src/styles/collectible.css` carries the form language a palette can't:
+  square corners (exempting `rounded-full`, which the source uses for its
+  subject dots), card/band/chip/button treatments, Inter, tabular figures.
+- New `src/lib/applyTheme.ts` — one place deciding what goes on `<html>`,
+  because Root.tsx and App.tsx each had their own copy and had drifted.
+- Shell chrome ported: yellow header band, 3px ink rail border, yellow
+  active nav block, 64px mobile bottom bar with 2px ink cell dividers.
+- Home's five card call sites moved from a duplicated inline
+  `{background: var(--bg-panel), border: 1px solid var(--border)}` onto the
+  `.surface` utility that already existed for exactly that. Pixel-identical
+  in the default themes; gives the skin a hook to upgrade them to 3px + a
+  hard shadow.
+
+**Why the anti-FOUC script was the actual bug.** The skin looked right on a
+fresh light session and badly wrong on a dark one: the whole rail painted its
+text in the *ink theme's* `#e8e9ef` while `getComputedStyle` insisted
+`--ink` was `#241f18` on the very same element. A probe div with a byte-identical
+inline style, injected into the same parent, resolved correctly — which ruled
+out the cascade and pointed at first paint. `index.html`'s anti-FOUC script
+read `state.theme` only, knew nothing about `skin`, and so set
+`data-theme="ink"` before React mounted; everything computed against that, and
+Chrome never re-resolved the inline `var()`s when ThemeSync swapped the
+attribute. Two fixes, both needed:
+
+1. the script now mirrors `applyTheme` exactly, skin included — it is the same
+   decision made twice, so **keep the two in step**;
+2. nav styling moved from inline `var(--clb-*)` to classes. An inline
+   `background: var(--clb-paper)` is invalid-at-computed-value-time before the
+   attribute lands (that token doesn't exist in any other theme), so it painted
+   transparent and stuck. A class simply starts matching. **Don't put
+   `var(--clb-*)` in an inline style.**
+
+**Two bugs found that are not mine, and were left alone.** Both have task chips
+rather than drive-by fixes:
+- `SetCard.tsx:65` renders the Library cover's date label in `--on-accent`
+  (white) on a gradient that mixes the subject hue with `--bg-panel` — measured
+  **1.0:1**, invisible. Verified it fails identically under `data-theme="paper"`,
+  so it is pre-existing and predates this work.
+- `tokens.css`'s `[data-theme="neon"] .rail / .app-header` backdrop-blur has
+  been dead code forever: neither class existed in the markup. Adding them as
+  styling hooks made neon's "glass" chrome blur for the first time — nobody has
+  ever seen it rendered.
+
+**Verified**, not just typechecked: `tsc` clean, production build clean, and
+driven in the browser — the skin toggles live, survives reload, correctly
+*clears* `.dark` when collectible is chosen over a persisted dark theme, and
+restores dark on the way back. Checked in **all three** themes it can reach
+(paper, ink, collectible), which matters because the `.surface` conversion
+touched 39 files. A leaf-node contrast audit across `/`, `/timeline`,
+`/question-bank`, `/papers`, `/recall`, `/library`, `/tests`, `/flashcards`,
+`/account`, `/pyq`, `/nihongo` returns clean under the skin apart from the
+pre-existing Library label above. (An earlier, looser version of that audit
+flagged Chronicle and a Chronicle gradient button — both were artifacts of the
+auditor matching container elements and reading `background-color` on an
+element painted by `background-image`; the stricter version clears them.)
+
+**Second pass — the skin now reaches the whole app, with an opt-out.** All
+**56** call sites carrying the exact inline pair
+`{background: var(--bg-panel), border: '1px solid var(--border)'}` moved onto
+`.surface` across 39 files. Checked first that none of them also carried a
+Tailwind `bg-`/`border-` utility, which would now win where the inline style
+used to (`.surface` lives in `@layer components`; utilities are a later layer).
+The 22 *border-only* sites were deliberately left alone — adding `.surface`
+there would also add a background, a visible change.
+
+A blanket conversion is right for the default themes (byte-identical: measured
+`#ffffff` / `1px` / `#d9dbe2`, exactly what the inline pair produced) but wrong
+for collectible, because not every surface is a card. `.clb-flat` opts six of
+them out — the kana grid's 64px cells, the ⌘K dropdown, ModuleSwitcher's menu,
+the Chronicle command palette, MPSC's FilterRail and its main pane — keeping a
+square 2px ink rule with no offset shadow. Nihongo is the proof: 46 of the 47
+surfaces on that route are flat cells, and giving each of them a 3px border and
+a hard shadow would have been unreadable.
+
+`--accent-soft` also goes to **0.28** in this theme, against 0.14 elsewhere:
+~26 call sites paint active pills with it, and at 0.14 they read as a faint
+wash rather than a printed block. Over the paper ground 0.28 composites to
+about `#d6c1eb` — effectively the source's `LT_PURPLE` — and `--accent` on it
+clears AA at 5.2:1. It stays translucent on purpose, because
+`MiniMap.tsx:61` uses the same token as an overlay sitting **on top of** the
+Chronicle event ticks; an opaque value would hide them.
+
+**Third pass — the four-tab shell, and why its counts are not the design's.**
+The source's navigation *is* four tabs (Bank / Atlas / Guides / Lab), so under
+the collectible skin the 8-item rail and its More flyout are gone:
+`collectibleTabs.ts` defines the tabs, `CollectibleTabBar.tsx` renders them
+into AppHeader's band (frame 3e), and `AppShell` drops `<Rail/>`. Both shells
+stay in the tree — switching skin switches the whole navigation model, which is
+what makes the direction A/B-able rather than a one-way door.
+
+Four tabs cannot reach twenty routes, and the source knows it: its Bank frame
+carries a sub-tab rail (Questions / Tests / Papers / Recall) and its Atlas frame
+(Map / Chronicle). So this is two-level, and every route the rail reached is
+still reachable — verified by walking all 11 and asserting each lights the right
+tab *and* sub-tab. Three reachability traps had to be closed:
+- **Account and the skin toggle both lived in the rail.** Hiding it would have
+  stranded you in the skin with no way back. Both now sit in the header band.
+- **AppHeader is desktop-only** (`hidden lg:flex`), so on mobile the sub-tab
+  rail is re-hung in AppShell under `lg:hidden`. Without it the four bottom
+  tabs would be the only navigation and /tests, /papers, /recall would be
+  unreachable on a phone. Exactly one copy is ever visible — checked at 952px.
+- The mobile bar drops its More sheet, per the source.
+
+**The counts are derived, and that is not a detail.** The source's frames show
+Bank 76,093 · Atlas 21 · Guides 18 · Lab 7. Copying them would have been easy
+and wrong: the real figures are **Bank 140,529 · Atlas 26 · Guides 20 · Lab 4**.
+The bank alone would have under-reported by 64,436 questions — a number the
+user would reasonably trust while studying. Atlas/Guides/Lab count real arrays
+at render time; Bank asks the API for its true total and renders *no count*
+until it answers, rather than showing a placeholder. That total is cached at
+module scope, not per-mount: the bar remounts on every navigation, and a
+per-mount fetch made the figure blink out and back on each route change and
+fired a request per click.
+
+**Retiring the third navigation, and the dead end that exposed.** With four
+tabs plus a sub-tab rail on screen, each page's local `ModuleSwitcher` pill was
+a *third* way to reach the same destinations, and the source has no such
+control — so it returns null under this skin (one change covering all four call
+sites: TopBar, MindMaps, Arena, QuizPlayer). TopBar's light/dark button is
+hidden for the same reason the rail's copy is: the skin is light-only, so it
+would visibly do nothing.
+
+Removing it broke two things that only showed up by driving the app at a phone
+width, not by reading the diff:
+- **Mind Maps lost all navigation.** It was only a `match` entry, never a
+  sub-tab, so with the More sheet and the pill both gone the sole route to it
+  was a typed URL. It is now a real Atlas sub-tab.
+- **`/map` became a dead end on mobile.** That route suppresses the bottom bar
+  on purpose (its swipeable facts/quiz sheet owns the bottom of the viewport),
+  so once the pill went, the Atlas sub-rail was the *only* navigation left and
+  Bank / Guides / Lab were unreachable from the map. AppShell now renders the
+  primary tab strip above the sub-rail on that route only — verified it appears
+  on `/map` and nowhere else.
+
+**Fourth pass — closing the three open items.**
+- **`.bordered`**, a new globals.css utility carrying the themed rule with *no*
+  background, now covers the 22 background-less inline sites; the skin takes it
+  to the source's 2px chip weight. Kept separate from `.surface` on purpose —
+  giving these a background would be a visible change.
+  The conversion script's "element has no className" fallback fired on tags
+  whose `className` sat on an earlier line, emitting a second `className` and
+  producing nine `TS17001: multiple attributes with the same name` errors. A
+  second pass merges them, preserving template literals
+  (`` className={`bordered ${cond ? … : ''} …`} ``). Typecheck caught every one
+  — worth remembering that a regex over JSX cannot see tag boundaries.
+- **Per-section bands.** The sub-tab rail is now coloured by section the way
+  the mobile frames are — purple Bank (3b), green Atlas (3c), oxblood Guides
+  (3d), blue Lab — driven by a `data-tab` attribute rather than an inline
+  style, for the same resolve-order reason as `.clb-nav-item`. Verified the
+  computed band per route: `#6b3fb0` / `#1d7a3f` / `#2f7fd6`.
+- **Admin.** `AdminNavMenu` gained a `header` placement. Its only desktop entry
+  point was inside the rail, which this skin hides, so admins had no way into
+  `/admin` without typing the URL. It still renders nothing for non-admins.
+  `/arena` and `/mindset` turned out not to be stranded after all — both are
+  registry modules, so Home lists them, and Home is the mark in the header.
+
+**Fifth pass — the two pre-existing bugs, both now closed.**
+- **Library's date label was invisible** at 1.0:1 and had been since the cards
+  shipped. It used `--on-accent` (near-white), which is right for the count
+  badge and group tag beside it — those sit on `background: hue`, a saturated
+  ground — but wrong for this one, which sits on the *cover gradient*, whose
+  stops are the hue mixed 55%/20% into `--bg-panel` and so are pale in any
+  light theme. `--text-primary` is the theme-aware answer: dark on the light
+  themes' pale cover, light on ink/neon where that same gradient goes dark.
+  The `opacity: 0.85` had to go too — at 9px this is small text, so the bar is
+  4.5:1, and measuring all five themes showed only full strength clears it
+  everywhere (0.9 still leaves ink at 4.22). Now: paper 7.17, parchment 6.15,
+  neon 5.26, ink 4.78, collectible 7.85.
+- **The neon glass blur needed no change.** Adding `.rail`/`.app-header` as
+  styling hooks made that rule live for the first time, so it had never been
+  seen rendered. Checked: `backdrop-filter: blur(14px)` now applies to both,
+  it reads correctly as glass, and it does not wash out the nav labels —
+  worst label measures 7.14:1, active 9.15:1. It blurs a dark gradient behind
+  a dark translucent surface, so the composite stays dark. The rule was right
+  all along; it simply never ran.
+
+**Sixth pass — the leftover mobile bar, found by measuring rather than looking.**
+The open question was whether each page's local mobile header now duplicates
+the section header. Walked every module route at a 420px viewport and read the
+*visible* text of each band — visible specifically, because `textContent`
+includes `display: none` subtrees and had already produced one false alarm (a
+theme toggle that reads as present in the text but is hidden).
+
+The answer was: only one. `/question-bank` and `/mpsc` share `MpscPage`'s
+Shell, whose header holds a back link, the ModuleSwitcher, a title that is
+`hidden md:inline`, and a light/dark toggle. Under this skin the switcher and
+the toggle are both hidden and the title never shows at that width, leaving a
+48px bar containing nothing but a back arrow the section header's own mark
+already provides. That one is now dropped under the skin.
+
+Every other local header stays, because measuring showed they carry real
+content the section header does not: `/pyq` "0/130 mastered", `/flashcards`
+"92/92 due", `/arena` "🪙 0", `/current-affairs` "8 days", `/mindmaps` "Fit".
+Hiding those wholesale to match the frames would have cost working UI for
+cosmetic fidelity. `/papers`, `/tests`, `/games` and `/state-tax-officer` have
+no local header at all.
+
+So the mobile stack is now: section band (mark + title + real badge +
+sub-tabs), the page's own header only where it earns its place, content, and
+the four-tab bottom bar.
+
+**What's still open.**
+- Nothing tracked. The frames give each page's band a per-section colour and
+  the pages keep their own headers where those carry content — a deliberate
+  deviation, recorded above, not an omission.
+- Every number in the source frames is illustrative. Nothing was copied into
+  the app — Home still reads `stats.ts`, `weakTopics.ts` and `mpscApi.ts`, and
+  the tab counts are derived (see the third pass above, where the design's
+  76,093 turned out to be 140,529). Anyone continuing this must keep it that
+  way; a frame's count is a design placeholder, not data.
+- The design project also holds `Study OS v4.dc.html` (oxblood on bone, the
+  furthest from the current palette) and `Study OS v2.dc.html` (dark, editorial,
+  14 frames). v3 was the one asked for.
+
+---
+
 ## 2026-09-15 — Practice Hub 2 takes six new papers to 803 questions, by reading the highlights the text layer cannot see — and the underline that *is* the question
 
 **What shipped.** Six MPSC booklets — three sittings, none previously mined —

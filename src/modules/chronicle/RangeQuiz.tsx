@@ -89,8 +89,8 @@ export function RangeQuiz({ startYear, endYear, trackMode, renderEntries, onClos
       onClick={onClose}
     >
       <motion.div
-        className="w-full max-w-lg max-h-[85dvh] overflow-y-auto scroll-panel rounded-xl p-5"
-        style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+        className="surface w-full max-w-lg max-h-[85dvh] overflow-y-auto scroll-panel rounded-xl p-5"
+        
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 16 }}

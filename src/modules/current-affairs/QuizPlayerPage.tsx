@@ -117,8 +117,7 @@ export function QuizPlayerPage() {
           )}
           <button
             onClick={toggleTheme}
-            className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
-            style={{ border: '1px solid var(--border)' }}
+            className={`bordered ${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
             title="Toggle theme"
           >
             {theme === 'light' ? '🌙' : '☀️'}
@@ -138,13 +137,13 @@ export function QuizPlayerPage() {
       <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-6 flex justify-center">
         <div className="w-full max-w-2xl">
           {state.status === 'loading' && (
-            <div className="rounded-xl p-8 text-center" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+            <div className="surface rounded-xl p-8 text-center">
               <p style={{ color: 'var(--text-secondary)' }}>Loading…</p>
             </div>
           )}
 
           {state.status === 'not-found' && (
-            <div className="rounded-xl p-8 text-center fact-in" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+            <div className="surface rounded-xl p-8 text-center fact-in">
               <div className="text-3xl mb-2">🔍</div>
               <p className="font-medium mb-1">No quiz found for {date}.</p>
               <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>It may not have been published yet, or the date is wrong.</p>
@@ -162,8 +161,7 @@ export function QuizPlayerPage() {
             <>
               <button
                 onClick={() => setReadFirstOpen((o) => !o)}
-                className="w-full text-left rounded-xl p-4 mb-4 fact-in"
-                style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+                className="surface w-full text-left rounded-xl p-4 mb-4 fact-in"
               >
                 <div className="flex items-center justify-between gap-2">
                   <span className="text-sm font-medium min-w-0">📖 Read first — {day.source.title}</span>
@@ -185,7 +183,7 @@ export function QuizPlayerPage() {
               </button>
 
               {!done && q && (
-                <div className="rounded-xl p-6 fact-in" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }} key={q.id}>
+                <div className="surface rounded-xl p-6 fact-in"  key={q.id}>
                   <div className="flex items-center gap-2 mb-3 text-xs" style={{ color: 'var(--text-secondary)' }}>
                     <span className="px-1.5 py-0.5 rounded" style={{ background: 'var(--bg-panel-elev)' }}>{q.topic}</span>
                     <span className="px-1.5 py-0.5 rounded capitalize" style={{ background: 'var(--bg-panel-elev)' }}>{q.difficulty}</span>
@@ -237,7 +235,7 @@ export function QuizPlayerPage() {
               )}
 
               {done && (
-                <div className="rounded-xl p-8 text-center fact-in" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+                <div className="surface rounded-xl p-8 text-center fact-in">
                   <div className="text-3xl mb-2">🏁</div>
                   <p className="font-medium mb-1">Score: {score}/{day.mcqs.length}</p>
                   {best && best.score !== score && (

@@ -165,7 +165,7 @@ export function MindMapsPage() {
             {mindmaps.map((m) => <option key={m.id} value={m.id}>{m.title}</option>)}
           </select>
           <button onClick={resetView} className="px-2.5 py-1 rounded-md text-xs font-medium" style={selectStyle}>Fit</button>
-          <button onClick={toggleTheme} className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`} style={{ border: '1px solid var(--border)' }} title="Toggle theme">
+          <button onClick={toggleTheme} className={`bordered ${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`} title="Toggle theme">
             {theme === 'light' ? '🌙' : '☀️'}
           </button>
         </div>

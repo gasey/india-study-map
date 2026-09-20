@@ -43,7 +43,7 @@ export function TestCard({ test, personalBestScore, onStart, busy = false }: Tes
   const hue = `var(${KIND_TOKEN[test.kind]})`;
 
   return (
-    <div className="rounded-lg p-4 flex flex-col gap-2" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+    <div className="surface rounded-lg p-4 flex flex-col gap-2">
       <div className="flex items-center justify-between">
         <span
           className="text-[10px] font-medium px-2 py-0.5 rounded-full"

@@ -616,8 +616,8 @@ export function TimelineCanvas({
               {/* Floating zoom cluster — big touch targets that work on phones
                   (pinch also zooms). stopPropagation so a tap never starts a pan. */}
               <div
-                className="absolute top-2 right-2 z-20 flex flex-col rounded-lg overflow-hidden shadow-lg"
-                style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+                className="surface absolute top-2 right-2 z-20 flex flex-col rounded-lg overflow-hidden shadow-lg"
+                
                 onPointerDown={(e) => e.stopPropagation()}
                 onClick={(e) => e.stopPropagation()}
               >

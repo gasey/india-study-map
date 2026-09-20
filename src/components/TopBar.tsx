@@ -15,7 +15,8 @@ interface TopBarProps {
 }
 
 export function TopBar({ authorMode, onToggleAuthor, onToggleNav }: TopBarProps) {
-  const { theme, toggleTheme, mode, basemapOverride, setBasemapOverride } = useApp();
+  const { theme, toggleTheme, mode, basemapOverride, setBasemapOverride, skin } = useApp();
+  const collectible = skin === 'collectible';
   const hasDesktopChrome = useHasDesktopChrome('map');
 
   return (
@@ -72,9 +73,13 @@ export function TopBar({ authorMode, onToggleAuthor, onToggleNav }: TopBarProps)
             <span className="hidden sm:inline">{authorMode ? 'Exit author' : 'Author'}</span>
           </button>
         )}
+        {/* Hidden under the collectible skin for the same reason the rail's
+            copy is: that skin is light-only, so data-theme stays
+            "collectible" whatever `theme` says and this button would be a
+            control that visibly does nothing. */}
         <button
           onClick={toggleTheme}
-          className={`${hasDesktopChrome ? 'lg:hidden' : ''} min-h-10 px-3 py-2 rounded-md text-xs hover:bg-[var(--bg-panel-elev)] transition-colors flex items-center gap-2 active:scale-95`}
+          className={`${collectible ? 'hidden' : ''} ${hasDesktopChrome ? 'lg:hidden' : ''} min-h-10 px-3 py-2 rounded-md text-xs hover:bg-[var(--bg-panel-elev)] transition-colors flex items-center gap-2 active:scale-95`}
           style={{ color: 'var(--text-secondary)' }}
           aria-label="Toggle theme"
         >

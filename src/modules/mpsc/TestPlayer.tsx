@@ -534,7 +534,7 @@ function ResultsView({
           <h1 className="text-xl font-medium tracking-tight" style={{ color: 'var(--text-primary)' }}>{title}</h1>
         </div>
 
-        <div className="rounded-xl p-5" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="surface rounded-xl p-5">
           <div className="flex items-end gap-3 mb-1">
             <span className="font-mono font-semibold tabular-nums" style={{ fontSize: 40, lineHeight: 1, color: 'var(--text-primary)' }}>
               {score.marks % 1 === 0 ? score.marks : score.marks.toFixed(2)}
@@ -559,7 +559,7 @@ function ResultsView({
 
         {/* By subject — every row opens those questions as a bank filter.
             That link is the entire point of this screen (§4.2). */}
-        <div className="rounded-xl p-5" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="surface rounded-xl p-5">
           <div className="text-sm font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>By subject</div>
           <div className="flex flex-col gap-2">
             {bySubject.map((row) => {
@@ -569,8 +569,8 @@ function ResultsView({
                 <Link
                   key={row.subject}
                   to={`/mpsc?tab=browser&subject=${encodeURIComponent(row.subject)}`}
-                  className="flex items-center gap-3 px-3 py-2 rounded-lg"
-                  style={{ border: '1px solid var(--border)' }}
+                  className="bordered flex items-center gap-3 px-3 py-2 rounded-lg"
+                  
                 >
                   <span className="w-1.5 h-6 rounded-full shrink-0" style={{ background: hueFor(row.subject) }} />
                   <span className="text-[13px] flex-1 capitalize" style={{ color: 'var(--text-primary)' }}>{row.subject.replace('-', ' ')}</span>
@@ -606,7 +606,7 @@ function ResultsView({
             const unanswered = !(item.id in answers);
             const correct = p === item.answerIndex;
             return (
-              <div key={item.id} className="rounded-lg p-4" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+              <div key={item.id} className="surface rounded-lg p-4">
                 <div className="flex items-start gap-2 mb-2">
                   <span className="font-mono text-[11px] mt-0.5" style={{ color: 'var(--text-muted)' }}>{i + 1}.</span>
                   <p className="text-sm font-medium leading-relaxed flex-1" style={{ color: 'var(--text-primary)' }}>{item.question}</p>

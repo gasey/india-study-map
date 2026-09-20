@@ -48,8 +48,8 @@ export function KanaChart() {
       {mode === 'browse' ? (
         <div className="grid gap-2" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(64px, 1fr))' }}>
           {rows.map((k) => (
-            <div key={k[2] + k[idx]} className="rounded-lg p-2 flex flex-col items-center gap-0.5"
-              style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+            <div key={k[2] + k[idx]} className="surface clb-flat rounded-lg p-2 flex flex-col items-center gap-0.5"
+              >
               <span style={{ fontSize: 26, lineHeight: 1.1, color: 'var(--text-primary)' }}>{k[idx]}</span>
               <span className="text-[11px]" style={{ color: 'var(--text-secondary)' }}>{k[2]}</span>
             </div>

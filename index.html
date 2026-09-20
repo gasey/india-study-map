@@ -22,15 +22,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <script>
+      /* Anti-FOUC: paint the right theme before React mounts.
+         This MUST stay in step with src/lib/applyTheme.ts — it is the same
+         decision, made twice. It reads `skin` as well as `theme`: the
+         collectible skin is light-only, so a persisted theme of 'dark'
+         must NOT win over it. When this script only knew about `theme`, a
+         dark+collectible session painted the ink theme first and the whole
+         rail resolved its colours against it. */
       (function () {
         try {
           var raw = localStorage.getItem('india-study-map');
-          var theme = raw && JSON.parse(raw).state && JSON.parse(raw).state.theme;
-          document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'ink' : 'paper');
+          var state = (raw && JSON.parse(raw).state) || {};
+          var collectible = state.skin === 'collectible';
+          var dark = !collectible && state.theme === 'dark';
+          document.documentElement.classList.toggle('dark', dark);
+          document.documentElement.setAttribute(
+            'data-theme',
+            collectible ? 'collectible' : dark ? 'ink' : 'paper'
+          );
         } catch (e) {
           document.documentElement.setAttribute('data-theme', 'paper');
         }

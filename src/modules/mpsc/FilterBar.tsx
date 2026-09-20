@@ -44,7 +44,7 @@ export function CheckboxGroup({
   return (
     <div className="flex flex-wrap gap-2 text-xs">
       {options.map((o) => (
-        <label key={o.value} className="flex items-center gap-1 px-1.5 py-1 rounded" style={{ border: '1px solid var(--border)' }}>
+        <label key={o.value} className="bordered flex items-center gap-1 px-1.5 py-1 rounded" >
           <input type="checkbox" checked={selected.includes(o.value)} onChange={() => onToggle(o.value)} />
           {o.label}
         </label>
@@ -83,8 +83,8 @@ export function PaginationControls({
         type="button"
         disabled={offset === 0}
         onClick={() => onOffsetChange(Math.max(0, offset - limit))}
-        className="px-2 py-1 rounded disabled:opacity-40"
-        style={{ border: '1px solid var(--border)' }}
+        className="bordered px-2 py-1 rounded disabled:opacity-40"
+        
       >
         ← Prev
       </button>
@@ -93,8 +93,8 @@ export function PaginationControls({
         type="button"
         disabled={count < limit}
         onClick={() => onOffsetChange(offset + limit)}
-        className="px-2 py-1 rounded disabled:opacity-40"
-        style={{ border: '1px solid var(--border)' }}
+        className="bordered px-2 py-1 rounded disabled:opacity-40"
+        
       >
         Next →
       </button>

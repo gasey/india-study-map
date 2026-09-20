@@ -62,7 +62,7 @@ export function UsersTab() {
           {users?.map((u) => {
             const s = statsByUser.get(u.id);
             return (
-              <div key={u.id} className="rounded-lg p-3 flex items-center gap-3 flex-wrap text-sm" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+              <div key={u.id} className="surface rounded-lg p-3 flex items-center gap-3 flex-wrap text-sm">
                 <span className="font-medium" style={{ color: 'var(--text-primary)' }}>{u.displayName ?? u.username}</span>
                 {canAssignRoles ? (
                   <select

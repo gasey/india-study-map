@@ -51,8 +51,7 @@ export function DailyLearningReset() {
 
   return (
     <div
-      className="rounded-2xl p-5 flex flex-col gap-4"
-      style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+      className="surface rounded-2xl p-5 flex flex-col gap-4"
     >
       <div className="flex items-start justify-between gap-3">
         <span className="font-mono text-[10px] tracking-wider uppercase" style={{ color: 'var(--text-muted)' }}>

@@ -57,7 +57,7 @@ export function FlagsTab() {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="rounded-lg p-4 flex flex-col gap-2.5" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+      <div className="surface rounded-lg p-4 flex flex-col gap-2.5">
         <div className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>New flag</div>
         <div className="flex flex-wrap gap-2">
           <input type="text" placeholder="key, e.g. section.python" value={form.key} onChange={(e) => setForm((f) => ({ ...f, key: e.target.value }))} className={`${inputCls} font-mono`} style={inputStyle} />

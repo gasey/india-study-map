@@ -248,14 +248,25 @@
   background: var(--clb-paper);
   box-shadow: 3px 3px 0 var(--ink);
 }
+/* Phone-width variant: tighter box and a 2px rule, so four tabs fit 390px
+   instead of needing a 547px scroll. */
+[data-theme="collectible"] .clb-tab-compact {
+  padding: 6px 9px;
+  border-width: 2px;
+  gap: 6px;
+}
+[data-theme="collectible"] .clb-tab-compact.clb-tab-on {
+  box-shadow: 2px 2px 0 var(--ink);
+}
 
 /* Mobile tab strip — only rendered where the bottom bar can't be the tab
-   switcher (i.e. /map). Same yellow band as the header's. */
+   switcher (i.e. /map). Same yellow band as the header's, with trimmed
+   padding because the map wants every pixel it can get. */
 [data-theme="collectible"] .clb-mobile-tabs {
   background: var(--clb-yellow);
   border-bottom: 3px solid var(--ink);
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   scrollbar-width: none;
 }
 [data-theme="collectible"] .clb-mobile-tabs::-webkit-scrollbar { display: none; }

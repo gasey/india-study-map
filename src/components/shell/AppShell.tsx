@@ -186,10 +186,10 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               the per-page ModuleSwitcher went away. */}
           {isMap && (
             <div className="clb-mobile-tabs flex items-center gap-2 px-4 overflow-x-auto">
-              <CollectibleTabs />
+              <CollectibleTabs compact />
             </div>
           )}
-          <CollectibleSectionHeader />
+          <CollectibleSectionHeader subTabsOnly={isMap} />
         </div>
       )}
       <div className="flex-1 flex overflow-hidden min-h-0">

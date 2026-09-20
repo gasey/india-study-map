@@ -37,7 +37,12 @@
         try {
           var raw = localStorage.getItem('india-study-map');
           var state = (raw && JSON.parse(raw).state) || {};
-          var collectible = state.skin === 'collectible';
+          /* Collectible is the default, so an absent `skin` means
+             collectible — not "default". A stored value still wins, which
+             is how a deliberate switch back survives a reload. Getting the
+             fallback wrong here paints the old theme for one frame before
+             React corrects it. */
+          var collectible = (state.skin || 'collectible') === 'collectible';
           var dark = !collectible && state.theme === 'dark';
           document.documentElement.classList.toggle('dark', dark);
           document.documentElement.setAttribute(

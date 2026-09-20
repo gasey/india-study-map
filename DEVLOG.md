@@ -225,6 +225,22 @@ So the mobile stack is now: section band (mark + title + real badge +
 sub-tabs), the page's own header only where it earns its place, content, and
 the four-tab bottom bar.
 
+**Seventh pass — collectible becomes the default.** Asked for after seeing it
+deployed. Changing the initial value alone would NOT have worked: every
+browser that loaded the app while the skin was opt-in had already stored
+`skin: 'default'`, and zustand/persist rehydrates that straight over a new
+default — so the old shell would have stuck for exactly the people already
+using the app. Hence `version: 1` plus a migration that drops the stored
+`skin` once. `index.html`'s anti-FOUC script needed the same fallback flipped
+(absent skin now means collectible), or a first visit paints the old theme for
+a frame before React corrects it.
+
+Verified all three paths: a browser pinned to v0/`default` migrates; a
+deliberate opt-out via the "Default" button still survives a reload; a
+first-time visitor with empty storage gets collectible from first paint. The
+escape hatch is intentionally kept — this makes the skin the default, not the
+only option.
+
 **What's still open.**
 - Nothing tracked. The frames give each page's band a per-section colour and
   the pages keep their own headers where those carry content — a deliberate

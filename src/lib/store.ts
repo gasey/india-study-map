@@ -299,7 +299,7 @@ export const useApp = create<AppState>()(
   persist(
     (set, get) => ({
       theme: 'light',
-      skin: 'default',
+      skin: 'collectible',
       currentChapterId: chapters[0]?.id ?? '',
       activeLayerIds: initialLayersFor(chapters[0]?.id ?? ''),
       activeBaseLayerIds: baseLayers.filter((l) => l.defaultOn).map((l) => l.id),
@@ -588,6 +588,24 @@ export const useApp = create<AppState>()(
     }),
     {
       name: 'india-study-map',
+      /* Bumped to 1 when collectible became the default skin.
+       *
+       * Changing the initial value alone would not have worked: a browser
+       * that had already stored `skin: 'default'` — which every browser
+       * that loaded the app while the skin was opt-in did — rehydrates
+       * that value straight over the new default, so the old shell would
+       * have persisted for exactly the people already using the app.
+       * This migration drops the stored `skin` once, letting the new
+       * default apply; the toggle still writes a fresh value afterwards,
+       * so a later deliberate switch back is preserved normally. */
+      version: 1,
+      migrate: (persisted, fromVersion) => {
+        if (fromVersion < 1 && persisted && typeof persisted === 'object') {
+          const { skin: _dropped, ...rest } = persisted as Record<string, unknown>;
+          return rest;
+        }
+        return persisted;
+      },
       partialize: (s) => ({
         theme: s.theme,
         skin: s.skin,

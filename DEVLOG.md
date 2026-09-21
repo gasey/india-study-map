@@ -9,6 +9,53 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep: retract the PMGSY claim (my error, caught by the candidate)
+
+**What happened:** the previous entry built a "three centrally-sponsored
+schemes in a row — DILRMP, PMGSY, then MUDAL" narrative off a passing
+mention that his employer works on PMGSY. He corrected it: **PMGSY is the
+firm's work. He has no involvement in it.** He is in the IT division
+building Shiksha, full stop.
+
+I had flagged "confirm your actual PMGSY scope" in the same entry, which
+means I knowingly wrote a load-bearing claim on an unverified assumption
+and hedged it with a warning instead of just not writing it. That is the
+wrong order, and this is the second content error this session (the first
+being AMRUT funding ICCC O&M).
+
+**What shipped — the retraction:**
+
+- `briefs.ts` CMES brief: the ⭐ PMGSY section is now **🚫 "your employer's
+  work, NOT yours. Do not claim it."** Explicit: never say "I have worked on
+  PMGSY"; if a panel hears it as his experience, correct them unprompted.
+  The OMMAS/GRRIS/Geo-PMGSY/e-MARG stack section is gone — it existed only
+  to support the false claim, and keeping it invites the overstatement.
+- New section: "Your actual government-scheme experience is DILRMP — one
+  scheme, and that is fine." One scheme described with real detail beats
+  three named, and DILRMP is the *right* one for MUDAL anyway (GIS, spatial
+  databases, records digitisation, multi-district consolidation).
+- `briefs.ts` correlation brief: Bridge 4 reverted to DILRMP-only, with a
+  ⚠️ against inflating one scheme into three. Bridge 4b (the OMMAS↔UD&PA
+  MIS parallel) deleted entirely.
+- `questions.ts`: the "three schemes in a row" continuity line replaced
+  with an accurate one; the employer question now frames PMGSY as firm
+  context with a warning attached.
+
+**Verified:** `tsc --noEmit` clean, and grepped for surviving over-claims
+("three centrally-sponsored", "PMGSY at my current firm", etc.) — none.
+
+**The lesson worth keeping:** in interview-prep content specifically, an
+unverified claim is worse than a missing one. A modest true CV survives
+probing; an inflated one collapses at the first follow-up, and the
+collapse costs more than the claim ever gained.
+
+**What's still open:** unchanged — CMES join date, B.E. aggregate, HSSLC /
+HSLC percentages, category, PIN, certificate names, Chanmari AMC ward and
+Local Council President. The PMGSY-scope item is now **closed**: scope is
+zero.
+
+---
+
 ## 2026-09-21 — Interview Prep: PMGSY, and the narrative it unlocks
 
 **What shipped:** the candidate mentioned in passing that CM Engineering &

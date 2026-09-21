@@ -9,6 +9,68 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep: a visual study guide for the extraction pipeline
+
+**What shipped:** `public/pipeline-guide/index.html` — a single self-contained
+static page (~133 KB, no build step, no external requests, works over `file://`)
+served at `/pipeline-guide/`. Nine sections: the two-generation story, a
+clickable pipeline map, web-scraping concepts, the PDF/OCR toolchain, ~20 Python
+concept cards, image/geometry concepts, where AI is and isn't used, a
+"failure museum" of ten real bugs, and a flashcard interview drill with
+`localStorage` progress.
+
+**Why:** the pipeline's reasoning is currently spread across a dozen module
+docstrings, `tools/bank-rebuild/README.md`, and this DEVLOG. That is fine for
+someone already holding the context and useless for revision. The guide is a
+teaching layer over code that already exists — it adds no behaviour and nothing
+imports it.
+
+**Two conventions it follows, deliberately:**
+
+* Every code block is labelled with a real `path:line`, and the quotes are
+  verbatim. I verified this mechanically rather than by eye: 48 of 48 blocks
+  probe-matched their cited source file (3 of them only after normalising line
+  wraps inside elided docstrings). Cross-repo citations are qualified
+  `../mpsc-question-bank/tools/...` so they don't read as in-repo paths.
+* Where a snippet is a teaching illustration rather than repo code, the label
+  says **"illustrative, not from the repo"**. Guide code that looks like
+  pipeline code but isn't would be exactly the kind of quiet falsehood the
+  rest of this project exists to prevent.
+
+**One real bug found and fixed during browser verification:** `.shell` sets
+`align-items:flex-start` so the sidebar stays top-aligned in row mode. When the
+`max-width:880px` media query flips it to `flex-direction:column`, that same
+property starts governing *width*, so `main` sized to fit-content and clamped at
+its `max-width:900px` — the whole page scrolled sideways on any viewport under
+900px. Fixed by setting `align-items:stretch` in the media query. Worth
+remembering as a general trap: **every `align-items` value silently changes
+meaning when `flex-direction` changes**, so any rule that flips direction in a
+media query has to revisit its alignment. Also fixed a dead in-page anchor
+(`#failure-ts2590` had no target) and an imprecise `line 42/128` citation.
+
+**Verified in the browser** (`python3 -m http.server --directory public`, then
+`/pipeline-guide/`): no console output, zero external network requests, no
+horizontal page overflow, all 51 `<pre>` blocks scroll inside their own
+container, all 3 tables wrapped, all 9 nav anchors resolve, scroll-spy updates
+the active nav item, theme toggle cycles auto→light→dark and persists, and
+flashcard progress persists. All four diagrams render with real data — the
+coverage histogram carries the actual `0.204` / `0.436` thresholds from the
+SI Statistics Paper II case.
+
+**What's still open:**
+
+* Not linked from anywhere in the app. It is reachable only by typing the URL.
+  That is intentional for now — it is study material, not a product surface —
+  but if it should appear in the nav, that is a deliberate decision to make.
+* Content is a **snapshot**. Nothing regenerates it, so if `parse_native.py` or
+  `extract.py` changes, the quoted line numbers drift silently. The verification
+  script in this session's transcript (probe the longest line of each block
+  against its cited file) is worth keeping as a CI check if the guide is going
+  to be maintained rather than read once.
+* The Gen-1 scraper/LLM material is summarised from `mpsc-question-bank`'s
+  README and source; that repo's own numbers were measured 2026-08-19 and have
+  not been re-verified since.
+
 ## 2026-09-21 — Interview Prep: retract the PMGSY claim (my error, caught by the candidate)
 
 **What happened:** the previous entry built a "three centrally-sponsored

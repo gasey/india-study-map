@@ -1,0 +1,1661 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MPSC Pipeline — Interview Study Guide</title>
+<style>
+/* ============================== THEME ============================== */
+:root{
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  --bg:#fbfbfd; --bg-elevated:#ffffff; --bg-sidebar:#f2f3f6; --bg-hover:#eef0f5;
+  --fg:#1a1d23; --fg-muted:#5b6270; --fg-faint:#8a909c;
+  --border:#e2e5eb; --border-strong:#c9ced8;
+  --accent:#2f5fda; --accent-fg:#ffffff; --accent-soft:#e8edfc;
+  --ok:#1a7f4e; --ok-soft:#e4f5ec;
+  --warn:#a3690a; --warn-soft:#fbf0dd;
+  --bad:#b3261e; --bad-soft:#fbe9e7;
+  --ai:#7a3fc4; --ai-soft:#f1e9fb;
+
+  --code-bg:#f6f7f9; --code-border:#e2e5eb; --code-fg:#24292e;
+  --tok-kw:#a626a4; --tok-str:#50a14f; --tok-com:#9199a6; --tok-num:#986801;
+  --tok-fn:#4078f2; --tok-bi:#0184bc; --tok-dec:#c18401;
+
+  --shadow: 0 1px 3px rgba(20,22,30,.08), 0 1px 2px rgba(20,22,30,.06);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1015; --bg-elevated:#151822; --bg-sidebar:#10121a; --bg-hover:#1c2030;
+    --fg:#e4e6eb; --fg-muted:#9aa0ac; --fg-faint:#6b7280;
+    --border:#262a35; --border-strong:#333847;
+    --accent:#7ea1ff; --accent-fg:#0b0d12; --accent-soft:#1c2540;
+    --ok:#4fd694; --ok-soft:#12291f;
+    --warn:#e5ab52; --warn-soft:#2c2110;
+    --bad:#ff7a72; --bad-soft:#2c1616;
+    --ai:#c294f2; --ai-soft:#241a34;
+    --code-bg:#0e1117; --code-border:#232733; --code-fg:#d3d7de;
+    --tok-kw:#c678dd; --tok-str:#98c379; --tok-com:#7f8695; --tok-num:#d19a66;
+    --tok-fn:#61afef; --tok-bi:#56b6c2; --tok-dec:#e5c07b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e1015; --bg-elevated:#151822; --bg-sidebar:#10121a; --bg-hover:#1c2030;
+  --fg:#e4e6eb; --fg-muted:#9aa0ac; --fg-faint:#6b7280;
+  --border:#262a35; --border-strong:#333847;
+  --accent:#7ea1ff; --accent-fg:#0b0d12; --accent-soft:#1c2540;
+  --ok:#4fd694; --ok-soft:#12291f;
+  --warn:#e5ab52; --warn-soft:#2c2110;
+  --bad:#ff7a72; --bad-soft:#2c1616;
+  --ai:#c294f2; --ai-soft:#241a34;
+  --code-bg:#0e1117; --code-border:#232733; --code-fg:#d3d7de;
+  --tok-kw:#c678dd; --tok-str:#98c379; --tok-com:#7f8695; --tok-num:#d19a66;
+  --tok-fn:#61afef; --tok-bi:#56b6c2; --tok-dec:#e5c07b;
+  color-scheme: dark;
+}
+:root[data-theme="light"]{ color-scheme: light; }
+
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+body{
+  margin:0; background:var(--bg); color:var(--fg); font-family:var(--font-sans);
+  font-size:16px; line-height:1.6; overflow-x:hidden;
+}
+a{ color:var(--accent); }
+h1,h2,h3,h4{ line-height:1.25; font-weight:700; }
+p{ margin:0.7em 0; }
+code{ font-family:var(--font-mono); font-size:0.92em; }
+
+/* ============================== LAYOUT ============================== */
+#progress{
+  position:fixed; top:0; left:0; height:3px; background:var(--accent); z-index:200;
+  width:0%; transition:width .1s linear;
+}
+.topbar{
+  position:sticky; top:0; z-index:100; display:flex; align-items:center; gap:.75rem;
+  padding:.6rem 1rem; background:var(--bg-elevated); border-bottom:1px solid var(--border);
+}
+.topbar .brand{ font-weight:800; font-size:1rem; white-space:nowrap; }
+.topbar .brand small{ display:block; font-weight:500; color:var(--fg-muted); font-size:.72rem; }
+.topbar .spacer{ flex:1; }
+.theme-toggle{
+  border:1px solid var(--border-strong); background:var(--bg); color:var(--fg);
+  border-radius:999px; padding:.4rem .8rem; font-size:.85rem; cursor:pointer;
+  display:flex; align-items:center; gap:.4rem;
+}
+.theme-toggle:hover{ background:var(--bg-hover); }
+
+.shell{ display:flex; align-items:flex-start; max-width:1400px; margin:0 auto; }
+
+nav.sidenav{
+  position:sticky; top:53px; align-self:flex-start; width:270px; flex:none;
+  max-height:calc(100vh - 53px); overflow-y:auto; background:var(--bg-sidebar);
+  border-right:1px solid var(--border); padding:1rem .75rem 3rem;
+}
+nav.sidenav .navgroup{ margin-bottom:.25rem; }
+nav.sidenav a{
+  display:flex; align-items:center; gap:.55rem; text-decoration:none; color:var(--fg);
+  padding:.45rem .6rem; border-radius:8px; font-size:.88rem; margin:.05rem 0;
+}
+nav.sidenav a .num{
+  display:inline-flex; align-items:center; justify-content:center; width:1.4em; height:1.4em;
+  border-radius:50%; background:var(--bg-elevated); border:1px solid var(--border-strong);
+  font-size:.72em; font-weight:700; color:var(--fg-muted); flex:none;
+}
+nav.sidenav a:hover{ background:var(--bg-hover); }
+nav.sidenav a.active{ background:var(--accent-soft); color:var(--accent); font-weight:700; }
+nav.sidenav a.active .num{ background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
+nav.sidenav .navfoot{ margin-top:1rem; padding:.75rem .6rem 0; border-top:1px solid var(--border); font-size:.76rem; color:var(--fg-faint); }
+
+main{ flex:1; min-width:0; padding:1.5rem 2.2rem 8rem; max-width:900px; }
+
+@media (max-width: 880px){
+  /* align-items:flex-start is what keeps the sidebar top-aligned in row mode,
+     but once the shell flips to a column that same property governs WIDTH --
+     so main sized to fit-content (capped at its 900px max-width) and the whole
+     page scrolled sideways on any viewport under 900px. Stretch explicitly. */
+  .shell{ flex-direction:column; align-items:stretch; }
+  nav.sidenav{
+    position:sticky; top:53px; width:100%; max-height:none; height:auto;
+    display:flex; overflow-x:auto; overflow-y:hidden; white-space:nowrap; padding:.5rem;
+    border-right:none; border-bottom:1px solid var(--border); z-index:90;
+  }
+  nav.sidenav .navgroup{ display:contents; }
+  nav.sidenav a{ flex:none; margin-right:.3rem; }
+  nav.sidenav .navfoot{ display:none; }
+  main{ padding:1.2rem 1rem 6rem; }
+}
+
+section.chapter{ padding-top:1.2rem; margin-bottom:3rem; border-bottom:1px dashed var(--border); }
+section.chapter:last-of-type{ border-bottom:none; }
+.kicker{ color:var(--accent); font-weight:700; letter-spacing:.04em; text-transform:uppercase; font-size:.75rem; margin-bottom:.3rem; }
+.chapter h2{ font-size:1.7rem; margin:0 0 .6rem; }
+.lede{ font-size:1.06rem; color:var(--fg-muted); margin-bottom:1.4rem; }
+
+/* ============================== WIDGETS ============================== */
+.card{
+  background:var(--bg-elevated); border:1px solid var(--border); border-radius:12px;
+  padding:1.1rem 1.3rem; margin:1.1rem 0; box-shadow:var(--shadow);
+}
+.card h3{ margin-top:0; font-size:1.08rem; }
+.card h4{ font-size: .95rem; margin: 1rem 0 .3rem; color:var(--fg-muted); text-transform:uppercase; letter-spacing:.03em; font-weight:700;}
+
+.grid2{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+@media (max-width:700px){ .grid2{ grid-template-columns:1fr; } }
+
+.badge{ display:inline-flex; align-items:center; gap:.3rem; font-size:.72rem; font-weight:700; padding:.15rem .55rem; border-radius:999px; }
+.badge.free{ background:var(--ok-soft); color:var(--ok); }
+.badge.ai{ background:var(--ai-soft); color:var(--ai); }
+.badge.mixed{ background:var(--warn-soft); color:var(--warn); }
+
+table{ border-collapse:collapse; width:100%; font-size:.9rem; }
+th,td{ border:1px solid var(--border); padding:.5rem .6rem; text-align:left; vertical-align:top; }
+th{ background:var(--bg-sidebar); font-weight:700; }
+.table-wrap{ overflow-x:auto; margin:1rem 0; border-radius:8px; }
+.table-wrap table{ min-width:480px; }
+
+.figure-caption{ font-size:.82rem; color:var(--fg-muted); text-align:center; margin-top:.4rem; }
+svg.diagram{ width:100%; height:auto; display:block; }
+.diagram-wrap{ background:var(--bg-elevated); border:1px solid var(--border); border-radius:12px; padding:1rem; overflow-x:auto; }
+
+/* code blocks */
+figure.code-block{ margin:1rem 0; border:1px solid var(--code-border); border-radius:10px; overflow:hidden; }
+figure.code-block figcaption{
+  display:flex; gap:.5rem; align-items:baseline; background:var(--bg-sidebar);
+  border-bottom:1px solid var(--code-border); padding:.4rem .8rem; font-size:.76rem;
+  font-family:var(--font-mono); color:var(--fg-muted);
+}
+figure.code-block figcaption .file{ color:var(--fg); font-weight:700; }
+figure.code-block figcaption .why{ margin-left:auto; font-family:var(--font-sans); font-style:italic; color:var(--fg-faint); }
+pre.code{ margin:0; padding:.85rem 1rem; overflow-x:auto; background:var(--code-bg); color:var(--code-fg); }
+pre.code code{ white-space:pre; }
+.tok-kw{ color:var(--tok-kw); font-weight:600; }
+.tok-str{ color:var(--tok-str); }
+.tok-com{ color:var(--tok-com); font-style:italic; }
+.tok-num{ color:var(--tok-num); }
+.tok-fn{ color:var(--tok-fn); }
+.tok-bi{ color:var(--tok-bi); }
+.tok-dec{ color:var(--tok-dec); }
+
+.why-box{
+  margin-top:.6rem; padding:.6rem .8rem; background:var(--accent-soft); border-left:3px solid var(--accent);
+  border-radius:0 8px 8px 0; font-size:.92rem;
+}
+.why-box b{ color:var(--accent); }
+
+/* pipeline map */
+.pipeline{ display:flex; flex-wrap:wrap; align-items:stretch; gap:0; }
+.pipe-stage{
+  display:flex; flex-direction:column; gap:.3rem; text-decoration:none; color:var(--fg);
+  background:var(--bg-elevated); border:1px solid var(--border); border-radius:10px;
+  padding:.7rem .85rem; min-width:135px; flex:1 1 135px; position:relative;
+}
+.pipe-stage:hover{ border-color:var(--accent); background:var(--accent-soft); }
+.pipe-stage .t{ font-weight:700; font-size:.88rem; }
+.pipe-stage .d{ font-size:.74rem; color:var(--fg-muted); }
+.pipe-arrow{ display:flex; align-items:center; justify-content:center; padding:0 .3rem; color:var(--fg-faint); font-size:1.1rem; flex:none; }
+@media (max-width:700px){ .pipeline{ flex-direction:column; } .pipe-arrow{ transform:rotate(90deg); padding:.2rem 0; } }
+
+/* flashcards */
+details.flash{
+  background:var(--bg-elevated); border:1px solid var(--border); border-radius:10px;
+  padding:.7rem 1rem; margin:.7rem 0; cursor:pointer;
+}
+details.flash[open]{ border-color:var(--accent); }
+details.flash summary{ font-weight:700; list-style:none; display:flex; align-items:center; gap:.5rem; }
+details.flash summary::-webkit-details-marker{ display:none; }
+details.flash summary::before{ content:"▸"; color:var(--accent); transition:transform .15s; }
+details.flash[open] summary::before{ transform:rotate(90deg); }
+details.flash .answer{ margin-top:.6rem; padding-top:.6rem; border-top:1px dashed var(--border); font-size:.94rem; }
+details.flash .seen-badge{ margin-left:auto; font-size:.7rem; color:var(--ok); font-weight:700; }
+#drill-progress{ font-size:.85rem; color:var(--fg-muted); margin-bottom:.5rem; }
+
+.note{ font-size:.85rem; color:var(--fg-faint); }
+ul.tight li{ margin:.25rem 0; }
+.mono{ font-family:var(--font-mono); font-size:.9em; }
+.hl{ background:var(--warn-soft); padding:0 .2em; border-radius:3px; }
+.small-caps{ font-variant:small-caps; }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<header class="topbar">
+  <div class="brand">MPSC Pipeline<small>Interview study guide — built from the real code</small></div>
+  <div class="spacer"></div>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌓 <span id="themeLabel">Auto</span></button>
+</header>
+
+<div class="shell">
+<nav class="sidenav" id="sidenav">
+  <div class="navgroup">
+    <a href="#s0"><span class="num">0</span> Orientation</a>
+    <a href="#s1"><span class="num">1</span> Pipeline map</a>
+    <a href="#s2"><span class="num">2</span> Getting the PDFs</a>
+    <a href="#s3"><span class="num">3</span> The PDF toolchain</a>
+    <a href="#s4"><span class="num">4</span> Python concepts</a>
+    <a href="#s5"><span class="num">5</span> Image &amp; geometry</a>
+    <a href="#s6"><span class="num">6</span> Where AI is used</a>
+    <a href="#s7"><span class="num">7</span> Failure museum</a>
+    <a href="#s8"><span class="num">8</span> Interview drill</a>
+  </div>
+  <div class="navfoot">Reading progress is saved automatically. Click any pipeline stage in §1 to jump straight to the concept behind it.</div>
+</nav>
+
+<main>
+
+<!-- ================================================================ -->
+<section class="chapter" id="s0">
+<div class="kicker">0 · Orientation</div>
+<h2>Two generations, one thesis</h2>
+<p class="lede">Everything in this repo's <code>tools/</code> exists because the first attempt at building an MPSC question bank was fast, cheap to write, and quietly wrong. The second attempt is slower to write and almost boring to run — and that's the point.</p>
+
+<div class="grid2">
+  <div class="card">
+    <h3>Gen 1 — <span class="mono">mpsc-question-bank</span></h3>
+    <p><b>Shape:</b> crawl the whole site, throw every PDF at an LLM, ship whatever comes back.</p>
+    <ul class="tight">
+      <li>3,715 source PDFs scraped from <span class="mono">mpsc.mizoram.gov.in</span></li>
+      <li>77,751 questions extracted (69,778 MCQ, 7,973 descriptive) via <span class="mono">mpsc_extract_with_oauth.py</span></li>
+      <li><b>11,458 MCQ shipped with <span class="mono">answerIndex: -1</span></b> — no resolved answer at all</li>
+      <li>Of 3,997 disputed answers reviewed, only 13 traced to a real answer key; 3,660 were model-inferred guesses</li>
+      <li>A separate, earlier OCR pipeline that fed the <span class="mono">mpsc-state-tax-officer</span> bank <b>silently dropped ~280 questions</b> across five sittings — multi-column pages mis-split, one option field swallowing the next several questions whole, with <b>no numbering gap</b> to reveal it because ids were re-indexed <span class="mono">q001…qN</span> per paper</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Gen 2 — <span class="mono">india-study-map/tools</span></h3>
+    <p><b>Shape:</b> read the text layer directly wherever one exists, escalate to OCR or vision only when measurement proves it's necessary, and verify every output against the source.</p>
+    <ul class="tight">
+      <li>Narrow, deterministic parsers per sitting (<span class="mono">parse2025.py</span>, <span class="mono">parse_native.py</span>) — no OCR, no model, when a text layer exists</li>
+      <li><b>1,092 of 1,100 option orders verified against the source PDF, 0 mismatches</b> (<span class="mono">validate.py</span>) — the other 8 are figure-based with no text options to check</li>
+      <li><span class="mono">apply.py</span> refuses to write the generated <span class="mono">.ts</span> file at all if any invariant fails</li>
+      <li>AI is used deliberately and narrowly: solving genuinely unkeyed questions, tagging to a syllabus taxonomy, classifying study mode — always behind an export/validate sandwich, never as the extractor itself</li>
+    </ul>
+  </div>
+</div>
+
+<div class="why-box">
+<b>The thesis this whole guide is organized around:</b> the model was removed from the extraction step because extraction never needed judgement. Reading a PDF's own text layer, splitting it into questions, and matching option markers is a deterministic string problem — regex and a state machine solve it exactly, every time, byte-for-byte reproducibly. The places AI stayed (§6) are the places that genuinely require judgement: answering a question with no key, deciding which syllabus leaf a question belongs to, guessing how an unmarked question should be studied. Every AI step in Gen 2 is wrapped in something that checks its work; no step in Gen 1 was.
+</div>
+</section>
+
+<!-- ================================================================ -->
+<section class="chapter" id="s1">
+<div class="kicker">1 · The pipeline map</div>
+<h2>One shape, many scripts</h2>
+<p class="lede">This is the general shape both generations' tooling take, end to end. 🟢 marks a token-free, deterministic stage; 🤖 marks a stage that calls a model (always behind a check). Click any stage to jump to the section that explains it.</p>
+
+<div class="pipeline" id="pipelineMap">
+  <a class="pipe-stage" href="#s2"><span class="t">MPSC website</span><span class="d">the only ground truth</span></a>
+  <span class="pipe-arrow">→</span>
+  <a class="pipe-stage" href="#s2"><span class="t">Scrape <span class="badge free">🟢</span></span><span class="d"><span class="mono">mpsc_pdf_scraper*.py</span></span></a>
+  <span class="pipe-arrow">→</span>
+  <a class="pipe-stage" href="#s6"><span class="t">Classify <span class="badge free">🟢</span></span><span class="d">regex gate before any spend</span></a>
+  <span class="pipe-arrow">→</span>
+  <a class="pipe-stage" href="#s3"><span class="t">Route by type <span class="badge free">🟢</span></span><span class="d">digital PDF / scan / HTML</span></a>
+  <span class="pipe-arrow">→</span>
+  <a class="pipe-stage" href="#concept-fsm"><span class="t">Extract <span class="badge mixed">🟢/🤖</span></span><span class="d">FSM parse, or vision if evidence-gated</span></a>
+  <span class="pipe-arrow">→</span>
+  <a class="pipe-stage" href="#concept-twopointer"><span class="t">Validate <span class="badge free">🟢</span></span><span class="d">order check against source PDF</span></a>
+  <span class="pipe-arrow">→</span>
+  <a class="pipe-stage" href="#concept-sandwich"><span class="t">Merge <span class="badge mixed">🟢/🤖</span></span><span class="d">text-keyed carry-over, blind solve</span></a>
+  <span class="pipe-arrow">→</span>
+  <a class="pipe-stage" href="#failure-ts2590"><span class="t">Codegen <span class="badge free">🟢</span></span><span class="d">invariant gate, then <span class="mono">.ts</span></span></a>
+</div>
+<p class="note">Not every script implements every stage — <span class="mono">tools/bank-rebuild/</span> (india-study-map) owns extract→validate→merge→codegen for the sittings it covers; <span class="mono">mpsc-question-bank/tools/</span> owns scrape→classify→extract for the full 3,715-PDF corpus. The shape is shared; the discipline is not.</p>
+</section>
+
+<!-- ================================================================ -->
+<section class="chapter" id="s2">
+<div class="kicker">2 · Getting the PDFs</div>
+<h2>Web scraping concepts</h2>
+<p class="lede">Two scrapers exist in <span class="mono">mpsc-question-bank/tools/</span>, and the second one exists because the first one's core assumption — that crawling finds structure — was wrong for this particular site.</p>
+
+<div class="card">
+<h3>BFS with a work queue, and why it failed here</h3>
+<p><span class="mono">mpsc_pdf_scraper.py</span> keeps a plain list as its frontier and pops from the front:</p>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_pdf_scraper.py</span>:96–101</figcaption>
+<pre class="code" data-lang="python"><code>to_visit = [BASE_URL]
+visited = set()
+pdfs = {}  # url -&gt; {"title": ..., "source": ...}
+
+while to_visit and len(visited) &lt; MAX_PAGES:
+    url = to_visit.pop(0)</code></pre>
+</figure>
+<p><span class="mono">list.pop(0)</span> removes and returns the <i>first</i> element — combined with <span class="mono">to_visit.append(link)</span> further down, this makes <span class="mono">to_visit</span> a FIFO queue: pages are visited in the order they were discovered, one full "ring" of the site at a time, which is exactly what breadth-first search means. (It's an O(n) pop on a Python list, which is fine at a few thousand pages and would matter at a few million — see §8 for the general version of that lesson.)</p>
+<p>BFS is the right algorithm for finding <i>everything</i> reachable from a start page. It is the wrong algorithm when the site has no locality — and this one doesn't:</p>
+<div class="why-box"><b>Why BFS failed here:</b> every page on <span class="mono">mpsc.mizoram.gov.in</span> shares the same global navigation menu, so a BFS crawl starting from any single page eventually visits the entire site regardless of where it started — there's no such thing as "the pages near old question papers." The rewrite (<span class="mono">mpsc_pdf_scraper_examination.py</span>) throws BFS away entirely and visits a fixed, hand-curated list of category pages instead.</div>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_pdf_scraper_examination.py</span>:4–9</figcaption>
+<pre class="code" data-lang="python"><code>"""
+Unlike the full-site version, this does NOT do a breadth-first crawl of the
+whole site (every page shares the same global nav menu, so a naive BFS from
+any page ends up crawling the entire site regardless of where it starts).
+
+Instead it visits only the fixed list of "Examination" category pages
+"""</code></pre>
+</figure>
+</div>
+
+<div class="card">
+<h3>URL hygiene: <span class="mono">urljoin</span>, fragment stripping, domain guards, Content-Type</h3>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_pdf_scraper.py</span>:117–124</figcaption>
+<pre class="code" data-lang="python"><code>for a in soup.find_all("a", href=True):
+    link = urljoin(url, a["href"]).split("#")[0]
+    if urlparse(link).netloc not in ("", DOMAIN):
+        continue
+    if link.lower().endswith(".pdf"):
+        if link not in pdfs:
+            pdfs[link] = {"title": a.get_text(" ", strip=True), "source": url}
+    elif link not in visited and link not in to_visit:
+        to_visit.append(link)</code></pre>
+</figure>
+<ul class="tight">
+<li><b><span class="mono">urljoin(url, href)</span></b> resolves a relative link (<span class="mono">"../foo.pdf"</span>, <span class="mono">"/page/x"</span>) against the page it was found on into an absolute URL. Without it, half the links on any real site are unusable.</li>
+<li><b><span class="mono">.split("#")[0]</span></b> strips the fragment (<span class="mono">#section-2</span>). Two URLs differing only by fragment are the same page/file — leaving fragments in would make <span class="mono">visited</span> and <span class="mono">pdfs</span> think they're different resources and re-crawl or re-download for no reason.</li>
+<li><b>The domain guard</b> (<span class="mono">urlparse(link).netloc not in ("", DOMAIN)</span>) keeps the crawl from wandering off-site the moment a page links to, say, a government portal or a social-media share link.</li>
+<li><b>Content-Type check</b> — before even parsing a page for links, the crawler confirms it got HTML back: <span class="mono">if "text/html" not in resp.headers.get("Content-Type", ""): continue</span> (line 113). Without it, a PDF or image response would be handed to BeautifulSoup and either crash or silently parse garbage.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Politeness, idempotence, and safe filenames</h3>
+<ul class="tight">
+<li><b>Politeness delay</b> — <span class="mono">time.sleep(DELAY)</span> with <span class="mono">DELAY = 1.0</span> between every request (<span class="mono">mpsc_pdf_scraper.py:42</span>, <span class="mono">mpsc_pdf_scraper_examination.py:39</span>). One second of courtesy costs nothing against a few thousand pages and is the difference between "polite crawler" and "getting IP-banned by a government server."</li>
+<li><b>Idempotent re-runs</b> — before downloading, the scraper checks <span class="mono">if os.path.exists(path)</span> and skips (lines 144–147). Re-running the whole script after a crash or a network blip costs nothing for files already on disk.</li>
+<li><b>Path-traversal-safe filenames</b> — link text becomes a filename, and link text is untrusted input. <span class="mono">clean_title()</span> strips exactly the characters that would let a title escape its directory or corrupt a path:</li>
+</ul>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_pdf_scraper.py</span>:73–79</figcaption>
+<pre class="code" data-lang="python"><code>def clean_title(title: str, url: str) -&gt; str:
+    """Make a readable, filesystem-safe filename from the link text."""
+    name = title.strip() or unquote(urlparse(url).path.split("/")[-1])
+    name = re.sub(r"\.pdf$", "", name, flags=re.I)
+    name = re.sub(r'[&lt;&gt;:"/\\|?*\n\r\t]', " ", name)   # strip illegal chars
+    name = re.sub(r"\s+", " ", name).strip()
+    return (name[:150] or "untitled") + ".pdf"        # keep paths short</code></pre>
+</figure>
+<p>Stripping <span class="mono">/</span> and <span class="mono">\</span> specifically matters: without a path separator in the string, a malicious or merely weird title like <span class="mono">"../../etc/passwd"</span> can't turn into a directory traversal — it becomes one harmless space-separated filename instead.</p>
+</div>
+
+<div class="card">
+<h3>Provenance-based categorisation</h3>
+<p>Every general category (<span class="mono">Answer_Keys</span>, <span class="mono">Results</span>, ...) is matched by keyword against the link's title and filename. Old question papers can't be, because their titles carry no keyword at all — <span class="mono">"Forestry Paper-I"</span> says nothing about being an old exam paper. So they're routed by <b>which page they were found on</b> instead:</p>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_pdf_scraper_examination.py</span>:60–72</figcaption>
+<pre class="code" data-lang="python"><code># Old-question-paper category pages route straight to Old_Questions/&lt;track&gt;_&lt;years&gt;/
+# by source page (their titles are just subject/paper names, e.g. "Forestry Paper-I",
+# with no keyword that CATEGORIES could match on).
+OLD_QUESTION_FOLDERS = {
+    "/page/Old Question Paper-17-08-21-17-08-22": "Old_Questions/Direct_2014-2018",
+    "/page/2019":                                  "Old_Questions/Direct_2019-2020",
+    "/page/2020-2021":                             "Old_Questions/Direct_2020-2021",
+    "/page/old-question-2021-2022":                "Old_Questions/Direct_2021-2022",
+    ...
+}</code></pre>
+</figure>
+<div class="why-box"><b>Why this matters:</b> this is the same principle that later bites the scraper in §7's failure museum — when the identifying information lives in the <i>context</i> a document appears in rather than in the document's own name, any pipeline that only ever looks at the name/title is guaranteed to misfile something. Here the fix was applied proactively; in the Computer Operator case (§7) it wasn't, and cost real coverage.</div>
+</div>
+</section>
+
+<!-- ================================================================ -->
+<section class="chapter" id="s3">
+<div class="kicker">3 · The PDF toolchain</div>
+<h2>pdftotext, pdftoppm, pdfminer, tesseract</h2>
+<p class="lede">Four tools, four different jobs. Knowing which one a given PDF needs — and proving it with a measurement instead of guessing — is most of what "PDF extraction" turns out to mean in practice.</p>
+
+<div class="card">
+<h3><span class="mono">pdftotext</span> — reading the text layer</h3>
+<p>A "text layer" is the actual sequence of Unicode characters, with positions, that the PDF's content stream draws as glyphs — as opposed to a bitmap image of what text looks like. Every PDF produced by a word processor or LaTeX has one; every PDF made by scanning a printed page does not (it's a photograph, however page-shaped). <span class="mono">pdftotext</span> (part of poppler-utils) reads that layer directly — no OCR, no guessing, exact.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/validate.py</span>:109–111</figcaption>
+<pre class="code" data-lang="python"><code>def pdf_text(path):
+    return subprocess.run(["pdftotext", "-layout", path, "-"],
+                          capture_output=True, text=True, check=True).stdout</code></pre>
+</figure>
+<p><span class="mono">-layout</span> tells <span class="mono">pdftotext</span> to try to preserve the visual layout (columns, whitespace, alignment) rather than emitting a raw reading-order stream. It's the right choice for a single-column exam paper — and the <i>wrong</i> choice for a two-column options layout, which is exactly why <span class="mono">practice-hub-build/extract.py</span> abandons it for pdfminer (see below). The trailing <span class="mono">"-"</span> tells poppler to write to stdout instead of a file, which is what lets <span class="mono">subprocess.run(capture_output=True)</span> capture it directly.</p>
+</div>
+
+<div class="card">
+<h3><span class="mono">pdftoppm -r &lt;dpi&gt; -png</span> — rasterising to images</h3>
+<p>When there's no text layer to read (a scan) or you need to <i>see</i> something the text layer can't represent (a highlight, a diagram), you render the page to a bitmap. DPI (dots per inch) sets how many pixels represent each inch of the physical page — 150dpi is legible for OCR on a clean scan; 400dpi is what a 1-bit fax-compressed scan needs before its glyphs are recoverable at all.</p>
+<div class="table-wrap"><table>
+<tr><th>Call</th><th>DPI</th><th>Why</th></tr>
+<tr><td class="mono">system-manager-build/render_pages.py</td><td>400 (200 for clean scans)</td><td>1-bit CCITTFax faxes need the extra resolution; a clean greyscale scan doesn't</td></tr>
+<tr><td class="mono">practice-hub-build/extract.py</td><td>150</td><td>only needs to resolve a filled rectangle's colour, not fine glyph detail</td></tr>
+<tr><td class="mono">mpsc_ocr.py</td><td>200 (default)</td><td>general-purpose OCR sidecar generation across the whole corpus</td></tr>
+</table></div>
+<figure class="code-block">
+<figcaption><span class="file">tools/system-manager-build/render_pages.py</span>:116–117</figcaption>
+<pre class="code" data-lang="python"><code>subprocess.run(["pdftoppm", "-r", str(dpi), "-gray", "-png", src, prefix],
+               stderr=subprocess.DEVNULL, check=True)</code></pre>
+</figure>
+</div>
+
+<div class="card">
+<h3><span class="mono">pdfminer</span> — per-character coordinates</h3>
+<p><span class="mono">pdftotext -layout</span> reconstructs a 2-D page into a 1-D stream of lines by guessing at columns from whitespace gaps — a heuristic that works until it doesn't. <span class="mono">practice-hub-build/extract.py</span> needs exact per-character x/y coordinates because its source booklets set MCQ options in two columns, and <span class="mono">-layout</span>'s column reconstruction interleaves them ambiguously:</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:5–10</figcaption>
+<pre class="code" data-lang="python"><code>* **Structure** (question numbers, stems, options, parts) comes from the text
+  layer via pdfminer, which gives per-character coordinates. `pdftotext -layout`
+  is not usable here: these booklets set options in two columns, and the layout
+  reconstruction interleaves them in ways that are ambiguous to re-split.</code></pre>
+</figure>
+<p>With coordinates in hand, the script builds its own line grouping by clustering characters on shared baselines (<span class="mono">build_lines()</span>, §5), which is a strictly more powerful and controllable approach than trusting poppler's guess — at the cost of writing that grouping logic yourself.</p>
+</div>
+
+<div class="card">
+<h3><span class="mono">tesseract</span> — what OCR actually does, and its page-segmentation modes</h3>
+<p>OCR (optical character recognition) takes a bitmap and predicts which characters it depicts — it is fundamentally a guess, informed by a trained model of glyph shapes, not a lookup. That's the whole reason a text layer is preferable whenever one exists: it's ground truth, not a prediction.</p>
+<p><span class="mono">--psm N</span> (page segmentation mode) tells tesseract what kind of layout to expect before it even starts recognising characters — get this wrong and it segments correctly-shaped text into nonsense regions.</p>
+<div class="table-wrap"><table>
+<tr><th>psm</th><th>Meaning</th><th>Where it showed up here</th></tr>
+<tr><td class="mono">3</td><td>Fully automatic page segmentation (default)</td><td>Computer Operator scans: 58/75 questions found</td></tr>
+<tr><td class="mono">4</td><td>Assume a single column of text of variable sizes</td><td>detaches question numbers into a gutter column — actively wrong for numbered exam questions (§5, geometric key reading)</td></tr>
+<tr><td class="mono">6</td><td>Assume a single uniform block of text</td><td>Computer Operator scans: 42/75; reads a bordered answer-key table as a field of pipe characters</td></tr>
+<tr><td class="mono">7</td><td>Treat the image as a single text line</td><td>per-cell OCR of one answer-key cell at a time (<span class="mono">read_scanned_key_table.py</span>)</td></tr>
+<tr><td class="mono">10</td><td>Treat the image as a single character</td><td>considered for single-cell OCR; rejected — leaving the black border bars in the crop made it see extra glyphs</td></tr>
+<tr><td class="mono">11 / 12</td><td>Sparse text, no/with OSD</td><td>Computer Operator scans: 32/75, 33/75</td></tr>
+</table></div>
+<p><b>Character whitelists</b> constrain recognition to a known alphabet, which matters enormously when you already know the answer is one of four letters:</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/system-analyst-build/read_scanned_key_table.py</span>:48–55</figcaption>
+<pre class="code" data-lang="python"><code>def read_cell(im, box, tag):
+    im.crop(box).resize(((box[2] - box[0]) * 3, (box[3] - box[1]) * 3)).save(f"/tmp/_c_{tag}.png")
+    out = subprocess.run(
+        ["tesseract", f"/tmp/_c_{tag}.png", "-", "--psm", "7",
+         "-c", "tessedit_char_whitelist=ABCD()"],
+        capture_output=True, text=True).stdout
+    m = re.search(r"[ABCD]", out)
+    return m.group(0) if m else None</code></pre>
+</figure>
+<div class="why-box"><b>Why 1-bit CCITTFax scans defeat tesseract:</b> these older Computer Operator papers are stored as 1-bit (black/white, no greyscale) faxes using CCITT Group 4 compression — a format built for fax machines, not archival fidelity. Rendering one at 400dpi and OCR'ing it still tops out at 58/75 questions found; the missing ones aren't unreadable, they're <i>mangled</i> ("» §." for "5", "22°" for "22") because the two-column option layout and the compression artefacts both defeat tesseract's segmentation at once. Measure, don't assume — see the full table in §5.</div>
+</div>
+</section>
+
+<!-- ================================================================ -->
+<section class="chapter" id="s4">
+<div class="kicker">4 · Python concepts, taught from the real code</div>
+<h2>The heart of the guide</h2>
+<p class="lede">Every card below: the plain-English idea, a tiny toy example, then the actual line from this codebase, then why it had to be there. This is the material worth being fluent in before the interview.</p>
+
+<div class="card" id="concept-re">
+<h3>1. The <span class="mono">re</span> module</h3>
+<p><span class="mono">re.compile()</span> pre-builds a pattern once so it can be reused without re-parsing the regex string every call. <span class="mono">match()</span> anchors at the start of the string only; <span class="mono">search()</span> looks anywhere; <span class="mono">fullmatch()</span> requires the whole string to match. <span class="mono">finditer()</span> yields every non-overlapping match as an iterator (lazy — doesn't build a list up front). Named groups (<span class="mono">(?P&lt;name&gt;...)</span>) let you pull a submatch by name instead of a fragile positional index. Raw strings (<span class="mono">r"..."</span>) stop Python from interpreting backslashes before the regex engine ever sees them — without <span class="mono">r</span>, <span class="mono">"\d"</span> is passed to <span class="mono">re</span> as the two characters <span class="mono">\</span> and <span class="mono">d</span> only by luck (Python leaves unrecognised escapes alone), but <span class="mono">"\n"</span> would silently become a real newline before <span class="mono">re</span> ever sees the pattern.</p>
+<h4>Toy example</h4>
+<figure class="code-block"><figcaption><span class="file">illustrative, not from the repo</span></figcaption>
+<pre class="code" data-lang="python"><code>pat = re.compile(r"^(\d{1,3})\.?\s+(.*)$")
+m = pat.match("29 Who was the first Chief Minister of Mizoram?")
+m.group(1), m.group(2)   # ('29', 'Who was the first Chief Minister of Mizoram?')</code></pre>
+</figure>
+<h4>Real code — alternation, anchoring, a named-lookahead trick</h4>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/parse_native.py</span>:80–84</figcaption>
+<pre class="code" data-lang="python"><code>DIRECTION = re.compile(
+    r"^\s*Directions?\s*:?\s*(?:(?:to|for)\s*)?\(?\s*Questions?\s*(?:No[s]?\.?)?\s*"
+    r"(\d{1,3})\s*(?:(?:-|–|—|to|&amp;)\s*(\d{1,3}))?\s*\)?\s*[:,]?\s*(.*)$",
+    re.IGNORECASE,
+)</code></pre>
+</figure>
+<p>This single pattern absorbs <b>seven different printed variants</b> of a "Directions" header (see §7) using alternation (<span class="mono">-|–|—|to|&amp;</span>), an optional group (<span class="mono">(?:...)?</span>) for the range, and <span class="mono">re.IGNORECASE</span> because the same word appears as both "Direction" and "Directions". Anchoring with <span class="mono">^</span> and <span class="mono">$</span> matters here specifically because without it, <span class="mono">re.search</span> would happily match "Directions" appearing mid-sentence inside an option's own text.</p>
+<p>And the zero-width lookahead, used to tell where a broken glyph starts without consuming the letter after it:</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/merge_native.py</span>:234</figcaption>
+<pre class="code" data-lang="python"><code># The Jan-2016 GS-III printing has a font failure: the Mizo letter "ṭ" did not
+# render and came out as a literal "|" or "\" (e.g. "|au thla", "Lam\huamthum").
+GLYPH = re.compile(r"[|\\](?=[a-z])")</code></pre>
+</figure>
+<p><span class="mono">(?=[a-z])</span> asserts "followed by a lowercase letter" without including that letter in the match — so <span class="mono">fix_glyphs()</span> can inspect <span class="mono">text[i+1]</span> itself to decide capital <span class="mono">Ṭ</span> vs lowercase <span class="mono">ṭ</span> (word-initial vs mid-word) while the match span stays exactly one character wide.</p>
+</div>
+
+<div class="card" id="concept-fsm">
+<h3>2. Finite state machines: the counter-guarded parser</h3>
+<p>This is the single most important idea in the whole codebase. A finite state machine processes a stream one token at a time, keeping a small amount of state, and deciding what to do next purely from (current state, current token) — no lookahead, no backtracking, no re-scanning. <span class="mono">split_questions()</span> is exactly this: its entire state is one integer, <span class="mono">want</span> — the question number it is prepared to start next — plus whatever question is currently open.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/parse2025.py</span>:89–127</figcaption>
+<pre class="code" data-lang="python"><code>def split_questions(lines, expected):
+    """Split on '&lt;n&gt;. ' only when n is the next number we're expecting -- this
+    stops list items like '1) ...' or a year '1935.' from starting a question."""
+    blocks, cur, want = [], None, 1
+    directions = []          # (lo, hi, text)
+    collecting = None        # direction currently absorbing continuation lines
+
+    for ln in lines:
+        d = DIRECTION.match(ln)
+        if d:
+            lo, hi, head = int(d.group(1)), int(d.group(2)), d.group(3).strip()
+            collecting = [lo, hi, head]
+            directions.append(collecting)
+            if cur is not None:
+                blocks.append(cur)
+                cur = None
+            continue
+
+        m = re.match(r"^\s*(\d{1,3})\.?\s+(.*)$", ln)
+        if m and int(m.group(1)) == want:
+            collecting = None
+            if cur is not None:
+                blocks.append(cur)
+            cur = {"n": want, "lines": [m.group(2)]}
+            want += 1
+        elif collecting is not None:
+            collecting[2] = (collecting[2] + " " + ln.strip()).strip()
+        elif cur is not None:
+            cur["lines"].append(ln.strip())</code></pre>
+</figure>
+<div class="why-box"><b>Why the counter guard matters:</b> a naive parser would split on any line matching <span class="mono">^\d+\.</span> and instantly break on "In 1935, the Government of India Act..." or a numbered list item inside a stem. Requiring <span class="mono">int(m.group(1)) == want</span> means the parser only ever starts a new question when it sees <i>exactly</i> the number it's expecting next — a stray "1935." can never be mistaken for question 1935, because <span class="mono">want</span> will never reach that value in a 50-question paper. This is the same idea <span class="mono">practice-hub-build/extract.py</span> uses under the name <span class="mono">expect</span> (line 419), needed for the identical reason: numbered statement lists inside a question ("Consider the following: 1. ... 2. ...") would otherwise restart the question counter on every page.</div>
+</div>
+
+<div class="card" id="concept-ascending">
+<h3>3. Monotonic / ascending-run scanning</h3>
+<p>Given a list of candidate matches that <i>should</i> occur in a fixed order (a, then b, then c, then d), the safe way to find the real sequence is to walk the candidates in document order and only accept the next one if it continues the expected letter — rejecting anything else as noise, rather than trusting positional or count-based heuristics.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/parse_native.py</span>:151–160</figcaption>
+<pre class="code" data-lang="python"><code># Prefer a strictly ascending a,b,c,d run, so a stray "(c)" inside a stem
+# cannot be mistaken for the start of the options.
+all_hits = list(OPT.finditer(body))
+seq, want = [], "a"
+for h in all_hits:
+    if h.group(1) == want:
+        seq.append(h)
+        want = {"a": "b", "b": "c", "c": "d", "d": None}[want]
+        if want is None:
+            break</code></pre>
+</figure>
+<div class="why-box"><b>Why:</b> a stem that reads "...as in (a) above..." contains a real-looking option marker that is not an option. Scanning for a strictly ascending run means that marker is simply skipped — <span class="mono">want</span> is still <span class="mono">"a"</span> at that point only if it's genuinely the first one; once <span class="mono">(a)</span> has been consumed, only a literal <span class="mono">(b)</span> can extend the run, so an in-text "(a)" appearing after the real options never gets mistaken for a fifth marker. The identical pattern reappears in <span class="mono">practice-hub-build/extract.py</span> (line 545, guarding against "Both (a) and (b) are correct" quoting an earlier option) and in <span class="mono">parse2025.py</span>'s <span class="mono">parse_block()</span>.</div>
+</div>
+
+<div class="card" id="concept-offsets">
+<h3>4. Offset arithmetic: slicing spans between matches</h3>
+<p>Once you have an ordered list of match objects, the text <i>between</i> match <span class="mono">k</span> and match <span class="mono">k+1</span> is <span class="mono">body[hits[k].end():hits[k+1].start()]</span> — and the last span runs to <span class="mono">len(body)</span> since there's no following match to bound it.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/parse2025.py</span>:154–159</figcaption>
+<pre class="code" data-lang="python"><code>stem, opts = flat, []
+if len(seq) == 4:
+    stem = norm(body[: seq[0].start()])
+    for k, h in enumerate(seq):
+        end = seq[k + 1].start() if k + 1 &lt; len(seq) else len(body)
+        opts.append(norm(body[h.end(): end]))</code></pre>
+</figure>
+<p>The stem is everything before the first option marker; each option is everything between the end of its own marker and the start of the next one (or the end of the text, for the last option). <span class="mono">extract.py</span>'s <span class="mono">find_option_markers</span> + option-slicing loop (line 549–551) does the same thing at the character level rather than the regex-match level, because there the markers come from three adjacent <span class="mono">LTChar</span> objects rather than a single regex match.</p>
+</div>
+
+<div class="card" id="concept-twopointer">
+<h3>5. Two-pointer / monotonic cursor scanning</h3>
+<p>To check that a sequence of items appears <i>in order</i> inside a larger text — without letting an early false match derail the rest — advance a single cursor forward through the haystack, searching only ahead of where you last found something. This is a two-pointer / monotonic-cursor technique: one pointer walks the needle list, the other only ever moves forward through the haystack.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/validate.py</span>:117–152</figcaption>
+<pre class="code" data-lang="python"><code>def check_order(stem, options, haystack):
+    """...An earlier version searched the whole document for each option independently,
+    which reported 169 phantom reorderings: short generic options like
+    "None of the above" matched their first occurrence hundreds of questions
+    earlier. Position must be established relative to THIS question."""
+    a_stem = squash(stem)
+    if len(a_stem) &lt; 10:
+        return None
+    anchor = haystack.find(a_stem)
+    if anchor &lt; 0:
+        return None
+
+    cursor = anchor + len(a_stem)
+    limit = cursor + WINDOW
+    for i, o in enumerate(options):
+        k = squash(o)
+        if len(k) &lt; 6:
+            continue
+        at = haystack.find(k, cursor, limit)
+        if at &gt;= 0:
+            cursor = at + len(k)
+            continue
+        behind = haystack.find(k, anchor, cursor)
+        if behind &gt;= 0:
+            return (f"option ({'abcd'[i]}) appears BEFORE the option printed "
+                    f"above it — stored order does not match the paper")
+    return None</code></pre>
+</figure>
+<div class="why-box"><b>Why the cursor has to move forward only:</b> the bug this replaced searched the entire document for each option's text independently, with no memory of where the previous option was found. "None of the above" is common enough to appear hundreds of questions before the one actually being checked — an independent whole-document search finds that <i>earlier</i> occurrence and reports a reordering that never happened. Anchoring on the question's own stem and only ever searching forward from the cursor makes "found behind the cursor" mean something real: this exact question's own option text, appearing before another option that should have come after it.</div>
+</div>
+
+<div class="card" id="concept-unicodedata">
+<h3>6. <span class="mono">unicodedata</span>: NFKD decomposition and canonical "squash" forms</h3>
+<p>Unicode allows the same visual character to be represented multiple ways — an accented letter can be one composed codepoint or a base letter plus a separate combining accent mark. <span class="mono">unicodedata.normalize("NFKD", s)</span> decomposes every character into base + combining marks; filtering out anything <span class="mono">unicodedata.combining()</span> reports as a combining mark strips the accents while keeping the base letters. Combined with stripping everything that isn't alphanumeric and lowercasing, this builds a "squash" form: two strings that a human would call "the same" collapse to identical squashed strings even if their punctuation, case, or accent encoding differ.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/validate.py</span>:32–36</figcaption>
+<pre class="code" data-lang="python"><code>def squash(s):
+    """Collapse to comparable form: no case, no punctuation, no spacing."""
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]", "", s.lower())</code></pre>
+</figure>
+<p><span class="mono">merge_native.py</span> defines the identical function for the identical reason (line 184–187): every text-based matching operation in this codebase — order verification, answer carry-over by option text, duplicate-option detection — runs on <span class="mono">squash()</span>'d strings so that "(a) Sāza" and "a Saza" and "A. Saza." all compare equal.</p>
+</div>
+
+<div class="card" id="concept-sequencematcher">
+<h3>7. <span class="mono">difflib.SequenceMatcher</span> — fuzzy text matching, and its false positives</h3>
+<p><span class="mono">SequenceMatcher</span> implements the Ratcliff–Obershelp algorithm: it finds the longest matching contiguous block between two sequences, then recurses on what's left on either side, and <span class="mono">.ratio()</span> turns the total matched length into a similarity score from 0 to 1. It's the right tool for "is this the same question, reworded or re-OCR'd slightly differently" — and the wrong tool to trust blindly, because short or generic text produces high-looking ratios against things that aren't actually the same.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/merge_native.py</span>:362–369</figcaption>
+<pre class="code" data-lang="python"><code>best, score = None, 0.0
+nq = norm_words(rec["question"])
+if nq:
+    for o in olds:
+        s = SequenceMatcher(None, nq, norm_words(o.get("question", ""))).ratio()
+        if s &gt; score:
+            best, score = o, s
+matched = best if score &gt;= 0.78 else None</code></pre>
+</figure>
+<div class="why-box"><b>The threshold is a judgement call, and it's imperfect on purpose-documented terms:</b> <span class="mono">merge.py</span> uses 0.75, <span class="mono">merge_native.py</span> uses 0.78. Even at 0.78, a handful of short, generic stems fuzzy-matched an unrelated question elsewhere in the bank and inherited its topic — confirmed by inspecting the actual content, two ids needed a manual override (<span class="mono">TOPIC_OVERRIDES</span>, merge_native.py:212–215) because neither was actually an English-class question despite scoring high enough to match one. A similarity score is evidence, not proof.</div>
+</div>
+
+<div class="card" id="concept-subprocess">
+<h3>8. <span class="mono">subprocess.run</span> — shelling out on purpose</h3>
+<p><span class="mono">capture_output=True</span> captures stdout/stderr instead of letting them hit the terminal; <span class="mono">text=True</span> decodes bytes to str automatically; <span class="mono">check=True</span> raises <span class="mono">CalledProcessError</span> on a non-zero exit instead of failing silently; <span class="mono">timeout=N</span> kills a hung subprocess instead of blocking forever.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/validate.py</span>:109–111</figcaption>
+<pre class="code" data-lang="python"><code>def pdf_text(path):
+    return subprocess.run(["pdftotext", "-layout", path, "-"],
+                          capture_output=True, text=True, check=True).stdout</code></pre>
+</figure>
+<div class="why-box"><b>Why shelling out to poppler beats a pure-Python PDF library here:</b> <span class="mono">pdftotext</span> and <span class="mono">pdftoppm</span> are mature, C-based, and handle the enormous variety of malformed real-world PDFs (including the 1-bit CCITTFax scans from §3) that a pure-Python library would need to reimplement from scratch. The cost is a process-spawn per call and losing Python-level exceptions in favour of exit codes — which <span class="mono">check=True</span> converts back into a normal Python exception anyway.</div>
+</div>
+
+<div class="card" id="concept-generators">
+<h3>9. Generators and <span class="mono">yield</span></h3>
+<p>A function containing <span class="mono">yield</span> is a generator: calling it doesn't run the body, it returns an iterator that runs the body up to the next <span class="mono">yield</span> each time you ask it for a value. This matters when producing all the values at once would be wasteful or premature — here, a page's characters are needed one page at a time by the caller, not all pages preloaded into one giant list.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:126–128, 168</figcaption>
+<pre class="code" data-lang="python"><code>def page_chars(pdf):
+    """Per page: every LTChar (plus vector glyphs), in pdf-space coordinates."""
+    for page in extract_pages(pdf, laparams=LAParams()):
+        chars, curves, rects = [], [], []
+        ...
+        yield chars</code></pre>
+</figure>
+<p>The caller (<span class="mono">extract()</span>) writes <span class="mono">for pno, chars in enumerate(page_chars(pdf)):</span> — a completely ordinary <span class="mono">for</span> loop that has no idea it's driving a generator rather than iterating a list. That transparency is the whole appeal: you get lazy, one-page-at-a-time evaluation without the calling code looking any different.</p>
+</div>
+
+<div class="card" id="concept-defaultdict">
+<h3>10. <span class="mono">collections.defaultdict</span>, and sets for dedupe/membership</h3>
+<p><span class="mono">defaultdict(list)</span> means indexing a missing key auto-creates an empty list instead of raising <span class="mono">KeyError</span> — turning a three-line "check, create-if-absent, append" pattern into one line. Sets give O(1) average membership tests and automatic deduplication, which is exactly what "have I seen this before" needs.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:399–401</figcaption>
+<pre class="code" data-lang="python"><code>by_line = defaultdict(list)
+for m in markers:
+    by_line[(m["page"], m["line"])].append(m)</code></pre>
+</figure>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_extract_with_oauth.py</span>:318–323</figcaption>
+<pre class="code" data-lang="python"><code>seen = {}
+unique_qs = []
+for q in questions:
+    dedup_key = hashlib.sha1(re.sub(r"\s+", " ", q["stem"].strip().lower()).encode()).hexdigest()[:16]
+    if dedup_key not in seen:
+        seen[dedup_key] = True
+        unique_qs.append(q)</code></pre>
+</figure>
+</div>
+
+<div class="card" id="concept-dispatch">
+<h3>11. Dict-driven dispatch tables, and the danger of a silent default</h3>
+<p>A dict mapping id/key → outcome is a clean way to express "look this specific thing up in a table" — until the table is incomplete and the lookup falls back to a default. That default silently absorbs everything not explicitly listed, and nothing about running the code tells you how much fell through.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/retag_history.py</span>:127–130</figcaption>
+<pre class="code" data-lang="python"><code>for q in bank["questions"]:
+    if q.get("topic") != "gs1_history":
+        continue
+    new_topic = OVERRIDES.get(q["id"], "gs1_history_modern")</code></pre>
+</figure>
+<div class="why-box"><b>The 521-of-530 story:</b> <span class="mono">OVERRIDES</span> is a per-id lookup, hand-built by reading the 235 questions that existed in the bucket <i>when this script was written</i>. Every sitting added afterward that produced a <span class="mono">gs1_history</span> question had no entry in <span class="mono">OVERRIDES</span>, so it silently fell through to <span class="mono">"gs1_history_modern"</span> — by the time anyone noticed, 521 of 530 history questions had piled into that one default bucket, 73 of which weren't history at all (whole current-affairs sections misclassified). The fix wasn't a smarter heuristic — it was making the fallback loud: the successor script, <span class="mono">retag_history_modern.py</span>, reports stragglers instead of guessing a bucket for them.</div>
+</div>
+
+<div class="card" id="concept-json">
+<h3>12. <span class="mono">json</span> round-tripping as the interchange format</h3>
+<p>Every stage boundary in this pipeline is a JSON file on disk — parse writes one, validate reads it, merge reads it and writes another, apply reads that and emits TypeScript. That's a deliberate architectural choice: any stage can be re-run independently, inspected by eye, or diffed against a previous run, because the interchange format is plain, greppable text rather than an in-memory object that only exists while one process is running.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/parse2025.py</span>:199–200</figcaption>
+<pre class="code" data-lang="python"><code>out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "parsed-2025.json")
+json.dump(result, open(out, "w"), indent=1, ensure_ascii=False)</code></pre>
+</figure>
+<p><span class="mono">indent=1</span> keeps the file diffable and human-readable without the size bloat of larger indents across thousands of records. <span class="mono">ensure_ascii=False</span> writes actual UTF-8 characters (Mizo diacritics, ₹, °) instead of escaping every non-ASCII codepoint as <span class="mono">\uXXXX</span> — which would make the file technically correct but unreadable and un-diffable to a human.</p>
+</div>
+
+<div class="card" id="concept-pathlib">
+<h3>13. <span class="mono">pathlib</span> vs <span class="mono">os.path</span></h3>
+<p>Both manipulate filesystem paths; <span class="mono">pathlib.Path</span> is the newer, object-oriented API (<span class="mono">Path("a") / "b"</span> instead of <span class="mono">os.path.join("a", "b")</span>, <span class="mono">.exists()</span> as a method instead of a free function). This codebase uses both, split roughly by when each script was written and what it needs:</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/assistant-controller-of-mines/parse.py</span>:29, 135</figcaption>
+<pre class="code" data-lang="python"><code>SRC = Path.home() / "Downloads" / "ASSISTANT CONTROLLER OF MINES - 2026.html"
+...
+out_path = Path(__file__).parent / "parsed.json"</code></pre>
+</figure>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/apply.py</span>:11, 15</figcaption>
+<pre class="code" data-lang="python"><code>HERE = os.path.dirname(os.path.abspath(__file__))
+TARGET = os.path.join(HERE, "..", "..", "src", "data", "banks", "mpsc-state-tax-officer.ts")</code></pre>
+</figure>
+<p>Neither is wrong; <span class="mono">Path</span> composes more readably with <span class="mono">/</span> and gives you <span class="mono">.glob()</span>/<span class="mono">.read_text()</span> as methods, while <span class="mono">os.path</span> is what you reach for by muscle memory in a codebase that started before you'd normalize on one style.</p>
+</div>
+
+<div class="card" id="concept-tempfile">
+<h3>14. <span class="mono">tempfile.TemporaryDirectory</span> as a context manager</h3>
+<p>A context manager (<span class="mono">with ... as ...:</span>) guarantees cleanup runs even if the block raises. <span class="mono">tempfile.TemporaryDirectory()</span> creates a scratch directory on entry and recursively deletes it on exit — bounding disk usage automatically instead of relying on the programmer to remember to clean up (or a cron job to do it later).</p>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_ocr.py</span>:30–34</figcaption>
+<pre class="code" data-lang="python"><code>with tempfile.TemporaryDirectory() as tmp:
+    prefix = os.path.join(tmp, "page")
+    try:
+        subprocess.run(
+            ["pdftoppm", "-r", str(dpi), "-png", pdf_path, prefix],</code></pre>
+</figure>
+<p>Rendering every page of every PDF in a 3,715-file corpus to PNG would consume enormous disk if the renders were kept around — the docstring for this exact script says as much: "Page images are deleted right after OCR so disk use stays bounded." The context manager makes that true by construction rather than by discipline.</p>
+</div>
+
+<div class="card" id="concept-hashlib">
+<h3>15. <span class="mono">hashlib.sha1</span> for content-addressed filenames</h3>
+<p>Hashing a piece of content (or an identifying string) into a fixed-length hex digest gives you a filename that's deterministic (the same input always produces the same name — so re-running is idempotent and automatically deduplicates) and collision-resistant enough for this purpose, without needing a counter or a database to hand out ids.</p>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_extract_with_oauth.py</span>:151–159</figcaption>
+<pre class="code" data-lang="python"><code>def save_diagram_image(pdf_path, page_num, img_b64):
+    """Persist the page image for a diagram-dependent question. Dedupes by
+    (pdf_path, page) so repeat questions on the same page share one file."""
+    Path(DIAGRAM_IMG_DIR).mkdir(exist_ok=True)
+    key = hashlib.sha1(f"{pdf_path}::{page_num}".encode()).hexdigest()[:20]
+    out_path = Path(DIAGRAM_IMG_DIR) / f"{key}.png"</code></pre>
+</figure>
+<p>The Gen-1 README documents the same trick at corpus scale: full-page renders under <span class="mono">images/page-renders/</span> are named <span class="mono">sha1("&lt;pdf_path&gt;::&lt;page&gt;")[:20]</span>, and a question's <span class="mono">figureGroupId</span> is that same hash — so two questions that share a page automatically share a group id with zero coordination between them.</p>
+</div>
+
+<div class="card" id="concept-base64">
+<h3>16. <span class="mono">base64</span> for sending images to an API</h3>
+<p>HTTP JSON payloads are text; raw binary image bytes aren't valid JSON string content. Base64 encodes arbitrary bytes into an ASCII-safe alphabet so a PNG can travel inside a JSON string field, at the cost of about 33% size inflation.</p>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_extract_with_oauth.py</span>:172–178, 276–279</figcaption>
+<pre class="code" data-lang="python"><code>for png_path in sorted(Path(tmpdir).glob("page-*.png")):
+    ...
+    images.append((page_num, base64.standard_b64encode(f.read()).decode("utf-8")))
+...
+content.append({"type": "image",
+                 "source": {"type": "base64", "media_type": "image/png", "data": img_b64}})</code></pre>
+</figure>
+</div>
+
+<div class="card" id="concept-argparse">
+<h3>17. <span class="mono">argparse</span> subcommand/flag design</h3>
+<p>Several scripts here share one shape: <span class="mono">--export</span> writes a batch of work for a human or agent to fill in; <span class="mono">--merge</span> reads the filled batches back, validates them, and writes the final output. Flags rather than positional subcommands keep the scripts simple while still making the two-phase, resumable workflow explicit at the call site.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/system-analyst-build/classify.py</span>:270–287</figcaption>
+<pre class="code" data-lang="python"><code>ap = argparse.ArgumentParser()
+ap.add_argument("--export", action="store_true")
+ap.add_argument("--merge", action="store_true")
+ap.add_argument("--report", action="store_true")
+ap.add_argument("--paper")
+ap.add_argument("--only-new", action="store_true",
+                help="export only questions that have no label yet")
+a = ap.parse_args()
+if a.export:
+    do_export(a.paper, a.only_new)
+elif a.merge:
+    do_merge()
+elif a.report:
+    do_report()
+else:
+    ap.error("pass --export, --merge or --report")</code></pre>
+</figure>
+<p>The identical <span class="mono">--export</span>/<span class="mono">--merge</span> shape appears in <span class="mono">system-manager-build/solve.py</span>, <span class="mono">system-manager-build/tagging.py</span>, and <span class="mono">system-analyst-build/classify.py</span> — see §6 for why this specific shape (never letting the filled-in step write the real output directly) is the load-bearing part.</p>
+</div>
+
+<div class="card" id="concept-backoff">
+<h3>18. Exponential backoff with a cap, honouring <span class="mono">retry-after</span></h3>
+<p>When a server says "too many requests," the naive response is a fixed sleep-and-retry; a better one doubles the wait each failed attempt (capped, so it doesn't grow unboundedly) and — when the server tells you exactly how long to wait — trusts that number over your own guess.</p>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_extract_with_oauth.py</span>:202–246</figcaption>
+<pre class="code" data-lang="python"><code>def call_with_retry(max_retries=6, **kwargs):
+    attempt = 0
+    while True:
+        client = anthropic.Anthropic(auth_token=STATE["token"])
+        try:
+            return client.messages.create(**kwargs)
+        except anthropic.RateLimitError as e:
+            retry_after = None
+            try:
+                retry_after = float(e.response.headers.get("retry-after"))
+            except Exception:
+                pass
+
+            if retry_after and retry_after &gt; MAX_SLEEP_BEFORE_SWITCH:
+                exhausted_email = STATE["email"]
+                if switch_to_next_account():
+                    attempt = 0
+                    continue
+                raise
+
+            attempt += 1
+            if attempt &lt; max_retries:
+                wait = retry_after if retry_after else min(20 * (2 ** (attempt - 1)), 300)
+                time.sleep(wait)
+                continue
+            ...</code></pre>
+</figure>
+<p><span class="mono">min(20 * (2 ** (attempt - 1)), 300)</span> is the classic shape: 20s, 40s, 80s, 160s, then capped at 300s — never sleeping for hours even after many failures. But when the server's own <span class="mono">retry-after</span> header is long enough to signal a sustained limit rather than a burst (<span class="mono">MAX_SLEEP_BEFORE_SWITCH</span>), the code doesn't sleep for it at all — it rotates to a different account instead. See §6 for why that distinction (burst vs. sustained) is the actual cost-control decision.</p>
+</div>
+
+<div class="card" id="concept-idempotence">
+<h3>19. Idempotence and byte-for-byte reproducible output</h3>
+<p>An idempotent operation produces the same result no matter how many times you run it. For a data pipeline, that means: re-running the whole chain on unchanged inputs should regenerate <i>exactly</i> the same output file, byte for byte — which is what lets you treat the generated <span class="mono">.ts</span> file as disposable and the scripts as the real source of truth.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/README.md</span> (running-it section)</figcaption>
+<pre class="code" data-lang="text"><code>Re-running a phase on an already-rebuilt bank is a no-op — it reproduces the
+same file byte for byte.</code></pre>
+</figure>
+<p>This isn't accidental — every stage is written to check what already exists before acting: <span class="mono">merge.py</span>'s carry-over logic reads the current bank rather than assuming a blank slate, <span class="mono">solve.py --export</span> skips ids already present in <span class="mono">staged/solved.json</span> unless <span class="mono">--redo</span> is passed, and <span class="mono">tagging.py --export</span> skips ids already in <span class="mono">tags.json</span> unless <span class="mono">--all</span> is passed. Idempotence is what makes a multi-stage pipeline safe to re-run after a partial failure instead of terrifying.</p>
+</div>
+
+</section>
+
+<!-- ================================================================ -->
+<section class="chapter" id="s5">
+<div class="kicker">5 · Image &amp; geometry concepts</div>
+<h2>Where pixels become facts</h2>
+<p class="lede">This section is entirely about <span class="mono">practice-hub-build/extract.py</span> and <span class="mono">system-analyst-build/read_scanned_key_table.py</span> — the two places this codebase has to reason about a PDF as a 2-D image rather than a stream of characters.</p>
+
+<div class="card">
+<h3>PDF space vs. raster space, and the <span class="mono">SCALE</span> conversion</h3>
+<p>A PDF's own coordinate system measures in points (72 per inch), with the origin at the page's <b>bottom-left</b> corner and y increasing <b>upward</b> — the same convention as ordinary Cartesian geometry. A rendered raster image (a PNG from <span class="mono">pdftoppm</span>) has its origin at the <b>top-left</b>, with y increasing <b>downward</b> — the same convention as almost every image format. Converting a PDF-space bounding box into pixel coordinates on the rendered PNG needs two things: scale by dots-per-inch over points-per-inch, and flip the y-axis.</p>
+<div class="diagram-wrap">
+<svg class="diagram" viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg">
+  <!-- PDF space -->
+  <rect x="20" y="20" width="230" height="200" fill="none" stroke="var(--border-strong)" stroke-width="1.5"/>
+  <text x="30" y="14" font-size="12" fill="var(--fg-muted)">PDF space (points, y-UP)</text>
+  <line x1="30" y1="210" x2="30" y2="30" stroke="var(--accent)" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="30" y1="210" x2="230" y2="210" stroke="var(--accent)" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="12" y="35" font-size="11" fill="var(--accent)">y</text>
+  <text x="225" y="225" font-size="11" fill="var(--accent)">x</text>
+  <rect x="90" y="70" width="70" height="26" fill="var(--warn-soft)" stroke="var(--warn)"/>
+  <text x="95" y="65" font-size="10.5" fill="var(--fg)">bbox (x0,y0,x1,y1)</text>
+  <circle cx="90" cy="96" r="2.4" fill="var(--fg)"/>
+  <text x="60" y="112" font-size="10" fill="var(--fg-muted)">origin bottom-left</text>
+  <circle cx="30" cy="210" r="3" fill="var(--fg)"/>
+
+  <!-- arrow -->
+  <path d="M258 120 L322 120" stroke="var(--fg-faint)" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="262" y="108" font-size="10.5" fill="var(--fg-muted)">SCALE = DPI / 72</text>
+  <text x="262" y="136" font-size="10.5" fill="var(--fg-muted)">y_raster = H − y_pdf·SCALE</text>
+
+  <!-- raster space -->
+  <rect x="360" y="20" width="230" height="200" fill="none" stroke="var(--border-strong)" stroke-width="1.5"/>
+  <text x="368" y="14" font-size="12" fill="var(--fg-muted)">Raster space (pixels, y-DOWN)</text>
+  <circle cx="360" cy="20" r="3" fill="var(--fg)"/>
+  <text x="368" y="34" font-size="10" fill="var(--fg-muted)">origin top-left</text>
+  <line x1="360" y1="20" x2="360" y2="90" stroke="var(--accent)" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="360" y1="20" x2="430" y2="20" stroke="var(--accent)" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="366" y="82" font-size="11" fill="var(--accent)">y</text>
+  <text x="424" y="34" font-size="11" fill="var(--accent)">x</text>
+  <rect x="420" y="128" width="90" height="34" fill="var(--warn-soft)" stroke="var(--warn)"/>
+  <text x="418" y="180" font-size="10" fill="var(--fg-muted)">same box, flipped + scaled</text>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="var(--fg-faint)"/></marker>
+  </defs>
+</svg>
+</div>
+<p class="figure-caption">The same bounding box in both coordinate systems. Higher y in PDF space means further from the bottom; higher y in raster space means further from the top.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:53–54, 333–336</figcaption>
+<pre class="code" data-lang="python"><code>DPI = 150
+SCALE = DPI / 72.0
+...
+def coverage(px, W, H, bbox, target):
+    x0 = max(0, int(bbox[0] * SCALE))
+    x1 = min(W - 1, int(bbox[2] * SCALE))
+    y0 = max(0, int(H - bbox[3] * SCALE))
+    y1 = min(H - 1, int(H - bbox[1] * SCALE))</code></pre>
+</figure>
+<p>Note <span class="mono">y0</span> is computed from <span class="mono">bbox[3]</span> (the box's <i>top</i> in PDF space, i.e. the larger y) and <span class="mono">y1</span> from <span class="mono">bbox[1]</span> (the box's <i>bottom</i>) — the flip inverts which edge is "min" and which is "max," so getting this backwards silently samples the wrong rectangle on the page.</p>
+</div>
+
+<div class="card">
+<h3>PIL pixel access and Chebyshev colour distance</h3>
+<p><span class="mono">Image.load()</span> returns a pixel-access object indexable as <span class="mono">px[x, y]</span>, giving an <span class="mono">(R, G, B)</span> tuple for an RGB image. To decide "is this pixel the highlight colour," you can't require an exact match — antialiasing blends the highlight colour with its background at every edge, so real highlight pixels come out in a whole neighbourhood of similar colours, not one exact triple.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:55–59, 340–344</figcaption>
+<pre class="code" data-lang="python"><code>PALETTE = {
+    "blue": (143, 222, 249),   # .560784 .870588 .976471 rg
+    "pink": (255, 204, 230),   # 1 0.8 0.9 rg
+}
+COLOUR_TOL = 30
+...
+c = px[x, y]
+if all(abs(p - q) &lt;= COLOUR_TOL for p, q in zip(c, target)):
+    hit += 1</code></pre>
+</figure>
+<p>Requiring <i>every</i> channel to be within <span class="mono">COLOUR_TOL</span> of the target independently is a Chebyshev (L∞) distance test — the maximum single-channel difference must be small, rather than bounding the combined (Euclidean) difference across all three channels. It's simpler to compute and, for "is this basically the same colour," behaves sensibly: a pixel that's exactly right on R and G but far off on B should fail, and L∞ catches that; a Euclidean bound could let one badly-off channel hide behind two good ones.</p>
+</div>
+
+<div class="card">
+<h3>Coverage as a confidence signal, and the widest-gap threshold that failed</h3>
+<p><span class="mono">coverage()</span> returns <span class="mono">hit / tot</span> — the fraction of a marker's pixels that read as the highlight colour. That fraction isn't just a yes/no signal; its distance from the decision threshold doubles as a confidence measure, which is why anything landing within <span class="mono">AMBIGUOUS_BAND</span> (0.10) of the threshold gets reported for a human to look at instead of silently resolved.</p>
+<p>Picking the threshold itself is the interesting part. The obvious approach — sort all observed coverage values and cut at the widest gap — sounds principled and is subtly wrong:</p>
+<div class="diagram-wrap">
+<svg class="diagram" viewBox="0 0 640 170" xmlns="http://www.w3.org/2000/svg">
+  <line x1="40" y1="120" x2="600" y2="120" stroke="var(--fg-faint)" stroke-width="1.5"/>
+  <!-- ticks -->
+  <g font-size="10.5" fill="var(--fg-muted)">
+    <line x1="40" y1="115" x2="40" y2="125" stroke="var(--fg-faint)"/><text x="34" y="140">0.0</text>
+    <line x1="180" y1="115" x2="180" y2="125" stroke="var(--fg-faint)"/><text x="164" y="140">0.204</text>
+    <line x1="330" y1="115" x2="330" y2="125" stroke="var(--fg-faint)"/><text x="312" y="140">0.436</text>
+    <line x1="600" y1="115" x2="600" y2="125" stroke="var(--fg-faint)"/><text x="584" y="140">1.0</text>
+  </g>
+  <!-- unmarked cluster near 0 -->
+  <circle cx="45" cy="120" r="4" fill="var(--fg-muted)"/>
+  <circle cx="58" cy="120" r="4" fill="var(--fg-muted)"/>
+  <circle cx="70" cy="120" r="4" fill="var(--fg-muted)"/>
+  <circle cx="82" cy="120" r="4" fill="var(--fg-muted)"/>
+  <circle cx="95" cy="120" r="4" fill="var(--fg-muted)"/>
+  <!-- Q28's faint highlight at 0.204 -->
+  <circle cx="180" cy="120" r="5.5" fill="var(--warn)"/>
+  <text x="152" y="100" font-size="10.5" fill="var(--warn)">Q28's faint mark</text>
+  <!-- marked cluster from 0.436 up -->
+  <circle cx="330" cy="120" r="4" fill="var(--ok)"/>
+  <circle cx="360" cy="120" r="4" fill="var(--ok)"/>
+  <circle cx="400" cy="120" r="4" fill="var(--ok)"/>
+  <circle cx="450" cy="120" r="4" fill="var(--ok)"/>
+  <circle cx="510" cy="120" r="4" fill="var(--ok)"/>
+  <circle cx="560" cy="120" r="4" fill="var(--ok)"/>
+  <!-- widest gap cut (wrong) -->
+  <line x1="255" y1="60" x2="255" y2="120" stroke="var(--bad)" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="150" y="50" font-size="11.5" fill="var(--bad)">widest-gap cut (0.436→0.204 gap = 0.232) — WRONG: discards Q28</text>
+  <!-- structural cut (right) -->
+  <line x1="100" y1="80" x2="100" y2="120" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="4" y="70" font-size="11.5" fill="var(--accent)">structural cut (0.204→0.0 gap = 0.204) — RIGHT: keeps Q28</text>
+</svg>
+</div>
+<p class="figure-caption">SI Statistics Paper II's real coverage distribution. The widest gap (0.232, between 0.436 and 0.204) is wider than the gap protecting Q28's real but faint highlight (0.204, between 0.204 and 0.0) — so cutting at the widest gap discards a genuine mark.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:347–371</figcaption>
+<pre class="code" data-lang="python"><code>def derive_threshold(questions):
+    """...Splitting the distribution at its widest gap looks reasonable and is subtly
+    wrong: highlights vary in how tightly they are drawn, so the spread *within*
+    the marked population can exceed the gap separating it from the unmarked one.
+    On SI Statistics Paper II the widest gap fell at 0.436-&gt;0.204 (0.232) rather
+    than at 0.204-&gt;0.0 (0.204), which discarded a real, faintly-boxed mark on Q28
+    and reported the question as unmarked.
+
+    Every MCQ carries exactly one highlight, so score each candidate cut by how
+    many questions it leaves with exactly one -- optimising the structure we
+    actually expect instead of a property of the histogram."""
+    vals = sorted({c for q in questions for c in q["cov"].values()})
+    best = None
+    for i in range(len(vals) - 1):
+        t = (vals[i] + vals[i + 1]) / 2
+        ones = sum(1 for q in questions
+                   if sum(1 for c in q["cov"].values() if c &gt;= t) == 1)
+        if best is None or ones &gt; best[0]:
+            best = (ones, t)
+    return best[1]</code></pre>
+</figure>
+<div class="why-box"><b>The fix:</b> instead of optimising a property of the histogram (the widest empty gap), optimise the structural prior you actually know is true — every MCQ has <i>exactly one</i> highlighted option. Score every candidate cut by how many questions it leaves with exactly one option above threshold, and take the best-scoring cut. This is a data-derived threshold that encodes domain knowledge instead of a generic statistical heuristic.</div>
+</div>
+
+<div class="card">
+<h3>Text-anchored sampling vs. blob clustering — a rejected alternative</h3>
+<p>The docstring documents an approach that was tried and abandoned, which is worth reading as a worked example of "sounds reasonable, fails in practice":</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:17–24</figcaption>
+<pre class="code" data-lang="python"><code>The marked answer is read by asking, for each option marker `(a)`..`(d)`, what
+fraction of its pixels carry the highlight colour. The obvious alternative --
+cluster highlight pixels into boxes, then read whatever text sits underneath --
+was tried first and is genuinely worse: padding loose enough to rejoin an
+antialiased fragment also merges two vertically adjacent options, so it
+miscounts in both directions at once and does so silently. Anchoring on the
+text removes the clustering step entirely, and the coverage fraction doubles
+as a confidence signal.</code></pre>
+</figure>
+<p>Blob clustering needs a padding parameter to rejoin a highlight fragmented by antialiasing — and any padding loose enough to do that reliably is also loose enough to accidentally merge two separate, vertically-adjacent options' highlight regions into one blob. Anchoring on the text (which you already know the position of from the character stream) sidesteps the whole problem: there's no blob to accidentally merge, because you're measuring a fixed, independently-known region per option rather than discovering regions from the pixels themselves.</p>
+</div>
+
+<div class="card">
+<h3>Geometric table reading: derive structure from darkness, not from OCR digits</h3>
+<p><span class="mono">read_scanned_key_table.py</span> reads a 100-row, 4-block bordered answer-key table where OCR reading the whole table as text produces garbage (a "field of pipe characters," 63 tokens for 200 cells) and, worse, misreads the question numbers themselves (7 → "z", 12 → "i2", 72 → "i"). Its fix: never let OCR determine <i>position</i> — only ever let it read one already-known cell's content.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/system-analyst-build/read_scanned_key_table.py</span>:25–45</figcaption>
+<pre class="code" data-lang="python"><code>def dark_profile(im, axis):
+    px = im.convert("L").load()
+    w, h = im.size
+    if axis == "y":
+        return [sum(1 for x in range(w) if px[x, y] &lt; 128) for y in range(h)]
+    return [sum(1 for y in range(h) if px[x, y] &lt; 128) for x in range(w)]
+
+def bands(profile, min_frac, span):
+    """Indices where the profile is dark enough to be a table rule."""
+    thresh = min_frac * span
+    runs, cur = [], None
+    for i, v in enumerate(profile):
+        if v &gt;= thresh:
+            cur = (cur[0], i) if cur else (i, i)
+        elif cur:
+            runs.append(cur)
+            cur = None
+    if cur:
+        runs.append(cur)
+    return [(a + b) // 2 for a, b in runs]</code></pre>
+</figure>
+<p><span class="mono">dark_profile</span> counts, for every row (or column), how many pixels are dark — a horizontal table rule shows up as a row where nearly every pixel is dark; a horizontal band of question text does not. <span class="mono">bands()</span> finds contiguous runs above that darkness threshold and returns their midpoints — the table's actual gridlines, found from the image itself rather than assumed at hardcoded coordinates (an earlier, hardcoded-x-range version silently lost 41 cells from two of the four column blocks because the guessed edge overshot).</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/system-analyst-build/read_scanned_key_table.py</span>:94–104</figcaption>
+<pre class="code" data-lang="python"><code>key = {}
+for bi, (bx0, bx1) in enumerate(x_blocks):
+    for ri in range(25):
+        top, bot = keep[ri], keep[ri + 1]
+        pady = int((bot - top) * 0.20)
+        padx = int((bx1 - bx0) * 0.12)
+        letter = read_cell(im, (bx0 + padx, top + pady, bx1 - padx, bot - pady),
+                           f"{bi}_{ri}")
+        key[bi * 25 + ri + 1] = letter</code></pre>
+</figure>
+<div class="why-box"><b>The core idea:</b> the question number comes from <span class="mono">bi * 25 + ri + 1</span> — the cell's position in the grid — never from anything OCR reads. Tesseract is only ever asked "what single letter is in this one cell" (via <span class="mono">--psm 7</span> plus an <span class="mono">ABCD</span> whitelist), a much easier and more constrained question than "read this whole table," and a misread <b>letter</b> can at worst give a wrong answer for one already-correctly-numbered question — it can never shift every subsequent answer by one row, the way a misread <b>number</b> would.</div>
+</div>
+
+<div class="card">
+<h3>Private-use-area font demapping</h3>
+<p>Some PDFs embed a Symbol-like font for maths where the glyphs are visually operators (<span class="mono">+</span>, <span class="mono">−</span>, <span class="mono">≤</span>, <span class="mono">√</span>) but are mapped, in the font's internal encoding, to Unicode's Private Use Area (<span class="mono">U+E000</span>–<span class="mono">U+F8FF</span>) — codepoints Unicode deliberately leaves undefined for exactly this kind of vendor-specific reuse. The text layer faithfully reports the codepoint the font uses, which is meaningless without knowing that specific font's private mapping.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:83–103</figcaption>
+<pre class="code" data-lang="python"><code># These booklets set maths in a Symbol font whose glyphs land in the private use
+# area, so the text layer carries U+F0xx where the page shows an operator.
+PUA = {
+    0xF028: "(", 0xF029: ")", 0xF02B: "+", 0xF02D: "−", 0xF03C: "&lt;",
+    0xF03D: "=", 0xF03E: "&gt;", 0xF06F: "°", 0xF071: "θ",
+    0xF0A3: "≤", 0xF0B3: "≥", 0xF0B4: "×", 0xF0B8: "÷",
+    0xF0D0: "∠", 0xF0D6: "√", 0xF0D7: "⋅", 0xF070: "π",
+}
+
+def demap(ch):
+    """Symbol-font private-use code point -&gt; the character actually printed."""
+    o = ord(ch)
+    return PUA.get(o, ch if o &lt; 0xE000 or o &gt; 0xF8FF else "")</code></pre>
+</figure>
+<p>Without this table, <span class="mono">x² − kx − 3 = 0</span> extracts as <span class="mono">x−kx−3=0</span> — actually worse, since the minus signs themselves are also PUA codepoints in the same font; a question that depended on the equation extracts as unsolvable nonsense with no error raised anywhere.</p>
+</div>
+
+<div class="card">
+<h3>Superscript/subscript detection by size and baseline offset — emitted in runs</h3>
+<p>A superscript is typographically smaller and sits above the surrounding text's baseline; a subscript is smaller and sits below it. Detecting this per character and classifying it is only half the job — the other half is emitting consecutive same-kind characters as one run, not one at a time, or a multi-character ordinal like "38th" degrades into "38^t^h" with each raised letter marked up independently, oblivious to its neighbour.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:186–244 (excerpted)</figcaption>
+<pre class="code" data-lang="python"><code>base = sorted(c.size for c in body)[len(body) // 2]
+ybase = sorted(c.y0 for c in body)[len(body) // 2]
+
+for c in cs:
+    ch = demap(c.get_text())
+    small = c.size &lt; base * 0.85
+    if small and c.y0 &gt; ybase + base * 0.18:
+        kind = "s"      # superscript
+    elif small and c.y0 &lt; ybase - base * 0.12:
+        kind = "b"      # subscript
+    else:
+        kind = "n"
+    tagged.append((kind, ch, ...))
+...
+j = i
+while j &lt; len(tagged) and tagged[j][0] == kind:
+    j += 1
+run = "".join(t[1] for t in tagged[i:j])
+if kind == "s" and run.lower() in ("st", "nd", "rd", "th", "s"):
+    out.append(run)          # ordinal suffix: '38th' beats '38ᵗʰ'
+else:
+    out.append("".join(table.get(x, ...) for x in run))</code></pre>
+</figure>
+<p>The median glyph size and median baseline y across the whole line are used as the "normal" reference (a small, cheap way to be robust to lines that are entirely a different font size) — then a character only counts as super/subscript if it's both smaller <i>and</i> off-baseline in the matching direction. Runs are found by advancing a second index <span class="mono">j</span> forward while the classification stays the same, then emitting that whole run through the superscript/subscript Unicode lookup table at once — the same "classify then run-length group" pattern as §4's ascending-run scanning, applied to a different problem.</p>
+</div>
+
+<div class="card">
+<h3>Vector-glyph reconstruction: the ₹ sign as a stroked path</h3>
+<p>Not every visible mark on a PDF page is a text character at all — some are vector paths (lines, curves, filled shapes) drawn directly by the content stream. These booklets draw the ₹ (rupee) sign as a small filled path rather than a font glyph, so it is completely invisible to anything that only reads the character stream — "₹800 per month" extracts as "800 per month" with the currency silently gone.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:108–124, 156–167</figcaption>
+<pre class="code" data-lang="python"><code>class GlyphPath:
+    """A character the PDF draws as vector art instead of text.
+    The rupee sign is stroked as a path in these booklets, so it is absent from
+    the text layer entirely -- '₹800 per month' extracts as '800 per month'."""
+    def __init__(self, ch, bbox, size):
+        self.ch, self.size = ch, size
+        self.x0, self.y0, self.x1, self.y1 = bbox
+    def get_text(self):
+        return self.ch
+...
+for c in curves:
+    w, h = c.x1 - c.x0, c.y1 - c.y0
+    if not (4 &lt; w &lt; 9 and 7 &lt; h &lt; 11):      # rupee-sign sized
+        continue
+    near = [t for t in chars if abs(t.y0 - c.y0) &lt; 6 and -2 &lt; t.x0 - c.x1 &lt; 40]
+    y0 = min(near, key=lambda t: abs(t.y0 - c.y0)).y0 if near else c.y0
+    chars.append(GlyphPath("₹", (c.x0, y0, c.x1, y0 + (c.y1 - c.y0)), 12.0))</code></pre>
+</figure>
+<p>The fix wraps the detected path in an object that quacks like a character (<span class="mono">get_text()</span> returns the glyph it represents) so it can flow through the rest of the pipeline — line grouping, rendering — exactly like any real <span class="mono">LTChar</span>, with no special-casing needed downstream. The size filter (<span class="mono">4 &lt; w &lt; 9 and 7 &lt; h &lt; 11</span>) is a rupee-sign-shaped bounding box, snapped onto the baseline of nearby real text since the raw path geometry sits a couple of points too high to group correctly on its own.</p>
+</div>
+
+<div class="card">
+<h3>Underline detection as thin filled rects near a baseline</h3>
+<p>An underline in a PDF's content stream is just another filled rectangle — very short vertically, spanning some horizontal range at roughly the height of the text baseline. Distinguishing "this is an underline rule" from "this is some other filled shape" is a matter of aspect-ratio and position, not semantics the PDF format actually encodes.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/practice-hub-build/extract.py</span>:145–155</figcaption>
+<pre class="code" data-lang="python"><code>rules = [r for r in rects
+         if (r.y1 - r.y0) &lt; 2.5 and (r.x1 - r.x0) &gt; 5]
+for c in chars:
+    c._ul = any(c.x1 &gt; r.x0 + 0.5 and c.x0 &lt; r.x1 - 0.5
+                and abs(c.y0 - r.y1) &lt; 4 for r in rules)</code></pre>
+</figure>
+<div class="why-box"><b>Why this matters:</b> for a "part of speech" or "identify the underlined phrase" question, the underline <i>is the question</i> — README.md's own schema convention marks the underlined span with <span class="mono">**word**</span> so the UI can render it distinctly, and without detecting it Q51 would read "Identify the underlined phrase" with nothing underlined anywhere in the extracted text.</div>
+</div>
+
+</section>
+
+<!-- ================================================================ -->
+<section class="chapter" id="s6">
+<div class="kicker">6 · Where AI is used, and where it deliberately isn't</div>
+<h2>Cost control and methodology</h2>
+
+<div class="table-wrap"><table>
+<tr><th>Stage</th><th>AI?</th><th>Notes</th></tr>
+<tr><td>Scrape</td><td><span class="badge free">🟢 no</span></td><td>plain HTTP + BeautifulSoup link crawling</td></tr>
+<tr><td>Classify (mcq / descriptive / non-paper)</td><td><span class="badge free">🟢 no</span></td><td>regex + text stats, deliberately free — "before anyone pays for a single token"</td></tr>
+<tr><td>Parse a digital-PDF text layer</td><td><span class="badge free">🟢 no</span></td><td><span class="mono">parse2025.py</span>, <span class="mono">parse_native.py</span> — exact, no inference</td></tr>
+<tr><td>OCR a scan (self-hosted tesseract)</td><td><span class="badge free">🟢 no</span></td><td>zero API cost; only escalates to a model when measured to fail (§3)</td></tr>
+<tr><td>Vision transcription of an illegible scan</td><td><span class="badge ai">🤖 yes</span></td><td>Gen 1's per-PDF diagram fallback and Gen 2's Computer Operator vision passes</td></tr>
+<tr><td>Extract MCQs from paper text (Gen 1, full corpus)</td><td><span class="badge ai">🤖 yes</span></td><td><span class="mono">mpsc_extract_with_oauth.py</span> — this is the step that lost the judgement-free work to a model unnecessarily</td></tr>
+<tr><td>Validate order / hygiene against source</td><td><span class="badge free">🟢 no</span></td><td><span class="mono">validate.py</span> — string search only</td></tr>
+<tr><td>Carry an old answer forward by text match</td><td><span class="badge free">🟢 no</span></td><td><span class="mono">merge_native.py</span> — <span class="mono">SequenceMatcher</span>, deterministic</td></tr>
+<tr><td>Solve a question with no official key</td><td><span class="badge ai">🤖 yes</span></td><td><span class="mono">solve.py</span> — blind, cross-validated, never trusted alone</td></tr>
+<tr><td>Tag a question to a syllabus leaf</td><td><span class="badge ai">🤖 yes</span></td><td><span class="mono">tagging.py</span> — validated against the taxonomy on merge, exact string match required</td></tr>
+<tr><td>Classify study mode (calculate/understand/memorise)</td><td><span class="badge ai">🤖 yes</span></td><td><span class="mono">classify.py</span> — cross-checked against a narrow regex pre-pass, disagreements surfaced not resolved</td></tr>
+<tr><td>Generate the final <span class="mono">.ts</span> bank file</td><td><span class="badge free">🟢 no</span></td><td><span class="mono">apply.py</span> — template + invariant gate</td></tr>
+</table></div>
+
+<div class="card">
+<h3>The cost-control architecture</h3>
+<ul class="tight">
+<li><b>Free regex gate before any spend.</b> <span class="mono">mpsc_classify.py</span> exists purely to answer "is this even worth sending to a model" — MCQ vs. descriptive vs. non-paper vs. answer key — using nothing but <span class="mono">pdftotext</span> and pattern matching. Its own docstring states the reasoning: "this script's job is to say which files those are before anyone pays for a single token."</li>
+<li><b>Escalation ladder, evidence-gated at every rung.</b> Text layer → tesseract → vision, and each rung only fires when the previous one is <i>measured</i> to fail — see the exact measurement table in §3 (58/75, 42/75, 32–33/75 across psm modes, none acceptable, hence vision). The rule is: measure before escalating to a paid model, never assume.</li>
+<li><b>Per-PDF conditional vision.</b> Even inside the Gen-1 model-based extractor, most PDFs go through as text-only — vision is attached only when the page text itself signals a diagram is present:</li>
+</ul>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_extract_with_oauth.py</span>:20–24</figcaption>
+<pre class="code" data-lang="python"><code>DIAGRAM_SIGNAL_RE = re.compile(
+    r"shown (below|above)|as shown|the (figure|diagram) |figure below|"
+    r"diagram below|circuit shown|structure shown|refer to (the )?(figure|diagram)",
+    re.IGNORECASE,
+)</code></pre>
+</figure>
+<ul class="tight">
+<li><b>Checkpoint files that distinguish deterministic failure from transient failure.</b> A PDF that produced zero questions, or couldn't extract text at all, is recorded in <span class="mono">ATTEMPTED_FILE</span> and never retried — that outcome won't change on a re-run. A PDF that raised an exception mid-call (rate limit, network blip) is deliberately <b>not</b> recorded there, so the next run retries it automatically:</li>
+</ul>
+<figure class="code-block">
+<figcaption><span class="file">../mpsc-question-bank/tools/mpsc_extract_with_oauth.py</span>:99–104, 310–313</figcaption>
+<pre class="code" data-lang="python"><code>def load_attempted():
+    """PDFs that have received a definitive outcome (found questions, found
+    zero, couldn't extract text, or truncated) -- NOT retried on resume even
+    though a zero-question result looks identical to 'never tried'..."""
+...
+except Exception as e:
+    print(f"ERROR: {str(e)[:60]}")
+    # deliberately NOT added to attempted -- retry this one next run</code></pre>
+</figure>
+<ul class="tight">
+<li><b>OAuth subscription tokens vs. credit-billed API keys.</b> Per-account OAuth tokens (obtained via <span class="mono">claude setup-token</span>) bill against that account's weekly subscription quota; keys from <span class="mono">console.anthropic.com</span> are billed per token against a credit balance. The Gen-1 README is explicit that credit-billed keys are "what was burning money before" — the OAuth-token extractor exists specifically to move extraction volume onto quota instead of a metered bill.</li>
+<li><b>429 handling that classifies the limit by its duration, and rotates rather than sleeps for hours.</b> See the full backoff mechanics in §4 concept 18 — the short version: a short <span class="mono">retry-after</span> is honoured with a sleep; a long one signals a sustained/weekly cap, and the code switches accounts instead of blocking.</li>
+<li><b>Sharding for safe concurrency.</b> <span class="mono">--shard-id</span> gives each concurrent process its own checkpoint/attempted/batch-file namespace and, combined with a static <span class="mono">--worklist</span> JSON, guarantees two shards never claim the same PDF — concurrency without a shared-state race.</li>
+</ul>
+</div>
+
+<div class="card" id="concept-sandwich">
+<h3>The methodology: the export/merge sandwich</h3>
+<p>Every place a model answers, tags, or classifies something in this codebase follows the same shape, and the shape is the actual safety mechanism — not the model's competence.</p>
+<div class="diagram-wrap">
+<svg class="diagram" viewBox="0 0 640 190" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="inherit" font-size="12">
+    <rect x="10" y="70" width="120" height="50" rx="8" fill="var(--bg-elevated)" stroke="var(--border-strong)"/>
+    <text x="70" y="90" text-anchor="middle" fill="var(--fg)">--export</text>
+    <text x="70" y="106" text-anchor="middle" fill="var(--fg-muted)" font-size="10.5">writes .todo.json</text>
+
+    <path d="M132 95 L182 95" stroke="var(--fg-faint)" stroke-width="2" marker-end="url(#arrow2)"/>
+
+    <rect x="184" y="70" width="120" height="50" rx="8" fill="var(--ai-soft)" stroke="var(--ai)"/>
+    <text x="244" y="90" text-anchor="middle" fill="var(--ai)">🤖 the model</text>
+    <text x="244" y="106" text-anchor="middle" fill="var(--fg-muted)" font-size="10.5">fills .done/.solved.json</text>
+
+    <path d="M306 95 L356 95" stroke="var(--fg-faint)" stroke-width="2" marker-end="url(#arrow2)"/>
+
+    <polygon points="358,95 400,68 442,95 400,122" fill="var(--warn-soft)" stroke="var(--warn)"/>
+    <text x="400" y="92" text-anchor="middle" fill="var(--warn)" font-size="10.5">--merge</text>
+    <text x="400" y="106" text-anchor="middle" fill="var(--warn)" font-size="10.5">validates</text>
+
+    <path d="M444 95 L494 95" stroke="var(--fg-faint)" stroke-width="2" marker-end="url(#arrow2)"/>
+    <rect x="496" y="70" width="130" height="50" rx="8" fill="var(--ok-soft)" stroke="var(--ok)"/>
+    <text x="561" y="90" text-anchor="middle" fill="var(--ok)">tags.json /</text>
+    <text x="561" y="106" text-anchor="middle" fill="var(--ok)">solved.json</text>
+
+    <path d="M400 122 L400 150" stroke="var(--bad)" stroke-width="2" stroke-dasharray="3 3" marker-end="url(#arrowbad)"/>
+    <text x="400" y="168" text-anchor="middle" fill="var(--bad)" font-size="11">rejected rows: printed, sys.exit(1) — nothing written</text>
+  </g>
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="var(--fg-faint)"/></marker>
+    <marker id="arrowbad" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="var(--bad)"/></marker>
+  </defs>
+</svg>
+</div>
+<p class="figure-caption">The model never writes the shipped output. It only ever fills a todo file that a separate, deterministic step validates before anything is merged in.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/system-manager-build/tagging.py</span>:194–213 (excerpted)</figcaption>
+<pre class="code" data-lang="python"><code>unit, sub = str(t.get("unit")), t.get("sub")
+if unit not in valid_units.get(paper, set()):
+    problems.append(f"{qid}: unit {unit!r} not a unit of {paper}")
+    continue
+if sub is None:
+    if subs_by_paper.get(paper):
+        problems.append(f"{qid}: sub is null but {paper} has leaf subtopics")
+        continue
+elif (paper, unit, sub) not in valid:
+    near = [s for s in subs_by_paper[paper] if s.lower() == str(sub).lower()]
+    hint = f" (case mismatch with {near[0]!r}?)" if near else ""
+    problems.append(f"{qid}: ({paper}, {unit}, {sub!r}) is not a leaf{hint}")
+    continue
+tags[qid] = {"unit": unit, "sub": sub}</code></pre>
+</figure>
+<p>Notice what's being checked: not "does this look plausible" but exact membership in a known-valid set (<span class="mono">valid</span>, built from the taxonomy file). A model that returns a paraphrased or slightly-off leaf name is rejected outright, with a helpful case-mismatch hint, rather than accepted because it's "close enough."</p>
+</div>
+
+<div class="card">
+<h3>The rule pre-pass: a cross-check, not a classifier</h3>
+<p><span class="mono">classify.py</span>'s <span class="mono">rule_hint()</span> deliberately does <i>not</i> decide anything — it only flags the cases a narrow regex is confident about, and its output is diffed against what the model produced, never substituted for it.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/system-analyst-build/classify.py</span>:30–36, 81–94, 208–214</figcaption>
+<pre class="code" data-lang="python"><code>"""THE RULE PRE-PASS IS A CROSS-CHECK, NOT A CLASSIFIER
+`rule_hint()` below marks the questions a regex can be confident about. It does
+NOT decide anything. Its output is diffed against the agents' labels on --merge,
+and disagreements are printed for a human to look at. A pipeline that agreed
+with itself would prove nothing; the point is to have two opinions."""
+...
+disagree = []
+for qid, lab in labels.items():
+    hint = rule_hint(by_id[qid])
+    if hint and hint != lab["mode"]:
+        disagree.append((qid, hint, lab["mode"], lab["conf"], lab["why"]))</code></pre>
+</figure>
+<p>The framing in that docstring is worth internalising for the interview: "a pipeline that agreed with itself would prove nothing." Two independently-derived opinions that happen to agree is real evidence; one process checking its own output never is.</p>
+</div>
+
+<div class="card">
+<h3>Blind cross-validation: solve without seeing the existing answer</h3>
+<p><span class="mono">solve.py</span> exists to verify 308 questions that arrived with an answer but no explanation and no official key behind them. The design is explicit about the failure mode it avoids: a solver shown "the bank says (b)" tends to rationalise (b), whether or not (b) is actually right.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/system-manager-build/solve.py</span>:10–20</figcaption>
+<pre class="code" data-lang="python"><code>"""DESIGN: SOLVE BLIND, THEN COMPARE.
+The export deliberately does NOT show the solver the bank's existing answer.
+Rubber-stamping a wrong answer is the failure mode that matters here - a solver
+shown "the answer is (b)" will tend to justify (b). Solving independently and
+then diffing gives real evidence:
+
+  agree    -&gt; two independent derivations concur. Corroborated; keep, and the
+              solver's confidence stands.
+  disagree -&gt; genuine uncertainty. Flagged for review and forced to at most
+              "medium" confidence regardless of what the solver claimed..."""</code></pre>
+</figure>
+<p>When the bank has <i>no</i> answer to diff against at all (Election Dec-2019 Paper II: all 74 answers <span class="mono">-1</span>), a lone solve would ship its own self-assessed confidence completely unchecked — so a second, independent blind pass stands in as the comparison:</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/system-manager-build/solve.py</span>:38–41</figcaption>
+<pre class="code" data-lang="python"><code>"""Run the two passes with DIFFERENT MODELS. Two runs of one model agree without
+corroborating anything - their errors correlate, so agreement measures
+consistency rather than correctness."""</code></pre>
+</figure>
+<div class="why-box"><b>Why different models specifically:</b> if the same model is wrong about something systematically — a common misconception, a training-data gap — running it twice reproduces the same wrong answer twice, and "agreement" would look identical to genuine corroboration while meaning nothing. Two different models are far less likely to share the same blind spot, so their agreement is actual evidence and their disagreement is an honest signal of real uncertainty (both answers are then shown to the reader, capped at medium confidence, rather than one being silently picked).</div>
+</div>
+</section>
+
+<!-- ================================================================ -->
+<section class="chapter" id="s7">
+<div class="kicker">7 · The failure museum</div>
+<h2>What broke, why it was invisible, and the transferable lesson</h2>
+<p class="lede">These are the specific, real incidents this codebase's defenses (validate.py, invariant gates, count assertions) exist to prevent from happening again.</p>
+
+<div class="card">
+<h3>1. 280 questions lost, with no numbering gap to reveal it</h3>
+<p><b>What broke:</b> an OCR pipeline mis-split multi-column scans; one option field swallowed the next several questions whole (e.g. <span class="mono">...2016-gs-iii-q040</span> held questions 47, 48 and 49 <i>inside</i> its own option (b)).</p>
+<p><b>Why it was invisible:</b> question ids were re-indexed <span class="mono">q001…qN</span> per paper. A paper that should have 100 questions but silently has 91 still numbers them q001–q091 — there's no gap, no error, nothing to notice. Measured loss: ~280 questions across five sittings, plus 68 surviving questions visibly broken.</p>
+<p><b>The fix:</b> re-parse from the source PDF's text layer directly and compare the resulting count against the paper's known, independently-verified expected question count — <span class="mono">expected</span> is a parameter to every parse function in <span class="mono">bank-rebuild/</span>, and a mismatch is printed loudly rather than silently accepted.</p>
+<p><b>Transferable lesson:</b> a count that can silently drift (re-indexed ids) hides data loss that a count anchored to independent ground truth (the paper's own numbering, verified once by hand) cannot. Assert on counts against something you didn't derive from the same broken process.</p>
+</div>
+
+<div class="card">
+<h3>2. Option-order silent corruption</h3>
+<p><b>What broke:</b> nothing has to "break" for this one — it's a standing risk. Every answer key, every UI letter (a)-(d), and <span class="mono">answerIndex</span> itself are all positional. If an option set is silently reordered anywhere in the pipeline, a previously-correct answer becomes wrong with <i>zero</i> visible symptom: the data still looks completely well-formed.</p>
+<p><b>The fix:</b> <span class="mono">validate.py</span>'s <span class="mono">check_order()</span> (§4) re-reads the source PDF and confirms every option appears in the stored order, anchored to that question's own stem. 1,092 of 1,100 checked, 0 mismatches.</p>
+<p><b>Transferable lesson:</b> "the data is well-formed" and "the data is correct" are different claims, and a schema or type check only ever proves the first one. Positional data needs a check against the one thing it's positional <i>relative to</i> — here, the literal order of characters in the original document.</p>
+</div>
+
+<div class="card">
+<h3>3. A case-sensitive end-marker glued a section onto Q50's last option</h3>
+<p><b>What broke:</b> the GS-II paper prints its section boundary as <span class="mono">"SECTION - II"</span>; GS-III prints the same boundary as <span class="mono">"Section - II"</span> — different capitalisation, same exam sitting.</p>
+<p><b>Why it was invisible:</b> a case-sensitive end-marker match against GS-III's mixed-case heading would simply never fire, so the "end of MCQ section" boundary is never found and the parser keeps consuming lines — the entire following descriptive section reads as if it were the last option of question 50.</p>
+<p><b>The fix:</b> match the end marker case-insensitively (<span class="mono">re.IGNORECASE</span>), with a comment recording exactly why: <span class="mono">parse2025.py</span>:17-19, "Getting this wrong silently glues the whole descriptive section onto the last option of Q50."</p>
+<p><b>Transferable lesson:</b> when the same logical marker is documented to vary between two sibling papers of the same exam sitting, assume it varies in more ways than you've already seen, and default to the more permissive match unless you have a specific reason not to.</p>
+</div>
+
+<div class="card">
+<h3>4. Unmatched "Directions" header variants leaking into the previous question's option (d)</h3>
+<p><b>What broke:</b> MPSC prints a "Directions" header above a run of questions in <b>seven</b> different textual forms across different papers — different punctuation, "for" vs "to", a comma instead of a colon, or no separator between the header word and the range.</p>
+<p><b>Why it was invisible:</b> any variant not matched by the regex is treated as ordinary body text — the parser has no concept of "unrecognised header," only "this line belongs to whatever question is currently open." So the header text is silently appended onto the last option of the preceding question, and the option still reads as plausible prose.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/parse_native.py</span>:60–79</figcaption>
+<pre class="code" data-lang="python"><code># Papers print this header four different ways [+ 3 more found later], all of which must be caught --
+# an unmatched one gets glued onto the previous question's last option:
+#   "Directions (Questions 1 – 10):"
+#   "Direction (Questions No. 1 - 10) :"
+#   "Directions to Questions No. 87 &amp; 88 :"
+#   "Directions (Question 100):"          &lt;- a single question, no range
+#   "Directions : Question No. 91 &amp; 92, you are given a figure ..."
+#   "Directions : Question No. 86 &amp; 87 some proverbs/idioms are given below"
+#   "Direction for Questions No. 98 - 100 : ..."</code></pre>
+</figure>
+<p><b>The fix:</b> one regex with enough optional groups and alternation to absorb all seven forms (§4, concept 1) — found incrementally, each variant added only after a real paper proved it existed.</p>
+<p><b>Transferable lesson:</b> a "matches the format I've seen" regex quietly becomes "matches the formats I happened to sample" — real corpora have more variants than your test set, and the failure mode (silent absorption into an adjacent field) gives you no signal that a variant was missed.</p>
+</div>
+
+<div class="card">
+<h3>5. Flush-vs-discard: dropping <span class="mono">cur</span> deleted the preceding question silently</h3>
+<p><b>What broke:</b> when the parser hits a "Directions" header, the question it was building has to be closed off before starting to collect the direction text. An early version of this logic simply reset the in-progress question variable without saving it first.</p>
+<p><b>Why it was invisible:</b> the question being discarded was, by construction, complete and well-formed right up until the moment it was thrown away — there's no partial-state, no malformed record, just one fewer question in the output with no trace it ever existed.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/parse2025.py</span>:102–107</figcaption>
+<pre class="code" data-lang="python"><code># A direction ends the previous question -- but that question must be FLUSHED,
+# not discarded, or every question immediately before a direction header
+# silently disappears.
+if cur is not None:
+    blocks.append(cur)
+    cur = None</code></pre>
+</figure>
+<p><b>Transferable lesson:</b> "close the current record" and "discard the current record" look identical in a diff of the state-machine's variables (both end with <span class="mono">cur = None</span>) — the only difference is one line, <span class="mono">blocks.append(cur)</span>, and it has to run <i>before</i> the reset, every single time state transitions away from "collecting a question."</p>
+</div>
+
+<div class="card">
+<h3>6. The widest-gap threshold discarding a real faint highlight on Q28</h3>
+<p>Covered in full in §5. The short version: splitting a coverage distribution at its widest empty gap is a property of that specific histogram, not of what a highlight actually is — and on SI Statistics Paper II, the widest gap sat on the wrong side of a genuine but faintly-drawn mark, discarding it. The fix optimised the actual structural invariant (exactly one highlight per question) instead of a shape in the data.</p>
+<p><b>Transferable lesson:</b> when you know a strong structural fact about your data ("exactly one of these is true per group"), a threshold chosen to satisfy that fact directly will usually beat a threshold chosen by a generic property of the distribution (widest gap, biggest cluster, etc.).</p>
+</div>
+
+<div class="card">
+<h3>7. <span class="mono">retag_history.py</span>'s silent default bucket</h3>
+<p>Covered in full in §4, concept 11. The short version: a per-id lookup table with a fallback default absorbed every question added after the table was written — 521 of 530 history questions ended up in the default bucket, 73 of which weren't history at all.</p>
+<p><b>Transferable lesson:</b> a dict-with-a-default is safe only as long as the dict is known to be exhaustive at every call site, forever. The moment new data can arrive that the dict wasn't built to cover, the default needs to be loud (raise, or report as a straggler) rather than quiet.</p>
+</div>
+
+<div class="card">
+<h3>8. The scraper took anchor text when the identifying text was in the sibling table cell</h3>
+<p><b>What broke:</b> MPSC's listing pages put the post name (e.g. "Computer Operator") in one table cell and the paper's download link in the <i>next</i> cell. The scraper's category/title logic only ever looked at the link's own anchor text and filename — so five real Computer Operator sittings saved to disk as <span class="mono">Paper-II(AH&amp;Vety).pdf</span>, <span class="mono">2.Technical Paper-I.pdf</span>, <span class="mono">3.Technical Paper-II.pdf</span>, with the string "Computer Operator" appearing nowhere in the filename, the paperId, or <span class="mono">index.csv</span>.</p>
+<p><b>Why it was invisible:</b> an inventory built by grepping the bank for "Computer Operator" — a completely reasonable way to audit coverage — found exactly four papers and reported that as the whole set. A keyword search genuinely cannot find a paper whose identifying information was never captured as a keyword anywhere. Worse, two different source URLs both saved as the identical filename <span class="mono">2.Technical Paper-I.pdf</span> (a MIMER Laboratory Technician paper and a MIMER Computer Operator paper), and one silently overwrote the other on disk — that Computer Operator paper is still missing from the local corpus today.</p>
+<p><b>The fix:</b> stop trusting the filename/anchor text as identity; read the actual listing table's structure (post name in the sibling cell) to determine what a paper is <i>for</i>. A too-loose header guard downstream (matching on the employer, "MIZORAM INSTITUTE OF MEDICAL EDUCATION AND RESEARCH," rather than the specific post) then imported 75 Laboratory Technician anatomy questions labelled as Computer Operator questions — caught not by the pipeline but by two tagging agents independently refusing to tag anatomy content against a computing syllabus.</p>
+<p><b>Transferable lesson:</b> when a document's identity lives in its surrounding context rather than in the document itself, any process that only inspects the document (or its filename) in isolation will misfile it — and a downstream audit built on the same kind of keyword search will confirm the miscount rather than catch it, because it's making the identical assumption.</p>
+</div>
+
+<div class="card">
+<h3>9. Global option search reporting 169 phantom reorderings</h3>
+<p>Covered in full in §4, concept 5. The short version: an early version of the option-order checker searched the whole document independently for each option's text. Generic short options ("None of the above") occur dozens or hundreds of questions apart, so the independent search found an <i>earlier</i>, unrelated occurrence and reported it as evidence of reordering — 169 times, none of them real.</p>
+<p><b>Transferable lesson:</b> "does this text appear in the document" is a different, much weaker claim than "does this text appear <i>where I expect it, relative to what I already found</i>." Anchoring and scanning forward from a known-good position turns a noisy signal into a reliable one.</p>
+</div>
+
+<div class="card" id="failure-ts2590">
+<h3>10. <span class="mono">TS2590: union type too complex to represent</span></h3>
+<p><b>What broke:</b> a single 1,300+-element <span class="mono">BankQuestion[]</span> array literal, where <span class="mono">BankQuestion</span> is itself a discriminated union with a wide <span class="mono">subject</span> union inside it, overflowed TypeScript's type checker — <span class="mono">tsc</span> refused to compile with "Expression produces a union type that is too complex to represent."</p>
+<p><b>Why it happens:</b> checking one giant object-literal expression against a union type asks the compiler to test every element against every arm of the union in one pass; the cost grows with the size of the single expression, not with the total amount of code.</p>
+<figure class="code-block">
+<figcaption><span class="file">tools/bank-rebuild/apply.py</span>:26–50, 133–138</figcaption>
+<pre class="code" data-lang="python"><code>CHUNK = 200
+
+def chunked_questions(questions):
+    """...One 1,300-element `BankQuestion[]` literal overflows tsc with
+    "TS2590: Expression produces a union type that is too complex to represent"
+    -- BankQuestion is a union and `subject` is itself a wide union, so the
+    checker's work grows with the size of a single expression. Splitting into
+    chunks keeps each expression well under the limit. Runtime result is
+    identical."""
+    parts, names = [], []
+    for i in range(0, len(questions), CHUNK):
+        name = f"questions{i // CHUNK}"
+        names.append(name)
+        parts.append(
+            f"const {name}: BankQuestion[] = "
+            + json.dumps(questions[i:i + CHUNK], indent=2, ensure_ascii=False)
+            + ";\n\n"
+        )
+    ...
+# elsewhere: make the discriminant explicit on every record
+q.setdefault("type", "mcq")</code></pre>
+</figure>
+<p><b>The fix:</b> two independent mitigations, both necessary. Split the one big literal into 200-element chunks concatenated with spread syntax (<span class="mono">...questions0, ...questions1, ...</span>) — each chunk is small enough to type-check on its own, and the runtime result is byte-identical to one big array. Separately, stamp an explicit <span class="mono">type</span> discriminant on every record so <span class="mono">tsc</span> doesn't have to test each literal against both arms of the union to figure out which one it is.</p>
+<p><b>Transferable lesson:</b> a type checker's cost model isn't always "total lines of code" — sometimes it's "size of the single expression it has to reason about in one pass." When you hit a checker resource limit, ask whether the code can be restructured into more, smaller units that mean the same thing at runtime, rather than fighting the checker directly.</p>
+</div>
+
+</section>
+
+<!-- ================================================================ -->
+<section class="chapter" id="s8">
+<div class="kicker">8 · Interview drill</div>
+<h2>Click to reveal</h2>
+<p class="lede">Progress is saved in your browser. Click a question to reveal the answer — treat these as prompts to talk through out loud, not scripts to memorise verbatim.</p>
+<div id="drill-progress">0 / 7 reviewed</div>
+
+<details class="flash" data-id="q1">
+<summary>Walk me through the project. <span class="seen-badge">✓ reviewed</span></summary>
+<div class="answer">
+<p>Two generations of the same problem: build a searchable question bank from MPSC's past exam papers. Gen 1 (<span class="mono">mpsc-question-bank</span>) crawled the whole site and threw every PDF at an LLM — 3,715 PDFs, 77,751 questions, but 11,458 with no resolved answer and a separate OCR pipeline that silently dropped ~280 questions with no visible symptom. Gen 2 (<span class="mono">india-study-map/tools</span>) is narrower and deterministic: read the PDF's own text layer directly with regex and a small state machine wherever possible, escalate to OCR or vision only when measurement proves the text layer route fails, and verify every output — option order, question counts, invariants — against the source before it ships. The thesis: extraction is a deterministic string problem and never needed a model; the places AI stayed are the ones that genuinely need judgement (solving unkeyed questions, tagging, classification), and every one of those is wrapped in a validation step that can reject its output.</p>
+</div>
+</details>
+
+<details class="flash" data-id="q2">
+<summary>What was the hardest bug to track down?</summary>
+<div class="answer">
+<p>The highlight-detection threshold in <span class="mono">practice-hub-build/extract.py</span>. Splitting the sorted coverage values at the widest gap in the histogram sounds like the obviously correct, principled approach — and it silently discarded a real, faintly-drawn highlight on Q28 of an SI Statistics paper, because the spread within the "marked" population happened to exceed the gap protecting that one faint mark. It's a hard bug specifically because the wrong approach isn't naive — it's a reasonable statistical idea that fails on a specific, real distribution shape. The fix required abandoning "find structure in the histogram" for "optimise directly for the structural fact I already know is true" (every MCQ has exactly one highlighted option).</p>
+</div>
+</details>
+
+<details class="flash" data-id="q3">
+<summary>How do you know the extraction is correct?</summary>
+<div class="answer">
+<p>Not by trusting the parser's own output — by checking it against the source PDF independently. <span class="mono">validate.py</span>'s <span class="mono">check_order()</span> re-reads each source PDF and confirms every stored option appears in the paper in the same order, anchored to that question's own stem and scanned strictly forward (a two-pointer technique, chosen specifically because an earlier whole-document search produced 169 phantom reorderings from generic option text). Currently 1,092 of 1,100 checked, 0 mismatches. Separately, <span class="mono">hygiene()</span> checks for the specific defect signatures the old pipeline left behind — leftover option-letter prefixes, swallowed neighbouring questions, duplicated options, page furniture. And <span class="mono">apply.py</span> refuses to even write the generated file if any rebuilt-paper invariant fails.</p>
+</div>
+</details>
+
+<details class="flash" data-id="q4">
+<summary>Why not just use AI for everything? It would be so much faster to build.</summary>
+<div class="answer">
+<p>Because extraction — splitting a known text layer into questions and options — never needed judgement, and using a model for a deterministic problem trades exactness for a probabilistic guess with no reason to. That trade is exactly what produced Gen 1's ~280 silently-lost questions and 11,458 unanswered ones. AI earns its place only where the task is genuinely ambiguous or requires judgement a regex can't encode — answering a question no key exists for, deciding which syllabus leaf a question belongs to — and even there, it's never trusted alone: every AI step sits inside an export/merge sandwich where a deterministic step validates its output before anything ships, or a cross-check (a second model, a rule pre-pass, a diff against a known answer) before its confidence is accepted at face value.</p>
+</div>
+</details>
+
+<details class="flash" data-id="q5">
+<summary>Tell me about a mistake you made.</summary>
+<div class="answer">
+<p>I imported 75 Laboratory Technician anatomy questions and shipped them labelled as Computer Operator questions, and didn't notice. The header guard I'd written to confirm a PDF belonged to the right exam only checked for "MIZORAM INSTITUTE OF MEDICAL EDUCATION AND RESEARCH" — true of every MIMER paper regardless of which post it was for, not specific enough to distinguish Computer Operator from Laboratory Technician. What actually caught it wasn't the pipeline — it was two independent tagging agents refusing to tag bone-types-and-Ziehl-Neelsen-staining content against a computing syllabus and tracing it back to source. The fix made the header check a list that pins the specific post, not just the employer, with a negative test proving it rejects the Laboratory Technician paper.</p>
+</div>
+</details>
+
+<details class="flash" data-id="q6">
+<summary>How did you control cost?</summary>
+<div class="answer">
+<p>Several layers, applied in order. First, a completely free regex/text-stats classifier decides which PDFs are even worth sending to a model at all, before a single token is spent. Second, an escalation ladder — text layer, then self-hosted tesseract, then a paid vision call — where each rung only fires after the previous one is measured to fail on that specific document class (the render_pages.py measurement table: 58/75, 42/75, down to 32-33/75 across psm modes, all short of the 75 actually on the page). Third, vision is attached per-PDF only when the page text itself signals a diagram is present, via a regex (<span class="mono">DIAGRAM_SIGNAL_RE</span>), rather than rendering every page's images unconditionally. Fourth, OAuth subscription tokens bill against a weekly quota rather than a metered credit balance. Fifth, 429 responses are classified by their <span class="mono">retry-after</span> duration — short waits are honoured, but a long one signals a sustained limit and triggers an account switch instead of blocking for hours.</p>
+</div>
+</details>
+
+<details class="flash" data-id="q7">
+<summary>Where would this break at 100× scale?</summary>
+<div class="answer">
+<p>Three specific places, each with a known fix. <span class="mono">coverage()</span>'s pixel loop in <span class="mono">extract.py</span> is a pure-Python nested loop over every pixel in a bounding box — fine for a handful of booklets, but it should become a vectorised NumPy comparison (<span class="mono">np.all(np.abs(arr - target) &lt;= tol, axis=-1).mean()</span>) at real scale. <span class="mono">merge_native.py</span>'s answer-carry-over is <span class="mono">SequenceMatcher</span> run against every old question for every new one — O(new × old) — and needs a blocking key (a cheap token or length signature) to cut candidates down before the expensive fuzzy comparison runs. And <span class="mono">derive_threshold()</span>'s gap search is O(n²) in the number of distinct coverage values (it recomputes the "how many questions have exactly one hit" count from scratch for every candidate cut) — a sorted sweep that maintains an incremental running count as the cut moves would make it linear.</p>
+</div>
+</details>
+
+</section>
+
+</main>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------------------------- theme ---------------------------- */
+  var root = document.documentElement;
+  var toggle = document.getElementById('themeToggle');
+  var label = document.getElementById('themeLabel');
+  var STORAGE_KEY = 'pipeline-guide-theme';
+
+  function applyTheme(mode){
+    if(mode === 'light' || mode === 'dark'){
+      root.setAttribute('data-theme', mode);
+    } else {
+      root.removeAttribute('data-theme');
+    }
+    label.textContent = mode === 'light' ? 'Light' : mode === 'dark' ? 'Dark' : 'Auto';
+  }
+  var saved = null;
+  try { saved = localStorage.getItem(STORAGE_KEY); } catch(e){}
+  applyTheme(saved || 'auto');
+
+  toggle.addEventListener('click', function(){
+    var cur = root.getAttribute('data-theme') || 'auto';
+    var next = cur === 'auto' ? 'light' : cur === 'light' ? 'dark' : 'auto';
+    applyTheme(next);
+    try { localStorage.setItem(STORAGE_KEY, next); } catch(e){}
+  });
+
+  /* ------------------------ syntax highlighter -------------------- */
+  var KEYWORDS = {};
+  ('False None True and as assert async await break class continue def del elif else '+
+   'except finally for from global if import in is lambda nonlocal not or pass raise '+
+   'return try while with yield').split(' ').forEach(function(k){ KEYWORDS[k] = true; });
+
+  var BUILTINS = {};
+  ('self cls print len range open int str float list dict set tuple bool sorted enumerate '+
+   'zip map filter isinstance super staticmethod classmethod property object type ord chr '+
+   'round abs min max sum any all reversed format Exception ValueError TypeError KeyError '+
+   'FileNotFoundError SystemExit StopIteration RuntimeError NotImplementedError json re os sys').split(' ')
+   .forEach(function(k){ BUILTINS[k] = true; });
+
+  function escapeHtml(s){
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  var TOKEN_RE = /(#[^\n]*)|([rRbBfFuU]{0,2}(?:"""[\s\S]*?"""|'''[\s\S]*?'''))|([rRbBfFuU]{0,2}(?:"(?:\\.|[^"\\\n])*"|'(?:\\.|[^'\\\n])*'))|(\b\d+\.?\d*(?:[eE][+-]?\d+)?\b)|(@[A-Za-z_][\w.]*)|(\b[A-Za-z_]\w*\b)/g;
+
+  function highlightPython(raw){
+    var src = escapeHtml(raw);
+    var expectName = null;
+    return src.replace(TOKEN_RE, function(m, comment, triple, str, num, dec, name){
+      if(comment !== undefined) return '<span class="tok-com">'+comment+'</span>';
+      if(triple !== undefined) return '<span class="tok-str">'+triple+'</span>';
+      if(str !== undefined) return '<span class="tok-str">'+str+'</span>';
+      if(num !== undefined) return '<span class="tok-num">'+num+'</span>';
+      if(dec !== undefined) return '<span class="tok-dec">'+dec+'</span>';
+      if(name !== undefined){
+        var cls = null;
+        if(expectName){ cls = 'tok-fn'; expectName = null; }
+        else if(KEYWORDS[name]){ cls = 'tok-kw'; if(name === 'def' || name === 'class') expectName = name; }
+        else if(BUILTINS[name]) cls = 'tok-bi';
+        return cls ? '<span class="'+cls+'">'+name+'</span>' : name;
+      }
+      return m;
+    });
+  }
+
+  function highlightBash(raw){
+    var src = escapeHtml(raw);
+    return src.split('\n').map(function(line){
+      var idx = line.indexOf('#');
+      if(idx === -1) return line;
+      return line.slice(0, idx) + '<span class="tok-com">' + line.slice(idx) + '</span>';
+    }).join('\n');
+  }
+
+  document.querySelectorAll('pre.code').forEach(function(pre){
+    var codeEl = pre.querySelector('code');
+    if(!codeEl) return;
+    var raw = codeEl.textContent;
+    var lang = pre.getAttribute('data-lang') || 'text';
+    if(lang === 'python') codeEl.innerHTML = highlightPython(raw);
+    else if(lang === 'bash') codeEl.innerHTML = highlightBash(raw);
+    else codeEl.innerHTML = escapeHtml(raw);
+  });
+
+  /* --------------------------- scrollspy --------------------------- */
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('nav.sidenav a'));
+  var sections = navLinks.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+
+  function updateActive(){
+    var y = window.scrollY + 120;
+    var activeIdx = 0;
+    for(var i = 0; i < sections.length; i++){
+      if(sections[i] && sections[i].offsetTop <= y) activeIdx = i;
+    }
+    navLinks.forEach(function(a, i){ a.classList.toggle('active', i === activeIdx); });
+  }
+
+  /* --------------------------- progress bar ------------------------ */
+  var progressBar = document.getElementById('progress');
+  function updateProgress(){
+    var doc = document.documentElement;
+    var scrollTop = window.scrollY;
+    var scrollHeight = doc.scrollHeight - doc.clientHeight;
+    var pct = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+    progressBar.style.width = pct + '%';
+  }
+
+  var ticking = false;
+  window.addEventListener('scroll', function(){
+    if(!ticking){
+      window.requestAnimationFrame(function(){ updateActive(); updateProgress(); ticking = false; });
+      ticking = true;
+    }
+  });
+  updateActive(); updateProgress();
+
+  /* --------------------------- flashcards --------------------------- */
+  var FLASH_KEY = 'pipeline-guide-flash-seen';
+  var seen = {};
+  try { seen = JSON.parse(localStorage.getItem(FLASH_KEY) || '{}'); } catch(e){ seen = {}; }
+
+  var flashcards = Array.prototype.slice.call(document.querySelectorAll('details.flash'));
+  var progressLabel = document.getElementById('drill-progress');
+
+  function renderFlashState(){
+    var count = 0;
+    flashcards.forEach(function(d){
+      var id = d.getAttribute('data-id');
+      var badge = d.querySelector('.seen-badge');
+      if(seen[id]){
+        count++;
+        if(badge) badge.style.display = 'inline';
+      } else if(badge) {
+        badge.style.display = 'none';
+      }
+    });
+    if(progressLabel) progressLabel.textContent = count + ' / ' + flashcards.length + ' reviewed';
+  }
+
+  flashcards.forEach(function(d){
+    var id = d.getAttribute('data-id');
+    d.addEventListener('toggle', function(){
+      if(d.open && !seen[id]){
+        seen[id] = true;
+        try { localStorage.setItem(FLASH_KEY, JSON.stringify(seen)); } catch(e){}
+        renderFlashState();
+      }
+    });
+  });
+  renderFlashState();
+
+})();
+</script>
+</body>
+</html>

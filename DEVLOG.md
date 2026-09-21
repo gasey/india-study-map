@@ -9,6 +9,58 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep gains a Briefs tab (reference dossiers, not just Q&A)
+
+**What shipped:** `/interview` is now two tabs over the same page —
+**Q&A** (the existing 71 rehearsal questions) and **Briefs**, a new set of
+9 reference dossiers in `src/data/interview/briefs.ts`:
+
+1. Your Introduction — 60-second and 2-minute scripts, plus a
+   jargon→plain-language translation table.
+2. UD&PA Department — mandate, 28 towns, 9 DUDOs, scheme list, who's who
+   (incl. the Commissioner & Secretary and Under Secretary who actually
+   signed the advertisement).
+3. MUDAL — why it exists, the Board's first meeting (28.07.2026, which is
+   what approved this exam's own syllabus), all 5 advertised posts, the
+   System Manager eligibility clause verbatim.
+4. The Aizawl ICCC — full spec, what a System Manager would own, the
+   post-funding sustainability problem, the DPDP/facial-recognition
+   governance angle, and the hill-terrain backhaul point.
+5. Smart Cities Mission & the funding cliff — the story that explains MUDAL.
+6. DILRMP / land revenue work — what he did, Mizoram's LSC context, the
+   plain-language version.
+7. **⭐ Land Revenue ↔ UD&PA correlation** — the centrepiece. Seven bridges,
+   led by the one genuinely researched find this session: AMRUT carries a
+   100% centrally-funded sub-scheme, "Formulation of GIS-based Master Plans
+   for 500 AMRUT Cities" (~₹515 cr, 1:4000 geo-referenced base + land-use
+   maps, MoHUA–NRSC MoU Aug 2016, TCPO nodal). UD&PA runs AMRUT and has a
+   TCP wing, so his DILRMP GIS work maps onto a real funded scheme line
+   rather than an analogy. Verified via search before writing.
+8. Shiksha / CMES — architecture, what he owns, the identity-isolation bug
+   as the "debugging" anecdote, plain-language version.
+9. map.hawayu.in — stack, features, the data-provenance story, and how to
+   pre-empt the "will a side project distract you" question.
+
+**Why:** the candidate asked for material to *learn from*, not only
+questions to rehearse against — and specifically for the land-revenue ↔
+urban-development link. Q&A alone couldn't carry that.
+
+**Implementation notes:** briefs and questions share one `reviewed` Set and
+one localStorage key (`interview-reviewed-v1`) since ids are unique across
+both; each tab shows its own counter. Search is scoped to the active tab
+and auto-expands matches (same `q.length > 0` trick the categories use).
+
+**What's still open:** unchanged from before — CMES's full expansion, the
+DILRMP end date / CMES join date reconciliation, and the unverified AMC
+ward / Local Council President for Chanmari. All three are flagged inline
+with ⚠️ in the brief text rather than stated as fact; don't strip those
+markers without actually confirming. Verified via `tsc --noEmit` (clean)
+and a real browser pass: tab switching, brief expand/collapse, search
+across section bodies and bullets, mark-as-read persistence to
+localStorage, and both counters. Progress reset to 0 before ending.
+
+---
+
 ## 2026-09-21 — Interview Prep: add the CMES employer question
 
 **What shipped:** one new question (`employer-cmes`) in the About You

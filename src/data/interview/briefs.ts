@@ -100,6 +100,58 @@ export const briefs: Brief[] = [
 
   // ------------------------------------------------------------------
   {
+    id: 'mock-lessons',
+    title: '⭐ Mock interview — what actually went wrong',
+    glyph: '🎤',
+    tagline: 'Findings from a full mock panel. Read this before anything else.',
+    sections: [
+      {
+        heading: 'The one habit that mattered most: you answer in lists, not sentences',
+        body:
+          'Across the mock this happened three times running. Asked how to fund the ICCC, the answer was "AMRUT 2.0 funding, ANPR e-challan revenue, and renegotiate the AMC" — three noun phrases, no explanation. The content was largely right; the delivery made it sound memorised, and the panel responded by demanding you defend one at random.',
+        bullets: [
+          'You know the material, so in your head the keyword contains the whole idea. The panel cannot see inside your head — they hear three terms and cannot tell understanding from memorisation.',
+          'The fix is mechanical: NAME IT → THE MECHANISM IN ONE SENTENCE → ONE CONCRETE CONSEQUENCE. Three sentences per point.',
+          'Worked example: "Cost rationalisation, based on the audit. Not every one of those 276 cameras carries equal operational value — some cover junctions the Police draw on constantly, others have produced nothing in two years. Once I can show which is which, the department is choosing where to spend rather than paying a flat maintenance bill for the whole estate."',
+          'Same content, forty seconds instead of four. One lever explained properly beats three named.',
+        ],
+      },
+      {
+        heading: 'Second habit: you trail off mid-sentence',
+        body:
+          'Asked what you would do in your first month with the ICCC, the answer began "I will first identify what is the most significant part of the system, start from there and…" and faded into silence. In a real room that silence lasts a very long time and the panel simply watches you sit in it.',
+        bullets: [
+          'When you lose the thread, stop cleanly and restart: "Let me put that more concretely."',
+          'A deliberate two-second pause reads as composure. A trailing sentence reads as uncertainty.',
+          'This is pure habit and costs nothing to fix — but it is as damaging as weak content.',
+        ],
+      },
+      {
+        heading: 'What you did well',
+        bullets: [
+          'The System Analyst disclosure was excellent — honest, specific, and it dissolved a hostile framing completely.',
+          'Your instinct on the ICCC was right: triage before action, prioritise, do not boil the ocean. Better than candidates who recite a shopping list.',
+          'Second attempt at the ICCC question was a genuine step up — operational status and expiry tracking is a real System Manager answer.',
+          'You dropped the AMRUT argument when challenged rather than defending it. That is exactly right.',
+        ],
+      },
+      {
+        heading: 'Precision fixes',
+        bullets: [
+          '"Expiring cameras" is loose — cameras do not expire. Say "AMC and warranty expiry, and hardware reaching end-of-life." Three different things with three different consequences: no support/no spares, billable repairs, and no firmware updates (a security exposure, not just maintenance).',
+          'Naming a scheme without naming the mechanism invites exactly the follow-up that catches you out. If you cite a funding source, be ready to say which component pays and on what basis.',
+        ],
+      },
+      {
+        heading: 'The question you failed twice',
+        body:
+          '"What is it about System Manager specifically?" was asked twice and answered neither time — both answers were about jobs in general ("every new job is an opportunity to learn"). The Chairman eventually said so out loud, which in a real interview becomes a note in the file. Have the structural answer word-perfect: in a twelve-post organisation the System Manager is the entire IT function, and that matches leading a six-engineer team and building an IT department from nothing far better than a specialist analyst role would.',
+      },
+    ],
+  },
+
+  // ------------------------------------------------------------------
+  {
     id: 'udpa',
     title: 'UD&PA Department — dossier',
     glyph: '🏛️',
@@ -251,14 +303,33 @@ export const briefs: Brief[] = [
       {
         heading: 'The sustainability problem — the question they will ask',
         body:
-          'Central grant funding ended with the Smart Cities Mission on 31 March 2025, but the ICCC still costs roughly ₹7.8 lakh a month to run. Have a structured answer ready:',
+          'Central grant funding ended with the Smart Cities Mission on 31 March 2025, but the ICCC still costs roughly ₹7.8 lakh a month to run, now against the State. This is the defining question for the post. The four arguments below are the ones that survive scrutiny:',
         bullets: [
-          'Converge the O&M cost into AMRUT 2.0 or a state budget line rather than a mission that no longer exists.',
-          'Monetise ANPR e-challan revenue in partnership with Police / Transport.',
-          'CSR — there is a direct precedent in the Toyota contribution.',
-          'Advertising revenue on the VMD boards.',
-          'Renegotiate AMC scope and tie payment to SLA performance rather than renewing flat.',
-          'Rationalise honestly: 276 cameras do not all carry equal operational value. Triage by what is actually used for case work.',
+          'State budget provision — the honest one. The asset is now a State liability and needs a recurring line in the department budget. Unglamorous and correct; say it first.',
+          'Cost rationalisation from your own audit — 276 cameras do not carry equal operational value. Once you can show which produce case work and which have produced nothing, the department is choosing where to spend rather than paying a flat bill for the whole estate.',
+          'SLA-linked AMC — pay against measured performance rather than renewing flat.',
+          'CSR — with the Toyota equipment contribution as an existing precedent.',
+          'Weaker, use with care: VMD advertising revenue.',
+        ],
+      },
+      {
+        heading: '⚠️ Two arguments that get demolished — corrected after a mock',
+        bullets: [
+          'AMRUT 2.0 does NOT fund this. AMRUT targets water supply, sewerage, septage, water-body rejuvenation and green spaces, and is largely capital expenditure against project proposals. Booking ₹7.8 lakh/month of control-room running cost against a water infrastructure mission will be rejected by anyone who has administered the scheme — and a UD&PA panel has. Do not lead with it.',
+          'Where AMRUT genuinely helps you is elsewhere: the GIS-based Master Plan sub-scheme (₹515 cr, geo-referenced base and land-use maps, TCPO nodal, NRSC contracted). That is capital mapping work and it connects to your GIS background — use it there, never as ICCC O&M.',
+          'ANPR e-challan revenue does not simply flow to MUDAL. MUDAL has no enforcement powers; challans are issued by Police and Transport, and the revenue accrues to them. Do not present it as MUDAL income.',
+          'The recoverable version: a formal cost-sharing arrangement with Police and Transport, who are the operational beneficiaries of a system MUDAL maintains. They gain enforcement capability; they contribute to keeping it running. That is an institutional argument, not a revenue claim.',
+          'If a panel catches you on either, concede immediately and offer a better answer. Dropping a bad argument fast reads far better than defending it.',
+        ],
+      },
+      {
+        heading: 'Rationalisation — the hard follow-up, and the mature answer',
+        body:
+          'Proposing to switch cameras off is politically loaded: the facility was inaugurated by the Union Home Minister, the department publicly claims a top-three national ranking, ~600 cases have been assisted, and Local Councils have asked for cameras and not received them. "Which camera goes dark, and who tells that Local Council?" is a fair and difficult question.',
+        bullets: [
+          'Rationalise the maintenance tier, not the camera. A camera that rarely produces evidence does not need a four-hour response SLA; it can sit on a lower support tier. Nothing goes dark.',
+          'Let the Police own the priority list. You supply usage data; they decide what matters operationally. That puts a political decision with the body that has the mandate for it — and protects you when an incident occurs at a deprioritised junction.',
+          'Redeploy rather than remove. A camera producing nothing where it stands has value where a Local Council has been requesting one. This turns the objection into your proposal.',
         ],
       },
       {

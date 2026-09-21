@@ -83,11 +83,34 @@ export const interviewCategories: InterviewCategory[] = [
       },
       {
         id: 'why-system-manager-not-analyst',
-        q: 'Your B.E. in Computer Science actually qualifies you for System Analyst, which pays more. Why apply for System Manager?',
+        q: 'Your B.E. in Computer Science qualifies you for System Analyst, which pays ₹35,000 more. Why are you sitting for the lower post?',
         points: [
-          "Be honest, not defensive: you applied broadly and this process is the one you're in.",
-          "System Manager's scope — systems, infrastructure, and a small team — matches your Team Leader experience at Shiksha more directly than a pure analyst role would.",
-          "Don't over-apologize for being over-qualified on paper; frame it as bringing more than the minimum bar.",
+          'The true answer, and it is a strong one: you DID apply for System Analyst and sat its papers, but could not appear for the fourth paper following a death in the family. You were recorded absent.',
+          'Say it plainly and without embellishment. It completely dissolves the "why are you settling?" framing — you were not settling, circumstance intervened. Far better than any generic answer.',
+          '⚠️ Know your own record before you say it. Were you formally intimated/withdrawn, or simply marked absent? Do not guess at what is on the Commission\'s file.',
+          '⚠️ Understand the cost of this answer: it tells the panel you wanted the higher post. The follow-up — "what happens when System Analyst is re-advertised?" — becomes the most dangerous question in the interview. Have that answer ready before you give this one. See the next entry.',
+        ],
+      },
+      {
+        id: 'analyst-reapply',
+        q: 'We will re-advertise System Analyst. What happens then — will you leave?',
+        points: [
+          'This follows directly from disclosing the System Analyst attempt, so never give that answer without this one loaded.',
+          '⚠️ Do not lie. Saying "I would never apply" and then applying is far worse than honest ambition.',
+          'ORDER IS EVERYTHING. Lead with the commitment, then the honest caveat. In the mock, leading with "I would apply again" meant the panel stopped listening before the reassurance arrived.',
+          'The shape that works: "My commitment is to MUDAL and to finishing what I start — I would not leave work half-done. If System Analyst is advertised again I would consider it honestly, but that is movement within this organisation, not away from it. Either way MUDAL keeps what I have built."',
+          'Then give the structural reason you want THIS post — see the next entry. In the mock, this question was asked twice and answered neither time, and the Chairman said so aloud.',
+        ],
+      },
+      {
+        id: 'why-this-post-specifically',
+        q: 'What is it about System Manager specifically — not jobs in general — that you want?',
+        points: [
+          '⚠️ In the mock you were asked this twice and gave general answers both times ("every new job is an opportunity to learn"). That reads as a dodge even when it is sincere. This is the answer to have word-perfect.',
+          'The structural argument, which is true and which most candidates cannot make: MUDAL advertised twelve posts, one of them System Manager. In an organisation that size the System Manager IS the IT function — you would own all of it, not a slice.',
+          'System Analyst is a specialist role. You currently lead a six-engineer team and built an IT department from nothing at CM Engineering & Solution. Manager matches what you already do; Analyst would be a step sideways into narrower work.',
+          'The evidence nobody else has: you built an 843-question study module for MUDAL System Manager specifically — live on your own platform, months before this interview. Not for Analyst. For this post.',
+          'Keep the sincerity that is natural to you, but anchor it to something that could not be said about any other job.',
         ],
       },
       {

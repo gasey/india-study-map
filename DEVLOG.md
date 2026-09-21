@@ -9,6 +9,60 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep: mock-interview findings, and two corrections to my own earlier advice
+
+**What shipped:** ran a full mock panel (administrative chairman / technical
+member / engineering member) against the module, then folded the findings
+back in. Q&A 81→83, Briefs 9→10.
+
+**New brief `mock-lessons`** — deliberately the first thing in the Briefs
+list. The headline finding is a *delivery* problem, not a knowledge one: he
+answers in noun-phrase lists rather than sentences, three times running.
+Asked how to fund the ICCC he said "AMRUT 2.0 funding, ANPR e-challan
+revenue, and renegotiate the AMC" — right content, but it reads as
+memorised and the panel immediately demanded he defend one at random. The
+brief gives a mechanical fix (name it → mechanism in one sentence → one
+concrete consequence) with a worked before/after. Second habit recorded:
+trailing off mid-sentence into silence.
+
+**Two corrections to content I had written earlier — my errors, not his:**
+
+1. **AMRUT 2.0 does not fund ICCC O&M.** The old ICCC brief said "converge
+   the O&M cost into AMRUT 2.0 or a state budget line". AMRUT targets water
+   supply, sewerage, septage, water bodies and green spaces, and is largely
+   capital. A UD&PA panel has administered the scheme and will reject it.
+   Replaced with State budget provision / cost rationalisation / SLA-linked
+   AMC / CSR, and a new section naming the two arguments that get
+   demolished. AMRUT's genuine relevance to him stays where it belongs —
+   the GIS Master Plan sub-scheme, which is capital mapping work.
+2. **ANPR challan revenue does not accrue to MUDAL.** MUDAL has no
+   enforcement powers; challans are Police/Transport. Reframed as a
+   cost-sharing arrangement with the operational beneficiaries.
+
+Also added a **rationalisation** section: proposing to switch cameras off
+is politically loaded (Union Home Minister inauguration, public top-three
+claim, Local Councils still waiting for cameras). The mature answer —
+rationalise the *maintenance tier* not the camera, let Police own the
+priority list, redeploy rather than remove.
+
+**New facts from the mock.** He *did* apply for System Analyst and sat its
+papers, but missed the fourth following a death in the family and was
+recorded absent. That rewrites `why-system-manager-not-analyst` entirely —
+it is a strong answer, but it discloses that he wanted the higher post, so
+two follow-ups now exist as their own entries: `analyst-reapply` (lead with
+commitment, then the honest caveat — in the mock he inverted this and the
+panel stopped listening) and `why-this-post-specifically` (asked twice in
+the mock, answered neither time; the Chairman said so aloud).
+
+**What's still open:** unchanged — CMES join date, B.E. aggregate (~48.92%
+over 7 listed semesters, 8th absent; the advertisement sets no minimum),
+HSSLC/HSLC percentages, category, PIN, certificate names, and the Chanmari
+AMC ward / Local Council President. Verified via `tsc --noEmit` (clean) and
+a browser pass: Briefs 10, Q&A 83, mock-lessons brief renders and is
+searchable.
+
+---
+
 ## 2026-09-21 — Interview Prep: the employment-gap answers, and a canonical timeline
 
 **What shipped:** the candidate shared his previous CV, which surfaced a

@@ -209,6 +209,198 @@ export const briefs: Brief[] = [
 
   // ------------------------------------------------------------------
   {
+    id: 'schemes',
+    title: 'UD&PA schemes — in detail',
+    glyph: '📋',
+    tagline: 'Every scheme the department runs, with the components that get asked about.',
+    sections: [
+      {
+        heading: 'AMRUT 2.0 — Atal Mission for Rejuvenation and Urban Transformation',
+        body:
+          'Launched October 2021 as the successor to AMRUT (2015). The stated goal is "water secure cities" — universal coverage of water supply in all statutory towns, and sewerage/septage coverage in the 500 AMRUT cities. Largely CAPITAL expenditure against project proposals.',
+        bullets: [
+          'Core components: universal water supply, sewerage and septage management, rejuvenation of water bodies, and development of urban green spaces / parks.',
+          'Pey Jal Survekshan — a survey ranking cities on water supply, wastewater reuse and water-body condition.',
+          'Technology Sub-Mission and IEC (Information, Education & Communication) components.',
+          'Emphasis on a circular water economy: recycled and reused wastewater, reduction of Non-Revenue Water (NRW).',
+          '⭐ Carries the GIS-based Master Plan sub-scheme (~₹515 cr, geo-referenced base and land-use maps at 1:4000, TCPO nodal, NRSC contracted for the geospatial database). This is your GIS bridge — see the Correlation brief.',
+          '⚠️ Does NOT fund ICCC operating costs. It is water/sewerage infrastructure and largely capital. Never cite it for O&M.',
+        ],
+      },
+      {
+        heading: 'PMAY-U — Pradhan Mantri Awas Yojana (Urban)',
+        body:
+          'Housing for eligible urban households. Know the four verticals by name — this is the standard question.',
+        bullets: [
+          'BLC — Beneficiary-Led Construction: assistance to individual eligible families to build or enhance their own house.',
+          'AHP — Affordable Housing in Partnership: housing built with public or private partners.',
+          'ISSR — In-Situ Slum Redevelopment: redevelopment using land as a resource.',
+          'CLSS — Credit Linked Subsidy Scheme: interest subsidy on home loans (this vertical has been closed for new cases under the original mission).',
+          'PMAY-U 2.0 launched 2024, continuing the housing mandate with revised verticals including an Interest Subsidy Scheme and Affordable Rental Housing.',
+        ],
+      },
+      {
+        heading: 'SBM-U 2.0 — Swachh Bharat Mission (Urban)',
+        body:
+          'Phase 2 runs 2021–2026. Phase 1 was about toilet access and open-defecation-free status; Phase 2 is about garbage-free cities and the waste value chain.',
+        bullets: [
+          'Goal: "Garbage Free Cities" — measured through the Star Rating protocol.',
+          'Sanitation ladder: ODF → ODF+ (functional, maintained toilets) → ODF++ (safe containment, treatment and disposal of faecal sludge) → Water+ (treated wastewater, no untreated discharge).',
+          'Source segregation at household level, 100% door-to-door collection, scientific processing of waste.',
+          'Remediation of legacy dumpsites — clearing historical landfills.',
+          'Swachh Survekshan — the annual national cleanliness survey and ranking.',
+        ],
+      },
+      {
+        heading: 'DAY-NULM — the "Poverty Alleviation" half of the department name',
+        body:
+          'Deendayal Antyodaya Yojana – National Urban Livelihoods Mission. This is the component most IT candidates forget exists, despite it being in the department\'s title.',
+        bullets: [
+          'SEP — Self-Employment Programme: subsidised credit for individual and group enterprises.',
+          'EST&P — Employment through Skills Training & Placement.',
+          'SM&ID — Social Mobilisation & Institution Development: forming and supporting Self-Help Groups (SHGs) and their federations.',
+          'SUH — Shelter for Urban Homeless: permanent, all-weather shelters.',
+          'SUSV — Support to Urban Street Vendors: surveys, vendor ID cards, vending zones (links to the Street Vendors Act, 2014 and PM SVANidhi).',
+        ],
+      },
+      {
+        heading: 'Town & Country Planning',
+        bullets: [
+          'Master plans, land-use zoning, development control regulations, and building permission.',
+          'Aizawl has a published long-range plan — "Master Plan for Aizawl: Vision 2030".',
+          'Directly dependent on reliable spatial land data, which is the bridge to your DILRMP work.',
+        ],
+      },
+      {
+        heading: 'The framework that replaced Smart Cities',
+        body:
+          'NUDM — the National Urban Digital Mission — is the post-SCM umbrella for urban digital governance (shared digital infrastructure, data standards, capacity building). Citing NUDM rather than the closed Smart Cities Mission signals you are current.',
+      },
+    ],
+  },
+
+  // ------------------------------------------------------------------
+  {
+    id: 'mizoram-context',
+    title: 'Aizawl & Mizoram — the urban context',
+    glyph: '🏔️',
+    tagline: 'Demographics, local bodies, and the city-specific problems worth naming.',
+    sections: [
+      {
+        heading: 'The statistic most candidates will not know',
+        body:
+          'Mizoram is one of India\'s most urbanised states — roughly 51.5% urban at the 2011 Census, the highest in the North-East and around fifth nationally. That is a genuinely striking fact for a hill state, and it is the single best justification for why a dedicated urban development department and a PSU like MUDAL exist here at all.',
+        bullets: [
+          'Mizoram population (2011 Census): about 10.91 lakh — roughly 5.62 lakh urban (51.5%) against 5.29 lakh rural.',
+          'Aizawl dominates: over half of the state\'s entire urban population lives in the Aizawl area. Aizawl city was about 2.93 lakh at the 2011 Census.',
+          'UD&PA covers 28 towns; Aizawl is the only one that was a Smart City.',
+          '⚠️ These are 2011 Census figures — the most recent full census available. Say "as per the 2011 Census" rather than implying they are current.',
+        ],
+      },
+      {
+        heading: 'Urban local bodies',
+        bullets: [
+          'AMC — Aizawl Municipal Corporation, the urban local body for the city, with elected councillors across its wards.',
+          'Below AMC sit Local Councils (LCs) — Mizoram\'s distinctive neighbourhood-level institutions, which handle very local administration and are a real channel for citizen demand.',
+          'MUDAL works alongside AMC rather than replacing it — for example the "Catch the Rain 2026" water-conservation outreach was run jointly across 10 Aizawl locations.',
+          '⚠️ Confirm your own ward number and Local Council President for Chanmari before the interview — check amcmizoram.com or ask at the Local Council office.',
+        ],
+      },
+      {
+        heading: 'Aizawl\'s actual urban problems — name these, they are specific',
+        bullets: [
+          'Terrain. Aizawl is built along steep ridges. This drives everything: road width, drainage, construction cost, fibre/network backhaul, and emergency access.',
+          'Landslide and slope stability — a recurring, life-threatening risk during monsoon, worsened by hillside construction.',
+          'Water scarcity and distribution. Supply is a persistent constraint; the 37 MLD water treatment plant was damaged by Cyclone Remal and resumed operation around April 2025.',
+          'Solid waste — limited flat land for processing sites, and collection over steep gradients.',
+          'Traffic congestion and parking on narrow ridge roads; this is precisely why ANPR and the ICCC matter here.',
+          'Unplanned/organic growth ahead of formal planning, which is why master-planning and land-use data matter.',
+        ],
+      },
+      {
+        heading: 'Connectivity changes worth knowing',
+        body:
+          'The Bairabi–Sairang railway line brought rail to the Aizawl area, and large infrastructure investment has been announced for the region. Improved connectivity generally accelerates urban growth and land-use pressure — which is an argument for getting spatial planning data right now rather than later. Useful as a forward-looking point if asked where urban development in Aizawl is heading.',
+      },
+    ],
+  },
+
+  // ------------------------------------------------------------------
+  {
+    id: 'projects-and-next',
+    title: '⭐ Projects delivered, and what you would propose',
+    glyph: '🚧',
+    tagline: 'What ASCL actually built, and concrete improvements you can offer.',
+    sections: [
+      {
+        heading: 'What was actually delivered under Aizawl Smart City',
+        body:
+          'Know a handful of these by name. Being able to cite specific projects — rather than talking about "Smart City work" in the abstract — separates you immediately.',
+        bullets: [
+          'ICCC (Integrated Command & Control Centre) — ₹87.18 cr, inaugurated 1 April 2023 by the Union Home Minister. The flagship.',
+          'Solid Waste Management facility — reported at roughly ₹41 crore, including an incineration unit and an automated Material Recovery Facility of about 75 TPD. Sites at Luangmual, including a Plastic Waste Management Centre.',
+          'Water supply — a 37 MLD water treatment plant (damaged by Cyclone Remal, resumed around April 2025), plus further water treatment investment reported at roughly ₹184 crore.',
+          'Chaltlang Multi-Purpose Sports Complex.',
+          'Laldenga Cultural Centre.',
+          'City Centre commercial complex — reported around 50–60% complete in 2024 with completion expected by December 2026.',
+          'Aizawl Smart City received a Smart City Best Infrastructure Award at the 2024 Smart City Conclave in Delhi.',
+          '⚠️ Delivery was slow overall — only about 3 of 43 projects were functional as of mid-2023, with COVID cited. Know this; do not pretend the record was flawless.',
+        ],
+      },
+      {
+        heading: 'What you would propose — 1. A unified urban asset GIS',
+        body:
+          'This is your strongest original proposal because it merges your GIS background with the actual problem MUDAL has.',
+        bullets: [
+          'Every ICCC camera, Wi-Fi node, VMD board, streetlight, water line and waste facility as a mapped feature with attributes attached: install date, vendor, AMC status and expiry, condition, last maintenance.',
+          'Solves the asset-register problem a new PSU inheriting a wound-up SPV genuinely has.',
+          'Directly reuses what you built at DILRMP — spatial data with administrative attributes attached.',
+          'Also feeds AMRUT\'s GIS master-plan requirement rather than being a standalone system.',
+        ],
+      },
+      {
+        heading: 'What you would propose — 2. Property tax base mapping',
+        bullets: [
+          'Link parcels and buildings to the municipal tax roll spatially, so unassessed and under-assessed properties become visible.',
+          'This is the genuine meeting point of land records and urban revenue — and you have worked the land-records side, which almost no IT candidate will have.',
+          'It is a revenue-positive proposal, which matters in an organisation whose central funding just ended.',
+        ],
+      },
+      {
+        heading: 'What you would propose — 3. Digitise the permission and records backlog',
+        bullets: [
+          'UD&PA and AMC hold decades of building permission files, property records, DPRs and scheme beneficiary records under PMAY-U and NULM.',
+          'This is exactly the workflow you ran at DILRMP: scan, clean, sort, index, attach to the right record, make it retrievable.',
+          'Low technical risk, high administrative payoff, and demonstrably within your proven capability.',
+        ],
+      },
+      {
+        heading: 'What you would propose — 4. Make the ICCC earn its keep',
+        bullets: [
+          'SWM fleet tracking — GPS on waste collection vehicles, surfaced on the ICCC dashboard. Standard practice nationally, directly supports SBM-U reporting.',
+          'Water SCADA integration — pipe the treatment plant and distribution telemetry into the same control room, supporting AMRUT\'s Non-Revenue Water reduction targets.',
+          'Slope and landslide monitoring in the monsoon — an Aizawl-specific use that no generic ICCC deployment would have.',
+          'The argument to make: an ICCC that only does surveillance is a cost centre; an ICCC that also carries waste, water and disaster functions becomes shared infrastructure several schemes can justify funding.',
+        ],
+      },
+      {
+        heading: 'What you would propose — 5. One citizen grievance channel',
+        bullets: [
+          'A single intake for complaints across water, waste, streetlights and roads, routed to the responsible wing with a tracked ticket and response time.',
+          'Needs no new hardware — it is process and software, which is the cheapest possible improvement to offer a budget-constrained agency.',
+          'Generates exactly the usage data that later justifies where to spend on assets.',
+        ],
+      },
+      {
+        heading: 'How to deploy these in the room',
+        body:
+          'Do not recite all five. Pick the one that matches the question, explain it in three sentences (name it → mechanism → consequence), and tie it back to something you have already done. If asked an open "how would you improve things?", lead with the unified asset GIS — it is the one only you could propose.',
+      },
+    ],
+  },
+
+  // ------------------------------------------------------------------
+  {
     id: 'mudal',
     title: 'MUDAL — dossier',
     glyph: '🏗️',

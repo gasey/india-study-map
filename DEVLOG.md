@@ -9,6 +9,50 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep: scheme detail, Mizoram context, and improvement proposals
+
+**What shipped:** three new briefs (10 → 13), filling the gap between
+"knows the scheme names" and "can actually discuss them".
+
+1. **`schemes` — UD&PA schemes in detail.** Each scheme expanded to its
+   real components: AMRUT 2.0 (water security, Pey Jal Survekshan, circular
+   water economy, NRW, plus the GIS master-plan sub-scheme), PMAY-U (the
+   four verticals BLC / AHP / ISSR / CLSS, and PMAY-U 2.0), SBM-U 2.0 (the
+   ODF → ODF+ → ODF++ → Water+ ladder, star rating, legacy dump
+   remediation, Swachh Survekshan), DAY-NULM (SEP / EST&P / SM&ID / SUH /
+   SUSV — the component IT candidates forget exists despite it being half
+   the department's name), plus TCP and NUDM.
+2. **`mizoram-context` — Aizawl & Mizoram.** Researched, not assumed:
+   Mizoram was ~51.5% urban at the 2011 Census (highest in the North-East,
+   ~5th nationally) against a state population of ~10.91 lakh; over half the
+   state's urban population is in Aizawl (~2.93 lakh in 2011). Also AMC and
+   the Local Council layer, and the city-specific problems worth naming —
+   terrain, landslide risk, water scarcity, waste over gradients, ridge-road
+   congestion. Census figures are explicitly labelled 2011 so they aren't
+   quoted as current.
+3. **`projects-and-next` — what ASCL built, and what he'd propose.**
+   Delivered projects with figures (ICCC ₹87.18 cr; SWM facility ~₹41 cr
+   with incineration and a ~75 TPD MRF at Luangmual; 37 MLD WTP damaged by
+   Cyclone Remal, resumed ~Apr 2025; further water investment ~₹184 cr;
+   Chaltlang sports complex; Laldenga Cultural Centre; City Centre complex
+   ~50–60% in 2024, due Dec 2026; Best Infrastructure Award 2024) — with the
+   slow-delivery record kept in rather than airbrushed. Then five concrete
+   proposals, led by a **unified urban asset GIS**, which is the one that
+   merges his DILRMP background with the asset-register problem a new PSU
+   inheriting a wound-up SPV actually has.
+
+**Why:** he asked for full coverage of the schemes and Mizoram/Aizawl
+specifics, and for forward-looking "how would you improve this" material.
+Previously each scheme was a single line — enough to name, not enough to
+discuss.
+
+**What's still open:** unchanged — CMES join date, B.E. aggregate, HSSLC /
+HSLC percentages, category, PIN, certificate names, Chanmari AMC ward and
+Local Council President. Verified via `tsc --noEmit` (clean) and a browser
+pass: Briefs 13, search matches across old and new scheme content.
+
+---
+
 ## 2026-09-21 — Interview Prep: mock-interview findings, and two corrections to my own earlier advice
 
 **What shipped:** ran a full mock panel (administrative chairman / technical

@@ -652,11 +652,24 @@ export const briefs: Brief[] = [
           'Master plans, land-use zoning and building/development permissions all sit on top of parcel-level land data. A TCP wing without reliable spatial land records is working blind. That is the same dependency you spent two years servicing.',
       },
       {
-        heading: 'Bridge 4 — the same centrally-sponsored delivery machinery',
+        heading: '⭐ Bridge 4 — you have never left centrally-sponsored scheme delivery',
+        body:
+          'This is the strongest single framing available to you, and it only became visible once PMGSY entered the picture. Three consecutive roles, all inside centrally-sponsored scheme delivery, all involving spatial data:',
         bullets: [
-          'DILRMP and AMRUT / SCM / PMAY-U are the same architecture: central mission, state implementing department, MIS and dashboard reporting upward, fund release tied to demonstrated progress.',
-          'You already know how that discipline feels from the inside — physical verification, geo-tagging, progress reporting, audit trails.',
-          'This is a genuine differentiator over a purely private-sector candidate.',
+          'DILRMP (Ministry of Rural Development) — land records, GIS, database consolidation.',
+          'PMGSY (Ministry of Rural Development) — rural roads, at your current firm. Digital stack: OMMAS for the MIS, GRRIS and Geo-PMGSY for geospatial data, e-MARG for maintenance.',
+          'MUDAL (MoHUA schemes — AMRUT, PMAY-U, SBM-U, Smart City legacy) — what you are applying for.',
+          'All three share one architecture: central mission, State implementing body, MIS and dashboard reporting upward, geo-tagging and physical verification, fund release tied to demonstrated progress.',
+          'The consequence worth stating out loud: you would not be learning how centrally-sponsored schemes work. You would be applying it to urban instead of rural.',
+        ],
+      },
+      {
+        heading: 'Bridge 4b — the MIS parallel is exact',
+        bullets: [
+          'OMMAS tracks proposal → sanction → fund release → utilisation → work progress → completion, with per-road expenditure. UD&PA runs structurally identical reporting for AMRUT, PMAY-U and SBM-U to MoHUA.',
+          'Geo-tagging of assets under PMGSY is the same discipline as geo-tagging urban assets and scheme beneficiaries.',
+          'e-MARG handles post-construction maintenance — conceptually the same problem as ICCC AMC and asset maintenance tracking at MUDAL.',
+          'If asked what you would build for MUDAL, this is where the unified urban asset GIS proposal comes from: you have now seen the same pattern solved twice, for land and for roads.',
         ],
       },
       {
@@ -755,6 +768,41 @@ export const briefs: Brief[] = [
         heading: 'Open items to confirm',
         body:
           '⚠️ Still unsettled: your exact join date (you have said "November", almost certainly 2025), the DILRMP end date it must not overlap or gap awkwardly with, and the exact registered spelling of the company name. A date that conflicts with your own experience certificate is an unforced error at Document Screening — fix it before, not in the room.',
+      },
+      {
+        heading: '⭐ PMGSY — the fact that changes your whole narrative',
+        body:
+          'CM Engineering & Solution works on PMGSY — the Pradhan Mantri Gram Sadak Yojana, the Ministry of Rural Development\'s rural road connectivity scheme. This is not a minor detail. It means your current employer is a delivery partner for a centrally-sponsored government scheme, not merely a private firm.',
+        bullets: [
+          'It converts "I left government for the private sector" into something far better: you have never actually left centrally-sponsored scheme delivery. You moved from one to another.',
+          'The line to use: "I have worked on three centrally-sponsored schemes in a row — DILRMP at the Directorate, PMGSY at my current firm, and now I am applying to work on AMRUT, PMAY-U and the Smart City legacy at MUDAL. It is the same delivery environment throughout."',
+          'That single sentence answers the gap question, the why-leave-government question, and the why-MUDAL question simultaneously — which is exactly the consistency the panel is testing for.',
+        ],
+      },
+      {
+        heading: 'PMGSY\'s digital stack — know these names',
+        body:
+          'PMGSY is one of the most heavily digitised schemes in Indian government, and its systems are direct analogues of what UD&PA runs. Naming them shows you understand scheme IT, not just software.',
+        bullets: [
+          'OMMAS — Online Management, Monitoring and Accounting System. The web-based MIS covering the full lifecycle: proposal, sanction, fund release, utilisation, work progress and completion, with a separate module tracking per-road expenditure.',
+          'GRRIS — Geospatial Rural Road Information System.',
+          'Geo-PMGSY — geo-tagging of roads and facilities; geo-spatial data is downloadable per State from OMMAS.',
+          'e-MARG — Electronic Maintenance of Rural Roads, for post-construction maintenance management.',
+          'Meri Sadak — the citizen complaint app.',
+          'National Quality Monitors — third-party inspection and quality assurance.',
+          '⚠️ Confirm exactly what your firm does on PMGSY (DPR preparation? survey and alignment? OMMAS data entry? quality monitoring?) and how much of it you personally touched. Do not imply more involvement than you had.',
+        ],
+      },
+      {
+        heading: 'Services CM Engineering & Solution provides',
+        bullets: [
+          'Consultancy for civil engineering and architecture.',
+          'Architectural drawing and architectural engineering services.',
+          'Architecture planning services.',
+          'Engineering drawings.',
+          'PMGSY rural road work.',
+          'Software development, via the IT division you lead — currently the Shiksha platform.',
+        ],
       },
       {
         heading: 'Setting up the IT function — use this, it is undersold',

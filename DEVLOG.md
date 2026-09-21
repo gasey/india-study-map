@@ -9,6 +9,53 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep: PMGSY, and the narrative it unlocks
+
+**What shipped:** the candidate mentioned in passing that CM Engineering &
+Solution also works on **PMGSY** (Pradhan Mantri Gram Sadak Yojana, Ministry
+of Rural Development). That single fact is the most valuable thing to come
+out of this whole preparation, and it was nearly lost as an aside.
+
+**Why it matters:** his employer is not merely a private civil firm — it is
+a delivery partner for a centrally-sponsored government scheme. That turns
+three separate, individually-awkward facts into one coherent career:
+
+- DILRMP (MoRD) — land records, GIS, database consolidation
+- PMGSY (MoRD) — rural roads, at the current firm
+- MUDAL (MoHUA schemes) — what he's applying for
+
+All three are the same architecture: central mission, State implementing
+body, MIS reporting upward, geo-tagging, fund release against demonstrated
+progress. The line now written into both files — *"I have worked on three
+centrally-sponsored schemes in a row… it has been the same delivery
+environment throughout"* — answers the 2019–2023 gap, the
+left-government-for-private move, and why-MUDAL **simultaneously**, which is
+exactly the consistency the mock panel was probing for.
+
+**Researched before writing** (having been burned once by the AMRUT claim):
+PMGSY's digital stack is genuinely deep and the names are worth knowing —
+**OMMAS** (the MIS: proposal → sanction → fund release → utilisation →
+progress → completion, with per-road expenditure), **GRRIS** (Geospatial
+Rural Road Information System), **Geo-PMGSY** (geo-tagging, per-State
+geospatial downloads), **e-MARG** (post-construction maintenance), **Meri
+Sadak** (citizen complaints), and National Quality Monitors.
+
+The OMMAS ↔ UD&PA parallel is exact and now has its own section: UD&PA runs
+structurally identical scheme reporting to MoHUA, and e-MARG's maintenance
+tracking is conceptually the ICCC AMC problem.
+
+**Also added:** a full services list for the firm, and a ⚠️ telling him to
+confirm exactly what CMES does on PMGSY (DPR? survey and alignment? OMMAS
+data entry? quality monitoring?) and how much he personally touched — the
+worst outcome here would be implying more involvement than he had.
+
+**What's still open:** unchanged — CMES join date, B.E. aggregate, HSSLC /
+HSLC percentages, category, PIN, certificate names, Chanmari AMC ward and
+Local Council President; plus the new item above on his actual PMGSY scope.
+Verified via `tsc --noEmit` (clean) and a browser pass.
+
+---
+
 ## 2026-09-21 — Interview Prep: scheme detail, Mizoram context, and improvement proposals
 
 **What shipped:** three new briefs (10 → 13), filling the gap between

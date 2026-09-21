@@ -9,6 +9,63 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep: CMES resolved, and the civil-org parallel
+
+**What shipped:** the employer question is answered. CMES = **CM Engineering
+Solutions**, a primarily *civil-engineering* firm; the candidate works in its
+newly established IT division, which builds Shiksha. The role is remote, at
+the same pay as the previous DILRMP post.
+
+- `questions.ts` — rewrote `employer-cmes` with the real description, added
+  `civil-org-it-parallel`, and rewrote `why-left-government` now that the
+  actual situation is known (he took the CMES role while continuing to
+  prepare for government service).
+- `briefs.ts` — the Shiksha brief now opens with *who the employer is*
+  before describing the product, and gains a section on having built the
+  IT function from scratch.
+
+**The insight worth keeping:** MUDAL advertised 2 AE (Civil) + 4 JE (Civil)
+against 1 System Analyst + 1 System Manager — it is a civil-engineering
+organisation with a small IT function. That is structurally identical to
+CMES. He is *already* the IT person in a civil-engineering firm, and he
+built that function from nothing. That is a far stronger argument than the
+generic "I have relevant skills", so it now has its own question entry.
+
+**The framing risk, flagged explicitly in the data:** the honest reason for
+the interim role ("it let me keep preparing for government exams") is
+dangerous said plainly — it reads as treating employment as a waiting room,
+and the panel will extrapolate to MUDAL. The `why-left-government` points
+now lead with that trap before giving the continuity-of-intent reframe.
+
+**Employer details now verified.** My own two searches found nothing; the
+candidate supplied an IndiaMART listing that resolved it. Registered name is
+**"CM Engineering & Solution"** — ampersand, and **"Solution" singular** —
+not "CM Engineering Solutions" as first written here and in the CV. Both are
+now corrected. It is a **Partnership** firm in Aizawl, GSTIN
+15AAGFC0655D1ZY (15 = Mizoram; the `F` in the PAN segment independently
+confirms partnership status), listed business architectural drawing /
+architectural engineering / architecture planning / engineering drawings —
+consistent with "mostly civil work".
+
+A second directory (TradeIndia) corroborated the name and line of business
+exactly, and names the same principal (Mr. Dhananjay Kumar) — but gives a
+**Gurugram, Haryana** address and establishment year **2014**, against
+IndiaMART's Aizawl address and 2022 GST date. Most plausible reading is a
+Haryana firm holding a Mizoram GST registration, which fits the remote
+arrangement — but that is inference, so both files flag it as something the
+candidate must confirm from his own offer letter rather than assert.
+
+**What's still open:** join date ("November", almost certainly 2025) and the
+DILRMP end date remain unconfirmed; so do the registered office address and
+whether the firm is a partnership or proprietorship. Chanmari AMC ward /
+Local Council President still unverified. CV
+defect from the last review is **fixed** — it now names CM Engineering &
+Solution (CMES) as employer with Shiksha as the product. Verified via
+`tsc --noEmit` (clean) and a browser pass: Q&A now 79, both new entries
+render; grepped to confirm no stale plural "Solutions" survives anywhere.
+
+---
+
 ## 2026-09-21 — Interview Prep: Concepts tab (72 explanations) + two missing question sets
 
 **What shipped:** third tab on `/interview`, plus two Q&A gaps closed.

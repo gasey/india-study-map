@@ -407,9 +407,24 @@ export const briefs: Brief[] = [
     tagline: 'What you build now, and what it proves you can do for MUDAL.',
     sections: [
       {
-        heading: 'What it is',
+        heading: 'Who the employer actually is',
         body:
-          'Shiksha (shikshacom.com) is a full-stack education platform built at CMES, where you are Programmer and Team Leader. It runs two products on one shared account system: Academy — structured Class 8–12 board coursework taught by approved faculty, sold as per-course subscriptions; and Skill Dev — a marketplace of screened guest experts offering one-to-one sessions and self-paced skill courses. Currently in internal testing ahead of public rollout.',
+          'CM Engineering & Solution provides consultancy for civil engineering and architecture — architectural drawing, architectural engineering, architecture planning, engineering drawings. You work in its IT division, a branch the firm established, and you lead its software team. The division\'s main product is Shiksha. The "CM" derives from the proprietor\'s family initials, not from a technical term.',
+        bullets: [
+          'Exact registered name: "CM Engineering & Solution" — ampersand, "Solution" singular. Confirmed identically on two independent trade directories, so this is the form to use.',
+          'Mr. Dhananjay Kumar is named as principal/contact in both listings.',
+          'GSTIN 15AAGFC0655D1ZY — 15 is the Mizoram state code; the "F" in the PAN segment indicates a partnership firm.',
+          '⚠️ The two listings conflict on location: one shows Aizawl, Mizoram; the other a Gurugram, Haryana address with establishment year 2014. Probably a Haryana firm holding a Mizoram GST registration, which fits your remote arrangement — but verify from your own offer letter rather than guessing.',
+          '⚠️ Settle before the interview: registered office address, and whether it is a partnership or a proprietorship. "Where is your company based?" is an easy question to stumble on.',
+          'No company website, but it is verifiable via GST-registered directory listings. Still carry your offer letter, experience certificate and salary slips to Document Screening.',
+          'The role is remote, at the same pay as your DILRMP post.',
+          'This matters more than it looks: you are the IT function inside a civil-engineering organisation, which is structurally identical to what a System Manager is at MUDAL (2 AE Civil + 4 JE Civil versus 1 System Analyst + 1 System Manager).',
+        ],
+      },
+      {
+        heading: 'What Shiksha is',
+        body:
+          'Shiksha (shikshacom.com) is the full-stack education platform CMES\'s IT division builds, and the system you lead development on. It runs two products on one shared account system: Academy — structured Class 8–12 board coursework taught by approved faculty, sold as per-course subscriptions; and Skill Dev — a marketplace of screened guest experts offering one-to-one sessions and self-paced skill courses. Currently in internal testing ahead of public rollout.',
       },
       {
         heading: 'The architecture (have this ready, do not lead with it)',
@@ -453,7 +468,15 @@ export const briefs: Brief[] = [
       {
         heading: 'Open items to confirm',
         body:
-          '⚠️ You still need to settle the full expansion of "CMES" and your exact join date before the interview. An employer acronym you cannot expand, or a join date that conflicts with your experience certificate, is an unforced error at Document Screening.',
+          '⚠️ Still unsettled: your exact join date (you have said "November", almost certainly 2025), the DILRMP end date it must not overlap or gap awkwardly with, and the exact registered spelling of the company name. A date that conflicts with your own experience certificate is an unforced error at Document Screening — fix it before, not in the room.',
+      },
+      {
+        heading: 'Setting up the IT function — use this, it is undersold',
+        bullets: [
+          'You did not join an existing software team. CMES established the IT branch and you built its engineering practice: process, technical standards, documentation, and the delivery plan the team now works from.',
+          'MUDAL is in the same position — a two-month-old PSU with no established IT SOPs, inheriting systems from a wound-up SPV.',
+          'So the honest pitch is not "I can maintain your systems." It is "I have already built a technical function inside an engineering organisation that had none, and that is precisely the task in front of MUDAL right now."',
+        ],
       },
     ],
   },

@@ -201,6 +201,16 @@ export const modules: AppModule[] = [
     path: '/mpsc-system-manager/index.html',
   },
   {
+    id: 'interview',
+    title: 'MUDAL Interview Prep',
+    category: 'Practice',
+    subgroup: 'Exam guides',
+    tagline: 'Likely questions — org, technical syllabus, local affairs, scenarios',
+    glyph: '🎤',
+    kind: 'route',
+    path: '/interview',
+  },
+  {
     id: 'practice-hub-2',
     title: 'MPSC Practice Hub 2',
     category: 'Practice',

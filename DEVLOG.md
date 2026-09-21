@@ -9,6 +9,51 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep: the employment-gap answers, and a canonical timeline
+
+**What shipped:** the candidate shared his previous CV, which surfaced a
+four-year gap nobody had accounted for — B.E. completed **2019**, first job
+(DILRMP) started **Aug 2023**.
+
+- `questions.ts` — added `gap-2019-2023` (the big one: preparation for
+  government service, with COVID cited as *partial* context only, since it
+  doesn't cover 2019 or most of 2023) and `gap-2025` (the possible ~3-month
+  Aug→Nov 2025 gap, which mainly needs a short calm answer, not a defence).
+- `briefs.ts` — the intro brief gains **"Your timeline — memorise this,
+  never contradict it"** (full chronology 2003→2026) and **"The two gaps,
+  and the one story that covers both"**.
+
+**The load-bearing point:** the gap answer, the "why leave government"
+answer, and "why MUDAL" must resolve into *one* narrative — sustained
+orientation toward public service. Three individually-true but differently-
+framed answers read as inconsistency. That's now stated explicitly in both
+files rather than left implicit.
+
+**Best available corroboration, and it's already in this repo:** the MPSC
+Question Bank (3,715 papers → 77,751 questions) and the 843-question MUDAL
+module are documentary evidence that the gap years were structured
+preparation, not drift. Worth more than any claim he could make verbally.
+
+**Also flagged:** if his 1-year computer diploma falls inside 2019–2023, it
+converts gap time into a documented qualification — marked ⭐ in both files
+as something to check.
+
+**Data recovered from the old CV** (now filled into all CV variants): phone,
+A/77 Chanmari address, father Saihmingliana Sailo, mother Lalthianghlimi,
+Kendriya Vidyalaya Aizawl (CBSE), HSLC 2013, HSSLC 2015, B.E. 2019. The old
+CV also described DILRMP as "2 years", which with an Aug 2023 start
+corroborates **Aug 2023 – Aug 2025**, so that's no longer a placeholder.
+
+**What's still open:** CMES join date (still only "November"); B.E.
+aggregate (7 listed semesters compute to 48.92%, 8th semester absent from
+the old CV — the advertisement sets no minimum for System Manager);
+HSSLC/HSLC percentages; category; PIN; certificate names. Chanmari AMC ward
+/ Local Council President still unverified. Verified via `tsc --noEmit`
+(clean) and a browser pass: Q&A 81, About You category 12, timeline section
+renders.
+
+---
+
 ## 2026-09-21 — Interview Prep: CMES resolved, and the civil-org parallel
 
 **What shipped:** the employer question is answered. CMES = **CM Engineering

@@ -121,6 +121,30 @@ export const interviewCategories: InterviewCategory[] = [
         ],
       },
       {
+        id: 'gap-2019-2023',
+        q: 'You graduated in 2019 but your first job started in August 2023. What were you doing in those four years?',
+        points: [
+          'Treat this as a bigger question than the CMES one. Four years is long enough that the panel will ask, and an evasive answer does far more damage than the gap itself.',
+          'The honest core: you were preparing for government service. Say it directly and without apology — this is an extremely common trajectory for Indian engineering graduates, and several candidates in this same process will have a similar gap.',
+          'COVID is legitimate context but do NOT lean on it for the whole four years. Recruitment and exam cycles across India were genuinely disrupted through roughly 2020–2022, which is verifiable and fair to cite — but it does not cover 2019 or most of 2023, so citing it as a blanket excuse invites a follow-up you cannot answer.',
+          '⭐ Check your dates: if your 1-year computer diploma falls inside this window, lead with it. It is documentable, it fills the time productively, and it converts "gap" into "qualification" in one sentence.',
+          'Show activity, not absence. Name what you actually did: sustained exam preparation, self-directed technical work, and building your own study tooling. Your MPSC Question Bank — 3,715 papers processed into 77,751 questions — is literal, verifiable evidence that this was serious, structured preparation rather than drifting.',
+          'Then land it: the preparation worked. You secured a government programmer post in 2023, and you have cleared the written examination for this one. That is the proof the time was not wasted.',
+          'Never invent employment you cannot document. If there was freelance or project work, name it plainly and be ready to describe it; if there was not, do not manufacture it.',
+          '⚠️ Consistency check: this answer and your "why leave government" answer must tell one story — a consistent orientation toward public service throughout. If the gap answer says "preparing for government jobs" and the CMES answer implies something else, the panel will notice.',
+        ],
+      },
+      {
+        id: 'gap-2025',
+        q: 'There is a short gap between August 2025 and your CMES start date. Why?',
+        points: [
+          '⚠️ First confirm whether this gap actually exists — it depends on your exact CMES join date, which you still have not pinned down. If DILRMP ended August 2025 and CMES began November 2025, that is roughly three months.',
+          'A gap of a few months between roles is unremarkable and needs no elaborate justification. A short, calm answer is correct: the DILRMP engagement concluded, and you took up the CMES role shortly after.',
+          'Do not over-explain. Over-justifying a three-month gap makes it sound like there is something to hide.',
+          'If you were interviewing, preparing, or completing certification in that window, say so in one clause and move on.',
+        ],
+      },
+      {
         id: 'why-left-government',
         q: 'You left government service for the private sector. Why do you want to come back?',
         points: [

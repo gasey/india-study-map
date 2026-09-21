@@ -52,6 +52,29 @@ export const briefs: Brief[] = [
         ],
       },
       {
+        heading: 'Your timeline — memorise this, never contradict it',
+        body:
+          'Every date below should come out of your mouth identically each time it is asked, and must match your certificates. Inconsistent dates are the single easiest way to lose credibility at Document Screening.',
+        bullets: [
+          '2003–2015 — Kendriya Vidyalaya, Aizawl (CBSE). HSLC 2013, HSSLC 2015.',
+          '2015–2019 — B.E. Computer Science & Engineering, Jorhat Engineering College, Dibrugarh University.',
+          '2019 – Aug 2023 — preparing for government service. Recruitment cycles nationally were disrupted roughly 2020–2022. ⭐ If your 1-year computer diploma falls in this window, it belongs here.',
+          'Aug 2023 – Aug 2025 — Programmer, Directorate of Land Revenue & Settlement, Govt. of Mizoram (DILRMP).',
+          '⚠️ [confirm] 2025 – present — Programmer & Team Leader, CM Engineering & Solution, IT division (Shiksha). You have said "November"; confirm the exact month and year against your offer letter.',
+          '2026 — cleared the MUDAL System Manager written examination.',
+        ],
+      },
+      {
+        heading: 'The two gaps, and the one story that covers both',
+        body:
+          'There are two gaps in that timeline: a four-year one (2019 to Aug 2023) and possibly a short one (Aug 2025 to your CMES start). The four-year gap is the one that will be asked.',
+        bullets: [
+          'Both gaps, and your reason for wanting this post, should resolve into a single consistent narrative: you have been oriented toward government service throughout, and everything in between kept your skills current rather than idle.',
+          'The failure mode is telling three different stories — "I was preparing for exams" for the gap, "the contract ended" for DILRMP, and something unrelated for CMES. The panel hears inconsistency even if each answer is individually true.',
+          'Your strongest corroboration is not a claim but an artefact: the MPSC Question Bank (3,715 papers, 77,751 questions) and the 843-question MUDAL module are documentary evidence of sustained, structured preparation.',
+        ],
+      },
+      {
         heading: 'The plain-language rule',
         body:
           'Lead with what the work achieved for people, then one plain sentence on how, then stop. The panel is usually mixed — technical members plus administrative officers who will not follow acronyms, and Business Communication is itself a scored syllabus unit. Jargon-only reads as poor communication; vague-only reads as shallow. Layering demonstrates both.',

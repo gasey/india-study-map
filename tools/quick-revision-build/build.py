@@ -2,7 +2,9 @@
 """Build public/quick-practice/quick-revision/data.js from the staged extractions.
 
 The staged JSON under staged/ is the transcription of the four marked August-2026
-booklets (SAS-I and Staff Nurse, Paper-I English + Paper-II GK). Each question's
+booklets (SAS-I and Staff Nurse, Paper-I English + Paper-II GK), plus ten more
+papers imported from Practice Hub 2's April/May/July/January-2026 sittings via
+import_ph2.py (see that script's docstring for the field mapping). Each question's
 `answer` is the option the booklet highlighted in cyan — that is the only thing
 the source actually tells us, so it is what the app shows as the answer.
 
@@ -32,6 +34,14 @@ OUT = ROOT / "public/quick-practice/quick-revision/data.js"
 # reveal-or-score drill. It is preserved in the staged JSON under `partA` and
 # disclosed on the paper card rather than silently dropped.
 PART_A_NOTE = "Part-B MCQs only — Part-A is descriptive (essay, letter, précis) and has no marked answer."
+
+# Practice Hub 2's descriptive Part-A (essay, letter, précis) has no counterpart
+# in this app's schema and import_ph2.py drops it; this discloses that on the
+# paper card the same way PART_A_NOTE does for the hand-transcribed papers.
+PH2_DESCRIPTIVE_DROPPED_NOTE = (
+    "Descriptive prompts (essay, letter, précis) from this paper aren't included "
+    "here — only the MCQs are."
+)
 
 PAPERS = [
     {
@@ -71,6 +81,109 @@ PAPERS = [
         "id": "nurse-gk",
         "title": "Staff Nurse — General Knowledge",
         "subtitle": "Paper-II · Series A · August 2026",
+        "glyph": "📘",
+        "note": None,
+    },
+    # Imported from Practice Hub 2 — see import_ph2.py. These have no
+    # checks/*.json review file: any dispute is already embedded in the
+    # staged question by the importer, so "check" is left unset.
+    {
+        "src": "ph2-co-2026-p1.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "co-eng",
+        "title": "Circle Officer — General English",
+        "subtitle": "Paper-I · April 2026",
+        "glyph": "🔤",
+        "note": PH2_DESCRIPTIVE_DROPPED_NOTE,
+    },
+    {
+        "src": "ph2-co-2026-p2.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "co-gk",
+        "title": "Circle Officer — General Knowledge, Arithmetic & Reasoning",
+        "subtitle": "Paper-II · April 2026",
+        "glyph": "📘",
+        "note": None,
+    },
+    {
+        "src": "ph2-jao-2026-p1.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "jao-eng",
+        "title": "Junior Administrative Officer — General English",
+        "subtitle": "Paper-I · July 2026",
+        "glyph": "🔤",
+        "note": PH2_DESCRIPTIVE_DROPPED_NOTE,
+    },
+    {
+        "src": "ph2-jao-2026-p2.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "jao-gk",
+        "title": "Junior Administrative Officer — General Knowledge, Arithmetic & Reasoning",
+        "subtitle": "Paper-II · July 2026",
+        "glyph": "📘",
+        "note": None,
+    },
+    {
+        "src": "ph2-leso-2026-p1.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "leso-eng",
+        "title": "Assistant LESO — General English",
+        "subtitle": "Précis, Letter, Comprehension & Grammar · April 2026",
+        "glyph": "🔤",
+        "note": PH2_DESCRIPTIVE_DROPPED_NOTE,
+    },
+    {
+        "src": "ph2-leso-2026-p2.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "leso-gs",
+        "title": "Assistant LESO — General Studies",
+        "subtitle": "Current Affairs, GK & Mizoram · April 2026",
+        "glyph": "📘",
+        "note": None,
+    },
+    {
+        "src": "ph2-ri-2026-p1.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "ri-eng",
+        "title": "Research Investigator — General English",
+        "subtitle": "Paper-I · May 2026",
+        "glyph": "🔤",
+        "note": PH2_DESCRIPTIVE_DROPPED_NOTE,
+    },
+    {
+        "src": "ph2-ri-2026-p2.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "ri-gk",
+        "title": "Research Investigator — General Knowledge, Aptitude & Reasoning",
+        "subtitle": "Paper-II · May 2026",
+        "glyph": "📘",
+        "note": None,
+    },
+    {
+        "src": "ph2-si-stats-2026-p1.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "sistats-eng",
+        "title": "SI Statistics — General English",
+        "subtitle": "Paper-I · January 2026",
+        "glyph": "🔤",
+        "note": PH2_DESCRIPTIVE_DROPPED_NOTE,
+    },
+    {
+        "src": "ph2-si-stats-2026-p2.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "sistats-gk",
+        "title": "SI Statistics — General Mathematics & General Knowledge",
+        "subtitle": "Paper-II · January 2026",
         "glyph": "📘",
         "note": None,
     },
@@ -128,6 +241,8 @@ def load_disputes(spec, answers):
     not hypothetical: the first pass over the SAS-I English paper misread Q48's
     highlight and argued for the option that was in fact already marked.
     """
+    if not spec.get("check"):
+        return {}
     path = CHECKS / spec["check"]
     if not path.exists():
         return {}
@@ -189,6 +304,10 @@ def build():
             if q.get("keyAnswer") and q["keyAnswer"] != q.get("answer"):
                 rec["keyAnswer"] = q["keyAnswer"]
             focus, note = split_note(spec["src"][:-5], n, q.get("note"))
+            # Imported papers (see import_ph2.py) carry their own pre-resolved
+            # focus word instead of packing it into `note` with a magic prefix.
+            if not focus and q.get("focus"):
+                focus = q["focus"]
             if focus:
                 # The page underlines this inside the stem, so it has to be findable
                 # there. If the booklet's wording and the note ever drift apart, fail
@@ -203,7 +322,9 @@ def build():
                 rec["note"] = note
             if q.get("passage"):
                 rec["passage"] = q["passage"]
-            d = disputes.get(n)
+            # Imported papers embed their dispute directly on the question
+            # (they have no checks/*.json review file to load one from).
+            d = disputes.get(n) or q.get("dispute")
             if d:
                 # A dispute that just re-states the marked answer is noise.
                 if d["alt"] and d["alt"] == rec["answer"]:

@@ -3755,6 +3755,9426 @@ window.QR_DATA = {
      "answer": "a"
     }
    ]
+  },
+  {
+   "id": "co-eng",
+   "title": "Circle Officer — General English",
+   "subtitle": "Paper-I · April 2026",
+   "glyph": "🔤",
+   "note": "Descriptive prompts (essay, letter, précis) from this paper aren't included here — only the MCQs are.",
+   "exam": "Circle Officer (April 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "In the sentence: \"The constant exposure to curated and idealized representations of life often leads to unhealthy comparisions…\" Choose the word closest in meaning to curated in this context:",
+     "options": {
+      "a": "Random",
+      "b": "Carefully selected",
+      "c": "Overlooked",
+      "d": "Haphazard"
+     },
+     "answer": "b",
+     "focus": "curated",
+     "passage": "Read the following passage carefully and answer the questions that follow"
+    },
+    {
+     "n": 2,
+     "q": "In the sentence: \"It is important to acknowledge that social media is not inherently detrimental…\" Choose the word most opposite in meaning to inherently in the context of the passage:",
+     "options": {
+      "a": "Naturally",
+      "b": "Intrinsically",
+      "c": "Incidentally",
+      "d": "Fundamentally"
+     },
+     "answer": "c",
+     "focus": "inherently",
+     "passage": "Read the following passage carefully and answer the questions that follow"
+    },
+    {
+     "n": 3,
+     "q": "Still waters run deep.",
+     "options": {
+      "a": "Noun",
+      "b": "Adjective",
+      "c": "Verb",
+      "d": "Adverb"
+     },
+     "answer": "b",
+     "focus": "Still",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 4,
+     "q": "He knows better than to quarrel.",
+     "options": {
+      "a": "Adverb",
+      "b": "Noun",
+      "c": "Verb",
+      "d": "Adjective"
+     },
+     "answer": "a",
+     "focus": "better",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 5,
+     "q": "What most annoys me is his obstinacy.",
+     "options": {
+      "a": "Noun",
+      "b": "Verb",
+      "c": "Adjective",
+      "d": "Adverb"
+     },
+     "answer": "d",
+     "focus": "most",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 6,
+     "q": "Right the wrong.",
+     "options": {
+      "a": "Noun",
+      "b": "Adverb",
+      "c": "Verb",
+      "d": "Adjective"
+     },
+     "answer": "c",
+     "focus": "Right",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 7,
+     "q": "Since you say so, I believe it.",
+     "options": {
+      "a": "Relative pronoun",
+      "b": "Adverb",
+      "c": "Verb",
+      "d": "Conjunction"
+     },
+     "answer": "d",
+     "focus": "Since",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 8,
+     "q": "The near side of the moon is better known.",
+     "options": {
+      "a": "Adverb",
+      "b": "Adjective",
+      "c": "Preposition",
+      "d": "Verb"
+     },
+     "answer": "b",
+     "focus": "near",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 9,
+     "q": "He is but a child.",
+     "options": {
+      "a": "Conjunction",
+      "b": "Relative Pronoun",
+      "c": "Adverb",
+      "d": "Preposition"
+     },
+     "answer": "c",
+     "focus": "but",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 10,
+     "q": "He kept a fast for a week.",
+     "options": {
+      "a": "Adverb",
+      "b": "Adjective",
+      "c": "Noun",
+      "d": "Verb"
+     },
+     "answer": "c",
+     "focus": "fast",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 11,
+     "q": "The heavens declare the glory of God.",
+     "options": {
+      "a": "Collective Noun",
+      "b": "Abstract Noun",
+      "c": "Common Noun",
+      "d": "Proper Noun"
+     },
+     "answer": "c",
+     "focus": "heavens",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 12,
+     "q": "There is no excuse for such a behaviour.",
+     "options": {
+      "a": "Adjective",
+      "b": "Adverb",
+      "c": "Pronoun",
+      "d": "Preposition"
+     },
+     "answer": "d",
+     "focus": "for",
+     "passage": "Identify the appropriate Parts of Speech for the words underlined"
+    },
+    {
+     "n": 13,
+     "q": "The officials have the habit of fawning _______ ministers.",
+     "options": {
+      "a": "above",
+      "b": "at",
+      "c": "on",
+      "d": "in"
+     },
+     "answer": "c",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 14,
+     "q": "You cannot expect respect from him because he is lost _______ senses of shame.",
+     "options": {
+      "a": "in",
+      "b": "to",
+      "c": "into",
+      "d": "of"
+     },
+     "answer": "b",
+     "note": "source sentence is ungrammatical — the idiom is 'lost to all sense of shame', but the paper prints 'lost ___ senses of shame'",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 15,
+     "q": "You do not need to get up because the phone is lying _______ hand.",
+     "options": {
+      "a": "at",
+      "b": "in",
+      "c": "on",
+      "d": "from"
+     },
+     "answer": "a",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 16,
+     "q": "There is no limit _______ the wants of man.",
+     "options": {
+      "a": "for",
+      "b": "to",
+      "c": "in",
+      "d": "of"
+     },
+     "answer": "b",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 17,
+     "q": "The team was elated with joy _______ their victory.",
+     "options": {
+      "a": "of",
+      "b": "to",
+      "c": "from",
+      "d": "over"
+     },
+     "answer": "d",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 18,
+     "q": "He talks _______ his father.",
+     "options": {
+      "a": "like",
+      "b": "as",
+      "c": "from",
+      "d": "at"
+     },
+     "answer": "a",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 19,
+     "q": "The seminar is _______ 20th January, 2022.",
+     "options": {
+      "a": "in",
+      "b": "on",
+      "c": "Above",
+      "d": "at"
+     },
+     "answer": "b",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 20,
+     "q": "Can we expect the result of the examination _______ the end of June?",
+     "options": {
+      "a": "until",
+      "b": "on",
+      "c": "about",
+      "d": "by"
+     },
+     "answer": "d",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 21,
+     "q": "Abiding _______law is the culture of civilized nations.",
+     "options": {
+      "a": "of",
+      "b": "to",
+      "c": "by",
+      "d": "for"
+     },
+     "answer": "c",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 22,
+     "q": "India is committed _______ a policy of peaceful existence.",
+     "options": {
+      "a": "of",
+      "b": "to",
+      "c": "with",
+      "d": "for"
+     },
+     "answer": "b",
+     "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+    },
+    {
+     "n": 23,
+     "q": "He is showing signs of senility.",
+     "options": {
+      "a": "virility",
+      "b": "laziness",
+      "c": "maturity",
+      "d": "exhaustion"
+     },
+     "answer": "a",
+     "focus": "senility",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 24,
+     "q": "They approached the stranger warily.",
+     "options": {
+      "a": "suspiciously",
+      "b": "cautiously",
+      "c": "carefully",
+      "d": "carelessly"
+     },
+     "answer": "d",
+     "focus": "warily",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 25,
+     "q": "The booking-clerk looked very grumpy.",
+     "options": {
+      "a": "surly",
+      "b": "pleasant",
+      "c": "efficient",
+      "d": "honest"
+     },
+     "answer": "b",
+     "focus": "grumpy",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 26,
+     "q": "He has given up his vicious habits.",
+     "options": {
+      "a": "godly",
+      "b": "sublime",
+      "c": "virtuous",
+      "d": "friendly"
+     },
+     "answer": "c",
+     "focus": "vicious",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 27,
+     "q": "There is not a trace of vanity in her behaviour.",
+     "options": {
+      "a": "modesty",
+      "b": "selflessness",
+      "c": "proudness",
+      "d": "dignity"
+     },
+     "answer": "a",
+     "focus": "vanity",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 28,
+     "q": "He is a sturdy youngman.",
+     "options": {
+      "a": "dynamic",
+      "b": "weak",
+      "c": "lively",
+      "d": "strong"
+     },
+     "answer": "b",
+     "focus": "sturdy",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 29,
+     "q": "He listened intently, drawin by the speaker's authority.",
+     "options": {
+      "a": "casually",
+      "b": "closely",
+      "c": "lazily",
+      "d": "diligently"
+     },
+     "answer": "a",
+     "focus": "intently",
+     "note": "misprint in the source sentence: 'drawin by the speaker's authority' should read 'drawn by the speaker's authority'",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 30,
+     "q": "The rapid stream flowed gradually.",
+     "options": {
+      "a": "fast",
+      "b": "sluggish",
+      "c": "brisk",
+      "d": "exepeditions"
+     },
+     "answer": "b",
+     "focus": "rapid",
+     "note": "misspelling makes option (d) unreadable: 'exepeditions' is presumably intended as 'expeditious'",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 31,
+     "q": "He is abstemious in eating and drinking.",
+     "options": {
+      "a": "greedy",
+      "b": "temperate",
+      "c": "profligate",
+      "d": "self-indulgent"
+     },
+     "answer": "d",
+     "focus": "abstemious",
+     "note": "more than one defensible option — (a) greedy and (c) profligate are also broadly antonymous; (d) self-indulgent is the most precise",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 32,
+     "q": "The antonym for mendacious is.",
+     "options": {
+      "a": "accurate",
+      "b": "truthful",
+      "c": "false",
+      "d": "deceptive"
+     },
+     "answer": "b",
+     "focus": "mendacious",
+     "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given"
+    },
+    {
+     "n": 33,
+     "q": "Go abegging",
+     "options": {
+      "a": "go in vain",
+      "b": "go for begging",
+      "c": "beg for something",
+      "d": "request for something"
+     },
+     "answer": "a",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 34,
+     "q": "Tread on one's toe",
+     "options": {
+      "a": "walk on toes",
+      "b": "tread with toes",
+      "c": "flatter someone",
+      "d": "to give offence"
+     },
+     "answer": "d",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 35,
+     "q": "A damp squib",
+     "options": {
+      "a": "extremely exciting",
+      "b": "full of action",
+      "c": "a disappointing result",
+      "d": "Fair result"
+     },
+     "answer": "c",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 36,
+     "q": "Bore the palm",
+     "options": {
+      "a": "played quite well",
+      "b": "was victorious",
+      "c": "was defeated",
+      "d": "played a very boring match"
+     },
+     "answer": "b",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 37,
+     "q": "A jack of all trades",
+     "options": {
+      "a": "someone who has hit a jackpot",
+      "b": "A great businessman",
+      "c": "someone who has many skills",
+      "d": "A confident and not serious person"
+     },
+     "answer": "c",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 38,
+     "q": "One who is always doubting",
+     "options": {
+      "a": "Deist",
+      "b": "Rationalist",
+      "c": "Sceptic",
+      "d": "Positivist"
+     },
+     "answer": "c",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 39,
+     "q": "Knowing everything",
+     "options": {
+      "a": "Omnigenous",
+      "b": "Omnipotent",
+      "c": "Omnipresent",
+      "d": "Omniscient"
+     },
+     "answer": "d",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 40,
+     "q": "An inscription on a tomb",
+     "options": {
+      "a": "Epitaph",
+      "b": "Espionage",
+      "c": "Epilogue",
+      "d": "Elegy"
+     },
+     "answer": "a",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 41,
+     "q": "An official pardon",
+     "options": {
+      "a": "redemption",
+      "b": "amnesty",
+      "c": "regicide",
+      "d": "amnesia"
+     },
+     "answer": "b",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 42,
+     "q": "A person who lives outside his native country",
+     "options": {
+      "a": "indigenous",
+      "b": "expatriate",
+      "c": "natal",
+      "d": "intrinsic"
+     },
+     "answer": "b",
+     "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+    },
+    {
+     "n": 43,
+     "q": "The manager asked us if we could finish the project by Monday.",
+     "options": {
+      "a": "Adjective clause",
+      "b": "Adverb clause",
+      "c": "Noun clause",
+      "d": "Conditional clause"
+     },
+     "answer": "c",
+     "focus": "if we could finish the project by Monday",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+    },
+    {
+     "n": 44,
+     "q": "We left the park early because it started raining.",
+     "options": {
+      "a": "Adjective clause",
+      "b": "Adverb clause",
+      "c": "Noun clause",
+      "d": "Conditional clause"
+     },
+     "answer": "b",
+     "focus": "because it started raining",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+    },
+    {
+     "n": 45,
+     "q": "The painting which was stolen yesterday has been recovered.",
+     "options": {
+      "a": "Adjective clause",
+      "b": "Adverb clause",
+      "c": "Noun clause",
+      "d": "Conditional clause"
+     },
+     "answer": "a",
+     "focus": "which was stolen yesterday",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+    },
+    {
+     "n": 46,
+     "q": "She was late as she missed the bus.",
+     "options": {
+      "a": "Adjective clause",
+      "b": "Adverb clause",
+      "c": "Noun clause",
+      "d": "Conditional clause"
+     },
+     "answer": "b",
+     "focus": "as she missed the bus",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+    },
+    {
+     "n": 47,
+     "q": "I like the house whose garden is full of flowers.",
+     "options": {
+      "a": "Conditional clause",
+      "b": "Adverb clause",
+      "c": "Noun clause",
+      "d": "Adjective clause"
+     },
+     "answer": "d",
+     "focus": "whose garden is full of flowers",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+    },
+    {
+     "n": 48,
+     "q": "\"We will help you tomorrow,\" they said.",
+     "options": {
+      "a": "They said that they will help me tomorrow.",
+      "b": "They said that they would help me the next day.",
+      "c": "They said that they would help you tomorrow.",
+      "d": "They said that they help me tomorrow."
+     },
+     "answer": "b",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+    },
+    {
+     "n": 49,
+     "q": "\"I can finish this work by evening,\" he said.",
+     "options": {
+      "a": "He said that he could finish that work by evening.",
+      "b": "He said that he can finish this work by evening.",
+      "c": "He said that he could finish that work by that evening.",
+      "d": "He said that he could finish this work by that evening."
+     },
+     "answer": "d",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "c",
+      "why": "Reporting in the past requires all three shifts: 'can' to 'could', the demonstrative 'this' to 'that', and 'evening' to 'that evening'. Only option (c) makes all three. The marked option (d) shifts the tense and the time expression but leaves 'this work' unchanged, and 'this' cannot survive into indirect speech when the reporting verb is past — so the marked answer is wrong here and (c) is correct. Option (a) backshifts 'this' but not the time reference, and (b) backshifts nothing."
+     }
+    },
+    {
+     "n": 50,
+     "q": "\"I shall never forget this day,\" she said.",
+     "options": {
+      "a": "She said that she shall never forget that day.",
+      "b": "She said that she would never forget that day.",
+      "c": "She said she will never forget this day.",
+      "d": "She said that she would never forget this day."
+     },
+     "answer": "b",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+    },
+    {
+     "n": 51,
+     "q": "He said that he must submit the report the next day.",
+     "options": {
+      "a": "He said, \"I must submit the report tomorrow.\"",
+      "b": "He said, \"I must submit the report the next day.\"",
+      "c": "He said, \"I have to submit the report tomorrow.\"",
+      "d": "He said, \"I should submit the report tomorrow.\""
+     },
+     "answer": "a",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+    },
+    {
+     "n": 52,
+     "q": "He said that he would help me the next day.",
+     "options": {
+      "a": "He said, \"I will help you the next day.\"",
+      "b": "He said, \"I would help you tomorrow.\"",
+      "c": "He said, \"I will help you tomorrow.\"",
+      "d": "He said, \"I would help you the next day.\""
+     },
+     "answer": "c",
+     "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+    },
+    {
+     "n": 53,
+     "q": "She sings very well. (Change into interrogative)",
+     "options": {
+      "a": "Does she sing very well?",
+      "b": "How well does she sing?",
+      "c": "She sings well?",
+      "d": "She sings very well, right?"
+     },
+     "answer": "a",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    },
+    {
+     "n": 54,
+     "q": "Hardly had he reached the station when the train left. (Change into affirmative)",
+     "options": {
+      "a": "He reached the station before the train left.",
+      "b": "He had reached the station when the train left.",
+      "c": "The train left after he reached the station.",
+      "d": "He reached the station just as the train left."
+     },
+     "answer": "d",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    },
+    {
+     "n": 55,
+     "q": "Hardly had he finished his work when the boss called him again. (Change into interrogative)",
+     "options": {
+      "a": "Had he hardly finished his work when the boss called him?",
+      "b": "Did he finish his work before the boss called?",
+      "c": "Had he finished his work when the boss called him?",
+      "d": "Was the boss calling him while he finished?"
+     },
+     "answer": "c",
+     "note": "two defensible options — (c) follows the drop-the-quasi-negative rule but loses the immediacy of 'hardly...when'; (a) keeps 'hardly' at the cost of awkward English",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    },
+    {
+     "n": 56,
+     "q": "The exam was so tough that many students failed. (Change into exclamatory)",
+     "options": {
+      "a": "How tough the exam was!",
+      "b": "Exam was tough!",
+      "c": "Many students failed the exam!",
+      "d": "The exam was tough!"
+     },
+     "answer": "a",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    },
+    {
+     "n": 57,
+     "q": "She always speaks the truth. (Change into negative)",
+     "options": {
+      "a": "She never speaks the truth.",
+      "b": "She hardly ever speaks the truth.",
+      "c": "She does not always speak the truth.",
+      "d": "She rarely speaks the truth."
+     },
+     "answer": "c",
+     "note": "no option preserves the meaning — the meaning-preserving negative is 'She never fails to speak the truth'; (c) is only the mechanical insertion of 'not', which reverses the sense",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    },
+    {
+     "n": 58,
+     "q": "The dog barked loudly, and the cat ran away. (Change into simple sentence)",
+     "options": {
+      "a": "Hearing the dog bark loudly, the cat ran away.",
+      "b": "The dog barked loudly, so the cat ran away.",
+      "c": "Although the dog barked loudly, the cat ran away.",
+      "d": "The dog barked loudly; the cat ran away."
+     },
+     "answer": "a",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    },
+    {
+     "n": 59,
+     "q": "I was hungry. I did not eat lunch. (Change into complex sentence)",
+     "options": {
+      "a": "I was hungry, and I did not eat lunch.",
+      "b": "I was hungry, but I did not eat lunch.",
+      "c": "I was hungry, so I did not eat lunch.",
+      "d": "Although I was hungry, I did not eat lunch."
+     },
+     "answer": "d",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    },
+    {
+     "n": 60,
+     "q": "It rained heavily. The match was postponed. (Change into compound sentence)",
+     "options": {
+      "a": "Because it rained heavily, the match was postponed.",
+      "b": "It rained heavily, so the match was postponed.",
+      "c": "Although it rained heavily, the match was postponed.",
+      "d": "It rained heavily and the match was postponed."
+     },
+     "answer": "b",
+     "note": "two defensible options — both (b) with 'so' and (d) with 'and' are formally compound sentences; (b) is preferred only because it keeps the cause-effect relation",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    },
+    {
+     "n": 61,
+     "q": "Me and my brother went to the market. (Correct the sentence)",
+     "options": {
+      "a": "Me and my brother went to the market.",
+      "b": "My brother and me went to the market.",
+      "c": "My brother and I went to the market.",
+      "d": "I and my brother went to the market."
+     },
+     "answer": "c",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    },
+    {
+     "n": 62,
+     "q": "\"I suggested him to apply for the job.\" (Correct the sentence)",
+     "options": {
+      "a": "I suggested him to apply for the job.",
+      "b": "I suggested that he applies for the job.",
+      "c": "I suggested that he apply for the job.",
+      "d": "I suggested him applying for the job."
+     },
+     "answer": "c",
+     "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+    }
+   ]
+  },
+  {
+   "id": "co-gk",
+   "title": "Circle Officer — General Knowledge, Arithmetic & Reasoning",
+   "subtitle": "Paper-II · April 2026",
+   "glyph": "📘",
+   "note": null,
+   "exam": "Circle Officer (April 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "Who, the first Indian astronaut to visit the ISS in 2025 and, was awarded the Ashoka Chakra in 2026?",
+     "options": {
+      "a": "Shubhanshu Shukla.",
+      "b": "Arshdeep Singh",
+      "c": "Doleshwar Subba",
+      "d": "Buddhadeb Bhattacharjee"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 2,
+     "q": "The PANKHUDI portal was launched on January 8, 2026 by which ministry?",
+     "options": {
+      "a": "Ministry of Finance",
+      "b": "Ministry of Women and Child Development",
+      "c": "Ministry of Health and Family Welfare",
+      "d": "Ministry of Science and Technology"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 3,
+     "q": "Which country has introduced the world's first comprehensive Artificial Intelligence (AI) law called the AI Basic Act on January 22, 2026?",
+     "options": {
+      "a": "South Korea",
+      "b": "Japan",
+      "c": "Australia",
+      "d": "New Zealand"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 4,
+     "q": "The Strait of Hormuz, a crucial global oil transit chokepoint, is best governed under which maritime legal regime?",
+     "options": {
+      "a": "Territorial Sea with absolute sovereignty",
+      "b": "Exclusive Economic Zone with resource control",
+      "c": "Transit passage under international straits as per UNCLOS",
+      "d": "High Seas with no restrictions"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 5,
+     "q": "Kavach 5.0, introduced by Indian Railways, is primarily aimed at enhancing safety by preventing:",
+     "options": {
+      "a": "Track corrosion",
+      "b": "Train collisions due to human error",
+      "c": "Ticket fraud",
+      "d": "Platform overcrowding"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 6,
+     "q": "Which Ward in Aizawl Municipal Corporation is recognized as the ward that has never had a woman corporator/councillor in all three rounds of seat reservation rotations and elections conducted since inception of the municipality?",
+     "options": {
+      "a": "Ward No. III",
+      "b": "Ward No. V",
+      "c": "Ward No. VI",
+      "d": "Ward No. VIII"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 7,
+     "q": "By which one of the following Acts did the Governor General of Bengal became the Governor General of India?",
+     "options": {
+      "a": "The Regulating Act",
+      "b": "The Pit's Indian Act",
+      "c": "The Charter Act of 1793",
+      "d": "The Charter Act of 1833"
+     },
+     "answer": "d",
+     "note": "Option (b) is printed 'The Pit's Indian Act'; the Act is Pitt's India Act, 1784. Transcribed verbatim."
+    },
+    {
+     "n": 8,
+     "q": "Gandhiji raised the slogan \"Do or Die\" during the time of which of the following movement?",
+     "options": {
+      "a": "Non-cooperation movement",
+      "b": "Civil disobedience movement",
+      "c": "Khilafat movement",
+      "d": "Quit India movement"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 9,
+     "q": "Jammu and Kashmir became an integral part of India on –",
+     "options": {
+      "a": "26 October, 1947",
+      "b": "26 October, 1948",
+      "c": "26 November, 1948",
+      "d": "26 November, 1947"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 10,
+     "q": "The Balkan Plan for fragmentation of India was the brain child of:",
+     "options": {
+      "a": "W. Churchil",
+      "b": "M.A Jinnah",
+      "c": "Lord Mountbatten",
+      "d": "V.P Menon"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 11,
+     "q": "Which of the following policies of Muhammad bin Tughlaq was intended to improve administrative control over the Deccan?",
+     "options": {
+      "a": "Introduction of token currency",
+      "b": "Transfer of capital from Delhi to Daulatabad",
+      "c": "Increase in land revenue in Doab",
+      "d": "Establishment of Diwan-i-Kohi"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 12,
+     "q": "Which of the following statements is/are correct regarding Koh-i-Noor?\n1. It was once part of the Peacock Throne\n2. It was taken by Nadir Shah during his invasion of India\n3. It is currently kept in the Tower of London\n\nChoose the correct answer from the options given below:",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 13,
+     "q": "The Indian Armed Forces operation named 'Operation Meghdoot' was associated with the capture of which of the following Indian glaciers?",
+     "options": {
+      "a": "Sonapani Glacier",
+      "b": "Satopanth glacier",
+      "c": "Siachen Glacier",
+      "d": "Zemu Glacier"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 14,
+     "q": "Which layer of the atmosphere conducts electricity, making long-distance short wave radio transmission possible?",
+     "options": {
+      "a": "Mesosphere",
+      "b": "Stratospause",
+      "c": "Isothermal layer",
+      "d": "Ionosphere"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 15,
+     "q": "Which four countries are called the Asian Tigers?",
+     "options": {
+      "a": "Hong Kong, Singapore, South Korea, Taiwan",
+      "b": "Hong Kong, China, South Korea, Japan",
+      "c": "Hong Kong, Singapore, China, Taiwan",
+      "d": "Hong Kong, Malaysia, South Korea, China"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 16,
+     "q": "Which oceanic ridge separates the Indian Plate from the African Plate?",
+     "options": {
+      "a": "Mid-Atlantic Ridge",
+      "b": "Carlsberg Ridge",
+      "c": "East Pacific Rise",
+      "d": "Walvis Ridge"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 17,
+     "q": "The shadow zone of earthquake S-waves is primarily due to:",
+     "options": {
+      "a": "Inability to pass through liquid outer core",
+      "b": "Absorption in mantle",
+      "c": "Reflection in crust",
+      "d": "Refraction in atmosphere"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 18,
+     "q": "Which of the following states is least affected by cyclones compared to coastal regions?",
+     "options": {
+      "a": "Arunachal Pradesh",
+      "b": "Assam",
+      "c": "Meghalaya",
+      "d": "Tripura"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 19,
+     "q": "According to the provision of the Constitution a 'Metropolitan area' means an area having a population of :",
+     "options": {
+      "a": "20 lakh or more",
+      "b": "5 lakh or more",
+      "c": "10 lakh or more",
+      "d": "15 lakh or more"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 20,
+     "q": "Who among the following headed the Advisory Committee on Fundamental Rights, Minorities and Tribal and Excluded Areas, a committee under the Constituent Assembly?",
+     "options": {
+      "a": "Jawahar Lal Nehru",
+      "b": "Vallabhbhai Patel",
+      "c": "H C Mukherjee",
+      "d": "Maulana Azad"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 21,
+     "q": "Which of the following provisions were added to the Constitution of India by the 42nd Constitutional Amendment Act?\n1. Equal pay for equal work\n2. Protection of environment\n3. Free legal aid\n4. Participation of workers in management\n\nChoose the correct answer from the options given below:",
+     "options": {
+      "a": "1, 2, 3 and 4",
+      "b": "2, 3 and 4 only",
+      "c": "1, 3 and 4 only",
+      "d": "2 and 3 only"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 22,
+     "q": "Which of the following provisions can be amended by a simple majority of Parliament?\n1. Citizenship – acquisition and termination\n2. Delimitation of constituencies\n3. Fifth Schedule and Sixth Schedule\n4. Any of the Lists in the Seventh Schedule\n\nChoose the correct answer from the options given below:",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "1, 2 and 4 only",
+      "c": "1, 2 and 3 only",
+      "d": "All of the above"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 23,
+     "q": "With reference to the following bodies, which of them are statutory bodies and not constitutional bodies?\n1. National Commission for Women\n2. Central Information Commission\n3. National Human Rights Commission\n4. National Commission for Scheduled Tribes\n\nChoose the correct answer from the options given below:",
+     "options": {
+      "a": "2 and 3 only",
+      "b": "2 and 4 only",
+      "c": "3 and 4 only",
+      "d": "1, 2 and 3 only"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 24,
+     "q": "A political party becomes a National Party if it is recognised as a State Party in at least:",
+     "options": {
+      "a": "2 states",
+      "b": "3 states",
+      "c": "4 states",
+      "d": "5 states"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 25,
+     "q": "What is meant by the term \"Fomoflation\" that was often seen in news?",
+     "options": {
+      "a": "Inflation caused by increase in fuel prices",
+      "b": "Inflation caused by government monetary policy",
+      "c": "Inflation driven by panic buying and fear of scarcity",
+      "d": "Inflation due to high production costs"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 26,
+     "q": "The practice of selling goods in a foreign country at a price below their domestic selling price is called:",
+     "options": {
+      "a": "Diplomacy",
+      "b": "Discrimination",
+      "c": "Dumping",
+      "d": "Double pricing"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 27,
+     "q": "What is 'Zero Base Budgeting'?",
+     "options": {
+      "a": "Infinite deficit Budget",
+      "b": "No curtailment in unproductive expenditure in the Budget",
+      "c": "No appraisal of new programmes in the Budget",
+      "d": "Preparation of new Budget every time"
+     },
+     "answer": "d",
+     "note": "All four options are loosely worded; (d) is the intended answer only by elimination."
+    },
+    {
+     "n": 28,
+     "q": "Which of the following statements is correct about PM Surya Ghar Yojana?",
+     "options": {
+      "a": "It aims to provide free LPG connections to poor households.",
+      "b": "It promotes rooftop solar energy for households.",
+      "c": "It provides employment in rural areas.",
+      "d": "It focuses on irrigation facilities."
+     },
+     "answer": "b"
+    },
+    {
+     "n": 29,
+     "q": "Consider the following statements:\n1. PM Vishwakarma promotes traditional skills and crafts.\n2. PMEGP is related to micro-enterprise development.\n3. Vatsalya scheme focuses on welfare and protection of children\n4. UNNATI focuses only on industrial production.\n\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "2 , 3 and 4 only",
+      "b": "2 and 3 only",
+      "c": "1, 2 and 4 only",
+      "d": "1, 2 and 3 only"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 30,
+     "q": "Consider the following statements:\n1. Repo rate is the rate at which RBI lends money to commercial banks.\n2. Reverse repo rate is the rate at which RBI borrows money from banks.\n3. Increase in repo rate helps control inflation.\n\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 31,
+     "q": "Which of the following gas is emitted naturally by the soil?",
+     "options": {
+      "a": "Carbon Dioxide",
+      "b": "Radon",
+      "c": "Ozone",
+      "d": "Formaldehyde"
+     },
+     "answer": "b",
+     "note": "Option (a) carbon dioxide is also naturally emitted by soil (soil respiration), so two options are arguably correct; radon is the intended one."
+    },
+    {
+     "n": 32,
+     "q": "Which of the following stages are comprised in 2006 Amendment to Environment Impact Assessment cycle?\n1. Screening\n2. Scoping\n3. Public hearing\n4. Appraisal\n\nSelect the correct option from the codes given below:",
+     "options": {
+      "a": "Only 1, 2 & 3",
+      "b": "Only 2, 3 & 4",
+      "c": "Only 1, 3 & 4",
+      "d": "1, 2, 3 & 4"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 33,
+     "q": "The 'super bug' used in controlling oil pollution is:",
+     "options": {
+      "a": "Analgal strain",
+      "b": "Fungalomabin",
+      "c": "Pseudomonas putida.",
+      "d": "Phytodebug"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 34,
+     "q": "Which of the following organisms are classified as autotrophs?\n1. Green plants\n2. Algae\n3. Cyanobacteria\n4. Fungi\n\nWhich of the above options are correct?",
+     "options": {
+      "a": "1, 2 and 3 only",
+      "b": "1 and 2 only",
+      "c": "2, 3 and 4 only",
+      "d": "1, 2, 3 and 4"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 35,
+     "q": "Consider the following statements:\n1. In-situ conservation involves protecting species in their natural habitat.\n2. Botanical gardens are used for in-situ conservation.\n3. Zoos and seed banks are examples of ex-situ conservation.\n\nWhich of the above is/are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "1 and 3 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 36,
+     "q": "Match the following:\nList I (Convention/Protocol)\n1. Vienna Convention\n2. Basel Convention\n3. Kyoto Protocol\n4. Ramsar Convention\n\nList II (Objective)\na. Control of hazardous waste movement\nb. Reduction of greenhouse gas emissions\nc. Protection of ozone layer\nd. Conservation of wetlands\n\nOptions:",
+     "options": {
+      "a": "1-c, 2-a, 3-b, 4-d",
+      "b": "1-a, 2-b, 3-c, 4-d",
+      "c": "1-c, 2-b, 3-a, 4-d",
+      "d": "1-d, 2-a, 3-b, 4-c"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 37,
+     "q": "Newton's first law is also called as :",
+     "options": {
+      "a": "Law of moments",
+      "b": "Law of inertia",
+      "c": "Law of energy",
+      "d": "Law of momentum"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 38,
+     "q": "Who designed the symbol of Indian rupee?",
+     "options": {
+      "a": "Vijay Kumar Chopra",
+      "b": "Srikumar Banerjee",
+      "c": "Subroto Chattopadhyay",
+      "d": "Uday Kumar Dharmalingam"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 39,
+     "q": "The intensity of the Earth's gravitational field is maximum at:",
+     "options": {
+      "a": "The equator",
+      "b": "The centre of the Earth",
+      "c": "The pole",
+      "d": "The epicentre"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 40,
+     "q": "Which of the following elements has the highest electronegativity?",
+     "options": {
+      "a": "Oxygen",
+      "b": "Fluorine",
+      "c": "Nitrogen",
+      "d": "Chlorine"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 41,
+     "q": "What is the SI unit of electric resistance?",
+     "options": {
+      "a": "Ohm",
+      "b": "Ampere",
+      "c": "Volt",
+      "d": "Watt"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 42,
+     "q": "A person standing on Earth throws a ball vertically upward. At the highest point, which of the following is true?",
+     "options": {
+      "a": "Velocity and acceleration both are zero",
+      "b": "Velocity is maximum",
+      "c": "Acceleration becomes zero",
+      "d": "Velocity is zero but acceleration due to gravity is present"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 43,
+     "q": "Early Mizo musical instrument called 'Bengbung' is :",
+     "options": {
+      "a": "Made up of three small bamboos having different size",
+      "b": "Usually played by girls in their leisure",
+      "c": "A kind of fiddle or violin having only one string",
+      "d": "Made from the horn of Mithun having four string"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 44,
+     "q": "In Mizo history, the leader who carried out the massacre of the Thlanrawn Pawih during the 'Thlanrawn Rawt' event was :",
+     "options": {
+      "a": "Phunthanga",
+      "b": "Lalburha",
+      "c": "Thanchhuma",
+      "d": "Lallula"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 45,
+     "q": "Vawkpa Sût Nghak is associated with:",
+     "options": {
+      "a": "Khuangchawi",
+      "b": "Dawino Chhui",
+      "c": "Sadawt",
+      "d": "Chawng"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 46,
+     "q": "Which of the following was not regarded as an evil spirit by the Mizos?",
+     "options": {
+      "a": "Thla ai",
+      "b": "Tuitu",
+      "c": "Rawt",
+      "d": "Thlamsawi"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 47,
+     "q": "Which Mizo zai/hla was not known before crossing Tiau River by Mizo ancestors?",
+     "options": {
+      "a": "Hlado leh Bawh hla",
+      "b": "Chai hla",
+      "c": "Pi Hmuaki zai",
+      "d": "Saikuti zai"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 48,
+     "q": "Chhip zawn, a unit for measuring paddy, is equal to:",
+     "options": {
+      "a": "Phur 100",
+      "b": "Phur 200",
+      "c": "Phur 80",
+      "d": "Phur 150"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 49,
+     "q": "Which of the following best describes the meaning:  \"One person's loss/missing is another's gain/ happiness\" ?",
+     "options": {
+      "a": "Mi kuta rulkaw zen ang",
+      "b": "Mi kuta sahrang hmu lian",
+      "c": "Hnung lama sabarh ang",
+      "d": "Arpuia lungchhia sanghara lunglawm"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 50,
+     "q": "The second oldest college in Mizoram is:",
+     "options": {
+      "a": "Government Aizawl College",
+      "b": "Pachhunga University College",
+      "c": "Lunglei Government College",
+      "d": "Government Hrangbana College"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 51,
+     "q": "Three ropes of lengths 15 m, 20 m and 25 m are cut into equal pieces of maximum length. What is the length of each piece?",
+     "options": {
+      "a": "10",
+      "b": "15",
+      "c": "5",
+      "d": "20"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 52,
+     "q": "A number is increased by 20% and then decreased by 20%. What is the net change?",
+     "options": {
+      "a": "No change",
+      "b": "Increase of 4%",
+      "c": "Decrease of 2%",
+      "d": "Decrease of 4%"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 53,
+     "q": "The average of 4 numbers is 15. If one number is 18, what is the average of the remaining 3 numbers?",
+     "options": {
+      "a": "12",
+      "b": "15",
+      "c": "16",
+      "d": "14"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 54,
+     "q": "The average rainfall for the three months from January to March is 12 cm, and for the four months from March to June is 18 cm. If the average rainfall for the six months from January to June is 16 cm, what is the rainfall in the month of March?",
+     "options": {
+      "a": "10 cm",
+      "b": "12 cm",
+      "c": "14 cm",
+      "d": "16 cm"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 55,
+     "q": "In an examination, 80% of the students pass in Paper I and 70% pass in Paper II. If 15% of the students fail in both Paper I and Paper II, and the number of students who pass in both papers is 520, what is the total number of students who appeared in the examination?",
+     "options": {
+      "a": "600",
+      "b": "700",
+      "c": "800",
+      "d": "900"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 56,
+     "q": "If a : b = 4 : 7 and b : c = 3 : 5, find a : b : c",
+     "options": {
+      "a": "4 : 7 : 5",
+      "b": "4 : 3 : 5",
+      "c": "12 : 7 : 5",
+      "d": "12 : 21 : 35"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 57,
+     "q": "A sum of money is divided among A, B, and C in the ratio 2 : 3 : 5. If C receives ₹ 200 more than B, what is the total sum of money?",
+     "options": {
+      "a": "₹ 1200",
+      "b": "₹ 800",
+      "c": "₹ 600",
+      "d": "₹ 1000"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 58,
+     "q": "A man sells two articles for ₹ 100 each. On one he gains 20% and on the other he loses 20%. What is his overall result?",
+     "options": {
+      "a": "No profit no loss",
+      "b": "Loss of 2%",
+      "c": "Loss of 4%",
+      "d": "Gain of 4%"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 59,
+     "q": "A can complete a work in 12 days and B can complete it in 6 days. In how many days will they complete the work together?",
+     "options": {
+      "a": "3 days",
+      "b": "4 days",
+      "c": "5 days",
+      "d": "6 days"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 60,
+     "q": "Pipe A can fill a tank in 15 hours and Pipe B can empty it in 20 hours. If both are opened together, how long will it take to fill the tank?",
+     "options": {
+      "a": "40 hours",
+      "b": "60 hours",
+      "c": "75 hours",
+      "d": "100 hours"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 61,
+     "q": "In how many years will ₹ 1200 become ₹ 1560 at 10% per annum simple interest?",
+     "options": {
+      "a": "3 years",
+      "b": "2 years",
+      "c": "4 years",
+      "d": "5 years"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 62,
+     "q": "A car travels at a speed of 60 km/h. How much distance will it cover in 2 hours?",
+     "options": {
+      "a": "120 km",
+      "b": "110 km",
+      "c": "100 km",
+      "d": "130 km"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 63,
+     "q": "A boat can travel 30 km downstream in 2 hours and the same distance upstream in 3 hours. What is the speed of the boat in still water?",
+     "options": {
+      "a": "10 km/h",
+      "b": "12 km/h",
+      "c": "15 km/h",
+      "d": "12.5 km/h"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 64,
+     "q": "A circular field has a radius of 7 m. A footpath of width 7 m is constructed outside it. Find the area of the footpath.",
+     "options": {
+      "a": "308 m²",
+      "b": "462 m²",
+      "c": "616 m²",
+      "d": "770 m²"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 65,
+     "q": "A cuboid of dimensions 12 cm × 10 cm × 8 cm is melted to form cubes of side 4 cm. How many such cubes can be formed?\nOptions:",
+     "options": {
+      "a": "6",
+      "b": "12",
+      "c": "20",
+      "d": "15"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 66,
+     "q": "A square floor has dimensions 40 ft × 40 ft. Tiles of area 4 sq ft are used. If the cost of each tile is ₹ 200, what is the total expenditure?",
+     "options": {
+      "a": "₹ 60,000",
+      "b": "₹ 80,000",
+      "c": "₹ 1,60,000",
+      "d": "₹ 2,00,000"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 67,
+     "q": "The total of the ages of Dinga, Hminga and Liana is 80 years. What was the total of their ages three years ago?",
+     "options": {
+      "a": "71 years",
+      "b": "72 years",
+      "c": "74 years",
+      "d": "77 years"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 68,
+     "q": "Today is Mawii's birthday. One year, from today she will be twice as old as she was 12 years ago. How old is Mawii today?",
+     "options": {
+      "a": "20 years",
+      "b": "22 years",
+      "c": "25 years",
+      "d": "27 years"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 69,
+     "q": "A man walking at the rate of 5 km/hr. crosses a bridge in 15 minutes. The length of the bridge (in metres) is :",
+     "options": {
+      "a": "600",
+      "b": "750",
+      "c": "1000",
+      "d": "1250"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 70,
+     "q": "Two men are standing on opposite ends of a bridge 1200 metres long. If they walk towards each other at the rate of 5m/minute and 10m/minute respectively, in how much time will they meet each other?",
+     "options": {
+      "a": "60 minutes",
+      "b": "80 minutes",
+      "c": "85 minutes",
+      "d": "90 minutes"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 71,
+     "q": "What will be the compound interest (in ₹) on a sum of ₹7,200 for 18 months at a rate of 20% per annum, if the interest is compounded half-yearly (nearest to an integer)?",
+     "options": {
+      "a": "₹2,833",
+      "b": "₹2,383",
+      "c": "₹2,338",
+      "d": "₹3,238"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 72,
+     "q": "If 12276 ÷ 155 = 79.2, the value of 122.76 ÷ 15.5 is:",
+     "options": {
+      "a": "7.092",
+      "b": "7.92",
+      "c": "79.02",
+      "d": "7.2"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 73,
+     "q": "The largest six-digit number exactly divisible by 243 is:",
+     "options": {
+      "a": "999947",
+      "b": "999945",
+      "c": "999949",
+      "d": "999943"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 74,
+     "q": "Rama has one quarter more money than Kima, Kima has two third money as of Muana. If Muana has ₹876 with him, how much money Rama has?",
+     "options": {
+      "a": "₹365",
+      "b": "₹467.20",
+      "c": "₹730",
+      "d": "₹760"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 75,
+     "q": "A persons working 6 hours per day earn ₹900. How much money will 20 persons earn, working 10 hours per day?",
+     "options": {
+      "a": "₹1,800",
+      "b": "₹2,000",
+      "c": "₹1,500",
+      "d": "₹2,100"
+     },
+     "answer": "b",
+     "note": "Stem prints 'A persons working 6 hours per day' — the number of persons is missing/garbled. Reconstructed as 15 persons because that is the only integer that yields a printed option without making the question trivial."
+    },
+    {
+     "n": 76,
+     "q": "The population of a town increased by 15% in 2018 and 10% in 2019. Due to a pandemic, it decreased by 10% in 2020. What was the percentage increase in the population of the town in 3 years?",
+     "options": {
+      "a": "12.5%",
+      "b": "17.5%",
+      "c": "15%",
+      "d": "13.85%"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 77,
+     "q": "A reduction of 20% in the rate of sugar enables Liani to get 6 kg more sugar for ₹960. What is the reduced rate of sugar per kg?",
+     "options": {
+      "a": "₹36",
+      "b": "₹35",
+      "c": "₹40",
+      "d": "₹32"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 78,
+     "q": "– 224 + ( - 314) × (- 9) =?",
+     "options": {
+      "a": "547",
+      "b": "-547",
+      "c": "2602",
+      "d": "-2602"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 79,
+     "q": "₹6200 amount to ₹9176 in 4 years at simple interest. If the interest rate is increased by 3%, it would amount to how much?",
+     "options": {
+      "a": "₹8,432",
+      "b": "₹9,820",
+      "c": "₹9,822",
+      "d": "₹9,920"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 80,
+     "q": "Ngura donates blood thrice in 2 years each time 350 ml. How many litres of blood will he donate in 6 years?",
+     "options": {
+      "a": "1.2",
+      "b": "1.5",
+      "c": "3.15",
+      "d": "4.5"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 81,
+     "q": "The Managing Director entered the conference room ten minutes before 12:30 hours for an interview. He came 20 minutes before the chairman who was 30 minutes late. At what time, the interviews were scheduled?",
+     "options": {
+      "a": "12:50",
+      "b": "12:40",
+      "c": "12:20",
+      "d": "12:10"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 82,
+     "q": "Choose the correct image as the rotated image of the given image, when the image is rotated in the specified direction and through the angle mentioned:",
+     "options": {
+      "a": "(C)",
+      "b": "(D)",
+      "c": "(B)",
+      "d": "(A)"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 83,
+     "q": "Study the following questions carefully and choose the right answer:\n1. Curd    2. Grass    3. Butter    4.Milk    5.Cow",
+     "options": {
+      "a": "2, 5, 4, 3, 1",
+      "b": "4, 2, 5, 3, 1",
+      "c": "5, 2, 3, 4, 1",
+      "d": "5, 2, 4, 1, 3"
+     },
+     "answer": "d",
+     "note": "No option gives the natural order 2, 5, 4, 1, 3 (Grass–Cow–Milk–Curd–Butter); the best available answer inverts Cow and Grass. Stem also reads 'following questions' where 'following words' is meant."
+    },
+    {
+     "n": 84,
+     "q": "How many 'K's are there in the following sequence that are preceded by 'N' and succeeded by 'M'?\n\nNMKNKMMKKNNMKNKMKKMNKMKKNNKKMK",
+     "options": {
+      "a": "3",
+      "b": "4",
+      "c": "2",
+      "d": "1"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 85,
+     "q": "There are five brothers — Suman, Kiran, Mohan, Aaron and Rajan. Mohan is the tallest. Suman is shorter than Kiran but taller than Rajan. Aaron is a little shorter than Kiran and a little taller than Suman. Who is the shortest?",
+     "options": {
+      "a": "Rajan",
+      "b": "Aaron",
+      "c": "Suman",
+      "d": "Kiran"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 86,
+     "q": "Vacant : Empty :: Dearth :?",
+     "options": {
+      "a": "Descend",
+      "b": "Scarcity",
+      "c": "Squander",
+      "d": "Abundant"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 87,
+     "q": "One morning Udai and Vishal were talking to each other face to face at a crossing. If Vishal's shadow was exactly to the left of Udai, which direction was Udai facing?",
+     "options": {
+      "a": "East",
+      "b": "West",
+      "c": "North",
+      "d": "South"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 88,
+     "q": "SCD, TEF, UGH, _____, WKL",
+     "options": {
+      "a": "CMN",
+      "b": "UJI",
+      "c": "VIJ",
+      "d": "IJT"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 89,
+     "q": "Find the next figure that completes the given sequence:",
+     "options": {
+      "a": "(C)",
+      "b": "(D)",
+      "c": "(B)",
+      "d": "(A)"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 90,
+     "q": "If in a certain language NATURE is coded as MASUQE, how is FAMINE coded in that code?",
+     "options": {
+      "a": "FBMJND",
+      "b": "FZMHND",
+      "c": "GANIOE",
+      "d": "EALIME"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 91,
+     "q": "Choose the odd one out:",
+     "options": {
+      "a": "Latitude",
+      "b": "Longitude",
+      "c": "Equator",
+      "d": "Tropic of Cancer"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 92,
+     "q": "If FLOWER = GMPXFS, then GARDEN =?",
+     "options": {
+      "a": "HBSEFO",
+      "b": "HBSFEN",
+      "c": "HBSFEO",
+      "d": "HCSFEO"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 93,
+     "q": "A man walks 10 m south, 10 m east, 10 m north. Distance from the start is:",
+     "options": {
+      "a": "10 m",
+      "b": "20 m",
+      "c": "√200",
+      "d": "0"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 94,
+     "q": "Six persons sit in a circle, Arun is opposite to Chitra. Bina sits next to the right of Chitra. Suta sits between Chitra and Kala next to the left of Chitra and Deepak sits next to the right of Bina. Who is sitting opposite to Suta?",
+     "options": {
+      "a": "Chitra",
+      "b": "Bima",
+      "c": "Deepak",
+      "d": "Arun"
+     },
+     "answer": "c",
+     "note": "The stem names 'Bina' but option (b) prints 'Bima'. The mismatch does not change the answer, which is Deepak either way."
+    },
+    {
+     "n": 95,
+     "q": "Mirror image of \"ATM\" in a plane mirror?",
+     "options": {
+      "a": "MTA",
+      "b": "TAM",
+      "c": "AMT",
+      "d": "Cannot determine"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 96,
+     "q": "Observe this diagram:\n\nSelect the set of classes, the relationship among which is best illustrated in the above Venn diagram.",
+     "options": {
+      "a": "Doctor, Father, Sister",
+      "b": "Stationery, Staplers, Erasers",
+      "c": "Extrovert, Men, Handsome",
+      "d": "Bureaucrats, Men, Women"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 97,
+     "q": "Two position of a dice are shown below, which number will appear on the face opposite to the face with the number 5?",
+     "options": {
+      "a": "1",
+      "b": "2",
+      "c": "6",
+      "d": "4"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 98,
+     "q": "Study the following Figure and answer the questions given below?\n\nHow many educated people are employed?",
+     "options": {
+      "a": "8",
+      "b": "5",
+      "c": "9",
+      "d": "6"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 99,
+     "q": "Which one will replace the question mark(?) ?",
+     "options": {
+      "a": "L₁₀",
+      "b": "K₁₅",
+      "c": "I₁₅",
+      "d": "K₈"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 100,
+     "q": "Which one will replace the question mark (?) ?",
+     "options": {
+      "a": "41",
+      "b": "64",
+      "c": "35",
+      "d": "61"
+     },
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "jao-eng",
+   "title": "Junior Administrative Officer — General English",
+   "subtitle": "Paper-I · July 2026",
+   "glyph": "🔤",
+   "note": "Descriptive prompts (essay, letter, précis) from this paper aren't included here — only the MCQs are.",
+   "exam": "Junior Accounts Officer (JAO) (July 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "What was the weather like in the hill station?",
+     "options": {
+      "a": "Hot and dusty",
+      "b": "Rainy and misty",
+      "c": "Stormy and windy",
+      "d": "Snowy and cold"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+    },
+    {
+     "n": 2,
+     "q": "Where was Grandfather Hari sitting?",
+     "options": {
+      "a": "Outside his house",
+      "b": "Near the river",
+      "c": "Beneath a cherry tree",
+      "d": "Inside the forest"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+    },
+    {
+     "n": 3,
+     "q": "Why was Binya late?",
+     "options": {
+      "a": "She overslept and missed the bus",
+      "b": "The rain flooded the lower path and she had to walk",
+      "c": "She lost her way in the forest",
+      "d": "She had to cross the flooded river on a boat"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+    },
+    {
+     "n": 4,
+     "q": "What did Grandfather Hari say about the forest?",
+     "options": {
+      "a": "It should be avoided",
+      "b": "It is a mysterious and dangerous place",
+      "c": "It keeps many secrets after rain",
+      "d": "It makes you lonely"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+    },
+    {
+     "n": 5,
+     "q": "Who became friends of Binya's grandfather when he was a boy?",
+     "options": {
+      "a": "The animals in the forest",
+      "b": "The boys in his village",
+      "c": "The trees in the forest",
+      "d": "The cows in the hills"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+    },
+    {
+     "n": 6,
+     "q": "The famous gym in that area is hers. In the sentence, “hers” is a:",
+     "options": {
+      "a": "Possessive adjective",
+      "b": "Reflexive pronoun",
+      "c": "Possessive pronoun",
+      "d": "Demonstrative pronoun"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 7,
+     "q": "Which of the following is a pronoun?",
+     "options": {
+      "a": "Alas!",
+      "b": "River",
+      "c": "They",
+      "d": "Softly"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 8,
+     "q": "A word that modifies a verb, an adjective, or another adverb is called:",
+     "options": {
+      "a": "Adjective",
+      "b": "Preposition",
+      "c": "Adverb",
+      "d": "Conjunction"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 9,
+     "q": "Choose the sentence where “watch” is used as a noun.",
+     "options": {
+      "a": "They watch television every evening.",
+      "b": "Please watch the road carefully.",
+      "c": "His watch stopped working yesterday.",
+      "d": "The teacher asked us to watch the experiment quietly."
+     },
+     "answer": "d",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "c",
+      "why": "In (c) \"watch\" is preceded by the possessive determiner \"His\" and is the subject of the verb \"stopped\" - it names a timepiece, so it is a noun. In the marked option (d) \"to watch\" is an infinitive verb governing the object \"the experiment\"; (a) and (b) are likewise finite and imperative verbs. The marked answer (d) is wrong."
+     }
+    },
+    {
+     "n": 10,
+     "q": "Which of the following words functions as a determiner in the sentence 'Several students participated in the competition'?",
+     "options": {
+      "a": "Students",
+      "b": "Participated",
+      "c": "Several",
+      "d": "Competition"
+     },
+     "answer": "c",
+     "focus": "determiner"
+    },
+    {
+     "n": 11,
+     "q": "Which part of speech describes a noun?",
+     "options": {
+      "a": "Verb",
+      "b": "Adjective",
+      "c": "Pronoun",
+      "d": "Conjunction"
+     },
+     "answer": "a",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "b",
+      "why": "An adjective is by definition the part of speech that describes or qualifies a noun or pronoun. The marked answer (a) Verb is plainly wrong - a verb expresses action or state; a pronoun replaces a noun rather than describing it."
+     }
+    },
+    {
+     "n": 12,
+     "q": "Which of the following is a common noun?",
+     "options": {
+      "a": "India",
+      "b": "Monday",
+      "c": "Country",
+      "d": "Dr. Ravi"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 13,
+     "q": "Which word replaces a noun?",
+     "options": {
+      "a": "Adjective",
+      "b": "Verb",
+      "c": "Pronoun",
+      "d": "Adverb"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 14,
+     "q": "The word “eloquently” modifies:",
+     "options": {
+      "a": "Noun",
+      "b": "Verb",
+      "c": "Pronoun",
+      "d": "Article"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 15,
+     "q": "A non-finite verb ending in 'ing' that functions as a noun is called a:",
+     "options": {
+      "a": "Participle",
+      "b": "Gerund",
+      "c": "Infinitive",
+      "d": "Auxiliary"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 16,
+     "q": "The children played happily.",
+     "options": {
+      "a": "Pronoun",
+      "b": "Noun",
+      "c": "Verb",
+      "d": "Adverb"
+     },
+     "answer": "b",
+     "focus": "children",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:"
+    },
+    {
+     "n": 17,
+     "q": "She bought a turquoise dress",
+     "options": {
+      "a": "Verb",
+      "b": "Adjective",
+      "c": "Noun",
+      "d": "Conjunction"
+     },
+     "answer": "b",
+     "focus": "turquoise",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:"
+    },
+    {
+     "n": 18,
+     "q": "Abigail wanted to go shopping, but she stayed home because of the rain.",
+     "options": {
+      "a": "Preposition",
+      "b": "Conjunction",
+      "c": "Interjection",
+      "d": "Adverb"
+     },
+     "answer": "b",
+     "focus": "but",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:"
+    },
+    {
+     "n": 19,
+     "q": "We walked across the bridge.",
+     "options": {
+      "a": "Verb",
+      "b": "Preposition",
+      "c": "Adjective",
+      "d": "Pronoun"
+     },
+     "answer": "b",
+     "focus": "across",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:"
+    },
+    {
+     "n": 20,
+     "q": "Gosh! I didn't expect to fail!",
+     "options": {
+      "a": "Interjection",
+      "b": "Adverb",
+      "c": "Conjunction",
+      "d": "Preposition"
+     },
+     "answer": "a",
+     "focus": "Gosh!",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:"
+    },
+    {
+     "n": 21,
+     "q": "None but the brave deserve the fair.",
+     "options": {
+      "a": "Adjective",
+      "b": "Adverb",
+      "c": "Pronoun",
+      "d": "Preposition"
+     },
+     "answer": "d",
+     "focus": "but",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:"
+    },
+    {
+     "n": 22,
+     "q": "He talks like his father.",
+     "options": {
+      "a": "Adjective",
+      "b": "Adverb",
+      "c": "Pronoun",
+      "d": "Preposition"
+     },
+     "answer": "d",
+     "focus": "like",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:"
+    },
+    {
+     "n": 23,
+     "q": "The earth is round.",
+     "options": {
+      "a": "Adjective",
+      "b": "Adverb",
+      "c": "Preposition",
+      "d": "Noun"
+     },
+     "answer": "a",
+     "focus": "round",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:"
+    },
+    {
+     "n": 24,
+     "q": "The after effects of the drug are dangerous.",
+     "options": {
+      "a": "Preposition",
+      "b": "Adverb",
+      "c": "Adjective",
+      "d": "Noun"
+     },
+     "answer": "b",
+     "focus": "after",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "c",
+      "why": "\"After\" here sits between the article and the noun and qualifies \"effects\" - which effects? the after ones - so it is an attributive adjective, exactly as in \"in after years\". The marked answer (b) Adverb is wrong: there is no verb, adjective or adverb here for it to modify, and it is not a preposition either because it governs no object. Compare Q20, where the same word genuinely is an adverb."
+     }
+    },
+    {
+     "n": 25,
+     "q": "They arrived soon after.",
+     "options": {
+      "a": "Preposition",
+      "b": "Adjective",
+      "c": "Conjunction",
+      "d": "Adverb"
+     },
+     "answer": "d",
+     "focus": "after",
+     "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:"
+    },
+    {
+     "n": 26,
+     "q": "Select the correct sentence.",
+     "options": {
+      "a": "Neither of the answers are correct.",
+      "b": "Neither of the answers is correct.",
+      "c": "Neither of the answer were correct.",
+      "d": "Neither of the answers have correct."
+     },
+     "answer": "b"
+    },
+    {
+     "n": 27,
+     "q": "Choose the correct word to complete the sentence: He has been working here _________ 2020.",
+     "options": {
+      "a": "for",
+      "b": "from",
+      "c": "since",
+      "d": "by"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 28,
+     "q": "Identify the correctly used idiom.",
+     "options": {
+      "a": "He kicked the bucket with anger.",
+      "b": "They hit the books on the playground.",
+      "c": "He broke the ice by falling down.",
+      "d": "She spilled the beans about the surprise party."
+     },
+     "answer": "d"
+    },
+    {
+     "n": 29,
+     "q": "Choose the correct sentence.",
+     "options": {
+      "a": "The furniture are expensive.",
+      "b": "The furniture is expensive.",
+      "c": "The furnitures are expensive.",
+      "d": "The furnitures is expensive."
+     },
+     "answer": "b"
+    },
+    {
+     "n": 30,
+     "q": "Choose the antonym of “expand.”",
+     "options": {
+      "a": "Increase",
+      "b": "Develop",
+      "c": "Reduce",
+      "d": "Stretch"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 31,
+     "q": "Choose the correct sentence.",
+     "options": {
+      "a": "Each of the boys have completed the task.",
+      "b": "Each of the boys has completed the task.",
+      "c": "Each of the boys were completed the task.",
+      "d": "Each of the boys complete the task."
+     },
+     "answer": "b"
+    },
+    {
+     "n": 32,
+     "q": "Choose the correct word to fill in the bank. I deeply _________ getting pregnant but I couldn't go against the wishes of my boyfriend.",
+     "options": {
+      "a": "dreaded",
+      "b": "wanted",
+      "c": "eagerly",
+      "d": "wished"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 33,
+     "q": "One who talks while asleep is called:",
+     "options": {
+      "a": "Somnambulist",
+      "b": "Somniloquist",
+      "c": "Somniferous",
+      "d": "Sleeptalker"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 34,
+     "q": "Iconoclast is one who:",
+     "options": {
+      "a": "Destroys images.",
+      "b": "A group of icons.",
+      "c": "Is a popular figure of the society.",
+      "d": "Is a popular figure of the history."
+     },
+     "answer": "a"
+    },
+    {
+     "n": 35,
+     "q": "One who collects coins is:",
+     "options": {
+      "a": "Collector",
+      "b": "Narcissist",
+      "c": "Calligrapher",
+      "d": "Numismatist"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 36,
+     "q": "A government ruled by the people is called:",
+     "options": {
+      "a": "Monarchy",
+      "b": "Dictatorship",
+      "c": "Democracy",
+      "d": "Oligarchy"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 37,
+     "q": "A ____________ of pilgrims entered the city.",
+     "options": {
+      "a": "band",
+      "b": "bevy",
+      "c": "assembly",
+      "d": "herd"
+     },
+     "answer": "a",
+     "note": "Two options are defensible: 'assembly' is ordinary English for a gathering of people and would not be wrong in isolation. 'Band' is the conventional textbook collective for pilgrims and is almost certainly the intended key."
+    },
+    {
+     "n": 38,
+     "q": "A ____________ of dogs was spotted nearby.",
+     "options": {
+      "a": "litter",
+      "b": "kennel",
+      "c": "gaggle",
+      "d": "pride"
+     },
+     "answer": "b",
+     "note": "The genuinely standard collective for dogs - 'a pack of dogs' - is not among the options. 'Kennel' is the best of what is offered and is listed in the usual exam tables, but it is a weak collective noun since it primarily denotes the shelter rather than the group."
+    },
+    {
+     "n": 39,
+     "q": "An ____________ of ships approached the shore.",
+     "options": {
+      "a": "pack",
+      "b": "band",
+      "c": "shoal",
+      "d": "armada"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 40,
+     "q": "The new software update is the ____________ one we've had to install.",
+     "options": {
+      "a": "complicated",
+      "b": "more complicated",
+      "c": "most complicated",
+      "d": "complicates"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 41,
+     "q": "Which sentence uses the comparative degree correctly?",
+     "options": {
+      "a": "She is smarter than any student in the class.",
+      "b": "She is smarter than any other student in the class.",
+      "c": "She is smartest than any other student in the class.",
+      "d": "She is more smarter than any other student in the class."
+     },
+     "answer": "b"
+    },
+    {
+     "n": 42,
+     "q": "Choose the correct sentence.",
+     "options": {
+      "a": "No sooner had he arrived than it started raining.",
+      "b": "No sooner had he arrived when it started raining.",
+      "c": "No sooner he had arrived than it started raining.",
+      "d": "No sooner did he arrived than it started raining."
+     },
+     "answer": "a"
+    },
+    {
+     "n": 43,
+     "q": "Her explanation was so ____________ that nobody could understand what she really meant.",
+     "options": {
+      "a": "lucid",
+      "b": "ambiguous",
+      "c": "precise",
+      "d": "evident"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 44,
+     "q": "The scientist's discovery was considered ____________ because it changed the course of medical research.",
+     "options": {
+      "a": "trivial",
+      "b": "revolutionary",
+      "c": "ordinary",
+      "d": "obsolete"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 45,
+     "q": "The manager appreciated employees who were ____________ and completed tasks without supervision.",
+     "options": {
+      "a": "lethargic",
+      "b": "diligent",
+      "c": "arrogant",
+      "d": "careless"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 46,
+     "q": "Being ill, he could not attend the classes at school. (Complex Sentence)",
+     "options": {
+      "a": "His illness prevented him from attending the classes at school.",
+      "b": "As he was ill, he could not attend the classes at school.",
+      "c": "He could not attend the classes at school because of his illness.",
+      "d": "He was ill and so he could not attend the classes at school."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 47,
+     "q": "He finished his homework and went out to play. (Simple Sentence)",
+     "options": {
+      "a": "After he finished his homework, he went out to play.",
+      "b": "He went out to play because he finished his homework.",
+      "c": "He finished his homework so that he could go out to play.",
+      "d": "Having finished his homework, he went out to play."
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 48,
+     "q": "If you do not work hard, you will fail. (Compound Sentence)",
+     "options": {
+      "a": "Work hard or you will fail",
+      "b": "Since you didn't work hard, you failed",
+      "c": "By working hard, you can avoid failure.",
+      "d": "You will fail unless you work hard."
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 49,
+     "q": "Why did your brother write such a letter? (Passive Voice)",
+     "options": {
+      "a": "Why had such a letter been written by your brother?",
+      "b": "Why was such a letter written by your brother?",
+      "c": "Why did such a letter be written by your brother?",
+      "d": "Why such a letter written by your brother?"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 50,
+     "q": "The room was filled with smoke. (Active Voice)",
+     "options": {
+      "a": "Smoke has filled the room",
+      "b": "Smoke filled the room.",
+      "c": "Smoke fills the room.",
+      "d": "Smoke had filled the room."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 51,
+     "q": "No one was absent. (Affirmative Sentence)",
+     "options": {
+      "a": "All were absent.",
+      "b": "Everyone was present.",
+      "c": "Someone was present.",
+      "d": "Everyone was not absent"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 52,
+     "q": "The committee approved the proposal. (Passive Voice)",
+     "options": {
+      "a": "The proposal approves the committee.",
+      "b": "The proposal was approved by the committee.",
+      "c": "The committee was approved by the proposal.",
+      "d": "The proposal has approved the committee."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 53,
+     "q": "The bridge was constructed by skilled engineers. (Active Voice)",
+     "options": {
+      "a": "Skilled engineers constructed the bridge.",
+      "b": "Skilled engineers were constructing the bridge.",
+      "c": "The bridge constructed skilled engineers.",
+      "d": "Skilled engineers are constructing the bridge"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 54,
+     "q": "Everyone admired his honesty. (Negative sentence)",
+     "options": {
+      "a": "Nobody admired his honesty.",
+      "b": "No one failed to admire his honesty.",
+      "c": "No one admired his honesty.",
+      "d": "Everyone did not admire his honesty."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 55,
+     "q": "The night was very beautiful. (Exclamatory sentence)",
+     "options": {
+      "a": "The night was not beautiful!",
+      "b": "Was the night beautiful!",
+      "c": "How beautiful the night was!",
+      "d": "The night is beautiful indeed!"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+    },
+    {
+     "n": 56,
+     "q": "I know that he is honest.",
+     "options": {
+      "a": "Adjective clause",
+      "b": "Adverb clause",
+      "c": "Noun clause",
+      "d": "Principal clause"
+     },
+     "answer": "c",
+     "focus": "he is honest",
+     "passage": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words."
+    },
+    {
+     "n": 57,
+     "q": "The boy who won the prize is my cousin.",
+     "options": {
+      "a": "Noun clause",
+      "b": "Adjective clause",
+      "c": "Adverb clause",
+      "d": "Coordinate clause"
+     },
+     "answer": "b",
+     "focus": "who won the prize",
+     "passage": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words."
+    },
+    {
+     "n": 58,
+     "q": "When the rain stopped, the children went outside.",
+     "options": {
+      "a": "Noun clause",
+      "b": "Adverb clause",
+      "c": "Adjective clause",
+      "d": "Coordinate clause"
+     },
+     "answer": "b",
+     "focus": "When the rain stopped",
+     "passage": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words."
+    },
+    {
+     "n": 59,
+     "q": "This is the house where I was born.",
+     "options": {
+      "a": "Noun clause",
+      "b": "Adverb clause",
+      "c": "Adjective clause",
+      "d": "Main clause"
+     },
+     "answer": "c",
+     "focus": "where I was born",
+     "passage": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words."
+    },
+    {
+     "n": 60,
+     "q": "The two parties have arrived _________ a mutual agreement.",
+     "options": {
+      "a": "at",
+      "b": "in",
+      "c": "on",
+      "d": "by"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+    },
+    {
+     "n": 61,
+     "q": "Scientists are usually absorbed _________ their works, often forgetting to eat.",
+     "options": {
+      "a": "at",
+      "b": "in",
+      "c": "on",
+      "d": "with"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+    },
+    {
+     "n": 62,
+     "q": "He was so engrossed _________ his study for written exam that he didn't hear the alarm go off.",
+     "options": {
+      "a": "at",
+      "b": "with",
+      "c": "in",
+      "d": "on"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+    },
+    {
+     "n": 63,
+     "q": "The judge ruled that the evidence was not relevant _________ the case being tried.",
+     "options": {
+      "a": "to",
+      "b": "with",
+      "c": "for",
+      "d": "about"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+    },
+    {
+     "n": 64,
+     "q": "It is difficult to distinguish between a career politician and one who acts __________ conviction.",
+     "options": {
+      "a": "with",
+      "b": "by",
+      "c": "out of",
+      "d": "through"
+     },
+     "answer": "c",
+     "note": "Two options are grammatically and idiomatically defensible. (a) 'with conviction' is standard English and a candidate choosing it is not making a collocation error; only the logic of the career-politician contrast, which requires a motive rather than a manner, settles the item in favour of (c).",
+     "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+    },
+    {
+     "n": 65,
+     "q": "She has a remarkable knack _______ finding the best school in the city she visits.",
+     "options": {
+      "a": "of",
+      "b": "in",
+      "c": "with",
+      "d": "for"
+     },
+     "answer": "d",
+     "note": "Two options are defensible: 'a knack of finding' is an attested (chiefly British and older) variant that dictionaries record alongside 'a knack for'. 'For' is the more common modern form and the evident intended key, but 'of' is not an outright error.",
+     "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+    }
+   ]
+  },
+  {
+   "id": "jao-gk",
+   "title": "Junior Administrative Officer — General Knowledge, Arithmetic & Reasoning",
+   "subtitle": "Paper-II · July 2026",
+   "glyph": "📘",
+   "note": null,
+   "exam": "Junior Accounts Officer (JAO) (July 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "Recently, INTERPOL has published its first ever Silver Notice, it is associated with:",
+     "options": {
+      "a": "tracing and recovering criminally obtained assets.",
+      "b": "locating missing persons.",
+      "c": "seeking the location and arrest of persons wanted for prosecution.",
+      "d": "seeking information on unidentified bodies."
+     },
+     "answer": "a"
+    },
+    {
+     "n": 2,
+     "q": "The ‘Project Waterworth’, sometimes mentioned in the news, is related to:",
+     "options": {
+      "a": "A global initiative aimed at improving groundwater recharge and conservation.",
+      "b": "A technology-driven project for realtime water quality monitoring and assessment.",
+      "c": "A sustainable desalination project for providing potable water in coastal regions.",
+      "d": "A subsea cable network to strengthen the scale and reliability of the world’s digital highways."
+     },
+     "answer": "d"
+    },
+    {
+     "n": 3,
+     "q": "The TALASH programme, recently launched by the Government of India in collaboration with UNICEF, aims to:",
+     "options": {
+      "a": "Provide career counselling and life skills education to empower tribal students studying in Eklavya Model Residential Schools (EMRSs)",
+      "b": "Investigate juvenile delinquency among tribal students in residential schools across India",
+      "c": "Promote sports and cultural exchange among tribal students at the national level",
+      "d": "Identify and train tribal youth for recruitment into government services"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 4,
+     "q": "The “Yala Glacier”, recently declared as “dead”, is located in which one of the following countries?",
+     "options": {
+      "a": "Russia",
+      "b": "Bhutan",
+      "c": "Greenland",
+      "d": "Nepal"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 5,
+     "q": "Consider the following statements with reference to Subsidiary Alliance:\n1. Under the Alliance, a British Resident was posted in the court of Indian rulers.\n2. It was introduced by the Governor- General Warren Hastings.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 6,
+     "q": "In the Gupta administration, the empire was divided into provinces, each under a governor, and further into districts under local heads. Which of the following terms correctly refer to the provincial governors and the district heads, respectively?",
+     "options": {
+      "a": "Uparikas and Vishayapatis",
+      "b": "Bhogikas and Vishayapatis",
+      "c": "Amatyas and Uparikas",
+      "d": "Vishayapatis and Sannidhatas"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 7,
+     "q": "With reference to the Anglo–Maratha Wars, consider the following statements:\n1. The First Anglo–Maratha War ended with the Treaty of Salbai.\n2. The Second Anglo–Maratha War took place during the tenure of Lord Wellesley.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 8,
+     "q": "Consider the following statements:\n1. Convectional rainfall occurs primarily in polar regions.\n2. Orographic rainfall is caused by mountains forcing moist air to rise.\nWhich of the above statements is/are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 9,
+     "q": "In the context of Earth’s climate system, what does the term “Heat Budget” refer to?",
+     "options": {
+      "a": "The total heat stored in oceans and continents at any given time",
+      "b": "The balance between incoming solar radiation and outgoing terrestrial radiation.",
+      "c": "The total energy reflected by clouds and the Earth’s surface",
+      "d": "The heat absorbed by water vapour and greenhouse gases"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 10,
+     "q": "Which of the following statements is not correct regarding the Inter Tropical Convergence Zone (ITCZ)?\n1. It is a high-pressure zone located at the equator where trade winds converge.\n2. The seasonal migration of the ITCZ is one of the major factors responsible for the onset and withdrawal of the Indian monsoon.\nSelect the correct answer using the code given below.",
+     "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 11,
+     "q": "With reference to Fundamental Duties under the Constitution of India, consider the following statements:\n1. These were not present in the original Constitution adopted on 26th January 1950.\n2. They are applicable to all persons residing in the territory of India.\n3. Parliament can enforce the Fundamental Duties by enacting a law.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "2 only",
+      "b": "1 and 2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 12,
+     "q": "Who among the following was not a member of the Drafting Committee of the Constituent Assembly?",
+     "options": {
+      "a": "J.B. Kripalani",
+      "b": "K.M. Munshi",
+      "c": "Syed Mohammad Saadullah",
+      "d": "T.T. Krishanamachari"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 13,
+     "q": "Consider the following statements regarding Gross National Product (GNP):\n1. It measures the total monetary value of output produced by a country’s residents and foreigners in the domestic territory of the country.\n2. It does not include intermediate goods and services.\nWhich of the statements given above is/are not correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 14,
+     "q": "The UNDP’s Human Development Index (HDI) does not include which of the following indicators?",
+     "options": {
+      "a": "Life expectancy at birth",
+      "b": "Gross National Income per capita",
+      "c": "Mean years of schooling",
+      "d": "Infant mortality rate"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 15,
+     "q": "Which one of the following subsidies is most likely to fall under the Amber Box category of the World Trade Organization (WTO)?",
+     "options": {
+      "a": "Direct income support to farmers not linked to production",
+      "b": "Public investment in agricultural research and extension services",
+      "c": "Subsidies directly linked to production that are considered to distort trade and output",
+      "d": "Payments to farmers for adopting environmentally sustainable farming practices"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 16,
+     "q": "Green pages in the Red Data Book of the International Union for Conservation of Nature denote:",
+     "options": {
+      "a": "Species that have never been endangered",
+      "b": "Species that were previously endangered, but are no longer threatened",
+      "c": "Species that are in the least concern category",
+      "d": "Species that are in the data-deficient category"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 17,
+     "q": "In the context of ecology, Amensalism refers to:",
+     "options": {
+      "a": "an interaction where both species are harmed.",
+      "b": "a relationship in which one species is inhibited while the other is unaffected.",
+      "c": "an association where both species benefit.",
+      "d": "a relationship in which one organism is benefited by direct utilization of another."
+     },
+     "answer": "b"
+    },
+    {
+     "n": 18,
+     "q": "A man is pushing hard against a rigid brick wall. In this context, which among the following is correct?",
+     "options": {
+      "a": "The internal energy used by the man is zero.",
+      "b": "The work done by the man is zero.",
+      "c": "The force applied by the man is zero.",
+      "d": "None of the above"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 19,
+     "q": "Which of the following are advantages of Lithium-ion batteries over conventional lead–acid batteries?\n1. Light weight\n2. High energy density\n3. Lower cost\nSelect the correct answer using the code given below:",
+     "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 20,
+     "q": "Radioisotope Iodine-131 is commonly used in the treatment of which of the following medical conditions?",
+     "options": {
+      "a": "Lung infections",
+      "b": "Prostate cancer",
+      "c": "Thyroid disorders",
+      "d": "Kidney stones"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 21,
+     "q": "The term ‘Zupui Ni’ is associated with which Mizo festival?",
+     "options": {
+      "a": "Mim Kut",
+      "b": "Pawl Kut",
+      "c": "Chapchar Kut",
+      "d": "Hnahsin Kut"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 22,
+     "q": "‘Operation Jericho’, often mentioned in the history of Mizoram, refers to:",
+     "options": {
+      "a": "The British annexation of the Lushai Hills after the 1871–72 expedition",
+      "b": "The MNF-led armed uprising aimed at securing independence for Mizoram in 1966",
+      "c": "The formation of a Mizo battalion during the Second World War",
+      "d": "The aerial bombing of Aizawl by the Indian Air Force in March 1966."
+     },
+     "answer": "b"
+    },
+    {
+     "n": 23,
+     "q": "In Mizo folklore, a female character is said to have miraculously emerged from a festering wound on a man’s thumb. Who was she?",
+     "options": {
+      "a": "Chhingpuii",
+      "b": "Chemtei",
+      "c": "Kungawrhi",
+      "d": "Chawngchilhi"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 24,
+     "q": "In which year were the North and South Lushai Hills united into a single district with its headquarters at Aizawl?",
+     "options": {
+      "a": "1871",
+      "b": "1890",
+      "c": "1898",
+      "d": "1947"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 25,
+     "q": "Which of the followintg Stadium became the first venue to host three FIFA World Cup opening matches?",
+     "options": {
+      "a": "BC Plate",
+      "b": "Rose Bowl",
+      "c": "Estadio Azteca",
+      "d": "Metlife Studium"
+     },
+     "answer": "c",
+     "note": "Printed typos retained verbatim: 'followintg' in the stem, 'BC Plate' (BC Place) and 'Metlife Studium' (MetLife Stadium) in the options."
+    },
+    {
+     "n": 26,
+     "q": "The recently launched ‘Project Thaichhawninu’ will be implemented in:",
+     "options": {
+      "a": "28 RD Blocks",
+      "b": "27 RD Blocks",
+      "c": "26 RD Blocks",
+      "d": "25 RD Blocks"
+     },
+     "answer": "b",
+     "note": "Unverified: no independent source available for 'Project Thaichhawninu' or the current number of RD Blocks in Mizoram. Answer follows the marked option only."
+    },
+    {
+     "n": 27,
+     "q": "The Ilbert Bill controversy during British India was related to:",
+     "options": {
+      "a": "Press freedom",
+      "b": "Judicial equality between Indians and Europeans",
+      "c": "Land revenue reforms",
+      "d": "Expansion of railways"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 28,
+     "q": "The Vernacular Press Act of 1878 was enacted to:",
+     "options": {
+      "a": "Promote Indian language newspapers",
+      "b": "Restrict criticism of British policies in Indian-language newspapers",
+      "c": "Encourage literacy among peasants",
+      "d": "Regulate English education"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 29,
+     "q": "Consider the following statements regarding the Cripps Mission:\n1. It was sent during the Second World War.\n2. It proposed Dominion Status after the war.\n3. It was accepted unanimously by Congress and the Muslim League.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 30,
+     "q": "Consider the following statements regarding cyclones:\n1. Tropical cyclones derive energy from warm ocean waters.\n2. Cyclones rotate clockwise in the Northern Hemisphere.\n3. The eye of a cyclone is generally calm.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 31,
+     "q": "Consider the following statements:\n1. The Equator passes through Sri Lanka.\n2. The Tropic of Cancer passes through India.\n3. The Prime Meridian passes through Greenwich.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 and 3 only",
+      "b": "1 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 32,
+     "q": "The highest plateau in the world is:",
+     "options": {
+      "a": "Deccan Plateau",
+      "b": "Colorado Plateau",
+      "c": "Tibetan Plateau",
+      "d": "Iranian Plateau"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 33,
+     "q": "Consider the following statements regarding Money Bills:\n1. A Money Bill can be introduced only in the Lok Sabha.\n2. The Rajya Sabha can reject a Money Bill.\n3. The Speaker certifies whether a Bill is a Money Bill.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "1 and 3 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "b",
+     "note": "Source has TWO options highlighted, (a) and (b); marked recorded as null. On the merits only (b) is defensible."
+    },
+    {
+     "n": 34,
+     "q": "The term “Judicial Review” refers to the power of the judiciary to:",
+     "options": {
+      "a": "Amend the Constitution",
+      "b": "Review the working of political parties",
+      "c": "Examine the constitutional validity of laws and executive actions",
+      "d": "Conduct elections"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 35,
+     "q": "Which Schedule of the Constitution deals with anti-defection provisions?",
+     "options": {
+      "a": "Seventh Schedule",
+      "b": "Eighth Schedule",
+      "c": "Tenth Schedule",
+      "d": "Eleventh Schedule"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 36,
+     "q": "Which among the following is NOT a constitutional body?",
+     "options": {
+      "a": "UPSC",
+      "b": "Finance Commission",
+      "c": "NITI Aayog",
+      "d": "Election Commission"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 37,
+     "q": "Consider the following statements regarding Self Help Groups (SHGs):\n1. They function exclusively in urban areas.\n2. They promote financial inclusion.\n3. They are generally formed by small groups with common socio-economic objectives.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 38,
+     "q": "The “dependency ratio” refers to:",
+     "options": {
+      "a": "Ratio of exports to imports",
+      "b": "Ratio of dependent population to working-age population",
+      "c": "Ratio of urban to rural population",
+      "d": "Ratio of tax revenue to GDP"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 39,
+     "q": "Sustainable development was most famously defined in which report?",
+     "options": {
+      "a": "Kothari Commission Report",
+      "b": "Brundtland Report",
+      "c": "Sarkaria Commission Report",
+      "d": "Kelkar Committee Report"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 40,
+     "q": "Which of the following pollutants is mainly responsible for acid rain?",
+     "options": {
+      "a": "Carbon monoxide and methane",
+      "b": "Sulphur dioxide and nitrogen oxides",
+      "c": "Ozone and helium",
+      "d": "Hydrogen and oxygen"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 41,
+     "q": "Consider the following statements regarding biosphere reserves:\n1. They aim to balance conservation and sustainable use.\n2. They are recognized under UNESCO’s Man and Biosphere Programme.\n3. Human activities are completely prohibited in all zones.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "1 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 42,
+     "q": "The term “biomagnification” refers to:",
+     "options": {
+      "a": "Rapid growth of forests",
+      "b": "Increase in biodiversity over time",
+      "c": "Progressive accumulation of toxic substances along the food chain",
+      "d": "Migration of species to higher altitudes"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 43,
+     "q": "Consider the following statements:\n1. Wetlands act as natural flood buffers.\n2. Coral bleaching is associated with rising sea temperatures.\n3. Biodiversity enhances ecosystem resilience.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 44,
+     "q": "Which part of the human brain is primarily responsible for maintaining balance and coordination?",
+     "options": {
+      "a": "Cerebrum",
+      "b": "Medulla oblongata",
+      "c": "Cerebellum",
+      "d": "Hypothalamus"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 45,
+     "q": "Which of the following phenomena explains the blue colour of the sky?",
+     "options": {
+      "a": "Reflection",
+      "b": "Refraction",
+      "c": "Dispersion",
+      "d": "Scattering of light"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 46,
+     "q": "Consider the following statements:\n1. Human beings normally have 48 chromosomes.\n2. RNA is involved in protein synthesis.\n3. DNA carries hereditary information.\nWhich of the statements given above is/are correct?",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 47,
+     "q": "In Mizo mythology, the tall tree standing at the centre of the Earth was called:",
+     "options": {
+      "a": "Thingvandek",
+      "b": "Thingvando",
+      "c": "Thingvantawng",
+      "d": "Thingvanchen"
+     },
+     "answer": "c",
+     "note": "Unverified Mizo mythology term; answer rests on the semantics of the name, not on a checked source."
+    },
+    {
+     "n": 48,
+     "q": "Which Mizo dance was also known as Thingdim lam?",
+     "options": {
+      "a": "Tlang lam",
+      "b": "Chawnglaizawn",
+      "c": "Cheraw",
+      "d": "Khuallam"
+     },
+     "answer": "d",
+     "note": "Unverified: no source available for the alternative name 'Thingdim lam'. Answer follows the marked option only."
+    },
+    {
+     "n": 49,
+     "q": "Which British administrator was nicknamed “Ram sem sap” owing to his practice of fixing the boundaries of the Mizo chiefs’ jurisdiction?",
+     "options": {
+      "a": "Henry Walter George Cole",
+      "b": "John Shakespear",
+      "c": "Col. Granville Henry Loch",
+      "d": "N.E. Parry"
+     },
+     "answer": "b",
+     "note": "Low confidence: Shakespear vs N.E. Parry not resolvable from memory; verify against a Mizoram history source."
+    },
+    {
+     "n": 50,
+     "q": "Who was the 2nd Governor of Mizoram after it achieved Statehood?",
+     "options": {
+      "a": "HS Dubey",
+      "b": "Hiteswar Saikia",
+      "c": "KV Krishna Rao",
+      "d": "Williamson A. Sangma"
+     },
+     "answer": "c",
+     "note": "Disagreement with the marked option and low confidence on both sides; verify the Governor succession list for 1987-1990 directly.",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "d",
+      "why": "Mizoram's first Governor after statehood on 20 February 1987 was Hiteswar Saikia, and my recollection of the Raj Bhavan succession puts Williamson A. Sangma next, in 1989. The marked option says K.V. Krishna Rao, who did hold north-eastern governorships in this period, so the two candidates must be checked against Raj Bhavan Mizoram's official list before either is trusted."
+     }
+    },
+    {
+     "n": 51,
+     "q": "How many integers are there between −12 and 9?",
+     "options": {
+      "a": "19",
+      "b": "20",
+      "c": "21",
+      "d": "22"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 52,
+     "q": "The HCF and LCM of two numbers are 12 and 180 respectively. If one of the numbers is 36, then the other number is:",
+     "options": {
+      "a": "45",
+      "b": "60",
+      "c": "72",
+      "d": "90"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 53,
+     "q": "Find the 16th term from the end in the following sequence:\n7, 11, 15, …, 215",
+     "options": {
+      "a": "151",
+      "b": "155",
+      "c": "161",
+      "d": "145"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 54,
+     "q": "If the mean of x, x+2, x+4, x+6, x+8 is 11, then the value of ‘x’ is:",
+     "options": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "7"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 55,
+     "q": "If α and β are roots of x² - 3x+2=0, then α² + β² =",
+     "options": {
+      "a": "5",
+      "b": "9",
+      "c": "13",
+      "d": "4"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 56,
+     "q": "A student needs to secure 40% to pass. If he gets 72 marks and fails by 8 marks, what are the total marks?",
+     "options": {
+      "a": "150",
+      "b": "180",
+      "c": "200",
+      "d": "160"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 57,
+     "q": "Among the 10 students of a coaching class, the average weight of 6 students is 56kg. If the average weight of the remaining students is 59kg, then what is the average weight of all students?",
+     "options": {
+      "a": "54kg",
+      "b": "55kg",
+      "c": "56kg",
+      "d": "57kg"
+     },
+     "answer": "d",
+     "note": "Exact answer is 57.2 kg; no option is exactly correct and (d) 57kg is only the nearest value."
+    },
+    {
+     "n": 58,
+     "q": "The single discount equivalent to two successive discounts of 20% and 10% is:",
+     "options": {
+      "a": "24%",
+      "b": "25%",
+      "c": "27%",
+      "d": "28%"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 59,
+     "q": "The ratio of the cost price and selling price of a ceiling fan is 5:7. The gain percent is:",
+     "options": {
+      "a": "30%",
+      "b": "40%",
+      "c": "45%",
+      "d": "50%"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 60,
+     "q": "By selling a coat for ₹630, a shopkeeper gains 5%. The cost price of the coat is:",
+     "options": {
+      "a": "₹600",
+      "b": "₹630",
+      "c": "₹650",
+      "d": "₹700"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 61,
+     "q": "If P:Q = 2:3 and Q:R = 5:7, then P:Q:R = ?",
+     "options": {
+      "a": "10:15:21",
+      "b": "2:3:7",
+      "c": "10:3:7",
+      "d": "2:15:21"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 62,
+     "q": "Divide ₹4,800 into three parts such that the second part is 3/4 of the first part and the third part is 5/3 of the second part. The amount of the first part is:",
+     "options": {
+      "a": "₹1,200",
+      "b": "₹1,600",
+      "c": "₹1,800",
+      "d": "₹2,000"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 63,
+     "q": "A alone can complete the work in 18 days while B alone in 15 days. B alone worked at it for 10 days and then left the work. In how many more days will A alone complete the remaining work?",
+     "options": {
+      "a": "5 days",
+      "b": "6 days",
+      "c": "7 days",
+      "d": "8 days"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 64,
+     "q": "The simple interest on a sum for 5 years is one-fourth of the sum. The rate of interest per annum is:",
+     "options": {
+      "a": "8%",
+      "b": "6%",
+      "c": "5%",
+      "d": "4%"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 65,
+     "q": "What would be the compound interest on ₹25,000 for 2 years at 5% per annum?",
+     "options": {
+      "a": "₹2,500",
+      "b": "₹2,562",
+      "c": "₹2,562.50",
+      "d": "₹2,425.25"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 66,
+     "q": "A square park of side 20 m has a path 2 m wide running around it on the inside. The area of the path is:",
+     "options": {
+      "a": "144 sq.m",
+      "b": "160 sq.m",
+      "c": "176 sq.m",
+      "d": "184 sq.m"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 67,
+     "q": "If the volume of a sphere is 36π cm³, then its radius is:",
+     "options": {
+      "a": "2 cm",
+      "b": "3 cm",
+      "c": "4 cm",
+      "d": "6 cm"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 68,
+     "q": "How many distinct permutations can be made from the letters of the word ‘COMMITTEE’?",
+     "options": {
+      "a": "22680",
+      "b": "45360",
+      "c": "90720",
+      "d": "181440"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 69,
+     "q": "From 7 men and 4 women, a committee of 6 is to be formed with at least 4 men. In how many ways can this be done?",
+     "options": {
+      "a": "371",
+      "b": "364",
+      "c": "385",
+      "d": "301"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 70,
+     "q": "Pipe A can fill a tank in 10 minutes while pipe B can empty it in 15 minutes. If both the pipes are opened in that empty tank, the time taken to fill the tank is:",
+     "options": {
+      "a": "20 min",
+      "b": "25 min",
+      "c": "30 min",
+      "d": "35 min"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 71,
+     "q": "Observe the Histogram given below and answer the question that follows:\n\nHow many students scored more than the average marks of the class?",
+     "options": {
+      "a": "11",
+      "b": "8",
+      "c": "6",
+      "d": "10"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 72,
+     "q": "If √(3ⁿ) = 81, then the value of n is:",
+     "options": {
+      "a": "4",
+      "b": "6",
+      "c": "8",
+      "d": "10"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 73,
+     "q": "The value of 9^(−3/2) is:",
+     "options": {
+      "a": "1/3",
+      "b": "1/9",
+      "c": "1/27",
+      "d": "1/71"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 74,
+     "q": "An 800ml mixture contains water and milk in the ratio 8:2. How much more water and milk should be added in the same mixture to get them in the ratio 9:3?",
+     "options": {
+      "a": "90ml and 80ml, respectively.",
+      "b": "80ml and 90ml, respectively.",
+      "c": "90ml each.",
+      "d": "80ml each."
+     },
+     "answer": "d"
+    },
+    {
+     "n": 75,
+     "q": "A 300m long train is running at the speed of 60 km/hr. If it crosses a tunnel in 2 minutes, what is the length of the tunnel?",
+     "options": {
+      "a": "1500 m.",
+      "b": "1700 m.",
+      "c": "1800 m.",
+      "d": "2100 m."
+     },
+     "answer": "b"
+    },
+    {
+     "n": 76,
+     "q": "How many 1/6 are there in 25 1/3 ?",
+     "options": {
+      "a": "123",
+      "b": "125",
+      "c": "132",
+      "d": "152"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 77,
+     "q": "The central angle subtended by the savings portion on the pie chart is approximately equal to:",
+     "options": {
+      "a": "30°",
+      "b": "65°",
+      "c": "90°",
+      "d": "180°"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 77 & 78): The following pie chart shows the expenditure of a family on different items out of a total income of ₹24,000/- from all sources. Answer the questions based on the data given in the pie chart:"
+    },
+    {
+     "n": 78,
+     "q": "What is the ratio of the expenditure on electricity to that on rent?",
+     "options": {
+      "a": "1:6",
+      "b": "9:13",
+      "c": "4:13",
+      "d": "4:9"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 77 & 78): The following pie chart shows the expenditure of a family on different items out of a total income of ₹24,000/- from all sources. Answer the questions based on the data given in the pie chart:"
+    },
+    {
+     "n": 79,
+     "q": "There are 12 boys in a class of 20 students. A student is chosen from the class at random to be the class representative. What is the probability that the class representative is a girl?",
+     "options": {
+      "a": "40%",
+      "b": "30%",
+      "c": "50%",
+      "d": "25%"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 80,
+     "q": "A clock is set right at 6 AM. If the clock gains 12 minutes in 24 hours, what will be the right time when the clock indicates 12 Noon on the following day?",
+     "options": {
+      "a": "12:12 PM",
+      "b": "12:18 PM",
+      "c": "11:48 AM",
+      "d": "11:42 AM"
+     },
+     "answer": "d",
+     "note": "No option is correct: the true time is 11:45:07 AM. The source carries a handwritten margin note 'compensated' beside this question, which is consistent with MPSC having voided it. Marked option (d) 11:42 AM would require a 36-hour interval, not the actual 30 hours.",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "c",
+      "why": "From 6 AM to 12 noon the next day the clock shows 30 hours = 1800 clock-minutes, and 1452 clock-minutes correspond to 1440 true minutes, so true elapsed time = 1800 × 1440/1452 = 1785.12 min = 29 h 45 min 07 s; the right time is 11:45:07 AM. That value is not printed, and 11:48 AM is nearer to it (2 min 53 s away) than 11:42 AM (3 min 07 s away), so I take (c) while flagging the question as defective."
+     }
+    },
+    {
+     "n": 81,
+     "q": "Select the option that is related to the third term in the same way as the second term is related to the first term: String : Sitar :: Percussion : ?",
+     "options": {
+      "a": "Violin",
+      "b": "Piano",
+      "c": "Tabla",
+      "d": "Trumpet"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 82,
+     "q": "Choose the word which has the same relationship among the three given words:\nCricket, Hockey, Football",
+     "options": {
+      "a": "Tennis",
+      "b": "Kabaddi",
+      "c": "Chess",
+      "d": "Swimming"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 83,
+     "q": "Arrange the following words related to flood management in a meaningful sequence and logical order.\n(i) Relief, (ii) Warning, (iii) Flood, (iv) Rescue, (v) Rehabilitation",
+     "options": {
+      "a": "ii, iii, iv, i, v",
+      "b": "iii, ii, i, iv, v",
+      "c": "ii, iii, i, iv, v",
+      "d": "iii, iv, ii, i, v"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 84,
+     "q": "Find the next term: 2, 6, 24, 120, ?",
+     "options": {
+      "a": "480",
+      "b": "600",
+      "c": "720",
+      "d": "840"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 85,
+     "q": "If ‘he will say’ is coded as ‘1 3 9’ and ‘say to him’ is coded as ‘3 5 2’ and ‘he may do’ is coded as ‘8 7 9’, then what will be the code of ‘will’?",
+     "options": {
+      "a": "3",
+      "b": "1",
+      "c": "9",
+      "d": "8"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 86,
+     "q": "How many meaningful English words can be made from ‘RTEA’ using each letter once?",
+     "options": {
+      "a": "One",
+      "b": "Two",
+      "c": "Three",
+      "d": "Four"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 87,
+     "q": "If ‘P’ means ‘×’, ‘Q’ means ‘÷’, ‘R’ means ‘+’, ‘S’ means ‘−’, then\n18 Q 3 P 4 R 5 S 6 = ?",
+     "options": {
+      "a": "23",
+      "b": "24",
+      "c": "25",
+      "d": "26"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 88,
+     "q": "In a row of boys, Liana is 12th from the left and 15th from the right. How many boys are there in the row?",
+     "options": {
+      "a": "25",
+      "b": "26",
+      "c": "27",
+      "d": "28"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 89,
+     "q": "Find the missing character:",
+     "options": {
+      "a": "30",
+      "b": "35",
+      "c": "40",
+      "d": "28"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 90,
+     "q": "How many triangles are there in the given figure?",
+     "options": {
+      "a": "8",
+      "b": "7",
+      "c": "9",
+      "d": "10"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 91,
+     "q": "A piece of paper is folded and cut as shown below in the question figures. How would this paper look when unfolded?",
+     "options": {
+      "a": "A square with four small circles arranged in a 2×2 block in the upper-left area.",
+      "b": "A square with four small circles: one near the top, two side by side below it, and one below-left of those.",
+      "c": "A square with three small circles: two near the top-left set diagonally, and one near the bottom-right.",
+      "d": "A square with five small circles: a 2×2 block of four in the upper-left area plus one near the bottom-right."
+     },
+     "answer": "d"
+    },
+    {
+     "n": 92,
+     "q": "If today is a Monday, after 75 days it will be:",
+     "options": {
+      "a": "Friday",
+      "b": "Saturday",
+      "c": "Sunday",
+      "d": "Monday"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 93,
+     "q": "One sunny morning, Mawii walks towards the east and saw her friend Liana coming from a certain direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is Liana approaching from?",
+     "options": {
+      "a": "North",
+      "b": "South",
+      "c": "East",
+      "d": "South-East"
+     },
+     "answer": "b",
+     "note": "Pronoun slip in the stem: Mawii is 'her friend' but the shadow is said to be on 'his left side'. The question only resolves if 'his' means Liana's."
+    },
+    {
+     "n": 94,
+     "q": "Choose the odd one out from the given figures:",
+     "options": {
+      "a": "Top row: up-arrow, down-arrow; bottom row: down-arrow, up-arrow.",
+      "b": "Top row: up-arrow, down-arrow; bottom row: up-arrow, down-arrow.",
+      "c": "Top row: right-arrow, left-arrow; bottom row: left-arrow, right-arrow.",
+      "d": "Top row: left-arrow, right-arrow; bottom row: right-arrow, left-arrow."
+     },
+     "answer": "b"
+    },
+    {
+     "n": 95,
+     "q": "In the following figure, what should replace the question mark?",
+     "options": {
+      "a": "169",
+      "b": "196",
+      "c": "256",
+      "d": "289"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 96,
+     "q": "Statements:\nAll fruits are flowers.\nAll seeds are fruits.\nConclusions:\nI. All flowers are fruits.\nII. All seeds are flowers.\nSelect the best option from the following:",
+     "options": {
+      "a": "If both Conclusions I and II follow.",
+      "b": "If neither Conclusions I nor II follows.",
+      "c": "If only Conclusions I follows.",
+      "d": "If only Conclusions II follows."
+     },
+     "answer": "d"
+    },
+    {
+     "n": 97,
+     "q": "Six friends are sitting in a row. Puia sits exactly in between Sanga and Vula. Nunga sits exactly in between Lawma and Thanga. Five friends sit to the left of Sanga. Thanga is not sitting immediately next to Vula. Who sits second to the left of Vula?",
+     "options": {
+      "a": "Nunga",
+      "b": "Lawma",
+      "c": "Sanga",
+      "d": "Thanga"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 98,
+     "q": "In a certain code language, LOVE is written as MUWI and GOOD is written as HUUE. How will KIND be written in the same language?",
+     "options": {
+      "a": "MUME",
+      "b": "MOME",
+      "c": "LOOE",
+      "d": "LOME"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 99,
+     "q": "If the letters of the word REASONING are arranged in alphabetical order, how many letters will remain in the same position?",
+     "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "3"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 100,
+     "q": "T is the daughter of S whose wife is R. R is the daughter of P whose husband is Q. How is S related to P?",
+     "options": {
+      "a": "Mother-in-law",
+      "b": "Son-in-law",
+      "c": "Son",
+      "d": "Grandson"
+     },
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "leso-eng",
+   "title": "Assistant LESO — General English",
+   "subtitle": "Précis, Letter, Comprehension & Grammar · April 2026",
+   "glyph": "🔤",
+   "note": "Descriptive prompts (essay, letter, précis) from this paper aren't included here — only the MCQs are.",
+   "exam": "Assistant Labour, Employment, Skill Development & Entrepreneurship Officer (April 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "The Bible is the holy book of the Christians.",
+     "options": {
+      "a": "Noun",
+      "b": "Pronoun",
+      "c": "Adjective",
+      "d": "Preposition"
+     },
+     "answer": "a",
+     "focus": "Bible",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :"
+    },
+    {
+     "n": 2,
+     "q": "None of my lost books was found.",
+     "options": {
+      "a": "Adverb",
+      "b": "Adjective",
+      "c": "Pronoun",
+      "d": "Verb"
+     },
+     "answer": "c",
+     "focus": "None",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :"
+    },
+    {
+     "n": 3,
+     "q": "It was a beautiful sunset.",
+     "options": {
+      "a": "Adjective",
+      "b": "Adverb",
+      "c": "Conjunction",
+      "d": "Article"
+     },
+     "answer": "a",
+     "focus": "beautiful",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :"
+    },
+    {
+     "n": 4,
+     "q": "He completed his work quickly.",
+     "options": {
+      "a": "Determiner",
+      "b": "Verb",
+      "c": "Adverb",
+      "d": "Pronoun"
+     },
+     "answer": "c",
+     "focus": "quickly",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :"
+    },
+    {
+     "n": 5,
+     "q": "I really wanted to go, but it started raining.",
+     "options": {
+      "a": "Interjection",
+      "b": "Conjunction",
+      "c": "Adjective",
+      "d": "Noun"
+     },
+     "answer": "b",
+     "focus": "but",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :"
+    },
+    {
+     "n": 6,
+     "q": "He was a man fertile in resource.",
+     "options": {
+      "a": "noun",
+      "b": "adverb",
+      "c": "adjective",
+      "d": "interjection"
+     },
+     "answer": "c",
+     "focus": "fertile",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :"
+    },
+    {
+     "n": 7,
+     "q": "He who is merciful shall meet mercy.",
+     "options": {
+      "a": "pronoun",
+      "b": "verb",
+      "c": "adverb",
+      "d": "noun"
+     },
+     "answer": "a",
+     "focus": "who",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :"
+    },
+    {
+     "n": 8,
+     "q": "I did not expect to pass, and see, I was among the top five.",
+     "options": {
+      "a": "noun",
+      "b": "interjection",
+      "c": "adjective",
+      "d": "adverb"
+     },
+     "answer": "b",
+     "focus": "and see",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :"
+    },
+    {
+     "n": 9,
+     "q": "Of two evils choose the less.",
+     "options": {
+      "a": "verb",
+      "b": "noun",
+      "c": "adverb",
+      "d": "adjective"
+     },
+     "answer": "d",
+     "focus": "less",
+     "note": "Highlight disputed: source PDF highlights (d) adjective; adjudicated to (b) noun. The highlight is not an official key. If a later official key for this sitting says (d), re-open — but the grammar here is not genuinely ambiguous under traditional parsing: \"the less\" is the direct object of \"choose\" with no following noun.",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "b",
+      "why": "[adjudicated: derived] Correct answer: (b) noun. The booklet's highlight of (d) adjective is wrong.\n\nParse the slot, not the dictionary. \"Choose\" is a transitive verb and needs a direct object. What follows it is \"the less\" — the definite article opens a noun phrase, and nothing comes after \"less\" for it to modify. So \"less\" is the head of that phrase and fills the object slot itself. A word standing between \"the\" and a verb's object position, with no noun behind it, is functioning as a noun (an adjective used substantively, exactly like \"the rich are not always happy\" or \"the poor\"). Part of speech in this sentence: noun.\n\nWhy (d) is tempting and still wrong: \"less\" is an adjective in its ordinary use — \"I have less money\", where it modifies \"money\". The highlight reflects that habitual use rather than the use in the printed sentence, which is precisely what this question is testing. The direction line says \"pick out the correct part of speech of each italicized word\", i.e. its function here, not its usual class.\n\nHold the standard contrast set in mind, because these papers reuse it:\n- \"I have less money than you.\" — less modifies the noun money -> adjective\n- \"He is less hungry than I am.\" — less modifies the adjective hungry -> adverb\n- \"Of two evils choose the less.\" — less is the object of choose -> noun\n\nNote the sentence was almost certainly chosen for the paper *because* it is the noun case; the adjective case would have been written as the trivial \"less money\" example. Treat (d) as a booklet error."
+     }
+    },
+    {
+     "n": 10,
+     "q": "What happened next?",
+     "options": {
+      "a": "adverb",
+      "b": "verb",
+      "c": "interjection",
+      "d": "adjective"
+     },
+     "answer": "a",
+     "focus": "next",
+     "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :"
+    },
+    {
+     "n": 11,
+     "q": "I am not interested about anything that happened ___ the very remote past.",
+     "options": {
+      "a": "with",
+      "b": "in",
+      "c": "on",
+      "d": "at"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+    },
+    {
+     "n": 12,
+     "q": "She made a point ____ coming late so that everyone would look at her.",
+     "options": {
+      "a": "of",
+      "b": "at",
+      "c": "in",
+      "d": "about"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+    },
+    {
+     "n": 13,
+     "q": "I’m not exactly keen ____ cooking; but I prefer it to washing.",
+     "options": {
+      "a": "at",
+      "b": "in",
+      "c": "of",
+      "d": "on"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+    },
+    {
+     "n": 14,
+     "q": "Passengers may leave bulky articles under the stairs ____ the conductor’s permission.",
+     "options": {
+      "a": "with",
+      "b": "by",
+      "c": "at",
+      "d": "for"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+    },
+    {
+     "n": 15,
+     "q": "As she was getting _____ the car one of her buttons fell off.",
+     "options": {
+      "a": "on",
+      "b": "in",
+      "c": "into",
+      "d": "by"
+     },
+     "answer": "c",
+     "note": "The source PDF carries no highlight for this question (the extractor logged it as UNMARKED), so there is no marked answer to compare against; this answer is derived.",
+     "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+    },
+    {
+     "n": 16,
+     "q": "You will not succeed ___________ you work hard.",
+     "options": {
+      "a": "unless",
+      "b": "if",
+      "c": "because",
+      "d": "although"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+    },
+    {
+     "n": 17,
+     "q": "She acted __________ she knew everything about the matter.",
+     "options": {
+      "a": "because",
+      "b": "although",
+      "c": "as if",
+      "d": "unless"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+    },
+    {
+     "n": 18,
+     "q": "__________ you apologize, I will not forgive you.",
+     "options": {
+      "a": "If",
+      "b": "Unless",
+      "c": "Because",
+      "d": "Although"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+    },
+    {
+     "n": 19,
+     "q": "I don’t know ___________ he will come or not.",
+     "options": {
+      "a": "whether",
+      "b": "although",
+      "c": "because",
+      "d": "unless"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+    },
+    {
+     "n": 20,
+     "q": "She kept quiet __________ she was angry.",
+     "options": {
+      "a": "although",
+      "b": "because",
+      "c": "so",
+      "d": "unless"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+    },
+    {
+     "n": 21,
+     "q": "The book is ________ the table.",
+     "options": {
+      "a": "under",
+      "b": "over",
+      "c": "in",
+      "d": "between"
+     },
+     "answer": "a",
+     "note": "The direction for Q21–30 says \"determiner\", but every item in the run tests a preposition, not a determiner. This item is also weakly written: \"over the table\" is not ungrammatical, so the answer rests on which reading is more natural rather than on a rule.",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 22,
+     "q": "She walked __________ the room quietly.",
+     "options": {
+      "a": "on",
+      "b": "of",
+      "c": "across",
+      "d": "out"
+     },
+     "answer": "c",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 23,
+     "q": "The picture is hanging ___________ the wall.",
+     "options": {
+      "a": "at",
+      "b": "on",
+      "c": "of",
+      "d": "for"
+     },
+     "answer": "b",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 24,
+     "q": "I have been waiting _______ more than two hours.",
+     "options": {
+      "a": "till",
+      "b": "some",
+      "c": "for",
+      "d": "to"
+     },
+     "answer": "c",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 25,
+     "q": "They travelled _______ train.",
+     "options": {
+      "a": "by",
+      "b": "in",
+      "c": "at",
+      "d": "to"
+     },
+     "answer": "a",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 26,
+     "q": "He jumped ________ the river.",
+     "options": {
+      "a": "at",
+      "b": "on",
+      "c": "by",
+      "d": "into"
+     },
+     "answer": "d",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 27,
+     "q": "She is interested _______ dancing.",
+     "options": {
+      "a": "in",
+      "b": "at",
+      "c": "On",
+      "d": "to"
+     },
+     "answer": "a",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 28,
+     "q": "He stood _______ the door wairing.",
+     "options": {
+      "a": "on",
+      "b": "in",
+      "c": "at",
+      "d": "for"
+     },
+     "answer": "c",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 29,
+     "q": "He is afraid _____ the dark.",
+     "options": {
+      "a": "of",
+      "b": "at",
+      "c": "with",
+      "d": "to"
+     },
+     "answer": "a",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 30,
+     "q": "She was born _____ 1960.",
+     "options": {
+      "a": "at",
+      "b": "in",
+      "c": "on",
+      "d": "by"
+     },
+     "answer": "b",
+     "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+    },
+    {
+     "n": 31,
+     "q": "His speech was so _________ that even critics praised his clarity and depth.",
+     "options": {
+      "a": "verbose",
+      "b": "eloquent",
+      "c": "taciturn",
+      "d": "ambiguous"
+     },
+     "answer": "b",
+     "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+    },
+    {
+     "n": 32,
+     "q": "The scientist’s theory was initially met with __________ , but later gained acceptance.",
+     "options": {
+      "a": "scepticism",
+      "b": "acclaim",
+      "c": "enthusiasm",
+      "d": "compliance"
+     },
+     "answer": "a",
+     "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+    },
+    {
+     "n": 33,
+     "q": "She gave a __________ smile, hiding her true disappointment.",
+     "options": {
+      "a": "radiant",
+      "b": "benevolent",
+      "c": "forced",
+      "d": "genuine"
+     },
+     "answer": "c",
+     "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+    },
+    {
+     "n": 34,
+     "q": "The manager was accused of being _________ favoring only a select group of employees.",
+     "options": {
+      "a": "impartial",
+      "b": "biased",
+      "c": "neutral",
+      "d": "objective"
+     },
+     "answer": "b",
+     "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+    },
+    {
+     "n": 35,
+     "q": "The child showed _______ curiosity, asking endless questions.",
+     "options": {
+      "a": "limited",
+      "b": "indifferent",
+      "c": "reluctant",
+      "d": "insatiable"
+     },
+     "answer": "d",
+     "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+    },
+    {
+     "n": 36,
+     "q": "Her success was not due to luck but to her _________ efforts.",
+     "options": {
+      "a": "sporadic",
+      "b": "relentless",
+      "c": "casual",
+      "d": "indifferent"
+     },
+     "answer": "b",
+     "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+    },
+    {
+     "n": 37,
+     "q": "The lawyer’s argument was so __________ that it weakened his entire case.",
+     "options": {
+      "a": "flawed",
+      "b": "compelling",
+      "c": "persuasive",
+      "d": "logical"
+     },
+     "answer": "a",
+     "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+    },
+    {
+     "n": 38,
+     "q": "His remarks were ________ and offended many people.",
+     "options": {
+      "a": "considerate",
+      "b": "insensitive",
+      "c": "polite",
+      "d": "thoughtful"
+     },
+     "answer": "b",
+     "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+    },
+    {
+     "n": 39,
+     "q": "Although the market is volatile, investors are advised to keep their powder dry until the next quarter’s results are released.",
+     "options": {
+      "a": "To panic and sell all assets immediately",
+      "b": "To spend all resources instantly",
+      "c": "To keep gun powder in a dry place",
+      "d": "To remain cautious and ready for action"
+     },
+     "answer": "d",
+     "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+    },
+    {
+     "n": 40,
+     "q": "His claim that all politicians are corrupt is a sweeping statement.",
+     "options": {
+      "a": "Untrue declaration",
+      "b": "Misunderstanding",
+      "c": "Overly generalized statement",
+      "d": "Statement that is proven to be true"
+     },
+     "answer": "c",
+     "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+    },
+    {
+     "n": 41,
+     "q": "The need for diversity and inclusion has come to the fore in many workplaces.",
+     "options": {
+      "a": "Become prominent",
+      "b": "Be invincible",
+      "c": "Inconspicuous",
+      "d": "Ahead of others"
+     },
+     "answer": "a",
+     "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+    },
+    {
+     "n": 42,
+     "q": "It is said that he has a finger in the pie.",
+     "options": {
+      "a": "To have no stake",
+      "b": "Be involved in something",
+      "c": "Have wealth and luxury",
+      "d": "Acquire distinction or glory"
+     },
+     "answer": "b",
+     "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+    },
+    {
+     "n": 43,
+     "q": "Growing up in the mountains, I’ve been surrounded by people who are the salt of the earth.",
+     "options": {
+      "a": "Sensitive people",
+      "b": "Good and honest people",
+      "c": "Hard-working people",
+      "d": "Simple and carefree people"
+     },
+     "answer": "b",
+     "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+    },
+    {
+     "n": 44,
+     "q": "I have no time that I can waste on idle talk.",
+     "options": {
+      "a": "Simple Sentence",
+      "b": "Compound Sentence",
+      "c": "Complex Sentence",
+      "d": "None of these"
+     },
+     "answer": "c",
+     "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+    },
+    {
+     "n": 45,
+     "q": "Not many people would be cruel to animals.",
+     "options": {
+      "a": "Assertive Sentence",
+      "b": "Affirmative Sentence",
+      "c": "Negative Sentence",
+      "d": "Comparative Sentence"
+     },
+     "answer": "c",
+     "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+    },
+    {
+     "n": 46,
+     "q": "Very few cities in India are as rich as Mumbai.",
+     "options": {
+      "a": "Comparative Sentence",
+      "b": "Negative Sentence",
+      "c": "Affirmative Sentence",
+      "d": "Positive Sentence"
+     },
+     "answer": "c",
+     "note": "Defective question: (c) \"Affirmative\" and (d) \"Positive\" are synonyms on the polarity axis, and the sentence is genuinely in the positive degree of comparison, so (d) is equally defensible. Answer follows the source highlight; treat as unreliable.",
+     "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+    },
+    {
+     "n": 47,
+     "q": "Do you not remember her who was formerly your foe?",
+     "options": {
+      "a": "Complex Sentence",
+      "b": "Compound Sentence",
+      "c": "Simple Sentence",
+      "d": "None of these"
+     },
+     "answer": "a",
+     "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+    },
+    {
+     "n": 48,
+     "q": "There was a great fall, my countrymen.",
+     "options": {
+      "a": "Affirmative Sentence",
+      "b": "Assertive Sentence",
+      "c": "Positive Sentence",
+      "d": "Exclamatory Sentence"
+     },
+     "answer": "b",
+     "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+    },
+    {
+     "n": 49,
+     "q": "Identify the type of sentence : “ She enjoys reading books every evening.”",
+     "options": {
+      "a": "Imperative",
+      "b": "Affirmative",
+      "c": "Interrogative",
+      "d": "Exclamatory"
+     },
+     "answer": "b",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+    },
+    {
+     "n": 50,
+     "q": "Choose the sentence that functions as Imperative.",
+     "options": {
+      "a": "Do you like listening to music ?",
+      "b": "What a beautiful flower it is!",
+      "c": "Finish your work on time.",
+      "d": "He does not play football on Sundays."
+     },
+     "answer": "c",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+    },
+    {
+     "n": 51,
+     "q": "Identify the underlined phrase : “She spoke in a very soft voice.”",
+     "options": {
+      "a": "Adjective phrase",
+      "b": "Adverb phrase",
+      "c": "Noun Phrase",
+      "d": "Verb phrase"
+     },
+     "answer": "b",
+     "focus": "in a very soft voice",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+    },
+    {
+     "n": 52,
+     "q": "Identify the underlined phrase : “You could have been told the truth earlier.”",
+     "options": {
+      "a": "Adverb phrase",
+      "b": "Noun phrase",
+      "c": "Verb phrase",
+      "d": "Adjective phrase"
+     },
+     "answer": "c",
+     "focus": "could have been told",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+    },
+    {
+     "n": 53,
+     "q": "Choose the correct Clause to complete the blank : “He continued working _______ he was completely exhausted.",
+     "options": {
+      "a": "since",
+      "b": "even though",
+      "c": "as if",
+      "d": "as long as"
+     },
+     "answer": "b",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+    },
+    {
+     "n": 54,
+     "q": "Which is the correct Clause to complete the sentence ? “The teacher asked me _________ .”",
+     "options": {
+      "a": "where was I going",
+      "b": "where I go",
+      "c": "where I was going",
+      "d": "where am I going"
+     },
+     "answer": "c",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+    },
+    {
+     "n": 55,
+     "q": "Choose the correct conditional sentence.",
+     "options": {
+      "a": "If you will work hard, you will succeed.",
+      "b": "If you worked hard, you will succeed.",
+      "c": "If you work hard, you would succeed.",
+      "d": "If you work hard, you will succeed."
+     },
+     "answer": "d",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+    },
+    {
+     "n": 56,
+     "q": "Pick the correctly structured sentence.",
+     "options": {
+      "a": "Scarcely had I reached the station when the train had left.",
+      "b": "Scarcely I had reached the station when the train left.",
+      "c": "Scarcely had I reached the station when the train left.",
+      "d": "Scarcely had I reached the station than the train left."
+     },
+     "answer": "c",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+    },
+    {
+     "n": 57,
+     "q": "Identify the correct sentence.",
+     "options": {
+      "a": "Each of the students has completed his work.",
+      "b": "Each of the students has completed their work.",
+      "c": "Each of the students have completed their work.",
+      "d": "Each of the students has completed their works."
+     },
+     "answer": "a",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+    },
+    {
+     "n": 58,
+     "q": "Choose the correct complex sentence.",
+     "options": {
+      "a": "He is too tired that he cannot walk.",
+      "b": "He is very tired that he cannot walk.",
+      "c": "He is such tired that he cannot walk.",
+      "d": "He is so tired that he cannot walk."
+     },
+     "answer": "b",
+     "passage": "Direction (Question 49 - 58) : Answer them as instructed:",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "d",
+      "why": "[adjudicated: derived] Correct answer: (d) \"He is so tired that he cannot walk.\" The source booklet highlights (b), and that highlight is an error — (b) is not grammatical English.\n\nThe test here is which intensifier can introduce a result clause beginning with \"that\". Only \"so\" can: the pattern is **so + adjective + that + clause** (\"so tired that he cannot walk\"). That \"that\"-clause is a subordinate clause, which is also what makes the sentence *complex*, as the question demands.\n\nWhy the others fail:\n- (a) \"too tired that...\" — \"too\" takes an infinitive, not a \"that\"-clause. The correct form is \"too tired **to walk**.\"\n- (b) \"very tired that...\" — \"very\" is a bare degree adverb with no correlative partner at all. You cannot hang a result \"that\"-clause off it. You would have to write \"very tired, **so** he cannot walk,\" which is a compound sentence, not a complex one. This is the highlighted option and it is simply wrong.\n- (c) \"such tired that...\" — \"such\" is a determiner and needs a noun phrase after it: \"**such a tired man** that he cannot walk.\" Before a bare adjective, English requires \"so\", not \"such\".\n\nRemember the pair: **so ... that** (with an adjective/adverb) and **such ... that** (with a noun phrase)."
+     }
+    },
+    {
+     "n": 59,
+     "q": "“Have you anything to tell me, little bird?” asked Ulysses.",
+     "options": {
+      "a": "Ulysses asked of the bird if it has anything to tell him.",
+      "b": "Ulysses asked the bird whether it had anything to tell him.",
+      "c": "Ulysses asked the little bird if there is anything to tell him.",
+      "d": "Ulysses asked to the bird whether it has anything to tell him."
+     },
+     "answer": "b",
+     "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+    },
+    {
+     "n": 60,
+     "q": "He said that he did not wish to see any of them and ordered them to go away.",
+     "options": {
+      "a": "He said, “I do not wish to see any of them so go away”",
+      "b": "He ordered, “I do not want to see any of you so go away”",
+      "c": "He said, “Go away, I did not wish to see any of you”",
+      "d": "He said, “I do not wish to see any of you; go away.’"
+     },
+     "answer": "d",
+     "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+    },
+    {
+     "n": 61,
+     "q": "She said to me, “I have often told you not to mess with me.”",
+     "options": {
+      "a": "She reminded me that she had often told me not to mess with her.",
+      "b": "She told me that she has often told me not to mess with her.",
+      "c": "She said that she often reminded me not to mess with her.",
+      "d": "She told me not to mess with her."
+     },
+     "answer": "a",
+     "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+    },
+    {
+     "n": 62,
+     "q": "He replied that he had promised to reward his employees and that he had kept his word.",
+     "options": {
+      "a": "He replied, “I promised to reward my employees and I kept word.”",
+      "b": "He replied, “I had promised to reward my employees and had kept my word.”",
+      "c": "He replied, “I promise to reward my employees. I keep my word.”",
+      "d": "He replied, “I have promised to reward my employees. I have kept my word.”"
+     },
+     "answer": "d",
+     "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+    },
+    {
+     "n": 63,
+     "q": "She said, “Will you have time to do it?” And I said, “Yes”.",
+     "options": {
+      "a": "She asked if I will have time to do it and I replied that I will.",
+      "b": "She asked me if I will have time to do it and I said that I would.",
+      "c": "She asked me if I would have time to do it and I said that I would.",
+      "d": "She asked if I have the time to do it and I said that I will have the time."
+     },
+     "answer": "c",
+     "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+    },
+    {
+     "n": 64,
+     "q": "He said, “ I am going to the market.”",
+     "options": {
+      "a": "He said that he was going to the market.",
+      "b": "He said that he is going to the market.",
+      "c": "He said that I am going to the market.",
+      "d": "He said that I was going to the market."
+     },
+     "answer": "a",
+     "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+    },
+    {
+     "n": 65,
+     "q": "She asked me why I was late.",
+     "options": {
+      "a": "She asked me, “Why I am late?”",
+      "b": "She asked, “Why were you late?”",
+      "c": "She said to me, “Why was I late?”",
+      "d": "She said to me, “Why are you late?”"
+     },
+     "answer": "d",
+     "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+    },
+    {
+     "n": 66,
+     "q": "The teacher said, “Honesty is the best policy.”",
+     "options": {
+      "a": "The teacher said that honesty is the best policy.",
+      "b": "The teacher said that honesty was the best policy.",
+      "c": "The teacher said honesty had been the best policy.",
+      "d": "The teacher said that honesty will be the best policy."
+     },
+     "answer": "a",
+     "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+    }
+   ]
+  },
+  {
+   "id": "leso-gs",
+   "title": "Assistant LESO — General Studies",
+   "subtitle": "Current Affairs, GK & Mizoram · April 2026",
+   "glyph": "📘",
+   "note": null,
+   "exam": "Assistant Labour, Employment, Skill Development & Entrepreneurship Officer (April 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "Which of the following States will go to the polls in April, 2026?",
+     "options": {
+      "a": "Assam, Kerala, Puducherry, West Bengal",
+      "b": "Assam, Tamil Nadu, Puducherry, West Bengal",
+      "c": "Assam, Kerala, West Bengal, Tamil Nadu",
+      "d": "Kerala, Puducherry, Tamil Nadu, West Bengal"
+     },
+     "answer": "c",
+     "note": "Unverified 2026 current affairs: the exact April-2026 polling schedule could not be checked; answer follows the source highlight."
+    },
+    {
+     "n": 2,
+     "q": "Indian cricket team won the ICC Men’s T20 World Cup, 2026 by defeating:",
+     "options": {
+      "a": "New Zealand",
+      "b": "England",
+      "c": "Australia",
+      "d": "South Africa"
+     },
+     "answer": "a",
+     "note": "Unverified 2026 current affairs: the T20 World Cup 2026 final result could not be confirmed; answer follows the source highlight."
+    },
+    {
+     "n": 3,
+     "q": "The theme of Chapchar Kut, 2026 is",
+     "options": {
+      "a": "Zo Nun Ze Mawi: Tlawmngaihna",
+      "b": "Zo Nun Ze Mawi: Inngaihsakna",
+      "c": "Zo Nun Ze Mawi: Inlungrualna",
+      "d": "Zo Nun Ze Mawi: Inremna"
+     },
+     "answer": "d",
+     "note": "Unverified Mizoram-specific 2026 current affairs: the announced Chapchar Kut 2026 theme could not be checked; answer follows the source highlight."
+    },
+    {
+     "n": 4,
+     "q": "How many seats are reserved for women in General Election to the Aizawl Municipal Corporation, 2026?",
+     "options": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "7"
+     },
+     "answer": "c",
+     "note": "Unverified: 6 vs 7 depends on how the one-third-of-19 reservation is rounded in the AMC 2026 notification; answer follows the source highlight."
+    },
+    {
+     "n": 5,
+     "q": "Vanglaini Mizo Award 2025 was given to:",
+     "options": {
+      "a": "Joy Pachuau",
+      "b": "Sangthankima",
+      "c": "R. Lalrawna",
+      "d": "B. Lalthangliana"
+     },
+     "answer": "d",
+     "note": "Unverified Mizoram-specific current affairs: the Vanglaini Mizo Award 2025 recipient could not be confirmed; answer follows the source highlight."
+    },
+    {
+     "n": 6,
+     "q": "Which two disasters has the 16th Finance Commission recommended for inclusion as nationally notified disasters?",
+     "options": {
+      "a": "Cyclones and droughts",
+      "b": "Heatwaves and lightning strikes",
+      "c": "Floods and earthquakes",
+      "d": "Landslides and cloudbursts"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 7,
+     "q": "Which country is the largest buyer of Iranian crude oil?",
+     "options": {
+      "a": "Russia",
+      "b": "India",
+      "c": "China",
+      "d": "USA"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 8,
+     "q": "The capital of Mauryan Empire under Ashoka was:",
+     "options": {
+      "a": "Pataliputra",
+      "b": "Ujjain",
+      "c": "Taxila",
+      "d": "Vaishali"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 9,
+     "q": "The Ajanta Caves are primarily associated with which religious tradition?",
+     "options": {
+      "a": "Hinduism",
+      "b": "Jainism",
+      "c": "Zoroastrianism",
+      "d": "Buddhism"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 10,
+     "q": "Which Chinese traveler visited India during the reign of Harshavardhana?",
+     "options": {
+      "a": "Fa-Hien",
+      "b": "Hiuen Tsang",
+      "c": "I-Tsing",
+      "d": "Sung Yun"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 11,
+     "q": "The Chalukya Dynasties were in power of Indian medieval history from the reign of 600 to 1200 AD in the state of:",
+     "options": {
+      "a": "Thanjavur",
+      "b": "Deccan",
+      "c": "Badami",
+      "d": "Kalyani"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 12,
+     "q": "Who is known as the “father of the Maratha nation’?",
+     "options": {
+      "a": "Shivaji",
+      "b": "Babur",
+      "c": "Ramaraja",
+      "d": "Shahu"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 13,
+     "q": "Who was the first president of Indian National Congress?",
+     "options": {
+      "a": "G.K. Gokhale",
+      "b": "W.C. Banerjee.",
+      "c": "Dadabhai Naoroji.",
+      "d": "Badruddin Tyabji"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 14,
+     "q": "Jallianwala Bagh massacre took place on the day of:",
+     "options": {
+      "a": "Pongal",
+      "b": "Bakrid",
+      "c": "Holi",
+      "d": "Baisakhi"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 15,
+     "q": "Which major river in Mizoram flows northwards and eventually joins the Barak River in Assam?",
+     "options": {
+      "a": "Tlawng",
+      "b": "Chhimtuipui",
+      "c": "Kolodyne",
+      "d": "Tuirial"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 16,
+     "q": "What is the name of the canal that significantly shortened the maritime route from India to Europe?",
+     "options": {
+      "a": "Panama Canal",
+      "b": "Suez Canal",
+      "c": "Beijing-Hangzhou Grand Canal",
+      "d": "Grand Canal"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 17,
+     "q": "Match the following places with the things known for: A.Blue revolution1.Meat production B.Grey revolution2.Milk production C.Round revolution3.Fertilizers D.White revolution4.Potato E.Red revolution5.Fish production ABCDE",
+     "options": {
+      "a": "43521",
+      "b": "21453",
+      "c": "52341",
+      "d": "53421"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 18,
+     "q": "_________ dam is the highest gravity dam in India.",
+     "options": {
+      "a": "Bhakra Nangal Dam",
+      "b": "Hirakud Dam",
+      "c": "Mettur Dam",
+      "d": "Nagarjuna Sagar Dam"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 19,
+     "q": "Which type of vegetation is found only in the northwestern part of India?",
+     "options": {
+      "a": "The Mangrove Forests",
+      "b": "The Tropical Thorn Forests and Scrubs",
+      "c": "The Tropical Deciduous Forests",
+      "d": "The Tropical Evergreen Forests"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 20,
+     "q": "The Planets that have no natural satellites are:",
+     "options": {
+      "a": "Mercury and Venus",
+      "b": "Earth and Mars",
+      "c": "Jupiter and Saturn",
+      "d": "Uranus and Neptune"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 21,
+     "q": "What is the position of the Right to Property in India?",
+     "options": {
+      "a": "Legal right available to citizens only",
+      "b": "Legal right available to any person",
+      "c": "Fundamental Right available to citizens only",
+      "d": "Neither Fundamental Right nor legal right"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 22,
+     "q": "Sixth Schedule of the Indian Constitution provides administration of tribal areas in the following states:",
+     "options": {
+      "a": "Assam, Meghalaya, Mizoram, Tripura",
+      "b": "Assam, Manipur, Meghalaya, Mizoram",
+      "c": "Assam, Arunachal Pradesh, Mizoram, Nagaland",
+      "d": "Arunachal Pradesh, Meghalaya, Mizoram, Tripura"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 23,
+     "q": "Article 243Q provides for establishment of 3 kinds of Municipalities of every state. Which one of the following is not among them?",
+     "options": {
+      "a": "Gram Panchayat",
+      "b": "Nagar Panchayat",
+      "c": "Municipal Council",
+      "d": "Municipal Corporation"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 24,
+     "q": "Which body recommends the principles of distribution of tax proceeds between Union and States?",
+     "options": {
+      "a": "Planning Commission",
+      "b": "NITI Aayog",
+      "c": "Finance Commission",
+      "d": "Inter State Council"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 25,
+     "q": "Under which Article can the President promulgate an Ordinance when Parliament is not in session?",
+     "options": {
+      "a": "Article 352",
+      "b": "Article 356",
+      "c": "Article 360",
+      "d": "Article 123"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 26,
+     "q": "When was the Constitution of India adopted by the Constituent Assembly?",
+     "options": {
+      "a": "15 August 1947",
+      "b": "26 November 1949",
+      "c": "26 January 1950",
+      "d": "01 January 1950"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 27,
+     "q": "The Preamble of the Indian Constitution is:",
+     "options": {
+      "a": "Enforceable in a court of law",
+      "b": "Non enforceable but a key to the minds of the framers",
+      "c": "A separate statute",
+      "d": "Only a political speech"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 28,
+     "q": "What was the administrative status of Mizoram immediately after Indian independence in 1947?",
+     "options": {
+      "a": "Autonomous District Council",
+      "b": "Union Territory",
+      "c": "State",
+      "d": "District within the state of Assam"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 29,
+     "q": "Human Development Index measures:",
+     "options": {
+      "a": "Income only",
+      "b": "Education only",
+      "c": "Health, education and income",
+      "d": "Population"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 30,
+     "q": "The United Nations has established Sustainable Development Goals (SDGs).",
+     "options": {
+      "a": "15",
+      "b": "16",
+      "c": "17",
+      "d": "18"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 31,
+     "q": "Poverty line is determined based on:",
+     "options": {
+      "a": "Income level",
+      "b": "Consumption expenditure",
+      "c": "Population",
+      "d": "Employment"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 32,
+     "q": "India will begin next census in:",
+     "options": {
+      "a": "April, 2026",
+      "b": "May, 2026",
+      "c": "June, 2026",
+      "d": "July, 2026"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 33,
+     "q": "The service sector does not include :",
+     "options": {
+      "a": "Banking",
+      "b": "Insurance",
+      "c": "Transport",
+      "d": "Car manufacturing"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 34,
+     "q": "Kerala has low Infant Mortality Rate because:",
+     "options": {
+      "a": "It has good climatic condition",
+      "b": "It has a huge number of educated population",
+      "c": "It has adequate provision of basic health and educational facilities",
+      "d": "It has adequate infrastructure"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 35,
+     "q": "Which of the following is NOT a consequence of climate change?",
+     "options": {
+      "a": "Rising sea levels",
+      "b": "Increased biodiversity",
+      "c": "More frequent heatwaves",
+      "d": "Melting polar ice caps"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 36,
+     "q": "What is the projected temperature increase limit set by the Paris Agreement to avoid the most severe impacts of climate change?",
+     "options": {
+      "a": "1.5 degrees Celsius",
+      "b": "2 degrees Celsius",
+      "c": "3 degrees Celsius",
+      "d": "4 degrees Celsius"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 37,
+     "q": "Which international organization monitors and assesses climate change data, impacts, and adaptation strategies?",
+     "options": {
+      "a": "United Nations",
+      "b": "World Health Organization (WHO)",
+      "c": "Intergovernmental Panel on Climate Change (IPCC)",
+      "d": "Greenpeace"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 38,
+     "q": "National Parks in Mizoram are:",
+     "options": {
+      "a": "Phawngpui and Murlen",
+      "b": "Phawngpui and Lengteng",
+      "c": "Murlen and Tokalo",
+      "d": "Murlen and Lengteng"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 39,
+     "q": "Identify the correctly matched pair:",
+     "options": {
+      "a": "Montreal Protocol – Global Warming",
+      "b": "Project Tiger - Lion",
+      "c": "Kyoto Protocol – Climate Change",
+      "d": "Project Hangul - Deer"
+     },
+     "answer": "c",
+     "note": "Two options are correctly matched: (c) Kyoto Protocol–Climate Change and (d) Project Hangul–Deer (the hangul is the Kashmir stag, Cervus hanglu hanglu). Following the marked option (c) as the intended answer, but the question as printed has no single correct response."
+    },
+    {
+     "n": 40,
+     "q": "Which of the following is the largest ‘carbon sink’ on earth?",
+     "options": {
+      "a": "Forests",
+      "b": "Oceans",
+      "c": "Soils",
+      "d": "Rivers"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 41,
+     "q": "Anatomy is a branch of Science which deals with:",
+     "options": {
+      "a": "Structure of animals and plants",
+      "b": "Functioning of body organs",
+      "c": "Animal behaviour",
+      "d": "Cells and tissues"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 42,
+     "q": "Who among the following is considered as the ‘Father of artificial intelligence’?",
+     "options": {
+      "a": "Charles Babbage",
+      "b": "Lee De Forest",
+      "c": "John McCarthy",
+      "d": "JP Eckert"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 43,
+     "q": "Which of the following best explains why the speed of sound is faster in solids than in gases?",
+     "options": {
+      "a": "Solids have higher density than gases",
+      "b": "Solids have more closely packed particles with stronger intermolecular forces",
+      "c": "Solids have lower temperature than gases",
+      "d": "Solids have more free electrons than gases"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 44,
+     "q": "The animal which uses ‘sounds’ as its eyes is:",
+     "options": {
+      "a": "Possum",
+      "b": "Night heron",
+      "c": "Snake",
+      "d": "Bat"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 45,
+     "q": "A girl is swinging on a swing in sitting position. When the girl stands up, the period of the swing will:",
+     "options": {
+      "a": "be shorter",
+      "b": "be longer",
+      "c": "depend on the height of the girl",
+      "d": "not change"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 46,
+     "q": "The full form of LED is:",
+     "options": {
+      "a": "Light Emitting Device",
+      "b": "Light Enhancing Device",
+      "c": "Light Enhancing Diode",
+      "d": "Light Emitting Diode"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 47,
+     "q": "The first Mizo novel, which was published in 1936:",
+     "options": {
+      "a": "Lali",
+      "b": "Hawilopari",
+      "c": "Chhingpuii",
+      "d": "Rimenhawihi"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 48,
+     "q": "Young Lushai Association (YLA) was renamed Young Mizo Association (YMA) in:",
+     "options": {
+      "a": "1935",
+      "b": "1937",
+      "c": "1945",
+      "d": "1947"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 49,
+     "q": "The most remarkable contribution made by Welsh missionary, Dr Peter Fraser towards the Mizo society was:",
+     "options": {
+      "a": "Establishment of Durtlang Hospital",
+      "b": "Welfare of orphans",
+      "c": "Abolition of slavery (bawi/sal)",
+      "d": "Education of children"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 50,
+     "q": "A queen of fairy, who is regarded as the guardian and maker of wild animals is:",
+     "options": {
+      "a": "Chawngtinleri",
+      "b": "Lasi",
+      "c": "Tumchhingi",
+      "d": "Chawngmawii"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 51,
+     "q": "A military campaign to rescue Mary Winchester was called:",
+     "options": {
+      "a": "The Lushai Expedition 1871-1872",
+      "b": "The Lushai Expedition 1873-1874",
+      "c": "The Lushai Expedition 1888-1889",
+      "d": "The Chin Lushai Expedition 1890-1891"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 52,
+     "q": "The famous ‘Kawtchhuahropui’ is located in:",
+     "options": {
+      "a": "Aizawl District",
+      "b": "Khawzawl District",
+      "c": "Lawngtlai District",
+      "d": "Champhai District"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 53,
+     "q": "The Mizo name given to the month of November is:",
+     "options": {
+      "a": "Sahmulphah Thla",
+      "b": "Pawltlak Thla",
+      "c": "Pawlkut Thla",
+      "d": "Khuangchawi Thla"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 54,
+     "q": "The only Padma Bhushan Awardee from Mizoram is:",
+     "options": {
+      "a": "Captain L.Z. Sailo",
+      "b": "Laltluangliana Khiangte",
+      "c": "Brigadier Thenphunga Sailo",
+      "d": "P.S. Chawngthu"
+     },
+     "answer": "a",
+     "note": "Unverified — I cannot confirm from my own knowledge who holds Mizoram's only Padma Bhushan; answer follows the source highlight. Worth a human check against the official Padma awards list."
+    },
+    {
+     "n": 55,
+     "q": "Mizo language belongs to:",
+     "options": {
+      "a": "Mongoloid group",
+      "b": "Indo-Aryan group",
+      "c": "Tibeto-Burman group",
+      "d": "Burmese-Chin group"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 56,
+     "q": "BIOFACH 2026, the world’s largest trade fair for organic products, was held in which country?",
+     "options": {
+      "a": "China",
+      "b": "Malaysia",
+      "c": "Singapore",
+      "d": "Germany"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 57,
+     "q": "What is the new name approved by the Union Cabinet for Kerala?",
+     "options": {
+      "a": "Keralam",
+      "b": "Keraladesh",
+      "c": "Travancore",
+      "d": "Malabar"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 58,
+     "q": "Which payment company partnered with Gnani.ai to launch an agentic AI platform enabling in-call UPI payments during live customer conversations?",
+     "options": {
+      "a": "Paytm",
+      "b": "PhonePe",
+      "c": "Razorpay",
+      "d": "GPay"
+     },
+     "answer": "c",
+     "note": "Unverified 2026 current affairs — the Gnani.ai partner is not something I can confirm; answer follows the source highlight."
+    },
+    {
+     "n": 59,
+     "q": "Who was named the new Supreme Leader of Iran by the Assembly of Experts following the assassination of Ayatollah Ali Khamenei?",
+     "options": {
+      "a": "Masoud Pezeshkian",
+      "b": "Ali Larijani",
+      "c": "Mojtaba Khamenei",
+      "d": "Ebrahim Raisi"
+     },
+     "answer": "c",
+     "note": "Unverified — the event described (assassination of Ayatollah Khamenei and a successor being named) is beyond what I can confirm; answer follows the source highlight."
+    },
+    {
+     "n": 60,
+     "q": "Who was sworn in as the new Prime Minister of Bangladesh after the 13th Parliamentary Election?",
+     "options": {
+      "a": "Tarique Rahman",
+      "b": "Khaleda Zia",
+      "c": "Muhammad Yunus",
+      "d": "Mohammed Shahabuddin"
+     },
+     "answer": "a",
+     "note": "Unverified 2026 current affairs — I cannot confirm the outcome of Bangladesh's 13th parliamentary election; answer follows the source highlight."
+    },
+    {
+     "n": 61,
+     "q": "Who among the Mughal Emperor was proclaimed the Emperor of India during the Revolt of 1857?",
+     "options": {
+      "a": "Bahadur Shah I",
+      "b": "Bahadur Shah II",
+      "c": "Shah Alam II",
+      "d": "Aurangzeb"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 62,
+     "q": "The Partition of Bengal was announced in which year?",
+     "options": {
+      "a": "1908",
+      "b": "1919",
+      "c": "1905",
+      "d": "1910"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 63,
+     "q": "Before 26 November 1949, which among the following was the governing law of India?",
+     "options": {
+      "a": "Government of India Act 1909",
+      "b": "Government of India Act 1935",
+      "c": "Government of India Act 1936",
+      "d": "Charter Act of 1853"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 64,
+     "q": "Who founded the Forward Block?",
+     "options": {
+      "a": "Rasbehari Bose",
+      "b": "Jadugopal Mukhopadhyay",
+      "c": "Hemchandra Ghosh",
+      "d": "Subhas Chandra Bose"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 65,
+     "q": "In which session of the Indian National Congress was Vande Mataram sang for the first time?",
+     "options": {
+      "a": "1899",
+      "b": "1896",
+      "c": "1898",
+      "d": "1897"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 66,
+     "q": "38th Parallel demarcates:",
+     "options": {
+      "a": "India and China",
+      "b": "India and Pakistan",
+      "c": "North and South Korea",
+      "d": "USA and Canada"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 67,
+     "q": "Which among the following has been identified for maximum potential of Tidal Power in India?",
+     "options": {
+      "a": "Palk Strait",
+      "b": "Gulf of Kutch",
+      "c": "Sundarbans",
+      "d": "Gulf of Cambay"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 68,
+     "q": "Which Indian state has maximum neighbouring states?",
+     "options": {
+      "a": "Assam",
+      "b": "Chhattisgarh",
+      "c": "Maharashtra",
+      "d": "Uttar Pradesh"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 69,
+     "q": "Maginot Line exists between which countries?",
+     "options": {
+      "a": "USA & Canada",
+      "b": "Mongolia & Russia",
+      "c": "France & Germany",
+      "d": "Algeria & Libya"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 70,
+     "q": "The largest river island in the world is:",
+     "options": {
+      "a": "Majuli Island",
+      "b": "Malibu Island",
+      "c": "Bhavani Island",
+      "d": "Agatti Island"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 71,
+     "q": "Which atmospheric layer contains Ions and helps in wireless communication?",
+     "options": {
+      "a": "Stratosphere",
+      "b": "Mesosphere",
+      "c": "Thermosphere",
+      "d": "Troposphere"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 72,
+     "q": "A money bill can be introduced in:",
+     "options": {
+      "a": "Either house of the Parliament",
+      "b": "Only Council of States (Rajya Sabha)",
+      "c": "Only House of the People (Lok Sabha)",
+      "d": "None of the above"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 73,
+     "q": "Which the following is incorrect regarding Eight Schedule of the Indian Constitution:",
+     "options": {
+      "a": "The Eight Schedule originally contains 14 languages",
+      "b": "Languages in the Eight Schedule receive Constitutional support for development and promotion",
+      "c": "It lists the languages recognized by the Constitution for Official purposes",
+      "d": "English was added to the Eight Schedule after liberalization of economy in 1991"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 74,
+     "q": "Which of the following Article(s) cannot be suspended even during National Emergency?",
+     "options": {
+      "a": "Article 19",
+      "b": "Articles 20 and 21",
+      "c": "Articles 22 and 23",
+      "d": "Articles 24 and 25"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 75,
+     "q": "Under which of the following jurisdiction can any individual whose Fundamental Rights has been violated, directly move the Supreme Court for remedy?",
+     "options": {
+      "a": "Advisory Jurisdiction",
+      "b": "Appellate Jurisdiction",
+      "c": "Original Jurisdiction",
+      "d": "Writ Jurisdiction"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 76,
+     "q": "Which country is the largest producer of liquefied petroleum gas in the world?",
+     "options": {
+      "a": "China",
+      "b": "Saudi Arabia",
+      "c": "USA",
+      "d": "Russia"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 77,
+     "q": "Which country announced a Strategic Energy Partnership with India and agreed on a CAD 2.6 billion uranium supply deal in March 2026?",
+     "options": {
+      "a": "Canada",
+      "b": "Australia",
+      "c": "United Kingdom",
+      "d": "Germany"
+     },
+     "answer": "a",
+     "note": "2026 current affairs — cannot verify from own knowledge. Answer rests on the CAD currency clue plus the marked option."
+    },
+    {
+     "n": 78,
+     "q": "Which company has secured a U.S. license allowing it to import crude oil from Venezuela, enhancing India’s energy security and refining flexibility?",
+     "options": {
+      "a": "ONGC",
+      "b": "Indian Oil Corporation",
+      "c": "Bharat Petroleum Corporation Limited",
+      "d": "Reliance Industries Limited"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 79,
+     "q": "What GDP growth rate has ICRA projected for India in Q3 FY 2025-2026?",
+     "options": {
+      "a": "6.5%",
+      "b": "7.2%",
+      "c": "7.8%",
+      "d": "8.2%"
+     },
+     "answer": "b",
+     "note": "Specific 2026 ratings-agency projection — unverified; follows the marked option as the only available evidence."
+    },
+    {
+     "n": 80,
+     "q": "Which is the world’s largest Government-funded healthcare program providing coverage to over 10 crore poor families in India?",
+     "options": {
+      "a": "Bharatiya Janaushadhi Pariyojana",
+      "b": "Pradhan Mantri Awaas Yojana-Gramin",
+      "c": "Ayushman Bharat (PMJAY)",
+      "d": "Jal Jeevan Mission"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 81,
+     "q": "The Rights of Persons with Disabilities (RPWD) Act 2016 increased the types of disabilities from:",
+     "options": {
+      "a": "7 to 10",
+      "b": "7 to 15",
+      "c": "7 to 21",
+      "d": "7 to 23"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 82,
+     "q": "What is the main aim of the Montreal Protocol?",
+     "options": {
+      "a": "Global warming",
+      "b": "Climate change",
+      "c": "Protection of the Ozone layer",
+      "d": "Bio-diversity Conservation"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 83,
+     "q": "Which of the following are the biodiversity hotspots present in India? A.The Himalayas B.The Western Ghats C.The Sunderland D.The Indo-Burma Select the correct option below.",
+     "options": {
+      "a": "A, B, C",
+      "b": "A, B, D",
+      "c": "A, C, D",
+      "d": "A, B, C, D"
+     },
+     "answer": "b",
+     "note": "Minor text defect, not answer-breaking: the paper spells Sundaland as \"Sunderland\" (also a city in England), which could mislead a student into reading it as a fabricated distractor — worth correcting to \"Sundaland\" in the bank. Residual risk: because no official MPSC key exists for this sitting, it is possible the setter intended the outdated three-hotspot key, which is what the booklet highlight suggests; the fact itself, however, is not in doubt.",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "d",
+      "why": "[adjudicated: derived] The correct answer is (d) A, B, C, D — all four. India has four global biodiversity hotspots, not three: (1) the Himalaya, (2) the Western Ghats (part of the Western Ghats & Sri Lanka hotspot), (3) Indo-Burma, covering the northeast including Mizoram, and (4) Sundaland, which reaches Indian territory through the Nicobar Islands. \"The Sunderland\" in option C is simply a misspelling of Sundaland; read alongside \"The Himalayas\" and \"The Western Ghats\" it is plainly meant as the hotspot, and it is a real one. The highlight on (b) in the booklet is an error. It reflects the older NCERT-era line that India has \"three hotspots,\" which dropped Sundaland because the Nicobar link is easy to overlook. Current Government of India material — MoEFCC reports, the National Biodiversity Authority, and PIB releases — consistently states four. Memory aid: three on the mainland arc (Himalaya, Western Ghats, Indo-Burma) plus one island entry (Sundaland via the Nicobars). If an exam ever asks for \"hotspots wholly inside India,\" the answer is none — every one of the four straddles national borders."
+     }
+    },
+    {
+     "n": 84,
+     "q": "Which Article of the Indian Constitution states that “It shall be the duty of every citizen of India to protect and improve the natural environment including forests, lakes, rivers and wildlife and have compassion for living creatures.”?",
+     "options": {
+      "a": "Article 49",
+      "b": "Article 50",
+      "c": "Article 51",
+      "d": "Article 51A"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 85,
+     "q": "The primary consumers in a food chain are:",
+     "options": {
+      "a": "Herbivores",
+      "b": "Carnivores",
+      "c": "Decomposers",
+      "d": "Omnivores"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 86,
+     "q": "The Kaveri water dispute is a dispute between which States?",
+     "options": {
+      "a": "Punjab & Haryana",
+      "b": "Uttar Pradesh & Tamil Nadu",
+      "c": "Karnataka & Tamil Nadu",
+      "d": "Tamil Nadu & Maharashtra"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 87,
+     "q": "The inherent ability of organism to reproduce and multiply is called:",
+     "options": {
+      "a": "C value",
+      "b": "K value",
+      "c": "Biotic potential",
+      "d": "Carrying capacity"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 88,
+     "q": "Who proposed the idea of Continental Drift Theory?",
+     "options": {
+      "a": "Harry Hess",
+      "b": "Darwin",
+      "c": "McKenzie and Parker",
+      "d": "Alfred Wegner"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 89,
+     "q": "Commercial planes fly in which layer of the Earth’s atmosphere?",
+     "options": {
+      "a": "Stratosphere",
+      "b": "Mesosphere",
+      "c": "Thermosphere",
+      "d": "Exosphere"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 90,
+     "q": "The pigment that gives human eyes, skin and hair their colour is called:",
+     "options": {
+      "a": "Alizarin",
+      "b": "Melanin",
+      "c": "Phthalocyanine",
+      "d": "Quinacridone"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 91,
+     "q": "Which chemical is added to the otherwise odourless LPG cooking gas for imparting a detectable smell to the gas?",
+     "options": {
+      "a": "Ammonia",
+      "b": "Hydrogen sulphide",
+      "c": "Thioacetone",
+      "d": "Ethyl mercaptan"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 92,
+     "q": "Which juice secreted by the organs in the alimentary canal plays an important role in the digestion of fats?",
+     "options": {
+      "a": "Saliva, hydrochloric acid",
+      "b": "Saliva, Pancreatic juice",
+      "c": "Bile juice, Pancreatic juice",
+      "d": "Saliva, Bile juice"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 93,
+     "q": "Which of the following is not a member of the vitamin B complex?",
+     "options": {
+      "a": "Riboflavin",
+      "b": "Folic Acid",
+      "c": "Thiamine",
+      "d": "Ascorbic Acid"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 94,
+     "q": "What was the first regularly published monthly newspaper in Mizo language with early content focusing on “Hmasang Chanchin”?",
+     "options": {
+      "a": "Lenkawl",
+      "b": "Lushai News",
+      "c": "KristianTlangau",
+      "d": "Mizo leh Vai Chanchinbu"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 95,
+     "q": "What was the traditional ritual associated with a person reaching a high status (Thangchhuah)?",
+     "options": {
+      "a": "Tlangtlir",
+      "b": "Sa-aih",
+      "c": "Khuangchawi",
+      "d": "Sechhun"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 96,
+     "q": "Who is the first Mizo male to successfully scale the Mt. Everest?",
+     "options": {
+      "a": "Samuel Lalrintluanga",
+      "b": "David Zohmangaiha",
+      "c": "JohnyLaltlanmawia",
+      "d": "Vanlalliana"
+     },
+     "answer": "b",
+     "note": "Unverified. Identity of the first Mizo male Everest summiteer could not be confirmed from available knowledge; following the source PDF highlight as the best available evidence."
+    },
+    {
+     "n": 97,
+     "q": "For how many kilometers does Mizoram shares its international border with Myanmar?",
+     "options": {
+      "a": "549 km",
+      "b": "654 km",
+      "c": "510 km",
+      "d": "459 km"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 98,
+     "q": "Which of the following is not a correct pair?",
+     "options": {
+      "a": "Fanghmano ei-Eating cucumber that is not fully ripe",
+      "b": "Lalruangasehnawt-A kind of bird",
+      "c": "Sadawt-A priest",
+      "d": "Bawlpu-A shaman or medicine man"
+     },
+     "answer": "a",
+     "note": "Unverified. The answer turns on the precise meanings of the Mizo terms 'Fanghmano ei' and 'Lalruangasehnawt', which could not be confirmed; only options (c) and (d) could be ruled out with confidence."
+    },
+    {
+     "n": 99,
+     "q": "What is the name given to the short dawn of light which fades away again just before ‘Khawfingchah’?",
+     "options": {
+      "a": "Leilunglan",
+      "b": "Thingchangvar",
+      "c": "Khuantevik",
+      "d": "Vartian"
+     },
+     "answer": "b",
+     "note": "Unverified. Mizo vocabulary item for the pre-dawn false light; could not be confirmed against a source, following the PDF highlight."
+    },
+    {
+     "n": 100,
+     "q": "Who was the author of the Mizo Essay ‘ Thlirtu’?",
+     "options": {
+      "a": "Prof. Darchhawna",
+      "b": "James Dokhuma",
+      "c": "Kaphleia",
+      "d": "J. Malsawma"
+     },
+     "answer": "c",
+     "note": "Unverified. Authorship of the Mizo essay 'Thlirtu' could not be confirmed; note also that option (d) carries a stray '* * * * * * *' end-of-paper marker in the printed text, which is not part of the option."
+    }
+   ]
+  },
+  {
+   "id": "ri-eng",
+   "title": "Research Investigator — General English",
+   "subtitle": "Paper-I · May 2026",
+   "glyph": "🔤",
+   "note": "Descriptive prompts (essay, letter, précis) from this paper aren't included here — only the MCQs are.",
+   "exam": "Research Investigator (May 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "India is a country with diverse cultures and languages.",
+     "options": {
+      "a": "Adjective of Quality",
+      "b": "Proper Noun",
+      "c": "Adjective of Quantity",
+      "d": "Common Noun"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 2,
+     "q": "Honesty is the best policy.",
+     "options": {
+      "a": "Common Noun",
+      "b": "Proper Noun",
+      "c": "Abstract Noun",
+      "d": "Collective Noun"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 3,
+     "q": "Mizoram is a beautiful state.",
+     "options": {
+      "a": "Adjective of Quality",
+      "b": "Adjective of Quantity",
+      "c": "Adjective of Number",
+      "d": "Demonstrative Adjective"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 4,
+     "q": "Do not be such a coward.",
+     "options": {
+      "a": "Adjective of Quality",
+      "b": "Adjective of Quantity",
+      "c": "Adjective of Number",
+      "d": "Demonstrative Adjective"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 5,
+     "q": "Sanga is well mannered because he has a good upbringing.",
+     "options": {
+      "a": "Personal Pronoun",
+      "b": "Demonstrative Pronoun",
+      "c": "Relative Pronoun",
+      "d": "Emphatic Pronoun"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 6,
+     "q": "I hurt myself during the match.",
+     "options": {
+      "a": "Personal Pronoun",
+      "b": "Demonstrative Pronoun",
+      "c": "Relative Pronoun",
+      "d": "Reflexive Pronoun"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 7,
+     "q": "Oranges from Mizoram are sweeter than those from the plains.",
+     "options": {
+      "a": "Personal Pronoun",
+      "b": "Demonstrative Pronoun",
+      "c": "Relative Pronoun",
+      "d": "Reflexive Pronoun"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 8,
+     "q": "The milkman delivers milk daily.",
+     "options": {
+      "a": "Adverb of Place",
+      "b": "Adverb of Time",
+      "c": "Adverb of Manner",
+      "d": "Adverb of Degree"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 9,
+     "q": "They are fully prepared for the conference.",
+     "options": {
+      "a": "Adverb of Place",
+      "b": "Adverb of Time",
+      "c": "Adverb of Manner",
+      "d": "Adverb of Degree"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 10,
+     "q": "Our home is humble, but it is filled with love.",
+     "options": {
+      "a": "Pronoun",
+      "b": "Adjective",
+      "c": "Conjunction",
+      "d": "Adverb"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 11,
+     "q": "The teacher praised the brilliant student.",
+     "options": {
+      "a": "Adjective",
+      "b": "Adverb",
+      "c": "Noun",
+      "d": "Conjunction"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 12,
+     "q": "The book is on the table.",
+     "options": {
+      "a": "Adverb",
+      "b": "Conjunction",
+      "c": "Noun",
+      "d": "Adjective"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 13,
+     "q": "They went to the market after lunch.",
+     "options": {
+      "a": "Noun",
+      "b": "Preposition",
+      "c": "Conjunction",
+      "d": "Adverb"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 14,
+     "q": "I like tea and coffee.",
+     "options": {
+      "a": "Noun",
+      "b": "Adjective",
+      "c": "Interjection",
+      "d": "Conjunction"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 15,
+     "q": "He is a very intelligent boy.",
+     "options": {
+      "a": "Verb",
+      "b": "Pronoun",
+      "c": "Preposition",
+      "d": "Adverb"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 16,
+     "q": "Please sit here.",
+     "options": {
+      "a": "Verb",
+      "b": "Noun",
+      "c": "Adjective",
+      "d": "Adverb"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 17,
+     "q": "I have two books.",
+     "options": {
+      "a": "Noun",
+      "b": "Verb",
+      "c": "Adjective",
+      "d": "Pronoun"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 18,
+     "q": "Oh! That hurts.",
+     "options": {
+      "a": "Preposition",
+      "b": "Interjection",
+      "c": "Verb",
+      "d": "Adjective"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 19,
+     "q": "The old man walked slowly.",
+     "options": {
+      "a": "Conjunction",
+      "b": "Noun",
+      "c": "Adverb",
+      "d": "Adjective"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 20,
+     "q": "The birds are flying above the trees.",
+     "options": {
+      "a": "Preposition",
+      "b": "Noun",
+      "c": "Verb",
+      "d": "Conjunction"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+    },
+    {
+     "n": 21,
+     "q": "courteous",
+     "options": {
+      "a": "regal",
+      "b": "orderly",
+      "c": "official",
+      "d": "polite"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+    },
+    {
+     "n": 22,
+     "q": "despise",
+     "options": {
+      "a": "disdain",
+      "b": "disagree",
+      "c": "respect",
+      "d": "wise"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+    },
+    {
+     "n": 23,
+     "q": "foe",
+     "options": {
+      "a": "duo",
+      "b": "enemy",
+      "c": "noble",
+      "d": "rage"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+    },
+    {
+     "n": 24,
+     "q": "meticulous",
+     "options": {
+      "a": "strict",
+      "b": "careful",
+      "c": "blissful",
+      "d": "careless"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+    },
+    {
+     "n": 25,
+     "q": "agony",
+     "options": {
+      "a": "pain",
+      "b": "chance",
+      "c": "desire",
+      "d": "compel"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+    },
+    {
+     "n": 26,
+     "q": "A thing that remains fixed.",
+     "options": {
+      "a": "mobile",
+      "b": "stationery",
+      "c": "stationary",
+      "d": "mettle"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 27,
+     "q": "Lacking in experience or informed judgement.",
+     "options": {
+      "a": "dewy eyed",
+      "b": "seasoned",
+      "c": "vain",
+      "d": "sceptical"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 28,
+     "q": "Known for bad things",
+     "options": {
+      "a": "incredible",
+      "b": "gullible",
+      "c": "expatriate",
+      "d": "notorious"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 29,
+     "q": "Likely to attract attention",
+     "options": {
+      "a": "sombre",
+      "b": "conspicuous",
+      "c": "ostracize",
+      "d": "mortify"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 30,
+     "q": "To express scornfully one’s low opinion",
+     "options": {
+      "a": "tumultuous",
+      "b": "denigrate",
+      "c": "ferocious",
+      "d": "proclaim"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 31,
+     "q": "Fluent and clear in speech.",
+     "options": {
+      "a": "Emotional",
+      "b": "Enthusiastic",
+      "c": "Verbatim",
+      "d": "Articulate"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 32,
+     "q": "An inscription on a tomb.",
+     "options": {
+      "a": "Epitaph",
+      "b": "Epilogue",
+      "c": "Elegy",
+      "d": "Eulogy"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 33,
+     "q": "Opinion contrary to accepted doctrines.",
+     "options": {
+      "a": "Controversy",
+      "b": "Convention",
+      "c": "Advocacy",
+      "d": "Heresy"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 34,
+     "q": "Governed by a sense of duty.",
+     "options": {
+      "a": "Conscious",
+      "b": "Conscientious",
+      "c": "Intelligent",
+      "d": "Sensible"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 35,
+     "q": "A written declaration made on oath in the presence of a magistrate.",
+     "options": {
+      "a": "Document",
+      "b": "Affidavit",
+      "c": "Dossier",
+      "d": "Voucher"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+    },
+    {
+     "n": 36,
+     "q": "Sanga says, “Mawia is very intelligent.”",
+     "options": {
+      "a": "Sanga says that Mawia was very intelligent.",
+      "b": "Sanga said that Mawia is very intelligent.",
+      "c": "Sanga expressed that Mawia is very intelligent.",
+      "d": "Sanga says that Mawia is very intelligent."
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 37,
+     "q": "The teacher said, “The students are crying.”",
+     "options": {
+      "a": "The teacher said that the students were crying.",
+      "b": "The teacher has said that the students are crying.",
+      "c": "The teacher says that the students were crying.",
+      "d": "The teacher said that the students are crying."
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 38,
+     "q": "Sarah said, “Jonathan will play basketball.”",
+     "options": {
+      "a": "Sarah said that Jonathan will be playing basketball.",
+      "b": "Sarah said that Jonathan would play basketball.",
+      "c": "Sarah said that Jonathan will play basketball.",
+      "d": "Sarah said that Jonathan would have played basketball."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 39,
+     "q": "She said, “I will cook dinner in the evening.”",
+     "options": {
+      "a": "She said that she would cook dinner in the evening.",
+      "b": "She said that she will cook dinner in the evening.",
+      "c": "She said that she will be cooking dinner in the evening.",
+      "d": "She said that she shall cook dinner in the evening."
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 40,
+     "q": "He said to me, “I do not like your new purchase.”",
+     "options": {
+      "a": "He told me that he does not like my new purchase.",
+      "b": "He told me that he did not like my new purchase.",
+      "c": "He told me that he is disliking my new purchase.",
+      "d": "He told me that he will not like my new purchase."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 41,
+     "q": "“I am going to the school tomorrow,” she said.",
+     "options": {
+      "a": "She said that she was going to the school the next day.",
+      "b": "She said she will go to school the next day.",
+      "c": "She said I will go to school tomorrow.",
+      "d": "She said that I was going to the school the next day."
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 42,
+     "q": "“Where do you live?”,  he asked.",
+     "options": {
+      "a": "He asked where I live.",
+      "b": "He asked where I lived.",
+      "c": "He asked where do you live.",
+      "d": "He asked where was I living."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 43,
+     "q": "“Please sit down,” she said.",
+     "options": {
+      "a": "She told them to sit down, please.",
+      "b": "She asked them to sit.",
+      "c": "She requested them to sit down.",
+      "d": "She says please, sit down."
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 44,
+     "q": "They said, “we will arrive tomorrow”.",
+     "options": {
+      "a": "They said we will arrive the next day.",
+      "b": "They said we will come tomorrow.",
+      "c": "They said that they would arrive the next day.",
+      "d": "They said that they will arrive the next day."
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 45,
+     "q": "“Please close the door”, she said.",
+     "options": {
+      "a": "She requested to close the door.",
+      "b": "She said close the door.",
+      "c": "She please asked to close the door.",
+      "d": "Close the door she requested."
+     },
+     "answer": "a",
+     "note": "Printed English of the intended answer (a) is defective: 'requested' is left without an object. The choice is still unambiguous, since no other option uses a reporting verb at all.",
+     "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+    },
+    {
+     "n": 46,
+     "q": "He was singing a beautiful song.",
+     "options": {
+      "a": "Past Indefinite Tense",
+      "b": "Past Continuous Tense",
+      "c": "Past Perfect Tense",
+      "d": "Present Continuous Tense"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+    },
+    {
+     "n": 47,
+     "q": "She has been attending classes all year round.",
+     "options": {
+      "a": "Present Continuous Tense",
+      "b": "Past Continuous Tense",
+      "c": "Present Perfect Continuous Tense",
+      "d": "Present Perfect Tense"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+    },
+    {
+     "n": 48,
+     "q": "I shall have been waiting for the next bus.",
+     "options": {
+      "a": "Future Continuous Tense",
+      "b": "Past Perfect Continuous Tense",
+      "c": "Future Perfect Continuous Tense",
+      "d": "Present Perfect Tense"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+    },
+    {
+     "n": 49,
+     "q": "She went to the hospital.",
+     "options": {
+      "a": "Present Indefinite Tense",
+      "b": "Past Indefinite Tense",
+      "c": "Past Perfect Tense",
+      "d": "Past Continuous Tense"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+    },
+    {
+     "n": 50,
+     "q": "You will have had your lunch.",
+     "options": {
+      "a": "Future Perfect Tense",
+      "b": "Past Indefinite Tense",
+      "c": "Past Perfect Tense",
+      "d": "Past Continuous Tense"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+    },
+    {
+     "n": 51,
+     "q": "If I ______ rich, I would travel the world.",
+     "options": {
+      "a": "am",
+      "b": "was",
+      "c": "were",
+      "d": "be"
+     },
+     "answer": "c",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    },
+    {
+     "n": 52,
+     "q": "The Committee ______ divided in its opinion.",
+     "options": {
+      "a": "are",
+      "b": "is",
+      "c": "were",
+      "d": "have"
+     },
+     "answer": "b",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    },
+    {
+     "n": 53,
+     "q": "She is one of those writers who ______ always inspired me.",
+     "options": {
+      "a": "has",
+      "b": "have",
+      "c": "is",
+      "d": "was"
+     },
+     "answer": "b",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    },
+    {
+     "n": 54,
+     "q": "Each of the players ______ performed well.",
+     "options": {
+      "a": "have",
+      "b": "had",
+      "c": "are",
+      "d": "has"
+     },
+     "answer": "d",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    },
+    {
+     "n": 55,
+     "q": "This book is ______ interesting than I expected.",
+     "options": {
+      "a": "very",
+      "b": "far more",
+      "c": "too",
+      "d": "quite"
+     },
+     "answer": "b",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    },
+    {
+     "n": 56,
+     "q": "His arguments were so ______ that even experts found them difficult to understand.",
+     "options": {
+      "a": "lucid",
+      "b": "obscure",
+      "c": "coherent",
+      "d": "rational"
+     },
+     "answer": "b",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    },
+    {
+     "n": 57,
+     "q": "The author’s writing style is known for its ______ descriptions and vivid imagery.",
+     "options": {
+      "a": "evocative",
+      "b": "bland",
+      "c": "dull",
+      "d": "rigid"
+     },
+     "answer": "a",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    },
+    {
+     "n": 58,
+     "q": "The system is designed to ______ errors before they occur.",
+     "options": {
+      "a": "amplify",
+      "b": "ignore",
+      "c": "escalate",
+      "d": "mitigate"
+     },
+     "answer": "d",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    },
+    {
+     "n": 59,
+     "q": "The manager took a ______ approach to employee complaints, addressing them immediately.",
+     "options": {
+      "a": "indifferent",
+      "b": "dismissive",
+      "c": "proactive",
+      "d": "passive"
+     },
+     "answer": "c",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    },
+    {
+     "n": 60,
+     "q": "The results were so ______ that they required further verification.",
+     "options": {
+      "a": "reliable",
+      "b": "definite",
+      "c": "conclusive",
+      "d": "inconclusive"
+     },
+     "answer": "d",
+     "note": "Extraction artifact: option (d) reads 'inconclusive * * * * * * *'. The asterisks are the end-of-paper decoration bleeding into the last option, not part of the word — strip them. The answer is unaffected.",
+     "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+    }
+   ]
+  },
+  {
+   "id": "ri-gk",
+   "title": "Research Investigator — General Knowledge, Aptitude & Reasoning",
+   "subtitle": "Paper-II · May 2026",
+   "glyph": "📘",
+   "note": null,
+   "exam": "Research Investigator (May 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "Which country given below is not a member of BRICS grouping?",
+     "options": {
+      "a": "Brazil",
+      "b": "Egypt",
+      "c": "Argentina",
+      "d": "Indonesia"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 2,
+     "q": "The ‘Schengen Zone’, recently seen in the news, is a zone related to:",
+     "options": {
+      "a": "a passport-free travel and borderless zone in Europe",
+      "b": "an economic region comprising European countries that has a Free Trade Agreement between them",
+      "c": "an economic and geographic region comprising European Union countries that use the Euro as their national currency",
+      "d": "a territorial disputed region between UK and other EU countries situated in the Atlantic ocean."
+     },
+     "answer": "a"
+    },
+    {
+     "n": 3,
+     "q": "With reference to the e-Rupee issued by the Reserve Bank of India, consider: 1.It is a sovereign digital currency and legal tender. 2.It eliminates the need for commercial banks in the financial system. 3.It can be used for both wholesale and retail transactions.",
+     "options": {
+      "a": "1 and 3 only",
+      "b": "2 and 3 only",
+      "c": "1 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 4,
+     "q": "The name of the spacecraft used by NASA for their recent lunar program is:",
+     "options": {
+      "a": "Artemis-I",
+      "b": "Artemis-II",
+      "c": "Orion",
+      "d": "Skylab"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 5,
+     "q": "How many teams will participate in the 2026 FIFA World Cup ?",
+     "options": {
+      "a": "32",
+      "b": "36",
+      "c": "42",
+      "d": "48"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 6,
+     "q": "Government of Mizoram recently signed Memorandum of Settlement (MoS) with:",
+     "options": {
+      "a": "HPC",
+      "b": "HPC-D",
+      "c": "HPC-D (LF)",
+      "d": "HPC-D (LS)"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 7,
+     "q": "Gandhiji attended which of the following Round Table Conference (RTC)? 1.First RTC 2.Second RTC 3.Third RTC Select the correct answer using the code given below.",
+     "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "2 only",
+      "d": "None"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 8,
+     "q": "The Battle of Chinsurah was one of the decisive battles in the struggle among European powers in India. It was fought between which of the following countries?",
+     "options": {
+      "a": "The Dutch and the British",
+      "b": "The French and the British",
+      "c": "The Portuguese and the British",
+      "d": "The Danes and the Dutch"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 9,
+     "q": "The Poona Pact of 1932 was related to which of the following?",
+     "options": {
+      "a": "response to the Simon Commission Report",
+      "b": "settlement of differences arising out of the Communal Award",
+      "c": "opposition to the Nehru Report",
+      "d": "negotiations at the First Round Table Conference"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 10,
+     "q": "Kalidasa was a poet of ?",
+     "options": {
+      "a": "Maurya empire",
+      "b": "Gupta empire",
+      "c": "Mughal empire",
+      "d": "British India"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 11,
+     "q": "Who among the following Sikh Gurus laid the foundation of the Khalsa Panth ?",
+     "options": {
+      "a": "Guru Nanak",
+      "b": "Guru Arjan",
+      "c": "Guru Gobind Singh",
+      "d": "Guru Hargobin"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 12,
+     "q": "“Jai Hind” slogan was adopted by?",
+     "options": {
+      "a": "Netaji Subhas Chandra Bose",
+      "b": "Mahatma Gandhi",
+      "c": "Bal Gangadhar Tilak",
+      "d": "Sardar Patel"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 13,
+     "q": "Which phase of population growth in India is referred to as the period of “Population Explosion”?",
+     "options": {
+      "a": "1901–1921",
+      "b": "1921–1951",
+      "c": "1951-1981",
+      "d": "1981-Present"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 14,
+     "q": "With reference to nuclear fuel, consider the following statements: 1.India has more uranium reserves than thorium reserves. 2.Jharkhand has the largest Thorium reserves in India. Which of the above statements are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 15,
+     "q": "With reference to the Strait of Hormuz, consider the following statements: 1.It connects the Persian Gulf with the Arabian Sea through the Gulf of Oman. 2.It lies entirely within the territorial waters of Iran. 3.A significant portion of global crude oil trade passes through it. Which of the statements given above are correct?",
+     "options": {
+      "a": "1 and 2 only",
+      "b": "1 and 3 only",
+      "c": "2 and 3 only",
+      "d": "All of the above"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 16,
+     "q": "Nights are cooler in the deserts than in the plains because:",
+     "options": {
+      "a": "Sand radiates heat more quickly than the earth",
+      "b": "The sky remains clear most of the time",
+      "c": "Sand absorbs heat more quickly than the earth",
+      "d": "The sky is generally cloudy"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 17,
+     "q": "Which of the following mountain ranges do Mizoram belongs to:",
+     "options": {
+      "a": "Aravali Range",
+      "b": "Barail Range",
+      "c": "Purvanchal Range",
+      "d": "Satpura Range"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 18,
+     "q": "Tropic of cancer passes through ___ Indian states.",
+     "options": {
+      "a": "7",
+      "b": "8",
+      "c": "9",
+      "d": "10"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 19,
+     "q": "The expression Union of India under Article 1 of the Indian constitution include(s) which of the following? 1.States 2.Union Territories 3.Territories that India may acquire in the future Select the correct answer using the code given below.",
+     "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1,2 and 3"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 20,
+     "q": "With reference to the tenure of municipalities under the 74th Constitutional Amendment Act, 1992, consider the following statements: 1.Every municipality has a five-year term from its first meeting, unless dissolved earlier. 2.A municipality reconstituted after premature dissolution enjoys a fresh full term of five years. Which of the statements given above is/are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 21,
+     "q": "Which Amendment Act is referred as ‘mini constitution’?",
+     "options": {
+      "a": "7th Constitutional Amendment Act, 1956",
+      "b": "24th Constitutional Amendment Act, 1971",
+      "c": "42nd Constitutional Amendment Act, 1976",
+      "d": "44th Constitutional Amendment Act, 1978"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 22,
+     "q": "India celebrated its ________ Republic Day on 26th January, 2026",
+     "options": {
+      "a": "75th",
+      "b": "76th",
+      "c": "77th",
+      "d": "78th"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 23,
+     "q": "The full form of  NITI Aayog is:",
+     "options": {
+      "a": "National Idea for Transforming India",
+      "b": "National Innovation for Transforming India",
+      "c": "National Institute for Transforming India",
+      "d": "National Institution for Transforming India"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 24,
+     "q": "Which one of the following states has a seat reserved in the Legislative Assembly on the basis of religion?",
+     "options": {
+      "a": "Goa",
+      "b": "Sikkim",
+      "c": "Jammu & Kashmir",
+      "d": "Uttar Pradesh"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 25,
+     "q": "The term ‘Ways and Means Advances (WMA)’, sometimes seen in the news, refers to:",
+     "options": {
+      "a": "A mechanism by the Reserve Bank of India to provide short-term credit to governments to",
+      "b": "A long-term fiscal deficit financing tool through issuance of treasury bonds",
+      "c": "A special window for commercial banks to borrow funds to meet capital adequacy norms",
+      "d": "A subsidy scheme launched by the Government of India to support state finances"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 26,
+     "q": "Which of the following is a key feature of demographic dividend?",
+     "options": {
+      "a": "Declining working-age population",
+      "b": "High dependency ratio",
+      "c": "Increase in working-age population relative to dependents",
+      "d": "Rising infant mortality"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 27,
+     "q": "With reference to the Viksit Bharat—Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB-G RAM G) Act, 2025, consider the following statements: 1.It replaces the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) with a new statutory framework aligned with Viksit Bharat 2047 2.It increases guaranteed wage employment from 100 to 150 days per rural household annually. Which of the statements given above is/are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+     },
+     "answer": "a",
+     "note": "Unverified 2025 current affairs: the guaranteed-days provision of the VB-G RAM G Act could not be checked against a source. Answer follows the marked option."
+    },
+    {
+     "n": 28,
+     "q": "Who is the chairman of the 16th Finance Commission of India ?",
+     "options": {
+      "a": "Ajay Narayan Jha",
+      "b": "Dr. Niranjan Rajadhyaksha",
+      "c": "Dr. Arvind Panagariya",
+      "d": "Dr. Soumya Kanti Ghosh"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 29,
+     "q": "Which of the following are declared ‘fully literate states’ in 2025 ?",
+     "options": {
+      "a": "Mizoram, Goa, Tripura, Himachal Pradesh",
+      "b": "Mizoram, Goa, Kerala, Himachal Pradesh",
+      "c": "Mizoram, Goa, Ladakh, Himachal Pradesh",
+      "d": "Mizoram, Goa, Tripura, Kerala"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 30,
+     "q": "The United Nation’s 17 Sustainable Development Goals (SDGs) are the plan to build a better world for people and our planet by:",
+     "options": {
+      "a": "2030",
+      "b": "2035",
+      "c": "2045",
+      "d": "2047"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 31,
+     "q": "Which of the following is not the ex-situ methods of biodiversity conservation?",
+     "options": {
+      "a": "Botanical Garden",
+      "b": "Zoo",
+      "c": "Biosphere Reserves",
+      "d": "Aquariums"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 32,
+     "q": "Recently, which of the following was added as India’s 13th site to UNESCO’s World Network of Biosphere Reserves?",
+     "options": {
+      "a": "Dehang-Dibang Biosphere Reserve",
+      "b": "Cold Desert Biosphere Reserve",
+      "c": "Sundarbans Biosphere Reserve",
+      "d": "Nanda Devi Biosphere Reserve"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 33,
+     "q": "With respect to Stockholm Convention, consider the following statements: 1.Stockholm Convention is a legally binding international agreement to protect human health and environment from Persistent Organic Pollutants (POPs). 2.At present, 12 chemicals are covered under the Stockholm Convention Which of the statements given above are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 34,
+     "q": "Which one of the following is considered to be the purest source of water?",
+     "options": {
+      "a": "River water",
+      "b": "Well water",
+      "c": "Rain Water",
+      "d": "Sea water"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 35,
+     "q": "How many National Parks are there in Mizoram ?",
+     "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 36,
+     "q": "Green Mizoram Day is observed on:",
+     "options": {
+      "a": "22nd March",
+      "b": "22nd April",
+      "c": "11th May",
+      "d": "11th June"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 37,
+     "q": "The term ‘Kessler Syndrome’ refers to a situation in which:",
+     "options": {
+      "a": "intense solar activity disrupts satellite communication systems",
+      "b": "Failure of Earth’s magnetic field results in increased solar radiation exposure on satellites",
+      "c": "Excessive launch of rockets causes depletion of atmospheric oxygen in upper layers",
+      "d": "orbital debris accumulation triggers cascading satellite collisions"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 38,
+     "q": "In the context of gravitational force and electromagnetic force, consider the following statements: 1.While gravitational force is always attractive, electromagnetic force can be both attractive and repulsive. 2.While gravitational force is only dependent on mass, the electromagnetic force is dependent on both mass and charge. 3.While gravitational force is dependent upon the distance between the two bodies, the electromagnetic force is independent of it. Which of the statements given above is/are correct?",
+     "options": {
+      "a": "1 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 39,
+     "q": "What type of lens is used in a magnifying glass?",
+     "options": {
+      "a": "Bifocal lens",
+      "b": "Macro lens",
+      "c": "Concave lens",
+      "d": "Convex lens"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 40,
+     "q": "What is the chemical name of vinegar ?",
+     "options": {
+      "a": "Citric acid",
+      "b": "Acetic acid",
+      "c": "Pyruvic acid",
+      "d": "Malic acid"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 41,
+     "q": "In humans, which chamber of the heart receives oxygen-rich blood from the lungs first?",
+     "options": {
+      "a": "Left atrium",
+      "b": "Right atrium",
+      "c": "Left ventricle",
+      "d": "Right ventricle"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 42,
+     "q": "Saliva helps in the digestion of:",
+     "options": {
+      "a": "Fats",
+      "b": "Proteins",
+      "c": "Vitamins",
+      "d": "Starch"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 43,
+     "q": "Practice of nomadism was prevalent in early Mizo history. This practice of migrating from one settlement to another settlement is known as",
+     "options": {
+      "a": "Ram tuk rel",
+      "b": "Ram zuan",
+      "c": "Khawkhawm",
+      "d": "Ram lak"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 44,
+     "q": "Which of the following dance was performed to celebrate victory in warfare, intended to honour the victor and ensure the vanquished foe’s spirit remained a slave to the victor?",
+     "options": {
+      "a": "Cheraw",
+      "b": "Khuallam",
+      "c": "Solakia/Sarlamkai",
+      "d": "Chailam"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 45,
+     "q": "A Monograph on Lushai Customs and Ceremonies was written by:",
+     "options": {
+      "a": "J. Shakespear",
+      "b": "N.E. Parry",
+      "c": "T.H. Lewin",
+      "d": "A.G. Woodthrope"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 46,
+     "q": "In the context of Mizo history, in which year did the first major “Lushai Expedition” took place?",
+     "options": {
+      "a": "1871–1872",
+      "b": "1873-1874",
+      "c": "1851-1852",
+      "d": "1901-1902"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 47,
+     "q": "Who introduced the land settlement in the Lushai Hills?",
+     "options": {
+      "a": "G.H.Loch",
+      "b": "A.H. Scott",
+      "c": "J.Shakespeare",
+      "d": "Mac Donald"
+     },
+     "answer": "c",
+     "note": "Unverified: which colonial officer introduced the land settlement in the Lushai Hills could not be confirmed; answer follows the source highlight."
+    },
+    {
+     "n": 48,
+     "q": "‘Awkpaka’ in Mizo traditional society relates with:",
+     "options": {
+      "a": "Zawlbuk",
+      "b": "Lal In",
+      "c": "Pum",
+      "d": "Thlam"
+     },
+     "answer": "a",
+     "note": "Unverified Mizo-language term; answer follows the source highlight rather than a checked definition."
+    },
+    {
+     "n": 49,
+     "q": "The first Mizo officer to receive the Kirti Chakra was:",
+     "options": {
+      "a": "Captain Lalrinawma Sailo",
+      "b": "Gunner Lallawmzuala",
+      "c": "Lt. Col. Clement Lalhmingthanga",
+      "d": "Lt. Col. Laldinpuia"
+     },
+     "answer": "a",
+     "note": "Unverified: the first Mizo officer to receive the Kirti Chakra could not be confirmed; answer follows the source highlight."
+    },
+    {
+     "n": 50,
+     "q": "Mizo Academy of Letters (MAL) ‘Book of the Year 2025’ is:",
+     "options": {
+      "a": "Mizo Lal Zakapa",
+      "b": "April Fool",
+      "c": "Kham leh Suar",
+      "d": "Chhuk leh Chho"
+     },
+     "answer": "c",
+     "note": "Unverified 2025 current-affairs fact (MAL Book of the Year); answer follows the source highlight."
+    },
+    {
+     "n": 51,
+     "q": "If a+b=6and ab=6, then the value of a²+b²is:",
+     "options": {
+      "a": "24",
+      "b": "0",
+      "c": "12",
+      "d": "30"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 52,
+     "q": "If x>3, then which is always true? 1.x²>9 2.2x+1>7 3.x²−6x+9>0",
+     "options": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "1 and 3 only",
+      "d": "All of the above"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 53,
+     "q": "A solid hemisphere has radius r. If melted and recast into a cylinder of same radius, height will be:",
+     "options": {
+      "a": "2r/3",
+      "b": "r/3",
+      "c": "4r/3",
+      "d": "r"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 54,
+     "q": "10 workers can complete a piece of work in 20 days. After 5 days, 4 workers leave the job. How many more days will it take to complete the remaining work?",
+     "options": {
+      "a": "20 days",
+      "b": "22 days",
+      "c": "25 days",
+      "d": "30 days"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 55,
+     "q": "The product of digits of a two-digit number is 18. If the digits are reversed, the new number is 27 more than the original number. The number is:",
+     "options": {
+      "a": "36",
+      "b": "63",
+      "c": "54",
+      "d": "45"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 56,
+     "q": "A triangle is inscribed in a semicircle with diameter AB. If C is any point on the semicircle, then ∠ACB is:",
+     "options": {
+      "a": "30°",
+      "b": "45°",
+      "c": "60°",
+      "d": "90°"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 57,
+     "q": "A cylindrical tank has radius 7 m and height 10 m. If it is filled with water up to 70%, the volume of water is:",
+     "options": {
+      "a": "1078 m³",
+      "b": "1078.6 m³",
+      "c": "1080 m³",
+      "d": "1085 m³"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 58,
+     "q": "The first term of an Arithmetic Progression is 50 and has a common difference of -3.What is the 12th term?",
+     "options": {
+      "a": "17",
+      "b": "18",
+      "c": "19",
+      "d": "20"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 59,
+     "q": "From a point, angle of elevation of top of tower is 30°. After moving 20 m towards tower, angle becomes 60°. Height of tower is:",
+     "options": {
+      "a": "10√3 m",
+      "b": "20 m",
+      "c": "20√3 m",
+      "d": "30 m"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 60,
+     "q": "If the difference between simple interest for 2 years at 5% p.a. on a certain amount and compound interest for 2 years at 6.25% p.a. on the same amount compounded annually is Rs. 37, find the principal amount.",
+     "options": {
+      "a": "Rs. 1190",
+      "b": "Rs. 1480",
+      "c": "Rs. 1570",
+      "d": "Rs. 1280"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 61,
+     "q": "A shopkeeper buys 50 identical items at a total cost of Rs. 1000. He sells 30 of these items at a 20% profit and the remaining 20 items at a 10% loss. Calculate the overall profit or loss percentage.",
+     "options": {
+      "a": "10%",
+      "b": "6%",
+      "c": "12%",
+      "d": "8%"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 62,
+     "q": "How many five-digit prime numbers can be obtained by using all the digits 1, 2, 3, 4 and 5 without repetition of digits?",
+     "options": {
+      "a": "Zero",
+      "b": "One",
+      "c": "Nine",
+      "d": "Ten"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 63,
+     "q": "If n is a natural number, then7²ⁿ−1 is divisible by: ()",
+     "options": {
+      "a": "7",
+      "b": "24",
+      "c": "15",
+      "d": "21"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 64,
+     "q": "A father is three times as old as his son. After 12 years, the father’s age will be twice that of his son’s age. What are the present ages of the father and the son respectively?",
+     "options": {
+      "a": "24, 8",
+      "b": "36, 12",
+      "c": "21, 7",
+      "d": "30, 8"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 65,
+     "q": "There are six numbers forming a Geometric Progression series. If the 4th term is greater than the 2nd by 6 and the 5th term is greater than the 3rd by 24, then find the difference between the 2nd term and the 4th term.",
+     "options": {
+      "a": "2",
+      "b": "4",
+      "c": "6",
+      "d": "8"
+     },
+     "answer": "c",
+     "note": "OCR-garbled stem: the ordinals collapsed into 'by 6 thrdndth and 5 term is greater than 3 term by 24'. Reconstructed as 4th-2nd = 6 and 5th-3rd = 24, on which reading the question asks for a quantity it already supplies. No other option (1.5, 24, 96) is reachable from the data, so 6 is safe, but the wording is worth checking against the source PDF."
+    },
+    {
+     "n": 66,
+     "q": "How many zeros are there at the end of the following product? 24 × 32 × 17 × 23 × 19",
+     "options": {
+      "a": "Zero",
+      "b": "Five",
+      "c": "Four",
+      "d": "Sixteen"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 67,
+     "q": "Liani drove 50 km towards east from a city ‘P’ and then turned right and drove another 30 km. Now she turned to her left and drove another 30 km. Finally she turned to her right and drove 30 km to reach a city ‘Q’. Find the shortest straight distance between cities P and Q.",
+     "options": {
+      "a": "100 km",
+      "b": "140 km",
+      "c": "120 km",
+      "d": "80 km"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 68,
+     "q": "Which one of the following is different in some sense?",
+     "options": {
+      "a": "Lion",
+      "b": "Cat",
+      "c": "Tiger",
+      "d": "Leopard"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 69,
+     "q": "If LIFE is coded as DEHK and NEXT is coded as SWDM, how will FINE be coded ?",
+     "options": {
+      "a": "DEHM",
+      "b": "MDHE",
+      "c": "DMHE",
+      "d": "EHMD"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 70,
+     "q": "Find the number of triangles in the given figure:",
+     "options": {
+      "a": "18",
+      "b": "16",
+      "c": "17",
+      "d": "14"
+     },
+     "answer": "d",
+     "note": "Missing figure: the stem says 'the given figure' but no diagram was extracted, so the count is unverifiable. Answer follows the source highlight only; needs the source PDF."
+    },
+    {
+     "n": 71,
+     "q": "LIGHT:BLIND",
+     "options": {
+      "a": "speech:dumb",
+      "b": "language:deaf",
+      "c": "tongue:sound",
+      "d": "voice:vibration"
+     },
+     "answer": "a",
+     "passage": "DIRECTIONS (Question No. 71 & 72) : Each question consist of two words which have a certain"
+    },
+    {
+     "n": 72,
+     "q": "PAIN:SEDATIVE",
+     "options": {
+      "a": "comfort:stimulant",
+      "b": "grief:consolation",
+      "c": "trance:narcotic",
+      "d": "ache:extraction"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 73,
+     "q": "There are deer and peacocks in a zoo. By counting heads they are 80. The number of their legs is 200. How many peacocks are there?",
+     "options": {
+      "a": "20",
+      "b": "30",
+      "c": "50",
+      "d": "60"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 74,
+     "q": "A hater of knowledge and learning is:",
+     "options": {
+      "a": "Bibliophile",
+      "b": "Philologist",
+      "c": "Misologist",
+      "d": "Misogynist"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 75,
+     "q": "Statements: I.All apples are bananas II.All bananas are sweet Conclusions: I.Some apples are sweet II.Some bananas are apples",
+     "options": {
+      "a": "Only conclusion I follows",
+      "b": "Only conclusion II follows",
+      "c": "Either conclusion I or II follows",
+      "d": "Both conclusions I and II follows"
+     },
+     "answer": "d",
+     "passage": "DIRECTIONS (Question No. 75) : In question No. 75, two statements are given followed by two"
+    },
+    {
+     "n": 76,
+     "q": "Arrange the following words in their ascending order : 1.Millenium2.Diamond jubilee 3.Silver jubilee4.Centenary 5.Golden jubilee",
+     "options": {
+      "a": "3, 5, 2, 4, 1",
+      "b": "2, 3, 5, 4, 1",
+      "c": "2, 5, 3, 1, 4",
+      "d": "2, 3, 5, 1, 4"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 77,
+     "q": "Ruata travels from Aizawl to Lunglei at a speed of 40 km/h and returns to Aizawl at a speed of 60 km/h. The average speed for the whole journey is:",
+     "options": {
+      "a": "50 km/h",
+      "b": "42 km/h",
+      "c": "48 km/h",
+      "d": "54 km/h"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 78,
+     "q": "If 17²⁰⁰ is divided by 18, the remainder is:",
+     "options": {
+      "a": "1",
+      "b": "2",
+      "c": "16",
+      "d": "17"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 79,
+     "q": "The average monthly income of A and B is ₹15,050/-, the average monthly income of B and C is ₹15,350/-, and the average monthly income of A and C is ₹15,200/-. The monthly income of A is:",
+     "options": {
+      "a": "₹15,900/-",
+      "b": "₹15,200/-",
+      "c": "₹15,500/-",
+      "d": "₹14,900/-"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 80,
+     "q": "The LCM and HCF of two numbers are 35 and 15 respectively. The product of these numbers is:",
+     "options": {
+      "a": "625",
+      "b": "525",
+      "c": "425",
+      "d": "325"
+     },
+     "answer": "b",
+     "note": "Invalid data as printed: HCF must divide LCM, but 15 does not divide 35, so no two integers have this LCM/HCF pair. The formula still gives 525 uniquely so the intended answer is unambiguous, but the question is mathematically unsound - worth verifying the figures against the source PDF."
+    },
+    {
+     "n": 81,
+     "q": "How many times in a day the hands of a clock are straight?",
+     "options": {
+      "a": "22",
+      "b": "24",
+      "c": "42",
+      "d": "44"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 82,
+     "q": "A company produces red, green and blue buckets in the ratio of 2:7:4. If a week’s production totals 7774 buckets, how many green buckets are produced?",
+     "options": {
+      "a": "1110",
+      "b": "4186",
+      "c": "6663",
+      "d": "1196"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 83,
+     "q": "A bag contains 6 black and 8 white balls. One ball is drawn at random. What is the probability that the ball drawn is white?",
+     "options": {
+      "a": "3/4",
+      "b": "4/7",
+      "c": "1/8",
+      "d": "9/52"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 84,
+     "q": "A rectangular parking space is marked out by painting three of its sides. If the length of the unpainted side is 9 feet, and the sum of the lengths of the painted sides is 37 feet, then what is the area of the parking space in square feet?",
+     "options": {
+      "a": "46",
+      "b": "81",
+      "c": "126",
+      "d": "252"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 85,
+     "q": "What is the sum of all angles in any quadrilateral?",
+     "options": {
+      "a": "180°",
+      "b": "270°",
+      "c": "360°",
+      "d": "540°"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 86,
+     "q": "Which formula is used to find distance between two points?",
+     "options": {
+      "a": "x + y",
+      "b": "√(x² + y²)",
+      "c": "√[(x₂ − x₁)² + (y₂ − y₁)²]",
+      "d": "x² + y²"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 87,
+     "q": "If a line from the centre bisects a chord, then it is:",
+     "options": {
+      "a": "Secant",
+      "b": "Tangent",
+      "c": "Equal to the chord",
+      "d": "Perpendicular to the chord"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 88,
+     "q": "In an equilateral triangle:",
+     "options": {
+      "a": "One angle is 90°",
+      "b": "Only two sides are equal",
+      "c": "Each angle is 60°",
+      "d": "All sides are unequal"
+     },
+     "answer": "c",
+     "note": "OCR artifact: option (d) reads \"All sides are unequal 50403020\". The trailing digits are bleed-through of the exponents 50/40/30/20 that belong to Q89's options and are not part of this option."
+    },
+    {
+     "n": 89,
+     "q": "The greatest number among 3⁵⁰, 4⁴⁰, 5³⁰, and 6²⁰ is:",
+     "options": {
+      "a": "3⁵⁰",
+      "b": "6²⁰",
+      "c": "5³⁰",
+      "d": "4⁴⁰"
+     },
+     "answer": "d",
+     "note": "Extraction damage: the stem should read \"the greatest number among 3⁵⁰, 4⁴⁰, 5³⁰ and 6²⁰\" and the options are powers, not plain integers. As currently stored (\"greatest among 3, 4, 5, and 6\" with options 350/620/530/440) the question is nonsense — restore the superscripts from the source PDF before publishing."
+    },
+    {
+     "n": 90,
+     "q": "The following numbers form a series that follows a certain pattern. Find the odd one out. 53, 57, 66, 82, 110, 143, 192",
+     "options": {
+      "a": "57",
+      "b": "82",
+      "c": "110",
+      "d": "143"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 91,
+     "q": "A is taller than B but shorter than C. D is shorter than B but taller than E. F is taller than C. Who is the second tallest person?",
+     "options": {
+      "a": "A",
+      "b": "C",
+      "c": "F",
+      "d": "B"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 92,
+     "q": "Find the missing number: 3, 8, 15, 24, 35, ?",
+     "options": {
+      "a": "46",
+      "b": "48",
+      "c": "50",
+      "d": "52"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 93,
+     "q": "If $ means ‘divided by’; @ means ‘multiplied by’; # means ‘minus’, then the value of 39#4$2@3 is:",
+     "options": {
+      "a": "27",
+      "b": "6",
+      "c": "22",
+      "d": "33"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 94,
+     "q": "If ‘-’ stands for addition, ‘+’ stands for division, ‘÷’ stands for multiplication, and ‘×’ stands for subtraction, which one of the following equations is correct?",
+     "options": {
+      "a": "15÷5×8-2 = 69",
+      "b": "16+5-7÷9 = 40",
+      "c": "15÷6×8-2 = 33",
+      "d": "18+8÷4×11 = 19"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 95,
+     "q": "Which of the following Venn Diagrams best indicates the relation among Rice, Glass and Food?",
+     "options": {
+      "a": "Three circles of equal size in a vertical chain, each overlapping the next",
+      "b": "One large circle containing two separate small circles side by side",
+      "c": "One large circle containing a smaller circle, with a third circle wholly outside",
+      "d": "Three equal circles in a horizontal row, each touching the next"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 96,
+     "q": "Consider the following sequence: E A D G U I H E U O F C A E H F C H E O B D C D I F How many vowels are followed by a vowel in the above sequence?",
+     "options": {
+      "a": "5",
+      "b": "6",
+      "c": "7",
+      "d": "8"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 97,
+     "q": "A and B are a married couple, A being the male member. D is the only son of C, who is the brother of A. E is the sister of D. B is the daughter-in-law of F. How is D related to B?",
+     "options": {
+      "a": "Uncle",
+      "b": "Nephew",
+      "c": "Father",
+      "d": "Maternal Uncle"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 98,
+     "q": "Which one does not belong to the group?",
+     "options": {
+      "a": "Triangle",
+      "b": "Square",
+      "c": "Circle",
+      "d": "Cylinder"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 99,
+     "q": "Select the figure that will come next in the following series,",
+     "options": {
+      "a": "Hexagon with a filled dot at upper left and a short double line on the lower right edge",
+      "b": "Hexagon with a filled dot at lower left and a short double line on the upper right edge",
+      "c": "Hexagon with a small hollow circle at upper left and a double line on the upper right edge",
+      "d": "Hexagon with a filled dot at upper left and a double line on the upper right edge"
+     },
+     "answer": "d",
+     "note": "Missing figure: the four-box series and the option figures are images absent from the extracted text, so the question is unanswerable as stored. Answer follows the PDF highlight only — needs the original figure before it is trusted."
+    },
+    {
+     "n": 100,
+     "q": "Two positions of a dice are shown below (i) and (ii). When 1 is at the top, which number will be at the bottom?",
+     "options": {
+      "a": "2",
+      "b": "3",
+      "c": "5",
+      "d": "cannot be determined"
+     },
+     "answer": "c",
+     "note": "Missing figure: dice positions (i) and (ii) are absent from the extracted text, making the question unanswerable as stored. Option (d) also carries OCR noise (\"cannot be determined * * * * * * *\"). Answer follows the PDF highlight only."
+    }
+   ]
+  },
+  {
+   "id": "sistats-eng",
+   "title": "SI Statistics — General English",
+   "subtitle": "Paper-I · January 2026",
+   "glyph": "🔤",
+   "note": "Descriptive prompts (essay, letter, précis) from this paper aren't included here — only the MCQs are.",
+   "exam": "Sub-Inspector of Statistics (January 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "I’m sorry I can’t hear what you are saying because everybody ________(talk) so loudly.",
+     "options": {
+      "a": "talks",
+      "b": "is talking",
+      "c": "has talked",
+      "d": "was talking"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 2,
+     "q": "When Damien called last night, I ________(watch) the Titanic Movie.",
+     "options": {
+      "a": "watched",
+      "b": "am watching",
+      "c": "has been watching",
+      "d": "was watching"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 3,
+     "q": "By this time next year, you ________(complete) your studies and found a job.",
+     "options": {
+      "a": "will be completing",
+      "b": "will have completed",
+      "c": "will complete",
+      "d": "will have been completing"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 4,
+     "q": "Last week, I ran into an old friend of mine. We________(see, not) each other in years and both of us had changed a great deal.",
+     "options": {
+      "a": "have not seen",
+      "b": "did not see",
+      "c": "had not seen",
+      "d": "has not seen"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 5,
+     "q": "Rama was reading a novel while his wife________(sleep).",
+     "options": {
+      "a": "sleeps",
+      "b": "slept",
+      "c": "has been sleeping",
+      "d": "was sleeping"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 6,
+     "q": "By the end of this year, she________(work) in this department for twenty-five years.",
+     "options": {
+      "a": "has worked",
+      "b": "had worked",
+      "c": "will have been working",
+      "d": "is working"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 7,
+     "q": "When I reached the station, the train ________(leave).",
+     "options": {
+      "a": "already left",
+      "b": "has already left",
+      "c": "had already left",
+      "d": "was already left"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 8,
+     "q": "He said that by the time we arrived, they________(finish) everything.",
+     "options": {
+      "a": "will finish",
+      "b": "would finish",
+      "c": "would have finished",
+      "d": "will have finished"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 9,
+     "q": "By next December, he________ (serve) as the principal for fifteen years.",
+     "options": {
+      "a": "will serve",
+      "b": "will be serving",
+      "c": "will have served",
+      "d": "will have been serving"
+     },
+     "answer": "d",
+     "note": "Both (c) 'will have served' and (d) 'will have been serving' are grammatically defensible with 'for fifteen years'; the continuous is the better duration-emphasis answer but this is not a clean single-answer item.",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 10,
+     "q": "I didn’t recognize her at first because she ________ (change) so much.",
+     "options": {
+      "a": "changed",
+      "b": "had changed",
+      "c": "was changing",
+      "d": "has changed"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+    },
+    {
+     "n": 11,
+     "q": "The man was acquitted ________all charges.",
+     "options": {
+      "a": "of",
+      "b": "on",
+      "c": "in",
+      "d": "at"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 12,
+     "q": "He hinted ________some loss of treasure.",
+     "options": {
+      "a": "of",
+      "b": "in",
+      "c": "for",
+      "d": "at"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 13,
+     "q": "He is a great orator________my surprise.",
+     "options": {
+      "a": "beyond",
+      "b": "upon",
+      "c": "to",
+      "d": "above"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 14,
+     "q": "Thanga is well known in Mizoram________the books he has already written.",
+     "options": {
+      "a": "by",
+      "b": "for",
+      "c": "on",
+      "d": "about"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 15,
+     "q": "He took action pursuant________the recommendation of the Board.",
+     "options": {
+      "a": "to",
+      "b": "of",
+      "c": "with",
+      "d": "on"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 16,
+     "q": "Mawia is indifferent ________ any request made by his students just yesterday.",
+     "options": {
+      "a": "about",
+      "b": "on",
+      "c": "at",
+      "d": "to"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 17,
+     "q": "Liani is good ________ painting and playing Chess.",
+     "options": {
+      "a": "in",
+      "b": "on",
+      "c": "at",
+      "d": "for"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 18,
+     "q": "Sanga is conversant________modern history.",
+     "options": {
+      "a": "of",
+      "b": "at",
+      "c": "on",
+      "d": "with"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 19,
+     "q": "She is proficient ________three languages",
+     "options": {
+      "a": "on",
+      "b": "of",
+      "c": "with",
+      "d": "in"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 20,
+     "q": "The matter falls________the jurisdiction of the Supreme court.",
+     "options": {
+      "a": "on",
+      "b": "under",
+      "c": "over",
+      "d": "in"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+    },
+    {
+     "n": 21,
+     "q": "He climbed up the tree and plucked some mangoes. (Change to a Simple sentence)",
+     "options": {
+      "a": "He climbed up the tree and plucked some mangoes.",
+      "b": "Climbing up the tree, he plucks some mangoes.",
+      "c": "He climbed up the tree so he plucked some mangoes.",
+      "d": "Climbing up the tree, he plucked some mangoes."
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 22,
+     "q": "Does the police officer catch the thief? (Change the Voice)",
+     "options": {
+      "a": "Is the thief caught by the police officer?",
+      "b": "Had the thief been caught by the police officer?",
+      "c": "Has the thief been caught by the police officer?",
+      "d": "Is the thief been caught by the police officer?"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 23,
+     "q": "He hopes to win a prize. (Change the voice)",
+     "options": {
+      "a": "It is hoped that he will win a prize.",
+      "b": "A prize is to be won by him.",
+      "c": "He hopes that he wins the prize.",
+      "d": "It is hoped to win a prize."
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 24,
+     "q": "Let the poor not be teased. (Change the voice)",
+     "options": {
+      "a": "Let people not teased the poor.",
+      "b": "Do not tease the poor.",
+      "c": "Let the poor not be teased by people.",
+      "d": "Do not tease the poor people."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 25,
+     "q": "Mandy said, “John wrote the letter.” (Change the speech)",
+     "options": {
+      "a": "Mandy said that John had written the letter.",
+      "b": "Mandy told that John was writing the letter.",
+      "c": "Mandy said that John has written the letter.",
+      "d": "Mandy says that John writes the letter."
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 26,
+     "q": "I told Mala that I would see her the following day. (Change the Speech)",
+     "options": {
+      "a": "I said to Mala, “I will see you the following day.”",
+      "b": "I said to Mala, “I will see you tomorrow.”",
+      "c": "I told Mala, “ I will see you tomorrow.”",
+      "d": "I said to Mala, “I would see you tomorrow.”"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 27,
+     "q": "He was too ill to attend school yesterday. (Change to Negative)",
+     "options": {
+      "a": "He was so ill that he could not attend school yesterday.",
+      "b": "He was not too ill to attend school yesterday.",
+      "c": "He was too ill to not attend school yesterday.",
+      "d": "He was not so ill to attend school yesterday."
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 28,
+     "q": "How sweetly she sings! (Change to Assertive)",
+     "options": {
+      "a": "She sang a song sweetly.",
+      "b": "Oh! How sweetly her song is!",
+      "c": "She sings very sweetly.",
+      "d": "She sings a sweet song."
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 29,
+     "q": "I can never forget your kindness. (Change to Interrogative)",
+     "options": {
+      "a": "Can I never forget your kindness?",
+      "b": "Can I ever forget your kindness?",
+      "c": "Can I never forget your kindness.",
+      "d": "Can I ever forget your kindness."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 30,
+     "q": "Would that I were a king! (Change to Assertive)",
+     "options": {
+      "a": "I wish I were a king.",
+      "b": "I would be a king.",
+      "c": "Would I be a king?",
+      "d": "I wish I would be a king!"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+    },
+    {
+     "n": 31,
+     "q": "However tired he was, he finished the task.",
+     "options": {
+      "a": "Noun",
+      "b": "Verb",
+      "c": "Adverb",
+      "d": "Adjective"
+     },
+     "answer": "d",
+     "focus": "tired",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find"
+    },
+    {
+     "n": 32,
+     "q": "The righteous always emerge victorious.",
+     "options": {
+      "a": "Adjective",
+      "b": "Adverb",
+      "c": "Plural Noun",
+      "d": "Singular Noun"
+     },
+     "answer": "c",
+     "focus": "righteous",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find"
+    },
+    {
+     "n": 33,
+     "q": "Sawmi goes to school every day.",
+     "options": {
+      "a": "Adverb",
+      "b": "Pronoun",
+      "c": "Determiner",
+      "d": "Preposition"
+     },
+     "answer": "a",
+     "focus": "every",
+     "note": "Source highlight (a) contradicts the underline scope and is judged an error. The booklet's marked answer \"Adverb\" is only defensible if the underline spans \"every day\"; the markup and the direction's singular \"a word\" both say it spans only \"every\". No official MPSC key exists for this sitting, so the highlight carries no authority. Recommend storing as answerSource 'derived' with answer (c) and a note that the printed highlight disagrees. Worth checking whether sibling questions B31-B40 in the same 31-40 block show the same phrase-vs-word underline drift.",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "c",
+      "why": "[adjudicated: derived] Sentence: \"Sawmi goes to school **every** day.\" The markup underlines only the single word *every* — and the direction itself says each sentence \"has a **word** underlined,\" singular, which rules out the two-word phrase *every day* being the target.\n\nWork it from first principles. Ask what *every* is doing in the sentence: it sits in front of the noun *day* and tells you which/how many days. That slot — before a noun, limiting or specifying it — is the determiner slot, the same slot filled by *the, this, some, each, my*. So *every* is a **Determiner (c)**.\n\nCheck the other three the same way:\n- **Adverb** — an adverb modifies a verb, adjective or another adverb. *Every* modifies the noun *day*, not the verb *goes*. Note the trap: the whole phrase *every day* does work adverbially (it answers \"how often does Sawmi go?\"). But that adverbial force belongs to the phrase as a unit, not to the word *every*. A determiner inside an adverbial phrase is still a determiner — exactly as *this* is still a determiner in *this morning*.\n- **Pronoun** — a pronoun stands in place of a noun, alone. *Every* can never stand alone; you cannot say \"Every came.\" English uses *everyone / everybody / everything* for that job. (Its cousins *each* and *all* can be pronouns — \"each of them\", \"all are here\" — which is probably why the option is here to tempt you. *Every* cannot.)\n- **Preposition** — a preposition shows a relation and takes an object (*to* school, *in* the morning). *Every* does neither.\n\nSo the highlighted answer in the booklet, (a) Adverb, is **wrong**, and you should not memorise it. It is the answer you get if you underline *every day* instead of *every* — a plausible typesetting slip in a booklet that already carries known errors, and MPSC published no official key for this sitting. Treat the highlight as a scan artefact, not as authority.\n\nOne older-textbook caveat that does not change the answer: some Indian grammars still label *every* an \"adjective of number/quantity.\" \"Adjective\" is not on the menu here; \"Determiner\" is the modern term for precisely that role, so (c) is the intended and the correct choice either way.\n\nTakeaway rule: for a part-of-speech question, test the *underlined word by itself*, never the phrase it happens to sit in."
+     }
+    },
+    {
+     "n": 34,
+     "q": "He seems very tired after the long journey",
+     "options": {
+      "a": "Adverb",
+      "b": "Determiner",
+      "c": "Adjective",
+      "d": "Verb"
+     },
+     "answer": "d",
+     "focus": "seems",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find"
+    },
+    {
+     "n": 35,
+     "q": "Her happiness was obvious.",
+     "options": {
+      "a": "Abstract noun",
+      "b": "Adverb",
+      "c": "Adjective",
+      "d": "Preposition"
+     },
+     "answer": "a",
+     "focus": "happiness",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find"
+    },
+    {
+     "n": 36,
+     "q": "The Grand Canyon is a natural wonder.",
+     "options": {
+      "a": "Adjective",
+      "b": "Adverb",
+      "c": "Preposition",
+      "d": "Noun"
+     },
+     "answer": "d",
+     "focus": "wonder",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find"
+    },
+    {
+     "n": 37,
+     "q": "Can you answer this question?",
+     "options": {
+      "a": "Preposition",
+      "b": "Noun",
+      "c": "Pronoun",
+      "d": "Adverb"
+     },
+     "answer": "c",
+     "focus": "this",
+     "note": "No correct option: underlined 'this' modifies the noun 'question', so it is a determiner / demonstrative adjective, but the options list only Preposition, Noun, Pronoun, Adverb. (c) is the least-wrong choice, not a right one.",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find"
+    },
+    {
+     "n": 38,
+     "q": "We are pleased to come here.",
+     "options": {
+      "a": "Adjective",
+      "b": "Pronoun",
+      "c": "Verb",
+      "d": "Noun"
+     },
+     "answer": "c",
+     "focus": "pleased",
+     "note": "Extracted `direction` text is truncated mid-sentence: \"...has a word underlined. Find\" — the rest of the instruction (presumably naming the part of speech of the underlined word) is missing from the JSON. Worth re-extracting the Q31-40 direction from the source PDF before this batch ships, since the task is only inferable from the options as it stands.",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "a",
+      "why": "[adjudicated: derived] Answer: (a) Adjective. The booklet's highlighted (c) Verb is wrong.\n\nThe question is whether \"are pleased\" is a passive verb (making \"pleased\" a past participle) or a linking verb + adjective. Four standard tests all give the same answer:\n\n1. Degree word. Adjectives take a bare \"very\"; true passives need \"very much\". \"We are VERY pleased to come here\" is completely natural — \"very much pleased\" is stilted. Adjective.\n2. Linking-verb frame. Only adjectives can follow seem/look/feel: \"They SEEMED pleased,\" \"She LOOKED pleased.\" A genuine passive cannot (\"They seemed arrested\" is not English on the event reading). Adjective.\n3. Coordination. You can join it to an undisputed adjective: \"We are HAPPY AND pleased to come here.\" You can never coordinate an adjective with a passive participle.\n4. The \"to\"-phrase. \"pleased TO COME\" is the same pattern as glad to, eager to, sorry to, delighted to, happy to — an adjective pattern. Substitute the plainest adjective there is and nothing changes: \"We are GLAD to come here.\"\n\nAnd the meaning test: a real passive describes an action done to someone, and allows an agent (\"We were pleased BY the news\"). Here nobody performs any pleasing — the sentence describes our state of mind. It is a polite formula meaning \"we are glad.\"\n\nSo \"pleased\" is a participial adjective: a word born from a verb that has settled into the adjective class, exactly like tired, interested, surprised, worried, excited. \"I am tired\" is not passive voice, and neither is this.\n\nWhy the booklet marked Verb: whoever prepared the key saw \"are + past participle\" and reflexively called it passive voice. That shorthand works for \"The letter is written by him,\" but not for stative participles with a to-infinitive. The Wren & Martin tradition these papers are written from teaches the same thing — such participles after \"be\" are adjectives.\n\nExam rule of thumb: if the underlined -ed word can take \"very\" and can follow \"seem,\" it is an adjective, not part of the verb."
+     }
+    },
+    {
+     "n": 39,
+     "q": "Still water runs deep.",
+     "options": {
+      "a": "Noun",
+      "b": "Adjective",
+      "c": "Adverb",
+      "d": "Preposition"
+     },
+     "answer": "b",
+     "focus": "Still",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find"
+    },
+    {
+     "n": 40,
+     "q": "Do you prefer tea or cofee?",
+     "options": {
+      "a": "Conjunction",
+      "b": "Interjection",
+      "c": "Adverb",
+      "d": "Verb"
+     },
+     "answer": "a",
+     "focus": "or",
+     "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find"
+    },
+    {
+     "n": 41,
+     "q": "A bone of contention",
+     "options": {
+      "a": "A subject of disagreement",
+      "b": "A dog’s favourite bone",
+      "c": "A subject of contentment",
+      "d": "A good thought or idea"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    },
+    {
+     "n": 42,
+     "q": "To pay through the nose",
+     "options": {
+      "a": "To pay less amount of money.",
+      "b": "To pay far more money than something is worth.",
+      "c": "To pay for one’s own actions.",
+      "d": "To pay off a debt."
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    },
+    {
+     "n": 43,
+     "q": "To see eye to eye with",
+     "options": {
+      "a": "To have the same opinion with someone about something.",
+      "b": "To be able to see clearly",
+      "c": "To look intensely, curiously or carefully",
+      "d": "To remain calm and show no fear"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    },
+    {
+     "n": 44,
+     "q": "Apprise",
+     "options": {
+      "a": "To examine and form an opinion about something",
+      "b": "To inform about something",
+      "c": "To approve formally",
+      "d": "To criticize harshly"
+     },
+     "answer": "b",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    },
+    {
+     "n": 45,
+     "q": "Officiate",
+     "options": {
+      "a": "To perform a ceremony, function or duty",
+      "b": "To argue a case in a law court",
+      "c": "To delay or postpone an important matter",
+      "d": "To decorate or make something look attractive"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    },
+    {
+     "n": 46,
+     "q": "Embargo",
+     "options": {
+      "a": "A legal prohibition on commerce",
+      "b": "A formal agreement between two nations to increase free trade",
+      "c": "An official permission granted to export special goods",
+      "d": "A minor penalty given to government officials"
+     },
+     "answer": "a",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    },
+    {
+     "n": 47,
+     "q": "Expunge",
+     "options": {
+      "a": "To destroy completely",
+      "b": "To praise enthusiastically",
+      "c": "To remove completely",
+      "d": "To recognise enthusiastically"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    },
+    {
+     "n": 48,
+     "q": "Articulate",
+     "options": {
+      "a": "Having extensive knowledge",
+      "b": "Skilled in practical task rather than theoretical knowledge",
+      "c": "Fond of artistic activities",
+      "d": "Able to express oneself effectively and clearly"
+     },
+     "answer": "d",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    },
+    {
+     "n": 49,
+     "q": "A dime a dozen",
+     "options": {
+      "a": "Expensive",
+      "b": "Valuable and rare",
+      "c": "Common and Cheap",
+      "d": "Unique"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    },
+    {
+     "n": 50,
+     "q": "To pick holes",
+     "options": {
+      "a": "To quarrel with someone",
+      "b": "To cut holes in something",
+      "c": "To criticise someone",
+      "d": "To applaud someone"
+     },
+     "answer": "c",
+     "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+    }
+   ]
+  },
+  {
+   "id": "sistats-gk",
+   "title": "SI Statistics — General Mathematics & General Knowledge",
+   "subtitle": "Paper-II · January 2026",
+   "glyph": "📘",
+   "note": null,
+   "exam": "Sub-Inspector of Statistics (January 2026)",
+   "questions": [
+    {
+     "n": 1,
+     "q": "The sum for 2 years gives a compound interest of ₹ 3225 at the rate of 15% per annum. The sum is:",
+     "options": {
+      "a": "₹ 10,000",
+      "b": "₹ 20,000",
+      "c": "₹ 15,000",
+      "d": "₹ 32,250"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 2,
+     "q": "A car goes 120 km at 60 km/hr and returns 120 km at 40 km/hr. Average speed is:",
+     "options": {
+      "a": "48 km/hr",
+      "b": "50 km/hr",
+      "c": "52 km/hr",
+      "d": "54 km/hr"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 3,
+     "q": "A boy goes 7 m north and then 24 m east. Find his distance from the starting point.",
+     "options": {
+      "a": "28 m",
+      "b": "27 m",
+      "c": "26 m",
+      "d": "25 m"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 4,
+     "q": "The acute angle between the hour hand and the minute hand at 3:00 is:",
+     "options": {
+      "a": "90°",
+      "b": "120°",
+      "c": "30°",
+      "d": "60°"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 5,
+     "q": "Out of 80 people, 35 like tea, 40 like coffee and 20 like both. How many like only tea, only coffee, and neither?",
+     "options": {
+      "a": "20, 25, 15",
+      "b": "15, 20, 45",
+      "c": "10, 15, 15",
+      "d": "15, 20, 25"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 6,
+     "q": "The distance from the centre of a circle with radius 10 cm to a chord is 6 cm. The length of the chord is:",
+     "options": {
+      "a": "12 cm",
+      "b": "14 cm",
+      "c": "16 cm",
+      "d": "18 cm"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 7,
+     "q": "You get a salary increase of 6% plus an extra ₹ 800 per month. Your present salary is ₹ 30,000 per month. What will your new salary be?",
+     "options": {
+      "a": "₹ 31,800",
+      "b": "₹ 32,000",
+      "c": "₹ 32,600",
+      "d": "₹ 33,000"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 8,
+     "q": "If tanθ = 3/4, then secθ =",
+     "options": {
+      "a": "3/5",
+      "b": "4/5",
+      "c": "5/4",
+      "d": "5/3"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 9,
+     "q": "The angle of elevation of the top of a tower from a point on the ground is 45°. If the point is 20 m away from the base of the tower, find the height of the tower.",
+     "options": {
+      "a": "10 m",
+      "b": "20 m",
+      "c": "25 m",
+      "d": "15 m"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 10,
+     "q": "The perimeter of a semicircular plate is 108 cm including its diameter. Find its radius.",
+     "options": {
+      "a": "28 cm",
+      "b": "21 cm",
+      "c": "14 cm",
+      "d": "35 cm"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 11,
+     "q": "The area of a quadrant of radius 14 cm is:",
+     "options": {
+      "a": "154 cm²",
+      "b": "49 cm²",
+      "c": "100 cm²",
+      "d": "77 cm²"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 12,
+     "q": "The mean of 20 observations is 30. Later it was found that one value 20 was wrongly taken instead of 40. Find the correct mean.",
+     "options": {
+      "a": "29",
+      "b": "30",
+      "c": "31",
+      "d": "32"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 13,
+     "q": "A shopkeeper bought a bag for ₹ 800 and sold it for ₹ 1000. His gain percent is:",
+     "options": {
+      "a": "20%",
+      "b": "22%",
+      "c": "25%",
+      "d": "30%"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 14,
+     "q": "A shirt is marked at ₹ 600 and sold at ₹ 510. The discount percentage is:",
+     "options": {
+      "a": "10%",
+      "b": "20%",
+      "c": "12%",
+      "d": "15%"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 15,
+     "q": "If 18% of a number is 27, find 30% of that number.",
+     "options": {
+      "a": "45",
+      "b": "40",
+      "c": "44",
+      "d": "none of these"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 16,
+     "q": "The marked price of a refrigerator is ₹ 20,000. A shopkeeper gives a 15% discount and charges 10% sales tax on the discounted price. Find the net amount paid by the customer.",
+     "options": {
+      "a": "₹ 17,800",
+      "b": "₹ 19,800",
+      "c": "₹ 18,700",
+      "d": "₹ 20,000"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 17,
+     "q": "The ratio of A’s age to B’s age is 4:5. The ratio of their ages 6 years ago was 3:4. Find B’s present age.",
+     "options": {
+      "a": "20 years",
+      "b": "24 years",
+      "c": "30 years",
+      "d": "34 years"
+     },
+     "answer": "c",
+     "note": "OCR artifact in the options: option (d) reads '34 years thththth'. It is a wrong option either way, so the question is still answerable, but the stray characters should be cleaned in the extraction."
+    },
+    {
+     "n": 18,
+     "q": "The 12th term of an A.P. is 5 more than twice its 5th term. If the 9th term is 39, then the nth term is",
+     "options": {
+      "a": "Tₙ=4n+3",
+      "b": "Tₙ=3n+4",
+      "c": "Tₙ=5n+2",
+      "d": "Tₙ=4n−3"
+     },
+     "answer": "a",
+     "note": "The stem lost its ordinal superscripts in extraction ('12 term', '5 term', '9 term' should read 12th, 5th, 9th term). Meaning is still recoverable, so the question is answerable."
+    },
+    {
+     "n": 19,
+     "q": "cos28° sin62° + sin28° cos62° =",
+     "options": {
+      "a": "0",
+      "b": "1/2",
+      "c": "1",
+      "d": "sin34°"
+     },
+     "answer": "c",
+     "note": "OCR artifact: the stem ends 'cos62°= 1', i.e. the answer value has been pulled into the question text. The stem should end with '=' only. Does not change what is being asked."
+    },
+    {
+     "n": 20,
+     "q": "A train 200 m long is running at a speed of 90 km/hr. Find the time it takes to pass a platform 100 metres long.",
+     "options": {
+      "a": "8 seconds",
+      "b": "10 seconds",
+      "c": "12 seconds",
+      "d": "15 seconds"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 21,
+     "q": "A pipe can fill a tank in 8 hours and another pipe can empty it in 12 hours. If both are opened together, the tank will be filled in:",
+     "options": {
+      "a": "16 hours",
+      "b": "18 hours",
+      "c": "20 hours",
+      "d": "24 hours"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 22,
+     "q": "A bag contains 5 white, 3 red, and 2 black balls. One ball is drawn at random. What is the probability that the ball drawn is neither white nor black?",
+     "options": {
+      "a": "1/5",
+      "b": "3/10",
+      "c": "2/5",
+      "d": "1/2"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 23,
+     "q": "A rectangular floor of 18 m × 12 m is to be tiled with square tiles of side 3 m. A rectangular platform of 12 m × 6 m is built in the centre and left untiled. Find the number of tiles required.",
+     "options": {
+      "a": "12",
+      "b": "14",
+      "c": "16",
+      "d": "none of these"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 24,
+     "q": "The smallest number by which 180 must be multiplied to make it a perfect square is:",
+     "options": {
+      "a": "2",
+      "b": "3",
+      "c": "10",
+      "d": "5"
+     },
+     "answer": "d",
+     "note": "Option (d) is OCR-garbled in the source as \"5 xx+62x\"; it reads as the printed value 5, which is the mathematically correct answer. Worth checking the source PDF for the clean option text."
+    },
+    {
+     "n": 25,
+     "q": "If 2ˣ · 4ˣ⁺⁶ = 8²ˣ, then x equals",
+     "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 26,
+     "q": "The number which exceeds 16% of it by 42 is:",
+     "options": {
+      "a": "52",
+      "b": "50",
+      "c": "60",
+      "d": "62"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 27,
+     "q": "The sum of the first four prime numbers is:",
+     "options": {
+      "a": "10",
+      "b": "11",
+      "c": "17",
+      "d": "15"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 28,
+     "q": "If one of the roots of a quadratic equation x²−kx−3=0, is 3. Find k.",
+     "options": {
+      "a": "1",
+      "b": "-1",
+      "c": "2",
+      "d": "-2"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 29,
+     "q": "The first, second and last terms of an A.P. are 4, 7 and 31 respectively. How many terms are there in the given A.P.?",
+     "options": {
+      "a": "14",
+      "b": "10",
+      "c": "8",
+      "d": "12"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 30,
+     "q": "A bag contains 5 red balls and some blue balls. If the probability of drawing a blue ball from the bag is thrice that of the probability of drawing a red ball, find the number of blue balls in the bag.",
+     "options": {
+      "a": "15",
+      "b": "12",
+      "c": "17",
+      "d": "11"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 31,
+     "q": "The distance of the point (-8,6) from the origin is:",
+     "options": {
+      "a": "5 units",
+      "b": "2√2 units",
+      "c": "√2 units",
+      "d": "10 units"
+     },
+     "answer": "d",
+     "note": "Options (b), (c) and (d) are OCR-mangled in the source (\"units 22\", \"units\", \"10 units 2\"). Only (d) contains the correct value 10, so it is the intended answer, but the printed option text should be re-checked against the PDF."
+    },
+    {
+     "n": 32,
+     "q": "A quadratic equation ax²+bx+c=0 has no real roots if :",
+     "options": {
+      "a": "b²−4ac>0",
+      "b": "b²−4ac<0",
+      "c": "b²−4ac=0",
+      "d": "b²−4ac≥0"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 33,
+     "q": "The LCM of (2x³ − 5x² − 3x) and (x⁴ − 27x) is",
+     "options": {
+      "a": "x(x² + 3x + 9)(2x + 1)(x + 3)",
+      "b": "x(x² + 3x + 9)(2x + 1)(x − 3)",
+      "c": "(x² + 3x + 9)(2x + 1)(x − 3)",
+      "d": "(x² + 3x + 9)(2x + 1)(x + 3)"
+     },
+     "answer": "b",
+     "note": "All four options are OCR-mangled (stray \"()()\" and lost brackets). Option (b) is the only one whose factors match the correct LCM x(x²+3x+9)(2x+1)(x−3); the printed text should be re-checked against the PDF."
+    },
+    {
+     "n": 34,
+     "q": "A cyclist covers 750 metres in 2 min 30 sec. His speed in km/hr is:",
+     "options": {
+      "a": "18 km/hr",
+      "b": "15 km/hr",
+      "c": "12.5 km/hr",
+      "d": "10 km/hr"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 35,
+     "q": "The angles of a triangle are A, B and 70° respectively. If the difference between the two angles A & B  is 26°, then the value of the angle A  is:",
+     "options": {
+      "a": "40°",
+      "b": "48°",
+      "c": "68°",
+      "d": "60°"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 36,
+     "q": "In a competitive examination, 2 marks is awarded to each correct answer and 0.25 mark is deducted for every wrong answer. Out of 100 questions, Buanga answered 90 questions and got 153 marks. How many questions did he answer correctly?",
+     "options": {
+      "a": "62",
+      "b": "68",
+      "c": "72",
+      "d": "78"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 37,
+     "q": "A quadratic polynomial whose zeroes are -3 and 4 is:",
+     "options": {
+      "a": "x²−x−12",
+      "b": "2x²+2x−24",
+      "c": "x²+x+12",
+      "d": "x²−x+12"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 38,
+     "q": "Zama travels from Aizawl to Tlungvel at a speed of  40 km/hr and returns to Aizawl by increasing his speed by 50%. What is his average speed?",
+     "options": {
+      "a": "36 km/hr",
+      "b": "45 km/hr",
+      "c": "48 km/hr",
+      "d": "30 km/hr"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 39,
+     "q": "4.036 divided by 0.04 gives:",
+     "options": {
+      "a": "1.009",
+      "b": "100.9",
+      "c": "10.09",
+      "d": "1009"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 40,
+     "q": "The capacity of two pots is 70 litres and 105 litres respectively. Find the capacity of a container which can exactly measure the contents of the two pots.",
+     "options": {
+      "a": "25 litres",
+      "b": "58 litres",
+      "c": "35 litres",
+      "d": "18 litres 22x121"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 41,
+     "q": "Find the value of x in the equation 1⅔ ÷ 2/7 × x/7 = 1¼ × 2/3 ÷ 1/6",
+     "options": {
+      "a": "0.6",
+      "b": "0.4",
+      "c": "6",
+      "d": "4"
+     },
+     "answer": "c",
+     "note": "Extracted question text is corrupt — it reads '1÷×=1×÷ 377436'. Verified against the source PDF (Sub-Inspector of Statistic Paper-II, p.5): the equation is 1 2/3 ÷ 2/7 × x/7 = 1 1/4 × 2/3 ÷ 1/6. The stored text must be repaired before this is shown to a student."
+    },
+    {
+     "n": 42,
+     "q": "A wire is bent in the form of a circle of radius  56 cm. If it is bent in the form of a square, its area will be:",
+     "options": {
+      "a": "2288 cm²",
+      "b": "8822 cm²",
+      "c": "4477 cm²",
+      "d": "7744 cm² 1"
+     },
+     "answer": "d",
+     "note": "Option (d) carries a stray trailing '1' in the extracted data ('7744 cm² 1'); the PDF prints only '7744 cm2'."
+    },
+    {
+     "n": 43,
+     "q": "If one is added to the denominator of a fraction, the fraction becomes 1/2. If one is added to the numerator of the fraction, the fraction becomes 1. The fraction is:",
+     "options": {
+      "a": "1/3",
+      "b": "2/3",
+      "c": "1/2",
+      "d": "3/2"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 44,
+     "q": "The cost of 21 pens and 9 notebooks is Rs. 819. The cost of 7 pens and 3 notebooks is:",
+     "options": {
+      "a": "204",
+      "b": "409",
+      "c": "273",
+      "d": "208"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 45,
+     "q": "If the SP of an item is Rs. 21 for 30% discount on list price, then what would be the SP for 20% discount on list price?",
+     "options": {
+      "a": "20",
+      "b": "24",
+      "c": "22",
+      "d": "25"
+     },
+     "answer": "a",
+     "dispute": {
+      "verdict": "wrong",
+      "alt": "b",
+      "why": "[adjudicated: derived] Correct answer: (b) Rs. 24. A 30% discount means you pay 70% of the list price, so 0.70 x LP = 21, giving LP = 21 / 0.70 = Rs. 30. With a 20% discount you pay 80% of that: 0.80 x 30 = Rs. 24. Quick check you can do without any algebra: a smaller discount must leave a HIGHER selling price, so the answer has to be more than Rs. 21. The option highlighted in the source booklet, (a) Rs. 20, is less than 21 and is therefore impossible — that highlight is an error, not an official key. The distractors correspond to list prices of Rs. 27.50 (for 22) and Rs. 31.25 (for 25), neither of which yields Rs. 21 at a 30% discount. The general shortcut: SP scales with the proportion left after discount, so SP_new = 21 x (80/70) = 24."
+     }
+    },
+    {
+     "n": 46,
+     "q": "The ratio of milk to water in 80 litres of a mixture is 7:3, the amount of water (in litres) to be added to the mixture to make the ratio 2:1 is:",
+     "options": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "7"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 47,
+     "q": "The simple interest earned on a sum of money in 3 years at the rate of 12% per annum is Rs. 5,400. Find the sum.",
+     "options": {
+      "a": "Rs. 14,000",
+      "b": "Rs. 15,000",
+      "c": "Rs. 14,500",
+      "d": "Rs. 15,500"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 48,
+     "q": "The surface area of a cube is 150 cm². Its volume is:",
+     "options": {
+      "a": "125 cm³",
+      "b": "64cm³",
+      "c": "150 cm³",
+      "d": "216 cm³"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 49,
+     "q": "The central angle for Rent while constructing a pie-chart is:",
+     "options": {
+      "a": "70°",
+      "b": "80°",
+      "c": "40°",
+      "d": "65°"
+     },
+     "answer": "b",
+     "note": "The table the Directions refer to was dropped by the extractor. Recovered from the source PDF (p.6, 'expenditure for one month incurred by a family'): Food 3150, Rent 2400, Education 2100, Savings 1200, Miscellaneous 1950 (amounts in Rs). The question is unanswerable until that table is attached.",
+     "passage": "Directions (Question Nos. 49 – 50): Study the given table and answer the question that follows. The expenditure for one month incurred by a family is given below:\nItem      | Food | Rent | Education | Savings | Miscellaneous\nAmount (in Rs) | 3150 | 2400 | 2100 | 1200 | 1950"
+    },
+    {
+     "n": 50,
+     "q": "Ratio of expenditure of food and education is:",
+     "options": {
+      "a": "3:2",
+      "b": "2:3",
+      "c": "5:7",
+      "d": "7:5"
+     },
+     "answer": "a",
+     "note": "Same missing table as Q49. Recovered from the source PDF (p.6): Food 3150, Rent 2400, Education 2100, Savings 1200, Miscellaneous 1950.",
+     "passage": "Directions (Question Nos. 49 – 50): Study the given table and answer the question that follows. The expenditure for one month incurred by a family is given below:\nItem      | Food | Rent | Education | Savings | Miscellaneous\nAmount (in Rs) | 3150 | 2400 | 2100 | 1200 | 1950"
+    },
+    {
+     "n": 51,
+     "q": "What is the technology-enabled intelligence-sharing platform conceived after the 26/11 Mumbai attacks to overcome information silos which allows authorized agencies to query multiple database?",
+     "options": {
+      "a": "NDEM",
+      "b": "CMS",
+      "c": "NATGRID",
+      "d": "PALANTIR"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 52,
+     "q": "According to the Reserve Bank of India’s report, which two countries together accounted for over one-third of the total FDI in India according to 2024-25 report?",
+     "options": {
+      "a": "Japan and German",
+      "b": "Mauritius and United Kingdom",
+      "c": "Singapore and Netherlands",
+      "d": "United States and Singapore"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 53,
+     "q": "Which country will host Conference of Parties 31 (COP31) 2026?",
+     "options": {
+      "a": "USA",
+      "b": "Japan",
+      "c": "Maldives",
+      "d": "Turkey"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 54,
+     "q": "ISRO will begin 2026 with which mission?",
+     "options": {
+      "a": "CMS-03",
+      "b": "PSLV-C62",
+      "c": "LVM3-M6",
+      "d": "SpaDex"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 55,
+     "q": "Which is the first Indian state to implement one paid menstrual leave day per month for women in Government and Private sector?",
+     "options": {
+      "a": "Odisha",
+      "b": "Nagaland",
+      "c": "Karnataka",
+      "d": "Kerala"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 56,
+     "q": "Election of Lai Autonomous District Council (LADC) was recently conducted. The LADC was constituted on:",
+     "options": {
+      "a": "1972",
+      "b": "1986",
+      "c": "1982",
+      "d": "1954"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 57,
+     "q": "The ‘Doomsday Glacier’ one of the largest and fastest-changing glaciers on Earth is located at:",
+     "options": {
+      "a": "Greenland",
+      "b": "West Antarctica",
+      "c": "Alaska",
+      "d": "Patagonia"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 58,
+     "q": "Sovereign Gold Bond (SGB) scheme is an initiative of which institution?",
+     "options": {
+      "a": "RBI",
+      "b": "SEBI",
+      "c": "NITI Aayog",
+      "d": "Finance Ministry"
+     },
+     "answer": "a",
+     "note": "Arguably ambiguous: SGB is a Government of India scheme (announced in Budget 2015-16) issued by RBI on its behalf, so options (a) and (d) are both defensible."
+    },
+    {
+     "n": 59,
+     "q": "Which one of these is not a staffing agency in India?",
+     "options": {
+      "a": "Cabinet Secretariat",
+      "b": "Economic Affairs Department",
+      "c": "Planning Commission",
+      "d": "Cabinet Committees"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 60,
+     "q": "What is meant by the term “Fomoflation” that was recently seen in news?",
+     "options": {
+      "a": "Inflation caused by increase in fuel prices",
+      "b": "Inflation caused by government monetary policy",
+      "c": "Inflation driven by customer psychology and fear of scarcity",
+      "d": "Inflation due to high production costs"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 61,
+     "q": "Who has been appointed as the 53rd Chief Justice of India (CJI)?",
+     "options": {
+      "a": "Justice B.R. Gavai",
+      "b": "Justice Surya Kant",
+      "c": "Justice D.Y. Chandrachud",
+      "d": "Justice Sanjiv Khanna"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 62,
+     "q": "The Chavang Kut Festival is mainly celebrated in which state?",
+     "options": {
+      "a": "Manipur",
+      "b": "Nagaland",
+      "c": "Mizoram",
+      "d": "Tripura"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 63,
+     "q": "What is the name of the weak zone of the Earth’s crust?",
+     "options": {
+      "a": "Formic zone",
+      "b": "Seismic zone",
+      "c": "Granitic zone",
+      "d": "Basaltic zone"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 64,
+     "q": "Which is the first nation to launch a 5G mobile network?",
+     "options": {
+      "a": "Japan",
+      "b": "United States",
+      "c": "South Korea",
+      "d": "China"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 65,
+     "q": "The first ISRO astronaut to visit the International Space Station while participating in Axiom Mission 4 was:",
+     "options": {
+      "a": "Rakesh Sharma",
+      "b": "Ajit Krishnan",
+      "c": "Shubhanshu Shukla",
+      "d": "Prasant Nair"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 66,
+     "q": "The United Nations has officially declared the year 2026 as the International Year of-",
+     "options": {
+      "a": "Sustainable Tourism for Development",
+      "b": "Glacier’s Preservation",
+      "c": "Rangelands and Pastoralists",
+      "d": "Food Security"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 67,
+     "q": "How long does Earth take to complete one full rotation on its axis?",
+     "options": {
+      "a": "24 hours 4 minutes",
+      "b": "24 hours exactly",
+      "c": "23 hours 56 minutes 4 seconds",
+      "d": "23 hours 59 minutes 40 seconds"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 68,
+     "q": "Bureau of Indian Standard (BIS), India’s National Standard Body came into force on:",
+     "options": {
+      "a": "1st April 1952",
+      "b": "1st April 1978",
+      "c": "1st April 1987",
+      "d": "1st April 1989"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 69,
+     "q": "Which Article of the Indian Constitution vests the ECI with complete control over the preparation of Electoral rolls and conduct of elections to Parliamentary, State Legislature and of the offices of the President and Vice President?",
+     "options": {
+      "a": "Article 243",
+      "b": "Article 324",
+      "c": "Article 325",
+      "d": "Article 342"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 70,
+     "q": "What percent of the broad-gauge network of the Indian Railways, the largest electrified rail network in the world, was electrified by November 2025?",
+     "options": {
+      "a": "98.3%",
+      "b": "99.1%",
+      "c": "99.2%",
+      "d": "99.6%"
+     },
+     "answer": "c",
+     "note": "Unverified statistic: the November 2025 electrification percentage could not be confirmed independently, and 99.1 / 99.2 / 99.6 are within normal reporting variation of one another. Following the marked option as the best available evidence."
+    },
+    {
+     "n": 71,
+     "q": "Who is the present Governor of Mizoram?",
+     "options": {
+      "a": "Hari Babu Kambhampati",
+      "b": "Vijay Kumar Singh",
+      "c": "P.S. Sreedharan Pillai",
+      "d": "Aziz Qureshi"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 72,
+     "q": "The unabbreviated form of FSDL, an Indian company established to operate the Indian Super League, is-",
+     "options": {
+      "a": "Federation of Soccer Developments Limited",
+      "b": "Football Sports Development Limited",
+      "c": "Football & Sports Development Limited",
+      "d": "Federation Soccer development Limited"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 73,
+     "q": "The Revolt of 1857 was started on May 10, 1857, in the city of Meerut. Present-day Meerut is in which state?",
+     "options": {
+      "a": "Delhi",
+      "b": "Bihar",
+      "c": "Uttarakhand",
+      "d": "Uttar Pradesh"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 74,
+     "q": "Which one of the following is not recognized as stock exchanges in India?",
+     "options": {
+      "a": "Bombay Stock Exchange (BSE)",
+      "b": "National Stock Exchange (NSE)",
+      "c": "Multi Commodity Exchange (MCE)",
+      "d": "Derivatives Exchange Commodity (DEC)"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 75,
+     "q": "‘A curve used for graphical representation of income inequality or wealth inequality’:",
+     "options": {
+      "a": "Kuznets Curve",
+      "b": "Phillip Curve",
+      "c": "Engel Curve",
+      "d": "Lorenz Curve"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 76,
+     "q": "How many days does a person need to work in a year to be eligible to register under the Mizoram Building & Other Construction Worker Welfare Board?",
+     "options": {
+      "a": "Not less than 60 days",
+      "b": "Not less than 90 days",
+      "c": "Not less than 80 days",
+      "d": "Not less than 70 days"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 77,
+     "q": "Who was the first chairman of the planning commission in India?",
+     "options": {
+      "a": "Dr Rajendra Prasad",
+      "b": "Sardar Vallabhbhai Patel",
+      "c": "Amartya Sen",
+      "d": "Jawaharlal Nehru"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 78,
+     "q": "Which of the following statements regarding AI platform is incorrect?",
+     "options": {
+      "a": "ChatGPT was developed by OpenAI",
+      "b": "Google Gemini was previously known as Bard.",
+      "c": "Microsoft copilot does not integrate the Microsoft ecosystem in its platforms",
+      "d": "Meta AI is available on Instagram."
+     },
+     "answer": "c"
+    },
+    {
+     "n": 79,
+     "q": "Mission Shakti is implemented by which Ministry?",
+     "options": {
+      "a": "Ministry of Home Affairs",
+      "b": "Ministry of External Affairs",
+      "c": "Ministry of Health & Family Welfare",
+      "d": "Ministry of Women & Child Development"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 80,
+     "q": "Which type of seismic wave causes the most destruction?",
+     "options": {
+      "a": "S- waves",
+      "b": "P- waves",
+      "c": "Gamma waves",
+      "d": "Surface waves"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 81,
+     "q": "Indian Standard Time (IST) is ahead of Greenwich Mean Time (GMT) by:",
+     "options": {
+      "a": "5:00 Hours",
+      "b": "5:15 Hours",
+      "c": "5:30 Hours",
+      "d": "5:45 Hours"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 82,
+     "q": "Who is the first Mizo woman to summit Mt Everest?",
+     "options": {
+      "a": "Lalrinmawii",
+      "b": "Baryl Vanneihsangi",
+      "c": "Lalrintluangi",
+      "d": "Capt. Baby Lalduhsangi"
+     },
+     "answer": "c",
+     "note": "Unverified Mizoram-specific fact; answer follows the source PDF's highlight only. Worth checking against a news report on Mizoram's first woman Everest summiteer."
+    },
+    {
+     "n": 83,
+     "q": "What is the nodal agency in India responsible for monitoring and recording all earthquake activity?",
+     "options": {
+      "a": "National Institute for Seismology and Earth",
+      "b": "National Center for Seismology",
+      "c": "Indian Institute of Technology, Delhi",
+      "d": "National Center for Seismology & Earthquake"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 84,
+     "q": "Which of the following rights has not been interpreted as part of Article 21 by the Supreme Court?",
+     "options": {
+      "a": "Right to privacy",
+      "b": "Right to marry",
+      "c": "Right to shelter",
+      "d": "Right to vote"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 85,
+     "q": "The Government of India Act 1935 was based on the recommendation of:",
+     "options": {
+      "a": "Hunter Commission",
+      "b": "Wood’s  Despatch",
+      "c": "Whiteley Commission",
+      "d": "Simon Commission"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 86,
+     "q": "Which one of the following is not associated with Mahatma Gandhi?",
+     "options": {
+      "a": "Ahimsa",
+      "b": "Khalsa",
+      "c": "Satyagraha",
+      "d": "Mass mobilization"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 87,
+     "q": "Which cognizable offence according to Bharatiya Nagarik Suraksha Sanhita (BNSS) is incorrect?",
+     "options": {
+      "a": "Disrobing a woman",
+      "b": "Molestation",
+      "c": "Murder",
+      "d": "Defamation"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 88,
+     "q": "Indian federalism is based on the model of which country?",
+     "options": {
+      "a": "American Model",
+      "b": "North Korean Model",
+      "c": "French Model",
+      "d": "Canadian Model"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 89,
+     "q": "Which autonomous district council of Mizoram has been under Governor’s Rule since 7th July 2025?",
+     "options": {
+      "a": "Mara Autonomous District Council",
+      "b": "Chakma Autonomous District Council",
+      "c": "Lai Autonomous District Council",
+      "d": "Both (a) and (b) are correct"
+     },
+     "answer": "b",
+     "note": "2025 current affairs that could not be verified; answer follows the source PDF's highlight only."
+    },
+    {
+     "n": 90,
+     "q": "What are the primary colours of light?",
+     "options": {
+      "a": "Red Blue Green (RBG)",
+      "b": "Red Yellow Green (RYG)",
+      "c": "Red Blue Violet (RBV)",
+      "d": "Red Yellow Blue (RYB)"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 91,
+     "q": "Foot and mouth disease is caused by:",
+     "options": {
+      "a": "Fungus",
+      "b": "Bacteria",
+      "c": "Viruses",
+      "d": "Salmonella"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 92,
+     "q": "Stunted means:",
+     "options": {
+      "a": "Low birth rate",
+      "b": "Weight for height",
+      "c": "Low height for age",
+      "d": "Height for birth"
+     },
+     "answer": "c"
+    },
+    {
+     "n": 93,
+     "q": "Which part of the human body produces insulin?",
+     "options": {
+      "a": "The pancreas",
+      "b": "The stomach",
+      "c": "The saliva",
+      "d": "The intestine"
+     },
+     "answer": "a"
+    },
+    {
+     "n": 94,
+     "q": "Excessive consumption of calcium can lead to:",
+     "options": {
+      "a": "Cholera",
+      "b": "Diphtheria",
+      "c": "Hypothermia",
+      "d": "Kidney stones"
+     },
+     "answer": "d"
+    },
+    {
+     "n": 95,
+     "q": "Who composed the song ‘ Hmanah kaisar lal lian’?",
+     "options": {
+      "a": "Pu Siamkunga",
+      "b": "Pu Patea",
+      "c": "Pu Chhuahkhama",
+      "d": "Pu Rokunga"
+     },
+     "answer": "d",
+     "note": "Unverified authorship of a Mizo song; answer follows the source PDF's highlight only."
+    },
+    {
+     "n": 96,
+     "q": "In modern day Mizoram, where does one find ‘ Selesih sangsarih khua’?",
+     "options": {
+      "a": "Between Khawbung South and Zawlsei",
+      "b": "Between Farkawn and Vaphai",
+      "c": "Between Champhai and Vangchhia",
+      "d": "Between Vangchhia and Vanzau"
+     },
+     "answer": "a",
+     "note": "Unverified local-geography fact; all four options are plausible Champhai-area villages. Answer follows the source PDF's highlight only."
+    },
+    {
+     "n": 97,
+     "q": "In which year did the Mizo National Front revolt against the Government of India?",
+     "options": {
+      "a": "1965",
+      "b": "1966",
+      "c": "1967",
+      "d": "1968"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 98,
+     "q": "Who founded the Lakher Pioneer Mission?",
+     "options": {
+      "a": "JH Lorrain",
+      "b": "RA Lorrain",
+      "c": "FW Savidge",
+      "d": "TH Lewin"
+     },
+     "answer": "b"
+    },
+    {
+     "n": 99,
+     "q": "Thangfenpa Bawp bird is also known as:",
+     "options": {
+      "a": "Dodo",
+      "b": "Indian dodo",
+      "c": "Indian cuckoo",
+      "d": "Himalayan pheasant"
+     },
+     "answer": "c",
+     "note": "Unverified Mizo bird name; answer follows the source PDF's highlight only."
+    },
+    {
+     "n": 100,
+     "q": "Mizo ‘Suankual’ is a type of:",
+     "options": {
+      "a": "Iron thong",
+      "b": "Iron tong",
+      "c": "Brass plate",
+      "d": "A huge brass container commonly used in the kitchen"
+     },
+     "answer": "b",
+     "note": "Defective options: (a) 'Iron thong' and (b) 'Iron tong' are the same item with a one-letter typo, so two options are equally defensible. Option (d) also carries the stray end-of-paper marker '* * * * * * *'. Answer follows the source PDF's highlight."
+    }
+   ]
   }
  ]
 };

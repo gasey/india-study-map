@@ -1,0 +1,849 @@
+{
+ "exam": "Research Investigator (May 2026)",
+ "paper": "Paper I (General English)",
+ "series": null,
+ "date": "May 2026",
+ "totalQuestionsStated": 60,
+ "questions": [
+  {
+   "n": 1,
+   "q": "India is a country with diverse cultures and languages.",
+   "options": {
+    "a": "Adjective of Quality",
+    "b": "Proper Noun",
+    "c": "Adjective of Quantity",
+    "d": "Common Noun"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 2,
+   "q": "Honesty is the best policy.",
+   "options": {
+    "a": "Common Noun",
+    "b": "Proper Noun",
+    "c": "Abstract Noun",
+    "d": "Collective Noun"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 3,
+   "q": "Mizoram is a beautiful state.",
+   "options": {
+    "a": "Adjective of Quality",
+    "b": "Adjective of Quantity",
+    "c": "Adjective of Number",
+    "d": "Demonstrative Adjective"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 4,
+   "q": "Do not be such a coward.",
+   "options": {
+    "a": "Adjective of Quality",
+    "b": "Adjective of Quantity",
+    "c": "Adjective of Number",
+    "d": "Demonstrative Adjective"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 5,
+   "q": "Sanga is well mannered because he has a good upbringing.",
+   "options": {
+    "a": "Personal Pronoun",
+    "b": "Demonstrative Pronoun",
+    "c": "Relative Pronoun",
+    "d": "Emphatic Pronoun"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 6,
+   "q": "I hurt myself during the match.",
+   "options": {
+    "a": "Personal Pronoun",
+    "b": "Demonstrative Pronoun",
+    "c": "Relative Pronoun",
+    "d": "Reflexive Pronoun"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 7,
+   "q": "Oranges from Mizoram are sweeter than those from the plains.",
+   "options": {
+    "a": "Personal Pronoun",
+    "b": "Demonstrative Pronoun",
+    "c": "Relative Pronoun",
+    "d": "Reflexive Pronoun"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 8,
+   "q": "The milkman delivers milk daily.",
+   "options": {
+    "a": "Adverb of Place",
+    "b": "Adverb of Time",
+    "c": "Adverb of Manner",
+    "d": "Adverb of Degree"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 9,
+   "q": "They are fully prepared for the conference.",
+   "options": {
+    "a": "Adverb of Place",
+    "b": "Adverb of Time",
+    "c": "Adverb of Manner",
+    "d": "Adverb of Degree"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 10,
+   "q": "Our home is humble, but it is filled with love.",
+   "options": {
+    "a": "Pronoun",
+    "b": "Adjective",
+    "c": "Conjunction",
+    "d": "Adverb"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 11,
+   "q": "The teacher praised the brilliant student.",
+   "options": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Noun",
+    "d": "Conjunction"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 12,
+   "q": "The book is on the table.",
+   "options": {
+    "a": "Adverb",
+    "b": "Conjunction",
+    "c": "Noun",
+    "d": "Adjective"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 13,
+   "q": "They went to the market after lunch.",
+   "options": {
+    "a": "Noun",
+    "b": "Preposition",
+    "c": "Conjunction",
+    "d": "Adverb"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 14,
+   "q": "I like tea and coffee.",
+   "options": {
+    "a": "Noun",
+    "b": "Adjective",
+    "c": "Interjection",
+    "d": "Conjunction"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 15,
+   "q": "He is a very intelligent boy.",
+   "options": {
+    "a": "Verb",
+    "b": "Pronoun",
+    "c": "Preposition",
+    "d": "Adverb"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 16,
+   "q": "Please sit here.",
+   "options": {
+    "a": "Verb",
+    "b": "Noun",
+    "c": "Adjective",
+    "d": "Adverb"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 17,
+   "q": "I have two books.",
+   "options": {
+    "a": "Noun",
+    "b": "Verb",
+    "c": "Adjective",
+    "d": "Pronoun"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 18,
+   "q": "Oh! That hurts.",
+   "options": {
+    "a": "Preposition",
+    "b": "Interjection",
+    "c": "Verb",
+    "d": "Adjective"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 19,
+   "q": "The old man walked slowly.",
+   "options": {
+    "a": "Conjunction",
+    "b": "Noun",
+    "c": "Adverb",
+    "d": "Adjective"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 20,
+   "q": "The birds are flying above the trees.",
+   "options": {
+    "a": "Preposition",
+    "b": "Noun",
+    "c": "Verb",
+    "d": "Conjunction"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+  },
+  {
+   "n": 21,
+   "q": "courteous",
+   "options": {
+    "a": "regal",
+    "b": "orderly",
+    "c": "official",
+    "d": "polite"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+  },
+  {
+   "n": 22,
+   "q": "despise",
+   "options": {
+    "a": "disdain",
+    "b": "disagree",
+    "c": "respect",
+    "d": "wise"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+  },
+  {
+   "n": 23,
+   "q": "foe",
+   "options": {
+    "a": "duo",
+    "b": "enemy",
+    "c": "noble",
+    "d": "rage"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+  },
+  {
+   "n": 24,
+   "q": "meticulous",
+   "options": {
+    "a": "strict",
+    "b": "careful",
+    "c": "blissful",
+    "d": "careless"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+  },
+  {
+   "n": 25,
+   "q": "agony",
+   "options": {
+    "a": "pain",
+    "b": "chance",
+    "c": "desire",
+    "d": "compel"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+  },
+  {
+   "n": 26,
+   "q": "A thing that remains fixed.",
+   "options": {
+    "a": "mobile",
+    "b": "stationery",
+    "c": "stationary",
+    "d": "mettle"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 27,
+   "q": "Lacking in experience or informed judgement.",
+   "options": {
+    "a": "dewy eyed",
+    "b": "seasoned",
+    "c": "vain",
+    "d": "sceptical"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 28,
+   "q": "Known for bad things",
+   "options": {
+    "a": "incredible",
+    "b": "gullible",
+    "c": "expatriate",
+    "d": "notorious"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 29,
+   "q": "Likely to attract attention",
+   "options": {
+    "a": "sombre",
+    "b": "conspicuous",
+    "c": "ostracize",
+    "d": "mortify"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 30,
+   "q": "To express scornfully one’s low opinion",
+   "options": {
+    "a": "tumultuous",
+    "b": "denigrate",
+    "c": "ferocious",
+    "d": "proclaim"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 31,
+   "q": "Fluent and clear in speech.",
+   "options": {
+    "a": "Emotional",
+    "b": "Enthusiastic",
+    "c": "Verbatim",
+    "d": "Articulate"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 32,
+   "q": "An inscription on a tomb.",
+   "options": {
+    "a": "Epitaph",
+    "b": "Epilogue",
+    "c": "Elegy",
+    "d": "Eulogy"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 33,
+   "q": "Opinion contrary to accepted doctrines.",
+   "options": {
+    "a": "Controversy",
+    "b": "Convention",
+    "c": "Advocacy",
+    "d": "Heresy"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 34,
+   "q": "Governed by a sense of duty.",
+   "options": {
+    "a": "Conscious",
+    "b": "Conscientious",
+    "c": "Intelligent",
+    "d": "Sensible"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 35,
+   "q": "A written declaration made on oath in the presence of a magistrate.",
+   "options": {
+    "a": "Document",
+    "b": "Affidavit",
+    "c": "Dossier",
+    "d": "Voucher"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+  },
+  {
+   "n": 36,
+   "q": "Sanga says, “Mawia is very intelligent.”",
+   "options": {
+    "a": "Sanga says that Mawia was very intelligent.",
+    "b": "Sanga said that Mawia is very intelligent.",
+    "c": "Sanga expressed that Mawia is very intelligent.",
+    "d": "Sanga says that Mawia is very intelligent."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 37,
+   "q": "The teacher said, “The students are crying.”",
+   "options": {
+    "a": "The teacher said that the students were crying.",
+    "b": "The teacher has said that the students are crying.",
+    "c": "The teacher says that the students were crying.",
+    "d": "The teacher said that the students are crying."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 38,
+   "q": "Sarah said, “Jonathan will play basketball.”",
+   "options": {
+    "a": "Sarah said that Jonathan will be playing basketball.",
+    "b": "Sarah said that Jonathan would play basketball.",
+    "c": "Sarah said that Jonathan will play basketball.",
+    "d": "Sarah said that Jonathan would have played basketball."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 39,
+   "q": "She said, “I will cook dinner in the evening.”",
+   "options": {
+    "a": "She said that she would cook dinner in the evening.",
+    "b": "She said that she will cook dinner in the evening.",
+    "c": "She said that she will be cooking dinner in the evening.",
+    "d": "She said that she shall cook dinner in the evening."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 40,
+   "q": "He said to me, “I do not like your new purchase.”",
+   "options": {
+    "a": "He told me that he does not like my new purchase.",
+    "b": "He told me that he did not like my new purchase.",
+    "c": "He told me that he is disliking my new purchase.",
+    "d": "He told me that he will not like my new purchase."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 41,
+   "q": "“I am going to the school tomorrow,” she said.",
+   "options": {
+    "a": "She said that she was going to the school the next day.",
+    "b": "She said she will go to school the next day.",
+    "c": "She said I will go to school tomorrow.",
+    "d": "She said that I was going to the school the next day."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 42,
+   "q": "“Where do you live?”,  he asked.",
+   "options": {
+    "a": "He asked where I live.",
+    "b": "He asked where I lived.",
+    "c": "He asked where do you live.",
+    "d": "He asked where was I living."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 43,
+   "q": "“Please sit down,” she said.",
+   "options": {
+    "a": "She told them to sit down, please.",
+    "b": "She asked them to sit.",
+    "c": "She requested them to sit down.",
+    "d": "She says please, sit down."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 44,
+   "q": "They said, “we will arrive tomorrow”.",
+   "options": {
+    "a": "They said we will arrive the next day.",
+    "b": "They said we will come tomorrow.",
+    "c": "They said that they would arrive the next day.",
+    "d": "They said that they will arrive the next day."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 45,
+   "q": "“Please close the door”, she said.",
+   "options": {
+    "a": "She requested to close the door.",
+    "b": "She said close the door.",
+    "c": "She please asked to close the door.",
+    "d": "Close the door she requested."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Printed English of the intended answer (a) is defective: 'requested' is left without an object. The choice is still unambiguous, since no other option uses a reporting verb at all.",
+   "passage": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+  },
+  {
+   "n": 46,
+   "q": "He was singing a beautiful song.",
+   "options": {
+    "a": "Past Indefinite Tense",
+    "b": "Past Continuous Tense",
+    "c": "Past Perfect Tense",
+    "d": "Present Continuous Tense"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+  },
+  {
+   "n": 47,
+   "q": "She has been attending classes all year round.",
+   "options": {
+    "a": "Present Continuous Tense",
+    "b": "Past Continuous Tense",
+    "c": "Present Perfect Continuous Tense",
+    "d": "Present Perfect Tense"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+  },
+  {
+   "n": 48,
+   "q": "I shall have been waiting for the next bus.",
+   "options": {
+    "a": "Future Continuous Tense",
+    "b": "Past Perfect Continuous Tense",
+    "c": "Future Perfect Continuous Tense",
+    "d": "Present Perfect Tense"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+  },
+  {
+   "n": 49,
+   "q": "She went to the hospital.",
+   "options": {
+    "a": "Present Indefinite Tense",
+    "b": "Past Indefinite Tense",
+    "c": "Past Perfect Tense",
+    "d": "Past Continuous Tense"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+  },
+  {
+   "n": 50,
+   "q": "You will have had your lunch.",
+   "options": {
+    "a": "Future Perfect Tense",
+    "b": "Past Indefinite Tense",
+    "c": "Past Perfect Tense",
+    "d": "Past Continuous Tense"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+  },
+  {
+   "n": 51,
+   "q": "If I ______ rich, I would travel the world.",
+   "options": {
+    "a": "am",
+    "b": "was",
+    "c": "were",
+    "d": "be"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  },
+  {
+   "n": 52,
+   "q": "The Committee ______ divided in its opinion.",
+   "options": {
+    "a": "are",
+    "b": "is",
+    "c": "were",
+    "d": "have"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  },
+  {
+   "n": 53,
+   "q": "She is one of those writers who ______ always inspired me.",
+   "options": {
+    "a": "has",
+    "b": "have",
+    "c": "is",
+    "d": "was"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  },
+  {
+   "n": 54,
+   "q": "Each of the players ______ performed well.",
+   "options": {
+    "a": "have",
+    "b": "had",
+    "c": "are",
+    "d": "has"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  },
+  {
+   "n": 55,
+   "q": "This book is ______ interesting than I expected.",
+   "options": {
+    "a": "very",
+    "b": "far more",
+    "c": "too",
+    "d": "quite"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  },
+  {
+   "n": 56,
+   "q": "His arguments were so ______ that even experts found them difficult to understand.",
+   "options": {
+    "a": "lucid",
+    "b": "obscure",
+    "c": "coherent",
+    "d": "rational"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  },
+  {
+   "n": 57,
+   "q": "The author’s writing style is known for its ______ descriptions and vivid imagery.",
+   "options": {
+    "a": "evocative",
+    "b": "bland",
+    "c": "dull",
+    "d": "rigid"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  },
+  {
+   "n": 58,
+   "q": "The system is designed to ______ errors before they occur.",
+   "options": {
+    "a": "amplify",
+    "b": "ignore",
+    "c": "escalate",
+    "d": "mitigate"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  },
+  {
+   "n": 59,
+   "q": "The manager took a ______ approach to employee complaints, addressing them immediately.",
+   "options": {
+    "a": "indifferent",
+    "b": "dismissive",
+    "c": "proactive",
+    "d": "passive"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  },
+  {
+   "n": 60,
+   "q": "The results were so ______ that they required further verification.",
+   "options": {
+    "a": "reliable",
+    "b": "definite",
+    "c": "conclusive",
+    "d": "inconclusive"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Extraction artifact: option (d) reads 'inconclusive * * * * * * *'. The asterisks are the end-of-paper decoration bleeding into the last option, not part of the word — strip them. The answer is unaffected.",
+   "passage": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+  }
+ ]
+}

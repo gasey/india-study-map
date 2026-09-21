@@ -1,0 +1,955 @@
+{
+ "exam": "Assistant Labour, Employment, Skill Development & Entrepreneurship Officer (April 2026)",
+ "paper": "General English (Précis, Letter, Comprehension & Grammar)",
+ "series": null,
+ "date": "April 2026",
+ "totalQuestionsStated": 66,
+ "questions": [
+  {
+   "n": 1,
+   "q": "The Bible is the holy book of the Christians.",
+   "options": {
+    "a": "Noun",
+    "b": "Pronoun",
+    "c": "Adjective",
+    "d": "Preposition"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "Bible"
+  },
+  {
+   "n": 2,
+   "q": "None of my lost books was found.",
+   "options": {
+    "a": "Adverb",
+    "b": "Adjective",
+    "c": "Pronoun",
+    "d": "Verb"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "None"
+  },
+  {
+   "n": 3,
+   "q": "It was a beautiful sunset.",
+   "options": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Conjunction",
+    "d": "Article"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "beautiful"
+  },
+  {
+   "n": 4,
+   "q": "He completed his work quickly.",
+   "options": {
+    "a": "Determiner",
+    "b": "Verb",
+    "c": "Adverb",
+    "d": "Pronoun"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "quickly"
+  },
+  {
+   "n": 5,
+   "q": "I really wanted to go, but it started raining.",
+   "options": {
+    "a": "Interjection",
+    "b": "Conjunction",
+    "c": "Adjective",
+    "d": "Noun"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "but"
+  },
+  {
+   "n": 6,
+   "q": "He was a man fertile in resource.",
+   "options": {
+    "a": "noun",
+    "b": "adverb",
+    "c": "adjective",
+    "d": "interjection"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "fertile"
+  },
+  {
+   "n": 7,
+   "q": "He who is merciful shall meet mercy.",
+   "options": {
+    "a": "pronoun",
+    "b": "verb",
+    "c": "adverb",
+    "d": "noun"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "who"
+  },
+  {
+   "n": 8,
+   "q": "I did not expect to pass, and see, I was among the top five.",
+   "options": {
+    "a": "noun",
+    "b": "interjection",
+    "c": "adjective",
+    "d": "adverb"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "and see"
+  },
+  {
+   "n": 9,
+   "q": "Of two evils choose the less.",
+   "options": {
+    "a": "verb",
+    "b": "noun",
+    "c": "adverb",
+    "d": "adjective"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Highlight disputed: source PDF highlights (d) adjective; adjudicated to (b) noun. The highlight is not an official key. If a later official key for this sitting says (d), re-open — but the grammar here is not genuinely ambiguous under traditional parsing: \"the less\" is the direct object of \"choose\" with no following noun.",
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "less",
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "b",
+    "why": "[adjudicated: derived] Correct answer: (b) noun. The booklet's highlight of (d) adjective is wrong.\n\nParse the slot, not the dictionary. \"Choose\" is a transitive verb and needs a direct object. What follows it is \"the less\" — the definite article opens a noun phrase, and nothing comes after \"less\" for it to modify. So \"less\" is the head of that phrase and fills the object slot itself. A word standing between \"the\" and a verb's object position, with no noun behind it, is functioning as a noun (an adjective used substantively, exactly like \"the rich are not always happy\" or \"the poor\"). Part of speech in this sentence: noun.\n\nWhy (d) is tempting and still wrong: \"less\" is an adjective in its ordinary use — \"I have less money\", where it modifies \"money\". The highlight reflects that habitual use rather than the use in the printed sentence, which is precisely what this question is testing. The direction line says \"pick out the correct part of speech of each italicized word\", i.e. its function here, not its usual class.\n\nHold the standard contrast set in mind, because these papers reuse it:\n- \"I have less money than you.\" — less modifies the noun money -> adjective\n- \"He is less hungry than I am.\" — less modifies the adjective hungry -> adverb\n- \"Of two evils choose the less.\" — less is the object of choose -> noun\n\nNote the sentence was almost certainly chosen for the paper *because* it is the noun case; the adjective case would have been written as the trivial \"less money\" example. Treat (d) as a booklet error."
+   }
+  },
+  {
+   "n": 10,
+   "q": "What happened next?",
+   "options": {
+    "a": "adverb",
+    "b": "verb",
+    "c": "interjection",
+    "d": "adjective"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10): Pick out the correct part of speech of each italicized word/words :",
+   "focus": "next"
+  },
+  {
+   "n": 11,
+   "q": "I am not interested about anything that happened ___ the very remote past.",
+   "options": {
+    "a": "with",
+    "b": "in",
+    "c": "on",
+    "d": "at"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+  },
+  {
+   "n": 12,
+   "q": "She made a point ____ coming late so that everyone would look at her.",
+   "options": {
+    "a": "of",
+    "b": "at",
+    "c": "in",
+    "d": "about"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+  },
+  {
+   "n": 13,
+   "q": "I’m not exactly keen ____ cooking; but I prefer it to washing.",
+   "options": {
+    "a": "at",
+    "b": "in",
+    "c": "of",
+    "d": "on"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+  },
+  {
+   "n": 14,
+   "q": "Passengers may leave bulky articles under the stairs ____ the conductor’s permission.",
+   "options": {
+    "a": "with",
+    "b": "by",
+    "c": "at",
+    "d": "for"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+  },
+  {
+   "n": 15,
+   "q": "As she was getting _____ the car one of her buttons fell off.",
+   "options": {
+    "a": "on",
+    "b": "in",
+    "c": "into",
+    "d": "by"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "The source PDF carries no highlight for this question (the extractor logged it as UNMARKED), so there is no marked answer to compare against; this answer is derived.",
+   "passage": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
+  },
+  {
+   "n": 16,
+   "q": "You will not succeed ___________ you work hard.",
+   "options": {
+    "a": "unless",
+    "b": "if",
+    "c": "because",
+    "d": "although"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+  },
+  {
+   "n": 17,
+   "q": "She acted __________ she knew everything about the matter.",
+   "options": {
+    "a": "because",
+    "b": "although",
+    "c": "as if",
+    "d": "unless"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+  },
+  {
+   "n": 18,
+   "q": "__________ you apologize, I will not forgive you.",
+   "options": {
+    "a": "If",
+    "b": "Unless",
+    "c": "Because",
+    "d": "Although"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+  },
+  {
+   "n": 19,
+   "q": "I don’t know ___________ he will come or not.",
+   "options": {
+    "a": "whether",
+    "b": "although",
+    "c": "because",
+    "d": "unless"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+  },
+  {
+   "n": 20,
+   "q": "She kept quiet __________ she was angry.",
+   "options": {
+    "a": "although",
+    "b": "because",
+    "c": "so",
+    "d": "unless"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 16 - 20): Choose the correct conjunction:"
+  },
+  {
+   "n": 21,
+   "q": "The book is ________ the table.",
+   "options": {
+    "a": "under",
+    "b": "over",
+    "c": "in",
+    "d": "between"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "The direction for Q21–30 says \"determiner\", but every item in the run tests a preposition, not a determiner. This item is also weakly written: \"over the table\" is not ungrammatical, so the answer rests on which reading is more natural rather than on a rule.",
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 22,
+   "q": "She walked __________ the room quietly.",
+   "options": {
+    "a": "on",
+    "b": "of",
+    "c": "across",
+    "d": "out"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 23,
+   "q": "The picture is hanging ___________ the wall.",
+   "options": {
+    "a": "at",
+    "b": "on",
+    "c": "of",
+    "d": "for"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 24,
+   "q": "I have been waiting _______ more than two hours.",
+   "options": {
+    "a": "till",
+    "b": "some",
+    "c": "for",
+    "d": "to"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 25,
+   "q": "They travelled _______ train.",
+   "options": {
+    "a": "by",
+    "b": "in",
+    "c": "at",
+    "d": "to"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 26,
+   "q": "He jumped ________ the river.",
+   "options": {
+    "a": "at",
+    "b": "on",
+    "c": "by",
+    "d": "into"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 27,
+   "q": "She is interested _______ dancing.",
+   "options": {
+    "a": "in",
+    "b": "at",
+    "c": "On",
+    "d": "to"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 28,
+   "q": "He stood _______ the door wairing.",
+   "options": {
+    "a": "on",
+    "b": "in",
+    "c": "at",
+    "d": "for"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 29,
+   "q": "He is afraid _____ the dark.",
+   "options": {
+    "a": "of",
+    "b": "at",
+    "c": "with",
+    "d": "to"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 30,
+   "q": "She was born _____ 1960.",
+   "options": {
+    "a": "at",
+    "b": "in",
+    "c": "on",
+    "d": "by"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
+  },
+  {
+   "n": 31,
+   "q": "His speech was so _________ that even critics praised his clarity and depth.",
+   "options": {
+    "a": "verbose",
+    "b": "eloquent",
+    "c": "taciturn",
+    "d": "ambiguous"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+  },
+  {
+   "n": 32,
+   "q": "The scientist’s theory was initially met with __________ , but later gained acceptance.",
+   "options": {
+    "a": "scepticism",
+    "b": "acclaim",
+    "c": "enthusiasm",
+    "d": "compliance"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+  },
+  {
+   "n": 33,
+   "q": "She gave a __________ smile, hiding her true disappointment.",
+   "options": {
+    "a": "radiant",
+    "b": "benevolent",
+    "c": "forced",
+    "d": "genuine"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+  },
+  {
+   "n": 34,
+   "q": "The manager was accused of being _________ favoring only a select group of employees.",
+   "options": {
+    "a": "impartial",
+    "b": "biased",
+    "c": "neutral",
+    "d": "objective"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+  },
+  {
+   "n": 35,
+   "q": "The child showed _______ curiosity, asking endless questions.",
+   "options": {
+    "a": "limited",
+    "b": "indifferent",
+    "c": "reluctant",
+    "d": "insatiable"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+  },
+  {
+   "n": 36,
+   "q": "Her success was not due to luck but to her _________ efforts.",
+   "options": {
+    "a": "sporadic",
+    "b": "relentless",
+    "c": "casual",
+    "d": "indifferent"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+  },
+  {
+   "n": 37,
+   "q": "The lawyer’s argument was so __________ that it weakened his entire case.",
+   "options": {
+    "a": "flawed",
+    "b": "compelling",
+    "c": "persuasive",
+    "d": "logical"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+  },
+  {
+   "n": 38,
+   "q": "His remarks were ________ and offended many people.",
+   "options": {
+    "a": "considerate",
+    "b": "insensitive",
+    "c": "polite",
+    "d": "thoughtful"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 31– 38) : Choose the correct vocabulary to complete the sentence:"
+  },
+  {
+   "n": 39,
+   "q": "Although the market is volatile, investors are advised to keep their powder dry until the next quarter’s results are released.",
+   "options": {
+    "a": "To panic and sell all assets immediately",
+    "b": "To spend all resources instantly",
+    "c": "To keep gun powder in a dry place",
+    "d": "To remain cautious and ready for action"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+  },
+  {
+   "n": 40,
+   "q": "His claim that all politicians are corrupt is a sweeping statement.",
+   "options": {
+    "a": "Untrue declaration",
+    "b": "Misunderstanding",
+    "c": "Overly generalized statement",
+    "d": "Statement that is proven to be true"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+  },
+  {
+   "n": 41,
+   "q": "The need for diversity and inclusion has come to the fore in many workplaces.",
+   "options": {
+    "a": "Become prominent",
+    "b": "Be invincible",
+    "c": "Inconspicuous",
+    "d": "Ahead of others"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+  },
+  {
+   "n": 42,
+   "q": "It is said that he has a finger in the pie.",
+   "options": {
+    "a": "To have no stake",
+    "b": "Be involved in something",
+    "c": "Have wealth and luxury",
+    "d": "Acquire distinction or glory"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+  },
+  {
+   "n": 43,
+   "q": "Growing up in the mountains, I’ve been surrounded by people who are the salt of the earth.",
+   "options": {
+    "a": "Sensitive people",
+    "b": "Good and honest people",
+    "c": "Hard-working people",
+    "d": "Simple and carefree people"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 39– 43): Choose the correct meaning of idioms and phrases written in bold"
+  },
+  {
+   "n": 44,
+   "q": "I have no time that I can waste on idle talk.",
+   "options": {
+    "a": "Simple Sentence",
+    "b": "Compound Sentence",
+    "c": "Complex Sentence",
+    "d": "None of these"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+  },
+  {
+   "n": 45,
+   "q": "Not many people would be cruel to animals.",
+   "options": {
+    "a": "Assertive Sentence",
+    "b": "Affirmative Sentence",
+    "c": "Negative Sentence",
+    "d": "Comparative Sentence"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+  },
+  {
+   "n": 46,
+   "q": "Very few cities in India are as rich as Mumbai.",
+   "options": {
+    "a": "Comparative Sentence",
+    "b": "Negative Sentence",
+    "c": "Affirmative Sentence",
+    "d": "Positive Sentence"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Defective question: (c) \"Affirmative\" and (d) \"Positive\" are synonyms on the polarity axis, and the sentence is genuinely in the positive degree of comparison, so (d) is equally defensible. Answer follows the source highlight; treat as unreliable.",
+   "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+  },
+  {
+   "n": 47,
+   "q": "Do you not remember her who was formerly your foe?",
+   "options": {
+    "a": "Complex Sentence",
+    "b": "Compound Sentence",
+    "c": "Simple Sentence",
+    "d": "None of these"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+  },
+  {
+   "n": 48,
+   "q": "There was a great fall, my countrymen.",
+   "options": {
+    "a": "Affirmative Sentence",
+    "b": "Assertive Sentence",
+    "c": "Positive Sentence",
+    "d": "Exclamatory Sentence"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
+  },
+  {
+   "n": 49,
+   "q": "Identify the type of sentence : “ She enjoys reading books every evening.”",
+   "options": {
+    "a": "Imperative",
+    "b": "Affirmative",
+    "c": "Interrogative",
+    "d": "Exclamatory"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+  },
+  {
+   "n": 50,
+   "q": "Choose the sentence that functions as Imperative.",
+   "options": {
+    "a": "Do you like listening to music ?",
+    "b": "What a beautiful flower it is!",
+    "c": "Finish your work on time.",
+    "d": "He does not play football on Sundays."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+  },
+  {
+   "n": 51,
+   "q": "Identify the underlined phrase : “She spoke in a very soft voice.”",
+   "options": {
+    "a": "Adjective phrase",
+    "b": "Adverb phrase",
+    "c": "Noun Phrase",
+    "d": "Verb phrase"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "focus": "in a very soft voice"
+  },
+  {
+   "n": 52,
+   "q": "Identify the underlined phrase : “You could have been told the truth earlier.”",
+   "options": {
+    "a": "Adverb phrase",
+    "b": "Noun phrase",
+    "c": "Verb phrase",
+    "d": "Adjective phrase"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "focus": "could have been told"
+  },
+  {
+   "n": 53,
+   "q": "Choose the correct Clause to complete the blank : “He continued working _______ he was completely exhausted.",
+   "options": {
+    "a": "since",
+    "b": "even though",
+    "c": "as if",
+    "d": "as long as"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+  },
+  {
+   "n": 54,
+   "q": "Which is the correct Clause to complete the sentence ? “The teacher asked me _________ .”",
+   "options": {
+    "a": "where was I going",
+    "b": "where I go",
+    "c": "where I was going",
+    "d": "where am I going"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+  },
+  {
+   "n": 55,
+   "q": "Choose the correct conditional sentence.",
+   "options": {
+    "a": "If you will work hard, you will succeed.",
+    "b": "If you worked hard, you will succeed.",
+    "c": "If you work hard, you would succeed.",
+    "d": "If you work hard, you will succeed."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+  },
+  {
+   "n": 56,
+   "q": "Pick the correctly structured sentence.",
+   "options": {
+    "a": "Scarcely had I reached the station when the train had left.",
+    "b": "Scarcely I had reached the station when the train left.",
+    "c": "Scarcely had I reached the station when the train left.",
+    "d": "Scarcely had I reached the station than the train left."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+  },
+  {
+   "n": 57,
+   "q": "Identify the correct sentence.",
+   "options": {
+    "a": "Each of the students has completed his work.",
+    "b": "Each of the students has completed their work.",
+    "c": "Each of the students have completed their work.",
+    "d": "Each of the students has completed their works."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:"
+  },
+  {
+   "n": 58,
+   "q": "Choose the correct complex sentence.",
+   "options": {
+    "a": "He is too tired that he cannot walk.",
+    "b": "He is very tired that he cannot walk.",
+    "c": "He is such tired that he cannot walk.",
+    "d": "He is so tired that he cannot walk."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question 49 - 58) : Answer them as instructed:",
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "d",
+    "why": "[adjudicated: derived] Correct answer: (d) \"He is so tired that he cannot walk.\" The source booklet highlights (b), and that highlight is an error — (b) is not grammatical English.\n\nThe test here is which intensifier can introduce a result clause beginning with \"that\". Only \"so\" can: the pattern is **so + adjective + that + clause** (\"so tired that he cannot walk\"). That \"that\"-clause is a subordinate clause, which is also what makes the sentence *complex*, as the question demands.\n\nWhy the others fail:\n- (a) \"too tired that...\" — \"too\" takes an infinitive, not a \"that\"-clause. The correct form is \"too tired **to walk**.\"\n- (b) \"very tired that...\" — \"very\" is a bare degree adverb with no correlative partner at all. You cannot hang a result \"that\"-clause off it. You would have to write \"very tired, **so** he cannot walk,\" which is a compound sentence, not a complex one. This is the highlighted option and it is simply wrong.\n- (c) \"such tired that...\" — \"such\" is a determiner and needs a noun phrase after it: \"**such a tired man** that he cannot walk.\" Before a bare adjective, English requires \"so\", not \"such\".\n\nRemember the pair: **so ... that** (with an adjective/adverb) and **such ... that** (with a noun phrase)."
+   }
+  },
+  {
+   "n": 59,
+   "q": "“Have you anything to tell me, little bird?” asked Ulysses.",
+   "options": {
+    "a": "Ulysses asked of the bird if it has anything to tell him.",
+    "b": "Ulysses asked the bird whether it had anything to tell him.",
+    "c": "Ulysses asked the little bird if there is anything to tell him.",
+    "d": "Ulysses asked to the bird whether it has anything to tell him."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+  },
+  {
+   "n": 60,
+   "q": "He said that he did not wish to see any of them and ordered them to go away.",
+   "options": {
+    "a": "He said, “I do not wish to see any of them so go away”",
+    "b": "He ordered, “I do not want to see any of you so go away”",
+    "c": "He said, “Go away, I did not wish to see any of you”",
+    "d": "He said, “I do not wish to see any of you; go away.’"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+  },
+  {
+   "n": 61,
+   "q": "She said to me, “I have often told you not to mess with me.”",
+   "options": {
+    "a": "She reminded me that she had often told me not to mess with her.",
+    "b": "She told me that she has often told me not to mess with her.",
+    "c": "She said that she often reminded me not to mess with her.",
+    "d": "She told me not to mess with her."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+  },
+  {
+   "n": 62,
+   "q": "He replied that he had promised to reward his employees and that he had kept his word.",
+   "options": {
+    "a": "He replied, “I promised to reward my employees and I kept word.”",
+    "b": "He replied, “I had promised to reward my employees and had kept my word.”",
+    "c": "He replied, “I promise to reward my employees. I keep my word.”",
+    "d": "He replied, “I have promised to reward my employees. I have kept my word.”"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+  },
+  {
+   "n": 63,
+   "q": "She said, “Will you have time to do it?” And I said, “Yes”.",
+   "options": {
+    "a": "She asked if I will have time to do it and I replied that I will.",
+    "b": "She asked me if I will have time to do it and I said that I would.",
+    "c": "She asked me if I would have time to do it and I said that I would.",
+    "d": "She asked if I have the time to do it and I said that I will have the time."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+  },
+  {
+   "n": 64,
+   "q": "He said, “ I am going to the market.”",
+   "options": {
+    "a": "He said that he was going to the market.",
+    "b": "He said that he is going to the market.",
+    "c": "He said that I am going to the market.",
+    "d": "He said that I was going to the market."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+  },
+  {
+   "n": 65,
+   "q": "She asked me why I was late.",
+   "options": {
+    "a": "She asked me, “Why I am late?”",
+    "b": "She asked, “Why were you late?”",
+    "c": "She said to me, “Why was I late?”",
+    "d": "She said to me, “Why are you late?”"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+  },
+  {
+   "n": 66,
+   "q": "The teacher said, “Honesty is the best policy.”",
+   "options": {
+    "a": "The teacher said that honesty is the best policy.",
+    "b": "The teacher said that honesty was the best policy.",
+    "c": "The teacher said honesty had been the best policy.",
+    "d": "The teacher said that honesty will be the best policy."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Questions No 59– 66): Select from the given alternatives given the one which expresses the"
+  }
+ ]
+}

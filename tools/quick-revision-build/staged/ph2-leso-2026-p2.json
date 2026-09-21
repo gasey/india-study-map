@@ -1,0 +1,1414 @@
+{
+ "exam": "Assistant Labour, Employment, Skill Development & Entrepreneurship Officer (April 2026)",
+ "paper": "General Studies (Current Affairs, General Knowledge & Mizoram)",
+ "series": null,
+ "date": "April 2026",
+ "totalQuestionsStated": 100,
+ "questions": [
+  {
+   "n": 1,
+   "q": "Which of the following States will go to the polls in April, 2026?",
+   "options": {
+    "a": "Assam, Kerala, Puducherry, West Bengal",
+    "b": "Assam, Tamil Nadu, Puducherry, West Bengal",
+    "c": "Assam, Kerala, West Bengal, Tamil Nadu",
+    "d": "Kerala, Puducherry, Tamil Nadu, West Bengal"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified 2026 current affairs: the exact April-2026 polling schedule could not be checked; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 2,
+   "q": "Indian cricket team won the ICC Men’s T20 World Cup, 2026 by defeating:",
+   "options": {
+    "a": "New Zealand",
+    "b": "England",
+    "c": "Australia",
+    "d": "South Africa"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Unverified 2026 current affairs: the T20 World Cup 2026 final result could not be confirmed; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 3,
+   "q": "The theme of Chapchar Kut, 2026 is",
+   "options": {
+    "a": "Zo Nun Ze Mawi: Tlawmngaihna",
+    "b": "Zo Nun Ze Mawi: Inngaihsakna",
+    "c": "Zo Nun Ze Mawi: Inlungrualna",
+    "d": "Zo Nun Ze Mawi: Inremna"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Unverified Mizoram-specific 2026 current affairs: the announced Chapchar Kut 2026 theme could not be checked; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 4,
+   "q": "How many seats are reserved for women in General Election to the Aizawl Municipal Corporation, 2026?",
+   "options": {
+    "a": "4",
+    "b": "5",
+    "c": "6",
+    "d": "7"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified: 6 vs 7 depends on how the one-third-of-19 reservation is rounded in the AMC 2026 notification; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 5,
+   "q": "Vanglaini Mizo Award 2025 was given to:",
+   "options": {
+    "a": "Joy Pachuau",
+    "b": "Sangthankima",
+    "c": "R. Lalrawna",
+    "d": "B. Lalthangliana"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Unverified Mizoram-specific current affairs: the Vanglaini Mizo Award 2025 recipient could not be confirmed; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 6,
+   "q": "Which two disasters has the 16th Finance Commission recommended for inclusion as nationally notified disasters?",
+   "options": {
+    "a": "Cyclones and droughts",
+    "b": "Heatwaves and lightning strikes",
+    "c": "Floods and earthquakes",
+    "d": "Landslides and cloudbursts"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 7,
+   "q": "Which country is the largest buyer of Iranian crude oil?",
+   "options": {
+    "a": "Russia",
+    "b": "India",
+    "c": "China",
+    "d": "USA"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 8,
+   "q": "The capital of Mauryan Empire under Ashoka was:",
+   "options": {
+    "a": "Pataliputra",
+    "b": "Ujjain",
+    "c": "Taxila",
+    "d": "Vaishali"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 9,
+   "q": "The Ajanta Caves are primarily associated with which religious tradition?",
+   "options": {
+    "a": "Hinduism",
+    "b": "Jainism",
+    "c": "Zoroastrianism",
+    "d": "Buddhism"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 10,
+   "q": "Which Chinese traveler visited India during the reign of Harshavardhana?",
+   "options": {
+    "a": "Fa-Hien",
+    "b": "Hiuen Tsang",
+    "c": "I-Tsing",
+    "d": "Sung Yun"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 11,
+   "q": "The Chalukya Dynasties were in power of Indian medieval history from the reign of 600 to 1200 AD in the state of:",
+   "options": {
+    "a": "Thanjavur",
+    "b": "Deccan",
+    "c": "Badami",
+    "d": "Kalyani"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 12,
+   "q": "Who is known as the “father of the Maratha nation’?",
+   "options": {
+    "a": "Shivaji",
+    "b": "Babur",
+    "c": "Ramaraja",
+    "d": "Shahu"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 13,
+   "q": "Who was the first president of Indian National Congress?",
+   "options": {
+    "a": "G.K. Gokhale",
+    "b": "W.C. Banerjee.",
+    "c": "Dadabhai Naoroji.",
+    "d": "Badruddin Tyabji"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 14,
+   "q": "Jallianwala Bagh massacre took place on the day of:",
+   "options": {
+    "a": "Pongal",
+    "b": "Bakrid",
+    "c": "Holi",
+    "d": "Baisakhi"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 15,
+   "q": "Which major river in Mizoram flows northwards and eventually joins the Barak River in Assam?",
+   "options": {
+    "a": "Tlawng",
+    "b": "Chhimtuipui",
+    "c": "Kolodyne",
+    "d": "Tuirial"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 16,
+   "q": "What is the name of the canal that significantly shortened the maritime route from India to Europe?",
+   "options": {
+    "a": "Panama Canal",
+    "b": "Suez Canal",
+    "c": "Beijing-Hangzhou Grand Canal",
+    "d": "Grand Canal"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 17,
+   "q": "Match the following places with the things known for: A.Blue revolution1.Meat production B.Grey revolution2.Milk production C.Round revolution3.Fertilizers D.White revolution4.Potato E.Red revolution5.Fish production ABCDE",
+   "options": {
+    "a": "43521",
+    "b": "21453",
+    "c": "52341",
+    "d": "53421"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 18,
+   "q": "_________ dam is the highest gravity dam in India.",
+   "options": {
+    "a": "Bhakra Nangal Dam",
+    "b": "Hirakud Dam",
+    "c": "Mettur Dam",
+    "d": "Nagarjuna Sagar Dam"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 19,
+   "q": "Which type of vegetation is found only in the northwestern part of India?",
+   "options": {
+    "a": "The Mangrove Forests",
+    "b": "The Tropical Thorn Forests and Scrubs",
+    "c": "The Tropical Deciduous Forests",
+    "d": "The Tropical Evergreen Forests"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 20,
+   "q": "The Planets that have no natural satellites are:",
+   "options": {
+    "a": "Mercury and Venus",
+    "b": "Earth and Mars",
+    "c": "Jupiter and Saturn",
+    "d": "Uranus and Neptune"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 21,
+   "q": "What is the position of the Right to Property in India?",
+   "options": {
+    "a": "Legal right available to citizens only",
+    "b": "Legal right available to any person",
+    "c": "Fundamental Right available to citizens only",
+    "d": "Neither Fundamental Right nor legal right"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 22,
+   "q": "Sixth Schedule of the Indian Constitution provides administration of tribal areas in the following states:",
+   "options": {
+    "a": "Assam, Meghalaya, Mizoram, Tripura",
+    "b": "Assam, Manipur, Meghalaya, Mizoram",
+    "c": "Assam, Arunachal Pradesh, Mizoram, Nagaland",
+    "d": "Arunachal Pradesh, Meghalaya, Mizoram, Tripura"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 23,
+   "q": "Article 243Q provides for establishment of 3 kinds of Municipalities of every state. Which one of the following is not among them?",
+   "options": {
+    "a": "Gram Panchayat",
+    "b": "Nagar Panchayat",
+    "c": "Municipal Council",
+    "d": "Municipal Corporation"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 24,
+   "q": "Which body recommends the principles of distribution of tax proceeds between Union and States?",
+   "options": {
+    "a": "Planning Commission",
+    "b": "NITI Aayog",
+    "c": "Finance Commission",
+    "d": "Inter State Council"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 25,
+   "q": "Under which Article can the President promulgate an Ordinance when Parliament is not in session?",
+   "options": {
+    "a": "Article 352",
+    "b": "Article 356",
+    "c": "Article 360",
+    "d": "Article 123"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 26,
+   "q": "When was the Constitution of India adopted by the Constituent Assembly?",
+   "options": {
+    "a": "15 August 1947",
+    "b": "26 November 1949",
+    "c": "26 January 1950",
+    "d": "01 January 1950"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 27,
+   "q": "The Preamble of the Indian Constitution is:",
+   "options": {
+    "a": "Enforceable in a court of law",
+    "b": "Non enforceable but a key to the minds of the framers",
+    "c": "A separate statute",
+    "d": "Only a political speech"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 28,
+   "q": "What was the administrative status of Mizoram immediately after Indian independence in 1947?",
+   "options": {
+    "a": "Autonomous District Council",
+    "b": "Union Territory",
+    "c": "State",
+    "d": "District within the state of Assam"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 29,
+   "q": "Human Development Index measures:",
+   "options": {
+    "a": "Income only",
+    "b": "Education only",
+    "c": "Health, education and income",
+    "d": "Population"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 30,
+   "q": "The United Nations has established Sustainable Development Goals (SDGs).",
+   "options": {
+    "a": "15",
+    "b": "16",
+    "c": "17",
+    "d": "18"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 31,
+   "q": "Poverty line is determined based on:",
+   "options": {
+    "a": "Income level",
+    "b": "Consumption expenditure",
+    "c": "Population",
+    "d": "Employment"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 32,
+   "q": "India will begin next census in:",
+   "options": {
+    "a": "April, 2026",
+    "b": "May, 2026",
+    "c": "June, 2026",
+    "d": "July, 2026"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 33,
+   "q": "The service sector does not include :",
+   "options": {
+    "a": "Banking",
+    "b": "Insurance",
+    "c": "Transport",
+    "d": "Car manufacturing"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 34,
+   "q": "Kerala has low Infant Mortality Rate because:",
+   "options": {
+    "a": "It has good climatic condition",
+    "b": "It has a huge number of educated population",
+    "c": "It has adequate provision of basic health and educational facilities",
+    "d": "It has adequate infrastructure"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 35,
+   "q": "Which of the following is NOT a consequence of climate change?",
+   "options": {
+    "a": "Rising sea levels",
+    "b": "Increased biodiversity",
+    "c": "More frequent heatwaves",
+    "d": "Melting polar ice caps"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 36,
+   "q": "What is the projected temperature increase limit set by the Paris Agreement to avoid the most severe impacts of climate change?",
+   "options": {
+    "a": "1.5 degrees Celsius",
+    "b": "2 degrees Celsius",
+    "c": "3 degrees Celsius",
+    "d": "4 degrees Celsius"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 37,
+   "q": "Which international organization monitors and assesses climate change data, impacts, and adaptation strategies?",
+   "options": {
+    "a": "United Nations",
+    "b": "World Health Organization (WHO)",
+    "c": "Intergovernmental Panel on Climate Change (IPCC)",
+    "d": "Greenpeace"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 38,
+   "q": "National Parks in Mizoram are:",
+   "options": {
+    "a": "Phawngpui and Murlen",
+    "b": "Phawngpui and Lengteng",
+    "c": "Murlen and Tokalo",
+    "d": "Murlen and Lengteng"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 39,
+   "q": "Identify the correctly matched pair:",
+   "options": {
+    "a": "Montreal Protocol – Global Warming",
+    "b": "Project Tiger - Lion",
+    "c": "Kyoto Protocol – Climate Change",
+    "d": "Project Hangul - Deer"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Two options are correctly matched: (c) Kyoto Protocol–Climate Change and (d) Project Hangul–Deer (the hangul is the Kashmir stag, Cervus hanglu hanglu). Following the marked option (c) as the intended answer, but the question as printed has no single correct response.",
+   "passage": null
+  },
+  {
+   "n": 40,
+   "q": "Which of the following is the largest ‘carbon sink’ on earth?",
+   "options": {
+    "a": "Forests",
+    "b": "Oceans",
+    "c": "Soils",
+    "d": "Rivers"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 41,
+   "q": "Anatomy is a branch of Science which deals with:",
+   "options": {
+    "a": "Structure of animals and plants",
+    "b": "Functioning of body organs",
+    "c": "Animal behaviour",
+    "d": "Cells and tissues"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 42,
+   "q": "Who among the following is considered as the ‘Father of artificial intelligence’?",
+   "options": {
+    "a": "Charles Babbage",
+    "b": "Lee De Forest",
+    "c": "John McCarthy",
+    "d": "JP Eckert"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 43,
+   "q": "Which of the following best explains why the speed of sound is faster in solids than in gases?",
+   "options": {
+    "a": "Solids have higher density than gases",
+    "b": "Solids have more closely packed particles with stronger intermolecular forces",
+    "c": "Solids have lower temperature than gases",
+    "d": "Solids have more free electrons than gases"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 44,
+   "q": "The animal which uses ‘sounds’ as its eyes is:",
+   "options": {
+    "a": "Possum",
+    "b": "Night heron",
+    "c": "Snake",
+    "d": "Bat"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 45,
+   "q": "A girl is swinging on a swing in sitting position. When the girl stands up, the period of the swing will:",
+   "options": {
+    "a": "be shorter",
+    "b": "be longer",
+    "c": "depend on the height of the girl",
+    "d": "not change"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 46,
+   "q": "The full form of LED is:",
+   "options": {
+    "a": "Light Emitting Device",
+    "b": "Light Enhancing Device",
+    "c": "Light Enhancing Diode",
+    "d": "Light Emitting Diode"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 47,
+   "q": "The first Mizo novel, which was published in 1936:",
+   "options": {
+    "a": "Lali",
+    "b": "Hawilopari",
+    "c": "Chhingpuii",
+    "d": "Rimenhawihi"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 48,
+   "q": "Young Lushai Association (YLA) was renamed Young Mizo Association (YMA) in:",
+   "options": {
+    "a": "1935",
+    "b": "1937",
+    "c": "1945",
+    "d": "1947"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 49,
+   "q": "The most remarkable contribution made by Welsh missionary, Dr Peter Fraser towards the Mizo society was:",
+   "options": {
+    "a": "Establishment of Durtlang Hospital",
+    "b": "Welfare of orphans",
+    "c": "Abolition of slavery (bawi/sal)",
+    "d": "Education of children"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 50,
+   "q": "A queen of fairy, who is regarded as the guardian and maker of wild animals is:",
+   "options": {
+    "a": "Chawngtinleri",
+    "b": "Lasi",
+    "c": "Tumchhingi",
+    "d": "Chawngmawii"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 51,
+   "q": "A military campaign to rescue Mary Winchester was called:",
+   "options": {
+    "a": "The Lushai Expedition 1871-1872",
+    "b": "The Lushai Expedition 1873-1874",
+    "c": "The Lushai Expedition 1888-1889",
+    "d": "The Chin Lushai Expedition 1890-1891"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 52,
+   "q": "The famous ‘Kawtchhuahropui’ is located in:",
+   "options": {
+    "a": "Aizawl District",
+    "b": "Khawzawl District",
+    "c": "Lawngtlai District",
+    "d": "Champhai District"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 53,
+   "q": "The Mizo name given to the month of November is:",
+   "options": {
+    "a": "Sahmulphah Thla",
+    "b": "Pawltlak Thla",
+    "c": "Pawlkut Thla",
+    "d": "Khuangchawi Thla"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 54,
+   "q": "The only Padma Bhushan Awardee from Mizoram is:",
+   "options": {
+    "a": "Captain L.Z. Sailo",
+    "b": "Laltluangliana Khiangte",
+    "c": "Brigadier Thenphunga Sailo",
+    "d": "P.S. Chawngthu"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Unverified — I cannot confirm from my own knowledge who holds Mizoram's only Padma Bhushan; answer follows the source highlight. Worth a human check against the official Padma awards list.",
+   "passage": null
+  },
+  {
+   "n": 55,
+   "q": "Mizo language belongs to:",
+   "options": {
+    "a": "Mongoloid group",
+    "b": "Indo-Aryan group",
+    "c": "Tibeto-Burman group",
+    "d": "Burmese-Chin group"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 56,
+   "q": "BIOFACH 2026, the world’s largest trade fair for organic products, was held in which country?",
+   "options": {
+    "a": "China",
+    "b": "Malaysia",
+    "c": "Singapore",
+    "d": "Germany"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 57,
+   "q": "What is the new name approved by the Union Cabinet for Kerala?",
+   "options": {
+    "a": "Keralam",
+    "b": "Keraladesh",
+    "c": "Travancore",
+    "d": "Malabar"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 58,
+   "q": "Which payment company partnered with Gnani.ai to launch an agentic AI platform enabling in-call UPI payments during live customer conversations?",
+   "options": {
+    "a": "Paytm",
+    "b": "PhonePe",
+    "c": "Razorpay",
+    "d": "GPay"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified 2026 current affairs — the Gnani.ai partner is not something I can confirm; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 59,
+   "q": "Who was named the new Supreme Leader of Iran by the Assembly of Experts following the assassination of Ayatollah Ali Khamenei?",
+   "options": {
+    "a": "Masoud Pezeshkian",
+    "b": "Ali Larijani",
+    "c": "Mojtaba Khamenei",
+    "d": "Ebrahim Raisi"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified — the event described (assassination of Ayatollah Khamenei and a successor being named) is beyond what I can confirm; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 60,
+   "q": "Who was sworn in as the new Prime Minister of Bangladesh after the 13th Parliamentary Election?",
+   "options": {
+    "a": "Tarique Rahman",
+    "b": "Khaleda Zia",
+    "c": "Muhammad Yunus",
+    "d": "Mohammed Shahabuddin"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Unverified 2026 current affairs — I cannot confirm the outcome of Bangladesh's 13th parliamentary election; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 61,
+   "q": "Who among the Mughal Emperor was proclaimed the Emperor of India during the Revolt of 1857?",
+   "options": {
+    "a": "Bahadur Shah I",
+    "b": "Bahadur Shah II",
+    "c": "Shah Alam II",
+    "d": "Aurangzeb"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 62,
+   "q": "The Partition of Bengal was announced in which year?",
+   "options": {
+    "a": "1908",
+    "b": "1919",
+    "c": "1905",
+    "d": "1910"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 63,
+   "q": "Before 26 November 1949, which among the following was the governing law of India?",
+   "options": {
+    "a": "Government of India Act 1909",
+    "b": "Government of India Act 1935",
+    "c": "Government of India Act 1936",
+    "d": "Charter Act of 1853"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 64,
+   "q": "Who founded the Forward Block?",
+   "options": {
+    "a": "Rasbehari Bose",
+    "b": "Jadugopal Mukhopadhyay",
+    "c": "Hemchandra Ghosh",
+    "d": "Subhas Chandra Bose"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 65,
+   "q": "In which session of the Indian National Congress was Vande Mataram sang for the first time?",
+   "options": {
+    "a": "1899",
+    "b": "1896",
+    "c": "1898",
+    "d": "1897"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 66,
+   "q": "38th Parallel demarcates:",
+   "options": {
+    "a": "India and China",
+    "b": "India and Pakistan",
+    "c": "North and South Korea",
+    "d": "USA and Canada"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 67,
+   "q": "Which among the following has been identified for maximum potential of Tidal Power in India?",
+   "options": {
+    "a": "Palk Strait",
+    "b": "Gulf of Kutch",
+    "c": "Sundarbans",
+    "d": "Gulf of Cambay"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 68,
+   "q": "Which Indian state has maximum neighbouring states?",
+   "options": {
+    "a": "Assam",
+    "b": "Chhattisgarh",
+    "c": "Maharashtra",
+    "d": "Uttar Pradesh"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 69,
+   "q": "Maginot Line exists between which countries?",
+   "options": {
+    "a": "USA & Canada",
+    "b": "Mongolia & Russia",
+    "c": "France & Germany",
+    "d": "Algeria & Libya"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 70,
+   "q": "The largest river island in the world is:",
+   "options": {
+    "a": "Majuli Island",
+    "b": "Malibu Island",
+    "c": "Bhavani Island",
+    "d": "Agatti Island"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 71,
+   "q": "Which atmospheric layer contains Ions and helps in wireless communication?",
+   "options": {
+    "a": "Stratosphere",
+    "b": "Mesosphere",
+    "c": "Thermosphere",
+    "d": "Troposphere"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 72,
+   "q": "A money bill can be introduced in:",
+   "options": {
+    "a": "Either house of the Parliament",
+    "b": "Only Council of States (Rajya Sabha)",
+    "c": "Only House of the People (Lok Sabha)",
+    "d": "None of the above"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 73,
+   "q": "Which the following is incorrect regarding Eight Schedule of the Indian Constitution:",
+   "options": {
+    "a": "The Eight Schedule originally contains 14 languages",
+    "b": "Languages in the Eight Schedule receive Constitutional support for development and promotion",
+    "c": "It lists the languages recognized by the Constitution for Official purposes",
+    "d": "English was added to the Eight Schedule after liberalization of economy in 1991"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 74,
+   "q": "Which of the following Article(s) cannot be suspended even during National Emergency?",
+   "options": {
+    "a": "Article 19",
+    "b": "Articles 20 and 21",
+    "c": "Articles 22 and 23",
+    "d": "Articles 24 and 25"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 75,
+   "q": "Under which of the following jurisdiction can any individual whose Fundamental Rights has been violated, directly move the Supreme Court for remedy?",
+   "options": {
+    "a": "Advisory Jurisdiction",
+    "b": "Appellate Jurisdiction",
+    "c": "Original Jurisdiction",
+    "d": "Writ Jurisdiction"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 76,
+   "q": "Which country is the largest producer of liquefied petroleum gas in the world?",
+   "options": {
+    "a": "China",
+    "b": "Saudi Arabia",
+    "c": "USA",
+    "d": "Russia"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 77,
+   "q": "Which country announced a Strategic Energy Partnership with India and agreed on a CAD 2.6 billion uranium supply deal in March 2026?",
+   "options": {
+    "a": "Canada",
+    "b": "Australia",
+    "c": "United Kingdom",
+    "d": "Germany"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "2026 current affairs — cannot verify from own knowledge. Answer rests on the CAD currency clue plus the marked option.",
+   "passage": null
+  },
+  {
+   "n": 78,
+   "q": "Which company has secured a U.S. license allowing it to import crude oil from Venezuela, enhancing India’s energy security and refining flexibility?",
+   "options": {
+    "a": "ONGC",
+    "b": "Indian Oil Corporation",
+    "c": "Bharat Petroleum Corporation Limited",
+    "d": "Reliance Industries Limited"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 79,
+   "q": "What GDP growth rate has ICRA projected for India in Q3 FY 2025-2026?",
+   "options": {
+    "a": "6.5%",
+    "b": "7.2%",
+    "c": "7.8%",
+    "d": "8.2%"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Specific 2026 ratings-agency projection — unverified; follows the marked option as the only available evidence.",
+   "passage": null
+  },
+  {
+   "n": 80,
+   "q": "Which is the world’s largest Government-funded healthcare program providing coverage to over 10 crore poor families in India?",
+   "options": {
+    "a": "Bharatiya Janaushadhi Pariyojana",
+    "b": "Pradhan Mantri Awaas Yojana-Gramin",
+    "c": "Ayushman Bharat (PMJAY)",
+    "d": "Jal Jeevan Mission"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 81,
+   "q": "The Rights of Persons with Disabilities (RPWD) Act 2016 increased the types of disabilities from:",
+   "options": {
+    "a": "7 to 10",
+    "b": "7 to 15",
+    "c": "7 to 21",
+    "d": "7 to 23"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 82,
+   "q": "What is the main aim of the Montreal Protocol?",
+   "options": {
+    "a": "Global warming",
+    "b": "Climate change",
+    "c": "Protection of the Ozone layer",
+    "d": "Bio-diversity Conservation"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 83,
+   "q": "Which of the following are the biodiversity hotspots present in India? A.The Himalayas B.The Western Ghats C.The Sunderland D.The Indo-Burma Select the correct option below.",
+   "options": {
+    "a": "A, B, C",
+    "b": "A, B, D",
+    "c": "A, C, D",
+    "d": "A, B, C, D"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Minor text defect, not answer-breaking: the paper spells Sundaland as \"Sunderland\" (also a city in England), which could mislead a student into reading it as a fabricated distractor — worth correcting to \"Sundaland\" in the bank. Residual risk: because no official MPSC key exists for this sitting, it is possible the setter intended the outdated three-hotspot key, which is what the booklet highlight suggests; the fact itself, however, is not in doubt.",
+   "passage": null,
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "d",
+    "why": "[adjudicated: derived] The correct answer is (d) A, B, C, D — all four. India has four global biodiversity hotspots, not three: (1) the Himalaya, (2) the Western Ghats (part of the Western Ghats & Sri Lanka hotspot), (3) Indo-Burma, covering the northeast including Mizoram, and (4) Sundaland, which reaches Indian territory through the Nicobar Islands. \"The Sunderland\" in option C is simply a misspelling of Sundaland; read alongside \"The Himalayas\" and \"The Western Ghats\" it is plainly meant as the hotspot, and it is a real one. The highlight on (b) in the booklet is an error. It reflects the older NCERT-era line that India has \"three hotspots,\" which dropped Sundaland because the Nicobar link is easy to overlook. Current Government of India material — MoEFCC reports, the National Biodiversity Authority, and PIB releases — consistently states four. Memory aid: three on the mainland arc (Himalaya, Western Ghats, Indo-Burma) plus one island entry (Sundaland via the Nicobars). If an exam ever asks for \"hotspots wholly inside India,\" the answer is none — every one of the four straddles national borders."
+   }
+  },
+  {
+   "n": 84,
+   "q": "Which Article of the Indian Constitution states that “It shall be the duty of every citizen of India to protect and improve the natural environment including forests, lakes, rivers and wildlife and have compassion for living creatures.”?",
+   "options": {
+    "a": "Article 49",
+    "b": "Article 50",
+    "c": "Article 51",
+    "d": "Article 51A"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 85,
+   "q": "The primary consumers in a food chain are:",
+   "options": {
+    "a": "Herbivores",
+    "b": "Carnivores",
+    "c": "Decomposers",
+    "d": "Omnivores"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 86,
+   "q": "The Kaveri water dispute is a dispute between which States?",
+   "options": {
+    "a": "Punjab & Haryana",
+    "b": "Uttar Pradesh & Tamil Nadu",
+    "c": "Karnataka & Tamil Nadu",
+    "d": "Tamil Nadu & Maharashtra"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 87,
+   "q": "The inherent ability of organism to reproduce and multiply is called:",
+   "options": {
+    "a": "C value",
+    "b": "K value",
+    "c": "Biotic potential",
+    "d": "Carrying capacity"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 88,
+   "q": "Who proposed the idea of Continental Drift Theory?",
+   "options": {
+    "a": "Harry Hess",
+    "b": "Darwin",
+    "c": "McKenzie and Parker",
+    "d": "Alfred Wegner"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 89,
+   "q": "Commercial planes fly in which layer of the Earth’s atmosphere?",
+   "options": {
+    "a": "Stratosphere",
+    "b": "Mesosphere",
+    "c": "Thermosphere",
+    "d": "Exosphere"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 90,
+   "q": "The pigment that gives human eyes, skin and hair their colour is called:",
+   "options": {
+    "a": "Alizarin",
+    "b": "Melanin",
+    "c": "Phthalocyanine",
+    "d": "Quinacridone"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 91,
+   "q": "Which chemical is added to the otherwise odourless LPG cooking gas for imparting a detectable smell to the gas?",
+   "options": {
+    "a": "Ammonia",
+    "b": "Hydrogen sulphide",
+    "c": "Thioacetone",
+    "d": "Ethyl mercaptan"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 92,
+   "q": "Which juice secreted by the organs in the alimentary canal plays an important role in the digestion of fats?",
+   "options": {
+    "a": "Saliva, hydrochloric acid",
+    "b": "Saliva, Pancreatic juice",
+    "c": "Bile juice, Pancreatic juice",
+    "d": "Saliva, Bile juice"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 93,
+   "q": "Which of the following is not a member of the vitamin B complex?",
+   "options": {
+    "a": "Riboflavin",
+    "b": "Folic Acid",
+    "c": "Thiamine",
+    "d": "Ascorbic Acid"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 94,
+   "q": "What was the first regularly published monthly newspaper in Mizo language with early content focusing on “Hmasang Chanchin”?",
+   "options": {
+    "a": "Lenkawl",
+    "b": "Lushai News",
+    "c": "KristianTlangau",
+    "d": "Mizo leh Vai Chanchinbu"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 95,
+   "q": "What was the traditional ritual associated with a person reaching a high status (Thangchhuah)?",
+   "options": {
+    "a": "Tlangtlir",
+    "b": "Sa-aih",
+    "c": "Khuangchawi",
+    "d": "Sechhun"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 96,
+   "q": "Who is the first Mizo male to successfully scale the Mt. Everest?",
+   "options": {
+    "a": "Samuel Lalrintluanga",
+    "b": "David Zohmangaiha",
+    "c": "JohnyLaltlanmawia",
+    "d": "Vanlalliana"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Unverified. Identity of the first Mizo male Everest summiteer could not be confirmed from available knowledge; following the source PDF highlight as the best available evidence.",
+   "passage": null
+  },
+  {
+   "n": 97,
+   "q": "For how many kilometers does Mizoram shares its international border with Myanmar?",
+   "options": {
+    "a": "549 km",
+    "b": "654 km",
+    "c": "510 km",
+    "d": "459 km"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 98,
+   "q": "Which of the following is not a correct pair?",
+   "options": {
+    "a": "Fanghmano ei-Eating cucumber that is not fully ripe",
+    "b": "Lalruangasehnawt-A kind of bird",
+    "c": "Sadawt-A priest",
+    "d": "Bawlpu-A shaman or medicine man"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Unverified. The answer turns on the precise meanings of the Mizo terms 'Fanghmano ei' and 'Lalruangasehnawt', which could not be confirmed; only options (c) and (d) could be ruled out with confidence.",
+   "passage": null
+  },
+  {
+   "n": 99,
+   "q": "What is the name given to the short dawn of light which fades away again just before ‘Khawfingchah’?",
+   "options": {
+    "a": "Leilunglan",
+    "b": "Thingchangvar",
+    "c": "Khuantevik",
+    "d": "Vartian"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Unverified. Mizo vocabulary item for the pre-dawn false light; could not be confirmed against a source, following the PDF highlight.",
+   "passage": null
+  },
+  {
+   "n": 100,
+   "q": "Who was the author of the Mizo Essay ‘ Thlirtu’?",
+   "options": {
+    "a": "Prof. Darchhawna",
+    "b": "James Dokhuma",
+    "c": "Kaphleia",
+    "d": "J. Malsawma"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified. Authorship of the Mizo essay 'Thlirtu' could not be confirmed; note also that option (d) carries a stray '* * * * * * *' end-of-paper marker in the printed text, which is not part of the option.",
+   "passage": null
+  }
+ ]
+}

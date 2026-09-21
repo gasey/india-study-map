@@ -1,0 +1,1414 @@
+{
+ "exam": "Sub-Inspector of Statistics (January 2026)",
+ "paper": "Paper II (General Mathematics & General Knowledge)",
+ "series": null,
+ "date": "January 2026",
+ "totalQuestionsStated": 100,
+ "questions": [
+  {
+   "n": 1,
+   "q": "The sum for 2 years gives a compound interest of ₹ 3225 at the rate of 15% per annum. The sum is:",
+   "options": {
+    "a": "₹ 10,000",
+    "b": "₹ 20,000",
+    "c": "₹ 15,000",
+    "d": "₹ 32,250"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 2,
+   "q": "A car goes 120 km at 60 km/hr and returns 120 km at 40 km/hr. Average speed is:",
+   "options": {
+    "a": "48 km/hr",
+    "b": "50 km/hr",
+    "c": "52 km/hr",
+    "d": "54 km/hr"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 3,
+   "q": "A boy goes 7 m north and then 24 m east. Find his distance from the starting point.",
+   "options": {
+    "a": "28 m",
+    "b": "27 m",
+    "c": "26 m",
+    "d": "25 m"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 4,
+   "q": "The acute angle between the hour hand and the minute hand at 3:00 is:",
+   "options": {
+    "a": "90°",
+    "b": "120°",
+    "c": "30°",
+    "d": "60°"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 5,
+   "q": "Out of 80 people, 35 like tea, 40 like coffee and 20 like both. How many like only tea, only coffee, and neither?",
+   "options": {
+    "a": "20, 25, 15",
+    "b": "15, 20, 45",
+    "c": "10, 15, 15",
+    "d": "15, 20, 25"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 6,
+   "q": "The distance from the centre of a circle with radius 10 cm to a chord is 6 cm. The length of the chord is:",
+   "options": {
+    "a": "12 cm",
+    "b": "14 cm",
+    "c": "16 cm",
+    "d": "18 cm"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 7,
+   "q": "You get a salary increase of 6% plus an extra ₹ 800 per month. Your present salary is ₹ 30,000 per month. What will your new salary be?",
+   "options": {
+    "a": "₹ 31,800",
+    "b": "₹ 32,000",
+    "c": "₹ 32,600",
+    "d": "₹ 33,000"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 8,
+   "q": "If tanθ = 3/4, then secθ =",
+   "options": {
+    "a": "3/5",
+    "b": "4/5",
+    "c": "5/4",
+    "d": "5/3"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 9,
+   "q": "The angle of elevation of the top of a tower from a point on the ground is 45°. If the point is 20 m away from the base of the tower, find the height of the tower.",
+   "options": {
+    "a": "10 m",
+    "b": "20 m",
+    "c": "25 m",
+    "d": "15 m"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 10,
+   "q": "The perimeter of a semicircular plate is 108 cm including its diameter. Find its radius.",
+   "options": {
+    "a": "28 cm",
+    "b": "21 cm",
+    "c": "14 cm",
+    "d": "35 cm"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 11,
+   "q": "The area of a quadrant of radius 14 cm is:",
+   "options": {
+    "a": "154 cm²",
+    "b": "49 cm²",
+    "c": "100 cm²",
+    "d": "77 cm²"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 12,
+   "q": "The mean of 20 observations is 30. Later it was found that one value 20 was wrongly taken instead of 40. Find the correct mean.",
+   "options": {
+    "a": "29",
+    "b": "30",
+    "c": "31",
+    "d": "32"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 13,
+   "q": "A shopkeeper bought a bag for ₹ 800 and sold it for ₹ 1000. His gain percent is:",
+   "options": {
+    "a": "20%",
+    "b": "22%",
+    "c": "25%",
+    "d": "30%"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 14,
+   "q": "A shirt is marked at ₹ 600 and sold at ₹ 510. The discount percentage is:",
+   "options": {
+    "a": "10%",
+    "b": "20%",
+    "c": "12%",
+    "d": "15%"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 15,
+   "q": "If 18% of a number is 27, find 30% of that number.",
+   "options": {
+    "a": "45",
+    "b": "40",
+    "c": "44",
+    "d": "none of these"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 16,
+   "q": "The marked price of a refrigerator is ₹ 20,000. A shopkeeper gives a 15% discount and charges 10% sales tax on the discounted price. Find the net amount paid by the customer.",
+   "options": {
+    "a": "₹ 17,800",
+    "b": "₹ 19,800",
+    "c": "₹ 18,700",
+    "d": "₹ 20,000"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 17,
+   "q": "The ratio of A’s age to B’s age is 4:5. The ratio of their ages 6 years ago was 3:4. Find B’s present age.",
+   "options": {
+    "a": "20 years",
+    "b": "24 years",
+    "c": "30 years",
+    "d": "34 years"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "OCR artifact in the options: option (d) reads '34 years thththth'. It is a wrong option either way, so the question is still answerable, but the stray characters should be cleaned in the extraction.",
+   "passage": null
+  },
+  {
+   "n": 18,
+   "q": "The 12th term of an A.P. is 5 more than twice its 5th term. If the 9th term is 39, then the nth term is",
+   "options": {
+    "a": "Tₙ=4n+3",
+    "b": "Tₙ=3n+4",
+    "c": "Tₙ=5n+2",
+    "d": "Tₙ=4n−3"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "The stem lost its ordinal superscripts in extraction ('12 term', '5 term', '9 term' should read 12th, 5th, 9th term). Meaning is still recoverable, so the question is answerable.",
+   "passage": null
+  },
+  {
+   "n": 19,
+   "q": "cos28° sin62° + sin28° cos62° =",
+   "options": {
+    "a": "0",
+    "b": "1/2",
+    "c": "1",
+    "d": "sin34°"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "OCR artifact: the stem ends 'cos62°= 1', i.e. the answer value has been pulled into the question text. The stem should end with '=' only. Does not change what is being asked.",
+   "passage": null
+  },
+  {
+   "n": 20,
+   "q": "A train 200 m long is running at a speed of 90 km/hr. Find the time it takes to pass a platform 100 metres long.",
+   "options": {
+    "a": "8 seconds",
+    "b": "10 seconds",
+    "c": "12 seconds",
+    "d": "15 seconds"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 21,
+   "q": "A pipe can fill a tank in 8 hours and another pipe can empty it in 12 hours. If both are opened together, the tank will be filled in:",
+   "options": {
+    "a": "16 hours",
+    "b": "18 hours",
+    "c": "20 hours",
+    "d": "24 hours"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 22,
+   "q": "A bag contains 5 white, 3 red, and 2 black balls. One ball is drawn at random. What is the probability that the ball drawn is neither white nor black?",
+   "options": {
+    "a": "1/5",
+    "b": "3/10",
+    "c": "2/5",
+    "d": "1/2"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 23,
+   "q": "A rectangular floor of 18 m × 12 m is to be tiled with square tiles of side 3 m. A rectangular platform of 12 m × 6 m is built in the centre and left untiled. Find the number of tiles required.",
+   "options": {
+    "a": "12",
+    "b": "14",
+    "c": "16",
+    "d": "none of these"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 24,
+   "q": "The smallest number by which 180 must be multiplied to make it a perfect square is:",
+   "options": {
+    "a": "2",
+    "b": "3",
+    "c": "10",
+    "d": "5"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Option (d) is OCR-garbled in the source as \"5 xx+62x\"; it reads as the printed value 5, which is the mathematically correct answer. Worth checking the source PDF for the clean option text.",
+   "passage": null
+  },
+  {
+   "n": 25,
+   "q": "If 2ˣ · 4ˣ⁺⁶ = 8²ˣ, then x equals",
+   "options": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 26,
+   "q": "The number which exceeds 16% of it by 42 is:",
+   "options": {
+    "a": "52",
+    "b": "50",
+    "c": "60",
+    "d": "62"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 27,
+   "q": "The sum of the first four prime numbers is:",
+   "options": {
+    "a": "10",
+    "b": "11",
+    "c": "17",
+    "d": "15"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 28,
+   "q": "If one of the roots of a quadratic equation x²−kx−3=0, is 3. Find k.",
+   "options": {
+    "a": "1",
+    "b": "-1",
+    "c": "2",
+    "d": "-2"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 29,
+   "q": "The first, second and last terms of an A.P. are 4, 7 and 31 respectively. How many terms are there in the given A.P.?",
+   "options": {
+    "a": "14",
+    "b": "10",
+    "c": "8",
+    "d": "12"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 30,
+   "q": "A bag contains 5 red balls and some blue balls. If the probability of drawing a blue ball from the bag is thrice that of the probability of drawing a red ball, find the number of blue balls in the bag.",
+   "options": {
+    "a": "15",
+    "b": "12",
+    "c": "17",
+    "d": "11"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 31,
+   "q": "The distance of the point (-8,6) from the origin is:",
+   "options": {
+    "a": "5 units",
+    "b": "2√2 units",
+    "c": "√2 units",
+    "d": "10 units"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Options (b), (c) and (d) are OCR-mangled in the source (\"units 22\", \"units\", \"10 units 2\"). Only (d) contains the correct value 10, so it is the intended answer, but the printed option text should be re-checked against the PDF.",
+   "passage": null
+  },
+  {
+   "n": 32,
+   "q": "A quadratic equation ax²+bx+c=0 has no real roots if :",
+   "options": {
+    "a": "b²−4ac>0",
+    "b": "b²−4ac<0",
+    "c": "b²−4ac=0",
+    "d": "b²−4ac≥0"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 33,
+   "q": "The LCM of (2x³ − 5x² − 3x) and (x⁴ − 27x) is",
+   "options": {
+    "a": "x(x² + 3x + 9)(2x + 1)(x + 3)",
+    "b": "x(x² + 3x + 9)(2x + 1)(x − 3)",
+    "c": "(x² + 3x + 9)(2x + 1)(x − 3)",
+    "d": "(x² + 3x + 9)(2x + 1)(x + 3)"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "All four options are OCR-mangled (stray \"()()\" and lost brackets). Option (b) is the only one whose factors match the correct LCM x(x²+3x+9)(2x+1)(x−3); the printed text should be re-checked against the PDF.",
+   "passage": null
+  },
+  {
+   "n": 34,
+   "q": "A cyclist covers 750 metres in 2 min 30 sec. His speed in km/hr is:",
+   "options": {
+    "a": "18 km/hr",
+    "b": "15 km/hr",
+    "c": "12.5 km/hr",
+    "d": "10 km/hr"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 35,
+   "q": "The angles of a triangle are A, B and 70° respectively. If the difference between the two angles A & B  is 26°, then the value of the angle A  is:",
+   "options": {
+    "a": "40°",
+    "b": "48°",
+    "c": "68°",
+    "d": "60°"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 36,
+   "q": "In a competitive examination, 2 marks is awarded to each correct answer and 0.25 mark is deducted for every wrong answer. Out of 100 questions, Buanga answered 90 questions and got 153 marks. How many questions did he answer correctly?",
+   "options": {
+    "a": "62",
+    "b": "68",
+    "c": "72",
+    "d": "78"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 37,
+   "q": "A quadratic polynomial whose zeroes are -3 and 4 is:",
+   "options": {
+    "a": "x²−x−12",
+    "b": "2x²+2x−24",
+    "c": "x²+x+12",
+    "d": "x²−x+12"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 38,
+   "q": "Zama travels from Aizawl to Tlungvel at a speed of  40 km/hr and returns to Aizawl by increasing his speed by 50%. What is his average speed?",
+   "options": {
+    "a": "36 km/hr",
+    "b": "45 km/hr",
+    "c": "48 km/hr",
+    "d": "30 km/hr"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 39,
+   "q": "4.036 divided by 0.04 gives:",
+   "options": {
+    "a": "1.009",
+    "b": "100.9",
+    "c": "10.09",
+    "d": "1009"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 40,
+   "q": "The capacity of two pots is 70 litres and 105 litres respectively. Find the capacity of a container which can exactly measure the contents of the two pots.",
+   "options": {
+    "a": "25 litres",
+    "b": "58 litres",
+    "c": "35 litres",
+    "d": "18 litres 22x121"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 41,
+   "q": "Find the value of x in the equation 1⅔ ÷ 2/7 × x/7 = 1¼ × 2/3 ÷ 1/6",
+   "options": {
+    "a": "0.6",
+    "b": "0.4",
+    "c": "6",
+    "d": "4"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Extracted question text is corrupt — it reads '1÷×=1×÷ 377436'. Verified against the source PDF (Sub-Inspector of Statistic Paper-II, p.5): the equation is 1 2/3 ÷ 2/7 × x/7 = 1 1/4 × 2/3 ÷ 1/6. The stored text must be repaired before this is shown to a student.",
+   "passage": null
+  },
+  {
+   "n": 42,
+   "q": "A wire is bent in the form of a circle of radius  56 cm. If it is bent in the form of a square, its area will be:",
+   "options": {
+    "a": "2288 cm²",
+    "b": "8822 cm²",
+    "c": "4477 cm²",
+    "d": "7744 cm² 1"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Option (d) carries a stray trailing '1' in the extracted data ('7744 cm² 1'); the PDF prints only '7744 cm2'.",
+   "passage": null
+  },
+  {
+   "n": 43,
+   "q": "If one is added to the denominator of a fraction, the fraction becomes 1/2. If one is added to the numerator of the fraction, the fraction becomes 1. The fraction is:",
+   "options": {
+    "a": "1/3",
+    "b": "2/3",
+    "c": "1/2",
+    "d": "3/2"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 44,
+   "q": "The cost of 21 pens and 9 notebooks is Rs. 819. The cost of 7 pens and 3 notebooks is:",
+   "options": {
+    "a": "204",
+    "b": "409",
+    "c": "273",
+    "d": "208"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 45,
+   "q": "If the SP of an item is Rs. 21 for 30% discount on list price, then what would be the SP for 20% discount on list price?",
+   "options": {
+    "a": "20",
+    "b": "24",
+    "c": "22",
+    "d": "25"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null,
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "b",
+    "why": "[adjudicated: derived] Correct answer: (b) Rs. 24. A 30% discount means you pay 70% of the list price, so 0.70 x LP = 21, giving LP = 21 / 0.70 = Rs. 30. With a 20% discount you pay 80% of that: 0.80 x 30 = Rs. 24. Quick check you can do without any algebra: a smaller discount must leave a HIGHER selling price, so the answer has to be more than Rs. 21. The option highlighted in the source booklet, (a) Rs. 20, is less than 21 and is therefore impossible — that highlight is an error, not an official key. The distractors correspond to list prices of Rs. 27.50 (for 22) and Rs. 31.25 (for 25), neither of which yields Rs. 21 at a 30% discount. The general shortcut: SP scales with the proportion left after discount, so SP_new = 21 x (80/70) = 24."
+   }
+  },
+  {
+   "n": 46,
+   "q": "The ratio of milk to water in 80 litres of a mixture is 7:3, the amount of water (in litres) to be added to the mixture to make the ratio 2:1 is:",
+   "options": {
+    "a": "4",
+    "b": "5",
+    "c": "6",
+    "d": "7"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 47,
+   "q": "The simple interest earned on a sum of money in 3 years at the rate of 12% per annum is Rs. 5,400. Find the sum.",
+   "options": {
+    "a": "Rs. 14,000",
+    "b": "Rs. 15,000",
+    "c": "Rs. 14,500",
+    "d": "Rs. 15,500"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 48,
+   "q": "The surface area of a cube is 150 cm². Its volume is:",
+   "options": {
+    "a": "125 cm³",
+    "b": "64cm³",
+    "c": "150 cm³",
+    "d": "216 cm³"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 49,
+   "q": "The central angle for Rent while constructing a pie-chart is:",
+   "options": {
+    "a": "70°",
+    "b": "80°",
+    "c": "40°",
+    "d": "65°"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "The table the Directions refer to was dropped by the extractor. Recovered from the source PDF (p.6, 'expenditure for one month incurred by a family'): Food 3150, Rent 2400, Education 2100, Savings 1200, Miscellaneous 1950 (amounts in Rs). The question is unanswerable until that table is attached.",
+   "passage": "Directions (Question Nos. 49 – 50): Study the given table and answer the question that follows. The expenditure for one month incurred by a family is given below:\nItem      | Food | Rent | Education | Savings | Miscellaneous\nAmount (in Rs) | 3150 | 2400 | 2100 | 1200 | 1950"
+  },
+  {
+   "n": 50,
+   "q": "Ratio of expenditure of food and education is:",
+   "options": {
+    "a": "3:2",
+    "b": "2:3",
+    "c": "5:7",
+    "d": "7:5"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Same missing table as Q49. Recovered from the source PDF (p.6): Food 3150, Rent 2400, Education 2100, Savings 1200, Miscellaneous 1950.",
+   "passage": "Directions (Question Nos. 49 – 50): Study the given table and answer the question that follows. The expenditure for one month incurred by a family is given below:\nItem      | Food | Rent | Education | Savings | Miscellaneous\nAmount (in Rs) | 3150 | 2400 | 2100 | 1200 | 1950"
+  },
+  {
+   "n": 51,
+   "q": "What is the technology-enabled intelligence-sharing platform conceived after the 26/11 Mumbai attacks to overcome information silos which allows authorized agencies to query multiple database?",
+   "options": {
+    "a": "NDEM",
+    "b": "CMS",
+    "c": "NATGRID",
+    "d": "PALANTIR"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 52,
+   "q": "According to the Reserve Bank of India’s report, which two countries together accounted for over one-third of the total FDI in India according to 2024-25 report?",
+   "options": {
+    "a": "Japan and German",
+    "b": "Mauritius and United Kingdom",
+    "c": "Singapore and Netherlands",
+    "d": "United States and Singapore"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 53,
+   "q": "Which country will host Conference of Parties 31 (COP31) 2026?",
+   "options": {
+    "a": "USA",
+    "b": "Japan",
+    "c": "Maldives",
+    "d": "Turkey"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 54,
+   "q": "ISRO will begin 2026 with which mission?",
+   "options": {
+    "a": "CMS-03",
+    "b": "PSLV-C62",
+    "c": "LVM3-M6",
+    "d": "SpaDex"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 55,
+   "q": "Which is the first Indian state to implement one paid menstrual leave day per month for women in Government and Private sector?",
+   "options": {
+    "a": "Odisha",
+    "b": "Nagaland",
+    "c": "Karnataka",
+    "d": "Kerala"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 56,
+   "q": "Election of Lai Autonomous District Council (LADC) was recently conducted. The LADC was constituted on:",
+   "options": {
+    "a": "1972",
+    "b": "1986",
+    "c": "1982",
+    "d": "1954"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 57,
+   "q": "The ‘Doomsday Glacier’ one of the largest and fastest-changing glaciers on Earth is located at:",
+   "options": {
+    "a": "Greenland",
+    "b": "West Antarctica",
+    "c": "Alaska",
+    "d": "Patagonia"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 58,
+   "q": "Sovereign Gold Bond (SGB) scheme is an initiative of which institution?",
+   "options": {
+    "a": "RBI",
+    "b": "SEBI",
+    "c": "NITI Aayog",
+    "d": "Finance Ministry"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Arguably ambiguous: SGB is a Government of India scheme (announced in Budget 2015-16) issued by RBI on its behalf, so options (a) and (d) are both defensible.",
+   "passage": null
+  },
+  {
+   "n": 59,
+   "q": "Which one of these is not a staffing agency in India?",
+   "options": {
+    "a": "Cabinet Secretariat",
+    "b": "Economic Affairs Department",
+    "c": "Planning Commission",
+    "d": "Cabinet Committees"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 60,
+   "q": "What is meant by the term “Fomoflation” that was recently seen in news?",
+   "options": {
+    "a": "Inflation caused by increase in fuel prices",
+    "b": "Inflation caused by government monetary policy",
+    "c": "Inflation driven by customer psychology and fear of scarcity",
+    "d": "Inflation due to high production costs"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 61,
+   "q": "Who has been appointed as the 53rd Chief Justice of India (CJI)?",
+   "options": {
+    "a": "Justice B.R. Gavai",
+    "b": "Justice Surya Kant",
+    "c": "Justice D.Y. Chandrachud",
+    "d": "Justice Sanjiv Khanna"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 62,
+   "q": "The Chavang Kut Festival is mainly celebrated in which state?",
+   "options": {
+    "a": "Manipur",
+    "b": "Nagaland",
+    "c": "Mizoram",
+    "d": "Tripura"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 63,
+   "q": "What is the name of the weak zone of the Earth’s crust?",
+   "options": {
+    "a": "Formic zone",
+    "b": "Seismic zone",
+    "c": "Granitic zone",
+    "d": "Basaltic zone"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 64,
+   "q": "Which is the first nation to launch a 5G mobile network?",
+   "options": {
+    "a": "Japan",
+    "b": "United States",
+    "c": "South Korea",
+    "d": "China"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 65,
+   "q": "The first ISRO astronaut to visit the International Space Station while participating in Axiom Mission 4 was:",
+   "options": {
+    "a": "Rakesh Sharma",
+    "b": "Ajit Krishnan",
+    "c": "Shubhanshu Shukla",
+    "d": "Prasant Nair"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 66,
+   "q": "The United Nations has officially declared the year 2026 as the International Year of-",
+   "options": {
+    "a": "Sustainable Tourism for Development",
+    "b": "Glacier’s Preservation",
+    "c": "Rangelands and Pastoralists",
+    "d": "Food Security"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 67,
+   "q": "How long does Earth take to complete one full rotation on its axis?",
+   "options": {
+    "a": "24 hours 4 minutes",
+    "b": "24 hours exactly",
+    "c": "23 hours 56 minutes 4 seconds",
+    "d": "23 hours 59 minutes 40 seconds"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 68,
+   "q": "Bureau of Indian Standard (BIS), India’s National Standard Body came into force on:",
+   "options": {
+    "a": "1st April 1952",
+    "b": "1st April 1978",
+    "c": "1st April 1987",
+    "d": "1st April 1989"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 69,
+   "q": "Which Article of the Indian Constitution vests the ECI with complete control over the preparation of Electoral rolls and conduct of elections to Parliamentary, State Legislature and of the offices of the President and Vice President?",
+   "options": {
+    "a": "Article 243",
+    "b": "Article 324",
+    "c": "Article 325",
+    "d": "Article 342"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 70,
+   "q": "What percent of the broad-gauge network of the Indian Railways, the largest electrified rail network in the world, was electrified by November 2025?",
+   "options": {
+    "a": "98.3%",
+    "b": "99.1%",
+    "c": "99.2%",
+    "d": "99.6%"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified statistic: the November 2025 electrification percentage could not be confirmed independently, and 99.1 / 99.2 / 99.6 are within normal reporting variation of one another. Following the marked option as the best available evidence.",
+   "passage": null
+  },
+  {
+   "n": 71,
+   "q": "Who is the present Governor of Mizoram?",
+   "options": {
+    "a": "Hari Babu Kambhampati",
+    "b": "Vijay Kumar Singh",
+    "c": "P.S. Sreedharan Pillai",
+    "d": "Aziz Qureshi"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 72,
+   "q": "The unabbreviated form of FSDL, an Indian company established to operate the Indian Super League, is-",
+   "options": {
+    "a": "Federation of Soccer Developments Limited",
+    "b": "Football Sports Development Limited",
+    "c": "Football & Sports Development Limited",
+    "d": "Federation Soccer development Limited"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 73,
+   "q": "The Revolt of 1857 was started on May 10, 1857, in the city of Meerut. Present-day Meerut is in which state?",
+   "options": {
+    "a": "Delhi",
+    "b": "Bihar",
+    "c": "Uttarakhand",
+    "d": "Uttar Pradesh"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 74,
+   "q": "Which one of the following is not recognized as stock exchanges in India?",
+   "options": {
+    "a": "Bombay Stock Exchange (BSE)",
+    "b": "National Stock Exchange (NSE)",
+    "c": "Multi Commodity Exchange (MCE)",
+    "d": "Derivatives Exchange Commodity (DEC)"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 75,
+   "q": "‘A curve used for graphical representation of income inequality or wealth inequality’:",
+   "options": {
+    "a": "Kuznets Curve",
+    "b": "Phillip Curve",
+    "c": "Engel Curve",
+    "d": "Lorenz Curve"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 76,
+   "q": "How many days does a person need to work in a year to be eligible to register under the Mizoram Building & Other Construction Worker Welfare Board?",
+   "options": {
+    "a": "Not less than 60 days",
+    "b": "Not less than 90 days",
+    "c": "Not less than 80 days",
+    "d": "Not less than 70 days"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 77,
+   "q": "Who was the first chairman of the planning commission in India?",
+   "options": {
+    "a": "Dr Rajendra Prasad",
+    "b": "Sardar Vallabhbhai Patel",
+    "c": "Amartya Sen",
+    "d": "Jawaharlal Nehru"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 78,
+   "q": "Which of the following statements regarding AI platform is incorrect?",
+   "options": {
+    "a": "ChatGPT was developed by OpenAI",
+    "b": "Google Gemini was previously known as Bard.",
+    "c": "Microsoft copilot does not integrate the Microsoft ecosystem in its platforms",
+    "d": "Meta AI is available on Instagram."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 79,
+   "q": "Mission Shakti is implemented by which Ministry?",
+   "options": {
+    "a": "Ministry of Home Affairs",
+    "b": "Ministry of External Affairs",
+    "c": "Ministry of Health & Family Welfare",
+    "d": "Ministry of Women & Child Development"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 80,
+   "q": "Which type of seismic wave causes the most destruction?",
+   "options": {
+    "a": "S- waves",
+    "b": "P- waves",
+    "c": "Gamma waves",
+    "d": "Surface waves"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 81,
+   "q": "Indian Standard Time (IST) is ahead of Greenwich Mean Time (GMT) by:",
+   "options": {
+    "a": "5:00 Hours",
+    "b": "5:15 Hours",
+    "c": "5:30 Hours",
+    "d": "5:45 Hours"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 82,
+   "q": "Who is the first Mizo woman to summit Mt Everest?",
+   "options": {
+    "a": "Lalrinmawii",
+    "b": "Baryl Vanneihsangi",
+    "c": "Lalrintluangi",
+    "d": "Capt. Baby Lalduhsangi"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified Mizoram-specific fact; answer follows the source PDF's highlight only. Worth checking against a news report on Mizoram's first woman Everest summiteer.",
+   "passage": null
+  },
+  {
+   "n": 83,
+   "q": "What is the nodal agency in India responsible for monitoring and recording all earthquake activity?",
+   "options": {
+    "a": "National Institute for Seismology and Earth",
+    "b": "National Center for Seismology",
+    "c": "Indian Institute of Technology, Delhi",
+    "d": "National Center for Seismology & Earthquake"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 84,
+   "q": "Which of the following rights has not been interpreted as part of Article 21 by the Supreme Court?",
+   "options": {
+    "a": "Right to privacy",
+    "b": "Right to marry",
+    "c": "Right to shelter",
+    "d": "Right to vote"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 85,
+   "q": "The Government of India Act 1935 was based on the recommendation of:",
+   "options": {
+    "a": "Hunter Commission",
+    "b": "Wood’s  Despatch",
+    "c": "Whiteley Commission",
+    "d": "Simon Commission"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 86,
+   "q": "Which one of the following is not associated with Mahatma Gandhi?",
+   "options": {
+    "a": "Ahimsa",
+    "b": "Khalsa",
+    "c": "Satyagraha",
+    "d": "Mass mobilization"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 87,
+   "q": "Which cognizable offence according to Bharatiya Nagarik Suraksha Sanhita (BNSS) is incorrect?",
+   "options": {
+    "a": "Disrobing a woman",
+    "b": "Molestation",
+    "c": "Murder",
+    "d": "Defamation"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 88,
+   "q": "Indian federalism is based on the model of which country?",
+   "options": {
+    "a": "American Model",
+    "b": "North Korean Model",
+    "c": "French Model",
+    "d": "Canadian Model"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 89,
+   "q": "Which autonomous district council of Mizoram has been under Governor’s Rule since 7th July 2025?",
+   "options": {
+    "a": "Mara Autonomous District Council",
+    "b": "Chakma Autonomous District Council",
+    "c": "Lai Autonomous District Council",
+    "d": "Both (a) and (b) are correct"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "2025 current affairs that could not be verified; answer follows the source PDF's highlight only.",
+   "passage": null
+  },
+  {
+   "n": 90,
+   "q": "What are the primary colours of light?",
+   "options": {
+    "a": "Red Blue Green (RBG)",
+    "b": "Red Yellow Green (RYG)",
+    "c": "Red Blue Violet (RBV)",
+    "d": "Red Yellow Blue (RYB)"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 91,
+   "q": "Foot and mouth disease is caused by:",
+   "options": {
+    "a": "Fungus",
+    "b": "Bacteria",
+    "c": "Viruses",
+    "d": "Salmonella"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 92,
+   "q": "Stunted means:",
+   "options": {
+    "a": "Low birth rate",
+    "b": "Weight for height",
+    "c": "Low height for age",
+    "d": "Height for birth"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 93,
+   "q": "Which part of the human body produces insulin?",
+   "options": {
+    "a": "The pancreas",
+    "b": "The stomach",
+    "c": "The saliva",
+    "d": "The intestine"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 94,
+   "q": "Excessive consumption of calcium can lead to:",
+   "options": {
+    "a": "Cholera",
+    "b": "Diphtheria",
+    "c": "Hypothermia",
+    "d": "Kidney stones"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 95,
+   "q": "Who composed the song ‘ Hmanah kaisar lal lian’?",
+   "options": {
+    "a": "Pu Siamkunga",
+    "b": "Pu Patea",
+    "c": "Pu Chhuahkhama",
+    "d": "Pu Rokunga"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Unverified authorship of a Mizo song; answer follows the source PDF's highlight only.",
+   "passage": null
+  },
+  {
+   "n": 96,
+   "q": "In modern day Mizoram, where does one find ‘ Selesih sangsarih khua’?",
+   "options": {
+    "a": "Between Khawbung South and Zawlsei",
+    "b": "Between Farkawn and Vaphai",
+    "c": "Between Champhai and Vangchhia",
+    "d": "Between Vangchhia and Vanzau"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Unverified local-geography fact; all four options are plausible Champhai-area villages. Answer follows the source PDF's highlight only.",
+   "passage": null
+  },
+  {
+   "n": 97,
+   "q": "In which year did the Mizo National Front revolt against the Government of India?",
+   "options": {
+    "a": "1965",
+    "b": "1966",
+    "c": "1967",
+    "d": "1968"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 98,
+   "q": "Who founded the Lakher Pioneer Mission?",
+   "options": {
+    "a": "JH Lorrain",
+    "b": "RA Lorrain",
+    "c": "FW Savidge",
+    "d": "TH Lewin"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 99,
+   "q": "Thangfenpa Bawp bird is also known as:",
+   "options": {
+    "a": "Dodo",
+    "b": "Indian dodo",
+    "c": "Indian cuckoo",
+    "d": "Himalayan pheasant"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified Mizo bird name; answer follows the source PDF's highlight only.",
+   "passage": null
+  },
+  {
+   "n": 100,
+   "q": "Mizo ‘Suankual’ is a type of:",
+   "options": {
+    "a": "Iron thong",
+    "b": "Iron tong",
+    "c": "Brass plate",
+    "d": "A huge brass container commonly used in the kitchen"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Defective options: (a) 'Iron thong' and (b) 'Iron tong' are the same item with a one-letter typo, so two options are equally defensible. Option (d) also carries the stray end-of-paper marker '* * * * * * *'. Answer follows the source PDF's highlight.",
+   "passage": null
+  }
+ ]
+}

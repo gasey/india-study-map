@@ -1,0 +1,1409 @@
+{
+ "exam": "Research Investigator (May 2026)",
+ "paper": "Paper II (General Knowledge, Aptitude & Reasoning)",
+ "series": null,
+ "date": "May 2026",
+ "totalQuestionsStated": 100,
+ "questions": [
+  {
+   "n": 1,
+   "q": "Which country given below is not a member of BRICS grouping?",
+   "options": {
+    "a": "Brazil",
+    "b": "Egypt",
+    "c": "Argentina",
+    "d": "Indonesia"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 2,
+   "q": "The ‘Schengen Zone’, recently seen in the news, is a zone related to:",
+   "options": {
+    "a": "a passport-free travel and borderless zone in Europe",
+    "b": "an economic region comprising European countries that has a Free Trade Agreement between them",
+    "c": "an economic and geographic region comprising European Union countries that use the Euro as their national currency",
+    "d": "a territorial disputed region between UK and other EU countries situated in the Atlantic ocean."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 3,
+   "q": "With reference to the e-Rupee issued by the Reserve Bank of India, consider: 1.It is a sovereign digital currency and legal tender. 2.It eliminates the need for commercial banks in the financial system. 3.It can be used for both wholesale and retail transactions.",
+   "options": {
+    "a": "1 and 3 only",
+    "b": "2 and 3 only",
+    "c": "1 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 4,
+   "q": "The name of the spacecraft used by NASA for their recent lunar program is:",
+   "options": {
+    "a": "Artemis-I",
+    "b": "Artemis-II",
+    "c": "Orion",
+    "d": "Skylab"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 5,
+   "q": "How many teams will participate in the 2026 FIFA World Cup ?",
+   "options": {
+    "a": "32",
+    "b": "36",
+    "c": "42",
+    "d": "48"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 6,
+   "q": "Government of Mizoram recently signed Memorandum of Settlement (MoS) with:",
+   "options": {
+    "a": "HPC",
+    "b": "HPC-D",
+    "c": "HPC-D (LF)",
+    "d": "HPC-D (LS)"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 7,
+   "q": "Gandhiji attended which of the following Round Table Conference (RTC)? 1.First RTC 2.Second RTC 3.Third RTC Select the correct answer using the code given below.",
+   "options": {
+    "a": "1 only",
+    "b": "2 and 3 only",
+    "c": "2 only",
+    "d": "None"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 8,
+   "q": "The Battle of Chinsurah was one of the decisive battles in the struggle among European powers in India. It was fought between which of the following countries?",
+   "options": {
+    "a": "The Dutch and the British",
+    "b": "The French and the British",
+    "c": "The Portuguese and the British",
+    "d": "The Danes and the Dutch"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 9,
+   "q": "The Poona Pact of 1932 was related to which of the following?",
+   "options": {
+    "a": "response to the Simon Commission Report",
+    "b": "settlement of differences arising out of the Communal Award",
+    "c": "opposition to the Nehru Report",
+    "d": "negotiations at the First Round Table Conference"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 10,
+   "q": "Kalidasa was a poet of ?",
+   "options": {
+    "a": "Maurya empire",
+    "b": "Gupta empire",
+    "c": "Mughal empire",
+    "d": "British India"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 11,
+   "q": "Who among the following Sikh Gurus laid the foundation of the Khalsa Panth ?",
+   "options": {
+    "a": "Guru Nanak",
+    "b": "Guru Arjan",
+    "c": "Guru Gobind Singh",
+    "d": "Guru Hargobin"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 12,
+   "q": "“Jai Hind” slogan was adopted by?",
+   "options": {
+    "a": "Netaji Subhas Chandra Bose",
+    "b": "Mahatma Gandhi",
+    "c": "Bal Gangadhar Tilak",
+    "d": "Sardar Patel"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 13,
+   "q": "Which phase of population growth in India is referred to as the period of “Population Explosion”?",
+   "options": {
+    "a": "1901–1921",
+    "b": "1921–1951",
+    "c": "1951-1981",
+    "d": "1981-Present"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 14,
+   "q": "With reference to nuclear fuel, consider the following statements: 1.India has more uranium reserves than thorium reserves. 2.Jharkhand has the largest Thorium reserves in India. Which of the above statements are correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 15,
+   "q": "With reference to the Strait of Hormuz, consider the following statements: 1.It connects the Persian Gulf with the Arabian Sea through the Gulf of Oman. 2.It lies entirely within the territorial waters of Iran. 3.A significant portion of global crude oil trade passes through it. Which of the statements given above are correct?",
+   "options": {
+    "a": "1 and 2 only",
+    "b": "1 and 3 only",
+    "c": "2 and 3 only",
+    "d": "All of the above"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 16,
+   "q": "Nights are cooler in the deserts than in the plains because:",
+   "options": {
+    "a": "Sand radiates heat more quickly than the earth",
+    "b": "The sky remains clear most of the time",
+    "c": "Sand absorbs heat more quickly than the earth",
+    "d": "The sky is generally cloudy"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 17,
+   "q": "Which of the following mountain ranges do Mizoram belongs to:",
+   "options": {
+    "a": "Aravali Range",
+    "b": "Barail Range",
+    "c": "Purvanchal Range",
+    "d": "Satpura Range"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 18,
+   "q": "Tropic of cancer passes through ___ Indian states.",
+   "options": {
+    "a": "7",
+    "b": "8",
+    "c": "9",
+    "d": "10"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 19,
+   "q": "The expression Union of India under Article 1 of the Indian constitution include(s) which of the following? 1.States 2.Union Territories 3.Territories that India may acquire in the future Select the correct answer using the code given below.",
+   "options": {
+    "a": "1 only",
+    "b": "1 and 2 only",
+    "c": "2 and 3 only",
+    "d": "1,2 and 3"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 20,
+   "q": "With reference to the tenure of municipalities under the 74th Constitutional Amendment Act, 1992, consider the following statements: 1.Every municipality has a five-year term from its first meeting, unless dissolved earlier. 2.A municipality reconstituted after premature dissolution enjoys a fresh full term of five years. Which of the statements given above is/are correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 21,
+   "q": "Which Amendment Act is referred as ‘mini constitution’?",
+   "options": {
+    "a": "7th Constitutional Amendment Act, 1956",
+    "b": "24th Constitutional Amendment Act, 1971",
+    "c": "42nd Constitutional Amendment Act, 1976",
+    "d": "44th Constitutional Amendment Act, 1978"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 22,
+   "q": "India celebrated its ________ Republic Day on 26th January, 2026",
+   "options": {
+    "a": "75th",
+    "b": "76th",
+    "c": "77th",
+    "d": "78th"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 23,
+   "q": "The full form of  NITI Aayog is:",
+   "options": {
+    "a": "National Idea for Transforming India",
+    "b": "National Innovation for Transforming India",
+    "c": "National Institute for Transforming India",
+    "d": "National Institution for Transforming India"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 24,
+   "q": "Which one of the following states has a seat reserved in the Legislative Assembly on the basis of religion?",
+   "options": {
+    "a": "Goa",
+    "b": "Sikkim",
+    "c": "Jammu & Kashmir",
+    "d": "Uttar Pradesh"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 25,
+   "q": "The term ‘Ways and Means Advances (WMA)’, sometimes seen in the news, refers to:",
+   "options": {
+    "a": "A mechanism by the Reserve Bank of India to provide short-term credit to governments to",
+    "b": "A long-term fiscal deficit financing tool through issuance of treasury bonds",
+    "c": "A special window for commercial banks to borrow funds to meet capital adequacy norms",
+    "d": "A subsidy scheme launched by the Government of India to support state finances"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 26,
+   "q": "Which of the following is a key feature of demographic dividend?",
+   "options": {
+    "a": "Declining working-age population",
+    "b": "High dependency ratio",
+    "c": "Increase in working-age population relative to dependents",
+    "d": "Rising infant mortality"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 27,
+   "q": "With reference to the Viksit Bharat—Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB-G RAM G) Act, 2025, consider the following statements: 1.It replaces the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) with a new statutory framework aligned with Viksit Bharat 2047 2.It increases guaranteed wage employment from 100 to 150 days per rural household annually. Which of the statements given above is/are correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Unverified 2025 current affairs: the guaranteed-days provision of the VB-G RAM G Act could not be checked against a source. Answer follows the marked option.",
+   "passage": null
+  },
+  {
+   "n": 28,
+   "q": "Who is the chairman of the 16th Finance Commission of India ?",
+   "options": {
+    "a": "Ajay Narayan Jha",
+    "b": "Dr. Niranjan Rajadhyaksha",
+    "c": "Dr. Arvind Panagariya",
+    "d": "Dr. Soumya Kanti Ghosh"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 29,
+   "q": "Which of the following are declared ‘fully literate states’ in 2025 ?",
+   "options": {
+    "a": "Mizoram, Goa, Tripura, Himachal Pradesh",
+    "b": "Mizoram, Goa, Kerala, Himachal Pradesh",
+    "c": "Mizoram, Goa, Ladakh, Himachal Pradesh",
+    "d": "Mizoram, Goa, Tripura, Kerala"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 30,
+   "q": "The United Nation’s 17 Sustainable Development Goals (SDGs) are the plan to build a better world for people and our planet by:",
+   "options": {
+    "a": "2030",
+    "b": "2035",
+    "c": "2045",
+    "d": "2047"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 31,
+   "q": "Which of the following is not the ex-situ methods of biodiversity conservation?",
+   "options": {
+    "a": "Botanical Garden",
+    "b": "Zoo",
+    "c": "Biosphere Reserves",
+    "d": "Aquariums"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 32,
+   "q": "Recently, which of the following was added as India’s 13th site to UNESCO’s World Network of Biosphere Reserves?",
+   "options": {
+    "a": "Dehang-Dibang Biosphere Reserve",
+    "b": "Cold Desert Biosphere Reserve",
+    "c": "Sundarbans Biosphere Reserve",
+    "d": "Nanda Devi Biosphere Reserve"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 33,
+   "q": "With respect to Stockholm Convention, consider the following statements: 1.Stockholm Convention is a legally binding international agreement to protect human health and environment from Persistent Organic Pollutants (POPs). 2.At present, 12 chemicals are covered under the Stockholm Convention Which of the statements given above are correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 34,
+   "q": "Which one of the following is considered to be the purest source of water?",
+   "options": {
+    "a": "River water",
+    "b": "Well water",
+    "c": "Rain Water",
+    "d": "Sea water"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 35,
+   "q": "How many National Parks are there in Mizoram ?",
+   "options": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 36,
+   "q": "Green Mizoram Day is observed on:",
+   "options": {
+    "a": "22nd March",
+    "b": "22nd April",
+    "c": "11th May",
+    "d": "11th June"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 37,
+   "q": "The term ‘Kessler Syndrome’ refers to a situation in which:",
+   "options": {
+    "a": "intense solar activity disrupts satellite communication systems",
+    "b": "Failure of Earth’s magnetic field results in increased solar radiation exposure on satellites",
+    "c": "Excessive launch of rockets causes depletion of atmospheric oxygen in upper layers",
+    "d": "orbital debris accumulation triggers cascading satellite collisions"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 38,
+   "q": "In the context of gravitational force and electromagnetic force, consider the following statements: 1.While gravitational force is always attractive, electromagnetic force can be both attractive and repulsive. 2.While gravitational force is only dependent on mass, the electromagnetic force is dependent on both mass and charge. 3.While gravitational force is dependent upon the distance between the two bodies, the electromagnetic force is independent of it. Which of the statements given above is/are correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 39,
+   "q": "What type of lens is used in a magnifying glass?",
+   "options": {
+    "a": "Bifocal lens",
+    "b": "Macro lens",
+    "c": "Concave lens",
+    "d": "Convex lens"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 40,
+   "q": "What is the chemical name of vinegar ?",
+   "options": {
+    "a": "Citric acid",
+    "b": "Acetic acid",
+    "c": "Pyruvic acid",
+    "d": "Malic acid"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 41,
+   "q": "In humans, which chamber of the heart receives oxygen-rich blood from the lungs first?",
+   "options": {
+    "a": "Left atrium",
+    "b": "Right atrium",
+    "c": "Left ventricle",
+    "d": "Right ventricle"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 42,
+   "q": "Saliva helps in the digestion of:",
+   "options": {
+    "a": "Fats",
+    "b": "Proteins",
+    "c": "Vitamins",
+    "d": "Starch"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 43,
+   "q": "Practice of nomadism was prevalent in early Mizo history. This practice of migrating from one settlement to another settlement is known as",
+   "options": {
+    "a": "Ram tuk rel",
+    "b": "Ram zuan",
+    "c": "Khawkhawm",
+    "d": "Ram lak"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 44,
+   "q": "Which of the following dance was performed to celebrate victory in warfare, intended to honour the victor and ensure the vanquished foe’s spirit remained a slave to the victor?",
+   "options": {
+    "a": "Cheraw",
+    "b": "Khuallam",
+    "c": "Solakia/Sarlamkai",
+    "d": "Chailam"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 45,
+   "q": "A Monograph on Lushai Customs and Ceremonies was written by:",
+   "options": {
+    "a": "J. Shakespear",
+    "b": "N.E. Parry",
+    "c": "T.H. Lewin",
+    "d": "A.G. Woodthrope"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 46,
+   "q": "In the context of Mizo history, in which year did the first major “Lushai Expedition” took place?",
+   "options": {
+    "a": "1871–1872",
+    "b": "1873-1874",
+    "c": "1851-1852",
+    "d": "1901-1902"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 47,
+   "q": "Who introduced the land settlement in the Lushai Hills?",
+   "options": {
+    "a": "G.H.Loch",
+    "b": "A.H. Scott",
+    "c": "J.Shakespeare",
+    "d": "Mac Donald"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified: which colonial officer introduced the land settlement in the Lushai Hills could not be confirmed; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 48,
+   "q": "‘Awkpaka’ in Mizo traditional society relates with:",
+   "options": {
+    "a": "Zawlbuk",
+    "b": "Lal In",
+    "c": "Pum",
+    "d": "Thlam"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Unverified Mizo-language term; answer follows the source highlight rather than a checked definition.",
+   "passage": null
+  },
+  {
+   "n": 49,
+   "q": "The first Mizo officer to receive the Kirti Chakra was:",
+   "options": {
+    "a": "Captain Lalrinawma Sailo",
+    "b": "Gunner Lallawmzuala",
+    "c": "Lt. Col. Clement Lalhmingthanga",
+    "d": "Lt. Col. Laldinpuia"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Unverified: the first Mizo officer to receive the Kirti Chakra could not be confirmed; answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 50,
+   "q": "Mizo Academy of Letters (MAL) ‘Book of the Year 2025’ is:",
+   "options": {
+    "a": "Mizo Lal Zakapa",
+    "b": "April Fool",
+    "c": "Kham leh Suar",
+    "d": "Chhuk leh Chho"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified 2025 current-affairs fact (MAL Book of the Year); answer follows the source highlight.",
+   "passage": null
+  },
+  {
+   "n": 51,
+   "q": "If a+b=6and ab=6, then the value of a²+b²is:",
+   "options": {
+    "a": "24",
+    "b": "0",
+    "c": "12",
+    "d": "30"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 52,
+   "q": "If x>3, then which is always true? 1.x²>9 2.2x+1>7 3.x²−6x+9>0",
+   "options": {
+    "a": "1 only",
+    "b": "1 and 2 only",
+    "c": "1 and 3 only",
+    "d": "All of the above"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 53,
+   "q": "A solid hemisphere has radius r. If melted and recast into a cylinder of same radius, height will be:",
+   "options": {
+    "a": "2r/3",
+    "b": "r/3",
+    "c": "4r/3",
+    "d": "r"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 54,
+   "q": "10 workers can complete a piece of work in 20 days. After 5 days, 4 workers leave the job. How many more days will it take to complete the remaining work?",
+   "options": {
+    "a": "20 days",
+    "b": "22 days",
+    "c": "25 days",
+    "d": "30 days"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 55,
+   "q": "The product of digits of a two-digit number is 18. If the digits are reversed, the new number is 27 more than the original number. The number is:",
+   "options": {
+    "a": "36",
+    "b": "63",
+    "c": "54",
+    "d": "45"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 56,
+   "q": "A triangle is inscribed in a semicircle with diameter AB. If C is any point on the semicircle, then ∠ACB is:",
+   "options": {
+    "a": "30°",
+    "b": "45°",
+    "c": "60°",
+    "d": "90°"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 57,
+   "q": "A cylindrical tank has radius 7 m and height 10 m. If it is filled with water up to 70%, the volume of water is:",
+   "options": {
+    "a": "1078 m³",
+    "b": "1078.6 m³",
+    "c": "1080 m³",
+    "d": "1085 m³"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 58,
+   "q": "The first term of an Arithmetic Progression is 50 and has a common difference of -3.What is the 12th term?",
+   "options": {
+    "a": "17",
+    "b": "18",
+    "c": "19",
+    "d": "20"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 59,
+   "q": "From a point, angle of elevation of top of tower is 30°. After moving 20 m towards tower, angle becomes 60°. Height of tower is:",
+   "options": {
+    "a": "10√3 m",
+    "b": "20 m",
+    "c": "20√3 m",
+    "d": "30 m"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 60,
+   "q": "If the difference between simple interest for 2 years at 5% p.a. on a certain amount and compound interest for 2 years at 6.25% p.a. on the same amount compounded annually is Rs. 37, find the principal amount.",
+   "options": {
+    "a": "Rs. 1190",
+    "b": "Rs. 1480",
+    "c": "Rs. 1570",
+    "d": "Rs. 1280"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 61,
+   "q": "A shopkeeper buys 50 identical items at a total cost of Rs. 1000. He sells 30 of these items at a 20% profit and the remaining 20 items at a 10% loss. Calculate the overall profit or loss percentage.",
+   "options": {
+    "a": "10%",
+    "b": "6%",
+    "c": "12%",
+    "d": "8%"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 62,
+   "q": "How many five-digit prime numbers can be obtained by using all the digits 1, 2, 3, 4 and 5 without repetition of digits?",
+   "options": {
+    "a": "Zero",
+    "b": "One",
+    "c": "Nine",
+    "d": "Ten"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 63,
+   "q": "If n is a natural number, then7²ⁿ−1 is divisible by: ()",
+   "options": {
+    "a": "7",
+    "b": "24",
+    "c": "15",
+    "d": "21"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 64,
+   "q": "A father is three times as old as his son. After 12 years, the father’s age will be twice that of his son’s age. What are the present ages of the father and the son respectively?",
+   "options": {
+    "a": "24, 8",
+    "b": "36, 12",
+    "c": "21, 7",
+    "d": "30, 8"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 65,
+   "q": "There are six numbers forming a Geometric Progression series. If the 4th term is greater than the 2nd by 6 and the 5th term is greater than the 3rd by 24, then find the difference between the 2nd term and the 4th term.",
+   "options": {
+    "a": "2",
+    "b": "4",
+    "c": "6",
+    "d": "8"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "OCR-garbled stem: the ordinals collapsed into 'by 6 thrdndth and 5 term is greater than 3 term by 24'. Reconstructed as 4th-2nd = 6 and 5th-3rd = 24, on which reading the question asks for a quantity it already supplies. No other option (1.5, 24, 96) is reachable from the data, so 6 is safe, but the wording is worth checking against the source PDF.",
+   "passage": null
+  },
+  {
+   "n": 66,
+   "q": "How many zeros are there at the end of the following product? 24 × 32 × 17 × 23 × 19",
+   "options": {
+    "a": "Zero",
+    "b": "Five",
+    "c": "Four",
+    "d": "Sixteen"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 67,
+   "q": "Liani drove 50 km towards east from a city ‘P’ and then turned right and drove another 30 km. Now she turned to her left and drove another 30 km. Finally she turned to her right and drove 30 km to reach a city ‘Q’. Find the shortest straight distance between cities P and Q.",
+   "options": {
+    "a": "100 km",
+    "b": "140 km",
+    "c": "120 km",
+    "d": "80 km"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 68,
+   "q": "Which one of the following is different in some sense?",
+   "options": {
+    "a": "Lion",
+    "b": "Cat",
+    "c": "Tiger",
+    "d": "Leopard"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 69,
+   "q": "If LIFE is coded as DEHK and NEXT is coded as SWDM, how will FINE be coded ?",
+   "options": {
+    "a": "DEHM",
+    "b": "MDHE",
+    "c": "DMHE",
+    "d": "EHMD"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 70,
+   "q": "Find the number of triangles in the given figure:",
+   "options": {
+    "a": "18",
+    "b": "16",
+    "c": "17",
+    "d": "14"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Missing figure: the stem says 'the given figure' but no diagram was extracted, so the count is unverifiable. Answer follows the source highlight only; needs the source PDF.",
+   "passage": null
+  },
+  {
+   "n": 71,
+   "q": "LIGHT:BLIND",
+   "options": {
+    "a": "speech:dumb",
+    "b": "language:deaf",
+    "c": "tongue:sound",
+    "d": "voice:vibration"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "DIRECTIONS (Question No. 71 & 72) : Each question consist of two words which have a certain"
+  },
+  {
+   "n": 72,
+   "q": "PAIN:SEDATIVE",
+   "options": {
+    "a": "comfort:stimulant",
+    "b": "grief:consolation",
+    "c": "trance:narcotic",
+    "d": "ache:extraction"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 73,
+   "q": "There are deer and peacocks in a zoo. By counting heads they are 80. The number of their legs is 200. How many peacocks are there?",
+   "options": {
+    "a": "20",
+    "b": "30",
+    "c": "50",
+    "d": "60"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 74,
+   "q": "A hater of knowledge and learning is:",
+   "options": {
+    "a": "Bibliophile",
+    "b": "Philologist",
+    "c": "Misologist",
+    "d": "Misogynist"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 75,
+   "q": "Statements: I.All apples are bananas II.All bananas are sweet Conclusions: I.Some apples are sweet II.Some bananas are apples",
+   "options": {
+    "a": "Only conclusion I follows",
+    "b": "Only conclusion II follows",
+    "c": "Either conclusion I or II follows",
+    "d": "Both conclusions I and II follows"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "DIRECTIONS (Question No. 75) : In question No. 75, two statements are given followed by two"
+  },
+  {
+   "n": 76,
+   "q": "Arrange the following words in their ascending order : 1.Millenium2.Diamond jubilee 3.Silver jubilee4.Centenary 5.Golden jubilee",
+   "options": {
+    "a": "3, 5, 2, 4, 1",
+    "b": "2, 3, 5, 4, 1",
+    "c": "2, 5, 3, 1, 4",
+    "d": "2, 3, 5, 1, 4"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 77,
+   "q": "Ruata travels from Aizawl to Lunglei at a speed of 40 km/h and returns to Aizawl at a speed of 60 km/h. The average speed for the whole journey is:",
+   "options": {
+    "a": "50 km/h",
+    "b": "42 km/h",
+    "c": "48 km/h",
+    "d": "54 km/h"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 78,
+   "q": "If 17²⁰⁰ is divided by 18, the remainder is:",
+   "options": {
+    "a": "1",
+    "b": "2",
+    "c": "16",
+    "d": "17"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 79,
+   "q": "The average monthly income of A and B is ₹15,050/-, the average monthly income of B and C is ₹15,350/-, and the average monthly income of A and C is ₹15,200/-. The monthly income of A is:",
+   "options": {
+    "a": "₹15,900/-",
+    "b": "₹15,200/-",
+    "c": "₹15,500/-",
+    "d": "₹14,900/-"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 80,
+   "q": "The LCM and HCF of two numbers are 35 and 15 respectively. The product of these numbers is:",
+   "options": {
+    "a": "625",
+    "b": "525",
+    "c": "425",
+    "d": "325"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Invalid data as printed: HCF must divide LCM, but 15 does not divide 35, so no two integers have this LCM/HCF pair. The formula still gives 525 uniquely so the intended answer is unambiguous, but the question is mathematically unsound - worth verifying the figures against the source PDF.",
+   "passage": null
+  },
+  {
+   "n": 81,
+   "q": "How many times in a day the hands of a clock are straight?",
+   "options": {
+    "a": "22",
+    "b": "24",
+    "c": "42",
+    "d": "44"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 82,
+   "q": "A company produces red, green and blue buckets in the ratio of 2:7:4. If a week’s production totals 7774 buckets, how many green buckets are produced?",
+   "options": {
+    "a": "1110",
+    "b": "4186",
+    "c": "6663",
+    "d": "1196"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 83,
+   "q": "A bag contains 6 black and 8 white balls. One ball is drawn at random. What is the probability that the ball drawn is white?",
+   "options": {
+    "a": "3/4",
+    "b": "4/7",
+    "c": "1/8",
+    "d": "9/52"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 84,
+   "q": "A rectangular parking space is marked out by painting three of its sides. If the length of the unpainted side is 9 feet, and the sum of the lengths of the painted sides is 37 feet, then what is the area of the parking space in square feet?",
+   "options": {
+    "a": "46",
+    "b": "81",
+    "c": "126",
+    "d": "252"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 85,
+   "q": "What is the sum of all angles in any quadrilateral?",
+   "options": {
+    "a": "180°",
+    "b": "270°",
+    "c": "360°",
+    "d": "540°"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 86,
+   "q": "Which formula is used to find distance between two points?",
+   "options": {
+    "a": "x + y",
+    "b": "√(x² + y²)",
+    "c": "√[(x₂ − x₁)² + (y₂ − y₁)²]",
+    "d": "x² + y²"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 87,
+   "q": "If a line from the centre bisects a chord, then it is:",
+   "options": {
+    "a": "Secant",
+    "b": "Tangent",
+    "c": "Equal to the chord",
+    "d": "Perpendicular to the chord"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 88,
+   "q": "In an equilateral triangle:",
+   "options": {
+    "a": "One angle is 90°",
+    "b": "Only two sides are equal",
+    "c": "Each angle is 60°",
+    "d": "All sides are unequal"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "OCR artifact: option (d) reads \"All sides are unequal 50403020\". The trailing digits are bleed-through of the exponents 50/40/30/20 that belong to Q89's options and are not part of this option.",
+   "passage": null
+  },
+  {
+   "n": 89,
+   "q": "The greatest number among 3⁵⁰, 4⁴⁰, 5³⁰, and 6²⁰ is:",
+   "options": {
+    "a": "3⁵⁰",
+    "b": "6²⁰",
+    "c": "5³⁰",
+    "d": "4⁴⁰"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Extraction damage: the stem should read \"the greatest number among 3⁵⁰, 4⁴⁰, 5³⁰ and 6²⁰\" and the options are powers, not plain integers. As currently stored (\"greatest among 3, 4, 5, and 6\" with options 350/620/530/440) the question is nonsense — restore the superscripts from the source PDF before publishing.",
+   "passage": null
+  },
+  {
+   "n": 90,
+   "q": "The following numbers form a series that follows a certain pattern. Find the odd one out. 53, 57, 66, 82, 110, 143, 192",
+   "options": {
+    "a": "57",
+    "b": "82",
+    "c": "110",
+    "d": "143"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 91,
+   "q": "A is taller than B but shorter than C. D is shorter than B but taller than E. F is taller than C. Who is the second tallest person?",
+   "options": {
+    "a": "A",
+    "b": "C",
+    "c": "F",
+    "d": "B"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 92,
+   "q": "Find the missing number: 3, 8, 15, 24, 35, ?",
+   "options": {
+    "a": "46",
+    "b": "48",
+    "c": "50",
+    "d": "52"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 93,
+   "q": "If $ means ‘divided by’; @ means ‘multiplied by’; # means ‘minus’, then the value of 39#4$2@3 is:",
+   "options": {
+    "a": "27",
+    "b": "6",
+    "c": "22",
+    "d": "33"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 94,
+   "q": "If ‘-’ stands for addition, ‘+’ stands for division, ‘÷’ stands for multiplication, and ‘×’ stands for subtraction, which one of the following equations is correct?",
+   "options": {
+    "a": "15÷5×8-2 = 69",
+    "b": "16+5-7÷9 = 40",
+    "c": "15÷6×8-2 = 33",
+    "d": "18+8÷4×11 = 19"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 95,
+   "q": "Which of the following Venn Diagrams best indicates the relation among Rice, Glass and Food?",
+   "options": {
+    "a": "Three circles of equal size in a vertical chain, each overlapping the next",
+    "b": "One large circle containing two separate small circles side by side",
+    "c": "One large circle containing a smaller circle, with a third circle wholly outside",
+    "d": "Three equal circles in a horizontal row, each touching the next"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 96,
+   "q": "Consider the following sequence: E A D G U I H E U O F C A E H F C H E O B D C D I F How many vowels are followed by a vowel in the above sequence?",
+   "options": {
+    "a": "5",
+    "b": "6",
+    "c": "7",
+    "d": "8"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 97,
+   "q": "A and B are a married couple, A being the male member. D is the only son of C, who is the brother of A. E is the sister of D. B is the daughter-in-law of F. How is D related to B?",
+   "options": {
+    "a": "Uncle",
+    "b": "Nephew",
+    "c": "Father",
+    "d": "Maternal Uncle"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 98,
+   "q": "Which one does not belong to the group?",
+   "options": {
+    "a": "Triangle",
+    "b": "Square",
+    "c": "Circle",
+    "d": "Cylinder"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 99,
+   "q": "Select the figure that will come next in the following series,",
+   "options": {
+    "a": "Hexagon with a filled dot at upper left and a short double line on the lower right edge",
+    "b": "Hexagon with a filled dot at lower left and a short double line on the upper right edge",
+    "c": "Hexagon with a small hollow circle at upper left and a double line on the upper right edge",
+    "d": "Hexagon with a filled dot at upper left and a double line on the upper right edge"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Missing figure: the four-box series and the option figures are images absent from the extracted text, so the question is unanswerable as stored. Answer follows the PDF highlight only — needs the original figure before it is trusted.",
+   "passage": null
+  },
+  {
+   "n": 100,
+   "q": "Two positions of a dice are shown below (i) and (ii). When 1 is at the top, which number will be at the bottom?",
+   "options": {
+    "a": "2",
+    "b": "3",
+    "c": "5",
+    "d": "cannot be determined"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Missing figure: dice positions (i) and (ii) are absent from the extracted text, making the question unanswerable as stored. Option (d) also carries OCR noise (\"cannot be determined * * * * * * *\"). Answer follows the PDF highlight only.",
+   "passage": null
+  }
+ ]
+}

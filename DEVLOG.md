@@ -9,6 +9,94 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep module for the MUDAL System Manager post
+
+**What shipped:** a new `/interview` route (`src/modules/interview/InterviewPage.tsx`
++ `src/data/interview/questions.ts`), registered as an "Exam guides" entry in
+`registry.ts` under the id `interview`. 11 categories, 70 questions, each with
+"key points to hit" rather than scripted answers — About You & Background,
+MUDAL & UD&PA Organisation, Local & Current Affairs, then the five Technical
+Paper I/II syllabus units (Fundamentals & OS, MS Office, Networking, DBMS,
+Web Tech, Cyber Security & AI, IT Governance), plus Scenario/Situational.
+Content is personal — tied to the actual candidate's DILRMP, Shiksha, India
+Study Map, and MPSC Question Bank background, not generic interview
+boilerplate. "Reviewed" checkbox state persists to its own localStorage key
+(`interview-reviewed-v1`) rather than the global Zustand store, since it's
+personal study progress the rest of the app has no reason to depend on.
+
+**Why:** the candidate is interviewing for MUDAL System Manager (written exam
+already passed) and asked for likely questions to live inside the app itself
+rather than as a one-off chat message, so it's revisable like the rest of the
+exam-prep content here.
+
+**What's still open:** the Local & Current Affairs category has one item
+explicitly flagged unverified (AMC ward number / Local Council President for
+Chanmari) — a research gap, not a data-entry gap, left in the content
+on purpose so it isn't mistaken for a confirmed fact. Verified via typecheck
+(`tsc --noEmit` clean) and a real browser session (dev server on :5174):
+expand/collapse, per-question review checkbox, category/global reviewed
+counters, and localStorage persistence across a full page reload all
+confirmed working. Progress was reset to 0 before ending the session.
+
+---
+
+## 2026-09-21 — Quick Revision: imported all of Practice Hub 2's MCQs (803 questions, 10 papers)
+
+**What shipped:** Quick Revision went from 4 papers (320 questions, August 2026
+sitting) to 14 papers (1,123 questions, five sittings spanning January–August
+2026), by importing every MCQ from Practice Hub 2 — Circle Officer, Junior
+Administrative Officer, Assistant LESO, Research Investigator, SI Statistics —
+into Quick Revision's own schema and render format, so they browse/reveal/mock
+exactly like the original four papers.
+
+The two modules use different per-question shapes for the same idea (a
+booklet-marked MCQ), so a straight copy wasn't possible. New
+`tools/quick-revision-build/import_ph2.py` maps one onto the other: `opts` →
+`options`, the booklet's `marked` letter → `answer` (falling back to the
+resolved `answer` when nothing was marked), a `marked`/`answer` disagreement →
+a `dispute` object (dropping Practice Hub 2's `conf` rating — Quick Revision has
+no confidence-badge concept), `flag` → `note`, per-question `direction` text →
+`passage`, and `**word**` markdown-bold → a plain stem plus a `focus` field
+(same underline mechanism the hand-transcribed papers already use). Practice
+Hub 2's `descriptive` array (essay/letter/précis prompts) has no counterpart in
+Quick Revision's schema and is dropped — disclosed per-paper via a note on the
+paper card, the same pattern the existing `PART_A_NOTE` already used for the
+hand-transcribed English papers' own dropped Part-A.
+
+Small, necessary extension to `build.py` (not just the importer): it can now
+read a `focus` field and a `dispute` object directly off a staged question,
+and `check` (the per-paper review-file pointer) is now optional — the
+imported papers carry their dispute inline rather than through a separate
+`checks/*.json` findings file, since that review already happened as part of
+Practice Hub 2's own pipeline.
+
+Question numbers in the imported papers are renumbered 1..N in source order,
+not carried over from Practice Hub 2's `id`/`n` — Practice Hub 2 reuses one
+printed number across a passage's vocabulary sub-parts (e.g. Circle Officer
+Paper I has `n=4` on three different questions: two Part-A vocab-in-context
+items plus an unrelated Part-B question), which would collide with Quick
+Revision's use of `n` as both the on-screen number and the storage key.
+
+Verified by loading `/embed/quick-revision` in-browser: all 14 papers list
+with correct counts, a Circle Officer English question renders with its
+passage/direction box and underlined focus word, a genuine dispute (Circle
+Officer Q49: booklet marked (d), review says (c) is correct) shows the
+"Looks wrong" caution with the full explanation, and a misprint `note` renders
+as "Note on the booklet: ...".
+
+**Why:** asked directly — bring every Practice Hub 2 question into Quick
+Revision, in Quick Revision's own format, so all of it is reachable from one
+lighter-weight revision surface instead of two separate apps.
+
+**What's still open:** the renumbering means the imported papers' on-screen
+question numbers no longer match the original booklet's printed numbers for
+Circle Officer P1 and JAO P1 specifically (the two papers with Part-A MCQs
+mixed in before Part-B) — worth a footnote on those two paper cards if it
+ever causes confusion when cross-referencing a real booklet. Practice Hub 2's
+topic tags and per-question confidence ratings were deliberately discarded
+per instruction; if Quick Revision ever grows topic filtering, that data
+would need to be re-imported rather than reconstructed.
+
 ## 2026-09-20 — Return to Learning: the card never showed for a fresh browser, and the message rotation was stuck on message #2 forever
 
 **What shipped:** two bugs found while checking whether the "Return to

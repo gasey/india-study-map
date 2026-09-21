@@ -1,0 +1,729 @@
+{
+ "exam": "Sub-Inspector of Statistics (January 2026)",
+ "paper": "Paper I (General English)",
+ "series": null,
+ "date": "January 2026",
+ "totalQuestionsStated": 50,
+ "questions": [
+  {
+   "n": 1,
+   "q": "I’m sorry I can’t hear what you are saying because everybody ________(talk) so loudly.",
+   "options": {
+    "a": "talks",
+    "b": "is talking",
+    "c": "has talked",
+    "d": "was talking"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 2,
+   "q": "When Damien called last night, I ________(watch) the Titanic Movie.",
+   "options": {
+    "a": "watched",
+    "b": "am watching",
+    "c": "has been watching",
+    "d": "was watching"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 3,
+   "q": "By this time next year, you ________(complete) your studies and found a job.",
+   "options": {
+    "a": "will be completing",
+    "b": "will have completed",
+    "c": "will complete",
+    "d": "will have been completing"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 4,
+   "q": "Last week, I ran into an old friend of mine. We________(see, not) each other in years and both of us had changed a great deal.",
+   "options": {
+    "a": "have not seen",
+    "b": "did not see",
+    "c": "had not seen",
+    "d": "has not seen"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 5,
+   "q": "Rama was reading a novel while his wife________(sleep).",
+   "options": {
+    "a": "sleeps",
+    "b": "slept",
+    "c": "has been sleeping",
+    "d": "was sleeping"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 6,
+   "q": "By the end of this year, she________(work) in this department for twenty-five years.",
+   "options": {
+    "a": "has worked",
+    "b": "had worked",
+    "c": "will have been working",
+    "d": "is working"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 7,
+   "q": "When I reached the station, the train ________(leave).",
+   "options": {
+    "a": "already left",
+    "b": "has already left",
+    "c": "had already left",
+    "d": "was already left"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 8,
+   "q": "He said that by the time we arrived, they________(finish) everything.",
+   "options": {
+    "a": "will finish",
+    "b": "would finish",
+    "c": "would have finished",
+    "d": "will have finished"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 9,
+   "q": "By next December, he________ (serve) as the principal for fifteen years.",
+   "options": {
+    "a": "will serve",
+    "b": "will be serving",
+    "c": "will have served",
+    "d": "will have been serving"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Both (c) 'will have served' and (d) 'will have been serving' are grammatically defensible with 'for fifteen years'; the continuous is the better duration-emphasis answer but this is not a clean single-answer item.",
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 10,
+   "q": "I didn’t recognize her at first because she ________ (change) so much.",
+   "options": {
+    "a": "changed",
+    "b": "had changed",
+    "c": "was changing",
+    "d": "has changed"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the"
+  },
+  {
+   "n": 11,
+   "q": "The man was acquitted ________all charges.",
+   "options": {
+    "a": "of",
+    "b": "on",
+    "c": "in",
+    "d": "at"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 12,
+   "q": "He hinted ________some loss of treasure.",
+   "options": {
+    "a": "of",
+    "b": "in",
+    "c": "for",
+    "d": "at"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 13,
+   "q": "He is a great orator________my surprise.",
+   "options": {
+    "a": "beyond",
+    "b": "upon",
+    "c": "to",
+    "d": "above"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 14,
+   "q": "Thanga is well known in Mizoram________the books he has already written.",
+   "options": {
+    "a": "by",
+    "b": "for",
+    "c": "on",
+    "d": "about"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 15,
+   "q": "He took action pursuant________the recommendation of the Board.",
+   "options": {
+    "a": "to",
+    "b": "of",
+    "c": "with",
+    "d": "on"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 16,
+   "q": "Mawia is indifferent ________ any request made by his students just yesterday.",
+   "options": {
+    "a": "about",
+    "b": "on",
+    "c": "at",
+    "d": "to"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 17,
+   "q": "Liani is good ________ painting and playing Chess.",
+   "options": {
+    "a": "in",
+    "b": "on",
+    "c": "at",
+    "d": "for"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 18,
+   "q": "Sanga is conversant________modern history.",
+   "options": {
+    "a": "of",
+    "b": "at",
+    "c": "on",
+    "d": "with"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 19,
+   "q": "She is proficient ________three languages",
+   "options": {
+    "a": "on",
+    "b": "of",
+    "c": "with",
+    "d": "in"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 20,
+   "q": "The matter falls________the jurisdiction of the Supreme court.",
+   "options": {
+    "a": "on",
+    "b": "under",
+    "c": "over",
+    "d": "in"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:"
+  },
+  {
+   "n": 21,
+   "q": "He climbed up the tree and plucked some mangoes. (Change to a Simple sentence)",
+   "options": {
+    "a": "He climbed up the tree and plucked some mangoes.",
+    "b": "Climbing up the tree, he plucks some mangoes.",
+    "c": "He climbed up the tree so he plucked some mangoes.",
+    "d": "Climbing up the tree, he plucked some mangoes."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 22,
+   "q": "Does the police officer catch the thief? (Change the Voice)",
+   "options": {
+    "a": "Is the thief caught by the police officer?",
+    "b": "Had the thief been caught by the police officer?",
+    "c": "Has the thief been caught by the police officer?",
+    "d": "Is the thief been caught by the police officer?"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 23,
+   "q": "He hopes to win a prize. (Change the voice)",
+   "options": {
+    "a": "It is hoped that he will win a prize.",
+    "b": "A prize is to be won by him.",
+    "c": "He hopes that he wins the prize.",
+    "d": "It is hoped to win a prize."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 24,
+   "q": "Let the poor not be teased. (Change the voice)",
+   "options": {
+    "a": "Let people not teased the poor.",
+    "b": "Do not tease the poor.",
+    "c": "Let the poor not be teased by people.",
+    "d": "Do not tease the poor people."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 25,
+   "q": "Mandy said, “John wrote the letter.” (Change the speech)",
+   "options": {
+    "a": "Mandy said that John had written the letter.",
+    "b": "Mandy told that John was writing the letter.",
+    "c": "Mandy said that John has written the letter.",
+    "d": "Mandy says that John writes the letter."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 26,
+   "q": "I told Mala that I would see her the following day. (Change the Speech)",
+   "options": {
+    "a": "I said to Mala, “I will see you the following day.”",
+    "b": "I said to Mala, “I will see you tomorrow.”",
+    "c": "I told Mala, “ I will see you tomorrow.”",
+    "d": "I said to Mala, “I would see you tomorrow.”"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 27,
+   "q": "He was too ill to attend school yesterday. (Change to Negative)",
+   "options": {
+    "a": "He was so ill that he could not attend school yesterday.",
+    "b": "He was not too ill to attend school yesterday.",
+    "c": "He was too ill to not attend school yesterday.",
+    "d": "He was not so ill to attend school yesterday."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 28,
+   "q": "How sweetly she sings! (Change to Assertive)",
+   "options": {
+    "a": "She sang a song sweetly.",
+    "b": "Oh! How sweetly her song is!",
+    "c": "She sings very sweetly.",
+    "d": "She sings a sweet song."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 29,
+   "q": "I can never forget your kindness. (Change to Interrogative)",
+   "options": {
+    "a": "Can I never forget your kindness?",
+    "b": "Can I ever forget your kindness?",
+    "c": "Can I never forget your kindness.",
+    "d": "Can I ever forget your kindness."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 30,
+   "q": "Would that I were a king! (Change to Assertive)",
+   "options": {
+    "a": "I wish I were a king.",
+    "b": "I would be a king.",
+    "c": "Would I be a king?",
+    "d": "I wish I would be a king!"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets."
+  },
+  {
+   "n": 31,
+   "q": "However tired he was, he finished the task.",
+   "options": {
+    "a": "Noun",
+    "b": "Verb",
+    "c": "Adverb",
+    "d": "Adjective"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "tired"
+  },
+  {
+   "n": 32,
+   "q": "The righteous always emerge victorious.",
+   "options": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Plural Noun",
+    "d": "Singular Noun"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "righteous"
+  },
+  {
+   "n": 33,
+   "q": "Sawmi goes to school every day.",
+   "options": {
+    "a": "Adverb",
+    "b": "Pronoun",
+    "c": "Determiner",
+    "d": "Preposition"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Source highlight (a) contradicts the underline scope and is judged an error. The booklet's marked answer \"Adverb\" is only defensible if the underline spans \"every day\"; the markup and the direction's singular \"a word\" both say it spans only \"every\". No official MPSC key exists for this sitting, so the highlight carries no authority. Recommend storing as answerSource 'derived' with answer (c) and a note that the printed highlight disagrees. Worth checking whether sibling questions B31-B40 in the same 31-40 block show the same phrase-vs-word underline drift.",
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "every",
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "c",
+    "why": "[adjudicated: derived] Sentence: \"Sawmi goes to school **every** day.\" The markup underlines only the single word *every* — and the direction itself says each sentence \"has a **word** underlined,\" singular, which rules out the two-word phrase *every day* being the target.\n\nWork it from first principles. Ask what *every* is doing in the sentence: it sits in front of the noun *day* and tells you which/how many days. That slot — before a noun, limiting or specifying it — is the determiner slot, the same slot filled by *the, this, some, each, my*. So *every* is a **Determiner (c)**.\n\nCheck the other three the same way:\n- **Adverb** — an adverb modifies a verb, adjective or another adverb. *Every* modifies the noun *day*, not the verb *goes*. Note the trap: the whole phrase *every day* does work adverbially (it answers \"how often does Sawmi go?\"). But that adverbial force belongs to the phrase as a unit, not to the word *every*. A determiner inside an adverbial phrase is still a determiner — exactly as *this* is still a determiner in *this morning*.\n- **Pronoun** — a pronoun stands in place of a noun, alone. *Every* can never stand alone; you cannot say \"Every came.\" English uses *everyone / everybody / everything* for that job. (Its cousins *each* and *all* can be pronouns — \"each of them\", \"all are here\" — which is probably why the option is here to tempt you. *Every* cannot.)\n- **Preposition** — a preposition shows a relation and takes an object (*to* school, *in* the morning). *Every* does neither.\n\nSo the highlighted answer in the booklet, (a) Adverb, is **wrong**, and you should not memorise it. It is the answer you get if you underline *every day* instead of *every* — a plausible typesetting slip in a booklet that already carries known errors, and MPSC published no official key for this sitting. Treat the highlight as a scan artefact, not as authority.\n\nOne older-textbook caveat that does not change the answer: some Indian grammars still label *every* an \"adjective of number/quantity.\" \"Adjective\" is not on the menu here; \"Determiner\" is the modern term for precisely that role, so (c) is the intended and the correct choice either way.\n\nTakeaway rule: for a part-of-speech question, test the *underlined word by itself*, never the phrase it happens to sit in."
+   }
+  },
+  {
+   "n": 34,
+   "q": "He seems very tired after the long journey",
+   "options": {
+    "a": "Adverb",
+    "b": "Determiner",
+    "c": "Adjective",
+    "d": "Verb"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "seems"
+  },
+  {
+   "n": 35,
+   "q": "Her happiness was obvious.",
+   "options": {
+    "a": "Abstract noun",
+    "b": "Adverb",
+    "c": "Adjective",
+    "d": "Preposition"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "happiness"
+  },
+  {
+   "n": 36,
+   "q": "The Grand Canyon is a natural wonder.",
+   "options": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Preposition",
+    "d": "Noun"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "wonder."
+  },
+  {
+   "n": 37,
+   "q": "Can you answer this question?",
+   "options": {
+    "a": "Preposition",
+    "b": "Noun",
+    "c": "Pronoun",
+    "d": "Adverb"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "No correct option: underlined 'this' modifies the noun 'question', so it is a determiner / demonstrative adjective, but the options list only Preposition, Noun, Pronoun, Adverb. (c) is the least-wrong choice, not a right one.",
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "this"
+  },
+  {
+   "n": 38,
+   "q": "We are pleased to come here.",
+   "options": {
+    "a": "Adjective",
+    "b": "Pronoun",
+    "c": "Verb",
+    "d": "Noun"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Extracted `direction` text is truncated mid-sentence: \"...has a word underlined. Find\" — the rest of the instruction (presumably naming the part of speech of the underlined word) is missing from the JSON. Worth re-extracting the Q31-40 direction from the source PDF before this batch ships, since the task is only inferable from the options as it stands.",
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "pleased",
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "a",
+    "why": "[adjudicated: derived] Answer: (a) Adjective. The booklet's highlighted (c) Verb is wrong.\n\nThe question is whether \"are pleased\" is a passive verb (making \"pleased\" a past participle) or a linking verb + adjective. Four standard tests all give the same answer:\n\n1. Degree word. Adjectives take a bare \"very\"; true passives need \"very much\". \"We are VERY pleased to come here\" is completely natural — \"very much pleased\" is stilted. Adjective.\n2. Linking-verb frame. Only adjectives can follow seem/look/feel: \"They SEEMED pleased,\" \"She LOOKED pleased.\" A genuine passive cannot (\"They seemed arrested\" is not English on the event reading). Adjective.\n3. Coordination. You can join it to an undisputed adjective: \"We are HAPPY AND pleased to come here.\" You can never coordinate an adjective with a passive participle.\n4. The \"to\"-phrase. \"pleased TO COME\" is the same pattern as glad to, eager to, sorry to, delighted to, happy to — an adjective pattern. Substitute the plainest adjective there is and nothing changes: \"We are GLAD to come here.\"\n\nAnd the meaning test: a real passive describes an action done to someone, and allows an agent (\"We were pleased BY the news\"). Here nobody performs any pleasing — the sentence describes our state of mind. It is a polite formula meaning \"we are glad.\"\n\nSo \"pleased\" is a participial adjective: a word born from a verb that has settled into the adjective class, exactly like tired, interested, surprised, worried, excited. \"I am tired\" is not passive voice, and neither is this.\n\nWhy the booklet marked Verb: whoever prepared the key saw \"are + past participle\" and reflexively called it passive voice. That shorthand works for \"The letter is written by him,\" but not for stative participles with a to-infinitive. The Wren & Martin tradition these papers are written from teaches the same thing — such participles after \"be\" are adjectives.\n\nExam rule of thumb: if the underlined -ed word can take \"very\" and can follow \"seem,\" it is an adjective, not part of the verb."
+   }
+  },
+  {
+   "n": 39,
+   "q": "Still water runs deep.",
+   "options": {
+    "a": "Noun",
+    "b": "Adjective",
+    "c": "Adverb",
+    "d": "Preposition"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "Still"
+  },
+  {
+   "n": 40,
+   "q": "Do you prefer tea or cofee?",
+   "options": {
+    "a": "Conjunction",
+    "b": "Interjection",
+    "c": "Adverb",
+    "d": "Verb"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
+   "focus": "or"
+  },
+  {
+   "n": 41,
+   "q": "A bone of contention",
+   "options": {
+    "a": "A subject of disagreement",
+    "b": "A dog’s favourite bone",
+    "c": "A subject of contentment",
+    "d": "A good thought or idea"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  },
+  {
+   "n": 42,
+   "q": "To pay through the nose",
+   "options": {
+    "a": "To pay less amount of money.",
+    "b": "To pay far more money than something is worth.",
+    "c": "To pay for one’s own actions.",
+    "d": "To pay off a debt."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  },
+  {
+   "n": 43,
+   "q": "To see eye to eye with",
+   "options": {
+    "a": "To have the same opinion with someone about something.",
+    "b": "To be able to see clearly",
+    "c": "To look intensely, curiously or carefully",
+    "d": "To remain calm and show no fear"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  },
+  {
+   "n": 44,
+   "q": "Apprise",
+   "options": {
+    "a": "To examine and form an opinion about something",
+    "b": "To inform about something",
+    "c": "To approve formally",
+    "d": "To criticize harshly"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  },
+  {
+   "n": 45,
+   "q": "Officiate",
+   "options": {
+    "a": "To perform a ceremony, function or duty",
+    "b": "To argue a case in a law court",
+    "c": "To delay or postpone an important matter",
+    "d": "To decorate or make something look attractive"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  },
+  {
+   "n": 46,
+   "q": "Embargo",
+   "options": {
+    "a": "A legal prohibition on commerce",
+    "b": "A formal agreement between two nations to increase free trade",
+    "c": "An official permission granted to export special goods",
+    "d": "A minor penalty given to government officials"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  },
+  {
+   "n": 47,
+   "q": "Expunge",
+   "options": {
+    "a": "To destroy completely",
+    "b": "To praise enthusiastically",
+    "c": "To remove completely",
+    "d": "To recognise enthusiastically"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  },
+  {
+   "n": 48,
+   "q": "Articulate",
+   "options": {
+    "a": "Having extensive knowledge",
+    "b": "Skilled in practical task rather than theoretical knowledge",
+    "c": "Fond of artistic activities",
+    "d": "Able to express oneself effectively and clearly"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  },
+  {
+   "n": 49,
+   "q": "A dime a dozen",
+   "options": {
+    "a": "Expensive",
+    "b": "Valuable and rare",
+    "c": "Common and Cheap",
+    "d": "Unique"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  },
+  {
+   "n": 50,
+   "q": "To pick holes",
+   "options": {
+    "a": "To quarrel with someone",
+    "b": "To cut holes in something",
+    "c": "To criticise someone",
+    "d": "To applaud someone"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the"
+  }
+ ]
+}

@@ -1,0 +1,909 @@
+{
+ "exam": "Circle Officer (April 2026)",
+ "paper": "Paper I (General English)",
+ "series": "A",
+ "date": "April 2026",
+ "totalQuestionsStated": 62,
+ "questions": [
+  {
+   "n": 1,
+   "q": "In the sentence: \"The constant exposure to curated and idealized representations of life often leads to unhealthy comparisions…\" Choose the word closest in meaning to curated in this context:",
+   "options": {
+    "a": "Random",
+    "b": "Carefully selected",
+    "c": "Overlooked",
+    "d": "Haphazard"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Read the following passage carefully and answer the questions that follow",
+   "focus": "curated"
+  },
+  {
+   "n": 2,
+   "q": "In the sentence: \"It is important to acknowledge that social media is not inherently detrimental…\" Choose the word most opposite in meaning to inherently in the context of the passage:",
+   "options": {
+    "a": "Naturally",
+    "b": "Intrinsically",
+    "c": "Incidentally",
+    "d": "Fundamentally"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Read the following passage carefully and answer the questions that follow",
+   "focus": "inherently"
+  },
+  {
+   "n": 3,
+   "q": "Still waters run deep.",
+   "options": {
+    "a": "Noun",
+    "b": "Adjective",
+    "c": "Verb",
+    "d": "Adverb"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "Still"
+  },
+  {
+   "n": 4,
+   "q": "He knows better than to quarrel.",
+   "options": {
+    "a": "Adverb",
+    "b": "Noun",
+    "c": "Verb",
+    "d": "Adjective"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "better"
+  },
+  {
+   "n": 5,
+   "q": "What most annoys me is his obstinacy.",
+   "options": {
+    "a": "Noun",
+    "b": "Verb",
+    "c": "Adjective",
+    "d": "Adverb"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "most"
+  },
+  {
+   "n": 6,
+   "q": "Right the wrong.",
+   "options": {
+    "a": "Noun",
+    "b": "Adverb",
+    "c": "Verb",
+    "d": "Adjective"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "Right"
+  },
+  {
+   "n": 7,
+   "q": "Since you say so, I believe it.",
+   "options": {
+    "a": "Relative pronoun",
+    "b": "Adverb",
+    "c": "Verb",
+    "d": "Conjunction"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "Since"
+  },
+  {
+   "n": 8,
+   "q": "The near side of the moon is better known.",
+   "options": {
+    "a": "Adverb",
+    "b": "Adjective",
+    "c": "Preposition",
+    "d": "Verb"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "near"
+  },
+  {
+   "n": 9,
+   "q": "He is but a child.",
+   "options": {
+    "a": "Conjunction",
+    "b": "Relative Pronoun",
+    "c": "Adverb",
+    "d": "Preposition"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "but"
+  },
+  {
+   "n": 10,
+   "q": "He kept a fast for a week.",
+   "options": {
+    "a": "Adverb",
+    "b": "Adjective",
+    "c": "Noun",
+    "d": "Verb"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "fast"
+  },
+  {
+   "n": 11,
+   "q": "The heavens declare the glory of God.",
+   "options": {
+    "a": "Collective Noun",
+    "b": "Abstract Noun",
+    "c": "Common Noun",
+    "d": "Proper Noun"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "heavens"
+  },
+  {
+   "n": 12,
+   "q": "There is no excuse for such a behaviour.",
+   "options": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Pronoun",
+    "d": "Preposition"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Identify the appropriate Parts of Speech for the words underlined",
+   "focus": "for"
+  },
+  {
+   "n": 13,
+   "q": "The officials have the habit of fawning _______ ministers.",
+   "options": {
+    "a": "above",
+    "b": "at",
+    "c": "on",
+    "d": "in"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 14,
+   "q": "You cannot expect respect from him because he is lost _______ senses of shame.",
+   "options": {
+    "a": "in",
+    "b": "to",
+    "c": "into",
+    "d": "of"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "source sentence is ungrammatical — the idiom is 'lost to all sense of shame', but the paper prints 'lost ___ senses of shame'",
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 15,
+   "q": "You do not need to get up because the phone is lying _______ hand.",
+   "options": {
+    "a": "at",
+    "b": "in",
+    "c": "on",
+    "d": "from"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 16,
+   "q": "There is no limit _______ the wants of man.",
+   "options": {
+    "a": "for",
+    "b": "to",
+    "c": "in",
+    "d": "of"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 17,
+   "q": "The team was elated with joy _______ their victory.",
+   "options": {
+    "a": "of",
+    "b": "to",
+    "c": "from",
+    "d": "over"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 18,
+   "q": "He talks _______ his father.",
+   "options": {
+    "a": "like",
+    "b": "as",
+    "c": "from",
+    "d": "at"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 19,
+   "q": "The seminar is _______ 20th January, 2022.",
+   "options": {
+    "a": "in",
+    "b": "on",
+    "c": "Above",
+    "d": "at"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 20,
+   "q": "Can we expect the result of the examination _______ the end of June?",
+   "options": {
+    "a": "until",
+    "b": "on",
+    "c": "about",
+    "d": "by"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 21,
+   "q": "Abiding _______law is the culture of civilized nations.",
+   "options": {
+    "a": "of",
+    "b": "to",
+    "c": "by",
+    "d": "for"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 22,
+   "q": "India is committed _______ a policy of peaceful existence.",
+   "options": {
+    "a": "of",
+    "b": "to",
+    "c": "with",
+    "d": "for"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence"
+  },
+  {
+   "n": 23,
+   "q": "He is showing signs of senility.",
+   "options": {
+    "a": "virility",
+    "b": "laziness",
+    "c": "maturity",
+    "d": "exhaustion"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "senility"
+  },
+  {
+   "n": 24,
+   "q": "They approached the stranger warily.",
+   "options": {
+    "a": "suspiciously",
+    "b": "cautiously",
+    "c": "carefully",
+    "d": "carelessly"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "warily"
+  },
+  {
+   "n": 25,
+   "q": "The booking-clerk looked very grumpy.",
+   "options": {
+    "a": "surly",
+    "b": "pleasant",
+    "c": "efficient",
+    "d": "honest"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "grumpy"
+  },
+  {
+   "n": 26,
+   "q": "He has given up his vicious habits.",
+   "options": {
+    "a": "godly",
+    "b": "sublime",
+    "c": "virtuous",
+    "d": "friendly"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "vicious"
+  },
+  {
+   "n": 27,
+   "q": "There is not a trace of vanity in her behaviour.",
+   "options": {
+    "a": "modesty",
+    "b": "selflessness",
+    "c": "proudness",
+    "d": "dignity"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "vanity"
+  },
+  {
+   "n": 28,
+   "q": "He is a sturdy youngman.",
+   "options": {
+    "a": "dynamic",
+    "b": "weak",
+    "c": "lively",
+    "d": "strong"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "sturdy"
+  },
+  {
+   "n": 29,
+   "q": "He listened intently, drawin by the speaker's authority.",
+   "options": {
+    "a": "casually",
+    "b": "closely",
+    "c": "lazily",
+    "d": "diligently"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "misprint in the source sentence: 'drawin by the speaker's authority' should read 'drawn by the speaker's authority'",
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "intently"
+  },
+  {
+   "n": 30,
+   "q": "The rapid stream flowed gradually.",
+   "options": {
+    "a": "fast",
+    "b": "sluggish",
+    "c": "brisk",
+    "d": "exepeditions"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "misspelling makes option (d) unreadable: 'exepeditions' is presumably intended as 'expeditious'",
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "rapid"
+  },
+  {
+   "n": 31,
+   "q": "He is abstemious in eating and drinking.",
+   "options": {
+    "a": "greedy",
+    "b": "temperate",
+    "c": "profligate",
+    "d": "self-indulgent"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "more than one defensible option — (a) greedy and (c) profligate are also broadly antonymous; (d) self-indulgent is the most precise",
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "abstemious"
+  },
+  {
+   "n": 32,
+   "q": "The antonym for mendacious is.",
+   "options": {
+    "a": "accurate",
+    "b": "truthful",
+    "c": "false",
+    "d": "deceptive"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the word opposite in meaning to the underlined word from the alternatives given",
+   "focus": "mendacious"
+  },
+  {
+   "n": 33,
+   "q": "Go abegging",
+   "options": {
+    "a": "go in vain",
+    "b": "go for begging",
+    "c": "beg for something",
+    "d": "request for something"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 34,
+   "q": "Tread on one's toe",
+   "options": {
+    "a": "walk on toes",
+    "b": "tread with toes",
+    "c": "flatter someone",
+    "d": "to give offence"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 35,
+   "q": "A damp squib",
+   "options": {
+    "a": "extremely exciting",
+    "b": "full of action",
+    "c": "a disappointing result",
+    "d": "Fair result"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 36,
+   "q": "Bore the palm",
+   "options": {
+    "a": "played quite well",
+    "b": "was victorious",
+    "c": "was defeated",
+    "d": "played a very boring match"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 37,
+   "q": "A jack of all trades",
+   "options": {
+    "a": "someone who has hit a jackpot",
+    "b": "A great businessman",
+    "c": "someone who has many skills",
+    "d": "A confident and not serious person"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 38,
+   "q": "One who is always doubting",
+   "options": {
+    "a": "Deist",
+    "b": "Rationalist",
+    "c": "Sceptic",
+    "d": "Positivist"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 39,
+   "q": "Knowing everything",
+   "options": {
+    "a": "Omnigenous",
+    "b": "Omnipotent",
+    "c": "Omnipresent",
+    "d": "Omniscient"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 40,
+   "q": "An inscription on a tomb",
+   "options": {
+    "a": "Epitaph",
+    "b": "Espionage",
+    "c": "Epilogue",
+    "d": "Elegy"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 41,
+   "q": "An official pardon",
+   "options": {
+    "a": "redemption",
+    "b": "amnesty",
+    "c": "regicide",
+    "d": "amnesia"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 42,
+   "q": "A person who lives outside his native country",
+   "options": {
+    "a": "indigenous",
+    "b": "expatriate",
+    "c": "natal",
+    "d": "intrinsic"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase"
+  },
+  {
+   "n": 43,
+   "q": "The manager asked us if we could finish the project by Monday.",
+   "options": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Conditional clause"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "focus": "if we could finish the project by Monday"
+  },
+  {
+   "n": 44,
+   "q": "We left the park early because it started raining.",
+   "options": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Conditional clause"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "focus": "because it started raining."
+  },
+  {
+   "n": 45,
+   "q": "The painting which was stolen yesterday has been recovered.",
+   "options": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Conditional clause"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "focus": "which was stolen yesterday"
+  },
+  {
+   "n": 46,
+   "q": "She was late as she missed the bus.",
+   "options": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Conditional clause"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "focus": "as she missed the bus"
+  },
+  {
+   "n": 47,
+   "q": "I like the house whose garden is full of flowers.",
+   "options": {
+    "a": "Conditional clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Adjective clause"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "focus": "whose garden is full of flowers"
+  },
+  {
+   "n": 48,
+   "q": "\"We will help you tomorrow,\" they said.",
+   "options": {
+    "a": "They said that they will help me tomorrow.",
+    "b": "They said that they would help me the next day.",
+    "c": "They said that they would help you tomorrow.",
+    "d": "They said that they help me tomorrow."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+  },
+  {
+   "n": 49,
+   "q": "\"I can finish this work by evening,\" he said.",
+   "options": {
+    "a": "He said that he could finish that work by evening.",
+    "b": "He said that he can finish this work by evening.",
+    "c": "He said that he could finish that work by that evening.",
+    "d": "He said that he could finish this work by that evening."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given",
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "c",
+    "why": "Reporting in the past requires all three shifts: 'can' to 'could', the demonstrative 'this' to 'that', and 'evening' to 'that evening'. Only option (c) makes all three. The marked option (d) shifts the tense and the time expression but leaves 'this work' unchanged, and 'this' cannot survive into indirect speech when the reporting verb is past — so the marked answer is wrong here and (c) is correct. Option (a) backshifts 'this' but not the time reference, and (b) backshifts nothing."
+   }
+  },
+  {
+   "n": 50,
+   "q": "\"I shall never forget this day,\" she said.",
+   "options": {
+    "a": "She said that she shall never forget that day.",
+    "b": "She said that she would never forget that day.",
+    "c": "She said she will never forget this day.",
+    "d": "She said that she would never forget this day."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+  },
+  {
+   "n": 51,
+   "q": "He said that he must submit the report the next day.",
+   "options": {
+    "a": "He said, \"I must submit the report tomorrow.\"",
+    "b": "He said, \"I must submit the report the next day.\"",
+    "c": "He said, \"I have to submit the report tomorrow.\"",
+    "d": "He said, \"I should submit the report tomorrow.\""
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+  },
+  {
+   "n": 52,
+   "q": "He said that he would help me the next day.",
+   "options": {
+    "a": "He said, \"I will help you the next day.\"",
+    "b": "He said, \"I would help you tomorrow.\"",
+    "c": "He said, \"I will help you tomorrow.\"",
+    "d": "He said, \"I would help you the next day.\""
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the most appropriate type of Clause/Speech from the alternatives given"
+  },
+  {
+   "n": 53,
+   "q": "She sings very well. (Change into interrogative)",
+   "options": {
+    "a": "Does she sing very well?",
+    "b": "How well does she sing?",
+    "c": "She sings well?",
+    "d": "She sings very well, right?"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  },
+  {
+   "n": 54,
+   "q": "Hardly had he reached the station when the train left. (Change into affirmative)",
+   "options": {
+    "a": "He reached the station before the train left.",
+    "b": "He had reached the station when the train left.",
+    "c": "The train left after he reached the station.",
+    "d": "He reached the station just as the train left."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  },
+  {
+   "n": 55,
+   "q": "Hardly had he finished his work when the boss called him again. (Change into interrogative)",
+   "options": {
+    "a": "Had he hardly finished his work when the boss called him?",
+    "b": "Did he finish his work before the boss called?",
+    "c": "Had he finished his work when the boss called him?",
+    "d": "Was the boss calling him while he finished?"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "two defensible options — (c) follows the drop-the-quasi-negative rule but loses the immediacy of 'hardly...when'; (a) keeps 'hardly' at the cost of awkward English",
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  },
+  {
+   "n": 56,
+   "q": "The exam was so tough that many students failed. (Change into exclamatory)",
+   "options": {
+    "a": "How tough the exam was!",
+    "b": "Exam was tough!",
+    "c": "Many students failed the exam!",
+    "d": "The exam was tough!"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  },
+  {
+   "n": 57,
+   "q": "She always speaks the truth. (Change into negative)",
+   "options": {
+    "a": "She never speaks the truth.",
+    "b": "She hardly ever speaks the truth.",
+    "c": "She does not always speak the truth.",
+    "d": "She rarely speaks the truth."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "no option preserves the meaning — the meaning-preserving negative is 'She never fails to speak the truth'; (c) is only the mechanical insertion of 'not', which reverses the sense",
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  },
+  {
+   "n": 58,
+   "q": "The dog barked loudly, and the cat ran away. (Change into simple sentence)",
+   "options": {
+    "a": "Hearing the dog bark loudly, the cat ran away.",
+    "b": "The dog barked loudly, so the cat ran away.",
+    "c": "Although the dog barked loudly, the cat ran away.",
+    "d": "The dog barked loudly; the cat ran away."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  },
+  {
+   "n": 59,
+   "q": "I was hungry. I did not eat lunch. (Change into complex sentence)",
+   "options": {
+    "a": "I was hungry, and I did not eat lunch.",
+    "b": "I was hungry, but I did not eat lunch.",
+    "c": "I was hungry, so I did not eat lunch.",
+    "d": "Although I was hungry, I did not eat lunch."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  },
+  {
+   "n": 60,
+   "q": "It rained heavily. The match was postponed. (Change into compound sentence)",
+   "options": {
+    "a": "Because it rained heavily, the match was postponed.",
+    "b": "It rained heavily, so the match was postponed.",
+    "c": "Although it rained heavily, the match was postponed.",
+    "d": "It rained heavily and the match was postponed."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "two defensible options — both (b) with 'so' and (d) with 'and' are formally compound sentences; (b) is preferred only because it keeps the cause-effect relation",
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  },
+  {
+   "n": 61,
+   "q": "Me and my brother went to the market. (Correct the sentence)",
+   "options": {
+    "a": "Me and my brother went to the market.",
+    "b": "My brother and me went to the market.",
+    "c": "My brother and I went to the market.",
+    "d": "I and my brother went to the market."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  },
+  {
+   "n": 62,
+   "q": "\"I suggested him to apply for the job.\" (Correct the sentence)",
+   "options": {
+    "a": "I suggested him to apply for the job.",
+    "b": "I suggested that he applies for the job.",
+    "c": "I suggested that he apply for the job.",
+    "d": "I suggested him applying for the job."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Choose the correct answer from the alternatives for the following questions as directed"
+  }
+ ]
+}

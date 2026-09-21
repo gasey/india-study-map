@@ -1,0 +1,1419 @@
+{
+ "exam": "Junior Accounts Officer (JAO) (July 2026)",
+ "paper": "Paper II (General Knowledge, Arithmetic & Reasoning)",
+ "series": "A",
+ "date": "July 2026",
+ "totalQuestionsStated": 100,
+ "questions": [
+  {
+   "n": 1,
+   "q": "Recently, INTERPOL has published its first ever Silver Notice, it is associated with:",
+   "options": {
+    "a": "tracing and recovering criminally obtained assets.",
+    "b": "locating missing persons.",
+    "c": "seeking the location and arrest of persons wanted for prosecution.",
+    "d": "seeking information on unidentified bodies."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 2,
+   "q": "The ‘Project Waterworth’, sometimes mentioned in the news, is related to:",
+   "options": {
+    "a": "A global initiative aimed at improving groundwater recharge and conservation.",
+    "b": "A technology-driven project for realtime water quality monitoring and assessment.",
+    "c": "A sustainable desalination project for providing potable water in coastal regions.",
+    "d": "A subsea cable network to strengthen the scale and reliability of the world’s digital highways."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 3,
+   "q": "The TALASH programme, recently launched by the Government of India in collaboration with UNICEF, aims to:",
+   "options": {
+    "a": "Provide career counselling and life skills education to empower tribal students studying in Eklavya Model Residential Schools (EMRSs)",
+    "b": "Investigate juvenile delinquency among tribal students in residential schools across India",
+    "c": "Promote sports and cultural exchange among tribal students at the national level",
+    "d": "Identify and train tribal youth for recruitment into government services"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 4,
+   "q": "The “Yala Glacier”, recently declared as “dead”, is located in which one of the following countries?",
+   "options": {
+    "a": "Russia",
+    "b": "Bhutan",
+    "c": "Greenland",
+    "d": "Nepal"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 5,
+   "q": "Consider the following statements with reference to Subsidiary Alliance:\n1. Under the Alliance, a British Resident was posted in the court of Indian rulers.\n2. It was introduced by the Governor- General Warren Hastings.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 6,
+   "q": "In the Gupta administration, the empire was divided into provinces, each under a governor, and further into districts under local heads. Which of the following terms correctly refer to the provincial governors and the district heads, respectively?",
+   "options": {
+    "a": "Uparikas and Vishayapatis",
+    "b": "Bhogikas and Vishayapatis",
+    "c": "Amatyas and Uparikas",
+    "d": "Vishayapatis and Sannidhatas"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 7,
+   "q": "With reference to the Anglo–Maratha Wars, consider the following statements:\n1. The First Anglo–Maratha War ended with the Treaty of Salbai.\n2. The Second Anglo–Maratha War took place during the tenure of Lord Wellesley.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 8,
+   "q": "Consider the following statements:\n1. Convectional rainfall occurs primarily in polar regions.\n2. Orographic rainfall is caused by mountains forcing moist air to rise.\nWhich of the above statements is/are correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 9,
+   "q": "In the context of Earth’s climate system, what does the term “Heat Budget” refer to?",
+   "options": {
+    "a": "The total heat stored in oceans and continents at any given time",
+    "b": "The balance between incoming solar radiation and outgoing terrestrial radiation.",
+    "c": "The total energy reflected by clouds and the Earth’s surface",
+    "d": "The heat absorbed by water vapour and greenhouse gases"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 10,
+   "q": "Which of the following statements is not correct regarding the Inter Tropical Convergence Zone (ITCZ)?\n1. It is a high-pressure zone located at the equator where trade winds converge.\n2. The seasonal migration of the ITCZ is one of the major factors responsible for the onset and withdrawal of the Indian monsoon.\nSelect the correct answer using the code given below.",
+   "options": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 11,
+   "q": "With reference to Fundamental Duties under the Constitution of India, consider the following statements:\n1. These were not present in the original Constitution adopted on 26th January 1950.\n2. They are applicable to all persons residing in the territory of India.\n3. Parliament can enforce the Fundamental Duties by enacting a law.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "2 only",
+    "b": "1 and 2 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 12,
+   "q": "Who among the following was not a member of the Drafting Committee of the Constituent Assembly?",
+   "options": {
+    "a": "J.B. Kripalani",
+    "b": "K.M. Munshi",
+    "c": "Syed Mohammad Saadullah",
+    "d": "T.T. Krishanamachari"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 13,
+   "q": "Consider the following statements regarding Gross National Product (GNP):\n1. It measures the total monetary value of output produced by a country’s residents and foreigners in the domestic territory of the country.\n2. It does not include intermediate goods and services.\nWhich of the statements given above is/are not correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 only",
+    "c": "Both 1 and 2",
+    "d": "Neither 1 nor 2"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 14,
+   "q": "The UNDP’s Human Development Index (HDI) does not include which of the following indicators?",
+   "options": {
+    "a": "Life expectancy at birth",
+    "b": "Gross National Income per capita",
+    "c": "Mean years of schooling",
+    "d": "Infant mortality rate"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 15,
+   "q": "Which one of the following subsidies is most likely to fall under the Amber Box category of the World Trade Organization (WTO)?",
+   "options": {
+    "a": "Direct income support to farmers not linked to production",
+    "b": "Public investment in agricultural research and extension services",
+    "c": "Subsidies directly linked to production that are considered to distort trade and output",
+    "d": "Payments to farmers for adopting environmentally sustainable farming practices"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 16,
+   "q": "Green pages in the Red Data Book of the International Union for Conservation of Nature denote:",
+   "options": {
+    "a": "Species that have never been endangered",
+    "b": "Species that were previously endangered, but are no longer threatened",
+    "c": "Species that are in the least concern category",
+    "d": "Species that are in the data-deficient category"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 17,
+   "q": "In the context of ecology, Amensalism refers to:",
+   "options": {
+    "a": "an interaction where both species are harmed.",
+    "b": "a relationship in which one species is inhibited while the other is unaffected.",
+    "c": "an association where both species benefit.",
+    "d": "a relationship in which one organism is benefited by direct utilization of another."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 18,
+   "q": "A man is pushing hard against a rigid brick wall. In this context, which among the following is correct?",
+   "options": {
+    "a": "The internal energy used by the man is zero.",
+    "b": "The work done by the man is zero.",
+    "c": "The force applied by the man is zero.",
+    "d": "None of the above"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 19,
+   "q": "Which of the following are advantages of Lithium-ion batteries over conventional lead–acid batteries?\n1. Light weight\n2. High energy density\n3. Lower cost\nSelect the correct answer using the code given below:",
+   "options": {
+    "a": "1 only",
+    "b": "1 and 2 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 20,
+   "q": "Radioisotope Iodine-131 is commonly used in the treatment of which of the following medical conditions?",
+   "options": {
+    "a": "Lung infections",
+    "b": "Prostate cancer",
+    "c": "Thyroid disorders",
+    "d": "Kidney stones"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 21,
+   "q": "The term ‘Zupui Ni’ is associated with which Mizo festival?",
+   "options": {
+    "a": "Mim Kut",
+    "b": "Pawl Kut",
+    "c": "Chapchar Kut",
+    "d": "Hnahsin Kut"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 22,
+   "q": "‘Operation Jericho’, often mentioned in the history of Mizoram, refers to:",
+   "options": {
+    "a": "The British annexation of the Lushai Hills after the 1871–72 expedition",
+    "b": "The MNF-led armed uprising aimed at securing independence for Mizoram in 1966",
+    "c": "The formation of a Mizo battalion during the Second World War",
+    "d": "The aerial bombing of Aizawl by the Indian Air Force in March 1966."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 23,
+   "q": "In Mizo folklore, a female character is said to have miraculously emerged from a festering wound on a man’s thumb. Who was she?",
+   "options": {
+    "a": "Chhingpuii",
+    "b": "Chemtei",
+    "c": "Kungawrhi",
+    "d": "Chawngchilhi"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 24,
+   "q": "In which year were the North and South Lushai Hills united into a single district with its headquarters at Aizawl?",
+   "options": {
+    "a": "1871",
+    "b": "1890",
+    "c": "1898",
+    "d": "1947"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 25,
+   "q": "Which of the followintg Stadium became the first venue to host three FIFA World Cup opening matches?",
+   "options": {
+    "a": "BC Plate",
+    "b": "Rose Bowl",
+    "c": "Estadio Azteca",
+    "d": "Metlife Studium"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Printed typos retained verbatim: 'followintg' in the stem, 'BC Plate' (BC Place) and 'Metlife Studium' (MetLife Stadium) in the options.",
+   "passage": null
+  },
+  {
+   "n": 26,
+   "q": "The recently launched ‘Project Thaichhawninu’ will be implemented in:",
+   "options": {
+    "a": "28 RD Blocks",
+    "b": "27 RD Blocks",
+    "c": "26 RD Blocks",
+    "d": "25 RD Blocks"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Unverified: no independent source available for 'Project Thaichhawninu' or the current number of RD Blocks in Mizoram. Answer follows the marked option only.",
+   "passage": null
+  },
+  {
+   "n": 27,
+   "q": "The Ilbert Bill controversy during British India was related to:",
+   "options": {
+    "a": "Press freedom",
+    "b": "Judicial equality between Indians and Europeans",
+    "c": "Land revenue reforms",
+    "d": "Expansion of railways"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 28,
+   "q": "The Vernacular Press Act of 1878 was enacted to:",
+   "options": {
+    "a": "Promote Indian language newspapers",
+    "b": "Restrict criticism of British policies in Indian-language newspapers",
+    "c": "Encourage literacy among peasants",
+    "d": "Regulate English education"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 29,
+   "q": "Consider the following statements regarding the Cripps Mission:\n1. It was sent during the Second World War.\n2. It proposed Dominion Status after the war.\n3. It was accepted unanimously by Congress and the Muslim League.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 30,
+   "q": "Consider the following statements regarding cyclones:\n1. Tropical cyclones derive energy from warm ocean waters.\n2. Cyclones rotate clockwise in the Northern Hemisphere.\n3. The eye of a cyclone is generally calm.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 31,
+   "q": "Consider the following statements:\n1. The Equator passes through Sri Lanka.\n2. The Tropic of Cancer passes through India.\n3. The Prime Meridian passes through Greenwich.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 and 3 only",
+    "b": "1 only",
+    "c": "2 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 32,
+   "q": "The highest plateau in the world is:",
+   "options": {
+    "a": "Deccan Plateau",
+    "b": "Colorado Plateau",
+    "c": "Tibetan Plateau",
+    "d": "Iranian Plateau"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 33,
+   "q": "Consider the following statements regarding Money Bills:\n1. A Money Bill can be introduced only in the Lok Sabha.\n2. The Rajya Sabha can reject a Money Bill.\n3. The Speaker certifies whether a Bill is a Money Bill.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 and 2 only",
+    "b": "1 and 3 only",
+    "c": "2 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Source has TWO options highlighted, (a) and (b); marked recorded as null. On the merits only (b) is defensible.",
+   "passage": null
+  },
+  {
+   "n": 34,
+   "q": "The term “Judicial Review” refers to the power of the judiciary to:",
+   "options": {
+    "a": "Amend the Constitution",
+    "b": "Review the working of political parties",
+    "c": "Examine the constitutional validity of laws and executive actions",
+    "d": "Conduct elections"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 35,
+   "q": "Which Schedule of the Constitution deals with anti-defection provisions?",
+   "options": {
+    "a": "Seventh Schedule",
+    "b": "Eighth Schedule",
+    "c": "Tenth Schedule",
+    "d": "Eleventh Schedule"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 36,
+   "q": "Which among the following is NOT a constitutional body?",
+   "options": {
+    "a": "UPSC",
+    "b": "Finance Commission",
+    "c": "NITI Aayog",
+    "d": "Election Commission"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 37,
+   "q": "Consider the following statements regarding Self Help Groups (SHGs):\n1. They function exclusively in urban areas.\n2. They promote financial inclusion.\n3. They are generally formed by small groups with common socio-economic objectives.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 38,
+   "q": "The “dependency ratio” refers to:",
+   "options": {
+    "a": "Ratio of exports to imports",
+    "b": "Ratio of dependent population to working-age population",
+    "c": "Ratio of urban to rural population",
+    "d": "Ratio of tax revenue to GDP"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 39,
+   "q": "Sustainable development was most famously defined in which report?",
+   "options": {
+    "a": "Kothari Commission Report",
+    "b": "Brundtland Report",
+    "c": "Sarkaria Commission Report",
+    "d": "Kelkar Committee Report"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 40,
+   "q": "Which of the following pollutants is mainly responsible for acid rain?",
+   "options": {
+    "a": "Carbon monoxide and methane",
+    "b": "Sulphur dioxide and nitrogen oxides",
+    "c": "Ozone and helium",
+    "d": "Hydrogen and oxygen"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 41,
+   "q": "Consider the following statements regarding biosphere reserves:\n1. They aim to balance conservation and sustainable use.\n2. They are recognized under UNESCO’s Man and Biosphere Programme.\n3. Human activities are completely prohibited in all zones.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 and 2 only",
+    "b": "1 only",
+    "c": "2 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 42,
+   "q": "The term “biomagnification” refers to:",
+   "options": {
+    "a": "Rapid growth of forests",
+    "b": "Increase in biodiversity over time",
+    "c": "Progressive accumulation of toxic substances along the food chain",
+    "d": "Migration of species to higher altitudes"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 43,
+   "q": "Consider the following statements:\n1. Wetlands act as natural flood buffers.\n2. Coral bleaching is associated with rising sea temperatures.\n3. Biodiversity enhances ecosystem resilience.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 44,
+   "q": "Which part of the human brain is primarily responsible for maintaining balance and coordination?",
+   "options": {
+    "a": "Cerebrum",
+    "b": "Medulla oblongata",
+    "c": "Cerebellum",
+    "d": "Hypothalamus"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 45,
+   "q": "Which of the following phenomena explains the blue colour of the sky?",
+   "options": {
+    "a": "Reflection",
+    "b": "Refraction",
+    "c": "Dispersion",
+    "d": "Scattering of light"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 46,
+   "q": "Consider the following statements:\n1. Human beings normally have 48 chromosomes.\n2. RNA is involved in protein synthesis.\n3. DNA carries hereditary information.\nWhich of the statements given above is/are correct?",
+   "options": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 47,
+   "q": "In Mizo mythology, the tall tree standing at the centre of the Earth was called:",
+   "options": {
+    "a": "Thingvandek",
+    "b": "Thingvando",
+    "c": "Thingvantawng",
+    "d": "Thingvanchen"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Unverified Mizo mythology term; answer rests on the semantics of the name, not on a checked source.",
+   "passage": null
+  },
+  {
+   "n": 48,
+   "q": "Which Mizo dance was also known as Thingdim lam?",
+   "options": {
+    "a": "Tlang lam",
+    "b": "Chawnglaizawn",
+    "c": "Cheraw",
+    "d": "Khuallam"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Unverified: no source available for the alternative name 'Thingdim lam'. Answer follows the marked option only.",
+   "passage": null
+  },
+  {
+   "n": 49,
+   "q": "Which British administrator was nicknamed “Ram sem sap” owing to his practice of fixing the boundaries of the Mizo chiefs’ jurisdiction?",
+   "options": {
+    "a": "Henry Walter George Cole",
+    "b": "John Shakespear",
+    "c": "Col. Granville Henry Loch",
+    "d": "N.E. Parry"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Low confidence: Shakespear vs N.E. Parry not resolvable from memory; verify against a Mizoram history source.",
+   "passage": null
+  },
+  {
+   "n": 50,
+   "q": "Who was the 2nd Governor of Mizoram after it achieved Statehood?",
+   "options": {
+    "a": "HS Dubey",
+    "b": "Hiteswar Saikia",
+    "c": "KV Krishna Rao",
+    "d": "Williamson A. Sangma"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Disagreement with the marked option and low confidence on both sides; verify the Governor succession list for 1987-1990 directly.",
+   "passage": null,
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "d",
+    "why": "Mizoram's first Governor after statehood on 20 February 1987 was Hiteswar Saikia, and my recollection of the Raj Bhavan succession puts Williamson A. Sangma next, in 1989. The marked option says K.V. Krishna Rao, who did hold north-eastern governorships in this period, so the two candidates must be checked against Raj Bhavan Mizoram's official list before either is trusted."
+   }
+  },
+  {
+   "n": 51,
+   "q": "How many integers are there between −12 and 9?",
+   "options": {
+    "a": "19",
+    "b": "20",
+    "c": "21",
+    "d": "22"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 52,
+   "q": "The HCF and LCM of two numbers are 12 and 180 respectively. If one of the numbers is 36, then the other number is:",
+   "options": {
+    "a": "45",
+    "b": "60",
+    "c": "72",
+    "d": "90"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 53,
+   "q": "Find the 16th term from the end in the following sequence:\n7, 11, 15, …, 215",
+   "options": {
+    "a": "151",
+    "b": "155",
+    "c": "161",
+    "d": "145"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 54,
+   "q": "If the mean of x, x+2, x+4, x+6, x+8 is 11, then the value of ‘x’ is:",
+   "options": {
+    "a": "4",
+    "b": "5",
+    "c": "6",
+    "d": "7"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 55,
+   "q": "If α and β are roots of x² - 3x+2=0, then α² + β² =",
+   "options": {
+    "a": "5",
+    "b": "9",
+    "c": "13",
+    "d": "4"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 56,
+   "q": "A student needs to secure 40% to pass. If he gets 72 marks and fails by 8 marks, what are the total marks?",
+   "options": {
+    "a": "150",
+    "b": "180",
+    "c": "200",
+    "d": "160"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 57,
+   "q": "Among the 10 students of a coaching class, the average weight of 6 students is 56kg. If the average weight of the remaining students is 59kg, then what is the average weight of all students?",
+   "options": {
+    "a": "54kg",
+    "b": "55kg",
+    "c": "56kg",
+    "d": "57kg"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Exact answer is 57.2 kg; no option is exactly correct and (d) 57kg is only the nearest value.",
+   "passage": null
+  },
+  {
+   "n": 58,
+   "q": "The single discount equivalent to two successive discounts of 20% and 10% is:",
+   "options": {
+    "a": "24%",
+    "b": "25%",
+    "c": "27%",
+    "d": "28%"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 59,
+   "q": "The ratio of the cost price and selling price of a ceiling fan is 5:7. The gain percent is:",
+   "options": {
+    "a": "30%",
+    "b": "40%",
+    "c": "45%",
+    "d": "50%"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 60,
+   "q": "By selling a coat for ₹630, a shopkeeper gains 5%. The cost price of the coat is:",
+   "options": {
+    "a": "₹600",
+    "b": "₹630",
+    "c": "₹650",
+    "d": "₹700"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 61,
+   "q": "If P:Q = 2:3 and Q:R = 5:7, then P:Q:R = ?",
+   "options": {
+    "a": "10:15:21",
+    "b": "2:3:7",
+    "c": "10:3:7",
+    "d": "2:15:21"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 62,
+   "q": "Divide ₹4,800 into three parts such that the second part is 3/4 of the first part and the third part is 5/3 of the second part. The amount of the first part is:",
+   "options": {
+    "a": "₹1,200",
+    "b": "₹1,600",
+    "c": "₹1,800",
+    "d": "₹2,000"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 63,
+   "q": "A alone can complete the work in 18 days while B alone in 15 days. B alone worked at it for 10 days and then left the work. In how many more days will A alone complete the remaining work?",
+   "options": {
+    "a": "5 days",
+    "b": "6 days",
+    "c": "7 days",
+    "d": "8 days"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 64,
+   "q": "The simple interest on a sum for 5 years is one-fourth of the sum. The rate of interest per annum is:",
+   "options": {
+    "a": "8%",
+    "b": "6%",
+    "c": "5%",
+    "d": "4%"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 65,
+   "q": "What would be the compound interest on ₹25,000 for 2 years at 5% per annum?",
+   "options": {
+    "a": "₹2,500",
+    "b": "₹2,562",
+    "c": "₹2,562.50",
+    "d": "₹2,425.25"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 66,
+   "q": "A square park of side 20 m has a path 2 m wide running around it on the inside. The area of the path is:",
+   "options": {
+    "a": "144 sq.m",
+    "b": "160 sq.m",
+    "c": "176 sq.m",
+    "d": "184 sq.m"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 67,
+   "q": "If the volume of a sphere is 36π cm³, then its radius is:",
+   "options": {
+    "a": "2 cm",
+    "b": "3 cm",
+    "c": "4 cm",
+    "d": "6 cm"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 68,
+   "q": "How many distinct permutations can be made from the letters of the word ‘COMMITTEE’?",
+   "options": {
+    "a": "22680",
+    "b": "45360",
+    "c": "90720",
+    "d": "181440"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 69,
+   "q": "From 7 men and 4 women, a committee of 6 is to be formed with at least 4 men. In how many ways can this be done?",
+   "options": {
+    "a": "371",
+    "b": "364",
+    "c": "385",
+    "d": "301"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 70,
+   "q": "Pipe A can fill a tank in 10 minutes while pipe B can empty it in 15 minutes. If both the pipes are opened in that empty tank, the time taken to fill the tank is:",
+   "options": {
+    "a": "20 min",
+    "b": "25 min",
+    "c": "30 min",
+    "d": "35 min"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 71,
+   "q": "Observe the Histogram given below and answer the question that follows:\n\nHow many students scored more than the average marks of the class?",
+   "options": {
+    "a": "11",
+    "b": "8",
+    "c": "6",
+    "d": "10"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 72,
+   "q": "If √(3ⁿ) = 81, then the value of n is:",
+   "options": {
+    "a": "4",
+    "b": "6",
+    "c": "8",
+    "d": "10"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 73,
+   "q": "The value of 9^(−3/2) is:",
+   "options": {
+    "a": "1/3",
+    "b": "1/9",
+    "c": "1/27",
+    "d": "1/71"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 74,
+   "q": "An 800ml mixture contains water and milk in the ratio 8:2. How much more water and milk should be added in the same mixture to get them in the ratio 9:3?",
+   "options": {
+    "a": "90ml and 80ml, respectively.",
+    "b": "80ml and 90ml, respectively.",
+    "c": "90ml each.",
+    "d": "80ml each."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 75,
+   "q": "A 300m long train is running at the speed of 60 km/hr. If it crosses a tunnel in 2 minutes, what is the length of the tunnel?",
+   "options": {
+    "a": "1500 m.",
+    "b": "1700 m.",
+    "c": "1800 m.",
+    "d": "2100 m."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 76,
+   "q": "How many 1/6 are there in 25 1/3 ?",
+   "options": {
+    "a": "123",
+    "b": "125",
+    "c": "132",
+    "d": "152"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 77,
+   "q": "The central angle subtended by the savings portion on the pie chart is approximately equal to:",
+   "options": {
+    "a": "30°",
+    "b": "65°",
+    "c": "90°",
+    "d": "180°"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 77 & 78): The following pie chart shows the expenditure of a family on different items out of a total income of ₹24,000/- from all sources. Answer the questions based on the data given in the pie chart:"
+  },
+  {
+   "n": 78,
+   "q": "What is the ratio of the expenditure on electricity to that on rent?",
+   "options": {
+    "a": "1:6",
+    "b": "9:13",
+    "c": "4:13",
+    "d": "4:9"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 77 & 78): The following pie chart shows the expenditure of a family on different items out of a total income of ₹24,000/- from all sources. Answer the questions based on the data given in the pie chart:"
+  },
+  {
+   "n": 79,
+   "q": "There are 12 boys in a class of 20 students. A student is chosen from the class at random to be the class representative. What is the probability that the class representative is a girl?",
+   "options": {
+    "a": "40%",
+    "b": "30%",
+    "c": "50%",
+    "d": "25%"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 80,
+   "q": "A clock is set right at 6 AM. If the clock gains 12 minutes in 24 hours, what will be the right time when the clock indicates 12 Noon on the following day?",
+   "options": {
+    "a": "12:12 PM",
+    "b": "12:18 PM",
+    "c": "11:48 AM",
+    "d": "11:42 AM"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "No option is correct: the true time is 11:45:07 AM. The source carries a handwritten margin note 'compensated' beside this question, which is consistent with MPSC having voided it. Marked option (d) 11:42 AM would require a 36-hour interval, not the actual 30 hours.",
+   "passage": null,
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "c",
+    "why": "From 6 AM to 12 noon the next day the clock shows 30 hours = 1800 clock-minutes, and 1452 clock-minutes correspond to 1440 true minutes, so true elapsed time = 1800 × 1440/1452 = 1785.12 min = 29 h 45 min 07 s; the right time is 11:45:07 AM. That value is not printed, and 11:48 AM is nearer to it (2 min 53 s away) than 11:42 AM (3 min 07 s away), so I take (c) while flagging the question as defective."
+   }
+  },
+  {
+   "n": 81,
+   "q": "Select the option that is related to the third term in the same way as the second term is related to the first term: String : Sitar :: Percussion : ?",
+   "options": {
+    "a": "Violin",
+    "b": "Piano",
+    "c": "Tabla",
+    "d": "Trumpet"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 82,
+   "q": "Choose the word which has the same relationship among the three given words:\nCricket, Hockey, Football",
+   "options": {
+    "a": "Tennis",
+    "b": "Kabaddi",
+    "c": "Chess",
+    "d": "Swimming"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 83,
+   "q": "Arrange the following words related to flood management in a meaningful sequence and logical order.\n(i) Relief, (ii) Warning, (iii) Flood, (iv) Rescue, (v) Rehabilitation",
+   "options": {
+    "a": "ii, iii, iv, i, v",
+    "b": "iii, ii, i, iv, v",
+    "c": "ii, iii, i, iv, v",
+    "d": "iii, iv, ii, i, v"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 84,
+   "q": "Find the next term: 2, 6, 24, 120, ?",
+   "options": {
+    "a": "480",
+    "b": "600",
+    "c": "720",
+    "d": "840"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 85,
+   "q": "If ‘he will say’ is coded as ‘1 3 9’ and ‘say to him’ is coded as ‘3 5 2’ and ‘he may do’ is coded as ‘8 7 9’, then what will be the code of ‘will’?",
+   "options": {
+    "a": "3",
+    "b": "1",
+    "c": "9",
+    "d": "8"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 86,
+   "q": "How many meaningful English words can be made from ‘RTEA’ using each letter once?",
+   "options": {
+    "a": "One",
+    "b": "Two",
+    "c": "Three",
+    "d": "Four"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 87,
+   "q": "If ‘P’ means ‘×’, ‘Q’ means ‘÷’, ‘R’ means ‘+’, ‘S’ means ‘−’, then\n18 Q 3 P 4 R 5 S 6 = ?",
+   "options": {
+    "a": "23",
+    "b": "24",
+    "c": "25",
+    "d": "26"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 88,
+   "q": "In a row of boys, Liana is 12th from the left and 15th from the right. How many boys are there in the row?",
+   "options": {
+    "a": "25",
+    "b": "26",
+    "c": "27",
+    "d": "28"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 89,
+   "q": "Find the missing character:",
+   "options": {
+    "a": "30",
+    "b": "35",
+    "c": "40",
+    "d": "28"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 90,
+   "q": "How many triangles are there in the given figure?",
+   "options": {
+    "a": "8",
+    "b": "7",
+    "c": "9",
+    "d": "10"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 91,
+   "q": "A piece of paper is folded and cut as shown below in the question figures. How would this paper look when unfolded?",
+   "options": {
+    "a": "A square with four small circles arranged in a 2×2 block in the upper-left area.",
+    "b": "A square with four small circles: one near the top, two side by side below it, and one below-left of those.",
+    "c": "A square with three small circles: two near the top-left set diagonally, and one near the bottom-right.",
+    "d": "A square with five small circles: a 2×2 block of four in the upper-left area plus one near the bottom-right."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 92,
+   "q": "If today is a Monday, after 75 days it will be:",
+   "options": {
+    "a": "Friday",
+    "b": "Saturday",
+    "c": "Sunday",
+    "d": "Monday"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 93,
+   "q": "One sunny morning, Mawii walks towards the east and saw her friend Liana coming from a certain direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is Liana approaching from?",
+   "options": {
+    "a": "North",
+    "b": "South",
+    "c": "East",
+    "d": "South-East"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Pronoun slip in the stem: Mawii is 'her friend' but the shadow is said to be on 'his left side'. The question only resolves if 'his' means Liana's.",
+   "passage": null
+  },
+  {
+   "n": 94,
+   "q": "Choose the odd one out from the given figures:",
+   "options": {
+    "a": "Top row: up-arrow, down-arrow; bottom row: down-arrow, up-arrow.",
+    "b": "Top row: up-arrow, down-arrow; bottom row: up-arrow, down-arrow.",
+    "c": "Top row: right-arrow, left-arrow; bottom row: left-arrow, right-arrow.",
+    "d": "Top row: left-arrow, right-arrow; bottom row: right-arrow, left-arrow."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 95,
+   "q": "In the following figure, what should replace the question mark?",
+   "options": {
+    "a": "169",
+    "b": "196",
+    "c": "256",
+    "d": "289"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 96,
+   "q": "Statements:\nAll fruits are flowers.\nAll seeds are fruits.\nConclusions:\nI. All flowers are fruits.\nII. All seeds are flowers.\nSelect the best option from the following:",
+   "options": {
+    "a": "If both Conclusions I and II follow.",
+    "b": "If neither Conclusions I nor II follows.",
+    "c": "If only Conclusions I follows.",
+    "d": "If only Conclusions II follows."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 97,
+   "q": "Six friends are sitting in a row. Puia sits exactly in between Sanga and Vula. Nunga sits exactly in between Lawma and Thanga. Five friends sit to the left of Sanga. Thanga is not sitting immediately next to Vula. Who sits second to the left of Vula?",
+   "options": {
+    "a": "Nunga",
+    "b": "Lawma",
+    "c": "Sanga",
+    "d": "Thanga"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 98,
+   "q": "In a certain code language, LOVE is written as MUWI and GOOD is written as HUUE. How will KIND be written in the same language?",
+   "options": {
+    "a": "MUME",
+    "b": "MOME",
+    "c": "LOOE",
+    "d": "LOME"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 99,
+   "q": "If the letters of the word REASONING are arranged in alphabetical order, how many letters will remain in the same position?",
+   "options": {
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "3"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 100,
+   "q": "T is the daughter of S whose wife is R. R is the daughter of P whose husband is Q. How is S related to P?",
+   "options": {
+    "a": "Mother-in-law",
+    "b": "Son-in-law",
+    "c": "Son",
+    "d": "Grandson"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  }
+ ]
+}

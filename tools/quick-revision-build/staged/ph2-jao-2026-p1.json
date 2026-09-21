@@ -1,0 +1,949 @@
+{
+ "exam": "Junior Accounts Officer (JAO) (July 2026)",
+ "paper": "Paper I (General English)",
+ "series": "A",
+ "date": "July 2026",
+ "totalQuestionsStated": 65,
+ "questions": [
+  {
+   "n": 1,
+   "q": "What was the weather like in the hill station?",
+   "options": {
+    "a": "Hot and dusty",
+    "b": "Rainy and misty",
+    "c": "Stormy and windy",
+    "d": "Snowy and cold"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+  },
+  {
+   "n": 2,
+   "q": "Where was Grandfather Hari sitting?",
+   "options": {
+    "a": "Outside his house",
+    "b": "Near the river",
+    "c": "Beneath a cherry tree",
+    "d": "Inside the forest"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+  },
+  {
+   "n": 3,
+   "q": "Why was Binya late?",
+   "options": {
+    "a": "She overslept and missed the bus",
+    "b": "The rain flooded the lower path and she had to walk",
+    "c": "She lost her way in the forest",
+    "d": "She had to cross the flooded river on a boat"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+  },
+  {
+   "n": 4,
+   "q": "What did Grandfather Hari say about the forest?",
+   "options": {
+    "a": "It should be avoided",
+    "b": "It is a mysterious and dangerous place",
+    "c": "It keeps many secrets after rain",
+    "d": "It makes you lonely"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+  },
+  {
+   "n": 5,
+   "q": "Who became friends of Binya's grandfather when he was a boy?",
+   "options": {
+    "a": "The animals in the forest",
+    "b": "The boys in his village",
+    "c": "The trees in the forest",
+    "d": "The cows in the hills"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 4 - 10): Read the following passage carefully and answer the questions that follow:"
+  },
+  {
+   "n": 6,
+   "q": "The famous gym in that area is hers. In the sentence, “hers” is a:",
+   "options": {
+    "a": "Possessive adjective",
+    "b": "Reflexive pronoun",
+    "c": "Possessive pronoun",
+    "d": "Demonstrative pronoun"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 7,
+   "q": "Which of the following is a pronoun?",
+   "options": {
+    "a": "Alas!",
+    "b": "River",
+    "c": "They",
+    "d": "Softly"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 8,
+   "q": "A word that modifies a verb, an adjective, or another adverb is called:",
+   "options": {
+    "a": "Adjective",
+    "b": "Preposition",
+    "c": "Adverb",
+    "d": "Conjunction"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 9,
+   "q": "Choose the sentence where “watch” is used as a noun.",
+   "options": {
+    "a": "They watch television every evening.",
+    "b": "Please watch the road carefully.",
+    "c": "His watch stopped working yesterday.",
+    "d": "The teacher asked us to watch the experiment quietly."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null,
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "c",
+    "why": "In (c) \"watch\" is preceded by the possessive determiner \"His\" and is the subject of the verb \"stopped\" - it names a timepiece, so it is a noun. In the marked option (d) \"to watch\" is an infinitive verb governing the object \"the experiment\"; (a) and (b) are likewise finite and imperative verbs. The marked answer (d) is wrong."
+   }
+  },
+  {
+   "n": 10,
+   "q": "Which of the following words functions as a determiner in the sentence 'Several students participated in the competition'?",
+   "options": {
+    "a": "Students",
+    "b": "Participated",
+    "c": "Several",
+    "d": "Competition"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null,
+   "focus": "determiner"
+  },
+  {
+   "n": 11,
+   "q": "Which part of speech describes a noun?",
+   "options": {
+    "a": "Verb",
+    "b": "Adjective",
+    "c": "Pronoun",
+    "d": "Conjunction"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null,
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "b",
+    "why": "An adjective is by definition the part of speech that describes or qualifies a noun or pronoun. The marked answer (a) Verb is plainly wrong - a verb expresses action or state; a pronoun replaces a noun rather than describing it."
+   }
+  },
+  {
+   "n": 12,
+   "q": "Which of the following is a common noun?",
+   "options": {
+    "a": "India",
+    "b": "Monday",
+    "c": "Country",
+    "d": "Dr. Ravi"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 13,
+   "q": "Which word replaces a noun?",
+   "options": {
+    "a": "Adjective",
+    "b": "Verb",
+    "c": "Pronoun",
+    "d": "Adverb"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 14,
+   "q": "The word “eloquently” modifies:",
+   "options": {
+    "a": "Noun",
+    "b": "Verb",
+    "c": "Pronoun",
+    "d": "Article"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 15,
+   "q": "A non-finite verb ending in 'ing' that functions as a noun is called a:",
+   "options": {
+    "a": "Participle",
+    "b": "Gerund",
+    "c": "Infinitive",
+    "d": "Auxiliary"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 16,
+   "q": "The children played happily.",
+   "options": {
+    "a": "Pronoun",
+    "b": "Noun",
+    "c": "Verb",
+    "d": "Adverb"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "children"
+  },
+  {
+   "n": 17,
+   "q": "She bought a turquoise dress",
+   "options": {
+    "a": "Verb",
+    "b": "Adjective",
+    "c": "Noun",
+    "d": "Conjunction"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "turquoise"
+  },
+  {
+   "n": 18,
+   "q": "Abigail wanted to go shopping, but she stayed home because of the rain.",
+   "options": {
+    "a": "Preposition",
+    "b": "Conjunction",
+    "c": "Interjection",
+    "d": "Adverb"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "but"
+  },
+  {
+   "n": 19,
+   "q": "We walked across the bridge.",
+   "options": {
+    "a": "Verb",
+    "b": "Preposition",
+    "c": "Adjective",
+    "d": "Pronoun"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "across"
+  },
+  {
+   "n": 20,
+   "q": "Gosh! I didn't expect to fail!",
+   "options": {
+    "a": "Interjection",
+    "b": "Adverb",
+    "c": "Conjunction",
+    "d": "Preposition"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "Gosh!"
+  },
+  {
+   "n": 21,
+   "q": "None but the brave deserve the fair.",
+   "options": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Pronoun",
+    "d": "Preposition"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "but"
+  },
+  {
+   "n": 22,
+   "q": "He talks like his father.",
+   "options": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Pronoun",
+    "d": "Preposition"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "like"
+  },
+  {
+   "n": 23,
+   "q": "The earth is round.",
+   "options": {
+    "a": "Adjective",
+    "b": "Adverb",
+    "c": "Preposition",
+    "d": "Noun"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "round."
+  },
+  {
+   "n": 24,
+   "q": "The after effects of the drug are dangerous.",
+   "options": {
+    "a": "Preposition",
+    "b": "Adverb",
+    "c": "Adjective",
+    "d": "Noun"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "after",
+   "dispute": {
+    "verdict": "wrong",
+    "alt": "c",
+    "why": "\"After\" here sits between the article and the noun and qualifies \"effects\" - which effects? the after ones - so it is an attributive adjective, exactly as in \"in after years\". The marked answer (b) Adverb is wrong: there is no verb, adjective or adverb here for it to modify, and it is not a preposition either because it governs no object. Compare Q20, where the same word genuinely is an adverb."
+   }
+  },
+  {
+   "n": 25,
+   "q": "They arrived soon after.",
+   "options": {
+    "a": "Preposition",
+    "b": "Adjective",
+    "c": "Conjunction",
+    "d": "Adverb"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
+   "focus": "after"
+  },
+  {
+   "n": 26,
+   "q": "Select the correct sentence.",
+   "options": {
+    "a": "Neither of the answers are correct.",
+    "b": "Neither of the answers is correct.",
+    "c": "Neither of the answer were correct.",
+    "d": "Neither of the answers have correct."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 27,
+   "q": "Choose the correct word to complete the sentence: He has been working here _________ 2020.",
+   "options": {
+    "a": "for",
+    "b": "from",
+    "c": "since",
+    "d": "by"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 28,
+   "q": "Identify the correctly used idiom.",
+   "options": {
+    "a": "He kicked the bucket with anger.",
+    "b": "They hit the books on the playground.",
+    "c": "He broke the ice by falling down.",
+    "d": "She spilled the beans about the surprise party."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 29,
+   "q": "Choose the correct sentence.",
+   "options": {
+    "a": "The furniture are expensive.",
+    "b": "The furniture is expensive.",
+    "c": "The furnitures are expensive.",
+    "d": "The furnitures is expensive."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 30,
+   "q": "Choose the antonym of “expand.”",
+   "options": {
+    "a": "Increase",
+    "b": "Develop",
+    "c": "Reduce",
+    "d": "Stretch"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 31,
+   "q": "Choose the correct sentence.",
+   "options": {
+    "a": "Each of the boys have completed the task.",
+    "b": "Each of the boys has completed the task.",
+    "c": "Each of the boys were completed the task.",
+    "d": "Each of the boys complete the task."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 32,
+   "q": "Choose the correct word to fill in the bank. I deeply _________ getting pregnant but I couldn't go against the wishes of my boyfriend.",
+   "options": {
+    "a": "dreaded",
+    "b": "wanted",
+    "c": "eagerly",
+    "d": "wished"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 33,
+   "q": "One who talks while asleep is called:",
+   "options": {
+    "a": "Somnambulist",
+    "b": "Somniloquist",
+    "c": "Somniferous",
+    "d": "Sleeptalker"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 34,
+   "q": "Iconoclast is one who:",
+   "options": {
+    "a": "Destroys images.",
+    "b": "A group of icons.",
+    "c": "Is a popular figure of the society.",
+    "d": "Is a popular figure of the history."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 35,
+   "q": "One who collects coins is:",
+   "options": {
+    "a": "Collector",
+    "b": "Narcissist",
+    "c": "Calligrapher",
+    "d": "Numismatist"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 36,
+   "q": "A government ruled by the people is called:",
+   "options": {
+    "a": "Monarchy",
+    "b": "Dictatorship",
+    "c": "Democracy",
+    "d": "Oligarchy"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 37,
+   "q": "A ____________ of pilgrims entered the city.",
+   "options": {
+    "a": "band",
+    "b": "bevy",
+    "c": "assembly",
+    "d": "herd"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": "Two options are defensible: 'assembly' is ordinary English for a gathering of people and would not be wrong in isolation. 'Band' is the conventional textbook collective for pilgrims and is almost certainly the intended key.",
+   "passage": null
+  },
+  {
+   "n": 38,
+   "q": "A ____________ of dogs was spotted nearby.",
+   "options": {
+    "a": "litter",
+    "b": "kennel",
+    "c": "gaggle",
+    "d": "pride"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "The genuinely standard collective for dogs - 'a pack of dogs' - is not among the options. 'Kennel' is the best of what is offered and is listed in the usual exam tables, but it is a weak collective noun since it primarily denotes the shelter rather than the group.",
+   "passage": null
+  },
+  {
+   "n": 39,
+   "q": "An ____________ of ships approached the shore.",
+   "options": {
+    "a": "pack",
+    "b": "band",
+    "c": "shoal",
+    "d": "armada"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 40,
+   "q": "The new software update is the ____________ one we've had to install.",
+   "options": {
+    "a": "complicated",
+    "b": "more complicated",
+    "c": "most complicated",
+    "d": "complicates"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 41,
+   "q": "Which sentence uses the comparative degree correctly?",
+   "options": {
+    "a": "She is smarter than any student in the class.",
+    "b": "She is smarter than any other student in the class.",
+    "c": "She is smartest than any other student in the class.",
+    "d": "She is more smarter than any other student in the class."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 42,
+   "q": "Choose the correct sentence.",
+   "options": {
+    "a": "No sooner had he arrived than it started raining.",
+    "b": "No sooner had he arrived when it started raining.",
+    "c": "No sooner he had arrived than it started raining.",
+    "d": "No sooner did he arrived than it started raining."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 43,
+   "q": "Her explanation was so ____________ that nobody could understand what she really meant.",
+   "options": {
+    "a": "lucid",
+    "b": "ambiguous",
+    "c": "precise",
+    "d": "evident"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 44,
+   "q": "The scientist's discovery was considered ____________ because it changed the course of medical research.",
+   "options": {
+    "a": "trivial",
+    "b": "revolutionary",
+    "c": "ordinary",
+    "d": "obsolete"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 45,
+   "q": "The manager appreciated employees who were ____________ and completed tasks without supervision.",
+   "options": {
+    "a": "lethargic",
+    "b": "diligent",
+    "c": "arrogant",
+    "d": "careless"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 46,
+   "q": "Being ill, he could not attend the classes at school. (Complex Sentence)",
+   "options": {
+    "a": "His illness prevented him from attending the classes at school.",
+    "b": "As he was ill, he could not attend the classes at school.",
+    "c": "He could not attend the classes at school because of his illness.",
+    "d": "He was ill and so he could not attend the classes at school."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 47,
+   "q": "He finished his homework and went out to play. (Simple Sentence)",
+   "options": {
+    "a": "After he finished his homework, he went out to play.",
+    "b": "He went out to play because he finished his homework.",
+    "c": "He finished his homework so that he could go out to play.",
+    "d": "Having finished his homework, he went out to play."
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 48,
+   "q": "If you do not work hard, you will fail. (Compound Sentence)",
+   "options": {
+    "a": "Work hard or you will fail",
+    "b": "Since you didn't work hard, you failed",
+    "c": "By working hard, you can avoid failure.",
+    "d": "You will fail unless you work hard."
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 49,
+   "q": "Why did your brother write such a letter? (Passive Voice)",
+   "options": {
+    "a": "Why had such a letter been written by your brother?",
+    "b": "Why was such a letter written by your brother?",
+    "c": "Why did such a letter be written by your brother?",
+    "d": "Why such a letter written by your brother?"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 50,
+   "q": "The room was filled with smoke. (Active Voice)",
+   "options": {
+    "a": "Smoke has filled the room",
+    "b": "Smoke filled the room.",
+    "c": "Smoke fills the room.",
+    "d": "Smoke had filled the room."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 51,
+   "q": "No one was absent. (Affirmative Sentence)",
+   "options": {
+    "a": "All were absent.",
+    "b": "Everyone was present.",
+    "c": "Someone was present.",
+    "d": "Everyone was not absent"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 52,
+   "q": "The committee approved the proposal. (Passive Voice)",
+   "options": {
+    "a": "The proposal approves the committee.",
+    "b": "The proposal was approved by the committee.",
+    "c": "The committee was approved by the proposal.",
+    "d": "The proposal has approved the committee."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 53,
+   "q": "The bridge was constructed by skilled engineers. (Active Voice)",
+   "options": {
+    "a": "Skilled engineers constructed the bridge.",
+    "b": "Skilled engineers were constructing the bridge.",
+    "c": "The bridge constructed skilled engineers.",
+    "d": "Skilled engineers are constructing the bridge"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 54,
+   "q": "Everyone admired his honesty. (Negative sentence)",
+   "options": {
+    "a": "Nobody admired his honesty.",
+    "b": "No one failed to admire his honesty.",
+    "c": "No one admired his honesty.",
+    "d": "Everyone did not admire his honesty."
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 55,
+   "q": "The night was very beautiful. (Exclamatory sentence)",
+   "options": {
+    "a": "The night was not beautiful!",
+    "b": "Was the night beautiful!",
+    "c": "How beautiful the night was!",
+    "d": "The night is beautiful indeed!"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning."
+  },
+  {
+   "n": 56,
+   "q": "I know that he is honest.",
+   "options": {
+    "a": "Adjective clause",
+    "b": "Adverb clause",
+    "c": "Noun clause",
+    "d": "Principal clause"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
+   "focus": "he is honest"
+  },
+  {
+   "n": 57,
+   "q": "The boy who won the prize is my cousin.",
+   "options": {
+    "a": "Noun clause",
+    "b": "Adjective clause",
+    "c": "Adverb clause",
+    "d": "Coordinate clause"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
+   "focus": "who won the prize"
+  },
+  {
+   "n": 58,
+   "q": "When the rain stopped, the children went outside.",
+   "options": {
+    "a": "Noun clause",
+    "b": "Adverb clause",
+    "c": "Adjective clause",
+    "d": "Coordinate clause"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
+   "focus": "When the rain stopped"
+  },
+  {
+   "n": 59,
+   "q": "This is the house where I was born.",
+   "options": {
+    "a": "Noun clause",
+    "b": "Adverb clause",
+    "c": "Adjective clause",
+    "d": "Main clause"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
+   "focus": "where I was born"
+  },
+  {
+   "n": 60,
+   "q": "The two parties have arrived _________ a mutual agreement.",
+   "options": {
+    "a": "at",
+    "b": "in",
+    "c": "on",
+    "d": "by"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+  },
+  {
+   "n": 61,
+   "q": "Scientists are usually absorbed _________ their works, often forgetting to eat.",
+   "options": {
+    "a": "at",
+    "b": "in",
+    "c": "on",
+    "d": "with"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+  },
+  {
+   "n": 62,
+   "q": "He was so engrossed _________ his study for written exam that he didn't hear the alarm go off.",
+   "options": {
+    "a": "at",
+    "b": "with",
+    "c": "in",
+    "d": "on"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+  },
+  {
+   "n": 63,
+   "q": "The judge ruled that the evidence was not relevant _________ the case being tried.",
+   "options": {
+    "a": "to",
+    "b": "with",
+    "c": "for",
+    "d": "about"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+  },
+  {
+   "n": 64,
+   "q": "It is difficult to distinguish between a career politician and one who acts __________ conviction.",
+   "options": {
+    "a": "with",
+    "b": "by",
+    "c": "out of",
+    "d": "through"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Two options are grammatically and idiomatically defensible. (a) 'with conviction' is standard English and a candidate choosing it is not making a collocation error; only the logic of the career-politician contrast, which requires a motive rather than a manner, settles the item in favour of (c).",
+   "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+  },
+  {
+   "n": 65,
+   "q": "She has a remarkable knack _______ finding the best school in the city she visits.",
+   "options": {
+    "a": "of",
+    "b": "in",
+    "c": "with",
+    "d": "for"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Two options are defensible: 'a knack of finding' is an attested (chiefly British and older) variant that dictionaries record alongside 'a knack for'. 'For' is the more common modern form and the evident intended key, but 'of' is not an outright error.",
+   "passage": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:"
+  }
+ ]
+}

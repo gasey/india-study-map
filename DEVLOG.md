@@ -9,6 +9,50 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep: Concepts tab (72 explanations) + two missing question sets
+
+**What shipped:** third tab on `/interview`, plus two Q&A gaps closed.
+
+- **`src/data/interview/concepts.ts`** — 72 concept explanations across 9
+  units, each with `short` (one-line recall), `explain` (2–5 points of
+  actual understanding), optional `example`, and optional `exam` (the MCQ
+  angle or the trap). Weighted toward the flagged weak areas rather than
+  spread evenly: Networking 14, DBMS 10, Computer Fundamentals & OS 10,
+  Cyber Security 9, Web Technologies 7, IT Governance 6, AI/Cloud 6,
+  Windows Server & Directory Services 5, GIS & Spatial Data 5.
+- **GIS is included as its own unit** even though it isn't a named
+  syllabus heading — it's the candidate's own domain and the strongest
+  bridge to MUDAL's work (AMRUT's GIS master-plan sub-scheme). Several
+  concepts deliberately close with a MUDAL/ICCC-specific example so the
+  revision doubles as interview material.
+- **Two new question entries** in `questions.ts`: "you left government for
+  the private sector, why come back?" (highly probable given his
+  trajectory, previously unprepared, flagged ⚠️ because only he knows the
+  real reason) and a new **Questions You Ask Them** category — six entries
+  including an explicit "what not to ask" (salary is fixed at ₹50,000 in
+  the advertisement; asking signals you didn't read it).
+
+**Why:** the Q&A points were terse by design — good for rehearsal, useless
+for actually learning a syllabus unit cold. He asked for detailed concept
+explanations, and separately for the two obvious interview gaps.
+
+**Implementation notes:** concept ids are prefixed `c-` so they can't
+collide in the shared `reviewed` Set / localStorage key. Concepts group by
+`unit` (order comes from the exported `conceptUnits` array, not from
+scanning the data). Search now covers term/short/explain/example/exam and
+stays scoped to the active tab.
+
+**What's still open:** unchanged — CMES's full expansion, the DILRMP end
+date / CMES join date reconciliation, and the unverified Chanmari AMC ward
+/ Local Council President. Also still open from the improvements review:
+the CV names "Shiksha (shikshacom.com)" as employer and never mentions
+CMES, which is a real defect blocked on the expansion. Verified via
+`tsc --noEmit` (clean) and a browser pass: three tabs, unit accordion,
+concept expand showing explain + Example + Exam-angle blocks, scoped
+search, counters (Q&A 78, Briefs 9, Concepts 72). Progress reset to 0.
+
+---
+
 ## 2026-09-21 — Interview Prep gains a Briefs tab (reference dossiers, not just Q&A)
 
 **What shipped:** `/interview` is now two tabs over the same page —

@@ -5,23 +5,26 @@ import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
 import { interviewCategories, totalInterviewQuestions } from '@/data/interview/questions';
 import { briefs, totalBriefs } from '@/data/interview/briefs';
+import { concepts, conceptUnits, totalConcepts } from '@/data/interview/concepts';
 
 // ============================================
 // INTERVIEW PREP — MUDAL System Manager
 //
-// Two tabs over static reference content:
-//  - Q&A     → src/data/interview/questions.ts (rehearsal)
-//  - Briefs  → src/data/interview/briefs.ts    (study/reference)
+// Three tabs over static reference content:
+//  - Q&A       → src/data/interview/questions.ts (rehearsal)
+//  - Briefs    → src/data/interview/briefs.ts    (org/personal dossiers)
+//  - Concepts  → src/data/interview/concepts.ts  (syllabus explanations)
 //
-// Only "reviewed"/"read" state needs persistence, so it gets its own
-// localStorage key rather than touching the global store — this is
+// Only "reviewed"/"read"/"learned" state needs persistence, so it gets its
+// own localStorage key rather than touching the global store — this is
 // personal study progress the rest of the app has no reason to depend on.
-// Question ids and brief ids share one Set; they're unique across both.
+// Question, brief and concept ids share one Set; concept ids are prefixed
+// `c-` so they can't collide with the other two.
 // ============================================
 
 const STORAGE_KEY = 'interview-reviewed-v1';
 
-type Tab = 'questions' | 'briefs';
+type Tab = 'questions' | 'briefs' | 'concepts';
 
 function loadReviewed(): Set<string> {
   try {
@@ -40,6 +43,7 @@ export function InterviewPage() {
   const [reviewed, setReviewed] = useState<Set<string>>(() => loadReviewed());
   const [openCategory, setOpenCategory] = useState<string | null>(interviewCategories[0]?.id ?? null);
   const [openBrief, setOpenBrief] = useState<string | null>(briefs[0]?.id ?? null);
+  const [openUnit, setOpenUnit] = useState<string | null>(conceptUnits[0] ?? null);
   const [query, setQuery] = useState('');
   const [hideReviewed, setHideReviewed] = useState(false);
 
@@ -90,6 +94,29 @@ export function InterviewPage() {
       );
     });
   }, [q, hideReviewed, reviewed]);
+
+  const filteredUnits = useMemo(() => {
+    return conceptUnits
+      .map((unit) => ({
+        unit,
+        items: concepts.filter((c) => {
+          if (c.unit !== unit) return false;
+          if (hideReviewed && reviewed.has(c.id)) return false;
+          if (!q) return true;
+          return (
+            c.term.toLowerCase().includes(q) ||
+            c.short.toLowerCase().includes(q) ||
+            c.unit.toLowerCase().includes(q) ||
+            c.explain.some((x) => x.toLowerCase().includes(q)) ||
+            (c.example ?? '').toLowerCase().includes(q) ||
+            (c.exam ?? '').toLowerCase().includes(q)
+          );
+        }),
+      }))
+      .filter((g) => g.items.length > 0);
+  }, [q, hideReviewed, reviewed]);
+
+  const conceptsLearned = useMemo(() => concepts.filter((c) => reviewed.has(c.id)).length, [reviewed]);
 
   const questionsReviewed = useMemo(
     () => interviewCategories.reduce((n, c) => n + c.questions.filter((i) => reviewed.has(i.id)).length, 0),
@@ -149,13 +176,22 @@ export function InterviewPage() {
         >
           📚 Briefs <span className="opacity-60">({briefsRead}/{totalBriefs})</span>
         </button>
+        <button
+          onClick={() => setTab('concepts')}
+          className="px-3 py-1.5 rounded-md text-sm transition-colors"
+          style={tabBtnStyle(tab === 'concepts')}
+        >
+          🧩 Concepts <span className="opacity-60">({conceptsLearned}/{totalConcepts})</span>
+        </button>
       </div>
 
       {/* Controls */}
       <div className="shrink-0 flex flex-wrap items-center gap-2 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
         <input
           type="text"
-          placeholder={tab === 'questions' ? 'Search questions…' : 'Search briefs…'}
+          placeholder={
+            tab === 'questions' ? 'Search questions…' : tab === 'briefs' ? 'Search briefs…' : 'Search concepts…'
+          }
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className={`${selectCls} w-56`}
@@ -163,7 +199,7 @@ export function InterviewPage() {
         />
         <label className="flex items-center gap-1.5 text-sm cursor-pointer select-none" style={{ color: 'var(--text-secondary)' }}>
           <input type="checkbox" checked={hideReviewed} onChange={(e) => setHideReviewed(e.target.checked)} />
-          {tab === 'questions' ? 'Hide reviewed' : 'Hide read'}
+          {tab === 'questions' ? 'Hide reviewed' : tab === 'briefs' ? 'Hide read' : 'Hide learned'}
         </label>
         <button
           onClick={() => setReviewed(new Set())}
@@ -208,6 +244,44 @@ export function InterviewPage() {
                             points={item.points}
                             isReviewed={reviewed.has(item.id)}
                             onToggleReviewed={() => toggleReviewed(item.id)}
+                          />
+                        ))}
+                      </div>
+                    )}
+                  </section>
+                );
+              })}
+            </>
+          ) : tab === 'concepts' ? (
+            <>
+              {filteredUnits.length === 0 && <Empty query={query} />}
+              {filteredUnits.map((g) => {
+                const isOpen = openUnit === g.unit || q.length > 0;
+                const learned = g.items.filter((c) => reviewed.has(c.id)).length;
+
+                return (
+                  <section key={g.unit} className="surface rounded-lg border overflow-hidden" style={{ borderColor: 'var(--border)' }}>
+                    <button
+                      onClick={() => setOpenUnit(isOpen && !q ? null : g.unit)}
+                      className="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-[var(--bg-panel-elev)] transition-colors"
+                    >
+                      <div className="min-w-0 flex-1">
+                        <div className="font-medium">{g.unit}</div>
+                      </div>
+                      <span className="text-xs shrink-0" style={{ color: 'var(--text-secondary)' }}>
+                        {learned}/{g.items.length}
+                      </span>
+                      <span className="shrink-0" style={{ color: 'var(--text-secondary)' }}>{isOpen ? '▾' : '▸'}</span>
+                    </button>
+
+                    {isOpen && (
+                      <div className="border-t divide-y" style={{ borderColor: 'var(--border)' }}>
+                        {g.items.map((c) => (
+                          <ConceptRow
+                            key={c.id}
+                            concept={c}
+                            isLearned={reviewed.has(c.id)}
+                            onToggleLearned={() => toggleReviewed(c.id)}
                           />
                         ))}
                       </div>
@@ -285,6 +359,75 @@ function Empty({ query }: { query: string }) {
     <p className="text-sm py-8 text-center" style={{ color: 'var(--text-secondary)' }}>
       Nothing matches “{query}”.
     </p>
+  );
+}
+
+function ConceptRow({
+  concept,
+  isLearned,
+  onToggleLearned,
+}: {
+  concept: import('@/data/interview/concepts').Concept;
+  isLearned: boolean;
+  onToggleLearned: () => void;
+}) {
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <div className="px-4 py-3">
+      <div className="flex items-start gap-3">
+        <input
+          type="checkbox"
+          checked={isLearned}
+          onChange={onToggleLearned}
+          className="mt-1 shrink-0"
+          title="Mark as learned"
+        />
+        <button onClick={() => setExpanded((v) => !v)} className="flex-1 min-w-0 text-left">
+          <div className="text-sm font-medium" style={{ color: isLearned ? 'var(--text-secondary)' : 'var(--text-primary)' }}>
+            {concept.term}
+          </div>
+          <div className="text-xs mt-0.5" style={{ color: 'var(--text-secondary)' }}>{concept.short}</div>
+        </button>
+        <span
+          className="shrink-0 text-xs cursor-pointer"
+          style={{ color: 'var(--text-secondary)' }}
+          onClick={() => setExpanded((v) => !v)}
+        >
+          {expanded ? '▾' : '▸'}
+        </span>
+      </div>
+
+      {expanded && (
+        <div className="mt-2 ml-7 space-y-2">
+          <ul className="space-y-1 list-disc list-outside ml-4 text-sm" style={{ color: 'var(--text-secondary)', lineHeight: 1.55 }}>
+            {concept.explain.map((x, i) => (
+              <li key={i}>{x}</li>
+            ))}
+          </ul>
+
+          {concept.example && (
+            <div
+              className="text-sm rounded-md px-3 py-2"
+              style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)', lineHeight: 1.55 }}
+            >
+              <span className="font-medium" style={{ color: 'var(--text-primary)' }}>Example · </span>
+              {concept.example}
+            </div>
+          )}
+
+          {concept.exam && (
+            <div
+              className="text-sm rounded-md px-3 py-2"
+              style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)', lineHeight: 1.55 }}
+            >
+              <span className="font-medium" style={{ color: 'var(--text-primary)' }}>🎯 Exam angle · </span>
+              {concept.exam}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
   );
 }
 

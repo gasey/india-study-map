@@ -104,11 +104,82 @@ export const interviewCategories: InterviewCategory[] = [
         ],
       },
       {
+        id: 'why-left-government',
+        q: 'You left government service for the private sector. Why do you want to come back?',
+        points: [
+          '⚠️ Only you know the real reason — prepare an honest version, do not improvise this one in the room. It is highly likely to be asked given your trajectory (government → private → applying back into a PSU).',
+          'If the DILRMP post was contractual / project-based and simply ended, say so plainly. That is the cleanest answer and needs no spin.',
+          'The fear you are defusing is "he will leave again." Address it before they voice it: name something about this post that the private sector cannot give you — continuity of public infrastructure, work that serves Aizawl directly, a system you would own long-term.',
+          'Turn the gap into an asset: the private role gave you production ownership and team leadership that government IT posts rarely offer at this stage, and you are bringing that back rather than starting over.',
+          'Do not criticise your current employer, and do not make it sound purely about stability or pay — that invites the follow-up "so you would leave for more pay elsewhere?"',
+        ],
+      },
+      {
         id: 'five-years',
         q: 'Where do you see yourself in five years?',
         points: [
           'Growing into broader IT/e-governance leadership within MUDAL or UD&PA.',
           'Contributing to how the state sustains and expands digital infrastructure once mission-based central funding (like the closed Smart Cities Mission) is no longer the default.',
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'ask-them',
+    title: 'Questions You Ask Them',
+    glyph: '❓',
+    blurb: 'Every interview ends with this. Most candidates waste it — you should not.',
+    questions: [
+      {
+        id: 'ask-handover-state',
+        q: '"What stage is the handover from Aizawl Smart City Ltd. currently at?"',
+        points: [
+          'Strongest question you can ask — it proves you understand MUDAL is a transition, not a settled organisation.',
+          'Whatever they answer tells you what your first six months actually look like.',
+          'Natural follow-up if invited: whether systems documentation and vendor contracts came across with the assets.',
+        ],
+      },
+      {
+        id: 'ask-iccc-ownership',
+        q: '"Does the System Manager own the ICCC vendor and AMC relationship, or does that sit with the engineering wing?"',
+        points: [
+          'Shows you have thought about where the role\'s authority actually begins and ends.',
+          'Also a polite way of finding out whether this post is strategic or purely operational.',
+        ],
+      },
+      {
+        id: 'ask-team-size',
+        q: '"Is there an existing IT team, or would this be a single-person function to start with?"',
+        points: [
+          'Only 12 posts were advertised and just one System Manager, so this is a fair and informed question.',
+          'If it is a single-person function, that is worth knowing — and worth saying you are comfortable with, given you already run systems end to end.',
+        ],
+      },
+      {
+        id: 'ask-first-year',
+        q: '"What would success in this post look like at the end of the first year?"',
+        points: [
+          'Invites them to state their actual priorities, which is useful to you and flattering to them.',
+          'Listen carefully — their answer is the brief you would be measured against.',
+        ],
+      },
+      {
+        id: 'ask-coordination',
+        q: '"How does MUDAL coordinate with AMC and the Police on ICCC operations day to day?"',
+        points: [
+          'Signals that you see the ICCC as a multi-agency system, not just a technical installation.',
+          'Use this one only if the ICCC has already come up — otherwise it can read as presumptuous about your posting.',
+        ],
+      },
+      {
+        id: 'ask-avoid',
+        q: 'What NOT to ask in the first interview',
+        points: [
+          'Salary — it is fixed at ₹50,000/month in the advertisement. Asking suggests you did not read it.',
+          'Leave, working hours, or transfer policy. Legitimate concerns, wrong moment.',
+          '"What does MUDAL do?" — anything you could have found in the advertisement or on the department website.',
+          'Never say "no, I have no questions." It reads as disinterest. Have two ready and ask at least one.',
         ],
       },
     ],

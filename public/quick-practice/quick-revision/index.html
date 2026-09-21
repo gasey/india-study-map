@@ -80,8 +80,9 @@ header{background:var(--navy);color:#fff;padding:20px 16px 18px;border-bottom:4p
 
 /* Question card */
 .qcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 16px;margin-top:12px;box-shadow:0 1px 3px rgba(18,58,35,.07)}
-.qhead{display:flex;gap:10px;align-items:baseline;margin-bottom:12px}
+.qhead{display:flex;gap:10px;align-items:baseline;margin-bottom:12px;flex-wrap:wrap}
 .qnum{flex:none;font-family:Georgia,serif;font-size:.82rem;font-weight:700;color:var(--gold);background:var(--navy);border-radius:7px;padding:3px 8px;line-height:1.3}
+.psrc{flex:none;font-size:.68rem;font-weight:700;letter-spacing:.03em;color:var(--muted);background:#f1ede0;border-radius:7px;padding:3px 8px;line-height:1.3}
 .qtext{font-family:Georgia,serif;font-size:1.03rem;line-height:1.45;color:var(--navy-deep);flex:1}
 .qtext .focus{text-decoration-thickness:2px;text-underline-offset:3px;font-weight:600}
 .passage{background:#fdf9ef;border-left:3px solid var(--gold);border-radius:0 9px 9px 0;padding:12px 13px;font-size:.85rem;color:#4d5263;line-height:1.6;margin-bottom:13px;white-space:pre-wrap}
@@ -227,9 +228,11 @@ footer{text-align:center;font-size:.72rem;color:#9aa0ad;margin-top:30px;padding-
 </div>
 
 <footer>
-  Transcribed from the marked MPSC question booklets · August 2026.<br>
-  Answers shown are the marks on the booklet, not an official MPSC key —
-  where the two disagree it is called out on the question.
+  SAS-I &amp; Staff Nurse transcribed from the marked MPSC question booklets · August 2026.
+  The rest imported from Practice Hub 2.<br>
+  Answers shown are the booklet's own mark (or Practice Hub 2's resolved answer where
+  none was marked), not an official MPSC key — where something disagrees it is called
+  out on the question.
 </footer>
 </div>
 
@@ -240,6 +243,34 @@ footer{text-align:center;font-size:.72rem;color:#9aa0ad;margin-top:30px;padding-
 
   var PAPERS = (window.QR_DATA && window.QR_DATA.papers) || [];
   var LETTERS = ['a', 'b', 'c', 'd', 'e'];
+
+  // Offered as its own pickable "paper" so one Revise/Mock run can span every
+  // paper instead of one at a time. Each question is cloned and renumbered
+  // 1..N within this deck only — the real papers keep their own numbering
+  // everywhere else, and _sourcePaper tags which paper a card came from since
+  // the deck otherwise gives no clue you've crossed from one exam to another.
+  if (PAPERS.length > 1) {
+    var allQuestions = [];
+    PAPERS.forEach(function (p) {
+      p.questions.forEach(function (q) {
+        var qc = {};
+        for (var k in q) {
+          if (Object.prototype.hasOwnProperty.call(q, k)) qc[k] = q[k];
+        }
+        qc.n = allQuestions.length + 1;
+        qc._sourcePaper = p.title;
+        allQuestions.push(qc);
+      });
+    });
+    PAPERS = [{
+      id: 'all',
+      title: 'All Papers — Combined',
+      subtitle: PAPERS.length + ' papers · ' + allQuestions.length + ' questions',
+      glyph: '📚',
+      note: 'Every paper in one deck — tick Shuffle below to mix papers together instead of running them in order.',
+      questions: allQuestions
+    }].concat(PAPERS);
+  }
 
   var state = {
     paperIdx: 0,
@@ -442,7 +473,8 @@ footer{text-align:center;font-size:.72rem;color:#9aa0ad;margin-top:30px;padding-
       }).join('');
       return '<div class="qcard" data-idx="' + idx + '">' +
         passageHTML(q, idx) +
-        '<div class="qhead"><span class="qnum">Q' + esc(q.n) + '</span>' +
+        '<div class="qhead">' + (q._sourcePaper ? '<span class="psrc">' + esc(q._sourcePaper) + '</span>' : '') +
+        '<span class="qnum">Q' + esc(q.n) + '</span>' +
         '<span class="qtext">' + stemHTML(q) + '</span></div>' +
         '<div class="opts">' + opts + '</div>' +
         '<button class="reveal-btn" data-reveal="' + idx + '">Tap to reveal answer</button>' +
@@ -509,7 +541,8 @@ footer{text-align:center;font-size:.72rem;color:#9aa0ad;margin-top:30px;padding-
 
     $('mockCard').innerHTML = '<div class="qcard">' +
       passageHTML(q, 'm') +
-      '<div class="qhead"><span class="qnum">' + (state.i + 1) + ' / ' + state.list.length + '</span>' +
+      '<div class="qhead">' + (q._sourcePaper ? '<span class="psrc">' + esc(q._sourcePaper) + '</span>' : '') +
+      '<span class="qnum">' + (state.i + 1) + ' / ' + state.list.length + '</span>' +
       '<span class="qtext">' + stemHTML(q) + '</span></div>' +
       '<div class="opts">' + opts + '</div>' +
       '<div class="verdict"></div>' +
@@ -602,7 +635,8 @@ footer{text-align:center;font-size:.72rem;color:#9aa0ad;margin-top:30px;padding-
 
     $('resReview').innerHTML = missed.length
       ? '<h3>What you missed</h3>' + missed.map(function (m) {
-          return '<div class="rv"><div class="q">Q' + esc(m.q.n) + '. ' + esc(m.q.q) + '</div>' +
+          return '<div class="rv"><div class="q">' + (m.q._sourcePaper ? esc(m.q._sourcePaper) + ' — ' : '') +
+            'Q' + esc(m.q.n) + '. ' + esc(m.q.q) + '</div>' +
             '<div class="you">You: (' + esc(m.picked) + ') ' + esc(m.q.options[m.picked]) + '</div>' +
             '<div class="ans">Answer: (' + esc(m.q.answer) + ') ' + esc(m.q.options[m.q.answer]) + '</div>' +
             (m.q.keyAnswer && m.q.keyAnswer !== m.q.answer

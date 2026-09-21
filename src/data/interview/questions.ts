@@ -39,10 +39,20 @@ export const interviewCategories: InterviewCategory[] = [
         q: 'Tell us about yourself.',
         points: [
           'B.E. Computer Science & Engineering, Jorhat Engineering College (Dibrugarh University).',
-          'Programmer, Directorate of Land Revenue & Settlement (DILRMP), 2023 – Aug 2025 — land record digitization, GIS, database unification, office network.',
-          'Currently Programmer & Team Leader at Shiksha (shikshacom.com), Aug 2025 – present — full-stack ed-tech platform.',
+          'Programmer, Directorate of Land Revenue & Settlement (DILRMP), Aug 2023 – [confirm exact end date] — land record digitization, GIS, database unification, office network.',
+          '⚠️ Confirm before the interview: exact DILRMP end date and CMES join date — get these consistent so you don\'t contradict yourself if asked.',
+          'Currently Programmer & Team Leader at CMES, working on the Shiksha (shikshacom.com) LMS platform — full-stack ed-tech platform.',
           'Independently built two personal projects: India Study Map and an MPSC Question Bank pipeline.',
           'Applying for System Manager because the role combines exactly what you already do: systems, data, and leading a small technical team.',
+        ],
+      },
+      {
+        id: 'employer-cmes',
+        q: 'Who do you actually work for — what is CMES?',
+        points: [
+          '⚠️ Confirm before the interview: the full expansion of "CMES" and its exact relationship to shikshacom.com (is CMES the registered company name that builds/owns Shiksha?).',
+          'Keep the answer simple and in this order: name the employer (CMES), then describe the product you build there (Shiksha) the same way you already describe it in "Tell us about yourself" — don\'t let an unfamiliar acronym be the first thing they hear.',
+          'If asked for a join date, give a single confirmed date — not a range you\'re unsure about.',
         ],
       },
       {

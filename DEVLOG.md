@@ -9,6 +9,27 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-21 — Interview Prep: add the CMES employer question
+
+**What shipped:** one new question (`employer-cmes`) in the About You
+category of `src/data/interview/questions.ts`, plus a flag added to the
+existing "Tell us about yourself" entry — the candidate clarified that
+CMES is the actual employer behind the Shiksha (shikshacom.com) work,
+not a separate job as it first read. Both items are marked with the
+same "confirm before the interview" flag pattern already used for the
+unverified AMC ward info, since the full expansion of "CMES" and the
+exact join date are still unconfirmed.
+
+**Why:** candidate-provided correction mid-prep; better to scaffold the
+content now with an explicit flag than block on the missing facts.
+
+**What's still open:** full name of CMES, and reconciling the DILRMP
+end date / CMES join date (both currently placeholders in the question
+text). Verified via `tsc --noEmit` (clean) and a real dev-server load —
+new question renders, category count went 7→8, total 70→71.
+
+---
+
 ## 2026-09-21 — Interview Prep module for the MUDAL System Manager post
 
 **What shipped:** a new `/interview` route (`src/modules/interview/InterviewPage.tsx`

@@ -13,6 +13,7 @@ import type { FlashCard } from '@/data/decks/types';
 import { FlashcardFlip } from '@/modules/flashcards/FlashcardFlip';
 import { QuestionReviewPanel } from './QuestionReviewPanel';
 import { DescriptiveQuestionCard } from './DescriptiveQuestionCard';
+import { LetterPrecisTab } from './LetterPrecisTab';
 import './state-tax-officer.css';
 
 /** Synthetic deck id — the Review tab reuses `deckProgress`'s per-card SM-2
@@ -26,7 +27,7 @@ interface Props {
   papers: ExamPaper[];
 }
 
-const PREP_TABS = ['overview', 'primers', 'bank', 'descriptive', 'exam-browse', 'yearly-browse', 'paper-browse', 'mock', 'progress', 'review'] as const;
+const PREP_TABS = ['overview', 'primers', 'bank', 'descriptive', 'letter-precis', 'exam-browse', 'yearly-browse', 'paper-browse', 'mock', 'progress', 'review'] as const;
 type PrepTab = (typeof PREP_TABS)[number];
 type MockState = 'setup' | 'running' | 'review';
 interface MockResults {
@@ -412,6 +413,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
               {t === 'primers' && '📚 Primers'}
               {t === 'bank' && '❓ Question Bank'}
               {t === 'descriptive' && '📄 Descriptive & Essay'}
+              {t === 'letter-precis' && '✍️ Letter & Précis'}
               {t === 'exam-browse' && '🏛️ By Exam'}
               {t === 'yearly-browse' && '📅 By Year'}
               {t === 'paper-browse' && '📑 By Paper'}
@@ -440,6 +442,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
         {prepTab === 'descriptive' && (
           <DescriptiveTab questions={descriptiveQuestions} questionExamName={questionExamName} questionSitting={questionSitting} />
         )}
+        {prepTab === 'letter-precis' && <LetterPrecisTab />}
         {prepTab === 'exam-browse' && (
           <ExamBrowseTab
             questions={stateTaxQuestions}

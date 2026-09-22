@@ -9,6 +9,75 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-22 — Letter & Précis tab (format drill + shortening guide)
+
+**What shipped:** an eleventh tab on `/state-tax-officer`, sitting next to
+Descriptive & Essay, backed by `src/data/english/letter-precis.ts` and
+rendered by `src/modules/mpsc/LetterPrecisTab.tsx`.
+
+Two halves, because they are two different kinds of memory:
+
+- **Letters → placement.** Six formats (official/government, letter to the
+  editor, job application, complaint to a company, business order/enquiry,
+  informal). Each has a labelled block skeleton with alignment, a note per
+  block on what loses marks, memorisable opening lines, the correct
+  complimentary close, a mistakes list, and a full worked letter. The drill
+  is **"rebuild it from memory"**: the blocks arrive shuffled and have to be
+  clicked back into order. A wrong click is counted but *not accepted*, so
+  the sequence on screen is always the correct one — you never sit staring
+  at a wrong order you just built.
+- **Précis → judgement.** Nine rules, eleven mechanical compression moves
+  with before/after word counts, 28 wordy-phrase→word and 18
+  many-words→one-word substitutions (with a hide-answers self-test toggle),
+  one fully worked précis, and three drill types: **choose the best
+  shortening** (22 items, filterable by technique), **keep or cut?** (14),
+  and **best title** (6).
+
+**Why:** he asked for it directly — practise where each part of a letter
+goes until it's automatic, and for précis, *not* to have to write a full
+one every time but to see examples and "choose the correct shortage". So
+the précis half is entirely multiple-choice: the skill being trained is
+judging a compression, which is the part that actually decides the marks,
+and it costs seconds instead of twenty minutes per rep.
+
+**Everything is grounded in the real corpus, not invented.** Every
+`realPrompts` string is a verbatim task pulled from MPSC General English
+papers in `/home.old/hruaia/Downloads/mpsc_pdfs_examination/Old_Questions/`
+(`grep -rhio "write a letter[^.]\{0,220\}"` over the OCR text is how the
+six format types were chosen — they are the six that actually recur). The
+worked précis uses the **Group 'B' (Gazetted) Combined, July-2024, General
+English Q.1** passage, reproduced from that paper's OCR text: 292 words,
+target ≈97, model answer 102 with the count shown. The marks and lengths
+quoted (letter 10–15, précis 14–15, "about one-third of its original
+length", "giving a suitable title") are what those papers actually print.
+
+**One honesty constraint, stated in the data file's header and worth
+keeping:** MPSC has never published a marking rubric for the descriptive
+English papers. The block orders here are the standard Indian formal-letter
+layout, and they are presented as "the safe default, and be consistent" —
+never as "MPSC requires this". Inventing a rubric and drilling it would be
+the same class of error as drilling an unverified fact as certain.
+
+**What's still open:** the drills are static — no spaced repetition, no
+"redrill only what I got wrong". The `answered` map records first-attempt
+correctness per drill id, so the data to build that already exists.
+There's no timed mode. And a genuine gap: nothing here covers **report
+writing** or **expansion of an idea** ("Expand the following passage into
+200–250 words", 15 marks, seen on the same papers) — both are format-heavy
+in the same way and would slot into this tab as a third and fourth half.
+
+Verified with `tsc --noEmit` (clean) and a live browser pass: tab renders,
+format picker switches all six, the informal letter correctly shows eight
+blocks and *no* subject line, the rebuild drill counts a wrong click and
+refuses it then accepts the right one (1/8 placed · 1 wrong click), a wrong
+MCQ pick marks ✗ and reveals both the explanation and the targeted
+why-this-option-fails, the hide-answers toggle masks the substitution
+column, and the console is clean. (The browser tool's screenshot action
+timed out repeatedly, so the visual check was done through the DOM rather
+than an image.)
+
+---
+
 ## 2026-09-22 — MCQ practice tab (81 questions, active recall)
 
 **What shipped:** a fourth tab on `/interview`, backed by

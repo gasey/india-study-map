@@ -485,9 +485,9 @@ export const briefs: Brief[] = [
   // ------------------------------------------------------------------
   {
     id: 'army-awards',
-    title: 'Indian Army & gallantry awards',
+    title: 'Indian Army, 4 PARA (SF) & gallantry awards',
     glyph: '🎖️',
-    tagline: 'For the family question — and how to handle it well.',
+    tagline: 'For the family question — the unit, the award, the ranks, and how to handle it well.',
     sections: [
       {
         heading: 'The Kirti Chakra — what it actually is',
@@ -512,13 +512,38 @@ export const briefs: Brief[] = [
         ],
       },
       {
-        heading: 'Army basics worth having',
+        heading: '⭐ 4 PARA (Special Forces) — your brother\'s unit',
+        body:
+          'The Parachute Regiment\'s Special Forces battalions. Para (SF) has been active since 1 July 1966 and now runs to fifteen battalions: 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 21, 23 and 29 PARA (SF). The regimental colour is maroon.',
         bullets: [
-          'Commissioned officer ranks, ascending: Lieutenant → Captain → Major → Lieutenant Colonel → Colonel → Brigadier → Major General → Lieutenant General → General.',
-          'The Chief of the Army Staff (COAS) heads the Army; the Chief of Defence Staff (CDS) is the tri-service appointment; the President of India is the Supreme Commander of the Armed Forces.',
-          'Junior Commissioned Officers: Naib Subedar → Subedar → Subedar Major. Other ranks: Sepoy → Lance Naik → Naik → Havildar.',
-          'Assam Rifles is the oldest paramilitary force in India and the one most present in the North-East — administratively under the Ministry of Home Affairs, operationally under the Army.',
-          '⚠️ Do not over-prepare this. You are interviewing for a System Manager IT post, not a defence one. Know the award hierarchy properly and the rest lightly.',
+          '4 PARA converted from a straight parachute role to the Special Forces role around 2005 — 2 PARA led the conversion, with 3 and 4 PARA following in 2004–05.',
+          'Selection is roughly a three-month probation, including about 35 days of physical and skills training. Reported pass rates are around 12–15% — the attrition is the point.',
+          'On qualifying: the maroon beret, the Balidan badge, and the Special Forces shoulder tab.',
+          'The Balidan (Badge of Sacrifice): a commando dagger pointing downward, wings extending upward from the blade, and a scroll reading "Balidaan" in Devanagari — silver on an upright red rectangle. "Balidaan" = bali (sacrifice) + daan (offering).',
+          'Mottos associated with the regiment: "Men apart, every man an emperor", and Shatrujeet — Conqueror of Enemies.',
+          '4 PARA (SF) is publicly recorded as taking part in the 2016 cross-LoC strike, crossing in the Nowgam sector alongside 9 PARA (SF).',
+          'Lineage: the 50th Indian Parachute Brigade was raised 27 October 1941; the Parachute Regiment itself was formed in 1952.',
+        ],
+      },
+      {
+        heading: 'Officer ranks — the hierarchy you asked for',
+        body:
+          'Indian Army commissioned officer ranks, ascending. This is the "ranking of officers" answer.',
+        bullets: [
+          'Lieutenant → Captain → Major → Lieutenant Colonel → Colonel → Brigadier → Major General → Lieutenant General → General.',
+          'Field Marshal is a ceremonial five-star rank, conferred only twice: Sam Manekshaw and K. M. Cariappa.',
+          'Junior Commissioned Officers (JCOs): Naib Subedar → Subedar → Subedar Major.',
+          'Other Ranks: Sepoy → Lance Naik → Naik → Havildar.',
+          'General is the rank held by the Chief of the Army Staff (COAS). The Chief of Defence Staff (CDS) is the tri-service appointment. The President of India is Supreme Commander of the Armed Forces.',
+          '⚠️ Insignia detail (stars, crossed sword and baton, the Ashoka emblem) varies by rank and I have not verified it precisely — know the order confidently and don\'t improvise the insignia in the room.',
+        ],
+      },
+      {
+        heading: 'Other army context',
+        bullets: [
+          'Assam Rifles is India\'s oldest paramilitary force and the most present in the North-East — administratively under the Ministry of Home Affairs, operationally under the Army.',
+          'A battalion is commanded by a Colonel; a brigade by a Brigadier; a division by a Major General; a corps by a Lieutenant General.',
+          '⚠️ Do not over-prepare any of this. You are interviewing for a System Manager IT post, not a defence one. Know the gallantry hierarchy and your brother\'s unit properly; keep the rest light.',
         ],
       },
       {

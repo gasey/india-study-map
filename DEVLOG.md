@@ -9,6 +9,44 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-22 — 4 PARA (SF) and officer ranks added to the army brief
+
+**What shipped:** the `army-awards` brief gains a 4 PARA (Special Forces)
+section and a proper officer-rank hierarchy, after the candidate mentioned
+his brother serves in 4 PARA (SF). Renamed to "Indian Army, 4 PARA (SF) &
+gallantry awards".
+
+Researched rather than recalled: Para (SF) active since 1 July 1966, fifteen
+battalions (1,2,3,4,5,6,7,9,10,11,12,13,21,23,29); 4 PARA converted to the
+SF role around 2005; ~3-month probation with ~12-15% pass rates; maroon
+beret, Balidan badge (dagger down, wings up, "Balidaan" in Devanagari) and
+SF shoulder tab on qualifying; mottos "Men apart, every man an emperor" and
+Shatrujeet; 4 PARA publicly recorded in the 2016 cross-LoC strike in the
+Nowgam sector; lineage from the 50th Indian Parachute Brigade (27 Oct 1941)
+and the Parachute Regiment (1952).
+
+Officer ranks Lieutenant→General, plus Field Marshal as the ceremonial
+five-star (conferred twice), JCO and Other Ranks ladders, and which rank
+commands which formation.
+
+**Deliberately not asserted:** rank *insignia* detail (star counts, crossed
+sword and baton, Ashoka emblem placement). I could not verify it to the
+standard the rest of the brief holds, so it carries a ⚠️ telling him to know
+the order confidently and not improvise the insignia. Same rule as the
+handwritten names and the PMGSY retraction — an unverified specific is worse
+than an acknowledged gap.
+
+**Unchanged:** the handling advice still leads with the integrity point —
+his brother's award and service are his brother's, offered as a family fact,
+never as a credential. And the reminder not to over-prepare: this is a
+System Manager IT interview.
+
+**What's still open:** CMES join date, B.E. aggregate, HSSLC/HSLC
+percentages, category, PIN, certificate names; and the three UD&PA sub-pages
+that 404 on guessed URLs. Verified via `tsc --noEmit` (clean).
+
+---
+
 ## 2026-09-22 — UD&PA department mind map, built from the department's own site
 
 **What shipped:** `src/data/mindmaps/udpa.ts`, registered in

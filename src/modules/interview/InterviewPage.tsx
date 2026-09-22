@@ -7,6 +7,7 @@ import { useIsPrivileged } from '@/lib/access';
 import { interviewCategories, totalInterviewQuestions } from '@/data/interview/questions';
 import { briefs, totalBriefs } from '@/data/interview/briefs';
 import { concepts, conceptUnits, totalConcepts } from '@/data/interview/concepts';
+import { mcqs, mcqTopics, totalMcqs, type McqItem } from '@/data/interview/mcq';
 
 // ============================================
 // INTERVIEW PREP — MUDAL System Manager
@@ -25,7 +26,20 @@ import { concepts, conceptUnits, totalConcepts } from '@/data/interview/concepts
 
 const STORAGE_KEY = 'interview-reviewed-v1';
 
-type Tab = 'questions' | 'briefs' | 'concepts';
+type Tab = 'questions' | 'briefs' | 'concepts' | 'mcq';
+
+const MCQ_KEY = 'interview-mcq-v1';
+
+type McqResult = Record<string, boolean>;
+
+function loadMcqResults(): McqResult {
+  try {
+    const raw = localStorage.getItem(MCQ_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
 
 function loadReviewed(): Set<string> {
   try {
@@ -46,12 +60,18 @@ export function InterviewPage() {
   const [openCategory, setOpenCategory] = useState<string | null>(interviewCategories[0]?.id ?? null);
   const [openBrief, setOpenBrief] = useState<string | null>(briefs[0]?.id ?? null);
   const [openUnit, setOpenUnit] = useState<string | null>(conceptUnits[0] ?? null);
+  const [mcqTopic, setMcqTopic] = useState<string>('all');
+  const [mcqResults, setMcqResults] = useState<McqResult>(() => loadMcqResults());
   const [query, setQuery] = useState('');
   const [hideReviewed, setHideReviewed] = useState(false);
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify([...reviewed]));
   }, [reviewed]);
+
+  useEffect(() => {
+    localStorage.setItem(MCQ_KEY, JSON.stringify(mcqResults));
+  }, [mcqResults]);
 
   function toggleReviewed(id: string) {
     setReviewed((prev) => {
@@ -125,6 +145,13 @@ export function InterviewPage() {
     [reviewed]
   );
   const briefsRead = useMemo(() => briefs.filter((b) => reviewed.has(b.id)).length, [reviewed]);
+
+  const mcqPool = useMemo(
+    () => mcqs.filter((m) => mcqTopic === 'all' || m.topic === mcqTopic),
+    [mcqTopic]
+  );
+  const mcqAnswered = useMemo(() => Object.keys(mcqResults).length, [mcqResults]);
+  const mcqCorrect = useMemo(() => Object.values(mcqResults).filter(Boolean).length, [mcqResults]);
 
   const selectCls = 'px-2 py-1.5 rounded-md text-sm';
   const selectStyle = {
@@ -203,9 +230,39 @@ export function InterviewPage() {
         >
           🧩 Concepts <span className="opacity-60">({conceptsLearned}/{totalConcepts})</span>
         </button>
+        <button
+          onClick={() => setTab('mcq')}
+          className="px-3 py-1.5 rounded-md text-sm transition-colors"
+          style={tabBtnStyle(tab === 'mcq')}
+        >
+          ✅ MCQ <span className="opacity-60">({mcqCorrect}/{mcqAnswered || 0} · {totalMcqs})</span>
+        </button>
       </div>
 
       {/* Controls */}
+      {tab === 'mcq' ? (
+        <div className="shrink-0 flex flex-wrap items-center gap-2 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
+          <select value={mcqTopic} onChange={(e) => setMcqTopic(e.target.value)} className={selectCls} style={selectStyle}>
+            <option value="all">All topics ({mcqs.length})</option>
+            {mcqTopics.map((t) => (
+              <option key={t} value={t}>
+                {t} ({mcqs.filter((m) => m.topic === t).length})
+              </option>
+            ))}
+          </select>
+          <button
+            onClick={() => setMcqResults({})}
+            className="bordered px-2.5 py-1.5 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors"
+          >
+            Reset answers
+          </button>
+          <div className="ml-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
+            {mcqAnswered > 0
+              ? `${mcqCorrect}/${mcqAnswered} correct (${Math.round((mcqCorrect / mcqAnswered) * 100)}%)`
+              : 'No answers yet'}
+          </div>
+        </div>
+      ) : (
       <div className="shrink-0 flex flex-wrap items-center gap-2 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
         <input
           type="text"
@@ -228,6 +285,7 @@ export function InterviewPage() {
           Reset progress
         </button>
       </div>
+      )}
 
       <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-6">
         <div className="max-w-3xl mx-auto space-y-3">
@@ -271,6 +329,19 @@ export function InterviewPage() {
                   </section>
                 );
               })}
+            </>
+          ) : tab === 'mcq' ? (
+            <>
+              {mcqPool.length === 0 && <Empty query={mcqTopic} />}
+              {mcqPool.map((m, i) => (
+                <McqCard
+                  key={m.id}
+                  index={i + 1}
+                  item={m}
+                  result={mcqResults[m.id]}
+                  onAnswer={(correct) => setMcqResults((prev) => ({ ...prev, [m.id]: correct }))}
+                />
+              ))}
             </>
           ) : tab === 'concepts' ? (
             <>
@@ -379,6 +450,79 @@ function Empty({ query }: { query: string }) {
     <p className="text-sm py-8 text-center" style={{ color: 'var(--text-secondary)' }}>
       Nothing matches “{query}”.
     </p>
+  );
+}
+
+function McqCard({
+  index,
+  item,
+  result,
+  onAnswer,
+}: {
+  index: number;
+  item: McqItem;
+  result: boolean | undefined;
+  onAnswer: (correct: boolean) => void;
+}) {
+  const [picked, setPicked] = useState<number | null>(null);
+  const answered = picked !== null;
+
+  function choose(i: number) {
+    if (answered) return;
+    setPicked(i);
+    onAnswer(i === item.answer);
+  }
+
+  return (
+    <section className="surface rounded-lg border p-4" style={{ borderColor: 'var(--border)' }}>
+      <div className="flex items-start gap-2 mb-3">
+        <span className="text-xs shrink-0 mt-0.5" style={{ color: 'var(--text-secondary)' }}>Q{index}</span>
+        <div className="min-w-0">
+          <div className="text-sm font-medium">{item.q}</div>
+          <div className="text-xs mt-0.5" style={{ color: 'var(--text-secondary)' }}>
+            {item.topic}
+            {result !== undefined && !answered && (result ? ' · previously correct' : ' · previously wrong')}
+          </div>
+        </div>
+      </div>
+
+      <div className="space-y-1.5">
+        {item.options.map((opt, i) => {
+          const isRight = i === item.answer;
+          const isPicked = picked === i;
+          let bg = 'var(--bg-panel-elev)';
+          let bd = 'var(--border)';
+          if (answered && isRight) { bg = 'color-mix(in srgb, var(--good, #16a34a) 16%, transparent)'; bd = 'var(--good, #16a34a)'; }
+          else if (answered && isPicked) { bg = 'color-mix(in srgb, var(--bad, #dc2626) 16%, transparent)'; bd = 'var(--bad, #dc2626)'; }
+          return (
+            <button
+              key={i}
+              onClick={() => choose(i)}
+              disabled={answered}
+              className="w-full text-left text-sm rounded-md px-3 py-2 transition-colors"
+              style={{ background: bg, border: `1px solid ${bd}`, cursor: answered ? 'default' : 'pointer' }}
+            >
+              <span className="opacity-60 mr-2">{String.fromCharCode(65 + i)}.</span>
+              {opt}
+              {answered && isRight && <span className="ml-2">✓</span>}
+              {answered && isPicked && !isRight && <span className="ml-2">✗</span>}
+            </button>
+          );
+        })}
+      </div>
+
+      {answered && (
+        <div
+          className="mt-3 text-sm rounded-md px-3 py-2"
+          style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)', lineHeight: 1.55 }}
+        >
+          <span className="font-medium" style={{ color: 'var(--text-primary)' }}>
+            {picked === item.answer ? 'Correct · ' : 'Why: '}
+          </span>
+          {item.explain}
+        </div>
+      )}
+    </section>
   );
 }
 

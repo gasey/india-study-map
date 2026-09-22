@@ -9,6 +9,52 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-22 — MCQ practice tab (81 questions, active recall)
+
+**What shipped:** a fourth tab on `/interview`, backed by
+`src/data/interview/mcq.ts`. 81 questions across six topics —
+Abbreviations (15), UD&PA Schemes (15), MUDAL & ICCC (15), Mizoram &
+Aizawl (12), GIS & Spatial Data (12), and **Your Own Work** (12).
+
+**Why:** Briefs and Concepts are passive. He asked for something to
+practise and revise against, and reading is a weak revision method next to
+retrieval. The MCQ tab closes that gap.
+
+**Rules followed writing the items** (worth keeping for future additions):
+- Distractors are plausible, not filler — wrong options are things a
+  half-prepared candidate would actually pick. Several are *adjacent real
+  facts*: 19 (AMC wards), 28 (UD&PA towns), 9 (DUDOs) and 12 (Aizawl MLAs)
+  rotate as each other's distractors, because confusing them is the
+  realistic failure mode.
+- **Nothing unverified became an answer.** The CMES join date and the
+  handwriting-derived office-holder names are flagged ⚠️ elsewhere in the
+  module and are deliberately absent here — a quiz that drills an unverified
+  fact teaches it as certain.
+- Every item explains *why*, not just *which*. The explanation is the
+  revision; the answer is only the check.
+- The two standing corrections are drilled directly: one item asks which
+  ICCC funding argument is **weakest** (AMRUT), another asks the correct
+  statement about **PMGSY** (employer's work, not his).
+
+**"Your Own Work" is the unusual section** and was his specific request —
+his own dates, stack, team size, bug story and project figures as MCQs, so
+he can drill until they come out without hesitation. It includes the
+843/857/543/77,751 figures as each other's distractors, since mixing those
+up under pressure is the realistic risk.
+
+**UI:** topic filter, click-to-answer with immediate ✓/✗, explanation
+revealed on answer, running score and percentage, reset. Results persist to
+their own `interview-mcq-v1` key — separate from the reviewed-Set so a
+"reset answers" doesn't wipe brief/concept progress.
+
+**What's still open:** CMES join date, B.E. aggregate, HSSLC/HSLC
+percentages, category, PIN, certificate names; the three UD&PA sub-pages
+that 404. Verified via `tsc --noEmit` (clean) and a browser pass: tab
+renders, topic counts correct, a wrong pick marks ✗ and reveals the right
+answer, a right pick marks ✓, score updated to 1/2 (50%).
+
+---
+
 ## 2026-09-22 — Abbreviations decoder (Briefs 15 → 16)
 
 **What shipped:** a `decoder` brief, placed first in the Briefs list. Six

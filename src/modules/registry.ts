@@ -39,6 +39,10 @@ export interface AppModule {
   path: string;
   /** Grey out + "soon" badge without removing from the menu. */
   comingSoon?: boolean;
+  /** Hide from every module listing unless the viewer is privileged.
+   *  See lib/access.ts — this is obscurity, not security: the content
+   *  still ships in the JS bundle. */
+  adminOnly?: boolean;
 }
 
 export const modules: AppModule[] = [
@@ -209,6 +213,8 @@ export const modules: AppModule[] = [
     glyph: '🎤',
     kind: 'route',
     path: '/interview',
+    // Personal content (employment history, family, self-assessment).
+    adminOnly: true,
   },
   {
     id: 'practice-hub-2',

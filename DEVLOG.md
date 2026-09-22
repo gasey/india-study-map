@@ -9,6 +9,62 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-22 — Interview Prep: owner-only visibility gate, and ward data from the candidate's notes
+
+**What shipped, part 1 — the gate.** `/interview` holds genuinely personal
+material (employment history, a family bereavement, salary context,
+self-assessed weaknesses, a family member's gallantry award), so it is no
+longer listed or reachable for ordinary visitors.
+
+- `registry.ts` gains `adminOnly?: boolean`; the interview module sets it.
+- New `src/lib/access.ts` — `isPrivileged()` / `useIsPrivileged()` /
+  `useVisibleModules()`. Privileged = username in `OWNER_USERNAMES`
+  (`gasey`), or role `owner`/`admin`, or the `admin.stats` capability. It
+  reuses the existing authStore rather than inventing a second auth path.
+- Filtered at all three listing surfaces: `Home` (module cards),
+  `ModuleSwitcher` (dropdown), `AppHeader` (search — `visibleModules` added
+  to the `useMemo` deps so it re-filters on login/logout).
+- `InterviewPage` renders a lock panel when not privileged. **The early
+  return sits below every hook** — first draft put it above the `useMemo`
+  block, which would have changed hook order between signed-in and
+  signed-out renders. Same trap ModuleSwitcher already documents.
+
+> ⚠️ **This is obscurity, not security, and that is now proven rather than
+> assumed.** Signed out, in the browser, a plain
+> `fetch('/src/data/interview/briefs.ts')` returned 184KB including the
+> string "Kirti Chakra". This is a client-side SPA: module content is
+> compiled into the bundle and served to everyone. The gate stops a casual
+> visitor typing `/interview`; it stops nobody who opens devtools. Real
+> privacy requires the content to stop being shipped — move it behind
+> `mpsc-api` (which already has real auth), or keep it out of the deployed
+> build. `lib/access.ts` says this at the top so the next reader can't miss it.
+
+**What shipped, part 2 — the notes.** Re-scanned the four photos at higher
+zoom after being asked whether I'd read them all properly. The first pass
+had under-read them. Now transcribed: Chanmari is **AMC Ward V** (with
+Electric Veng and Zarkawt); Ward V has 10,120 voters; AMC total 2,39,989
+(M 1,10,333 / F 1,29,656); six reserved seats on a one-third basis — Wards
+2, 4, 5, 11, 12, 17, so **his own ward is reserved**; Local Council is 9
+members with 7 elected (Chairman, Vice-Chairman, Secretary, Treasurer,
+Member, Tlangau). Plus the office-holder list (Speaker, SPs, DC, Lokayukta,
+CEO, MZP/MHIP/CYMA/MYC heads) and the women-in-politics firsts — all marked
+as handwriting-derived and to be verified, with the two entries that ran off
+the photo edge flagged as incomplete rather than guessed.
+
+The two KTP/YMA/church-history sheets are deliberately **not** transcribed —
+legitimate Mizoram GK, but unlikely in a System Manager technical interview,
+and half-reading them would repeat the mistake this session already made
+twice. Offered as a follow-up instead.
+
+**What's still open:** CMES join date; B.E. aggregate; HSSLC/HSLC
+percentages; category; PIN; certificate names. The Chanmari ward question is
+now **closed** (Ward V, from his own notes). Verified via `tsc --noEmit`
+(clean) and a full browser pass: signed-out `/interview` → lock panel;
+signed-out Home → module absent; simulated `gasey` → module visible and page
+loads; then localStorage cleaned.
+
+---
+
 ## 2026-09-21 — Interview Prep: a visual study guide for the extraction pipeline
 
 **What shipped:** `public/pipeline-guide/index.html` — a single self-contained

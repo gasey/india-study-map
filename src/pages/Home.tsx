@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { modules, type ModuleCategory } from '@/modules/registry';
+import { useVisibleModules } from '@/lib/access';
 import { chapters, getChapter } from '@/data';
 import { moduleProgress, quizAccuracy, studyStreak, flashcardsRemaining } from '@/lib/stats';
 import { weakTopics } from '@/lib/weakTopics';
@@ -320,12 +321,13 @@ function JumpBackInGrid() {
 }
 
 function ModuleGroupedCards() {
+  const visibleModules = useVisibleModules();
   const { progress, bankProgress, deckProgress } = useApp();
   const prog = moduleProgress(progress, bankProgress, deckProgress);
   return (
     <div className="flex flex-col gap-6">
       {CATEGORY_ORDER.map((cat) => {
-        const group = modules.filter((m) => m.category === cat);
+        const group = visibleModules.filter((m) => m.category === cat);
         if (group.length === 0) return null;
         return (
           <div key={cat}>

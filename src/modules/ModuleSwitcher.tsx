@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { modules, type ModuleCategory, type PracticeSubgroup } from './registry';
+import { type ModuleCategory, type PracticeSubgroup } from './registry';
+import { useVisibleModules } from '@/lib/access';
 import { useApp } from '@/lib/store';
 
 const CATEGORY_ORDER: ModuleCategory[] = ['Study', 'Practice'];
@@ -18,6 +19,7 @@ const SUBGROUP_ORDER: PracticeSubgroup[] = ['In-app modules', 'Exam guides', 'La
  *  mobile More sheet dropped too, this pill had briefly become the only
  *  navigation to that route. */
 export function ModuleSwitcher() {
+  const modules = useVisibleModules();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const loc = useLocation();

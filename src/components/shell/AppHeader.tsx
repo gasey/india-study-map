@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { CollectibleTabs, CollectibleSubTabs } from './CollectibleTabBar';
 import { useApp } from '@/lib/store';
-import { modules } from '@/modules/registry';
+import { useVisibleModules } from '@/lib/access';
 import { chapters } from '@/data';
 import { studyStreak } from '@/lib/stats';
 import * as api from '@/lib/mpscApi';
@@ -74,16 +74,18 @@ function SearchBox() {
     return () => window.clearTimeout(t);
   }, [q]);
 
+  const visibleModules = useVisibleModules();
+
   const results = useMemo(() => {
     if (!q.trim()) return { chapters: [], modules: [], papers: [], sets: [] };
     const s = q.trim().toLowerCase();
     return {
       chapters: chapters.filter((c) => c.title.toLowerCase().includes(s)).slice(0, 5),
-      modules: modules.filter((m) => m.title.toLowerCase().includes(s)).slice(0, 5),
+      modules: visibleModules.filter((m) => m.title.toLowerCase().includes(s)).slice(0, 5),
       papers: (papers ?? []).filter((p) => p.examName.toLowerCase().includes(s) || (p.post ?? '').toLowerCase().includes(s)).slice(0, 5),
       sets: (sets ?? []).filter((st) => st.title.toLowerCase().includes(s)).slice(0, 5),
     };
-  }, [q, papers, sets]);
+  }, [q, papers, sets, visibleModules]);
 
   const go = (path: string) => {
     navigate(path);

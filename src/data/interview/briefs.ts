@@ -440,16 +440,44 @@ export const briefs: Brief[] = [
         ],
       },
       {
-        heading: '⚠️ Your handwritten notes — I could not read these reliably',
+        heading: '⭐ Your ward — read off your own notes',
         body:
-          'The printed ministry table above is verified. The handwritten sheets are a different matter: I could make out the structure but NOT the names with enough confidence to reproduce them, and a wrong name said confidently is worse than saying "I would need to check". Please verify these yourself rather than trusting my reading.',
+          'Your notes settle the ward question that was previously unverified. Confirm once at the Local Council office, but this is now consistent across two sources.',
         bullets: [
-          'Named office-holders I could only partially read: Assembly Speaker (current and first), Traffic SP, Police SP, Aizawl DC, Lokayukta, State Election Commissioner, MZU Vice-Chancellor, and the presidents of YMA, MHIP, MZP, CYMA, MUP, MJA, MSU, MYC.',
-          'Numbers I could partially read and you should re-check: AMC total voters (~2.39 lakh, with a male/female split), your ward\'s voter count (~10,130), reserved seats (6, on a one-third basis), Local Council composition (Chairman, Vice-Chairman, Treasurer, Members — around 9 with 7 elected).',
-          'Your notes appear to put Chanmari in Ward V — consistent with what I found earlier, but still worth confirming at the Local Council office.',
-          'Also in the notes: MLAs including Baryl Vanneihsangi (Aizawl South 3), Lalrinpuii (Lunglei East), Prova Chakma (West Tuipui, MNF); "Aizawl – 12 MLA"; and four Advisers whose names I could not read cleanly.',
-          'The KTP / YMA / church-history material in your notes is standard Mizoram GK and worth keeping for general questions, but it is unlikely to be asked in a System Manager technical interview. Prioritise accordingly.',
+          'Chanmari is in AMC WARD V (Ward 5), together with Electric Veng and Zarkawt.',
+          'Ward V voters: 10,120. AMC total voters: 2,39,989 — male 1,10,333, female 1,29,656 (note women outnumber men on the AMC roll).',
+          'AMC reserved seats: 6, on a one-third basis — Wards 2, 4, 5, 11, 12 and 17. ⭐ Your own Ward 5 is one of the reserved seats.',
+          'Local Council composition: 9 members, of whom 7 are elected. Office-bearers: Chairman, Vice-Chairman, Secretary, Treasurer, Member, and Tlangau.',
+          'Aizawl has 12 MLAs. RD Blocks named in your notes: Tlangnuam, Aibawk, Thingsulthliah, Darlawn.',
         ],
+      },
+      {
+        heading: 'Office-holders from your notes',
+        body:
+          '⚠️ Transcribed from handwriting — spellings are my best reading and some entries ran off the edge of the photo. Verify each before quoting it in the room.',
+        bullets: [
+          'Assembly Speaker: first — Pu H. Thansanga; current — Lalbiakzama.',
+          'Traffic SP — C. Vanlalvena. Police SP — Zosangliana.',
+          'Aizawl DC — En. Lalhriatpuia.',
+          'Lokayukta — Lalmalsawma. Local Ombudsman — Lalthanmawia (uncertain).',
+          'State/Chief Election Officer — Dr. H. Lalthlangliana.',
+          'MZP President — Dr. C. Lalremruata. MHIP President — Lalhani (uncertain). CYMA President — R. Lalngheta. MYC Chairman — Malsawmzuala.',
+          'MJA President — C. Lalram… and MSU President — B. Lal… (both cut off at the photo edge). MZU Vice-Chancellor — Prof. … Chandra … (cut off).',
+          'Mizo Award — B. Lalthangliana. Padma Shri — C. Lalsawmzuala (uncertain).',
+        ],
+      },
+      {
+        heading: 'Women in Mizoram politics — a likely GK question',
+        bullets: [
+          'Current women MLAs: Baryl Vanneihsangi (Aizawl South 3, ZPM), Lalrinpuii (Lunglei East, ZPM), Prova Chakma (West Tuipui, MNF).',
+          'Pi Lalrinpuii is also the only woman in the Council of Ministers — Health & Family Welfare, and Social Welfare, Women & Child Development.',
+          'Firsts recorded in your notes: Saptawni as first woman MLA; Lal Thanmawii as first elected woman MLA; Lalhlimpuii as first woman Minister; Vanlalawmpuii Chawngthu as Minister of State. ⚠️ These firsts are from handwriting and are worth verifying before you state them.',
+        ],
+      },
+      {
+        heading: 'What I did not transcribe',
+        body:
+          'Two of the four photos are KTP / YMA / church-history and Bible-reference notes — dates, conference locations, office-bearers and verse references. It is legitimate Mizoram GK, but it is very unlikely to appear in a System Manager technical interview, so I have not reproduced it here. If you want it added as its own brief, say so and I will do it properly rather than half-reading it.',
       },
     ],
   },

@@ -3,6 +3,7 @@ import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
+import { useIsPrivileged } from '@/lib/access';
 import { interviewCategories, totalInterviewQuestions } from '@/data/interview/questions';
 import { briefs, totalBriefs } from '@/data/interview/briefs';
 import { concepts, conceptUnits, totalConcepts } from '@/data/interview/concepts';
@@ -38,6 +39,7 @@ function loadReviewed(): Set<string> {
 export function InterviewPage() {
   const { theme, toggleTheme } = useApp();
   const hasDesktopChrome = useHasDesktopChrome('home');
+  const privileged = useIsPrivileged();
 
   const [tab, setTab] = useState<Tab>('questions');
   const [reviewed, setReviewed] = useState<Set<string>>(() => loadReviewed());
@@ -138,6 +140,24 @@ export function InterviewPage() {
       border: '1px solid var(--border)',
       fontWeight: active ? 600 : 400,
     } as const;
+  }
+
+  // After the hooks, never before — an early return above the useMemo
+  // calls would change hook order between signed-in and signed-out renders.
+  // Personal content — see lib/access.ts. Obscurity gate only: this blocks
+  // someone typing /interview, not someone reading the JS bundle.
+  if (!privileged) {
+    return (
+      <div className="h-full flex items-center justify-center px-6" style={{ background: 'var(--bg-app)' }}>
+        <div className="text-center max-w-sm">
+          <div className="text-2xl mb-2">🔒</div>
+          <p className="text-sm" style={{ color: 'var(--text-primary)' }}>This module is private.</p>
+          <p className="text-xs mt-1.5" style={{ color: 'var(--text-secondary)' }}>
+            Sign in with the owner account to view it.
+          </p>
+        </div>
+      </div>
+    );
   }
 
   return (

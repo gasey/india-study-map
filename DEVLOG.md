@@ -9,6 +9,41 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-22 — Abbreviations decoder (Briefs 15 → 16)
+
+**What shipped:** a `decoder` brief, placed first in the Briefs list. Six
+grouped sections — organisations, schemes, ICCC technology, contracts and
+management, government administration — covering every acronym the module
+actually uses.
+
+**Why:** the candidate said the briefs read as walls of abbreviations with
+no definitions. He was right. A grep over `src/data/interview/*.ts` found
+MUDAL ×65, ICCC ×50, DILRMP ×38, GIS ×34, AMRUT ×29, AMC ×27 and a long
+tail — all used as though already understood. The scheme names in
+particular had expansions scattered across briefs but no single place that
+said what each scheme actually *pays for*.
+
+**The format is deliberate:** `ABBREVIATION — Full Form — what it actually
+does`. Expansion alone is useless in an interview; a panel asks the third
+part. The brief says so in its own opening section.
+
+**Two traps called out explicitly** because both appear in this module with
+both meanings live: **AMC** (Aizawl Municipal Corporation vs Annual
+Maintenance Contract) and **NOC** (Network Operations Centre vs No Objection
+Certificate).
+
+Also carries forward the two standing corrections so they can't be lost:
+AMRUT is capital water infrastructure and does **not** fund ICCC O&M, and
+PMGSY is the employer's work, **not** his.
+
+**What's still open:** CMES join date, B.E. aggregate, HSSLC/HSLC
+percentages, category, PIN, certificate names; and the three UD&PA
+sub-pages that 404 on guessed URLs. Verified via `tsc --noEmit` (clean) and
+a browser pass: Briefs 16, decoder renders, searchable by expansion text
+("Atal Mission", "Pan-Tilt-Zoom") and not just by acronym.
+
+---
+
 ## 2026-09-22 — 4 PARA (SF) and officer ranks added to the army brief
 
 **What shipped:** the `army-awards` brief gains a 4 PARA (Special Forces)

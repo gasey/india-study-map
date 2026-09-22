@@ -401,6 +401,115 @@ export const briefs: Brief[] = [
 
   // ------------------------------------------------------------------
   {
+    id: 'mizoram-gk',
+    title: 'Mizoram GK — Cabinet & office holders',
+    glyph: '🏛️',
+    tagline: 'From your own notes. The ministry list is verified; the handwritten names are not.',
+    sections: [
+      {
+        heading: 'Council of Ministers — Lalduhoma ministry (ZPM)',
+        body:
+          'Transcribed from the printed portfolio list in your notes. This is the one to know cold — a UD&PA panel will expect you to know at minimum who your own minister is.',
+        bullets: [
+          '1. Pu Lalduhoma, Chief Minister — Finance; Planning & Programme Implementation; Vigilance; General Administration; Political & Cabinet; Law & Judicial.',
+          '⭐ 2. Pu K. Sapdanga, Minister — Home; URBAN DEVELOPMENT & POVERTY ALLEVIATION; Personnel & Administrative Reforms. This is your minister.',
+          '3. Pu Vanlalhlana, Minister — Public Works; Transport; Parliamentary Affairs.',
+          '4. Pu C. Lalsawivunga, Minister — District Council & Minority Affairs; Art & Culture; Animal Husbandry & Veterinary; Horticulture.',
+          '⭐ 5. Pu Lalthansanga, Minister — Environment, Forests & Climate Change; Sericulture; Fisheries; Land Resources, Soil & Water Conservation. Almost certainly the same Lalthansanga who is your own MLA for Aizawl East-I — worth confirming, because "my MLA is a cabinet minister" is a good thing to know.',
+          '6. Dr. Vanlalthlana, Minister — School Education; Higher & Technical Education; Information & Public Relations; INFORMATION & COMMUNICATION TECHNOLOGY. The ICT portfolio — relevant to any state IT question.',
+          '7. Pu PC Vanlalruata, Minister — Agriculture; Irrigation & Water Resources; Cooperation.',
+          '8. Pi Lalrinpuii, Minister — Health & Family Welfare; Social Welfare, Women and Child Development.',
+        ],
+      },
+      {
+        heading: 'Ministers of State',
+        bullets: [
+          '1. Pu F. Rodingliana — Power & Electricity; Commerce & Industries.',
+          '⭐ 2. Pu B. Lalchhanzova — Food, Civil Supplies & Consumer Affairs; LAND REVENUE & SETTLEMENT. This is the minister for your former department — know the name.',
+          '3. Prof. Lalnilawma — Rural Development; Public Health Engineering; Disaster Management & Rehabilitation.',
+          '4. Pu Lalnghinglova Hmar — Labour, Employment, Skill Development & Entrepreneurship (LESDE); Sports & Youth Services; Excise & Narcotics; Tourism.',
+        ],
+      },
+      {
+        heading: 'The three names that matter most for this interview',
+        bullets: [
+          'K. Sapdanga — your minister (UD&PA). Also holds Home, which is why he features in ICCC coverage.',
+          'B. Lalchhanzova (MoS) — Land Revenue & Settlement, your former department. If asked about your DILRMP work, knowing the current minister shows you still follow it.',
+          'Dr. Vanlalthlana — ICT. The state IT portfolio.',
+          'Plus Lalduhoma (CM) and V. Lalsangliana (Commissioner & Secretary, UD&PA — who signed your advertisement).',
+        ],
+      },
+      {
+        heading: '⚠️ Your handwritten notes — I could not read these reliably',
+        body:
+          'The printed ministry table above is verified. The handwritten sheets are a different matter: I could make out the structure but NOT the names with enough confidence to reproduce them, and a wrong name said confidently is worse than saying "I would need to check". Please verify these yourself rather than trusting my reading.',
+        bullets: [
+          'Named office-holders I could only partially read: Assembly Speaker (current and first), Traffic SP, Police SP, Aizawl DC, Lokayukta, State Election Commissioner, MZU Vice-Chancellor, and the presidents of YMA, MHIP, MZP, CYMA, MUP, MJA, MSU, MYC.',
+          'Numbers I could partially read and you should re-check: AMC total voters (~2.39 lakh, with a male/female split), your ward\'s voter count (~10,130), reserved seats (6, on a one-third basis), Local Council composition (Chairman, Vice-Chairman, Treasurer, Members — around 9 with 7 elected).',
+          'Your notes appear to put Chanmari in Ward V — consistent with what I found earlier, but still worth confirming at the Local Council office.',
+          'Also in the notes: MLAs including Baryl Vanneihsangi (Aizawl South 3), Lalrinpuii (Lunglei East), Prova Chakma (West Tuipui, MNF); "Aizawl – 12 MLA"; and four Advisers whose names I could not read cleanly.',
+          'The KTP / YMA / church-history material in your notes is standard Mizoram GK and worth keeping for general questions, but it is unlikely to be asked in a System Manager technical interview. Prioritise accordingly.',
+        ],
+      },
+    ],
+  },
+
+  // ------------------------------------------------------------------
+  {
+    id: 'army-awards',
+    title: 'Indian Army & gallantry awards',
+    glyph: '🎖️',
+    tagline: 'For the family question — and how to handle it well.',
+    sections: [
+      {
+        heading: 'The Kirti Chakra — what it actually is',
+        bullets: [
+          'India\'s SECOND-HIGHEST PEACETIME gallantry award, after the Ashoka Chakra and ahead of the Shaurya Chakra.',
+          'Awarded for valour, courageous action or self-sacrifice AWAY FROM the field of battle — that "otherwise than in the face of the enemy" distinction is the defining feature.',
+          'Instituted 1952, with retrospective effect from 15 August 1947. Originally named Ashoka Chakra Class-II; renamed Kirti Chakra in 1967.',
+          'Open to military personnel and civilians alike, and can be awarded posthumously.',
+          'In the overall order of precedence across all gallantry awards it sits fourth — after the Param Vir Chakra, Ashoka Chakra and Maha Vir Chakra, and ahead of the Vir Chakra and Shaurya Chakra.',
+        ],
+      },
+      {
+        heading: 'The full hierarchy — know both columns',
+        body:
+          'Indian gallantry awards run in two parallel tracks. Mixing them up is the classic error.',
+        bullets: [
+          'WARTIME (in the face of the enemy): Param Vir Chakra → Maha Vir Chakra → Vir Chakra.',
+          'PEACETIME (away from the battlefield): Ashoka Chakra → Kirti Chakra → Shaurya Chakra.',
+          'The two tracks pair up by rank: PVC ↔ Ashoka Chakra, MVC ↔ Kirti Chakra, VrC ↔ Shaurya Chakra.',
+          'Overall precedence order: Param Vir Chakra, Ashoka Chakra, Maha Vir Chakra, Kirti Chakra, Vir Chakra, Shaurya Chakra.',
+          'Distinguish from non-gallantry honours: Padma awards (Padma Vibhushan / Padma Bhushan / Padma Shri) and the Bharat Ratna are civilian honours, not gallantry decorations.',
+        ],
+      },
+      {
+        heading: 'Army basics worth having',
+        bullets: [
+          'Commissioned officer ranks, ascending: Lieutenant → Captain → Major → Lieutenant Colonel → Colonel → Brigadier → Major General → Lieutenant General → General.',
+          'The Chief of the Army Staff (COAS) heads the Army; the Chief of Defence Staff (CDS) is the tri-service appointment; the President of India is the Supreme Commander of the Armed Forces.',
+          'Junior Commissioned Officers: Naib Subedar → Subedar → Subedar Major. Other ranks: Sepoy → Lance Naik → Naik → Havildar.',
+          'Assam Rifles is the oldest paramilitary force in India and the one most present in the North-East — administratively under the Ministry of Home Affairs, operationally under the Army.',
+          '⚠️ Do not over-prepare this. You are interviewing for a System Manager IT post, not a defence one. Know the award hierarchy properly and the rest lightly.',
+        ],
+      },
+      {
+        heading: '⭐ How to handle the question — the same integrity rule as PMGSY',
+        body:
+          'If the family question comes up, be proud and be brief. But apply exactly the principle you already applied when you corrected me on PMGSY: your brother\'s achievement is HIS, not a credential of yours.',
+        bullets: [
+          'Say it plainly and without inflation: "My brother is a Kirti Chakra recipient." Then stop, or add one factual sentence if invited.',
+          'Do not narrate the citation at length, and do not let it become the centre of your interview. The panel is appointing a System Manager.',
+          'Never let it be heard as though it reflects on your own qualifications — it is a family fact, offered as one.',
+          'If it moves the panel to warmth, receive it gracefully and steer back to the post. "Thank you — I am hoping to serve in my own way through this role" is enough.',
+          'Know the basics above so that if a panel member asks "and what award is that, exactly?" you can answer precisely. Being vague about your own brother\'s decoration would be a strange note to strike.',
+        ],
+      },
+    ],
+  },
+
+  // ------------------------------------------------------------------
+  {
     id: 'mudal',
     title: 'MUDAL — dossier',
     glyph: '🏗️',

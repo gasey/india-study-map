@@ -9,6 +9,40 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-22 — UD&PA department mind map, built from the department's own site
+
+**What shipped:** `src/data/mindmaps/udpa.ts`, registered in
+`mindmaps/index.ts`. Eight branches: leadership, organisational structure,
+schemes, RERA, citizen-facing services, MUDAL & the ICCC, where the IT work
+sits, and published document classes.
+
+**Why the structure is trustworthy:** it mirrors the department's own site
+navigation (udpa.mizoram.gov.in) rather than an outsider's guess at how a UD
+department is organised. That surfaced things the interview briefs had
+simply missed — most importantly **RERA sits under UD&PA** (Authority,
+registration, complaints, AML/CFT guidelines 2022 & 2023, Annual Report
+2021-22), plus Adopt-A-Dustbin, the PwD grievance channel, the street-vendor
+redressal form, Service Level Benchmark and a QMS.
+
+**The branch that matters for the interview** is "⭐ Where the IT work
+actually sits" — scheme MIS/MoHUA reporting, GIS, ICCC operations, records
+digitisation, citizen service systems, IT governance. Department GK on its
+own doesn't answer "what would you do here?"; that branch does.
+
+**Honest limit on coverage:** I pulled the full navigation tree from the
+homepage, but sub-pages 404 on guessed URLs — `list-of-28-towns`,
+`about-rera` and `allocation-of-business` all failed or returned chrome
+without content. So this map is complete on *structure* and partial on
+*contents*. The 28-town list and the full allocation of business are still
+unread; don't treat their absence here as evidence they're unimportant.
+
+**What's still open:** the sub-page contents above; and unchanged from
+before — CMES join date, B.E. aggregate, HSSLC/HSLC percentages, category,
+PIN, certificate names. Verified via `tsc --noEmit` (clean) and a browser
+pass: map appears in the Mind Maps picker and all 8 branches expand.
+
+---
+
 ## 2026-09-22 — Interview Prep: owner-only visibility gate, and ward data from the candidate's notes
 
 **What shipped, part 1 — the gate.** `/interview` holds genuinely personal

@@ -9,6 +9,73 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-27 (later) — every clerical question now has an answer, with its provenance
+
+**What shipped:** 524 of 525 answers, and a progress view that distinguishes
+where each came from. Previously 425 questions read "no answer yet".
+
+- **175 from MPSC's own key.** The April-2024 Assistant/UDC key covers **Paper-I
+  (75) as well as Paper-II (100)** — the generator had loaded only Paper-II, so
+  `/udc-ldc` was telling the reader "no MPSC key exists for this sitting" about a
+  paper whose key it had already parsed. Fixed; `load_answers()` now scans every
+  key file and maps paper-scoped.
+- **349 solved by model**, routed by measured accuracy (below). Every one carries
+  `answerConfidence`, and the UI never shows a derived answer without it.
+- **1 genuinely unanswerable** — its options are figures that scanned as a solid
+  black block. `figureBased`, read-only, excluded from drills.
+
+**Routing came from two graded calibrations, not a guess.** Both used the one
+published key, solved blind:
+
+| section | accuracy | model used for the rest |
+|---|---|---|
+| English | 100% (25/25) | Opus |
+| GK | 98% (49/50) | Sonnet |
+| Computer | 97.1% | Sonnet |
+| Arithmetic | 96.7% | Sonnet |
+| **Reasoning** | **80%** | **Opus** |
+
+Confidence proved worth surfacing: `high` answers were 97–98% correct, `medium`
+only 44%. So `answerConfidence` was added to the bank schema and is rendered
+beside every solved answer — `CLAUDE.md` records the inverse mistake already made
+here once, where 309 derived answers were badged as authoritative.
+
+**Bugs the solvers found that no structural check could.** Anchors verify
+numbering; they cannot tell whether a question makes sense.
+
+- 🔴 **A page whose OCR reading order is not its printed order.** Page 2 of UDC
+  Combined Paper-I prints q8/q10/q11 with full-width options and q1–q7 in two
+  columns, so the extractor emitted the full-width block FIRST. Eleven questions
+  had individually-correct option sets attached to the wrong numbers — invisible
+  to a count gate, caught only because a solver noticed q1's stem contained two
+  different questions. Added a `reorder` correction, validated as a permutation.
+- 🔴 **The reorder then invalidated already-solved ids**, which were keyed to the
+  old numbering. The answers stay valid (they travel with the option set) but the
+  ids had to be permuted too, or eleven answers land on the wrong questions.
+- **q1 of UDC Combined Paper-II was 1,249 characters of exam-hall instructions**
+  with the real 63-character question on the end. Nothing precedes question 1, so
+  its stem absorbs the whole instruction page. `strip_preamble()` cuts after the
+  last instruction marker — cutting sentence-wise fails because the preamble is a
+  numbered list and "2." reads as a sentence end.
+- **`Directions` blocks were attached before renumbering**, so a coding question
+  carried "For the Assertion (A) and Reason (R)…" while the real Assertion
+  questions had none.
+
+**Also learned: anchored corrections are order-sensitive.** They match against
+the *current* state, so one fix can invalidate a later anchor — a q1 correction
+anchored on text that lived in q8's merged stem hit q8 and overwrote its real
+options. Anchor each question on something unique to itself. The uniqueness guard
+earned its keep twice, refusing rather than guessing.
+
+**What's still open:**
+- 63 answers are medium or low confidence and want a human pass. The progress
+  view names the count per paper.
+- Pre-2024 papers still need year-keyed blueprints.
+- The bank is still bundled rather than API-backed (~320 KB of source).
+- No exam-display view yet (full paper, timer, −⅓ scoring).
+
+---
+
 ## 2026-09-27 — /udc-ldc: MPSC clerical bank, 525 questions, with a progress view
 
 **What shipped:** a new `/udc-ldc` module and the generated bank behind it,

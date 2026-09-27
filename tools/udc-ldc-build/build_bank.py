@@ -85,25 +85,110 @@ def ts(v):
 
 
 def load_answers():
-    """question-id -> (answerIndex, source, confidence, explanation, keyRef)."""
+    """
+    (paper name, question number) -> (answerIndex, source, explanation, keyRef).
+
+    Scans EVERY key file in state/grading/ rather than naming one. The Apr-2024
+    Provisional Answer Key covers Paper-I (75 answers) AND Paper-II (100) --
+    an earlier version loaded only Paper-II, so the site told the reader
+    "no MPSC key exists for this sitting" about a paper whose key it had
+    already parsed. Each key file records its own `paper`, so the mapping is
+    paper-scoped: keying on the bare question number would match every paper's
+    q1..q100 against the first key loaded.
+    """
     out = {}
-    key_file = os.path.join(GRADING, "key_Assistant_UDC_under_MPSC_paper_II_.json")
-    key = json.load(open(key_file))["answers"] if os.path.exists(key_file) else {}
+    if not os.path.isdir(GRADING):
+        return out
+
     solved = {}
-    for f in sorted(os.listdir(SOLVE)) if os.path.isdir(SOLVE) else []:
-        if f.endswith(".solved.json"):
-            for s in json.load(open(os.path.join(SOLVE, f), encoding="utf-8")):
-                solved[s["id"]] = s
-    for qid, letter in key.items():
-        s = solved.get("q" + qid, {})
-        out[("Assistant UDC under MPSC paper-II.", int(qid))] = (
-            "ABCD".index(letter), "official", None, s.get("explanation", ""),
-            "Provisional Answer Key, No.ASST/1/2019-MPSC, 5 April 2024")
+    for root, _dirs, files in os.walk(SOLVE):
+        for fn in sorted(files):
+            if fn.endswith(".solved.json"):
+                for s in json.load(open(os.path.join(root, fn), encoding="utf-8")):
+                    solved.setdefault(os.path.basename(root), {})[s["id"]] = s
+
+    for fn in sorted(os.listdir(GRADING)):
+        if not fn.startswith("key_") or not fn.endswith(".json"):
+            continue
+        d = json.load(open(os.path.join(GRADING, fn)))
+        paper = d["paper"]
+        slug = re.sub(r"[^\w-]+", "_", paper).strip("_")
+        expl = solved.get(slug, {})
+        for qnum, letter in d["answers"].items():
+            if letter not in "ABCD":
+                continue
+            s = expl.get("q" + qnum, {})
+            out[(paper, int(qnum))] = (
+                "ABCD".index(letter), "official", s.get("explanation", ""),
+                "%s (%s)" % (d["keyFile"].rstrip(". pdf"), d.get("kind", "key")))
+    return out
+
+
+DERIVED = os.path.join(BANK_REPO, "state", "solve-derived")
+
+
+def reorder_maps():
+    """
+    paper -> {old qnum: new qnum}, from the vision corrections.
+
+    Needed because the solve batches were generated BEFORE the page-2
+    reading-order fix on UDC Combined Paper-I, so their ids carry the old
+    numbering. The ANSWERS remain valid -- a solver answered a specific set of
+    options, and the reorder moved that option set to a different number -- but
+    the id has to travel with it, or eleven answers land on the wrong questions.
+    """
+    f = os.path.join(BANK_REPO, "state", "vision-corrections.json")
+    if not os.path.exists(f):
+        return {}
+    data = json.load(open(f, encoding="utf-8"))
+    out = {}
+    for paper, spec in data.items():
+        if not isinstance(spec, dict):
+            continue
+        for e in spec.get("fixes", []):
+            if isinstance(e, dict) and e.get("reorder"):
+                out[paper] = {int(k): int(v) for k, v in e["reorder"].items()}
+    return out
+
+
+def load_derived():
+    """
+    (paper, qnum) -> (answerIndex, 'derived', explanation, confidence).
+
+    Solved by model where MPSC published no key. Ids in these batches are
+    "<paper>::q<N>", so the mapping is paper-scoped by construction -- the bare
+    question number would collide across papers exactly as it did in the
+    quick-revision converter.
+    """
+    out = {}
+    if not os.path.isdir(DERIVED):
+        return out
+    for fn in sorted(os.listdir(DERIVED)):
+        if not fn.endswith(".solved.json"):
+            continue
+        for s in json.load(open(os.path.join(DERIVED, fn), encoding="utf-8")):
+            if "::" not in s.get("id", ""):
+                continue
+            paper, q = s["id"].rsplit("::q", 1)
+            idx = s.get("answerIndex")
+            if not isinstance(idx, int) or not 0 <= idx <= 3:
+                continue
+            out[(paper, int(q))] = (idx, "derived", s.get("explanation", ""),
+                                    s.get("confidence"))
+
+    # Apply any reading-order permutation recorded after these were solved.
+    for paper, mapping in reorder_maps().items():
+        moved = {}
+        for old, new in mapping.items():
+            if (paper, old) in out:
+                moved[(paper, new)] = out.pop((paper, old))
+        out.update(moved)
     return out
 
 
 def main():
     answers = load_answers()
+    derived = load_derived()
     papers, questions = [], []
     penalty_by_paper = {}
     stats = Counter()
@@ -135,20 +220,25 @@ def main():
             bsubj, topic, label = SECTION.get(sec, SECTION["gk"])
             qid = "%s-q%03d" % (slug, q["qnum"])
             opts = q.get("options") or []
-            ans = answers.get((name, q["qnum"]))
+            ans = answers.get((name, q["qnum"])) or derived.get((name, q["qnum"]))
             rec = {
                 "id": qid, "subject": bsubj, "topic": topic, "topicLabel": label,
                 "difficulty": "medium", "type": "mcq",
                 "question": q["stem"], "options": opts,
                 "answerIndex": ans[0] if ans else -1,
-                "explanation": (ans[3] if ans else "") or "",
+                "explanation": (ans[2] if ans else "") or "",
                 "source": "%s, %s %d, %s" % (exam, month, year, pno),
                 "year": year, "paperId": slug,
             }
             if ans:
                 rec["answerSource"] = ans[1]
-                rec["answerKeyRef"] = ans[4]
-                stats["official"] += 1
+                if ans[1] == "official":
+                    rec["answerKeyRef"] = ans[3]
+                    stats["official"] += 1
+                else:
+                    if ans[3]:
+                        rec["answerConfidence"] = ans[3]
+                    stats["derived_" + (ans[3] or "unrated")] += 1
             else:
                 stats["unanswered"] += 1
             if q.get("unanswerable") or not opts:

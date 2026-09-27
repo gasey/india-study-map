@@ -93,6 +93,16 @@ interface BankQuestionBase {
    * Shown as a badge, so a guess is never mistaken for a real key.
    */
   answerSource?: 'official' | 'derived';
+  /**
+   * For answerSource: 'derived' — how sure the solver was.
+   *
+   * Load-bearing, not decorative. Measured against the one MPSC key that
+   * exists for the clerical bank, 'high' answers were 97-98% correct while
+   * 'medium' ones were 44% — so a derived answer shown WITHOUT its confidence
+   * implies a reliability it may not have. Render it wherever the answer is
+   * rendered.
+   */
+  answerConfidence?: 'high' | 'medium' | 'low';
   /** For answerSource: 'official' — the notification that published the key,
    *  so a disputed answer can be traced to its source document. */
   answerKeyRef?: string;

@@ -38,6 +38,8 @@ interface PaperStats {
   total: number;
   answered: number;
   official: number;
+  derived: number;
+  lowConf: number;
   unanswerable: number;
   defects: number;
 }
@@ -56,6 +58,9 @@ function useStats() {
         total: questions.length,
         answered: mcq.filter((q) => q.answerIndex >= 0).length,
         official: mcq.filter((q) => q.answerSource === 'official').length,
+        derived: mcq.filter((q) => q.answerSource === 'derived').length,
+        lowConf: mcq.filter((q) => q.answerSource === 'derived'
+          && (q.answerConfidence === 'low' || q.answerConfidence === 'medium')).length,
         unanswerable: mcq.filter((q) => q.figureBased).length,
         defects: mcq.filter((q) => q.sourceDefect).length,
       };
@@ -108,11 +113,28 @@ function Pill({ tone, children }: { tone: 'ok' | 'info' | 'warn' | 'muted'; chil
   );
 }
 
+/**
+ * The provenance badge.
+ *
+ * A derived answer is ALWAYS shown with its confidence. Graded against the one
+ * official key that exists for this bank, 'high' answers were 97-98% correct
+ * and 'medium' ones 44% — so "derived" alone would imply a reliability the
+ * answer may not have. `CLAUDE.md` records the inverse mistake already made
+ * here once: 309 derived answers badged as authoritative.
+ */
 function Provenance({ q }: { q: BankQuestion }) {
   if (!isMcqQuestion(q)) return null;
   if (q.figureBased) return <Pill tone="warn">figure lost — unanswerable</Pill>;
   if (q.answerSource === 'official') return <Pill tone="info">official key</Pill>;
   if (q.answerIndex < 0) return <Pill tone="muted">no answer yet</Pill>;
+  if (q.answerSource === 'derived') {
+    const c = q.answerConfidence;
+    return (
+      <Pill tone={c === 'high' ? 'ok' : c === 'low' ? 'warn' : 'muted'}>
+        {c ? `solved · ${c} confidence` : 'solved · confidence unrated'}
+      </Pill>
+    );
+  }
   return <Pill tone="muted">derived</Pill>;
 }
 
@@ -123,8 +145,11 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
       answered: a.answered + r.answered,
       unanswerable: a.unanswerable + r.unanswerable,
       defects: a.defects + r.defects,
+      official: a.official + r.official,
+      derived: a.derived + r.derived,
+      lowConf: a.lowConf + r.lowConf,
     }),
-    { total: 0, answered: 0, unanswerable: 0, defects: 0 },
+    { total: 0, answered: 0, unanswerable: 0, defects: 0, official: 0, derived: 0, lowConf: 0 },
   );
 
   return (
@@ -138,8 +163,8 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
         {[
           ['Papers', String(rows.length)],
           ['Questions', String(tot.total)],
-          ['With an answer', `${tot.answered}`],
-          ['Still to solve', `${tot.total - tot.answered - tot.unanswerable}`],
+          ['From an official key', `${tot.official}`],
+          ['Solved, needs review', `${tot.lowConf}`],
         ].map(([label, value]) => (
           <div
             key={label}
@@ -201,7 +226,7 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
                     <div style={{ fontSize: 11, opacity: 0.65, marginTop: 3 }}>
                       {r.official > 0
                         ? `${r.official} from the official key`
-                        : 'no MPSC key exists for this sitting'}
+                        : `solved — no MPSC key exists${r.lowConf ? `; ${r.lowConf} worth review` : ''}`}
                     </div>
                   </td>
                   <td style={{ padding: '10px', fontSize: 12 }}>
@@ -231,17 +256,26 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
         <strong>What&apos;s left</strong>
         <ul style={{ margin: '8px 0 0', paddingLeft: 18 }}>
           <li>
-            <strong>{tot.total - tot.answered - tot.unanswerable} questions still need answers.</strong>{' '}
-            MPSC published a key for only one of these six sittings, so the rest have to be
-            solved and checked rather than looked up.
+            <strong>{tot.official} answers come from MPSC&apos;s own key</strong> (the April
+            2024 Assistant/UDC sitting — the only one the Commission published).
+            Those are authoritative.
           </li>
           <li>
-            <strong>{tot.unanswerable} question cannot be answered from its scan</strong> — the
-            printed answer options are figures that scanned as a solid black block. Shown
-            read-only and kept out of scored tests.
+            <strong>{tot.derived} were worked out, not looked up.</strong> No key exists for
+            those five sittings and none ever will. Graded against the one key that does
+            exist, answers marked <em>high</em> confidence were 97–98% correct and
+            <em> medium</em> ones 44% — so every solved answer is shown with its
+            confidence, and you should treat the badge as part of the answer.
           </li>
           <li>
-            <strong>Explanations</strong> exist only for the keyed paper so far.
+            <strong>{tot.lowConf} are medium or low confidence</strong> and are the ones
+            worth a human check first. Filter to them under
+            <em> Answer → Has an answer</em> in Browse.
+          </li>
+          <li>
+            <strong>{tot.unanswerable} question cannot be answered from its scan</strong> —
+            its printed options are figures that came through as a solid black block.
+            Shown read-only and kept out of scored drills.
           </li>
           <li>
             Papers before 2024 are <strong>not loaded yet</strong>: the syllabus and paper

@@ -152,9 +152,16 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 {q.disputeNote}
               </p>
             )}
-            {q.answerKeyRef && (
+            {q.answerKeyRef ? (
               <p style={{ margin: '6px 0 0', fontSize: 11.5, opacity: 0.6 }}>
                 Source: {q.answerKeyRef}
+              </p>
+            ) : (
+              /* No published key for this sitting — say so, and say how sure
+                 the solver was. Graded accuracy: high 97-98%, medium 44%. */
+              <p style={{ margin: '6px 0 0', fontSize: 11.5, opacity: 0.6 }}>
+                No MPSC key exists for this paper — this answer was worked out
+                {q.answerConfidence ? `, stated confidence: ${q.answerConfidence}` : ''}.
               </p>
             )}
             <button

@@ -414,7 +414,12 @@ export default function UdcLdcPage() {
   }
 
   return (
-    <div style={{ padding: '20px 24px 48px', maxWidth: 1100, margin: '0 auto' }}>
+    // AppShell renders <main class="flex-1 min-w-0 overflow-hidden">, so every
+    // page must supply its OWN scroll container — see PyqPage/PapersPage, which
+    // both use `scroll-panel ... overflow-y-auto`. Without it the page renders
+    // at full height inside a clipped box and simply cannot be scrolled.
+    <div className="scroll-panel h-full overflow-y-auto">
+      <div style={{ padding: '20px 24px 48px', maxWidth: 1100, margin: '0 auto' }}>
       <h1 style={{ margin: '0 0 4px', fontSize: 22 }}>MPSC Clerical — LDC / UDC / Assistant</h1>
       <p style={{ margin: '0 0 18px', opacity: 0.75, fontSize: 14 }}>
         Past papers of the Mizoram Ministerial Service clerical cadre, checked question by
@@ -462,6 +467,7 @@ export default function UdcLdcPage() {
       {tab === 'exam' && (
         <ExamView papers={data.bank.papers ?? []} questions={data.bank.questions} />
       )}
+      </div>
     </div>
   );
 }

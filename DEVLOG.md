@@ -9,6 +9,34 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-27 (fix) — /udc-ldc could not be scrolled
+
+**What was wrong:** the page rendered at full height inside a clipped box. All
+four tabs were affected; the Exam view (nearly 20,000px of content) was the most
+obviously broken.
+
+**Why:** `AppShell` renders `<main className="flex-1 min-w-0 overflow-hidden">`
+and expects **each page to supply its own scroll container** — `PyqPage` and
+`PapersPage` both do it with `scroll-panel … overflow-y-auto`. `UdcLdcPage`
+rendered a plain padded `<div>`, so content overflowed a 655px box with
+`overflow-y: hidden` and there was nothing to scroll.
+
+Fixed by wrapping the page in `scroll-panel h-full overflow-y-auto`, matching
+the existing convention, with a comment recording the shell's contract so the
+next page added here does not repeat it.
+
+**Also fixed while in there:** the Exam view's sticky header used
+`var(--bg, #fff)`. `--bg` does exist and is theme-aware, so this was not
+actually broken — but `--bg-app` is the chrome token the rest of the app uses,
+and a hardcoded `#fff` fallback would have been wrong under a dark or sepia
+skin. Verified the sticky background now resolves to exactly the page
+background.
+
+Verified live: scroll container present, `scrollTop` moves, the Exam view
+scrolls through 19,904px with its header staying pinned.
+
+---
+
 ## 2026-09-27 (later still) — Exam view: sit the paper, scored under its own rule
 
 **What shipped:** the fourth view on `/udc-ldc`. Pick a paper, get the whole

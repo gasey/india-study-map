@@ -143,7 +143,7 @@ export function ExamView({ papers, questions }: Props) {
     <div>
       <div
         style={{
-          position: 'sticky', top: 0, zIndex: 2, background: 'var(--bg, #fff)',
+          position: 'sticky', top: 0, zIndex: 2, background: 'var(--bg-app, var(--bg))',
           borderBottom: '1px solid var(--border, #dcdce3)', padding: '10px 0',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           gap: 12, flexWrap: 'wrap',

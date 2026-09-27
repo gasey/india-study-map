@@ -1,0 +1,1409 @@
+{
+ "exam": "Mizoram Public Service Commission — Combined Competitive Examination for recruitment to the posts of Assistant Grade & Upper Division Clerk under Mizoram Public Service Commission, Government of Mizoram. (April, 2024)",
+ "paper": "Paper-II (Computer Knowledge, Arithmetic, Reasoning)",
+ "date": "April 2024",
+ "totalQuestionsStated": 100,
+ "totalQuestionsStatedNote": "The syllabus sets this paper at 100 MCQs (35 Computer Knowledge, 30 Simple Arithmetic, 35 General Intelligence & Reasoning); the parse matched that count exactly.",
+ "questions": [
+  {
+   "n": 1,
+   "q": "Which of the following are physical devices of a computer?",
+   "options": {
+    "a": "Software",
+    "b": "System Software",
+    "c": "Hardware",
+    "d": "Package"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 2,
+   "q": "Which of the following is designed to control the operations of a computer?",
+   "options": {
+    "a": "Open-Source software",
+    "b": "Application Software",
+    "c": "System Software",
+    "d": "Utility Software"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 3,
+   "q": "Which of the following devices provides the communication between a computer and the outer world?",
+   "options": {
+    "a": "Compact Disc",
+    "b": "Input/Output",
+    "c": "Drivers",
+    "d": "Magnetic Storage"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 4,
+   "q": "Each pixel on a computer screen is composed of how many colour dots?",
+   "options": {
+    "a": "24",
+    "b": "16",
+    "c": "8",
+    "d": "3"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 5,
+   "q": "The temporary storage that can be used to compensate for a difference in data rate and data flow between devices",
+   "options": {
+    "a": "Buffer",
+    "b": "Bus",
+    "c": "Channel",
+    "d": "Modem"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 6,
+   "q": "The latest major release of Microsoft’s Windows NT operating system by Microsoft",
+   "options": {
+    "a": "Windows 11",
+    "b": "Windows NT 4.0",
+    "c": "Windows Xp",
+    "d": "Windows Vista"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 7,
+   "q": "In MS words, a tools to quickly apply the same formatting, such as color, font style and size, or border style, to multiple pieces of text or graphics",
+   "options": {
+    "a": "Clipboard",
+    "b": "Hyper link",
+    "c": "Format Painter",
+    "d": "Editor"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 8,
+   "q": "Whitespace used to place text or images in the left margin of a manual, next to the main body of the text in MS words",
+   "options": {
+    "a": "Indent",
+    "b": "Margin notes",
+    "c": "Break",
+    "d": "Orientation"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 9,
+   "q": "A-set of toolbars at the top of the window in MS word designed to help you quickly find the commands that you need to complete a task is called",
+   "options": {
+    "a": "Ribbon",
+    "b": "Menu bar",
+    "c": "Tools bar",
+    "d": "Clipboard"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 10,
+   "q": "_2- A feature that enables users to send a similar letter or document to multiple recipients",
+   "options": {
+    "a": "Envelopes",
+    "b": "Mail merge",
+    "c": "Labels",
+    "d": "Directory"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 11,
+   "q": "A tools which are used to mark a specific location within a document, allowing you to quickly navigate to that location later",
+   "options": {
+    "a": "Immersive reader",
+    "b": "Editor",
+    "c": "Bookmark",
+    "d": "Outline"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 12,
+   "q": "Which of the following is not cloud service?",
+   "options": {
+    "a": "Dropbox",
+    "b": "iCloud",
+    "c": "OneDrive",
+    "d": "Copilot"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 13,
+   "q": "The latest Al feature introduce by Microsoft in MS Office is",
+   "options": {
+    "a": "ChatGPT",
+    "b": "Copilot",
+    "c": "} WordTune",
+    "d": "BrowseAI"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 14,
+   "q": "In MS Excel, if you want to maintain the original cell reference when you copy it, you “lock” it by putting a dollar sign ($) before the cell and column references. This is called?",
+   "options": {
+    "a": "Relative reference",
+    "b": "Mixed reference",
+    "c": "Absolute reference",
+    "d": "Normative reference"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 15,
+   "q": "Which of the following keyboard shortcuts is used to insert ‘Autosum’, a quick and easy way of adding multiple values?",
+   "options": {
+    "a": "Altt=",
+    "b": "Ctrl+",
+    "c": "Altt+#",
+    "d": "Ctrl+Q"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 16,
+   "q": "An interactive way to quickly summarize large amounts of data, and to analyse numerical data in detail, and answer unanticipated questions about your data in MS Excel. It is also used for querying large amounts of data in many user-friendly ways",
+   "options": {
+    "a": "Conditional formatting",
+    "b": "PivotTable",
+    "c": "Smartlookup",
+    "d": "Vlookup"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 17,
+   "q": "InMS Excel, a rectangular area formed by the intersection of a column and arow",
+   "options": {
+    "a": "Address",
+    "b": "Cell",
+    "c": "Column",
+    "d": "Value"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 18,
+   "q": "The premade function in Excel, which counts all cells in a range that has values, both numbers and letters",
+   "options": {
+    "a": "COUNT",
+    "b": "COUNTA",
+    "c": "COUNTIF",
+    "d": "COUNTIFS"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 19,
+   "q": "An excel function that allows you to filter a range of data based on criteria you define",
+   "options": {
+    "a": "Sorting",
+    "b": "Formula",
+    "c": "Filter",
+    "d": "Pivot"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 20,
+   "q": "The IP address that doesn’t change everyday",
+   "options": {
+    "a": "Dynamic IP address",
+    "b": "Static IP address",
+    "c": "Unique IP address",
+    "d": "All ofthe above"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 21,
+   "q": "A top hierarchy of slides that stores information about the theme and slide layouts of a presentation, including the background, color, fonts, effects, placeholder sizes, and positioning",
+   "options": {
+    "a": "Slide Master",
+    "b": "Handout Master",
+    "c": "Note Master ‘",
+    "d": "View Master"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 22,
+   "q": "A numerical assigned to each device connected to a computer network that uses the Internet Protocol for communication",
+   "options": {
+    "a": "Domainname",
+    "b": "IP Address",
+    "c": "Server address",
+    "d": "Host address"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 23,
+   "q": "Which of these refers to the PowerPoint view used for displaying only the text (title and bullets)?",
+   "options": {
+    "a": "Slide sorter show",
+    "b": "Slide view",
+    "c": "Outline view",
+    "d": "Notes page view"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 24,
+   "q": "Which of the following networks extends a private network across public networks?",
+   "options": {
+    "a": "virtual private network",
+    "b": "local area network",
+    "c": "storage area network",
+    "d": "enterprise private network"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 25,
+   "q": "What was the name of the first network?",
+   "options": {
+    "a": "ASAPNET",
+    "b": "ARPANET",
+    "c": "CNNET",
+    "d": "NSFNET"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 26,
+   "q": "What is the access point (AP) ina wireless LAN?",
+   "options": {
+    "a": "anetworking device that allows wireless-capable devices to connect to a wired network",
+    "b": "wireless devices itself",
+    "c": "both device that allows wireless devices to connect to a wired network and wireless devices itself”",
+    "d": "Allofthe above"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 27,
+   "q": "Which of the following is not the advantage of 5G network",
+   "options": {
+    "a": "greater speed in the transmissions",
+    "b": "alower latency",
+    "c": "agreater number of connected devices",
+    "d": "lowcost for roll-out"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 28,
+   "q": "Internet works on",
+   "options": {
+    "a": "packet switching",
+    "b": "circuit switching",
+    "c": "both packet switching and circuit switching",
+    "d": "data switching"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 29,
+   "q": "A record of your thoughts, opinions, or experiences that you film and publish on the internet",
+   "options": {
+    "a": "Video log",
+    "b": "Video blog",
+    "c": "Selfie",
+    "d": "Podcast"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 30,
+   "q": "Which browser is the successor to Internet Explorer that was retired on June 15, 2022?",
+   "options": {
+    "a": "Firefox",
+    "b": "Crome",
+    "c": "Edge",
+    "d": "Safari"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 31,
+   "q": "What kind of transmission medium is most appropriate to carry data in a computer network that is exposed to electrical interferences?",
+   "options": {
+    "a": "Unshielded twisted pair",
+    "b": "Optical fiber",
+    "c": "Coaxial cable",
+    "d": "Microwave"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 32,
+   "q": "High speed Internet works on",
+   "options": {
+    "a": "Optical fiber",
+    "b": "Coaxial cable",
+    "c": "Twisted pair cable",
+    "d": "Unshielded twisted pair cable"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 33,
+   "q": "Which services allows users to connect to and use cloud-based apps over the Internet?",
+   "options": {
+    "a": "Service-as-a-Software (SaaS)",
+    "b": "Software-as-a-Service (SaaS)",
+    "c": "Software-and-a-Server (SaaS)",
+    "d": "Software-as-a-Server (SaaS)"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 34,
+   "q": "Which supports a Bi-Directional flow of data in both directions at the same time (simultaneous flow)?",
+   "options": {
+    "a": "Full Duplex",
+    "b": "Halfduplex",
+    "c": "Simplex",
+    "d": "Allofthese"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 35,
+   "q": "Which of the following tools is used to read a HTML page and render it?",
+   "options": {
+    "a": "Web server",
+    "b": "Web casting",
+    "c": "Web browser",
+    "d": "None of these"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 36,
+   "q": "Real numbers include both",
+   "options": {
+    "a": "Prime and composite numbers",
+    "b": "Even and odd numbers",
+    "c": "Rational and irrational numbers",
+    "d": "Whole and natural numbers"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 37,
+   "q": "What smallest number must be added to 1056, so that the sum is divisible by 23?",
+   "options": {
+    "a": "1",
+    "b": "2",
+    "c": "5",
+    "d": "4"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 38,
+   "q": "√((10 + √25)(12 − √49)) is equal to",
+   "options": {
+    "a": "4√3",
+    "b": "5√3",
+    "c": "2√3",
+    "d": "3√3"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Text read from the page image — OCR could not recover it.",
+   "passage": null
+  },
+  {
+   "n": 39,
+   "q": "(2 + √3) / (2 − √3) is equal to",
+   "options": {
+    "a": "2 / (2 − √3)",
+    "b": "2 + √3",
+    "c": "1 / (7 − 4√3)",
+    "d": "7 + 4√3"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Text read from the page image — OCR could not recover it.",
+   "passage": null
+  },
+  {
+   "n": 40,
+   "q": "d 4y¥3 _— + © Fah @7 If'a:b=7: 8 and b:c=7:9, then a:b:c will be",
+   "options": {
+    "a": "56:49:72",
+    "b": "56:72:49",
+    "c": "49:56:72",
+    "d": "72:56:49"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 41,
+   "q": "Ifthe simple interest for 2 years is 200 at 5% rate of interest. Find the compound interest for the same time",
+   "options": {
+    "a": "%205",
+    "b": "% 250",
+    "c": "150",
+    "d": "200"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 42,
+   "q": "The amount becomes % 6655 at the rate of 10% compounded annually for 3 years. The sum of money is",
+   "options": {
+    "a": "%5500",
+    "b": "5000",
+    "c": "%6000",
+    "d": "%6100"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 43,
+   "q": "The cost of a dozen mangoes is ¥ 240 and the cost of 9 apples is ¥ 72. The ratio of the cost of a mango to the cost ofan apple is",
+   "options": {
+    "a": "2:5",
+    "b": "7:3",
+    "c": "3:7",
+    "d": "5:2"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 44,
+   "q": "A fan costing 7 1200 is being sold for ¥ 1500. What is the profit percentage?",
+   "options": {
+    "a": "10",
+    "b": "30",
+    "c": "20",
+    "d": "25"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 45,
+   "q": "The selling price of a toy car is ¥ 540. If the profit made by shopkeeper is 50%, then the cost price of this toy is",
+   "options": {
+    "a": "% 400",
+    "b": "%500",
+    "c": "450",
+    "d": "%550"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 46,
+   "q": "A table costing ¥ 1500 is being sold for= t4t0. What isthe loss percentage?",
+   "options": {
+    "a": "5%",
+    "b": "6%",
+    "c": "7%",
+    "d": "8%"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 47,
+   "q": "The annual increase in percentage of a population is 5% and the present number of people is 16000. What will be the population in 3 years?",
+   "options": {
+    "a": "29448",
+    "b": "18522",
+    "c": "24448",
+    "d": "20448"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 48,
+   "q": "Thanga bought a sweater and saved € 200 when a discount of 25% was given. The price ofa sweater before discount is",
+   "options": {
+    "a": "% 400",
+    "b": "= 700",
+    "c": "%500",
+    "d": "800"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 49,
+   "q": "Out of 15,000 voters in a constituency, 60% voted. The numbers of voters who did not vote is",
+   "options": {
+    "a": "6000",
+    "b": "9000",
+    "c": "8000",
+    "d": "7000"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 50,
+   "q": "A man can do a piece of work in 6 days which he can complete in 4 days when his friend helps him. His friend can complete the work alone in",
+   "options": {
+    "a": "6 days",
+    "b": "4 days",
+    "c": "12 days",
+    "d": "10 days"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 51,
+   "q": "Aspeed ofa car is 80 km/hr. Distance travelled by it in 15 minutes is",
+   "options": {
+    "a": "10Km",
+    "b": "20Km",
+    "c": "15Km",
+    "d": "30Km"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 52,
+   "q": "A building is 50/3 meters high. The angle of elevation made from its top to a point which is 50 meters away from the foot is",
+   "options": {
+    "a": "30°",
+    "b": "45°",
+    "c": "60°",
+    "d": "90°"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 53,
+   "q": "A and B working together can finish a peace of work in 12 days while B alone can finish it in 30 days. In how many days can A alone finish the work ?",
+   "options": {
+    "a": "18 days",
+    "b": "24 days",
+    "c": "25 days",
+    "d": "20 days"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 54,
+   "q": "Astarted a business investing f 90,000. After 3 months, B joined him with a capital of € 1,20,000. After another 6 months, C joined them with a capital of 1,80,000. At the end of the year, they made a profit of ¥ 40,000. C’s share is",
+   "options": {
+    "a": "%5000 ‘",
+    "b": "%7000",
+    "c": "% 8000",
+    "d": "%6000"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 55,
+   "q": "The average of 10 numbers is 22. If each number is increased by 3, the new average will be",
+   "options": {
+    "a": "26",
+    "b": "23",
+    "c": "24",
+    "d": "25"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": "Text read from the page image — OCR could not recover it.",
+   "passage": null
+  },
+  {
+   "n": 56,
+   "q": "~6« The number of ways in which 5 different books can be arranged on a shelf is",
+   "options": {
+    "a": "100",
+    "b": "125",
+    "c": "25",
+    "d": "120"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 57,
+   "q": "In how many ways a committee consisting of 4 men and 2 women, can be chosen from 6 men and 5 women",
+   "options": {
+    "a": "160",
+    "b": "150",
+    "c": "125",
+    "d": "100"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 58,
+   "q": "The area of a trapezium shaped field is 480m’, the distance between two parallel sides is 15 m and one of the parallel side is 20 m, the other parallel side is",
+   "options": {
+    "a": "40m",
+    "b": "35m",
+    "c": "44m",
+    "d": "50m"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 59,
+   "q": "The circumference of the two circles is 198 cm and 352 cm respectively. What is the difference between their radii?",
+   "options": {
+    "a": "16.5cm",
+    "b": "45cm",
+    "c": "49.5cm",
+    "d": "24.5cm"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 60,
+   "q": "The diameter of the base of cylinder is 4 cm and its height is 14 cm. The volume of the cylinder is",
+   "options": {
+    "a": "196 cm?",
+    "b": "176 cm?",
+    "c": "276 cm?",
+    "d": "352 cm?"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 61,
+   "q": "The value of 25-5{2+3{2-2(5-3)+5}-10]+4 is",
+   "options": {
+    "a": "23.75",
+    "b": "23.25",
+    "c": "23",
+    "d": "25"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 62,
+   "q": "Simplify [24413-5 Foflo~45+(17-2) |",
+   "options": {
+    "a": "8",
+    "b": "6",
+    "c": "11",
+    "d": "9"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 63,
+   "q": "The given pie chart shows the number of students of a school using different modes of travels to school. If 180 students came to school on foot, the total numbers of students in the school is Pie Chart Taxi O Walking & School Bus { Bicycle",
+   "options": {
+    "a": "1800",
+    "b": "1200",
+    "c": "1080",
+    "d": "1020 -7"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 64,
+   "q": "The line graph shows the annual profit percentage earned by the company during the year 1995 to 2000. Bo 70 H0 65 60 55 ER 45 40 30 26 10 a ¥v 1995 1996 1997 1998 1999 2000 Years What is the average profit earned during the year 1995 to 2000?",
+   "options": {
+    "a": "55%",
+    "b": "55.83%",
+    "c": "50.97%",
+    "d": "56.33%"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 65,
+   "q": "The bar graph shows the production profit earned during the years 1995 to 2000. ao t _ : 76 70 6g 65 65 - ae a sesnannnnnnannanuon nin &0 a . povgnenanrenannecs al GQ 56 55 53 . @ 50 | 2013 2014 2015 2016 2017 2018 2019 2020 m Years The maximum rise in the production of raw wool with respect to previous year is",
+   "options": {
+    "a": "2017",
+    "b": "2020",
+    "c": "2016",
+    "d": "2019"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 66,
+   "q": "Four of the following five are alike in a certain way and so form a group, which one does not belong to that group?",
+   "options": {
+    "a": "Tooth",
+    "b": "Chin",
+    "c": "Nose",
+    "d": "Ear"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 67,
+   "q": "Choose the number pair/group which is different from others?",
+   "options": {
+    "a": "7:22",
+    "b": "12:37",
+    "c": "8:33",
+    "d": "15:46"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 68,
+   "q": "Ina certain code language COMPUTER is written as RFUVQNPC. How will MEDICINE be written in that code language?",
+   "options": {
+    "a": "MFEDJJOE",
+    "b": "EOJDEJFM",
+    "c": "MFEJDJOE",
+    "d": "EOJDJEFM"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 69,
+   "q": "Inacertain code language, “134° means ‘good and tasty’; ‘478’ means ‘see good pictures’ and ‘729° means ‘pictures are faint’. Which of the following digits stands for ‘see’?",
+   "options": {
+    "a": "9",
+    "b": "2",
+    "c": "1",
+    "d": "8"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 70,
+   "q": "If ROSE is coded as 6821, CHAIR is coded as 73456 and PREACH is coded as 961473, what will be the code for SEARCH ?",
+   "options": {
+    "a": "246173",
+    "b": "214673",
+    "c": "214763",
+    "d": "216473"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 71,
+   "q": "Assertion [A] : Pressure cookers are fitted with ebonite handles. Reason [R] : Ebonite is strong.",
+   "options": {
+    "a": "Both A and R are true and R is the correct explanation of A.",
+    "b": "Both A and R are true but R is NOT the correct explanation of A.",
+    "c": "A is true but R is false.",
+    "d": "A is false but R is true."
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": "Text read from the page image — OCR could not recover it.",
+   "passage": null
+  },
+  {
+   "n": 72,
+   "q": "Assertion [A] : Pluto is the coldest planet Reason [R] : It receives slanting rays of- the sun",
+   "options": {
+    "a": "Both Aand R are true and R is the correct explanation of A",
+    "b": "Both Aand R are true but R is NOT the correct explanation of A",
+    "c": "Ais true but R is false",
+    "d": "Ais false but R is true"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 73,
+   "q": "Assertion [A] : We feel comfortable in hot and humid climate. Reason [R] : Sweat evaporates faster in humid climate",
+   "options": {
+    "a": "BothAand R are true and R is the correct explanation of A",
+    "b": "Both Aand R are true but R is NOT the correct explanation of A",
+    "c": "Ais true but R is false",
+    "d": "Both Aand R are false"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 74,
+   "q": "You are ina bus. The bus reaches your stop but still you have not purchased the ticket because of heavy rush. What will you do?",
+   "options": {
+    "a": "Jump out quickly to avoid embarrassment",
+    "b": "call the conductor, give him the money and get the ticket",
+    "c": "Hand the money to someone sitting nearby to give it te the conductos",
+    "d": "Give the money to the driver"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 75,
+   "q": "A person lives in a remote village which is quite far from the city and the bus stop is also three hours away from that village. The villager’s landlord is trying to occupy the poor villager’s land by force. You are the District Magistrate and busy in a meeting called by a State Minister. The villager has come all the way, by bus and on foot, to see you and give an application seeking protection from the powerful landlord. The villager keeps on waiting outside the meeting hail for an hour. You come out of the meeting and are rushing to another meeting. The villager follows you to submit his application. What would you do?",
+   "options": {
+    "a": "Tell him that the matter is actually to be dealt by a junior officer and that he should give the application to him",
+    "b": "Tell him to wait for another two hours till you come back from your next meeting",
+    "c": "Call one of your senior subordinate officers and ask him/her to solve the villager’s problem",
+    "d": "Quickly take the application from him, ask few relevant questions regarding his problem and"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 76,
+   "q": "then proceed to the meeting. Two bus tickets from city A to B and three tickets from city A to C cost Rs. 77 but three tickets from city Ato B and two tickets from city A to C cost Rs. 73. What are the fares for cities B and C from A?",
+   "options": {
+    "a": "Rs. 4, Rs. 23",
+    "b": "Rs. 13, Rs. 17",
+    "c": "Rs. 15, Rs. 14",
+    "d": "Rs. 17, Rs. 13"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 77,
+   "q": "A tailor had a number of shirt pieces to cut from a roll of fabric. He cut each rol! of equal length into 10 pieces. He cut at the rate of 45 cuts a minute. How many rolls would be cut in 24 minutes?",
+   "options": {
+    "a": "32rolls",
+    "b": "54rolls",
+    "c": "108 rolls",
+    "d": "120rolls"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 78,
+   "q": "Directions (Question Nos. 78 & 79) : A matrix of certain characters is given. These characters follow a certain trend, row-wise or column wise. Find out this trend and choose the missing character accordingly. 72 24 6 96 16 12 108 ? 18",
+   "options": {
+    "a": "12",
+    "b": "16",
+    "c": "18",
+    "d": "20"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 79,
+   "q": "1 7 9 2 14 ? 3 105 | 117",
+   "options": {
+    "a": "26",
+    "b": "20",
+    "c": "16",
+    "d": "12 Arrange the following in a logical order"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 80,
+   "q": "Shoulder 2. Wrist 3. Elbow 4. Palm 5. Finger",
+   "options": {
+    "a": "2,4,5,3,1",
+    "b": "3,1, 4, 2,5",
+    "c": "3,4,5, 2,1",
+    "d": "5, 4, 2, 3,1"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 81,
+   "q": "Given interchanges : Signs + and - , numbers 4 and 8",
+   "options": {
+    "a": "4+8-12=12",
+    "b": "4-8+12=0",
+    "c": "8+4-12=24",
+    "d": "8-4+12=8"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 82,
+   "q": "If x stands for ‘addition’, + stands for ‘subtraction’, + stands for ‘multiplication’ and-stands for ‘division’, then 20 x 8+8-4+2=?",
+   "options": {
+    "a": "80",
+    "b": "25",
+    "c": "24",
+    "d": "5 Find the missing number in the series"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 83,
+   "q": "?, 100, 180, 294, 448",
+   "options": {
+    "a": "48",
+    "b": "50",
+    "c": "58",
+    "d": "60 Find the wrong number in the series"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 84,
+   "q": "91",
+   "options": {
+    "a": "31",
+    "b": "15",
+    "c": "56",
+    "d": "91"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 85,
+   "q": "In a row of boys, If A who is 10 from the left and B who is 9\" from the right interchange their positions, A becomes 15\" from the left. How many boys are there in the row?",
+   "options": {
+    "a": "23",
+    "b": "31",
+    "c": "27",
+    "d": "28"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 86,
+   "q": "Sam ranked 9\" from the top and 38\" from the bottom in a class. How many students are there in the class?",
+   "options": {
+    "a": "45",
+    "b": "47",
+    "c": "46",
+    "d": "48"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 87,
+   "q": "P,Q, R, S, T, U, V and W are sitting round the circle and are facing the centre: Pis second to the right of T who is the neighbour of R and V. S is not the neighbour of P. V is the neighbour of U. Qis not between S and W. W is not between U and 8. Then Who is sitting opposite to U?",
+   "options": {
+    "a": "Q",
+    "b": "P",
+    "c": "R",
+    "d": "W"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 88,
+   "q": "i1- Inaclass of 60 students where girls are twice that of boys, Laxmi ranked 27th from the top. If there are 9 boys ahead of Laxmi, how many girls are after her rank?",
+   "options": {
+    "a": "23",
+    "b": "21",
+    "c": "22",
+    "d": "24"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 89,
+   "q": "Among five friends who is the tallest? I. Dis taller than A and C. IL. B is shorter than E but taller than D",
+   "options": {
+    "a": "Ifthe data in statement I alone are sufficient to answer the question",
+    "b": "Ifthe data in statement II alone are sufficient answer the question",
+    "c": "Ifthe data either in I or II alone are sufficient to answer the question;",
+    "d": "Ifthe data in both the statements together are needed"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 90,
+   "q": "What will be the total weight of 10 poles each of the same weight? J. One-fourth of the weight of a pole is 5 kilograms. IL. The total weight of three poles is 20 kilograms more than the total weight of two poles",
+   "options": {
+    "a": "Ifthe data in statement I alone are sufficient to answer the question",
+    "b": "Ifthe data in statement II alone are sufficient answer the question",
+    "c": "Ifthe data either in I or II alone are sufficient to answer the question;",
+    "d": "Ifthe data even in both the statements together are not sufficient to answer the question Find out which of the figures (i), (2), (3) and (4) can be formed from the pieces given in figure (X). eS) sey WARS"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 91,
+   "q": "@ GG) @)",
+   "options": {
+    "a": "1",
+    "b": "4",
+    "c": "3",
+    "d": "2"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 92,
+   "q": "Apicture is copied onto a sheet of paper 8.5 inches by 10 inches. A 1.5 inch margin is left all around. What area in square inches does the picture cover?",
+   "options": {
+    "a": "76",
+    "b": "35",
+    "c": "49",
+    "d": "38.5"
+   },
+   "answer": "d",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 93,
+   "q": "In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was",
+   "options": {
+    "a": "2500",
+    "b": "2700",
+    "c": "2900",
+    "d": "3100"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 94,
+   "q": "If 20% of a=b, then b% of 20 is the same as",
+   "options": {
+    "a": "4% ofa",
+    "b": "6% ofa",
+    "c": "8% ofa",
+    "d": "10% ofa"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 95,
+   "q": "Aclock is set right at 8 a.m. The clock gains 10 minutes in 24 hours will be the true time when the clock indicates 1 p.m. on the following day?",
+   "options": {
+    "a": "48 min. past 12",
+    "b": "46min. past 12",
+    "c": "45 min. past 12",
+    "d": "47min. past 12"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 96,
+   "q": "I. Tanya is older than Eric. Il. Cliff is older than Tanya. IIL. Eric is older than Cliff. If the first two statements are true, the third statement is",
+   "options": {
+    "a": "true",
+    "b": "false",
+    "c": "uncertain",
+    "d": "none Mr. A, Miss B, Mr. C and Miss D are sitting around a table and discussing their trades"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 97,
+   "q": "Mr. A, Miss B, Mr. C and Miss D are sitting around a table and discussing their trades. 1) Mr. A sits opposite to cook. 2) Miss B sits right to the barber. 3) The washer man is on the left of the tailor. 4) Miss D sits opposite Mr. C. What are the trades of A and B?",
+   "options": {
+    "a": "Tailor and Barber",
+    "b": "Tailor and cook",
+    "c": "Barber and cook",
+    "d": "Washer man and cook"
+   },
+   "answer": "b",
+   "keyAnswer": null,
+   "note": "Text read from the page image — OCR could not recover it.",
+   "passage": null
+  },
+  {
+   "n": 98,
+   "q": "One of the important humanitarian by-products of technology is the greater dignity and value that it imparts to human labour. Ina highly industrialized society, there is no essential difference between Brahmin and Dalit, Muslim and Hindu; they are equally useful and hence equally valuable for in the industrial society individual productivity fixes the size of the pay cheque and this fixes social status. The passage best supports the statement that",
+   "options": {
+    "a": "technology decides individual’s social status",
+    "b": "castes and religions are man-made",
+    "c": "human labour has dignity and value",
+    "d": "all individuals, irrespective of caste and creed, are born equal"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 99,
+   "q": "What was the day on 15\" August 1947?",
+   "options": {
+    "a": "Friday",
+    "b": "Saturday",
+    "c": "Sunday",
+    "d": "Thursday"
+   },
+   "answer": "a",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  },
+  {
+   "n": 100,
+   "q": "The last day of a century cannot be",
+   "options": {
+    "a": "Monday",
+    "b": "Wednesday",
+    "c": "Tuesday",
+    "d": "Friday"
+   },
+   "answer": "c",
+   "keyAnswer": null,
+   "note": null,
+   "passage": null
+  }
+ ]
+}

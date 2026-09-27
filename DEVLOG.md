@@ -9,6 +9,63 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-27 — /udc-ldc: MPSC clerical bank, 525 questions, with a progress view
+
+**What shipped:** a new `/udc-ldc` module and the generated bank behind it,
+`src/data/banks/mpsc-udc-ldc.ts` (525 questions across six past papers of the
+Mizoram Ministerial Service clerical cadre — LDC, UDC and Assistant Grade).
+Built by `tools/udc-ldc-build/build_bank.py` from the sibling repo's
+`state/staged/`; do not hand-edit the `.ts`.
+
+Two views. **Progress** is the point of the module: per-paper bars for text
+extracted vs answers, plus an explicit "what's left" panel. A paper whose text
+is complete but whose answers are not must never read as ready, and 425 of the
+525 have no answer at all. **Browse** expands a paper and lets you read the
+questions inline with their provenance badge, per this repo's standing rule
+that every group-by view must be readable, not just testable.
+
+**Why the answers are mostly blank, deliberately:** MPSC has published an answer
+key for exactly one of these six sittings (Assistant/UDC Paper-II, April 2024,
+notification No.ASST/1/2019-MPSC). Those 100 answers are `answerSource:
+'official'`. The other 425 carry `answerIndex: -1` and say "no answer yet" in
+the UI. The older pipeline's habit of badging model guesses as answers is what
+this bank exists to avoid — a blank is honest, a guess wearing an answer's
+clothes is not.
+
+**Provenance that survived into the bank:** 21 questions were transcribed by
+reading the rendered page images where OCR failed; 16 had options repaired from
+a different booklet series of the same paper (each sitting is printed as Series
+A–D, so four independent scans exist and their OCR fails in different places);
+1 is `figureBased` — its printed answer options are figures that scanned as a
+solid black block, so it is unanswerable from this source by anyone and is kept
+out of scored tests; 2 carry a `sourceDefect` because the paper itself prints
+its fourth option as `(c)`.
+
+**A bug worth recording, because it was mine and it taught a wrong exam rule:**
+the progress view first flagged "−⅓ penalty" on every 2025 paper. Negative
+marking arrived with Gazette Ex-582/2025, published **18 August 2025** — so it
+is a year *and month* test. The February and May 2025 papers predate it and were
+not penalised. The generator had it right; the component was re-deriving it from
+the year alone. The flag is now exported per paper as
+`mpscUdcLdcNegativeMarking` and never recomputed in the UI.
+
+**What's still open:**
+- 425 questions need answers. Solving was calibrated against the one official
+  key available and scored 91% overall, 97.5% on the questions it marked high
+  confidence — but only 80% on reasoning, so reasoning wants a stronger model
+  or an adjudication pass.
+- Explanations exist only for the keyed paper.
+- No test player yet, so negative marking is displayed but not yet *scored*.
+- Pre-2024 papers are not loaded. The syllabus and paper structure changed over
+  the years and `blueprint_for()` hardcodes today's counts, so an older paper
+  would fail the count gate even when parsed correctly. Needs year-keyed
+  blueprints built from the older syllabi.
+- The bank is bundled, not API-backed. It adds ~320 KB of source to an
+  already-large main chunk; the MPSC bank went API-only in Phase 4 for exactly
+  this reason and this one should probably follow.
+
+---
+
 ## 2026-09-22 — Letter & Précis tab (format drill + shortening guide)
 
 **What shipped:** an eleventh tab on `/state-tax-officer`, sitting next to

@@ -45,6 +45,18 @@ PH2_DESCRIPTIVE_DROPPED_NOTE = (
 
 PAPERS = [
     {
+        "src": "udc-asst-2024-p2.json",
+        "check": None,
+        "checkPaper": None,
+        "id": "udc-asst-2024-p2",
+        "title": "Assistant Grade & UDC — Paper-II",
+        "subtitle": "Computer · Arithmetic · Reasoning · April 2024",
+        "glyph": "\U0001F5C2\uFE0F",
+        "note": ("The only clerical sitting MPSC published an answer key for "
+                 "(Provisional Answer Key, No.ASST/1/2019-MPSC, 5 April 2024) \u2014 "
+                 "so every answer here is the Commission's, not ours."),
+    },
+    {
         "src": "sas1-paper1-english.json",
         "check": "check-english.json",
         "checkPaper": "sas1-paper1-english",

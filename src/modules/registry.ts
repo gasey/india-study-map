@@ -113,6 +113,16 @@ export const modules: AppModule[] = [
 
   // ---- Practice: In-app modules ----
   {
+    id: 'udc-ldc',
+    title: 'LDC / UDC Clerical',
+    category: 'Practice',
+    subgroup: 'In-app modules',
+    tagline: 'MPSC clerical past papers — progress, browse, provenance',
+    glyph: '🗂️',
+    kind: 'route',
+    path: '/udc-ldc',
+  },
+  {
     id: 'pyq',
     title: 'PYQ Practice',
     category: 'Practice',

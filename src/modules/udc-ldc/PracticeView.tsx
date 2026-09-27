@@ -1,0 +1,176 @@
+import { useEffect, useMemo, useState } from 'react';
+import type { BankQuestion } from '@/data/banks/types';
+import { isMcqQuestion } from '@/data/banks/types';
+import type { ProgressMap } from './useProgress';
+import { isAnswerable } from './filters';
+
+// ============================================
+// Practice drill — answer, get told, move on.
+//
+// Only serves questions that can actually be MARKED. 425 of the 525 in this
+// bank have no published answer, and a drill that accepts your answer and
+// then cannot say whether it was right is worse than one that admits the
+// question isn't ready: it teaches nothing and quietly implies a verdict.
+// The filter rail can still surface those; this view refuses them and says why.
+// ============================================
+
+interface Props {
+  questions: BankQuestion[];
+  progress: ProgressMap;
+  onAnswer: (questionId: string, correct: boolean) => void;
+}
+
+export function PracticeView({ questions, progress, onAnswer }: Props) {
+  const pool = useMemo(() => questions.filter(isAnswerable), [questions]);
+  const [i, setI] = useState(0);
+  const [picked, setPicked] = useState<number | null>(null);
+  const [session, setSession] = useState({ done: 0, right: 0 });
+
+  // Filters changing under the drill would otherwise leave `i` past the end.
+  useEffect(() => {
+    setI(0);
+    setPicked(null);
+  }, [pool.length]);
+
+  if (!pool.length) {
+    const unmarkable = questions.length;
+    return (
+      <div
+        style={{
+          border: '1px solid var(--border, #dcdce3)', borderRadius: 10,
+          padding: '18px 20px', fontSize: 14, lineHeight: 1.6,
+        }}
+      >
+        <strong>Nothing here can be marked yet.</strong>
+        <p style={{ margin: '8px 0 0', opacity: 0.85 }}>
+          {unmarkable > 0
+            ? `${unmarkable} question${unmarkable === 1 ? '' : 's'} match your filters, but none has a published answer, so a drill could not tell you whether you were right.`
+            : 'No questions match your filters.'}{' '}
+          MPSC published an answer key for only one of these six sittings
+          (Assistant Grade &amp; UDC Paper-II, April 2024). Set{' '}
+          <em>Answer → Has an answer</em> to practise what is ready.
+        </p>
+      </div>
+    );
+  }
+
+  const q = pool[Math.min(i, pool.length - 1)];
+  if (!isMcqQuestion(q)) return null;
+  const answered = picked !== null;
+  const correct = answered && picked === q.answerIndex;
+  const prior = progress[q.id];
+
+  const choose = (idx: number) => {
+    if (answered) return;
+    setPicked(idx);
+    const ok = idx === q.answerIndex;
+    onAnswer(q.id, ok);
+    setSession((s) => ({ done: s.done + 1, right: s.right + (ok ? 1 : 0) }));
+  };
+
+  const next = () => {
+    setPicked(null);
+    setI((v) => (v + 1) % pool.length);
+  };
+
+  return (
+    <div>
+      <div
+        style={{
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+          fontSize: 13, marginBottom: 10, flexWrap: 'wrap', gap: 8,
+        }}
+      >
+        <span style={{ opacity: 0.75 }}>
+          Question {Math.min(i, pool.length - 1) + 1} of {pool.length}
+          {prior && (
+            <span style={{ marginLeft: 8, opacity: 0.8 }}>
+              · seen {prior.n}×, last time {prior.lastCorrect ? 'right' : 'wrong'}
+            </span>
+          )}
+        </span>
+        {session.done > 0 && (
+          <span style={{ fontVariantNumeric: 'tabular-nums' }}>
+            This session: <strong>{session.right}/{session.done}</strong>
+          </span>
+        )}
+      </div>
+
+      <div
+        style={{
+          border: '1px solid var(--border, #dcdce3)', borderRadius: 10, padding: '18px 20px',
+        }}
+      >
+        <div style={{ fontSize: 12, opacity: 0.6, marginBottom: 6 }}>{q.topicLabel}</div>
+        <div style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}>{q.question}</div>
+
+        <div style={{ display: 'grid', gap: 8 }}>
+          {q.options.map((o, idx) => {
+            const isAnswer = idx === q.answerIndex;
+            const isPick = idx === picked;
+            let border = 'var(--border, #dcdce3)';
+            let bg = 'transparent';
+            if (answered && isAnswer) {
+              border = 'var(--ok, #2e9e5b)';
+              bg = 'color-mix(in srgb, var(--ok, #2e9e5b) 12%, transparent)';
+            } else if (answered && isPick) {
+              border = 'var(--bad, #c4462f)';
+              bg = 'color-mix(in srgb, var(--bad, #c4462f) 12%, transparent)';
+            }
+            return (
+              <button
+                key={idx}
+                type="button"
+                onClick={() => choose(idx)}
+                disabled={answered}
+                style={{
+                  textAlign: 'left', font: 'inherit', fontSize: 14, padding: '10px 12px',
+                  borderRadius: 8, border: `1.5px solid ${border}`, background: bg,
+                  color: 'inherit', cursor: answered ? 'default' : 'pointer',
+                  display: 'flex', gap: 10,
+                }}
+              >
+                <span style={{ opacity: 0.6, fontWeight: 700 }}>{'abcd'[idx]})</span>
+                <span>{o}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        {answered && (
+          <div style={{ marginTop: 14 }}>
+            <div style={{ fontWeight: 700, color: correct ? 'var(--ok, #2e9e5b)' : 'var(--bad, #c4462f)' }}>
+              {correct ? 'Correct' : `Not quite — the answer is (${'abcd'[q.answerIndex]})`}
+            </div>
+            {q.explanation && (
+              <p style={{ margin: '6px 0 0', fontSize: 13.5, lineHeight: 1.55, opacity: 0.9 }}>
+                {q.explanation}
+              </p>
+            )}
+            {q.disputeNote && (
+              <p style={{ margin: '6px 0 0', fontSize: 12.5, color: 'var(--bad, #c4462f)' }}>
+                {q.disputeNote}
+              </p>
+            )}
+            {q.answerKeyRef && (
+              <p style={{ margin: '6px 0 0', fontSize: 11.5, opacity: 0.6 }}>
+                Source: {q.answerKeyRef}
+              </p>
+            )}
+            <button
+              type="button"
+              onClick={next}
+              style={{
+                marginTop: 12, font: 'inherit', fontSize: 13.5, fontWeight: 600,
+                padding: '7px 16px', borderRadius: 999, cursor: 'pointer',
+                border: 0, background: 'var(--info, #3b7dd8)', color: '#fff',
+              }}
+            >
+              Next question
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

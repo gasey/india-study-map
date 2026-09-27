@@ -9,6 +9,44 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-28 — Adjudicated the weakest answers; 63 re-solved blind
+
+**What shipped:** the 63 answers the solver had marked medium or low confidence
+were re-solved independently by a stronger model and reconciled. High-confidence
+answers across the bank went **286 → 304**, low **28 → 18**.
+
+**Why these 63:** graded against the one official key that exists for this
+cadre, 'high' answers were 97–98% correct and 'medium' only **44%**. They were
+the weakest content on the site and already visible.
+
+**Blind, deliberately.** The re-solve batches carried no hint of the previous
+answer. Agreement between two independent runs is evidence; agreement produced
+by showing the second model the first one's guess is not.
+
+| outcome | n | treatment |
+|---|---|---|
+| agreed | 47 | confidence raised to the better of the two |
+| changed | 9 | stronger model's answer taken, `supersededAnswerIndex` recorded |
+| unresolved | 7 | **not presented as a settled answer** |
+
+That last row is the important one. Where two independent attempts disagree
+*and* both are unsure, the honest conclusion is that the source is damaged —
+not that one of them happens to be right. Those seven carry a `disputeNote`
+saying exactly that, and they are mostly genuine data loss: a dice diagram, a
+bar graph and a pie chart that scanned as noise, two stems reduced to
+fragments.
+
+Worth noting one fix: `UDC Combined Paper-I q1` — the question whose stem was
+recovered by the page-2 reading-order reorder — was answered "Bihar" and is now
+"Uttar Pradesh" at high confidence.
+
+**What's still open:** 45 answers remain medium/low or unresolved and are named
+per paper in the progress view; the exam timer still does not survive a refresh;
+pre-2024 papers still need year-keyed blueprints; the bank is still bundled
+rather than API-backed.
+
+---
+
 ## 2026-09-27 (fix) — /udc-ldc could not be scrolled
 
 **What was wrong:** the page rendered at full height inside a clipped box. All

@@ -125,6 +125,7 @@ def load_answers():
 
 
 DERIVED = os.path.join(BANK_REPO, "state", "solve-derived")
+ADJUDICATED = os.path.join(BANK_REPO, "state", "adjudicate", "_resolved.json")
 
 
 def reorder_maps():
@@ -174,7 +175,25 @@ def load_derived():
             if not isinstance(idx, int) or not 0 <= idx <= 3:
                 continue
             out[(paper, int(q))] = (idx, "derived", s.get("explanation", ""),
-                                    s.get("confidence"))
+                                    s.get("confidence"), None)
+
+    # Overlay the adjudication pass. The weakest answers (the solver's own
+    # 'medium' and 'low') were re-solved BLIND by a stronger model and
+    # reconciled: agreement raises confidence, disagreement takes the stronger
+    # answer, and a disagreement where both runs were unsure is recorded as
+    # unresolved rather than dressed up as an answer.
+    if os.path.exists(ADJUDICATED):
+        for qid, a in json.load(open(ADJUDICATED, encoding="utf-8")).items():
+            if "::" not in qid:
+                continue
+            paper, q = qid.rsplit("::q", 1)
+            note = None
+            if a.get("agreement") == "unresolved":
+                note = ("Two independent attempts at this question disagreed and both "
+                        "were unsure — the printed figure or data did not survive "
+                        "scanning. Treat this answer as unverified.")
+            out[(paper, int(q))] = (a["answerIndex"], "derived",
+                                    a.get("explanation", ""), a.get("confidence"), note)
 
     # Apply any reading-order permutation recorded after these were solved.
     for paper, mapping in reorder_maps().items():
@@ -238,6 +257,9 @@ def main():
                 else:
                     if ans[3]:
                         rec["answerConfidence"] = ans[3]
+                    if len(ans) > 4 and ans[4]:
+                        rec["disputeNote"] = ans[4]
+                        stats["unresolved"] += 1
                     stats["derived_" + (ans[3] or "unrated")] += 1
             else:
                 stats["unanswered"] += 1

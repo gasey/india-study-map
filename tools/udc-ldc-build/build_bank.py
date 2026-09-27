@@ -54,6 +54,24 @@ PAPERS = {
     "UDC Combined Paper-II (B) May-2025.": (
         "mpsc-udc-combined-2025-paper-2", "UDC Combined Examination",
         "Upper Division Clerk", "Paper-II", 2025, "May", "ASST_UDC"),
+    "Assistant, UDC Paper-I Series A.": (
+        "mpsc-asst-udc-2025oct-paper-1", "Assistant Grade & UDC (Combined)",
+        "Assistant Grade / UDC", "Paper-I", 2025, "October", "ASST_UDC"),
+    "Assistant, UDC Paper-II Series A.": (
+        "mpsc-asst-udc-2025oct-paper-2", "Assistant Grade & UDC (Combined)",
+        "Assistant Grade / UDC", "Paper-II", 2025, "October", "ASST_UDC"),
+    "LDC Paper-I under Law _ Judicial Deptt..": (
+        "mpsc-ldc-2026feb-paper-1", "LDC under Law & Judicial Deptt.",
+        "Lower Division Clerk", "Paper-I", 2026, "February", "LDC"),
+    "LDC Paper-II under Law _ Judicial Deptt..": (
+        "mpsc-ldc-2026feb-paper-2", "LDC under Law & Judicial Deptt.",
+        "Lower Division Clerk", "Paper-II", 2026, "February", "LDC"),
+    "LDC under SW, WCD Paper - I.": (
+        "mpsc-ldc-2026apr-paper-1", "LDC under Commissioner for PwD, SW & WCD",
+        "Lower Division Clerk", "Paper-I", 2026, "April", "LDC"),
+    "LDC under SW, WCD Paper-II.": (
+        "mpsc-ldc-2026apr-paper-2", "LDC under Commissioner for PwD, SW & WCD",
+        "Lower Division Clerk", "Paper-II", 2026, "April", "LDC"),
 }
 
 # our section id -> (bank subject, topic id, human label)

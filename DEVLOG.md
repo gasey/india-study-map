@@ -9,6 +9,64 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-28 (later still) — six more papers; the bank doubles to 1,050 questions
+
+**What shipped:** three sittings that had never been through this pipeline —
+**Assistant/UDC October 2025**, **LDC under Law & Judicial February 2026**, and
+**LDC under Commissioner for PwD (SW&WCD) April 2026**. 12 papers, 1,050
+questions, **350 from an official key** (up from 175).
+
+**Why they were missed.** The reconciliation compared the site against
+`bank_v2.json` and worked on what was *absent*. These were *present but
+unverified* — sitting in the old bank with model-inferred answers — which is a
+different failure mode, and one nothing was reporting. "2025 complete" was not
+true when I said it.
+
+**A second official key, now used.** `Final Answer key of LDC — Commissioner for
+PwD, 2026` is the only *LDC* key MPSC has published and it was sitting unused.
+OCR recovered 161 of its 175 rows; the remaining 14 were read directly off the
+rendered key page, and **23 OCR'd values were spot-checked against that same
+image before any of it was badged "official"** — all 23 matched.
+
+**These are the first papers actually sat under negative marking.** The April
+2026 LDC paper prints the rules on its own face ("one-third of the marks... will
+be deducted", "if left blank... no penalty"), independently confirming Gazette
+Ex-582/2025. All six new papers correctly carry `negativeMarking: true`; the
+original six remain false. The exam view already scores each paper by its own
+rule, so this needed no UI change.
+
+**Parser fixes, and one I had to back out twice.**
+
+- **Tick-box papers** print an empty `( )` after every option for marking. It is
+  answer-sheet furniture and is now stripped.
+- `Paper - I` (spaces around the hyphen) did not match the blueprint pattern, so
+  one paper was silently ungated.
+- 🔴 **Option cross-references.** `"Both (a) & (b)"` is an option's TEXT, but the
+  inner `(a)`/`(b)` were parsed as option markers and destroyed the question's
+  real options. Fixing it took three attempts, and the first two made things
+  worse:
+  1. "any marker preceded by *and*" — ate real markers wherever an option's text
+     ended in "and" (`…Hindu and` ⏎ `(b) Muslim`). Four papers regressed.
+  2. "any quantifier before a marker" — "only" is an ordinary word at the end of
+     option text (`Processor and RAM only (d) Arithmetic…`). Two more regressed.
+  3. What works: **two markers joined by `&` or `,`**, and nothing else.
+     "and"/"or"/"to"/"nor" are all real single-word options in the preposition
+     and conjunction questions (`(a) on (b) for (c) to (d) by`), so they cannot
+     be treated as joiners. Missing a cross-reference is a miss; eating a real
+     marker is corruption.
+
+  Each round was caught only because `tools/regress.py` re-checks every staged
+  paper — the net effect of attempt 1 was +1 question fixed, −4 broken.
+
+- `cross_series.py` had the May-2025 filename pattern hardcoded, so it silently
+  found no donors for any other sitting and looked like it had nothing to fix.
+
+**What's still open:** 351 of the new questions need solving; 45 existing answers
+are medium/low/unresolved; pre-2024 papers still need year-keyed blueprints; the
+bank is bundled rather than API-backed.
+
+---
+
 ## 2026-09-28 (later) — An exam sitting now survives a refresh
 
 **What shipped:** the Exam view persists an in-progress sitting. Answers and the

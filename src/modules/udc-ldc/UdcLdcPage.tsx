@@ -227,7 +227,12 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
                     <div style={{ fontSize: 11, opacity: 0.65, marginTop: 3 }}>
                       {r.official > 0
                         ? `${r.official} from the official key`
-                        : `solved — no MPSC key exists${r.lowConf ? `; ${r.lowConf} worth review` : ''}`}
+                        : r.answered === 0
+                          /* Distinguish "no answers yet" from "solved without a
+                             key" — both show 0 official, and calling an
+                             unanswered paper "solved" is simply false. */
+                          ? 'not solved yet — no MPSC key for this sitting'
+                          : `solved — no MPSC key exists${r.lowConf ? `; ${r.lowConf} worth review` : ''}`}
                     </div>
                   </td>
                   <td style={{ padding: '10px', fontSize: 12 }}>

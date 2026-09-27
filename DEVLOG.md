@@ -9,6 +9,44 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-27 (later still) — Exam view: sit the paper, scored under its own rule
+
+**What shipped:** the fourth view on `/udc-ldc`. Pick a paper, get the whole
+thing in printed order with a 3-hour clock, submit, and get scored **under that
+paper's own marking rule**.
+
+Exam conditions come from `mpscUdcLdcPaperMeta`, generated from the syllabus
+blueprints — marks per question, duration, whether the penalty applies and at
+what fraction. Not re-derived in the UI, because that is exactly the mistake
+made earlier today when a `year >= 2025` shortcut flagged the February and May
+2025 papers as penalised.
+
+**Skipped is reported separately from wrong, deliberately.** Under the
+Ex-582/2025 regime a blank costs nothing while a wrong answer costs a third —
+the single most important strategic fact about this exam. The result screen
+therefore tells you what blind-guessing your skipped questions would have been
+worth: positive where there is no penalty (guess everything), and only
+worthwhile above roughly one-in-three confidence where there is. For a
+pre-August-2025 paper it says plainly that leaving questions blank was pure
+loss.
+
+The filter rail is deliberately NOT applied here — you sit the whole paper as
+printed, or it is not an exam. Questions that cannot be scored (the one whose
+options are figures lost to the scan) render read-only and are excluded from
+the denominator rather than counting against you.
+
+Verified live: 75 questions rendered, answer counter tracking, clock counting
+down from 3:00:00, and the score arithmetic checking out — 1 right of 10
+answered gave 2/150 with sections summing correctly (GK 1+9+40=50, English
+0+0+25=25).
+
+**What's still open:** the timer does not survive a refresh (a real sitting
+should — `modules/mpsc/useAttemptState.ts` already solves this and should be
+reused); no server-side record of completed attempts; pre-2024 papers still
+need year-keyed blueprints; the bank is still bundled rather than API-backed.
+
+---
+
 ## 2026-09-27 (later) — every clerical question now has an answer, with its provenance
 
 **What shipped:** 524 of 525 answers, and a progress view that distinguishes

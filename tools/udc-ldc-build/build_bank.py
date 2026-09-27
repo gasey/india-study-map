@@ -284,6 +284,33 @@ def main():
 
     lines += [
         "/**",
+        " * Exam conditions per paper, from the syllabus blueprints in §1 of",
+        " * PLAN-UDC-LDC.md -- NOT invented in the UI.",
+        " *",
+        " * Every clerical MCQ is 2 marks (LDC Paper-I Part A: 150 marks / 75 MCQ;",
+        " * Paper-II: 200 / 100). The penalty, where it applies, is one third of the",
+        " * question's marks, so 0.667 on a 2-mark question.",
+        " */",
+        "export interface UdcLdcPaperMeta {",
+        "  marksPerQuestion: number;",
+        "  durationMinutes: number;",
+        "  negativeMarking: boolean;",
+        "  /** Fraction of the question's marks deducted for a wrong answer. */",
+        "  penaltyFraction: number;",
+        "}",
+        "",
+        "export const mpscUdcLdcPaperMeta: Record<string, UdcLdcPaperMeta> = {",
+    ]
+    for p in papers:
+        pen = penalty_by_paper[p["id"]]
+        lines.append(
+            "  %s: { marksPerQuestion: 2, durationMinutes: 180, "
+            "negativeMarking: %s, penaltyFraction: %s },"
+            % (ts(p["id"]), "true" if pen else "false", "1 / 3" if pen else "0"))
+    lines += ["};", ""]
+
+    lines += [
+        "/**",
         " * Whether each paper was sat under negative marking.",
         " *",
         " * Gazette Ex-582/2025 published 18 Aug 2025 -- so this is a YEAR AND MONTH",

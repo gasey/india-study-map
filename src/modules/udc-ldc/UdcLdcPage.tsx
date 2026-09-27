@@ -11,6 +11,7 @@ import {
 } from './filters';
 import { FilterRail } from './FilterRail';
 import { PracticeView } from './PracticeView';
+import { ExamView } from './ExamView';
 
 // ============================================
 // MPSC CLERICAL CADRE — LDC / UDC / ASSISTANT GRADE
@@ -30,7 +31,7 @@ import { PracticeView } from './PracticeView';
 
 const BANK_ID = 'mpsc-udc-ldc';
 
-type Tab = 'progress' | 'browse' | 'practice';
+type Tab = 'progress' | 'browse' | 'practice' | 'exam';
 
 interface PaperStats {
   paper: ExamPaper;
@@ -421,7 +422,7 @@ export default function UdcLdcPage() {
       </p>
 
       <div style={{ display: 'flex', gap: 8, marginBottom: 18 }}>
-        {(['progress', 'browse', 'practice'] as Tab[]).map((t) => (
+        {(['progress', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
           <button
             key={t}
             onClick={() => setTab(t)}
@@ -440,7 +441,7 @@ export default function UdcLdcPage() {
 
       {tab === 'progress' && <ProgressView rows={data.rows} />}
 
-      {tab !== 'progress' && (
+      {(tab === 'browse' || tab === 'practice') && (
         <FilterRail
           papers={data.bank.papers ?? []}
           all={data.bank.questions}
@@ -455,6 +456,11 @@ export default function UdcLdcPage() {
       {tab === 'browse' && <BrowseView rows={data.rows} questions={filtered} progress={progress} />}
       {tab === 'practice' && (
         <PracticeView questions={filtered} progress={progress} onAnswer={record} />
+      )}
+      {/* The exam view deliberately ignores the filter rail: you sit the whole
+          paper as printed, or it is not an exam. */}
+      {tab === 'exam' && (
+        <ExamView papers={data.bank.papers ?? []} questions={data.bank.questions} />
       )}
     </div>
   );

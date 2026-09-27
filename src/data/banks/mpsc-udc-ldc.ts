@@ -22,6 +22,31 @@ import type { BankQuestion, ExamPaper, QuestionBank } from './types';
 // ==========================================================
 
 /**
+ * Exam conditions per paper, from the syllabus blueprints in §1 of
+ * PLAN-UDC-LDC.md -- NOT invented in the UI.
+ *
+ * Every clerical MCQ is 2 marks (LDC Paper-I Part A: 150 marks / 75 MCQ;
+ * Paper-II: 200 / 100). The penalty, where it applies, is one third of the
+ * question's marks, so 0.667 on a 2-mark question.
+ */
+export interface UdcLdcPaperMeta {
+  marksPerQuestion: number;
+  durationMinutes: number;
+  negativeMarking: boolean;
+  /** Fraction of the question's marks deducted for a wrong answer. */
+  penaltyFraction: number;
+}
+
+export const mpscUdcLdcPaperMeta: Record<string, UdcLdcPaperMeta> = {
+  'mpsc-ldc-2025-paper-1': { marksPerQuestion: 2, durationMinutes: 180, negativeMarking: false, penaltyFraction: 0 },
+  'mpsc-ldc-2025-paper-2': { marksPerQuestion: 2, durationMinutes: 180, negativeMarking: false, penaltyFraction: 0 },
+  'mpsc-asst-udc-2024-paper-1': { marksPerQuestion: 2, durationMinutes: 180, negativeMarking: false, penaltyFraction: 0 },
+  'mpsc-asst-udc-2024-paper-2': { marksPerQuestion: 2, durationMinutes: 180, negativeMarking: false, penaltyFraction: 0 },
+  'mpsc-udc-combined-2025-paper-1': { marksPerQuestion: 2, durationMinutes: 180, negativeMarking: false, penaltyFraction: 0 },
+  'mpsc-udc-combined-2025-paper-2': { marksPerQuestion: 2, durationMinutes: 180, negativeMarking: false, penaltyFraction: 0 },
+};
+
+/**
  * Whether each paper was sat under negative marking.
  *
  * Gazette Ex-582/2025 published 18 Aug 2025 -- so this is a YEAR AND MONTH

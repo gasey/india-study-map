@@ -9,6 +9,39 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-28 (later) — An exam sitting now survives a refresh
+
+**What shipped:** the Exam view persists an in-progress sitting. Answers and the
+clock come back after a reload, a crash, or a dropped connection. Papers with a
+sitting in progress are marked on the picker, and a resumed sitting says so.
+
+Reuses `modules/mpsc/useAttemptState.ts` rather than reimplementing it. That
+hook persists **`startedAt`, not a decrementing counter**, so a resumed sitting
+recomputes the *correct* remaining time instead of handing back the minutes the
+tab was closed — verified by backdating a sitting 45 minutes and reloading: the
+clock read 2:14:44 of 3:00:00, not 3:00:00.
+
+**The first attempt at this silently did nothing, which is worth recording.**
+`useAttemptState` initialises its state lazily ONCE on mount; changing its `key`
+afterwards does not reload, because it was written for a player mounted per
+attempt. Calling it from a component that outlived the paper choice meant every
+"resume" produced a fresh empty sitting — and worse, the stale empty state was
+then written back over the real one under the correct key, destroying it.
+
+Fixed by splitting the sitting into `ExamSitting` and mounting it with
+`key={paper.id}`, so the hook gets a real key and a valid signature on its first
+render. That respects the hook's contract instead of working around it.
+
+A finished sitting calls `clear()`, so submitting ends the attempt and a refresh
+returns to the picker rather than resuming a paper you have already scored.
+
+**What's still open:** 45 answers are medium/low/unresolved and now want a human
+eye rather than another model pass; completed attempts are not recorded
+server-side; pre-2024 papers need year-keyed blueprints; the bank is bundled
+rather than API-backed.
+
+---
+
 ## 2026-09-28 — Adjudicated the weakest answers; 63 re-solved blind
 
 **What shipped:** the 63 answers the solver had marked medium or low confidence

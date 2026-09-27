@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import { mpscUdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
 import { SECTION_LABEL, sectionOf, type SectionId } from './filters';
+import { useAttemptState } from '@/modules/mpsc/useAttemptState';
 
 // ============================================
 // Exam display — sit the paper as printed.
@@ -17,6 +18,13 @@ import { SECTION_LABEL, sectionOf, type SectionId } from './filters';
 // while a wrong answer costs a third, which is the single most important
 // strategic fact about this exam — so the result screen reports skipped
 // separately and says what guessing would have cost.
+//
+// A SITTING SURVIVES A REFRESH. modules/mpsc/useAttemptState.ts already does
+// this properly and is reused rather than reimplemented: it persists
+// `startedAt` instead of a decrementing counter, so a resumed sitting
+// recomputes the CORRECT remaining time rather than gifting back the seconds
+// the tab was closed, and it validates a `signature` so a resume can never
+// restore answers keyed to a question set that has since changed.
 // ============================================
 
 interface Props {
@@ -34,43 +42,64 @@ function fmt(sec: number) {
   return `${h}:${String(m).padStart(2, '0')}:${String(ss).padStart(2, '0')}`;
 }
 
-export function ExamView({ papers, questions }: Props) {
-  const [paperId, setPaperId] = useState<string | null>(null);
-  const [answers, setAnswers] = useState<Answers>({});
+/**
+ * One sitting of one paper.
+ *
+ * Split out and mounted with key={paperId} deliberately. useAttemptState
+ * initialises its state lazily ONCE on mount — changing its `key` afterwards
+ * does not reload, because it was written for a player mounted per attempt.
+ * Calling it from a component that outlives the paper choice silently produced
+ * a fresh empty sitting on every resume. Remounting respects that contract
+ * instead of working around it.
+ */
+function ExamSitting({
+  paper, questions, onExit,
+}: { paper: ExamPaper; questions: BankQuestion[]; onExit: () => void }) {
+  const paperId = paper.id;
   const [submitted, setSubmitted] = useState(false);
-  const [left, setLeft] = useState(0);
-  const tick = useRef<number | null>(null);
+  const [now, setNow] = useState(() => Date.now());
 
-  const paper = papers.find((p) => p.id === paperId);
-  const meta = paperId ? mpscUdcLdcPaperMeta[paperId] : undefined;
+  const meta = mpscUdcLdcPaperMeta[paperId];
 
   const paperQs = useMemo(
     () => questions.filter((q) => q.paperId === paperId && isMcqQuestion(q)),
     [questions, paperId],
   );
+
+  /** Changes whenever the question set does, so a stale resume is refused. */
+  const signature = useMemo(
+    () => `${paperId}:${paperQs.length}:${paperQs[0]?.id ?? ''}`,
+    [paperId, paperQs],
+  );
+  const { state, patch, resumed, clear } = useAttemptState(
+    `udc-ldc.exam.${paperId}`, signature, true,
+  );
+  const answers = state.answers as Answers;
   /** Questions that can be scored — a figure-only item has no answer to mark. */
   const scorable = useMemo(
     () => paperQs.filter((q) => isMcqQuestion(q) && q.answerIndex >= 0 && q.options.length > 0),
     [paperQs],
   );
 
+  // Tick a clock value rather than a countdown: `left` is DERIVED from
+  // startedAt below, so a closed tab does not hand back the time it was shut.
   useEffect(() => {
-    if (!paperId || submitted) return;
-    tick.current = window.setInterval(() => setLeft((v) => v - 1), 1000);
-    return () => {
-      if (tick.current) window.clearInterval(tick.current);
-    };
-  }, [paperId, submitted]);
+    if (submitted) return;
+    const t = window.setInterval(() => setNow(Date.now()), 1000);
+    return () => window.clearInterval(t);
+  }, [submitted]);
+
+  const left = Math.max(
+    0, meta.durationMinutes * 60 - Math.floor((now - state.startedAt) / 1000),
+  );
 
   useEffect(() => {
-    if (left <= 0 && paperId && !submitted && left !== 0) setSubmitted(true);
-  }, [left, paperId, submitted]);
+    if (!submitted && left <= 0) setSubmitted(true);
+  }, [left, submitted]);
 
-  const start = (id: string) => {
-    setPaperId(id);
-    setAnswers({});
-    setSubmitted(false);
-    setLeft((mpscUdcLdcPaperMeta[id]?.durationMinutes ?? 180) * 60);
+  const finish = () => {
+    setSubmitted(true);
+    clear();          // a finished sitting must not be resumed on refresh
   };
 
   const result = useMemo(() => {
@@ -99,44 +128,6 @@ export function ExamView({ papers, questions }: Props) {
     };
   }, [submitted, meta, scorable, answers]);
 
-  if (!paper || !meta) {
-    return (
-      <div>
-        <p style={{ fontSize: 14, opacity: 0.8, marginBottom: 14 }}>
-          Sit a full paper under exam conditions — printed order, a real clock, and
-          scoring under that paper&apos;s own marking rule.
-        </p>
-        <div style={{ display: 'grid', gap: 8 }}>
-          {papers.map((p) => {
-            const m = mpscUdcLdcPaperMeta[p.id];
-            const n = questions.filter((q) => q.paperId === p.id).length;
-            return (
-              <button
-                key={p.id}
-                type="button"
-                onClick={() => start(p.id)}
-                style={{
-                  textAlign: 'left', font: 'inherit', padding: '12px 14px', borderRadius: 10,
-                  border: '1px solid var(--border, #dcdce3)', background: 'transparent',
-                  color: 'inherit', cursor: 'pointer',
-                }}
-              >
-                <div style={{ fontWeight: 600 }}>{p.examName} · {p.paperNumber}</div>
-                <div style={{ fontSize: 12.5, opacity: 0.75, marginTop: 3 }}>
-                  {p.year} · {n} questions · {m?.marksPerQuestion ?? 2} marks each ·{' '}
-                  {(m?.durationMinutes ?? 180) / 60} hours ·{' '}
-                  {m?.negativeMarking
-                    ? `−1/3 penalty per wrong answer`
-                    : 'no negative marking'}
-                </div>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-    );
-  }
-
   const answeredCount = Object.keys(answers).length;
 
   return (
@@ -154,6 +145,13 @@ export function ExamView({ papers, questions }: Props) {
           <span style={{ opacity: 0.7 }}>
             {' '}· {answeredCount}/{scorable.length} answered
           </span>
+          {resumed && !submitted && (
+            /* Say so rather than silently restoring — the clock has kept
+               running, and a candidate should know why it reads what it does. */
+            <span style={{ marginLeft: 8, opacity: 0.75 }}>
+              · resumed, clock kept running
+            </span>
+          )}
         </div>
         <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
           {!submitted && (
@@ -168,7 +166,7 @@ export function ExamView({ papers, questions }: Props) {
           )}
           <button
             type="button"
-            onClick={() => (submitted ? setPaperId(null) : setSubmitted(true))}
+            onClick={() => (submitted ? onExit() : finish())}
             style={{
               font: 'inherit', fontSize: 13, fontWeight: 600, padding: '6px 14px',
               borderRadius: 999, border: 0, cursor: 'pointer',
@@ -283,7 +281,8 @@ export function ExamView({ papers, questions }: Props) {
                               name={q.id}
                               checked={picked === oi}
                               disabled={submitted}
-                              onChange={() => setAnswers((a) => ({ ...a, [q.id]: oi }))}
+                              onChange={() =>
+                                patch((st) => ({ answers: { ...st.answers, [q.id]: oi } }))}
                             />
                             <span>{'abcd'[oi]}) {o}</span>
                           </label>
@@ -297,6 +296,73 @@ export function ExamView({ papers, questions }: Props) {
                 </div>
               </div>
             </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+
+export function ExamView({ papers, questions }: Props) {
+  const [paperId, setPaperId] = useState<string | null>(null);
+  const paper = papers.find((p) => p.id === paperId);
+
+  if (paper) {
+    // key={paper.id} forces a remount per paper — see ExamSitting's note.
+    return (
+      <ExamSitting
+        key={paper.id}
+        paper={paper}
+        questions={questions}
+        onExit={() => setPaperId(null)}
+      />
+    );
+  }
+
+  return (
+    <div>
+      <p style={{ fontSize: 14, opacity: 0.8, marginBottom: 14 }}>
+        Sit a full paper under exam conditions — printed order, a real clock, and
+        scoring under that paper&apos;s own marking rule. A sitting in progress
+        survives a refresh; the clock keeps running while you are away.
+      </p>
+      <div style={{ display: 'grid', gap: 8 }}>
+        {papers.map((p) => {
+          const m = mpscUdcLdcPaperMeta[p.id];
+          const n = questions.filter((q) => q.paperId === p.id).length;
+          const inProgress = (() => {
+            try {
+              return Boolean(localStorage.getItem(`jabreeze.attempt.udc-ldc.exam.${p.id}`));
+            } catch {
+              return false;
+            }
+          })();
+          return (
+            <button
+              key={p.id}
+              type="button"
+              onClick={() => setPaperId(p.id)}
+              style={{
+                textAlign: 'left', font: 'inherit', padding: '12px 14px', borderRadius: 10,
+                border: `1px solid ${inProgress ? 'var(--info, #3b7dd8)' : 'var(--border, #dcdce3)'}`,
+                background: 'transparent', color: 'inherit', cursor: 'pointer',
+              }}
+            >
+              <div style={{ fontWeight: 600 }}>
+                {p.examName} · {p.paperNumber}
+                {inProgress && (
+                  <span style={{ marginLeft: 8, fontSize: 12, color: 'var(--info, #3b7dd8)' }}>
+                    · in progress
+                  </span>
+                )}
+              </div>
+              <div style={{ fontSize: 12.5, opacity: 0.75, marginTop: 3 }}>
+                {p.year} · {n} questions · {m?.marksPerQuestion ?? 2} marks each ·{' '}
+                {(m?.durationMinutes ?? 180) / 60} hours ·{' '}
+                {m?.negativeMarking ? '−1/3 penalty per wrong answer' : 'no negative marking'}
+              </div>
+            </button>
           );
         })}
       </div>

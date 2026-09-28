@@ -209,6 +209,7 @@ ADJUDICATED = os.path.join(ADJ_DIR, "_resolved.json")
 CROSSCHECKED = os.path.join(CROSS_DIR, "_resolved.json")
 RESTALE = os.path.join(BANK_REPO, "state", "restale")
 DISPUTES = os.path.join(BANK_REPO, "state", "key-disputes.json")
+OPTION_DEFECTS = os.path.join(BANK_REPO, "state", "option-defects.json")
 
 
 def load_disputes(staged_by_paper):
@@ -256,6 +257,57 @@ def load_disputes(staged_by_paper):
 
     if problems:
         raise SystemExit("state/key-disputes.json is stale:\n  - " + "\n  - ".join(problems))
+    return out
+
+
+def load_option_defects(staged_by_paper):
+    """
+    (paper, qnum) -> note, for questions where the correct answer is not among
+    the four PRINTED options, so the answer shown is only the nearest survivor.
+
+    Distinct from load_disputes(): there the Commission's key looks wrong, here
+    the paper itself is defective and no option is actually right. The reader is
+    warned either way, because a page that looks authoritative and states a wrong
+    fact is worse than one that admits the item is broken.
+
+    Verified against the OPTION SET, not just the stem. An option lost in
+    extraction and an option the Commission never printed produce the identical
+    symptom, and only the second belongs in that file -- the first is our bug to
+    fix. So if the staged options have since changed (a parser repair recovered
+    the missing one, say), this is fatal rather than silently keeping a note that
+    now libels a fine question.
+    """
+    if not os.path.exists(OPTION_DEFECTS):
+        return {}
+    out, problems = {}, []
+    for e in json.load(open(OPTION_DEFECTS, encoding="utf-8"))["defects"]:
+        paper, qnum = e["paper"], e["qnum"]
+        q = (staged_by_paper.get(paper) or {}).get(qnum)
+        if q is None:
+            problems.append("%s q%d: no such staged question" % (paper, qnum))
+            continue
+        if e["stemAnchor"].lower() not in q["stem"].lower():
+            problems.append("%s q%d: stem no longer matches anchor %r\n      stem is: %r"
+                            % (paper, qnum, e["stemAnchor"], q["stem"][:90]))
+            continue
+        if [o.strip() for o in (q.get("options") or [])] != e["printedOptions"]:
+            problems.append(
+                "%s q%d: options have changed since this defect was recorded.\n"
+                "      recorded: %s\n      staged  : %s\n"
+                "      If a parser fix recovered %r, DELETE the entry rather than "
+                "updating it -- the paper was not defective after all."
+                % (paper, qnum, e["printedOptions"], q.get("options"),
+                   e.get("missingAnswer")))
+            continue
+        out[(paper, qnum)] = (
+            "This question appears to be defective as printed: the expected answer "
+            "(%s) is not among the four options the Commission printed. The answer "
+            "shown is the nearest of the four. %s"
+            % (e["missingAnswer"], e["note"]))
+
+    if problems:
+        raise SystemExit("state/option-defects.json is stale:\n  - "
+                         + "\n  - ".join(problems))
     return out
 
 
@@ -422,6 +474,16 @@ def load_derived(shown):
                 note = ("Two independent attempts at this question disagreed and both "
                         "were unsure \u2014 the printed figure or data did not survive "
                         "scanning. Treat this answer as unverified.")
+            elif a.get("agreement") == "contested":
+                alt = a.get("contestedAnswerIndex")
+                if isinstance(alt, int) and 0 <= alt <= 3:
+                    note = ("A further independent solve picked (%s) instead. It was "
+                            "less confident than the answer shown, so the answer shown "
+                            "was kept — but this one is worth checking against a "
+                            "published key if one ever appears." % "abcd"[alt])
+                else:
+                    note = ("A further independent solve disagreed with this answer but "
+                            "was less confident, so the answer shown was kept.")
             add(qid, (a["answerIndex"], "derived", a.get("explanation", ""),
                       a.get("confidence"), note), ADJ_DIR)
 
@@ -461,8 +523,10 @@ def main():
             j = json.load(open(os.path.join(STAGED, fn), encoding="utf-8"))
             by_paper[j["paper"]] = j
 
-    disputes = load_disputes(
-        {p: {q["qnum"]: q for q in d["questions"]} for p, d in by_paper.items()})
+    staged_index = {p: {q["qnum"]: q for q in d["questions"]}
+                    for p, d in by_paper.items()}
+    disputes = load_disputes(staged_index)
+    option_defects = load_option_defects(staged_index)
 
     derived, moved, dropped, unverifiable = align_answers(
         derived,
@@ -525,6 +589,15 @@ def main():
             if q.get("unanswerable") or len(live) < 2:
                 rec["figureBased"] = True
                 stats["figureBased"] += 1
+            # The correct answer is not among the printed options. Set last so the
+            # warning survives whichever answer path ran above: it is true of the
+            # PAPER, not of how we happened to answer it, and it is the thing the
+            # reader most needs to know about these four questions.
+            odef = option_defects.get((name, q["qnum"]))
+            if odef:
+                rec["sourceDefect"] = "answer-not-among-options"
+                rec["disputeNote"] = odef
+                stats["sourceDefect"] += 1
             if q.get("printedOptionLabels"):
                 rec["sourceDefect"] = "duplicate-options"
                 rec["disputeNote"] = (

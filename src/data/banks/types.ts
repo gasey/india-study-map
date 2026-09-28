@@ -142,8 +142,19 @@ interface BankQuestionBase {
    * would otherwise mis-split — transcribed by hand instead of guessed at.
    * Both are kept out of scored mock tests rather than counting against the
    * candidate.
+   *
+   * `'answer-not-among-options'` is the third: the correct answer is simply not
+   * one of the four the Commission printed, so the answer shown is the nearest
+   * survivor (MPSC Clerical: the PowerPoint duplicate-slide shortcut offered
+   * without Ctrl+D; "study of the structure of the human body" offered without
+   * anatomy). Recorded in mpsc-question-bank/state/option-defects.json, where
+   * every entry was read back off the source page first — an option lost in
+   * EXTRACTION looks identical and is our bug to fix, not the paper's. The
+   * reader is warned via `disputeNote`, because a confident-looking page that
+   * states a wrong fact is worse than one admitting the item is broken.
    */
-  sourceDefect?: 'duplicate-options' | 'hand-transcribed-matching-table';
+  sourceDefect?: 'duplicate-options' | 'hand-transcribed-matching-table'
+    | 'answer-not-among-options';
   /**
    * The SOURCE PUBLICATION contradicts itself — two tables/sections of the
    * same reference (not an exam key vs. our judgment, that's `disputeNote`)

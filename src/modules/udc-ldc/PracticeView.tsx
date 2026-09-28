@@ -180,6 +180,17 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
               <p style={{ margin: '6px 0 0', fontSize: 11.5, opacity: 0.6 }}>
                 Source: {q.answerKeyRef}
               </p>
+            ) : q.answerSource === 'transcribed' ? (
+              /* Not ours and not the Commission's: a transcription of the
+                 printed paper with the answer marked. Worth distinguishing —
+                 checked against the one sitting where an official key also
+                 exists, it agreed on 158 of 159. Saying "worked out" here would
+                 undersell it; saying "official" would oversell it. */
+              <p style={{ margin: '6px 0 0', fontSize: 11.5, opacity: 0.6 }}>
+                MPSC published no key for this paper. This answer comes from a
+                transcription of the paper with the answers marked — measured at
+                99.4% against the one sitting that does have an official key.
+              </p>
             ) : (
               /* No published key for this sitting — say so, and say how sure
                  the solver was. Graded accuracy: high 97-98%, medium 44%. */

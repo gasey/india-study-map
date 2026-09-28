@@ -40,6 +40,7 @@ interface PaperStats {
   answered: number;
   official: number;
   derived: number;
+  transcribed: number;
   lowConf: number;
   unanswerable: number;
   defects: number;
@@ -60,6 +61,7 @@ function useStats() {
         answered: mcq.filter((q) => q.answerIndex >= 0).length,
         official: mcq.filter((q) => q.answerSource === 'official').length,
         derived: mcq.filter((q) => q.answerSource === 'derived').length,
+        transcribed: mcq.filter((q) => q.answerSource === 'transcribed').length,
         lowConf: mcq.filter((q) => q.answerSource === 'derived'
           && (q.answerConfidence === 'low' || q.answerConfidence === 'medium')).length,
         unanswerable: mcq.filter((q) => q.figureBased).length,
@@ -128,6 +130,13 @@ function Provenance({ q }: { q: BankQuestion }) {
   if (q.figureBased) return <Pill tone="warn">figure lost — unanswerable</Pill>;
   if (q.answerSource === 'official') return <Pill tone="info">official key</Pill>;
   if (q.answerIndex < 0) return <Pill tone="muted">no answer yet</Pill>;
+  if (q.answerSource === 'transcribed') {
+    // A transcription of the printed paper with the answer marked. Not the
+    // Commission's key, but measured at 158/159 against the one sitting where
+    // both exist — so it earns its own badge rather than being lumped in with
+    // answers we worked out ourselves.
+    return <Pill tone="info">marked-up paper</Pill>;
+  }
   if (q.answerSource === 'derived') {
     const c = q.answerConfidence;
     return (
@@ -227,6 +236,11 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
                     <div style={{ fontSize: 11, opacity: 0.65, marginTop: 3 }}>
                       {r.official > 0
                         ? `${r.official} from the official key`
+                        : r.transcribed > 0
+                          /* No MPSC key, but a transcription of the paper with
+                             the answers marked — a different and much stronger
+                             thing than our own solve, so say which it is. */
+                          ? `${r.transcribed} from a marked-up copy of the paper${r.lowConf ? `; ${r.lowConf} worth review` : ''}`
                         : r.answered === 0
                           /* Distinguish "no answers yet" from "solved without a
                              key" — both show 0 official, and calling an

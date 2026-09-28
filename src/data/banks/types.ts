@@ -92,7 +92,15 @@ interface BankQuestionBase {
    * Absent means 'derived': every pre-existing record was pipeline-solved.
    * Shown as a badge, so a guess is never mistaken for a real key.
    */
-  answerSource?: 'official' | 'derived';
+  /**
+   * `'transcribed'` is a third-party transcription of the printed paper with
+   * the correct option marked — stronger than `'derived'` (which we solved) but
+   * weaker than `'official'` (a published MPSC key). It is placed between them
+   * on a measurement, not a guess: on the April-2024 sitting, one of only two
+   * for which MPSC published a key, the transcription agreed 158/159 = 99.4%.
+   * A real key still wins wherever one exists.
+   */
+  answerSource?: 'official' | 'derived' | 'transcribed';
   /**
    * For answerSource: 'derived' — how sure the solver was.
    *

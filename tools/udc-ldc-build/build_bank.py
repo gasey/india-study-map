@@ -208,6 +208,7 @@ CROSS_DIR = os.path.join(BANK_REPO, "state", "crosscheck")
 ADJUDICATED = os.path.join(ADJ_DIR, "_resolved.json")
 CROSSCHECKED = os.path.join(CROSS_DIR, "_resolved.json")
 RESTALE = os.path.join(BANK_REPO, "state", "restale")
+SOLVED_HTML = os.path.join(BANK_REPO, "state", "solved-html", "_matched.json")
 DISPUTES = os.path.join(BANK_REPO, "state", "key-disputes.json")
 OPTION_DEFECTS = os.path.join(BANK_REPO, "state", "option-defects.json")
 GK_KIND = os.path.join(BANK_REPO, "state", "gk-kind", "_resolved.json")
@@ -446,17 +447,29 @@ def load_derived(shown):
       adjudicate     weakest answers re-solved blind by a stronger model
       crosscheck     three-way ties broken against the Group-C deck
       restale        re-solved because the SOURCE TEXT was repaired
+      solved-html    a third-party transcription of the printed papers with the
+                     correct option marked, matched on TEXT (its own numbering
+                     is not the printed numbering). It overlays everything above
+                     because it MEASURES far better than any of them: on the
+                     Apr-2024 sitting, which is one of only two for which MPSC
+                     published a key, it agreed 158/159 = 99.4%. Still not
+                     official -- it is a transcription, and it loses to a real
+                     key, which is checked before any of this.
     """
     recs = []
 
-    def add(qid, val, src):
+    def add(qid, val, src, was=None):
+        # `was` is the question text the answer was produced against, so
+        # align_answers() can re-seat it by TEXT. Solve batches record it per
+        # round; the solved-html source passes the staged stem it matched,
+        # which is the same guarantee arrived at a different way.
         if "::q" not in qid:
             return
         paper, q = qid.rsplit("::q", 1)
         if not q.isdigit():
             return
         recs.append({"paper": paper, "qnum": int(q), "val": val,
-                     "was": shown.get(src, {}).get(qid)})
+                     "was": was if was is not None else shown.get(src, {}).get(qid)})
 
     for fn in sorted(os.listdir(DERIVED)) if os.path.isdir(DERIVED) else []:
         if not fn.endswith(".solved.json"):
@@ -504,6 +517,23 @@ def load_derived(shown):
                         (idx, "derived", s.get("explanation", ""),
                          s.get("confidence"), None),
                         RESTALE)
+
+    if os.path.exists(SOLVED_HTML):
+        for qid, a in json.load(open(SOLVED_HTML, encoding="utf-8")).items():
+            if a.get("compensated"):
+                # MPSC awarded grace marks: the question was defective and every
+                # candidate scored it, so there is no correct option to teach.
+                # Do not supply an answer -- say what happened instead.
+                add(qid, (None, "derived", "", None,
+                          "MPSC awarded grace marks for this question — it was "
+                          "defective as set, and every candidate received the "
+                          "mark regardless of what they chose."), SOLVED_HTML,
+                    a.get("stem"))
+                continue
+            idx = a.get("answerIndex")
+            if isinstance(idx, int) and 0 <= idx <= 3:
+                add(qid, (idx, "transcribed", "", "high", a.get("note")),
+                    SOLVED_HTML, a.get("stem"))
     return recs
 
 
@@ -565,12 +595,18 @@ def main():
                 "id": qid, "subject": bsubj, "topic": topic, "topicLabel": label,
                 "difficulty": "medium", "type": "mcq",
                 "question": q["stem"], "options": opts,
-                "answerIndex": ans[0] if ans else -1,
+                # ans[0] is None for a grace-marked question: MPSC scored it for
+                # everyone, so there is no correct option. Treat it as unanswered
+                # rather than inventing one, but keep the note explaining why.
+                "answerIndex": (ans[0] if (ans and ans[0] is not None) else -1),
                 "explanation": (ans[2] if ans else "") or "",
                 "source": "%s, %s %d, %s" % (exam, month, year, pno),
                 "year": year, "paperId": slug,
             }
-            if ans:
+            if ans and ans[0] is None:
+                rec["disputeNote"] = ans[4]
+                stats["grace_marks"] += 1
+            elif ans:
                 rec["answerSource"] = ans[1]
                 if ans[1] == "official":
                     rec["answerKeyRef"] = ans[3]

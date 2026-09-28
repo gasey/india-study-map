@@ -72,7 +72,52 @@ PAPERS = {
     "LDC under SW, WCD Paper-II.": (
         "mpsc-ldc-2026apr-paper-2", "LDC under Commissioner for PwD, SW & WCD",
         "Lower Division Clerk", "Paper-II", 2026, "April", "LDC"),
+    # --- the older UDC scheme (1 mark a question; Paper-II is GK + Arithmetic,
+    # Paper-I is a conventional section plus 75 General English MCQ). Dates are
+    # read from each paper's own printed header, not from the filename or the
+    # source page's year range, both of which disagree with it.
+    "2.UDC (contract) 2016 Art& Culture Paper-II": (
+        "mpsc-udc-artculture-2016-paper-2", "UDC (Contract) under Art & Culture",
+        "Upper Division Clerk", "Paper-II", 2016, "October", "UDC_OLD"),
+    "2.UDC under SAD Paper-II": (
+        "mpsc-udc-sad-2018-paper-2", "UDC under Secretariat Administration",
+        "Upper Division Clerk", "Paper-II", 2018, "February", "UDC_OLD"),
+    "2.UDC Excise Deptt. Paper-II": (
+        "mpsc-udc-excise-2018-paper-2", "UDC under Excise & Narcotics",
+        "Upper Division Clerk", "Paper-II", 2018, "June", "UDC_OLD"),
+    "UDC ARC Paper-I": (
+        "mpsc-udc-arc-2020-paper-1", "UDC (Contract) under ARCS, Cooperation",
+        "Upper Division Clerk", "Paper-I", 2020, "January", "UDC_OLD"),
+    "UDC ARC Paper-II": (
+        "mpsc-udc-arc-2020-paper-2", "UDC (Contract) under ARCS, Cooperation",
+        "Upper Division Clerk", "Paper-II", 2020, "January", "UDC_OLD"),
+    "UDC Direct under Taxation Deptt - Paper-II": (
+        "mpsc-udc-taxation-2021-paper-2", "UDC under Taxation Deptt.",
+        "Upper Division Clerk", "Paper-II", 2021, "March", "UDC_OLD"),
+    "UDC Direct under Fisheries Deptt - Paper-I": (
+        "mpsc-udc-fisheries-2021-paper-1", "UDC under Fisheries Deptt.",
+        "Upper Division Clerk", "Paper-I", 2021, "April", "UDC_OLD"),
+    "UDC Direct under Fisheries Deptt - Paper-II": (
+        "mpsc-udc-fisheries-2021-paper-2", "UDC under Fisheries Deptt.",
+        "Upper Division Clerk", "Paper-II", 2021, "April", "UDC_OLD"),
 }
+
+# Marks per MCQ, by slug. The modern clerical scheme is 2 marks a question
+# (LDC Paper-I Part A: 150 marks / 75 MCQ; Paper-II: 200 / 100), but the older
+# UDC sittings print "All questions carry equal marks of 1 each" with Full
+# Marks 100 over 100 questions. Scoring those at 2 would show a 200-mark total
+# for a 100-mark paper and double every penalty.
+MARKS_PER_QUESTION = {
+    "mpsc-udc-excise-2018-paper-2": 1,
+    "mpsc-udc-artculture-2016-paper-2": 1,
+    "mpsc-udc-sad-2018-paper-2": 1,
+    "mpsc-udc-arc-2020-paper-1": 1,
+    "mpsc-udc-arc-2020-paper-2": 1,
+    "mpsc-udc-fisheries-2021-paper-1": 1,
+    "mpsc-udc-fisheries-2021-paper-2": 1,
+    "mpsc-udc-taxation-2021-paper-2": 1,
+}
+DEFAULT_MARKS = 2
 
 # our section id -> (bank subject, topic id, human label)
 SECTION = {
@@ -518,9 +563,9 @@ def main():
         " * Exam conditions per paper, from the syllabus blueprints in §1 of",
         " * PLAN-UDC-LDC.md -- NOT invented in the UI.",
         " *",
-        " * Every clerical MCQ is 2 marks (LDC Paper-I Part A: 150 marks / 75 MCQ;",
-        " * Paper-II: 200 / 100). The penalty, where it applies, is one third of the",
-        " * question's marks, so 0.667 on a 2-mark question.",
+        " * The modern clerical MCQ is 2 marks (LDC Paper-I Part A: 150 marks / 75",
+        " * MCQ; Paper-II: 200 / 100); the pre-2022 UDC sittings are 1 mark. The",
+        " * penalty, where it applies, is one third of the question's own marks.",
         " */",
         "export interface UdcLdcPaperMeta {",
         "  marksPerQuestion: number;",
@@ -535,9 +580,10 @@ def main():
     for p in papers:
         pen = penalty_by_paper[p["id"]]
         lines.append(
-            "  %s: { marksPerQuestion: 2, durationMinutes: 180, "
+            "  %s: { marksPerQuestion: %d, durationMinutes: 180, "
             "negativeMarking: %s, penaltyFraction: %s },"
-            % (ts(p["id"]), "true" if pen else "false", "1 / 3" if pen else "0"))
+            % (ts(p["id"]), MARKS_PER_QUESTION.get(p["id"], DEFAULT_MARKS),
+               "true" if pen else "false", "1 / 3" if pen else "0"))
     lines += ["};", ""]
 
     lines += [
@@ -561,13 +607,25 @@ def main():
         lines.append("  { " + ", ".join("%s: %s" % (k, ts(v)) for k, v in p.items()) + " },")
     lines += ["];", ""]
 
+    # Emitted in CHUNKS and concatenated. BankQuestion is a discriminated union,
+    # and past ~1,500 object literals in one annotated array tsc gives up with
+    # TS2590 "union type that is too complex to represent". Chunking keeps every
+    # element type-checked; casting the whole array with `as BankQuestion[]`
+    # would also silence the error but would stop checking the generated data,
+    # which is the one thing here worth checking.
+    CHUNK = 400
+    chunks = [questions[i:i + CHUNK] for i in range(0, len(questions), CHUNK)] or [[]]
+    for n, chunk in enumerate(chunks, 1):
+        lines.append("const questionsPart%d: BankQuestion[] = [" % n)
+        for q in chunk:
+            body = {k: v for k, v in q.items() if not k.startswith("_")}
+            lines.append("  {")
+            for k, v in body.items():
+                lines.append("    %s: %s," % (k, ts(v)))
+            lines.append("  },")
+        lines += ["];", ""]
     lines.append("export const mpscUdcLdcQuestions: BankQuestion[] = [")
-    for q in questions:
-        body = {k: v for k, v in q.items() if not k.startswith("_")}
-        lines.append("  {")
-        for k, v in body.items():
-            lines.append("    %s: %s," % (k, ts(v)))
-        lines.append("  },")
+    lines += ["  ...questionsPart%d," % n for n in range(1, len(chunks) + 1)]
     lines += ["];", ""]
 
     lines += [

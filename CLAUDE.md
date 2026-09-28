@@ -23,16 +23,18 @@ cosmetic — a wrong answer teaches the user something false for a real exam.
   `tools/system-analyst-build/sources/` and
   `tools/system-manager-build/sources/`. The
   `~/Downloads/mpsc_pdfs_examination/` path that older DEVLOG entries and
-  `tools/bank-rebuild/*.py` still hardcode **moved; it was never deleted.**
-  ⚠️**CORRECTED 2026-09-05.** This file previously said that corpus "no longer
-  exists on this machine" and told you not to look for it. That was wrong and
-  it cost real coverage — it is the `Old_Questions/` + `Answer_Keys/` corpus,
-  3,715 PDFs, alive at **`/home.old/hruaia/Downloads/mpsc_pdfs_examination/`**.
-  The home directory was renamed, so every hardcoded `~/Downloads/...` path
-  resolves to nothing and the corpus reads as gone. It is not: `Old_Questions/`,
-  `Answer_Keys/`, `Syllabus/` and `index.csv` are all intact. Point the old
-  parsers at `/home.old/` and they run. Before concluding a source PDF is
-  unavailable, check there.
+  `tools/bank-rebuild/*.py` still hardcode is **dead**, and so is the
+  `/home.old/hruaia/Downloads/mpsc_pdfs_examination/` path this file gave as
+  its replacement.
+  ⚠️**CORRECTED 2026-09-28.** The corpus now lives IN the sibling repo, at
+  **`../mpsc-question-bank/pdfs/`** — `Old_Questions/` (2,497 PDFs in
+  `Direct_*`, `Departmental_*`, `LDE_*` subdirectories), `Answer_Keys/` (196),
+  `Syllabus/` (113), `Advertisements/`, `Notifications/`, `Results/`, plus
+  `index.csv`. Nearly every PDF has a `.pdf.ocr.txt` sidecar beside it, so
+  `grep -ril` across that tree is the fastest way to find which paper a
+  question came from. This file has now been wrong about this path twice, in
+  opposite directions — so **check the path before believing any claim in here
+  about where the corpus is**, including this one.
 - **Browse, not just quiz.** Every "group by X" view (By Exam, By Year, By
   Paper) must let you expand a group and actually read the questions
   inline — not just fire a mock test. This was explicitly requested after

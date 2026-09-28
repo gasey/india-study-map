@@ -135,97 +135,274 @@ def load_answers():
         for qnum, letter in d["answers"].items():
             if letter not in "ABCD":
                 continue
+            idx = "ABCD".index(letter)
             s = expl.get("q" + qnum, {})
+            # These explanations come from the blind calibration solve, which
+            # did not have the key. Where that solve picked a DIFFERENT option,
+            # its reasoning argues for the option we are not showing -- the page
+            # then displays the Commission's answer above a paragraph explaining
+            # why a different one is right, which reads as a contradiction and
+            # teaches the wrong thing. Keep the explanation only where the two
+            # agree; the answer itself is the key's either way.
+            #
+            # A LOW-confidence explanation is dropped even when it happens to
+            # agree: "option 9 is picked arbitrarily among the four and should
+            # not be trusted" is a statement about the solver, not about the
+            # question, and printing it under a published answer tells the
+            # reader to distrust a verdict that is in fact authoritative.
+            same = s.get("answerIndex") == idx and s.get("confidence") != "low"
             out[(paper, int(qnum))] = (
-                "ABCD".index(letter), "official", s.get("explanation", ""),
+                idx, "official", s.get("explanation", "") if same else "",
                 "%s (%s)" % (d["keyFile"].rstrip(". pdf"), d.get("kind", "key")))
     return out
 
 
 DERIVED = os.path.join(BANK_REPO, "state", "solve-derived")
-ADJUDICATED = os.path.join(BANK_REPO, "state", "adjudicate", "_resolved.json")
+ADJ_DIR = os.path.join(BANK_REPO, "state", "adjudicate")
+CROSS_DIR = os.path.join(BANK_REPO, "state", "crosscheck")
+ADJUDICATED = os.path.join(ADJ_DIR, "_resolved.json")
+CROSSCHECKED = os.path.join(CROSS_DIR, "_resolved.json")
+RESTALE = os.path.join(BANK_REPO, "state", "restale")
+DISPUTES = os.path.join(BANK_REPO, "state", "key-disputes.json")
 
 
-def reorder_maps():
+def load_disputes(staged_by_paper):
     """
-    paper -> {old qnum: new qnum}, from the vision corrections.
+    (paper, qnum) -> note, for questions where we think the MPSC key is wrong.
 
-    Needed because the solve batches were generated BEFORE the page-2
-    reading-order fix on UDC Combined Paper-I, so their ids carry the old
-    numbering. The ANSWERS remain valid -- a solver answered a specific set of
-    options, and the reorder moved that option set to a different number -- but
-    the id has to travel with it, or eleven answers land on the wrong questions.
+    The official letter is left as the marked answer on purpose -- it is what
+    scores marks in the real exam -- so this only attaches a warning beside it.
+
+    Each entry is verified against BOTH the current stem and the current key
+    letter, and a mismatch is fatal. A dispute that has drifted onto another
+    question is worse than no dispute: it would tell the reader the key is
+    wrong about a question whose key is fine, while leaving the actually-wrong
+    one unflagged. Renumbering has moved content-keyed records onto the wrong
+    questions in this repo before, which is why this refuses to guess.
     """
-    f = os.path.join(BANK_REPO, "state", "vision-corrections.json")
-    if not os.path.exists(f):
+    if not os.path.exists(DISPUTES):
         return {}
-    data = json.load(open(f, encoding="utf-8"))
-    out = {}
-    for paper, spec in data.items():
-        if not isinstance(spec, dict):
+
+    keys = {}
+    for fn in sorted(os.listdir(GRADING)):
+        if fn.startswith("key_") and fn.endswith(".json"):
+            d = json.load(open(os.path.join(GRADING, fn)))
+            keys[d["paper"]] = d["answers"]
+
+    out, problems = {}, []
+    for e in json.load(open(DISPUTES, encoding="utf-8"))["disputes"]:
+        paper, qnum = e["paper"], e["qnum"]
+        q = (staged_by_paper.get(paper) or {}).get(qnum)
+        if q is None:
+            problems.append("%s q%d: no such staged question" % (paper, qnum))
             continue
-        for e in spec.get("fixes", []):
-            if isinstance(e, dict) and e.get("reorder"):
-                out[paper] = {int(k): int(v) for k, v in e["reorder"].items()}
+        if e["stemAnchor"].lower() not in q["stem"].lower():
+            problems.append("%s q%d: stem no longer matches anchor %r\n      stem is: %r"
+                            % (paper, qnum, e["stemAnchor"], q["stem"][:90]))
+            continue
+        have = (keys.get(paper) or {}).get(str(qnum))
+        if have != e["officialLetter"]:
+            # The Commission may have issued a corrected key. That is good news,
+            # but it must be looked at rather than silently kept as a dispute.
+            problems.append("%s q%d: key now says %s, dispute was filed against %s"
+                            % (paper, qnum, have, e["officialLetter"]))
+            continue
+        out[(paper, qnum)] = e["note"]
+
+    if problems:
+        raise SystemExit("state/key-disputes.json is stale:\n  - " + "\n  - ".join(problems))
     return out
 
 
-def load_derived():
-    """
-    (paper, qnum) -> (answerIndex, 'derived', explanation, confidence).
+# ORDER MATTERS: later directories overwrite earlier ones, so an id that has
+# been re-solved is checked against the text of its MOST RECENT batch. Without
+# that, a re-solve done specifically because the text was repaired gets judged
+# against the broken text it was meant to replace, fails the match, and is
+# thrown away -- which is exactly what happened to four of them.
+BATCH_DIRS = [
+    os.path.join(BANK_REPO, "state", "solve-derived"),
+    os.path.join(BANK_REPO, "state", "adjudicate"),
+    os.path.join(BANK_REPO, "state", "crosscheck"),
+    os.path.join(BANK_REPO, "state", "restale"),
+]
 
-    Solved by model where MPSC published no key. Ids in these batches are
-    "<paper>::q<N>", so the mapping is paper-scoped by construction -- the bare
-    question number would collide across papers exactly as it did in the
-    quick-revision converter.
+
+def _norm(t):
+    return re.sub(r"[^a-z0-9]", "", (t or "").lower())
+
+
+def _same_question(was, stem):
+    """
+    Is this the same question, allowing for text the parser has since cleaned?
+
+    Deliberately NOT a plain "stem starts with the old text" test. Cleanups cut
+    junk off the FRONT as well as the back -- a running header, a page number,
+    the question's own printed number -- so a one-sided prefix test reports a
+    tidied question as a different one and its answer gets thrown away. That
+    cost a real answer the first time round.
+
+    Containment needs a reasonable amount of text behind it; on very short
+    stems it would match unrelated questions, so those must agree on a prefix.
+    """
+    a, b = _norm(was)[:60], _norm(stem)[:60]
+    if not a or not b:
+        return False
+    if b.startswith(a) or a.startswith(b):
+        return True
+    return len(a) >= 20 and (a in _norm(stem) or b in _norm(was))
+
+
+def batch_text():
+    """
+    solved id -> the question text the solver was actually shown.
+
+    Every batch file records the stem it handed out, which is the only durable
+    evidence of WHICH question an answer belongs to. The id is not: it encodes
+    a question NUMBER, and numbers move whenever the parser improves.
+
+    Returned PER DIRECTORY, not merged. The same id can mean two different
+    questions in two different rounds -- "…::q11" was "Why are the western
+    slopes…" when it was first solved and "Which industry is related to the
+    second green revolution?" when it was re-solved after a re-parse. Merging
+    would let the later round's text decide where the earlier round's answer
+    belongs, which silently deletes the earlier answer's real question.
     """
     out = {}
-    if not os.path.isdir(DERIVED):
-        return out
-    for fn in sorted(os.listdir(DERIVED)):
+    for d in BATCH_DIRS:
+        per = {}
+        if os.path.isdir(d):
+            for fn in sorted(os.listdir(d)):
+                if not fn.endswith(".json") or fn.endswith(".solved.json"):
+                    continue
+                if fn.startswith("_"):
+                    continue
+                try:
+                    rows = json.load(open(os.path.join(d, fn), encoding="utf-8"))
+                except (ValueError, OSError):
+                    continue
+                if isinstance(rows, list):
+                    for x in rows:
+                        if isinstance(x, dict) and x.get("id"):
+                            per[x["id"]] = x.get("question") or ""
+        out[d] = per
+    return out
+
+
+def align_answers(records, staged_by_paper):
+    """
+    Re-seat every derived answer on the question its solver actually saw.
+
+    An id is "<paper>::q<N>", and N is only meaningful for the parse that
+    produced it. This bank has been re-parsed repeatedly -- a reading-order
+    repair, recovered questions, junk stems dropped -- and each time, answers
+    keyed by number silently slid onto their neighbours. That failure is
+    invisible: the count still matches the blueprint and every question still
+    has an answer, but the answer belongs to a different question. It was
+    caught only because an explanation about Jim Corbett National Park was
+    sitting under "Which is the highest populated state in India?".
+
+    So: trust the TEXT, not the number.
+      stem still matches   -> keep
+      matches another stem -> move it there
+      matches nothing      -> DROP. The solver answered a question that no
+                              longer exists (a booklet instruction page, a
+                              "Series-C" header). Keeping it would put a
+                              confident answer on an unrelated question.
+    An answer whose batch text was not recorded, or whose text normalises to
+    nothing (a stem the OCR reduced to "?"), is kept: there is nothing to check
+    it against, and dropping on absence of evidence throws away good answers.
+
+    `records` arrives in OVERLAY ORDER and each carries the text from its own
+    batch, so two rounds that reused the same id land on their own questions
+    and the later round wins only where they genuinely collide.
+    """
+    moved = dropped = unverifiable = 0
+    aligned = {}
+    for rec in records:
+        paper, qnum, was, val = rec["paper"], rec["qnum"], rec["was"], rec["val"]
+        stems = staged_by_paper.get(paper)
+        w = _norm(was)
+        if stems is None or was is None or not w:
+            unverifiable += 1
+            aligned[(paper, qnum)] = val
+            continue
+        if _same_question(was, stems.get(qnum, "")):
+            aligned[(paper, qnum)] = val
+            continue
+        hit = [n for n, st in stems.items() if _same_question(was, st)]
+        if len(hit) == 1:
+            aligned[(paper, hit[0])] = val
+            moved += 1
+        else:
+            dropped += 1
+    return aligned, moved, dropped, unverifiable
+
+
+def load_derived(shown):
+    """
+    Ordered list of derived-answer records, each tagged with the question text
+    its solver was shown so align_answers() can seat it correctly.
+
+    Later overlays are appended after earlier ones and win on collision:
+      solve-derived  the base blind solve
+      adjudicate     weakest answers re-solved blind by a stronger model
+      crosscheck     three-way ties broken against the Group-C deck
+      restale        re-solved because the SOURCE TEXT was repaired
+    """
+    recs = []
+
+    def add(qid, val, src):
+        if "::q" not in qid:
+            return
+        paper, q = qid.rsplit("::q", 1)
+        if not q.isdigit():
+            return
+        recs.append({"paper": paper, "qnum": int(q), "val": val,
+                     "was": shown.get(src, {}).get(qid)})
+
+    for fn in sorted(os.listdir(DERIVED)) if os.path.isdir(DERIVED) else []:
         if not fn.endswith(".solved.json"):
             continue
         for s in json.load(open(os.path.join(DERIVED, fn), encoding="utf-8")):
-            if "::" not in s.get("id", ""):
-                continue
-            paper, q = s["id"].rsplit("::q", 1)
             idx = s.get("answerIndex")
-            if not isinstance(idx, int) or not 0 <= idx <= 3:
-                continue
-            out[(paper, int(q))] = (idx, "derived", s.get("explanation", ""),
-                                    s.get("confidence"), None)
+            if isinstance(idx, int) and 0 <= idx <= 3:
+                add(s.get("id", ""),
+                    (idx, "derived", s.get("explanation", ""), s.get("confidence"), None),
+                    DERIVED)
 
-    # Overlay the adjudication pass. The weakest answers (the solver's own
-    # 'medium' and 'low') were re-solved BLIND by a stronger model and
-    # reconciled: agreement raises confidence, disagreement takes the stronger
-    # answer, and a disagreement where both runs were unsure is recorded as
-    # unresolved rather than dressed up as an answer.
     if os.path.exists(ADJUDICATED):
         for qid, a in json.load(open(ADJUDICATED, encoding="utf-8")).items():
-            if "::" not in qid:
-                continue
-            paper, q = qid.rsplit("::q", 1)
             note = None
             if a.get("agreement") == "unresolved":
                 note = ("Two independent attempts at this question disagreed and both "
-                        "were unsure — the printed figure or data did not survive "
+                        "were unsure \u2014 the printed figure or data did not survive "
                         "scanning. Treat this answer as unverified.")
-            out[(paper, int(q))] = (a["answerIndex"], "derived",
-                                    a.get("explanation", ""), a.get("confidence"), note)
+            add(qid, (a["answerIndex"], "derived", a.get("explanation", ""),
+                      a.get("confidence"), note), ADJ_DIR)
 
-    # Apply any reading-order permutation recorded after these were solved.
-    for paper, mapping in reorder_maps().items():
-        moved = {}
-        for old, new in mapping.items():
-            if (paper, old) in out:
-                moved[(paper, new)] = out.pop((paper, old))
-        out.update(moved)
-    return out
+    if os.path.exists(CROSSCHECKED):
+        for qid, a in json.load(open(CROSSCHECKED, encoding="utf-8")).items():
+            add(qid, (a["answerIndex"], "derived", a.get("explanation", ""),
+                      a.get("confidence"), a.get("note")), CROSS_DIR)
+
+    if os.path.isdir(RESTALE):
+        for fn in sorted(os.listdir(RESTALE)):
+            if not fn.endswith(".solved.json"):
+                continue
+            for s in json.load(open(os.path.join(RESTALE, fn), encoding="utf-8")):
+                idx = s.get("answerIndex")
+                if isinstance(idx, int) and 0 <= idx <= 3:
+                    add(s.get("id", ""),
+                        (idx, "derived", s.get("explanation", ""),
+                         s.get("confidence"), None),
+                        RESTALE)
+    return recs
 
 
 def main():
     answers = load_answers()
-    derived = load_derived()
+    shown = batch_text()
+    derived = load_derived(shown)
     papers, questions = [], []
     penalty_by_paper = {}
     stats = Counter()
@@ -238,6 +415,16 @@ def main():
         if fn.endswith(".json"):
             j = json.load(open(os.path.join(STAGED, fn), encoding="utf-8"))
             by_paper[j["paper"]] = j
+
+    disputes = load_disputes(
+        {p: {q["qnum"]: q for q in d["questions"]} for p, d in by_paper.items()})
+
+    derived, moved, dropped, unverifiable = align_answers(
+        derived,
+        {p: {q["qnum"]: q["stem"] for q in d["questions"]} for p, d in by_paper.items()})
+    stats["answers_realigned"] = moved
+    stats["answers_dropped_stale"] = dropped
+    stats["answers_unverifiable"] = unverifiable
 
     for name, (slug, exam, post, pno, year, month, scheme) in PAPERS.items():
         d = by_paper.get(name)
@@ -272,6 +459,10 @@ def main():
                 if ans[1] == "official":
                     rec["answerKeyRef"] = ans[3]
                     stats["official"] += 1
+                    note = disputes.get((name, q["qnum"]))
+                    if note:
+                        rec["disputeNote"] = note
+                        stats["keyDisputed"] += 1
                 else:
                     if ans[3]:
                         rec["answerConfidence"] = ans[3]
@@ -401,6 +592,10 @@ def main():
     print("  unanswered: %d" % stats["unanswered"])
     print("  figureBased/unanswerable: %d" % stats["figureBased"])
     print("  source defects          : %d" % stats["sourceDefect"])
+    print("  official key disputed   : %d" % stats["keyDisputed"])
+    print("  answers re-seated by text: %d" % stats["answers_realigned"])
+    print("  answers dropped as stale : %d" % stats["answers_dropped_stale"])
+    print("  answers unverifiable     : %d" % stats["answers_unverifiable"])
     print("  vision-corrected        : %d" % stats["vision"])
     print("  cross-series repaired   : %d" % stats["crossSeries"])
 

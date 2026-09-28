@@ -148,8 +148,16 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
               </p>
             )}
             {q.disputeNote && (
+              /* The marked answer above is unchanged — for an official key it
+                 is what the Commission would credit, and that is the thing
+                 worth memorising. Say so explicitly, or "Disputed" reads as
+                 "we corrected this for you" and the candidate learns the
+                 defensible answer instead of the scoring one. */
               <p style={{ margin: '6px 0 0', fontSize: 12.5, color: 'var(--bad, #c4462f)' }}>
-                {q.disputeNote}
+                <strong>Disputed:</strong> {q.disputeNote}
+                {q.answerKeyRef
+                  ? ' The marked answer is still the one MPSC published.'
+                  : ''}
               </p>
             )}
             {q.answerKeyRef ? (

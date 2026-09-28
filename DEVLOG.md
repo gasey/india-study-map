@@ -9,6 +9,96 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-28 (evening) — the invisible operators, and answers seated on the wrong questions
+
+**What shipped.** Two silent-corruption bugs, both of the kind this project
+keeps getting bitten by: everything counted correctly, every gate was green,
+and the content was wrong anyway.
+
+**1. Symbol-font operators were invisible.** The Commission typesets maths in
+the Symbol font, which the PDF stores in the Unicode private-use area
+(U+F000–U+F0FF). Nothing renders those codepoints, so the OPERATOR simply
+vanished from the extracted text:
+
+    printed                         extracted
+    (√3 + √2)² − (√3 − √2)²         "(3 + 2)²  (3  2)²"
+    20√3 metres                     "203 metres"
+    36⅕ + 36⅖ + 36⅗ + 36⅘           "36  36  36  36"
+    File → Options → Proofing       "file  options  proofing"
+
+73 glyphs across three papers. Solvers then *reconstructed* a plausible
+expression and answered it confidently — the √ question was answered "12"
+against a printed option list containing the true answer 4√6. `SYMBOL_FONT` in
+`parse_papers.py` now maps them back; unmapped PUA codepoints become a visible
+□ and a warning rather than disappearing. Parentheses map to SPACE on purpose:
+restoring "(" + letter + ")" around a superscript would mint a fake option
+marker, and an eaten option is worse than a lost bracket.
+
+**2. Answers were seated by question NUMBER.** An id is `<paper>::q<N>`, and N
+only means anything for the parse that produced it. This bank has been
+re-parsed repeatedly, and each time answers slid onto their neighbours —
+invisibly, because the count still matched the blueprint and every question
+still had an answer. `build_bank.py` used a `reorder` map from
+`vision-corrections.json` to compensate, which was wrong in a subtle way: that
+map describes a permutation WITHIN one parse run, while the batches had been
+solved against an older parse entirely. Two of its entries pointed at a booklet
+instruction page and a "Series-C" header, so two junk answers were sitting on
+real questions.
+
+Caught because an explanation about **Jim Corbett National Park** was printed
+under *"Which is the highest populated state in India?"*.
+
+Fixed by throwing the reorder map away for this purpose and matching on the
+TEXT each solver was actually shown, which every batch file records.
+`align_answers()` keeps an answer whose stem still matches, moves it when it
+matches a different stem, and DROPS it when it matches nothing. Matching is
+symmetric — a one-sided prefix test discarded a good answer the moment a
+cleanup trimmed junk off the FRONT of a stem.
+
+**Also fixed, same session:**
+- Page furniture: running headers, tick-boxes and page numbers bleeding into
+  stems and last options (~110 instances). Every rule here is deliberately
+  tight, because `A-1, B-2, C-3, D-4`, `CRAY-1`, `NH-64`, `16-1-20-21` and
+  `22 - 11` are all REAL option text that a greedy version eats.
+- A stem swallowed whole by the previous question's last option across a page
+  break (q90, q97 of LDC Law & Judicial Paper-II, which had been reduced to
+  `"?"`).
+- 10 official-key questions displayed the Commission's answer above an
+  explanation arguing for a *different* option — those explanations came from
+  the blind calibration solve. Now kept only where the solve agreed with the
+  key, and never from a low-confidence solve ("picked arbitrarily among the
+  four" under an authoritative answer teaches distrust of a correct verdict).
+- **Three published MPSC answers look wrong** and are recorded in
+  `state/key-disputes.json` with reasoning. The strongest: `CKO : FNL :: FLP :
+  IOM :: DPQ : ?` — both worked pairs use +3,+3,−3, giving GSN; the key says
+  HRN, which fits no rule. The key's answer is still what the app marks, since
+  that is what scores marks, with the objection shown beside it.
+
+**Where the cross-check came from.** `mpsc-group-c-study.html` (880 clerical
+questions, built 2026-07-21) is independent earlier work on four of the same
+sittings, parsed and solved by a different pipeline. Graded against the one
+official key they share: **94.7%** agreement over 132 questions. On the sitting
+where neither side has a key, the two agreed on **92.6%** of 163; a blind third
+solve that was shown neither answer broke the 12 disagreements **11–1 in this
+bank's favour**, and recovered the true options for a matching-table question
+whose options had collapsed to empty strings.
+
+**State:** 12 papers, 1,050 questions, 350 official, **1,049 answered** (the
+one gap is a mirror-image figure the scan never captured). Derived confidence:
+624 high / 42 medium / 29 low. `regress.py` all green.
+
+**Still open.**
+- 71 derived answers are medium/low and want a human eye.
+- 45 answers carry no recorded batch text, so they cannot be re-seated by text
+  if the parse moves again — they are kept and counted as "unverifiable".
+- ~112 clerical papers in `../mpsc-question-bank/pdfs/Old_Questions/` are still
+  unparsed; only 12 are staged.
+- The Group-C deck's other six papers (ESI/LDC Transport 2024, LDC Accounts &
+  Treasuries 2026 — 560 questions, 546 key-backed) are NOT in this bank, and
+  their source PDFs have not been located in the corpus under those names.
+
+---
+
 ## 2026-09-28 (later still) — six more papers; the bank doubles to 1,050 questions
 
 **What shipped:** three sittings that had never been through this pipeline —

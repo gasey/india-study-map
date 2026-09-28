@@ -7,11 +7,17 @@ import { isAnswerable } from './filters';
 // ============================================
 // Practice drill — answer, get told, move on.
 //
-// Only serves questions that can actually be MARKED. 425 of the 525 in this
-// bank have no published answer, and a drill that accepts your answer and
-// then cannot say whether it was right is worse than one that admits the
-// question isn't ready: it teaches nothing and quietly implies a verdict.
-// The filter rail can still surface those; this view refuses them and says why.
+// Only serves questions that can actually be MARKED (see isAnswerable): a drill
+// that accepts your answer and then cannot say whether it was right is worse
+// than one that admits the question isn't ready — it teaches nothing and quietly
+// implies a verdict. The filter rail can still surface those; this view refuses
+// them and says why.
+//
+// Nearly all of the bank is now markable: of 1,800 questions only a handful lack
+// an answer, and they are the genuinely unrecoverable ones (a mirror-image item
+// whose figures scanned as a black block). Most answers are DERIVED rather than
+// official, which is a separate caveat carried by the confidence badge, not by
+// this view.
 // ============================================
 
 interface Props {
@@ -44,11 +50,9 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         <strong>Nothing here can be marked yet.</strong>
         <p style={{ margin: '8px 0 0', opacity: 0.85 }}>
           {unmarkable > 0
-            ? `${unmarkable} question${unmarkable === 1 ? '' : 's'} match your filters, but none has a published answer, so a drill could not tell you whether you were right.`
+            ? `${unmarkable} question${unmarkable === 1 ? '' : 's'} match your filters, but none of them can be marked — either no answer could be established, or the printed options are figures the scan did not capture. A drill could not tell you whether you were right.`
             : 'No questions match your filters.'}{' '}
-          MPSC published an answer key for only one of these six sittings
-          (Assistant Grade &amp; UDC Paper-II, April 2024). Set{' '}
-          <em>Answer → Has an answer</em> to practise what is ready.
+          Set <em>Answer → Has an answer</em> to practise what is ready.
         </p>
       </div>
     );

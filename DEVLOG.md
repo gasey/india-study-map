@@ -9,6 +9,103 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-28 (late) — we accused the Commission of a misprint it did not make
+
+**What shipped.** The UDC/LDC bank is now answered end to end: 20 papers, 1,800
+questions, the last 751 solved in this round across the eight older (2016–2021)
+UDC sittings. Every batch carried its paper's **exam date** in the brief, because
+a 2021 paper asking "the new chairman of UPSC" wants the answer that was true in
+2021 — the solvers did honour it (one cites the December-2019 ADB forecast for a
+January-2020 paper). Four content bugs came out of the round, and one of them is
+the most embarrassing class of error this project can make.
+
+**1. We published a "disputed answer key" note on a question MPSC got right.**
+`state/key-disputes.json` recorded LDC SW/WCD Paper-II q78 — the analogy
+`CKO : FNL :: FLP : IOM :: DPQ : ?` — as a published key that looked wrong: the
+key said (a) HRN where the +3,+3,−3 rule plainly gives (c) GSN. The reasoning was
+right. The premise was not. **The parser had emitted printed q78 and q79 swapped**
+— printed q78 is the "All books are rivers" syllogism, printed q79 is the
+analogy — so the analogy was being graded against key 78 = A, which is the
+*syllogism's* answer. Printed q79's key is C = GSN: exactly what we had worked
+out. Verified on p14–16 of the source PDF, and against neighbours 76 (D, dusk)
+and 77 (B, Rectangle).
+
+Two questions individually looked plausible in each other's slot, so nothing
+flagged it — the count matched, the blueprint matched, both stems were real
+reasoning questions. It surfaced only because an agent repairing *option* damage
+on the same page read the printed numbers and noticed.
+
+The rule going in, because this repo will meet it again: **a disagreement with
+the official key is evidence of a numbering bug until proven otherwise.** Check
+that the stem at qnum N is the stem the Commission printed at N *before*
+concluding the Commission is wrong. Left alone this would have taught the reader
+that MPSC misprinted an answer it got right — strictly worse than saying nothing.
+The withdrawal and its reasoning are recorded in `key-disputes.json` itself, and
+the cross-check figure it fed is corrected: the Group-C deck won 2 of those 7
+adjudications, not 3.
+
+**2. "Four options" was counting empty strings.** The staging gate counted list
+*length*, so nine questions shipped as answerable with blank options — LDC SW/WCD
+q79 and q81 were blank in **all four** slots and still scored `4opt 100/100`. A
+student cannot choose between nothing and nothing. `regress.py` now counts only
+non-empty options and `EXPECTED_CLEAN` pins the known-damaged count per paper, so
+it is a ratchet: the known hole stays green and a *new* one fails. `build_bank.py`
+routes any question with fewer than two readable options to `figureBased`.
+
+Eight of the nine were repaired from the rendered source pages rather than pinned
+— mostly multi-column fraction layouts that serialise row-wise, so
+`(a) '2 1 3 , , 3 2 4'` is really *2/3, 1/2, 3/4*. Each repair was cross-checked
+against the official key independently (key 53 = C → (i),(iii),(iv), and
+17/24 = 34/48, 33/48, 35/48 all fall between 32/48 and 36/48 while 19/24 = 38/48
+does not). The ninth, q81 "choose the mirror image", is genuinely unanswerable as
+text: the four alternatives are raster images of mirrored glyphs and what
+distinguishes them is purely visual, so it carries `unanswerable: true` instead of
+a transcription that would destroy the thing being tested.
+
+**3. One regex in two copies, and the copies drifted.** The "Directions (Question
+Nos. 51–55):" block has to be recognised twice — to *attach* it to the questions
+it governs, and to *cut* it off the preceding question's last option. Those were
+two separate patterns, and only the attach side ever learned about
+`Nos,` with a comma (a real Commission typo) and `Question Questions` (the word
+printed twice). So four papers attached the block correctly to q56/q66/q71 and
+left the whole of it glued to option (d) of q55/q65/q70. Now one `DIRECTION_HEAD`
+feeds both. Same treatment for `SUBJECT`, which the option cleaner needed to cut
+a bare `GENERAL INTELLIGENCE & REASONING (50 Marks)` heading out of five more
+options — requiring the mark total keeps it tight, since a real option may
+contain the word "English" but none says "English (50 Marks)".
+
+**4. The batch-overwrite trap, closed in the last tool that had it.**
+`make_adjudication_batches.py` wrote `adj-01.json` unconditionally. Re-running it
+would make the new file the key used to read the *previous* round's
+`adj-01.solved.json`, relocating those verdicts onto unrelated questions — which
+has already happened once here, to `state/restale/batch-01.json`. It now
+auto-numbers past the highest existing batch, skips the 63 ids already in
+`_resolved.json` (two independent solvers have been through those; where the
+verdict stayed medium/low, that *is* the finding), scans `restale/` and
+`crosscheck/` as well as `solve-derived/`, and requires four non-empty options.
+
+**Why any of this matters.** Every bug in this entry passed every gate. That is
+the pattern worth remembering: in this pipeline, "all green" means the counts are
+consistent, not that the content is right. The checks that actually caught things
+were the ones that compared against the printed page.
+
+**What's still open.**
+- **216 medium/low derived answers ship as the displayed answer** across the 16
+  papers with no official key (90 low, 126 medium). Measured against the one
+  published key for this cadre, `high` answers were 97–98% correct but `medium`
+  only **44%** — so this is the weakest content on the site and it is already
+  being shown. The adjudication round is queued, not run.
+- `contamination.py` still reports ~25 suspects. A good share are false positives
+  (legitimately sentence-long options — Excel instructions and the like), so it
+  wants triage, not a mass edit.
+- 46 clerical papers whose parsed count contradicts a blueprint, 37 with no
+  blueprint at all, and 9 quarantined papers needing option repair before they
+  can ship.
+- 120 answer keys still un-OCR'd. Every one that lands converts a page of derived
+  answers into official ones, which is the cheapest accuracy win available.
+
+---
+
 ## 2026-09-28 (evening) — the invisible operators, and answers seated on the wrong questions
 
 **What shipped.** Two silent-corruption bugs, both of the kind this project

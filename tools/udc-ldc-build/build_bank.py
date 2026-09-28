@@ -517,7 +517,12 @@ def main():
                     stats["derived_" + (ans[3] or "unrated")] += 1
             else:
                 stats["unanswered"] += 1
-            if q.get("unanswerable") or not opts:
+            # A list of four EMPTY STRINGS is not four options. The staging gate
+            # counts list length, so nine questions passed "4opt" with blanks --
+            # two of them blank in all four slots. A student cannot choose
+            # between nothing and nothing, so count what is actually printable.
+            live = [o for o in opts if (o or "").strip()]
+            if q.get("unanswerable") or len(live) < 2:
                 rec["figureBased"] = True
                 stats["figureBased"] += 1
             if q.get("printedOptionLabels"):

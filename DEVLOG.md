@@ -9,6 +9,85 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-29 — the bank was asserting that Indore is the cleanest city
+
+**What shipped.** General Knowledge is now split into **durable knowledge (496)
+and current affairs (254)**, and every current-affairs question carries an
+`answerAsOf` caption in both the drill and the browse view: *"This was the
+answer as of June 2018 — it may since have changed."*
+
+**Why.** This bank spans 2016 to 2026. A third of its GK asserts something that
+was true at the sitting and is false now — Indore as cleanest city (2018), a UPSC
+chairman who left office in 2021, a stack of Mizoram items like AMC election
+results and State Games medal counts. Presented as bare facts with a confident
+answer badge, those are not "slightly stale"; they are wrong, and the page looks
+authoritative while being wrong. That is the same failure mode as the withdrawn
+key dispute in the entry below, arrived at from a different direction.
+
+The tagging test was one question: *would the correct answer be different if this
+same question were asked today?* A year in the stem does not decide it — "the
+Mizo National Front uprising of 1966" is durable; the year is part of the fact,
+not part of the news.
+
+**It was reviewable because it is positional.** Current affairs is not scattered
+through these papers, it is front-loaded, and `reconcile_gk_kind.py` prints that
+as a map:
+
+    2.UDC Excise Deptt. Paper-II    ccsccccccscccccccccssssssssssssssssssss…
+    UDC ARC Paper-II                scsccccccscccccccscccccscccscccccscsssss…
+    LDC under SW, WCD Paper - I.    ssssssssssssssssssssscscsssssssssssssss…
+
+A lone `s` inside a dense `c` run is where a misclassification shows. Eyeballing
+twelve rows beats reading 750 questions, and it is the same trick that exposed
+the q78/q79 swap. 58 are flagged low-confidence for a closer look — mostly
+"first ever" milestones sitting inside dated news clusters.
+
+**Useful for planning:** the 2026 sittings are almost entirely durable. SW/WCD
+Paper-I has **2** current-affairs questions in 50. The dead weight is
+concentrated in the oldest papers.
+
+**Three UI decisions worth recording.**
+1. `gkKind` sits *alongside* the section rather than splitting `gk` into two
+   sections — splitting would break the section filter and the blueprint counts,
+   which are verified against what the paper prints.
+2. The filter offers four options, not two, because there are three genuinely
+   different wants: revise durable GK, study what current affairs MPSC asks, or
+   practise everything minus the dead bits. The first cut had a single "GK type"
+   axis that left non-GK sections untouched — composable, but it *lied*: picking
+   "Current affairs" handed back a 1,301-question drill that was mostly English
+   and Arithmetic. A chip must not promise one thing and return another.
+3. Chip counts are the real size of the pool each chip produces. An earlier
+   version showed "Durable GK 1546" when there are 496 — true of the resulting
+   pool, a lie about the chip.
+
+**Also fixed.** Four questions where the correct answer is **not among the four
+printed options** now carry `sourceDefect: 'answer-not-among-options'` and say
+which answer is missing — the PowerPoint duplicate-slide shortcut offered without
+Ctrl+D, "study of the structure of the human body" offered without anatomy. Each
+was read back off the source page first, because an option lost in *extraction*
+looks identical and is our bug rather than the paper's. Both adjudicating solvers
+surfaced these independently, with the same signature: high certainty about the
+answer plus a refusal to pick one.
+
+Chart and table data was recovered from the rendered pages for twelve questions
+that asked the reader to work "from the bar graph" while carrying no values at
+all. Re-solved against the recovered data, **25 of 25 came back high confidence
+with exact option matches**, where before they were guesses.
+
+**What's still open.**
+- Two structural numbering defects. UDC Combined Paper-II (B) is off by one
+  across staged 58–84: printed q58 was dropped entirely and its text leaked into
+  q57's option (d). Assistant UDC Paper-II Series A q55/q56 are mis-split.
+  Derived answers are seated by text so nothing is currently misplaced, but an
+  official key OCR'd later would misjoin.
+- Ten figure-dependent questions (mirror images, dice, paper-folding) still carry
+  answers that were necessarily guessed; each needs either a transcription of the
+  figure or an honest `unanswerable`.
+- 120 answer keys un-OCR'd — still the cheapest accuracy win available, since
+  each one converts derived answers into official ones.
+
+---
+
 ## 2026-09-28 (late) — we accused the Commission of a misprint it did not make
 
 **What shipped.** The UDC/LDC bank is now answered end to end: 20 papers, 1,800

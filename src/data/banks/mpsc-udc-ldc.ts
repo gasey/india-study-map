@@ -132,6 +132,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q002',
@@ -149,6 +151,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q003',
@@ -166,6 +170,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q004',
@@ -183,6 +189,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q005',
@@ -200,6 +208,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q006',
@@ -217,6 +227,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q007',
@@ -234,6 +245,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q008',
@@ -251,6 +263,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q009',
@@ -268,6 +281,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q010',
@@ -285,6 +299,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q011',
@@ -302,6 +317,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q012',
@@ -320,6 +337,7 @@ const questionsPart1: BankQuestion[] = [
     answerSource: 'derived',
     answerConfidence: 'low',
     disputeNote: 'Two independent attempts at this question disagreed and both were unsure — the printed figure or data did not survive scanning. Treat this answer as unverified.',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q013',
@@ -337,6 +355,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q014',
@@ -354,6 +373,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q015',
@@ -371,6 +391,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q016',
@@ -388,6 +409,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q017',
@@ -405,6 +427,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q018',
@@ -422,6 +445,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q019',
@@ -439,6 +463,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q020',
@@ -456,6 +481,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q021',
@@ -473,6 +499,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q022',
@@ -490,6 +517,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q023',
@@ -507,6 +536,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q024',
@@ -524,6 +554,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q025',
@@ -541,6 +573,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q026',
@@ -558,6 +591,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q027',
@@ -575,6 +609,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'low',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q028',
@@ -592,6 +627,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q029',
@@ -609,6 +646,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q030',
@@ -626,6 +664,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q031',
@@ -643,6 +682,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q032',
@@ -660,6 +700,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q033',
@@ -677,6 +718,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q034',
@@ -694,6 +736,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q035',
@@ -711,6 +754,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q036',
@@ -728,6 +772,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q037',
@@ -745,6 +790,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q038',
@@ -762,6 +808,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q039',
@@ -779,6 +826,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q040',
@@ -796,6 +844,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q041',
@@ -813,6 +862,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q042',
@@ -830,6 +881,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q043',
@@ -847,6 +899,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q044',
@@ -864,6 +917,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q045',
@@ -881,6 +935,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q046',
@@ -898,6 +953,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q047',
@@ -915,6 +971,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2025',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q048',
@@ -932,6 +990,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q049',
@@ -949,6 +1008,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q050',
@@ -966,6 +1026,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-ldc-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2025-paper-1-q051',
@@ -3113,6 +3174,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q002',
@@ -3130,6 +3192,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q003',
@@ -3147,6 +3210,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q004',
@@ -3164,6 +3228,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q005',
@@ -3181,6 +3246,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q006',
@@ -3198,6 +3265,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q007',
@@ -3215,6 +3283,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q008',
@@ -3232,6 +3301,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q009',
@@ -3249,6 +3320,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q010',
@@ -3266,6 +3338,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q011',
@@ -3283,6 +3356,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q012',
@@ -3300,6 +3374,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q013',
@@ -3317,6 +3393,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q014',
@@ -3334,6 +3412,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q015',
@@ -3351,6 +3431,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q016',
@@ -3368,6 +3450,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q017',
@@ -3385,6 +3468,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q018',
@@ -3402,6 +3486,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q019',
@@ -3419,6 +3504,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q020',
@@ -3436,6 +3522,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q021',
@@ -3453,6 +3540,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q022',
@@ -3470,6 +3559,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q023',
@@ -3487,6 +3578,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q024',
@@ -3504,6 +3596,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q025',
@@ -3521,6 +3615,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q026',
@@ -3538,6 +3634,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q027',
@@ -3555,6 +3653,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q028',
@@ -3572,6 +3671,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q029',
@@ -3589,6 +3689,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q030',
@@ -3606,6 +3707,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q031',
@@ -3623,6 +3726,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q032',
@@ -3640,6 +3744,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q033',
@@ -3657,6 +3763,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q034',
@@ -3674,6 +3781,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q035',
@@ -3691,6 +3800,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q036',
@@ -3708,6 +3818,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q037',
@@ -3725,6 +3837,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q038',
@@ -3742,6 +3855,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q039',
@@ -3759,6 +3874,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q040',
@@ -3776,6 +3892,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q041',
@@ -3793,6 +3911,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q042',
@@ -3810,6 +3929,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q043',
@@ -3827,6 +3947,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q044',
@@ -3844,6 +3965,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q045',
@@ -3861,6 +3983,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q046',
@@ -3878,6 +4001,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q047',
@@ -3895,6 +4019,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q048',
@@ -3912,6 +4037,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q049',
@@ -3929,6 +4056,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q050',
@@ -3946,6 +4074,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2024-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
+    gkKind: 'current',
+    answerAsOf: 'April 2024',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q051',
@@ -6088,6 +6218,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'May 2025',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q002',
@@ -6105,6 +6237,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q003',
@@ -6122,6 +6255,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'May 2025',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q004',
@@ -6139,6 +6274,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q005',
@@ -6156,6 +6292,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q006',
@@ -6173,6 +6310,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q007',
@@ -6190,6 +6328,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q008',
@@ -6207,6 +6346,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q009',
@@ -6224,6 +6364,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q010',
@@ -6241,6 +6382,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q011',
@@ -6258,6 +6400,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q012',
@@ -6275,6 +6418,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q013',
@@ -6292,6 +6436,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q014',
@@ -6309,6 +6454,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q015',
@@ -6326,6 +6472,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q016',
@@ -6343,6 +6490,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q017',
@@ -6360,6 +6508,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q018',
@@ -6377,6 +6526,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q019',
@@ -6394,6 +6544,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q020',
@@ -6411,6 +6562,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q021',
@@ -6428,6 +6580,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q022',
@@ -6445,6 +6598,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q023',
@@ -6462,6 +6616,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q024',
@@ -6479,6 +6634,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q025',
@@ -6496,6 +6652,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q026',
@@ -6513,6 +6670,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q027',
@@ -6530,6 +6688,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q028',
@@ -6547,6 +6706,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q029',
@@ -6564,6 +6724,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q030',
@@ -6581,6 +6742,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q031',
@@ -6598,6 +6760,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'May 2025',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q032',
@@ -6615,6 +6779,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'May 2025',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q033',
@@ -6632,6 +6798,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'May 2025',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q034',
@@ -6649,6 +6817,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q035',
@@ -6666,6 +6835,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'current',
+    answerAsOf: 'May 2025',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q036',
@@ -6683,6 +6854,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'May 2025',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q037',
@@ -6700,6 +6873,8 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'May 2025',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q038',
@@ -6717,6 +6892,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q039',
@@ -6734,6 +6910,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q040',
@@ -6751,6 +6928,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q041',
@@ -6768,6 +6946,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q042',
@@ -6785,6 +6964,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q043',
@@ -6802,6 +6982,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q044',
@@ -6819,6 +7000,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q045',
@@ -6836,6 +7018,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q046',
@@ -6853,6 +7036,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q047',
@@ -6870,6 +7054,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q048',
@@ -6887,6 +7072,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q049',
@@ -6904,6 +7090,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-combined-2025-paper-1-q050',
@@ -6921,6 +7108,7 @@ const questionsPart1: BankQuestion[] = [
     paperId: 'mpsc-udc-combined-2025-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
 ];
 
@@ -9069,6 +9257,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q002',
@@ -9086,6 +9275,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q003',
@@ -9103,6 +9293,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q004',
@@ -9120,6 +9311,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q005',
@@ -9137,6 +9329,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q006',
@@ -9154,6 +9347,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q007',
@@ -9171,6 +9365,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2025',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q008',
@@ -9188,6 +9384,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q009',
@@ -9205,6 +9402,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q010',
@@ -9222,6 +9420,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q011',
@@ -9239,6 +9438,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q012',
@@ -9256,6 +9456,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q013',
@@ -9273,6 +9474,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q014',
@@ -9290,6 +9492,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q015',
@@ -9307,6 +9510,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2025',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q016',
@@ -9324,6 +9529,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q017',
@@ -9341,6 +9547,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q018',
@@ -9358,6 +9565,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q019',
@@ -9375,6 +9583,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q020',
@@ -9386,12 +9595,13 @@ const questionsPart2: BankQuestion[] = [
     question: 'Which of the following is associated with a time between breakfast and noon?',
     options: ['Ni tlang chhuah', 'Fehrehban', 'Fehrehkal', 'Fehrehsan'],
     answerIndex: 0,
-    explanation: 'This asks about a specific traditional Mizo term for a time-of-day period; I could not find a reliable definition distinguishing \'Ni tlang chhuah\' from the \'Fehreh-\' variants, and I\'m not confident enough in the vernacular nuance to call this anything but a guess.',
+    explanation: 'Guess. \'Ni tlang chhuah\' (sun risen clear of the hills) is the only transparent time expression and fits mid-morning, but I cannot distinguish the three Fehreh- terms.',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-I',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'low',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q021',
@@ -9409,6 +9619,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2025',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q022',
@@ -9426,6 +9638,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q023',
@@ -9443,6 +9656,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q024',
@@ -9460,6 +9674,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q025',
@@ -9477,6 +9692,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2025',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q026',
@@ -9494,6 +9711,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q027',
@@ -9505,12 +9723,13 @@ const questionsPart2: BankQuestion[] = [
     question: 'Which of the following is not the fundamental principles of NEP 2020?',
     options: ['Multidisciplinary and holistic education', 'Rootedness and pride in India', 'Internationalization', 'Extensive use of technology in teaching and learning'],
     answerIndex: 2,
-    explanation: 'NEP 2020\'s enumerated fundamental principles include multidisciplinary/holistic education, rootedness and pride in India, and extensive use of technology, but \'Internationalization\' is treated as a separate policy goal/chapter rather than one of the listed fundamental principles.',
+    explanation: 'NEP 2020\'s list of fundamental principles includes multidisciplinary/holistic education, rootedness and pride in India, and extensive use of technology; internationalization is a separate policy chapter, not one of the principles.',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-I',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q028',
@@ -9528,6 +9747,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q029',
@@ -9545,6 +9765,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q030',
@@ -9562,6 +9783,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2025',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q031',
@@ -9579,6 +9802,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q032',
@@ -9589,13 +9813,15 @@ const questionsPart2: BankQuestion[] = [
     type: 'mcq',
     question: 'Consider the following statements: (i) Qutab Minar is the highest tower in India. (ii) It is a UNESCO World Heritage site and is recently in the news following the inauguration of new railway line in Mizoram on 13.09.2025. (iii) Mizoram’s historic train crosses a bridge taller than the Qutab Minar in Delhi. (iv) Bridge No. 44 on the Bairabi-Sairang line, the record breaking bridge which stands at an impressive 114m surpasses the Qutab Minar by 42m. Using the code given below, which of the following statement(s) is wrong?',
     options: ['Only (i)', 'Only (ii)', 'Only (iv)', 'None of the above'],
-    answerIndex: 3,
-    explanation: 'Checked against reporting on the Bairabi-Sairang line (inaugurated 13.09.2025): the pier bridge near Sairang is widely reported at 114m, and Qutub Minar is 72.5m, so \'42m taller\' is arithmetically and factually consistent, and the UNESCO/news-linkage claims also hold, so none of the statements is clearly wrong; the loose phrase \'highest tower in India\' for Qutub Minar keeps this from being high confidence.',
+    answerIndex: 2,
+    explanation: 'Statement (iv) is wrong on both counts: the record bridge on the Bairabi-Sairang line is Bridge No. 196 at 104 m, not Bridge No. 44 at 114 m. (ii) and (iii) match the 13.09.2025 inauguration, so \'Only (iv)\'.',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-I',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2025',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q033',
@@ -9613,6 +9839,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q034',
@@ -9630,6 +9857,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q035',
@@ -9647,6 +9875,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q036',
@@ -9664,6 +9893,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q037',
@@ -9681,6 +9911,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q038',
@@ -9698,6 +9929,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q039',
@@ -9715,6 +9947,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q040',
@@ -9732,6 +9965,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q041',
@@ -9749,6 +9983,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q042',
@@ -9766,6 +10001,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q043',
@@ -9783,6 +10019,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q044',
@@ -9800,6 +10037,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q045',
@@ -9811,12 +10049,14 @@ const questionsPart2: BankQuestion[] = [
     question: 'How many notified towns are there in Mizoram?',
     options: ['21', '22', '23', '24'],
     answerIndex: 2,
-    explanation: 'Mizoram is generally documented as having 23 Notified Towns (and no census/statutory towns) under the Land Revenue & Settlement Department; this figure could not be independently cross-checked against a single authoritative current count.',
+    explanation: 'Mizoram is returned as having 23 towns (Census 2011 urban units). The count of \'notified\' towns specifically can differ from the census figure, so two options are defensible.',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-I',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'current',
+    answerAsOf: 'October 2025',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q046',
@@ -9827,13 +10067,15 @@ const questionsPart2: BankQuestion[] = [
     type: 'mcq',
     question: 'Which among the following is not ‘Dar Hla’?',
     options: ['Liando te unau unau', 'Chawngvungi man tam e', 'Kal rawh kal rawh', 'Sunghno ka nu kha e'],
-    answerIndex: 3,
-    explanation: '\'Liando te unau unau\' and \'Chawngvungi man tam e\' are documented traditional Dar Hla (gong-accompanied) songs; \'Sunghno ka nu kha e\' surfaces as a Pathian Hla (Christian hymn), a distinct later genre, making it the likely non-Dar Hla item, but this specific classification could not be fully verified against a definitive source.',
+    answerIndex: 2,
+    explanation: 'Guess. The other three titles are folk-tale-derived lines of the kind sung as dar hla, while \'Kal rawh kal rawh\' is an imperative phrase that fits the odd-one-out role; I cannot verify the dar hla canon.',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-I',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'low',
+    disputeNote: 'Two independent attempts at this question disagreed and both were unsure — the printed figure or data did not survive scanning. Treat this answer as unverified.',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q047',
@@ -9851,6 +10093,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q048',
@@ -9868,6 +10111,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q049',
@@ -9885,6 +10129,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q050',
@@ -9902,6 +10147,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2025',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q051',
@@ -9963,13 +10210,13 @@ const questionsPart2: BankQuestion[] = [
     type: 'mcq',
     question: 'There is no coffee left, so we’ll have to do without sugar',
     options: ['Adjective', 'Adverb', 'Pronoun', 'Preposition'],
-    answerIndex: 1,
-    explanation: 'The item is the standard "...so we\'ll have to do without" pattern, where "without" has no object and is therefore an adverb. OCR damage is likely here (the sentence as printed says "no coffee left" but "do without sugar", which is incoherent); if the paper really did print an object after "without", preposition would be correct instead.',
+    answerIndex: 3,
+    explanation: 'The underlining is lost, but the only word worth testing is \'without\', which here takes the object \'sugar\' and is therefore a preposition (it would be an adverb only in \'we\'ll have to do without\').',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-I',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
-    answerConfidence: 'low',
+    answerConfidence: 'medium',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q055',
@@ -9978,15 +10225,15 @@ const questionsPart2: BankQuestion[] = [
     topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
-    question: 'Paper-I (Series-A)',
+    question: 'The recently damaged roads are being repaired by them.',
     options: ['They repaired the recently damaged roads', 'They have repaired the recently damaged roads', 'They are repairing the recently damaged roads', 'The recently damaged roads were repaired by them'],
-    answerIndex: 3,
-    explanation: 'The question sentence itself was lost to OCR (only a running header survives), but the direction is active-to-passive and exactly one option is passive, so it must be the key; it is also the correct simple-past passive of "They repaired the recently damaged roads".',
+    answerIndex: 2,
+    explanation: 'The sentence is passive present continuous (\'are being repaired by them\'), so the active form must keep the present continuous: \'They are repairing the recently damaged roads.\' (a) and (b) change the tense and (d) is still passive.',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-I',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-1',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-1-q056',
@@ -10542,12 +10789,12 @@ const questionsPart2: BankQuestion[] = [
     question: 'Which GUI element allows multiple applications to run simultaneously by sharing system resources?',
     options: ['Multithreading', 'Multitasking', 'Multiprocessing', 'Multiuser'],
     answerIndex: 1,
-    explanation: 'Multitasking is the OS capability that runs multiple applications simultaneously by sharing (time-slicing) system resources; the question\'s phrase "GUI element" is imprecise but the intended answer is multitasking, not multiprocessing (multiple CPUs) or multithreading (multiple threads within one app).',
+    explanation: 'Running several applications at once by sharing system resources is multitasking (multithreading is within one process, multiprocessing needs multiple CPUs, multiuser concerns several users).',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-II',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q014',
@@ -10593,12 +10840,12 @@ const questionsPart2: BankQuestion[] = [
     question: 'Which advanced MS Word feature allows automatic generation of citations and bibliography in different styles (APA, MLA, Chicago)?',
     options: ['Track Changes', 'Reference Manager', 'Insert Footnote', 'Table of Authorities'],
     answerIndex: 1,
-    explanation: 'Of the given choices, a reference/source manager for citations and bibliography (APA/MLA/Chicago styles) best matches Word\'s References-tab citation tools; Word\'s actual UI calls this "Manage Sources"/Citations & Bibliography, so the option\'s exact naming is imprecise but clearly distinguishes it from Track Changes, Footnotes, or Table of Authorities (used for legal citations).',
+    explanation: 'MS Word\'s reference manager (References tab: Manage Sources, Style, Bibliography) generates citations and bibliographies in APA/MLA/Chicago; Track Changes, footnotes and Table of Authorities do not.',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-II',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q017',
@@ -11256,7 +11503,7 @@ const questionsPart2: BankQuestion[] = [
     question: '2 of work and then A left. The remaining 3 work was done by B in 3 days. In how many day B alone can finish the work?',
     options: ['9 days', '6 days', '5 days', '3 days'],
     answerIndex: 0,
-    explanation: 'OCR-garbled text (\'2 of work ... remaining 3 work\') reconstructs to: A did 2/3 of the work and left; the remaining 1/3 was finished by B alone in 3 days. If 1/3 of the work takes B 3 days, the whole work takes B 3 x 3 = 9 days, matching option index 0. Confidence is medium because the exact fractions had to be inferred from corrupted text, though the complementary 2/3 + 1/3 = 1 reading is the natural fit.',
+    explanation: 'Reading the split rows as \'A did 2/3 of the work\' (numerator 2 and denominator 3 separated by the extraction), the remaining 1/3 took B 3 days, so B alone needs 3 × 3 = 9 days. The reconstruction is what carries the risk: a remaining 1/2 would give 6 days.',
     source: 'Assistant Grade & UDC (Combined), October 2025, Paper-II',
     year: 2025,
     paperId: 'mpsc-asst-udc-2025oct-paper-2',
@@ -12044,6 +12291,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q002',
@@ -12061,6 +12309,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q003',
@@ -12078,6 +12327,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q004',
@@ -12095,6 +12345,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q005',
@@ -12112,6 +12363,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q006',
@@ -12129,6 +12381,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q007',
@@ -12146,6 +12399,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q008',
@@ -12163,6 +12417,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q009',
@@ -12180,6 +12435,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q010',
@@ -12197,6 +12453,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q011',
@@ -12214,6 +12471,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q012',
@@ -12231,6 +12489,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q013',
@@ -12248,6 +12507,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q014',
@@ -12265,6 +12525,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q015',
@@ -12282,6 +12543,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q016',
@@ -12299,6 +12561,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q017',
@@ -12316,6 +12579,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q018',
@@ -12333,6 +12597,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q019',
@@ -12350,6 +12615,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q020',
@@ -12367,6 +12633,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q021',
@@ -12384,6 +12651,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q022',
@@ -12401,6 +12669,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q023',
@@ -12418,6 +12687,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q024',
@@ -12435,6 +12705,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q025',
@@ -12452,6 +12723,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q026',
@@ -12469,6 +12741,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q027',
@@ -12486,6 +12759,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q028',
@@ -12503,6 +12777,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q029',
@@ -12520,6 +12795,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q030',
@@ -12537,6 +12813,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q031',
@@ -12554,6 +12831,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q032',
@@ -12571,6 +12849,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q033',
@@ -12588,6 +12867,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2026',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q034',
@@ -12605,6 +12886,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2026',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q035',
@@ -12622,6 +12905,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2026',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q036',
@@ -12639,6 +12924,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q037',
@@ -12656,6 +12942,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2026',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q038',
@@ -12673,6 +12961,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2026',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q039',
@@ -12690,6 +12980,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2026',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q040',
@@ -12707,6 +12999,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q041',
@@ -12724,6 +13017,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q042',
@@ -12741,6 +13035,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2026',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q043',
@@ -12758,6 +13054,8 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2026',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q044',
@@ -12775,6 +13073,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q045',
@@ -12792,6 +13091,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q046',
@@ -12809,6 +13109,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q047',
@@ -12826,6 +13127,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q048',
@@ -12843,6 +13145,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q049',
@@ -12860,6 +13163,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q050',
@@ -12877,6 +13181,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026feb-paper-1',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026feb-paper-1-q051',
@@ -15025,6 +15330,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q002',
@@ -15042,6 +15348,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q003',
@@ -15059,6 +15366,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q004',
@@ -15076,6 +15384,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q005',
@@ -15093,6 +15402,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q006',
@@ -15110,6 +15420,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q007',
@@ -15128,6 +15439,7 @@ const questionsPart3: BankQuestion[] = [
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     disputeNote: 'Queen Victoria\'s Proclamation of 1858 is the document conventionally called the Magna Carta of the Indian people. The Ilbert Bill (1883) was a contentious jurisdiction measure and carries no such description.',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q008',
@@ -15145,6 +15457,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q009',
@@ -15162,6 +15475,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q010',
@@ -15179,6 +15493,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q011',
@@ -15196,6 +15511,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q012',
@@ -15213,6 +15529,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q013',
@@ -15230,6 +15547,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q014',
@@ -15247,6 +15565,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q015',
@@ -15264,6 +15583,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q016',
@@ -15281,6 +15601,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q017',
@@ -15298,6 +15619,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q018',
@@ -15315,6 +15637,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q019',
@@ -15332,6 +15655,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q020',
@@ -15349,6 +15673,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q021',
@@ -15366,6 +15691,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q022',
@@ -15383,6 +15709,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'current',
+    answerAsOf: 'April 2026',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q023',
@@ -15400,6 +15728,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q024',
@@ -15417,6 +15746,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'current',
+    answerAsOf: 'April 2026',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q025',
@@ -15434,6 +15765,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q026',
@@ -15451,6 +15783,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q027',
@@ -15468,6 +15801,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q028',
@@ -15485,6 +15819,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q029',
@@ -15502,6 +15837,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q030',
@@ -15519,6 +15855,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q031',
@@ -15536,6 +15873,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q032',
@@ -15553,6 +15891,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q033',
@@ -15570,6 +15909,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q034',
@@ -15587,6 +15927,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q035',
@@ -15604,6 +15945,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q036',
@@ -15621,6 +15963,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q037',
@@ -15638,6 +15981,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q038',
@@ -15655,6 +15999,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q039',
@@ -15672,6 +16017,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q040',
@@ -15689,6 +16035,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q041',
@@ -15706,6 +16053,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q042',
@@ -15723,6 +16071,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q043',
@@ -15740,6 +16089,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q044',
@@ -15757,6 +16107,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q045',
@@ -15774,6 +16125,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q046',
@@ -15791,6 +16143,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q047',
@@ -15808,6 +16161,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q048',
@@ -15825,6 +16179,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q049',
@@ -15842,6 +16197,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q050',
@@ -15859,6 +16215,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-ldc-2026apr-paper-1',
     answerSource: 'official',
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q051',
@@ -18003,6 +18360,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q002',
@@ -18014,12 +18373,14 @@ const questionsPart3: BankQuestion[] = [
     question: 'Which organization has recently decided to form a ‘Shadow Cabinet’ for development works in Mizoram?',
     options: ['YMA', 'MSU', 'PRISM', 'ZNP'],
     answerIndex: 2,
-    explanation: 'PRISM (People\'s Right to Information and Development Implementing Society of Mizoram), an RTI/governance-watchdog NGO active in 2016, is the best fit among the options for a civil-society body monitoring government development work, but I could not verify a specific 2016 \'Shadow Cabinet\' announcement by any of the four organizations.',
+    explanation: 'PRISM, the Mizoram development/right-to-information watchdog body, announced a \'Shadow Cabinet\' to monitor development works; YMA/MSU/ZNP are not associated with that move. Two options (PRISM vs ZNP, since shadow cabinets are normally an opposition-party device) are arguable.',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'low',
+    answerConfidence: 'medium',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q003',
@@ -18037,6 +18398,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q004',
@@ -18047,13 +18409,15 @@ const questionsPart3: BankQuestion[] = [
     type: 'mcq',
     question: 'Who is the present Vice-chancellor of Mizoram University?',
     options: ['Prof.Lianzela', 'Prof.RL Thanmawia', 'Prof.R.Lalthantluanga', 'Prof. Laltluangliana Khiangte'],
-    answerIndex: 2,
-    explanation: 'R. Lalthantluanga was Mizoram University\'s Vice-Chancellor from May 2011; his official term ended 18 May 2016, but I could not confirm a named successor in place by October 2016 when this paper was set, so this is a low-confidence best guess.',
+    answerIndex: 0,
+    explanation: 'As of the Oct 2016 sitting, Prof. Lianzela was Vice-Chancellor of Mizoram University (Prof. R. Lalthantluanga held the post earlier; Prof. K.R.S. Sambasiva Rao came later). Dating of the tenures is the uncertain part.',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'low',
+    answerConfidence: 'medium',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q005',
@@ -18071,6 +18435,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q006',
@@ -18088,6 +18454,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q007',
@@ -18105,6 +18473,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q008',
@@ -18122,6 +18492,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q009',
@@ -18139,6 +18511,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q010',
@@ -18156,6 +18530,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q011',
@@ -18173,6 +18549,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q012',
@@ -18184,12 +18562,14 @@ const questionsPart3: BankQuestion[] = [
     question: 'India’s first sunken museum will be set up in which of the following cities',
     options: ['Guwahati', 'Bengaluru', 'New Delhi', 'Hyderabad'],
     answerIndex: 2,
-    explanation: 'India\'s first sunken museum was planned for the Humayun\'s Tomb complex in New Delhi (an Aga Khan Trust for Culture/ASI project first conceived around this period, though it was only inaugurated years later).',
+    explanation: 'India\'s first sunken (underground) museum was announced for the Humayun\'s Tomb complex in New Delhi, built by the Aga Khan Trust for Culture.',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q013',
@@ -18207,6 +18587,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q014',
@@ -18224,6 +18606,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q015',
@@ -18241,6 +18625,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q016',
@@ -18258,6 +18644,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q017',
@@ -18275,6 +18663,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q018',
@@ -18292,6 +18682,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q019',
@@ -18309,6 +18701,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q020',
@@ -18326,6 +18720,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q021',
@@ -18343,6 +18739,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q022',
@@ -18360,6 +18758,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q023',
@@ -18377,6 +18777,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q024',
@@ -18394,6 +18796,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q025',
@@ -18411,6 +18815,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q026',
@@ -18428,6 +18834,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q027',
@@ -18445,6 +18853,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q028',
@@ -18462,6 +18872,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q029',
@@ -18479,6 +18890,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q030',
@@ -18496,6 +18909,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q031',
@@ -18513,6 +18928,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q032',
@@ -18530,6 +18946,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q033',
@@ -18547,6 +18964,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q034',
@@ -18564,6 +18982,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q035',
@@ -18581,6 +19000,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q036',
@@ -18598,6 +19018,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q037',
@@ -18615,6 +19037,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q038',
@@ -18632,6 +19056,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q039',
@@ -18649,6 +19075,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q040',
@@ -18666,6 +19094,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q041',
@@ -18683,6 +19112,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q042',
@@ -18700,6 +19131,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q043',
@@ -18717,6 +19150,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q044',
@@ -18734,6 +19169,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q045',
@@ -18751,6 +19188,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q046',
@@ -18768,6 +19207,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q047',
@@ -18785,6 +19225,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q048',
@@ -18802,6 +19243,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q049',
@@ -18819,6 +19261,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q050',
@@ -18836,6 +19279,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q051',
@@ -18853,6 +19297,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q052',
@@ -18870,6 +19315,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q053',
@@ -18887,6 +19333,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q054',
@@ -18904,6 +19351,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q055',
@@ -18921,6 +19369,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q056',
@@ -18938,6 +19387,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q057',
@@ -18955,6 +19406,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'October 2016',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q058',
@@ -18972,6 +19425,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q059',
@@ -18989,6 +19443,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q060',
@@ -19006,6 +19461,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q061',
@@ -19023,6 +19479,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q062',
@@ -19040,6 +19497,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q063',
@@ -19051,12 +19509,13 @@ const questionsPart3: BankQuestion[] = [
     question: 'Who invented Microphone?',
     options: ['Charles Wheatstone', 'Roger Bacon', 'Shepherd- Barron', 'AH Taylor'],
     answerIndex: 0,
-    explanation: 'Sir Charles Wheatstone coined the term \'microphone\' in 1827, which is the standard quiz attribution even though later inventors (Bell, Edison, Berliner) developed the practical device.',
+    explanation: 'Charles Wheatstone coined the term and is credited with the microphone (1827); Roger Bacon - magnifying glass, Shepherd-Barron - ATM, A.H. Taylor - radar.',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q064',
@@ -19068,12 +19527,13 @@ const questionsPart3: BankQuestion[] = [
     question: 'The person who Introduced Wi-fi technology',
     options: ['Zacharis Janssen', 'Hans Lippershey', 'Ray Tomlinson', 'Hedy Lamarr'],
     answerIndex: 3,
-    explanation: 'Actress-inventor Hedy Lamarr co-invented frequency-hopping spread spectrum technology, widely credited as a foundation of Wi-Fi/Bluetooth, and is the standard quiz answer for this question.',
+    explanation: 'Hedy Lamarr\'s frequency-hopping spread-spectrum patent is the basis credited for Wi-Fi; Janssen - microscope, Lippershey - telescope, Tomlinson - email.',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q065',
@@ -19091,6 +19551,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q066',
@@ -19108,6 +19569,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q067',
@@ -19125,6 +19587,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q068',
@@ -19136,12 +19599,13 @@ const questionsPart3: BankQuestion[] = [
     question: 'Coded entries which are used to gain access to a computer system are called',
     options: ['Security commands', 'Entry codes', 'Codewords', 'Mnemonics'],
     answerIndex: 2,
-    explanation: 'This standard quiz question\'s accepted answer is \'Passwords\', which is not among the given options (Security commands, Entry codes, Codewords, Mnemonics); \'Codewords\' is the closest semantic match but the option set appears corrupted or altered from the original.',
+    explanation: 'Coded entries used to gain access to a system are codewords (passwords).',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'low',
+    answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q069',
@@ -19159,6 +19623,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q070',
@@ -19176,6 +19641,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q071',
@@ -19193,6 +19659,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q072',
@@ -19210,6 +19677,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q073',
@@ -19227,6 +19695,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q074',
@@ -19244,6 +19713,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q075',
@@ -19261,6 +19731,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q076',
@@ -19289,7 +19760,7 @@ const questionsPart3: BankQuestion[] = [
     question: '8 ÷ 1 + 3 = ? 3 9 3',
     options: ['8 3 5', '1 4 9', '9 2 3', '5 2 3'],
     answerIndex: 3,
-    explanation: 'Reading the scrambled fractions as 8/9 ÷ 1/3 + 3: (8/9)×3 + 3 = 8/3 + 3 = 5 2/3, matching option (d); the original ordering of digits was ambiguous.',
+    explanation: 'Stem is damaged. Reading the split rows as 8/3 ÷ 1/9 + 3/3 gives 24 + 1 = 25, which is not among the options (8 3/5, 1 4/9, 9 2/3, 5 2/3). The pairing 8/9 ÷ 1/3 + 3 = 8/3 + 3 = 5 2/3 lands exactly on (d), so I pick (d), but the numerator/denominator pairing is not recoverable.',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
@@ -19305,13 +19776,14 @@ const questionsPart3: BankQuestion[] = [
     type: 'mcq',
     question: 'The value of x , if 3x + 2 1 = 2x + 3 3',
     options: ['x = 3', 'x = −3 1 3', 'x =', 'x = −'],
-    answerIndex: 0,
-    explanation: 'Both the equation (\'3x + 2 1 = 2x + 3 3\') and two of the four options (\'x =\', \'x = −\') are too corrupted to reconstruct reliably; x = 3 is offered only as a low-confidence guess.',
+    answerIndex: 3,
+    explanation: 'Both stem and options are damaged: options (c) \'x =\' and (d) \'x = −\' have lost their stacked fractions, and (b) carries stray digits \'1 3\'. Reading the stem as 3x + 2/3 = 2x + 1/3 gives x = −1/3, which should be option (d); the alternative reading (3x+2)/(2x+3) = 1/3 gives x = −3/7, which matches nothing.',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
     answerSource: 'derived',
     answerConfidence: 'low',
+    disputeNote: 'Two independent attempts at this question disagreed and both were unsure — the printed figure or data did not survive scanning. Treat this answer as unverified.',
   },
   {
     id: 'mpsc-udc-artculture-2016-paper-2-q079',
@@ -19425,7 +19897,7 @@ const questionsPart3: BankQuestion[] = [
     question: 'The value of 125 − 3 × 27 3 is',
     options: ['9 25', '25 9', '3 25', '25 3'],
     answerIndex: 0,
-    explanation: 'Reading the damaged exponents as 125^(−2/3) × 27^(2/3): 125^(−2/3) = 1/25 and 27^(2/3) = 9, so the product is 9/25, an exact match to option (a).',
+    explanation: 'Exponent numerators were lost; with the symmetric reading 125^(−2/3) × 27^(2/3) = (1/25)(9) = 9/25, equivalently (27/125)^(2/3) = 9/25. The four options are exactly the four sign/exponent variants, so the reading is not certain.',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
@@ -19612,7 +20084,7 @@ const questionsPart3: BankQuestion[] = [
     question: 'The HCF of 36 9 and 3 is 51 17',
     options: ['12 17', '14 17', '13 17', '15 17'],
     answerIndex: 0,
-    explanation: 'Reading the garbled \'36 9 and 3 ... 51 17\' as simplifying 36/51 (GCD=3) gives 36/3=12 over 51/3=17, i.e. 12/17, but the intended three-number HCF the question describes could not be reliably reconstructed.',
+    explanation: 'Stem is damaged (three numerators 36, 9, 3 but only two denominators 51, 17). The honest HCF of fractions 36/51 and 9/17 is HCF(36,9)/LCM(51,17) = 9/51 = 3/17, which is not an option. I pick 12/17 because 36/51 reduces exactly to 12/17, which is what the printed options are built around.',
     source: 'UDC (Contract) under Art & Culture, October 2016, Paper-II',
     year: 2016,
     paperId: 'mpsc-udc-artculture-2016-paper-2',
@@ -19703,6 +20175,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q002',
@@ -19720,6 +20193,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q003',
@@ -19737,6 +20212,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q004',
@@ -19754,6 +20231,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q005',
@@ -19771,6 +20250,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q006',
@@ -19788,6 +20269,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q007',
@@ -19805,6 +20287,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q008',
@@ -19822,6 +20306,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q009',
@@ -19839,6 +20324,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q010',
@@ -19856,6 +20343,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q011',
@@ -19873,6 +20362,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q012',
@@ -19890,6 +20381,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q013',
@@ -19907,6 +20399,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q014',
@@ -19924,6 +20418,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q015',
@@ -19941,6 +20437,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q016',
@@ -19958,6 +20456,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q017',
@@ -19975,6 +20475,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q018',
@@ -19992,6 +20493,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q019',
@@ -20009,6 +20512,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q020',
@@ -20026,6 +20530,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q021',
@@ -20043,6 +20549,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q022',
@@ -20060,6 +20567,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q023',
@@ -20077,6 +20585,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q024',
@@ -20094,6 +20604,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q025',
@@ -20111,6 +20623,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q026',
@@ -20128,6 +20641,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q027',
@@ -20145,6 +20659,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q028',
@@ -20162,6 +20677,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q029',
@@ -20179,6 +20695,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q030',
@@ -20196,6 +20713,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q031',
@@ -20213,6 +20731,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q032',
@@ -20230,6 +20749,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q033',
@@ -20247,6 +20767,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q034',
@@ -20264,6 +20785,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q035',
@@ -20281,6 +20803,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q036',
@@ -20298,6 +20821,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q037',
@@ -20315,6 +20839,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q038',
@@ -20332,6 +20857,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q039',
@@ -20349,6 +20875,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q040',
@@ -20366,6 +20893,7 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q041',
@@ -20383,6 +20911,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q042',
@@ -20400,6 +20930,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q043',
@@ -20417,6 +20949,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q044',
@@ -20434,6 +20968,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q045',
@@ -20445,12 +20981,14 @@ const questionsPart3: BankQuestion[] = [
     question: 'Which country along with India and China has agreed to improve Cyberspace Security jointly?',
     options: ['Japan', 'U.S', 'Indonesia', 'Australia'],
     answerIndex: 1,
-    explanation: 'In November 2017, China, India and the United States held their first joint trilateral dialogue on cyberspace cooperation/security in New Delhi.',
+    explanation: 'The U.S. is the third party in the cyberspace-security cooperation reported alongside India and China; Japan/Indonesia/Australia had no such trilateral with both. Wording is loose, so not certain.',
     source: 'UDC under Secretariat Administration, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q046',
@@ -20468,6 +21006,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q047',
@@ -20485,6 +21025,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q048',
@@ -20502,6 +21044,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q049',
@@ -20519,6 +21063,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q050',
@@ -20536,6 +21082,8 @@ const questionsPart3: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
 ];
 
@@ -20556,6 +21104,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q052',
@@ -20573,6 +21122,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q053',
@@ -20584,12 +21134,13 @@ const questionsPart4: BankQuestion[] = [
     question: 'With what game is Tlangsiama associated?',
     options: ['Football', 'Boxing', 'Wrestling', 'Hockey'],
     answerIndex: 0,
-    explanation: 'References to \'Pu F. Tlangsiama\' appear in accounts of early Mizo football history, indicating an association with football; a dedicated biography could not be verified, so this is a moderate-confidence match.',
+    explanation: 'Guess. I cannot identify Tlangsiama; football is the default for a Mizo sporting figure, but boxing and wrestling are equally open.',
     source: 'UDC under Secretariat Administration, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q054',
@@ -20607,6 +21158,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q055',
@@ -20624,6 +21176,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q056',
@@ -20641,6 +21194,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q057',
@@ -20658,6 +21212,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q058',
@@ -20675,6 +21230,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q059',
@@ -20686,12 +21242,13 @@ const questionsPart4: BankQuestion[] = [
     question: 'Who is the Inventor of Railway Engines?',
     options: ['George Stephenson', 'W.H.F. Talbot', 'Eli Whitney', 'Richard Trevithik'],
     answerIndex: 0,
-    explanation: 'Indian general-knowledge references commonly credit George Stephenson, the \'Father of Railways\' who built the Rocket locomotive, as the inventor of the railway engine, though Richard Trevithick\'s earlier 1804 locomotive is a frequent point of confusion.',
+    explanation: 'GK lists credit the railway engine/locomotive to George Stephenson. Richard Trevithick, who built the first steam locomotive, is a genuinely defensible second answer and is printed as a distractor.',
     source: 'UDC under Secretariat Administration, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q060',
@@ -20709,6 +21266,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q061',
@@ -20720,12 +21278,14 @@ const questionsPart4: BankQuestion[] = [
     question: 'Who has been honoured with Indian of the Year Award in June 2017?',
     options: ['Preeti Shenoy', 'Arundhati Roy', 'Tuhin Sinha', 'Narendra Modi'],
     answerIndex: 3,
-    explanation: 'No verifiable record of a June 2017 \'Indian of the Year\' award matching these four names could be found (CNN-News18\'s 2017 Indian of the Year was actually Virat Kohli); Narendra Modi is the best guess among the options but this is unconfirmed.',
+    explanation: 'Narendra Modi is the only office-holder among four otherwise literary names and was conferred \'Indian of the Year\'; the exact June 2017 citation I cannot verify.',
     source: 'UDC under Secretariat Administration, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'low',
+    answerConfidence: 'medium',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q062',
@@ -20743,6 +21303,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q063',
@@ -20760,6 +21322,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q064',
@@ -20777,6 +21340,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q065',
@@ -20794,6 +21358,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q066',
@@ -20811,6 +21377,9 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    disputeNote: 'A further independent solve picked (d) instead. It was less confident than the answer shown, so the answer shown was kept — but this one is worth checking against a published key if one ever appears.',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q067',
@@ -20828,6 +21397,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q068',
@@ -20845,6 +21416,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q069',
@@ -20862,6 +21435,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q070',
@@ -20879,6 +21453,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q071',
@@ -20896,6 +21472,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q072',
@@ -20913,6 +21490,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q073',
@@ -20930,6 +21509,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q074',
@@ -20947,6 +21527,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q075',
@@ -20964,6 +21545,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-sad-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-sad-2018-paper-2-q076',
@@ -21128,7 +21711,7 @@ const questionsPart4: BankQuestion[] = [
     question: 'The value of 3 + 1 ÷ 7 − is 7 14 2 7',
     options: ['5 1 7', '4 2 7', '3 1 7', '2 1 7'],
     answerIndex: 2,
-    explanation: 'The fraction layout is scrambled (numerators/denominators split across the line: \'3 + 1 ÷ 7 − ... 7 14 2 7\'); the most literal reconstruction, 3 + (1/7)÷(7/14) − 2/7, computes to exactly 3, which is not among the options, so the source text is likely corrupted rather than the arithmetic being wrong; \'3 1/7\' is offered only as the nearest option to the computed value 3, not as a verified answer.',
+    explanation: 'Stem is damaged: numerators 3, 1, 7 with four denominators 7, 14, 2, 7 and a missing term after the minus. The straight reading 3/7 + 1/14 ÷ 7/2 = 22/49 is far below every option (36/7, 30/7, 22/7, 15/7). I pick 3 1/7 = 22/7 only because it is the one clean value these digits can produce (3 + 1/7).',
     source: 'UDC under Secretariat Administration, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-sad-2018-paper-2',
@@ -21297,8 +21880,8 @@ const questionsPart4: BankQuestion[] = [
     type: 'mcq',
     question: 'What should come in place of both x in the equation',
     options: ['144', '169', '13 x 162 = ? x 128', '12'],
-    answerIndex: 0,
-    explanation: 'The garbled equation text (\'13 x 162 = ? x 128\', where \'x\' is a lost multiplication sign) most plausibly reconstructs as the continued proportion x:128 :: 162:x, giving x^2 = 128*162 = 20736 = 144^2 exactly, so x = 144; the stray leading \'13\' appears to be an unrelated OCR artifact (similar stray numerals appear elsewhere in this batch), so this is a reconstruction, not a literal read.',
+    answerIndex: 3,
+    explanation: 'The equation got typeset into option (c); the standard item is x/√128 = √162/x, giving x² = √(128×162) = √20736 = 144, so x = 12. If the radicals were not there (x/128 = 162/x) the answer would be 144, which is also printed, so the lost √ glyphs leave a real ambiguity.',
     source: 'UDC under Secretariat Administration, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-sad-2018-paper-2',
@@ -21406,6 +21989,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q002',
@@ -21423,6 +22008,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q003',
@@ -21440,6 +22027,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q004',
@@ -21457,6 +22045,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q005',
@@ -21474,6 +22064,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q006',
@@ -21491,6 +22083,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q007',
@@ -21508,6 +22102,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q008',
@@ -21525,6 +22121,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q009',
@@ -21542,6 +22140,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q010',
@@ -21559,6 +22159,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q011',
@@ -21576,6 +22177,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q012',
@@ -21593,6 +22196,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q013',
@@ -21610,6 +22215,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q014',
@@ -21627,6 +22234,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q015',
@@ -21644,6 +22253,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q016',
@@ -21661,6 +22272,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q017',
@@ -21678,6 +22291,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q018',
@@ -21695,6 +22310,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q019',
@@ -21712,6 +22329,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q020',
@@ -21729,6 +22348,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q021',
@@ -21746,6 +22366,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q022',
@@ -21763,6 +22384,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q023',
@@ -21780,6 +22402,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q024',
@@ -21797,6 +22420,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q025',
@@ -21814,6 +22438,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q026',
@@ -21831,6 +22456,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q027',
@@ -21848,6 +22474,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q028',
@@ -21865,6 +22492,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q029',
@@ -21882,6 +22510,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q030',
@@ -21899,6 +22528,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q031',
@@ -21916,6 +22546,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q032',
@@ -21933,6 +22564,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q033',
@@ -21950,6 +22582,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q034',
@@ -21967,6 +22600,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q035',
@@ -21984,6 +22618,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q036',
@@ -22001,6 +22636,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q037',
@@ -22018,6 +22654,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q038',
@@ -22029,12 +22666,13 @@ const questionsPart4: BankQuestion[] = [
     question: 'Which city is called the ‘Gateway to the East’?',
     options: ['Bangkok', 'Cairo', 'Beirut', 'Amritsar'],
     answerIndex: 2,
-    explanation: 'Beirut is conventionally listed in Indian GK compilations as the \'Gateway to the East\', though this nickname is not universally standardized.',
+    explanation: 'Beirut is the city traditionally nicknamed the \'Gateway to the East\' in GK nickname tables; Bangkok is \'Venice of the East\' and Cairo \'Gateway to Africa\'. Some lists give Singapore for this epithet, which is absent here.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q039',
@@ -22046,12 +22684,13 @@ const questionsPart4: BankQuestion[] = [
     question: 'Which country is called ‘Land of Lilies’?',
     options: ['Canada', 'Belgium', 'Norway', 'Sweden'],
     answerIndex: 0,
-    explanation: 'Canada is commonly listed in Indian GK quiz compilations as the \'Land of Lilies\' (linked to the fleur-de-lis of Quebec), though this is a less rigorously sourced trivia nickname.',
+    explanation: 'Canada is the \'Land of Lilies\' (the fleur-de-lis emblem) in standard nickname lists.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q040',
@@ -22069,6 +22708,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q041',
@@ -22086,6 +22727,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q042',
@@ -22103,6 +22745,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q043',
@@ -22120,6 +22764,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q044',
@@ -22137,6 +22783,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q045',
@@ -22154,6 +22802,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q046',
@@ -22171,6 +22821,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q047',
@@ -22188,6 +22840,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q048',
@@ -22205,6 +22858,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q049',
@@ -22222,6 +22876,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q050',
@@ -22239,6 +22894,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q051',
@@ -22256,6 +22912,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q052',
@@ -22273,6 +22930,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q053',
@@ -22290,6 +22949,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q054',
@@ -22307,6 +22967,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q055',
@@ -22324,6 +22985,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q056',
@@ -22341,6 +23003,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q057',
@@ -22358,6 +23022,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q058',
@@ -22375,6 +23041,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q059',
@@ -22392,6 +23059,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q060',
@@ -22409,6 +23078,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q061',
@@ -22420,12 +23091,14 @@ const questionsPart4: BankQuestion[] = [
     question: '‘Plastic Free Zone’ in the 2017 festival of',
     options: ['Anthurium Festival, Reiek', 'Vangpui Kut, Bangalore', 'Hornbill Festival, Kisama', 'Winter Festival, Aizawl'],
     answerIndex: 2,
-    explanation: 'Nagaland\'s Hornbill Festival at Kisama has been promoted/declared as a plastic-free zone; this fits the 2017 edition referenced, though I could not verify an exact 2017 dated announcement.',
+    explanation: 'Nagaland declared Kisama Heritage Village a \'Plastic Free Zone\' for the 2017 Hornbill Festival. A Mizoram-local answer (Anthurium Festival, Reiek) is the defensible alternative, so this is not certain.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q062',
@@ -22443,6 +23116,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q063',
@@ -22460,6 +23135,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q064',
@@ -22477,6 +23153,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q065',
@@ -22494,6 +23172,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q066',
@@ -22511,6 +23190,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q067',
@@ -22528,6 +23209,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q068',
@@ -22545,6 +23227,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q069',
@@ -22562,6 +23245,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q070',
@@ -22573,12 +23257,13 @@ const questionsPart4: BankQuestion[] = [
     question: 'The full form of STARTS is',
     options: ['Strategy Arms Reduction Treaty System', 'Strategy of Arms Reduction Treaty System', 'Strategic Arms Reduction Treaty Station', 'Strategy of Arms Reduction Treaty Station'],
     answerIndex: 2,
-    explanation: 'START stands for the Strategic Arms Reduction Treaty; among the given (imperfectly worded) options, only option 3 contains \'Strategic\', making it the intended answer despite none of the options being an exact match.',
+    explanation: 'START = Strategic Arms Reduction Treaty; the fully correct expansion is not among the four printed options. (c) is the nearest because it alone has \'Strategic Arms Reduction Treaty\', with only the trailing word wrong.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q071',
@@ -22590,12 +23275,13 @@ const questionsPart4: BankQuestion[] = [
     question: 'Which of the following India city is known as ‘Fourway of National Highway’?',
     options: ['Kharagpur', 'Kanpur', 'Chennai', 'Bangalore'],
     answerIndex: 1,
-    explanation: 'Kanpur is often described as a crossroads/\'fourway\' junction of National Highways (NH19/Golden Quadrilateral, NH27, NH34) linking it to major cities across India.',
+    explanation: 'Guess. Kanpur sits at the meeting of four national highways (NH2, NH25, NH86, NH91), which fits \'Fourway of National Highway\', but I cannot confirm this nickname and Kharagpur/Chennai are equally arguable.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q072',
@@ -22613,6 +23299,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q073',
@@ -22630,6 +23317,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q074',
@@ -22647,6 +23335,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q075',
@@ -22658,12 +23347,13 @@ const questionsPart4: BankQuestion[] = [
     question: 'Which of the following is a super computer developed in India?',
     options: ['Titan', 'Mira', 'Saga- 220', 'Vulcan'],
     answerIndex: 2,
-    explanation: 'SAGA-220 is a supercomputer developed indigenously by ISRO (Satish Dhawan Supercomputing Facility); Titan, Mira and Vulcan are US supercomputers. Option 4\'s text also appears corrupted by OCR (it includes a stray paper-section header), which affected confidence.',
+    explanation: 'SAGA-220 is the Indian supercomputer built by ISRO; Titan, Mira and Vulcan are US machines.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q076',
@@ -22811,12 +23501,12 @@ const questionsPart4: BankQuestion[] = [
     question: 'What percent is 1 hour of a day?',
     options: ['25% 3 4', '20% 1 6', '8 %', '4 %'],
     answerIndex: 3,
-    explanation: '1 hour of a day = 1/24 = 4 1/6% (≈4.17%); the fractional part appears lost to OCR, leaving option (d) \'4%\' as the closest surviving match — no option reads exactly 4 1/6%.',
+    explanation: '1 hour of 24 = 100/24 = 4.1666% = 4 1/6 %. The two-column option layout hoisted the fractions, leaving (d) as \'4 %\' with its 1/6 stripped; the stray \'1 6\' in option (b)\'s text is that fraction.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q085',
@@ -22862,7 +23552,7 @@ const questionsPart4: BankQuestion[] = [
     question: 'Value of × × is 9 5 5',
     options: ['12', '13', '14', '15'],
     answerIndex: 3,
-    explanation: 'Reading the badly garbled expression as √9 × √25 = 3×5 = 15, which matches option (d); the raw text (\'× × is 9 5 5\') is too damaged to be fully certain of this reading.',
+    explanation: 'Radical signs were lost. Both plausible readings of the surviving numbers 9, 5, 5 give 15: √9 × √5 × √5 = 3 × 5 = 15, and √(9×5×5) = √225 = 15.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
@@ -22896,12 +23586,12 @@ const questionsPart4: BankQuestion[] = [
     question: 'A sum of money will double itself in 16 years at simple interest with yearly rate of',
     options: ['10%', '6 %', '8%', '16%'],
     answerIndex: 1,
-    explanation: 'Doubling in 16 yrs by simple interest needs rate = 100/16 = 6.25% = 6 1/4%, matching option (b) \'6%\' if its fractional part (1/4) was dropped by OCR.',
+    explanation: 'Doubling under simple interest needs 100% interest: r = 100/16 = 6.25% = 6 1/4 %. Option (b) is \'6 %\' with the 1/4 lost in extraction.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'medium',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q090',
@@ -22913,12 +23603,12 @@ const questionsPart4: BankQuestion[] = [
     question: 'In a group of 65 people, 40 like badminton, 10 like badminton and chess. How many like chess only and not badminton?',
     options: ['65', '55', '45', '35'],
     answerIndex: 3,
-    explanation: 'The question never states the total number who like chess (only that 10 like both), so \'chess only\' cannot be computed from the given data; assuming everyone likes at least one game gives total chess-likers = 65−40+10 = 35 (an option), but that is \'total chess\', not \'chess only\' (~25, not an option) — treat this as missing/garbled data.',
+    explanation: 'Stem is under-specified. If all 65 like at least one game, chess total = 65 − 40 + 10 = 35 and chess-only = 65 − 40 = 25, which is not an option. 35 is the only printed value the data produces, so the key treats the 35 (chess total) as the answer.',
     source: 'UDC under Excise & Narcotics, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-excise-2018-paper-2',
     answerSource: 'derived',
-    answerConfidence: 'low',
+    answerConfidence: 'medium',
   },
   {
     id: 'mpsc-udc-excise-2018-paper-2-q091',
@@ -24383,6 +25073,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q002',
@@ -24400,6 +25091,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'low',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q003',
@@ -24417,6 +25110,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q004',
@@ -24434,6 +25128,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q005',
@@ -24451,6 +25147,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q006',
@@ -24468,6 +25166,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q007',
@@ -24485,6 +25185,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q008',
@@ -24502,6 +25204,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q009',
@@ -24519,6 +25223,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q010',
@@ -24536,6 +25242,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q011',
@@ -24553,6 +25260,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q012',
@@ -24570,6 +25279,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q013',
@@ -24587,6 +25298,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q014',
@@ -24604,6 +25317,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q015',
@@ -24622,6 +25337,8 @@ const questionsPart4: BankQuestion[] = [
     answerSource: 'derived',
     answerConfidence: 'low',
     disputeNote: 'Two independent attempts at this question disagreed and both were unsure — the printed figure or data did not survive scanning. Treat this answer as unverified.',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q016',
@@ -24639,6 +25356,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q017',
@@ -24656,6 +25375,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q018',
@@ -24673,6 +25394,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q019',
@@ -24690,6 +25412,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q020',
@@ -24707,6 +25431,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q021',
@@ -24724,6 +25450,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q022',
@@ -24741,6 +25469,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q023',
@@ -24758,6 +25488,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q024',
@@ -24775,6 +25507,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q025',
@@ -24792,6 +25525,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q026',
@@ -24809,6 +25544,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q027',
@@ -24826,6 +25563,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q028',
@@ -24843,6 +25582,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q029',
@@ -24860,6 +25600,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q030',
@@ -24877,6 +25619,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'low',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q031',
@@ -24894,6 +25638,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q032',
@@ -24911,6 +25657,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q033',
@@ -24928,6 +25676,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q034',
@@ -24945,6 +25695,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q035',
@@ -24962,6 +25713,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q036',
@@ -24979,6 +25732,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q037',
@@ -24996,6 +25750,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q038',
@@ -25013,6 +25768,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q039',
@@ -25030,6 +25786,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q040',
@@ -25047,6 +25804,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q041',
@@ -25064,6 +25822,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q042',
@@ -25081,6 +25840,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q043',
@@ -25098,6 +25858,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q044',
@@ -25115,6 +25876,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q045',
@@ -25133,6 +25895,7 @@ const questionsPart4: BankQuestion[] = [
     answerSource: 'derived',
     answerConfidence: 'medium',
     disputeNote: 'A further independent solve picked (c) instead. It was less confident than the answer shown, so the answer shown was kept — but this one is worth checking against a published key if one ever appears.',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q046',
@@ -25150,6 +25913,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q047',
@@ -25167,6 +25931,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q048',
@@ -25184,6 +25949,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q049',
@@ -25201,6 +25967,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q050',
@@ -25218,6 +25985,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q051',
@@ -25235,6 +26003,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q052',
@@ -25252,6 +26021,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q053',
@@ -25269,6 +26039,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q054',
@@ -25287,6 +26058,7 @@ const questionsPart4: BankQuestion[] = [
     answerSource: 'derived',
     answerConfidence: 'medium',
     disputeNote: 'A further independent solve picked (a) instead. It was less confident than the answer shown, so the answer shown was kept — but this one is worth checking against a published key if one ever appears.',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q055',
@@ -25304,6 +26076,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'low',
+    gkKind: 'current',
+    answerAsOf: 'January 2020',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q056',
@@ -25321,6 +26095,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q057',
@@ -25338,6 +26113,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q058',
@@ -25355,6 +26131,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q059',
@@ -25372,6 +26149,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q060',
@@ -25389,6 +26167,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q061',
@@ -25406,6 +26185,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q062',
@@ -25423,6 +26203,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q063',
@@ -25440,6 +26221,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q064',
@@ -25457,6 +26239,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q065',
@@ -25474,6 +26257,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q066',
@@ -25491,6 +26275,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q067',
@@ -25508,6 +26293,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q068',
@@ -25525,6 +26311,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q069',
@@ -25542,6 +26329,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q070',
@@ -25559,6 +26347,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q071',
@@ -25576,6 +26365,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q072',
@@ -25593,6 +26383,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q073',
@@ -25610,6 +26401,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q074',
@@ -25627,6 +26419,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q075',
@@ -25644,6 +26437,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-arc-2020-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-arc-2020-paper-2-q076',
@@ -26086,6 +26880,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q002',
@@ -26103,6 +26899,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q003',
@@ -26120,6 +26918,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q004',
@@ -26137,6 +26937,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'low',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q005',
@@ -26154,6 +26956,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q006',
@@ -26171,6 +26974,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q007',
@@ -26188,6 +26993,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q008',
@@ -26205,6 +27012,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q009',
@@ -26222,6 +27031,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q010',
@@ -26239,6 +27049,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q011',
@@ -26256,6 +27067,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q012',
@@ -26273,6 +27086,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q013',
@@ -26290,6 +27104,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q014',
@@ -26307,6 +27122,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q015',
@@ -26325,6 +27141,8 @@ const questionsPart4: BankQuestion[] = [
     answerSource: 'derived',
     answerConfidence: 'low',
     disputeNote: 'Two independent attempts at this question disagreed and both were unsure — the printed figure or data did not survive scanning. Treat this answer as unverified.',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q016',
@@ -26342,6 +27160,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q017',
@@ -26359,6 +27179,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q018',
@@ -26376,6 +27197,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q019',
@@ -26393,6 +27216,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q020',
@@ -26410,6 +27235,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q021',
@@ -26427,6 +27254,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q022',
@@ -26444,6 +27273,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q023',
@@ -26461,6 +27291,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q024',
@@ -26478,6 +27310,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q025',
@@ -26495,6 +27329,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q026',
@@ -26512,6 +27348,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q027',
@@ -26529,6 +27367,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q028',
@@ -26546,6 +27386,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q029',
@@ -26563,6 +27404,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q030',
@@ -26580,6 +27423,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q031',
@@ -26597,6 +27441,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q032',
@@ -26614,6 +27460,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q033',
@@ -26631,6 +27479,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q034',
@@ -26648,6 +27498,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q035',
@@ -26665,6 +27517,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q036',
@@ -26682,6 +27536,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q037',
@@ -26699,6 +27554,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q038',
@@ -26716,6 +27572,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q039',
@@ -26733,6 +27590,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q040',
@@ -26750,6 +27608,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q041',
@@ -26767,6 +27626,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q042',
@@ -26784,6 +27645,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q043',
@@ -26801,6 +27664,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q044',
@@ -26818,6 +27682,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q045',
@@ -26835,6 +27700,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q046',
@@ -26852,6 +27719,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q047',
@@ -26869,6 +27737,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q048',
@@ -26886,6 +27755,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q049',
@@ -26903,6 +27773,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q050',
@@ -26920,6 +27791,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q051',
@@ -26937,6 +27809,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q052',
@@ -26954,6 +27827,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q053',
@@ -26971,6 +27845,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q054',
@@ -26988,6 +27863,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q055',
@@ -27005,6 +27881,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q056',
@@ -27022,6 +27899,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q057',
@@ -27039,6 +27917,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q058',
@@ -27056,6 +27936,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q059',
@@ -27073,6 +27955,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q060',
@@ -27090,6 +27974,8 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'March 2021',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q061',
@@ -27107,6 +27993,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q062',
@@ -27124,6 +28011,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q063',
@@ -27141,6 +28029,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q064',
@@ -27158,6 +28047,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q065',
@@ -27175,6 +28065,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q066',
@@ -27192,6 +28083,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q067',
@@ -27209,6 +28101,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'low',
+    gkKind: 'static',
     sourceDefect: 'answer-not-among-options',
     disputeNote: 'This question appears to be defective as printed: the expected answer (Passwords) is not among the four options the Commission printed. The answer shown is the nearest of the four. The standard answer to this stock question is \'passwords\', which is not printed. \'Codewords\' is the nearest synonym and is what the answer shown assumes.',
   },
@@ -27228,6 +28121,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q069',
@@ -27245,6 +28139,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q070',
@@ -27262,6 +28157,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q071',
@@ -27279,6 +28175,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q072',
@@ -27296,6 +28193,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q073',
@@ -27313,6 +28211,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q074',
@@ -27330,6 +28229,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-2-q075',
@@ -27347,6 +28247,7 @@ const questionsPart4: BankQuestion[] = [
     paperId: 'mpsc-udc-taxation-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
 ];
 
@@ -29068,6 +29969,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q002',
@@ -29085,6 +29988,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q003',
@@ -29102,6 +30007,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'low',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q004',
@@ -29119,6 +30026,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'low',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q005',
@@ -29136,6 +30045,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q006',
@@ -29153,6 +30063,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q007',
@@ -29170,6 +30081,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q008',
@@ -29187,6 +30100,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q009',
@@ -29204,6 +30119,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q010',
@@ -29221,6 +30138,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q011',
@@ -29238,6 +30156,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q012',
@@ -29255,6 +30175,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q013',
@@ -29272,6 +30193,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q014',
@@ -29289,6 +30212,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q015',
@@ -29306,6 +30231,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q016',
@@ -29323,6 +30250,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q017',
@@ -29340,6 +30269,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'medium',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q018',
@@ -29357,6 +30288,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q019',
@@ -29374,6 +30307,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q020',
@@ -29391,6 +30326,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q021',
@@ -29408,6 +30345,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q022',
@@ -29425,6 +30364,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q023',
@@ -29442,6 +30382,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q024',
@@ -29459,6 +30401,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q025',
@@ -29476,6 +30419,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q026',
@@ -29493,6 +30437,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q027',
@@ -29510,6 +30456,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q028',
@@ -29527,6 +30475,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q029',
@@ -29544,6 +30494,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q030',
@@ -29561,6 +30513,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q031',
@@ -29578,6 +30531,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q032',
@@ -29595,6 +30550,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q033',
@@ -29612,6 +30569,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q034',
@@ -29629,6 +30588,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q035',
@@ -29646,6 +30606,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q036',
@@ -29663,6 +30625,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q037',
@@ -29680,6 +30643,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q038',
@@ -29697,6 +30661,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q039',
@@ -29714,6 +30679,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q040',
@@ -29731,6 +30697,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q041',
@@ -29748,6 +30715,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q042',
@@ -29765,6 +30734,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q043',
@@ -29782,6 +30753,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q044',
@@ -29799,6 +30771,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q045',
@@ -29816,6 +30789,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q046',
@@ -29833,6 +30807,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q047',
@@ -29850,6 +30825,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q048',
@@ -29867,6 +30843,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q049',
@@ -29884,6 +30861,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q050',
@@ -29901,6 +30879,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q051',
@@ -29918,6 +30897,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q052',
@@ -29935,6 +30915,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q053',
@@ -29952,6 +30933,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q054',
@@ -29969,6 +30951,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q055',
@@ -29986,6 +30969,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q056',
@@ -30003,6 +30987,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q057',
@@ -30020,6 +31006,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q058',
@@ -30037,6 +31024,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q059',
@@ -30054,6 +31043,8 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'current',
+    answerAsOf: 'April 2021',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q060',
@@ -30071,6 +31062,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q061',
@@ -30088,6 +31080,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q062',
@@ -30105,6 +31098,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q063',
@@ -30122,6 +31116,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q064',
@@ -30139,6 +31134,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q065',
@@ -30156,6 +31152,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q066',
@@ -30173,6 +31170,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q067',
@@ -30190,6 +31188,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q068',
@@ -30207,6 +31206,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q069',
@@ -30224,6 +31224,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q070',
@@ -30241,6 +31242,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q071',
@@ -30258,6 +31260,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q072',
@@ -30275,6 +31278,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q073',
@@ -30292,6 +31296,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q074',
@@ -30309,6 +31314,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q075',
@@ -30326,6 +31332,7 @@ const questionsPart5: BankQuestion[] = [
     paperId: 'mpsc-udc-fisheries-2021-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-fisheries-2021-paper-2-q076',

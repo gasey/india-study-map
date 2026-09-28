@@ -3,7 +3,8 @@ import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
 import {
   EMPTY_FILTERS, SECTION_LABEL, applyFilters, isAnswerable, sectionOf,
-  type AnswerState, type AttemptState, type Filters, type SectionId,
+  type AnswerState, type AttemptState, type Filters, type GkKindState,
+  type SectionId,
 } from './filters';
 
 // ============================================
@@ -154,6 +155,33 @@ export function FilterRail({
             on={filters.answer === v}
             count={countWith({ answer: v })}
             onClick={() => set({ answer: v })}
+          >
+            {label}
+          </Chip>
+        ))}
+      </Group>
+
+      {/* GK only. The bank runs 2016–2026, so a third of its General Knowledge
+          is current affairs whose answer was true at the sitting and is not
+          true now — worth reading as a guide to what MPSC asks, not worth
+          memorising. "Durable" is the one to revise from.
+
+          "Skip current affairs" is the one to revise from day to day; the two
+          GK-only views are for studying that section deliberately. Each chip's
+          count is now the real size of the pool it produces, so no chip can
+          promise one thing and hand back another. */}
+      <Group label="Current affairs">
+        {([
+          ['any', 'Include'],
+          ['skip-current', 'Skip'],
+          ['static', 'Durable GK only'],
+          ['current', 'Current affairs only'],
+        ] as [GkKindState, string][]).map(([v, label]) => (
+          <Chip
+            key={v}
+            on={filters.gkKind === v}
+            count={countWith({ gkKind: v })}
+            onClick={() => set({ gkKind: v })}
           >
             {label}
           </Chip>

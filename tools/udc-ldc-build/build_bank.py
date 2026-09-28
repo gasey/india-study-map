@@ -210,6 +210,7 @@ CROSSCHECKED = os.path.join(CROSS_DIR, "_resolved.json")
 RESTALE = os.path.join(BANK_REPO, "state", "restale")
 DISPUTES = os.path.join(BANK_REPO, "state", "key-disputes.json")
 OPTION_DEFECTS = os.path.join(BANK_REPO, "state", "option-defects.json")
+GK_KIND = os.path.join(BANK_REPO, "state", "gk-kind", "_resolved.json")
 
 
 def load_disputes(staged_by_paper):
@@ -525,6 +526,12 @@ def main():
 
     staged_index = {p: {q["qnum"]: q for q in d["questions"]}
                     for p, d in by_paper.items()}
+    gk_kind = {}
+    if os.path.exists(GK_KIND):
+        for qid, t in json.load(open(GK_KIND, encoding="utf-8")).items():
+            paper, _, num = qid.rpartition("::q")
+            gk_kind[(paper, int(num))] = t
+
     disputes = load_disputes(staged_index)
     option_defects = load_option_defects(staged_index)
 
@@ -593,6 +600,25 @@ def main():
             # warning survives whichever answer path ran above: it is true of the
             # PAPER, not of how we happened to answer it, and it is the thing the
             # reader most needs to know about these four questions.
+
+            # Static knowledge vs current affairs, for GK only. This bank runs
+            # 2016-2026, so a third of its GK has an answer that was true at the
+            # SITTING and is not true now -- "the new chairman of UPSC" on a 2021
+            # paper, Indore as cleanest city in 2018. Untagged falls back to
+            # static, which is why reconcile_gk_kind.py refuses to write a
+            # partial set: a missed item is shown as a bare undated fact, the
+            # exact thing this tag exists to prevent.
+            if sec == "gk":
+                t = gk_kind.get((name, q["qnum"]))
+                if t and t["kind"] == "current":
+                    rec["gkKind"] = "current"
+                    # The date comes from PAPERS above, not a second copy of it.
+                    rec["answerAsOf"] = "%s %d" % (month, year)
+                    stats["gk_current"] += 1
+                else:
+                    rec["gkKind"] = "static"
+                    stats["gk_static"] += 1
+
             odef = option_defects.get((name, q["qnum"]))
             if odef:
                 rec["sourceDefect"] = "answer-not-among-options"
@@ -728,6 +754,8 @@ def main():
     print("  unanswered: %d" % stats["unanswered"])
     print("  figureBased/unanswerable: %d" % stats["figureBased"])
     print("  source defects          : %d" % stats["sourceDefect"])
+    print("  GK static / current     : %d / %d"
+          % (stats["gk_static"], stats["gk_current"]))
     print("  official key disputed   : %d" % stats["keyDisputed"])
     print("  answers re-seated by text: %d" % stats["answers_realigned"])
     print("  answers dropped as stale : %d" % stats["answers_dropped_stale"])

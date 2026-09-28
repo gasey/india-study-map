@@ -156,6 +156,32 @@ interface BankQuestionBase {
   sourceDefect?: 'duplicate-options' | 'hand-transcribed-matching-table'
     | 'answer-not-among-options';
   /**
+   * For General Knowledge only: whether the answer is durable.
+   *
+   * `'current'` means the answer was correct AT THE SITTING and may well be
+   * wrong now — office-holders, award winners, summit venues, index rankings,
+   * "recently launched", and survey figures that get republished. This bank
+   * spans 2016–2026, so roughly a third of its GK is in that position; shown as
+   * a bare fact, those items actively mislead. Always paired with
+   * `answerAsOf`. `'static'` is history, geography, polity, science, Mizo
+   * culture — an answer that does not move.
+   *
+   * The test used when tagging: *would the correct answer be different if this
+   * same question were asked today?* Note that a year in the stem does not
+   * decide it — "the Mizo National Front uprising of 1966" is static; the year
+   * is part of the fact, not part of the news.
+   *
+   * Useful for more than a caption: current affairs from a 2016 sitting is not
+   * worth memorising for a 2026 exam, so the drill can exclude it.
+   */
+  gkKind?: 'static' | 'current';
+  /**
+   * Human-readable sitting date ("June 2018") for a `gkKind: 'current'`
+   * question, so its answer is never presented as being true now. Derived from
+   * the paper's exam date at build time.
+   */
+  answerAsOf?: string;
+  /**
    * The SOURCE PUBLICATION contradicts itself — two tables/sections of the
    * same reference (not an exam key vs. our judgment, that's `disputeNote`)
    * give different figures for what should be the same fact, e.g. a

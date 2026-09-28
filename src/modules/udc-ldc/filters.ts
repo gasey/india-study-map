@@ -21,6 +21,22 @@ import type { ProgressMap } from './useProgress';
 export type SectionId = 'gk' | 'english' | 'computer' | 'arithmetic' | 'reasoning';
 export type AnswerState = 'any' | 'answered' | 'unanswered';
 export type AttemptState = 'any' | 'never' | 'wrong' | 'correct';
+/**
+ * A fourth axis, about GK but not only about GK. Current affairs from a 2016
+ * sitting is not worth memorising for a 2026 exam, and the oldest papers hold
+ * most of it — 254 of 750 GK questions across this bank.
+ *
+ * Three distinct things a candidate actually wants, so three explicit options
+ * rather than one chip whose meaning has to be guessed:
+ *   'static'       revise GK that is still true            -> GK only, durable
+ *   'current'      see what current affairs MPSC asks       -> GK only, current
+ *   'skip-current' practise everything, minus the dead bits -> all but current GK
+ *
+ * An earlier cut had a single "GK type" axis that left non-GK sections
+ * untouched, which composes more neatly but lies: picking "Current affairs"
+ * produced a 1,301-question drill, mostly English and Arithmetic.
+ */
+export type GkKindState = 'any' | 'static' | 'current' | 'skip-current';
 
 export interface Filters {
   posts: string[];
@@ -28,11 +44,13 @@ export interface Filters {
   sections: SectionId[];
   answer: AnswerState;
   attempt: AttemptState;
+  gkKind: GkKindState;
   search: string;
 }
 
 export const EMPTY_FILTERS: Filters = {
-  posts: [], papers: [], sections: [], answer: 'any', attempt: 'any', search: '',
+  posts: [], papers: [], sections: [], answer: 'any', attempt: 'any',
+  gkKind: 'any', search: '',
 };
 
 /** topicLabel is the only section marker that survives into the bank. */
@@ -77,6 +95,19 @@ export function applyFilters(
     const answerable = isAnswerable(q);
     if (f.answer === 'answered' && !answerable) return false;
     if (f.answer === 'unanswered' && answerable) return false;
+
+    if (f.gkKind !== 'any') {
+      const isGk = sectionOf(q) === 'gk';
+      if (f.gkKind === 'skip-current') {
+        // Everything except the GK whose answer has gone stale.
+        if (isGk && q.gkKind === 'current') return false;
+      } else if (!isGk || q.gkKind !== f.gkKind) {
+        // 'static' and 'current' are GK-only views, so non-GK drops out too --
+        // otherwise the chip says "Current affairs" and hands back a drill that
+        // is mostly Arithmetic.
+        return false;
+      }
+    }
 
     if (f.attempt !== 'any') {
       const p = progress[q.id];

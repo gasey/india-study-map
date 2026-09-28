@@ -151,6 +151,18 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 {q.explanation}
               </p>
             )}
+            {q.answerAsOf && (
+              /* Current affairs. The answer was right at the SITTING and may be
+                 wrong today — an office-holder, an award, an index ranking. Sits
+                 directly under the verdict, because the caption is the whole
+                 point: without it this reads as a statement about the present,
+                 and on a 2016 paper it very often is not one. */
+              <p style={{ margin: '6px 0 0', fontSize: 12.5, color: 'var(--warn, #b06f1a)' }}>
+                <strong>Current affairs.</strong> This was the answer as of{' '}
+                {q.answerAsOf} — it may since have changed. Worth knowing as the
+                kind of thing MPSC asks, not as a fact to memorise.
+              </p>
+            )}
             {q.disputeNote && (
               /* The marked answer above is unchanged — for an official key it
                  is what the Commission would credit, and that is the thing

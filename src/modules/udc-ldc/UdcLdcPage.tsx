@@ -385,6 +385,12 @@ function BrowseView({
                             {q.explanation}
                           </div>
                         )}
+                        {isMcqQuestion(q) && q.answerAsOf && (
+                          <div style={{ fontSize: 12, marginTop: 6, color: 'var(--warn, #b06f1a)' }}>
+                            Current affairs — answer as of {q.answerAsOf}, may
+                            since have changed.
+                          </div>
+                        )}
                         {isMcqQuestion(q) && q.disputeNote && (
                           <div style={{ fontSize: 12, marginTop: 6, color: 'var(--bad, #c4462f)' }}>
                             {q.disputeNote}

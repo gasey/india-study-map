@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import { mpscUdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
-import { SECTION_LABEL, sectionOf, type SectionId } from './filters';
+import { SECTION_LABEL, optionLetter, sectionOf, type SectionId } from './filters';
 import { useAttemptState } from '@/modules/mpsc/useAttemptState';
 import { QuestionText } from './QuestionText';
 
@@ -285,7 +285,7 @@ function ExamSitting({
                               onChange={() =>
                                 patch((st) => ({ answers: { ...st.answers, [q.id]: oi } }))}
                             />
-                            <span>{'abcd'[oi]}) {o}</span>
+                            <span>{optionLetter(oi)}) {o}</span>
                           </label>
                         );
                       })}

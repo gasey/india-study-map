@@ -9,7 +9,65 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-09-29 (latest) — the written half of the exam, and 14 more papers
+## 2026-09-30 — the last paper, and options beyond (d)
+
+**What shipped.** The clerical Direct corpus is **complete: 46 papers, 3,207
+MCQ + 165 written.** The final unparsed paper landed, and the a-d option
+assumption is gone from the pipeline.
+
+**More than four options, end to end.** Four is the norm in this cadre and
+every question in the bank has four or three — MPSC does print three-option
+items, 75 of them. But nothing fixes the number, and the failure mode if a
+five-option question ever arrives was *silent*: the fifth option simply would
+not be extracted and the question would ship looking complete. Markers now run
+(a)..(h); `optionLetter()` replaces three copies of `'abcd'[i]`, which rendered
+the string "undefined" past the fourth; and the answer index is now bounded by
+**the question's own option count** at emission rather than by the constant 3 —
+which is also stricter, and catches an index pointing past a short option list.
+Verified on a synthetic paper with 2-, 4-, 5- and 6-option questions.
+
+**Three regressions on the way, none of which moved a question count.** All
+were found by diffing option text between a HEAD parse and a patched one —
+`--reparse` compares counts and sees none of this class.
+
+- LDC Paper-II 2025 q91 shipped the five words to be alphabetised *as* its
+  answer choices. The rule folding a printed list back into the stem keyed on
+  a leftover "(e) Licence" spilling past the group; once (e) was a legal
+  marker the group was clean and the rule silently stopped firing.
+- The replacement signal then swallowed all five stemless questions of UDC LDE
+  Paper-I. Those print their number alone on a line, which `num_here` does not
+  match. What separates them is Directions coverage.
+- UDC ARC Paper-II q60 prints "(d) Neither (a) nor (b)" — the inner "(a)"
+  opens a group whose whole content is `["nor", ""]`, and the four real options
+  were folded away behind it. A continuation must be a complete option set.
+
+**The last paper.** March-2010 Assistant Grade Paper-II Section B prints its
+MCQs as sub-parts of one question: the question numbers are *letters* and the
+option markers are *roman numerals*, both alphabets inverted from every other
+paper. It parses 10 MCQ + 9 worked problems against the "(10x1=10)" the paper
+declares — its 50 marks alone would have said 50. Segmenting on the option run
+is the same principle as everywhere else; the work was in the three edge cases
+(a lone `(i)` is the sub-part label, the last option runs into the next
+sub-part, one column pair prints `(i)(iii)(ii)(iv)`).
+
+It appears as a second 2010 "Paper-II" row because Section A and Section B are
+two PDFs of one printed 125-mark paper with no single staged artifact. The
+examName says which is which; `paperNumber` stays "Paper-II" for both so the
+filter chip does not grow a third value.
+
+**What's still open.**
+
+- No model answers for the 165 written prompts — deliberately. It is the part
+  of this bank where a confident wrong answer is least checkable.
+- Précis and comprehension prompts carry their passage inline in `question`;
+  the schema has a `passage` field that would render better.
+- 31 of the 165 written items have no mark figure: comprehension marks are
+  printed per sub-question with no total, and summing them disagrees with the
+  syllabus, so nothing is shown rather than a wrong number.
+
+---
+
+## 2026-09-29 — the written half of the exam, and 14 more papers
 
 **What shipped.** The clerical Direct corpus is complete: **45 papers, 3,197
 MCQ + 156 written questions**, back to March 2010. Fourteen papers were staged

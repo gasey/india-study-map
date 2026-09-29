@@ -199,6 +199,19 @@ PAPERS = {
         "mpsc-asst-2010-paper-2", "Assistant Grade under Govt. of Mizoram",
         "Assistant Grade", "Paper-II", 2010, "March", "UDC_OLD"),
 
+    # Section B of the SAME March-2010 Paper-II as the entry above, which is
+    # Section A. They are two PDFs of one printed 125-mark paper and there is
+    # no single staged artifact for it, so they appear as two rows -- the
+    # examName says which is which. paperNumber stays "Paper-II" for both,
+    # because that is what the paper is and the filter chip should not grow a
+    # third value. Its ten MCQ are printed as lettered sub-parts with roman
+    # options; the other 40 marks are nine worked problems, carried as written
+    # questions.
+    "3.Assistant Grade under GOM 2010 Paper-II": (
+        "mpsc-asst-2010-paper-2-arith",
+        "Assistant Grade under Govt. of Mizoram (Section B: Arithmetic)",
+        "Assistant Grade", "Paper-II", 2010, "March", "UDC_OLD"),
+
     # The one LDE paper in scope: its 30 questions are General English, which
     # the Direct exam also tests. The other seven LDE papers of this set are
     # departmental service rules and are excluded -- see out-of-scope.json.
@@ -247,6 +260,7 @@ MARKS_PER_QUESTION = {
     "mpsc-asst-2015-paper-2": 1,
     "mpsc-asst-2010-paper-1": 1,
     "mpsc-asst-2010-paper-2": 1,
+    "mpsc-asst-2010-paper-2-arith": 1,
     # The exception: UDC LDE Paper-I prints "All questions carry equal mark of
     # 2 each" over a 60-mark MCQ section -- 30 questions, not 60. Read from the
     # paper, which is why its blueprint came out right.
@@ -280,6 +294,13 @@ PENALTY_FROM = (2025, 8)
 MONTHS = {"January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June": 6,
           "July": 7, "August": 8, "September": 9, "October": 10, "November": 11,
           "December": 12}
+
+
+# Option letters. Four is the norm in this cadre, but nothing fixes the number,
+# so the a-d assumption is gone from the pipeline. The load-time checks below
+# can only bound the index by this alphabet -- the question's real option count
+# is not known until emission, where it IS checked against.
+LETTERS = "abcdefgh"
 
 
 def ts(v):
@@ -656,7 +677,7 @@ def load_derived(shown):
             continue
         for s in json.load(open(os.path.join(DERIVED, fn), encoding="utf-8")):
             idx = s.get("answerIndex")
-            if isinstance(idx, int) and 0 <= idx <= 3:
+            if isinstance(idx, int) and 0 <= idx < len(LETTERS):
                 add(s.get("id", ""),
                     (idx, "derived", s.get("explanation", ""), s.get("confidence"), None),
                     DERIVED)
@@ -679,7 +700,7 @@ def load_derived(shown):
                 continue
             for s in json.load(open(os.path.join(rd, fn), encoding="utf-8")):
                 idx = s.get("answerIndex")
-                if isinstance(idx, int) and 0 <= idx <= 3:
+                if isinstance(idx, int) and 0 <= idx < len(LETTERS):
                     add(s.get("id", ""),
                         (idx, "derived", s.get("explanation", ""),
                          s.get("confidence"), None),
@@ -694,11 +715,11 @@ def load_derived(shown):
                         "scanning. Treat this answer as unverified.")
             elif a.get("agreement") == "contested":
                 alt = a.get("contestedAnswerIndex")
-                if isinstance(alt, int) and 0 <= alt <= 3:
+                if isinstance(alt, int) and 0 <= alt < len(LETTERS):
                     note = ("A further independent solve picked (%s) instead. It was "
                             "less confident than the answer shown, so the answer shown "
                             "was kept — but this one is worth checking against a "
-                            "published key if one ever appears." % "abcd"[alt])
+                            "published key if one ever appears." % LETTERS[alt])
                 else:
                     note = ("A further independent solve disagreed with this answer but "
                             "was less confident, so the answer shown was kept.")
@@ -716,7 +737,7 @@ def load_derived(shown):
                 continue
             for s in json.load(open(os.path.join(RESTALE, fn), encoding="utf-8")):
                 idx = s.get("answerIndex")
-                if isinstance(idx, int) and 0 <= idx <= 3:
+                if isinstance(idx, int) and 0 <= idx < len(LETTERS):
                     add(s.get("id", ""),
                         (idx, "derived", s.get("explanation", ""),
                          s.get("confidence"), None),
@@ -735,7 +756,7 @@ def load_derived(shown):
                     a.get("stem"))
                 continue
             idx = a.get("answerIndex")
-            if isinstance(idx, int) and 0 <= idx <= 3:
+            if isinstance(idx, int) and 0 <= idx < len(LETTERS):
                 add(qid, (idx, "transcribed", "", "high", a.get("note")),
                     SOLVED_HTML, a.get("stem"))
     return recs
@@ -797,6 +818,18 @@ def main():
             qid = "%s-q%03d" % (slug, q["qnum"])
             opts = q.get("options") or []
             ans = answers.get((name, q["qnum"])) or derived.get((name, q["qnum"]))
+            # BOUND THE ANSWER BY THIS QUESTION'S OWN OPTIONS. Every check
+            # before this point can only compare the index against the option
+            # ALPHABET, because the question's options are not in scope there
+            # -- so an index of 0 on a question with an empty options array
+            # passes all of them and ships as a real answer pointing at
+            # nothing. That has happened. It is also what makes more than four
+            # options safe: the limit is the question, not the number four.
+            if ans and ans[0] is not None and not (0 <= ans[0] < len(opts)):
+                stats["answer_out_of_range"] += 1
+                print("  DROPPED out-of-range answer: %s q%d -> index %s of %d options"
+                      % (name, q["qnum"], ans[0], len(opts)))
+                ans = None
             rec = {
                 "id": qid, "subject": bsubj, "topic": topic, "topicLabel": label,
                 "difficulty": "medium", "type": "mcq",
@@ -843,7 +876,7 @@ def main():
                 # thing it can return is a placeholder index. One did: q99 of
                 # LDC Paper-II 2025 (a mirror-image item whose figures scanned
                 # as a black block) came back with answerIndex 0, which passes
-                # the build's own `0 <= idx <= 3` guard and would have shipped
+                # the build's own `0 <= idx < len(LETTERS)` guard and would have shipped
                 # as a real answer pointing at no option at all.
                 live_opts = [o for o in opts if (o or "").strip()]
                 if not q.get("unanswerable") and len(live_opts) >= 2:

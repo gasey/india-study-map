@@ -67,6 +67,18 @@ export const EMPTY_FILTERS: Filters = {
   gkKind: 'any', type: 'any', search: '',
 };
 
+/**
+ * Option letters, for display. Four is the norm in this cadre but nothing
+ * fixes the number, and `'abcd'[idx]` renders the string "undefined" for a
+ * fifth option rather than failing visibly. Exported so the three places that
+ * label an option share one table.
+ */
+export const OPTION_LETTERS = 'abcdefgh';
+
+export function optionLetter(i: number): string {
+  return OPTION_LETTERS[i] ?? String(i + 1);
+}
+
 /** topicLabel is the only section marker that survives into the bank. */
 export function sectionOf(q: BankQuestion): SectionId {
   const t = q.topicLabel.toLowerCase();

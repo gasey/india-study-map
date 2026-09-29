@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import type { BankQuestion } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
-import { isAnswerable } from './filters';
+import { isAnswerable, optionLetter } from './filters';
 import { QuestionText } from './QuestionText';
 
 // ============================================
@@ -147,7 +147,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                   display: 'flex', gap: 10,
                 }}
               >
-                <span style={{ opacity: 0.6, fontWeight: 700 }}>{'abcd'[idx]})</span>
+                <span style={{ opacity: 0.6, fontWeight: 700 }}>{optionLetter(idx)})</span>
                 <span>{o}</span>
               </button>
             );
@@ -157,7 +157,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         {answered && (
           <div style={{ marginTop: 14 }}>
             <div style={{ fontWeight: 700, color: correct ? 'var(--ok, #2e9e5b)' : 'var(--bad, #c4462f)' }}>
-              {correct ? 'Correct' : `Not quite — the answer is (${'abcd'[q.answerIndex]})`}
+              {correct ? 'Correct' : `Not quite — the answer is (${optionLetter(q.answerIndex)})`}
             </div>
             {q.explanation && (
               <p style={{ margin: '6px 0 0', fontSize: 13.5, lineHeight: 1.55, opacity: 0.9 }}>

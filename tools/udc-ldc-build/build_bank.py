@@ -100,6 +100,44 @@ PAPERS = {
     "UDC Direct under Fisheries Deptt - Paper-II": (
         "mpsc-udc-fisheries-2021-paper-2", "UDC under Fisheries Deptt.",
         "Upper Division Clerk", "Paper-II", 2021, "April", "UDC_OLD"),
+    # --- eleven more older-scheme UDC sittings, staged 2026-09-29. Department
+    # and date are read from each paper's own printed header, never from the
+    # filename: "1.UDC Paper-I" and "2.UDC Paper-II" turn out to be the two
+    # halves of the SOCIAL WELFARE sitting of June 2018, which the filenames do
+    # not say at all.
+    "1.UDC Excise Deptt. Paper-I": (
+        "mpsc-udc-excise-2018-paper-1", "UDC under Excise & Narcotics",
+        "Upper Division Clerk", "Paper-I", 2018, "June", "UDC_OLD"),
+    "1.UDC Paper-I": (
+        "mpsc-udc-socialwelfare-2018-paper-1", "UDC under Social Welfare",
+        "Upper Division Clerk", "Paper-I", 2018, "June", "UDC_OLD"),
+    "2.UDC Paper-II": (
+        "mpsc-udc-socialwelfare-2018-paper-2", "UDC under Social Welfare",
+        "Upper Division Clerk", "Paper-II", 2018, "June", "UDC_OLD"),
+    "1.UDC under Agriculture Deptt. Paper-I": (
+        "mpsc-udc-agriculture-2018-paper-1", "UDC under Agriculture (Crop Husbandry)",
+        "Upper Division Clerk", "Paper-I", 2018, "March", "UDC_OLD"),
+    "2.UDC under Agriculture Deptt. Paper-II": (
+        "mpsc-udc-agriculture-2018-paper-2", "UDC under Agriculture (Crop Husbandry)",
+        "Upper Division Clerk", "Paper-II", 2018, "March", "UDC_OLD"),
+    "1.UDC under SAD Paper-I": (
+        "mpsc-udc-sad-2018-paper-1", "UDC under Secretariat Administration",
+        "Upper Division Clerk", "Paper-I", 2018, "February", "UDC_OLD"),
+    "1.UDC under Tourism Deptt.-I": (
+        "mpsc-udc-tourism-2018-paper-1", "UDC under Tourism Deptt.",
+        "Upper Division Clerk", "Paper-I", 2018, "June", "UDC_OLD"),
+    "2.UDC under Tourism Deptt.-II": (
+        "mpsc-udc-tourism-2018-paper-2", "UDC under Tourism Deptt.",
+        "Upper Division Clerk", "Paper-II", 2018, "June", "UDC_OLD"),
+    "2.UDC Direct-2014 Health Deptt.& Co-operation Dept.Paper-II": (
+        "mpsc-udc-health-coop-2014-paper-2", "UDC under Health & Family Welfare and Co-operation",
+        "Upper Division Clerk", "Paper-II", 2014, "October", "UDC_OLD"),
+    "2.UDC under EF&CC Deptt. Paper-II": (
+        "mpsc-udc-efcc-2018-paper-2", "UDC (Contract) under Environment, Forest & Climate Change",
+        "Upper Division Clerk", "Paper-II", 2018, "February", "UDC_OLD"),
+    "UDC Direct under Taxation Deptt - Paper-I": (
+        "mpsc-udc-taxation-2021-paper-1", "UDC under Taxation Deptt.",
+        "Upper Division Clerk", "Paper-I", 2021, "March", "UDC_OLD"),
 }
 
 # Marks per MCQ, by slug. The modern clerical scheme is 2 marks a question
@@ -108,6 +146,17 @@ PAPERS = {
 # Marks 100 over 100 questions. Scoring those at 2 would show a 200-mark total
 # for a 100-mark paper and double every penalty.
 MARKS_PER_QUESTION = {
+    "mpsc-udc-excise-2018-paper-1": 1,
+    "mpsc-udc-socialwelfare-2018-paper-1": 1,
+    "mpsc-udc-socialwelfare-2018-paper-2": 1,
+    "mpsc-udc-agriculture-2018-paper-1": 1,
+    "mpsc-udc-agriculture-2018-paper-2": 1,
+    "mpsc-udc-sad-2018-paper-1": 1,
+    "mpsc-udc-tourism-2018-paper-1": 1,
+    "mpsc-udc-tourism-2018-paper-2": 1,
+    "mpsc-udc-health-coop-2014-paper-2": 1,
+    "mpsc-udc-efcc-2018-paper-2": 1,
+    "mpsc-udc-taxation-2021-paper-1": 1,
     "mpsc-udc-excise-2018-paper-2": 1,
     "mpsc-udc-artculture-2016-paper-2": 1,
     "mpsc-udc-sad-2018-paper-2": 1,
@@ -651,9 +700,16 @@ def main():
                     # The date comes from PAPERS above, not a second copy of it.
                     rec["answerAsOf"] = "%s %d" % (month, year)
                     stats["gk_current"] += 1
-                else:
+                elif t:
                     rec["gkKind"] = "static"
                     stats["gk_static"] += 1
+                else:
+                    # NOT tagged yet. Do not default to "durable" -- that is the
+                    # unsafe direction, and these newly staged 2014-2018 sittings
+                    # are full of current affairs that would then ship as undated
+                    # fact. Leave gkKind unset so the UI can say "not classified"
+                    # rather than assert the wrong one.
+                    stats["gk_untagged"] += 1
 
             odef = option_defects.get((name, q["qnum"]))
             if odef:
@@ -790,8 +846,8 @@ def main():
     print("  unanswered: %d" % stats["unanswered"])
     print("  figureBased/unanswerable: %d" % stats["figureBased"])
     print("  source defects          : %d" % stats["sourceDefect"])
-    print("  GK static / current     : %d / %d"
-          % (stats["gk_static"], stats["gk_current"]))
+    print("  GK static / current     : %d / %d   (untagged: %d)"
+          % (stats["gk_static"], stats["gk_current"], stats["gk_untagged"]))
     print("  official key disputed   : %d" % stats["keyDisputed"])
     print("  answers re-seated by text: %d" % stats["answers_realigned"])
     print("  answers dropped as stale : %d" % stats["answers_dropped_stale"])

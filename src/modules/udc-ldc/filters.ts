@@ -37,6 +37,19 @@ export type AttemptState = 'any' | 'never' | 'wrong' | 'correct';
  * produced a 1,301-question drill, mostly English and Arithmetic.
  */
 export type GkKindState = 'any' | 'static' | 'current' | 'skip-current';
+/**
+ * MCQ or written. A fifth axis because the written half is a real part of the
+ * exam and not a footnote: the UDC/Assistant Paper-I gives Essay 20 + Précis
+ * 10 + Comprehension 20 of its marks to written work, and the LDC Paper-I
+ * Essay 20 + Comprehension 30. Eight of the papers here are written THROUGHOUT
+ * — the pre-2018 clerical Paper-I had no MCQ at all.
+ *
+ * Needed in both directions. A candidate revising essay and précis prompts
+ * wants only those; a candidate drilling MCQs does not want 156 unanswerable
+ * prompts diluting the list. Neither is served by the answer/attempt axes,
+ * which are about whether an answer EXISTS, not what kind of question it is.
+ */
+export type TypeState = 'any' | 'mcq' | 'written';
 
 export interface Filters {
   posts: string[];
@@ -45,12 +58,13 @@ export interface Filters {
   answer: AnswerState;
   attempt: AttemptState;
   gkKind: GkKindState;
+  type: TypeState;
   search: string;
 }
 
 export const EMPTY_FILTERS: Filters = {
   posts: [], papers: [], sections: [], answer: 'any', attempt: 'any',
-  gkKind: 'any', search: '',
+  gkKind: 'any', type: 'any', search: '',
 };
 
 /** topicLabel is the only section marker that survives into the bank. */
@@ -91,6 +105,9 @@ export function applyFilters(
     if (f.posts.length && (!paper?.post || !f.posts.includes(paper.post))) return false;
     if (f.papers.length && (!paper?.paperNumber || !f.papers.includes(paper.paperNumber))) return false;
     if (f.sections.length && !f.sections.includes(sectionOf(q))) return false;
+
+    if (f.type === 'mcq' && !isMcqQuestion(q)) return false;
+    if (f.type === 'written' && isMcqQuestion(q)) return false;
 
     const answerable = isAnswerable(q);
     if (f.answer === 'answered' && !answerable) return false;

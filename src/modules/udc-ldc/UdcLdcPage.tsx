@@ -38,6 +38,17 @@ interface PaperStats {
   paper: ExamPaper;
   questions: BankQuestion[];
   total: number;
+  /**
+   * MCQ only, and kept apart from `total` deliberately.
+   *
+   * `total` counts everything in the paper including its written half, so
+   * using it as the denominator for ANSWERS reported "75/77" on a paper with
+   * 75 MCQ and 2 essay prompts — implying two questions were missing answers
+   * when they are questions no answer key could ever cover. Anything measuring
+   * answer coverage must divide by this, not by `total`.
+   */
+  mcqTotal: number;
+  written: number;
   answered: number;
   official: number;
   derived: number;
@@ -59,6 +70,8 @@ function useStats() {
         paper,
         questions,
         total: questions.length,
+        mcqTotal: mcq.length,
+        written: questions.length - mcq.length,
         answered: mcq.filter((q) => q.answerIndex >= 0).length,
         official: mcq.filter((q) => q.answerSource === 'official').length,
         derived: mcq.filter((q) => q.answerSource === 'derived').length,
@@ -153,6 +166,7 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
   const tot = rows.reduce(
     (a, r) => ({
       total: a.total + r.total,
+      written: a.written + r.written,
       answered: a.answered + r.answered,
       unanswerable: a.unanswerable + r.unanswerable,
       defects: a.defects + r.defects,
@@ -160,7 +174,8 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
       derived: a.derived + r.derived,
       lowConf: a.lowConf + r.lowConf,
     }),
-    { total: 0, answered: 0, unanswerable: 0, defects: 0, official: 0, derived: 0, lowConf: 0 },
+    { total: 0, written: 0, answered: 0, unanswerable: 0, defects: 0, official: 0,
+      derived: 0, lowConf: 0 },
   );
 
   return (
@@ -173,7 +188,7 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
       >
         {[
           ['Papers', String(rows.length)],
-          ['Questions', String(tot.total)],
+          ['Questions', `${tot.total - tot.written} MCQ + ${tot.written} written`],
           ['From an official key', `${tot.official}`],
           ['Solved, needs review', `${tot.lowConf}`],
         ].map(([label, value]) => (
@@ -206,7 +221,10 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
           </thead>
           <tbody>
             {rows.map((r) => {
-              const answerable = r.total - r.unanswerable;
+              // MCQ only. The written half has no answer key anywhere and
+              // never will, so counting it here reported "75/77" for a paper
+              // whose 75 MCQ are all answered.
+              const answerable = r.mcqTotal - r.unanswerable;
               return (
                 <tr key={r.paper.id} style={{ borderBottom: '1px solid var(--border, #eee)' }}>
                   <td style={{ padding: '10px' }}>
@@ -230,6 +248,13 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
                     <Bar done={r.total} total={r.total} />
                     <div style={{ fontSize: 11, opacity: 0.65, marginTop: 3 }}>
                       verified against the printed pages
+                      {r.written > 0 && (
+                        <>
+                          {' '}· {r.mcqTotal
+                            ? `${r.mcqTotal} MCQ + ${r.written} written`
+                            : `${r.written} written, no MCQ`}
+                        </>
+                      )}
                     </div>
                   </td>
                   <td style={{ padding: '10px' }}>
@@ -242,6 +267,13 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
                              the answers marked — a different and much stronger
                              thing than our own solve, so say which it is. */
                           ? `${r.transcribed} from a marked-up copy of the paper${r.lowConf ? `; ${r.lowConf} worth review` : ''}`
+                        : r.mcqTotal === 0
+                          /* Eight of these papers are written THROUGHOUT — the
+                             pre-2018 clerical Paper-I had no MCQ at all. Saying
+                             "not solved yet" of a paper with nothing to solve
+                             reads as a gap in the work rather than the shape of
+                             the exam. */
+                          ? 'nothing to answer — this paper is written throughout'
                         : r.answered === 0
                           /* Distinguish "no answers yet" from "solved without a
                              key" — both show 0 official, and calling an
@@ -299,10 +331,19 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
             Shown read-only and kept out of scored drills.
           </li>
           <li>
-            Papers before 2024 are <strong>not loaded yet</strong>: the syllabus and paper
-            structure changed over the years, so their question counts cannot be checked
-            against today&apos;s blueprint without first reconstructing the blueprint that
-            applied at the time.
+            <strong>{tot.written} questions are written, not multiple choice</strong> —
+            essay, précis, comprehension and worked arithmetic. They are a real part
+            of the exam, not an appendix: a UDC/Assistant Paper-I gives Essay 20 +
+            Précis 10 + Comprehension 20 of its marks to written work, and eight of
+            the papers here have no MCQ at all. There is no answer key for any of
+            them and none is invented — the prompt and its printed mark allocation
+            are what is shown. Filter to them under <em>Question type → Written</em>.
+          </li>
+          <li>
+            Every clerical Direct paper in the archive is now loaded, back to March
+            2010. The older sittings needed no reconstructed blueprint in the end:
+            each paper prints its own — the section headings, the marks, and whether
+            a section is answered on the OMR sheet or written out longhand.
           </li>
         </ul>
       </div>
@@ -346,8 +387,14 @@ function BrowseView({
                   {' '}· {r.paper.paperNumber} · {r.paper.year}
                 </span>
               </span>
+              {/* The count of what is SHOWN, not what the paper holds. `visible`
+                  spreads the stats row and replaces only `questions`, so `total`
+                  is still the unfiltered figure -- with the Written filter on,
+                  a paper listing two prompts announced itself as 77 questions. */}
               <span style={{ fontSize: 12, opacity: 0.7, whiteSpace: 'nowrap' }}>
-                {r.total} questions {isOpen ? '▾' : '▸'}
+                {r.questions.length}
+                {r.questions.length === r.total ? '' : ` of ${r.total}`} questions
+                {' '}{isOpen ? '▾' : '▸'}
               </span>
             </button>
 
@@ -386,6 +433,16 @@ function BrowseView({
                         )}
                         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
                           <Provenance q={q} />
+                          {/* Say what it is. Without this a written prompt
+                              reads as an MCQ whose options failed to load,
+                              which is exactly the wrong impression — nothing
+                              is missing, the paper asks for prose. The marks
+                              are the paper's own printed allocation. */}
+                          {!isMcqQuestion(q) && (
+                            <Pill tone="info">
+                              written answer{q.marks ? ` · ${q.marks} marks` : ''}
+                            </Pill>
+                          )}
                           <span style={{ fontSize: 11, opacity: 0.6 }}>{q.topicLabel}</span>
                           {progress[q.id] ? (
                             <Pill tone={progress[q.id].lastCorrect ? 'ok' : 'warn'}>

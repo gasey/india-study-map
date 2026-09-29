@@ -41,6 +41,12 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
 
   if (!pool.length) {
     const unmarkable = questions.length;
+    // Distinguish "we could not establish an answer" from "this question has
+    // no answer to establish". A written prompt is not a gap in the data, and
+    // saying the scan let us down when the candidate is looking at an essay
+    // question describes a defect that does not exist.
+    const written = questions.filter((q) => !isMcqQuestion(q)).length;
+    const allWritten = unmarkable > 0 && written === unmarkable;
     return (
       <div
         style={{
@@ -48,12 +54,18 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
           padding: '18px 20px', fontSize: 14, lineHeight: 1.6,
         }}
       >
-        <strong>Nothing here can be marked yet.</strong>
+        <strong>
+          {allWritten ? 'These are written questions.' : 'Nothing here can be marked yet.'}
+        </strong>
         <p style={{ margin: '8px 0 0', opacity: 0.85 }}>
-          {unmarkable > 0
-            ? `${unmarkable} question${unmarkable === 1 ? '' : 's'} match your filters, but none of them can be marked — either no answer could be established, or the printed options are figures the scan did not capture. A drill could not tell you whether you were right.`
-            : 'No questions match your filters.'}{' '}
-          Set <em>Answer → Has an answer</em> to practise what is ready.
+          {allWritten
+            ? `All ${unmarkable} of them ask for prose — an essay, a précis, a comprehension answer — so there is nothing for a drill to mark. Read them in Browse, where each one shows the marks the paper allots it.`
+            : unmarkable > 0
+              ? `${unmarkable} question${unmarkable === 1 ? '' : 's'} match your filters, but none of them can be marked — either no answer could be established, or the printed options are figures the scan did not capture. A drill could not tell you whether you were right.`
+              : 'No questions match your filters.'}{' '}
+          {allWritten
+            ? <>Set <em>Question type → Multiple choice</em> to practise.</>
+            : <>Set <em>Answer → Has an answer</em> to practise what is ready.</>}
         </p>
       </div>
     );

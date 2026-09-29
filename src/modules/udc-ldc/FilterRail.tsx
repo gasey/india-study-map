@@ -4,7 +4,7 @@ import type { ProgressMap } from './useProgress';
 import {
   EMPTY_FILTERS, SECTION_LABEL, applyFilters, isAnswerable, sectionOf,
   type AnswerState, type AttemptState, type Filters, type GkKindState,
-  type SectionId,
+  type SectionId, type TypeState,
 } from './filters';
 
 // ============================================
@@ -144,6 +144,27 @@ export function FilterRail({
             </Chip>
           );
         })}
+      </Group>
+
+      {/* MCQ or written. The written half is a real part of the exam, not a
+          footnote: Essay 20 + Précis 10 + Comprehension 20 on a UDC/Assistant
+          Paper-I, and the eight pre-2018 clerical Paper-Is are written
+          THROUGHOUT. Wanted in both directions — to revise essay and précis
+          prompts on their own, and to keep 156 unanswerable prompts out of an
+          MCQ drill. */}
+      <Group label="Question type">
+        {([
+          ['any', 'Any'], ['mcq', 'Multiple choice'], ['written', 'Written'],
+        ] as [TypeState, string][]).map(([v, label]) => (
+          <Chip
+            key={v}
+            on={filters.type === v}
+            count={countWith({ type: v })}
+            onClick={() => set({ type: v })}
+          >
+            {label}
+          </Chip>
+        ))}
       </Group>
 
       <Group label="Answer">

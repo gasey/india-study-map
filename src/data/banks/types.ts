@@ -224,6 +224,16 @@ export interface DescriptiveBankQuestion extends BankQuestionBase {
   wordLimit?: number;
   options?: string[];
   answerIndex?: number;
+  /**
+   * What the paper allots this written question — 25 for an essay, 10 for a
+   * précis, 2 for a short-answer item. READ from the printed mark allocation
+   * ("(25)", "(3x6=18)", "(10×1=10)"), never assigned by us, so it is safe to
+   * show as the paper's own figure. Absent where the paper printed none.
+   *
+   * Worth surfacing because it is the whole case for these questions being
+   * here: the written half is 50-60 of a clerical Paper-I's marks.
+   */
+  marks?: number;
 }
 
 export type BankQuestion = McqBankQuestion | DescriptiveBankQuestion;

@@ -139,6 +139,72 @@ PAPERS = {
     "UDC Direct under Taxation Deptt - Paper-I": (
         "mpsc-udc-taxation-2021-paper-1", "UDC under Taxation Deptt.",
         "Upper Division Clerk", "Paper-I", 2021, "March", "UDC_OLD"),
+
+    # --- staged 2026-09-29, completing the clerical Direct corpus.
+    #
+    # Three of these are the missing Paper-I of a sitting whose Paper-II was
+    # already here (Art & Culture 2016, Health/Co-operation 2014, EF&CC 2018).
+    #
+    # ⚠️ EIGHT OF THESE PAPER-Is CONTAIN NO MCQ AT ALL. Up to Feb 2018 the
+    # clerical Paper-I was a wholly written English paper -- essay, precis,
+    # idioms, sentence transformation, 125 marks. They are here for their
+    # DESCRIPTIVE items and contribute zero questions to any drill or mock.
+    # The scheme changed between Feb and Jun 2018: EF&CC (Feb) is written
+    # throughout, Excise (Jun) has the Section-A-written + 75-MCQ shape.
+    "1.UDC (contract) 2016 Art& Culture Paper-I": (
+        "mpsc-udc-artculture-2016-paper-1", "UDC (Contract) under Art & Culture",
+        "Upper Division Clerk", "Paper-I", 2016, "October", "UDC_OLD"),
+    "1.UDC (Contract) 2016-Cooperation Paper-I": (
+        "mpsc-udc-cooperation-2016-paper-1", "UDC (Contract) under Co-operation",
+        "Upper Division Clerk", "Paper-I", 2016, "October", "UDC_OLD"),
+    "2.UDC (Contract) 2016-Cooperation Paper-II": (
+        "mpsc-udc-cooperation-2016-paper-2", "UDC (Contract) under Co-operation",
+        "Upper Division Clerk", "Paper-II", 2016, "October", "UDC_OLD"),
+    "1.UDC Direct-2014 Health Deptt.& Co-operation Dept..Paper-I": (
+        "mpsc-udc-health-coop-2014-paper-1",
+        "UDC under Health & F.W. and Co-operation",
+        "Upper Division Clerk", "Paper-I", 2014, "October", "UDC_OLD"),
+    "1.UDC under EF&CC Deptt. Paper-I": (
+        "mpsc-udc-efcc-2018-paper-1", "UDC (Contract) under EF&CC",
+        "Upper Division Clerk", "Paper-I", 2018, "February", "UDC_OLD"),
+
+    # Assistant Grade, the third post of the cadre. Paper-II is General
+    # Knowledge 75 + Simple Arithmetic 50 = 125 marks, so 125 MCQ in 2018 and
+    # 75 MCQ + a written Section B in 2010/2014/2015.
+    "1.Assistant Grade Paper-I": (
+        "mpsc-asst-dpar-2018-paper-1", "Assistant Grade under DP&AR (SSW)",
+        "Assistant Grade", "Paper-I", 2018, "April", "UDC_OLD"),
+    "2.Assistant Grade Paper-II": (
+        "mpsc-asst-dpar-2018-paper-2", "Assistant Grade under DP&AR (SSW)",
+        "Assistant Grade", "Paper-II", 2018, "April", "UDC_OLD"),
+    "1.Assistant Grade-2014 under GOM Paper-I": (
+        "mpsc-asst-2014-paper-1", "Assistant Grade under Govt. of Mizoram",
+        "Assistant Grade", "Paper-I", 2014, "June", "UDC_OLD"),
+    "2.Assistant Grade-2014under GOM Paper-II": (
+        "mpsc-asst-2014-paper-2", "Assistant Grade under Govt. of Mizoram",
+        "Assistant Grade", "Paper-II", 2014, "June", "UDC_OLD"),
+    "1.Assistant Grade-2015 under GOM Paper-I": (
+        "mpsc-asst-2015-paper-1", "Assistant Grade under Govt. of Mizoram",
+        "Assistant Grade", "Paper-I", 2015, "January", "UDC_OLD"),
+    "2.Assistant Grade-2015 under GOM Paper-II": (
+        "mpsc-asst-2015-paper-2", "Assistant Grade under Govt. of Mizoram",
+        "Assistant Grade", "Paper-II", 2015, "January", "UDC_OLD"),
+    # March 2010, the oldest sitting in the bank. The Paper-II file is
+    # SECTION A ONLY (General Knowledge); its Section B is a separate PDF the
+    # parser cannot yet read -- see mpsc-question-bank/state/out-of-scope.json.
+    "1.Assistant Grade under GOM 2010 Paper-I": (
+        "mpsc-asst-2010-paper-1", "Assistant Grade under Govt. of Mizoram",
+        "Assistant Grade", "Paper-I", 2010, "March", "UDC_OLD"),
+    "2.Assistant Grade under GOM 2010 Paper-II Series A": (
+        "mpsc-asst-2010-paper-2", "Assistant Grade under Govt. of Mizoram",
+        "Assistant Grade", "Paper-II", 2010, "March", "UDC_OLD"),
+
+    # The one LDE paper in scope: its 30 questions are General English, which
+    # the Direct exam also tests. The other seven LDE papers of this set are
+    # departmental service rules and are excluded -- see out-of-scope.json.
+    "UDC LDE Paper-I.": (
+        "mpsc-udc-lde-2025-paper-1", "UDC (LDE) under Various Departments",
+        "Upper Division Clerk", "Paper-I", 2025, "August", "UDC_OLD"),
 }
 
 # Marks per MCQ, by slug. The modern clerical scheme is 2 marks a question
@@ -166,8 +232,39 @@ MARKS_PER_QUESTION = {
     "mpsc-udc-fisheries-2021-paper-1": 1,
     "mpsc-udc-fisheries-2021-paper-2": 1,
     "mpsc-udc-taxation-2021-paper-2": 1,
+    # Staged 2026-09-29. All old-scheme UDC/Assistant sittings: "All questions
+    # carry equal marks of 1 each" over a 125-mark Paper-II.
+    "mpsc-udc-artculture-2016-paper-1": 1,
+    "mpsc-udc-cooperation-2016-paper-1": 1,
+    "mpsc-udc-cooperation-2016-paper-2": 1,
+    "mpsc-udc-health-coop-2014-paper-1": 1,
+    "mpsc-udc-efcc-2018-paper-1": 1,
+    "mpsc-asst-dpar-2018-paper-1": 1,
+    "mpsc-asst-dpar-2018-paper-2": 1,
+    "mpsc-asst-2014-paper-1": 1,
+    "mpsc-asst-2014-paper-2": 1,
+    "mpsc-asst-2015-paper-1": 1,
+    "mpsc-asst-2015-paper-2": 1,
+    "mpsc-asst-2010-paper-1": 1,
+    "mpsc-asst-2010-paper-2": 1,
+    # The exception: UDC LDE Paper-I prints "All questions carry equal mark of
+    # 2 each" over a 60-mark MCQ section -- 30 questions, not 60. Read from the
+    # paper, which is why its blueprint came out right.
+    "mpsc-udc-lde-2025-paper-1": 2,
 }
 DEFAULT_MARKS = 2
+
+# Sat after the Gazette date but NOT penalised.
+#
+# Ex-582/2025 amends Schedules I-III, which are the schedules for DIRECT
+# recruitment to Assistant, UDC and LDC. mpsc-udc-lde-2025-paper-1 is a
+# Limited Departmental Examination for promotion, sat in the same month, and
+# the papers themselves bear this out: both post-Gazette DIRECT papers in this
+# bank print "negative marking" on their cover instructions, and this one does
+# not mention it at all. Scoring a candidate against a penalty their paper
+# never warned them about would be inventing a rule, so the date test alone is
+# not enough.
+NO_PENALTY = {"mpsc-udc-lde-2025-paper-1"}
 
 # our section id -> (bank subject, topic id, human label)
 SECTION = {
@@ -685,7 +782,8 @@ def main():
         if d is None:
             print("  MISSING staged paper %r (have: %s)" % (name, list(by_paper)))
             continue
-        penalised = (year, MONTHS[month]) >= PENALTY_FROM
+        penalised = ((year, MONTHS[month]) >= PENALTY_FROM
+                     and slug not in NO_PENALTY)
         penalty_by_paper[slug] = penalised
         subj = "General Studies" if pno == "Paper-I" else "Aptitude & Computer"
         papers.append({
@@ -812,6 +910,56 @@ def main():
             questions.append(rec)
             stats["total"] += 1
 
+        # ---- the written half -------------------------------------------
+        #
+        # Parsed all along and thrown away until now: 156 essay, precis,
+        # comprehension and worked-arithmetic prompts across 27 papers. They
+        # are not decoration. The UDC/Assistant Paper-I gives Essay 20 +
+        # Precis 10 + Comprehension 20 of its marks to written work and the
+        # LDC Paper-I gives Essay 20 + Comprehension 30, so a bank that drops
+        # them models about half of Paper-I as not existing -- and eight of
+        # the papers here have NO MCQ at all, so dropping them would mean
+        # staging eight papers that ship nothing.
+        #
+        # There is no answer to show. `modelAnswer` is null everywhere in the
+        # archive and nothing here invents one: these carry the prompt, its
+        # marks and its provenance, and say plainly that they are written
+        # questions. A fabricated model answer would be worse than none, this
+        # being the one part of the paper where a confident wrong answer
+        # cannot be checked against an option list.
+        #
+        # SUBJECT. Every clerical Paper-I is General English by syllabus and
+        # every descriptive item in all 26 Paper-Is here is an essay, precis,
+        # comprehension or grammar exercise; Paper-II's written half is its
+        # Section B, Simple Arithmetic. The exception is a SHORT-ANSWER item,
+        # which the parser marks `kind` and which sits inside the MCQ section
+        # rather than after it -- the 2010 Assistant Grade Paper-II prints
+        # "Write the full form of SAARC" among its General Knowledge MCQs.
+        # Those take the section they are printed in, read from the paper
+        # rather than assumed, and only where that is unambiguous.
+        mcq_sections = [s for s in (d.get("sectionCounts") or {}) if s]
+        for i, item in enumerate(d.get("descriptiveItems") or [], 1):
+            if item.get("kind") == "short-answer" and len(mcq_sections) == 1:
+                sec = mcq_sections[0]
+            else:
+                sec = "english" if pno == "Paper-I" else "arithmetic"
+            bsubj, topic, label = SECTION.get(sec, SECTION["english"])
+            drec = {
+                "id": "%s-d%02d" % (slug, item.get("qnum") or i),
+                "subject": bsubj, "topic": topic, "topicLabel": label,
+                "difficulty": "medium", "type": "descriptive",
+                "question": item["prompt"], "explanation": "",
+                "source": "%s, %s %d, %s" % (exam, month, year, pno),
+                "year": year, "paperId": slug,
+            }
+            if item.get("marks"):
+                drec["marks"] = item["marks"]
+            if item.get("kind") == "short-answer":
+                drec["_shortAnswer"] = True
+                stats["descriptive_short_answer"] += 1
+            questions.append(drec)
+            stats["descriptive"] += 1
+
     lines = ["import type { BankQuestion, ExamPaper, QuestionBank } from './types';", "",
              "// " + "=" * 58,
              "// MPSC CLERICAL CADRE (LDC / UDC / ASSISTANT GRADE) — QUESTION BANK",
@@ -925,7 +1073,9 @@ def main():
 
     print("wrote %s" % OUT)
     print("  papers    : %d" % len(papers))
-    print("  questions : %d" % stats["total"])
+    print("  questions : %d  (%d MCQ + %d written)"
+          % (stats["total"] + stats["descriptive"], stats["total"],
+             stats["descriptive"]))
     print("  official  : %d" % stats["official"])
     print("  unanswered: %d" % stats["unanswered"])
     print("  figureBased/unanswerable: %d" % stats["figureBased"])

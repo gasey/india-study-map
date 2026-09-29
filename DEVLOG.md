@@ -9,6 +9,71 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-29 (latest) — the written half of the exam, and 14 more papers
+
+**What shipped.** The clerical Direct corpus is complete: **45 papers, 3,197
+MCQ + 156 written questions**, back to March 2010. Fourteen papers were staged
+in the sibling repo this session and are now listed in `build_bank.py`, and the
+156 descriptive prompts — parsed all along and thrown away at the build — ship
+for the first time.
+
+**Why the written half matters and is not an appendix.** A UDC/Assistant
+Paper-I gives Essay 20 + Précis 10 + Comprehension 20 of its marks to written
+work, and an LDC Paper-I Essay 20 + Comprehension 30. **Eight of the papers
+here contain no MCQ at all**: up to Feb 2018 the clerical Paper-I was a wholly
+written English paper. Dropping descriptive would have meant staging eight
+papers that ship nothing, and modelling half of every Paper-I as not existing.
+
+There is no answer key for any of them and none is invented. `modelAnswer` is
+null throughout the archive; each card carries the prompt, the paper's own
+printed mark allocation, and a "written answer · N marks" badge. This is the
+one part of a paper where a confident wrong answer cannot be checked against an
+option list, so a fabricated model answer would be worse than none.
+
+**A "Question type" filter** (Any / Multiple choice / Written) was needed in
+both directions — to revise essay and précis prompts on their own, and to keep
+156 unanswerable prompts out of an MCQ drill. Practice and Exam already
+excluded them via `isMcqQuestion`, so nothing scored changed.
+
+**Three counting bugs the new data exposed, all of which the UI reported
+confidently.**
+
+- *Answers read 75/77 on a paper whose 75 MCQ are all answered.* `PaperStats.total`
+  counts everything in the paper, and it was the denominator for answer
+  coverage — so two essay prompts read as two missing answers. `mcqTotal` is
+  now separate and anything measuring answers divides by it.
+- *A paper listing two prompts announced itself as "77 questions".* Browse
+  spreads the stats row and replaces only `questions`, so `total` stayed the
+  unfiltered figure. It now reads "2 of 77".
+- *Practice blamed the scanner.* Its empty state said "no answer could be
+  established, or the printed options are figures the scan did not capture" —
+  describing a data defect where there is none. A written question is not a
+  gap; it now says so.
+
+**The status blurb was stale and is corrected.** "Papers before 2024 are not
+loaded yet ... their question counts cannot be checked against today's
+blueprint without first reconstructing the blueprint that applied at the time."
+Both halves are now false: they are all loaded, and no blueprint had to be
+reconstructed — **each paper prints its own**, in its section headings, its
+marks, and whether a section is answered on the OMR sheet or written longhand.
+
+**What's still open.**
+
+- `marks` is present on 134 of 156 items. The 22 without are comprehension
+  questions, whose marks are printed per sub-question with no total; summing
+  them gives 22 and 17 where the syllabus says 30 and 20, because some
+  sub-allocations do not terminate a line. Nothing is shown rather than a
+  figure that disagrees with the paper.
+- Précis and comprehension prompts carry their whole passage inline in
+  `question`. The schema has a `passage` field that would render better.
+- No model answers, by design for now. Generating them is a separate piece of
+  work and the place to be most careful in this whole bank.
+- One paper of the cadre remains unparsed — 2010 Paper-II Section B, whose 10
+  MCQ are sub-parts (a)..(j) with (i)-(iv) options. The parser refuses it
+  rather than bodging; see `../mpsc-question-bank/state/out-of-scope.json`.
+
+---
+
 ## 2026-09-29 (later still) — an adjudication that silently did nothing
 
 **What shipped.** The 73 weak answers from rounds 4–6 were re-solved blind by a

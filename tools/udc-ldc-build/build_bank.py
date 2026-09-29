@@ -390,9 +390,15 @@ def _norm(t):
     return re.sub(r"[^a-z0-9]", "", (t or "").lower())
 
 
-# __word__, the recovered underline -- not a _____ blank, which is a run of
-# underscores with nothing between them.
-_UNDERLINED = re.compile(r"__[^\s_][^_]*__")
+# Recovered emphasis: __word__ for an underline, *word* for italics. Not a
+# _____ blank, which is a run of underscores with nothing between them.
+#
+# BOTH marks, and that is not tidiness. When italics were added the check still
+# only knew about underlines, so ten answers produced before the markup existed
+# re-seated as though nothing had changed -- the identical failure this guard
+# was written for, two hours later, because the guard named one mark instead of
+# the category. Anything that makes a stem mean something new belongs here.
+_UNDERLINED = re.compile(r"__[^\s_][^_]*__|\*[^\s*][^*]*\*")
 
 
 def _same_question(was, stem):

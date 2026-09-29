@@ -9,6 +9,51 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-29 (later) — every solvable question now has an answer
+
+**What shipped.** Rounds 4–6 of blind solving finished: **1,006 new answers**
+(928 high, 44 medium, 34 low), taking the bank from 951 unanswered to **zero
+solvable unanswered**. The one question still without an answer is the
+mirror-image item whose four answer figures scanned as a solid black block; it
+stays unanswered and figure-flagged rather than carrying an invented choice.
+
+Solving ran on Sonnet subagents, one per 50-question batch, rather than inline —
+the task is context-free and was already measured not to need a larger model.
+`tools/SOLVE_BRIEF.md` in the bank repo carries the traps; `tools/check_round4.py`
+validates every returned batch mechanically.
+
+**Italics were lost as well as underlines.** Taxation Paper-I q1–10 say
+"Identify the Part of Speech of the words in *italics*", and no italics
+survived. Unlike underlines there is no rect to find, and the fonts are
+subsetted to `CIDFont+F1..F4` so the name says nothing — they were read off the
+**font runs** (the italic face is F3, one span per question at 54.5pt spacing)
+and confirmed against a render. All ten had been answered `low`; re-solved with
+the markup, all ten are `high`. They render as `<em>`, not `<u>`, because the
+direction on screen names the mark.
+
+**The staleness guard had to learn the new mark, and that is the lesson.** When
+italics were added the guard still only knew `__…__`, so those ten answers
+re-seated as though nothing had changed — the *identical* failure it had been
+written for two hours earlier, because it named one mark instead of the
+category. Three finds this session (mislabelled sections, lost underlines, lost
+italics) all came from a downstream consumer reporting its input looked wrong.
+No count gate sees any of them.
+
+**Also fixed.** Taxation Paper-I q60 carried the wrong Directions block: the
+paper prints overlapping ranges "51-60" and "60-68", and narrowest-covering
+picked the wrong one for a question that is plainly a preposition fill. The rule
+is now positional too — a Directions block cannot own a question printed above
+it — which leaves the case narrowest-covering was built for untouched.
+
+**What's still open.** 78 `medium`/`low` answers across rounds 4–6 have not been
+adjudicated; that is the next quality pass. Three Paper-IIs have real option
+damage the solvers reported in passing (Agriculture q81–82, Tourism
+q83/q87–90/q97/q99) where a distractor carries the next question's text. The
+Dec-2024 Group B (NG) papers are still unstaged. And `state/quarantine/` in the
+bank repo is read by nothing.
+
+---
+
 ## 2026-09-29 — 120 English questions had lost the thing they were asking about
 
 **What shipped.** Every question that asks about an *underlined* word now has
@@ -55,8 +100,7 @@ Worth weighting those reports rather than routing around them.
 - Batch emission is per-round and keyed by id **and text**. Keyed by id alone it
   would have skipped exactly the re-solves.
 
-**What's still open.** 297 unanswered, most of them the six English batches
-still running. The `medium`/`low` answers from rounds 4–5 (44 so far) have not
+**What's still open.** Nothing solvable is unanswered — see the follow-up entry above. The `medium`/`low` answers from rounds 4–5 (44 so far) have not
 been adjudicated. Three Paper-IIs have real option damage the solvers reported in
 passing — Agriculture q81–82, Tourism q83/q87–90/q97/q99 — where a distractor
 carries the next question's text. And `state/quarantine/` in the bank repo is

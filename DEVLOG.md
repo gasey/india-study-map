@@ -9,6 +9,44 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-29 (later still) — an adjudication that silently did nothing
+
+**What shipped.** The 73 weak answers from rounds 4–6 were re-solved blind by a
+second independent agent. Across all 244 adjudicated answers: **188 agreed, 28
+changed, 16 unresolved, 12 kept the prior**. The bank's medium/low count falls
+**138 → 108**, and "Solved, needs review" on the page now reads 108.
+
+**The bug worth recording is that this nearly shipped as a no-op.** The
+`solve-round*` directories were ordered *after* `adjudicate` in `load_derived`,
+and later overlays win — so every verdict was overwritten by the very answer it
+existed to correct. The only symptom was that the bank's high/medium/low counts
+did not move at all after a round that reported "96 raised to high confidence."
+Rounds are first blind passes and belong with `solve-derived`, before the
+verdicts. `build_bank.py` now **asserts** that every adjudicated answer is the
+one that ships (194/194 held), excluding official keys and transcriptions, which
+are meant to outrank a verdict. It prints the count, not just "all" — a check
+that verified nothing would otherwise print the same reassuring word.
+
+**Agreement is no longer allowed to promote a defective question.** On Assistant
+UDC Paper-II Series A q83 ("how many triangles and squares"), the adjudicator
+returned *high*, having corroborated "44 triangles, 10 squares" against a
+different well-known figure. The figure actually printed has **6 squares** — the
+four quadrants, the whole square, and the midpoint diamond — verified on a
+170 dpi render and counted independently twice. No option offers 6. Two solvers
+agreeing there means both picked the same nearest-wrong option, so
+`reconcile_adjudication.py` now caps anything in `option-defects.json` at medium.
+
+Also recorded: Tourism Paper-II q6 asks who the UN High Commissioner for Refugees
+is, on a June 2018 paper. The answer was Filippo Grandi, not printed — and the
+paper names the same man twice, (d) being a garbled rendering of (a).
+
+**What's still open.** 108 medium/low remain, most of them genuinely hard
+(Mizoram-specific facts, near-identical numeric options) rather than fixable. The
+three Paper-IIs with option damage are untouched. 15 clerical papers (~1,300
+questions) are unstaged, four of them the deferred 2010 set.
+
+---
+
 ## 2026-09-29 (later) — every solvable question now has an answer
 
 **What shipped.** Rounds 4–6 of blind solving finished: **1,006 new answers**

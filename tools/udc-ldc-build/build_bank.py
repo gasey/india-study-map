@@ -564,6 +564,30 @@ def load_derived(shown):
                     (idx, "derived", s.get("explanation", ""), s.get("confidence"), None),
                     DERIVED)
 
+    # Later solving ROUNDS sit here, with solve-derived, because they are the
+    # same kind of thing: a first blind pass over questions that had no answer.
+    # They must come BEFORE adjudicate/crosscheck/restale, which are verdicts
+    # ON a first pass and have to win.
+    #
+    # They were briefly placed after, which silently undid an entire
+    # adjudication: the 73 weak answers re-solved from rounds 4-6 were
+    # overwritten by the very answers the adjudication existed to correct, and
+    # the only symptom was that the bank's high/medium/low counts did not move
+    # at all after a round that reported 96 answers raised to high.
+    for rd in ROUND_DIRS:
+        if not os.path.isdir(rd):
+            continue
+        for fn in sorted(os.listdir(rd)):
+            if not fn.endswith(".solved.json"):
+                continue
+            for s in json.load(open(os.path.join(rd, fn), encoding="utf-8")):
+                idx = s.get("answerIndex")
+                if isinstance(idx, int) and 0 <= idx <= 3:
+                    add(s.get("id", ""),
+                        (idx, "derived", s.get("explanation", ""),
+                         s.get("confidence"), None),
+                        rd)
+
     if os.path.exists(ADJUDICATED):
         for qid, a in json.load(open(ADJUDICATED, encoding="utf-8")).items():
             note = None
@@ -600,21 +624,6 @@ def load_derived(shown):
                         (idx, "derived", s.get("explanation", ""),
                          s.get("confidence"), None),
                         RESTALE)
-
-    # Same globbed list BATCH_DIRS uses, so a new round cannot be half-wired.
-    for rd in ROUND_DIRS:
-        if not os.path.isdir(rd):
-            continue
-        for fn in sorted(os.listdir(rd)):
-            if not fn.endswith(".solved.json"):
-                continue
-            for s in json.load(open(os.path.join(rd, fn), encoding="utf-8")):
-                idx = s.get("answerIndex")
-                if isinstance(idx, int) and 0 <= idx <= 3:
-                    add(s.get("id", ""),
-                        (idx, "derived", s.get("explanation", ""),
-                         s.get("confidence"), None),
-                        rd)
 
     if os.path.exists(SOLVED_HTML):
         for qid, a in json.load(open(SOLVED_HTML, encoding="utf-8")).items():
@@ -929,6 +938,51 @@ def main():
     print("  answers unverifiable     : %d" % stats["answers_unverifiable"])
     print("  vision-corrected        : %d" % stats["vision"])
     print("  cross-series repaired   : %d" % stats["crossSeries"])
+
+    # Every adjudicated verdict must actually be the answer that ships.
+    #
+    # Adjudication is a second independent solve of the weakest answers, so if
+    # a later overlay silently overwrites it, the whole round is wasted and
+    # NOTHING says so -- the tool reports "96 raised to high confidence" and the
+    # bank's counts do not move. That is exactly what happened when the
+    # solve-round* directories were ordered after adjudicate instead of before:
+    # the 73 re-solved answers were overwritten by the very answers the round
+    # existed to correct. Counting overlays by hand is how that goes unnoticed;
+    # asserting the outcome is how it does not.
+    #
+    # An id may legitimately be absent (its question was renumbered away, or a
+    # published key outranks the verdict), so only MISMATCHES count.
+    if os.path.exists(ADJUDICATED):
+        by_id = {q["id"]: q for q in questions}
+        lost, checked = [], 0
+        for qid, a in json.load(open(ADJUDICATED, encoding="utf-8")).items():
+            paper, _, num = qid.rpartition("::q")
+            slug = (PAPERS.get(paper) or (None,))[0]
+            if not slug or not num.isdigit():
+                continue
+            rec = by_id.get("%s-q%03d" % (slug, int(num)))
+            # 'official' is a published key and 'transcribed' is the marked-up
+            # paper, which agreed 158/159 with the one key we can check it
+            # against -- far better than any solve. Both are MEANT to outrank a
+            # verdict. A grace-marked question has no correct option at all
+            # (answerIndex -1) and is also not a loss.
+            if rec is None or rec.get("answerSource") in ("official", "transcribed"):
+                continue
+            if rec["answerIndex"] == -1:
+                continue
+            checked += 1
+            if rec["answerIndex"] != a["answerIndex"]:
+                lost.append("%s: adjudicated %s, shipped %s"
+                            % (qid, a["answerIndex"], rec["answerIndex"]))
+        if lost:
+            raise SystemExit(
+                "\n%d adjudicated answers did NOT reach the bank -- a later "
+                "overlay is overwriting the verdict:\n  - %s"
+                % (len(lost), "\n  - ".join(lost[:10])))
+        # Report the COUNT, not just "all". A check that silently verified
+        # nothing would print the same reassuring word -- that has happened in
+        # this project before, with a gate pointed at an empty directory.
+        print("  adjudicated verdicts held : %d/%d" % (checked, checked))
 
 
 if __name__ == "__main__":

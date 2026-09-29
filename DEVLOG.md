@@ -9,6 +9,61 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-29 — 120 English questions had lost the thing they were asking about
+
+**What shipped.** Every question that asks about an *underlined* word now has
+its underline back — 120 of them, rendered as a real `<u>` by a new
+`QuestionText` component in the UDC/LDC module. Alongside it, **550 new answers**
+from round 4 (arithmetic and GK) and the first 150 of round 5 (English), taking
+the bank from 951 unanswered to 297.
+
+**Why.** "Identify the parts of speech of the underlined word" on *The
+population of India is less than that of China* has four plausible tested words,
+and the printed options are Adjective / Pronoun / Adverb / Verb — roughly one
+for each. Not one of those 120 questions had kept its underline: extraction
+drops it, because the rule is a filled rectangle in the page graphics rather
+than an attribute of the text. So the questions were not untidy, they were
+**ambiguous**, and a solver shown the bare sentence guesses confidently. On that
+very question it answered Pronoun, having assumed the tested word was *that*;
+the paper underlines *less* and the answer is Adjective.
+
+`tools/recover_underlines.py` in the bank repo finds the rects and the words
+sitting on them — 109 recovered geometrically, verified span-for-span against a
+render of Excise Paper-I p2. The remaining 11 are on two pure-CCITT scans where
+the underline is pixels; those were read by eye and recorded in
+`state/underline-overrides.json`, which is staleness-checked on every run.
+
+**How it was found, which matters more than the fix.** A solver agent reported
+that its input looked wrong. That is the second time this round the detector was
+a downstream consumer noticing its own input — the first was the GK tagger
+reporting that six Paper-Is had handed it English grammar. No count gate can see
+either: all 120 of these papers parse 75 of 75 with or without the underline.
+Worth weighting those reports rather than routing around them.
+
+**Three build fixes fell out of it.**
+
+- `align_answers` now drops an answer whose question has *gained* an underline.
+  It could not see this before: `_norm` strips underscores, so `Let us move
+  __on__` and `Let us move on` normalise identically, and **63 answers seated as
+  though nothing had changed** — every one produced blind to the thing being
+  asked. Stale drops went 14 → 77.
+- `state/unanswered.json` no longer lists questions marked unanswerable. Emitting
+  one handed a solver an **empty** options array, and the only thing it could
+  return was a placeholder: q99 of LDC Paper-II 2025 came back with
+  `answerIndex: 0`, which passes the build's own `0 <= idx <= 3` guard and would
+  have shipped as a real answer pointing at no option at all.
+- Batch emission is per-round and keyed by id **and text**. Keyed by id alone it
+  would have skipped exactly the re-solves.
+
+**What's still open.** 297 unanswered, most of them the six English batches
+still running. The `medium`/`low` answers from rounds 4–5 (44 so far) have not
+been adjudicated. Three Paper-IIs have real option damage the solvers reported in
+passing — Agriculture q81–82, Tourism q83/q87–90/q97/q99 — where a distractor
+carries the next question's text. And `state/quarantine/` in the bank repo is
+read by nothing; a background session spent a full run repairing a file there.
+
+---
+
 ## 2026-09-29 — the bank was asserting that Indore is the cleanest city
 
 **What shipped.** General Knowledge is now split into **durable knowledge (496)

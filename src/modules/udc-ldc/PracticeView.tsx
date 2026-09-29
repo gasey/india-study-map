@@ -3,6 +3,7 @@ import type { BankQuestion } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
 import { isAnswerable } from './filters';
+import { QuestionText } from './QuestionText';
 
 // ============================================
 // Practice drill — answer, get told, move on.
@@ -106,7 +107,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         }}
       >
         <div style={{ fontSize: 12, opacity: 0.6, marginBottom: 6 }}>{q.topicLabel}</div>
-        <div style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}>{q.question}</div>
+        <div style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} /></div>
 
         <div style={{ display: 'grid', gap: 8 }}>
           {q.options.map((o, idx) => {

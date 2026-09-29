@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { getBank } from '@/data/banks/index';
 import { mpscUdcLdcNegativeMarking } from '@/data/banks/mpsc-udc-ldc';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
+import { QuestionText } from './QuestionText';
 import type { ProgressMap } from './useProgress';
 import { isMcqQuestion } from '@/data/banks/types';
 import { useProgress } from './useProgress';
@@ -366,7 +367,7 @@ function BrowseView({
                         {i + 1}.
                       </span>
                       <div style={{ flex: 1 }}>
-                        <div style={{ marginBottom: 6 }}>{q.question}</div>
+                        <div style={{ marginBottom: 6 }}><QuestionText text={q.question} /></div>
                         {isMcqQuestion(q) && q.options.length > 0 && (
                           <ol type="a" style={{ margin: '0 0 6px', paddingLeft: 20, opacity: 0.9 }}>
                             {q.options.map((o, oi) => (

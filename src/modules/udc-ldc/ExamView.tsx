@@ -4,6 +4,7 @@ import { isMcqQuestion } from '@/data/banks/types';
 import { mpscUdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
 import { SECTION_LABEL, sectionOf, type SectionId } from './filters';
 import { useAttemptState } from '@/modules/mpsc/useAttemptState';
+import { QuestionText } from './QuestionText';
 
 // ============================================
 // Exam display — sit the paper as printed.
@@ -253,7 +254,7 @@ function ExamSitting({
                   {i + 1}.
                 </span>
                 <div style={{ flex: 1 }}>
-                  <div style={{ marginBottom: 8 }}>{q.question}</div>
+                  <div style={{ marginBottom: 8 }}><QuestionText text={q.question} /></div>
                   {unscorable ? (
                     <div style={{ fontSize: 12.5, color: 'var(--bad, #c4462f)' }}>
                       Not answerable from the source scan — excluded from the score.

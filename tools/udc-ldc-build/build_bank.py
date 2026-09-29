@@ -21,6 +21,7 @@ this bank is that a reader can tell what is known from what is inferred:
 Usage: python3 tools/udc-ldc-build/build_bank.py
 """
 
+import glob
 import json
 import os
 import re
@@ -257,6 +258,7 @@ CROSS_DIR = os.path.join(BANK_REPO, "state", "crosscheck")
 ADJUDICATED = os.path.join(ADJ_DIR, "_resolved.json")
 CROSSCHECKED = os.path.join(CROSS_DIR, "_resolved.json")
 RESTALE = os.path.join(BANK_REPO, "state", "restale")
+ROUND4 = os.path.join(BANK_REPO, "state", "solve-round4")
 SOLVED_HTML = os.path.join(BANK_REPO, "state", "solved-html", "_matched.json")
 DISPUTES = os.path.join(BANK_REPO, "state", "key-disputes.json")
 OPTION_DEFECTS = os.path.join(BANK_REPO, "state", "option-defects.json")
@@ -367,16 +369,30 @@ def load_option_defects(staged_by_paper):
 # that, a re-solve done specifically because the text was repaired gets judged
 # against the broken text it was meant to replace, fails the match, and is
 # thrown away -- which is exactly what happened to four of them.
+# Each later solving round gets its own directory, and they are globbed rather
+# than listed so adding one cannot be half-done -- registering a round here but
+# not in load_derived() (or the reverse) would silently drop or mis-seat a whole
+# round's answers. They stay SEPARATE directories, never extra files in
+# solve-derived, because batch_text() keys per directory: round 5 re-solves
+# questions round 4 already answered, against stems that have since changed, so
+# one flat directory would let the newer text decide where the older answer
+# belongs.
+ROUND_DIRS = sorted(glob.glob(os.path.join(BANK_REPO, "state", "solve-round*")))
 BATCH_DIRS = [
     os.path.join(BANK_REPO, "state", "solve-derived"),
     os.path.join(BANK_REPO, "state", "adjudicate"),
     os.path.join(BANK_REPO, "state", "crosscheck"),
     os.path.join(BANK_REPO, "state", "restale"),
-]
+] + ROUND_DIRS
 
 
 def _norm(t):
     return re.sub(r"[^a-z0-9]", "", (t or "").lower())
+
+
+# __word__, the recovered underline -- not a _____ blank, which is a run of
+# underscores with nothing between them.
+_UNDERLINED = re.compile(r"__[^\s_][^_]*__")
 
 
 def _same_question(was, stem):
@@ -474,6 +490,18 @@ def align_answers(records, staged_by_paper):
             unverifiable += 1
             aligned[(paper, qnum)] = val
             continue
+        # An underline that has since been RECOVERED makes this a different
+        # question, and _norm cannot see it: it strips underscores, so
+        # "Let us move __on__" and "Let us move on" normalise identically and
+        # the answer seats as though nothing changed. But the underline IS the
+        # question -- without it the solver was choosing among four plausible
+        # tested words, and on "The population of India is less than that of
+        # China" it picked Pronoun for "that" where the paper underlines "less".
+        # Drop those so they are re-solved against the marked-up stem.
+        now = stems.get(qnum, "")
+        if _UNDERLINED.search(now or "") and not _UNDERLINED.search(was):
+            dropped += 1
+            continue
         if _same_question(was, stems.get(qnum, "")):
             aligned[(paper, qnum)] = val
             continue
@@ -567,6 +595,21 @@ def load_derived(shown):
                          s.get("confidence"), None),
                         RESTALE)
 
+    # Same globbed list BATCH_DIRS uses, so a new round cannot be half-wired.
+    for rd in ROUND_DIRS:
+        if not os.path.isdir(rd):
+            continue
+        for fn in sorted(os.listdir(rd)):
+            if not fn.endswith(".solved.json"):
+                continue
+            for s in json.load(open(os.path.join(rd, fn), encoding="utf-8")):
+                idx = s.get("answerIndex")
+                if isinstance(idx, int) and 0 <= idx <= 3:
+                    add(s.get("id", ""),
+                        (idx, "derived", s.get("explanation", ""),
+                         s.get("confidence"), None),
+                        rd)
+
     if os.path.exists(SOLVED_HTML):
         for qid, a in json.load(open(SOLVED_HTML, encoding="utf-8")).items():
             if a.get("compensated"):
@@ -592,6 +635,7 @@ def main():
     derived = load_derived(shown)
     papers, questions = [], []
     penalty_by_paper = {}
+    unanswered = []
     stats = Counter()
 
     # Index staged files by their own `paper` field: cross_series.py names its
@@ -673,6 +717,27 @@ def main():
                     stats["derived_" + (ans[3] or "unrated")] += 1
             else:
                 stats["unanswered"] += 1
+                # Dumped for the solver to pick up. This is the AUTHORITATIVE
+                # unanswered set and it cannot be reproduced by diffing the
+                # solve dirs against staged: derived answers are seated by TEXT,
+                # so a record whose stem was later repaired does not seat and
+                # its question is unanswered despite having a solve record.
+                # Deriving the list any other way re-solves the wrong questions.
+                # ...unless there is nothing to solve. A question already marked
+                # unanswerable, or left with fewer than two readable options, is
+                # not work in flight -- it is a known hole. Listing it sends a
+                # solver a question with an EMPTY options array, and the only
+                # thing it can return is a placeholder index. One did: q99 of
+                # LDC Paper-II 2025 (a mirror-image item whose figures scanned
+                # as a black block) came back with answerIndex 0, which passes
+                # the build's own `0 <= idx <= 3` guard and would have shipped
+                # as a real answer pointing at no option at all.
+                live_opts = [o for o in opts if (o or "").strip()]
+                if not q.get("unanswerable") and len(live_opts) >= 2:
+                    unanswered.append({"id": "%s::q%d" % (name, q["qnum"]),
+                                       "paper": name, "qnum": q["qnum"],
+                                       "section": sec, "direction": q.get("direction"),
+                                       "question": q["stem"], "options": opts})
             # A list of four EMPTY STRINGS is not four options. The staging gate
             # counts list length, so nine questions passed "4opt" with blanks --
             # two of them blank in all four slots. A student cannot choose
@@ -838,6 +903,10 @@ def main():
     ]
     with open(OUT, "w") as f:
         f.write("\n".join(lines))
+
+    unans_out = os.path.join(BANK_REPO, "state", "unanswered.json")
+    json.dump(unanswered, open(unans_out, "w", encoding="utf-8"),
+              indent=1, ensure_ascii=False)
 
     print("wrote %s" % OUT)
     print("  papers    : %d" % len(papers))

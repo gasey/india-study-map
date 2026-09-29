@@ -34057,6 +34057,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q002',
@@ -34072,6 +34074,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q003',
@@ -34087,6 +34091,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q004',
@@ -34102,6 +34107,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q005',
@@ -34117,6 +34123,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q006',
@@ -34132,6 +34140,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q007',
@@ -34147,6 +34157,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q008',
@@ -34162,6 +34173,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q009',
@@ -34177,6 +34190,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q010',
@@ -34192,6 +34207,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q011',
@@ -34207,6 +34224,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q012',
@@ -34222,6 +34241,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q013',
@@ -34237,6 +34257,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q014',
@@ -34252,6 +34273,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q015',
@@ -34267,6 +34290,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q016',
@@ -34282,6 +34307,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q017',
@@ -34297,6 +34324,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q018',
@@ -34312,6 +34340,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q019',
@@ -34327,6 +34356,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q020',
@@ -34342,6 +34372,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q021',
@@ -34357,6 +34389,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q022',
@@ -34372,6 +34405,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q023',
@@ -34387,6 +34421,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q024',
@@ -34402,6 +34437,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q025',
@@ -34417,6 +34453,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q026',
@@ -34432,6 +34469,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q027',
@@ -34447,6 +34485,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q028',
@@ -34462,6 +34502,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q029',
@@ -34477,6 +34519,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q030',
@@ -34492,6 +34535,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q031',
@@ -34507,6 +34551,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q032',
@@ -34522,6 +34567,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q033',
@@ -34537,6 +34583,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q034',
@@ -34552,6 +34599,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q035',
@@ -34567,6 +34615,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q036',
@@ -34582,6 +34631,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q037',
@@ -34597,6 +34647,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q038',
@@ -34612,6 +34663,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q039',
@@ -34627,6 +34680,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q040',
@@ -34642,6 +34696,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q041',
@@ -34657,6 +34712,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q042',
@@ -34672,6 +34729,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q043',
@@ -34687,6 +34745,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q044',
@@ -34702,6 +34761,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q045',
@@ -34717,6 +34777,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q046',
@@ -34732,6 +34793,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q047',
@@ -34747,6 +34810,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q048',
@@ -34762,6 +34826,7 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q049',
@@ -34777,6 +34842,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q050',
@@ -34792,6 +34859,8 @@ const questionsPart5: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
 ];
 
@@ -34810,6 +34879,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q052',
@@ -34825,6 +34896,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q053',
@@ -34840,6 +34913,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q054',
@@ -34855,6 +34930,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q055',
@@ -34870,6 +34947,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q056',
@@ -34885,6 +34964,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q057',
@@ -34900,6 +34980,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q058',
@@ -34915,6 +34997,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q059',
@@ -34930,6 +35013,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q060',
@@ -34945,6 +35030,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q061',
@@ -34960,6 +35047,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q062',
@@ -34975,6 +35064,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q063',
@@ -34990,6 +35081,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q064',
@@ -35005,6 +35098,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q065',
@@ -35020,6 +35114,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q066',
@@ -35035,6 +35130,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q067',
@@ -35050,6 +35146,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q068',
@@ -35065,6 +35162,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q069',
@@ -35080,6 +35178,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q070',
@@ -35095,6 +35194,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q071',
@@ -35110,6 +35210,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q072',
@@ -35125,6 +35226,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q073',
@@ -35140,6 +35242,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q074',
@@ -35155,6 +35258,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q075',
@@ -35170,6 +35274,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Social Welfare, June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-socialwelfare-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-socialwelfare-2018-paper-2-q076',
@@ -36685,6 +36790,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q002',
@@ -36700,6 +36807,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q003',
@@ -36715,6 +36824,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q004',
@@ -36730,6 +36841,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q005',
@@ -36745,6 +36858,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q006',
@@ -36760,6 +36874,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q007',
@@ -36775,6 +36891,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q008',
@@ -36790,6 +36908,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q009',
@@ -36805,6 +36925,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q010',
@@ -36820,6 +36942,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q011',
@@ -36835,6 +36958,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q012',
@@ -36850,6 +36974,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q013',
@@ -36865,6 +36990,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q014',
@@ -36880,6 +37006,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q015',
@@ -36895,6 +37022,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q016',
@@ -36910,6 +37039,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q017',
@@ -36925,6 +37056,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q018',
@@ -36940,6 +37073,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q019',
@@ -36955,6 +37089,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q020',
@@ -36970,6 +37105,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q021',
@@ -36985,6 +37122,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q022',
@@ -37000,6 +37138,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q023',
@@ -37015,6 +37154,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q024',
@@ -37030,6 +37170,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q025',
@@ -37045,6 +37186,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q026',
@@ -37060,6 +37202,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q027',
@@ -37075,6 +37219,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q028',
@@ -37090,6 +37236,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q029',
@@ -37105,6 +37252,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q030',
@@ -37120,6 +37269,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q031',
@@ -37135,6 +37285,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q032',
@@ -37150,6 +37301,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q033',
@@ -37165,6 +37317,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q034',
@@ -37180,6 +37334,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q035',
@@ -37195,6 +37351,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q036',
@@ -37210,6 +37368,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q037',
@@ -37225,6 +37385,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q038',
@@ -37240,6 +37401,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q039',
@@ -37255,6 +37418,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q040',
@@ -37270,6 +37434,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q041',
@@ -37285,6 +37451,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q042',
@@ -37300,6 +37467,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q043',
@@ -37315,6 +37484,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q044',
@@ -37330,6 +37501,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q045',
@@ -37345,6 +37518,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q046',
@@ -37360,6 +37534,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q047',
@@ -37375,6 +37551,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q048',
@@ -37390,6 +37568,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q049',
@@ -37405,6 +37585,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q050',
@@ -37420,6 +37601,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q051',
@@ -37435,6 +37617,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q052',
@@ -37450,6 +37633,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q053',
@@ -37465,6 +37650,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q054',
@@ -37480,6 +37666,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q055',
@@ -37495,6 +37682,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q056',
@@ -37510,6 +37698,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q057',
@@ -37525,6 +37714,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q058',
@@ -37540,6 +37730,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q059',
@@ -37555,6 +37746,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q060',
@@ -37570,6 +37762,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q061',
@@ -37585,6 +37778,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q062',
@@ -37600,6 +37795,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q063',
@@ -37615,6 +37811,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q064',
@@ -37630,6 +37828,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q065',
@@ -37645,6 +37844,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q066',
@@ -37660,6 +37860,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q067',
@@ -37675,6 +37876,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q068',
@@ -37690,6 +37893,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'March 2018',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q069',
@@ -37705,6 +37910,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q070',
@@ -37720,6 +37926,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q071',
@@ -37735,6 +37942,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q072',
@@ -37750,6 +37958,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q073',
@@ -37765,6 +37974,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q074',
@@ -37780,6 +37990,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q075',
@@ -37795,6 +38006,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Agriculture (Crop Husbandry), March 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-agriculture-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-agriculture-2018-paper-2-q076',
@@ -40435,6 +40647,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q002',
@@ -40450,6 +40664,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q003',
@@ -40465,6 +40681,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q004',
@@ -40480,6 +40698,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q005',
@@ -40495,6 +40715,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q006',
@@ -40510,6 +40732,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q007',
@@ -40525,6 +40749,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q008',
@@ -40540,6 +40766,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q009',
@@ -40555,6 +40782,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q010',
@@ -40570,6 +40798,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q011',
@@ -40585,6 +40815,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q012',
@@ -40600,6 +40831,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q013',
@@ -40615,6 +40847,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q014',
@@ -40630,6 +40863,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q015',
@@ -40645,6 +40880,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q016',
@@ -40660,6 +40896,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q017',
@@ -40675,6 +40912,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q018',
@@ -40690,6 +40928,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q019',
@@ -40705,6 +40944,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q020',
@@ -40720,6 +40960,8 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q021',
@@ -40735,6 +40977,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q022',
@@ -40750,6 +40993,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q023',
@@ -40765,6 +41009,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q024',
@@ -40780,6 +41025,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q025',
@@ -40795,6 +41041,7 @@ const questionsPart6: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
 ];
 
@@ -40813,6 +41060,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q027',
@@ -40828,6 +41076,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q028',
@@ -40843,6 +41092,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q029',
@@ -40858,6 +41109,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q030',
@@ -40873,6 +41126,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q031',
@@ -40888,6 +41142,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q032',
@@ -40903,6 +41159,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q033',
@@ -40918,6 +41176,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q034',
@@ -40933,6 +41193,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q035',
@@ -40948,6 +41210,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q036',
@@ -40963,6 +41227,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q037',
@@ -40978,6 +41244,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q038',
@@ -40993,6 +41261,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q039',
@@ -41008,6 +41278,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q040',
@@ -41023,6 +41295,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q041',
@@ -41038,6 +41312,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q042',
@@ -41053,6 +41328,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q043',
@@ -41068,6 +41344,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q044',
@@ -41083,6 +41360,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q045',
@@ -41098,6 +41376,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q046',
@@ -41113,6 +41392,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q047',
@@ -41128,6 +41408,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q048',
@@ -41143,6 +41424,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q049',
@@ -41158,6 +41440,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q050',
@@ -41173,6 +41456,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q051',
@@ -41188,6 +41472,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q052',
@@ -41203,6 +41488,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q053',
@@ -41218,6 +41504,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q054',
@@ -41233,6 +41520,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q055',
@@ -41248,6 +41537,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q056',
@@ -41263,6 +41554,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q057',
@@ -41278,6 +41571,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q058',
@@ -41293,6 +41588,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q059',
@@ -41308,6 +41604,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q060',
@@ -41323,6 +41621,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q061',
@@ -41338,6 +41638,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q062',
@@ -41353,6 +41655,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q063',
@@ -41368,6 +41671,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q064',
@@ -41383,6 +41688,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q065',
@@ -41398,6 +41705,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q066',
@@ -41413,6 +41721,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q067',
@@ -41428,6 +41737,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q068',
@@ -41443,6 +41753,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q069',
@@ -41458,6 +41769,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q070',
@@ -41473,6 +41785,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q071',
@@ -41488,6 +41801,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'June 2018',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q072',
@@ -41503,6 +41818,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q073',
@@ -41518,6 +41834,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q074',
@@ -41533,6 +41850,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q075',
@@ -41548,6 +41866,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Tourism Deptt., June 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-tourism-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-tourism-2018-paper-2-q076',
@@ -41938,6 +42257,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q002',
@@ -41953,6 +42274,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q003',
@@ -41968,6 +42291,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q004',
@@ -41983,6 +42307,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q005',
@@ -41998,6 +42323,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q006',
@@ -42013,6 +42339,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q007',
@@ -42028,6 +42356,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q008',
@@ -42043,6 +42373,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q009',
@@ -42058,6 +42390,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q010',
@@ -42073,6 +42407,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q011',
@@ -42088,6 +42424,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q012',
@@ -42103,6 +42440,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q013',
@@ -42118,6 +42456,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q014',
@@ -42133,6 +42473,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q015',
@@ -42148,6 +42489,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q016',
@@ -42163,6 +42505,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q017',
@@ -42178,6 +42522,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q018',
@@ -42193,6 +42539,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q019',
@@ -42208,6 +42555,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q020',
@@ -42223,6 +42572,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q021',
@@ -42238,6 +42589,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q022',
@@ -42253,6 +42605,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q023',
@@ -42268,6 +42622,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q024',
@@ -42283,6 +42638,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q025',
@@ -42298,6 +42654,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q026',
@@ -42313,6 +42671,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q027',
@@ -42328,6 +42687,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q028',
@@ -42343,6 +42704,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q029',
@@ -42358,6 +42721,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q030',
@@ -42373,6 +42738,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q031',
@@ -42388,6 +42755,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q032',
@@ -42403,6 +42772,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q033',
@@ -42418,6 +42788,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q034',
@@ -42433,6 +42804,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q035',
@@ -42448,6 +42820,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q036',
@@ -42463,6 +42836,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q037',
@@ -42478,6 +42853,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q038',
@@ -42493,6 +42870,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q039',
@@ -42508,6 +42887,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q040',
@@ -42523,6 +42904,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q041',
@@ -42538,6 +42920,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q042',
@@ -42553,6 +42937,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q043',
@@ -42568,6 +42954,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q044',
@@ -42583,6 +42971,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q045',
@@ -42598,6 +42988,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q046',
@@ -42613,6 +43005,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q047',
@@ -42628,6 +43021,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q048',
@@ -42643,6 +43037,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q049',
@@ -42658,6 +43053,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q050',
@@ -42673,6 +43069,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q051',
@@ -42688,6 +43085,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q052',
@@ -42703,6 +43101,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q053',
@@ -42718,6 +43117,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q054',
@@ -42733,6 +43133,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q055',
@@ -42748,6 +43149,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q056',
@@ -42763,6 +43165,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q057',
@@ -42778,6 +43182,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q058',
@@ -42793,6 +43198,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q059',
@@ -42808,6 +43214,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q060',
@@ -42823,6 +43231,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q061',
@@ -42838,6 +43247,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q062',
@@ -42853,6 +43263,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q063',
@@ -42868,6 +43279,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q064',
@@ -42883,6 +43295,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q065',
@@ -42898,6 +43311,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q066',
@@ -42913,6 +43328,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q067',
@@ -42928,6 +43344,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q068',
@@ -42943,6 +43360,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q069',
@@ -42958,6 +43376,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q070',
@@ -42973,6 +43392,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'October 2014',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q071',
@@ -42988,6 +43409,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q072',
@@ -43003,6 +43425,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q073',
@@ -43018,6 +43441,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q074',
@@ -43033,6 +43457,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q075',
@@ -43048,6 +43473,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC under Health & Family Welfare and Co-operation, October 2014, Paper-II',
     year: 2014,
     paperId: 'mpsc-udc-health-coop-2014-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-health-coop-2014-paper-2-q076',
@@ -43438,6 +43864,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q002',
@@ -43453,6 +43881,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q003',
@@ -43468,6 +43898,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q004',
@@ -43483,6 +43915,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q005',
@@ -43498,6 +43931,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q006',
@@ -43513,6 +43948,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q007',
@@ -43528,6 +43965,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q008',
@@ -43543,6 +43982,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q009',
@@ -43558,6 +43998,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q010',
@@ -43573,6 +44015,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q011',
@@ -43588,6 +44032,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q012',
@@ -43603,6 +44048,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q013',
@@ -43618,6 +44065,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q014',
@@ -43633,6 +44082,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q015',
@@ -43648,6 +44098,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q016',
@@ -43663,6 +44115,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q017',
@@ -43678,6 +44132,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q018',
@@ -43693,6 +44149,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q019',
@@ -43708,6 +44166,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q020',
@@ -43723,6 +44183,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q021',
@@ -43738,6 +44200,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q022',
@@ -43753,6 +44217,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q023',
@@ -43768,6 +44233,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q024',
@@ -43783,6 +44250,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q025',
@@ -43798,6 +44266,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q026',
@@ -43813,6 +44283,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q027',
@@ -43828,6 +44300,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q028',
@@ -43843,6 +44317,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q029',
@@ -43858,6 +44334,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q030',
@@ -43873,6 +44351,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q031',
@@ -43888,6 +44367,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q032',
@@ -43903,6 +44383,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q033',
@@ -43918,6 +44399,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q034',
@@ -43933,6 +44415,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q035',
@@ -43948,6 +44431,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q036',
@@ -43963,6 +44447,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q037',
@@ -43978,6 +44464,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q038',
@@ -43993,6 +44481,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q039',
@@ -44008,6 +44498,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q040',
@@ -44023,6 +44514,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q041',
@@ -44038,6 +44531,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q042',
@@ -44053,6 +44547,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q043',
@@ -44068,6 +44563,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q044',
@@ -44083,6 +44579,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q045',
@@ -44098,6 +44596,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q046',
@@ -44113,6 +44613,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q047',
@@ -44128,6 +44629,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q048',
@@ -44143,6 +44645,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q049',
@@ -44158,6 +44661,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q050',
@@ -44173,6 +44677,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q051',
@@ -44188,6 +44693,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q052',
@@ -44203,6 +44709,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q053',
@@ -44218,6 +44725,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q054',
@@ -44233,6 +44741,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q055',
@@ -44248,6 +44757,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q056',
@@ -44263,6 +44773,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q057',
@@ -44278,6 +44789,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q058',
@@ -44293,6 +44806,8 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'current',
+    answerAsOf: 'February 2018',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q059',
@@ -44308,6 +44823,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q060',
@@ -44323,6 +44839,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q061',
@@ -44338,6 +44855,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q062',
@@ -44353,6 +44871,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q063',
@@ -44368,6 +44887,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q064',
@@ -44383,6 +44903,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q065',
@@ -44398,6 +44919,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q066',
@@ -44413,6 +44935,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q067',
@@ -44428,6 +44951,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q068',
@@ -44443,6 +44967,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q069',
@@ -44458,6 +44983,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q070',
@@ -44473,6 +44999,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q071',
@@ -44488,6 +45015,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q072',
@@ -44503,6 +45031,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q073',
@@ -44518,6 +45047,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q074',
@@ -44533,6 +45063,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q075',
@@ -44548,6 +45079,7 @@ const questionsPart7: BankQuestion[] = [
     source: 'UDC (Contract) under Environment, Forest & Climate Change, February 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-udc-efcc-2018-paper-2',
+    gkKind: 'static',
   },
   {
     id: 'mpsc-udc-efcc-2018-paper-2-q076',
@@ -44926,9 +45458,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q001',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Kindly help me',
@@ -44941,9 +45473,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q002',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Your love is everlasting',
@@ -44956,9 +45488,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q003',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Some men are always prosecuted',
@@ -44971,9 +45503,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q004',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'There is always a danger to tall buildings',
@@ -44986,9 +45518,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q005',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Hearing the news, I am over the moon',
@@ -45001,9 +45533,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q006',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Give me half a bottle of sesame oil',
@@ -45016,9 +45548,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q007',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Oh God! I am undone',
@@ -45031,9 +45563,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q008',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Hey! Look out',
@@ -45046,9 +45578,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q009',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'You have deceived yourself',
@@ -45061,9 +45593,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q010',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Whom do you want to see?',
@@ -45076,9 +45608,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q011',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'The cook will light a match-stick',
@@ -45091,9 +45623,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q012',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'She had done her hair very nicely',
@@ -45106,9 +45638,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q013',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'It has been raining heavily since noon',
@@ -45121,9 +45653,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q014',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'He was smoking a cigarette',
@@ -45136,9 +45668,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q015',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'They have cancelled their trip to Shimla',
@@ -45151,9 +45683,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q016',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'The child is having a very good time in the pool',
@@ -45166,9 +45698,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q017',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'You wash your hands properly',
@@ -45181,9 +45713,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q018',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Mr Winkle does not work regularly',
@@ -45196,9 +45728,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q019',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'They learnt a bitter lesson',
@@ -45211,9 +45743,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q020',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'The cock had been crowing since 4.00 am',
@@ -45226,9 +45758,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q021',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'The class will not agree with everything that the teacher say',
@@ -45241,9 +45773,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q022',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Shall we not be seeing them again?',
@@ -45256,9 +45788,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q023',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'What a lovely day it is!',
@@ -45271,9 +45803,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q024',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Are the wasps migrating to hot lands?',
@@ -45286,9 +45818,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q025',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Please come tomorrow',
@@ -45301,9 +45833,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q026',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Clean the utensils now',
@@ -45316,9 +45848,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q027',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'I have known her all these years',
@@ -45331,9 +45863,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q028',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Research on the topic suggests that grammar is essential to success',
@@ -45346,9 +45878,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q029',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Wow! That’s amazing!',
@@ -45361,9 +45893,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q030',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Is everyone happy with the decision?',
@@ -45376,9 +45908,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q031',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Children play on the sandy __________',
@@ -45391,9 +45923,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q032',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'My room has a __________ fan',
@@ -45406,9 +45938,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q033',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: '__________ of this hill is very steep',
@@ -45421,9 +45953,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q034',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Our team scored three __________',
@@ -45436,9 +45968,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q035',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Untie this __________ at once',
@@ -45451,9 +45983,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q036',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'This land abounds with __________ trees',
@@ -45466,9 +45998,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q037',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'He drank a __________ tumbler of milk',
@@ -45481,9 +46013,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q038',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'He is the __________ owner of this shop',
@@ -45496,9 +46028,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q039',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'The sun is __________',
@@ -45511,9 +46043,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q040',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Ask him __________ he is ready to go or not',
@@ -45526,9 +46058,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q041',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Each of them __________ honest',
@@ -45541,9 +46073,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q042',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Much __________ been done for you',
@@ -45556,9 +46088,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q043',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'The scenery of Kashmir __________ very charming',
@@ -45571,9 +46103,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q044',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'He __________ like to be fined',
@@ -45586,9 +46118,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q045',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Her hair __________ curly',
@@ -45601,9 +46133,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q046',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'Two hundred rupees __________ a small amount',
@@ -45616,9 +46148,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q047',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'This furniture __________ very nice',
@@ -45631,9 +46163,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q048',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: '__________ of the two girls is tall',
@@ -45646,9 +46178,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q049',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'You and he have done __________ work',
@@ -45661,9 +46193,9 @@ const questionsPart7: BankQuestion[] = [
   },
   {
     id: 'mpsc-udc-taxation-2021-paper-1-q050',
-    subject: 'gk',
-    topic: 'gk_general',
-    topicLabel: 'General Knowledge',
+    subject: 'english',
+    topic: 'eng_general',
+    topicLabel: 'General English',
     difficulty: 'medium',
     type: 'mcq',
     question: 'One must do __________ duty',

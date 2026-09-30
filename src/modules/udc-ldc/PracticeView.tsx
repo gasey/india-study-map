@@ -141,14 +141,30 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 onClick={() => choose(idx)}
                 disabled={answered}
                 style={{
-                  textAlign: 'left', font: 'inherit', fontSize: 14, padding: '10px 12px',
-                  borderRadius: 8, border: `1.5px solid ${border}`, background: bg,
+                  textAlign: 'left', font: 'inherit', fontSize: 14.5, padding: '12px 13px',
+                  borderRadius: 11, border: `1.5px solid ${border}`, background: bg,
                   color: 'inherit', cursor: answered ? 'default' : 'pointer',
-                  display: 'flex', gap: 10,
+                  display: 'flex', gap: 11, alignItems: 'flex-start', lineHeight: 1.4,
+                  transition: 'border-color .15s, background .15s',
                 }}
               >
-                <span style={{ opacity: 0.6, fontWeight: 700 }}>{optionLetter(idx)})</span>
-                <span>{o}</span>
+                {/* The letter as a filled marker rather than a dim character --
+                    this is the "radio button" read. It also carries the verdict
+                    once answered, so the row and its key never disagree. */}
+                <span
+                  style={{
+                    flex: 'none', width: 24, height: 24, borderRadius: '50%',
+                    border: `1.5px solid ${answered && (isAnswer || isPick) ? border : 'var(--border, #c9c2af)'}`,
+                    background: answered && isAnswer ? 'var(--ok, #2e9e5b)'
+                      : answered && isPick ? 'var(--bad, #c4462f)' : 'transparent',
+                    color: answered && (isAnswer || isPick) ? '#fff' : 'var(--text-secondary, #6b7180)',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    fontSize: 11.5, fontWeight: 700, marginTop: 1, textTransform: 'uppercase',
+                  }}
+                >
+                  {optionLetter(idx)}
+                </span>
+                <span style={{ paddingTop: 2 }}>{o}</span>
               </button>
             );
           })}

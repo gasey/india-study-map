@@ -162,7 +162,29 @@ function Provenance({ q }: { q: BankQuestion }) {
   return <Pill tone="muted">derived</Pill>;
 }
 
-function ProgressView({ rows }: { rows: PaperStats[] }) {
+const MONTH_ORDER: Record<string, number> = {
+  January: 1, February: 2, March: 3, April: 4, May: 5, June: 6,
+  July: 7, August: 8, September: 9, October: 10, November: 11, December: 12,
+};
+
+function ProgressView({ rows: unsorted }: { rows: PaperStats[] }) {
+  // Sitting order, newest or oldest first. The table was in PAPERS-table
+  // order, which is the order papers happened to be staged in -- meaningless
+  // to a reader. The month comes from `source` ("LDC under MPSC, February
+  // 2025, Paper-I"), which build_bank writes from the paper's own printed
+  // header; ExamPaper itself carries only the year.
+  const [order, setOrder] = useState<'newest' | 'oldest'>('newest');
+  const rows = useMemo(() => {
+    const key = (r: PaperStats) => {
+      const q = r.questions[0];
+      const m = q?.source?.match(/,\s*([A-Z][a-z]+)\s+(\d{4})\s*,/);
+      const year = r.paper.year ?? (m ? Number(m[2]) : 0);
+      return year * 100 + (m ? MONTH_ORDER[m[1]] ?? 0 : 0);
+    };
+    const out = unsorted.slice().sort((a, b) => key(a) - key(b));
+    return order === 'newest' ? out.reverse() : out;
+  }, [unsorted, order]);
+
   const tot = rows.reduce(
     (a, r) => ({
       total: a.total + r.total,
@@ -208,6 +230,19 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
         ))}
       </div>
 
+      <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginBottom: 10 }}>
+        <span style={{ fontSize: 12, opacity: 0.65 }}>Order</span>
+        {(['newest', 'oldest'] as const).map((o) => (
+          <button
+            key={o}
+            type="button"
+            onClick={() => setOrder(o)}
+            style={{ ...toolBtn, ...(order === o ? toolBtnOn : null) }}
+          >
+            {o === 'newest' ? 'Newest first' : 'Oldest first'}
+          </button>
+        ))}
+      </div>
       <div style={{ overflowX: 'auto' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14, minWidth: 720 }}>
           <thead>
@@ -351,21 +386,84 @@ function ProgressView({ rows }: { rows: PaperStats[] }) {
   );
 }
 
+const toolBtn: React.CSSProperties = {
+  background: 'transparent', border: '1.5px solid var(--border, #dcdce3)',
+  borderRadius: 999, padding: '7px 14px', font: 'inherit', fontSize: 12.5,
+  fontWeight: 700, color: 'inherit', cursor: 'pointer',
+};
+const toolBtnOn: React.CSSProperties = {
+  borderColor: 'var(--info, #3b7dd8)', color: 'var(--info, #3b7dd8)',
+  background: 'color-mix(in srgb, var(--info, #3b7dd8) 10%, transparent)',
+};
+
 function BrowseView({
   rows, questions, progress,
 }: { rows: PaperStats[]; questions: BankQuestion[]; progress: ProgressMap }) {
   const keep = useMemo(() => new Set(questions.map((q) => q.id)), [questions]);
-  const visible = rows
-    .map((r) => ({ ...r, questions: r.questions.filter((q) => keep.has(q.id)) }))
-    .filter((r) => r.questions.length > 0);
+  // Answers HIDDEN by default, which is the whole point of reading past papers
+  // rather than a worked solution set: a visible answer cannot be recalled,
+  // only recognised. `shown` holds the ids deliberately revealed.
+  const [shown, setShown] = useState<Set<string>>(() => new Set());
+  const [shuffle, setShuffle] = useState(false);
+  // Re-shuffles only when this changes, so revealing an answer does not
+  // reorder the list under the reader's cursor.
+  const [seed, setSeed] = useState(0);
+
+  const visible = useMemo(() => {
+    const out = rows
+      .map((r) => ({ ...r, questions: r.questions.filter((q) => keep.has(q.id)) }))
+      .filter((r) => r.questions.length > 0);
+    if (!shuffle) return out;
+    return out.map((r) => {
+      // Seeded so the order is stable across re-renders; Math.random() here
+      // would reshuffle on every keystroke in the search box.
+      let h = seed * 2654435761 + r.paper.id.length;
+      const rnd = () => ((h = (h * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff);
+      const qs = r.questions.slice();
+      for (let i = qs.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(rnd() * (i + 1));
+        [qs[i], qs[j]] = [qs[j], qs[i]];
+      }
+      return { ...r, questions: qs };
+    });
+  }, [rows, keep, shuffle, seed]);
+
   const [open, setOpen] = useState<string | null>(null);
   const openId = open ?? visible[0]?.paper.id ?? null;
+  const openRow = visible.find((r) => r.paper.id === openId);
+  const allShown = !!openRow && openRow.questions.every((q) => shown.has(q.id));
+  const toggleAll = () => setShown((prev) => {
+    if (!openRow) return prev;
+    const next = new Set(prev);
+    openRow.questions.forEach((q) => (allShown ? next.delete(q.id) : next.add(q.id)));
+    return next;
+  });
 
   if (!visible.length) {
     return <div style={{ opacity: 0.7, padding: '20px 0' }}>No questions match these filters.</div>;
   }
   return (
     <div style={{ display: 'grid', gap: 10 }}>
+      <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', marginBottom: 2 }}>
+        <button type="button" onClick={toggleAll} disabled={!openRow} style={toolBtn}>
+          {allShown ? 'Hide all answers' : 'Reveal all answers'}
+        </button>
+        <button
+          type="button"
+          onClick={() => { setShuffle((v) => !v); setSeed((n) => n + 1); }}
+          style={{ ...toolBtn, ...(shuffle ? toolBtnOn : null) }}
+        >
+          {shuffle ? 'Shuffled' : 'Shuffle questions'}
+        </button>
+        {shuffle && (
+          <button type="button" onClick={() => setSeed((n) => n + 1)} style={toolBtn}>
+            Re-shuffle
+          </button>
+        )}
+        <span style={{ fontSize: 12, opacity: 0.6 }}>
+          Answers are hidden until you reveal them.
+        </span>
+      </div>
       {visible.map((r) => {
         const isOpen = openId === r.paper.id;
         return (
@@ -415,21 +513,40 @@ function BrowseView({
                       </span>
                       <div style={{ flex: 1 }}>
                         <div style={{ marginBottom: 6 }}><QuestionText text={q.question} /></div>
-                        {isMcqQuestion(q) && q.options.length > 0 && (
-                          <ol type="a" style={{ margin: '0 0 6px', paddingLeft: 20, opacity: 0.9 }}>
-                            {q.options.map((o, oi) => (
-                              <li
-                                key={oi}
-                                style={{
-                                  fontWeight: q.answerIndex === oi ? 700 : 400,
-                                  color: q.answerIndex === oi
-                                    ? 'var(--ok, #2e9e5b)' : undefined,
-                                }}
-                              >
-                                {o}
-                              </li>
-                            ))}
-                          </ol>
+                        {isMcqQuestion(q) && q.options.length > 0 && (() => {
+                          const open = shown.has(q.id);
+                          return (
+                            <ol type="a" style={{ margin: '0 0 6px', paddingLeft: 20, opacity: 0.9 }}>
+                              {q.options.map((o, oi) => (
+                                <li
+                                  key={oi}
+                                  style={{
+                                    // The answer is only marked once revealed.
+                                    // Before that every option reads the same,
+                                    // which is what makes this a test rather
+                                    // than a solution sheet.
+                                    fontWeight: open && q.answerIndex === oi ? 700 : 400,
+                                    color: open && q.answerIndex === oi
+                                      ? 'var(--ok, #2e9e5b)' : undefined,
+                                  }}
+                                >
+                                  {o}
+                                </li>
+                              ))}
+                            </ol>
+                          );
+                        })()}
+                        {isMcqQuestion(q) && q.answerIndex >= 0 && !shown.has(q.id) && (
+                          <button
+                            type="button"
+                            onClick={() => setShown((prev) => new Set(prev).add(q.id))}
+                            style={{
+                              ...toolBtn, width: '100%', borderStyle: 'dashed',
+                              margin: '2px 0 8px', opacity: 0.85,
+                            }}
+                          >
+                            Tap to reveal the answer
+                          </button>
                         )}
                         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
                           <Provenance q={q} />
@@ -452,7 +569,7 @@ function BrowseView({
                             isAnswerable(q) && <Pill tone="muted">never attempted</Pill>
                           )}
                         </div>
-                        {isMcqQuestion(q) && q.explanation && (
+                        {isMcqQuestion(q) && shown.has(q.id) && q.explanation && (
                           <div style={{ fontSize: 13, opacity: 0.85, marginTop: 6 }}>
                             {q.explanation}
                           </div>
@@ -463,7 +580,7 @@ function BrowseView({
                             since have changed.
                           </div>
                         )}
-                        {isMcqQuestion(q) && q.disputeNote && (
+                        {isMcqQuestion(q) && shown.has(q.id) && q.disputeNote && (
                           <div style={{ fontSize: 12, marginTop: 6, color: 'var(--bad, #c4462f)' }}>
                             {q.disputeNote}
                           </div>

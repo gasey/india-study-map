@@ -9,6 +9,49 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-30 (review) — flagging, wired to the service that already exists
+
+**What shipped.** Every question in `/udc-ldc` now carries 🚩 Flag / 📝 My note
+/ 💬 Comments, and Practice shows which paper and sitting a question came from.
+
+**Almost none of this was built.** `QuestionReviewPanel` already existed in
+`src/modules/mpsc/`, already bank-agnostic on `(bankId, questionId)`, already
+handling the four issue types, the login gate and the admin round-trip. The
+backend endpoints were live too. The actual change is three imports, a shared
+`BANK_ID`, and a source line — **the temptation worth naming is that "add a
+correction system" reads like a feature to build, and building it would have
+produced a second system keyed differently from the one the admin console
+already reads.**
+
+`BANK_ID` moved into `filters.ts` and is imported by both views rather than
+declared twice. It is the join key between this module and a separate
+database; two copies that drift would silently orphan a user's reports from
+the questions they were about.
+
+**The source line is in Practice, not Browse.** Browse already groups under a
+paper header, so it would be redundant there — but in a drill the question
+arrives with no paper around it, and without the sitting there is no telling a
+2016 current-affairs item from a 2026 one. That is the exact distinction the
+"answer as of" caption underneath depends on.
+
+**The flag panel shows on every question, revealed or not.** A garbled stem is
+worth reporting *before* you can answer it, and on this bank that is the
+commonest case.
+
+**What's still open.**
+
+- **No new accounts.** Flagging uses the four that exist (`gasey`, `admin1`,
+  `admin2`, `admin3`). Logged out, the panel says so rather than offering a
+  control that would fail.
+- **Notes are private only** — `main.py:843`, no visibility column. A public
+  note is what the comments thread already is, with pinning and moderation.
+  Do not add a second notes table.
+- Reports land in the existing admin console (`/api/admin/reports`); nothing
+  in `/udc-ldc` surfaces report history to the reporter yet, though
+  `myReports(bankId)` exists for it.
+
+---
+
 ## 2026-09-30 (colour) — section colour, pick-to-reveal, mark-as-you-go
 
 **What shipped.** Three changes to `/udc-ldc`, plus a finding about the colour.

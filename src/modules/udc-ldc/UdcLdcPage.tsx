@@ -7,10 +7,11 @@ import type { ProgressMap } from './useProgress';
 import { isMcqQuestion } from '@/data/banks/types';
 import { useProgress } from './useProgress';
 import {
-  EMPTY_FILTERS, SECTION_COLOUR, SECTION_LABEL, applyFilters, isAnswerable,
+  BANK_ID, EMPTY_FILTERS, SECTION_COLOUR, SECTION_LABEL, applyFilters, isAnswerable,
   optionLetter, sectionOf,
   type AnswerState, type AttemptState, type Filters, type SectionId,
 } from './filters';
+import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
 import { FilterRail } from './FilterRail';
 import { PracticeView } from './PracticeView';
 import { ExamView } from './ExamView';
@@ -31,7 +32,6 @@ import { ExamView } from './ExamView';
 // wearing an answer's clothes is not.
 // ============================================
 
-const BANK_ID = 'mpsc-udc-ldc';
 
 type Tab = 'progress' | 'browse' | 'practice' | 'exam';
 
@@ -664,6 +664,15 @@ function BrowseView({
                             since have changed.
                           </div>
                         )}
+                        {/* Flag / private note / comments against the review
+                            service. Shown on every question, not only revealed
+                            ones — a garbled stem is worth reporting before you
+                            can answer it, which is the commonest case here. */}
+                        <QuestionReviewPanel
+                          bankId={BANK_ID}
+                          questionId={q.id}
+                          options={isMcqQuestion(q) ? q.options : undefined}
+                        />
                         {isMcqQuestion(q) && shown.has(q.id) && q.disputeNote && (
                           <div style={{ fontSize: 12, marginTop: 6, color: 'var(--bad, #c4462f)' }}>
                             {q.disputeNote}

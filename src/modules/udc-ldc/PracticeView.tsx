@@ -2,8 +2,9 @@ import { useEffect, useMemo, useState } from 'react';
 import type { BankQuestion } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
-import { SECTION_COLOUR, isAnswerable, optionLetter, sectionOf } from './filters';
+import { BANK_ID, SECTION_COLOUR, isAnswerable, optionLetter, sectionOf } from './filters';
 import { QuestionText } from './QuestionText';
+import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
 
 // ============================================
 // Practice drill — answer, get told, move on.
@@ -128,6 +129,14 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         }}>
           {q.topicLabel}
         </div>
+        {/* Where this question came from. In a drill a question arrives with
+            no paper around it, so without this there is no telling a 2016
+            current-affairs item from a 2026 one — the exact distinction the
+            "answer as of" caption below depends on. `source` is written by
+            build_bank from the paper's own printed header. */}
+        {q.source && (
+          <div style={{ fontSize: 11.5, opacity: 0.65, marginBottom: 9 }}>{q.source}</div>
+        )}
         <div style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} /></div>
 
         <div style={{ display: 'grid', gap: 8 }}>
@@ -255,6 +264,12 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
             </button>
           </div>
         )}
+        {/* Flag / private note / comments, against the review service that
+            already backs the other bank — bank-agnostic by (bankId,
+            questionId), so this is wiring rather than a second system. It
+            gates itself on login and says so, so a logged-out reader is not
+            offered a control that would fail. */}
+        <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.options} />
       </div>
     </div>
   );

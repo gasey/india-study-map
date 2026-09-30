@@ -18,6 +18,14 @@ import type { ProgressMap } from './useProgress';
 // questions it cannot mark.
 // ============================================
 
+/**
+ * The bank's id, and the key the review service files every flag, note and
+ * comment under. Defined once and imported, because it is the join key between
+ * this module and a separate backend — two copies that drift would silently
+ * orphan a user's reports from the questions they were about.
+ */
+export const BANK_ID = 'mpsc-udc-ldc';
+
 export type SectionId = 'gk' | 'english' | 'computer' | 'arithmetic' | 'reasoning';
 export type AnswerState = 'any' | 'answered' | 'unanswered';
 export type AttemptState = 'any' | 'never' | 'wrong' | 'correct';

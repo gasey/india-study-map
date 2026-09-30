@@ -9,6 +9,47 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-30 (fit) — collapsible filters, comments on answering, a phone layout
+
+**What shipped.**
+
+**The filter rail collapses.** Eight rows of chips pushed the first question
+below the fold once the filters were already set. Collapsed it keeps a
+one-line summary of what is active — *"Filters · written · unanswered ·
+2 section · 3339 questions"* — because **a collapsed filter that hides its own
+state is how you end up revising a subset you forgot you chose.**
+
+**Comments open by themselves once a question is answered**, in both Browse
+and Practice. After answering is the only safe moment: a pinned comment
+routinely says which option is right and why, so opening it any earlier hands
+the answer to someone who has not committed yet. The latch is one-shot per
+question and clears when the question changes — otherwise only the first item
+in a drill would ever auto-open, and a reader who deliberately closed the
+thread would have it reopened under them on every render.
+
+**Progress stacks into cards below 720px.** Its five-column table is 720px
+wide and turned into a sideways scroll on a phone — not broken, but reading
+one paper's row took two hands. Same numbers, same order, same notes; only
+the layout changes. The breakpoint is read through `matchMedia` because this
+module styles inline and inline styles cannot express a media query.
+
+**Measured rather than eyeballed**, at 375 and 768: zero elements extend past
+the viewport in any of the four views, and the body never scrolls
+horizontally. At 768 the table returns.
+
+**What's still open — the colour scheme question.** The beige-and-near-black
+look is not a default nobody chose: it is the app-wide **`collectible`** skin
+(`tokens.css:233`, `collectible.css`), light-only by design, with documented
+contrast reasoning — there is a comment justifying `--accent-soft` at 0.28
+rather than 0.14 to clear AA at 5.2:1. Four other themes already exist
+(`paper`, `ink`, `parchment`, `neon`; `neon` is a dark teal/violet one) and
+switch on their own axis. So "make it livelier" is a choice between switching
+theme, retuning `collectible` app-wide, or keeping module-local accents —
+**not** something to repaint unilaterally across every module that was built
+against those tokens.
+
+---
+
 ## 2026-09-30 (review) — flagging, wired to the service that already exists
 
 **What shipped.** Every question in `/udc-ldc` now carries 🚩 Flag / 📝 My note

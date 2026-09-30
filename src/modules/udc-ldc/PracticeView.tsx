@@ -269,7 +269,12 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
             questionId), so this is wiring rather than a second system. It
             gates itself on login and says so, so a logged-out reader is not
             offered a control that would fail. */}
-        <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.options} />
+        <QuestionReviewPanel
+          bankId={BANK_ID}
+          questionId={q.id}
+          options={q.options}
+          autoOpenComments={answered}
+        />
       </div>
     </div>
   );

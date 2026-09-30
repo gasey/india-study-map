@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { getBank } from '@/data/banks/index';
 import { mpscUdcLdcNegativeMarking } from '@/data/banks/mpsc-udc-ldc';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
@@ -163,6 +163,29 @@ function Provenance({ q }: { q: BankQuestion }) {
   return <Pill tone="muted">derived</Pill>;
 }
 
+/**
+ * Narrow-viewport flag, for the one place a table genuinely cannot survive
+ * a phone.
+ *
+ * This module styles inline, which cannot express a media query, so the
+ * breakpoint is read in JS. 720 is the Progress table's own minWidth — below
+ * that it stops fitting and starts scrolling sideways inside its wrapper,
+ * which is not broken but means reading a paper's row takes two hands.
+ */
+function useIsNarrow(px = 720) {
+  const [narrow, setNarrow] = useState(
+    () => typeof window !== 'undefined' && window.innerWidth < px,
+  );
+  useEffect(() => {
+    const mq = window.matchMedia(`(max-width: ${px - 1}px)`);
+    const on = () => setNarrow(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, [px]);
+  return narrow;
+}
+
 const MONTH_ORDER: Record<string, number> = {
   January: 1, February: 2, March: 3, April: 4, May: 5, June: 6,
   July: 7, August: 8, September: 9, October: 10, November: 11, December: 12,
@@ -175,6 +198,7 @@ function ProgressView({ rows: unsorted }: { rows: PaperStats[] }) {
   // 2025, Paper-I"), which build_bank writes from the paper's own printed
   // header; ExamPaper itself carries only the year.
   const [order, setOrder] = useState<'newest' | 'oldest'>('newest');
+  const narrow = useIsNarrow();
   const rows = useMemo(() => {
     const key = (r: PaperStats) => {
       const q = r.questions[0];
@@ -244,6 +268,44 @@ function ProgressView({ rows: unsorted }: { rows: PaperStats[] }) {
           </button>
         ))}
       </div>
+      {/* On a phone the five-column table turns into a sideways scroll, so
+          each paper becomes a stacked card instead. Same numbers, same order,
+          same notes — it is the LAYOUT that changes, not what is reported. */}
+      {narrow ? (
+        <div style={{ display: 'grid', gap: 10 }}>
+          {rows.map((r) => {
+            const answerable = r.mcqTotal - r.unanswerable;
+            return (
+              <div
+                key={r.paper.id}
+                style={{
+                  border: '1px solid var(--border, #dcdce3)', borderRadius: 10,
+                  padding: '12px 13px',
+                }}
+              >
+                <div style={{ fontWeight: 700, lineHeight: 1.3 }}>{r.paper.examName}</div>
+                <div style={{ fontSize: 12.5, opacity: 0.7, margin: '2px 0 9px' }}>
+                  {r.paper.paperNumber} · {r.paper.post} · {r.paper.year}
+                  {mpscUdcLdcNegativeMarking[r.paper.id] && ' · −⅓ penalty'}
+                </div>
+                <div style={{ fontSize: 11.5, opacity: 0.65, marginBottom: 3 }}>Text extracted</div>
+                <Bar done={r.total} total={r.total} />
+                <div style={{ fontSize: 11.5, opacity: 0.65, margin: '9px 0 3px' }}>Answers</div>
+                <Bar done={r.answered} total={answerable} />
+                <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 9 }}>
+                  {r.written > 0 && (
+                    <Pill tone="muted">
+                      {r.mcqTotal ? `${r.mcqTotal} MCQ + ${r.written} written` : `${r.written} written`}
+                    </Pill>
+                  )}
+                  {r.unanswerable > 0 && <Pill tone="warn">{r.unanswerable} figure lost</Pill>}
+                  {r.defects > 0 && <Pill tone="muted">{r.defects} printing defect</Pill>}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      ) : (
       <div style={{ overflowX: 'auto' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14, minWidth: 720 }}>
           <thead>
@@ -335,6 +397,7 @@ function ProgressView({ rows: unsorted }: { rows: PaperStats[] }) {
           </tbody>
         </table>
       </div>
+      )}
 
       <div
         style={{
@@ -672,6 +735,9 @@ function BrowseView({
                           bankId={BANK_ID}
                           questionId={q.id}
                           options={isMcqQuestion(q) ? q.options : undefined}
+                          // Once the reader has committed to an option, show
+                          // what everyone else said about it.
+                          autoOpenComments={shown.has(q.id)}
                         />
                         {isMcqQuestion(q) && shown.has(q.id) && q.disputeNote && (
                           <div style={{ fontSize: 12, marginTop: 6, color: 'var(--bad, #c4462f)' }}>
@@ -695,6 +761,9 @@ export default function UdcLdcPage() {
   const data = useStats();
   const [tab, setTab] = useState<Tab>('progress');
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
+  // Open on first visit so the rail is discoverable; the reader collapses it
+  // once they know what is in there.
+  const [filtersOpen, setFiltersOpen] = useState(true);
   const { progress, record, reset } = useProgress();
 
   const filtered = useMemo(() => {
@@ -739,7 +808,47 @@ export default function UdcLdcPage() {
 
       {tab === 'progress' && <ProgressView rows={data.rows} />}
 
-      {(tab === 'browse' || tab === 'practice') && (
+      {(tab === 'browse' || tab === 'practice') && (() => {
+        // The rail is eight rows of chips and pushes the first question below
+        // the fold on a laptop, which is the wrong thing to spend the screen
+        // on once the filters are set. Collapsed it keeps a one-line summary,
+        // so the reader can still see WHAT is filtered without expanding —
+        // a collapsed filter that hides its own state is how you end up
+        // studying a subset you forgot you chose.
+        const active = [
+          filters.posts.length && `${filters.posts.length} post`,
+          filters.papers.length && `${filters.papers.length} paper`,
+          filters.sections.length && `${filters.sections.length} section`,
+          filters.type !== 'any' && (filters.type === 'mcq' ? 'multiple choice' : 'written'),
+          filters.answer !== 'any' && (filters.answer === 'answered' ? 'answered' : 'unanswered'),
+          filters.gkKind !== 'any' && filters.gkKind.replace('-', ' '),
+          filters.attempt !== 'any' && filters.attempt,
+          filters.search.trim() && `“${filters.search.trim()}”`,
+        ].filter(Boolean) as string[];
+        return (
+          <div style={{ marginBottom: 12 }}>
+            <button
+              type="button"
+              onClick={() => setFiltersOpen((v) => !v)}
+              style={{
+                ...toolBtn, display: 'flex', alignItems: 'center', gap: 9,
+                width: '100%', justifyContent: 'flex-start', borderRadius: 10,
+                padding: '9px 13px',
+              }}
+            >
+              <span style={{ opacity: 0.55 }}>{filtersOpen ? '▾' : '▸'}</span>
+              <span>Filters</span>
+              <span style={{ fontWeight: 400, opacity: 0.7, fontSize: 12 }}>
+                {active.length ? active.join(' · ') : 'none'}
+              </span>
+              <span style={{ marginLeft: 'auto', fontWeight: 400, opacity: 0.7, fontSize: 12 }}>
+                {filtered.length} question{filtered.length === 1 ? '' : 's'}
+              </span>
+            </button>
+          </div>
+        );
+      })()}
+      {(tab === 'browse' || tab === 'practice') && filtersOpen && (
         <FilterRail
           papers={data.bank.papers ?? []}
           all={data.bank.questions}

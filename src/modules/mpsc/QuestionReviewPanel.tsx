@@ -22,11 +22,40 @@ interface Props {
   /** Which lettered sub-part (a..z) this panel reviews, if any — threaded
    *  into every flag/comment/note call so admin review can target it. */
   subpartLabel?: string;
+  /**
+   * Open the comments thread as soon as this turns true — used by the clerical
+   * bank to show the discussion the moment a question is ANSWERED.
+   *
+   * After answering is the only safe moment: a pinned comment routinely says
+   * which option is right and why, so opening it any earlier would hand over
+   * the answer to someone who had not committed to one yet.
+   *
+   * Fires once per question. Re-opening on every render would fight a reader
+   * who deliberately closed the thread.
+   */
+  autoOpenComments?: boolean;
 }
 
-export function QuestionReviewPanel({ bankId, questionId, options, subpartLabel }: Props) {
+export function QuestionReviewPanel({
+  bankId, questionId, options, subpartLabel, autoOpenComments,
+}: Props) {
   const { user } = useAuthStore();
   const [section, setSection] = useState<Section>(null);
+  const [autoDone, setAutoDone] = useState(false);
+
+  useEffect(() => {
+    if (autoOpenComments && !autoDone) {
+      setSection('comments');
+      setAutoDone(true);
+    }
+  }, [autoOpenComments, autoDone]);
+
+  // A new question reuses this component instance, so the one-shot latch has
+  // to clear or only the first question in a drill would ever auto-open.
+  useEffect(() => {
+    setAutoDone(false);
+    setSection(null);
+  }, [questionId]);
 
   return (
     <div className="mt-2 pt-2" style={{ borderTop: '1px dashed var(--border)' }}>

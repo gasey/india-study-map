@@ -82,10 +82,11 @@ export function QuestionReviewPanel({
       <button
         type="button"
         onClick={() => toggle('comments')}
-        className="w-full text-left rounded-xl px-3 py-2"
+        className="w-full text-left rounded-xl px-3 py-2 mb-2"
         style={{
-          border: '1px solid color-mix(in srgb, var(--accent) 38%, var(--border))',
-          background: 'var(--bg-panel-elev)',
+          display: 'block',
+          border: '1px solid color-mix(in srgb, var(--info, #3b7dd8) 45%, var(--border))',
+          background: 'color-mix(in srgb, var(--info, #3b7dd8) 12%, var(--bg-panel))',
           color: 'var(--text-secondary)',
         }}
       >
@@ -289,7 +290,7 @@ function NoteBox({ bankId, questionId }: { bankId: string; questionId: string })
   if (!loaded) return <p className="text-xs mt-2 px-3 py-2 rounded-lg" style={{ color: 'var(--text-secondary)', background: 'var(--bg-app)' }}>Loading your private note…</p>;
 
   return (
-    <div className="mt-2 p-3 rounded-xl space-y-2" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
+    <div className="mt-2 p-3 rounded-xl space-y-2" style={{ background: 'color-mix(in srgb, var(--info, #3b7dd8) 8%, var(--bg-panel))', border: '1px solid color-mix(in srgb, var(--info, #3b7dd8) 28%, var(--border))', color: 'var(--text-secondary)' }}>
       <div>
         <div className="text-xs font-semibold" style={{ color: 'var(--text-primary)' }}>Private study note</div>
         <div className="text-[11px] mt-0.5" style={{ color: 'var(--text-secondary)' }}>Only you can see this note.</div>
@@ -394,7 +395,7 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
   const canModerate = hasCap(user, 'comment.moderate');
 
   const renderComment = (c: Comment, indent: boolean) => (
-    <div key={c.id} className="text-xs p-3 rounded-xl" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-secondary)', marginLeft: indent ? 16 : 0 }}>
+    <div key={c.id} className="text-xs p-3 rounded-xl" style={{ background: 'color-mix(in srgb, var(--info, #3b7dd8) 14%, var(--bg-panel-elev))', border: '1px solid color-mix(in srgb, var(--info, #3b7dd8) 25%, var(--border))', color: 'var(--text-secondary)', marginLeft: indent ? 16 : 0 }}>
       <div className="flex items-center gap-1.5 flex-wrap">
         {c.isPinned && <span title="Pinned by admin">📌</span>}
         <span className="font-medium">{c.displayName ?? c.username}</span>

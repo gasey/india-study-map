@@ -89,6 +89,25 @@ export function sectionOf(q: BankQuestion): SectionId {
   return 'gk';
 }
 
+/**
+ * One colour per section, used for the topic label, the option keys and the
+ * card's left edge.
+ *
+ * It encodes something rather than decorating: the five sections are the axis
+ * a candidate actually revises along, and at a glance down a mixed list the
+ * colour says which paper-half a question came from without reading the label.
+ * Chosen to stay legible on both the light parchment and the dark theme, and
+ * to be distinguishable without relying on hue alone — the label text is
+ * always present, so this never carries meaning by itself.
+ */
+export const SECTION_COLOUR: Record<SectionId, string> = {
+  gk: '#2f7d6b',          // teal — General Knowledge
+  english: '#8a5a2b',     // umber — General English
+  computer: '#3b6fb8',    // blue — Computer Knowledge
+  arithmetic: '#9a4f7a',  // plum — Simple Arithmetic
+  reasoning: '#6b6420',   // olive — Intelligence & Reasoning
+};
+
 export const SECTION_LABEL: Record<SectionId, string> = {
   gk: 'General Knowledge',
   english: 'General English',

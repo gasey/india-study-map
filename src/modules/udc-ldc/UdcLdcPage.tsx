@@ -7,7 +7,8 @@ import type { ProgressMap } from './useProgress';
 import { isMcqQuestion } from '@/data/banks/types';
 import { useProgress } from './useProgress';
 import {
-  EMPTY_FILTERS, SECTION_LABEL, applyFilters, isAnswerable, sectionOf,
+  EMPTY_FILTERS, SECTION_COLOUR, SECTION_LABEL, applyFilters, isAnswerable,
+  optionLetter, sectionOf,
   type AnswerState, type AttemptState, type Filters, type SectionId,
 } from './filters';
 import { FilterRail } from './FilterRail';
@@ -403,7 +404,20 @@ function BrowseView({
   // Answers HIDDEN by default, which is the whole point of reading past papers
   // rather than a worked solution set: a visible answer cannot be recalled,
   // only recognised. `shown` holds the ids deliberately revealed.
-  const [shown, setShown] = useState<Set<string>>(() => new Set());
+  // What the reader PICKED, per question. Picking is what reveals — an answer
+  // you have not committed to is one you can only recognise, and a blind
+  // "reveal" button lets you skip the commitment entirely. `null` means the
+  // reader used Reveal all instead of choosing, which still shows the answer
+  // but records no attempt.
+  const [picked, setPicked] = useState<Record<string, number | null>>({});
+  const shown = useMemo(() => new Set(Object.keys(picked)), [picked]);
+  const setShown = (fn: (prev: Set<string>) => Set<string>) => {
+    setPicked((prev) => {
+      const next: Record<string, number | null> = {};
+      fn(new Set(Object.keys(prev))).forEach((id) => { next[id] = prev[id] ?? null; });
+      return next;
+    });
+  };
   const [shuffle, setShuffle] = useState(false);
   // Re-shuffles only when this changes, so revealing an answer does not
   // reorder the list under the reader's cursor.
@@ -461,7 +475,7 @@ function BrowseView({
           </button>
         )}
         <span style={{ fontSize: 12, opacity: 0.6 }}>
-          Answers are hidden until you reveal them.
+          Pick an option to check it — or reveal without answering.
         </span>
       </div>
       {visible.map((r) => {
@@ -551,38 +565,72 @@ function BrowseView({
                         <div style={{ marginBottom: 6 }}><QuestionText text={q.question} /></div>
                         {isMcqQuestion(q) && q.options.length > 0 && (() => {
                           const open = shown.has(q.id);
+                          const mine = picked[q.id];
+                          const accent = SECTION_COLOUR[sectionOf(q)];
+                          const markable = q.answerIndex >= 0;
                           return (
-                            <ol type="a" style={{ margin: '0 0 6px', paddingLeft: 20, opacity: 0.9 }}>
-                              {q.options.map((o, oi) => (
-                                <li
-                                  key={oi}
-                                  style={{
-                                    // The answer is only marked once revealed.
-                                    // Before that every option reads the same,
-                                    // which is what makes this a test rather
-                                    // than a solution sheet.
-                                    fontWeight: open && q.answerIndex === oi ? 700 : 400,
-                                    color: open && q.answerIndex === oi
-                                      ? 'var(--ok, #2e9e5b)' : undefined,
-                                  }}
-                                >
-                                  {o}
-                                </li>
-                              ))}
-                            </ol>
+                            <div style={{ display: 'grid', gap: 6, margin: '2px 0 8px' }}>
+                              {q.options.map((o, oi) => {
+                                const isAnswer = open && markable && oi === q.answerIndex;
+                                const isBadPick = open && mine === oi && oi !== q.answerIndex;
+                                const edge = isAnswer ? 'var(--ok, #2e9e5b)'
+                                  : isBadPick ? 'var(--bad, #c4462f)'
+                                  // Neat, not mixed into --border (#241f18,
+                                  // near-black) — a mix there reads as an
+                                  // ordinary dark hairline.
+                                  : accent;
+                                return (
+                                  <button
+                                    key={oi}
+                                    type="button"
+                                    // Picking IS the reveal. Only meaningful
+                                    // while there is an answer to check against.
+                                    onClick={() => markable && !open
+                                      && setPicked((p) => ({ ...p, [q.id]: oi }))}
+                                    disabled={!markable || open}
+                                    style={{
+                                      display: 'flex', gap: 10, alignItems: 'flex-start',
+                                      textAlign: 'left', font: 'inherit', fontSize: 13.5,
+                                      padding: '8px 11px', borderRadius: 9,
+                                      border: `1.5px solid ${edge}`,
+                                      background: isAnswer
+                                        ? 'color-mix(in srgb, var(--ok, #2e9e5b) 12%, transparent)'
+                                        : isBadPick
+                                          ? 'color-mix(in srgb, var(--bad, #c4462f) 12%, transparent)'
+                                          : `color-mix(in srgb, ${accent} 7%, transparent)`,
+                                      color: 'inherit',
+                                      cursor: markable && !open ? 'pointer' : 'default',
+                                    }}
+                                  >
+                                    <span style={{
+                                      flex: 'none', width: 21, height: 21, borderRadius: '50%',
+                                      border: `1.5px solid ${isAnswer || isBadPick ? edge : accent}`,
+                                      background: isAnswer ? 'var(--ok, #2e9e5b)'
+                                        : isBadPick ? 'var(--bad, #c4462f)' : 'transparent',
+                                      color: isAnswer || isBadPick ? '#fff' : accent,
+                                      display: 'flex', alignItems: 'center',
+                                      justifyContent: 'center', fontSize: 10.5, fontWeight: 700,
+                                      textTransform: 'uppercase',
+                                    }}>
+                                      {optionLetter(oi)}
+                                    </span>
+                                    <span>{o}</span>
+                                  </button>
+                                );
+                              })}
+                            </div>
                           );
                         })()}
-                        {isMcqQuestion(q) && q.answerIndex >= 0 && !shown.has(q.id) && (
-                          <button
-                            type="button"
-                            onClick={() => setShown((prev) => new Set(prev).add(q.id))}
-                            style={{
-                              ...toolBtn, width: '100%', borderStyle: 'dashed',
-                              margin: '2px 0 8px', opacity: 0.85,
-                            }}
-                          >
-                            Tap to reveal the answer
-                          </button>
+                        {isMcqQuestion(q) && shown.has(q.id) && picked[q.id] != null && (
+                          <div style={{
+                            fontSize: 12.5, fontWeight: 700, marginBottom: 6,
+                            color: picked[q.id] === q.answerIndex
+                              ? 'var(--ok, #2e9e5b)' : 'var(--bad, #c4462f)',
+                          }}>
+                            {picked[q.id] === q.answerIndex
+                              ? 'Correct'
+                              : `Not quite — the answer is (${optionLetter(q.answerIndex)})`}
+                          </div>
                         )}
                         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
                           <Provenance q={q} />

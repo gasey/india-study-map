@@ -58,6 +58,17 @@ function ExamSitting({
 }: { paper: ExamPaper; questions: BankQuestion[]; onExit: () => void }) {
   const paperId = paper.id;
   const [submitted, setSubmitted] = useState(false);
+  /**
+   * Mark each question as it is answered, rather than only at the end.
+   *
+   * OFF by default, and that default is the point: a mock test exists to
+   * rehearse the real sitting, where nobody tells you mid-paper. Instant
+   * feedback is a different exercise — useful for learning a section, useless
+   * for practising pace and nerve — so it is opt-in and the UI says which one
+   * you are doing. Locked once the paper starts, because switching it halfway
+   * makes the score mean neither thing.
+   */
+  const [instant, setInstant] = useState(false);
   const [now, setNow] = useState(() => Date.now());
 
   const meta = mpscUdcLdcPaperMeta[paperId];
@@ -76,6 +87,9 @@ function ExamSitting({
     `udc-ldc.exam.${paperId}`, signature, true,
   );
   const answers = state.answers as Answers;
+  // Locked once the first answer is in: switching the marking mode halfway
+  // makes the resulting score mean neither thing.
+  const started = Object.keys(answers).length > 0;
   /** Questions that can be scored — a figure-only item has no answer to mark. */
   const scorable = useMemo(
     () => paperQs.filter((q) => isMcqQuestion(q) && q.answerIndex >= 0 && q.options.length > 0),
@@ -155,6 +169,27 @@ function ExamSitting({
           )}
         </div>
         <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
+          {!submitted && (
+            <button
+              type="button"
+              onClick={() => !started && setInstant((v) => !v)}
+              disabled={started}
+              title={started
+                ? 'Locked once the paper has started — switching midway would make the score mean neither thing'
+                : undefined}
+              style={{
+                border: `1.5px solid ${instant ? 'var(--info, #3b7dd8)' : 'var(--border, #dcdce3)'}`,
+                background: instant
+                  ? 'color-mix(in srgb, var(--info, #3b7dd8) 12%, transparent)' : 'transparent',
+                color: instant ? 'var(--info, #3b7dd8)' : 'inherit',
+                borderRadius: 999, padding: '6px 13px', font: 'inherit', fontSize: 12.5,
+                fontWeight: 700, cursor: started ? 'not-allowed' : 'pointer',
+                opacity: started ? 0.55 : 1,
+              }}
+            >
+              {instant ? 'Marking as you go' : 'Mark at the end'}
+            </button>
+          )}
           {!submitted && (
             <span
               style={{
@@ -262,14 +297,15 @@ function ExamSitting({
                   ) : (
                     <div style={{ display: 'grid', gap: 5 }}>
                       {q.options.map((o, oi) => {
-                        const isRight = submitted && oi === q.answerIndex;
-                        const isWrongPick = submitted && oi === picked && picked !== q.answerIndex;
+                        const revealed = submitted || (instant && picked !== undefined);
+                        const isRight = revealed && oi === q.answerIndex;
+                        const isWrongPick = revealed && oi === picked && picked !== q.answerIndex;
                         return (
                           <label
                             key={oi}
                             style={{
                               display: 'flex', gap: 8, alignItems: 'baseline', fontSize: 14,
-                              padding: '4px 8px', borderRadius: 6, cursor: submitted ? 'default' : 'pointer',
+                              padding: '4px 8px', borderRadius: 6, cursor: submitted || (instant && picked !== undefined) ? 'default' : 'pointer',
                               background: isRight
                                 ? 'color-mix(in srgb, var(--ok, #2e9e5b) 14%, transparent)'
                                 : isWrongPick
@@ -281,7 +317,7 @@ function ExamSitting({
                               type="radio"
                               name={q.id}
                               checked={picked === oi}
-                              disabled={submitted}
+                              disabled={submitted || (instant && picked !== undefined)}
                               onChange={() =>
                                 patch((st) => ({ answers: { ...st.answers, [q.id]: oi } }))}
                             />
@@ -291,7 +327,7 @@ function ExamSitting({
                       })}
                     </div>
                   )}
-                  {submitted && q.explanation && (
+                  {(submitted || (instant && answers[q.id] !== undefined)) && q.explanation && (
                     <p style={{ margin: '8px 0 0', fontSize: 13, opacity: 0.85 }}>{q.explanation}</p>
                   )}
                 </div>

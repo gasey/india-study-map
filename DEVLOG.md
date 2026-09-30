@@ -9,6 +9,46 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-30 (colour) — section colour, pick-to-reveal, mark-as-you-go
+
+**What shipped.** Three changes to `/udc-ldc`, plus a finding about the colour.
+
+**Colour now encodes the section.** Five colours — teal GK, umber English, blue
+Computer, plum Arithmetic, olive Reasoning — on the topic label, the option
+keys, the option borders and the card's left edge. It is not decoration: the
+section is the axis a candidate revises along, and down a mixed list the colour
+says which half of the paper a question came from without reading the label.
+The label text is always present, so nothing is carried by hue alone.
+
+⚠️ **Why the screen looked "blank", and the fix that mattered.** The first cut
+set borders to `color-mix(in srgb, <accent> 32%, var(--border))`. `--border` in
+this theme is `#241f18` — very nearly black — so mixing an accent into it
+produced a dark mud indistinguishable from the plain hairline it replaced. The
+accent is now used NEAT for borders, with a 7% tint behind the row. **Mixing
+colour into a near-black token is how a "colourful" change ends up invisible.**
+Worth checking the token's actual value before trusting a mix.
+
+**Browse: picking an option reveals it.** The blind "tap to reveal" button is
+gone. Committing to an answer is the thing that makes reading a past paper
+worth anything — a reveal button lets you skip exactly that — so the pick is
+the reveal, and the verdict line says whether you were right. Reveal all still
+exists for skimming, and records no attempt.
+
+**Exam: "Mark at the end" / "Marking as you go".** Off by default, and that
+default is the point: a mock test rehearses the real sitting, where nobody
+tells you mid-paper. Instant feedback is a different exercise — good for
+learning a section, useless for practising pace — so it is opt-in, named, and
+**locked once the first answer is in**, because switching halfway makes the
+score mean neither thing.
+
+**What's still open.** The review backend was inspected this session (see the
+commit body): `/api/questions/report`, `/notes`, `/comments`, `/corrections`,
+`/api/admin/reports`, `/audit-log`, `/users` are all already deployed. Notes
+are **private only** — a public note is what the comments system is for. Wiring
+`/udc-ldc` into it remains the next piece.
+
+---
+
 ## 2026-09-30 (blocks) — Browse paper rows become link blocks
 
 **What shipped.** The Browse paper headers were a line of text and a chevron.

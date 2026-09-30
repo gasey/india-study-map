@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import type { BankQuestion } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
-import { isAnswerable, optionLetter } from './filters';
+import { SECTION_COLOUR, isAnswerable, optionLetter, sectionOf } from './filters';
 import { QuestionText } from './QuestionText';
 
 // ============================================
@@ -73,6 +73,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
 
   const q = pool[Math.min(i, pool.length - 1)];
   if (!isMcqQuestion(q)) return null;
+  const accent = SECTION_COLOUR[sectionOf(q)];
   const answered = picked !== null;
   const correct = answered && picked === q.answerIndex;
   const prior = progress[q.id];
@@ -115,18 +116,31 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
 
       <div
         style={{
-          border: '1px solid var(--border, #dcdce3)', borderRadius: 10, padding: '18px 20px',
+          border: '1px solid var(--border, #dcdce3)',
+          borderLeft: `4px solid ${accent}`,
+          borderRadius: 10, padding: '18px 20px',
+          background: 'var(--bg-panel, transparent)',
         }}
       >
-        <div style={{ fontSize: 12, opacity: 0.6, marginBottom: 6 }}>{q.topicLabel}</div>
+        <div style={{
+          fontSize: 11.5, fontWeight: 700, letterSpacing: '.08em',
+          textTransform: 'uppercase', marginBottom: 7, color: accent,
+        }}>
+          {q.topicLabel}
+        </div>
         <div style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} /></div>
 
         <div style={{ display: 'grid', gap: 8 }}>
           {q.options.map((o, idx) => {
             const isAnswer = idx === q.answerIndex;
             const isPick = idx === picked;
-            let border = 'var(--border, #dcdce3)';
-            let bg = 'transparent';
+            // ⚠️ The accent is used NEAT, not mixed into --border. That token
+            // is #241f18 — very nearly black — so `color-mix(accent 35%,
+            // var(--border))` came out a dark mud indistinguishable from the
+            // plain hairline. Mixing colour into near-black is how this screen
+            // ended up looking uncoloured in the first place.
+            let border = accent;
+            let bg = `color-mix(in srgb, ${accent} 7%, transparent)`;
             if (answered && isAnswer) {
               border = 'var(--ok, #2e9e5b)';
               bg = 'color-mix(in srgb, var(--ok, #2e9e5b) 12%, transparent)';
@@ -154,10 +168,10 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 <span
                   style={{
                     flex: 'none', width: 24, height: 24, borderRadius: '50%',
-                    border: `1.5px solid ${answered && (isAnswer || isPick) ? border : 'var(--border, #c9c2af)'}`,
+                    border: `1.5px solid ${answered && (isAnswer || isPick) ? border : accent}`,
                     background: answered && isAnswer ? 'var(--ok, #2e9e5b)'
                       : answered && isPick ? 'var(--bad, #c4462f)' : 'transparent',
-                    color: answered && (isAnswer || isPick) ? '#fff' : 'var(--text-secondary, #6b7180)',
+                    color: answered && (isAnswer || isPick) ? '#fff' : accent,
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     fontSize: 11.5, fontWeight: 700, marginTop: 1, textTransform: 'uppercase',
                   }}

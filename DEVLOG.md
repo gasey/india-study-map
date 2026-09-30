@@ -9,6 +9,35 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-30 (later) — LDE out as a category
+
+**What shipped.** The bank is **Direct recruitment only**: 45 papers, 3,177 MCQ
++ 162 written. `UDC LDE Paper-I.` (30 General English MCQ + 3 written) was
+briefly listed and is now **unlisted** — its staged artifact is untouched, so
+restoring it is one entry in `PAPERS`.
+
+**Why.** LDE is departmental promotion, a different syllabus. Of the eight LDE
+papers parsed, seven test service rules (CCS Conduct Rules, GFR 2017, dak and
+office procedure, leave and LTC). The user was offered a pass over the 62
+unread ones and declined it, choosing to close the category.
+
+**The limit of that evidence is recorded in
+`../mpsc-question-bank/state/out-of-scope.json` and matters:** 8 of 70 were
+read. Some of the rest are titled "LDC to UDC LDE" and may be GK/English. It is
+a scope decision, not a finding about all 70.
+
+**Also: the corpus is verified complete against the live MPSC site.** A
+list-only diff on 2026-09-30 walked 75 pages, found 3,973 URLs, 160 not held
+locally, 67 of them question papers, and **zero clerical**. The undownloaded
+ones are other cadres entirely. One results page returned HTTP 500; it cannot
+hold a question paper, but the failure is recorded rather than rounded off.
+
+**What's still open.** Unchanged: no model answers for the written prompts,
+passages inline rather than in the `passage` field, and 31 comprehension items
+with no single mark figure.
+
+---
+
 ## 2026-09-30 — the last paper, and options beyond (d)
 
 **What shipped.** The clerical Direct corpus is **complete: 46 papers, 3,207

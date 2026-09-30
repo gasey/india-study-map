@@ -212,12 +212,12 @@ PAPERS = {
         "Assistant Grade under Govt. of Mizoram (Section B: Arithmetic)",
         "Assistant Grade", "Paper-II", 2010, "March", "UDC_OLD"),
 
-    # The one LDE paper in scope: its 30 questions are General English, which
-    # the Direct exam also tests. The other seven LDE papers of this set are
-    # departmental service rules and are excluded -- see out-of-scope.json.
-    "UDC LDE Paper-I.": (
-        "mpsc-udc-lde-2025-paper-1", "UDC (LDE) under Various Departments",
-        "Upper Division Clerk", "Paper-I", 2025, "August", "UDC_OLD"),
+    # NO LDE PAPERS. The user scoped the bank to DIRECT recruitment on
+    # 2026-09-30, as a whole category -- see
+    # ../mpsc-question-bank/state/out-of-scope.json. "UDC LDE Paper-I." was
+    # briefly listed here because its 30 questions are General English, which
+    # the Direct exam also tests; it is unlisted rather than deleted, and its
+    # staged artifact is untouched, so restoring it is one entry.
 }
 
 # Marks per MCQ, by slug. The modern clerical scheme is 2 marks a question
@@ -264,7 +264,6 @@ MARKS_PER_QUESTION = {
     # The exception: UDC LDE Paper-I prints "All questions carry equal mark of
     # 2 each" over a 60-mark MCQ section -- 30 questions, not 60. Read from the
     # paper, which is why its blueprint came out right.
-    "mpsc-udc-lde-2025-paper-1": 2,
 }
 DEFAULT_MARKS = 2
 
@@ -278,7 +277,11 @@ DEFAULT_MARKS = 2
 # not mention it at all. Scoring a candidate against a penalty their paper
 # never warned them about would be inventing a rule, so the date test alone is
 # not enough.
-NO_PENALTY = {"mpsc-udc-lde-2025-paper-1"}
+# Empty while the bank is Direct-only: the one paper this existed for was the
+# Aug-2025 LDE sitting, now out of scope. Kept because the reasoning is the
+# reusable part -- Gazette Ex-582/2025 amends Schedules I-III, the DIRECT
+# schedules, so a date test alone does not settle whether a penalty applies.
+NO_PENALTY = set()
 
 # our section id -> (bank subject, topic id, human label)
 SECTION = {

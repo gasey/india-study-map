@@ -84,11 +84,15 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
     if (answered) return;
     setPicked(idx);
     const ok = idx === q.answerIndex;
-    onAnswer(q.id, ok);
     setSession((s) => ({ done: s.done + 1, right: s.right + (ok ? 1 : 0) }));
   };
 
   const next = () => {
+    // Record only when the learner explicitly moves on. This keeps the active
+    // question in the filtered pool long enough for its answer and explanation
+    // to be read; recording on selection would immediately remove it when the
+    // active filter is "unanswered".
+    if (picked !== null) onAnswer(q.id, picked === q.answerIndex);
     setPicked(null);
     setI((v) => (v + 1) % pool.length);
   };

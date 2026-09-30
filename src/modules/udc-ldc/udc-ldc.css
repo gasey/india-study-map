@@ -10,13 +10,20 @@
   --udc-gold-soft: color-mix(in srgb, var(--udc-gold) 16%, transparent);
   --udc-panel: var(--bg-panel, #fff);
   --udc-border: color-mix(in srgb, var(--udc-primary) 22%, var(--border, #dcdce3));
+  --udc-page: #f6f5ef;
   --info: var(--udc-primary);
   --border: var(--udc-border);
   --bg-panel-elev: color-mix(in srgb, var(--udc-gold) 8%, var(--bg-panel, #fff));
-  background:
-    radial-gradient(ellipse 70% 34% at 100% 0%, color-mix(in srgb, var(--udc-gold) 11%, transparent), transparent 72%),
-    radial-gradient(ellipse 62% 30% at 0% 18%, color-mix(in srgb, var(--udc-primary) 7%, transparent), transparent 70%),
-    var(--bg-app);
+  background-color: var(--udc-page);
+  background-image:
+    linear-gradient(rgba(21, 36, 59, .045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(21, 36, 59, .045) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+html.dark .udc-ldc-page {
+  --udc-page: var(--bg-app);
+  background-image: none;
 }
 
 .udc-ldc-page > .udc-ldc-content {

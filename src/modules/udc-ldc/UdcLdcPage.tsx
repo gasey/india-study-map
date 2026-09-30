@@ -679,7 +679,7 @@ function BrowseView({
                                         ? 'color-mix(in srgb, var(--ok, #2e9e5b) 12%, transparent)'
                                         : isBadPick
                                           ? 'color-mix(in srgb, var(--bad, #c4462f) 12%, transparent)'
-                                          : `color-mix(in srgb, ${accent} 7%, transparent)`,
+                                          : 'var(--bg-panel, #fff)',
                                       color: 'inherit',
                                       cursor: markable && !open ? 'pointer' : 'default',
                                     }}

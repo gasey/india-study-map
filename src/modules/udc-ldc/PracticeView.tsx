@@ -151,7 +151,9 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
             // plain hairline. Mixing colour into near-black is how this screen
             // ended up looking uncoloured in the first place.
             let border = accent;
-            let bg = `color-mix(in srgb, ${accent} 7%, transparent)`;
+            // Keep neutral options white; green is reserved for the confirmed
+            // answer so the click result is immediately legible.
+            let bg = 'var(--bg-panel, #fff)';
             if (answered && isAnswer) {
               border = 'var(--ok, #2e9e5b)';
               bg = 'color-mix(in srgb, var(--ok, #2e9e5b) 12%, transparent)';

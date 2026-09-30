@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { hasCap, useAuthStore } from '@/lib/authStore';
 import * as api from '@/lib/mpscApi';
 import type { Comment, PublicFlagStatus } from '@/lib/mpscApi';
@@ -54,6 +54,7 @@ export function QuestionReviewPanel({
       return next;
     });
   };
+  const collapseAll = () => setSections(new Set());
 
   useEffect(() => {
     if (autoOpenComments && !autoDone) {
@@ -102,18 +103,23 @@ export function QuestionReviewPanel({
       </button>
 
       <div className="flex gap-2 flex-wrap items-center">
-        <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('flag')} style={{ border: '1px solid var(--border)', background: sections.has('flag') ? 'color-mix(in srgb, var(--accent) 12%, transparent)' : 'transparent', color: sections.has('flag') ? 'var(--accent)' : 'var(--text-secondary)' }}>
+        <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('flag')} style={{ border: '1px solid color-mix(in srgb, #c4462f 35%, var(--border))', background: sections.has('flag') ? 'color-mix(in srgb, #c4462f 12%, transparent)' : 'transparent', color: '#c4462f' }}>
           🚩 Flag{subpartLabel ? ` (${subpartLabel})` : ''}
         </button>
-        <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('note')} style={{ border: '1px solid var(--border)', background: sections.has('note') ? 'color-mix(in srgb, var(--accent) 12%, transparent)' : 'transparent', color: sections.has('note') ? 'var(--accent)' : 'var(--text-secondary)' }}>
+        <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('note')} style={{ border: '1px solid color-mix(in srgb, #b06f1a 35%, var(--border))', background: sections.has('note') ? 'color-mix(in srgb, #b06f1a 12%, transparent)' : 'transparent', color: '#b06f1a' }}>
           📝 My note
         </button>
-        <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('comments')} style={{ border: '1px solid var(--border)', background: sections.has('comments') ? 'color-mix(in srgb, var(--accent) 12%, transparent)' : 'transparent', color: sections.has('comments') ? 'var(--accent)' : 'var(--text-secondary)' }}>
+        <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('comments')} style={{ border: '1px solid color-mix(in srgb, var(--info, #3b7dd8) 35%, var(--border))', background: sections.has('comments') ? 'color-mix(in srgb, var(--info, #3b7dd8) 12%, transparent)' : 'transparent', color: 'var(--info, #3b7dd8)' }}>
           💬 Comments
         </button>
         {hasCap(user, 'correction.write') && (
           <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => setEditing((open) => !open)} style={{ border: '1px solid var(--border)', background: editing ? 'color-mix(in srgb, var(--accent) 12%, transparent)' : 'transparent', color: editing ? 'var(--accent)' : 'var(--text-secondary)' }}>
             ✏️ Edit question
+          </button>
+        )}
+        {sections.size > 0 && (
+          <button className="ml-auto text-xs" onClick={collapseAll} style={{ color: 'var(--text-secondary)' }}>
+            Collapse all
           </button>
         )}
       </div>
@@ -165,6 +171,7 @@ function FlagForm({
   const [submitting, setSubmitting] = useState(false);
   const [done, setDone] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const submitLock = useRef(false);
 
   if (done) {
     return <p className="text-xs mt-2" style={{ color: '#2e7d4f' }}>Thanks — flagged for review. Check "My reports" in the Progress tab for status.</p>;
@@ -175,6 +182,8 @@ function FlagForm({
       className="mt-2 space-y-2"
       onSubmit={async (e) => {
         e.preventDefault();
+        if (submitLock.current) return;
+        submitLock.current = true;
         setSubmitting(true);
         setError(null);
         try {
@@ -192,6 +201,7 @@ function FlagForm({
         } catch (e) {
           setError(e instanceof Error ? e.message : 'Failed to submit');
         } finally {
+          submitLock.current = false;
           setSubmitting(false);
         }
       }}
@@ -251,6 +261,7 @@ function NoteBox({ bankId, questionId }: { bankId: string; questionId: string })
   const [loaded, setLoaded] = useState(false);
   const [saving, setSaving] = useState(false);
   const [savedAt, setSavedAt] = useState<number | null>(null);
+  const saveLock = useRef(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -264,11 +275,14 @@ function NoteBox({ bankId, questionId }: { bankId: string; questionId: string })
   }, [bankId, questionId]);
 
   const save = async () => {
+    if (saveLock.current) return;
+    saveLock.current = true;
     setSaving(true);
     try {
       await api.saveNote(bankId, questionId, note);
       setSavedAt(Date.now());
     } finally {
+      saveLock.current = false;
       setSaving(false);
     }
   };
@@ -314,6 +328,7 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
   const [editingId, setEditingId] = useState<number | null>(null);
   const [editBody, setEditBody] = useState('');
   const [error, setError] = useState<string | null>(null);
+  const postLock = useRef(false);
 
   const load = () => {
     api.listComments(bankId, questionId).then((r) => setComments(r.comments));
@@ -322,6 +337,8 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
 
   const post = async () => {
     if (!body.trim()) return;
+    if (postLock.current) return;
+    postLock.current = true;
     setPosting(true);
     setError(null);
     try {
@@ -331,12 +348,15 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Could not post comment');
     } finally {
+      postLock.current = false;
       setPosting(false);
     }
   };
 
   const postReply = async (parentId: number) => {
     if (!replyBody.trim()) return;
+    if (postLock.current) return;
+    postLock.current = true;
     setPosting(true);
     setError(null);
     try {
@@ -347,6 +367,7 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Could not post reply');
     } finally {
+      postLock.current = false;
       setPosting(false);
     }
   };

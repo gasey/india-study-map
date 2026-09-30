@@ -20,6 +20,7 @@ import { useFlags, type FlagInfo } from './useFlags';
 import { FilterRail } from './FilterRail';
 import { PracticeView } from './PracticeView';
 import { ExamView } from './ExamView';
+import './udc-ldc.css';
 
 // ============================================
 // MPSC CLERICAL CADRE — LDC / UDC / ASSISTANT GRADE
@@ -853,18 +854,21 @@ export default function UdcLdcPage() {
     // page must supply its OWN scroll container — see PyqPage/PapersPage, which
     // both use `scroll-panel ... overflow-y-auto`. Without it the page renders
     // at full height inside a clipped box and simply cannot be scrolled.
-    <div className="scroll-panel h-full overflow-y-auto">
-      <div style={{ padding: '20px 24px 48px', maxWidth: 1100, margin: '0 auto' }}>
+    <div className="scroll-panel h-full overflow-y-auto udc-ldc-page">
+      <div className="udc-ldc-content" style={{ padding: '20px 24px 48px', maxWidth: 1100, margin: '0 auto' }}>
+      <div className="udc-hero">
       <h1 style={{ margin: '0 0 4px', fontSize: 22 }}>MPSC Clerical — LDC / UDC / Assistant</h1>
-      <p style={{ margin: '0 0 18px', opacity: 0.75, fontSize: 14 }}>
+      <p style={{ margin: 0, fontSize: 14 }}>
         Past papers of the Mizoram Ministerial Service clerical cadre, checked question by
         question against the printed pages.
       </p>
+      </div>
 
-      <div style={{ display: 'flex', gap: 8, marginBottom: 18 }}>
+      <div className="udc-tabs" style={{ display: 'flex', gap: 8, marginBottom: 18 }}>
         {(['progress', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
           <button
             key={t}
+            className={`udc-tab ${tab === t ? 'is-active' : ''}`}
             onClick={() => setTab(t)}
             style={{
               padding: '6px 14px', borderRadius: 999, cursor: 'pointer', font: 'inherit',

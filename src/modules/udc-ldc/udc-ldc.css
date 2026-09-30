@@ -1,0 +1,70 @@
+/* UDC / LDC visual skin
+   The module is deliberately scoped so its stronger green-and-gold study
+   identity does not change the rest of the app. The colours are inherited
+   from the shared subject tokens where possible, so dark/neon themes remain
+   legible. */
+.udc-ldc-page {
+  --udc-primary: var(--green, #1d7a3f);
+  --udc-primary-deep: color-mix(in srgb, var(--udc-primary) 78%, #102719);
+  --udc-gold: var(--gold, #d59b20);
+  --udc-gold-soft: color-mix(in srgb, var(--udc-gold) 16%, transparent);
+  --udc-panel: var(--bg-panel, #fff);
+  --udc-border: color-mix(in srgb, var(--udc-primary) 22%, var(--border, #dcdce3));
+  --info: var(--udc-primary);
+  --border: var(--udc-border);
+  --bg-panel-elev: color-mix(in srgb, var(--udc-gold) 8%, var(--bg-panel, #fff));
+}
+
+.udc-ldc-page > .udc-ldc-content {
+  padding-top: 0 !important;
+}
+
+.udc-hero {
+  margin: 0 -24px 22px;
+  padding: 22px 24px 20px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 92% 12%, color-mix(in srgb, var(--udc-gold) 34%, transparent), transparent 30%),
+    linear-gradient(135deg, var(--udc-primary-deep), var(--udc-primary));
+  border-bottom: 4px solid var(--udc-gold);
+}
+.udc-hero h1 { color: #fff; letter-spacing: -.02em; }
+.udc-hero p { color: color-mix(in srgb, #fff 78%, var(--udc-gold)); opacity: 1 !important; }
+
+.udc-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px !important;
+  flex-wrap: wrap;
+}
+.udc-tab {
+  border: 1.5px solid var(--udc-border) !important;
+  background: var(--udc-panel) !important;
+  color: var(--text-secondary) !important;
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--udc-primary) 10%, transparent);
+  transition: transform var(--dur-1) var(--ease), background var(--dur-1) var(--ease), color var(--dur-1) var(--ease), box-shadow var(--dur-1) var(--ease);
+}
+.udc-tab:hover { transform: translateY(-1px); border-color: var(--udc-primary) !important; color: var(--udc-primary) !important; }
+.udc-tab.is-active {
+  background: var(--udc-primary) !important;
+  border-color: var(--udc-primary) !important;
+  color: #fff !important;
+  box-shadow: 0 3px 8px color-mix(in srgb, var(--udc-primary) 28%, transparent);
+}
+
+/* The progress cards and paper rows inherit these variables from their inline
+   styles; these rules add the tactile treatment that the old neutral screen
+   lacked. */
+.udc-ldc-page button {
+  transition: transform var(--dur-1) var(--ease), background var(--dur-1) var(--ease), border-color var(--dur-1) var(--ease), box-shadow var(--dur-1) var(--ease);
+}
+.udc-ldc-page button:hover:not(:disabled) { border-color: var(--udc-primary) !important; }
+.udc-ldc-page button:active:not(:disabled) { transform: translateY(1px); }
+
+.udc-ldc-page table thead tr { background: var(--bg-panel-elev); }
+.udc-ldc-page table th { color: var(--udc-primary); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+.udc-ldc-page table tbody tr:hover { background: color-mix(in srgb, var(--udc-gold) 7%, transparent); }
+
+@media (max-width: 640px) {
+  .udc-hero { margin-left: -16px; margin-right: -16px; padding-left: 16px; padding-right: 16px; }
+}

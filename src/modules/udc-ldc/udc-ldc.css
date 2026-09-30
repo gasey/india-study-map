@@ -72,6 +72,10 @@ html.dark .udc-ldc-page {
 .udc-ldc-page button:hover:not(:disabled) { border-color: var(--udc-primary) !important; }
 .udc-ldc-page button:active:not(:disabled) { transform: translateY(1px); }
 
+.udc-question-stem { font-weight: 650; }
+.udc-option-label { font-weight: 600; }
+.udc-question-number { font-weight: 750; color: var(--udc-primary); opacity: 1 !important; }
+
 .udc-ldc-page table thead tr { background: var(--bg-panel-elev); }
 .udc-ldc-page table th { color: var(--udc-primary); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
 .udc-ldc-page table tbody tr:hover { background: color-mix(in srgb, var(--udc-gold) 7%, transparent); }

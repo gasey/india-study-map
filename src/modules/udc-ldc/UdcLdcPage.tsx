@@ -630,11 +630,11 @@ function BrowseView({
                     }}
                   >
                     <div style={{ display: 'flex', gap: 10, alignItems: 'baseline' }}>
-                      <span style={{ opacity: 0.55, fontVariantNumeric: 'tabular-nums' }}>
+                      <span className="udc-question-number" style={{ opacity: 0.55, fontVariantNumeric: 'tabular-nums' }}>
                         {i + 1}.
                       </span>
                       <div style={{ flex: 1 }}>
-                        <div style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
+                        <div className="udc-question-stem" style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
                         <QuestionImage path={q.imagePath} />
                         {q.figureBased && (
                           <div style={{
@@ -696,7 +696,7 @@ function BrowseView({
                                     }}>
                                       {optionLetter(oi)}
                                     </span>
-                                    <span><QuestionText text={o} /></span>
+                                    <span className="udc-option-label"><QuestionText text={o} /></span>
                                   </button>
                                 );
                               })}

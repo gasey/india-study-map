@@ -138,7 +138,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         {q.source && (
           <div style={{ fontSize: 11.5, opacity: 0.65, marginBottom: 9 }}>{q.source}</div>
         )}
-        <div style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} /></div>
+        <div className="udc-question-stem" style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} /></div>
         <QuestionImage path={q.imagePath} />
 
         <div style={{ display: 'grid', gap: 8 }}>
@@ -191,7 +191,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 >
                   {optionLetter(idx)}
                 </span>
-                <span style={{ paddingTop: 2 }}><QuestionText text={o} /></span>
+                <span className="udc-option-label" style={{ paddingTop: 2 }}><QuestionText text={o} /></span>
               </button>
             );
           })}

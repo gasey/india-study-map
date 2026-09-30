@@ -76,6 +76,27 @@ html.dark .udc-ldc-page {
 .udc-option-label { font-weight: 600; }
 .udc-question-number { font-weight: 750; color: var(--udc-primary); opacity: 1 !important; }
 
+/* Review controls stay to one quiet row until the learner opens them. Once an
+   answer is chosen, autoOpenComments expands the thread and restores the
+   supporting actions below it. */
+.udc-review-compact { padding-top: 6px; margin-top: 10px !important; }
+.udc-review-compact .udc-review-trigger {
+  margin-bottom: 0 !important;
+  padding: 4px 7px !important;
+  border: 0 !important;
+  border-radius: 6px !important;
+  background: transparent !important;
+}
+.udc-review-compact .udc-review-trigger:hover { background: var(--bg-panel-elev) !important; }
+.udc-review-compact .udc-review-icon {
+  width: 22px !important;
+  height: 22px !important;
+  font-size: 12px !important;
+  border-radius: 5px !important;
+}
+.udc-review-compact .udc-review-description { display: none !important; }
+.udc-review-compact .udc-review-actions:not(.is-open) { display: none; }
+
 .udc-ldc-page table thead tr { background: var(--bg-panel-elev); }
 .udc-ldc-page table th { color: var(--udc-primary); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
 .udc-ldc-page table tbody tr:hover { background: color-mix(in srgb, var(--udc-gold) 7%, transparent); }

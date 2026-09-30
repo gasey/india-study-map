@@ -780,6 +780,7 @@ function BrowseView({
                           bankId={BANK_ID}
                           questionId={q.id}
                           options={isMcqQuestion(q) ? q.options : undefined}
+                          compact
                           // Once the reader has committed to an option, show
                           // what everyone else said about it.
                           autoOpenComments={shown.has(q.id)}

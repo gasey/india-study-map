@@ -35,10 +35,12 @@ interface Props {
    * who deliberately closed the thread.
    */
   autoOpenComments?: boolean;
+  /** Compact one-row trigger for dense question-bank screens. */
+  compact?: boolean;
 }
 
 export function QuestionReviewPanel({
-  bankId, questionId, options, subpartLabel, autoOpenComments,
+  bankId, questionId, options, subpartLabel, autoOpenComments, compact = false,
 }: Props) {
   const { user } = useAuthStore();
   const [sections, setSections] = useState<Set<Section>>(new Set());
@@ -78,11 +80,11 @@ export function QuestionReviewPanel({
   }, [bankId, questionId]);
 
   return (
-    <div className="mt-3 pt-3" style={{ borderTop: '1px solid var(--border)', background: 'color-mix(in srgb, var(--bg-panel-elev) 35%, transparent)' }}>
+    <div className={`mt-3 pt-3 udc-review-panel ${compact ? 'udc-review-compact' : ''}`} style={{ borderTop: '1px solid var(--border)', background: 'color-mix(in srgb, var(--bg-panel-elev) 35%, transparent)' }}>
       <button
         type="button"
         onClick={() => toggle('comments')}
-        className="w-full text-left rounded-xl px-3 py-2 mb-2"
+        className="udc-review-trigger w-full text-left rounded-xl px-3 py-2 mb-2"
         style={{
           display: 'block',
           border: '1px solid color-mix(in srgb, var(--info, #3b7dd8) 45%, var(--border))',
@@ -91,10 +93,10 @@ export function QuestionReviewPanel({
         }}
       >
         <div className="flex items-center gap-3">
-          <span className="flex items-center justify-center rounded-lg text-base" style={{ width: 32, height: 32, background: 'color-mix(in srgb, var(--info, #3b7dd8) 18%, transparent)' }}>💬</span>
+          <span className="udc-review-icon flex items-center justify-center rounded-lg text-base" style={{ width: 32, height: 32, background: 'color-mix(in srgb, var(--info, #3b7dd8) 18%, transparent)' }}>💬</span>
           <span className="flex-1">
             <span className="block text-xs font-semibold" style={{ color: 'var(--text-primary)' }}>Question discussion</span>
-            <span className="block text-[11px] mt-0.5" style={{ color: 'var(--text-secondary)' }}>
+            <span className="udc-review-description block text-[11px] mt-0.5" style={{ color: 'var(--text-secondary)' }}>
               Share an explanation, correction, or useful exam tip with other learners.
             </span>
           </span>
@@ -102,7 +104,7 @@ export function QuestionReviewPanel({
         </div>
       </button>
 
-      <div className="flex gap-2 flex-wrap items-center">
+      <div className={`udc-review-actions flex gap-2 flex-wrap items-center ${sections.size > 0 ? 'is-open' : ''}`}>
         <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('flag')} style={{ border: '1px solid color-mix(in srgb, #c4462f 35%, var(--border))', background: sections.has('flag') ? 'color-mix(in srgb, #c4462f 12%, transparent)' : 'transparent', color: '#c4462f' }}>
           🚩 Flag{subpartLabel ? ` (${subpartLabel})` : ''}
         </button>

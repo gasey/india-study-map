@@ -277,6 +277,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
           bankId={BANK_ID}
           questionId={q.id}
           options={q.options}
+          compact
           autoOpenComments={answered}
         />
       </div>

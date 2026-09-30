@@ -630,7 +630,16 @@ function BrowseView({
                         {i + 1}.
                       </span>
                       <div style={{ flex: 1 }}>
-                        <div style={{ marginBottom: 6 }}><QuestionText text={q.question} /></div>
+                        <div style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
+                        {q.figureBased && (
+                          <div style={{
+                            margin: '8px 0', padding: '12px', textAlign: 'center',
+                            border: '1px dashed var(--border, #dcdce3)', borderRadius: 8,
+                            color: 'var(--warn, #b06f1a)', fontSize: 12.5,
+                          }}>
+                            Figure from the source scan is unavailable; this question is not scored.
+                          </div>
+                        )}
                         {isMcqQuestion(q) && q.options.length > 0 && (() => {
                           const open = shown.has(q.id);
                           const mine = picked[q.id];

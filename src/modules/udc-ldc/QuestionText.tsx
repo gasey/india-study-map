@@ -118,20 +118,30 @@ function MatchingLists({ text }: { text: string }) {
   );
 }
 
-export function QuestionText({ text }: { text: string }) {
-  if (!text) return null;
-  // Called as a plain function, not rendered as an element, because the whole
-  // point is to find out whether it CAN parse: it returns null when the text
-  // merely mentions List-II, and then the ordinary renderer runs instead of
-  // half a table appearing.
-  const table = MatchingLists({ text });
-  if (table) return table;
+function repairMathGlyphs(text: string) {
+  // A few source PDFs used a symbol font that came through as Ö, and the
+  // superscript layer flattened expressions such as x² into x2. These repairs
+  // are deliberately narrow: algebraic bases and square-centimetre units,
+  // never arbitrary prose or dimensions such as 300x200.
+  return text
+    .replace(/Ö/g, '√')
+    .replace(/\b([xp])(?:\^)?(101|[2-4])\b/gi, (_, base: string, exponent: string) =>
+      `${base}${[...exponent].map((d) => '⁰¹²³⁴⁵⁶⁷⁸⁹'[Number(d)]).join('')}`,
+    )
+    .replace(/\b(a)(14|8)\b/g, (_, base: string, exponent: string) =>
+      `${base}${[...exponent].map((d) => '⁰¹²³⁴⁵⁶⁷⁸⁹'[Number(d)]).join('')}`,
+    )
+    .replace(/\bcm2\b/gi, 'cm²');
+}
+
+function InlineText({ text }: { text: string }) {
   const parts: React.ReactNode[] = [];
   let last = 0;
   let m: RegExpExecArray | null;
   MARKED.lastIndex = 0;
-  while ((m = MARKED.exec(text)) !== null) {
-    if (m.index > last) parts.push(text.slice(last, m.index));
+  const repaired = repairMathGlyphs(text);
+  while ((m = MARKED.exec(repaired)) !== null) {
+    if (m.index > last) parts.push(repaired.slice(last, m.index));
     parts.push(
       m[1] !== undefined ? (
         <u key={m.index} style={{ textUnderlineOffset: 3 }}>
@@ -143,7 +153,30 @@ export function QuestionText({ text }: { text: string }) {
     );
     last = m.index + m[0].length;
   }
-  if (!parts.length) return <>{text}</>;
-  if (last < text.length) parts.push(text.slice(last));
+  if (!parts.length) return <>{repaired}</>;
+  if (last < repaired.length) parts.push(repaired.slice(last));
   return <>{parts}</>;
+}
+
+export function QuestionText({ text }: { text: string }) {
+  if (!text) return null;
+  // Called as a plain function, not rendered as an element, because the whole
+  // point is to find out whether it CAN parse: it returns null when the text
+  // merely mentions List-II, and then the ordinary renderer runs instead of
+  // half a table appearing.
+  const table = MatchingLists({ text });
+  if (table) return table;
+
+  const lines = text.replace(/\r\n?/g, '\n').split('\n');
+  if (lines.length === 1) return <InlineText text={text} />;
+
+  return (
+    <span style={{ display: 'block' }}>
+      {lines.map((line, i) => (
+        <span key={i} style={{ display: 'block', minHeight: line ? undefined : '0.65em' }}>
+          <InlineText text={line} />
+        </span>
+      ))}
+    </span>
+  );
 }

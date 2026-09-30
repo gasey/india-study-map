@@ -289,7 +289,16 @@ function ExamSitting({
                   {i + 1}.
                 </span>
                 <div style={{ flex: 1 }}>
-                  <div style={{ marginBottom: 8 }}><QuestionText text={q.question} /></div>
+                  <div style={{ marginBottom: 8, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
+                  {q.figureBased && (
+                    <div style={{
+                      margin: '8px 0', padding: '12px', textAlign: 'center',
+                      border: '1px dashed var(--border, #dcdce3)', borderRadius: 8,
+                      color: 'var(--warn, #b06f1a)', fontSize: 12.5,
+                    }}>
+                      Figure from the source scan is unavailable; this question is not scored.
+                    </div>
+                  )}
                   {unscorable ? (
                     <div style={{ fontSize: 12.5, color: 'var(--bad, #c4462f)' }}>
                       Not answerable from the source scan — excluded from the score.

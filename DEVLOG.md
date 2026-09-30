@@ -9,6 +9,23 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-30 (UDC/LDC presentation) — readable equations and question blocks
+
+**What shipped.** The UDC/LDC question renderer now preserves line breaks,
+gives stems consistent line height and wrapping, repairs narrow OCR glyph
+damage such as `Ö`/`√`, common flattened exponents, and `cm2`, and centers a
+clear notice when a source figure is unavailable. A small set of unambiguous
+2018–2020 arithmetic/algebra records was corrected in the bank itself,
+including flattened fractions, radicals, superscripts, and the LCM options.
+
+**Verification.** `npm run lint`, `npm run build`, and `git diff --check` pass.
+
+**What's still open.** The bank still contains genuinely unrecoverable figure
+scans and ambiguous flattened equations; those need source-PDF review rather
+than an automated guess. These changes are not committed or pushed yet.
+
+---
+
 ## 2026-09-30 (attribution) — correction responses expose the editor
 
 **What shipped.** The live `mpsc-api` corrections query now selects the

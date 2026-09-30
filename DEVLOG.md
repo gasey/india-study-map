@@ -9,6 +9,31 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-30 (blocks) — Browse paper rows become link blocks
+
+**What shipped.** The Browse paper headers were a line of text and a chevron.
+They are now the link-block pattern from `quick-revision`: glyph, bold title,
+muted subtitle, an amber note line, a count pill, and a tinted open state.
+
+**The glyph earns its place rather than decorating.** `✍️` marks a paper that
+is written THROUGHOUT — eight of the forty-five — and `📄` everything else.
+That was previously discoverable only by opening a paper and finding no
+options anywhere in it.
+
+**Exactly one note per block, ranked.** "Written throughout" beats "no answers
+yet" beats "−⅓ negative marking" beats "N unanswerable — figures lost". A block
+carrying three warnings reads as noise and the reader stops seeing any of them,
+so the ranking answers *can I practise this at all* before *how is it scored*.
+
+The count pill shows what is SHOWN over what the paper holds (`2/77` with a
+filter on), not the paper's own total — the same distinction the earlier
+"77 questions over a list of 2" bug came from.
+
+**What's still open.** Unchanged: the correction/report/notes work belongs on
+the existing droplet service, not here.
+
+---
+
 ## 2026-09-30 (layout) — Browse becomes a test, not a solution sheet
 
 **What shipped.** Four changes to `/udc-ldc`, following the patterns already

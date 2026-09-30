@@ -466,6 +466,18 @@ function BrowseView({
       </div>
       {visible.map((r) => {
         const isOpen = openId === r.paper.id;
+        // ONE note only, most-important first. A block carrying three warnings
+        // reads as noise and the reader stops seeing any of them; the ranking
+        // is "can I practise this at all" before "how is it scored".
+        const note = r.mcqTotal === 0
+          ? 'Written throughout — no multiple choice in this paper'
+          : r.answered === 0
+            ? 'No answers yet — MPSC published no key for this sitting'
+            : mpscUdcLdcNegativeMarking[r.paper.id]
+              ? 'Sat under −⅓ negative marking'
+              : r.unanswerable > 0
+                ? `${r.unanswerable} question${r.unanswerable === 1 ? '' : 's'} unanswerable — figures lost in the scan`
+                : '';
         return (
           <div
             key={r.paper.id}
@@ -474,25 +486,49 @@ function BrowseView({
             <button
               onClick={() => setOpen(isOpen ? '' : r.paper.id)}
               style={{
-                width: '100%', textAlign: 'left', padding: '12px 14px', cursor: 'pointer',
-                background: 'transparent', border: 0, font: 'inherit', color: 'inherit',
-                display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12,
+                width: '100%', textAlign: 'left', padding: '13px 14px', cursor: 'pointer',
+                background: isOpen ? 'color-mix(in srgb, var(--info, #3b7dd8) 9%, transparent)' : 'transparent',
+                border: 0, borderRadius: 10, font: 'inherit', color: 'inherit',
+                display: 'flex', alignItems: 'center', gap: 12,
+                transition: 'background .15s',
               }}
             >
-              <span>
-                <strong>{r.paper.examName}</strong>
-                <span style={{ opacity: 0.7 }}>
-                  {' '}· {r.paper.paperNumber} · {r.paper.year}
+              {/* Written-throughout papers get their own glyph. Eight of these
+                  contain no MCQ at all, and that is the single most useful
+                  thing to know before opening one — it was previously
+                  discoverable only by opening it and finding no options. */}
+              <span style={{ flex: 'none', fontSize: 19, lineHeight: 1 }}>
+                {r.mcqTotal === 0 ? '✍️' : '📄'}
+              </span>
+              <span style={{ flex: 1, minWidth: 0 }}>
+                <span style={{ display: 'block', fontWeight: 700, lineHeight: 1.25 }}>
+                  {r.paper.examName}
                 </span>
+                <span style={{ display: 'block', fontSize: 12.5, opacity: 0.7, marginTop: 2 }}>
+                  {r.paper.paperNumber} · {r.paper.post} · {r.paper.year}
+                </span>
+                {note && (
+                  <span style={{
+                    display: 'block', fontSize: 11.5, marginTop: 5, lineHeight: 1.35,
+                    color: 'var(--warn, #b06f1a)',
+                  }}>
+                    {note}
+                  </span>
+                )}
               </span>
               {/* The count of what is SHOWN, not what the paper holds. `visible`
                   spreads the stats row and replaces only `questions`, so `total`
                   is still the unfiltered figure -- with the Written filter on,
                   a paper listing two prompts announced itself as 77 questions. */}
-              <span style={{ fontSize: 12, opacity: 0.7, whiteSpace: 'nowrap' }}>
-                {r.questions.length}
-                {r.questions.length === r.total ? '' : ` of ${r.total}`} questions
-                {' '}{isOpen ? '▾' : '▸'}
+              <span style={{
+                flex: 'none', fontSize: 12, fontWeight: 700, whiteSpace: 'nowrap',
+                background: 'var(--bg-panel-elev, #efece2)', borderRadius: 999,
+                padding: '3px 10px', opacity: 0.85,
+              }}>
+                {r.questions.length}{r.questions.length === r.total ? '' : `/${r.total}`}
+              </span>
+              <span style={{ flex: 'none', opacity: 0.45, fontSize: 12 }}>
+                {isOpen ? '▾' : '▸'}
               </span>
             </button>
 

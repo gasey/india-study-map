@@ -153,7 +153,7 @@ function QuestionCard({
             ⚠ misprint in original paper
           </span>
         )}
-        {correction && <span className="sto-pill" style={{ color: '#2e7d4f', borderColor: '#2e7d4f' }}>✓ corrected by admin</span>}
+        {correction && <span className="sto-pill" style={{ color: '#2e7d4f', borderColor: '#2e7d4f' }}>✓ corrected by admin{correction.updatedBy != null ? ` · user #${correction.updatedBy}` : ''}</span>}
         <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>
           {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}
         </span>

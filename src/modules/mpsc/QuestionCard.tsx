@@ -106,7 +106,7 @@ export function QuestionCard({ q, paper, correction, showAnswer, hidePassage }: 
         <span style={pillStyle(official ? 'var(--ok)' : 'var(--warn)', official)}>
           {official ? 'Official key' : 'Derived'}
         </span>
-        {correction && <span style={pillStyle('var(--ok)')}>✓ Corrected</span>}
+        {correction && <span style={pillStyle('var(--ok)')}>✓ Corrected{correction.updatedBy != null ? ` · user #${correction.updatedBy}` : ''}</span>}
         {q.compensated && <span style={pillStyle('var(--info)')}>Compensated</span>}
         {q.figureBased && <span style={pillStyle('var(--info)')}>Figure-based</span>}
         {!mcq && <span style={pillStyle('var(--plum)')}>Descriptive</span>}

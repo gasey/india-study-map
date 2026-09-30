@@ -65,6 +65,8 @@ export interface Correction {
   /** Per-sub-part overrides for descriptive questions. */
   subparts: CorrectedSubpart[] | null;
   updatedAt: string;
+  /** User id recorded by the correction audit trail. */
+  updatedBy: number | null;
 }
 
 export interface Comment {

@@ -33,7 +33,7 @@ export function DescriptiveQuestionCard({ bankId, question, correction, renderEm
         {subjectClass && (
           <span className={`sto-pill sto-subject ${subjectClass(question.topic)}`}>{question.topic?.replace(/_/g, ' ')}</span>
         )}
-        {correction && <span className="sto-pill" style={{ color: '#2e7d4f', borderColor: '#2e7d4f' }}>✓ corrected by admin</span>}
+        {correction && <span className="sto-pill" style={{ color: '#2e7d4f', borderColor: '#2e7d4f' }}>✓ corrected by admin{correction.updatedBy != null ? ` · user #${correction.updatedBy}` : ''}</span>}
         {meta && <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>{meta}</span>}
       </div>
 

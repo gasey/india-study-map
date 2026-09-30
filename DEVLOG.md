@@ -9,6 +9,19 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-30 (attribution) — correction responses expose the editor
+
+**What shipped.** The live `mpsc-api` corrections query now selects the
+existing `question_corrections.updated_by` value and returns it as
+`updatedBy`; the frontend shows that id beside corrected question cards. The
+service was backed up, compiled, restarted, and verified through the populated
+`mpsc-practice-hub` endpoint. The local client typecheck passes.
+
+**What's still open.** The signed-in round-trip still needs one real browser
+click from the user. Colour/font direction is still awaiting the user's choice.
+
+---
+
 ## 2026-09-30 (flags) — flagged questions are visible and filterable
 
 **What shipped.** `useFlags` pulls the signed-in reader's own reports

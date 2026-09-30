@@ -25,14 +25,37 @@ import type { BankQuestion } from '@/data/banks/types';
 // ============================================
 
 async function resolveQuestion(bankId: string, questionId: string): Promise<BankQuestion | undefined> {
+  let base: BankQuestion | undefined;
   if (bankId === 'mpsc-old-questions') {
     try {
-      return await api.getBankQuestion(questionId);
+      base = await api.getBankQuestion(questionId);
     } catch {
       return undefined;
     }
+  } else {
+    base = getBank(bankId)?.questions.find((q) => q.id === questionId);
   }
-  return getBank(bankId)?.questions.find((q) => q.id === questionId);
+  if (!base) return undefined;
+
+  // The bundled bank is the immutable extraction; corrections live in the
+  // API. Load the saved correction here too, otherwise reopening the editor
+  // silently resets the form to the original stem/options.
+  try {
+    const correction = (await api.getCorrections(bankId))[questionId];
+    if (!correction) return base;
+    return {
+      ...base,
+      question: correction.stem ?? base.question,
+      explanation: correction.explanation ?? base.explanation,
+      ...(isMcqQuestion(base)
+        ? { answerIndex: correction.answerIndex ?? base.answerIndex, options: correction.options ?? base.options }
+        : { subparts: correction.subparts ?? base.subparts }),
+    } as BankQuestion;
+  } catch {
+    // Editing should still work from the bundled/API base if the public
+    // corrections endpoint is temporarily unavailable.
+    return base;
+  }
 }
 
 interface QuestionEditorProps {

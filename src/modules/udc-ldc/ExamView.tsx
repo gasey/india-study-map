@@ -5,6 +5,7 @@ import { mpscUdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
 import { SECTION_LABEL, optionLetter, sectionOf, type SectionId } from './filters';
 import { useAttemptState } from '@/modules/mpsc/useAttemptState';
 import { QuestionText } from './QuestionText';
+import { QuestionImage } from './QuestionImage';
 
 // ============================================
 // Exam display — sit the paper as printed.
@@ -290,6 +291,7 @@ function ExamSitting({
                 </span>
                 <div style={{ flex: 1 }}>
                   <div style={{ marginBottom: 8, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
+                  <QuestionImage path={q.imagePath} />
                   {q.figureBased && (
                     <div style={{
                       margin: '8px 0', padding: '12px', textAlign: 'center',
@@ -330,7 +332,7 @@ function ExamSitting({
                               onChange={() =>
                                 patch((st) => ({ answers: { ...st.answers, [q.id]: oi } }))}
                             />
-                            <span>{optionLetter(oi)}) {o}</span>
+                            <span>{optionLetter(oi)}) <QuestionText text={o} /></span>
                           </label>
                         );
                       })}

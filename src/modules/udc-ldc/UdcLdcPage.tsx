@@ -3,6 +3,7 @@ import { getBank } from '@/data/banks/index';
 import { mpscUdcLdcNegativeMarking } from '@/data/banks/mpsc-udc-ldc';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import { QuestionText } from './QuestionText';
+import { QuestionImage } from './QuestionImage';
 import type { ProgressMap } from './useProgress';
 import { isMcqQuestion } from '@/data/banks/types';
 import { useProgress } from './useProgress';
@@ -13,6 +14,8 @@ import {
   type AnswerState, type AttemptState, type Filters, type SectionId,
 } from './filters';
 import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
+import * as api from '@/lib/mpscApi';
+import type { Correction } from '@/lib/mpscApi';
 import { useFlags, type FlagInfo } from './useFlags';
 import { FilterRail } from './FilterRail';
 import { PracticeView } from './PracticeView';
@@ -631,6 +634,7 @@ function BrowseView({
                       </span>
                       <div style={{ flex: 1 }}>
                         <div style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
+                        <QuestionImage path={q.imagePath} />
                         {q.figureBased && (
                           <div style={{
                             margin: '8px 0', padding: '12px', textAlign: 'center',
@@ -691,7 +695,7 @@ function BrowseView({
                                     }}>
                                       {optionLetter(oi)}
                                     </span>
-                                    <span>{o}</span>
+                                    <span><QuestionText text={o} /></span>
                                   </button>
                                 );
                               })}
@@ -799,6 +803,7 @@ function BrowseView({
 
 export default function UdcLdcPage() {
   const data = useStats();
+  const [corrections, setCorrections] = useState<Record<string, Correction>>({});
   const [tab, setTab] = useState<Tab>('progress');
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   // Open on first visit so the rail is discoverable; the reader collapses it
@@ -807,10 +812,37 @@ export default function UdcLdcPage() {
   const { flags, signedIn } = useFlags();
   const { progress, record, reset } = useProgress();
 
+  useEffect(() => {
+    const refresh = () => api.getCorrections(BANK_ID).then(setCorrections).catch(() => setCorrections({}));
+    refresh();
+    const onApplied = (event: Event) => {
+      const detail = (event as CustomEvent<{ bankId?: string }>).detail;
+      if (!detail?.bankId || detail.bankId === BANK_ID) refresh();
+    };
+    window.addEventListener('mpsc-correction-applied', onApplied);
+    return () => window.removeEventListener('mpsc-correction-applied', onApplied);
+  }, []);
+
+  const correctedQuestions = useMemo(() => {
+    if (!data || Object.keys(corrections).length === 0) return data?.bank.questions ?? [];
+    return data.bank.questions.map((q) => {
+      const c = corrections[q.id];
+      if (!c) return q;
+      return {
+        ...q,
+        question: c.stem ?? q.question,
+        explanation: c.explanation ?? q.explanation,
+        ...(isMcqQuestion(q)
+          ? { answerIndex: c.answerIndex ?? q.answerIndex, options: c.options ?? q.options }
+          : { subparts: c.subparts ?? q.subparts }),
+      } as BankQuestion;
+    });
+  }, [data, corrections]);
+
   const filtered = useMemo(() => {
     if (!data) return [];
-    return applyFilters(data.bank.questions, data.bank.papers ?? [], filters, progress, flags);
-  }, [data, filters, progress]);
+    return applyFilters(correctedQuestions, data.bank.papers ?? [], filters, progress, flags);
+  }, [data, correctedQuestions, filters, progress, flags]);
 
   if (!data) {
     return <div style={{ padding: 24 }}>Bank <code>{BANK_ID}</code> is not registered.</div>;
@@ -892,7 +924,7 @@ export default function UdcLdcPage() {
       {(tab === 'browse' || tab === 'practice') && filtersOpen && (
         <FilterRail
           papers={data.bank.papers ?? []}
-          all={data.bank.questions}
+          all={correctedQuestions}
           filters={filters}
           onChange={setFilters}
           matched={filtered.length}
@@ -910,7 +942,7 @@ export default function UdcLdcPage() {
       {/* The exam view deliberately ignores the filter rail: you sit the whole
           paper as printed, or it is not an exam. */}
       {tab === 'exam' && (
-        <ExamView papers={data.bank.papers ?? []} questions={data.bank.questions} />
+        <ExamView papers={data.bank.papers ?? []} questions={correctedQuestions} />
       )}
       </div>
     </div>

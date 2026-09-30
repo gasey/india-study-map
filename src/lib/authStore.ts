@@ -67,12 +67,25 @@ export const useAuthStore = create<AuthState>()(
           // Refresh from /me: picks up capabilities[] for sessions
           // persisted before it existed, and any role change made
           // server-side since this session's last login.
-          api.me().then((fresh) => useAuthStore.setState({ user: fresh })).catch(() => {});
+          api.me().then((fresh) => useAuthStore.setState({ user: fresh })).catch(() => {
+            api.setApiToken(null);
+            useAuthStore.setState({ token: null, user: null });
+          });
         }
       },
     },
   ),
 );
+
+// A persisted token can outlive the server session/secret. Clear it as soon
+// as any protected request returns 401 instead of leaving the UI looking
+// signed-in while every post/save action fails with "Invalid token".
+if (typeof window !== 'undefined') {
+  window.addEventListener('mpsc-auth-expired', () => {
+    api.setApiToken(null);
+    useAuthStore.setState({ token: null, user: null });
+  });
+}
 
 /** Rank-additive capability check — mirrors the backend's has_cap(). */
 export function hasCap(user: ApiUser | null, cap: string): boolean {

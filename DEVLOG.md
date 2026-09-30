@@ -17,12 +17,17 @@ damage such as `Ö`/`√`, common flattened exponents, and `cm2`, and centers a
 clear notice when a source figure is unavailable. A small set of unambiguous
 2018–2020 arithmetic/algebra records was corrected in the bank itself,
 including flattened fractions, radicals, superscripts, and the LCM options.
+The source pages were checked visually in the SAD Paper-II and ARCS Paper-II
+PDFs, including the stacked fractions in questions 91, 94, and 95 and the
+algebra block in ARCS questions 82–95; options now use the same math renderer
+as stems.
 
 **Verification.** `npm run lint`, `npm run build`, and `git diff --check` pass.
 
 **What's still open.** The bank still contains genuinely unrecoverable figure
-scans and ambiguous flattened equations; those need source-PDF review rather
-than an automated guess. These changes are not committed or pushed yet.
+scans and ambiguous flattened equations; those need their matching source PDF
+and will not be repaired by an automated guess. These additional changes are
+not committed or pushed yet.
 
 ---
 

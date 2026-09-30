@@ -73,6 +73,8 @@ interface BankQuestionBase {
   passage?: string;
   question: string;
   explanation: string;
+  /** Optional source figure/diagram displayed above the answer choices. */
+  imagePath?: string;
   /** Where this question came from — 'UPSC Prelims', 'MPSC', 'Polity Codex'… */
   source?: string;
   /** Exam year for true PYQs, e.g. 2019. */

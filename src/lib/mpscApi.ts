@@ -45,6 +45,12 @@ export interface QuestionReport {
   username: string | null;
 }
 
+export interface PublicFlagStatus {
+  flagged: boolean;
+  count: number;
+  issueTypes: string[];
+}
+
 export interface CorrectedSubpart {
   label: string;
   text: string;
@@ -139,6 +145,9 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   if (authToken) headers.Authorization = `Bearer ${authToken}`;
   const res = await fetch(`${API_BASE}${path}`, { ...options, headers });
   if (!res.ok) {
+    if (res.status === 401 && typeof window !== 'undefined') {
+      window.dispatchEvent(new Event('mpsc-auth-expired'));
+    }
     let detail = res.statusText;
     try {
       const body = await res.json();
@@ -488,6 +497,10 @@ export function listComments(bankId: string, questionId: string) {
 }
 export function addComment(bankId: string, questionId: string, body: string, parentId?: number | null) {
   return request<Comment>('/api/questions/comments', { method: 'POST', body: JSON.stringify({ bankId, questionId, body, parentId }) });
+}
+
+export function publicFlagStatus(bankId: string, questionId: string) {
+  return request<PublicFlagStatus>(`/api/questions/flag-status?bankId=${encodeURIComponent(bankId)}&questionId=${encodeURIComponent(questionId)}`);
 }
 export function editComment(id: number, body: string) {
   return request<{ status: string }>(`/api/questions/comments/${id}`, { method: 'PATCH', body: JSON.stringify({ body }) });

@@ -4,6 +4,7 @@ import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
 import { BANK_ID, SECTION_COLOUR, isAnswerable, optionLetter, sectionOf } from './filters';
 import { QuestionText } from './QuestionText';
+import { QuestionImage } from './QuestionImage';
 import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
 
 // ============================================
@@ -138,6 +139,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
           <div style={{ fontSize: 11.5, opacity: 0.65, marginBottom: 9 }}>{q.source}</div>
         )}
         <div style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} /></div>
+        <QuestionImage path={q.imagePath} />
 
         <div style={{ display: 'grid', gap: 8 }}>
           {q.options.map((o, idx) => {
@@ -187,7 +189,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 >
                   {optionLetter(idx)}
                 </span>
-                <span style={{ paddingTop: 2 }}>{o}</span>
+                <span style={{ paddingTop: 2 }}><QuestionText text={o} /></span>
               </button>
             );
           })}

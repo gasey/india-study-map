@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import { hasCap, useAuthStore } from '@/lib/authStore';
 import * as api from '@/lib/mpscApi';
-import type { Comment } from '@/lib/mpscApi';
+import type { Comment, PublicFlagStatus } from '@/lib/mpscApi';
+import { QuestionEditor } from '@/modules/admin/QuestionEditor';
 
-type Section = null | 'flag' | 'note' | 'comments';
+type Section = 'flag' | 'note' | 'comments';
 
 const ISSUE_TYPES = [
   { value: 'wrong_answer', label: 'Wrong answer' },
@@ -40,12 +41,23 @@ export function QuestionReviewPanel({
   bankId, questionId, options, subpartLabel, autoOpenComments,
 }: Props) {
   const { user } = useAuthStore();
-  const [section, setSection] = useState<Section>(null);
+  const [sections, setSections] = useState<Set<Section>>(new Set());
   const [autoDone, setAutoDone] = useState(false);
+  const [publicFlag, setPublicFlag] = useState<PublicFlagStatus | null>(null);
+  const [editing, setEditing] = useState(false);
+
+  const toggle = (section: Section) => {
+    setSections((current) => {
+      const next = new Set(current);
+      if (next.has(section)) next.delete(section);
+      else next.add(section);
+      return next;
+    });
+  };
 
   useEffect(() => {
     if (autoOpenComments && !autoDone) {
-      setSection('comments');
+      setSections(new Set(['note', 'comments']));
       setAutoDone(true);
     }
   }, [autoOpenComments, autoDone]);
@@ -54,34 +66,90 @@ export function QuestionReviewPanel({
   // to clear or only the first question in a drill would ever auto-open.
   useEffect(() => {
     setAutoDone(false);
-    setSection(null);
-  }, [questionId]);
+    setSections(new Set());
+    setPublicFlag(null);
+    setEditing(false);
+    let live = true;
+    api.publicFlagStatus(bankId, questionId)
+      .then((status) => { if (live) setPublicFlag(status); })
+      .catch(() => { if (live) setPublicFlag(null); });
+    return () => { live = false; };
+  }, [bankId, questionId]);
 
   return (
-    <div className="mt-2 pt-2" style={{ borderTop: '1px dashed var(--border)' }}>
-      <div className="flex gap-3 text-xs">
-        <button onClick={() => setSection(section === 'flag' ? null : 'flag')} style={{ color: section === 'flag' ? 'var(--accent)' : 'var(--text-secondary)' }}>
+    <div className="mt-3 pt-3" style={{ borderTop: '1px solid var(--border)', background: 'color-mix(in srgb, var(--bg-panel-elev) 35%, transparent)' }}>
+      <button
+        type="button"
+        onClick={() => toggle('comments')}
+        className="w-full text-left rounded-2xl px-4 py-3"
+        style={{
+          border: '1px solid color-mix(in srgb, var(--accent) 38%, var(--border))',
+          background: 'linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, var(--bg-panel)), color-mix(in srgb, var(--info, #3b7dd8) 9%, var(--bg-panel)))',
+          color: 'var(--text-primary)',
+          boxShadow: '0 5px 18px color-mix(in srgb, var(--accent) 10%, transparent)',
+        }}
+      >
+        <div className="flex items-center gap-3">
+          <span className="flex items-center justify-center rounded-xl text-xl" style={{ width: 40, height: 40, background: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}>💬</span>
+          <span className="flex-1">
+            <span className="block text-sm font-semibold">Question discussion</span>
+            <span className="block text-xs mt-0.5" style={{ color: 'var(--text-secondary)' }}>
+              Share an explanation, correction, or useful exam tip with other learners.
+            </span>
+          </span>
+          <span className="text-lg" style={{ color: 'var(--accent)' }}>{sections.has('comments') ? '▾' : '→'}</span>
+        </div>
+      </button>
+
+      <div className="flex gap-2 flex-wrap items-center">
+        <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('flag')} style={{ border: '1px solid var(--border)', background: sections.has('flag') ? 'color-mix(in srgb, var(--accent) 12%, transparent)' : 'transparent', color: sections.has('flag') ? 'var(--accent)' : 'var(--text-secondary)' }}>
           🚩 Flag{subpartLabel ? ` (${subpartLabel})` : ''}
         </button>
-        <button onClick={() => setSection(section === 'note' ? null : 'note')} style={{ color: section === 'note' ? 'var(--accent)' : 'var(--text-secondary)' }}>
+        <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('note')} style={{ border: '1px solid var(--border)', background: sections.has('note') ? 'color-mix(in srgb, var(--accent) 12%, transparent)' : 'transparent', color: sections.has('note') ? 'var(--accent)' : 'var(--text-secondary)' }}>
           📝 My note
         </button>
-        <button onClick={() => setSection(section === 'comments' ? null : 'comments')} style={{ color: section === 'comments' ? 'var(--accent)' : 'var(--text-secondary)' }}>
+        <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => toggle('comments')} style={{ border: '1px solid var(--border)', background: sections.has('comments') ? 'color-mix(in srgb, var(--accent) 12%, transparent)' : 'transparent', color: sections.has('comments') ? 'var(--accent)' : 'var(--text-secondary)' }}>
           💬 Comments
         </button>
+        {hasCap(user, 'correction.write') && (
+          <button className="px-2.5 py-1 rounded-full text-xs" onClick={() => setEditing((open) => !open)} style={{ border: '1px solid var(--border)', background: editing ? 'color-mix(in srgb, var(--accent) 12%, transparent)' : 'transparent', color: editing ? 'var(--accent)' : 'var(--text-secondary)' }}>
+            ✏️ Edit question
+          </button>
+        )}
       </div>
 
-      {section && !user && (
-        <p className="text-xs mt-2" style={{ color: 'var(--text-secondary)' }}>
-          Log in (top right) to flag, note, or comment on this question.
+      {editing && user && (
+        <div className="mt-2 rounded" style={{ border: '1px solid var(--border)', overflow: 'hidden' }}>
+          <QuestionEditor
+            bankId={bankId}
+            questionId={questionId}
+            onSaved={() => {
+              setEditing(false);
+              window.dispatchEvent(new CustomEvent('mpsc-correction-applied', { detail: { bankId, questionId } }));
+            }}
+            onDiscard={() => setEditing(false)}
+          />
+        </div>
+      )}
+
+      {publicFlag?.flagged && (
+        <div className="text-xs mt-2 px-3 py-2 rounded-lg" style={{ color: 'var(--warn, #b06f1a)', background: 'color-mix(in srgb, var(--warn, #b06f1a) 10%, transparent)', border: '1px solid color-mix(in srgb, var(--warn, #b06f1a) 25%, transparent)' }}>
+          🚩 This question has been flagged by learners — be cautious and check the wording/answer.
+          {publicFlag.count > 1 ? ` ${publicFlag.count} reports are on file.` : ''}
+        </div>
+      )}
+
+      {sections.size > 0 && !user && (
+        <p className="text-xs mt-2 px-3 py-2 rounded-lg" style={{ color: 'var(--text-secondary)', background: 'var(--bg-app)' }}>
+          Log in (top right) to flag or save a private note. Comments are readable without an account.
         </p>
       )}
 
-      {section === 'flag' && user && (
-        <FlagForm bankId={bankId} questionId={questionId} options={options} subpartLabel={subpartLabel} onDone={() => setSection(null)} />
+      {sections.has('flag') && user && (
+        <FlagForm bankId={bankId} questionId={questionId} options={options} subpartLabel={subpartLabel} onDone={() => toggle('flag')} />
       )}
-      {section === 'note' && user && <NoteBox bankId={bankId} questionId={questionId} />}
-      {section === 'comments' && <CommentsThread bankId={bankId} questionId={questionId} canPost={!!user} />}
+      {sections.has('note') && user && <NoteBox bankId={bankId} questionId={questionId} />}
+      {sections.has('comments') && <CommentsThread bankId={bankId} questionId={questionId} canPost={!!user} />}
     </div>
   );
 }
@@ -205,15 +273,19 @@ function NoteBox({ bankId, questionId }: { bankId: string; questionId: string })
     }
   };
 
-  if (!loaded) return <p className="text-xs mt-2" style={{ color: 'var(--text-secondary)' }}>Loading…</p>;
+  if (!loaded) return <p className="text-xs mt-2 px-3 py-2 rounded-lg" style={{ color: 'var(--text-secondary)', background: 'var(--bg-app)' }}>Loading your private note…</p>;
 
   return (
-    <div className="mt-2 space-y-1.5">
+    <div className="mt-2 p-3 rounded-xl space-y-2" style={{ background: 'var(--bg-app)', border: '1px solid var(--border)' }}>
+      <div>
+        <div className="text-xs font-semibold" style={{ color: 'var(--text-primary)' }}>Private study note</div>
+        <div className="text-[11px] mt-0.5" style={{ color: 'var(--text-secondary)' }}>Only you can see this note.</div>
+      </div>
       <textarea
         value={note}
         onChange={(e) => setNote(e.target.value)}
         placeholder="Private note only you can see…"
-        rows={2}
+        rows={3}
         className="px-2 py-1 rounded text-xs w-full"
         style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
       />
@@ -241,6 +313,7 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
   const [replyBody, setReplyBody] = useState('');
   const [editingId, setEditingId] = useState<number | null>(null);
   const [editBody, setEditBody] = useState('');
+  const [error, setError] = useState<string | null>(null);
 
   const load = () => {
     api.listComments(bankId, questionId).then((r) => setComments(r.comments));
@@ -250,10 +323,13 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
   const post = async () => {
     if (!body.trim()) return;
     setPosting(true);
+    setError(null);
     try {
       await api.addComment(bankId, questionId, body.trim());
       setBody('');
       load();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Could not post comment');
     } finally {
       setPosting(false);
     }
@@ -262,11 +338,14 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
   const postReply = async (parentId: number) => {
     if (!replyBody.trim()) return;
     setPosting(true);
+    setError(null);
     try {
       await api.addComment(bankId, questionId, replyBody.trim(), parentId);
       setReplyBody('');
       setReplyTo(null);
       load();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Could not post reply');
     } finally {
       setPosting(false);
     }
@@ -295,7 +374,7 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
   const canModerate = hasCap(user, 'comment.moderate');
 
   const renderComment = (c: Comment, indent: boolean) => (
-    <div key={c.id} className="text-xs p-2 rounded" style={{ background: 'var(--bg-app)', marginLeft: indent ? 16 : 0 }}>
+    <div key={c.id} className="text-xs p-3 rounded-xl" style={{ background: 'var(--bg-app)', border: '1px solid var(--border)', marginLeft: indent ? 16 : 0 }}>
       <div className="flex items-center gap-1.5 flex-wrap">
         {c.isPinned && <span title="Pinned by admin">📌</span>}
         <span className="font-medium">{c.displayName ?? c.username}</span>
@@ -350,9 +429,17 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
   const repliesOf = (id: number) => comments?.filter((c) => c.parentId === id) ?? [];
 
   return (
-    <div className="mt-2 space-y-2">
+    <div className="mt-2 p-3 rounded-xl space-y-2" style={{ background: 'var(--bg-app)', border: '1px solid var(--border)' }}>
+      <div className="flex items-center justify-between gap-2">
+        <div>
+          <div className="text-xs font-semibold" style={{ color: 'var(--text-primary)' }}>Question discussion</div>
+          <div className="text-[11px] mt-0.5" style={{ color: 'var(--text-secondary)' }}>Share a correction, explanation, or useful exam tip.</div>
+        </div>
+        <span className="text-[11px] px-2 py-0.5 rounded-full" style={{ color: 'var(--text-secondary)', background: 'var(--bg-panel-elev)' }}>Public</span>
+      </div>
       {comments === null && <p className="text-xs" style={{ color: 'var(--text-secondary)' }}>Loading…</p>}
       {comments?.length === 0 && <p className="text-xs" style={{ color: 'var(--text-secondary)' }}>No comments yet.</p>}
+      {error && <p className="text-xs" style={{ color: 'var(--bad, #a33232)' }}>{error}</p>}
       {topLevel.map((c) => (
         <div key={c.id} className="space-y-1.5">
           {renderComment(c, false)}
@@ -367,13 +454,13 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
             onChange={(e) => setBody(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && post()}
             placeholder="Add a comment…"
-            className="px-2 py-1 rounded text-xs flex-1"
+            className="px-3 py-2 rounded-lg text-xs flex-1"
             style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
           />
           <button
             onClick={post}
             disabled={posting}
-            className="px-2.5 py-1 rounded text-xs font-medium"
+            className="px-3 py-2 rounded-lg text-xs font-medium"
             style={{ background: 'var(--accent)', color: '#fff' }}
           >
             Post

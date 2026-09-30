@@ -9,6 +9,61 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-30 (layout) — Browse becomes a test, not a solution sheet
+
+**What shipped.** Four changes to `/udc-ldc`, following the patterns already
+proven in `public/quick-practice/quick-revision/index.html` rather than
+inventing a second vocabulary for the same job.
+
+**Answers are hidden by default in Browse.** Per-question *tap to reveal*, plus
+Reveal all / Hide all for the open paper. This is the point of past papers over
+a worked solution set: a visible answer can only be *recognised*, never
+recalled. The explanation and any dispute note are gated behind the same
+reveal, because both give the answer away. The provenance badge is not — it
+names the answer's SOURCE, not the answer, and hiding it would make a
+low-confidence guess look the same as a published key.
+
+**Shuffle is seeded, not `Math.random()`.** An unseeded shuffle reorders on
+every re-render — including every keystroke in the search box — so the question
+being read slides away mid-sentence. Re-shuffle is a separate, deliberate
+button.
+
+**Matching questions render as two columns again.** The page prints List-I
+beside List-II; the text layer flattens both into one paragraph and leaves the
+reader holding four lettered items in mind while scanning for the numbered one.
+Handled in `QuestionText` so it covers any future one, not by editing the two
+records this bank happens to contain.
+
+⚠️ *The trap, which cost a silent no-op:* both headings appear TWICE — once in
+the instruction ("Match List-I with List-II and give the correct answer…") and
+once as the real column heading. Splitting on the first occurrence hands back
+`" with "` as the left column, the item parse finds nothing, and the component
+returns null — so the question renders as plain text and looks untouched rather
+than broken. Take the LAST of each. It reformats only when both halves parse
+into two or more items; anything less falls through to plain text rather than
+showing half a table.
+
+**Practice options are keyed rows** — a circular letter marker that fills green
+or red with the verdict, so the row and its key can never disagree. **Progress
+sorts newest or oldest first**, keyed on the sitting's year and month read from
+the paper's own printed header, rather than the order papers happened to be
+staged in.
+
+A data fix went with it, in the bank repo: `LDC 2025 Paper-I q10` is a
+festival/state pairing table that serialised column-wise, losing every pair
+("…Cherry Blossom BwenNP> State Tamil Nadu…", where `BwenNP>` is the 1./2./3./4.
+column). That PDF has no text layer, so it was read off a 150 dpi render.
+
+**What's still open.** The correction/report/notes system is NOT built here and
+should not be: `PHASE3_RBAC_HANDOFF.md` documents a deployed FastAPI service on
+the `shiksha-dev` droplet whose capability model already names `report.create`,
+`note.write`, `correction.write`, `comment.moderate` and `audit.read`, keyed
+bank-agnostically by `(bank_id, question_id)`. The work is wiring `/udc-ldc`
+into it — tagging `bank_id: 'mpsc-udc-ldc'` the way `useMpscData.ts:18` does for
+the old bank — and verifying whether the Phase-3 migration was ever applied.
+
+---
+
 ## 2026-09-30 (later) — LDE out as a category
 
 **What shipped.** The bank is **Direct recruitment only**: 45 papers, 3,177 MCQ

@@ -279,7 +279,6 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
           questionId={q.id}
           options={q.options}
           compact
-          autoOpenComments={answered}
         />
       </div>
     </div>

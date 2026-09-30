@@ -791,9 +791,6 @@ function BrowseView({
                           questionId={q.id}
                           options={isMcqQuestion(q) ? q.options : undefined}
                           compact
-                          // Once the reader has committed to an option, show
-                          // what everyone else said about it.
-                          autoOpenComments={shown.has(q.id)}
                         />
                         {isMcqQuestion(q) && shown.has(q.id) && q.disputeNote && (
                           <div style={{ fontSize: 12, marginTop: 6, color: 'var(--bad, #c4462f)' }}>

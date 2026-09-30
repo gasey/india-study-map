@@ -76,9 +76,8 @@ html.dark .udc-ldc-page {
 .udc-option-label { font-weight: 600; }
 .udc-question-number { font-weight: 750; color: var(--udc-primary); opacity: 1 !important; }
 
-/* Review controls stay to one quiet row until the learner opens them. Once an
-   answer is chosen, autoOpenComments expands the thread and restores the
-   supporting actions below it. */
+/* Review controls stay collapsed until the learner explicitly opens the
+   question discussion trigger. */
 .udc-review-compact { padding-top: 6px; margin-top: 10px !important; }
 .udc-review-compact .udc-review-trigger {
   margin-bottom: 0 !important;

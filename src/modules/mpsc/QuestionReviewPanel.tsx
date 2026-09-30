@@ -82,19 +82,18 @@ export function QuestionReviewPanel({
       <button
         type="button"
         onClick={() => toggle('comments')}
-        className="w-full text-left rounded-2xl px-4 py-3"
+        className="w-full text-left rounded-xl px-3 py-2"
         style={{
           border: '1px solid color-mix(in srgb, var(--accent) 38%, var(--border))',
-          background: 'linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, var(--bg-panel)), color-mix(in srgb, var(--info, #3b7dd8) 9%, var(--bg-panel)))',
-          color: 'var(--text-primary)',
-          boxShadow: '0 5px 18px color-mix(in srgb, var(--accent) 10%, transparent)',
+          background: 'var(--bg-panel-elev)',
+          color: 'var(--text-secondary)',
         }}
       >
         <div className="flex items-center gap-3">
-          <span className="flex items-center justify-center rounded-xl text-xl" style={{ width: 40, height: 40, background: 'color-mix(in srgb, var(--accent) 20%, transparent)' }}>💬</span>
+          <span className="flex items-center justify-center rounded-lg text-base" style={{ width: 32, height: 32, background: 'color-mix(in srgb, var(--info, #3b7dd8) 18%, transparent)' }}>💬</span>
           <span className="flex-1">
-            <span className="block text-sm font-semibold">Question discussion</span>
-            <span className="block text-xs mt-0.5" style={{ color: 'var(--text-secondary)' }}>
+            <span className="block text-xs font-semibold" style={{ color: 'var(--text-primary)' }}>Question discussion</span>
+            <span className="block text-[11px] mt-0.5" style={{ color: 'var(--text-secondary)' }}>
               Share an explanation, correction, or useful exam tip with other learners.
             </span>
           </span>
@@ -290,7 +289,7 @@ function NoteBox({ bankId, questionId }: { bankId: string; questionId: string })
   if (!loaded) return <p className="text-xs mt-2 px-3 py-2 rounded-lg" style={{ color: 'var(--text-secondary)', background: 'var(--bg-app)' }}>Loading your private note…</p>;
 
   return (
-    <div className="mt-2 p-3 rounded-xl space-y-2" style={{ background: 'var(--bg-app)', border: '1px solid var(--border)' }}>
+    <div className="mt-2 p-3 rounded-xl space-y-2" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
       <div>
         <div className="text-xs font-semibold" style={{ color: 'var(--text-primary)' }}>Private study note</div>
         <div className="text-[11px] mt-0.5" style={{ color: 'var(--text-secondary)' }}>Only you can see this note.</div>
@@ -395,7 +394,7 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
   const canModerate = hasCap(user, 'comment.moderate');
 
   const renderComment = (c: Comment, indent: boolean) => (
-    <div key={c.id} className="text-xs p-3 rounded-xl" style={{ background: 'var(--bg-app)', border: '1px solid var(--border)', marginLeft: indent ? 16 : 0 }}>
+    <div key={c.id} className="text-xs p-3 rounded-xl" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-secondary)', marginLeft: indent ? 16 : 0 }}>
       <div className="flex items-center gap-1.5 flex-wrap">
         {c.isPinned && <span title="Pinned by admin">📌</span>}
         <span className="font-medium">{c.displayName ?? c.username}</span>
@@ -417,7 +416,7 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
           </div>
         </div>
       ) : (
-        <p className="mt-0.5">{c.body}</p>
+        <p className="mt-0.5" style={{ color: 'var(--text-secondary)' }}>{c.body}</p>
       )}
       <div className="flex gap-2 mt-1" style={{ color: 'var(--text-secondary)' }}>
         {!indent && canPost && <button onClick={() => setReplyTo(replyTo === c.id ? null : c.id)}>Reply</button>}

@@ -101,6 +101,19 @@ html.dark .udc-ldc-page {
 .udc-ldc-page table th { color: var(--udc-primary); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
 .udc-ldc-page table tbody tr:hover { background: color-mix(in srgb, var(--udc-gold) 7%, transparent); }
 
+.udc-question-card {
+  background: var(--bg-panel, #fff) !important;
+  border: 1px solid var(--udc-border) !important;
+  border-radius: 12px !important;
+  padding: 16px 17px !important;
+  margin: 12px 0 !important;
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--udc-primary) 8%, transparent),
+    0 8px 20px -16px color-mix(in srgb, var(--udc-primary) 30%, transparent);
+}
+.udc-question-card:first-child { margin-top: 4px !important; }
+.udc-question-card:last-child { margin-bottom: 4px !important; }
+.udc-question-card > .udc-review-panel { margin-top: 14px !important; }
+
 @media (max-width: 640px) {
   .udc-hero { margin-left: -16px; margin-right: -16px; padding-left: 16px; padding-right: 16px; }
 }

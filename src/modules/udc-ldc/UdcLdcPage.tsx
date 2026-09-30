@@ -623,6 +623,7 @@ function BrowseView({
                 {r.questions.map((q, i) => (
                   <div
                     key={q.id}
+                    className="udc-question-card"
                     style={{
                       padding: '12px 0',
                       borderBottom: i === r.questions.length - 1

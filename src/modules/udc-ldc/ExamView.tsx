@@ -280,6 +280,7 @@ function ExamSitting({
           return (
             <div
               key={q.id}
+              className="udc-question-card"
               style={{
                 padding: '14px 0', borderBottom: '1px solid var(--border, #f0f0f3)',
                 opacity: unscorable ? 0.55 : 1,

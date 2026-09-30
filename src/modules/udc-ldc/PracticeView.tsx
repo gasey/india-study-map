@@ -96,7 +96,6 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
   return (
     <div>
       <div
-        className="udc-question-card"
         style={{
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           fontSize: 13, marginBottom: 10, flexWrap: 'wrap', gap: 8,
@@ -118,6 +117,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
       </div>
 
       <div
+        className="udc-question-card"
         style={{
           border: '1px solid var(--border, #dcdce3)',
           borderLeft: `4px solid ${accent}`,

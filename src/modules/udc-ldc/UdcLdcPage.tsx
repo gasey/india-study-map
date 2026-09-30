@@ -9,9 +9,11 @@ import { useProgress } from './useProgress';
 import {
   BANK_ID, EMPTY_FILTERS, SECTION_COLOUR, SECTION_LABEL, applyFilters, isAnswerable,
   optionLetter, sectionOf,
+  type FlagState,
   type AnswerState, type AttemptState, type Filters, type SectionId,
 } from './filters';
 import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
+import { useFlags, type FlagInfo } from './useFlags';
 import { FilterRail } from './FilterRail';
 import { PracticeView } from './PracticeView';
 import { ExamView } from './ExamView';
@@ -461,8 +463,11 @@ const toolBtnOn: React.CSSProperties = {
 };
 
 function BrowseView({
-  rows, questions, progress,
-}: { rows: PaperStats[]; questions: BankQuestion[]; progress: ProgressMap }) {
+  rows, questions, progress, flags,
+}: {
+  rows: PaperStats[]; questions: BankQuestion[]; progress: ProgressMap;
+  flags: Record<string, FlagInfo>;
+}) {
   const keep = useMemo(() => new Set(questions.map((q) => q.id)), [questions]);
   // Answers HIDDEN by default, which is the whole point of reading past papers
   // rather than a worked solution set: a visible answer cannot be recalled,
@@ -697,6 +702,16 @@ function BrowseView({
                         )}
                         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
                           <Provenance q={q} />
+                          {/* What YOU flagged and what came of it. Kept next
+                              to the provenance badge because both answer the
+                              same question — how much to trust this item. */}
+                          {flags[q.id] && (
+                            <Pill tone={flags[q.id].status === 'accepted' ? 'ok'
+                              : flags[q.id].status === 'rejected' ? 'muted' : 'warn'}>
+                              🚩 {flags[q.id].issueType.replace(/_/g, ' ')}
+                              {flags[q.id].status !== 'pending' ? ` · ${flags[q.id].status}` : ''}
+                            </Pill>
+                          )}
                           {/* Say what it is. Without this a written prompt
                               reads as an MCQ whose options failed to load,
                               which is exactly the wrong impression — nothing
@@ -725,6 +740,22 @@ function BrowseView({
                           <div style={{ fontSize: 12, marginTop: 6, color: 'var(--warn, #b06f1a)' }}>
                             Current affairs — answer as of {q.answerAsOf}, may
                             since have changed.
+                          </div>
+                        )}
+                        {/* 601 questions have no answer because MPSC never
+                            published a key for that sitting. That is a gap a
+                            reader can CLOSE: the flag form carries a
+                            "what should the answer be" dropdown, which files a
+                            report with suggestedAnswerIndex for an editor to
+                            apply. Saying so is the difference between a dead
+                            end and an invitation. */}
+                        {isMcqQuestion(q) && q.answerIndex < 0 && !q.figureBased
+                          && q.options.length > 0 && (
+                          <div style={{
+                            fontSize: 12, opacity: 0.75, margin: '2px 0 4px',
+                            color: 'var(--warn, #b06f1a)',
+                          }}>
+                            No answer yet — use <strong>🚩 Flag</strong> below to suggest one.
                           </div>
                         )}
                         {/* Flag / private note / comments against the review
@@ -764,11 +795,12 @@ export default function UdcLdcPage() {
   // Open on first visit so the rail is discoverable; the reader collapses it
   // once they know what is in there.
   const [filtersOpen, setFiltersOpen] = useState(true);
+  const { flags, signedIn } = useFlags();
   const { progress, record, reset } = useProgress();
 
   const filtered = useMemo(() => {
     if (!data) return [];
-    return applyFilters(data.bank.questions, data.bank.papers ?? [], filters, progress);
+    return applyFilters(data.bank.questions, data.bank.papers ?? [], filters, progress, flags);
   }, [data, filters, progress]);
 
   if (!data) {
@@ -857,10 +889,12 @@ export default function UdcLdcPage() {
           matched={filtered.length}
           progress={progress}
           onResetProgress={reset}
+          flags={flags}
+          signedIn={signedIn}
         />
       )}
 
-      {tab === 'browse' && <BrowseView rows={data.rows} questions={filtered} progress={progress} />}
+      {tab === 'browse' && <BrowseView rows={data.rows} questions={filtered} progress={progress} flags={flags} />}
       {tab === 'practice' && (
         <PracticeView questions={filtered} progress={progress} onAnswer={record} />
       )}

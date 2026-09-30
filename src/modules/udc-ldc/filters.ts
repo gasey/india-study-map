@@ -58,6 +58,15 @@ export type GkKindState = 'any' | 'static' | 'current' | 'skip-current';
  * which are about whether an answer EXISTS, not what kind of question it is.
  */
 export type TypeState = 'any' | 'mcq' | 'written';
+/**
+ * Flag state, from the reader's OWN reports.
+ *
+ * Both directions are wanted and for different reasons: 'flagged' is "show me
+ * what I reported, and what came of it", which is the collaborative-review
+ * view; 'unflagged' EXCLUDES them, so a revision drill is not repeatedly
+ * serving questions you have already said are broken.
+ */
+export type FlagState = 'any' | 'flagged' | 'unflagged' | 'pending' | 'accepted';
 
 export interface Filters {
   posts: string[];
@@ -67,12 +76,13 @@ export interface Filters {
   attempt: AttemptState;
   gkKind: GkKindState;
   type: TypeState;
+  flag: FlagState;
   search: string;
 }
 
 export const EMPTY_FILTERS: Filters = {
   posts: [], papers: [], sections: [], answer: 'any', attempt: 'any',
-  gkKind: 'any', type: 'any', search: '',
+  gkKind: 'any', type: 'any', flag: 'any', search: '',
 };
 
 /**
@@ -134,6 +144,10 @@ export function applyFilters(
   papers: ExamPaper[],
   f: Filters,
   progress: ProgressMap,
+  /** questionId -> flag status, from the reader's own reports. Empty when
+   *  signed out, which makes every flag filter a no-op rather than an
+   *  empty list. */
+  flags: Record<string, { status: string }> = {},
 ): BankQuestion[] {
   const byId = new Map(papers.map((p) => [p.id, p]));
   const needle = f.search.trim().toLowerCase();
@@ -147,6 +161,14 @@ export function applyFilters(
 
     if (f.type === 'mcq' && !isMcqQuestion(q)) return false;
     if (f.type === 'written' && isMcqQuestion(q)) return false;
+
+    if (f.flag !== 'any') {
+      const fl = flags[q.id];
+      if (f.flag === 'flagged' && !fl) return false;
+      if (f.flag === 'unflagged' && fl) return false;
+      if (f.flag === 'pending' && fl?.status !== 'pending') return false;
+      if (f.flag === 'accepted' && fl?.status !== 'accepted') return false;
+    }
 
     const answerable = isAnswerable(q);
     if (f.answer === 'answered' && !answerable) return false;

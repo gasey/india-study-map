@@ -9,6 +9,52 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-30 (flags) — flagged questions are visible and filterable
+
+**What shipped.** `useFlags` pulls the signed-in reader's own reports
+(`/api/questions/my-reports`) and keys them by question id. Flagged questions
+carry a 🚩 pill beside the provenance badge — green when the flag was accepted,
+amber while pending, grey when rejected — and a **Flagged** filter axis offers
+*Any / Flagged by me / Not flagged / Awaiting review / Accepted*.
+
+**Both directions of the filter earn their place.** "Flagged by me" is the
+collaborative-review view; **"Not flagged" is the one that gets used daily** —
+it keeps a revision drill from repeatedly serving questions you have already
+reported as broken.
+
+**Scoped to the reader's OWN reports, deliberately.** A bank-wide "what has
+anyone flagged" list exists at `/api/admin/reports` and is gated on
+`report.accept`. Calling it from here would 403 for an ordinary learner and,
+worse, would show an empty list rather than say why. The axis is hidden
+entirely when signed out, where every option would be a no-op.
+
+**A question flagged twice keeps the most recent report.** An older rejected
+flag would otherwise mask a pending re-flag, which is exactly backwards.
+
+**Unanswered questions now invite an answer.** 601 have none because MPSC
+published no key for that sitting. The flag form already carries a "what should
+the answer be" dropdown that files `suggestedAnswerIndex` for an editor to
+apply — the questions just never said so, which made a gap look like a dead end.
+
+**A failed fetch leaves flags empty rather than taking the bank down.** The
+question bank is a static file and reads fine offline; the review service is a
+separate box.
+
+**What's still open.**
+
+- **"Highlight who solved it" needs ONE backend line.** `question_corrections`
+  already stores `updated_by`, but `GET /api/questions/corrections`
+  (`main.py:680`) selects `updated_at` and not `updated_by`, so attribution
+  exists in the database and never reaches the client. Adding it means editing
+  and restarting a live API — specified, not done.
+- The signed-IN path is unverified. Typecheck passes and the signed-out path
+  was exercised in the browser, but the accounts are real ones on a production
+  service, so the flag round-trip has not been run end to end.
+- Colour scheme and font: still a choice between switching theme, retuning
+  `collectible` app-wide, or keeping accents module-local.
+
+---
+
 ## 2026-09-30 (fit) — collapsible filters, comments on answering, a phone layout
 
 **What shipped.**

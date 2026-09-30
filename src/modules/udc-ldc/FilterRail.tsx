@@ -4,7 +4,7 @@ import type { ProgressMap } from './useProgress';
 import {
   EMPTY_FILTERS, SECTION_LABEL, applyFilters, isAnswerable, sectionOf,
   type AnswerState, type AttemptState, type Filters, type GkKindState,
-  type SectionId, type TypeState,
+  type FlagState, type SectionId, type TypeState,
 } from './filters';
 
 // ============================================
@@ -25,6 +25,9 @@ interface Props {
   matched: number;
   progress: ProgressMap;
   onResetProgress: () => void;
+  /** questionId -> the reader's own flag, for the Flagged axis and its counts. */
+  flags: Record<string, { status: string }>;
+  signedIn: boolean;
 }
 
 function Chip({
@@ -74,7 +77,7 @@ function Group({ label, children }: { label: string; children: React.ReactNode }
 }
 
 export function FilterRail({
-  papers, all, filters, onChange, matched, progress, onResetProgress,
+  papers, all, filters, onChange, matched, progress, onResetProgress, flags, signedIn,
 }: Props) {
   const posts = useMemo(
     () => Array.from(new Set(papers.map((p) => p.post).filter(Boolean) as string[])).sort(),
@@ -88,7 +91,7 @@ export function FilterRail({
 
   /** Count with `axis` reset, so a chip shows what picking it would give. */
   const countWith = (patch: Partial<Filters>) =>
-    applyFilters(all, papers, { ...filters, ...patch }, progress).length;
+    applyFilters(all, papers, { ...filters, ...patch }, progress, flags).length;
 
   const set = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
   const toggle = <T,>(list: T[], v: T): T[] =>
@@ -166,6 +169,28 @@ export function FilterRail({
           </Chip>
         ))}
       </Group>
+
+      {/* Flag state, from the reader's OWN reports. Both directions matter:
+          "flagged" is the collaborative-review view, "not flagged" keeps a
+          revision drill from serving questions you have already reported as
+          broken. Hidden when signed out — every option would be a no-op. */}
+      {signedIn && (
+        <Group label="Flagged">
+          {([
+            ['any', 'Any'], ['flagged', 'Flagged by me'], ['unflagged', 'Not flagged'],
+            ['pending', 'Awaiting review'], ['accepted', 'Accepted'],
+          ] as [FlagState, string][]).map(([v, label]) => (
+            <Chip
+              key={v}
+              on={filters.flag === v}
+              count={countWith({ flag: v })}
+              onClick={() => set({ flag: v })}
+            >
+              {label}
+            </Chip>
+          ))}
+        </Group>
+      )}
 
       <Group label="Answer">
         {([

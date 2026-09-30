@@ -60,7 +60,10 @@ export function QuestionReviewPanel({
 
   useEffect(() => {
     if (autoOpenComments && !autoDone) {
-      setSections(new Set(['note', 'comments']));
+      // Answering can surface the shared discussion, but private notes should
+      // never open by themselves — they may contain the learner's own study
+      // material and should require an explicit click.
+      setSections(new Set(['comments']));
       setAutoDone(true);
     }
   }, [autoOpenComments, autoDone]);

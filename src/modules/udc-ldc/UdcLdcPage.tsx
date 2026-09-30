@@ -496,8 +496,17 @@ function BrowseView({
   const [seed, setSeed] = useState(0);
 
   const visible = useMemo(() => {
+    const currentById = new Map(questions.map((q) => [q.id, q]));
     const out = rows
-      .map((r) => ({ ...r, questions: r.questions.filter((q) => keep.has(q.id)) }))
+      // `rows` is the stable paper grouping from the initial bank. Resolve
+      // each question through the filtered/corrected map so an admin edit is
+      // visible immediately instead of leaving Browse on the old extraction.
+      .map((r) => ({
+        ...r,
+        questions: r.questions
+          .map((q) => currentById.get(q.id))
+          .filter((q): q is BankQuestion => !!q && keep.has(q.id)),
+      }))
       .filter((r) => r.questions.length > 0);
     if (!shuffle) return out;
     return out.map((r) => {
@@ -512,7 +521,7 @@ function BrowseView({
       }
       return { ...r, questions: qs };
     });
-  }, [rows, keep, shuffle, seed]);
+  }, [rows, questions, keep, shuffle, seed]);
 
   const [open, setOpen] = useState<string | null>(null);
   const openId = open ?? visible[0]?.paper.id ?? null;

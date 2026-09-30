@@ -58,6 +58,7 @@ export function QuestionEditor({
   const [options, setOptions] = useState<string[]>([]);
   const [subparts, setSubparts] = useState<{ label: string; text: string; modelAnswer: string }[]>([]);
   const [saving, setSaving] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -87,6 +88,7 @@ export function QuestionEditor({
 
   const save = async () => {
     setSaving(true);
+    setError(null);
     try {
       await api.adminUpsertCorrection({
         bankId,
@@ -104,6 +106,8 @@ export function QuestionEditor({
         adminNote,
       });
       onSaved();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Could not save correction');
     } finally {
       setSaving(false);
     }
@@ -215,6 +219,7 @@ export function QuestionEditor({
               {saving ? 'Saving…' : 'Save & log'}
             </button>
           </div>
+          {error && <p className="text-xs" style={{ color: 'var(--bad)' }}>{error}</p>}
         </>
       )}
     </div>

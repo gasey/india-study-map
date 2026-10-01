@@ -112,7 +112,24 @@ html.dark .udc-ldc-page {
 .udc-question-card:first-child { margin-top: 4px !important; }
 .udc-question-card:last-child { margin-bottom: 4px !important; }
 .udc-question-card > .udc-review-panel { margin-top: 14px !important; }
+.udc-practice-card { scroll-margin-top: 16px; }
 
 @media (max-width: 640px) {
   .udc-hero { margin-left: -16px; margin-right: -16px; padding-left: 16px; padding-right: 16px; }
+}
+
+@media (max-width: 767px) {
+  .udc-ldc-content { padding-left: 12px !important; padding-right: 12px !important; }
+  .udc-practice-card {
+    padding: 14px 12px !important;
+    scroll-margin-top: 12px;
+  }
+  .udc-practice-card .udc-option-label {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .udc-ldc-content { padding-left: 18px !important; padding-right: 18px !important; }
 }

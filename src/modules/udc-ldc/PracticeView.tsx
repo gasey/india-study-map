@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { BankQuestion } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
@@ -34,6 +34,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [session, setSession] = useState({ done: 0, right: 0 });
+  const questionCardRef = useRef<HTMLDivElement>(null);
 
   // Filters changing under the drill would otherwise leave `i` past the end.
   useEffect(() => {
@@ -95,6 +96,12 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
     if (picked !== null) onAnswer(q.id, picked === q.answerIndex);
     setPicked(null);
     setI((v) => (v + 1) % pool.length);
+    // The progress update can re-render the surrounding page and otherwise
+    // reset the nested scroll panel to its top. Keep the next question in the
+    // reading position on desktop, phones, and tablets alike.
+    requestAnimationFrame(() => {
+      questionCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   };
 
   return (
@@ -121,7 +128,8 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
       </div>
 
       <div
-        className="udc-question-card"
+        ref={questionCardRef}
+        className="udc-question-card udc-practice-card"
         style={{
           border: '1px solid var(--border, #dcdce3)',
           borderLeft: `4px solid ${accent}`,

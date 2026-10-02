@@ -148,7 +148,8 @@ function Pill({ tone, children }: { tone: 'ok' | 'info' | 'warn' | 'muted'; chil
  */
 function Provenance({ q }: { q: BankQuestion }) {
   if (!isMcqQuestion(q)) return null;
-  if (q.figureBased) return <Pill tone="warn">figure lost — unanswerable</Pill>;
+  if (q.figureBased && !q.imagePath) return <Pill tone="warn">figure lost — unanswerable</Pill>;
+  if (q.figureBased) return <Pill tone="muted">options printed as figures</Pill>;
   if (q.answerSource === 'official') return <Pill tone="info">official key</Pill>;
   if (q.answerIndex < 0) return <Pill tone="muted">no answer yet</Pill>;
   if (q.answerSource === 'transcribed') {
@@ -646,7 +647,7 @@ function BrowseView({
                       <div style={{ flex: 1 }}>
                         <div className="udc-question-stem" style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
                         <QuestionImage path={q.imagePath} />
-                        {q.figureBased && (
+                        {q.figureBased && !q.imagePath && (
                           <div style={{
                             margin: '8px 0', padding: '12px', textAlign: 'center',
                             border: '1px dashed var(--border, #dcdce3)', borderRadius: 8,

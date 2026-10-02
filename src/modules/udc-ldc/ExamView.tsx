@@ -293,7 +293,7 @@ function ExamSitting({
                 <div style={{ flex: 1 }}>
                   <div className="udc-question-stem" style={{ marginBottom: 8, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
                   <QuestionImage path={q.imagePath} />
-                  {q.figureBased && (
+                  {q.figureBased && !q.imagePath && (
                     <div style={{
                       margin: '8px 0', padding: '12px', textAlign: 'center',
                       border: '1px dashed var(--border, #dcdce3)', borderRadius: 8,

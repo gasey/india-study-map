@@ -9,6 +9,38 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-02 (later) — real figures recovered from scans for three of the five remaining figure-based items
+
+**What shipped.** Verified the two "unrecoverable" LDC February-2025 items first:
+`mpsc-ldc-2025-paper-2-q099` and `-q100` really are solid-black blocks in
+`LDC under MPSC Paper-II 2025..pdf` (rendered p.12 and looked — still lost,
+still excluded). The other three were recoverable and are now wired in:
+
+- `mpsc-udc-combined-2025-paper-2-q071` and `-q072` — the pieces figures on
+  Series-B p.9 of `UDC Combined Paper-II (B) May-2025..pdf`. Cropped from the
+  300-dpi render, attached via `imagePath`, their garbled question stems
+  cleaned (`Pov] [ee ay…` → plain stem) and the stale "lost in scanning"
+  explanation corrected. Both drop `figureBased`, so they count as answerable
+  and can join scored tests.
+- `mpsc-ldc-2026apr-paper-2-q081` — the EFFECTIVE mirror figure on p.14 of
+  `LDC under SW, WCD Paper-II..pdf`. Kept `figureBased` (the options were
+  printed as mirrored-word images, so nothing is transcribable) but attached
+  the cropped figure and explained the official key is (a).
+
+**Behaviour changes.** The "figure unavailable / not scored" notices and the
+"figure lost" provenance pill now only render when a question is figure-based
+*and* has no `imagePath`; an attached figure with empty options gets a
+muted "options printed as figures" pill instead (UdcLdcPage, ExamView).
+
+**Verification.** `npm run lint`, `npm run build`, `git diff --check` pass.
+
+**What's still open.** q099/q100's black-block figures stay lost unless a
+cleaner scan surfaces; the remaining unattached SVGs from the previous entry
+are still correctly held back. Correctness of the two derived answers on
+q071/q072 is low/high and unchanged — only the figure became visible.
+
+---
+
 ## 2026-10-02 — figure reconstructions land on two mirror questions; math-glyph repair expanded and committed
 
 **What shipped.** Two questions that carried `figureBased: true` (no figure

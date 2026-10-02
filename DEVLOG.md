@@ -9,6 +9,32 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-02 (renderer) — math-repair pass stops eating cell refs, F-keys, and G7
+
+**What shipped.** An audit of the wide `repairMathGlyphs` (shipped this
+morning) against the real bank text found the superscript rule, applied
+case-insensitively and letter-agnostically, would have mangled: `=SUM(C2:C10)`
+→ `=SUM(C²:C¹⁰)`, `F2`/`Alt+F4`/`F10` shortcut keys → superscripts, `G7`/`G20`,
+`Q2`, and uppercase variable fragments like `V2 -3V3`.
+
+Fixes: rule 2 (superscripts) is now lowercase-base-only; rule 3 (sequence
+subscripts for `a`/`d`) runs **before** it so `a8`/`a14` read as a₈/a₁₄ even
+where both rules could see them; the prose doc comment no longer promises
+`12m*6mx4m → 12m × 6m × 4m`, which the regex never did — bare-number
+separators only.
+
+Verified by excerpting the real compiled function and probing:
+`462cm2 → 462 cm²`, `Ö5 → √5`, `x^10 → x¹⁰`, `300x200 → 300 × 200`,
+`=SUM(C2:C10)`/`F2`/`Alt+F4`/`G7` unchanged, `a14-a8 → a₁₄-a₈`.
+
+**Verification.** `npm run lint`, `npm run build`, `git diff --check` pass.
+
+**Still open.** Uppercase variables (`V2 -3V3`) now render unrepaired — a
+known, visible trade-off, and a candidate for a human bank pass rather than a
+wider regex.
+
+---
+
 ## 2026-10-02 (later) — real figures recovered from scans for three of the five remaining figure-based items
 
 **What shipped.** Verified the two "unrecoverable" LDC February-2025 items first:

@@ -136,11 +136,13 @@ function toSub(digits: string): string {
  * lost or flattened mathematical glyphs. This function restores:
  *
  * 1. Square-root symbols (Ö from symbol fonts → √)
- * 2. Superscripts in polynomials (x2 → x², x3 → x³, x4 → x⁴)
- * 3. Subscripts in arithmetic sequences (a14 → a₁₄, a8 → a₈)
+ * 2. Subscripts in arithmetic sequences (a14 → a₁₄, a8 → a₈, d1 → d₁)
+ * 3. Superscripts in polynomials (x2 → x², x3 → x³, x4 → x⁴, caret form x^2)
  * 4. Area/volume units (cm2 → cm², cm3 → cm³, m2 → m², m3 → m³, etc.)
  * 5. Missing space before units (462cm2 → 462 cm²)
- * 6. Dimension separators (12m*6mx4m → 12m × 6m × 4m)
+ * 6. Dimension separators (12*6*4 → 12 × 6 × 4, 300x200 → 300 × 200).
+ *    Bare-number factors only — "12m*6mx4m" is left as-is, because pulling
+ *    the unit letters in would guess where they belong.
  * Note: a lost radical sign (e.g. `50/3` for `50√3`) is NOT repaired here —
  * guessing it would corrupt ordinary fractions, so those items stay in the
  * bank for a human pass.
@@ -153,15 +155,20 @@ function repairMathGlyphs(text: string): string {
     // 1. Square-root symbol from symbol fonts
     .replace(/Ö/g, '√')
 
-    // 2. Superscripts in polynomials — x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12
-    //    Also handles p2, p3, a2, a3, etc. and explicit caret form x^2
-    .replace(/\b([a-z])\^?([2-9]|1[0-2])\b/gi, (_, base: string, exp: string) =>
-      `${base}${toSuper(exp)}`,
+    // 2. Subscripts in arithmetic/geometric sequences — a1, a2, ..., a20, d1, d2.
+    //    Runs BEFORE the polynomial rule below so that a8/a14 read as a₈/a₁₄,
+    //    not as superscripts. Narrow to lowercase bases so "Alt+D2" and
+    //    option labels are never touched.
+    .replace(/\b([ad])\^?([1-9]|1[0-9]|20)\b/g, (_, base: string, sub: string) =>
+      `${base}${toSub(sub)}`,
     )
 
-    // 3. Subscripts in arithmetic/geometric sequences — a1, a2, ..., a20, d1, d2, etc.
-    .replace(/\b([ad])\^?([1-9]|1[0-9]|20)\b/gi, (_, base: string, sub: string) =>
-      `${base}${toSub(sub)}`,
+    // 3. Superscripts in polynomials — x2, x3, x4, ... x12, and caret form x^2.
+    //    Lowercase bases only: uppercase letter-digit tokens in this bank are
+    //    Excel cell references (=SUM(C2:C10)), function keys (F2, Alt+F4),
+    //    and codes like G7 — "fixing" them to superscripts corrupts the text.
+    .replace(/\b([a-z])\^?([2-9]|1[0-2])\b/g, (_, base: string, exp: string) =>
+      `${base}${toSuper(exp)}`,
     )
 
     // 4. Area and volume units — cm2→cm², cm3→cm³, m2→m², m3→m³, km2→km², etc.
@@ -174,7 +181,7 @@ function repairMathGlyphs(text: string): string {
       `${num} ${unit}${toSuper(exp)}`,
     )
 
-    // 6. Dimension separators — 12m*6mx4m → 12m × 6m × 4m, 300x200 → 300 × 200
+    // 6. Dimension separators between bare numbers — 12*6*4 → 12 × 6 × 4.
     .replace(/\b(\d+(?:\.\d+)?)\s*[*x×]\s*(\d+(?:\.\d+)?)\s*[*x×]\s*(\d+(?:\.\d+)?)\b/g,
       '$1 × $2 × $3',
     )

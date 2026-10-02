@@ -12085,7 +12085,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
-    figureBased: true,
+    imagePath: 'reasoning-mirror-dl9cg4728.svg',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q076',
@@ -12137,7 +12137,7 @@ const questionsPart2: BankQuestion[] = [
     paperId: 'mpsc-asst-udc-2025oct-paper-2',
     answerSource: 'derived',
     answerConfidence: 'high',
-    figureBased: true,
+    imagePath: 'reasoning-mirror-line-ab.svg',
   },
   {
     id: 'mpsc-asst-udc-2025oct-paper-2-q079',

@@ -9,6 +9,42 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-02 — figure reconstructions land on two mirror questions; math-glyph repair expanded and committed
+
+**What shipped.** Two questions that carried `figureBased: true` (no figure
+recoverable, counted as unanswerable, pulled from scored tests) now ship a
+reconstructed SVG and are answerable again:
+
+- `mpsc-asst-udc-2025oct-paper-2-q075` → `/question-images/reasoning-mirror-dl9cg4728.svg`
+- `mpsc-asst-udc-2025oct-paper-2-q078` → `/question-images/reasoning-mirror-line-ab.svg`
+
+Both kept their derived/high-confidence answers; the SVGs are hand-drawn
+reconstructions of the described figure, not rescans, so the provenance pill
+still reports them as derived rather than transcribed.
+
+`repairMathGlyphs` in `QuestionText.tsx` was widened from the three narrow
+rules shipped in September to cover full polynomial exponents (`x2`→`x²` …
+`x12`, caret form), arithmetic-sequence subscripts (`a14`→`a₁₄`, `d1`→`d₁`),
+area/volume units (`cm2`, `m3`, `km2`, …), the missing space between a number
+and its unit, and `*`/`x` dimension separators (`12m*6mx4m` → `12m × 6m × 4m`).
+
+**Verification.** `npm run lint`, `npm run build`, `git diff --check` pass.
+
+**What's still open.**
+
+- Three more SVGs sit in `public/question-images/` — `reasoning-dice-positions.svg`,
+  `reasoning-mirror-mn.svg`, `reasoning-paper-pieces.svg` — and are deliberately
+  **not** attached yet. Their source scans are lost and the puzzles they depict
+  are invented, so wiring them to `mpsc-ldc-2025-paper-2-q099/q100` or the
+  UDC-Combined pieces items would present a fabricated figure as the real
+  exam item. They only become usable if the real scans or the candidate figures
+  can be recovered.
+- The September entry's uncommitted presentation changes shipped in this
+  commit (the wider glyph-repair rules above); the rest of that entry's open
+  items are unchanged.
+
+---
+
 ## 2026-09-30 (UDC/LDC presentation) — readable equations and question blocks
 
 **What shipped.** The UDC/LDC question renderer now preserves line breaks,
@@ -26,8 +62,8 @@ as stems.
 
 **What's still open.** The bank still contains genuinely unrecoverable figure
 scans and ambiguous flattened equations; those need their matching source PDF
-and will not be repaired by an automated guess. These additional changes are
-not committed or pushed yet.
+and will not be repaired by an automated guess. (These additional changes were
+committed on 2026-10-02 — see the entry above.)
 
 ---
 

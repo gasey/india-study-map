@@ -118,20 +118,69 @@ function MatchingLists({ text }: { text: string }) {
   );
 }
 
-function repairMathGlyphs(text: string) {
-  // A few source PDFs used a symbol font that came through as Ö, and the
-  // superscript layer flattened expressions such as x² into x2. These repairs
-  // are deliberately narrow: algebraic bases and square-centimetre units,
-  // never arbitrary prose or dimensions such as 300x200.
+const SUPERSCRIPT = '⁰¹²³⁴⁵⁶⁷⁸⁹';
+const SUBSCRIPT = '₀₁₂₃₄₅₆₇₈₉';
+
+function toSuper(digits: string): string {
+  return [...digits].map((d) => SUPERSCRIPT[Number(d)] ?? d).join('');
+}
+
+function toSub(digits: string): string {
+  return [...digits].map((d) => SUBSCRIPT[Number(d)] ?? d).join('');
+}
+
+/**
+ * Repair OCR-damaged math notation in question stems and options.
+ *
+ * The source PDFs went through multiple rounds of text extraction that
+ * lost or flattened mathematical glyphs. This function restores:
+ *
+ * 1. Square-root symbols (Ö from symbol fonts → √)
+ * 2. Superscripts in polynomials (x2 → x², x3 → x³, x4 → x⁴)
+ * 3. Subscripts in arithmetic sequences (a14 → a₁₄, a8 → a₈)
+ * 4. Area/volume units (cm2 → cm², cm3 → cm³, m2 → m², m3 → m³, etc.)
+ * 5. Missing space before units (462cm2 → 462 cm²)
+ * 6. Dimension separators (12m*6mx4m → 12m × 6m × 4m)
+ * Note: a lost radical sign (e.g. `50/3` for `50√3`) is NOT repaired here —
+ * guessing it would corrupt ordinary fractions, so those items stay in the
+ * bank for a human pass.
+ *
+ * All repairs are deliberately narrow to avoid corrupting prose or
+ * non-mathematical text.
+ */
+function repairMathGlyphs(text: string): string {
   return text
+    // 1. Square-root symbol from symbol fonts
     .replace(/Ö/g, '√')
-    .replace(/\b([xp])(?:\^)?(101|[2-4])\b/gi, (_, base: string, exponent: string) =>
-      `${base}${[...exponent].map((d) => '⁰¹²³⁴⁵⁶⁷⁸⁹'[Number(d)]).join('')}`,
+
+    // 2. Superscripts in polynomials — x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12
+    //    Also handles p2, p3, a2, a3, etc. and explicit caret form x^2
+    .replace(/\b([a-z])\^?([2-9]|1[0-2])\b/gi, (_, base: string, exp: string) =>
+      `${base}${toSuper(exp)}`,
     )
-    .replace(/\b(a)(14|8)\b/g, (_, base: string, exponent: string) =>
-      `${base}${[...exponent].map((d) => '⁰¹²³⁴⁵⁶⁷⁸⁹'[Number(d)]).join('')}`,
+
+    // 3. Subscripts in arithmetic/geometric sequences — a1, a2, ..., a20, d1, d2, etc.
+    .replace(/\b([ad])\^?([1-9]|1[0-9]|20)\b/gi, (_, base: string, sub: string) =>
+      `${base}${toSub(sub)}`,
     )
-    .replace(/\bcm2\b/gi, 'cm²');
+
+    // 4. Area and volume units — cm2→cm², cm3→cm³, m2→m², m3→m³, km2→km², etc.
+    .replace(/\b(cm|mm|km|m|ft|in|yd)([23])\b/gi, (_, unit: string, exp: string) =>
+      `${unit}${toSuper(exp)}`,
+    )
+
+    // 5. Missing space before units — 462cm2 → 462 cm², 10.35cm2 → 10.35 cm²
+    .replace(/(\d)(cm|mm|km|m|ft|in|yd)([23])\b/gi, (_, num: string, unit: string, exp: string) =>
+      `${num} ${unit}${toSuper(exp)}`,
+    )
+
+    // 6. Dimension separators — 12m*6mx4m → 12m × 6m × 4m, 300x200 → 300 × 200
+    .replace(/\b(\d+(?:\.\d+)?)\s*[*x×]\s*(\d+(?:\.\d+)?)\s*[*x×]\s*(\d+(?:\.\d+)?)\b/g,
+      '$1 × $2 × $3',
+    )
+
+    // 7. Simple two-factor dimensions — 300x200 → 300 × 200 (but not in words like "300x200 yards")
+    .replace(/\b(\d+(?:\.\d+)?)\s*[*x×]\s*(\d+(?:\.\d+)?)\b/g, '$1 × $2');
 }
 
 function InlineText({ text }: { text: string }) {

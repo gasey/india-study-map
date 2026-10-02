@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <!-- Title -->
+  <text x="200" y="18" font-family="serif" font-size="13" fill="#333" text-anchor="middle">Mirror image of DL9CG4728</text>
+
+  <!-- Mirror line -->
+  <line x1="200" y1="35" x2="200" y2="165" stroke="#333" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="205" y="32" font-family="serif" font-size="12" fill="#333">Mirror</text>
+
+  <!-- Original combination (left) -->
+  <g transform="translate(120, 100)">
+    <text x="0" y="5" font-family="monospace" font-size="28" fill="#333" text-anchor="middle" font-weight="bold">DL9CG4728</text>
+    <text x="0" y="30" font-family="serif" font-size="11" fill="#666" text-anchor="middle">Original</text>
+  </g>
+
+  <!-- Mirror image (right) - reversed and flipped -->
+  <g transform="translate(280, 100)">
+    <text x="0" y="5" font-family="monospace" font-size="28" fill="#666" text-anchor="middle" font-weight="bold" transform="scale(-1,1) translate(0,0)">DL9CG4728</text>
+    <text x="0" y="30" font-family="serif" font-size="11" fill="#666" text-anchor="middle">Mirror</text>
+  </g>
+
+  <!-- Answer options -->
+  <g transform="translate(80, 175)">
+    <text x="0" y="0" font-family="serif" font-size="11" fill="#333">(1) 8274GC9LD</text>
+  </g>
+  <g transform="translate(180, 175)">
+    <text x="0" y="0" font-family="serif" font-size="11" fill="#333">(2) DL9CG4728</text>
+  </g>
+  <g transform="translate(280, 175)">
+    <text x="0" y="0" font-family="serif" font-size="11" fill="#333">(3) 8274GC9LD</text>
+  </g>
+  <g transform="translate(360, 175)">
+    <text x="0" y="0" font-family="serif" font-size="11" fill="#333">(4) DL9CG4728</text>
+  </g>
+</svg>

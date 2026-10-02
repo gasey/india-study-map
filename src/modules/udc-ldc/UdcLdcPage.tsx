@@ -526,6 +526,7 @@ function BrowseView({
 
   const [open, setOpen] = useState<string | null>(null);
   const openId = open ?? visible[0]?.paper.id ?? null;
+  const [writeReveal, setWriteReveal] = useState<Record<string, boolean>>({});
   const openRow = visible.find((r) => r.paper.id === openId);
   const allShown = !!openRow && openRow.questions.every((q) => shown.has(q.id));
   const toggleAll = () => setShown((prev) => {
@@ -645,7 +646,7 @@ function BrowseView({
                         {i + 1}.
                       </span>
                       <div style={{ flex: 1 }}>
-                        <div className="udc-question-stem" style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
+                        <div className="udc-question-stem" style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
                         <QuestionImage path={q.imagePath} />
                         {q.figureBased && !q.imagePath && (
                           <div style={{
@@ -707,7 +708,7 @@ function BrowseView({
                                     }}>
                                       {optionLetter(oi)}
                                     </span>
-                                    <span className="udc-option-label"><QuestionText text={o} /></span>
+                                    <span className="udc-option-label"><QuestionText text={o} plain={q.topic === 'simple_arithmetic'} /></span>
                                   </button>
                                 );
                               })}
@@ -756,6 +757,22 @@ function BrowseView({
                             isAnswerable(q) && <Pill tone="muted">never attempted</Pill>
                           )}
                         </div>
+                        {!isMcqQuestion(q) && q.explanation && (
+                          <div style={{ marginTop: 6 }}>
+                            <button
+                              type="button"
+                              onClick={() => setWriteReveal((p) => ({ ...p, [q.id]: !p[q.id] }))}
+                              style={{ ...toolBtn, padding: '4px 10px', fontSize: 12 }}
+                            >
+                              {writeReveal[q.id] ? 'Hide model answer' : 'Reveal model answer'}
+                            </button>
+                            {writeReveal[q.id] && (
+                              <div style={{ fontSize: 13, opacity: 0.9, marginTop: 6, whiteSpace: 'pre-wrap' }}>
+                                {q.explanation}
+                              </div>
+                            )}
+                          </div>
+                        )}
                         {isMcqQuestion(q) && shown.has(q.id) && q.explanation && (
                           <div style={{ fontSize: 13, opacity: 0.85, marginTop: 6 }}>
                             {q.explanation}

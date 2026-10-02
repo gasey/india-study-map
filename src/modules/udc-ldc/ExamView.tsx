@@ -291,7 +291,7 @@ function ExamSitting({
                   {i + 1}.
                 </span>
                 <div style={{ flex: 1 }}>
-                  <div className="udc-question-stem" style={{ marginBottom: 8, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} /></div>
+                  <div className="udc-question-stem" style={{ marginBottom: 8, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
                   <QuestionImage path={q.imagePath} />
                   {q.figureBased && !q.imagePath && (
                     <div style={{
@@ -333,7 +333,7 @@ function ExamSitting({
                               onChange={() =>
                                 patch((st) => ({ answers: { ...st.answers, [q.id]: oi } }))}
                             />
-                            <span className="udc-option-label">{optionLetter(oi)}) <QuestionText text={o} /></span>
+                            <span className="udc-option-label">{optionLetter(oi)}) <QuestionText text={o} plain={q.topic === 'simple_arithmetic'} /></span>
                           </label>
                         );
                       })}

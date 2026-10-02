@@ -190,12 +190,18 @@ function repairMathGlyphs(text: string): string {
     .replace(/\b(\d+(?:\.\d+)?)\s*[*x×]\s*(\d+(?:\.\d+)?)\b/g, '$1 × $2');
 }
 
-function InlineText({ text }: { text: string }) {
+function InlineText({ text, plain }: { text: string; plain?: boolean }) {
   const parts: React.ReactNode[] = [];
   let last = 0;
   let m: RegExpExecArray | null;
   MARKED.lastIndex = 0;
-  const repaired = repairMathGlyphs(text);
+  let repaired = repairMathGlyphs(text);
+  if (plain) {
+    // No underline / italic / bold for this question — drop the recovered
+    // emphasis markers and render the plain word. English is left alone for now.
+    repaired = repaired.replace(MARKED, (_m, u: string | undefined, e: string | undefined) => u ?? e ?? '');
+    return <>{repaired}</>;
+  }
   while ((m = MARKED.exec(repaired)) !== null) {
     if (m.index > last) parts.push(repaired.slice(last, m.index));
     parts.push(
@@ -214,23 +220,23 @@ function InlineText({ text }: { text: string }) {
   return <>{parts}</>;
 }
 
-export function QuestionText({ text }: { text: string }) {
+export function QuestionText({ text, plain }: { text: string; plain?: boolean }) {
   if (!text) return null;
   // Called as a plain function, not rendered as an element, because the whole
   // point is to find out whether it CAN parse: it returns null when the text
   // merely mentions List-II, and then the ordinary renderer runs instead of
   // half a table appearing.
-  const table = MatchingLists({ text });
+  const table = plain ? null : MatchingLists({ text });
   if (table) return table;
 
   const lines = text.replace(/\r\n?/g, '\n').split('\n');
-  if (lines.length === 1) return <InlineText text={text} />;
+  if (lines.length === 1) return <InlineText text={text} plain={plain} />;
 
   return (
     <span style={{ display: 'block' }}>
       {lines.map((line, i) => (
         <span key={i} style={{ display: 'block', minHeight: line ? undefined : '0.65em' }}>
-          <InlineText text={line} />
+          <InlineText text={line} plain={plain} />
         </span>
       ))}
     </span>

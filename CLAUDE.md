@@ -6,6 +6,19 @@ personally studying for MPSC (Mizoram Public Service Commission) exams
 using this app, so correctness of question/answer content is not
 cosmetic — a wrong answer teaches the user something false for a real exam.
 
+## Generated bank files — read before editing
+
+`src/data/banks/mpsc-udc-ldc.ts` is **generated** by
+`tools/udc-ldc-build/build_bank.py` and is overwritten on every run. Never
+hand-edit it: corrections belong in an input file next to the build tool
+(`figure-attachments.json`, `answer-arbitration.json`) or upstream in
+`../mpsc-question-bank/state/`. Two rebuild-destroys-work incidents are
+recorded in `DEVLOG.md` (2026-10-03), both of which reported success.
+
+**`HANDOFF-UDC-BANK-BUILD.md`** is the operational version: overlay
+precedence, the four integrity guards, what must never be edited, and the
+open items.
+
 ## What the user wants from you, specifically
 
 - **Verify content against source, don't trust the pipeline's own output.**

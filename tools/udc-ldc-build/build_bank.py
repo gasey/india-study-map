@@ -385,6 +385,16 @@ DISPUTES = os.path.join(BANK_REPO, "state", "key-disputes.json")
 OPTION_DEFECTS = os.path.join(BANK_REPO, "state", "option-defects.json")
 GK_KIND = os.path.join(BANK_REPO, "state", "gk-kind", "_resolved.json")
 
+# Hand-recorded decisions about questions two overlays disagree on. Applied last,
+# after solved-html, so a recorded decision cannot be silently undone by the next
+# round. See the file's _README for why this exists rather than a reordering.
+ARBITRATION = os.path.join(HERE, "answer-arbitration.json")
+
+# Figures recovered from source scans, keyed by bank question id. Lives with the
+# build rather than in the generated .ts because the .ts is overwritten on every
+# run -- see the file's own _README for the recovery that was lost that way.
+FIGURES_PATH = os.path.join(HERE, "figure-attachments.json")
+
 
 def load_disputes(staged_by_paper):
     """
@@ -499,6 +509,26 @@ def load_option_defects(staged_by_paper):
 # one flat directory would let the newer text decide where the older answer
 # belongs.
 ROUND_DIRS = sorted(glob.glob(os.path.join(BANK_REPO, "state", "solve-round*")))
+
+
+def load_figures():
+    """
+    Recovered-figure attachments, keyed by bank question id.
+
+    An entry naming an id this build does not produce is an ERROR, not a no-op.
+    That is the whole point: when these five recoveries lived only in the
+    generated .ts, the next build overwrote them and nothing said so. A stale key
+    is the same failure one step earlier -- the attachment stops being applied
+    while still looking present in the input.
+    """
+    global FIGURES
+    FIGURES = {}
+    if not os.path.exists(FIGURES_PATH):
+        return
+    raw = json.load(open(FIGURES_PATH, encoding="utf-8"))
+    for k, v in raw.items():
+        if not k.startswith("_"):
+            FIGURES[k] = v
 BATCH_DIRS = [
     os.path.join(BANK_REPO, "state", "solve-derived"),
     os.path.join(BANK_REPO, "state", "adjudicate"),
@@ -659,6 +689,9 @@ def load_derived(shown):
                      published a key, it agreed 158/159 = 99.4%. Still not
                      official -- it is a transcription, and it loses to a real
                      key, which is checked before any of this.
+      arbitration    a hand-recorded decision about a question two overlays
+                     disagreed on. Not an automatic round, and last so a later
+                     round cannot overrule it.
     """
     recs = []
 
@@ -762,6 +795,35 @@ def load_derived(shown):
             if isinstance(idx, int) and 0 <= idx < len(LETTERS):
                 add(qid, (idx, "transcribed", "", "high", a.get("note")),
                     SOLVED_HTML, a.get("stem"))
+
+    # LAST, and outranks everything above including solved-html. These are
+    # recorded decisions, not another automatic round: someone looked at two
+    # overlays that disagreed and wrote down which one is right, with a reason.
+    # A new solve round landing later must not be able to overrule that, or the
+    # file becomes decoration.
+    #
+    # `answerIndex: null` WITHDRAWS the answer rather than picking a side, and
+    # is the honest option when every overlay's answer was a placeholder on a
+    # question whose figure never survived scanning.
+    if os.path.exists(ARBITRATION):
+        for qid, a in json.load(open(ARBITRATION, encoding="utf-8")).items():
+            if qid.startswith("_"):
+                continue  # _README and friends
+            idx = a.get("answerIndex")
+            reason = a.get("reason", "")
+            if idx is None:
+                add(qid, (None, "derived",
+                          "No answer is shipped for this question. " + reason,
+                          None, reason), ARBITRATION)
+                continue
+            if not isinstance(idx, int) or not 0 <= idx < len(LETTERS):
+                continue
+            # Confidence is carried through rather than dropped. It is optional
+            # here only so a WITHDRAWN answer has nothing to say, but leaving it
+            # off a shipped answer silently removes the question from the bank's
+            # "weak answers needing review" count, which makes an arbitrated
+            # question look better-sourced than it is.
+            add(qid, (idx, "derived", "", a.get("confidence"), reason), ARBITRATION)
     return recs
 
 
@@ -769,6 +831,7 @@ def main():
     answers = load_answers()
     shown = batch_text()
     derived = load_derived(shown)
+    load_figures()
     papers, questions = [], []
     penalty_by_paper = {}
     unanswered = []
@@ -895,6 +958,40 @@ def main():
             if q.get("unanswerable") or len(live) < 2:
                 rec["figureBased"] = True
                 stats["figureBased"] += 1
+            # A figure recovered from the source scan, keyed by bank question id.
+            # Applied LAST, over the figureBased verdict above, because recovery is
+            # newer information than the staging that produced it.
+            fig = FIGURES.get(qid)
+            if fig:
+                if fig.get("imagePath"):
+                    rec["imagePath"] = fig["imagePath"]
+                    stats["figureAttachments"] = stats.get("figureAttachments", 0) + 1
+                    # The attachment has to actually exist. A missing file renders
+                    # as a broken image, which is worse than the figureBased notice
+                    # it replaces -- so fail loudly at build time instead.
+                    fp = os.path.join(REPO, "public", "question-images",
+                                      fig["imagePath"])
+                    if not os.path.exists(fp):
+                        raise SystemExit(
+                            "figure-attachments.json: %s points at a missing file: %s"
+                            % (qid, fp))
+                if fig.get("question"):
+                    rec["question"] = fig["question"]
+                if fig.get("explanation"):
+                    rec["explanation"] = fig["explanation"]
+                if fig.get("figureRecovered"):
+                    # The figure is legible now, so the question is answerable and
+                    # must count as such. Leaving figureBased on would keep a
+                    # perfectly good question out of every scored test.
+                    if rec.pop("figureBased", None):
+                        stats["figureRecovered"] = stats.get("figureRecovered", 0) + 1
+                elif rec.get("figureBased"):
+                    # Re-insert so imagePath is emitted BEFORE figureBased, which
+                    # is the order the field had when these were hand-edited into
+                    # the .ts. Cosmetic, but it keeps a regenerated file
+                    # byte-comparable with the committed one, so a real change
+                    # stands out instead of hiding in a reordering.
+                    rec["figureBased"] = rec.pop("figureBased")
             # The correct answer is not among the printed options. Set last so the
             # warning survives whichever answer path ran above: it is true of the
             # PAPER, not of how we happened to answer it, and it is the thing the
@@ -984,7 +1081,7 @@ def main():
                 "id": "%s-d%02d" % (slug, item.get("qnum") or i),
                 "subject": bsubj, "topic": topic, "topicLabel": label,
                 "difficulty": "medium", "type": "descriptive",
-                "question": item["prompt"], "explanation": "",
+                "question": item["prompt"], "explanation": item.get("explanation") or "",
                 "source": "%s, %s %d, %s" % (exam, month, year, pno),
                 "year": year, "paperId": slug,
             }
@@ -1100,14 +1197,11 @@ def main():
         "};",
         "",
     ]
-    with open(OUT, "w") as f:
-        f.write("\n".join(lines))
-
-    unans_out = os.path.join(BANK_REPO, "state", "unanswered.json")
-    json.dump(unanswered, open(unans_out, "w", encoding="utf-8"),
-              indent=1, ensure_ascii=False)
-
-    print("wrote %s" % OUT)
+    # NOT written yet. The integrity checks below can abort the build, and a
+    # generated file that is written before them survives the abort -- so a
+    # build that announces a failure still leaves its bad output on disk, and
+    # the next thing anyone does is `npm run build`, which compiles it. The
+    # write moved below the checks for that reason.
     print("  papers    : %d" % len(papers))
     print("  questions : %d  (%d MCQ + %d written)"
           % (stats["total"] + stats["descriptive"], stats["total"],
@@ -1125,6 +1219,24 @@ def main():
     print("  vision-corrected        : %d" % stats["vision"])
     print("  cross-series repaired   : %d" % stats["crossSeries"])
 
+    # Every figure attachment must have reached a question that exists.
+    #
+    # Same reasoning as the adjudicated-verdict check below, and the same silent
+    # failure: an overlay that no longer applies is indistinguishable from one
+    # that was never needed. If a slug or a question number changes upstream, the
+    # id stops matching, the attachment quietly stops being applied, and the
+    # recovered figure vanishes from the bank with a successful build.
+    if FIGURES:
+        by_id = {q["id"]: q for q in questions}
+        orphans = sorted(k for k in FIGURES if k not in by_id)
+        if orphans:
+            raise SystemExit(
+                "\n%d figure-attachments.json entries match no question in this "
+                "build -- the attachment is NOT being applied:\n  - %s"
+                % (len(orphans), "\n  - ".join(orphans)))
+        print("  figures attached        : %d (recovered: %d)"
+              % (stats["figureAttachments"], stats["figureRecovered"]))
+
     # Every adjudicated verdict must actually be the answer that ships.
     #
     # Adjudication is a second independent solve of the weakest answers, so if
@@ -1139,8 +1251,12 @@ def main():
     # An id may legitimately be absent (its question was renumbered away, or a
     # published key outranks the verdict), so only MISMATCHES count.
     if os.path.exists(ADJUDICATED):
+        arb = {}
+        if os.path.exists(ARBITRATION):
+            arb = {k: v for k, v in json.load(open(ARBITRATION, encoding="utf-8")).items()
+                   if not k.startswith("_")}
         by_id = {q["id"]: q for q in questions}
-        lost, checked = [], 0
+        lost, checked, arbitrated = [], 0, 0
         for qid, a in json.load(open(ADJUDICATED, encoding="utf-8")).items():
             paper, _, num = qid.rpartition("::q")
             slug = (PAPERS.get(paper) or (None,))[0]
@@ -1152,6 +1268,15 @@ def main():
             # against -- far better than any solve. Both are MEANT to outrank a
             # verdict. A grace-marked question has no correct option at all
             # (answerIndex -1) and is also not a loss.
+            #
+            # A question in answer-arbitration.json is not a loss either: the
+            # disagreement was resolved by hand and the decision deliberately
+            # overrules the verdict. Those are checked on their own terms below,
+            # not waived -- counted separately so the two numbers can be told
+            # apart rather than quietly merged into one reassuring total.
+            if qid in arb:
+                arbitrated += 1
+                continue
             if rec is None or rec.get("answerSource") in ("official", "transcribed"):
                 continue
             if rec["answerIndex"] == -1:
@@ -1168,7 +1293,57 @@ def main():
         # Report the COUNT, not just "all". A check that silently verified
         # nothing would print the same reassuring word -- that has happened in
         # this project before, with a gate pointed at an empty directory.
-        print("  adjudicated verdicts held : %d/%d" % (checked, checked))
+        print("  adjudicated verdicts held : %d/%d  (%d resolved by hand)"
+              % (checked, checked, arbitrated))
+
+    # Every recorded arbitration must actually have been applied.
+    #
+    # Same failure mode as the figure attachments and the adjudicated verdicts,
+    # and the same reason for the guard: a key that stops matching -- a renamed
+    # paper, a renumbered question, a typo -- makes the entry vanish without an
+    # error, and the question quietly reverts to whatever the losing overlay
+    # said. Nothing else in the build would notice, because the check above
+    # treats an arbitrated question as settled.
+    if os.path.exists(ARBITRATION):
+        by_id = {q["id"]: q for q in questions}
+        dropped = []
+        n = 0
+        for qid, a in json.load(open(ARBITRATION, encoding="utf-8")).items():
+            if qid.startswith("_"):
+                continue
+            paper, _, num = qid.rpartition("::q")
+            slug = (PAPERS.get(paper) or (None,))[0]
+            if not slug or not num.isdigit():
+                dropped.append("%s: no such paper" % qid)
+                continue
+            rec = by_id.get("%s-q%03d" % (slug, int(num)))
+            if rec is None:
+                dropped.append("%s: no question %s-q%03d in the bank"
+                               % (qid, slug, int(num)))
+                continue
+            want = a.get("answerIndex")
+            got = -1 if want is None else want
+            if rec["answerIndex"] != got:
+                dropped.append("%s: arbitrated %s, shipped %s"
+                               % (qid, got, rec["answerIndex"]))
+                continue
+            n += 1
+        if dropped:
+            raise SystemExit(
+                "\n%d recorded arbitrations did NOT take effect -- the key no "
+                "longer matches, or something outranks it:\n  - %s"
+                % (len(dropped), "\n  - ".join(dropped[:10])))
+        print("  arbitrations applied     : %d/%d" % (n, n))
+
+    # Written LAST, after every check has passed. See the note at the old write
+    # site: a build that fails must not leave its output behind for the next
+    # `npm run build` to compile.
+    print("wrote %s" % OUT)
+    with open(OUT, "w") as f:
+        f.write("\n".join(lines))
+    unans_out = os.path.join(BANK_REPO, "state", "unanswered.json")
+    json.dump(unanswered, open(unans_out, "w", encoding="utf-8"),
+              indent=1, ensure_ascii=False)
 
 
 if __name__ == "__main__":

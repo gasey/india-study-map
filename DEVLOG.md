@@ -9,6 +9,170 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-03 (2) — the 4 contested answers get recorded decisions, not a reordering
+
+**What shipped.** `tools/udc-ldc-build/answer-arbitration.json`, applied by
+`build_bank.py` *last* — after `solved-html`, which is otherwise the final
+word. Four entries, each with the winning option and the reasoning:
+
+| question | was | now | basis |
+| --- | --- | --- | --- |
+| `mpsc-ldc-2025-paper-2-q100` (dice) | 1 | **-1, withdrawn** | figure is a solid black block; both overlays' answers were placeholders by their own explanations |
+| `mpsc-ldc-2025-paper-2-q095` | 2 | **3** | only answer with a derivation: K=11 + B=2 = constant diagonal 13, so G=7 needs F=6 |
+| `mpsc-udc-arc-2020-paper-1-q002` | 3 | **1** | predicative adjective after the copula `are`, not adverbial |
+| `mpsc-udc-combined-2025-paper-2-q036` | 1 | **0** | arithmetic is not in dispute (16⅔%); only the option text is OCR-destroyed |
+
+Plus a fifth guard: **every recorded arbitration must actually have taken
+effect**, or the build aborts naming the question and the value it shipped
+instead. Without it the adjudicated-verdict check would have quietly treated an
+arbitrated question as settled — so a renamed paper or a renumbered question
+would revert it to the *losing* overlay's answer with nothing reporting it. Same
+failure mode as the figure attachments, same reason for asserting the outcome
+instead of trusting the input.
+
+**Why not just reorder the overlays.** `restale` outranking `adjudicate` is
+*correct by design* — it re-solves because the source text was repaired, so it
+saw better input. Moving `adjudicate` above it would flip 9 answers at once, 5
+of which are legitimately decided by `solved-html`. The bug was never the order;
+it was that nobody had decided these four. A file of recorded decisions is
+auditable in a way a glob position is not, and it cannot be undone by the next
+round.
+
+**A subtlety worth keeping.** `confidence` looks optional in that file and is
+not, in practice. `answerConfidence` drives the bank's "weak answers needing
+review" count (`UdcLdcPage.tsx:87`), so omitting it on a shipped answer silently
+drops the question out of the tally and makes an arbitrated question look
+better-sourced than it is. Only a *withdrawn* answer has nothing to say. Caught
+by re-reading the emitted records rather than by the build.
+
+**Verification.** Build exits 0. `adjudicated verdicts held: 195/195
+(4 resolved by hand)`, `arbitrations applied: 4/4`, all four emitted records
+confirmed by reading them back. Guards tested by deliberately breaking them —
+orphan id, paper typo, out-of-range index — each exits 1 with a named cause.
+Two consecutive builds byte-identical, logs included. `npm run lint`,
+`npm run build`, `git diff --check` clean.
+
+**Still open.**
+
+- **The four decisions rest on reasoning, not authority.** No official key
+  exists for any of these four sittings (`state/official-answer-keys.json` has
+  120 keys and none for these papers), so none of it could be checked against a
+  published answer. The source scans are image-only and survived in
+  `~/hello-rescue/2/` (`ldc-under-mpsc-paper-ii-2025.pdf`,
+  `udc-combined-paper-ii-d-may-2025.pdf`) — **q95 and q100 can be settled
+  properly by reading those pages**, which this session could not do. Do that
+  before treating q95's diagonal-sum argument as more than a plausible reading of
+  a damaged fragment.
+- **217 records differ from HEAD**, of which 4 are the arbitrations above. The
+  rest (131 `explanation`, 92 `question`, 36 `options`, 10 `answerConfidence`,
+  3 `disputeNote`) come from uncommitted drift in `mpsc-question-bank`'s
+  `state/staged/` and `state/solve-derived/`, not from anything changed here.
+  `imagePath` differs on **zero** records, so the figure work reproduces
+  exactly. None of the 213 has been individually audited.
+- The **5 legitimately-suppressed** disagreements (q11/q59/q60/q67/q81 of the
+  May-2025 Combined sittings) still ship `answerSource: 'transcribed'` from
+  `solved-html`. Correct, and now explained here rather than only in a comment.
+- Three SVGs in `public/question-images/` (`reasoning-dice-positions`,
+  `reasoning-mirror-mn`, `reasoning-paper-pieces`) remain deliberately
+  unattached. Their source scans are lost and the puzzles are invented, so
+  wiring them up would present a fabricated figure as a real exam item. The
+  `figure-attachments.json` `_README` repeats this so the next session does not
+  "finish the job".
+- **Figures need no backend.** Confirmed, not assumed: `QuestionImage.tsx`
+  emits a plain `<img src="/question-images/…">`, `public/` is copied verbatim
+  into `dist/` (all 8 files present after `npm run build`), and nothing in
+  `src/` fetches these server-side. The bank records a *filename*, so the
+  attachment data lives in git and the pixels ship with the static bundle —
+  528 KB total. `mpsc-api` is used for flags/corrections, keyed by question id,
+  and is unaffected.
+
+---
+
+## 2026-10-03 — a rebuild was silently deleting the recovered figures
+
+**The bug.** `src/data/banks/mpsc-udc-ldc.ts` is generated by
+`tools/udc-ldc-build/build_bank.py`. The five figure recoveries from the two
+2026-10-02 entries had been hand-edited straight into that generated `.ts` —
+`imagePath` fields, two cleaned-up stems, and two corrected explanations. The
+next build overwrote all of it: the five `imagePath` fields disappeared, the
+four questions reverted to `figureBased: true`, and q071/q072 picked their old
+"lost in scanning" explanations back up. The build reported success. Nothing
+warned, because a rebuild that destroys work is indistinguishable from a
+rebuild that has nothing to do.
+
+This was not hypothetical — it had already happened once. The uncommitted
+working tree I inherited had exactly these symptoms, which is how it was found.
+
+**What shipped.** `tools/udc-ldc-build/figure-attachments.json`, applied by
+`build_bank.py` *after* the `figureBased` logic, since a recovery is newer
+information than the staging that produced it. Keyed by bank question id
+(`slug-qNNN`), never by paper + qnum — the same lesson `vision-corrections.json`
+records about OCR renumbering. Fields: `imagePath`, optional `question` /
+`explanation` replacement, and `figureRecovered` to clear `figureBased` so the
+question rejoins scored tests. All five records now regenerate byte-for-byte
+identical to the hand-edited versions, including `imagePath` ordering.
+
+Two guards, both of which I confirmed fail loudly rather than assume:
+
+- an `imagePath` with no matching file under `public/question-images/` aborts
+  the build (a broken image is worse than the `figureBased` notice it replaces);
+- an entry matching no question in the build aborts the build (the exact
+  failure above, caught one step earlier).
+
+**Why this shape.** An overlay that no longer applies looks identical to one
+that was never needed, so the build now asserts the *outcome* rather than
+trusting the input — the same reasoning as the existing adjudicated-verdict
+check, which exists because a silently-overwritten adjudication round also
+reported success.
+
+**Verification.** `npm run lint`, `npm run build` pass. Two consecutive builds
+are byte-identical, logs included. Both guards tested by deliberately breaking
+them (orphan id, missing file) — each exits non-zero with a named cause.
+5 `imagePath` present, `figureBased` down 7 → 3, matching HEAD.
+
+**Still open.**
+
+- **Correction to the previous entry's "still open" note**, and a worse bug than
+  the one it described. `build_bank.py` does not merely warn about the 4
+  adjudicated answers it fails to ship — it `raise SystemExit`s, so the build
+  has been **exiting 1**. Worse, it wrote the 2.3 MB `mpsc-udc-ldc.ts` *before*
+  running that check, so the failing build left its bad output on disk and the
+  next `npm run build` compiled it. Both fixed: the write now happens after
+  every check passes, verified by confirming a failing build leaves the file
+  byte-identical.
+
+  Root cause of the 4, now understood: `restale` is the overlay beating
+  `adjudicate`. Of the 62 questions where both have an answer they disagree on
+  9, and **5 of those 9 restale landed on the exact answer adjudication had
+  already recorded as `supersededAnswerIndex` — the one it explicitly
+  rejected.** `restale` re-solves because the *source text was repaired*, so it
+  should win; but on these it appears to re-derive the pre-adjudication answer
+  from the same unrepaired figure, undoing the adjudication by accident. The
+  remaining 5 disagreements are legitimately suppressed (they ship
+  `answerSource: 'transcribed'` from `solved-html`, which is *meant* to
+  outrank a solve), so the check is right to skip them.
+
+  **Now resolved**, by `tools/udc-ldc-build/answer-arbitration.json` — see the
+  entry above. Short version: reordering was the wrong instrument, because
+  `restale` legitimately outranks `adjudicate` whenever a text repair was real.
+  The contested cases are now recorded one line each, with the reason, and
+  applied after every automatic round so no later solve can overrule them.
+- Three SVGs in `public/question-images/` (`reasoning-dice-positions`,
+  `reasoning-mirror-mn`, `reasoning-paper-pieces`) remain deliberately
+  unattached. Their source scans are lost and the puzzles are invented, so
+  wiring them up would present a fabricated figure as a real exam item. The
+  `figure-attachments.json` `_README` repeats this so the next session does not
+  "finish the job".
+- **Figures need no backend.** Confirmed, not assumed: `QuestionImage.tsx`
+  emits a plain `<img src="/question-images/…">`, `public/` is copied verbatim
+  into `dist/` (all 8 files present after `npm run build`), and nothing in
+  `src/` fetches these server-side. The bank records a *filename*, so the
+  attachment data lives in git and the pixels ship with the static bundle —
+  528 KB total. The only backend this feature touches is none; `mpsc-api` is
+  used for flags/corrections, which are keyed by question id and unaffected.
+
+---
+
 ## 2026-10-02 (renderer) — math-repair pass stops eating cell refs, F-keys, and G7
 
 **What shipped.** An audit of the wide `repairMathGlyphs` (shipped this

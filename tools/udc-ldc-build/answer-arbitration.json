@@ -1,0 +1,66 @@
+{
+  "_README": [
+    "Explicit human arbitration between overlays that disagree about an answer.",
+    "Applied LAST by build_bank.py -- after solved-html, which is otherwise the",
+    "final word -- so a recorded decision cannot be silently undone by a later",
+    "round. Keyed by '<paper>::q<num>', the same form adjudicate/_resolved.json",
+    "uses, so the two files read together.",
+    "",
+    "WHY THIS EXISTS. build_bank.py already refuses to ship when an adjudicated",
+    "verdict is overwritten by a later overlay, and it was doing exactly that on",
+    "four questions. restale re-solves questions whose SOURCE TEXT was repaired;",
+    "on these four the repair did not restore the missing figure, so restale",
+    "re-derived an answer from the same broken input and, in 3 of the 4, landed",
+    "on precisely the answer adjudication had recorded as supersededAnswerIndex",
+    "-- the one it had explicitly rejected. Reordering the overlays would flip 9",
+    "answers at once, 5 of which are legitimately decided by solved-html, so the",
+    "contested cases are recorded here instead: one line each, with the reason.",
+    "",
+    "FIELDS:",
+    "  answerIndex   the winning option, 0-3. Use null to WITHDRAW the answer",
+    "                entirely (ships answerIndex -1, 'never attempted') -- the",
+    "                right call when the question is unanswerable from source",
+    "                and every overlay's answer was a placeholder.",
+    "  confidence    optional. Carry the confidence the source files recorded.",
+    "                It is NOT optional in practice: answerConfidence drives the",
+    "                bank's count of weak answers needing review, so omitting it",
+    "                makes an arbitrated question vanish from that tally and look",
+    "                stronger than it is.",
+    "  reason        shown to the reader in the bank's disputeNote.",
+    "",
+    "NO OFFICIAL KEY EXISTS for any of these four sittings. Verified against both",
+    "the corpus (../mpsc-question-bank/pdfs/Answer_Keys/, 196 PDFs) and the 194",
+    "ingested papers in state/official-answer-keys.json. The only UDC/Assistant key",
+    "in the corpus is the April-2024 sitting, which is the one already used to",
+    "measure solved-html at 158/159. So none of this can be checked against a",
+    "published answer: every entry rests on the reasoning recorded in the source",
+    "files, not on authority.",
+    "",
+    "RE-VERIFY BEFORE TRUSTING. q95 and q100 can be settled properly by reading",
+    "~/hello-rescue/2/ldc-under-mpsc-paper-ii-2025.pdf (12 pages, image-only, no",
+    "text layer) -- this session could not view images. See",
+    "HANDOFF-UDC-BANK-BUILD.md for the open items.",
+    "checked against a published answer. Every entry below rests on the reasoning",
+    "recorded in the source files, not on authority. Re-verify against the scans",
+    "before treating any of it as settled."
+  ],
+  "LDC under MPSC Paper-II 2025.::q100": {
+    "answerIndex": null,
+    "reason": "The four dice positions printed on this question scan as a solid black block, so the face opposite 2 cannot be derived from the paper at all. Adjudication called this 'unresolved' and still carried an index; restale produced a different index from the same absent figure. Both were placeholders, so neither is shipped: an unsupported guess on a reasoning item is worse than an honest blank, and this question is already flagged figureBased and held out of scored tests."
+  },
+  "LDC under MPSC Paper-II 2025.::q95": {
+    "confidence": "medium",
+    "answerIndex": 3,
+    "reason": "Adjudication's reading is the only one with an actual derivation: K=11 and B=2 give a constant diagonal sum of 13 in alphabet positions, so G=7 requires F=6, which is option (d) -- index 3. restale's answer rests only on the figure being absent from the extract and is a guess by its own explanation. Recorded as medium confidence in the source: the surviving 2x2 fragment is under-determined, and the original grid was probably larger, so the diagonal rule may be an artefact of what was lost."
+  },
+  "UDC ARC Paper-I::q2": {
+    "confidence": "high",
+    "answerIndex": 1,
+    "reason": "'The prices are up' -- 'up' follows the linking verb 'are' and predicates a state, which is the adjective sense; dictionaries list 'prices are up' under it. restale read the same absence of an object as adverbial, but that reasoning would make almost any predicate adjective an adverb, and it contradicts how the word is classified after a copula. Adjudication marked this 'changed' at high confidence, having examined it specifically because it disagreed with the first solve."
+  },
+  "UDC Combined Paper-II (B) May-2025.::q36": {
+    "confidence": "low",
+    "answerIndex": 0,
+    "reason": "Arithmetic is not in dispute: 10 x 300 = 3000 marked, sold at 2500, so the discount is 500/3000 = 16 2/3%. Only the option text is destroyed by OCR. Reading (b) as 17 1/2% and (d) as 20% leaves (a) as the only slot that can hold 16 2/3%, which is the option adjudication chose; restale instead placed the value 'inside the garbled option text' of (b), which cannot be checked against the printed options at all. Low confidence either way -- this rests on reconstructing which slot holds which fraction, not on reading them."
+  }
+}

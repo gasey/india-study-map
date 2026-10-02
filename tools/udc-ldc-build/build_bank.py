@@ -395,6 +395,10 @@ ARBITRATION = os.path.join(HERE, "answer-arbitration.json")
 # run -- see the file's own _README for the recovery that was lost that way.
 FIGURES_PATH = os.path.join(HERE, "figure-attachments.json")
 
+# qid -> {question, options} for arbitration entries that repair text, not just
+# the answer. Populated by load_arbitration_text(); see its docstring.
+ARB_TEXT = {}
+
 
 def load_disputes(staged_by_paper):
     """
@@ -529,6 +533,41 @@ def load_figures():
     for k, v in raw.items():
         if not k.startswith("_"):
             FIGURES[k] = v
+
+
+def load_arbitration_text():
+    """
+    The subset of answer-arbitration.json that also repairs QUESTION TEXT.
+
+    answerIndex settles which option is right. It cannot settle the options
+    themselves, and on the one question where the printed options were destroyed
+    by OCR it did not have to: picking the right slot out of four strings of
+    garbage is not picking the right answer. So an entry may also carry `question`
+    and `options`, read verbatim off the scan.
+
+    Deliberately NOT handled here: the paper stem had also absorbed a failed
+    attempt to linearise the stacked-fraction options, so both halves need
+    replacing together.
+
+    Split from load_derived() because that runs before any question record
+    exists, and these fields have to land on one.
+    """
+    global ARB_TEXT
+    ARB_TEXT = {}
+    if not os.path.exists(ARBITRATION):
+        return
+    for k, v in json.load(open(ARBITRATION, encoding="utf-8")).items():
+        if k.startswith("_"):
+            continue
+        if v.get("question") or v.get("options"):
+            # Re-key to (paper, qnum) so the question loop can find it with the
+            # same tuple it uses for every other answer source. The file's own
+            # key is the '<paper>::q<num>' string, with num unpadded.
+            paper, _, num = k.rpartition("::q")
+            if paper and num.isdigit():
+                ARB_TEXT[(paper, int(num))] = v
+
+
 BATCH_DIRS = [
     os.path.join(BANK_REPO, "state", "solve-derived"),
     os.path.join(BANK_REPO, "state", "adjudicate"),
@@ -832,6 +871,7 @@ def main():
     shown = batch_text()
     derived = load_derived(shown)
     load_figures()
+    load_arbitration_text()
     papers, questions = [], []
     penalty_by_paper = {}
     unanswered = []
@@ -992,6 +1032,25 @@ def main():
                     # byte-comparable with the committed one, so a real change
                     # stands out instead of hiding in a reordering.
                     rec["figureBased"] = rec.pop("figureBased")
+            # Text repaired from the source scan by a recorded arbitration. Last,
+            # for the same reason the figure attachments are: this is the newest
+            # information about the question and nothing staged afterwards may
+            # outrank it.
+            at = ARB_TEXT.get((name, q["qnum"]))
+            if at:
+                if at.get("question"):
+                    rec["question"] = at["question"]
+                if at.get("options"):
+                    rec["options"] = at["options"]
+                stats["arbitratedText"] = stats.get("arbitratedText", 0) + 1
+                # Replaced options must not leave the answer pointing past the end
+                # of the new list. The range check above ran against the OLD
+                # options, so it cannot have caught this.
+                if not 0 <= rec["answerIndex"] < len(rec["options"]):
+                    raise SystemExit(
+                        "answer-arbitration.json: %s replaces the options with %d "
+                        "entries but its answerIndex is %s"
+                        % (qid, len(rec["options"]), rec["answerIndex"]))
             # The correct answer is not among the printed options. Set last so the
             # warning survives whichever answer path ran above: it is true of the
             # PAPER, not of how we happened to answer it, and it is the thing the
@@ -1029,9 +1088,18 @@ def main():
                 stats["sourceDefect"] += 1
             if q.get("printedOptionLabels"):
                 rec["sourceDefect"] = "duplicate-options"
+                # APPEND, do not overwrite. This note is set last on purpose so a
+                # mechanical defect is never lost -- but two of the arbitrated
+                # questions print their fourth option as (c), and overwriting here
+                # silently threw away the recorded reason for their answer, which
+                # is the only thing explaining a withdrawn answer to the reader.
+                # The defect is already carried structurally by sourceDefect, so
+                # nothing is lost by keeping both.
+                dup = ("The paper prints its fourth option as (c) rather than (d); "
+                       "kept as printed.")
                 rec["disputeNote"] = (
-                    "The paper prints its fourth option as (c) rather than (d); "
-                    "kept as printed.")
+                    (rec["disputeNote"] + " " + dup) if rec.get("disputeNote")
+                    else dup)
                 stats["sourceDefect"] += 1
             if q.get("textSource") == "vision":
                 rec["_vision"] = True
@@ -1327,13 +1395,26 @@ def main():
                 dropped.append("%s: arbitrated %s, shipped %s"
                                % (qid, got, rec["answerIndex"]))
                 continue
+            # An entry that repairs question text must ALSO be checked on the
+            # text. Answering this guard on answerIndex alone would let a stem
+            # or option list silently revert to the OCR garbage the entry
+            # exists to replace, while the guard still reported the entry as
+            # applied -- the reader would be shown four strings of noise with
+            # a confident-looking index pointing into them.
+            if a.get("question") and rec["question"] != a["question"]:
+                dropped.append("%s: arbitrated stem not applied" % qid)
+                continue
+            if a.get("options") and rec["options"] != a["options"]:
+                dropped.append("%s: arbitrated options not applied" % qid)
+                continue
             n += 1
         if dropped:
             raise SystemExit(
                 "\n%d recorded arbitrations did NOT take effect -- the key no "
                 "longer matches, or something outranks it:\n  - %s"
                 % (len(dropped), "\n  - ".join(dropped[:10])))
-        print("  arbitrations applied     : %d/%d" % (n, n))
+        print("  arbitrations applied     : %d/%d  (text repaired: %d)"
+              % (n, n, stats.get("arbitratedText", 0)))
 
     # Written LAST, after every check has passed. See the note at the old write
     # site: a build that fails must not leave its output behind for the next

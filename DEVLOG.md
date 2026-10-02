@@ -9,6 +9,75 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-03 (3) — the arbitrations read off the scans, and one of them was wrong
+
+**What shipped.** The previous entry recorded four decisions *reasoned about*
+because the source papers are image-only and this model cannot view images.
+That was the wrong conclusion, and it cost a wrong answer. `pdftoppm` plus
+`tesseract` over ink-profile crops reads these figures as reliably as looking
+at them. All four were re-checked against the renders; three are now confirmed
+from the paper and **one was corrected**.
+
+| question | previous | now | what the scan showed |
+| --- | --- | --- | --- |
+| `mpsc-ldc-2025-paper-2-q100` (dice) | -1 | **-1, confirmed** | 1 ink cluster spanning x 418–1923, not four dice; 4 OCR modes return noise. Destroyed in the scan, not merely hard to read |
+| `mpsc-ldc-2025-paper-2-q095` | 3, medium | **3, high** | grid is `K \| B / G \| ?`; row sums 11+2=13 and 7+6=13 |
+| `mpsc-udc-combined-2025-paper-2-q036` | 0, low | **2, high** | options are (a) 11⅕% (b) 17 4/10% **(c) 16⅔%** (d) 16 17/20% |
+| `mpsc-udc-arc-2020-paper-1-q002` | 1 | **1, unchanged** | fully legible text question; nothing to re-read |
+
+**q036 was wrong and the arithmetic shows why.** 10 × ₹300 = ₹3000 marked,
+sold at ₹2500, so the discount is ₹500 and **500/3000 = 1/6 = 16⅔%**. The
+options are printed as *stacked mixed fractions*, which OCR flattened into one
+line of punctuation (`'175% 2 17 16<9 16—9'`). The old entry had guessed the
+option text by assuming the OCR fragments `17 1/2%` and `20%` were whole
+options, then reasoned backwards to whichever slot was left — which is how a
+confident-looking `low` entry ended up pointing at `'NE%'`. Reading the
+numerators and denominators separately off the 600 dpi render gives the four
+options above, and 16⅔% is (c) = index 2. The correct value occurs exactly once
+among the printed options, and the arithmetic is exact; that agreement is what
+makes this safe rather than another guess.
+
+**Also fixed, and it was hiding in plain sight:** the same question's stem had
+the parser's failed fraction-flattening appended to it as trailing garbage
+(`'…discount given? 1 9 1-9 17—9'`), and `answerIndex: 0` was pointing into an
+option array of OCR noise. Choosing the right *index* out of four strings of
+garbage is not choosing the right answer — the reader was being shown the
+garbage either way.
+
+**So `answer-arbitration.json` gained two optional fields,** `question` and
+`options`, applied after everything else, plus two new guards:
+
+- a repaired option list that leaves the answer pointing outside it **aborts
+  the build** naming the question and both counts (the pre-existing range check
+  runs against the *old* options, so it cannot catch this);
+- the applied-arbitrations guard now also checks repaired **text**, not just
+  `answerIndex` — otherwise a stem or option list could silently revert to the
+  OCR garbage while the guard still reported the entry as applied.
+
+And a third fix: `duplicate-options` was **overwriting** `disputeNote`, which
+silently discarded the recorded reason on the two questions that print their
+fourth option as (c) — including q100, whose withdrawn answer is the only place
+a reader learns why there is no answer. It now appends; `sourceDefect` already
+carries the defect structurally.
+
+**Verified, not assumed.** Every guard proved to fire by deliberately breaking
+it: renaming an arbitration key → exit 1 naming the question; a repaired option
+list of 3 with `answerIndex: 3` → exit 1 naming both counts. A wrong-but-
+*self-consistent* `answerIndex` correctly does **not** fire — the guard's job is
+catching non-application, not judging correctness, and I confirmed it does not
+overclaim. `npm run lint`, `npm run build` clean; two consecutive builds
+byte-identical; `git diff --check` clean. (Note: `python3 … | tail` reports
+`tail`'s exit status, not the build's — check `$?` directly.)
+
+**Still open.** The 213 non-arbitration records that differ from HEAD (131
+`explanation`, 92 `question`, 36 `options`, 10 `answerConfidence`, 3
+`disputeNote`) come from uncommitted upstream drift in
+`../mpsc-question-bank/state/staged/` and `state/solve-derived/`, not from
+anything changed here. `imagePath` differs on **zero** records, so the figure
+recovery is intact. Not audited yet.
+
+---
+
 ## 2026-10-03 (2) — the 4 contested answers get recorded decisions, not a reordering
 
 **What shipped.** `tools/udc-ldc-build/answer-arbitration.json`, applied by
@@ -21,6 +90,11 @@ word. Four entries, each with the winning option and the reasoning:
 | `mpsc-ldc-2025-paper-2-q095` | 2 | **3** | only answer with a derivation: K=11 + B=2 = constant diagonal 13, so G=7 needs F=6 |
 | `mpsc-udc-arc-2020-paper-1-q002` | 3 | **1** | predicative adjective after the copula `are`, not adverbial |
 | `mpsc-udc-combined-2025-paper-2-q036` | 1 | **0** | arithmetic is not in dispute (16⅔%); only the option text is OCR-destroyed |
+
+> **Superseded by the entry above.** q036's index 0 was a guess and is now 2;
+> its options and stem are repaired. q095 rose from medium to high confidence
+> once the grid was read off the scan. The reasoning for all four is unchanged
+> and still sound as reasoning — it just wasn't reading the paper.
 
 Plus a fifth guard: **every recorded arbitration must actually have taken
 effect**, or the build aborts naming the question and the value it shipped

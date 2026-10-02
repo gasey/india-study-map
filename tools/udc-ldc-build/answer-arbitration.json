@@ -27,6 +27,15 @@
     "                makes an arbitrated question vanish from that tally and look",
     "                stronger than it is.",
     "  reason        shown to the reader in the bank's disputeNote.",
+    "  question      optional. A repaired stem, verbatim from the scan. Use when",
+    "                the OCR stem is damaged, not merely ugly.",
+    "  options      optional. A repaired option list, verbatim from the scan.",
+    "                Required whenever the options themselves are unreadable:",
+    "                choosing the right INDEX out of four strings of garbage is",
+    "                not choosing the right answer, and the reader would still",
+    "                be shown the garbage. The build fails if a repaired option",
+    "                list leaves the answer pointing outside it.",
+    "  evidence      optional. Where the decision was checked, and how.",
     "",
     "NO OFFICIAL KEY EXISTS for any of these four sittings. Verified against both",
     "the corpus (../mpsc-question-bank/pdfs/Answer_Keys/, 196 PDFs) and the 194",
@@ -36,22 +45,36 @@
     "published answer: every entry rests on the reasoning recorded in the source",
     "files, not on authority.",
     "",
-    "RE-VERIFY BEFORE TRUSTING. q95 and q100 can be settled properly by reading",
-    "~/hello-rescue/2/ldc-under-mpsc-paper-ii-2025.pdf (12 pages, image-only, no",
-    "text layer) -- this session could not view images. See",
-    "HANDOFF-UDC-BANK-BUILD.md for the open items.",
+    "RE-VERIFY BEFORE TRUSTING. Three of the four have now been read off the",
+    "source scans rather than reasoned about; q100 could not be. The papers are",
+    "image-only with no text layer, so the method is pdftoppm to a render plus",
+    "tesseract over ink-profile crops -- the figures themselves are not",
+    "machine-readable, and for q100 they are destroyed in the scan outright.",
+    "Each entry below carries an `evidence` block naming the page and how it",
+    "was read, so a later reader can repeat the check instead of trusting it.",
     "checked against a published answer. Every entry below rests on the reasoning",
     "recorded in the source files, not on authority. Re-verify against the scans",
     "before treating any of it as settled."
   ],
   "LDC under MPSC Paper-II 2025.::q100": {
     "answerIndex": null,
-    "reason": "The four dice positions printed on this question scan as a solid black block, so the face opposite 2 cannot be derived from the paper at all. Adjudication called this 'unresolved' and still carried an index; restale produced a different index from the same absent figure. Both were placeholders, so neither is shipped: an unsupported guess on a reasoning item is worse than an honest blank, and this question is already flagged figureBased and held out of scored tests."
+    "reason": "The four dice positions printed on this question scan as a solid black block, so the face opposite 2 cannot be derived from the paper at all. Adjudication called this 'unresolved' and still carried an index; restale produced a different index from the same absent figure. Both were placeholders, so neither is shipped: an unsupported guess on a reasoning item is worse than an honest blank, and this question is already flagged figureBased and held out of scored tests.",
+    "evidence": {
+      "source": "~/hello-rescue/2/ldc-under-mpsc-paper-ii-2025.pdf, page 12 (the paper is image-only, no text layer)",
+      "method": "pdftoppm -r 400 and -r 130 renders, then tesseract at psm 4/6/11/12 over the figure crop, with and without contrast stretch",
+      "finding": "every OCR mode returns noise; an ink-column profile finds ONE connected cluster spanning x 418-1923 rather than four separate dice, so no pip structure survives. The figure is destroyed in the scan, not merely hard to read."
+    }
   },
   "LDC under MPSC Paper-II 2025.::q95": {
-    "confidence": "medium",
+    "confidence": "high",
     "answerIndex": 3,
-    "reason": "Adjudication's reading is the only one with an actual derivation: K=11 and B=2 give a constant diagonal sum of 13 in alphabet positions, so G=7 requires F=6, which is option (d) -- index 3. restale's answer rests only on the figure being absent from the extract and is a guess by its own explanation. Recorded as medium confidence in the source: the surviving 2x2 fragment is under-determined, and the original grid was probably larger, so the diagonal rule may be an artefact of what was lost."
+    "reason": "Confirmed against the scan. The figure is a 2x2 grid with a vertical divider -- K | B over G | ? -- read at 400 dpi (the '?' OCRs as '2'). Using alphabet positions K=11, B=2, G=7: the row sum K+B = 13 is constant, so G+? = 13 gives ? = 6 = F, option (d), index 3. This is the ONLY consistent rule of the four candidates -- equal column sums want ?=16, equal diagonals want ?=-2, equal products want a non-integer -- so the answer does not depend on guessing which pattern was intended. Adjudication's derivation and this read agree; restale's rests only on the figure being absent from the extract and is a guess by its own explanation.",
+    "evidence": {
+      "source": "~/hello-rescue/2/ldc-under-mpsc-paper-ii-2025.pdf, page 11 (image-only, no text layer)",
+      "method": "pdftoppm -r 400, ink-profile crops of each grid row, tesseract psm 6/7/11",
+      "grid": "K | B / G | ?",
+      "check": "row sums 11+2=13 and 7+6=13; column sums 11+7=18 vs 2+6=8 disagree, diagonals and products give no valid letter, which is what makes 13 the intended rule"
+    }
   },
   "UDC ARC Paper-I::q2": {
     "confidence": "high",
@@ -59,8 +82,20 @@
     "reason": "'The prices are up' -- 'up' follows the linking verb 'are' and predicates a state, which is the adjective sense; dictionaries list 'prices are up' under it. restale read the same absence of an object as adverbial, but that reasoning would make almost any predicate adjective an adverb, and it contradicts how the word is classified after a copula. Adjudication marked this 'changed' at high confidence, having examined it specifically because it disagreed with the first solve."
   },
   "UDC Combined Paper-II (B) May-2025.::q36": {
-    "confidence": "low",
-    "answerIndex": 0,
-    "reason": "Arithmetic is not in dispute: 10 x 300 = 3000 marked, sold at 2500, so the discount is 500/3000 = 16 2/3%. Only the option text is destroyed by OCR. Reading (b) as 17 1/2% and (d) as 20% leaves (a) as the only slot that can hold 16 2/3%, which is the option adjudication chose; restale instead placed the value 'inside the garbled option text' of (b), which cannot be checked against the printed options at all. Low confidence either way -- this rests on reconstructing which slot holds which fraction, not on reading them."
+    "confidence": "high",
+    "answerIndex": 2,
+    "question": "10 books each of ₹ 300 are sold at ₹ 2500. What is the percentage of the discount given?",
+    "options": [
+      "11 1/5 %",
+      "17 4/10 %",
+      "16 2/3 %",
+      "16 17/20 %"
+    ],
+    "reason": "Read off the scan at 600 dpi, not reconstructed. 10 x 300 = 3000 marked price, sold for 2500, so the discount is 500 and 500/3000 = 1/6 = 16 2/3%. The printed options are stacked mixed fractions, which OCR flattened into one line of punctuation; reading the numerators and denominators separately off the render gives (a) 11 1/5 %, (b) 17 4/10 %, (c) 16 2/3 %, (d) 16 17/20 % -- so 16 2/3% is option (c), index 2. This CORRECTS the earlier entry, which had guessed index 0 by assuming the OCR fragments '17 1/2%' and '20%' were whole options. The question stem is also repaired: the parser had appended its failed fraction-flattening attempt to the stem as trailing garbage.",
+    "evidence": {
+      "source": "~/hello-rescue/2/udc-combined-paper-ii-d-may-2025.pdf, page 7",
+      "method": "pdftoppm -r 600, then per-option ink-profile crops read as text art and cross-checked with tesseract",
+      "crossCheck": "the correct value 16 2/3% occurs exactly once among the four printed options, and the arithmetic is exact"
+    }
   }
 }

@@ -220,6 +220,46 @@ function InlineText({ text, plain }: { text: string; plain?: boolean }) {
   return <>{parts}</>;
 }
 
+const SUBPART_RE = /\s?\(([a-zA-Z]|\d{1,2}|[ivxlcdm]+)\)\s*/g;
+
+function splitSubparts(text: string): { main: string; parts: string[] } | null {
+  const marks: { index: number; length: number }[] = [];
+  SUBPART_RE.lastIndex = 0;
+  let m: RegExpExecArray | null;
+  while ((m = SUBPART_RE.exec(text)) !== null) {
+    const before = text[m.index - 1];
+    if (m.index === 0 || before === ' ' || before === '\n' || before === '—' || before === '-') {
+      marks.push({ index: m.index, length: m[0].length });
+    }
+  }
+  if (marks.length < 2) return null;
+  const main = text.slice(0, marks[0].index).trim();
+  const parts: string[] = [];
+  for (let i = 0; i < marks.length; i += 1) {
+    const start = marks[i].index;
+    const end = i + 1 < marks.length ? marks[i + 1].index : text.length;
+    parts.push(text.slice(start, end).trim());
+  }
+  return main ? { main, parts } : { main: '', parts };
+}
+
+function SubParts({ text, plain }: { text: string; plain?: boolean }) {
+  const split = splitSubparts(text);
+  if (!split) return <InlineText text={text} plain={plain} />;
+  return (
+    <>
+      {split.main && <div style={{ marginBottom: 6 }}>{split.main}</div>}
+      <ul style={{ margin: '4px 0 0 0', paddingLeft: '1.5rem' }}>
+        {split.parts.map((part, i) => (
+          <li key={i} style={{ marginBottom: 2 }}>
+            <InlineText text={part} plain={plain} />
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+}
+
 export function QuestionText({ text, plain }: { text: string; plain?: boolean }) {
   if (!text) return null;
   // Called as a plain function, not rendered as an element, because the whole
@@ -230,7 +270,7 @@ export function QuestionText({ text, plain }: { text: string; plain?: boolean })
   if (table) return table;
 
   const lines = text.replace(/\r\n?/g, '\n').split('\n');
-  if (lines.length === 1) return <InlineText text={text} plain={plain} />;
+  if (lines.length === 1) return <SubParts text={text} plain={plain} />;
 
   return (
     <span style={{ display: 'block' }}>

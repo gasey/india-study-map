@@ -146,5 +146,14 @@
       "method": "pdftoppm -r 600, then per-option ink-profile crops read as text art and cross-checked with tesseract",
       "crossCheck": "the correct value 16 2/3% occurs exactly once among the four printed options, and the arithmetic is exact"
     }
+  },
+  "Assistant UDC under MPSC paper-II.::q91": {
+    "question": "Find out which of the figures (1), (2), (3) and (4) can be formed from the pieces given in figure (X).",
+    "reason": "TEXT ONLY, no answerIndex (the answer is official: index 3 = \"2\"). The OCR read the printed figure as \"@ GG) @)\" — the stem is repaired from the page image (p.11 of the April 2024 Paper-II scan). The figure itself is recovered and attached via figure-attachments.json, so the question is now answerable and figureBased is cleared.",
+    "evidence": {
+      "source": "pdfs/Old_Questions/Direct_NG_2024-2027/Assistant UDC under MPSC paper-II..pdf, page 11 (image-only, no text layer)",
+      "method": "pdftoppm -r 300, figure region cropped by ink profile (x=468-1026, y=1611-2127), stem read from the OCR text band above the figure",
+      "crossCheck": "the same stem text appears in the 2025 Combined Paper-II q071/q072, which were independently recovered on 2026-10-02; the official key for this sitting records (d) / index 3"
+    }
   }
 }

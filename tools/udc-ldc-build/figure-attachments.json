@@ -58,5 +58,12 @@
   "mpsc-ldc-2026apr-paper-2-q081": {
     "imagePath": "mpsc-ldc-2026apr-paper-2-q081.png",
     "explanation": "Figure recovered from the April 2026 Paper-II scan on 2026-10-02 and shown below. The options were printed as mirrored-word images, so they cannot be transcribed as text; the official key records (a)."
+  },
+
+  "mpsc-asst-udc-2024-paper-2-q091": {
+    "imagePath": "mpsc-asst-udc-2024-paper-2-q091.png",
+    "figureRecovered": true,
+    "question": "Find out which of the figures (1), (2), (3) and (4) can be formed from the pieces given in figure (X). [Figure recovered from the April 2024 Paper-II scan on 2026-10-03.]",
+    "explanation": "Corrected 2026-10-03: the April 2024 Paper-II scan (p.11) preserves this figure. The OCR read the figure images as \"@ GG) @)\". Figure (X) and candidates (1)–(4) are shown below; the question is now answerable and rejoins scored tests."
   }
 }

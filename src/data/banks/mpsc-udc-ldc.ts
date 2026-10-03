@@ -52145,6 +52145,7 @@ const questionsPart8: BankQuestion[] = [
     options: ['30 years', '31 years', '32 years', '33 years'],
     answerIndex: -1,
     explanation: 'NOTE: worked through the numbers, teacher age = 31×22 - 30×21 = 682 - 630 = 52, which is not among the printed choices - the paper’s options appear to contain a typo.',
+    disputeNote: 'Computed answer is 52 years, but the answer choices are only 30/31/32/33 years, so the item is excluded from scored tests.',
     source: 'Assistant Grade under DP&AR (SSW), April 2018, Paper-II',
     year: 2018,
     paperId: 'mpsc-asst-dpar-2018-paper-2',

@@ -3237,6 +3237,7 @@ const questionsPart1: BankQuestion[] = [
     options: ['(a)', '(b)', '(c)', '(d)'],
     answerIndex: -1,
     explanation: "The options depend on mirror-image answer-figure images that are not recoverable from the text alone, so a definitive choice cannot be made.",
+    disputeNote: 'Both the problem figure and the four answer figures are printed as a solid black rectangle in the available scan, so the key is not recoverable from the current source.',
     source: 'LDC under MPSC, February 2025, Paper-II',
     year: 2025,
     paperId: 'mpsc-ldc-2025-paper-2',

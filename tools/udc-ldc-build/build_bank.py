@@ -399,6 +399,19 @@ FIGURES_PATH = os.path.join(HERE, "figure-attachments.json")
 # the answer. Populated by load_arbitration_text(); see its docstring.
 ARB_TEXT = {}
 
+# The sentence that opens the disputeNote of every WITHDRAWN answer. A named
+# constant because two places need it and they must not drift: the code that
+# writes the withdrawal, and the guard that has to recognise one in the shipped
+# record. The withdrawal happens in load_derived(), long before the question
+# loop runs, so the guard cannot compare before-and-after -- it can only look at
+# the artifact and ask whether this absence of an answer was the recorded kind.
+WITHDRAWAL_MARK = "No answer is shipped for this question."
+
+# (paper, qnum) -> the answerIndex that question had before its arbitration
+# text/note was applied, for entries that decide no answer. Filled in during the
+# question loop, read by the arbitration guard. See load_arbitration_text().
+ANSWERLESS_ARB = {}
+
 
 def load_disputes(staged_by_paper):
     """
@@ -549,23 +562,33 @@ def load_arbitration_text():
     attempt to linearise the stacked-fraction options, so both halves need
     replacing together.
 
+    It also records, in ANSWERLESS_ARB, which of these entries decide no answer,
+    so the guard can check that they really did leave the answer alone. Reading
+    that off the file would prove nothing: "leaves the answer alone" is a claim
+    about what happened during the build, not a description of the file.
+
     Split from load_derived() because that runs before any question record
     exists, and these fields have to land on one.
     """
-    global ARB_TEXT
+    global ARB_TEXT, ANSWERLESS_ARB
     ARB_TEXT = {}
+    ANSWERLESS_ARB = {}
     if not os.path.exists(ARBITRATION):
         return
     for k, v in json.load(open(ARBITRATION, encoding="utf-8")).items():
         if k.startswith("_"):
             continue
-        if v.get("question") or v.get("options"):
+        if v.get("question") or v.get("options") or v.get("note"):
             # Re-key to (paper, qnum) so the question loop can find it with the
             # same tuple it uses for every other answer source. The file's own
             # key is the '<paper>::q<num>' string, with num unpadded.
             paper, _, num = k.rpartition("::q")
             if paper and num.isdigit():
                 ARB_TEXT[(paper, int(num))] = v
+                if "answerIndex" not in v:
+                    # Value filled in by the question loop, which is the only
+                    # place the pre-arbitration answer exists.
+                    ANSWERLESS_ARB[(paper, int(num))] = None
 
 
 BATCH_DIRS = [
@@ -844,15 +867,22 @@ def load_derived(shown):
     # `answerIndex: null` WITHDRAWS the answer rather than picking a side, and
     # is the honest option when every overlay's answer was a placeholder on a
     # question whose figure never survived scanning.
+    # An entry with NO `answerIndex` key at all settles only the TEXT and/or a
+    # reader's note, and leaves the answer alone. That is a different thing from
+    # `answerIndex: null`, which WITHDRAWS the answer: conflating the two
+    # silently strips a perfectly good answer off a question whose only problem
+    # was a damaged stem.
     if os.path.exists(ARBITRATION):
         for qid, a in json.load(open(ARBITRATION, encoding="utf-8")).items():
             if qid.startswith("_"):
                 continue  # _README and friends
+            if "answerIndex" not in a:
+                continue  # text/note only; load_arbitration_text() handles it
             idx = a.get("answerIndex")
             reason = a.get("reason", "")
             if idx is None:
                 add(qid, (None, "derived",
-                          "No answer is shipped for this question. " + reason,
+                          WITHDRAWAL_MARK + " " + reason,
                           None, reason), ARBITRATION)
                 continue
             if not isinstance(idx, int) or not 0 <= idx < len(LETTERS):
@@ -1038,19 +1068,47 @@ def main():
             # outrank it.
             at = ARB_TEXT.get((name, q["qnum"]))
             if at:
+                if (name, q["qnum"]) in ANSWERLESS_ARB:
+                    ANSWERLESS_ARB[(name, q["qnum"])] = rec["answerIndex"]
                 if at.get("question"):
                     rec["question"] = at["question"]
                 if at.get("options"):
                     rec["options"] = at["options"]
-                stats["arbitratedText"] = stats.get("arbitratedText", 0) + 1
+                # A warning for the reader, on a question whose ANSWER is not
+                # itself in doubt. Appended rather than assigned, for the same
+                # reason the duplicate-options note is: something staged may
+                # already have something true to say about the paper itself.
+                if at.get("note"):
+                    rec["disputeNote"] = (
+                        (rec["disputeNote"] + " " + at["note"])
+                        if rec.get("disputeNote") else at["note"])
+                # A flagged question must not keep a confident-looking badge.
+                # UdcLdcPage counts 'derived' + low/medium as the weak answers
+                # needing review, so an entry saying "treat this as untested"
+                # that leaves confidence at 'high' drops the one question it is
+                # warning about out of the very tally meant to catch it.
+                if at.get("confidence"):
+                    rec["answerConfidence"] = at["confidence"]
+                if at.get("question") or at.get("options"):
+                    stats["arbitratedText"] = stats.get("arbitratedText", 0) + 1
+                if at.get("note"):
+                    stats["arbitratedNotes"] = stats.get("arbitratedNotes", 0) + 1
                 # Replaced options must not leave the answer pointing past the end
                 # of the new list. The range check above ran against the OLD
                 # options, so it cannot have caught this.
-                if not 0 <= rec["answerIndex"] < len(rec["options"]):
+                #
+                # answerIndex -1 means NO answer is shipped, which is not the same
+                # as an answer that has fallen off the end. Testing it here once
+                # reported a repaired STEM on a withdrawn question as a broken
+                # option list -- and, worse, told whoever hit it to go looking at
+                # an options field their entry never had. A withdrawn answer is
+                # allowed to sit beside a repaired stem; that is exactly what a
+                # text-only entry on a withdrawn question is for.
+                if rec["answerIndex"] >= 0 and rec["answerIndex"] >= len(rec["options"]):
                     raise SystemExit(
-                        "answer-arbitration.json: %s replaces the options with %d "
-                        "entries but its answerIndex is %s"
-                        % (qid, len(rec["options"]), rec["answerIndex"]))
+                        "answer-arbitration.json: %s: answerIndex %d does not fit "
+                        "the %d options shipped for it"
+                        % (qid, rec["answerIndex"], len(rec["options"])))
             # The correct answer is not among the printed options. Set last so the
             # warning survives whichever answer path ran above: it is true of the
             # PAPER, not of how we happened to answer it, and it is the thing the
@@ -1342,7 +1400,7 @@ def main():
             # overrules the verdict. Those are checked on their own terms below,
             # not waived -- counted separately so the two numbers can be told
             # apart rather than quietly merged into one reassuring total.
-            if qid in arb:
+            if qid in arb and "answerIndex" in arb[qid]:
                 arbitrated += 1
                 continue
             if rec is None or rec.get("answerSource") in ("official", "transcribed"):
@@ -1390,11 +1448,43 @@ def main():
                                % (qid, slug, int(num)))
                 continue
             want = a.get("answerIndex")
-            got = -1 if want is None else want
-            if rec["answerIndex"] != got:
-                dropped.append("%s: arbitrated %s, shipped %s"
-                               % (qid, got, rec["answerIndex"]))
+            if "answerIndex" in a:
+                got = -1 if want is None else want
+                if rec["answerIndex"] != got:
+                    dropped.append("%s: arbitrated %s, shipped %s"
+                                   % (qid, got, rec["answerIndex"]))
+                    continue
+            elif not (a.get("question") or a.get("options") or a.get("note")):
+                dropped.append("%s: entry decides nothing at all" % qid)
                 continue
+            else:
+                # The entry settles text or a note, and says nothing about the
+                # answer. Two ways that can go wrong, and both are silent:
+                #
+                #   the answer got WITHDRAWN, because a missing answerIndex key
+                #     and an explicit null were read as the same thing -- and the
+                #     withdrawal lands in load_derived(), before this loop, so
+                #     there is no before-value here to compare against. Ask the
+                #     artifact instead: a recorded withdrawal says so in the note.
+                #   the answer got RE-SEATED by something downstream. The
+                #     loop's capture is the only before-value that exists.
+                key = (paper, int(num))
+                if key not in ANSWERLESS_ARB:
+                    dropped.append("%s: entry was never applied, so the answer it "
+                                   "leaves alone was never captured" % qid)
+                    continue
+                was = ANSWERLESS_ARB[key]
+                if (rec["answerIndex"] == -1
+                        and WITHDRAWAL_MARK not in (rec.get("disputeNote") or "")):
+                    dropped.append("%s: entry decides no answer, yet the answer was "
+                                   "withdrawn -- text-only and withdraw are "
+                                   "different things" % qid)
+                    continue
+                if was is not None and rec["answerIndex"] != was:
+                    dropped.append("%s: entry decides no answer, yet the answer "
+                                   "changed %s -> %s"
+                                   % (qid, was, rec["answerIndex"]))
+                    continue
             # An entry that repairs question text must ALSO be checked on the
             # text. Answering this guard on answerIndex alone would let a stem
             # or option list silently revert to the OCR garbage the entry
@@ -1407,14 +1497,26 @@ def main():
             if a.get("options") and rec["options"] != a["options"]:
                 dropped.append("%s: arbitrated options not applied" % qid)
                 continue
+            # Same for `note`, with one difference: it is APPENDED to whatever
+            # was already on the question, so it is found by substring. A
+            # question may have two independent things to say about the paper,
+            # and demanding exact equality would report a correct build broken.
+            if a.get("note") and a["note"] not in (rec.get("disputeNote") or ""):
+                dropped.append("%s: arbitration note not applied" % qid)
+                continue
+            if a.get("confidence") and rec.get("answerConfidence") != a["confidence"]:
+                dropped.append("%s: arbitrated confidence %s, shipped %s"
+                               % (qid, a["confidence"], rec.get("answerConfidence")))
+                continue
             n += 1
         if dropped:
             raise SystemExit(
                 "\n%d recorded arbitrations did NOT take effect -- the key no "
                 "longer matches, or something outranks it:\n  - %s"
                 % (len(dropped), "\n  - ".join(dropped[:10])))
-        print("  arbitrations applied     : %d/%d  (text repaired: %d)"
-              % (n, n, stats.get("arbitratedText", 0)))
+        print("  arbitrations applied     : %d/%d  (text repaired: %d, notes: %d)"
+              % (n, n, stats.get("arbitratedText", 0),
+                 stats.get("arbitratedNotes", 0)))
 
     # Written LAST, after every check has passed. See the note at the old write
     # site: a build that fails must not leave its output behind for the next

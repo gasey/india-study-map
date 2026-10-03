@@ -25,7 +25,11 @@
     "                It is NOT optional in practice: answerConfidence drives the",
     "                bank's count of weak answers needing review, so omitting it",
     "                makes an arbitrated question vanish from that tally and look",
-    "                stronger than it is.",
+    "                stronger than it is. On an entry that decides only text or a",
+    "                note it also works the other way: set it to pull a flagged",
+    "                question back into the tally. See the q79 entry, which is",
+    "                badged 'high' by its solver and would otherwise never be looked",
+    "                at by the one person who needs to look at it.",
     "  reason        shown to the reader in the bank's disputeNote.",
     "  question      optional. A repaired stem, verbatim from the scan. Use when",
     "                the OCR stem is damaged, not merely ugly.",
@@ -35,7 +39,20 @@
     "                not choosing the right answer, and the reader would still",
     "                be shown the garbage. The build fails if a repaired option",
     "                list leaves the answer pointing outside it.",
+    "  note          optional. A warning for the reader, appended to disputeNote,",
+    "                for a question whose ANSWER is not in doubt but which the",
+    "                reader should treat with care -- an under-determined puzzle,",
+    "                say. Applied on its own: an entry carrying only a note",
+    "                changes nothing else, and that is the point.",
     "  evidence      optional. Where the decision was checked, and how.",
+    "",
+    "ANSWERLESS ENTRIES ARE NOT THE SAME THING. An entry with NO answerIndex key",
+    "at all decides only text and/or a note; the answer is left exactly as the",
+    "overlays produced it. That is DIFFERENT from answerIndex: null, which",
+    "withdraws the answer and ships 'never attempted'. The first draft of this",
+    "build treated both as withdrawals and silently stripped four good answers",
+    "from questions whose only problem was a damaged stem. If you mean to",
+    "withdraw, write the null out loud.",
     "",
     "NO OFFICIAL KEY EXISTS for any of these four sittings. Verified against both",
     "the corpus (../mpsc-question-bank/pdfs/Answer_Keys/, 196 PDFs) and the 194",
@@ -68,12 +85,44 @@
   "LDC under MPSC Paper-II 2025.::q95": {
     "confidence": "high",
     "answerIndex": 3,
+    "question": "Find the missing character from among the given alternatives. Table: row 1 = K, B; row 2 = G, ?",
     "reason": "Confirmed against the scan. The figure is a 2x2 grid with a vertical divider -- K | B over G | ? -- read at 400 dpi (the '?' OCRs as '2'). Using alphabet positions K=11, B=2, G=7: the row sum K+B = 13 is constant, so G+? = 13 gives ? = 6 = F, option (d), index 3. This is the ONLY consistent rule of the four candidates -- equal column sums want ?=16, equal diagonals want ?=-2, equal products want a non-integer -- so the answer does not depend on guessing which pattern was intended. Adjudication's derivation and this read agree; restale's rests only on the figure being absent from the extract and is a guess by its own explanation.",
     "evidence": {
       "source": "~/hello-rescue/2/ldc-under-mpsc-paper-ii-2025.pdf, page 11 (image-only, no text layer)",
       "method": "pdftoppm -r 400, ink-profile crops of each grid row, tesseract psm 6/7/11",
       "grid": "K | B / G | ?",
-      "check": "row sums 11+2=13 and 7+6=13; column sums 11+7=18 vs 2+6=8 disagree, diagonals and products give no valid letter, which is what makes 13 the intended rule"
+      "check": "row sums 11+2=13 and 7+6=13; column sums 11+7=18 vs 2+6=8 disagree, diagonals and products give no valid letter, which is what makes 13 the intended rule",
+      "grid": "K | B over G | ? -- confirmed by the printed rules: two vertical rules at x=504 and x=824 give exactly two columns, and the two text bands give two rows"
+    }
+  },
+  "LDC under MPSC Paper-II 2025.::q96": {
+    "question": "Find the missing character from among the given alternatives. Table: row 1 = C, F, I; row 2 = ?, O, L",
+    "reason": "TEXT ONLY -- this entry deliberately has no answerIndex, so it repairs the stem and leaves the answer alone. The linearizer had flattened this 3x2 grid to 'C | F | I ? | O | L', which does not say which letters share a row: read as a row it is wrong, read as columns it is right. The 'Table: row 1 = ...' form is the one the vision correction recorded, and it is unambiguous.",
+    "evidence": {
+      "source": "~/hello-rescue/2/ldc-under-mpsc-paper-ii-2025.pdf, page 11",
+      "method": "located the printed rules by ink profile, then OCR'd each of the six cells separately",
+      "grid": "vertical rules at x=425/719/1013/1305 give three columns; horizontal rules at y=2701/2810/2919 give two rows; all six cells read C F I over ? O L",
+      "answer": "unchanged and untouched by this entry"
+    }
+  },
+  "LDC under MPSC Paper-II 2025.::q92": {
+    "question": "Directions: In the question below are given two statements followed by two conclusions numbered I and II. You have to take the given two statements to be true even if they seem to be at variance from commonly known facts. Read the conclusions and then decide which of the given conclusions logically follows from the given two statements, disregarding commonly known facts: Statements I. All men are dogs. II. All dogs are cats. Conclusions I. All men are cats. II. All cats are men.",
+    "reason": "TEXT ONLY, no answerIndex. An upstream cleanup stripped the ']]- Directions (Question No. 92):' preamble as boilerplate, on the reasonable grounds that it is shared by a block of questions. In a standalone question bank that is not boilerplate, it is the question: the shipped answer is 'If only conclusion I follows', which holds ONLY because the directions tell the reader to take 'All men are dogs' as true. A reader using real-world knowledge instead picks 'If neither I nor II follows', and concludes the bank is wrong. The directions are restored, with the OCR damage repaired (I. for TI., II. for IL., 'two' for 'twe').",
+    "evidence": {
+      "source": "~/hello-rescue/2/ldc-under-mpsc-paper-ii-2025.pdf, page 11",
+      "method": "the directions block was recovered from this repo's own history at commit 905637e, where it was still attached to the question, and cross-checked against the 400 dpi render",
+      "answer": "unchanged (index 0) and still correct BECAUSE the directions are present"
+    }
+  },
+  "UDC Combined Paper-II (B) May-2025.::q79": {
+    "confidence": "low",
+    "note": "FLAG, NOT A CORRECTION: the clues as printed do not single out one option. Reading the stem as four people (A, B, C, D) around a table, each holding one distinct trade, and applying all four clues, three of the printed options survive -- (b) Tailor and Cook, (c) Barber and Cook and (d) Washer man and Cook. The answer does not depend on which way 'right of' is taken. The answer shown is index 3, which is consistent with the clues but not forced by them, so treat this one as untested rather than as a keyed answer.",
+    "reason": "NOTE ONLY -- deliberately no answerIndex, so this entry changes nothing but the warning the reader sees. The answer changed from index 1 to index 3 between two rebuilds with no new evidence: both are consistent with the printed clues, and the puzzle as transcribed is under-determined, so neither is demonstrably right. Recording which index happens to be shipped would give the accident a standing it has not earned.",
+    "evidence": {
+      "method": "brute force over all 4! seatings x 4! trade assignments, keeping only those satisfying all four clues",
+      "result": "40 surviving assignments, giving 5 distinct (trade of A, trade of B) pairs; three of them are printed options",
+      "open": "the stem is OCR-damaged -- the clue numbers came through as 'IL', 'IH' and '1V' -- so a clue may have been lost in transcription. Re-read the page image before trusting or replacing this answer.",
+      "answer": "left as the build produced it, index 3, unverified"
     }
   },
   "UDC ARC Paper-I::q2": {

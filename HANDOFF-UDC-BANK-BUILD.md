@@ -50,16 +50,28 @@ Hand-recorded answers where two overlays disagreed. Keyed by
 - `answerIndex: null` **withdraws** the answer — ships `answerIndex -1`. The
   right call when the question is unanswerable from source and every
   overlay's answer was a placeholder.
+- **No `answerIndex` key at all decides only text and/or a note, and leaves the
+  answer exactly as the overlays produced it.** This is not the same thing as
+  `answerIndex: null`, and reading it as the same thing strips a good answer off
+  a question whose only problem was a damaged stem. Write the null out loud if
+  you mean to withdraw. Three entries are answerless: q92, q95 and q96.
 - `confidence` looks optional and **is not**. `answerConfidence` drives the
   bank's "weak answers needing review" count (`UdcLdcPage.tsx:87`), so
   omitting it on a *shipped* answer silently drops the question out of that
   tally and makes an arbitrated question look better-sourced than it is.
-  Only a withdrawn answer has nothing to say.
+  Only a withdrawn answer has nothing to say. It also works the other way: on an
+  answerless entry, setting it pulls a flagged question back into the tally,
+  which is what the q79 entry does — its solver badged it `high`, so left alone
+  it would never have been looked at by the one person who needs to look at it.
 - `question` and `options` optionally repair **text** read off the scan, and are
   applied after everything else. Use them when the stem or options are damaged,
   not merely ugly — and note that picking the right *index* out of four strings
   of OCR garbage is not picking the right answer. The build aborts if a
   repaired option list leaves the answer pointing outside it.
+- `note` appends a warning to the reader's `disputeNote` on a question whose
+  **answer is not in doubt**. For a question the reader should treat with care —
+  an under-determined puzzle, say. Applied on its own: an entry carrying only a
+  note changes nothing else, which is the point.
 - `evidence` records where a decision was checked and how. Prefer it over
   asserting a decision "rests on reasoning": the image-only papers read
   reliably via `pdftoppm` + `tesseract` over ink-profile crops, and one entry
@@ -101,9 +113,22 @@ never needed, and a build that quietly stops applying work reports success.
 | adjudicated verdicts held | a later overlay overwrote an adjudication round |
 | arbitrations applied | a recorded decision silently reverted to the losing overlay |
 | arbitration text repaired | a repaired stem/option list reverted to the OCR garbage |
+| arbitration note applied | a `note` that stopped reaching the reader's `disputeNote` |
+| arbitration confidence | an entry's `confidence` that stopped reaching the record |
+| answerless entry left the answer alone | an entry with no `answerIndex` that withdrew the answer anyway, or had it re-seated downstream |
 | arbitration options in range | repaired options that leave the answer pointing outside them |
 | figure attachments | an `imagePath` with no file under `public/question-images/` |
 | figure orphan ids | a figure entry matching no question in the build |
+
+The "answerless entry" guard is the awkward one and is worth understanding before
+you touch it. The withdrawal it exists to catch happens in `load_derived()`,
+long before the question loop, so there is no before-value to compare against
+and the loop's capture is already too late. It therefore asks the *artifact* a
+question instead: is this absence of an answer a recorded withdrawal, opening
+with `WITHDRAWAL_MARK`? Hence that constant — the code that writes the
+withdrawal and the guard that recognises one must not drift, so they share a
+name. Its second half, catching a re-seat after the loop, uses the loop's
+capture and is straightforward.
 
 **The generated `.ts` is now written only after all of these pass.** It used to
 be written *before* the checks, so a failing build left its bad output on disk
@@ -123,15 +148,84 @@ index). A guard never observed failing is a comment.
 
 ## Open items, most valuable first
 
-1. **Audit the 213 non-arbitration records that differ from HEAD** (131
-   `explanation`, 92 `question`, 36 `options`, 10 `answerConfidence`, 3
-   `disputeNote`). These come from uncommitted drift in
-   `../mpsc-question-bank/state/staged/` and `state/solve-derived/`, not from
-   anything changed on 2026-10-03. `imagePath` differs on **zero** records.
-2. **Leave three SVGs unattached.** `reasoning-dice-positions`,
+1. **Leave three SVGs unattached.** `reasoning-dice-positions`,
    `reasoning-mirror-mn`, `reasoning-paper-pieces`. Their source scans are lost
    and the puzzles are invented; attaching them would present a fabricated
    figure as a real exam item. Do not "finish the job".
+2. **q79 is flagged, not answered** — see the audit below. Either recover the
+   lost clue off the page image, or accept that the paper is defective and
+   withdraw the answer the way q100 was withdrawn.
+
+---
+
+## The 2026-10-03 audit of upstream drift, and what it turned up
+
+The 213 records that had drifted from the last committed build were audited.
+Almost all of it was an improvement, and the interesting part was what the
+improvements *broke*.
+
+**Clean.** 0 option lists got worse. 58 explanations gained text and none lost
+all of it. The 89 stem changes are upstream math repair and cleanup doing their
+job: `22 + 5/3 and V2 -3V3` → `2√2 + 5√3 and √2 - 3√3`, `12m*6mx4m` →
+`12m × 6m × 4m`, `Ifx:y=3:2andx+y` → `If x:y = 3:2 and x + y`.
+
+**Two real regressions, both from the same thing — a cleanup that was right
+about the parser and wrong about the question bank.**
+
+- q92 lost its Directions block, stripped as boilerplate shared by a group of
+  questions. In a standalone bank it is not boilerplate, it is the question: the
+  shipped answer is "If only conclusion I follows", which holds *only* because
+  the directions say to take "All men are dogs" as true. A reader using
+  real-world knowledge instead picks "If neither I nor II follows" and concludes
+  the bank is wrong.
+- q95 and q96 lost the `Table: row 1 = ..., row 2 = ...` form to a `|`-joined
+  linearisation that does not say which letters share a row. q96's became
+  `"C | F | I ? | O | L"`, which read as rows is wrong and read as columns is
+  right.
+
+Both are repaired now, from the recorded vision corrections and — for both grids
+— from the scans, read cell by cell off the printed rules rather than trusting
+the OCR. q96's grid is 3×2 (vertical rules at x=425/719/1013/1305, horizontal at
+y=2701/2810/2919) reading `C F I` over `? O L`.
+
+**A systemic fragility, unfixed.** 12 questions lost `answerSource:
+transcribed` → `derived`, and 3 of those lost confidence too. **No answer
+changed** — every one of the 12 still points at the same option — but the
+provenance got weaker, and that will recur on every future upstream text
+improvement. The cause is that `align_answers()` re-seats a solver's answer by
+matching *text*, and `_same_question()` normalises by keeping only alphanumerics,
+which throws away exactly the symbols a maths stem is made of: `V2` (OCR for
+`√2`) and `√2` normalise to the same thing only by accident, and on stems as
+short as these the prefix test fails and the answer is dropped as stale.
+
+The obvious fix — teach `_norm` that `V` before a digit is a `√` — is **not**
+made here, and should not be made casually. `_same_question` exists to stop an
+answer sliding onto a *different* question, which it once did invisibly; loosening
+it trades a cosmetic mislabel for a chance of a wrong answer on a question whose
+text nobody has read. If you do it, measure how many answers change seats, not
+just how many are recovered.
+
+**13 orphaned `vision-corrections.json` anchors, all benign.** Anchors are
+matched against stem+options, and a failed match is a *note*, not an error. All
+13 no longer match — because the corrections describe the *damaged* text, and
+that text no longer exists: the parser's math repair now produces the corrected
+form directly. Checked each against the staged output; all 13 have landed. No
+action needed, but this is the shape a silent upstream break takes here.
+
+**q79 changed its answer for no reason, and is now flagged.** Between two
+rebuilds it went from index 1 ("Tailor and Cook") to index 3 ("Washer man and
+Cook"). Brute force over all 4! seatings × 4! trade assignments, keeping those
+satisfying all four printed clues: 40 survive, giving five distinct (trade of A,
+trade of B) pairs, of which **three are printed options** — indices 1, 2 and 3.
+The answer does not depend on which way "right of" is read. So both the old and
+the new answer are consistent with the paper and neither is forced by it. The
+stem is OCR-damaged (the clue numbers came through as `IL`, `IH` and `1V`), so a
+clue may have been lost in transcription.
+
+The answer is left as the build produced it and the entry carries a `note` saying
+so, with confidence forced to `low` so it lands in the weak-answer review tally.
+Recording *which* index happens to be shipped would give the accident a standing
+it has not earned.
 
 ---
 

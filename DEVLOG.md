@@ -9,6 +9,69 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-03 (4) — auditing the drift: two regressions a cleanup caused, and an answer that moved for no reason
+
+**What shipped.** An audit of the 213 records that had drifted from the last
+committed build (128 `explanation`, 89 `question`, 36 `options`, 13
+`answerSource`, 8 `answerConfidence`), plus three stem repairs and one flag.
+
+The drift was overwhelmingly upstream doing its job: 0 option lists got worse, 58
+explanations gained text, and the stem changes are math repair landing —
+`22 + 5/3 and V2 -3V3` → `2√2 + 5√3 and √2 - 3√3`. Two changes were not.
+
+**Why those two mattered.** A cleanup decided the statement/conclusion
+Directions block on q92 was boilerplate, shared by a group of questions, and
+stripped it. In a standalone bank it is not boilerplate — it *is* the question.
+The shipped answer is "If only conclusion I follows", true only because the
+directions tell the reader to accept "All men are dogs". Without them a careful
+reader using real-world knowledge picks "If neither I nor II follows" and
+concludes the bank is wrong. The same pass flattened q95 and q96's
+`Table: row 1 = ..., row 2 = ...` into `|`-joined strings that no longer say
+which letters share a row; q96 became `"C | F | I ? | O | L"`, which is wrong
+read as rows and right read as columns.
+
+Both are repaired from the recorded vision corrections and the scans. q96's grid
+was read off the printed rules, not the OCR: vertical rules at
+x=425/719/1013/1305 and horizontal at y=2701/2810/2919 make it 3×2, and all six
+cells OCR cleanly as `C F I` over `? O L`.
+
+Fixing this needed the build to grow an **answerless** arbitration entry — one
+with no `answerIndex` key that settles text and leaves the answer alone. That is
+a different thing from `answerIndex: null`, which withdraws. The first attempt
+conflated them and silently withdrew the answers to all three repaired questions;
+the guard for it now names all three. The new `note` field does the same job for
+a reader-facing warning, and forces confidence down on a flagged question so the
+flag cannot hide from the review tally that exists to catch exactly that.
+
+**q79 moved its answer and nothing moved it.** Index 1 → index 3 between two
+rebuilds. Brute force over every seating and every trade assignment, keeping only
+those satisfying all four printed clues, leaves 40 — and three of the printed
+options (indices 1, 2, 3) among them. Neither the old nor the new answer is
+forced by the paper. Flagged rather than decided: the answer stands as built, the
+entry says it is untested, and confidence is `low`.
+
+**What's still open.**
+
+- 12 questions lost `transcribed` → `derived` provenance, 3 also lost confidence.
+  **No answer changed** — the same option in all 12. Cause is systemic: answers
+  are re-seated by matching *text*, and `_norm` keeps only alphanumerics, so it
+  discards the symbols a maths stem is made of. Every future upstream text
+  improvement will cost a few more. Not fixed: `_same_question` is the thing that
+  stops an answer sliding onto a different question, and loosening it trades a
+  cosmetic mislabel for a chance of a wrong answer. Deliberate.
+- 13 `vision-corrections.json` anchors no longer match. All 13 benign — the
+  anchors describe damaged text that no longer exists, and the parser now
+  produces the corrected form directly. Verified each against staged output.
+- q79 needs either a recovered clue or a withdrawal. The stem's clue numbers came
+  through as `IL`, `IH`, `1V`, so one may have been lost in transcription.
+- Three SVGs stay deliberately unattached; their scans are lost and the puzzles
+  are invented.
+
+Full detail, including the numbers behind each claim, is in
+`HANDOFF-UDC-BANK-BUILD.md` under "The 2026-10-03 audit of upstream drift".
+
+---
+
 ## 2026-10-03 (3) — the arbitrations read off the scans, and one of them was wrong
 
 **What shipped.** The previous entry recorded four decisions *reasoned about*

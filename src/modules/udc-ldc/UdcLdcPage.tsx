@@ -495,13 +495,16 @@ function BrowseView({
   // Re-shuffles only when this changes, so revealing an answer does not
   // reorder the list under the reader's cursor.
   const [seed, setSeed] = useState(0);
+  // Flat view: mix all questions into one continuous list instead of
+  // grouping by paper. Toggled by the button in the header.
+  const [flat, setFlat] = useState(false);
+  // When not flat, whether all papers are expanded. Toggled by "Expand all"
+  // button. Defaults to first paper open only.
+  const [allOpen, setAllOpen] = useState(false);
 
   const visible = useMemo(() => {
     const currentById = new Map(questions.map((q) => [q.id, q]));
-    const out = rows
-      // `rows` is the stable paper grouping from the initial bank. Resolve
-      // each question through the filtered/corrected map so an admin edit is
-      // visible immediately instead of leaving Browse on the old extraction.
+    const grouped = rows
       .map((r) => ({
         ...r,
         questions: r.questions
@@ -509,10 +512,28 @@ function BrowseView({
           .filter((q): q is BankQuestion => !!q && keep.has(q.id)),
       }))
       .filter((r) => r.questions.length > 0);
-    if (!shuffle) return out;
-    return out.map((r) => {
-      // Seeded so the order is stable across re-renders; Math.random() here
-      // would reshuffle on every keystroke in the search box.
+
+    if (flat) {
+      const allQs = grouped.flatMap((r) => r.questions);
+      const mcq = allQs.filter((q) => isMcqQuestion(q)).length;
+      const written = allQs.length - mcq;
+      const answered = allQs.filter((q) => (q.answerIndex ?? -1) >= 0 && !q.figureBased && (q.options?.length ?? 0) > 0).length;
+      const unanswerable = allQs.filter((q) => q.figureBased || (q.options?.length ?? 0) < 2).length;
+      if (shuffle) {
+        let h = seed * 2654435761;
+        const rnd = () => ((h = (h * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff);
+        const qs = allQs.slice();
+        for (let i = qs.length - 1; i > 0; i -= 1) {
+          const j = Math.floor(rnd() * (i + 1));
+          [qs[i], qs[j]] = [qs[j], qs[i]];
+        }
+        return [{ paper: { id: '__flat__', examName: 'All questions', paperNumber: '', post: '', year: 0 }, questions: qs, total: qs.length, mcqTotal: mcq, written, answered, unanswerable, official: 0, derived: 0, transcribed: 0, lowConf: 0, defects: 0 }];
+      }
+      return [{ paper: { id: '__flat__', examName: 'All questions', paperNumber: '', post: '', year: 0 }, questions: allQs, total: allQs.length, mcqTotal: mcq, written, answered, unanswerable, official: 0, derived: 0, transcribed: 0, lowConf: 0, defects: 0 }];
+    }
+
+    if (!shuffle) return grouped;
+    return grouped.map((r) => {
       let h = seed * 2654435761 + r.paper.id.length;
       const rnd = () => ((h = (h * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff);
       const qs = r.questions.slice();
@@ -522,10 +543,12 @@ function BrowseView({
       }
       return { ...r, questions: qs };
     });
-  }, [rows, questions, keep, shuffle, seed]);
+  }, [rows, questions, keep, shuffle, seed, flat]);
 
   const [open, setOpen] = useState<string | null>(null);
-  const openId = open ?? visible[0]?.paper.id ?? null;
+  const openId = allOpen
+    ? '__all__'
+    : open ?? (flat ? '__flat__' : visible[0]?.paper.id ?? null);
   const [writeReveal, setWriteReveal] = useState<Record<string, boolean>>({});
   const openRow = visible.find((r) => r.paper.id === openId);
   const allShown = !!openRow && openRow.questions.every((q) => shown.has(q.id));
@@ -545,6 +568,15 @@ function BrowseView({
         <button type="button" onClick={toggleAll} disabled={!openRow} style={toolBtn}>
           {allShown ? 'Hide all answers' : 'Reveal all answers'}
         </button>
+        {!flat && visible.length > 1 && (
+          <button
+            type="button"
+            onClick={() => setAllOpen((v) => !v)}
+            style={{ ...toolBtn, ...(allOpen ? toolBtnOn : null) }}
+          >
+            {allOpen ? 'Collapse all papers' : 'Expand all papers'}
+          </button>
+        )}
         <button
           type="button"
           onClick={() => { setShuffle((v) => !v); setSeed((n) => n + 1); }}
@@ -557,12 +589,23 @@ function BrowseView({
             Re-shuffle
           </button>
         )}
+        <button
+          type="button"
+          onClick={() => setFlat((v) => !v)}
+          style={{ ...toolBtn, ...(flat ? toolBtnOn : null) }}
+        >
+          {flat ? 'Group by paper' : 'Flat view'}
+        </button>
         <span style={{ fontSize: 12, opacity: 0.6 }}>
           Pick an option to check it — or reveal without answering.
         </span>
       </div>
       {visible.map((r) => {
-        const isOpen = openId === r.paper.id;
+        const isOpen = flat
+          ? true // flat view has only one group, always open
+          : allOpen
+            ? true // allOpen means every paper is expanded
+            : openId === r.paper.id;
         // ONE note only, most-important first. A block carrying three warnings
         // reads as noise and the reader stops seeing any of them; the ranking
         // is "can I practise this at all" before "how is it scored".
@@ -581,13 +624,14 @@ function BrowseView({
             style={{ border: '1px solid var(--border, #dcdce3)', borderRadius: 10 }}
           >
             <button
-              onClick={() => setOpen(isOpen ? '' : r.paper.id)}
+              onClick={() => flat ? undefined : setOpen(isOpen ? '' : r.paper.id)}
               style={{
-                width: '100%', textAlign: 'left', padding: '13px 14px', cursor: 'pointer',
+                width: '100%', textAlign: 'left', padding: '13px 14px', cursor: flat ? 'default' : 'pointer',
                 background: isOpen ? 'color-mix(in srgb, var(--info, #3b7dd8) 9%, transparent)' : 'transparent',
                 border: 0, borderRadius: 10, font: 'inherit', color: 'inherit',
                 display: 'flex', alignItems: 'center', gap: 12,
                 transition: 'background .15s',
+                opacity: flat ? 0.7 : 1,
               }}
             >
               {/* Written-throughout papers get their own glyph. Eight of these

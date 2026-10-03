@@ -395,6 +395,21 @@ ARBITRATION = os.path.join(HERE, "answer-arbitration.json")
 # run -- see the file's own _README for the recovery that was lost that way.
 FIGURES_PATH = os.path.join(HERE, "figure-attachments.json")
 
+# GK sub-topic per question, keyed by bank question id ("slug-qNNN").
+# The staged papers carry no section finer than "gk", so a sub-topic
+# can only come from the question's content -- see the file's _README
+# for the classifier and its measured precision. Categories follow the
+# taxonomy in PLAN-UDC-LDC.md §5, plus mizoram (a top-level subject
+# there). Two guards below make this file load-bearing: every GK
+# question must have an entry, and every entry must still match a
+# question in the build.
+SUBTOPICS = os.path.join(HERE, "gk-subtopics.json")
+GK_TOPICS = {
+    "current-affairs", "general", "science-tech", "polity-constitution",
+    "mizoram", "economy", "geography", "general-science",
+    "modern-indian-history", "art-culture",
+}
+
 # qid -> {question, options} for arbitration entries that repair text, not just
 # the answer. Populated by load_arbitration_text(); see its docstring.
 ARB_TEXT = {}
@@ -905,6 +920,9 @@ def main():
     papers, questions = [], []
     penalty_by_paper = {}
     unanswered = []
+    # GK question ids, collected as the loop meets them, for the
+    # sub-topic coverage guard at the end of main().
+    gk_ids = []
     stats = Counter()
 
     # Index staged files by their own `paper` field: cross_series.py names its
@@ -923,6 +941,26 @@ def main():
         for qid, t in json.load(open(GK_KIND, encoding="utf-8")).items():
             paper, _, num = qid.rpartition("::q")
             gk_kind[(paper, int(num))] = t
+    # Keyed by bank question id already, so no (paper, qnum) split is
+    # needed -- but a key that does not match a built id is exactly the
+    # silent no-op the guards below exist to catch.
+    subtopics = {}
+    if os.path.exists(SUBTOPICS):
+        for qid, t in json.load(open(SUBTOPICS, encoding="utf-8")).items():
+            if not qid.startswith("_"):
+                subtopics[qid] = t
+
+    def apply_gk_topic(rec, qid):
+        # Finer still: which GK sub-topic. Content-classified (the
+        # staged section is only "gk"), so the checked-in table is
+        # the authority and a missing entry is a build error, not a
+        # default -- see the coverage guard at the end of main().
+        # Shared by both record loops: a Paper-II short-answer item
+        # ("Write the full form of SAARC") is minted by the
+        # descriptive loop but is General Knowledge all the same.
+        if qid in subtopics:
+            rec["gkTopic"] = subtopics[qid]
+            stats["gk_topic"] += 1
 
     disputes = load_disputes(staged_index)
     option_defects = load_option_defects(staged_index)
@@ -1122,6 +1160,7 @@ def main():
             # partial set: a missed item is shown as a bare undated fact, the
             # exact thing this tag exists to prevent.
             if sec == "gk":
+                gk_ids.append(qid)
                 t = gk_kind.get((name, q["qnum"]))
                 if t and t["kind"] == "current":
                     rec["gkKind"] = "current"
@@ -1138,6 +1177,7 @@ def main():
                     # fact. Leave gkKind unset so the UI can say "not classified"
                     # rather than assert the wrong one.
                     stats["gk_untagged"] += 1
+                apply_gk_topic(rec, qid)
 
             odef = option_defects.get((name, q["qnum"]))
             if odef:
@@ -1216,6 +1256,9 @@ def main():
             if item.get("kind") == "short-answer":
                 drec["_shortAnswer"] = True
                 stats["descriptive_short_answer"] += 1
+            if sec == "gk":
+                gk_ids.append(drec["id"])
+                apply_gk_topic(drec, drec["id"])
             questions.append(drec)
             stats["descriptive"] += 1
 
@@ -1517,6 +1560,47 @@ def main():
         print("  arbitrations applied     : %d/%d  (text repaired: %d, notes: %d)"
               % (n, n, stats.get("arbitratedText", 0),
                  stats.get("arbitratedNotes", 0)))
+
+    # Every GK question carries a sub-topic, and every sub-topic entry
+    # still matches a question in this build.
+    #
+    # The two halves are separate because they fail differently. A
+    # MISSING entry means the classifier never saw the question (an
+    # upstream renumber, a newly staged paper) and the bank would ship
+    # a GK question with no gkTopic, which the UI renders as a filter
+    # that can never be picked. An ORPHAN entry means the file is stale
+    # -- a renamed paper or a renumbered question -- and the
+    # classification quietly stopped being applied to the question it
+    # was written for, which is the same silent no-op the figure and
+    # arbitration guards above exist to catch. A value outside
+    # GK_TOPICS would ship a label no filter knows.
+    #
+    # gk_ids is collected in the question loop, because the shipped
+    # record carries the SECTION map's topic label, not the staged
+    # section the classification was keyed on.
+    if os.path.exists(SUBTOPICS):
+        by_id = {q["id"]: q for q in questions}
+        missing = sorted(i for i in gk_ids if i not in subtopics)
+        bad_value = sorted(
+            "%s: %r" % (i, subtopics[i])
+            for i in gk_ids
+            if i in subtopics and subtopics[i] not in GK_TOPICS)
+        orphans = sorted(k for k in subtopics if k not in by_id)
+        if missing or bad_value or orphans:
+            problems = []
+            if missing:
+                problems.append("%d GK questions have no sub-topic entry:\n  - %s"
+                                % (len(missing), "\n  - ".join(missing[:10])))
+            if bad_value:
+                problems.append("%d entries name no known sub-topic:\n  - %s"
+                                % (len(bad_value), "\n  - ".join(bad_value[:10])))
+            if orphans:
+                problems.append("%d entries match no question in this build:\n  - %s"
+                                % (len(orphans), "\n  - ".join(orphans[:10])))
+            raise SystemExit(
+                "\ngk-subtopics.json does not cover this build:\n  - %s"
+                % "\n  - ".join(problems))
+        print("  gk sub-topics applied  : %d/%d" % (stats["gk_topic"], len(gk_ids)))
 
     # Written LAST, after every check has passed. See the note at the old write
     # site: a build that fails must not leave its output behind for the next

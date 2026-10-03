@@ -18,7 +18,8 @@ happened twice now — see the DEVLOG entries for both. If the bank needs
 something the pipeline does not produce, add an *input file* next to the
 build tool, never an edit to the `.ts`.
 
-Current shape: 3,339 questions, 5 attached figures, 428 unanswered.
+Current shape: 3,339 questions, 5 attached figures, 428 unanswered,
+1,500 GK questions sub-topiced (see `gk-subtopics.json` below).
 
 ---
 
@@ -77,6 +78,24 @@ Hand-recorded answers where two overlays disagreed. Keyed by
   reliably via `pdftoppm` + `tesseract` over ink-profile crops, and one entry
   here was wrong precisely because nobody did that.
 
+### `tools/udc-ldc-build/gk-subtopics.json`
+
+GK sub-topic per question, keyed by **bank question id**
+(`slug-qNNN`, same keying as `figure-attachments.json`). The
+staged papers print no section finer than "General Knowledge",
+so a sub-topic can only come from the question's content —
+the categories are the syllabus's own GK sub-topics (§5) plus
+`mizoram`, and `general` is the classifier's honest catch-all.
+
+Content-classified, so treat it as a study aid, not a
+structural fact: a static award can match 'prize' and read as
+current affairs, and the 386 in `general` are the ones the
+classifier would not bet on. The word lists live in the
+classifier prototype (`/tmp/opencode/classify3.js` during
+development — see DEVLOG 2026-10-03 (5) for the matching
+rules and the measured distribution); tune those, then
+regenerate the table, never hand-edit the table itself.
+
 ---
 
 ## Overlay precedence
@@ -119,6 +138,8 @@ never needed, and a build that quietly stops applying work reports success.
 | arbitration options in range | repaired options that leave the answer pointing outside them |
 | figure attachments | an `imagePath` with no file under `public/question-images/` |
 | figure orphan ids | a figure entry matching no question in the build |
+| gk sub-topic coverage | a GK question (MCQ loop or descriptive short-answer) with no entry in `gk-subtopics.json` |
+| gk sub-topic orphans / values | an entry matching no question in the build, or naming a category outside `GK_TOPICS` |
 
 The "answerless entry" guard is the awkward one and is worth understanding before
 you touch it. The withdrawal it exists to catch happens in `load_derived()`,
@@ -155,6 +176,12 @@ index). A guard never observed failing is a comment.
 2. **q79 is flagged, not answered** — see the audit below. Either recover the
    lost clue off the page image, or accept that the paper is defective and
    withdraw the answer the way q100 was withdrawn.
+3. **The sub-topic classifier is not checked in.** The word lists that
+   produce `gk-subtopics.json` lived in `/tmp/opencode/classify3.js` during
+   development. If anyone besides its author needs to regenerate the table,
+   move the prototype under `tools/udc-ldc-build/` first — a checked-in
+   table whose generator is a scratch file is one cleanup away from being
+   unregenerable.
 
 ---
 

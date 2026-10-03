@@ -46,6 +46,25 @@ export type AttemptState = 'any' | 'never' | 'wrong' | 'correct';
  */
 export type GkKindState = 'any' | 'static' | 'current' | 'skip-current';
 /**
+ * A sixth axis: which GK sub-topic. Same GK-only shape as gkKind's
+ * 'static'/'current' — picking "Polity & constitution" is a drill
+ * of polity questions, not a filter that leaves Arithmetic and
+ * English in the list.
+ *
+ * The categories are the syllabus's own GK sub-topics
+ * (PLAN-UDC-LDC.md §5) plus mizoram, which the syllabus treats as
+ * a subject in its own right, and 'general' — the catch-all the
+ * classifier honestly reports when no keyword signal clears its
+ * threshold. Content-classified, so it is a study aid, not a
+ * structural fact: see gk-subtopics.json's _README for how it was
+ * produced and where its boundary cases are.
+ */
+export type GkTopicState =
+  | 'any'
+  | 'current-affairs' | 'modern-indian-history' | 'art-culture'
+  | 'polity-constitution' | 'geography' | 'economy'
+  | 'general-science' | 'science-tech' | 'mizoram' | 'general';
+/**
  * MCQ or written. A fifth axis because the written half is a real part of the
  * exam and not a footnote: the UDC/Assistant Paper-I gives Essay 20 + Précis
  * 10 + Comprehension 20 of its marks to written work, and the LDC Paper-I
@@ -75,6 +94,7 @@ export interface Filters {
   answer: AnswerState;
   attempt: AttemptState;
   gkKind: GkKindState;
+  gkTopic: GkTopicState;
   type: TypeState;
   flag: FlagState;
   search: string;
@@ -82,7 +102,7 @@ export interface Filters {
 
 export const EMPTY_FILTERS: Filters = {
   posts: [], papers: [], sections: [], answer: 'any', attempt: 'any',
-  gkKind: 'any', type: 'any', flag: 'any', search: '',
+  gkKind: 'any', gkTopic: 'any', type: 'any', flag: 'any', search: '',
 };
 
 /**
@@ -132,6 +152,23 @@ export const SECTION_LABEL: Record<SectionId, string> = {
   computer: 'Computer Knowledge',
   arithmetic: 'Simple Arithmetic',
   reasoning: 'Intelligence & Reasoning',
+};
+
+/** Display names for the GK sub-topic axis. 'general' is labelled
+ *  what it is — the classifier's honest catch-all — because a
+ *  filter called "General" that silently means "everything the
+ *  classifier could not say" would mislead. */
+export const GK_TOPIC_LABEL: Record<Exclude<GkTopicState, 'any'>, string> = {
+  'current-affairs': 'Current affairs',
+  'modern-indian-history': 'Modern Indian history',
+  'art-culture': 'Art & culture',
+  'polity-constitution': 'Polity & constitution',
+  geography: 'Geography',
+  economy: 'Economy',
+  'general-science': 'General science',
+  'science-tech': 'Science & tech',
+  mizoram: 'Mizoram',
+  general: 'General (mixed)',
 };
 
 /** A question is answerable iff it has a real answer and readable options. */
@@ -185,6 +222,15 @@ export function applyFilters(
         // is mostly Arithmetic.
         return false;
       }
+    }
+
+    if (f.gkTopic !== 'any') {
+      // GK-only for the same reason as gkKind's static/current: the
+      // sub-topic exists only on GK questions, so a "Geography" chip
+      // that also handed back Arithmetic would be lying. Composes
+      // with gkKind -- "Mizoram, minus current affairs" is a drill a
+      // candidate actually runs.
+      if (sectionOf(q) !== 'gk' || q.gkTopic !== f.gkTopic) return false;
     }
 
     if (f.attempt !== 'any') {

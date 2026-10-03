@@ -4,7 +4,7 @@ import type { ProgressMap } from './useProgress';
 import {
   EMPTY_FILTERS, SECTION_LABEL, applyFilters, isAnswerable, sectionOf,
   type AnswerState, type AttemptState, type Filters, type GkKindState,
-  type FlagState, type SectionId, type TypeState,
+  type GkTopicState, type FlagState, type SectionId, type TypeState,
 } from './filters';
 
 // ============================================
@@ -228,6 +228,38 @@ export function FilterRail({
             on={filters.gkKind === v}
             count={countWith({ gkKind: v })}
             onClick={() => set({ gkKind: v })}
+          >
+            {label}
+          </Chip>
+        ))}
+      </Group>
+
+      {/* Which GK sub-topic. The categories are the syllabus's own
+          GK sub-topics plus Mizoram, content-classified at build
+          time — see gk-subtopics.json's _README. GK-only, like the
+          gkKind views above, and composes with them: "Mizoram,
+          skip current affairs" is a drill a candidate runs. The
+          counts are the real pool sizes, so a chip cannot promise
+          one number and hand back another. */}
+      <Group label="GK topic">
+        {([
+          ['any', 'Any'],
+          ['mizoram', 'Mizoram'],
+          ['current-affairs', 'Current affairs'],
+          ['polity-constitution', 'Polity & constitution'],
+          ['economy', 'Economy'],
+          ['geography', 'Geography'],
+          ['general-science', 'General science'],
+          ['science-tech', 'Science & tech'],
+          ['modern-indian-history', 'Modern Indian history'],
+          ['art-culture', 'Art & culture'],
+          ['general', 'General (mixed)'],
+        ] as [GkTopicState, string][]).map(([v, label]) => (
+          <Chip
+            key={v}
+            on={filters.gkTopic === v}
+            count={countWith({ gkTopic: v })}
+            onClick={() => set({ gkTopic: v })}
           >
             {label}
           </Chip>

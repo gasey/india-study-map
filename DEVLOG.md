@@ -9,6 +9,69 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-03 (5) — GK questions are now sub-topiced, and the rail can drill one
+
+**What shipped.** Every one of the bank's 1,500 General Knowledge
+questions carries `gkTopic`, and the UDC/LDC rail gained a "GK
+topic" axis (composes with the current-affairs axis: "Mizoram,
+skip current affairs" is a drill a candidate runs). Distribution:
+433 current-affairs · 386 general · 134 science-tech · 121
+polity-constitution · 118 mizoram · 94 economy · 75 geography ·
+70 general-science · 57 modern-indian-history · 12 art-culture.
+
+**Why a new input file, not an edit.** The staged papers print no
+section finer than "General Knowledge", so a sub-topic can only
+come from the question's content — the one thing the taxonomy
+(§5) says is the weakest kind of evidence. It is therefore a
+checked-in table (`tools/udc-ldc-build/gk-subtopics.json`,
+keyed by bank question id like the other overlays), applied by
+`build_bank.py`, guarded two ways, and never hand-edited into
+the .ts. The categories are the syllabus's own GK sub-topics
+plus mizoram (a top-level subject in that taxonomy); `general`
+is the honest catch-all, because a confident wrong label is
+worse than none.
+
+**How it was built, because the first two cuts were wrong.**
+v2 (substring keywords, any two hits) put 70% of GK in
+"general" and its `'ion'` pattern matched *nation/option/
+constitution* — that one bug alone put 436 questions in
+science-tech. v3: word-bounded matching with plural forms;
+strong words (one classifies) vs weak words (three needed);
+stem and options weighted in full, the explanation's strong
+words counted as weak — "Nehru" inside "Jawaharlal Nehru
+Port" must not turn a geography question into history. Mizoram
+is the deliberate exception: its vocabulary never appears
+incidentally, so a Mizo word counts fully wherever it sits
+(a "which state" question whose explanation names Aizawl *is*
+a Mizoram question). `gkKind=current` — the build's own
+curated signal — counts as a current-affairs signal.
+Random-sample audits of every bucket read correctly.
+
+**The guard found a real gap before shipping.** The first
+build reported 1492/1500: eight short-answer items ("Write
+the full form of SAARC") are minted as GK records by the
+*descriptive* loop, which the coverage guard did not know
+about. Both record loops now share one `apply_gk_topic`, and
+the guard counts what both mint. All three guards were proven
+to fire (orphan key, dropped entry, unknown category value —
+each fails the build with the entry listed); two consecutive
+builds are byte-identical.
+
+**What's still open.**
+- Content classification is a study aid, not a structural
+  fact. Its boundary cases are real: a static award or
+  invention can match 'prize'/'invented' and read as
+  current affairs (~10–15 of the 433). The `general` bucket
+  (386) is where the classifier is honestly unsure.
+- The classifier prototype lived in `/tmp/opencode/classify3.js`
+  during development and is not checked in. Regenerating the
+  table means re-running it over the bank; its word lists are
+  the thing to tune when a bucket reads wrong. Consider
+  checking it in under `tools/udc-ldc-build/` if the table
+  ever needs regenerating by anyone else.
+
+---
+
 ## 2026-10-03 (4) — auditing the drift: two regressions a cleanup caused, and an answer that moved for no reason
 
 **What shipped.** An audit of the 213 records that had drifted from the last

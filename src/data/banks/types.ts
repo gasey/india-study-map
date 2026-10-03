@@ -186,6 +186,27 @@ interface BankQuestionBase {
    */
   gkKind?: 'static' | 'current';
   /**
+   * For General Knowledge only: which GK sub-topic the question
+   * belongs to. The staged papers print no section finer than
+   * "General Knowledge", so this is content-classified at build
+   * time from the checked-in table in
+   * tools/udc-ldc-build/gk-subtopics.json (guarded there: every
+   * GK question must have an entry, and every entry must match a
+   * question in the build).
+   *
+   * Categories follow the syllabus taxonomy in PLAN-UDC-LDC.md §5 —
+   * current-affairs, modern-indian-history, art-culture,
+   * polity-constitution, geography, economy, general-science,
+   * science-tech — plus 'mizoram', which that taxonomy makes a
+   * top-level subject of its own. 'general' is the honest catch-all:
+   * a keyword classifier cannot say, and a confident wrong label
+   * would be worse than none.
+   */
+  gkTopic?:
+    | 'current-affairs' | 'modern-indian-history' | 'art-culture'
+    | 'polity-constitution' | 'geography' | 'economy'
+    | 'general-science' | 'science-tech' | 'mizoram' | 'general';
+  /**
    * Human-readable sitting date ("June 2018") for a `gkKind: 'current'`
    * question, so its answer is never presented as being true now. Derived from
    * the paper's exam date at build time.

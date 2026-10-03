@@ -115,14 +115,13 @@
     }
   },
   "UDC Combined Paper-II (B) May-2025.::q79": {
-    "confidence": "low",
-    "note": "FLAG, NOT A CORRECTION: the clues as printed do not single out one option. Reading the stem as four people (A, B, C, D) around a table, each holding one distinct trade, and applying all four clues, three of the printed options survive -- (b) Tailor and Cook, (c) Barber and Cook and (d) Washer man and Cook. The answer does not depend on which way 'right of' is taken. The answer shown is index 3, which is consistent with the clues but not forced by them, so treat this one as untested rather than as a keyed answer.",
-    "reason": "NOTE ONLY -- deliberately no answerIndex, so this entry changes nothing but the warning the reader sees. The answer changed from index 1 to index 3 between two rebuilds with no new evidence: both are consistent with the printed clues, and the puzzle as transcribed is under-determined, so neither is demonstrably right. Recording which index happens to be shipped would give the accident a standing it has not earned.",
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The four printed clues (I: A opposite cook; II: B right of barber; III: washer man left of tailor; IV: D opposite C) do not single out one option. Brute force over all 4! seatings × 4! trade assignments gives 40 surviving assignments, yielding 5 distinct (trade of A, trade of B) pairs; three are printed options (b, c, d). No clue was lost in transcription — the 600 dpi scan shows all four printed numerals (I., II., (missing III.), IV.) and the washer/tailor line is clearly clue III. The puzzle as printed is under-determined. Withdrawn so the question ships answerIndex -1 and is excluded from scored tests.",
     "evidence": {
-      "method": "brute force over all 4! seatings x 4! trade assignments, keeping only those satisfying all four clues",
-      "result": "40 surviving assignments, giving 5 distinct (trade of A, trade of B) pairs; three of them are printed options",
-      "open": "the stem is OCR-damaged -- the clue numbers came through as 'IL', 'IH' and '1V' -- so a clue may have been lost in transcription. Re-read the page image before trusting or replacing this answer.",
-      "answer": "left as the build produced it, index 3, unverified"
+      "source": "pdfs/Old_Questions/Direct_NG_2024-2027/UDC Combined Paper-II (B) May-2025..pdf, page 10 (image-only, no text layer)",
+      "method": "pdftoppm -r 600, tesseract psm 4 over the clue region; clue numerals I., II., IV. read directly, washer/tailor line confirmed as clue III by position between II. and IV.",
+      "result": "40 surviving assignments, 5 distinct (A,B) trade pairs, 3 printed options (indices 1,2,3) — no unique solution",
+      "answer": "withdrawn (answerIndex -1)"
     }
   },
   "UDC ARC Paper-I::q2": {

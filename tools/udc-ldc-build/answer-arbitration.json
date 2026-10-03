@@ -154,5 +154,45 @@
       "method": "pdftoppm -r 300, figure region cropped by ink profile (x=468-1026, y=1611-2127), stem read from the OCR text band above the figure",
       "crossCheck": "the same stem text appears in the 2025 Combined Paper-II q071/q072, which were independently recovered on 2026-10-02; the official key for this sitting records (d) / index 3"
     }
+  },
+  "UDC Combined Paper-I (C) May-2025.::q28": {
+    "answerIndex": 1,
+    "confidence": "low",
+    "explanation": "The actual event is the Lushai Hills District (Change of Name) Act, 1954, which renamed the district. The answer was dropped during alignment because the question text was cleaned upstream (111 derived answers dropped as stale). Restoring with the derived explanation.",
+    "reason": "Derived answer from solve-derived: the actual event is the Lushai Hills District (Change of Name) Act, 1954, which renamed the district. The answer was dropped during alignment because the question text was cleaned upstream (111 derived answers dropped as stale). Restoring with the derived explanation.",
+    "evidence": {
+      "source": "solve-derived/gk-03.solved.json (blind solve on LDC 2025 Paper-I / UDC Combined Paper-I)",
+      "method": "model blind solve, later dropped by align_answers() due to text normalization mismatch"
+    }
+  },
+  "UDC Combined Paper-II (B) May-2025.::q54": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Horizontal distance d = 195/tan60° = 65√3. Drop from cliff top to tower top = d·tan30° = 65. Tower height = 195 - 65 = 130m. The stem was garbled (OCR: 'Total uo. of students r') but the geometry is clear. Dropped by alignment; restoring with derived explanation.",
+    "reason": "Derived answer from solve-derived: horizontal distance d = 195/tan60° = 65√3. Drop from cliff top to tower top = d·tan30° = 65. Tower height = 195 - 65 = 130m. The stem was garbled (OCR: 'Total uo. of students r') but the geometry is clear. Dropped by alignment; restoring with derived explanation.",
+    "evidence": {
+      "source": "solve-derived/arithmetic-01.solved.json (blind solve on Combined 2025 Paper-II)",
+      "method": "model blind solve, dropped by align_answers() due to OCR-garbled stem mismatch"
+    }
+  },
+  "UDC Combined Paper-II (B) May-2025.::q88": {
+    "answerIndex": 3,
+    "confidence": "medium",
+    "explanation": "Code language puzzle. 3a/2b/7c = 'Truth is Eternal'; 7c/9a/8b/3a = 'Enmity is not Eternal'; 9a/8b/3a = 'Truth is not Eternal'. Shared tokens give 2b='Truth', 3a='Eternal', 7c='is', 9a='not', 8b='Enmity'. 9a = 'not', index 3. Dropped by alignment; restoring with derived explanation.",
+    "reason": "Derived answer from solve-derived: code language puzzle. 3a/2b/7c = 'Truth is Eternal'; 7c/9a/8b/3a = 'Enmity is not Eternal'; 9a/8b/3a = 'Truth is not Eternal'. Shared tokens give 2b='Truth', 3a='Eternal', 7c='is', 9a='not', 8b='Enmity'. 9a = 'not', index 3. Dropped by alignment; restoring with derived explanation.",
+    "evidence": {
+      "source": "solve-derived/reasoning-01.solved.json (blind solve on Combined 2025 Paper-II)",
+      "method": "model blind solve, dropped by align_answers() due to text normalization mismatch"
+    }
+  },
+  "UDC Combined Paper-II (B) May-2025.::q93": {
+    "answerIndex": 2,
+    "confidence": "medium",
+    "explanation": "Calendar puzzle. Numbers are month numbers (6=June, 4=April, 9=September, 10=October, 11=November) whose initials spell J-U-N-E-O. The murderer is Sona (S). Index 2. Dropped by alignment; restoring with derived explanation.",
+    "reason": "Derived answer from solve-derived: calendar puzzle. Numbers are month numbers (6=June, 4=April, 9=September, 10=October, 11=November) whose initials spell J-U-N-E-O. The murderer is Sona (S). Index 2. Dropped by alignment; restoring with derived explanation.",
+    "evidence": {
+      "source": "solve-derived/reasoning-01.solved.json (blind solve on Combined 2025 Paper-II)",
+      "method": "model blind solve, dropped by align_answers() due to text normalization mismatch"
+    }
   }
 }

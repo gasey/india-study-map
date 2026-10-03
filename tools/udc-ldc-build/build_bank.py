@@ -907,7 +907,8 @@ def load_derived(shown):
             # off a shipped answer silently removes the question from the bank's
             # "weak answers needing review" count, which makes an arbitrated
             # question look better-sourced than it is.
-            add(qid, (idx, "derived", "", a.get("confidence"), reason), ARBITRATION)
+            # Explanation: use explicit 'explanation' field, fall back to 'reason'.
+            add(qid, (idx, "derived", a.get("explanation", reason), a.get("confidence"), reason), ARBITRATION)
     return recs
 
 

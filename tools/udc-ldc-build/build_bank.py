@@ -335,6 +335,53 @@ ARITHMETIC_TEXT_NOTES = {
 }
 
 ENGLISH_TEXT_FIXES = {
+    # Assistant/UDC 2024 Paper-I: the source has blanks which were lost by
+    # OCR, leaving the learner unable to see which word is to be supplied.
+    ("mpsc-asst-udc-2024-paper-1", 61): {
+        "question": "He gave me ___ advice.",
+    },
+    ("mpsc-asst-udc-2024-paper-1", 62): {
+        "question": "Honour and glory ___ his reward.",
+    },
+    ("mpsc-asst-udc-2024-paper-1", 63): {
+        "question": "The committee ___ issued its report.",
+    },
+    ("mpsc-asst-udc-2024-paper-1", 64): {
+        "question": "Each of the suspected men ___ arrested.",
+    },
+    ("mpsc-asst-udc-2024-paper-1", 65): {
+        "question": "A good man and a useful citizen ___ passed away.",
+    },
+    ("mpsc-asst-udc-2024-paper-1", 71): {
+        "question": "My mother upset the kettle of boiling water and her right hand ___.",
+    },
+    ("mpsc-asst-udc-2024-paper-1", 72): {
+        "question": "Even a ___ glance will reveal the mystery.",
+    },
+    ("mpsc-asst-udc-2024-paper-1", 73): {
+        "question": "The Director treated the employees to a ___ dinner after they completed their project.",
+    },
+    ("mpsc-asst-udc-2024-paper-1", 74): {
+        "question": "The soldiers were instructed to ___ restraint and handle the situation peacefully.",
+    },
+    ("mpsc-asst-udc-2024-paper-1", 75): {
+        "question": "The committee’s appeal to the people for money ___ little response.",
+    },
+    # LDC 2025 Paper-I: blanks were omitted from the printed-sentence OCR.
+    ("mpsc-ldc-2025-paper-1", 51): {"question": "The guests are sitting each ___ an arm-chair."},
+    ("mpsc-ldc-2025-paper-1", 52): {"question": "Always live ___ your means."},
+    ("mpsc-ldc-2025-paper-1", 53): {"question": "The crowd left the ground ___."},
+    ("mpsc-ldc-2025-paper-1", 54): {"question": "Are you confident ___ a scholarship?"},
+    ("mpsc-ldc-2025-paper-1", 55): {"question": "He is insisting ___ having this book."},
+    ("mpsc-ldc-2025-paper-1", 58): {"question": "She studies hard, lest she ___."},
+    ("mpsc-ldc-2025-paper-1", 59): {"question": "It’s high time they ___ planning for the future."},
+    ("mpsc-ldc-2025-paper-1", 60): {"question": "Were he to ___ the offer, it would change his profession."},
+    ("mpsc-ldc-2025-paper-1", 56): {
+        "question": "The firemen ___ (rescue) the old woman who was trapped on the third floor of the burning building.",
+    },
+    ("mpsc-ldc-2025-paper-1", 57): {
+        "question": "When Jack entered the room, I did not recognize him because he ___ (lose) so much weight.",
+    },
     # LDC 2025 Paper-I: the paper prints the instruction separately; keep the
     # stem as a sentence and show the instruction in `direction`.
     ("mpsc-ldc-2025-paper-1", 70): {
@@ -395,6 +442,18 @@ ENGLISH_TEXT_FIXES = {
     ("mpsc-udc-combined-2025-paper-1", 75): {
         "question": "She ___ the little orphan as her own.",
         "direction": "Fill in the blank with the correct verb.",
+    },
+    ("mpsc-asst-udc-2025oct-paper-1", 58): {
+        "question": "There were angry __denunciations__ on both sides.",
+    },
+    ("mpsc-asst-udc-2025oct-paper-1", 59): {
+        "question": "Each one of us is the subject of __derision__ at some time or another in our lives.",
+    },
+    ("mpsc-asst-udc-2025oct-paper-1", 60): {
+        "question": "A good leader will __facilitate__ open communication among team members to help the project succeed.",
+    },
+    ("mpsc-asst-udc-2025oct-paper-1", 61): {
+        "question": "The ancient temple was a place of __veneration__ for people who sought spiritual guidance.",
     },
 }
 

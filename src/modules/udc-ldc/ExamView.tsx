@@ -291,6 +291,11 @@ function ExamSitting({
                   {i + 1}.
                 </span>
                 <div style={{ flex: 1 }}>
+                  {q.direction && (
+                    <div style={{ fontSize: 12.5, fontWeight: 600, marginBottom: 6, color: 'var(--text-secondary, #666)' }}>
+                      {q.direction}
+                    </div>
+                  )}
                   <div className="udc-question-stem" style={{ marginBottom: 8, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
                   <QuestionImage path={q.imagePath} />
                   {q.figureBased && !q.imagePath && (

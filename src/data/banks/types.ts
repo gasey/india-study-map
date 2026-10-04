@@ -71,6 +71,8 @@ interface BankQuestionBase {
   /** Reading passage the question depends on (comprehension sections) —
    *  shown above the question when present. */
   passage?: string;
+  /** Printed task instruction for questions whose stem is only an example or fragment. */
+  direction?: string;
   question: string;
   explanation: string;
   /** Optional source figure/diagram displayed above the answer choices. */

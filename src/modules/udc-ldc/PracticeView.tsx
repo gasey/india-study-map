@@ -151,6 +151,11 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         {q.source && (
           <div style={{ fontSize: 11.5, opacity: 0.65, marginBottom: 9 }}>{q.source}</div>
         )}
+        {q.direction && (
+          <div style={{ fontSize: 12.5, fontWeight: 600, marginBottom: 7, color: 'var(--text-secondary, #666)' }}>
+            {q.direction}
+          </div>
+        )}
         <div className="udc-question-stem" style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
         <QuestionImage path={q.imagePath} />
 

@@ -292,6 +292,112 @@ SECTION = {
     "reasoning":  ("reasoning", "intelligence_reasoning", "General Intelligence & Reasoning"),
 }
 
+# A handful of recent scans omit the section instruction even though the item
+# is otherwise readable. Keep the repair here (rather than in the generated
+# bank) so a rebuild does not turn a learner-facing fragment back into an
+# instructionless question.
+MISSING_ENGLISH_DIRECTIONS = {
+    ("mpsc-ldc-2025-paper-1", 51): "Fill in the blank with the correct preposition.",
+    ("mpsc-ldc-2025-paper-1", 52): "Fill in the blank with the correct preposition.",
+    ("mpsc-ldc-2025-paper-1", 53): "Choose the correct phrase to complete the sentence.",
+    ("mpsc-ldc-2025-paper-1", 54): "Choose the correct phrase to complete the sentence.",
+    ("mpsc-ldc-2025-paper-1", 55): "Fill in the blank with the correct preposition.",
+    ("mpsc-ldc-2025-paper-1", 70): "Change the sentence from direct speech to indirect speech.",
+    ("mpsc-ldc-2025-paper-1", 75): "Convert the sentence into a simple sentence.",
+    ("mpsc-asst-udc-2025oct-paper-1", 58): "Choose the synonym of the underlined word.",
+    ("mpsc-asst-udc-2025oct-paper-1", 59): "Choose the synonym of the underlined word.",
+    ("mpsc-asst-udc-2025oct-paper-1", 60): "Choose the meaning of the underlined word.",
+    ("mpsc-asst-udc-2025oct-paper-1", 61): "Choose the meaning of the underlined word.",
+}
+
+# Arithmetic stems whose OCR damage is unambiguous from the answer choices and
+# surrounding wording. A few expressions remain intentionally flagged below:
+# reconstructing a lost radical or graph value from an OCR string would invent
+# a question rather than repair one.
+ARITHMETIC_TEXT_FIXES = {
+    ("mpsc-asst-udc-2024-paper-2", 41): "If the simple interest for 2 years is ₹200 at a 5% rate of interest, find the compound interest for the same period.",
+    ("mpsc-asst-udc-2024-paper-2", 48): "Thanga bought a sweater and saved ₹200 when a discount of 25% was given. The price of the sweater before the discount is",
+    ("mpsc-asst-udc-2024-paper-2", 51): "A car travels at a speed of 80 km/hr. The distance travelled in 15 minutes is",
+    ("mpsc-asst-udc-2024-paper-2", 52): "A building is 50/3 metres high. The angle of elevation from its top to a point 50 metres away from its foot is",
+    ("mpsc-udc-combined-2025-paper-2", 43): "The first, second, and fourth terms of a proportion are 96, 8, and 12, respectively. The third term is",
+    ("mpsc-udc-combined-2025-paper-2", 44): "A can do a job in 15 days. In how many days can A and B together complete the job if B is twice as fast as A?",
+    ("mpsc-udc-combined-2025-paper-2", 53): "When the sun’s altitude changes from 30° to 60°, the length of the shadow of a tower decreases by 30 m. What is the height of the tower?",
+    ("mpsc-udc-combined-2025-paper-2", 54): "From the top of a 195 m high cliff, the angles of depression of the top and bottom of a tower are 30° and 60°, respectively. What is the height of the tower?",
+    ("mpsc-udc-combined-2025-paper-2", 60): "What is the square root of (8 + 2√15)?",
+    ("mpsc-udc-combined-2025-paper-2", 66): "A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A’s share is ₹855, the total profit is",
+    ("mpsc-udc-efcc-2018-paper-2", 100): "The Agriculture Department supplied potato seeds to farmers at a subsidy of 60%. If one kilogram of potato seeds costs ₹3 for a farmer, calculate the price per kilogram in the open market without the subsidy.",
+    ("mpsc-asst-2010-paper-2-arith", 2): "If half a metre of cloth costs ₹30, how much would 2⅓ metres cost?",
+}
+
+ARITHMETIC_TEXT_NOTES = {
+    ("mpsc-asst-udc-2024-paper-2", 62): "The arithmetic expression is visibly corrupted in the source OCR; verify it against the original paper before relying on the answer.",
+    ("mpsc-udc-combined-2025-paper-2", 39): "The percentage expression is visibly corrupted in the source OCR; verify it against the original paper before relying on the answer.",
+}
+
+ENGLISH_TEXT_FIXES = {
+    # LDC 2025 Paper-I: the paper prints the instruction separately; keep the
+    # stem as a sentence and show the instruction in `direction`.
+    ("mpsc-ldc-2025-paper-1", 70): {
+        "question": "The old lady said, “Thief! Thief! Catch him.”",
+        "direction": "Change the sentence from direct speech to indirect speech.",
+    },
+    # UDC Combined 2025 Paper-I: the scan/OCR dropped the blanks and mixed the
+    # two-column options into neighbouring questions. These are recoverable
+    # directly from the source PDF and the printed choices.
+    ("mpsc-udc-combined-2025-paper-1", 58): {
+        "question": "The huge tree stood beside the small rock. “beside” is",
+    },
+    ("mpsc-udc-combined-2025-paper-1", 61): {
+        "question": "The workers ___ working hard this year.",
+        "options": ["Have been", "Have", "Was", "Had"],
+    },
+    ("mpsc-udc-combined-2025-paper-1", 63): {
+        "options": [
+            "Negative form of present perfect tense",
+            "Negative form of past indefinite tense",
+            "Negative form of past perfect tense",
+            "Interrogative form of future indefinite tense",
+        ],
+    },
+    ("mpsc-udc-combined-2025-paper-1", 65): {
+        "question": "The child ___ a book every night.",
+        "options": ["Reads", "Is reading", "Has read", "Read"],
+    },
+    ("mpsc-udc-combined-2025-paper-1", 66): {
+        "question": "My daughter ___ in the river.",
+        "options": ["Is swimming", "Has swum", "Had swum", "Swims"],
+    },
+    ("mpsc-udc-combined-2025-paper-1", 67): {
+        "question": "She ___ taken a lesson on singing.",
+        "options": ["Has", "Have", "Has been", "Had been"],
+    },
+    ("mpsc-udc-combined-2025-paper-1", 68): {
+        "question": "The giant whale ___ the ship.",
+    },
+    ("mpsc-udc-combined-2025-paper-1", 69): {
+        "question": "These boys ___ not be punished by the teacher.",
+    },
+    ("mpsc-udc-combined-2025-paper-1", 70): {
+        "question": "He ___ his friend at the zoo.",
+    },
+    ("mpsc-udc-combined-2025-paper-1", 71): {
+        "question": "The pollution ___ the weak lungs of the child.",
+    },
+    ("mpsc-udc-combined-2025-paper-1", 72): {
+        "question": "The teacher ___ obedience from the students.",
+    },
+    ("mpsc-udc-combined-2025-paper-1", 73): {
+        "question": "He ___ his stray dog with open arms.",
+    },
+    ("mpsc-udc-combined-2025-paper-1", 74): {
+        "question": "The girl ___ the man’s proposal.",
+    },
+    ("mpsc-udc-combined-2025-paper-1", 75): {
+        "question": "She ___ the little orphan as her own.",
+        "direction": "Fill in the blank with the correct verb.",
+    },
+}
+
 # Negative marking arrived with Gazette Ex-582/2025 (published 18 Aug 2025).
 PENALTY_FROM = (2025, 8)
 MONTHS = {"January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June": 6,
@@ -1008,6 +1114,7 @@ def main():
             rec = {
                 "id": qid, "subject": bsubj, "topic": topic, "topicLabel": label,
                 "difficulty": "medium", "type": "mcq",
+                "direction": q.get("direction") or MISSING_ENGLISH_DIRECTIONS.get((slug, q["qnum"]), ""),
                 "question": q["stem"], "options": opts,
                 # ans[0] is None for a grace-marked question: MPSC scored it for
                 # everyone, so there is no correct option. Treat it as unanswered
@@ -1017,6 +1124,20 @@ def main():
                 "source": "%s, %s %d, %s" % (exam, month, year, pno),
                 "year": year, "paperId": slug,
             }
+            arith_key = (slug, q["qnum"])
+            english_key = (slug, q["qnum"])
+            if sec == "english" and english_key in ENGLISH_TEXT_FIXES:
+                fix = ENGLISH_TEXT_FIXES[english_key]
+                if "question" in fix:
+                    rec["question"] = fix["question"]
+                if "options" in fix:
+                    rec["options"] = fix["options"]
+                if "direction" in fix:
+                    rec["direction"] = fix["direction"]
+            if sec == "arithmetic" and arith_key in ARITHMETIC_TEXT_FIXES:
+                rec["question"] = ARITHMETIC_TEXT_FIXES[arith_key]
+            if sec == "arithmetic" and arith_key in ARITHMETIC_TEXT_NOTES:
+                rec["disputeNote"] = ARITHMETIC_TEXT_NOTES[arith_key]
             if ans and ans[0] is None:
                 rec["disputeNote"] = ans[4]
                 stats["grace_marks"] += 1

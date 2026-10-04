@@ -483,6 +483,50 @@ def ts(v):
     return "'" + str(v).replace("\\", "\\\\").replace("'", "\\'").replace("\n", " ") + "'"
 
 
+def generated_explanation(section, question, options, answer_index):
+    """Provide a transparent baseline explanation when the source has none.
+
+    This is deliberately conservative: it identifies the keyed option and the
+    method/concept being tested, but does not fabricate a calculation for a
+    damaged chart or figure. Existing solver/official explanations always win.
+    """
+    if answer_index < 0 or answer_index >= len(options):
+        return ""
+    answer = options[answer_index].strip()
+    q = question.lower()
+    if section == "arithmetic":
+        if "average" in q or "mean" in q:
+            method = "Use the average formula: total = average × number of items, then apply the change described."
+        elif any(w in q for w in ("percent", "%", "discount", "profit", "loss", "interest")):
+            method = "Apply the relevant percentage formula to the stated base amount; successive percentage changes are applied one after another."
+        elif "ratio" in q or "proportion" in q:
+            method = "Reduce the quantities to the stated ratio and use the total or difference given to determine the unknown."
+        elif any(w in q for w in ("speed", "distance", "train", "time", "work", "days")):
+            method = "Use the relationship rate × time = amount completed (or distance), keeping the units consistent."
+        elif any(w in q for w in ("area", "volume", "radius", "diameter", "angle", "height")):
+            method = "Substitute the given measurements into the appropriate geometry formula and simplify."
+        else:
+            method = "Simplify the given values using the stated arithmetic operation and compare the result with the options."
+        return "Correct answer: %s. %s" % (answer, method)
+    if section == "reasoning":
+        if "analogy" in q or " :: " in question:
+            method = "Identify the relationship in the first pair and apply the same relationship to the second pair."
+        elif "series" in q or "sequence" in q or "missing number" in q:
+            method = "Compare consecutive terms to identify the repeating addition, subtraction, multiplication, or positional pattern."
+        elif "direction" in q or "north" in q or "south" in q or "east" in q or "west" in q:
+            method = "Trace each movement from the starting point and compare the final direction or distance with the options."
+        elif "odd" in q or "does not belong" in q:
+            method = "Compare the options under the same property; the keyed option is the one that breaks the common pattern."
+        elif "statement" in q or "conclusion" in q or "assertion" in q:
+            method = "Test the statement or conclusion against the information given; do not add assumptions not stated in the question."
+        else:
+            method = "Apply the relationship stated in the question and eliminate options that do not satisfy it."
+        return "Correct answer: %s. %s" % (answer, method)
+    if section == "gk" :
+        return "Correct answer: %s. This is the established static fact tested by the question; the other options do not match it." % answer
+    return "Correct answer: %s." % answer
+
+
 def load_answers():
     """
     (paper name, question number) -> (answerIndex, source, explanation, keyRef).
@@ -1386,6 +1430,18 @@ def main():
             if q.get("optionsFromSeries"):
                 rec["_series"] = q["optionsFromSeries"]
                 stats["crossSeries"] += 1
+            # Fill only answerable, explanation-less items in the requested
+            # durable subjects. Current-affairs GK and unclassified GK are
+            # intentionally excluded; a generic explanation there could make
+            # a time-sensitive or uncertain fact look authoritative.
+            explainable = sec in ("arithmetic", "reasoning")
+            if sec == "gk":
+                explainable = bool(gk_kind.get((name, q["qnum"]), {}).get("kind") == "static")
+            if explainable and not rec.get("explanation") and rec["answerIndex"] >= 0:
+                rec["explanation"] = generated_explanation(
+                    sec, rec["question"], rec["options"], rec["answerIndex"])
+                if rec["explanation"]:
+                    stats["generated_explanations"] = stats.get("generated_explanations", 0) + 1
             rec["_penalised"] = penalised
             questions.append(rec)
             stats["total"] += 1

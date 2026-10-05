@@ -342,6 +342,7 @@ MISSING_DIRECTIONS = {
 # reconstructing a lost radical or graph value from an OCR string would invent
 # a question rather than repair one.
 ARITHMETIC_TEXT_FIXES = {
+    ("mpsc-udc-combined-2025-paper-2", 55): "The line graph shows the total number of students in three different schools (A, B and C) during 2020–2024. Among the following pairs of years, in which pair were the totals for all three schools equal?",
     ("mpsc-asst-udc-2024-paper-2", 41): "If the simple interest for 2 years is ₹200 at a 5% rate of interest, find the compound interest for the same period.",
     ("mpsc-asst-udc-2024-paper-2", 48): "Thanga bought a sweater and saved ₹200 when a discount of 25% was given. The price of the sweater before the discount is",
     ("mpsc-asst-udc-2024-paper-2", 51): "A car travels at a speed of 80 km/hr. The distance travelled in 15 minutes is",
@@ -354,6 +355,31 @@ ARITHMETIC_TEXT_FIXES = {
     ("mpsc-udc-combined-2025-paper-2", 66): "A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A’s share is ₹855, the total profit is",
     ("mpsc-udc-efcc-2018-paper-2", 100): "The Agriculture Department supplied potato seeds to farmers at a subsidy of 60%. If one kilogram of potato seeds costs ₹3 for a farmer, calculate the price per kilogram in the open market without the subsidy.",
     ("mpsc-asst-2010-paper-2-arith", 2): "If half a metre of cloth costs ₹30, how much would 2⅓ metres cost?",
+}
+
+# Short OCR/grammar repairs that affect meaning or readability across sections.
+GENERAL_TEXT_FIXES = {
+    ("mpsc-ldc-2025-paper-2", 20): "The following are the options for paragraph text alignment in Microsoft Word:",
+    ("mpsc-udc-combined-2025-paper-2", 9): {
+        "question": "What is the primary function of a PivotTable in Excel?",
+        "options": [
+            "To summarize data",
+            "To create complex formulas",
+            "To enhance graphics",
+            "To connect to external databases",
+        ],
+    },
+    ("mpsc-asst-udc-2025oct-paper-2", 73): "How many letters are there between the 20th letter from the left and the 18th letter from the right in the English alphabet?",
+}
+
+# A small set of undated GK items that the source classifier leaves untagged,
+# but which are stable geography facts rather than current affairs. Keep these
+# explicit so current-affairs questions do not receive generic explanations.
+GK_STATIC_EXPLANATIONS = {
+    ("mpsc-ldc-2025-paper-1", 11): "Madhya Pradesh has the largest forest-cover area among Indian states.",
+    ("mpsc-udc-combined-2025-paper-1", 1): "Uttar Pradesh is India’s most populous state.",
+    ("mpsc-udc-combined-2025-paper-1", 3): "Mawsynram in Meghalaya is generally identified as the wettest place in India.",
+    ("mpsc-ldc-2026apr-paper-1", 22): "Umling La in Ladakh is recognised as the highest motorable pass in India.",
 }
 
 ARITHMETIC_TEXT_NOTES = {
@@ -563,6 +589,8 @@ def generated_explanation(section, question, options, answer_index):
         return "Correct answer: %s. %s" % (answer, method)
     if section == "gk" :
         return "Correct answer: %s. This is the established static fact tested by the question; the other options do not match it." % answer
+    if section == "computer":
+        return "Correct answer: %s. This option correctly answers the computer-knowledge question; the other options do not." % answer
     return "Correct answer: %s." % answer
 
 
@@ -1284,6 +1312,20 @@ def main():
                 rec["question"] = ARITHMETIC_TEXT_FIXES[arith_key]
             if sec == "arithmetic" and arith_key in ARITHMETIC_TEXT_NOTES:
                 rec["disputeNote"] = ARITHMETIC_TEXT_NOTES[arith_key]
+            if arith_key in GENERAL_TEXT_FIXES:
+                fix = GENERAL_TEXT_FIXES[arith_key]
+                if isinstance(fix, dict):
+                    if "question" in fix:
+                        rec["question"] = fix["question"]
+                    if "options" in fix:
+                        rec["options"] = fix["options"]
+                else:
+                    rec["question"] = fix
+            if arith_key in GK_STATIC_EXPLANATIONS and not rec.get("explanation"):
+                rec["explanation"] = (
+                    "Correct answer: %s. %s"
+                    % (rec["options"][rec["answerIndex"]], GK_STATIC_EXPLANATIONS[arith_key])
+                )
             if ans and ans[0] is None:
                 rec["disputeNote"] = ans[4]
                 stats["grace_marks"] += 1
@@ -1477,7 +1519,7 @@ def main():
             # durable subjects. Current-affairs GK and unclassified GK are
             # intentionally excluded; a generic explanation there could make
             # a time-sensitive or uncertain fact look authoritative.
-            explainable = sec in ("arithmetic", "reasoning", "english")
+            explainable = sec in ("arithmetic", "reasoning", "english", "computer")
             if sec == "gk":
                 explainable = bool(gk_kind.get((name, q["qnum"]), {}).get("kind") == "static")
             if explainable and not rec.get("explanation") and rec["answerIndex"] >= 0:

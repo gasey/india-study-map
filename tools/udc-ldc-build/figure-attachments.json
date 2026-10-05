@@ -60,6 +60,12 @@
     "explanation": "Figure recovered from the April 2026 Paper-II scan on 2026-10-02 and shown below. The options were printed as mirrored-word images, so they cannot be transcribed as text; the official key records (a)."
   },
 
+  "mpsc-ldc-2025-paper-2-q061": {
+    "imagePath": "mpsc-ldc-2025-paper-2-q061.png",
+    "figureRecovered": true,
+    "explanation": "The recovered altitude–time graph is horizontal during two level-flight intervals: 10–50 minutes (40 minutes) and 70–100 minutes (30 minutes). Therefore, total level flight is 40 + 30 = 70 minutes, so option C is correct."
+  },
+
   "mpsc-asst-udc-2024-paper-2-q091": {
     "imagePath": "mpsc-asst-udc-2024-paper-2-q091.png",
     "figureRecovered": true,

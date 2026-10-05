@@ -612,5 +612,117 @@
       "method": "Verified the official MPSC scan and all printed options; historical player-count evidence is insufficient",
       "answer": "withdrawn (answerIndex -1)"
     }
+  },
+  "LDC under MPSC Paper-II 2025.::q64": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Using standard precedence and treating ‘of’ as multiplication: (2³+2)/5 + 7×3 − 1×9 = 10/5 + 21 − 9 = 14. Option B is correct.",
+    "reason": "The expression and all four options are legible; the previous medium rating was only due to the printed use of ‘of’.",
+    "evidence": {
+      "source": "LDC under MPSC Paper-II 2025, q64",
+      "method": "Direct arithmetic check against every printed option"
+    }
+  },
+  "LDC under MPSC Paper-II 2025.::q96": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The first column is C, F, I (+3), and the second is R, O, L (−3). The missing character is R, option C.",
+    "reason": "The letter table and options are complete and support a unique pattern.",
+    "evidence": {
+      "source": "LDC under MPSC Paper-II 2025, q96",
+      "method": "Column-wise alphabet progression"
+    }
+  },
+  "UDC Combined Paper-II (B) May-2025.::q78": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The puzzle stem is cut off and option D contains the beginning of the next seating-arrangement question. The remaining clues are insufficient to verify the intended wrong pair.",
+    "evidence": {
+      "source": "UDC Combined Paper-II (B) May-2025, q78",
+      "method": "Compared the extracted record with the source page; stem/option boundary is damaged",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "UDC Combined Paper-II (B) May-2025.::q88": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The common words identify 3a = Eternal, 7c = is and 2b = Truth. Comparing the second and third sentences gives 9a = not, leaving 8b = Enmity. Option C is correct.",
+    "reason": "The previous explanation incorrectly selected 9a after identifying it as ‘not’; the code mapping uniquely gives 8b for ‘enmity’.",
+    "evidence": {
+      "source": "UDC Combined Paper-II (B) May-2025, q88",
+      "method": "Intersection of repeated coded words across the three complete statements"
+    }
+  },
+  "Assistant, UDC Paper-II Series A.::q65": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The question depends on a line chart, but the chart image is not recoverable in the staged source; the OCR number stream does not uniquely preserve the six plotted values and axes.",
+    "evidence": {
+      "source": "Assistant, UDC Paper-II Series A, q65",
+      "method": "Checked the staged scan/image attachments and the OCR stream; no unique chart reconstruction",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "Assistant, UDC Paper-II Series A.::q83": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The recovered figure is legible, but the four printed options offer only 8 or 10 squares while the directly drawable axis-aligned squares count does not match those choices. The question is defective as printed.",
+    "evidence": {
+      "source": "public/question-images/mpsc-asst-udc-2025oct-paper-2-q083.png",
+      "method": "Recounted the recovered figure and compared the result with all four printed options",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "Assistant, UDC Paper-II Series A.::q89": {
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "The statements do not establish any of the three listed conclusions: cricket players’ two-wheeler ownership is unknown, and cricket and football membership is not stated to be mutually exclusive. Therefore i, ii and iii cannot be drawn: option D.",
+    "reason": "The formal implication is non-exclusive; the earlier medium note incorrectly treated the possible strict-partition reading as a reason to lower confidence.",
+    "evidence": {
+      "source": "Assistant, UDC Paper-II Series A, q89",
+      "method": "Formal implication check against each conclusion"
+    }
+  },
+  "2.UDC (contract) 2016 Art& Culture Paper-II::q77": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Fraction bars and exponent/operator placement are lost. Multiple reconstructions produce different values, so the stored option-D guess is not defensible.",
+    "evidence": {
+      "source": "2.UDC (contract) 2016 Art& Culture Paper-II, q77",
+      "method": "Checked the damaged expression against all four options; numerator/denominator pairing is unrecoverable",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "2.UDC (contract) 2016 Art& Culture Paper-II::q85": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The exponent signs and fractional powers are missing from the source extraction. Although one reconstruction gives 9/25, the printed expression cannot be uniquely recovered.",
+    "evidence": {
+      "source": "2.UDC (contract) 2016 Art& Culture Paper-II, q85",
+      "method": "Compared the damaged stem with the four sign/exponent variants in the options",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "2.UDC under SAD Paper-II::q95": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The equation and radical signs were flattened into the option text. Both 12 and 144 can result from plausible reconstructions, so no unique answer can be shipped.",
+    "evidence": {
+      "source": "2.UDC under SAD Paper-II, q95",
+      "method": "Checked the recovered text and all options; missing radical glyphs change the result",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "UDC Direct under Fisheries Deptt - Paper-II::q86": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Fraction bars and the target fraction are merged into the stem/option C. The 8-day reconstruction is plausible but cannot be verified from the surviving text alone.",
+    "evidence": {
+      "source": "UDC Direct under Fisheries Deptt - Paper-II, q86",
+      "method": "Checked the damaged work-rate expression and target against all four options",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "2.UDC Paper-II::q77": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The printed wording asks which term equals 81, but the options are values 81, 93, 101 and 110 and the stored answer selects the only non-term. The stem is internally inconsistent.",
+    "evidence": {
+      "source": "2.UDC Paper-II, q77",
+      "method": "Substituted each option into the AP 5, 9, 13, 17, … and compared with the printed wording",
+      "answer": "withdrawn (answerIndex -1)"
+    }
   }
 }

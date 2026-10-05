@@ -204,5 +204,64 @@
       "source": "pdfs/Old_Questions/Direct_NG_2024-2027/LDC under MPSC Paper-I 2025..pdf, q60",
       "method": "Source OCR and grammar check against all four printed options"
     }
+  },
+  "2.Assistant Grade Paper-II::q117": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "There are 9 + 14 + 12 + 5 = 40 students. Blood group B accounts for 12, so the probability is 12/40 = 3/10, option B.",
+    "reason": "The source table is legible in the recovered scan; the probability is 12 divided by the total 40 students.",
+    "evidence": {
+      "source": "Direct_2014-2018/2.Assistant Grade Paper-II.pdf, page 12",
+      "method": "Read the printed blood-group table from the source scan and calculate 12/(9+14+12+5)."
+    }
+  },
+  "2.Assistant Grade Paper-II::q120": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "AC is the diameter 7 cm, so the radius is 3.5 cm. The shaded part is the 90° sector minus triangle DOB: (90/360)π(3.5)^2 − (1/2)(3.5)(2) = 9.625 − 3.5 = 6.125 cm², option B.",
+    "reason": "The printed circle diagram is recoverable. Interpreting AC as the diameter shown through O gives the keyed value 6.125 cm².",
+    "evidence": {
+      "source": "Direct_2014-2018/2.Assistant Grade Paper-II.pdf, page 12",
+      "method": "Read AC=7 cm, OB=2 cm and the 90° sector from the source figure; use π=22/7."
+    }
+  },
+  "2.Assistant Grade Paper-II::q122": {
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Other vehicles = total vehicles minus two-wheelers. The monthly values are 2.8, 0.7, 2.0, 2.0, 1.9 and 3.2 hundred; June is the maximum, option D.",
+    "reason": "Read both series from the recovered vehicle-registration bar chart and subtract the two-wheeler bar from the total bar for each month.",
+    "evidence": {
+      "source": "Direct_2014-2018/2.Assistant Grade Paper-II.pdf, page 13",
+      "method": "Chart values: total [7.3,6.5,5.5,9.5,8.4,7.6], two-wheelers [4.5,5.8,3.5,7.5,6.5,4.4]."
+    }
+  },
+  "2.Assistant Grade Paper-II::q123": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Two-wheelers increased from 3.5 hundred in March to 7.5 hundred in April: (7.5−3.5)/3.5 × 100 = 114 2/7%, option B.",
+    "reason": "The March and April two-wheeler bars are 3.5 and 7.5 hundred in the recovered chart.",
+    "evidence": {
+      "source": "Direct_2014-2018/2.Assistant Grade Paper-II.pdf, page 13",
+      "method": "Read the two-wheeler series and apply percentage increase."
+    }
+  },
+  "2.Assistant Grade Paper-II::q124": {
+    "answerIndex": null,
+    "explanation": "The recovered chart gives March total vehicles = 5.5 hundred and June total vehicles = 7.6 hundred, so the ratio is 5.5:7.6 = 55:76. None of the printed options matches; the question is defective as printed and has been withdrawn.",
+    "reason": "The source graph is recoverable, but its March-to-June ratio is 55:76, absent from all four options. No option can be selected honestly.",
+    "evidence": {
+      "source": "Direct_2014-2018/2.Assistant Grade Paper-II.pdf, page 13",
+      "method": "Read the total-vehicle bars directly: March 5.5 and June 7.6 hundred; compare 55:76 with the printed options."
+    }
+  },
+  "2.Assistant Grade Paper-II::q125": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The six total-vehicle values sum to 7.3+6.5+5.5+9.5+8.4+7.6 = 44.8 hundred. Dividing by six gives 7.466…, which rounds to 7.47 hundred, option C.",
+    "reason": "The recovered chart provides all six total-vehicle values needed for the average.",
+    "evidence": {
+      "source": "Direct_2014-2018/2.Assistant Grade Paper-II.pdf, page 13",
+      "method": "Read the six total-vehicle bars and calculate their arithmetic mean."
+    }
   }
 }

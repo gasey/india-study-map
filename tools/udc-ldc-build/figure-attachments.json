@@ -1,10 +1,11 @@
 {
   "_README": [
-    "Figures recovered for questions whose printed options were images.",
+    "Figures and charts recovered from source PDFs for questions whose visual",
+    "content was missing or flattened in the staged text.",
     "Applied by build_bank.py AFTER the answer/figureBased logic, keyed by the",
     "BANK question id (the slug-qNNN form the .ts ships), never by paper+qnum.",
     "",
-    "WHY THIS FILE EXISTS. These five recoveries were, on 2026-10-02, hand-edited",
+    "WHY THIS FILE EXISTS. Earlier recoveries were, on 2026-10-02, hand-edited",
     "straight into src/data/banks/mpsc-udc-ldc.ts. That file is generated, and",
     "the edits did not survive the next build_bank.py run: the five imagePath",
     "fields vanished and the four questions silently reverted to figureBased with",
@@ -21,14 +22,11 @@
     "                  scored tests. Leave it out when the options are still",
     "                  unreadable images (q081 below), which keeps figureBased.",
     "",
-    "PROVENANCE. imagePath alone is not proof the figure came from the paper.",
-    "Three of these are crops of the real page scan. Two are hand-drawn SVG",
-    "reconstructions of a described figure whose scan is gone, and they say so in",
-    "their explanation rather than passing as a rescan. Do not attach the three",
-    "unused SVGs in public/question-images/ (reasoning-dice-positions,",
-    "reasoning-mirror-mn, reasoning-paper-pieces) -- their source scans are lost",
-    "and the puzzles they depict are invented, so wiring them to the matching",
-    "questions would present a fabricated figure as the real exam item."
+    "PROVENANCE. The current attached PNGs are crops of the real source-page",
+    "scans. The three unused SVGs in public/question-images/ (reasoning-dice-",
+    "positions, reasoning-mirror-mn, reasoning-paper-pieces) remain deliberately",
+    "unattached: their source scans are lost and wiring invented reconstructions",
+    "to questions would present fabricated figures as real exam items."
   ],
 
   "mpsc-udc-combined-2025-paper-2-q071": {
@@ -45,16 +43,6 @@
     "explanation": "Corrected 2026-10-02: the figure is now recovered from the same May 2025 Paper-II scan (Series B, p.9) and shown below."
   },
 
-  "mpsc-asst-udc-2025oct-paper-2-q075": {
-    "imagePath": "reasoning-mirror-dl9cg4728.svg",
-    "figureRecovered": true
-  },
-
-  "mpsc-asst-udc-2025oct-paper-2-q078": {
-    "imagePath": "reasoning-mirror-line-ab.svg",
-    "figureRecovered": true
-  },
-
   "mpsc-ldc-2026apr-paper-2-q081": {
     "imagePath": "mpsc-ldc-2026apr-paper-2-q081.png",
     "explanation": "Figure recovered from the April 2026 Paper-II scan on 2026-10-02 and shown below. The options were printed as mirrored-word images, so they cannot be transcribed as text; the official key records (a)."
@@ -64,6 +52,132 @@
     "imagePath": "mpsc-ldc-2025-paper-2-q061.png",
     "figureRecovered": true,
     "explanation": "The recovered altitude–time graph is horizontal during two level-flight intervals: 10–50 minutes (40 minutes) and 70–100 minutes (30 minutes). Therefore, total level flight is 40 + 30 = 70 minutes, so option C is correct."
+  },
+
+  "mpsc-ldc-2025-paper-2-q062": {
+    "imagePath": "mpsc-ldc-2025-paper-2-q061.png",
+    "explanation": "The recovered bar chart shows R&D at 5% of total expenditure. Therefore, total expenditure/R&D expenditure = 100/5 = 20, so option B is correct."
+  },
+
+  "mpsc-ldc-2025-paper-2-q075": {
+    "imagePath": "mpsc-ldc-2025-paper-2-q075.png",
+    "explanation": "From the pie chart, pomegranate is 54° and grapes are 36°. Their combined share is 90°/360° = 1/4 of ₹500, so the difference is (54−36)/360 × ₹500 = ₹25; option A is correct."
+  },
+
+  "mpsc-ldc-2025-paper-2-q095": {
+    "imagePath": "mpsc-ldc-2025-paper-2-q095.png"
+  },
+  "mpsc-ldc-2025-paper-2-q096": {
+    "imagePath": "mpsc-ldc-2025-paper-2-q096.png"
+  },
+  "mpsc-ldc-2025-paper-2-q097": {
+    "imagePath": "mpsc-ldc-2025-paper-2-q097.png"
+  },
+  "mpsc-ldc-2025-paper-2-q098": {
+    "imagePath": "mpsc-ldc-2025-paper-2-q098.png"
+  },
+
+  "mpsc-asst-udc-2024-paper-2-q063": {
+    "imagePath": "mpsc-asst-udc-2024-paper-2-q063.png",
+    "explanation": "The pie chart labels walking as 60° and 180 students. Since 60° is one-sixth of the circle, total students = 180 × 6 = 1,080, so option C is correct."
+  },
+
+  "mpsc-asst-udc-2024-paper-2-q064": {
+    "imagePath": "mpsc-asst-udc-2024-paper-2-q064.png",
+    "explanation": "The line graph gives 40, 55, 45, 65, 70 and 60. Their sum is 335; 335/6 = 55.833…%, so option B (55.83%) is correct."
+  },
+
+  "mpsc-asst-udc-2024-paper-2-q065": {
+    "imagePath": "mpsc-asst-udc-2024-paper-2-q064.png",
+    "explanation": "From the bar graph, the largest year-on-year increase is 53 to 65, from 2015 to 2016 (+12). Therefore, option C, 2016, is correct."
+  },
+
+  "mpsc-udc-combined-2025-paper-2-q055": {
+    "imagePath": "mpsc-udc-combined-2025-paper-2-q055.png",
+    "explanation": "Adding the three plotted values for each year gives equal totals in 2022 and 2024 (150 in each case), so option C is correct."
+  },
+
+  "mpsc-udc-combined-2025-paper-2-q056": {
+    "imagePath": "mpsc-udc-combined-2025-paper-2-q056.png",
+    "explanation": "For 2021–2024, girls total 60+50+70+80 = 260 and boys total 40+60+50+70 = 220. The ratio of averages is therefore 260:220 = 13:11, option B."
+  },
+
+  "mpsc-udc-combined-2025-paper-2-q057": {
+    "imagePath": "mpsc-udc-combined-2025-paper-2-q056.png",
+    "explanation": "Cement accounts for 20% of the building expenditure. Its pie-chart angle is 20% × 360° = 72°, so option D is correct."
+  },
+
+  "mpsc-ldc-2026feb-paper-2-q070": {
+    "imagePath": "mpsc-ldc-2026feb-paper-2-q070.png"
+  },
+  "mpsc-ldc-2026feb-paper-2-q071": {
+    "imagePath": "mpsc-ldc-2026feb-paper-2-q070.png"
+  },
+  "mpsc-ldc-2026feb-paper-2-q072": {
+    "imagePath": "mpsc-ldc-2026feb-paper-2-q070.png"
+  },
+  "mpsc-ldc-2026feb-paper-2-q073": {
+    "imagePath": "mpsc-ldc-2026feb-paper-2-q073.png"
+  },
+  "mpsc-ldc-2026feb-paper-2-q074": {
+    "imagePath": "mpsc-ldc-2026feb-paper-2-q073.png"
+  },
+  "mpsc-ldc-2026feb-paper-2-q075": {
+    "imagePath": "mpsc-ldc-2026feb-paper-2-q073.png"
+  },
+
+  "mpsc-asst-udc-2025oct-paper-2-q074": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q074.png"
+  },
+  "mpsc-asst-udc-2025oct-paper-2-q075": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q074.png",
+    "figureRecovered": true,
+    "explanation": "The source scan preserves the printed question combination and all four mirror-image options. Reflecting the combination about the vertical mirror line gives option (3), which is the answer recorded for this item."
+  },
+  "mpsc-asst-udc-2025oct-paper-2-q078": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q078.png",
+    "figureRecovered": true,
+    "explanation": "The source scan preserves the question figure, mirror line AB and all four answer figures. A left–right reflection gives option (1)."
+  },
+  "mpsc-asst-udc-2025oct-paper-2-q079": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q079.png"
+  },
+  "mpsc-asst-udc-2025oct-paper-2-q080": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q079.png"
+  },
+  "mpsc-asst-udc-2025oct-paper-2-q081": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q079.png"
+  },
+  "mpsc-asst-udc-2025oct-paper-2-q082": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q079.png"
+  },
+  "mpsc-asst-udc-2025oct-paper-2-q083": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q083.png"
+  },
+  "mpsc-asst-udc-2025oct-paper-2-q087": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q083.png"
+  },
+  "mpsc-asst-udc-2025oct-paper-2-q099": {
+    "imagePath": "mpsc-asst-udc-2025oct-paper-2-q099.png"
+  },
+
+  "mpsc-asst-dpar-2018-paper-2-q117": {
+    "imagePath": "mpsc-asst-dpar-2018-paper-2-q117.png"
+  },
+  "mpsc-asst-dpar-2018-paper-2-q120": {
+    "imagePath": "mpsc-asst-dpar-2018-paper-2-q120.png"
+  },
+  "mpsc-asst-dpar-2018-paper-2-q122": {
+    "imagePath": "mpsc-asst-dpar-2018-paper-2-q122.png"
+  },
+  "mpsc-asst-dpar-2018-paper-2-q123": {
+    "imagePath": "mpsc-asst-dpar-2018-paper-2-q122.png"
+  },
+  "mpsc-asst-dpar-2018-paper-2-q124": {
+    "imagePath": "mpsc-asst-dpar-2018-paper-2-q122.png"
+  },
+  "mpsc-asst-dpar-2018-paper-2-q125": {
+    "imagePath": "mpsc-asst-dpar-2018-paper-2-q122.png"
   },
 
   "mpsc-asst-udc-2024-paper-2-q091": {

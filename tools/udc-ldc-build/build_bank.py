@@ -596,8 +596,8 @@ def generated_explanation(section, question, options, answer_index):
         else:
             method = "The keyed option is the grammatically correct choice for the sentence and context."
         return "Correct answer: %s. %s" % (answer, method)
-    if section == "gk" :
-        return "Correct answer: %s. This is the established static fact tested by the question; the other options do not match it." % answer
+    if section == "gk":
+        return "Correct answer: %s. This is the answer keyed for the source paper; because this is a time-sensitive current-affairs item, verify the latest status separately." % answer
     if section == "computer":
         return "Correct answer: %s. This option correctly answers the computer-knowledge question; the other options do not." % answer
     return "Correct answer: %s." % answer
@@ -1540,18 +1540,29 @@ def main():
             if q.get("optionsFromSeries"):
                 rec["_series"] = q["optionsFromSeries"]
                 stats["crossSeries"] += 1
-            # Fill only answerable, explanation-less items in the requested
-            # durable subjects. Current-affairs GK and unclassified GK are
-            # intentionally excluded; a generic explanation there could make
-            # a time-sensitive or uncertain fact look authoritative.
+            # Fill answerable, explanation-less items. Current-affairs GK gets
+            # the same transparent baseline as static GK, followed by the
+            # dated freshness note below; it must never look like an undated
+            # present-day fact.
             explainable = sec in ("arithmetic", "reasoning", "english", "computer")
             if sec == "gk":
-                explainable = bool(gk_kind.get((name, q["qnum"]), {}).get("kind") == "static")
+                explainable = bool(gk_kind.get((name, q["qnum"]), {}).get("kind") in ("static", "current"))
             if explainable and not rec.get("explanation") and rec["answerIndex"] >= 0:
                 rec["explanation"] = generated_explanation(
                     sec, rec["question"], rec["options"], rec["answerIndex"])
                 if rec["explanation"]:
                     stats["generated_explanations"] = stats.get("generated_explanations", 0) + 1
+            if (sec == "gk" and
+                    gk_kind.get((name, q["qnum"]), {}).get("kind") == "current" and
+                    rec.get("explanation") and rec["answerIndex"] >= 0 and
+                    "Current-status note (reviewed " not in rec["explanation"]):
+                rec["explanation"] += (
+                    " Current-status note (reviewed %s): this preserves the answer "
+                    "expected at the original exam sitting; the office-holder, "
+                    "award, ranking, scheme, or figure may have changed since then, "
+                    "so verify the latest status before treating it as current."
+                    % CURRENT_AFFAIRS_REVIEW_DATE
+                )
             rec["_penalised"] = penalised
             questions.append(rec)
             stats["total"] += 1

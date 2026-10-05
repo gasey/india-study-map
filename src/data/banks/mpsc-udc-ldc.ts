@@ -3515,6 +3515,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'science-tech',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q002',
@@ -3535,6 +3536,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q003',
@@ -3555,6 +3557,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'current-affairs',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q004',
@@ -3575,6 +3578,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'science-tech',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q005',
@@ -3616,6 +3620,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'geography',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q007',
@@ -3636,6 +3641,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'general-science',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q008',
@@ -3677,6 +3683,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'current-affairs',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q010',
@@ -3697,6 +3704,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q011',
@@ -3717,6 +3725,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q012',
@@ -3821,6 +3830,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'science-tech',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q017',
@@ -3841,6 +3851,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q018',
@@ -3861,6 +3872,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q019',
@@ -3881,6 +3893,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q020',
@@ -3901,6 +3914,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q021',
@@ -3963,6 +3977,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'current-affairs',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q024',
@@ -4046,6 +4061,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'current-affairs',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q028',
@@ -4066,6 +4082,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'geography',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q029',
@@ -4086,6 +4103,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'geography',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q030',
@@ -4127,6 +4145,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'mizoram',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q032',
@@ -4168,6 +4187,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q034',
@@ -4209,6 +4229,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q036',
@@ -4250,6 +4271,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q038',
@@ -4291,6 +4313,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q040',
@@ -4332,6 +4355,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'mizoram',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q042',
@@ -4352,6 +4376,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'mizoram',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q043',
@@ -4372,6 +4397,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'mizoram',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q044',
@@ -4392,6 +4418,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'art-culture',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q045',
@@ -4412,6 +4439,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q046',
@@ -4432,6 +4460,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q047',
@@ -4452,6 +4481,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'current-affairs',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q048',
@@ -4493,6 +4523,7 @@ const questionsPart1: BankQuestion[] = [
     answerKeyRef: 'Provisional Answer Key of UDC, Assistant under MPSC (provisional)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-asst-udc-2024-paper-1-q050',
@@ -16755,6 +16786,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'current-affairs',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q002',
@@ -16775,6 +16807,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'art-culture',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q003',
@@ -16795,6 +16828,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'current-affairs',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q004',
@@ -16815,6 +16849,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'modern-indian-history',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q005',
@@ -16835,6 +16870,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'modern-indian-history',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q006',
@@ -16855,6 +16891,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'modern-indian-history',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q007',
@@ -16876,6 +16913,7 @@ const questionsPart3: BankQuestion[] = [
     disputeNote: 'Queen Victoria\'s Proclamation of 1858 is the document conventionally called the Magna Carta of the Indian people. The Ilbert Bill (1883) was a contentious jurisdiction measure and carries no such description.',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q008',
@@ -16896,6 +16934,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q009',
@@ -16916,6 +16955,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'modern-indian-history',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q010',
@@ -16936,6 +16976,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q011',
@@ -16956,6 +16997,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q012',
@@ -16976,6 +17018,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'modern-indian-history',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q013',
@@ -16996,6 +17039,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q014',
@@ -17016,6 +17060,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q015',
@@ -17036,6 +17081,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q016',
@@ -17056,6 +17102,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q017',
@@ -17076,6 +17123,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q018',
@@ -17096,6 +17144,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'polity-constitution',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q019',
@@ -17116,6 +17165,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q020',
@@ -17136,6 +17186,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q021',
@@ -17156,6 +17207,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'geography',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q022',
@@ -17197,6 +17249,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'geography',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q024',
@@ -17238,6 +17291,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'geography',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q026',
@@ -17258,6 +17312,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q027',
@@ -17278,6 +17333,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q028',
@@ -17298,6 +17354,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q029',
@@ -17318,6 +17375,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q030',
@@ -17338,6 +17396,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q031',
@@ -17358,6 +17417,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q032',
@@ -17378,6 +17438,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q033',
@@ -17398,6 +17459,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q034',
@@ -17418,6 +17480,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general-science',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q035',
@@ -17438,6 +17501,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q036',
@@ -17458,6 +17522,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'economy',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q037',
@@ -17478,6 +17543,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q038',
@@ -17498,6 +17564,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general-science',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q039',
@@ -17518,6 +17585,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general-science',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q040',
@@ -17538,6 +17606,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'science-tech',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q041',
@@ -17558,6 +17627,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'science-tech',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q042',
@@ -17578,6 +17648,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general-science',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q043',
@@ -17598,6 +17669,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general-science',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q044',
@@ -17618,6 +17690,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'science-tech',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q045',
@@ -17638,6 +17711,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q046',
@@ -17658,6 +17732,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'mizoram',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q047',
@@ -17678,6 +17753,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'mizoram',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q048',
@@ -17698,6 +17774,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'mizoram',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q049',
@@ -17718,6 +17795,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'general',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q050',
@@ -17738,6 +17816,7 @@ const questionsPart3: BankQuestion[] = [
     answerKeyRef: 'Final Answer key of LDC - Commissioner for PwD under Social Welfare, Women & Child Development Deptt., 2026 (final)',
     gkKind: 'static',
     gkTopic: 'mizoram',
+    answerConfidence: 'high',
   },
   {
     id: 'mpsc-ldc-2026apr-paper-1-q051',

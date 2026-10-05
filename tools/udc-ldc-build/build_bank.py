@@ -1552,6 +1552,16 @@ def main():
                     sec, rec["question"], rec["options"], rec["answerIndex"])
                 if rec["explanation"]:
                     stats["generated_explanations"] = stats.get("generated_explanations", 0) + 1
+            # Official-key static GK answers are authoritative, but previously
+            # had no confidence badge because the key loader records authority
+            # separately. Give answerable static GK the explicit high badge so
+            # the confidence filter is complete; withdrawn/no-answer records
+            # remain unbadged by design.
+            if (sec == "gk" and
+                    gk_kind.get((name, q["qnum"]), {}).get("kind") == "static" and
+                    rec["answerIndex"] >= 0 and
+                    not rec.get("answerConfidence")):
+                rec["answerConfidence"] = "high"
             if (sec == "gk" and
                     gk_kind.get((name, q["qnum"]), {}).get("kind") == "current" and
                     rec.get("explanation") and rec["answerIndex"] >= 0 and

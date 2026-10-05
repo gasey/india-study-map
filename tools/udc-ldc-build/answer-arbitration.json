@@ -724,5 +724,51 @@
       "method": "Substituted each option into the AP 5, 9, 13, 17, … and compared with the printed wording",
       "answer": "withdrawn (answerIndex -1)"
     }
+  },
+  "UDC Combined Paper-I (C) May-2025.::q63": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "‘Did not plead’ is the negative form of the simple past (past indefinite) tense. Option B is correct; the previous answer incorrectly selected the past-perfect option.",
+    "reason": "The tense is determined directly by the auxiliary ‘did’ plus the base verb ‘plead’; the printed option B states the correct tense.",
+    "evidence": {
+      "source": "UDC Combined Paper-I (C) May-2025, q63",
+      "method": "Standard tense identification from the verb form"
+    }
+  },
+  "LDC Paper-I under Law _ Judicial Deptt..::q60": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘With great enthusiasm’ is an adverbial prepositional phrase, not an adverb clause. The printed choices all say ‘clause’, so the question has no technically correct option.",
+    "evidence": {
+      "source": "LDC Paper-I under Law _ Judicial Deptt., q60",
+      "method": "Parsed the underlined unit and compared it with the grammatical categories in all options",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "1.UDC Paper-I::q72": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The natural sentence is ‘He has been absent since April’, but ‘has been’ is absent from the options. ‘Had been’ requires a past reference point that is not supplied.",
+    "evidence": {
+      "source": "1.UDC Paper-I, q72",
+      "method": "Checked tense, subject-verb agreement and the ‘since’ construction against every option",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "1.UDC under SAD Paper-I::q62": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘Elbow room’ can mean either ‘space’ or figurative ‘freedom’, and both options fit the sentence. The source provides no context that selects one uniquely.",
+    "evidence": {
+      "source": "1.UDC under SAD Paper-I, q62",
+      "method": "Compared the established literal and figurative meanings with the two matching options",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "1.UDC under Tourism Deptt.-I::q54": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Both ‘amused at her ignorance’ and ‘amused by her ignorance’ are standard English constructions. The options do not provide a uniquely correct preposition.",
+    "evidence": {
+      "source": "1.UDC under Tourism Deptt.-I, q54",
+      "method": "Checked standard collocations and found both ‘at’ and ‘by’ valid in this context",
+      "answer": "withdrawn (answerIndex -1)"
+    }
   }
 }

@@ -310,6 +310,33 @@ MISSING_ENGLISH_DIRECTIONS = {
     ("mpsc-asst-udc-2025oct-paper-1", 61): "Choose the meaning of the underlined word.",
 }
 
+# Shared reasoning directions that the OCR/staging pass retained only as the
+# generic heading. These constraints are part of the questions, not optional
+# background: without them q68-q70 are under-specified.
+MISSING_DIRECTIONS = {
+    ("mpsc-asst-udc-2025oct-paper-2", 68): (
+        "Directions (Questions 68–70): Seven boys P, Q, R, S, T, U and V take "
+        "a series of tests. V always scores more than P. P always scores more "
+        "than Q. No two boys get similar marks. Each time either R scores the "
+        "highest and T gets the least, or alternatively S scores the highest "
+        "and U or Q scores the least."
+    ),
+    ("mpsc-asst-udc-2025oct-paper-2", 69): (
+        "Directions (Questions 68–70): Seven boys P, Q, R, S, T, U and V take "
+        "a series of tests. V always scores more than P. P always scores more "
+        "than Q. No two boys get similar marks. Each time either R scores the "
+        "highest and T gets the least, or alternatively S scores the highest "
+        "and U or Q scores the least."
+    ),
+    ("mpsc-asst-udc-2025oct-paper-2", 70): (
+        "Directions (Questions 68–70): Seven boys P, Q, R, S, T, U and V take "
+        "a series of tests. V always scores more than P. P always scores more "
+        "than Q. No two boys get similar marks. Each time either R scores the "
+        "highest and T gets the least, or alternatively S scores the highest "
+        "and U or Q scores the least."
+    ),
+}
+
 # Arithmetic stems whose OCR damage is unambiguous from the answer choices and
 # surrounding wording. A few expressions remain intentionally flagged below:
 # reconstructing a lost radical or graph value from an OCR string would invent
@@ -1229,7 +1256,11 @@ def main():
             rec = {
                 "id": qid, "subject": bsubj, "topic": topic, "topicLabel": label,
                 "difficulty": "medium", "type": "mcq",
-                "direction": q.get("direction") or MISSING_ENGLISH_DIRECTIONS.get((slug, q["qnum"]), ""),
+                "direction": (
+                    q.get("direction")
+                    or MISSING_DIRECTIONS.get((slug, q["qnum"]), "")
+                    or MISSING_ENGLISH_DIRECTIONS.get((slug, q["qnum"]), "")
+                ),
                 "question": q["stem"], "options": opts,
                 # ans[0] is None for a grace-marked question: MPSC scored it for
                 # everyone, so there is no correct option. Treat it as unanswered

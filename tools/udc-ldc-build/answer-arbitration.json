@@ -82,6 +82,181 @@
       "finding": "every OCR mode returns noise; an ink-column profile finds ONE connected cluster spanning x 418-1923 rather than four separate dice, so no pip structure survives. The figure is destroyed in the scan, not merely hard to read."
     }
   },
+  "LDC under MPSC Paper-II 2025.::q62": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The recovered bar graph assigns 5% of total expenditure to R&D. Therefore, total expenditure is 100 ÷ 5 = 20 times the R&D expenditure; option B is correct.",
+    "reason": "Verified directly from the recovered source graph: the R&D bar is labelled 5%.",
+    "evidence": {
+      "source": "LDC under MPSC Paper-II 2025, source scan, page 8",
+      "method": "Read the R&D bar label in the recovered graph and compute 100/5"
+    }
+  },
+  "UDC Combined Paper-I (C) May-2025.::q61": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The present-perfect construction is 'have been working': the plural subject 'workers' takes 'have', followed by 'been' and the -ing form.",
+    "reason": "The repaired sentence and all four options are clear; option A is the only grammatically complete form.",
+    "evidence": {
+      "source": "UDC Combined Paper-I (C) May-2025, q61",
+      "method": "Grammar check against the repaired source sentence"
+    }
+  },
+  "UDC Combined Paper-II (B) May-2025.::q39": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The percentage expression is destroyed in the source extraction ('What t fais? at percent of 71S3-9'); the two quantities needed for the calculation cannot be recovered, so the four options cannot be verified.",
+    "evidence": {
+      "source": "UDC Combined Paper-II (B) May-2025, q39",
+      "method": "Compared the staged OCR with the source question region; the operands and operator are missing"
+    }
+  },
+  "UDC Combined Paper-II (B) May-2025.::q85": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The code-language stem ends before the actual question, while the stored choices are the coded statements themselves. The requested word and valid answer choices are absent from the source extraction.",
+    "evidence": {
+      "source": "UDC Combined Paper-II (B) May-2025, q85",
+      "method": "Compared the staged stem and four options; no option can be mapped to the missing prompt"
+    }
+  },
+  "LDC Paper-II under Law _ Judicial Deptt..::q99": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The seating clues do not determine whether B is on A's left or right, so the person opposite B can be E or F. The printed question is underdetermined.",
+    "evidence": {
+      "source": "LDC under MPSC Paper-II 2026, q99",
+      "method": "Enumerated both valid circular arrangements consistent with the stated clues"
+    }
+  },
+  "2.UDC (contract) 2016 Art& Culture Paper-II::q78": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The equation and the fraction bars in options (b)–(d) are damaged by the source extraction, and the surviving digits support more than one reconstruction. No option can be verified safely.",
+    "evidence": {
+      "source": "UDC Contract 2016 Art & Culture Paper-II, q78",
+      "method": "Compared the stem/options with the available staged extraction; fraction structure is missing"
+    }
+  },
+  "2.UDC under SAD Paper-II::q85": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The arithmetic expression has lost its fraction bars and at least one operator; the surviving numbers do not determine a unique value among the printed options.",
+    "evidence": {
+      "source": "UDC under Secretariat Administration, February 2018, Paper-II, q85",
+      "method": "Checked the extracted expression and options for a reproducible mathematical parse"
+    }
+  },
+  "UDC Direct under Taxation Deptt - Paper-II::q67": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The standard answer is 'passwords', but that answer is absent from the four printed choices; 'codewords' is not an equivalent technical answer.",
+    "evidence": {
+      "source": "UDC Direct under Taxation Department, 2021, Paper-II, q67",
+      "method": "Compared the standard computer terminology with every printed option"
+    }
+  },
+  "UDC Direct under Taxation Deptt - Paper-II::q93": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The expression has lost operators and fraction structure; multiple plausible reconstructions produce different options.",
+    "evidence": {
+      "source": "UDC Direct under Taxation Department, 2021, Paper-II, q93",
+      "method": "No unique mathematical parse survives the source extraction"
+    }
+  },
+  "2.UDC Paper-II::q62": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The official 2017 World AIDS Day theme was 'Right to Health', which is not among the three printed options; 'Right to life' is not an exact answer.",
+    "evidence": {
+      "source": "UDC under Social Welfare, June 2018, Paper-II, q62",
+      "method": "Compared the official theme with the complete printed option set"
+    }
+  },
+  "2.UDC Paper-II::q82": {
+    "answerIndex": 3,
+    "confidence": "high",
+    "options": ["1/4", "1/10", "7/15", "8/15"],
+    "explanation": "A and B complete 1/15 + 1/20 = 7/60 of the work per day. In 4 days they complete 7/15, so the fraction left is 1 − 7/15 = 8/15; option D is correct.",
+    "reason": "The work-rate calculation is exact, and the missing fourth option is recoverable as 8/15 from the printed question and answer choices.",
+    "evidence": {
+      "source": "UDC under Social Welfare, June 2018, Paper-II, q82",
+      "method": "Combined work-rate calculation and source option reconstruction"
+    }
+  },
+  "2.UDC Paper-II::q95": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Fraction bars and operators are missing from both the expression and its choices, and the surviving text does not identify a unique calculation.",
+    "evidence": {
+      "source": "UDC under Social Welfare, June 2018, Paper-II, q95",
+      "method": "Checked the extracted expression and duplicate/garbled options"
+    }
+  },
+  "2.UDC Paper-II::q99": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The equation and fraction structure are unreadable in the source extraction, so the answer cannot be established from the surviving text.",
+    "evidence": {
+      "source": "UDC under Social Welfare, June 2018, Paper-II, q99",
+      "method": "No unique parse survives the OCR of the stem or choices"
+    }
+  },
+  "2.UDC under Agriculture Deptt. Paper-II::q68": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Official descriptions list four Mizoram districts for the cited Intensified Mission Indradhanush implementation, but each printed option lists only three; no option is fully correct.",
+    "evidence": {
+      "source": "UDC under Agriculture, March 2018, Paper-II, q68",
+      "method": "Compared the stated district set with all four printed choices"
+    }
+  },
+  "2.UDC under Agriculture Deptt. Paper-II::q82": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The algebraic stem and option (d) have merged with an unrelated mean question in the source extraction; the original equation and valid options cannot be recovered.",
+    "evidence": {
+      "source": "UDC under Agriculture, March 2018, Paper-II, q82",
+      "method": "Compared the staged question block with the surrounding numbered items"
+    }
+  },
+  "2.UDC under Tourism Deptt.-II::q6": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. In the paper's sitting year the UN High Commissioner for Refugees was Filippo Grandi, who is not an option; the printed choices contain only obsolete or malformed names.",
+    "evidence": {
+      "source": "UDC under Tourism, June 2018, Paper-II, q6",
+      "method": "Compared the office-holder at the sitting date with all printed options"
+    }
+  },
+  "2.UDC under Tourism Deptt.-II::q85": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. 25 grams is 2.5% of 1 kilogram, but 2.5% is absent from the printed options; the item is defective as supplied.",
+    "evidence": {
+      "source": "UDC under Tourism, June 2018, Paper-II, q85",
+      "method": "Exact unit conversion: 25/1000 × 100 = 2.5%"
+    }
+  },
+  "2.UDC under Tourism Deptt.-II::q93": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The stem and option (d) contain merged fragments from another expression; the original equation cannot be reconstructed reliably.",
+    "evidence": {
+      "source": "UDC under Tourism, June 2018, Paper-II, q93",
+      "method": "Compared the question block and neighbouring numbered options in the staged extraction"
+    }
+  },
+  "2.UDC under EF&CC Deptt. Paper-II::q41": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The verified state associated with the cited all-major-BCCI-tournaments achievement is Karnataka, but Karnataka is absent from the four printed options.",
+    "evidence": {
+      "source": "UDC under EFCC, 2018, Paper-II, q41",
+      "method": "Compared the verified achievement with all printed choices"
+    }
+  },
+  "2.UDC under EF&CC Deptt. Paper-II::q76": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The fraction bars and operators are scrambled in the source extraction, leaving no recoverable equation for x.",
+    "evidence": {
+      "source": "UDC under EFCC, 2018, Paper-II, q76",
+      "method": "No unique mathematical parse survives the source text"
+    }
+  },
+  "2.UDC under EF&CC Deptt. Paper-II::q100": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. A 60% subsidy means ₹3 is 40% of the open-market price, giving ₹7.50, but none of the three printed options is ₹7.50.",
+    "evidence": {
+      "source": "UDC under EFCC, 2018, Paper-II, q100",
+      "method": "Exact calculation: 3/0.4 = ₹7.50; no printed option matches"
+    }
+  },
   "LDC under MPSC Paper-II 2025.::q95": {
     "confidence": "high",
     "answerIndex": 3,
@@ -156,13 +331,121 @@
     }
   },
   "UDC Combined Paper-I (C) May-2025.::q28": {
-    "answerIndex": 1,
-    "confidence": "low",
-    "explanation": "The actual event is the Lushai Hills District (Change of Name) Act, 1954, which renamed the district. The answer was dropped during alignment because the question text was cleaned upstream (111 derived answers dropped as stale). Restoring with the derived explanation.",
-    "reason": "Derived answer from solve-derived: the actual event is the Lushai Hills District (Change of Name) Act, 1954, which renamed the district. The answer was dropped during alignment because the question text was cleaned upstream (111 derived answers dropped as stale). Restoring with the derived explanation.",
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Reliable historical sources place the official change from Lushai Hills District to Mizo District in 1954, but 1954 is absent from the four printed options. The stored answer 1952 is not defensible.",
     "evidence": {
-      "source": "solve-derived/gk-03.solved.json (blind solve on LDC 2025 Paper-I / UDC Combined Paper-I)",
-      "method": "model blind solve, later dropped by align_answers() due to text normalization mismatch"
+      "source": "UDC Combined Paper-I (C) May-2025, q28",
+      "method": "Compared the historical date with every printed option; none matches 1954"
+    }
+  },
+  "UDC ARC Paper-II::q2": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Zoliana Royte was associated with the Sports & Youth Services Department; option B is correct.",
+    "reason": "Verified against Mizoram government handbook records listing Zoliana Royte as Director of Sports & Youth Services.",
+    "evidence": {
+      "source": "Mizoram Statistical Handbook and Department records",
+      "method": "Matched the officer's department to the four printed options"
+    }
+  },
+  "UDC ARC Paper-II::q15": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Alfred Kemah Jaryan was the Best Player of MPL8; option B is correct.",
+    "reason": "Verified against the contemporary Mizoram sports report and the MPSC source paper.",
+    "evidence": {
+      "source": "Vanglaini report on MPL8 and MPSC UDC ARC Paper-II",
+      "method": "Matched the reported awardee to the four printed options"
+    }
+  },
+  "UDC ARC Paper-II::q30": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Lalsangliana was the Best Male Athlete from Aizawl South-I; option C is correct.",
+    "reason": "Verified from the Mizoram State Games 2019 report.",
+    "evidence": {
+      "source": "Mizoram State Games 2019 report",
+      "method": "Matched the athlete and constituency to the four printed options"
+    }
+  },
+  "UDC ARC Paper-II::q55": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Aizawl East-I won 25 Gold, 18 Silver and 16 Bronze medals; option B is correct.",
+    "reason": "Verified from the Mizoram State Games 2019 medal-tally report.",
+    "evidence": {
+      "source": "Mizoram State Games 2019 report and MPSC source paper",
+      "method": "Read the constituency medal tally against all four options"
+    }
+  },
+  "UDC Direct under Taxation Deptt - Paper-II::q15": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Delhi launched the 'Healthy Body, Healthy Mind' campaign for students confined at home; option B is correct.",
+    "reason": "Verified from contemporary reporting of the Delhi Government campaign.",
+    "evidence": {
+      "source": "Contemporary 2020 campaign reports",
+      "method": "Matched the campaign name and description to the printed options"
+    }
+  },
+  "UDC Direct under Fisheries Deptt - Paper-II::q4": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The February 25, 2021 report recorded over 19,600 first vaccine doses in Mizoram; option B is correct.",
+    "reason": "Verified against contemporary reporting of the Mizoram Health Department statement.",
+    "evidence": {
+      "source": "Contemporary report dated 25 February 2021 and MPSC source paper",
+      "method": "Matched the reported count to the printed options"
+    }
+  },
+  "UDC Direct under Taxation Deptt - Paper-II::q4": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The February 2021 Mizoram COVID report recorded 9 deaths at around 4,413 total cases; option C is correct.",
+    "reason": "Verified against the source paper and contemporaneous Mizoram case-count reporting.",
+    "evidence": {
+      "source": "Mizoram COVID timeline and MPSC Taxation Paper-II, q4",
+      "method": "Matched the case-count date and death total to the printed choices"
+    }
+  },
+  "2.UDC Paper-II::q6": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Contemporary references record 21 Mizos as Padma Shri recipients at the time of the question; option B is correct.",
+    "reason": "Verified against the contemporary Mizo award reference and the MPSC source paper.",
+    "evidence": {
+      "source": "Contemporary Mizoram Padma Shri reference and MPSC Social Welfare Paper-II, q6",
+      "method": "Matched the reported count to the four printed choices"
+    }
+  },
+  "2.UDC Paper-II::q46": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The Central Government released ₹8,698 crore as GST compensation to states; option C is correct.",
+    "reason": "Verified against the GST Council agenda and contemporary current-affairs references.",
+    "evidence": {
+      "source": "GST Council 22nd meeting agenda and 2017 current-affairs references",
+      "method": "Matched the exact compensation amount to the printed choices"
+    }
+  },
+  "2.UDC Paper-II::q61": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Joseph Lalhimpuia was reported as Chairman of the Mizoram Youth Commission; option C is correct.",
+    "reason": "Verified against contemporary Mizoram reporting and the MPSC source paper.",
+    "evidence": {
+      "source": "Contemporary Times of Mizoram report and MPSC Social Welfare Paper-II, q61",
+      "method": "Matched the named chairman to the four printed choices"
+    }
+  },
+  "2.UDC under Tourism Deptt.-II::q5": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "India was the government associated with the 2017 'Less Cash Year' initiative; option C is correct.",
+    "reason": "The contemporary reports describe the Government of India’s post-demonetisation less-cash campaign; the wording is loose but the option is identifiable.",
+    "evidence": {
+      "source": "2017 current-affairs references and MPSC Tourism Paper-II, q5",
+      "method": "Matched the campaign context to the printed choices"
     }
   },
   "UDC Combined Paper-II (B) May-2025.::q54": {
@@ -272,6 +555,62 @@
     "evidence": {
       "source": "Direct_2014-2018/2.Assistant Grade Paper-II.pdf, page 13",
       "method": "Read the six total-vehicle bars and calculate their arithmetic mean."
+    }
+  },
+  "UDC Combined Paper-II (B) May-2025.::q71": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The four pieces assemble into the 2×2 arrangement shown in option (1); the internal diagonal and central diamond edges match without leaving an unmatched boundary.",
+    "reason": "The figure was recovered from the source scan and checked visually against all four printed alternatives. Option (1) is the only complete assembly of the four pieces.",
+    "evidence": {
+      "source": "public/question-images/mpsc-udc-combined-2025-paper-2-q071.png",
+      "method": "Recovered figure inspection and piece-edge matching"
+    }
+  },
+  "Assistant, UDC Paper-I Series A.::q20": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Fehrehkal refers to the period between breakfast and noon, so option C is correct.",
+    "reason": "The answer was checked against the printed MPSC options and an independent solution of the same source question; the other terms refer to different parts of the day.",
+    "evidence": {
+      "source": "Assistant Grade & UDC under MPSC, Paper-I, October 2025, q20",
+      "method": "Mizo time-term reference check and independent answer cross-check"
+    }
+  },
+  "Assistant, UDC Paper-I Series A.::q46": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The source confirms the question and all four options, but the available language references classify multiple listed songs as Dar/Darbu hla and do not establish a unique answer for the wording 'not Dar Hla'. Keeping the previous guess would be misleading.",
+    "evidence": {
+      "source": "Assistant Grade & UDC under MPSC, Paper-I, October 2025, q46",
+      "method": "Compared each printed title with available Mizo folk-song references; classification terminology is inconsistent and no unique option is defensible",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "2.UDC (contract) 2016 Art& Culture Paper-II::q96": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The OCR-damaged stem merges fractions and the HCF expression; reconstructing it from the stored text produces a value that is not among the printed options. No unique arithmetic question can be recovered safely.",
+    "evidence": {
+      "source": "UDC under MPSC Art & Culture Paper-II 2016, q96",
+      "method": "Checked the recovered stem and all four options; fraction bars/operator structure are missing",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "UDC Direct under Fisheries Deptt - Paper-II::q3": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The official scan confirms the four names, but the available AMC records do not establish which candidate was the youngest at the 2021 election. A current councillor list cannot prove the historical age comparison.",
+    "evidence": {
+      "source": "UDC under Fisheries Department Paper-II 2021, q3",
+      "method": "Verified the official question/options and checked AMC records; no reliable age evidence identifies one option",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "2.UDC under EF&CC Deptt. Paper-II::q3": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The official scan confirms the question and options (16, 18, 20, 22), but the source does not provide a key and no reliable contemporary record was found to prove the count. The prior option-C answer was only a guess.",
+    "evidence": {
+      "source": "UDC under Environment, Forest & Climate Change Department Paper-II 2018, q3",
+      "method": "Verified the official MPSC scan and all printed options; historical player-count evidence is insufficient",
+      "answer": "withdrawn (answerIndex -1)"
     }
   }
 }

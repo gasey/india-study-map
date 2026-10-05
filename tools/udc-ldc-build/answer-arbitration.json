@@ -770,5 +770,356 @@
       "method": "Checked standard collocations and found both ‘at’ and ‘by’ valid in this context",
       "answer": "withdrawn (answerIndex -1)"
     }
+  },
+  "2.UDC Excise Deptt. Paper-II::q87": {
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "The missing radical signs do not change the result: √9 × √5 × √5 = 3×5 = 15, and √(9×5×5) also equals 15. Option D is correct.",
+    "reason": "Both natural reconstructions of the damaged radical expression lead to the same printed option.",
+    "evidence": {
+      "source": "2.UDC Excise Deptt. Paper-II, q87",
+      "method": "Checked both plausible radical groupings"
+    }
+  },
+  "2.UDC Excise Deptt. Paper-II::q90": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. If 65 is the union, chess-only is 25, but 25 is not an option; if 65 is only the group size, the number who like chess is not supplied. The printed options cannot support a valid answer.",
+    "evidence": {
+      "source": "2.UDC Excise Deptt. Paper-II, q90",
+      "method": "Applied inclusion-exclusion and compared the result with all printed options",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "UDC Direct under Taxation Deptt - Paper-II::q99": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The outer operator and nested brackets are damaged. Division gives the stored option 15/11, while subtraction gives a different value; the source text does not establish which expression was printed.",
+    "evidence": {
+      "source": "UDC Direct under Taxation Deptt - Paper-II, q99",
+      "method": "Compared the competing reconstructions of the damaged operator/bracket structure",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "UDC Direct under Fisheries Deptt - Paper-II::q81": {
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Reading the displayed fractions gives (16/25)×(x/25)×(16/25)=256/625. Cancelling 256 gives x/15625=1/625, so x=25. Option D is correct.",
+    "reason": "The denominator row and repeated 16/25 factors uniquely determine x despite the flattened layout.",
+    "evidence": {
+      "source": "UDC Direct under Fisheries Deptt - Paper-II, q81",
+      "method": "Reconstructed the aligned fraction equation and solved it"
+    }
+  },
+  "2.UDC Paper-II::q100": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. If Rs.44,000 includes 5% sales tax, the pre-tax price is Rs.44,000/1.05 = Rs.41,904.76, and none of the four options is exact. Choosing the nearest Rs.42,000 is not a valid answer.",
+    "evidence": {
+      "source": "2.UDC Paper-II, q100",
+      "method": "Reversed the stated 5% tax and compared the exact result with all options",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "2.UDC under EF&CC Deptt. Paper-II::q94": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The comparison operators are replaced by unreadable glyphs, and the surviving fraction strings support more than one interpretation. No unique option can be verified.",
+    "evidence": {
+      "source": "2.UDC under EF&CC Deptt. Paper-II, q94",
+      "method": "Checked the recovered fractions and missing comparison symbols",
+      "answer": "withdrawn (answerIndex -1)"
+    }
+  },
+  "UDC ARC Paper-I::q10": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Both ‘at the company’s head office’ and ‘in the company’s head office’ are grammatical; the context does not make one uniquely correct.",
+    "evidence": {"source": "UDC ARC Paper-I, q10", "method": "Compared standard venue prepositions", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC ARC Paper-I::q13": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘She is of a noble family’ and ‘she is from a noble family’ are both standard constructions, so the options are ambiguous.",
+    "evidence": {"source": "UDC ARC Paper-I, q13", "method": "Compared standard descent/family constructions", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC ARC Paper-I::q38": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘Basics’, ‘theory’ and ‘foundations’ can all complete ‘the first lecture on the ___ of flying’; the source supplies no unique collocation.",
+    "evidence": {"source": "UDC ARC Paper-I, q38", "method": "Checked all semantically valid completions", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC ARC Paper-I::q40": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Both ‘beverage’ and ‘drink’ are grammatical and idiomatic in ‘the best ___ in the world’. No unique answer is supported.",
+    "evidence": {"source": "UDC ARC Paper-I, q40", "method": "Compared all valid noun completions", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC ARC Paper-I::q42": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘A world of illusions’ and ‘a world of delusions’ are both meaningful standard phrases; the sentence lacks context to distinguish them.",
+    "evidence": {"source": "UDC ARC Paper-I, q42", "method": "Compared the two semantically valid idiomatic completions", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC ARC Paper-I::q43": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘Odd’ and ‘outmoded’ can both explain refusing to wear a new dress; the intended nuance is not supplied.",
+    "evidence": {"source": "UDC ARC Paper-I, q43", "method": "Compared valid adjective meanings in context", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC ARC Paper-I::q44": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The correct one-word answer is ‘anatomy’, which is absent from the options. Physiology is not a valid substitute for study of body structure.",
+    "evidence": {"source": "UDC ARC Paper-I, q44", "method": "Compared the definition with every printed option", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC ARC Paper-I::q53": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "‘With caution’ is correctly replaced by the adverb ‘cautiously’: ‘The old man looked cautiously before he crossed the busy street.’ Option A is correct.",
+    "reason": "The intended underlined phrase is the adverbial ‘with caution’; option A is the only direct grammatical improvement.",
+    "evidence": {"source": "UDC ARC Paper-I, q53", "method": "Sentence-improvement and adverb substitution check"}
+  },
+  "UDC Direct under Fisheries Deptt - Paper-I::q3": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Both ‘accompanied by subtle analysis’ and ‘accompanied with subtle analysis’ occur in standard usage; the test’s person/thing rule is prescriptive and does not make option B uniquely correct.",
+    "evidence": {"source": "UDC Direct under Fisheries Deptt - Paper-I, q3", "method": "Compared both valid passive collocations", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC Direct under Fisheries Deptt - Paper-I::q5": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The passive construction is ‘be kept in check by the gun’. Option A is correct.",
+    "reason": "‘By’ identifies the force causing the checking; ‘with’ would be an instrument reading but is not the normal collocation here.",
+    "evidence": {"source": "UDC Direct under Fisheries Deptt - Paper-I, q5", "method": "Passive-voice and collocation check"}
+  },
+  "UDC Direct under Fisheries Deptt - Paper-I::q8": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The standard construction is ‘abstemious in one’s habits’. Option B is correct.",
+    "reason": "‘Abstemious in’ is the established preposition pattern for restrained eating or drinking habits.",
+    "evidence": {"source": "UDC Direct under Fisheries Deptt - Paper-I, q8", "method": "Preposition-collocation check"}
+  },
+  "UDC Direct under Fisheries Deptt - Paper-I::q46": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The ideal sentence is ‘Besides being a poet…’, but that option is absent; the printed choices do not provide a grammatically complete unique answer.",
+    "evidence": {"source": "UDC Direct under Fisheries Deptt - Paper-I, q46", "method": "Checked gerund and preposition requirements", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC Direct under Fisheries Deptt - Paper-I::q48": {
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "‘But’ is a preposition meaning ‘except’ here, so the correct sentence is ‘All but her had made an attempt.’ Option D is correct.",
+    "reason": "The sentence requires the objective pronoun without commas.",
+    "evidence": {"source": "UDC Direct under Fisheries Deptt - Paper-I, q48", "method": "Pronoun-case and punctuation check"}
+  },
+  "UDC Direct under Fisheries Deptt - Paper-I::q66": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Both ‘What could we have done without your help?’ and ‘Could we have done anything without your help?’ preserve the interrogative meaning, so the options are not unique.",
+    "evidence": {"source": "UDC Direct under Fisheries Deptt - Paper-I, q66", "method": "Compared equivalent interrogative transformations", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "1.UDC Excise Deptt. Paper-I::q14": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "‘As dreams are made of’ modifies the noun ‘stuff’, so it is an adjective (relative) clause. Option C is correct.",
+    "reason": "The clause qualifies the preceding noun in the quotation.",
+    "evidence": {"source": "1.UDC Excise Deptt. Paper-I, q14", "method": "Clause-function analysis"}
+  },
+  "1.UDC Excise Deptt. Paper-I::q61": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. None of the four options gives the idiomatic meaning of ‘devil’s advocate’ (a person who argues a contrary position to test an argument). The literal option A is not an acceptable definition.",
+    "evidence": {"source": "1.UDC Excise Deptt. Paper-I, q61", "method": "Compared idiom meaning with all printed definitions", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "1.UDC under Agriculture Deptt. Paper-I::q27": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘Will’ can express future prediction, habitual expectation or inference, but the options omit those categories and do not establish ‘deduction’ uniquely.",
+    "evidence": {"source": "1.UDC under Agriculture Deptt. Paper-I, q27", "method": "Compared the modal meaning with all printed labels", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "1.UDC under Agriculture Deptt. Paper-I::q35": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘Waiting upon’ and ‘waiting on’ both mean attending to a patient. The options do not distinguish them.",
+    "evidence": {"source": "1.UDC under Agriculture Deptt. Paper-I, q35", "method": "Compared both standard phrasal-verb usages", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "LDC under MPSC Paper-I 2025.::q9": {
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Blue Revolution = fish production and Black Revolution = petroleum production. Grey Revolution concerns fertilizers and Pink Revolution concerns onion/prawn production, so only pairs 1 and 4 are correct: option D.",
+    "reason": "The flattened table can be realigned unambiguously by the four known revolution definitions.",
+    "evidence": {"source": "LDC under MPSC Paper-I 2025, q9", "method": "Matched each named revolution with its standard field"}
+  },
+  "LDC under MPSC Paper-I 2025.::q25": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The unqualified rate at which the central bank lends directly to commercial banks is the bank rate. Repo rate specifically refers to short-term repurchase transactions against securities. Option B is correct.",
+    "reason": "The stem does not mention repurchase of securities or a short-term repo transaction; the standard exam distinction makes bank rate the intended answer.",
+    "evidence": {"source": "LDC under MPSC Paper-I 2025, q25", "method": "Central-bank rate definition check"}
+  },
+  "UDC Combined Paper-I (C) May-2025.::q35": {
+    "question": "What is the rank of India in the Henley Passport Index 2025?",
+    "options": ["81", "83", "85", "94"],
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "India was ranked 85th in the 2025 Henley Passport Index. Option C is correct.",
+    "reason": "The third option was corrupted in extraction (‘gst’); the source-era 2025 ranking is 85th.",
+    "evidence": {"source": "UDC Combined Paper-I (C) May-2025, q35", "method": "Repaired the corrupted option and checked the 2025 Henley ranking"}
+  },
+  "Assistant, UDC Paper-I Series A.::q45": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Mizoram has 23 notified towns. Option C is correct.",
+    "reason": "The official Mizoram statistical and land-revenue records list 23 notified towns.",
+    "evidence": {"source": "Assistant, UDC Paper-I Series A, q45", "method": "Checked official Mizoram town lists"}
+  },
+  "2.UDC (contract) 2016 Art& Culture Paper-II::q2": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "PRISM decided to form a Shadow Cabinet to monitor development works in Mizoram. Option C is correct.",
+    "reason": "The contemporary report identifies PRISM’s Political Affairs Committee as the organization taking this decision.",
+    "evidence": {"source": "2.UDC (contract) 2016 Art& Culture Paper-II, q2", "method": "Matched the contemporary report to the printed options"}
+  },
+  "2.UDC (contract) 2016 Art& Culture Paper-II::q4": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Prof. Lianzela was the Vice-Chancellor of Mizoram University at the time of the 2016 paper. Option A is correct.",
+    "reason": "This is a dated ‘present’ question; the answer is evaluated as of the sitting, not against the current office-holder.",
+    "evidence": {"source": "2.UDC (contract) 2016 Art& Culture Paper-II, q4", "method": "Matched the office-holder to the paper’s 2016 date"}
+  },
+  "2.UDC under SAD Paper-II::q66": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The first water ATM was inaugurated in Hyderabad, Telangana. Option C is correct.",
+    "reason": "The option ‘Telengana’ is the state name intended by the source; Mumbai is a city, not a state.",
+    "evidence": {"source": "2.UDC under SAD Paper-II, q66", "method": "Checked the reported Hyderabad/Telangana water-ATM inauguration"}
+  },
+  "2.UDC Excise Deptt. Paper-II::q61": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Kisama Heritage Village was declared a Plastic Free Zone during the 2017 Hornbill Festival. Option C is correct.",
+    "reason": "The contemporary festival announcement identifies the Hornbill Festival and Kisama location.",
+    "evidence": {"source": "2.UDC Excise Deptt. Paper-II, q61", "method": "Checked the 2017 festival announcement against all options"}
+  },
+  "2.UDC Excise Deptt. Paper-II::q70": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The standard expansion is ‘Strategic Arms Reduction Treaty’, but none of the four options contains that complete phrase; option C adds the incorrect word ‘Station’.",
+    "evidence": {"source": "2.UDC Excise Deptt. Paper-II, q70", "method": "Compared the standard acronym expansion with every printed option", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC Combined Paper-II (B) May-2025.::q93": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The calendar clue spells JASON from the month initials, but no suspect named Jason appears; the surviving stem does not explain how that clue identifies Sona.",
+    "evidence": {"source": "UDC Combined Paper-II (B) May-2025, q93", "method": "Checked the month-initial clue against every suspect", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "LDC Paper-II under Law _ Judicial Deptt..::q29": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. PowerPoint’s duplicate-slide shortcut is Ctrl+D, which is absent from the four printed options. Ctrl+M inserts a new slide and is not the requested operation.",
+    "evidence": {"source": "LDC Paper-II under Law & Judicial Deptt., q29", "method": "Checked the standard PowerPoint shortcut against all options", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "2.UDC under SAD Paper-II::q45": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The wording ‘India and China’ plus a third country does not identify a specific documented trilateral cyberspace-security agreement, and the source provides no date or agreement name.",
+    "evidence": {"source": "2.UDC under SAD Paper-II, q45", "method": "Checked the official question and attempted contemporary agreement verification", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "2.UDC under SAD Paper-II::q53": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. No reliable source identifies the person or sport represented by ‘Tlangsiama’ among the four options. The former football answer was a guess.",
+    "evidence": {"source": "2.UDC under SAD Paper-II, q53", "method": "Verified the source/options but found no reliable identity-to-sport match", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "2.UDC under SAD Paper-II::q61": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Preeti Shenoy was honoured with the Indian of the Year Award in June 2017. Option A is correct.",
+    "reason": "A contemporary awards report identifies Preeti Shenoy as the June 2017 recipient; the previous Narendra Modi answer was an unsupported elimination.",
+    "evidence": {"source": "2.UDC under SAD Paper-II, q61", "method": "Checked the contemporary awards report against all four names"}
+  },
+  "2.UDC Excise Deptt. Paper-II::q38": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘Gateway to the East’ is used for multiple cities in different GK sources, and the source gives no unique convention among these options.",
+    "evidence": {"source": "2.UDC Excise Deptt. Paper-II, q38", "method": "Compared competing historical city epithets", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "2.UDC Excise Deptt. Paper-II::q71": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘Fourway of National Highway’ is not a standard, uniquely attributable city epithet, and the source gives no highway numbers or location clue.",
+    "evidence": {"source": "2.UDC Excise Deptt. Paper-II, q71", "method": "Checked the wording and candidate city/highway claims", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "UDC ARC Paper-II::q45": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "‘Aizawlah Aizawler’ was written by Lalhruaitluanga Chawngte, not Lalhruaitluanga Ralte. Option B is the mismatched pair.",
+    "reason": "The author-name mismatch is specific and distinguishes option B from the other listed pairings.",
+    "evidence": {"source": "UDC ARC Paper-II, q45", "method": "Checked the book-author attribution against the printed name"}
+  },
+  "UDC ARC Paper-II::q54": {
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Elisian Medai is associated with athletics. Option D is correct.",
+    "reason": "The athlete is documented in track-and-field events; the other options are unrelated sports.",
+    "evidence": {"source": "UDC ARC Paper-II, q54", "method": "Matched the athlete’s documented events to the options"}
+  },
+  "UDC Direct under Taxation Deptt - Paper-II::q2": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The service/tertiary sector contributed 56.04 per cent. Option C is correct.",
+    "reason": "The official MPSC source prints 56.04 per cent as option C, matching the economic-survey figure.",
+    "evidence": {"source": "UDC Direct under Taxation Deptt - Paper-II, q2", "method": "Checked the official paper and Economic Survey figure"}
+  },
+  "UDC Direct under Taxation Deptt - Paper-II::q22": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The Malabar Naval Exercise is conducted by India, the United States and Japan. Option B is correct.",
+    "reason": "Japan was the standing third participant in the March 2021 context; Australia’s 2020 participation is a distractor.",
+    "evidence": {"source": "UDC Direct under Taxation Deptt - Paper-II, q22", "method": "Checked the exercise’s 2021 participating countries"}
+  },
+  "UDC Direct under Fisheries Deptt - Paper-II::q17": {
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Arunachal Pradesh dedicated 2021 as the Year of Education with a planned ₹1,000 crore investment. Option B is correct.",
+    "reason": "The contemporary government and news reports state both the year designation and investment amount.",
+    "evidence": {"source": "UDC Direct under Fisheries Deptt - Paper-II, q17", "method": "Matched the 2021 Arunachal Pradesh announcement"}
+  },
+  "1.UDC Excise Deptt. Paper-I::q22": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "‘Listen carefully and take notes’ has one implied subject and a compound predicate, so it is a simple sentence. Option A is correct.",
+    "reason": "The two coordinated imperative verbs share the implied subject ‘you’; no second independent clause is present.",
+    "evidence": {"source": "1.UDC Excise Deptt. Paper-I, q22", "method": "Simple/compound sentence classification by subject-clause structure"}
+  },
+  "2.UDC under Agriculture Deptt. Paper-II::q3": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The exact 17–21 December 2017 event cannot be identified reliably from the source wording; Bir-Billing’s general reputation is not proof of this specific contest.",
+    "evidence": {"source": "2.UDC under Agriculture Deptt. Paper-II, q3", "method": "Checked the event date/title and found no unique source match", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "2.UDC under Agriculture Deptt. Paper-II::q60": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "MUP is the mismatched expansion among the four organization names. Option C is correct.",
+    "reason": "The source’s acronym convention and the other three full forms identify option C as the intended wrong combination.",
+    "evidence": {"source": "2.UDC under Agriculture Deptt. Paper-II, q60", "method": "Checked the organization names and acronym expansions"}
+  },
+  "2.UDC under Agriculture Deptt. Paper-II::q69": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. ‘Driven’ is associated with Virat Kohli as its subject, but it was written by Vijay Lokapally, who is not an option. The question asks for the author, so no option is correct.",
+    "evidence": {"source": "2.UDC under Agriculture Deptt. Paper-II, q69", "method": "Distinguished the book’s subject from its actual author", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "2.UDC under Agriculture Deptt. Paper-II::q74": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. The first practical printing press is generally associated with Johannes Gutenberg, who is absent from the options. David Gestetner was a later duplicator inventor, not the first printer.",
+    "evidence": {"source": "2.UDC under Agriculture Deptt. Paper-II, q74", "method": "Compared the historical answer with all four options", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "2.UDC under Tourism Deptt.-II::q10": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. This duplicates the damaged Global Paragliding Contest question; the exact event cannot be uniquely identified from the surviving wording.",
+    "evidence": {"source": "2.UDC under Tourism Deptt.-II, q10", "method": "Compared the duplicate question with the unrecoverable event details", "answer": "withdrawn (answerIndex -1)"}
+  },
+  "2.UDC under Tourism Deptt.-II::q34": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Assam launched its first public air-ambulance service in 2017. Option A is correct.",
+    "reason": "The contemporary 2017 report identifies Assam and Guwahati as the launch location.",
+    "evidence": {"source": "2.UDC under Tourism Deptt.-II, q34", "method": "Checked the contemporary Assam air-ambulance report"}
+  },
+  "2.UDC Direct-2014 Health Deptt.& Co-operation Dept.Paper-II::q32": {
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Vanramchhuangi is credited as the author of ‘Mitthi Privatise’. Option C is correct.",
+    "reason": "The bibliographic record matches the title to Vanramchhuangi.",
+    "evidence": {"source": "2.UDC Direct-2014 Health Deptt.& Co-operation Dept.Paper-II, q32", "method": "Checked the title-author bibliographic record"}
+  },
+  "2.UDC under EF&CC Deptt. Paper-II::q10": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Bihar was the state reported to have introduced a transgender category in board-examination registration. Option A is correct.",
+    "reason": "The contemporary education-board report identifies Bihar as the first state board to add the category.",
+    "evidence": {"source": "2.UDC under EF&CC Deptt. Paper-II, q10", "method": "Checked the contemporary board-examination report"}
+  },
+  "2.UDC under SAD Paper-II::q59": {
+    "answerIndex": null,
+    "reason": "WITHDRAWN. Richard Trevithick built the first steam locomotive, while George Stephenson is commonly credited with the practical railway locomotive. The wording ‘inventor of railway engines’ does not distinguish the two printed names.",
+    "evidence": {"source": "2.UDC under SAD Paper-II, q59", "method": "Checked both historically defensible attributions", "answer": "withdrawn (answerIndex -1)"}
   }
 }

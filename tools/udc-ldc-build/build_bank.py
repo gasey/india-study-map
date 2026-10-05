@@ -675,6 +675,13 @@ GK_KIND = os.path.join(BANK_REPO, "state", "gk-kind", "_resolved.json")
 # round. See the file's _README for why this exists rather than a reordering.
 ARBITRATION = os.path.join(HERE, "answer-arbitration.json")
 
+# Current-affairs questions retain the answer expected at the original sitting,
+# but their explanations also need a visible freshness boundary. Update this
+# deliberately when the bank is reviewed; do not silently rewrite the exam-era
+# answer or pretend that every historical office-holder, award, or ranking is
+# still current.
+CURRENT_AFFAIRS_REVIEW_DATE = "5 October 2026"
+
 # Figures recovered from source scans, keyed by bank question id. Lives with the
 # build rather than in the generated .ts because the .ts is overwritten on every
 # run -- see the file's own _README for the recovery that was lost that way.
@@ -1485,6 +1492,15 @@ def main():
                     rec["gkKind"] = "current"
                     # The date comes from PAPERS above, not a second copy of it.
                     rec["answerAsOf"] = "%s %d" % (month, year)
+                    if rec.get("explanation") and rec["answerIndex"] >= 0:
+                        rec["explanation"] += (
+                            " Current-status note (reviewed %s): this preserves the "
+                            "answer expected at the original exam sitting; the "
+                            "office-holder, award, ranking, scheme, or figure may "
+                            "have changed since then, so verify the latest status "
+                            "before treating it as current."
+                            % CURRENT_AFFAIRS_REVIEW_DATE
+                        )
                     stats["gk_current"] += 1
                 elif t:
                     rec["gkKind"] = "static"

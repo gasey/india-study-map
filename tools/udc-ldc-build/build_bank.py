@@ -522,6 +522,18 @@ def generated_explanation(section, question, options, answer_index):
         else:
             method = "Apply the relationship stated in the question and eliminate options that do not satisfy it."
         return "Correct answer: %s. %s" % (answer, method)
+    if section == "english":
+        if any(w in q for w in ("synonym", "meaning", "idiom", "phrase", "antonym")):
+            method = "The keyed option gives the required meaning or the closest synonym/antonym in context."
+        elif any(w in q for w in ("preposition", "article", "verb", "tense", "blank", "complete")):
+            method = "Choose the form that makes the sentence grammatically correct and preserves its intended meaning."
+        elif any(w in q for w in ("voice", "speech", "narration", "sentence")):
+            method = "Apply the requested transformation while preserving the tense, meaning, subject, and object."
+        elif any(w in q for w in ("clause", "parts of speech", "part of speech")):
+            method = "Classify the marked word or clause by its grammatical function in this sentence."
+        else:
+            method = "The keyed option is the grammatically correct choice for the sentence and context."
+        return "Correct answer: %s. %s" % (answer, method)
     if section == "gk" :
         return "Correct answer: %s. This is the established static fact tested by the question; the other options do not match it." % answer
     return "Correct answer: %s." % answer
@@ -1434,7 +1446,7 @@ def main():
             # durable subjects. Current-affairs GK and unclassified GK are
             # intentionally excluded; a generic explanation there could make
             # a time-sensitive or uncertain fact look authoritative.
-            explainable = sec in ("arithmetic", "reasoning")
+            explainable = sec in ("arithmetic", "reasoning", "english")
             if sec == "gk":
                 explainable = bool(gk_kind.get((name, q["qnum"]), {}).get("kind") == "static")
             if explainable and not rec.get("explanation") and rec["answerIndex"] >= 0:

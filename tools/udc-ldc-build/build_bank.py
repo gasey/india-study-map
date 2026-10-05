@@ -1257,8 +1257,8 @@ def main():
                 "id": qid, "subject": bsubj, "topic": topic, "topicLabel": label,
                 "difficulty": "medium", "type": "mcq",
                 "direction": (
-                    q.get("direction")
-                    or MISSING_DIRECTIONS.get((slug, q["qnum"]), "")
+                    MISSING_DIRECTIONS.get((slug, q["qnum"]), "")
+                    or q.get("direction")
                     or MISSING_ENGLISH_DIRECTIONS.get((slug, q["qnum"]), "")
                 ),
                 "question": q["stem"], "options": opts,

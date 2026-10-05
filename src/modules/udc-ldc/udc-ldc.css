@@ -76,6 +76,39 @@ html.dark .udc-ldc-page {
 .udc-option-label { font-weight: 600; }
 .udc-question-number { font-weight: 750; color: var(--udc-primary); opacity: 1 !important; }
 
+/* Quantitative stems need a visual reading mode: operators, fractions, units,
+   and long expressions are easier to scan when they are set apart from prose.
+   Reasoning stays lighter, but gets the same controlled wrapping for matrices,
+   sequences, and multi-condition prompts. */
+.udc-math-stem {
+  padding: 10px 12px;
+  border-left: 3px solid var(--udc-gold);
+  border-radius: 5px;
+  background: color-mix(in srgb, var(--udc-gold) 8%, var(--bg-panel, #fff));
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.04em;
+  letter-spacing: .01em;
+}
+.udc-math-option {
+  display: block;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+  letter-spacing: .01em;
+  overflow-wrap: anywhere;
+}
+.udc-reasoning-stem {
+  padding: 8px 11px;
+  border-left: 3px solid var(--udc-primary);
+  border-radius: 5px;
+  background: color-mix(in srgb, var(--udc-primary) 5%, var(--bg-panel, #fff));
+}
+.udc-reasoning-option {
+  display: block;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
 /* Review controls stay collapsed until the learner explicitly opens the
    question discussion trigger. */
 .udc-review-compact { padding-top: 6px; margin-top: 10px !important; }

@@ -156,7 +156,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
             {q.direction}
           </div>
         )}
-        <div className="udc-question-stem" style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
+        <div className={`udc-question-stem ${q.topic === 'simple_arithmetic' ? 'udc-math-stem' : q.subject === 'reasoning' ? 'udc-reasoning-stem' : ''}`} style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
         <QuestionImage path={q.imagePath} />
 
         <div style={{ display: 'grid', gap: 8 }}>
@@ -209,7 +209,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 >
                   {optionLetter(idx)}
                 </span>
-                <span className="udc-option-label" style={{ paddingTop: 2 }}><QuestionText text={o} plain={q.topic === 'simple_arithmetic'} /></span>
+                <span className={`udc-option-label ${q.topic === 'simple_arithmetic' ? 'udc-math-option' : q.subject === 'reasoning' ? 'udc-reasoning-option' : ''}`} style={{ paddingTop: 2 }}><QuestionText text={o} plain={q.topic === 'simple_arithmetic'} /></span>
               </button>
             );
           })}

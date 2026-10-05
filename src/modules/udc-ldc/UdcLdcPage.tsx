@@ -717,7 +717,7 @@ function BrowseView({
                             {q.direction}
                           </div>
                         )}
-                        <div className="udc-question-stem" style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
+                        <div className={`udc-question-stem ${q.topic === 'simple_arithmetic' ? 'udc-math-stem' : q.subject === 'reasoning' ? 'udc-reasoning-stem' : ''}`} style={{ marginBottom: 6, lineHeight: 1.55, overflowWrap: 'anywhere' }}><QuestionText text={q.question} plain={q.topic === 'simple_arithmetic'} /></div>
                         <QuestionImage path={q.imagePath} />
                         {q.figureBased && !q.imagePath && (
                           <div style={{
@@ -779,7 +779,7 @@ function BrowseView({
                                     }}>
                                       {optionLetter(oi)}
                                     </span>
-                                    <span className="udc-option-label"><QuestionText text={o} plain={q.topic === 'simple_arithmetic'} /></span>
+                                    <span className={`udc-option-label ${q.topic === 'simple_arithmetic' ? 'udc-math-option' : q.subject === 'reasoning' ? 'udc-reasoning-option' : ''}`}><QuestionText text={o} plain={q.topic === 'simple_arithmetic'} /></span>
                                   </button>
                                 );
                               })}

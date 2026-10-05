@@ -194,5 +194,15 @@
       "source": "solve-derived/reasoning-01.solved.json (blind solve on Combined 2025 Paper-II)",
       "method": "model blind solve, dropped by align_answers() due to text normalization mismatch"
     }
+  },
+  "LDC under MPSC Paper-I 2025.::q60": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "In the inverted conditional construction 'Were he to ...', use the base form of the verb: 'Were he to accept the offer'. Option A is correct.",
+    "reason": "Verified against the printed question and options in the source paper; the grammatical form after 'were ... to' is the bare infinitive.",
+    "evidence": {
+      "source": "pdfs/Old_Questions/Direct_NG_2024-2027/LDC under MPSC Paper-I 2025..pdf, q60",
+      "method": "Source OCR and grammar check against all four printed options"
+    }
   }
 }

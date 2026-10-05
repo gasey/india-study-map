@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { getBank } from '@/data/banks/index';
 import { mpscUdcLdcNegativeMarking } from '@/data/banks/mpsc-udc-ldc';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
@@ -501,7 +501,15 @@ function BrowseView({
   // When not flat, whether all papers are expanded. Toggled by "Expand all"
   // button. Defaults to first paper open only.
   const [allOpen, setAllOpen] = useState(false);
-
+  // Expanding a paper inserts a large block of questions into the scroll
+  // panel. Browsers can choose a new scroll anchor after that reflow (often
+  // the last question), which makes a click near the top appear to jump to
+  // the bottom. Capture and restore the panel position around the toggle.
+  const pendingScroll = useRef<{ element: HTMLElement; top: number } | null>(null);
+  const rememberScroll = (button: HTMLButtonElement) => {
+    const panel = button.closest<HTMLElement>('.scroll-panel');
+    if (panel) pendingScroll.current = { element: panel, top: panel.scrollTop };
+  };
   const visible = useMemo(() => {
     const currentById = new Map(questions.map((q) => [q.id, q]));
     const grouped = rows
@@ -546,6 +554,13 @@ function BrowseView({
   }, [rows, questions, keep, shuffle, seed, flat]);
 
   const [open, setOpen] = useState<string | null>(null);
+  useLayoutEffect(() => {
+    const saved = pendingScroll.current;
+    if (!saved) return;
+    pendingScroll.current = null;
+    saved.element.scrollTop = saved.top;
+    requestAnimationFrame(() => { saved.element.scrollTop = saved.top; });
+  }, [open, allOpen]);
   const openId = allOpen
     ? '__all__'
     : open ?? (flat ? '__flat__' : visible[0]?.paper.id ?? null);
@@ -571,7 +586,10 @@ function BrowseView({
         {!flat && visible.length > 1 && (
           <button
             type="button"
-            onClick={() => setAllOpen((v) => !v)}
+            onClick={(event) => {
+              rememberScroll(event.currentTarget);
+              setAllOpen((v) => !v);
+            }}
             style={{ ...toolBtn, ...(allOpen ? toolBtnOn : null) }}
           >
             {allOpen ? 'Collapse all papers' : 'Expand all papers'}
@@ -623,8 +641,12 @@ function BrowseView({
             key={r.paper.id}
             style={{ border: '1px solid var(--border, #dcdce3)', borderRadius: 10 }}
           >
-            <button
-              onClick={() => flat ? undefined : setOpen(isOpen ? '' : r.paper.id)}
+          <button
+            onClick={(event) => {
+              if (flat) return;
+              rememberScroll(event.currentTarget);
+              setOpen(isOpen ? '' : r.paper.id);
+            }}
               style={{
                 width: '100%', textAlign: 'left', padding: '13px 14px', cursor: flat ? 'default' : 'pointer',
                 background: isOpen ? 'color-mix(in srgb, var(--info, #3b7dd8) 9%, transparent)' : 'transparent',

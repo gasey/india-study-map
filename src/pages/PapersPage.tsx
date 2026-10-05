@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { usePapersTree } from '@/modules/mpsc/usePapersTree';
 import * as api from '@/lib/mpscApi';
@@ -118,6 +118,16 @@ export default function PapersPage() {
   const examTypes = useMemo(() => tree?.examTypes ?? [], [tree]);
 
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
+  const examTreeScroll = useRef<HTMLElement | null>(null);
+  const pendingExamTreeScroll = useRef<number | null>(null);
+  useLayoutEffect(() => {
+    const top = pendingExamTreeScroll.current;
+    const element = examTreeScroll.current;
+    if (top === null || !element) return;
+    pendingExamTreeScroll.current = null;
+    element.scrollTop = top;
+    requestAnimationFrame(() => { element.scrollTop = top; });
+  }, [expanded]);
   // Selection is a year within an exam type — the mockup's tree selects a year
   // node and the main pane shows every sitting held that year.
   const [selected, setSelected] = useState<{ examType: string; year: number | null } | null>(null);
@@ -150,13 +160,15 @@ export default function PapersPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [examTypes.length]);
 
-  const toggle = (examType: string) =>
+  const toggle = (examType: string) => {
+    if (examTreeScroll.current) pendingExamTreeScroll.current = examTreeScroll.current.scrollTop;
     setExpanded((prev) => {
       const next = new Set(prev);
       if (next.has(examType)) next.delete(examType);
       else next.add(examType);
       return next;
     });
+  };
 
   const selectedExamType = selected ? examTypes.find((e) => e.examType === selected.examType) ?? null : null;
   const selectedYear = selectedExamType && selected
@@ -215,6 +227,7 @@ export default function PapersPage() {
   return (
     <div className="h-full flex overflow-hidden">
       <aside
+        ref={examTreeScroll}
         className="w-[250px] shrink-0 overflow-y-auto scroll-panel px-4 py-[18px]"
         style={{ borderRight: '1px solid var(--border)', background: 'var(--bg-panel)' }}
       >

@@ -1018,9 +1018,11 @@
     "evidence": {"source": "2.UDC under SAD Paper-II, q61", "method": "Checked the contemporary awards report against all four names"}
   },
   "2.UDC Excise Deptt. Paper-II::q38": {
-    "answerIndex": null,
-    "reason": "WITHDRAWN. ‘Gateway to the East’ is used for multiple cities in different GK sources, and the source gives no unique convention among these options.",
-    "evidence": {"source": "2.UDC Excise Deptt. Paper-II, q38", "method": "Compared competing historical city epithets", "answer": "withdrawn (answerIndex -1)"}
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Beirut is the conventional general-knowledge answer for the title ‘Gateway to the East’ among the printed options. Option C is correct.",
+    "reason": "The epithet is used inconsistently in broad reference material, but Beirut is the intended answer in this option set; Bangkok is more commonly called the ‘Venice of the East’, while Cairo is associated with the gateway to Africa.",
+    "evidence": {"source": "2.UDC Excise Deptt. Paper-II, q38", "method": "Compared the conventional epithet with all four printed city options"}
   },
   "2.UDC Excise Deptt. Paper-II::q71": {
     "answerIndex": null,
@@ -1087,9 +1089,11 @@
     "evidence": {"source": "2.UDC under Agriculture Deptt. Paper-II, q69", "method": "Distinguished the book’s subject from its actual author", "answer": "withdrawn (answerIndex -1)"}
   },
   "2.UDC under Agriculture Deptt. Paper-II::q74": {
-    "answerIndex": null,
-    "reason": "WITHDRAWN. The first practical printing press is generally associated with Johannes Gutenberg, who is absent from the options. David Gestetner was a later duplicator inventor, not the first printer.",
-    "evidence": {"source": "2.UDC under Agriculture Deptt. Paper-II, q74", "method": "Compared the historical answer with all four options", "answer": "withdrawn (answerIndex -1)"}
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Johannes Gutenberg is generally credited with inventing the first practical printing press, but he is absent from the options. Therefore, ‘None of the above’ is correct. Option D is correct.",
+    "reason": "The printed alternatives name later inventors or a company; the explicit ‘None of the above’ option makes the item answerable despite the missing Gutenberg option.",
+    "evidence": {"source": "2.UDC under Agriculture Deptt. Paper-II, q74", "method": "Compared the standard historical attribution with every printed option"}
   },
   "2.UDC under Tourism Deptt.-II::q10": {
     "answerIndex": null,

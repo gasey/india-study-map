@@ -421,9 +421,18 @@ ENGLISH_TEXT_FIXES = {
         "question": "The committee’s appeal to the people for money ___ little response.",
     },
     # LDC 2025 Paper-I: blanks were omitted from the printed-sentence OCR.
-    ("mpsc-ldc-2025-paper-1", 51): {"question": "The guests are sitting each ___ an arm-chair."},
-    ("mpsc-ldc-2025-paper-1", 52): {"question": "Always live ___ your means."},
-    ("mpsc-ldc-2025-paper-1", 53): {"question": "The crowd left the ground ___."},
+    ("mpsc-ldc-2025-paper-1", 51): {
+        "question": "The guests are sitting each ___ an arm-chair.",
+        "options": ["up", "into", "in", "above"],
+    },
+    ("mpsc-ldc-2025-paper-1", 52): {
+        "question": "Always live ___ your means.",
+        "options": ["by", "within", "of", "in"],
+    },
+    ("mpsc-ldc-2025-paper-1", 53): {
+        "question": "The crowd left the ground ___ .",
+        "options": ["one by one", "one after one", "one after another", "one-on-one"],
+    },
     ("mpsc-ldc-2025-paper-1", 54): {"question": "Are you confident ___ a scholarship?"},
     ("mpsc-ldc-2025-paper-1", 55): {"question": "He is insisting ___ having this book."},
     ("mpsc-ldc-2025-paper-1", 58): {"question": "She studies hard, lest she ___."},

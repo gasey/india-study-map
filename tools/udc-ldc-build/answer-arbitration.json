@@ -195,6 +195,16 @@
       "method": "model blind solve, dropped by align_answers() due to text normalization mismatch"
     }
   },
+  "LDC under MPSC Paper-I 2025.::q54": {
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The standard construction is 'confident of getting a scholarship'. The preposition 'of' is followed by the gerund 'getting', so option A is correct.",
+    "reason": "Verified against the printed sentence and options in the source paper; 'confident of + gerund' is the required construction.",
+    "evidence": {
+      "source": "pdfs/Old_Questions/Direct_NG_2024-2027/LDC under MPSC Paper-I 2025..pdf, q54",
+      "method": "Source options and standard English usage check"
+    }
+  },
   "LDC under MPSC Paper-I 2025.::q60": {
     "answerIndex": 0,
     "confidence": "high",

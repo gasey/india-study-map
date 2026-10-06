@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/((?!assets/|codex/|labs/|maps/|favicon).*)", "destination": "/index.html" }
+    { "source": "/((?!assets/|codex/|labs/|maps/|history/data/|history/media/|favicon).*)", "destination": "/index.html" }
   ]
 }

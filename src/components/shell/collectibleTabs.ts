@@ -68,12 +68,13 @@ export const COLLECTIBLE_TABS: CollectibleTab[] = [
     subTabs: [
       { label: 'Map', to: '/map' },
       { label: 'Chronicle', to: '/timeline' },
+      { label: 'History', to: '/history' },
       // Mind Maps has to be a real sub-tab, not just a `match`: dropping the
       // mobile More sheet and the per-page ModuleSwitcher left this route
       // with no navigation to it at all except a typed URL.
       { label: 'Mind Maps', to: '/mindmaps' },
     ],
-    match: ['/map', '/timeline', '/mindmaps'],
+    match: ['/map', '/timeline', '/history', '/mindmaps'],
   },
   {
     id: 'guides',

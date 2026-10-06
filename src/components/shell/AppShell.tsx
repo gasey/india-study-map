@@ -23,6 +23,7 @@ const HEADER_BY_PATH: Record<string, { kicker?: string; title: string }> = {
   '/papers': { title: 'Papers' },
   '/map': { title: 'Study Map' },
   '/timeline': { title: 'Chronicle' },
+  '/history': { title: 'History Learning Atlas' },
   '/recall': { title: 'Recall' },
   '/library': { title: 'Library' },
   '/current-affairs': { title: 'Current Affairs' },

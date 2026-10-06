@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "history:build": "node tools/history-build/build.mjs && node tools/history-build/validate.mjs",
+    "history:check": "node tools/history-build/validate.mjs && node tools/history-build/test.mjs && node tools/history-build/render-test.mjs",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",

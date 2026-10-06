@@ -9,6 +9,31 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-07 — History Learning Atlas, local implementation
+
+**What was built.** A new lazy-loaded `/history` module with an era learning
+path, connected mind map, source reading, MCQ practice, mains writing and
+coverage/provenance views. Nine supplied PPTX presentations contribute 1,100
+indexed slides, 63 starter topics plus nine explicit gaps, 89 derived practice
+MCQs and 47 transcribed mains prompts. Reading, quiz statistics, notes, flags
+and drafts are browser-local, profile-scoped and exportable. Navigation is
+integrated into Home and both shell variants. No production deployment.
+
+**Why.** The user wants to cover history systematically from their teaching
+material and continue improving the module with other models. Curated content
+inputs are separate from generated extraction/runtime JSON; source ranges,
+stable IDs, question revisions, gap status and a correction ledger keep later
+changes traceable. MCQs are labelled derived; mains prompts are not presented
+as independently verified official-paper records.
+
+**Validation and open work.** Production build, full slide/prompt integrity,
+review/progress logic and server-render checks pass. Browser interaction/layout
+QA is blocked by this session's port/process restrictions. The existing main
+project is outside writable roots, so implementation is in the workspace clone
+with an integration patch. See `HISTORY-HANDOFF.md` for applying it and browser
+checks, and `tools/history-build/README.md` for authoring rules. Broader syllabus
+audit, full factual review, gap lessons and a richer MCQ bank remain open.
+
 ## 2026-10-03 (5) — GK questions are now sub-topiced, and the rail can drill one
 
 **What shipped.** Every one of the bank's 1,500 General Knowledge

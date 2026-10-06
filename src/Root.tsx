@@ -27,6 +27,7 @@ const PyqPage = lazy(() => import('./modules/pyq/PyqPage'));
 const FlashcardsPage = lazy(() => import('./modules/flashcards/FlashcardsPage'));
 const MindMapsPage = lazy(() => import('./modules/mindmaps/MindMapsPage'));
 const ChroniclePage = lazy(() => import('./modules/chronicle/ChroniclePage'));
+const HistoryPage = lazy(() => import('./modules/history/HistoryPage'));
 const CurrentAffairsPage = lazy(() => import('./modules/current-affairs/CurrentAffairsPage'));
 const QuizPlayerPage = lazy(() => import('./modules/current-affairs/QuizPlayerPage'));
 const ArenaPage = lazy(() => import('./modules/arena/ArenaPage'));
@@ -76,6 +77,7 @@ export function Root() {
             <Route path="/flashcards" element={<FlashcardsPage />} />
             <Route path="/mindmaps" element={<MindMapsPage />} />
             <Route path="/timeline" element={<ChroniclePage />} />
+            <Route path="/history" element={<HistoryPage />} />
             <Route path="/current-affairs" element={<CurrentAffairsPage />} />
             <Route path="/current-affairs/:date" element={<QuizPlayerPage />} />
             <Route path="/arena" element={<ArenaPage />} />

@@ -5,6 +5,7 @@ import { IC, IconSvg } from './icons';
 /** Shared by the desktop side-panel and the mobile bottom sheet so the two
  *  can't drift out of sync. */
 export const MORE_ITEMS = [
+  { id: 'history', label: 'History Learning Atlas', icon: IC.map, to: '/history', comingSoon: false },
   { id: 'affairs', label: 'Current Affairs', icon: IC.papers, to: '/current-affairs', comingSoon: false },
   { id: 'code', label: 'Programming & Python', icon: IC.code, to: '/code', comingSoon: false },
   { id: 'postgres', label: 'Postgres & SQL', icon: IC.db, to: '/postgres', comingSoon: false },

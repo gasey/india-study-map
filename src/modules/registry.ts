@@ -48,6 +48,15 @@ export interface AppModule {
 export const modules: AppModule[] = [
   // ---- Study ----
   {
+    id: 'history',
+    title: 'History Learning Atlas',
+    category: 'Study',
+    tagline: 'Era-by-era lessons, connected mind map, source-linked MCQs and mains writing',
+    glyph: '🏺',
+    kind: 'route',
+    path: '/history',
+  },
+  {
     id: 'map',
     title: 'Study Map',
     category: 'Study',

@@ -1,0 +1,1120 @@
+.history-root {
+  height: 100%;
+  overflow-y: auto;
+  background: var(--bg-app, #f6f5f0);
+  color: var(--text-primary, #242b27);
+  --ha-line: var(--border, #d9ded5);
+  --ha-panel: var(--bg-panel, #fff);
+  --ha-muted: var(--text-secondary, #657067);
+  --ha-accent: var(--accent, #397558);
+  font-size: 14px;
+  line-height: 1.65;
+  scroll-behavior: smooth;
+}
+.history-root * {
+  box-sizing: border-box;
+}
+.ha-container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 32px 40px 50px;
+}
+.history-root h1,
+.history-root h2,
+.history-root h3,
+.history-root h4,
+.history-root p {
+  margin: 0;
+}
+.history-root h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+  font-size: clamp(34px, 4.5vw, 60px);
+  line-height: 1.12;
+  margin: 13px 0 17px;
+}
+.history-root h2 {
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: -0.6px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+.history-root h3 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 9px;
+}
+.history-root h4 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.history-root p + p {
+  margin-top: 9px;
+}
+.history-root a {
+  color: var(--ha-accent);
+  text-underline-offset: 4px;
+}
+.history-root a:hover {
+  text-decoration: underline;
+}
+.history-root button,
+.ha-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid var(--ha-line);
+  border-radius: 8px;
+  padding: 10px 15px;
+  background: var(--ha-panel);
+  font: inherit;
+  line-height: 1.4;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    border-color 0.15s;
+  min-height: 42px;
+}
+.history-root button:hover:not(:disabled),
+.ha-button:hover {
+  background: color-mix(in srgb, var(--ha-accent) 8%, var(--ha-panel));
+  border-color: var(--ha-accent);
+}
+.history-root button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.history-root :focus-visible {
+  outline: 3px solid var(--ha-accent);
+  outline-offset: 3px;
+}
+.history-root button.ha-primary {
+  background: var(--ha-accent);
+  color: var(--on-accent, #fff);
+  border-color: var(--ha-accent);
+}
+.history-root button.ha-primary:hover:not(:disabled) {
+  filter: brightness(1.08);
+  background: var(--ha-accent);
+}
+.ha-hero {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 40px;
+  padding: 32px 36px 36px;
+  border: 1px solid var(--ha-line);
+  border-radius: 18px;
+  background: linear-gradient(
+    115deg,
+    var(--ha-panel),
+    color-mix(in srgb, var(--ha-accent) 7%, var(--ha-panel))
+  );
+}
+.ha-eyebrow {
+  font:
+    600 10px/1.5 ui-monospace,
+    monospace;
+  letter-spacing: 1.8px;
+  color: var(--ha-accent);
+}
+.ha-hero p {
+  color: var(--ha-muted);
+  font-size: 15px;
+  max-width: 550px;
+}
+.ha-hero-actions,
+.ha-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+.ha-hero-mark {
+  border-left: 1px solid var(--ha-line);
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font:
+    500 20px/1.2 Georgia,
+    serif;
+  letter-spacing: 2px;
+  color: var(--ha-accent);
+}
+.ha-hero-mark > span {
+  transform: rotate(90deg);
+  font: 18px/1.5 sans-serif;
+  opacity: 0.5;
+  margin-left: 16px;
+}
+.ha-hero-mark small {
+  font: 11px/1.5 sans-serif;
+  color: var(--ha-muted);
+  letter-spacing: 0;
+  margin-top: 15px;
+}
+.ha-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 22px 0 26px;
+  gap: 12px;
+}
+.ha-stats > div {
+  padding: 12px 18px;
+  border-left: 2px solid var(--ha-line);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.ha-stats strong {
+  font:
+    500 25px/1.3 Georgia,
+    serif;
+  letter-spacing: -0.6px;
+}
+.ha-stats span {
+  font-size: 11px;
+  color: var(--ha-muted);
+}
+.ha-tabs {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--ha-line);
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+}
+.ha-tabs button {
+  white-space: nowrap;
+  border-color: transparent;
+  background: transparent;
+  font-size: 13px;
+  padding: 9px 14px;
+}
+.ha-tabs button[aria-current] {
+  background: var(--ha-panel);
+  border-color: var(--ha-line);
+  color: var(--ha-accent);
+  font-weight: 600;
+}
+.ha-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: 22px;
+}
+.ha-section-heading p {
+  max-width: 730px;
+  color: var(--ha-muted);
+}
+.ha-section-heading > a {
+  white-space: nowrap;
+  font-size: 12px;
+  margin-top: 7px;
+}
+.ha-next {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  border-left: 3px solid var(--ha-accent);
+  background: var(--ha-panel);
+  padding: 18px 22px;
+  margin: 24px 0;
+  border-radius: 0 10px 10px 0;
+}
+.ha-next h3 {
+  margin: 4px 0 5px;
+}
+.ha-next p {
+  font-size: 13px;
+  color: var(--ha-muted);
+  max-width: 760px;
+}
+.ha-next button {
+  flex-shrink: 0;
+}
+.ha-filters {
+  display: flex;
+  gap: 14px;
+  align-items: flex-end;
+  margin: 24px 0;
+  flex-wrap: wrap;
+}
+.ha-search {
+  flex: 1;
+  min-width: 180px;
+}
+.history-root label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.history-root label > span {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ha-muted);
+}
+.history-root input,
+.history-root select,
+.history-root textarea {
+  font: inherit;
+  line-height: 1.5;
+  background: var(--ha-panel);
+  color: inherit;
+  border: 1px solid var(--ha-line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  width: 100%;
+  min-height: 42px;
+}
+.history-root select {
+  max-width: 100%;
+  text-overflow: ellipsis;
+}
+.history-root textarea {
+  resize: vertical;
+  line-height: 1.8;
+}
+.ha-filters > span {
+  padding-bottom: 11px;
+  font-size: 12px;
+}
+.ha-muted,
+.history-root small {
+  color: var(--ha-muted);
+}
+.ha-evidence {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 12px 0;
+  font-size: 12px;
+}
+.ha-era-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  align-items: start;
+}
+.ha-era {
+  background: var(--ha-panel);
+  border: 1px solid var(--ha-line);
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 23px 23px 13px;
+  border-top: 3px solid var(--era-color);
+}
+.ha-era-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.ha-era-heading > span:last-child {
+  margin-left: auto;
+  font-size: 11px;
+}
+.ha-era-number {
+  font:
+    27px Georgia,
+    serif;
+  color: var(--era-color);
+  opacity: 0.85;
+}
+.ha-era-heading h3 {
+  margin: 3px 0 0;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+}
+.ha-period {
+  font:
+    10px/1.4 ui-monospace,
+    monospace;
+  color: var(--ha-muted);
+}
+.ha-era-question {
+  color: var(--ha-muted);
+  font-size: 12px;
+  margin: 17px 0 12px !important;
+  min-height: 38px;
+}
+.history-root progress {
+  width: 100%;
+  height: 4px;
+  display: block;
+  appearance: none;
+  border: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  background: var(--ha-line);
+  accent-color: var(--era-color, var(--ha-accent));
+}
+.history-root progress::-webkit-progress-bar {
+  background: var(--ha-line);
+}
+.history-root progress::-webkit-progress-value {
+  background: var(--era-color, var(--ha-accent));
+}
+.history-root progress::-moz-progress-bar {
+  background: var(--era-color, var(--ha-accent));
+}
+.ha-topic-list {
+  margin-top: 12px;
+}
+.ha-topic-list > button {
+  display: flex;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 10px 2px;
+  font-size: 12px;
+  justify-content: flex-start;
+}
+.ha-topic-list > button > span:nth-child(2) {
+  flex: 1;
+}
+.ha-topic-list small {
+  font:
+    10px ui-monospace,
+    monospace;
+  white-space: nowrap;
+}
+.ha-dot {
+  border: 1px solid var(--ha-line);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--ha-muted);
+}
+.ha-dot.is-read {
+  background: var(--ha-accent);
+  color: var(--on-accent, #fff);
+  border-color: transparent;
+}
+.ha-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ha-muted);
+}
+.ha-empty h1 {
+  font-size: 28px;
+}
+.ha-empty button {
+  margin-top: 20px;
+}
+.ha-card {
+  background: var(--ha-panel);
+  padding: 22px;
+  border: 1px solid var(--ha-line);
+  border-radius: 10px;
+}
+.ha-card p {
+  font-size: 13px;
+}
+.ha-card ul,
+.ha-map-branches ul,
+.ha-recall ul {
+  list-style: disc;
+  margin: 10px 0 0;
+  padding-left: 22px;
+}
+.ha-card li,
+.ha-map-branches li,
+.ha-recall li {
+  padding: 5px 0;
+}
+.ha-spaced {
+  margin-top: 32px !important;
+}
+.ha-badge {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--ha-line);
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 3px 7px;
+  color: var(--ha-muted);
+  white-space: nowrap;
+}
+.ha-notice {
+  border: 1px solid color-mix(in srgb, #bd893c 40%, var(--ha-line));
+  background: color-mix(in srgb, #bd893c 7%, var(--ha-panel));
+  padding: 15px 18px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin: 16px 0;
+  line-height: 1.8;
+}
+.ha-notice a,
+.ha-review-list a {
+  display: block;
+  font-size: 11px;
+  margin-top: 7px;
+  overflow-wrap: anywhere;
+}
+.history-root summary {
+  cursor: pointer;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.history-root summary::marker {
+  color: var(--ha-accent);
+}
+.ha-map-root {
+  width: fit-content;
+  margin: 20px auto 28px;
+  background: var(--ha-accent);
+  color: var(--on-accent, #fff);
+  border-radius: 10px;
+  padding: 16px 35px;
+  font:
+    600 12px ui-monospace,
+    monospace;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+}
+.ha-map-root span {
+  display: block;
+  font: 11px sans-serif;
+  letter-spacing: 0;
+  opacity: 0.8;
+  margin-top: 6px;
+}
+.ha-map-root:after {
+  content: "";
+  position: absolute;
+  height: 28px;
+  width: 1px;
+  bottom: -28px;
+  left: 50%;
+  background: var(--ha-line);
+}
+.ha-mindmap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  border-top: 1px solid var(--ha-line);
+  padding-top: 20px;
+}
+.ha-map-era {
+  border: 1px solid var(--ha-line);
+  border-left: 3px solid var(--era-color);
+  border-radius: 8px;
+  background: var(--ha-panel);
+  align-self: start;
+  padding: 15px 18px;
+}
+.ha-map-era > summary {
+  font-weight: 600;
+}
+.ha-map-era > summary small {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 4px 0 0 17px;
+}
+.ha-map-branches {
+  border-left: 1px solid var(--ha-line);
+  margin: 20px 0 0 9px;
+  padding-left: 19px;
+}
+.ha-map-branches > details {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--ha-line);
+  position: relative;
+}
+.ha-map-branches > details:before {
+  content: "";
+  width: 16px;
+  height: 1px;
+  background: var(--ha-line);
+  position: absolute;
+  left: -19px;
+  top: 21px;
+}
+.ha-map-branches p,
+.ha-map-branches li {
+  font-size: 12px;
+  color: var(--ha-muted);
+}
+.ha-map-branches p {
+  margin-top: 10px;
+}
+.ha-map-branches button {
+  font-size: 11px;
+  margin-top: 8px;
+  padding: 7px 10px;
+  min-height: 36px;
+}
+.ha-connections {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  margin-top: 12px;
+}
+.ha-connections button {
+  font-size: 12px;
+  justify-content: flex-start;
+  color: var(--ha-accent);
+}
+.ha-study-grid {
+  display: grid;
+  grid-template-columns: 245px minmax(0, 1fr);
+  gap: 35px;
+  align-items: start;
+}
+.ha-study-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top: 20px;
+}
+.ha-study-nav .ha-card {
+  padding: 18px;
+}
+.ha-study-nav small {
+  font-size: 11px;
+  display: block;
+  margin-top: 10px;
+}
+.ha-study-nav h3 {
+  margin: 5px 0;
+}
+.ha-study-nav .ha-connections {
+  margin-top: -15px;
+}
+.ha-study-nav > a {
+  font-size: 12px;
+}
+.ha-lesson > h2 {
+  font:
+    500 34px/1.25 Georgia,
+    serif;
+  letter-spacing: -0.5px;
+  margin: 12px 0 18px;
+}
+.ha-lead {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--ha-muted);
+  margin-bottom: 23px !important;
+}
+.ha-source-reading {
+  margin: 12px 0;
+  min-width: 0;
+}
+.ha-source-block {
+  border: 1px solid var(--ha-line);
+  border-radius: 8px;
+  margin: 9px 0;
+  background: var(--ha-panel);
+  overflow: hidden;
+}
+.ha-source-block > summary {
+  font-size: 12px;
+  padding: 12px 15px;
+  font-weight: 500;
+}
+.ha-source-block > summary span {
+  color: var(--ha-muted);
+  font-weight: 400;
+}
+.ha-original-label {
+  font-size: 10px;
+  color: var(--ha-muted);
+  padding: 0 16px 10px;
+}
+.ha-slide {
+  padding: 18px;
+  border-top: 1px solid var(--ha-line);
+  overflow-wrap: anywhere;
+}
+.ha-slide h4 {
+  color: var(--ha-accent);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.ha-slide p {
+  font-size: 13px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+.ha-slide img {
+  max-width: 100%;
+  max-height: 450px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 12px auto;
+  border-radius: 5px;
+}
+.ha-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 22px 0;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+.ha-source-block .ha-pagination {
+  padding: 0 14px;
+}
+.ha-recall {
+  margin: 28px 0;
+  padding: 24px;
+  background: color-mix(in srgb, var(--ha-accent) 6%, var(--ha-panel));
+  border-radius: 10px;
+  border: 1px solid var(--ha-line);
+}
+.ha-recall h3 {
+  margin: 8px 0 12px;
+}
+.ha-recall p {
+  font-size: 13px;
+  color: var(--ha-muted);
+  margin-bottom: 16px;
+}
+.ha-notes {
+  margin: 28px 0;
+}
+.ha-notes small {
+  font-size: 11px;
+}
+.ha-practice-setup {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 22px;
+}
+.ha-practice-filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.ha-practice-filters label:nth-child(2) {
+  grid-column: 1/-1;
+  grid-row: 2;
+}
+.ha-practice-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 28px;
+  border: 1px solid var(--ha-line);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--ha-accent) 5%, var(--ha-panel));
+}
+.ha-practice-start > strong {
+  font:
+    60px/1.2 Georgia,
+    serif;
+  margin: 8px 0;
+}
+.ha-practice-start > button {
+  margin: 20px 0;
+}
+.ha-practice-start small {
+  font-size: 11px;
+  line-height: 1.6;
+}
+.ha-browse {
+  margin-top: 25px;
+}
+.ha-browse > summary {
+  font-size: 13px;
+  font-weight: 600;
+}
+.ha-browse .ha-card {
+  margin-top: 12px;
+}
+.ha-browse ol {
+  list-style: upper-alpha;
+  padding-left: 22px;
+  margin: 15px 0;
+}
+.ha-quiz,
+.ha-quiz-summary {
+  max-width: 850px;
+  margin: auto;
+}
+.ha-quiz > p {
+  margin: 22px 0 10px;
+  font-size: 12px;
+}
+.ha-quiz h2 {
+  font-size: 24px;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+.ha-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 25px 0;
+}
+.ha-options button {
+  justify-content: flex-start;
+  padding: 16px 20px;
+  background: var(--ha-panel);
+  gap: 15px;
+  min-height: 62px;
+}
+.ha-options button > span:first-child {
+  border: 1px solid var(--ha-line);
+  border-radius: 5px;
+  padding: 3px 8px;
+  font:
+    12px ui-monospace,
+    monospace;
+}
+.ha-options button > span:nth-child(2) {
+  flex: 1;
+}
+.ha-options button.is-selected {
+  border: 2px solid var(--ha-accent);
+  padding: 15px 19px;
+}
+.ha-options button:disabled {
+  opacity: 1;
+}
+.ha-options button.is-correct {
+  border-color: #3c8b5c;
+  background: color-mix(in srgb, #3c8b5c 13%, var(--ha-panel));
+}
+.ha-options button.is-wrong {
+  border-color: #c56554;
+  background: color-mix(in srgb, #c56554 12%, var(--ha-panel));
+}
+.ha-feedback {
+  padding: 24px;
+  border: 1px solid var(--ha-line);
+  border-left: 4px solid #c56554;
+  border-radius: 9px;
+  background: var(--ha-panel);
+  margin-top: 24px;
+}
+.ha-feedback.correct {
+  border-left-color: #3c8b5c;
+}
+.ha-feedback > button {
+  margin-top: 16px;
+}
+.ha-flag {
+  font-size: 12px;
+  color: var(--ha-muted);
+  margin: 24px 0;
+}
+.ha-flag label {
+  margin: 15px 0;
+}
+.ha-quiz-summary > h2 {
+  font:
+    36px Georgia,
+    serif;
+  margin: 12px 0 20px;
+}
+.ha-quiz-summary > .ha-card {
+  margin-top: 12px;
+}
+.ha-quiz-summary .ha-card > p {
+  margin: 10px 0;
+}
+.ha-mains-question {
+  margin: 14px 0;
+}
+.ha-mains-question > summary {
+  font-weight: 500;
+}
+.ha-mains-question > summary .ha-badge {
+  margin-right: 10px;
+}
+.ha-mains-question > button {
+  margin: 18px 0 6px;
+  font-size: 12px;
+}
+.ha-mains-question label {
+  margin: 20px 0 10px;
+}
+.ha-source-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+  align-items: start;
+}
+.ha-source-grid .ha-card {
+  padding: 18px;
+}
+.ha-source-grid h3 {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.ha-source-grid .ha-source-block > summary {
+  font-size: 11px;
+  padding: 10px;
+}
+.ha-gap-list {
+  display: grid;
+  gap: 12px;
+  margin: 16px 0;
+}
+.ha-gap-list button {
+  justify-content: flex-start;
+  gap: 18px;
+  padding: 18px;
+  background: var(--ha-panel);
+}
+.ha-gap-list strong {
+  flex: 0 0 28%;
+  font-size: 13px;
+}
+.ha-gap-list span {
+  font-size: 12px;
+  color: var(--ha-muted);
+  flex: 1;
+}
+.ha-gap-list span:last-child {
+  flex: 0 0 auto;
+  color: var(--ha-accent);
+  font-size: 11px;
+}
+.ha-review-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 18px;
+}
+.ha-review-list p {
+  margin: 12px 0;
+}
+.ha-review-list button {
+  font-size: 11px;
+}
+.ha-footer {
+  border-top: 1px solid var(--ha-line);
+  padding-top: 20px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 10px;
+  color: var(--ha-muted);
+}
+@media (min-width: 1450px) {
+  .ha-container {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 1050px) {
+  .ha-container {
+    padding: 24px;
+  }
+  .ha-hero {
+    grid-template-columns: 1fr 175px;
+    gap: 25px;
+    padding: 26px;
+  }
+  .ha-hero-mark {
+    padding-left: 25px;
+  }
+  .ha-source-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .ha-study-grid {
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 22px;
+  }
+  .ha-stats > div {
+    padding: 10px;
+  }
+  .ha-stats strong {
+    font-size: 22px;
+  }
+  .ha-gap-list button {
+    flex-wrap: wrap;
+  }
+  .ha-gap-list strong {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .ha-container {
+    padding: 18px 16px 32px;
+  }
+  .ha-hero {
+    grid-template-columns: 1fr;
+    padding: 24px 20px;
+  }
+  .ha-hero-mark {
+    display: none;
+  }
+  .ha-hero h1 {
+    font-size: 39px;
+  }
+  .ha-hero p {
+    font-size: 13px;
+  }
+  .ha-hero-actions {
+    gap: 8px;
+  }
+  .ha-hero-actions button {
+    font-size: 12px;
+  }
+  .ha-stats {
+    gap: 8px;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 0;
+  }
+  .ha-stats > div {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .ha-tabs {
+    margin-bottom: 23px;
+  }
+  .ha-tabs button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .ha-section-heading {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .history-root h2 {
+    font-size: 23px;
+  }
+  .ha-era-grid,
+  .ha-mindmap,
+  .ha-source-grid,
+  .ha-review-list,
+  .ha-practice-setup,
+  .ha-study-grid {
+    grid-template-columns: 1fr;
+  }
+  .ha-era {
+    padding: 19px 18px 10px;
+  }
+  .ha-era-question {
+    min-height: 0;
+  }
+  .ha-next {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+  .ha-study-nav {
+    position: static;
+  }
+  .ha-study-nav > .ha-card,
+  .ha-study-nav > h3,
+  .ha-study-nav > .ha-connections,
+  .ha-study-nav > a {
+    display: none;
+  }
+  .ha-study-grid {
+    gap: 22px;
+  }
+  .ha-lesson > h2 {
+    font-size: 30px;
+  }
+  .ha-filters {
+    gap: 12px;
+  }
+  .ha-filters > label {
+    flex: 1;
+    min-width: 130px;
+  }
+  .ha-filters .ha-search {
+    flex-basis: 100%;
+  }
+  .ha-filters > span {
+    display: none;
+  }
+  .ha-practice-filters {
+    gap: 14px;
+    padding: 18px;
+  }
+  .ha-practice-start {
+    padding: 22px;
+  }
+  .ha-practice-start > strong {
+    font-size: 48px;
+  }
+  .ha-options button {
+    padding: 14px 12px;
+    font-size: 13px;
+    gap: 10px;
+  }
+  .ha-options button.is-selected {
+    padding: 13px 11px;
+  }
+  .ha-options small {
+    max-width: 50px;
+    font-size: 10px;
+  }
+  .ha-card {
+    padding: 18px;
+  }
+  .ha-quiz h2 {
+    font-size: 21px;
+  }
+  .ha-quiz .ha-section-heading {
+    flex-direction: row;
+    align-items: center;
+  }
+  .ha-quiz .ha-section-heading button {
+    font-size: 11px;
+  }
+  .ha-gap-list span {
+    flex-basis: 100%;
+  }
+  .ha-gap-list span:last-child {
+    flex-basis: auto;
+  }
+  .ha-pagination button {
+    font-size: 11px;
+    padding: 9px 11px;
+  }
+  .ha-recall,
+  .ha-feedback {
+    padding: 18px;
+  }
+  .ha-hero-actions button {
+    flex: 1;
+  }
+  .ha-map-root {
+    font-size: 11px;
+    padding: 15px 22px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .history-root {
+    scroll-behavior: auto;
+  }
+  .history-root button {
+    transition: none;
+  }
+}

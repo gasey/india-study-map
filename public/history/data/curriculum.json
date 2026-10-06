@@ -1,0 +1,2769 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "title": "History Learning Atlas",
+  "description": "A structured first pass through nine supplied MS Academy presentations. Source text is preserved; lesson checkpoints and practice MCQs are derived study aids, not an official answer key.",
+  "reviewedOn": "2026-10-07",
+  "syllabusStatus": "Organised from the supplied presentations and their mains question list; not audited against a current official examination syllabus.",
+  "eras": [
+    {
+      "id": "ancient",
+      "title": "Ancient India",
+      "period": "Prehistory–c. 750 CE",
+      "color": "#b77930",
+      "question": "How did settlements become cities, states and empires?"
+    },
+    {
+      "id": "regional",
+      "title": "Regional kingdoms",
+      "period": "c. 750–1200 CE",
+      "color": "#ab674d",
+      "question": "How did regional powers shape politics, trade and culture?"
+    },
+    {
+      "id": "sultanate",
+      "title": "Sultanates & the Deccan",
+      "period": "1206–c. 1600 CE",
+      "color": "#7b69a4",
+      "question": "How were new states built, governed and contested?"
+    },
+    {
+      "id": "mughal",
+      "title": "Mughal India",
+      "period": "1526–1707 & successors",
+      "color": "#ad5473",
+      "question": "How did an empire connect land, military service and cultural patronage?"
+    },
+    {
+      "id": "colonial",
+      "title": "Company & Crown",
+      "period": "1498–1885",
+      "color": "#408d87",
+      "question": "How did traders become rulers, and how did Indian society respond?"
+    },
+    {
+      "id": "freedom",
+      "title": "Freedom struggle",
+      "period": "1885–1947",
+      "color": "#658343",
+      "question": "How did nationalism develop into a mass struggle for independence?"
+    },
+    {
+      "id": "republic",
+      "title": "Independent India",
+      "period": "1947 onward",
+      "color": "#547dac",
+      "question": "How was independence translated into a united, democratic country?"
+    },
+    {
+      "id": "world",
+      "title": "World history connections",
+      "period": "Modern world · PYQ gaps",
+      "color": "#85705c",
+      "question": "Which global processes appear in your mains questions?"
+    }
+  ],
+  "topics": [
+    {
+      "id": "prehistory",
+      "eraId": "ancient",
+      "title": "From stone tools to farming",
+      "period": "Prehistory",
+      "summary": "Track changes in tools, food production and settlement. Stone-age dates vary by region; learn the sequence before memorising a single date range.",
+      "checkpoints": [
+        "Palaeolithic: hunting and gathering; Mesolithic: microliths.",
+        "Neolithic: farming, domestication and polished stone tools.",
+        "Chalcolithic cultures used copper alongside stone; compare settlement and pottery evidence."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 1,
+          "to": 9
+        }
+      ],
+      "related": [
+        "harappa"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "harappa",
+      "eraId": "ancient",
+      "title": "Harappan cities & material culture",
+      "period": "Mature phase: c. 2600–1900 BCE",
+      "summary": "Reconstruct urban life from archaeological evidence: sites, drainage, crafts, exchange and burial. Separate observations from interpretations of religion and government.",
+      "checkpoints": [
+        "Build a site–river–find table for Harappa, Mohenjodaro, Kalibangan, Dholavira and Lothal.",
+        "Connect standardised weights, seals and craft production to exchange.",
+        "The script remains undeciphered; claims about beliefs and political authority need caution."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 10,
+          "to": 39
+        }
+      ],
+      "related": [
+        "prehistory",
+        "vedic-early",
+        "gupta"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "vedic-early",
+      "eraId": "ancient",
+      "title": "Early Vedic society",
+      "period": "c. 1500–1000 BCE",
+      "summary": "Use the Rig Veda to study pastoral life, kinship and tribal assemblies. Compare institutions with the later Vedic period.",
+      "checkpoints": [
+        "Cattle had economic and social significance.",
+        "Rajan, sabha and samiti belong in your polity comparison.",
+        "Learn the roles of Indra, Agni and sacrificial practice."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 40,
+          "to": 49
+        }
+      ],
+      "related": [
+        "vedic-later"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "vedic-later",
+      "eraId": "ancient",
+      "title": "Later Vedic transformation",
+      "period": "c. 1000–600 BCE",
+      "summary": "Follow the movement toward settled agriculture, larger territories, ritual authority and sharper social distinctions.",
+      "checkpoints": [
+        "Compare pastoral and agricultural economies.",
+        "Trace changes in kingship, assemblies and varna.",
+        "Distinguish royal rituals: rajasuya, ashvamedha and vajapeya."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 50,
+          "to": 56
+        }
+      ],
+      "related": [
+        "vedic-early",
+        "mahajanapadas"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "vedic-texts",
+      "eraId": "ancient",
+      "title": "Vedas, philosophy & literature",
+      "period": "Vedic and later textual traditions",
+      "summary": "Organise texts by function rather than as an undifferentiated list of books.",
+      "checkpoints": [
+        "Rig: hymns; Sama: chants; Yajur: sacrificial formulae; Atharva: spells and related traditions.",
+        "Brahmanas explain rituals; Aranyakas and Upanishads develop reflection and philosophy.",
+        "Distinguish shruti from smriti and identify the limits of texts as historical evidence."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 57,
+          "to": 67
+        }
+      ],
+      "related": [
+        "vedic-later",
+        "buddhism",
+        "jainism"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "mahajanapadas",
+      "eraId": "ancient",
+      "title": "Mahajanapadas & the rise of Magadha",
+      "period": "c. 6th–4th centuries BCE",
+      "summary": "Explain why territorial states and towns grew, and why Magadha became a major power.",
+      "checkpoints": [
+        "Link agricultural surplus, iron, trade and urban growth.",
+        "Compare Haryanka, Shishunaga and Nanda rulers.",
+        "Track the shift from Rajagriha toward Pataliputra."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 68,
+          "to": 75
+        }
+      ],
+      "related": [
+        "mauryas",
+        "buddhism"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "buddhism",
+      "eraId": "ancient",
+      "title": "Buddhism: ideas, institutions & spread",
+      "period": "From the 6th century BCE",
+      "summary": "Connect the Buddha’s teachings with the sangha, patronage and the growth of different traditions.",
+      "checkpoints": [
+        "Explain the Four Noble Truths and the Eightfold Path.",
+        "Distinguish Buddha, dhamma and sangha from the Jain three jewels.",
+        "Make a council–patron–text chart; treat contested ancient dates as approximate."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 76,
+          "to": 87
+        }
+      ],
+      "related": [
+        "jainism",
+        "mauryas",
+        "kushanas"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "jainism",
+      "eraId": "ancient",
+      "title": "Jainism & its traditions",
+      "period": "Early historic India",
+      "summary": "Study Mahavira in the tradition of the tirthankaras and compare Jain and Buddhist paths to liberation.",
+      "checkpoints": [
+        "Mahavira is traditionally the 24th tirthankara; Parshvanatha the 23rd.",
+        "Right faith, right knowledge and right conduct form the three jewels.",
+        "Understand ahimsa, the five vows, and Digambara and Shvetambara traditions."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 88,
+          "to": 90
+        }
+      ],
+      "related": [
+        "buddhism"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "invasions-ancient",
+      "eraId": "ancient",
+      "title": "Persian & Macedonian contacts",
+      "period": "6th–4th centuries BCE",
+      "summary": "Place northwestern India within wider political and cultural networks.",
+      "checkpoints": [
+        "Distinguish Persian control from Alexander’s campaign.",
+        "Locate the Hydaspes battle in 326 BCE and the encounter with Porus.",
+        "Connect the aftermath of these campaigns with Mauryan expansion."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 91,
+          "to": 92
+        }
+      ],
+      "related": [
+        "mauryas"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "mauryas",
+      "eraId": "ancient",
+      "title": "Mauryan empire & Ashoka",
+      "period": "c. 322–185 BCE",
+      "summary": "Connect imperial expansion, administration and the use of inscriptions to Ashoka’s policy of dhamma.",
+      "checkpoints": [
+        "Sequence Chandragupta, Bindusara and Ashoka.",
+        "Use inscriptions as evidence; distinguish rock and pillar edicts.",
+        "Explain the significance of Kalinga and avoid equating dhamma with a single sect’s doctrine."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 93,
+          "to": 101
+        }
+      ],
+      "related": [
+        "mahajanapadas",
+        "buddhism",
+        "post-mauryas"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "post-mauryas",
+      "eraId": "ancient",
+      "title": "Shungas, Kanvas & Satavahanas",
+      "period": "After c. 185 BCE",
+      "summary": "Study regional state formation after the Mauryas through coins, inscriptions and patronage.",
+      "checkpoints": [
+        "Identify Pushyamitra Shunga and the Kanva succession.",
+        "Connect Satavahanas to the Deccan and long-distance trade.",
+        "Compare Brahmanical and Buddhist patronage without assuming they were mutually exclusive."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 102,
+          "to": 109
+        }
+      ],
+      "related": [
+        "kushanas",
+        "sangam"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "kushanas",
+      "eraId": "ancient",
+      "title": "Indo-Greeks, Shakas & Kushanas",
+      "period": "c. 2nd century BCE–3rd century CE",
+      "summary": "Use coins, trade routes and religious art to follow connections across northwestern India and Central Asia.",
+      "checkpoints": [
+        "Sequence Indo-Greek, Shaka, Parthian and Kushana powers broadly.",
+        "Connect Kanishka with Buddhist patronage and Kushana power.",
+        "Compare Gandhara and Mathura art traditions."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 110,
+          "to": 117
+        }
+      ],
+      "related": [
+        "buddhism",
+        "gupta"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "sangam",
+      "eraId": "ancient",
+      "title": "Sangam age & early Tamil society",
+      "period": "Early centuries BCE/CE",
+      "summary": "Read early Tamil literature alongside archaeological evidence for trade, society and the Chera, Chola and Pandya polities.",
+      "checkpoints": [
+        "Distinguish the three crowned kingdoms.",
+        "Match Tolkappiyam and Tirukkural with their traditions.",
+        "Connect ports, inland production and overseas exchange."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 118,
+          "to": 121
+        }
+      ],
+      "related": [
+        "cholas"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "gupta",
+      "eraId": "ancient",
+      "title": "Guptas: empire, knowledge & culture",
+      "period": "c. 4th–6th centuries CE",
+      "summary": "Study political expansion and cultural production, while testing the limits of the label “Golden Age”.",
+      "checkpoints": [
+        "Use Harisena’s Allahabad pillar inscription for Samudragupta.",
+        "Distinguish Chandragupta I from Chandragupta II and the Mauryan Chandragupta.",
+        "Organise literature, science, art and social inequalities for a balanced mains answer."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 122,
+          "to": 132
+        }
+      ],
+      "related": [
+        "harsha",
+        "harappa"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "harsha",
+      "eraId": "ancient",
+      "title": "Harsha & the post-Gupta landscape",
+      "period": "c. 6th–7th centuries CE",
+      "summary": "Follow the emergence of regional kingdoms and compare literary accounts with travellers’ reports.",
+      "checkpoints": [
+        "Connect Harsha with the Pushyabhuti dynasty and Kannauj.",
+        "Remember Xuanzang’s visit and Banabhatta’s literary account.",
+        "Pulakeshin II checked Harsha’s southern expansion."
+      ],
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 133,
+          "to": 135
+        }
+      ],
+      "related": [
+        "tripartite"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "tripartite",
+      "eraId": "regional",
+      "title": "Pratiharas, Palas & Rashtrakutas",
+      "period": "c. 8th–10th centuries CE",
+      "summary": "Use Kannauj as the centre of a three-way political story, then compare each dynasty’s regional base and cultural patronage.",
+      "checkpoints": [
+        "Pratiharas: northern and western India; Palas: Bengal and Bihar; Rashtrakutas: Deccan.",
+        "Connect the Palas with Nalanda and Vikramashila.",
+        "Associate Krishna I with the Kailasa temple at Ellora; verify conflicting ruler dates in the source."
+      ],
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 1,
+          "to": 29
+        }
+      ],
+      "related": [
+        "harsha",
+        "cholas",
+        "turkish-conquests"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "cholas",
+      "eraId": "regional",
+      "title": "Cholas: temples, villages & maritime power",
+      "period": "c. 850–13th century CE",
+      "summary": "Connect military expansion with irrigation, temple institutions and local administration in southern India.",
+      "checkpoints": [
+        "Distinguish Rajaraja I and Rajendra I.",
+        "Connect Thanjavur and Gangaikondacholapuram with royal patronage.",
+        "Study village assemblies and overseas connections alongside campaigns."
+      ],
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 112,
+          "to": 126
+        }
+      ],
+      "related": [
+        "sangam",
+        "vijayanagara"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "turkish-conquests",
+      "eraId": "regional",
+      "title": "Sindh, Ghazni & Ghur",
+      "period": "8th–12th centuries CE",
+      "summary": "Separate the conquest of Sindh, Ghaznavid raids and Ghurid territorial expansion.",
+      "checkpoints": [
+        "Muhammad bin Qasim is associated with the conquest of Sindh.",
+        "Distinguish Mahmud of Ghazni from Muhammad of Ghur.",
+        "Compare the two battles of Tarain, 1191 and 1192, and the road to the Sultanate."
+      ],
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 30,
+          "to": 40
+        }
+      ],
+      "related": [
+        "mamluks"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "mamluks",
+      "eraId": "sultanate",
+      "title": "Mamluks: founding the Delhi Sultanate",
+      "period": "1206–1290",
+      "summary": "Follow the consolidation of Delhi under Aibak, Iltutmish, Razia and Balban.",
+      "checkpoints": [
+        "Learn the functions of iqta assignments and the Turkish nobility.",
+        "Distinguish the initiation and completion of Qutb Minar.",
+        "Compare Iltutmish’s consolidation with Balban’s conception of kingship."
+      ],
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 41,
+          "to": 63
+        }
+      ],
+      "related": [
+        "khaljis"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "khaljis",
+      "eraId": "sultanate",
+      "title": "Khaljis: expansion & market reforms",
+      "period": "1290–1320",
+      "summary": "Link Alauddin’s military needs with taxation, market regulation and administrative control.",
+      "checkpoints": [
+        "Distinguish Jalaluddin from Alauddin.",
+        "Connect Malik Kafur with Deccan expeditions.",
+        "Explain how controlled prices and army organisation supported a standing army."
+      ],
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 64,
+          "to": 83
+        }
+      ],
+      "related": [
+        "tughlaqs",
+        "mughal-administration"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "tughlaqs",
+      "eraId": "sultanate",
+      "title": "Tughlaqs: experiments & public works",
+      "period": "1320–1414",
+      "summary": "Compare Muhammad bin Tughlaq’s ambitious experiments with Firoz Shah’s administrative policies.",
+      "checkpoints": [
+        "Capital transfer, token currency and Doab taxation require separate explanations.",
+        "Assess intended purposes as well as implementation failures.",
+        "Connect Firoz Shah with canals, departments and hereditary tendencies."
+      ],
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 84,
+          "to": 100
+        }
+      ],
+      "related": [
+        "later-sultanate",
+        "bahmani"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "later-sultanate",
+      "eraId": "sultanate",
+      "title": "Sayyids, Lodis & the end of the Sultanate",
+      "period": "1414–1526",
+      "summary": "Trace weakening central authority, Afghan rule and the transition to Mughal power.",
+      "checkpoints": [
+        "Sequence Khizr Khan, Bahlul Lodi, Sikandar Lodi and Ibrahim Lodi.",
+        "Associate Sikandar Lodi with Agra.",
+        "The first battle of Panipat in 1526 links the Lodi and Mughal narratives."
+      ],
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 101,
+          "to": 111
+        }
+      ],
+      "related": [
+        "babur"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "vijayanagara",
+      "eraId": "sultanate",
+      "title": "Vijayanagara: a southern imperial centre",
+      "period": "From 1336",
+      "summary": "Study the Sangama, Saluva, Tuluva and Aravidu dynasties through political rivalry, trade and cultural patronage.",
+      "checkpoints": [
+        "Harihara and Bukka founded the kingdom.",
+        "Connect Krishnadevaraya with the Tuluva dynasty and literary patronage.",
+        "Talikota in 1565 devastated the capital; the polity continued under successors."
+      ],
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 127,
+          "to": 149
+        }
+      ],
+      "related": [
+        "bahmani",
+        "cholas"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "bahmani",
+      "eraId": "sultanate",
+      "title": "Bahmani kingdom & Deccan sultanates",
+      "period": "1347 onward",
+      "summary": "Connect Deccan politics with conflict, court factions and Mahmud Gawan’s reforms.",
+      "checkpoints": [
+        "Hasan Gangu founded the Bahmani kingdom.",
+        "Study tarafs, the capital at Bidar and Mahmud Gawan’s madrasa.",
+        "Name the five successor sultanates and locate them."
+      ],
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 150,
+          "to": 164
+        }
+      ],
+      "related": [
+        "vijayanagara",
+        "akbar-expansion"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "babur",
+      "eraId": "mughal",
+      "title": "Babur & the founding battles",
+      "period": "1526–1530",
+      "summary": "Build a short sequence of Panipat, Khanwa, Chanderi and Ghaghra to understand the foundations of Mughal power.",
+      "checkpoints": [
+        "Panipat: Babur defeated Ibrahim Lodi in 1526.",
+        "Khanwa: conflict with Rana Sanga in 1527.",
+        "Consider artillery, military organisation and alliances together."
+      ],
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 1,
+          "to": 8
+        }
+      ],
+      "related": [
+        "later-sultanate",
+        "humayun"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "humayun",
+      "eraId": "mughal",
+      "title": "Humayun & Sher Shah Suri",
+      "period": "1530–1556",
+      "summary": "Compare Mughal displacement and restoration with the short but influential Sur administration.",
+      "checkpoints": [
+        "Chausa and Kannauj mark Humayun’s defeats by Sher Shah.",
+        "Humayun regained Delhi in 1555.",
+        "Connect Sher Shah with roads, sarais, revenue organisation and the rupiya."
+      ],
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 9,
+          "to": 22
+        }
+      ],
+      "related": [
+        "akbar-expansion"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "akbar-expansion",
+      "eraId": "mughal",
+      "title": "Akbar: consolidation & alliances",
+      "period": "1556–1605",
+      "summary": "Organise Akbar’s expansion geographically and relate conquest to negotiation with regional elites.",
+      "checkpoints": [
+        "The second battle of Panipat was fought against Hemu in 1556.",
+        "Study Rajput alliances alongside the resistance of Mewar.",
+        "Locate Gujarat, Bengal, the northwest and the Deccan on the expansion map."
+      ],
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 23,
+          "to": 58
+        }
+      ],
+      "related": [
+        "mughal-administration",
+        "akbar-culture"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "mughal-administration",
+      "eraId": "mughal",
+      "title": "Mughal administration & land revenue",
+      "period": "Akbar and successors",
+      "summary": "Connect central offices with provincial government and revenue assessment.",
+      "checkpoints": [
+        "Distinguish diwan, mir bakshi, mir saman and qazi.",
+        "Sequence suba → sarkar → pargana → village.",
+        "Explain zabt, dahsala, land classification and revenue collection."
+      ],
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 59,
+          "to": 82
+        }
+      ],
+      "related": [
+        "mansab-jagir",
+        "revenue-colonial"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "mansab-jagir",
+      "eraId": "mughal",
+      "title": "Mansabdari, jagirs & zamindars",
+      "period": "Mughal institutions",
+      "summary": "Keep rank, military obligation, revenue assignment and local rights distinct.",
+      "checkpoints": [
+        "Zat indicates personal rank; sawar indicates the cavalry obligation.",
+        "A jagir was a revenue assignment, not automatic ownership of the land.",
+        "Compare mansabdars, jagirdars and zamindars without treating the labels as synonyms."
+      ],
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 83,
+          "to": 95
+        }
+      ],
+      "related": [
+        "mughal-administration",
+        "mughal-decline"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "akbar-culture",
+      "eraId": "mughal",
+      "title": "Akbar: dialogue, patronage & policy",
+      "period": "16th century",
+      "summary": "Study religious discussion and imperial inclusion alongside literary and artistic patronage.",
+      "checkpoints": [
+        "Associate the Ibadat Khana with Fatehpur Sikri.",
+        "Explain sulh-i kul as an approach to peace and inclusion.",
+        "Distinguish Abul Fazl, Faizi, Tansen, Birbal and Todar Mal."
+      ],
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 96,
+          "to": 105
+        }
+      ],
+      "related": [
+        "jahangir",
+        "bhakti-sufi"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "jahangir",
+      "eraId": "mughal",
+      "title": "Jahangir & Shah Jahan",
+      "period": "1605–1658",
+      "summary": "Compare court politics, diplomatic contacts and artistic patronage under two emperors.",
+      "checkpoints": [
+        "Study Nur Jahan’s political role.",
+        "Connect Thomas Roe with Jahangir’s court.",
+        "Associate Shah Jahan with major architectural projects and the succession conflict."
+      ],
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 106,
+          "to": 121
+        }
+      ],
+      "related": [
+        "aurangzeb",
+        "europeans"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "aurangzeb",
+      "eraId": "mughal",
+      "title": "Aurangzeb: policy & resistance",
+      "period": "1658–1707",
+      "summary": "Examine imperial policies and opposition within their political context; avoid reducing the reign to a single cause or identity.",
+      "checkpoints": [
+        "Trace relations with Rajputs, Sikhs and the Marathas.",
+        "Distinguish religious policy, fiscal pressures and military expansion.",
+        "Build a multi-causal explanation of the strains on imperial government."
+      ],
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 122,
+          "to": 130
+        }
+      ],
+      "related": [
+        "mughal-decline"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "europeans",
+      "eraId": "colonial",
+      "title": "European trading companies",
+      "period": "1498–18th century",
+      "summary": "Compare Portuguese, Dutch, English, Danish and French settlements and strategies.",
+      "checkpoints": [
+        "Vasco da Gama reached Calicut in 1498.",
+        "Learn the English company charter of 1600 and early trading contacts.",
+        "Locate settlements and connect sea power with commercial competition."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 1,
+          "to": 10
+        }
+      ],
+      "related": [
+        "carnatic",
+        "jahangir"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "carnatic",
+      "eraId": "colonial",
+      "title": "Carnatic wars & European rivalry",
+      "period": "1746–1763",
+      "summary": "Connect conflicts in Europe with succession struggles and European intervention in southern India.",
+      "checkpoints": [
+        "Distinguish the three Carnatic wars and their settlements.",
+        "Compare Dupleix’s strategy and English company intervention.",
+        "Wandiwash in 1760 weakened French military prospects in India."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 14,
+          "to": 16
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 1,
+          "to": 5
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 12,
+          "to": 12
+        }
+      ],
+      "related": [
+        "bengal"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "bengal",
+      "eraId": "colonial",
+      "title": "Plassey, Buxar & the diwani",
+      "period": "1757–1772",
+      "summary": "Explain the transition from commercial privileges to control over revenue and government.",
+      "checkpoints": [
+        "Plassey in 1757 and Buxar in 1764 had different opponents and consequences.",
+        "The grant of diwani in 1765 gave the Company revenue rights in Bengal, Bihar and Orissa.",
+        "Separate dual government in Bengal from later dual control in Britain."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 17,
+          "to": 20
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 24,
+          "to": 42
+        }
+      ],
+      "related": [
+        "company-acts",
+        "revenue-colonial"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "mysore-marathas",
+      "eraId": "colonial",
+      "title": "Mysore, Marathas & British expansion",
+      "period": "1761–1818",
+      "summary": "Follow regional resistance and changing alliances without treating British expansion as inevitable.",
+      "checkpoints": [
+        "Third Panipat: Marathas faced Ahmad Shah Abdali in 1761.",
+        "Compare four Anglo-Mysore wars, their treaties and Tipu Sultan’s defeat in 1799.",
+        "Sequence the Anglo-Maratha wars and the role of the Treaty of Bassein."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 21,
+          "to": 26
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 6,
+          "to": 11
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 13,
+          "to": 23
+        }
+      ],
+      "related": [
+        "annexation"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "annexation",
+      "eraId": "colonial",
+      "title": "Subsidiary alliance & doctrine of lapse",
+      "period": "Late 18th–mid-19th century",
+      "summary": "Compare two mechanisms of expansion and their effects on princely autonomy.",
+      "checkpoints": [
+        "Associate Wellesley with subsidiary alliances.",
+        "Associate Dalhousie with the doctrine of lapse.",
+        "Do not classify every annexation as lapse: Awadh was annexed on a claim of misgovernment."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 70,
+          "to": 74
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 43,
+          "to": 52
+        }
+      ],
+      "related": [
+        "revolt-1857",
+        "integration"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "company-acts",
+      "eraId": "colonial",
+      "title": "Company rule & constitutional change",
+      "period": "1773–1858",
+      "summary": "Build an act–provision–consequence table, tracking how Parliament increased supervision of the Company.",
+      "checkpoints": [
+        "Regulating Act 1773; Pitt’s India Act 1784.",
+        "Compare the Charter Acts of 1813, 1833 and 1853.",
+        "The 1858 transfer to the Crown followed the revolt."
+      ],
+      "sources": [
+        {
+          "sourceId": "mains-1",
+          "from": 53,
+          "to": 77
+        }
+      ],
+      "related": [
+        "constitutional-reforms"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "revenue-colonial",
+      "eraId": "colonial",
+      "title": "Land revenue & colonial economy",
+      "period": "Late 18th–19th century",
+      "summary": "Compare who paid revenue, whether assessments were permanent, and how each arrangement affected cultivators.",
+      "checkpoints": [
+        "Permanent Settlement: revenue fixed with zamindars in Bengal in 1793.",
+        "Ryotwari: settlement with cultivators; Mahalwari: village/estate units.",
+        "For mains, connect demands and intermediaries to agrarian distress and economic change."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 11,
+          "to": 13
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 1,
+          "to": 4
+        }
+      ],
+      "related": [
+        "bengal",
+        "mughal-administration",
+        "colonial-economy"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "governors",
+      "eraId": "colonial",
+      "title": "Governors-general & viceroys",
+      "period": "1772–1947 · reference track",
+      "summary": "Use a parallel reference track to connect policies and events to administrations. Study the events first, then practise matching them.",
+      "checkpoints": [
+        "Separate Governors-General of Bengal, Governors-General of India and viceroys.",
+        "Group policies by education, communication, administration and repression.",
+        "Cross-check dates in this deck before turning every statement into a flashcard."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 27,
+          "to": 65
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 74,
+          "to": 74
+        }
+      ],
+      "related": [
+        "company-acts",
+        "constitutional-reforms"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "revolt-1857",
+      "eraId": "colonial",
+      "title": "The revolt of 1857",
+      "period": "1857–1858",
+      "summary": "Build a causes → centres and leaders → limits → consequences answer, distinguishing long-term grievances from the immediate trigger.",
+      "checkpoints": [
+        "Political annexation, economic pressures, military grievances and religious fears overlapped.",
+        "Match Delhi, Kanpur, Lucknow, Jhansi and Bihar with key leaders.",
+        "Assess regional variation and why the rebellion failed; connect it to Crown rule."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 66,
+          "to": 69
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 78,
+          "to": 100
+        }
+      ],
+      "related": [
+        "annexation",
+        "company-acts"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "reform-bengal",
+      "eraId": "colonial",
+      "title": "Bengal reform & modern education",
+      "period": "19th century",
+      "summary": "Study reformers’ arguments, institutions and social limits rather than memorising founders alone.",
+      "checkpoints": [
+        "Connect Rammohun Roy with the Brahmo tradition.",
+        "Compare Derozio, Debendranath Tagore and Keshab Chandra Sen.",
+        "Link Vidyasagar to widow remarriage and education; compare reform methods."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 75,
+          "to": 80
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 101,
+          "to": 130
+        }
+      ],
+      "related": [
+        "reform-west",
+        "early-associations"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "reform-west",
+      "eraId": "colonial",
+      "title": "Reform, caste & religious renewal",
+      "period": "19th–early 20th century",
+      "summary": "Compare movements across regions through education, gender, caste, scriptural authority and public service.",
+      "checkpoints": [
+        "Connect Phule with Satyashodhak Samaj and Dayanand with Arya Samaj.",
+        "Compare Prarthana Samaj, Ramakrishna Mission and the Theosophical Society.",
+        "Study Muslim, Sikh and Parsi reform movements and the limits of reform’s social reach."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 81,
+          "to": 87
+        },
+        {
+          "sourceId": "mains-1",
+          "from": 131,
+          "to": 184
+        }
+      ],
+      "related": [
+        "reform-bengal",
+        "women-students"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "early-associations",
+      "eraId": "colonial",
+      "title": "Political associations before Congress",
+      "period": "1830s–1885",
+      "summary": "Trace the growth of public associations, political demands and communication across regions.",
+      "checkpoints": [
+        "Distinguish the British Indian Association and Indian Association.",
+        "Locate Poona Sarvajanik Sabha, Madras Mahajan Sabha and Bombay Presidency Association.",
+        "Connect early political methods with the founding of Congress."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 88,
+          "to": 90
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 5,
+          "to": 27
+        }
+      ],
+      "related": [
+        "congress"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "congress",
+      "eraId": "freedom",
+      "title": "Congress, moderates & assertive nationalism",
+      "period": "1885–1907",
+      "summary": "Compare goals, social bases and methods of early nationalists, then explain the tensions that culminated at Surat.",
+      "checkpoints": [
+        "The first Congress session in 1885 was presided over by W. C. Bonnerjee.",
+        "Contrast petitions and economic critique with boycott and wider mobilisation.",
+        "Treat “safety valve” as a historical interpretation, not an uncontested single cause."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 91,
+          "to": 97
+        },
+        {
+          "sourceId": "modern",
+          "from": 104,
+          "to": 104
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 28,
+          "to": 49
+        }
+      ],
+      "related": [
+        "swadeshi",
+        "early-associations"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "swadeshi",
+      "eraId": "freedom",
+      "title": "Bengal partition, Swadeshi & boycott",
+      "period": "1905–1911",
+      "summary": "Connect the partition of Bengal with new forms of protest, economic self-reliance and national education.",
+      "checkpoints": [
+        "The partition took effect on 16 October 1905.",
+        "Compare boycott, indigenous industry, national education and passive resistance.",
+        "Assess participation, repression, limitations and the annulment in 1911."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 98,
+          "to": 102
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 50,
+          "to": 50
+        },
+        {
+          "sourceId": "freedom",
+          "from": 1,
+          "to": 25
+        }
+      ],
+      "related": [
+        "congress",
+        "non-cooperation"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "league-revolutionaries",
+      "eraId": "freedom",
+      "title": "Muslim League, Ghadar & overseas politics",
+      "period": "1906–1916",
+      "summary": "Study different political organisations and overseas networks with attention to their changing demands.",
+      "checkpoints": [
+        "Muslim League was founded at Dacca in 1906.",
+        "Ghadar connected emigrant revolutionaries to an anti-colonial project.",
+        "Place Komagata Maru in 1914 and distinguish it from the Home Rule leagues."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 103,
+          "to": 103
+        },
+        {
+          "sourceId": "modern",
+          "from": 107,
+          "to": 108
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 51,
+          "to": 53
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 64,
+          "to": 67
+        }
+      ],
+      "related": [
+        "home-rule",
+        "partition-negotiations"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "home-rule",
+      "eraId": "freedom",
+      "title": "Home Rule & the Lucknow Pact",
+      "period": "1916–1917",
+      "summary": "Connect the wartime demand for self-government with Congress reunification and Congress–League cooperation.",
+      "checkpoints": [
+        "Separate Tilak’s and Annie Besant’s Home Rule leagues.",
+        "Lucknow Pact belongs to 1916.",
+        "Place the August Declaration in 1917 within the reform debate."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 109,
+          "to": 112
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 68,
+          "to": 76
+        }
+      ],
+      "related": [
+        "constitutional-reforms",
+        "gandhi-early"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "constitutional-reforms",
+      "eraId": "freedom",
+      "title": "Reforms, representation & dyarchy",
+      "period": "1909–1935",
+      "summary": "Compare constitutional arrangements by electorate, provincial powers and control at the centre.",
+      "checkpoints": [
+        "1909: separate electorates for Muslims.",
+        "1919: dyarchy in the provinces.",
+        "1935: provincial autonomy; the proposed all-India federation did not come into operation."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 105,
+          "to": 106
+        },
+        {
+          "sourceId": "modern",
+          "from": 113,
+          "to": 113
+        },
+        {
+          "sourceId": "modern",
+          "from": 149,
+          "to": 149
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 54,
+          "to": 63
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 77,
+          "to": 87
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 132,
+          "to": 132
+        }
+      ],
+      "related": [
+        "company-acts",
+        "poona-pact"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "gandhi-early",
+      "eraId": "freedom",
+      "title": "Gandhi: early satyagrahas & 1919",
+      "period": "1917–1919",
+      "summary": "Compare local struggles before following the expansion of protest against the Rowlatt Act.",
+      "checkpoints": [
+        "Champaran: indigo cultivators; Ahmedabad: mill workers; Kheda: revenue relief.",
+        "Satyagraha combines truth and non-violent resistance.",
+        "Explain the Rowlatt agitation and Jallianwala Bagh in their 1919 context."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 114,
+          "to": 119
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 88,
+          "to": 97
+        }
+      ],
+      "related": [
+        "non-cooperation",
+        "bardoli"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "non-cooperation",
+      "eraId": "freedom",
+      "title": "Khilafat & Non-Cooperation",
+      "period": "1919–1922",
+      "summary": "Explain the convergence of grievances, the boycott programme and the decision to suspend the movement.",
+      "checkpoints": [
+        "Connect Khilafat, Punjab grievances and disillusionment with reforms.",
+        "Distinguish withdrawal of cooperation from later deliberate law-breaking.",
+        "Chauri Chaura in February 1922 prompted suspension."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 120,
+          "to": 125
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 98,
+          "to": 104
+        },
+        {
+          "sourceId": "freedom",
+          "from": 26,
+          "to": 53
+        }
+      ],
+      "related": [
+        "swadeshi",
+        "swarajists",
+        "civil-disobedience"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "swarajists",
+      "eraId": "freedom",
+      "title": "Swarajists, Simon & the Nehru Report",
+      "period": "1922–1929",
+      "summary": "Follow the debate over council entry and the competing proposals for constitutional advance.",
+      "checkpoints": [
+        "C. R. Das and Motilal Nehru led the Swarajist approach.",
+        "The all-British Simon Commission was appointed in 1927 and arrived in 1928.",
+        "Contrast the Nehru Report, Jinnah’s Fourteen Points and the Lahore resolution."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 126,
+          "to": 136
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 105,
+          "to": 113
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 119,
+          "to": 122
+        }
+      ],
+      "related": [
+        "civil-disobedience"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "bardoli",
+      "eraId": "freedom",
+      "title": "Bardoli & agrarian satyagraha",
+      "period": "1928",
+      "summary": "Examine how local organisation and disciplined protest challenged an increased revenue assessment.",
+      "checkpoints": [
+        "Locate Bardoli in Gujarat.",
+        "Associate the movement with Vallabhbhai Patel.",
+        "Compare its revenue issue and methods with Kheda."
+      ],
+      "sources": [
+        {
+          "sourceId": "mains-2",
+          "from": 114,
+          "to": 118
+        }
+      ],
+      "related": [
+        "gandhi-early",
+        "integration"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "civil-disobedience",
+      "eraId": "freedom",
+      "title": "Civil Disobedience & the salt campaign",
+      "period": "1930–1934",
+      "summary": "Connect Purna Swaraj with salt law-breaking, regional participation, negotiations and renewed repression.",
+      "checkpoints": [
+        "Dandi made an everyday tax a widely understood political issue.",
+        "Compare participation and limitations with Non-Cooperation.",
+        "Sequence Gandhi–Irwin Pact, the conferences and the resumption of protest."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 137,
+          "to": 144
+        },
+        {
+          "sourceId": "modern",
+          "from": 148,
+          "to": 148
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 123,
+          "to": 127
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 131,
+          "to": 131
+        },
+        {
+          "sourceId": "freedom",
+          "from": 54,
+          "to": 74
+        }
+      ],
+      "related": [
+        "non-cooperation",
+        "poona-pact"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "poona-pact",
+      "eraId": "freedom",
+      "title": "Communal Award & the Poona Pact",
+      "period": "1932",
+      "summary": "Separate the question of separate electorates from reserved representation, and recognise Ambedkar’s political role.",
+      "checkpoints": [
+        "The Communal Award proposed separate electorates for the Depressed Classes.",
+        "The Poona Pact used reserved seats within a joint electorate.",
+        "Compare the positions of Gandhi and Ambedkar without collapsing their aims."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 145,
+          "to": 147
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 128,
+          "to": 130
+        }
+      ],
+      "related": [
+        "constitutional-reforms",
+        "ambedkar"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "war-quit-india",
+      "eraId": "freedom",
+      "title": "Wartime proposals & Quit India",
+      "period": "1939–1942",
+      "summary": "Study the relationship between wartime pressures, failed negotiations and the demand for an immediate British withdrawal.",
+      "checkpoints": [
+        "Sequence August Offer, Individual Satyagraha and Cripps Mission.",
+        "The Quit India resolution was adopted in August 1942.",
+        "Assess underground networks, local initiatives, repression and limits of participation."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 150,
+          "to": 160
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 133,
+          "to": 139
+        },
+        {
+          "sourceId": "freedom",
+          "from": 75,
+          "to": 90
+        }
+      ],
+      "related": [
+        "ina",
+        "partition-negotiations"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "ina",
+      "eraId": "freedom",
+      "title": "Subhas Chandra Bose & the INA",
+      "period": "1940s",
+      "summary": "Trace the formation, reorganisation and political significance of the Indian National Army.",
+      "checkpoints": [
+        "Distinguish the early INA associated with Mohan Singh from Bose’s later leadership.",
+        "Connect the Azad Hind government with the wartime context.",
+        "Explain the significance of the Red Fort trials without claiming a single cause for independence."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 166,
+          "to": 168
+        }
+      ],
+      "related": [
+        "war-quit-india"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "partition-negotiations",
+      "eraId": "freedom",
+      "title": "Negotiations, partition & independence",
+      "period": "1940–1947",
+      "summary": "Follow competing proposals and their failures through to the transfer of power and its human consequences.",
+      "checkpoints": [
+        "Sequence Lahore Resolution, Rajagopalachari formula, Wavell Plan and Cabinet Mission.",
+        "Distinguish the 1946 Cabinet Mission from the 1947 Mountbatten Plan.",
+        "Connect independence and partition to administrative division and displacement."
+      ],
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 161,
+          "to": 165
+        },
+        {
+          "sourceId": "modern",
+          "from": 169,
+          "to": 176
+        },
+        {
+          "sourceId": "mains-2",
+          "from": 140,
+          "to": 152
+        }
+      ],
+      "related": [
+        "partition-rehab",
+        "integration"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "women-students",
+      "eraId": "freedom",
+      "title": "Women, students & mass participation",
+      "period": "Across the freedom struggle",
+      "summary": "Build a thematic answer across movements instead of treating participation as a single-event appendix.",
+      "checkpoints": [
+        "Connect women’s roles with boycott, picketing, underground activity and leadership.",
+        "Trace students’ involvement in national education and protest.",
+        "Assess how mobilisation challenged social roles and where exclusions persisted."
+      ],
+      "sources": [
+        {
+          "sourceId": "freedom",
+          "from": 91,
+          "to": 99
+        }
+      ],
+      "related": [
+        "swadeshi",
+        "war-quit-india",
+        "reform-west"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "partition-rehab",
+      "eraId": "republic",
+      "title": "Partition & rehabilitation",
+      "period": "1947 and aftermath",
+      "summary": "Organise humanitarian, administrative, economic and political consequences of partition.",
+      "checkpoints": [
+        "Displacement and violence created urgent rehabilitation needs.",
+        "Division affected services, assets, trade and production networks.",
+        "Avoid presenting a single disputed casualty estimate as a settled fact."
+      ],
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 1,
+          "to": 4
+        }
+      ],
+      "related": [
+        "partition-negotiations",
+        "integration"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "integration",
+      "eraId": "republic",
+      "title": "Integration of princely states",
+      "period": "1947–1949",
+      "summary": "Compare negotiation, accession, merger and military intervention in the formation of the Union.",
+      "checkpoints": [
+        "Study the roles of Vallabhbhai Patel and V. P. Menon.",
+        "Accession initially concerned defence, external affairs and communications.",
+        "Compare Travancore, Jodhpur, Bhopal, Hyderabad and Junagadh as distinct cases."
+      ],
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 11,
+          "to": 17
+        },
+        {
+          "sourceId": "republic",
+          "from": 26,
+          "to": 41
+        }
+      ],
+      "related": [
+        "states-reorganisation",
+        "kashmir",
+        "annexation"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "states-reorganisation",
+      "eraId": "republic",
+      "title": "Linguistic reorganisation & new states",
+      "period": "1950s onward",
+      "summary": "Explain how language, administration, democratic demands and national unity interacted in redrawing state boundaries.",
+      "checkpoints": [
+        "Distinguish Part A/B/C/D states and later states/Union territories.",
+        "Andhra State was formed in 1953; Andhra Pradesh followed in 1956.",
+        "Sequence Dhar Commission, JVP Committee and the States Reorganisation Commission."
+      ],
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 5,
+          "to": 10
+        },
+        {
+          "sourceId": "republic",
+          "from": 18,
+          "to": 25
+        }
+      ],
+      "related": [
+        "integration",
+        "northeast"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "kashmir",
+      "eraId": "republic",
+      "title": "Jammu & Kashmir: accession chronology",
+      "period": "1947 onward",
+      "summary": "Build a dated sequence from the accession crisis using primary documents and clearly attributed historical accounts.",
+      "checkpoints": [
+        "Identify Hari Singh and the Instrument of Accession.",
+        "Distinguish accession, subsequent constitutional arrangements and later changes.",
+        "The deck compresses contested events and legal developments; check authoritative sources before adding detailed MCQs."
+      ],
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 42,
+          "to": 46
+        }
+      ],
+      "related": [
+        "integration"
+      ],
+      "status": "starter"
+    },
+    {
+      "id": "bhakti-sufi",
+      "eraId": "sultanate",
+      "title": "Bhakti, Sufism & regional cultural traditions",
+      "period": "Medieval India",
+      "summary": "The 2025 question set asks about Bhakti; the teaching decks do not supply a dedicated lesson.",
+      "checkpoints": [
+        "Alvars and Nayanars; saguna and nirguna traditions",
+        "Kabir, Nanak, regional saints and vernacular literature",
+        "Sufi silsilas, khanqahs, social context and composite culture"
+      ],
+      "sources": [],
+      "related": [
+        "akbar-culture"
+      ],
+      "status": "gap"
+    },
+    {
+      "id": "mughal-decline",
+      "eraId": "mughal",
+      "title": "Later Mughals, Marathas & successor states",
+      "period": "1707–18th century",
+      "summary": "Add a bridge between Aurangzeb and Company expansion.",
+      "checkpoints": [
+        "Maratha state formation and Shivaji’s administration",
+        "Regional successor states and changing revenue networks",
+        "Multiple explanations for Mughal decline"
+      ],
+      "sources": [],
+      "related": [
+        "aurangzeb",
+        "mysore-marathas"
+      ],
+      "status": "gap"
+    },
+    {
+      "id": "colonial-economy",
+      "eraId": "colonial",
+      "title": "Economic change, education & cultural consciousness",
+      "period": "18th–20th century",
+      "summary": "Past questions require fuller coverage than the revenue-system notes provide.",
+      "checkpoints": [
+        "Drain of wealth, deindustrialisation and commercialisation",
+        "Western education, print, historical writing and cultural revival",
+        "Peasant and tribal resistance with regional examples"
+      ],
+      "sources": [],
+      "related": [
+        "revenue-colonial",
+        "reform-bengal"
+      ],
+      "status": "gap"
+    },
+    {
+      "id": "ambedkar",
+      "eraId": "republic",
+      "title": "Ambedkar, the Constitution & democracy",
+      "period": "20th century",
+      "summary": "The mains questions ask about Ambedkar; a dedicated lesson remains to be authored.",
+      "checkpoints": [
+        "Social justice and political representation",
+        "Constituent Assembly and constitution-making",
+        "Universal adult franchise and the first general election"
+      ],
+      "sources": [],
+      "related": [
+        "poona-pact"
+      ],
+      "status": "gap"
+    },
+    {
+      "id": "planning",
+      "eraId": "republic",
+      "title": "Planning, development & foreign policy",
+      "period": "After 1947",
+      "summary": "The past-paper deck asks about Five-Year Plans, but the teaching deck concentrates on integration.",
+      "checkpoints": [
+        "Planning and the mixed economy",
+        "Land reforms and the Green Revolution",
+        "Non-alignment, major conflicts and political change"
+      ],
+      "sources": [],
+      "related": [
+        "states-reorganisation"
+      ],
+      "status": "gap"
+    },
+    {
+      "id": "northeast",
+      "eraId": "republic",
+      "title": "Northeast India & Mizoram",
+      "period": "Regional extension",
+      "summary": "Add dedicated coverage for Mizoram exam preparation and check the current official syllabus.",
+      "checkpoints": [
+        "Regional state formation and political movements",
+        "Mizoram: historical milestones, peace accord and statehood",
+        "Connections to post-independence reorganisation"
+      ],
+      "sources": [],
+      "related": [
+        "states-reorganisation"
+      ],
+      "status": "gap"
+    },
+    {
+      "id": "industrial-world",
+      "eraId": "world",
+      "title": "Industrial Revolution, capitalism & colonialism",
+      "period": "18th–20th century",
+      "summary": "These themes recur in the supplied mains questions; teaching notes are absent.",
+      "checkpoints": [
+        "Why industrialisation began in Britain",
+        "Economic and social consequences of industrialisation",
+        "Colonialism and its effects on colonised societies"
+      ],
+      "sources": [],
+      "related": [
+        "colonial-economy"
+      ],
+      "status": "gap"
+    },
+    {
+      "id": "wars-world",
+      "eraId": "world",
+      "title": "World wars, fascism & the United Nations",
+      "period": "1914–1945 and aftermath",
+      "summary": "Preserve these past-paper demands as visible gaps in the learning path.",
+      "checkpoints": [
+        "First World War: alliances, causes and consequences",
+        "Fascism, Nazism and the road to the Second World War",
+        "United Nations: origins, aims, structure and achievements"
+      ],
+      "sources": [],
+      "related": [
+        "war-quit-india"
+      ],
+      "status": "gap"
+    },
+    {
+      "id": "ideologies-world",
+      "eraId": "world",
+      "title": "Socialism, decolonisation & the Cold War",
+      "period": "20th century",
+      "summary": "Past questions cover themes beyond the Indian-history lecture decks.",
+      "checkpoints": [
+        "Communism, socialism and capitalism: distinctions",
+        "Decolonisation in Asia and Africa",
+        "Soviet collapse, Eastern Europe and post-Mao China"
+      ],
+      "sources": [],
+      "related": [
+        "industrial-world"
+      ],
+      "status": "gap"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "harappa-dates",
+      "topicId": "harappa",
+      "sourceId": "ancient",
+      "slide": 10,
+      "status": "corrected",
+      "note": "The deck heading gives 2600–1500 BCE. Use c. 2600–1900 BCE specifically for the Mature Harappan urban phase; distinguish earlier and later phases.",
+      "evidence": [
+        {
+          "title": "NCERT · Bricks, Beads and Bones, p. 1",
+          "url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf"
+        }
+      ]
+    },
+    {
+      "id": "prarthana-date",
+      "topicId": "reform-west",
+      "sourceId": "mains-1",
+      "slide": 144,
+      "status": "corrected",
+      "note": "This slide labels Prarthana Samaj 1876. The foundation at Bombay was in 1867.",
+      "evidence": [
+        {
+          "title": "Municipal Corporation of Greater Mumbai · Prarthana Samaj",
+          "url": "https://www.mcgm.gov.in/irj/go/km/docs/documents/D%20Ward/Heritage-Sites/86_Legacy%20of%20D%20Ward_Article_Prarthana%20Samaj.pdf"
+        }
+      ]
+    },
+    {
+      "id": "andhra-name",
+      "topicId": "states-reorganisation",
+      "sourceId": "republic",
+      "slide": 21,
+      "status": "corrected",
+      "note": "Distinguish Andhra State (1953) from Andhra Pradesh (1956). The slide uses Andhra Pradesh for the 1953 formation.",
+      "evidence": [
+        {
+          "title": "Andhra State Act, 1953",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2176/1/195330.pdf"
+        },
+        {
+          "title": "Andhra Pradesh PSC · History",
+          "url": "https://portal-psc.ap.gov.in/HomePages/History"
+        }
+      ]
+    },
+    {
+      "id": "rashtrakuta-dates",
+      "topicId": "tripartite",
+      "sourceId": "sultanate",
+      "slide": 29,
+      "status": "open",
+      "note": "The Krishna III reign dates printed here need verification. This item is excluded from the quiz bank.",
+      "evidence": []
+    },
+    {
+      "id": "chola-dates",
+      "topicId": "cholas",
+      "sourceId": "sultanate",
+      "slide": 115,
+      "status": "open",
+      "note": "Parantaka I has the same printed date range as Sundara Chola on the next slide. Verify the chronology before generating date questions.",
+      "evidence": []
+    },
+    {
+      "id": "gupta-generalisation",
+      "topicId": "gupta",
+      "sourceId": "ancient",
+      "slide": 130,
+      "status": "open",
+      "note": "The absolute claim about the absence of Buddhist royal patronage needs review. Do not convert it into an answer key.",
+      "evidence": []
+    },
+    {
+      "id": "poona-seats",
+      "topicId": "poona-pact",
+      "sourceId": "modern",
+      "slide": 147,
+      "status": "corrected",
+      "note": "The Poona Pact provided 148 provincial reserved seats, not the printed 147, within a joint-electorate arrangement with a preliminary selection by Depressed Class voters.",
+      "evidence": [
+        {
+          "title": "Ministry of External Affairs · archival documents, Volume 10",
+          "url": "https://www.mea.gov.in/Images/CPV/Volume10.pdf"
+        }
+      ]
+    },
+    {
+      "id": "poona-seats-mains",
+      "topicId": "poona-pact",
+      "sourceId": "mains-2",
+      "slide": 130,
+      "status": "corrected",
+      "note": "The provincial reserved-seat total was 148, not 147. Reserved seats were within joint electorates; distinguish this from the separate electorates in the Communal Award.",
+      "evidence": [
+        {
+          "title": "Ministry of External Affairs · archival documents, Volume 10",
+          "url": "https://www.mea.gov.in/Images/CPV/Volume10.pdf"
+        }
+      ]
+    },
+    {
+      "id": "poona-date",
+      "topicId": "poona-pact",
+      "sourceId": "mains-2",
+      "slide": 129,
+      "status": "corrected",
+      "note": "The pact was concluded on 24 September 1932, rather than the printed 25 September.",
+      "evidence": [
+        {
+          "title": "Museums of India · Pune Pact, 24 September 1932",
+          "url": "https://museumsofindia.gov.in/repository/record/avm_pun-P0019-441"
+        }
+      ]
+    },
+    {
+      "id": "sarojini-session",
+      "topicId": "congress",
+      "sourceId": "modern",
+      "slide": 93,
+      "status": "corrected",
+      "note": "Sarojini Naidu presided over the Kanpur Congress session in 1925, not 1923.",
+      "evidence": [
+        {
+          "title": "Museums of India · Sarojini Naidu",
+          "url": "https://museumsofindia.gov.in/repository/record/vmh_kol-R3177-18169"
+        }
+      ]
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "id": "mains-1-1",
+      "year": 2012,
+      "topicId": "colonial-economy",
+      "prompt": "“Industrial revolution in Europe was responsible for the decline of handicrafts and Cottage Industries in India”. Elucidate. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 1,
+          "to": 1
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-1-2",
+      "year": 2012,
+      "topicId": "league-revolutionaries",
+      "prompt": "Give in brief the various factors responsible for the rise of Communalism in India during the freedom struggle for Independence. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 1,
+          "to": 1
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-2-1",
+      "year": 2013,
+      "topicId": "revolt-1857",
+      "prompt": "“ The Revolt of 1857 was the first challenge to the British Rule in India”. Discuss. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 2,
+          "to": 2
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-2-2",
+      "year": 2013,
+      "topicId": "colonial-economy",
+      "prompt": "Give a brief account of the growth of Western education system in India under the british rule and also throw some light on its social and political consequences. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 2,
+          "to": 2
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-2-3",
+      "year": 2013,
+      "topicId": "ina",
+      "prompt": "Give an account of the role of Subhash Chandra Bose in the history of freedom movement. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 2,
+          "to": 2
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-3-1",
+      "year": 2014,
+      "topicId": "wars-world",
+      "prompt": "Analyze how Europe was divided between two armed camps prior to the First World war. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 3,
+          "to": 3
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-3-2",
+      "year": 2014,
+      "topicId": "integration",
+      "prompt": "Give an account of the contributions of Sardar Vallabhbhai Patel in the consolidation of India in the post independence era. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 3,
+          "to": 3
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-3-3",
+      "year": 2014,
+      "topicId": "states-reorganisation",
+      "prompt": "Give your comment on the reorganization of states on linguistic basis in the post independence period. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 3,
+          "to": 3
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-4-1",
+      "year": 2015,
+      "topicId": "gandhi-early",
+      "prompt": "Narrate the struggle of Indian independence under the leadership of Mahatma Gandhi. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 4,
+          "to": 4
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-4-2",
+      "year": 2015,
+      "topicId": "revolt-1857",
+      "prompt": "Why is the Revolt of 1857 sometimes called ‘First War of Indian Independence’? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 4,
+          "to": 4
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-4-3",
+      "year": 2015,
+      "topicId": "war-quit-india",
+      "prompt": "Discuss the causes and features of the Quit India Movement. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 4,
+          "to": 4
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-4-4",
+      "year": 2015,
+      "topicId": "wars-world",
+      "prompt": "Discuss the circumstances leading to the outbreak of World War I. (10) OR Write an essay on the origin, aims, organization and achievements of the U.N.O. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 4,
+          "to": 4
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-5-1",
+      "year": 2016,
+      "topicId": "ambedkar",
+      "prompt": "Write an essay on Dr. B.R Ambedkar’s contribution as an important figure in the shaping of modern India. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 5,
+          "to": 5
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-5-2",
+      "year": 2016,
+      "topicId": "gandhi-early",
+      "prompt": "Briefly describe the basic philosophy behind the freedom movement led by Mahatma Gandhi. How did his views differ from that of SC Bose. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 5,
+          "to": 5
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-5-3",
+      "year": 2016,
+      "topicId": "states-reorganisation",
+      "prompt": "Discuss the major issues associated with reorganization of states in India. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 5,
+          "to": 5
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-5-4",
+      "year": 2016,
+      "topicId": "ideologies-world",
+      "prompt": "Examine the points of convergence divergence between Communism and Socialism. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 5,
+          "to": 5
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-6-1",
+      "year": 2017,
+      "topicId": "gandhi-early",
+      "prompt": "Critically assess the role of M.K Gandhi in the shaping of modern India. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 6,
+          "to": 6
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-6-2",
+      "year": 2017,
+      "topicId": "revolt-1857",
+      "prompt": "Give a detailed historical account of the Indian Rebellion of 1857. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 6,
+          "to": 6
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-6-3",
+      "year": 2017,
+      "topicId": "planning",
+      "prompt": "Do you agree that post-Independence five years plans were able to helping in the reorganization and the consolidation of Indian economy? Give substansive reasons in support of your answer. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 6,
+          "to": 6
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-6-4",
+      "year": 2017,
+      "topicId": "ideologies-world",
+      "prompt": "Explain the triggers and hurdles in the process of decolonization in Asia and Africa. (5+5=10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 6,
+          "to": 6
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-7-1",
+      "year": 2019,
+      "topicId": "revenue-colonial",
+      "prompt": "What do you know about the permanent settlement introduced by Lord Cornwallis? What were its advantages and disadvantages? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 7,
+          "to": 7
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-7-2",
+      "year": 2019,
+      "topicId": "women-students",
+      "prompt": "Trace the role and impact of women in the Indian Freedom Movement. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 7,
+          "to": 7
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-7-3",
+      "year": 2019,
+      "topicId": "integration",
+      "prompt": "Explain the causes and the manner in which the Princely states were integrated into the Indian Union? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 7,
+          "to": 7
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-7-4",
+      "year": 2019,
+      "topicId": "industrial-world",
+      "prompt": "Why did the IR occur first in Britain? Examine the socio-economic impact of the IR. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 7,
+          "to": 7
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-8-1",
+      "year": 2022,
+      "topicId": "revolt-1857",
+      "prompt": "Discuss the cause and consequences of the Revolt of 1857. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 8,
+          "to": 8
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-8-2",
+      "year": 2022,
+      "topicId": "swadeshi",
+      "prompt": "Examine the significance of Swadeshi Movement in the Indian Freedom Struggle? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 8,
+          "to": 8
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-8-3",
+      "year": 2022,
+      "topicId": "states-reorganisation",
+      "prompt": "Give a critical comment on reorganization of states in India. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 8,
+          "to": 8
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-8-4",
+      "year": 2022,
+      "topicId": "ideologies-world",
+      "prompt": "Discuss the impact of the collapse of communism in Eastern Europe in international relations. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 8,
+          "to": 8
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-9-1",
+      "year": 2023,
+      "topicId": "colonial-economy",
+      "prompt": "Examine the various facets of economic policies of the British in India from the mid-18th century till independence. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 9,
+          "to": 9
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-9-2",
+      "year": 2023,
+      "topicId": "gandhi-early",
+      "prompt": "Discuss Gandhi’s ideology and strategies of struggle in the freedom movement. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 9,
+          "to": 9
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-9-3",
+      "year": 2023,
+      "topicId": "congress",
+      "prompt": "What were the ideologies used by the moderates to transform the Indian freedom Movement into a mass based movement that encompassed various sections of society? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 9,
+          "to": 9
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-9-4",
+      "year": 2023,
+      "topicId": "partition-rehab",
+      "prompt": "Examine the causes and consequences of the partition of British India. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 9,
+          "to": 9
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-10-1",
+      "year": 2024,
+      "topicId": "ideologies-world",
+      "prompt": "Compare and contrast the ideologies of capitalism and Socialism. Examine their impacts on the development of the modern world after the collapse of the Soviet Union. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 10,
+          "to": 10
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-10-2",
+      "year": 2024,
+      "topicId": "swadeshi",
+      "prompt": "How did the partition of Bengal (1905) lead to the rise of Swadeshi and boycott movements. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 10,
+          "to": 10
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-10-3",
+      "year": 2024,
+      "topicId": "integration",
+      "prompt": "Discuss the contribution of Sardar Vallabbhai Patel to pre and post-independent India. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 10,
+          "to": 10
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-10-4",
+      "year": 2024,
+      "topicId": "ideologies-world",
+      "prompt": "What do you mean by Chinese capitalism? Discuss the “Socialist Modernization” in the post-Mao Zedong China. (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 10,
+          "to": 10
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-11-1",
+      "year": 2025,
+      "topicId": "gupta",
+      "prompt": "1. Examine the literary and artistic advancements during the Gupta age that justify its title as a ‘Golden Age’. (15)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 11,
+          "to": 11
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-11-2",
+      "year": 2025,
+      "topicId": "reform-west",
+      "prompt": "2. Discuss the key aspects and significance of social and religious reforms in India during the 19th century. (15)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 11,
+          "to": 11
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-11-3",
+      "year": 2025,
+      "topicId": "gandhi-early",
+      "prompt": "3. Explain Satyagraha. How did Gandhi employ it as a tool in his struggle for India’s freedom? (15)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 11,
+          "to": 11
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-12-1",
+      "year": 2025,
+      "topicId": "states-reorganisation",
+      "prompt": "4. Assess the challenges involved in the political and administrative reorganization of India after Independence. (15)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 12,
+          "to": 12
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-12-2",
+      "year": 2025,
+      "topicId": "industrial-world",
+      "prompt": "5. Define colonialism. How did colonialism reshape the political and social structures of colonized societies? (5+10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 12,
+          "to": 12
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-12-3",
+      "year": 2025,
+      "topicId": "harappa",
+      "prompt": "13. Discuss the Harappan art and crafts, with special reference to its seals and pottery traditions.(10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 12,
+          "to": 12
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-13-1",
+      "year": 2025,
+      "topicId": "akbar-culture",
+      "prompt": "14. How did Mughal rulers contribute to the development of India’s composite cultural heritage? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 13,
+          "to": 13
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-13-2",
+      "year": 2025,
+      "topicId": "bhakti-sufi",
+      "prompt": "15. In what ways did the Bhakti Movement reflect continuity and change within India’s spiritual and cultural heritage? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 13,
+          "to": 13
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-13-3",
+      "year": 2025,
+      "topicId": "colonial-economy",
+      "prompt": "16. How did the British Colonial rule led to both the decline and revival of India’s cultural and historical consciousness? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 13,
+          "to": 13
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-14-1",
+      "year": 2025,
+      "topicId": "industrial-world",
+      "prompt": "17.What were the main factors that led to the rise of Capitalism in Europe during the early modern period? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 14,
+          "to": 14
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    },
+    {
+      "id": "mains-14-2",
+      "year": 2025,
+      "topicId": "wars-world",
+      "prompt": "19. How did the rise of Fascism in Italy and Nazism in Germany contribute to the outbreak of the Second World War? (10)",
+      "sources": [
+        {
+          "sourceId": "mains-pyq",
+          "from": 14,
+          "to": 14
+        }
+      ],
+      "provenance": "transcribed-from-supplied-deck",
+      "officialPaperVerified": false
+    }
+  ]
+}

@@ -1,0 +1,2157 @@
+{
+  "schemaVersion": 1,
+  "questions": [
+    {
+      "id": "h001",
+      "revision": 1,
+      "topicId": "prehistory",
+      "prompt": "Microliths are particularly associated with which archaeological phase?",
+      "options": [
+        "Mesolithic",
+        "Mature Harappan",
+        "Mauryan",
+        "Gupta"
+      ],
+      "answerIndex": 0,
+      "explanation": "Microliths are small stone tools associated with Mesolithic assemblages. The other options refer to much later urban or political periods.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 5,
+          "to": 5
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h002",
+      "revision": 1,
+      "topicId": "prehistory",
+      "prompt": "Which combination best distinguishes Neolithic life from earlier hunting-and-gathering patterns?",
+      "options": [
+        "Iron currency and imperial taxation",
+        "Farming, domestication and polished stone tools",
+        "Gunpowder and cavalry",
+        "Printing and factory production"
+      ],
+      "answerIndex": 1,
+      "explanation": "Farming, domestication and polished stone tools are key Neolithic developments. Their adoption varied by region and did not happen everywhere at once.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 6,
+          "to": 6
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h003",
+      "revision": 1,
+      "topicId": "harappa",
+      "prompt": "The Great Bath is associated with which Harappan site?",
+      "options": [
+        "Harappa",
+        "Lothal",
+        "Mohenjodaro",
+        "Kalibangan"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Great Bath was excavated at Mohenjodaro. A site–find table helps distinguish urban features across Harappan settlements.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 24,
+          "to": 24
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h004",
+      "revision": 1,
+      "topicId": "harappa",
+      "prompt": "Which statement about the Harappan script is the safest historical conclusion?",
+      "options": [
+        "It is a fully translated Sanskrit alphabet",
+        "It is identical to Ashokan Brahmi",
+        "It has been conclusively read as Tamil",
+        "It remains undeciphered"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Harappan script remains undeciphered. Proposed linguistic identifications should not be confused with an established decipherment.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 35,
+          "to": 35
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h005",
+      "revision": 1,
+      "topicId": "harappa",
+      "prompt": "Which pair consists of materials used in the alloy bronze?",
+      "options": [
+        "Copper and tin",
+        "Iron and carbon",
+        "Gold and silver",
+        "Lead and zinc"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bronze is an alloy of copper and tin. The slide discusses bronze tools in the Harappan material record.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 29,
+          "to": 29
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h006",
+      "revision": 1,
+      "topicId": "vedic-early",
+      "prompt": "In the early Vedic context, the term rajan referred primarily to the:",
+      "options": [
+        "Chief revenue accountant",
+        "Tribal chief",
+        "Head of a guild",
+        "Buddhist monk"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rajan referred to the tribal chief. It should be understood within early Vedic kinship-based polity, not automatically as a later territorial emperor.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 45,
+          "to": 45
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h007",
+      "revision": 1,
+      "topicId": "vedic-early",
+      "prompt": "Which activity was especially important in the early Vedic economy?",
+      "options": [
+        "Oceanic factory trade",
+        "Plantation tea cultivation",
+        "Pastoralism",
+        "Industrial mining"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cattle and pastoral life held particular importance in early Vedic society; agriculture also existed. Later Vedic study brings the greater importance of agriculture into focus.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 43,
+          "to": 43
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h008",
+      "revision": 1,
+      "topicId": "vedic-later",
+      "prompt": "Which change is associated with the later Vedic period in these notes?",
+      "options": [
+        "Agriculture disappeared",
+        "Assemblies gained unlimited control over kings",
+        "Territorial organisation ceased to exist",
+        "Agriculture became more central to the economy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The notes describe agriculture becoming the principal economic activity and political organisation becoming more territorial.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 54,
+          "to": 54
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h009",
+      "revision": 1,
+      "topicId": "vedic-texts",
+      "prompt": "Which Veda is especially associated with melodies and chants?",
+      "options": [
+        "Sama Veda",
+        "Yajur Veda",
+        "Atharva Veda",
+        "Rig Veda"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sama Veda is associated with chants and melodies. Rig Veda contains hymns; Yajur Veda centres on sacrificial formulae.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 61,
+          "to": 61
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h010",
+      "revision": 1,
+      "topicId": "vedic-texts",
+      "prompt": "The Upanishads are most closely associated with:",
+      "options": [
+        "Lists of Mughal ranks",
+        "Philosophical inquiry",
+        "Colonial revenue surveys",
+        "Sultanate market prices"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Upanishads develop philosophical discussions. Brahmanas are especially associated with explanations of sacrificial rituals.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 66,
+          "to": 66
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h011",
+      "revision": 1,
+      "topicId": "mahajanapadas",
+      "prompt": "Which dynasty did Chandragupta Maurya overthrow in Magadha?",
+      "options": [
+        "Gupta",
+        "Pala",
+        "Nanda",
+        "Chola"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Mauryan rise followed the overthrow of the Nanda ruler. Keep this transition separate from the much later Gupta period.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 75,
+          "to": 75
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h012",
+      "revision": 1,
+      "topicId": "mahajanapadas",
+      "prompt": "Bimbisara belonged to which dynasty?",
+      "options": [
+        "Shunga",
+        "Kushan",
+        "Gupta",
+        "Haryanka"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bimbisara was a Haryanka ruler of Magadha. Shishunaga and Nanda rule followed later.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 70,
+          "to": 70
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h013",
+      "revision": 1,
+      "topicId": "buddhism",
+      "prompt": "Which set gives the three jewels of Buddhism?",
+      "options": [
+        "Buddha, dhamma, sangha",
+        "Right faith, knowledge, conduct",
+        "Brahma, Vishnu, Shiva",
+        "Rajan, sabha, samiti"
+      ],
+      "answerIndex": 0,
+      "explanation": "Buddha, dhamma and sangha are the Buddhist three jewels. Right faith, knowledge and conduct are the Jain three jewels.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 81,
+          "to": 81
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h014",
+      "revision": 1,
+      "topicId": "buddhism",
+      "prompt": "The Milindapanho is associated with a dialogue between:",
+      "options": [
+        "Ashoka and Kautilya",
+        "Menander and Nagasena",
+        "Akbar and Abul Fazl",
+        "Harsha and Banabhatta"
+      ],
+      "answerIndex": 1,
+      "explanation": "Milindapanho presents a dialogue between the Indo-Greek ruler Menander (Milinda) and the Buddhist monk Nagasena.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 84,
+          "to": 84
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h015",
+      "revision": 1,
+      "topicId": "jainism",
+      "prompt": "Mahavira is traditionally identified as the:",
+      "options": [
+        "First tirthankara",
+        "Tenth tirthankara",
+        "Twenty-fourth tirthankara",
+        "Founder of the Buddhist sangha"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mahavira is the 24th tirthankara in Jain tradition. Rishabhanatha is the first and Parshvanatha the 23rd.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 88,
+          "to": 88
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h016",
+      "revision": 1,
+      "topicId": "jainism",
+      "prompt": "Which set describes the Jain three jewels?",
+      "options": [
+        "Buddha, dhamma, sangha",
+        "Ritual, conquest, taxation",
+        "Faith, empire, sacrifice",
+        "Right faith, right knowledge, right conduct"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Jain three jewels are right faith, right knowledge and right conduct. Distinguishing them from the Buddhist three jewels is a common comparison task.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 89,
+          "to": 89
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h017",
+      "revision": 1,
+      "topicId": "invasions-ancient",
+      "prompt": "Alexander’s battle with Porus is placed in which year?",
+      "options": [
+        "326 BCE",
+        "261 BCE",
+        "78 CE",
+        "320 CE"
+      ],
+      "answerIndex": 0,
+      "explanation": "Alexander’s campaign and battle with Porus are placed in 326 BCE, before the establishment of Mauryan power.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 92,
+          "to": 92
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h018",
+      "revision": 1,
+      "topicId": "mauryas",
+      "prompt": "Which sequence correctly orders these Mauryan rulers?",
+      "options": [
+        "Ashoka → Bindusara → Chandragupta",
+        "Chandragupta → Bindusara → Ashoka",
+        "Bindusara → Ashoka → Chandragupta",
+        "Chandragupta → Ashoka → Bindusara"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chandragupta founded the dynasty, Bindusara succeeded him, and Ashoka followed Bindusara.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 94,
+          "to": 94
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h019",
+      "revision": 1,
+      "topicId": "mauryas",
+      "prompt": "The Greek name Sandrocottus is associated with:",
+      "options": [
+        "Samudragupta",
+        "Kanishka",
+        "Chandragupta Maurya",
+        "Harsha"
+      ],
+      "answerIndex": 2,
+      "explanation": "Greek accounts use names such as Sandrocottus for Chandragupta Maurya. Do not confuse him with Chandragupta I or II of the Gupta dynasty.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 95,
+          "to": 95
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h020",
+      "revision": 1,
+      "topicId": "post-mauryas",
+      "prompt": "Who is associated with founding the Shunga dynasty?",
+      "options": [
+        "Gautamiputra Satakarni",
+        "Vasudeva Kanva",
+        "Kanishka",
+        "Pushyamitra"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pushyamitra Shunga established the Shunga dynasty after the last Mauryan ruler. Vasudeva belongs to the later Kanva succession.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 102,
+          "to": 102
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h021",
+      "revision": 1,
+      "topicId": "kushanas",
+      "prompt": "Kanishka belonged to which dynasty?",
+      "options": [
+        "Kushana",
+        "Haryanka",
+        "Chola",
+        "Pala"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kanishka was a Kushana ruler associated with Buddhist patronage and political connections across northwestern India and Central Asia.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 117,
+          "to": 117
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h022",
+      "revision": 1,
+      "topicId": "sangam",
+      "prompt": "Which trio names the major crowned kingdoms of early Tamil country?",
+      "options": [
+        "Pala, Pratihara, Rashtrakuta",
+        "Chera, Chola, Pandya",
+        "Shunga, Kanva, Nanda",
+        "Sayyid, Lodi, Khalji"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chera, Chola and Pandya are the three major crowned kingdoms associated with the early Tamil/Sangam historical setting.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 118,
+          "to": 119
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h023",
+      "revision": 1,
+      "topicId": "sangam",
+      "prompt": "Tolkappiyam is principally associated with:",
+      "options": [
+        "Persian court history",
+        "Mughal land revenue",
+        "Tamil grammar",
+        "British constitutional reform"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tolkappiyam is an early work of Tamil grammar. It belongs in the Tamil literary tradition rather than the later Persian court tradition.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 121,
+          "to": 121
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h024",
+      "revision": 1,
+      "topicId": "gupta",
+      "prompt": "Harisena’s Allahabad pillar inscription praises which Gupta ruler?",
+      "options": [
+        "Chandragupta Maurya",
+        "Kumaragupta",
+        "Harsha",
+        "Samudragupta"
+      ],
+      "answerIndex": 3,
+      "explanation": "Harisena’s prashasti on the Allahabad pillar is a central source for Samudragupta’s achievements. As royal praise, it also needs critical reading.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 124,
+          "to": 124
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h025",
+      "revision": 1,
+      "topicId": "gupta",
+      "prompt": "Fa-Hien’s visit is associated with the reign of:",
+      "options": [
+        "Chandragupta II",
+        "Chandragupta Maurya",
+        "Akbar",
+        "Rajaraja I"
+      ],
+      "answerIndex": 0,
+      "explanation": "The notes associate Fa-Hien’s visit with Chandragupta II. Xuanzang is linked to the later age of Harsha.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 126,
+          "to": 127
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h026",
+      "revision": 1,
+      "topicId": "harsha",
+      "prompt": "Which ruler checked Harsha’s expansion into the Deccan?",
+      "options": [
+        "Bimbisara",
+        "Pulakeshin II",
+        "Ibrahim Lodi",
+        "Sher Shah"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pulakeshin II of the Chalukyas checked Harsha’s southern expansion. The encounter belongs to the seventh-century regional political landscape.",
+      "sources": [
+        {
+          "sourceId": "ancient",
+          "from": 134,
+          "to": 134
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h027",
+      "revision": 1,
+      "topicId": "tripartite",
+      "prompt": "The tripartite struggle for Kannauj involved:",
+      "options": [
+        "Cholas, Cheras and Pandyas",
+        "Mughals, Marathas and Sikhs",
+        "Palas, Pratiharas and Rashtrakutas",
+        "Nandas, Mauryas and Shungas"
+      ],
+      "answerIndex": 2,
+      "explanation": "Palas, Gurjara-Pratiharas and Rashtrakutas competed for influence over Kannauj. Their principal regional bases differed.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 1,
+          "to": 3
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h028",
+      "revision": 1,
+      "topicId": "tripartite",
+      "prompt": "Which dynasty patronised both Nalanda and Vikramashila?",
+      "options": [
+        "Lodi",
+        "Khalji",
+        "Sur",
+        "Pala"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Pala rulers were major patrons of Buddhist learning, including Nalanda and Vikramashila.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 21,
+          "to": 21
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h029",
+      "revision": 1,
+      "topicId": "cholas",
+      "prompt": "Which Chola ruler is associated with the title Gangaikonda Chola and a northern expedition?",
+      "options": [
+        "Rajendra I",
+        "Bahlul Lodi",
+        "Dharmapala",
+        "Iltutmish"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rajendra I’s northern expedition is associated with the Gangaikonda title. Distinguish him from his father Rajaraja I.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 121,
+          "to": 121
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h030",
+      "revision": 1,
+      "topicId": "turkish-conquests",
+      "prompt": "Who defeated Prithviraj Chauhan in the second battle of Tarain?",
+      "options": [
+        "Mahmud of Ghazni",
+        "Muhammad of Ghur",
+        "Muhammad bin Qasim",
+        "Babur"
+      ],
+      "answerIndex": 1,
+      "explanation": "Muhammad of Ghur defeated Prithviraj in the second battle of Tarain in 1192. Mahmud of Ghazni belongs to an earlier series of campaigns.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 37,
+          "to": 37
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h031",
+      "revision": 1,
+      "topicId": "mamluks",
+      "prompt": "Who founded the Mamluk dynasty at Delhi?",
+      "options": [
+        "Balban",
+        "Alauddin Khalji",
+        "Qutbuddin Aibak",
+        "Ghiyasuddin Tughlaq"
+      ],
+      "answerIndex": 2,
+      "explanation": "Qutbuddin Aibak founded Mamluk rule at Delhi in 1206. Iltutmish subsequently consolidated the state.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 43,
+          "to": 43
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h032",
+      "revision": 1,
+      "topicId": "mamluks",
+      "prompt": "Who completed the Qutb Minar according to the notes?",
+      "options": [
+        "Babur",
+        "Firoz Shah",
+        "Sikandar Lodi",
+        "Iltutmish"
+      ],
+      "answerIndex": 3,
+      "explanation": "Aibak initiated construction and Iltutmish completed the main early structure. Later rulers carried out repairs and additions.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 51,
+          "to": 51
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h033",
+      "revision": 1,
+      "topicId": "khaljis",
+      "prompt": "Alauddin Khalji’s market regulations are most directly connected to which state need?",
+      "options": [
+        "Maintaining a large standing army at controlled cost",
+        "Financing European trading companies",
+        "Establishing elected village councils",
+        "Replacing cavalry with a navy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Controlled prices helped support a large standing army. The regulations should be studied alongside military and revenue measures.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 78,
+          "to": 81
+        }
+      ],
+      "difficulty": "application",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h034",
+      "revision": 1,
+      "topicId": "tughlaqs",
+      "prompt": "Token currency and the attempted capital transfer to Daulatabad are associated with:",
+      "options": [
+        "Firoz Shah Tughlaq",
+        "Muhammad bin Tughlaq",
+        "Razia",
+        "Sikandar Lodi"
+      ],
+      "answerIndex": 1,
+      "explanation": "These experiments belong to Muhammad bin Tughlaq. Firoz Shah is better associated with canals and other administrative/public works measures.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 86,
+          "to": 88
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h035",
+      "revision": 1,
+      "topicId": "later-sultanate",
+      "prompt": "Which dynasty ruled Delhi immediately before Babur’s victory at Panipat?",
+      "options": [
+        "Sayyid",
+        "Tughlaq",
+        "Lodi",
+        "Khalji"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ibrahim Lodi was defeated by Babur in 1526, ending Lodi rule at Delhi and opening the Mughal period.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 110,
+          "to": 111
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h036",
+      "revision": 1,
+      "topicId": "vijayanagara",
+      "prompt": "Who founded the Vijayanagara kingdom?",
+      "options": [
+        "Akbar and Bairam Khan",
+        "Rajaraja and Rajendra",
+        "Gopala and Dharmapala",
+        "Harihara and Bukka"
+      ],
+      "answerIndex": 3,
+      "explanation": "Harihara and Bukka founded Vijayanagara in 1336. The early ruling line is known as the Sangama dynasty.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 130,
+          "to": 130
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h037",
+      "revision": 1,
+      "topicId": "vijayanagara",
+      "prompt": "Which interpretation of the battle of Talikota is most accurate?",
+      "options": [
+        "It devastated the capital, but successor rulers continued the kingdom",
+        "It founded the Sangama dynasty",
+        "It ended every form of Vijayanagara rule immediately",
+        "It was a battle against the East India Company"
+      ],
+      "answerIndex": 0,
+      "explanation": "The defeat in 1565 devastated Vijayanagara, but political rule continued under successors. Destruction of a capital is not identical to immediate extinction of a polity.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 149,
+          "to": 149
+        }
+      ],
+      "difficulty": "application",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h038",
+      "revision": 1,
+      "topicId": "bahmani",
+      "prompt": "Mahmud Gawan is especially associated with which kingdom?",
+      "options": [
+        "Pala",
+        "Bahmani",
+        "Nanda",
+        "Lodi"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mahmud Gawan served the Bahmani kingdom and is associated with administrative reforms and a madrasa at Bidar.",
+      "sources": [
+        {
+          "sourceId": "sultanate",
+          "from": 158,
+          "to": 158
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h039",
+      "revision": 1,
+      "topicId": "babur",
+      "prompt": "Which sequence of Babur’s battles is chronological?",
+      "options": [
+        "Khanwa → Panipat → Ghaghra → Chanderi",
+        "Ghaghra → Chanderi → Khanwa → Panipat",
+        "Panipat → Khanwa → Chanderi → Ghaghra",
+        "Chanderi → Panipat → Ghaghra → Khanwa"
+      ],
+      "answerIndex": 2,
+      "explanation": "The usual sequence is Panipat (1526), Khanwa (1527), Chanderi (1528), Ghaghra (1529).",
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 4,
+          "to": 8
+        }
+      ],
+      "difficulty": "application",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h040",
+      "revision": 1,
+      "topicId": "humayun",
+      "prompt": "Humayun’s defeat at Kannauj in 1540 was at the hands of:",
+      "options": [
+        "Rana Sanga",
+        "Hemu",
+        "Ibrahim Lodi",
+        "Sher Shah"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sher Shah defeated Humayun at Kannauj (also called Bilgram) in 1540, after the earlier defeat at Chausa.",
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 12,
+          "to": 12
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h041",
+      "revision": 1,
+      "topicId": "akbar-expansion",
+      "prompt": "The second battle of Panipat in 1556 was fought between Akbar’s forces and:",
+      "options": [
+        "Hemu",
+        "Ibrahim Lodi",
+        "Rana Sanga",
+        "Ahmad Shah Abdali"
+      ],
+      "answerIndex": 0,
+      "explanation": "Akbar’s forces, led by Bairam Khan, defeated Hemu. Ibrahim Lodi belongs to the first battle and Abdali to the third.",
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 27,
+          "to": 27
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h042",
+      "revision": 1,
+      "topicId": "mughal-administration",
+      "prompt": "Which sequence runs from the largest to the smallest administrative unit?",
+      "options": [
+        "Village → suba → sarkar → pargana",
+        "Suba → sarkar → pargana → village",
+        "Sarkar → village → suba → pargana",
+        "Pargana → suba → village → sarkar"
+      ],
+      "answerIndex": 1,
+      "explanation": "A suba was a province, divided into sarkars, then parganas and villages.",
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 71,
+          "to": 78
+        }
+      ],
+      "difficulty": "application",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h043",
+      "revision": 1,
+      "topicId": "mansab-jagir",
+      "prompt": "In the mansabdari system, sawar primarily indicated:",
+      "options": [
+        "A permanent land title",
+        "The religious status of a noble",
+        "The cavalry obligation attached to a rank",
+        "The name of a province"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sawar concerned the number of cavalrymen to be maintained; zat expressed personal rank/status. A jagir was a revenue assignment.",
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 85,
+          "to": 85
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h044",
+      "revision": 1,
+      "topicId": "mansab-jagir",
+      "prompt": "Which statement best describes a Mughal jagir?",
+      "options": [
+        "An independent sovereign kingdom",
+        "An elected village council",
+        "A religious debate hall",
+        "An assignment of revenue"
+      ],
+      "answerIndex": 3,
+      "explanation": "A jagir assigned revenue to its holder, often in lieu of salary. It did not automatically convey private ownership or independent sovereignty over the land.",
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 92,
+          "to": 92
+        }
+      ],
+      "difficulty": "application",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h045",
+      "revision": 1,
+      "topicId": "akbar-culture",
+      "prompt": "Akbar’s Ibadat Khana was located at:",
+      "options": [
+        "Fatehpur Sikri",
+        "Patna",
+        "Daulatabad",
+        "Thanjavur"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Ibadat Khana was established at Fatehpur Sikri for religious discussion.",
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 98,
+          "to": 98
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h046",
+      "revision": 1,
+      "topicId": "jahangir",
+      "prompt": "Sir Thomas Roe visited the court of:",
+      "options": [
+        "Babur",
+        "Jahangir",
+        "Aurangzeb",
+        "Sher Shah"
+      ],
+      "answerIndex": 1,
+      "explanation": "Roe’s embassy visited Jahangir’s court in the early seventeenth century. This links Mughal court history with English trading ambitions.",
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 114,
+          "to": 114
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h047",
+      "revision": 1,
+      "topicId": "aurangzeb",
+      "prompt": "Which emperor succeeded in the Mughal war of succession involving Dara Shikoh?",
+      "options": [
+        "Akbar",
+        "Jahangir",
+        "Aurangzeb",
+        "Humayun"
+      ],
+      "answerIndex": 2,
+      "explanation": "Aurangzeb emerged victorious in the succession conflict involving Dara Shikoh and his other brothers.",
+      "sources": [
+        {
+          "sourceId": "mughals",
+          "from": 122,
+          "to": 122
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h048",
+      "revision": 1,
+      "topicId": "europeans",
+      "prompt": "The English East India Company received its founding royal charter in:",
+      "options": [
+        "1498",
+        "1757",
+        "1858",
+        "1600"
+      ],
+      "answerIndex": 3,
+      "explanation": "The English company was chartered in 1600. Its establishment as a trading company preceded territorial rule by well over a century.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 6,
+          "to": 6
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h049",
+      "revision": 1,
+      "topicId": "carnatic",
+      "prompt": "The battle of Wandiwash in 1760 was significant chiefly because it:",
+      "options": [
+        "Weakened French military power in India",
+        "Ended the Mughal dynasty",
+        "Created the Indian National Congress",
+        "Established the Permanent Settlement"
+      ],
+      "answerIndex": 0,
+      "explanation": "The English victory at Wandiwash weakened French military prospects during the third Carnatic war.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 16,
+          "to": 16
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h050",
+      "revision": 1,
+      "topicId": "bengal",
+      "prompt": "Which battle took place in 1764?",
+      "options": [
+        "Plassey",
+        "Buxar",
+        "First Panipat",
+        "Talikota"
+      ],
+      "answerIndex": 1,
+      "explanation": "Buxar was fought in 1764. Plassey was in 1757; the Company’s diwani grant followed in 1765.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 19,
+          "to": 19
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h051",
+      "revision": 1,
+      "topicId": "bengal",
+      "prompt": "The Company’s diwani rights concerned primarily:",
+      "options": [
+        "Royal succession",
+        "Naval command",
+        "Revenue collection",
+        "Religious appointments"
+      ],
+      "answerIndex": 2,
+      "explanation": "Diwani rights concerned revenue collection. The 1765 grant was a key step in the Company’s territorial and fiscal power.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 20,
+          "to": 20
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h052",
+      "revision": 1,
+      "topicId": "mysore-marathas",
+      "prompt": "The third battle of Panipat in 1761 was fought between the Marathas and:",
+      "options": [
+        "Babur",
+        "Robert Clive",
+        "Hemu",
+        "Ahmad Shah Abdali"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Marathas fought Ahmad Shah Abdali (Durrani). This is distinct from the first and second battles of Panipat.",
+      "sources": [
+        {
+          "sourceId": "mains-1",
+          "from": 6,
+          "to": 6
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h053",
+      "revision": 1,
+      "topicId": "annexation",
+      "prompt": "Which pairing is correct?",
+      "options": [
+        "Wellesley — subsidiary alliance",
+        "Dalhousie — founding the Arya Samaj",
+        "Ripon — doctrine of lapse",
+        "Curzon — Permanent Settlement"
+      ],
+      "answerIndex": 0,
+      "explanation": "Wellesley expanded the use of subsidiary alliances. The doctrine of lapse is associated with Dalhousie and Permanent Settlement with Cornwallis.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 72,
+          "to": 72
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h054",
+      "revision": 1,
+      "topicId": "company-acts",
+      "prompt": "Which act introduced a Board of Control over Company affairs?",
+      "options": [
+        "Regulating Act 1773",
+        "Pitt’s India Act 1784",
+        "Charter Act 1813",
+        "Indian Councils Act 1909"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pitt’s India Act established the Board of Control, creating a system of supervision alongside the Company’s Court of Directors.",
+      "sources": [
+        {
+          "sourceId": "mains-1",
+          "from": 60,
+          "to": 61
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h055",
+      "revision": 1,
+      "topicId": "revenue-colonial",
+      "prompt": "A revenue settlement made directly with individual cultivators is most closely associated with:",
+      "options": [
+        "Permanent Settlement",
+        "Mahalwari",
+        "Ryotwari",
+        "Mansabdari"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ryotwari involved settlement directly with cultivators. Permanent Settlement used zamindars, while Mahalwari assessed village or estate units.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 12,
+          "to": 12
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h056",
+      "revision": 1,
+      "topicId": "revenue-colonial",
+      "prompt": "The Permanent Settlement of Bengal was introduced under:",
+      "options": [
+        "Wellesley",
+        "Bentinck",
+        "Dalhousie",
+        "Cornwallis"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cornwallis introduced the Permanent Settlement in 1793. Its defining feature was a permanently fixed revenue demand on zamindars.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 11,
+          "to": 11
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h057",
+      "revision": 1,
+      "topicId": "governors",
+      "prompt": "Who became the first Viceroy of India after the transfer to Crown rule?",
+      "options": [
+        "Canning",
+        "Curzon",
+        "Ripon",
+        "Wavell"
+      ],
+      "answerIndex": 0,
+      "explanation": "Canning was Governor-General during the revolt and became the first viceroy under Crown rule.",
+      "sources": [
+        {
+          "sourceId": "mains-1",
+          "from": 74,
+          "to": 74
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h058",
+      "revision": 1,
+      "topicId": "revolt-1857",
+      "prompt": "Which development followed the revolt of 1857?",
+      "options": [
+        "Creation of the East India Company",
+        "Transfer of government from Company to Crown",
+        "Introduction of the doctrine of lapse",
+        "Foundation of the Mughal dynasty"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Government of India Act 1858 transferred rule to the Crown. It ended the Company’s governing role.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 69,
+          "to": 69
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h059",
+      "revision": 1,
+      "topicId": "revolt-1857",
+      "prompt": "Nana Saheb is principally associated with which centre of the revolt?",
+      "options": [
+        "Meerut",
+        "Lucknow",
+        "Kanpur",
+        "Bareilly"
+      ],
+      "answerIndex": 2,
+      "explanation": "Nana Saheb led the revolt at Kanpur. Link leaders to centres rather than memorising their names in isolation.",
+      "sources": [
+        {
+          "sourceId": "mains-1",
+          "from": 94,
+          "to": 94
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h060",
+      "revision": 1,
+      "topicId": "reform-bengal",
+      "prompt": "Rammohun Roy is most closely associated with:",
+      "options": [
+        "Arya Samaj",
+        "Ghadar Party",
+        "Home Rule League",
+        "Brahmo Samaj"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rammohun Roy’s Brahmo tradition was central to nineteenth-century reform in Bengal. Arya Samaj belongs to Dayanand Saraswati.",
+      "sources": [
+        {
+          "sourceId": "mains-1",
+          "from": 115,
+          "to": 115
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h061",
+      "revision": 1,
+      "topicId": "reform-west",
+      "prompt": "Who founded the Arya Samaj?",
+      "options": [
+        "Dayanand Saraswati",
+        "Vivekananda",
+        "Jyotiba Phule",
+        "Henry Derozio"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dayanand Saraswati founded Arya Samaj in 1875. Vivekananda is associated with Ramakrishna Mission and Phule with Satyashodhak Samaj.",
+      "sources": [
+        {
+          "sourceId": "mains-1",
+          "from": 140,
+          "to": 140
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h062",
+      "revision": 1,
+      "topicId": "reform-west",
+      "prompt": "Satyashodhak Samaj is associated with:",
+      "options": [
+        "Debendranath Tagore",
+        "Jyotiba Phule",
+        "Annie Besant",
+        "Sir Syed Ahmad Khan"
+      ],
+      "answerIndex": 1,
+      "explanation": "Phule established Satyashodhak Samaj to challenge caste oppression and promote social reform.",
+      "sources": [
+        {
+          "sourceId": "mains-1",
+          "from": 131,
+          "to": 133
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h063",
+      "revision": 1,
+      "topicId": "early-associations",
+      "prompt": "The Indian Association of Calcutta was founded in 1876 by Surendranath Banerjea and:",
+      "options": [
+        "W. C. Bonnerjee",
+        "Gopal Krishna Gokhale",
+        "Anand Mohan Bose",
+        "Mahatma Gandhi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Surendranath Banerjea and Anand Mohan Bose founded the Indian Association in 1876, before the Congress.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 90,
+          "to": 90
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h064",
+      "revision": 1,
+      "topicId": "congress",
+      "prompt": "Who presided over the first session of the Indian National Congress?",
+      "options": [
+        "Dadabhai Naoroji",
+        "A. O. Hume",
+        "Bal Gangadhar Tilak",
+        "W. C. Bonnerjee"
+      ],
+      "answerIndex": 3,
+      "explanation": "W. C. Bonnerjee presided over the first Congress session in 1885. Do not confuse the organiser A. O. Hume with the first president.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 93,
+          "to": 93
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h065",
+      "revision": 1,
+      "topicId": "swadeshi",
+      "prompt": "The Swadeshi movement of 1905 developed directly in opposition to:",
+      "options": [
+        "The partition of Bengal",
+        "The Rowlatt Act",
+        "The Simon Commission",
+        "The Cripps proposals"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Bengal partition of 1905 triggered the Swadeshi and boycott movement. The other events belong to later phases.",
+      "sources": [
+        {
+          "sourceId": "freedom",
+          "from": 8,
+          "to": 8
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h066",
+      "revision": 1,
+      "topicId": "swadeshi",
+      "prompt": "Which action best illustrates the constructive side of Swadeshi?",
+      "options": [
+        "Joining the Simon Commission",
+        "Promoting indigenous industry and national education",
+        "Supporting colonial imports exclusively",
+        "Suspending all political activity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Swadeshi included building indigenous enterprises and educational institutions alongside the boycott of foreign goods.",
+      "sources": [
+        {
+          "sourceId": "freedom",
+          "from": 13,
+          "to": 15
+        }
+      ],
+      "difficulty": "application",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h067",
+      "revision": 1,
+      "topicId": "league-revolutionaries",
+      "prompt": "The Komagata Maru incident occurred in:",
+      "options": [
+        "1857",
+        "1905",
+        "1914",
+        "1942"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Komagata Maru incident occurred in 1914. Study it with overseas Indian political activity and racial immigration restrictions.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 108,
+          "to": 108
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h068",
+      "revision": 1,
+      "topicId": "home-rule",
+      "prompt": "The Lucknow Pact between Congress and the Muslim League belongs to:",
+      "options": [
+        "1906",
+        "1909",
+        "1929",
+        "1916"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Lucknow Pact was concluded in 1916. It belongs to the period of Home Rule agitation and Congress reunification.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 111,
+          "to": 111
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h069",
+      "revision": 1,
+      "topicId": "constitutional-reforms",
+      "prompt": "Dyarchy in the provinces was introduced by the:",
+      "options": [
+        "Government of India Act 1919",
+        "Indian Councils Act 1909",
+        "Charter Act 1833",
+        "Government of India Act 1858"
+      ],
+      "answerIndex": 0,
+      "explanation": "The 1919 Act introduced provincial dyarchy, dividing subjects into transferred and reserved categories.",
+      "sources": [
+        {
+          "sourceId": "mains-2",
+          "from": 77,
+          "to": 78
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h070",
+      "revision": 1,
+      "topicId": "constitutional-reforms",
+      "prompt": "Which reform is associated with the Indian Councils Act 1909?",
+      "options": [
+        "Complete independence",
+        "Separate electorates for Muslims",
+        "Universal adult franchise",
+        "A sovereign constituent assembly"
+      ],
+      "answerIndex": 1,
+      "explanation": "The 1909 reforms introduced separate electorates for Muslims. They did not introduce universal adult franchise or responsible national government.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 105,
+          "to": 105
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h071",
+      "revision": 1,
+      "topicId": "gandhi-early",
+      "prompt": "The Ahmedabad struggle of 1918 concerned:",
+      "options": [
+        "Indigo planters",
+        "Salt laws",
+        "Mill workers",
+        "Princely-state accession"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ahmedabad involved mill workers and a wage dispute. Champaran concerned indigo cultivators, while Kheda concerned land revenue.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 117,
+          "to": 117
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h072",
+      "revision": 1,
+      "topicId": "gandhi-early",
+      "prompt": "The Jallianwala Bagh massacre occurred in:",
+      "options": [
+        "1905",
+        "1917",
+        "1922",
+        "1919"
+      ],
+      "answerIndex": 3,
+      "explanation": "The massacre occurred at Amritsar in April 1919, during the period of agitation against the Rowlatt Act.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 118,
+          "to": 118
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h073",
+      "revision": 1,
+      "topicId": "non-cooperation",
+      "prompt": "Which event prompted Gandhi to suspend Non-Cooperation in 1922?",
+      "options": [
+        "Chauri Chaura",
+        "The Dandi March",
+        "The Cabinet Mission",
+        "The Surat split"
+      ],
+      "answerIndex": 0,
+      "explanation": "Violence at Chauri Chaura in February 1922 led Gandhi to suspend the movement. Dandi belongs to Civil Disobedience in 1930.",
+      "sources": [
+        {
+          "sourceId": "freedom",
+          "from": 43,
+          "to": 43
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h074",
+      "revision": 1,
+      "topicId": "swarajists",
+      "prompt": "Which pair is associated with the Swarajist strategy of entering legislative councils?",
+      "options": [
+        "Tilak and Lajpat Rai",
+        "C. R. Das and Motilal Nehru",
+        "Gandhi and Vinoba Bhave",
+        "Bose and Mohan Singh"
+      ],
+      "answerIndex": 1,
+      "explanation": "C. R. Das and Motilal Nehru advocated council entry to challenge colonial government from within legislatures.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 128,
+          "to": 128
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h075",
+      "revision": 1,
+      "topicId": "bardoli",
+      "prompt": "The Bardoli Satyagraha of 1928 was led by:",
+      "options": [
+        "Jawaharlal Nehru",
+        "C. R. Das",
+        "Vallabhbhai Patel",
+        "B. R. Ambedkar"
+      ],
+      "answerIndex": 2,
+      "explanation": "Patel led the Bardoli movement against an increased land revenue assessment.",
+      "sources": [
+        {
+          "sourceId": "mains-2",
+          "from": 114,
+          "to": 114
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h076",
+      "revision": 1,
+      "topicId": "civil-disobedience",
+      "prompt": "The Dandi March was directed immediately against:",
+      "options": [
+        "The doctrine of lapse",
+        "The partition of Bengal",
+        "The Vernacular Press Act",
+        "The salt law"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gandhi’s 1930 march culminated in breaking the salt law. Salt connected an everyday necessity with a mass political campaign.",
+      "sources": [
+        {
+          "sourceId": "freedom",
+          "from": 63,
+          "to": 63
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h077",
+      "revision": 1,
+      "topicId": "civil-disobedience",
+      "prompt": "Which sequence is correct?",
+      "options": [
+        "Lahore Purna Swaraj resolution → Dandi March → Gandhi–Irwin Pact",
+        "Dandi March → Lahore resolution → Gandhi–Irwin Pact",
+        "Gandhi–Irwin Pact → Dandi March → Lahore resolution",
+        "Lahore resolution → Gandhi–Irwin Pact → Dandi March"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Lahore resolution was in December 1929, the Dandi March in 1930 and the Gandhi–Irwin Pact in 1931.",
+      "sources": [
+        {
+          "sourceId": "freedom",
+          "from": 58,
+          "to": 66
+        }
+      ],
+      "difficulty": "application",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h078",
+      "revision": 1,
+      "topicId": "poona-pact",
+      "prompt": "The Poona Pact provided for the Depressed Classes through:",
+      "options": [
+        "Separate sovereign territories",
+        "Reserved seats within a joint electorate",
+        "Abolition of all electoral representation",
+        "A hereditary council"
+      ],
+      "answerIndex": 1,
+      "explanation": "The pact used reserved seats in joint electorates, replacing the separate-electorate arrangement proposed in the Communal Award.",
+      "sources": [
+        {
+          "sourceId": "mains-2",
+          "from": 128,
+          "to": 130
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked",
+      "evidence": [
+        {
+          "title": "Ministry of External Affairs · archival documents, Volume 10",
+          "url": "https://www.mea.gov.in/Images/CPV/Volume10.pdf"
+        }
+      ]
+    },
+    {
+      "id": "h079",
+      "revision": 1,
+      "topicId": "war-quit-india",
+      "prompt": "Which proposal immediately preceded the Quit India movement in 1942?",
+      "options": [
+        "Cabinet Mission",
+        "Mountbatten Plan",
+        "Cripps Mission",
+        "Morley–Minto reforms"
+      ],
+      "answerIndex": 2,
+      "explanation": "The failure of the Cripps Mission in 1942 preceded Quit India. Cabinet Mission and Mountbatten Plan belong to 1946 and 1947.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 154,
+          "to": 154
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h080",
+      "revision": 1,
+      "topicId": "war-quit-india",
+      "prompt": "The underground Congress Radio during Quit India is associated with:",
+      "options": [
+        "Sarojini Naidu",
+        "Annie Besant",
+        "Madam Cama",
+        "Usha Mehta"
+      ],
+      "answerIndex": 3,
+      "explanation": "Usha Mehta was associated with underground Congress Radio during the Quit India movement.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 159,
+          "to": 159
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h081",
+      "revision": 1,
+      "topicId": "ina",
+      "prompt": "The INA trials of Sehgal, Shah Nawaz and Dhillon took place at:",
+      "options": [
+        "The Red Fort",
+        "Aga Khan Palace",
+        "Cellular Jail",
+        "Sabarmati Ashram"
+      ],
+      "answerIndex": 0,
+      "explanation": "The three officers were tried at the Red Fort. The trials became a focus of widespread public mobilisation.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 168,
+          "to": 168
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h082",
+      "revision": 1,
+      "topicId": "partition-negotiations",
+      "prompt": "The Cabinet Mission came to India in:",
+      "options": [
+        "1942",
+        "1946",
+        "1935",
+        "1947"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Cabinet Mission arrived in 1946 with proposals for a constitutional settlement. It must be distinguished from the Mountbatten Plan of 1947.",
+      "sources": [
+        {
+          "sourceId": "modern",
+          "from": 169,
+          "to": 169
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h083",
+      "revision": 1,
+      "topicId": "women-students",
+      "prompt": "Which is a sound approach to assessing women’s role in the freedom struggle?",
+      "options": [
+        "Mention one leader and assume all regions were identical",
+        "Ignore participation outside formal office",
+        "Compare leadership and everyday participation across several movements",
+        "Assume political participation removed every social inequality"
+      ],
+      "answerIndex": 2,
+      "explanation": "A strong answer compares leadership, picketing, organisation and underground work across movements, while assessing social limits and regional differences.",
+      "sources": [
+        {
+          "sourceId": "freedom",
+          "from": 92,
+          "to": 92
+        }
+      ],
+      "difficulty": "application",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h084",
+      "revision": 1,
+      "topicId": "partition-rehab",
+      "prompt": "Which combination captures major immediate challenges of partition?",
+      "options": [
+        "Only a change of flags",
+        "Only the end of Company trade",
+        "Only the construction of a new capital",
+        "Displacement, rehabilitation and division of institutions and assets"
+      ],
+      "answerIndex": 3,
+      "explanation": "Partition combined humanitarian displacement with administrative and economic division. An answer should connect these dimensions.",
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 2,
+          "to": 4
+        }
+      ],
+      "difficulty": "application",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h085",
+      "revision": 1,
+      "topicId": "integration",
+      "prompt": "Who worked closely with Vallabhbhai Patel on princely-state integration?",
+      "options": [
+        "V. P. Menon",
+        "Lord Curzon",
+        "W. C. Bonnerjee",
+        "Dupleix"
+      ],
+      "answerIndex": 0,
+      "explanation": "V. P. Menon worked closely with Patel in the integration process. Use the individual state cases to understand their negotiations.",
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 27,
+          "to": 27
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h086",
+      "revision": 1,
+      "topicId": "integration",
+      "prompt": "Operation Polo in 1948 concerned:",
+      "options": [
+        "Goa",
+        "Hyderabad",
+        "Sikkim",
+        "Travancore"
+      ],
+      "answerIndex": 1,
+      "explanation": "Operation Polo was the September 1948 military action in Hyderabad. Goa’s incorporation followed a different operation in 1961.",
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 36,
+          "to": 36
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h087",
+      "revision": 1,
+      "topicId": "states-reorganisation",
+      "prompt": "Which sequence correctly names the states formed in 1953 and 1956?",
+      "options": [
+        "Andhra Pradesh in 1953; Andhra State in 1956",
+        "Both were formed in 1947",
+        "Andhra State in 1953; Andhra Pradesh in 1956",
+        "Telangana in 1953; Andhra State in 1956"
+      ],
+      "answerIndex": 2,
+      "explanation": "Andhra State was created in 1953. Andhra Pradesh was formed in 1956 through reorganisation. A correction note accompanies the original slide’s imprecise name.",
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 21,
+          "to": 21
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked",
+      "evidence": [
+        {
+          "title": "Andhra State Act, 1953",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2176/1/195330.pdf"
+        },
+        {
+          "title": "Andhra Pradesh PSC · History",
+          "url": "https://portal-psc.ap.gov.in/HomePages/History"
+        }
+      ]
+    },
+    {
+      "id": "h088",
+      "revision": 1,
+      "topicId": "states-reorganisation",
+      "prompt": "The JVP Committee took its name from Jawaharlal Nehru, Vallabhbhai Patel and:",
+      "options": [
+        "V. P. Menon",
+        "Vinoba Bhave",
+        "V. V. Giri",
+        "Pattabhi Sitaramayya"
+      ],
+      "answerIndex": 3,
+      "explanation": "JVP refers to Jawaharlal Nehru, Vallabhbhai Patel and Pattabhi Sitaramayya. It examined demands for linguistic reorganisation.",
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 20,
+          "to": 20
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    },
+    {
+      "id": "h089",
+      "revision": 1,
+      "topicId": "kashmir",
+      "prompt": "Who was the ruler of Jammu and Kashmir at the time of accession in 1947?",
+      "options": [
+        "Hari Singh",
+        "Hamidullah Khan",
+        "Mir Osman Ali Khan",
+        "Hanwant Singh"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hari Singh was the ruler of Jammu and Kashmir. The other names belong to Bhopal, Hyderabad and Jodhpur respectively.",
+      "sources": [
+        {
+          "sourceId": "republic",
+          "from": 42,
+          "to": 42
+        }
+      ],
+      "difficulty": "foundation",
+      "provenance": "derived",
+      "reviewStatus": "source-checked"
+    }
+  ]
+}

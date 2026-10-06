@@ -14,9 +14,9 @@
   var LABELS = ['a', 'b', 'c', 'd'];
 
   /* ---------------- mode switching ---------------- */
-  $$('.mode-btn').forEach(function (btn) {
+  $$('.mode-btn[data-mode]').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      $$('.mode-btn').forEach(function (b) { b.classList.remove('is-active'); });
+      $$('.mode-btn[data-mode]').forEach(function (b) { b.classList.remove('is-active'); });
       btn.classList.add('is-active');
       $$('.view').forEach(function (v) { v.classList.remove('is-active'); });
       $('#view-' + btn.dataset.mode).classList.add('is-active');

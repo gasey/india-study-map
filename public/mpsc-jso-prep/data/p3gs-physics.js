@@ -8,6 +8,8 @@ window.MPSC.units.push({
   syllabus: 'Laws of motion, conservation of energy, linear momentum and angular momentum, gravitational field and potential due to spherical bodies, Kepler\'s laws; work done by constant force and variable force, work-energy theorem, power, elastic and inelastic collisions, rigid body, degrees of freedom, angular velocity, angular momentum, moments of inertia. Simple harmonic motion, damped oscillation, forced oscillation and resonance, wave motion, longitudinal and transverse waves, speed of travelling wave, principle of superposition of waves. Laws of reflection and refraction; system of two thin lenses; total internal reflection and its applications, magnification, power of a lens, interference of light-Young\'s experiment; interference by thin films, Fraunhofer diffraction-single slit, diffraction grating, resolving power, Fresnel diffraction, half period zones and zone plates.',
 
   notes: [
+    { h: 'In plain language — motion and light',
+      b: '<div class="analogy"><b>Force and momentum:</b> think of pushing shopping carts. A heavier or faster cart is harder to stop because it has more momentum; a longer push changes its motion more. The work–energy theorem says that the push transfers energy, which shows up as a change in speed.<br><br><b>Rotation:</b> a door is easier to swing when you push far from its hinge. The same force has more turning effect because it acts with a longer lever arm.<br><br><b>Waves:</b> a wave carries a pattern and energy forward, while the material mostly wiggles in place. Light fringes appear where wave peaks meet (bright) or peaks meet troughs (dark). A diffraction pattern is what happens when waves spread after passing a narrow opening.</div>' },
     { h: 'Mechanics — the formulae that actually get tested',
       b: '<p>This is the single largest physics block (14 marks), so it repays drilling.</p>' +
          '<ul><li><b>Newton\'s laws:</b> F = ma; action and reaction are equal, opposite, and act on <em>different</em> bodies — the last clause is why they never cancel.</li>' +
@@ -70,7 +72,34 @@ window.MPSC.units.push({
       e: '<p>Polarisation requires oscillation <b>perpendicular</b> to the direction of travel, so a preferred plane exists. Sound is <b>longitudinal</b> — the oscillation is along the propagation direction — so there is no such plane.</p><p>Being mechanical is irrelevant: transverse waves on a string are mechanical and <em>can</em> be polarised. Polarisation is in fact the standard proof that light is transverse.</p>' },
 
     { q: 'A pipe closed at one end produces', o: ['All harmonics', 'Only even harmonics', 'Only odd harmonics', 'No harmonics'], a: 2,
-      e: '<p>A closed pipe has a node at the closed end and an antinode at the open end, permitting only <b>odd harmonics</b> (1st, 3rd, 5th…). Its fundamental is v/4L.</p><p>An open pipe supports all harmonics with fundamental v/2L — so a closed pipe of the same length sounds an octave <em>lower</em>, which is why organ builders use them for deep notes in short spaces.</p>' }
+      e: '<p>A closed pipe has a node at the closed end and an antinode at the open end, permitting only <b>odd harmonics</b> (1st, 3rd, 5th…). Its fundamental is v/4L.</p><p>An open pipe supports all harmonics with fundamental v/2L — so a closed pipe of the same length sounds an octave <em>lower</em>, which is why organ builders use them for deep notes in short spaces.</p>' },
+
+    { q: 'A force F = 3x² N acts along the x-axis. The work done as an object moves from x = 0 to x = 2 m is', o: ['4 J', '6 J', '8 J', '12 J'], a: 2,
+      e: '<p>For a variable force, <b>W = ∫F dx</b>. Thus W = ∫₀² 3x² dx = [x³]₀² = <b>8 J</b>.</p><p>Using F at the endpoint times distance would be wrong because the force changes throughout the displacement. On an F–x graph, this integral is the area under the curve.</p>' },
+
+    { q: 'The gravitational potential at distance r outside a spherical body of mass M is', o: ['GM/r²', '−GM/r', '−GMr', 'Zero everywhere outside'], a: 1,
+      e: '<p>With zero potential chosen at infinity, <b>V = −GM/r</b>. The negative sign means a test mass is gravitationally bound; work must be supplied to carry it from r to infinity.</p><p>The field magnitude is GM/r², so potential and field are different quantities with different distance dependence. The shell theorem lets a spherical body be treated as a point mass at its centre for external points.</p>' },
+
+    { q: 'A planet moves in an elliptical orbit. It moves fastest when it is', o: ['Farthest from the Sun', 'Nearest to the Sun', 'At either end of the minor axis only', 'At constant speed everywhere'], a: 1,
+      e: '<p>Kepler’s equal-areas law says equal areas are swept in equal times. Near the Sun the planet must move faster to sweep the same area, so it is fastest at <b>perihelion</b> and slowest at aphelion.</p><p>This is also angular-momentum conservation: the Sun’s gravitational force is central, so its torque about the Sun is zero.</p>' },
+
+    { q: 'If the orbital radius of a satellite around the same planet is increased by a factor of 4, its orbital period changes by a factor of', o: ['2', '4', '8', '16'], a: 2,
+      e: '<p>Kepler’s third law gives <b>T² ∝ r³</b>, hence T ∝ r^(3/2). Increasing r by 4 multiplies T by 4^(3/2) = <b>8</b>.</p><p>The proportionality assumes the satellite mass is negligible compared with the planet and the orbit is governed by that planet’s gravity.</p>' },
+
+    { q: 'A 2 kg body moving at 3 m/s sticks to a stationary 1 kg body. Their common speed after collision is', o: ['1 m/s', '2 m/s', '3 m/s', '6 m/s'], a: 1,
+      e: '<p>Conserve linear momentum: (2 kg)(3 m/s) + (1 kg)(0) = (3 kg)v. Therefore <b>v = 2 m/s</b>.</p><p>The collision is perfectly inelastic because the bodies stick. Initial KE is 9 J; final KE is 6 J, so 3 J becomes heat, sound or deformation, while momentum remains conserved.</p>' },
+
+    { q: 'A solid cylinder rolls without slipping down a slope. Its total kinetic energy is', o: ['Only translational, ½Mv²', 'Only rotational, ½Iω²', 'Translational plus rotational kinetic energy', 'Zero because static friction does no work'], a: 2,
+      e: '<p>Rolling motion combines centre-of-mass translation and rotation: <b>K = ½Mv² + ½Iω²</b>, with v = ωR for rolling without slipping.</p><p>Static friction can provide the torque that starts rotation even when its point of contact has zero instantaneous velocity relative to the surface; the no-slip condition does not remove either energy term.</p>' },
+
+    { q: 'For a mass–spring oscillator, the total mechanical energy is quadrupled when the amplitude is', o: ['Halved', 'Doubled', 'Tripled', 'Unchanged'], a: 1,
+      e: '<p>Total energy is <b>E = ½kA²</b>. Doubling amplitude multiplies energy by 2² = <b>4</b>.</p><p>Energy is proportional to amplitude squared, not amplitude itself. At equilibrium all of this energy is kinetic; at the turning points it is elastic potential energy.</p>' },
+
+    { q: 'Two coherent light waves have a path difference of 3λ/2. Their interference is', o: ['Constructive', 'Destructive', 'Always zero intensity regardless of amplitudes', 'Impossible to determine because wavelength is unknown'], a: 1,
+      e: '<p>A path difference of (m + ½)λ gives a phase difference of an odd multiple of π and therefore <b>destructive interference</b> for equal amplitudes. Here 3λ/2 = (1 + ½)λ.</p><p>For unequal amplitudes the minimum is not perfectly dark, but it is still the condition for a minimum.</p>' },
+
+    { q: 'In Young’s double-slit experiment, the entire apparatus is immersed in a liquid of refractive index 1.5. The new fringe width is', o: ['1.5β', 'β', 'β/1.5', 'β/1.5²'], a: 2,
+      e: '<p>In the medium, frequency stays fixed while wavelength becomes λ/n. Since β = λD/d, the new width is <b>β/n = β/1.5</b>.</p><p>The common mistake is to multiply by n. The wave slows in the liquid, so its wavelength and the fringe spacing shrink.' }
   ]
 });
 
@@ -82,6 +111,8 @@ window.MPSC.units.push({
   syllabus: 'Laws of thermodynamics, reversible and irreversible processes, entropy; isothermal, adiabatic, isobaric processes and entropy changes; van der Waals equation of state of real gas, critical constants, Maxwell-Boltzmann distribution of molecular velocities. Coulomb\'s law, electric field, Gauss\' law; electric potential; capacitors, dielectrics and polarization, Ohm\'s law, Kirchhoff\'s first and second rules, resistors in series and parallel, potential and field due to a dipole, force and torque on a dipole in an external field, Biot-Savart law, Ampere\'s law, Faraday\'s law; Lenz law; self and mutual inductances, DC and AC circuits with R, L and C components.',
 
   notes: [
+    { h: 'In plain language — heat, charge and circuits',
+      b: '<div class="analogy"><b>Thermodynamics:</b> imagine gas in a piston. Heating it can warm the gas (raise internal energy), push the piston (do work), or do both. The first law is the bookkeeping rule that keeps those energy changes balanced. Entropy describes how spread out energy is; in ordinary real processes, some energy becomes less available to do useful work.<br><br><b>Circuits:</b> voltage is like electrical pressure, current is the rate of charge flow, and resistance is the narrowing of the pipe. A capacitor is like a tiny charge-storage tank. An inductor resists sudden changes in current, much as a heavy flywheel resists a sudden change in spinning speed.<br><br><b>Induction:</b> changing the magnetic field through a loop makes a voltage. The induced current pushes back against the change, like a spring resisting being compressed.</div>' },
     { h: 'Laws of thermodynamics',
       b: '<ul><li><b>Zeroth</b> — two systems each in equilibrium with a third are in equilibrium with each other. This is what makes temperature meaningful and thermometry possible.</li>' +
          '<li><b>First</b> — ΔU = Q − W (energy conservation). Heat added to a system either raises internal energy or does work.</li>' +
@@ -146,7 +177,34 @@ window.MPSC.units.push({
       e: '<p>Φ = q_enclosed/ε₀. The flux depends <b>only on the enclosed charge</b> — not on the surface\'s shape or size, nor on where inside the charge sits, nor on any external charges.</p><p>External charges do affect the field <em>at individual points</em> on the surface, but their contributions to the total flux cancel exactly, since their field lines enter and leave.</p>' },
 
     { q: 'Kirchhoff\'s junction rule is based on the conservation of', o: ['Energy', 'Charge', 'Momentum', 'Magnetic flux'], a: 1,
-      e: '<p>The <b>junction rule</b> (ΣI = 0) says charge does not accumulate at a node — conservation of <b>charge</b>.</p><p>The <b>loop rule</b> (ΣV = 0) says a charge returning to its starting point has no net energy change — conservation of <b>energy</b>. Questions routinely ask for one and offer the other.</p>' }
+      e: '<p>The <b>junction rule</b> (ΣI = 0) says charge does not accumulate at a node — conservation of <b>charge</b>.</p><p>The <b>loop rule</b> (ΣV = 0) says a charge returning to its starting point has no net energy change — conservation of <b>energy</b>. Questions routinely ask for one and offer the other.</p>' },
+
+    { q: 'One mole of an ideal gas expands isothermally and reversibly from V to 2V at temperature T. The work done by the gas is', o: ['RT ln 2', 'RT', '2RT', 'Zero'], a: 0,
+      e: '<p>For a reversible isothermal ideal-gas expansion, <b>W = nRT ln(V₂/V₁)</b>. With n = 1 and V₂/V₁ = 2, W = RT ln 2.</p><p>Isothermal means ΔU = 0 for an ideal gas, so the heat absorbed equals this work. The result depends on the path: an irreversible expansion between the same endpoints need not have the same work.</p>' },
+
+    { q: 'For one mole of an ideal gas in a reversible adiabatic process, the heat exchanged is', o: ['Positive', 'Negative', 'Zero', 'Equal to the change in entropy'], a: 2,
+      e: '<p>Adiabatic means <b>Q = 0</b> by definition. From the first law ΔU = Q − W, so ΔU = −W: expansion cools the gas and compression heats it.</p><p>A reversible adiabatic process is isentropic (ΔS = 0); an irreversible adiabatic process can have increasing entropy even though no heat crosses the boundary.</p>' },
+
+    { q: 'A heat engine absorbs 800 J from a hot reservoir and rejects 500 J to a cold reservoir each cycle. Its efficiency is', o: ['37.5%', '62.5%', '160%', 'Cannot be calculated'], a: 0,
+      e: '<p>Work output is Qₕ − Q𝚌 = 800 − 500 = 300 J. Efficiency <b>η = W/Qₕ = 300/800 = 0.375 = 37.5%</b>.</p><p>Do not divide by the rejected heat. A real engine’s efficiency is below the Carnot limit for its two reservoir temperatures.</p>' },
+
+    { q: 'A parallel-plate capacitor remains connected to a battery while a dielectric of constant K is inserted fully. Which quantity increases?', o: ['Potential difference', 'Charge on the plates', 'Plate separation', 'Battery emf'], a: 1,
+      e: '<p>The battery fixes the potential difference. The dielectric raises capacitance from C₀ to <b>KC₀</b>, so Q = CV also rises by K.</p><p>If the capacitor were isolated instead, Q would stay fixed and the voltage would fall. Always identify whether the battery remains connected.</p>' },
+
+    { q: 'A 6 Ω resistor and a 3 Ω resistor are connected in parallel. Their equivalent resistance is', o: ['9 Ω', '3 Ω', '2 Ω', '18 Ω'], a: 2,
+      e: '<p>For parallel resistors, 1/R = 1/6 + 1/3 = 3/6 = 1/2, so <b>R = 2 Ω</b>.</p><p>The equivalent resistance must be smaller than the smallest branch resistance (3 Ω); this quick check rules out 3, 9 and 18 Ω.</p>' },
+
+    { q: 'An electric dipole p is placed in a uniform electric field E at angle θ. Its potential energy is', o: ['pE sin θ', '−pE cos θ', 'pE tan θ', 'Zero for every orientation'], a: 1,
+      e: '<p>Dipole potential energy is <b>U = −p·E = −pE cos θ</b>. It is lowest when aligned with the field (θ = 0) and highest when anti-aligned (θ = π).</p><p>The torque magnitude is pE sin θ; torque and potential energy are related but are not the same expression.</p>' },
+
+    { q: 'A long straight wire carries current I. If the current is doubled and the observation distance is also doubled, the magnetic field magnitude', o: ['Doubles', 'Halves', 'Is unchanged', 'Becomes four times larger'], a: 2,
+      e: '<p>For a long straight wire, <b>B = μ₀I/(2πr)</b>. Doubling I and r leaves I/r unchanged, so the field is unchanged.</p><p>The result follows from Ampère’s law and assumes the observation point is far from wire ends.</p>' },
+
+    { q: 'A coil has 100 turns and the magnetic flux through each turn changes by 0.02 Wb in 0.1 s. The magnitude of the induced emf is', o: ['0.02 V', '2 V', '20 V', '200 V'], a: 2,
+      e: '<p>Faraday’s law gives |ε| = N|ΔΦ/Δt| = 100 × 0.02/0.1 = <b>20 V</b>.</p><p>The induced emf depends on the rate of flux change and the number of turns. Lenz’s law supplies its direction: it opposes the change in flux.</p>' },
+
+    { q: 'In a pure inductor connected to an ideal AC source, the current', o: ['Leads voltage by π/2', 'Lags voltage by π/2', 'Is in phase with voltage', 'Is always zero'], a: 1,
+      e: '<p>For an ideal inductor, voltage leads current by 90°, so current <b>lags voltage by π/2</b>. Its reactance is Xₗ = ωL.</p><p>For a pure capacitor the relation reverses: current leads voltage by π/2. A resistor has voltage and current in phase.</p>' }
   ]
 });
 
@@ -158,6 +216,8 @@ window.MPSC.units.push({
   syllabus: 'Photoelectric effect, Einstein\'s photon theory, Bohr\'s theory of hydrogen atom and quantization, wave nature of matter, de Broglie wavelength, wave particle duality, Heisenberg\'s uncertainty relationships, Schrodinger equation-eigen values and eigen functions of particle in a box; radioactivity, binding energy of nuclei, nuclear fission and fusion. Intrinsic semiconductors, electron and holes, doping, impurity states, n and p type semiconductors, conductivity, mobility and Hall effect, p-n junction diode, majority and minority carriers; diode rectification, logic gates.',
 
   notes: [
+    { h: 'In plain language — atoms and tiny switches',
+      b: '<div class="analogy"><b>Photons:</b> light delivers energy in packets. A brighter beam means more packets arriving; a higher frequency means each packet carries more energy. That is why brightness controls how many electrons escape, while frequency controls how energetic they are.<br><br><b>Radioactivity:</b> a half-life is a repeated halving, like a pile of 100 seeds where half are removed each round: 100 → 50 → 25 → 12.5. The pile does not lose the same fixed number each time.<br><br><b>Semiconductors:</b> picture a small energy step between two floors. Heat or light can lift electrons to the upper floor, where they can move through the material. Doping adds extra mobile electrons or creates missing-electron spots called holes. A diode is a one-way gate for current.</div>' },
     { h: 'Quantum foundations',
       b: '<p><b>Photoelectric effect:</b> hf = φ + KE_max, where φ is the work function. The findings that killed the wave theory of light:</p>' +
          '<ul><li>Emission occurs only above a <b>threshold frequency</b>, no matter how intense the light.</li>' +
@@ -219,6 +279,36 @@ window.MPSC.units.push({
       e: '<p>The <b>sign</b> of the Hall voltage reveals whether the carriers are negative electrons or positive holes, and its <b>magnitude</b> gives the carrier concentration.</p><p>It provided the direct experimental confirmation that conduction in p-type material really is by positive holes, rather than being merely a convenient bookkeeping fiction.</p>' },
 
     { q: 'In beta-minus decay, the mass number A and atomic number Z of the nucleus change as', o: ['A decreases by 4, Z decreases by 2', 'A unchanged, Z increases by 1', 'A unchanged, Z decreases by 1', 'Both unchanged'], a: 1,
-      e: '<p>In β⁻ decay a neutron converts to a proton plus an electron and an antineutrino. The nucleon count is unchanged so <b>A stays the same</b>, but a neutron has become a proton so <b>Z rises by 1</b>.</p><p>Option (a) is alpha decay; option (c) is β⁺ (positron) decay; option (d) is gamma emission, which changes neither.</p>' }
+      e: '<p>In β⁻ decay a neutron converts to a proton plus an electron and an antineutrino. The nucleon count is unchanged so <b>A stays the same</b>, but a neutron has become a proton so <b>Z rises by 1</b>.</p><p>Option (a) is alpha decay; option (c) is β⁺ (positron) decay; option (d) is gamma emission, which changes neither.</p>' },
+
+    { q: 'Light of frequency 8 × 10¹⁴ Hz falls on a metal with work function 2 eV. Using h = 4.14 × 10⁻¹⁵ eV·s, the maximum photoelectron kinetic energy is approximately', o: ['0.31 eV', '1.31 eV', '2.00 eV', '3.31 eV'], a: 1,
+      e: '<p>Photon energy is hf = (4.14 × 10⁻¹⁵)(8 × 10¹⁴) = 3.312 eV. Einstein’s equation gives <b>KEₘₐₓ = hf − φ = 3.312 − 2 ≈ 1.31 eV</b>.</p><p>The threshold frequency is φ/h; below it no photoelectrons are emitted regardless of intensity.</p>' },
+
+    { q: 'The de Broglie wavelength of a particle is doubled if its momentum is', o: ['Doubled', 'Halved', 'Quadrupled', 'Unchanged'], a: 1,
+      e: '<p>de Broglie’s relation is <b>λ = h/p</b>. Wavelength is inversely proportional to momentum, so halving p doubles λ.</p><p>For an electron accelerated through potential V, eV = p²/(2m), giving λ = h/√(2meV); therefore λ ∝ 1/√V.</p>' },
+
+    { q: 'A hydrogen atom emits a photon when its electron makes a transition from n = 3 to n = 2. This line belongs to the', o: ['Lyman series', 'Balmer series', 'Paschen series', 'Brackett series'], a: 1,
+      e: '<p>The Balmer series consists of transitions that <b>end at n = 2</b>; its lines are mainly visible. Lyman ends at n = 1 (ultraviolet), while Paschen ends at n = 3 (infrared).</p><p>Series names are identified by the final level, not the initial level.</p>' },
+
+    { q: 'The number of half-lives required for a radioactive sample to fall to one-eighth of its initial undecayed nuclei is', o: ['2', '3', '4', '8'], a: 1,
+      e: '<p>After n half-lives, the remaining fraction is (1/2)ⁿ. Since 1/8 = (1/2)³, the sample has undergone <b>3 half-lives</b>.</p><p>This describes the undecayed parent nuclei. The number of daughter nuclei formed depends on the initial sample and whether daughters are stable.</p>' },
+
+    { q: 'A radioactive isotope has decay constant λ. Its mean lifetime τ is', o: ['λ', '1/λ', '0.693λ', '0.693/λ'], a: 1,
+      e: '<p>The exponential decay law is N = N₀e^(−λt). The mean lifetime is <b>τ = 1/λ</b>; the half-life is t₁/₂ = ln 2/λ ≈ 0.693/λ.</p><p>Mean lifetime and half-life are related but not identical: τ ≈ 1.443 t₁/₂.</p>' },
+
+    { q: 'A nucleus has a mass defect of 0.01 u. Using 1 u c² ≈ 931.5 MeV, its binding energy is approximately', o: ['0.093 MeV', '9.315 MeV', '93.15 MeV', '9315 MeV'], a: 1,
+      e: '<p>Binding energy is Δmc² = 0.01 × 931.5 = <b>9.315 MeV</b>.</p><p>That is the total binding energy. Binding energy per nucleon requires dividing by the mass number A and is the better measure for comparing nuclear stability.</p>' },
+
+    { q: 'A silicon sample is doped with phosphorus. The resulting semiconductor is', o: ['p-type, with holes as majority carriers', 'n-type, with electrons as majority carriers', 'Intrinsic, with equal carrier concentrations', 'An insulator'], a: 1,
+      e: '<p>Phosphorus is pentavalent. Four valence electrons form bonds with neighbouring silicon atoms, leaving one donor electron, so the material is <b>n-type</b> with electrons as majority carriers.</p><p>The crystal remains electrically neutral overall: the mobile electrons are balanced by positively charged donor ions.</p>' },
+
+    { q: 'For an ideal p–n diode under forward bias, the depletion-region barrier', o: ['Increases and current stops', 'Decreases and current rises strongly', 'Is unchanged and no current flows', 'Reverses the majority carriers'], a: 1,
+      e: '<p>Forward bias opposes the built-in junction field, reducing the potential barrier and narrowing the depletion region. Majority carriers can cross more easily, so the current rises strongly.</p><p>Reverse bias widens the depletion region and blocks majority-carrier current, apart from a small reverse saturation current until breakdown.</p>' },
+
+    { q: 'Which logic gate produces output 1 only when its two inputs are different?', o: ['AND', 'OR', 'XOR', 'XNOR'], a: 2,
+      e: '<p><b>XOR</b> is 1 for inputs 01 and 10, and 0 for 00 and 11. XNOR gives the complement: 1 when the inputs are equal.</p><p>For two inputs, XOR is also the sum bit in a half-adder; AND gives the carry bit.</p>' },
+
+    { q: 'For a particle in a one-dimensional infinite potential well of width L, the energy of level n is proportional to', o: ['n/L', 'n²/L²', '1/n²L²', 'L²/n²'], a: 1,
+      e: '<p>The allowed energies are <b>Eₙ = n²h²/(8mL²)</b>, so E is proportional to n²/L².</p><p>The ground-state energy is not zero: confinement forces a nonzero momentum uncertainty. Widening the well reduces the level energies and their spacing.</p>' }
   ]
 });

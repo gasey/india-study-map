@@ -141,6 +141,26 @@ export function getAllTopics() {
   return all
 }
 
+export function getAllMnemonics(subjectId = null) {
+  const all = []
+  for (const [sid, topics] of Object.entries(topicData)) {
+    if (subjectId && sid !== subjectId) continue
+    for (const [tid, topic] of Object.entries(topics)) {
+      for (const m of topic.content?.mnemonics || []) {
+        all.push({
+          topic: m.topic,
+          trick: m.trick,
+          explanation: m.explanation,
+          subject: sid,
+          topicId: tid,
+          topicTitle: topic.title,
+        })
+      }
+    }
+  }
+  return all
+}
+
 export function getTimelineEvents() {
   return timelineData.events
 }

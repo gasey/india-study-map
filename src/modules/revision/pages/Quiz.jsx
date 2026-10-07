@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getQuizQuestions, subjects } from '../utils/data'
+import { getTricksQuizQuestions } from '../utils/tricksQuiz'
 import { recordQuizAnswer, touchStreak } from '../utils/stats'
 
 function shuffle(arr) {
@@ -34,6 +35,8 @@ export default function Quiz() {
         getQuizQuestions(s.id).map((question) => ({ ...question, subject: s.id }))
       )
       q = shuffle(all).slice(0, 25)
+    } else if (selectedSubject === 'tricks') {
+      q = getTricksQuizQuestions(null, 20)
     } else {
       q = getQuizQuestions(selectedSubject, topicId || null)
     }
@@ -138,6 +141,7 @@ export default function Quiz() {
             className="px-4 py-2 border border-gray-300 rounded-lg"
           >
             <option value="mixed">🔀 Mixed (All Subjects, 25 random)</option>
+            <option value="tricks">🧠 Tricks Quiz (from mnemonics)</option>
             {subjects.map((s) => (
               <option key={s.id} value={s.id}>
                 {s.icon} {s.name}

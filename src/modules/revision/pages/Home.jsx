@@ -39,7 +39,7 @@ export default function Home() {
           <div className="text-2xl font-bold text-green-600">{completedCount}/{totalTopics}</div>
           <div className="text-xs text-gray-500 mt-1">Topics Completed</div>
         </div>
-        <Link to="/revision/flashcards" className="bg-white rounded-xl shadow-md p-4 text-center hover:shadow-lg transition-shadow">
+        <Link to="/revision/flashcards" className="bg-white rounded-xl shadow-md p-4 text-center hover:shadow-lg hover:-translate-y-1 transition-all">
           <div className={`text-2xl font-bold ${flashcardsDue > 0 ? 'text-orange-600' : 'text-green-600'}`}>
             {flashcardsDue}
           </div>
@@ -102,10 +102,18 @@ export default function Home() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 rv-stagger">
+        <Link
+          to="/revision/tricks"
+          className="bg-gradient-to-br from-amber-50 to-orange-100 rounded-xl shadow-md p-6 text-center hover:shadow-xl hover:-translate-y-1 transition-all border-2 border-orange-200"
+        >
+          <div className="text-3xl mb-2">🧠</div>
+          <h3 className="font-bold text-gray-800">Tricks & Mnemonics</h3>
+          <p className="text-sm text-gray-600">All 60+ memory tricks, beautifully carded</p>
+        </Link>
         <Link
           to="/revision/book"
-          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow"
+          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg hover:-translate-y-1 transition-all"
         >
           <div className="text-3xl mb-2">📖</div>
           <h3 className="font-bold text-gray-800">Revision Book</h3>
@@ -113,7 +121,7 @@ export default function Home() {
         </Link>
         <Link
           to="/revision/flashcards"
-          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow"
+          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg hover:-translate-y-1 transition-all"
         >
           <div className="text-3xl mb-2">🃏</div>
           <h3 className="font-bold text-gray-800">Flashcards</h3>
@@ -121,7 +129,7 @@ export default function Home() {
         </Link>
         <Link
           to="/revision/timeline"
-          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow"
+          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg hover:-translate-y-1 transition-all"
         >
           <div className="text-3xl mb-2">📅</div>
           <h3 className="font-bold text-gray-800">Master Timeline</h3>
@@ -129,7 +137,7 @@ export default function Home() {
         </Link>
         <Link
           to="/revision/mindmap"
-          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow"
+          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg hover:-translate-y-1 transition-all"
         >
           <div className="text-3xl mb-2">🧠</div>
           <h3 className="font-bold text-gray-800">Mind Maps</h3>
@@ -137,7 +145,7 @@ export default function Home() {
         </Link>
         <Link
           to="/revision/quiz/mixed"
-          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow"
+          className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg hover:-translate-y-1 transition-all"
         >
           <div className="text-3xl mb-2">🔀</div>
           <h3 className="font-bold text-gray-800">Mixed Quiz</h3>

@@ -53,7 +53,7 @@ export default function Browse() {
     return () => window.removeEventListener('keydown', onKey)
   }, [next, prev, reshuffle])
 
-  const card = deck[index]
+  const card = deck[Math.min(index, Math.max(deck.length - 1, 0))]
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-6">

@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "hees102-q01",
+    "grade": 8,
+    "chapterId": "hees102",
+    "prompt": "Which ruler is associated with a policy of sulh-i kul?",
+    "options": [
+      "Aurangzeb",
+      "Alauddin Khalji",
+      "Akbar",
+      "Krishnadevaraya"
+    ],
+    "answerIndex": 2,
+    "explanation": "Akbar used sulh-i kul as an idea of peace with all.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees102.pdf#page=18",
+    "sourcePdfPage": 18,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees102-q02",
+    "grade": 8,
+    "chapterId": "hees102",
+    "prompt": "Which kingdom is associated with Hampi as its capital?",
+    "options": [
+      "Mughal",
+      "Ahom",
+      "Delhi Sultanate",
+      "Vijayanagara"
+    ],
+    "answerIndex": 3,
+    "explanation": "Hampi was the capital of the Vijayanagara Empire.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees102.pdf#page=12",
+    "sourcePdfPage": 12,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees103-q01",
+    "grade": 8,
+    "chapterId": "hees103",
+    "prompt": "What geographical feature helped the Marathas use mobile warfare and forts?",
+    "options": [
+      "Ganga delta",
+      "Brahmaputra floodplains",
+      "Thar dunes",
+      "Deccan hills and mountains"
+    ],
+    "answerIndex": 3,
+    "explanation": "The western Deccan terrain and hill forts supported Maratha tactics.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees103.pdf#page=4",
+    "sourcePdfPage": 4,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees103-q02",
+    "grade": 8,
+    "chapterId": "hees103",
+    "prompt": "Which Maratha leader is especially associated with naval power on the Konkan coast?",
+    "options": [
+      "Bajirao I",
+      "Kanhoji Angre",
+      "Nana Phadnavis",
+      "Mahadji Shinde"
+    ],
+    "answerIndex": 1,
+    "explanation": "Kanhoji Angre built and commanded Maratha naval power.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees103.pdf#page=14",
+    "sourcePdfPage": 14,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees104-q01",
+    "grade": 8,
+    "chapterId": "hees104",
+    "prompt": "Which battle in 1757 strengthened the East India Company in Bengal?",
+    "options": [
+      "Talikota",
+      "Panipat",
+      "Plassey",
+      "Buxar"
+    ],
+    "answerIndex": 2,
+    "explanation": "The Company victory at Plassey was a turning point in Bengal.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees104.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees104-q02",
+    "grade": 8,
+    "chapterId": "hees104",
+    "prompt": "Which British policy let the Company annex a state when its ruler died without an accepted male heir?",
+    "options": [
+      "Subsidiary Alliance",
+      "Ryotwari",
+      "Permanent Settlement",
+      "Doctrine of Lapse"
+    ],
+    "answerIndex": 3,
+    "explanation": "The Doctrine of Lapse was used to annex such states.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees104.pdf#page=11",
+    "sourcePdfPage": 11,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees202-q01",
+    "grade": 8,
+    "chapterId": "hees202",
+    "prompt": "Which protest in Amritsar ended in a massacre in 1919?",
+    "options": [
+      "Jallianwala Bagh gathering",
+      "Quit India meeting",
+      "Kakori action",
+      "Dandi March"
+    ],
+    "answerIndex": 0,
+    "explanation": "British troops fired on the gathering at Jallianwala Bagh.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees202.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees202-q02",
+    "grade": 8,
+    "chapterId": "hees202",
+    "prompt": "Which movement began after the August 1942 call to end British rule?",
+    "options": [
+      "Quit India",
+      "Swadeshi",
+      "Non-Cooperation",
+      "Home Rule"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Quit India movement followed the 1942 resolution and call.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees202.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees203-q01",
+    "grade": 8,
+    "chapterId": "hees203",
+    "prompt": "What is a stupa primarily associated with?",
+    "options": [
+      "Mughal court audiences",
+      "Buddhist relics and worship",
+      "Maratha naval defence",
+      "Colonial rail transport"
+    ],
+    "answerIndex": 1,
+    "explanation": "Stupas are Buddhist commemorative structures often connected with relics.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees203.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees203-q02",
+    "grade": 8,
+    "chapterId": "hees203",
+    "prompt": "What is the main purpose of a stepwell?",
+    "options": [
+      "Store and provide access to water",
+      "Defend a sea port",
+      "House a royal throne",
+      "Mint coins"
+    ],
+    "answerIndex": 0,
+    "explanation": "Its stepped design lets people reach water as levels change.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees203.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees208-q01",
+    "grade": 8,
+    "chapterId": "hees208",
+    "prompt": "Which poet-saint used the names Ram and Rahim to challenge rigid religious divisions?",
+    "options": [
+      "Tulsidas",
+      "Kalidasa",
+      "Kabir",
+      "Amir Khusrau"
+    ],
+    "answerIndex": 2,
+    "explanation": "Kabir’s verses often join devotional language across traditions.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees208.pdf#page=5",
+    "sourcePdfPage": 5,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hees208-q02",
+    "grade": 8,
+    "chapterId": "hees208",
+    "prompt": "Which tradition emphasised personal devotion to a deity as a route to moksha?",
+    "options": [
+      "Ryotwari",
+      "Mansabdari",
+      "Mercantilism",
+      "Bhakti"
+    ],
+    "answerIndex": 3,
+    "explanation": "Bhakti centres on devotion and became influential across regions.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees208.pdf#page=4",
+    "sourcePdfPage": 4,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "iest104-q01",
+    "grade": 9,
+    "chapterId": "iest104",
+    "prompt": "Which period is especially associated with small stone tools called microliths?",
+    "options": [
+      "Palaeolithic",
+      "Iron Age",
+      "Bronze Age",
+      "Mesolithic"
+    ],
+    "answerIndex": 3,
+    "explanation": "Microliths are a characteristic tool of the Mesolithic period.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/iest104.pdf#page=7",
+    "sourcePdfPage": 7,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "iest104-q02",
+    "grade": 9,
+    "chapterId": "iest104",
+    "prompt": "Which river is linked to the ancient Egyptian civilisation?",
+    "options": [
+      "Indus",
+      "Yellow River",
+      "Nile",
+      "Tigris"
+    ],
+    "answerIndex": 2,
+    "explanation": "Ancient Egyptian civilisation developed along the Nile.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/iest104.pdf#page=17",
+    "sourcePdfPage": 17,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "iest105-q01",
+    "grade": 9,
+    "chapterId": "iest105",
+    "prompt": "Which early Indian assemblies could limit a raja’s authority?",
+    "options": [
+      "Factory and guild",
+      "Jagir and zamindari",
+      "Sabha and samiti",
+      "Diwan and faujdar"
+    ],
+    "answerIndex": 2,
+    "explanation": "Sabha and samiti were assemblies mentioned in early Indian political life.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/iest105.pdf#page=6",
+    "sourcePdfPage": 6,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "iest105-q02",
+    "grade": 9,
+    "chapterId": "iest105",
+    "prompt": "Which empire is associated with Ashoka’s inscriptions?",
+    "options": [
+      "Maurya",
+      "Gupta",
+      "Kushana",
+      "Chola"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ashoka ruled the Mauryan Empire; his edicts are key historical sources.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/iest105.pdf#page=6",
+    "sourcePdfPage": 6,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess201-q01",
+    "grade": 8,
+    "chapterId": "hess201",
+    "prompt": "How did James Mill divide Indian history in his account?",
+    "options": [
+      "Hindu, Muslim, British",
+      "Rural, urban, industrial",
+      "Ancient, medieval, modern",
+      "North, south, east"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mill used Hindu, Muslim and British periods, a division criticised in the chapter.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess201.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess201-q02",
+    "grade": 8,
+    "chapterId": "hess201",
+    "prompt": "Why did colonial administrators conduct surveys?",
+    "options": [
+      "To collect information for governing",
+      "To end record keeping",
+      "To avoid maps",
+      "To replace every census"
+    ],
+    "answerIndex": 0,
+    "explanation": "Surveys gathered information about land, people and resources for administration.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess201.pdf#page=6",
+    "sourcePdfPage": 6,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess202-q01",
+    "grade": 8,
+    "chapterId": "hess202",
+    "prompt": "What did the Company acquire through the Diwani of Bengal?",
+    "options": [
+      "Right to collect land revenue",
+      "Control of all European ports",
+      "Right to crown Mughal emperors",
+      "Rule over Mysore"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Diwani gave the Company revenue rights in Bengal, Bihar and Orissa.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess202.pdf#page=6",
+    "sourcePdfPage": 6,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess202-q02",
+    "grade": 8,
+    "chapterId": "hess202",
+    "prompt": "Who was called the Tiger of Mysore?",
+    "options": [
+      "Tipu Sultan",
+      "Mir Jafar",
+      "Haidar Ali",
+      "Ranjit Singh"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tipu Sultan, ruler of Mysore, was known by that title.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess202.pdf#page=8",
+    "sourcePdfPage": 8,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess203-q01",
+    "grade": 8,
+    "chapterId": "hess203",
+    "prompt": "Under the Permanent Settlement, who were recognised as revenue-paying landholders?",
+    "options": [
+      "Indigo planters",
+      "Artisans",
+      "Zamindars",
+      "Sepoys"
+    ],
+    "answerIndex": 2,
+    "explanation": "Zamindars were made responsible for paying fixed revenue to the Company.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess203.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess203-q02",
+    "grade": 8,
+    "chapterId": "hess203",
+    "prompt": "What was grown for the blue dye that European textile makers wanted?",
+    "options": [
+      "Indigo",
+      "Jute",
+      "Opium",
+      "Cotton"
+    ],
+    "answerIndex": 0,
+    "explanation": "Indigo plants yielded the blue dye in high demand.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess203.pdf#page=5",
+    "sourcePdfPage": 5,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess204-q01",
+    "grade": 8,
+    "chapterId": "hess204",
+    "prompt": "What is jhum cultivation?",
+    "options": [
+      "Mining",
+      "Shifting cultivation",
+      "Permanent wet-rice farming",
+      "Urban horticulture"
+    ],
+    "answerIndex": 1,
+    "explanation": "Jhum involves clearing and cultivating a plot before moving to another.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess204.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess204-q02",
+    "grade": 8,
+    "chapterId": "hess204",
+    "prompt": "Which leader’s movement imagined a renewed tribal golden age?",
+    "options": [
+      "Mangal Pandey",
+      "Dadabhai Naoroji",
+      "Nana Saheb",
+      "Birsa Munda"
+    ],
+    "answerIndex": 3,
+    "explanation": "Birsa Munda led a movement that invoked a golden age for his people.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess204.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess205-q01",
+    "grade": 8,
+    "chapterId": "hess205",
+    "prompt": "Which queen of Jhansi became a leader of the 1857 rebellion?",
+    "options": [
+      "Begum Rokeya",
+      "Rani Lakshmibai",
+      "Pandita Ramabai",
+      "Ahilyabai Holkar"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rani Lakshmibai of Jhansi fought the British during the uprising.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess205.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess205-q02",
+    "grade": 8,
+    "chapterId": "hess205",
+    "prompt": "Why did sepoys object to the new rifle cartridges in 1857?",
+    "options": [
+      "They had no gunpowder",
+      "They were made of iron",
+      "They believed the grease violated religious beliefs",
+      "They were too expensive"
+    ],
+    "answerIndex": 2,
+    "explanation": "Rumours about animal fat in the cartridge grease offended Hindu and Muslim sepoys.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess205.pdf#page=5",
+    "sourcePdfPage": 5,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess206-q01",
+    "grade": 8,
+    "chapterId": "hess206",
+    "prompt": "Which official argued strongly for English education in India?",
+    "options": [
+      "Rabindranath Tagore",
+      "Thomas Macaulay",
+      "Warren Hastings",
+      "William Jones"
+    ],
+    "answerIndex": 1,
+    "explanation": "Macaulay advocated English education over the Orientalist approach.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess206.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess206-q02",
+    "grade": 8,
+    "chapterId": "hess206",
+    "prompt": "Who founded an experimental school at Santiniketan?",
+    "options": [
+      "Mahatma Gandhi",
+      "James Mill",
+      "William Jones",
+      "Rabindranath Tagore"
+    ],
+    "answerIndex": 3,
+    "explanation": "Tagore founded his school at Santiniketan with a different approach to learning.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess206.pdf#page=9",
+    "sourcePdfPage": 9,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess207-q01",
+    "grade": 8,
+    "chapterId": "hess207",
+    "prompt": "Who challenged caste inequality in the book Gulamgiri?",
+    "options": [
+      "Ishwarchandra Vidyasagar",
+      "Rammohun Roy",
+      "Jyotirao Phule",
+      "Thomas Macaulay"
+    ],
+    "answerIndex": 2,
+    "explanation": "Phule used Gulamgiri to criticise caste oppression.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess207.pdf#page=10",
+    "sourcePdfPage": 10,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess207-q02",
+    "grade": 8,
+    "chapterId": "hess207",
+    "prompt": "Who argued publicly for widow remarriage in nineteenth-century Bengal?",
+    "options": [
+      "Mir Jafar",
+      "Ishwarchandra Vidyasagar",
+      "Bal Gangadhar Tilak",
+      "Lord Curzon"
+    ],
+    "answerIndex": 1,
+    "explanation": "Vidyasagar campaigned for widow remarriage.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess207.pdf#page=4",
+    "sourcePdfPage": 4,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess208-q01",
+    "grade": 8,
+    "chapterId": "hess208",
+    "prompt": "Which organisation formed in 1885 sought to speak for Indians across regions?",
+    "options": [
+      "Indian National Congress",
+      "East India Company",
+      "Muslim League",
+      "Ghadar Party"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Indian National Congress was founded in 1885 and claimed a national voice.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess208.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "hess208-q02",
+    "grade": 8,
+    "chapterId": "hess208",
+    "prompt": "Which law of 1919 allowed detention without trial and drew nationwide protest?",
+    "options": [
+      "Vernacular Press Act",
+      "Indian Councils Act 1909",
+      "Pitt’s India Act",
+      "Rowlatt Act"
+    ],
+    "answerIndex": 3,
+    "explanation": "The Rowlatt Act gave the colonial state sweeping powers of detention.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess208.pdf#page=8",
+    "sourcePdfPage": 8,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess301-q01",
+    "grade": 10,
+    "chapterId": "jess301",
+    "prompt": "What was the Zollverein?",
+    "options": [
+      "A French parliament",
+      "An Italian revolutionary society",
+      "A Balkan treaty",
+      "A customs union of German states"
+    ],
+    "answerIndex": 3,
+    "explanation": "The Zollverein removed tariff barriers among participating German states.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess301.pdf#page=10",
+    "sourcePdfPage": 10,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess301-q02",
+    "grade": 10,
+    "chapterId": "jess301",
+    "prompt": "Who personified the German nation in nineteenth-century allegories?",
+    "options": [
+      "Britannia",
+      "Germania",
+      "Liberty",
+      "Marianne"
+    ],
+    "answerIndex": 1,
+    "explanation": "Germania was an allegorical female figure for the German nation.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess301.pdf#page=23",
+    "sourcePdfPage": 23,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess302-q01",
+    "grade": 10,
+    "chapterId": "jess302",
+    "prompt": "What did Gandhi break at Dandi in 1930?",
+    "options": [
+      "Forest Act",
+      "Press Act",
+      "Salt law",
+      "Rowlatt Act"
+    ],
+    "answerIndex": 2,
+    "explanation": "The Dandi March culminated in breaking the colonial salt law.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess302.pdf#page=11",
+    "sourcePdfPage": 11,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess302-q02",
+    "grade": 10,
+    "chapterId": "jess302",
+    "prompt": "Why did the Simon Commission face protests in India?",
+    "options": [
+      "It banned the Congress",
+      "It proposed immediate independence",
+      "It had no Indian members",
+      "It abolished the salt tax"
+    ],
+    "answerIndex": 2,
+    "explanation": "Indian leaders objected to the all-British commission.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess302.pdf#page=10",
+    "sourcePdfPage": 10,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess303-q01",
+    "grade": 10,
+    "chapterId": "jess303",
+    "prompt": "What was rinderpest?",
+    "options": [
+      "A European tariff",
+      "A shipbuilding method",
+      "A grain crop",
+      "A cattle disease"
+    ],
+    "answerIndex": 3,
+    "explanation": "Rinderpest was a devastating cattle plague in Africa.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess303.pdf#page=12",
+    "sourcePdfPage": 12,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess303-q02",
+    "grade": 10,
+    "chapterId": "jess303",
+    "prompt": "What did abolishing Britain’s Corn Laws allow?",
+    "options": [
+      "An end to all migration",
+      "A ban on grain imports",
+      "Cheaper food imports",
+      "The gold standard"
+    ],
+    "answerIndex": 2,
+    "explanation": "Repeal opened Britain to imported food grain.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess303.pdf#page=7",
+    "sourcePdfPage": 7,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess304-q01",
+    "grade": 10,
+    "chapterId": "jess304",
+    "prompt": "What does proto-industrialisation describe?",
+    "options": [
+      "Mechanised farming",
+      "Only urban factory work",
+      "The first steam railway",
+      "Production for markets before factory industrialisation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The term describes market-oriented production that preceded factories.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess304.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess304-q02",
+    "grade": 10,
+    "chapterId": "jess304",
+    "prompt": "Why did some women workers attack the Spinning Jenny?",
+    "options": [
+      "It required electricity",
+      "They feared losing work",
+      "It raised wages too quickly",
+      "It banned cotton"
+    ],
+    "answerIndex": 1,
+    "explanation": "The machine threatened the livelihood of hand spinners.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess304.pdf#page=9",
+    "sourcePdfPage": 9,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess305-q01",
+    "grade": 10,
+    "chapterId": "jess305",
+    "prompt": "Who developed a movable-type printing press in Europe?",
+    "options": [
+      "Johannes Gutenberg",
+      "Erasmus",
+      "Marco Polo",
+      "Martin Luther"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gutenberg developed a press using movable metal type.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess305.pdf#page=6",
+    "sourcePdfPage": 6,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "jess305-q02",
+    "grade": 10,
+    "chapterId": "jess305",
+    "prompt": "Which colonial law gave officials powers over Indian-language newspapers?",
+    "options": [
+      "Vernacular Press Act",
+      "Salt Act",
+      "Rowlatt Act",
+      "Regulating Act"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Vernacular Press Act targeted the Indian-language press.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess305.pdf#page=25",
+    "sourcePdfPage": 25,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs101-q01",
+    "grade": 11,
+    "chapterId": "kehs101",
+    "prompt": "What script was used to write many ancient Mesopotamian texts?",
+    "options": [
+      "Hieroglyphic",
+      "Brahmi",
+      "Cuneiform",
+      "Devanagari"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mesopotamian scribes pressed wedge-shaped cuneiform signs into clay tablets.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs101.pdf#page=13",
+    "sourcePdfPage": 13,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs101-q02",
+    "grade": 11,
+    "chapterId": "kehs101",
+    "prompt": "Which Mesopotamian city is noted for its early urban growth?",
+    "options": [
+      "Pataliputra",
+      "Uruk",
+      "Athens",
+      "Rome"
+    ],
+    "answerIndex": 1,
+    "explanation": "Uruk became one of Mesopotamia’s early large cities.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs101.pdf#page=9",
+    "sourcePdfPage": 9,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs102-q01",
+    "grade": 11,
+    "chapterId": "kehs102",
+    "prompt": "Which sea linked the Roman Empire’s European, African and Asian provinces?",
+    "options": [
+      "Baltic",
+      "Black Sea",
+      "Red Sea",
+      "Mediterranean"
+    ],
+    "answerIndex": 3,
+    "explanation": "The Mediterranean lay at the centre of Rome’s three-continent empire.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs102.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs102-q02",
+    "grade": 11,
+    "chapterId": "kehs102",
+    "prompt": "Which ruler founded the Roman Principate after civil wars?",
+    "options": [
+      "Constantine",
+      "Diocletian",
+      "Augustus",
+      "Trajan"
+    ],
+    "answerIndex": 2,
+    "explanation": "Augustus established the Principate in 27 BCE.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs102.pdf#page=12",
+    "sourcePdfPage": 12,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs102-q03",
+    "grade": 11,
+    "chapterId": "kehs102",
+    "prompt": "Who united the Mongol tribes under his leadership?",
+    "options": [
+      "Timur",
+      "Batu",
+      "Qubilai Khan",
+      "Genghis Khan"
+    ],
+    "answerIndex": 3,
+    "explanation": "Genghis Khan united the tribes and founded the Mongol Empire.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs102.pdf#page=5",
+    "sourcePdfPage": 5,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs102-q04",
+    "grade": 11,
+    "chapterId": "kehs102",
+    "prompt": "What was the yasa associated with in Mongol history?",
+    "options": [
+      "Japanese land reforms",
+      "Rules attributed to Genghis Khan",
+      "European feudal dues",
+      "Roman tax registers"
+    ],
+    "answerIndex": 1,
+    "explanation": "The yasa refers to rules and traditions associated with Genghis Khan.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs102.pdf#page=45",
+    "sourcePdfPage": 45,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs104-q01",
+    "grade": 11,
+    "chapterId": "kehs104",
+    "prompt": "In medieval French society, what did serfs owe a lord?",
+    "options": [
+      "Naval service only",
+      "A factory wage",
+      "Labour and dues",
+      "A vote in parliament"
+    ],
+    "answerIndex": 2,
+    "explanation": "Serfs were tied to land and owed labour and dues to the lord.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs104.pdf#page=7",
+    "sourcePdfPage": 7,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs104-q02",
+    "grade": 11,
+    "chapterId": "kehs104",
+    "prompt": "Which group was expected to pray in the model of the three orders?",
+    "options": [
+      "Peasants",
+      "Clergy",
+      "Merchants",
+      "Knights"
+    ],
+    "answerIndex": 1,
+    "explanation": "The clergy formed the order that prayed.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs104.pdf#page=4",
+    "sourcePdfPage": 4,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs105-q01",
+    "grade": 11,
+    "chapterId": "kehs105",
+    "prompt": "What did Renaissance humanism encourage scholars to study?",
+    "options": [
+      "Only tribal warfare",
+      "Only factory production",
+      "Only feudal land tenure",
+      "Human life and classical texts"
+    ],
+    "answerIndex": 3,
+    "explanation": "Humanists renewed study of classical learning and human experience.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs105.pdf#page=4",
+    "sourcePdfPage": 4,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs105-q02",
+    "grade": 11,
+    "chapterId": "kehs105",
+    "prompt": "Which Italian city is strongly associated with Renaissance art and humanism?",
+    "options": [
+      "London",
+      "Lisbon",
+      "Florence",
+      "Moscow"
+    ],
+    "answerIndex": 2,
+    "explanation": "Florence was a major centre of Renaissance art and learning.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs105.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs106-q01",
+    "grade": 11,
+    "chapterId": "kehs106",
+    "prompt": "What did the American “frontier” refer to?",
+    "options": [
+      "A Roman border wall",
+      "A railway timetable",
+      "The moving edge of settler expansion",
+      "A fixed colonial tax"
+    ],
+    "answerIndex": 2,
+    "explanation": "The term was used for the expanding zone of European-American settlement.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs106.pdf#page=20",
+    "sourcePdfPage": 20,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs106-q02",
+    "grade": 11,
+    "chapterId": "kehs106",
+    "prompt": "Which people lived in Australia before British colonisation?",
+    "options": [
+      "Aztecs",
+      "Mongols",
+      "Franks",
+      "Aboriginal peoples"
+    ],
+    "answerIndex": 3,
+    "explanation": "Aboriginal peoples had lived in Australia long before British settlement.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs106.pdf#page=13",
+    "sourcePdfPage": 13,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs107-q01",
+    "grade": 11,
+    "chapterId": "kehs107",
+    "prompt": "Which Japanese restoration began major state-led modernisation in 1868?",
+    "options": [
+      "Tokugawa Restoration",
+      "Meiji Restoration",
+      "Taisho Restoration",
+      "Qing Restoration"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Meiji Restoration began the reorganisation of Japan’s state and economy.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs107.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "kehs107-q02",
+    "grade": 11,
+    "chapterId": "kehs107",
+    "prompt": "Which Chinese dynasty faced intensified Western pressure in the nineteenth century?",
+    "options": [
+      "Qing",
+      "Tang",
+      "Han",
+      "Sui"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Qing state faced Western military and commercial demands.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs107.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs101-q01",
+    "grade": 12,
+    "chapterId": "lehs101",
+    "prompt": "Which Harappan structure at Mohenjodaro is associated with ritual bathing?",
+    "options": [
+      "Ashokan pillar",
+      "Diwan-i Am",
+      "Great Bath",
+      "Brihadisvara Temple"
+    ],
+    "answerIndex": 2,
+    "explanation": "The Great Bath is a prominent structure in the citadel at Mohenjodaro.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs101.pdf#page=8",
+    "sourcePdfPage": 8,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs101-q02",
+    "grade": 12,
+    "chapterId": "lehs101",
+    "prompt": "Which Harappan site is noted for a sophisticated water-management system?",
+    "options": [
+      "Sanchi",
+      "Taxila",
+      "Dholavira",
+      "Hampi"
+    ],
+    "answerIndex": 2,
+    "explanation": "Dholavira had large reservoirs and a planned water system.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs101.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs102-q01",
+    "grade": 12,
+    "chapterId": "lehs102",
+    "prompt": "What were the mahajanapadas?",
+    "options": [
+      "Maratha forts",
+      "Large early states",
+      "British presidencies",
+      "Mughal tax districts"
+    ],
+    "answerIndex": 1,
+    "explanation": "Mahajanapadas were early large territorial states.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs102.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs102-q02",
+    "grade": 12,
+    "chapterId": "lehs102",
+    "prompt": "Which ruler issued edicts on rocks and pillars across his empire?",
+    "options": [
+      "Harsha",
+      "Chandragupta II",
+      "Samudragupta",
+      "Ashoka"
+    ],
+    "answerIndex": 3,
+    "explanation": "Ashoka’s inscriptions are a major source for Mauryan history.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs102.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs103-q01",
+    "grade": 12,
+    "chapterId": "lehs103",
+    "prompt": "What does patriliny mean?",
+    "options": [
+      "Tracing descent through the father",
+      "Tracing descent through the mother",
+      "Division of labour",
+      "Marriage outside the group"
+    ],
+    "answerIndex": 0,
+    "explanation": "Patriliny passes descent and inheritance through the male line.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs103.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs103-q02",
+    "grade": 12,
+    "chapterId": "lehs103",
+    "prompt": "Which text is a central source for the chapter’s discussion of kinship and social norms?",
+    "options": [
+      "Mahabharata",
+      "Arthashastra only",
+      "Kitab-ul-Hind",
+      "Ain-i Akbari"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Mahabharata is used to examine kinship, caste and class.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs103.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs104-q01",
+    "grade": 12,
+    "chapterId": "lehs104",
+    "prompt": "Which teacher is closely associated with the Jain tradition?",
+    "options": [
+      "Kabir",
+      "Guru Nanak",
+      "Mahavira",
+      "Shankaracharya"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mahavira was the twenty-fourth tirthankara of the Jain tradition.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs104.pdf#page=3",
+    "sourcePdfPage": 3,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs104-q02",
+    "grade": 12,
+    "chapterId": "lehs104",
+    "prompt": "Which site is famous for Buddhist stupas and sculptured gateways?",
+    "options": [
+      "Hampi",
+      "Fatehpur Sikri",
+      "Dholavira",
+      "Sanchi"
+    ],
+    "answerIndex": 3,
+    "explanation": "Sanchi preserves important Buddhist stupas and gateways.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs104.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs201-q01",
+    "grade": 12,
+    "chapterId": "lehs201",
+    "prompt": "Who wrote the Kitab-ul-Hind?",
+    "options": [
+      "Abul Fazl",
+      "Ibn Battuta",
+      "Al-Biruni",
+      "Bernier"
+    ],
+    "answerIndex": 2,
+    "explanation": "Al-Biruni wrote the Kitab-ul-Hind after studying Indian knowledge and society.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs201.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs201-q02",
+    "grade": 12,
+    "chapterId": "lehs201",
+    "prompt": "Which traveller from Morocco wrote the Rihla?",
+    "options": [
+      "Bernier",
+      "Al-Biruni",
+      "Ibn Battuta",
+      "Marco Polo"
+    ],
+    "answerIndex": 2,
+    "explanation": "Ibn Battuta’s travel account is known as the Rihla.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs201.pdf#page=4",
+    "sourcePdfPage": 4,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs202-q01",
+    "grade": 12,
+    "chapterId": "lehs202",
+    "prompt": "Which Sufi order is associated with Muinuddin Chishti?",
+    "options": [
+      "Naqshbandi",
+      "Suhrawardi",
+      "Chishti",
+      "Qadiri"
+    ],
+    "answerIndex": 2,
+    "explanation": "Muinuddin Chishti is an important figure of the Chishti order.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs202.pdf#page=18",
+    "sourcePdfPage": 18,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs202-q02",
+    "grade": 12,
+    "chapterId": "lehs202",
+    "prompt": "Which devotional poet questioned religious and caste divisions through his verses?",
+    "options": [
+      "Bana",
+      "Abul Fazl",
+      "Kabir",
+      "Kalidasa"
+    ],
+    "answerIndex": 2,
+    "explanation": "Kabir’s verses challenged rigid divisions and emphasised devotion.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs202.pdf#page=22",
+    "sourcePdfPage": 22,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs203-q01",
+    "grade": 12,
+    "chapterId": "lehs203",
+    "prompt": "What is Hampi associated with?",
+    "options": [
+      "The Mauryan capital",
+      "An Indus city",
+      "The Mughal capital",
+      "The ruins of Vijayanagara"
+    ],
+    "answerIndex": 3,
+    "explanation": "Hampi contains the remains of Vijayanagara’s imperial capital.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs203.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs203-q02",
+    "grade": 12,
+    "chapterId": "lehs203",
+    "prompt": "Which river flowed near Vijayanagara and supported its water system?",
+    "options": [
+      "Nile",
+      "Ganga",
+      "Narmada",
+      "Tungabhadra"
+    ],
+    "answerIndex": 3,
+    "explanation": "Vijayanagara’s water system drew on the Tungabhadra River.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs203.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs204-q01",
+    "grade": 12,
+    "chapterId": "lehs204",
+    "prompt": "Which text compiled by Abul Fazl describes Akbar’s administration?",
+    "options": [
+      "Ain-i Akbari",
+      "Kitab-ul-Hind",
+      "Rihla",
+      "Gulamgiri"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Ain-i Akbari is a major source on Mughal administration and agrarian society.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs204.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs204-q02",
+    "grade": 12,
+    "chapterId": "lehs204",
+    "prompt": "Who were zamindars in Mughal agrarian society?",
+    "options": [
+      "Only palace scribes",
+      "Temple priests alone",
+      "Local landed intermediaries with claims on revenue",
+      "European factory owners"
+    ],
+    "answerIndex": 2,
+    "explanation": "Zamindars held local power and claimed a share of agrarian revenue.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs204.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs301-q01",
+    "grade": 12,
+    "chapterId": "lehs301",
+    "prompt": "Which settlement fixed Bengal’s land revenue demand in 1793?",
+    "options": [
+      "Permanent Settlement",
+      "Subsidiary Alliance",
+      "Ryotwari Settlement",
+      "Mahalwari Settlement"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Permanent Settlement fixed the Company’s land revenue demand on zamindars.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs301.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs301-q02",
+    "grade": 12,
+    "chapterId": "lehs301",
+    "prompt": "Which community rebelled in 1855–56 in the Damin-i-Koh region?",
+    "options": [
+      "Ahoms",
+      "Sikhs",
+      "Santhals",
+      "Marathas"
+    ],
+    "answerIndex": 2,
+    "explanation": "The Santhal rebellion grew from conflict over land, debt and colonial rule.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs301.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs302-q01",
+    "grade": 12,
+    "chapterId": "lehs302",
+    "prompt": "Which Mughal emperor became a symbolic leader of the 1857 rebels?",
+    "options": [
+      "Bahadur Shah Zafar",
+      "Shah Jahan",
+      "Akbar",
+      "Aurangzeb"
+    ],
+    "answerIndex": 0,
+    "explanation": "Rebels sought Bahadur Shah Zafar’s authority to legitimise their cause.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs302.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs302-q02",
+    "grade": 12,
+    "chapterId": "lehs302",
+    "prompt": "Which city was a major centre of the 1857 uprising in Awadh?",
+    "options": [
+      "Madras",
+      "Calcutta",
+      "Bombay",
+      "Lucknow"
+    ],
+    "answerIndex": 3,
+    "explanation": "Lucknow was a major centre of rebellion and siege in Awadh.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs302.pdf#page=2",
+    "sourcePdfPage": 2,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs303-q01",
+    "grade": 12,
+    "chapterId": "lehs303",
+    "prompt": "Which campaign made the colonial salt tax a symbol of resistance?",
+    "options": [
+      "Dandi March",
+      "Bardoli Satyagraha",
+      "Khilafat Movement",
+      "Swadeshi Movement"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gandhi’s 1930 march to Dandi challenged the salt law.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs303.pdf#page=1",
+    "sourcePdfPage": 1,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs303-q02",
+    "grade": 12,
+    "chapterId": "lehs303",
+    "prompt": "Where did Gandhi lead an early satyagraha over indigo cultivation?",
+    "options": [
+      "Champaran",
+      "Kheda",
+      "Chauri Chaura",
+      "Dandi"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gandhi worked with indigo peasants in Champaran in 1917.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs303.pdf#page=4",
+    "sourcePdfPage": 4,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs304-q01",
+    "grade": 12,
+    "chapterId": "lehs304",
+    "prompt": "Who moved the Objectives Resolution in the Constituent Assembly?",
+    "options": [
+      "Sardar Patel",
+      "Rajendra Prasad",
+      "Jawaharlal Nehru",
+      "B. R. Ambedkar"
+    ],
+    "answerIndex": 2,
+    "explanation": "Nehru moved the Objectives Resolution, which framed the Assembly’s ideals.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs304.pdf#page=5",
+    "sourcePdfPage": 5,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  },
+  {
+    "id": "lehs304-q02",
+    "grade": 12,
+    "chapterId": "lehs304",
+    "prompt": "Which language did Gandhi advocate as a bridge between Hindi and Urdu speakers?",
+    "options": [
+      "Hindustani",
+      "English",
+      "Persian",
+      "Sanskrit"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gandhi advocated Hindustani as a language accessible across communities.",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs304.pdf#page=21",
+    "sourcePdfPage": 21,
+    "provenance": "New practice MCQ based on NCERT textbook; not an official NCERT question or key"
+  }
+]

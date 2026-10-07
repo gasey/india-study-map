@@ -9,6 +9,13 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-07 — NCERT History MCQ module
+
+Added `/ncert-history` as a separate practice module for NCERT Classes 8–12. The first set has 80 newly authored MCQs across 39 available chapter PDFs, with class/book/chapter filters, browse and clickable quiz modes, explanations, local progress and direct NCERT source links. It has its own NCERT navigation tab, outside Bank, and a vertical scroll area within the app shell. The earlier 394 extracted chapter-end prompts remain local source material and are not presented as MCQs or official keys. Class 8 includes current integrated and older standalone books; Class 9 currently uses the two History chapters in the integrated book because the older standalone PDFs returned 404.
+
+Source anchors, source pages, options, unique IDs, content serving, browser quiz interaction, separate navigation and actual scrolling at 390px were checked. The study guide is future content. See `tools/ncert-history-build/HANDOFF.md` for the data pipeline, authoring rules and guide follow-up.
+
+
 ## 2026-10-03 (5) — GK questions are now sub-topiced, and the rail can drill one
 
 **What shipped.** Every one of the bank's 1,500 General Knowledge

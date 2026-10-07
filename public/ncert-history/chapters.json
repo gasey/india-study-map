@@ -1,0 +1,314 @@
+[
+  {
+    "id": "hees102",
+    "grade": 8,
+    "book": "Exploring Society: India and Beyond, Part I",
+    "chapter": "Reshaping India’s Political Map",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees102.pdf"
+  },
+  {
+    "id": "hees103",
+    "grade": 8,
+    "book": "Exploring Society: India and Beyond, Part I",
+    "chapter": "The Rise of the Marathas",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees103.pdf"
+  },
+  {
+    "id": "hees104",
+    "grade": 8,
+    "book": "Exploring Society: India and Beyond, Part I",
+    "chapter": "The Colonial Era in India",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees104.pdf"
+  },
+  {
+    "id": "hees202",
+    "grade": 8,
+    "book": "Exploring Society: India and Beyond, Part II",
+    "chapter": "India’s Long Road to Independence",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees202.pdf"
+  },
+  {
+    "id": "hees203",
+    "grade": 8,
+    "book": "Exploring Society: India and Beyond, Part II",
+    "chapter": "A Journey Through Indian Architecture",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees203.pdf"
+  },
+  {
+    "id": "hees208",
+    "grade": 8,
+    "book": "Exploring Society: India and Beyond, Part II",
+    "chapter": "Cultural Currents: 13th to 17th Centuries",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hees208.pdf"
+  },
+  {
+    "id": "iest104",
+    "grade": 9,
+    "book": "Understanding Society: India and Beyond, Part I",
+    "chapter": "Early Humans and Beginning of Civilisation",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/iest104.pdf"
+  },
+  {
+    "id": "iest105",
+    "grade": 9,
+    "book": "Understanding Society: India and Beyond, Part I",
+    "chapter": "State and Society up to 1000 CE",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/iest105.pdf"
+  },
+  {
+    "id": "hess201",
+    "grade": 8,
+    "book": "Our Pasts III",
+    "chapter": "How, When and Where",
+    "editionGroup": "older standalone",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess201.pdf"
+  },
+  {
+    "id": "hess202",
+    "grade": 8,
+    "book": "Our Pasts III",
+    "chapter": "From Trade to Territory",
+    "editionGroup": "older standalone",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess202.pdf"
+  },
+  {
+    "id": "hess203",
+    "grade": 8,
+    "book": "Our Pasts III",
+    "chapter": "Ruling the Countryside",
+    "editionGroup": "older standalone",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess203.pdf"
+  },
+  {
+    "id": "hess204",
+    "grade": 8,
+    "book": "Our Pasts III",
+    "chapter": "Tribals, Dikus and the Vision of a Golden Age",
+    "editionGroup": "older standalone",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess204.pdf"
+  },
+  {
+    "id": "hess205",
+    "grade": 8,
+    "book": "Our Pasts III",
+    "chapter": "When People Rebel",
+    "editionGroup": "older standalone",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess205.pdf"
+  },
+  {
+    "id": "hess206",
+    "grade": 8,
+    "book": "Our Pasts III",
+    "chapter": "Civilising the “Native”, Educating the Nation",
+    "editionGroup": "older standalone",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess206.pdf"
+  },
+  {
+    "id": "hess207",
+    "grade": 8,
+    "book": "Our Pasts III",
+    "chapter": "Women, Caste and Reform",
+    "editionGroup": "older standalone",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess207.pdf"
+  },
+  {
+    "id": "hess208",
+    "grade": 8,
+    "book": "Our Pasts III",
+    "chapter": "The Making of the National Movement: 1870s–1947",
+    "editionGroup": "older standalone",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/hess208.pdf"
+  },
+  {
+    "id": "jess301",
+    "grade": 10,
+    "book": "India and the Contemporary World II",
+    "chapter": "The Rise of Nationalism in Europe",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess301.pdf"
+  },
+  {
+    "id": "jess302",
+    "grade": 10,
+    "book": "India and the Contemporary World II",
+    "chapter": "Nationalism in India",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess302.pdf"
+  },
+  {
+    "id": "jess303",
+    "grade": 10,
+    "book": "India and the Contemporary World II",
+    "chapter": "The Making of a Global World",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess303.pdf"
+  },
+  {
+    "id": "jess304",
+    "grade": 10,
+    "book": "India and the Contemporary World II",
+    "chapter": "The Age of Industrialisation",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess304.pdf"
+  },
+  {
+    "id": "jess305",
+    "grade": 10,
+    "book": "India and the Contemporary World II",
+    "chapter": "Print Culture and the Modern World",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/jess305.pdf"
+  },
+  {
+    "id": "kehs101",
+    "grade": 11,
+    "book": "Themes in World History",
+    "chapter": "Writing and City Life",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs101.pdf"
+  },
+  {
+    "id": "kehs102",
+    "grade": 11,
+    "book": "Themes in World History",
+    "chapter": "An Empire Across Three Continents",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs102.pdf"
+  },
+  {
+    "id": "kehs104",
+    "grade": 11,
+    "book": "Themes in World History",
+    "chapter": "The Three Orders",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs104.pdf"
+  },
+  {
+    "id": "kehs105",
+    "grade": 11,
+    "book": "Themes in World History",
+    "chapter": "Changing Cultural Traditions",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs105.pdf"
+  },
+  {
+    "id": "kehs106",
+    "grade": 11,
+    "book": "Themes in World History",
+    "chapter": "Displacing Indigenous Peoples",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs106.pdf"
+  },
+  {
+    "id": "kehs107",
+    "grade": 11,
+    "book": "Themes in World History",
+    "chapter": "Paths to Modernisation",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/kehs107.pdf"
+  },
+  {
+    "id": "lehs101",
+    "grade": 12,
+    "book": "Themes in Indian History I",
+    "chapter": "Bricks, Beads and Bones",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs101.pdf"
+  },
+  {
+    "id": "lehs102",
+    "grade": 12,
+    "book": "Themes in Indian History I",
+    "chapter": "Kings, Farmers and Towns",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs102.pdf"
+  },
+  {
+    "id": "lehs103",
+    "grade": 12,
+    "book": "Themes in Indian History I",
+    "chapter": "Kinship, Caste and Class",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs103.pdf"
+  },
+  {
+    "id": "lehs104",
+    "grade": 12,
+    "book": "Themes in Indian History I",
+    "chapter": "Thinkers, Beliefs and Buildings",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs104.pdf"
+  },
+  {
+    "id": "lehs201",
+    "grade": 12,
+    "book": "Themes in Indian History II",
+    "chapter": "Through the Eyes of Travellers",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs201.pdf"
+  },
+  {
+    "id": "lehs202",
+    "grade": 12,
+    "book": "Themes in Indian History II",
+    "chapter": "Bhakti-Sufi Traditions",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs202.pdf"
+  },
+  {
+    "id": "lehs203",
+    "grade": 12,
+    "book": "Themes in Indian History II",
+    "chapter": "An Imperial Capital: Vijayanagara",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs203.pdf"
+  },
+  {
+    "id": "lehs204",
+    "grade": 12,
+    "book": "Themes in Indian History II",
+    "chapter": "Peasants, Zamindars and the State",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs204.pdf"
+  },
+  {
+    "id": "lehs301",
+    "grade": 12,
+    "book": "Themes in Indian History III",
+    "chapter": "Colonialism and the Countryside",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs301.pdf"
+  },
+  {
+    "id": "lehs302",
+    "grade": 12,
+    "book": "Themes in Indian History III",
+    "chapter": "Rebels and the Raj",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs302.pdf"
+  },
+  {
+    "id": "lehs303",
+    "grade": 12,
+    "book": "Themes in Indian History III",
+    "chapter": "Mahatma Gandhi and the Nationalist Movement",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs303.pdf"
+  },
+  {
+    "id": "lehs304",
+    "grade": 12,
+    "book": "Themes in Indian History III",
+    "chapter": "Framing the Constitution",
+    "editionGroup": "current catalogue",
+    "sourceUrl": "https://www.ncert.nic.in/textbook/pdf/lehs304.pdf"
+  }
+]

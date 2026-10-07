@@ -113,6 +113,16 @@ export const modules: AppModule[] = [
 
   // ---- Practice: In-app modules ----
   {
+    id: 'ncert-history',
+    title: 'NCERT History MCQs',
+    category: 'Practice',
+    subgroup: 'In-app modules',
+    tagline: 'Classes 8–12 · chapter practice with textbook sources',
+    glyph: '📚',
+    kind: 'route',
+    path: '/ncert-history',
+  },
+  {
     id: 'udc-ldc',
     title: 'LDC / UDC Clerical',
     category: 'Practice',

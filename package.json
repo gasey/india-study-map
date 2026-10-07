@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "ncert-history:build": "node tools/ncert-history-build/build.mjs",
+    "ncert-history:check": "node tools/ncert-history-build/validate.mjs",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",

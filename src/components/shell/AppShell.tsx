@@ -23,6 +23,7 @@ const HEADER_BY_PATH: Record<string, { kicker?: string; title: string }> = {
   '/papers': { title: 'Papers' },
   '/map': { title: 'Study Map' },
   '/timeline': { title: 'Chronicle' },
+  '/ncert-history': { title: 'NCERT History MCQs' },
   '/recall': { title: 'Recall' },
   '/library': { title: 'Library' },
   '/current-affairs': { title: 'Current Affairs' },
@@ -94,7 +95,7 @@ function MobileBottomBar() {
         style={collectible ? undefined : { borderTop: '1px solid var(--border)', background: 'var(--bg-panel)' }}
       >
         {collectible
-          ? /* The source's mobile bar is the same four tabs as desktop, and
+          ? /* The mobile bar uses the same primary tabs as desktop, and
                drops the More sheet entirely. Nothing is stranded: the
                sub-tab rail below the header covers each tab's routes, and
                Guides lists every standalone app. */
@@ -197,7 +198,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       )}
       <div className="flex-1 flex overflow-hidden min-h-0">
         {/* The collectible direction replaces the rail (and its More flyout)
-            with AppHeader's four-tab band — see collectibleTabs.ts. Both
+            with AppHeader's tab band — see collectibleTabs.ts. Both
             shells stay in the tree so switching skin switches the whole
             navigation model, which is the point of keeping it A/B-able. */}
         {!collectible && <Rail />}

@@ -3,7 +3,7 @@ import { chapters } from '@/data';
 import { modules } from '@/modules/registry';
 
 // ============================================
-// COLLECTIBLE SHELL — four tabs, two levels
+// COLLECTIBLE SHELL — primary tabs, two levels
 //
 // Ported from `Study OS v3 bright.dc.html` (frames 3a–3e), whose whole
 // navigation is four tabs: Bank, Atlas, Guides, Lab. The eight-item rail
@@ -25,7 +25,7 @@ import { modules } from '@/modules/registry';
 // guessing. See CLAUDE.md on why a wrong number here is not cosmetic.
 // ============================================
 
-export type CollectibleTabId = 'bank' | 'atlas' | 'guides' | 'lab';
+export type CollectibleTabId = 'bank' | 'ncert' | 'atlas' | 'guides' | 'lab';
 
 export interface SubTab {
   label: string;
@@ -59,6 +59,14 @@ export const COLLECTIBLE_TABS: CollectibleTab[] = [
     // /mpsc is a working alias for the bank and /flashcards is where Recall
     // sends you — both belong to this tab even though neither is a sub-tab.
     match: ['/question-bank', '/tests', '/papers', '/recall', '/mpsc', '/flashcards', '/state-tax-officer', '/pyq', '/arena'],
+  },
+  {
+    id: 'ncert',
+    label: 'NCERT',
+    icon: IC.study,
+    to: '/ncert-history',
+    subTabs: [],
+    match: ['/ncert-history'],
   },
   {
     id: 'atlas',

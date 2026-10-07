@@ -234,7 +234,7 @@
   border-top: 3px solid var(--ink);
 }
 
-/* ---- The four primary tabs (frame 3e's header row) ----
+/* ---- Primary tabs (frame 3e's header row) ----
    An active tab is a paper block lifted off the yellow band by a hard
    offset shadow; the rest are flat, carrying only the ink rule. */
 [data-theme="collectible"] .clb-tab {
@@ -248,8 +248,11 @@
   background: var(--clb-paper);
   box-shadow: 3px 3px 0 var(--ink);
 }
-/* Phone-width variant: tighter box and a 2px rule, so four tabs fit 390px
-   instead of needing a 547px scroll. */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  [data-theme="collectible"] .app-header .clb-tab { padding: 6px 8px; gap: 5px; }
+  [data-theme="collectible"] .app-header .clb-num { display: none; }
+}
+/* Phone-width variant: tighter box and a 2px rule. */
 [data-theme="collectible"] .clb-tab-compact {
   padding: 6px 9px;
   border-width: 2px;
@@ -295,6 +298,7 @@
   color: var(--clb-paper);
 }
 [data-theme="collectible"] .clb-section[data-tab="bank"]   { background: var(--clb-purple); }
+[data-theme="collectible"] .clb-section[data-tab="ncert"]  { background: var(--clb-purple); }
 [data-theme="collectible"] .clb-section[data-tab="atlas"]  { background: var(--clb-green); }
 [data-theme="collectible"] .clb-section[data-tab="guides"] { background: var(--clb-orange); }
 [data-theme="collectible"] .clb-section[data-tab="lab"]    { background: var(--clb-blue); }

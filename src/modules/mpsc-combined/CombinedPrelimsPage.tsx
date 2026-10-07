@@ -180,6 +180,7 @@ export default function CombinedPrelimsPage() {
   const [tab, setTab] = useState<Tab>('overview');
   const [paperId, setPaperId] = useState('');
   const [year, setYear] = useState('all');
+  const [paperNumber, setPaperNumber] = useState('all');
   const [subject, setSubject] = useState('all');
   const [status, setStatus] = useState('all');
   const [search, setSearch] = useState('');
@@ -191,6 +192,7 @@ export default function CombinedPrelimsPage() {
     const paper = byId.get(q.paperId)!;
     if (paperId && q.paperId !== paperId) return false;
     if (year !== 'all' && paper.year !== Number(year)) return false;
+    if (paperNumber !== 'all' && paper.paper !== paperNumber) return false;
     if (subject !== 'all' && q.subject !== subject) return false;
     if (status === 'ready' && !q.scoreable) return false;
     if (status === 'review' && q.scoreable) return false;
@@ -198,7 +200,7 @@ export default function CombinedPrelimsPage() {
     if (status === 'unseen' && progress[q.id]) return false;
     if (status === 'wrong' && (!progress[q.id] || progress[q.id].correct)) return false;
     return !search || `${q.text} ${q.options.join(' ')}`.toLowerCase().includes(search.toLowerCase());
-  }), [questions, byId, paperId, year, subject, status, search, progress]);
+  }), [questions, byId, paperId, year, paperNumber, subject, status, search, progress]);
   useEffect(() => {
     if (tab !== 'browse' && tab !== 'practice') return;
     const target = sentinel.current;
@@ -209,14 +211,30 @@ export default function CombinedPrelimsPage() {
     observer.observe(target);
     return () => observer.disconnect();
   }, [tab, filtered.length, visibleCount]);
-  const openPaper = (id: string) => { setPaperId(id); setVisibleCount(30); setTab('browse'); };
+  const openPaper = (id: string) => {
+    setPaperId(id);
+    setYear('all');
+    setPaperNumber(byId.get(id)?.paper || 'all');
+    setSubject('all');
+    setStatus('all');
+    setSearch('');
+    setVisibleCount(30);
+    setTab('browse');
+  };
   const changeFilter = (setter: (value: string) => void, value: string) => { setter(value); setVisibleCount(30); };
   return <div className="scroll-panel h-full overflow-y-auto cp-page"><div className="cp-content">
     <header className="cp-hero"><div className="cp-eyebrow">MIZORAM CIVIL SERVICES · PRELIMINARY EXAMINATION</div><h1>MPSC Combined Prelims</h1><p>Past papers, final-key answers where verified, and a clear view of what still needs review.</p></header>
     <nav className="cp-tabs" aria-label="Combined Prelims sections">{(['overview', 'browse', 'practice', 'mock'] as Tab[]).map((item) => <button key={item} type="button" className={tab === item ? 'is-active' : ''} onClick={() => setTab(item)}>{item === 'mock' ? 'Timed paper' : item}</button>)}</nav>
     {tab === 'overview' && <Overview papers={papers} questions={questions} progress={progress} openPaper={openPaper} />}
     {(tab === 'browse' || tab === 'practice') && <>
-      <div className="cp-filters"><label>Year<select value={year} onChange={(e) => { setPaperId(''); changeFilter(setYear, e.target.value); }}><option value="all">All years</option>{[...new Set(papers.map((p) => p.year))].map((value) => <option key={value} value={value}>{value}</option>)}</select></label><label>Paper<select value={paperId} onChange={(e) => changeFilter(setPaperId, e.target.value)}><option value="">All papers</option>{papers.filter((p) => year === 'all' || p.year === Number(year)).map((p) => <option key={p.id} value={p.id}>{paperTitle(p)}</option>)}</select></label><label>Subject<select value={subject} onChange={(e) => changeFilter(setSubject, e.target.value)}><option value="all">All subjects</option>{subjects.map((value) => <option key={value} value={value}>{value}</option>)}</select></label><label>Status<select value={status} onChange={(e) => changeFilter(setStatus, e.target.value)}><option value="all">All questions</option><option value="ready">Ready to score</option><option value="review">Needs source review</option><option value="no-key">No official key found</option><option value="unseen">Not practised</option><option value="wrong">Last answered wrong</option></select></label><label className="cp-search">Search<input value={search} onChange={(e) => changeFilter(setSearch, e.target.value)} placeholder="Question or option text" /></label></div>
+      <div className="cp-filters">
+        <label>Year<select value={year} onChange={(e) => { setPaperId(''); changeFilter(setYear, e.target.value); }}><option value="all">All years</option>{[...new Set(papers.map((p) => p.year))].map((value) => <option key={value} value={value}>{value}</option>)}</select></label>
+        <label>Paper type<select value={paperNumber} onChange={(e) => { setPaperId(''); changeFilter(setPaperNumber, e.target.value); }}><option value="all">Both papers</option><option value="I">Paper I only</option><option value="II">Paper II only</option></select></label>
+        <label>Specific paper<select value={paperId} onChange={(e) => changeFilter(setPaperId, e.target.value)}><option value="">All matching papers</option>{papers.filter((p) => (year === 'all' || p.year === Number(year)) && (paperNumber === 'all' || p.paper === paperNumber)).map((p) => <option key={p.id} value={p.id}>{paperTitle(p)}</option>)}</select></label>
+        <label>Subject<select value={subject} onChange={(e) => changeFilter(setSubject, e.target.value)}><option value="all">All subjects</option>{subjects.map((value) => <option key={value} value={value}>{value}</option>)}</select></label>
+        <label>Status<select value={status} onChange={(e) => changeFilter(setStatus, e.target.value)}><option value="all">All questions</option><option value="ready">Ready to score</option><option value="review">Needs source review</option><option value="no-key">No official key found</option><option value="unseen">Not practised</option><option value="wrong">Last answered wrong</option></select></label>
+        <label className="cp-search">Search<input value={search} onChange={(e) => changeFilter(setSearch, e.target.value)} placeholder="Question or option text" /></label>
+      </div>
       <div className="cp-results-line"><strong>{filtered.length}</strong> questions match{tab === 'practice' && <span> · choose “Ready to score” for answerable practice</span>}</div>
       {filtered.length ? <div className={tab === 'practice' ? 'cp-practice cp-list' : 'cp-list'}>{filtered.slice(0, visibleCount).map((q) => <QuestionCard key={q.id} q={q} paper={byId.get(q.paperId)!} mode={tab} progress={progress} onRecord={tab === 'practice' ? record : undefined} />)}</div> : <div className="cp-empty">No questions match these filters.</div>}
       {visibleCount < filtered.length && <div ref={sentinel} className="cp-load-more"><button type="button" onClick={() => setVisibleCount((count) => Math.min(count + 30, filtered.length))}>Show more questions</button><span>{Math.min(visibleCount, filtered.length)} of {filtered.length} shown · more load while scrolling</span></div>}

@@ -104,6 +104,14 @@ export default function Home() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 rv-stagger">
         <Link
+          to="/revision/browse"
+          className="bg-gradient-to-br from-indigo-50 to-purple-100 rounded-xl shadow-md p-6 text-center hover:shadow-xl hover:-translate-y-1 transition-all border-2 border-indigo-200"
+        >
+          <div className="text-3xl mb-2">✨</div>
+          <h3 className="font-bold text-gray-800">Browse</h3>
+          <p className="text-sm text-gray-600">Flip through facts, tricks & events</p>
+        </Link>
+        <Link
           to="/revision/tricks"
           className="bg-gradient-to-br from-amber-50 to-orange-100 rounded-xl shadow-md p-6 text-center hover:shadow-xl hover:-translate-y-1 transition-all border-2 border-orange-200"
         >

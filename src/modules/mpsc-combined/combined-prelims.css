@@ -30,7 +30,7 @@
 .cp-paper-actions button { padding: 7px 10px; color: var(--cp-green); }
 .cp-source-links { display: inline-flex; gap: 10px; flex-wrap: wrap; }
 .cp-source-links a { color: var(--cp-green); font-size: 12px; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
-.cp-filters { display: grid; grid-template-columns: 105px minmax(170px, 1.3fr) minmax(150px, 1fr) minmax(150px, 1fr) minmax(180px, 1.2fr); gap: 10px; background: var(--bg-panel, white); border: 1px solid var(--cp-line); border-radius: 12px; padding: 13px; }
+.cp-filters { display: grid; grid-template-columns: 95px 115px minmax(170px, 1.4fr) minmax(130px, 1fr) minmax(150px, 1fr) minmax(160px, 1.1fr); gap: 10px; background: var(--bg-panel, white); border: 1px solid var(--cp-line); border-radius: 12px; padding: 13px; }
 .cp-filters label, .cp-mock-picker label { display: flex; flex-direction: column; gap: 5px; font-size: 11px; font-weight: 800; color: var(--text-secondary, #66716e); letter-spacing: .04em; text-transform: uppercase; }
 .cp-filters select, .cp-filters input, .cp-mock-picker select { min-width: 0; width: 100%; background: var(--bg-panel, white); color: var(--text-primary, #1d2927); border: 1px solid var(--cp-line); border-radius: 8px; padding: 8px 9px; font: inherit; font-size: 13px; }
 .cp-results-line { font-size: 13px; padding: 15px 2px; color: var(--text-secondary, #66716e); }

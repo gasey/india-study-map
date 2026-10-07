@@ -9,10 +9,12 @@ import Flashcards from './pages/Flashcards'
 import Search from './pages/Search'
 import Book from './pages/Book'
 import Tricks from './pages/Tricks'
+import Browse from './pages/Browse'
 import './revision.css'
 
 const tabs = [
   { path: '/revision', label: 'Home', end: true },
+  { path: '/revision/browse', label: '✨ Browse' },
   { path: '/revision/tricks', label: '🧠 Tricks' },
   { path: '/revision/flashcards', label: 'Flashcards' },
   { path: '/revision/timeline', label: 'Timeline' },
@@ -62,6 +64,7 @@ export default function RevisionApp() {
         <Route path="quiz" element={<Quiz />} />
         <Route path="quiz/:subjectId" element={<Quiz />} />
         <Route path="quiz/:subjectId/:topicId" element={<Quiz />} />
+        <Route path="browse" element={<Browse />} />
         <Route path="tricks" element={<Tricks />} />
         <Route path="flashcards" element={<Flashcards />} />
         <Route path="flashcards/:subjectId" element={<Flashcards />} />

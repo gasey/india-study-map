@@ -9,6 +9,10 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-07 — NCERT question cards follow UDC/LDC interaction
+
+Replaced collapsed Browse rows with full question cards: visible options, one-tap marking, verdict, explanation and source PDF. Practice now uses the same card and marks immediately on option selection. The module identifies its 80 questions as an authored starter set; the 394 extracted chapter-end prompts are mostly open-ended and not ready-to-score MCQs. Mobile and desktop browser checks cover the card, scroll and quiz flow. The study guide and further source-checked MCQ authoring remain open.
+
 ## 2026-10-07 — NCERT History MCQ module
 
 Added `/ncert-history` as a separate practice module for NCERT Classes 8–12. The first set has 80 newly authored MCQs across 39 available chapter PDFs, with class/book/chapter filters, browse and clickable quiz modes, explanations, local progress and direct NCERT source links. It has its own NCERT navigation tab, outside Bank, and a vertical scroll area within the app shell. The earlier 394 extracted chapter-end prompts remain local source material and are not presented as MCQs or official keys. Class 8 includes current integrated and older standalone books; Class 9 currently uses the two History chapters in the integrated book because the older standalone PDFs returned 404.

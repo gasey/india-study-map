@@ -27,6 +27,56 @@ function shuffled(items: Question[]): SessionItem[] {
 }
 function optionLetter(i: number) { return String.fromCharCode(65 + i); }
 
+function QuestionCard({ question, chapter, label, order, picked, onPick, children }: {
+  question: Question;
+  chapter?: Chapter;
+  label: string;
+  order: number[];
+  picked: number | null;
+  onPick: (option: number) => void;
+  children?: React.ReactNode;
+}) {
+  const answered = picked !== null;
+  const correctLetter = optionLetter(order.indexOf(question.answerIndex));
+  return <article className="nh-card nh-question-card">
+    <div className="nh-question-top"><span className="nh-question-number">{label}</span><span className="nh-question-topic">Class {question.grade} · {chapter?.chapter}</span></div>
+    <p className="nh-question-source">{chapter?.book} · NCERT textbook practice</p>
+    <h3 className="nh-question-stem">{question.prompt}</h3>
+    <div className="nh-options" role="group" aria-label={`Answer choices for ${label}`}>
+      {order.map((option, displayIndex) => {
+        const isCorrect = answered && option === question.answerIndex;
+        const isWrong = answered && option === picked && option !== question.answerIndex;
+        return <button key={option} type="button" disabled={answered} aria-pressed={option === picked}
+          className={`nh-option${isCorrect ? ' correct' : ''}${isWrong ? ' wrong' : ''}`}
+          onClick={() => onPick(option)}>
+          <span className="nh-option-letter">{optionLetter(displayIndex)}</span><span>{question.options[option]}</span>
+        </button>;
+      })}
+    </div>
+    {answered && <div className="nh-feedback" role="status">
+      <strong className={picked === question.answerIndex ? 'nh-verdict-correct' : 'nh-verdict-wrong'}>
+        {picked === question.answerIndex ? 'Correct' : `Not quite — the answer is (${correctLetter})`}
+      </strong>
+      <p>{question.explanation}</p>
+      <a href={question.sourceUrl} target="_blank" rel="noopener noreferrer">Open NCERT PDF · page {question.sourcePdfPage} ↗</a>
+      <p className="nh-provenance">Original practice MCQ based on NCERT; not an official question or answer key.</p>
+      {children}
+    </div>}
+  </article>;
+}
+
+function BrowseQuestionCard({ question, chapter, index, onAnswer }: {
+  question: Question; chapter?: Chapter; index: number; onAnswer: (id: string, correct: boolean) => void;
+}) {
+  const [picked, setPicked] = useState<number | null>(null);
+  return <QuestionCard question={question} chapter={chapter} label={`Question ${index + 1}`}
+    order={[0, 1, 2, 3]} picked={picked} onPick={(option) => {
+      if (picked !== null) return;
+      setPicked(option);
+      onAnswer(question.id, option === question.answerIndex);
+    }} />;
+}
+
 export default function NcertHistoryPage() {
   const [chapters, setChapters] = useState<Chapter[]>([]);
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -41,7 +91,6 @@ export default function NcertHistoryPage() {
   const [session, setSession] = useState<SessionItem[] | null>(null);
   const [position, setPosition] = useState(0);
   const [choice, setChoice] = useState<number | null>(null);
-  const [submitted, setSubmitted] = useState(false);
   const [results, setResults] = useState<Record<number, number | null>>({});
   const [sessionSize, setSessionSize] = useState(10);
 
@@ -71,23 +120,27 @@ export default function NcertHistoryPage() {
   const correct = session?.reduce((n, item, i) => n + (results[i] === item.question.answerIndex ? 1 : 0), 0) ?? 0;
   const attemptedIds = questions.filter((q) => progress[q.id]?.length).length;
 
-  const recordAnswer = () => {
-    if (!current || choice === null || submitted) return;
-    const q = current.question;
-    const updated = { ...progress, [q.id]: [...(progress[q.id] ?? []), { correct: choice === q.answerIndex, at: Date.now() }] };
+  const recordProgress = (id: string, correct: boolean) => {
+    const updated = { ...progress, [id]: [...(progress[id] ?? []), { correct, at: Date.now() }] };
     setProgress(updated);
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(updated)); } catch { /* private browsing can disable storage */ }
-    setResults((r) => ({ ...r, [position]: choice }));
-    setSubmitted(true);
+  };
+  const recordAnswer = (selected: number) => {
+    if (!current || choice !== null) return;
+    const q = current.question;
+    setChoice(selected);
+    recordProgress(q.id, selected === q.answerIndex);
+    setResults((r) => ({ ...r, [position]: selected }));
   };
   const next = (skip: boolean) => {
-    if (skip && !submitted) setResults((r) => ({ ...r, [position]: null }));
-    setPosition((n) => n + 1); setChoice(null); setSubmitted(false);
+    if (skip && choice === null) setResults((r) => ({ ...r, [position]: null }));
+    setPosition((n) => n + 1); setChoice(null);
+    requestAnimationFrame(() => document.querySelector('.nh-quiz')?.scrollIntoView({ block: 'start', behavior: 'smooth' }));
   };
   const start = () => {
     if (!pool.length) return;
     setSession(shuffled(pool).slice(0, sessionSize || pool.length));
-    setPosition(0); setChoice(null); setSubmitted(false); setResults({}); setMode('practice');
+    setPosition(0); setChoice(null); setResults({}); setMode('practice');
   };
 
   if (loading) return <div className="ncert-history"><p>Loading NCERT History questions…</p></div>;
@@ -99,21 +152,27 @@ export default function NcertHistoryPage() {
       <ModuleSwitcher />
     </header>
     <div className="nh-stats"><div><strong>{questions.length}</strong><span>practice MCQs</span></div><div><strong>{chapters.length}</strong><span>chapter files</span></div><div><strong>{attemptedIds}</strong><span>attempted here</span></div></div>
-    <p className="nh-note">These are newly written practice MCQs, not NCERT’s official exercise questions or answer keys. Classes 8–9 include the current integrated Social Science books; Class 8 also includes the older standalone History book.</p>
+    <p className="nh-note">This is a starter set of newly written practice MCQs, not the full set of NCERT exercises or an official answer key. Most textbook exercises are written-answer prompts and need careful conversion before becoming MCQs. Classes 8–9 include the current integrated Social Science books; Class 8 also includes the older standalone History book.</p>
     <nav className="nh-tabs" aria-label="NCERT History views"><button className={mode === 'browse' ? 'active' : ''} onClick={() => setMode('browse')}>Browse questions</button><button className={mode === 'practice' ? 'active' : ''} onClick={() => setMode('practice')}>Practice quiz</button></nav>
     {session && mode === 'practice' ? done ? <section className="nh-card nh-result">
       <p className="nh-eyebrow">SESSION COMPLETE</p><h2>{correct} correct of {answered} answered</h2><p>{(session.length - answered)} skipped · {session.length} in this session</p>
       <div className="nh-actions"><button onClick={() => setSession(null)}>Choose another quiz</button><button onClick={() => setMode('browse')}>Browse source questions</button></div>
       <div className="nh-review">{session.map(({ question: q }, i) => <details key={q.id}><summary>{results[i] === q.answerIndex ? '✓' : results[i] === null ? 'Skipped' : 'Review'} · {q.prompt}</summary><p>Your answer: {results[i] == null ? 'Skipped' : q.options[results[i]]}</p><p>Correct: <strong>{q.options[q.answerIndex]}</strong></p><p>{q.explanation}</p><a href={q.sourceUrl} target="_blank" rel="noopener noreferrer">Open NCERT PDF · page {q.sourcePdfPage} ↗</a></details>)}</div>
-    </section> : current && <section className="nh-card nh-quiz"><div className="nh-quiz-top"><span className="nh-eyebrow">QUESTION {position + 1} OF {session.length}</span><button onClick={() => setPosition(session.length)}>Finish quiz</button></div><progress value={position + 1} max={session.length} /><p className="nh-context">Class {current.question.grade} · {chapterById.get(current.question.chapterId)?.chapter}</p><h2>{current.question.prompt}</h2><div className="nh-options" role="group" aria-label="Answer choices">{current.order.map((option, displayIndex) => <button key={option} disabled={submitted} aria-pressed={choice === option} className={`${choice === option ? 'selected ' : ''}${submitted && option === current.question.answerIndex ? 'correct ' : ''}${submitted && choice === option && option !== current.question.answerIndex ? 'wrong' : ''}`} onClick={() => setChoice(option)}><b>{optionLetter(displayIndex)}</b><span>{current.question.options[option]}</span></button>)}</div>
-      {submitted ? <div className="nh-feedback" role="status"><strong>{choice === current.question.answerIndex ? 'Correct' : 'Review this'}</strong><p>{current.question.explanation}</p><a href={current.question.sourceUrl} target="_blank" rel="noopener noreferrer">Open NCERT PDF · page {current.question.sourcePdfPage} ↗</a><div className="nh-actions"><button onClick={() => next(false)}>{position + 1 === session.length ? 'See results' : 'Next question'}</button></div></div> : <div className="nh-actions"><button disabled={choice === null} onClick={recordAnswer}>Check answer</button><button onClick={() => next(true)}>Skip</button></div>}
+    </section> : current && <section className="nh-quiz">
+      <div className="nh-quiz-top"><span className="nh-eyebrow">QUESTION {position + 1} OF {session.length}</span><button onClick={() => setPosition(session.length)}>Finish quiz</button></div>
+      <progress value={position + 1} max={session.length} />
+      <QuestionCard question={current.question} chapter={chapterById.get(current.question.chapterId)}
+        label={`Question ${position + 1}`} order={current.order} picked={choice} onPick={recordAnswer}>
+        <div className="nh-actions"><button onClick={() => next(false)}>{position + 1 === session.length ? 'See results' : 'Next question'}</button></div>
+      </QuestionCard>
+      {choice === null && <div className="nh-actions nh-skip"><button onClick={() => next(true)}>Skip question</button></div>}
     </section> : null}
     {!session || mode === 'browse' ? <>
       <section className="nh-card nh-filters"><label>Class<select value={grade} onChange={(e) => { setGrade(e.target.value); setBook('all'); setChapter('all'); }}><option value="all">All classes</option>{[8,9,10,11,12].map((n) => <option key={n} value={n}>Class {n}</option>)}</select></label><label>Book<select value={book} onChange={(e) => { setBook(e.target.value); setChapter('all'); }}><option value="all">All books</option>{availableBooks.map((b) => <option key={b} value={b}>{b}</option>)}</select></label><label>Chapter<select value={chapter} onChange={(e) => setChapter(e.target.value)}><option value="all">All chapters</option>{availableChapters.map((c) => <option key={c.id} value={c.id}>{c.chapter}{c.editionGroup === 'older standalone' ? ' (older)' : ''}</option>)}</select></label><label>Search<input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Question or topic" /></label></section>
       <div className="nh-list-heading"><h2>{pool.length} matching questions</h2>{mode === 'practice' && <div className="nh-actions"><label>Session<select value={sessionSize} onChange={(e) => setSessionSize(Number(e.target.value))}><option value={10}>10 questions</option><option value={20}>20 questions</option><option value={0}>All matching</option></select></label><button disabled={!pool.length} onClick={start}>Start quiz</button></div>}</div>
-      {mode === 'browse' && <div className="nh-list">{pool.map((q) => <details className="nh-card" key={q.id}><summary><span>Class {q.grade} · {chapterById.get(q.chapterId)?.chapter}</span><strong>{q.prompt}</strong></summary><ol type="A">{q.options.map((o) => <li key={o}>{o}</li>)}</ol><details className="nh-answer"><summary>Show answer and explanation</summary><p><strong>{q.options[q.answerIndex]}</strong> — {q.explanation}</p><a href={q.sourceUrl} target="_blank" rel="noopener noreferrer">Open NCERT PDF · page {q.sourcePdfPage} ↗</a></details></details>)}</div>}
-      {mode === 'practice' && <p className="nh-note">Quiz order and option order change each session. Submitted answers are saved in this browser; reloading ends the current quiz.</p>}
+      {mode === 'browse' && <div className="nh-list">{pool.map((q, index) => <BrowseQuestionCard key={q.id} question={q} chapter={chapterById.get(q.chapterId)} index={index} onAnswer={recordProgress} />)}</div>}
+      {mode === 'practice' && <p className="nh-note">Quiz and option order change each session. Tap an answer for immediate feedback. Attempts are saved in this browser; reloading ends the current quiz.</p>}
     </> : null}
-    <footer className="nh-footer">The older standalone Class 9 History PDFs were unavailable on NCERT’s site when this bank was prepared. The current Class 9 History chapters are included.</footer>
+    <footer className="nh-footer">The older standalone Class 9 History PDFs were unavailable on NCERT’s site when this set was prepared. The current Class 9 History chapters are included.</footer>
   </main>;
 }

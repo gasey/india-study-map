@@ -2,6 +2,8 @@
 
 This is an independent `/ncert-history` module in India Study Map. The first release has 80 authored practice MCQs, covering 39 available chapter PDFs across Classes 8–12. It is a starter set, not a complete question bank. The study guide requested by the user is future work.
 
+The page follows the UDC/LDC question-card interaction: Browse shows the full question and four answer buttons; tapping a choice reveals the verdict, explanation, and PDF source. Practice uses the same card with immediate feedback and a next-question control. The 394 extracted chapter-end prompts in the separate working directory are mostly open-ended textbook exercises, not 394 ready-to-score MCQs.
+
 ## Where to work
 
 - `src/modules/ncert-history/NcertHistoryPage.tsx` and `ncert-history.css`: the browser page. Its own element scrolls vertically because the app shell clips overflow.

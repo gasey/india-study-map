@@ -7395,7 +7395,7 @@ const questionsPart1: BankQuestion[] = [
     question: 'The term “Mizo” officially replaced “Lushai” in which year?',
     options: ['1947', '1952', '1961', '1972'],
     answerIndex: -1,
-    explanation: 'No answer is shipped for this question. WITHDRAWN. Reliable historical sources place the official change from Lushai Hills District to Mizo District in 1954, but 1954 is absent from the four printed options. The stored answer 1952 is not defensible.',
+    explanation: 'WITHDRAWN: The official change from "Lushai Hills District" to "Mizo District" occurred in 1954, which is not among the given options (1947, 1952, 1961, 1972). No correct answer is available.',
     source: 'UDC Combined Examination, May 2025, Paper-I',
     year: 2025,
     paperId: 'mpsc-udc-combined-2025-paper-1',

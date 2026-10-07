@@ -133,6 +133,16 @@ export const modules: AppModule[] = [
     path: '/udc-ldc',
   },
   {
+    id: 'mpsc-combined-prelims',
+    title: 'MPSC Combined Prelims',
+    category: 'Practice',
+    subgroup: 'In-app modules',
+    tagline: 'Mizoram Civil Services past papers · final keys and practice',
+    glyph: '📋',
+    kind: 'route',
+    path: '/mpsc-combined-prelims',
+  },
+  {
     id: 'pyq',
     title: 'PYQ Practice',
     category: 'Practice',

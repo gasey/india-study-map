@@ -32,6 +32,7 @@ const HEADER_BY_PATH: Record<string, { kicker?: string; title: string }> = {
   '/account': { title: 'Account' },
   '/pyq': { title: 'PYQ Practice' },
   '/udc-ldc': { title: 'LDC / UDC Clerical' },
+  '/mpsc-combined-prelims': { title: 'MPSC Combined Prelims' },
   '/flashcards': { title: 'Flashcards' },
   '/mindmaps': { title: 'Mind Maps' },
   '/arena': { title: 'Gauntlet Run' },

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { subjects } from '../utils/data'
 import FlashcardView from '../components/revision/FlashcardView'
@@ -7,11 +7,17 @@ export default function Flashcards() {
   const { subjectId } = useParams()
   const [selectedSubject, setSelectedSubject] = useState(subjectId || 'polity')
 
+  // Keep state in sync when arriving via a guide's "Flashcards" button
+  // with a different subject while this page is already mounted
+  useEffect(() => {
+    if (subjectId) setSelectedSubject(subjectId)
+  }, [subjectId])
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="mb-6">
         <Link to="/revision" className="text-blue-600 hover:underline text-sm">
-          ← Back to Home
+          ← Back to Revision Home
         </Link>
         <h1 className="text-3xl font-bold text-gray-800 mt-4 mb-4">Flashcards</h1>
         <p className="text-gray-600 mb-6">

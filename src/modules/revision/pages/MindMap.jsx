@@ -31,27 +31,47 @@ export default function MindMap() {
     (e) => filteredNodeIds.has(e.source) && filteredNodeIds.has(e.target)
   )
 
-  const initialNodes = filteredNodes.map((node, idx) => {
-    const angle = (idx / filteredNodes.length) * 2 * Math.PI
-    const radius = 300
-    return {
-      id: node.id,
-      position: {
-        x: 400 + radius * Math.cos(angle) + (Math.random() - 0.5) * 100,
-        y: 300 + radius * Math.sin(angle) + (Math.random() - 0.5) * 100,
-      },
-      data: { label: node.label },
-      style: {
-        background: subjectColors[node.subject] || '#6B7280',
-        color: 'white',
-        border: 'none',
-        borderRadius: '8px',
-        padding: '8px 16px',
-        fontSize: '12px',
-        fontWeight: 'bold',
-      },
-    }
+  // Group nodes by subject into clean grid columns — no overlaps
+  const subjectOrder = ['polity', 'history', 'geography', 'economy', 'current-affairs']
+  const presentSubjects = subjectOrder.filter((s) =>
+    filteredNodes.some((n) => n.subject === s)
+  )
+
+  const NODE_W = 180
+  const NODE_H = 56
+  const COL_GAP = 40
+  const ROW_GAP = 24
+  const COLS_PER_SUBJECT = 2
+
+  const positions = {}
+  presentSubjects.forEach((subject, si) => {
+    const nodesInSubject = filteredNodes.filter((n) => n.subject === subject)
+    nodesInSubject.forEach((node, ni) => {
+      const col = ni % COLS_PER_SUBJECT
+      const row = Math.floor(ni / COLS_PER_SUBJECT)
+      positions[node.id] = {
+        x: si * (COLS_PER_SUBJECT * NODE_W + COL_GAP) + col * (NODE_W + 12),
+        y: row * (NODE_H + ROW_GAP),
+      }
+    })
   })
+
+  const initialNodes = filteredNodes.map((node) => ({
+    id: node.id,
+    position: positions[node.id] || { x: 0, y: 0 },
+    data: { label: node.label, subject: node.subject },
+    style: {
+      background: subjectColors[node.subject] || '#6B7280',
+      color: 'white',
+      border: 'none',
+      borderRadius: '8px',
+      padding: '8px 12px',
+      fontSize: '11px',
+      fontWeight: 'bold',
+      width: NODE_W,
+      textAlign: 'center',
+    },
+  }))
 
   const initialEdges = filteredEdges.map((edge) => ({
     id: `${edge.source}-${edge.target}`,
@@ -112,7 +132,7 @@ export default function MindMap() {
         </div>
       </div>
 
-      <div className="bg-white rounded-xl shadow-md overflow-hidden" style={{ height: '600px' }}>
+      <div className="bg-white rounded-xl shadow-md overflow-hidden" style={{ height: '65vh', minHeight: '480px' }}>
         <ReactFlow
           nodes={nodes}
           edges={edges}

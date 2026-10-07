@@ -23,7 +23,7 @@ export default function RevisionApp() {
   const location = useLocation()
 
   return (
-    <div className="min-h-full bg-gray-50">
+    <div className="h-full overflow-y-auto scroll-panel bg-gray-50">
       {/* Sub-navigation */}
       <div className="bg-white border-b border-gray-200 sticky top-0 z-20">
         <div className="max-w-7xl mx-auto px-4">

@@ -57,76 +57,79 @@ function calculateNextReview(quality, prevData = {}) {
   return { ease: newEase, interval: newInterval, repetitions: newRepetitions, nextReview: nextReview.toISOString() }
 }
 
+function buildCards(subjectId) {
+  const questions = getQuizQuestions(subjectId)
+  const srs = getSRSData()
+
+  const flashcards = questions.map((q, idx) => ({
+    id: `${subjectId}-${idx}`,
+    question: q.question,
+    options: q.options,
+    correct: q.correct,
+    explanation: q.explanation,
+    topicTitle: q.topicTitle,
+    srs: srs[`${subjectId}-${idx}`] || null,
+  }))
+
+  // Sort: never-reviewed first, then by next review date
+  flashcards.sort((a, b) => {
+    if (!a.srs && !b.srs) return 0
+    if (!a.srs) return -1
+    if (!b.srs) return 1
+    return new Date(a.srs.nextReview) - new Date(b.srs.nextReview)
+  })
+
+  return flashcards
+}
+
 export default function FlashcardView({ subjectId }) {
-  const [allCards, setAllCards] = useState([])
   const [dueOnly, setDueOnly] = useState(false)
+  // Session deck — built once per subject/mode change, NOT recomputed on rating.
+  // This keeps indices stable while reviewing (the old reactive filter could
+  // shrink the list mid-session and push currentIndex out of bounds).
+  const [deck, setDeck] = useState([])
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
-  const [srsData, setSRSData] = useState({})
 
   useEffect(() => {
-    const questions = getQuizQuestions(subjectId)
-    const srs = getSRSData()
-
-    const flashcards = questions.map((q, idx) => ({
-      id: `${subjectId}-${idx}`,
-      question: q.question,
-      options: q.options,
-      correct: q.correct,
-      explanation: q.explanation,
-      topicTitle: q.topicTitle,
-      srs: srs[`${subjectId}-${idx}`] || null,
-    }))
-
-    // Sort: never-reviewed first, then by next review date
-    flashcards.sort((a, b) => {
-      if (!a.srs && !b.srs) return 0
-      if (!a.srs) return -1
-      if (!b.srs) return 1
-      return new Date(a.srs.nextReview) - new Date(b.srs.nextReview)
-    })
-
-    setAllCards(flashcards)
-    setSRSData(srs)
+    const cards = buildCards(subjectId)
+    const now = new Date()
+    const session = dueOnly
+      ? cards.filter((c) => !c.srs || new Date(c.srs.nextReview) <= now)
+      : cards
+    setDeck(session)
     setCurrentIndex(0)
     setIsFlipped(false)
-  }, [subjectId])
-
-  const now = new Date()
-  const dueCards = allCards.filter((c) => !c.srs || new Date(c.srs.nextReview) <= now)
-  const cards = dueOnly ? dueCards : allCards
+  }, [subjectId, dueOnly])
 
   const handleQuality = useCallback((quality) => {
-    if (cards.length === 0) return
-    const card = cards[currentIndex]
-    const newData = calculateNextReview(quality, card.srs)
+    setDeck((currentDeck) => {
+      if (currentDeck.length === 0) return currentDeck
+      const card = currentDeck[Math.min(currentIndex, currentDeck.length - 1)]
+      if (!card) return currentDeck
 
-    const newSRSData = { ...srsData, [card.id]: newData }
-    setSRSData(newSRSData)
-    saveSRSData(newSRSData)
+      const newData = calculateNextReview(quality, card.srs)
+      const srs = getSRSData()
+      srs[card.id] = newData
+      saveSRSData(srs)
 
-    // Update the card in allCards
-    setAllCards((prev) =>
-      prev.map((c) => (c.id === card.id ? { ...c, srs: newData } : c))
-    )
+      // Reflect the new schedule on the card itself for the header display
+      return currentDeck.map((c) => (c.id === card.id ? { ...c, srs: newData } : c))
+    })
 
-    if (currentIndex + 1 >= cards.length) {
-      setCurrentIndex(0)
-    } else {
-      setCurrentIndex((i) => i + 1)
-    }
+    setCurrentIndex((i) => (i + 1 >= deck.length ? 0 : i + 1))
     setIsFlipped(false)
-  }, [cards, currentIndex, srsData])
+  }, [currentIndex, deck.length])
 
   const nextCard = useCallback(() => {
-    setCurrentIndex((i) => (i + 1 >= cards.length ? 0 : i + 1))
+    setCurrentIndex((i) => (i + 1 >= deck.length ? 0 : i + 1))
     setIsFlipped(false)
-  }, [cards.length])
+  }, [deck.length])
 
   const prevCard = useCallback(() => {
-    setCurrentIndex((i) => (i === 0 ? cards.length - 1 : i - 1))
+    setCurrentIndex((i) => (i === 0 ? Math.max(deck.length - 1, 0) : i - 1))
     setIsFlipped(false)
-  }, [cards.length])
+  }, [deck.length])
 
   const handleFlip = useCallback(() => {
     setIsFlipped((f) => !f)
@@ -135,7 +138,7 @@ export default function FlashcardView({ subjectId }) {
   // Keyboard shortcuts
   useEffect(() => {
     const onKey = (e) => {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'BUTTON') return
       if (e.code === 'Space' || e.code === 'Enter') {
         e.preventDefault()
         handleFlip()
@@ -152,7 +155,12 @@ export default function FlashcardView({ subjectId }) {
     return () => window.removeEventListener('keydown', onKey)
   }, [handleFlip, nextCard, prevCard, isFlipped, handleQuality])
 
-  if (allCards.length === 0) {
+  // Due count for the current subject (for the header badge)
+  const allSubjectCards = buildCards(subjectId)
+  const now = new Date()
+  const dueCount = allSubjectCards.filter((c) => !c.srs || new Date(c.srs.nextReview) <= now).length
+
+  if (allSubjectCards.length === 0) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
         <p className="text-gray-500">No flashcards available for this subject.</p>
@@ -160,7 +168,7 @@ export default function FlashcardView({ subjectId }) {
     )
   }
 
-  if (dueOnly && dueCards.length === 0) {
+  if (deck.length === 0) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8 text-center">
         <div className="bg-white rounded-xl shadow-md p-8">
@@ -178,7 +186,7 @@ export default function FlashcardView({ subjectId }) {
     )
   }
 
-  const card = cards[currentIndex]
+  const card = deck[Math.min(currentIndex, deck.length - 1)]
   if (!card) return null
 
   return (
@@ -187,7 +195,7 @@ export default function FlashcardView({ subjectId }) {
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-4">
             <span className="text-sm text-gray-600">
-              Card {currentIndex + 1} of {cards.length}
+              Card {currentIndex + 1} of {deck.length}
             </span>
             {card.srs && (
               <span className="text-xs text-gray-500">
@@ -197,10 +205,10 @@ export default function FlashcardView({ subjectId }) {
           </div>
           <div className="flex items-center gap-2">
             <span className="text-xs text-orange-600 font-medium">
-              {dueCards.length} due
+              {dueCount} due
             </span>
             <button
-              onClick={() => { setDueOnly(!dueOnly); setCurrentIndex(0); setIsFlipped(false) }}
+              onClick={() => { setDueOnly(!dueOnly) }}
               className={`text-xs px-3 py-1 rounded-full font-medium transition-colors ${
                 dueOnly
                   ? 'bg-orange-500 text-white'
@@ -243,7 +251,7 @@ export default function FlashcardView({ subjectId }) {
               <p className="text-sm text-blue-800">{card.explanation}</p>
             </div>
             <p className="text-sm text-gray-400 mt-4 text-center">Rate your recall (or press 1-4):</p>
-            <div className="flex justify-center gap-2 mt-4">
+            <div className="flex justify-center gap-2 mt-4 flex-wrap">
               <button
                 onClick={(e) => { e.stopPropagation(); handleQuality(1) }}
                 className="px-4 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200"

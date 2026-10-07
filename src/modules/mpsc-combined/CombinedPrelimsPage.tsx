@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import archive from '@/data/banks/mpsc-combined-prelims.json';
 import { useAttemptState } from '@/modules/mpsc/useAttemptState';
 import './combined-prelims.css';
@@ -26,7 +26,14 @@ function useProgress() {
 }
 
 function paperTitle(paper: Paper) {
-  return `${paper.year} · Paper ${paper.paper} · Series ${paper.series}`;
+  return `${paper.year} · Paper ${paper.paper}${paper.series === '-' ? '' : ` · Series ${paper.series}`}`;
+}
+
+function keyLabel(paper: Paper) {
+  if (paper.keyStatus === 'matched_final') return 'Final key matched where numbering is verified';
+  if (paper.keyStatus === 'official_key_ocr') return 'Official final key OCR available · cells need verification';
+  if (paper.keyStatus === 'official_key_unparsed') return 'Official final key PDF available · answers not matched';
+  return 'No official answer key found in local archive';
 }
 
 function SourceLinks({ paper, page }: { paper: Paper; page?: number | null }) {
@@ -42,8 +49,10 @@ function QuestionCard({ q, paper, mode, onRecord, progress }: {
 }) {
   const [chosen, setChosen] = useState<number | null>(null);
   const [revealed, setRevealed] = useState(false);
+  const [showComparison, setShowComparison] = useState(false);
   const answered = chosen !== null;
   const canCheck = q.scoreable && q.answerIndex >= 0;
+  const comparedAnswer = q.answerIndex >= 0 ? q.answerIndex : q.officialAnswerCandidateIndex;
   const check = () => {
     if (!answered || !canCheck || revealed) return;
     setRevealed(true);
@@ -51,9 +60,10 @@ function QuestionCard({ q, paper, mode, onRecord, progress }: {
   };
   return <article className="cp-question" id={q.id}>
     <div className="cp-question-meta">
-      <strong>Q{q.number}</strong><span>{paperTitle(paper)}</span>
+      <strong>{q.numberVerified ? `Q${q.number}` : `OCR item ${q.number}`}</strong><span>{paperTitle(paper)}</span>
       <SourceLinks paper={paper} page={q.page} />
     </div>
+    <div className="cp-question-body"><div>
     {q.passage && <div className="cp-passage">{q.passage}</div>}
     <div className="cp-question-text">{q.text}</div>
     {q.hasDiagram && <div className="cp-callout">This item includes a diagram. Open the source PDF to see it.</div>}
@@ -62,18 +72,29 @@ function QuestionCard({ q, paper, mode, onRecord, progress }: {
         key={index} type="button"
         className={`cp-option ${chosen === index ? 'is-chosen' : ''} ${revealed && q.answerIndex === index ? 'is-right' : ''} ${revealed && chosen === index && chosen !== q.answerIndex ? 'is-wrong' : ''}`}
         onClick={() => { if (!revealed) setChosen(index); }}
-        disabled={revealed || !q.scoreable}
+        disabled={revealed || mode !== 'practice'}
       ><span className="cp-option-letter">{LETTERS[index] || index + 1}</span><span>{option}</span></button>)}
     </div>
     <div className="cp-question-footer">
       {canCheck && mode === 'practice' && !revealed && <button type="button" className="cp-primary" disabled={!answered} onClick={check}>Check answer</button>}
-      {q.answerSource && <span className="cp-badge is-key">Final MPSC key</span>}
-      {!q.scoreable && <span className="cp-badge is-review">Read with source PDF</span>}
+      {q.answerSource && <span className="cp-badge is-key">{q.answerSource === 'official-final-ocr' ? 'Official key OCR' : 'Final MPSC key'}</span>}
+      {!q.scoreable && <span className="cp-badge is-review">{q.answerStatus === 'no_official_key' ? 'No official key found' : q.answerStatus === 'official_key_unparsed' ? 'Official key not matched' : 'Read with source PDF'}</span>}
+      <span className="cp-muted">{q.subject}{q.subjectSource === 'auto-keyword' ? ' · provisional tag' : ''}</span>
       {progress?.[q.id] && <span className="cp-muted">Practised {progress[q.id].attempts}× · last {progress[q.id].correct ? 'correct' : 'incorrect'}</span>}
       {mode === 'browse' && q.answerIndex >= 0 && <button type="button" className="cp-link-button" onClick={() => setRevealed((v) => !v)}>{revealed ? 'Hide key' : 'Show key'}</button>}
     </div>
-    {revealed && q.answerIndex >= 0 && <div className="cp-answer">Final key: <strong>{LETTERS[q.answerIndex]}</strong>{mode === 'practice' && answered && ` · ${chosen === q.answerIndex ? 'Correct' : 'Incorrect'}`}</div>}
+    {revealed && q.answerIndex >= 0 && <div className="cp-answer">{q.answerSource === 'official-final-ocr' ? 'Official key OCR' : 'Final key'}: <strong>{LETTERS[q.answerIndex]}</strong>{mode === 'practice' && answered && ` · ${chosen === q.answerIndex ? 'Correct' : 'Incorrect'}`}</div>}
     {q.reviewReason && <p className="cp-review-reason">{q.reviewReason}</p>}
+    </div><aside className="cp-answer-compare" aria-label="Answer sources">
+      <strong>Answer sources</strong>
+      {mode === 'practice' && !revealed && !showComparison ? <button type="button" className="cp-link-button" onClick={() => setShowComparison(true)}>Show comparison</button> : <>
+      <div><span>Official MPSC key{q.answerSource === 'official-final-ocr' ? ' · OCR, verify PDF' : q.officialAnswerCandidateIndex >= 0 ? ` · candidate for OCR Q${q.printedNumberCandidate}` : ''}</span><b>{comparedAnswer >= 0 ? LETTERS[comparedAnswer] : paper.keyStatus === 'no_official_key' ? 'No official key found' : 'Not matched yet'}</b>{q.officialAnswerCandidateIndex >= 0 && <small>Question number came from OCR; verify against the PDF.</small>}</div>
+      <div><span>Derived answer</span><b>{q.derivedAnswerIndex >= 0 ? LETTERS[q.derivedAnswerIndex] : 'Awaiting model review'}</b></div>
+      {q.derivedAnswerSource && <small>Model: {q.derivedAnswerSource}</small>}
+      {q.derivedAnswerIndex >= 0 && comparedAnswer >= 0 && <small className={q.derivedAnswerIndex === comparedAnswer ? 'cp-agrees' : 'cp-disagrees'}>{q.derivedAnswerIndex === comparedAnswer ? 'Answers agree · verify OCR where marked' : 'Answers differ · review against PDF'}</small>}
+      {q.derivedExplanation && <p>{q.derivedExplanation}</p>}
+      </>}
+    </aside></div>
   </article>;
 }
 
@@ -89,13 +110,14 @@ function Overview({ papers, questions, progress, openPaper }: {
       <div><strong>{scoreable}</strong><span>ready for scored practice</span></div>
       <div><strong>{answered}</strong><span>you have practised</span></div>
     </div>
-    <div className="cp-callout">The 2023 final keys are linked below. Paper II needs passage and layout verification, so it is available to read with its PDF but excluded from scored practice. The 2025 final key has not been parsed into this bank. No inferred answers are used.</div>
+    <div className="cp-callout">All archived Combined Prelims papers from 2014, 2016, 2021, 2023, 2024 and 2025 are listed below. Scanned papers may have missing or imperfect OCR text; open the PDF to check them. Official keys are linked when archived; 2024/2025 key answers extracted by OCR need verification. Only verified 2023 Paper I answers are scored. Subject tags are provisional keyword matches.</div>
     <div className="cp-paper-grid">
       {papers.map((paper) => <article className="cp-paper" key={paper.id}>
         <div className="cp-paper-top"><span className="cp-year">{paper.year}</span><span className="cp-badge">Paper {paper.paper} · Series {paper.series}</span></div>
         <h2>{paperTitle(paper)}</h2>
         <div className="cp-coverage"><div style={{ width: `${paper.parsedCount}%` }} /></div>
         <p><strong>{paper.parsedCount}/100</strong> extracted · <strong>{paper.scoreableCount}</strong> ready to score</p>
+        <p className="cp-review-reason">{keyLabel(paper)}{!paper.numberingVerified ? ' · OCR order unverified' : ''}</p>
         {paper.missingNumbers.length > 0 && <p className="cp-review-reason">Missing question numbers: {paper.missingNumbers.join(', ')}</p>}
         <div className="cp-paper-actions"><button type="button" onClick={() => openPaper(paper.id)}>Browse questions</button><SourceLinks paper={paper} /></div>
       </article>)}
@@ -158,33 +180,46 @@ export default function CombinedPrelimsPage() {
   const [tab, setTab] = useState<Tab>('overview');
   const [paperId, setPaperId] = useState('');
   const [year, setYear] = useState('all');
+  const [subject, setSubject] = useState('all');
   const [status, setStatus] = useState('all');
   const [search, setSearch] = useState('');
-  const [page, setPage] = useState(0);
+  const [visibleCount, setVisibleCount] = useState(30);
+  const sentinel = useRef<HTMLDivElement>(null);
   const { progress, record } = useProgress();
+  const subjects = useMemo(() => [...new Set(questions.map((q) => q.subject))].sort(), [questions]);
   const filtered = useMemo(() => questions.filter((q) => {
     const paper = byId.get(q.paperId)!;
     if (paperId && q.paperId !== paperId) return false;
     if (year !== 'all' && paper.year !== Number(year)) return false;
+    if (subject !== 'all' && q.subject !== subject) return false;
     if (status === 'ready' && !q.scoreable) return false;
     if (status === 'review' && q.scoreable) return false;
+    if (status === 'no-key' && q.answerStatus !== 'no_official_key') return false;
     if (status === 'unseen' && progress[q.id]) return false;
     if (status === 'wrong' && (!progress[q.id] || progress[q.id].correct)) return false;
     return !search || `${q.text} ${q.options.join(' ')}`.toLowerCase().includes(search.toLowerCase());
-  }), [questions, byId, paperId, year, status, search, progress]);
-  const [practiceIndex, setPracticeIndex] = useState(0);
-  const openPaper = (id: string) => { setPaperId(id); setPage(0); setTab('browse'); };
-  const changeFilter = (setter: (value: string) => void, value: string) => { setter(value); setPage(0); setPracticeIndex(0); };
-  const active = filtered[Math.min(practiceIndex, filtered.length - 1)];
+  }), [questions, byId, paperId, year, subject, status, search, progress]);
+  useEffect(() => {
+    if (tab !== 'browse' && tab !== 'practice') return;
+    const target = sentinel.current;
+    if (!target) return;
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0]?.isIntersecting) setVisibleCount((count) => Math.min(count + 30, filtered.length));
+    }, { rootMargin: '500px' });
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, [tab, filtered.length, visibleCount]);
+  const openPaper = (id: string) => { setPaperId(id); setVisibleCount(30); setTab('browse'); };
+  const changeFilter = (setter: (value: string) => void, value: string) => { setter(value); setVisibleCount(30); };
   return <div className="scroll-panel h-full overflow-y-auto cp-page"><div className="cp-content">
     <header className="cp-hero"><div className="cp-eyebrow">MIZORAM CIVIL SERVICES · PRELIMINARY EXAMINATION</div><h1>MPSC Combined Prelims</h1><p>Past papers, final-key answers where verified, and a clear view of what still needs review.</p></header>
     <nav className="cp-tabs" aria-label="Combined Prelims sections">{(['overview', 'browse', 'practice', 'mock'] as Tab[]).map((item) => <button key={item} type="button" className={tab === item ? 'is-active' : ''} onClick={() => setTab(item)}>{item === 'mock' ? 'Timed paper' : item}</button>)}</nav>
     {tab === 'overview' && <Overview papers={papers} questions={questions} progress={progress} openPaper={openPaper} />}
     {(tab === 'browse' || tab === 'practice') && <>
-      <div className="cp-filters"><label>Year<select value={year} onChange={(e) => { setPaperId(''); changeFilter(setYear, e.target.value); }}><option value="all">All years</option><option value="2025">2025</option><option value="2023">2023</option></select></label><label>Paper<select value={paperId} onChange={(e) => changeFilter(setPaperId, e.target.value)}><option value="">All papers</option>{papers.filter((p) => year === 'all' || p.year === Number(year)).map((p) => <option key={p.id} value={p.id}>{paperTitle(p)}</option>)}</select></label><label>Status<select value={status} onChange={(e) => changeFilter(setStatus, e.target.value)}><option value="all">All questions</option><option value="ready">Ready to score</option><option value="review">Needs source review</option><option value="unseen">Not practised</option><option value="wrong">Last answered wrong</option></select></label><label className="cp-search">Search<input value={search} onChange={(e) => changeFilter(setSearch, e.target.value)} placeholder="Question or option text" /></label></div>
+      <div className="cp-filters"><label>Year<select value={year} onChange={(e) => { setPaperId(''); changeFilter(setYear, e.target.value); }}><option value="all">All years</option>{[...new Set(papers.map((p) => p.year))].map((value) => <option key={value} value={value}>{value}</option>)}</select></label><label>Paper<select value={paperId} onChange={(e) => changeFilter(setPaperId, e.target.value)}><option value="">All papers</option>{papers.filter((p) => year === 'all' || p.year === Number(year)).map((p) => <option key={p.id} value={p.id}>{paperTitle(p)}</option>)}</select></label><label>Subject<select value={subject} onChange={(e) => changeFilter(setSubject, e.target.value)}><option value="all">All subjects</option>{subjects.map((value) => <option key={value} value={value}>{value}</option>)}</select></label><label>Status<select value={status} onChange={(e) => changeFilter(setStatus, e.target.value)}><option value="all">All questions</option><option value="ready">Ready to score</option><option value="review">Needs source review</option><option value="no-key">No official key found</option><option value="unseen">Not practised</option><option value="wrong">Last answered wrong</option></select></label><label className="cp-search">Search<input value={search} onChange={(e) => changeFilter(setSearch, e.target.value)} placeholder="Question or option text" /></label></div>
       <div className="cp-results-line"><strong>{filtered.length}</strong> questions match{tab === 'practice' && <span> · choose “Ready to score” for answerable practice</span>}</div>
-      {tab === 'browse' && <><div className="cp-list">{filtered.slice(page * 20, page * 20 + 20).map((q) => <QuestionCard key={q.id} q={q} paper={byId.get(q.paperId)!} mode="browse" progress={progress} />)}</div><div className="cp-pagination"><button type="button" disabled={page === 0} onClick={() => setPage(page - 1)}>← Previous</button><span>Page {page + 1} of {Math.max(1, Math.ceil(filtered.length / 20))}</span><button type="button" disabled={(page + 1) * 20 >= filtered.length} onClick={() => setPage(page + 1)}>Next →</button></div></>}
-      {tab === 'practice' && <div className="cp-practice">{active ? <><div className="cp-practice-bar"><span>Question {Math.min(practiceIndex + 1, filtered.length)} of {filtered.length}</span><div><button type="button" disabled={practiceIndex === 0} onClick={() => setPracticeIndex(practiceIndex - 1)}>←</button><button type="button" disabled={practiceIndex >= filtered.length - 1} onClick={() => setPracticeIndex(practiceIndex + 1)}>Next →</button></div></div><QuestionCard key={active.id} q={active} paper={byId.get(active.paperId)!} mode="practice" progress={progress} onRecord={record} /></> : <div className="cp-empty">No questions match these filters.</div>}</div>}
+      {filtered.length ? <div className={tab === 'practice' ? 'cp-practice cp-list' : 'cp-list'}>{filtered.slice(0, visibleCount).map((q) => <QuestionCard key={q.id} q={q} paper={byId.get(q.paperId)!} mode={tab} progress={progress} onRecord={tab === 'practice' ? record : undefined} />)}</div> : <div className="cp-empty">No questions match these filters.</div>}
+      {visibleCount < filtered.length && <div ref={sentinel} className="cp-load-more"><button type="button" onClick={() => setVisibleCount((count) => Math.min(count + 30, filtered.length))}>Show more questions</button><span>{Math.min(visibleCount, filtered.length)} of {filtered.length} shown · more load while scrolling</span></div>}
     </>}
     {tab === 'mock' && <Mock papers={papers} questions={questions} />}
   </div></div>;

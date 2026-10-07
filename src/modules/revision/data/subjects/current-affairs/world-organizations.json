@@ -1,0 +1,125 @@
+{
+  "id": "world-organizations",
+  "subject": "current-affairs",
+  "title": "World Organizations & Their Headquarters",
+  "description": "Complete list of major international organizations with headquarters",
+  "content": {
+    "overview": "International organizations play crucial roles in global governance, development, and cooperation. Headquarters are frequently asked in exams.",
+    "keyPoints": [
+      "UN (United Nations): New York, USA — 1945, 193 members",
+      "UNICEF: New York, USA — children's welfare",
+      "WHO (World Health Organization): Geneva, Switzerland",
+      "WTO (World Trade Organization): Geneva, Switzerland",
+      "ILO (International Labour Organization): Geneva, Switzerland",
+      "ICRC (Red Cross): Geneva, Switzerland",
+      "IAEA (International Atomic Energy Agency): Vienna, Austria",
+      "OPEC: Vienna, Austria",
+      "IMF (International Monetary Fund): Washington DC, USA",
+      "World Bank: Washington DC, USA",
+      "UNESCO: Paris, France",
+      "Interpol: Lyon, France",
+      "FAO (Food and Agriculture Organization): Rome, Italy",
+      "ICC (International Criminal Court): The Hague, Netherlands",
+      "ICJ (International Court of Justice): The Hague, Netherlands",
+      "EU (European Union): Brussels, Belgium",
+      "NATO: Brussels, Belgium",
+      "ADB (Asian Development Bank): Manila, Philippines",
+      "AIIB (Asian Infrastructure Investment Bank): Beijing, China",
+      "SCO (Shanghai Cooperation Organization): Beijing, China",
+      "AU (African Union): Addis Ababa, Ethiopia",
+      "Arab League: Cairo, Egypt",
+      "ASEAN: Jakarta, Indonesia",
+      "SAARC: Kathmandu, Nepal",
+      "BIMSTEC: Dhaka, Bangladesh",
+      "BRICS (NDB): Shanghai, China",
+      "Amnesty International: London, UK",
+      "Transparency International: Berlin, Germany",
+      "Greenpeace: Amsterdam, Netherlands"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Geneva-based Organizations",
+        "trick": "WHO-WTO-ILO-Red Cross = all in Geneva",
+        "explanation": "Geneva (Switzerland): WHO, WTO, ILO, ICRC (Red Cross)"
+      },
+      {
+        "topic": "Washington DC Organizations",
+        "trick": "IMF + World Bank = Washington DC",
+        "explanation": "Washington DC (USA): IMF and World Bank — the two Bretton Woods institutions"
+      },
+      {
+        "topic": "New York Organizations",
+        "trick": "UN + UNICEF = New York",
+        "explanation": "New York (USA): United Nations HQ and UNICEF"
+      },
+      {
+        "topic": "The Hague Organizations",
+        "trick": "ICJ + ICC = The Hague",
+        "explanation": "The Hague (Netherlands): International Court of Justice and International Criminal Court"
+      },
+      {
+        "topic": "Asian Organizations",
+        "trick": "ADB-Manila, AIIB-Beijing, SCO-Beijing, ASEAN-Jakarta, SAARC-Kathmandu, BIMSTEC-Dhaka, NDB(BRICS)-Shanghai",
+        "explanation": "Asian HQs: ADB (Manila), AIIB & SCO (Beijing), ASEAN (Jakarta), SAARC (Kathmandu), BIMSTEC (Dhaka), BRICS NDB (Shanghai)"
+      },
+      {
+        "topic": "Vienna Organizations",
+        "trick": "IAEA + OPEC = Vienna",
+        "explanation": "Vienna (Austria): IAEA (nuclear) and OPEC (oil)"
+      }
+    ],
+    "connections": [
+      "important-indices",
+      "national-movement"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Where is the headquarters of UNESCO?",
+      "options": ["Geneva", "Paris", "New York", "Rome"],
+      "correct": 1,
+      "explanation": "UNESCO headquarters is in Paris, France"
+    },
+    {
+      "question": "FAO headquarters is in:",
+      "options": ["Geneva", "Paris", "Rome", "New York"],
+      "correct": 2,
+      "explanation": "FAO (Food and Agriculture Organization) is headquartered in Rome, Italy"
+    },
+    {
+      "question": "SAARC headquarters is in:",
+      "options": ["Dhaka", "Kathmandu", "New Delhi", "Colombo"],
+      "correct": 1,
+      "explanation": "SAARC headquarters is in Kathmandu, Nepal"
+    },
+    {
+      "question": "ADB (Asian Development Bank) is headquartered in:",
+      "options": ["Beijing", "Manila", "Jakarta", "Tokyo"],
+      "correct": 1,
+      "explanation": "ADB is headquartered in Manila, Philippines (AIIB is in Beijing)"
+    },
+    {
+      "question": "African Union headquarters is in:",
+      "options": ["Cairo", "Addis Ababa", "Nairobi", "Johannesburg"],
+      "correct": 1,
+      "explanation": "African Union is headquartered in Addis Ababa, Ethiopia (Arab League is in Cairo)"
+    },
+    {
+      "question": "Which two organizations are headquartered in Vienna?",
+      "options": ["IAEA & OPEC", "WHO & WTO", "IMF & World Bank", "ICJ & ICC"],
+      "correct": 0,
+      "explanation": "IAEA and OPEC are both headquartered in Vienna, Austria"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1945,
+      "event": "United Nations founded",
+      "relatedTopics": ["national-movement"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233747_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234105_Instagram.jpg"
+  ]
+}

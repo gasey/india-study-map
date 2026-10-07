@@ -1,0 +1,82 @@
+{
+  "id": "five-year-plans",
+  "subject": "economy",
+  "title": "Five Year Plans of India (1951-2017)",
+  "description": "All 12 Five Year Plans with focus areas, targets, and achievements",
+  "content": {
+    "overview": "India adopted Five Year Plans from 1951 to 2017, inspired by the Soviet model. The NITI Aayog replaced the Planning Commission in 2015.",
+    "keyPoints": [
+      "First Plan (1951-56): Focus on agriculture, irrigation, power. Target growth: 2.1%, Achieved: 3.6%",
+      "Second Plan (1956-61): Focus on heavy industries, Mahalanobis model. Target: 4.5%, Achieved: 4.2%",
+      "Third Plan (1961-66): Focus on agriculture, self-sufficiency. Target: 5.6%, Achieved: 2.4% (drought, wars)",
+      "Plan Holiday (1966-69): Three annual plans due to Indo-Pak war, drought, devaluation",
+      "Fourth Plan (1969-74): Growth with stability, Garibi Hatao. Target: 5.7%, Achieved: 3.3%",
+      "Fifth Plan (1974-79): Poverty alleviation, self-reliance. Target: 4.4%, Achieved: 4.8%",
+      "Rolling Plan (1978-80): Janata Party government, no fixed targets",
+      "Sixth Plan (1980-85): Poverty alleviation, employment. Target: 5.2%, Achieved: 5.7%",
+      "Seventh Plan (1985-90): Employment generation, productivity. Target: 5.0%, Achieved: 6.0%",
+      "Eighth Plan (1992-97): Economic liberalization, human development. Target: 5.6%, Achieved: 6.8%",
+      "Ninth Plan (1997-2002): Growth with social justice. Target: 6.5%, Achieved: 5.4%",
+      "Tenth Plan (2002-07): Inclusive growth, 8% growth target. Target: 8.0%, Achieved: 7.6%",
+      "Eleventh Plan (2007-12): Faster and more inclusive growth. Target: 9.0%, Achieved: 8.0%",
+      "Twelfth Plan (2012-17): Faster, sustainable, inclusive growth. Target: 8.0%, Achieved: 7.0%",
+      "NITI Aayog (2015): Replaced Planning Commission, cooperative federalism"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Five Year Plans",
+        "trick": "1-Agriculture, 2-Industries, 3-Agriculture, 4-Stability, 5-Poverty, 6-Employment, 7-Employment, 8-Liberalization, 9-Justice, 10-Inclusive, 11-Inclusive, 12-Sustainable",
+        "explanation": "Focus areas: 1-Agriculture, 2-Industries, 3-Agriculture, 4-Stability, 5-Poverty, 6-Employment, 7-Employment, 8-Liberalization, 9-Justice, 10-Inclusive, 11-Inclusive, 12-Sustainable"
+      },
+      {
+        "topic": "Plan Years",
+        "trick": "51-56, 56-61, 61-66, 66-69, 69-74, 74-79, 78-80, 80-85, 85-90, 92-97, 97-02, 02-07, 07-12, 12-17",
+        "explanation": "Plan periods: 1951-56, 1956-61, 1961-66, 1966-69, 1969-74, 1974-79, 1978-80, 1980-85, 1985-90, 1992-97, 1997-02, 2002-07, 2007-12, 2012-17"
+      }
+    ],
+    "connections": [
+      "agricultural-revolutions",
+      "national-movement"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which plan focused on heavy industries?",
+      "options": ["First", "Second", "Third", "Fourth"],
+      "correct": 1,
+      "explanation": "Second Plan (1956-61) focused on heavy industries using Mahalanobis model"
+    },
+    {
+      "question": "Planning Commission was replaced by:",
+      "options": ["NITI Aayog", "Finance Commission", "RBI", "SEBI"],
+      "correct": 0,
+      "explanation": "NITI Aayog replaced Planning Commission in 2015"
+    },
+    {
+      "question": "Which plan had 'Garibi Hatao' as slogan?",
+      "options": ["Third", "Fourth", "Fifth", "Sixth"],
+      "correct": 1,
+      "explanation": "Fourth Plan (1969-74) had 'Garibi Hatao' as slogan"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1951,
+      "event": "First Five Year Plan launched",
+      "relatedTopics": ["agricultural-revolutions"]
+    },
+    {
+      "year": 1991,
+      "event": "Economic liberalization began",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 2015,
+      "event": "NITI Aayog replaced Planning Commission",
+      "relatedTopics": ["national-movement"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_234055_Instagram.jpg"
+  ]
+}

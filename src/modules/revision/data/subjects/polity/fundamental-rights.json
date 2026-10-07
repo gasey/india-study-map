@@ -1,0 +1,107 @@
+{
+  "id": "fundamental-rights",
+  "subject": "polity",
+  "title": "Fundamental Rights (Articles 12-35)",
+  "description": "Six groups of Fundamental Rights: Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural & Educational Rights, Right to Constitutional Remedies",
+  "content": {
+    "overview": "Fundamental Rights are enshrined in Part III of the Constitution (Articles 12-35). They are justiciable and protect citizens against state arbitrariness.",
+    "keyPoints": [
+      "Article 12: Definition of 'State' for Part III",
+      "Article 13: Laws inconsistent with Fundamental Rights are void",
+      "Right to Equality (Articles 14-18): Equality before law, no discrimination, equal opportunity, abolition of untouchability, abolition of titles",
+      "Right to Freedom (Articles 19-22): Six freedoms, protection in conviction, life & personal liberty, education, safeguards in arrest",
+      "Right against Exploitation (Articles 23-24): No human trafficking, no forced labour, no child labour below 14",
+      "Right to Freedom of Religion (Articles 25-28): Freedom of conscience, manage religious affairs, no tax for religion, no religious instruction in state-funded institutions",
+      "Cultural & Educational Rights (Articles 29-30): Protection of language/script/culture, minority educational rights",
+      "Right to Constitutional Remedies (Articles 32-35): Five writs, martial law restrictions, Parliament's power to modify"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Six Fundamental Rights",
+        "trick": "E-F-E-R-C-R = Equality, Freedom, Exploitation, Religion, Cultural, Remedies",
+        "explanation": "Remember: Equality (14-18), Freedom (19-22), Exploitation (23-24), Religion (25-28), Cultural (29-30), Remedies (32-35)"
+      },
+      {
+        "topic": "Article 19 Six Freedoms",
+        "trick": "SAMARA = Speech, Assembly, Movement, Residence, Association, Profession",
+        "explanation": "Article 19 grants six freedoms: Speech & expression, Assembly, Movement, Residence, Association, Profession"
+      },
+      {
+        "topic": "Five Writs",
+        "trick": "HMCQP = Habeas Corpus, Mandamus, Certiorari, Quo Warranto, Prohibition",
+        "explanation": "Five writs: Habeas Corpus (produce person), Mandamus (command public duty), Certiorari (quash order), Quo Warranto (question authority), Prohibition (stop lower court)"
+      },
+      {
+        "topic": "Who Gets Which Rights",
+        "trick": "Citizens Only: 15, 16, 19, 29, 30 | All Persons: 14, 20, 21, 21A, 22, 23, 24, 25-28, 32",
+        "explanation": "Some rights are only for citizens (15, 16, 19, 29, 30), others for all persons including non-citizens (14, 20, 21, 21A, 22, 23, 24, 25-28, 32)"
+      }
+    ],
+    "connections": [
+      "important-articles",
+      "supreme-court-judgments",
+      "making-of-constitution"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which article defines the term 'State' for Part III?",
+      "options": ["Article 12", "Article 13", "Article 14", "Article 15"],
+      "correct": 0,
+      "explanation": "Article 12 defines 'State' for the purpose of Fundamental Rights"
+    },
+    {
+      "question": "Article 19 is available to:",
+      "options": ["Only citizens", "All persons", "Only residents", "Only taxpayers"],
+      "correct": 0,
+      "explanation": "Article 19 (six freedoms) is available only to citizens, not non-citizens"
+    },
+    {
+      "question": "Which writ means 'produce the person before the court'?",
+      "options": ["Mandamus", "Habeas Corpus", "Certiorari", "Prohibition"],
+      "correct": 1,
+      "explanation": "Habeas Corpus means 'you shall have the body' - produce the person before the court"
+    },
+    {
+      "question": "Article 32 is called the 'heart and soul' of the Constitution by:",
+      "options": ["Gandhi", "Nehru", "Ambedkar", "Patel"],
+      "correct": 2,
+      "explanation": "Dr. B.R. Ambedkar called Article 32 the 'heart and soul' of the Constitution"
+    },
+    {
+      "question": "Which article prohibits child labour below 14 years?",
+      "options": ["Article 23", "Article 24", "Article 25", "Article 26"],
+      "correct": 1,
+      "explanation": "Article 24 prohibits employment of children below 14 years in factories, mines, and hazardous occupations"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1950,
+      "event": "Fundamental Rights came into force with Constitution",
+      "relatedTopics": ["making-of-constitution"]
+    },
+    {
+      "year": 1976,
+      "event": "42nd Amendment added Article 21A (Right to Education)",
+      "relatedTopics": ["important-articles"]
+    },
+    {
+      "year": 2002,
+      "event": "86th Amendment made Article 21A a Fundamental Right",
+      "relatedTopics": ["important-articles"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_234130_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234133_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234136_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234138_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234141_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234143_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234146_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234155_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234200_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234203_Instagram.jpg"
+  ]
+}

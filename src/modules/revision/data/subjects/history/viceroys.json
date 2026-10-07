@@ -1,0 +1,79 @@
+{
+  "id": "viceroys",
+  "subject": "history",
+  "title": "Viceroys of India and Their Contributions",
+  "description": "List of Viceroys from Canning to Mountbatten with key events during their tenure",
+  "content": {
+    "overview": "The Viceroy was the representative of the British Crown in India. Here are the major Viceroys and their contributions.",
+    "keyPoints": [
+      "Lord Canning (1856-1862): First Viceroy, Revolt of 1857, Government of India Act 1858",
+      "Lord Mayo (1869-1872): First census (1872), Mayo College established",
+      "Lord Lytton (1876-1880): Vernacular Press Act, Arms Act, Delhi Durbar 1877, Great Famine",
+      "Lord Ripon (1880-1884): Ilbert Bill, Local Self-Government, Factories Act, first census",
+      "Lord Dufferin (1884-1888): Third Burmese War, INC founded (1885)",
+      "Lord Lansdowne (1888-1894): Indian Councils Act 1892,Factories Act",
+      "Lord Curzon (1899-1905): Partition of Bengal (1905), Curzon-Kitchener controversy, Ancient Monuments Act",
+      "Lord Minto (1905-1910): Morley-Minto Reforms (1909), Muslim League founded (1906)",
+      "Lord Hardinge (1910-1916): Capital shifted to Delhi (1911), Delhi Durbar",
+      "Lord Chelmsford (1916-1921): Rowlatt Act, Jallianwala Bagh, Montagu-Chelmsford Reforms",
+      "Lord Reading (1921-1926): Chauri Caura, RSS founded (1925)",
+      "Lord Irwin (1926-1931): Simon Commission, Dandi March, Gandhi-Irwin Pact",
+      "Lord Willingdon (1931-1936): Poona Pact, Government of India Act 1935",
+      "Lord Linlithgow (1936-1943): WWII, Cripps Mission, Quit India Movement",
+      "Lord Wavell (1943-1947): Wavell Plan, Shimla Conference",
+      "Lord Mountbatten (1947): Last Viceroy, Independence and Partition"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Viceroys",
+        "trick": "C-M-L-R-D-M-C-H-R-I-W-L-W-M = Canning, Mayo, Lytton, Ripon, Dufferin, Minto, Curzon, Hardinge, Reading, Irwin, Willingdon, Linlithgow, Wavell, Mountbatten",
+        "explanation": "Remember the order: Canning, Mayo, Lytton, Ripon, Dufferin, Minto, Curzon, Hardinge, Reading, Irwin, Willingdon, Linlithgow, Wavell, Mountbatten"
+      }
+    ],
+    "connections": [
+      "charter-acts",
+      "national-movement",
+      "freedom-struggle-timeline"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who was the first Viceroy of India?",
+      "options": ["Lord Canning", "Lord Curzon", "Lord Mountbatten", "Lord Ripon"],
+      "correct": 0,
+      "explanation": "Lord Canning was the first Viceroy of India (1856-1862)"
+    },
+    {
+      "question": "Partition of Bengal was done by:",
+      "options": ["Lord Curzon", "Lord Minto", "Lord Ripon", "Lord Lytton"],
+      "correct": 0,
+      "explanation": "Lord Curzon partitioned Bengal in 1905"
+    },
+    {
+      "question": "Who was the last Viceroy of India?",
+      "options": ["Lord Wavell", "Lord Mountbatten", "Lord Linlithgow", "Lord Irwin"],
+      "correct": 1,
+      "explanation": "Lord Mountbatten was the last Viceroy of India (1947)"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1856,
+      "event": "Lord Canning became first Viceroy",
+      "relatedTopics": ["charter-acts"]
+    },
+    {
+      "year": 1905,
+      "event": "Lord Curzon partitioned Bengal",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1947,
+      "event": "Lord Mountbatten oversaw Independence",
+      "relatedTopics": ["national-movement"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233932_Instagram.jpg"
+  ]
+}

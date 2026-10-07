@@ -1,0 +1,97 @@
+{
+  "id": "freedom-struggle-timeline",
+  "subject": "history",
+  "title": "Freedom Struggle Timeline (1757-1947)",
+  "description": "Complete chronological timeline from Battle of Plassey to Independence",
+  "content": {
+    "overview": "A comprehensive timeline of the Indian freedom struggle from the Battle of Plassey (1757) to Independence (1947).",
+    "keyPoints": [
+      "1757: Battle of Plassey - British established political control in Bengal",
+      "1764: Battle of Buxar - British defeated Mughal, Awadh, and Bengal combined forces",
+      "1765: Diwani Rights - British got revenue collection rights in Bengal, Bihar, Orissa",
+      "1773: Regulating Act - Warren Hastings as first Governor-General of Bengal",
+      "1784: Pitt's India Act - Board of Control established",
+      "1793: Permanent Settlement by Lord Cornwallis",
+      "1806: Vellore Mutiny - first major military uprising against British",
+      "1824: First Burmese War",
+      "1835: Macaulay's Minute - English education introduced",
+      "1853: First railway line (Bombay to Thane), first telegraph line",
+      "1857: Revolt of 1857 - First War of Independence, Sepoy Mutiny",
+      "1858: Government of India Act - Crown rule began, Queen Victoria's Proclamation",
+      "1861: Indian Councils Act",
+      "1877: Queen Victoria became Empress of India",
+      "1885: Indian National Congress founded",
+      "1905: Partition of Bengal",
+      "1909: Morley-Minto Reforms",
+      "1911: Delhi Durbar, Capital shifted to Delhi",
+      "1919: Rowlatt Act, Jallianwala Bagh Massacre",
+      "1920: Non-Cooperation Movement",
+      "1929: Purna Swaraj",
+      "1930: Dandi March",
+      "1935: Government of India Act",
+      "1942: Quit India Movement",
+      "1946: Cabinet Mission, Direct Action Day",
+      "1947: Independence and Partition"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Freedom Struggle Phases",
+        "trick": "1757-1857-1885-1905-1919-1920-1930-1942-1947 = Plassey-Revolt-INC-Partition-Rowlatt-NCM-Dandi-Quit India-Independence",
+        "explanation": "Key phases: 1757 (Plassey), 1857 (Revolt), 1885 (INC), 1905 (Partition), 1919 (Rowlatt), 1920 (NCM), 1930 (Dandi), 1942 (Quit India), 1947 (Independence)"
+      }
+    ],
+    "connections": [
+      "national-movement",
+      "charter-acts",
+      "viceroys"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Battle of Plassey was fought in:",
+      "options": ["1757", "1764", "1857", "1947"],
+      "correct": 0,
+      "explanation": "Battle of Plassey was fought in 1757"
+    },
+    {
+      "question": "The Revolt of 1857 is also known as:",
+      "options": ["Sepoy Mutiny", "Non-Cooperation", "Civil Disobedience", "Quit India"],
+      "correct": 0,
+      "explanation": "The Revolt of 1857 is also known as Sepoy Mutiny or First War of Independence"
+    },
+    {
+      "question": "Queen Victoria became Empress of India in:",
+      "options": ["1857", "1858", "1877", "1885"],
+      "correct": 2,
+      "explanation": "Queen Victoria became Empress of India in 1877"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1757,
+      "event": "Battle of Plassey",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1857,
+      "event": "Revolt of 1857",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1885,
+      "event": "INC founded",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1947,
+      "event": "Independence",
+      "relatedTopics": ["national-movement"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233759_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233806_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233914_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233923_Instagram.jpg"
+  ]
+}

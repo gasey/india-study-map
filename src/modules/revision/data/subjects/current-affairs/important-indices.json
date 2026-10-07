@@ -1,0 +1,66 @@
+{
+  "id": "important-indices",
+  "subject": "current-affairs",
+  "title": "Important Global Indices 2026",
+  "description": "Major global indices, their publishing organizations, and India's rank",
+  "content": {
+    "overview": "Global indices measure countries' performance across various parameters. Important for UPSC/PSC exams.",
+    "keyPoints": [
+      "Human Development Index (HDI): UNDP, India rank 134 (2023)",
+      "Global Peace Index (GPI): Institute for Economics and Peace, India rank 116",
+      "World Happiness Report: UN Sustainable Development Solutions Network, India rank 126",
+      "Global Gender Gap Index: World Economic Forum, India rank 127",
+      "World Press Freedom Index: Reporters Without Borders, India rank 161",
+      "Environmental Performance Index (EPI): Yale/Columbia, India rank 180",
+      "Sustainable Development Goals (SDG) Index: UN, India rank 111",
+      "Global Terrorism Index: Institute for Economics and Peace, India rank 13",
+      "Corruption Perceptions Index (CPI): Transparency International, India rank 93",
+      "Network Readiness Index (NRI): Portulans Institute, India rank 49",
+      "Energy Transition Index (ETI): World Economic Forum, India rank 63",
+      "Henley Passport Index: Henley & Partners, India rank 85",
+      "Climate Change Performance Index (CCPI): Germanwatch, India rank 7",
+      "Global Hunger Index (GHI): Concern Worldwide/Welthungerhilfe, India rank 105",
+      "Innovation Index: WIPO Global Innovation Index, India rank 39",
+      "Democracy Index: Economist Intelligence Unit, India rank 41",
+      "Global Competitiveness Index: World Economic Forum, India rank 40",
+      "Ease of Doing Business: World Bank, India rank 63 (discontinued)",
+      "Global Innovation Index: WIPO, India rank 39",
+      "World Risk Index: UNU-EHS, India rank 29"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Index Publishers",
+        "trick": "UNDP-HDI, WEF-GGGI, T-CPI, WIPO-GII, EIU-Democracy, G-Germanwatch, H-Henley",
+        "explanation": "UNDP (HDI), WEF (Gender Gap), Transparency (CPI), WIPO (Innovation), EIU (Democracy), Germanwatch (Climate), Henley (Passport)"
+      }
+    ],
+    "connections": [
+      "world-organizations",
+      "five-year-plans"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which organization publishes the Human Development Index?",
+      "options": ["World Bank", "UNDP", "IMF", "WTO"],
+      "correct": 1,
+      "explanation": "UNDP publishes the Human Development Index (HDI)"
+    },
+    {
+      "question": "Corruption Perceptions Index is published by:",
+      "options": ["World Bank", "Transparency International", "WEF", "UN"],
+      "correct": 1,
+      "explanation": "Transparency International publishes the Corruption Perceptions Index"
+    },
+    {
+      "question": "Global Innovation Index is published by:",
+      "options": ["WIPO", "WEF", "UNDP", "World Bank"],
+      "correct": 0,
+      "explanation": "WIPO (World Intellectual Property Organization) publishes the Global Innovation Index"
+    }
+  ],
+  "timeline": [],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_234117_Instagram.jpg"
+  ]
+}

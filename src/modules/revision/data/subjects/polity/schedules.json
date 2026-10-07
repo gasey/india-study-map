@@ -1,0 +1,84 @@
+{
+  "id": "schedules",
+  "subject": "polity",
+  "title": "12 Schedules of the Constitution",
+  "description": "All 12 schedules with tricks to remember them",
+  "content": {
+    "overview": "The Constitution originally had 8 schedules. Now it has 12 schedules added through amendments.",
+    "keyPoints": [
+      "1st Schedule: States and Union Territories",
+      "2nd Schedule: Emoluments of President, VP, PM, Governors, Judges, CAG, etc.",
+      "3rd Schedule: Oaths and affirmations",
+      "4th Schedule: Allocation of Rajya Sabha seats to states",
+      "5th Schedule: Administration of Scheduled Areas and Scheduled Tribes",
+      "6th Schedule: Administration of Tribal Areas in Assam, Meghalaya, Tripura, Mizoram",
+      "7th Schedule: Union List, State List, Concurrent List",
+      "8th Schedule: 22 Official Languages",
+      "9th Schedule: Land Reforms laws (added by 1st Amendment 1951)",
+      "10th Schedule: Anti-Defection law (added by 52nd Amendment 1985)",
+      "11th Schedule: Panchayati Raj (added by 73rd Amendment 1992)",
+      "12th Schedule: Municipalities (added by 74th Amendment 1992)"
+    ],
+    "mnemonics": [
+      {
+        "topic": "12 Schedules",
+        "trick": "1-States, 2-Salaries, 3-Oaths, 4-Rajya Sabha, 5-Scheduled Areas, 6-Tribal Areas, 7-Lists, 8-Languages, 9-Land Reforms, 10-Defection, 11-Panchayat, 12-Municipality",
+        "explanation": "Remember: 1-States, 2-Salaries, 3-Oaths, 4-Rajya Sabha, 5-Scheduled Areas, 6-Tribal Areas, 7-Lists, 8-Languages, 9-Land Reforms, 10-Defection, 11-Panchayat, 12-Municipality"
+      },
+      {
+        "topic": "8th Schedule Languages",
+        "trick": "22 Languages: Assamese, Bengali, Bodo, Dogri, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, Telugu, Urdu",
+        "explanation": "8th Schedule has 22 official languages. Originally 14, later added Sindhi (21st), Konkani/Manipuri/Nepali (71st), Bodo/Dogri/Maithili/Santali (92nd)"
+      }
+    ],
+    "connections": [
+      "important-articles",
+      "making-of-constitution"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which schedule deals with Anti-Defection law?",
+      "options": ["9th", "10th", "11th", "12th"],
+      "correct": 1,
+      "explanation": "10th Schedule deals with Anti-Defection law (52nd Amendment 1985)"
+    },
+    {
+      "question": "How many languages are in the 8th Schedule?",
+      "options": ["18", "20", "22", "24"],
+      "correct": 2,
+      "explanation": "8th Schedule has 22 official languages"
+    },
+    {
+      "question": "7th Schedule contains:",
+      "options": ["Fundamental Rights", "Union/State/Concurrent Lists", "Official Languages", "Emergency Provisions"],
+      "correct": 1,
+      "explanation": "7th Schedule contains Union List, State List, and Concurrent List"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1950,
+      "event": "Original 8 schedules came into force",
+      "relatedTopics": ["making-of-constitution"]
+    },
+    {
+      "year": 1951,
+      "event": "9th Schedule added (1st Amendment)",
+      "relatedTopics": ["important-articles"]
+    },
+    {
+      "year": 1985,
+      "event": "10th Schedule added (52nd Amendment)",
+      "relatedTopics": ["important-articles"]
+    },
+    {
+      "year": 1992,
+      "event": "11th and 12th Schedules added (73rd & 74th Amendments)",
+      "relatedTopics": ["important-articles"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233857_Instagram.jpg"
+  ]
+}

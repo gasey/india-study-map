@@ -1,0 +1,110 @@
+{
+  "id": "agricultural-revolutions",
+  "subject": "history",
+  "title": "Revolutions in India (Agriculture & Allied)",
+  "description": "All 16 agricultural revolutions — Green, White, Blue, Pink, Golden, Silver, Round, Rainbow and more",
+  "content": {
+    "overview": "India has seen several 'revolutions' in agriculture and allied sectors. These are frequently asked in UPSC/PSC exams.",
+    "keyPoints": [
+      "Black Revolution: Petroleum products",
+      "Blue Revolution: Fish production (aquaculture development)",
+      "Brown Revolution: Leather / Cocoa production",
+      "Golden Fibre Revolution: Jute production",
+      "Golden Revolution: Fruits / Honey / Horticulture",
+      "Green Revolution: Food grains (wheat & rice) — M.S. Swaminathan, 1960s-70s, Punjab/Haryana/Western UP",
+      "Grey Revolution: Fertilizer production",
+      "Pink Revolution: Onion / Pharmaceuticals / Prawn production",
+      "Red Revolution: Meat / Tomato production",
+      "Round Revolution: Potato production",
+      "Fibre (White Fibre) Revolution: Cotton production",
+      "Silver Revolution: Egg / Poultry production",
+      "White Revolution: Milk — Operation Flood by Verghese Kurien (1970s), Amul model",
+      "Yellow Revolution: Oil seeds (mustard, sunflower)",
+      "Evergreen Revolution: Overall agriculture development (sustainable, without ecological harm — coined by M.S. Swaminathan)",
+      "Rainbow Revolution: Integrated development — Agriculture + Horticulture + Forestry + Sugarcane + Fishery + Poultry + Animal Husbandry"
+    ],
+    "mnemonics": [
+      {
+        "topic": "All 16 Revolutions",
+        "trick": "Black-Petroleum, Blue-Fish, Brown-Leather/Cocoa, Golden Fibre-Jute, Golden-Fruits/Honey, Green-Food grains, Grey-Fertilizer, Pink-Onion/Pharma/Prawn, Red-Meat/Tomato, Round-Potato, Fibre-Cotton, Silver-Egg/Poultry, White-Milk, Yellow-Oilseeds, Evergreen-Overall Agri, Rainbow-Integrated Agri",
+        "explanation": "Match each colour to its sector: Black=Petroleum, Blue=Fish, Brown=Leather/Cocoa, Golden Fibre=Jute, Golden=Fruits/Honey, Green=Food grains, Grey=Fertilizer, Pink=Onion/Pharma/Prawn, Red=Meat/Tomato, Round=Potato, Fibre=Cotton, Silver=Eggs, White=Milk, Yellow=Oilseeds"
+      },
+      {
+        "topic": "Fathers of Revolutions",
+        "trick": "Green = M.S. Swaminathan | White = Verghese Kurien (Operation Flood) | Blue = Hiralal Chaudhuri & Arun Krishnan",
+        "explanation": "Green Revolution — M.S. Swaminathan; White Revolution — Verghese Kurien (Operation Flood, Amul); Blue Revolution — Hiralal Chaudhuri & Arun Krishnan"
+      },
+      {
+        "topic": "Tricky Pairs",
+        "trick": "Golden vs Golden Fibre = Fruits/Honey vs Jute | Red vs Pink = Meat/Tomato vs Onion/Prawn | Round = Potato (potatoes are round!)",
+        "explanation": "Golden = Fruits/Honey, Golden Fibre = Jute; Red = Meat/Tomato, Pink = Onion/Pharma/Prawn; Round = Potato (easy to remember — potatoes are round)"
+      }
+    ],
+    "connections": [
+      "five-year-plans",
+      "crops",
+      "national-movement"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Green Revolution is associated with:",
+      "options": ["Milk", "Food grains", "Fish", "Oilseeds"],
+      "correct": 1,
+      "explanation": "Green Revolution (1960s) is associated with food grains — led by M.S. Swaminathan"
+    },
+    {
+      "question": "White Revolution (Operation Flood) was led by:",
+      "options": ["M.S. Swaminathan", "Verghese Kurien", "Norman Borlaug", "C. Subramaniam"],
+      "correct": 1,
+      "explanation": "Verghese Kurien led Operation Flood (White Revolution — milk), based on the Amul model"
+    },
+    {
+      "question": "Golden Fibre Revolution is related to:",
+      "options": ["Silk", "Cotton", "Jute", "Wool"],
+      "correct": 2,
+      "explanation": "Golden Fibre Revolution relates to Jute production (Golden Revolution = fruits/honey; Fibre/White Fibre = cotton)"
+    },
+    {
+      "question": "Round Revolution relates to:",
+      "options": ["Onion", "Potato", "Tomato", "Eggs"],
+      "correct": 1,
+      "explanation": "Round Revolution relates to potato production (potatoes are round — easy trick)"
+    },
+    {
+      "question": "Pink Revolution relates to:",
+      "options": ["Meat & tomato", "Onion, pharmaceuticals & prawn", "Fruits & honey", "Eggs & poultry"],
+      "correct": 1,
+      "explanation": "Pink Revolution = Onion / Pharmaceuticals / Prawn (Red = Meat/Tomato; Silver = Eggs/Poultry; Golden = Fruits/Honey)"
+    },
+    {
+      "question": "Rainbow Revolution means:",
+      "options": ["Only food grains", "Integrated development of all agricultural sectors", "Only horticulture", "Only fisheries"],
+      "correct": 1,
+      "explanation": "Rainbow Revolution = integrated development of agriculture, horticulture, forestry, sugarcane, fishery, poultry and animal husbandry"
+    },
+    {
+      "question": "Evergreen Revolution, coined by M.S. Swaminathan, means:",
+      "options": ["Fast growth in food grains", "Sustainable agriculture without ecological harm", "Organic farming only", "GM crops"],
+      "correct": 1,
+      "explanation": "Evergreen Revolution = overall agriculture development in a sustainable manner without ecological harm"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1960,
+      "event": "Green Revolution began",
+      "relatedTopics": ["five-year-plans"]
+    },
+    {
+      "year": 1970,
+      "event": "Operation Flood launched (White Revolution)",
+      "relatedTopics": ["five-year-plans"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233744_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233757_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233956_Instagram.jpg"
+  ]
+}

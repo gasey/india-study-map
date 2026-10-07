@@ -1,0 +1,82 @@
+{
+  "id": "making-of-constitution",
+  "subject": "polity",
+  "title": "Making of the Constitution",
+  "description": "Constituent Assembly, drafting process, committees, and timeline from 1946-1950",
+  "content": {
+    "overview": "The Constitution of India was drafted by the Constituent Assembly from 1946 to 1949, and came into force on 26 January 1950.",
+    "keyPoints": [
+      "Constituent Assembly: 389 members (292 from provinces, 93 from princely states, 4 from chief commissioner provinces)",
+      "First meeting: 9 December 1946",
+      "Drafting Committee: Chaired by Dr. B.R. Ambedkar, 7 members",
+      "Objective Resolution: Moved by Nehru on 13 December 1946, adopted on 22 January 1947",
+      "Constitution adopted: 26 November 1949",
+      "Came into force: 26 January 1950 (Republic Day)",
+      "Total time: 2 years, 11 months, 18 days",
+      "Total cost: Rs. 64 lakhs",
+      "Original Constitution: 395 articles, 22 parts, 8 schedules"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Drafting Committee Members",
+        "trick": "A-N-B-R-K-M-S = Ambedkar, Naidu, Bora, Rau, Khaitan, Munshi, Sinha",
+        "explanation": "Drafting Committee: Ambedkar (Chairman), N. Gopalaswami Ayyangar, Alladi Krishnaswamy Iyer, K.M. Munshi, Syed Mohammad Saadullah, N. Madhava Rau, T.T. Krishnamachari, B.L. Mitter"
+      },
+      {
+        "topic": "Constituent Assembly Timeline",
+        "trick": "1946-1949-1950 = First meeting-Adoption-Enforcement",
+        "explanation": "First meeting: Dec 1946, Adoption: Nov 1949, Enforcement: Jan 1950"
+      }
+    ],
+    "connections": [
+      "parliament",
+      "constitutional-bodies",
+      "important-articles"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who chaired the Drafting Committee of the Constitution?",
+      "options": ["Nehru", "Patel", "Ambedkar", "Rajendra Prasad"],
+      "correct": 2,
+      "explanation": "Dr. B.R. Ambedkar chaired the Drafting Committee"
+    },
+    {
+      "question": "The Constitution was adopted on:",
+      "options": ["15 August 1947", "26 January 1950", "26 November 1949", "9 December 1946"],
+      "correct": 2,
+      "explanation": "Constitution was adopted on 26 November 1949, came into force on 26 January 1950"
+    },
+    {
+      "question": "How many members were in the Constituent Assembly?",
+      "options": ["389", "395", "448", "500"],
+      "correct": 0,
+      "explanation": "Constituent Assembly had 389 members initially"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1946,
+      "event": "First meeting of Constituent Assembly",
+      "relatedTopics": ["parliament"]
+    },
+    {
+      "year": 1947,
+      "event": "Objective Resolution adopted",
+      "relatedTopics": ["important-articles"]
+    },
+    {
+      "year": 1949,
+      "event": "Constitution adopted",
+      "relatedTopics": ["parliament"]
+    },
+    {
+      "year": 1950,
+      "event": "Constitution came into force",
+      "relatedTopics": ["parliament", "fundamental-rights"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233843_Instagram.jpg"
+  ]
+}

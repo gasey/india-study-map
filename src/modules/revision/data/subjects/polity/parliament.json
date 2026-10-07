@@ -1,0 +1,93 @@
+{
+  "id": "parliament",
+  "subject": "polity",
+  "title": "Parliament of India",
+  "description": "Composition, sessions, quorum, money bill, joint sitting, and key procedures",
+  "content": {
+    "overview": "Parliament is the supreme legislative body of India. It consists of the President, Lok Sabha (House of the People), and Rajya Sabha (Council of States).",
+    "keyPoints": [
+      "LOK SABHA Composition: Max 552 = 530 (States) + 20 (UTs) + 2 (Anglo-Indians, nominated — provision now abolished by 104th Amendment); current elected strength 543",
+      "RAJYA SABHA Composition: Max 250 = 238 (States & UTs) + 12 (nominated by President for expertise in literature, science, art, social service); current 245",
+      "Sessions: Budget (Feb-May), Monsoon (Jul-Aug), Winter (Nov-Dec); President summons; max 6-month gap between two sessions",
+      "Quorum: 1/10th of total members (Lok Sabha: 55, Rajya Sabha: 25)",
+      "Ordinary Bill: Must be passed by both houses; deadlock → Joint Sitting under Article 108, presided by Speaker",
+      "Money Bill (Article 110): Can only be introduced in Lok Sabha with President's recommendation; RS can only recommend changes within 14 days; Speaker's decision on Money Bill is final; NO joint sitting for Money Bill",
+      "Constitution Amendment Bill (Article 368): Special majority in each house; NO joint sitting provision",
+      "Joint Sitting (Art 108): Called by President; NOT applicable for Money Bills and Constitutional Amendment Bills",
+      "Parliamentary Committees: Public Accounts Committee (22 members: 15 LS + 7 RS), Estimates Committee (30, all LS), Committee on Public Undertakings (22: 15 LS + 7 RS), Departmentally Related Standing Committees (DRSC — 24 committees, 31 members each: 21 LS + 10 RS)",
+      "PAC is chaired by an Opposition member (convention since 1967)"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Money Bill",
+        "trick": "MONEY BILL = Lok Sabha Only + No Rajya Sabha Veto",
+        "explanation": "Money bills can only be introduced in Lok Sabha. Rajya Sabha cannot reject or amend them, only recommend changes within 14 days."
+      },
+      {
+        "topic": "Sessions",
+        "trick": "BMW = Budget, Monsoon, Winter",
+        "explanation": "Three parliamentary sessions: Budget (Feb-May), Monsoon (Jul-Aug), Winter (Nov-Dec)"
+      }
+    ],
+    "connections": [
+      "important-articles",
+      "constitutional-bodies",
+      "supreme-court-judgments",
+      "making-of-constitution"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the quorum of Lok Sabha?",
+      "options": ["55", "54", "53", "52"],
+      "correct": 0,
+      "explanation": "Quorum is 1/10th of 543 = 54.3, rounded to 55"
+    },
+    {
+      "question": "Money Bill can be introduced in which house?",
+      "options": ["Rajya Sabha", "Lok Sabha", "Either house", "President"],
+      "correct": 1,
+      "explanation": "Money bills can only be introduced in Lok Sabha under Article 110"
+    },
+    {
+      "question": "How many nominated members are in Rajya Sabha?",
+      "options": ["10", "12", "14", "16"],
+      "correct": 1,
+      "explanation": "Rajya Sabha has 12 nominated members with expertise in literature, science, art, and social service"
+    },
+    {
+      "question": "Joint Sitting of Parliament is provided under which article?",
+      "options": ["Article 108", "Article 110", "Article 368", "Article 123"],
+      "correct": 0,
+      "explanation": "Article 108 provides for Joint Sitting, called by the President; NOT applicable for Money Bills and Constitutional Amendment Bills"
+    },
+    {
+      "question": "The Public Accounts Committee has how many members?",
+      "options": ["15", "22", "30", "31"],
+      "correct": 1,
+      "explanation": "PAC has 22 members (15 from Lok Sabha + 7 from Rajya Sabha); chaired by an Opposition member"
+    },
+    {
+      "question": "Maximum gap between two sessions of Parliament cannot exceed:",
+      "options": ["3 months", "6 months", "9 months", "12 months"],
+      "correct": 1,
+      "explanation": "The maximum gap between two sessions of Parliament is 6 months"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1950,
+      "event": "First Parliament of India constituted",
+      "relatedTopics": ["making-of-constitution"]
+    },
+    {
+      "year": 1952,
+      "event": "First general elections held",
+      "relatedTopics": ["important-articles"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233616_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233729_Instagram.jpg"
+  ]
+}

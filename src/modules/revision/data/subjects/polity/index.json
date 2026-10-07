@@ -1,0 +1,21 @@
+{
+  "id": "polity",
+  "name": "Polity",
+  "icon": "⚖️",
+  "color": "#3B82F6",
+  "description": "Constitution, Parliament, Fundamental Rights, and Governance",
+  "topics": [
+    { "id": "parliament", "title": "Parliament of India", "description": "Composition, sessions, quorum, money bill" },
+    { "id": "constitutional-bodies", "title": "Constitutional Bodies", "description": "President, VP, PM, Supreme Court, CAG" },
+    { "id": "fundamental-rights", "title": "Fundamental Rights", "description": "Articles 12-35, Six groups, Five Writs" },
+    { "id": "important-articles", "title": "Important Articles", "description": "Key articles for UPSC/PSC exams" },
+    { "id": "supreme-court-judgments", "title": "Landmark Judgments", "description": "Kesavananda, Maneka, Minerva, Bommai" },
+    { "id": "making-of-constitution", "title": "Making of Constitution", "description": "Constituent Assembly, Drafting Committee" },
+    { "id": "borrowed-features", "title": "Borrowed Features", "description": "Features from other constitutions" },
+    { "id": "schedules", "title": "12 Schedules", "description": "All schedules with tricks" },
+    { "id": "speaker", "title": "Speaker of Lok Sabha", "description": "Election, powers, functions" },
+    { "id": "polity-timeline", "title": "Polity Timeline", "description": "1909-2023, amendments and events" },
+    { "id": "prime-ministers", "title": "Prime Ministers", "description": "All 18 PMs with tenures" },
+    { "id": "supreme-court-high-courts", "title": "SC & High Courts", "description": "Composition, jurisdiction, articles" }
+  ]
+}

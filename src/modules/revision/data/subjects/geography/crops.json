@@ -1,0 +1,63 @@
+{
+  "id": "crops",
+  "subject": "geography",
+  "title": "Rabi, Kharif & Zaid Crops",
+  "description": "Three cropping seasons in India with major crops",
+  "content": {
+    "overview": "India has three main cropping seasons: Rabi (winter), Kharif (monsoon), and Zaid (summer).",
+    "keyPoints": [
+      "Rabi Crops (Oct-Dec to Mar-Apr): Wheat, Barley, Gram, Peas, Mustard, Linseed, Sunflower, Potato, Onion, Garlic, Coriander",
+      "Kharif Crops (Jun-Jul to Sep-Oct): Rice, Maize, Jowar, Bajra, Cotton, Groundnut, Soybean, Tur, Urad, Moong, Sesame, Castor",
+      "Zaid Crops (Mar-Jun): Watermelon, Muskmelon, Cucumber, Bitter gourd, Pumpkin, Bottle gourd, Sponge gourd, Ridge gourd",
+      "Cash Crops: Cotton, Jute, Sugarcane, Tobacco, Tea, Coffee, Rubber, Spices",
+      "Food Crops: Rice, Wheat, Maize, Pulses, Millets",
+      "Plantation Crops: Tea, Coffee, Rubber, Coconut, Areca nut",
+      "Horticulture: Fruits (Mango, Banana, Apple, Citrus), Vegetables, Flowers, Spices"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Cropping Seasons",
+        "trick": "R-K-Z = Rabi (Winter), Kharif (Monsoon), Zaid (Summer)",
+        "explanation": "Rabi (Oct-Apr), Kharif (Jun-Oct), Zaid (Mar-Jun)"
+      },
+      {
+        "topic": "Rabi Crops",
+        "trick": "W-B-G-P-M-L = Wheat, Barley, Gram, Peas, Mustard, Linseed",
+        "explanation": "Rabi crops: Wheat, Barley, Gram, Peas, Mustard, Linseed"
+      },
+      {
+        "topic": "Kharif Crops",
+        "trick": "R-M-J-B-C-G-S = Rice, Maize, Jowar, Bajra, Cotton, Groundnut, Soybean",
+        "explanation": "Kharif crops: Rice, Maize, Jowar, Bajra, Cotton, Groundnut, Soybean"
+      }
+    ],
+    "connections": [
+      "river-tributaries",
+      "agricultural-revolutions"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which is a Rabi crop?",
+      "options": ["Rice", "Wheat", "Cotton", "Maize"],
+      "correct": 1,
+      "explanation": "Wheat is a Rabi crop (winter season)"
+    },
+    {
+      "question": "Which is a Kharif crop?",
+      "options": ["Wheat", "Barley", "Rice", "Mustard"],
+      "correct": 2,
+      "explanation": "Rice is a Kharif crop (monsoon season)"
+    },
+    {
+      "question": "Zaid crops are grown in which season?",
+      "options": ["Winter", "Monsoon", "Summer", "Spring"],
+      "correct": 2,
+      "explanation": "Zaid crops are grown in summer (March-June)"
+    }
+  ],
+  "timeline": [],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_234039_Instagram.jpg"
+  ]
+}

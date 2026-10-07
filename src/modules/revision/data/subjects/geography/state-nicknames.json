@@ -1,0 +1,104 @@
+{
+  "id": "state-nicknames",
+  "subject": "geography",
+  "title": "Nicknames of Indian States",
+  "description": "Complete list of all 28 states with their popular nicknames",
+  "content": {
+    "overview": "Indian states have unique nicknames based on their geography, culture, history, or economy. This is the complete 28-state list from your notes.",
+    "keyPoints": [
+      "Andhra Pradesh: Kohinoor of India",
+      "Bihar: Land of Buddha",
+      "Gujarat: Jewel of Western India",
+      "Himachal Pradesh: Fruit Bowl of India",
+      "Jharkhand: Land of Forests",
+      "Arunachal Pradesh: Land of Rising Sun",
+      "Assam: Tea Garden of India",
+      "Chhattisgarh: Tribal Heart of India",
+      "Karnataka: Land of Sandalwood",
+      "Kerala: God's Own Country",
+      "Madhya Pradesh: Tiger State of India",
+      "Maharashtra: Land of Marathas",
+      "Manipur: Jewel of India",
+      "Meghalaya: Abode of Clouds",
+      "Nagaland: Land of Festivals",
+      "Odisha: Soul of India",
+      "Punjab: Land of Five Rivers",
+      "Rajasthan: Land of Kings",
+      "Sikkim: Land of Peace and Tranquility",
+      "Tamil Nadu: Land of Temples",
+      "Telangana: Land of Nizams",
+      "Uttar Pradesh: Sugar Bowl of India",
+      "Uttarakhand: Land of the Gods",
+      "West Bengal: Cultural Capital of India",
+      "Goa: Rome of the East",
+      "Haryana: Milk Bowl of India",
+      "Mizoram: Land of Rolling Hills",
+      "Tripura: Hill Tipperah"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Bowl States",
+        "trick": "Fruit Bowl = Himachal | Sugar Bowl = UP | Milk Bowl = Haryana | Rice Bowl = Andhra/Chhattisgarh",
+        "explanation": "Bowl nicknames: Himachal (Fruit Bowl), UP (Sugar Bowl), Haryana (Milk Bowl), Andhra Pradesh & Chhattisgarh (Rice Bowl)"
+      },
+      {
+        "topic": "Land of... States",
+        "trick": "Rising Sun-Arunachal | Forests-Jharkhand | Marathas-Maharashtra | Festivals-Nagaland | Five Rivers-Punjab | Kings-Rajasthan | Temples-Tamil Nadu | Nizams-Telangana | Gods-Uttarakhand | Buddha-Bihar | Sandalwood-Karnataka | Rolling Hills-Mizoram",
+        "explanation": "'Land of' nicknames: Arunachal (Rising Sun), Jharkhand (Forests), Maharashtra (Marathas), Nagaland (Festivals), Punjab (Five Rivers), Rajasthan (Kings), Tamil Nadu (Temples), Telangana (Nizams), Uttarakhand (Gods), Bihar (Buddha), Karnataka (Sandalwood), Mizoram (Rolling Hills)"
+      },
+      {
+        "topic": "Tricky Pairs",
+        "trick": "Jewel of Western India = Gujarat vs Jewel of India = Manipur | Tiger State = MP vs Cultural Capital = West Bengal | Abode of Clouds = Meghalaya vs God's Own Country = Kerala",
+        "explanation": "Don't confuse: Gujarat (Jewel of Western India) vs Manipur (Jewel of India); MP (Tiger State) vs WB (Cultural Capital); Meghalaya (Abode of Clouds) vs Kerala (God's Own Country)"
+      }
+    ],
+    "connections": [
+      "national-parks",
+      "largest-in-asia",
+      "tribal-festivals"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which state is known as 'God's Own Country'?",
+      "options": ["Kerala", "Goa", "Assam", "Meghalaya"],
+      "correct": 0,
+      "explanation": "Kerala is known as 'God's Own Country'"
+    },
+    {
+      "question": "'Land of Rising Sun' refers to:",
+      "options": ["Assam", "Arunachal Pradesh", "Nagaland", "Manipur"],
+      "correct": 1,
+      "explanation": "Arunachal Pradesh is the 'Land of Rising Sun' (first to receive sunrise in India)"
+    },
+    {
+      "question": "Which state is the 'Sugar Bowl of India'?",
+      "options": ["Maharashtra", "Uttar Pradesh", "Haryana", "Punjab"],
+      "correct": 1,
+      "explanation": "Uttar Pradesh is the 'Sugar Bowl of India' (Haryana is the Milk Bowl)"
+    },
+    {
+      "question": "'Tiger State of India' is:",
+      "options": ["Karnataka", "Madhya Pradesh", "West Bengal", "Assam"],
+      "correct": 1,
+      "explanation": "Madhya Pradesh is the 'Tiger State of India' (highest tiger population)"
+    },
+    {
+      "question": "'Jewel of India' refers to:",
+      "options": ["Gujarat", "Manipur", "Kashmir", "Goa"],
+      "correct": 1,
+      "explanation": "Manipur is the 'Jewel of India' (Gujarat is the 'Jewel of Western India')"
+    },
+    {
+      "question": "Which state is called 'Abode of Clouds'?",
+      "options": ["Sikkim", "Meghalaya", "Mizoram", "Nagaland"],
+      "correct": 1,
+      "explanation": "Meghalaya means 'Abode of Clouds' in Sanskrit"
+    }
+  ],
+  "timeline": [],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233749_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234014_Instagram.jpg"
+  ]
+}

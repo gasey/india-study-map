@@ -1,0 +1,81 @@
+{
+  "id": "art-architecture",
+  "subject": "history",
+  "title": "Art & Architecture of India",
+  "description": "Major temples, caves, and monuments with their locations and features",
+  "content": {
+    "overview": "India has a rich heritage of art and architecture spanning thousands of years, from ancient cave temples to medieval monuments.",
+    "keyPoints": [
+      "Ajanta Caves (Maharashtra): Buddhist caves, paintings, 2nd century BCE - 6th century CE",
+      "Ellora Caves (Maharashtra): Buddhist, Hindu, Jain caves, Kailasa Temple, 6th-10th century CE",
+      "Elephanta Caves (Maharashtra): Hindu caves, Trimurti sculpture, 5th-6th century CE",
+      "Khajuraho Temples (MP): Chandela dynasty, Nagara style, erotic sculptures, 950-1050 CE",
+      "Konark Sun Temple (Odisha): Kalinga architecture, chariot shape, 13th century CE",
+      "Brihadeeswara Temple (TN): Chola architecture, Dravida style, 11th century CE",
+      "Dilwara Temples (Rajasthan): Jain temples, marble architecture, 11th-13th century CE",
+      "Sanchi Stupa (MP): Buddhist stupa, Ashokan era, 3rd century BCE",
+      "Mahabalipuram (TN): Pallava architecture, Shore Temple, 7th-8th century CE",
+      "Qutub Minar (Delhi): Indo-Islamic architecture, 1192 CE",
+      "Alai Darwaza (Delhi): Delhi Sultanate, 1311 CE",
+      "Humayun's Tomb (Delhi): Mughal architecture, 1570 CE",
+      "Taj Mahal (Agra): Mughal architecture, Shah Jahan, 1653 CE",
+      "Buland Darwaza (Fatehpur Sikri): Mughal architecture, Akbar, 1575 CE",
+      "Red Fort (Delhi): Mughal architecture, Shah Jahan, 1648 CE",
+      "Gol Gumbaz (Bijapur): Deccan architecture, 1656 CE",
+      "Charminar (Hyderabad): Qutb Shahi architecture, 1591 CE",
+      "Hawa Mahal (Jaipur): Rajput architecture, 1799 CE",
+      "Gateway of India (Mumbai): Indo-Saracenic, 1924 CE"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Mughal Architecture",
+        "trick": "H-T-B-R-G-C = Humayun's Tomb, Taj Mahal, Buland Darwaza, Red Fort, Gol Gumbaz, Charminar",
+        "explanation": "Mughal monuments: Humayun's Tomb, Taj Mahal, Buland Darwaza, Red Fort, Gol Gumbaz, Charminar"
+      },
+      {
+        "topic": "Temple Architecture Styles",
+        "trick": "Nagara-Dravida-Vesara = North-South-Mixed",
+        "explanation": "Three temple styles: Nagara (North India), Dravida (South India), Vesara (Mixed/Deccan)"
+      }
+    ],
+    "connections": [
+      "indus-valley",
+      "national-movement"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Taj Mahal was built by:",
+      "options": ["Akbar", "Shah Jahan", "Jahangir", "Aurangzeb"],
+      "correct": 1,
+      "explanation": "Taj Mahal was built by Shah Jahan in memory of Mumtaz Mahal"
+    },
+    {
+      "question": "Which temple is known for Kalinga architecture?",
+      "options": ["Khajuraho", "Konark", "Brihadeeswara", "Kailasa"],
+      "correct": 1,
+      "explanation": "Konark Sun Temple is known for Kalinga architecture"
+    },
+    {
+      "question": "Ajanta Caves are famous for:",
+      "options": ["Sculptures", "Paintings", "Architecture", "Inscriptions"],
+      "correct": 1,
+      "explanation": "Ajanta Caves are famous for Buddhist paintings"
+    }
+  ],
+  "timeline": [
+    {
+      "year": -300,
+      "event": "Sanchi Stupa built",
+      "relatedTopics": ["indus-valley"]
+    },
+    {
+      "year": 1653,
+      "event": "Taj Mahal completed",
+      "relatedTopics": ["national-movement"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233940_Instagram.jpg"
+  ]
+}

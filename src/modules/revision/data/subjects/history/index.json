@@ -1,0 +1,20 @@
+{
+  "id": "history",
+  "name": "History",
+  "icon": "📜",
+  "color": "#EF4444",
+  "description": "Ancient, Medieval, Modern India and Freedom Struggle",
+  "topics": [
+    { "id": "indus-valley", "title": "Indus Valley Civilization", "description": "Harappa, Mohenjo-Daro, city-river associations" },
+    { "id": "ashokan-edicts", "title": "Ashoka's 14 Rock Edicts", "description": "Kalinga War, Dhamma, 5 Greek kings" },
+    { "id": "akbar-conquests", "title": "Akbar's Conquests", "description": "1560-1601, Haldighati, Rani Durgawati" },
+    { "id": "art-architecture", "title": "Art & Architecture", "description": "Temples, caves, monuments" },
+    { "id": "charter-acts", "title": "Charter Acts", "description": "1773-1853, Regulating Act, Pitt's Act" },
+    { "id": "viceroys", "title": "Viceroys of India", "description": "Canning to Mountbatten" },
+    { "id": "freedom-struggle-timeline", "title": "Freedom Struggle Timeline", "description": "1757-1947 complete timeline" },
+    { "id": "partition-of-bengal", "title": "Partition of Bengal", "description": "1905, 1911, 1947 with tricks" },
+    { "id": "national-movement", "title": "National Movement", "description": "1885-1947, with 12 mnemonics" },
+    { "id": "constitutional-developments", "title": "Constitutional Developments", "description": "1940-1947, Independence" },
+    { "id": "agricultural-revolutions", "title": "Revolutions in India", "description": "All 16 — Green to Rainbow" }
+  ]
+}

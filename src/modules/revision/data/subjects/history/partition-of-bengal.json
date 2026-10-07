@@ -1,0 +1,89 @@
+{
+  "id": "partition-of-bengal",
+  "subject": "history",
+  "title": "Partition of Bengal (1905, 1911, 1947)",
+  "description": "First Partition 1905, Annulment 1911, Second Partition 1947 — with tricks and key points",
+  "content": {
+    "overview": "Bengal was partitioned twice — first in 1905 by Lord Curzon (annulled in 1911), and again in 1947 during the Partition of India.",
+    "keyPoints": [
+      "FIRST PARTITION (1905): Announced by Lord Curzon, effective 16 October 1905",
+      "Official reason: administrative convenience; Real reason: divide the growing influence of Bengalis and nationalism",
+      "Division: East Bengal & Assam (Muslim majority, capital Dacca) | West Bengal (Hindu majority, capital Calcutta)",
+      "Opposition: Strong protest — Swadeshi Movement started as a response",
+      "ANNULMENT (1911): Announced by King George V on 12 December 1911 at Delhi Durbar",
+      "Reason for annulment: Strong protest and Swadeshi Movement",
+      "Result: Partition annulled, Bengal reunited; Capital shifted from Calcutta to Delhi",
+      "SECOND PARTITION (1947): During Partition of India, based on religious majority",
+      "West Bengal → India (Hindu majority); East Bengal → East Pakistan (Muslim majority)",
+      "Result: Massive displacement of millions of people"
+    ],
+    "mnemonics": [
+      {
+        "topic": "First Partition — Curzon's Real Motive",
+        "trick": "CURZON'S 3 D's = Divide, Distract, Dominate",
+        "explanation": "Curzon's real motive behind partitioning Bengal in 1905: Divide (Bengalis), Distract (nationalists), Dominate (weaken nationalism)"
+      },
+      {
+        "topic": "Annulment 1911",
+        "trick": "R.E.U.N.I.T.E.D = Reunited Bengal, Ended partition 1911, United people's protest, National leaders fought, Indians were united, Together we won, End of Curzon's evil plan, Delhi became capital",
+        "explanation": "1911 annulment — Bengal reunited after united protests; Delhi became the new capital"
+      },
+      {
+        "topic": "Second Partition 1947",
+        "trick": "H.I.M.S. = Hindus stayed in India, India got West Bengal, Muslims went to Pakistan, Shift of millions of people",
+        "explanation": "1947 partition — West Bengal to India, East Bengal to East Pakistan, massive population displacement"
+      }
+    ],
+    "connections": [
+      "national-movement",
+      "viceroys",
+      "freedom-struggle-timeline"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "The First Partition of Bengal was announced by:",
+      "options": ["Lord Minto", "Lord Curzon", "Lord Hardinge", "Lord Ripon"],
+      "correct": 1,
+      "explanation": "Lord Curzon announced the First Partition of Bengal in 1905, effective 16 October 1905"
+    },
+    {
+      "question": "The Partition of Bengal was annulled in:",
+      "options": ["1909", "1911", "1919", "1947"],
+      "correct": 1,
+      "explanation": "King George V announced the annulment on 12 December 1911 at the Delhi Durbar; capital shifted to Delhi"
+    },
+    {
+      "question": "After the 1905 partition, the capital of East Bengal & Assam was:",
+      "options": ["Calcutta", "Dacca", "Delhi", "Shillong"],
+      "correct": 1,
+      "explanation": "Dacca (Dhaka) was the capital of East Bengal & Assam after the 1905 partition"
+    },
+    {
+      "question": "Which movement started in response to the 1905 Partition of Bengal?",
+      "options": ["Non-Cooperation", "Swadeshi Movement", "Quit India", "Civil Disobedience"],
+      "correct": 1,
+      "explanation": "The Swadeshi Movement started in response to the Partition of Bengal in 1905"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1905,
+      "event": "First Partition of Bengal by Lord Curzon",
+      "relatedTopics": ["national-movement", "viceroys"]
+    },
+    {
+      "year": 1911,
+      "event": "Partition annulled; capital shifted to Delhi",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1947,
+      "event": "Second Partition of Bengal during Independence",
+      "relatedTopics": ["national-movement"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233815_Instagram.jpg"
+  ]
+}

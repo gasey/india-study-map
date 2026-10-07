@@ -1,0 +1,11 @@
+{
+  "id": "current-affairs",
+  "name": "Current Affairs",
+  "icon": "📰",
+  "color": "#8B5CF6",
+  "description": "World Organizations, Indices, and Recent Events",
+  "topics": [
+    { "id": "world-organizations", "title": "World Organizations", "description": "UN, WHO, WTO, IMF, World Bank" },
+    { "id": "important-indices", "title": "Important Indices", "description": "HDI, GPI, CPI, Innovation Index" }
+  ]
+}

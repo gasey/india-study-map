@@ -1,0 +1,313 @@
+{
+  "polity": [
+    {
+      "question": "Who was the first President of India?",
+      "options": ["Dr. Rajendra Prasad", "Dr. S. Radhakrishnan", "Dr. Zakir Husain", "V. V. Giri"],
+      "correct": 0,
+      "explanation": "Dr. Rajendra Prasad was the first President of India (1950-1962)",
+      "topicId": "constitutional-bodies"
+    },
+    {
+      "question": "Which article deals with the Right to Equality?",
+      "options": ["Article 14", "Article 19", "Article 21", "Article 32"],
+      "correct": 0,
+      "explanation": "Article 14 deals with Equality before law",
+      "topicId": "fundamental-rights"
+    },
+    {
+      "question": "The 42nd Amendment is also known as:",
+      "options": ["Mini Constitution", "Major Constitution", "Constitutional Reform", "Emergency Amendment"],
+      "correct": 0,
+      "explanation": "42nd Amendment (1976) is known as 'Mini Constitution' due to extensive changes",
+      "topicId": "polity-timeline"
+    },
+    {
+      "question": "Who was the first Chief Justice of India?",
+      "options": ["H. J. Kania", "M. Patanjali Sastri", "B. K. Mukherjea", "S. R. Das"],
+      "correct": 0,
+      "explanation": "H. J. Kania was the first Chief Justice of India (1950-1951)",
+      "topicId": "supreme-court-high-courts"
+    },
+    {
+      "question": "Which schedule deals with Anti-Defection law?",
+      "options": ["9th", "10th", "11th", "12th"],
+      "correct": 1,
+      "explanation": "10th Schedule deals with Anti-Defection law (52nd Amendment 1985)",
+      "topicId": "schedules"
+    },
+    {
+      "question": "The concept of 'Basic Structure' was established in which case?",
+      "options": ["Golaknath", "Kesavananda Bharati", "Minerva Mills", "S. R. Bommai"],
+      "correct": 1,
+      "explanation": "Kesavananda Bharati v. State of Kerala (1973) established basic structure doctrine",
+      "topicId": "supreme-court-judgments"
+    },
+    {
+      "question": "Who appoints the Prime Minister of India?",
+      "options": ["President", "Parliament", "Supreme Court", "Election Commission"],
+      "correct": 0,
+      "explanation": "President appoints the Prime Minister under Article 75",
+      "topicId": "prime-ministers"
+    },
+    {
+      "question": "Which article gives the President ordinance-making power?",
+      "options": ["Article 123", "Article 124", "Article 125", "Article 126"],
+      "correct": 0,
+      "explanation": "Article 123 gives the President ordinance-making power",
+      "topicId": "important-articles"
+    },
+    {
+      "question": "The maximum strength of Lok Sabha is:",
+      "options": ["543", "545", "550", "552"],
+      "correct": 3,
+      "explanation": "Maximum strength of Lok Sabha is 552 (543 elected + 2 nominated + 50 from states)",
+      "topicId": "parliament"
+    },
+    {
+      "question": "Which writ means 'command to perform public duty'?",
+      "options": ["Habeas Corpus", "Mandamus", "Certiorari", "Prohibition"],
+      "correct": 1,
+      "explanation": "Mandamus means 'we command' - orders a public authority to perform its duty",
+      "topicId": "fundamental-rights"
+    }
+  ],
+  "history": [
+    {
+      "question": "Who was the founder of the Indian National Congress?",
+      "options": ["A.O. Hume", "W.C. Banerjee", "Dadabhai Naoroji", "Gopal Krishna Gokhale"],
+      "correct": 0,
+      "explanation": "A.O. Hume founded the Indian National Congress in 1885",
+      "topicId": "national-movement"
+    },
+    {
+      "question": "The Jallianwala Bagh massacre took place in:",
+      "options": ["1919", "1920", "1930", "1942"],
+      "correct": 0,
+      "explanation": "Jallianwala Bagh massacre occurred on 13 April 1919",
+      "topicId": "national-movement"
+    },
+    {
+      "question": "Who gave the slogan 'Jai Jawan Jai Kisan'?",
+      "options": ["Nehru", "Shastri", "Indira Gandhi", "Patel"],
+      "correct": 1,
+      "explanation": "Lal Bahadur Shastri gave the slogan 'Jai Jawan Jai Kisan' during 1965 war",
+      "topicId": "prime-ministers"
+    },
+    {
+      "question": "The Dandi March covered a distance of:",
+      "options": ["240 miles", "300 miles", "400 miles", "500 miles"],
+      "correct": 0,
+      "explanation": "Dandi March covered 240 miles (390 km) from Sabarmati to Dandi",
+      "topicId": "national-movement"
+    },
+    {
+      "question": "Who was the Viceroy during the Partition of Bengal?",
+      "options": ["Lord Curzon", "Lord Minto", "Lord Ripon", "Lord Lytton"],
+      "correct": 0,
+      "explanation": "Lord Curzon was the Viceroy during the Partition of Bengal (1905)",
+      "topicId": "viceroys"
+    },
+    {
+      "question": "The Green Revolution was started in which decade?",
+      "options": ["1950s", "1960s", "1970s", "1980s"],
+      "correct": 1,
+      "explanation": "Green Revolution started in the 1960s under M.S. Swaminathan",
+      "topicId": "agricultural-revolutions"
+    },
+    {
+      "question": "Which city was the capital of the Indus Valley Civilization?",
+      "options": ["Harappa", "Mohenjo-Daro", "Lothal", "Dholavira"],
+      "correct": 1,
+      "explanation": "Mohenjo-Daro was one of the major cities of the Indus Valley Civilization",
+      "topicId": "indus-valley"
+    },
+    {
+      "question": "The Quit India Movement was launched in:",
+      "options": ["1930", "1935", "1942", "1946"],
+      "correct": 2,
+      "explanation": "Quit India Movement was launched on 8 August 1942",
+      "topicId": "national-movement"
+    },
+    {
+      "question": "Who was the last Viceroy of India?",
+      "options": ["Lord Wavell", "Lord Mountbatten", "Lord Linlithgow", "Lord Irwin"],
+      "correct": 1,
+      "explanation": "Lord Mountbatten was the last Viceroy of India (1947)",
+      "topicId": "viceroys"
+    },
+    {
+      "question": "The Charter Act of 1813 ended whose trade monopoly?",
+      "options": ["British Crown", "East India Company", "Dutch East India Company", "French East India Company"],
+      "correct": 1,
+      "explanation": "Charter Act 1813 ended East India Company's trade monopoly (except tea and China)",
+      "topicId": "charter-acts"
+    }
+  ],
+  "geography": [
+    {
+      "question": "Which is the largest state of India by area?",
+      "options": ["MP", "Rajasthan", "Maharashtra", "UP"],
+      "correct": 1,
+      "explanation": "Rajasthan is the largest state by area (342,239 sq km)",
+      "topicId": "largest-in-asia"
+    },
+    {
+      "question": "Which river is known as 'Sorrow of Bihar'?",
+      "options": ["Ganga", "Kosi", "Ghaghara", "Gandak"],
+      "correct": 1,
+      "explanation": "Kosi is known as 'Sorrow of Bihar' due to frequent floods",
+      "topicId": "river-tributaries"
+    },
+    {
+      "question": "Which is a Kharif crop?",
+      "options": ["Wheat", "Barley", "Rice", "Mustard"],
+      "correct": 2,
+      "explanation": "Rice is a Kharif crop (monsoon season)",
+      "topicId": "crops"
+    },
+    {
+      "question": "Which state is known as 'God's Own Country'?",
+      "options": ["Kerala", "Goa", "Assam", "Meghalaya"],
+      "correct": 0,
+      "explanation": "Kerala is known as 'God's Own Country'",
+      "topicId": "state-nicknames"
+    },
+    {
+      "question": "Which is the only floating lake in the world?",
+      "options": ["Dal Lake", "Loktak Lake", "Chilika Lake", "Vembanad Lake"],
+      "correct": 1,
+      "explanation": "Loktak Lake (Manipur) is the only floating lake in the world",
+      "topicId": "lakes"
+    },
+    {
+      "question": "Hornbill Festival is celebrated in:",
+      "options": ["Assam", "Nagaland", "Meghalaya", "Manipur"],
+      "correct": 1,
+      "explanation": "Hornbill Festival is celebrated in Nagaland",
+      "topicId": "tribal-festivals"
+    },
+    {
+      "question": "Which is the largest freshwater lake in Asia?",
+      "options": ["Dal Lake", "Wular Lake", "Chilika Lake", "Loktak Lake"],
+      "correct": 1,
+      "explanation": "Wular Lake (J&K) is the largest freshwater lake in Asia",
+      "topicId": "lakes"
+    },
+    {
+      "question": "Which national park is famous for one-horned rhinoceros?",
+      "options": ["Kaziranga", "Gir", "Sundarbans", "Ranthambore"],
+      "correct": 0,
+      "explanation": "Kaziranga National Park (Assam) is famous for one-horned rhinoceros",
+      "topicId": "national-parks"
+    },
+    {
+      "question": "Which state is called 'Land of Five Rivers'?",
+      "options": ["Haryana", "Punjab", "UP", "Bihar"],
+      "correct": 1,
+      "explanation": "Punjab is called 'Land of Five Rivers'",
+      "topicId": "state-nicknames"
+    },
+    {
+      "question": "Which place receives the highest rainfall in the world?",
+      "options": ["Cherrapunji", "Mawsynram", "Agumbe", "Mahabaleshwar"],
+      "correct": 1,
+      "explanation": "Mawsynram (Meghalaya) receives the highest rainfall in the world",
+      "topicId": "largest-in-asia"
+    }
+  ],
+  "economy": [
+    {
+      "question": "Which plan focused on heavy industries?",
+      "options": ["First", "Second", "Third", "Fourth"],
+      "correct": 1,
+      "explanation": "Second Plan (1956-61) focused on heavy industries",
+      "topicId": "five-year-plans"
+    },
+    {
+      "question": "Planning Commission was replaced by:",
+      "options": ["NITI Aayog", "Finance Commission", "RBI", "SEBI"],
+      "correct": 0,
+      "explanation": "NITI Aayog replaced Planning Commission in 2015",
+      "topicId": "five-year-plans"
+    },
+    {
+      "question": "Which plan had 'Garibi Hatao' as slogan?",
+      "options": ["Third", "Fourth", "Fifth", "Sixth"],
+      "correct": 1,
+      "explanation": "Fourth Plan (1969-74) had 'Garibi Hatao' as slogan",
+      "topicId": "five-year-plans"
+    },
+    {
+      "question": "The Green Revolution was started in which decade?",
+      "options": ["1950s", "1960s", "1970s", "1980s"],
+      "correct": 1,
+      "explanation": "Green Revolution started in the 1960s",
+      "topicId": "five-year-plans"
+    },
+    {
+      "question": "Which plan introduced economic liberalization?",
+      "options": ["Sixth", "Seventh", "Eighth", "Ninth"],
+      "correct": 2,
+      "explanation": "Eighth Plan (1992-97) introduced economic liberalization",
+      "topicId": "five-year-plans"
+    }
+  ],
+  "current-affairs": [
+    {
+      "question": "Where is the headquarters of UNESCO?",
+      "options": ["Geneva", "Paris", "New York", "Rome"],
+      "correct": 1,
+      "explanation": "UNESCO headquarters is in Paris, France",
+      "topicId": "world-organizations"
+    },
+    {
+      "question": "Which organization is headquartered in The Hague?",
+      "options": ["ICJ", "WHO", "IMF", "WTO"],
+      "correct": 0,
+      "explanation": "International Court of Justice (ICJ) is in The Hague",
+      "topicId": "world-organizations"
+    },
+    {
+      "question": "SAARC headquarters is in:",
+      "options": ["Dhaka", "Kathmandu", "New Delhi", "Colombo"],
+      "correct": 1,
+      "explanation": "SAARC headquarters is in Kathmandu, Nepal",
+      "topicId": "world-organizations"
+    },
+    {
+      "question": "Which organization publishes the Human Development Index?",
+      "options": ["World Bank", "UNDP", "IMF", "WTO"],
+      "correct": 1,
+      "explanation": "UNDP publishes the Human Development Index (HDI)",
+      "topicId": "important-indices"
+    },
+    {
+      "question": "Corruption Perceptions Index is published by:",
+      "options": ["World Bank", "Transparency International", "WEF", "UN"],
+      "correct": 1,
+      "explanation": "Transparency International publishes the Corruption Perceptions Index",
+      "topicId": "important-indices"
+    },
+    {
+      "question": "Global Innovation Index is published by:",
+      "options": ["WIPO", "WEF", "UNDP", "World Bank"],
+      "correct": 0,
+      "explanation": "WIPO publishes the Global Innovation Index",
+      "topicId": "important-indices"
+    },
+    {
+      "question": "Which organization is headquartered in Geneva?",
+      "options": ["WHO", "UNESCO", "ICJ", "IMF"],
+      "correct": 0,
+      "explanation": "WHO is headquartered in Geneva, Switzerland",
+      "topicId": "world-organizations"
+    },
+    {
+      "question": "World Bank headquarters is in:",
+      "options": ["Geneva", "Washington DC", "New York", "London"],
+      "correct": 1,
+      "explanation": "World Bank headquarters is in Washington DC, USA",
+      "topicId": "world-organizations"
+    }
+  ]
+}

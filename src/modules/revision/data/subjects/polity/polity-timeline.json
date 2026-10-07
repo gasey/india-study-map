@@ -1,0 +1,105 @@
+{
+  "id": "polity-timeline",
+  "subject": "polity",
+  "title": "Indian Polity Timeline (1909-2023)",
+  "description": "Constitutional amendments, acts, and key events from 1909 to 2023",
+  "content": {
+    "overview": "A comprehensive timeline of Indian polity from the Morley-Minto Reforms to the 106th Constitutional Amendment.",
+    "keyPoints": [
+      "1909: Morley-Minto Reforms (Indian Councils Act)",
+      "1919: Government of India Act (Montagu-Chelmsford Reforms)",
+      "1927: Simon Commission",
+      "1930: First Round Table Conference",
+      "1931: Second Round Table Conference",
+      "1932: Communal Award",
+      "1935: Government of India Act",
+      "1942: Quit India Movement",
+      "1946: Cabinet Mission Plan",
+      "1947: Independence & Partition",
+      "1949: Constitution Adopted",
+      "1950: Republic of India",
+      "1951: First Constitutional Amendment",
+      "1955: Reorganisation of States Act",
+      "1962: China War & Emergency",
+      "1965: India-Pakistan War",
+      "1971: India-Pakistan War, Bangladesh Liberation",
+      "1975: Emergency Proclaimed",
+      "1977: Emergency Withdrawn, Janata Party Government",
+      "1978: 44th Constitutional Amendment",
+      "1980: 42nd Constitutional Amendment",
+      "1984: Operation Blue Star, Indira Gandhi Assassinated",
+      "1986: 61st Constitutional Amendment (voting age 18)",
+      "1990: Mandal Commission Implementation",
+      "1992: Babri Masjid Demolition",
+      "1999: Kargil War",
+      "2002: 86th Constitutional Amendment (Right to Education)",
+      "2005: Right to Information Act",
+      "2009: 73rd & 74th Amendment Act fully in force",
+      "2013: Criminal Law Amendment Act",
+      "2014: 99th Constitutional Amendment (NJAC)",
+      "2016: 101st Constitutional Amendment (GST)",
+      "2018: 103rd Constitutional Amendment (EWS Reservation)",
+      "2019: 104th Constitutional Amendment (Abolition of Article 370)",
+      "2020: 105th Constitutional Amendment (10% EWS Reservation)",
+      "2023: 106th Constitutional Amendment (Women's Reservation Act)"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Constitutional Amendments",
+        "trick": "1st-1951, 42nd-1980, 44th-1978, 61st-1986, 73rd-1992, 86th-2002, 101st-2016, 103rd-2018, 104th-2019, 105th-2020, 106th-2023",
+        "explanation": "Key amendments: 1st (1951), 42nd (1980), 44th (1978), 61st (1986), 73rd (1992), 86th (2002), 101st (2016), 103rd (2018), 104th (2019), 105th (2020), 106th (2023)"
+      }
+    ],
+    "connections": [
+      "making-of-constitution",
+      "important-articles",
+      "supreme-court-judgments"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which amendment reduced voting age from 21 to 18?",
+      "options": ["42nd", "44th", "61st", "73rd"],
+      "correct": 2,
+      "explanation": "61st Constitutional Amendment (1986) reduced voting age from 21 to 18"
+    },
+    {
+      "question": "GST was introduced through which amendment?",
+      "options": ["101st", "103rd", "104th", "105th"],
+      "correct": 0,
+      "explanation": "101st Constitutional Amendment (2016) introduced GST"
+    },
+    {
+      "question": "Women's Reservation Act was passed in:",
+      "options": ["2019", "2020", "2023", "2024"],
+      "correct": 2,
+      "explanation": "106th Constitutional Amendment (2023) is the Women's Reservation Act"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1909,
+      "event": "Morley-Minto Reforms",
+      "relatedTopics": ["important-articles"]
+    },
+    {
+      "year": 1950,
+      "event": "Republic of India",
+      "relatedTopics": ["making-of-constitution"]
+    },
+    {
+      "year": 1975,
+      "event": "Emergency Proclaimed",
+      "relatedTopics": ["important-articles"]
+    },
+    {
+      "year": 2023,
+      "event": "Women's Reservation Act",
+      "relatedTopics": ["important-articles"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233642_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233645_Instagram.jpg"
+  ]
+}

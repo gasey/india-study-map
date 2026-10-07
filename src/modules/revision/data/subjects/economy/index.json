@@ -1,0 +1,10 @@
+{
+  "id": "economy",
+  "name": "Economy",
+  "icon": "📊",
+  "color": "#F59E0B",
+  "description": "Indian Economy, Plans, and Development",
+  "topics": [
+    { "id": "five-year-plans", "title": "Five Year Plans", "description": "1951-2017, all 12 plans" }
+  ]
+}

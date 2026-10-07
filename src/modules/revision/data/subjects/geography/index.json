@@ -1,0 +1,16 @@
+{
+  "id": "geography",
+  "name": "Geography",
+  "icon": "🌍",
+  "color": "#10B981",
+  "description": "Physical, Social, and Economic Geography of India",
+  "topics": [
+    { "id": "national-parks", "title": "National Parks", "description": "Major national parks and wildlife" },
+    { "id": "largest-in-asia", "title": "Largest in India & Asia", "description": "Geographical superlatives" },
+    { "id": "state-nicknames", "title": "State Nicknames", "description": "Popular nicknames of states" },
+    { "id": "lakes", "title": "Important Lakes", "description": "Major lakes of India" },
+    { "id": "river-tributaries", "title": "River Tributaries", "description": "Ganga, Godavari, Krishna systems" },
+    { "id": "crops", "title": "Rabi, Kharif & Zaid", "description": "Three cropping seasons" },
+    { "id": "tribal-festivals", "title": "Tribal Festivals", "description": "Major tribal festivals" }
+  ]
+}

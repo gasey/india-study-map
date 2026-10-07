@@ -1,0 +1,73 @@
+{
+  "id": "national-parks",
+  "subject": "geography",
+  "title": "National Parks of India",
+  "description": "Major national parks with their locations and key features",
+  "content": {
+    "overview": "India has over 100 national parks protecting diverse ecosystems and wildlife.",
+    "keyPoints": [
+      "Jim Corbett National Park (Uttarakhand): First national park (1936), tigers, elephants",
+      "Kaziranga National Park (Assam): One-horned rhinoceros, UNESCO World Heritage Site",
+      "Sundarbans National Park (West Bengal): Royal Bengal Tiger, mangrove forests, UNESCO site",
+      "Gir National Park (Gujarat): Asiatic lions, only place in world",
+      "Ranthambore National Park (Rajasthan): Tigers, leopards, historic fort",
+      "Bandhavgarh National Park (MP): Highest tiger density",
+      "Kanha National Park (MP): Tigers, barasingha (swamp deer)",
+      "Pench National Park (MP): Tigers, inspiration for Jungle Book",
+      "Nagarhole National Park (Karnataka): Tigers, elephants, leopards",
+      "Periyar National Park (Kerala): Elephants, tigers, lake",
+      "Valley of Flowers National Park (Uttarakhand): Alpine flowers, UNESCO site",
+      "Nanda Devi National Park (Uttarakhand): UNESCO site, biosphere reserve",
+      "Great Himalayan National Park (Himachal Pradesh): UNESCO site, snow leopards",
+      "Dachigam National Park (J&K): Hangul (Kashmir stag)",
+      "Hemis National Park (Ladakh): Snow leopards, highest altitude park",
+      "Desert National Park (Rajasthan): Great Indian Bustard",
+      "Sariska Tiger Reserve (Rajasthan): Tigers, leopards",
+      "Panna National Park (MP): Tigers, gharials",
+      "Satpura Tiger Reserve (MP): Tigers, leopards, sloth bears",
+      "Tadoba Andhari Tiger Reserve (Maharashtra): Tigers, leopards"
+    ],
+    "mnemonics": [
+      {
+        "topic": "National Parks by State",
+        "trick": "Uttarakhand: Corbett, Valley of Flowers, Nanda Devi, Rajaji | Assam: Kaziranga, Manas, Nameri, Orang | MP: Kanha, Bandhavgarh, Pench, Panna, Satpura | Rajasthan: Ranthambore, Sariska, Desert, Keoladeo | Gujarat: Gir, Blackbuck, Marine | Kerala: Periyar, Silent Valley, Eravikulam | Karnataka: Nagarhole, Bandipur, Bannerghatta | Tamil Nadu: Mudumalai, Indira Gandhi, Mukurthi | West Bengal: Sundarbans, Gorumara, Neora Valley | J&K: Dachigam, Hemis, Kishtwar | Ladakh: Hemis, Changthang",
+        "explanation": "Remember national parks by state for quick recall"
+      }
+    ],
+    "connections": [
+      "largest-in-asia",
+      "state-nicknames"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which is the first national park of India?",
+      "options": ["Jim Corbett", "Kaziranga", "Sundarbans", "Gir"],
+      "correct": 0,
+      "explanation": "Jim Corbett National Park (1936) is the first national park of India"
+    },
+    {
+      "question": "Asiatic lions are found only in:",
+      "options": ["Kaziranga", "Gir", "Sundarbans", "Ranthambore"],
+      "correct": 1,
+      "explanation": "Asiatic lions are found only in Gir National Park, Gujarat"
+    },
+    {
+      "question": "Sundarbans is famous for:",
+      "options": ["Lions", "Tigers and mangrove forests", "Elephants", "Rhinos"],
+      "correct": 1,
+      "explanation": "Sundarbans is famous for Royal Bengal Tigers and mangrove forests"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1936,
+      "event": "Jim Corbett National Park established",
+      "relatedTopics": ["largest-in-asia"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233651_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_234003_Instagram.jpg"
+  ]
+}

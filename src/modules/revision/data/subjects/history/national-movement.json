@@ -1,0 +1,175 @@
+{
+  "id": "national-movement",
+  "subject": "history",
+  "title": "Indian National Movement (1885-1947)",
+  "description": "Complete timeline of freedom struggle from INC formation to Independence",
+  "content": {
+    "overview": "The Indian National Movement was a series of events and struggles that led to India's independence from British rule in 1947.",
+    "keyPoints": [
+      "1885: Indian National Congress founded by A.O. Hume, first session in Bombay",
+      "1905: Partition of Bengal by Lord Curzon, Swadeshi Movement",
+      "1906: Muslim League founded in Dhaka",
+      "1909: Morley-Minto Reforms (Indian Councils Act)",
+      "1911: Annulment of Bengal Partition, Capital shifted to Delhi",
+      "1914-1918: WWI, India contributed significantly",
+      "1919: Rowlatt Act, Jallianwala Bagh Massacre (13 April)",
+      "1920: Non-Cooperation Movement launched by Gandhi",
+      "1922: Chauri Chaura incident, Gandhi withdrew NCM",
+      "1927: Simon Commission, Nehru Report",
+      "1928: Bardoli Satyagraha, Sardar Patel",
+      "1929: Purna Swaraj resolution, 26 January 1930 celebrated as Independence Day",
+      "1930: Dandi March (12 March - 6 April), Salt Satyagraha",
+      "1931: Gandhi-Irwin Pact, Second Round Table Conference",
+      "1932: Poona Pact between Gandhi and Ambedkar",
+      "1935: Government of India Act",
+      "1937: Provincial elections, Congress ministries formed",
+      "1939: WWII began, Congress ministries resigned",
+      "1940: Lahore Resolution by Muslim League (Pakistan demand)",
+      "1942: Cripps Mission, Quit India Movement (8 August)",
+      "1943: Bengal Famine",
+      "1945: Wavell Plan, Shimla Conference",
+      "1946: Cabinet Mission, Direct Action Day, INA trials",
+      "1947: Mountbatten Plan, Independence (15 August), Partition"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Freedom Struggle Timeline",
+        "trick": "1885-1905-1919-1920-1930-1942-1947 = INC-Partition-Rowlatt-NCM-Dandi-Quit India-Independence",
+        "explanation": "Key years: 1885 (INC), 1905 (Partition), 1919 (Rowlatt), 1920 (NCM), 1930 (Dandi), 1942 (Quit India), 1947 (Independence)"
+      },
+      {
+        "topic": "Gandhi's Movements",
+        "trick": "N-C-D-Q = Non-Cooperation, Civil Disobedience, Dandi, Quit India",
+        "explanation": "Gandhi's major movements: Non-Cooperation (1920), Civil Disobedience (1930), Dandi March (1930), Quit India (1942)"
+      },
+      {
+        "topic": "Bengal Partition (1905)",
+        "trick": "B.P. BAAD = Bengal Aage Aur Do tukde",
+        "explanation": "Partition of Bengal 1905 — Bengal divided into two parts by Lord Curzon"
+      },
+      {
+        "topic": "Swadeshi Movement (1905)",
+        "trick": "SWADESHI = S-Swadeshi use of Indian goods, W-Withdrawal of foreign goods, A-Atmanirbharta, D-Deshbhakti, E-Ekta, SHI-Shiksha & Self Respect",
+        "explanation": "Swadeshi = Indian goods, boycott of foreign goods, self-reliance, patriotism, unity, education & self-respect"
+      },
+      {
+        "topic": "Lucknow Pact (1916)",
+        "trick": "LUCKNOW = L-League & Congress came together, U-United demand, C-Common goal self government, K-Khilafat support, NOW-New phase of unity",
+        "explanation": "Lucknow Pact 1916 — Congress and Muslim League united, common demand for self-government"
+      },
+      {
+        "topic": "Rowlatt Act (1919)",
+        "trick": "ROWLATT = R-Repressive, O-Oppressive, W-Without trial, LA-Long duration, TT-Terror & Tyranny",
+        "explanation": "Rowlatt Act 1919 — 'Black Act', detention without trial"
+      },
+      {
+        "topic": "Jallianwala Bagh (1919)",
+        "trick": "JALLIANWALA = J-Jan people, A-Amritsar, L-Lives lost, L-Lathi & bullets, I-Inhuman act, A-Against unarmed people, N-Nindaniya shameful, WALA-Place of massacre",
+        "explanation": "Jallianwala Bagh Massacre 13 April 1919, Amritsar — General Dyer fired on unarmed crowd"
+      },
+      {
+        "topic": "Non-Cooperation Movement (1920-22)",
+        "trick": "NON COOPERATION = No foreign goods, Oppose govt institutions, No titles & honours, Court boycott, Official jobs boycott, Education boycott, Rallies, Tyag (sacrifice), India's freedom mission",
+        "explanation": "NCM 1920-22 — boycott of foreign goods, courts, schools, titles; withdrawn after Chauri Chaura (1922)"
+      },
+      {
+        "topic": "Civil Disobedience / Dandi March (1930)",
+        "trick": "DANDI MARCH = D-Defiance of law, A-Against British rule, N-Namak Satyagraha, D-Dandi place, I-Independence goal; MARCH = Movement Across for Rising Change",
+        "explanation": "Dandi March 1930 — Salt Satyagraha, defiance of salt law, goal of independence"
+      },
+      {
+        "topic": "Government of India Act (1935)",
+        "trick": "GOVERNMENT OF INDIA ACT = G-Government of India, O-Provincial autonomy, V-Viceroy's control, E-Executive power, R-Reserved subjects, N-No full freedom, MENT-Management by British, ACT-1935",
+        "explanation": "GoI Act 1935 — provincial autonomy but Viceroy retained control; no full freedom"
+      },
+      {
+        "topic": "Quit India Movement (1942)",
+        "trick": "QUIT INDIA = Q-Quit India, U-Unity of Indians, I-Indefinite struggle, T-Total Freedom",
+        "explanation": "Quit India 1942 — 'Do or Die' call by Gandhi, demand for total freedom"
+      },
+      {
+        "topic": "Indian National Army (1943)",
+        "trick": "JAI HIND = J-Japanese support, A-Azad Hind Fauj, I-Independence by force, H-Hope of freedom, I-India First, N-Netaji's Leadership, D-Desh ke liye",
+        "explanation": "INA 1943 — Azad Hind Fauj led by Netaji Subhas Chandra Bose, 'Jai Hind' slogan"
+      },
+      {
+        "topic": "Independence (1947)",
+        "trick": "15 AUG 1947 = 1-One Nation, 5-Freedom on 15th August, AUG-August month, 1947-Year of Freedom",
+        "explanation": "India gained independence on 15 August 1947"
+      }
+    ],
+    "connections": [
+      "freedom-struggle-timeline",
+      "charter-acts",
+      "viceroys"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Indian National Congress was founded in:",
+      "options": ["1885", "1905", "1919", "1947"],
+      "correct": 0,
+      "explanation": "INC was founded in 1885 by A.O. Hume"
+    },
+    {
+      "question": "Jallianwala Bagh massacre occurred in:",
+      "options": ["1919", "1920", "1930", "1942"],
+      "correct": 0,
+      "explanation": "Jallianwala Bagh massacre occurred on 13 April 1919"
+    },
+    {
+      "question": "Quit India Movement was launched in:",
+      "options": ["1930", "1935", "1942", "1946"],
+      "correct": 2,
+      "explanation": "Quit India Movement was launched on 8 August 1942"
+    },
+    {
+      "question": "Dandi March was associated with:",
+      "options": ["Non-Cooperation", "Civil Disobedience", "Quit India", "Swadeshi"],
+      "correct": 1,
+      "explanation": "Dandi March (1930) was part of Civil Disobedience Movement"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1885,
+      "event": "Indian National Congress founded",
+      "relatedTopics": ["freedom-struggle-timeline"]
+    },
+    {
+      "year": 1905,
+      "event": "Partition of Bengal",
+      "relatedTopics": ["freedom-struggle-timeline"]
+    },
+    {
+      "year": 1919,
+      "event": "Jallianwala Bagh Massacre",
+      "relatedTopics": ["freedom-struggle-timeline"]
+    },
+    {
+      "year": 1920,
+      "event": "Non-Cooperation Movement",
+      "relatedTopics": ["freedom-struggle-timeline"]
+    },
+    {
+      "year": 1930,
+      "event": "Dandi March / Salt Satyagraha",
+      "relatedTopics": ["freedom-struggle-timeline"]
+    },
+    {
+      "year": 1942,
+      "event": "Quit India Movement",
+      "relatedTopics": ["freedom-struggle-timeline"]
+    },
+    {
+      "year": 1947,
+      "event": "Independence and Partition",
+      "relatedTopics": ["freedom-struggle-timeline"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233813_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233905_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233909_Instagram.jpg"
+  ]
+}

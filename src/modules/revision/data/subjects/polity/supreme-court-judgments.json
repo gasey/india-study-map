@@ -1,0 +1,154 @@
+{
+  "id": "supreme-court-judgments",
+  "subject": "polity",
+  "title": "Landmark Supreme Court Judgments",
+  "description": "7 Landmark Cases Every UPSC Aspirant Should Know — Kesavananda Bharati, Maneka Gandhi, Minerva Mills, S.R. Bommai, Vishaka, I.R. Coelho, Puttaswamy",
+  "content": {
+    "overview": "Landmark Supreme Court judgments that shaped Indian constitutional law. Each case below covers Background, Key Issues, Judgment, Key Principles, and Significance.",
+    "keyPoints": [
+      "KESAVANANDA BHARATI CASE (1973) — Theme: Constitutional Amendments & Basic Structure Doctrine",
+      "Kesavananda Background: Kerala government acquired land belonging to Edneer Mutt (managed by Kesavananda Bharati); larger question — how far can Parliament amend the Constitution?",
+      "Kesavananda Key Issues: Does Parliament have unlimited power to amend? Can Fundamental Rights be amended or taken away?",
+      "Kesavananda Judgment: Parliament can amend under Article 368, but cannot destroy or alter the Basic Structure; both FRs and DPSPs can be amended, but Basic Structure must be preserved",
+      "Basic Structure includes (illustrative): Supremacy of the Constitution, Republican & democratic form of government, Secularism, Separation of powers, Judicial review, Federalism, Unity and integrity of India",
+      "Kesavananda Significance: Introduced Basic Structure Doctrine; placed limits on Parliament's amending power — 'Constitution can be amended, but not destroyed'",
+      "MANEKA GANDHI CASE (1978) — Theme: Fundamental Rights (Article 21)",
+      "Maneka Background: Passport impounded by government under Passports Act 1967; she challenged it under Articles 21, 14 and 19",
+      "Maneka Key Issues: Does 'procedure established by law' mean ANY procedure, or must it be fair, just and reasonable? Can personal liberty be restricted without a just procedure?",
+      "Maneka Judgment: Procedure under Article 21 must be fair, just and reasonable, not arbitrary; linked Article 21 with Articles 14 and 19; expanded 'personal liberty' to include right to travel abroad",
+      "Maneka Key Principles: Article 21 has wider meaning; Articles 14, 19 and 21 are interlinked — the 'Golden Triangle'; personal liberty includes rights that make life meaningful",
+      "Maneka Significance: Strengthened FR protection; State cannot deprive liberty arbitrarily — 'Procedure must be fair, just and reasonable for true freedom'",
+      "MINERVA MILLS CASE (1980) — Theme: Amendment Power & Balance between FRs and DPSPs",
+      "Minerva Background: Challenge to 42nd Amendment Act 1976, which gave Parliament unlimited amending power and placed DPSPs over FRs; challenged by Minerva Mills textile company",
+      "Minerva Judgment: Struck down key provisions of 42nd Amendment; Parliament's amending power is limited and cannot destroy Basic Structure; FRs and DPSPs are complementary and must be kept in balance",
+      "Minerva Key Principles: FRs and DPSPs are complementary, not antagonistic; established principle of balance between individual rights and social goals",
+      "Minerva Significance: Reaffirmed Basic Structure Doctrine; prevented Parliament from acquiring unlimited amending power — 'Rights and principles must go hand in hand for a just society'",
+      "S.R. BOMMAI CASE (1994) — Theme: Federalism",
+      "Bommai Background: S.R. Bommai was CM of Karnataka; Union dismissed his government under Article 356 alleging breakdown of constitutional machinery; petitions challenged misuse of Article 356 by the Centre",
+      "Bommai Key Issues: Can the President impose President's Rule on subjective satisfaction? Is the proclamation justiciable? What are the limits on Centre's power to dismiss a State government?",
+      "Bommai Judgment: President's satisfaction under Article 356 is subject to judicial review; Centre cannot dismiss a State government arbitrarily or for political reasons; federalism is part of the Basic Structure; floor test in Legislative Assembly is the proper way to test majority",
+      "Bommai Key Principles: Article 356 is an extraordinary power, not a routine political tool; Court can restore a dismissed government if proclamation is found unconstitutional",
+      "Bommai Significance: Put an end to arbitrary use of Article 356; strengthened federal structure — 'Federalism is the foundation of India's unity in diversity'",
+      "VISHAKA CASE (1997) — Theme: Protection against Sexual Harassment at Workplace",
+      "Vishaka Background: PIL filed by Vishaka and other women's groups after the brutal gang rape of a social worker in Rajasthan; no specific laws at that time to address workplace sexual harassment",
+      "Vishaka Key Issues: Does sexual harassment at the workplace violate Fundamental Rights? Can international conventions fill the gap in domestic law? What guidelines can be issued in absence of specific legislation?",
+      "Vishaka Judgment: SC laid down Vishaka Guidelines; sexual harassment violates Articles 14, 15, 19(1)(g) and 21; directed employers to create safe working environment and set up Complaints Committees in every workplace",
+      "Vishaka Key Principles: Right to a safe and dignified working environment is a Fundamental Right; harassment includes unwelcome physical, verbal or non-verbal conduct of sexual nature; employers must take preventive steps; Guidelines binding until Parliament enacts a law",
+      "Vishaka Significance: Influenced the enactment of the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 — 'A safe workplace is a right, not a privilege'",
+      "I.R. COELHO CASE (2007): Laws placed in the 9th Schedule after 24 April 1973 are subject to judicial review if they violate the Basic Structure",
+      "PUTTASWAMY CASE (2017): Right to Privacy is a Fundamental Right under Article 21 and Part III of the Constitution"
+    ],
+    "mnemonics": [
+      {
+        "topic": "7 Landmark Cases (Order)",
+        "trick": "K-M-M-B-V-C-P = Kesavananda (1973), Maneka (1978), Minerva (1980), Bommai (1994), Vishaka (1997), Coelho (2007), Puttaswamy (2017)",
+        "explanation": "Chronological order of the 7 landmark cases: 1973 Kesavananda, 1978 Maneka, 1980 Minerva, 1994 Bommai, 1997 Vishaka, 2007 Coelho, 2017 Puttaswamy"
+      },
+      {
+        "topic": "Kesavananda — Basic Structure Elements",
+        "trick": "S-R-S-S-J-F-U = Supremacy, Republican-democratic, Secularism, Separation of powers, Judicial review, Federalism, Unity & integrity",
+        "explanation": "Basic Structure includes: Supremacy of Constitution, Republican & democratic government, Secularism, Separation of powers, Judicial review, Federalism, Unity and integrity of India"
+      },
+      {
+        "topic": "Maneka Gandhi — Golden Triangle",
+        "trick": "14-19-21 = Equality + Freedoms + Life = Golden Triangle",
+        "explanation": "Articles 14, 19 and 21 are interlinked and form the 'Golden Triangle' — Maneka Gandhi case"
+      },
+      {
+        "topic": "Vishaka — Articles Violated",
+        "trick": "14-15-19(1)(g)-21 = Equality, No discrimination, Practice profession, Life with dignity",
+        "explanation": "Sexual harassment at workplace violates Articles 14, 15, 19(1)(g) and 21 — Vishaka case"
+      }
+    ],
+    "connections": [
+      "fundamental-rights",
+      "important-articles",
+      "making-of-constitution",
+      "supreme-court-high-courts"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which case established the 'Basic Structure' doctrine?",
+      "options": ["Golaknath", "Kesavananda Bharati", "Minerva Mills", "S.R. Bommai"],
+      "correct": 1,
+      "explanation": "Kesavananda Bharati v. State of Kerala (1973) established the basic structure doctrine"
+    },
+    {
+      "question": "The 'Golden Triangle' of Articles 14, 19 and 21 was established in:",
+      "options": ["Kesavananda Bharati", "Maneka Gandhi", "Minerva Mills", "Puttaswamy"],
+      "correct": 1,
+      "explanation": "Maneka Gandhi case (1978) established that Articles 14, 19 and 21 are interlinked — the 'Golden Triangle'"
+    },
+    {
+      "question": "Which case dealt with the challenge to the 42nd Amendment Act, 1976?",
+      "options": ["Kesavananda Bharati", "Maneka Gandhi", "Minerva Mills", "S.R. Bommai"],
+      "correct": 2,
+      "explanation": "Minerva Mills case (1980) struck down key provisions of the 42nd Amendment"
+    },
+    {
+      "question": "In S.R. Bommai case, the Court held that majority of a government must be tested:",
+      "options": ["By the Governor", "By the President", "On the floor of the Assembly", "By the Supreme Court"],
+      "correct": 2,
+      "explanation": "S.R. Bommai case (1994) held that the floor test in the Legislative Assembly is the proper way to test majority"
+    },
+    {
+      "question": "Vishaka Guidelines were replaced by which Act in 2013?",
+      "options": ["POSH Act", "Domestic Violence Act", "Dowry Prohibition Act", "Equal Remuneration Act"],
+      "correct": 0,
+      "explanation": "The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH Act) followed the Vishaka Guidelines"
+    },
+    {
+      "question": "Right to privacy was declared a Fundamental Right in which case?",
+      "options": ["Puttaswamy", "Maneka Gandhi", "Minerva Mills", "Kesavananda"],
+      "correct": 0,
+      "explanation": "Justice K.S. Puttaswamy v. Union of India (2017) declared right to privacy a Fundamental Right under Article 21"
+    },
+    {
+      "question": "Which case held that 9th Schedule laws are subject to judicial review?",
+      "options": ["I.R. Coelho", "S.R. Bommai", "Minerva Mills", "Vishaka"],
+      "correct": 0,
+      "explanation": "I.R. Coelho v. State of Tamil Nadu (2007) held that laws in the 9th Schedule after 24 April 1973 are open to judicial review if they violate the Basic Structure"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1973,
+      "event": "Kesavananda Bharati case - Basic Structure doctrine",
+      "relatedTopics": ["fundamental-rights"]
+    },
+    {
+      "year": 1978,
+      "event": "Maneka Gandhi case - Golden Triangle",
+      "relatedTopics": ["fundamental-rights"]
+    },
+    {
+      "year": 1980,
+      "event": "Minerva Mills case - FR-DPSP balance",
+      "relatedTopics": ["important-articles"]
+    },
+    {
+      "year": 1994,
+      "event": "S.R. Bommai case - Article 356 judicial review",
+      "relatedTopics": ["important-articles"]
+    },
+    {
+      "year": 1997,
+      "event": "Vishaka case - workplace harassment guidelines",
+      "relatedTopics": ["fundamental-rights"]
+    },
+    {
+      "year": 2017,
+      "event": "Puttaswamy case - Right to Privacy",
+      "relatedTopics": ["fundamental-rights"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233823_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233828_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233831_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233834_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233837_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233839_Instagram.jpg"
+  ]
+}

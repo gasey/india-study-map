@@ -1,0 +1,106 @@
+{
+  "id": "speaker",
+  "subject": "polity",
+  "title": "Speaker of Lok Sabha",
+  "description": "Election, qualifications, removal, powers, functions, salary — with FIRST, CITIZEN, NOTICE, ORDER, GUIDE, CASH tricks",
+  "content": {
+    "overview": "The Speaker is the presiding officer of Lok Sabha, elected by its members from amongst themselves. The position is crucial for parliamentary procedures.",
+    "keyPoints": [
+      "ELECTION: Elected by Lok Sabha members from amongst themselves; usually from the ruling party",
+      "QUALIFICATIONS: Must be a citizen of India; at least 25 years of age; must be a member of Lok Sabha",
+      "REMOVAL: Can be removed by a resolution of Lok Sabha passed by effective majority; 14 days' advance notice required; Speaker can preside over but cannot vote on own removal motion",
+      "POWERS: Maintains order and decorum; decides whether a bill is a Money Bill; certifies bills; can suspend members for unruly behaviour; has casting vote in case of tie",
+      "FUNCTIONS: Presides over sittings; interprets rules of procedure; refers bills to committees; guides parliamentary proceedings; represents Lok Sabha externally",
+      "SALARY: Drawn from the Consolidated Fund of India; same as a Cabinet Minister",
+      "Deputy Speaker: Elected similarly; acts as Speaker when office is vacant; usually from opposition (convention)",
+      "10th Schedule: Speaker decides disqualification under Anti-Defection law",
+      "First Speaker: G.V. Mavalankar (1952-1956); First Woman Speaker: Meira Kumar (2009-2014)",
+      "SPEAKER vs PRESIDENT: Speaker presides over Lok Sabha only, President addresses joint sessions; Speaker decides Money Bill, President gives assent; Speaker is member of LS, President is not a member of either house"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Election",
+        "trick": "FIRST = F-From members, I-In Lok Sabha, R-Ruling party usually, S-Simple majority, T-Term of House",
+        "explanation": "Speaker is elected From amongst members, In Lok Sabha, usually from Ruling party, by Simple majority, for the Term of the House"
+      },
+      {
+        "topic": "Qualifications",
+        "trick": "CITIZEN = C-Citizen of India, I-25 years (LS), T-Tenure with House, I-In Lok Sabha membership, Z-Zero office of profit, E-Elected member, N-Not disqualified",
+        "explanation": "Speaker must be a Citizen of India, 25+ years, member of Lok Sabha, hold no office of profit, not disqualified"
+      },
+      {
+        "topic": "Removal",
+        "trick": "NOTICE = N-14 days' Notice, O-Only Lok Sabha, T-Through resolution, I-In writing, C-Effective majority, E-Effective majority vote",
+        "explanation": "Speaker can be removed only by Lok Sabha through a resolution with 14 days' notice, passed by effective majority"
+      },
+      {
+        "topic": "Powers",
+        "trick": "ORDER = O-Order & decorum, R-Rules of procedure, D-Decides Money Bill, E-Expels/suspends members, R-Refers bills to committees",
+        "explanation": "Speaker maintains Order, interprets Rules, Decides Money Bill, Expels/suspends members, Refers bills to committees"
+      },
+      {
+        "topic": "Functions",
+        "trick": "GUIDE = G-Guides proceedings, U-Uses casting vote, I-Interprets rules, D-Decides agenda, E-External representative of LS",
+        "explanation": "Speaker Guides proceedings, Uses casting vote (tie), Interprets rules, Decides agenda, represents Lok Sabha Externally"
+      },
+      {
+        "topic": "Salary",
+        "trick": "CASH = C-Consolidated Fund of India, A-As Cabinet Minister, S-Salary & allowances, H-Not votable by Parliament",
+        "explanation": "Speaker's salary is drawn from the Consolidated Fund of India, equal to a Cabinet Minister, and is not subject to parliamentary vote"
+      }
+    ],
+    "connections": [
+      "parliament",
+      "constitutional-bodies",
+      "schedules"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who was the first Speaker of Lok Sabha?",
+      "options": ["G.V. Mavalankar", "Nehru", "Ambedkar", "Rajendra Prasad"],
+      "correct": 0,
+      "explanation": "G.V. Mavalankar was the first Speaker of Lok Sabha (1952-1956)"
+    },
+    {
+      "question": "How many days' notice is required for the Speaker's removal?",
+      "options": ["7 days", "14 days", "21 days", "30 days"],
+      "correct": 1,
+      "explanation": "14 days' advance notice is required for a resolution to remove the Speaker"
+    },
+    {
+      "question": "Who decides whether a bill is a Money Bill?",
+      "options": ["President", "Speaker", "Finance Minister", "Supreme Court"],
+      "correct": 1,
+      "explanation": "The Speaker of Lok Sabha decides whether a bill is a Money Bill under Article 110"
+    },
+    {
+      "question": "Speaker's salary is drawn from:",
+      "options": ["Contingency Fund", "Consolidated Fund of India", "Public Account", "Prime Minister's Fund"],
+      "correct": 1,
+      "explanation": "Speaker's salary is charged on the Consolidated Fund of India, equal to a Cabinet Minister"
+    },
+    {
+      "question": "The first woman Speaker of Lok Sabha was:",
+      "options": ["Meira Kumar", "Sumitra Mahajan", "Pratibha Patil", "Sushma Swaraj"],
+      "correct": 0,
+      "explanation": "Meira Kumar was the first woman Speaker of Lok Sabha (2009-2014)"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1952,
+      "event": "First Speaker G.V. Mavalankar elected",
+      "relatedTopics": ["parliament"]
+    },
+    {
+      "year": 2009,
+      "event": "First Woman Speaker Meira Kumar elected",
+      "relatedTopics": ["parliament"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233723_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233859_Instagram.jpg"
+  ]
+}

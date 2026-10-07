@@ -1,0 +1,63 @@
+{
+  "id": "borrowed-features",
+  "subject": "polity",
+  "title": "Borrowed Features of the Constitution",
+  "description": "Features borrowed from other countries' constitutions",
+  "content": {
+    "overview": "The Indian Constitution borrowed features from various countries' constitutions, making it a unique blend.",
+    "keyPoints": [
+      "UK: Parliamentary system, Rule of Law, Single citizenship, Cabinet system",
+      "USA: Fundamental Rights, Judicial Review, Independent judiciary, Preamble",
+      "Ireland: Directive Principles of State Policy, Presidential election method",
+      "Canada: Federal system, Residual powers to Centre, Supreme Court advisory jurisdiction",
+      "Australia: Concurrent List, Trade and commerce provisions, Joint sitting of Parliament",
+      "Germany: Suspension of Fundamental Rights during Emergency",
+      "South Africa: Amendment of Constitution, Election of Rajya Sabha members",
+      "USSR: Fundamental Duties, Five Year Plans",
+      "France: Republic, Liberty, Equality, Fraternity in Preamble",
+      "Japan: Procedure established by law"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Borrowed Features",
+        "trick": "UK-USA-I-Can-Aus-Ger-Sov-Fr-Jap = Who gave what",
+        "explanation": "UK (Parliamentary), USA (FRs), Ireland (DPSP), Canada (Federal), Australia (Concurrent), Germany (Emergency), USSR (Duties), France (Preamble), Japan (Procedure)"
+      }
+    ],
+    "connections": [
+      "making-of-constitution",
+      "fundamental-rights",
+      "important-articles"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Directive Principles of State Policy are borrowed from:",
+      "options": ["UK", "USA", "Ireland", "Canada"],
+      "correct": 2,
+      "explanation": "DPSP are borrowed from Ireland"
+    },
+    {
+      "question": "Fundamental Rights are borrowed from:",
+      "options": ["UK", "USA", "France", "Germany"],
+      "correct": 1,
+      "explanation": "Fundamental Rights are borrowed from USA"
+    },
+    {
+      "question": "Concurrent List is borrowed from:",
+      "options": ["UK", "USA", "Australia", "Canada"],
+      "correct": 2,
+      "explanation": "Concurrent List is borrowed from Australia"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1949,
+      "event": "Constitution adopted with borrowed features",
+      "relatedTopics": ["making-of-constitution"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233846_Instagram.jpg"
+  ]
+}

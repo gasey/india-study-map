@@ -1,0 +1,79 @@
+{
+  "id": "constitutional-developments",
+  "subject": "history",
+  "title": "Constitutional Developments Towards Independence (1940-1947)",
+  "description": "Key events from Lahore Resolution to Independence",
+  "content": {
+    "overview": "The final phase of India's constitutional development leading to independence in 1947.",
+    "keyPoints": [
+      "1940: Lahore Resolution - Muslim League demanded separate nation for Muslims",
+      "1942: Cripps Mission - offered dominion status after war, rejected by Congress",
+      "1942: Quit India Movement - Gandhi's 'Do or Die' call",
+      "1943: Bengal Famine - estimated 3 million deaths",
+      "1945: Wavell Plan - proposed interim government, failed",
+      "1946: Cabinet Mission - proposed three-tier federal structure, initially accepted then rejected",
+      "1946: Direct Action Day - Muslim League called for communal violence",
+      "1946: Indian Navy Mutiny - Royal Indian Navy ratings revolted",
+      "1947: Mountbatten Plan - 3 June Plan, partition of India",
+      "1947: Indian Independence Act - passed by British Parliament",
+      "1947: 15 August - India independent, Partition happened"
+    ],
+    "mnemonics": [
+      {
+        "topic": "1940-1947 Events",
+        "trick": "L-C-Q-B-W-C-D-M-I = Lahore-Cripps-Quit India-Bengal-Wavell-Cabinet-Direct Action-Mountbatten-Independence",
+        "explanation": "1940 (Lahore), 1942 (Cripps), 1942 (Quit India), 1943 (Bengal), 1945 (Wavell), 1946 (Cabinet), 1946 (Direct Action), 1947 (Mountbatten), 1947 (Independence)"
+      }
+    ],
+    "connections": [
+      "national-movement",
+      "freedom-struggle-timeline",
+      "viceroys"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Lahore Resolution was passed in:",
+      "options": ["1940", "1942", "1946", "1947"],
+      "correct": 0,
+      "explanation": "Lahore Resolution was passed in 1940 by Muslim League"
+    },
+    {
+      "question": "Cabinet Mission came to India in:",
+      "options": ["1942", "1945", "1946", "1947"],
+      "correct": 2,
+      "explanation": "Cabinet Mission came to India in 1946"
+    },
+    {
+      "question": "Mountbatten Plan is also known as:",
+      "options": ["3 June Plan", "15 August Plan", "Direct Action Plan", "Partition Plan"],
+      "correct": 0,
+      "explanation": "Mountbatten Plan is also known as 3 June Plan (1947)"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1940,
+      "event": "Lahore Resolution",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1942,
+      "event": "Cripps Mission",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1946,
+      "event": "Cabinet Mission",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1947,
+      "event": "Mountbatten Plan / Independence",
+      "relatedTopics": ["national-movement"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233946_Instagram.jpg"
+  ]
+}

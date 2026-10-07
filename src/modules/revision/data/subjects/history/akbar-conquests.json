@@ -1,0 +1,98 @@
+{
+  "id": "akbar-conquests",
+  "subject": "history",
+  "title": "Akbar's Conquests (1560-1601)",
+  "description": "Complete table of Akbar's military conquests with years and opponents",
+  "content": {
+    "overview": "Akbar (reigned 1556-1605) expanded the Mughal Empire through a series of military conquests across India. Here is the complete list of his conquests.",
+    "keyPoints": [
+      "1560-62: Malwa — Baz Bahadur",
+      "1561: Chunar — Afghan",
+      "1562: Merta — Jaimal",
+      "1564: Gondwana (Gadh Katanga) — Rani Durgawati (regent of Bir Narayan)",
+      "1568: Chittor — Rana Uday Singh",
+      "1569: Ranthambhor — Surjan Hada",
+      "1569: Kalinjar — Ram Chandra",
+      "1570: Marwar — Chandrasena, Kalyanmal, Raj Singh, Rawal Harirai",
+      "1572: Gujarat — Bahadur Shah",
+      "1574-76: Bengal-Bihar — Daud Khan Karrani",
+      "1576: Haldighati — Rana Pratap",
+      "1581: Kabul — Mirza Hakim",
+      "1585-86: Kashmir — Yusuf Khan and Yakub Khan",
+      "1590-91: Sindh — Jani Beg Mirza",
+      "1590-92: Orissa — Kutul Khan and Nisar Khan",
+      "1591: Khandesh — Ali Khan",
+      "1595: Baluchistan — Yusufzai Tribes",
+      "1595: Kandhar — Muzaffar Husain Mirza",
+      "1597-1600: Ahmadnagar — Chand Bibi (regent of Bahadur Shah)",
+      "1601: Asirgarh — Miran Bahadur Khan"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Key Battles of Akbar",
+        "trick": "Haldighati 1576 = Rana Pratap | Chittor 1568 = Rana Uday Singh | Gujarat 1572 = Bahadur Shah | Bengal 1574-76 = Daud Khan Karrani",
+        "explanation": "Most-asked conquests: Haldighati (1576, Rana Pratap), Chittor (1568, Uday Singh), Gujarat (1572, Bahadur Shah), Bengal-Bihar (1574-76, Daud Khan Karrani)"
+      },
+      {
+        "topic": "Women Who Resisted Akbar",
+        "trick": "Rani Durgawati (Gondwana 1564) + Chand Bibi (Ahmadnagar 1597-1600)",
+        "explanation": "Two famous women defenders against Akbar: Rani Durgawati of Gondwana (regent of Bir Narayan, 1564) and Chand Bibi of Ahmadnagar (regent of Bahadur Shah, 1597-1600)"
+      },
+      {
+        "topic": "Akbar's Conquest Decades",
+        "trick": "1560s = North/Central (Malwa, Chunar, Merta, Gondwana, Chittor, Ranthambhor, Kalinjar) | 1570s = West/East (Marwar, Gujarat, Bengal, Haldighati) | 1580s-90s = North-West/South (Kabul, Kashmir, Sindh, Orissa, Khandesh, Baluchistan, Kandhar, Ahmadnagar, Asirgarh)",
+        "explanation": "Chronological spread: 1560s central India, 1570s Gujarat/Bengal/Rajputana, 1580s-1601 north-west frontier and Deccan"
+      }
+    ],
+    "connections": [
+      "art-architecture",
+      "national-movement"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "The Battle of Haldighati (1576) was fought between Akbar's forces and:",
+      "options": ["Rana Uday Singh", "Rana Pratap", "Baz Bahadur", "Daud Khan Karrani"],
+      "correct": 1,
+      "explanation": "The Battle of Haldighati (1576) was fought against Rana Pratap of Mewar"
+    },
+    {
+      "question": "Rani Durgawati defended which kingdom against Akbar?",
+      "options": ["Chittor", "Gondwana (Gadh Katanga)", "Ahmadnagar", "Kashmir"],
+      "correct": 1,
+      "explanation": "Rani Durgawati defended Gondwana (Gadh Katanga) in 1564 as regent of Bir Narayan"
+    },
+    {
+      "question": "Chand Bibi defended Ahmadnagar against Akbar in:",
+      "options": ["1564", "1572", "1597-1600", "1601"],
+      "correct": 2,
+      "explanation": "Chand Bibi defended Ahmadnagar (1597-1600) as regent of Bahadur Shah"
+    },
+    {
+      "question": "Akbar's last major conquest was:",
+      "options": ["Kandhar", "Asirgarh", "Ahmadnagar", "Kashmir"],
+      "correct": 1,
+      "explanation": "Asirgarh (1601) was Akbar's last major conquest, against Miran Bahadur Khan"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1564,
+      "event": "Akbar conquered Gondwana — Rani Durgawati",
+      "relatedTopics": ["art-architecture"]
+    },
+    {
+      "year": 1576,
+      "event": "Battle of Haldighati — Rana Pratap",
+      "relatedTopics": ["art-architecture"]
+    },
+    {
+      "year": 1601,
+      "event": "Akbar's last conquest — Asirgarh",
+      "relatedTopics": ["art-architecture"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233751_Instagram.jpg"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "supreme-court-high-courts",
+  "subject": "polity",
+  "title": "Supreme Court & High Courts",
+  "description": "Composition, appointment, jurisdiction, important articles — with PCJ, OAAR, OAS tricks",
+  "content": {
+    "overview": "The Supreme Court is the highest judicial authority in India (Article 124), while High Courts are the highest courts in each state (Article 214).",
+    "keyPoints": [
+      "SUPREME COURT: Established under Article 124; seat in New Delhi",
+      "SC Composition: Chief Justice of India (CJI) + other judges; number fixed by Parliament by law (currently 34 = CJI + 33)",
+      "SC Appointment: By President after consultation with judges of SC and HCs as he deems necessary; CJI appointment — consultation with other judges mandatory",
+      "SC Jurisdiction: Original (Art 131 — Centre-State/inter-State disputes), Appellate (Art 132-136 — constitutional, civil, criminal, special leave), Advisory (Art 143), Review (Art 137); no discussion on SC conduct in Parliament (Art 121)",
+      "SC is the Guardian of the Constitution — final interpreter",
+      "HIGH COURTS: Established under Article 214; every state has one (Art 215 — HC as court of record; Arts 215-231 — related provisions)",
+      "HC Composition: Chief Justice + other judges (number fixed by President)",
+      "HC Appointment: By President after consultation with CJI, Governor of the state, and Chief Justice of that HC (for other judges)",
+      "HC Jurisdiction: Original (civil & criminal within state), Appellate (from subordinate courts), Supervisory (over all courts/tribunals in the state — Art 227)",
+      "HC Writ Powers: Article 226 — can issue writs for FRs AND for any other purpose (wider than SC's Art 32)",
+      "HC Independence: Article 217 — security of tenure; removal only by President on address by Parliament"
+    ],
+    "mnemonics": [
+      {
+        "topic": "SC Appointment",
+        "trick": "PCJ = President + Consultation with Judges",
+        "explanation": "SC judges are appointed by the President after Consultation with Judges of SC and HCs"
+      },
+      {
+        "topic": "SC Jurisdiction",
+        "trick": "OAAR = Original, Appellate, Advisory, Review",
+        "explanation": "SC jurisdiction: Original (131), Appellate (132-136), Advisory (143), Review (137)"
+      },
+      {
+        "topic": "SC Articles",
+        "trick": "124-131-136-143-137-121 = Establishment-Original-Appellate(SLP)-Advisory-Review-No discussion in Parliament",
+        "explanation": "Key SC articles: 124 (establishment), 131 (original), 136 (special leave), 143 (advisory), 137 (review), 121 (no discussion on judges' conduct in Parliament)"
+      },
+      {
+        "topic": "HC Jurisdiction",
+        "trick": "OAS = Original, Appellate, Supervisory",
+        "explanation": "HC jurisdiction: Original (within state), Appellate (subordinate courts), Supervisory (Art 227 over all state courts)"
+      },
+      {
+        "topic": "HC Articles",
+        "trick": "214-215-226-217 = Establishment-Court of Record-Writs-Independence",
+        "explanation": "Key HC articles: 214 (establishment), 215 (court of record), 226 (writ powers — wider than Art 32), 217 (appointment & independence of judges)"
+      },
+      {
+        "topic": "HC Writ Power vs SC",
+        "trick": "226 > 32 = HC writs for FRs + any other purpose; SC writs only for FRs",
+        "explanation": "Article 226 (HC) is wider than Article 32 (SC) — HC can issue writs for FRs and 'for any other purpose'"
+      }
+    ],
+    "connections": [
+      "constitutional-bodies",
+      "important-articles",
+      "supreme-court-judgments",
+      "fundamental-rights"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which article establishes the Supreme Court?",
+      "options": ["Article 124", "Article 214", "Article 324", "Article 280"],
+      "correct": 0,
+      "explanation": "Article 124 establishes the Supreme Court of India"
+    },
+    {
+      "question": "High Courts are established under which article?",
+      "options": ["Article 124", "Article 214", "Article 226", "Article 356"],
+      "correct": 1,
+      "explanation": "Article 214 establishes High Courts"
+    },
+    {
+      "question": "Which article gives High Courts writ powers?",
+      "options": ["Article 32", "Article 226", "Article 136", "Article 142"],
+      "correct": 1,
+      "explanation": "Article 226 gives High Courts writ powers — wider than Article 32 as it covers FRs and 'any other purpose'"
+    },
+    {
+      "question": "The Supreme Court's advisory jurisdiction is under:",
+      "options": ["Article 131", "Article 136", "Article 143", "Article 137"],
+      "correct": 2,
+      "explanation": "Article 143 gives the Supreme Court advisory jurisdiction (President can seek SC's opinion)"
+    },
+    {
+      "question": "Discussion on the conduct of SC judges in Parliament is barred by:",
+      "options": ["Article 121", "Article 124", "Article 131", "Article 215"],
+      "correct": 0,
+      "explanation": "Article 121 bars discussion in Parliament on the conduct of SC judges (except during removal motion)"
+    },
+    {
+      "question": "The supervisory jurisdiction of High Courts over subordinate courts is under:",
+      "options": ["Article 226", "Article 227", "Article 214", "Article 217"],
+      "correct": 1,
+      "explanation": "Article 227 gives High Courts supervisory jurisdiction over all courts and tribunals in the state"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1950,
+      "event": "Supreme Court of India inaugurated (28 Jan 1950)",
+      "relatedTopics": ["constitutional-bodies"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233721_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233726_Instagram.jpg"
+  ]
+}

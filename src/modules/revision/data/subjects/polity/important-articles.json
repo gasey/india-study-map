@@ -1,0 +1,97 @@
+{
+  "id": "important-articles",
+  "subject": "polity",
+  "title": "Important Articles of the Constitution",
+  "description": "Key articles covering Union/State Legislature, President, Governor, and emergency provisions",
+  "content": {
+    "overview": "The Constitution of India has 448 articles in 25 parts. Here are the most important ones for UPSC/PSC exams.",
+    "keyPoints": [
+      "Article 1: Name and territory of the Union",
+      "Article 12: Definition of 'State'",
+      "Article 14: Equality before law",
+      "Article 19: Six freedoms",
+      "Article 21: Life and personal liberty",
+      "Article 21A: Right to education (6-14 years)",
+      "Article 32: Right to Constitutional Remedies",
+      "Article 74: Council of Ministers to aid and advise President",
+      "Article 75: Appointment of Prime Minister",
+      "Article 110: Definition of Money Bill",
+      "Article 123: President's ordinance-making power",
+      "Article 124: Establishment of Supreme Court",
+      "Article 148: Comptroller and Auditor General",
+      "Article 168: State Legislatures",
+      "Article 191: Disqualification of MLAs",
+      "Article 213: Governor's ordinance-making power",
+      "Article 280: Finance Commission",
+      "Article 324: Election Commission",
+      "Article 352: National Emergency",
+      "Article 356: President's Rule",
+      "Article 360: Financial Emergency",
+      "Article 368: Power of Parliament to amend Constitution"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Emergency Provisions",
+        "trick": "N-F-P = National (352), Financial (360), President's Rule (356)",
+        "explanation": "Three types of emergencies: National Emergency (352), Financial Emergency (360), President's Rule (356)"
+      },
+      {
+        "topic": "Union Executive",
+        "trick": "P-V-P-M = President (74), VP (75), PM (76), Ministers (77)",
+        "explanation": "Union Executive articles: President (74), VP (75), PM (76), Ministers (77)"
+      },
+      {
+        "topic": "Article Ranges",
+        "trick": "52-78 President | 79-122 Union Legislature | 153-167 Governor | 168-212 State Legislature",
+        "explanation": "President: Articles 52-78; Parliament (Union Legislature): 79-122; Governor: 153-167; State Legislature: 168-212"
+      },
+      {
+        "topic": "Union Legislature Articles (79-122)",
+        "trick": "79-Parliament, 80-RS, 81-LS, 110-Money Bill, 108-Joint Sitting, 111-Assent, 112-Budget, 123-Ordinance",
+        "explanation": "Art 79 (Parliament), 80 (RS composition), 81 (LS composition), 108 (joint sitting), 110 (money bill), 111 (assent), 112 (budget), 123 (President's ordinance)"
+      },
+      {
+        "topic": "State Legislature Articles (168-212)",
+        "trick": "168-Legislatures, 191-Disqualification, 200-Assent, 202-Budget, 213-Governor's Ordinance",
+        "explanation": "Art 168 (state legislatures), 191 (disqualification of MLAs), 200 (Governor's assent), 202 (state budget), 213 (Governor's ordinance)"
+      }
+    ],
+    "connections": [
+      "parliament",
+      "constitutional-bodies",
+      "fundamental-rights"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which article deals with National Emergency?",
+      "options": ["Article 352", "Article 356", "Article 360", "Article 368"],
+      "correct": 0,
+      "explanation": "Article 352 deals with National Emergency"
+    },
+    {
+      "question": "Money Bill is defined in which article?",
+      "options": ["Article 110", "Article 112", "Article 114", "Article 116"],
+      "correct": 0,
+      "explanation": "Article 110 defines Money Bill"
+    },
+    {
+      "question": "Which article gives the right to move Supreme Court for enforcement of Fundamental Rights?",
+      "options": ["Article 32", "Article 226", "Article 136", "Article 142"],
+      "correct": 0,
+      "explanation": "Article 32 gives the right to move Supreme Court for enforcement of Fundamental Rights"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1950,
+      "event": "Constitution came into force with 395 articles",
+      "relatedTopics": ["making-of-constitution"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233629_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233638_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233732_Instagram.jpg"
+  ]
+}

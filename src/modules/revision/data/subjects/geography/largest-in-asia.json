@@ -1,0 +1,68 @@
+{
+  "id": "largest-in-asia",
+  "subject": "geography",
+  "title": "Largest in India & Asia",
+  "description": "Geographical superlatives - largest, highest, longest in India and Asia",
+  "content": {
+    "overview": "India holds many geographical superlatives in Asia and the world. These are important for competitive exams.",
+    "keyPoints": [
+      "Largest desert in India: Thar Desert (Rajasthan)",
+      "Largest river in India: Ganga (2,525 km)",
+      "Largest lake in India: Wular Lake (J&K) / Vembanad Lake (Kerala) - brackish water",
+      "Largest freshwater lake: Loktak Lake (Manipur)",
+      "Largest delta in world: Sundarbans (India & Bangladesh)",
+      "Highest peak in India: Kangchenjunga (8,586 m) / K2 (8,611 m) - disputed",
+      "Highest peak entirely in India: Nanda Devi (7,816 m)",
+      "Longest coastline: India has 7,516 km coastline",
+      "Largest state by area: Rajasthan",
+      "Smallest state by area: Goa",
+      "Most populous state: Uttar Pradesh",
+      "Least populous state: Sikkim",
+      "Highest rainfall: Mawsynram (Meghalaya)",
+      "Largest cave: Krem Liat Prah (Meghalaya)",
+      "Longest river bridge: Dhola-Sadiya Bridge (Assam)",
+      "Highest railway station: Ghum (West Bengal)",
+      "Largest mosque: Jama Masjid (Delhi)",
+      "Largest temple: Angkor Wat (Cambodia) / Srirangam Temple (India)",
+      "Longest national highway: NH-44 (Srinagar to Kanyakumari)",
+      "Largest zoo: Nandankanan (Odisha)",
+      "Largest library: National Library (Kolkata)"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Largest in India",
+        "trick": "R-G-L-W-D = Rajasthan (state), Ganga (river), Loktak (freshwater lake), Wular (lake), Sundarbans (delta)",
+        "explanation": "Largest: Rajasthan (state), Ganga (river), Loktak (freshwater lake), Wular (lake), Sundarbans (delta)"
+      }
+    ],
+    "connections": [
+      "national-parks",
+      "state-nicknames",
+      "lakes"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which is the largest state of India by area?",
+      "options": ["MP", "Rajasthan", "Maharashtra", "UP"],
+      "correct": 1,
+      "explanation": "Rajasthan is the largest state by area (342,239 sq km)"
+    },
+    {
+      "question": "Which place receives highest rainfall in the world?",
+      "options": ["Cherrapunji", "Mawsynram", "Agumbe", "Mahabaleshwar"],
+      "correct": 1,
+      "explanation": "Mawsynram (Meghalaya) receives the highest rainfall in the world"
+    },
+    {
+      "question": "Which is the largest delta in the world?",
+      "options": ["Ganga-Brahmaputra", "Sundarbans", "Mekong", "Nile"],
+      "correct": 1,
+      "explanation": "Sundarbans is the largest delta in the world"
+    }
+  ],
+  "timeline": [],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_234006_Instagram.jpg"
+  ]
+}

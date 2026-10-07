@@ -1,0 +1,87 @@
+{
+  "id": "ashokan-edicts",
+  "subject": "history",
+  "title": "Ashoka's 14 Major Rock Edicts",
+  "description": "Complete list of Ashoka's 14 Major Rock Edicts with their contents",
+  "content": {
+    "overview": "Emperor Ashoka (268-232 BCE) inscribed 14 Major Rock Edicts across his empire to spread the message of Dhamma. They were deciphered by James Prinsep in 1837.",
+    "keyPoints": [
+      "Edict 1: Prohibition of animal sacrifices and festive gatherings",
+      "Edict 2: Measures of social welfare (medical care, planting of trees, wells, rest houses)",
+      "Edict 3: Respect to Brahmanas; courtesy to relatives and elders; consideration for animals",
+      "Edict 4: Courtesy to relatives, elders, consideration for animals",
+      "Edict 5: Appointment of Dhamma Mahamatras and their duties",
+      "Edict 6: Need for efficient organisation of administration (orders to Dhamma Mahamatras)",
+      "Edict 7: Need for tolerance among all religious sects",
+      "Edict 8: System of Dhamma-yatras (tours for spreading Dhamma)",
+      "Edict 9: Attack on meaningless ceremonies and rituals",
+      "Edict 10: Conquest through Dhamma instead of war",
+      "Edict 11: Explanation of Dhamma-policy",
+      "Edict 12: Appeal for tolerance among all religious sects",
+      "Edict 13: Kalinga War; mention of 5 contemporary Hellenic (Greek) kings — Antiochus II, Ptolemy II, Antigonus, Magas, Alexander",
+      "Edict 14: Inspiration to spend religious life"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Most Important Edicts",
+        "trick": "2-5-7-12-13 = Welfare, Dhamma Mahamatras, Tolerance, Tolerance, Kalinga War",
+        "explanation": "Edict 2 (social welfare), Edict 5 (Dhamma Mahamatras), Edict 7 & 12 (religious tolerance), Edict 13 (Kalinga War & Greek kings) — most asked in exams"
+      },
+      {
+        "topic": "5 Greek Kings in Edict 13",
+        "trick": "A-P-A-M-A = Antiochus II (Syria), Ptolemy II (Egypt), Antigonus (Macedonia), Magas (Cyrene), Alexander (Epirus)",
+        "explanation": "Edict 13 mentions 5 Hellenic kings: Antiochus II Theos, Ptolemy II Philadelphus, Antigonus Gonatas, Magas, Alexander"
+      },
+      {
+        "topic": "Kalinga War Edict",
+        "trick": "13th Edict = 13 = 'B' for Bad (war) — after Kalinga War, Ashoka gave up war",
+        "explanation": "The 13th Rock Edict describes the Kalinga War (261 BCE) and Ashoka's remorse, after which he adopted Dhamma-vijaya (conquest by righteousness)"
+      }
+    ],
+    "connections": [
+      "art-architecture",
+      "indus-valley"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which Ashokan edict describes the Kalinga War?",
+      "options": ["Edict 1", "Edict 5", "Edict 13", "Edict 14"],
+      "correct": 2,
+      "explanation": "The 13th Major Rock Edict describes the Kalinga War (261 BCE) and mentions 5 Greek kings"
+    },
+    {
+      "question": "Dhamma Mahamatras were appointed under which edict?",
+      "options": ["Edict 2", "Edict 5", "Edict 7", "Edict 10"],
+      "correct": 1,
+      "explanation": "Edict 5 deals with the appointment of Dhamma Mahamatras and their duties"
+    },
+    {
+      "question": "Ashoka's edicts were deciphered by:",
+      "options": ["William Jones", "James Prinsep", "Max Muller", "Alexander Cunningham"],
+      "correct": 1,
+      "explanation": "James Prinsep deciphered the Brahmi script of Ashokan edicts in 1837"
+    },
+    {
+      "question": "Edict 13 mentions how many contemporary Greek kings?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 2,
+      "explanation": "Edict 13 mentions 5 Hellenic kings: Antiochus II, Ptolemy II, Antigonus, Magas, and Alexander"
+    }
+  ],
+  "timeline": [
+    {
+      "year": -261,
+      "event": "Kalinga War — described in Edict 13",
+      "relatedTopics": ["art-architecture"]
+    },
+    {
+      "year": 1837,
+      "event": "Ashokan edicts deciphered by James Prinsep",
+      "relatedTopics": ["indus-valley"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233754_Instagram.jpg"
+  ]
+}

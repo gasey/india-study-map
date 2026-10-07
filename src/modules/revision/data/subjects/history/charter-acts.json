@@ -1,0 +1,84 @@
+{
+  "id": "charter-acts",
+  "subject": "history",
+  "title": "Charter Acts (1773-1853)",
+  "description": "Regulating Act 1773, Pitt's India Act 1784, Charter Acts of 1793, 1813, 1833, 1853",
+  "content": {
+    "overview": "Charter Acts were passed by the British Parliament to renew the charter of the East India Company and regulate its affairs in India.",
+    "keyPoints": [
+      "Regulating Act 1773: First step to control EIC, created Governor-General of Bengal (Warren Hastings), Supreme Court at Calcutta",
+      "Pitt's India Act 1784: Established Board of Control, dual government system, Governor-General became Crown's representative",
+      "Charter Act 1793: Renewed EIC trade monopoly, Governor-General's power increased",
+      "Charter Act 1813: Ended EIC trade monopoly (except tea and trade with China), allowed Christian missionaries, allocated Rs. 1 lakh for education",
+      "Charter Act 1833: Centralized administration, Governor-General of India (Lord William Bentinck), ended EIC commercial activities, first Indian Law Commission",
+      "Charter Act 1853: Separated legislative and executive functions, introduced open competition for civil services, added 6 members to Governor-General's Council"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Charter Acts",
+        "trick": "1773-1784-1793-1813-1833-1853 = Regulating-Pitt's-Renew-Monopoly End-Centralize-Separate",
+        "explanation": "1773 (Regulating), 1784 (Pitt's), 1793 (Renew), 1813 (Monopoly End), 1833 (Centralize), 1853 (Separate)"
+      },
+      {
+        "topic": "1813 Act",
+        "trick": "M-E = Missionaries + Education",
+        "explanation": "1813 Act allowed Christian missionaries and allocated Rs. 1 lakh for education"
+      }
+    ],
+    "connections": [
+      "viceroys",
+      "national-movement",
+      "constitutional-developments"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which act created the post of Governor-General of Bengal?",
+      "options": ["Regulating Act 1773", "Pitt's India Act 1784", "Charter Act 1813", "Charter Act 1833"],
+      "correct": 0,
+      "explanation": "Regulating Act 1773 created the post of Governor-General of Bengal (Warren Hastings)"
+    },
+    {
+      "question": "Which act ended EIC's trade monopoly?",
+      "options": ["1773", "1784", "1813", "1833"],
+      "correct": 2,
+      "explanation": "Charter Act 1813 ended EIC's trade monopoly (except tea and China trade)"
+    },
+    {
+      "question": "Pitt's India Act 1784 established:",
+      "options": ["Board of Control", "Supreme Court", "Indian Civil Service", "Legislative Council"],
+      "correct": 0,
+      "explanation": "Pitt's India Act 1784 established the Board of Control"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1773,
+      "event": "Regulating Act passed",
+      "relatedTopics": ["viceroys"]
+    },
+    {
+      "year": 1784,
+      "event": "Pitt's India Act passed",
+      "relatedTopics": ["viceroys"]
+    },
+    {
+      "year": 1813,
+      "event": "Charter Act ended EIC monopoly",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1833,
+      "event": "Charter Act centralized administration",
+      "relatedTopics": ["viceroys"]
+    },
+    {
+      "year": 1853,
+      "event": "Charter Act introduced civil services",
+      "relatedTopics": ["national-movement"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233911_Instagram.jpg"
+  ]
+}

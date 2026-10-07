@@ -1,0 +1,67 @@
+{
+  "id": "river-tributaries",
+  "subject": "geography",
+  "title": "Tributaries of Major Indian Rivers",
+  "description": "Ganga, Brahmaputra, Godavari, Krishna, and other major river systems",
+  "content": {
+    "overview": "India's river systems are crucial for agriculture, ecology, and culture. Here are the major tributaries.",
+    "keyPoints": [
+      "Ganga: Yamuna, Ghaghara, Gandak, Kosi, Son, Chambal, Betwa, Ken",
+      "Yamuna: Chambal, Betwa, Ken, Hindon, Tons, Hindan",
+      "Ghaghara: Sarda, Rapti, Little Gandak",
+      "Kosi: Arun, Tamur, Sun Kosi",
+      "Brahmaputra: Subansiri, Siang, Dibang, Lohit, Kameng, Manas, Sankosh, Teesta",
+      "Godavari: Pranhita, Indravati, Sabari, Manjira, Wainganga, Penganga",
+      "Krishna: Tungabhadra, Bhima, Ghataprabha, Malaprabha, Musi, Munneru",
+      "Kaveri: Hemavati, Kabini, Bhavani, Amudhavar, Lakshmana Tirtha",
+      "Mahanadi: Seonath, Hasdeo, Mand, Ib, Ong, Tel",
+      "Narmada: Tawa, Barna, Hiran, Kolar, Orsang, Kundi",
+      "Tapti: Purna, Girna, Panjhra, Bori, Waghur",
+      "Beas: Parbati, Sainj, Uhl, Banganga, Luni",
+      "Sutlej: Spiti, Baspa, Nogli Khad",
+      "Chenab: Chandra, Bhaga, Tawi, Marusudar, Ravi",
+      "Jhelum: Lidder, Sind, Neelum, Poonch, Kunhar",
+      "Ravi: Budhil, Tundah, Saho, Nai, Baira, Ujh"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Ganga Tributaries",
+        "trick": "Y-G-G-K-S-C-B-K = Yamuna, Ghaghara, Gandak, Kosi, Son, Chambal, Betwa, Ken",
+        "explanation": "Ganga tributaries: Yamuna, Ghaghara, Gandak, Kosi, Son, Chambal, Betwa, Ken"
+      },
+      {
+        "topic": "Godavari Tributaries",
+        "trick": "P-I-S-M-W-P = Pranhita, Indravati, Sabari, Manjira, Wainganga, Penganga",
+        "explanation": "Godavari tributaries: Pranhita, Indravati, Sabari, Manjira, Wainganga, Penganga"
+      }
+    ],
+    "connections": [
+      "largest-in-asia",
+      "crops"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which is the largest tributary of Ganga?",
+      "options": ["Yamuna", "Ghaghara", "Kosi", "Son"],
+      "correct": 0,
+      "explanation": "Yamuna is the largest tributary of Ganga"
+    },
+    {
+      "question": "Which river is known as 'Sorrow of Bihar'?",
+      "options": ["Ganga", "Kosi", "Ghaghara", "Gandak"],
+      "correct": 1,
+      "explanation": "Kosi is known as 'Sorrow of Bihar' due to frequent floods"
+    },
+    {
+      "question": "Which is the longest tributary of Godavari?",
+      "options": ["Pranhita", "Indravati", "Sabari", "Manjira"],
+      "correct": 0,
+      "explanation": "Pranhita is the longest tributary of Godavari"
+    }
+  ],
+  "timeline": [],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_234031_Instagram.jpg"
+  ]
+}

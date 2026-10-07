@@ -1,0 +1,66 @@
+{
+  "id": "lakes",
+  "subject": "geography",
+  "title": "Important Lakes of India",
+  "description": "Major lakes with their locations and features",
+  "content": {
+    "overview": "India has numerous lakes, both natural and artificial, with ecological and economic significance.",
+    "keyPoints": [
+      "Wular Lake (J&K): Largest freshwater lake in Asia, Ramsar site",
+      "Dal Lake (J&K): Famous for houseboats, Srinagar",
+      "Loktak Lake (Manipur): Only floating lake in world, phumdis",
+      "Chilika Lake (Odisha): Largest brackish water lake in Asia, Ramsar site",
+      "Vembanad Lake (Kerala): Longest lake in India, Ramsar site",
+      "Pulicat Lake (Andhra Pradesh/Tamil Nadu): Second largest brackish lake",
+      "Sambhar Salt Lake (Rajasthan): Largest inland salt lake",
+      "Bhimtal Lake (Uttarakhand): Largest lake in Kumaon region",
+      "Nainital Lake (Uttarakhand): Pear-shaped lake, tourist destination",
+      "Roopkund Lake (Uttarakhand): Skeleton lake, mystery lake",
+      "Gurudongmar Lake (Sikkim): Highest lake in India (17,800 ft)",
+      "Tso Moriri (Ladakh): High altitude lake, Ramsar site",
+      "Pangong Tso (Ladakh): Famous for color changes, 134 km long",
+      "Upper Ladakh Lakes: Tso Kar, Startsapuk Tso, Kyagar Tso",
+      "Bhojtal Lake (MP): Largest artificial lake in Asia",
+      "Kankaria Lake (Gujarat): Largest artificial lake in Gujarat",
+      "Hussain Sagar (Telangana): Heart-shaped lake, Buddha statue",
+      "Kolleru Lake (Andhra Pradesh): Freshwater lake, Ramsar site",
+      "Nagarjuna Sagar (Telangana): One of largest man-made lakes",
+      "Gobind Sagar (Himachal Pradesh): Reservoir of Bhakra Dam"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Lakes by State",
+        "trick": "J&K: Wular, Dal, Pangong | Manipur: Loktak | Odisha: Chilika | Kerala: Vembanad | Rajasthan: Sambhar | Uttarakhand: Bhimtal, Nainital, Roopkund | Sikkim: Gurudongmar | Ladakh: Tso Moriri, Pangong | MP: Bhojtal | Gujarat: Kankaria | Telangana: Hussain Sagar, Nagarjuna Sagar | AP: Pulicat, Kolleru | HP: Gobind Sagar",
+        "explanation": "Remember lakes by state for quick recall"
+      }
+    ],
+    "connections": [
+      "largest-in-asia",
+      "national-parks"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which is the largest freshwater lake in Asia?",
+      "options": ["Dal Lake", "Wular Lake", "Chilika Lake", "Loktak Lake"],
+      "correct": 1,
+      "explanation": "Wular Lake (J&K) is the largest freshwater lake in Asia"
+    },
+    {
+      "question": "Which is the only floating lake in the world?",
+      "options": ["Dal Lake", "Loktak Lake", "Chilika Lake", "Vembanad Lake"],
+      "correct": 1,
+      "explanation": "Loktak Lake (Manipur) is the only floating lake in the world"
+    },
+    {
+      "question": "Chilika Lake is located in:",
+      "options": ["Kerala", "Odisha", "Andhra Pradesh", "West Bengal"],
+      "correct": 1,
+      "explanation": "Chilika Lake is located in Odisha"
+    }
+  ],
+  "timeline": [],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_234023_Instagram.jpg"
+  ]
+}

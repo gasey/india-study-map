@@ -1,0 +1,105 @@
+{
+  "id": "indus-valley",
+  "subject": "history",
+  "title": "Indus Valley Civilization",
+  "description": "Major cities, features, and important sites of the Harappan civilization",
+  "content": {
+    "overview": "The Indus Valley Civilization (c. 2500-1900 BCE) was one of the world's oldest urban civilizations, known for its advanced city planning, drainage system, and trade.",
+    "keyPoints": [
+      "Major Cities: Harappa, Mohenjo-Daro, Dholavira, Lothal, Kalibangan, Rakhigarhi, Banawali",
+      "Harappa: First discovered site (1921), located in Pakistan, granaries, coffin burials",
+      "Mohenjo-Daro: Great Bath, Great Granary, bronze statue of 'Dancing Girl', seal of Pashupati",
+      "Dholavira: Water management system, reservoir, signboard with Indus script, located in Gujarat",
+      "Lothal: Dockyard, rice cultivation, located in Gujarat, important trade center",
+      "Kalibangan: Ploughed field, fire altars, located in Rajasthan",
+      "Rakhigarhi: Largest site in India, located in Haryana",
+      "Features: Grid-based city planning, advanced drainage, standardized weights, bronze tools, no iron",
+      "Script: Undeciphered, pictographic, written from right to left",
+      "Decline: Around 1900 BCE, possibly due to climate change, river shifts, or Aryan invasion",
+      "City-River: Harappa — Ravi River",
+      "City-River: Mohenjo-Daro — Indus River",
+      "City-River: Ganweriwala — Ghaggar-Hakra River",
+      "City-River: Dholavira — Seasonal Rivers (Luni & Manhar)",
+      "City-River: Kalibangan — Ghaggar River",
+      "City-River: Rakhigarhi — Ghaggar-Hakra River",
+      "City-River: Lothal — Sabarmati River",
+      "City-River: Sutkagen-Dor — Near Arabian Sea (Ancient Indus Delta)",
+      "City-River: Chanhu-Daro — Indus River",
+      "City-River: Alamgirpur — Near Yamuna River"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Indus Valley Cities",
+        "trick": "H-M-D-L-K-R-B = Harappa, Mohenjo-Daro, Dholavira, Lothal, Kalibangan, Rakhigarhi, Banawali",
+        "explanation": "Remember: Harappa, Mohenjo-Daro, Dholavira, Lothal, Kalibangan, Rakhigarhi, Banawali"
+      },
+      {
+        "topic": "Mohenjo-Daro Features",
+        "trick": "B-G-S = Bath, Granary, Seal",
+        "explanation": "Mohenjo-Daro: Great Bath, Great Granary, Pashupati Seal"
+      },
+      {
+        "topic": "City-River Associations",
+        "trick": "Harappa-Ravi, Mohenjo-Daro-Indus, Lothal-Sabarmati, Kalibangan-Ghaggar, Dholavira-Luni/Manhar",
+        "explanation": "Key pairs: Harappa on Ravi, Mohenjo-Daro on Indus, Lothal on Sabarmati, Kalibangan on Ghaggar, Dholavira on seasonal rivers Luni & Manhar, Alamgirpur near Yamuna"
+      }
+    ],
+    "connections": [
+      "art-architecture",
+      "national-movement"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which is the largest Indus Valley site in India?",
+      "options": ["Harappa", "Mohenjo-Daro", "Rakhigarhi", "Dholavira"],
+      "correct": 2,
+      "explanation": "Rakhigarhi in Haryana is the largest Indus Valley site in India"
+    },
+    {
+      "question": "The Great Bath was found at which site?",
+      "options": ["Harappa", "Mohenjo-Daro", "Lothal", "Dholavira"],
+      "correct": 1,
+      "explanation": "The Great Bath was found at Mohenjo-Daro"
+    },
+    {
+      "question": "Which site had a dockyard?",
+      "options": ["Harappa", "Mohenjo-Daro", "Lothal", "Kalibangan"],
+      "correct": 2,
+      "explanation": "Lothal had a dockyard, indicating maritime trade"
+    },
+    {
+      "question": "Harappa is located on the banks of which river?",
+      "options": ["Indus", "Ravi", "Ghaggar", "Sabarmati"],
+      "correct": 1,
+      "explanation": "Harappa is located on the banks of the Ravi River"
+    },
+    {
+      "question": "Alamgirpur is located near which river?",
+      "options": ["Ganga", "Yamuna", "Indus", "Sutlej"],
+      "correct": 1,
+      "explanation": "Alamgirpur is the easternmost Harappan site, located near the Yamuna River"
+    }
+  ],
+  "timeline": [
+    {
+      "year": -2500,
+      "event": "Mature Harappan phase begins",
+      "relatedTopics": ["art-architecture"]
+    },
+    {
+      "year": 1921,
+      "event": "Harappa discovered by Daya Ram Sahni",
+      "relatedTopics": ["national-movement"]
+    },
+    {
+      "year": 1922,
+      "event": "Mohenjo-Daro discovered by R.D. Banerji",
+      "relatedTopics": ["national-movement"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233659_Instagram.jpg",
+    "images/instagram-notes/Screenshot_20261007_233902_Instagram.jpg"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "constitutional-bodies",
+  "subject": "polity",
+  "title": "Constitutional Bodies of India",
+  "description": "President, Vice President, Prime Minister, Parliament, Supreme Court, and other constitutional bodies",
+  "content": {
+    "overview": "Constitutional bodies are established by the Constitution of India. They have specific powers and functions defined in the Constitution.",
+    "keyPoints": [
+      "President: Head of State, elected by Electoral College (MPs + MLAs), 5-year term",
+      "Vice President: Ex-officio Chairman of Rajya Sabha, elected by MPs",
+      "Prime Minister: Head of Government, leader of majority party in Lok Sabha",
+      "Supreme Court: Highest judicial authority, established under Article 124",
+      "High Courts: Highest court in each state, established under Article 214",
+      "Attorney General: Highest legal officer, appointed under Article 76",
+      "Comptroller and Auditor General (CAG): Audits government accounts, Article 148",
+      "Election Commission: Conducts elections, Article 324",
+      "Union Public Service Commission (UPSC): Recruitment to civil services, Article 315",
+      "Finance Commission: Distribution of taxes between Union and States, Article 280"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Constitutional Bodies",
+        "trick": "P-V-P-S-C-A-E-U-F = President, VP, PM, Parliament, Supreme Court, CAG, AG, EC, UPSC, FC",
+        "explanation": "Remember the order: President, Vice President, Prime Minister, Parliament, Supreme Court, CAG, Attorney General, Election Commission, UPSC, Finance Commission"
+      }
+    ],
+    "connections": [
+      "parliament",
+      "important-articles",
+      "supreme-court-judgments"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who is the ex-officio Chairman of Rajya Sabha?",
+      "options": ["President", "Vice President", "Prime Minister", "Speaker"],
+      "correct": 1,
+      "explanation": "Vice President is the ex-officio Chairman of Rajya Sabha under Article 64"
+    },
+    {
+      "question": "Which article establishes the Supreme Court of India?",
+      "options": ["Article 124", "Article 214", "Article 324", "Article 280"],
+      "correct": 0,
+      "explanation": "Article 124 establishes the Supreme Court of India"
+    },
+    {
+      "question": "Who audits government accounts in India?",
+      "options": ["Finance Commission", "CAG", "UPSC", "Election Commission"],
+      "correct": 1,
+      "explanation": "Comptroller and Auditor General (CAG) audits all government accounts under Article 148"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1950,
+      "event": "Constitutional bodies established with new Constitution",
+      "relatedTopics": ["making-of-constitution"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233621_Instagram.jpg"
+  ]
+}

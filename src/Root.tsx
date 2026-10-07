@@ -37,6 +37,7 @@ const StateTaxOfficerPage = lazy(() => import('./modules/mpsc/StateTaxOfficerPag
 const UdcLdcPage = lazy(() => import('./modules/udc-ldc/UdcLdcPage'));
 const CombinedPrelimsPage = lazy(() => import('./modules/mpsc-combined/CombinedPrelimsPage'));
 const PapersPage = lazy(() => import('./pages/PapersPage'));
+const RevisionPage = lazy(() => import('./modules/revision/RevisionPage'));
 const TestsPage = lazy(() => import('./pages/TestsPage'));
 const AdminConsolePage = lazy(() => import('./pages/AdminConsolePage'));
 const GamesPage = lazy(() => import('./pages/GamesPage'));
@@ -87,6 +88,7 @@ export function Root() {
             <Route path="/state-tax-officer" element={<StateTaxOfficerPage />} />
             <Route path="/udc-ldc" element={<UdcLdcPage />} />
             <Route path="/mpsc-combined-prelims" element={<CombinedPrelimsPage />} />
+            <Route path="/revision/*" element={<RevisionPage />} />
             <Route path="/embed/:id" element={<EmbedPage />} />
             {/* The Question Bank IS the API-backed MPSC bank (76,093 questions,
                 server-side filtering since Phase 4) — the rail's "Q. Bank" used

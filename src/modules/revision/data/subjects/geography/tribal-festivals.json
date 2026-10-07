@@ -1,0 +1,63 @@
+{
+  "id": "tribal-festivals",
+  "subject": "geography",
+  "title": "Tribal Festivals of India",
+  "description": "Major tribal festivals across India with their states and significance",
+  "content": {
+    "overview": "India's tribal communities celebrate unique festivals reflecting their culture, traditions, and connection to nature.",
+    "keyPoints": [
+      "Hornbill Festival (Nagaland): Festival of festivals, December, all Naga tribes",
+      "Bihu (Assam): Three types - Rongali, Kongali, Bhogali, Assamese New Year",
+      "Sarhul (Jharkhand): Tribal festival, worship of Sal trees, spring festival",
+      "Madai Festival (Chhattisgarh): Tribal festival, celebrated by Gond tribe",
+      "Tusu Festival (Jharkhand/West Bengal): Harvest festival, tribal women",
+      "Wangala Festival (Meghalaya): Garo tribe, harvest festival, 100 drums",
+      "Sohrai Festival (Jharkhand): Cattle festival, tribal art",
+      "Karama Festival (Jharkhand/Odisha): Tribal festival, worship of Karam tree",
+      "Bastar Dussehra (Chhattisgarh): 75-day festival, unique tribal celebration",
+      "Losar Festival (Ladakh): Tibetan New Year, Buddhist tribes",
+      "Sangai Festival (Manipur): Manipur festival, Sangai deer",
+      "Moatsu Festival (Nagaland): Ao tribe, seed sowing festival",
+      "Yemshe Festival (Nagaland): Pochury tribe, harvest festival",
+      "Ngada Festival (Nagaland): Rengma tribe, post-harvest festival",
+      "Mim Kut Festival (Mizoram): Mizo tribe, harvest festival",
+      "Chapchar Kut (Mizoram): Spring festival, bamboo dance",
+      "Hornbill Festival (Nagaland): Most famous tribal festival, December 1-10"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Tribal Festivals by State",
+        "trick": "Nagaland: Hornbill, Moatsu, Yemshe, Ngada | Assam: Bihu | Jharkhand: Sarhul, Tusu, Sohrai, Karama | Chhattisgarh: Madai, Bastar Dussehra | Meghalaya: Wangala | Manipur: Sangai | Mizoram: Mim Kut, Chapchar Kut | Ladakh: Losar",
+        "explanation": "Remember tribal festivals by state for quick recall"
+      }
+    ],
+    "connections": [
+      "state-nicknames",
+      "national-parks"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Hornbill Festival is celebrated in:",
+      "options": ["Assam", "Nagaland", "Meghalaya", "Manipur"],
+      "correct": 1,
+      "explanation": "Hornbill Festival is celebrated in Nagaland"
+    },
+    {
+      "question": "Wangala Festival is associated with which tribe?",
+      "options": ["Naga", "Garo", "Mizo", "Bodo"],
+      "correct": 1,
+      "explanation": "Wangala Festival is associated with Garo tribe of Meghalaya"
+    },
+    {
+      "question": "Bastar Dussehra is celebrated in:",
+      "options": ["Jharkhand", "Chhattisgarh", "Odisha", "MP"],
+      "correct": 1,
+      "explanation": "Bastar Dussehra is celebrated in Chhattisgarh"
+    }
+  ],
+  "timeline": [],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_234047_Instagram.jpg"
+  ]
+}

@@ -75,6 +75,15 @@ export const modules: AppModule[] = [
     path: '/mindmaps',
   },
   {
+    id: 'revision',
+    title: 'Quick Revision',
+    category: 'Study',
+    tagline: 'Instagram notes as guides, quizzes, SRS flashcards, timeline, PDF book',
+    glyph: '⚡',
+    kind: 'route',
+    path: '/revision',
+  },
+  {
     id: 'codex',
     title: 'Polity Codex',
     category: 'Study',

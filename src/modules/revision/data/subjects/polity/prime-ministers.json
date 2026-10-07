@@ -1,0 +1,81 @@
+{
+  "id": "prime-ministers",
+  "subject": "polity",
+  "title": "Indian Prime Ministers (1947-Present)",
+  "description": "Complete list of all 18 Prime Ministers with their tenures and key contributions",
+  "content": {
+    "overview": "India has had 18 Prime Ministers since independence in 1947. Here is the complete list with tenures and key facts.",
+    "keyPoints": [
+      "1. Jawaharlal Nehru (1947-1964): First PM, 17 years, non-alignment, industrialization",
+      "2. Gulzarilal Nanda (Acting) (1964): 13 days, after Nehru's death",
+      "3. Lal Bahadur Shastri (1964-1966): 'Jai Jawan Jai Kisan', 1965 war, Tashkent Agreement",
+      "4. Gulzarilal Nanda (Acting) (1966): 13 days, after Shastri's death",
+      "5. Indira Gandhi (1966-1977): First woman PM, 1971 war, Green Revolution, Emergency",
+      "6. Morarji Desai (1977-1979): First non-Congress PM, Janata Party",
+      "7. Charan Singh (1979-1980): 23 days, shortest full term",
+      "8. Indira Gandhi (1980-1984): Returned to power, Operation Blue Star, assassinated",
+      "9. Rajiv Gandhi (1984-1989): Youngest PM (40), technology modernization, Bofors scandal",
+      "10. V. P. Singh (1989-1990): Mandal Commission implementation, Janata Dal",
+      "11. Chandra Shekhar (1990-1991): 7 months, Samajwadi Janata Party",
+      "12. P. V. Narasimha Rao (1991-1996): Economic liberalization, 1991 reforms",
+      "13. Atal Bihari Vajpayee (1996): 13 days, first BJP PM",
+      "14. H. D. Deve Gowda (1996-1997): 10 months, Janata Dal",
+      "15. I. K. Gujral (1997-1998): 11 months, Janata Dal",
+      "16. Atal Bihari Vajpayee (1998-2004): Kargil War, NDA government, Golden Quadrilateral",
+      "17. Manmohan Singh (2004-2014): 10 years, economic reforms, nuclear deal",
+      "18. Narendra Modi (2014-Present): Longest-serving non-Congress PM, GST, Article 370"
+    ],
+    "mnemonics": [
+      {
+        "topic": "Prime Ministers",
+        "trick": "N-N-S-N-G-D-S-C-G-V-S-G-R-V-M-M = Nehru, Nanda, Shastri, Nanda, Gandhi, Desai, Singh, Gandhi, Gandhi, Singh, Shekhar, Rao, Vajpayee, Gowda, Gujral, Vajpayee, Singh, Modi",
+        "explanation": "Remember the order: Nehru, Nanda, Shastri, Nanda, Indira, Desai, Charan, Indira, Rajiv, VP Singh, Shekhar, Rao, Vajpayee, Gowda, Gujral, Vajpayee, Manmohan, Modi"
+      }
+    ],
+    "connections": [
+      "parliament",
+      "constitutional-bodies",
+      "polity-timeline"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who was the first Prime Minister of India?",
+      "options": ["Jawaharlal Nehru", "Sardar Patel", "Rajendra Prasad", "Lal Bahadur Shastri"],
+      "correct": 0,
+      "explanation": "Jawaharlal Nehru was the first Prime Minister of India (1947-1964)"
+    },
+    {
+      "question": "Who was the first woman Prime Minister of India?",
+      "options": ["Indira Gandhi", "Sarojini Naidu", "Pratibha Patil", "Sushma Swaraj"],
+      "correct": 0,
+      "explanation": "Indira Gandhi was the first woman Prime Minister of India"
+    },
+    {
+      "question": "Who was the youngest Prime Minister of India?",
+      "options": ["Rajiv Gandhi", "Narendra Modi", "Morarji Desai", "Charan Singh"],
+      "correct": 0,
+      "explanation": "Rajiv Gandhi became PM at age 40 in 1984"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1947,
+      "event": "Jawaharlal Nehru became first PM",
+      "relatedTopics": ["parliament"]
+    },
+    {
+      "year": 1966,
+      "event": "Indira Gandhi became first woman PM",
+      "relatedTopics": ["parliament"]
+    },
+    {
+      "year": 2014,
+      "event": "Narendra Modi became PM",
+      "relatedTopics": ["parliament"]
+    }
+  ],
+  "images": [
+    "images/instagram-notes/Screenshot_20261007_233655_Instagram.jpg"
+  ]
+}

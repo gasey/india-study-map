@@ -711,6 +711,15 @@ function BrowseView({
                       <span className="udc-question-number" style={{ opacity: 0.55, fontVariantNumeric: 'tabular-nums' }}>
                         {i + 1}.
                       </span>
+                      {flags[q.id] && (
+                        <span
+                          style={{
+                            width: 7, height: 7, borderRadius: '50%',
+                            background: 'var(--bad, #c4462f)', flex: 'none',
+                          }}
+                          title={`Flagged: ${flags[q.id].issueType.replace(/_/g, ' ')}`}
+                        />
+                      )}
                       <div style={{ flex: 1 }}>
                         {q.direction && (
                           <div style={{ fontSize: 12.5, fontWeight: 600, marginBottom: 6, color: 'var(--text-secondary, #666)' }}>

@@ -6,6 +6,7 @@ import { BANK_ID, SECTION_COLOUR, isAnswerable, optionLetter, sectionOf } from '
 import { QuestionText } from './QuestionText';
 import { QuestionImage } from './QuestionImage';
 import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
+import { useFlags } from './useFlags';
 
 // ============================================
 // Practice drill — answer, get told, move on.
@@ -35,6 +36,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
   const [picked, setPicked] = useState<number | null>(null);
   const [session, setSession] = useState({ done: 0, right: 0 });
   const questionCardRef = useRef<HTMLDivElement>(null);
+  const { flags } = useFlags();
 
   // Filters changing under the drill would otherwise leave `i` past the end.
   useEffect(() => {
@@ -140,8 +142,18 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         <div style={{
           fontSize: 11.5, fontWeight: 700, letterSpacing: '.08em',
           textTransform: 'uppercase', marginBottom: 7, color: accent,
+          display: 'flex', alignItems: 'center', gap: 6,
         }}>
           {q.topicLabel}
+          {flags[q.id] && (
+            <span
+              style={{
+                width: 7, height: 7, borderRadius: '50%',
+                background: 'var(--bad, #c4462f)', flex: 'none',
+              }}
+              title={`Flagged: ${flags[q.id].issueType.replace(/_/g, ' ')}`}
+            />
+          )}
         </div>
         {/* Where this question came from. In a drill a question arrives with
             no paper around it, so without this there is no telling a 2016

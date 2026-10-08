@@ -2648,7 +2648,7 @@
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–52 and 71 checked against rendered PDF pages 1–5 and 7; stems/options and calculations verified against the printed scan and final key. Q7 legacy candidate differs but the printed sequence confirms D; Q30 is compensated; Q37 includes an explicit editorial completion.",
+      "evidence": "Questions 1–63 and 71 checked against rendered PDF pages 1–6 and 7; stems/options and computations were verified against the scan and final key. Q7/Q52 legacy candidates differ but calculations confirm the final key. Q30 is compensated; Q37 editorial completion is identified.",
       "questions": {
         "1": {
           "n": 1,
@@ -3327,6 +3327,149 @@
             "d": "3"
           },
           "explanation": "√4096=64, ∛64=4, and √4=2."
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "part": null,
+          "q": "√50 + √8 − √18 = ?",
+          "opts": {
+            "a": "2√2",
+            "b": "3√2",
+            "c": "4√2",
+            "d": "5√2"
+          },
+          "explanation": "Simplify each radical: 5√2+2√2−3√2=4√2."
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "part": null,
+          "q": "If 45% of the students in a school are boys and the number of girls in the school is 605, how many boys are there in the school?",
+          "opts": {
+            "a": "495",
+            "b": "650",
+            "c": "425",
+            "d": "475"
+          },
+          "explanation": "Girls are 55% of the total, so total students=605/0.55=1100. Boys=45%×1100=495."
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "part": null,
+          "q": "A wire, when bent in the form of a square, encloses an area of 121 cm². The same wire is bent in the form of a circle. Find the radius of the circle.",
+          "opts": {
+            "a": "5 cm",
+            "b": "7 cm",
+            "c": "9 cm",
+            "d": "11 cm"
+          },
+          "explanation": "The square side is 11 cm, so the wire length is 44 cm. Using 2πr=44 and π=22/7 gives r=7 cm."
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "part": null,
+          "q": "1 km/hr is equal to—",
+          "opts": {
+            "a": "5/18 m/s",
+            "b": "18/5 m/s",
+            "c": "3/50 m/s",
+            "d": "50/3 m/s"
+          },
+          "explanation": "Convert km/h to m/s by multiplying by 5/18, so 1 km/h=5/18 m/s."
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "part": null,
+          "q": "A gun is fired at a distance of 4.3 km away from the man. If the sound of the gun fired is heard by the man after 10 seconds, find the speed at which sound travelled.",
+          "opts": {
+            "a": "210 m/s",
+            "b": "320 m/s",
+            "c": "430 m/s",
+            "d": "540 m/s"
+          },
+          "explanation": "4.3 km is 4300 m. Speed=distance/time=4300/10=430 m/s."
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "part": null,
+          "q": "If Sanga can finish a piece of work in n days, the work done by Sanga in 3 days is—",
+          "opts": {
+            "a": "1/n",
+            "b": "1/(3n)",
+            "c": "n/3",
+            "d": "3/n"
+          },
+          "explanation": "Sanga completes 1/n of the work each day, so in 3 days the work fraction is 3/n."
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "part": null,
+          "q": "A tank which has a leak in the bottom is filled in 12 hours. Had there been no leak in the bottom, it would have been filled in 10 hours. The leak can empty the tank in—",
+          "opts": {
+            "a": "40 hours",
+            "b": "50 hours",
+            "c": "60 hours",
+            "d": "70 hours"
+          },
+          "explanation": "The leak rate is 1/10−1/12=1/60 tank per hour, so it empties a full tank in 60 hours."
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "part": null,
+          "q": "If x + 1/x = 2, then x³ + 1/x³ = ?",
+          "opts": {
+            "a": "3",
+            "b": "−3",
+            "c": "−2",
+            "d": "2"
+          },
+          "explanation": "The condition gives (x−1)²=0, so x=1 and x³+1/x³=2."
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "part": null,
+          "q": "The radii of two right circular cylinders of the same height are in the ratio 3:5. Find the ratio of their volumes.",
+          "opts": {
+            "a": "3:5",
+            "b": "5:3",
+            "c": "9:25",
+            "d": "7:25"
+          },
+          "explanation": "With equal height, cylinder volume πr²h is proportional to r². The ratio is 3²:5²=9:25."
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "part": null,
+          "q": "Find the median using the empirical formula if mode = 29 and mean = 38.",
+          "opts": {
+            "a": "40",
+            "b": "37",
+            "c": "35",
+            "d": "33"
+          },
+          "explanation": "Mode=3×median−2×mean, so median=(mode+2×mean)/3=(29+76)/3=35."
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "part": null,
+          "q": "A bag contains 12 white balls and some green balls. If the probability of drawing a white ball from the bag is thrice that of a green ball, find the number of green balls.",
+          "opts": {
+            "a": "10",
+            "b": "8",
+            "c": "6",
+            "d": "4"
+          },
+          "explanation": "Let g be the green balls. Since both probabilities have the same total denominator, 12/(12+g)=3g/(12+g), so g=4."
         },
         "71": {
           "n": 71,

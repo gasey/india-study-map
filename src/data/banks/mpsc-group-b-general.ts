@@ -13183,17 +13183,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Land of maples",
       "Paradise on earth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Norway is commonly called the “Land of the Midnight Sun” because parts of the country experience continuous daylight during summer.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q62",
@@ -13211,17 +13209,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "New York",
       "Rome"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“City of Skyscrapers” is a common nickname for New York City, reflecting its dense skyline.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q63",
@@ -13239,17 +13235,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Island Continent",
       "Land of Rising Sun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Japan is known as the “Land of the Rising Sun”; the name Nippon/Nihon is commonly interpreted that way.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q64",
@@ -13267,17 +13261,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Delhi",
       "Mysore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“The Big Apple” is the well-known nickname for New York City.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q65",
@@ -13295,17 +13287,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Finland",
       "Thailand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Thailand is traditionally called the “Land of White Elephants,” reflecting the cultural and royal significance of the animal.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q66",
@@ -13323,17 +13313,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Colombia",
       "Venezuela"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Paulina Vega, crowned Miss Universe in January 2015, is Colombian.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q67",
@@ -13351,17 +13339,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Arts",
       "Literature and Education"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "L. K. Advani received the Padma Vibhushan in 2015 in the field of Public Affairs.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q68",
@@ -13379,14 +13365,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Khoobsurat",
       "States"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Queen” won Best Film at the 60th Filmfare Awards, held in 2015 for films released in 2014.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q69",
@@ -13405,7 +13392,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Politics"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The Bharat Ratna criteria cover exceptional service or performance in any field of human endeavour. Since political work can be recognised as public service, the stem’s exclusion of “politics” is not precise enough to support a unique answer.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
@@ -13414,7 +13401,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held unscored: Bharat Ratna is awarded for exceptional service in any field; “politics” can fall under public service, so the printed NOT question does not have a clear defensible answer."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q70",
@@ -13432,14 +13419,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Juhi Chawla",
       "Kajol"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Rani Mukerji was selected for the National Award for Best Representation of the Cause of Safety, Security and Protection of Women and Girl Child for her role in “Mardaani.”",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q71",
@@ -13458,7 +13446,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Karl Benz"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Emile Berliner developed and named the gramophone. Thomas Edison invented the phonograph, a different sound-recording device, so none of the printed choices correctly answers this stem.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
@@ -13467,7 +13455,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held unscored: the gramophone is associated with Emile Berliner, who is not among the printed choices."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q72",
@@ -13485,17 +13473,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Thomas Alva Edison",
       "Alessandro Volta"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "J. Robert Oppenheimer led the Los Alamos scientific effort to develop the first atomic bombs; “inventor” is an imprecise simplification for a large team project.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q73",
@@ -13513,17 +13499,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Richard Hoe",
       "Alexander Graham Bell"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Alexander Graham Bell patented an early microphone for telephone use in 1876. The history of microphone development involved several inventors, but Bell is the intended answer among these options.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q74",
@@ -13541,17 +13525,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "G.Marconi",
       "Elisha Thomson"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Wilhelm Conrad Röntgen discovered X-rays in 1895.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q75",
@@ -13569,17 +13551,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "James Puckle",
       "Edward Teller"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Louis Pasteur developed pasteurization, the process of heating liquids to reduce harmful microorganisms.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q76",
@@ -13597,17 +13577,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Pascal",
       "E.Torricelli"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Blaise Pascal built the Pascaline, an early mechanical calculator, in the 17th century.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q77",
@@ -13625,17 +13603,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Michael Faraday",
       "Alfred Nobel"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Alfred Nobel invented dynamite and patented it in 1867.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q78",
@@ -13653,17 +13629,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "William Murdoch",
       "Thomas Alva Edison"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Lewis Edson Waterman patented a practical fountain-pen design in 1884.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q79",
@@ -13681,17 +13655,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "David Hughes",
       "Richard Gatling"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Karl Benz built and patented the Benz Patent-Motorwagen, widely regarded as the first practical petrol-powered automobile.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q80",
@@ -13709,17 +13681,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "K.Macmillan",
       "H.W.Seeley"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Henry W. Seeley patented an electric flatiron in 1882.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q81",
@@ -13738,13 +13708,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "1979"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The first commercially available portable computer, Osborne 1, appeared in 1981. The GRiD Compass, often described as the first laptop-format computer, followed in 1982. Because “laptop” is not defined and both dates are options, this item has no unique answer.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held unscored: “first laptop” depends on definition. Osborne 1 was the first commercially available portable computer in 1981, while the GRiD Compass is often identified as the first laptop-format computer in 1982; both years appear as options."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q82",
@@ -13762,17 +13732,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Memory capacity of computer",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A megabyte is a unit used to measure digital information and, in this context, computer memory capacity.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q83",
@@ -13790,17 +13758,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "System Software",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "MS-DOS is an operating system, so it is system software.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q84",
@@ -13818,17 +13784,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Both (a) and (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "RAM is volatile temporary memory; its contents are lost when power is removed. ROM is non-volatile.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q85",
@@ -13846,17 +13810,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "FORTRAN",
       "LOTUS"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "BASIC, COBOL and FORTRAN are programming languages. Lotus is a software company/product name, not a programming language.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q86",
@@ -13874,17 +13836,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Byte Map Process",
       "Bit Map Process"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "BMP is the common abbreviation for bitmap, a raster-image format.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q87",
@@ -13902,17 +13862,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Formula Train Network",
       "Formula Translation Network"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "FORTRAN is formed from “Formula Translation.”",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q88",
@@ -13930,17 +13888,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Pretty Network Graphics",
       "Portable Network Graphics"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "PNG stands for Portable Network Graphics.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q89",
@@ -13958,17 +13914,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Unicoded Serial Bus",
       "Universal Serial Bus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "USB stands for Universal Serial Bus.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q90",
@@ -13986,17 +13940,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Service at Point",
       "Service Access Permission"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In networking, SAP commonly means Service Access Point, the interface where a service is provided to a protocol layer.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q91",
@@ -14014,17 +13966,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Malaysia",
       "Albania"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The lek is the currency of Albania.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q92",
@@ -14042,17 +13992,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Bogota",
       "Seoul"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Oslo is the capital of Norway.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q93",
@@ -14070,17 +14018,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Ostend",
       "Brussels"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Brussels is the capital of Belgium.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q94",
@@ -14098,17 +14044,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Denmark",
       "Argentina"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Argentina’s currency is the Argentine peso.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q95",
@@ -14126,17 +14070,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Nicosia",
       "Porto Novo"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Santiago is the capital of Chile.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q96",
@@ -14154,17 +14096,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "1947",
       "1948"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The UN General Assembly adopted the Universal Declaration of Human Rights on 10 December 1948.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q97",
@@ -14182,17 +14122,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Economic and Social Council",
       "World Bank"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The UN’s six principal organs include the Security Council, General Assembly and Economic and Social Council; the World Bank is a specialised agency, not a principal organ.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q98",
@@ -14210,17 +14148,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "France",
       "China"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The United States was the largest contributor to the UN’s regular budget at the time this question was set.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q99",
@@ -14238,17 +14174,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "1950",
       "1948"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The United Nations officially came into existence on 24 October 1945.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-gk-Q100",
@@ -14267,13 +14201,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Washington"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The UN Headquarters is in New York City. Geneva, London, Paris and Washington are not the headquarters location, so none of the printed options is correct.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-gk.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held unscored: the United Nations Headquarters is in New York City, which is absent from all four options."
   },
   {
     "id": "mpsc-group-b-technical-2024-p1-Q2",

@@ -9414,7 +9414,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–40 checked against the printed scan: page 1 (Q1–9), page 2 (Q10–22), page 3 (Q23–35), and page 4 (Q36–40). Question 6 is preserved but held unscored because its time-sensitive “newly elected” claim could not be verified from a contemporaneous source. The paper has no verified official answer key; reviewed answers are derived independently and explanations are provided. Questions 41–60 were then checked against pages 4–5. Q55 is held unscored because the contemporaneous official competition record identifies Mohun Bagan as champion, but that team is absent from every printed option; Q49’s option spelling was corrected to match the scan. Q44 is also withheld: the scan combines Latvia’s 2014 euro adoption with a 2015 date, so the intended answer cannot be selected reliably.",
+      "evidence": "Questions 1–40 checked against the printed scan: page 1 (Q1–9), page 2 (Q10–22), page 3 (Q23–35), and page 4 (Q36–40). Question 6 is preserved but held unscored because its time-sensitive “newly elected” claim could not be verified from a contemporaneous source. The paper has no verified official answer key; reviewed answers are derived independently and explanations are provided. Questions 41–60 were then checked against pages 4–5. Q55 is held unscored because the contemporaneous official competition record identifies Mohun Bagan as champion, but that team is absent from every printed option; Q49’s option spelling was corrected to match the scan. Q44 is also withheld: the scan combines Latvia’s 2014 euro adoption with a 2015 date, so the intended answer cannot be selected reliably. Questions 61–80 were checked against printed pages 6–7. Q69 is held because its broad Bharat Ratna criterion makes “politics” ambiguous; Q71 is held because the inventor of the gramophone (Emile Berliner) is absent from the choices. Questions 81–100 were checked against printed pages 7–8. Q81 is held because recognised definitions distinguish the 1981 Osborne portable computer from the 1982 GRiD laptop-format computer, and both years are offered. Q100 is held because New York City, the UN Headquarters location, is missing from the choices.",
       "questions": {
         "1": {
           "n": 1,
@@ -10861,6 +10861,974 @@
           "explanation": "The 2014–15 Federation Cup was won by Mohun Bagan, which is not among the four printed options. The question therefore has no correct listed answer and is held out of scoring.",
           "unscored": true,
           "reviewNote": "Held unscored: the 2014–15 Federation Cup winner, Mohun Bagan, is missing from the printed options."
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Land of thousand lakes",
+            "b": "Land of midnight sun",
+            "c": "Land of maples",
+            "d": "Paradise on earth"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Norway is known as",
+          "multi": false,
+          "explanation": "Norway is commonly called the “Land of the Midnight Sun” because parts of the country experience continuous daylight during summer."
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Washington DC",
+            "b": "London",
+            "c": "New York",
+            "d": "Rome"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following cities is also called “City of Skyscrapers”?",
+          "multi": false,
+          "explanation": "“City of Skyscrapers” is a common nickname for New York City, reflecting its dense skyline."
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Island of Fire",
+            "b": "Island of Pearls",
+            "c": "Island Continent",
+            "d": "Land of Rising Sun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Japan is called",
+          "multi": false,
+          "explanation": "Japan is known as the “Land of the Rising Sun”; the name Nippon/Nihon is commonly interpreted that way."
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "London",
+            "b": "New York",
+            "c": "Delhi",
+            "d": "Mysore"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following cities is called “Big Apple”?",
+          "multi": false,
+          "explanation": "“The Big Apple” is the well-known nickname for New York City."
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Bhutan",
+            "b": "Korea",
+            "c": "Finland",
+            "d": "Thailand"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "“Land of White Elephants” refers to",
+          "multi": false,
+          "explanation": "Thailand is traditionally called the “Land of White Elephants,” reflecting the cultural and royal significance of the animal."
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "USA",
+            "b": "Philippines",
+            "c": "Colombia",
+            "d": "Venezuela"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Ms. Paulina Vega who was crowned 63rd Miss Universe on January 25, 2015 belongs to",
+          "multi": false,
+          "explanation": "Paulina Vega, crowned Miss Universe in January 2015, is Colombian."
+        },
+        "67": {
+          "n": 67,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Public Affairs",
+            "b": "Defence",
+            "c": "Arts",
+            "d": "Literature and Education"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mr. L.K.Advani was awarded Padma Vibhushan 2015 in the field of",
+          "multi": false,
+          "explanation": "L. K. Advani received the Padma Vibhushan in 2015 in the field of Public Affairs."
+        },
+        "68": {
+          "n": 68,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Haider",
+            "b": "Queen",
+            "c": "Khoobsurat",
+            "d": "States"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In the 60th Filmfare Awards 2014, Best Film was awarded to",
+          "multi": false,
+          "explanation": "“Queen” won Best Film at the 60th Filmfare Awards, held in 2015 for films released in 2014."
+        },
+        "70": {
+          "n": 70,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rani Mukerji",
+            "b": "Aishwarya Rai",
+            "c": "Juhi Chawla",
+            "d": "Kajol"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "National Award for the Best Representation of the Cause of Safety, Security and Protection of women was awarded to",
+          "multi": false,
+          "explanation": "Rani Mukerji was selected for the National Award for Best Representation of the Cause of Safety, Security and Protection of Women and Girl Child for her role in “Mardaani.”"
+        },
+        "72": {
+          "n": 72,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "J.Robert Oppenheimer",
+            "b": "Alexander Fleming",
+            "c": "Thomas Alva Edison",
+            "d": "Alessandro Volta"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The inventor of Atomic Bomb was",
+          "multi": false,
+          "explanation": "J. Robert Oppenheimer led the Los Alamos scientific effort to develop the first atomic bombs; “inventor” is an imprecise simplification for a large team project."
+        },
+        "73": {
+          "n": 73,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "John Walker",
+            "b": "Thomas Alva Edison",
+            "c": "Richard Hoe",
+            "d": "Alexander Graham Bell"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Microphone was invented by",
+          "multi": false,
+          "explanation": "Alexander Graham Bell patented an early microphone for telephone use in 1876. The history of microphone development involved several inventors, but Bell is the intended answer among these options."
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Wilhelm K.Roentgen",
+            "b": "W.L.Judson",
+            "c": "G.Marconi",
+            "d": "Elisha Thomson"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who discovered X-Ray?",
+          "multi": false,
+          "explanation": "Wilhelm Conrad Röntgen discovered X-rays in 1895."
+        },
+        "75": {
+          "n": 75,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Johann Gutenberg",
+            "b": "Louis Pasteur",
+            "c": "James Puckle",
+            "d": "Edward Teller"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Pasteurization was invented by",
+          "multi": false,
+          "explanation": "Louis Pasteur developed pasteurization, the process of heating liquids to reduce harmful microorganisms."
+        },
+        "76": {
+          "n": 76,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "C.Biro",
+            "b": "Wright brothers",
+            "c": "Pascal",
+            "d": "E.Torricelli"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who invented calculator?",
+          "multi": false,
+          "explanation": "Blaise Pascal built the Pascaline, an early mechanical calculator, in the 17th century."
+        },
+        "77": {
+          "n": 77,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Charles Babbage",
+            "b": "Rudolf Diesel",
+            "c": "Michael Faraday",
+            "d": "Alfred Nobel"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Dynamite is invented by",
+          "multi": false,
+          "explanation": "Alfred Nobel invented dynamite and patented it in 1867."
+        },
+        "78": {
+          "n": 78,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Stephenson",
+            "b": "L.E.Waterman",
+            "c": "William Murdoch",
+            "d": "Thomas Alva Edison"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who invented Fountain Pen?",
+          "multi": false,
+          "explanation": "Lewis Edson Waterman patented a practical fountain-pen design in 1884."
+        },
+        "79": {
+          "n": 79,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Karl Benz",
+            "b": "Z. Jansen",
+            "c": "David Hughes",
+            "d": "Richard Gatling"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the inventor of Motor Car (Petrol)?",
+          "multi": false,
+          "explanation": "Karl Benz built and patented the Benz Patent-Motorwagen, widely regarded as the first practical petrol-powered automobile."
+        },
+        "80": {
+          "n": 80,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Thomas Alva Edison",
+            "b": "Hulxey Machine company",
+            "c": "K.Macmillan",
+            "d": "H.W.Seeley"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Electric Iron was invented by",
+          "multi": false,
+          "explanation": "Henry W. Seeley patented an electric flatiron in 1882."
+        },
+        "69": {
+          "n": 69,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Art",
+            "b": "Literature",
+            "c": "Science",
+            "d": "Politics"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Bharat Ratna, the highest Civilian Award in India is NOT given for excellence in the field of",
+          "multi": false,
+          "explanation": "The Bharat Ratna criteria cover exceptional service or performance in any field of human endeavour. Since political work can be recognised as public service, the stem’s exclusion of “politics” is not precise enough to support a unique answer.",
+          "unscored": true,
+          "reviewNote": "Held unscored: Bharat Ratna is awarded for exceptional service in any field; “politics” can fall under public service, so the printed NOT question does not have a clear defensible answer."
+        },
+        "71": {
+          "n": 71,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Albert Einstein",
+            "b": "Thomas Alva Edison",
+            "c": "Alexander Bain",
+            "d": "Karl Benz"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Gramophone was invented by",
+          "multi": false,
+          "explanation": "Emile Berliner developed and named the gramophone. Thomas Edison invented the phonograph, a different sound-recording device, so none of the printed choices correctly answers this stem.",
+          "unscored": true,
+          "reviewNote": "Held unscored: the gramophone is associated with Emile Berliner, who is not among the printed choices."
+        },
+        "82": {
+          "n": 82,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Density of population",
+            "b": "Intensity of earthquakes",
+            "c": "Memory capacity of computer",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Megabyte is the unit for measuring",
+          "multi": false,
+          "explanation": "A megabyte is a unit used to measure digital information and, in this context, computer memory capacity."
+        },
+        "83": {
+          "n": 83,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Application of software",
+            "b": "Hardware",
+            "c": "System Software",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "MS-DOS is the name of a/an",
+          "multi": false,
+          "explanation": "MS-DOS is an operating system, so it is system software."
+        },
+        "84": {
+          "n": 84,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "ROM",
+            "b": "RAM",
+            "c": "Both (a) and (b)",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is a temporary memory?",
+          "multi": false,
+          "explanation": "RAM is volatile temporary memory; its contents are lost when power is removed. ROM is non-volatile."
+        },
+        "85": {
+          "n": 85,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "BASIC",
+            "b": "COBOL",
+            "c": "FORTRAN",
+            "d": "LOTUS"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is not a computer language?",
+          "multi": false,
+          "explanation": "BASIC, COBOL and FORTRAN are programming languages. Lotus is a software company/product name, not a programming language."
+        },
+        "86": {
+          "n": 86,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Byte Map",
+            "b": "Bit Map",
+            "c": "Byte Map Process",
+            "d": "Bit Map Process"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the full form of BMP?",
+          "multi": false,
+          "explanation": "BMP is the common abbreviation for bitmap, a raster-image format."
+        },
+        "87": {
+          "n": 87,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Formula Train",
+            "b": "Formula Translation",
+            "c": "Formula Train Network",
+            "d": "Formula Translation Network"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "FORTRAN refers to",
+          "multi": false,
+          "explanation": "FORTRAN is formed from “Formula Translation.”"
+        },
+        "88": {
+          "n": 88,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Portable National Graphics",
+            "b": "Portable Network Graph",
+            "c": "Pretty Network Graphics",
+            "d": "Portable Network Graphics"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "PNG is the abbreviated form of",
+          "multi": false,
+          "explanation": "PNG stands for Portable Network Graphics."
+        },
+        "89": {
+          "n": 89,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Unicoded Smart Bus",
+            "b": "Universal Smart Bus",
+            "c": "Unicoded Serial Bus",
+            "d": "Universal Serial Bus"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "USB means",
+          "multi": false,
+          "explanation": "USB stands for Universal Serial Bus."
+        },
+        "90": {
+          "n": 90,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Smart Access Point",
+            "b": "Service Access Point",
+            "c": "Service at Point",
+            "d": "Service Access Permission"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In network, SAP refers to",
+          "multi": false,
+          "explanation": "In networking, SAP commonly means Service Access Point, the interface where a service is provided to a protocol layer."
+        },
+        "91": {
+          "n": 91,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Libya",
+            "b": "Spain",
+            "c": "Malaysia",
+            "d": "Albania"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Lek is the currency of which country?",
+          "multi": false,
+          "explanation": "The lek is the currency of Albania."
+        },
+        "92": {
+          "n": 92,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Bangkok",
+            "b": "Oslo",
+            "c": "Bogota",
+            "d": "Seoul"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The capital of Norway is",
+          "multi": false,
+          "explanation": "Oslo is the capital of Norway."
+        },
+        "93": {
+          "n": 93,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Ghent",
+            "b": "Bruges",
+            "c": "Ostend",
+            "d": "Brussels"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The capital of Belgium is",
+          "multi": false,
+          "explanation": "Brussels is the capital of Belgium."
+        },
+        "94": {
+          "n": 94,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Belgium",
+            "b": "Canada",
+            "c": "Denmark",
+            "d": "Argentina"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Peso is the currency of",
+          "multi": false,
+          "explanation": "Argentina’s currency is the Argentine peso."
+        },
+        "95": {
+          "n": 95,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Thimphu",
+            "b": "Santiago",
+            "c": "Nicosia",
+            "d": "Porto Novo"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The capital of Chile is",
+          "multi": false,
+          "explanation": "Santiago is the capital of Chile."
+        },
+        "96": {
+          "n": 96,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1945",
+            "b": "1946",
+            "c": "1947",
+            "d": "1948"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In which year did the UNO adopt the Universal Declaration of Human Rights?",
+          "multi": false,
+          "explanation": "The UN General Assembly adopted the Universal Declaration of Human Rights on 10 December 1948."
+        },
+        "97": {
+          "n": 97,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Security Council",
+            "b": "General Assembly",
+            "c": "Economic and Social Council",
+            "d": "World Bank"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is not the chief organ of UNO?",
+          "multi": false,
+          "explanation": "The UN’s six principal organs include the Security Council, General Assembly and Economic and Social Council; the World Bank is a specialised agency, not a principal organ."
+        },
+        "98": {
+          "n": 98,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "USA",
+            "b": "Russia",
+            "c": "France",
+            "d": "China"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which country is the main source of finance for the UN?",
+          "multi": false,
+          "explanation": "The United States was the largest contributor to the UN’s regular budget at the time this question was set."
+        },
+        "99": {
+          "n": 99,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1945",
+            "b": "1947",
+            "c": "1950",
+            "d": "1948"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In which year did the UNO come into existence?",
+          "multi": false,
+          "explanation": "The United Nations officially came into existence on 24 October 1945."
+        },
+        "81": {
+          "n": 81,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1980",
+            "b": "1981",
+            "c": "1982",
+            "d": "1979"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In which year was the first laptop introduced?",
+          "multi": false,
+          "explanation": "The first commercially available portable computer, Osborne 1, appeared in 1981. The GRiD Compass, often described as the first laptop-format computer, followed in 1982. Because “laptop” is not defined and both dates are options, this item has no unique answer.",
+          "unscored": true,
+          "reviewNote": "Held unscored: “first laptop” depends on definition. Osborne 1 was the first commercially available portable computer in 1981, while the GRiD Compass is often identified as the first laptop-format computer in 1982; both years appear as options."
+        },
+        "100": {
+          "n": 100,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Geneva",
+            "b": "London",
+            "c": "Paris",
+            "d": "Washington"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Headquarters of the UN is",
+          "multi": false,
+          "explanation": "The UN Headquarters is in New York City. Geneva, London, Paris and Washington are not the headquarters location, so none of the printed options is correct.",
+          "unscored": true,
+          "reviewNote": "Held unscored: the United Nations Headquarters is in New York City, which is absent from all four options."
         }
       },
       "derivedAnswers": {
@@ -11091,6 +12059,150 @@
         "60": {
           "answerIndex": 0,
           "explanation": "CBEC stood for Central Board of Excise and Customs; it was renamed the Central Board of Indirect Taxes and Customs in 2018."
+        },
+        "61": {
+          "answerIndex": 1,
+          "explanation": "Norway is commonly called the “Land of the Midnight Sun” because parts of the country experience continuous daylight during summer."
+        },
+        "62": {
+          "answerIndex": 2,
+          "explanation": "“City of Skyscrapers” is a common nickname for New York City, reflecting its dense skyline."
+        },
+        "63": {
+          "answerIndex": 3,
+          "explanation": "Japan is known as the “Land of the Rising Sun”; the name Nippon/Nihon is commonly interpreted that way."
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "“The Big Apple” is the well-known nickname for New York City."
+        },
+        "65": {
+          "answerIndex": 3,
+          "explanation": "Thailand is traditionally called the “Land of White Elephants,” reflecting the cultural and royal significance of the animal."
+        },
+        "66": {
+          "answerIndex": 2,
+          "explanation": "Paulina Vega, crowned Miss Universe in January 2015, is Colombian."
+        },
+        "67": {
+          "answerIndex": 0,
+          "explanation": "L. K. Advani received the Padma Vibhushan in 2015 in the field of Public Affairs."
+        },
+        "68": {
+          "answerIndex": 1,
+          "explanation": "“Queen” won Best Film at the 60th Filmfare Awards, held in 2015 for films released in 2014."
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "Rani Mukerji was selected for the National Award for Best Representation of the Cause of Safety, Security and Protection of Women and Girl Child for her role in “Mardaani.”"
+        },
+        "72": {
+          "answerIndex": 0,
+          "explanation": "J. Robert Oppenheimer led the Los Alamos scientific effort to develop the first atomic bombs; “inventor” is an imprecise simplification for a large team project."
+        },
+        "73": {
+          "answerIndex": 3,
+          "explanation": "Alexander Graham Bell patented an early microphone for telephone use in 1876. The history of microphone development involved several inventors, but Bell is the intended answer among these options."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "Wilhelm Conrad Röntgen discovered X-rays in 1895."
+        },
+        "75": {
+          "answerIndex": 1,
+          "explanation": "Louis Pasteur developed pasteurization, the process of heating liquids to reduce harmful microorganisms."
+        },
+        "76": {
+          "answerIndex": 2,
+          "explanation": "Blaise Pascal built the Pascaline, an early mechanical calculator, in the 17th century."
+        },
+        "77": {
+          "answerIndex": 3,
+          "explanation": "Alfred Nobel invented dynamite and patented it in 1867."
+        },
+        "78": {
+          "answerIndex": 1,
+          "explanation": "Lewis Edson Waterman patented a practical fountain-pen design in 1884."
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "Karl Benz built and patented the Benz Patent-Motorwagen, widely regarded as the first practical petrol-powered automobile."
+        },
+        "80": {
+          "answerIndex": 3,
+          "explanation": "Henry W. Seeley patented an electric flatiron in 1882."
+        },
+        "82": {
+          "answerIndex": 2,
+          "explanation": "A megabyte is a unit used to measure digital information and, in this context, computer memory capacity."
+        },
+        "83": {
+          "answerIndex": 2,
+          "explanation": "MS-DOS is an operating system, so it is system software."
+        },
+        "84": {
+          "answerIndex": 1,
+          "explanation": "RAM is volatile temporary memory; its contents are lost when power is removed. ROM is non-volatile."
+        },
+        "85": {
+          "answerIndex": 3,
+          "explanation": "BASIC, COBOL and FORTRAN are programming languages. Lotus is a software company/product name, not a programming language."
+        },
+        "86": {
+          "answerIndex": 1,
+          "explanation": "BMP is the common abbreviation for bitmap, a raster-image format."
+        },
+        "87": {
+          "answerIndex": 1,
+          "explanation": "FORTRAN is formed from “Formula Translation.”"
+        },
+        "88": {
+          "answerIndex": 3,
+          "explanation": "PNG stands for Portable Network Graphics."
+        },
+        "89": {
+          "answerIndex": 3,
+          "explanation": "USB stands for Universal Serial Bus."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "In networking, SAP commonly means Service Access Point, the interface where a service is provided to a protocol layer."
+        },
+        "91": {
+          "answerIndex": 3,
+          "explanation": "The lek is the currency of Albania."
+        },
+        "92": {
+          "answerIndex": 1,
+          "explanation": "Oslo is the capital of Norway."
+        },
+        "93": {
+          "answerIndex": 3,
+          "explanation": "Brussels is the capital of Belgium."
+        },
+        "94": {
+          "answerIndex": 3,
+          "explanation": "Argentina’s currency is the Argentine peso."
+        },
+        "95": {
+          "answerIndex": 1,
+          "explanation": "Santiago is the capital of Chile."
+        },
+        "96": {
+          "answerIndex": 3,
+          "explanation": "The UN General Assembly adopted the Universal Declaration of Human Rights on 10 December 1948."
+        },
+        "97": {
+          "answerIndex": 3,
+          "explanation": "The UN’s six principal organs include the Security Council, General Assembly and Economic and Social Council; the World Bank is a specialised agency, not a principal organ."
+        },
+        "98": {
+          "answerIndex": 0,
+          "explanation": "The United States was the largest contributor to the UN’s regular budget at the time this question was set."
+        },
+        "99": {
+          "answerIndex": 0,
+          "explanation": "The United Nations officially came into existence on 24 October 1945."
         }
       }
     }

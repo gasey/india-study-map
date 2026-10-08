@@ -111,8 +111,8 @@ assert evaluate("document.body.innerText.includes('Arithmetic')&&document.body.i
 command('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
 click_tab('Group B papers')
 assert evaluate("document.body.scrollWidth <= innerWidth")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,614 ready to practise')")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,502 with official answers')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,627 ready to practise')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,515 with official answers')")
 browse('Stenographer Grade III, Lokayukta', 'General Knowledge')
 assert evaluate("document.querySelectorAll('.udc-question-card').length === 100")
 assert evaluate("document.querySelectorAll('.udc-question-card')[99].innerText.includes('DP&AR (SSW)')")
@@ -143,7 +143,7 @@ assert evaluate("document.querySelectorAll('.udc-question-card')[72].innerText.i
 assert evaluate("document.querySelectorAll('.udc-question-card')[72].querySelector('.udc-answer-sources a').href.includes('corrigendum')")
 assert evaluate("(async()=>{let a=document.querySelectorAll('.udc-question-card')[72].querySelector('.udc-answer-sources a');return (await fetch(a.href)).status})()") == 200
 browse('Assistant Audit & Accounts Officer', 'General English')
-assert evaluate("document.querySelectorAll('.udc-question-card').length") >= 87
+assert evaluate("document.querySelectorAll('.udc-question-card').length") == 100
 assert evaluate("document.querySelectorAll('.udc-question-card')[0].innerText.includes('I __________ this task by lunch')")
 evaluate("document.querySelectorAll('.udc-question-card')[0].querySelectorAll('.udc-option-label')[1].closest('button').click()")
 wait_for("!!document.querySelectorAll('.udc-question-card')[0].querySelector('.udc-answer-sources')")
@@ -155,6 +155,7 @@ assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).som
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('Given below are four jumbled sentences'))")
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('antonym of “waver”'))")
 assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('Come in the way of') && card.innerText.includes('held out from scoring'))")
+assert evaluate("document.querySelectorAll('.udc-question-card')[99].innerText.includes('LATENT')")
 click_tab('exam')
 assert evaluate("![...document.querySelectorAll('button')].some(b=>b.textContent.includes('Assistant Audit & Accounts Officer'))")
 assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Stenographer Grade III'))")

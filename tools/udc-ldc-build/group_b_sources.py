@@ -174,6 +174,7 @@ def build_additional():
             entry['expectedMcq'] = len(key['answers'])
         complete_source_review = (bool(key)
                                   and reviewed_numbers == {int(n) for n in key['answers']}
+                                  and not any(q.get('unscored') for q in (repairs.get(slug, {}).get('questions') or {}).values())
                                   # This English paper also has a written Section A;
                                   # its prompts are not yet recovered in the bank.
                                   and slug not in ('steno-2025-english', 'si-excise-2025-p1')

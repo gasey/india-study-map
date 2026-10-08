@@ -17103,15 +17103,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thesefruitsnotbeeatenbythepatient.",
+    "question": "These fruits __________ not be eaten by the patient.",
     "options": [
       "will",
       "does",
       "was",
       "have"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The modal “will” forms the future passive: “will not be eaten.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17120,10 +17120,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Choose/identifythecorrecttenseoftheverbsinthefollowingsentences."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q89",
@@ -17134,15 +17132,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Zira_hisfuturewifeatthepark.",
+    "question": "Zira __________ his future wife at the park.",
     "options": [
       "met",
-      "willmet",
-      "havemet",
-      "ismet"
+      "will met",
+      "have met",
+      "is met"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The simple past “met” is the grammatical form for the completed event described.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17151,10 +17149,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Choose/identifythecorrecttenseoftheverbsinthefollowingsentences."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q90",
@@ -17165,15 +17161,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theantsworkinghardallwinter.",
+    "question": "The ants __________ working hard all winter.",
     "options": [
-      "havebeen",
+      "have been",
       "have",
       "was",
       "had"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Have been working” is the present perfect continuous with the plural subject “ants.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17182,10 +17178,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Choose/identifythecorrecttenseoftheverbsinthefollowingsentences."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q91",
@@ -17196,15 +17190,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thepolicehavingconvictedtheman.",
+    "question": "The police __________ having convicted the man.",
     "options": [
       "denial",
       "denied",
       "rejects",
       "refused"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Denied having convicted” is the correct verb plus perfect gerund construction.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17213,10 +17207,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-95):Choosethecorrectanswerfromthegivenchoices."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q92",
@@ -17227,15 +17219,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thekindwomanthelittleinfantasherown.",
+    "question": "The kind woman __________ the little infant as her own.",
     "options": [
       "mother",
       "mothers",
       "smother",
-      "hadsmother"
+      "had smother"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Mothers” is a verb meaning to care for someone as a mother would.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17244,10 +17236,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-95):Choosethecorrectanswerfromthegivenchoices."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q93",
@@ -17258,15 +17248,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thedampnessbegantotheoldman’shealth.",
+    "question": "The dampness began to __________ the old man’s health.",
     "options": [
       "affected",
       "effect",
       "affect",
       "recover"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "After “began to,” use the base verb “affect”; here it means to harm or influence.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17275,10 +17265,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-95):Choosethecorrectanswerfromthegivenchoices."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q94",
@@ -17289,15 +17277,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Lindaagiftfromherhusband.",
+    "question": "Linda __________ a gift from her husband.",
     "options": [
-      "hashopes",
-      "expect.",
+      "has hopes",
+      "expect",
       "receives",
-      "deliver."
+      "deliver"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Receives” agrees with the singular subject Linda and completes the sentence.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17306,10 +17294,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-95):Choosethecorrectanswerfromthegivenchoices."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q95",
@@ -17320,15 +17306,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Youmust,totheinstructionsgivenbytheteacher.",
+    "question": "You must __________ to the instructions given by the teacher.",
     "options": [
       "hear",
-      "listen:",
+      "listen",
       "welcome",
       "obey"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The verb “listen” takes “to”: “listen to the instructions.” “Obey” takes a direct object without “to.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17337,10 +17323,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-95):Choosethecorrectanswerfromthegivenchoices."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q96",
@@ -17358,8 +17342,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "Reception",
       "Touching"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Perception” can mean awareness or understanding.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17368,10 +17352,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.96-100):Selectthemostappropriatesynonymofthegivenword:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q97",
@@ -17389,8 +17371,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "Incident",
       "Investment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Incident” is the closest option to an occurrence or event surrounding a situation.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17399,10 +17381,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.96-100):Selectthemostappropriatesynonymofthegivenword:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q98",
@@ -17420,8 +17400,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "Dive",
       "Product"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Thrive” means to grow or flourish.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17430,10 +17410,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.96-100):Selectthemostappropriatesynonymofthegivenword:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q99",
@@ -17451,8 +17429,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "Squeeze",
       "Survey"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Scrutiny” means close examination or inspection; “survey” is the closest listed option.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17461,10 +17439,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.96-100):Selectthemostappropriatesynonymofthegivenword:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q100",
@@ -17480,10 +17456,10 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "Inactive",
       "Solid",
       "Freeze",
-      "Unwell RRREEE"
+      "Unwell"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Latent” means present but inactive or hidden.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=8",
@@ -17492,10 +17468,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.96-100):Selectthemostappropriatesynonymofthegivenword:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-gk-Q1",

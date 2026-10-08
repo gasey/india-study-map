@@ -1331,7 +1331,7 @@
       "sourceSha256": "eb32e3ca2b60cb399cce89bbdcf711d95a098fdfbbcf90377ffd5f6ea2f66fb5",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–87 checked against rendered PDF pages 1–7; stems and four options transcribed and matched to the final official key. Q2, Q23, Q37 and Q77 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
+      "evidence": "All 100 questions checked against rendered PDF pages 1–8; stems and four options transcribed and matched to the final official key. Q2, Q23, Q37 and Q77 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
       "questions": {
         "1": {
           "n": 1,
@@ -2471,9 +2471,178 @@
             "d": "was being"
           },
           "explanation": "“Was mending” is the grammatical past-continuous form for the action described."
+        },
+        "88": {
+          "n": 88,
+          "page": 8,
+          "part": null,
+          "q": "These fruits __________ not be eaten by the patient.",
+          "opts": {
+            "a": "will",
+            "b": "does",
+            "c": "was",
+            "d": "have"
+          },
+          "explanation": "The modal “will” forms the future passive: “will not be eaten.”"
+        },
+        "89": {
+          "n": 89,
+          "page": 8,
+          "part": null,
+          "q": "Zira __________ his future wife at the park.",
+          "opts": {
+            "a": "met",
+            "b": "will met",
+            "c": "have met",
+            "d": "is met"
+          },
+          "explanation": "The simple past “met” is the grammatical form for the completed event described."
+        },
+        "90": {
+          "n": 90,
+          "page": 8,
+          "part": null,
+          "q": "The ants __________ working hard all winter.",
+          "opts": {
+            "a": "have been",
+            "b": "have",
+            "c": "was",
+            "d": "had"
+          },
+          "explanation": "“Have been working” is the present perfect continuous with the plural subject “ants.”"
+        },
+        "91": {
+          "n": 91,
+          "page": 8,
+          "part": null,
+          "q": "The police __________ having convicted the man.",
+          "opts": {
+            "a": "denial",
+            "b": "denied",
+            "c": "rejects",
+            "d": "refused"
+          },
+          "explanation": "“Denied having convicted” is the correct verb plus perfect gerund construction."
+        },
+        "92": {
+          "n": 92,
+          "page": 8,
+          "part": null,
+          "q": "The kind woman __________ the little infant as her own.",
+          "opts": {
+            "a": "mother",
+            "b": "mothers",
+            "c": "smother",
+            "d": "had smother"
+          },
+          "explanation": "“Mothers” is a verb meaning to care for someone as a mother would."
+        },
+        "93": {
+          "n": 93,
+          "page": 8,
+          "part": null,
+          "q": "The dampness began to __________ the old man’s health.",
+          "opts": {
+            "a": "affected",
+            "b": "effect",
+            "c": "affect",
+            "d": "recover"
+          },
+          "explanation": "After “began to,” use the base verb “affect”; here it means to harm or influence."
+        },
+        "94": {
+          "n": 94,
+          "page": 8,
+          "part": null,
+          "q": "Linda __________ a gift from her husband.",
+          "opts": {
+            "a": "has hopes",
+            "b": "expect",
+            "c": "receives",
+            "d": "deliver"
+          },
+          "explanation": "“Receives” agrees with the singular subject Linda and completes the sentence."
+        },
+        "95": {
+          "n": 95,
+          "page": 8,
+          "part": null,
+          "q": "You must __________ to the instructions given by the teacher.",
+          "opts": {
+            "a": "hear",
+            "b": "listen",
+            "c": "welcome",
+            "d": "obey"
+          },
+          "explanation": "The verb “listen” takes “to”: “listen to the instructions.” “Obey” takes a direct object without “to.”"
+        },
+        "96": {
+          "n": 96,
+          "page": 8,
+          "part": null,
+          "q": "PERCEPTION",
+          "opts": {
+            "a": "Seeking",
+            "b": "Understanding",
+            "c": "Reception",
+            "d": "Touching"
+          },
+          "explanation": "“Perception” can mean awareness or understanding."
+        },
+        "97": {
+          "n": 97,
+          "page": 8,
+          "part": null,
+          "q": "CIRCUMSTANCE",
+          "opts": {
+            "a": "Experiment",
+            "b": "Evidence",
+            "c": "Incident",
+            "d": "Investment"
+          },
+          "explanation": "“Incident” is the closest option to an occurrence or event surrounding a situation."
+        },
+        "98": {
+          "n": 98,
+          "page": 8,
+          "part": null,
+          "q": "THRIVE",
+          "opts": {
+            "a": "Flourish",
+            "b": "Perish",
+            "c": "Dive",
+            "d": "Product"
+          },
+          "explanation": "“Thrive” means to grow or flourish."
+        },
+        "99": {
+          "n": 99,
+          "page": 8,
+          "part": null,
+          "q": "SCRUTINY",
+          "opts": {
+            "a": "Play",
+            "b": "Taste",
+            "c": "Squeeze",
+            "d": "Survey"
+          },
+          "explanation": "“Scrutiny” means close examination or inspection; “survey” is the closest listed option."
+        },
+        "100": {
+          "n": 100,
+          "page": 8,
+          "part": null,
+          "q": "LATENT",
+          "opts": {
+            "a": "Inactive",
+            "b": "Solid",
+            "c": "Freeze",
+            "d": "Unwell"
+          },
+          "explanation": "“Latent” means present but inactive or hidden."
         }
       },
-      "partialReview": true
+      "partialReview": false
     },
     "aao-2024-arithmetic": {
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",

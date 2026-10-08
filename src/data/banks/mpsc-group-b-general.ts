@@ -8799,24 +8799,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If 2^x=64, then the value of  x is :",
+    "question": "If 2ˣ = 64, what is x?",
     "options": [
       "3",
       "4",
       "5",
       "6"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Since 64 = 2⁶, x = 6 (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q52",
@@ -8827,21 +8825,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If 5=  , the the value of x is : 625",
+    "question": "If 5ˣ = 1/625, what is x?",
     "options": [
       "−1",
       "−2",
       "−3",
       "−4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Because 625 = 5⁴, 1/625 = 5⁻⁴; therefore x = −4 (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q53",
@@ -8852,24 +8851,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The value of  3−9+14−6−3−21 is : ()",
+    "question": "Evaluate 3 − [9 + {14 − (6 − 3 − 21)}].",
     "options": [
       "−37",
       "−38",
       "−39",
       "−41"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Evaluate inside out: 6−3−21=−18; 14−(−18)=32; 9+32=41; then 3−41=−38 (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q54",
@@ -8914,13 +8911,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "5"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Taking “of” first, 1 1/5 of 5/21 = 2/7. Then 1 2/9 ÷ 2/7 + 1/3 = 11/9 × 7/2 + 1/3 = 83/18, which matches none of the options.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held out because the conventional “of”-first evaluation gives 83/18, which is absent from the four options."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q56",
@@ -8931,21 +8928,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The value of (3.75 ×3.75−2 ×3.75×2.75+2.75×2.75)  is :",
+    "question": "Evaluate (3.75 × 3.75 − 2 × 3.75 × 2.75 + 2.75 × 2.75).",
     "options": [
       "1",
       "1.75",
       "4.75",
-      "6.50 x13"
+      "6.50"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The expression is (3.75−2.75)² = 1² = 1 (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q57",
@@ -8956,21 +8954,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If 1+ = , then the value of x is : 14412",
+    "question": "If √(1 + x/144) = 13/12, what is x?",
     "options": [
       "23",
       "24",
       "25",
       "26"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Squaring gives 1+x/144=169/144, so x=25 (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q58",
@@ -8981,7 +8980,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If18225 = 135, then the value of 18225+182.25 + 1.8225  +0.018225 is:",
+    "question": "Given √18225 = 135, evaluate √18225 + √182.25 + √1.8225 + √0.018225.",
     "options": [
       "1.49985",
       "14.9985",
@@ -8989,13 +8988,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "1499.85"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The terms are 135, 13.5, 1.35 and 0.135, which sum to 150; no listed option equals 150, so this item has no valid choice.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held out because the scan’s four square-root terms sum to 150, but none of the four printed options equals 150."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q59",
@@ -9006,24 +9005,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "An army officer tried to arrange 2030 of his soldiers in such a way that the number of rows equals the number of soldiers in each row. In this way of arrangement, how many soldiers need to be left out?",
+    "question": "An army officer wants to arrange 2,030 soldiers in a square, with the number of rows equal to the number of soldiers in each row. How many soldiers must be left out?",
     "options": [
       "6",
       "5",
       "4",
       "3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The largest square not exceeding 2,030 is 45²=2,025. The remainder is 2,030−2,025=5 soldiers (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q60",
@@ -9034,24 +9031,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A boy was asked to multiply a certain number by 25. He multiplied it by 52 and got his answer more than the correct one by 324. The number to be multiplied was :",
+    "question": "A boy was asked to multiply a number by 25. He multiplied it by 52 and obtained an answer 324 greater than the correct one. What was the number?",
     "options": [
       "12",
       "15",
       "25",
       "52"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The excess is (52−25)n=27n=324, so n=12 (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q61",
@@ -9062,24 +9057,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The smallest number by which 576 must be multiplied so that the product is a perfect cube is:",
+    "question": "What is the smallest number by which 576 must be multiplied so that the product is a perfect cube?",
     "options": [
       "2",
       "3",
       "4",
       "5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "576 = 2⁶×3². Multiplying by 3 makes each prime exponent a multiple of 3, so the smallest multiplier is 3 (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q62",
@@ -9090,24 +9083,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A number of two-digits is four times the sum of its digits. If 9 is added to the number, its digits interchange their places. The two-digit number is :",
+    "question": "A two-digit number is four times the sum of its digits. If 9 is added to the number, its digits are reversed. What is the number?",
     "options": [
       "48",
       "36",
       "24",
       "12"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Let the digits be a and b. The first condition gives 10a+b=4(a+b), hence b=2a. Reversal after adding 9 gives b−a=1, so a=1,b=2 and the number is 12 (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q63",
@@ -9118,7 +9109,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The average height of 30 girls, out of a class of 40 students is 160 cm and that of the remaining girls is 156 cm. What must be the average height of all the girls in the class ?",
+    "question": "The average height of 30 girls, out of a class of 40 students, is 160 cm, and that of the remaining girls is 156 cm. What is the average height of all the girls in the class?",
     "options": [
       "158 cm",
       "158.5 cm",
@@ -9126,16 +9117,13 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "159.5 cm"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The wording does not establish that the other 10 students are girls, yet asks for the average of all girls. The population to average is unclear.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held out because the question identifies 30 girls in a 40-student class but does not establish the remaining 10 students are girls, while asking for the average of all girls."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q64",
@@ -9146,24 +9134,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The average weight of 8 persons is increased by 2.5 kg when one of them, whose weight being 56 kg is replaced by a new man. The weight of the new man is :",
+    "question": "The average weight of 8 persons increases by 2.5 kg when a person weighing 56 kg is replaced by a new man. What is the new man’s weight?",
     "options": [
       "55 kg",
       "76 kg",
       "65 kg",
       "70 kg"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The total weight increases by 8×2.5=20 kg. Replacing 56 kg with 76 kg gives that increase, so B is correct.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q65",
@@ -9174,24 +9160,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The average of 11 observations is 60. If the average of the first 5 observations is 58 and that of the last 5 observations is 56, then the 6th observation is :",
+    "question": "The average of 11 observations is 60. The average of the first 5 is 58 and the average of the last 5 is 56. What is the 6th observation?",
     "options": [
       "90",
       "85",
       "70",
       "65"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The total is 11×60=660. The first five sum to 290 and the last five to 280; the sixth observation is 660−290−280=90 (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q66",
@@ -9202,24 +9186,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A and B, working together can finish a piece of work in 6 days, while A alone can finish it in 9 days. How much time will B alone take to finish it?",
+    "question": "A and B together can finish a job in 6 days, while A alone can finish it in 9 days. How long would B alone take?",
     "options": [
       "10 days",
       "12 days",
       "15 days",
       "18 days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "B’s daily rate is 1/6−1/9=1/18 of the job, so B would take 18 days (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q67",
@@ -9256,24 +9238,24 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A speed of 15 m/sec is equal to :",
+    "question": "A speed of 15 m/s is equal to:",
     "options": [
-      "42 km/hr",
-      "48 km/hr",
-      "54 km/hr",
-      "60 km/hr"
+      "42 km/h",
+      "48 km/h",
+      "54 km/h",
+      "60 km/h"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Convert m/s to km/h by multiplying by 3.6: 15×3.6=54 km/h (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q69",
@@ -9284,24 +9266,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A car runs at 36 km/hr. How far does it run in 12 seconds?",
+    "question": "A car travels at 36 km/h. How far does it travel in 12 seconds?",
     "options": [
       "110 metres",
       "120 metres",
       "124 metres",
       "128 metres"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "36 km/h = 10 m/s. In 12 seconds the car travels 10×12=120 metres (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q70",
@@ -9312,24 +9292,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If a bus runs at 42 km/hr, what time will it take to cover 350 metres?",
+    "question": "If a bus travels at 42 km/h, how long will it take to cover 350 metres?",
     "options": [
       "30 seconds",
       "32 seconds",
       "35 seconds",
-      "40 seconds 14916"
+      "40 seconds"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "42 km/h = 35/3 m/s. Time = 350 ÷ (35/3) = 30 seconds (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q71",

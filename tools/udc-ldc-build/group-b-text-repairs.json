@@ -1213,7 +1213,7 @@
       "sourceSha256": "59ae97a9f3f3dadcb9582215f9ec4387fffda3a6296d3658cc79589ee85ebdae",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–50, 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous or defective items remain unscored.",
+      "evidence": "Questions 1–70, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous or defective items remain unscored.",
       "questions": {
         "1": {
           "n": 1,
@@ -1735,7 +1735,12 @@
           "page": 7,
           "part": null,
           "q": "Which ministry launched the Model Women-Friendly Gram Panchayats initiative in 2025?",
-          "opts": {"a": "Ministry of Women and Child Development", "b": "Ministry of Home Affairs", "c": "Ministry of Rural Development", "d": "Ministry of Panchayati Raj"},
+          "opts": {
+            "a": "Ministry of Women and Child Development",
+            "b": "Ministry of Home Affairs",
+            "c": "Ministry of Rural Development",
+            "d": "Ministry of Panchayati Raj"
+          },
           "explanation": "The Ministry of Panchayati Raj launched the Model Women-Friendly Gram Panchayats initiative in March 2025, so D is correct."
         },
         "42": {
@@ -1743,7 +1748,12 @@
           "page": 7,
           "part": null,
           "q": "What is the name of the Election Commission of India’s digital platform for real-time voter-turnout reporting?",
-          "opts": {"a": "ECINET", "b": "VoteCast", "c": "PollCheck", "d": "None of the above"},
+          "opts": {
+            "a": "ECINET",
+            "b": "VoteCast",
+            "c": "PollCheck",
+            "d": "None of the above"
+          },
           "explanation": "The Election Commission’s ECINET platform consolidates its digital services, including access to polling trends and voter-turnout information."
         },
         "43": {
@@ -1751,7 +1761,12 @@
           "page": 7,
           "part": null,
           "q": "What postal service did the Department of Posts launch in 2025 specifically to deliver educational materials?",
-          "opts": {"a": "Shiksha Mail", "b": "Gyan Post", "c": "Bharat Book Post", "d": "Education Express"},
+          "opts": {
+            "a": "Shiksha Mail",
+            "b": "Gyan Post",
+            "c": "Bharat Book Post",
+            "d": "Education Express"
+          },
           "explanation": "Gyan Post is the Department of Posts’ 2025 service for sending educational materials, including books and study material."
         },
         "44": {
@@ -1759,7 +1774,12 @@
           "page": 7,
           "part": null,
           "q": "What is the name of the world’s first Digital Tribal University launched in New Delhi?",
-          "opts": {"a": "Janjatiya Kala Kendra", "b": "Adi Sampada", "c": "Adi Sanskriti", "d": "Aadi Mahotsav"},
+          "opts": {
+            "a": "Janjatiya Kala Kendra",
+            "b": "Adi Sampada",
+            "c": "Adi Sanskriti",
+            "d": "Aadi Mahotsav"
+          },
           "explanation": "The official description identifies Adi Sanskriti as a digital learning platform, while a full-fledged Digital Tribal University was described as an idea under exploration; the premise is not supported as written.",
           "unscored": true,
           "reviewNote": "Held out because the official announcement describes Adi Sanskriti as a digital learning platform and says a full-fledged Digital Tribal University was only being explored; it does not support the question’s claim that a university had already been launched."
@@ -1769,7 +1789,12 @@
           "page": 7,
           "part": null,
           "q": "Which state ranked first in the ICJS 2.0 national rankings released in January 2026?",
-          "opts": {"a": "Uttarakhand", "b": "Assam", "c": "Haryana", "d": "Maharashtra"},
+          "opts": {
+            "a": "Uttarakhand",
+            "b": "Assam",
+            "c": "Haryana",
+            "d": "Maharashtra"
+          },
           "explanation": "Uttarakhand ranked first in the January 2026 ICJS 2.0 dashboard standings, ahead of Haryana and Assam."
         },
         "46": {
@@ -1777,7 +1802,12 @@
           "page": 7,
           "part": null,
           "q": "The National Sports Governance Act, partially brought into effect from 1 January 2026, primarily aims to:",
-          "opts": {"a": "Nationalise all sports federations", "b": "Revise eligibility criteria for Olympic selection", "c": "Establish governance structures for national and regional sports bodies", "d": "Create a single unified national sports team"},
+          "opts": {
+            "a": "Nationalise all sports federations",
+            "b": "Revise eligibility criteria for Olympic selection",
+            "c": "Establish governance structures for national and regional sports bodies",
+            "d": "Create a single unified national sports team"
+          },
           "explanation": "The Act establishes a statutory framework for recognition, governance and oversight of national sports bodies, including their governance structures."
         },
         "47": {
@@ -1785,7 +1815,12 @@
           "page": 7,
           "part": null,
           "q": "Which country is hosting the 18th BRICS Summit in 2026?",
-          "opts": {"a": "South Africa", "b": "China", "c": "Brazil", "d": "India"},
+          "opts": {
+            "a": "South Africa",
+            "b": "China",
+            "c": "Brazil",
+            "d": "India"
+          },
           "explanation": "India holds the BRICS chairship in 2026 and is hosting the 18th summit."
         },
         "48": {
@@ -1793,7 +1828,12 @@
           "page": 7,
           "part": null,
           "q": "Which country became the first to formally recognise the self-declared Republic of Somaliland as an independent and sovereign state?",
-          "opts": {"a": "Israel", "b": "Russia", "c": "Pakistan", "d": "India"},
+          "opts": {
+            "a": "Israel",
+            "b": "Russia",
+            "c": "Pakistan",
+            "d": "India"
+          },
           "explanation": "Israel announced formal recognition of Somaliland in December 2025, becoming the first country to do so."
         },
         "49": {
@@ -1801,7 +1841,12 @@
           "page": 7,
           "part": null,
           "q": "During German Federal Chancellor Friedrich Merz’s January 2026 visit to India, which areas were prominent in bilateral discussions?",
-          "opts": {"a": "Space cooperation", "b": "Trade and defence cooperation", "c": "Sports diplomacy", "d": "Climate finance and green-energy cooperation"},
+          "opts": {
+            "a": "Space cooperation",
+            "b": "Trade and defence cooperation",
+            "c": "Sports diplomacy",
+            "d": "Climate finance and green-energy cooperation"
+          },
           "explanation": "The visit covered trade, defence, green development and other areas; the scan’s wording asks for a single primary focus without distinguishing among these prominent topics.",
           "unscored": true,
           "reviewNote": "Held out because official visit materials list trade and investment, defence and security, and green and sustainable development as cooperation areas. The prompt's ‘primary focus’ wording does not distinguish among those topics, so more than one offered choice is supportable."
@@ -1811,7 +1856,12 @@
           "page": 7,
           "part": null,
           "q": "What initially triggered the widespread protests in Iran in 2025–26?",
-          "opts": {"a": "A foreign military invasion", "b": "A political election dispute", "c": "An economic crisis involving soaring inflation and a collapsing currency", "d": "A major environmental disaster"},
+          "opts": {
+            "a": "A foreign military invasion",
+            "b": "A political election dispute",
+            "c": "An economic crisis involving soaring inflation and a collapsing currency",
+            "d": "A major environmental disaster"
+          },
           "explanation": "The protests began amid sharp price rises and the rial’s collapse, which intensified public anger over Iran’s economic crisis."
         },
         "40": {
@@ -1826,6 +1876,45 @@
             "d": "₹124"
           },
           "explanation": "The half-yearly rate is 2.5%. The January deposit earns ₹1,600[(1.025)²−1]=₹81; the July deposit earns ₹1,600×0.025=₹40. Total interest is ₹121 (A)."
+        },
+        "51": {
+          "n": 51,
+          "page": 8,
+          "part": null,
+          "q": "If 2ˣ = 64, what is x?",
+          "opts": {
+            "a": "3",
+            "b": "4",
+            "c": "5",
+            "d": "6"
+          },
+          "explanation": "Since 64 = 2⁶, x = 6 (D)."
+        },
+        "52": {
+          "n": 52,
+          "page": 8,
+          "part": null,
+          "q": "If 5ˣ = 1/625, what is x?",
+          "opts": {
+            "a": "−1",
+            "b": "−2",
+            "c": "−3",
+            "d": "−4"
+          },
+          "explanation": "Because 625 = 5⁴, 1/625 = 5⁻⁴; therefore x = −4 (D)."
+        },
+        "53": {
+          "n": 53,
+          "page": 8,
+          "part": null,
+          "q": "Evaluate 3 − [9 + {14 − (6 − 3 − 21)}].",
+          "opts": {
+            "a": "−37",
+            "b": "−38",
+            "c": "−39",
+            "d": "−41"
+          },
+          "explanation": "Evaluate inside out: 6−3−21=−18; 14−(−18)=32; 9+32=41; then 3−41=−38 (B)."
         },
         "54": {
           "n": 54,
@@ -1849,7 +1938,10 @@
             "c": "4",
             "d": "5"
           },
-          "part": null
+          "part": null,
+          "explanation": "Taking “of” first, 1 1/5 of 5/21 = 2/7. Then 1 2/9 ÷ 2/7 + 1/3 = 11/9 × 7/2 + 1/3 = 83/18, which matches none of the options.",
+          "unscored": true,
+          "reviewNote": "Held out because the conventional “of”-first evaluation gives 83/18, which is absent from the four options."
         },
         "67": {
           "n": 67,
@@ -1886,6 +1978,192 @@
             "d": "8/11"
           },
           "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 8,
+          "part": null,
+          "q": "Evaluate (3.75 × 3.75 − 2 × 3.75 × 2.75 + 2.75 × 2.75).",
+          "opts": {
+            "a": "1",
+            "b": "1.75",
+            "c": "4.75",
+            "d": "6.50"
+          },
+          "explanation": "The expression is (3.75−2.75)² = 1² = 1 (A)."
+        },
+        "57": {
+          "n": 57,
+          "page": 8,
+          "part": null,
+          "q": "If √(1 + x/144) = 13/12, what is x?",
+          "opts": {
+            "a": "23",
+            "b": "24",
+            "c": "25",
+            "d": "26"
+          },
+          "explanation": "Squaring gives 1+x/144=169/144, so x=25 (C)."
+        },
+        "58": {
+          "n": 58,
+          "page": 8,
+          "part": null,
+          "q": "Given √18225 = 135, evaluate √18225 + √182.25 + √1.8225 + √0.018225.",
+          "opts": {
+            "a": "1.49985",
+            "b": "14.9985",
+            "c": "149.985",
+            "d": "1499.85"
+          },
+          "explanation": "The terms are 135, 13.5, 1.35 and 0.135, which sum to 150; no listed option equals 150, so this item has no valid choice.",
+          "unscored": true,
+          "reviewNote": "Held out because the scan’s four square-root terms sum to 150, but none of the four printed options equals 150."
+        },
+        "59": {
+          "n": 59,
+          "page": 8,
+          "part": null,
+          "q": "An army officer wants to arrange 2,030 soldiers in a square, with the number of rows equal to the number of soldiers in each row. How many soldiers must be left out?",
+          "opts": {
+            "a": "6",
+            "b": "5",
+            "c": "4",
+            "d": "3"
+          },
+          "explanation": "The largest square not exceeding 2,030 is 45²=2,025. The remainder is 2,030−2,025=5 soldiers (B)."
+        },
+        "60": {
+          "n": 60,
+          "page": 9,
+          "part": null,
+          "q": "A boy was asked to multiply a number by 25. He multiplied it by 52 and obtained an answer 324 greater than the correct one. What was the number?",
+          "opts": {
+            "a": "12",
+            "b": "15",
+            "c": "25",
+            "d": "52"
+          },
+          "explanation": "The excess is (52−25)n=27n=324, so n=12 (A)."
+        },
+        "61": {
+          "n": 61,
+          "page": 9,
+          "part": null,
+          "q": "What is the smallest number by which 576 must be multiplied so that the product is a perfect cube?",
+          "opts": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "5"
+          },
+          "explanation": "576 = 2⁶×3². Multiplying by 3 makes each prime exponent a multiple of 3, so the smallest multiplier is 3 (B)."
+        },
+        "62": {
+          "n": 62,
+          "page": 9,
+          "part": null,
+          "q": "A two-digit number is four times the sum of its digits. If 9 is added to the number, its digits are reversed. What is the number?",
+          "opts": {
+            "a": "48",
+            "b": "36",
+            "c": "24",
+            "d": "12"
+          },
+          "explanation": "Let the digits be a and b. The first condition gives 10a+b=4(a+b), hence b=2a. Reversal after adding 9 gives b−a=1, so a=1,b=2 and the number is 12 (D)."
+        },
+        "63": {
+          "n": 63,
+          "page": 9,
+          "part": null,
+          "q": "The average height of 30 girls, out of a class of 40 students, is 160 cm, and that of the remaining girls is 156 cm. What is the average height of all the girls in the class?",
+          "opts": {
+            "a": "158 cm",
+            "b": "158.5 cm",
+            "c": "159 cm",
+            "d": "159.5 cm"
+          },
+          "explanation": "The wording does not establish that the other 10 students are girls, yet asks for the average of all girls. The population to average is unclear.",
+          "unscored": true,
+          "reviewNote": "Held out because the question identifies 30 girls in a 40-student class but does not establish the remaining 10 students are girls, while asking for the average of all girls."
+        },
+        "64": {
+          "n": 64,
+          "page": 9,
+          "part": null,
+          "q": "The average weight of 8 persons increases by 2.5 kg when a person weighing 56 kg is replaced by a new man. What is the new man’s weight?",
+          "opts": {
+            "a": "55 kg",
+            "b": "76 kg",
+            "c": "65 kg",
+            "d": "70 kg"
+          },
+          "explanation": "The total weight increases by 8×2.5=20 kg. Replacing 56 kg with 76 kg gives that increase, so B is correct."
+        },
+        "65": {
+          "n": 65,
+          "page": 9,
+          "part": null,
+          "q": "The average of 11 observations is 60. The average of the first 5 is 58 and the average of the last 5 is 56. What is the 6th observation?",
+          "opts": {
+            "a": "90",
+            "b": "85",
+            "c": "70",
+            "d": "65"
+          },
+          "explanation": "The total is 11×60=660. The first five sum to 290 and the last five to 280; the sixth observation is 660−290−280=90 (A)."
+        },
+        "66": {
+          "n": 66,
+          "page": 9,
+          "part": null,
+          "q": "A and B together can finish a job in 6 days, while A alone can finish it in 9 days. How long would B alone take?",
+          "opts": {
+            "a": "10 days",
+            "b": "12 days",
+            "c": "15 days",
+            "d": "18 days"
+          },
+          "explanation": "B’s daily rate is 1/6−1/9=1/18 of the job, so B would take 18 days (D)."
+        },
+        "68": {
+          "n": 68,
+          "page": 9,
+          "part": null,
+          "q": "A speed of 15 m/s is equal to:",
+          "opts": {
+            "a": "42 km/h",
+            "b": "48 km/h",
+            "c": "54 km/h",
+            "d": "60 km/h"
+          },
+          "explanation": "Convert m/s to km/h by multiplying by 3.6: 15×3.6=54 km/h (C)."
+        },
+        "69": {
+          "n": 69,
+          "page": 9,
+          "part": null,
+          "q": "A car travels at 36 km/h. How far does it travel in 12 seconds?",
+          "opts": {
+            "a": "110 metres",
+            "b": "120 metres",
+            "c": "124 metres",
+            "d": "128 metres"
+          },
+          "explanation": "36 km/h = 10 m/s. In 12 seconds the car travels 10×12=120 metres (B)."
+        },
+        "70": {
+          "n": 70,
+          "page": 9,
+          "part": null,
+          "q": "If a bus travels at 42 km/h, how long will it take to cover 350 metres?",
+          "opts": {
+            "a": "30 seconds",
+            "b": "32 seconds",
+            "c": "35 seconds",
+            "d": "40 seconds"
+          },
+          "explanation": "42 km/h = 35/3 m/s. Time = 350 ÷ (35/3) = 30 seconds (A)."
         }
       },
       "derivedAnswers": {
@@ -2046,17 +2324,101 @@
           "answerIndex": 2,
           "explanation": "The selling price is 122.5% of cost. Cost=₹392/1.225=₹320, so profit=₹392−₹320=₹72 (C)."
         },
-        "41": {"answerIndex": 3, "explanation": "The Ministry of Panchayati Raj launched the Model Women-Friendly Gram Panchayats initiative in March 2025, so D is correct."},
-        "42": {"answerIndex": 0, "explanation": "The Election Commission’s ECINET platform consolidates its digital services, including access to polling trends and voter-turnout information."},
-        "43": {"answerIndex": 1, "explanation": "Gyan Post is the Department of Posts’ 2025 service for sending educational materials, including books and study material."},
-        "45": {"answerIndex": 0, "explanation": "Uttarakhand ranked first in the January 2026 ICJS 2.0 dashboard standings, ahead of Haryana and Assam."},
-        "46": {"answerIndex": 2, "explanation": "The Act establishes a statutory framework for recognition, governance and oversight of national sports bodies, including their governance structures."},
-        "47": {"answerIndex": 3, "explanation": "India holds the BRICS chairship in 2026 and is hosting the 18th summit."},
-        "48": {"answerIndex": 0, "explanation": "Israel announced formal recognition of Somaliland in December 2025, becoming the first country to do so."},
-        "50": {"answerIndex": 2, "explanation": "The protests began amid sharp price rises and the rial’s collapse, which intensified public anger over Iran’s economic crisis."},
+        "41": {
+          "answerIndex": 3,
+          "explanation": "The Ministry of Panchayati Raj launched the Model Women-Friendly Gram Panchayats initiative in March 2025, so D is correct."
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "The Election Commission’s ECINET platform consolidates its digital services, including access to polling trends and voter-turnout information."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "Gyan Post is the Department of Posts’ 2025 service for sending educational materials, including books and study material."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "Uttarakhand ranked first in the January 2026 ICJS 2.0 dashboard standings, ahead of Haryana and Assam."
+        },
+        "46": {
+          "answerIndex": 2,
+          "explanation": "The Act establishes a statutory framework for recognition, governance and oversight of national sports bodies, including their governance structures."
+        },
+        "47": {
+          "answerIndex": 3,
+          "explanation": "India holds the BRICS chairship in 2026 and is hosting the 18th summit."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "Israel announced formal recognition of Somaliland in December 2025, becoming the first country to do so."
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "The protests began amid sharp price rises and the rial’s collapse, which intensified public anger over Iran’s economic crisis."
+        },
         "40": {
           "answerIndex": 0,
           "explanation": "The half-yearly rate is 2.5%. The January deposit earns ₹1,600[(1.025)²−1]=₹81; the July deposit earns ₹1,600×0.025=₹40. Total interest is ₹121 (A)."
+        },
+        "51": {
+          "answerIndex": 3,
+          "explanation": "Since 64 = 2⁶, x = 6 (D)."
+        },
+        "52": {
+          "answerIndex": 3,
+          "explanation": "Because 625 = 5⁴, 1/625 = 5⁻⁴; therefore x = −4 (D)."
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "Evaluate inside out: 6−3−21=−18; 14−(−18)=32; 9+32=41; then 3−41=−38 (B)."
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "The expression is (3.75−2.75)² = 1² = 1 (A)."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "Squaring gives 1+x/144=169/144, so x=25 (C)."
+        },
+        "59": {
+          "answerIndex": 1,
+          "explanation": "The largest square not exceeding 2,030 is 45²=2,025. The remainder is 2,030−2,025=5 soldiers (B)."
+        },
+        "60": {
+          "answerIndex": 0,
+          "explanation": "The excess is (52−25)n=27n=324, so n=12 (A)."
+        },
+        "61": {
+          "answerIndex": 1,
+          "explanation": "576 = 2⁶×3². Multiplying by 3 makes each prime exponent a multiple of 3, so the smallest multiplier is 3 (B)."
+        },
+        "62": {
+          "answerIndex": 3,
+          "explanation": "Let the digits be a and b. The first condition gives 10a+b=4(a+b), hence b=2a. Reversal after adding 9 gives b−a=1, so a=1,b=2 and the number is 12 (D)."
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "The total weight increases by 8×2.5=20 kg. Replacing 56 kg with 76 kg gives that increase, so B is correct."
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "The total is 11×60=660. The first five sum to 290 and the last five to 280; the sixth observation is 660−290−280=90 (A)."
+        },
+        "66": {
+          "answerIndex": 3,
+          "explanation": "B’s daily rate is 1/6−1/9=1/18 of the job, so B would take 18 days (D)."
+        },
+        "68": {
+          "answerIndex": 2,
+          "explanation": "Convert m/s to km/h by multiplying by 3.6: 15×3.6=54 km/h (C)."
+        },
+        "69": {
+          "answerIndex": 1,
+          "explanation": "36 km/h = 10 m/s. In 12 seconds the car travels 10×12=120 metres (B)."
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "42 km/h = 35/3 m/s. Time = 350 ÷ (35/3) = 30 seconds (A)."
         }
       }
     },

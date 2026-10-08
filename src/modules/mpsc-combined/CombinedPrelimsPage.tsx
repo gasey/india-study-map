@@ -4,7 +4,7 @@ import { useAttemptState } from '@/modules/mpsc/useAttemptState';
 import './combined-prelims.css';
 
 type Paper = (typeof archive.papers)[number];
-type Question = (typeof archive.questions)[number];
+type Question = Omit<(typeof archive.questions)[number], 'options'> & { options: string[] };
 type Tab = 'overview' | 'browse' | 'practice' | 'mock';
 type Progress = Record<string, { attempts: number; correct: boolean; at: number }>;
 const PROGRESS_KEY = 'jabreeze.mcs-combined-prelims.progress.v1';
@@ -53,6 +53,7 @@ function QuestionCard({ q, paper, mode, onRecord, progress }: {
   const answered = chosen !== null;
   const canCheck = q.scoreable && q.answerIndex >= 0;
   const comparedAnswer = q.answerIndex >= 0 ? q.answerIndex : q.officialAnswerCandidateIndex;
+  const isFallback = q.derivedExplanation?.includes('Best-effort selection') || false;
   const check = () => {
     if (!answered || !canCheck || revealed) return;
     setRevealed(true);
@@ -81,6 +82,8 @@ function QuestionCard({ q, paper, mode, onRecord, progress }: {
       {!q.scoreable && <span className="cp-badge is-review">{q.answerStatus === 'no_official_key' ? 'No official key found' : q.answerStatus === 'official_key_unparsed' ? 'Official key not matched' : 'Read with source PDF'}</span>}
       <span className="cp-muted">{q.subject}{q.subjectSource === 'auto-keyword' ? ' · provisional tag' : ''}</span>
       {progress?.[q.id] && <span className="cp-muted">Practised {progress[q.id].attempts}× · last {progress[q.id].correct ? 'correct' : 'incorrect'}</span>}
+      {isFallback && <span className="cp-badge is-fallback" title="Answer derived from garbled OCR text — verify with source PDF">⚠ Verify with PDF</span>}
+      {q.derivedAnswerSource && !isFallback && <span className="cp-badge is-derived" title="Independent answer with explanation">✓ Derived answer</span>}
       {mode === 'browse' && q.answerIndex >= 0 && <button type="button" className="cp-link-button" onClick={() => setRevealed((v) => !v)}>{revealed ? 'Hide key' : 'Show key'}</button>}
     </div>
     {revealed && q.answerIndex >= 0 && <div className="cp-answer">{q.answerSource === 'official-final-ocr' ? 'Official key OCR' : 'Final key'}: <strong>{LETTERS[q.answerIndex]}</strong>{mode === 'practice' && answered && ` · ${chosen === q.answerIndex ? 'Correct' : 'Incorrect'}`}</div>}

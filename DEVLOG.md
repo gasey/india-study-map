@@ -9,6 +9,38 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-08 — Combined prelims: all 3,292 queue questions answered
+
+**What shipped.** `derived-answers.jsonl` now has an answer for every one of
+the 3,292 rows in `model-queue.jsonl` (36 papers, 2016/2021/2023/2024/2025).
+`python3 tools/mpsc-combined-build/build.py` stays green ("Built 36 papers,
+3292 extracted questions…"), the 3 unit tests pass, and `npm run build`
+succeeds. This session added the final 1,379 entries: 2025 Paper-II D
+(reasoned by hand) propagated to Paper-II A and to B/C via the verified +50
+printed-number rotation; 2025 Paper-I A solved by a fresh subagent and
+propagated to B/C/D; 2016 Paper-I A/B/D propagated from the already-answered
+C series; 2016 Paper-II A–D and 2021 Paper-II each answered independently by
+fresh subagents. All append batches were validated (parse, answer in A–D, no
+duplicate ids) before each build+test run.
+
+**Why.** Goal was a complete model-answer set shown beside the official key
+for human review. Option order was checked across every series pair
+(`identical=N, permuted=0` everywhere), so copying the answer letter between
+text-matched questions is valid. Garbled OCR items where the stem and the
+stored options belong to different printed questions (notably 2025 `i-d`)
+were mapped by exact normalized option-set match to the same question in
+series A.
+
+**What's still open.** All of these are provisional model answers (model
+"Nemotron 3 Ultra"); per the README they must be checked against source PDFs
+before being treated as authoritative, and they never change scored practice
+(297 scoreable items unchanged). The official 2025 final answer keys exist on
+the MPSC site but were deliberately NOT used to fill `derived-answers.jsonl`,
+since the build treats derived answers as independent model outputs to compare
+against the keys.
+
+---
+
 ## 2026-10-08 — Group B answer readiness repairs
 
 **What shipped locally.** Source-checked and repaired AAO English Q2, AAO

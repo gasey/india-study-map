@@ -28,11 +28,26 @@ class CombinedPrelimsBankTest(unittest.TestCase):
         by_id = {p["id"]: p for p in DATA["papers"]}
         queue = [json.loads(line) for line in (ROOT / "tools/mpsc-combined-build/model-queue.jsonl").read_text().splitlines()]
         self.assertEqual({row["id"] for row in queue}, {q["id"] for q in DATA["questions"]})
+        derived = [json.loads(line) for line in (ROOT / "tools/mpsc-combined-build/derived-answers.jsonl").read_text().splitlines() if line.strip()]
+        derived_by_id = {row["id"]: row for row in derived}
+        self.assertEqual(len(derived_by_id), len(derived))
+        self.assertGreater(len(derived), 0)
         for q in DATA["questions"]:
             paper = by_id[q["paperId"]]
             self.assertTrue(q["subject"])
             self.assertIn(q["subjectSource"], ("auto-keyword", "paper-fallback"))
-            self.assertEqual(q["derivedAnswerIndex"], -1)
+            # Derived answers are proposals only: valid index, labelled, never scored.
+            self.assertIn(q["derivedAnswerIndex"], range(-1, 4))
+            if q["id"] in derived_by_id:
+                self.assertEqual(q["derivedAnswerIndex"], "ABCD".index(derived_by_id[q["id"]]["answer"]))
+                self.assertEqual(q["derivedAnswerSource"], derived_by_id[q["id"]]["model"])
+                self.assertTrue(q["derivedExplanation"])
+                # Derived answers are never the scored answer.
+                if q["scoreable"]:
+                    self.assertEqual(q["answerSource"], "official-final")
+            else:
+                self.assertEqual(q["derivedAnswerIndex"], -1)
+                self.assertIsNone(q["derivedAnswerSource"])
             if q["scoreable"]:
                 self.assertEqual((paper["year"], paper["paper"]), (2023, "I"))
                 self.assertEqual(q["answerSource"], "official-final")

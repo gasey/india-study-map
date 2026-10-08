@@ -24,3 +24,4 @@ __pycache__/
 # just a same-session undo and should never be committed.
 *.js.bak
 *.js.bak[0-9]
+*.json.backup

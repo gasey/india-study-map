@@ -75436,15 +75436,15 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following diagram depicts the relation among Currency, Dinar and Rupee? (i)(ii) (iii)(iv)",
+    "question": "Which diagram shows the relationship among Currency, Dinar and Rupee?",
     "options": [
-      "i",
-      "ii",
-      "iii",
-      "iv"
+      "Diagram (i): all three circles overlap.",
+      "Diagram (ii): three circles overlap in a chain; the first and third do not overlap.",
+      "Diagram (iii): three separate circles.",
+      "Diagram (iv): two separate circles inside one larger circle."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A dinar and a rupee are both types of currency, while they are distinct from each other. Diagram (iv) places two separate groups inside the larger Currency group.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=10",
@@ -75453,9 +75453,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "imagePath": "si-police-2026-p2-q089.png",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q90",
@@ -75655,7 +75654,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "From the figure given below, determine the number of students who did not study any of the two subjects.",
+    "question": "A survey of 300 students records 92 who studied only Mizo, 43 who studied both Mizo and History, and 85 who studied only History. According to the figure, how many students studied neither subject?",
     "options": [
       "134",
       "220",
@@ -75663,22 +75662,19 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "166"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The diagram gives 92 in Mizo only, 43 in both subjects, and 85 in History only. These sum to 220, so the printed total of 300 implies 80 studied neither. Since 80 is absent from the options and the final key selects 166, the item is held out from scoring.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=11",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
+    "imagePath": "si-police-2026-p2-q096.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+    "sourceNote": "Held out: the printed total and disjoint Venn regions imply 300−(92+43+85)=80 students studied neither, but 80 is not an option and the final key selects D (166). The scan and key conflict."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q97",
@@ -75689,15 +75685,15 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Find out which of the answer figures will replace the question mark in the matrix. Answer Figures:",
+    "question": "Which answer figure replaces the question mark in the arrow matrix?",
     "options": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In each row, the left and right cells match, with the middle cell reversing the second arrow. In the bottom row, both outer cells have a downward second arrow, so the middle cell needs an upward second arrow; its first arrow is upward like the other middle-column cells. Figure 2 has two upward arrows.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=11",
@@ -75706,9 +75702,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "imagePath": "si-police-2026-p2-q097.png",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q98",
@@ -75719,15 +75714,15 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Find out which of the answer figures replaces the question mark in the matrix. Answer figures:",
+    "question": "Which answer figure completes the shading pattern in the matrix?",
     "options": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Across each row, the second figure adds shading to one region and the third adds the next region. In the circle row, the top-right quadrant is shaded in the middle cell, so the final cell shades the next quadrant as well, giving the right half. Answer figure 1 completes the pattern.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=12",
@@ -75736,9 +75731,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "imagePath": "si-police-2026-p2-q098.png",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q99",

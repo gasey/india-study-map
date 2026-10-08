@@ -1299,7 +1299,7 @@
       "sourceSha256": "8f9322ca10bb444e7395d407c7f0f4fe6b2568f1e36faacf33413d101d08b9a8",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 53–54 transcribed against rendered PDF page 6; radicals, options and order checked visually. Final SI Police key cells were checked in verified-general-keys.json.",
+      "evidence": "Questions 53–54 transcribed against rendered PDF page 6; radicals, options and order checked visually. Final SI Police key cells were checked in verified-general-keys.json. Questions 89 and 96–98 were also checked against rendered pages 10–12; recovered figure crops preserve the diagrams. Q96 remains unscored because the figure arithmetic conflicts with the final key and options.",
       "questions": {
         "53": {
           "n": 53,
@@ -1324,6 +1324,64 @@
             "d": "13/2"
           },
           "part": null
+        },
+        "89": {
+          "n": 89,
+          "page": 10,
+          "part": null,
+          "q": "Which diagram shows the relationship among Currency, Dinar and Rupee?",
+          "opts": {
+            "a": "Diagram (i): all three circles overlap.",
+            "b": "Diagram (ii): three circles overlap in a chain; the first and third do not overlap.",
+            "c": "Diagram (iii): three separate circles.",
+            "d": "Diagram (iv): two separate circles inside one larger circle."
+          },
+          "imagePath": "si-police-2026-p2-q089.png",
+          "explanation": "A dinar and a rupee are both types of currency, while they are distinct from each other. Diagram (iv) places two separate groups inside the larger Currency group."
+        },
+        "96": {
+          "n": 96,
+          "page": 11,
+          "part": null,
+          "q": "A survey of 300 students records 92 who studied only Mizo, 43 who studied both Mizo and History, and 85 who studied only History. According to the figure, how many students studied neither subject?",
+          "opts": {
+            "a": "134",
+            "b": "220",
+            "c": "123",
+            "d": "166"
+          },
+          "imagePath": "si-police-2026-p2-q096.png",
+          "unscored": true,
+          "reviewNote": "Held out: the printed total and disjoint Venn regions imply 300−(92+43+85)=80 students studied neither, but 80 is not an option and the final key selects D (166). The scan and key conflict.",
+          "explanation": "The diagram gives 92 in Mizo only, 43 in both subjects, and 85 in History only. These sum to 220, so the printed total of 300 implies 80 studied neither. Since 80 is absent from the options and the final key selects 166, the item is held out from scoring."
+        },
+        "97": {
+          "n": 97,
+          "page": 11,
+          "part": null,
+          "q": "Which answer figure replaces the question mark in the arrow matrix?",
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "imagePath": "si-police-2026-p2-q097.png",
+          "explanation": "In each row, the left and right cells match, with the middle cell reversing the second arrow. In the bottom row, both outer cells have a downward second arrow, so the middle cell needs an upward second arrow; its first arrow is upward like the other middle-column cells. Figure 2 has two upward arrows."
+        },
+        "98": {
+          "n": 98,
+          "page": 12,
+          "part": null,
+          "q": "Which answer figure completes the shading pattern in the matrix?",
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "imagePath": "si-police-2026-p2-q098.png",
+          "explanation": "Across each row, the second figure adds shading to one region and the third adds the next region. In the circle row, the top-right quadrant is shaded in the middle cell, so the final cell shades the next quadrant as well, giving the right half. Answer figure 1 completes the pattern."
         }
       }
     },

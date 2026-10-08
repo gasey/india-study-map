@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,455 items: 3,348 MCQs and 107 written prompts.
-1,723 questions are ready for practice, including 1,611 official answers and
-112 independently derived answers. 1,699 items still need source review.
+1,726 questions are ready for practice, including 1,614 official answers and
+112 independently derived answers. 1,696 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -65,6 +65,12 @@ Paper II Q84–100 were recovered from the complete Series B with matching
 key choices; six figure questions now have source images. Q64 is compensated.
 The November 2024 technical sitting contributes its general papers only;
 subject-specific technical subjects and gazetted exams are excluded.
+
+Sub-Inspector of Police (Un-armed Branch) Paper-II Q89 and Q96–98 now include
+the recovered diagram crops and scan-checked text. Q89, Q97 and Q98 match the
+final key with explanations. Q96 is held unscored: the printed Venn regions
+imply 80 students studied neither, but 80 is absent from the options and the
+final key selects 166.
 
 ## Durable inputs
 

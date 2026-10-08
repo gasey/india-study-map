@@ -1213,7 +1213,7 @@
       "sourceSha256": "59ae97a9f3f3dadcb9582215f9ec4387fffda3a6296d3658cc79589ee85ebdae",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–20, 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous items remain unscored.",
+      "evidence": "Questions 1–30, 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous or defective items remain unscored.",
       "questions": {
         "1": {
           "n": 1,
@@ -1477,6 +1477,140 @@
           },
           "explanation": "The Consumer Price Index measures changes in consumer prices and is used to calculate retail inflation (A)."
         },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": null,
+          "q": "The term “blue carbon” refers to:",
+          "opts": {
+            "a": "Carbon captured by oceans and coastal ecosystems",
+            "b": "Carbon sequestered in forest biomass and agricultural soils",
+            "c": "Carbon contained in petroleum and natural gas",
+            "d": "Carbon present in the atmosphere"
+          },
+          "explanation": "Blue carbon is carbon captured and stored by marine and coastal ecosystems such as mangroves, seagrasses and salt marshes (A)."
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": null,
+          "q": "With reference to IUCN and CITES, consider these statements: I. IUCN is an organ of the United Nations and CITES is an international agreement between governments. II. IUCN runs thousands of field projects around the world to better manage natural environments. III. CITES is legally binding on its member States, but does not replace national laws. Which statements are correct?",
+          "opts": {
+            "a": "I only",
+            "b": "II and III only",
+            "c": "I and III only",
+            "d": "I, II and III"
+          },
+          "explanation": "Statement I is false: IUCN is an independent membership union, not a UN organ. Statements II and III are true, so the answer is B."
+        },
+        "23": {
+          "n": 23,
+          "page": 4,
+          "part": null,
+          "q": "Consider these statements about Article 4 of the Paris Agreement: I. It is central to global climate action and is often cited in climate negotiations. II. It requires all Parties to prepare, communicate and maintain successive Nationally Determined Contributions (NDCs). III. It mandates legally binding emission-reduction targets for both developed and developing countries. Which option is correct?",
+          "opts": {
+            "a": "Both II and III are correct, and both explain I",
+            "b": "Both II and III are correct, but only one explains I",
+            "c": "Only statement II is correct, and it explains I",
+            "d": "Neither statement II nor III is correct"
+          },
+          "explanation": "Article 4 requires each Party to prepare and communicate successive NDCs. It does not impose identical legally binding emission-reduction targets; the content of the targets is nationally determined. Thus only II is correct (C)."
+        },
+        "24": {
+          "n": 24,
+          "page": 4,
+          "part": null,
+          "q": "Consider these statements: I. In India, Biodiversity Management Committees play a crucial role in achieving the objectives of the Nagoya Protocol. II. These committees have responsibilities in access and benefit-sharing, including imposing collection charges for use of biological resources within their jurisdiction. Which statement or statements are correct?",
+          "opts": {
+            "a": "I only",
+            "b": "II only",
+            "c": "Both I and II",
+            "d": "Neither I nor II"
+          },
+          "explanation": "Biodiversity Management Committees support local biodiversity governance and access-and-benefit-sharing, including collection fees for biological resources. Both statements are correct (C)."
+        },
+        "25": {
+          "n": 25,
+          "page": 4,
+          "part": null,
+          "q": "With reference to Eco-Sensitive Zones, consider these statements: I. They are areas notified under the Wildlife (Protection) Act, 1972. II. They ban all forms of human activity within their boundaries except agriculture. Which statement or statements are correct?",
+          "opts": {
+            "a": "I only",
+            "b": "II only",
+            "c": "Both I and II",
+            "d": "Neither I nor II"
+          },
+          "explanation": "Eco-Sensitive Zones are notified under the Environment (Protection) Act, 1986, not the Wildlife (Protection) Act. Activities are prohibited, regulated or permitted; they are not all banned. Both statements are false (D)."
+        },
+        "26": {
+          "n": 26,
+          "page": 4,
+          "part": null,
+          "q": "Which of the following is correct about ozone?",
+          "opts": {
+            "a": "It is a red-coloured gas",
+            "b": "It is odourless",
+            "c": "It is harmless in small concentrations",
+            "d": "None of the above"
+          },
+          "explanation": "Ozone is bluish and has a distinctive pungent odour; it can harm health even at low concentrations. Therefore none of A–C is correct (D)."
+        },
+        "27": {
+          "n": 27,
+          "page": 4,
+          "part": null,
+          "q": "Which organisation in 2025 launched Parker Solar Probe to study the Sun?",
+          "opts": {
+            "a": "National Aeronautics and Space Administration (NASA)",
+            "b": "Indian Space Research Organisation (ISRO)",
+            "c": "European Space Agency (ESA)",
+            "d": "Japan Aerospace Exploration Agency (JAXA)"
+          },
+          "unscored": true,
+          "reviewNote": "The scan states “in 2025 launched,” but Parker Solar Probe launched in 2018. The date makes the printed question false as written, so it is held out pending correction.",
+          "explanation": "NASA launched Parker Solar Probe in 2018. The printed stem incorrectly says it was launched in 2025, so this item is not scored as written."
+        },
+        "28": {
+          "n": 28,
+          "page": 5,
+          "part": null,
+          "q": "Evaluate these statements about polyethylene terephthalate (PET): I. PET fibres (polyester) are commonly blended with wool and cotton to improve strength, durability and wrinkle resistance. II. PET containers are not suitable for all alcoholic beverages, especially high-alcohol spirits, which are generally stored in glass. III. PET bottles can be recycled into products including fibres, containers and packaging materials. IV. Incinerating PET releases carbon dioxide and other gases, contributing to greenhouse-gas emissions. Which statements are correct?",
+          "opts": {
+            "a": "I and III",
+            "b": "II and IV",
+            "c": "I and IV",
+            "d": "II and III"
+          },
+          "unscored": true,
+          "reviewNote": "Held out: all four statements appear correct, but every offered choice lists only two statements. The option set has no “I, II, III and IV” answer.",
+          "explanation": "The four statements describe established PET uses, recycling and disposal impacts. Since all four are correct but no option lists all four, the item has no complete answer and is held out."
+        },
+        "29": {
+          "n": 29,
+          "page": 5,
+          "part": null,
+          "q": "With reference to microsatellite DNA, consider these statements: I. It consists of short tandemly repeated nucleotide sequences. II. It is highly polymorphic and varies among individuals. III. It is widely used in DNA fingerprinting and population genetics. IV. It directly codes for proteins involved in cellular metabolism. Which statements are correct?",
+          "opts": {
+            "a": "II and IV only",
+            "b": "I and IV only",
+            "c": "I, II and III only",
+            "d": "I, II, III and IV"
+          },
+          "explanation": "Microsatellites are short tandem repeats, are highly variable and are useful in DNA fingerprinting and population genetics. They are not protein-coding sequences; I, II and III are correct (C)."
+        },
+        "30": {
+          "n": 30,
+          "page": 5,
+          "part": null,
+          "q": "With reference to rare-earth minerals, consider these statements: I. They consist of metallic elements including the lanthanides. II. They are used in high-technology products such as smartphones and wind turbines. III. They are abundantly found in pure form in nature. IV. They are important in renewable-energy and defence technologies. Which statements are correct?",
+          "opts": {
+            "a": "I and III only",
+            "b": "I, II and IV only",
+            "c": "II, III and IV only",
+            "d": "I, II, III and IV"
+          },
+          "explanation": "Rare-earth elements include the lanthanides and are used in electronics, wind turbines and defence technologies. They are not generally found in abundant pure form; I, II and IV are correct (B)."
+        },
         "54": {
           "n": 54,
           "page": 8,
@@ -1631,6 +1765,38 @@
         "20": {
           "answerIndex": 0,
           "explanation": "The Consumer Price Index measures changes in consumer prices and is used to calculate retail inflation (A)."
+        },
+        "21": {
+          "answerIndex": 0,
+          "explanation": "Blue carbon is carbon captured and stored by marine and coastal ecosystems such as mangroves, seagrasses and salt marshes (A)."
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "Statement I is false: IUCN is an independent membership union, not a UN organ. Statements II and III are true, so the answer is B."
+        },
+        "23": {
+          "answerIndex": 2,
+          "explanation": "Article 4 requires each Party to prepare and communicate successive NDCs. It does not impose identical legally binding emission-reduction targets; the content of the targets is nationally determined. Thus only II is correct (C)."
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "Biodiversity Management Committees support local biodiversity governance and access-and-benefit-sharing, including collection fees for biological resources. Both statements are correct (C)."
+        },
+        "25": {
+          "answerIndex": 3,
+          "explanation": "Eco-Sensitive Zones are notified under the Environment (Protection) Act, 1986, not the Wildlife (Protection) Act. Activities are prohibited, regulated or permitted; they are not all banned. Both statements are false (D)."
+        },
+        "26": {
+          "answerIndex": 3,
+          "explanation": "Ozone is bluish and has a distinctive pungent odour; it can harm health even at low concentrations. Therefore none of A–C is correct (D)."
+        },
+        "29": {
+          "answerIndex": 2,
+          "explanation": "Microsatellites are short tandem repeats, are highly variable and are useful in DNA fingerprinting and population genetics. They are not protein-coding sequences; I, II and III are correct (C)."
+        },
+        "30": {
+          "answerIndex": 1,
+          "explanation": "Rare-earth elements include the lanthanides and are used in electronics, wind turbines and defence technologies. They are not generally found in abundant pure form; I, II and IV are correct (B)."
         }
       }
     },

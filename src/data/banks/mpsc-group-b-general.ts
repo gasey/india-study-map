@@ -8015,24 +8015,24 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The term ‘blue carbon’ refers to:",
+    "question": "The term “blue carbon” refers to:",
     "options": [
       "Carbon captured by oceans and coastal ecosystems",
       "Carbon sequestered in forest biomass and agricultural soils",
       "Carbon contained in petroleum and natural gas",
-      "Carbon present in atmosphere"
+      "Carbon present in the atmosphere"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Blue carbon is carbon captured and stored by marine and coastal ecosystems such as mangroves, seagrasses and salt marshes (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=3",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q22",
@@ -8043,21 +8043,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "With reference to the International Union for Conservation of Nature and Natural Resources (IUCN) and the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), which of the following statements is/are correct? I.IUCN is an organ of the United Nations and CITES is an international agreement between governments II.IUCN runs thousands of field projects around the world to better manage natural environments III.CITES is legally binding on the States that have joined it, but this Convention does not take the place of national laws Select the correct answer using the code given below:",
+    "question": "With reference to IUCN and CITES, consider these statements: I. IUCN is an organ of the United Nations and CITES is an international agreement between governments. II. IUCN runs thousands of field projects around the world to better manage natural environments. III. CITES is legally binding on its member States, but does not replace national laws. Which statements are correct?",
     "options": [
       "I only",
       "II and III only",
       "I and III only",
       "I, II and III"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Statement I is false: IUCN is an independent membership union, not a UN organ. Statements II and III are true, so the answer is B.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q23",
@@ -8068,24 +8069,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Consider the following statements: I:Article 4 of the Paris Agreement is central to global climate action and is often cited in international climate negotiations II:Article 4 of the Paris Agreement requires all Parties to prepare, communicate, and maintain successive Nationally Determined Contributions (NDCs) III:Article 4 of the Paris Agreement mandates legally binding emission reduction targets for both developed and developing countries Which one of the following is correct in respect of the above statements?",
+    "question": "Consider these statements about Article 4 of the Paris Agreement: I. It is central to global climate action and is often cited in climate negotiations. II. It requires all Parties to prepare, communicate and maintain successive Nationally Determined Contributions (NDCs). III. It mandates legally binding emission-reduction targets for both developed and developing countries. Which option is correct?",
     "options": [
-      "Both II and III are correct and both of them explain I",
-      "Both II and III are correct but only one of them explains I",
-      "Only Statement II is correct and it explains I",
-      "Neither Statement II nor Statement III is correct"
+      "Both II and III are correct, and both explain I",
+      "Both II and III are correct, but only one explains I",
+      "Only statement II is correct, and it explains I",
+      "Neither statement II nor III is correct"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Article 4 requires each Party to prepare and communicate successive NDCs. It does not impose identical legally binding emission-reduction targets; the content of the targets is nationally determined. Thus only II is correct (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q24",
@@ -8096,24 +8095,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Consider the following statements: I.In India, Biodiversity Management Committees play a crucial role in achieving the objectives of the Nagoya Protocol II.These committees have significant responsibilities in regulating access and benefit-sharing, including the authority to impose collection charges for the use of biological resources within their jurisdiction Which of the statements given above is/are correct?",
+    "question": "Consider these statements: I. In India, Biodiversity Management Committees play a crucial role in achieving the objectives of the Nagoya Protocol. II. These committees have responsibilities in access and benefit-sharing, including imposing collection charges for use of biological resources within their jurisdiction. Which statement or statements are correct?",
     "options": [
       "I only",
       "II only",
       "Both I and II",
       "Neither I nor II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Biodiversity Management Committees support local biodiversity governance and access-and-benefit-sharing, including collection fees for biological resources. Both statements are correct (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q25",
@@ -8124,21 +8121,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "With reference to Eco-Sensitive Zones, which of the following statements are correct? I.Eco-Sensitive Zones are areas notified under the Wildlife (Protection) Act, 1972 II.Eco-Sensitive Zones are designated to ban all forms of human activity within their boundaries, except for agricultural practices Select the correct answer using the code given below:",
+    "question": "With reference to Eco-Sensitive Zones, consider these statements: I. They are areas notified under the Wildlife (Protection) Act, 1972. II. They ban all forms of human activity within their boundaries except agriculture. Which statement or statements are correct?",
     "options": [
       "I only",
       "II only",
       "Both I and II",
       "Neither I nor II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Eco-Sensitive Zones are notified under the Environment (Protection) Act, 1986, not the Wildlife (Protection) Act. Activities are prohibited, regulated or permitted; they are not all banned. Both statements are false (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q26",
@@ -8151,19 +8149,20 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Which of the following is correct about ozone?",
     "options": [
-      "It is a red coloured gas",
+      "It is a red-coloured gas",
       "It is odourless",
       "It is harmless in small concentrations",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Ozone is bluish and has a distinctive pungent odour; it can harm health even at low concentrations. Therefore none of A–C is correct (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q27",
@@ -8174,7 +8173,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which organisation in 2025 launched Parker Solar Probe to study the sun?",
+    "question": "Which organisation in 2025 launched Parker Solar Probe to study the Sun?",
     "options": [
       "National Aeronautics and Space Administration (NASA)",
       "Indian Space Research Organisation (ISRO)",
@@ -8182,7 +8181,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "Japan Aerospace Exploration Agency (JAXA)"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "NASA launched Parker Solar Probe in 2018. The printed stem incorrectly says it was launched in 2025, so this item is not scored as written.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=4",
@@ -8191,7 +8190,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "The scan states “in 2025 launched,” but Parker Solar Probe launched in 2018. The date makes the printed question false as written, so it is held out pending correction. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q28",
@@ -8202,24 +8201,21 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Evaluate each statement about polyethylene terephthalate (PET): I.PET fibres (polyester) are commonly blended with wool and cotton to improve strength, durability, and wrinkle resistance II.PET containers are not suitable for all alcoholic beverages, especially high-alcohol spirits, which are generally stored in glass III.PET bottles can be recycled into a variety of other products, including fibres, containers, and packaging materials IV.Incineration of PET releases carbon dioxide and other gases, contributing to greenhouse gas emissions Which of the statements given above are correct?",
+    "question": "Evaluate these statements about polyethylene terephthalate (PET): I. PET fibres (polyester) are commonly blended with wool and cotton to improve strength, durability and wrinkle resistance. II. PET containers are not suitable for all alcoholic beverages, especially high-alcohol spirits, which are generally stored in glass. III. PET bottles can be recycled into products including fibres, containers and packaging materials. IV. Incinerating PET releases carbon dioxide and other gases, contributing to greenhouse-gas emissions. Which statements are correct?",
     "options": [
       "I and III",
       "II and IV",
-      "I and. IV",
+      "I and IV",
       "II and III"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The four statements describe established PET uses, recycling and disposal impacts. Since all four are correct but no option lists all four, the item has no complete answer and is held out.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held out: all four statements appear correct, but every offered choice lists only two statements. The option set has no “I, II, III and IV” answer."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q29",
@@ -8230,24 +8226,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "With reference to microsatellite DNA, consider the following statements: I.It consists of short, tandemly repeated nucleotide sequences II.It is highly polymorphic and varies greatly among individuals III.It is widely used in DNA fingerprinting and population genetics studies IV.It directly codes for proteins involved in cellular metabolism Which of the statements given above are correct?",
+    "question": "With reference to microsatellite DNA, consider these statements: I. It consists of short tandemly repeated nucleotide sequences. II. It is highly polymorphic and varies among individuals. III. It is widely used in DNA fingerprinting and population genetics. IV. It directly codes for proteins involved in cellular metabolism. Which statements are correct?",
     "options": [
       "II and IV only",
       "I and IV only",
       "I, II and III only",
       "I, II, III and IV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Microsatellites are short tandem repeats, are highly variable and are useful in DNA fingerprinting and population genetics. They are not protein-coding sequences; I, II and III are correct (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q30",
@@ -8258,24 +8252,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "With reference to rare earth minerals, consider the following statements: I.They consist of a group of metallic elements including the lanthanides II.They are essential in the manufacture of high-technology products such as smartphones and wind turbines III.They are abundantly found in pure form in nature IV.They play an important role in renewable energy and defence technologies Which of the statements given above are correct?",
+    "question": "With reference to rare-earth minerals, consider these statements: I. They consist of metallic elements including the lanthanides. II. They are used in high-technology products such as smartphones and wind turbines. III. They are abundantly found in pure form in nature. IV. They are important in renewable-energy and defence technologies. Which statements are correct?",
     "options": [
       "I and III only",
       "I, II and IV only",
       "II, III and IV only",
       "I, II, III and IV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Rare-earth elements include the lanthanides and are used in electronics, wind turbines and defence technologies. They are not generally found in abundant pure form; I, II and IV are correct (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q31",

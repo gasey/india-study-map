@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 9 October 2026
 
-49 general papers, 3,560 items: 3,489 MCQs and 71 written prompts.
-2,931 questions are ready for practice, including 1,614 official answers and
-1,317 independently derived answers. 569 items still need source review.
+49 general papers, 3,569 items: 3,498 MCQs and 71 written prompts.
+2,954 questions are ready for practice, including 1,614 official answers and
+1,340 independently derived answers. 555 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -59,6 +59,13 @@ Eighty-four visible questions have derived explanations; Q4, Q33 and Q83 are
 held because the wording/options do not give one defensible answer. The visible
 questions are available for practice, while the incomplete paper stays out of
 full-paper Exam mode.
+
+District Organiser / Junior Accounts Officer Paper-II (January 2025) Q1–23
+have been checked against printed pages 2–3. Q1–7 were missing from OCR and
+recovered; fused option blocks were separated, wording and all options were
+checked, and all 23 have derived explanations. Q24–100 remain source-review
+items until their pages are checked; the 100-question, two-hour paper remains
+out of full-paper Exam mode.
 
 Stenographer Grade-II (MPSC) General English 2025 Part B Q1–40 has been checked against pages 3–6. Thirty-eight MCQs have worked explanations; Q36 is held for imprecise and outdated wording, and Q37 because lactose intolerance is not a milk allergy. The four Section-A written prompts remain under review, so the paper is excluded from full-paper Exam mode.
 

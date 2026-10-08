@@ -146,7 +146,8 @@
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 100
   },
   {
     "id": "mpsc-group-b-asi-2024-p1",

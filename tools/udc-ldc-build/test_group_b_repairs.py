@@ -204,6 +204,18 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(repair['partialReview'])
         self.assertIn('Q67–79 are absent', repair['evidence'])
 
+    def test_jao_2025_p2_reviews_opening_scan_pages_as_a_partial_batch(self):
+        extracted = json.loads((HERE / 'extracted/jao-2025-p2.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['jao-2025-p2']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 24)))
+        self.assertEqual(len(repair['questions']), 23)
+        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 24)))
+        self.assertEqual(result['questions'][0]['q'], repair['questions']['1']['q'])
+        self.assertEqual(result['questions'][22]['opts']['a'], 'The day’s business normally starts with Question Hour, followed by Zero Hour.')
+        self.assertTrue(all(x['explanation'].strip() for x in repair['derivedAnswers'].values()))
+        self.assertTrue(repair['partialReview'])
+
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'
         with self.assertRaisesRegex(AssertionError, 'Stale'):

@@ -210,6 +210,11 @@ def build_additional():
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'jao-2025-p2' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Cover: 100 two-mark questions, two hours, no negative marking.
+            entry['expectedMcq'] = 100
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'mvi-2025-p2' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,

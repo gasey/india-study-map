@@ -9,6 +9,21 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-09 — JAO 2025 Paper-II opening scan review
+
+**What shipped locally.** Recovered JAO Paper-II Q1–7 from printed page 2 and
+checked Q1–23 against printed pages 2–3. The OCR had fused the opening
+questions into one row and merged later option blocks. All 23 question/option
+sets now have derived explanations. The partial paper remains outside full
+Exam mode. Group B reports 2,954 practice-ready questions and 555 items still
+under source review (down from 569 before this batch).
+
+**What's still open.** JAO Paper-II Q24–100 and the other source-review papers
+remain pending. This batch is partial and does not imply the rest of this paper
+has been checked.
+
+---
+
 ## 2026-10-08 — Combined prelims: all 3,292 queue questions answered
 
 **What shipped.** `derived-answers.jsonl` now has an answer for every one of

@@ -86,6 +86,14 @@ evaluate("document.querySelector('.udc-question-card .udc-option-label').closest
 wait_for("document.querySelector('.udc-answer-sources')?.innerText.includes('Answers agree')")
 assert evaluate("document.querySelector('.udc-answer-sources').innerText.includes('MPSC final key')")
 assert evaluate("(async()=>{let a=document.querySelector('.udc-answer-sources a');return (await fetch(a.href)).status})()") == 200
+browse('District Organiser / Junior Accounts Officer', 'General Knowledge & Reasoning')
+assert evaluate("document.querySelectorAll('.udc-question-card').length === 86")
+assert evaluate("document.querySelectorAll('.udc-question-card')[0].innerText.includes('mica mines child-labour-free')")
+assert evaluate("document.querySelectorAll('.udc-question-card')[22].innerText.includes('Question Hour')")
+assert evaluate("document.querySelectorAll('.udc-question-card')[23].innerText.includes('not scored')")
+evaluate("document.querySelectorAll('.udc-question-card')[2].querySelectorAll('.udc-option-label')[3].closest('button').click()")
+wait_for("!!document.querySelectorAll('.udc-question-card')[2].querySelector('.udc-answer-sources')")
+assert evaluate("document.querySelectorAll('.udc-question-card')[2].innerText.includes('Ministry of Statistics and Programme Implementation initiative')")
 browse('Group B (non-gazetted)', 'Arithmetic')
 assert evaluate("document.querySelectorAll('.udc-question-card').length") == 100
 assert evaluate("document.querySelectorAll('.udc-question-card img').length") == 6
@@ -112,7 +120,7 @@ assert evaluate("document.body.innerText.includes('Arithmetic')&&document.body.i
 command('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
 click_tab('Group B papers')
 assert evaluate("document.body.scrollWidth <= innerWidth")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('2,931 ready to practise')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('2,954 ready to practise')")
 assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,614 with official answers')")
 browse('Group B technical common exam, Health & Family Welfare', 'General Studies')
 assert evaluate("document.querySelectorAll('.udc-question-card').length === 100")
@@ -453,5 +461,5 @@ click_tab('exam')
 assert evaluate("![...document.querySelectorAll('button')].some(b=>b.textContent.includes('Assistant Audit & Accounts Officer'))")
 assert evaluate("[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Stenographer Grade III'))")
 assert not exceptions, exceptions
-print('Browser passed: 49 paper sources, progress totals, Motor Vehicle Inspector 2025 and Stenographer Grade-II source-review gating and explanations, reviewed Stenographer Grade-III practice and Exam mode, Excise explanation display, AAO GK transcription, Q13 multi-answer exclusion, Q73 corrigendum scoring/link, official comparison, six recovered figures, source PDFs, disagreement filter, Statistics scoring, mobile and desktop layout; no runtime exceptions.')
+print('Browser passed: 49 paper sources and progress totals; JAO 2025 GK partial-review explanations; Motor Vehicle Inspector 2025 and Stenographer Grade-II source-review gating; Stenographer Grade-III 2024 and March 2025 practice/Exam behavior; Excise explanation display; AAO GK transcription; Q13 multi-answer exclusion; Q73 corrigendum scoring/link; official comparison; recovered figures; source PDFs; disagreement filter; Statistics scoring; mobile and desktop layout; no runtime exceptions.')
 s.close()

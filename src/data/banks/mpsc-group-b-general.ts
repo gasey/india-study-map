@@ -24479,6 +24479,188 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "direction": "Directions(QuestionNos,56-60):Pickoutthesentencewhichhasnoerrorinit."
   },
   {
+    "id": "mpsc-group-b-jao-2025-p2-Q1",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "The National Commission for Protection of Child Rights (NCPCR) recently declared which state’s mica mines child-labour-free?",
+    "options": [
+      "Gujarat",
+      "Jharkhand",
+      "Maharashtra",
+      "Odisha"
+    ],
+    "answerIndex": 1,
+    "explanation": "The NCPCR’s July 2024 child-labour-free mica declaration concerned Jharkhand.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q2",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "External Affairs Minister S. Jaishankar inaugurated “Maitree Udyan” as a symbol of friendship with which country?",
+    "options": [
+      "Madagascar",
+      "Maldives",
+      "Malaysia",
+      "Mauritius"
+    ],
+    "answerIndex": 3,
+    "explanation": "Jaishankar inaugurated the India–Mauritius Maitree Udyan in Port Louis in July 2024.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q3",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Which ministry launched the eSankhyiki portal?",
+    "options": [
+      "Ministry of Defence",
+      "Ministry of Finance",
+      "Ministry of Science and Technology",
+      "Ministry of Statistics and Programme Implementation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The eSankhyiki portal is a Ministry of Statistics and Programme Implementation initiative.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q4",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Iris, India’s first AI-generated school-teacher robot, was introduced in which state?",
+    "options": [
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Tamil Nadu"
+    ],
+    "answerIndex": 1,
+    "explanation": "Iris was introduced in a school in Kerala.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q5",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Among the North-Eastern states, which secured first position in the ODF Plus Model?",
+    "options": [
+      "Mizoram",
+      "Meghalaya",
+      "Arunachal Pradesh",
+      "Sikkim"
+    ],
+    "answerIndex": 3,
+    "explanation": "Sikkim was the first state declared an ODF Plus Model State under Swachh Bharat Mission (Grameen).",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q6",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Which city hosted the 2024 Women’s Asian Hockey Champions Trophy, where Lalremsiami Hmar completed her 150th international cap?",
+    "options": [
+      "Jaipur, Rajasthan",
+      "Lucknow, Uttar Pradesh",
+      "Rajgir, Bihar",
+      "Indore, Madhya Pradesh"
+    ],
+    "answerIndex": 2,
+    "explanation": "Rajgir hosted the 2024 Women’s Asian Champions Trophy; Lalremsiami reached her 150th cap there.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q7",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Rabindranath Tagore renounced his knighthood in protest against the:",
+    "options": [
+      "Cabinet Mission",
+      "Jallianwala Bagh massacre",
+      "Partition of Bengal",
+      "Rowlatt Act"
+    ],
+    "answerIndex": 1,
+    "explanation": "Tagore renounced his knighthood after the Jallianwala Bagh massacre in 1919.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-jao-2025-p2-Q8",
     "paperId": "mpsc-group-b-jao-2025-p2",
     "questionNumber": "8",
@@ -24487,21 +24669,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Therearenonegativemarksforincorrectanswer. Series-A-2-. 1.TheNationalCommissionforProtectionofChildRights(NCPCR)recentlydeclaredwhichstate micamineschildlabour-free?",
+    "question": "At which session did the Indian National Congress split into Moderates and Extremists?",
     "options": [
-      "Gujarat",
-      "Jharkhand",
-      "Maharashtra",
-      "Odisha (a)Madagascar(b)Maldives (c)Malaysia(d)Mauritius (a)MinistryofDefence (b)MinistryofFinance (c)MinistryofScienceandTechnology (d)MinistryofStatisticsandProgrammeImplementation (a)Karnataka(b)Kerala (c)MadhyaPradesh(d)TamilNadu (a)Mizoram(b)Meghalaya (c)ArunachalPradesh(d)Sikkim (a)Jaipur,Rajasthan(b)Lucknow,UttarPradesh. (c)Rajgir,Bihar(d)Indore,MadhyaPradesh (a)Cabinetmission(b)JailianwalaBaghMassacre ({c)PartitionofBengal(d)RowlattAct (a)BanarasSession(b)CalcuttaSession (c)MadrasSession(d)SuratSession"
+      "Banaras Session",
+      "Calcutta Session",
+      "Madras Session",
+      "Surat Session"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Congress split at its 1907 Surat session.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
-    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=1",
-    "sourceReview": true,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q9",
@@ -24512,21 +24695,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Inwhichofthefollowingcountries“SubhashChandraBose”organizedthe“TigerLegion”?",
+    "question": "In which country did Subhas Chandra Bose organize the “Tiger Legion”?",
     "options": [
       "Singapore",
       "Germany",
       "Japan",
       "Italy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Indian Legion, also called the Tiger Legion, was organized in Germany.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q10",
@@ -24537,21 +24721,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Whichofthefollowingiscalledthe‘FatherofLocalSelfGovernment’inIndia?",
+    "question": "Who is called the “Father of Local Self-Government” in India?",
     "options": [
-      "LordCurzon",
-      "LordHardinge",
-      "LordLytton",
-      "LordRipon"
+      "Lord Curzon",
+      "Lord Hardinge",
+      "Lord Lytton",
+      "Lord Ripon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Lord Ripon’s 1882 resolution on local self-government earned him this title.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q11",
@@ -24562,21 +24747,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "GandhijisupportedtheKhilafatMovementbecauseofwhichofthefollowingreason?",
+    "question": "Gandhi supported the Khilafat Movement primarily to promote:",
     "options": [
-      "HinduMuslimunity",
-      "HewantedtoleadtheMuslimmovements",
-      "TonegotiatewiththeBritish",
-      "Noneofthese"
+      "Hindu–Muslim unity",
+      "His leadership of Muslim movements",
+      "Negotiations with the British",
+      "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gandhi supported the Khilafat cause in part to build Hindu–Muslim unity in the national movement.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q12",
@@ -24587,21 +24773,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichofthefollowingwastheNawabofBengalatthetimeofBattleofBuxar?",
+    "question": "Who was the Nawab of Bengal at the time of the Battle of Buxar?",
     "options": [
       "Sirajuddaula",
-      "MirJafar",
-      "MirQasim",
-      "Najmuddaula"
+      "Mir Jafar",
+      "Mir Qasim",
+      "Najm-ud-Daulah"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mir Qasim was Nawab of Bengal during the 1764 Battle of Buxar.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q13",
@@ -24612,21 +24799,48 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichofthefollowingstatementsisNOTcorrect?",
+    "question": "Which of the following statements is NOT correct?",
     "options": [
-      "Isohyetisthelinejoiningpointsofequalrainfallonamapinagivenperiod",
-      "Isohumeisalinerepresentingequalhumidity",
-      "Isothermsarethelinesthatconnectplacesonamapthathavethesametemperature",
-      "Isochronesisalinejoiningplacesthatexperienceanearthquakewiththesameintensity"
+      "An isohyet joins points of equal rainfall on a map for a given period.",
+      "An isohume represents equal humidity.",
+      "Isotherms connect places with the same temperature.",
+      "Isochrones join places that experience an earthquake with the same intensity."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "An isochrone joins points of equal travel time. Equal earthquake intensity is shown by an isoseismal, so statement D is incorrect.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q14",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Where is India’s largest petroleum refinery located?",
+    "options": [
+      "Digboi",
+      "Jamnagar",
+      "Mumbai",
+      "Visakhapatnam"
+    ],
+    "answerIndex": 1,
+    "explanation": "The world’s largest refinery complex is the Reliance complex at Jamnagar, Gujarat.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q15",
@@ -24637,21 +24851,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Mediterraneantypeofclimateischaracterizedby:",
+    "question": "The Mediterranean climate is characterized by:",
     "options": [
-      "drysummerandwetwinter",
-      "wetsummeranddrywinter",
-      "drysummeranddrywinter",
-      "}wetsummerandwetwinter"
+      "Dry summers and wet winters",
+      "Wet summers and dry winters",
+      "Dry summers and dry winters",
+      "Wet summers and wet winters"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mediterranean climates have hot, dry summers and mild, wet winters.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q16",
@@ -24662,21 +24877,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Whatpercentofearth’ssurfaceiscoveredbyland?",
+    "question": "Approximately what percentage of Earth’s surface is covered by land?",
     "options": [
       "20%",
       "30%",
       "40%",
       "70%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Land covers about 29% of Earth’s surface; 30% is the closest option.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q17",
@@ -24687,21 +24903,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Whichamongthefollowingisthecheapestandthecoarsestmaterialusedforpackagingindustrial andagricultural!products?",
+    "question": "Which is the cheapest and coarsest material used for packaging industrial and agricultural products?",
     "options": [
       "Sugarcane",
       "Silk",
       "Cotton",
       "Jute"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Jute is a coarse, low-cost natural fibre traditionally used for sacks and bulk packaging.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q18",
@@ -24712,21 +24929,48 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichcountryhasbeenelectedasthePresidentoftheInternationalSolarAlliance(ISA)until2026?",
+    "question": "Which country was elected President of the International Solar Alliance (ISA) for the 2024–2026 term?",
     "options": [
       "India",
       "France",
       "Australia",
-      "Brazil (a)AttorneyGeneralofIndia(b)President (c)PrimeMinister(d)SupremeCourtofIndia"
+      "Brazil"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The ISA Assembly elected India President for the 2024–2026 term; France was elected Co-President.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q19",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Who is regarded as the custodian of the Constitution of India?",
+    "options": [
+      "Attorney General of India",
+      "President",
+      "Prime Minister",
+      "Supreme Court of India"
+    ],
+    "answerIndex": 3,
+    "explanation": "The Supreme Court safeguards and interprets the Constitution and is commonly described as its guardian or custodian.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q20",
@@ -24737,21 +24981,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhoisknownasthefatheroftheIndianconstitution?",
+    "question": "Who is known as the “Father of the Indian Constitution”?",
     "options": [
-      "B.N.Rao",
-      "DrB.R.Ambedkar",
-      "JawaharlalNehru",
-      "SardarVallabhaiPatel"
+      "B. N. Rao",
+      "Dr. B. R. Ambedkar",
+      "Jawaharlal Nehru",
+      "Sardar Vallabhbhai Patel"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Dr. B. R. Ambedkar chaired the Constitution’s Drafting Committee and is popularly called its principal architect.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q21",
@@ -24762,21 +25007,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichpartoftheIndianConstitutionisconcernedwiththePanchayatiRajsystem?",
+    "question": "Which Part of the Constitution of India deals with the Panchayati Raj system?",
     "options": [
-      "PartIl",
-      "PartVI",
-      "PartVil",
-      "Part{X"
+      "Part III",
+      "Part VI",
+      "Part VIII",
+      "Part IX"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Part IX (Articles 243–243O) provides for Panchayats.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q22",
@@ -24787,21 +25033,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichActofBritishIndiawasoneofthemainsourcesofConstitutionofIndia?",
+    "question": "Which British-era law was one of the main sources of the Constitution of India?",
     "options": [
-      "GovernmentofIndiaAct,1919",
-      "IndianCouncilsAct,1909",
-      "GovernmentofIndiaAct,1935",
-      "IndianIndependenAccte,1947"
+      "Government of India Act, 1919",
+      "Indian Councils Act, 1909",
+      "Government of India Act, 1935",
+      "Indian Independence Act, 1947"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Constitution drew many institutional provisions from the Government of India Act, 1935.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q23",
@@ -24812,21 +25059,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichamongthefollowingistrueaboutthesequenceofQuestionhourandZeroHour?",
+    "question": "Which statement correctly describes the usual sequence of Question Hour and Zero Hour in the Lok Sabha?",
     "options": [
-      "Theday’sbusinessnormallystartswithQuestionhourandZeroHourfollowstheQuestion Hour.",
-      "Theday’sbusinessnormallystartswithZerohourandQuestionHourfollowstheZeroHour.",
-      "Theday’sbusinessnormallystartswithQuestionhourorZeroHour.",
-      "Noneoftheabove"
+      "The day’s business normally starts with Question Hour, followed by Zero Hour.",
+      "The day’s business normally starts with Zero Hour, followed by Question Hour.",
+      "The day’s business normally starts with either Question Hour or Zero Hour.",
+      "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Question Hour normally comes first; Zero Hour follows it.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q24",
@@ -31614,7 +31862,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B4",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -31884,9 +32134,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B13",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40091,7 +40339,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction(QuestionNos.16-20):Selectanappropriateverb,prepositionandadverbtofillinthe"
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-english-B17",
     "paperId": "mpsc-group-b-je-2025-english",
@@ -40323,9 +40573,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction(QuestionsNos.46-50):Choosethecorrectwordfromthegivenoptionstomakemeaningful"
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-english-B49",
     "paperId": "mpsc-group-b-je-2025-english",
@@ -47914,7 +48162,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q43",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -48148,9 +48398,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q52",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -55841,7 +56089,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q47",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -56074,9 +56324,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q56",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -63790,7 +64038,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q79",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -64026,9 +64276,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q88",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -72154,7 +72402,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q60",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -72433,9 +72683,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q69",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -80858,7 +81106,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B25",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q26",
     "questionNumber": "B26",
@@ -81094,9 +81344,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B34",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q35",
     "questionNumber": "B35",
@@ -88704,7 +88952,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p1-written-A3",
     "paperId": "mpsc-group-b-si-stats-2026-p1",
@@ -88929,9 +89179,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A8",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A9",
     "questionNumber": "A9",
@@ -95806,6 +96054,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-jao-2025-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-steno-2024-gk": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
@@ -95997,6 +96251,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-aao-2024-english": 100,
   "mpsc-group-b-aao-2024-gk": 100,
   "mpsc-group-b-aao-2024-arithmetic": 100,
+  "mpsc-group-b-jao-2025-p2": 100,
   "mpsc-group-b-steno-2024-gk": 100,
   "mpsc-group-b-steno-2025-english": 75,
   "mpsc-group-b-steno-2025-gk": 100,

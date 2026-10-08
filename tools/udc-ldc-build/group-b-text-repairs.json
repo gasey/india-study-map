@@ -33352,6 +33352,362 @@
           "explanation": "Thitin is the Mizo name for August, traditionally associated with the month of the dead."
         }
       }
+    },
+    "jao-2025-p2": {
+      "sourceSha256": "b7313cc4f0cc585311666373f7e8832b7f6433c2771d064251728983652a1fb4",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "reviewedOn": "2026-10-09",
+      "evidence": "Printed pages 2–3 (PDF pages 2–3) visually checked. Recovered Q1–7 that OCR fused into the cover row; repaired OCR-merged option groups and normalized wording/options for Q1–23. Questions 24–100 remain unreviewed.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 2,
+          "q": "The National Commission for Protection of Child Rights (NCPCR) recently declared which state’s mica mines child-labour-free?",
+          "opts": {
+            "a": "Gujarat",
+            "b": "Jharkhand",
+            "c": "Maharashtra",
+            "d": "Odisha"
+          }
+        },
+        "2": {
+          "n": 2,
+          "page": 2,
+          "q": "External Affairs Minister S. Jaishankar inaugurated “Maitree Udyan” as a symbol of friendship with which country?",
+          "opts": {
+            "a": "Madagascar",
+            "b": "Maldives",
+            "c": "Malaysia",
+            "d": "Mauritius"
+          }
+        },
+        "3": {
+          "n": 3,
+          "page": 2,
+          "q": "Which ministry launched the eSankhyiki portal?",
+          "opts": {
+            "a": "Ministry of Defence",
+            "b": "Ministry of Finance",
+            "c": "Ministry of Science and Technology",
+            "d": "Ministry of Statistics and Programme Implementation"
+          }
+        },
+        "4": {
+          "n": 4,
+          "page": 2,
+          "q": "Iris, India’s first AI-generated school-teacher robot, was introduced in which state?",
+          "opts": {
+            "a": "Karnataka",
+            "b": "Kerala",
+            "c": "Madhya Pradesh",
+            "d": "Tamil Nadu"
+          }
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "q": "Among the North-Eastern states, which secured first position in the ODF Plus Model?",
+          "opts": {
+            "a": "Mizoram",
+            "b": "Meghalaya",
+            "c": "Arunachal Pradesh",
+            "d": "Sikkim"
+          }
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "q": "Which city hosted the 2024 Women’s Asian Hockey Champions Trophy, where Lalremsiami Hmar completed her 150th international cap?",
+          "opts": {
+            "a": "Jaipur, Rajasthan",
+            "b": "Lucknow, Uttar Pradesh",
+            "c": "Rajgir, Bihar",
+            "d": "Indore, Madhya Pradesh"
+          }
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "q": "Rabindranath Tagore renounced his knighthood in protest against the:",
+          "opts": {
+            "a": "Cabinet Mission",
+            "b": "Jallianwala Bagh massacre",
+            "c": "Partition of Bengal",
+            "d": "Rowlatt Act"
+          }
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "q": "At which session did the Indian National Congress split into Moderates and Extremists?",
+          "opts": {
+            "a": "Banaras Session",
+            "b": "Calcutta Session",
+            "c": "Madras Session",
+            "d": "Surat Session"
+          }
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "In which country did Subhas Chandra Bose organize the “Tiger Legion”?",
+          "opts": {
+            "a": "Singapore",
+            "b": "Germany",
+            "c": "Japan",
+            "d": "Italy"
+          }
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "Who is called the “Father of Local Self-Government” in India?",
+          "opts": {
+            "a": "Lord Curzon",
+            "b": "Lord Hardinge",
+            "c": "Lord Lytton",
+            "d": "Lord Ripon"
+          }
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Gandhi supported the Khilafat Movement primarily to promote:",
+          "opts": {
+            "a": "Hindu–Muslim unity",
+            "b": "His leadership of Muslim movements",
+            "c": "Negotiations with the British",
+            "d": "None of these"
+          }
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "Who was the Nawab of Bengal at the time of the Battle of Buxar?",
+          "opts": {
+            "a": "Sirajuddaula",
+            "b": "Mir Jafar",
+            "c": "Mir Qasim",
+            "d": "Najm-ud-Daulah"
+          }
+        },
+        "13": {
+          "n": 13,
+          "page": 3,
+          "q": "Which of the following statements is NOT correct?",
+          "opts": {
+            "a": "An isohyet joins points of equal rainfall on a map for a given period.",
+            "b": "An isohume represents equal humidity.",
+            "c": "Isotherms connect places with the same temperature.",
+            "d": "Isochrones join places that experience an earthquake with the same intensity."
+          }
+        },
+        "14": {
+          "n": 14,
+          "page": 3,
+          "q": "Where is India’s largest petroleum refinery located?",
+          "opts": {
+            "a": "Digboi",
+            "b": "Jamnagar",
+            "c": "Mumbai",
+            "d": "Visakhapatnam"
+          }
+        },
+        "15": {
+          "n": 15,
+          "page": 3,
+          "q": "The Mediterranean climate is characterized by:",
+          "opts": {
+            "a": "Dry summers and wet winters",
+            "b": "Wet summers and dry winters",
+            "c": "Dry summers and dry winters",
+            "d": "Wet summers and wet winters"
+          }
+        },
+        "16": {
+          "n": 16,
+          "page": 3,
+          "q": "Approximately what percentage of Earth’s surface is covered by land?",
+          "opts": {
+            "a": "20%",
+            "b": "30%",
+            "c": "40%",
+            "d": "70%"
+          }
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "q": "Which is the cheapest and coarsest material used for packaging industrial and agricultural products?",
+          "opts": {
+            "a": "Sugarcane",
+            "b": "Silk",
+            "c": "Cotton",
+            "d": "Jute"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "q": "Which country was elected President of the International Solar Alliance (ISA) for the 2024–2026 term?",
+          "opts": {
+            "a": "India",
+            "b": "France",
+            "c": "Australia",
+            "d": "Brazil"
+          }
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "Who is regarded as the custodian of the Constitution of India?",
+          "opts": {
+            "a": "Attorney General of India",
+            "b": "President",
+            "c": "Prime Minister",
+            "d": "Supreme Court of India"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "Who is known as the “Father of the Indian Constitution”?",
+          "opts": {
+            "a": "B. N. Rao",
+            "b": "Dr. B. R. Ambedkar",
+            "c": "Jawaharlal Nehru",
+            "d": "Sardar Vallabhbhai Patel"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "Which Part of the Constitution of India deals with the Panchayati Raj system?",
+          "opts": {
+            "a": "Part III",
+            "b": "Part VI",
+            "c": "Part VIII",
+            "d": "Part IX"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "Which British-era law was one of the main sources of the Constitution of India?",
+          "opts": {
+            "a": "Government of India Act, 1919",
+            "b": "Indian Councils Act, 1909",
+            "c": "Government of India Act, 1935",
+            "d": "Indian Independence Act, 1947"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "Which statement correctly describes the usual sequence of Question Hour and Zero Hour in the Lok Sabha?",
+          "opts": {
+            "a": "The day’s business normally starts with Question Hour, followed by Zero Hour.",
+            "b": "The day’s business normally starts with Zero Hour, followed by Question Hour.",
+            "c": "The day’s business normally starts with either Question Hour or Zero Hour.",
+            "d": "None of the above"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 1,
+          "explanation": "The NCPCR’s July 2024 child-labour-free mica declaration concerned Jharkhand."
+        },
+        "2": {
+          "answerIndex": 3,
+          "explanation": "Jaishankar inaugurated the India–Mauritius Maitree Udyan in Port Louis in July 2024."
+        },
+        "3": {
+          "answerIndex": 3,
+          "explanation": "The eSankhyiki portal is a Ministry of Statistics and Programme Implementation initiative."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "Iris was introduced in a school in Kerala."
+        },
+        "5": {
+          "answerIndex": 3,
+          "explanation": "Sikkim was the first state declared an ODF Plus Model State under Swachh Bharat Mission (Grameen)."
+        },
+        "6": {
+          "answerIndex": 2,
+          "explanation": "Rajgir hosted the 2024 Women’s Asian Champions Trophy; Lalremsiami reached her 150th cap there."
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "Tagore renounced his knighthood after the Jallianwala Bagh massacre in 1919."
+        },
+        "8": {
+          "answerIndex": 3,
+          "explanation": "The Congress split at its 1907 Surat session."
+        },
+        "9": {
+          "answerIndex": 1,
+          "explanation": "The Indian Legion, also called the Tiger Legion, was organized in Germany."
+        },
+        "10": {
+          "answerIndex": 3,
+          "explanation": "Lord Ripon’s 1882 resolution on local self-government earned him this title."
+        },
+        "11": {
+          "answerIndex": 0,
+          "explanation": "Gandhi supported the Khilafat cause in part to build Hindu–Muslim unity in the national movement."
+        },
+        "12": {
+          "answerIndex": 2,
+          "explanation": "Mir Qasim was Nawab of Bengal during the 1764 Battle of Buxar."
+        },
+        "13": {
+          "answerIndex": 3,
+          "explanation": "An isochrone joins points of equal travel time. Equal earthquake intensity is shown by an isoseismal, so statement D is incorrect."
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "The world’s largest refinery complex is the Reliance complex at Jamnagar, Gujarat."
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "Mediterranean climates have hot, dry summers and mild, wet winters."
+        },
+        "16": {
+          "answerIndex": 1,
+          "explanation": "Land covers about 29% of Earth’s surface; 30% is the closest option."
+        },
+        "17": {
+          "answerIndex": 3,
+          "explanation": "Jute is a coarse, low-cost natural fibre traditionally used for sacks and bulk packaging."
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "The ISA Assembly elected India President for the 2024–2026 term; France was elected Co-President."
+        },
+        "19": {
+          "answerIndex": 3,
+          "explanation": "The Supreme Court safeguards and interprets the Constitution and is commonly described as its guardian or custodian."
+        },
+        "20": {
+          "answerIndex": 1,
+          "explanation": "Dr. B. R. Ambedkar chaired the Constitution’s Drafting Committee and is popularly called its principal architect."
+        },
+        "21": {
+          "answerIndex": 3,
+          "explanation": "Part IX (Articles 243–243O) provides for Panchayats."
+        },
+        "22": {
+          "answerIndex": 2,
+          "explanation": "The Constitution drew many institutional provisions from the Government of India Act, 1935."
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "Question Hour normally comes first; Zero Hour follows it."
+        }
+      }
     }
   }
 }

@@ -5652,9 +5652,9 @@
     "aao-2025-p2": {
       "sourceSha256": "bc5c3e61f87c08bfb58c0bd42f846ac932ca5d7f0bc9c3a6467d7c17021d1d9c",
       "expectedMcq": 100,
-      "partialReview": true,
+      "partialReview": false,
       "reviewedOn": "2026-10-09",
-      "evidence": "Q1–59 and previously recovered Q60 have readable stems/options checked against printed pages 2–9 of the November 2025 Series A scan, including restoration of merged Q1–7. Fifty-six questions have derived explanations. Q6 and Q29 omit the correct statement combinations; Q50’s historical constituency wording could not be reconciled confidently; Q56’s mathematically correct ratio is absent from the choices. Those four items are held. Q61–100 remain under scan review. The cover specifies 100 two-mark questions, 200 marks, two hours and negative marking. Source SHA256 binds the review to the paper.",
+      "evidence": "Q1–100 have readable stems/options checked against printed pages 2–14 of the November 2025 Series A scan, including recovery of merged Q1–7, shared directions and diagram-based choices. Ninety-six questions have derived explanations. Q6 and Q29 omit the correct statement combinations; Q50’s historical constituency premise could not be reconciled confidently; Q92 leaves a parent’s gender unspecified; those four are held. Previously held Q56 was corrected after a fresh scan check confirmed √3:1 is printed as option D. The cover specifies 100 two-mark questions, 200 marks, two hours and negative marking. Source SHA256 binds the review to the paper.",
       "questions": {
         "60": {
           "n": 60,
@@ -6287,10 +6287,8 @@
             "a": "3:2",
             "b": "1:3",
             "c": "2:3",
-            "d": "3:1"
-          },
-          "unscored": true,
-          "explanation": "If the tower height is h, the distances from its foot are √3h, h and h/√3. Thus AB:BC = (√3−1):(1−1/√3) = √3:1. None of the printed options gives √3:1, so this defective item is held unscored."
+            "d": "√3:1"
+          }
         },
         "57": {
           "n": 57,
@@ -6324,6 +6322,457 @@
             "c": "600",
             "d": "720"
           }
+        },
+        "61": {
+          "n": 61,
+          "page": 9,
+          "q": "The 2nd, 31st and last terms of an arithmetic progression (AP) are 7 3/4, 1/2 and −6 1/2, respectively. How many terms are in the AP?",
+          "opts": {
+            "a": "60",
+            "b": "59",
+            "c": "58",
+            "d": "61"
+          }
+        },
+        "62": {
+          "n": 62,
+          "page": 9,
+          "q": "A train crosses a platform that is 60% longer than the train in 39 seconds. If the platform is 240 m long, what is the train’s speed?",
+          "opts": {
+            "a": "10 m/s",
+            "b": "12 m/s",
+            "c": "13 m/s",
+            "d": "15 m/s"
+          }
+        },
+        "63": {
+          "n": 63,
+          "page": 9,
+          "q": "If 5^(2x−1) = 5^9 / 125^x, what is x?",
+          "opts": {
+            "a": "1",
+            "b": "5",
+            "c": "2",
+            "d": "4"
+          }
+        },
+        "64": {
+          "n": 64,
+          "page": 10,
+          "q": "What is the least possible value of 2 sin²θ + 3 cos²θ?",
+          "opts": {
+            "a": "3",
+            "b": "4",
+            "c": "1",
+            "d": "2"
+          }
+        },
+        "65": {
+          "n": 65,
+          "page": 10,
+          "q": "The numbers of students in three classes are in the ratio 6:7:8. If 15 students are added to each class, the ratio becomes 9:10:11. How many students were there in total originally?",
+          "opts": {
+            "a": "90",
+            "b": "112",
+            "c": "105",
+            "d": "75"
+          }
+        },
+        "66": {
+          "n": 66,
+          "page": 10,
+          "q": "The average mark of 45 students was calculated as 70. Two marks had been entered as 40 and 75 instead of 90 and 70. What is the corrected average?",
+          "opts": {
+            "a": "69",
+            "b": "70",
+            "c": "70.5",
+            "d": "71"
+          }
+        },
+        "67": {
+          "n": 67,
+          "page": 10,
+          "q": "A cistern can be filled in 9 hours. Because of a leak, it takes one additional hour to fill. If full, how long will the cistern take to empty through the leak alone?",
+          "opts": {
+            "a": "60 hours",
+            "b": "30 hours",
+            "c": "90 hours",
+            "d": "75 hours"
+          }
+        },
+        "68": {
+          "n": 68,
+          "page": 10,
+          "q": "What is the sum of all two-digit numbers divisible by 3?",
+          "opts": {
+            "a": "1678",
+            "b": "1458",
+            "c": "1669",
+            "d": "1665"
+          }
+        },
+        "69": {
+          "n": 69,
+          "page": 10,
+          "q": "A boat travels 16.9 km downstream in 52 minutes. If the current flows at 3 km/h, how long will the boat take to travel 84 km upstream?",
+          "opts": {
+            "a": "6.22 hours",
+            "b": "6 hours",
+            "c": "13.5 hours",
+            "d": "7.5 hours"
+          }
+        },
+        "70": {
+          "n": 70,
+          "page": 10,
+          "q": "A king intends to distribute 1,260 coins among X, Y and Z in the ratio 2:3:4. By mistake he distributes them in the ratio 2:3:t, so Z receives 200 fewer coins than intended. Find t.",
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          }
+        },
+        "71": {
+          "n": 71,
+          "page": 10,
+          "q": "A and B together can complete a job in 18 days; B and C together can complete it in 24 days. A works twice as fast as C. How long would B take to complete the job alone?",
+          "opts": {
+            "a": "42 days",
+            "b": "30 days",
+            "c": "36 days",
+            "d": "40 days"
+          }
+        },
+        "72": {
+          "n": 72,
+          "page": 10,
+          "q": "Dina travels 80 km in 5 hours, cycling part of the way at 13 km/h and travelling the rest by motorbike at 18 km/h. How far does he travel by motorbike?",
+          "opts": {
+            "a": "46 km",
+            "b": "60 km",
+            "c": "45 km",
+            "d": "54 km"
+          }
+        },
+        "73": {
+          "n": 73,
+          "page": 10,
+          "q": "A 24-litre mixture contains milk and water in the ratio 5:3. How much milk must be added to make the ratio 5:1?",
+          "opts": {
+            "a": "27 litres",
+            "b": "30 litres",
+            "c": "20 litres",
+            "d": "36 litres"
+          }
+        },
+        "74": {
+          "n": 74,
+          "page": 10,
+          "q": "Kima and Rama buy articles for ₹8,000 and ₹5,000. Kima marks hers up by 60% and gives a discount; Rama marks his up by 100% with no discount. If they sell for the same price, what discount does Kima give?",
+          "opts": {
+            "a": "21.875%",
+            "b": "24.125%",
+            "c": "20.6%",
+            "d": "23.75%"
+          }
+        },
+        "75": {
+          "n": 75,
+          "page": 11,
+          "q": "In an examination, A scores 27% and falls 77 marks short of the pass mark. B scores 49%, which is 165 marks above the pass mark. What is the pass percentage?",
+          "opts": {
+            "a": "32%",
+            "b": "33%",
+            "c": "34%",
+            "d": "35%"
+          }
+        },
+        "76": {
+          "n": 76,
+          "page": 11,
+          "q": "A company has 25 employees; 40% are officers and the rest are workers. The average salary is ₹17,600, and workers’ salaries total ₹1,20,000. What is the average salary of an officer?",
+          "opts": {
+            "a": "₹26,000",
+            "b": "₹28,000",
+            "c": "₹30,000",
+            "d": "₹32,000"
+          }
+        },
+        "77": {
+          "n": 77,
+          "page": 11,
+          "q": "₹7,500 is invested at r% compound interest for two years. The difference between compound interest and simple interest for the same principal, rate and period is ₹108. Find r.",
+          "opts": {
+            "a": "10%",
+            "b": "12%",
+            "c": "14%",
+            "d": "16%"
+          }
+        },
+        "78": {
+          "n": 78,
+          "page": 11,
+          "q": "Dama can buy a tracksuit for ₹2,400 cash or pay ₹1,000 down and two monthly instalments of ₹800. What annual interest rate is charged on the instalment plan?",
+          "opts": {
+            "a": "120%",
+            "b": "100%",
+            "c": "80%",
+            "d": "60%"
+          }
+        },
+        "79": {
+          "n": 79,
+          "page": 11,
+          "q": "A person gains 20% on one investment and loses 25% on another. If the investment amounts are in the ratio 4:5, what is the overall result?",
+          "opts": {
+            "a": "5% profit",
+            "b": "5% loss",
+            "c": "5.5% profit",
+            "d": "5.5% loss"
+          }
+        },
+        "80": {
+          "n": 80,
+          "page": 11,
+          "q": "Five years ago, Sawma was x−13 years old. In ten years, Dingi will be x+10 years old. Their present ages are in the ratio 2:3. Find x.",
+          "opts": {
+            "a": "19 years",
+            "b": "20 years",
+            "c": "22 years",
+            "d": "24 years"
+          }
+        },
+        "81": {
+          "n": 81,
+          "page": 11,
+          "q": "Ohm : Electrical resistance",
+          "opts": {
+            "a": "Power : Watt",
+            "b": "Volume : Litre",
+            "c": "Second : Time",
+            "d": "Pascal : Electric current"
+          },
+          "direction": "Directions (Questions 81–82): Select the word pair whose words are related in the same way as the given word pair."
+        },
+        "82": {
+          "n": 82,
+          "page": 11,
+          "q": "Dog : Kennel",
+          "opts": {
+            "a": "Bee : Hive",
+            "b": "Hare : Den",
+            "c": "Lion : Burrow",
+            "d": "Spider : Shed"
+          },
+          "direction": "Directions (Questions 81–82): Select the word pair whose words are related in the same way as the given word pair."
+        },
+        "83": {
+          "n": 83,
+          "page": 11,
+          "q": "Choose the odd word.",
+          "opts": {
+            "a": "Snicker",
+            "b": "Whoop",
+            "c": "Walk",
+            "d": "Roar"
+          },
+          "direction": "Directions (Questions 83–84): Choose the odd word from the following list."
+        },
+        "84": {
+          "n": 84,
+          "page": 11,
+          "q": "Choose the odd word.",
+          "opts": {
+            "a": "Scare",
+            "b": "Bountiful",
+            "c": "Abundant",
+            "d": "Copious"
+          },
+          "direction": "Directions (Questions 83–84): Choose the odd word from the following list."
+        },
+        "85": {
+          "n": 85,
+          "page": 12,
+          "q": "Identify the odd letter pair.",
+          "opts": {
+            "a": "RY : SZ",
+            "b": "MP : NO",
+            "c": "QW : RV",
+            "d": "CE : DD"
+          },
+          "direction": "Directions (Questions 85–86): Identify the odd one from the following."
+        },
+        "86": {
+          "n": 86,
+          "page": 12,
+          "q": "Identify the odd letter-number pair.",
+          "opts": {
+            "a": "MN, 37",
+            "b": "RQ, 35",
+            "c": "HI, 17",
+            "d": "TS, 39"
+          },
+          "direction": "Directions (Questions 85–86): Identify the odd one from the following."
+        },
+        "87": {
+          "n": 87,
+          "page": 12,
+          "q": "What comes next in the sequence W1A, S2B, O5C, K16D, …?",
+          "opts": {
+            "a": "F67E",
+            "b": "G65E",
+            "c": "E65E",
+            "d": "H66E"
+          }
+        },
+        "88": {
+          "n": 88,
+          "page": 12,
+          "q": "Crime is related to court in the same way that sickness is related to:",
+          "opts": {
+            "a": "Medicine",
+            "b": "Doctor",
+            "c": "Hospital",
+            "d": "Fever"
+          }
+        },
+        "89": {
+          "n": 89,
+          "page": 12,
+          "q": "In a code, PRO is written as 48 and BAL as 14. How is COH written in the same code?",
+          "opts": {
+            "a": "26",
+            "b": "25",
+            "c": "24",
+            "d": "27"
+          }
+        },
+        "90": {
+          "n": 90,
+          "page": 12,
+          "q": "If “÷” means “+”, “−” means “×”, “+” means “÷” and “×” means “−”, evaluate 20 ÷ 12 × 4 + 8 − 6.",
+          "opts": {
+            "a": "5",
+            "b": "61/2",
+            "c": "29",
+            "d": "30"
+          }
+        },
+        "91": {
+          "n": 91,
+          "page": 12,
+          "q": "John walks 6 km east, then 10 km after turning right, then 6 km after turning right, and finally 15 km after turning left. How far and in what direction is he from his starting point?",
+          "opts": {
+            "a": "15 km north",
+            "b": "25 km north",
+            "c": "15 km south",
+            "d": "25 km south"
+          }
+        },
+        "92": {
+          "n": 92,
+          "page": 12,
+          "q": "A−B means A is the mother of B; A*B means A is the sister of B; A%B means A is the husband of B; and A#B means A is the son of B. If P−Q−R*S#T, how is P related to T?",
+          "opts": {
+            "a": "Mother",
+            "b": "Mother-in-law",
+            "c": "Sister-in-law",
+            "d": "Sister"
+          },
+          "unscored": true,
+          "explanation": "The relation code establishes that T is a parent of S, but does not specify T’s gender. The offered answers “mother” and “mother-in-law” depend on whether T is female or male, respectively; no unique answer follows from the printed clues. Hold this item unscored."
+        },
+        "93": {
+          "n": 93,
+          "page": 12,
+          "q": "Ruata is Muana’s son, and Kimi is Ruata’s daughter. Hmingi is Dena’s daughter, and Dena is Muana’s brother. How is Hmingi related to Kimi?",
+          "opts": {
+            "a": "Nephew",
+            "b": "Aunt",
+            "c": "Cousin",
+            "d": "Mother"
+          }
+        },
+        "94": {
+          "n": 94,
+          "page": 13,
+          "q": "In a class ranking, X is 7th from the top and Y is 16th from the bottom. After they exchange places, X is 21st from the top. What is Y’s new position from the bottom?",
+          "opts": {
+            "a": "16th",
+            "b": "29th",
+            "c": "21st",
+            "d": "30th"
+          }
+        },
+        "95": {
+          "n": 95,
+          "page": 13,
+          "q": "In a row of girls, Sawmi is 10th from the left and Rini is 11th from the right. After they exchange places, Rini is 15th from the right. What is Sawmi’s new position from the left?",
+          "opts": {
+            "a": "17th",
+            "b": "16th",
+            "c": "14th",
+            "d": "13th"
+          }
+        },
+        "96": {
+          "n": 96,
+          "page": 13,
+          "q": "Among five boys, B is taller than M but not as tall as R. J is taller than D but shorter than M. Who is tallest?",
+          "opts": {
+            "a": "R",
+            "b": "M",
+            "c": "B",
+            "d": "J"
+          }
+        },
+        "97": {
+          "n": 97,
+          "page": 13,
+          "q": "Two views of the same die, numbered 1 to 6, are shown. Which number is on the face opposite 3?",
+          "opts": {
+            "a": "4",
+            "b": "1",
+            "c": "6",
+            "d": "2"
+          },
+          "direction": "The first die view shows 6 on top, 4 on the front and 3 on the right. The second view shows 1 on top, 4 on the front and 6 on the right."
+        },
+        "98": {
+          "n": 98,
+          "page": 13,
+          "q": "Which figure best represents the relationship among Table, Bench and Furniture?",
+          "opts": {
+            "a": "Figure (a): three concentric circles",
+            "b": "Figure (b): two small overlapping circles, each overlapping a larger circle",
+            "c": "Figure (c): three separate circles",
+            "d": "Figure (d): two separate small circles wholly inside one larger circle"
+          }
+        },
+        "99": {
+          "n": 99,
+          "page": 14,
+          "q": "Who is third to the left of D?",
+          "opts": {
+            "a": "A",
+            "b": "E",
+            "c": "F",
+            "d": "Cannot be determined"
+          },
+          "direction": "Directions (Questions 99–100): Eight people, A, B, C, D, E, F, G and H, are seated in a circle facing the centre. Only E sits between H and D. H is third to the left of B and second to the right of A. Only C sits between A and G. B and E are not opposite one another."
+        },
+        "100": {
+          "n": 100,
+          "page": 14,
+          "q": "Which statement is not true?",
+          "opts": {
+            "a": "D and E are facing each other",
+            "b": "C is third to the right of D",
+            "c": "E is between H and D",
+            "d": "A is between C and F"
+          },
+          "direction": "Directions (Questions 99–100): Eight people, A, B, C, D, E, F, G and H, are seated in a circle facing the centre. Only E sits between H and D. H is third to the left of B and second to the right of A. Only C sits between A and G. B and E are not opposite one another."
         }
       },
       "derivedAnswers": {
@@ -6550,6 +6999,166 @@
         "59": {
           "answerIndex": 3,
           "explanation": "There are 6 choices for the first digit because it cannot be zero, then 6, 5 and 4 choices for the remaining positions. The total is 6×6×5×4 = 720."
+        },
+        "56": {
+          "answerIndex": 3,
+          "explanation": "Let the tower height be h. The horizontal distances from its foot are √3h, h and h/√3. Thus AB = (√3−1)h and BC = (1−1/√3)h = (√3−1)h/√3, giving AB:BC = √3:1."
+        },
+        "61": {
+          "answerIndex": 1,
+          "explanation": "The common difference is (1/2−31/4)/(31−2)=−1/4. Since the second term is 7 3/4, the first term is 8. Solving 8+(n−1)(−1/4)=−6 1/2 gives n=59."
+        },
+        "62": {
+          "answerIndex": 0,
+          "explanation": "The platform is 60% longer than the train: 240=1.6L, so the train is 150 m. The train travels 240+150=390 m in 39 s, giving 10 m/s."
+        },
+        "63": {
+          "answerIndex": 2,
+          "explanation": "Since 125^x=5^(3x), the right side is 5^(9−3x). Equating exponents gives 2x−1=9−3x, hence x=2."
+        },
+        "64": {
+          "answerIndex": 3,
+          "explanation": "Using sin²θ=1−cos²θ, the expression is 2+cos²θ. Its minimum is 2, attained when cos²θ=0."
+        },
+        "65": {
+          "answerIndex": 2,
+          "explanation": "Let the original class sizes be 6k, 7k and 8k. From (6k+15)/(7k+15)=9/10, 60k+150=63k+135, so k=5. The original total is 21k=105."
+        },
+        "66": {
+          "answerIndex": 3,
+          "explanation": "The recorded total was 45×70=3150. Correcting the two marks adds (90−40)+(70−75)=45, so the corrected mean is 3195/45=71."
+        },
+        "67": {
+          "answerIndex": 2,
+          "explanation": "The filling rate without the leak is 1/9 tank per hour; with the leak it is 1/10. The leak drains 1/9−1/10=1/90 tank per hour, so it empties a full cistern in 90 hours."
+        },
+        "68": {
+          "answerIndex": 3,
+          "explanation": "The two-digit multiples of 3 run from 12 to 99. There are 30 terms, so their sum is 30(12+99)/2=1665."
+        },
+        "69": {
+          "answerIndex": 0,
+          "explanation": "The downstream speed is 16.9/(52/60)=19.5 km/h. The boat’s still-water speed is 19.5−3=16.5 km/h, so upstream speed is 13.5 km/h. The time is 84/13.5≈6.22 hours."
+        },
+        "70": {
+          "answerIndex": 1,
+          "explanation": "Z should receive 4/9×1260=560 coins, so the mistaken share is 360. Thus 1260t/(5+t)=360, which gives t=2."
+        },
+        "71": {
+          "answerIndex": 2,
+          "explanation": "Let C’s rate be c; A’s rate is 2c. Subtracting A+B=1/18 from B+C=1/24 gives c=1/72. Then B=1/24−1/72=1/36, so B alone takes 36 days."
+        },
+        "72": {
+          "answerIndex": 3,
+          "explanation": "If x km are travelled by cycle, x/13+(80−x)/18=5. Solving gives x=26 km by cycle, so the motorbike distance is 80−26=54 km."
+        },
+        "73": {
+          "answerIndex": 1,
+          "explanation": "The mixture contains 15 L milk and 9 L water. To make a 5:1 ratio while water stays at 9 L, milk must total 45 L; therefore add 30 L."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "Rama’s selling price is 5000×2=₹10,000. Kima’s marked price is 8000×1.6=₹12,800, so her discount is (12,800−10,000)/12,800=21.875%."
+        },
+        "75": {
+          "answerIndex": 2,
+          "explanation": "The difference between B’s and A’s scores is 165+77=242 marks, equal to 22% of the total. The total is 1100; the pass mark is 27%×1100+77=374, or 34%."
+        },
+        "76": {
+          "answerIndex": 3,
+          "explanation": "Total salaries are 25×₹17,600=₹4,40,000. Officers’ salaries total ₹4,40,000−₹1,20,000=₹3,20,000. There are 10 officers, so their average is ₹32,000."
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "For two years, CI−SI=P(r/100)². Thus 7500(r/100)²=108, so r²=144 and r=12%."
+        },
+        "78": {
+          "answerIndex": 0,
+          "explanation": "The financed balance is ₹1,400. After the first ₹800 payment, ₹600 remains for the second month. The ₹200 total interest is therefore charged on ₹1,400 for one month and ₹600 for the next: 200=r_month(1400+600), so r_month=10%, or 120% nominal annually."
+        },
+        "79": {
+          "answerIndex": 1,
+          "explanation": "Taking investments as 4k and 5k, the net result is a gain of 0.20(4k)−0.25(5k)=−0.45k on total 9k. That is a 5% loss."
+        },
+        "80": {
+          "answerIndex": 3,
+          "explanation": "Sawma’s present age is x−8; Dingi’s is x. From (x−8)/x=2/3, 3x−24=2x, so x=24."
+        },
+        "81": {
+          "answerIndex": 2,
+          "explanation": "An ohm is the unit used to measure electrical resistance. A second is likewise the unit used to measure time. The other offered pairs reverse the quantity/unit order or mismatch the unit."
+        },
+        "82": {
+          "answerIndex": 0,
+          "explanation": "A kennel is where a dog lives; a hive is where bees live. The other pairs do not express the same usual animal-to-dwelling relation."
+        },
+        "83": {
+          "answerIndex": 2,
+          "explanation": "Snicker, whoop and roar are vocal sounds; walk is an action rather than a sound."
+        },
+        "84": {
+          "answerIndex": 0,
+          "explanation": "Bountiful, abundant and copious all mean plentiful. Scare is a verb with a different meaning."
+        },
+        "85": {
+          "answerIndex": 0,
+          "explanation": "In options B, C and D, the first letter advances one place and the second retreats one place. In RY:SZ, both letters advance one place, so A is the odd pair."
+        },
+        "86": {
+          "answerIndex": 0,
+          "explanation": "The numbers should equal the sum of the letters’ alphabet positions: RQ=18+17=35, HI=8+9=17 and TS=20+19=39. MN totals 27, not 37, so A is the odd pair."
+        },
+        "87": {
+          "answerIndex": 1,
+          "explanation": "The first letters retreat by four places (W,S,O,K,G); the final letters advance A,B,C,D,E. The middle numbers follow ×1+1, ×2+1, ×3+1, ×4+1, giving 65. The answer is G65E."
+        },
+        "88": {
+          "answerIndex": 2,
+          "explanation": "A court is where a crime is adjudicated; a hospital is where sickness is treated. The closest matching option is Hospital."
+        },
+        "89": {
+          "answerIndex": 1,
+          "explanation": "The code is the sum of the letters’ alphabet positions minus one: PRO gives 16+18+15−1=48 and BAL gives 2+1+12−1=14. COH gives 3+15+8−1=25."
+        },
+        "90": {
+          "answerIndex": 2,
+          "explanation": "Replace each symbol by its defined operation: 20+12−4÷8×6. Order of operations gives 20+12−3=29."
+        },
+        "91": {
+          "answerIndex": 3,
+          "explanation": "The first and third legs cancel the 6 km eastward displacement. The two southward legs total 10+15=25 km, so John is 25 km south of the start."
+        },
+        "93": {
+          "answerIndex": 1,
+          "explanation": "Dena and Muana are siblings. Their children Hmingi and Ruata are cousins; Kimi is Ruata’s daughter. In the item’s intended generation-based kinship, Hmingi is Kimi’s aunt? Actually Hmingi is the daughter of Kimi’s paternal great-uncle/aunt; she is Kimi’s first cousin once removed, and the offered closest label is aunt only if Dena is Muana’s brother and Hmingi is one generation above. Hold this pending a valid exact option."
+        },
+        "94": {
+          "answerIndex": 3,
+          "explanation": "After the exchange, X occupies Y’s original position: 21st from the top and 16th from the bottom, so there are 21+16−1=36 students. Y takes X’s old 7th-from-top place, which is 36−7+1=30th from the bottom."
+        },
+        "95": {
+          "answerIndex": 2,
+          "explanation": "Rini’s new 15th-from-right position is Sawmi’s original 10th-from-left position, so the row has 24 girls. Sawmi takes Rini’s original place, 11th from the right, which is 24−11+1=14th from the left."
+        },
+        "96": {
+          "answerIndex": 0,
+          "explanation": "The statements give R>B>M>J>D, so R is tallest."
+        },
+        "97": {
+          "answerIndex": 1,
+          "explanation": "The two views share face 4. Rotating the first view around that face to match the second places face 1 opposite face 3."
+        },
+        "98": {
+          "answerIndex": 3,
+          "explanation": "Tables and benches are distinct kinds of furniture. They are separate subsets within the larger furniture set, as in figure D."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "Fix H at one seat. The clues force the clockwise order H–F–A–C–G–B–D–E. Three seats to D’s left is F."
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "With the seating order H–F–A–C–G–B–D–E, D and E are adjacent, not opposite. The other three statements hold, so statement A is not true."
         }
       }
     },

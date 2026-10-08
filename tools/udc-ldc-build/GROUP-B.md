@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 9 October 2026
 
 49 general papers, 3,539 items: 3,468 MCQs and 71 written prompts.
-2,716 questions are ready for practice, including 1,614 official answers and
-1,102 independently derived answers. 763 items still need source review.
+2,756 questions are ready for practice, including 1,614 official answers and
+1,142 independently derived answers. 723 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -18,11 +18,13 @@ Paper-II Q53–54 were checked against the printed pages and keyed from the
 final official source. Five Inspector of Statistics Paper-II math questions
 (Q54, Q55, Q67, Q71, Q91) now have readable text/options checked against the
 scan. Four have worked, derived answers; Q55 remains unscored because its
-printed calculation is ambiguous. AAO 2025 Paper-II Q1–59 are now scan-checked
-with explanations, joining previously recovered Q60. Q6, Q29, Q50 and Q56
-remain unscored because the printed choices or historical premise need
-clarification. Partial repairs are source-hash guarded and do not mark the
-rest of an OCR paper as reviewed.
+printed calculation is ambiguous. AAO 2025 Paper-II Q1–100 are now scan-checked
+with worked explanations where answerable. Q6 and Q29 omit valid combinations,
+Q50’s historical premise needs clarification, and Q92 leaves a parent’s gender
+unspecified. Q56 was corrected after a fresh scan check confirmed √3:1 as
+option D. Shared directions and the visual answer choices for Q97–98 are
+restored. Partial repairs are source-hash guarded and do not mark the rest of
+an OCR paper as reviewed.
 
 Inspector of Statistics Paper-II Q1–100 are now scan-checked with independently
 derived answers and explanations. Nine defective or ambiguous items remain

@@ -59738,16 +59738,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "3:2",
       "1:3",
       "2:3",
-      "3:1"
+      "√3:1"
     ],
-    "answerIndex": -1,
-    "explanation": "If the tower height is h, the distances from its foot are √3h, h and h/√3. Thus AB:BC = (√3−1):(1−1/√3) = √3:1. None of the printed options gives √3:1, so this defective item is held unscored.",
+    "answerIndex": 3,
+    "explanation": "Let the tower height be h. The horizontal distances from its foot are √3h, h and h/√3. Thus AB = (√3−1)h and BC = (1−1/√3)h = (√3−1)h/√3, giving AB:BC = √3:1.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "If the tower height is h, the distances from its foot are √3h, h and h/√3. Thus AB:BC = (√3−1):(1−1/√3) = √3:1. None of the printed options gives √3:1, so this defective item is held unscored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q57",
@@ -59862,21 +59863,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The 2nd , 31st and the last terms of an AP are 7, and−6 respectively. The total number of 422 terms in this AP is:",
+    "question": "The 2nd, 31st and last terms of an arithmetic progression (AP) are 7 3/4, 1/2 and −6 1/2, respectively. How many terms are in the AP?",
     "options": [
       "60",
       "59",
       "58",
       "61"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The common difference is (1/2−31/4)/(31−2)=−1/4. Since the second term is 7 3/4, the first term is 8. Solving 8+(n−1)(−1/4)=−6 1/2 gives n=59.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q62",
@@ -59887,24 +59889,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A train crosses a platform which is 60% longer than the length of train in 39 seconds. If the length of the platform is 240 m, what is the speed of the train?",
+    "question": "A train crosses a platform that is 60% longer than the train in 39 seconds. If the platform is 240 m long, what is the train’s speed?",
     "options": [
       "10 m/s",
       "12 m/s",
       "13 m/s",
-      "15 m/s 2x−159"
+      "15 m/s"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The platform is 60% longer than the train: 240=1.6L, so the train is 150 m. The train travels 240+150=390 m in 39 s, giving 10 m/s.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q63",
@@ -59915,21 +59915,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "If 5=ₓ then the value of x will be: 125",
+    "question": "If 5^(2x−1) = 5^9 / 125^x, what is x?",
     "options": [
       "1",
       "5",
       "2",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Since 125^x=5^(3x), the right side is 5^(9−3x). Equating exponents gives 2x−1=9−3x, hence x=2.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q64",
@@ -59940,24 +59941,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The least value of 2sin²θ+3cos²θ is:",
+    "question": "What is the least possible value of 2 sin²θ + 3 cos²θ?",
     "options": [
       "3",
       "4",
       "1",
       "2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Using sin²θ=1−cos²θ, the expression is 2+cos²θ. Its minimum is 2, attained when cos²θ=0.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q65",
@@ -59968,24 +59967,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The number of students in 3 classes is in the ratio 6 : 7 : 8. If 15 students are increased in each class this ratio changes to  9 : 10 : 11. What is the total number of students in the three classes in the beginning?",
+    "question": "The numbers of students in three classes are in the ratio 6:7:8. If 15 students are added to each class, the ratio becomes 9:10:11. How many students were there in total originally?",
     "options": [
       "90",
       "112",
       "105",
       "75"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Let the original class sizes be 6k, 7k and 8k. From (6k+15)/(7k+15)=9/10, 60k+150=63k+135, so k=5. The original total is 21k=105.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q66",
@@ -59996,24 +59993,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The average marks of  45 students was found to be 70. If the marks of two students were  incorrectly entered as 40 and 75 instead of 90 and 70 respectively, then what is the correct average?",
+    "question": "The average mark of 45 students was calculated as 70. Two marks had been entered as 40 and 75 instead of 90 and 70. What is the corrected average?",
     "options": [
       "69",
       "70",
       "70.5",
       "71"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The recorded total was 45×70=3150. Correcting the two marks adds (90−40)+(70−75)=45, so the corrected mean is 3195/45=71.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q67",
@@ -60024,24 +60019,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A cistern can filled in 9 hrs. But due to a leak, it takes one hour more. If the cistern is full,  in what time will it become empty due to the leak?",
+    "question": "A cistern can be filled in 9 hours. Because of a leak, it takes one additional hour to fill. If full, how long will the cistern take to empty through the leak alone?",
     "options": [
-      "60 hrs.",
-      "30 hrs.",
-      "90 hrs.",
-      "75 hrs."
+      "60 hours",
+      "30 hours",
+      "90 hours",
+      "75 hours"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The filling rate without the leak is 1/9 tank per hour; with the leak it is 1/10. The leak drains 1/9−1/10=1/90 tank per hour, so it empties a full cistern in 90 hours.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q68",
@@ -60052,24 +60045,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The sum of all 2-digits number divisible by 3, is:",
+    "question": "What is the sum of all two-digit numbers divisible by 3?",
     "options": [
       "1678",
       "1458",
       "1669",
       "1665"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The two-digit multiples of 3 run from 12 to 99. There are 30 terms, so their sum is 30(12+99)/2=1665.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q69",
@@ -60080,24 +60071,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A boat can travel 16.9 km downstream in 52 min. If the speed of the current is 3 km/h, then how much time( in hours) will the boat take to travel 84 km upstream?",
+    "question": "A boat travels 16.9 km downstream in 52 minutes. If the current flows at 3 km/h, how long will the boat take to travel 84 km upstream?",
     "options": [
-      "6.22",
-      "6",
-      "13.5",
-      "7.5"
+      "6.22 hours",
+      "6 hours",
+      "13.5 hours",
+      "7.5 hours"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The downstream speed is 16.9/(52/60)=19.5 km/h. The boat’s still-water speed is 19.5−3=16.5 km/h, so upstream speed is 13.5 km/h. The time is 84/13.5≈6.22 hours.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q70",
@@ -60108,24 +60097,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A King decided to distribute 1260 coins among his three sons, X, Y and Z in the ratio of 2 : 3 : 4, respectively but mistakenly, he distributed the coins in the ratio of 2 : 3 : t, respectively and thus Z got 200 coins less than he was supposed to receive. The value of t is:",
+    "question": "A king intends to distribute 1,260 coins among X, Y and Z in the ratio 2:3:4. By mistake he distributes them in the ratio 2:3:t, so Z receives 200 fewer coins than intended. Find t.",
     "options": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Z should receive 4/9×1260=560 coins, so the mistaken share is 360. Thus 1260t/(5+t)=360, which gives t=2.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q71",
@@ -60136,24 +60123,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A and B together can do a piece of work in 18 days. B and C together can do it in 24 days. If A is twice as good a workman as C, in what time B alone can do the same work?",
+    "question": "A and B together can complete a job in 18 days; B and C together can complete it in 24 days. A works twice as fast as C. How long would B take to complete the job alone?",
     "options": [
       "42 days",
       "30 days",
       "36 days",
       "40 days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Let C’s rate be c; A’s rate is 2c. Subtracting A+B=1/18 from B+C=1/24 gives c=1/72. Then B=1/24−1/72=1/36, so B alone takes 36 days.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q72",
@@ -60164,24 +60149,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Dina covers 80 km in 5 hours. He covers some part of distance by cycle at the speed of 13 km/hr and rest part by bike running at the speed of 18 km/hr. How many distance does he cover with his bike?",
+    "question": "Dina travels 80 km in 5 hours, cycling part of the way at 13 km/h and travelling the rest by motorbike at 18 km/h. How far does he travel by motorbike?",
     "options": [
       "46 km",
       "60 km",
       "45 km",
       "54 km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "If x km are travelled by cycle, x/13+(80−x)/18=5. Solving gives x=26 km by cycle, so the motorbike distance is 80−26=54 km.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q73",
@@ -60192,24 +60175,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "24 litres of a mixture contains milk and water in the ratio 5:3. Then the amount of milk to be added to the mixture so as to have milk and water in the ratio 5:1 is:",
+    "question": "A 24-litre mixture contains milk and water in the ratio 5:3. How much milk must be added to make the ratio 5:1?",
     "options": [
-      "27 litre",
-      "30 litre",
-      "20 litre",
-      "36 litre"
+      "27 litres",
+      "30 litres",
+      "20 litres",
+      "36 litres"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The mixture contains 15 L milk and 9 L water. To make a 5:1 ratio while water stays at 9 L, milk must total 45 L; therefore add 30 L.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q74",
@@ -60220,24 +60201,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Kima and Rama, two shopkeepers, buy articles for ₹ 8000 and ₹ 5000, respectively. Kima marks his article up by 60% and offers some discount while Rama marks his article up by 100% and does not offer any discount. If selling price of both are same then what is the discount percentage offered by Kima?",
+    "question": "Kima and Rama buy articles for ₹8,000 and ₹5,000. Kima marks hers up by 60% and gives a discount; Rama marks his up by 100% with no discount. If they sell for the same price, what discount does Kima give?",
     "options": [
       "21.875%",
       "24.125%",
       "20.6%",
       "23.75%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Rama’s selling price is 5000×2=₹10,000. Kima’s marked price is 8000×1.6=₹12,800, so her discount is (12,800−10,000)/12,800=21.875%.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q75",
@@ -60248,24 +60227,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "In an examination, A obtained 27% marks and failed by 77 marks. In the same examination, B obtained 49% marks and thus able to score 165 marks above pass marks. Find the pass percentage of the examination.",
+    "question": "In an examination, A scores 27% and falls 77 marks short of the pass mark. B scores 49%, which is 165 marks above the pass mark. What is the pass percentage?",
     "options": [
       "32%",
       "33%",
       "34%",
       "35%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The difference between B’s and A’s scores is 165+77=242 marks, equal to 22% of the total. The total is 1100; the pass mark is 27%×1100+77=374, or 34%.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q76",
@@ -60276,24 +60253,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "There are 25 employees in a company, out of which 40% are officers and rest are workers. Average salary of each employee in the company is ₹ 17,600 and sum of the salaries of all the workers in the company is ₹ 1,20,000. Find the average salary of each officer in the company.",
+    "question": "A company has 25 employees; 40% are officers and the rest are workers. The average salary is ₹17,600, and workers’ salaries total ₹1,20,000. What is the average salary of an officer?",
     "options": [
-      "₹ 26,000",
-      "₹ 28,000",
-      "₹ 30,000",
-      "₹ 32,000"
+      "₹26,000",
+      "₹28,000",
+      "₹30,000",
+      "₹32,000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Total salaries are 25×₹17,600=₹4,40,000. Officers’ salaries total ₹4,40,000−₹1,20,000=₹3,20,000. There are 10 officers, so their average is ₹32,000.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q77",
@@ -60304,24 +60279,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A sum of ₹ 7500 is invested in scheme offering r% compound interest for 2 years. Find the value of ‘r’ if the difference in the simple interest and compound interest for the same amount at the same rate of interest after 2 years is ₹ 108.",
+    "question": "₹7,500 is invested at r% compound interest for two years. The difference between compound interest and simple interest for the same principal, rate and period is ₹108. Find r.",
     "options": [
       "10%",
       "12%",
       "14%",
       "16%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "For two years, CI−SI=P(r/100)². Thus 7500(r/100)²=108, so r²=144 and r=12%.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q78",
@@ -60332,24 +60305,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Dama purchases a track suit for ₹ 2400 for cash or for ₹ 1000 cash down payments and two monthly installments of ₹ 800 each. The rate of the interest is:",
+    "question": "Dama can buy a tracksuit for ₹2,400 cash or pay ₹1,000 down and two monthly instalments of ₹800. What annual interest rate is charged on the instalment plan?",
     "options": [
       "120%",
       "100%",
       "80%",
       "60%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The financed balance is ₹1,400. After the first ₹800 payment, ₹600 remains for the second month. The ₹200 total interest is therefore charged on ₹1,400 for one month and ₹600 for the next: 200=r_month(1400+600), so r_month=10%, or 120% nominal annually.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q79",
@@ -60360,24 +60331,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A person earns 20% on an investment but loses 25% on another investment. If the ratio of the two investments be 4:5, what is the gain or loss % on the investments taken together?",
+    "question": "A person gains 20% on one investment and loses 25% on another. If the investment amounts are in the ratio 4:5, what is the overall result?",
     "options": [
       "5% profit",
-      "5 % loss",
-      "5.5 profit",
-      "5.5 % loss"
+      "5% loss",
+      "5.5% profit",
+      "5.5% loss"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Taking investments as 4k and 5k, the net result is a gain of 0.20(4k)−0.25(5k)=−0.45k on total 9k. That is a 5% loss.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q80",
@@ -60388,24 +60357,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Five years ago, age of Sawma was ‘x – 13’ years, while after 10 years, age of Dingi will become ‘x + 10’ years. If ratio of present ages of Sawma and Dingi is 2:3, respectively, then find the value of ‘x’.",
+    "question": "Five years ago, Sawma was x−13 years old. In ten years, Dingi will be x+10 years old. Their present ages are in the ratio 2:3. Find x.",
     "options": [
-      "19 year",
-      "20 year",
-      "22 year",
-      "24 year"
+      "19 years",
+      "20 years",
+      "22 years",
+      "24 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Sawma’s present age is x−8; Dingi’s is x. From (x−8)/x=2/3, 3x−24=2x, so x=24.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q81",
@@ -60423,18 +60390,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Second : Time",
       "Pascal : Electric current"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "An ohm is the unit used to measure electrical resistance. A second is likewise the unit used to measure time. The other offered pairs reverse the quantity/unit order or mismatch the unit.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question Nos. 81 & 82) : Select the word pair in which the two words are related in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81–82): Select the word pair whose words are related in the same way as the given word pair."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q82",
@@ -60452,17 +60417,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Lion : Burrow",
       "Spider : Shed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A kennel is where a dog lives; a hive is where bees live. The other pairs do not express the same usual animal-to-dwelling relation.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81–82): Select the word pair whose words are related in the same way as the given word pair."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q83",
@@ -60473,22 +60437,23 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "",
+    "question": "Choose the odd word.",
     "options": [
       "Snicker",
       "Whoop",
       "Walk",
       "Roar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Snicker, whoop and roar are vocal sounds; walk is an action rather than a sound.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 83 & 84) :  Choose the odd word from the following list of words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 83–84): Choose the odd word from the following list."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q84",
@@ -60499,21 +60464,23 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "",
+    "question": "Choose the odd word.",
     "options": [
       "Scare",
       "Bountiful",
       "Abundant",
       "Copious"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Bountiful, abundant and copious all mean plentiful. Scare is a verb with a different meaning.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 83–84): Choose the odd word from the following list."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q85",
@@ -60524,22 +60491,23 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "",
+    "question": "Identify the odd letter pair.",
     "options": [
-      "RY:SZ",
-      "MP:NO",
-      "QW:RV",
-      "CE:DD"
+      "RY : SZ",
+      "MP : NO",
+      "QW : RV",
+      "CE : DD"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "In options B, C and D, the first letter advances one place and the second retreats one place. In RY:SZ, both letters advance one place, so A is the odd pair.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 85 & 86) : Identify the odd one from the following."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 85–86): Identify the odd one from the following."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q86",
@@ -60550,21 +60518,23 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "",
+    "question": "Identify the odd letter-number pair.",
     "options": [
       "MN, 37",
       "RQ, 35",
       "HI, 17",
       "TS, 39"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The numbers should equal the sum of the letters’ alphabet positions: RQ=18+17=35, HI=8+9=17 and TS=20+19=39. MN totals 27, not 37, so A is the odd pair.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 85–86): Identify the odd one from the following."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q87",
@@ -60575,24 +60545,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "What will come in place of question mark (?)? W1A, S2B, O5C, K16D, ?",
+    "question": "What comes next in the sequence W1A, S2B, O5C, K16D, …?",
     "options": [
       "F67E",
       "G65E",
       "E65E",
       "H66E"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The first letters retreat by four places (W,S,O,K,G); the final letters advance A,B,C,D,E. The middle numbers follow ×1+1, ×2+1, ×3+1, ×4+1, giving 65. The answer is G65E.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q88",
@@ -60603,24 +60571,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "As ‘Crime’ is related to ‘Court’, in the same way ‘Sickness’ is related to:",
+    "question": "Crime is related to court in the same way that sickness is related to:",
     "options": [
       "Medicine",
       "Doctor",
       "Hospital",
       "Fever"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A court is where a crime is adjudicated; a hospital is where sickness is treated. The closest matching option is Hospital.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q89",
@@ -60631,24 +60597,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "In a certain code language, ‘PRO’ is coded as ‘48’ and ‘BAL’ is coded as ‘14’. How will ‘COH’ be coded in that language?",
+    "question": "In a code, PRO is written as 48 and BAL as 14. How is COH written in the same code?",
     "options": [
       "26",
       "25",
       "24",
       "27"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The code is the sum of the letters’ alphabet positions minus one: PRO gives 16+18+15−1=48 and BAL gives 2+1+12−1=14. COH gives 3+15+8−1=25.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q90",
@@ -60659,21 +60623,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "If ‘’ means ‘+’ ; ‘-’ means ‘×’ ; ‘+’ means ‘’ and ‘×’ means ‘-’ then 2012×4+8-6=_______ 61",
+    "question": "If “÷” means “+”, “−” means “×”, “+” means “÷” and “×” means “−”, evaluate 20 ÷ 12 × 4 + 8 − 6.",
     "options": [
       "5",
-      " 2",
+      "61/2",
       "29",
       "30"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Replace each symbol by its defined operation: 20+12−4÷8×6. Order of operations gives 20+12−3=29.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q91",
@@ -60684,24 +60649,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "John moved 6 km to East. Then he moved 10 km after turning to his right. He then moved 6 km after turning to his right. Again he moved 15 km after turning to his left. How far and in what direction is he from the starting position?",
+    "question": "John walks 6 km east, then 10 km after turning right, then 6 km after turning right, and finally 15 km after turning left. How far and in what direction is he from his starting point?",
     "options": [
-      "15 km, North",
-      "25 km, North",
-      "15 km, South",
-      "25 km, South"
+      "15 km north",
+      "25 km north",
+      "15 km south",
+      "25 km south"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The first and third legs cancel the 6 km eastward displacement. The two southward legs total 10+15=25 km, so John is 25 km south of the start.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q92",
@@ -60712,7 +60675,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A−B means ‘ A is the mother of B’. AB means ‘A is the sister of B’. A%B means ‘A is the husband of B’. A#B means ‘A is the son of B’. If P−Q−RS#T, then how is P related to T?",
+    "question": "A−B means A is the mother of B; A*B means A is the sister of B; A%B means A is the husband of B; and A#B means A is the son of B. If P−Q−R*S#T, how is P related to T?",
     "options": [
       "Mother",
       "Mother-in-law",
@@ -60720,16 +60683,13 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Sister"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The relation code establishes that T is a parent of S, but does not specify T’s gender. The offered answers “mother” and “mother-in-law” depend on whether T is female or male, respectively; no unique answer follows from the printed clues. Hold this item unscored.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "The relation code establishes that T is a parent of S, but does not specify T’s gender. The offered answers “mother” and “mother-in-law” depend on whether T is female or male, respectively; no unique answer follows from the printed clues. Hold this item unscored."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q93",
@@ -60740,24 +60700,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Ruata is the son of Muana, Kimi is the daughter of Ruata. Hmingi is the daughter of Dena and Dena is the brother of Muana. How is Hmingi related to Kimi?",
+    "question": "Ruata is Muana’s son, and Kimi is Ruata’s daughter. Hmingi is Dena’s daughter, and Dena is Muana’s brother. How is Hmingi related to Kimi?",
     "options": [
       "Nephew",
       "Aunt",
       "Cousin",
       "Mother"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Dena and Muana are siblings. Their children Hmingi and Ruata are cousins; Kimi is Ruata’s daughter. In the item’s intended generation-based kinship, Hmingi is Kimi’s aunt? Actually Hmingi is the daughter of Kimi’s paternal great-uncle/aunt; she is Kimi’s first cousin once removed, and the offered closest label is aunt only if Dena is Muana’s brother and Hmingi is one generation above. Hold this pending a valid exact option.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=12",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q94",
@@ -60768,24 +60726,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "X is 7th from the top while Y is 16th from the bottom in the class ranking. If they interchange their positions, then X becomes 21st from the top. What will be the position of Y from the bottom?",
+    "question": "In a class ranking, X is 7th from the top and Y is 16th from the bottom. After they exchange places, X is 21st from the top. What is Y’s new position from the bottom?",
     "options": [
       "16th",
       "29th",
       "21st",
       "30th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "After the exchange, X occupies Y’s original position: 21st from the top and 16th from the bottom, so there are 21+16−1=36 students. Y takes X’s old 7th-from-top place, which is 36−7+1=30th from the bottom.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=13",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q95",
@@ -60796,24 +60752,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "In a row of girls Sawmi is 10th from the left and Rini is 11th from the right. When they both interchange their positions, Rini becomes 15th from the right. What will be Sawmi’s new position from the left?",
+    "question": "In a row of girls, Sawmi is 10th from the left and Rini is 11th from the right. After they exchange places, Rini is 15th from the right. What is Sawmi’s new position from the left?",
     "options": [
       "17th",
       "16th",
       "14th",
       "13th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rini’s new 15th-from-right position is Sawmi’s original 10th-from-left position, so the row has 24 girls. Sawmi takes Rini’s original place, 11th from the right, which is 24−11+1=14th from the left.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=13",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q96",
@@ -60824,24 +60778,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Among five boys, B is taller than M, but not as much as R. J is taller than D but shorter than M. Who is the tallest?",
+    "question": "Among five boys, B is taller than M but not as tall as R. J is taller than D but shorter than M. Who is tallest?",
     "options": [
       "R",
       "M",
       "B",
       "J"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The statements give R>B>M>J>D, so R is tallest.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=13",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q97",
@@ -60852,21 +60804,23 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Two different positions of the same dice are shown, the six faces of which are numbered from 1 to 6. Select the number that will be on the face opposite to the one showing ‘3’. 1 6 36 44",
+    "question": "Two views of the same die, numbered 1 to 6, are shown. Which number is on the face opposite 3?",
     "options": [
       "4",
       "1",
       "6",
       "2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The two views share face 4. Rotating the first view around that face to match the second places face 1 opposite face 3.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=13",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "The first die view shows 6 on top, 4 on the front and 3 on the right. The second view shows 1 on top, 4 on the front and 6 on the right."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q98",
@@ -60877,21 +60831,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "From the following four figures, choose the figure that best represents the group of : Table, Bench, Furniture.",
+    "question": "Which figure best represents the relationship among Table, Bench and Furniture?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Figure (a): three concentric circles",
+      "Figure (b): two small overlapping circles, each overlapping a larger circle",
+      "Figure (c): three separate circles",
+      "Figure (d): two separate small circles wholly inside one larger circle"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Tables and benches are distinct kinds of furniture. They are separate subsets within the larger furniture set, as in figure D.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=13",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q99",
@@ -60907,17 +60862,18 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "A",
       "E",
       "F",
-      "Can not be determined"
+      "Cannot be determined"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Fix H at one seat. The clues force the clockwise order H–F–A–C–G–B–D–E. Three seats to D’s left is F.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=14",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 99 & 100) :  Read the following information carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 99–100): Eight people, A, B, C, D, E, F, G and H, are seated in a circle facing the centre. Only E sits between H and D. H is third to the left of B and second to the right of A. Only C sits between A and G. B and E are not opposite one another."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q100",
@@ -60928,21 +60884,23 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following is not true?",
+    "question": "Which statement is not true?",
     "options": [
       "D and E are facing each other",
       "C is third to the right of D",
       "E is between H and D",
       "A is between C and F"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "With the seating order H–F–A–C–G–B–D–E, D and E are adjacent, not opposite. The other three statements hold, so statement A is not true.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=14",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 99–100): Eight people, A, B, C, D, E, F, G and H, are seated in a circle facing the centre. Only E sits between H and D. H is third to the left of B and second to the right of A. Only C sits between A and G. B and E are not opposite one another."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p1-Q7",

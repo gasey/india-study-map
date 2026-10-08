@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,379 items: 3,273 MCQs and 106 written prompts.
-1,328 questions are ready for practice, including 1,216 official answers and
-112 independently derived answers. 2,021 items still need source review.
+1,336 questions are ready for practice, including 1,224 official answers and
+112 independently derived answers. 2,013 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -21,6 +21,12 @@ scan. Four have worked, derived answers; Q55 remains unscored because its
 printed calculation is ambiguous. AAO 2025 Paper-II Q60 also has a scan-checked
 transcription and worked probability solution. Partial repairs are source-hash
 guarded and do not mark the rest of an OCR paper as reviewed.
+
+The official MPSC final keys for the March 2025 Stenographer Grade-III General
+Knowledge and General English papers are now attached. General Knowledge Q1–8
+were transcribed from printed page 1 and matched against the final key; the
+remaining OCR items stay gated until their printed question numbers, wording,
+and options are checked.
 
 The December 2024 combined exam has all 75 Paper I and 100 Paper II MCQs.
 Paper II Q84–100 were recovered from the complete Series B with matching
@@ -35,7 +41,7 @@ subject-specific technical subjects and gazetted exams are excluded.
 - `verified-general-keys.json`: source-checked keys, multi-answer cells,
   compensated items and per-question corrigendum links. It includes AAO 2024,
   JAO, Circle Officer, SI Statistics, Research Investigator, SI Police and
-  Radiotherapy keys. A filename saying provisional can contain a final key;
+  Radiotherapy and 2025 Stenographer Grade-III keys. A filename saying provisional can contain a final key;
   status must come from the printed notification.
 - `group-b-text-repairs.json`: all 100 AAO 2024 GK question numbers, stems,
   and option sets checked against printed pages 1–11. OCR omissions, option

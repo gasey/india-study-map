@@ -32318,15 +32318,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "DuringhisfinaldayinMizoram,aUnionMinisterofStateforCorporateAffairsandRoadTransport &HighwaysvisitedtheNHIDCLRegionalOfficeinAizawl.Whoisthisminister?",
+    "question": "During his final day in Mizoram, a Union Minister of State for Corporate Affairs and Road Transport & Highways visited the NHIDCL Regional Office in Aizawl. Who is this minister?",
     "options": [
-      "ShriHarshMalhotra",
-      "ShriGeorgeKurian",
-      "ShriMurlidharMohol",
-      "ShriPabitraMargherita"
+      "Shri Harsh Malhotra",
+      "Shri George Kurian",
+      "Shri Murlidhar Mohol",
+      "Shri Pabitra Margherita"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Shri Harsh Malhotra”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
@@ -32335,9 +32335,8 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q2",
@@ -32348,15 +32347,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "On26\"February2025,Govt.ofMizoramfacilitatedtheflagoffofthefirstconsignmentofAnthurium FlowerfromAizawltowhichcountry?",
+    "question": "On 26th February 2025, Govt. of Mizoram facilitated the flag off of the first consignment of Anthurium Flower from Aizawl to which country?",
     "options": [
       "Malaysia",
       "Singapore",
       "Bangladesh",
       "Japan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Singapore”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
@@ -32365,9 +32364,8 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q3",
@@ -32378,15 +32376,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Onthisyear’sRepublicDay,towhomdidtheGovernorofMizorampresentthePresident’sMedal forDistinguishedService?",
+    "question": "On this year’s Republic Day, to whom did the Governor of Mizoram present the President’s Medal for Distinguished Service?",
     "options": [
-      "PuZoramsangaRalte,MPS",
-      "PuKasteRomalsawma,MPS",
-      "PuVanlalhluna,Inspector",
-      "PuF.Vanlalrochana,MPS"
+      "Pu Zoramsanga Ralte, MPS",
+      "Pu Kaste Romalsawma, MPS",
+      "Pu Vanlalhluna, Inspector",
+      "Pu F. Vanlalrochana, MPS"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pu Zoramsanga Ralte, MPS”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
@@ -32395,9 +32393,8 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q4",
@@ -32408,15 +32405,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatistheThemeofChapcharkut-2025?",
+    "question": "What is the Theme of Chapchar kut-2025?",
     "options": [
-      "ZoNunZemawi-Tlawmngaihna",
-      "ZoNunZemawi-Aiaupazah",
-      "ZoNunZemawi-Hawihhawmna",
-      "ZonunZemawi-Khawtlangnunah"
+      "Zo Nun Zemawi-Tlawmngaihna",
+      "Zo Nun Zemawi-Aia upa zah",
+      "Zo Nun Zemawi-Hawihhawmna",
+      "Zo nun Zemawi-Khawtlang nunah"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Zo Nun Zemawi-Hawihhawmna”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
@@ -32425,9 +32422,8 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q5",
@@ -32438,15 +32434,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "DigitalIndiaCommonServicesCentre(DICSC)hasselectedonedistrictfromNorthEastIndiafor itspilotproject.WhichdistricthasbeenselectedbyDICSC?",
+    "question": "Digital India Common Services Centre (DICSC) has selected one district from North East India for its pilot project. Which district has been selected by DICSC?",
     "options": [
-      "AizawlDistrict",
-      "ChamphaiDistrict",
-      "MamitDistrict",
-      "HnahthialDistrict"
+      "Aizawl District",
+      "Champhai District",
+      "Mamit District",
+      "Hnahthial District"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mamit District”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
@@ -32455,9 +32451,8 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q6",
@@ -32468,15 +32463,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Wherewasthe“FestivalofLetters2025”organized?",
+    "question": "Where was the “Festival of Letters 2025” organized?",
     "options": [
       "Mumbai",
       "Chennai",
-      "NewDethi",
+      "New Delhi",
       "Bhopal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “New Delhi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
@@ -32485,9 +32480,8 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q7",
@@ -32498,15 +32492,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatkindofdiseaseis“Viriligo”thatwasrecentlyseeninnews?",
+    "question": "What kind of disease is “Vitiligo” that was recently seen in news?",
     "options": [
-      "Adiseasecausinglossofskincolorinpatches",
-      "Avitamindeficiencydisorder",
-      "Neurologicaldisorder",
-      "Mentalillness."
+      "A disease causing loss of skin color in patches",
+      "A vitamin deficiency disorder",
+      "Neurological disorder",
+      "Mental illness"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “A disease causing loss of skin color in patches”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
@@ -32515,9 +32509,8 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q8",
@@ -32528,15 +32521,15 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whohasbeenconferredthe‘MostexcellentOrderoftheBritishEmpire’honourrecently?",
+    "question": "Who has been conferred the ‘Most excellent Order of the British Empire’ honour recently?",
     "options": [
-      "N.Chandrasekaran",
-      "AzimPremji",
-      "ShivNadar",
-      "AnandMahindra -2-:"
+      "N. Chandrasekaran",
+      "Azim Premji",
+      "Shiv Nadar",
+      "Anand Mahindra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “N. Chandrasekaran”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
@@ -32545,9 +32538,8 @@ const groupBQuestionsPart4: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q9",
@@ -91372,6 +91364,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "penaltyFraction": 0
   },
   "mpsc-group-b-aao-2024-arithmetic": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-steno-2025-gk": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
     "negativeMarking": false,

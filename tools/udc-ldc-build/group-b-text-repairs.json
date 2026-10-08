@@ -1395,6 +1395,111 @@
           "explanation": "The composite outcomes on a standard die are 4 and 6, so the probability is 2/6 = 1/3. A tail has probability 1/2. The independent events occur together with probability 1/3 × 1/2 = 1/6 (option A)."
         }
       }
+    },
+    "steno-2025-gk": {
+      "sourceSha256": "474c052c400bf240e59fb2b09f74114390b5593eec8e583879d032e4f0f81bf5",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Questions 1–8 and all four options/order per item transcribed from rendered printed paper page 1; official final key separately checked against the 28 May 2025 MPSC table.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "q": "During his final day in Mizoram, a Union Minister of State for Corporate Affairs and Road Transport & Highways visited the NHIDCL Regional Office in Aizawl. Who is this minister?",
+          "opts": {
+            "a": "Shri Harsh Malhotra",
+            "b": "Shri George Kurian",
+            "c": "Shri Murlidhar Mohol",
+            "d": "Shri Pabitra Margherita"
+          }
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "q": "On 26th February 2025, Govt. of Mizoram facilitated the flag off of the first consignment of Anthurium Flower from Aizawl to which country?",
+          "opts": {
+            "a": "Malaysia",
+            "b": "Singapore",
+            "c": "Bangladesh",
+            "d": "Japan"
+          }
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "q": "On this year’s Republic Day, to whom did the Governor of Mizoram present the President’s Medal for Distinguished Service?",
+          "opts": {
+            "a": "Pu Zoramsanga Ralte, MPS",
+            "b": "Pu Kaste Romalsawma, MPS",
+            "c": "Pu Vanlalhluna, Inspector",
+            "d": "Pu F. Vanlalrochana, MPS"
+          }
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "q": "What is the Theme of Chapchar kut-2025?",
+          "opts": {
+            "a": "Zo Nun Zemawi-Tlawmngaihna",
+            "b": "Zo Nun Zemawi-Aia upa zah",
+            "c": "Zo Nun Zemawi-Hawihhawmna",
+            "d": "Zo nun Zemawi-Khawtlang nunah"
+          }
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "q": "Digital India Common Services Centre (DICSC) has selected one district from North East India for its pilot project. Which district has been selected by DICSC?",
+          "opts": {
+            "a": "Aizawl District",
+            "b": "Champhai District",
+            "c": "Mamit District",
+            "d": "Hnahthial District"
+          }
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "q": "Where was the “Festival of Letters 2025” organized?",
+          "opts": {
+            "a": "Mumbai",
+            "b": "Chennai",
+            "c": "New Delhi",
+            "d": "Bhopal"
+          }
+        },
+        "7": {
+          "n": 7,
+          "part": null,
+          "page": 1,
+          "q": "What kind of disease is “Vitiligo” that was recently seen in news?",
+          "opts": {
+            "a": "A disease causing loss of skin color in patches",
+            "b": "A vitamin deficiency disorder",
+            "c": "Neurological disorder",
+            "d": "Mental illness"
+          }
+        },
+        "8": {
+          "n": 8,
+          "part": null,
+          "page": 1,
+          "q": "Who has been conferred the ‘Most excellent Order of the British Empire’ honour recently?",
+          "opts": {
+            "a": "N. Chandrasekaran",
+            "b": "Azim Premji",
+            "c": "Shiv Nadar",
+            "d": "Anand Mahindra"
+          }
+        }
+      },
+      "partialReview": true
     }
   }
 }

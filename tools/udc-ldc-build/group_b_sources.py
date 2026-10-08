@@ -181,6 +181,11 @@ def build_additional():
             # Printed page 1: 100 marks, one per question, three hours.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug in ('steno-2025-gk', 'steno-2025-english') and reviewed_numbers:
+            # Printed cover: one mark per question, three hours; no penalty is
+            # stated in the instructions.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug in ('aao-2024-english', 'aao-2024-arithmetic') and reviewed_numbers:
             # The AAO paper instructions specify 100 one-mark questions and
             # three hours; this metadata supports practice for reviewed items.

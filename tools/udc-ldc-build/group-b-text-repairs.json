@@ -8560,7 +8560,7 @@
       "expectedMcq": 50,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Stenographer Grade-II (Contract) General English 2015 page 1 and the upper half of page 2 were checked against the scan. Q1–20 MCQ stems and options were transcribed and independently keyed. The cover also contains a distinct 20-mark Section A essay, restored as a written prompt with response guidance; the paper remains out of full-paper Exam mode until the remaining questions and marks are verified.",
+      "evidence": "Stenographer Grade-II (Contract) General English 2015 page 1 and the upper half of page 2 were checked against the scan. Q1–30 MCQ stems and options were transcribed and independently keyed. The cover also contains a distinct 20-mark Section A essay, restored as a written prompt with response guidance; the paper remains out of full-paper Exam mode until the remaining questions and marks are verified.",
       "questions": {
         "1": {
           "n": 1,
@@ -8825,6 +8825,136 @@
             "d": "from"
           },
           "explanation": "The standard phrase is “comes from a good family” (D)."
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": null,
+          "q": "The ____ news from the war front is very disappointing.",
+          "opts": {
+            "a": "next",
+            "b": "further",
+            "c": "latest",
+            "d": "nearest"
+          },
+          "explanation": "“Latest” means most recent and fits the sentence (C)."
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": null,
+          "q": "The tiger jumped ____ the stag.",
+          "opts": {
+            "a": "on",
+            "b": "upon",
+            "c": "at",
+            "d": "with"
+          },
+          "explanation": "“Jumped at” means attacked or pounced on, so C completes the sentence."
+        },
+        "23": {
+          "n": 23,
+          "page": 4,
+          "part": null,
+          "q": "Dishonesty is always detrimental ____ progress in life.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "to",
+            "d": "for"
+          },
+          "explanation": "The standard construction is “detrimental to,” so C is correct."
+        },
+        "24": {
+          "n": 24,
+          "page": 4,
+          "part": null,
+          "q": "The robbers not only injured the landlord but also decamped ____ the booty.",
+          "opts": {
+            "a": "off",
+            "b": "to",
+            "c": "about",
+            "d": "with"
+          },
+          "explanation": "“Decamp with” means leave with something, so D is correct."
+        },
+        "25": {
+          "n": 25,
+          "page": 4,
+          "part": null,
+          "q": "“The old lady goes for a walk in the morning.” The verb form expresses:",
+          "opts": {
+            "a": "Progressive aspect",
+            "b": "Habitual action",
+            "c": "Possibility",
+            "d": "Location"
+          },
+          "explanation": "The simple present describes her regular morning habit (B)."
+        },
+        "26": {
+          "n": 26,
+          "page": 4,
+          "part": null,
+          "q": "“Unless you pay, you will be refused admission.” This expresses:",
+          "opts": {
+            "a": "Advice",
+            "b": "Affirmation",
+            "c": "A threat",
+            "d": "Prohibition"
+          },
+          "explanation": "The conditional warns of a consequence if payment is not made; C is the intended answer."
+        },
+        "27": {
+          "n": 27,
+          "page": 4,
+          "part": null,
+          "q": "“If I were you, I would not care for such a man.” This expresses:",
+          "opts": {
+            "a": "Suggestion",
+            "b": "Possibility",
+            "c": "Advice",
+            "d": "An order"
+          },
+          "explanation": "The speaker recommends what the listener should do, so the sentence expresses advice (C)."
+        },
+        "28": {
+          "n": 28,
+          "page": 4,
+          "part": null,
+          "q": "“May you live long!” expresses:",
+          "opts": {
+            "a": "Strong possibility",
+            "b": "Likelihood",
+            "c": "Determination",
+            "d": "A wish"
+          },
+          "explanation": "“May you live long!” is an optative expression of a wish (D)."
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "part": null,
+          "q": "The manager said to his assistant, “Let the customers in.” This is an expression of:",
+          "opts": {
+            "a": "Permission",
+            "b": "An order",
+            "c": "A suggestion",
+            "d": "Both an order and a suggestion"
+          },
+          "explanation": "In this context, the manager instructs the assistant to admit the customers; it is an order (B)."
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "part": null,
+          "q": "“She will be waiting for me when I reach her home.” The verb phrase is in the:",
+          "opts": {
+            "a": "Future possibility",
+            "b": "Future progressive",
+            "c": "Wish",
+            "d": "Possibility"
+          },
+          "explanation": "“Will be waiting” is the future progressive construction (B)."
         }
       },
       "derivedAnswers": {
@@ -8899,6 +9029,46 @@
         "20": {
           "answerIndex": 3,
           "explanation": "The standard phrase is “comes from a good family” (D)."
+        },
+        "21": {
+          "answerIndex": 2,
+          "explanation": "“Latest” means most recent and fits the sentence (C)."
+        },
+        "22": {
+          "answerIndex": 2,
+          "explanation": "“Jumped at” means attacked or pounced on, so C completes the sentence."
+        },
+        "23": {
+          "answerIndex": 2,
+          "explanation": "The standard construction is “detrimental to,” so C is correct."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "“Decamp with” means leave with something, so D is correct."
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "The simple present describes her regular morning habit (B)."
+        },
+        "26": {
+          "answerIndex": 2,
+          "explanation": "The conditional warns of a consequence if payment is not made; C is the intended answer."
+        },
+        "27": {
+          "answerIndex": 2,
+          "explanation": "The speaker recommends what the listener should do, so the sentence expresses advice (C)."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "“May you live long!” is an optative expression of a wish (D)."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "In this context, the manager instructs the assistant to admit the customers; it is an order (B)."
+        },
+        "30": {
+          "answerIndex": 1,
+          "explanation": "“Will be waiting” is the future progressive construction (B)."
         }
       },
       "written": {

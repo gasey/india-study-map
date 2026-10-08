@@ -208,6 +208,12 @@ def build_additional():
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'hfw-2026-p1' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Printed cover: 50 one-mark MCQs plus 50 conventional marks, three hours.
+            # The complete mixed paper stays out of Exam mode while its key is unavailable.
+            entry['expectedMcq'] = 50
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'steno2-2025-p1' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 40
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
@@ -253,7 +259,7 @@ def build_additional():
             meta[paper_id] = {'marksPerQuestion': 2 if slug == 'si-police-2026-p2' else 1,
                              'durationMinutes': 180 if 'English' in subject else 120, 'negativeMarking': True, 'penaltyFraction': 1/3}
         for q in extracted['questions']:
-            if 'English' in subject and q.get('part') == 'A':
+            if 'English' in subject and q.get('part') == 'A' and slug != 'hfw-2026-p1':
                 questions.append({'id': paper_id + '-conventional-' + str(q['n']), 'paperId': paper_id, 'type': 'descriptive',
                                   'questionNumber': 'A' + str(q['n']), 'subject': 'english', 'studySection': 'english', 'topic': 'written',
                                   'topicLabel': 'General English · written', 'difficulty': 'medium', 'question': q['q'] + '\n' + '\n'.join(f"{k}. {v}" for k,v in q['opts'].items()),
@@ -264,7 +270,8 @@ def build_additional():
             candidates = legacy.get(normalized(q['q']), set())
             matching = [i for i, option in enumerate(opts) if normalized(option) in candidates]
             independent = matching[0] if len(matching) == 1 else -1
-            conventional = 'English' in subject and q.get('part') == 'A'
+            conventional = ('English' in subject and q.get('part') == 'A'
+                            and slug != 'hfw-2026-p1')
             cell = key['answers'].get(str(q['n']), 'unmatched') if key and not conventional else 'unmatched'
             key_ref = key.get('correctionRefs', {}).get(str(q['n']), key['href']) if key else None
             key_choices = ['ABCD'.index(x) for x in cell.split('&')] if isinstance(cell, str) and cell != 'unmatched' else []

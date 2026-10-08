@@ -30,6 +30,18 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertIn('corrigendum', key['correctionRefs']['73'])
         self.assertEqual(key['answers']['13'], 'B&D')
 
+    def test_hfw_english_paper_is_fully_reviewed_with_defective_items_held(self):
+        extracted = json.loads((HERE / 'extracted/hfw-2026-p1.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['hfw-2026-p1']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 51)))
+        self.assertEqual([q['n'] for q in result['questions']], list(range(1, 51)))
+        self.assertEqual(set(repair['derivedAnswers']), set(map(str, range(1, 51))) - {'22', '25'})
+        self.assertTrue(all(x['explanation'].strip() for x in repair['derivedAnswers'].values()))
+        self.assertTrue(result['questions'][21]['unscored'])
+        self.assertTrue(result['questions'][24]['unscored'])
+        self.assertEqual(result['questions'][30]['opts']['b'], 'invested, shipped')
+
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'
         with self.assertRaisesRegex(AssertionError, 'Stale'):

@@ -371,7 +371,8 @@
     "sourceHref": "/papers/group-b/hfw-2026-p1.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 50
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2",

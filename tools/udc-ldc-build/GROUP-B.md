@@ -8,7 +8,7 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 49 general papers, 3,455 items: 3,348 MCQs and 107 written prompts.
 1,726 questions are ready for practice, including 1,614 official answers and
-112 independently derived answers. 1,696 items still need source review.
+112 independently derived answers. 1,692 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.

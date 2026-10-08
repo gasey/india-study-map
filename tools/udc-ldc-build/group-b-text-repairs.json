@@ -21847,6 +21847,282 @@
           "ambiguous": [],
           "q": "The average of three numbers is 48. If the third number is one-third of the sum of the other two, find the third number.",
           "multi": false
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "750",
+            "b": "900",
+            "c": "1250",
+            "d": "1800"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A, B and C can complete a piece of work in 4, 6 and 8 days, respectively. If they complete it together and receive ₹3,900, what is C’s share?",
+          "multi": false
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1:2:4",
+            "b": "1:4:2",
+            "c": "2:4:1",
+            "d": "2:1:4"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A, B and C start a business. B invests half as much as A, and C invests four times as much as B. What is the ratio of their capitals, A:B:C?",
+          "multi": false
+        },
+        "74": {
+          "n": 74,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "203+1m",
+            "b": "203−1m ()()",
+            "c": "103−1m",
+            "d": "103+1m ()()"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The angle of elevation to the top of a tower is 30° at one point. At a point 20 m closer to the tower, it is 45°. Find the tower’s height.",
+          "multi": false
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "10% profit",
+            "b": "10% loss",
+            "c": "12%profit",
+            "d": "12% loss"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A shopkeeper marks goods 25% above their original price, then gives a 12% discount on the marked price. What is the result?",
+          "multi": false
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "21",
+            "b": "22",
+            "c": "24",
+            "d": "25"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "36 men can complete a piece of work in 18 days. In how many days will 27 men complete the same work?",
+          "multi": false
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "45",
+            "b": "6",
+            "c": "60",
+            "d": "12"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "If 14x° is the complement of x°, what is x?",
+          "multi": false
+        },
+        "78": {
+          "n": 78,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Direction (Question Nos. 78 - 80 ) : The given graph shows the number of candidates who applied and",
+          "opts": {
+            "a": "8:5",
+            "b": "2:5",
+            "c": "5:8",
+            "d": "5:2"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "According to the graph, what is the ratio of total applicants to total candidates who appeared for the UDC and SI exams?",
+          "multi": false
+        },
+        "79": {
+          "n": 79,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Direction (Question Nos. 78 - 80 ) : The given graph shows the number of candidates who applied and",
+          "opts": {
+            "a": "60.5%",
+            "b": "76.9%",
+            "c": "55.5%",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "According to the graph, the number of candidates appearing for LDC and JE together is what percentage of those appearing for Assistant?",
+          "multi": false
+        },
+        "80": {
+          "n": 80,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Direction (Question Nos. 78 - 80 ) : The given graph shows the number of candidates who applied and",
+          "opts": {
+            "a": "42000",
+            "b": "45000",
+            "c": "43000",
+            "d": "40000"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "According to the graph, what is the average number of candidates appearing for all five exams?",
+          "multi": false
+        },
+        "81": {
+          "n": 81,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Conduction",
+            "b": "Dispersion",
+            "c": "Immersion",
+            "d": "Refraction"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "“Mirror” is related to “reflection” in the same way as “water” is related to:",
+          "multi": false
+        },
+        "82": {
+          "n": 82,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "South-East",
+            "b": "South-West",
+            "c": "North-East",
+            "d": "North-West"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A is east of M, and M is north of B. If H is south of B, in which direction is H from A?",
+          "multi": false
+        },
+        "83": {
+          "n": 83,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Peso",
+            "b": "Drachma",
+            "c": "Shora",
+            "d": "Baht"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Find the odd one out among these currency names.",
+          "multi": false
         }
       },
       "derivedAnswers": {
@@ -22117,6 +22393,54 @@
         "71": {
           "answerIndex": 2,
           "explanation": "The total of the three numbers is 3×48 = 144. If the first two sum to S, the third is S/3, so 4S/3 = 144 and the third number is 36."
+        },
+        "72": {
+          "answerIndex": 1,
+          "explanation": "A, B and C work at rates 1/4, 1/6 and 1/8 per day, for a combined rate of 13/24. C’s share is (1/8)/(13/24)=3/13; 3/13 of ₹3,900 is ₹900."
+        },
+        "73": {
+          "answerIndex": 3,
+          "explanation": "Let A invest 2 units; B invests half of A, or 1 unit, and C invests four times B, or 4 units. The ratio is 2:1:4."
+        },
+        "74": {
+          "answerIndex": 3,
+          "explanation": "At the first point, the horizontal distance is h√3. At the point 20 m closer, the angle is 45°, so the distance is h. Thus h√3−h=20 and h=10(√3+1) m."
+        },
+        "75": {
+          "answerIndex": 0,
+          "explanation": "If the original price is 100, the marked price is 125 and the selling price after a 12% discount is 125×0.88=110, a 10% profit."
+        },
+        "76": {
+          "answerIndex": 2,
+          "explanation": "The work is 36×18=648 person-days. At 27 men it takes 648/27=24 days."
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "Complementary angles sum to 90°: 14x+x=90°, so x=6°."
+        },
+        "78": {
+          "answerIndex": 0,
+          "explanation": "Applicants for UDC and SI total 80+80=160 thousand; candidates appearing total 40+60=100 thousand. The ratio is 160:100=8:5."
+        },
+        "79": {
+          "answerIndex": 1,
+          "explanation": "LDC and JE appearances total 30+20=50 thousand. Compared with 65 thousand Assistant appearances, that is (50/65)×100≈76.9%."
+        },
+        "80": {
+          "answerIndex": 2,
+          "explanation": "The total appearances are 65+40+30+20+60=215 thousand. Across five exams, the average is 43,000."
+        },
+        "81": {
+          "answerIndex": 3,
+          "explanation": "A mirror produces reflection; water bends light by refraction, so the analogous term is refraction."
+        },
+        "82": {
+          "answerIndex": 1,
+          "explanation": "Place B at the origin: M is north of B, A is east of M, and H is south of B. From A, H lies to the south-west."
+        },
+        "83": {
+          "answerIndex": 2,
+          "explanation": "Peso, drachma and baht are currencies; “shora” is not a recognized currency name, so it is the odd one out."
         }
       },
       "sourceSha256": "0bb9cacc2b5f753ab481e2f68f33adc2909c48a15f11c8073c89fd900cc63bcf",
@@ -22126,7 +22450,7 @@
       "nonMcq": [
         8
       ],
-      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification. Questions 25–47 were checked against printed pages 4–5. Twenty-one more answers have independently derived explanations. Q30 is held because options A and C name the same scheme; Q42 is held because “movement due to light” does not distinguish phototropism from phototaxis. Q34 was checked against the 2025 LUF award announcement; Q43–47 were cross-checked against Mizo cultural and historical sources. Minor spelling and grammar repairs improve readability without changing option meaning. Questions 48–71 were checked against printed pages 6–7. Twenty-two received derived explanations; Q51 is held because its printed sum-of-squares premise is false, and Q68 because the group may include people who eat neither food. The questions and options were normalized for legibility; Q55’s truncated option and OCR-damaged math notation in Q56, Q59, Q64 and Q70 were restored from the scan."
+      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification. Questions 25–47 were checked against printed pages 4–5. Twenty-one more answers have independently derived explanations. Q30 is held because options A and C name the same scheme; Q42 is held because “movement due to light” does not distinguish phototropism from phototaxis. Q34 was checked against the 2025 LUF award announcement; Q43–47 were cross-checked against Mizo cultural and historical sources. Minor spelling and grammar repairs improve readability without changing option meaning. Questions 48–71 were checked against printed pages 6–7. Twenty-two received derived explanations; Q51 is held because its printed sum-of-squares premise is false, and Q68 because the group may include people who eat neither food. The questions and options were normalized for legibility; Q55’s truncated option and OCR-damaged math notation in Q56, Q59, Q64 and Q70 were restored from the scan. Questions 72–83 were checked against printed pages 8–9. All twelve have derived explanations; Q78–80 were recomputed from the displayed bar values, and stems were clarified to refer to the graph."
     }
   }
 }

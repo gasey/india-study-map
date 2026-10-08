@@ -54159,21 +54159,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A, B and C can do a piece of work in 4, 6 and 8 days, respectively. If they complete the work together and get an amount of Rs 3,900, find the share of C",
+    "question": "A, B and C can complete a piece of work in 4, 6 and 8 days, respectively. If they complete it together and receive ₹3,900, what is C’s share?",
     "options": [
       "750",
       "900",
       "1250",
       "1800"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A, B and C work at rates 1/4, 1/6 and 1/8 per day, for a combined rate of 13/24. C’s share is (1/8)/(13/24)=3/13; 3/13 of ₹3,900 is ₹900.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q73",
@@ -54184,21 +54185,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A, B and C start a business. B invests half of what A invests and C invests four times of what B invests. Then, the ratio of capitals of A, B and C is",
+    "question": "A, B and C start a business. B invests half as much as A, and C invests four times as much as B. What is the ratio of their capitals, A:B:C?",
     "options": [
       "1:2:4",
       "1:4:2",
       "2:4:1",
       "2:1:4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Let A invest 2 units; B invests half of A, or 1 unit, and C invests four times B, or 4 units. The ratio is 2:1:4.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q74",
@@ -54209,21 +54211,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The angle of elevation at the top of a tower from a certain point is 30. From a point 20m towards the tower the angle of elevation of the top increases by 15. Find the height of the tower..",
+    "question": "The angle of elevation to the top of a tower is 30° at one point. At a point 20 m closer to the tower, it is 45°. Find the tower’s height.",
     "options": [
       "203+1m",
       "203−1m ()()",
       "103−1m",
       "103+1m ()()"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "At the first point, the horizontal distance is h√3. At the point 20 m closer, the angle is 45°, so the distance is h. Thus h√3−h=20 and h=10(√3+1) m.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q75",
@@ -54234,21 +54237,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A shopkeeper marks the prices of his goods at 25% higher than the original price. After that, he allows a discount of 12% discount. What profit or loss did he get?",
+    "question": "A shopkeeper marks goods 25% above their original price, then gives a 12% discount on the marked price. What is the result?",
     "options": [
       "10% profit",
       "10% loss",
       "12%profit",
       "12% loss"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "If the original price is 100, the marked price is 125 and the selling price after a 12% discount is 125×0.88=110, a 10% profit.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q76",
@@ -54266,14 +54270,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "24",
       "25"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The work is 36×18=648 person-days. At 27 men it takes 648/27=24 days.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q77",
@@ -54284,24 +54289,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "If 14x be the complementary angle of x, then the value ofx is",
+    "question": "If 14x° is the complement of x°, what is x?",
     "options": [
       "45",
       "6",
       "60",
       "12"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Complementary angles sum to 90°: 14x+x=90°, so x=6°.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q78",
@@ -54312,21 +54315,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The ratio between total number of applicants to the total number of candidates who appeared for UDC and SI exams is",
+    "question": "According to the graph, what is the ratio of total applicants to total candidates who appeared for the UDC and SI exams?",
     "options": [
       "8:5",
       "2:5",
       "5:8",
       "5:2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Applicants for UDC and SI total 80+80=160 thousand; candidates appearing total 40+60=100 thousand. The ratio is 160:100=8:5.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 78 - 80 ) : The given graph shows the number of candidates who applied and"
   },
   {
@@ -54338,21 +54342,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The number of candidates appearing for LDC and JE together is what percent of candidates appearing for Assistant?",
+    "question": "According to the graph, the number of candidates appearing for LDC and JE together is what percentage of those appearing for Assistant?",
     "options": [
       "60.5%",
       "76.9%",
       "55.5%",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "LDC and JE appearances total 30+20=50 thousand. Compared with 65 thousand Assistant appearances, that is (50/65)×100≈76.9%.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 78 - 80 ) : The given graph shows the number of candidates who applied and"
   },
   {
@@ -54364,21 +54369,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The average number of candidates appearing for all the exams is",
+    "question": "According to the graph, what is the average number of candidates appearing for all five exams?",
     "options": [
       "42000",
       "45000",
       "43000",
       "40000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The total appearances are 65+40+30+20+60=215 thousand. Across five exams, the average is 43,000.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 78 - 80 ) : The given graph shows the number of candidates who applied and"
   },
   {
@@ -54390,21 +54396,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "‘Mirror’ is related to ‘Reflection’ in the same way as ‘Water’ is related to",
+    "question": "“Mirror” is related to “reflection” in the same way as “water” is related to:",
     "options": [
       "Conduction",
       "Dispersion",
       "Immersion",
       "Refraction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A mirror produces reflection; water bends light by refraction, so the analogous term is refraction.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q82",
@@ -54415,21 +54422,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "A is in the East of M which is in the North of B. If H is in the South of B, then in which direction of A is H?",
+    "question": "A is east of M, and M is north of B. If H is south of B, in which direction is H from A?",
     "options": [
       "South-East",
       "South-West",
       "North-East",
       "North-West"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Place B at the origin: M is north of B, A is east of M, and H is south of B. From A, H lies to the south-west.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q83",
@@ -54440,21 +54448,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Find the odd one out",
+    "question": "Find the odd one out among these currency names.",
     "options": [
       "Peso",
       "Drachma",
       "Shora",
       "Baht"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Peso, drachma and baht are currencies; “shora” is not a recognized currency name, so it is the odd one out.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q84",

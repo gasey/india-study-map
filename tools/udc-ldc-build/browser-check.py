@@ -111,7 +111,7 @@ assert evaluate("document.body.innerText.includes('Arithmetic')&&document.body.i
 command('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
 click_tab('Group B papers')
 assert evaluate("document.body.scrollWidth <= innerWidth")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('2,305 ready to practise')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('2,317 ready to practise')")
 assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,614 with official answers')")
 browse('Group B technical common exam, Health & Family Welfare', 'General Studies')
 assert evaluate("document.querySelectorAll('.udc-question-card').length === 100")

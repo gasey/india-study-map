@@ -40374,6 +40374,188 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/je-2025-english.pdf#page=1"
   },
   {
+    "id": "mpsc-group-b-je-2025-gk-Q1",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The first skywalk in Mizoram, inaugurated in Aizawl by Chief Minister Lalduhoma, is designed to hold up to —",
+    "options": [
+      "150 people at a time",
+      "125 people at a time",
+      "135 people at a time",
+      "100 people at a time"
+    ],
+    "answerIndex": 0,
+    "explanation": "Contemporary coverage of the Aizawl Peak Resort Skywalk reported that the structure was designed to safely accommodate up to 150 people. The report separately notes that visitor entry was limited to 20 at a time.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q2",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Who is the Tourism Minister of Mizoram?",
+    "options": [
+      "Lalrinpuii",
+      "Prof. Lalnilawma",
+      "Dr. Vanlalthlana",
+      "Lalnghinglova Hmar"
+    ],
+    "answerIndex": 3,
+    "explanation": "After the March 2025 portfolio reshuffle, Lalnghinglova Hmar held the Tourism portfolio in Mizoram.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q3",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What is the name of the healthcare scheme launched by Mizoram Chief Minister Lalduhoma?",
+    "options": [
+      "Mizoram Universal Healthcare Programme",
+      "Mizoram Universal Healthcare Scheme",
+      "Mizoram Universal Healthcare System",
+      "Mizoram Universal Healthcare Policy"
+    ],
+    "answerIndex": 1,
+    "explanation": "The scheme is the Mizoram Universal Healthcare Scheme (MUHCS), launched with effect from 1 April 2025.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q4",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Who is the Chief Secretary to the Government of Mizoram?",
+    "options": [
+      "Khilla Ram Meenu",
+      "Khilli Ram Meena",
+      "Ram Khilla Singh",
+      "Anil Shukla"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Government of Mizoram appointed Khilli Ram Meena as Chief Secretary in November 2024.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q5",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "In which states is the Pardhi community primarily found?",
+    "options": [
+      "Mizoram and Manipur",
+      "Bihar and Jharkhand",
+      "Maharashtra and Madhya Pradesh",
+      "Odisha and Tamil Nadu"
+    ],
+    "answerIndex": 2,
+    "explanation": "The Pardhi community is primarily associated with Maharashtra and Madhya Pradesh.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q6",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The “Honorary Order of Freedom of Barbados” was recently awarded to which Indian leader?",
+    "options": [
+      "Dr. S. Jaishankar",
+      "Narendra Modi",
+      "Rajnath Singh",
+      "Amit Shah"
+    ],
+    "answerIndex": 1,
+    "explanation": "Prime Minister Narendra Modi received the Honorary Order of Freedom of Barbados; India’s Minister of State Pabitra Margherita accepted it on his behalf in March 2025.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q7",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Pobitora Wildlife Sanctuary is located in which state?",
+    "options": [
+      "Meghalaya",
+      "Darjeeling",
+      "Assam",
+      "Manipur"
+    ],
+    "answerIndex": 2,
+    "explanation": "Pobitora Wildlife Sanctuary is in Assam.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-je-2025-gk-Q8",
     "paperId": "mpsc-group-b-je-2025-gk",
     "questionNumber": "8",
@@ -40382,21 +40564,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Therearenonegativemarksforincorrectanswer. on 1.ThefirstskywalkinMizoramwhichwasinauguratedinAizawlbyChiefMinisterLalduhomaisdesigned toholdupto-",
+    "question": "According to the Reserve Bank of India’s “State of the Economy” report, India’s growth rate in 2025–26 is projected at —",
     "options": [
-      "150peopleatatime",
-      "125peopleatatime",
-      "135peopleatatime",
-      "100peopleatatime (a)Lalrinpuii(b)Prof.Lalnilawma (c)Dr.Vanlalthlana(d)LalnghinglovaHmar (a)MizoramUniversalHealthcareProgramme(b)MizoramUniversalHealthcareScheme (c)MizoramUniversalHealthcareSystem(d)MizoramUniversalHealthcarePolicy (a)KhillaRamMeenu(b)KhilliRamMeena (c)RamKhillaSingh(d)AnilShukla (a)MizoramandManipur(b)BiharandJharkhand (c)MaharashtraandMadhyaPradesh(d)OdishaandTamilNadu (a)Dr.S.Jaishankar(b)NarendraModi (c)RajnathSingh(d)AmitShah (a)Meghalaya(b)Darjeeling (c)Assam(d)Manipur (a)7%(b)8% (c)6.7%(d)7.7%"
+      "7%",
+      "8%",
+      "6.7%",
+      "7.7%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The RBI projected real GDP growth of 6.7% for 2025–26 in its February 2025 policy forecast.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
-    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=1",
-    "sourceReview": true,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q9",
@@ -40407,21 +40590,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "GermanyandwhichcountryjointlydevelopedtheTaurusKEPD-350missile?",
+    "question": "Germany and which country jointly developed the Taurus KEPD-350 missile?",
     "options": [
       "China",
       "India",
       "Russia",
       "Sweden"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Taurus KEPD-350 was developed jointly by Germany and Sweden.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q10",
@@ -40432,21 +40616,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AbilateralnavalexercisecalledExerciseVarunaisbetweenIndiaandwhichcountry?",
+    "question": "The bilateral naval exercise Varuna is conducted between India and which country?",
     "options": [
       "Australia",
       "USA",
       "France",
       "Germany"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Varuna is the bilateral naval exercise between India and France.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q11",
@@ -40457,21 +40642,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhoaretheNASAastronautsstrandedinspaceforninemonths?",
+    "question": "Which NASA astronauts were stranded in space for nine months?",
     "options": [
-      "SunitaReevesandBobbyWilmore",
-      "SuniWilliamsandButchWilmore",
-      "SunnyWilliamsandBuckWilmore",
-      "SonaWilliamsandBurtWilmore"
+      "Sunita Reeves and Bobby Wilmore",
+      "Suni Williams and Butch Wilmore",
+      "Sunny Williams and Buck Wilmore",
+      "Sona Williams and Burt Wilmore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "NASA identifies the two stranded Boeing Starliner crew members as Suni Williams and Butch Wilmore; they returned in March 2025.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q12",
@@ -40482,21 +40668,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TherankofIndiaintheClimateRiskIndex(CRI)2025is-",
+    "question": "What was India’s rank in the Climate Risk Index (CRI) 2025?",
     "options": [
-      "4%",
-      "5*",
-      "6\"",
-      "8®"
+      "4th",
+      "5th",
+      "6th",
+      "8th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 2025 Climate Risk Index ranked India sixth among the most affected countries over the report’s long-term period.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q13",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Mahavira was the ___ Tirthankara.",
+    "options": [
+      "21st",
+      "22nd",
+      "23rd",
+      "24th"
+    ],
+    "answerIndex": 3,
+    "explanation": "Mahavira is recognised in Jain tradition as the 24th Tirthankara.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q14",
@@ -40507,21 +40720,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AlexandertheGreatconqueredIndiaintheyear-",
+    "question": "In which year did Alexander the Great conquer India?",
     "options": [
-      "326BC",
-      "327BC",
-      "326BC",
-      "325BC"
+      "326 BC",
+      "327 BC",
+      "326 BC",
+      "325 BC"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The scan prints “326 BC” as both options (a) and (c). Although 326 BC is the accepted year, the duplicated choices make the answer key ambiguous; hold the item unscored.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The scan prints “326 BC” as both options (a) and (c). Although 326 BC is the accepted year, the duplicated choices make the answer key ambiguous; hold the item unscored."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q15",
@@ -40532,21 +40745,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AsokafollowedthepolicyofDhammaafterwhichWar?",
+    "question": "After which war did Ashoka follow the policy of Dhamma?",
     "options": [
-      "PatnaWar",
-      "MagadhaWar",
-      "KalingaWar",
-      "PalingaWar"
+      "Patna War",
+      "Magadha War",
+      "Kalinga War",
+      "Palinga War"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "After the Kalinga War, Ashoka adopted and promoted Dhamma.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q16",
@@ -40557,21 +40771,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhowastheleaderoftheAligarhMovement?",
+    "question": "Who led the Aligarh Movement?",
     "options": [
-      "SirSyedAhmadKhan",
-      "MuhammaAldiJinnah",
-      "AllamaIqbal",
-      "MaulanaAbulKalamAzad"
+      "Sir Syed Ahmad Khan",
+      "Muhammad Ali Jinnah",
+      "Allama Iqbal",
+      "Maulana Abul Kalam Azad"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Sir Syed Ahmad Khan founded and led the Aligarh Movement.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q17",
@@ -40582,24 +40797,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "DrainofWealthTheorywaspropoundedby-",
+    "question": "Who propounded the Drain of Wealth theory?",
     "options": [
-      "RPDutt",
-      "DadabhaiNaoroji",
-      "BalGangadharTilak",
-      "MahatmaGandhi"
+      "R. P. Dutt",
+      "Dadabhai Naoroji",
+      "Bal Gangadhar Tilak",
+      "Mahatma Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Dadabhai Naoroji formulated the Drain of Wealth theory to describe the economic extraction of India under British rule.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q18",
@@ -40610,21 +40823,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingGodswasnotworshippedbytheRigVedicpeople?",
+    "question": "Which of these gods was not worshipped by the Rigvedic people?",
     "options": [
       "Agni",
       "Indra",
       "Krishna",
       "Varuna"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Agni, Indra and Varuna were prominent Rigvedic deities; Krishna is not listed among the gods worshipped in the Rigvedic religion.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q19",
@@ -40635,21 +40849,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThefounderoftheGuptaEmpirewas-",
+    "question": "Who founded the Gupta Empire?",
     "options": [
-      "SriGupta",
-      "Samudragupra",
-      "ChandraguptaII",
+      "Sri Gupta",
+      "Samudragupta",
+      "Chandragupta II",
       "Skandagupta"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Sri Gupta is regarded as the founder of the Gupta dynasty/empire.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q20",
@@ -40660,21 +40875,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheTripartiteStrugglewasfoughtbythePalas,PratiharasandtheRashtakutasforthecaptureof-",
+    "question": "The Palas, Pratiharas and Rashtrakutas fought the Tripartite Struggle to capture —",
     "options": [
       "Delhi",
       "Magadha",
       "Amravati",
-      "Kanauj"
+      "Kannauj"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Tripartite Struggle among the Palas, Pratiharas and Rashtrakutas centred on control of Kannauj.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q21",
@@ -40685,21 +40901,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Ala-UddinKhiljiwasmostfamousforhis-",
+    "question": "Alauddin Khilji was most famous for his —",
     "options": [
-      "Militarypolicy",
-      "Landreform",
-      "Religiouspolicy",
-      "Marketcontrolpolicy"
+      "Military policy",
+      "Land reform",
+      "Religious policy",
+      "Market control policy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Alauddin Khilji is especially known for his market-control system, which regulated prices and supplies.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q22",
@@ -40710,21 +40927,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheofficialleaderoftheRevoltof1857was-",
+    "question": "Who was the official leader of the Revolt of 1857?",
     "options": [
-      "TantiaTope",
-      "BahadurShahZafar",
-      "RaniLakshmiBai",
-      "KunwarSingh"
+      "Tantia Tope",
+      "Bahadur Shah Zafar",
+      "Rani Lakshmi Bai",
+      "Kunwar Singh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Bahadur Shah Zafar was proclaimed the symbolic emperor and official leader of the 1857 revolt.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q23",
@@ -40735,21 +40953,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheBritishEastIndiagainedtheDiwaniRightsofBengal,BiharandOrissaafter-",
+    "question": "The British East India Company gained the Diwani rights of Bengal, Bihar and Orissa after —",
     "options": [
-      "TheBattleofBuxar1764",
-      "TheBattleofPlassey1757",
-      "RegulatingAct1773",
-      "PittsIndiaAct1784"
+      "The Battle of Buxar, 1764",
+      "The Battle of Plassey, 1757",
+      "The Regulating Act, 1773",
+      "Pitt’s India Act, 1784"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Company secured the Diwani of Bengal, Bihar and Orissa after its victory at the Battle of Buxar in 1764; the grant followed in 1765.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q24",
@@ -40760,21 +40979,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThecreditforIntegratingthePrincelyStatesintotheUniongoesto",
+    "question": "Who is credited with integrating the princely states into the Union of India?",
     "options": [
-      "MahatmaGandhi",
-      "JawaharlalNehru",
-      "SardarVallabhaiPatel",
-      "RajaRammohanRoy"
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Sardar Vallabhbhai Patel",
+      "Raja Rammohan Roy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sardar Vallabhbhai Patel, working with V. P. Menon, led the integration of the princely states into India.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q25",
@@ -40785,21 +41005,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichdistrictinIndiahasthehighestliteracy?",
+    "question": "Which district in India has the highest literacy rate?",
     "options": [
-      "MalappuramdistrictinKerala",
-      "SerchhipdistrictinMizoram",
-      "CoimbatoreinTamilNadu",
-      "MokokchungdistrictinNagaland (a)NandaDevi(b)Kangchenjunga (c)MountEverest(d)Anamudi | widfix;"
+      "Malappuram district, Kerala",
+      "Serchhip district, Mizoram",
+      "Coimbatore, Tamil Nadu",
+      "Mokokchung district, Nagaland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Serchhip district in Mizoram recorded India’s highest district literacy rate in the 2011 Census.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q26",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which is the highest peak in India?",
+    "options": [
+      "Nanda Devi",
+      "Kangchenjunga",
+      "Mount Everest",
+      "Anamudi"
+    ],
+    "answerIndex": 1,
+    "explanation": "Kangchenjunga, at 8,586 metres, is the highest peak in India.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q27",
@@ -47784,7 +48031,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q64",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -48018,9 +48267,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q73",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -55710,7 +55957,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q68",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -55943,9 +56192,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q77",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -63664,7 +63911,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q100",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -63906,9 +64155,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:"
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p1-A9",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -72125,7 +72372,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q81",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -72401,9 +72650,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q90",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -80730,7 +80977,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B46",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q47",
     "questionNumber": "B47",
@@ -80968,9 +81217,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B55",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q56",
     "questionNumber": "B56",
@@ -88568,7 +88815,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A20",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A21",
     "questionNumber": "A21",
@@ -88803,9 +89052,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A29",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A30",
     "questionNumber": "A30",
@@ -95145,6 +95392,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-steno2-2025-p1": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-je-2025-gk": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
     "negativeMarking": false,
     "penaltyFraction": 0
   },

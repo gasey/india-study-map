@@ -30549,6 +30549,405 @@
           "explanation": "To incorporate something into a diet is to include it."
         }
       }
+    },
+    "je-2025-gk": {
+      "sourceSha256": "aa8381aa37873050ccbcd44bae9919e015f97fa9210550e4be324dc6270983d6",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "reviewedOn": "2026-10-09",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 2,
+          "q": "The first skywalk in Mizoram, inaugurated in Aizawl by Chief Minister Lalduhoma, is designed to hold up to —",
+          "opts": {
+            "a": "150 people at a time",
+            "b": "125 people at a time",
+            "c": "135 people at a time",
+            "d": "100 people at a time"
+          }
+        },
+        "2": {
+          "n": 2,
+          "page": 2,
+          "q": "Who is the Tourism Minister of Mizoram?",
+          "opts": {
+            "a": "Lalrinpuii",
+            "b": "Prof. Lalnilawma",
+            "c": "Dr. Vanlalthlana",
+            "d": "Lalnghinglova Hmar"
+          }
+        },
+        "3": {
+          "n": 3,
+          "page": 2,
+          "q": "What is the name of the healthcare scheme launched by Mizoram Chief Minister Lalduhoma?",
+          "opts": {
+            "a": "Mizoram Universal Healthcare Programme",
+            "b": "Mizoram Universal Healthcare Scheme",
+            "c": "Mizoram Universal Healthcare System",
+            "d": "Mizoram Universal Healthcare Policy"
+          }
+        },
+        "4": {
+          "n": 4,
+          "page": 2,
+          "q": "Who is the Chief Secretary to the Government of Mizoram?",
+          "opts": {
+            "a": "Khilla Ram Meenu",
+            "b": "Khilli Ram Meena",
+            "c": "Ram Khilla Singh",
+            "d": "Anil Shukla"
+          }
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "q": "In which states is the Pardhi community primarily found?",
+          "opts": {
+            "a": "Mizoram and Manipur",
+            "b": "Bihar and Jharkhand",
+            "c": "Maharashtra and Madhya Pradesh",
+            "d": "Odisha and Tamil Nadu"
+          }
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "q": "The “Honorary Order of Freedom of Barbados” was recently awarded to which Indian leader?",
+          "opts": {
+            "a": "Dr. S. Jaishankar",
+            "b": "Narendra Modi",
+            "c": "Rajnath Singh",
+            "d": "Amit Shah"
+          }
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "q": "Pobitora Wildlife Sanctuary is located in which state?",
+          "opts": {
+            "a": "Meghalaya",
+            "b": "Darjeeling",
+            "c": "Assam",
+            "d": "Manipur"
+          }
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "q": "According to the Reserve Bank of India’s “State of the Economy” report, India’s growth rate in 2025–26 is projected at —",
+          "opts": {
+            "a": "7%",
+            "b": "8%",
+            "c": "6.7%",
+            "d": "7.7%"
+          }
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "Germany and which country jointly developed the Taurus KEPD-350 missile?",
+          "opts": {
+            "a": "China",
+            "b": "India",
+            "c": "Russia",
+            "d": "Sweden"
+          }
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "The bilateral naval exercise Varuna is conducted between India and which country?",
+          "opts": {
+            "a": "Australia",
+            "b": "USA",
+            "c": "France",
+            "d": "Germany"
+          }
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Which NASA astronauts were stranded in space for nine months?",
+          "opts": {
+            "a": "Sunita Reeves and Bobby Wilmore",
+            "b": "Suni Williams and Butch Wilmore",
+            "c": "Sunny Williams and Buck Wilmore",
+            "d": "Sona Williams and Burt Wilmore"
+          }
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "What was India’s rank in the Climate Risk Index (CRI) 2025?",
+          "opts": {
+            "a": "4th",
+            "b": "5th",
+            "c": "6th",
+            "d": "8th"
+          }
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "Mahavira was the ___ Tirthankara.",
+          "opts": {
+            "a": "21st",
+            "b": "22nd",
+            "c": "23rd",
+            "d": "24th"
+          }
+        },
+        "14": {
+          "n": 14,
+          "page": 3,
+          "q": "In which year did Alexander the Great conquer India?",
+          "opts": {
+            "a": "326 BC",
+            "b": "327 BC",
+            "c": "326 BC",
+            "d": "325 BC"
+          },
+          "unscored": true,
+          "explanation": "The scan prints “326 BC” as both options (a) and (c). Although 326 BC is the accepted year, the duplicated choices make the answer key ambiguous; hold the item unscored."
+        },
+        "15": {
+          "n": 15,
+          "page": 3,
+          "q": "After which war did Ashoka follow the policy of Dhamma?",
+          "opts": {
+            "a": "Patna War",
+            "b": "Magadha War",
+            "c": "Kalinga War",
+            "d": "Palinga War"
+          }
+        },
+        "16": {
+          "n": 16,
+          "page": 3,
+          "q": "Who led the Aligarh Movement?",
+          "opts": {
+            "a": "Sir Syed Ahmad Khan",
+            "b": "Muhammad Ali Jinnah",
+            "c": "Allama Iqbal",
+            "d": "Maulana Abul Kalam Azad"
+          }
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "q": "Who propounded the Drain of Wealth theory?",
+          "opts": {
+            "a": "R. P. Dutt",
+            "b": "Dadabhai Naoroji",
+            "c": "Bal Gangadhar Tilak",
+            "d": "Mahatma Gandhi"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "q": "Which of these gods was not worshipped by the Rigvedic people?",
+          "opts": {
+            "a": "Agni",
+            "b": "Indra",
+            "c": "Krishna",
+            "d": "Varuna"
+          }
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "Who founded the Gupta Empire?",
+          "opts": {
+            "a": "Sri Gupta",
+            "b": "Samudragupta",
+            "c": "Chandragupta II",
+            "d": "Skandagupta"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "The Palas, Pratiharas and Rashtrakutas fought the Tripartite Struggle to capture —",
+          "opts": {
+            "a": "Delhi",
+            "b": "Magadha",
+            "c": "Amravati",
+            "d": "Kannauj"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "Alauddin Khilji was most famous for his —",
+          "opts": {
+            "a": "Military policy",
+            "b": "Land reform",
+            "c": "Religious policy",
+            "d": "Market control policy"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "Who was the official leader of the Revolt of 1857?",
+          "opts": {
+            "a": "Tantia Tope",
+            "b": "Bahadur Shah Zafar",
+            "c": "Rani Lakshmi Bai",
+            "d": "Kunwar Singh"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "The British East India Company gained the Diwani rights of Bengal, Bihar and Orissa after —",
+          "opts": {
+            "a": "The Battle of Buxar, 1764",
+            "b": "The Battle of Plassey, 1757",
+            "c": "The Regulating Act, 1773",
+            "d": "Pitt’s India Act, 1784"
+          }
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "Who is credited with integrating the princely states into the Union of India?",
+          "opts": {
+            "a": "Mahatma Gandhi",
+            "b": "Jawaharlal Nehru",
+            "c": "Sardar Vallabhbhai Patel",
+            "d": "Raja Rammohan Roy"
+          }
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "Which district in India has the highest literacy rate?",
+          "opts": {
+            "a": "Malappuram district, Kerala",
+            "b": "Serchhip district, Mizoram",
+            "c": "Coimbatore, Tamil Nadu",
+            "d": "Mokokchung district, Nagaland"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "Which is the highest peak in India?",
+          "opts": {
+            "a": "Nanda Devi",
+            "b": "Kangchenjunga",
+            "c": "Mount Everest",
+            "d": "Anamudi"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "Contemporary coverage of the Aizawl Peak Resort Skywalk reported that the structure was designed to safely accommodate up to 150 people. The report separately notes that visitor entry was limited to 20 at a time."
+        },
+        "2": {
+          "answerIndex": 3,
+          "explanation": "After the March 2025 portfolio reshuffle, Lalnghinglova Hmar held the Tourism portfolio in Mizoram."
+        },
+        "3": {
+          "answerIndex": 1,
+          "explanation": "The scheme is the Mizoram Universal Healthcare Scheme (MUHCS), launched with effect from 1 April 2025."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "The Government of Mizoram appointed Khilli Ram Meena as Chief Secretary in November 2024."
+        },
+        "5": {
+          "answerIndex": 2,
+          "explanation": "The Pardhi community is primarily associated with Maharashtra and Madhya Pradesh."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "Prime Minister Narendra Modi received the Honorary Order of Freedom of Barbados; India’s Minister of State Pabitra Margherita accepted it on his behalf in March 2025."
+        },
+        "7": {
+          "answerIndex": 2,
+          "explanation": "Pobitora Wildlife Sanctuary is in Assam."
+        },
+        "8": {
+          "answerIndex": 2,
+          "explanation": "The RBI projected real GDP growth of 6.7% for 2025–26 in its February 2025 policy forecast."
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "The Taurus KEPD-350 was developed jointly by Germany and Sweden."
+        },
+        "10": {
+          "answerIndex": 2,
+          "explanation": "Varuna is the bilateral naval exercise between India and France."
+        },
+        "11": {
+          "answerIndex": 1,
+          "explanation": "NASA identifies the two stranded Boeing Starliner crew members as Suni Williams and Butch Wilmore; they returned in March 2025."
+        },
+        "12": {
+          "answerIndex": 2,
+          "explanation": "The 2025 Climate Risk Index ranked India sixth among the most affected countries over the report’s long-term period."
+        },
+        "13": {
+          "answerIndex": 3,
+          "explanation": "Mahavira is recognised in Jain tradition as the 24th Tirthankara."
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "After the Kalinga War, Ashoka adopted and promoted Dhamma."
+        },
+        "16": {
+          "answerIndex": 0,
+          "explanation": "Sir Syed Ahmad Khan founded and led the Aligarh Movement."
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "Dadabhai Naoroji formulated the Drain of Wealth theory to describe the economic extraction of India under British rule."
+        },
+        "18": {
+          "answerIndex": 2,
+          "explanation": "Agni, Indra and Varuna were prominent Rigvedic deities; Krishna is not listed among the gods worshipped in the Rigvedic religion."
+        },
+        "19": {
+          "answerIndex": 0,
+          "explanation": "Sri Gupta is regarded as the founder of the Gupta dynasty/empire."
+        },
+        "20": {
+          "answerIndex": 3,
+          "explanation": "The Tripartite Struggle among the Palas, Pratiharas and Rashtrakutas centred on control of Kannauj."
+        },
+        "21": {
+          "answerIndex": 3,
+          "explanation": "Alauddin Khilji is especially known for his market-control system, which regulated prices and supplies."
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "Bahadur Shah Zafar was proclaimed the symbolic emperor and official leader of the 1857 revolt."
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "The Company secured the Diwani of Bengal, Bihar and Orissa after its victory at the Battle of Buxar in 1764; the grant followed in 1765."
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "Sardar Vallabhbhai Patel, working with V. P. Menon, led the integration of the princely states into India."
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "Serchhip district in Mizoram recorded India’s highest district literacy rate in the 2011 Census."
+        },
+        "26": {
+          "answerIndex": 1,
+          "explanation": "Kangchenjunga, at 8,586 metres, is the highest peak in India."
+        }
+      },
+      "evidence": "Questions 1–26 are restored and checked against printed pages 2–3 of the April 2025 Series A Paper-II scan. OCR had merged Q1–7 into Q8 and omitted Q13 and Q26; these question texts and all four choices have been recovered from the scan. Q14 is held because option (a) and option (c) both read 326 BC. The cover states 100 one-mark questions, 100 marks, two hours and no negative marking. Remaining questions Q27–100 still require source review. Source SHA256 binds this repair to the scan."
     }
   }
 }

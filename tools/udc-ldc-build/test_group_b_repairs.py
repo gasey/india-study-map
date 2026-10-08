@@ -168,6 +168,20 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertIn('Questions 83–84', result['questions'][82]['direction'])
         self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
 
+    def test_je_2025_gk_recovers_opening_questions_and_holds_duplicate_choice(self):
+        extracted = json.loads((HERE / 'extracted/je-2025-gk.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['je-2025-gk']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 27)))
+        self.assertEqual(len(result['questions']), 98)
+        self.assertIn('first skywalk in Mizoram', result['questions'][0]['q'])
+        self.assertEqual(result['questions'][7]['opts']['c'], '6.7%')
+        self.assertEqual(result['questions'][12]['opts']['d'], '24th')
+        self.assertTrue(result['questions'][13]['unscored'])
+        self.assertEqual(result['questions'][25]['opts']['b'], 'Kangchenjunga')
+        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 27)) - {14})
+        self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
+
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'
         with self.assertRaisesRegex(AssertionError, 'Stale'):

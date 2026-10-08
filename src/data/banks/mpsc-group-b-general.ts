@@ -29275,21 +29275,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhenwasthefirstAtombombexploded?",
+    "question": "When was the first atomic bomb exploded?",
     "options": [
       "1945",
       "1946",
       "1748",
       "1949"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The first successful test explosion of an atomic bomb (the Trinity test) took place in July 1945.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q2",
@@ -29300,21 +29301,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheConstitutionofIndiacameintoforcein:",
+    "question": "The Constitution of India came into force in:",
     "options": [
       "1947",
       "1948",
       "1949",
       "1950"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Constitution was adopted in 1949 and came into force on 26 January 1950.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q3",
@@ -29325,21 +29327,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "RMSAstandsfor:",
+    "question": "RMSA stands for:",
     "options": [
-      "RecurringModestSecuredAccount",
-      "RashtriyaMiddleSchoolAssociation",
-      "RashtriyaMadhyamikShiksaAbiyan",
-      "RiverManagementandSafetyAuthority"
+      "Recurring Modest Secured Account",
+      "Rashtriya Middle School Association",
+      "Rashtriya Madhyamik Shiksha Abhiyan",
+      "River Management and Safety Authority"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "RMSA was the Rashtriya Madhyamik Shiksha Abhiyan, a national programme for secondary education.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q4",
@@ -29350,21 +29353,21 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whowasthefirstpersontosailroundtheworld?",
+    "question": "Who was the first person to sail round the world?",
     "options": [
-      "RobertPeary",
+      "Robert Peary",
       "Magellan",
-      "Amundsen.",
-      "AbhilashTomy"
+      "Amundsen",
+      "Abhilash Tomy"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The question asks for the first person to sail round the world, but Magellan died before the expedition returned. Juan Sebastián Elcano completed the circumnavigation and is not an option; hold the item.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The question asks for the first person to sail round the world, but Magellan died before the expedition returned. Juan Sebastián Elcano completed the circumnavigation and is not an option; hold the item."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q5",
@@ -29375,21 +29378,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ChristianitywasintroducedinIndiaby-",
+    "question": "According to tradition, who introduced Christianity to India?",
     "options": [
-      "St.Peter",
-      "St.Paul",
-      "St.Thomas",
-      "St.Joseph"
+      "St. Peter",
+      "St. Paul",
+      "St. Thomas",
+      "St. Joseph"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Indian Christian tradition associates the introduction of Christianity in India with St. Thomas, who is said to have arrived in the first century CE.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q6",
@@ -29400,21 +29404,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThedifferencebetweenIndianstandardtimeandGreenwichmeantimeis:",
+    "question": "The difference between Indian Standard Time and Greenwich Mean Time is:",
     "options": [
-      "5’brs",
-      "4%hrs",
-      "5Shrs",
-      "6hrs"
+      "5½ hours",
+      "4½ hours",
+      "5 hours",
+      "6 hours"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India Standard Time is UTC+5:30, so it is 5½ hours ahead of Greenwich Mean Time.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q7",
@@ -29425,21 +29430,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Howmuchtimeearthtakestorevolveroundthesun?",
+    "question": "How much time does Earth take to revolve round the Sun?",
     "options": [
-      "365days",
-      "365%days",
-      "365%days",
-      "365%days"
+      "365 days",
+      "365¼ days",
+      "365½ days",
+      "365¾ days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Earth completes one orbit around the Sun in about 365¼ days; the extra fraction is why leap years are needed.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q8",
@@ -29450,21 +29456,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisthefullformof*SIM*?",
+    "question": "What is the full form of “SIM”?",
     "options": [
-      "SubscriberIdentityModule",
-      "SendImportantMails",
-      "SubscriberInformationMethod",
-      "SystemInformationManagement"
+      "Subscriber Identity Module",
+      "Send Important Mails",
+      "Subscriber Information Method",
+      "System Information Management"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "SIM means Subscriber Identity Module, the card/module that identifies a mobile subscriber to a network.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q9",
@@ -29475,21 +29482,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘LandofMorningCalm’is:",
+    "question": "“Land of the Morning Calm” is:",
     "options": [
       "Japan",
-      ".Hongkong",
+      "Hong Kong",
       "Korea",
       "Turkey"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Korea has long been called the “Land of the Morning Calm.”",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q10",
@@ -29500,21 +29508,48 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘Oslo’isthecapitalof:",
+    "question": "Oslo is the capital of:",
     "options": [
       "Norway",
       "Denmark",
       "Belgium",
-      "Switzerland -2-:"
+      "Switzerland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Oslo is the capital of Norway.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q11",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which Indian state is often called the “heart of India”?",
+    "options": [
+      "West Bengal",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Punjab"
+    ],
+    "answerIndex": 2,
+    "explanation": "Madhya Pradesh is commonly called the heart of India because of its central location.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q12",
@@ -29525,21 +29560,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheBharatpurSanctuaryinRajasthanisfamousfor:",
+    "question": "Bharatpur Sanctuary in Rajasthan is famous for:",
     "options": [
-      "WildAsses",
-      "Rhinos",
-      "AsiaticLions",
+      "Wild asses",
+      "Rhinoceroses",
+      "Asiatic lions",
       "Birds"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Keoladeo Ghana National Park at Bharatpur is renowned for its birdlife and is a major bird sanctuary.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q13",
@@ -29550,21 +29586,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "MahatmaGandhidiedintheyear:",
+    "question": "Mahatma Gandhi died in the year:",
     "options": [
       "1947",
       "1948",
       "1949",
       "1950"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mahatma Gandhi was assassinated on 30 January 1948.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q14",
@@ -29575,24 +29612,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatisthecurrencyofJapan?",
+    "question": "What is the currency of Japan?",
     "options": [
       "Yen",
       "Rouble",
       "Real",
       "Franc"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Japan’s currency is the yen.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q15",
@@ -29603,24 +29638,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theauthorof‘WarandPeace’was:",
+    "question": "The author of War and Peace was:",
     "options": [
-      "LeoTolstoy",
-      "AHuxley",
-      "CharlesDicken",
-      "AdamSmith"
+      "Leo Tolstoy",
+      "Aldous Huxley",
+      "Charles Dickens",
+      "Adam Smith"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "War and Peace is the historical novel by Russian author Leo Tolstoy.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q16",
@@ -29631,21 +29664,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "UndertheprovisionsofwhichArticleoftheconstitutionisPresident'sruleimposedinastate?",
+    "question": "Under which Article of the Constitution can President’s Rule be imposed in a State?",
     "options": [
       "352",
       "351",
       "356",
       "361"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Article 356 provides for President’s Rule when a State government cannot be carried on in accordance with the Constitution.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q17",
@@ -29656,21 +29690,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheRighttoFreedomofreligionisguaranteedintheIndianConstitutioninArticles:",
+    "question": "The Right to Freedom of Religion is guaranteed by Articles:",
     "options": [
-      "23and24",
-      "25to28:",
-      "9to22",
-      "1to10"
+      "23 and 24",
+      "25 to 28",
+      "9 to 22",
+      "1 to 10"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Articles 25–28 protect freedom of conscience and the freedom to profess, practise and propagate religion, subject to the Constitution.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q18",
@@ -29681,21 +29716,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichpartoftheconstitutiondealswiththeFundamentalRights?,",
+    "question": "Which Part of the Constitution of India deals with Fundamental Rights?",
     "options": [
-      "Tl",
-      "IV",
-      "V",
-      "VI"
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part VI"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Fundamental Rights are set out in Part III of the Constitution.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q19",
@@ -29706,21 +29742,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheConstitutionofIndiaborrowedtheconceptoftheDirectivePrinciplesofStatePolicyfromthe constitutionof:",
+    "question": "The Constitution of India borrowed the concept of the Directive Principles of State Policy from the Constitution of:",
     "options": [
-      "UK",
+      "The United Kingdom",
       "Canada",
       "Ireland",
-      "USA"
+      "The United States"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Directive Principles of State Policy were inspired by the Constitution of Ireland.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q20",
@@ -29731,21 +29768,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheheadquartersofWorldHealthOrganizationisat:",
+    "question": "The headquarters of the World Health Organization is in:",
     "options": [
-      "NewYork",
+      "New York",
       "Canada",
       "Geneva",
       "Nairobi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The World Health Organization is headquartered in Geneva, Switzerland.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q21",
@@ -29756,21 +29794,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Outofthefollowing,whichisnottheofficiallanguageofUNO?",
+    "question": "Which of the following is not an official language of the United Nations?",
     "options": [
       "English",
       "French",
       "Arabic",
       "Italian"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The UN has six official languages: Arabic, Chinese, English, French, Russian and Spanish; Italian is not one of them.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q22",
@@ -29781,21 +29820,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThenumberofpermanentmembersoftheUNSecurityCouncilis:",
+    "question": "The number of permanent members of the UN Security Council is:",
     "options": [
       "4",
       "5",
       "6",
       "3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Security Council has five permanent members: China, France, Russia, the United Kingdom and the United States.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q23",
@@ -29806,21 +29846,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichisthepurestformofwater?",
+    "question": "Which is the purest form of water?",
     "options": [
-      "Surfacewater",
+      "Surface water",
       "Rainwater",
-      "Wellwater",
-      "Springwater"
+      "Well water",
+      "Spring water"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Rainwater is the conventional answer among these natural water sources because it begins as evaporated and condensed water. It can still collect pollutants while falling, so it is not chemically pure in every setting.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q24",
@@ -29831,21 +29872,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Entomologiysthestudyof:",
+    "question": "Entomology is the study of:",
     "options": [
       "Insects",
       "Birds",
       "Fungi",
-      "Fossils -3-."
+      "Fossils"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Entomology is the branch of biology concerned with insects.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q25",
@@ -29856,21 +29898,48 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thelargestglainntdhebodyis:",
+    "question": "The largest gland in the body is the:",
     "options": [
       "Liver",
-      "LymphGlands",
+      "Lymph glands",
       "Pancreas",
-      "ThyroidGland"
+      "Thyroid gland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The liver is the largest gland in the human body.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q26",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The organ of the body mainly damaged in hepatitis is the:",
+    "options": [
+      "Lung",
+      "Spleen",
+      "Liver",
+      "Kidney"
+    ],
+    "answerIndex": 2,
+    "explanation": "Hepatitis is inflammation of the liver, so the liver is the organ primarily affected.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q27",
@@ -29881,21 +29950,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theinstrumentwhichmeasuresdepthoftheoceaniscalled:",
+    "question": "The instrument that measures the depth of the ocean is called a:",
     "options": [
       "Fathometer",
       "Gravimeter",
       "Galvanometer",
       "Barometer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A fathometer uses sound waves to measure water depth.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q28",
@@ -29906,21 +29976,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘Oncology’isthestudyof:",
+    "question": "Oncology is the study of:",
     "options": [
       "Birds",
       "Cancer",
       "Tissues",
       "Mammals"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Oncology is the branch of medicine concerned with cancer.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q29",
@@ -29931,24 +30002,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘Lightyear’istheunitof:",
+    "question": "A light-year is a unit of:",
     "options": [
       "Velocity",
       "Distance",
       "Light",
       "Time"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A light-year measures distance: it is how far light travels in one year.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q30",
@@ -29959,21 +30028,48 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Acidrainiscausedby:",
+    "question": "Acid rain is caused by:",
     "options": [
-      "South-WestMonsoon",
+      "South-West Monsoon",
       "Humidity",
-      "Pollutantgases",
-      "PopulationExplosion"
+      "Pollutant gases",
+      "Population explosion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Acid rain forms mainly when air pollutants such as sulfur dioxide and nitrogen oxides react with water in the atmosphere.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q31",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Alfred Nobel invented:",
+    "options": [
+      "The atom bomb",
+      "The machine gun",
+      "Dynamite",
+      "The hydrogen bomb"
+    ],
+    "answerIndex": 2,
+    "explanation": "Alfred Nobel invented dynamite and patented it in 1867.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q32",
@@ -29984,21 +30080,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Timetakenbysunlighttoreachtheearthis:",
+    "question": "The time taken by sunlight to reach Earth is approximately:",
     "options": [
-      "15sec",
-      "8sec",
-      "15min",
-      "8min"
+      "15 seconds",
+      "8 seconds",
+      "15 minutes",
+      "8 minutes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Sunlight takes about 8 minutes 20 seconds to travel from the Sun to Earth; eight minutes is the closest option.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q33",
@@ -30009,21 +30106,21 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "LordCanningwasthe:",
+    "question": "Lord Canning was the:",
     "options": [
-      "FirstGovernor-GeneralofIndia",
-      "LastGovernor-GeneralofIndia",
-      "FirstViceroyofIndia",
-      "LastViceroyofIndia"
+      "First Governor-General of India",
+      "Last Governor-General of India",
+      "First Viceroy of India",
+      "Last Viceroy of India"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Lord Canning was both the last Governor-General of India and the first Viceroy of India. Both options B and C are historically correct, so the item has no unique answer.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Lord Canning was both the last Governor-General of India and the first Viceroy of India. Both options B and C are historically correct, so the item has no unique answer."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q34",
@@ -30034,21 +30131,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheFirstIndiantogettheNobelPrizewas:",
+    "question": "The first Indian to receive a Nobel Prize was:",
     "options": [
-      "RajaRamMohanRoy",
-      "SirCVRaman",
-      "Mrs.SarojiniNaidu",
-      "}RabindranathTagore"
+      "Raja Ram Mohan Roy",
+      "Sir C. V. Raman",
+      "Sarojini Naidu",
+      "Rabindranath Tagore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Rabindranath Tagore became the first Indian Nobel laureate when he received the 1913 Nobel Prize in Literature.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q35",
@@ -30059,21 +30157,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "DIETistheParliamentof:",
+    "question": "The Diet is the Parliament of:",
     "options": [
       "Malaysia",
       "Canada",
       "China",
       "Japan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Japan’s national legislature is called the National Diet.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q36",
@@ -30084,21 +30183,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheCapitalofLibyais:",
+    "question": "The capital of Libya is:",
     "options": [
       "Belgrade",
       "Abuja",
       "Havana",
-      "_Tripoli"
+      "Tripoli"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Tripoli is the capital of Libya.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q37",
@@ -30109,21 +30209,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThecurrencyofThailandis:",
+    "question": "The currency of Thailand is the:",
     "options": [
       "Dollar",
       "Baht",
       "Takka",
       "Pound"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Thailand’s currency is the baht.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q38",
@@ -30134,21 +30235,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Withwhatgameis‘SantoshTrophy’associated?",
+    "question": "The Santosh Trophy is associated with which sport?",
     "options": [
       "Badminton",
       "Cricket",
       "Hockey",
-      "Football 4.‘"
+      "Football"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Santosh Trophy is an Indian domestic football competition.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q39",
@@ -30159,21 +30261,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whoiscalledthe‘FatherofGeometry’?",
+    "question": "Who is called the “Father of Geometry”?",
     "options": [
       "Galileo",
       "Aristotle",
       "Euclid",
       "Archimedes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Euclid’s Elements shaped classical geometry, and Euclid is traditionally called the Father of Geometry.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q40",
@@ -30184,24 +30287,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheoldestFootballtournamentinIndiais:",
+    "question": "The oldest football tournament in India is the:",
     "options": [
-      "Durandcup",
-      "IFAShield",
-      "RoversCup",
-      "DavisCup"
+      "Durand Cup",
+      "IFA Shield",
+      "Rovers Cup",
+      "Davis Cup"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Durand Cup, founded in 1888, is India’s oldest football tournament.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q41",
@@ -30212,21 +30313,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whowasknownas‘Ladyofthelamp’?",
+    "question": "Who was known as the “Lady of the Lamp”?",
     "options": [
-      "FlorenceNightingale",
-      "SarojijiNaidu",
-      "RaziaSultan",
-      "MotherTeresa"
+      "Florence Nightingale",
+      "Sarojini Naidu",
+      "Razia Sultan",
+      "Mother Teresa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Florence Nightingale became known as the “Lady of the Lamp” for tending wounded soldiers at night during the Crimean War.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q42",
@@ -30237,21 +30339,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whowasknownas‘ManofDestinity\"?",
+    "question": "Who was known as the “Man of Destiny”?",
     "options": [
       "Hitler",
       "Stalin",
       "Napoleon",
-      "MahatmaGandhi"
+      "Mahatma Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Man of Destiny” is a well-established epithet for Napoleon Bonaparte.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q43",
@@ -30262,24 +30365,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingistheunittoexpressthememoryofacomputer?",
+    "question": "Which is a unit used to express computer memory?",
     "options": [
       "Bus",
       "Byte",
       "CAD",
       "Compiler"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A byte is a standard unit for measuring digital memory and data.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q44",
@@ -30290,21 +30391,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisknownasthe‘brainofcomputer’?",
+    "question": "What is known as the “brain of the computer”?",
     "options": [
       "CPU",
-      "Inputunit",
-      "ControlUnit",
-      "Arithmeticunit"
+      "Input unit",
+      "Control Unit",
+      "Arithmetic unit"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The CPU carries out instructions and coordinates computer operations, which is why it is often called the computer’s brain.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q45",
@@ -30315,21 +30417,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatistheminimumagerequiredtobeeligibleforelectiontoRajyaSabha?",
+    "question": "What is the minimum age required to be eligible for election to the Rajya Sabha?",
     "options": [
-      "21years",
-      "25years",
-      "30years",
-      "35years‘"
+      "21 years",
+      "25 years",
+      "30 years",
+      "35 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A person must be at least 30 years old to be elected to the Rajya Sabha.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q46",
@@ -30340,21 +30443,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThelinedemarcatingtheboundarybetweenIndiaandPakistanis:.",
+    "question": "The line demarcating the boundary between India and Pakistan is the:",
     "options": [
-      "Durandline",
-      "McMahonline",
-      "Radcliffeline",
-      "Maginotline"
+      "Durand Line",
+      "McMahon Line",
+      "Radcliffe Line",
+      "Maginot Line"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Radcliffe Line was drawn in 1947 to demarcate the boundary between India and Pakistan.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q47",
@@ -30365,21 +30469,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheJawaharlalNehruUniversitiyssituatedin:",
+    "question": "Jawaharlal Nehru University is situated in:",
     "options": [
       "Agra",
       "Pune",
       "Dehradun",
-      "NewDelhi"
+      "New Delhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Jawaharlal Nehru University is in New Delhi.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q48",
@@ -30390,21 +30495,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thequorumoftheparliamentisfixedat:",
+    "question": "The quorum of Parliament is fixed at:",
     "options": [
-      "one-tenthofthemembershipofthehouse",
-      "one-thirdofthemembershipofthehouse",
-      "one-halfofthemembershipofthehouse",
-      "four-fifthofthemembershipofthehouse"
+      "One-tenth of the membership of the House",
+      "One-third of the membership of the House",
+      "One-half of the membership of the House",
+      "Four-fifths of the membership of the House"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Article 100(3) sets the quorum for either House of Parliament at one-tenth of its total membership.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q49",
@@ -30415,21 +30521,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThejudgesoftheSupremeCourtareappointedbythe:",
+    "question": "The judges of the Supreme Court are appointed by the:",
     "options": [
-      "PrimeMinisterofIndia",
-      "SpeakeroftheLokSabha",
-      "PresidentofIndia",
-      "ChiefJusticeofIndia"
+      "Prime Minister of India",
+      "Speaker of the Lok Sabha",
+      "President of India",
+      "Chief Justice of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The President formally appoints Supreme Court judges under Article 124, following the constitutional appointment process.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q50",
@@ -30440,21 +30547,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "HowoftentheFinanceCommissionisconstitutedinIndia?",
+    "question": "How often is the Finance Commission constituted in India?",
     "options": [
-      "Onlyonce",
-      "Onceeveryyear",
-      "Afterevery5years",
-      "Afterevery10years"
+      "Only once",
+      "Once every year",
+      "Every five years",
+      "After every ten years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Constitution requires a Finance Commission to be constituted every five years, or earlier if needed.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q51",
@@ -30465,21 +30573,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichcountryisnotinEurope?",
+    "question": "Which country is not in Europe?",
     "options": [
       "Holland",
       "Belgium",
       "Lebanon",
       "Sweden"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lebanon is in West Asia, not Europe.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q52",
@@ -30490,21 +30599,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Cubaisnicknamedas:",
+    "question": "Cuba is nicknamed the:",
     "options": [
-      "CockpitofEurope",
-      "HermitKingdom",
-      "LandoftheGoldenFleece",
-      "SugarBowloftheworld ~J5-."
+      "Cockpit of Europe",
+      "Hermit Kingdom",
+      "Land of the Golden Fleece",
+      "Sugar Bowl of the World"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Cuba has historically been nicknamed the “Sugar Bowl of the World” because of its sugar production.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q53",
@@ -30515,21 +30625,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "OPECstandsfor:",
+    "question": "OPEC stands for:",
     "options": [
-      "OilproducingEuropeanCountries",
-      "OrganizationofPetroleumExportingcountries",
-      "OilandPetroleumExploringCountries",
-      "OrganizationofPacificExploringcountries"
+      "Oil Producing European Countries",
+      "Organization of the Petroleum Exporting Countries",
+      "Oil and Petroleum Exploring Countries",
+      "Organization of Pacific Exploring Countries"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "OPEC is the Organization of the Petroleum Exporting Countries.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q54",
@@ -30540,21 +30651,48 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhendaysandnightsareofequallengthonSeptember23,thispositionisknownas:",
+    "question": "When day and night are of equal length around September 23, the event is called an:",
     "options": [
       "Equinox",
-      "Occluded",
+      "Occultation",
       "Veering",
-      "Aphelion (a)Latitudes(b)Longitudes (c)Parallels(d)Altitudes"
+      "Aphelion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "An equinox occurs when the Sun crosses the celestial equator and day and night are nearly equal in length.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q55",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The imaginary lines running from North to South are called:",
+    "options": [
+      "Latitudes",
+      "Longitudes",
+      "Parallels",
+      "Altitudes"
+    ],
+    "answerIndex": 1,
+    "explanation": "Lines of longitude run from the North Pole to the South Pole; lines of latitude run east–west.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q56",
@@ -30565,21 +30703,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichatmosphericlayerismostimportantforhumanbeings?",
+    "question": "Which atmospheric layer is most important for human beings?",
     "options": [
       "Troposphere",
       "Thermosphere",
       "Stratosphere",
       "Atmosphere"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The troposphere is the lowest atmospheric layer, where people live and most weather occurs.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q57",
@@ -30590,21 +30729,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "The‘Lepchas’aremostlyfoundinanIndianstatenamely;",
+    "question": "The Lepcha people are mostly found in which Indian State?",
     "options": [
       "Assam",
-      "ArunachalPradesh",
+      "Arunachal Pradesh",
       "Sikkim",
-      "JammuandKashmir"
+      "Jammu and Kashmir"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Lepcha people are concentrated mainly in Sikkim.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q58",
@@ -30615,21 +30755,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "‘FatherofHistory’isthenamegivento:",
+    "question": "“Father of History” is the name given to:",
     "options": [
       "Herodotus",
       "Megasthenes",
-      "JohnRey",
-      "IbnBattuta"
+      "John Ray",
+      "Ibn Battuta"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Greek historian Herodotus is traditionally called the “Father of History.”",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q59",
@@ -30640,21 +30781,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whoisthemostrecentrecipientofthe‘AIFFIndianMen’sFootballeroftheYearAward’?",
+    "question": "Who is the most recent recipient of the AIFF Indian Men’s Footballer of the Year Award?",
     "options": [
-      "Laichungnunga",
-      "LallianzualaChhangte",
-      "LalengmawiaRalte",
-      "JejeLalpekhlua"
+      "Lalchungnunga",
+      "Lallianzuala Chhangte",
+      "Lalengmawia Ralte",
+      "Jeje Lalpekhlua"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Lallianzuala Chhangte won the AIFF Men’s Player of the Year award for 2023–24, announced in July 2024.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q60",
@@ -30665,21 +30807,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Mr.Lalbiakzama,thecurrentSpeakerofthe9MizoramLegislativeAssemblywaselectedfrom whichconstituency?",
+    "question": "Mr. Lalbiakzama, Speaker of the 9th Mizoram Legislative Assembly, was elected from which constituency?",
     "options": [
       "Lengteng",
       "Chalfilh",
       "Hrangturzo",
       "Tuikum"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mizoram Assembly records show Speaker Lalbiakzama was elected from Chalfilh constituency.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q61",
@@ -30690,21 +30833,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "EbrahimRaisi,whowaskilledinahelicoptercrashinMay,2024wasthePresidentof:",
+    "question": "Ebrahim Raisi, who was killed in a helicopter crash in May 2024, was the President of:",
     "options": [
       "Iran",
       "Ireland",
-      "rag",
+      "Iraq",
       "Vietnam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ebrahim Raisi was President of Iran until his death in a helicopter crash in May 2024.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q62",
@@ -30715,21 +30859,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichteamwonthe9\"ICCMen’sT20WorldCupbydefeatingtheSouthAfricanTeam?",
+    "question": "Which team won the 9th ICC Men’s T20 World Cup by defeating South Africa?",
     "options": [
       "Afghanistan",
       "India",
       "Australia",
-      "NewZealand"
+      "New Zealand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India defeated South Africa in the final to win the 2024 ICC Men’s T20 World Cup.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q63",
@@ -30740,21 +30885,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Recently,whohasbeenelectedasthenewPresidentoftheEuropeanCounciloftheEuropeanUnion?",
+    "question": "Who was elected as the new President of the European Council in 2024?",
     "options": [
-      "CharlesMichel",
-      "HermanVanRompuy",
-      "AntonieCosta",
-      "VonderLeyen"
+      "Charles Michel",
+      "Herman Van Rompuy",
+      "António Costa",
+      "Ursula von der Leyen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "António Costa was elected President of the European Council in June 2024 and took office that December.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q64",
@@ -30765,21 +30911,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhohasbeenawardedthePENPinterPrize2024?",
+    "question": "Who was awarded the PEN Pinter Prize in 2024?",
     "options": [
-      "VikramSeth",
-      "NeelamSaxena",
-      "VikramSingh",
-      "ArundhatiRoy"
+      "Vikram Seth",
+      "Neelam Saxena",
+      "Vikram Singh",
+      "Arundhati Roy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Arundhati Roy received the 2024 PEN Pinter Prize.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q65",
@@ -30790,21 +30937,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "PemaKhandurecentlybecametheChiefMinisterofwhichstate?",
+    "question": "Pema Khandu became Chief Minister of which State?",
     "options": [
-      "ArunachalPradesh",
+      "Arunachal Pradesh",
       "Assam",
       "Sikkim",
       "Tripura"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Pema Khandu is Chief Minister of Arunachal Pradesh.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q66",
@@ -30815,21 +30963,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatisthecausativeagentofAfricanSwineFever,recentlyseeninNews?",
+    "question": "What is the causative agent of African swine fever?",
     "options": [
       "Bacteria",
       "Fungus",
       "Virus",
-      "Protozoa -7-:"
+      "Protozoa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "African swine fever is caused by African swine fever virus, a large DNA virus.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q80",
@@ -30840,21 +30989,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichcityiscalled‘thePinkCity’?",
+    "question": "Which city is called the “Pink City”?",
     "options": [
       "Jaipur",
       "Kolkata",
       "Bengaluru",
       "Bhopal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Jaipur’s old city is known as the Pink City.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q81",
@@ -30865,21 +31015,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichcountryisthenewMissUniverse2024from?",
+    "question": "Miss Universe 2024 is from which country?",
     "options": [
       "Nigeria",
       "Thailand",
       "Mexico",
       "Denmark"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Denmark’s Victoria Kjær Theilvig won Miss Universe 2024.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q82",
@@ -30890,21 +31041,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhowasthefirstIndiancosmonauttogointospace?",
+    "question": "Who was the first Indian cosmonaut to go into space?",
     "options": [
-      "VikramSarabhai",
-      "SunitaWilliams",
-      "RakeshSharma",
-      "KalpanaChawla"
+      "Vikram Sarabhai",
+      "Sunita Williams",
+      "Rakesh Sharma",
+      "Kalpana Chawla"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rakesh Sharma became the first Indian citizen to travel into space in 1984 aboard Soyuz T-11.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q83",
@@ -30915,21 +31067,21 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhowasthefirstIndiantoreceivetheBharatRatnaAward?",
+    "question": "Who was the first Indian to receive the Bharat Ratna Award?",
     "options": [
-      "C.V.Raman",
-      "JawaharlalNehru",
-      "C.Rajagopalachari",
-      "S.Radhakrishnan"
+      "C. V. Raman",
+      "Jawaharlal Nehru",
+      "C. Rajagopalachari",
+      "S. Radhakrishnan"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The first Bharat Ratna awards were jointly given in 1954 to C. V. Raman, C. Rajagopalachari and S. Radhakrishnan. Three listed options are correct; hold the item.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The first Bharat Ratna awards were jointly given in 1954 to C. V. Raman, C. Rajagopalachari and S. Radhakrishnan. Three listed options are correct; hold the item."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q84",
@@ -30940,21 +31092,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhowasthefirstmuslimPresidentoftheIndianRepublic?",
+    "question": "Who was the first Muslim President of the Indian Republic?",
     "options": [
-      "Dr.ZakirHussain",
-      "FA.Ahmed",
-      "Dr.APJAbdulKalam",
-      "MHidayatullah"
+      "Dr. Zakir Hussain",
+      "F. A. Ahmed",
+      "Dr. A. P. J. Abdul Kalam",
+      "M. Hidayatullah"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dr. Zakir Hussain was the first Muslim President of the Republic of India.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q85",
@@ -30965,21 +31118,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichstatesdoMizoramsharesitsborderwith?",
+    "question": "Which States share a border with Mizoram?",
     "options": [
-      "Assam,Meghalaya,Tripura",
-      "Assam,AunachalPradesh,Tripura",
-      "Assam,Manipur,Meghalaya",
-      "Assam,Tripura,Manipur"
+      "Assam, Meghalaya and Tripura",
+      "Assam, Arunachal Pradesh and Tripura",
+      "Assam, Manipur and Meghalaya",
+      "Assam, Tripura and Manipur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Mizoram shares State borders with Assam, Tripura and Manipur.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q86",
@@ -30990,21 +31144,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Which3districtsofMizorambecameoperationalafterJune2019?",
+    "question": "Which three Mizoram districts became operational after June 2019?",
     "options": [
-      "Hnahthial,Lawngtiai,Saitual",
-      "Khawzawl,Hnahthial,Saitual",
-      "Hnahthial,Saitual,Mamit",
-      "Serchhip,Khawzawl,Hnahthial"
+      "Hnahthial, Lawngtlai and Saitual",
+      "Khawzawl, Hnahthial and Saitual",
+      "Hnahthial, Saitual and Mamit",
+      "Serchhip, Khawzawl and Hnahthial"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Khawzawl, Hnahthial and Saitual districts became operational in June 2019.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q87",
@@ -31015,21 +31170,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThefirstMizowomanawardedwithPadmaShriinliteraturewas:",
+    "question": "Who was the first Mizo woman awarded the Padma Shri in literature?",
     "options": [
       "Nuchhungi",
-      "LalsangzualiSailo",
-      "BuangiSailo",
+      "Lalsangzuali Sailo",
+      "Buangi Sailo",
       "Khawlkungi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Nuchhungi Renthlei was the first Mizo woman to receive the Padma Shri for her literary work.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q88",
@@ -31040,21 +31196,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhicharticleinIndianconstitutiongivespecialprovisionforMizoram?",
+    "question": "Which Article of the Indian Constitution gives special provision for Mizoram?",
     "options": [
       "3471C",
       "571D",
       "662B",
       "371G"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Article 371G provides special constitutional provisions for Mizoram.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q89",
@@ -31065,21 +31222,178 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InwhichcategorydidMr.SangthankimawinthePadmaShriAward?",
+    "question": "In which category did Mr. Sangthankima win the Padma Shri Award?",
     "options": [
-      "Socialwork",
+      "Social Work",
       "Arts",
       "Literature",
-      "TradeandIndustry"
+      "Trade and Industry"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Government of India lists Sangthankima’s Padma Shri field as Social Work.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q90",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which district has the largest area in Mizoram?",
+    "options": [
+      "Aizawl",
+      "Lunglei",
+      "Champhai",
+      "Mamit"
+    ],
+    "answerIndex": 1,
+    "explanation": "Lunglei is the largest district of Mizoram by area.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q91",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Who is the only recipient of the Padma Bhushan Award from Mizoram?",
+    "options": [
+      "Rev. Zairema",
+      "Rev. Chuauthuama",
+      "Prof. Darchhawna",
+      "Capt. L. Z. Sailo"
+    ],
+    "answerIndex": 3,
+    "explanation": "Capt. L. Z. Sailo is identified as Mizoram’s sole Padma Bhushan recipient.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q92",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "In which district is Pukzing Cave located?",
+    "options": [
+      "Mamit",
+      "Siaha",
+      "Aizawl",
+      "Kolasib"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pukzing Cave is near Pukzing village in Mamit district.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q93",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The Tu(i)t River is a tributary of the:",
+    "options": [
+      "Tlawng River",
+      "Chhimtuipui River",
+      "Tuirial River",
+      "Tuivawl River"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Tut (Tlawng) River joins the Tlawng River system.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q94",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Books and authors are given below. Which combination is correct?\nA. Sihlipui — Romuanpuii Zadeng\nB. Rintei Zunleng — Lalrammawia Ngente\nC. Bible leh Science — C. Laizawna\nD. Anita — P. C. Biaksiama",
+    "options": [
+      "Only A",
+      "A and B",
+      "C and D",
+      "A, C and D"
+    ],
+    "answerIndex": 1,
+    "explanation": "A and B are correctly matched: Sihlipui is by Romuanpuii Zadeng and Rintei Zunleng by Lalrammawia Ngente. The other two authors are reversed/mismatched.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno-2024-gk-Q95",
+    "paperId": "mpsc-group-b-steno-2024-gk",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Mr. C. Lalrambuatsaiha, recently re-elected President of the Mizo Journalists Association, is the editor of which newspaper?",
+    "options": [
+      "Youth Herald",
+      "The Aizawl Post",
+      "The Mizoram Post",
+      "Times of Mizoram"
+    ],
+    "answerIndex": 1,
+    "explanation": "Mizoram government journalist records identify C. Lalrambuatsaiha as editor of The Aizawl Post.",
+    "source": "Stenographer Grade III, DP&AR · November 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q96",
@@ -31090,21 +31404,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichdistricthasthelargestareainMizoram?",
+    "question": "Which is the latest MAL Book of the Year listed in this paper?",
     "options": [
-      "Aizawl",
-      "Lunglei",
-      "Champhai",
-      "Mamit (a)Rev.Zairema(b)Rev.Chuauthuama (c)Prof.Darchhawna(d)Capt.L.Z.Sailo (a)Mamit(b)Siaha (c)Aizawl(d)Kolasib (a)Tlawngriver(b)ChhimtuipuiRiver (c)Tuirialriver(d)Tuivawlriver. -8-“ A.Sihlipui:RomuanpuiiZadeng B.RinteiZunleng:LalrammawiaNgente C.BiblelehScience:C.Laizawna D.Anita:P.C.Biaksiama (a)OnlyA(b)A&B (c)C&D(d)A,C&D (a)YouthHerald(b)TheAizawlPost (c)TheMizoramPost(a)TimesofMizoram (a)Pangparhnima(6)DaidannaBangPhenaThuruk (c)Hotakhui(d)RaltiangRimawi"
+      "Pangparhnima",
+      "Daidanna Bang Phena Thuruk",
+      "Hniak Hlu",
+      "Raltiang Rimawi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "At the time of this November 2024 paper, Pangparhnima (Ahmangaihi Khiangte) was MAL Book of the Year announced in 2024 for books published in 2023.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
-    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=6",
-    "sourceReview": true,
+    "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q97",
@@ -31115,21 +31430,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AccordingtoMizohistory,whichsacrificewasmadetoenhancepaddycultivationinthevillage?",
+    "question": "According to Mizo history, which sacrifice was made to enhance paddy cultivation in the village?",
     "options": [
       "Arkhal",
       "Daibawl",
-      "Kelkhal",
-      "Fanodawi"
+      "Kel khal",
+      "Fano dawi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Fano dawi was a village sacrifice for agricultural fertility and the protection and prosperity of crops.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q98",
@@ -31140,21 +31456,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatisthenameofcyclonethathitNorthEastIndiaandcausedahugeamountofrainfallinMizoram duringMay2024?",
+    "question": "What was the name of the cyclone that hit North-East India and caused heavy rainfall in Mizoram during May 2024?",
     "options": [
-      "CycloneFani",
-      "CycloneRemal",
-      "CycloneHikka",
-      "CycloneMaha."
+      "Cyclone Fani",
+      "Cyclone Remal",
+      "Cyclone Hikka",
+      "Cyclone Maha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Cyclone Remal struck the Bay of Bengal region in late May 2024 and brought heavy rain to parts of the North-East, including Mizoram.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q99",
@@ -31165,21 +31482,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichAMCWardhadaby-electionforcorporatorinJune2024?",
+    "question": "Which Aizawl Municipal Corporation ward had a corporator by-election in June 2024?",
     "options": [
-      "WardnoXIV",
-      "WardNoXVI:",
-      "WardNoXIX",
-      "WardNoXVII"
+      "Ward No. XIV",
+      "Ward No. XVI",
+      "Ward No. XIX",
+      "Ward No. XVIII"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Aizawl Municipal Corporation held the June 2024 corporator by-election for Ward XIX.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q100",
@@ -31190,21 +31508,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InMizolanguage,whatisthenameforthemonthof‘August’?",
+    "question": "In the Mizo language, what is the name for the month of August?",
     "options": [
-      "Vauthla",
-      "Thlazing",
-      "Sahmulphahthla",
-      "Thitin AARRKEE"
+      "Vau thla",
+      "Thla zing",
+      "Sahmulphah thla",
+      "Thitin"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Thitin is the Mizo name for August, traditionally associated with the month of the dead.",
     "source": "Stenographer Grade III, DP&AR · November 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B1",
@@ -31565,7 +31884,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 8–15): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nReading good books is an indispensable habit that enriches the mind, fosters intellectual growth, and broadens one’s perspective. A well-written book serves as an illustrious guide, offering wisdom that transcends time and geography. Books expose readers to profound ideas, stimulate critical thinking, and cultivate a sense of curiosity. Those who engage in thoughtful reading develop a more astute understanding of the world and a refined ability to articulate their thoughts.\n\nThe habit of reading not only enhances knowledge but also refines linguistic skills. A lucid and well-structured book improves vocabulary, comprehension, and analytical abilities. Additionally, reading provides an escape from mundane realities, allowing individuals to immerse themselves in the captivating narratives of fiction or the erudite insights of non-fiction. Such engagement strengthens cognitive faculties, improves concentration, and fortifies memory.\n\nBeyond intellectual benefits, books offer solace during turbulent times. The written word has the power to ameliorate stress, evoke empathy, and foster emotional resilience. Readers often find comfort in literature that resonates with their own experiences, helping them navigate personal dilemmas with newfound clarity. In an era dominated by digital distractions, cultivating a deep engagement with books can be a formidable antidote to fragmented attention and superficial content consumption.\n\nUltimately, reading good books is not merely a pastime but a quintessential practice for personal and intellectual growth. It nurtures creativity, instils wisdom, and enriches the human experience in ways that few other activities can. Developing the discipline to read regularly is a laudable endeavour—one that rewards the mind and spirit in immeasurable ways."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B13",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -31869,9 +32190,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B23",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40004,7 +40323,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction(QuestionsNos.46-50):Choosethecorrectwordfromthegivenoptionstomakemeaningful"
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-english-B49",
     "paperId": "mpsc-group-b-je-2025-english",
@@ -40264,9 +40585,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction(QuestionNos.56-60):Choosethecorrectsentence:-"
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-english-B59",
     "paperId": "mpsc-group-b-je-2025-english",
@@ -47829,7 +48148,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q52",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -48089,9 +48410,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q62",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -55755,7 +56074,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q56",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -56015,9 +56336,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q66",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -63707,7 +64026,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q88",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -63969,9 +64290,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q98",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -72114,7 +72433,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q69",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -72424,9 +72745,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q79",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -80775,7 +81094,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B34",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q35",
     "questionNumber": "B35",
@@ -81035,9 +81356,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B44",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q45",
     "questionNumber": "B45",
@@ -88610,7 +88929,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A8",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A9",
     "questionNumber": "A9",
@@ -88872,9 +89193,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A18",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A19",
     "questionNumber": "A19",
@@ -95487,6 +95806,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-steno-2024-gk": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-steno-2025-english": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
@@ -95672,6 +95997,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-aao-2024-english": 100,
   "mpsc-group-b-aao-2024-gk": 100,
   "mpsc-group-b-aao-2024-arithmetic": 100,
+  "mpsc-group-b-steno-2024-gk": 100,
   "mpsc-group-b-steno-2025-english": 75,
   "mpsc-group-b-steno-2025-gk": 100,
   "mpsc-group-b-steno2-2025-p1": 40,

@@ -186,7 +186,8 @@
     "sourceHref": "/papers/group-b/steno-2024-gk.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 100
   },
   {
     "id": "mpsc-group-b-steno-2025-english",

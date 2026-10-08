@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 9 October 2026
 
-49 general papers, 3,548 items: 3,477 MCQs and 71 written prompts.
-2,847 questions are ready for practice, including 1,614 official answers and
-1,233 independently derived answers. 643 items still need source review.
+49 general papers, 3,560 items: 3,489 MCQs and 71 written prompts.
+2,931 questions are ready for practice, including 1,614 official answers and
+1,317 independently derived answers. 569 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -50,6 +50,15 @@ give unique, accurate answers. The paper remains out of full-paper Exam mode
 because it has no verified key.
 
 Stenographer Grade-II (Contract) General Knowledge 2015 Q1–100 has been checked against all eight printed pages. Ninety-three questions have independently derived answers with explanations. Q6, Q44, Q55, Q69, Q71, Q81 and Q100 are held out for unverifiable or defective premises/options. The paper remains out of full-paper Exam mode because it has no verified official answer key.
+
+Stenographer Grade-III (DP&AR) General Knowledge, November 2024, has been
+checked against every page present in the published seven-page scan. The PDF
+contains Q1–66 and Q80–100 but omits printed page 6 (Q67–79), so this is an
+explicitly partial review and the absent questions are not reconstructed.
+Eighty-four visible questions have derived explanations; Q4, Q33 and Q83 are
+held because the wording/options do not give one defensible answer. The visible
+questions are available for practice, while the incomplete paper stays out of
+full-paper Exam mode.
 
 Stenographer Grade-II (MPSC) General English 2025 Part B Q1–40 has been checked against pages 3–6. Thirty-eight MCQs have worked explanations; Q36 is held for imprecise and outdated wording, and Q37 because lactose intolerance is not a milk allergy. The four Section-A written prompts remain under review, so the paper is excluded from full-paper Exam mode.
 

@@ -32042,6 +32042,1316 @@
         }
       },
       "evidence": "Printed scan pages 2–10 checked. Questions 1–100 restored or scan-checked; defective, ambiguous, or unanswerable options remain unscored."
+    },
+    "steno-2024-gk": {
+      "sourceSha256": "8330d40b314068eeb5372e28f792affdbd1665bc9a7bf30f25ae344e5a23f703",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "reviewedOn": "2026-10-09",
+      "evidence": "MPSC source scan pages 1–5 and 7–8 (PDF pages 1–7) visually checked. The uploaded seven-page PDF omits printed page 6, so Q67–79 are absent and this review remains partial. OCR-merged rows and omissions Q11, Q26, Q31, Q55, Q90–95 are recovered; all present questions receive readable stems/options. This paper’s visible questions Q1–66 and Q80–100 are repaired and independently keyed where a unique supported option exists; Q4, Q33 and Q83 remain unscored.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "When was the first atomic bomb exploded?",
+          "opts": {
+            "a": "1945",
+            "b": "1946",
+            "c": "1748",
+            "d": "1949"
+          }
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "The Constitution of India came into force in:",
+          "opts": {
+            "a": "1947",
+            "b": "1948",
+            "c": "1949",
+            "d": "1950"
+          }
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "RMSA stands for:",
+          "opts": {
+            "a": "Recurring Modest Secured Account",
+            "b": "Rashtriya Middle School Association",
+            "c": "Rashtriya Madhyamik Shiksha Abhiyan",
+            "d": "River Management and Safety Authority"
+          }
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Who was the first person to sail round the world?",
+          "opts": {
+            "a": "Robert Peary",
+            "b": "Magellan",
+            "c": "Amundsen",
+            "d": "Abhilash Tomy"
+          },
+          "unscored": true,
+          "explanation": "The question asks for the first person to sail round the world, but Magellan died before the expedition returned. Juan Sebastián Elcano completed the circumnavigation and is not an option; hold the item."
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "According to tradition, who introduced Christianity to India?",
+          "opts": {
+            "a": "St. Peter",
+            "b": "St. Paul",
+            "c": "St. Thomas",
+            "d": "St. Joseph"
+          }
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "The difference between Indian Standard Time and Greenwich Mean Time is:",
+          "opts": {
+            "a": "5½ hours",
+            "b": "4½ hours",
+            "c": "5 hours",
+            "d": "6 hours"
+          }
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "How much time does Earth take to revolve round the Sun?",
+          "opts": {
+            "a": "365 days",
+            "b": "365¼ days",
+            "c": "365½ days",
+            "d": "365¾ days"
+          }
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "q": "What is the full form of “SIM”?",
+          "opts": {
+            "a": "Subscriber Identity Module",
+            "b": "Send Important Mails",
+            "c": "Subscriber Information Method",
+            "d": "System Information Management"
+          }
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "q": "“Land of the Morning Calm” is:",
+          "opts": {
+            "a": "Japan",
+            "b": "Hong Kong",
+            "c": "Korea",
+            "d": "Turkey"
+          }
+        },
+        "10": {
+          "n": 10,
+          "page": 1,
+          "q": "Oslo is the capital of:",
+          "opts": {
+            "a": "Norway",
+            "b": "Denmark",
+            "c": "Belgium",
+            "d": "Switzerland"
+          }
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Which Indian state is often called the “heart of India”?",
+          "opts": {
+            "a": "West Bengal",
+            "b": "Uttar Pradesh",
+            "c": "Madhya Pradesh",
+            "d": "Punjab"
+          }
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "Bharatpur Sanctuary in Rajasthan is famous for:",
+          "opts": {
+            "a": "Wild asses",
+            "b": "Rhinoceroses",
+            "c": "Asiatic lions",
+            "d": "Birds"
+          }
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "Mahatma Gandhi died in the year:",
+          "opts": {
+            "a": "1947",
+            "b": "1948",
+            "c": "1949",
+            "d": "1950"
+          }
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "What is the currency of Japan?",
+          "opts": {
+            "a": "Yen",
+            "b": "Rouble",
+            "c": "Real",
+            "d": "Franc"
+          }
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "The author of War and Peace was:",
+          "opts": {
+            "a": "Leo Tolstoy",
+            "b": "Aldous Huxley",
+            "c": "Charles Dickens",
+            "d": "Adam Smith"
+          }
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "Under which Article of the Constitution can President’s Rule be imposed in a State?",
+          "opts": {
+            "a": "352",
+            "b": "351",
+            "c": "356",
+            "d": "361"
+          }
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "The Right to Freedom of Religion is guaranteed by Articles:",
+          "opts": {
+            "a": "23 and 24",
+            "b": "25 to 28",
+            "c": "9 to 22",
+            "d": "1 to 10"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "q": "Which Part of the Constitution of India deals with Fundamental Rights?",
+          "opts": {
+            "a": "Part III",
+            "b": "Part IV",
+            "c": "Part V",
+            "d": "Part VI"
+          }
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "q": "The Constitution of India borrowed the concept of the Directive Principles of State Policy from the Constitution of:",
+          "opts": {
+            "a": "The United Kingdom",
+            "b": "Canada",
+            "c": "Ireland",
+            "d": "The United States"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "q": "The headquarters of the World Health Organization is in:",
+          "opts": {
+            "a": "New York",
+            "b": "Canada",
+            "c": "Geneva",
+            "d": "Nairobi"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "q": "Which of the following is not an official language of the United Nations?",
+          "opts": {
+            "a": "English",
+            "b": "French",
+            "c": "Arabic",
+            "d": "Italian"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 2,
+          "q": "The number of permanent members of the UN Security Council is:",
+          "opts": {
+            "a": "4",
+            "b": "5",
+            "c": "6",
+            "d": "3"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 2,
+          "q": "Which is the purest form of water?",
+          "opts": {
+            "a": "Surface water",
+            "b": "Rainwater",
+            "c": "Well water",
+            "d": "Spring water"
+          }
+        },
+        "24": {
+          "n": 24,
+          "page": 2,
+          "q": "Entomology is the study of:",
+          "opts": {
+            "a": "Insects",
+            "b": "Birds",
+            "c": "Fungi",
+            "d": "Fossils"
+          }
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "The largest gland in the body is the:",
+          "opts": {
+            "a": "Liver",
+            "b": "Lymph glands",
+            "c": "Pancreas",
+            "d": "Thyroid gland"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "The organ of the body mainly damaged in hepatitis is the:",
+          "opts": {
+            "a": "Lung",
+            "b": "Spleen",
+            "c": "Liver",
+            "d": "Kidney"
+          }
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "The instrument that measures the depth of the ocean is called a:",
+          "opts": {
+            "a": "Fathometer",
+            "b": "Gravimeter",
+            "c": "Galvanometer",
+            "d": "Barometer"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "Oncology is the study of:",
+          "opts": {
+            "a": "Birds",
+            "b": "Cancer",
+            "c": "Tissues",
+            "d": "Mammals"
+          }
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "q": "A light-year is a unit of:",
+          "opts": {
+            "a": "Velocity",
+            "b": "Distance",
+            "c": "Light",
+            "d": "Time"
+          }
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "q": "Acid rain is caused by:",
+          "opts": {
+            "a": "South-West Monsoon",
+            "b": "Humidity",
+            "c": "Pollutant gases",
+            "d": "Population explosion"
+          }
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "q": "Alfred Nobel invented:",
+          "opts": {
+            "a": "The atom bomb",
+            "b": "The machine gun",
+            "c": "Dynamite",
+            "d": "The hydrogen bomb"
+          }
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "q": "The time taken by sunlight to reach Earth is approximately:",
+          "opts": {
+            "a": "15 seconds",
+            "b": "8 seconds",
+            "c": "15 minutes",
+            "d": "8 minutes"
+          }
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "q": "Lord Canning was the:",
+          "opts": {
+            "a": "First Governor-General of India",
+            "b": "Last Governor-General of India",
+            "c": "First Viceroy of India",
+            "d": "Last Viceroy of India"
+          },
+          "unscored": true,
+          "explanation": "Lord Canning was both the last Governor-General of India and the first Viceroy of India. Both options B and C are historically correct, so the item has no unique answer."
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "q": "The first Indian to receive a Nobel Prize was:",
+          "opts": {
+            "a": "Raja Ram Mohan Roy",
+            "b": "Sir C. V. Raman",
+            "c": "Sarojini Naidu",
+            "d": "Rabindranath Tagore"
+          }
+        },
+        "35": {
+          "n": 35,
+          "page": 3,
+          "q": "The Diet is the Parliament of:",
+          "opts": {
+            "a": "Malaysia",
+            "b": "Canada",
+            "c": "China",
+            "d": "Japan"
+          }
+        },
+        "36": {
+          "n": 36,
+          "page": 3,
+          "q": "The capital of Libya is:",
+          "opts": {
+            "a": "Belgrade",
+            "b": "Abuja",
+            "c": "Havana",
+            "d": "Tripoli"
+          }
+        },
+        "37": {
+          "n": 37,
+          "page": 3,
+          "q": "The currency of Thailand is the:",
+          "opts": {
+            "a": "Dollar",
+            "b": "Baht",
+            "c": "Takka",
+            "d": "Pound"
+          }
+        },
+        "38": {
+          "n": 38,
+          "page": 3,
+          "q": "The Santosh Trophy is associated with which sport?",
+          "opts": {
+            "a": "Badminton",
+            "b": "Cricket",
+            "c": "Hockey",
+            "d": "Football"
+          }
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "Who is called the “Father of Geometry”?",
+          "opts": {
+            "a": "Galileo",
+            "b": "Aristotle",
+            "c": "Euclid",
+            "d": "Archimedes"
+          }
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "The oldest football tournament in India is the:",
+          "opts": {
+            "a": "Durand Cup",
+            "b": "IFA Shield",
+            "c": "Rovers Cup",
+            "d": "Davis Cup"
+          }
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "q": "Who was known as the “Lady of the Lamp”?",
+          "opts": {
+            "a": "Florence Nightingale",
+            "b": "Sarojini Naidu",
+            "c": "Razia Sultan",
+            "d": "Mother Teresa"
+          }
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "q": "Who was known as the “Man of Destiny”?",
+          "opts": {
+            "a": "Hitler",
+            "b": "Stalin",
+            "c": "Napoleon",
+            "d": "Mahatma Gandhi"
+          }
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "q": "Which is a unit used to express computer memory?",
+          "opts": {
+            "a": "Bus",
+            "b": "Byte",
+            "c": "CAD",
+            "d": "Compiler"
+          }
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "q": "What is known as the “brain of the computer”?",
+          "opts": {
+            "a": "CPU",
+            "b": "Input unit",
+            "c": "Control Unit",
+            "d": "Arithmetic unit"
+          }
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "q": "What is the minimum age required to be eligible for election to the Rajya Sabha?",
+          "opts": {
+            "a": "21 years",
+            "b": "25 years",
+            "c": "30 years",
+            "d": "35 years"
+          }
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "q": "The line demarcating the boundary between India and Pakistan is the:",
+          "opts": {
+            "a": "Durand Line",
+            "b": "McMahon Line",
+            "c": "Radcliffe Line",
+            "d": "Maginot Line"
+          }
+        },
+        "47": {
+          "n": 47,
+          "page": 4,
+          "q": "Jawaharlal Nehru University is situated in:",
+          "opts": {
+            "a": "Agra",
+            "b": "Pune",
+            "c": "Dehradun",
+            "d": "New Delhi"
+          }
+        },
+        "48": {
+          "n": 48,
+          "page": 4,
+          "q": "The quorum of Parliament is fixed at:",
+          "opts": {
+            "a": "One-tenth of the membership of the House",
+            "b": "One-third of the membership of the House",
+            "c": "One-half of the membership of the House",
+            "d": "Four-fifths of the membership of the House"
+          }
+        },
+        "49": {
+          "n": 49,
+          "page": 4,
+          "q": "The judges of the Supreme Court are appointed by the:",
+          "opts": {
+            "a": "Prime Minister of India",
+            "b": "Speaker of the Lok Sabha",
+            "c": "President of India",
+            "d": "Chief Justice of India"
+          }
+        },
+        "50": {
+          "n": 50,
+          "page": 4,
+          "q": "How often is the Finance Commission constituted in India?",
+          "opts": {
+            "a": "Only once",
+            "b": "Once every year",
+            "c": "Every five years",
+            "d": "After every ten years"
+          }
+        },
+        "51": {
+          "n": 51,
+          "page": 4,
+          "q": "Which country is not in Europe?",
+          "opts": {
+            "a": "Holland",
+            "b": "Belgium",
+            "c": "Lebanon",
+            "d": "Sweden"
+          }
+        },
+        "52": {
+          "n": 52,
+          "page": 4,
+          "q": "Cuba is nicknamed the:",
+          "opts": {
+            "a": "Cockpit of Europe",
+            "b": "Hermit Kingdom",
+            "c": "Land of the Golden Fleece",
+            "d": "Sugar Bowl of the World"
+          }
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "q": "OPEC stands for:",
+          "opts": {
+            "a": "Oil Producing European Countries",
+            "b": "Organization of the Petroleum Exporting Countries",
+            "c": "Oil and Petroleum Exploring Countries",
+            "d": "Organization of Pacific Exploring Countries"
+          }
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "q": "When day and night are of equal length around September 23, the event is called an:",
+          "opts": {
+            "a": "Equinox",
+            "b": "Occultation",
+            "c": "Veering",
+            "d": "Aphelion"
+          }
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "q": "The imaginary lines running from North to South are called:",
+          "opts": {
+            "a": "Latitudes",
+            "b": "Longitudes",
+            "c": "Parallels",
+            "d": "Altitudes"
+          }
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "q": "Which atmospheric layer is most important for human beings?",
+          "opts": {
+            "a": "Troposphere",
+            "b": "Thermosphere",
+            "c": "Stratosphere",
+            "d": "Atmosphere"
+          }
+        },
+        "57": {
+          "n": 57,
+          "page": 5,
+          "q": "The Lepcha people are mostly found in which Indian State?",
+          "opts": {
+            "a": "Assam",
+            "b": "Arunachal Pradesh",
+            "c": "Sikkim",
+            "d": "Jammu and Kashmir"
+          }
+        },
+        "58": {
+          "n": 58,
+          "page": 5,
+          "q": "“Father of History” is the name given to:",
+          "opts": {
+            "a": "Herodotus",
+            "b": "Megasthenes",
+            "c": "John Ray",
+            "d": "Ibn Battuta"
+          }
+        },
+        "59": {
+          "n": 59,
+          "page": 5,
+          "q": "Who is the most recent recipient of the AIFF Indian Men’s Footballer of the Year Award?",
+          "opts": {
+            "a": "Lalchungnunga",
+            "b": "Lallianzuala Chhangte",
+            "c": "Lalengmawia Ralte",
+            "d": "Jeje Lalpekhlua"
+          }
+        },
+        "60": {
+          "n": 60,
+          "page": 5,
+          "q": "Mr. Lalbiakzama, Speaker of the 9th Mizoram Legislative Assembly, was elected from which constituency?",
+          "opts": {
+            "a": "Lengteng",
+            "b": "Chalfilh",
+            "c": "Hrangturzo",
+            "d": "Tuikum"
+          }
+        },
+        "61": {
+          "n": 61,
+          "page": 5,
+          "q": "Ebrahim Raisi, who was killed in a helicopter crash in May 2024, was the President of:",
+          "opts": {
+            "a": "Iran",
+            "b": "Ireland",
+            "c": "Iraq",
+            "d": "Vietnam"
+          }
+        },
+        "62": {
+          "n": 62,
+          "page": 5,
+          "q": "Which team won the 9th ICC Men’s T20 World Cup by defeating South Africa?",
+          "opts": {
+            "a": "Afghanistan",
+            "b": "India",
+            "c": "Australia",
+            "d": "New Zealand"
+          }
+        },
+        "63": {
+          "n": 63,
+          "page": 5,
+          "q": "Who was elected as the new President of the European Council in 2024?",
+          "opts": {
+            "a": "Charles Michel",
+            "b": "Herman Van Rompuy",
+            "c": "António Costa",
+            "d": "Ursula von der Leyen"
+          }
+        },
+        "64": {
+          "n": 64,
+          "page": 5,
+          "q": "Who was awarded the PEN Pinter Prize in 2024?",
+          "opts": {
+            "a": "Vikram Seth",
+            "b": "Neelam Saxena",
+            "c": "Vikram Singh",
+            "d": "Arundhati Roy"
+          }
+        },
+        "65": {
+          "n": 65,
+          "page": 5,
+          "q": "Pema Khandu became Chief Minister of which State?",
+          "opts": {
+            "a": "Arunachal Pradesh",
+            "b": "Assam",
+            "c": "Sikkim",
+            "d": "Tripura"
+          }
+        },
+        "66": {
+          "n": 66,
+          "page": 5,
+          "q": "What is the causative agent of African swine fever?",
+          "opts": {
+            "a": "Bacteria",
+            "b": "Fungus",
+            "c": "Virus",
+            "d": "Protozoa"
+          }
+        },
+        "80": {
+          "n": 80,
+          "page": 6,
+          "q": "Which city is called the “Pink City”?",
+          "opts": {
+            "a": "Jaipur",
+            "b": "Kolkata",
+            "c": "Bengaluru",
+            "d": "Bhopal"
+          }
+        },
+        "81": {
+          "n": 81,
+          "page": 6,
+          "q": "Miss Universe 2024 is from which country?",
+          "opts": {
+            "a": "Nigeria",
+            "b": "Thailand",
+            "c": "Mexico",
+            "d": "Denmark"
+          }
+        },
+        "82": {
+          "n": 82,
+          "page": 6,
+          "q": "Who was the first Indian cosmonaut to go into space?",
+          "opts": {
+            "a": "Vikram Sarabhai",
+            "b": "Sunita Williams",
+            "c": "Rakesh Sharma",
+            "d": "Kalpana Chawla"
+          }
+        },
+        "83": {
+          "n": 83,
+          "page": 6,
+          "q": "Who was the first Indian to receive the Bharat Ratna Award?",
+          "opts": {
+            "a": "C. V. Raman",
+            "b": "Jawaharlal Nehru",
+            "c": "C. Rajagopalachari",
+            "d": "S. Radhakrishnan"
+          },
+          "unscored": true,
+          "explanation": "The first Bharat Ratna awards were jointly given in 1954 to C. V. Raman, C. Rajagopalachari and S. Radhakrishnan. Three listed options are correct; hold the item."
+        },
+        "84": {
+          "n": 84,
+          "page": 6,
+          "q": "Who was the first Muslim President of the Indian Republic?",
+          "opts": {
+            "a": "Dr. Zakir Hussain",
+            "b": "F. A. Ahmed",
+            "c": "Dr. A. P. J. Abdul Kalam",
+            "d": "M. Hidayatullah"
+          }
+        },
+        "85": {
+          "n": 85,
+          "page": 6,
+          "q": "Which States share a border with Mizoram?",
+          "opts": {
+            "a": "Assam, Meghalaya and Tripura",
+            "b": "Assam, Arunachal Pradesh and Tripura",
+            "c": "Assam, Manipur and Meghalaya",
+            "d": "Assam, Tripura and Manipur"
+          }
+        },
+        "86": {
+          "n": 86,
+          "page": 6,
+          "q": "Which three Mizoram districts became operational after June 2019?",
+          "opts": {
+            "a": "Hnahthial, Lawngtlai and Saitual",
+            "b": "Khawzawl, Hnahthial and Saitual",
+            "c": "Hnahthial, Saitual and Mamit",
+            "d": "Serchhip, Khawzawl and Hnahthial"
+          }
+        },
+        "87": {
+          "n": 87,
+          "page": 6,
+          "q": "Who was the first Mizo woman awarded the Padma Shri in literature?",
+          "opts": {
+            "a": "Nuchhungi",
+            "b": "Lalsangzuali Sailo",
+            "c": "Buangi Sailo",
+            "d": "Khawlkungi"
+          }
+        },
+        "88": {
+          "n": 88,
+          "page": 6,
+          "q": "Which Article of the Indian Constitution gives special provision for Mizoram?",
+          "opts": {
+            "a": "3471C",
+            "b": "571D",
+            "c": "662B",
+            "d": "371G"
+          }
+        },
+        "89": {
+          "n": 89,
+          "page": 6,
+          "q": "In which category did Mr. Sangthankima win the Padma Shri Award?",
+          "opts": {
+            "a": "Social Work",
+            "b": "Arts",
+            "c": "Literature",
+            "d": "Trade and Industry"
+          }
+        },
+        "90": {
+          "n": 90,
+          "page": 6,
+          "q": "Which district has the largest area in Mizoram?",
+          "opts": {
+            "a": "Aizawl",
+            "b": "Lunglei",
+            "c": "Champhai",
+            "d": "Mamit"
+          }
+        },
+        "91": {
+          "n": 91,
+          "page": 6,
+          "q": "Who is the only recipient of the Padma Bhushan Award from Mizoram?",
+          "opts": {
+            "a": "Rev. Zairema",
+            "b": "Rev. Chuauthuama",
+            "c": "Prof. Darchhawna",
+            "d": "Capt. L. Z. Sailo"
+          }
+        },
+        "92": {
+          "n": 92,
+          "page": 6,
+          "q": "In which district is Pukzing Cave located?",
+          "opts": {
+            "a": "Mamit",
+            "b": "Siaha",
+            "c": "Aizawl",
+            "d": "Kolasib"
+          }
+        },
+        "93": {
+          "n": 93,
+          "page": 6,
+          "q": "The Tu(i)t River is a tributary of the:",
+          "opts": {
+            "a": "Tlawng River",
+            "b": "Chhimtuipui River",
+            "c": "Tuirial River",
+            "d": "Tuivawl River"
+          }
+        },
+        "94": {
+          "n": 94,
+          "page": 7,
+          "q": "Books and authors are given below. Which combination is correct?\nA. Sihlipui — Romuanpuii Zadeng\nB. Rintei Zunleng — Lalrammawia Ngente\nC. Bible leh Science — C. Laizawna\nD. Anita — P. C. Biaksiama",
+          "opts": {
+            "a": "Only A",
+            "b": "A and B",
+            "c": "C and D",
+            "d": "A, C and D"
+          }
+        },
+        "95": {
+          "n": 95,
+          "page": 7,
+          "q": "Mr. C. Lalrambuatsaiha, recently re-elected President of the Mizo Journalists Association, is the editor of which newspaper?",
+          "opts": {
+            "a": "Youth Herald",
+            "b": "The Aizawl Post",
+            "c": "The Mizoram Post",
+            "d": "Times of Mizoram"
+          }
+        },
+        "96": {
+          "n": 96,
+          "page": 7,
+          "q": "Which is the latest MAL Book of the Year listed in this paper?",
+          "opts": {
+            "a": "Pangparhnima",
+            "b": "Daidanna Bang Phena Thuruk",
+            "c": "Hniak Hlu",
+            "d": "Raltiang Rimawi"
+          }
+        },
+        "97": {
+          "n": 97,
+          "page": 7,
+          "q": "According to Mizo history, which sacrifice was made to enhance paddy cultivation in the village?",
+          "opts": {
+            "a": "Arkhal",
+            "b": "Daibawl",
+            "c": "Kel khal",
+            "d": "Fano dawi"
+          }
+        },
+        "98": {
+          "n": 98,
+          "page": 7,
+          "q": "What was the name of the cyclone that hit North-East India and caused heavy rainfall in Mizoram during May 2024?",
+          "opts": {
+            "a": "Cyclone Fani",
+            "b": "Cyclone Remal",
+            "c": "Cyclone Hikka",
+            "d": "Cyclone Maha"
+          }
+        },
+        "99": {
+          "n": 99,
+          "page": 7,
+          "q": "Which Aizawl Municipal Corporation ward had a corporator by-election in June 2024?",
+          "opts": {
+            "a": "Ward No. XIV",
+            "b": "Ward No. XVI",
+            "c": "Ward No. XIX",
+            "d": "Ward No. XVIII"
+          }
+        },
+        "100": {
+          "n": 100,
+          "page": 7,
+          "q": "In the Mizo language, what is the name for the month of August?",
+          "opts": {
+            "a": "Vau thla",
+            "b": "Thla zing",
+            "c": "Sahmulphah thla",
+            "d": "Thitin"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "The first successful test explosion of an atomic bomb (the Trinity test) took place in July 1945."
+        },
+        "2": {
+          "answerIndex": 3,
+          "explanation": "The Constitution was adopted in 1949 and came into force on 26 January 1950."
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "RMSA was the Rashtriya Madhyamik Shiksha Abhiyan, a national programme for secondary education."
+        },
+        "5": {
+          "answerIndex": 2,
+          "explanation": "Indian Christian tradition associates the introduction of Christianity in India with St. Thomas, who is said to have arrived in the first century CE."
+        },
+        "6": {
+          "answerIndex": 0,
+          "explanation": "India Standard Time is UTC+5:30, so it is 5½ hours ahead of Greenwich Mean Time."
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "Earth completes one orbit around the Sun in about 365¼ days; the extra fraction is why leap years are needed."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "SIM means Subscriber Identity Module, the card/module that identifies a mobile subscriber to a network."
+        },
+        "9": {
+          "answerIndex": 2,
+          "explanation": "Korea has long been called the “Land of the Morning Calm.”"
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "Oslo is the capital of Norway."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "Madhya Pradesh is commonly called the heart of India because of its central location."
+        },
+        "12": {
+          "answerIndex": 3,
+          "explanation": "Keoladeo Ghana National Park at Bharatpur is renowned for its birdlife and is a major bird sanctuary."
+        },
+        "13": {
+          "answerIndex": 1,
+          "explanation": "Mahatma Gandhi was assassinated on 30 January 1948."
+        },
+        "14": {
+          "answerIndex": 0,
+          "explanation": "Japan’s currency is the yen."
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "War and Peace is the historical novel by Russian author Leo Tolstoy."
+        },
+        "16": {
+          "answerIndex": 2,
+          "explanation": "Article 356 provides for President’s Rule when a State government cannot be carried on in accordance with the Constitution."
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "Articles 25–28 protect freedom of conscience and the freedom to profess, practise and propagate religion, subject to the Constitution."
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "Fundamental Rights are set out in Part III of the Constitution."
+        },
+        "19": {
+          "answerIndex": 2,
+          "explanation": "The Directive Principles of State Policy were inspired by the Constitution of Ireland."
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "The World Health Organization is headquartered in Geneva, Switzerland."
+        },
+        "21": {
+          "answerIndex": 3,
+          "explanation": "The UN has six official languages: Arabic, Chinese, English, French, Russian and Spanish; Italian is not one of them."
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "The Security Council has five permanent members: China, France, Russia, the United Kingdom and the United States."
+        },
+        "23": {
+          "answerIndex": 1,
+          "explanation": "Rainwater is the conventional answer among these natural water sources because it begins as evaporated and condensed water. It can still collect pollutants while falling, so it is not chemically pure in every setting."
+        },
+        "24": {
+          "answerIndex": 0,
+          "explanation": "Entomology is the branch of biology concerned with insects."
+        },
+        "25": {
+          "answerIndex": 0,
+          "explanation": "The liver is the largest gland in the human body."
+        },
+        "26": {
+          "answerIndex": 2,
+          "explanation": "Hepatitis is inflammation of the liver, so the liver is the organ primarily affected."
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "A fathometer uses sound waves to measure water depth."
+        },
+        "28": {
+          "answerIndex": 1,
+          "explanation": "Oncology is the branch of medicine concerned with cancer."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "A light-year measures distance: it is how far light travels in one year."
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "Acid rain forms mainly when air pollutants such as sulfur dioxide and nitrogen oxides react with water in the atmosphere."
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "Alfred Nobel invented dynamite and patented it in 1867."
+        },
+        "32": {
+          "answerIndex": 3,
+          "explanation": "Sunlight takes about 8 minutes 20 seconds to travel from the Sun to Earth; eight minutes is the closest option."
+        },
+        "34": {
+          "answerIndex": 3,
+          "explanation": "Rabindranath Tagore became the first Indian Nobel laureate when he received the 1913 Nobel Prize in Literature."
+        },
+        "35": {
+          "answerIndex": 3,
+          "explanation": "Japan’s national legislature is called the National Diet."
+        },
+        "36": {
+          "answerIndex": 3,
+          "explanation": "Tripoli is the capital of Libya."
+        },
+        "37": {
+          "answerIndex": 1,
+          "explanation": "Thailand’s currency is the baht."
+        },
+        "38": {
+          "answerIndex": 3,
+          "explanation": "The Santosh Trophy is an Indian domestic football competition."
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "Euclid’s Elements shaped classical geometry, and Euclid is traditionally called the Father of Geometry."
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "The Durand Cup, founded in 1888, is India’s oldest football tournament."
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "Florence Nightingale became known as the “Lady of the Lamp” for tending wounded soldiers at night during the Crimean War."
+        },
+        "42": {
+          "answerIndex": 2,
+          "explanation": "“Man of Destiny” is a well-established epithet for Napoleon Bonaparte."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "A byte is a standard unit for measuring digital memory and data."
+        },
+        "44": {
+          "answerIndex": 0,
+          "explanation": "The CPU carries out instructions and coordinates computer operations, which is why it is often called the computer’s brain."
+        },
+        "45": {
+          "answerIndex": 2,
+          "explanation": "A person must be at least 30 years old to be elected to the Rajya Sabha."
+        },
+        "46": {
+          "answerIndex": 2,
+          "explanation": "The Radcliffe Line was drawn in 1947 to demarcate the boundary between India and Pakistan."
+        },
+        "47": {
+          "answerIndex": 3,
+          "explanation": "Jawaharlal Nehru University is in New Delhi."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "Article 100(3) sets the quorum for either House of Parliament at one-tenth of its total membership."
+        },
+        "49": {
+          "answerIndex": 2,
+          "explanation": "The President formally appoints Supreme Court judges under Article 124, following the constitutional appointment process."
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "The Constitution requires a Finance Commission to be constituted every five years, or earlier if needed."
+        },
+        "51": {
+          "answerIndex": 2,
+          "explanation": "Lebanon is in West Asia, not Europe."
+        },
+        "52": {
+          "answerIndex": 3,
+          "explanation": "Cuba has historically been nicknamed the “Sugar Bowl of the World” because of its sugar production."
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "OPEC is the Organization of the Petroleum Exporting Countries."
+        },
+        "54": {
+          "answerIndex": 0,
+          "explanation": "An equinox occurs when the Sun crosses the celestial equator and day and night are nearly equal in length."
+        },
+        "55": {
+          "answerIndex": 1,
+          "explanation": "Lines of longitude run from the North Pole to the South Pole; lines of latitude run east–west."
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "The troposphere is the lowest atmospheric layer, where people live and most weather occurs."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "The Lepcha people are concentrated mainly in Sikkim."
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "The Greek historian Herodotus is traditionally called the “Father of History.”"
+        },
+        "59": {
+          "answerIndex": 1,
+          "explanation": "Lallianzuala Chhangte won the AIFF Men’s Player of the Year award for 2023–24, announced in July 2024."
+        },
+        "60": {
+          "answerIndex": 1,
+          "explanation": "Mizoram Assembly records show Speaker Lalbiakzama was elected from Chalfilh constituency."
+        },
+        "61": {
+          "answerIndex": 0,
+          "explanation": "Ebrahim Raisi was President of Iran until his death in a helicopter crash in May 2024."
+        },
+        "62": {
+          "answerIndex": 1,
+          "explanation": "India defeated South Africa in the final to win the 2024 ICC Men’s T20 World Cup."
+        },
+        "63": {
+          "answerIndex": 2,
+          "explanation": "António Costa was elected President of the European Council in June 2024 and took office that December."
+        },
+        "64": {
+          "answerIndex": 3,
+          "explanation": "Arundhati Roy received the 2024 PEN Pinter Prize."
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "Pema Khandu is Chief Minister of Arunachal Pradesh."
+        },
+        "66": {
+          "answerIndex": 2,
+          "explanation": "African swine fever is caused by African swine fever virus, a large DNA virus."
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "Jaipur’s old city is known as the Pink City."
+        },
+        "81": {
+          "answerIndex": 3,
+          "explanation": "Denmark’s Victoria Kjær Theilvig won Miss Universe 2024."
+        },
+        "82": {
+          "answerIndex": 2,
+          "explanation": "Rakesh Sharma became the first Indian citizen to travel into space in 1984 aboard Soyuz T-11."
+        },
+        "84": {
+          "answerIndex": 0,
+          "explanation": "Dr. Zakir Hussain was the first Muslim President of the Republic of India."
+        },
+        "85": {
+          "answerIndex": 3,
+          "explanation": "Mizoram shares State borders with Assam, Tripura and Manipur."
+        },
+        "86": {
+          "answerIndex": 1,
+          "explanation": "Khawzawl, Hnahthial and Saitual districts became operational in June 2019."
+        },
+        "87": {
+          "answerIndex": 0,
+          "explanation": "Nuchhungi Renthlei was the first Mizo woman to receive the Padma Shri for her literary work."
+        },
+        "88": {
+          "answerIndex": 3,
+          "explanation": "Article 371G provides special constitutional provisions for Mizoram."
+        },
+        "89": {
+          "answerIndex": 0,
+          "explanation": "The Government of India lists Sangthankima’s Padma Shri field as Social Work."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "Lunglei is the largest district of Mizoram by area."
+        },
+        "91": {
+          "answerIndex": 3,
+          "explanation": "Capt. L. Z. Sailo is identified as Mizoram’s sole Padma Bhushan recipient."
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "Pukzing Cave is near Pukzing village in Mamit district."
+        },
+        "93": {
+          "answerIndex": 0,
+          "explanation": "The Tut (Tlawng) River joins the Tlawng River system."
+        },
+        "94": {
+          "answerIndex": 1,
+          "explanation": "A and B are correctly matched: Sihlipui is by Romuanpuii Zadeng and Rintei Zunleng by Lalrammawia Ngente. The other two authors are reversed/mismatched."
+        },
+        "95": {
+          "answerIndex": 1,
+          "explanation": "Mizoram government journalist records identify C. Lalrambuatsaiha as editor of The Aizawl Post."
+        },
+        "96": {
+          "answerIndex": 0,
+          "explanation": "At the time of this November 2024 paper, Pangparhnima (Ahmangaihi Khiangte) was MAL Book of the Year announced in 2024 for books published in 2023."
+        },
+        "97": {
+          "answerIndex": 3,
+          "explanation": "Fano dawi was a village sacrifice for agricultural fertility and the protection and prosperity of crops."
+        },
+        "98": {
+          "answerIndex": 1,
+          "explanation": "Cyclone Remal struck the Bay of Bengal region in late May 2024 and brought heavy rain to parts of the North-East, including Mizoram."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "The Aizawl Municipal Corporation held the June 2024 corporator by-election for Ward XIX."
+        },
+        "100": {
+          "answerIndex": 3,
+          "explanation": "Thitin is the Mizo name for August, traditionally associated with the month of the dead."
+        }
+      }
     }
   }
 }

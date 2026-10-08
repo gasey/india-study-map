@@ -204,6 +204,12 @@ def build_additional():
             # Printed cover: 100 one-mark questions in two hours, no negative marking.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'steno-2024-gk' and repairs.get(slug, {}).get('derivedAnswers'):
+            # The source PDF has 100 questions, one mark each, in three hours.
+            # Printed page 6 (Q67–79) is missing, so this remains partial review.
+            entry['expectedMcq'] = 100
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'mvi-2025-p2' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,

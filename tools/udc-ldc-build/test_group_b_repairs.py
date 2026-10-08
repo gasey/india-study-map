@@ -188,6 +188,22 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 101)) - {14, 32, 47, 51, 55, 56, 84, 98, 100})
         self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
 
+    def test_steno_2024_gk_reviews_visible_pages_and_preserves_missing_page(self):
+        extracted = json.loads((HERE / 'extracted/steno-2024-gk.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['steno-2024-gk']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        expected = set(range(1, 67)) | set(range(80, 101))
+        self.assertEqual(reviewed, expected)
+        self.assertEqual({q['n'] for q in result['questions']}, expected)
+        self.assertEqual(len(result['questions']), 87)
+        self.assertEqual({int(n) for n in repair['derivedAnswers']}, expected - {4, 33, 83})
+        self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
+        by_number = {q['n']: q for q in result['questions']}
+        self.assertTrue(all(by_number[n]['unscored'] for n in (4, 33, 83)))
+        self.assertEqual(result['questions'][-7]['opts']['b'], 'A and B')
+        self.assertTrue(repair['partialReview'])
+        self.assertIn('Q67–79 are absent', repair['evidence'])
+
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'
         with self.assertRaisesRegex(AssertionError, 'Stale'):

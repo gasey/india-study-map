@@ -64325,17 +64325,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "British",
       "French"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Portuguese navigators established the earliest enduring European settlements on the Indian coast, beginning with their arrival at Calicut in 1498 and subsequent settlements.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q62",
@@ -64353,17 +64351,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Use of Indian Goods",
       "Education reforms"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Swadeshi movement promoted boycotting foreign goods and using goods made in India.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q63",
@@ -64381,17 +64377,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Climatology",
       "Pedology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Pedology is the study of soils as natural bodies, including their formation and properties.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q64",
@@ -64402,24 +64396,22 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The incomming solar radiation from the sun which is received in short wave is known as:",
+    "question": "The incoming solar radiation from the Sun, received as short-wave radiation, is known as:",
     "options": [
       "Insolation",
       "Albedo",
       "Terrestrial radiation",
       "Atmospheric wave"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Incoming short-wave solar radiation received by Earth is called insolation. The printed “incomming” spelling is corrected.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q65",
@@ -64437,14 +64429,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Approximately 35 percent",
       "Approximately 40 percent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Asia covers about 44.6 million km² of Earth’s roughly 149 million km² of land, or approximately 30%.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q66",
@@ -64462,17 +64455,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Rivers",
       "Islands"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "An archipelago is a group or chain of islands.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q67",
@@ -64490,17 +64481,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Uttar Pradesh",
       "Madhya Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Uttar Pradesh does not border Gujarat; Rajasthan, Maharashtra and Madhya Pradesh do.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q68",
@@ -64513,22 +64502,20 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Which of the following is taken as the Standard Meridian of India?",
     "options": [
-      "80°E 30E",
-      "82°E 30E",
-      "84°E 30E",
-      "86°E 30E"
+      "80°30′ E",
+      "82°30′ E",
+      "84°30′ E",
+      "86°30′ E"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India’s Standard Meridian is 82°30′ E. The scanned options split the degree and minute marks and repeat the E; they are normalized to clear longitude notation.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q69",
@@ -64546,17 +64533,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "3 years, 11 months and 17 days",
       "3 years, 9 months and 17 days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Constituent Assembly took 2 years, 11 months and 18 days to frame the Constitution, from its first meeting to adoption.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q70",
@@ -64574,17 +64559,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "6",
       "8"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Six states have bicameral legislatures: Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana and Uttar Pradesh.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q71",
@@ -64602,17 +64585,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "The Chief Justice of India",
       "The Law Commission"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Parliament may by law increase the number of Supreme Court judges; Article 124(1) provides this power.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q72",
@@ -64630,17 +64611,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Article 21",
       "Article 22"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Supreme Court has held that choosing a spouse is part of personal liberty and autonomy protected by Article 21.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q73",
@@ -64658,17 +64637,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Prime Minister",
       "Leader of Opposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Vice-President of India is the ex-officio Chairperson of the Rajya Sabha.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q74",
@@ -64686,17 +64663,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Article 131",
       "Article 226"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Article 32 empowers the Supreme Court to issue writs for enforcement of Fundamental Rights.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q75",
@@ -64707,24 +64682,22 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Which document first defined sustainable development?",
+    "question": "Which report contains the widely used definition of sustainable development?",
     "options": [
       "Paris Agreement",
       "Brundtland Report",
       "Kyoto Protocol",
       "Salamanca Declaration"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Brundtland Report (Our Common Future, 1987) contains the widely used definition of sustainable development. The question is clarified from “first defined,” since the concept and earlier formulations predate that report.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q76",
@@ -64742,17 +64715,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "NABARD",
       "SIDBI"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "NABARD is India’s apex development bank for agriculture and rural development, including refinancing agricultural and rural credit.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q77",
@@ -64770,17 +64741,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Skill development",
       "Health insurance"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pradhan Mantri Jan-Dhan Yojana is a financial-inclusion programme designed to expand access to basic banking and related services.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q78",
@@ -64798,17 +64767,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Chronic poor",
       "Churning poor"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Small farmers and seasonal workers may experience temporary income shortfalls and move in and out of poverty; this is the transient-poor category in the typology used by the question.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q79",
@@ -64826,17 +64793,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Periodic patta",
       "Government assigned patta"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A land ceiling law fixes the maximum area of land that an individual or household may own.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q80",
@@ -64854,17 +64819,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "World Economic Forum",
       "Asian Bank"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The World Economic Forum published the Inclusive Development Index, including its 2018 edition.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q81",

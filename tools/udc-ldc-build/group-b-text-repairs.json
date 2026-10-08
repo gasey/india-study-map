@@ -16112,7 +16112,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Group B technical common examination under Health & Family Welfare, January 2026, Paper-II (General Studies). Q1–20 were checked against the printed cover and pages 1–2; all numbered stems, option wording and four-option sets were compared with the scan. The cover specifies 100 one-mark questions and two hours, with no negative-marking instruction. Nineteen answers have independently derived explanations. Q14 is held because “within India’s boundary” can refer to India’s claimed boundary (K2) or territory under Indian administration (Kangchenjunga), and the stem does not specify which. Questions 21–40 were checked against printed pages 2–4; stems, numbering and all options were verified. All twenty have independently derived explanations. Q24 is clarified to distinguish Presidential assent (15 June) from the Act coming into force (12 October). Questions 41–60 were checked against printed pages 4–6; all stems and option sets were checked for completeness and legibility. All twenty have independently derived explanations. Q44’s expected season was checked against the Lai District Government’s festival description; Q52’s award was checked against the Urban Mobility India award record.",
+      "evidence": "Group B technical common examination under Health & Family Welfare, January 2026, Paper-II (General Studies). Q1–20 were checked against the printed cover and pages 1–2; all numbered stems, option wording and four-option sets were compared with the scan. The cover specifies 100 one-mark questions and two hours, with no negative-marking instruction. Nineteen answers have independently derived explanations. Q14 is held because “within India’s boundary” can refer to India’s claimed boundary (K2) or territory under Indian administration (Kangchenjunga), and the stem does not specify which. Questions 21–40 were checked against printed pages 2–4; stems, numbering and all options were verified. All twenty have independently derived explanations. Q24 is clarified to distinguish Presidential assent (15 June) from the Act coming into force (12 October). Questions 41–60 were checked against printed pages 4–6; all stems and option sets were checked for completeness and legibility. All twenty have independently derived explanations. Q44’s expected season was checked against the Lai District Government’s festival description; Q52’s award was checked against the Urban Mobility India award record. Questions 61–80 were checked against printed pages 6–7; all stems, numbering and options were checked. All twenty have independently derived explanations. Q64 spelling and Q68 longitude typography/options were corrected for readability; Q75 was clarified because the phrase “first defined” was historically imprecise, while the Brundtland Report contains the widely used definition.",
       "questions": {
         "1": {
           "n": 1,
@@ -17496,6 +17496,466 @@
           "ambiguous": [],
           "q": "Patanjali is known for the compilation of which book?",
           "multi": false
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Dutch",
+            "b": "Portuguese",
+            "c": "British",
+            "d": "French"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which European power first established settlements in India?",
+          "multi": false
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Use of foreign goods",
+            "b": "Industrialization only",
+            "c": "Use of Indian Goods",
+            "d": "Education reforms"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Swadeshi movement encouraged:",
+          "multi": false
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Geomorphology",
+            "b": "Biogeography",
+            "c": "Climatology",
+            "d": "Pedology"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the study of soils in their natural environment called?",
+          "multi": false
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Insolation",
+            "b": "Albedo",
+            "c": "Terrestrial radiation",
+            "d": "Atmospheric wave"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The incoming solar radiation from the Sun, received as short-wave radiation, is known as:",
+          "multi": false
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Approximately 25 percent",
+            "b": "Approximately 30 percent",
+            "c": "Approximately 35 percent",
+            "d": "Approximately 40 percent"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How many percent of the Earth area belong to Asia?",
+          "multi": false
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Lakes",
+            "b": "Mountains",
+            "c": "Rivers",
+            "d": "Islands"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The term archipelago is used for a group of",
+          "multi": false
+        },
+        "67": {
+          "n": 67,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rajasthan",
+            "b": "Maharashtra",
+            "c": "Uttar Pradesh",
+            "d": "Madhya Pradesh"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which among the following is not a neighboring state of Gujarat?",
+          "multi": false
+        },
+        "68": {
+          "n": 68,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "80°30′ E",
+            "b": "82°30′ E",
+            "c": "84°30′ E",
+            "d": "86°30′ E"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is taken as the Standard Meridian of India?",
+          "multi": false
+        },
+        "69": {
+          "n": 69,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "2 years, 11 months and 18 days",
+            "b": "2 years, 9 months and 17 days",
+            "c": "3 years, 11 months and 17 days",
+            "d": "3 years, 9 months and 17 days"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How much time was taken to draft the constitution of Independent India?",
+          "multi": false
+        },
+        "70": {
+          "n": 70,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "2",
+            "b": "4",
+            "c": "6",
+            "d": "8"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How many states of India have bicameral Legislature?",
+          "multi": false
+        },
+        "71": {
+          "n": 71,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "The President of India",
+            "b": "The Parliament",
+            "c": "The Chief Justice of India",
+            "d": "The Law Commission"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The power to increase the number of judges in the Supreme Court of India is vested in:",
+          "multi": false
+        },
+        "72": {
+          "n": 72,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Article 19",
+            "b": "Article 20",
+            "c": "Article 21",
+            "d": "Article 22"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which Article of the Constitution of India safeguards one’s right to marry the person of one’s choice?",
+          "multi": false
+        },
+        "73": {
+          "n": 73,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "President",
+            "b": "Vice President",
+            "c": "Prime Minister",
+            "d": "Leader of Opposition"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the ex-officio Chairman of Rajya Sabha?",
+          "multi": false
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Article 32",
+            "b": "Article 143",
+            "c": "Article 131",
+            "d": "Article 226"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Under which article can the Supreme Court issue a writ?",
+          "multi": false
+        },
+        "75": {
+          "n": 75,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Paris Agreement",
+            "b": "Brundtland Report",
+            "c": "Kyoto Protocol",
+            "d": "Salamanca Declaration"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which report contains the widely used definition of sustainable development?",
+          "multi": false
+        },
+        "76": {
+          "n": 76,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "RBI",
+            "b": "IDBI",
+            "c": "NABARD",
+            "d": "SIDBI"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which one of the following is the apex bank for agricultural credit in India?",
+          "multi": false
+        },
+        "77": {
+          "n": 77,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rural development",
+            "b": "Financial inclusion",
+            "c": "Skill development",
+            "d": "Health insurance"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The PMJDY primarily focuses on which of the following?",
+          "multi": false
+        },
+        "78": {
+          "n": 78,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Always poor",
+            "b": "Transient poor",
+            "c": "Chronic poor",
+            "d": "Churning poor"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Small farmers and seasonal workers typically fall under which types of poor?",
+          "multi": false
+        },
+        "79": {
+          "n": 79,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Land ceiling",
+            "b": "Consolidation of land",
+            "c": "Periodic patta",
+            "d": "Government assigned patta"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Fixing limit of lands to be owned by an individual is",
+          "multi": false
+        },
+        "80": {
+          "n": 80,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "International Monetary Fund",
+            "b": "World Bank",
+            "c": "World Economic Forum",
+            "d": "Asian Bank"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which institution publishes the Inclusive Development Index (IDI)?",
+          "multi": false
         }
       },
       "derivedAnswers": {
@@ -17734,6 +18194,86 @@
         "60": {
           "answerIndex": 1,
           "explanation": "Patanjali is traditionally associated with compiling the Yoga Sutras."
+        },
+        "61": {
+          "answerIndex": 1,
+          "explanation": "Portuguese navigators established the earliest enduring European settlements on the Indian coast, beginning with their arrival at Calicut in 1498 and subsequent settlements."
+        },
+        "62": {
+          "answerIndex": 2,
+          "explanation": "The Swadeshi movement promoted boycotting foreign goods and using goods made in India."
+        },
+        "63": {
+          "answerIndex": 3,
+          "explanation": "Pedology is the study of soils as natural bodies, including their formation and properties."
+        },
+        "64": {
+          "answerIndex": 0,
+          "explanation": "Incoming short-wave solar radiation received by Earth is called insolation. The printed “incomming” spelling is corrected."
+        },
+        "65": {
+          "answerIndex": 1,
+          "explanation": "Asia covers about 44.6 million km² of Earth’s roughly 149 million km² of land, or approximately 30%."
+        },
+        "66": {
+          "answerIndex": 3,
+          "explanation": "An archipelago is a group or chain of islands."
+        },
+        "67": {
+          "answerIndex": 2,
+          "explanation": "Uttar Pradesh does not border Gujarat; Rajasthan, Maharashtra and Madhya Pradesh do."
+        },
+        "68": {
+          "answerIndex": 1,
+          "explanation": "India’s Standard Meridian is 82°30′ E. The scanned options split the degree and minute marks and repeat the E; they are normalized to clear longitude notation."
+        },
+        "69": {
+          "answerIndex": 0,
+          "explanation": "The Constituent Assembly took 2 years, 11 months and 18 days to frame the Constitution, from its first meeting to adoption."
+        },
+        "70": {
+          "answerIndex": 2,
+          "explanation": "Six states have bicameral legislatures: Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana and Uttar Pradesh."
+        },
+        "71": {
+          "answerIndex": 1,
+          "explanation": "Parliament may by law increase the number of Supreme Court judges; Article 124(1) provides this power."
+        },
+        "72": {
+          "answerIndex": 2,
+          "explanation": "The Supreme Court has held that choosing a spouse is part of personal liberty and autonomy protected by Article 21."
+        },
+        "73": {
+          "answerIndex": 1,
+          "explanation": "The Vice-President of India is the ex-officio Chairperson of the Rajya Sabha."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "Article 32 empowers the Supreme Court to issue writs for enforcement of Fundamental Rights."
+        },
+        "75": {
+          "answerIndex": 1,
+          "explanation": "The Brundtland Report (Our Common Future, 1987) contains the widely used definition of sustainable development. The question is clarified from “first defined,” since the concept and earlier formulations predate that report."
+        },
+        "76": {
+          "answerIndex": 2,
+          "explanation": "NABARD is India’s apex development bank for agriculture and rural development, including refinancing agricultural and rural credit."
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "Pradhan Mantri Jan-Dhan Yojana is a financial-inclusion programme designed to expand access to basic banking and related services."
+        },
+        "78": {
+          "answerIndex": 1,
+          "explanation": "Small farmers and seasonal workers may experience temporary income shortfalls and move in and out of poverty; this is the transient-poor category in the typology used by the question."
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "A land ceiling law fixes the maximum area of land that an individual or household may own."
+        },
+        "80": {
+          "answerIndex": 2,
+          "explanation": "The World Economic Forum published the Inclusive Development Index, including its 2018 edition."
         }
       }
     }

@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,466 items: 3,345 MCQs and 121 written prompts.
-2,058 questions are ready for practice, including 1,614 official answers and
-444 independently derived answers. 1,356 items still need source review.
+2,076 questions are ready for practice, including 1,614 official answers and
+462 independently derived answers. 1,338 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -51,7 +51,7 @@ Stenographer Grade-II (MPSC) General English 2025 Part B Q1–40 has been checke
 
 Three disputed AAO key items were independently re-derived: English Q37 uses the standard phrase “tenacious of life” (B), English Q77 means “hamper” (D), and Arithmetic Q75 combines the shared ratio term to give 8:12:15 (D). These answers differ from the final key and now include explanations; multi-answer or malformed items remain held.
 
-Motor Vehicle Inspector Paper-II (General Knowledge), September 2025 Q1–64 is now scan-checked against pages 1–6. Sixty questions have independently derived explanations. Q18 is held because Bose won and was re-elected at two listed sessions; Q28 because “most spoken” does not distinguish native from total speakers; Q32 because its Indus route option is geographically imprecise; and Q47 because both Education and Industries are outside the State List.
+Motor Vehicle Inspector Paper-II (General Knowledge), September 2025 Q1–84 is now scan-checked against pages 1–8. Seventy-eight questions have independently derived explanations. Q18 is held because Bose won and was re-elected at two listed sessions; Q28 because “most spoken” does not distinguish native from total speakers; Q32 because its Indus route option is geographically imprecise; Q47 because both Education and Industries are outside the State List; Q65 because no option names a formal biodiversity hotspot; and Q79 because “highest melting point” does not distinguish metals from non-metals. Q68, Q69, Q70 and Q72 have minimal wording corrections for scientific accuracy and clarity.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

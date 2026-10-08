@@ -13348,7 +13348,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Motor Vehicle Inspector Paper-II (General Knowledge), September 2025: Q1–21 checked against the printed scan, page 1 (Q1–8) and page 2 (Q9–21). Stems, numbering and options were compared with the pages. Twenty items have independently derived answers and explanations; Q18 is held because Bose won and was re-elected at two different listed Congress sessions. No verified official key has been applied. The cover states 100 one-mark questions in two hours; it states no negative-marking rule. Questions 22–44 were checked against printed pages 3–4. Twenty-one answers were independently derived. Q28 is held because “most spoken” does not distinguish native from total speakers; Q32 is held because the printed Indus-route option combines geographic units that do not match the river’s main course under current boundaries. Questions 45–64 were checked against printed pages 5–6. Nineteen answers have independent explanations; Q47 is held because both Education and Industries are outside the State List, leaving two defensible options.",
+      "evidence": "Motor Vehicle Inspector Paper-II (General Knowledge), September 2025: Q1–21 checked against the printed scan, page 1 (Q1–8) and page 2 (Q9–21). Stems, numbering and options were compared with the pages. Twenty items have independently derived answers and explanations; Q18 is held because Bose won and was re-elected at two different listed Congress sessions. No verified official key has been applied. The cover states 100 one-mark questions in two hours; it states no negative-marking rule. Questions 22–44 were checked against printed pages 3–4. Twenty-one answers were independently derived. Q28 is held because “most spoken” does not distinguish native from total speakers; Q32 is held because the printed Indus-route option combines geographic units that do not match the river’s main course under current boundaries. Questions 45–64 were checked against printed pages 5–6. Nineteen answers have independent explanations; Q47 is held because both Education and Industries are outside the State List, leaving two defensible options. Questions 65–84 were checked against printed pages 7–8. Eighteen answers have independently derived explanations. Q65 is held because none of the choices names a formally recognized biodiversity-hotspot region; Q79 is held because tungsten and carbon make the unqualified highest-melting-point question ambiguous. Q68, Q69, Q70 and Q72 were minimally edited to correct category, survey timing, programme name and obsolete timing language.",
       "questions": {
         "1": {
           "n": 1,
@@ -14893,6 +14893,472 @@
           "unscored": true,
           "reviewNote": "Held unscored: both Education and Industries are outside the State List; the question has two correct options.",
           "explanation": "Education is in the Concurrent List, and industries subject to Union control are in the Union List. Both are therefore outside the State List, so options A and B are both defensible. The question is held out of scoring."
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Sahara Desert",
+            "b": "Amazon Rainforest",
+            "c": "Arctic Tundra",
+            "d": "Antarctic Ice"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is a hotspot of biodiversity?",
+          "multi": false,
+          "unscored": true,
+          "reviewNote": "Held unscored: “biodiversity hotspot” is a formal term with defined criteria. None of the listed choices names a formally recognized hotspot region, so the printed choices do not support a defensible answer.",
+          "explanation": "Held unscored: “biodiversity hotspot” is a formal term with defined criteria. None of the listed choices names a formally recognized hotspot region, so the printed choices do not support a defensible answer."
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "A species introduced to a new habitat that causes harm",
+            "b": "A native species that adapts quickly",
+            "c": "A species that migrates seasonally",
+            "d": "A rare endangered species"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "An invasive species is:",
+          "multi": false
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Day-to-day weather changes",
+            "b": "Average weather patterns over a long period",
+            "c": "Sudden weather events",
+            "d": "Seasonal rainfall only"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Climate is best described as:",
+          "multi": false
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Ozone",
+            "b": "Particulate Matter",
+            "c": "Nitrogen Dioxide",
+            "d": "Carbon Dioxide"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which pollutant is not included in India’s National Air Quality Index (NAQI)?",
+          "multi": false
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "2226",
+            "b": "2967",
+            "c": "3682",
+            "d": "3862"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "According to the 2022 All India Tiger Estimation, whose results were released in 2023, how many tigers were estimated in India?",
+          "multi": false
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "12",
+            "b": "16",
+            "c": "18",
+            "d": "23"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How many Biosphere Reserves have been established under India’s national programme?",
+          "multi": false
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Energy only",
+            "b": "Biomass only",
+            "c": "Number and biomass",
+            "d": "Energy and numbers"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following ecological pyramid(s) can exist in both upright and inverted forms depending on the ecosystem?",
+          "multi": false
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "12.4 sq km",
+            "b": "15.7 sq km",
+            "c": "18.5 sq km",
+            "d": "21.3 sq km"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Ramsar-listed Pala Wetland site in Mizoram covers approximately what area?",
+          "multi": false
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Deforestation",
+            "b": "Fossil fuel combustion",
+            "c": "Agriculture",
+            "d": "Waste disposal"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which human activity contributes most to increasing carbon dioxide levels?",
+          "multi": false
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Sulfur dioxide",
+            "b": "Ozone",
+            "c": "Nitric acid",
+            "d": "Peroxyacetyl nitrate"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of these is an example of a primary pollutant?",
+          "multi": false
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Magnetism",
+            "b": "Gravity",
+            "c": "Friction",
+            "d": "Electricity"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What force keeps us on the ground?",
+          "multi": false
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "AB+",
+            "b": "O-",
+            "c": "O+",
+            "d": "AB-"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which blood group is considered the universal donor?",
+          "multi": false
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Pancreas",
+            "b": "Liver",
+            "c": "Thyroid",
+            "d": "Adrenal gland"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which is the largest gland in the human body?",
+          "multi": false
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Plane mirror",
+            "b": "Concave mirror",
+            "c": "Convex mirror",
+            "d": "Cylindrical mirror"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which type of mirror is used in car headlights?",
+          "multi": false
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Tungsten",
+            "b": "Carbon",
+            "c": "Osmium",
+            "d": "Titanium"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which chemical element has the highest melting point?",
+          "multi": false,
+          "unscored": true,
+          "reviewNote": "Held unscored: tungsten has the highest melting point among metals, but carbon sublimes at a higher temperature and is also listed as an element. The unqualified wording therefore allows more than one defensible interpretation.",
+          "explanation": "Held unscored: tungsten has the highest melting point among metals, but carbon sublimes at a higher temperature and is also listed as an element. The unqualified wording therefore allows more than one defensible interpretation."
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Solar",
+            "b": "Wind",
+            "c": "Coal",
+            "d": "Biomass"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which energy source is considered non-renewable?",
+          "multi": false
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Ethylene & Propylene",
+            "b": "Benzene & Toluene",
+            "c": "Ethanol & Propanol",
+            "d": "Methane & Butane"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Polymers are made from which of the following materials?",
+          "multi": false
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Cerebrum",
+            "b": "Cerebellum",
+            "c": "Hypothalamus",
+            "d": "Medulla Oblongata"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which part of the human brain controls balance and coordination?",
+          "multi": false
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Vitamin A",
+            "b": "Vitamin C",
+            "c": "Vitamin D",
+            "d": "Vitamin K"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which Vitamin is essential for blood clotting?",
+          "multi": false
+        },
+        "84": {
+          "n": 84,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "100°F",
+            "b": "212°F",
+            "c": "315°F",
+            "d": "180°F"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the boiling point of water in Fahrenheit?",
+          "multi": false
         }
       },
       "derivedAnswers": {
@@ -15135,6 +15601,78 @@
         "64": {
           "answerIndex": 0,
           "explanation": "Biomagnification is the increase in concentration of a persistent contaminant at successively higher trophic levels in a food chain."
+        },
+        "66": {
+          "answerIndex": 0,
+          "explanation": "An invasive species is introduced outside its native range and causes ecological, economic, or other harm. Mere migration or rarity does not make a species invasive."
+        },
+        "67": {
+          "answerIndex": 1,
+          "explanation": "Climate describes long-term patterns and averages of weather in a region; weather refers to shorter-term conditions."
+        },
+        "68": {
+          "answerIndex": 3,
+          "explanation": "India’s National AQI is calculated from eight pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3 and lead. Carbon dioxide is not on that list. The stem was edited from “gases” to “pollutants,” because particulate matter is not a gas."
+        },
+        "69": {
+          "answerIndex": 2,
+          "explanation": "The 2022 All India Tiger Estimation put India’s tiger population at 3,682; its results were released in 2023. The stem is clarified to distinguish the survey year from the release year."
+        },
+        "70": {
+          "answerIndex": 2,
+          "explanation": "India’s national programme identifies 18 Biosphere Reserves. The printed “Biodiversity Reserves” is not the name of this notified programme, so the stem is corrected to “Biosphere Reserves.”"
+        },
+        "71": {
+          "answerIndex": 2,
+          "explanation": "Pyramids of numbers and biomass can be inverted in some ecosystems. The pyramid of energy is always upright because energy is lost between trophic levels."
+        },
+        "72": {
+          "answerIndex": 2,
+          "explanation": "The Ramsar-listed Pala Wetland site covers about 18.5 km² (1,850 hectares). This is the designated wetland site area, not only the open-water area of Pala Lake; “recently designated” was removed because the listing dates to 2021."
+        },
+        "73": {
+          "answerIndex": 1,
+          "explanation": "Combustion of coal, oil and natural gas releases large amounts of carbon dioxide and is the largest human source among these choices."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "Sulfur dioxide is emitted directly from sources such as fuel combustion, so it is a primary pollutant. Ozone and PAN form in the atmosphere as secondary pollutants."
+        },
+        "75": {
+          "answerIndex": 1,
+          "explanation": "Gravity attracts us toward Earth and keeps us on its surface."
+        },
+        "76": {
+          "answerIndex": 1,
+          "explanation": "O-negative red blood cells lack A, B and Rh(D) antigens, so they are used as the universal red-cell donor type in emergencies. Compatibility still depends on the clinical context."
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "The liver is the body’s largest gland."
+        },
+        "78": {
+          "answerIndex": 1,
+          "explanation": "A concave reflector behind the bulb directs the headlamp beam forward."
+        },
+        "80": {
+          "answerIndex": 2,
+          "explanation": "Coal is a fossil fuel that takes geological time to form, so it is non-renewable on human timescales."
+        },
+        "81": {
+          "answerIndex": 0,
+          "explanation": "Ethylene and propylene are monomers used to make the common polymers polyethylene and polypropylene, respectively."
+        },
+        "82": {
+          "answerIndex": 1,
+          "explanation": "The cerebellum coordinates voluntary movement and helps maintain balance and posture."
+        },
+        "83": {
+          "answerIndex": 3,
+          "explanation": "Vitamin K is required to make several proteins involved in blood coagulation."
+        },
+        "84": {
+          "answerIndex": 1,
+          "explanation": "At standard atmospheric pressure, water boils at 100°C, which is 212°F."
         }
       }
     }

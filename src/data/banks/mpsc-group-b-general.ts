@@ -60830,7 +60830,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Antarctic Ice"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held unscored: “biodiversity hotspot” is a formal term with defined criteria. None of the listed choices names a formally recognized hotspot region, so the printed choices do not support a defensible answer.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
@@ -60839,7 +60839,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held unscored: “biodiversity hotspot” is a formal term with defined criteria. None of the listed choices names a formally recognized hotspot region, so the printed choices do not support a defensible answer."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q66",
@@ -60857,17 +60857,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "A species that migrates seasonally",
       "A rare endangered species"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "An invasive species is introduced outside its native range and causes ecological, economic, or other harm. Mere migration or rarity does not make a species invasive.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q67",
@@ -60885,17 +60883,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Sudden weather events",
       "Seasonal rainfall only"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Climate describes long-term patterns and averages of weather in a region; weather refers to shorter-term conditions.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q68",
@@ -60906,24 +60902,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "The National Air Quality Index (NAQI) does not include which one of the following gases?",
+    "question": "Which pollutant is not included in India’s National Air Quality Index (NAQI)?",
     "options": [
       "Ozone",
       "Particulate Matter",
       "Nitrogen Dioxide",
       "Carbon Dioxide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "India’s National AQI is calculated from eight pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3 and lead. Carbon dioxide is not on that list. The stem was edited from “gases” to “pollutants,” because particulate matter is not a gas.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q69",
@@ -60934,24 +60928,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "As per the latest Tiger Census of 2023, India is estimated to have how many tigers?",
+    "question": "According to the 2022 All India Tiger Estimation, whose results were released in 2023, how many tigers were estimated in India?",
     "options": [
       "2226",
       "2967",
       "3682",
       "3862"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 2022 All India Tiger Estimation put India’s tiger population at 3,682; its results were released in 2023. The stem is clarified to distinguish the survey year from the release year.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q70",
@@ -60962,21 +60954,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "How many Biodiversity Reserves are notified in India?",
+    "question": "How many Biosphere Reserves have been established under India’s national programme?",
     "options": [
       "12",
       "16",
       "18",
       "23"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India’s national programme identifies 18 Biosphere Reserves. The printed “Biodiversity Reserves” is not the name of this notified programme, so the stem is corrected to “Biosphere Reserves.”",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q71",
@@ -60994,17 +60987,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Number and biomass",
       "Energy and numbers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Pyramids of numbers and biomass can be inverted in some ecosystems. The pyramid of energy is always upright because energy is lost between trophic levels.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q72",
@@ -61015,21 +61006,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Palak Lake (Pala Tipo), the largest natural wetland in Mizoram recently designated as a Ramsar Wetland has an area of approximately:",
+    "question": "The Ramsar-listed Pala Wetland site in Mizoram covers approximately what area?",
     "options": [
       "12.4 sq km",
       "15.7 sq km",
       "18.5 sq km",
       "21.3 sq km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Ramsar-listed Pala Wetland site covers about 18.5 km² (1,850 hectares). This is the designated wetland site area, not only the open-water area of Pala Lake; “recently designated” was removed because the listing dates to 2021.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q73",
@@ -61047,17 +61039,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Agriculture",
       "Waste disposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Combustion of coal, oil and natural gas releases large amounts of carbon dioxide and is the largest human source among these choices.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q74",
@@ -61075,17 +61065,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Nitric acid",
       "Peroxyacetyl nitrate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Sulfur dioxide is emitted directly from sources such as fuel combustion, so it is a primary pollutant. Ozone and PAN form in the atmosphere as secondary pollutants.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q75",
@@ -61103,17 +61091,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Friction",
       "Electricity"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Gravity attracts us toward Earth and keeps us on its surface.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q76",
@@ -61131,14 +61117,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "O+",
       "AB-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "O-negative red blood cells lack A, B and Rh(D) antigens, so they are used as the universal red-cell donor type in emergencies. Compatibility still depends on the clinical context.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q77",
@@ -61156,17 +61143,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Thyroid",
       "Adrenal gland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The liver is the body’s largest gland.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q78",
@@ -61184,17 +61169,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Convex mirror",
       "Cylindrical mirror"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A concave reflector behind the bulb directs the headlamp beam forward.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q79",
@@ -61213,7 +61196,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Titanium"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held unscored: tungsten has the highest melting point among metals, but carbon sublimes at a higher temperature and is also listed as an element. The unqualified wording therefore allows more than one defensible interpretation.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
@@ -61222,7 +61205,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held unscored: tungsten has the highest melting point among metals, but carbon sublimes at a higher temperature and is also listed as an element. The unqualified wording therefore allows more than one defensible interpretation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q80",
@@ -61240,17 +61223,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Coal",
       "Biomass"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Coal is a fossil fuel that takes geological time to form, so it is non-renewable on human timescales.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q81",
@@ -61268,17 +61249,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Ethanol & Propanol",
       "Methane & Butane"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ethylene and propylene are monomers used to make the common polymers polyethylene and polypropylene, respectively.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q82",
@@ -61296,17 +61275,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Hypothalamus",
       "Medulla Oblongata"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The cerebellum coordinates voluntary movement and helps maintain balance and posture.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q83",
@@ -61324,17 +61301,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Vitamin D",
       "Vitamin K"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Vitamin K is required to make several proteins involved in blood coagulation.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q84",
@@ -61352,17 +61327,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "315°F",
       "180°F"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "At standard atmospheric pressure, water boils at 100°C, which is 212°F.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q85",

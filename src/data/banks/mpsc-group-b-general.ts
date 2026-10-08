@@ -16027,15 +16027,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hesaidtoher,“Whatacoldday!”",
+    "question": "He said to her, “What a cold day!”",
     "options": [
-      "Hetoldherthatitwasacoldday.",
-      "Heexclaimedthatitwasacoldday.",
-      "Heexclaimedsorrowfulthlaytitwasacoldday.",
-      "Heexclaimedthatitwasaverycoldday."
+      "He told her that it was a cold day.",
+      "He exclaimed that it was a cold day.",
+      "He exclaimed sorrowfully that it was a cold day.",
+      "He exclaimed that it was a very cold day."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "An exclamation of “What a cold day!” is reported with “exclaimed” and the intensifier “very.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
@@ -16044,10 +16044,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,51-55):SelecttheonewhichbestexpressesthesamesentenceinDirect/"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
 const groupBQuestionsPart3: BankQuestion[] = [
@@ -16060,15 +16058,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thefatherwarmedhissonthatheshouldbeawareofhim.",
+    "question": "The father warned his son that he should be aware of him.",
     "options": [
-      "Thefatherwarnedhisson,“Beawareofhim!”",
-      "Thefatherwamedhisson,“Becarefulofhim.”",
-      "Thefatherwarnshisson,“Bewareofhim.”",
-      "Thefatherwarns,“Son,beawareofhim.”"
+      "The father warned his son, “Be aware of him!”",
+      "The father warned his son, “Be careful of him.”",
+      "The father warns his son, “Beware of him.”",
+      "The father warns, “Son, be aware of him.”"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The reported warning “should be aware” returns to the direct imperative “Be aware.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
@@ -16077,10 +16075,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,51-55):SelecttheonewhichbestexpressesthesamesentenceinDirect/"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q53",
@@ -16091,15 +16087,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Harishsaidtome,“Whydidn’tyoucomewithus?”",
+    "question": "Harish said to me, “Why didn’t you come with us?”",
     "options": [
-      "HarishaskedmewhyIdidnotcomewiththem.",
-      "Harishaskedmewhydidn’t|gowiththem.",
-      "HarishaskedmewhyIdidnotgowiththem.",
-      "HarishaskedwhetherIwanttogowiththem."
+      "Harish asked me why I did not come with them.",
+      "Harish asked me why didn’t I go with them.",
+      "Harish asked me why I did not go with them.",
+      "Harish asked whether I want to go with them."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "In reported questions, use statement word order and backshift “you/us” to “I/them.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
@@ -16108,10 +16104,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,51-55):SelecttheonewhichbestexpressesthesamesentenceinDirect/"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q54",
@@ -16122,15 +16116,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Shesaid,“WhenIwasachild,Iwasn’tafraidofghosts.”",
+    "question": "She said, “When I was a child, I wasn’t afraid of ghosts.”",
     "options": [
-      "Shesaidwhenshewasachildshewasn’tafraidofghosts.",
-      "Shetoidmethatwhenshewasachildsheneverfearedghosts.",
-      "Shesaidthatwhenshewasachildshewasn’tafraidofghosts.",
-      "Shesaidthatwhenshehadbeenachildshewasn’tafraidofghosts. (a)Hewarnedhertoshootifshedidn’tkeepquietcalmly. (b)Hesaidcalmlythatheshallshootherifshedoesn’tkeepquiet. (c)Hewarnedhercalmlythathewouldshootherifshedidn’tkeepquiet."
+      "She said when she was a child she wasn’t afraid of ghosts.",
+      "She told me that when she was a child she never feared ghosts.",
+      "She said that when she was a child she wasn’t afraid of ghosts.",
+      "She said that when she had been a child she wasn’t afraid of ghosts."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C reports the statement with the correct subject changes and preserves the past-time clause.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
@@ -16139,10 +16133,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,51-55):SelecttheonewhichbestexpressesthesamesentenceinDirect/"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q55",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "55",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "“If you don’t keep quiet I shall shoot you,” he said to her in a calm voice.",
+    "options": [
+      "He warned her to shoot if she didn’t keep quiet calmly.",
+      "He said calmly that he shall shoot her if she doesn’t keep quiet.",
+      "He warned her calmly that he would shoot her if she didn’t keep quiet.",
+      "He warned with a calm voice that he should shoot if she is not quiet."
+    ],
+    "answerIndex": 2,
+    "explanation": "The threat is reported with “warned,” backshifted “would,” and the original condition.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q56",
@@ -16153,15 +16174,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Apoliticalleaderappealingtopopulardesiresandprejudices.",
+    "question": "A political leader appealing to popular desires and prejudices.",
     "options": [
       "Tyrant",
       "Demagogue",
       "Popularist",
-      "Dictator (a)Oblique(b)Opulant (c)Opaque(d)Optique"
+      "Dictator"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A demagogue seeks support by appealing to popular prejudices and emotions.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
@@ -16170,10 +16191,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.56-60):Choosetheonewhichcanbesubstitutedforthegivenwords/sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q57",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "57",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Not allowing the passage of light.",
+    "options": [
+      "Oblique",
+      "Opulent",
+      "Opaque",
+      "Optique"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Opaque” describes something that does not let light pass through.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q58",
@@ -16184,15 +16232,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thawingsnow.",
+    "question": "Thawing snow.",
     "options": [
       "Sludge",
       "Slush",
       "Slosh",
       "Slash"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Slush” is partly melted snow or ice mixed with water.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
@@ -16201,10 +16249,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.56-60):Choosetheonewhichcanbesubstitutedforthegivenwords/sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q59",
@@ -16215,15 +16261,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Acollectionofslaves.",
+    "question": "A collection of slaves.",
     "options": [
       "Coffle",
       "Crew",
       "Company",
       "Cortege"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A “coffle” is a line or group of enslaved people being transported together.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
@@ -16232,10 +16278,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.56-60):Choosetheonewhichcanbesubstitutedforthegivenwords/sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q60",
@@ -16246,15 +16290,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Apersonofhumblebeginningwhohasgainedwealth.",
+    "question": "A person of humble beginning who has gained wealth.",
     "options": [
       "Extravagant",
       "Sumptuary",
       "Promiscuous",
       "Parvenu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A “parvenu” is someone of humble origin who has recently risen to wealth or status.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
@@ -16263,10 +16307,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.56-60):Choosetheonewhichcanbesubstitutedforthegivenwords/sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q61",
@@ -16277,15 +16319,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "A.Therefore,Iboughtagoodhouseinarespectableneighbourhood. B.Thismademeeagertowelcomethefirstguestathomeandshowmyhospitality. C.Lintendedtobeamodelcitizenintheneighbourhood. D.Idecideditwastimeformetosettledown.",
+    "question": "Given below are four jumbled sentences. Select the option that gives their correct order.\nA. Therefore, I bought a good house in a respectable neighbourhood.\nB. This made me eager to welcome the first guest at home and show my hospitality.\nC. I intended to be a model citizen in the neighbourhood.\nD. I decided it was time for me to settle down.",
     "options": [
       "DBCA",
       "DACB",
       "CADB",
       "CBDA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The sequence is D–A–C–B: deciding to settle down leads to buying a house, then the intention to be a model neighbour, which motivates welcoming a first guest.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=5",
@@ -16294,10 +16336,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.61—65):Givenbelowarefourjumbledsentences.Selecttheoptionthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q62",
@@ -24587,7 +24627,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p2-Q51",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -24637,9 +24679,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q54",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32548,7 +32588,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B72",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32608,9 +32650,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B74",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40698,7 +40738,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q54",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40748,9 +40790,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q57",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48452,7 +48492,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q29",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48502,9 +48544,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q32",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56467,7 +56507,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q38",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56523,9 +56565,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q40",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64156,7 +64196,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q76",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64212,9 +64254,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q78",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -73185,7 +73225,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q48",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73239,9 +73281,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q50",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81271,7 +81311,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B8",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q9",
     "questionNumber": "B9",
@@ -81323,9 +81365,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B10",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q11",
     "questionNumber": "B11",
@@ -89174,7 +89214,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B51",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B52",
     "questionNumber": "B52",
@@ -89228,9 +89270,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B53",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B54",
     "questionNumber": "B54",

@@ -1331,7 +1331,7 @@
       "sourceSha256": "eb32e3ca2b60cb399cce89bbdcf711d95a098fdfbbcf90377ffd5f6ea2f66fb5",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–50 checked against rendered PDF pages 1–4; stems and four options transcribed and matched to the final official key. Q2, Q23 and Q37 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
+      "evidence": "Questions 1–61 checked against rendered PDF pages 1–5; stems and four options transcribed and matched to the final official key. Q2, Q23 and Q37 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
       "questions": {
         "1": {
           "n": 1,
@@ -1988,6 +1988,149 @@
             "d": "Adjective"
           },
           "explanation": "“Much” modifies the noun “patience,” so it is an adjective of quantity in traditional grammar."
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "part": null,
+          "q": "He said to her, “What a cold day!”",
+          "opts": {
+            "a": "He told her that it was a cold day.",
+            "b": "He exclaimed that it was a cold day.",
+            "c": "He exclaimed sorrowfully that it was a cold day.",
+            "d": "He exclaimed that it was a very cold day."
+          },
+          "explanation": "An exclamation of “What a cold day!” is reported with “exclaimed” and the intensifier “very.”"
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "part": null,
+          "q": "The father warned his son that he should be aware of him.",
+          "opts": {
+            "a": "The father warned his son, “Be aware of him!”",
+            "b": "The father warned his son, “Be careful of him.”",
+            "c": "The father warns his son, “Beware of him.”",
+            "d": "The father warns, “Son, be aware of him.”"
+          },
+          "explanation": "The reported warning “should be aware” returns to the direct imperative “Be aware.”"
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "part": null,
+          "q": "Harish said to me, “Why didn’t you come with us?”",
+          "opts": {
+            "a": "Harish asked me why I did not come with them.",
+            "b": "Harish asked me why didn’t I go with them.",
+            "c": "Harish asked me why I did not go with them.",
+            "d": "Harish asked whether I want to go with them."
+          },
+          "explanation": "In reported questions, use statement word order and backshift “you/us” to “I/them.”"
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "part": null,
+          "q": "She said, “When I was a child, I wasn’t afraid of ghosts.”",
+          "opts": {
+            "a": "She said when she was a child she wasn’t afraid of ghosts.",
+            "b": "She told me that when she was a child she never feared ghosts.",
+            "c": "She said that when she was a child she wasn’t afraid of ghosts.",
+            "d": "She said that when she had been a child she wasn’t afraid of ghosts."
+          },
+          "explanation": "Option C reports the statement with the correct subject changes and preserves the past-time clause."
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "part": null,
+          "q": "“If you don’t keep quiet I shall shoot you,” he said to her in a calm voice.",
+          "opts": {
+            "a": "He warned her to shoot if she didn’t keep quiet calmly.",
+            "b": "He said calmly that he shall shoot her if she doesn’t keep quiet.",
+            "c": "He warned her calmly that he would shoot her if she didn’t keep quiet.",
+            "d": "He warned with a calm voice that he should shoot if she is not quiet."
+          },
+          "explanation": "The threat is reported with “warned,” backshifted “would,” and the original condition."
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "part": null,
+          "q": "A political leader appealing to popular desires and prejudices.",
+          "opts": {
+            "a": "Tyrant",
+            "b": "Demagogue",
+            "c": "Popularist",
+            "d": "Dictator"
+          },
+          "explanation": "A demagogue seeks support by appealing to popular prejudices and emotions."
+        },
+        "57": {
+          "n": 57,
+          "page": 5,
+          "part": null,
+          "q": "Not allowing the passage of light.",
+          "opts": {
+            "a": "Oblique",
+            "b": "Opulent",
+            "c": "Opaque",
+            "d": "Optique"
+          },
+          "explanation": "“Opaque” describes something that does not let light pass through."
+        },
+        "58": {
+          "n": 58,
+          "page": 5,
+          "part": null,
+          "q": "Thawing snow.",
+          "opts": {
+            "a": "Sludge",
+            "b": "Slush",
+            "c": "Slosh",
+            "d": "Slash"
+          },
+          "explanation": "“Slush” is partly melted snow or ice mixed with water."
+        },
+        "59": {
+          "n": 59,
+          "page": 5,
+          "part": null,
+          "q": "A collection of slaves.",
+          "opts": {
+            "a": "Coffle",
+            "b": "Crew",
+            "c": "Company",
+            "d": "Cortege"
+          },
+          "explanation": "A “coffle” is a line or group of enslaved people being transported together."
+        },
+        "60": {
+          "n": 60,
+          "page": 5,
+          "part": null,
+          "q": "A person of humble beginning who has gained wealth.",
+          "opts": {
+            "a": "Extravagant",
+            "b": "Sumptuary",
+            "c": "Promiscuous",
+            "d": "Parvenu"
+          },
+          "explanation": "A “parvenu” is someone of humble origin who has recently risen to wealth or status."
+        },
+        "61": {
+          "n": 61,
+          "page": 5,
+          "part": null,
+          "q": "Given below are four jumbled sentences. Select the option that gives their correct order.\nA. Therefore, I bought a good house in a respectable neighbourhood.\nB. This made me eager to welcome the first guest at home and show my hospitality.\nC. I intended to be a model citizen in the neighbourhood.\nD. I decided it was time for me to settle down.",
+          "opts": {
+            "a": "DBCA",
+            "b": "DACB",
+            "c": "CADB",
+            "d": "CBDA"
+          },
+          "explanation": "The sequence is D–A–C–B: deciding to settle down leads to buying a house, then the intention to be a model neighbour, which motivates welcoming a first guest."
         }
       },
       "partialReview": true

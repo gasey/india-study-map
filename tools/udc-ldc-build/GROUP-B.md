@@ -4,11 +4,11 @@ Run `python3 tools/udc-ldc-build/build_group_b.py` from the site repository.
 Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 `mpsc-group-b-library.json`. Never hand-edit either output.
 
-## Progress — 8 October 2026
+## Progress — 9 October 2026
 
 49 general papers, 3,473 items: 3,402 MCQs and 71 written prompts.
-2,329 questions are ready for practice, including 1,614 official answers and
-715 independently derived answers. 1,087 items still need source review.
+2,386 questions are ready for practice, including 1,614 official answers and
+772 independently derived answers. 1,027 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -153,3 +153,5 @@ Recover the remaining incomplete AAO English/arithmetic scans and other scanned 
 papers. Match keys for the complete native papers that currently lack them.
 Then continue the wider source-review queue. Keep question recovery, source
 review and ready-to-score counts separate.
+
+Sub-Inspector FCS&CA / Receptionist H&FW Paper-I General English, May 2025 Series A is now scan-checked across all 60 Section B MCQs and all three Section A written prompts. Fifty-seven MCQs have derived explanations; Q47, Q49 and Q50 are held because multiple options are grammatical. The précis, formal letter and full ten-part exercise passage have response guidance. The cover confirms 100 marks, three hours, 40 conventional marks and 60 one-mark MCQs, with no negative marking.

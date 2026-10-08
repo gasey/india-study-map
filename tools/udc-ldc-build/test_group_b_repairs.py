@@ -61,6 +61,23 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertIn('Violet and blue light get scattered', result['questions'][37]['opts']['c'])
         self.assertEqual(result['questions'][23]['opts']['a'], 'Articles 25-28')
 
+    def test_fcs_english_paper_reviews_all_mcqs_and_restores_written_prompts(self):
+        extracted = json.loads((HERE / 'extracted/si-fcs-2025-p1.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['si-fcs-2025-p1']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 61)))
+        self.assertEqual([q['n'] for q in result['questions']], list(range(1, 61)))
+        self.assertEqual(set(repair['derivedAnswers']), set(map(str, set(range(1, 61)) - {47, 49, 50})))
+        self.assertTrue(all(x['explanation'].strip() for x in repair['derivedAnswers'].values()))
+        self.assertTrue(result['questions'][46]['unscored'])
+        self.assertTrue(result['questions'][48]['unscored'])
+        self.assertTrue(result['questions'][49]['unscored'])
+        self.assertEqual(result['questions'][38]['opts']['b'], 'Precipituous')
+        self.assertIn('A. She loved painting landscapes.', result['questions'][42]['q'])
+        self.assertEqual(set(repair['written']), {'1', '2', '3'})
+        self.assertIn('(j) What role do governments', repair['written']['3']['q'])
+        self.assertIn('ensure(s)', repair['written']['3']['explanation'])
+
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'
         with self.assertRaisesRegex(AssertionError, 'Stale'):

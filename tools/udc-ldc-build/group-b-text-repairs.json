@@ -21291,6 +21291,562 @@
           "ambiguous": [],
           "q": "Which one of the following was considered bad spirit in early mizo days?",
           "multi": false
+        },
+        "48": {
+          "n": 48,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rihdil, Hringlang tlang, Lunglohtui, Hawilopar, Mitthi khua, Pialral",
+            "b": "Rihdil, Lunglohtui, Hawilopar, Pialral, Lunglohtui, Mitthi khua",
+            "c": "Rihdil, Hringlang tlang, Mitthi khua, Hawilopar, Lunglohtui, Pialral",
+            "d": "Rihdil, Lunglohtui, Hringlang tlang, Hawilopar, mitthi khua, Pialral"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is the correct chronological order of the stages through which a soul passes after death in early Mizo society?",
+          "multi": false
+        },
+        "49": {
+          "n": 49,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Favang kut",
+            "b": "Chapchar Kut",
+            "c": "Mim Kut",
+            "d": "Pawl Kut"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Mizo festival meant for children in the early days was:",
+          "multi": false
+        },
+        "50": {
+          "n": 50,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Thitin thla",
+            "b": "Vawkhniakzawn thla",
+            "c": "Mimkut thla",
+            "d": "Tau thla"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the Mizo name for the month of August?",
+          "multi": false
+        },
+        "51": {
+          "n": 51,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1974",
+            "b": "5922",
+            "c": "1794",
+            "d": "5292"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "If 1² + 2² + 3² + 4² + 5² = 658, find the value of 3² + 6² + 9² + 12² + 15².",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held out: the printed premise is arithmetically false (1²+2²+3²+4²+5² = 55, not 658), so its intended proportional calculation cannot be accepted as a correct question."
+        },
+        "52": {
+          "n": 52,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "143",
+            "b": "119",
+            "c": "127",
+            "d": "161"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is a prime number?",
+          "multi": false
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "12",
+            "b": "60",
+            "c": "24",
+            "d": "90"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Three numbers are in the ratio 3:4:5 and their LCM is 720. What is their HCF?",
+          "multi": false
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "16 years",
+            "b": "20 years",
+            "c": "10 years",
+            "d": "30 years"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "If the simple interest for 4 years be equal to 20% of the principal, it will be equal to the principal after",
+          "multi": false
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "30 km/hr",
+            "b": "20 km/hr",
+            "c": "35 km/hr",
+            "d": "25 km/hr"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A bus covers 42 km in 1hr 40min 48sec. Find the speed of the bus",
+          "multi": false
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "10 cm",
+            "b": "20 cm",
+            "c": "30 cm",
+            "d": "40 cm"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The sides of a triangle are in the ratio 1/2 : 1/3 : 1/4. If its perimeter is 65 cm, what is the length of the longest side?",
+          "multi": false
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rs 36,250",
+            "b": "Rs 37,500",
+            "c": "Rs 36,520",
+            "d": "Rs 35,700"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "You have been offered a job with a starting monthly salary of Rs 25,000 with an annual increment of Rs 1,250 in your monthly salary. In the tenth year, your monthly salary will be",
+          "multi": false
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "30cm",
+            "b": "20cm",
+            "c": "33cm",
+            "d": "22cm 24"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The radii of two circles are 15cm and 18cm respectively. Find the radius of a third circle whose circumference is equal to the sum of the circumference of the other two circles",
+          "multi": false
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "80",
+            "b": "88",
+            "c": "90",
+            "d": "98"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "By how much is 2/5 of 385 greater than 4/9 of 126?",
+          "multi": false
+        },
+        "60": {
+          "n": 60,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rs 46,000",
+            "b": "Rs 64,000",
+            "c": "Rs 48,000",
+            "d": "Rs 84,000"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "If ₹480 is 3/4 percent of the price of a television, what is the price?",
+          "multi": false
+        },
+        "61": {
+          "n": 61,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "66.67%",
+            "b": "64%",
+            "c": "68.8%",
+            "d": "62 %"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "If  Peter’s income is 50% more than Emma’s income, Emma’s income in terms of Peter’s income is",
+          "multi": false
+        },
+        "62": {
+          "n": 62,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "150 m",
+            "b": "120 m",
+            "c": "110 m",
+            "d": "135 m"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+          "multi": false
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "29 years",
+            "b": "30 years",
+            "c": "35 years",
+            "d": "36 years"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The sum of the ages of four children born at intervals of six years is 104. What is the age of the oldest child?",
+          "multi": false
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "512",
+            "b": "1032",
+            "c": "844",
+            "d": "1024"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The value of 256^(5/4) is:",
+          "multi": false
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "40",
+            "b": "44",
+            "c": "46",
+            "d": "48"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The sum of three numbers is 98. If the ratio between the first and the second numbers be 2:3 and between the second and the third numbers be 5:8, then the third number is",
+          "multi": false
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "9999",
+            "b": "9261",
+            "c": "9259",
+            "d": "9801"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The greatest four-digit number which is a perfect cube is",
+          "multi": false
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rs 70",
+            "b": "Rs 77",
+            "c": "Rs 80",
+            "d": "Rs 88"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "There is a loss equal to the cost price of 4 towels when 15 towels are sold at Rs 847. Find the cost price of one towel.",
+          "multi": false
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "7",
+            "b": "17",
+            "c": "9",
+            "d": "19"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In a group of 52 persons, 16 eat beef but not pork and 33 eat beef. How many eat pork only?",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held out: the question does not say that every person eats at least one of beef or pork. The number who eat pork only cannot be determined if some people eat neither."
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "±9",
+            "b": "±1",
+            "c": "±4",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "If x − y = 1 and x² + y² = 41, what is the value of x + y?",
+          "multi": false
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "0.5",
+            "b": "2",
+            "c": "5",
+            "d": "2.5"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Evaluate (2×2 + 2×1.5 + 1.5×1.5) / (2×2×2 − 1.5×1.5×1.5).",
+          "multi": false
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "12",
+            "b": "32",
+            "c": "36",
+            "d": "6"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The average of three numbers is 48. If the third number is one-third of the sum of the other two, find the third number.",
+          "multi": false
         }
       },
       "derivedAnswers": {
@@ -21473,6 +22029,94 @@
         "47": {
           "answerIndex": 1,
           "explanation": "Khawhring is described in Mizo belief as a harmful or evil spirit; Khuavang is benevolent."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "The traditional journey is listed as Rihdil, Hringlang Tlang, Lunglohtui, Hawilopar, Mitthi Khua and then Pialral."
+        },
+        "49": {
+          "answerIndex": 0,
+          "explanation": "The item refers to Thalfavang Kut, traditionally associated with children; the printed option shortens the name to “Favang Kut.”"
+        },
+        "50": {
+          "answerIndex": 0,
+          "explanation": "Thitin Thla is the traditional name given to August."
+        },
+        "52": {
+          "answerIndex": 2,
+          "explanation": "127 is prime; 143 = 11×13, 119 = 7×17, and 161 = 7×23."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "The numbers are 3k, 4k and 5k. Their LCM is 60k = 720, so k = 12 and their HCF is 12."
+        },
+        "54": {
+          "answerIndex": 1,
+          "explanation": "A simple interest of 20% in four years is 5% per year; at that rate, interest equals the principal in 20 years."
+        },
+        "55": {
+          "answerIndex": 3,
+          "explanation": "1 hour 40 minutes 48 seconds is 1.68 hours. The speed is 42 ÷ 1.68 = 25 km/h."
+        },
+        "56": {
+          "answerIndex": 2,
+          "explanation": "The ratio 1/2 : 1/3 : 1/4 simplifies to 6:4:3. With 13 total parts in 65 cm, each part is 5 cm, so the longest side is 30 cm."
+        },
+        "57": {
+          "answerIndex": 0,
+          "explanation": "The tenth-year salary includes nine annual increments: ₹25,000 + 9×₹1,250 = ₹36,250 per month."
+        },
+        "58": {
+          "answerIndex": 2,
+          "explanation": "Circumference is proportional to radius, so the third radius is 15 + 18 = 33 cm."
+        },
+        "59": {
+          "answerIndex": 3,
+          "explanation": "Two-fifths of 385 is 154; four-ninths of 126 is 56. The difference is 98."
+        },
+        "60": {
+          "answerIndex": 1,
+          "explanation": "₹480 is 0.75% of the price, so the price is ₹480 ÷ 0.0075 = ₹64,000."
+        },
+        "61": {
+          "answerIndex": 0,
+          "explanation": "If Peter earns 1.5 times Emma, Emma earns 1/1.5 = 2/3 of Peter’s income, or 66.67%."
+        },
+        "62": {
+          "answerIndex": 0,
+          "explanation": "60 km/h is 50/3 m/s. In nine seconds, the train travels (50/3)×9 = 150 m."
+        },
+        "63": {
+          "answerIndex": 2,
+          "explanation": "Let the oldest child be x. The ages are x, x−6, x−12 and x−18; their sum is 104, giving x = 35."
+        },
+        "64": {
+          "answerIndex": 3,
+          "explanation": "256^(5/4) = (256^(1/4))^5 = 4^5 = 1,024."
+        },
+        "65": {
+          "answerIndex": 3,
+          "explanation": "Matching the ratios gives first:second:third = 10:15:24. Their sum is 49 parts, so each part is 2 and the third number is 48."
+        },
+        "66": {
+          "answerIndex": 1,
+          "explanation": "The greatest four-digit perfect cube is 21³ = 9,261; 22³ is five digits."
+        },
+        "67": {
+          "answerIndex": 1,
+          "explanation": "If one towel costs x, the total cost of 15 is 15x. A loss of 4x means the selling price is 11x = ₹847, so x = ₹77."
+        },
+        "69": {
+          "answerIndex": 0,
+          "explanation": "(x+y)² = 2(x²+y²)−(x−y)² = 82−1 = 81, so x+y is either 9 or −9. Since both are options ±9, option A is the correct set."
+        },
+        "70": {
+          "answerIndex": 1,
+          "explanation": "The numerator is 4 + 3 + 2.25 = 9.25 and the denominator is 8 − 3.375 = 4.625; their quotient is 2."
+        },
+        "71": {
+          "answerIndex": 2,
+          "explanation": "The total of the three numbers is 3×48 = 144. If the first two sum to S, the third is S/3, so 4S/3 = 144 and the third number is 36."
         }
       },
       "sourceSha256": "0bb9cacc2b5f753ab481e2f68f33adc2909c48a15f11c8073c89fd900cc63bcf",
@@ -21482,7 +22126,7 @@
       "nonMcq": [
         8
       ],
-      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification. Questions 25–47 were checked against printed pages 4–5. Twenty-one more answers have independently derived explanations. Q30 is held because options A and C name the same scheme; Q42 is held because “movement due to light” does not distinguish phototropism from phototaxis. Q34 was checked against the 2025 LUF award announcement; Q43–47 were cross-checked against Mizo cultural and historical sources. Minor spelling and grammar repairs improve readability without changing option meaning."
+      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification. Questions 25–47 were checked against printed pages 4–5. Twenty-one more answers have independently derived explanations. Q30 is held because options A and C name the same scheme; Q42 is held because “movement due to light” does not distinguish phototropism from phototaxis. Q34 was checked against the 2025 LUF award announcement; Q43–47 were cross-checked against Mizo cultural and historical sources. Minor spelling and grammar repairs improve readability without changing option meaning. Questions 48–71 were checked against printed pages 6–7. Twenty-two received derived explanations; Q51 is held because its printed sum-of-squares premise is false, and Q68 because the group may include people who eat neither food. The questions and options were normalized for legibility; Q55’s truncated option and OCR-damaged math notation in Q56, Q59, Q64 and Q70 were restored from the scan."
     }
   }
 }

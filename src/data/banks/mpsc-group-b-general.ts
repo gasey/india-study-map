@@ -53537,21 +53537,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following is the correct chronological order in early mizo society that when a person dies, his/her soul has to pass through different stages of journey?",
+    "question": "Which of the following is the correct chronological order of the stages through which a soul passes after death in early Mizo society?",
     "options": [
       "Rihdil, Hringlang tlang, Lunglohtui, Hawilopar, Mitthi khua, Pialral",
       "Rihdil, Lunglohtui, Hawilopar, Pialral, Lunglohtui, Mitthi khua",
       "Rihdil, Hringlang tlang, Mitthi khua, Hawilopar, Lunglohtui, Pialral",
       "Rihdil, Lunglohtui, Hringlang tlang, Hawilopar, mitthi khua, Pialral"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The traditional journey is listed as Rihdil, Hringlang Tlang, Lunglohtui, Hawilopar, Mitthi Khua and then Pialral.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q49",
@@ -53562,21 +53563,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The Mizo festival meant for children in the early days was",
+    "question": "The Mizo festival meant for children in the early days was:",
     "options": [
       "Favang kut",
       "Chapchar Kut",
       "Mim Kut",
       "Pawl Kut"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The item refers to Thalfavang Kut, traditionally associated with children; the printed option shortens the name to “Favang Kut.”",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q50",
@@ -53587,21 +53589,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The Mizo name given to the month of August is",
+    "question": "What is the Mizo name for the month of August?",
     "options": [
       "Thitin thla",
       "Vawkhniakzawn thla",
       "Mimkut thla",
       "Tau thla"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Thitin Thla is the traditional name given to August.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q51",
@@ -53612,7 +53615,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "If 1+2+3+4+5=658, find the value of 3+6+9+12+15",
+    "question": "If 1² + 2² + 3² + 4² + 5² = 658, find the value of 3² + 6² + 9² + 12² + 15².",
     "options": [
       "1974",
       "5922",
@@ -53620,13 +53623,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "5292"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the printed premise is arithmetically false (1²+2²+3²+4²+5² = 55, not 658), so its intended proportional calculation cannot be accepted as a correct question.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q52",
@@ -53644,14 +53647,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "127",
       "161"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "127 is prime; 143 = 11×13, 119 = 7×17, and 161 = 7×23.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q53",
@@ -53662,24 +53666,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Three numbers are in the ratio3:4:5 and their L.C.M. is 720. Their H.C.F. is",
+    "question": "Three numbers are in the ratio 3:4:5 and their LCM is 720. What is their HCF?",
     "options": [
       "12",
       "60",
       "24",
       "90"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The numbers are 3k, 4k and 5k. Their LCM is 60k = 720, so k = 12 and their HCF is 12.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q54",
@@ -53697,14 +53699,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "10 years",
       "30 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A simple interest of 20% in four years is 5% per year; at that rate, interest equals the principal in 20 years.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q55",
@@ -53720,16 +53723,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "30 km/hr",
       "20 km/hr",
       "35 km/hr",
-      "25 km/hr 111"
+      "25 km/hr"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "1 hour 40 minutes 48 seconds is 1.68 hours. The speed is 42 ÷ 1.68 = 25 km/h.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q56",
@@ -53740,21 +53744,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The sides of a triangle are in the ratio:: , if the perimeter is 65cm, then the length of the longest 234 side is",
+    "question": "The sides of a triangle are in the ratio 1/2 : 1/3 : 1/4. If its perimeter is 65 cm, what is the length of the longest side?",
     "options": [
       "10 cm",
       "20 cm",
       "30 cm",
       "40 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The ratio 1/2 : 1/3 : 1/4 simplifies to 6:4:3. With 13 total parts in 65 cm, each part is 5 cm, so the longest side is 30 cm.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q57",
@@ -53772,14 +53777,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Rs 36,520",
       "Rs 35,700"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The tenth-year salary includes nine annual increments: ₹25,000 + 9×₹1,250 = ₹36,250 per month.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q58",
@@ -53797,14 +53803,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "33cm",
       "22cm 24"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Circumference is proportional to radius, so the third radius is 15 + 18 = 33 cm.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q59",
@@ -53815,21 +53822,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "By how much isth of385 is more thanth of 126? 59",
+    "question": "By how much is 2/5 of 385 greater than 4/9 of 126?",
     "options": [
       "80",
       "88",
       "90",
       "98"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Two-fifths of 385 is 154; four-ninths of 126 is 56. The difference is 98.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q60",
@@ -53840,21 +53848,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "If Rs 480 is 3/4 percent of the price of a television, the price of the television is",
+    "question": "If ₹480 is 3/4 percent of the price of a television, what is the price?",
     "options": [
       "Rs 46,000",
       "Rs 64,000",
       "Rs 48,000",
       "Rs 84,000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "₹480 is 0.75% of the price, so the price is ₹480 ÷ 0.0075 = ₹64,000.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q61",
@@ -53872,14 +53881,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "68.8%",
       "62 %"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "If Peter earns 1.5 times Emma, Emma earns 1/1.5 = 2/3 of Peter’s income, or 66.67%.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q62",
@@ -53897,14 +53907,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "110 m",
       "135 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "60 km/h is 50/3 m/s. In nine seconds, the train travels (50/3)×9 = 150 m.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q63",
@@ -53915,21 +53926,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "If the sum of the ages of 4 children born at the intervals of 6 years each is 104, the age of the oldest child is",
+    "question": "The sum of the ages of four children born at intervals of six years is 104. What is the age of the oldest child?",
     "options": [
       "29 years",
       "30 years",
       "35 years",
-      "36 years 5"
+      "36 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Let the oldest child be x. The ages are x, x−6, x−12 and x−18; their sum is 104, giving x = 35.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q64",
@@ -53940,21 +53952,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The value of (256)⁴ is",
+    "question": "The value of 256^(5/4) is:",
     "options": [
       "512",
       "1032",
       "844",
       "1024"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "256^(5/4) = (256^(1/4))^5 = 4^5 = 1,024.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q65",
@@ -53972,14 +53985,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "46",
       "48"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Matching the ratios gives first:second:third = 10:15:24. Their sum is 49 parts, so each part is 2 and the third number is 48.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q66",
@@ -53997,14 +54011,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "9259",
       "9801"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The greatest four-digit perfect cube is 21³ = 9,261; 22³ is five digits.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q67",
@@ -54022,14 +54037,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Rs 80",
       "Rs 88"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "If one towel costs x, the total cost of 15 is 15x. A loss of 4x means the selling price is 11x = ₹847, so x = ₹77.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q68",
@@ -54048,13 +54064,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "19"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the question does not say that every person eats at least one of beef or pork. The number who eat pork only cannot be determined if some people eat neither.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q69",
@@ -54065,24 +54081,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Ifx−y=1 and x²+y²=41, then the value ofx+y will be",
+    "question": "If x − y = 1 and x² + y² = 41, what is the value of x + y?",
     "options": [
-      "9",
-      "1",
-      "4",
-      "None of these 2×2+2×1.5+1.5×1.5"
+      "±9",
+      "±1",
+      "±4",
+      "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "(x+y)² = 2(x²+y²)−(x−y)² = 82−1 = 81, so x+y is either 9 or −9. Since both are options ±9, option A is the correct set.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q70",
@@ -54093,21 +54107,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The value of  is 2×2×2−1.5×1.5×1.5",
+    "question": "Evaluate (2×2 + 2×1.5 + 1.5×1.5) / (2×2×2 − 1.5×1.5×1.5).",
     "options": [
       "0.5",
       "2",
       "5",
       "2.5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The numerator is 4 + 3 + 2.25 = 9.25 and the denominator is 8 − 3.375 = 4.625; their quotient is 2.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q71",
@@ -54118,21 +54133,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The average of three numbers is 48. If the third number is one-third of the sum of the other numbers, find the third number.",
+    "question": "The average of three numbers is 48. If the third number is one-third of the sum of the other two, find the third number.",
     "options": [
       "12",
       "32",
       "36",
       "6"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The total of the three numbers is 3×48 = 144. If the first two sum to S, the third is S/3, so 4S/3 = 144 and the third number is 36.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q72",

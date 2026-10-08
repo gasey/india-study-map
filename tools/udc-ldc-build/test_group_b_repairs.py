@@ -42,18 +42,22 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(result['questions'][24]['unscored'])
         self.assertEqual(result['questions'][30]['opts']['b'], 'invested, shipped')
 
-    def test_fcs_paper_recovers_merged_first_eight_and_reviews_through_47(self):
+    def test_fcs_paper_recovers_merged_first_eight_and_reviews_through_71(self):
         extracted = json.loads((HERE / 'extracted/si-fcs-2025-p2.json').read_text())
         repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['si-fcs-2025-p2']
         result, reviewed = reviewed_extraction(extracted, repair)
-        self.assertEqual(reviewed, set(range(1, 48)))
+        self.assertEqual(reviewed, set(range(1, 72)))
         self.assertEqual([q['n'] for q in result['questions']], list(range(1, 101)))
         self.assertEqual(result['questions'][0]['opts']['d'], 'Kiwi')
         self.assertEqual(result['questions'][7]['q'], 'Red Fort at Delhi was built by which of the following Mughal kings?')
-        self.assertEqual(set(repair['derivedAnswers']), set(map(str, list(range(1, 30)) + list(range(31, 42)) + list(range(43, 48)))))
+        self.assertEqual(set(repair['derivedAnswers']), set(map(str, list(range(1, 30)) + list(range(31, 42)) + list(range(43, 51)) + list(range(52, 68)) + list(range(69, 72))) ))
         self.assertTrue(all(x['explanation'].strip() for x in repair['derivedAnswers'].values()))
         self.assertTrue(result['questions'][29]['unscored'])
         self.assertTrue(result['questions'][41]['unscored'])
+        self.assertTrue(result['questions'][50]['unscored'])
+        self.assertTrue(result['questions'][67]['unscored'])
+        self.assertEqual(result['questions'][68]['opts']['a'], '±9')
+        self.assertEqual(result['questions'][54]['opts']['d'], '25 km/hr')
         self.assertIn('Violet and blue light get scattered', result['questions'][37]['opts']['c'])
         self.assertEqual(result['questions'][23]['opts']['a'], 'Articles 25-28')
 

@@ -5653,8 +5653,8 @@
       "sourceSha256": "bc5c3e61f87c08bfb58c0bd42f846ac932ca5d7f0bc9c3a6467d7c17021d1d9c",
       "expectedMcq": 100,
       "partialReview": true,
-      "reviewedOn": "2026-10-08",
-      "evidence": "Question 60 transcribed against rendered PDF page 9. The four probability choices were visually checked. The answer is independently calculated; no official key has been matched for this paper.",
+      "reviewedOn": "2026-10-09",
+      "evidence": "Q1–30 have readable stems/options checked against printed pages 2–6 of the November 2025 Series A scan, including restoration of merged Q1–7. Twenty-eight of these questions have derived explanations; Q6 has no matching statement combination and Q29 omits the only correct combination, so both are held. Q31–100 remain under scan review. The cover specifies 100 two-mark questions, 200 marks, two hours and negative marking. Source SHA256 binds the review to the paper.",
       "questions": {
         "60": {
           "n": 60,
@@ -5667,12 +5667,458 @@
             "c": "1/4",
             "d": "1/3"
           }
+        },
+        "1": {
+          "n": 1,
+          "page": 2,
+          "q": "Consider the statements about the NISAR (NASA–ISRO Synthetic Aperture Radar) satellite mission launched in 2025: (i) NISAR is a joint collaboration between ISRO and NASA. (ii) It is designed to map Earth’s surface every 12 days and track climate threats. (iii) NISAR is India’s first geostationary satellite dedicated to climate observation. Select the correct answer.",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(ii) and (iii) only",
+            "c": "(i) and (iii) only",
+            "d": "All of the above"
+          }
+        },
+        "2": {
+          "n": 2,
+          "page": 2,
+          "q": "In August 2025, the United States imposed a 50% tariff on selected Indian imports, citing India’s continued purchases of Russian oil. Which sectors were most affected? (i) Textiles and apparel (ii) Jewellery and precious stones (iii) Pharmaceuticals and medical devices (iv) Agricultural products. Select the correct answer.",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(ii) and (iv) only",
+            "c": "(i), (ii), and (iv) only",
+            "d": "All of the above"
+          }
+        },
+        "3": {
+          "n": 3,
+          "page": 2,
+          "q": "The 17th BRICS Summit was held in Rio de Janeiro, Brazil, on 6–7 July 2025. What was its theme?",
+          "opts": {
+            "a": "Promoting Global Trade and Investment for Sustainable Growth",
+            "b": "Building Resilient Economies through Green Energy",
+            "c": "Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance",
+            "d": "Harnessing Technology for Development and Peace"
+          }
+        },
+        "4": {
+          "n": 4,
+          "page": 2,
+          "q": "Which person from Mizoram was selected by the Ministry of Youth Affairs and Sports as a “National Youth Icon” under the Viksit Bharat Yuva Connect initiative?",
+          "opts": {
+            "a": "Grace Lalnunpari Hauzel",
+            "b": "Grace Lalrampari Hauzel",
+            "c": "Grace Lalropari Hauzel",
+            "d": "Grace Lalrinpari Hauzel"
+          }
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "q": "Which of the following statements are not correct? (i) The 2026 FIFA World Cup will be the 24th edition and will run from June 11 to July 19, 2026. (ii) It will be the first World Cup hosted by three nations. (iii) The United States, Canada, and Mexico will co-host it. (iv) FIFA is considering expanding the 2030 tournament to 48 teams.",
+          "opts": {
+            "a": "Only (i) and (ii)",
+            "b": "Only (ii) and (iii)",
+            "c": "Only (iii) and (iv)",
+            "d": "Only (i) and (iv)"
+          }
+        },
+        "6": {
+          "n": 6,
+          "page": 3,
+          "q": "Consider these statements about 2025: (i) The UN General Assembly declared it the International Year of Cooperation. (ii) The theme is “Cooperatives Build a Better Nation.” (iii) The year aims to bring uniformity, transparency, and efficiency to PACS, which means “Productivity for Agricultural Credit Societies.” (iv) India’s first national-level cooperative university was inaugurated in Anand, Rajasthan, in July 2025. Select the correct statement(s).",
+          "opts": {
+            "a": "(i), (ii), and (iii)",
+            "b": "(ii), (iii), and (iv)",
+            "c": "(i), (iii), and (iv)",
+            "d": "(i), (ii), and (iv)"
+          },
+          "unscored": true,
+          "explanation": "The official name is the International Year of Cooperatives and its theme is “Cooperatives Build a Better World”; PACS means Primary Agricultural Credit Societies, and Anand is in Gujarat. Thus the printed statements are all false as written, but every choice includes three statements and no “none” option. Hold this defective item."
+        },
+        "7": {
+          "n": 7,
+          "page": 3,
+          "q": "Which of the following were causes of the 1857 Revolt? (i) Sepoys were denied foreign-service allowance (batta) when serving in Sind or Punjab. (ii) The General Services Enlistment Act required sepoys to serve overseas. (iii) The British introduced a law requiring sepoys to pay income tax on their salaries. Select the correct answer.",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(ii) and (iii) only",
+            "c": "(ii) only",
+            "d": "(i), (ii), and (iii)"
+          }
+        },
+        "8": {
+          "n": 8,
+          "page": 3,
+          "q": "With reference to the Poona Pact of 1932, which statement is correct? (i) It was an agreement between Gandhi and B. R. Ambedkar to resolve the issue of political representation for the depressed classes. (ii) The Pact was rejected by the British Government. Select the correct answer.",
+          "opts": {
+            "a": "(i) only",
+            "b": "(ii) only",
+            "c": "Both (i) and (ii)",
+            "d": "Neither (i) nor (ii)"
+          }
+        },
+        "9": {
+          "n": 9,
+          "page": 3,
+          "q": "Consider these statements about Samudragupta’s reign: (i) Vishnusena praised Samudragupta’s military expeditions on an Allahabad pillar. (ii) The Chinese traveller Fa-Hien visited Samudragupta’s court. (iii) Samudragupta adopted the title “Vikramaditya.” Which statements are correct?",
+          "opts": {
+            "a": "(ii) and (iii) only",
+            "b": "(ii) only",
+            "c": "(i) and (ii) only",
+            "d": "None"
+          }
+        },
+        "10": {
+          "n": 10,
+          "page": 3,
+          "q": "The Chauri Chaura incident during the Non-Cooperation Movement in February 1922 involved —",
+          "opts": {
+            "a": "a mob burning a police station",
+            "b": "a major underground revolutionary offensive",
+            "c": "large-scale looting of government property",
+            "d": "police firing on unarmed satyagrahis"
+          }
+        },
+        "11": {
+          "n": 11,
+          "page": 3,
+          "q": "Which leader popularised the slogan “Inquilab Zindabad” during India’s freedom struggle?",
+          "opts": {
+            "a": "Bhagat Singh",
+            "b": "Mahatma Gandhi",
+            "c": "Subhas Chandra Bose",
+            "d": "Bal Gangadhar Tilak"
+          }
+        },
+        "12": {
+          "n": 12,
+          "page": 3,
+          "q": "What was the formal name of the 1873 Inner Line Regulation restricting outsiders from entering tribal areas in Northeast India?",
+          "opts": {
+            "a": "Bengal Eastern Frontier Regulation, 1873",
+            "b": "Eastern Bengal Frontier Regulation, 1873",
+            "c": "North Eastern Frontier Regulation, 1873",
+            "d": "East Bengal Frontier Regulation, 1873"
+          }
+        },
+        "13": {
+          "n": 13,
+          "page": 4,
+          "q": "Which conditions increase rainfall during the southwest monsoon? (i) A positive Indian Ocean Dipole (ii) La Niña conditions in the Pacific Ocean (iii) A strengthening Siberian High. Select the correct answer.",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(ii) and (iii) only",
+            "c": "(i) and (iii) only",
+            "d": "(i), (ii), and (iii)"
+          }
+        },
+        "14": {
+          "n": 14,
+          "page": 4,
+          "q": "The Gaza Strip lies along the coast of the —",
+          "opts": {
+            "a": "Dead Sea",
+            "b": "Mediterranean Sea",
+            "c": "Persian Gulf",
+            "d": "Red Sea"
+          }
+        },
+        "15": {
+          "n": 15,
+          "page": 4,
+          "q": "“Perihelion” refers to the point in Earth’s orbit when —",
+          "opts": {
+            "a": "Earth is farthest from the Sun",
+            "b": "Earth experiences an equinox",
+            "c": "the Sun is highest in the sky",
+            "d": "Earth is closest to the Sun"
+          }
+        },
+        "16": {
+          "n": 16,
+          "page": 4,
+          "q": "Match each strait in List I with the water bodies or countries it connects in List II. List I: (i) Strait of Gibraltar (ii) Palk Strait (iii) Bering Strait (iv) Strait of Malacca. List II: A) India and Sri Lanka B) Pacific and Arctic Oceans C) Atlantic Ocean and Mediterranean Sea D) Indian Ocean and South China Sea.",
+          "opts": {
+            "a": "i–C, ii–A, iii–B, iv–D",
+            "b": "i–B, ii–D, iii–A, iv–C",
+            "c": "i–D, ii–C, iii–B, iv–A",
+            "d": "i–A, ii–C, iii–D, iv–B"
+          }
+        },
+        "17": {
+          "n": 17,
+          "page": 4,
+          "q": "Which states does the Ganga River itself pass through? (i) Madhya Pradesh (ii) Uttarakhand (iii) Jharkhand (iv) West Bengal. Select the correct option.",
+          "opts": {
+            "a": "(i) and (ii)",
+            "b": "(i), (ii), and (iii)",
+            "c": "(ii), (iii), and (iv)",
+            "d": "(i), (ii), (iii), and (iv)"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 4,
+          "q": "Sonai is another name for which river?",
+          "opts": {
+            "a": "Tuimni",
+            "b": "Tlawng",
+            "c": "Tuirial",
+            "d": "Khawthlangtuipui"
+          }
+        },
+        "19": {
+          "n": 19,
+          "page": 4,
+          "q": "Who can introduce a bill to amend the Constitution of India? (i) A minister who is not a member of Parliament (ii) The Leader of the Opposition (iii) The Attorney General. Select the correct answer.",
+          "opts": {
+            "a": "(i) and (iii) only",
+            "b": "(i) only",
+            "c": "(ii) and (iii) only",
+            "d": "(i) and (ii) only"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 5,
+          "q": "Consider these statements about a Presidential Reference under Article 143 of the Constitution: (i) The President may refer a question of law or fact to the Supreme Court for its advisory opinion. (ii) The Court’s opinion is binding on the President and other authorities. (iii) The President may refer a question even when Parliament is not in session. Select the correct answer.",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(i) and (iii) only",
+            "c": "(ii) and (iii) only",
+            "d": "(i), (ii), and (iii)"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 5,
+          "q": "Which right did Dr. B. R. Ambedkar describe as the “heart and soul of the Constitution”?",
+          "opts": {
+            "a": "Right to Property",
+            "b": "Right to Equality",
+            "c": "Right to Constitutional Remedies",
+            "d": "Right to Freedom of Religion"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 5,
+          "q": "How many languages are currently recognised in the Eighth Schedule of the Constitution of India?",
+          "opts": {
+            "a": "18",
+            "b": "20",
+            "c": "21",
+            "d": "22"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 5,
+          "q": "The 101st Constitutional Amendment Act deals with —",
+          "opts": {
+            "a": "the National Commission for Backward Classes",
+            "b": "reservation for economically weaker sections",
+            "c": "reservation for women",
+            "d": "Goods and Services Tax"
+          }
+        },
+        "24": {
+          "n": 24,
+          "page": 5,
+          "q": "“Suvidha” is a mobile application developed by which organisation?",
+          "opts": {
+            "a": "Ministry of Electronics and Information Technology, for multilingual translation, transcription, and summarisation",
+            "b": "Department of Telecommunications, to access central and state government services",
+            "c": "Election Commission of India, to help candidates with nominations and election permissions",
+            "d": "National Informatics Centre, as an instant-messaging platform"
+          }
+        },
+        "25": {
+          "n": 25,
+          "page": 5,
+          "q": "Which policies promote gender-inclusive economic growth? (i) Stand Up India Scheme (ii) Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) (iii) Pradhan Mantri Ujjwala Yojana. Select the correct answer.",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(ii) and (iii) only",
+            "c": "(i) and (iii) only",
+            "d": "(i), (ii), and (iii)"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 5,
+          "q": "To control deflation, which measure may the Monetary Policy Committee recommend? (i) Increase the Cash Reserve Ratio (ii) Increase the bank rate (iii) Decrease the reverse repo rate. Select the correct answer.",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(iii) only",
+            "c": "(ii) and (iii) only",
+            "d": "(i), (ii), and (iii)"
+          }
+        },
+        "27": {
+          "n": 27,
+          "page": 6,
+          "q": "What is the target fiscal deficit as a percentage of GDP for 2025–26?",
+          "opts": {
+            "a": "4.4%",
+            "b": "3.5%",
+            "c": "5.0%",
+            "d": "6.0%"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 6,
+          "q": "What is meant by personal disposable income?",
+          "opts": {
+            "a": "Personal income plus subsidies",
+            "b": "Personal income minus subsidies",
+            "c": "Personal income minus direct taxes",
+            "d": "Personal income minus indirect taxes"
+          }
+        },
+        "29": {
+          "n": 29,
+          "page": 6,
+          "q": "Consider these statements about the Lakhpati Didi initiative: (i) It is implemented by the Ministry of Rural Development. (ii) Its goal is to raise each participating SHG woman’s annual household income to at least ₹1 lakh. (iii) It is an initiative and outcome of DAY-NULM. Select the correct statement(s).",
+          "opts": {
+            "a": "(i) and (ii) only",
+            "b": "(ii) and (iii) only",
+            "c": "(i) and (iii) only",
+            "d": "(i), (ii), and (iii)"
+          },
+          "unscored": true,
+          "explanation": "Statements (i) and (ii) are correct, but the initiative is an outcome of DAY-NRLM, not DAY-NULM. None of the listed combinations selects only (i) and (ii), so the item has no correct option and is held."
+        },
+        "30": {
+          "n": 30,
+          "page": 6,
+          "q": "The Mizoram Sustainable Investment Policy, 2024 aims to attract —",
+          "opts": {
+            "a": "public investors, particularly from outside the State",
+            "b": "private investment, particularly from outside the State",
+            "c": "public-sector undertakings, particularly from outside the State",
+            "d": "both private and public investors operating in the State"
+          }
         }
       },
       "derivedAnswers": {
         "60": {
           "answerIndex": 0,
           "explanation": "The composite outcomes on a standard die are 4 and 6, so the probability is 2/6 = 1/3. A tail has probability 1/2. The independent events occur together with probability 1/3 × 1/2 = 1/6 (option A)."
+        },
+        "1": {
+          "answerIndex": 0,
+          "explanation": "NISAR is a joint NASA–ISRO mission and its two radars are designed to image global land and ice surfaces every 12 days. It is a low-Earth-orbit observatory, not a geostationary satellite, so statements (i) and (ii) alone are correct."
+        },
+        "2": {
+          "answerIndex": 2,
+          "explanation": "Textiles, gems and jewellery, and affected agricultural/food exports faced the higher duties; pharmaceuticals and medical devices were among the exempt sectors. Thus statements (i), (ii), and (iv) are the supported group."
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "The official Brazilian BRICS presidency and Rio Declaration give the summit theme as “Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance.”"
+        },
+        "4": {
+          "answerIndex": 3,
+          "explanation": "The selected youth icon is Grace Lalrinpari Hauzel; the other options alter her middle name."
+        },
+        "5": {
+          "answerIndex": 3,
+          "explanation": "The 2026 event is the 23rd edition, so (i) is false; statements (ii) and (iii) are correct. The 48-team format is already in place for 2026, so describing it as a contemplated expansion for 2030 is false; therefore (i) and (iv) are the incorrect statements."
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "The batta allowance issue and the General Services Enlistment Act are recognized grievances among sepoys. No general income-tax law of the kind in statement (iii) caused the revolt."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "The Pact was agreed by Gandhi and Ambedkar to settle representation arrangements. The British accepted the agreement; it was not rejected."
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "The Allahabad pillar inscription praising Samudragupta was composed by Harisena, not Vishnusena. Fa-Hien visited during Chandragupta II’s reign, and Vikramaditya was a title associated with Chandragupta II. None of the three statements is correct."
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "During the Chauri Chaura incident, a crowd set fire to a police station, killing policemen; Gandhi then suspended the Non-Cooperation Movement."
+        },
+        "11": {
+          "answerIndex": 0,
+          "explanation": "Bhagat Singh and his fellow revolutionaries made “Inquilab Zindabad” widely popular during the independence movement."
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "The 1873 regulation’s formal title was the Bengal Eastern Frontier Regulation, 1873."
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "A positive Indian Ocean Dipole and La Niña generally support stronger Indian monsoon rainfall. A strengthening Siberian High does not; only statements (i) and (ii) are correct."
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "The Gaza Strip borders the Mediterranean Sea."
+        },
+        "15": {
+          "answerIndex": 3,
+          "explanation": "Perihelion is the point in an orbit at which an object is closest to the Sun."
+        },
+        "16": {
+          "answerIndex": 0,
+          "explanation": "Gibraltar connects the Atlantic Ocean with the Mediterranean Sea; Palk Strait separates India and Sri Lanka; Bering Strait connects the Pacific and Arctic Oceans; Malacca Strait links the Indian Ocean and South China Sea."
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "The Ganga flows through Uttarakhand, Uttar Pradesh, Bihar, Jharkhand, and West Bengal; Madhya Pradesh is not on the river’s course. Of the listed states, (ii), (iii), and (iv) are correct."
+        },
+        "18": {
+          "answerIndex": 2,
+          "explanation": "The Government of Mizoram identifies the Tuirial as the Sonai River."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "A constitutional amendment bill may be introduced by any member of either House, including the Leader of the Opposition. The Attorney General and a minister who is not an MP cannot introduce it; only (ii) is correct."
+        },
+        "20": {
+          "answerIndex": 1,
+          "explanation": "The President may seek the Supreme Court’s advisory opinion on a question of law or fact, and this power does not depend on Parliament being in session. Such an opinion is advisory rather than binding; (i) and (iii) are correct."
+        },
+        "21": {
+          "answerIndex": 2,
+          "explanation": "Ambedkar called the Right to Constitutional Remedies the Constitution’s “heart and soul.”"
+        },
+        "22": {
+          "answerIndex": 3,
+          "explanation": "The Eighth Schedule lists 22 recognised languages."
+        },
+        "23": {
+          "answerIndex": 3,
+          "explanation": "The 101st Amendment introduced the constitutional framework for the Goods and Services Tax."
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "The Election Commission of India’s Suvidha platform supports candidates’ nomination and permission processes during elections."
+        },
+        "25": {
+          "answerIndex": 3,
+          "explanation": "Stand Up India, MGNREGA, and Ujjwala each include measures that support women’s economic participation; all three statements are correct."
+        },
+        "26": {
+          "answerIndex": 1,
+          "explanation": "Deflation calls for monetary easing. Lowering the reverse repo rate can discourage banks from parking funds with the central bank; increasing CRR or the bank rate would tighten credit."
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "The Union Budget 2025–26 sets the fiscal-deficit target at 4.4% of GDP."
+        },
+        "28": {
+          "answerIndex": 2,
+          "explanation": "Personal disposable income is personal income after subtracting direct taxes."
+        },
+        "30": {
+          "answerIndex": 1,
+          "explanation": "The policy explicitly aims to attract private investment, particularly from outside Mizoram, to create jobs and strengthen infrastructure and development."
         }
       }
     },

@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 9 October 2026
 
-49 general papers, 3,532 items: 3,461 MCQs and 71 written prompts.
-2,661 questions are ready for practice, including 1,614 official answers and
-1,047 independently derived answers. 811 items still need source review.
+49 general papers, 3,539 items: 3,468 MCQs and 71 written prompts.
+2,689 questions are ready for practice, including 1,614 official answers and
+1,075 independently derived answers. 790 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -166,3 +166,10 @@ Q7, Q30, Q33, Q53–54, Q56, Q66, Q70–72, Q77–79 and Q96 remain unscored bec
 their choices are outdated, missing, duplicated or ambiguous. The cover
 specifies 100 questions, two marks each and three hours. No official final key
 was matched, so the paper remains excluded from full-paper Exam mode.
+
+AAO/AAAO/Field Facilitator Paper-II, November 2025: Q1–30 have readable,
+scan-checked stems/options after restoring the merged Q1–7 and replacing the
+corrupt Q8 row. Twenty-eight questions have derived explanations; Q6 and Q29
+are held because their choice sets do not contain the factually correct
+combination. Q31–100 remain under scan review. The cover confirms 100
+two-mark questions, two hours and negative marking.

@@ -145,6 +145,20 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertEqual(result['questions'][97]['opts']['c'].count('flavors'), 1)
         self.assertIn('sulfur compounds', result['questions'][98]['opts']['a'])
 
+    def test_aao_2025_paper_two_recovers_merged_first_eight_questions(self):
+        extracted = json.loads((HERE / 'extracted/aao-2025-p2.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['aao-2025-p2']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 31)) | {60})
+        self.assertEqual(len(result['questions']), 100)
+        self.assertIn('NISAR', result['questions'][0]['q'])
+        self.assertIn('tariff', result['questions'][1]['q'])
+        self.assertIn('Poona Pact', result['questions'][7]['q'])
+        self.assertTrue(result['questions'][5]['unscored'])
+        self.assertTrue(result['questions'][28]['unscored'])
+        self.assertEqual(result['questions'][29]['opts']['b'], 'private investment, particularly from outside the State')
+        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 31)) - {6, 29} | {60})
+
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'
         with self.assertRaisesRegex(AssertionError, 'Stale'):

@@ -14416,7 +14416,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The final key marks D, but “had we not met her” is a past unreal condition and standard grammar would use “would she have stayed”; that exact form is not offered. The printed item/key conflict, so this question is held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q3",
@@ -15026,7 +15026,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The final key marks B, but B removes “I remember” and changes the statement into a present action. C is the passive equivalent. Because the printed key conflicts with meaning-preserving grammar, this question is held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q24",
@@ -43715,7 +43715,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "As of the August 2024 sitting, the Lok Sabha had 543 elected seats; none of the choices gives that number. The historical figure 545 includes two nominated Anglo-Indian members, a provision that had ceased to operate. Do not score this outdated item."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q8",
@@ -44312,7 +44312,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "Standard physiographic divisions place the Malwa Plateau in the Central Highlands, north of the Deccan Plateau. The other choices also do not provide a clear, unambiguous part of the Deccan Plateau as the question asks. The printed options do not yield a reliable unique answer, so this item is held."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q31",
@@ -44389,7 +44389,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "Both Kelvin and Rankine are absolute temperature scales whose zero corresponds to absolute zero. Since both appear among the choices, the printed item has more than one correct answer and is held."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q34",
@@ -44908,7 +44908,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "None of the choices expresses past ability: the expected modal would be “could.” Option C describes a past habit, not an ability. This item has no correct option and is held."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q54",
@@ -44933,7 +44933,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "No option expresses a past obligation (normally “had to”). Option B is a present obligation; C expresses past ability. The item has no correct option and is held."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q55",
@@ -44984,7 +44984,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "Options A and B are identical and both complete the sentence correctly. Because the item requires one answer index but prints duplicate correct choices, it is held."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q57",
@@ -45243,7 +45243,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "Both B (“bigger than”) and D (“more fluently than”) correctly use comparative forms. The question asks for a single correct sentence but provides two, so it is held."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q67",
@@ -45346,7 +45346,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "Both B (a correctly punctuated list) and D (a comma joining two independent clauses with “but”) are grammatically punctuated. The single-answer item is ambiguous and is held."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q71",
@@ -45371,7 +45371,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "Each option can be reordered into a grammatical sentence (for example, “She found an interesting book yesterday” and “The children played happily in the park”). The item has multiple correct choices and is held."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q72",
@@ -45396,7 +45396,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "All four word groups can be reordered into grammatical sentences. The item has multiple correct choices and is held."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q73",
@@ -45526,7 +45526,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "sourceNote": "Both A and C are supported: the narrator welcomes rain because it brings cooler weather, and adults have to work rather than receive a long summer break. The item does not identify which distinction it is testing, so it has multiple defensible answers and is held.",
     "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
@@ -45552,7 +45552,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "sourceNote": "Both A and D are explicitly supported: the narrator was bored on rainy days and was an only child. The single-answer item has multiple correct options and is held.",
     "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
@@ -45578,7 +45578,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "sourceNote": "“Less excitable” is supported by the narrator’s calmer adult reaction, while “more realistic” is also supported by the change from idealized childhood expectations to an adult view of seasonal weather. Both comparisons are defensible, so the item is held.",
     "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
@@ -46036,7 +46036,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=11",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "sourceNote": "The passage discusses nutrient content and food combinations but gives no evidence about healthcare costs, disparities, policy priorities, or cultural access. All four options extrapolate beyond the passage; none is uniquely supported by the passage-only direction, so the item is held.",
     "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
@@ -47497,7 +47497,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "imagePath": "/question-images/group-b/si-excise-2024-p2-q052.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The printed expression contains nested fractions and an ambiguous “÷ … of” grouping; applying standard precedence gives a result absent from the choices. Keep unscored pending an official key or correction."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q53",
@@ -48122,7 +48122,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "One roller revolution advances by its circumference, 2π×0.42≈2.64 m. Covering 7,920 m therefore takes 3,000 revolutions, but none of the four printed options (20, 25, 30, 35) matches."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q77",
@@ -48382,7 +48382,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "imagePath": "/question-images/group-b/si-excise-2024-p2-q086.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The mirror-image lettering and four answer strings are visibly degraded in the scan. Keep unscored until the figures can be read reliably."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q87",
@@ -48512,7 +48512,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "imagePath": "/question-images/group-b/si-excise-2024-p2-q091.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The problem and answer figures are shown, but the intended transformation rule is not sufficiently unambiguous to key confidently from this scan."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q92",
@@ -48589,7 +48589,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The stem identifies F only as D’s maternal uncle. It does not state whether F is also B’s brother, so it does not establish whether A is another nephew of F. The number of nephews is therefore underdetermined."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q95",
@@ -50481,7 +50481,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The description does not fit all four choices, so “All of the above” is not supported and the intended answer is unclear."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q31",
@@ -51754,7 +51754,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The scan exponent and constant term are not fully legible. The reciprocal-root rule suggests p=r only if the equation is px²+x+r=0; hold due to transcription uncertainty."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q80",
@@ -51805,7 +51805,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The analogy is not unique: Greenland, Ireland and Borneo are all islands, and the stem does not specify the intended ocean relationship."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q82",
@@ -51830,7 +51830,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The apparent option codes admit no clear unique rule in the scan; held for source/key review."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q83",
@@ -52194,7 +52194,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "imagePath": "/question-images/group-b/si-excise-2025-p2-q096.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The mirror-image character sequence and options are too distorted to compare reliably."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q97",
@@ -52220,7 +52220,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "imagePath": "/question-images/group-b/si-excise-2025-p2-q097.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "The shape sequence is visible but the rotation/reflection rule does not yield a sufficiently certain unique choice from this scan."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q98",
@@ -53566,7 +53566,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-fcs-2025-p1.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "sourceNote": "Held out: both “Although he was tired, he continued working” and “Although he was tired, yet he continued working” occur as grammatical constructions, so the item does not offer a unique correct sentence.",
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options."
   },
   {
@@ -53619,7 +53619,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-fcs-2025-p1.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "sourceNote": "Held out: both “She insisted on me joining the team” and “She insisted that I join the team” are grammatical; the options contain more than one correct answer.",
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options."
   },
   {
@@ -53645,7 +53645,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-fcs-2025-p1.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "sourceNote": "Held out: both “prefers coffee over tea” and “prefers coffee to tea” are standard constructions, so the item has more than one correct answer.",
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct sentence structure from the given options."
   },
   {
@@ -55293,7 +55293,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "Held out: the printed premise is arithmetically false (1²+2²+3²+4²+5² = 55, not 658), so its intended proportional calculation cannot be accepted as a correct question."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q52",
@@ -55734,7 +55734,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "Held out: the question does not say that every person eats at least one of beef or pork. The number who eat pork only cannot be determined if some people eat neither."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q69",
@@ -56473,7 +56473,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+    "sourceNote": "Held out: “the granddaughter of my mother” could mean Sarah’s daughter or her sister’s daughter; the relationship to the husband differs, so the stem does not determine one answer."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q97",
@@ -58298,6 +58298,187 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
   },
   {
+    "id": "mpsc-group-b-aao-2025-p2-Q1",
+    "paperId": "mpsc-group-b-aao-2025-p2",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "Consider the statements about the NISAR (NASA–ISRO Synthetic Aperture Radar) satellite mission launched in 2025: (i) NISAR is a joint collaboration between ISRO and NASA. (ii) It is designed to map Earth’s surface every 12 days and track climate threats. (iii) NISAR is India’s first geostationary satellite dedicated to climate observation. Select the correct answer.",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i) and (iii) only",
+      "All of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "NISAR is a joint NASA–ISRO mission and its two radars are designed to image global land and ice surfaces every 12 days. It is a low-Earth-orbit observatory, not a geostationary satellite, so statements (i) and (ii) alone are correct.",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p2-Q2",
+    "paperId": "mpsc-group-b-aao-2025-p2",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "In August 2025, the United States imposed a 50% tariff on selected Indian imports, citing India’s continued purchases of Russian oil. Which sectors were most affected? (i) Textiles and apparel (ii) Jewellery and precious stones (iii) Pharmaceuticals and medical devices (iv) Agricultural products. Select the correct answer.",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) and (iv) only",
+      "(i), (ii), and (iv) only",
+      "All of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "Textiles, gems and jewellery, and affected agricultural/food exports faced the higher duties; pharmaceuticals and medical devices were among the exempt sectors. Thus statements (i), (ii), and (iv) are the supported group.",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p2-Q3",
+    "paperId": "mpsc-group-b-aao-2025-p2",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "The 17th BRICS Summit was held in Rio de Janeiro, Brazil, on 6–7 July 2025. What was its theme?",
+    "options": [
+      "Promoting Global Trade and Investment for Sustainable Growth",
+      "Building Resilient Economies through Green Energy",
+      "Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance",
+      "Harnessing Technology for Development and Peace"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official Brazilian BRICS presidency and Rio Declaration give the summit theme as “Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance.”",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p2-Q4",
+    "paperId": "mpsc-group-b-aao-2025-p2",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "Which person from Mizoram was selected by the Ministry of Youth Affairs and Sports as a “National Youth Icon” under the Viksit Bharat Yuva Connect initiative?",
+    "options": [
+      "Grace Lalnunpari Hauzel",
+      "Grace Lalrampari Hauzel",
+      "Grace Lalropari Hauzel",
+      "Grace Lalrinpari Hauzel"
+    ],
+    "answerIndex": 3,
+    "explanation": "The selected youth icon is Grace Lalrinpari Hauzel; the other options alter her middle name.",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p2-Q5",
+    "paperId": "mpsc-group-b-aao-2025-p2",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "Which of the following statements are not correct? (i) The 2026 FIFA World Cup will be the 24th edition and will run from June 11 to July 19, 2026. (ii) It will be the first World Cup hosted by three nations. (iii) The United States, Canada, and Mexico will co-host it. (iv) FIFA is considering expanding the 2030 tournament to 48 teams.",
+    "options": [
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "Only (iii) and (iv)",
+      "Only (i) and (iv)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The 2026 event is the 23rd edition, so (i) is false; statements (ii) and (iii) are correct. The 48-team format is already in place for 2026, so describing it as a contemplated expansion for 2030 is false; therefore (i) and (iv) are the incorrect statements.",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p2-Q6",
+    "paperId": "mpsc-group-b-aao-2025-p2",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "Consider these statements about 2025: (i) The UN General Assembly declared it the International Year of Cooperation. (ii) The theme is “Cooperatives Build a Better Nation.” (iii) The year aims to bring uniformity, transparency, and efficiency to PACS, which means “Productivity for Agricultural Credit Societies.” (iv) India’s first national-level cooperative university was inaugurated in Anand, Rajasthan, in July 2025. Select the correct statement(s).",
+    "options": [
+      "(i), (ii), and (iii)",
+      "(ii), (iii), and (iv)",
+      "(i), (iii), and (iv)",
+      "(i), (ii), and (iv)"
+    ],
+    "answerIndex": -1,
+    "explanation": "The official name is the International Year of Cooperatives and its theme is “Cooperatives Build a Better World”; PACS means Primary Agricultural Credit Societies, and Anand is in Gujarat. Thus the printed statements are all false as written, but every choice includes three statements and no “none” option. Hold this defective item.",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=3",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "The official name is the International Year of Cooperatives and its theme is “Cooperatives Build a Better World”; PACS means Primary Agricultural Credit Societies, and Anand is in Gujarat. Thus the printed statements are all false as written, but every choice includes three statements and no “none” option. Hold this defective item."
+  },
+  {
+    "id": "mpsc-group-b-aao-2025-p2-Q7",
+    "paperId": "mpsc-group-b-aao-2025-p2",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "Which of the following were causes of the 1857 Revolt? (i) Sepoys were denied foreign-service allowance (batta) when serving in Sind or Punjab. (ii) The General Services Enlistment Act required sepoys to serve overseas. (iii) The British introduced a law requiring sepoys to pay income tax on their salaries. Select the correct answer.",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(ii) only",
+      "(i), (ii), and (iii)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The batta allowance issue and the General Services Enlistment Act are recognized grievances among sepoys. No general income-tax law of the kind in statement (iii) caused the revolt.",
+    "source": "AAO / AAAO / Field Facilitator · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-aao-2025-p2-Q8",
     "paperId": "mpsc-group-b-aao-2025-p2",
     "questionNumber": "8",
@@ -58306,21 +58487,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "There will be penalty (negative marking) for every wrong answer given by a candidate in the MCQ type questions. 1.Consider the following statements about the NISAR (NASA-ISRO Synthetic Aperture Radar) satellite mission launched in 2025: (i)NISAR is a joint collaboration between ISRO and NASA. (ii)The satellite is designed to map Earth’s surface every 12 days and track climate threats. (iii)NISAR is India’s first geostationary satellite dedicated to climate observation. Select the correct answer using the code below:",
+    "question": "With reference to the Poona Pact of 1932, which statement is correct? (i) It was an agreement between Gandhi and B. R. Ambedkar to resolve the issue of political representation for the depressed classes. (ii) The Pact was rejected by the British Government. Select the correct answer.",
     "options": [
-      "(i) and (ii) only",
-      "(ii) and (iii) only",
-      "(i) and (iii) only",
-      "All of the above (a)(i) and (ii) only(b)(ii) and (iv) only (c)(i), (ii), and (iv) only(d)All of the above (a)Promoting Global Trade and Investment for Sustainable Growth (b)Building Resilient Economies through Green Energy (c)Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance (d)Harnessing Technology for Development and Peace (a)Grace Lalnunpari Hauzel(b)Grace Lalrampari Hauzel (c)Grace Lalropari Hauzel(d)Grace Lalrinpari Hauzel (a)Only (i) and (ii)(b)Only (ii) and (iii) (c)Only  (iii) and  (iv)(d)Only (i) and (iv) means Productivity for Agricultural Credit Societies. 2025. (a)(i), (ii) and (iii)(b)(ii), (iii) and (iv) (c)(i), (iii) and (iv)(d)(i), (ii) and (iv) (a)(i) and (ii) only(b)(ii) and (iii) only (c)(ii) only(d)(i), (ii) and (iii) representation of depressed classes. (a)(i) only(b)(ii) only (c)Both (i) and (ii)(d)Neither (i) nor (ii)"
+      "(i) only",
+      "(ii) only",
+      "Both (i) and (ii)",
+      "Neither (i) nor (ii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Pact was agreed by Gandhi and Ambedkar to settle representation arrangements. The British accepted the agreement; it was not rejected.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
-    "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=1",
-    "sourceReview": true,
+    "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q9",
@@ -58331,24 +58513,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Consider the following statements in the context of Samudragupta’s reign: (i)Vishnusena eulogised the military expeditions of Samudragupta on a pillar at Allahabad. (ii)Chinese traveller Fa-hein visited the court of Samudragupta (iii)Samudragupta adopted the famous title ‘Vikramaditya’. Which of the statements given above is/are correct ?",
+    "question": "Consider these statements about Samudragupta’s reign: (i) Vishnusena praised Samudragupta’s military expeditions on an Allahabad pillar. (ii) The Chinese traveller Fa-Hien visited Samudragupta’s court. (iii) Samudragupta adopted the title “Vikramaditya.” Which statements are correct?",
     "options": [
       "(ii) and (iii) only",
       "(ii) only",
       "(i) and (ii) only",
       "None"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Allahabad pillar inscription praising Samudragupta was composed by Harisena, not Vishnusena. Fa-Hien visited during Chandragupta II’s reign, and Vikramaditya was a title associated with Chandragupta II. None of the three statements is correct.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q10",
@@ -58359,24 +58539,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The Chauri-Chaura incident during non-cooperation movement (February, 1922) relates to",
+    "question": "The Chauri Chaura incident during the Non-Cooperation Movement in February 1922 involved —",
     "options": [
-      "Burning of police post by a mob",
-      "A major offensive by underground revolution",
-      "Large scale looting of government property",
-      "Massive police firing on unarmed satyagrahis"
+      "a mob burning a police station",
+      "a major underground revolutionary offensive",
+      "large-scale looting of government property",
+      "police firing on unarmed satyagrahis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "During the Chauri Chaura incident, a crowd set fire to a police station, killing policemen; Gandhi then suspended the Non-Cooperation Movement.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q11",
@@ -58387,24 +58565,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The slogan ‘Inquilab Zindabad’ was popularized during India’s freedom struggle by which leader?",
+    "question": "Which leader popularised the slogan “Inquilab Zindabad” during India’s freedom struggle?",
     "options": [
       "Bhagat Singh",
       "Mahatma Gandhi",
       "Subhas Chandra Bose",
       "Bal Gangadhar Tilak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Bhagat Singh and his fellow revolutionaries made “Inquilab Zindabad” widely popular during the independence movement.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q12",
@@ -58415,24 +58591,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The Inner Line Regulation of 1873, a British Colonial Policy in North East India to restrict outsiders into the tribal areas was formally known as:",
+    "question": "What was the formal name of the 1873 Inner Line Regulation restricting outsiders from entering tribal areas in Northeast India?",
     "options": [
       "Bengal Eastern Frontier Regulation, 1873",
       "Eastern Bengal Frontier Regulation, 1873",
-      "North  Eastern Frontier Regulation, 1873",
+      "North Eastern Frontier Regulation, 1873",
       "East Bengal Frontier Regulation, 1873"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 1873 regulation’s formal title was the Bengal Eastern Frontier Regulation, 1873.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q13",
@@ -58443,24 +58617,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following conditions increases the rainfall during the Southwest Monsoon? (i)Positive Indian Ocean Dipole (ii)La Niña Condition in Pacific Ocean (iii)Strengthening of the Siberian High Select the correct answer using the code given below.",
+    "question": "Which conditions increase rainfall during the southwest monsoon? (i) A positive Indian Ocean Dipole (ii) La Niña conditions in the Pacific Ocean (iii) A strengthening Siberian High. Select the correct answer.",
     "options": [
       "(i) and (ii) only",
       "(ii) and (iii) only",
       "(i) and (iii) only",
-      "(i), (ii) and (iii)"
+      "(i), (ii), and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A positive Indian Ocean Dipole and La Niña generally support stronger Indian monsoon rainfall. A strengthening Siberian High does not; only statements (i) and (ii) are correct.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q14",
@@ -58471,24 +58643,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Gaza strip lies along the coast of",
+    "question": "The Gaza Strip lies along the coast of the —",
     "options": [
       "Dead Sea",
       "Mediterranean Sea",
       "Persian Gulf",
       "Red Sea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Gaza Strip borders the Mediterranean Sea.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q15",
@@ -58499,24 +58669,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "‘Perihelion’ refers to the point in the Earth’s orbit when",
+    "question": "“Perihelion” refers to the point in Earth’s orbit when —",
     "options": [
-      "The Earth is farthest from the Sun",
-      "The Earth experiences an equinox",
-      "The Sun is at the highest point in the sky",
-      "The Earth is closest to the Sun"
+      "Earth is farthest from the Sun",
+      "Earth experiences an equinox",
+      "the Sun is highest in the sky",
+      "Earth is closest to the Sun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Perihelion is the point in an orbit at which an object is closest to the Sun.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q16",
@@ -58527,24 +58695,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Match the following straits with the water bodies/countries they connect: **List – I (Straits)** (i)Strait of Gibraltar(ii)Palk Strait (iii)Bering Strait(iv)Malacca Strait **List – II (Connections)** A) India and Sri Lanka B) Pacific Ocean and Arctic Ocean C) Atlantic Ocean and Mediterranean Sea D) Indian Ocean and South China Sea Options:",
+    "question": "Match each strait in List I with the water bodies or countries it connects in List II. List I: (i) Strait of Gibraltar (ii) Palk Strait (iii) Bering Strait (iv) Strait of Malacca. List II: A) India and Sri Lanka B) Pacific and Arctic Oceans C) Atlantic Ocean and Mediterranean Sea D) Indian Ocean and South China Sea.",
     "options": [
       "i–C, ii–A, iii–B, iv–D",
       "i–B, ii–D, iii–A, iv–C",
       "i–D, ii–C, iii–B, iv–A",
       "i–A, ii–C, iii–D, iv–B"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gibraltar connects the Atlantic Ocean with the Mediterranean Sea; Palk Strait separates India and Sri Lanka; Bering Strait connects the Pacific and Arctic Oceans; Malacca Strait links the Indian Ocean and South China Sea.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q17",
@@ -58555,24 +58721,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The Ganga river passes through which among the following states of India? (i)Madhya Pradesh (ii)Uttarakhand (iii)Jharkhand (iv)West Bengal Choose the correct option from the code given below:",
+    "question": "Which states does the Ganga River itself pass through? (i) Madhya Pradesh (ii) Uttarakhand (iii) Jharkhand (iv) West Bengal. Select the correct option.",
     "options": [
       "(i) and (ii)",
-      "(i), (ii) and (iii)",
-      "(ii), (iii) and (iv)",
-      "(i), (ii), (iii) and (iv)"
+      "(i), (ii), and (iii)",
+      "(ii), (iii), and (iv)",
+      "(i), (ii), (iii), and (iv)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Ganga flows through Uttarakhand, Uttar Pradesh, Bihar, Jharkhand, and West Bengal; Madhya Pradesh is not on the river’s course. Of the listed states, (ii), (iii), and (iv) are correct.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q18",
@@ -58583,21 +58747,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Sonai is another name for river:",
+    "question": "Sonai is another name for which river?",
     "options": [
-      "Tuirini",
+      "Tuimni",
       "Tlawng",
       "Tuirial",
       "Khawthlangtuipui"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Government of Mizoram identifies the Tuirial as the Sonai River.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q19",
@@ -58608,21 +58773,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Who among the following can introduce a bill to amend the Constitution of India? (i)A minister who is not a part of the Parliament (ii)Leader of Opposition (iii)Attorney General Select the correct answer using the code given below.",
+    "question": "Who can introduce a bill to amend the Constitution of India? (i) A minister who is not a member of Parliament (ii) The Leader of the Opposition (iii) The Attorney General. Select the correct answer.",
     "options": [
       "(i) and (iii) only",
       "(i) only",
       "(ii) and (iii) only",
       "(i) and (ii) only"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A constitutional amendment bill may be introduced by any member of either House, including the Leader of the Opposition. The Attorney General and a minister who is not an MP cannot introduce it; only (ii) is correct.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q20",
@@ -58633,24 +58799,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Consider the following statements regarding the Presidential Reference under Article 143 of the Constitution of India: (i)The President can refer any question of law or fact to the Supreme Court for its advisory opinion. (ii)The opinion given by the Supreme Court is binding on the President and other authorities. (iii)The President can refer a question even when Parliament is not in session. Select the correct answer using the code below:",
+    "question": "Consider these statements about a Presidential Reference under Article 143 of the Constitution: (i) The President may refer a question of law or fact to the Supreme Court for its advisory opinion. (ii) The Court’s opinion is binding on the President and other authorities. (iii) The President may refer a question even when Parliament is not in session. Select the correct answer.",
     "options": [
       "(i) and (ii) only",
       "(i) and (iii) only",
       "(ii) and (iii) only",
-      "(i), (ii) and (iii)"
+      "(i), (ii), and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The President may seek the Supreme Court’s advisory opinion on a question of law or fact, and this power does not depend on Parliament being in session. Such an opinion is advisory rather than binding; (i) and (iii) are correct.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q21",
@@ -58661,24 +58825,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which right was described by Dr. B.R Ambedkar as ‘The heart and soul of the constitution’?",
+    "question": "Which right did Dr. B. R. Ambedkar describe as the “heart and soul of the Constitution”?",
     "options": [
-      "Right to property",
+      "Right to Property",
       "Right to Equality",
-      "Right to constitutional remedies",
-      "Right to freedom of religion"
+      "Right to Constitutional Remedies",
+      "Right to Freedom of Religion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Ambedkar called the Right to Constitutional Remedies the Constitution’s “heart and soul.”",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q22",
@@ -58689,24 +58851,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "At present, how many languages are recognized in the 8th Schedule of the Indian Constitution?",
+    "question": "How many languages are currently recognised in the Eighth Schedule of the Constitution of India?",
     "options": [
       "18",
       "20",
       "21",
       "22"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Eighth Schedule lists 22 recognised languages.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q23",
@@ -58717,24 +58877,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The 101st Constitutional Amendment Act deals with:",
+    "question": "The 101st Constitutional Amendment Act deals with —",
     "options": [
-      "National Commission for Backward Classes",
-      "Reservation for Economically weaker sections",
-      "Reservation for women",
-      "Goods & Services Tax"
+      "the National Commission for Backward Classes",
+      "reservation for economically weaker sections",
+      "reservation for women",
+      "Goods and Services Tax"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 101st Amendment introduced the constitutional framework for the Goods and Services Tax.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q24",
@@ -58745,24 +58903,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "‘Suvidha’ is a Mobile application developed by:",
+    "question": "“Suvidha” is a mobile application developed by which organisation?",
     "options": [
-      "Ministry of Electronics and Information Technology that offers real-time, multilingual translation, transcription and summarization services.",
-      "Department of Telecommunications to provide Indian citizens with access to a wide array of central and state government services.",
-      "Election Commission of India to help candidates with the nomination and permission process during election periods.",
-      "National Informatics Centre for instant messaging platform."
+      "Ministry of Electronics and Information Technology, for multilingual translation, transcription, and summarisation",
+      "Department of Telecommunications, to access central and state government services",
+      "Election Commission of India, to help candidates with nominations and election permissions",
+      "National Informatics Centre, as an instant-messaging platform"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Election Commission of India’s Suvidha platform supports candidates’ nomination and permission processes during elections.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q25",
@@ -58773,24 +58929,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following policies promote gender-inclusive economic growth? (i)Stand Up India Scheme (ii)Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) (iii)Pradhan Mantri Ujjwala Yojana Select the correct answer:",
+    "question": "Which policies promote gender-inclusive economic growth? (i) Stand Up India Scheme (ii) Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) (iii) Pradhan Mantri Ujjwala Yojana. Select the correct answer.",
     "options": [
       "(i) and (ii) only",
       "(ii) and (iii) only",
       "(i) and (iii) only",
-      "(i), (ii) and (iii)"
+      "(i), (ii), and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Stand Up India, MGNREGA, and Ujjwala each include measures that support women’s economic participation; all three statements are correct.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q26",
@@ -58801,24 +58955,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "The Monetary Policy Committee (MPC) determines the policy interest rate required to achieve the inflation target. In this context, which of the following may be recommended by the MPC to control deflation in the economy? (i)Increase in Cash Reserve Ratio (CRR) (ii)Increase in Bank rate (iii)Decrease in Reverse Repo Rate Select the correct answer using the code given below.",
+    "question": "To control deflation, which measure may the Monetary Policy Committee recommend? (i) Increase the Cash Reserve Ratio (ii) Increase the bank rate (iii) Decrease the reverse repo rate. Select the correct answer.",
     "options": [
       "(i) and (ii) only",
       "(iii) only",
       "(ii) and (iii) only",
-      "(i), (ii) and (iii)"
+      "(i), (ii), and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Deflation calls for monetary easing. Lowering the reverse repo rate can discourage banks from parking funds with the central bank; increasing CRR or the bank rate would tighten credit.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q27",
@@ -58836,17 +58988,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "5.0%",
       "6.0%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Union Budget 2025–26 sets the fiscal-deficit target at 4.4% of GDP.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q28",
@@ -58859,22 +59009,20 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "difficulty": "medium",
     "question": "What is meant by personal disposable income?",
     "options": [
-      "Personal Income + Subsidies",
-      "Personal Income – Subsidies",
-      "Personal Income – Direct Taxes",
-      "Personal Income – Indirect Taxes"
+      "Personal income plus subsidies",
+      "Personal income minus subsidies",
+      "Personal income minus direct taxes",
+      "Personal income minus indirect taxes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Personal disposable income is personal income after subtracting direct taxes.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q29",
@@ -58885,24 +59033,21 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "With respect to Lakpati Didi Scheme, consider the following: (i)It is implemented by Ministry of Rural Development. (ii)Its goal is to increase the annual household income of SHG women to at least ₹1 lakh. (iii)It is an initiative and an outcome of DAY-NULM. Based on the code given below, select the correct statement:",
+    "question": "Consider these statements about the Lakhpati Didi initiative: (i) It is implemented by the Ministry of Rural Development. (ii) Its goal is to raise each participating SHG woman’s annual household income to at least ₹1 lakh. (iii) It is an initiative and outcome of DAY-NULM. Select the correct statement(s).",
     "options": [
       "(i) and (ii) only",
       "(ii) and (iii) only",
-      "(i) and  (iii) only",
-      "(i), (ii) and (iii)"
+      "(i) and (iii) only",
+      "(i), (ii), and (iii)"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Statements (i) and (ii) are correct, but the initiative is an outcome of DAY-NRLM, not DAY-NULM. None of the listed combinations selects only (i) and (ii), so the item has no correct option and is held.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Statements (i) and (ii) are correct, but the initiative is an outcome of DAY-NRLM, not DAY-NULM. None of the listed combinations selects only (i) and (ii), so the item has no correct option and is held."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q30",
@@ -58913,24 +59058,22 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Mizoram Sustainable Investment Policy, 2024 aims to attract-",
+    "question": "The Mizoram Sustainable Investment Policy, 2024 aims to attract —",
     "options": [
-      "Public investors, particularly from outside the State.",
-      "Private investment, particularly from outside the State.",
-      "Public Sector Undertaking, particularly from outside the State.",
-      "Both private and public investors operating in the State of Mizoram"
+      "public investors, particularly from outside the State",
+      "private investment, particularly from outside the State",
+      "public-sector undertakings, particularly from outside the State",
+      "both private and public investors operating in the State"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The policy explicitly aims to attract private investment, particularly from outside Mizoram, to create jobs and strengthen infrastructure and development.",
     "source": "AAO / AAAO / Field Facilitator · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/aao-2025-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q31",
@@ -63853,7 +63996,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 1 - 10): Identify the Parts of Speech of the underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p1-A9",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -64042,9 +64187,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 11 - 15): Choose the correct Preposition to fill in the blanks:"
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p1-A16",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -72348,7 +72491,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q90",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -72550,9 +72695,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q97",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -80915,7 +81058,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B55",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q56",
     "questionNumber": "B56",
@@ -81098,9 +81243,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B62",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q63",
     "questionNumber": "B63",
@@ -88750,7 +88893,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A29",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A30",
     "questionNumber": "A30",
@@ -88934,9 +89079,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A36",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A37",
     "questionNumber": "A37",

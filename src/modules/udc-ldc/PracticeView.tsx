@@ -172,7 +172,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
           </a>
         )}
         {q.direction && (
-          <div style={{ fontSize: 12.5, fontWeight: 600, marginBottom: 7, color: 'var(--text-secondary, #666)' }}>
+          <div className="udc-question-direction">
             {q.direction}
           </div>
         )}

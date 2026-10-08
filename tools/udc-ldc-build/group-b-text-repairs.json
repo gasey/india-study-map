@@ -27560,8 +27560,8 @@
       "sourceSha256": "4f5690d96cb821dc5f170e5f26f255f38d2bb8ae71920f64da1ff15550ba9c8f",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-09",
-      "partialReview": true,
-      "evidence": "Recovered the 12 numbering gaps (Q2, 9, 13, 20, 36, 38, 49, 52, 60, 65, 79 and 91) from printed pages 1–7 and 11 of the August 2024 Paper-I scan. Stems and all four options were checked against the page images; punctuation, spacing and OCR substitutions were corrected for readability. The cover confirms 100 questions, two marks each and three hours. Only these recovered questions are marked source-reviewed in this partial repair; the remaining paper still needs a full scan review. Source SHA256 binds the repair to this booklet.",
+      "partialReview": false,
+      "evidence": "All 12 printed pages of the August 2024 Paper-I scan have now been reviewed. All 100 MCQ numbers have readable stems and four options; the 12 OCR gaps are restored. Eighty-six questions have derived explanations. Fourteen questions are held because the printed choices are outdated, lack a valid answer, duplicate the correct answer, or permit multiple defensible answers. The cover specifies 100 questions, two marks each and three hours. Source SHA256 binds this review to the booklet.",
       "questions": {
         "2": {
           "n": 2,
@@ -27682,7 +27682,10 @@
             "b": "less excitable",
             "c": "more idealistic",
             "d": "less calm"
-          }
+          },
+          "unscored": true,
+          "explanation": "“Less excitable” is supported by the narrator’s calmer adult reaction, while “more realistic” is also supported by the change from idealized childhood expectations to an adult view of seasonal weather. Both comparisons are defensible, so the item is held.",
+          "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
         },
         "91": {
           "n": 91,
@@ -27693,7 +27696,1025 @@
             "b": "To enhance taste and flavour in meals",
             "c": "To replace traditional meals entirely",
             "d": "To cater specifically to the dietary needs of teenagers"
+          },
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
+        },
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "What was the period of the First Five Year Plan in India?",
+          "opts": {
+            "a": "1947–52",
+            "b": "1950–55",
+            "c": "1951–56",
+            "d": "1952–57"
           }
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "On what date was the Goods and Services Tax introduced in India?",
+          "opts": {
+            "a": "1 January 2017",
+            "b": "1 April 2017",
+            "c": "1 July 2017",
+            "d": "1 July 2018"
+          }
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Which of the following is not stated in the Preamble to the Constitution?",
+          "opts": {
+            "a": "Parliamentary",
+            "b": "Sovereign",
+            "c": "Secular",
+            "d": "Republic"
+          }
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "The National Disaster Management Authority is a —",
+          "opts": {
+            "a": "constitutional body",
+            "b": "quasi-judicial body",
+            "c": "statutory body",
+            "d": "development commission"
+          }
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "Who elects the members of the Rajya Sabha?",
+          "opts": {
+            "a": "Members of the Lok Sabha",
+            "b": "Members of State Legislative Assemblies",
+            "c": "State Councils of Ministers",
+            "d": "Members of Parliament and State Legislative Assemblies"
+          }
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "How many members does the Lok Sabha currently consist of?",
+          "opts": {
+            "a": "552",
+            "b": "545",
+            "c": "554",
+            "d": "532"
+          },
+          "unscored": true,
+          "explanation": "As of the August 2024 sitting, the Lok Sabha had 543 elected seats; none of the choices gives that number. The historical figure 545 includes two nominated Anglo-Indian members, a provision that had ceased to operate. Do not score this outdated item."
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "q": "Which of the following is not a Union Territory?",
+          "opts": {
+            "a": "Goa",
+            "b": "Jammu and Kashmir",
+            "c": "Puducherry",
+            "d": "Chandigarh"
+          }
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "Who conducts elections to rural and urban local bodies?",
+          "opts": {
+            "a": "Election Commission of India",
+            "b": "State Election Commission",
+            "c": "State Local Administration Department",
+            "d": "A body designated by the State Government"
+          }
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Which benchmark index is associated with the National Stock Exchange?",
+          "opts": {
+            "a": "SENSEX",
+            "b": "NIFTY",
+            "c": "Dow Jones",
+            "d": "NCDEX"
+          }
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "Monetary policy is regulated by the —",
+          "opts": {
+            "a": "Central Government",
+            "b": "Finance Ministry",
+            "c": "central bank",
+            "d": "commercial banks"
+          }
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "Which sector is commonly associated with disguised unemployment?",
+          "opts": {
+            "a": "Agriculture",
+            "b": "Industry",
+            "c": "Services",
+            "d": "Tourism"
+          }
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "A remarkable increase in fish and marine-product production is called the —",
+          "opts": {
+            "a": "Green Revolution",
+            "b": "Blue Revolution",
+            "c": "aquaculture",
+            "d": "multi-dimensional fisheries"
+          }
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "What is the effect of a central bank reducing the cash reserve ratio on credit creation?",
+          "opts": {
+            "a": "Increase",
+            "b": "Decrease",
+            "c": "No change",
+            "d": "No expansion"
+          }
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "What is a tax charged over and above a taxpayer’s base tax liability called?",
+          "opts": {
+            "a": "Excise",
+            "b": "VAT",
+            "c": "Cess",
+            "d": "Excess"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "q": "How much was allocated for capital expenditure in the Mizoram Budget 2024–25?",
+          "opts": {
+            "a": "₹2,455.08 crore",
+            "b": "₹2,500.52 crore",
+            "c": "₹2,200.02 crore",
+            "d": "₹2,550.08 crore"
+          }
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "q": "What share of Mizoram’s total expenditure did revenue expenditure account for in the 2024–25 Budget Estimates?",
+          "opts": {
+            "a": "78.9%",
+            "b": "80.24%",
+            "c": "82.97%",
+            "d": "83.2%"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "q": "Which of the following is not a centrally sponsored scheme in Mizoram?",
+          "opts": {
+            "a": "MGNREGS",
+            "b": "PMAY",
+            "c": "FOCUS",
+            "d": "JJM"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 2,
+          "q": "Who composed the song “Vande Mataram”?",
+          "opts": {
+            "a": "Rabindranath Tagore",
+            "b": "Sarojini Naidu",
+            "c": "Bankim Chandra Chatterjee",
+            "d": "Ramdhari Singh Dinkar"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 2,
+          "q": "What was the first newspaper in India?",
+          "opts": {
+            "a": "Bengal Gazette",
+            "b": "Hindustan Times",
+            "c": "The Pioneer",
+            "d": "Sambad Kaumadi"
+          }
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "Who was known as the “Modern Man of India”?",
+          "opts": {
+            "a": "Swami Vivekananda",
+            "b": "A. O. Hume",
+            "c": "Nana Saheb",
+            "d": "Raja Ram Mohan Roy"
+          }
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "Who said, “Swaraj is my birthright, and I shall have it”?",
+          "opts": {
+            "a": "Raja Ram Mohan Roy",
+            "b": "Mahatma Gandhi",
+            "c": "Bal Gangadhar Tilak",
+            "d": "Jawaharlal Nehru"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "Who was called the “Grand Old Man of India”?",
+          "opts": {
+            "a": "Dadabhai Naoroji",
+            "b": "Gopal Krishna Gokhale",
+            "c": "Ramesh Chandra Banerjee",
+            "d": "Lokamania Tilak"
+          }
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "Under which Act were provincial governments constituted?",
+          "opts": {
+            "a": "1932",
+            "b": "1935",
+            "c": "1947",
+            "d": "1949"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "Who gave the slogan “Do or Die”?",
+          "opts": {
+            "a": "Bal Gangadhar Tilak",
+            "b": "Jawaharlal Nehru",
+            "c": "Bhagat Singh",
+            "d": "Mahatma Gandhi"
+          }
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "q": "Which of the following is a volcanic island?",
+          "opts": {
+            "a": "Narcondam",
+            "b": "Pamban",
+            "c": "Rameshwaram",
+            "d": "Aliabet"
+          }
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "q": "Which of the following is included in the Deccan Plateau region?",
+          "opts": {
+            "a": "Western Ghats",
+            "b": "Chota Nagpur",
+            "c": "Malwa Plateau",
+            "d": "Aravallis"
+          },
+          "unscored": true,
+          "explanation": "Standard physiographic divisions place the Malwa Plateau in the Central Highlands, north of the Deccan Plateau. The other choices also do not provide a clear, unambiguous part of the Deccan Plateau as the question asks. The printed options do not yield a reliable unique answer, so this item is held."
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "q": "The McMahon Line effectively demarcates which boundary?",
+          "opts": {
+            "a": "India and Nepal",
+            "b": "India and China",
+            "c": "India and Bhutan",
+            "d": "India and Pakistan"
+          }
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "q": "What does a sudden fall in a mercury barometer indicate?",
+          "opts": {
+            "a": "Fair weather",
+            "b": "Stormy weather",
+            "c": "Cold weather",
+            "d": "Hot weather"
+          }
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "q": "Which temperature scale is based on absolute zero?",
+          "opts": {
+            "a": "Celsius",
+            "b": "Fahrenheit",
+            "c": "Kelvin",
+            "d": "Rankine"
+          },
+          "unscored": true,
+          "explanation": "Both Kelvin and Rankine are absolute temperature scales whose zero corresponds to absolute zero. Since both appear among the choices, the printed item has more than one correct answer and is held."
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "q": "The motion of an object in free fall is an example of —",
+          "opts": {
+            "a": "uniform velocity",
+            "b": "uniform acceleration",
+            "c": "zero acceleration",
+            "d": "non-uniform acceleration"
+          }
+        },
+        "35": {
+          "n": 35,
+          "page": 3,
+          "q": "Which of the following is not part of the digestive system?",
+          "opts": {
+            "a": "small intestine",
+            "b": "rectum",
+            "c": "pharynx",
+            "d": "spleen"
+          }
+        },
+        "37": {
+          "n": 37,
+          "page": 3,
+          "q": "What is the full form of DNA?",
+          "opts": {
+            "a": "Deoxyribonucleic acid",
+            "b": "Dinucleic acid",
+            "c": "Diribonucleic acid",
+            "d": "Dual nitrogen acid"
+          }
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "Who composed the popular Mizo song “Lenlai a rual lo”?",
+          "opts": {
+            "a": "C. Durthanga",
+            "b": "Englandthanga",
+            "c": "C. Dinthanga",
+            "d": "Sailothangi Sailo"
+          }
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "According to the 2011 Census, which district had the highest literacy rate?",
+          "opts": {
+            "a": "Aizawl",
+            "b": "Champhai",
+            "c": "Serchhip",
+            "d": "Lunglei"
+          }
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "q": "Who released the Annual Status of Education Report (ASER) 2023?",
+          "opts": {
+            "a": "Pratham NGO",
+            "b": "Ministry of Education",
+            "c": "Samagra Shiksha Abhyan",
+            "d": "NITI Aayog"
+          }
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "q": "Who releases the National Multidimensional Poverty Index?",
+          "opts": {
+            "a": "Ministry of Social Justice and Empowerment",
+            "b": "Ministry of Commerce and Industry",
+            "c": "NITI Aayog",
+            "d": "Prime Minister’s Office"
+          }
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "q": "The recently announced Pradhan Mantri Suryodaya Yojana aims to provide —",
+          "opts": {
+            "a": "free electricity to poor households",
+            "b": "rooftop solar power to one crore households",
+            "c": "grid-connected power to households",
+            "d": "green energy to the people"
+          }
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "q": "The Electoral Bond scheme, later struck down by the Supreme Court, was implemented from —",
+          "opts": {
+            "a": "2017",
+            "b": "2018",
+            "c": "2019",
+            "d": "2020"
+          }
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "q": "As of August 2024, which state was the first to enact a Uniform Civil Code?",
+          "opts": {
+            "a": "Assam",
+            "b": "Gujarat",
+            "c": "Uttarakhand",
+            "d": "Uttar Pradesh"
+          }
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "q": "Who was named Time magazine’s 2022 Person of the Year?",
+          "opts": {
+            "a": "Joe Biden",
+            "b": "Narendra Modi",
+            "c": "Vladimir Putin",
+            "d": "Volodymyr Zelensky"
+          }
+        },
+        "47": {
+          "n": 47,
+          "page": 4,
+          "q": "Which country, facing jihadist violence and poverty, recently announced its departure from ECOWAS?",
+          "opts": {
+            "a": "Benin",
+            "b": "Burkina Faso",
+            "c": "Cote d'Ivoire",
+            "d": "Ghana"
+          }
+        },
+        "48": {
+          "n": 48,
+          "page": 4,
+          "q": "On which date is World AIDS Day observed?",
+          "opts": {
+            "a": "1 December",
+            "b": "2 December",
+            "c": "5 December",
+            "d": "7 December"
+          }
+        },
+        "50": {
+          "n": 50,
+          "page": 4,
+          "q": "Which Indian tennis player won the 2024 Australian Open men’s doubles title?",
+          "opts": {
+            "a": "Rohan Bopanna",
+            "b": "Vishnu Vardhan",
+            "c": "Leander Paes",
+            "d": "Mahesh Bhupathi"
+          }
+        },
+        "51": {
+          "n": 51,
+          "page": 4,
+          "q": "In which sentence is the modal verb used to express necessity?",
+          "opts": {
+            "a": "She might go to the party if she finishes her work on time.",
+            "b": "You should wear a coat; it’s cold outside.",
+            "c": "He would play tennis every weekend when he was younger.",
+            "d": "They can swim very well."
+          }
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "q": "In which sentence does the modal verb express a past ability?",
+          "opts": {
+            "a": "I can speak French fluently.",
+            "b": "He should have arrived by now.",
+            "c": "She would always help me with my homework.",
+            "d": "We will need to leave early tomorrow."
+          },
+          "unscored": true,
+          "explanation": "None of the choices expresses past ability: the expected modal would be “could.” Option C describes a past habit, not an ability. This item has no correct option and is held."
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "q": "In which sentence is the modal verb used to express a past obligation?",
+          "opts": {
+            "a": "You should take an umbrella; it might rain later.",
+            "b": "She must finish her homework before she can go out to play.",
+            "c": "He could run very fast when he was younger.",
+            "d": "They would always help their neighbours with chores."
+          },
+          "unscored": true,
+          "explanation": "No option expresses a past obligation (normally “had to”). Option B is a present obligation; C expresses past ability. The item has no correct option and is held."
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "q": "Complete the sentence: “The cat jumped ___ the fence and ran away.”",
+          "opts": {
+            "a": "on",
+            "b": "under",
+            "c": "over",
+            "d": "through"
+          }
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "q": "Complete the sentence: “She is allergic ___ cats.”",
+          "opts": {
+            "a": "to",
+            "b": "to",
+            "c": "at",
+            "d": "by"
+          },
+          "unscored": true,
+          "explanation": "Options A and B are identical and both complete the sentence correctly. Because the item requires one answer index but prints duplicate correct choices, it is held."
+        },
+        "57": {
+          "n": 57,
+          "page": 5,
+          "q": "In “The flowers in the garden bloomed beautifully,” what is the predicate?",
+          "opts": {
+            "a": "The flowers",
+            "b": "bloomed",
+            "c": "bloomed beautifully",
+            "d": "in the garden"
+          }
+        },
+        "58": {
+          "n": 58,
+          "page": 5,
+          "q": "In “The concert, filled with excitement and anticipation, captivated the audience,” which statement is true?",
+          "opts": {
+            "a": "“The concert” is the subject and “captivated the audience” is the predicate.",
+            "b": "“Filled with excitement and anticipation” is the subject and “captivated the audience” is the predicate.",
+            "c": "“The concert, filled with excitement and anticipation” is the subject and “captivated the audience” is the predicate.",
+            "d": "“The concert” is the subject and “filled with excitement and anticipation” is the predicate."
+          }
+        },
+        "59": {
+          "n": 59,
+          "page": 5,
+          "q": "What is the correct question tag for “They haven’t finished their homework yet”?",
+          "opts": {
+            "a": "haven’t they?",
+            "b": "have they?",
+            "c": "have they finished?",
+            "d": "haven’t they finished?"
+          }
+        },
+        "61": {
+          "n": 61,
+          "page": 5,
+          "q": "Identify the sentence with an error in the past continuous tense.",
+          "opts": {
+            "a": "She was studying when the lights went out.",
+            "b": "He was sleeping when the phone rang.",
+            "c": "They have been going to school last week.",
+            "d": "We were walking in the park when it started raining."
+          }
+        },
+        "62": {
+          "n": 62,
+          "page": 5,
+          "q": "Change “He has completed his homework” into the passive voice.",
+          "opts": {
+            "a": "His homework has been completed by him.",
+            "b": "His homework is completed by him.",
+            "c": "His homework was completed by him.",
+            "d": "His homework has been completing by him."
+          }
+        },
+        "63": {
+          "n": 63,
+          "page": 5,
+          "q": "Change “The letter has been sent by him” into the active voice.",
+          "opts": {
+            "a": "He sends the letter.",
+            "b": "He has sent the letter.",
+            "c": "He is sending the letter.",
+            "d": "He sent the letter."
+          }
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "q": "Choose the synonym of “ephemeral.”",
+          "opts": {
+            "a": "lasting",
+            "b": "transient",
+            "c": "permanent",
+            "d": "enduring"
+          }
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "q": "Identify the sentence that correctly uses the comparative degree.",
+          "opts": {
+            "a": "This is the most complicated puzzle I have ever seen.",
+            "b": "Her house is bigger than my apartment.",
+            "c": "This problem is more difficult as compared to the previous one.",
+            "d": "He speaks more fluently than anyone else in the class."
+          },
+          "unscored": true,
+          "explanation": "Both B (“bigger than”) and D (“more fluently than”) correctly use comparative forms. The question asks for a single correct sentence but provides two, so it is held."
+        },
+        "67": {
+          "n": 67,
+          "page": 6,
+          "q": "Identify the sentence that correctly uses the superlative degree.",
+          "opts": {
+            "a": "She is more beautiful than any other girl in the room.",
+            "b": "This is the most interesting book I’ve ever read.",
+            "c": "That car is faster than mine.",
+            "d": "He is the stronger of the two brothers."
+          }
+        },
+        "68": {
+          "n": 68,
+          "page": 6,
+          "q": "Choose the sentence with correct punctuation.",
+          "opts": {
+            "a": "They are going to the beach; tomorrow.",
+            "b": "The dog barked, at the mailman.",
+            "c": "He asked, “What time is the meeting”?",
+            "d": "The book is on the shelf; it’s on the top."
+          }
+        },
+        "69": {
+          "n": 69,
+          "page": 6,
+          "q": "Choose the sentence with correct punctuation.",
+          "opts": {
+            "a": "They had a picnic, and played games, in the park.",
+            "b": "The concert starts at 8 pm, don’t be late.",
+            "c": "She whispered, “I have a secret”.",
+            "d": "He looked around but couldn’t find his keys."
+          }
+        },
+        "70": {
+          "n": 70,
+          "page": 6,
+          "q": "Choose the sentence with correct punctuation.",
+          "opts": {
+            "a": "The train arrived at 10:30, it was late.",
+            "b": "They visited Rome, Italy, and Paris on their trip.",
+            "c": "She said “I will meet you at the cafe at 3 pm”.",
+            "d": "The concert starts at 7:00, but we should arrive early."
+          },
+          "unscored": true,
+          "explanation": "Both B (a correctly punctuated list) and D (a comma joining two independent clauses with “but”) are grammatically punctuated. The single-answer item is ambiguous and is held."
+        },
+        "71": {
+          "n": 71,
+          "page": 6,
+          "q": "Arrange the jumbled words and identify the correct sentence.",
+          "opts": {
+            "a": "Read – a – she – book – interesting – found – yesterday.",
+            "b": "Played – the – children – happily – the – park – in.",
+            "c": "To – they – movies – went – the – yesterday.",
+            "d": "Coffee – she – in – the – morning – enjoys."
+          },
+          "unscored": true,
+          "explanation": "Each option can be reordered into a grammatical sentence (for example, “She found an interesting book yesterday” and “The children played happily in the park”). The item has multiple correct choices and is held."
+        },
+        "72": {
+          "n": 72,
+          "page": 6,
+          "q": "Arrange the jumbled words and identify the correct sentence.",
+          "opts": {
+            "a": "The – swam – fish – in – pond – the – happily.",
+            "b": "Walked – dog – the – she – in – park – the.",
+            "c": "Sat – they – on – bench – the – enjoying – the – view.",
+            "d": "Cycled – they – along – the – river – scenic – route."
+          },
+          "unscored": true,
+          "explanation": "All four word groups can be reordered into grammatical sentences. The item has multiple correct choices and is held."
+        },
+        "73": {
+          "n": 73,
+          "page": 6,
+          "q": "What does the idiom “barking up the wrong tree” mean?",
+          "opts": {
+            "a": "to make a mistake",
+            "b": "to be in the wrong place",
+            "c": "to be overly optimistic",
+            "d": "to pursue the wrong course of action"
+          }
+        },
+        "74": {
+          "n": 74,
+          "page": 6,
+          "q": "What does the idiom “under the weather” mean?",
+          "opts": {
+            "a": "to be in a bad mood",
+            "b": "to be feeling healthy",
+            "c": "to be feeling ill or unwell",
+            "d": "to be overly optimistic"
+          }
+        },
+        "75": {
+          "n": 75,
+          "page": 7,
+          "q": "What does the idiom “break a leg” mean?",
+          "opts": {
+            "a": "to injure oneself",
+            "b": "to wish someone good luck",
+            "c": "to go on a vacation",
+            "d": "to quit a job"
+          }
+        },
+        "76": {
+          "n": 76,
+          "page": 7,
+          "q": "The passage makes use of language that is —",
+          "opts": {
+            "a": "metaphorical",
+            "b": "rhetorical",
+            "c": "formal",
+            "d": "ambiguous"
+          },
+          "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
+        },
+        "77": {
+          "n": 77,
+          "page": 7,
+          "q": "According to the passage, summer is different for adults because —",
+          "opts": {
+            "a": "rain brings cooler temperatures in the following days.",
+            "b": "the weather is much warmer for them than for children.",
+            "c": "they do not get a long period away from work during the season.",
+            "d": "they know better how to occupy their free time."
+          },
+          "unscored": true,
+          "explanation": "Both A and C are supported: the narrator welcomes rain because it brings cooler weather, and adults have to work rather than receive a long summer break. The item does not identify which distinction it is testing, so it has multiple defensible answers and is held.",
+          "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
+        },
+        "78": {
+          "n": 78,
+          "page": 7,
+          "q": "According to the passage, which statement about the narrator as a child is true?",
+          "opts": {
+            "a": "The narrator was often bored on summer days.",
+            "b": "The narrator preferred cooler weather.",
+            "c": "The narrator liked staying indoors.",
+            "d": "The narrator had no siblings."
+          },
+          "unscored": true,
+          "explanation": "Both A and D are explicitly supported: the narrator was bored on rainy days and was an only child. The single-answer item has multiple correct options and is held.",
+          "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
+        },
+        "80": {
+          "n": 80,
+          "page": 7,
+          "q": "As used in the final paragraph, what does “reprieve” most nearly mean?",
+          "opts": {
+            "a": "a permanent conclusion",
+            "b": "a short continuation",
+            "c": "a higher level of pain",
+            "d": "a temporary break"
+          },
+          "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "q": "Based on the passage, Hooker lost the Battle of Chancellorsville mostly because of his —",
+          "opts": {
+            "a": "vanity",
+            "b": "ignorance",
+            "c": "overconfidence",
+            "d": "faulty information"
+          },
+          "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "q": "The contrast between Lee and Hooker is intended to —",
+          "opts": {
+            "a": "show the different backgrounds and personal histories of the two enemy soldiers.",
+            "b": "support the idea that Lee was more virtuous and therefore a better commander.",
+            "c": "suggest that Hooker would not have been outwitted if he had been more devout.",
+            "d": "imply that the men differed in their approaches to nearly everything, including battle."
+          },
+          "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "q": "As used in the passage, “propensity” belongs to which group of words?",
+          "opts": {
+            "a": "fondness, partiality, affection",
+            "b": "flaw, fault, shortcoming",
+            "c": "distaste, aversion, dissatisfaction",
+            "d": "tendency, inclination, predisposition"
+          },
+          "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
+        },
+        "84": {
+          "n": 84,
+          "page": 8,
+          "q": "As used in the passage, what does “buoyed” most nearly mean?",
+          "opts": {
+            "a": "strengthened",
+            "b": "anchored",
+            "c": "floated",
+            "d": "heartened"
+          },
+          "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "q": "If the passage continued, which sentence would most likely begin the next paragraph?",
+          "opts": {
+            "a": "Not one to gloat over his success, Lee remarked that the victory had resulted from valiant fighting and good luck as he planned their next move.",
+            "b": "Having never faced such surprise and opposition, Hooker reflected solemnly on what had happened and what he might learn from it.",
+            "c": "Wounded in body and spirit, Hooker and his severely diminished forces retreated to higher ground to reload and prepare for a counterattack.",
+            "d": "On returning to camp, Lee immediately ordered supplies and provisions for a noisy victory celebration."
+          },
+          "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "q": "As used in the passage, what is the best antonym for “credible”?",
+          "opts": {
+            "a": "unintelligent",
+            "b": "boring",
+            "c": "dishonest",
+            "d": "amazing"
+          },
+          "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
+        },
+        "87": {
+          "n": 87,
+          "page": 10,
+          "q": "Amy is trying to convince her mother to buy her a pair of $200 shoes. She says: “Mom, the shoes I have are really old and ugly. If I don’t get these new shoes, everyone at school is going to laugh at me. I will be so embarrassed that I will want to die.” What form of persuasion is Amy using here?",
+          "opts": {
+            "a": "Pathos",
+            "b": "Ethos",
+            "c": "Logos",
+            "d": "A combination of ethos, pathos, and logos"
+          },
+          "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
+        },
+        "88": {
+          "n": 88,
+          "page": 10,
+          "q": "According to the passage, logos can build ethos because —",
+          "opts": {
+            "a": "an audience is more easily convinced by facts than by emotional appeals.",
+            "b": "an audience is more likely to trust a speaker who supports an argument with evidence.",
+            "c": "an audience is unlikely to be persuaded if it becomes too emotional.",
+            "d": "a speaker can use false information to make an argument seem convincing."
+          },
+          "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
+        },
+        "89": {
+          "n": 89,
+          "page": 10,
+          "q": "According to the passage, which is the most effective tool of persuasion?",
+          "opts": {
+            "a": "Ethos, because an audience must trust a speaker.",
+            "b": "Logos, because it can also build ethos.",
+            "c": "A combination of ethos, pathos, and logos.",
+            "d": "Pathos, because people are most easily persuaded by emotion."
+          },
+          "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
+        },
+        "90": {
+          "n": 90,
+          "page": 10,
+          "q": "What conclusion can be drawn about the importance of credibility in persuasion?",
+          "opts": {
+            "a": "Credibility is irrelevant.",
+            "b": "Pathos is more important than credibility.",
+            "c": "Credibility is essential for effective persuasion.",
+            "d": "Logos is more important than credibility."
+          },
+          "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
+        },
+        "92": {
+          "n": 92,
+          "page": 11,
+          "q": "According to the passage, what role do sulphur compounds in onions and garlic play?",
+          "opts": {
+            "a": "They help prevent muscle soreness after physical activity.",
+            "b": "They help the body absorb iron and zinc from chickpeas.",
+            "c": "They preserve muscle mass during exercise.",
+            "d": "They refuel energy after strenuous activity."
+          },
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
+        },
+        "93": {
+          "n": 93,
+          "page": 11,
+          "q": "Who is the target audience for power foods, according to the passage?",
+          "opts": {
+            "a": "Primarily children and adolescents.",
+            "b": "Professional athletes specifically.",
+            "c": "People concerned about health and fitness.",
+            "d": "Only people with iron deficiencies."
+          },
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
+        },
+        "94": {
+          "n": 94,
+          "page": 11,
+          "q": "What can be inferred about the nutritional benefits of yoghurt and bananas as a snack?",
+          "opts": {
+            "a": "They are high in carbohydrates but low in protein.",
+            "b": "They are mainly eaten by people with a sweet tooth.",
+            "c": "They are not recommended after physical activity.",
+            "d": "They provide protein and carbohydrates that support muscle recovery."
+          },
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
+        },
+        "95": {
+          "n": 95,
+          "page": 11,
+          "q": "What can be inferred about green tea with lemon juice?",
+          "opts": {
+            "a": "Green tea prevents oxidative damage more effectively than lemon juice alone.",
+            "b": "Lemon juice improves flavour but not nutritional value.",
+            "c": "Green tea with lemon is less effective against oxidative damage than other drinks.",
+            "d": "Lemon juice improves catechin absorption from green tea, enhancing its benefits."
+          },
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
+        },
+        "96": {
+          "n": 96,
+          "page": 11,
+          "q": "What broader societal implications might the power-food recommendations have for healthcare costs and public-health policy?",
+          "opts": {
+            "a": "Greater consumption may reduce healthcare costs by improving health and reducing chronic disease.",
+            "b": "Power foods may worsen health disparities because some groups have limited access to them.",
+            "c": "Public policy should prioritize these foods to address deficiencies and improve population health.",
+            "d": "Focusing on power foods may overlook cultural preferences and accessibility."
+          },
+          "unscored": true,
+          "explanation": "The passage discusses nutrient content and food combinations but gives no evidence about healthcare costs, disparities, policy priorities, or cultural access. All four options extrapolate beyond the passage; none is uniquely supported by the passage-only direction, so the item is held.",
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
+        },
+        "97": {
+          "n": 97,
+          "page": 11,
+          "q": "What can be inferred about the role of power foods in overall health and fitness?",
+          "opts": {
+            "a": "They are recommended only for people with dietary restrictions.",
+            "b": "They are mainly intended to improve flavour.",
+            "c": "They provide essential nutrients and support muscle development.",
+            "d": "They have little effect on health and fitness."
+          },
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
+        },
+        "98": {
+          "n": 98,
+          "page": 12,
+          "q": "Which sentence is punctuated correctly?",
+          "opts": {
+            "a": "Proper preparation, using fresh ingredients and choosing flavors that appeal to individual tastes are key to enjoying these power foods.",
+            "b": "Proper preparation, using fresh ingredients, and choosing flavors that appeal to individual tastes, are key to enjoying these power foods.",
+            "c": "Proper preparation, using fresh ingredients, and choosing flavors that appeal to individual tastes are key to enjoying these power foods.",
+            "d": "Proper preparation using fresh ingredients, and choosing flavors that appeal to individual tastes are key to enjoying these power foods."
+          },
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
+        },
+        "99": {
+          "n": 99,
+          "page": 12,
+          "q": "Choose the sentence with correct subject–verb agreement.",
+          "opts": {
+            "a": "The sulfur compounds in onions and garlic enhances the absorption of iron and zinc from chickpeas.",
+            "b": "Iron deficiency can lead to fatigue, brain fog, and tiredness.",
+            "c": "Exercising burns glucose and thus lowering blood sugar.",
+            "d": "Adding lemon juice to green tea make the catechins more absorbable."
+          },
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
+        },
+        "100": {
+          "n": 100,
+          "page": 12,
+          "q": "Which word is closest in meaning to “incorporating” as used in the passage?",
+          "opts": {
+            "a": "including",
+            "b": "adopting",
+            "c": "eliminating",
+            "d": "increasing"
+          },
+          "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
         }
       },
       "derivedAnswers": {
@@ -27737,13 +28758,309 @@
           "answerIndex": 2,
           "explanation": "Disdain means contempt; it is the opposite of reverence or deep respect."
         },
-        "79": {
-          "answerIndex": 1,
-          "explanation": "As a child, the narrator nearly cried when rain disrupted summer plans; as an adult, the narrator reacts more calmly and welcomes the cooler weather rain brings."
-        },
         "91": {
           "answerIndex": 0,
           "explanation": "The passage describes power foods as nutrient-rich foods encouraged to support muscle development and health."
+        },
+        "1": {
+          "answerIndex": 2,
+          "explanation": "India’s First Five Year Plan ran from 1951 to 1956."
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "India introduced GST on 1 July 2017."
+        },
+        "4": {
+          "answerIndex": 0,
+          "explanation": "The Preamble describes India as sovereign, socialist, secular and democratic, and as a republic; it does not describe the system as parliamentary."
+        },
+        "5": {
+          "answerIndex": 2,
+          "explanation": "The Disaster Management Act, 2005 established the NDMA, making it a statutory body."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "State Legislative Assembly members elect the State representatives to the Rajya Sabha through proportional representation."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "Goa is a state. Jammu and Kashmir, Puducherry, and Chandigarh are Union Territories."
+        },
+        "10": {
+          "answerIndex": 1,
+          "explanation": "State Election Commissions supervise local-body elections under the constitutional framework for panchayats and municipalities."
+        },
+        "11": {
+          "answerIndex": 1,
+          "explanation": "NIFTY is the National Stock Exchange’s benchmark index; SENSEX is associated with the BSE."
+        },
+        "12": {
+          "answerIndex": 2,
+          "explanation": "The central bank conducts monetary policy; in India this is the Reserve Bank of India."
+        },
+        "14": {
+          "answerIndex": 0,
+          "explanation": "Disguised unemployment is commonly found in agriculture, where more workers may be engaged than are needed for the output produced."
+        },
+        "15": {
+          "answerIndex": 1,
+          "explanation": "The Blue Revolution refers to rapid growth in fisheries and aquaculture production."
+        },
+        "16": {
+          "answerIndex": 0,
+          "explanation": "A lower cash reserve ratio leaves banks with more funds to lend, expanding credit creation."
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "A cess is an additional tax levied for a specified purpose in addition to the underlying tax liability."
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "The 2024–25 Mizoram Budget speech earmarks ₹2,455.08 crore for capital expenditure."
+        },
+        "19": {
+          "answerIndex": 2,
+          "explanation": "The budget speech gives revenue expenditure as 82.97% of estimated total expenditure."
+        },
+        "21": {
+          "answerIndex": 2,
+          "explanation": "FOCUS is Mizoram’s state-funded flagship programme, unlike the listed centrally sponsored schemes."
+        },
+        "22": {
+          "answerIndex": 2,
+          "explanation": "Bankim Chandra Chatterjee wrote “Vande Mataram” in his novel Anandamath."
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "Hicky’s Bengal Gazette, first published in 1780, is recognized as India’s first newspaper."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "Raja Ram Mohan Roy is widely described as the “Modern Man of India.”"
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "Bal Gangadhar Tilak is associated with the declaration that Swaraj was his birthright."
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "Dadabhai Naoroji is known as the “Grand Old Man of India.”"
+        },
+        "27": {
+          "answerIndex": 1,
+          "explanation": "The Government of India Act, 1935 introduced provincial autonomy and provincial governments."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "Gandhi used “Do or Die” during the Quit India Movement in 1942."
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "Narcondam is a volcanic island in the Andaman Sea."
+        },
+        "31": {
+          "answerIndex": 1,
+          "explanation": "The McMahon Line separates India and China in the eastern sector of their disputed boundary."
+        },
+        "32": {
+          "answerIndex": 1,
+          "explanation": "A sharp barometric-pressure fall usually signals unsettled, stormy weather."
+        },
+        "34": {
+          "answerIndex": 1,
+          "explanation": "Ignoring air resistance, a freely falling body has approximately constant gravitational acceleration."
+        },
+        "35": {
+          "answerIndex": 3,
+          "explanation": "The spleen belongs to the lymphatic/immune system, not the digestive tract; the other organs are part of or associated with that tract."
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "DNA stands for deoxyribonucleic acid."
+        },
+        "39": {
+          "answerIndex": 3,
+          "explanation": "The song is credited as “Sailothangi Sailo – Lenlai a Rual Lo” in Mizo music catalogues."
+        },
+        "40": {
+          "answerIndex": 2,
+          "explanation": "Serchhip had Mizoram’s highest district literacy rate in the 2011 Census."
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "ASER 2023 was published by Pratham Education Foundation/Pratham NGO."
+        },
+        "42": {
+          "answerIndex": 2,
+          "explanation": "NITI Aayog publishes India’s National Multidimensional Poverty Index."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "The scheme announced rooftop solar installations intended to benefit one crore households."
+        },
+        "44": {
+          "answerIndex": 1,
+          "explanation": "The Electoral Bond scheme began in 2018."
+        },
+        "45": {
+          "answerIndex": 2,
+          "explanation": "Uttarakhand enacted its Uniform Civil Code legislation in 2024, the first state to do so."
+        },
+        "46": {
+          "answerIndex": 3,
+          "explanation": "Time named Ukrainian President Volodymyr Zelensky and the “Spirit of Ukraine” its 2022 Person of the Year."
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "Burkina Faso announced withdrawal from ECOWAS along with Mali and Niger."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "World AIDS Day is observed every year on 1 December."
+        },
+        "50": {
+          "answerIndex": 0,
+          "explanation": "Rohan Bopanna and Matthew Ebden won the men’s doubles title at the 2024 Australian Open."
+        },
+        "51": {
+          "answerIndex": 1,
+          "explanation": "“Should” expresses advisability or mild obligation in this sentence; the other modals express possibility, past habit, and ability."
+        },
+        "55": {
+          "answerIndex": 2,
+          "explanation": "“Jumped over the fence” is the idiomatic prepositional phrase describing the cat crossing it."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "The predicate is the verb phrase “bloomed beautifully”; it states what the flowers did."
+        },
+        "58": {
+          "answerIndex": 2,
+          "explanation": "The complete subject includes the noun phrase and its modifier; “captivated the audience” is the predicate."
+        },
+        "59": {
+          "answerIndex": 1,
+          "explanation": "A negative statement with “haven’t” takes a positive tag using the same auxiliary: “have they?”"
+        },
+        "61": {
+          "answerIndex": 2,
+          "explanation": "“Have been going” is present perfect continuous and conflicts with the finished past-time marker “last week.”"
+        },
+        "62": {
+          "answerIndex": 0,
+          "explanation": "Present perfect passive uses “has been” plus the past participle: “has been completed.”"
+        },
+        "63": {
+          "answerIndex": 1,
+          "explanation": "The present perfect passive converts to present perfect active: “He has sent the letter.”"
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "“Ephemeral” means lasting only a short time; “transient” is its synonym."
+        },
+        "67": {
+          "answerIndex": 1,
+          "explanation": "“Most interesting” is the superlative form and correctly compares the book with the speaker’s experience."
+        },
+        "68": {
+          "answerIndex": 3,
+          "explanation": "The semicolon correctly joins two independent clauses; the other options misuse punctuation."
+        },
+        "69": {
+          "answerIndex": 3,
+          "explanation": "This sentence has no comma splice, misplaced comma, or incorrectly placed quotation punctuation."
+        },
+        "73": {
+          "answerIndex": 3,
+          "explanation": "“Barking up the wrong tree” means pursuing a mistaken line of inquiry or course of action."
+        },
+        "74": {
+          "answerIndex": 2,
+          "explanation": "“Under the weather” means feeling ill or unwell."
+        },
+        "75": {
+          "answerIndex": 1,
+          "explanation": "“Break a leg” is an idiom used to wish someone good luck, especially before a performance."
+        },
+        "76": {
+          "answerIndex": 0,
+          "explanation": "The passage uses figurative expressions such as days “bleeding into each other” and rain as “torture,” so its language is metaphorical."
+        },
+        "80": {
+          "answerIndex": 3,
+          "explanation": "A reprieve is a temporary relief or break from something difficult; the rain briefly relieves the heat."
+        },
+        "81": {
+          "answerIndex": 2,
+          "explanation": "Hooker became certain Lee would retreat and dismissed warnings of an attack. His overconfidence caused him to ignore reality and leave his troops unprepared."
+        },
+        "82": {
+          "answerIndex": 3,
+          "explanation": "The descriptions contrast the men’s personalities and values, setting up the passage’s point that they approached battle differently."
+        },
+        "83": {
+          "answerIndex": 3,
+          "explanation": "“Propensity” means a natural tendency or inclination."
+        },
+        "84": {
+          "answerIndex": 3,
+          "explanation": "“Buoyed by his superior numbers” means encouraged or heartened by that advantage."
+        },
+        "85": {
+          "answerIndex": 1,
+          "explanation": "The passage ends with Hooker’s defeat and withdrawal; a continuation focused on his reaction and lessons is the most coherent next step."
+        },
+        "86": {
+          "answerIndex": 2,
+          "explanation": "A credible person is trustworthy; dishonest is its opposite."
+        },
+        "87": {
+          "answerIndex": 0,
+          "explanation": "Amy appeals to her mother’s emotions—embarrassment and fear of ridicule—so she uses pathos."
+        },
+        "88": {
+          "answerIndex": 1,
+          "explanation": "The passage states that evidence makes an audience more likely to believe and trust the speaker."
+        },
+        "89": {
+          "answerIndex": 2,
+          "explanation": "The passage explicitly says ethos, pathos, and logos are often most effective when used together."
+        },
+        "90": {
+          "answerIndex": 2,
+          "explanation": "The passage says that without trust, a speaker will not be able to persuade the audience."
+        },
+        "92": {
+          "answerIndex": 1,
+          "explanation": "The passage says sulphur compounds in onion and garlic help the body absorb iron and zinc from chickpeas."
+        },
+        "93": {
+          "answerIndex": 2,
+          "explanation": "The passage frames these foods for increasingly health-conscious people and fitness clients."
+        },
+        "94": {
+          "answerIndex": 3,
+          "explanation": "Yoghurt supplies protein and bananas supply carbohydrates, which together help preserve muscle and restore energy after exercise."
+        },
+        "95": {
+          "answerIndex": 3,
+          "explanation": "The passage says lemon juice makes green-tea catechins more easily absorbed."
+        },
+        "97": {
+          "answerIndex": 2,
+          "explanation": "The opening says power foods provide nutrients and are recommended to support muscle development."
+        },
+        "98": {
+          "answerIndex": 2,
+          "explanation": "Option C correctly punctuates the three coordinated items without placing a comma between the compound subject and its verb."
+        },
+        "99": {
+          "answerIndex": 1,
+          "explanation": "The singular subject “iron deficiency” correctly takes “can lead”; the other choices contain agreement or parallel-structure errors."
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "To incorporate something into a diet is to include it."
         }
       }
     }

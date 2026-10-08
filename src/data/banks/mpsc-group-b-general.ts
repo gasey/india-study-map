@@ -43545,21 +43545,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "TheperiodoftheFirstFiveYearPlaninIndiawas-",
+    "question": "What was the period of the First Five Year Plan in India?",
     "options": [
-      "1947-52",
-      "1950-55",
-      "1951-56",
-      "1952-57"
+      "1947–52",
+      "1950–55",
+      "1951–56",
+      "1952–57"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India’s First Five Year Plan ran from 1951 to 1956.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q2",
@@ -43596,21 +43597,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "GoodsandServicesTaxeswasintroducedinIndiaon-",
+    "question": "On what date was the Goods and Services Tax introduced in India?",
     "options": [
-      "1%January2017",
-      "1April2017",
-      "1%July2017",
-      "1%July2018"
+      "1 January 2017",
+      "1 April 2017",
+      "1 July 2017",
+      "1 July 2018"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India introduced GST on 1 July 2017.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q4",
@@ -43621,21 +43623,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "WhichamongthefollowingisnotwritteninthePreambleofourConstitution?",
+    "question": "Which of the following is not stated in the Preamble to the Constitution?",
     "options": [
       "Parliamentary",
       "Sovereign",
       "Secular",
       "Republic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Preamble describes India as sovereign, socialist, secular and democratic, and as a republic; it does not describe the system as parliamentary.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q5",
@@ -43646,21 +43649,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "TheNationalDisasterManagementAuthorityis-",
+    "question": "The National Disaster Management Authority is a —",
     "options": [
-      "Constitutionalbody",
-      "Quasi-JudicialBody",
-      "Statutorybody",
-      "DevelopmentCommission"
+      "constitutional body",
+      "quasi-judicial body",
+      "statutory body",
+      "development commission"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Disaster Management Act, 2005 established the NDMA, making it a statutory body.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q6",
@@ -43671,21 +43675,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "WhoelectedthemembersoftheRajyaSabha?",
+    "question": "Who elects the members of the Rajya Sabha?",
     "options": [
-      "MembersofLokSabha",
-      "MembersofStateLegislativeAssemblies",
-      "StateCouncilofMinisters",
-      "MembersofParliamentandStateLegislativeAssemblies"
+      "Members of the Lok Sabha",
+      "Members of State Legislative Assemblies",
+      "State Councils of Ministers",
+      "Members of Parliament and State Legislative Assemblies"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "State Legislative Assembly members elect the State representatives to the Rajya Sabha through proportional representation.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q7",
@@ -43696,7 +43701,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "HowmanymembersdoestheLokSabhacurrentlyconsistof?",
+    "question": "How many members does the Lok Sabha currently consist of?",
     "options": [
       "552",
       "545",
@@ -43704,13 +43709,13 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "532"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "As of the August 2024 sitting, the Lok Sabha had 543 elected seats; none of the choices gives that number. The historical figure 545 includes two nominated Anglo-Indian members, a provision that had ceased to operate. Do not score this outdated item.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q8",
@@ -43721,21 +43726,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "WhichisnotaUnionTerritory?",
+    "question": "Which of the following is not a Union Territory?",
     "options": [
       "Goa",
-      "Jammu&Kashmir",
+      "Jammu and Kashmir",
       "Puducherry",
       "Chandigarh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Goa is a state. Jammu and Kashmir, Puducherry, and Chandigarh are Union Territories.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q9",
@@ -43772,21 +43778,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whoconductselectionstotheruralandurbanlocalbodies?",
+    "question": "Who conducts elections to rural and urban local bodies?",
     "options": [
-      "ElectionCommissionofIndia",
-      "StateElectionCommission",
-      "StateLocalAdministrationDepartment",
-      "DesignatedBodyoftheStateGovernment"
+      "Election Commission of India",
+      "State Election Commission",
+      "State Local Administration Department",
+      "A body designated by the State Government"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "State Election Commissions supervise local-body elections under the constitutional framework for panchayats and municipalities.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q11",
@@ -43797,21 +43804,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "WhichofthefollowingbenchmarkindicesisrelatedtoNationalStockExchange?",
+    "question": "Which benchmark index is associated with the National Stock Exchange?",
     "options": [
       "SENSEX",
       "NIFTY",
-      "Dow-Jones",
+      "Dow Jones",
       "NCDEX"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "NIFTY is the National Stock Exchange’s benchmark index; SENSEX is associated with the BSE.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q12",
@@ -43822,21 +43830,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Monetarypolicyisregulatedby-",
+    "question": "Monetary policy is regulated by the —",
     "options": [
-      "TheCentralGovernment",
-      "FinanceMinistry",
-      "CentralBank",
-      "CommercialBanks"
+      "Central Government",
+      "Finance Ministry",
+      "central bank",
+      "commercial banks"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The central bank conducts monetary policy; in India this is the Reserve Bank of India.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q13",
@@ -43873,21 +43882,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichsectoriscommonlyassociatedwithdisguisedunemployment?",
+    "question": "Which sector is commonly associated with disguised unemployment?",
     "options": [
       "Agriculture",
       "Industry",
-      "Service",
-      "Tourism|"
+      "Services",
+      "Tourism"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Disguised unemployment is commonly found in agriculture, where more workers may be engaged than are needed for the output produced.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q15",
@@ -43898,21 +43908,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Aremarkableincreaseintheproductionoffishandmarineproductsiscalled-",
+    "question": "A remarkable increase in fish and marine-product production is called the —",
     "options": [
-      "GreenRevolution",
-      "BlueRevolution",
-      "Aquaculture",
-      "Multi-dimensionalfisheries"
+      "Green Revolution",
+      "Blue Revolution",
+      "aquaculture",
+      "multi-dimensional fisheries"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Blue Revolution refers to rapid growth in fisheries and aquaculture production.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q16",
@@ -43923,21 +43934,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theeffectofreducingcashreserveratiobythecentralbankoncreditcreationis-",
+    "question": "What is the effect of a central bank reducing the cash reserve ratio on credit creation?",
     "options": [
       "Increase",
       "Decrease",
-      "Nochange",
-      "Noexpansion"
+      "No change",
+      "No expansion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A lower cash reserve ratio leaves banks with more funds to lend, expanding credit creation.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q17",
@@ -43948,21 +43960,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Aformoftaxchargedoverandabovethebasetaxliabilityofataxpayeris-",
+    "question": "What is a tax charged over and above a taxpayer’s base tax liability called?",
     "options": [
       "Excise",
       "VAT",
       "Cess",
       "Excess"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A cess is an additional tax levied for a specified purpose in addition to the underlying tax liability.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q18",
@@ -43973,21 +43986,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "TheamountallocatedforcapitalexpenditureintheMizoramBudget2024-25is-",
+    "question": "How much was allocated for capital expenditure in the Mizoram Budget 2024–25?",
     "options": [
-      "%2455.08crores",
-      "72500.52crores",
-      "%2200.02crores",
-      "%2550.08crores"
+      "₹2,455.08 crore",
+      "₹2,500.52 crore",
+      "₹2,200.02 crore",
+      "₹2,550.08 crore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 2024–25 Mizoram Budget speech earmarks ₹2,455.08 crore for capital expenditure.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q19",
@@ -43998,21 +44012,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "TherevenueexpenditureaccountedforofthetotalexpenditureintheBudgetEstimate ofMizoramfortheyear2024-25.",
+    "question": "What share of Mizoram’s total expenditure did revenue expenditure account for in the 2024–25 Budget Estimates?",
     "options": [
       "78.9%",
       "80.24%",
       "82.97%",
       "83.2%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The budget speech gives revenue expenditure as 82.97% of estimated total expenditure.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q20",
@@ -44049,21 +44064,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "WhichisnotcentrallysponsoredschemeinMizoram?",
+    "question": "Which of the following is not a centrally sponsored scheme in Mizoram?",
     "options": [
       "MGNREGS",
       "PMAY",
       "FOCUS",
-      "JIM"
+      "JJM"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "FOCUS is Mizoram’s state-funded flagship programme, unlike the listed centrally sponsored schemes.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q22",
@@ -44074,21 +44090,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whowasthecomposerofthesong“VandeMataram”?",
+    "question": "Who composed the song “Vande Mataram”?",
     "options": [
-      "RabindraNathTagore",
-      "SarojiniNaidu",
-      "BankimChandraChatterjee",
-      "RamdhariSinghDinkar"
+      "Rabindranath Tagore",
+      "Sarojini Naidu",
+      "Bankim Chandra Chatterjee",
+      "Ramdhari Singh Dinkar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bankim Chandra Chatterjee wrote “Vande Mataram” in his novel Anandamath.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q23",
@@ -44099,21 +44116,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "ThefirstnewspaperinIndiawas-",
+    "question": "What was the first newspaper in India?",
     "options": [
-      "BengalGazette",
-      "HindustanTimes",
-      "ThePioneer",
-      "SambadKaumadi"
+      "Bengal Gazette",
+      "Hindustan Times",
+      "The Pioneer",
+      "Sambad Kaumadi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Hicky’s Bengal Gazette, first published in 1780, is recognized as India’s first newspaper.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q24",
@@ -44124,21 +44142,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whowasknownas“ModernManofIndia”?",
+    "question": "Who was known as the “Modern Man of India”?",
     "options": [
-      "SwamiVivekananda",
-      "AOHume",
-      "NanaSaheb",
-      "RajaRamMohanRoy"
+      "Swami Vivekananda",
+      "A. O. Hume",
+      "Nana Saheb",
+      "Raja Ram Mohan Roy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Raja Ram Mohan Roy is widely described as the “Modern Man of India.”",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q25",
@@ -44149,21 +44168,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whosaid“Swarajismybirthright,Ishallhaveit”?",
+    "question": "Who said, “Swaraj is my birthright, and I shall have it”?",
     "options": [
-      "RajaRamMohanRoy",
-      "MahatmaGandhi",
-      "BalGangadharTilak",
-      "JawaharLalNehru"
+      "Raja Ram Mohan Roy",
+      "Mahatma Gandhi",
+      "Bal Gangadhar Tilak",
+      "Jawaharlal Nehru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bal Gangadhar Tilak is associated with the declaration that Swaraj was his birthright.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q26",
@@ -44174,21 +44194,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whowascalled“GrandOldManofIndia”?",
+    "question": "Who was called the “Grand Old Man of India”?",
     "options": [
-      "DadabhaiNaoroji",
-      "GopalKrishnaGokhale",
-      "RameshChandraBanerjee",
-      "LokamaniaTilak"
+      "Dadabhai Naoroji",
+      "Gopal Krishna Gokhale",
+      "Ramesh Chandra Banerjee",
+      "Lokamania Tilak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dadabhai Naoroji is known as the “Grand Old Man of India.”",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q27",
@@ -44199,21 +44220,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "TheProvincialGovernmentswereconstitutedundertheActof-",
+    "question": "Under which Act were provincial governments constituted?",
     "options": [
       "1932",
       "1935",
       "1947",
       "1949"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Government of India Act, 1935 introduced provincial autonomy and provincial governments.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q28",
@@ -44224,21 +44246,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theslogan“doordie”wasgivenby-",
+    "question": "Who gave the slogan “Do or Die”?",
     "options": [
-      "BalGangadharTilak",
-      "JawaharlalNehru",
-      "BhagatSingh",
-      "MahatmaGandhi"
+      "Bal Gangadhar Tilak",
+      "Jawaharlal Nehru",
+      "Bhagat Singh",
+      "Mahatma Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Gandhi used “Do or Die” during the Quit India Movement in 1942.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q29",
@@ -44249,21 +44272,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichisavolcanicisland?",
+    "question": "Which of the following is a volcanic island?",
     "options": [
       "Narcondam",
       "Pamban",
       "Rameshwaram",
       "Aliabet"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Narcondam is a volcanic island in the Andaman Sea.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q30",
@@ -44274,21 +44298,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "WhichisincludedintheDeccanPlateauregion?",
+    "question": "Which of the following is included in the Deccan Plateau region?",
     "options": [
-      "WesternGhats",
-      "ChhotaNagpur",
-      "MalwaPlateau",
-      "Arravalis"
+      "Western Ghats",
+      "Chota Nagpur",
+      "Malwa Plateau",
+      "Aravallis"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Standard physiographic divisions place the Malwa Plateau in the Central Highlands, north of the Deccan Plateau. The other choices also do not provide a clear, unambiguous part of the Deccan Plateau as the question asks. The printed options do not yield a reliable unique answer, so this item is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q31",
@@ -44299,21 +44323,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "McMohanLineineffectdemarcates",
+    "question": "The McMahon Line effectively demarcates which boundary?",
     "options": [
-      "IndiaandNepal",
-      "IndiaandChina",
-      "IndiaandBhutan",
-      "IndiaandPakistan"
+      "India and Nepal",
+      "India and China",
+      "India and Bhutan",
+      "India and Pakistan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The McMahon Line separates India and China in the eastern sector of their disputed boundary.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q32",
@@ -44324,21 +44349,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Asuddenfallinmercuricbarometerindicates-",
+    "question": "What does a sudden fall in a mercury barometer indicate?",
     "options": [
-      "Fairweather",
-      "Stormyweather",
-      "Coldweather",
-      "Hotweather"
+      "Fair weather",
+      "Stormy weather",
+      "Cold weather",
+      "Hot weather"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A sharp barometric-pressure fall usually signals unsettled, stormy weather.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q33",
@@ -44349,7 +44375,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichofthefollowingtemperaturescaleisbaseduponabsolutezero?",
+    "question": "Which temperature scale is based on absolute zero?",
     "options": [
       "Celsius",
       "Fahrenheit",
@@ -44357,13 +44383,13 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "Rankine"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both Kelvin and Rankine are absolute temperature scales whose zero corresponds to absolute zero. Since both appear among the choices, the printed item has more than one correct answer and is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q34",
@@ -44374,21 +44400,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Themotionofanobjectunderfreefallisanexampleof-",
+    "question": "The motion of an object in free fall is an example of —",
     "options": [
-      "Uniformvelocity",
-      "Uniformacceleration",
-      "Zeroacceleration",
-      "Non-uniformacceleration"
+      "uniform velocity",
+      "uniform acceleration",
+      "zero acceleration",
+      "non-uniform acceleration"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Ignoring air resistance, a freely falling body has approximately constant gravitational acceleration.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q35",
@@ -44399,21 +44426,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichofthefollowingisnotapartofthedigestivesystem?",
+    "question": "Which of the following is not part of the digestive system?",
     "options": [
-      "Smallintestine",
-      "Rectum",
-      "Pharynx",
-      "Spleen"
+      "small intestine",
+      "rectum",
+      "pharynx",
+      "spleen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The spleen belongs to the lymphatic/immune system, not the digestive tract; the other organs are part of or associated with that tract.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q36",
@@ -44450,21 +44478,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "ThefullformofDNAis-",
+    "question": "What is the full form of DNA?",
     "options": [
-      "Deoxyribonucleicacid",
-      "Dinucleicacid",
-      "Diribonucleicacid",
-      "Dualnitrogenacid"
+      "Deoxyribonucleic acid",
+      "Dinucleic acid",
+      "Diribonucleic acid",
+      "Dual nitrogen acid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "DNA stands for deoxyribonucleic acid.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q38",
@@ -44501,21 +44530,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "WhowasthecomposerofMizopopularsongLentlaiaruallo?",
+    "question": "Who composed the popular Mizo song “Lenlai a rual lo”?",
     "options": [
-      "C.Durthanga",
+      "C. Durthanga",
       "Englandthanga",
-      "C.Dinthanga",
-      "SailothangiSailo"
+      "C. Dinthanga",
+      "Sailothangi Sailo"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The song is credited as “Sailothangi Sailo – Lenlai a Rual Lo” in Mizo music catalogues.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q40",
@@ -44526,21 +44556,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichisthemostliteratedistrictaccordingto2011Census?",
+    "question": "According to the 2011 Census, which district had the highest literacy rate?",
     "options": [
       "Aizawl",
       "Champhai",
       "Serchhip",
       "Lunglei"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Serchhip had Mizoram’s highest district literacy rate in the 2011 Census.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q41",
@@ -44551,21 +44582,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "AnnualStatusofEducationReport(ASER)2023wasreleasedby-",
+    "question": "Who released the Annual Status of Education Report (ASER) 2023?",
     "options": [
-      "PrathamNGO",
-      "MinistryofEducation",
-      "SamagraShikshaAbhyan",
-      "NITIAayog"
+      "Pratham NGO",
+      "Ministry of Education",
+      "Samagra Shiksha Abhyan",
+      "NITI Aayog"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "ASER 2023 was published by Pratham Education Foundation/Pratham NGO.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q42",
@@ -44576,21 +44608,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "NationalMultidimensionalPovertyIndexisreleasedby-",
+    "question": "Who releases the National Multidimensional Poverty Index?",
     "options": [
-      "MinistryofSocialJusticeandEmpowerment",
-      "MinistryofCommerceandIndustry",
-      "NITIAayog",
-      "PrimeMinister’sOffice"
+      "Ministry of Social Justice and Empowerment",
+      "Ministry of Commerce and Industry",
+      "NITI Aayog",
+      "Prime Minister’s Office"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "NITI Aayog publishes India’s National Multidimensional Poverty Index.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q43",
@@ -44601,21 +44634,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "ThePrimeMinistryrecentlyannouncedPradhanMantriSuryodayaYojanatoprovide",
+    "question": "The recently announced Pradhan Mantri Suryodaya Yojana aims to provide —",
     "options": [
-      "Freeelectrictothepoorhouseholds",
-      "Rooftopsolarpowetroonecrorehouseholds",
-      "Gridconnectedpowertothehouseholds",
-      "Greenenergytothepeople"
+      "free electricity to poor households",
+      "rooftop solar power to one crore households",
+      "grid-connected power to households",
+      "green energy to the people"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The scheme announced rooftop solar installations intended to benefit one crore households.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q44",
@@ -44626,21 +44660,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "TheElectoralBond,recentlystruckdownbytheSupremeCourt,wasimplementedsince-",
+    "question": "The Electoral Bond scheme, later struck down by the Supreme Court, was implemented from —",
     "options": [
       "2017",
       "2018",
       "2019",
       "2020"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Electoral Bond scheme began in 2018.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q45",
@@ -44651,21 +44686,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "WhichstateisthefirsttoenactUniformCivilCode?",
+    "question": "As of August 2024, which state was the first to enact a Uniform Civil Code?",
     "options": [
       "Assam",
       "Gujarat",
       "Uttarakhand",
-      "UttarPradesh"
+      "Uttar Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Uttarakhand enacted its Uniform Civil Code legislation in 2024, the first state to do so.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q46",
@@ -44676,21 +44712,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whowasrecognisedasthe2022PersonoftheYearbytheTimeMagazine?",
+    "question": "Who was named Time magazine’s 2022 Person of the Year?",
     "options": [
-      "JoeBiden",
-      "NarendraModi",
-      "VladimirPutin",
-      "VolodymyrZelensky"
+      "Joe Biden",
+      "Narendra Modi",
+      "Vladimir Putin",
+      "Volodymyr Zelensky"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Time named Ukrainian President Volodymyr Zelensky and the “Spirit of Ukraine” its 2022 Person of the Year.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q47",
@@ -44701,21 +44738,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichofthefollowingcountriesgrapplingwithjihadistviolenceandpovertyhaverecentlyannounced itsdeparturefromECOWAS?",
+    "question": "Which country, facing jihadist violence and poverty, recently announced its departure from ECOWAS?",
     "options": [
       "Benin",
-      "BurkinaFaso-",
-      "Coted'Ivoire",
+      "Burkina Faso",
+      "Cote d'Ivoire",
       "Ghana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Burkina Faso announced withdrawal from ECOWAS along with Mali and Niger.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q48",
@@ -44726,21 +44764,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "WhichdayinayeariscelebratedasWorldAIDSDay?",
+    "question": "On which date is World AIDS Day observed?",
     "options": [
-      "1December",
-      "2™December",
-      "5December",
-      "7December"
+      "1 December",
+      "2 December",
+      "5 December",
+      "7 December"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "World AIDS Day is observed every year on 1 December.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q49",
@@ -44777,21 +44816,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "IndiantennisplayerwhowonAustralianmendoubles2024was-",
+    "question": "Which Indian tennis player won the 2024 Australian Open men’s doubles title?",
     "options": [
-      "RohanBopanna",
-      "VishnuVardhan",
-      "LeanderPaes",
-      "M.Bhupathi"
+      "Rohan Bopanna",
+      "Vishnu Vardhan",
+      "Leander Paes",
+      "Mahesh Bhupathi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Rohan Bopanna and Matthew Ebden won the men’s doubles title at the 2024 Australian Open.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q51",
@@ -44802,21 +44842,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Inwhichofthefollowingsentencesisthemodalverbusedtoexpressnecessity?",
+    "question": "In which sentence is the modal verb used to express necessity?",
     "options": [
-      "Shemightgotothepartyifshefinishesherworkontime.",
-      "Youshouldwearacoat;it’scoldoutside.",
-      "Hewouldplaytenniseveryweekendwhenhewasyounger.",
-      "Theycanswimverywell. (a)Might(b)Must (c)Shall(d)Should:"
+      "She might go to the party if she finishes her work on time.",
+      "You should wear a coat; it’s cold outside.",
+      "He would play tennis every weekend when he was younger.",
+      "They can swim very well."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Should” expresses advisability or mild obligation in this sentence; the other modals express possibility, past habit, and ability.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q52",
@@ -44853,21 +44894,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Inwhichsentenceisthemodalverbexpressingapastability?",
+    "question": "In which sentence does the modal verb express a past ability?",
     "options": [
-      "IcanspeakFrenchfluently.",
-      "Heshouldhavearrivedbynow.",
-      "Shewouldalwayshelpmewithmyhomework.",
-      "Wewillneedtoleaveearlytomorrow."
+      "I can speak French fluently.",
+      "He should have arrived by now.",
+      "She would always help me with my homework.",
+      "We will need to leave early tomorrow."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "None of the choices expresses past ability: the expected modal would be “could.” Option C describes a past habit, not an ability. This item has no correct option and is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q54",
@@ -44878,21 +44919,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Inwhichsentenceisthemodalverbusedtoexpressapastobligation?",
+    "question": "In which sentence is the modal verb used to express a past obligation?",
     "options": [
-      "Youshouldtakeanumbrella;itmightrainlater.",
-      "Shemustfinishherhomeworkbeforeshecangoouttoplay.",
-      "Hecouldrunveryfastwhenhewasyounger.",
-      "Theywouldalwayshelptheirneighborswithchores."
+      "You should take an umbrella; it might rain later.",
+      "She must finish her homework before she can go out to play.",
+      "He could run very fast when he was younger.",
+      "They would always help their neighbours with chores."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "No option expresses a past obligation (normally “had to”). Option B is a present obligation; C expresses past ability. The item has no correct option and is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q55",
@@ -44903,21 +44944,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thecatjumpedthefenceandranaway.",
+    "question": "Complete the sentence: “The cat jumped ___ the fence and ran away.”",
     "options": [
       "on",
       "under",
       "over",
       "through"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Jumped over the fence” is the idiomatic prepositional phrase describing the cat crossing it.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q56",
@@ -44928,21 +44970,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Sheisallergicsats.",
+    "question": "Complete the sentence: “She is allergic ___ cats.”",
     "options": [
-      "©",
+      "to",
       "to",
       "at",
-      "_by"
+      "by"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Options A and B are identical and both complete the sentence correctly. Because the item requires one answer index but prints duplicate correct choices, it is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q57",
@@ -44953,21 +44995,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Inthesentence“Theflowersinthegardenbloomedbeautifully,”whatisthepredicate?",
+    "question": "In “The flowers in the garden bloomed beautifully,” what is the predicate?",
     "options": [
-      "Theflowers",
-      "Bloomed",
-      "Bloomedbeautifully",
-      "Inthegarden"
+      "The flowers",
+      "bloomed",
+      "bloomed beautifully",
+      "in the garden"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The predicate is the verb phrase “bloomed beautifully”; it states what the flowers did.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q58",
@@ -44978,21 +45021,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Inthesentence“Theconcert,filledwithexcitementandanticipation,captivatedtheaudience,”which ofthefollowingstatementsistrue?",
+    "question": "In “The concert, filled with excitement and anticipation, captivated the audience,” which statement is true?",
     "options": [
-      "“Theconcert”isthesubjectand“captivatedtheaudience”isthepredicate.",
-      "“Filledwithexcitementandanticipation”isthesubjectand“captivatedtheaudience”isthe predicate.",
-      "“Theconcert,filledwithexcitementandanticipation”isthesubjectand“captivatedtheaudience” isthepredicate.",
-      "“Theconcert”isthesubjectand“filledwithexcitementandanticipation”isthepredicate."
+      "“The concert” is the subject and “captivated the audience” is the predicate.",
+      "“Filled with excitement and anticipation” is the subject and “captivated the audience” is the predicate.",
+      "“The concert, filled with excitement and anticipation” is the subject and “captivated the audience” is the predicate.",
+      "“The concert” is the subject and “filled with excitement and anticipation” is the predicate."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The complete subject includes the noun phrase and its modifier; “captivated the audience” is the predicate.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q59",
@@ -45003,21 +45047,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatisthecorrectquestiontagforthestatement:“Theyhaven’tfinishedtheirhomeworkyet”?",
+    "question": "What is the correct question tag for “They haven’t finished their homework yet”?",
     "options": [
-      "haven’tthey?",
-      "havethey?",
-      "havetheyfinished?",
-      "haven’ttheyfinished? (a)Shehasgonetothestoretobuysomegroceries. (b)Theyhasbeenwaitingforthebusforoveranhour. (c)IhaveneverbeentoParisbefore. (d)Wehavealreadyeatendinner."
+      "haven’t they?",
+      "have they?",
+      "have they finished?",
+      "haven’t they finished?"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A negative statement with “haven’t” takes a positive tag using the same auxiliary: “have they?”",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q60",
@@ -45054,21 +45099,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Identifythesentencewithanerrorintheuseofthepastcontinuoustense:",
+    "question": "Identify the sentence with an error in the past continuous tense.",
     "options": [
-      "Shewasstudyingwhenthelightswentout.",
-      "Hewassleepingwhenthephonerang.",
-      "Theyhavebeengoingtoschoollastweek.",
-      "Wewerewalkingintheparkwhenitstartedraining."
+      "She was studying when the lights went out.",
+      "He was sleeping when the phone rang.",
+      "They have been going to school last week.",
+      "We were walking in the park when it started raining."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Have been going” is present perfect continuous and conflicts with the finished past-time marker “last week.”",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q62",
@@ -45079,21 +45125,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Changethesentence“Hehascompletedhishomework”intopassivevoice.",
+    "question": "Change “He has completed his homework” into the passive voice.",
     "options": [
-      "Hishomeworkhasbeencompletedbyhim.",
-      "Hishomeworkiscompletedbyhim.",
-      "Hishomeworkwascompletedbyhim.",
-      "Hishomeworkhasbeencompletingbyhim."
+      "His homework has been completed by him.",
+      "His homework is completed by him.",
+      "His homework was completed by him.",
+      "His homework has been completing by him."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Present perfect passive uses “has been” plus the past participle: “has been completed.”",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q63",
@@ -45104,21 +45151,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Changethesentence“Theletterhasbeensentbyhim”intoactivevoice.",
+    "question": "Change “The letter has been sent by him” into the active voice.",
     "options": [
-      "Hesendstheletter.",
-      "Hehassenttheletter.",
-      "Heissendingtheletter.",
-      "Hesenttheletter. -6-."
+      "He sends the letter.",
+      "He has sent the letter.",
+      "He is sending the letter.",
+      "He sent the letter."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The present perfect passive converts to present perfect active: “He has sent the letter.”",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q64",
@@ -45129,21 +45177,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosethesynonymfor“ephemeral”?.",
+    "question": "Choose the synonym of “ephemeral.”",
     "options": [
-      "Lasting",
-      "Transient",
-      "Permanent",
-      "Enduring"
+      "lasting",
+      "transient",
+      "permanent",
+      "enduring"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Ephemeral” means lasting only a short time; “transient” is its synonym.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q65",
@@ -45180,21 +45229,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Identifythesentencewiththecorrectuseofthecomparativedegree:",
+    "question": "Identify the sentence that correctly uses the comparative degree.",
     "options": [
-      "ThisisthemostcomplicatedpuzzleIhaveeverseen.",
-      "Herhouseisbiggerthanmyapartment.",
-      "Thisproblemismoredifficultascomparedtothepreviousone.",
-      "Hespeaksmorefluentlythananyoneelseintheclass."
+      "This is the most complicated puzzle I have ever seen.",
+      "Her house is bigger than my apartment.",
+      "This problem is more difficult as compared to the previous one.",
+      "He speaks more fluently than anyone else in the class."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both B (“bigger than”) and D (“more fluently than”) correctly use comparative forms. The question asks for a single correct sentence but provides two, so it is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q67",
@@ -45205,21 +45254,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Identifythesentencewiththecorrectuseofthesuperlativedegree:",
+    "question": "Identify the sentence that correctly uses the superlative degree.",
     "options": [
-      "Sheismorebeautifulthananyothergirlintheroom.",
-      "ThisisthemostinterestingbookI’veeverread.",
-      "Thatcarisfasterthanmine.",
-      "Heisthestrongerofthetwobrothers."
+      "She is more beautiful than any other girl in the room.",
+      "This is the most interesting book I’ve ever read.",
+      "That car is faster than mine.",
+      "He is the stronger of the two brothers."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Most interesting” is the superlative form and correctly compares the book with the speaker’s experience.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q68",
@@ -45230,21 +45280,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosethesentencewithcorrectpunctuation:",
+    "question": "Choose the sentence with correct punctuation.",
     "options": [
-      "Theyaregoingtothebeach;tomorrow.",
-      "Thedogbarked,atthemailman.",
-      "Heasked,“Whattimeisthemeeting”?",
-      "Thebookisontheshelf;it’sonthetop."
+      "They are going to the beach; tomorrow.",
+      "The dog barked, at the mailman.",
+      "He asked, “What time is the meeting”?",
+      "The book is on the shelf; it’s on the top."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The semicolon correctly joins two independent clauses; the other options misuse punctuation.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q69",
@@ -45255,21 +45306,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosethesentencewithcorrectpunctuation:",
+    "question": "Choose the sentence with correct punctuation.",
     "options": [
-      "Theyhadapicnic,andplayedgames,inthepark.",
-      "Theconcertstartsat8pm,don’tbelate.",
-      "Shewhispered,“Ihaveasecret”.",
-      "Helookedaroundbutcouldn’tfindhiskeys."
+      "They had a picnic, and played games, in the park.",
+      "The concert starts at 8 pm, don’t be late.",
+      "She whispered, “I have a secret”.",
+      "He looked around but couldn’t find his keys."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "This sentence has no comma splice, misplaced comma, or incorrectly placed quotation punctuation.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q70",
@@ -45280,21 +45332,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosethesentencewithcorrectpunctuation:",
+    "question": "Choose the sentence with correct punctuation.",
     "options": [
-      "Thetrainarrivedat10:30,itwaslate.",
-      "TheyvisitedRome,Italy,andParisontheirtrip.",
-      "Shesaid“Iwillmeetyouatthecafeat3pm”.",
-      "Theconcertstartsat7:00,butweshouldarriveearly."
+      "The train arrived at 10:30, it was late.",
+      "They visited Rome, Italy, and Paris on their trip.",
+      "She said “I will meet you at the cafe at 3 pm”.",
+      "The concert starts at 7:00, but we should arrive early."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both B (a correctly punctuated list) and D (a comma joining two independent clauses with “but”) are grammatically punctuated. The single-answer item is ambiguous and is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q71",
@@ -45305,21 +45357,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Arrangethejumbledwordsandidentifythecorrectsentence.",
+    "question": "Arrange the jumbled words and identify the correct sentence.",
     "options": [
-      "Read-a-she-book-interesting-found-yesterday,",
-      "Played-the-children-happily-the-park-in. .",
-      "To-they-movies-went-the-yesterday.",
-      "Coffee-she-in-the-morning-enjoys."
+      "Read – a – she – book – interesting – found – yesterday.",
+      "Played – the – children – happily – the – park – in.",
+      "To – they – movies – went – the – yesterday.",
+      "Coffee – she – in – the – morning – enjoys."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Each option can be reordered into a grammatical sentence (for example, “She found an interesting book yesterday” and “The children played happily in the park”). The item has multiple correct choices and is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q72",
@@ -45330,21 +45382,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Arrangethejumbledwordsandidentifythecorrectsentence.",
+    "question": "Arrange the jumbled words and identify the correct sentence.",
     "options": [
-      "The-swam-fish-in-pond-the-happily.",
-      "Walked-dog-the-she-in-park-the.",
-      "Sat-they-on-bench-the-enjoying-the-view.",
-      "Cycled-they-along-the-river-scenic-route."
+      "The – swam – fish – in – pond – the – happily.",
+      "Walked – dog – the – she – in – park – the.",
+      "Sat – they – on – bench – the – enjoying – the – view.",
+      "Cycled – they – along – the – river – scenic – route."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "All four word groups can be reordered into grammatical sentences. The item has multiple correct choices and is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q73",
@@ -45355,21 +45407,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatdoestheidiom“barkingupthewrongtree”mean?",
+    "question": "What does the idiom “barking up the wrong tree” mean?",
     "options": [
-      "Tomakeamistake",
-      "Tobeinthewrongplace",
-      "Tobeoverlyoptimistic",
-      "Topursuethewrongcourseofaction"
+      "to make a mistake",
+      "to be in the wrong place",
+      "to be overly optimistic",
+      "to pursue the wrong course of action"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Barking up the wrong tree” means pursuing a mistaken line of inquiry or course of action.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q74",
@@ -45380,21 +45433,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatdoestheidiom“undertheweather”mean?",
+    "question": "What does the idiom “under the weather” mean?",
     "options": [
-      "Tobeinabadmood",
-      "Tobefeelinghealthy",
-      "Tobefeelingillorunwell",
-      "Tobeoverlyoptimistic -~7-."
+      "to be in a bad mood",
+      "to be feeling healthy",
+      "to be feeling ill or unwell",
+      "to be overly optimistic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Under the weather” means feeling ill or unwell.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q75",
@@ -45405,21 +45459,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatdoestheidiom“breakaleg”mean?",
+    "question": "What does the idiom “break a leg” mean?",
     "options": [
-      "Toinjureoneself",
-      "Towishsomeonegoodluck",
-      "Togoonavacation",
-      "Toquitajob"
+      "to injure oneself",
+      "to wish someone good luck",
+      "to go on a vacation",
+      "to quit a job"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Break a leg” is an idiom used to wish someone good luck, especially before a performance.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q76",
@@ -45430,22 +45485,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thepassagemakesuseoflanguagethatis~",
+    "question": "The passage makes use of language that is —",
     "options": [
       "metaphorical",
       "rhetorical",
       "formal",
       "ambiguous"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The passage uses figurative expressions such as days “bleeding into each other” and rain as “torture,” so its language is metaphorical.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q77",
@@ -45456,22 +45512,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Accordingtothepassage,summerisdifferentforadultsbecause-",
+    "question": "According to the passage, summer is different for adults because —",
     "options": [
-      "rainbringswithitcoldtemperaturesforthefollowingdays.",
-      "theweatherismuchwarmerthanitisforchildren.",
-      "theydonotgetalongtimeofffromworkfortheseason.",
-      "theybetterknowhowtooccupytheirdowntime."
+      "rain brings cooler temperatures in the following days.",
+      "the weather is much warmer for them than for children.",
+      "they do not get a long period away from work during the season.",
+      "they know better how to occupy their free time."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both A and C are supported: the narrator welcomes rain because it brings cooler weather, and adults have to work rather than receive a long summer break. The item does not identify which distinction it is testing, so it has multiple defensible answers and is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q78",
@@ -45482,22 +45538,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Accordingtothepassage,whichofthefollowingisatruestatementaboutthenarratorasachild?",
+    "question": "According to the passage, which statement about the narrator as a child is true?",
     "options": [
-      "Heorshewasoftenboredonsummerdays.",
-      "Heorshepreferredcoolerweather.",
-      "Heorshelikedstayingindoors.",
-      "Heorshehadnosiblings."
+      "The narrator was often bored on summer days.",
+      "The narrator preferred cooler weather.",
+      "The narrator liked staying indoors.",
+      "The narrator had no siblings."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both A and D are explicitly supported: the narrator was bored on rainy days and was an only child. The single-answer item has multiple correct options and is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q79",
@@ -45515,15 +45571,15 @@ const groupBQuestionsPart6: BankQuestion[] = [
       "more idealistic",
       "less calm"
     ],
-    "answerIndex": 1,
-    "explanation": "As a child, the narrator nearly cried when rain disrupted summer plans; as an adult, the narrator reacts more calmly and welcomes the cooler weather rain brings.",
+    "answerIndex": -1,
+    "explanation": "“Less excitable” is supported by the narrator’s calmer adult reaction, while “more realistic” is also supported by the change from idealized childhood expectations to an adult view of seasonal weather. Both comparisons are defensible, so the item is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q80",
@@ -45534,22 +45590,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Asusedinthefinalparagraph,thewordreprievemostnearlymeans-",
+    "question": "As used in the final paragraph, what does “reprieve” most nearly mean?",
     "options": [
-      "apermanentconclusion",
-      "ashortcontinuation",
-      "ahigherlevelofpain",
-      "atemporarybreak -8-."
+      "a permanent conclusion",
+      "a short continuation",
+      "a higher level of pain",
+      "a temporary break"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A reprieve is a temporary relief or break from something difficult; the rain briefly relieves the heat.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 76–80 based on it.\n\nThe worst days of any summer are the rainy ones. We spend all year looking forward to nice weather and long, hot days. All of winter, with its dreary gray days and bitter cold, we dream of those endless days at the beach, laying on the sand and soaking in the bright and burning sun. And then summer comes, and it rains. As a child, I would wake up to rainy summer days and come close to crying. It wasn’t fair. We suffered through months of school and miserable weather for those scant ten weeks of freedom and balmy weather. Any day that I could not spend at the beach or playing ball with my friends seemed like a punishment for something I didn’t even do.\n\nOn those rainy summer days, I had nothing fun to do and could only sit inside, staring out at the rain like a Dickensian orphan. I was an only child, so there was no one else to play with. My father worked from home, so I was not truly alone, but he could not actively play with me since he was technically at work. It was those days that I would resign myself to whatever was on television or any books that I could find lying around. I’d crawl through the day and pray each night that the rain would not be there the next day.\n\nAs an adult, though, my opinion of summer rain has changed. When you have to work every day, summer is not as eagerly anticipated. Mostly, the days run together, bleeding into each other so that they no longer seem like separate entities and instead feel like continuations of the same long day. Everything seems monotonous and dull, and an ennui or listlessness kicks in. Such a mindset makes you cheer for anything new or different. I spend the winter dreaming of summer and the summer dreaming of winter. When summer comes, I complain about how hot it is. And then I look forward to the rain, because the rain brings with it a cold front, which offers a reprieve—admittedly one that is all too short—from the torture of 100° and humid days. Rainy days are still the worst days of the summer, but summer rain today means positively beautiful—and considerably cooler—weather tomorrow."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q81",
@@ -45560,22 +45617,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Basedoninformationinthepassage,itcanbeconcludedthatHookerlosttheBattleofChancellorsville mostlybecauseofhis-",
+    "question": "Based on the passage, Hooker lost the Battle of Chancellorsville mostly because of his —",
     "options": [
       "vanity",
       "ignorance",
       "overconfidence",
-      "faultyinformation"
+      "faulty information"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Hooker became certain Lee would retreat and dismissed warnings of an attack. His overconfidence caused him to ignore reality and leave his troops unprepared.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q82",
@@ -45586,22 +45644,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "ThecontrastdrawnbetweenLeeandHookerinparagraph2isintendedto-",
+    "question": "The contrast between Lee and Hooker is intended to —",
     "options": [
-      "showcasethedifferentbackgroundsandpersonalhistoriesofthesetwoenemysoldiers.",
-      "providesupportfortheideathatLeewasamorevirtuouspersonthanHooker,andtherefore",
-      "suggestthatifHookerhadbeenmoredevoutandprincipled,hemightnothavebeenoutwitted",
-      "implythatthesemenfundamentallydifferedintheirapproachestonearlyeverything,including"
+      "show the different backgrounds and personal histories of the two enemy soldiers.",
+      "support the idea that Lee was more virtuous and therefore a better commander.",
+      "suggest that Hooker would not have been outwitted if he had been more devout.",
+      "imply that the men differed in their approaches to nearly everything, including battle."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The descriptions contrast the men’s personalities and values, setting up the passage’s point that they approached battle differently.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q83",
@@ -45612,22 +45671,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Basedonitsuseinparagraph3,itcanbeinferredthatthewordpropensitybelongstowhichofthe followingwordgroups?",
+    "question": "As used in the passage, “propensity” belongs to which group of words?",
     "options": [
-      "fondness,partiality,affection",
-      "flaw,fault,shortcoming",
-      "distaste,aversion,dissatisfaction",
-      "tendency,inclination,predisposition"
+      "fondness, partiality, affection",
+      "flaw, fault, shortcoming",
+      "distaste, aversion, dissatisfaction",
+      "tendency, inclination, predisposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Propensity” means a natural tendency or inclination.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q84",
@@ -45638,22 +45698,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Asusedinparagraph4,buoyedmostnearlymeans-",
+    "question": "As used in the passage, what does “buoyed” most nearly mean?",
     "options": [
       "strengthened",
       "anchored",
       "floated",
       "heartened"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Buoyed by his superior numbers” means encouraged or heartened by that advantage.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q85",
@@ -45664,22 +45725,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Ifthispassageweretocontinue,whichofthefollowingwouldmostlikelybethefirstsentenceofthe nextparagraph?",
+    "question": "If the passage continued, which sentence would most likely begin the next paragraph?",
     "options": [
-      "Notonetogloatoverhissuccess,Leeremarkedthatthevictoryhadbeentheproductof valiantfightingandgoodluck,ashebegantomapoutstrategiesfortheirnextmove.",
-      "Inallhisdaysoffighting,Hookerhadneverbeenmetwithsuchsurpriseandopposition;he tooktosolemncontemplationoftheeventsthathadtranspiredaswellasthelessonshemight Jearnfromthem.",
-      "Woundedinbothbodyandspirit,Hookerandhisseverelydiminishedforcesretreatedto highergroundwheretheyproceededtoreloadtheirweaponsandprepareforacounterattack.",
-      "Uponreturningtocamp,thetriumphantLeeimmediatelyorderedforsupplicstobebroughtup andprovisionsmadeforaraucousvictorycelebration."
+      "Not one to gloat over his success, Lee remarked that the victory had resulted from valiant fighting and good luck as he planned their next move.",
+      "Having never faced such surprise and opposition, Hooker reflected solemnly on what had happened and what he might learn from it.",
+      "Wounded in body and spirit, Hooker and his severely diminished forces retreated to higher ground to reload and prepare for a counterattack.",
+      "On returning to camp, Lee immediately ordered supplies and provisions for a noisy victory celebration."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The passage ends with Hooker’s defeat and withdrawal; a continuation focused on his reaction and lessons is the most coherent next step.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.81-85):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 81–85 based on it.\n\nThe Battle of Chancellorsville, one of the most famous battles of the Civil War, took place in Virginia in the spring of 1863. For months, the two armies had been staked out on opposite banks of a narrow river. The Confederate troops were led by perhaps the most revered military tactician in American history, General Robert E. Lee. The Union soldiers were led by “Fighting” Joe Hooker. In appearance, personality, and lifestyle, these men were nearly perfect opposites. Lee, an older man in poor health with a gray beard, had a somber, measured demeanor. Hooker was a blond, strapping young man whose vanity over his appearance was but one aspect of his egotism. Whereas Lee was devout and principled, Hooker was known for his rollicking enjoyment of both women and whiskey.\n\nDespite the fact that the Confederacy had won the last four major battles and the Union soldiers were famished, exhausted, and demoralized, Hooker proclaimed, “My plans are perfect. And when I start to carry them out, may God have mercy on Bobby Lee, for I shall have none.” Why, aside from a propensity for narcissism, was Hooker so confident? Hooker had used spies, analysts, and even hot-air balloons to compile a vast amount of intelligence about Lee’s army. He had discerned, for example, that Lee had only 61,000 men to Hooker’s own 134,000. Buoyed by his superior numbers, Hooker covertly moved 70,000 of his men fifteen miles up and across the river, and then ordered them to sneak back down to position themselves behind Lee’s army. In effect, Hooker had cut off the Confederate soldiers in front and behind. They were trapped. Satisfied with his advantage, Hooker became convinced that Lee’s only option was to retreat to Richmond, thus assuring a Union victory.\n\nYet Lee, despite his disadvantages of both numbers and position, did not retreat. Instead, he moved his troops into position to attack. Union soldiers who tried to warn Hooker that Lee was on the offensive were dismissed as cowards. Having become convinced that Lee had no choice but to retreat, Hooker began to ignore reality. When Lee’s army attacked the Union soldiers at 5:00 p.m., they were eating supper, completely unprepared for battle. They abandoned their rifles and fled as Lee’s troops came shrieking out of the brush, bayonets drawn. Against all odds, Lee won the Battle of Chancellorsville, and Hooker’s forces withdrew in defeat."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q86",
@@ -45690,22 +45752,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Asusedinparagraph2,whatisthebestantonymforcredible?",
+    "question": "As used in the passage, what is the best antonym for “credible”?",
     "options": [
-      "Unintelligent",
-      "Boring",
-      "Dishonest",
-      "Amazing"
+      "unintelligent",
+      "boring",
+      "dishonest",
+      "amazing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A credible person is trustworthy; dishonest is its opposite.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q87",
@@ -45716,22 +45779,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Amyistryingtoconvincehermothertobuyherapairof$200shoes.Shesays:“Mom,theshoesI havearereallyoldandugly.If[don’tgetthesenewshoes,everyoneatschoolisgoingtolaughatme. IwillbesoembarrassedthatIwillwanttodie.”WhatformofpersuasionisAmyusinghere?",
+    "question": "Amy is trying to convince her mother to buy her a pair of $200 shoes. She says: “Mom, the shoes I have are really old and ugly. If I don’t get these new shoes, everyone at school is going to laugh at me. I will be so embarrassed that I will want to die.” What form of persuasion is Amy using here?",
     "options": [
       "Pathos",
       "Ethos",
       "Logos",
-      "Combinationofethos,pathos,andlogos"
+      "A combination of ethos, pathos, and logos"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Amy appeals to her mother’s emotions—embarrassment and fear of ridicule—so she uses pathos.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q88",
@@ -45742,22 +45806,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Accordingtothepassage,logoscanbuildethosbecause-",
+    "question": "According to the passage, logos can build ethos because —",
     "options": [
-      "anaudienceismoreeasilyconvincedbyfactsandinformationthansimpleappealstoemotions",
-      "anaudienceismorelikelytotrustaspeakerwhousesevidencetosupporthisargument.",
-      "aspeakerwhooverusespathosmightmakeanaudiencetooemotional;audienceswhoaretoo",
-      "aspeakercanusemisleadingorfalseinformationtomakehisargumentseemmoreconvincing."
+      "an audience is more easily convinced by facts than by emotional appeals.",
+      "an audience is more likely to trust a speaker who supports an argument with evidence.",
+      "an audience is unlikely to be persuaded if it becomes too emotional.",
+      "a speaker can use false information to make an argument seem convincing."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The passage states that evidence makes an audience more likely to believe and trust the speaker.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q89",
@@ -45768,22 +45833,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Accordingtothepassage,themosteffectivetoolofpersuasionis-",
+    "question": "According to the passage, which is the most effective tool of persuasion?",
     "options": [
-      "Ethos,becauseyoucannotpersuadeanaudiencethatdoesnottrustyou",
-      "Logos,becauseitcanalsobeusedtobuildethos",
-      "Acombinationofethos,pathos,andlogos",
-      "Pathos,becausehumanbeingsaremosteasilypersuadedbyemotion"
+      "Ethos, because an audience must trust a speaker.",
+      "Logos, because it can also build ethos.",
+      "A combination of ethos, pathos, and logos.",
+      "Pathos, because people are most easily persuaded by emotion."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage explicitly says ethos, pathos, and logos are often most effective when used together.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q90",
@@ -45794,22 +45860,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whatconclusioncanbedrawnabouttheimportanceofcredibilityinpersuasion?",
+    "question": "What conclusion can be drawn about the importance of credibility in persuasion?",
     "options": [
-      "Credibilityisirrelevantinpersuasion.",
-      "Pathosismoreimportantthancredibilityinpersuasion.",
-      "Credibilityisessentialforeffectivepersuasion.",
-      "Logosismoreimportantthancredibilityinpersuasion."
+      "Credibility is irrelevant.",
+      "Pathos is more important than credibility.",
+      "Credibility is essential for effective persuasion.",
+      "Logos is more important than credibility."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage says that without trust, a speaker will not be able to persuade the audience.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 86–90 based on it.\n\nPersuasion is the art of convincing someone to agree with your point of view. According to the ancient Greek philosopher Aristotle, there are three basic tools of persuasion: ethos, pathos, and logos.\n\nEthos is a speaker’s way of convincing the audience that she is a credible source. An audience will consider a speaker credible if she seems trustworthy, reliable, and sincere. This can be done in many ways. For example, a speaker can develop ethos by explaining how much experience or education she has in the field. After all, you would be more likely to listen to advice about how to take care of your teeth from a dentist than a firefighter. A speaker can also create ethos by convincing the audience that she is a good person who has their best interests at heart. If an audience cannot trust you, you will not be able to persuade them.\n\nPathos is a speaker’s way of connecting with an audience’s emotions. For example, a speaker who is trying to convince an audience to vote for him might say that he alone can save the country from a terrible war. These words are intended to fill the audience with fear, thus making them want to vote for him. Similarly, a charity organization that helps animals might show an audience pictures of injured dogs and cats. These images are intended to fill the viewers with pity. If the audience feels bad for the animals, they will be more likely to donate money.\n\nLogos is the use of facts, information, statistics, or other evidence to make your argument more convincing. An audience will be more likely to believe you if you have data to back up your claims. For example, a commercial for soap might tell you that laboratory tests have shown that its soap kills all 7,000,000 of the bacteria living on your hands right now. This piece of information might make you more likely to buy that brand of soap. Presenting this evidence is much more convincing than simply saying “our soap is the best!” Use of logos can also increase a speaker’s ethos: the more facts a speaker includes in an argument, the more likely you are to think that the speaker is educated and trustworthy.\n\nAlthough ethos, pathos, and logos all have their strengths, they are often most effective when used together. Indeed, most speakers use a combination of ethos, pathos, and logos to persuade their audiences. The next time you listen to a speech, watch a commercial, or listen to a friend try to convince you to lend him some money, be on the lookout for these ancient Greek tools of persuasion."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q91",
@@ -45835,7 +45902,8 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerSource": "derived",
     "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q92",
@@ -45846,22 +45914,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Accordingtothepassage,whatroledosulphurcompoundsinonionandgarlicplayinthebody?",
+    "question": "According to the passage, what role do sulphur compounds in onions and garlic play?",
     "options": [
-      "Theyhelpinpreventingmusclesorenessafterphysicalactivities.",
-      "Theyassistintheabsorptionofironandzincfromchickpeas.",
-      "Theycontributetothepreservationofmusclemassduringexercise.",
-      "Theyaidintherefuellingofenergylevelsafterstrenuousactivities."
+      "They help prevent muscle soreness after physical activity.",
+      "They help the body absorb iron and zinc from chickpeas.",
+      "They preserve muscle mass during exercise.",
+      "They refuel energy after strenuous activity."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The passage says sulphur compounds in onion and garlic help the body absorb iron and zinc from chickpeas.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q93",
@@ -45872,22 +45941,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Fromthepassage,whoarethetargetaudienceofpowerfoods?",
+    "question": "Who is the target audience for power foods, according to the passage?",
     "options": [
-      "Theyprimarilyconsistofchildrenandadolescents.",
-      "Theyarespecificallydesignedforprofessionalathletes.",
-      "Theycatertoindividualsconcernedabouttheirhealthandfitness.",
-      "Theyareonlysuitableforindividualswithirondeficiencies."
+      "Primarily children and adolescents.",
+      "Professional athletes specifically.",
+      "People concerned about health and fitness.",
+      "Only people with iron deficiencies."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage frames these foods for increasingly health-conscious people and fitness clients.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q94",
@@ -45898,22 +45968,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Fromthepassage,whatinferencecanbemadeaboutthenutritionalbenefitsofyoghurtandbananas asasnack?",
+    "question": "What can be inferred about the nutritional benefits of yoghurt and bananas as a snack?",
     "options": [
-      "Theyarerichincarbohydratesbutlowinproteins.",
-      "Theyareprimarilyconsumedbyindividualswithasweettooth.",
-      "Theyarenotrecommendedforconsumptionafterphysicalactivities.",
-      "Theyprovideacombinationofproteinsandcarbohydratesbeneficialformusclerecovery."
+      "They are high in carbohydrates but low in protein.",
+      "They are mainly eaten by people with a sweet tooth.",
+      "They are not recommended after physical activity.",
+      "They provide protein and carbohydrates that support muscle recovery."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Yoghurt supplies protein and bananas supply carbohydrates, which together help preserve muscle and restore energy after exercise.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q95",
@@ -45924,22 +45995,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Basedonthepassage,whatinferencecanbedrawnabouttheeffectivenessofgreenteawithlemon juice?",
+    "question": "What can be inferred about green tea with lemon juice?",
     "options": [
-      "Greenteaismoreeffectivethanlemonjuicealoneinpreventingoxidativedamagetocells.",
-      "Addinglemonjuicetogreenteaenhancesitsflavorbutdoesnotaffectitsnutritionalvalue.",
-      "Greenteawithlemonjuiceislesseffectiveinhaltingoxidativedamagecomparedtoother beverages.",
-      "Thecombinationofgreenteaandlemonjuiceimprovestheabsorptionofcatechins,thus enhancingitsbenefits."
+      "Green tea prevents oxidative damage more effectively than lemon juice alone.",
+      "Lemon juice improves flavour but not nutritional value.",
+      "Green tea with lemon is less effective against oxidative damage than other drinks.",
+      "Lemon juice improves catechin absorption from green tea, enhancing its benefits."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The passage says lemon juice makes green-tea catechins more easily absorbed.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q96",
@@ -45950,22 +46022,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Reflectingonthenutritionalbenefitsofpowerfoodsdiscussedinthepassage,whatimplications mighttheserecommendationshaveonbroadersocietalissuessuchashealthcarecostsandpublic healthpolicies?",
+    "question": "What broader societal implications might the power-food recommendations have for healthcare costs and public-health policy?",
     "options": [
-      "Increasedconsumptionofpowerfoodsmayleadtoareductioninhealthcarecostsdueto improvedoverallhealthandreducedincidenceofchronicdiseases.",
-      "Powerfoodsmayexacerbatehealthdisparitiesasaccesstothesenutrient-richfoodsmaybe limitedforcertainsocio-economicgroups.",
-      "Publichealthpoliciesshouldprioritizethepromotionofpowerfoodstoaddressnutritional deficienciesandimprovepopulationhealthoutcomes.",
-      "Thefocusonpowerfoodsoverlooksculturaldietarypreferencesandmaynotbeapplicableor accessibletoallindividuals."
+      "Greater consumption may reduce healthcare costs by improving health and reducing chronic disease.",
+      "Power foods may worsen health disparities because some groups have limited access to them.",
+      "Public policy should prioritize these foods to address deficiencies and improve population health.",
+      "Focusing on power foods may overlook cultural preferences and accessibility."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The passage discusses nutrient content and food combinations but gives no evidence about healthcare costs, disparities, policy priorities, or cultural access. All four options extrapolate beyond the passage; none is uniquely supported by the passage-only direction, so the item is held.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=11",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q97",
@@ -45976,22 +46048,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Fromtheinformationprovidedinthepassage,whatcanbeinferredabouttheroleofpowerfoodsin promotingoverallhealthandfitness?",
+    "question": "What can be inferred about the role of power foods in overall health and fitness?",
     "options": [
-      "Powerfoodsareexclusivelyrecommendedforindividualswithspecificdietaryrestrictions.",
-      "Theconsumptionofpowerfoodsisprimarilyintendedtoenhancetasteandflavorinmeals.",
-      "Powerfoodsplayacrucialroleinprovidingessentialnutrientsandsupportingmuscle development.",
-      "Powerfoodshavelimitedeffectivenessandarenotconsideredsignificantcontributorstooverall _p-."
+      "They are recommended only for people with dietary restrictions.",
+      "They are mainly intended to improve flavour.",
+      "They provide essential nutrients and support muscle development.",
+      "They have little effect on health and fitness."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The opening says power foods provide nutrients and are recommended to support muscle development.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q98",
@@ -46002,22 +46075,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichofthefollowingsentencesfromthepassageispunctuatedcorrectly?",
+    "question": "Which sentence is punctuated correctly?",
     "options": [
-      "Properpreparation,usingfreshingredientsandchoosingflavorsthatappealtoindividualtastes",
-      "Properpreparation,usingfreshingredients,andchoosingflavorsthatappealtoindividualtastes,",
-      "Properpreparation,usingfreshingredients,andchoosingflavorsthatappealtoindividualtastes",
-      "Properpreparationusingfreshingredients,andchoosingflavorsthatappealtoindividualtastes"
+      "Proper preparation, using fresh ingredients and choosing flavors that appeal to individual tastes are key to enjoying these power foods.",
+      "Proper preparation, using fresh ingredients, and choosing flavors that appeal to individual tastes, are key to enjoying these power foods.",
+      "Proper preparation, using fresh ingredients, and choosing flavors that appeal to individual tastes are key to enjoying these power foods.",
+      "Proper preparation using fresh ingredients, and choosing flavors that appeal to individual tastes are key to enjoying these power foods."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C correctly punctuates the three coordinated items without placing a comma between the compound subject and its verb.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=12",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q99",
@@ -46028,22 +46102,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosethesentencefromthepassagewithcorrectsubject-verbagreement:",
+    "question": "Choose the sentence with correct subject–verb agreement.",
     "options": [
-      "Thesulfurcompoundsinonionsandgarlicenhancestheabsorptionofironandzincfrom",
-      "Irondeficiencycanleadtofatigue,brainfog,andtiredness.",
-      "Exercisingburnsglucoseandthusloweringbloodsugar.",
-      "Addinglemonjuicetogreenteamakethecatechinsmoreabsorbable."
+      "The sulfur compounds in onions and garlic enhances the absorption of iron and zinc from chickpeas.",
+      "Iron deficiency can lead to fatigue, brain fog, and tiredness.",
+      "Exercising burns glucose and thus lowering blood sugar.",
+      "Adding lemon juice to green tea make the catechins more absorbable."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The singular subject “iron deficiency” correctly takes “can lead”; the other choices contain agreement or parallel-structure errors.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=12",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q100",
@@ -46054,22 +46129,23 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Whichwordisclosestinmeaningto“incorporating”asusedinthepassage?",
+    "question": "Which word is closest in meaning to “incorporating” as used in the passage?",
     "options": [
-      "Including",
+      "including",
       "adopting",
-      "Eliminating",
-      "Increasing eRARRRK"
+      "eliminating",
+      "increasing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "To incorporate something into a diet is to include it.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=12",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions: Read the passage and answer Questions 91–100 based on it.\n\nPower foods are foods that provide rich levels of nutrients like fibre, potassium, and minerals. With people becoming increasingly health-conscious today, a lot of fitness trainers encourage their clients to include these foods in their daily diet to increase muscle development. There are various ways of incorporating power foods in your daily diet. Of course, the key to enjoying power foods is proper preparation of these foods, the use of season-fresh foods, and identifying your choice of flavour among power foods.\n\nSome of the recommended power-food combinations are those prepared in our kitchens on a regular basis. Take, for instance, the combination of chickpeas and onions. This combination is a powerful source of iron, which is required by the body to transport oxygen to its various parts. Iron deficiency can lead to anaemia, fatigue, brain fog, and tiredness. A study by the Journal of Agricultural and Food Chemistry says that sulphur compounds in onion and garlic help in the absorption of iron and zinc from chickpeas. The combination is a hit with teenagers who need to be diligent about getting iron in their diet. A quick way to prepare this power food is to make a chickpea salad with chopped onions, chaat masala, and cilantro.\n\nAnother favourite combination with power-food takers is yoghurt and bananas. This makes for a perfect snack after a rough game of football. Exercising burns glucose and thus lowers blood sugar. Yoghurt is packed with proteins that help preserve muscle mass, and bananas are packed with carbohydrates that help in refuelling energy and preventing muscle soreness. A quick and easy recipe with bananas is a banana smoothie topped with cool yoghurt.\n\nAmong beverages, green tea is the best source of catechins that are effective in halting oxidative damage to cells. According to researchers at Purdue University, adding a dash of lemon juice to green tea makes the catechins more easily absorbed by the body. So, the next time you have friends over, serve them rounds of iced green tea with mint and lemon juice."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q1",

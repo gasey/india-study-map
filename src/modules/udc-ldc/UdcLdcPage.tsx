@@ -746,7 +746,7 @@ function BrowseView({
                       )}
                       <div style={{ flex: 1 }}>
                         {q.direction && (
-                          <div style={{ fontSize: 12.5, fontWeight: 600, marginBottom: 6, color: 'var(--text-secondary, #666)' }}>
+                          <div className="udc-question-direction">
                             {q.direction}
                           </div>
                         )}

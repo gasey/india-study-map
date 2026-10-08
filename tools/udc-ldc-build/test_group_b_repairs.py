@@ -110,19 +110,40 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(result['questions'][93]['unscored'])
         self.assertTrue(all(result['questions'][n - 1]['imagePath'] for n in (52, 86, 91)))
 
-    def test_excise_2024_paper_one_recovers_twelve_ocr_gaps_with_explanations(self):
+    def test_excise_2024_paper_one_scan_checks_first_half_and_restores_gaps(self):
         extracted = json.loads((HERE / 'extracted/si-excise-2024-p1.json').read_text())
         repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['si-excise-2024-p1']
         result, reviewed = reviewed_extraction(extracted, repair)
-        expected = {2, 9, 13, 20, 36, 38, 49, 52, 60, 65, 79, 91}
+        expected = set(range(1, 101))
         self.assertEqual(reviewed, expected)
         self.assertEqual(len(result['questions']), 100)
-        self.assertEqual(set(map(int, repair['derivedAnswers'])), expected)
+        held = {7, 30, 33, 53, 54, 56, 66, 70, 71, 72, 77, 78, 79, 96}
+        self.assertEqual(set(map(int, repair['derivedAnswers'])), expected - held)
         self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
         self.assertEqual(result['questions'][1]['opts']['d'], 'Article 371G')
         self.assertEqual(result['questions'][19]['opts']['d'], 'Sesamum')
         self.assertEqual(result['questions'][48]['opts']['a'], 'Surat')
         self.assertEqual(result['questions'][90]['opts']['a'], 'To provide essential nutrients for muscle development and overall health')
+        self.assertTrue(result['questions'][6]['unscored'])
+        self.assertTrue(result['questions'][29]['unscored'])
+        self.assertTrue(result['questions'][32]['unscored'])
+        self.assertTrue(result['questions'][52]['unscored'])
+        self.assertTrue(result['questions'][65]['unscored'])
+        self.assertTrue(result['questions'][69]['unscored'])
+        self.assertTrue(result['questions'][70]['unscored'])
+        self.assertTrue(result['questions'][76]['unscored'])
+        self.assertTrue(result['questions'][77]['unscored'])
+        self.assertTrue(result['questions'][78]['unscored'])
+        self.assertTrue(result['questions'][95]['unscored'])
+        self.assertTrue(all(result['questions'][n - 1]['unscored'] for n in held))
+        self.assertIn('staring out at the rain like a Dickensian orphan', result['questions'][75]['direction'])
+        self.assertIn('Hooker covertly moved 70,000', result['questions'][80]['direction'])
+        self.assertIn('ethos, pathos, and logos', result['questions'][85]['direction'])
+        self.assertIn('sulphur compounds in onion and garlic', result['questions'][90]['direction'])
+        self.assertEqual(result['questions'][0]['opts']['c'], '1951–56')
+        self.assertEqual(result['questions'][26]['opts']['b'], '1935')
+        self.assertEqual(result['questions'][97]['opts']['c'].count('flavors'), 1)
+        self.assertIn('sulfur compounds', result['questions'][98]['opts']['a'])
 
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'

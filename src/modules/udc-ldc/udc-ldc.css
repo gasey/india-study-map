@@ -73,6 +73,19 @@ html.dark .udc-ldc-page {
 .udc-ldc-page button:active:not(:disabled) { transform: translateY(1px); }
 
 .udc-question-stem { font-weight: 650; }
+.udc-question-direction {
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  border-left: 3px solid var(--udc-primary);
+  border-radius: 6px;
+  background: var(--bg-panel-elev);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.55;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
 .udc-option-label { font-weight: 600; }
 .udc-question-number { font-weight: 750; color: var(--udc-primary); opacity: 1 !important; }
 

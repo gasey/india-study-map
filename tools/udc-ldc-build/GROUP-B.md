@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 9 October 2026
 
 49 general papers, 3,532 items: 3,461 MCQs and 71 written prompts.
-2,587 questions are ready for practice, including 1,614 official answers and
-973 independently derived answers. 885 items still need source review.
+2,661 questions are ready for practice, including 1,614 official answers and
+1,047 independently derived answers. 811 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -160,10 +160,9 @@ Sub-Inspector of Excise & Narcotics Paper-II, April 2025 Series A is now restore
 
 Sub-Inspector of Excise & Narcotics Paper-II, August 2024 is now restored and checked across all 100 questions. All 17 missing OCR question numbers have been recovered, stems and options are readable, and 95 answers have worked or factual explanations. Q52’s printed arithmetic expression conflicts with the choices under standard precedence; Q76 has no matching revolutions option; Q86 and Q91 remain image-dependent; Q94 does not identify F’s relationship to A. These five items stay unscored. The cover specifies 200 marks at two marks per question and three hours.
 
-Sub-Inspector of Excise & Narcotics Paper-I, August 2024: the 12 OCR-missing
-questions (Q2, Q9, Q13, Q20, Q36, Q38, Q49, Q52, Q60, Q65, Q79 and Q91)
-have been restored from the printed scan and independently keyed with
-explanations. This is deliberately a partial review: the other 88 question
-stems and option sets still need a full scan comparison before the paper is
-ready for answering. The cover specifies 100 questions, two marks each and
-three hours.
+Sub-Inspector of Excise & Narcotics Paper-I, August 2024 is fully transcribed
+and scan-checked across all 100 questions. Eighty-six have derived explanations;
+Q7, Q30, Q33, Q53–54, Q56, Q66, Q70–72, Q77–79 and Q96 remain unscored because
+their choices are outdated, missing, duplicated or ambiguous. The cover
+specifies 100 questions, two marks each and three hours. No official final key
+was matched, so the paper remains excluded from full-paper Exam mode.

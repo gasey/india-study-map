@@ -1,5 +1,5 @@
 import { allQuestions, banks, getBank } from '@/data/banks';
-import { isMcqQuestion, type McqBankQuestion } from '@/data/banks/types';
+import { isScorableMcq, type McqBankQuestion } from '@/data/banks/types';
 import { weakTopics } from './weakTopics';
 import type { AppState } from './store';
 
@@ -26,8 +26,7 @@ function bankIdOf(questionId: string): string | undefined {
 function mcqPool(): { q: McqBankQuestion; bankId: string }[] {
   const pool: { q: McqBankQuestion; bankId: string }[] = [];
   for (const q of allQuestions) {
-    if (!isMcqQuestion(q)) continue;
-    if (q.figureBased || q.compensated) continue;
+    if (!isScorableMcq(q)) continue;
     const bankId = bankIdOf(q.id);
     if (!bankId) continue; // belongs only to the excluded server-backed bank
     pool.push({ q, bankId });

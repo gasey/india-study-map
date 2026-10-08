@@ -133,10 +133,10 @@ export const modules: AppModule[] = [
   },
   {
     id: 'udc-ldc',
-    title: 'LDC / UDC Clerical',
+    title: 'UDC / LDC / Group B',
     category: 'Practice',
     subgroup: 'In-app modules',
-    tagline: 'MPSC clerical past papers — progress, browse, provenance',
+    tagline: 'General papers from clerical and non-gazetted Group B exams',
     glyph: '🗂️',
     kind: 'route',
     path: '/udc-ldc',

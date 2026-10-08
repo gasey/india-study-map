@@ -373,7 +373,7 @@ def derive_threshold(questions):
 
 # -------------------------------------------------------------------- parsing
 
-def extract(pdf, colour):
+def extract(pdf, colour, allow_number_gaps=False):
     target = PALETTE[colour]
     tmp = tempfile.mkdtemp()
     subprocess.run(["pdftoppm", "-r", str(DPI), "-png", pdf,
@@ -475,7 +475,9 @@ def extract(pdf, colour):
             starts = False
             if qm and line["x0"] < 120 and not plain.startswith("("):
                 n = int(qm.group(1))
-                if n == expect:
+                if n == expect or (allow_number_gaps and expect < n <= 100):
+                    if n != expect:
+                        notes.append(f"Source numbering gap before Q{n}: expected Q{expect}; review the printed page.")
                     starts, expect = True, n + 1
                 elif allow_restart and n == 1:
                     starts, expect, allow_restart = True, 2, False

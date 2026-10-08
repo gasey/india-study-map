@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import * as api from '@/lib/mpscApi';
 import type { Correction } from '@/lib/mpscApi';
 import { banks } from '@/data/banks';
-import { isMcqQuestion } from '@/data/banks/types';
+import { isMcqQuestion, isScorableMcq } from '@/data/banks/types';
 import type { BankQuestion, McqBankQuestion } from '@/data/banks/types';
 import { chapters } from '@/data';
 import { useApp } from '@/lib/store';
@@ -96,7 +96,7 @@ export function PyqPage() {
     });
   }, [bank, corrections]);
 
-  const mcqPool = useMemo(() => correctedAllQuestions.filter(isMcqQuestion), [correctedAllQuestions]);
+  const mcqPool = useMemo(() => correctedAllQuestions.filter(isScorableMcq), [correctedAllQuestions]);
 
   // Both dropdowns are sourced from whichever pool the active mode actually
   // draws from — Practice can't reach descriptive-only topics (no single

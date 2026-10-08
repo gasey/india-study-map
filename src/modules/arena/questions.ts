@@ -12,7 +12,7 @@
 // ============================================
 
 import { banks } from '@/data/banks';
-import { isMcqQuestion } from '@/data/banks/types';
+import { isScorableMcq } from '@/data/banks/types';
 import type { BankDifficulty, BankQuestion, McqBankQuestion } from '@/data/banks/types';
 
 export interface PickedQuestion {
@@ -31,7 +31,7 @@ for (const b of banks) for (const q of b.questions) BANK_OF.set(q.id, b.id);
 
 // Descriptive questions (essay/case-study, no single answer) don't fit the
 // game's answer-and-score loop — only MCQs are ever picked here.
-const ALL: McqBankQuestion[] = banks.flatMap((b) => b.questions).filter(isMcqQuestion);
+const ALL: McqBankQuestion[] = banks.flatMap((b) => b.questions).filter(isScorableMcq);
 
 function difficultiesForTier(tier: number): BankDifficulty[] {
   if (tier <= 2) return ['easy', 'medium'];

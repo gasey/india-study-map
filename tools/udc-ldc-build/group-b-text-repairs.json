@@ -13342,6 +13342,603 @@
           "explanation": "A workaholic works compulsively or excessively."
         }
       }
+    },
+    "mvi-2025-p2": {
+      "sourceSha256": "02e1b47d147f54fa2ccb3847613a8efc6cec19c89fa093c21a24ff084d62a5f1",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Motor Vehicle Inspector Paper-II (General Knowledge), September 2025: Q1–21 checked against the printed scan, page 1 (Q1–8) and page 2 (Q9–21). Stems, numbering and options were compared with the pages. Twenty items have independently derived answers and explanations; Q18 is held because Bose won and was re-elected at two different listed Congress sessions. No verified official key has been applied. The cover states 100 one-mark questions in two hours; it states no negative-marking rule.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Kerala",
+            "b": "Sikkim",
+            "c": "Goa",
+            "d": "Mizoram"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which state became the first in India to achieve 100% literacy as of May 2025?",
+          "multi": false,
+          "explanation": "Mizoram was officially declared India’s first fully literate state on 20 May 2025. “Fully literate” is the government programme designation based on the state’s literacy threshold, rather than a claim that every resident can read."
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Cyclone",
+            "b": "Earthquake",
+            "c": "Landslide",
+            "d": "Cloudburst-induced flash flood"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which weather disaster struck Uttarakhand recently, killing at least 4 and leaving many missing?",
+          "multi": false,
+          "explanation": "On 5 August 2025, a cloudburst in the Dharali area of Uttarkashi triggered a destructive flash flood; contemporaneous reports recorded at least four deaths and many people missing."
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "2002",
+            "b": "2005",
+            "c": "2006",
+            "d": "2010"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "RTI Act was passed in the year:",
+          "multi": false,
+          "explanation": "Parliament passed the Right to Information Act in 2005; it came into force in 2005."
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Free healthcare",
+            "b": "100 days of wage employment in rural areas",
+            "c": "Scholarships for students",
+            "d": "Pension for elderly"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) guarantees:",
+          "multi": false,
+          "explanation": "MGNREGA guarantees up to 100 days of wage employment in a financial year to each rural household whose adult members volunteer for unskilled manual work."
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Promoting urban jobs",
+            "b": "Enhancing rural livelihoods through self-help groups",
+            "c": "Export promotion",
+            "d": "Industrial development"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The National Rural Livelihood Mission (NRLM) focuses on:",
+          "multi": false,
+          "explanation": "The National Rural Livelihoods Mission works to improve rural livelihoods, notably by organising rural poor households into self-help groups."
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Kyoto Protocol",
+            "b": "Montreal Protocol",
+            "c": "Paris Agreement",
+            "d": "Rio Declaration"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which international agreement successfully addressed ozone layer depletion?",
+          "multi": false,
+          "explanation": "The Montreal Protocol controls ozone-depleting substances and is the international agreement widely credited with addressing depletion of the ozone layer."
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Venus",
+            "b": "Mars",
+            "c": "Jupiter",
+            "d": "Saturn"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which planet is known as the Red Planet?",
+          "multi": false,
+          "explanation": "Mars is called the Red Planet because iron minerals in its surface dust give it a reddish appearance."
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Saturn",
+            "b": "Jupiter",
+            "c": "Neptune",
+            "d": "Uranus"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which planet has the most moons? (as of 2025)",
+          "multi": false,
+          "explanation": "As of 2025, Saturn had 274 confirmed moons, more than any other planet. Moon counts can change as additional satellites are confirmed."
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "African Union",
+            "b": "European Union",
+            "c": "Singapore",
+            "d": "New Zealand"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which among the following was the recently announced new member of G20?",
+          "multi": false,
+          "explanation": "The African Union became a permanent member of the G20 at the New Delhi summit in September 2023."
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "H Mankimi",
+            "b": "C.Zopari",
+            "c": "Vanlalrovi",
+            "d": "V. Lalhmangaihi"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who among the following received the National Florence Nightingale Award in 2025?",
+          "multi": false,
+          "explanation": "V. Lalhmangaihi, a nursing officer at Aizawl Civil Hospital, received the National Florence Nightingale Award in 2025."
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Pilgrimage routes",
+            "b": "Gold reserves",
+            "c": "Opium-producing regions",
+            "d": "Tourist hotspot"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The terms ‘Golden crescent’ and ‘Golden triangle’ are commonly associated with which one of the following?",
+          "multi": false,
+          "explanation": "The Golden Crescent and Golden Triangle are names for major opium-producing and trafficking regions in Asia."
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "51.38 km",
+            "b": "50.38 km",
+            "c": "48.75 km",
+            "d": "53.60 km"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The recently inaugurated Bairabi-Sairang railway line has a length of :",
+          "multi": false,
+          "explanation": "The Bairabi–Sairang railway line is 51.38 km long, according to the Ministry of Railways/PIB project and inauguration information."
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Jainism",
+            "b": "Ajivikas",
+            "c": "Buddhism",
+            "d": "Charvakas"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The concept of ‘Eight-fold Path’ is associated with:",
+          "multi": false,
+          "explanation": "The Noble Eightfold Path is a core teaching of Buddhism and the path leading toward the cessation of suffering."
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Vijayanagara Empire",
+            "b": "Mughal Empire",
+            "c": "Bahmani Kingdom",
+            "d": "Maratha Empire"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Battle of Talikota in 1565 led to the downfall of:",
+          "multi": false,
+          "explanation": "The Battle of Talikota in 1565 severely weakened the Vijayanagara Empire and led to the decline of its imperial power."
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Samudragupta",
+            "b": "Chandragupta II",
+            "c": "Harshavardhana",
+            "d": "Pulakeshin II"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who was known as the ‘Napoleon of India’?",
+          "multi": false,
+          "explanation": "Samudragupta is known as the “Napoleon of India,” a label associated with his extensive military campaigns."
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Gopal Krishna Gokhale",
+            "b": "Dadabhai Naoroji",
+            "c": "R.C. Dutt",
+            "d": "Surendranath Banerjee"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The term ‘Drain of Wealth’ during colonial India was popularized by:",
+          "multi": false,
+          "explanation": "Dadabhai Naoroji popularised the “Drain of Wealth” theory, arguing that colonial rule transferred Indian wealth to Britain."
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Lahore Session, 1929",
+            "b": "Karachi Session, 1931",
+            "c": "Faizpur Session, 1936",
+            "d": "Lucknow Session, 1936"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In which session of the Congress was the demand for ‘Constituent Assembly’  first made?",
+          "multi": false,
+          "explanation": "The Indian National Congress formally demanded a Constituent Assembly at its Faizpur session in 1936."
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Treaty of Amritsar",
+            "b": "Treaty of Allahabad",
+            "c": "Treaty of Lahore",
+            "d": "Treaty of Sagauli"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Battle of Buxar (1764) ended with which of the following Treaties?",
+          "multi": false,
+          "explanation": "The Treaty of Allahabad was concluded in 1765 after the Battle of Buxar, between the East India Company and Mughal Emperor Shah Alam II, among others."
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Home Rule Movement",
+            "b": "Non Cooperation Movement",
+            "c": "Civil Disobedience Movement",
+            "d": "Quit India Movement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mahatma Gandhi’s 11 demands were related to which of the following movements?",
+          "multi": false,
+          "explanation": "Gandhi’s 11 demands were presented before the Salt Satyagraha and Civil Disobedience Movement of 1930."
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Narayana Guru",
+            "b": "EV Ramaswamy Naicker",
+            "c": "Debendranath Tagore",
+            "d": "Dayanand Saraswati"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who gave the motto – ‘One religion, one caste, one God’?",
+          "multi": false,
+          "explanation": "“One religion, one caste, one God” is the motto associated with social reformer Narayana Guru."
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Haripura Session, 1938",
+            "b": "Lahore Session, 1929",
+            "c": "Tripuri Session, 1939",
+            "d": "Karachi Session, 1931"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Subhas Chandra Bose was elected President of the Indian National Congress in which session?",
+          "multi": false,
+          "unscored": true,
+          "reviewNote": "Held unscored: Subhas Chandra Bose was elected Congress president at Haripura in 1938 and re-elected at Tripuri in 1939; the stem does not specify which election.",
+          "explanation": "Bose won the Congress presidency at Haripura in 1938 and was re-elected at Tripuri in 1939. Both sessions are printed as options, so the unqualified question has two correct answers and is held out of scoring."
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 3,
+          "explanation": "Mizoram was officially declared India’s first fully literate state on 20 May 2025. “Fully literate” is the government programme designation based on the state’s literacy threshold, rather than a claim that every resident can read."
+        },
+        "2": {
+          "answerIndex": 3,
+          "explanation": "On 5 August 2025, a cloudburst in the Dharali area of Uttarkashi triggered a destructive flash flood; contemporaneous reports recorded at least four deaths and many people missing."
+        },
+        "3": {
+          "answerIndex": 1,
+          "explanation": "Parliament passed the Right to Information Act in 2005; it came into force in 2005."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "MGNREGA guarantees up to 100 days of wage employment in a financial year to each rural household whose adult members volunteer for unskilled manual work."
+        },
+        "5": {
+          "answerIndex": 1,
+          "explanation": "The National Rural Livelihoods Mission works to improve rural livelihoods, notably by organising rural poor households into self-help groups."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "The Montreal Protocol controls ozone-depleting substances and is the international agreement widely credited with addressing depletion of the ozone layer."
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "Mars is called the Red Planet because iron minerals in its surface dust give it a reddish appearance."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "As of 2025, Saturn had 274 confirmed moons, more than any other planet. Moon counts can change as additional satellites are confirmed."
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "The African Union became a permanent member of the G20 at the New Delhi summit in September 2023."
+        },
+        "10": {
+          "answerIndex": 3,
+          "explanation": "V. Lalhmangaihi, a nursing officer at Aizawl Civil Hospital, received the National Florence Nightingale Award in 2025."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "The Golden Crescent and Golden Triangle are names for major opium-producing and trafficking regions in Asia."
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "The Bairabi–Sairang railway line is 51.38 km long, according to the Ministry of Railways/PIB project and inauguration information."
+        },
+        "13": {
+          "answerIndex": 2,
+          "explanation": "The Noble Eightfold Path is a core teaching of Buddhism and the path leading toward the cessation of suffering."
+        },
+        "14": {
+          "answerIndex": 0,
+          "explanation": "The Battle of Talikota in 1565 severely weakened the Vijayanagara Empire and led to the decline of its imperial power."
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "Samudragupta is known as the “Napoleon of India,” a label associated with his extensive military campaigns."
+        },
+        "16": {
+          "answerIndex": 1,
+          "explanation": "Dadabhai Naoroji popularised the “Drain of Wealth” theory, arguing that colonial rule transferred Indian wealth to Britain."
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "The Indian National Congress formally demanded a Constituent Assembly at its Faizpur session in 1936."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "The Treaty of Allahabad was concluded in 1765 after the Battle of Buxar, between the East India Company and Mughal Emperor Shah Alam II, among others."
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "Gandhi’s 11 demands were presented before the Salt Satyagraha and Civil Disobedience Movement of 1930."
+        },
+        "21": {
+          "answerIndex": 0,
+          "explanation": "“One religion, one caste, one God” is the motto associated with social reformer Narayana Guru."
+        }
+      }
     }
   }
 }

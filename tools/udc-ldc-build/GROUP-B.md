@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,466 items: 3,345 MCQs and 121 written prompts.
-1,998 questions are ready for practice, including 1,614 official answers and
-384 independently derived answers. 1,416 items still need source review.
+2,018 questions are ready for practice, including 1,614 official answers and
+404 independently derived answers. 1,396 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -50,6 +50,8 @@ Stenographer Grade-II (Contract) General Knowledge 2015 Q1–100 has been checke
 Stenographer Grade-II (MPSC) General English 2025 Part B Q1–40 has been checked against pages 3–6. Thirty-eight MCQs have worked explanations; Q36 is held for imprecise and outdated wording, and Q37 because lactose intolerance is not a milk allergy. The four Section-A written prompts remain under review, so the paper is excluded from full-paper Exam mode.
 
 Three disputed AAO key items were independently re-derived: English Q37 uses the standard phrase “tenacious of life” (B), English Q77 means “hamper” (D), and Arithmetic Q75 combines the shared ratio term to give 8:12:15 (D). These answers differ from the final key and now include explanations; multi-answer or malformed items remain held.
+
+Motor Vehicle Inspector Paper-II (General Knowledge), September 2025 Q1–21 is now scan-checked against pages 1–2. Twenty questions have independently derived explanations. Q18 remains unscored because both Haripura 1938 and Tripuri 1939 are valid sessions in which Subhas Chandra Bose was elected Congress president.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

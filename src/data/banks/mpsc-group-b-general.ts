@@ -59157,14 +59157,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Goa",
       "Mizoram"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Mizoram was officially declared India’s first fully literate state on 20 May 2025. “Fully literate” is the government programme designation based on the state’s literacy threshold, rather than a claim that every resident can read.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q2",
@@ -59182,14 +59183,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Landslide",
       "Cloudburst-induced flash flood"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "On 5 August 2025, a cloudburst in the Dharali area of Uttarkashi triggered a destructive flash flood; contemporaneous reports recorded at least four deaths and many people missing.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q3",
@@ -59207,17 +59209,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "2006",
       "2010"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Parliament passed the Right to Information Act in 2005; it came into force in 2005.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q4",
@@ -59235,17 +59235,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Scholarships for students",
       "Pension for elderly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "MGNREGA guarantees up to 100 days of wage employment in a financial year to each rural household whose adult members volunteer for unskilled manual work.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q5",
@@ -59263,17 +59261,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Export promotion",
       "Industrial development"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The National Rural Livelihoods Mission works to improve rural livelihoods, notably by organising rural poor households into self-help groups.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q6",
@@ -59291,17 +59287,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Paris Agreement",
       "Rio Declaration"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Montreal Protocol controls ozone-depleting substances and is the international agreement widely credited with addressing depletion of the ozone layer.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q7",
@@ -59319,17 +59313,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Jupiter",
       "Saturn"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mars is called the Red Planet because iron minerals in its surface dust give it a reddish appearance.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q8",
@@ -59347,17 +59339,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Neptune",
       "Uranus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "As of 2025, Saturn had 274 confirmed moons, more than any other planet. Moon counts can change as additional satellites are confirmed.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q9",
@@ -59375,17 +59365,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Singapore",
       "New Zealand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The African Union became a permanent member of the G20 at the New Delhi summit in September 2023.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q10",
@@ -59403,14 +59391,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Vanlalrovi",
       "V. Lalhmangaihi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "V. Lalhmangaihi, a nursing officer at Aizawl Civil Hospital, received the National Florence Nightingale Award in 2025.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q11",
@@ -59428,17 +59417,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Opium-producing regions",
       "Tourist hotspot"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Golden Crescent and Golden Triangle are names for major opium-producing and trafficking regions in Asia.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q12",
@@ -59456,14 +59443,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "48.75 km",
       "53.60 km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Bairabi–Sairang railway line is 51.38 km long, according to the Ministry of Railways/PIB project and inauguration information.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q13",
@@ -59481,17 +59469,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Buddhism",
       "Charvakas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Noble Eightfold Path is a core teaching of Buddhism and the path leading toward the cessation of suffering.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q14",
@@ -59509,17 +59495,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Bahmani Kingdom",
       "Maratha Empire"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Battle of Talikota in 1565 severely weakened the Vijayanagara Empire and led to the decline of its imperial power.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q15",
@@ -59537,17 +59521,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Harshavardhana",
       "Pulakeshin II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Samudragupta is known as the “Napoleon of India,” a label associated with his extensive military campaigns.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q16",
@@ -59565,17 +59547,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "R.C. Dutt",
       "Surendranath Banerjee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Dadabhai Naoroji popularised the “Drain of Wealth” theory, arguing that colonial rule transferred Indian wealth to Britain.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q17",
@@ -59593,17 +59573,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Faizpur Session, 1936",
       "Lucknow Session, 1936"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Indian National Congress formally demanded a Constituent Assembly at its Faizpur session in 1936.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q18",
@@ -59622,7 +59600,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Karachi Session, 1931"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Bose won the Congress presidency at Haripura in 1938 and was re-elected at Tripuri in 1939. Both sessions are printed as options, so the unqualified question has two correct answers and is held out of scoring.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
@@ -59631,7 +59609,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held unscored: Subhas Chandra Bose was elected Congress president at Haripura in 1938 and re-elected at Tripuri in 1939; the stem does not specify which election."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q19",
@@ -59649,17 +59627,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Treaty of Lahore",
       "Treaty of Sagauli"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Treaty of Allahabad was concluded in 1765 after the Battle of Buxar, between the East India Company and Mughal Emperor Shah Alam II, among others.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q20",
@@ -59677,17 +59653,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Civil Disobedience Movement",
       "Quit India Movement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Gandhi’s 11 demands were presented before the Salt Satyagraha and Civil Disobedience Movement of 1930.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q21",
@@ -59705,17 +59679,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Debendranath Tagore",
       "Dayanand Saraswati"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“One religion, one caste, one God” is the motto associated with social reformer Narayana Guru.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q22",
@@ -93031,6 +93003,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": true,
     "penaltyFraction": 0.3333333333333333
   },
+  "mpsc-group-b-mvi-2025-p2": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-radio-2026-p1": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
@@ -93136,6 +93114,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-steno-2025-gk": 100,
   "mpsc-group-b-steno2-2025-p1": 40,
   "mpsc-group-b-si-excise-2025-p1": 30,
+  "mpsc-group-b-mvi-2025-p2": 100,
   "mpsc-group-b-radio-2026-p1": 60,
   "mpsc-group-b-radio-2026-p2": 100,
   "mpsc-group-b-si-police-2026-p1": 60,

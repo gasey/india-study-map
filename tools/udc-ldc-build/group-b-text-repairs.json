@@ -1299,7 +1299,7 @@
       "sourceSha256": "8f9322ca10bb444e7395d407c7f0f4fe6b2568f1e36faacf33413d101d08b9a8",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 53–54 transcribed against rendered PDF page 6; radicals, options and order checked visually. Final SI Police key cells were checked in verified-general-keys.json. Questions 89 and 96–98 were also checked against rendered pages 10–12; recovered figure crops preserve the diagrams. Q96 remains unscored because the figure arithmetic conflicts with the final key and options.",
+      "evidence": "Questions 53–54 transcribed against rendered PDF page 6; radicals, options and order checked visually. Final SI Police key cells were checked in verified-general-keys.json. Questions 89 and 96–98 were also checked against rendered pages 10–12; recovered figure crops preserve the diagrams. Q96 remains unscored because the figure arithmetic conflicts with the final key and options. Q78 on page 9 was rechecked; the printed amount and rate produce no listed principal, and the final key leaves it unanswered.",
       "questions": {
         "53": {
           "n": 53,
@@ -1324,6 +1324,21 @@
             "d": "13/2"
           },
           "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 9,
+          "part": null,
+          "q": "A sum becomes ₹2,400 at 8% simple interest in 3 years. What is the principal amount?",
+          "opts": {
+            "a": "₹1,800",
+            "b": "₹2,000",
+            "c": "₹2,200",
+            "d": "₹2,300"
+          },
+          "unscored": true,
+          "reviewNote": "Held out: under simple interest, ₹2,400=P(1+0.08×3), so P≈₹1,935.48. No listed option matches, and the final key supplies no answer.",
+          "explanation": "At 8% simple interest for 3 years, the amount is 1.24 times the principal. Thus P=₹2,400/1.24≈₹1,935.48, which is not among the options; the item is held out from scoring."
         },
         "89": {
           "n": 89,
@@ -6678,6 +6693,42 @@
           },
           "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
           "explanation": "The present perfect passive “have been discovered” changes to present perfect active “have discovered.”"
+        }
+      }
+    },
+    "si-police-2026-p1": {
+      "sourceSha256": "09bfac3ddb91715eb5b840b37bbfbeba4b44bc542f88a55d1bba2004b61a3e6b",
+      "expectedMcq": 60,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Questions 24 and 48 checked against rendered printed pages 4 and 6. Q24’s final key accepts two answers; Q48 has no final-key answer and is held out.",
+      "questions": {
+        "24": {
+          "n": 24,
+          "page": 4,
+          "part": null,
+          "q": "She ______ a lot of books.",
+          "opts": {
+            "a": "write",
+            "b": "writes",
+            "c": "writing",
+            "d": "has written"
+          },
+          "explanation": "Both “writes” and “has written” can be grammatical without more context: the first describes a habit, while the second describes experience or a completed action with present relevance. The final key accepts both B and D, so this is not a single-answer item."
+        },
+        "48": {
+          "n": 48,
+          "page": 6,
+          "part": null,
+          "q": "They said that they took the bus every day.",
+          "opts": {
+            "a": "That they took the bus every day was said by them.",
+            "b": "They said “We take the bus.”",
+            "c": "They said, “They take the bus every day.”",
+            "d": "They said “We take the bus every day.”"
+          },
+          "unscored": true,
+          "reviewNote": "The official final key has no answer for this item. Option D is the likely direct-speech conversion if the two uses of “they” refer to the same people, but the item is held out because that reference is unstated and the official key leaves it blank.",
+          "explanation": "If the reporting “they” refers to the people who take the bus, the natural direct-speech conversion is “They said, ‘We take the bus every day.’” The pronoun reference is not specified and the final key provides no answer, so the item is held out from scoring."
         }
       }
     }

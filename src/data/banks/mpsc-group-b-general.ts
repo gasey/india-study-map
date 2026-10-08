@@ -71493,9 +71493,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
   },
   {
-    "id": "mpsc-group-b-si-police-2026-p1-B24",
+    "id": "mpsc-group-b-si-police-2026-p1-Q24",
     "paperId": "mpsc-group-b-si-police-2026-p1",
-    "questionNumber": "B24",
+    "questionNumber": "24",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -71509,7 +71509,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "has written"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “writes” and “has written” can be grammatical without more context: the first describes a habit, while the second describes experience or a completed action with present relevance. The final key accepts both B and D, so this is not a single-answer item.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=4",
@@ -71524,8 +71524,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The official key accepts B and D; this item is kept out of the single-answer drill. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "The official key accepts B and D; this item is kept out of the single-answer drill. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B25",
@@ -72266,9 +72265,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
   },
   {
-    "id": "mpsc-group-b-si-police-2026-p1-B48",
+    "id": "mpsc-group-b-si-police-2026-p1-Q48",
     "paperId": "mpsc-group-b-si-police-2026-p1",
-    "questionNumber": "B48",
+    "questionNumber": "48",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -72282,7 +72281,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "They said “We take the bus every day.”"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "If the reporting “they” refers to the people who take the bus, the natural direct-speech conversion is “They said, ‘We take the bus every day.’” The pronoun reference is not specified and the final key provides no answer, so the item is held out from scoring.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=6",
@@ -72294,8 +72293,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "compensated": true,
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 41 - 50) : Four options/responses have been given for each sentence.  Choose"
+    "sourceNote": "The official final key has no answer for this item. Option D is the likely direct-speech conversion if the two uses of “they” refer to the same people, but the item is held out because that reference is unstated and the official key leaves it blank. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B49",
@@ -75090,15 +75088,15 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "A sum becomes ₹ 2,400 at 8% simple interest in 3 years. What is the principal amount?",
+    "question": "A sum becomes ₹2,400 at 8% simple interest in 3 years. What is the principal amount?",
     "options": [
       "₹1,800",
-      "₹ 2,000",
-      "₹ 2,200",
-      "₹ 2,300"
+      "₹2,000",
+      "₹2,200",
+      "₹2,300"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "At 8% simple interest for 3 years, the amount is 1.24 times the principal. Thus P=₹2,400/1.24≈₹1,935.48, which is not among the options; the item is held out from scoring.",
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=9",
@@ -75110,7 +75108,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "compensated": true,
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held out: under simple interest, ₹2,400=P(1+0.08×3), so P≈₹1,935.48. No listed option matches, and the final key supplies no answer. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q79",

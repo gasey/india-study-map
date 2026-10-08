@@ -70,7 +70,11 @@ Sub-Inspector of Police (Un-armed Branch) Paper-II Q89 and Q96–98 now include
 the recovered diagram crops and scan-checked text. Q89, Q97 and Q98 match the
 final key with explanations. Q96 is held unscored: the printed Venn regions
 imply 80 students studied neither, but 80 is absent from the options and the
-final key selects 166.
+final key selects 166. Paper-I Q24’s two key-accepted answers are explained;
+Q48 stays unscored because the final key omits it and the pronoun reference is
+unclear. Paper-II Q78 is also held out because its stated simple-interest
+amount gives a principal not listed among the options, and the key leaves it
+unanswered.
 
 ## Durable inputs
 

@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 8 October 2026
 
-49 general papers, 3,455 items: 3,348 MCQs and 107 written prompts.
-1,813 questions are ready for practice, including 1,614 official answers and
-199 independently derived answers. 1,605 items still need source review.
+49 general papers, 3,460 items: 3,339 MCQs and 121 written prompts.
+1,818 questions are ready for practice, including 1,614 official answers and
+204 independently derived answers. 1,591 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -30,6 +30,13 @@ University launched” premise, overlapping current-affairs options, and math
 items whose options or target population do not fit the printed stem. No
 verified key is available for this March sitting; the separate Sub-Inspector
 of Statistics final key is not applied to it.
+
+Inspector of Statistics Paper-I was also checked against pages 1–4. The OCR had
+turned written essay, précis, short-answer and language tasks into fake MCQs;
+these are now restored as 14 descriptive prompts with sample answer guidance.
+Five of its six passage-based MCQs have supported derived keys; Q8 is held out
+because none of its choices states the passage’s claim accurately. The mixed
+150-mark paper remains excluded from full-paper Exam mode.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

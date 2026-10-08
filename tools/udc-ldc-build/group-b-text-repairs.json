@@ -8360,6 +8360,200 @@
           "explanation": "Suggested answers: (a) Studies serve for delight, ornament and ability. (b) Too much time in study is sloth; using studies chiefly for ornament is affectation; judging only by study rules is the humour of a scholar. (c) Experience perfects studies. (d) Crafty men condemn studies. (e) Read to weigh and consider, not merely to contradict, accept without question, or make conversation."
         }
       }
+    },
+    "inspector-stats-2026-p1": {
+      "sourceSha256": "58f0cf1cd9de99cd9c8b61ebcc519a3c7f4288d539f7eeed8f517cd681639477",
+      "expectedMcq": 15,
+      "partialReview": true,
+      "reviewedOn": "2026-10-08",
+      "evidence": "Inspector of Statistics Paper-I pages 1–4 were checked against the scan. Six true multiple-choice comprehension questions are retained; the OCR-misclassified essay, précis, short-answer and language tasks are restored as fourteen descriptive prompts with sample response guidance. The paper has no verified official key and remains excluded from full-paper Exam mode.",
+      "nonMcq": [
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "questions": {
+        "5": {
+          "n": 5,
+          "page": 2,
+          "part": null,
+          "q": "According to the passage, science and religion both:",
+          "opts": {
+            "a": "Emerged out of the fear of man",
+            "b": "Emerged from the desire of man to worship the forces of nature",
+            "c": "Employ different methods of inquiry",
+            "d": "Work at cross-purposes with each other"
+          },
+          "explanation": "The passage explicitly says their methods differ: science relies on observation, experimentation and experience, while religion relies on faith, intuition and the spoken word (C)."
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "part": null,
+          "q": "According to the passage, at the present juncture, there is a need to:",
+          "opts": {
+            "a": "Teach people to worship the forces of nature",
+            "b": "Encourage spiritualism as much as possible",
+            "c": "Judiciously combine the principles of science with the true spirit of religion",
+            "d": "Free man from all forms of bondage"
+          },
+          "explanation": "The passage argues that science and religion are correlated but use different methods, supporting a judicious combination of science and religion (C)."
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "part": null,
+          "q": "Which statement is true in the context of the passage?",
+          "opts": {
+            "a": "Science and religion are antagonistic to each other",
+            "b": "Science encourages worship of nature",
+            "c": "Religion is essential for external peace and harmony",
+            "d": "Regimental religion was replaced by scientific principles"
+          },
+          "explanation": "Held out: the passage says science and religion are correlated and describes harmony between external nature and the inner self, but none of the options states those claims accurately enough to be a unique answer.",
+          "unscored": true,
+          "reviewNote": "Held out: the passage says science and religion are correlated and describes harmony between external nature and the inner self, but none of the options states those claims accurately enough to be a unique answer."
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "q": "Which statement is NOT true in the context of the passage?",
+          "opts": {
+            "a": "Man worships the forces of nature",
+            "b": "The methods of science and religion are different",
+            "c": "Regimental religion degenerated into orthodoxy",
+            "d": "Galileo and Bruno were disciples of Copernicus"
+          },
+          "explanation": "The passage names Copernicus, Galileo and Bruno as thinkers who were tortured; it does not say Galileo and Bruno were Copernicus’s disciples (D)."
+        },
+        "10": {
+          "n": 10,
+          "page": 3,
+          "part": null,
+          "q": "According to the passage, truth was:",
+          "opts": {
+            "a": "Flouted",
+            "b": "Progressive",
+            "c": "Both (a) and (b)",
+            "d": "None of the above"
+          },
+          "explanation": "The passage states that truth was flouted; “progressive” describes the liberal ideas that were suppressed, not truth (A)."
+        },
+        "11": {
+          "n": 11,
+          "page": 3,
+          "part": null,
+          "q": "What was the objective of the authors of the holy scriptures?",
+          "opts": {
+            "a": "To teach methods of worshipping nature",
+            "b": "To ennoble, elevate and liberate the human spirit and mind",
+            "c": "To develop harmony between external nature and their inner self",
+            "d": "None of these"
+          },
+          "explanation": "The passage directly says their objective was to ennoble, elevate and liberate the human spirit and mind (B)."
+        }
+      },
+      "derivedAnswers": {
+        "5": {
+          "answerIndex": 2,
+          "explanation": "The passage explicitly says their methods differ: science relies on observation, experimentation and experience, while religion relies on faith, intuition and the spoken word (C)."
+        },
+        "6": {
+          "answerIndex": 2,
+          "explanation": "The passage argues that science and religion are correlated but use different methods, supporting a judicious combination of science and religion (C)."
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "The passage names Copernicus, Galileo and Bruno as thinkers who were tortured; it does not say Galileo and Bruno were Copernicus’s disciples (D)."
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "The passage states that truth was flouted; “progressive” describes the liberal ideas that were suppressed, not truth (A)."
+        },
+        "11": {
+          "answerIndex": 1,
+          "explanation": "The passage directly says their objective was to ennoble, elevate and liberate the human spirit and mind (B)."
+        }
+      },
+      "written": {
+        "1": {
+          "page": 1,
+          "q": "Write an essay choosing one topic: (a) Sairang Rail Station: A Catalyst for Infrastructure Development in Mizoram; (b) Mental Health and Work Environment; (c) Strengthening Good Governance through Official Statistics; or (d) The Digital Generation: How Technology Is Changing Childhood and Youth. (20 marks)",
+          "explanation": "Choose one topic. Suggested approach: state a clear thesis, develop three or four relevant points with examples, organise the essay into an introduction, coherent body paragraphs and conclusion, and use accurate grammar. For topic (a), discuss connectivity, trade, tourism and regional development; for (b), workplace causes, effects and supports; for (c), reliable data, transparency and evidence-led decisions; for (d), learning, communication, wellbeing, privacy and responsible use."
+        },
+        "2": {
+          "page": 1,
+          "q": "Write a précis of the following passage (10 marks):\nSelf-reliance is the pilgrim’s best staff, the worker’s best tool. It is the master key that unlocks all the difficulties of life. “Help yourself and Heaven will help you” is a maxim that receives daily confirmation. He who begins with crutches will generally end with crutches. Help from within always strengthens, but help from without invariably weakens the recipients. The habit of depending upon others should be vigorously resisted, since it tends to weaken the intellectual faculties and paralyse the judgement. The struggle against adverse circumstances has, on the contrary, a strengthening effect, like that of the pure mountain air on an enfeebled frame.\n\nThis is a lesson which is not taught in academic institutions nowadays. The vice of the modern system of education is that it lays down too many royal roads to knowledge. The difficulties, which formerly compelled the student to think and labour for himself are now removed. The race of thorough and complete scholars is dying out. Our young men are equipped to such an extent with manuals that explain everything and guides that go everywhere, that they find no occasion for thought. Why take any trouble at all when so many are willing to relieve you of it?",
+          "explanation": "Sample précis (title: “The Value of Self-Reliance”): Self-reliance strengthens judgement and character. Depending constantly on others weakens independent thought, while facing difficulties develops intellectual ability. Education should therefore encourage students to think and work for themselves instead of relying entirely on ready-made guides. A good précis should be concise, use the writer’s main ideas and be expressed in the student’s own words."
+        },
+        "3": {
+          "page": 2,
+          "q": "According to the passage, why did people worship the forces of nature? (2 marks)",
+          "explanation": "They were awed by the violent and powerful aspects of nature and felt overwhelmed by natural forces such as fire, the sun, rivers, rocks, trees and snakes."
+        },
+        "4": {
+          "page": 2,
+          "q": "Why does the passage say that science emerged as a “saviour of mankind”? (2 marks)",
+          "explanation": "Religious authorities had monopolised spiritual knowledge and suppressed liberal or sceptical ideas, punishing thinkers. Science offered a path out of those intellectual chains and began to gain ground."
+        },
+        "7": {
+          "page": 2,
+          "q": "Give an antonym of “non-contradictory.” (2 marks)",
+          "explanation": "A suitable antonym is “contradictory” or “inconsistent.” No answer options are printed for this short-answer item."
+        },
+        "12": {
+          "page": 3,
+          "q": "Give a synonym for “dazzled/impressed.” (2 marks)",
+          "explanation": "Suitable synonyms include “awed,” “astonished” or “amazed.” No answer options are printed for this short-answer item."
+        },
+        "13": {
+          "page": 3,
+          "q": "Make sentences with any five pairs to show the difference in meaning: (a) Emerge/Immerse; (b) Pair/Pare; (c) Teem/Team; (d) Antique/Antic; (e) Compliment/Complement; (f) Hail/Hale; (g) Wave/Waive; (h) Proscribe/Prescribe. (5×2=10 marks)",
+          "explanation": "Sample sentences: emerge—The sun emerged from the clouds; immerse—Immerse the cloth in water. pair—The pair arrived together; pare—Pare the apple. teem—The pond teems with fish; team—Our team won. antique—She bought an antique vase; antic—The clown’s antic made us laugh. compliment—He gave her a compliment; complement—The sauce complements the dish. hail—They hailed a taxi; hale—The hale veteran walked briskly. wave—She gave a friendly wave; waive—The bank agreed to waive the fee. proscribe—The law proscribes bribery; prescribe—The doctor will prescribe medicine."
+        },
+        "14": {
+          "page": 3,
+          "q": "Supply one-word substitutes for any ten: (a) incapable of making errors; (b) fluent and clear in speech; (c) one who hates war and loves peace; (d) a remedy for all ills; (e) exactly as spoken or written; (f) a connoisseur of food; (g) an imaginary name assumed by an author; (h) medicine given to counteract poison; (i) one who lives in solitude; (j) an examination of living tissue; (k) an official pardon; (l) a flower fastened in a circle. (10×2=20 marks)",
+          "explanation": "Suggested answers: (a) infallible; (b) eloquent; (c) pacifist; (d) panacea; (e) verbatim; (f) gourmet/epicure; (g) pseudonym; (h) antidote; (i) recluse; (j) biopsy; (k) pardon/amnesty; (l) wreath."
+        },
+        "15": {
+          "page": 3,
+          "q": "Supply synonyms for any five: (a) Concur; (b) Overbearing; (c) Mitigate; (d) Prodigy; (e) Vagrant; (f) Brittle; (g) Disdain. (5×2=10 marks)",
+          "explanation": "Suggested synonyms: concur—agree; overbearing—domineering; mitigate—alleviate; prodigy—genius; vagrant—wandering; brittle—fragile; disdain—contempt."
+        },
+        "16": {
+          "page": 3,
+          "q": "Supply antonyms for any five: (a) Moderate; (b) Jubilant; (c) Eccentric; (d) Nepotism; (e) Transient; (f) Spurious; (g) Abound. (5×2=10 marks)",
+          "explanation": "Suggested antonyms: moderate—extreme; jubilant—despondent; eccentric—conventional; nepotism—impartiality; transient—permanent; spurious—genuine; abound—lack."
+        },
+        "17": {
+          "page": 3,
+          "q": "Make sentences with any five idioms/phrases to show their meaning: (a) Hold water; (b) Bird’s-eye view; (c) Apple-pie order; (d) To miss the bus; (e) A small fry; (f) Gordian knot; (g) Damp squib. (5×2=10 marks)",
+          "explanation": "Sample uses: Her explanation does not hold water. From the hill we had a bird’s-eye view of the town. The files were arranged in apple-pie order. He missed the bus by arriving late. The manager treated no employee as a small fry. The mediator cut through the Gordian knot. The much-advertised event was a damp squib."
+        },
+        "18": {
+          "page": 3,
+          "q": "Change the voice: (a) The chef is cooking a special dish. (b) How did you open the door? (c) Tea shall not be taken by me today. (d) By whom were you insulted? (e) Mistakes were made. (5×2=10 marks)",
+          "explanation": "Possible answers: (a) A special dish is being cooked by the chef. (b) How was the door opened? (c) I shall not take tea today. (d) Who insulted you? (e) Someone made mistakes. Passive sentences without an expressed agent may allow more than one natural active subject."
+        },
+        "19": {
+          "page": 4,
+          "q": "Complete the question tags: (a) Let us go, ___? (b) He isn’t very happy with it, ___? (c) Mind your business, ___? (d) Keep your mouth shut, ___? (e) Don’t break the glass, ___? (5×2=10 marks)",
+          "explanation": "Suggested tags: (a) shall we? (b) is he? (c) will you? (d) will you? (e) will you? Commands commonly take “will you?” as the tag."
+        },
+        "20": {
+          "page": 4,
+          "q": "Rewrite as directed: (a) How long have you ___ him? (use “know”); (b) The sun was shining. We went for a walk. (make compound); (c) Having finished his work, he went home. (make complex); (d) You have to pay or you cannot leave this place. (make simple); (e) She said, “You see, you cannot meet the principal.” (indirect speech); (f) Portia exclaimed with sorrow that she was ruined. (direct speech); (g) Waste not, want not. (begin with “if”); (h) I do not know her nature any better than you. (use positive degree); (i) His prompt reply will able us to take timely action. (correct/improve); (j) Shall we ever forget these happy days? (rewrite using “never”). (10×2=20 marks)",
+          "explanation": "Possible answers: (a) How long have you known him? (b) The sun was shining, so we went for a walk. (c) After he had finished his work, he went home. (d) You cannot leave this place without paying. (e) She said that I could not meet the principal. (f) Portia exclaimed, “Alas! I am ruined!” (g) If you do not waste, you will not want. (h) I know her nature no better than you do. (i) His prompt reply will enable us to take timely action. (j) We shall never forget these happy days."
+        }
+      }
     }
   }
 }

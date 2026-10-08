@@ -111,6 +111,15 @@ def reviewed_extraction(extracted, repair):
     assert repair.get('evidence') and repair.get('reviewedOn'), 'Missing review evidence'
     rows = {q['n']: q for q in extracted['questions']}
     assert len(rows) == len(extracted['questions']), 'Duplicate extracted question numbers'
+    # Some OCR passes flatten written prompts and their listed subparts into
+    # fake four-option MCQs. Drop those numbers before applying MCQ repairs.
+    for number in repair.get('nonMcq', []):
+        rows.pop(int(number), None)
+    # Some OCR passes flatten written prompts and their listed subparts into
+    # fake four-option MCQs. Drop those numbers before applying MCQ repairs;
+    # reviewed written prompts are emitted separately below.
+    for number in repair.get('nonMcq', []):
+        rows.pop(int(number), None)
     reviewed = set()
     for number, q in repair['questions'].items():
         n = int(number)
@@ -182,6 +191,8 @@ def build_additional():
                                           for answer in key['answers'].values()))
         entry['imported'] = True
         entry['reviewRequired'] = not complete_source_review
+        if slug == 'inspector-stats-2026-p1' and repairs.get(slug, {}).get('derivedAnswers'):
+            entry['expectedMcq'] = 6
         papers.append({'id': paper_id, 'examType': 'Direct_NG', 'examName': exam, 'post': exam,
                        'paperNumber': 'Paper-I' if slug.endswith('-p1') else 'Paper-II' if slug.endswith('-p2') else subject,
                        'paperSubject': subject, 'year': int(sitting[-4:]), 'sourceFile': href})
@@ -212,6 +223,11 @@ def build_additional():
         if slug == 'inspector-stats-2026-p2' and repairs.get(slug, {}).get('derivedAnswers'):
             # Printed cover: 100 one-mark questions in two hours.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'inspector-stats-2026-p1' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Printed cover: a three-hour written/MCQ language paper. Reviewed
+            # MCQs are practise-ready, but the complete paper stays out of Exam mode.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'aao-2025-p2' and repairs.get(slug, {}).get('derivedAnswers'):
             # Printed cover: 100 two-mark questions in two hours, with negative marking.

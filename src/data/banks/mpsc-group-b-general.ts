@@ -7091,31 +7091,6 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "paperId": "mpsc-group-b-ng-technical-2024-gk"
   },
   {
-    "id": "mpsc-group-b-inspector-stats-2026-p1-Q1",
-    "paperId": "mpsc-group-b-inspector-stats-2026-p1",
-    "questionNumber": "1",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
-    "difficulty": "medium",
-    "question": "Write an essay choosing one of the topics given below:(20)",
-    "options": [
-      "Sairang Rail Station: A Catalyst for Infrastructure Development in Mizoram",
-      "Mental Health and Work Environment",
-      "Strengthening Good Governance through Official Statistics",
-      "The Digital Generation: How Technology is Changing Childhood and Youth."
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Inspector of Statistics · March 2026",
-    "year": 2026,
-    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
     "id": "mpsc-group-b-inspector-stats-2026-p1-Q5",
     "paperId": "mpsc-group-b-inspector-stats-2026-p1",
     "questionNumber": "5",
@@ -7124,22 +7099,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "According to the passage, science and religion both:(2)",
+    "question": "According to the passage, science and religion both:",
     "options": [
       "Emerged out of the fear of man",
       "Emerged from the desire of man to worship the forces of nature",
-      "Employs different methods of inquiry",
-      "Work at the cross-purpose of each other"
+      "Employ different methods of inquiry",
+      "Work at cross-purposes with each other"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage explicitly says their methods differ: science relies on observation, experimentation and experience, while religion relies on faith, intuition and the spoken word (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p1-Q6",
@@ -7150,22 +7125,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "According to the passage, at the present juncture, there is a need to:(2)",
+    "question": "According to the passage, at the present juncture, there is a need to:",
     "options": [
-      "teach people to worship the forces of nature",
-      "encourage spiritualism as much as possible",
-      "judiciously mix the principles of science and true spirit of religion",
-      "free man from all sorts of bondages"
+      "Teach people to worship the forces of nature",
+      "Encourage spiritualism as much as possible",
+      "Judiciously combine the principles of science with the true spirit of religion",
+      "Free man from all forms of bondage"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage argues that science and religion are correlated but use different methods, supporting a judicious combination of science and religion (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p1-Q8",
@@ -7176,22 +7151,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Which of the following statements is true in the context of the passage?(2)",
+    "question": "Which statement is true in the context of the passage?",
     "options": [
       "Science and religion are antagonistic to each other",
-      "Science encourages worshipping of nature",
+      "Science encourages worship of nature",
       "Religion is essential for external peace and harmony",
       "Regimental religion was replaced by scientific principles"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the passage says science and religion are correlated and describes harmony between external nature and the inner self, but none of the options states those claims accurately enough to be a unique answer.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=2",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the"
+    "sourceNote": "Held out: the passage says science and religion are correlated and describes harmony between external nature and the inner self, but none of the options states those claims accurately enough to be a unique answer."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p1-Q9",
@@ -7202,22 +7176,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Which of the following statements is not true in the context of the passage?(2)",
+    "question": "Which statement is NOT true in the context of the passage?",
     "options": [
       "Man worships the forces of nature",
-      "Methods of science and religion are different",
-      "Regimental religion got degenerated into orthodoxy",
+      "The methods of science and religion are different",
+      "Regimental religion degenerated into orthodoxy",
       "Galileo and Bruno were disciples of Copernicus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The passage names Copernicus, Galileo and Bruno as thinkers who were tortured; it does not say Galileo and Bruno were Copernicus’s disciples (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p1-Q10",
@@ -7228,22 +7202,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "According to the passage, truth was:(2)",
+    "question": "According to the passage, truth was:",
     "options": [
-      "flouted",
-      "progressive",
-      "both (a) & (b)",
+      "Flouted",
+      "Progressive",
+      "Both (a) and (b)",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The passage states that truth was flouted; “progressive” describes the liberal ideas that were suppressed, not truth (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p1-Q11",
@@ -7254,222 +7228,274 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "What was the objective of the authors of the holy scriptures?(2)",
+    "question": "What was the objective of the authors of the holy scriptures?",
     "options": [
-      "To teach man the methods of worshipping nature",
-      "To educate and raise the human spirit and mind",
+      "To teach methods of worshipping nature",
+      "To ennoble, elevate and liberate the human spirit and mind",
       "To develop harmony between external nature and their inner self",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The passage directly says their objective was to ennoble, elevate and liberate the human spirit and mind (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 3 -12): Read the following passage and answer the questions based on the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-inspector-stats-2026-p1-Q13",
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-1",
     "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write an essay choosing one topic: (a) Sairang Rail Station: A Catalyst for Infrastructure Development in Mizoram; (b) Mental Health and Work Environment; (c) Strengthening Good Governance through Official Statistics; or (d) The Digital Generation: How Technology Is Changing Childhood and Youth. (20 marks)",
+    "explanation": "Choose one topic. Suggested approach: state a clear thesis, develop three or four relevant points with examples, organise the essay into an introduction, coherent body paragraphs and conclusion, and use accurate grammar. For topic (a), discuss connectivity, trade, tourism and regional development; for (b), workplace causes, effects and supports; for (c), reliable data, transparency and evidence-led decisions; for (d), learning, communication, wellbeing, privacy and responsible use.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "Inspector of Statistics · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-2",
+    "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write a précis of the following passage (10 marks):\nSelf-reliance is the pilgrim’s best staff, the worker’s best tool. It is the master key that unlocks all the difficulties of life. “Help yourself and Heaven will help you” is a maxim that receives daily confirmation. He who begins with crutches will generally end with crutches. Help from within always strengthens, but help from without invariably weakens the recipients. The habit of depending upon others should be vigorously resisted, since it tends to weaken the intellectual faculties and paralyse the judgement. The struggle against adverse circumstances has, on the contrary, a strengthening effect, like that of the pure mountain air on an enfeebled frame.\n\nThis is a lesson which is not taught in academic institutions nowadays. The vice of the modern system of education is that it lays down too many royal roads to knowledge. The difficulties, which formerly compelled the student to think and labour for himself are now removed. The race of thorough and complete scholars is dying out. Our young men are equipped to such an extent with manuals that explain everything and guides that go everywhere, that they find no occasion for thought. Why take any trouble at all when so many are willing to relieve you of it?",
+    "explanation": "Sample précis (title: “The Value of Self-Reliance”): Self-reliance strengthens judgement and character. Depending constantly on others weakens independent thought, while facing difficulties develops intellectual ability. Education should therefore encourage students to think and work for themselves instead of relying entirely on ready-made guides. A good précis should be concise, use the writer’s main ideas and be expressed in the student’s own words.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "Inspector of Statistics · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-3",
+    "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "According to the passage, why did people worship the forces of nature? (2 marks)",
+    "explanation": "They were awed by the violent and powerful aspects of nature and felt overwhelmed by natural forces such as fire, the sun, rivers, rocks, trees and snakes.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "Inspector of Statistics · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-4",
+    "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Why does the passage say that science emerged as a “saviour of mankind”? (2 marks)",
+    "explanation": "Religious authorities had monopolised spiritual knowledge and suppressed liberal or sceptical ideas, punishing thinkers. Science offered a path out of those intellectual chains and began to gain ground.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "Inspector of Statistics · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-7",
+    "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Give an antonym of “non-contradictory.” (2 marks)",
+    "explanation": "A suitable antonym is “contradictory” or “inconsistent.” No answer options are printed for this short-answer item.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "Inspector of Statistics · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-12",
+    "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
+    "questionNumber": "12",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Give a synonym for “dazzled/impressed.” (2 marks)",
+    "explanation": "Suitable synonyms include “awed,” “astonished” or “amazed.” No answer options are printed for this short-answer item.",
+    "sourceReview": false,
+    "sourceNote": "",
+    "source": "Inspector of Statistics · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-13",
+    "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
     "questionNumber": "13",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "written",
+    "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Make sentences with any five to bring out the difference in their meaning(5×2=10)",
-    "options": [
-      "Emerge/Immerse",
-      "Pair/Pare",
-      "Teem/Team",
-      "Antique/Antic"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
+    "question": "Make sentences with any five pairs to show the difference in meaning: (a) Emerge/Immerse; (b) Pair/Pare; (c) Teem/Team; (d) Antique/Antic; (e) Compliment/Complement; (f) Hail/Hale; (g) Wave/Waive; (h) Proscribe/Prescribe. (5×2=10 marks)",
+    "explanation": "Sample sentences: emerge—The sun emerged from the clouds; immerse—Immerse the cloth in water. pair—The pair arrived together; pare—Pare the apple. teem—The pond teems with fish; team—Our team won. antique—She bought an antique vase; antic—The clown’s antic made us laugh. compliment—He gave her a compliment; complement—The sauce complements the dish. hail—They hailed a taxi; hale—The hale veteran walked briskly. wave—She gave a friendly wave; waive—The bank agreed to waive the fee. proscribe—The law proscribes bribery; prescribe—The doctor will prescribe medicine.",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
-    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3"
   },
   {
-    "id": "mpsc-group-b-inspector-stats-2026-p1-Q14",
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-14",
     "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
     "questionNumber": "14",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "written",
+    "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Supply suitable one-word substitutes for any ten of the following:(10×2=20)",
-    "options": [
-      "Incapable of making errors",
-      "Fluent and clear in speech",
-      "One who hates war, loves peace",
-      "A remedy for all ills"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
+    "question": "Supply one-word substitutes for any ten: (a) incapable of making errors; (b) fluent and clear in speech; (c) one who hates war and loves peace; (d) a remedy for all ills; (e) exactly as spoken or written; (f) a connoisseur of food; (g) an imaginary name assumed by an author; (h) medicine given to counteract poison; (i) one who lives in solitude; (j) an examination of living tissue; (k) an official pardon; (l) a flower fastened in a circle. (10×2=20 marks)",
+    "explanation": "Suggested answers: (a) infallible; (b) eloquent; (c) pacifist; (d) panacea; (e) verbatim; (f) gourmet/epicure; (g) pseudonym; (h) antidote; (i) recluse; (j) biopsy; (k) pardon/amnesty; (l) wreath.",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
-    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3"
   },
   {
-    "id": "mpsc-group-b-inspector-stats-2026-p1-Q15",
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-15",
     "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
     "questionNumber": "15",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "written",
+    "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Supply appropriate synonyms for any five of the following:(5×2=10)",
-    "options": [
-      "Concur",
-      "Overbearing",
-      "Mitigate",
-      "Prodigy"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
+    "question": "Supply synonyms for any five: (a) Concur; (b) Overbearing; (c) Mitigate; (d) Prodigy; (e) Vagrant; (f) Brittle; (g) Disdain. (5×2=10 marks)",
+    "explanation": "Suggested synonyms: concur—agree; overbearing—domineering; mitigate—alleviate; prodigy—genius; vagrant—wandering; brittle—fragile; disdain—contempt.",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
-    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3"
   },
   {
-    "id": "mpsc-group-b-inspector-stats-2026-p1-Q16",
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-16",
     "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
     "questionNumber": "16",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "written",
+    "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Supply appropriate antonyms for any five of the following:(5×2=10)",
-    "options": [
-      "Moderate",
-      "Jubilant",
-      "Eccentric",
-      "Nepotism"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
+    "question": "Supply antonyms for any five: (a) Moderate; (b) Jubilant; (c) Eccentric; (d) Nepotism; (e) Transient; (f) Spurious; (g) Abound. (5×2=10 marks)",
+    "explanation": "Suggested antonyms: moderate—extreme; jubilant—despondent; eccentric—conventional; nepotism—impartiality; transient—permanent; spurious—genuine; abound—lack.",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
-    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3"
   },
   {
-    "id": "mpsc-group-b-inspector-stats-2026-p1-Q17",
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-17",
     "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
     "questionNumber": "17",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "written",
+    "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Make sentences with any five of the following idioms/phrases to bring out their meaning:(5×2=10)",
-    "options": [
-      "Hold water",
-      "Bird’s eye view",
-      "Apple-pie order",
-      "To miss the bus"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
+    "question": "Make sentences with any five idioms/phrases to show their meaning: (a) Hold water; (b) Bird’s-eye view; (c) Apple-pie order; (d) To miss the bus; (e) A small fry; (f) Gordian knot; (g) Damp squib. (5×2=10 marks)",
+    "explanation": "Sample uses: Her explanation does not hold water. From the hill we had a bird’s-eye view of the town. The files were arranged in apple-pie order. He missed the bus by arriving late. The manager treated no employee as a small fry. The mediator cut through the Gordian knot. The much-advertised event was a damp squib.",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
-    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3"
   },
   {
-    "id": "mpsc-group-b-inspector-stats-2026-p1-Q18",
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-18",
     "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
     "questionNumber": "18",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "written",
+    "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Change the voice:(5×2=10)",
-    "options": [
-      "The chef is cooking a special dish",
-      "How did you open the door?",
-      "Tea shall not be taken by me today",
-      "By whom were you insulted?"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
+    "question": "Change the voice: (a) The chef is cooking a special dish. (b) How did you open the door? (c) Tea shall not be taken by me today. (d) By whom were you insulted? (e) Mistakes were made. (5×2=10 marks)",
+    "explanation": "Possible answers: (a) A special dish is being cooked by the chef. (b) How was the door opened? (c) I shall not take tea today. (d) Who insulted you? (e) Someone made mistakes. Passive sentences without an expressed agent may allow more than one natural active subject.",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
-    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=3"
   },
   {
-    "id": "mpsc-group-b-inspector-stats-2026-p1-Q19",
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-19",
     "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
     "questionNumber": "19",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "written",
+    "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Complete the following by using question tags:(5×2=10)",
-    "options": [
-      "Let us go, _______?",
-      "He isn’t very happy with it _________?",
-      "Mind your business, _________?",
-      "Keep your mouth shut ______?"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
+    "question": "Complete the question tags: (a) Let us go, ___? (b) He isn’t very happy with it, ___? (c) Mind your business, ___? (d) Keep your mouth shut, ___? (e) Don’t break the glass, ___? (5×2=10 marks)",
+    "explanation": "Suggested tags: (a) shall we? (b) is he? (c) will you? (d) will you? (e) will you? Commands commonly take “will you?” as the tag.",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
-    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=4"
   },
   {
-    "id": "mpsc-group-b-inspector-stats-2026-p1-Q20",
+    "id": "mpsc-group-b-inspector-stats-2026-p1-written-20",
     "paperId": "mpsc-group-b-inspector-stats-2026-p1",
+    "type": "descriptive",
     "questionNumber": "20",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "written",
+    "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Rewrite the following sentences as directed:(10×2=20)",
-    "options": [
-      "How long have you _________ him? (Fill in using the verb know)",
-      "The sun was shining. We went for a walk. (Change into Compound sentence)",
-      "Having finished his work, he went home. (Change into Complex sentence)",
-      "You have to pay or you cannot leave this place. (Change into Simple sentence)"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
+    "question": "Rewrite as directed: (a) How long have you ___ him? (use “know”); (b) The sun was shining. We went for a walk. (make compound); (c) Having finished his work, he went home. (make complex); (d) You have to pay or you cannot leave this place. (make simple); (e) She said, “You see, you cannot meet the principal.” (indirect speech); (f) Portia exclaimed with sorrow that she was ruined. (direct speech); (g) Waste not, want not. (begin with “if”); (h) I do not know her nature any better than you. (use positive degree); (i) His prompt reply will able us to take timely action. (correct/improve); (j) Shall we ever forget these happy days? (rewrite using “never”). (10×2=20 marks)",
+    "explanation": "Possible answers: (a) How long have you known him? (b) The sun was shining, so we went for a walk. (c) After he had finished his work, he went home. (d) You cannot leave this place without paying. (e) She said that I could not meet the principal. (f) Portia exclaimed, “Alas! I am ruined!” (g) If you do not waste, you will not want. (h) I know her nature no better than you do. (i) His prompt reply will enable us to take timely action. (j) We shall never forget these happy days.",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
-    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf#page=4"
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q1",
@@ -7600,7 +7626,9 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart2: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q6",
     "paperId": "mpsc-group-b-inspector-stats-2026-p2",
@@ -7730,9 +7758,7 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart2: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q11",
     "paperId": "mpsc-group-b-inspector-stats-2026-p2",
@@ -15794,7 +15820,9 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart3: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2024-english-Q47",
     "paperId": "mpsc-group-b-aao-2024-english",
@@ -15939,9 +15967,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart3: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2024-english-Q52",
     "paperId": "mpsc-group-b-aao-2024-english",
@@ -24382,7 +24408,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionsNo.$1-55):Identifythekindofsentence:"
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p1-B52",
     "paperId": "mpsc-group-b-jao-2025-p1",
@@ -24512,9 +24540,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos,56-60):Pickoutthesentencewhichhasnoerrorinit."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p1-B58",
     "paperId": "mpsc-group-b-jao-2025-p1",
@@ -32138,7 +32164,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B29",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32288,9 +32316,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B34",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40500,7 +40526,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q9",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40625,9 +40653,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q15",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48163,7 +48189,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B8",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -48313,9 +48341,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B13",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -56142,7 +56168,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B48",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -56287,9 +56315,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B53",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -63868,7 +63894,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q33",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64008,9 +64036,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q38",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -72768,7 +72794,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q5",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -72915,9 +72943,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q10",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81042,7 +81068,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B32",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B33",
     "questionNumber": "B33",
@@ -81177,9 +81205,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B37",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B38",
     "questionNumber": "B38",
@@ -88884,7 +88910,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B8",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B9",
     "questionNumber": "B9",
@@ -89019,9 +89047,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B13",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B14",
     "questionNumber": "B14",
@@ -93064,6 +93090,12 @@ const groupBQuestionsPart12: BankQuestion[] = [
 ];
 export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
+  "mpsc-group-b-inspector-stats-2026-p1": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-inspector-stats-2026-p2": {
     "marksPerQuestion": 1,
     "durationMinutes": 120,
@@ -93207,6 +93239,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-ng-technical-2024-gk": 100,
   "mpsc-group-b-ng-2024-paper-2-a": 100,
   "mpsc-group-b-ng-2024-paper-1-a": 75,
+  "mpsc-group-b-inspector-stats-2026-p1": 6,
   "mpsc-group-b-aao-2024-english": 100,
   "mpsc-group-b-aao-2024-gk": 100,
   "mpsc-group-b-aao-2024-arithmetic": 100,

@@ -37,7 +37,8 @@
     "sourceHref": "/papers/group-b/inspector-stats-2026-p1.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 6
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2",

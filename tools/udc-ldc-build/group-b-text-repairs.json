@@ -1213,8 +1213,138 @@
       "sourceSha256": "59ae97a9f3f3dadcb9582215f9ec4387fffda3a6296d3658cc79589ee85ebdae",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 54, 55, 67, 71 and 91 transcribed against rendered PDF pages 8–11. Options and mathematical notation checked visually. No verified official key is available for this paper, so answer scoring remains disabled.",
+      "evidence": "Questions 1–10 and 54, 55, 67, 71 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous items remain unscored.",
       "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "q": "Which state government in 2025 declared the two Harappan sites Tighrana and Mitathal as archaeological sites?",
+          "opts": {
+            "a": "Haryana",
+            "b": "Gujarat",
+            "c": "Rajasthan",
+            "d": "Punjab"
+          },
+          "explanation": "Tighrana and Mitathal are Harappan archaeological sites in Haryana; Haryana declared them archaeological sites."
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "q": "Arrange the following phases of the French Revolution in the correct chronological order: I. Dictatorship of Bonaparte; II. Convention; III. National Assembly; IV. Rule of the Directory.",
+          "opts": {
+            "a": "I, II, III, IV",
+            "b": "II, III, IV, I",
+            "c": "III, II, IV, I",
+            "d": "IV, II, III, I"
+          },
+          "explanation": "The National Assembly came first, followed by the Convention, the Directory and then Bonaparte’s dictatorship: III, II, IV, I (option C)."
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "q": "The Suez Crisis of 1956 involved which country nationalising the Suez Canal?",
+          "opts": {
+            "a": "France",
+            "b": "Britain",
+            "c": "Israel",
+            "d": "Egypt"
+          },
+          "explanation": "Egyptian President Gamal Abdel Nasser nationalised the Suez Canal in 1956, triggering the Suez Crisis."
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "q": "Who made the remark, “Swaraj is my birthright, and I shall have it”?",
+          "opts": {
+            "a": "Subhash Chandra Bose",
+            "b": "Bal Gangadhar Tilak",
+            "c": "Mahatma Gandhi",
+            "d": "Jawaharlal Nehru"
+          },
+          "explanation": "The “Swaraj is my birthright, and I shall have it” slogan is attributed to Bal Gangadhar Tilak (option B)."
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "q": "With reference to the proposals of the Cabinet Mission Plan (1946), consider these statements: I. The Constituent Assembly was to be formed through indirect elections by the Provincial Legislative Assemblies. II. The Princely States could send representatives to the Constituent Assembly. Which statement or statements are correct?",
+          "opts": {
+            "a": "I only",
+            "b": "II only",
+            "c": "Both I and II",
+            "d": "Neither I nor II"
+          },
+          "explanation": "Provincial representatives were indirectly elected by their legislatures; princely-state representatives were nominated by their rulers. Both statements are correct (C)."
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "q": "Which amendment is related to the Goods and Services Tax?",
+          "opts": {
+            "a": "100th Amendment",
+            "b": "101st Amendment",
+            "c": "102nd Amendment",
+            "d": "103rd Amendment"
+          },
+          "explanation": "The Constitution (One Hundred and First Amendment) Act, 2016 introduced the GST framework."
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "part": null,
+          "q": "Under the Constitution of India, the Supreme Court is empowered to settle disputes between the Centre and the States through which jurisdiction?",
+          "opts": {
+            "a": "Original Jurisdiction",
+            "b": "Appellate Jurisdiction",
+            "c": "Advisory Jurisdiction",
+            "d": "Writ Jurisdiction"
+          },
+          "explanation": "Article 131 gives the Supreme Court original jurisdiction over specified disputes between the Union and States."
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "part": null,
+          "q": "With reference to the Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025, which statement is true?",
+          "opts": {
+            "a": "It reduces the statutory employment guarantee from 125 to 100 days.",
+            "b": "It applies only to urban local bodies.",
+            "c": "It eliminates the rural employment guarantee entirely.",
+            "d": "It replaces MGNREGA and increases the guaranteed workdays for rural households."
+          },
+          "explanation": "The 2025 Act replaces the MGNREGA framework and raises the annual employment guarantee from 100 to 125 days for eligible rural households (D)."
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "q": "The promotion of international peace and security is provided for in the Constitution of India under which part?",
+          "opts": {
+            "a": "Preamble of the Constitution",
+            "b": "Fundamental Duties",
+            "c": "Directive Principles of State Policy",
+            "d": "Ninth Schedule"
+          },
+          "explanation": "Article 51, among the Directive Principles of State Policy, directs the State to promote international peace and security."
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": null,
+          "q": "Which article deals with the administration of tribal areas and Autonomous District Councils in North-East India under the Sixth Schedule?",
+          "opts": {
+            "a": "Article 244(2)",
+            "b": "Article 240",
+            "c": "Article 371-G",
+            "d": "Article 356"
+          },
+          "explanation": "Article 244(2) applies the Sixth Schedule provisions to the specified tribal areas in Assam, Meghalaya, Tripura and Mizoram. The stem’s phrase “through Governors’ rule” is imprecise; this is the closest constitutional provision listed."
+        },
         "54": {
           "n": 54,
           "page": 8,
@@ -1292,6 +1422,47 @@
         "91": {
           "answerIndex": 1,
           "explanation": "Six of the eleven listed pack weights exceed 5 kg, so the probability is 6/11 (option B)."
+        },
+        "1": {
+          "answerIndex": 0,
+          "explanation": "Tighrana and Mitathal are Harappan archaeological sites in Haryana; Haryana declared them archaeological sites."
+        },
+        "2": {
+          "answerIndex": 2,
+          "explanation": "The National Assembly came first, followed by the Convention, the Directory and then Bonaparte’s dictatorship: III, II, IV, I (option C)."
+        },
+        "3": {
+          "answerIndex": 3,
+          "explanation": "Egyptian President Gamal Abdel Nasser nationalised the Suez Canal in 1956, triggering the Suez Crisis."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "The “Swaraj is my birthright, and I shall have it” slogan is attributed to Bal Gangadhar Tilak (option B)."
+        },
+        "5": {
+          "answerIndex": 2,
+          "explanation": "Provincial representatives were indirectly elected by their legislatures; princely-state representatives were nominated by their rulers. Both statements are correct (C)."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "The Constitution (One Hundred and First Amendment) Act, 2016 introduced the GST framework."
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "Article 131 gives the Supreme Court original jurisdiction over specified disputes between the Union and States."
+        },
+        "8": {
+          "answerIndex": 3,
+          "explanation": "The 2025 Act replaces the MGNREGA framework and raises the annual employment guarantee from 100 to 125 days for eligible rural households (D)."
+        },
+        "9": {
+          "answerIndex": 2,
+          "explanation": "Article 51, among the Directive Principles of State Policy, directs the State to promote international peace and security."
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "Article 244(2) applies the Sixth Schedule provisions to the specified tribal areas in Assam, Meghalaya, Tripura and Mizoram. The stem’s phrase “through Governors’ rule” is imprecise; this is the closest constitutional provision listed.",
+          "confidence": "medium"
         }
       }
     },

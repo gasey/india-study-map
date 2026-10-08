@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,455 items: 3,348 MCQs and 107 written prompts.
-1,726 questions are ready for practice, including 1,614 official answers and
-112 independently derived answers. 1,692 items still need source review.
+1,736 questions are ready for practice, including 1,614 official answers and
+122 independently derived answers. 1,682 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -21,6 +21,11 @@ scan. Four have worked, derived answers; Q55 remains unscored because its
 printed calculation is ambiguous. AAO 2025 Paper-II Q60 also has a scan-checked
 transcription and worked probability solution. Partial repairs are source-hash
 guarded and do not mark the rest of an OCR paper as reviewed.
+
+Inspector of Statistics Paper-II Q1–10 are now scan-checked with independently
+derived answers and explanations. No verified key is available for this March
+sitting; the separate Sub-Inspector of Statistics final key is not applied to
+it.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

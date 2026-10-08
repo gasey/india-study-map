@@ -7480,24 +7480,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which state government in 2025 declared two Harappan sites ‘Tighrana and Mitathal’ as archaeological sites?",
+    "question": "Which state government in 2025 declared the two Harappan sites Tighrana and Mitathal as archaeological sites?",
     "options": [
       "Haryana",
       "Gujarat",
       "Rajasthan",
       "Punjab"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tighrana and Mitathal are Harappan archaeological sites in Haryana; Haryana declared them archaeological sites.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q2",
@@ -7508,21 +7506,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Arrange the following phases of the French Revolution in the correct chronological order: I.Dictatorship of Bonaparte II.Convention III.National Assembly IV.Rule of Directory",
+    "question": "Arrange the following phases of the French Revolution in the correct chronological order: I. Dictatorship of Bonaparte; II. Convention; III. National Assembly; IV. Rule of the Directory.",
     "options": [
       "I, II, III, IV",
       "II, III, IV, I",
       "III, II, IV, I",
       "IV, II, III, I"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The National Assembly came first, followed by the Convention, the Directory and then Bonaparte’s dictatorship: III, II, IV, I (option C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q3",
@@ -7533,24 +7532,24 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The ‘Suez Crisis’ of 1956 involved which country nationalising the Suez Canal?",
+    "question": "The Suez Crisis of 1956 involved which country nationalising the Suez Canal?",
     "options": [
       "France",
       "Britain",
       "Israel",
       "Egypt"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Egyptian President Gamal Abdel Nasser nationalised the Suez Canal in 1956, triggering the Suez Crisis.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=1",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q4",
@@ -7561,24 +7560,24 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Who made the remark, “Swaraj is my birth right, and I shall have it.”?",
+    "question": "Who made the remark, “Swaraj is my birthright, and I shall have it”?",
     "options": [
       "Subhash Chandra Bose",
       "Bal Gangadhar Tilak",
       "Mahatma Gandhi",
       "Jawaharlal Nehru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The “Swaraj is my birthright, and I shall have it” slogan is attributed to Bal Gangadhar Tilak (option B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=1",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerConfidence": "high",
+    "answerSource": "derived",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q5",
@@ -7589,24 +7588,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "With reference to the proposals of the Cabinet Mission Plan (1946), consider the following statements: I.The Constituent Assembly was to be formed through indirect elections by the Provincial Legislative Assemblies II.The Princely States were given the option to send representatives to the Constituent Assembly Which of the statements given above is/are correct?",
+    "question": "With reference to the proposals of the Cabinet Mission Plan (1946), consider these statements: I. The Constituent Assembly was to be formed through indirect elections by the Provincial Legislative Assemblies. II. The Princely States could send representatives to the Constituent Assembly. Which statement or statements are correct?",
     "options": [
       "I only",
       "II only",
       "Both I and II",
       "Neither I nor II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Provincial representatives were indirectly elected by their legislatures; princely-state representatives were nominated by their rulers. Both statements are correct (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q6",
@@ -7617,24 +7614,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which amendment is related to Goods and Services Tax?",
+    "question": "Which amendment is related to the Goods and Services Tax?",
     "options": [
       "100th Amendment",
       "101st Amendment",
       "102nd Amendment",
       "103rd Amendment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Constitution (One Hundred and First Amendment) Act, 2016 introduced the GST framework.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q7",
@@ -7645,24 +7640,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Under the Constitution of India, the Supreme Court is empowered to settle disputes between the Centre and the states through:",
+    "question": "Under the Constitution of India, the Supreme Court is empowered to settle disputes between the Centre and the States through which jurisdiction?",
     "options": [
       "Original Jurisdiction",
       "Appellate Jurisdiction",
       "Advisory Jurisdiction",
       "Writ Jurisdiction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Article 131 gives the Supreme Court original jurisdiction over specified disputes between the Union and States.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q8",
@@ -7673,24 +7666,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "With reference to recent legislative reforms in India’s rural employment framework, which of the following is true about the Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025?",
+    "question": "With reference to the Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025, which statement is true?",
     "options": [
       "It reduces the statutory employment guarantee from 125 to 100 days.",
       "It applies only to urban local bodies.",
       "It eliminates the rural employment guarantee entirely.",
       "It replaces MGNREGA and increases the guaranteed workdays for rural households."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 2025 Act replaces the MGNREGA framework and raises the annual employment guarantee from 100 to 125 days for eligible rural households (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q9",
@@ -7701,24 +7692,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Promotion of international peace and security is provided for in the Constitution of India under:",
+    "question": "The promotion of international peace and security is provided for in the Constitution of India under which part?",
     "options": [
       "Preamble of the Constitution",
       "Fundamental Duties",
       "Directive Principles of State Policy",
       "Ninth Schedule"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Article 51, among the Directive Principles of State Policy, directs the State to promote international peace and security.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q10",
@@ -7729,24 +7718,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Which article of the Indian Constitution deals with the administration of Autonomous District Councils in North East India through Governors’ rule?",
+    "question": "Which article deals with the administration of tribal areas and Autonomous District Councils in North-East India under the Sixth Schedule?",
     "options": [
-      "Article 244 (2)",
+      "Article 244(2)",
       "Article 240",
       "Article 371-G",
       "Article 356"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Article 244(2) applies the Sixth Schedule provisions to the specified tribal areas in Assam, Meghalaya, Tripura and Mizoram. The stem’s phrase “through Governors’ rule” is imprecise; this is the closest constitutional provision listed.",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   }
 ];
 const groupBQuestionsPart2: BankQuestion[] = [

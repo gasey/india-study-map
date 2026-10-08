@@ -8560,7 +8560,7 @@
       "expectedMcq": 50,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Stenographer Grade-II (Contract) General English 2015 page 1 and the upper half of page 2 were checked against the scan. Q1–30 MCQ stems and options were transcribed and independently keyed. The cover also contains a distinct 20-mark Section A essay, restored as a written prompt with response guidance; the paper remains out of full-paper Exam mode until the remaining questions and marks are verified.",
+      "evidence": "Stenographer Grade-II (Contract) General English 2015 page 1 and the upper half of page 2 were checked against the scan. Q1–50 MCQ stems and options were transcribed and independently keyed. The cover also contains a distinct 20-mark Section A essay, restored as a written prompt with response guidance; the paper remains out of full-paper Exam mode until the remaining questions and marks are verified. The previously omitted Q31–36 block was recovered from page 4 and page 5; each printed item has three, not four, choices. The original scan confirms Q31–36 were omitted only by OCR; all six were restored. Q12, Q19, Q40 and Q47 are withheld because their choices do not yield a unique contextual answer.",
       "questions": {
         "1": {
           "n": 1,
@@ -8955,6 +8955,264 @@
             "d": "Possibility"
           },
           "explanation": "“Will be waiting” is the future progressive construction (B)."
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "part": null,
+          "q": "The verdict of the Judges that he is guilty has been challenged. Identify the sentence type.",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Simple sentence",
+            "c": "Complex sentence"
+          },
+          "explanation": "“That he is guilty” is a subordinate noun clause in apposition to “verdict”; the sentence has a main clause and a subordinate clause, so it is complex (C)."
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "part": null,
+          "q": "He denied to have sold spurious drugs to the customers. Identify the sentence type.",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Simple sentence",
+            "c": "Complex sentence"
+          },
+          "explanation": "The sentence contains one independent clause; “to have sold spurious drugs” is an infinitive phrase, not a finite subordinate clause. It is simple (B)."
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "part": null,
+          "q": "Morning walk is a good exercise, therefore everybody should walk. Identify the sentence type.",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Simple sentence",
+            "c": "Complex sentence"
+          },
+          "explanation": "The sentence joins two independent clauses: “Morning walk is a good exercise” and “everybody should walk.” It is compound (A)."
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "part": null,
+          "q": "Everyone wonders how she completed this work. Identify the sentence type.",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Simple sentence",
+            "c": "Complex sentence"
+          },
+          "explanation": "“How she completed this work” is a subordinate noun clause completing “wonders”; the sentence is complex (C)."
+        },
+        "35": {
+          "n": 35,
+          "page": 5,
+          "part": null,
+          "q": "Although they were tired, they worked late into the night. Identify the sentence type.",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Simple sentence",
+            "c": "Complex sentence"
+          },
+          "explanation": "“Although they were tired” is a dependent adverb clause, so the sentence is complex (C)."
+        },
+        "36": {
+          "n": 36,
+          "page": 5,
+          "part": null,
+          "q": "You permit me and I shall leave the room. Identify the sentence type.",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Simple sentence",
+            "c": "Complex sentence"
+          },
+          "explanation": "The sentence has two independent clauses joined by “and,” so it is compound (A)."
+        },
+        "37": {
+          "n": 37,
+          "page": 5,
+          "part": null,
+          "q": "**Rich as he is**, he is not happy. Identify the clause type of the underlined words.",
+          "opts": {
+            "a": "Noun clause",
+            "b": "Principal clause",
+            "c": "Adverb clause",
+            "d": "Coordinate clause"
+          },
+          "explanation": "“Rich as he is” is a concessive subordinate adverb clause (C)."
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "part": null,
+          "q": "I do not know **whom she is teaching**. Identify the clause type of the underlined words.",
+          "opts": {
+            "a": "Noun clause",
+            "b": "Relative clause",
+            "c": "Adverb clause",
+            "d": "Adjective clause"
+          },
+          "explanation": "“Whom she is teaching” is the object of “know,” so it is a noun clause (A)."
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "part": null,
+          "q": "He told me **what his father told him**. Identify the clause type of the underlined words.",
+          "opts": {
+            "a": "Coordinate clause",
+            "b": "Noun clause",
+            "c": "Principal clause",
+            "d": "Adjective clause"
+          },
+          "explanation": "“What his father told him” is the content of what he told me and functions as a noun clause (B)."
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "part": null,
+          "q": "I shall go to the place **where my friend lives**. Identify the clause type of the underlined words.",
+          "opts": {
+            "a": "Relative clause",
+            "b": "Adjective clause",
+            "c": "Adverb clause",
+            "d": "Coordinate clause"
+          },
+          "explanation": "“Where my friend lives” modifies “place” and is a relative/adjective clause. The scan offers both “relative clause” (A) and “adjective clause” (B), so there is no unique answer.",
+          "unscored": true,
+          "reviewNote": "“Where my friend lives” modifies “place” and is a relative/adjective clause. The scan offers both “relative clause” (A) and “adjective clause” (B), so there is no unique answer."
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "part": null,
+          "q": "**He could not utter a single word to his son** who, when he arrived, was in a dejected mood. Identify the clause type of the underlined words.",
+          "opts": {
+            "a": "Coordinate clause",
+            "b": "Noun clause",
+            "c": "Principal clause",
+            "d": "Adjective clause"
+          },
+          "explanation": "The underlined words form the main independent clause; they are the principal clause (C)."
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "part": null,
+          "q": "**Since my brother came**, he has been teaching. Identify the clause type of the underlined words.",
+          "opts": {
+            "a": "Coordinate clause",
+            "b": "Adverb clause",
+            "c": "Principal clause",
+            "d": "Adjective clause"
+          },
+          "explanation": "“Since my brother came” gives the time of the teaching and is a subordinate adverb clause (B)."
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "part": null,
+          "q": "The prisoner was released on ____ for good behaviour.",
+          "opts": {
+            "a": "Probation",
+            "b": "Bail",
+            "c": "Parole",
+            "d": "Guarantee"
+          },
+          "explanation": "Parole is conditional release from prison, commonly granted for good behaviour (C)."
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "part": null,
+          "q": "The brilliant students will be ____ scholarships.",
+          "opts": {
+            "a": "Rewarded",
+            "b": "Awarded",
+            "c": "Forwarded",
+            "d": "Honoured"
+          },
+          "explanation": "The standard collocation is “awarded scholarships” (B)."
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "part": null,
+          "q": "The salt spray has gradually ____ the bridge.",
+          "opts": {
+            "a": "Eroded",
+            "b": "Spoilt",
+            "c": "Demolished",
+            "d": "Ravaged"
+          },
+          "explanation": "Salt spray gradually wears away a structure, so “eroded” is the best fit (A)."
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "part": null,
+          "q": "On seeing the police approach, the miscreants ____.",
+          "opts": {
+            "a": "Cooled their heels",
+            "b": "Wore at their heels",
+            "c": "Took to their heels",
+            "d": "Took upon their heels"
+          },
+          "explanation": "“Took to their heels” means ran away, which fits the context (C)."
+        },
+        "47": {
+          "n": 47,
+          "page": 6,
+          "part": null,
+          "q": "If a speech is full of pompous words, it is ____.",
+          "opts": {
+            "a": "Verbose",
+            "b": "Bombastic",
+            "c": "Grandiose",
+            "d": "Grandiloquent"
+          },
+          "explanation": "“Bombastic” and “grandiloquent” both describe pompous, inflated language; the options do not support a unique answer.",
+          "unscored": true,
+          "reviewNote": "“Bombastic” and “grandiloquent” both describe pompous, inflated language; the options do not support a unique answer."
+        },
+        "48": {
+          "n": 48,
+          "page": 6,
+          "part": null,
+          "q": "Because of the bitter experiences of the past, he ____ everywhere.",
+          "opts": {
+            "a": "Disbelieves",
+            "b": "Suspects foul",
+            "c": "Sees a danger",
+            "d": "Smells a rat"
+          },
+          "explanation": "“Smell a rat” means suspect something wrong, matching the context (D)."
+        },
+        "49": {
+          "n": 49,
+          "page": 6,
+          "part": null,
+          "q": "He is very ____ on meeting foreigners and befriending them.",
+          "opts": {
+            "a": "Anxious",
+            "b": "Find",
+            "c": "Insistent",
+            "d": "Keen"
+          },
+          "explanation": "The idiom is “keen on” doing something, so D is correct."
+        },
+        "50": {
+          "n": 50,
+          "page": 6,
+          "part": null,
+          "q": "We do not know what ____ him to commit this crime.",
+          "opts": {
+            "a": "Excited",
+            "b": "Roused",
+            "c": "Prompted",
+            "d": "Attracted"
+          },
+          "explanation": "“What prompted him” means what induced or caused him to act; C is the best fit."
         }
       },
       "derivedAnswers": {
@@ -9069,6 +9327,78 @@
         "30": {
           "answerIndex": 1,
           "explanation": "“Will be waiting” is the future progressive construction (B)."
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "“That he is guilty” is a subordinate noun clause in apposition to “verdict”; the sentence has a main clause and a subordinate clause, so it is complex (C)."
+        },
+        "32": {
+          "answerIndex": 1,
+          "explanation": "The sentence contains one independent clause; “to have sold spurious drugs” is an infinitive phrase, not a finite subordinate clause. It is simple (B)."
+        },
+        "33": {
+          "answerIndex": 0,
+          "explanation": "The sentence joins two independent clauses: “Morning walk is a good exercise” and “everybody should walk.” It is compound (A)."
+        },
+        "34": {
+          "answerIndex": 2,
+          "explanation": "“How she completed this work” is a subordinate noun clause completing “wonders”; the sentence is complex (C)."
+        },
+        "35": {
+          "answerIndex": 2,
+          "explanation": "“Although they were tired” is a dependent adverb clause, so the sentence is complex (C)."
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "The sentence has two independent clauses joined by “and,” so it is compound (A)."
+        },
+        "37": {
+          "answerIndex": 2,
+          "explanation": "“Rich as he is” is a concessive subordinate adverb clause (C)."
+        },
+        "38": {
+          "answerIndex": 0,
+          "explanation": "“Whom she is teaching” is the object of “know,” so it is a noun clause (A)."
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "“What his father told him” is the content of what he told me and functions as a noun clause (B)."
+        },
+        "41": {
+          "answerIndex": 2,
+          "explanation": "The underlined words form the main independent clause; they are the principal clause (C)."
+        },
+        "42": {
+          "answerIndex": 1,
+          "explanation": "“Since my brother came” gives the time of the teaching and is a subordinate adverb clause (B)."
+        },
+        "43": {
+          "answerIndex": 2,
+          "explanation": "Parole is conditional release from prison, commonly granted for good behaviour (C)."
+        },
+        "44": {
+          "answerIndex": 1,
+          "explanation": "The standard collocation is “awarded scholarships” (B)."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "Salt spray gradually wears away a structure, so “eroded” is the best fit (A)."
+        },
+        "46": {
+          "answerIndex": 2,
+          "explanation": "“Took to their heels” means ran away, which fits the context (C)."
+        },
+        "48": {
+          "answerIndex": 3,
+          "explanation": "“Smell a rat” means suspect something wrong, matching the context (D)."
+        },
+        "49": {
+          "answerIndex": 3,
+          "explanation": "The idiom is “keen on” doing something, so D is correct."
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "“What prompted him” means what induced or caused him to act; C is the best fit."
         }
       },
       "written": {

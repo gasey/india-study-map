@@ -47,8 +47,19 @@ class ReviewedRepairTests(unittest.TestCase):
 
     def test_rejects_missing_option(self):
         del self.repair['questions']['4']['opts']['d']
+        del self.repair['questions']['4']['opts']['c']
         with self.assertRaisesRegex(AssertionError, 'options'):
             reviewed_extraction(self.extracted, self.repair)
+
+    def test_accepts_three_printed_options(self):
+        partial = copy.deepcopy(self.repair)
+        partial['partialReview'] = True
+        partial['questions'] = {'3': partial['questions']['3']}
+        del partial['questions']['3']['opts']['d']
+        result, reviewed = reviewed_extraction(self.extracted, partial)
+        self.assertEqual(reviewed, {3})
+        question = next(q for q in result['questions'] if q['n'] == 3)
+        self.assertEqual(tuple(question['opts']), ('a', 'b', 'c'))
 
     def test_allows_explicit_partial_review(self):
         partial = copy.deepcopy(self.repair)

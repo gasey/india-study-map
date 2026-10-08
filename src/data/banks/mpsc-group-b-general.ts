@@ -11075,313 +11075,432 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B37",
+    "id": "mpsc-group-b-steno2-2015-english-Q31",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B37",
+    "questionNumber": "31",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "**Rich as he is**, he is not happy.",
+    "question": "The verdict of the Judges that he is guilty has been challenged. Identify the sentence type.",
     "options": [
-      "noun clause",
-      "principal clause",
-      "adverb clause",
-      "co-ordinate clause"
+      "Compound sentence",
+      "Simple sentence",
+      "Complex sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“That he is guilty” is a subordinate noun clause in apposition to “verdict”; the sentence has a main clause and a subordinate clause, so it is complex (C).",
+    "source": "Stenographer Grade II, DP&AR · 2015",
+    "year": 2015,
+    "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno2-2015-english-Q32",
+    "paperId": "mpsc-group-b-steno2-2015-english",
+    "questionNumber": "32",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "He denied to have sold spurious drugs to the customers. Identify the sentence type.",
+    "options": [
+      "Compound sentence",
+      "Simple sentence",
+      "Complex sentence"
+    ],
+    "answerIndex": 1,
+    "explanation": "The sentence contains one independent clause; “to have sold spurious drugs” is an infinitive phrase, not a finite subordinate clause. It is simple (B).",
+    "source": "Stenographer Grade II, DP&AR · 2015",
+    "year": 2015,
+    "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno2-2015-english-Q33",
+    "paperId": "mpsc-group-b-steno2-2015-english",
+    "questionNumber": "33",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Morning walk is a good exercise, therefore everybody should walk. Identify the sentence type.",
+    "options": [
+      "Compound sentence",
+      "Simple sentence",
+      "Complex sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "The sentence joins two independent clauses: “Morning walk is a good exercise” and “everybody should walk.” It is compound (A).",
+    "source": "Stenographer Grade II, DP&AR · 2015",
+    "year": 2015,
+    "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno2-2015-english-Q34",
+    "paperId": "mpsc-group-b-steno2-2015-english",
+    "questionNumber": "34",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Everyone wonders how she completed this work. Identify the sentence type.",
+    "options": [
+      "Compound sentence",
+      "Simple sentence",
+      "Complex sentence"
+    ],
+    "answerIndex": 2,
+    "explanation": "“How she completed this work” is a subordinate noun clause completing “wonders”; the sentence is complex (C).",
+    "source": "Stenographer Grade II, DP&AR · 2015",
+    "year": 2015,
+    "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno2-2015-english-Q35",
+    "paperId": "mpsc-group-b-steno2-2015-english",
+    "questionNumber": "35",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Although they were tired, they worked late into the night. Identify the sentence type.",
+    "options": [
+      "Compound sentence",
+      "Simple sentence",
+      "Complex sentence"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Although they were tired” is a dependent adverb clause, so the sentence is complex (C).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B38",
+    "id": "mpsc-group-b-steno2-2015-english-Q36",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B38",
+    "questionNumber": "36",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "I do not know **whom she is teaching**.",
+    "question": "You permit me and I shall leave the room. Identify the sentence type.",
     "options": [
-      "noun clause",
-      "relative clause",
-      "adverb clause",
-      "adjective clause"
+      "Compound sentence",
+      "Simple sentence",
+      "Complex sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The sentence has two independent clauses joined by “and,” so it is compound (A).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B39",
+    "id": "mpsc-group-b-steno2-2015-english-Q37",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B39",
+    "questionNumber": "37",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He told me **what his father told him**.",
+    "question": "**Rich as he is**, he is not happy. Identify the clause type of the underlined words.",
     "options": [
-      "co-ordinate clause",
-      "noun clause",
-      "principal clause",
-      "adjective clause"
+      "Noun clause",
+      "Principal clause",
+      "Adverb clause",
+      "Coordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Rich as he is” is a concessive subordinate adverb clause (C).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B40",
+    "id": "mpsc-group-b-steno2-2015-english-Q38",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B40",
+    "questionNumber": "38",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "I shall go to the place **where my friend lives**.",
+    "question": "I do not know **whom she is teaching**. Identify the clause type of the underlined words.",
     "options": [
-      "relative clause",
-      "adjective clause",
-      "adverb clause",
-      "co-ordinate clause"
+      "Noun clause",
+      "Relative clause",
+      "Adverb clause",
+      "Adjective clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Whom she is teaching” is the object of “know,” so it is a noun clause (A).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B41",
+    "id": "mpsc-group-b-steno2-2015-english-Q39",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B41",
+    "questionNumber": "39",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "**He could not utter a single word to his son** who, when he arrived, was in a dejected mood.",
+    "question": "He told me **what his father told him**. Identify the clause type of the underlined words.",
     "options": [
-      "co-ordinate clause",
-      "noun clause",
-      "principal clause",
-      "adjective clause"
+      "Coordinate clause",
+      "Noun clause",
+      "Principal clause",
+      "Adjective clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“What his father told him” is the content of what he told me and functions as a noun clause (B).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B42",
+    "id": "mpsc-group-b-steno2-2015-english-Q40",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B42",
+    "questionNumber": "40",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "**Since my brother came**, he has been teaching.",
+    "question": "I shall go to the place **where my friend lives**. Identify the clause type of the underlined words.",
     "options": [
-      "Co-ordinate clause",
-      "adverb clause",
-      "principal clause",
-      "adjective clause"
+      "Relative clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Coordinate clause"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Where my friend lives” modifies “place” and is a relative/adjective clause. The scan offers both “relative clause” (A) and “adjective clause” (B), so there is no unique answer.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 37 – 42) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "“Where my friend lives” modifies “place” and is a relative/adjective clause. The scan offers both “relative clause” (A) and “adjective clause” (B), so there is no unique answer."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B43",
+    "id": "mpsc-group-b-steno2-2015-english-Q41",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B43",
+    "questionNumber": "41",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "The prisoner was released on __________ for good behaviour.",
+    "question": "**He could not utter a single word to his son** who, when he arrived, was in a dejected mood. Identify the clause type of the underlined words.",
     "options": [
-      "probation",
-      "bail",
-      "parole",
-      "guarantee"
+      "Coordinate clause",
+      "Noun clause",
+      "Principal clause",
+      "Adjective clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The underlined words form the main independent clause; they are the principal clause (C).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B44",
+    "id": "mpsc-group-b-steno2-2015-english-Q42",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B44",
+    "questionNumber": "42",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "The brilliant students will be __________ scholarships.",
+    "question": "**Since my brother came**, he has been teaching. Identify the clause type of the underlined words.",
     "options": [
-      "rewarded",
-      "awarded",
-      "forwarded",
-      "honoured"
+      "Coordinate clause",
+      "Adverb clause",
+      "Principal clause",
+      "Adjective clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Since my brother came” gives the time of the teaching and is a subordinate adverb clause (B).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B45",
+    "id": "mpsc-group-b-steno2-2015-english-Q43",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B45",
+    "questionNumber": "43",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "The salt spray has gradually __________ the bridge.",
+    "question": "The prisoner was released on ____ for good behaviour.",
     "options": [
-      "eroded",
-      "spoilt",
-      "demolished",
-      "ravaged"
+      "Probation",
+      "Bail",
+      "Parole",
+      "Guarantee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Parole is conditional release from prison, commonly granted for good behaviour (C).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B46",
+    "id": "mpsc-group-b-steno2-2015-english-Q44",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B46",
+    "questionNumber": "44",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "On seeing the police approach, the miscreants __________.",
+    "question": "The brilliant students will be ____ scholarships.",
     "options": [
-      "cooled their heels",
-      "wore at their heels",
-      "took to their heels",
-      "took upon their heels"
+      "Rewarded",
+      "Awarded",
+      "Forwarded",
+      "Honoured"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The standard collocation is “awarded scholarships” (B).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B47",
+    "id": "mpsc-group-b-steno2-2015-english-Q45",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B47",
+    "questionNumber": "45",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "If a speech is full of pompous words, it is __________.",
+    "question": "The salt spray has gradually ____ the bridge.",
     "options": [
-      "verbose",
-      "bombastic",
-      "grandiose",
-      "grandiloquent"
+      "Eroded",
+      "Spoilt",
+      "Demolished",
+      "Ravaged"
+    ],
+    "answerIndex": 0,
+    "explanation": "Salt spray gradually wears away a structure, so “eroded” is the best fit (A).",
+    "source": "Stenographer Grade II, DP&AR · 2015",
+    "year": 2015,
+    "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno2-2015-english-Q46",
+    "paperId": "mpsc-group-b-steno2-2015-english",
+    "questionNumber": "46",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "On seeing the police approach, the miscreants ____.",
+    "options": [
+      "Cooled their heels",
+      "Wore at their heels",
+      "Took to their heels",
+      "Took upon their heels"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Took to their heels” means ran away, which fits the context (C).",
+    "source": "Stenographer Grade II, DP&AR · 2015",
+    "year": 2015,
+    "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-steno2-2015-english-Q47",
+    "paperId": "mpsc-group-b-steno2-2015-english",
+    "questionNumber": "47",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "If a speech is full of pompous words, it is ____.",
+    "options": [
+      "Verbose",
+      "Bombastic",
+      "Grandiose",
+      "Grandiloquent"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Bombastic” and “grandiloquent” both describe pompous, inflated language; the options do not support a unique answer.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=6",
@@ -11390,95 +11509,85 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given"
+    "sourceNote": "“Bombastic” and “grandiloquent” both describe pompous, inflated language; the options do not support a unique answer. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B48",
+    "id": "mpsc-group-b-steno2-2015-english-Q48",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B48",
+    "questionNumber": "48",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Because of the bitter experiences of the past he __________ everywhere.",
+    "question": "Because of the bitter experiences of the past, he ____ everywhere.",
     "options": [
-      "disbelieves",
-      "suspects foul",
-      "sees a danger",
-      "smells a rat"
+      "Disbelieves",
+      "Suspects foul",
+      "Sees a danger",
+      "Smells a rat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Smell a rat” means suspect something wrong, matching the context (D).",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B49",
+    "id": "mpsc-group-b-steno2-2015-english-Q49",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B49",
+    "questionNumber": "49",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He is very __________ on meeting foreigners and befriending them.",
+    "question": "He is very ____ on meeting foreigners and befriending them.",
     "options": [
-      "anxious",
-      "find",
-      "insistent",
-      "keen"
+      "Anxious",
+      "Find",
+      "Insistent",
+      "Keen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The idiom is “keen on” doing something, so D is correct.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-steno2-2015-english-B50",
+    "id": "mpsc-group-b-steno2-2015-english-Q50",
     "paperId": "mpsc-group-b-steno2-2015-english",
-    "questionNumber": "B50",
+    "questionNumber": "50",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "We don’t know what __________ him to commit this crime.",
+    "question": "We do not know what ____ him to commit this crime.",
     "options": [
-      "excited",
-      "roused",
-      "prompted",
-      "attracted"
+      "Excited",
+      "Roused",
+      "Prompted",
+      "Attracted"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“What prompted him” means what induced or caused him to act; C is the best fit.",
     "source": "Stenographer Grade II, DP&AR · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/steno2-2015-english.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 43 – 50): Fill in the blanks with the correct word/phrase out of the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-steno2-2015-english-written-1",
@@ -15551,7 +15660,9 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart3: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2024-english-Q41",
     "paperId": "mpsc-group-b-aao-2024-english",
@@ -15731,9 +15842,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart3: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2024-english-Q47",
     "paperId": "mpsc-group-b-aao-2024-english",
@@ -24163,7 +24272,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos.41-45):Picktheoddoneoutfromtheoptions:"
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p1-B45",
     "paperId": "mpsc-group-b-jao-2025-p1",
@@ -24319,9 +24430,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionsNo.$1-55):Identifythekindofsentence:"
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p1-B52",
     "paperId": "mpsc-group-b-jao-2025-p1",
@@ -31895,7 +32004,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 16–25): Identify the parts of speech of each italicized word using the most suitable alternative provided below."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B23",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32075,9 +32186,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 26–30): Complete the following sentences with the most suitable alternative provided below."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B29",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40306,7 +40415,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction(QuestionNos.56-60):Choosethecorrectsentence:-"
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-english-B59",
     "paperId": "mpsc-group-b-je-2025-english",
@@ -40437,9 +40548,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q9",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -47917,7 +48026,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “Wow”"
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B2",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -48100,9 +48211,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B8",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -55905,7 +56014,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B42",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -56079,9 +56190,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B48",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -63637,7 +63746,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q27",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -63805,9 +63916,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q33",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -72544,7 +72653,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p1-written-3",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -72705,9 +72816,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q5",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -80814,7 +80923,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B26",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B27",
     "questionNumber": "B27",
@@ -80979,9 +81090,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B32",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B33",
     "questionNumber": "B33",
@@ -88659,7 +88768,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B2",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B3",
     "questionNumber": "B3",
@@ -88821,9 +88932,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B8",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B9",
     "questionNumber": "B9",
@@ -93157,7 +93266,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-ng-2024-paper-2-a": 100,
   "mpsc-group-b-ng-2024-paper-1-a": 75,
   "mpsc-group-b-inspector-stats-2026-p1": 6,
-  "mpsc-group-b-steno2-2015-english": 44,
+  "mpsc-group-b-steno2-2015-english": 50,
   "mpsc-group-b-aao-2024-english": 100,
   "mpsc-group-b-aao-2024-gk": 100,
   "mpsc-group-b-aao-2024-arithmetic": 100,

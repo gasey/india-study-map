@@ -112,10 +112,6 @@ def reviewed_extraction(extracted, repair):
     rows = {q['n']: q for q in extracted['questions']}
     assert len(rows) == len(extracted['questions']), 'Duplicate extracted question numbers'
     # Some OCR passes flatten written prompts and their listed subparts into
-    # fake four-option MCQs. Drop those numbers before applying MCQ repairs.
-    for number in repair.get('nonMcq', []):
-        rows.pop(int(number), None)
-    # Some OCR passes flatten written prompts and their listed subparts into
     # fake four-option MCQs. Drop those numbers before applying MCQ repairs;
     # reviewed written prompts are emitted separately below.
     for number in repair.get('nonMcq', []):
@@ -125,7 +121,7 @@ def reviewed_extraction(extracted, repair):
         n = int(number)
         assert q['n'] == n and 1 <= n <= repair['expectedMcq'], 'Invalid repaired number'
         assert q['q'].strip() and q['page'] > 0, 'Missing repaired text or source page'
-        assert set(q['opts']) == set('abcd') and all(v.strip() for v in q['opts'].values()), 'Invalid repaired options'
+        assert tuple(q['opts']) in (tuple('abc'), tuple('abcd')) and all(v.strip() for v in q['opts'].values()), 'Invalid repaired options'
         assert not q.get('explanation') or q['explanation'].strip(), 'Invalid reviewed explanation'
         assert 'answerIndex' not in q and 'answer' not in q, 'Text repairs cannot override answers'
         assert not q.get('unscored') or q.get('explanation', '').strip(), 'Unscored dispute needs an explanation'
@@ -134,7 +130,7 @@ def reviewed_extraction(extracted, repair):
         reviewed.add(n)
     for number, solved in repair.get('derivedAnswers', {}).items():
         n = int(number)
-        assert n in reviewed and 0 <= solved.get('answerIndex', -1) < 4, 'Derived answer needs a reviewed question and valid option'
+        assert n in reviewed and 0 <= solved.get('answerIndex', -1) < len(rows[n]['opts']), 'Derived answer needs a reviewed question and valid option'
         assert solved.get('explanation', '').strip(), 'Derived answer needs a worked explanation'
     expected = set(range(1, repair['expectedMcq'] + 1))
     if repair.get('partialReview'):
@@ -205,7 +201,7 @@ def build_additional():
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'steno2-2015-english' and repairs.get(slug, {}).get('derivedAnswers'):
-            entry['expectedMcq'] = 44
+            entry['expectedMcq'] = 50
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug in ('steno-2025-gk', 'steno-2025-english') and reviewed_numbers:
@@ -248,7 +244,7 @@ def build_additional():
                                   'explanation': '', 'sourceReview': True, 'sourceNote': 'Conventional response; transcription awaiting review.',
                                   'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(q['page'])})
                 continue
-            opts = [q['opts'][x] for x in 'abcd']
+            opts = [q['opts'][x] for x in 'abcd' if x in q['opts']]
             candidates = legacy.get(normalized(q['q']), set())
             matching = [i for i, option in enumerate(opts) if normalized(option) in candidates]
             independent = matching[0] if len(matching) == 1 else -1

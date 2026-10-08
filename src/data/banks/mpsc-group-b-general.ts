@@ -59705,17 +59705,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Mahatma Gandhi",
       "Jawaharlal Nehru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mahatma Gandhi gave the “Do or Die” call during the Quit India Movement in August 1942.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q23",
@@ -59733,17 +59731,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Lord Cornwallis",
       "Lord Wellesley"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Lord Ripon’s 1882 resolution on local self-government earned him the title “father of local self-government in India.”",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q24",
@@ -59761,17 +59757,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Ishwar Chandra Vidyasagar",
       "Rabindranath Tagore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Raja Ram Mohan Roy is widely called the father of the Indian Renaissance for his social and religious reform work.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q25",
@@ -59789,17 +59783,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Yangtze",
       "Mississippi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Nile is conventionally listed as the world’s longest river. River-length estimates can vary with the chosen source and measurement method, which has led to debate about the Amazon.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q26",
@@ -59817,17 +59809,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Indian",
       "Arctic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Pacific Ocean contains the Mariana Trench, including the deepest known point in the ocean.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q27",
@@ -59845,17 +59835,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "India",
       "Monaco"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Monaco has the highest population density among sovereign states in standard global comparisons.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q28",
@@ -59874,7 +59862,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Spanish"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Mandarin is commonly counted as the language with the most native speakers, while English has the most total speakers when second-language speakers are included. Because the question does not state which measure it means and offers both choices, it has no unique answer.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
@@ -59883,7 +59871,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held unscored: “most spoken” can mean either most native speakers (Mandarin) or most total speakers (English); the stem does not specify the measure."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q29",
@@ -59901,17 +59889,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Nicobar Island",
       "Minicoy Island"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Indira Point on Great Nicobar Island is the southernmost point of India.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q30",
@@ -59929,17 +59915,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Germany",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "China had the world’s largest installed renewable-energy capacity in 2025.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q31",
@@ -59957,17 +59941,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "iii-iv-i-ii",
       "iv-i-iii-ii"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "In descending population order among these four countries: Indonesia, Bangladesh, Russia, then Canada.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q32",
@@ -59986,7 +59968,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "i and iv only"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The question’s option grouping does not map cleanly to the main course of the Indus under current boundaries: the river flows through Ladakh and then Pakistan, not through the Indian Punjab plains. It is held rather than infer a basin/tributary meaning.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=3",
@@ -59995,7 +59977,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held unscored: the Indus main stem runs through Ladakh and Pakistan; the printed option combines Jammu & Kashmir with Ladakh and also lists Indian Punjab, so its present-day political geography is unclear."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q33",
@@ -60013,17 +59995,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Andhra Pradesh",
       "Tamil Nadu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Kudankulam Nuclear Power Plant is in Tirunelveli district, Tamil Nadu.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q34",
@@ -60041,17 +60021,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "A magnetic force created by earth’s tilted axis",
       "A gravitational pull that acts weakest at the equator"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Coriolis force is an apparent deflection of moving objects when described in a rotating frame such as Earth.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q35",
@@ -60069,17 +60047,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "It occurs around June 21 in the Northern Hemisphere",
       "It marks the start of summer in the Northern Hemisphere"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Sun is overhead at the Tropic of Cancer at the Northern Hemisphere’s June solstice, not at the Tropic of Capricorn; statement A is incorrect.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q36",
@@ -60097,17 +60073,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Bosporus strait",
       "Strait of Malacca"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Bab el-Mandeb Strait connects the Red Sea with the Gulf of Aden, which opens into the Arabian Sea.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q37",
@@ -60125,17 +60099,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "14",
       "15"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Constitution currently has 12 Schedules.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q38",
@@ -60153,17 +60125,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Article 35A",
       "Article 371"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Article 370 contained the special-status provisions for Jammu and Kashmir; its operative provisions were rendered inoperative in 2019.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q39",
@@ -60181,17 +60151,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "35 years",
       "40 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Article 58 of the Constitution requires a presidential candidate to be at least 35 years old.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q40",
@@ -60209,17 +60177,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Skill Development",
       "Insurance for All"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pradhan Mantri Jan-Dhan Yojana’s main aim is financial inclusion by expanding access to formal banking and related services.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q41",
@@ -60237,17 +60203,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Right to Education",
       "Right to Work"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Article 21A makes the right to free and compulsory education a Fundamental Right for children aged 6–14.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q42",
@@ -60265,17 +60229,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Attorney General",
       "Solicitor General"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Attorney General of India is the Union government’s highest law officer under Article 76.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q43",
@@ -60293,17 +60255,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Kothari Committee",
       "Punchhi Committee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Balwant Rai Mehta Committee (1957) recommended democratic decentralisation through a three-tier Panchayati Raj system.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q44",
@@ -60321,17 +60281,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Promote male dominance in politics",
       "Restrict women’s education"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Gender-inclusion policies aim to promote equal opportunities and participation for women and men.",
     "source": "Motor Vehicle Inspector · September 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/mvi-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q45",

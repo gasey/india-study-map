@@ -13348,7 +13348,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Motor Vehicle Inspector Paper-II (General Knowledge), September 2025: Q1–21 checked against the printed scan, page 1 (Q1–8) and page 2 (Q9–21). Stems, numbering and options were compared with the pages. Twenty items have independently derived answers and explanations; Q18 is held because Bose won and was re-elected at two different listed Congress sessions. No verified official key has been applied. The cover states 100 one-mark questions in two hours; it states no negative-marking rule.",
+      "evidence": "Motor Vehicle Inspector Paper-II (General Knowledge), September 2025: Q1–21 checked against the printed scan, page 1 (Q1–8) and page 2 (Q9–21). Stems, numbering and options were compared with the pages. Twenty items have independently derived answers and explanations; Q18 is held because Bose won and was re-elected at two different listed Congress sessions. No verified official key has been applied. The cover states 100 one-mark questions in two hours; it states no negative-marking rule. Questions 22–44 were checked against printed pages 3–4. Twenty-one answers were independently derived. Q28 is held because “most spoken” does not distinguish native from total speakers; Q32 is held because the printed Indus-route option combines geographic units that do not match the river’s main course under current boundaries.",
       "questions": {
         "1": {
           "n": 1,
@@ -13855,6 +13855,562 @@
           "unscored": true,
           "reviewNote": "Held unscored: Subhas Chandra Bose was elected Congress president at Haripura in 1938 and re-elected at Tripuri in 1939; the stem does not specify which election.",
           "explanation": "Bose won the Congress presidency at Haripura in 1938 and was re-elected at Tripuri in 1939. Both sessions are printed as options, so the unqualified question has two correct answers and is held out of scoring."
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Subhash Chandra Bose",
+            "b": "Vallabhbhai Patel",
+            "c": "Mahatma Gandhi",
+            "d": "Jawaharlal Nehru"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who among the following gave the slogan ‘Do or Die’ during the Quit India movement?",
+          "multi": false,
+          "explanation": "Mahatma Gandhi gave the “Do or Die” call during the Quit India Movement in August 1942."
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Lord Mayo",
+            "b": "Lord Ripon",
+            "c": "Lord Cornwallis",
+            "d": "Lord Wellesley"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who among the following is considered the father of local self government in India?",
+          "multi": false,
+          "explanation": "Lord Ripon’s 1882 resolution on local self-government earned him the title “father of local self-government in India.”"
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Swami Vivekananda",
+            "b": "Raja Ram Mohan Roy",
+            "c": "Ishwar Chandra Vidyasagar",
+            "d": "Rabindranath Tagore"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who among the following is considered the father of Indian Renaissance?",
+          "multi": false,
+          "explanation": "Raja Ram Mohan Roy is widely called the father of the Indian Renaissance for his social and religious reform work."
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Nile",
+            "b": "Amazon",
+            "c": "Yangtze",
+            "d": "Mississippi"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which is the longest river in the world?",
+          "multi": false,
+          "explanation": "The Nile is conventionally listed as the world’s longest river. River-length estimates can vary with the chosen source and measurement method, which has led to debate about the Amazon."
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Atlantic",
+            "b": "Pacific",
+            "c": "Indian",
+            "d": "Arctic"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which ocean is the deepest?",
+          "multi": false,
+          "explanation": "The Pacific Ocean contains the Mariana Trench, including the deepest known point in the ocean."
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "China",
+            "b": "Bangladesh",
+            "c": "India",
+            "d": "Monaco"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which is the most densely populated country in the world?",
+          "multi": false,
+          "explanation": "Monaco has the highest population density among sovereign states in standard global comparisons."
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Kanyakumari",
+            "b": "Indira Point",
+            "c": "Nicobar Island",
+            "d": "Minicoy Island"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which is the southernmost point of India?",
+          "multi": false,
+          "explanation": "Indira Point on Great Nicobar Island is the southernmost point of India."
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "China",
+            "b": "USA",
+            "c": "Germany",
+            "d": "India"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which country has the highest renewable energy capacity as of 2025?",
+          "multi": false,
+          "explanation": "China had the world’s largest installed renewable-energy capacity in 2025."
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "i-iv-iii-ii",
+            "b": "ii-iv-i-iii",
+            "c": "iii-iv-i-ii",
+            "d": "iv-i-iii-ii"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Arrange the following countries in order of population size, from largest to smallest: (i)Bangladesh (ii)Canada (iii)Russia (iv)Indonesia",
+          "multi": false,
+          "explanation": "In descending population order among these four countries: Indonesia, Bangladesh, Russia, then Canada."
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Kerala",
+            "b": "Karnataka",
+            "c": "Andhra Pradesh",
+            "d": "Tamil Nadu"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Kudankulam Nuclear Power plant is located in which state?",
+          "multi": false,
+          "explanation": "The Kudankulam Nuclear Power Plant is in Tirunelveli district, Tamil Nadu."
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "A real force caused by winds moving from high to low pressure",
+            "b": "An apparent force that deflects moving objects due to earth’s rotation",
+            "c": "A magnetic force created by earth’s tilted axis",
+            "d": "A gravitational pull that acts weakest at the equator"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the statements below most accurately describes the Coriolis force?",
+          "multi": false,
+          "explanation": "The Coriolis force is an apparent deflection of moving objects when described in a rotating frame such as Earth."
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "On this day, the Sun is directly overhead at the Tropic of Capricorn",
+            "b": "It marks the longest day in the Northern Hemisphere",
+            "c": "It occurs around June 21 in the Northern Hemisphere",
+            "d": "It marks the start of summer in the Northern Hemisphere"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following statements regarding Summer Solstice is Incorrect?",
+          "multi": false,
+          "explanation": "The Sun is overhead at the Tropic of Cancer at the Northern Hemisphere’s June solstice, not at the Tropic of Capricorn; statement A is incorrect."
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Strait of Hormuz",
+            "b": "Bab el-Mandeb strait",
+            "c": "Bosporus strait",
+            "d": "Strait of Malacca"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following choke points connects the Red Sea to the Gulf of Aden and Arabian Sea?",
+          "multi": false,
+          "explanation": "The Bab el-Mandeb Strait connects the Red Sea with the Gulf of Aden, which opens into the Arabian Sea."
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "10",
+            "b": "12",
+            "c": "14",
+            "d": "15"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How many Schedules are there in the Indian Constitution?",
+          "multi": false,
+          "explanation": "The Constitution currently has 12 Schedules."
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Article 350",
+            "b": "Article 370",
+            "c": "Article 35A",
+            "d": "Article 371"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which Article gives special status to Jammu & Kashmir (now abrogated)?",
+          "multi": false,
+          "explanation": "Article 370 contained the special-status provisions for Jammu and Kashmir; its operative provisions were rendered inoperative in 2019."
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "25 years",
+            "b": "30 years",
+            "c": "35 years",
+            "d": "40 years"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The minimum age for becoming the President of India is:",
+          "multi": false,
+          "explanation": "Article 58 of the Constitution requires a presidential candidate to be at least 35 years old."
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Urban Development",
+            "b": "Financial Inclusion",
+            "c": "Skill Development",
+            "d": "Insurance for All"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Jan Dhan Yojana primarily aims at:",
+          "multi": false,
+          "explanation": "Pradhan Mantri Jan-Dhan Yojana’s main aim is financial inclusion by expanding access to formal banking and related services."
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Right to Property",
+            "b": "Right to Vote",
+            "c": "Right to Education",
+            "d": "Right to Work"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is a Fundamental Right?",
+          "multi": false,
+          "explanation": "Article 21A makes the right to free and compulsory education a Fundamental Right for children aged 6–14."
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "CJI",
+            "b": "Law Minister",
+            "c": "Attorney General",
+            "d": "Solicitor General"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is called the ‘First Law Officer’ of India?",
+          "multi": false,
+          "explanation": "The Attorney General of India is the Union government’s highest law officer under Article 76."
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Sarkaria Committee",
+            "b": "Balwantrai Mehta Committee",
+            "c": "Kothari Committee",
+            "d": "Punchhi Committee"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which committee recommended Panchayati Raj in India?",
+          "multi": false,
+          "explanation": "The Balwant Rai Mehta Committee (1957) recommended democratic decentralisation through a three-tier Panchayati Raj system."
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Reduce women’s participation in workforce",
+            "b": "Promote equal opportunities for men and women",
+            "c": "Promote male dominance in politics",
+            "d": "Restrict women’s education"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Gender inclusion policies seek to:",
+          "multi": false,
+          "explanation": "Gender-inclusion policies aim to promote equal opportunities and participation for women and men."
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "English",
+            "b": "Hindi",
+            "c": "Mandarin",
+            "d": "Spanish"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which is the most spoken language in the world?",
+          "multi": false,
+          "unscored": true,
+          "reviewNote": "Held unscored: “most spoken” can mean either most native speakers (Mandarin) or most total speakers (English); the stem does not specify the measure.",
+          "explanation": "Mandarin is commonly counted as the language with the most native speakers, while English has the most total speakers when second-language speakers are included. Because the question does not state which measure it means and offers both choices, it has no unique answer."
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "i only",
+            "b": "i and ii only",
+            "c": "i and iii only",
+            "d": "i and iv only"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Indus river flows through which of the following states and/or Union Territories? (i)Jammu & Kashmir and Ladakh (ii)Punjab (iii)Haryana (iv)Uttarakhand",
+          "multi": false,
+          "unscored": true,
+          "reviewNote": "Held unscored: the Indus main stem runs through Ladakh and Pakistan; the printed option combines Jammu & Kashmir with Ladakh and also lists Indian Punjab, so its present-day political geography is unclear.",
+          "explanation": "The question’s option grouping does not map cleanly to the main course of the Indus under current boundaries: the river flows through Ladakh and then Pakistan, not through the Indian Punjab plains. It is held rather than infer a basin/tributary meaning."
         }
       },
       "derivedAnswers": {
@@ -13937,6 +14493,90 @@
         "21": {
           "answerIndex": 0,
           "explanation": "“One religion, one caste, one God” is the motto associated with social reformer Narayana Guru."
+        },
+        "22": {
+          "answerIndex": 2,
+          "explanation": "Mahatma Gandhi gave the “Do or Die” call during the Quit India Movement in August 1942."
+        },
+        "23": {
+          "answerIndex": 1,
+          "explanation": "Lord Ripon’s 1882 resolution on local self-government earned him the title “father of local self-government in India.”"
+        },
+        "24": {
+          "answerIndex": 1,
+          "explanation": "Raja Ram Mohan Roy is widely called the father of the Indian Renaissance for his social and religious reform work."
+        },
+        "25": {
+          "answerIndex": 0,
+          "explanation": "The Nile is conventionally listed as the world’s longest river. River-length estimates can vary with the chosen source and measurement method, which has led to debate about the Amazon."
+        },
+        "26": {
+          "answerIndex": 1,
+          "explanation": "The Pacific Ocean contains the Mariana Trench, including the deepest known point in the ocean."
+        },
+        "27": {
+          "answerIndex": 3,
+          "explanation": "Monaco has the highest population density among sovereign states in standard global comparisons."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "Indira Point on Great Nicobar Island is the southernmost point of India."
+        },
+        "30": {
+          "answerIndex": 0,
+          "explanation": "China had the world’s largest installed renewable-energy capacity in 2025."
+        },
+        "31": {
+          "answerIndex": 3,
+          "explanation": "In descending population order among these four countries: Indonesia, Bangladesh, Russia, then Canada."
+        },
+        "33": {
+          "answerIndex": 3,
+          "explanation": "The Kudankulam Nuclear Power Plant is in Tirunelveli district, Tamil Nadu."
+        },
+        "34": {
+          "answerIndex": 1,
+          "explanation": "The Coriolis force is an apparent deflection of moving objects when described in a rotating frame such as Earth."
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "The Sun is overhead at the Tropic of Cancer at the Northern Hemisphere’s June solstice, not at the Tropic of Capricorn; statement A is incorrect."
+        },
+        "36": {
+          "answerIndex": 1,
+          "explanation": "The Bab el-Mandeb Strait connects the Red Sea with the Gulf of Aden, which opens into the Arabian Sea."
+        },
+        "37": {
+          "answerIndex": 1,
+          "explanation": "The Constitution currently has 12 Schedules."
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "Article 370 contained the special-status provisions for Jammu and Kashmir; its operative provisions were rendered inoperative in 2019."
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "Article 58 of the Constitution requires a presidential candidate to be at least 35 years old."
+        },
+        "40": {
+          "answerIndex": 1,
+          "explanation": "Pradhan Mantri Jan-Dhan Yojana’s main aim is financial inclusion by expanding access to formal banking and related services."
+        },
+        "41": {
+          "answerIndex": 2,
+          "explanation": "Article 21A makes the right to free and compulsory education a Fundamental Right for children aged 6–14."
+        },
+        "42": {
+          "answerIndex": 2,
+          "explanation": "The Attorney General of India is the Union government’s highest law officer under Article 76."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "The Balwant Rai Mehta Committee (1957) recommended democratic decentralisation through a three-tier Panchayati Raj system."
+        },
+        "44": {
+          "answerIndex": 1,
+          "explanation": "Gender-inclusion policies aim to promote equal opportunities and participation for women and men."
         }
       }
     }

@@ -33358,7 +33358,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-09",
-      "evidence": "Printed pages 2–3 (PDF pages 2–3) visually checked. Recovered Q1–7 that OCR fused into the cover row; repaired OCR-merged option groups and normalized wording/options for Q1–23. Questions 24–100 remain unreviewed.",
+      "evidence": "Printed pages 2–3 (PDF pages 2–3) visually checked. Recovered Q1–7 that OCR fused into the cover row; repaired OCR-merged option groups and normalized wording/options for Q1–23. Questions 24–100 remain unreviewed. Printed page 4 (PDF page 4) checked; Q24 is held because the appointment-process options overlap and are imprecise, while Q25–33 have unique explained answers.",
       "questions": {
         "1": {
           "n": 1,
@@ -33612,6 +33612,118 @@
             "c": "The day’s business normally starts with either Question Hour or Zero Hour.",
             "d": "None of the above"
           }
+        },
+        "24": {
+          "n": 24,
+          "page": 4,
+          "q": "Who among the following appoints a judge of a High Court in an Indian state?",
+          "opts": {
+            "a": "The President, after consultation that includes the Chief Justice of India",
+            "b": "The President, on the advice of the Prime Minister",
+            "c": "The Law Ministry",
+            "d": "The President, on the advice of a collegium of judges"
+          },
+          "unscored": true,
+          "explanation": "The question has overlapping/incomplete choices. The President formally appoints a High Court judge after constitutional consultations involving the Chief Justice of India and the Governor; options A and D both gesture toward the recommendation process but neither states it accurately or uniquely."
+        },
+        "25": {
+          "n": 25,
+          "page": 4,
+          "q": "The Reserve Bank of India (RBI) was established on:",
+          "opts": {
+            "a": "1 January 1935",
+            "b": "1 May 1935",
+            "c": "1 April 1935",
+            "d": "1 July 1935"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 4,
+          "q": "Which of the following is NOT a Sustainable Development Goal?",
+          "opts": {
+            "a": "Good Health and Well-Being",
+            "b": "Quality Education",
+            "c": "State Sovereignty",
+            "d": "Zero Hunger"
+          }
+        },
+        "27": {
+          "n": 27,
+          "page": 4,
+          "q": "What two categories of poverty are identified by the United Nations Development Programme?",
+          "opts": {
+            "a": "Absolute and urban poverty",
+            "b": "Income poverty and human poverty",
+            "c": "Rural and urban poverty",
+            "d": "Situational and rural poverty"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 4,
+          "q": "According to the World Steel Association, which of the world’s leading steel-producing countries alone recorded production growth in April 2024?",
+          "opts": {
+            "a": "China",
+            "b": "Russia",
+            "c": "Japan",
+            "d": "India"
+          }
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "q": "Consider these place–industry pairs: A. Bengaluru—iron and steel; B. Korba—aluminium; C. Jamshedpur—aircraft; D. Malanjkhand—copper. Which pairs are correctly matched?",
+          "opts": {
+            "a": "Only A and B",
+            "b": "Only B and D",
+            "c": "A, B and D",
+            "d": "Only A and D"
+          }
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "q": "Which committee is associated with poverty estimation in India?",
+          "opts": {
+            "a": "Ashok Mehta Committee",
+            "b": "Lakdawala Committee",
+            "c": "Raja Mannar Committee",
+            "d": "Vijay Kelkar Committee"
+          }
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "Which is the largest wildlife sanctuary in Mizoram?",
+          "opts": {
+            "a": "Dampa Tiger Reserve",
+            "b": "Lengteng Wildlife Sanctuary",
+            "c": "Murlen National Park",
+            "d": "Ngengpui Wildlife Sanctuary"
+          }
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "The Tuirial drainage system originates from the:",
+          "opts": {
+            "a": "Chhawrtui village",
+            "b": "Khuangphah village",
+            "c": "North Chawilung hills",
+            "d": "Zopui hills"
+          }
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "Which statement is NOT true about Agenda 21?",
+          "opts": {
+            "a": "It is a non-binding UN action plan concerning sustainable development.",
+            "b": "It was produced at the 2002 World Summit on Sustainable Development in Johannesburg.",
+            "c": "It addresses environmental damage, poverty and disease through global cooperation and shared responsibilities.",
+            "d": "It encourages local governments to draw up their own Agenda 21."
+          }
         }
       },
       "derivedAnswers": {
@@ -33706,6 +33818,42 @@
         "23": {
           "answerIndex": 0,
           "explanation": "Question Hour normally comes first; Zero Hour follows it."
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "The RBI commenced operations on 1 April 1935 under the Reserve Bank of India Act, 1934."
+        },
+        "26": {
+          "answerIndex": 2,
+          "explanation": "State sovereignty is not one of the UN Sustainable Development Goals; the other three are SDGs 3, 4 and 2."
+        },
+        "27": {
+          "answerIndex": 1,
+          "explanation": "UNDP distinguishes income poverty from human poverty, which also captures deprivation in health, education and living standards."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "Worldsteel’s April 2024 figures show India’s output rose 3.6% year on year, while China and Japan declined; India is the listed country with growth."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "Korba is associated with aluminium production and Malanjkhand with copper mining. Bengaluru is not an iron-and-steel centre and Jamshedpur is not an aircraft-industry centre."
+        },
+        "30": {
+          "answerIndex": 1,
+          "explanation": "The Lakdawala Expert Group developed a methodology used in India’s poverty-line estimates."
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "Dampa is Mizoram’s largest protected area and is commonly described as the state’s largest wildlife sanctuary."
+        },
+        "32": {
+          "answerIndex": 2,
+          "explanation": "Mizoram’s State of Environment report says the Tuirial drainage system originates north of Chawilung Hill."
+        },
+        "33": {
+          "answerIndex": 1,
+          "explanation": "Agenda 21 was adopted at the 1992 Rio Earth Summit, not the 2002 Johannesburg summit, so statement B is false."
         }
       }
     }

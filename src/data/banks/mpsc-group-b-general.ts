@@ -25085,21 +25085,47 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhoamongthefollowingappointsaJudgeintheHighCourtofIndianstate?",
+    "question": "Who among the following appoints a judge of a High Court in an Indian state?",
     "options": [
-      "PresidentwithadviceofChiefJusticeofIndia",
-      "PresidentwithadviceofPrimeMinister",
-      "LawMinistry",
-      "PresidentwithadviceofacollegiumofJudges"
+      "The President, after consultation that includes the Chief Justice of India",
+      "The President, on the advice of the Prime Minister",
+      "The Law Ministry",
+      "The President, on the advice of a collegium of judges"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The question has overlapping/incomplete choices. The President formally appoints a High Court judge after constitutional consultations involving the Chief Justice of India and the Governor; options A and D both gesture toward the recommendation process but neither states it accurately or uniquely.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The question has overlapping/incomplete choices. The President formally appoints a High Court judge after constitutional consultations involving the Chief Justice of India and the Governor; options A and D both gesture toward the recommendation process but neither states it accurately or uniquely."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q25",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "The Reserve Bank of India (RBI) was established on:",
+    "options": [
+      "1 January 1935",
+      "1 May 1935",
+      "1 April 1935",
+      "1 July 1935"
+    ],
+    "answerIndex": 2,
+    "explanation": "The RBI commenced operations on 1 April 1935 under the Reserve Bank of India Act, 1934.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q26",
@@ -25110,21 +25136,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichofthefollowingisnotaSustainableDevelopmentGoal?",
+    "question": "Which of the following is NOT a Sustainable Development Goal?",
     "options": [
-      "Goodhealthandwell-being",
-      "QualityEducation",
-      "StateSovereignty",
-      "ZeroHunger"
+      "Good Health and Well-Being",
+      "Quality Education",
+      "State Sovereignty",
+      "Zero Hunger"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "State sovereignty is not one of the UN Sustainable Development Goals; the other three are SDGs 3, 4 and 2.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q27",
@@ -25135,21 +25162,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhatarethetwocategoriesofpovertyidentifiedbytheUnitedNationsDevelopmentProgram?",
+    "question": "What two categories of poverty are identified by the United Nations Development Programme?",
     "options": [
-      "Absoluteandurbanpoverty",
-      "Incomeandhumanpoverty",
-      "Ruralandurbanpoverty",
-      "Situationalandruralpoverty"
+      "Absolute and urban poverty",
+      "Income poverty and human poverty",
+      "Rural and urban poverty",
+      "Situational and rural poverty"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "UNDP distinguishes income poverty from human poverty, which also captures deprivation in health, education and living standards.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q28",
@@ -25160,21 +25188,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "AccordingtotheWorldSteelAssociation,whichistheonlycountryamongtheworld’stopsteel producingnationstoseegrowthinproductioninApril2024?",
+    "question": "According to the World Steel Association, which of the world’s leading steel-producing countries alone recorded production growth in April 2024?",
     "options": [
       "China",
       "Russia",
       "Japan",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Worldsteel’s April 2024 figures show India’s output rose 3.6% year on year, while China and Japan declined; India is the listed country with growth.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q29",
@@ -25185,21 +25214,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Considerthefollowingpairsofplacesandtheirrelatedindustries: A.Bengaluru-Iron&Steel B.Korba-Aluminium C.Jamshedpur-Aircraft- D.Maljkhand-Copper Whichoftheabovepairsis/arecorrectlymatched?",
+    "question": "Consider these place–industry pairs: A. Bengaluru—iron and steel; B. Korba—aluminium; C. Jamshedpur—aircraft; D. Malanjkhand—copper. Which pairs are correctly matched?",
     "options": [
-      "OnlyAandB",
-      "OnlyBandD",
-      "A,BandD",
-      "OnlyAandD"
+      "Only A and B",
+      "Only B and D",
+      "A, B and D",
+      "Only A and D"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Korba is associated with aluminium production and Malanjkhand with copper mining. Bengaluru is not an iron-and-steel centre and Jamshedpur is not an aircraft-industry centre.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q30",
@@ -25210,21 +25240,100 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichofthefollowingcommitteesisrelatedtopovertyestimationinIndia?",
+    "question": "Which committee is associated with poverty estimation in India?",
     "options": [
-      "AshokMehtaCommittee",
-      "LakdawalaCommittee",
-      "RajaMannarCommittee",
-      "VijayKelkarCommittee"
+      "Ashok Mehta Committee",
+      "Lakdawala Committee",
+      "Raja Mannar Committee",
+      "Vijay Kelkar Committee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Lakdawala Expert Group developed a methodology used in India’s poverty-line estimates.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q31",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Which is the largest wildlife sanctuary in Mizoram?",
+    "options": [
+      "Dampa Tiger Reserve",
+      "Lengteng Wildlife Sanctuary",
+      "Murlen National Park",
+      "Ngengpui Wildlife Sanctuary"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dampa is Mizoram’s largest protected area and is commonly described as the state’s largest wildlife sanctuary.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q32",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "The Tuirial drainage system originates from the:",
+    "options": [
+      "Chhawrtui village",
+      "Khuangphah village",
+      "North Chawilung hills",
+      "Zopui hills"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mizoram’s State of Environment report says the Tuirial drainage system originates north of Chawilung Hill.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q33",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Which statement is NOT true about Agenda 21?",
+    "options": [
+      "It is a non-binding UN action plan concerning sustainable development.",
+      "It was produced at the 2002 World Summit on Sustainable Development in Johannesburg.",
+      "It addresses environmental damage, poverty and disease through global cooperation and shared responsibilities.",
+      "It encourages local governments to draw up their own Agenda 21."
+    ],
+    "answerIndex": 1,
+    "explanation": "Agenda 21 was adopted at the 1992 Rio Earth Summit, not the 2002 Johannesburg summit, so statement B is false.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q34",
@@ -31746,7 +31855,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2024-gk-Q100",
     "paperId": "mpsc-group-b-steno-2024-gk",
@@ -31862,9 +31973,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 1–7): Read the given passage carefully and answer the questions that follow. Your answers must be based on the passage only.\n\nClimate change is an unprecedented challenge that threatens ecosystems, economies, and societies worldwide. The persistent rise in global temperatures, largely due to anthropogenic activities, has led to calamitous consequences such as extreme weather events, rising sea levels, and biodiversity loss. Scientists have attributed this phenomenon to the excessive emission of greenhouse gases, particularly carbon dioxide and methane, which trap heat within the earth’s atmosphere, exacerbating the warming effect.\n\nOne of the most ominous repercussions of climate change is the accelerated melting of polar ice caps, which contributes to rising sea levels and threatens coastal communities. This detrimental shift has led to the displacement of populations, loss of arable land, and an increase in natural disasters. Furthermore, fluctuating weather patterns have disrupted agricultural productivity, leading to food shortages and economic instability.\n\nGovernments and environmental organizations have initiated concerted efforts to mitigate climate change through renewable energy adoption, reforestation projects, and carbon reduction policies. However, despite these interventions, the planet continues to experience incessant climatic changes that necessitate immediate global cooperation. The pivotal role of individuals in reducing their carbon footprint, advocating for policy changes, and embracing sustainable lifestyles cannot be overstated."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B4",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40235,7 +40344,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction(QuestionNos.11-15):Choosethecorrectanswerforeachblankinthesentence:-"
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-english-B13",
     "paperId": "mpsc-group-b-je-2025-english",
@@ -40339,9 +40450,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction(QuestionNos.16-20):Selectanappropriateverb,prepositionandadverbtofillinthe"
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-english-B17",
     "paperId": "mpsc-group-b-je-2025-english",
@@ -48058,7 +48167,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q39",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -48162,9 +48273,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q43",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -55985,7 +56094,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Ambiguous biological movement category"
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q43",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -56089,9 +56200,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q47",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -63934,7 +64043,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q75",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -64038,9 +64149,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q79",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -72278,7 +72387,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q56",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -72402,9 +72513,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q60",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -81001,7 +81110,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B21",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q22",
     "questionNumber": "B22",
@@ -81106,9 +81217,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B25",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q26",
     "questionNumber": "B26",
@@ -88884,7 +88993,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p1-written-A2b",
     "paperId": "mpsc-group-b-si-stats-2026-p1",
@@ -88952,9 +89063,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-written-A3",
     "paperId": "mpsc-group-b-si-stats-2026-p1",

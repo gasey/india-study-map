@@ -87,13 +87,18 @@ wait_for("document.querySelector('.udc-answer-sources')?.innerText.includes('Ans
 assert evaluate("document.querySelector('.udc-answer-sources').innerText.includes('MPSC final key')")
 assert evaluate("(async()=>{let a=document.querySelector('.udc-answer-sources a');return (await fetch(a.href)).status})()") == 200
 browse('District Organiser / Junior Accounts Officer', 'General Knowledge & Reasoning')
-assert evaluate("document.querySelectorAll('.udc-question-card').length === 86")
+assert evaluate("document.querySelectorAll('.udc-question-card').length === 90")
 assert evaluate("document.querySelectorAll('.udc-question-card')[0].innerText.includes('mica mines child-labour-free')")
 assert evaluate("document.querySelectorAll('.udc-question-card')[22].innerText.includes('Question Hour')")
 assert evaluate("document.querySelectorAll('.udc-question-card')[23].innerText.includes('not scored')")
+assert evaluate("document.querySelectorAll('.udc-question-card')[24].innerText.includes('1 April 1935')")
+assert evaluate("document.querySelectorAll('.udc-question-card')[32].innerText.includes('Agenda 21')")
 evaluate("document.querySelectorAll('.udc-question-card')[2].querySelectorAll('.udc-option-label')[3].closest('button').click()")
 wait_for("!!document.querySelectorAll('.udc-question-card')[2].querySelector('.udc-answer-sources')")
 assert evaluate("document.querySelectorAll('.udc-question-card')[2].innerText.includes('Ministry of Statistics and Programme Implementation initiative')")
+evaluate("document.querySelectorAll('.udc-question-card')[30].querySelectorAll('.udc-option-label')[0].closest('button').click()")
+wait_for("!!document.querySelectorAll('.udc-question-card')[30].querySelector('.udc-answer-sources')")
+assert evaluate("document.querySelectorAll('.udc-question-card')[30].innerText.includes('largest protected area')")
 browse('Group B (non-gazetted)', 'Arithmetic')
 assert evaluate("document.querySelectorAll('.udc-question-card').length") == 100
 assert evaluate("document.querySelectorAll('.udc-question-card img').length") == 6
@@ -120,7 +125,7 @@ assert evaluate("document.body.innerText.includes('Arithmetic')&&document.body.i
 command('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
 click_tab('Group B papers')
 assert evaluate("document.body.scrollWidth <= innerWidth")
-assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('2,954 ready to practise')")
+assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('2,963 ready to practise')")
 assert evaluate("document.querySelector('.udc-library-progress').innerText.includes('1,614 with official answers')")
 browse('Group B technical common exam, Health & Family Welfare', 'General Studies')
 assert evaluate("document.querySelectorAll('.udc-question-card').length === 100")

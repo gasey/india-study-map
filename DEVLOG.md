@@ -12,13 +12,14 @@ Each entry: **what shipped**, **why**, **what's still open**.
 ## 2026-10-09 — JAO 2025 Paper-II opening scan review
 
 **What shipped locally.** Recovered JAO Paper-II Q1–7 from printed page 2 and
-checked Q1–23 against printed pages 2–3. The OCR had fused the opening
-questions into one row and merged later option blocks. All 23 question/option
-sets now have derived explanations. The partial paper remains outside full
-Exam mode. Group B reports 2,954 practice-ready questions and 555 items still
-under source review (down from 569 before this batch).
+checked Q1–33 against printed pages 2–4. The OCR had fused the opening
+questions into one row and merged later option blocks. Q1–23 and Q25–33 have
+derived explanations; Q24 is held because its High Court appointment choices
+overlap and are imprecise. The partial paper stays out of full Exam mode. Group
+B reports 2,963 practice-ready questions and 550 items still under source
+review (down from 569 before this JAO batch).
 
-**What's still open.** JAO Paper-II Q24–100 and the other source-review papers
+**What's still open.** JAO Paper-II Q34–100 and the other source-review papers
 remain pending. This batch is partial and does not imply the rest of this paper
 has been checked.
 

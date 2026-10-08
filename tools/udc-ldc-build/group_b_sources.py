@@ -117,6 +117,7 @@ def reviewed_extraction(extracted, repair):
         assert q['n'] == n and 1 <= n <= repair['expectedMcq'], 'Invalid repaired number'
         assert q['q'].strip() and q['page'] > 0, 'Missing repaired text or source page'
         assert set(q['opts']) == set('abcd') and all(v.strip() for v in q['opts'].values()), 'Invalid repaired options'
+        assert not q.get('explanation') or q['explanation'].strip(), 'Invalid reviewed explanation'
         assert 'answerIndex' not in q and 'answer' not in q, 'Text repairs cannot override answers'
         rows[n] = q
         reviewed.add(n)
@@ -172,7 +173,7 @@ def build_additional():
                                   and reviewed_numbers == {int(n) for n in key['answers']}
                                   # This English paper also has a written Section A;
                                   # its prompts are not yet recovered in the bank.
-                                  and slug != 'steno-2025-english'
+                                  and slug not in ('steno-2025-english', 'si-excise-2025-p1')
                                   and all(isinstance(answer, str) and answer in 'ABCD'
                                           for answer in key['answers'].values()))
         entry['imported'] = True
@@ -192,6 +193,12 @@ def build_additional():
             # Printed cover: one mark per question, three hours; no penalty is
             # stated in the instructions.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'si-excise-2025-p1' and reviewed_numbers:
+            # Printed cover/instructions: two marks per MCQ, three hours; no
+            # negative marking is stated. The separate written section remains
+            # incomplete, so these MCQs are excluded from full-paper Exam mode.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug in ('aao-2024-english', 'aao-2024-arithmetic') and reviewed_numbers:
             # The AAO paper instructions specify 100 one-mark questions and
@@ -245,7 +252,8 @@ def build_additional():
             questions.append({'id': paper_id + '-' + (q.get('part') or 'Q') + str(q['n']), 'paperId': paper_id,
                               'questionNumber': (q.get('part') or '') + str(q['n']), 'subject': 'english' if section == 'english' else 'gk',
                               'studySection': section, 'topic': 'general', 'topicLabel': subject, 'difficulty': 'medium',
-                              'question': q['q'], 'options': opts, 'answerIndex': answer, 'explanation': '',
+                              'question': q['q'], 'options': opts, 'answerIndex': answer,
+                              'explanation': q.get('explanation', ''),
                               'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(q['page']),
                               **({'independentAnswerIndex': independent, 'independentAnswerSource': 'legacy-inferred', 'answerConfidence': 'low'} if independent >= 0 else {}),
                               **({'officialAnswerCandidates': key_choices, 'answerSource': 'official', 'answerKeyRef': key_ref} if key_choices else {}),

@@ -46738,22 +46738,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Wow,thatisanawesomevehicle!",
+    "question": "Wow, that is an awesome vehicle!",
     "options": [
       "Conjunction",
       "Preposition",
       "Interjection",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Wow” is an interjection because it expresses a sudden reaction or surprise.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “Wow”"
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B2",
@@ -46764,22 +46768,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thestudentsreceivedexcellentresults.",
+    "question": "The students received excellent results.",
     "options": [
       "Pronoun",
       "Adverb",
       "Noun",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Excellent” describes the noun “results,” so it is an adjective.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “excellent”"
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B3",
@@ -46790,22 +46798,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Wehavesomuchtodoyetwehavesolittletime.",
+    "question": "We have so much to do yet we have so little time.",
     "options": [
       "Verb",
       "Conjunction",
       "Interjection",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Yet” joins two contrasting clauses, so it functions as a conjunction.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “yet”"
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B4",
@@ -46816,22 +46828,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Myhusbandpreparedamealthatwasastonishinglydelicious,atrueculinarymasterpiece.",
+    "question": "My husband prepared a meal that was astonishingly delicious, a true culinary masterpiece.",
     "options": [
       "Adverb",
       "Adjective",
       "Conjunction",
       "Interjection"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Astonishingly” modifies the adjective “delicious,” so it is an adverb.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “astonishingly”"
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B5",
@@ -46842,22 +46858,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thewavesarecrashingagainsttherocks.",
+    "question": "The waves are crashing against the rocks.",
     "options": [
       "Pronoun",
       "Conjunction",
       "Adjective",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Against” relates the action to “the rocks,” so it is a preposition.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-5):Identifytheunderlinedwordsineachofthefollowing:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “against”"
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B6",
@@ -46868,21 +46888,59 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "bookisthis?.",
+    "question": "__________ book is this?",
     "options": [
-      "Who's",
+      "Who’s",
       "Whom",
       "Who",
-      "Whose (a)These(b)Those (c)That(d)This"
+      "Whose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Whose” asks who owns the book; “who” and “whom” refer to a person.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p1-B7",
+    "paperId": "mpsc-group-b-si-excise-2025-p1",
+    "questionNumber": "B7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "__________ clothes over there belong to the gardener.",
+    "options": [
+      "These",
+      "Those",
+      "That",
+      "This"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Those” points to plural clothes at a distance; “that” and “this” are singular.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B8",
@@ -46893,21 +46951,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Mr.Patelhaslosthissavingsinascam.",
+    "question": "Mr. Patel has lost __________ his savings in a scam.",
     "options": [
       "some",
       "all",
       "most",
       "many"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“All his savings” means the entirety of his savings, matching the scam context.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B9",
@@ -46918,21 +46981,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Themenhavenotheardthegossip.",
+    "question": "The men have not heard the __________ gossip.",
     "options": [
       "latter",
       "later",
       "latest",
       "lattest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Latest” means most recent; “latter” refers to the second of two and “later” is comparative in time.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B10",
@@ -46943,21 +47011,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Copperisusefulmetalforus.",
+    "question": "Copper is __________ useful metal for us.",
     "options": [
       "an",
       "a",
       "the",
       "their"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Useful” begins with the consonant sound /y/, so the article is “a.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B11",
@@ -46968,22 +47041,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Synonymfor“Precarious”",
+    "question": "Synonym for “Precarious”",
     "options": [
       "Unquestionable",
       "Unstable",
       "Reliable",
       "Secure"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Precarious” means unstable or risky, so “unstable” is the closest synonym.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B12",
@@ -46994,22 +47071,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Antonymfor“Obscure”",
+    "question": "Antonym for “Obscure”",
     "options": [
       "Faint",
       "Esoteric",
       "Clear",
       "Concealed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Obscure” means unclear or little known; its opposite is “clear.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B13",
@@ -47020,22 +47101,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Synonymfor“Exonerate”",
+    "question": "Synonym for “Exonerate”",
     "options": [
       "Acquit",
       "Implicate",
       "Condemn",
       "Reprimand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Exonerate” means to clear someone of blame, which is to acquit.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B14",
@@ -47046,22 +47131,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Antonymfor“Stringent”",
+    "question": "Antonym for “Stringent”",
     "options": [
       "Austere",
       "Lenient",
       "Exacting",
       "Severe"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Stringent” means strict; “lenient” is its opposite.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B15",
@@ -47072,22 +47161,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Synonymfor“Vigilant”",
+    "question": "Synonym for “Vigilant”",
     "options": [
       "Distracted",
       "Hesitant",
       "Watchful",
       "Insensitive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Vigilant” means watchful and alert.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.11-15):Choosethecorrectantonymorsynonymasindicated:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B16",
@@ -47098,22 +47191,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosetheincorrectsentence:",
+    "question": "Choose the incorrect sentence:",
     "options": [
-      "Iprefercoffeetotea.",
-      "Thesceneriesofthehillstationwerebreathtaking.",
-      "Shepreventedhimfrommakingamistake.",
-      "Itishightimeweleft."
+      "I prefer coffee to tea.",
+      "The sceneries of the hill station were breathtaking.",
+      "She prevented him from making a mistake.",
+      "It is high time we left."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The plural “sceneries” is incorrect here because “scenery” is an uncountable noun.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B17",
@@ -47124,22 +47221,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosetheincorrectsentence:",
+    "question": "Choose the incorrect sentence:",
     "options": [
-      "Nosoonerhadhearrivedthanitstartedraining.",
-      "Ihaveneverseensuchabeautifulsunset.",
-      "Shetoldmethatshewillcallmelater.",
-      "Unlessyoustudyhard,youwillnotpass."
+      "No sooner had he arrived than it started raining.",
+      "I have never seen such a beautiful sunset.",
+      "She told me that she will call me later.",
+      "Unless you study hard, you will not pass."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "In reported speech after “told,” the future “will call” normally backshifts to “would call.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B18",
@@ -47150,22 +47251,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosetheincorrectsentence:",
+    "question": "Choose the incorrect sentence:",
     "options": [
-      "Thepoliceareinvestigatingthematter.",
-      "Eachoftheplayershavetheirownlocker.",
-      "ThePrimeMinister,alongwithhisministers,isattendingthemeeting.",
-      "Sheiscapableofhandlingthesituation."
+      "The police are investigating the matter.",
+      "Each of the players have their own locker.",
+      "The Prime Minister, along with his ministers, is attending the meeting.",
+      "She is capable of handling the situation."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Each” is singular, so the verb should be “has,” not “have.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B19",
@@ -47176,22 +47281,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosetheincorrectsentence:",
+    "question": "Choose the incorrect sentence:",
     "options": [
-      "Heisusedtowakingupearlyinthemorning.",
-      "Shewassotiredthatshefellasleepimmediately.",
-      "Thenewswasshockingtoeveryone.",
-      "Neitheroftheboyshavedonetheirhomework."
+      "He is used to waking up early in the morning.",
+      "She was so tired that she fell asleep immediately.",
+      "The news was shocking to everyone.",
+      "Neither of the boys have done their homework."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Neither” takes a singular verb, so the phrase should use “has done,” not “have done.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B20",
@@ -47202,22 +47311,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Choosetheincorrectsentence:",
+    "question": "Choose the incorrect sentence:",
     "options": [
-      "Theinformationarenotaccurate.",
-      "Thechildcriedbecausehelosthistoy.",
-      "Sheisinterestedinlearningnewlanguages.",
-      "Wehadbetterleavenowifwewanttocatchthetrain. _5-."
+      "The information are not accurate.",
+      "The child cried because he lost his toy.",
+      "She is interested in learning new languages.",
+      "We had better leave now if we want to catch the train."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Information” is uncountable and takes a singular verb: “The information is not accurate.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.16-20}:Ineachofthequestionsgivenbelow,foursentencesaregiven."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B21",
@@ -47228,22 +47341,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Heistooweaktogototheconcerttoday,(RewriteintoaNegativesentence)",
+    "question": "He is too weak to go to the concert today. (Rewrite into a negative sentence)",
     "options": [
-      "Heissoweaknottogototheconcerttoday.",
-      "Heissoweakthathecannotgototheconcerttoday.",
-      "Heisnotweakenoughtogototheconcerttoday.",
-      "Hewillnotgototheconcerttoday."
+      "He is so weak not to go to the concert today.",
+      "He is so weak that he cannot go to the concert today.",
+      "He is not weak enough to go to the concert today.",
+      "He will not go to the concert today."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“So weak that he cannot go” conveys the same inability as “too weak to go.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B22",
@@ -47254,22 +47371,56 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thekatanayougavemelastyearwasnotblunt.(Rewriteintoand4ffirmativesentence)",
+    "question": "The katana you gave me last year was not blunt. (Rewrite into an affirmative sentence)",
     "options": [
-      "Thekatanayougavemelastyearwasedgy.",
-      "Thekatanayougavemelastyearwasblunted.",
-      "Thekatanayougavemelastyearwasnew.",
-      "Thekatanayougavemelastyearwassharp."
+      "The katana you gave me last year was edgy.",
+      "The katana you gave me last year was blunted.",
+      "The katana you gave me last year was new.",
+      "The katana you gave me last year was sharp."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Not blunt” means sharp, so option D preserves the affirmative meaning.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p1-B23",
+    "paperId": "mpsc-group-b-si-excise-2025-p1",
+    "questionNumber": "B23",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "When the clock struck nine, we returned home. (Convert into a compound sentence without changing the meaning)",
+    "options": [
+      "The watch struck nine, we returned home.",
+      "The clock struck nine and we returned home.",
+      "We returned home and the clock struck nine.",
+      "When the clock struck nine we went to our home."
+    ],
+    "answerIndex": 1,
+    "explanation": "Option B joins the two clauses with “and” while keeping their original sequence.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B24",
@@ -47280,22 +47431,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thechildiswiseforitsage.(ConvertintoaComplexsentencewithoutchangingthemeaning)",
+    "question": "The child is wise for its age. (Convert into a complex sentence without changing the meaning)",
     "options": [
-      "Thechildiswiseandsheisyoung.",
-      "Thechildiswiserthananyotherchildofhisage.",
-      "Thechildisreallywisefortheageandtimeperiod.",
-      "Thechildiswiseanditisstillsoyoungforitsage"
+      "The child is wise and she is young.",
+      "The child is wiser than any other child of his age.",
+      "The child is really wise for the age and time period.",
+      "The child is wise and it is still so young for its age."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official key selects B as the age-based comparison. The printed instruction calls for a complex sentence, though this option is comparative rather than a complex clause.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B25",
@@ -47306,22 +47461,56 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Theservantswerebeatenwithoutmercy.(Changetheunderlinedwordsintoanadverb)",
+    "question": "The servants were beaten without mercy. (Change the underlined words into an adverb)",
     "options": [
-      "Theservantswerebeatenmercilessly.",
-      "Theservantswerebeatenwithmercy.",
-      "Theservantswerebeatenmercenarily.",
-      "Theservantswerebeatenmercily."
+      "The servants were beaten mercilessly.",
+      "The servants were beaten with mercy.",
+      "The servants were beaten mercenarily.",
+      "The servants were beaten mercily."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Mercilessly” is the adverb form that replaces the phrase “without mercy.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p1-B26",
+    "paperId": "mpsc-group-b-si-excise-2025-p1",
+    "questionNumber": "B26",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The sun can never rise in the west. (Convert into an interrogative form without changing the meaning)",
+    "options": [
+      "Can the sun never rise in the west?",
+      "Can the sun ever rise in the west?",
+      "Will the sun ever rise in the west?",
+      "Why can the sun forever rise in the west?"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Can the sun ever rise in the west?” is the interrogative equivalent of the stated impossibility.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B27",
@@ -47332,22 +47521,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "HadIbutcomealittleearlier!(ConvertintoanAssertivesentencewithoutchangingthemeaning)",
+    "question": "Had I but come a little earlier! (Convert into an assertive sentence without changing the meaning)",
     "options": [
-      "LhopethatIwillcomealittleearlier.",
-      "Iwish[hadcomealittleearlier.",
-      "Lwonderifihadcomealittleearlier.",
-      "IpraythatIwillcomealittleearlier."
+      "I hope that I will come a little earlier.",
+      "I wish I had come a little earlier.",
+      "I wonder if I had come a little earlier.",
+      "I pray that I will come a little earlier."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Had I but come…” expresses regret; “I wish I had come…” preserves that meaning.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B28",
@@ -47358,22 +47551,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Ilongforasliceofdeliciouspizza.(ConvertintoanExclamatorysentencewithoutchangingthe meaning)",
+    "question": "I long for a slice of delicious pizza. (Convert into an exclamatory sentence without changing the meaning)",
     "options": [
-      "Whatforasliceofdeliciouspizza!",
-      "Alasforasliceofdeliciouspizza!",
-      "[longforasliceofdeliciouspizza!",
-      "Oh,forasliceofdeliciouspizza! -6-."
+      "What for a slice of delicious pizza!",
+      "Alas for a slice of delicious pizza!",
+      "I long for a slice of delicious pizza!",
+      "Oh, for a slice of delicious pizza!"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Oh, for a slice…” is an exclamatory form expressing the speaker’s strong longing.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B29",
@@ -47384,22 +47581,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Zorinisaid,“Thedelegatesbrokeintothemuseum”(ConvertintoanJndirectSpeech)",
+    "question": "Zorini said, “The delegates broke into the museum.” (Convert into indirect speech)",
     "options": [
-      "Zorinisaidthatthedelegatesbrokeintothemuseum",
-      "Zorinisaidthatthedelegateshadbrokenthemuseum",
-      "Zorinisaidthatthedelegateshadbrokenintothemuseum.",
-      "Zorinisaidthatthedelegateshavebrokenintothemuseum"
+      "Zorini said that the delegates broke into the museum.",
+      "Zorini said that the delegates had broken the museum.",
+      "Zorini said that the delegates had broken into the museum.",
+      "Zorini said that the delegates have broken into the museum."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Reported speech backshifts “broke” to “had broken” and preserves the phrasal verb “broke into.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B30",
@@ -47410,22 +47611,26 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "TracesoficehavebeendiscoveredonthesurfaceofMarsbyscientists.(ConvertintoanActive Voice)",
+    "question": "Traces of ice have been discovered on the surface of Mars by scientists. (Convert into an active voice)",
     "options": [
-      "ScientistshaddiscoveredtracesoficeonthesurfaceofMars.",
-      "ScientistshavediscoveredtracesoficeonthesurfaceofMars.",
-      "ScientistswillhavediscoveredtracesoficeonthesurfaceofMars.",
-      "ScientistsdiscoveredtracesoficeonthesurfaceofMars. RRRRK"
+      "Scientists had discovered traces of ice on the surface of Mars.",
+      "Scientists have discovered traces of ice on the surface of Mars.",
+      "Scientists will have discovered traces of ice on the surface of Mars.",
+      "Scientists discovered traces of ice on the surface of Mars."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The present perfect passive “have been discovered” changes to present perfect active “have discovered.”",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.21-30):Choosethecorrectanswerfromthegivenoptions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
+    "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-written-1",
@@ -48315,7 +48520,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q50",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48390,9 +48597,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q57",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56366,7 +56571,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q55",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56450,9 +56657,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q58",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64061,7 +64266,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q93",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64136,9 +64343,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q96",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -73126,7 +73331,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q65",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73215,9 +73422,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q68",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81148,7 +81353,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B25",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q26",
     "questionNumber": "B26",
@@ -81230,9 +81437,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B28",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q29",
     "questionNumber": "B29",
@@ -88989,7 +89194,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p2-B1",
     "questionNumber": "B1",
@@ -89073,9 +89280,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B3",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p2-B4",
     "questionNumber": "B4",
@@ -91663,6 +91868,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-si-excise-2025-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-aao-2025-p2": {
     "marksPerQuestion": 2,
     "durationMinutes": 120,
@@ -91769,6 +91980,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-aao-2024-arithmetic": 100,
   "mpsc-group-b-steno-2025-english": 75,
   "mpsc-group-b-steno-2025-gk": 100,
+  "mpsc-group-b-si-excise-2025-p1": 30,
   "mpsc-group-b-radio-2026-p1": 60,
   "mpsc-group-b-radio-2026-p2": 100,
   "mpsc-group-b-si-police-2026-p1": 60,

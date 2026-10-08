@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 8 October 2026
 
-49 general papers, 3,379 items: 3,273 MCQs and 106 written prompts.
-1,503 questions are ready for practice, including 1,391 official answers and
-112 independently derived answers. 1,864 items still need source review.
+49 general papers, 3,400 items: 3,294 MCQs and 106 written prompts.
+1,533 questions are ready for practice, including 1,421 official answers and
+112 independently derived answers. 1,837 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -30,6 +30,11 @@ eligible for Exam mode. English MCQs B1–B75 were also checked against pages
 2–9 and matched to the final key. Its written Section A prompts remain to be
 recovered, so the full English paper stays out of Exam mode. Other OCR items
 stay gated until their printed question numbers, wording, and options are checked.
+
+Sub-Inspector of Excise Paper-I (April 2025) Section B Q1–30 is now scan-checked,
+keyed to the July final answer key, and includes brief grammar/vocabulary
+explanations. Its conventional Section A remains incomplete, so the partial
+paper is available for practice but excluded from full-paper Exam mode.
 
 The December 2024 combined exam has all 75 Paper I and 100 Paper II MCQs.
 Paper II Q84–100 were recovered from the complete Series B with matching

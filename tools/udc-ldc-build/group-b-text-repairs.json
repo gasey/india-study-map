@@ -3587,6 +3587,434 @@
         }
       },
       "partialReview": true
+    },
+    "si-excise-2025-p1": {
+      "sourceSha256": "c57b556d25bd1c7d0b85324f040bab4b60c18b41d7b925b1b62955aac0868653",
+      "expectedMcq": 30,
+      "reviewedOn": "2026-10-08",
+      "evidence": "All 30 Section B questions, printed numbering, directions, underlined targets, wording and four options transcribed from pages 3–6; answers matched to the official MPSC final key dated 4 July 2025. Section A conventional questions remain unreviewed.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 3,
+          "part": "B",
+          "q": "Wow, that is an awesome vehicle!",
+          "opts": {
+            "a": "Conjunction",
+            "b": "Preposition",
+            "c": "Interjection",
+            "d": "Adjective"
+          },
+          "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “Wow”",
+          "explanation": "“Wow” is an interjection because it expresses a sudden reaction or surprise."
+        },
+        "2": {
+          "n": 2,
+          "page": 3,
+          "part": "B",
+          "q": "The students received excellent results.",
+          "opts": {
+            "a": "Pronoun",
+            "b": "Adverb",
+            "c": "Noun",
+            "d": "Adjective"
+          },
+          "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “excellent”",
+          "explanation": "“Excellent” describes the noun “results,” so it is an adjective."
+        },
+        "3": {
+          "n": 3,
+          "page": 3,
+          "part": "B",
+          "q": "We have so much to do yet we have so little time.",
+          "opts": {
+            "a": "Verb",
+            "b": "Conjunction",
+            "c": "Interjection",
+            "d": "Adjective"
+          },
+          "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “yet”",
+          "explanation": "“Yet” joins two contrasting clauses, so it functions as a conjunction."
+        },
+        "4": {
+          "n": 4,
+          "page": 3,
+          "part": "B",
+          "q": "My husband prepared a meal that was astonishingly delicious, a true culinary masterpiece.",
+          "opts": {
+            "a": "Adverb",
+            "b": "Adjective",
+            "c": "Conjunction",
+            "d": "Interjection"
+          },
+          "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “astonishingly”",
+          "explanation": "“Astonishingly” modifies the adjective “delicious,” so it is an adverb."
+        },
+        "5": {
+          "n": 5,
+          "page": 3,
+          "part": "B",
+          "q": "The waves are crashing against the rocks.",
+          "opts": {
+            "a": "Pronoun",
+            "b": "Conjunction",
+            "c": "Adjective",
+            "d": "Preposition"
+          },
+          "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “against”",
+          "explanation": "“Against” relates the action to “the rocks,” so it is a preposition."
+        },
+        "6": {
+          "n": 6,
+          "page": 3,
+          "part": "B",
+          "q": "__________ book is this?",
+          "opts": {
+            "a": "Who’s",
+            "b": "Whom",
+            "c": "Who",
+            "d": "Whose"
+          },
+          "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks.",
+          "explanation": "“Whose” asks who owns the book; “who” and “whom” refer to a person."
+        },
+        "7": {
+          "n": 7,
+          "page": 3,
+          "part": "B",
+          "q": "__________ clothes over there belong to the gardener.",
+          "opts": {
+            "a": "These",
+            "b": "Those",
+            "c": "That",
+            "d": "This"
+          },
+          "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks.",
+          "explanation": "“Those” points to plural clothes at a distance; “that” and “this” are singular."
+        },
+        "8": {
+          "n": 8,
+          "page": 3,
+          "part": "B",
+          "q": "Mr. Patel has lost __________ his savings in a scam.",
+          "opts": {
+            "a": "some",
+            "b": "all",
+            "c": "most",
+            "d": "many"
+          },
+          "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks.",
+          "explanation": "“All his savings” means the entirety of his savings, matching the scam context."
+        },
+        "9": {
+          "n": 9,
+          "page": 3,
+          "part": "B",
+          "q": "The men have not heard the __________ gossip.",
+          "opts": {
+            "a": "latter",
+            "b": "later",
+            "c": "latest",
+            "d": "lattest"
+          },
+          "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks.",
+          "explanation": "“Latest” means most recent; “latter” refers to the second of two and “later” is comparative in time."
+        },
+        "10": {
+          "n": 10,
+          "page": 3,
+          "part": "B",
+          "q": "Copper is __________ useful metal for us.",
+          "opts": {
+            "a": "an",
+            "b": "a",
+            "c": "the",
+            "d": "their"
+          },
+          "direction": "Directions (Question Nos. 6–10): Choose the correct words to fill in the blanks.",
+          "explanation": "“Useful” begins with the consonant sound /y/, so the article is “a.”"
+        },
+        "11": {
+          "n": 11,
+          "page": 3,
+          "part": "B",
+          "q": "Synonym for “Precarious”",
+          "opts": {
+            "a": "Unquestionable",
+            "b": "Unstable",
+            "c": "Reliable",
+            "d": "Secure"
+          },
+          "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated.",
+          "explanation": "“Precarious” means unstable or risky, so “unstable” is the closest synonym."
+        },
+        "12": {
+          "n": 12,
+          "page": 4,
+          "part": "B",
+          "q": "Antonym for “Obscure”",
+          "opts": {
+            "a": "Faint",
+            "b": "Esoteric",
+            "c": "Clear",
+            "d": "Concealed"
+          },
+          "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated.",
+          "explanation": "“Obscure” means unclear or little known; its opposite is “clear.”"
+        },
+        "13": {
+          "n": 13,
+          "page": 4,
+          "part": "B",
+          "q": "Synonym for “Exonerate”",
+          "opts": {
+            "a": "Acquit",
+            "b": "Implicate",
+            "c": "Condemn",
+            "d": "Reprimand"
+          },
+          "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated.",
+          "explanation": "“Exonerate” means to clear someone of blame, which is to acquit."
+        },
+        "14": {
+          "n": 14,
+          "page": 4,
+          "part": "B",
+          "q": "Antonym for “Stringent”",
+          "opts": {
+            "a": "Austere",
+            "b": "Lenient",
+            "c": "Exacting",
+            "d": "Severe"
+          },
+          "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated.",
+          "explanation": "“Stringent” means strict; “lenient” is its opposite."
+        },
+        "15": {
+          "n": 15,
+          "page": 4,
+          "part": "B",
+          "q": "Synonym for “Vigilant”",
+          "opts": {
+            "a": "Distracted",
+            "b": "Hesitant",
+            "c": "Watchful",
+            "d": "Insensitive"
+          },
+          "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated.",
+          "explanation": "“Vigilant” means watchful and alert."
+        },
+        "16": {
+          "n": 16,
+          "page": 4,
+          "part": "B",
+          "q": "Choose the incorrect sentence:",
+          "opts": {
+            "a": "I prefer coffee to tea.",
+            "b": "The sceneries of the hill station were breathtaking.",
+            "c": "She prevented him from making a mistake.",
+            "d": "It is high time we left."
+          },
+          "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect.",
+          "explanation": "The plural “sceneries” is incorrect here because “scenery” is an uncountable noun."
+        },
+        "17": {
+          "n": 17,
+          "page": 4,
+          "part": "B",
+          "q": "Choose the incorrect sentence:",
+          "opts": {
+            "a": "No sooner had he arrived than it started raining.",
+            "b": "I have never seen such a beautiful sunset.",
+            "c": "She told me that she will call me later.",
+            "d": "Unless you study hard, you will not pass."
+          },
+          "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect.",
+          "explanation": "In reported speech after “told,” the future “will call” normally backshifts to “would call.”"
+        },
+        "18": {
+          "n": 18,
+          "page": 4,
+          "part": "B",
+          "q": "Choose the incorrect sentence:",
+          "opts": {
+            "a": "The police are investigating the matter.",
+            "b": "Each of the players have their own locker.",
+            "c": "The Prime Minister, along with his ministers, is attending the meeting.",
+            "d": "She is capable of handling the situation."
+          },
+          "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect.",
+          "explanation": "“Each” is singular, so the verb should be “has,” not “have.”"
+        },
+        "19": {
+          "n": 19,
+          "page": 4,
+          "part": "B",
+          "q": "Choose the incorrect sentence:",
+          "opts": {
+            "a": "He is used to waking up early in the morning.",
+            "b": "She was so tired that she fell asleep immediately.",
+            "c": "The news was shocking to everyone.",
+            "d": "Neither of the boys have done their homework."
+          },
+          "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect.",
+          "explanation": "“Neither” takes a singular verb, so the phrase should use “has done,” not “have done.”"
+        },
+        "20": {
+          "n": 20,
+          "page": 4,
+          "part": "B",
+          "q": "Choose the incorrect sentence:",
+          "opts": {
+            "a": "The information are not accurate.",
+            "b": "The child cried because he lost his toy.",
+            "c": "She is interested in learning new languages.",
+            "d": "We had better leave now if we want to catch the train."
+          },
+          "direction": "Directions (Question Nos. 16–20): In each question four sentences are given. Choose the sentence that is grammatically and contextually incorrect.",
+          "explanation": "“Information” is uncountable and takes a singular verb: “The information is not accurate.”"
+        },
+        "21": {
+          "n": 21,
+          "page": 5,
+          "part": "B",
+          "q": "He is too weak to go to the concert today. (Rewrite into a negative sentence)",
+          "opts": {
+            "a": "He is so weak not to go to the concert today.",
+            "b": "He is so weak that he cannot go to the concert today.",
+            "c": "He is not weak enough to go to the concert today.",
+            "d": "He will not go to the concert today."
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "“So weak that he cannot go” conveys the same inability as “too weak to go.”"
+        },
+        "22": {
+          "n": 22,
+          "page": 5,
+          "part": "B",
+          "q": "The katana you gave me last year was not blunt. (Rewrite into an affirmative sentence)",
+          "opts": {
+            "a": "The katana you gave me last year was edgy.",
+            "b": "The katana you gave me last year was blunted.",
+            "c": "The katana you gave me last year was new.",
+            "d": "The katana you gave me last year was sharp."
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "“Not blunt” means sharp, so option D preserves the affirmative meaning."
+        },
+        "23": {
+          "n": 23,
+          "page": 5,
+          "part": "B",
+          "q": "When the clock struck nine, we returned home. (Convert into a compound sentence without changing the meaning)",
+          "opts": {
+            "a": "The watch struck nine, we returned home.",
+            "b": "The clock struck nine and we returned home.",
+            "c": "We returned home and the clock struck nine.",
+            "d": "When the clock struck nine we went to our home."
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "Option B joins the two clauses with “and” while keeping their original sequence."
+        },
+        "24": {
+          "n": 24,
+          "page": 5,
+          "part": "B",
+          "q": "The child is wise for its age. (Convert into a complex sentence without changing the meaning)",
+          "opts": {
+            "a": "The child is wise and she is young.",
+            "b": "The child is wiser than any other child of his age.",
+            "c": "The child is really wise for the age and time period.",
+            "d": "The child is wise and it is still so young for its age."
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "The official key selects B as the age-based comparison. The printed instruction calls for a complex sentence, though this option is comparative rather than a complex clause."
+        },
+        "25": {
+          "n": 25,
+          "page": 5,
+          "part": "B",
+          "q": "The servants were beaten without mercy. (Change the underlined words into an adverb)",
+          "opts": {
+            "a": "The servants were beaten mercilessly.",
+            "b": "The servants were beaten with mercy.",
+            "c": "The servants were beaten mercenarily.",
+            "d": "The servants were beaten mercily."
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "“Mercilessly” is the adverb form that replaces the phrase “without mercy.”"
+        },
+        "26": {
+          "n": 26,
+          "page": 5,
+          "part": "B",
+          "q": "The sun can never rise in the west. (Convert into an interrogative form without changing the meaning)",
+          "opts": {
+            "a": "Can the sun never rise in the west?",
+            "b": "Can the sun ever rise in the west?",
+            "c": "Will the sun ever rise in the west?",
+            "d": "Why can the sun forever rise in the west?"
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "“Can the sun ever rise in the west?” is the interrogative equivalent of the stated impossibility."
+        },
+        "27": {
+          "n": 27,
+          "page": 5,
+          "part": "B",
+          "q": "Had I but come a little earlier! (Convert into an assertive sentence without changing the meaning)",
+          "opts": {
+            "a": "I hope that I will come a little earlier.",
+            "b": "I wish I had come a little earlier.",
+            "c": "I wonder if I had come a little earlier.",
+            "d": "I pray that I will come a little earlier."
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "“Had I but come…” expresses regret; “I wish I had come…” preserves that meaning."
+        },
+        "28": {
+          "n": 28,
+          "page": 5,
+          "part": "B",
+          "q": "I long for a slice of delicious pizza. (Convert into an exclamatory sentence without changing the meaning)",
+          "opts": {
+            "a": "What for a slice of delicious pizza!",
+            "b": "Alas for a slice of delicious pizza!",
+            "c": "I long for a slice of delicious pizza!",
+            "d": "Oh, for a slice of delicious pizza!"
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "“Oh, for a slice…” is an exclamatory form expressing the speaker’s strong longing."
+        },
+        "29": {
+          "n": 29,
+          "page": 6,
+          "part": "B",
+          "q": "Zorini said, “The delegates broke into the museum.” (Convert into indirect speech)",
+          "opts": {
+            "a": "Zorini said that the delegates broke into the museum.",
+            "b": "Zorini said that the delegates had broken the museum.",
+            "c": "Zorini said that the delegates had broken into the museum.",
+            "d": "Zorini said that the delegates have broken into the museum."
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "Reported speech backshifts “broke” to “had broken” and preserves the phrasal verb “broke into.”"
+        },
+        "30": {
+          "n": 30,
+          "page": 6,
+          "part": "B",
+          "q": "Traces of ice have been discovered on the surface of Mars by scientists. (Convert into an active voice)",
+          "opts": {
+            "a": "Scientists had discovered traces of ice on the surface of Mars.",
+            "b": "Scientists have discovered traces of ice on the surface of Mars.",
+            "c": "Scientists will have discovered traces of ice on the surface of Mars.",
+            "d": "Scientists discovered traces of ice on the surface of Mars."
+          },
+          "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options.",
+          "explanation": "The present perfect passive “have been discovered” changes to present perfect active “have discovered.”"
+        }
+      }
     }
   }
 }

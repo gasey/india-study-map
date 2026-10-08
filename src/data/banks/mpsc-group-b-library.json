@@ -283,8 +283,9 @@
     "sitting": "April 2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf",
-    "keyHref": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf",
+    "keyHref": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
     "imported": true,
+    "expectedMcq": 30,
     "reviewRequired": true
   },
   {

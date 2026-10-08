@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,455 items: 3,348 MCQs and 107 written prompts.
-1,794 questions are ready for practice, including 1,614 official answers and
-180 independently derived answers. 1,624 items still need source review.
+1,813 questions are ready for practice, including 1,614 official answers and
+199 independently derived answers. 1,605 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -22,11 +22,12 @@ printed calculation is ambiguous. AAO 2025 Paper-II Q60 also has a scan-checked
 transcription and worked probability solution. Partial repairs are source-hash
 guarded and do not mark the rest of an OCR paper as reviewed.
 
-Inspector of Statistics Paper-II Q1–80 are now scan-checked with independently
-derived answers and explanations. Q18 remains unscored because “state government
-only” is too imprecise for the entertainment-tax option; Q27’s printed launch
-year is wrong; Q28 has no option for its four correct statements; and Q37’s
-health-data/program wording does not support a unique offered answer. No
+Inspector of Statistics Paper-II Q1–100 are now scan-checked with independently
+derived answers and explanations. Nine defective or ambiguous items remain
+unscored: Q18, Q27, Q28, Q37, Q44, Q49, Q55, Q58 and Q63. These include a false
+launch date, missing/incorrect choices, an unsupported “Digital Tribal
+University launched” premise, overlapping current-affairs options, and math
+items whose options or target population do not fit the printed stem. No
 verified key is available for this March sitting; the separate Sub-Inspector
 of Statistics final key is not applied to it.
 

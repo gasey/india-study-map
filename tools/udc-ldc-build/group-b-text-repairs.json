@@ -1213,7 +1213,7 @@
       "sourceSha256": "59ae97a9f3f3dadcb9582215f9ec4387fffda3a6296d3658cc79589ee85ebdae",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–80 and 91 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous or defective items remain unscored.",
+      "evidence": "Questions 1–100 were checked against rendered pages 1–11. No verified official key is available for this March 2026 Inspector of Statistics paper; the separate Sub-Inspector of Statistics key is for a different sitting and is not used. Answers are independently derived; ambiguous or defective items remain unscored.",
       "questions": {
         "1": {
           "n": 1,
@@ -1926,7 +1926,8 @@
             "c": "1/4",
             "d": "5/6"
           },
-          "part": null
+          "part": null,
+          "explanation": "0.757575… repeats the block 75, so it equals 75/99 = 25/33 (option A)."
         },
         "55": {
           "n": 55,
@@ -1953,7 +1954,8 @@
             "c": "1/2",
             "d": "11/20"
           },
-          "part": null
+          "part": null,
+          "explanation": "Together they complete 5(1/25 + 1/20) = 45/100 of the work. The remainder is 55/100 = 11/20 (option D)."
         },
         "71": {
           "n": 71,
@@ -1965,7 +1967,8 @@
             "c": "25/26",
             "d": "18/13"
           },
-          "part": null
+          "part": null,
+          "explanation": "The numerators are consecutive squares 1², 2², 3², 4²; the next is 5² = 25. The denominators rise from 22 to 25, so the next is 26: 25/26 (option C)."
         },
         "91": {
           "n": 91,
@@ -1977,7 +1980,8 @@
             "c": "7/11",
             "d": "8/11"
           },
-          "part": null
+          "part": null,
+          "explanation": "Six of the eleven listed pack weights exceed 5 kg, so the probability is 6/11 (option B)."
         },
         "56": {
           "n": 56,
@@ -2281,6 +2285,253 @@
             "d": "180,000"
           },
           "explanation": "Three years earlier, population was 185,220/(1.05)³=160,000 (A)."
+        },
+        "81": {
+          "n": 81,
+          "page": 10,
+          "part": null,
+          "q": "The value of a machine depreciates by 20% per year. At the end of 2 years, it is worth ₹4,800. What was its value before depreciation?",
+          "opts": {
+            "a": "₹7,200",
+            "b": "₹7,300",
+            "c": "₹7,400",
+            "d": "₹7,500"
+          },
+          "explanation": "After two years, the value is P×0.8²=₹4,800. Thus P=₹4,800/0.64=₹7,500 (D)."
+        },
+        "82": {
+          "n": 82,
+          "page": 11,
+          "part": null,
+          "q": "A sum becomes ₹2,420 in 2 years and ₹2,662 in 3 years at compound interest, compounded annually. What is the annual interest rate?",
+          "opts": {
+            "a": "5%",
+            "b": "8%",
+            "c": "10%",
+            "d": "12%"
+          },
+          "explanation": "The third-year growth factor is 2,662/2,420=1.10, so the annual rate is 10% (C)."
+        },
+        "83": {
+          "n": 83,
+          "page": 11,
+          "part": null,
+          "q": "The cost price of 12 books equals the selling price of 16 books. What is the loss percentage?",
+          "opts": {
+            "a": "20%",
+            "b": "25%",
+            "c": "30%",
+            "d": "32%"
+          },
+          "explanation": "If 12 books cost the same as 16 books sell for, then the selling price per book is 12/16=3/4 of cost. The loss is 25% (B)."
+        },
+        "84": {
+          "n": 84,
+          "page": 11,
+          "part": null,
+          "q": "Rama lends ₹500 at 5% simple interest per year. How long will it take to earn ₹50 in interest?",
+          "opts": {
+            "a": "2 years",
+            "b": "2 1/2 years",
+            "c": "3 years",
+            "d": "3 1/2 years"
+          },
+          "explanation": "Using SI=Prt, t=50/(500×0.05)=2 years (A)."
+        },
+        "85": {
+          "n": 85,
+          "page": 11,
+          "part": null,
+          "q": "A sum amounts to ₹7,840 in 2 years at 12% annual compound interest. What was the principal?",
+          "opts": {
+            "a": "₹6,000",
+            "b": "₹6,250",
+            "c": "₹6,520",
+            "d": "₹6,700"
+          },
+          "explanation": "Principal=₹7,840/(1.12)²=₹6,250 (B)."
+        },
+        "86": {
+          "n": 86,
+          "page": 11,
+          "part": null,
+          "q": "A motor part costs ₹2,400 and is subject to 2% sales tax. How much must the customer pay?",
+          "opts": {
+            "a": "₹2,445",
+            "b": "₹2,446",
+            "c": "₹2,447",
+            "d": "₹2,448"
+          },
+          "explanation": "Two percent of ₹2,400 is ₹48, so the total is ₹2,448 (D)."
+        },
+        "87": {
+          "n": 87,
+          "page": 11,
+          "part": null,
+          "q": "A washing machine costs ₹14,700 including 5% sales tax. What was its price before tax?",
+          "opts": {
+            "a": "₹14,000",
+            "b": "₹14,200",
+            "c": "₹14,400",
+            "d": "₹14,500"
+          },
+          "explanation": "The pre-tax price is ₹14,700/1.05=₹14,000 (A)."
+        },
+        "88": {
+          "n": 88,
+          "page": 11,
+          "part": null,
+          "q": "A hair-drier listed at ₹5,000 costs ₹5,500 including GST. What is the GST rate?",
+          "opts": {
+            "a": "8%",
+            "b": "10%",
+            "c": "12%",
+            "d": "12.5%"
+          },
+          "explanation": "GST is ₹5,500−₹5,000=₹500, which is 10% of ₹5,000 (B)."
+        },
+        "89": {
+          "n": 89,
+          "page": 11,
+          "part": null,
+          "q": "If 2x=3y=4z, what is the ratio x:y:z?",
+          "opts": {
+            "a": "2:3:4",
+            "b": "4:3:2",
+            "c": "6:4:3",
+            "d": "3:4:5"
+          },
+          "explanation": "Let 2x=3y=4z=k. Then x:y:z=1/2:1/3:1/4=6:4:3 (C)."
+        },
+        "90": {
+          "n": 90,
+          "page": 11,
+          "part": null,
+          "q": "A 48-litre mixture contains milk and water in the ratio 5:3. How many litres of water must be added to make the new milk-to-water ratio 3:2?",
+          "opts": {
+            "a": "5 litres",
+            "b": "4 litres",
+            "c": "3 litres",
+            "d": "2 litres"
+          },
+          "explanation": "The mixture has 30 L milk and 18 L water. For 30/(18+x)=3/2, x=2 L (D)."
+        },
+        "92": {
+          "n": 92,
+          "page": 12,
+          "part": null,
+          "q": "If the area of a circle is numerically equal to its circumference, what is its radius?",
+          "opts": {
+            "a": "1 unit",
+            "b": "2 units",
+            "c": "3 units",
+            "d": "4 units"
+          },
+          "explanation": "Set πr²=2πr. For a positive radius, r=2 units (B)."
+        },
+        "93": {
+          "n": 93,
+          "page": 12,
+          "part": null,
+          "q": "If the area of a square is numerically equal to its perimeter, what is the length of each side?",
+          "opts": {
+            "a": "1 unit",
+            "b": "2 units",
+            "c": "3 units",
+            "d": "4 units"
+          },
+          "explanation": "For side s>0, s²=4s, so s=4 units (D)."
+        },
+        "94": {
+          "n": 94,
+          "page": 12,
+          "part": null,
+          "q": "Two solid cubes, each with an edge of 3 cm, are joined end to end to form a cuboid. What is its volume?",
+          "opts": {
+            "a": "54 cm³",
+            "b": "55 cm³",
+            "c": "56 cm³",
+            "d": "57 cm³"
+          },
+          "explanation": "Each cube has volume 3³=27 cm³. Together they have volume 54 cm³ (A)."
+        },
+        "95": {
+          "n": 95,
+          "page": 12,
+          "part": null,
+          "q": "A room is 10 m long, 8 m wide and 5 m high. What is the area of its four walls?",
+          "opts": {
+            "a": "180 m²",
+            "b": "200 m²",
+            "c": "220 m²",
+            "d": "240 m²"
+          },
+          "explanation": "The four-wall area is 2h(l+b)=2×5×(10+8)=180 m² (A)."
+        },
+        "96": {
+          "n": 96,
+          "page": 12,
+          "part": null,
+          "q": "A man walks 12 m south and then 5 m east on level ground. How far is he from his starting point?",
+          "opts": {
+            "a": "12.5 metres",
+            "b": "13 metres",
+            "c": "13.5 metres",
+            "d": "14 metres"
+          },
+          "explanation": "The path forms a right triangle. The displacement is √(12²+5²)=13 m (B)."
+        },
+        "97": {
+          "n": 97,
+          "page": 12,
+          "part": null,
+          "q": "A vertical pole 6√3 m high casts a 6 m shadow on level ground. What is the sun’s elevation?",
+          "opts": {
+            "a": "30°",
+            "b": "45°",
+            "c": "60°",
+            "d": "90°"
+          },
+          "explanation": "tan θ = height/shadow = 6√3/6 = √3, so θ=60° (C)."
+        },
+        "98": {
+          "n": 98,
+          "page": 12,
+          "part": null,
+          "q": "At what angle to level ground should an athlete throw a javelin to achieve the greatest horizontal range, assuming ideal projectile motion?",
+          "opts": {
+            "a": "30°",
+            "b": "60°",
+            "c": "90°",
+            "d": "45°"
+          },
+          "explanation": "For ideal projectile motion on level ground, the range is greatest at 45° (D)."
+        },
+        "99": {
+          "n": 99,
+          "page": 12,
+          "part": null,
+          "q": "A grouped frequency table has class intervals 10–20, 20–30, 30–40 and 40–50 with frequencies 12, 4, 6 and 10 respectively. What is the median class?",
+          "opts": {
+            "a": "10–20",
+            "b": "20–30",
+            "c": "30–40",
+            "d": "40–50"
+          },
+          "explanation": "There are 32 observations, so N/2=16. The cumulative frequencies are 12, 16, 22 and 32; the first class whose cumulative frequency exceeds 16 is 30–40 (C)."
+        },
+        "100": {
+          "n": 100,
+          "page": 12,
+          "part": null,
+          "q": "In statistics, when observations are arranged in ascending or descending order, what is the value lying exactly in the middle called?",
+          "opts": {
+            "a": "Mean",
+            "b": "Mode",
+            "c": "Median",
+            "d": "Range"
+          },
+          "explanation": "The middle value in an ordered data set is the median (C)."
         }
       },
       "derivedAnswers": {
@@ -2572,6 +2823,82 @@
         "80": {
           "answerIndex": 0,
           "explanation": "Three years earlier, population was 185,220/(1.05)³=160,000 (A)."
+        },
+        "81": {
+          "answerIndex": 3,
+          "explanation": "After two years, the value is P×0.8²=₹4,800. Thus P=₹4,800/0.64=₹7,500 (D)."
+        },
+        "82": {
+          "answerIndex": 2,
+          "explanation": "The third-year growth factor is 2,662/2,420=1.10, so the annual rate is 10% (C)."
+        },
+        "83": {
+          "answerIndex": 1,
+          "explanation": "If 12 books cost the same as 16 books sell for, then the selling price per book is 12/16=3/4 of cost. The loss is 25% (B)."
+        },
+        "84": {
+          "answerIndex": 0,
+          "explanation": "Using SI=Prt, t=50/(500×0.05)=2 years (A)."
+        },
+        "85": {
+          "answerIndex": 1,
+          "explanation": "Principal=₹7,840/(1.12)²=₹6,250 (B)."
+        },
+        "86": {
+          "answerIndex": 3,
+          "explanation": "Two percent of ₹2,400 is ₹48, so the total is ₹2,448 (D)."
+        },
+        "87": {
+          "answerIndex": 0,
+          "explanation": "The pre-tax price is ₹14,700/1.05=₹14,000 (A)."
+        },
+        "88": {
+          "answerIndex": 1,
+          "explanation": "GST is ₹5,500−₹5,000=₹500, which is 10% of ₹5,000 (B)."
+        },
+        "89": {
+          "answerIndex": 2,
+          "explanation": "Let 2x=3y=4z=k. Then x:y:z=1/2:1/3:1/4=6:4:3 (C)."
+        },
+        "90": {
+          "answerIndex": 3,
+          "explanation": "The mixture has 30 L milk and 18 L water. For 30/(18+x)=3/2, x=2 L (D)."
+        },
+        "92": {
+          "answerIndex": 1,
+          "explanation": "Set πr²=2πr. For a positive radius, r=2 units (B)."
+        },
+        "93": {
+          "answerIndex": 3,
+          "explanation": "For side s>0, s²=4s, so s=4 units (D)."
+        },
+        "94": {
+          "answerIndex": 0,
+          "explanation": "Each cube has volume 3³=27 cm³. Together they have volume 54 cm³ (A)."
+        },
+        "95": {
+          "answerIndex": 0,
+          "explanation": "The four-wall area is 2h(l+b)=2×5×(10+8)=180 m² (A)."
+        },
+        "96": {
+          "answerIndex": 1,
+          "explanation": "The path forms a right triangle. The displacement is √(12²+5²)=13 m (B)."
+        },
+        "97": {
+          "answerIndex": 2,
+          "explanation": "tan θ = height/shadow = 6√3/6 = √3, so θ=60° (C)."
+        },
+        "98": {
+          "answerIndex": 3,
+          "explanation": "For ideal projectile motion on level ground, the range is greatest at 45° (D)."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "There are 32 observations, so N/2=16. The cumulative frequencies are 12, 16, 22 and 32; the first class whose cumulative frequency exceeds 16 is 30–40 (C)."
+        },
+        "100": {
+          "answerIndex": 2,
+          "explanation": "The middle value in an ordered data set is the median (C)."
         }
       }
     },

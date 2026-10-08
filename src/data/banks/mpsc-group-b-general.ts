@@ -9556,24 +9556,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The value of a machine depreciates by 20% per annum. At the end of 2 years the value of the machine is estimated as Rs.4,800. Its present value is :",
+    "question": "The value of a machine depreciates by 20% per year. At the end of 2 years, it is worth ₹4,800. What was its value before depreciation?",
     "options": [
-      "Rs.7,200",
-      "Rs.7,300",
-      "Rs.7,400",
-      "Rs.7,500"
+      "₹7,200",
+      "₹7,300",
+      "₹7,400",
+      "₹7,500"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "After two years, the value is P×0.8²=₹4,800. Thus P=₹4,800/0.64=₹7,500 (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q82",
@@ -9584,24 +9582,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A sum of money becomes Rs.2,420 in 2 years and Rs.2,662 in 3 years. If the interest is compounded annually, the rate of interest per annum is:",
+    "question": "A sum becomes ₹2,420 in 2 years and ₹2,662 in 3 years at compound interest, compounded annually. What is the annual interest rate?",
     "options": [
       "5%",
       "8%",
       "10%",
       "12%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The third-year growth factor is 2,662/2,420=1.10, so the annual rate is 10% (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=11",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q83",
@@ -9612,21 +9608,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If the cost price of 12 books is equal to the selling price of 16 books, then the lost is :",
+    "question": "The cost price of 12 books equals the selling price of 16 books. What is the loss percentage?",
     "options": [
       "20%",
       "25%",
       "30%",
       "32%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "If 12 books cost the same as 16 books sell for, then the selling price per book is 12/16=3/4 of cost. The loss is 25% (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q84",
@@ -9637,21 +9634,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Rama lent out Rs.500 at the rate of 5% per annum. After how many years will he get Rs.50 as simple interest? 1",
+    "question": "Rama lends ₹500 at 5% simple interest per year. How long will it take to earn ₹50 in interest?",
     "options": [
       "2 years",
-      "2 years 2 1",
+      "2 1/2 years",
       "3 years",
-      "3 years 2"
+      "3 1/2 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Using SI=Prt, t=50/(500×0.05)=2 years (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q85",
@@ -9662,24 +9660,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If a certain sum of money at compound interest amounts to Rs.7,840 in 2 years at 12% per annum, interest being compounded annually, then the sum is:",
+    "question": "A sum amounts to ₹7,840 in 2 years at 12% annual compound interest. What was the principal?",
     "options": [
-      "Rs.6,000",
-      "Rs.6,250",
-      "Rs.6,520",
-      "Rs.6,700"
+      "₹6,000",
+      "₹6,250",
+      "₹6,520",
+      "₹6,700"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Principal=₹7,840/(1.12)²=₹6,250 (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=11",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q86",
@@ -9690,24 +9686,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A motor part costs Rs.2,400 and sales tax at the rate of 2% is charged on it. How much should a customer pay to buy it?",
+    "question": "A motor part costs ₹2,400 and is subject to 2% sales tax. How much must the customer pay?",
     "options": [
-      "Rs.2,445",
-      "Rs.2,446",
-      "Rs.2,447",
-      "Rs.2,448"
+      "₹2,445",
+      "₹2,446",
+      "₹2,447",
+      "₹2,448"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Two percent of ₹2,400 is ₹48, so the total is ₹2,448 (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=11",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q87",
@@ -9718,24 +9712,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A washing machine was bought for Rs.14,700 and sales tax at the rate of 5% was charged on it. The price of the washing machine before sales tax was added was :",
+    "question": "A washing machine costs ₹14,700 including 5% sales tax. What was its price before tax?",
     "options": [
-      "Rs.14,000",
-      "Rs.14,200",
-      "Rs.14,400",
-      "Rs.14,500"
+      "₹14,000",
+      "₹14,200",
+      "₹14,400",
+      "₹14,500"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The pre-tax price is ₹14,700/1.05=₹14,000 (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=11",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q88",
@@ -9746,24 +9738,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The listed price of a hair-drier is Rs.5,000 and it is available for Rs.5,500 including GST. The rate of GST is :",
+    "question": "A hair-drier listed at ₹5,000 costs ₹5,500 including GST. What is the GST rate?",
     "options": [
       "8%",
       "10%",
       "12%",
       "12.5%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "GST is ₹5,500−₹5,000=₹500, which is 10% of ₹5,000 (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q89",
@@ -9774,24 +9764,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If 2x=3y=4z, then x :y :z  is equal to :",
+    "question": "If 2x=3y=4z, what is the ratio x:y:z?",
     "options": [
-      "2 : 3 : 4",
-      "4 : 3 : 2",
-      "6 : 4 : 3",
-      "3 : 4 : 5"
+      "2:3:4",
+      "4:3:2",
+      "6:4:3",
+      "3:4:5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Let 2x=3y=4z=k. Then x:y:z=1/2:1/3:1/4=6:4:3 (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=11",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q90",
@@ -9802,24 +9790,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "In a mixture of 48 litres, the ratio of milk to water is 5 : 3. How many litres of water should be added to the mixture to make the ratio of the new mixture to be 3 : 2 ?",
+    "question": "A 48-litre mixture contains milk and water in the ratio 5:3. How many litres of water must be added to make the new milk-to-water ratio 3:2?",
     "options": [
       "5 litres",
       "4 litres",
       "3 litres",
       "2 litres"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The mixture has 30 L milk and 18 L water. For 30/(18+x)=3/2, x=2 L (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=11",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q91",
@@ -9856,24 +9842,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If area of a circle is numerically equal to its circumference, then radius of the circle is :",
+    "question": "If the area of a circle is numerically equal to its circumference, what is its radius?",
     "options": [
       "1 unit",
       "2 units",
       "3 units",
       "4 units"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Set πr²=2πr. For a positive radius, r=2 units (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=12",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q93",
@@ -9884,24 +9868,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "If area of a square is numerically equal to its perimeter, then the length of each side of the square is:",
+    "question": "If the area of a square is numerically equal to its perimeter, what is the length of each side?",
     "options": [
       "1 unit",
       "2 units",
       "3 units",
       "4 units"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "For side s>0, s²=4s, so s=4 units (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=12",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q94",
@@ -9912,21 +9894,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "Two solid cubes, each of edge 3 cm are joined end-to-end forming a solid cuboid. The volume of the resulting cuboid is :",
+    "question": "Two solid cubes, each with an edge of 3 cm, are joined end to end to form a cuboid. What is its volume?",
     "options": [
       "54 cm³",
       "55 cm³",
       "56 cm³",
       "57 cm³"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Each cube has volume 3³=27 cm³. Together they have volume 54 cm³ (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=12",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q95",
@@ -9937,24 +9920,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "The length, breadth and height of a room are 10 metres, 8 metres and 5 metres respectively. The area of its four walls is :",
+    "question": "A room is 10 m long, 8 m wide and 5 m high. What is the area of its four walls?",
     "options": [
-      "180 Sq.m",
-      "200 Sq.m",
-      "220 Sq.m",
-      "240 Sq.m"
+      "180 m²",
+      "200 m²",
+      "220 m²",
+      "240 m²"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The four-wall area is 2h(l+b)=2×5×(10+8)=180 m² (A).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=12",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q96",
@@ -9965,24 +9946,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "On a horizontal plane ground, a man walks 12 metres due South and then 5 metres due East.  At what distance is the man now from the starting point?",
+    "question": "A man walks 12 m south and then 5 m east on level ground. How far is he from his starting point?",
     "options": [
       "12.5 metres",
       "13 metres",
       "13.5 metres",
       "14 metres"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The path forms a right triangle. The displacement is √(12²+5²)=13 m (B).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=12",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q97",
@@ -9993,24 +9972,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A vertical pole 63 m high casts a shadow of 6 m long on a horizontal plane ground at a particular time of a day. The sun’s elevation at that instant is:",
+    "question": "A vertical pole 6√3 m high casts a 6 m shadow on level ground. What is the sun’s elevation?",
     "options": [
       "30°",
       "45°",
       "60°",
       "90°"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "tan θ = height/shadow = 6√3/6 = √3, so θ=60° (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=12",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q98",
@@ -10021,24 +9998,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "At what angle with the plane ground should an athlete throw his javelin so as to get the maximum length of throw on the ground?",
+    "question": "At what angle to level ground should an athlete throw a javelin to achieve the greatest horizontal range, assuming ideal projectile motion?",
     "options": [
       "30°",
       "60°",
       "90°",
       "45°"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "For ideal projectile motion on level ground, the range is greatest at 45° (D).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=12",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q99",
@@ -10049,21 +10024,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "A frequency distribution is given below : **Class IntervalFrequency** 10 – 2012 20 – 304 30 – 406 40 – 5010 From the above data, the median class is:",
+    "question": "A grouped frequency table has class intervals 10–20, 20–30, 30–40 and 40–50 with frequencies 12, 4, 6 and 10 respectively. What is the median class?",
     "options": [
-      "10 – 20",
-      "20 – 30",
-      "30 – 40",
-      "40 – 50"
+      "10–20",
+      "20–30",
+      "30–40",
+      "40–50"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "There are 32 observations, so N/2=16. The cumulative frequencies are 12, 16, 22 and 32; the first class whose cumulative frequency exceeds 16 is 30–40 (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=12",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2026-p2-Q100",
@@ -10074,24 +10050,22 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & General Mathematics",
     "difficulty": "medium",
-    "question": "In statistics, if observations are arranged either in ascending or descending order of magnitude, then the value of observation which lies exactly in the middle is :",
+    "question": "In statistics, when observations are arranged in ascending or descending order, what is the value lying exactly in the middle called?",
     "options": [
       "Mean",
       "Mode",
       "Median",
       "Range"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The middle value in an ordered data set is the median (C).",
     "source": "Inspector of Statistics · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/inspector-stats-2026-p2.pdf#page=12",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-stats-2017-english-Q3",

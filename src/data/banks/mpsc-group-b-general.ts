@@ -14564,15 +14564,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "1thistaskbylunchasitisnothard.",
+    "question": "I __________ this task by lunch as it is not hard.",
     "options": [
-      "willfinish",
-      "willhavefinished",
-      "willbefinishing",
-      "willhavebeenfinished"
+      "will finish",
+      "will have finished",
+      "will be finishing",
+      "will have been finished"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "By a stated future deadline (“by lunch”), the future perfect “will have finished” is the natural choice.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
@@ -14581,10 +14581,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-10):Selectthemostappropriateoptionfromthealternativesgiven:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q2",
@@ -14602,13 +14600,246 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "will she stay",
       "will she have stayed"
     ],
-    "answerIndex": 3,
-    "explanation": "The official final key marks option D: “will she have stayed”. This is the key reference for the answer; it is not a worked derivation.",
+    "answerIndex": -1,
+    "explanation": "The final key marks D, but “had we not met her” is a past unreal condition and standard grammar would use “would she have stayed”; that exact form is not offered. The printed item/key conflict, so this question is held out from scoring pending clarification.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
     "officialAnswerCandidates": [
       3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q3",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The cheese looks as if the rats __________ it.",
+    "options": [
+      "are nibbling",
+      "had nibbled",
+      "have nibbled",
+      "nibble it"
+    ],
+    "answerIndex": 2,
+    "explanation": "The present perfect “have nibbled” describes the apparent completed action and its present result.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q4",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "__________ you all along?",
+    "options": [
+      "Didn’t she support",
+      "Hasn’t she supported",
+      "Isn’t she supporting",
+      "Hasn’t she been supporting"
+    ],
+    "answerIndex": 3,
+    "explanation": "“All along” describes an action continuing over a period up to now, so the present perfect continuous fits.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q5",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The truck hit her while she __________ the road.",
+    "options": [
+      "crosses",
+      "crossed",
+      "has been crossing",
+      "was crossing"
+    ],
+    "answerIndex": 3,
+    "explanation": "The past continuous marks the action in progress when the truck hit her.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q6",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "I wish he __________ me that he was quitting.",
+    "options": [
+      "told",
+      "tells",
+      "had told",
+      "has told"
+    ],
+    "answerIndex": 2,
+    "explanation": "“I wish” expresses regret about an earlier omission, so the past perfect “had told” is used.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q7",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Thank you so much for the bag. I __________ one for a long time.",
+    "options": [
+      "had been wanting",
+      "have wanted",
+      "had wanted",
+      "wanted"
+    ],
+    "answerIndex": 0,
+    "explanation": "The past perfect continuous describes the wish continuing before the bag was received.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q8",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Rakesh __________ for the competition these days.",
+    "options": [
+      "has prepared",
+      "prepares",
+      "is preparing",
+      "prepared"
+    ],
+    "answerIndex": 2,
+    "explanation": "“These days” points to a current temporary activity, so the present continuous fits.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q9",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "That man __________ at the bus stop for the last hour.",
+    "options": [
+      "has stood",
+      "is standing",
+      "was standing",
+      "has been standing"
+    ],
+    "answerIndex": 3,
+    "explanation": "“For the last hour” describes an action continuing until now, so the present perfect continuous fits.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q10",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Shall I tell that person that the last bus __________?",
+    "options": [
+      "has gone",
+      "is gone",
+      "had went",
+      "was gone"
+    ],
+    "answerIndex": 0,
+    "explanation": "The present perfect “has gone” describes the bus leaving with a present result: it is no longer available.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
@@ -15892,7 +16123,9 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos.56-60):Choosetheonewhichcanbesubstitutedforthegivenwords/sentence:"
-  },
+  }
+];
+const groupBQuestionsPart3: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2024-english-Q60",
     "paperId": "mpsc-group-b-aao-2024-english",
@@ -16140,9 +16373,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos.66—70);Selecttheincorrectlyspeltword.:"
-  }
-];
-const groupBQuestionsPart3: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2024-english-Q69",
     "paperId": "mpsc-group-b-aao-2024-english",
@@ -24445,7 +24676,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p2-Q60",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -24645,9 +24878,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q69",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32438,7 +32669,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-gk-Q5",
     "paperId": "mpsc-group-b-steno-2025-gk",
@@ -32662,9 +32895,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q13",
     "paperId": "mpsc-group-b-steno-2025-gk",
@@ -40559,7 +40790,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q64",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40759,9 +40992,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q72",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48310,7 +48541,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q38",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48513,9 +48746,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q49",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56349,7 +56580,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q46",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56561,9 +56794,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q54",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64035,7 +64266,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q84",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64256,9 +64489,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q92",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -73077,7 +73308,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q56",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73317,9 +73550,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q64",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81137,7 +81368,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B16",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q17",
     "questionNumber": "B17",
@@ -81345,9 +81578,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B24",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q25",
     "questionNumber": "B25",
@@ -89048,7 +89279,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B59",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B60",
     "questionNumber": "B60",
@@ -89195,9 +89428,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-written-A8",
     "paperId": "mpsc-group-b-ri-2026-p1",

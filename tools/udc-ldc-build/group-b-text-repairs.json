@@ -1331,8 +1331,21 @@
       "sourceSha256": "eb32e3ca2b60cb399cce89bbdcf711d95a098fdfbbcf90377ffd5f6ea2f66fb5",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Question 2 transcribed against rendered PDF page 1. All four options and their order checked visually; answer scored only against the final official key.",
+      "evidence": "Questions 1–10 checked against rendered PDF page 1; Q1 and Q3–10 transcribed with all four options and matched to the final official key. Q2 wording/options were visually checked; the official key says D although the past-unreal condition has no grammatically matching option, so it is explicitly unscored pending clarification.",
       "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "q": "I __________ this task by lunch as it is not hard.",
+          "opts": {
+            "a": "will finish",
+            "b": "will have finished",
+            "c": "will be finishing",
+            "d": "will have been finished"
+          },
+          "explanation": "By a stated future deadline (“by lunch”), the future perfect “will have finished” is the natural choice."
+        },
         "2": {
           "n": 2,
           "page": 1,
@@ -1343,7 +1356,113 @@
             "b": "would she stay",
             "c": "will she stay",
             "d": "will she have stayed"
-          }
+          },
+          "explanation": "The final key marks D, but “had we not met her” is a past unreal condition and standard grammar would use “would she have stayed”; that exact form is not offered. The printed item/key conflict, so this question is held out from scoring pending clarification.",
+          "unscored": true
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "q": "The cheese looks as if the rats __________ it.",
+          "opts": {
+            "a": "are nibbling",
+            "b": "had nibbled",
+            "c": "have nibbled",
+            "d": "nibble it"
+          },
+          "explanation": "The present perfect “have nibbled” describes the apparent completed action and its present result."
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "q": "__________ you all along?",
+          "opts": {
+            "a": "Didn’t she support",
+            "b": "Hasn’t she supported",
+            "c": "Isn’t she supporting",
+            "d": "Hasn’t she been supporting"
+          },
+          "explanation": "“All along” describes an action continuing over a period up to now, so the present perfect continuous fits."
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "q": "The truck hit her while she __________ the road.",
+          "opts": {
+            "a": "crosses",
+            "b": "crossed",
+            "c": "has been crossing",
+            "d": "was crossing"
+          },
+          "explanation": "The past continuous marks the action in progress when the truck hit her."
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "q": "I wish he __________ me that he was quitting.",
+          "opts": {
+            "a": "told",
+            "b": "tells",
+            "c": "had told",
+            "d": "has told"
+          },
+          "explanation": "“I wish” expresses regret about an earlier omission, so the past perfect “had told” is used."
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "q": "Thank you so much for the bag. I __________ one for a long time.",
+          "opts": {
+            "a": "had been wanting",
+            "b": "have wanted",
+            "c": "had wanted",
+            "d": "wanted"
+          },
+          "explanation": "The past perfect continuous describes the wish continuing before the bag was received."
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "q": "Rakesh __________ for the competition these days.",
+          "opts": {
+            "a": "has prepared",
+            "b": "prepares",
+            "c": "is preparing",
+            "d": "prepared"
+          },
+          "explanation": "“These days” points to a current temporary activity, so the present continuous fits."
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "part": null,
+          "q": "That man __________ at the bus stop for the last hour.",
+          "opts": {
+            "a": "has stood",
+            "b": "is standing",
+            "c": "was standing",
+            "d": "has been standing"
+          },
+          "explanation": "“For the last hour” describes an action continuing until now, so the present perfect continuous fits."
+        },
+        "10": {
+          "n": 10,
+          "page": 1,
+          "part": null,
+          "q": "Shall I tell that person that the last bus __________?",
+          "opts": {
+            "a": "has gone",
+            "b": "is gone",
+            "c": "had went",
+            "d": "was gone"
+          },
+          "explanation": "The present perfect “has gone” describes the bus leaving with a present result: it is no longer available."
         }
       },
       "partialReview": true

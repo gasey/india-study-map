@@ -119,6 +119,7 @@ def reviewed_extraction(extracted, repair):
         assert set(q['opts']) == set('abcd') and all(v.strip() for v in q['opts'].values()), 'Invalid repaired options'
         assert not q.get('explanation') or q['explanation'].strip(), 'Invalid reviewed explanation'
         assert 'answerIndex' not in q and 'answer' not in q, 'Text repairs cannot override answers'
+        assert not q.get('unscored') or q.get('explanation', '').strip(), 'Unscored dispute needs an explanation'
         rows[n] = q
         reviewed.add(n)
     for number, solved in repair.get('derivedAnswers', {}).items():
@@ -237,9 +238,11 @@ def build_additional():
             layout = bool(re.search(r'\b(figure|diagram|matrix|List\s*[-–]?\s*I|underlined)\b', q['q'] + ' ' + (q.get('direction') or ''), re.I) and '**' not in q['q'])
             bad_text = bool(re.search(r'[\ue000-\uf8ff�]', q['q'])) or any(not option.strip() or len(option) > 600 or re.search(r'[\ue000-\uf8ff�]', option) for option in opts)
             text_reviewed = q['n'] in reviewed_numbers
-            source_review = ((extracted['ocr'] or not complete_native or layout) and not text_reviewed) or bad_text or (len(key_choices) != 1 and not derived)
+            source_review = ((extracted['ocr'] or not complete_native or layout) and not text_reviewed) or bad_text or (len(key_choices) != 1 and not derived) or bool(q.get('unscored'))
             answer = key_choices[0] if key_choices and not source_review else derived['answerIndex'] if derived and not source_review else -1
             note = 'Text extraction needs comparison with the printed paper; candidate answers are not scored.' if source_review else ''
+            if q.get('unscored'):
+                note = 'The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.'
             if text_reviewed and not source_review:
                 note = ('Text and option order checked against the printed scan; scored using the official key.'
                         if key_choices else 'Text and option order checked against the printed scan; scored from a worked derivation.')

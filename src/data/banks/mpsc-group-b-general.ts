@@ -47633,7 +47633,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
   },
   {
-    "id": "mpsc-group-b-si-excise-2025-p1-written-1",
+    "id": "mpsc-group-b-si-excise-2025-p1-written-2",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
     "type": "descriptive",
     "questionNumber": "2",
@@ -47642,16 +47642,16 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "written",
     "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Asaconcernedcitizenofyourcity,writeaformallettertotheSecretary,Excise&Narcotics Departmentrequestingstrictactionagainstillegaldrugactivitiesinyourlocality.Highlighttheincreasing drugabuseproblems,itsimpactonyouth,andsuggestmeasuresforstricterenforcementandpublic awareness.(15)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
+    "question": "As a concerned citizen of your city, write a formal letter to the Secretary, Excise & Narcotics Department requesting strict action against illegal drug activities in your locality. Highlight the increasing drug abuse problems, its impact on youth, and suggest measures for stricter enforcement and public awareness. (15 marks)",
+    "explanation": "A strong response should use formal letter format, identify the local concern, explain the risks of drug abuse to young people, and propose practical enforcement and awareness measures. Award marks for clarity, organization, relevant details, and correct formal English.",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=1"
   },
   {
-    "id": "mpsc-group-b-si-excise-2025-p1-written-2",
+    "id": "mpsc-group-b-si-excise-2025-p1-written-3",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
     "type": "descriptive",
     "questionNumber": "3",
@@ -47660,13 +47660,30 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "written",
     "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Readthegivenparagraphandanswerthequestionsgivenattheend: The‘LittleTramp’,theunforgettablecharacterCharlieChaplininvented,wasbornpurelyby accidentin1915.WhilerushingtoafilmshootinCalifornia,hegrabbedclothesotherpeoplehadleft behindinthechangingroomandwhenheemerged,hefoundhehadcreatedapersonalityeverybody loved,Alittleguyinabowlerhat,aclose-fittingjacket,acane,out-sizedshoesandabrush-like moustache! Beforelong,Chaplinfoundhimselfastar.Thatpuzzledhim,forhesawhimselfessentiallyasa shyBritishMusicHallcomedian.TheU.S.acknowledgedhimasitskingofsilentfilmcomedy.Soon, sodidcrowdsallovertheworld,Butlifewasn’talwaysalaughforCharlesSpencerChaplin.Both hisparentswereMusicHallartists,whoseparatedwhenCharliewasveryyoung.Hischildhoodwas verysad,forhismotherneverearnedenoughtolookafterCharlieandhisolderbrother,Sydney. Sometimes,Chaplinhadtosleeponthestreetsandforageforfoodinthegarbage. Charlietookhisfirstbowonstagewhenhismothermadeherlastappearance.Ithappened whenhervoicebrokeduringasong.Hersonsteppedonstageandsangapopularsong.That’swhen astarwasborn.Throughalltheseyearsofsuccess,Charlieneverforgothistroubledchildhood.It madehimrecallaChristmaswhenhewasdeniedtwoorangesandhisbagofsweetsforbreakinga ruleattheorphanagehewenttoafterhismother’sdeath.Itwouldhavebrokenhisheart,iftheother childrenhadnotofferedhimashareoftheirs.Spontancously,theadultChaplingiftedtheorphanage withamotionpicturemachineandinsistedthateachchildshouldhaveasmanyorangesandsweets astheypleased. Answerthefollowingquestions:\na. WhichunforgettablecharacterdidCharlieChaplininvent?(2)\nb. DescribethepersonalitycreatedbyCharlie,whomeverybodyloved.(2)\nc. WhatdidCharliesechimselfas?(2)\nd. GivetworeasonstoshowthatCharlieChaplin’searlylifewasverysad.—Q) (@)stepped(i)forage (iii)emerged(iv)orphanage @created(ii)wrote (ii)struggled(iv)laughed (i)found@i)shy (ii)silent(iv)puzzled @)troubledGi)share (ii)motion(iv)success (i)insistedGi)offered ii)emerged(iv)broken",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
+    "question": "Read the passage and answer the questions below.\n\nThe ‘Little Tramp’, the unforgettable character Charlie Chaplin invented, was born purely by accident in 1915. While rushing to a film shoot in California, he grabbed clothes other people had left behind in the changing room and, when he emerged, he found he had created a personality everybody loved: a little guy in a bowler hat, a close-fitting jacket, a cane, out-sized shoes and a brush-like moustache.\n\nBefore long, Chaplin found himself a star. That puzzled him, for he saw himself essentially as a shy British Music Hall comedian. The U.S. acknowledged him as its king of silent film comedy. Soon, so did crowds all over the world. But life wasn’t always a laugh for Charles Spencer Chaplin. Both his parents were Music Hall artists, who separated when Charlie was very young. His childhood was very sad, for his mother never earned enough to look after Charlie and his older brother, Sydney. Sometimes, Chaplin had to sleep on the streets and forage for food in the garbage.\n\nCharlie took his first bow on stage when his mother made her last appearance. It happened when her voice broke during a song. Her son stepped on stage and sang a popular song. That’s when a star was born. Through all these years of success, Charlie never forgot his troubled childhood. It made him recall a Christmas when he was denied two oranges and his bag of sweets for breaking a rule at the orphanage he went to after his mother’s death. It would have broken his heart if the other children had not offered him a share of theirs. Spontaneously, the adult Chaplin gifted the orphanage with a motion picture machine and insisted that each child should have as many oranges and sweets as they pleased.\n\n(a) Which unforgettable character did Charlie Chaplin invent? (2)\n(b) Describe the personality created by Charlie, whom everybody loved. (2)\n(c) What did Charlie see himself as? (2)\n(d) Give two reasons to show that Charlie Chaplin’s early life was very sad. (2)\n(e) When did Charlie Chaplin start his career? (2)\n(f) Choose the word in the passage that means ‘to search for food’: (i) stepped (ii) forage (iii) emerged (iv) orphanage. (1)\n(g) Choose the meaning of ‘invented’: (i) created (ii) wrote (iii) struggled (iv) laughed. (1)\n(h) Find the word in the passage opposite in meaning to ‘bold’: (i) found (ii) shy (iii) silent (iv) puzzled. (1)\n(i) Find the word in the passage opposite in meaning to ‘failure’: (i) troubled (ii) share (iii) motion (iv) success. (1)\n(j) Find the word in the passage similar in meaning to ‘appeared’: (i) insisted (ii) offered (iii) emerged (iv) broken. (1)",
+    "explanation": "Answer guide: (a) the Little Tramp; (b) a little man wearing a bowler hat, close-fitting jacket, carrying a cane, with oversized shoes and a brush-like moustache; (c) a shy British Music Hall comedian; (d) his parents separated, the family was poor, and he sometimes slept on the streets and searched rubbish for food; (e) when his mother’s voice broke during a song and he stepped on stage to sing. Objective choices: (f) forage (ii), (g) created (i), (h) shy (ii), (i) success (iv), (j) emerged (iii). The source prints two marks for (a)–(e) and one for (f)–(j).",
+    "sourceReview": false,
+    "sourceNote": "",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p1-written-1",
+    "paperId": "mpsc-group-b-si-excise-2025-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write a précis of the following passage (10 marks):\n\nDrug abuse is a growing concern for law enforcement worldwide. It not only harms individuals but also fuels crime and destabilizes societies. Despite strict regulations, drug traffickers continue to evolve, using advanced technologies and underground networks to evade authorities. The illegal drug trade remains a major challenge, requiring strong enforcement, intelligence operations, and international cooperation.\n\nPublic awareness campaigns and rehabilitation programs play a crucial role in preventing substance abuse and supporting recovery. Community involvement is equally important in protecting vulnerable individuals, especially the youth. While law enforcement agencies lead the fight, every responsible citizen must support anti-drug initiatives to create a safer, drug-free society.",
+    "explanation": "A précis should retain the passage’s main idea in concise language: drug abuse harms people and society, so effective prevention requires law enforcement, international cooperation, rehabilitation, public awareness and community support. Use your own words and give the précis an appropriate title.",
+    "sourceReview": false,
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=1"
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q8",
@@ -48495,7 +48512,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q49",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48520,9 +48539,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q50",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56543,7 +56560,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q54",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56571,9 +56590,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q55",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64238,7 +64255,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q92",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64266,9 +64285,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q93",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -73299,7 +73316,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q64",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73331,9 +73350,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q65",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81327,7 +81344,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B24",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q25",
     "questionNumber": "B25",
@@ -81353,9 +81372,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B25",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q26",
     "questionNumber": "B26",
@@ -89177,7 +89194,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-written-A8",
     "paperId": "mpsc-group-b-ri-2026-p1",
@@ -89194,9 +89213,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p2-B1",
     "questionNumber": "B1",

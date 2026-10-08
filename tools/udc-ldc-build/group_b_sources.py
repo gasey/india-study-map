@@ -162,6 +162,7 @@ def build_additional():
         extracted = json.loads(extraction_path.read_text())
         assert extracted.get('sourceSha256') == hashlib.sha256(source_path(slug, file).read_bytes()).hexdigest(), f'Re-extract changed source: {slug}'
         extracted, reviewed_numbers = reviewed_extraction(extracted, repairs.get(slug))
+        reviewed_written = repairs.get(slug, {}).get('written') or {}
         if not extracted['questions'] and not extracted['written']:
             continue
         paper_id = entry['id']
@@ -268,12 +269,29 @@ def build_additional():
         for i, q in enumerate(extracted['written']):
             if not q.get('text', '').strip():
                 continue
-            questions.append({'id': paper_id + '-written-' + str(i+1), 'paperId': paper_id, 'type': 'descriptive',
-                              'questionNumber': str(q.get('n') or i+1), 'subject': 'english', 'studySection': 'english',
+            written_review = reviewed_written.get(str(q.get('n')))
+            if written_review:
+                assert written_review.get('q', '').strip() and written_review.get('explanation', '').strip() and written_review.get('page', q.get('page', 0)) > 0
+            prompt = written_review['q'] if written_review else q['text'] + ('\n' + '\n'.join(f"{k}. {v}" for k,v in q['subparts'].items()) if q.get('subparts') else '')
+            n = q.get('n') or i+1
+            questions.append({'id': paper_id + '-written-' + str(n), 'paperId': paper_id, 'type': 'descriptive',
+                              'questionNumber': str(n), 'subject': 'english', 'studySection': 'english',
                               'topic': 'written', 'topicLabel': 'General English · written', 'difficulty': 'medium',
-                              'question': q['text'] + ('\n' + '\n'.join(f"{k}. {v}" for k, v in q['subparts'].items()) if q.get('subparts') else ''),
-                              'explanation': '', 'sourceReview': True, 'sourceNote': 'Written response and transcription awaiting source review.',
-                              'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(q['page'])})
+                              'question': prompt,
+                              'explanation': written_review.get('explanation', '') if written_review else '',
+                              'sourceReview': not bool(written_review), 'sourceNote': '' if written_review else 'Written response and transcription awaiting source review.',
+                              'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(written_review.get('page', q['page']) if written_review else q['page'])})
+        existing_written = {str(q.get('n') or i+1) for i, q in enumerate(extracted['written'])}
+        for number, written_review in reviewed_written.items():
+            if number in existing_written:
+                continue
+            assert written_review.get('q', '').strip() and written_review.get('explanation', '').strip() and written_review.get('page', 0) > 0
+            questions.append({'id': paper_id + '-written-' + number, 'paperId': paper_id, 'type': 'descriptive',
+                              'questionNumber': number, 'subject': 'english', 'studySection': 'english',
+                              'topic': 'written', 'topicLabel': 'General English · written', 'difficulty': 'medium',
+                              'question': written_review['q'], 'explanation': written_review['explanation'],
+                              'sourceReview': False, 'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]),
+                              'sourceHref': href + '#page=' + str(written_review['page'])})
     for hub_id, (folder, file) in HUB_FILES.items():
         d = json.loads((ROOT / 'tools' / 'practice-hub-build' / 'staged' / (hub_id + '.json')).read_text())
         slug = 'mpsc-group-b-' + hub_id

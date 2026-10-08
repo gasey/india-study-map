@@ -119,7 +119,10 @@ assert evaluate("document.querySelectorAll('.udc-question-card')[99].innerText.i
 assert evaluate("!document.querySelectorAll('.udc-question-card')[99].innerText.includes('Text extraction needs comparison')")
 browse('Sub-Inspector of Excise & Narcotics', 'General English')
 excise_count = evaluate("document.querySelectorAll('.udc-question-card').length")
-assert excise_count == 32, excise_count  # 30 reviewed MCQs plus two written prompts.
+assert excise_count == 33, excise_count  # 30 MCQs plus three reviewed written prompts.
+assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('Write a précis'))")
+assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('formal letter'))")
+assert evaluate("Array.from(document.querySelectorAll('.udc-question-card')).some(card => card.innerText.includes('Little Tramp'))")
 evaluate("document.querySelectorAll('.udc-question-card')[23].querySelectorAll('.udc-option-label')[1].closest('button').click()")
 wait_for("!!document.querySelectorAll('.udc-question-card')[23].querySelector('.udc-answer-sources')")
 assert evaluate("document.querySelectorAll('.udc-question-card')[23].innerText.includes('comparative rather than a complex clause')")

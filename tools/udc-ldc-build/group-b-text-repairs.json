@@ -1331,7 +1331,7 @@
       "sourceSha256": "eb32e3ca2b60cb399cce89bbdcf711d95a098fdfbbcf90377ffd5f6ea2f66fb5",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–61 checked against rendered PDF pages 1–5; stems and four options transcribed and matched to the final official key. Q2, Q23 and Q37 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
+      "evidence": "Questions 1–74 checked against rendered PDF pages 1–6; stems and four options transcribed and matched to the final official key. Q2, Q23 and Q37 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
       "questions": {
         "1": {
           "n": 1,
@@ -2131,6 +2131,175 @@
             "d": "CBDA"
           },
           "explanation": "The sequence is D–A–C–B: deciding to settle down leads to buying a house, then the intention to be a model neighbour, which motivates welcoming a first guest."
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "part": null,
+          "q": "Four sentences are given: A. I sow a seed. B. I saw the sapling. C. I saw the sprout. D. I saw the plant. Select the correct order.",
+          "opts": {
+            "a": "ACBD",
+            "b": "DBAC",
+            "c": "CABD",
+            "d": "ABCD"
+          },
+          "explanation": "The natural growth sequence is seed, sprout, sapling, then plant: A–C–B–D."
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "part": null,
+          "q": "Four sentences are given: A. When it saw me, it moved quickly and hid itself in a coconut shell. B. I quietly went near and closed the mouth of the coconut shell with a stone. C. One day I saw a small snake in the compound. D. It was crawling along slowly. Select the correct order.",
+          "opts": {
+            "a": "ABCD",
+            "b": "DBCA",
+            "c": "CDAB",
+            "d": "BCAD"
+          },
+          "explanation": "The event proceeds from seeing the snake (C), to its slow movement (D), its hiding (A), and closing the shell (B)."
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "part": null,
+          "q": "Four sentences describe buying a product online: A. Add the product to your shopping cart. B. Select the brand you like. C. Enter the card details and buy the product online. D. Look for the product you want to purchase. Select the correct order.",
+          "opts": {
+            "a": "ABCD",
+            "b": "DACB",
+            "c": "BCDA",
+            "d": "DBAC"
+          },
+          "explanation": "First find the product (D), select its brand (B), add it to the cart (A), then enter payment details (C)."
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "part": null,
+          "q": "Four sentences describe a traffic incident: A. A man on a bike had to ride on the pavement. B. When he tried to plunge onto the road, a car hit him. C. As the bus inched through the evening life, the traffic grew. D. There was no space on the road any more. Select the correct order.",
+          "opts": {
+            "a": "CDAB",
+            "b": "CBAD",
+            "c": "DBCA",
+            "d": "ADBC"
+          },
+          "explanation": "Traffic increases (C), the road runs out of space (D), the man rides on the pavement (A), and a car hits him when he tries to re-enter the road (B)."
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "part": null,
+          "q": "Select the incorrectly spelled word.",
+          "opts": {
+            "a": "Incentivise",
+            "b": "Insignificant",
+            "c": "Insubordinant",
+            "d": "Insufficient"
+          },
+          "explanation": "“Insubordinant” is misspelled; the standard adjective is “insubordinate.”"
+        },
+        "67": {
+          "n": 67,
+          "page": 6,
+          "part": null,
+          "q": "Select the incorrectly spelled word.",
+          "opts": {
+            "a": "Prominent",
+            "b": "Promenade",
+            "c": "Providence",
+            "d": "Prosecuet"
+          },
+          "explanation": "“Prosecuet” is misspelled; the correct spelling is “prosecute.”"
+        },
+        "68": {
+          "n": 68,
+          "page": 6,
+          "part": null,
+          "q": "Select the incorrectly spelled word.",
+          "opts": {
+            "a": "Leverage",
+            "b": "Leviathane",
+            "c": "Leprechaun",
+            "d": "Levitate"
+          },
+          "explanation": "“Leviathane” is misspelled; the correct spelling is “Leviathan.”"
+        },
+        "69": {
+          "n": 69,
+          "page": 6,
+          "part": null,
+          "q": "Select the incorrectly spelled word.",
+          "opts": {
+            "a": "Emaciate",
+            "b": "Emasculate",
+            "c": "Enunciate",
+            "d": "Erradicate"
+          },
+          "explanation": "“Erradicate” is misspelled; the correct spelling is “eradicate.”"
+        },
+        "70": {
+          "n": 70,
+          "page": 6,
+          "part": null,
+          "q": "Select the incorrectly spelled word.",
+          "opts": {
+            "a": "Croissant",
+            "b": "Crochet",
+            "c": "Cromatic",
+            "d": "Corium"
+          },
+          "explanation": "“Cromatic” is missing the h; the correct spelling is “chromatic.”"
+        },
+        "71": {
+          "n": 71,
+          "page": 6,
+          "part": null,
+          "q": "Select the most appropriate antonym of “admonish”.",
+          "opts": {
+            "a": "Chide",
+            "b": "Reprove",
+            "c": "Flatter",
+            "d": "Rebuke"
+          },
+          "explanation": "“Admonish” means to warn or reprimand; “flatter” has the opposite sense."
+        },
+        "72": {
+          "n": 72,
+          "page": 6,
+          "part": null,
+          "q": "Select the most appropriate antonym of “judicious”.",
+          "opts": {
+            "a": "Unequal",
+            "b": "Unlawful",
+            "c": "Impure",
+            "d": "Indiscreet"
+          },
+          "explanation": "“Judicious” means showing good judgment; “indiscreet” is an appropriate opposite."
+        },
+        "73": {
+          "n": 73,
+          "page": 6,
+          "part": null,
+          "q": "Select the most appropriate antonym of “bashful”.",
+          "opts": {
+            "a": "Sheepish",
+            "b": "Coy",
+            "c": "Confident",
+            "d": "Chaste"
+          },
+          "explanation": "“Confident” contrasts with “bashful,” which means shy."
+        },
+        "74": {
+          "n": 74,
+          "page": 6,
+          "part": null,
+          "q": "Select the most appropriate antonym of “waver”.",
+          "opts": {
+            "a": "Steady",
+            "b": "Sway",
+            "c": "Slant",
+            "d": "Tilt"
+          },
+          "explanation": "“Waver” means to fluctuate or be unsteady; “steady” is its opposite."
         }
       },
       "partialReview": true

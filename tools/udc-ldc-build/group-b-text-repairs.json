@@ -2648,8 +2648,112 @@
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Question 71 transcribed against rendered PDF page 7. Set notation and all four options checked visually; answer scored using the final official key.",
+      "evidence": "Questions 1–8 and 71 checked against rendered PDF pages 1 and 7; stems, mathematical notation, and four options were visually verified. Answers match the final official key; each includes a worked calculation.",
       "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "q": "The value of √2 up to three places of decimal is—",
+          "opts": {
+            "a": "1.414",
+            "b": "1.413",
+            "c": "1.412",
+            "d": "1.410"
+          },
+          "explanation": "√2 ≈ 1.414213…, which rounds to 1.414 to three decimal places."
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "q": "The smallest perfect square number which is divisible by 15, 24 and 25 is—",
+          "opts": {
+            "a": "9604",
+            "b": "2025",
+            "c": "900",
+            "d": "3600"
+          },
+          "explanation": "The least common multiple is 600. Its prime factorization is 2³·3·5²; to make all exponents even, multiply by 2·3=6, giving 3600."
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "q": "The number 675 is to be multiplied by which smallest number so that the resulting number will become a perfect cube?",
+          "opts": {
+            "a": "5",
+            "b": "6",
+            "c": "7",
+            "d": "8"
+          },
+          "explanation": "675 = 3³·5². Multiplying by 5 makes the exponents multiples of three: 675×5 = 3³·5³ = 15³."
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "q": "The value of 0.5777…… is—",
+          "opts": {
+            "a": "57/10",
+            "b": "57/99",
+            "c": "26/45",
+            "d": "52/99"
+          },
+          "explanation": "0.5777… = 0.5 + 0.0777… = 1/2 + 7/90 = 26/45."
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "q": "(√7 + √5)/(√7 − √5) is equal to—",
+          "opts": {
+            "a": "6 − √35",
+            "b": "6 + √35",
+            "c": "7",
+            "d": "6"
+          },
+          "explanation": "Rationalize the denominator: (√7+√5)²/(7−5) = (12+2√35)/2 = 6+√35."
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "q": "The HCF of two numbers is 16 and their LCM is 160. If one number is 32, then the other number is—",
+          "opts": {
+            "a": "48",
+            "b": "80",
+            "c": "96",
+            "d": "112"
+          },
+          "explanation": "For two integers, their product is HCF×LCM. The other number is (16×160)/32 = 80."
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "q": "The number of terms in the sequence 4, 11, 18, …, 186 is—",
+          "opts": {
+            "a": "17",
+            "b": "25",
+            "c": "26",
+            "d": "27"
+          },
+          "explanation": "This is an arithmetic progression with first term 4 and common difference 7. Solve 4+(n−1)7=186 to get n=27."
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "q": "The 8th term of the arithmetic progression 9, 6, 3, 0, … is—",
+          "opts": {
+            "a": "−3",
+            "b": "−6",
+            "c": "−12",
+            "d": "−15"
+          },
+          "explanation": "The first term is 9 and the common difference is −3. The eighth term is 9+7(−3)=−12."
+        },
         "71": {
           "n": 71,
           "page": 7,
@@ -2660,7 +2764,8 @@
             "b": "{f}",
             "c": "{d}",
             "d": "{a, d}"
-          }
+          },
+          "explanation": "B − A contains elements that are in B but not in A. Since b and c are in both sets, only f remains: {f}."
         }
       },
       "partialReview": true

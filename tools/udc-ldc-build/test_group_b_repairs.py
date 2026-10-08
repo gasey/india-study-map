@@ -172,14 +172,20 @@ class ReviewedRepairTests(unittest.TestCase):
         extracted = json.loads((HERE / 'extracted/je-2025-gk.json').read_text())
         repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['je-2025-gk']
         result, reviewed = reviewed_extraction(extracted, repair)
-        self.assertEqual(reviewed, set(range(1, 27)))
-        self.assertEqual(len(result['questions']), 98)
+        self.assertEqual(reviewed, set(range(1, 101)))
+        self.assertEqual(len(result['questions']), 100)
         self.assertIn('first skywalk in Mizoram', result['questions'][0]['q'])
         self.assertEqual(result['questions'][7]['opts']['c'], '6.7%')
         self.assertEqual(result['questions'][12]['opts']['d'], '24th')
         self.assertTrue(result['questions'][13]['unscored'])
         self.assertEqual(result['questions'][25]['opts']['b'], 'Kangchenjunga')
-        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 27)) - {14})
+        self.assertEqual(result['questions'][54]['opts']['c'], 'International Food Policy Research Institute (IFPRI)')
+        self.assertEqual(result['questions'][59]['opts']['c'], 'Networks of relationships among people in a society')
+        self.assertTrue(result['questions'][83]['unscored'])
+        self.assertTrue(result['questions'][97]['unscored'])
+        self.assertTrue(result['questions'][99]['unscored'])
+        self.assertEqual(result['questions'][96]['opts']['d'], 'Kairuma')
+        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 101)) - {14, 32, 47, 51, 55, 56, 84, 98, 100})
         self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
 
     def test_rejects_stale_source(self):

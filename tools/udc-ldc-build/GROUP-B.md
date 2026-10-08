@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 9 October 2026
 
 49 general papers, 3,548 items: 3,477 MCQs and 71 written prompts.
-2,781 questions are ready for practice, including 1,614 official answers and
-1,167 independently derived answers. 707 items still need source review.
+2,847 questions are ready for practice, including 1,614 official answers and
+1,233 independently derived answers. 643 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -178,9 +178,15 @@ are held because their choice sets do not contain the factually correct
 combination. Q31–100 remain under scan review. The cover confirms 100
 two-mark questions, two hours and negative marking.
 
-Junior Engineer, LAD, PWD & I&WR Paper-II General Knowledge, April 2025: Q1–26
-have been restored or checked against pages 2–3, with 25 derived answers and
-explanations. Q14 is held because two options both print 326 BC. The recovered
-questions raise the bank to 98 items; Q55 and Q60 are not present in the scan
-transcription and remain to be recovered. The cover specifies 100 one-mark
-questions in two hours, with no negative marking.
+Junior Engineer, LAD, PWD & I&WR Paper-II General Knowledge, April 2025: all 100
+questions have now been restored or checked against pages 2–10. Ninety-one
+have derived explanations. Q14 repeats 326 BC in two choices; Q32 lacks a
+date/measure for “largest oil exporter”; Q47 has multiple plausible “not a
+power” choices; Q51 confuses poverty-line and multidimensional-poverty
+estimates; Q55 omits the current Global Hunger Index publishers; Q56 does not
+define “social-sector initiative”; Q84 omits water vapour, the main natural
+greenhouse gas; Q98 conflates the South Lushai Hills with the later unified
+district administration; and Q100 omits first CEM Ch. Saprawnga. These nine
+items stay unscored. Q1–7, Q13, Q26, Q55 and Q60 were recovered from scan-missed
+or merged OCR rows. The cover specifies 100 one-mark questions in two hours,
+with no negative marking.

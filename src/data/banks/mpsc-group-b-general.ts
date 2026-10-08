@@ -41057,21 +41057,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingriversdoesnotoriginateinIndia?",
+    "question": "Which of the following rivers does not originate in India?",
     "options": [
       "Ganga",
       "Yamuna",
       "Indus",
       "Beas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Indus rises in the Tibetan Plateau, north of India; the Ganga, Yamuna and Beas rise within India.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q28",
@@ -41082,21 +41083,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichsectorincludesactivitiesliketrade,transport,andcommunication?",
+    "question": "Which sector includes activities like trade, transport, and communication?",
     "options": [
-      "Primarysector",
-      "Secondarysector",
-      "Tertiarysector",
-      "Economicsector"
+      "Primary sector",
+      "Secondary sector",
+      "Tertiary sector",
+      "Economic sector"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Trade, transport and communication provide services, so they belong to the tertiary sector.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q29",
@@ -41107,21 +41109,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheSunderbansdeltaisformedbytheconfluenceofwhichrivers?",
+    "question": "The Sunderbans delta is formed by the confluence of which rivers?",
     "options": [
-      "GangaandYamuna",
-      "GangaandBrahmaputra",
-      "BrahmaputraandBarak",
-      "GodavariandKrishna"
+      "Ganga and Yamuna",
+      "Ganga and Brahmaputra",
+      "Brahmaputra and Barak",
+      "Godavari and Krishna"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Sunderbans is the delta system of the Ganga–Brahmaputra river network. The Meghna is also part of the wider delta system, but among the listed pairs, Ganga and Brahmaputra is the intended answer.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q30",
@@ -41132,21 +41135,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatisthelongestriverinIndia?",
+    "question": "What is the longest river in India?",
     "options": [
       "Ganga",
       "Krishna",
       "Brahmaputra",
       "Godavari"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Ganga is generally identified as the longest river flowing within India. The Brahmaputra is longer as a whole across several countries, which is why “in India” matters.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q31",
@@ -41157,21 +41161,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "The‘FourAsianTigers’are:",
+    "question": "The “Four Asian Tigers” are:",
     "options": [
-      "Japan,India,HongKong,SouthKorea",
-      "HongKong,Singapore,SouthKorea,Taiwan",
-      "Thailand,Malaysia,Indonesia,Philippines",
-      "Japan,SouthKorea,NorthKorea,China"
+      "Japan, India, Hong Kong, South Korea",
+      "Hong Kong, Singapore, South Korea, Taiwan",
+      "Thailand, Malaysia, Indonesia, Philippines",
+      "Japan, South Korea, North Korea, China"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Four Asian Tigers are Hong Kong, Singapore, South Korea and Taiwan, economies known for rapid industrialisation and growth.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q32",
@@ -41182,21 +41187,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingistheworld’slargestexporterofoil?",
+    "question": "Which of the following is the world’s largest exporter of oil?",
     "options": [
-      "UnitedStates",
+      "United States",
       "Russia",
-      "SaudiArabia",
+      "Saudi Arabia",
       "Iraq"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The stem gives no year or definition of oil (crude oil versus total petroleum products), so the largest exporter varies by measure and period.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The stem gives no year or definition of oil (crude oil versus total petroleum products), so the largest exporter varies by measure and period."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q33",
@@ -41207,21 +41212,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingreferstoarelationshipbetweenaculturalgroupanditsnaturalenvironment?",
+    "question": "Which of the following refers to a relationship between a cultural group and its natural environment?",
     "options": [
-      "Culturalecology",
-      "Culturalconvergence",
-      "Culturaldiffusion",
-      "Culturalassimilation"
+      "Cultural ecology",
+      "Cultural convergence",
+      "Cultural diffusion",
+      "Cultural assimilation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Cultural ecology studies how human cultural groups interact with and adapt to their natural environments.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q34",
@@ -41232,21 +41238,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichisthelargestcontinentbylandarea?",
+    "question": "Which is the largest continent by land area?",
     "options": [
-      "NorthAmerica",
+      "North America",
       "Africa",
       "Asia",
       "Europe"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Asia is the largest continent by land area.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q35",
@@ -41257,21 +41264,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingisaprimarysectoractivity?",
+    "question": "Which of the following is a primary-sector activity?",
     "options": [
       "Banking",
       "Services",
       "Agriculture",
       "IT"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Agriculture extracts or produces resources from nature, making it a primary-sector activity.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q36",
@@ -41282,21 +41290,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichmountainrangeformsanaturalborderbetweenFranceandSpain?",
+    "question": "Which mountain range forms a natural border between France and Spain?",
     "options": [
       "Alps",
       "Pyrenees",
       "Carpathians",
       "Apennines"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Pyrenees form the natural mountain border between France and Spain.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q37",
@@ -41307,21 +41316,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichamendmentoftheConstitutionofIndiaisknownasmini-constitution?",
+    "question": "Which amendment to the Constitution of India is known as the “mini-constitution”?",
     "options": [
-      "ConstitutionForty-FirstAmendmentAct,1976",
-      "ConstitutionForty-SecondAmendmentAct,1976",
-      "ConstitutionForty-ThirdAmendmentAct,1977",
-      "ConstitutionForty-FourthAmendmentAct,1978"
+      "Constitution (Forty-First Amendment) Act, 1976",
+      "Constitution (Forty-Second Amendment) Act, 1976",
+      "Constitution (Forty-Third Amendment) Act, 1977",
+      "Constitution (Forty-Fourth Amendment) Act, 1978"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Forty-Second Amendment Act, 1976 is commonly called the “mini-constitution” because it made extensive changes to the Constitution.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q38",
@@ -41332,21 +41342,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichamongthefollowingisthesupremelawofthelandinIndia?",
+    "question": "Which of the following is the supreme law of the land in India?",
     "options": [
-      "IndianPenalCode",
-      "ConstitutionofIndia",
-      "FundamentalRights",
-      "DirectivePrinciplesofStatePolicy"
+      "Indian Penal Code",
+      "Constitution of India",
+      "Fundamental Rights",
+      "Directive Principles of State Policy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Constitution is the supreme law of India; other laws and government action must conform to it.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q39",
@@ -41357,21 +41368,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatistheminimumagerequiredtobeamemberoftheLokSabha?",
+    "question": "What is the minimum age required to be a member of the Lok Sabha?",
     "options": [
-      "25years",
-      "30years",
-      "35years",
-      "18years"
+      "25 years",
+      "30 years",
+      "35 years",
+      "18 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A person must be at least 25 years old to be elected to the Lok Sabha.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q40",
@@ -41382,21 +41394,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThePresidentofIndiaiselectedbyanelectoralcollegeconsistingof-",
+    "question": "The President of India is elected by an electoral college consisting of:",
     "options": [
-      "OnlymembersofLokSabha",
-      "MembersofLokSabhaandRajyaSabha",
-      "ElectedmembersoftheLegislativeAssembliesofStates",
-      "MembersofLokSabha,RajyaSabhaandelectedmembersoftheLegislativeAssembliesof States"
+      "Only members of the Lok Sabha",
+      "Members of the Lok Sabha and Rajya Sabha",
+      "Elected members of the State Legislative Assemblies",
+      "Members of the Lok Sabha and Rajya Sabha, and elected members of State Legislative Assemblies"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The electoral college includes elected members of both Houses of Parliament and elected members of the relevant State Legislative Assemblies; the Constitution also includes Delhi and Puducherry. Option D is the intended choice, though its wording abbreviates the full constitutional list.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q41",
@@ -41407,21 +41420,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatisthemaximumnumberofmembersintheRajyaSabha?",
+    "question": "What is the maximum number of members in the Rajya Sabha?",
     "options": [
       "180",
       "200",
       "250",
       "500"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Article 80 sets the Rajya Sabha’s maximum strength at 250 members: up to 238 representatives of States and Union Territories and 12 nominated members.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q42",
@@ -41432,21 +41446,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhohasthepowertodissolvetheLokSabha?",
+    "question": "Who has the power to dissolve the Lok Sabha?",
     "options": [
-      "ThePresidentofIndia",
-      "ThePrimeMinisterofIndia",
-      "TheSpeakeroftheLokSabha",
-      "TheChiefJusticeofIndia"
+      "The President of India",
+      "The Prime Minister of India",
+      "The Speaker of the Lok Sabha",
+      "The Chief Justice of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The President formally dissolves the Lok Sabha, ordinarily acting on the advice of the Council of Ministers headed by the Prime Minister.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q43",
@@ -41457,21 +41472,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhowasthefirstwomanPrimeMinisterofIndia?",
+    "question": "Who was the first woman Prime Minister of India?",
     "options": [
-      "PratibhaPatil",
-      "IndiraGandhi",
-      "SoniaGandhi",
-      "RajkumariAmritKaur"
+      "Pratibha Patil",
+      "Indira Gandhi",
+      "Sonia Gandhi",
+      "Rajkumari Amrit Kaur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Indira Gandhi became India’s first woman Prime Minister in 1966.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q44",
@@ -41482,21 +41498,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhowasthefirstChiefElectionCommissionerofIndia?",
+    "question": "Who was the first Chief Election Commissioner of India?",
     "options": [
-      "T.N.Seshan",
-      "B.B.Tandon",
-      "SukumarSen",
-      "V.S.Ramadevi"
+      "T. N. Seshan",
+      "B. B. Tandon",
+      "Sukumar Sen",
+      "V. S. Ramadevi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sukumar Sen was India’s first Chief Election Commissioner.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q45",
@@ -41507,21 +41524,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theconceptof‘ConcurrentList’intheIndianConstitutionisborrowedfromwhichcountry?",
+    "question": "The concept of the Concurrent List in the Indian Constitution is borrowed from which country?",
     "options": [
-      "UnitedStates",
-      "UnitedKingdom",
+      "United States",
+      "United Kingdom",
       "Canada",
       "Australia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Concurrent List in the Indian Constitution was drawn from the Australian constitutional model.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q46",
@@ -41532,21 +41550,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingisnotaFundamentalDuty?",
+    "question": "Which of the following is not a Fundamental Duty?",
     "options": [
-      "ToabidebytheConstitution",
-      "Tovoteinelections",
-      "ToprotectthesovereigntyofIndia",
-      "Toprotecttheenvironment"
+      "To abide by the Constitution",
+      "To vote in elections",
+      "To protect the sovereignty of India",
+      "To protect the environment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Constitution lists duties such as respecting it, safeguarding India’s sovereignty, and protecting the environment; voting is not among the Fundamental Duties.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q47",
@@ -41557,21 +41576,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingisnotapoweroftheRajyaSabha?",
+    "question": "Which of the following is not a power of the Rajya Sabha?",
     "options": [
-      "ThepowertoamendtheConstitution",
-      "Thepowertointroducemoneybills",
-      "Thepowertodeclarewar",
-      "Thepowertopasslaws"
+      "The power to amend the Constitution",
+      "The power to introduce Money Bills",
+      "The power to declare war",
+      "The power to pass laws"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The item permits more than one reading: Rajya Sabha cannot introduce Money Bills, while declaring war is not a separately assigned power of the Rajya Sabha. No unique “not a power” choice is established by the wording.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The item permits more than one reading: Rajya Sabha cannot introduce Money Bills, while declaring war is not a separately assigned power of the Rajya Sabha. No unique “not a power” choice is established by the wording."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q48",
@@ -41582,21 +41601,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingisthelongestwrittenConstitutionintheworld?",
+    "question": "Which of the following is the longest written constitution in the world?",
     "options": [
-      "UnitedStatesConstitution",
-      "ConstitutionofIndia",
-      "ConstitutionofCanada",
-      "ConstitutionofGermany"
+      "United States Constitution",
+      "Constitution of India",
+      "Constitution of Canada",
+      "Constitution of Germany"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India’s Constitution is widely recognised as the world’s longest written national constitution.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q49",
@@ -41607,21 +41627,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingisNOTadimensionofHumanDevelopmentIndex(HDI)?",
+    "question": "Which of the following is not a dimension of the Human Development Index (HDI)?",
     "options": [
       "Health",
       "Education",
       "Income",
-      "Environmentalsustainability"
+      "Environmental sustainability"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The HDI dimensions are health, education and standard of living (income). Environmental sustainability is not one of its three dimensions.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q50",
@@ -41632,21 +41653,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheMultidimensionalPovertyIndex(MPI)considerswhichfactors?",
+    "question": "The Multidimensional Poverty Index (MPI) considers which factors?",
     "options": [
-      "Onlyincomelevéls.",
-      "Health,education,andstandardofliving",
-      "Inflationandunemployment",
-      "Agriculturalproductivity | | «i:"
+      "Only income levels",
+      "Health, education, and standard of living",
+      "Inflation and unemployment",
+      "Agricultural productivity"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The global MPI measures overlapping deprivations in health, education and standard of living, rather than income alone.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q51",
@@ -41657,21 +41679,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InIndia,whichbodyreleasesthePovertyLineestimates?",
+    "question": "In India, which body releases the Poverty Line estimates?",
     "options": [
-      "NITIAayog",
-      "ReserveBankofIndia",
-      "MinistryofFinance",
-      "NationalStatisticalOffice"
+      "NITI Aayog",
+      "Reserve Bank of India",
+      "Ministry of Finance",
+      "National Statistical Office"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The term “poverty line estimates” is underspecified and no longer maps cleanly to one of these bodies: older consumption-based official estimates were produced by the Planning Commission, while NITI Aayog now publishes a multidimensional poverty index. Hold until the intended estimate is specified.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The term “poverty line estimates” is underspecified and no longer maps cleanly to one of these bodies: older consumption-based official estimates were produced by the Planning Commission, while NITI Aayog now publishes a multidimensional poverty index. Hold until the intended estimate is specified."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q52",
@@ -41682,21 +41704,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatistheprimaryaimofPradhanMantriJanDhanYojana(PMJDY)?",
+    "question": "What is the primary aim of the Pradhan Mantri Jan Dhan Yojana (PMJDY)?",
     "options": [
-      "Promotingdigitaltransactions",
-      "Providingaccesstofinancialservicesforall",
-      "Encouragingentrepreneurship",
-      "Reducingdirecttaxes"
+      "Promoting digital transactions",
+      "Providing access to financial services for all",
+      "Encouraging entrepreneurship",
+      "Reducing direct taxes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "PMJDY promotes financial inclusion by providing access to basic banking and related financial services.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q53",
@@ -41707,21 +41730,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheWorldBankclassifiescountriesintodifferentincomegroupsbasedon-",
+    "question": "The World Bank classifies countries into income groups based on:",
     "options": [
-      "GDPgrowthrate",
-      "Percapitaincome",
-      "Employmentrate",
-      "Populationsize"
+      "GDP growth rate",
+      "Per capita income",
+      "Employment rate",
+      "Population size"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The World Bank assigns income groups using gross national income per capita (Atlas method); “per capita income” is the matching option.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q54",
@@ -41732,21 +41756,47 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theterm‘DemographicTransition’refersto-",
+    "question": "The term “demographic transition” refers to:",
     "options": [
-      "Movementofpeoplebetweenregions",
-      "Shiftinbirthanddeathratesovertime",
-      "Increaseinagriculturaloutput",
-      "Implementationofpopulationcontrolpolicies (a)UnitedNationsDevelopmentProgramme(UNDP) (b)WorldBank (c)InternationalFoodPolicyResearchInstitute(IFPRI) (d)FoodandAgricultureOrganization(FAO)"
+      "Movement of people between regions",
+      "Shift in birth and death rates over time",
+      "Increase in agricultural output",
+      "Implementation of population-control policies"
+    ],
+    "answerIndex": 1,
+    "explanation": "Demographic transition describes the long-term change from high birth/death rates to lower birth/death rates as societies develop.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q55",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which organization publishes the Global Hunger Index?",
+    "options": [
+      "United Nations Development Programme (UNDP)",
+      "World Bank",
+      "International Food Policy Research Institute (IFPRI)",
+      "Food and Agriculture Organization (FAO)"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The scan’s options omit the current publishers of the Global Hunger Index (Concern Worldwide, Welthungerhilfe and IFHV). IFPRI was involved in earlier editions but is not a current co-publisher; no listed choice is correct for this 2025 paper.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The scan’s options omit the current publishers of the Global Hunger Index (Concern Worldwide, Welthungerhilfe and IFHV). IFPRI was involved in earlier editions but is not a current co-publisher; no listed choice is correct for this 2025 paper."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q56",
@@ -41757,21 +41807,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingisNOTasocialsectorinitiativeinIndia?",
+    "question": "Which of the following is not a social-sector initiative in India?",
     "options": [
-      "BetiBachaoBetiPadhao",
-      "Stand-UpIndia",
-      "UjjwalaYojana",
-      "StartupIndia"
+      "Beti Bachao Beti Padhao",
+      "Stand-Up India",
+      "Ujjwala Yojana",
+      "Startup India"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Social-sector initiative” is not defined, and both Stand-Up India and Startup India have economic/enterprise objectives, while Stand-Up India also targets inclusion. The wording does not make one unique answer.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "“Social-sector initiative” is not defined, and both Stand-Up India and Startup India have economic/enterprise objectives, while Stand-Up India also targets inclusion. The wording does not make one unique answer."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q57",
@@ -41782,21 +41832,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichIndianstatehasthehighestpopulationdensityasperthelatestcensus?",
+    "question": "Which Indian state has the highest population density as per the latest census?",
     "options": [
       "Maharashtra",
-      "UttarPradesh",
+      "Uttar Pradesh",
       "Bihar",
-      "WestBengal"
+      "West Bengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 2011 Census, India’s latest completed census at the time of this 2025 paper, recorded Bihar as the most densely populated state.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q58",
@@ -41807,21 +41858,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichGovt.ofIndiaschemeaimstoprovidehousingtoall?",
+    "question": "Which Government of India scheme aims to provide housing for all?",
     "options": [
-      "PradhanMantriAwasYojana(PMAY)",
-      "SmartCitiesMission",
-      "NationalUrbanLivelihoodsMission",
-      "AtalMissionforRejuvenationandUrbanTransformation(AMRUT)"
+      "Pradhan Mantri Awas Yojana (PMAY)",
+      "Smart Cities Mission",
+      "National Urban Livelihoods Mission",
+      "Atal Mission for Rejuvenation and Urban Transformation (AMRUT)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Pradhan Mantri Awas Yojana is the central housing programme associated with the goal of housing for all.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q59",
@@ -41832,21 +41884,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingbestdescribes‘SocialProtection’?",
+    "question": "Which of the following best describes social protection?",
     "options": [
-      "Policiesaimedatreducingbudgetdeficits",
-      "Programsthatprovidesecurityagainsteconomicrisksandvulnerabilities",
-      "Privatizationofsocialservices",
-      "Measurestoencourageinternationaltrade (a)Governmentfundingforsocialprograms (b)Economicresourcesownedbysociety (c)Networksofrelationshipsamongpeopleinasociety (d):Totalwealthofacountry"
+      "Policies aimed at reducing budget deficits",
+      "Programmes that provide security against economic risks and vulnerabilities",
+      "Privatisation of social services",
+      "Measures to encourage international trade"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Social protection includes policies and programmes that help people manage poverty, economic shocks and other vulnerabilities.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-je-2025-gk-Q60",
+    "paperId": "mpsc-group-b-je-2025-gk",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What does the term “social capital” refer to?",
+    "options": [
+      "Government funding for social programmes",
+      "Economic resources owned by society",
+      "Networks of relationships among people in a society",
+      "The total wealth of a country"
+    ],
+    "answerIndex": 2,
+    "explanation": "Social capital is the value of social networks, relationships, trust and cooperation among people.",
+    "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q61",
@@ -41857,24 +41936,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theterm‘BiodiversityHotspot’wascoinedby-",
+    "question": "The term “biodiversity hotspot” was coined by:",
     "options": [
-      "E.O.Wilson",
-      "NormanMyers",
-      "CharlesDarwin",
-      "RachelCarson"
+      "E. O. Wilson",
+      "Norman Myers",
+      "Charles Darwin",
+      "Rachel Carson"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Norman Myers introduced the biodiversity-hotspot concept in 1988 to identify areas with exceptional endemism and high habitat loss.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q62",
@@ -41885,21 +41962,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingisthemaincauseofoceanacidification?",
+    "question": "Which of the following is the main cause of ocean acidification?",
     "options": [
-      "Excessoxygeninwater",
-      "Carbondioxideabsorptionbyseawater",
-      "Oilspills",
-      "Marinebiodiversityloss"
+      "Excess oxygen in water",
+      "Carbon dioxide absorption by seawater",
+      "Oil spills",
+      "Marine biodiversity loss"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Seawater absorbs atmospheric carbon dioxide; the resulting chemical reactions lower ocean pH.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q63",
@@ -41910,21 +41988,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowinggasesisprimarilyresponsibleforthedepletionoftheozonelayer?",
+    "question": "Which of the following gases is primarily responsible for depletion of the ozone layer?",
     "options": [
-      "Carbondioxide",
-      "Sulfurdioxide",
-      "Chlorofluorocarbons(CFCs)",
+      "Carbon dioxide",
+      "Sulfur dioxide",
+      "Chlorofluorocarbons (CFCs)",
       "Methane"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "CFCs release chlorine in the stratosphere, catalytically destroying ozone molecules.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q64",
@@ -41935,21 +42014,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheParisAgreementaimsto-",
+    "question": "The Paris Agreement aims to:",
     "options": [
-      "Endallfossilfueluseimmediately",
-      "Limitglobaltemperaturerisetobelow2°C",
-      "Reducepopulationgrowth",
-      "Increasegreenhousegasemissions"
+      "End all fossil-fuel use immediately",
+      "Limit global temperature rise to below 2°C",
+      "Reduce population growth",
+      "Increase greenhouse-gas emissions"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Paris Agreement seeks to hold warming well below 2°C above pre-industrial levels and pursue efforts to limit it to 1.5°C.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q65",
@@ -41960,21 +42040,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theterm‘SixthMassExtinction’refersto-",
+    "question": "The term “sixth mass extinction” refers to:",
     "options": [
-      "Ageologicalphenomenon",
-      "Aperiodofincreasedvolcanicactivity",
-      "Human-inducedlossofspecies",
-      "TheendoftheIceAge"
+      "A geological phenomenon",
+      "A period of increased volcanic activity",
+      "Human-induced loss of species",
+      "The end of the Ice Age"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Sixth mass extinction” refers to the current accelerated loss of species, driven largely by human activity.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q66",
@@ -41985,21 +42066,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichorganizationreleasestheGlobalClimateRiskIndex?",
+    "question": "Which organization releases the Global Climate Risk Index?",
     "options": [
-      "UnitedNationsEnvironmentProgramme(UNEP)",
-      "WorldWildlifeFund(WWF)",
+      "United Nations Environment Programme (UNEP)",
+      "World Wildlife Fund (WWF)",
       "Germanwatch",
-      "IntergovernmentalPanelonClimateChange(IPCC)"
+      "Intergovernmental Panel on Climate Change (IPCC)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Germanwatch publishes the Global Climate Risk Index, which compares countries’ impacts from weather-related loss events.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q67",
@@ -42010,21 +42092,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theterm‘CarbonNeutrality’means-",
+    "question": "The term “carbon neutrality” means:",
     "options": [
-      "Completelystoppingcarbonemissions",
-      "Balancingcarbonemissionswithcarbonremoval",
-      "Reducingcarbonfootprinttozero",
-      "Storingcarboninlandfills"
+      "Completely stopping carbon emissions",
+      "Balancing carbon emissions with carbon removal",
+      "Reducing the carbon footprint to zero",
+      "Storing carbon in landfills"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Carbon neutrality balances emitted carbon dioxide with removals or equivalent offsets over a defined period and scope.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q68",
@@ -42035,21 +42118,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheRamsarConventionisrelatedtotheconservationof-",
+    "question": "The Ramsar Convention is related to the conservation of:",
     "options": [
       "Rainforests",
       "Deserts",
       "Wetlands",
       "Mangroves"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Ramsar Convention is an international treaty for the conservation and wise use of wetlands.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q69",
@@ -42060,21 +42144,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichgasisresponsibleforacidrain?",
+    "question": "Which gas is responsible for acid rain?",
     "options": [
-      "Carbondioxide",
+      "Carbon dioxide",
       "Oxygen",
       "Nitrogen",
-      "Sulfurdioxide"
+      "Sulfur dioxide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Sulfur dioxide and nitrogen oxides cause acid deposition; sulfur dioxide is the only matching option here.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q70",
@@ -42085,21 +42170,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisthemainfunctionofmangrovesincoastalecosystems?",
+    "question": "What is the main function of mangroves in coastal ecosystems?",
     "options": [
-      "Increaseoceandepth",
-      "ProtectagainstsoilerosionandstormsurgesE",
-      "Reduceoxygenlevelsinwater",
-      "Preventfishmigration -8-3"
+      "Increase ocean depth",
+      "Protect against soil erosion and storm surges",
+      "Reduce oxygen levels in water",
+      "Prevent fish migration"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mangrove roots stabilise shorelines and reduce erosion and wave/storm-surge impacts while providing habitat.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q71",
@@ -42110,21 +42196,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingbestdefines‘Ecotourism’?",
+    "question": "Which of the following best defines ecotourism?",
     "options": [
-      "Sustainabletourismfocusedonconservationandcommunitybenefits",
-      "Travelingtocitiesforshopping",
-      "Large-scaleindustrialtourism",
-      "Mininginprotectedareas"
+      "Sustainable tourism focused on conservation and community benefits",
+      "Travelling to cities for shopping",
+      "Large-scale industrial tourism",
+      "Mining in protected areas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ecotourism is responsible travel that supports conservation and benefits local communities.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q72",
@@ -42135,21 +42222,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheChipkoMovement,anenvironmentalmovementinIndia,wasaimedat-",
+    "question": "The Chipko Movement, an environmental movement in India, was aimed at:",
     "options": [
-      "Preventingriverpollution",
-      "Promotingorganicfarming",
-      "Protectingforestsfromdeforestation",
-      "Stoppingminingactivities"
+      "Preventing river pollution",
+      "Promoting organic farming",
+      "Protecting forests from deforestation",
+      "Stopping mining activities"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Chipko Movement mobilised villagers to protect forests from commercial felling and deforestation.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q73",
@@ -42160,24 +42248,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichplanetisknownasthe“RedPlanet’?",
+    "question": "Which planet is known as the “Red Planet”?",
     "options": [
       "Venus",
       "Mars",
       "Jupiter",
       "Mercury"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mars appears reddish because iron-rich minerals in its surface dust have oxidised.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q74",
@@ -42188,21 +42274,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisthelargestorganinthehumanbody?",
+    "question": "What is the largest organ in the human body?",
     "options": [
       "Heart",
       "Liver",
       "Brain",
       "Skin"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Skin is the body’s largest organ by surface area and overall mass; the liver is the largest internal organ.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q75",
@@ -42213,21 +42300,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatistheprimarysourceofenergyfortheEarth?",
+    "question": "What is the primary source of energy for the Earth?",
     "options": [
-      "TheMoon",
-      "TheSun",
-      "Fossilfuels",
+      "The Moon",
+      "The Sun",
+      "Fossil fuels",
       "Wind"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sunlight drives most of Earth’s climate and biological energy flows, directly or through photosynthesis.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q76",
@@ -42238,21 +42326,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Inwhichpartofthecelldoesrespirationoccur?",
+    "question": "In which part of the cell does respiration occur?",
     "options": [
       "Nucleus",
       "Mitochondria",
       "Ribosome",
       "Chloroplast"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mitochondria are the main site of aerobic respiration and ATP production. Glycolysis, the first stage, occurs in the cytoplasm.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q77",
@@ -42263,21 +42352,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisthechemicalsymbolforgold?",
+    "question": "What is the chemical symbol for gold?",
     "options": [
       "Au",
       "Ag",
       "Pb",
       "Fe"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gold’s chemical symbol is Au, from its Latin name aurum.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q78",
@@ -42288,21 +42378,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingisamammalthatlayseggs?",
+    "question": "Which of the following is a mammal that lays eggs?",
     "options": [
       "Dolphin",
       "Bat",
       "Platypus",
       "Kangaroo"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The platypus is a monotreme, a mammal that lays eggs.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q79",
@@ -42313,21 +42404,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheEarth’scoreismainlycomposedofwhichtwoelements?",
+    "question": "The Earth’s core is mainly composed of which two elements?",
     "options": [
-      "OxygenandNitrogen",
-      "IronandNickel",
-      "CarbonandHydrogen",
-      "SiliconandMagnesium"
+      "Oxygen and nitrogen",
+      "Iron and nickel",
+      "Carbon and hydrogen",
+      "Silicon and magnesium"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The core is composed mainly of iron and nickel, based on seismic and geochemical evidence.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q80",
@@ -42338,21 +42430,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingisthelongestboneinthehumanbody?",
+    "question": "Which of the following is the longest bone in the human body?",
     "options": [
       "Femur",
       "Tibia",
       "Humerus",
       "Radius"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The femur, or thigh bone, is the longest bone in the human body.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q81",
@@ -42363,21 +42456,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichisthelargestplanetintheSolarSystem?",
+    "question": "Which is the largest planet in the Solar System?",
     "options": [
       "Saturn",
       "Earth",
       "Neptune",
       "Jupiter"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Jupiter is the largest planet in the Solar System by both diameter and mass.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q82",
@@ -42388,21 +42482,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthesediseasesiscausedbyavirus?",
+    "question": "Which of these diseases is caused by a virus?",
     "options": [
       "Tuberculosis",
       "Malaria",
       "AIDS",
-      "Diabetes:"
+      "Diabetes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "AIDS is caused by infection with HIV, a virus that damages immune cells.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q83",
@@ -42413,21 +42508,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisthebasicunitoflife?",
+    "question": "What is the basic unit of life?",
     "options": [
       "Organ",
       "Cell",
       "Tissue",
-      "Organism so."
+      "Organism"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The cell is the basic structural and functional unit of living organisms.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q84",
@@ -42438,21 +42534,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowinggasesisprimarilyresponsibleforthegreenhouseeffect?",
+    "question": "Which of the following gases is primarily responsible for the greenhouse effect?",
     "options": [
       "Oxygen",
-      "Carbondioxide",
+      "Carbon dioxide",
       "Nitrogen",
       "Helium"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The main natural greenhouse gas is water vapour, which is not an option. Carbon dioxide is a major driver of the enhanced, human-caused greenhouse effect, but the stem does not say “enhanced” or “anthropogenic,” so no option is uniquely correct.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The main natural greenhouse gas is water vapour, which is not an option. Carbon dioxide is a major driver of the enhanced, human-caused greenhouse effect, but the stem does not say “enhanced” or “anthropogenic,” so no option is uniquely correct."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q85",
@@ -42463,21 +42559,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Mizosocietyisa-",
+    "question": "Mizo society is a:",
     "options": [
-      "Patriarchalsociety",
-      "Matriarchalsociety",
-      "Polyandroussociety",
-      "Polygamoussociety"
+      "Patriarchal society",
+      "Matriarchal society",
+      "Polyandrous society",
+      "Polygamous society"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Traditional Mizo society was patrilineal and patriarchal: descent and chiefly inheritance generally followed the male line.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q86",
@@ -42488,21 +42585,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thefirststepofjhummingcultivationis",
+    "question": "The first step of jhumming cultivation is:",
     "options": [
-      "Clearingofland",
-      "Demarcationofland",
-      "Selectionofland",
-      "Burningofdriedtrees"
+      "Clearing of land",
+      "Demarcation of land",
+      "Selection of land",
+      "Burning of dried trees"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Cultivators first select the plot for jhum cultivation; clearing and drying vegetation follow.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q87",
@@ -42513,21 +42611,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingisnotanutilityusedasabasket?",
+    "question": "Which of the following is not a utility used as a basket?",
     "options": [
       "Paikawng",
       "Favah",
-      "Tlamém",
+      "Tlamen",
       "Dawrawn"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Paikawng, tlamen and dawrawn are recognised Mizo basket types; Favah is the odd one out in this set.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q88",
@@ -42538,21 +42637,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thimkualis-",
+    "question": "Thimkual is:",
     "options": [
-      "Abrasshairpin",
-      "Haircomb",
+      "A brass hairpin",
+      "A hair comb",
       "Earrings",
       "Necklaces"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Thimkual refers to a traditional brass hairpin (also used as a hair-knot ornament).",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q89",
@@ -42563,21 +42663,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Anearthenpotusedforsacrificialpurposesis-",
+    "question": "An earthen pot used for sacrificial purposes is:",
     "options": [
       "Haite",
       "Dumbur",
       "Lampei",
       "Paihper"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lampei is identified in Mizo cultural question references as the earthen vessel used for sacrificial purposes.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q90",
@@ -42588,21 +42689,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Darbuconsistsof-",
+    "question": "Darbu consists of:",
     "options": [
-      "Twogongs",
-      "Threegongs",
-      "Fourgongs",
-      "Fivegongs"
+      "Two gongs",
+      "Three gongs",
+      "Four gongs",
+      "Five gongs"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A darbu set comprises three gongs of different sizes and pitches.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q91",
@@ -42613,21 +42715,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThechiefguestinChapcharKtisknownas-",
+    "question": "The chief guest in Chapchar Kut is known as:",
     "options": [
-      "KatPa",
+      "Kut Pa",
       "Khuallian",
-      "Kutthlengtu",
-      "Khualtha"
+      "Kut thlengtu",
+      "Khual tha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Kut Pa is the festival’s “father” or principal figure; Khuallian denotes an honoured guest, while Kut thlengtu is the host/organiser.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q92",
@@ -42638,21 +42741,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Tumphitinstrumentismadeof-",
+    "question": "The Tumphit instrument is made of:",
     "options": [
-      "Mithun’shorn",
-      "Woodenpieces",
-      "Bambootubes",
+      "Mithun’s horn",
+      "Wooden pieces",
+      "Bamboo tubes",
       "Marble"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Tumphit is a set of bamboo tubes of different lengths that produce different notes when blown.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q93",
@@ -42663,21 +42767,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thecustomof‘Mitthirawplam’belongsto-",
+    "question": "The custom of “Mitthi rawp lam” belongs to:",
     "options": [
-      "RalteandLuseiclan",
-      "Ralte,Lusei,PaiteandHmarclans",
-      "AlltheMizotribes",
-      "Luseionly"
+      "Ralte and Lusei clans",
+      "Ralte, Lusei, Paite and Hmar clans",
+      "All Mizo tribes",
+      "Lusei only"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Mitthi rawp lam is a Lusei custom, rather than one shared by all the named clans.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q94",
@@ -42688,21 +42793,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thetermwherethevillagersareobligedtoconstructahouseofachiefis-",
+    "question": "The term for the villagers’ obligation to construct a chief’s house is:",
     "options": [
-      "Sachhiah",
-      "Thachhiah",
-      "Chichhiah",
-      "Sechhiah"
+      "Sa chhiah",
+      "Tha chhiah",
+      "Chi chhiah",
+      "Se chhiah"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Sa chhiah is the customary service associated with the villagers’ duty to build or repair the chief’s house.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q95",
@@ -42713,21 +42819,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Mizolanguagebelongsto-",
+    "question": "The Mizo language belongs to which language family?",
     "options": [
       "Mon-Khmer",
       "Indo-Chinese",
       "Tibeto-Burman",
       "Karen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mizo belongs to the Kuki-Chin branch of the Tibeto-Burman (Sino-Tibetan) language family.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q96",
@@ -42738,21 +42845,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheMizovillagemedicinemanwascalled-7",
+    "question": "The Mizo village medicine man was called:",
     "options": [
       "Sadawt",
-      "Bawlpai",
+      "Bawlpu",
       "Tlahpawi",
-      "Ramhual -10-:"
+      "Ramhual"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Bawlpu was the traditional village medicine man; Sadawt was the priest responsible for religious rites.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q97",
@@ -42763,21 +42871,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhowasthelastMizochiefwhounitedtheMizochiefsandlaunchanopenrebellionagainstthe British?",
+    "question": "Who was the last Mizo chief to unite chiefs and lead an open rebellion against the British?",
     "options": [
       "Dothanga",
       "Zataia",
       "Seipuia",
       "Kairuma"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Kairuma was the last chief to maintain resistance to British authority in the Lushai Hills.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q98",
@@ -42788,21 +42897,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThefirstSuperintendentoftheLushaiHillswas-",
+    "question": "Who was the first Superintendent of the Lushai Hills?",
     "options": [
-      "JohnShakespeare",
-      "C.S.Murray",
-      "V.Tregear",
-      "RobertMcCabe"
+      "John Shakespear",
+      "C. S. Murray",
+      "V. Tregear",
+      "Robert McCabe"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The wording does not distinguish the South Lushai Hills administration from the later unified Lushai Hills district. C. S. Murray was the first superintendent in the South (1891); John Shakespear succeeded him and later headed the unified district. The question therefore has two defensible choices.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The wording does not distinguish the South Lushai Hills administration from the later unified Lushai Hills district. C. S. Murray was the first superintendent in the South (1891); John Shakespear succeeded him and later headed the unified district. The question therefore has two defensible choices."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q99",
@@ -42813,21 +42922,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "In1907,theLakherPioneerMissionwasstartedby-",
+    "question": "The Lakher Pioneer Mission was started in 1907 by:",
     "options": [
-      "EdwinRowlands",
-      "J.H.Lorrain",
-      "D.E.Jones",
-      "ReginaldA.Lorrain"
+      "Edwin Rowlands",
+      "J. H. Lorrain",
+      "D. E. Jones",
+      "Reginald A. Lorrain"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Reginald A. Lorrain founded the Lakher Pioneer Mission in 1907 to work among the Lakher (Mara) people.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-je-2025-gk-Q100",
@@ -42838,21 +42948,21 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThefirstChiefExecutiveMemberintheLushaiAutonomousDistrictCouncilwas-",
+    "question": "Who was the first Chief Executive Member of the Lushai Autonomous District Council?",
     "options": [
-      "Hrangaia",
+      "Hrangai",
       "Lalsawia",
-      "R.Vanlawma",
-      "Dr.Rosiama weRR"
+      "R. Vanlawma",
+      "Dr. Rosiama"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The first Chief Executive Member was Ch. Saprawnga, who is absent from the options. Lalsawia succeeded him shortly after Saprawnga’s appointment; hold because no listed option gives the first CEM.",
     "source": "Junior Engineer, LAD, PWD & I&WR · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/je-2025-gk.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The first Chief Executive Member was Ch. Saprawnga, who is absent from the options. Lalsawia succeeded him shortly after Saprawnga’s appointment; hold because no listed option gives the first CEM."
   },
   {
     "id": "mpsc-group-b-je-agri-2026-p1-B1",
@@ -47979,7 +48089,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q62",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -48031,9 +48143,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q64",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -55905,7 +56015,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q66",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -55957,9 +56069,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q68",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -63859,7 +63969,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q98",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -63911,9 +64023,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q100",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -72314,7 +72424,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q79",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -72372,9 +72484,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q81",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -80925,7 +81035,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B44",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q45",
     "questionNumber": "B45",
@@ -80977,9 +81089,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B46",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q47",
     "questionNumber": "B47",
@@ -88762,7 +88872,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A18",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A19",
     "questionNumber": "A19",
@@ -88815,9 +88927,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A20",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A21",
     "questionNumber": "A21",

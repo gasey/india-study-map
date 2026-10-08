@@ -30843,6 +30843,836 @@
             "c": "Mount Everest",
             "d": "Anamudi"
           }
+        },
+        "27": {
+          "n": 27,
+          "page": 4,
+          "q": "Which of the following rivers does not originate in India?",
+          "opts": {
+            "a": "Ganga",
+            "b": "Yamuna",
+            "c": "Indus",
+            "d": "Beas"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 4,
+          "q": "Which sector includes activities like trade, transport, and communication?",
+          "opts": {
+            "a": "Primary sector",
+            "b": "Secondary sector",
+            "c": "Tertiary sector",
+            "d": "Economic sector"
+          }
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "q": "The Sunderbans delta is formed by the confluence of which rivers?",
+          "opts": {
+            "a": "Ganga and Yamuna",
+            "b": "Ganga and Brahmaputra",
+            "c": "Brahmaputra and Barak",
+            "d": "Godavari and Krishna"
+          }
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "q": "What is the longest river in India?",
+          "opts": {
+            "a": "Ganga",
+            "b": "Krishna",
+            "c": "Brahmaputra",
+            "d": "Godavari"
+          }
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "The “Four Asian Tigers” are:",
+          "opts": {
+            "a": "Japan, India, Hong Kong, South Korea",
+            "b": "Hong Kong, Singapore, South Korea, Taiwan",
+            "c": "Thailand, Malaysia, Indonesia, Philippines",
+            "d": "Japan, South Korea, North Korea, China"
+          }
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "Which of the following is the world’s largest exporter of oil?",
+          "opts": {
+            "a": "United States",
+            "b": "Russia",
+            "c": "Saudi Arabia",
+            "d": "Iraq"
+          },
+          "unscored": true,
+          "explanation": "The stem gives no year or definition of oil (crude oil versus total petroleum products), so the largest exporter varies by measure and period."
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "Which of the following refers to a relationship between a cultural group and its natural environment?",
+          "opts": {
+            "a": "Cultural ecology",
+            "b": "Cultural convergence",
+            "c": "Cultural diffusion",
+            "d": "Cultural assimilation"
+          }
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "Which is the largest continent by land area?",
+          "opts": {
+            "a": "North America",
+            "b": "Africa",
+            "c": "Asia",
+            "d": "Europe"
+          }
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "Which of the following is a primary-sector activity?",
+          "opts": {
+            "a": "Banking",
+            "b": "Services",
+            "c": "Agriculture",
+            "d": "IT"
+          }
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "Which mountain range forms a natural border between France and Spain?",
+          "opts": {
+            "a": "Alps",
+            "b": "Pyrenees",
+            "c": "Carpathians",
+            "d": "Apennines"
+          }
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "Which amendment to the Constitution of India is known as the “mini-constitution”?",
+          "opts": {
+            "a": "Constitution (Forty-First Amendment) Act, 1976",
+            "b": "Constitution (Forty-Second Amendment) Act, 1976",
+            "c": "Constitution (Forty-Third Amendment) Act, 1977",
+            "d": "Constitution (Forty-Fourth Amendment) Act, 1978"
+          }
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "Which of the following is the supreme law of the land in India?",
+          "opts": {
+            "a": "Indian Penal Code",
+            "b": "Constitution of India",
+            "c": "Fundamental Rights",
+            "d": "Directive Principles of State Policy"
+          }
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "q": "What is the minimum age required to be a member of the Lok Sabha?",
+          "opts": {
+            "a": "25 years",
+            "b": "30 years",
+            "c": "35 years",
+            "d": "18 years"
+          }
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "q": "The President of India is elected by an electoral college consisting of:",
+          "opts": {
+            "a": "Only members of the Lok Sabha",
+            "b": "Members of the Lok Sabha and Rajya Sabha",
+            "c": "Elected members of the State Legislative Assemblies",
+            "d": "Members of the Lok Sabha and Rajya Sabha, and elected members of State Legislative Assemblies"
+          }
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "q": "What is the maximum number of members in the Rajya Sabha?",
+          "opts": {
+            "a": "180",
+            "b": "200",
+            "c": "250",
+            "d": "500"
+          }
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "q": "Who has the power to dissolve the Lok Sabha?",
+          "opts": {
+            "a": "The President of India",
+            "b": "The Prime Minister of India",
+            "c": "The Speaker of the Lok Sabha",
+            "d": "The Chief Justice of India"
+          }
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "Who was the first woman Prime Minister of India?",
+          "opts": {
+            "a": "Pratibha Patil",
+            "b": "Indira Gandhi",
+            "c": "Sonia Gandhi",
+            "d": "Rajkumari Amrit Kaur"
+          }
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "Who was the first Chief Election Commissioner of India?",
+          "opts": {
+            "a": "T. N. Seshan",
+            "b": "B. B. Tandon",
+            "c": "Sukumar Sen",
+            "d": "V. S. Ramadevi"
+          }
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "The concept of the Concurrent List in the Indian Constitution is borrowed from which country?",
+          "opts": {
+            "a": "United States",
+            "b": "United Kingdom",
+            "c": "Canada",
+            "d": "Australia"
+          }
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "Which of the following is not a Fundamental Duty?",
+          "opts": {
+            "a": "To abide by the Constitution",
+            "b": "To vote in elections",
+            "c": "To protect the sovereignty of India",
+            "d": "To protect the environment"
+          }
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "Which of the following is not a power of the Rajya Sabha?",
+          "opts": {
+            "a": "The power to amend the Constitution",
+            "b": "The power to introduce Money Bills",
+            "c": "The power to declare war",
+            "d": "The power to pass laws"
+          },
+          "unscored": true,
+          "explanation": "The item permits more than one reading: Rajya Sabha cannot introduce Money Bills, while declaring war is not a separately assigned power of the Rajya Sabha. No unique “not a power” choice is established by the wording."
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "Which of the following is the longest written constitution in the world?",
+          "opts": {
+            "a": "United States Constitution",
+            "b": "Constitution of India",
+            "c": "Constitution of Canada",
+            "d": "Constitution of Germany"
+          }
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "q": "Which of the following is not a dimension of the Human Development Index (HDI)?",
+          "opts": {
+            "a": "Health",
+            "b": "Education",
+            "c": "Income",
+            "d": "Environmental sustainability"
+          }
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "q": "The Multidimensional Poverty Index (MPI) considers which factors?",
+          "opts": {
+            "a": "Only income levels",
+            "b": "Health, education, and standard of living",
+            "c": "Inflation and unemployment",
+            "d": "Agricultural productivity"
+          }
+        },
+        "51": {
+          "n": 51,
+          "page": 6,
+          "q": "In India, which body releases the Poverty Line estimates?",
+          "opts": {
+            "a": "NITI Aayog",
+            "b": "Reserve Bank of India",
+            "c": "Ministry of Finance",
+            "d": "National Statistical Office"
+          },
+          "unscored": true,
+          "explanation": "The term “poverty line estimates” is underspecified and no longer maps cleanly to one of these bodies: older consumption-based official estimates were produced by the Planning Commission, while NITI Aayog now publishes a multidimensional poverty index. Hold until the intended estimate is specified."
+        },
+        "52": {
+          "n": 52,
+          "page": 6,
+          "q": "What is the primary aim of the Pradhan Mantri Jan Dhan Yojana (PMJDY)?",
+          "opts": {
+            "a": "Promoting digital transactions",
+            "b": "Providing access to financial services for all",
+            "c": "Encouraging entrepreneurship",
+            "d": "Reducing direct taxes"
+          }
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "q": "The World Bank classifies countries into income groups based on:",
+          "opts": {
+            "a": "GDP growth rate",
+            "b": "Per capita income",
+            "c": "Employment rate",
+            "d": "Population size"
+          }
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "q": "The term “demographic transition” refers to:",
+          "opts": {
+            "a": "Movement of people between regions",
+            "b": "Shift in birth and death rates over time",
+            "c": "Increase in agricultural output",
+            "d": "Implementation of population-control policies"
+          }
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "q": "Which organization publishes the Global Hunger Index?",
+          "opts": {
+            "a": "United Nations Development Programme (UNDP)",
+            "b": "World Bank",
+            "c": "International Food Policy Research Institute (IFPRI)",
+            "d": "Food and Agriculture Organization (FAO)"
+          },
+          "unscored": true,
+          "explanation": "The scan’s options omit the current publishers of the Global Hunger Index (Concern Worldwide, Welthungerhilfe and IFHV). IFPRI was involved in earlier editions but is not a current co-publisher; no listed choice is correct for this 2025 paper."
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "q": "Which of the following is not a social-sector initiative in India?",
+          "opts": {
+            "a": "Beti Bachao Beti Padhao",
+            "b": "Stand-Up India",
+            "c": "Ujjwala Yojana",
+            "d": "Startup India"
+          },
+          "unscored": true,
+          "explanation": "“Social-sector initiative” is not defined, and both Stand-Up India and Startup India have economic/enterprise objectives, while Stand-Up India also targets inclusion. The wording does not make one unique answer."
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "Which Indian state has the highest population density as per the latest census?",
+          "opts": {
+            "a": "Maharashtra",
+            "b": "Uttar Pradesh",
+            "c": "Bihar",
+            "d": "West Bengal"
+          }
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "Which Government of India scheme aims to provide housing for all?",
+          "opts": {
+            "a": "Pradhan Mantri Awas Yojana (PMAY)",
+            "b": "Smart Cities Mission",
+            "c": "National Urban Livelihoods Mission",
+            "d": "Atal Mission for Rejuvenation and Urban Transformation (AMRUT)"
+          }
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "Which of the following best describes social protection?",
+          "opts": {
+            "a": "Policies aimed at reducing budget deficits",
+            "b": "Programmes that provide security against economic risks and vulnerabilities",
+            "c": "Privatisation of social services",
+            "d": "Measures to encourage international trade"
+          }
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "q": "What does the term “social capital” refer to?",
+          "opts": {
+            "a": "Government funding for social programmes",
+            "b": "Economic resources owned by society",
+            "c": "Networks of relationships among people in a society",
+            "d": "The total wealth of a country"
+          }
+        },
+        "61": {
+          "n": 61,
+          "page": 7,
+          "q": "The term “biodiversity hotspot” was coined by:",
+          "opts": {
+            "a": "E. O. Wilson",
+            "b": "Norman Myers",
+            "c": "Charles Darwin",
+            "d": "Rachel Carson"
+          }
+        },
+        "62": {
+          "n": 62,
+          "page": 7,
+          "q": "Which of the following is the main cause of ocean acidification?",
+          "opts": {
+            "a": "Excess oxygen in water",
+            "b": "Carbon dioxide absorption by seawater",
+            "c": "Oil spills",
+            "d": "Marine biodiversity loss"
+          }
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "q": "Which of the following gases is primarily responsible for depletion of the ozone layer?",
+          "opts": {
+            "a": "Carbon dioxide",
+            "b": "Sulfur dioxide",
+            "c": "Chlorofluorocarbons (CFCs)",
+            "d": "Methane"
+          }
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "q": "The Paris Agreement aims to:",
+          "opts": {
+            "a": "End all fossil-fuel use immediately",
+            "b": "Limit global temperature rise to below 2°C",
+            "c": "Reduce population growth",
+            "d": "Increase greenhouse-gas emissions"
+          }
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "q": "The term “sixth mass extinction” refers to:",
+          "opts": {
+            "a": "A geological phenomenon",
+            "b": "A period of increased volcanic activity",
+            "c": "Human-induced loss of species",
+            "d": "The end of the Ice Age"
+          }
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "q": "Which organization releases the Global Climate Risk Index?",
+          "opts": {
+            "a": "United Nations Environment Programme (UNEP)",
+            "b": "World Wildlife Fund (WWF)",
+            "c": "Germanwatch",
+            "d": "Intergovernmental Panel on Climate Change (IPCC)"
+          }
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "q": "The term “carbon neutrality” means:",
+          "opts": {
+            "a": "Completely stopping carbon emissions",
+            "b": "Balancing carbon emissions with carbon removal",
+            "c": "Reducing the carbon footprint to zero",
+            "d": "Storing carbon in landfills"
+          }
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "The Ramsar Convention is related to the conservation of:",
+          "opts": {
+            "a": "Rainforests",
+            "b": "Deserts",
+            "c": "Wetlands",
+            "d": "Mangroves"
+          }
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "q": "Which gas is responsible for acid rain?",
+          "opts": {
+            "a": "Carbon dioxide",
+            "b": "Oxygen",
+            "c": "Nitrogen",
+            "d": "Sulfur dioxide"
+          }
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "q": "What is the main function of mangroves in coastal ecosystems?",
+          "opts": {
+            "a": "Increase ocean depth",
+            "b": "Protect against soil erosion and storm surges",
+            "c": "Reduce oxygen levels in water",
+            "d": "Prevent fish migration"
+          }
+        },
+        "71": {
+          "n": 71,
+          "page": 8,
+          "q": "Which of the following best defines ecotourism?",
+          "opts": {
+            "a": "Sustainable tourism focused on conservation and community benefits",
+            "b": "Travelling to cities for shopping",
+            "c": "Large-scale industrial tourism",
+            "d": "Mining in protected areas"
+          }
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "q": "The Chipko Movement, an environmental movement in India, was aimed at:",
+          "opts": {
+            "a": "Preventing river pollution",
+            "b": "Promoting organic farming",
+            "c": "Protecting forests from deforestation",
+            "d": "Stopping mining activities"
+          }
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "q": "Which planet is known as the “Red Planet”?",
+          "opts": {
+            "a": "Venus",
+            "b": "Mars",
+            "c": "Jupiter",
+            "d": "Mercury"
+          }
+        },
+        "74": {
+          "n": 74,
+          "page": 8,
+          "q": "What is the largest organ in the human body?",
+          "opts": {
+            "a": "Heart",
+            "b": "Liver",
+            "c": "Brain",
+            "d": "Skin"
+          }
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "q": "What is the primary source of energy for the Earth?",
+          "opts": {
+            "a": "The Moon",
+            "b": "The Sun",
+            "c": "Fossil fuels",
+            "d": "Wind"
+          }
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "q": "In which part of the cell does respiration occur?",
+          "opts": {
+            "a": "Nucleus",
+            "b": "Mitochondria",
+            "c": "Ribosome",
+            "d": "Chloroplast"
+          }
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "q": "What is the chemical symbol for gold?",
+          "opts": {
+            "a": "Au",
+            "b": "Ag",
+            "c": "Pb",
+            "d": "Fe"
+          }
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "q": "Which of the following is a mammal that lays eggs?",
+          "opts": {
+            "a": "Dolphin",
+            "b": "Bat",
+            "c": "Platypus",
+            "d": "Kangaroo"
+          }
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "q": "The Earth’s core is mainly composed of which two elements?",
+          "opts": {
+            "a": "Oxygen and nitrogen",
+            "b": "Iron and nickel",
+            "c": "Carbon and hydrogen",
+            "d": "Silicon and magnesium"
+          }
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "q": "Which of the following is the longest bone in the human body?",
+          "opts": {
+            "a": "Femur",
+            "b": "Tibia",
+            "c": "Humerus",
+            "d": "Radius"
+          }
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "q": "Which is the largest planet in the Solar System?",
+          "opts": {
+            "a": "Saturn",
+            "b": "Earth",
+            "c": "Neptune",
+            "d": "Jupiter"
+          }
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "q": "Which of these diseases is caused by a virus?",
+          "opts": {
+            "a": "Tuberculosis",
+            "b": "Malaria",
+            "c": "AIDS",
+            "d": "Diabetes"
+          }
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "q": "What is the basic unit of life?",
+          "opts": {
+            "a": "Organ",
+            "b": "Cell",
+            "c": "Tissue",
+            "d": "Organism"
+          }
+        },
+        "84": {
+          "n": 84,
+          "page": 9,
+          "q": "Which of the following gases is primarily responsible for the greenhouse effect?",
+          "opts": {
+            "a": "Oxygen",
+            "b": "Carbon dioxide",
+            "c": "Nitrogen",
+            "d": "Helium"
+          },
+          "unscored": true,
+          "explanation": "The main natural greenhouse gas is water vapour, which is not an option. Carbon dioxide is a major driver of the enhanced, human-caused greenhouse effect, but the stem does not say “enhanced” or “anthropogenic,” so no option is uniquely correct."
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "q": "Mizo society is a:",
+          "opts": {
+            "a": "Patriarchal society",
+            "b": "Matriarchal society",
+            "c": "Polyandrous society",
+            "d": "Polygamous society"
+          }
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "q": "The first step of jhumming cultivation is:",
+          "opts": {
+            "a": "Clearing of land",
+            "b": "Demarcation of land",
+            "c": "Selection of land",
+            "d": "Burning of dried trees"
+          }
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "q": "Which of the following is not a utility used as a basket?",
+          "opts": {
+            "a": "Paikawng",
+            "b": "Favah",
+            "c": "Tlamen",
+            "d": "Dawrawn"
+          }
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "q": "Thimkual is:",
+          "opts": {
+            "a": "A brass hairpin",
+            "b": "A hair comb",
+            "c": "Earrings",
+            "d": "Necklaces"
+          }
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "q": "An earthen pot used for sacrificial purposes is:",
+          "opts": {
+            "a": "Haite",
+            "b": "Dumbur",
+            "c": "Lampei",
+            "d": "Paihper"
+          }
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "q": "Darbu consists of:",
+          "opts": {
+            "a": "Two gongs",
+            "b": "Three gongs",
+            "c": "Four gongs",
+            "d": "Five gongs"
+          }
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "q": "The chief guest in Chapchar Kut is known as:",
+          "opts": {
+            "a": "Kut Pa",
+            "b": "Khuallian",
+            "c": "Kut thlengtu",
+            "d": "Khual tha"
+          }
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "q": "The Tumphit instrument is made of:",
+          "opts": {
+            "a": "Mithun’s horn",
+            "b": "Wooden pieces",
+            "c": "Bamboo tubes",
+            "d": "Marble"
+          }
+        },
+        "93": {
+          "n": 93,
+          "page": 9,
+          "q": "The custom of “Mitthi rawp lam” belongs to:",
+          "opts": {
+            "a": "Ralte and Lusei clans",
+            "b": "Ralte, Lusei, Paite and Hmar clans",
+            "c": "All Mizo tribes",
+            "d": "Lusei only"
+          }
+        },
+        "94": {
+          "n": 94,
+          "page": 9,
+          "q": "The term for the villagers’ obligation to construct a chief’s house is:",
+          "opts": {
+            "a": "Sa chhiah",
+            "b": "Tha chhiah",
+            "c": "Chi chhiah",
+            "d": "Se chhiah"
+          }
+        },
+        "95": {
+          "n": 95,
+          "page": 9,
+          "q": "The Mizo language belongs to which language family?",
+          "opts": {
+            "a": "Mon-Khmer",
+            "b": "Indo-Chinese",
+            "c": "Tibeto-Burman",
+            "d": "Karen"
+          }
+        },
+        "96": {
+          "n": 96,
+          "page": 9,
+          "q": "The Mizo village medicine man was called:",
+          "opts": {
+            "a": "Sadawt",
+            "b": "Bawlpu",
+            "c": "Tlahpawi",
+            "d": "Ramhual"
+          }
+        },
+        "97": {
+          "n": 97,
+          "page": 10,
+          "q": "Who was the last Mizo chief to unite chiefs and lead an open rebellion against the British?",
+          "opts": {
+            "a": "Dothanga",
+            "b": "Zataia",
+            "c": "Seipuia",
+            "d": "Kairuma"
+          }
+        },
+        "98": {
+          "n": 98,
+          "page": 10,
+          "q": "Who was the first Superintendent of the Lushai Hills?",
+          "opts": {
+            "a": "John Shakespear",
+            "b": "C. S. Murray",
+            "c": "V. Tregear",
+            "d": "Robert McCabe"
+          },
+          "unscored": true,
+          "explanation": "The wording does not distinguish the South Lushai Hills administration from the later unified Lushai Hills district. C. S. Murray was the first superintendent in the South (1891); John Shakespear succeeded him and later headed the unified district. The question therefore has two defensible choices."
+        },
+        "99": {
+          "n": 99,
+          "page": 10,
+          "q": "The Lakher Pioneer Mission was started in 1907 by:",
+          "opts": {
+            "a": "Edwin Rowlands",
+            "b": "J. H. Lorrain",
+            "c": "D. E. Jones",
+            "d": "Reginald A. Lorrain"
+          }
+        },
+        "100": {
+          "n": 100,
+          "page": 10,
+          "q": "Who was the first Chief Executive Member of the Lushai Autonomous District Council?",
+          "opts": {
+            "a": "Hrangai",
+            "b": "Lalsawia",
+            "c": "R. Vanlawma",
+            "d": "Dr. Rosiama"
+          },
+          "unscored": true,
+          "explanation": "The first Chief Executive Member was Ch. Saprawnga, who is absent from the options. Lalsawia succeeded him shortly after Saprawnga’s appointment; hold because no listed option gives the first CEM."
         }
       },
       "derivedAnswers": {
@@ -30945,9 +31775,273 @@
         "26": {
           "answerIndex": 1,
           "explanation": "Kangchenjunga, at 8,586 metres, is the highest peak in India."
+        },
+        "27": {
+          "answerIndex": 2,
+          "explanation": "The Indus rises in the Tibetan Plateau, north of India; the Ganga, Yamuna and Beas rise within India."
+        },
+        "28": {
+          "answerIndex": 2,
+          "explanation": "Trade, transport and communication provide services, so they belong to the tertiary sector."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "The Sunderbans is the delta system of the Ganga–Brahmaputra river network. The Meghna is also part of the wider delta system, but among the listed pairs, Ganga and Brahmaputra is the intended answer."
+        },
+        "30": {
+          "answerIndex": 0,
+          "explanation": "The Ganga is generally identified as the longest river flowing within India. The Brahmaputra is longer as a whole across several countries, which is why “in India” matters."
+        },
+        "31": {
+          "answerIndex": 1,
+          "explanation": "The Four Asian Tigers are Hong Kong, Singapore, South Korea and Taiwan, economies known for rapid industrialisation and growth."
+        },
+        "33": {
+          "answerIndex": 0,
+          "explanation": "Cultural ecology studies how human cultural groups interact with and adapt to their natural environments."
+        },
+        "34": {
+          "answerIndex": 2,
+          "explanation": "Asia is the largest continent by land area."
+        },
+        "35": {
+          "answerIndex": 2,
+          "explanation": "Agriculture extracts or produces resources from nature, making it a primary-sector activity."
+        },
+        "36": {
+          "answerIndex": 1,
+          "explanation": "The Pyrenees form the natural mountain border between France and Spain."
+        },
+        "37": {
+          "answerIndex": 1,
+          "explanation": "The Forty-Second Amendment Act, 1976 is commonly called the “mini-constitution” because it made extensive changes to the Constitution."
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "The Constitution is the supreme law of India; other laws and government action must conform to it."
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "A person must be at least 25 years old to be elected to the Lok Sabha."
+        },
+        "40": {
+          "answerIndex": 3,
+          "explanation": "The electoral college includes elected members of both Houses of Parliament and elected members of the relevant State Legislative Assemblies; the Constitution also includes Delhi and Puducherry. Option D is the intended choice, though its wording abbreviates the full constitutional list."
+        },
+        "41": {
+          "answerIndex": 2,
+          "explanation": "Article 80 sets the Rajya Sabha’s maximum strength at 250 members: up to 238 representatives of States and Union Territories and 12 nominated members."
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "The President formally dissolves the Lok Sabha, ordinarily acting on the advice of the Council of Ministers headed by the Prime Minister."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "Indira Gandhi became India’s first woman Prime Minister in 1966."
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "Sukumar Sen was India’s first Chief Election Commissioner."
+        },
+        "45": {
+          "answerIndex": 3,
+          "explanation": "The Concurrent List in the Indian Constitution was drawn from the Australian constitutional model."
+        },
+        "46": {
+          "answerIndex": 1,
+          "explanation": "The Constitution lists duties such as respecting it, safeguarding India’s sovereignty, and protecting the environment; voting is not among the Fundamental Duties."
+        },
+        "48": {
+          "answerIndex": 1,
+          "explanation": "India’s Constitution is widely recognised as the world’s longest written national constitution."
+        },
+        "49": {
+          "answerIndex": 3,
+          "explanation": "The HDI dimensions are health, education and standard of living (income). Environmental sustainability is not one of its three dimensions."
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "The global MPI measures overlapping deprivations in health, education and standard of living, rather than income alone."
+        },
+        "52": {
+          "answerIndex": 1,
+          "explanation": "PMJDY promotes financial inclusion by providing access to basic banking and related financial services."
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "The World Bank assigns income groups using gross national income per capita (Atlas method); “per capita income” is the matching option."
+        },
+        "54": {
+          "answerIndex": 1,
+          "explanation": "Demographic transition describes the long-term change from high birth/death rates to lower birth/death rates as societies develop."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "The 2011 Census, India’s latest completed census at the time of this 2025 paper, recorded Bihar as the most densely populated state."
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "Pradhan Mantri Awas Yojana is the central housing programme associated with the goal of housing for all."
+        },
+        "59": {
+          "answerIndex": 1,
+          "explanation": "Social protection includes policies and programmes that help people manage poverty, economic shocks and other vulnerabilities."
+        },
+        "60": {
+          "answerIndex": 2,
+          "explanation": "Social capital is the value of social networks, relationships, trust and cooperation among people."
+        },
+        "61": {
+          "answerIndex": 1,
+          "explanation": "Norman Myers introduced the biodiversity-hotspot concept in 1988 to identify areas with exceptional endemism and high habitat loss."
+        },
+        "62": {
+          "answerIndex": 1,
+          "explanation": "Seawater absorbs atmospheric carbon dioxide; the resulting chemical reactions lower ocean pH."
+        },
+        "63": {
+          "answerIndex": 2,
+          "explanation": "CFCs release chlorine in the stratosphere, catalytically destroying ozone molecules."
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "The Paris Agreement seeks to hold warming well below 2°C above pre-industrial levels and pursue efforts to limit it to 1.5°C."
+        },
+        "65": {
+          "answerIndex": 2,
+          "explanation": "“Sixth mass extinction” refers to the current accelerated loss of species, driven largely by human activity."
+        },
+        "66": {
+          "answerIndex": 2,
+          "explanation": "Germanwatch publishes the Global Climate Risk Index, which compares countries’ impacts from weather-related loss events."
+        },
+        "67": {
+          "answerIndex": 1,
+          "explanation": "Carbon neutrality balances emitted carbon dioxide with removals or equivalent offsets over a defined period and scope."
+        },
+        "68": {
+          "answerIndex": 2,
+          "explanation": "The Ramsar Convention is an international treaty for the conservation and wise use of wetlands."
+        },
+        "69": {
+          "answerIndex": 3,
+          "explanation": "Sulfur dioxide and nitrogen oxides cause acid deposition; sulfur dioxide is the only matching option here."
+        },
+        "70": {
+          "answerIndex": 1,
+          "explanation": "Mangrove roots stabilise shorelines and reduce erosion and wave/storm-surge impacts while providing habitat."
+        },
+        "71": {
+          "answerIndex": 0,
+          "explanation": "Ecotourism is responsible travel that supports conservation and benefits local communities."
+        },
+        "72": {
+          "answerIndex": 2,
+          "explanation": "The Chipko Movement mobilised villagers to protect forests from commercial felling and deforestation."
+        },
+        "73": {
+          "answerIndex": 1,
+          "explanation": "Mars appears reddish because iron-rich minerals in its surface dust have oxidised."
+        },
+        "74": {
+          "answerIndex": 3,
+          "explanation": "Skin is the body’s largest organ by surface area and overall mass; the liver is the largest internal organ."
+        },
+        "75": {
+          "answerIndex": 1,
+          "explanation": "Sunlight drives most of Earth’s climate and biological energy flows, directly or through photosynthesis."
+        },
+        "76": {
+          "answerIndex": 1,
+          "explanation": "Mitochondria are the main site of aerobic respiration and ATP production. Glycolysis, the first stage, occurs in the cytoplasm."
+        },
+        "77": {
+          "answerIndex": 0,
+          "explanation": "Gold’s chemical symbol is Au, from its Latin name aurum."
+        },
+        "78": {
+          "answerIndex": 2,
+          "explanation": "The platypus is a monotreme, a mammal that lays eggs."
+        },
+        "79": {
+          "answerIndex": 1,
+          "explanation": "The core is composed mainly of iron and nickel, based on seismic and geochemical evidence."
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "The femur, or thigh bone, is the longest bone in the human body."
+        },
+        "81": {
+          "answerIndex": 3,
+          "explanation": "Jupiter is the largest planet in the Solar System by both diameter and mass."
+        },
+        "82": {
+          "answerIndex": 2,
+          "explanation": "AIDS is caused by infection with HIV, a virus that damages immune cells."
+        },
+        "83": {
+          "answerIndex": 1,
+          "explanation": "The cell is the basic structural and functional unit of living organisms."
+        },
+        "85": {
+          "answerIndex": 0,
+          "explanation": "Traditional Mizo society was patrilineal and patriarchal: descent and chiefly inheritance generally followed the male line."
+        },
+        "86": {
+          "answerIndex": 2,
+          "explanation": "Cultivators first select the plot for jhum cultivation; clearing and drying vegetation follow."
+        },
+        "87": {
+          "answerIndex": 1,
+          "explanation": "Paikawng, tlamen and dawrawn are recognised Mizo basket types; Favah is the odd one out in this set."
+        },
+        "88": {
+          "answerIndex": 0,
+          "explanation": "Thimkual refers to a traditional brass hairpin (also used as a hair-knot ornament)."
+        },
+        "89": {
+          "answerIndex": 2,
+          "explanation": "Lampei is identified in Mizo cultural question references as the earthen vessel used for sacrificial purposes."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "A darbu set comprises three gongs of different sizes and pitches."
+        },
+        "91": {
+          "answerIndex": 0,
+          "explanation": "Kut Pa is the festival’s “father” or principal figure; Khuallian denotes an honoured guest, while Kut thlengtu is the host/organiser."
+        },
+        "92": {
+          "answerIndex": 2,
+          "explanation": "Tumphit is a set of bamboo tubes of different lengths that produce different notes when blown."
+        },
+        "93": {
+          "answerIndex": 3,
+          "explanation": "Mitthi rawp lam is a Lusei custom, rather than one shared by all the named clans."
+        },
+        "94": {
+          "answerIndex": 0,
+          "explanation": "Sa chhiah is the customary service associated with the villagers’ duty to build or repair the chief’s house."
+        },
+        "95": {
+          "answerIndex": 2,
+          "explanation": "Mizo belongs to the Kuki-Chin branch of the Tibeto-Burman (Sino-Tibetan) language family."
+        },
+        "96": {
+          "answerIndex": 1,
+          "explanation": "Bawlpu was the traditional village medicine man; Sadawt was the priest responsible for religious rites."
+        },
+        "97": {
+          "answerIndex": 3,
+          "explanation": "Kairuma was the last chief to maintain resistance to British authority in the Lushai Hills."
+        },
+        "99": {
+          "answerIndex": 3,
+          "explanation": "Reginald A. Lorrain founded the Lakher Pioneer Mission in 1907 to work among the Lakher (Mara) people."
         }
       },
-      "evidence": "Questions 1–26 are restored and checked against printed pages 2–3 of the April 2025 Series A Paper-II scan. OCR had merged Q1–7 into Q8 and omitted Q13 and Q26; these question texts and all four choices have been recovered from the scan. Q14 is held because option (a) and option (c) both read 326 BC. The cover states 100 one-mark questions, 100 marks, two hours and no negative marking. Remaining questions Q27–100 still require source review. Source SHA256 binds this repair to the scan."
+      "evidence": "Printed scan pages 2–10 checked. Questions 1–100 restored or scan-checked; defective, ambiguous, or unanswerable options remain unscored."
     }
   }
 }

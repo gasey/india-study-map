@@ -218,7 +218,8 @@
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 40
   },
   {
     "id": "mpsc-group-b-je-2016-english",

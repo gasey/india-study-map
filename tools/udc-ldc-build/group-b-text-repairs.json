@@ -3011,7 +3011,7 @@
       "sourceSha256": "eb32e3ca2b60cb399cce89bbdcf711d95a098fdfbbcf90377ffd5f6ea2f66fb5",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "All 100 questions checked against rendered PDF pages 1–8; stems and four options transcribed and matched to the final official key. Q2, Q23, Q37 and Q77 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
+      "evidence": "All 100 questions checked against rendered PDF pages 1–8; stems and four options transcribed and matched to the final official key. Q2, Q23, Q37 and Q77 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison. The item Q37 was independently re-keyed after checking its printed wording; the final key’s answer conflicts with the standard collocation/phrase or worked calculation. The item Q77 was independently re-keyed after checking its printed wording; the final key’s answer conflicts with the standard collocation/phrase or worked calculation.",
       "questions": {
         "1": {
           "n": 1,
@@ -3496,9 +3496,7 @@
             "c": "with",
             "d": "in"
           },
-          "explanation": "The final key marks C (“with”), but the standard collocation is “tenacious of life,” which is option B. This key/item conflict is held out from scoring pending clarification.",
-          "unscored": true,
-          "reviewNote": "The official key marks C, but the standard phrase is “tenacious of life” (B); held out from scoring pending clarification."
+          "explanation": "The standard idiom is “tenacious of life,” meaning persistent or difficult to kill. “With life” is not the accepted collocation here, so option B is the independently supported answer despite the final key."
         },
         "38": {
           "n": 38,
@@ -4018,9 +4016,7 @@
             "c": "Deprive",
             "d": "Hamper"
           },
-          "explanation": "The final key marks C (“deprive”), but the idiom means “hinder” or “hamper,” which is option D. The printed key/idiom conflict is held out from scoring pending clarification.",
-          "unscored": true,
-          "reviewNote": "The final key marks C (“deprive”), but “come in the way of” means “hamper” (D); held out from scoring pending clarification."
+          "explanation": "“Come in the way of” means obstruct or hinder. “Hamper” (D) is the matching choice; “deprive” (C) means take something away and does not fit the phrase."
         },
         "78": {
           "n": 78,
@@ -4322,13 +4318,23 @@
           "explanation": "“Latent” means present but inactive or hidden."
         }
       },
-      "partialReview": false
+      "partialReview": false,
+      "derivedAnswers": {
+        "37": {
+          "answerIndex": 1,
+          "explanation": "The standard idiom is “tenacious of life,” meaning persistent or difficult to kill. “With life” is not the accepted collocation here, so option B is the independently supported answer despite the final key."
+        },
+        "77": {
+          "answerIndex": 3,
+          "explanation": "“Come in the way of” means obstruct or hinder. “Hamper” (D) is the matching choice; “deprive” (C) means take something away and does not fit the phrase."
+        }
+      }
     },
     "aao-2024-arithmetic": {
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–100 have been checked against the printed pages (pages 1–10) and the final answer key. Stems, four options and calculations were verified. Q75 is held out for a key/ratio conflict, Q70 for a missing assumption, Q30 is compensated, and Q37 is editorially completed. Q100’s printed “board” is corrected to “broad” for readability.",
+      "evidence": "Questions 1–100 have been checked against the printed pages (pages 1–10) and the final answer key. Stems, four options and calculations were verified. Q75 is held out for a key/ratio conflict, Q70 for a missing assumption, Q30 is compensated, and Q37 is editorially completed. Q100’s printed “board” is corrected to “broad” for readability. The item Q75 was independently re-keyed after checking its printed wording; the final key’s answer conflicts with the standard collocation/phrase or worked calculation.",
       "questions": {
         "1": {
           "n": 1,
@@ -5307,9 +5313,7 @@
             "c": "8:10:15",
             "d": "8:12:15"
           },
-          "explanation": "The final key marks A, but matching the shared term b gives a:b=8:12 and b:c=12:15, so a:b:c=8:12:15 (D). The key/item conflict is held out from scoring pending clarification.",
-          "unscored": true,
-          "reviewNote": "The final key marks A, but the two ratios require 8:12:15 (D); held out from scoring pending clarification."
+          "explanation": "Make the shared term b equal: scale 2:3 to 8:12 and 4:5 to 12:15. Therefore a:b:c = 8:12:15 (D), correcting the final key."
         },
         "76": {
           "n": 76,
@@ -5637,7 +5641,13 @@
           "explanation": "The volume is 5×3×1=15 m³. Each cubic metre holds 1,000 litres, so the tank holds 15,000 litres. The scan reads “board” for the second dimension; “broad” is corrected for readability."
         }
       },
-      "partialReview": true
+      "partialReview": true,
+      "derivedAnswers": {
+        "75": {
+          "answerIndex": 3,
+          "explanation": "Make the shared term b equal: scale 2:3 to 8:12 and 4:5 to 12:15. Therefore a:b:c = 8:12:15 (D), correcting the final key."
+        }
+      }
     },
     "aao-2025-p2": {
       "sourceSha256": "bc5c3e61f87c08bfb58c0bd42f846ac932ca5d7f0bc9c3a6467d7c17021d1d9c",
@@ -12203,6 +12213,1133 @@
         "99": {
           "answerIndex": 0,
           "explanation": "The United Nations officially came into existence on 24 October 1945."
+        }
+      }
+    },
+    "steno2-2025-p1": {
+      "sourceSha256": "aa21fba8e0cae4d2ba59d2a0a32f23d67399eabcf54c885896eb329479f29699",
+      "expectedMcq": 40,
+      "partialReview": true,
+      "reviewedOn": "2026-10-08",
+      "evidence": "All 40 General English Part-B MCQs were checked against printed pages 3–6. Directions, stems, emphasized words and four options were compared with the scan; 38 questions have independent answer derivations and explanations. Q36 is held because its imprecise definition and offered labels are unsuitable; Q37 conflates lactose intolerance with milk allergy. The cover states 40 one-mark MCQs, three hours and no stated negative marking. Four Section-A written prompts remain separately awaiting transcription review, so the mixed 100-mark paper is not eligible for full-paper Exam mode.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+          "opts": {
+            "a": "noun",
+            "b": "adjective",
+            "c": "adverb",
+            "d": "verb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He ran **fast** to catch the bus.",
+          "multi": false,
+          "explanation": "“Fast” modifies the verb “ran” by describing how he ran, so it functions as an adverb."
+        },
+        "2": {
+          "n": 2,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+          "opts": {
+            "a": "verb",
+            "b": "noun",
+            "c": "adverb",
+            "d": "adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "They had a **hard** time solving the puzzle.",
+          "multi": false,
+          "explanation": "“Hard” describes the noun “time,” so it is an adjective."
+        },
+        "3": {
+          "n": 3,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+          "opts": {
+            "a": "adverb",
+            "b": "noun",
+            "c": "adjective",
+            "d": "verb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She went for a **run** in the morning.",
+          "multi": false,
+          "explanation": "Here “run” is the name of an activity, so it is a noun."
+        },
+        "4": {
+          "n": 4,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+          "opts": {
+            "a": "noun",
+            "b": "verb",
+            "c": "adjective",
+            "d": "adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Please **calm** yourself before the meeting",
+          "multi": false,
+          "explanation": "“Calm” is an action word here: it tells the person what to do, so it is a verb."
+        },
+        "5": {
+          "n": 5,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words.",
+          "opts": {
+            "a": "verb",
+            "b": "adjective",
+            "c": "adverb",
+            "d": "conjunction"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "**Only** the brave deserve the fair.",
+          "multi": false,
+          "explanation": "“Only” limits the group described by “the brave”; in this sentence it functions as an adverb."
+        },
+        "6": {
+          "n": 6,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "onto",
+            "b": "at",
+            "c": "upon",
+            "d": "by"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The decision was made_________ the recommendation of the advisory board.",
+          "multi": false,
+          "explanation": "The established phrase is “made upon the recommendation of” a person or body."
+        },
+        "7": {
+          "n": 7,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "with",
+            "b": "in",
+            "c": "at",
+            "d": "on"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She is well versed________ classical literature.",
+          "multi": false,
+          "explanation": "The standard collocation is “well versed in” a subject."
+        },
+        "8": {
+          "n": 8,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "from",
+            "b": "of",
+            "c": "with",
+            "d": "about"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He abstained________ voting due to a conflict of interest.",
+          "multi": false,
+          "explanation": "“Abstain from” is the standard construction before a gerund: “abstained from voting.”"
+        },
+        "9": {
+          "n": 9,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "because",
+            "b": "on",
+            "c": "by",
+            "d": "for"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The proposal was rejected__________ lack of insufficient fund.",
+          "multi": false,
+          "explanation": "“For lack of” is the idiomatic construction. The printed phrase “lack of insufficient fund” is awkward and redundant, but “for” is the only suitable choice."
+        },
+        "10": {
+          "n": 10,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "by",
+            "b": "of",
+            "c": "from",
+            "d": "in"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The artist’s work was inspired________ nature and urban life",
+          "multi": false,
+          "explanation": "“Inspired by” introduces the source or influence behind the artist’s work."
+        },
+        "11": {
+          "n": 11,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "by",
+            "b": "in",
+            "c": "at",
+            "d": "on"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I woke up ________  6:00 a.m. in the morning.",
+          "multi": false,
+          "explanation": "Use “at” for a precise clock time: “at 6:00 a.m.”"
+        },
+        "12": {
+          "n": 12,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "in",
+            "b": "on",
+            "c": "by",
+            "d": "to"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "We will walk ________   the office.",
+          "multi": false,
+          "explanation": "“Walk to the office” expresses movement toward the destination."
+        },
+        "13": {
+          "n": 13,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "at",
+            "b": "in",
+            "c": "on",
+            "d": "to"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She’s ________  work now",
+          "multi": false,
+          "explanation": "The usual expression for being present at one’s workplace is “at work.”"
+        },
+        "14": {
+          "n": 14,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "by",
+            "b": "in",
+            "c": "on",
+            "d": "to"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The teacher said, “I want no disturbance ________  the Classroom”.",
+          "multi": false,
+          "explanation": "“In the classroom” is the appropriate prepositional phrase for disturbance within that room."
+        },
+        "15": {
+          "n": 15,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks.",
+          "opts": {
+            "a": "to",
+            "b": "for",
+            "c": "with",
+            "d": "onto"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She taught him how ________  play the Piano.",
+          "multi": false,
+          "explanation": "The infinitive “to play” follows “how” in “taught him how to play.”"
+        },
+        "16": {
+          "n": 16,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+          "opts": {
+            "a": "finished",
+            "b": "have finished",
+            "c": "had finished",
+            "d": "will have finished"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "By the time she arrived, we_______our dinner.",
+          "multi": false,
+          "explanation": "The past perfect “had finished” marks dinner as completed before the later past event, her arrival."
+        },
+        "17": {
+          "n": 17,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+          "opts": {
+            "a": "left",
+            "b": "leaves",
+            "c": "has left",
+            "d": "had left"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "If he__________ earlier, he would have caught the plane flight.",
+          "multi": false,
+          "explanation": "This is a past unreal conditional: “If he had left earlier, he would have caught…”"
+        },
+        "18": {
+          "n": 18,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+          "opts": {
+            "a": "scold",
+            "b": "are scolding",
+            "c": "have scolded",
+            "d": "scolds"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "My parents always_______ me when I get home late.",
+          "multi": false,
+          "explanation": "“Always” describes a repeated habit, so the simple present “scold” agrees with plural subject “parents.”"
+        },
+        "19": {
+          "n": 19,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+          "opts": {
+            "a": "have",
+            "b": "had",
+            "c": "had had",
+            "d": "have had"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I wish I______more time to unwind myself.",
+          "multi": false,
+          "explanation": "For a present unreal wish, use the simple past: “I wish I had more time.”"
+        },
+        "20": {
+          "n": 20,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences.",
+          "opts": {
+            "a": "is",
+            "b": "was",
+            "c": "were",
+            "d": "has been"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He acts as if he ______the boss.",
+          "multi": false,
+          "explanation": "“As if” takes the subjunctive “were” for an unreal comparison: “as if he were the boss.”"
+        },
+        "21": {
+          "n": 21,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+          "opts": {
+            "a": "Wasting resources",
+            "b": "Working late into the night",
+            "c": "Causing a scandal",
+            "d": "Celebrating a victory"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Burning the midnight oil",
+          "multi": false,
+          "explanation": "“Burn the midnight oil” means work or study late into the night."
+        },
+        "22": {
+          "n": 22,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+          "opts": {
+            "a": "Doing something with less effort or expense",
+            "b": "Finishing something ahead of time",
+            "c": "Taking shortcuts that save time but maintain quality",
+            "d": "Delegating tasks to others"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Cutting corners",
+          "multi": false,
+          "explanation": "“Cut corners” means reduce effort or expense, often by taking shortcuts that can lower quality."
+        },
+        "23": {
+          "n": 23,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+          "opts": {
+            "a": "Take a break",
+            "b": "Celebrate success",
+            "c": "Ignore a problem",
+            "d": "Give up or admit defeat"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Throw in the towel",
+          "multi": false,
+          "explanation": "“Throw in the towel” means give up or admit defeat."
+        },
+        "24": {
+          "n": 24,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+          "opts": {
+            "a": "A quick decision",
+            "b": "A successful mission",
+            "c": "A pointless or hopeless pursuit",
+            "d": "An unexpected surprise"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A wild goose chase",
+          "multi": false,
+          "explanation": "A “wild goose chase” is a futile or pointless pursuit."
+        },
+        "25": {
+          "n": 25,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:",
+          "opts": {
+            "a": "Agree with the majority",
+            "b": "Argue the opposite to test ideas",
+            "c": "Avoid confrontation",
+            "d": "Take credit for others’ work."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Play devil’s advocate",
+          "multi": false,
+          "explanation": "To “play devil’s advocate” is to argue the opposing view to test an idea."
+        },
+        "26": {
+          "n": 26,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+          "opts": {
+            "a": "We should have informed about the policy change",
+            "b": "We should have been informed about the policy change",
+            "c": "We must have been informed about the policy change",
+            "d": "We had informed about the policy change"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Someone should have informed us about the policy change.",
+          "multi": false,
+          "explanation": "The passive form makes “us” the subject: “We should have been informed about the policy change.”"
+        },
+        "27": {
+          "n": 27,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+          "opts": {
+            "a": "The host was serving dinner before he arrived",
+            "b": "They served the guests dinner before the host arrived",
+            "c": "They had served dinner to the guests before the host arrived",
+            "d": "The guests were serving dinner before the host arrived"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The guests had been served dinner before the host arrived.",
+          "multi": false,
+          "explanation": "The active past-perfect equivalent is “They had served dinner to the guests before the host arrived.”"
+        },
+        "28": {
+          "n": 28,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+          "opts": {
+            "a": "The technicians install a new system",
+            "b": "The technicians are installing a new system",
+            "c": "The technicians had installed a new system",
+            "d": "A new system is installing the technicians"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A new system is being installed by the technicians.",
+          "multi": false,
+          "explanation": "The present continuous passive “is being installed” becomes the present continuous active “are installing.”"
+        },
+        "29": {
+          "n": 29,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+          "opts": {
+            "a": "They should submit the documents by now",
+            "b": "They should submitted the documents now",
+            "c": "The documents have to be submitted now",
+            "d": "They should have submitted the documents by now"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The documents should have been submitted by now.",
+          "multi": false,
+          "explanation": "The modal perfect passive “should have been submitted” becomes “They should have submitted.”"
+        },
+        "30": {
+          "n": 30,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/",
+          "opts": {
+            "a": "Extra tasks have been being given to the team lately by the manager",
+            "b": "The team was given extra tasks lately",
+            "c": "Extra tasks have given to the team lately",
+            "d": "The team is being given extra tasks lately by the manager"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The manager has been giving the team extra tasks lately .",
+          "multi": false,
+          "explanation": "The present perfect continuous passive preserves the tense: “Extra tasks have been being given…” The construction is grammatical but stylistically awkward."
+        },
+        "31": {
+          "n": 31,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "Agoraphobia",
+            "b": "Claustrophobia",
+            "c": "Xenophobia",
+            "d": "Nyctophobia"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Fear of confined spaces",
+          "multi": false,
+          "explanation": "Claustrophobia is an intense fear of enclosed or confined spaces."
+        },
+        "32": {
+          "n": 32,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "Cartographer",
+            "b": "Geographer",
+            "c": "Topographer",
+            "d": "Draftsman"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A person who draws maps",
+          "multi": false,
+          "explanation": "A cartographer makes maps."
+        },
+        "33": {
+          "n": 33,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "Ode",
+            "b": "Ballad",
+            "c": "Elegy",
+            "d": "Epigram"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A poem or speech of serious reflection, typically for the deceased.",
+          "multi": false,
+          "explanation": "An elegy is a poem or speech of serious reflection, often written in memory of someone who has died."
+        },
+        "34": {
+          "n": 34,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "Herbivore",
+            "b": "Carnivore",
+            "c": "Detritivore",
+            "d": "Omnivore"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "An animal that feeds on plants and animals.",
+          "multi": false,
+          "explanation": "An omnivore eats both plant matter and animals."
+        },
+        "35": {
+          "n": 35,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "Noctambulist",
+            "b": "Insomniac",
+            "c": "Somniloquist",
+            "d": "Narcoleptic"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "One who walks in sleep",
+          "multi": false,
+          "explanation": "A noctambulist is a sleepwalker."
+        },
+        "36": {
+          "n": 36,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "Autism",
+            "b": "Spastic",
+            "c": "Insane",
+            "d": "Deranged"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A person with a developmental disability caused by differences in the brain.",
+          "multi": false,
+          "explanation": "The stem uses an imprecise definition and the remaining options rely on outdated, stigmatizing labels. It is held out of scoring instead of treating those labels as diagnostic alternatives.",
+          "unscored": true,
+          "reviewNote": "Held unscored: the definition is imprecise and the offered alternatives use outdated, stigmatizing language."
+        },
+        "37": {
+          "n": 37,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "Lactose intolerance",
+            "b": "Photoallergic",
+            "c": "Anophylaxis",
+            "d": "Dust mite Allergy"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Allergy to milk and milk product is-",
+          "multi": false,
+          "explanation": "Lactose intolerance is caused by difficulty digesting lactose; it is not a milk allergy, which is an immune reaction. Since the stem calls it an allergy, the item is medically inaccurate and is held out of scoring.",
+          "unscored": true,
+          "reviewNote": "Held unscored: lactose intolerance is not a milk allergy, so the printed stem is medically inaccurate."
+        },
+        "38": {
+          "n": 38,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "Nyctophobia",
+            "b": "Hypsophobia",
+            "c": "Aracnophobia",
+            "d": "Ophidiophobia"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "An irrational fear of heights is called-",
+          "multi": false,
+          "explanation": "Hypsophobia is a term for fear of heights; “acrophobia” is the more familiar term, but it is not offered."
+        },
+        "39": {
+          "n": 39,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "obsessive devotion for a famous singer",
+            "b": "religious, political ideological fanaticism",
+            "c": "a person who loses zeal in everything",
+            "d": "indolent"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Zealotry is-",
+          "multi": false,
+          "explanation": "Zealotry is excessive or fanatical devotion to a religious, political or ideological cause."
+        },
+        "40": {
+          "n": 40,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given.",
+          "opts": {
+            "a": "a person who hates work",
+            "b": "a person who works compulsively",
+            "c": "a pedophile",
+            "d": "a cynophile"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A workaholic is-",
+          "multi": false,
+          "explanation": "A workaholic works compulsively or excessively."
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 2,
+          "explanation": "“Fast” modifies the verb “ran” by describing how he ran, so it functions as an adverb."
+        },
+        "2": {
+          "answerIndex": 3,
+          "explanation": "“Hard” describes the noun “time,” so it is an adjective."
+        },
+        "3": {
+          "answerIndex": 1,
+          "explanation": "Here “run” is the name of an activity, so it is a noun."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "“Calm” is an action word here: it tells the person what to do, so it is a verb."
+        },
+        "5": {
+          "answerIndex": 2,
+          "explanation": "“Only” limits the group described by “the brave”; in this sentence it functions as an adverb."
+        },
+        "6": {
+          "answerIndex": 2,
+          "explanation": "The established phrase is “made upon the recommendation of” a person or body."
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "The standard collocation is “well versed in” a subject."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "“Abstain from” is the standard construction before a gerund: “abstained from voting.”"
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "“For lack of” is the idiomatic construction. The printed phrase “lack of insufficient fund” is awkward and redundant, but “for” is the only suitable choice."
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "“Inspired by” introduces the source or influence behind the artist’s work."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "Use “at” for a precise clock time: “at 6:00 a.m.”"
+        },
+        "12": {
+          "answerIndex": 3,
+          "explanation": "“Walk to the office” expresses movement toward the destination."
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "The usual expression for being present at one’s workplace is “at work.”"
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "“In the classroom” is the appropriate prepositional phrase for disturbance within that room."
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "The infinitive “to play” follows “how” in “taught him how to play.”"
+        },
+        "16": {
+          "answerIndex": 2,
+          "explanation": "The past perfect “had finished” marks dinner as completed before the later past event, her arrival."
+        },
+        "17": {
+          "answerIndex": 3,
+          "explanation": "This is a past unreal conditional: “If he had left earlier, he would have caught…”"
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "“Always” describes a repeated habit, so the simple present “scold” agrees with plural subject “parents.”"
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "For a present unreal wish, use the simple past: “I wish I had more time.”"
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "“As if” takes the subjunctive “were” for an unreal comparison: “as if he were the boss.”"
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "“Burn the midnight oil” means work or study late into the night."
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "“Cut corners” means reduce effort or expense, often by taking shortcuts that can lower quality."
+        },
+        "23": {
+          "answerIndex": 3,
+          "explanation": "“Throw in the towel” means give up or admit defeat."
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "A “wild goose chase” is a futile or pointless pursuit."
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "To “play devil’s advocate” is to argue the opposing view to test an idea."
+        },
+        "26": {
+          "answerIndex": 1,
+          "explanation": "The passive form makes “us” the subject: “We should have been informed about the policy change.”"
+        },
+        "27": {
+          "answerIndex": 2,
+          "explanation": "The active past-perfect equivalent is “They had served dinner to the guests before the host arrived.”"
+        },
+        "28": {
+          "answerIndex": 1,
+          "explanation": "The present continuous passive “is being installed” becomes the present continuous active “are installing.”"
+        },
+        "29": {
+          "answerIndex": 3,
+          "explanation": "The modal perfect passive “should have been submitted” becomes “They should have submitted.”"
+        },
+        "30": {
+          "answerIndex": 0,
+          "explanation": "The present perfect continuous passive preserves the tense: “Extra tasks have been being given…” The construction is grammatical but stylistically awkward."
+        },
+        "31": {
+          "answerIndex": 1,
+          "explanation": "Claustrophobia is an intense fear of enclosed or confined spaces."
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "A cartographer makes maps."
+        },
+        "33": {
+          "answerIndex": 2,
+          "explanation": "An elegy is a poem or speech of serious reflection, often written in memory of someone who has died."
+        },
+        "34": {
+          "answerIndex": 3,
+          "explanation": "An omnivore eats both plant matter and animals."
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "A noctambulist is a sleepwalker."
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "Hypsophobia is a term for fear of heights; “acrophobia” is the more familiar term, but it is not offered."
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "Zealotry is excessive or fanatical devotion to a religious, political or ideological cause."
+        },
+        "40": {
+          "answerIndex": 1,
+          "explanation": "A workaholic works compulsively or excessively."
         }
       }
     }

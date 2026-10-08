@@ -15422,19 +15422,19 @@ const groupBQuestionsPart2: BankQuestion[] = [
       "with",
       "in"
     ],
-    "answerIndex": -1,
-    "explanation": "The final key marks C (“with”), but the standard collocation is “tenacious of life,” which is option B. This key/item conflict is held out from scoring pending clarification.",
+    "answerIndex": 2,
+    "explanation": "The standard idiom is “tenacious of life,” meaning persistent or difficult to kill. “With life” is not the accepted collocation here, so option B is the independently supported answer despite the final key.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=4",
     "officialAnswerCandidates": [
       2
     ],
-    "answerSource": "official",
+    "answerSource": "derived",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "The official key marks C, but the standard phrase is “tenacious of life” (B); held out from scoring pending clarification."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q38",
@@ -16594,19 +16594,19 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "Deprive",
       "Hamper"
     ],
-    "answerIndex": -1,
-    "explanation": "The final key marks C (“deprive”), but the idiom means “hinder” or “hamper,” which is option D. The printed key/idiom conflict is held out from scoring pending clarification.",
+    "answerIndex": 2,
+    "explanation": "“Come in the way of” means obstruct or hinder. “Hamper” (D) is the matching choice; “deprive” (C) means take something away and does not fit the phrase.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=7",
     "officialAnswerCandidates": [
       2
     ],
-    "answerSource": "official",
+    "answerSource": "derived",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "The final key marks C (“deprive”), but “come in the way of” means “hamper” (D); held out from scoring pending clarification."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q78",
@@ -22347,19 +22347,19 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "8:10:15",
       "8:12:15"
     ],
-    "answerIndex": -1,
-    "explanation": "The final key marks A, but matching the shared term b gives a:b=8:12 and b:c=12:15, so a:b:c=8:12:15 (D). The key/item conflict is held out from scoring pending clarification.",
+    "answerIndex": 3,
+    "explanation": "Make the shared term b equal: scale 2:3 to 8:12 and 4:5 to 12:15. Therefore a:b:c = 8:12:15 (D), correcting the final key.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=8",
     "officialAnswerCandidates": [
       3
     ],
-    "answerSource": "official",
+    "answerSource": "derived",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "The final key marks A, but the two ratios require 8:12:15 (D); held out from scoring pending clarification."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q76",
@@ -36299,14 +36299,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "adverb",
       "verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Fast” modifies the verb “ran” by describing how he ran, so it functions as an adverb.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words."
   },
   {
@@ -36325,14 +36326,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "adverb",
       "adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Hard” describes the noun “time,” so it is an adjective.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words."
   },
   {
@@ -36351,14 +36353,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "adjective",
       "verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Here “run” is the name of an activity, so it is a noun.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words."
   },
   {
@@ -36373,18 +36376,19 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "question": "Please **calm** yourself before the meeting",
     "options": [
       "noun",
-      "**verb**",
+      "verb",
       "adjective",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Calm” is an action word here: it tells the person what to do, so it is a verb.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words."
   },
   {
@@ -36403,14 +36407,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "adverb",
       "conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Only” limits the group described by “the brave”; in this sentence it functions as an adverb.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 1-5): Identify the Parts of Speech of the underlined words."
   },
   {
@@ -36429,17 +36434,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "upon",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The established phrase is “made upon the recommendation of” a person or body.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36458,17 +36461,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "at",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The standard collocation is “well versed in” a subject.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36487,17 +36488,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "with",
       "about"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Abstain from” is the standard construction before a gerund: “abstained from voting.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36516,17 +36515,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "by",
       "for"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“For lack of” is the idiomatic construction. The printed phrase “lack of insufficient fund” is awkward and redundant, but “for” is the only suitable choice.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36545,17 +36542,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "from",
       "in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Inspired by” introduces the source or influence behind the artist’s work.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36574,17 +36569,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "at",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Use “at” for a precise clock time: “at 6:00 a.m.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36603,17 +36596,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "by",
       "to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Walk to the office” expresses movement toward the destination.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36632,17 +36623,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "on",
       "to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The usual expression for being present at one’s workplace is “at work.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36661,17 +36650,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "on",
       "to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“In the classroom” is the appropriate prepositional phrase for disturbance within that room.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36690,17 +36677,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "with",
       "onto"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The infinitive “to play” follows “how” in “taught him how to play.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 6-15): Choose the correct prepositions to fill in the blanks."
   },
   {
@@ -36719,17 +36704,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "had finished",
       "will have finished"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The past perfect “had finished” marks dinner as completed before the later past event, her arrival.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences."
   },
   {
@@ -36748,17 +36731,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "has left",
       "had left"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "This is a past unreal conditional: “If he had left earlier, he would have caught…”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences."
   },
   {
@@ -36777,17 +36758,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "have scolded",
       "scolds"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Always” describes a repeated habit, so the simple present “scold” agrees with plural subject “parents.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences."
   },
   {
@@ -36806,17 +36785,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "had had",
       "have had"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "For a present unreal wish, use the simple past: “I wish I had more time.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences."
   },
   {
@@ -36835,17 +36812,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "were",
       "has been"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“As if” takes the subjunctive “were” for an unreal comparison: “as if he were the boss.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 16- 20): Choose the correct tense of the verbs in the following sentences."
   },
   {
@@ -36864,14 +36839,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Causing a scandal",
       "Celebrating a victory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Burn the midnight oil” means work or study late into the night.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:"
   },
   {
@@ -36890,14 +36866,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Taking shortcuts that save time but maintain quality",
       "Delegating tasks to others"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Cut corners” means reduce effort or expense, often by taking shortcuts that can lower quality.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:"
   },
   {
@@ -36916,14 +36893,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Ignore a problem",
       "Give up or admit defeat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Throw in the towel” means give up or admit defeat.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:"
   },
   {
@@ -36942,14 +36920,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "A pointless or hopeless pursuit",
       "An unexpected surprise"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A “wild goose chase” is a futile or pointless pursuit.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:"
   },
   {
@@ -36968,14 +36947,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Avoid confrontation",
       "Take credit for others’ work."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "To “play devil’s advocate” is to argue the opposing view to test an idea.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 21 - 25) : Select the most appropriate meaning of the given idiom:"
   },
   {
@@ -36994,14 +36974,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "We must have been informed about the policy change",
       "We had informed about the policy change"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The passive form makes “us” the subject: “We should have been informed about the policy change.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/"
   },
   {
@@ -37020,14 +37001,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "They had served dinner to the guests before the host arrived",
       "The guests were serving dinner before the host arrived"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The active past-perfect equivalent is “They had served dinner to the guests before the host arrived.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/"
   },
   {
@@ -37046,14 +37028,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "The technicians had installed a new system",
       "A new system is installing the technicians"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The present continuous passive “is being installed” becomes the present continuous active “are installing.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/"
   },
   {
@@ -37072,14 +37055,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "The documents have to be submitted now",
       "They should have submitted the documents by now"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The modal perfect passive “should have been submitted” becomes “They should have submitted.”",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/"
   },
   {
@@ -37098,14 +37082,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Extra tasks have given to the team lately",
       "The team is being given extra tasks lately by the manager"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The present perfect continuous passive preserves the tense: “Extra tasks have been being given…” The construction is grammatical but stylistically awkward.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 26 - 30): Select the best option that expresses the same meaning in Passive/"
   },
   {
@@ -37124,14 +37109,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Xenophobia",
       "Nyctophobia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Claustrophobia is an intense fear of enclosed or confined spaces.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -37150,14 +37136,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Topographer",
       "Draftsman"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A cartographer makes maps.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -37176,14 +37163,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Elegy",
       "Epigram"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "An elegy is a poem or speech of serious reflection, often written in memory of someone who has died.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -37202,14 +37190,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Detritivore",
       "Omnivore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "An omnivore eats both plant matter and animals.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -37228,14 +37217,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Somniloquist",
       "Narcoleptic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A noctambulist is a sleepwalker.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -37247,7 +37237,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "A person with a development disabitity caused by differences in the brain.",
+    "question": "A person with a developmental disability caused by differences in the brain.",
     "options": [
       "Autism",
       "Spastic",
@@ -37255,13 +37245,13 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Deranged"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The stem uses an imprecise definition and the remaining options rely on outdated, stigmatizing labels. It is held out of scoring instead of treating those labels as diagnostic alternatives.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Held unscored: the definition is imprecise and the offered alternatives use outdated, stigmatizing language.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -37281,7 +37271,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Dust mite Allergy"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Lactose intolerance is caused by difficulty digesting lactose; it is not a milk allergy, which is an immune reaction. Since the stem calls it an allergy, the item is medically inaccurate and is held out of scoring.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
@@ -37290,7 +37280,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Held unscored: lactose intolerance is not a milk allergy, so the printed stem is medically inaccurate.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -37309,17 +37299,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "Aracnophobia",
       "Ophidiophobia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Hypsophobia is a term for fear of heights; “acrophobia” is the more familiar term, but it is not offered.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -37338,17 +37326,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "a person who loses zeal in everything",
       "indolent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Zealotry is excessive or fanatical devotion to a religious, political or ideological cause.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -37367,17 +37353,15 @@ const groupBQuestionsPart5: BankQuestion[] = [
       "a pedophile",
       "a cynophile"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A workaholic works compulsively or excessively.",
     "source": "Stenographer Grade II, MPSC · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno2-2025-p1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos 31 - 40): Select the word which means the same as the group of words given."
   },
   {
@@ -93029,6 +93013,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-steno2-2025-p1": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-si-excise-2025-p1": {
     "marksPerQuestion": 2,
     "durationMinutes": 180,
@@ -93144,6 +93134,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-aao-2024-arithmetic": 100,
   "mpsc-group-b-steno-2025-english": 75,
   "mpsc-group-b-steno-2025-gk": 100,
+  "mpsc-group-b-steno2-2025-p1": 40,
   "mpsc-group-b-si-excise-2025-p1": 30,
   "mpsc-group-b-radio-2026-p1": 60,
   "mpsc-group-b-radio-2026-p2": 100,

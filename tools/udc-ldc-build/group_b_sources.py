@@ -200,6 +200,10 @@ def build_additional():
             # Printed page 1: 100 marks, one per question, three hours.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'steno2-2025-p1' and repairs.get(slug, {}).get('derivedAnswers'):
+            entry['expectedMcq'] = 40
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'steno2-2015-gk' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,

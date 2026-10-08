@@ -25344,21 +25344,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhatisthelargestwildlifesanctuaryinMizoram?",
+    "question": "Which scheme creates forests in urban areas to promote urban forestry with local communities, NGOs, educational institutions and local bodies?",
     "options": [
-      "DampaTigerReserve",
-      "LengtengWildlifeSanctuary",
-      "MurlenNationalPark",
-      "NgengpuiWildlifeSanctuary (a)Chhawrtuivillage(b)Khuangphahvillage (c)NorthChawilunghills(d)Zopuihills (a)Agenda21isanon-bindingactionplanoftheUnitedNationsconcerningsustainable development. (b)ItisaproductoftheWorldSummitonSustainableDevelopmentheldinJohannesburgin2002. (c)Itisanagendatocombatenvironmentaldamage,poverty,anddiseasethroughglobal cooperationandcommoninterests,mutualneeds,andsharedresponsibilities. (d)OneofitsmajorobjectivesisthateverylocalgovernmentshoulddrawitsownAgend21a. (a)NagarVanYojana(b)NagarPanchayatYojana (c)VanaMahotsavYojana(d)VanNagarPanchYojana"
+      "Nagar Van Yojana",
+      "Nagar Panchayat Yojana",
+      "Vana Mahotsav Yojana",
+      "Van Nagar Panchayat Yojana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Nagar Van Yojana supports development of urban forests with community participation.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
-    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q35",
@@ -25369,21 +25370,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichState/UTestablishedaSpecialTaskForcetoEnforceAirPollutionControl]Measures?",
+    "question": "Which State/UT established a Special Task Force to enforce air-pollution control measures?",
     "options": [
       "Maharashtra",
       "Delhi",
       "Punjab",
       "Odisha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Delhi established a Special Task Force to coordinate enforcement of air-pollution controls.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q36",
@@ -25394,21 +25396,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Whichorganizationlaunchednewinitiativesfor“greeningeducation”inclassrooms?",
+    "question": "Which organization launched new initiatives for “greening education” in classrooms?",
     "options": [
-      "WorldBank",
+      "World Bank",
       "UNICEF",
       "UNEP",
       "UNESCO"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "UNESCO launched the Greening Education Partnership to green learning environments, curricula and education systems.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q37",
@@ -25419,21 +25422,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhoisknownasthefatherofIndianspaceresearch?",
+    "question": "Who is known as the Father of Indian space research?",
     "options": [
-      "APJAbdulKalam",
-      "HJBhabha",
-      "SatyendranathBose",
-      "VikramSarabhai"
+      "A. P. J. Abdul Kalam",
+      "H. J. Bhabha",
+      "Satyendranath Bose",
+      "Vikram Sarabhai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Vikram Sarabhai is regarded as the father of the Indian space programme.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q38",
@@ -25444,21 +25448,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Whatisthebasicunitofthenervoussystem?",
+    "question": "What is the basic unit of the nervous system?",
     "options": [
       "Cerebellum",
       "Nephron",
       "Neuron",
       "Nucleon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The neuron is the structural and functional unit of the nervous system.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q39",
@@ -25469,21 +25474,48 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Whichofthefollowingdiseasesiscausedbyavirus?",
+    "question": "Which of the following diseases is caused by a virus?",
     "options": [
       "Malaria",
-      "SmallPox",
+      "Smallpox",
       "Tuberculosis",
-      "Typhoid :(a)Gekkozoramensis(b)Gekkomizoramensis (c)Smithophiszoramensis(d)Smithophismizoramensis"
+      "Typhoid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Smallpox is caused by the variola virus; malaria is parasitic, while tuberculosis and typhoid are bacterial.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-jao-2025-p2-Q40",
+    "paperId": "mpsc-group-b-jao-2025-p2",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Researchers from Mizoram University and the Max Planck Institute for Biology, Tübingen, discovered a new flying gecko species in Mizoram. What is its name?",
+    "options": [
+      "Gekko zoramensis",
+      "Gekko mizoramensis",
+      "Smithophis zoramensis",
+      "Smithophis mizoramensis"
+    ],
+    "answerIndex": 1,
+    "explanation": "The newly described Mizoram flying gecko is Gekko mizoramensis.",
+    "source": "District Organiser / Junior Accounts Officer · January 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q41",
@@ -25494,7 +25526,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Whichbranchofbiologyisknownforthestudyofflowers?",
+    "question": "Which branch of biology is known for the study of flowers?",
     "options": [
       "Dendrology",
       "Anatomy",
@@ -25502,13 +25534,13 @@ const groupBQuestionsPart4: BankQuestion[] = [
       "Agrostology"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The printed option “Anthology” is not a standard branch of biology; anthology ordinarily means a collection of literary works. The question has no scientifically sound answer among its choices, so it is held.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The printed option “Anthology” is not a standard branch of biology; anthology ordinarily means a collection of literary works. The question has no scientifically sound answer among its choices, so it is held."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q42",
@@ -25519,21 +25551,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Bloodgroupswerediscoveredby:",
+    "question": "Who discovered the ABO blood groups?",
     "options": [
-      "Altmann.",
+      "Altmann",
       "Landsteiner",
-      "Losch",
-      "RonaldRoss"
+      "Lösch",
+      "Ronald Ross"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Karl Landsteiner discovered the ABO blood group system.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q43",
@@ -25544,24 +25577,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "‘AMonographonLushaiCustomsandCeremonies’waswrittenby-",
+    "question": "Who wrote A Monograph on Lushai Customs and Ceremonies?",
     "options": [
-      "A.GMcCall",
-      "JShakespeare",
-      "N.E.Parry",
-      "THLewin"
+      "A. G. McCall",
+      "J. Shakespear",
+      "N. E. Parry",
+      "T. H. Lewin"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 1928 monograph was written by Nevill Edward (N. E.) Parry.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q44",
@@ -25572,21 +25603,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Criminals,whotookrefugeintheChicf’shousetoescapefromtheconsequenceoftheirevildeeds are-",
+    "question": "Under Mizo customary law, what term described a criminal who took refuge in a chief’s house to escape punishment?",
     "options": [
-      "Chemsenbawih",
+      "Chemsen bawih",
       "Inpuibawih",
-      "Retheihbawih",
-      "Tukluhbawih"
+      "Retheih bawih",
+      "Tukluh bawih"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Chemsen bawih referred to a person who became a chief’s dependent after taking refuge to avoid punishment.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q45",
@@ -25597,21 +25629,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhowastherecipientofthePadmaShriAward2024fromMizoram?",
+    "question": "Who received the 2024 Padma Shri from Mizoram?",
     "options": [
-      "Dr.Sangihankima",
-      "K.C.Runremsangi",
-      "LalbiakthangaPachuau",
-      "VLNghaka"
+      "Dr. Sangthankima",
+      "K. C. Runremsangi",
+      "Lalbiakthanga Pachuau",
+      "V. L. Nghaka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Shri Sangthankima received the 2024 Padma Shri in Social Work.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q46",
@@ -25622,21 +25655,22 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "ThefirstLushaiExpeditionwaslaunchedin-",
+    "question": "When was the First Lushai Expedition launched?",
     "options": [
-      "1867-1868",
-      "1871-1872",
-      "1889-1890",
-      "1893-1894"
+      "1867–1868",
+      "1871–1872",
+      "1889–1890",
+      "1893–1894"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The First Lushai Expedition took place in 1871–1872.",
     "source": "District Organiser / Junior Accounts Officer · January 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/jao-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q47",
@@ -31829,7 +31863,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2024-gk-Q99",
     "paperId": "mpsc-group-b-steno-2024-gk",
@@ -31855,9 +31891,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2024-gk-Q100",
     "paperId": "mpsc-group-b-steno-2024-gk",
@@ -40318,7 +40352,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction(QuestionNos.11-15):Choosethecorrectanswerforeachblankinthesentence:-"
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-english-B12",
     "paperId": "mpsc-group-b-je-2025-english",
@@ -40344,9 +40380,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction(QuestionNos.11-15):Choosethecorrectanswerforeachblankinthesentence:-"
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-english-B13",
     "paperId": "mpsc-group-b-je-2025-english",
@@ -48141,7 +48175,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q38",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -48167,9 +48203,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q39",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -56069,7 +56103,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q42",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -56094,9 +56130,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Ambiguous biological movement category"
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q43",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -64017,7 +64051,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q74",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -64043,9 +64079,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q75",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -72356,7 +72390,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q55",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -72387,9 +72423,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q56",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -81084,7 +81118,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B20",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q21",
     "questionNumber": "B21",
@@ -81110,9 +81146,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B21",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q22",
     "questionNumber": "B22",
@@ -88976,7 +89010,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p1-written-A2a",
     "paperId": "mpsc-group-b-si-stats-2026-p1",
@@ -88993,9 +89029,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-written-A2b",
     "paperId": "mpsc-group-b-si-stats-2026-p1",

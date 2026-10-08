@@ -33358,7 +33358,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-09",
-      "evidence": "Printed pages 2–3 (PDF pages 2–3) visually checked. Recovered Q1–7 that OCR fused into the cover row; repaired OCR-merged option groups and normalized wording/options for Q1–23. Questions 24–100 remain unreviewed. Printed page 4 (PDF page 4) checked; Q24 is held because the appointment-process options overlap and are imprecise, while Q25–33 have unique explained answers.",
+      "evidence": "Printed pages 2–3 (PDF pages 2–3) visually checked. Recovered Q1–7 that OCR fused into the cover row; repaired OCR-merged option groups and normalized wording/options for Q1–23. Questions 24–100 remain unreviewed. Printed page 4 (PDF page 4) checked; Q24 is held because the appointment-process options overlap and are imprecise, while Q25–33 have unique explained answers. Printed page 5 (PDF page 5) visually checked. Recovered Q40 from OCR bleed. Q34–40 and Q42–46 have derived explanations; Q41 is held because the printed option “Anthology” is not a scientifically valid branch of biology.",
       "questions": {
         "1": {
           "n": 1,
@@ -33724,6 +33724,151 @@
             "c": "It addresses environmental damage, poverty and disease through global cooperation and shared responsibilities.",
             "d": "It encourages local governments to draw up their own Agenda 21."
           }
+        },
+        "34": {
+          "n": 34,
+          "page": 5,
+          "q": "Which scheme creates forests in urban areas to promote urban forestry with local communities, NGOs, educational institutions and local bodies?",
+          "opts": {
+            "a": "Nagar Van Yojana",
+            "b": "Nagar Panchayat Yojana",
+            "c": "Vana Mahotsav Yojana",
+            "d": "Van Nagar Panchayat Yojana"
+          }
+        },
+        "35": {
+          "n": 35,
+          "page": 5,
+          "q": "Which State/UT established a Special Task Force to enforce air-pollution control measures?",
+          "opts": {
+            "a": "Maharashtra",
+            "b": "Delhi",
+            "c": "Punjab",
+            "d": "Odisha"
+          }
+        },
+        "36": {
+          "n": 36,
+          "page": 5,
+          "q": "Which organization launched new initiatives for “greening education” in classrooms?",
+          "opts": {
+            "a": "World Bank",
+            "b": "UNICEF",
+            "c": "UNEP",
+            "d": "UNESCO"
+          }
+        },
+        "37": {
+          "n": 37,
+          "page": 5,
+          "q": "Who is known as the Father of Indian space research?",
+          "opts": {
+            "a": "A. P. J. Abdul Kalam",
+            "b": "H. J. Bhabha",
+            "c": "Satyendranath Bose",
+            "d": "Vikram Sarabhai"
+          }
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "q": "What is the basic unit of the nervous system?",
+          "opts": {
+            "a": "Cerebellum",
+            "b": "Nephron",
+            "c": "Neuron",
+            "d": "Nucleon"
+          }
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "q": "Which of the following diseases is caused by a virus?",
+          "opts": {
+            "a": "Malaria",
+            "b": "Smallpox",
+            "c": "Tuberculosis",
+            "d": "Typhoid"
+          }
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "q": "Researchers from Mizoram University and the Max Planck Institute for Biology, Tübingen, discovered a new flying gecko species in Mizoram. What is its name?",
+          "opts": {
+            "a": "Gekko zoramensis",
+            "b": "Gekko mizoramensis",
+            "c": "Smithophis zoramensis",
+            "d": "Smithophis mizoramensis"
+          }
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "q": "Which branch of biology is known for the study of flowers?",
+          "opts": {
+            "a": "Dendrology",
+            "b": "Anatomy",
+            "c": "Anthology",
+            "d": "Agrostology"
+          },
+          "unscored": true,
+          "explanation": "The printed option “Anthology” is not a standard branch of biology; anthology ordinarily means a collection of literary works. The question has no scientifically sound answer among its choices, so it is held."
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "q": "Who discovered the ABO blood groups?",
+          "opts": {
+            "a": "Altmann",
+            "b": "Landsteiner",
+            "c": "Lösch",
+            "d": "Ronald Ross"
+          }
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "Who wrote A Monograph on Lushai Customs and Ceremonies?",
+          "opts": {
+            "a": "A. G. McCall",
+            "b": "J. Shakespear",
+            "c": "N. E. Parry",
+            "d": "T. H. Lewin"
+          }
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "Under Mizo customary law, what term described a criminal who took refuge in a chief’s house to escape punishment?",
+          "opts": {
+            "a": "Chemsen bawih",
+            "b": "Inpuibawih",
+            "c": "Retheih bawih",
+            "d": "Tukluh bawih"
+          }
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "Who received the 2024 Padma Shri from Mizoram?",
+          "opts": {
+            "a": "Dr. Sangthankima",
+            "b": "K. C. Runremsangi",
+            "c": "Lalbiakthanga Pachuau",
+            "d": "V. L. Nghaka"
+          }
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "When was the First Lushai Expedition launched?",
+          "opts": {
+            "a": "1867–1868",
+            "b": "1871–1872",
+            "c": "1889–1890",
+            "d": "1893–1894"
+          }
         }
       },
       "derivedAnswers": {
@@ -33854,6 +33999,54 @@
         "33": {
           "answerIndex": 1,
           "explanation": "Agenda 21 was adopted at the 1992 Rio Earth Summit, not the 2002 Johannesburg summit, so statement B is false."
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "Nagar Van Yojana supports development of urban forests with community participation."
+        },
+        "35": {
+          "answerIndex": 1,
+          "explanation": "Delhi established a Special Task Force to coordinate enforcement of air-pollution controls."
+        },
+        "36": {
+          "answerIndex": 3,
+          "explanation": "UNESCO launched the Greening Education Partnership to green learning environments, curricula and education systems."
+        },
+        "37": {
+          "answerIndex": 3,
+          "explanation": "Vikram Sarabhai is regarded as the father of the Indian space programme."
+        },
+        "38": {
+          "answerIndex": 2,
+          "explanation": "The neuron is the structural and functional unit of the nervous system."
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "Smallpox is caused by the variola virus; malaria is parasitic, while tuberculosis and typhoid are bacterial."
+        },
+        "40": {
+          "answerIndex": 1,
+          "explanation": "The newly described Mizoram flying gecko is Gekko mizoramensis."
+        },
+        "42": {
+          "answerIndex": 1,
+          "explanation": "Karl Landsteiner discovered the ABO blood group system."
+        },
+        "43": {
+          "answerIndex": 2,
+          "explanation": "The 1928 monograph was written by Nevill Edward (N. E.) Parry."
+        },
+        "44": {
+          "answerIndex": 0,
+          "explanation": "Chemsen bawih referred to a person who became a chief’s dependent after taking refuge to avoid punishment."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "Shri Sangthankima received the 2024 Padma Shri in Social Work."
+        },
+        "46": {
+          "answerIndex": 1,
+          "explanation": "The First Lushai Expedition took place in 1871–1872."
         }
       }
     }

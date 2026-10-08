@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 9 October 2026
 
-49 general papers, 3,573 items: 3,502 MCQs and 71 written prompts.
-2,963 questions are ready for practice, including 1,614 official answers and
-1,349 independently derived answers. 550 items still need source review.
+49 general papers, 3,574 items: 3,503 MCQs and 71 written prompts.
+2,975 questions are ready for practice, including 1,614 official answers and
+1,361 independently derived answers. 539 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -60,11 +60,12 @@ held because the wording/options do not give one defensible answer. The visible
 questions are available for practice, while the incomplete paper stays out of
 full-paper Exam mode.
 
-District Organiser / Junior Accounts Officer Paper-II (January 2025) Q1–33
-have been checked against printed pages 2–4. Q1–7 were missing from OCR and
+District Organiser / Junior Accounts Officer Paper-II (January 2025) Q1–46
+have been checked against printed pages 2–5. Q1–7 were missing from OCR and
 recovered; fused option blocks were separated, wording and all options were
-checked, and Q1–23 plus Q25–33 have derived explanations. Q24 is held because
-the High Court appointment choices overlap and are imprecise. Q34–100 remain
+checked, and Q1–23, Q25–40, and Q42–46 have derived explanations. Q24 is held
+because the High Court appointment choices overlap and are imprecise; Q41 is
+held because “Anthology” is not a sound branch of biology. Q47–100 remain
 source-review items; the 100-question, two-hour paper stays out of full-paper
 Exam mode.
 

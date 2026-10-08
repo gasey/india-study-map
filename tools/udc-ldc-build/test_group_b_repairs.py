@@ -208,13 +208,15 @@ class ReviewedRepairTests(unittest.TestCase):
         extracted = json.loads((HERE / 'extracted/jao-2025-p2.json').read_text())
         repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['jao-2025-p2']
         result, reviewed = reviewed_extraction(extracted, repair)
-        self.assertEqual(reviewed, set(range(1, 34)))
-        self.assertEqual(len(repair['questions']), 33)
-        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 34)) - {24})
+        self.assertEqual(reviewed, set(range(1, 47)))
+        self.assertEqual(len(repair['questions']), 46)
+        self.assertEqual(set(map(int, repair['derivedAnswers'])), set(range(1, 47)) - {24, 41})
         self.assertEqual(result['questions'][0]['q'], repair['questions']['1']['q'])
         self.assertEqual(result['questions'][22]['opts']['a'], 'The day’s business normally starts with Question Hour, followed by Zero Hour.')
         self.assertTrue(repair['questions']['24']['unscored'])
         self.assertEqual(repair['questions']['32']['opts']['c'], 'North Chawilung hills')
+        self.assertTrue(repair['questions']['41']['unscored'])
+        self.assertEqual(repair['questions']['40']['opts']['b'], 'Gekko mizoramensis')
         self.assertTrue(all(x['explanation'].strip() for x in repair['derivedAnswers'].values()))
         self.assertTrue(repair['partialReview'])
 

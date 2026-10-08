@@ -9,17 +9,18 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-10-09 — JAO 2025 Paper-II opening scan review
+## 2026-10-09 — JAO 2025 Paper-II scan review through Q46
 
 **What shipped locally.** Recovered JAO Paper-II Q1–7 from printed page 2 and
-checked Q1–33 against printed pages 2–4. The OCR had fused the opening
-questions into one row and merged later option blocks. Q1–23 and Q25–33 have
-derived explanations; Q24 is held because its High Court appointment choices
-overlap and are imprecise. The partial paper stays out of full Exam mode. Group
-B reports 2,963 practice-ready questions and 550 items still under source
-review (down from 569 before this JAO batch).
+checked Q1–46 against printed pages 2–5. The OCR had fused the opening
+questions into one row and merged later option blocks; Q40 was also recovered.
+Q1–23, Q25–40, and Q42–46 have derived explanations. Q24 is held because its
+High Court appointment choices overlap and are imprecise; Q41 is held because
+“Anthology” is not a sound branch of biology. The partial paper stays out of
+full Exam mode. Group B reports 2,975 practice-ready questions and 539 items
+still under source review.
 
-**What's still open.** JAO Paper-II Q34–100 and the other source-review papers
+**What's still open.** JAO Paper-II Q47–100 and the other source-review papers
 remain pending. This batch is partial and does not imply the rest of this paper
 has been checked.
 

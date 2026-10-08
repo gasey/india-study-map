@@ -16112,7 +16112,7 @@
       "expectedMcq": 100,
       "partialReview": true,
       "reviewedOn": "2026-10-08",
-      "evidence": "Group B technical common examination under Health & Family Welfare, January 2026, Paper-II (General Studies). Q1–20 were checked against the printed cover and pages 1–2; all numbered stems, option wording and four-option sets were compared with the scan. The cover specifies 100 one-mark questions and two hours, with no negative-marking instruction. Nineteen answers have independently derived explanations. Q14 is held because “within India’s boundary” can refer to India’s claimed boundary (K2) or territory under Indian administration (Kangchenjunga), and the stem does not specify which.",
+      "evidence": "Group B technical common examination under Health & Family Welfare, January 2026, Paper-II (General Studies). Q1–20 were checked against the printed cover and pages 1–2; all numbered stems, option wording and four-option sets were compared with the scan. The cover specifies 100 one-mark questions and two hours, with no negative-marking instruction. Nineteen answers have independently derived explanations. Q14 is held because “within India’s boundary” can refer to India’s claimed boundary (K2) or territory under Indian administration (Kangchenjunga), and the stem does not specify which. Questions 21–40 were checked against printed pages 2–4; stems, numbering and all options were verified. All twenty have independently derived explanations. Q24 is clarified to distinguish Presidential assent (15 June) from the Act coming into force (12 October).",
       "questions": {
         "1": {
           "n": 1,
@@ -16576,6 +16576,466 @@
           "ambiguous": [],
           "q": "Which continent has the heaviest burden of HIV/AIDS?",
           "multi": false
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Sovereign, Socialist, Secular, Democratic Republic",
+            "b": "Socialist, Secular, Democratic Republic",
+            "c": "Sovereign, Secular, Federal Republic",
+            "d": "Sovereign, Democratic Republic"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Preamble of India declares India to be:",
+          "multi": false
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "18 years",
+            "b": "21 years",
+            "c": "25 years",
+            "d": "30 years"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The minimum age to become a member of Lok Sabha is:",
+          "multi": false
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Union List",
+            "b": "State List",
+            "c": "Concurrent List",
+            "d": "Residuary Powers"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Protection of ‘environment, forests, and wildlife,’ which indirectly impacts health is under which list?",
+          "multi": false
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "June 30, 2005",
+            "b": "June 15, 2005",
+            "c": "July 15, 2008",
+            "d": "October 12, 2005"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Right to Information (RTI) Act received Presidential assent on:",
+          "multi": false
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Vice-President",
+            "b": "President",
+            "c": "Speaker",
+            "d": "Prime Minister"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The head of the Indian Government is the:",
+          "multi": false
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "NABARD",
+            "b": "SIDBI",
+            "c": "TRAI",
+            "d": "FSSAI"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which government body deals with food safety, which directly affects public health?",
+          "multi": false
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Import substitution",
+            "b": "Facilitate Investment and Innovation",
+            "c": "Agricultural subsidies",
+            "d": "Tourism only"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "‘Make in India’ is one of the core objectives and pillars of:",
+          "multi": false
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "8",
+            "b": "9",
+            "c": "10",
+            "d": "11"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How many Fundamental Duties are there currently?",
+          "multi": false
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "50 days",
+            "b": "75 days",
+            "c": "100 days",
+            "d": "120 days"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "MNREGA guarantees how many days of wage employment per year?",
+          "multi": false
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "State Governments",
+            "b": "Central Government",
+            "c": "RBI",
+            "d": "Supreme Court"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The ‘Below Poverty Line (BPL)’ list is primarily prepared by:",
+          "multi": false
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "2040",
+            "b": "2050",
+            "c": "2060",
+            "d": "2070"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "India’s target year to achieve Net Zero greenhouse gas emissions is:",
+          "multi": false
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rise in old-age population",
+            "b": "Rise in working-age population",
+            "c": "Increase in school dropouts",
+            "d": "Increase in immigration"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The term demographic dividend refers to:",
+          "multi": false
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Health, Education, Income",
+            "b": "Education, Environment, Employment",
+            "c": "Income, Technology, Agriculture",
+            "d": "Health, Housing, Governance"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Human Development Index (HDI) is calculated using which three indicators?",
+          "multi": false
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Warming of the central and eastern tropical Pacific Ocean",
+            "b": "Cooling of the Indian Ocean",
+            "c": "Formation of cyclones in the Atlantic",
+            "d": "Increase in Arctic ice"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "El Niño refers to:",
+          "multi": false
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Longitude",
+            "b": "Latitude",
+            "c": "Soil composition",
+            "d": "Population density"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The main factor influencing global climate zones is:",
+          "multi": false
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Endemic",
+            "b": "Exotic",
+            "c": "Endangered",
+            "d": "Migratory"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The species that is at risk of extinction is called:",
+          "multi": false
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Norman Myers",
+            "b": "Robert Costanza",
+            "c": "Charles Darwin",
+            "d": "E.O. Wilson"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Hotspots of biodiversity were first identified by:",
+          "multi": false
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Troposphere",
+            "b": "Stratosphere",
+            "c": "Mesosphere",
+            "d": "Thermosphere"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The ozone layer is found in:",
+          "multi": false
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Wilhelm Conrad Röntgen",
+            "b": "Heinrich Hertz",
+            "c": "Max Planck",
+            "d": "Nikola Tesla"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The X-ray was discovered by:",
+          "multi": false
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Liver",
+            "b": "Skin",
+            "c": "Brain",
+            "d": "Heart"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The human body’s largest organ is:",
+          "multi": false
         }
       },
       "derivedAnswers": {
@@ -16654,6 +17114,86 @@
         "20": {
           "answerIndex": 2,
           "explanation": "Sub-Saharan Africa carries the world’s largest HIV/AIDS burden, so Africa is the correct continental choice."
+        },
+        "21": {
+          "answerIndex": 0,
+          "explanation": "The Preamble describes India as a Sovereign, Socialist, Secular, Democratic Republic."
+        },
+        "22": {
+          "answerIndex": 2,
+          "explanation": "Article 84(b) of the Constitution requires a candidate for the Lok Sabha to be at least 25 years old."
+        },
+        "23": {
+          "answerIndex": 2,
+          "explanation": "The 42nd Amendment moved forests and protection of wild animals and birds to the Concurrent List. The printed stem groups “environment” with these subjects; the list answer expected by the question is Concurrent."
+        },
+        "24": {
+          "answerIndex": 1,
+          "explanation": "The Right to Information Act, 2005 received Presidential assent on 15 June 2005; it came into force on 12 October 2005. The stem is clarified to ask for the assent date rather than loosely calling it the date Parliament passed the Act."
+        },
+        "25": {
+          "answerIndex": 3,
+          "explanation": "The Prime Minister is the head of the Union Government; the President is the constitutional head of State."
+        },
+        "26": {
+          "answerIndex": 3,
+          "explanation": "The Food Safety and Standards Authority of India (FSSAI) regulates food safety and standards."
+        },
+        "27": {
+          "answerIndex": 1,
+          "explanation": "“Facilitate investment and foster innovation” is one of the pillars associated with the Make in India initiative."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "There are 11 Fundamental Duties in Article 51A of the Constitution."
+        },
+        "29": {
+          "answerIndex": 2,
+          "explanation": "MGNREGA guarantees up to 100 days of wage employment in a financial year to each eligible rural household whose adult members volunteer for unskilled manual work."
+        },
+        "30": {
+          "answerIndex": 0,
+          "explanation": "State governments identify eligible households and prepare the BPL lists under the applicable national criteria and guidelines."
+        },
+        "31": {
+          "answerIndex": 3,
+          "explanation": "India announced a target of achieving net-zero greenhouse-gas emissions by 2070."
+        },
+        "32": {
+          "answerIndex": 1,
+          "explanation": "A demographic dividend is the potential economic benefit when the working-age share of a population rises relative to dependants, provided people can find productive work."
+        },
+        "33": {
+          "answerIndex": 0,
+          "explanation": "The HDI combines indicators of health, education and standard of living (income)."
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "El Niño is the periodic warming of sea-surface temperatures in the central and eastern equatorial Pacific."
+        },
+        "35": {
+          "answerIndex": 1,
+          "explanation": "Latitude determines the angle and intensity of incoming sunlight, making it a major control on broad climate zones."
+        },
+        "36": {
+          "answerIndex": 2,
+          "explanation": "An endangered species faces a high risk of extinction."
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "Ecologist Norman Myers introduced the biodiversity-hotspot concept in 1988."
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "The ozone layer with its greatest concentration of ozone lies in the stratosphere."
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "Wilhelm Conrad Röntgen discovered X-rays in 1895."
+        },
+        "40": {
+          "answerIndex": 1,
+          "explanation": "The skin is the human body’s largest organ by surface area and mass."
         }
       }
     }

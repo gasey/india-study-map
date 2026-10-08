@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 8 October 2026
 
-49 general papers, 3,432 items: 3,325 MCQs and 107 written prompts.
-1,647 questions are ready for practice, including 1,535 official answers and
-112 independently derived answers. 1,752 items still need source review.
+49 general papers, 3,433 items: 3,326 MCQs and 107 written prompts.
+1,657 questions are ready for practice, including 1,545 official answers and
+112 independently derived answers. 1,743 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -45,9 +45,11 @@ conflict with the printed grammar/meaning; Q33 has multiple defensible
 comparative forms and is also unscored. The paper remains out of Exam mode
 until those five answer conflicts are clarified.
 
-AAO/AAAO 2024 Arithmetic Q1–20 is now scan-checked and keyed with worked
+AAO/AAAO 2024 Arithmetic Q1–31 is now scan-checked and keyed with worked
 calculations. Q7’s printed endpoint gives 27 terms (D); the legacy inferred
-candidate 26 (C) was rejected after checking the scan and arithmetic.
+candidate 26 (C) was rejected after checking the scan and arithmetic. Q30 is
+held unscored because its printed wall dimensions are smaller than a brick; the
+official final key compensates the item.
 
 The December 2024 combined exam has all 75 Paper I and 100 Paper II MCQs.
 Paper II Q84–100 were recovered from the complete Series B with matching

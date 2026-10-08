@@ -2648,7 +2648,7 @@
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–20 and 71 checked against rendered PDF pages 1, 2 and 7; wording/options were visually verified and answers match the final key with worked calculations. Q7’s legacy inferred candidate differs, but the printed endpoint gives 27 terms (D).",
+      "evidence": "Questions 1–31 and 71 checked against rendered PDF pages 1–3 and 7; wording/options visually verified and explanations calculated. Q7 legacy candidate differs, but the printed sequence gives 27 terms. Q30 remains unscored because the official key compensates a dimensionally inconsistent printed item.",
       "questions": {
         "1": {
           "n": 1,
@@ -2909,6 +2909,151 @@
             "d": "25"
           },
           "explanation": "Convert km/h to m/s by multiplying by 5/18: 36×5/18=10 m/s."
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": null,
+          "q": "Two persons start from the same place and walk in opposite directions at 5 km/hr and 4 km/hr respectively. At the end of 3 hours, the distance between them is—",
+          "opts": {
+            "a": "25 km",
+            "b": "27 km",
+            "c": "30 km",
+            "d": "32 km"
+          },
+          "explanation": "Their separation speed is 5+4=9 km/hr. In 3 hours they are 9×3=27 km apart."
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": null,
+          "q": "“A” and “B” are 30 km apart and walk towards each other. “A” is walking at the rate of 4 km/hr and “B” at 6 km/hr. They will meet after—",
+          "opts": {
+            "a": "1 hour",
+            "b": "2 hours",
+            "c": "3 hours",
+            "d": "4 hours"
+          },
+          "explanation": "Their combined closing speed is 4+6=10 km/hr. The meeting time is 30/10=3 hours."
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "q": "While walking at 3/5 of the usual speed, a man reaches his destination 10 minutes late. What is his usual time to reach his destination?",
+          "opts": {
+            "a": "12 minutes",
+            "b": "15 minutes",
+            "c": "18 minutes",
+            "d": "20 minutes"
+          },
+          "explanation": "At 3/5 speed, travel time becomes 5/3 of normal. The extra 2/3 of the normal time is 10 minutes, so the usual time is 15 minutes."
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "q": "Liana’s age is 16 years and his elder sister’s age is 21 years. After how many years will the sum of their ages be 51 years?",
+          "opts": {
+            "a": "15 years",
+            "b": "11 years",
+            "c": "7 years",
+            "d": "5 years"
+          },
+          "explanation": "Their current ages sum to 37. The total increases by 2 each year, so (51−37)/2=7 years."
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "q": "On a plane ground, a man walks 18 m due south, then he turns to his left and walks 6 m due east. He again turns to his left and walks 10 m due north. How far is he now from the starting point?",
+          "opts": {
+            "a": "2 m",
+            "b": "6 m",
+            "c": "8 m",
+            "d": "10 m"
+          },
+          "explanation": "He is 8 m south and 6 m east of the start. His distance is √(8²+6²)=10 m."
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "q": "A sum of money becomes ₹2420 in 2 years and ₹2662 in 3 years. If interest is compounded annually, the rate of interest is—",
+          "opts": {
+            "a": "5% p.a.",
+            "b": "8% p.a.",
+            "c": "10% p.a.",
+            "d": "12% p.a."
+          },
+          "explanation": "The ratio of year-3 to year-2 amounts is 2662/2420=1.10, so the annual compound rate is 10%."
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "q": "If the perimeter of a circle is numerically equal to the perimeter of a square, then the areas are in the ratio (take π = 22/7)—",
+          "opts": {
+            "a": "11:7",
+            "b": "14:11",
+            "c": "4:1",
+            "d": "22:7"
+          },
+          "explanation": "Equal perimeters give square side s=πr/2. Thus circle:square area = πr²:s² = 4:π = 14:11 when π=22/7."
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "q": "The length of the longest pole that can be kept in a room of dimensions (12 m × 9 m × 8 m) is—",
+          "opts": {
+            "a": "29 m",
+            "b": "21 m",
+            "c": "19 m",
+            "d": "17 m"
+          },
+          "explanation": "The longest pole is the room’s space diagonal: √(12²+9²+8²)=√289=17 m."
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "q": "The volume of a cubical solid is 2744 cm³. Its surface area is—",
+          "opts": {
+            "a": "1176 cm²",
+            "b": "784 cm²",
+            "c": "588 cm²",
+            "d": "196 cm²"
+          },
+          "explanation": "The cube side is ∛2744=14 cm. Its surface area is 6×14²=1176 cm²."
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "q": "How many bricks, each measuring (25 cm × 11.25 cm × 6 cm), will be required to construct a wall of dimensions (8 cm × 6 cm × 22.5 cm) if 1/10 of the volume of the wall is occupied by cement mortar?",
+          "opts": {
+            "a": "8000",
+            "b": "6400",
+            "c": "5760",
+            "d": "5600"
+          },
+          "explanation": "The official key compensates this item. As printed, the wall dimensions are smaller than a single brick, so none of the listed counts is physically consistent. If the first two wall dimensions were intended to be metres, the calculation would give 5760, but that correction is not supported by the scan; this item is left unscored.",
+          "unscored": true,
+          "reviewNote": "The MPSC final key compensates this item; the wall dimensions are smaller than one brick as printed, so it is held out from scoring."
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "q": "A kite is flying at a certain height from the horizontal ground. The thread, 100 m long, attached to the kite is tied to a point on the ground. The inclination of the thread with the ground is 30°. How high from the ground is the kite flying?",
+          "opts": {
+            "a": "100 m",
+            "b": "80 m",
+            "c": "60 m",
+            "d": "50 m"
+          },
+          "explanation": "The thread is the hypotenuse of a right triangle. Height=100×sin(30°)=50 m."
         },
         "71": {
           "n": 71,

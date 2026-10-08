@@ -20966,15 +20966,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Twopersonsstartfromthesameplaceandwalkinoppositedirectionsat5km/hrand4km/hr !respectively.Attheendof3hours,thedistancebetweenthemis—",
+    "question": "Two persons start from the same place and walk in opposite directions at 5 km/hr and 4 km/hr respectively. At the end of 3 hours, the distance between them is—",
     "options": [
-      "25km",
-      "27km",
-      "30km",
-      "32km"
+      "25 km",
+      "27 km",
+      "30 km",
+      "32 km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Their separation speed is 5+4=9 km/hr. In 3 hours they are 9×3=27 km apart.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -20983,9 +20983,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q22",
@@ -20996,15 +20995,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "‘A’and‘B’are30kmapartandwalktowardseachother.‘A’iswalkingattherateof4km/hrand ‘B’at6km/hr.Theywillmeetafter—",
+    "question": "“A” and “B” are 30 km apart and walk towards each other. “A” is walking at the rate of 4 km/hr and “B” at 6 km/hr. They will meet after—",
     "options": [
-      "1hour",
-      "2hours",
-      "3hours",
-      "4hours"
+      "1 hour",
+      "2 hours",
+      "3 hours",
+      "4 hours"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Their combined closing speed is 4+6=10 km/hr. The meeting time is 30/10=3 hours.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -21013,9 +21012,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q23",
@@ -21026,15 +21024,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Whilewalkingat2oftheusualspeed,amanreacheshisdestination10minuteslate.Whatishis usualtimetoreachhisdestination?",
+    "question": "While walking at 3/5 of the usual speed, a man reaches his destination 10 minutes late. What is his usual time to reach his destination?",
     "options": [
-      "12minutes",
-      "15minutes",
-      "18minutes",
-      "20minutes"
+      "12 minutes",
+      "15 minutes",
+      "18 minutes",
+      "20 minutes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "At 3/5 speed, travel time becomes 5/3 of normal. The extra 2/3 of the normal time is 10 minutes, so the usual time is 15 minutes.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -21043,9 +21041,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q24",
@@ -21056,15 +21053,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Liana’sageis16yearsandhiseldersister’sageis21years.Afterhowmanyyearswillthesumof theiragesbe51years?",
+    "question": "Liana’s age is 16 years and his elder sister’s age is 21 years. After how many years will the sum of their ages be 51 years?",
     "options": [
-      "15years",
-      "11years",
-      "7years",
-      "5years"
+      "15 years",
+      "11 years",
+      "7 years",
+      "5 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Their current ages sum to 37. The total increases by 2 each year, so (51−37)/2=7 years.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -21073,9 +21070,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q25",
@@ -21086,15 +21082,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Onaplaneground,amanwalks18mduesouththenheturnstoleftandwalks6mdueeast.He againturnstoleftandwalks10mduenorth.Howfarishenowfromthestartingpoint?",
+    "question": "On a plane ground, a man walks 18 m due south, then he turns to his left and walks 6 m due east. He again turns to his left and walks 10 m due north. How far is he now from the starting point?",
     "options": [
-      "2m",
-      "6m",
-      "8m",
-      "10m"
+      "2 m",
+      "6 m",
+      "8 m",
+      "10 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "He is 8 m south and 6 m east of the start. His distance is √(8²+6²)=10 m.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -21103,9 +21099,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q26",
@@ -21116,15 +21111,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Asumofmoneybecomes72420in2yearsand22662in3years.Ifinterestiscompoundedannually, .therateofinterestis—",
+    "question": "A sum of money becomes ₹2420 in 2 years and ₹2662 in 3 years. If interest is compounded annually, the rate of interest is—",
     "options": [
-      "5%p.a.",
-      "8%p.a.",
-      "10%p.a.",
-      "12%p.a."
+      "5% p.a.",
+      "8% p.a.",
+      "10% p.a.",
+      "12% p.a."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The ratio of year-3 to year-2 amounts is 2662/2420=1.10, so the annual compound rate is 10%.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -21133,9 +21128,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q27",
@@ -21146,15 +21140,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Iftheperimeterofacircleisnumericallyequaltotheperimeterofasquare,thentheareasareinthe .22 ratio(takez—sj-",
+    "question": "If the perimeter of a circle is numerically equal to the perimeter of a square, then the areas are in the ratio (take π = 22/7)—",
     "options": [
       "11:7",
       "14:11",
       "4:1",
       "22:7"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Equal perimeters give square side s=πr/2. Thus circle:square area = πr²:s² = 4:π = 14:11 when π=22/7.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -21163,9 +21157,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q28",
@@ -21176,15 +21169,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Thelengthofthelongestpolethatcanbekeptinaroomofdimensions(12mx9mx8m)is—",
+    "question": "The length of the longest pole that can be kept in a room of dimensions (12 m × 9 m × 8 m) is—",
     "options": [
-      "29m",
-      "21m",
-      "19m",
-      "17m"
+      "29 m",
+      "21 m",
+      "19 m",
+      "17 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The longest pole is the room’s space diagonal: √(12²+9²+8²)=√289=17 m.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -21193,9 +21186,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q29",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The volume of a cubical solid is 2744 cm³. Its surface area is—",
+    "options": [
+      "1176 cm²",
+      "784 cm²",
+      "588 cm²",
+      "196 cm²"
+    ],
+    "answerIndex": 0,
+    "explanation": "The cube side is ∛2744=14 cm. Its surface area is 6×14²=1176 cm².",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q30",
@@ -21206,7 +21227,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Howmanybricks,eachmeasuring(25cm*11.25emx6cm)willberequiredtoconstructawallof dimensions(8cmx6cm*22.5em)if-_ofthevolumeofthewallisoccupiedbycementmortar? 10",
+    "question": "How many bricks, each measuring (25 cm × 11.25 cm × 6 cm), will be required to construct a wall of dimensions (8 cm × 6 cm × 22.5 cm) if 1/10 of the volume of the wall is occupied by cement mortar?",
     "options": [
       "8000",
       "6400",
@@ -21214,7 +21235,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
       "5600"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The official key compensates this item. As printed, the wall dimensions are smaller than a single brick, so none of the listed counts is physically consistent. If the first two wall dimensions were intended to be metres, the calculation would give 5760, but that correction is not supported by the scan; this item is left unscored.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -21223,7 +21244,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "compensated": true,
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The MPSC final key compensates this item; the wall dimensions are smaller than one brick as printed, so it is held out from scoring."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q31",
@@ -21234,15 +21255,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Akiteisflyingatacertainheightfromthehorizontalground.Thethread100mlong,attachedtothe kiteistiedtothepointontheground.Theinclinationofthethreadwiththegroundis30°.Howhigh fromthegroundisthekiteflying?",
+    "question": "A kite is flying at a certain height from the horizontal ground. The thread, 100 m long, attached to the kite is tied to a point on the ground. The inclination of the thread with the ground is 30°. How high from the ground is the kite flying?",
     "options": [
-      "100m",
-      "80m",
-      "60m",
-      "50m"
+      "100 m",
+      "80 m",
+      "60 m",
+      "50 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The thread is the hypotenuse of a right triangle. Height=100×sin(30°)=50 m.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=3",
@@ -21251,9 +21272,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q33",
@@ -24581,7 +24601,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p2-Q34",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -24606,9 +24628,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q35",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32465,7 +32485,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 51–55): Identify the segment which contains grammatical error in the given sentences."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B56",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32495,9 +32517,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 56–60): Choose the alternative that is similar/nearest in meaning to the italicized word in each of the following sentences."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B57",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40695,7 +40715,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q38",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40720,9 +40742,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q39",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48449,7 +48469,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q11",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48474,9 +48496,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q12",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56416,7 +56436,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q22",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56444,9 +56466,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q23",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64108,7 +64128,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q60",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64136,9 +64158,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q61",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -73089,7 +73109,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q32",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73116,9 +73138,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q33",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81300,7 +81320,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B59",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B60",
     "questionNumber": "B60",
@@ -81327,9 +81349,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B60",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-written-A1",
     "paperId": "mpsc-group-b-co-2026-p1",
@@ -89138,7 +89158,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B35",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B36",
     "questionNumber": "B36",
@@ -89165,9 +89187,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B36",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B37",
     "questionNumber": "B37",

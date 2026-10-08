@@ -2648,7 +2648,7 @@
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–41 and 71 checked against rendered PDF pages 1–4 and 7; stems/options and calculations were visually verified against the scan and final key. Q7 legacy candidate differs but direct calculation confirms D. Q30 is compensated and held out. Q37’s scan omits the requested variable after “value”; [of a] is supplied editorially from the polynomial/options.",
+      "evidence": "Questions 1–52 and 71 checked against rendered PDF pages 1–5 and 7; stems/options and calculations verified against the printed scan and final key. Q7 legacy candidate differs but the printed sequence confirms D; Q30 is compensated; Q37 includes an explicit editorial completion.",
       "questions": {
         "1": {
           "n": 1,
@@ -3184,6 +3184,149 @@
             "d": "10–20"
           },
           "explanation": "The total frequency is 50, so N/2=25. Cumulative frequency reaches 26 in the 30–40 class, making it the median class."
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "part": null,
+          "q": "The difference between two whole numbers is 66 and their ratio is 2:5. The two numbers are—",
+          "opts": {
+            "a": "44 and 110",
+            "b": "110 and 176",
+            "c": "176 and 242",
+            "d": "242 and 308"
+          },
+          "explanation": "The ratio parts differ by 3, representing 66, so one part is 22. The numbers are 44 and 110."
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "part": null,
+          "q": "Liana is twice as old as Mawii. Five years ago his age was three times Mawii’s age. Find the present age of Liana.",
+          "opts": {
+            "a": "10 years",
+            "b": "20 years",
+            "c": "30 years",
+            "d": "40 years"
+          },
+          "explanation": "Let Mawii’s current age be x and Liana’s 2x. Five years ago, 2x−5=3(x−5), so x=10 and Liana is 20."
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "part": null,
+          "q": "Find the smallest multiple of 2352 which is a perfect square.",
+          "opts": {
+            "a": "4761",
+            "b": "9409",
+            "c": "4704",
+            "d": "7056"
+          },
+          "explanation": "2352=2⁴×3×7². Multiply by 3 to make all prime exponents even: 2352×3=7056=84²."
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "part": null,
+          "q": "The list price of a shirt is ₹220. A discount of 20% is announced on festival sale. What is the selling price of the shirt?",
+          "opts": {
+            "a": "₹200",
+            "b": "₹176",
+            "c": "₹198",
+            "d": "₹154"
+          },
+          "explanation": "A 20% discount is ₹44, so the selling price is ₹220−₹44=₹176."
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "part": null,
+          "q": "A TV is bought for ₹13,500 including VAT of 8%. The price of the TV before VAT is—",
+          "opts": {
+            "a": "₹12,000",
+            "b": "₹12,200",
+            "c": "₹12,500",
+            "d": "₹13,000"
+          },
+          "explanation": "The pre-tax price is ₹13,500/1.08=₹12,500."
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "part": null,
+          "q": "A shopkeeper buys 80 articles for ₹2400 and sells them for a profit of 10%. Find the selling price of one article.",
+          "opts": {
+            "a": "₹33",
+            "b": "₹27.27",
+            "c": "₹2640",
+            "d": "₹2181.82"
+          },
+          "explanation": "The cost per article is ₹2400/80=₹30. A 10% profit gives a selling price of ₹33 each."
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "part": null,
+          "q": "Arrange −3/10, 7/−15, −11/20, 17/−30 in descending order.",
+          "opts": {
+            "a": "17/−30 > −11/20 > 7/−15 > −3/10",
+            "b": "−11/20 > 7/−15 > −3/10 > 17/−30",
+            "c": "7/−15 > −11/20 > 17/−30 > −3/10",
+            "d": "−3/10 > 7/−15 > −11/20 > 17/−30"
+          },
+          "explanation": "Their values are −0.3, about −0.467, −0.55 and about −0.567. Descending order is −3/10 > 7/−15 > −11/20 > 17/−30."
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "part": null,
+          "q": "The additive inverse of 15/−4 is—",
+          "opts": {
+            "a": "−4/15",
+            "b": "4/−15",
+            "c": "15/4",
+            "d": "−15/4"
+          },
+          "explanation": "15/−4 equals −15/4; its additive inverse is 15/4."
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "part": null,
+          "q": "After reading 7/9 of a book, Rema left 40 pages. How many pages did she read?",
+          "opts": {
+            "a": "180",
+            "b": "140",
+            "c": "120",
+            "d": "100"
+          },
+          "explanation": "The unread 2/9 is 40 pages, so the book has 180 pages. She read 7/9×180=140 pages."
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "part": null,
+          "q": "Find the least number which must be subtracted from 7250 to get a perfect square.",
+          "opts": {
+            "a": "25",
+            "b": "20",
+            "c": "85",
+            "d": "146"
+          },
+          "explanation": "The greatest square below 7250 is 85²=7225. Subtract 7250−7225=25."
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "part": null,
+          "q": "Evaluate √(∛(√4096)).",
+          "opts": {
+            "a": "4",
+            "b": "2",
+            "c": "6",
+            "d": "3"
+          },
+          "explanation": "√4096=64, ∛64=4, and √4=2."
         },
         "71": {
           "n": 71,

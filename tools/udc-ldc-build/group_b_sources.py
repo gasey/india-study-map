@@ -214,6 +214,11 @@ def build_additional():
             entry['expectedMcq'] = 50
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'si-fcs-2025-p2' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Printed cover: 100 two-mark questions, two hours, no negative marks.
+            entry['expectedMcq'] = 100
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'steno2-2025-p1' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 40
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,

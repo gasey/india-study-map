@@ -20202,6 +20202,668 @@
           "explanation": "(a) He said that he might not attend the meeting. (b) She asked him whether he was working on that project alone. (c) She said that she had a new book. (d) She said to him, “Please help me carry these boxes.” (e) Sangi said, “I will help you.” Context can change the appropriate pronouns and “this/that” in reported speech."
         }
       }
+    },
+    "si-fcs-2025-p2": {
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Rice",
+            "b": "Ginger",
+            "c": "Banana",
+            "d": "Kiwi"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Under Mizoram Liquor (Prohibition) Amendment Bill, 2025, which item is not specifically mentioned in the lists for manufacture, sale and supply of local beer?",
+          "multi": false
+        },
+        "2": {
+          "n": 2,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "14 March 2025",
+            "b": "15 March 2025",
+            "c": "17 March 2025",
+            "d": "13 March 2025"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "On which day was an official function held marking the relocation of Assam Rifle from Aizawl city center to Zokhawsang?",
+          "multi": false
+        },
+        "3": {
+          "n": 3,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "286 days",
+            "b": "268 days",
+            "c": "256 days",
+            "d": "292 days"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Recently they returned from ISS, how long did Sunita Williams and Butch Wilmore stay in International Space Station?",
+          "multi": false
+        },
+        "4": {
+          "n": 4,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Frankie Remruatsanga Zadeng",
+            "b": "Frankie Remruatfela Zadeng",
+            "c": "Frankie Remruatdika Zadeng",
+            "d": "Frankie Remruatkima Zadeng"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is India’s first “Generation Beta” baby?",
+          "multi": false
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Darjeeling",
+            "b": "Itanagar",
+            "c": "Srinagar",
+            "d": "Ladakh"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "India’s First Frozen Zoo is located in",
+          "multi": false
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "USA",
+            "b": "China",
+            "c": "Russia",
+            "d": "Japan"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which country recently unveiled the world’s first 6G device?",
+          "multi": false
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Kalibangan",
+            "b": "Alamgirpur",
+            "c": "Harappa",
+            "d": "Lothal"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Indus Valley Civilization site in Pakistan is located in-",
+          "multi": false
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Aurangzeb",
+            "b": "Shahjahan",
+            "c": "Akbar",
+            "d": "Jahangir"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Red Fort at Delhi was built by which of the following Mughal kings?",
+          "multi": false
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "learn the administrative system of the Gupta kings",
+            "b": "understand the social position of women during Gupta period",
+            "c": "visit the Buddhist institution and to collect copies of Buddhist manuscripts",
+            "d": "get full knowledge of peasants during Gupta kings"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Fa-Hien’s mission to India was to-",
+          "multi": false
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Iltutmish",
+            "b": "Qutb-ud-din Aibak",
+            "c": "Razia Sultan",
+            "d": "Balban"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who was the first ruler of Slave Dynasty?",
+          "multi": false
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Act of 1919",
+            "b": "Act of 1909",
+            "c": "Rowlatt Act",
+            "d": "Salt Law"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In 1919, Satyagraha was started by Gandhiji to protest against the-",
+          "multi": false
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Swadeshi Movement",
+            "b": "Non-Cooperation Movement",
+            "c": "Civil Disobedience Movement",
+            "d": "Quit India Movement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which was the last mass movement in India’s freedom struggle under the leadership of Mahatma Gandhi?",
+          "multi": false
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Arunachal Pradesh",
+            "b": "Nagaland",
+            "c": "Sikkim",
+            "d": "Tripura"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Apatanis are the tribes found in-",
+          "multi": false
+        },
+        "14": {
+          "n": 14,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Himachal Himalayas",
+            "b": "Uttarakhand Himalayas",
+            "c": "Arunachal Himalayas",
+            "d": "Darjeeling Himalayas"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Diphu pass is located on which of the following region of Himalayas?",
+          "multi": false
+        },
+        "15": {
+          "n": 15,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Brahmaputra",
+            "b": "Cavery",
+            "c": "Indus",
+            "d": "Narmada"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Chenab, Jhelum, Ravis and Sutlej are tributaries of-",
+          "multi": false
+        },
+        "16": {
+          "n": 16,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "1 and 3",
+            "d": "All of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following industry is a type of consumer goods industry? 1. Television manufacturing 2. Steel manufacturing 3. Tea and Coffee processing 4. Defense industry. Codes",
+          "multi": false
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Gonds",
+            "b": "Santhal",
+            "c": "Bodo",
+            "d": "Bhil"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is the largest tribal group of India (As per census 2011)?",
+          "multi": false
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "The Himalayas",
+            "b": "The Alps",
+            "c": "The Andes",
+            "d": "The Rocky"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is the longest mountain range?",
+          "multi": false
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "upto 40 km",
+            "b": "upto 16 km",
+            "c": "upto 20 km",
+            "d": "10 km"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The revised Free Movement Regime (FMR) 2024 allowed individuals to travel up to how many kilometers between India and Myanmar without a visa or passport?",
+          "multi": false
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Economic Liberty",
+            "b": "Liberty of Thought",
+            "c": "Liberty of Expression",
+            "d": "Liberty of Faith"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which type of liberty is not mentioned in the Preamble of the Indian Constitution?",
+          "multi": false
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1 and 2",
+            "b": "Only 2",
+            "c": "1, 3 and 4",
+            "d": "1, 2, 3 and 4"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is/are among the fundamental Duties of citizens laid down in the Indian Constitution? 1. To preserve the rich heritage of our composite culture 2. To protect the weaker sections from social injustice 3. To develop scientific temper and spirit of inquiry 4. To strive towards excellence in all spheres of individual and collective activity. Which of the statements given is/are correct?",
+          "multi": false
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Appropriation Bill",
+            "b": "Adjournment Motion",
+            "c": "Submission of Demand for Grants",
+            "d": "General Discussion"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following do not form part of the enactment of the budget?",
+          "multi": false
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Restricted to Hindus",
+            "b": "Restricted to Muslims",
+            "c": "Restricted to Christians",
+            "d": "Religiously neutral"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Scheduled Tribe status is",
+          "multi": false
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Articles 25-28",
+            "b": "Articles 29-30",
+            "c": "Articles 32-35",
+            "d": "Articles 23-24"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following Articles of the Indian Constitution contain the Right to Religious Freedom?",
+          "multi": false
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 3,
+          "explanation": "The amendment lists locally produced ingredients such as ginger, banana, dragon fruit, passion fruit, pineapple, gooseberry, guava, starfruit, sugarcane, jackfruit and watermelon. Kiwi is not named."
+        },
+        "2": {
+          "answerIndex": 1,
+          "explanation": "The Assam Rifles relocation ceremony at Zokhawsang was held on 15 March 2025."
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "Sunita Williams and Butch Wilmore returned after 286 days aboard the International Space Station."
+        },
+        "4": {
+          "answerIndex": 2,
+          "explanation": "Frankie Remruatdika Zadeng was identified in contemporaneous reporting as India’s first Generation Beta baby."
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "India’s first frozen zoo is at Padmaja Naidu Himalayan Zoological Park in Darjeeling."
+        },
+        "6": {
+          "answerIndex": 3,
+          "explanation": "A Japanese consortium formed by DOCOMO, NTT, NEC and Fujitsu unveiled the first high-speed 6G prototype device in 2024."
+        },
+        "7": {
+          "answerIndex": 2,
+          "explanation": "Harappa is the Indus Valley Civilization site in Pakistan among these choices; Kalibangan, Alamgirpur and Lothal are in India."
+        },
+        "8": {
+          "answerIndex": 1,
+          "explanation": "The Mughal emperor Shah Jahan commissioned the Red Fort in Delhi."
+        },
+        "9": {
+          "answerIndex": 2,
+          "explanation": "Fa-Hien was a Chinese Buddhist pilgrim who came to India to visit Buddhist institutions and collect Buddhist texts."
+        },
+        "10": {
+          "answerIndex": 1,
+          "explanation": "Qutb-ud-din Aibak founded the Mamluk or Slave dynasty in Delhi."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "Gandhi launched the 1919 Satyagraha against the Rowlatt Act."
+        },
+        "12": {
+          "answerIndex": 3,
+          "explanation": "The Quit India Movement of 1942 was Gandhi’s final mass movement in the freedom struggle."
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "The Apatani are an Indigenous community of the Ziro Valley in Arunachal Pradesh."
+        },
+        "14": {
+          "answerIndex": 2,
+          "explanation": "Diphu Pass lies in the eastern Arunachal sector of the Himalayas."
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "Chenab, Jhelum, Ravi and Sutlej are major tributaries of the Indus system."
+        },
+        "16": {
+          "answerIndex": 2,
+          "explanation": "Television manufacturing and tea/coffee processing produce consumer goods; steel and defence production are not both consumer-goods industries."
+        },
+        "17": {
+          "answerIndex": 3,
+          "explanation": "The 2011 Census records the Bhil as India’s largest Scheduled Tribe by population."
+        },
+        "18": {
+          "answerIndex": 2,
+          "explanation": "The Andes are the world’s longest continental mountain range."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "The Free Movement Regime allowed travel up to 16 km on either side of the India–Myanmar border."
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "The Preamble guarantees liberty of thought, expression, belief, faith and worship; it does not list economic liberty."
+        },
+        "21": {
+          "answerIndex": 2,
+          "explanation": "Fundamental Duties include preserving the composite cultural heritage, developing scientific temper, and striving for excellence (Article 51A clauses (f), (h) and (j)). Protecting weaker sections from social injustice is a Directive Principle, not a Fundamental Duty."
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "The budget process includes general discussion, demands for grants and the Appropriation Bill. An adjournment motion is a parliamentary accountability device, not part of budget enactment."
+        },
+        "23": {
+          "answerIndex": 3,
+          "explanation": "Scheduled Tribe recognition is not restricted by religion; the Constitution’s ST listings are religiously neutral."
+        },
+        "24": {
+          "answerIndex": 0,
+          "explanation": "Articles 25–28 protect freedom of conscience and the free profession, practice and propagation of religion, subject to their provisions."
+        }
+      },
+      "sourceSha256": "0bb9cacc2b5f753ab481e2f68f33adc2909c48a15f11c8073c89fd900cc63bcf",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "reviewedOn": "2026-10-08",
+      "nonMcq": [
+        8
+      ],
+      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification."
     }
   }
 }

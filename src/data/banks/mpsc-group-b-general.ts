@@ -52309,6 +52309,188 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-fcs-2025-p1.pdf#page=2"
   },
   {
+    "id": "mpsc-group-b-si-fcs-2025-p2-Q1",
+    "paperId": "mpsc-group-b-si-fcs-2025-p2",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "Under Mizoram Liquor (Prohibition) Amendment Bill, 2025, which item is not specifically mentioned in the lists for manufacture, sale and supply of local beer?",
+    "options": [
+      "Rice",
+      "Ginger",
+      "Banana",
+      "Kiwi"
+    ],
+    "answerIndex": 3,
+    "explanation": "The amendment lists locally produced ingredients such as ginger, banana, dragon fruit, passion fruit, pineapple, gooseberry, guava, starfruit, sugarcane, jackfruit and watermelon. Kiwi is not named.",
+    "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-fcs-2025-p2-Q2",
+    "paperId": "mpsc-group-b-si-fcs-2025-p2",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "On which day was an official function held marking the relocation of Assam Rifle from Aizawl city center to Zokhawsang?",
+    "options": [
+      "14 March 2025",
+      "15 March 2025",
+      "17 March 2025",
+      "13 March 2025"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Assam Rifles relocation ceremony at Zokhawsang was held on 15 March 2025.",
+    "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-fcs-2025-p2-Q3",
+    "paperId": "mpsc-group-b-si-fcs-2025-p2",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "Recently they returned from ISS, how long did Sunita Williams and Butch Wilmore stay in International Space Station?",
+    "options": [
+      "286 days",
+      "268 days",
+      "256 days",
+      "292 days"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sunita Williams and Butch Wilmore returned after 286 days aboard the International Space Station.",
+    "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-fcs-2025-p2-Q4",
+    "paperId": "mpsc-group-b-si-fcs-2025-p2",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "Who is India’s first “Generation Beta” baby?",
+    "options": [
+      "Frankie Remruatsanga Zadeng",
+      "Frankie Remruatfela Zadeng",
+      "Frankie Remruatdika Zadeng",
+      "Frankie Remruatkima Zadeng"
+    ],
+    "answerIndex": 2,
+    "explanation": "Frankie Remruatdika Zadeng was identified in contemporaneous reporting as India’s first Generation Beta baby.",
+    "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-fcs-2025-p2-Q5",
+    "paperId": "mpsc-group-b-si-fcs-2025-p2",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "India’s First Frozen Zoo is located in",
+    "options": [
+      "Darjeeling",
+      "Itanagar",
+      "Srinagar",
+      "Ladakh"
+    ],
+    "answerIndex": 0,
+    "explanation": "India’s first frozen zoo is at Padmaja Naidu Himalayan Zoological Park in Darjeeling.",
+    "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-fcs-2025-p2-Q6",
+    "paperId": "mpsc-group-b-si-fcs-2025-p2",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "Which country recently unveiled the world’s first 6G device?",
+    "options": [
+      "USA",
+      "China",
+      "Russia",
+      "Japan"
+    ],
+    "answerIndex": 3,
+    "explanation": "A Japanese consortium formed by DOCOMO, NTT, NEC and Fujitsu unveiled the first high-speed 6G prototype device in 2024.",
+    "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-fcs-2025-p2-Q7",
+    "paperId": "mpsc-group-b-si-fcs-2025-p2",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge, Arithmetic & Reasoning",
+    "difficulty": "medium",
+    "question": "The Indus Valley Civilization site in Pakistan is located in-",
+    "options": [
+      "Kalibangan",
+      "Alamgirpur",
+      "Harappa",
+      "Lothal"
+    ],
+    "answerIndex": 2,
+    "explanation": "Harappa is the Indus Valley Civilization site in Pakistan among these choices; Kalibangan, Alamgirpur and Lothal are in India.",
+    "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q8",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
     "questionNumber": "8",
@@ -52317,21 +52499,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "There are no negative marks for incorrect answer. 1.Under Mizoram Liquor (Prohibition) Amendment Bill, 2025, which item is not specifically mentioned in the lists for manufacture, sale and supply of local beer?",
+    "question": "Red Fort at Delhi was built by which of the following Mughal kings?",
     "options": [
-      "Rice",
-      "Ginger",
-      "Banana",
-      "Kiwi (a)14 March 2025(b)15 March 2025 (c)17 March 2025(d)13 March 2025 (a)286 days(b)268 days (c)256 days(d)292 days (a)Frankie Remruatsanga Zadeng(b)Frankie Remruatfela Zadeng (c)Frankie Remruatdika Zadeng(d)Frankie Remruatkima Zadeng (a)Darjeeling(b)Itanagar (c)Srinagar(d)Ladakh (a)USA(b)China (c)Russia(d)Japan (a)Kalibangan(b)Alamgirpur (c)Harappa(d)Lothal (a)Aurangzeb(b)Shahjahan (c)Akbar(d)Jahangir"
+      "Aurangzeb",
+      "Shahjahan",
+      "Akbar",
+      "Jahangir"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Mughal emperor Shah Jahan commissioned the Red Fort in Delhi.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
-    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=1",
-    "sourceReview": true,
+    "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q9",
@@ -52349,17 +52532,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "visit the Buddhist institution and to collect copies of Buddhist manuscripts",
       "get full knowledge of peasants during Gupta kings"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Fa-Hien was a Chinese Buddhist pilgrim who came to India to visit Buddhist institutions and collect Buddhist texts.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q10",
@@ -52377,14 +52558,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Razia Sultan",
       "Balban"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Qutb-ud-din Aibak founded the Mamluk or Slave dynasty in Delhi.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q11",
@@ -52402,17 +52584,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Rowlatt Act",
       "Salt Law"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Gandhi launched the 1919 Satyagraha against the Rowlatt Act.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q12",
@@ -52430,14 +52610,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Civil Disobedience Movement",
       "Quit India Movement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Quit India Movement of 1942 was Gandhi’s final mass movement in the freedom struggle.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q13",
@@ -52455,17 +52636,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Sikkim",
       "Tripura"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Apatani are an Indigenous community of the Ziro Valley in Arunachal Pradesh.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q14",
@@ -52483,14 +52662,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Arunachal Himalayas",
       "Darjeeling Himalayas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Diphu Pass lies in the eastern Arunachal sector of the Himalayas.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q15",
@@ -52508,17 +52688,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Indus",
       "Narmada"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Chenab, Jhelum, Ravi and Sutlej are major tributaries of the Indus system.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q16",
@@ -52529,21 +52707,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following industry is a type of consumer goods industry? 1. Television manufacturing2.Steel manufacturing 3. Tea and Coffee processing4.Defense industry Codes",
+    "question": "Which of the following industry is a type of consumer goods industry? 1. Television manufacturing 2. Steel manufacturing 3. Tea and Coffee processing 4. Defense industry. Codes",
     "options": [
       "1 and 2",
       "2 and 3",
       "1 and 3",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Television manufacturing and tea/coffee processing produce consumer goods; steel and defence production are not both consumer-goods industries.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q17",
@@ -52561,14 +52740,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Bodo",
       "Bhil"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 2011 Census records the Bhil as India’s largest Scheduled Tribe by population.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q18",
@@ -52586,14 +52766,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "The Andes",
       "The Rocky"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Andes are the world’s longest continental mountain range.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q19",
@@ -52611,14 +52792,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "upto 20 km",
       "10 km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Free Movement Regime allowed travel up to 16 km on either side of the India–Myanmar border.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q20",
@@ -52636,14 +52818,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Liberty of Expression",
       "Liberty of Faith"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Preamble guarantees liberty of thought, expression, belief, faith and worship; it does not list economic liberty.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q21",
@@ -52654,21 +52837,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following is/are among the fundamental Duties of citizens laid down in the Indian Constitution. 1. To preserve the rich heritage of our composite culture 2. To protect the weaker sections from social injustice 3. To develop scientific temper and spirit of inquiry 4. To strive towards excellence in all spheres of individual and collective activity Which of the statements given is/are correct?",
+    "question": "Which of the following is/are among the fundamental Duties of citizens laid down in the Indian Constitution? 1. To preserve the rich heritage of our composite culture 2. To protect the weaker sections from social injustice 3. To develop scientific temper and spirit of inquiry 4. To strive towards excellence in all spheres of individual and collective activity. Which of the statements given is/are correct?",
     "options": [
       "1 and 2",
       "Only 2",
       "1, 3 and 4",
       "1, 2, 3 and 4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Fundamental Duties include preserving the composite cultural heritage, developing scientific temper, and striving for excellence (Article 51A clauses (f), (h) and (j)). Protecting weaker sections from social injustice is a Directive Principle, not a Fundamental Duty.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q22",
@@ -52686,14 +52870,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Submission of Demand for Grants",
       "General Discussion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The budget process includes general discussion, demands for grants and the Appropriation Bill. An adjournment motion is a parliamentary accountability device, not part of budget enactment.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q23",
@@ -52711,14 +52896,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Restricted to Christians",
       "Religiously neutral"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Scheduled Tribe recognition is not restricted by religion; the Constitution’s ST listings are religiously neutral.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q24",
@@ -52736,14 +52922,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Articles 32-35",
       "Articles 23-24"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Articles 25–28 protect freedom of conscience and the free profession, practice and propagation of religion, subject to their provisions.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q25",
@@ -55672,7 +55859,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B35",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -55863,9 +56052,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B42",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -63688,7 +63875,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q20",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -63870,9 +64059,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q27",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -72499,7 +72686,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p1-B56",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -72695,9 +72884,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=1"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p1-written-3",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -80776,7 +80963,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B19",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B20",
     "questionNumber": "B20",
@@ -80965,9 +81154,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B26",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B27",
     "questionNumber": "B27",
@@ -88623,7 +88810,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B95",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-B96",
     "questionNumber": "B96",
@@ -88810,9 +88999,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B2",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B3",
     "questionNumber": "B3",
@@ -93218,6 +93405,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-si-fcs-2025-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-aao-2025-p2": {
     "marksPerQuestion": 2,
     "durationMinutes": 120,
@@ -93347,6 +93540,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-steno-2025-gk": 100,
   "mpsc-group-b-steno2-2025-p1": 40,
   "mpsc-group-b-si-excise-2025-p1": 30,
+  "mpsc-group-b-si-fcs-2025-p2": 100,
   "mpsc-group-b-mvi-2025-p2": 100,
   "mpsc-group-b-hfw-2026-p1": 50,
   "mpsc-group-b-hfw-2026-p2": 100,

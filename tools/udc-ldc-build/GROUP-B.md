@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 8 October 2026
 
-49 general papers, 3,466 items: 3,395 MCQs and 71 written prompts.
-2,238 questions are ready for practice, including 1,614 official answers and
-624 independently derived answers. 1,171 items still need source review.
+49 general papers, 3,473 items: 3,402 MCQs and 71 written prompts.
+2,262 questions are ready for practice, including 1,614 official answers and
+648 independently derived answers. 1,154 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -56,6 +56,8 @@ Motor Vehicle Inspector Paper-II (General Knowledge), September 2025 Q1–100 is
 Group B technical Health & Family Welfare General Studies Paper-II, January 2026 Q1–100 has been checked against the cover and all eight printed pages. Ninety-nine answers have independently derived explanations. Q14 remains unscored because “within India’s boundary” is ambiguous between K2 within India’s claimed boundary and Kangchenjunga wholly within Indian-administered territory. Q95 identifies “Duhmanga leh Thanghniangi” as the mismatched pair; a Mizoram University journal documents the tale as “Duhmanga leh Dardini.” Q4 distinguishes the combined 30% levy from the 10% customs duty; Q24 distinguishes the RTI Act’s assent date from its commencement date; Q75 now asks for the report containing the widely used definition; and Q90 notes that “genome” would be more precise than the available “genotype” choice.
 
 Group B technical Health & Family Welfare General English Paper-I, January 2026 is now fully transcribed and checked against all seven printed pages: 50 MCQs and all five conventional prompts, including both passages and their subquestions. Forty-eight MCQs have independent explanations; Q22 has no valid correction option and Q25 permits overlapping corrections, so both remain unscored. The five written prompts include model guidance. The paper specifies three hours and 100 marks (50 MCQ, 50 conventional) and stays out of full-paper Exam mode because no verified final key is available.
+
+Sub-Inspector FCS&CA / Receptionist H&FW Paper-II, May 2025 Booklet A had its first eight questions merged into one OCR row. Q1–8 were reconstructed from printed page 2 and Q9–24 checked against pages 2–3; all 24 include derived explanations. The remaining 76 questions are explicitly still awaiting scan review.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

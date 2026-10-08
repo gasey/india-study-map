@@ -320,7 +320,8 @@
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 100
   },
   {
     "id": "mpsc-group-b-aao-2025-p1",

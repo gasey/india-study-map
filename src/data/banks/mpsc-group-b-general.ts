@@ -23088,15 +23088,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Acandoaworkin36dayswhileBcandothesamein48days.IfAworkfor‘x’dayswhileBworks for‘x+2’days,thenone-thirdoftheworkiscomplete.Findthevalueofx?",
+    "question": "A can do a work in 36 days while B can do the same in 48 days. If A works for x days while B works for x+2 days, then one-third of the work is complete. Find x.",
     "options": [
       "3",
       "9",
       "6",
       "5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A’s rate is 1/36 and B’s is 1/48. Thus x/36+(x+2)/48=1/3. Multiplying by 144 gives 4x+3x+6=48, so x=6.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=10",
@@ -23105,10 +23105,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q95",
@@ -23119,15 +23117,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Ifyoutravel39kmataspeedof26km/hr,another39kmataspeedof39knv/hrandagain39kmataspeed of52km/hr.Whatisyouraveragespeedfortheentirejoumey?",
+    "question": "If you travel 39 km at a speed of 26 km/hr, another 39 km at a speed of 39 km/hr, and again 39 km at a speed of 52 km/hr, what is your average speed for the entire journey?",
     "options": [
-      "36km/hr",
-      "37km/hr",
-      "39km/hr",
-      "32km/hr"
+      "36 km/hr",
+      "37 km/hr",
+      "39 km/hr",
+      "32 km/hr"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The distances are equal, so average speed is total distance divided by total time: 117/(39/26+39/39+39/52)=117/(1.5+1+0.75)=36 km/hr.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=10",
@@ -23136,10 +23134,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q96",
@@ -23150,15 +23146,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Thesimpleinterestonacertainsumfor8monthsat4%perannumis€129lessthanthesimple interestonthesamesumfor15monthsat5%perannum.Whatisthesum?",
+    "question": "The simple interest on a certain sum for 8 months at 4% per annum is ₹129 less than the simple interest on the same sum for 15 months at 5% per annum. What is the sum?",
     "options": [
-      "%2,900",
-      "23,600",
-      "%3,500",
-      "%2,500"
+      "₹2,900",
+      "₹3,600",
+      "₹3,500",
+      "₹2,500"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The two interest amounts are 4P×8/120 and 5P×15/120. Their difference is P/120×(75−32)=129, so P=₹3600.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=10",
@@ -23167,10 +23163,37 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-arithmetic-Q97",
+    "paperId": "mpsc-group-b-aao-2024-arithmetic",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A sum of ₹8,000 becomes ₹12,500.00 in 2 years at a certain rate of compound interest. What will be the sum after 3 years?",
+    "options": [
+      "₹15,625.00",
+      "₹13,175.00",
+      "₹12,575.00",
+      "₹14,225.00"
+    ],
+    "answerIndex": 0,
+    "explanation": "The two-year growth factor is 12,500/8,000=25/16, so the annual factor is 5/4. After three years the amount is ₹8,000×(5/4)³=₹15,625.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=10",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q98",
@@ -23181,15 +23204,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Thedifferencebetweenthesimpleandthecompoundintereston%xat9%perannumfor2yearsis 20.25.Whatisthevalueofx?",
+    "question": "The difference between the simple and compound interest on ₹x at 9% per annum for 2 years is ₹20.25. What is the value of x?",
     "options": [
-      "%2,800.00",
-      "%2,400.00",
-      "%2,000.00",
-      "%2,500.00"
+      "₹2,800.00",
+      "₹2,400.00",
+      "₹2,000.00",
+      "₹2,500.00"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "For two years, compound interest exceeds simple interest by P(r/100)². Therefore 20.25=x×0.09², giving x=₹2,500.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=10",
@@ -23198,10 +23221,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q99",
@@ -23212,15 +23233,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Theareaofasquareandarectangleareequal.Thelengthoftherectangleis8cmmorethanthe lengthofanysideofthesquareandthebreadthis6cmless.Theperimeter(incm)oftherectangle willbe-",
+    "question": "The area of a square and a rectangle are equal. The length of the rectangle is 8 cm more than a side of the square, and its breadth is 6 cm less. What is the perimeter of the rectangle?",
     "options": [
-      "120cm",
-      "80cm.",
-      "100cm",
-      "140cm"
+      "120 cm",
+      "80 cm",
+      "100 cm",
+      "140 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Let the square’s side be s. Equal areas give (s+8)(s−6)=s², so 2s−48=0 and s=24. The rectangle is 32 cm by 18 cm, with perimeter 100 cm.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=10",
@@ -23229,10 +23250,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-arithmetic-Q100",
@@ -23243,15 +23262,15 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Arithmetic",
     "difficulty": "medium",
-    "question": "Awatertankis5meterlong,3mboardand1mdeep.Howmanylitresofwatercanithold?",
+    "question": "A water tank is 5 m long, 3 m broad, and 1 m deep. How many litres of water can it hold?",
     "options": [
-      "729litres",
-      "810litres",
-      "16000litres",
-      "15000litres 2"
+      "729 litres",
+      "810 litres",
+      "16,000 litres",
+      "15,000 litres"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The volume is 5×3×1=15 m³. Each cubic metre holds 1,000 litres, so the tank holds 15,000 litres. The scan reads “board” for the second dimension; “broad” is corrected for readability.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-arithmetic.pdf#page=10",
@@ -23260,10 +23279,8 @@ const groupBQuestionsPart3: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos,65—67):Thegivenpie-chartshowsthemonthlyexpensesofafamilyon"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-jao-2025-p1-B1",
@@ -24602,7 +24619,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos,56-60):Pickoutthesentencewhichhasnoerrorinit."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p1-B58",
     "paperId": "mpsc-group-b-jao-2025-p1",
@@ -24628,9 +24647,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos,56-60):Pickoutthesentencewhichhasnoerrorinit."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p1-B59",
     "paperId": "mpsc-group-b-jao-2025-p1",
@@ -32378,7 +32395,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B34",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32408,9 +32427,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 31–35): Complete the following sentences with the most suitable preposition provided below."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-english-B35",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -40715,7 +40732,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q15",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40740,9 +40759,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q16",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48403,7 +48420,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B13",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -48433,9 +48452,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B14",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -56377,7 +56394,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B53",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -56406,9 +56425,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B54",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -64098,7 +64115,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q38",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64126,9 +64145,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q39",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -73007,7 +73024,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q10",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73034,9 +73053,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q11",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81275,7 +81292,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B37",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B38",
     "questionNumber": "B38",
@@ -81302,9 +81321,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B38",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B39",
     "questionNumber": "B39",
@@ -89117,7 +89134,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B13",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B14",
     "questionNumber": "B14",
@@ -89144,9 +89163,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B14",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B15",
     "questionNumber": "B15",

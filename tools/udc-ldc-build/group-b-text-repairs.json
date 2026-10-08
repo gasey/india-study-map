@@ -2648,7 +2648,7 @@
       "sourceSha256": "f28f780e75a0ef77d42c364c377fa57b31ebf8b961b8cce3f984bc8fa84a1db9",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–93 and 71 checked against rendered PDF pages 1–9 and 7; stems/options and calculations verified against the scan/final key. Q75 is held out for a key/ratio conflict, Q70 for a missing assumption, Q30 is compensated, and Q37 is editorially completed.",
+      "evidence": "Questions 1–100 have been checked against the printed pages (pages 1–10) and the final answer key. Stems, four options and calculations were verified. Q75 is held out for a key/ratio conflict, Q70 for a missing assumption, Q30 is compensated, and Q37 is editorially completed. Q100’s printed “board” is corrected to “broad” for readability.",
       "questions": {
         "1": {
           "n": 1,
@@ -3864,6 +3864,97 @@
             "d": "36"
           },
           "explanation": "Let B’s rate be r and A’s 2r. Then 3r=1/12, so r=1/36; B alone takes 36 days."
+        },
+        "94": {
+          "n": 94,
+          "page": 10,
+          "part": null,
+          "q": "A can do a work in 36 days while B can do the same in 48 days. If A works for x days while B works for x+2 days, then one-third of the work is complete. Find x.",
+          "opts": {
+            "a": "3",
+            "b": "9",
+            "c": "6",
+            "d": "5"
+          },
+          "explanation": "A’s rate is 1/36 and B’s is 1/48. Thus x/36+(x+2)/48=1/3. Multiplying by 144 gives 4x+3x+6=48, so x=6."
+        },
+        "95": {
+          "n": 95,
+          "page": 10,
+          "part": null,
+          "q": "If you travel 39 km at a speed of 26 km/hr, another 39 km at a speed of 39 km/hr, and again 39 km at a speed of 52 km/hr, what is your average speed for the entire journey?",
+          "opts": {
+            "a": "36 km/hr",
+            "b": "37 km/hr",
+            "c": "39 km/hr",
+            "d": "32 km/hr"
+          },
+          "explanation": "The distances are equal, so average speed is total distance divided by total time: 117/(39/26+39/39+39/52)=117/(1.5+1+0.75)=36 km/hr."
+        },
+        "96": {
+          "n": 96,
+          "page": 10,
+          "part": null,
+          "q": "The simple interest on a certain sum for 8 months at 4% per annum is ₹129 less than the simple interest on the same sum for 15 months at 5% per annum. What is the sum?",
+          "opts": {
+            "a": "₹2,900",
+            "b": "₹3,600",
+            "c": "₹3,500",
+            "d": "₹2,500"
+          },
+          "explanation": "The two interest amounts are 4P×8/120 and 5P×15/120. Their difference is P/120×(75−32)=129, so P=₹3600."
+        },
+        "97": {
+          "n": 97,
+          "page": 10,
+          "part": null,
+          "q": "A sum of ₹8,000 becomes ₹12,500.00 in 2 years at a certain rate of compound interest. What will be the sum after 3 years?",
+          "opts": {
+            "a": "₹15,625.00",
+            "b": "₹13,175.00",
+            "c": "₹12,575.00",
+            "d": "₹14,225.00"
+          },
+          "explanation": "The two-year growth factor is 12,500/8,000=25/16, so the annual factor is 5/4. After three years the amount is ₹8,000×(5/4)³=₹15,625."
+        },
+        "98": {
+          "n": 98,
+          "page": 10,
+          "part": null,
+          "q": "The difference between the simple and compound interest on ₹x at 9% per annum for 2 years is ₹20.25. What is the value of x?",
+          "opts": {
+            "a": "₹2,800.00",
+            "b": "₹2,400.00",
+            "c": "₹2,000.00",
+            "d": "₹2,500.00"
+          },
+          "explanation": "For two years, compound interest exceeds simple interest by P(r/100)². Therefore 20.25=x×0.09², giving x=₹2,500."
+        },
+        "99": {
+          "n": 99,
+          "page": 10,
+          "part": null,
+          "q": "The area of a square and a rectangle are equal. The length of the rectangle is 8 cm more than a side of the square, and its breadth is 6 cm less. What is the perimeter of the rectangle?",
+          "opts": {
+            "a": "120 cm",
+            "b": "80 cm",
+            "c": "100 cm",
+            "d": "140 cm"
+          },
+          "explanation": "Let the square’s side be s. Equal areas give (s+8)(s−6)=s², so 2s−48=0 and s=24. The rectangle is 32 cm by 18 cm, with perimeter 100 cm."
+        },
+        "100": {
+          "n": 100,
+          "page": 10,
+          "part": null,
+          "q": "A water tank is 5 m long, 3 m broad, and 1 m deep. How many litres of water can it hold?",
+          "opts": {
+            "a": "729 litres",
+            "b": "810 litres",
+            "c": "16,000 litres",
+            "d": "15,000 litres"
+          },
+          "explanation": "The volume is 5×3×1=15 m³. Each cubic metre holds 1,000 litres, so the tank holds 15,000 litres. The scan reads “board” for the second dimension; “broad” is corrected for readability."
         }
       },
       "partialReview": true

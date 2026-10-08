@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 8 October 2026
 
-49 general papers, 3,454 items: 3,347 MCQs and 107 written prompts.
-1,716 questions are ready for practice, including 1,604 official answers and
-112 independently derived answers. 1,705 items still need source review.
+49 general papers, 3,455 items: 3,348 MCQs and 107 written prompts.
+1,723 questions are ready for practice, including 1,611 official answers and
+112 independently derived answers. 1,699 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -45,7 +45,7 @@ conflict with the printed grammar/meaning; Q33 has multiple defensible
 comparative forms and is also unscored. The paper remains out of Exam mode
 until those five answer conflicts are clarified.
 
-AAO/AAAO 2024 Arithmetic Q1–93 is now scan-checked and keyed with worked
+AAO/AAAO 2024 Arithmetic Q1–100 is now scan-checked and keyed with worked
 calculations. Q7’s printed endpoint gives 27 terms (D); the legacy inferred
 candidate 26 (C) was rejected after checking the scan and arithmetic. Q30 is
 held unscored because its printed wall dimensions are smaller than a brick; the
@@ -56,7 +56,9 @@ Q52’s nested radicals are also fully typeset and evaluated; the solution
 confirms the official key despite a conflicting legacy inferred candidate.
 Q70 stays unscored because the stem does not specify that every student likes
 at least one of the two sports. Q75 is also unscored because its final-key
-choice conflicts with the ratios printed in the question.
+choice conflicts with the ratios printed in the question. Q94–100 were checked
+against the final key and include worked calculations; Q100’s scanned “board”
+was corrected to “broad” for readability.
 
 The December 2024 combined exam has all 75 Paper I and 100 Paper II MCQs.
 Paper II Q84–100 were recovered from the complete Series B with matching

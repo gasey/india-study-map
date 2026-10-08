@@ -7,8 +7,8 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 ## Progress — 8 October 2026
 
 49 general papers, 3,466 items: 3,345 MCQs and 121 written prompts.
-2,170 questions are ready for practice, including 1,614 official answers and
-556 independently derived answers. 1,244 items still need source review.
+2,190 questions are ready for practice, including 1,614 official answers and
+576 independently derived answers. 1,224 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -53,7 +53,7 @@ Three disputed AAO key items were independently re-derived: English Q37 uses the
 
 Motor Vehicle Inspector Paper-II (General Knowledge), September 2025 Q1–100 is now scan-checked against all ten printed pages. Ninety-three questions have independently derived explanations; Q18, Q28, Q32, Q47, Q65, Q79 and Q89 remain unscored for documented ambiguity or defective options. Q68, Q69, Q70 and Q72 have minimal wording corrections for scientific accuracy and clarity. The full 100-question transcription and option sets were checked, but the paper remains excluded from full-paper Exam mode because it lacks a verified official answer key and includes held items.
 
-Group B technical Health & Family Welfare General Studies Paper-II, January 2026 Q1–80 has been checked against the cover and pages 1–7. Seventy-nine answers have worked explanations. Q14 remains unscored because “within India’s boundary” is ambiguous between K2 within India’s claimed boundary and Kangchenjunga wholly within Indian-administered territory. Q4 distinguishes the combined 30% levy from the 10% customs duty; Q24 distinguishes the RTI Act’s assent date from its commencement date; and Q75 now asks for the report containing the widely used definition rather than making a false “first defined” claim.
+Group B technical Health & Family Welfare General Studies Paper-II, January 2026 Q1–100 has been checked against the cover and all eight printed pages. Ninety-nine answers have independently derived explanations. Q14 remains unscored because “within India’s boundary” is ambiguous between K2 within India’s claimed boundary and Kangchenjunga wholly within Indian-administered territory. Q95 identifies “Duhmanga leh Thanghniangi” as the mismatched pair; a Mizoram University journal documents the tale as “Duhmanga leh Dardini.” Q4 distinguishes the combined 30% levy from the 10% customs duty; Q24 distinguishes the RTI Act’s assent date from its commencement date; Q75 now asks for the report containing the widely used definition; and Q90 notes that “genome” would be more precise than the available “genotype” choice.
 
 The official MPSC final keys for the March 2025 Stenographer Grade-III General
 Knowledge and General English papers are now attached. All 100 General

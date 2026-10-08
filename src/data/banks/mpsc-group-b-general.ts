@@ -64845,14 +64845,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "26.7.2022",
       "26.7.2023"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Ramsar Information Sheet records Pala Wetland as designated on 26 July 2021.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q82",
@@ -64870,17 +64871,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "55 dB",
       "60 dB"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The National Ambient Air Quality Standards set the residential-area daytime noise limit at 55 dB(A) Leq.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q83",
@@ -64898,17 +64897,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "IUCN",
       "FAO"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The IUCN publishes the Red Data Book, which records threatened species and their conservation status.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q84",
@@ -64926,17 +64923,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Annihilation",
       "Extirpation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Extirpation is the disappearance of a species from a particular local area while it may survive elsewhere; local extinction is also called extirpation.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q85",
@@ -64954,17 +64949,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Arthur Tansley",
       "Jay Lamarck"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Edward O. Wilson is widely called the father of biodiversity for his work popularizing and advancing the field.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q86",
@@ -64982,14 +64975,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Tamil Nadu",
       "Andhra Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Tamil Nadu has the most Ramsar sites among Indian states; the State Wetlands Authority lists 20.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q87",
@@ -65007,17 +65001,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Myopia",
       "Presbyopia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Myopia (short-sightedness) makes distant objects appear blurred.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q88",
@@ -65035,17 +65027,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Xenon",
       "Helium"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Xenon is known as the “stranger gas,” from the Greek xenos meaning stranger.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q89",
@@ -65063,17 +65053,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Smelting",
       "Flux and Slag"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Heating a concentrated sulphide ore in excess air to convert it into oxide is roasting.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q90",
@@ -65091,17 +65079,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Alleles",
       "Heteroploidy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Genotype refers to an organism’s genetic constitution. “Genome” is the more exact term for the complete genetic complement, but it is not an option.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q91",
@@ -65119,17 +65105,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Medulla",
       "Pons"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The cerebellum coordinates movement and helps maintain posture and balance.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q92",
@@ -65147,17 +65131,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Plasma",
       "Iron oxide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Haemoglobin, the iron-containing pigment in red blood cells, gives human blood its red colour.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q93",
@@ -65175,14 +65157,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Darlawn",
       "Hnahthial"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lunglei won the Promising Swachh Shehar of Mizoram Award in Swachh Survekshan 2025.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q94",
@@ -65200,14 +65183,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "H Lallungmuana",
       "Lalhriata"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "H. Lallungmuana wrote the Mizo novel Ram leh I Tan Chauh.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q95",
@@ -65225,14 +65209,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Duhmanga leh Thanghniangi",
       "Tumchhingi leh Raldawna"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The established folktale is “Duhmanga leh Dardini,” documented in Mizo Studies, a refereed journal published by Mizoram University. The other listed pairs are also documented Mizo tales; therefore “Duhmanga leh Thanghniangi” is the mismatched pair.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q96",
@@ -65250,14 +65235,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "7",
       "8"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Accounts of Sichangneii state that she had seven sons.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q97",
@@ -65275,14 +65261,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Param Vir Chakra",
       "Maha Vir Chakra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lalzadingi received the Shaurya Chakra in 1980 for killing a tiger with an axe in 1978.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q98",
@@ -65300,14 +65287,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Vakul Chang",
       "Vakiria"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Chhawn was a distinctive warrior head ornament associated with taking an enemy’s head.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q99",
@@ -65325,14 +65313,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Making agreement",
       "Showing respect"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Sa-ui-tan” means making an agreement or pact.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q100",
@@ -65350,14 +65339,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "December",
       "January"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Khuangchawi thla is October in the traditional Mizo calendar.",
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-radio-2026-p1-B1",

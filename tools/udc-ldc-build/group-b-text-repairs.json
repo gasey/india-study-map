@@ -16110,9 +16110,9 @@
     "hfw-2026-p2": {
       "sourceSha256": "d569cbc0dc8dd7849b3a4f960540d1e4c5e4f2700210353dafe01315c7d668bd",
       "expectedMcq": 100,
-      "partialReview": true,
+      "partialReview": false,
       "reviewedOn": "2026-10-08",
-      "evidence": "Group B technical common examination under Health & Family Welfare, January 2026, Paper-II (General Studies). Q1–20 were checked against the printed cover and pages 1–2; all numbered stems, option wording and four-option sets were compared with the scan. The cover specifies 100 one-mark questions and two hours, with no negative-marking instruction. Nineteen answers have independently derived explanations. Q14 is held because “within India’s boundary” can refer to India’s claimed boundary (K2) or territory under Indian administration (Kangchenjunga), and the stem does not specify which. Questions 21–40 were checked against printed pages 2–4; stems, numbering and all options were verified. All twenty have independently derived explanations. Q24 is clarified to distinguish Presidential assent (15 June) from the Act coming into force (12 October). Questions 41–60 were checked against printed pages 4–6; all stems and option sets were checked for completeness and legibility. All twenty have independently derived explanations. Q44’s expected season was checked against the Lai District Government’s festival description; Q52’s award was checked against the Urban Mobility India award record. Questions 61–80 were checked against printed pages 6–7; all stems, numbering and options were checked. All twenty have independently derived explanations. Q64 spelling and Q68 longitude typography/options were corrected for readability; Q75 was clarified because the phrase “first defined” was historically imprecise, while the Brundtland Report contains the widely used definition.",
+      "evidence": "Group B technical common examination under Health & Family Welfare, January 2026, Paper-II (General Studies). Q1–20 were checked against the printed cover and pages 1–2; all numbered stems, option wording and four-option sets were compared with the scan. The cover specifies 100 one-mark questions and two hours, with no negative-marking instruction. Nineteen answers have independently derived explanations. Q14 is held because “within India’s boundary” can refer to India’s claimed boundary (K2) or territory under Indian administration (Kangchenjunga), and the stem does not specify which. Questions 21–40 were checked against printed pages 2–4; stems, numbering and all options were verified. All twenty have independently derived explanations. Q24 is clarified to distinguish Presidential assent (15 June) from the Act coming into force (12 October). Questions 41–60 were checked against printed pages 4–6; all stems and option sets were checked for completeness and legibility. All twenty have independently derived explanations. Q44’s expected season was checked against the Lai District Government’s festival description; Q52’s award was checked against the Urban Mobility India award record. Questions 61–80 were checked against printed pages 6–7; all stems, numbering and options were checked. All twenty have independently derived explanations. Q64 spelling and Q68 longitude typography/options were corrected for readability; Q75 was clarified because the phrase “first defined” was historically imprecise, while the Brundtland Report contains the widely used definition. Questions 81–100 were checked against printed pages 7–8; all stems, numbering and four-option sets were verified against the scan. Twenty answers have independently derived explanations. Q95 is keyed to the mismatched Duhmanga–Thanghniangi pair after checking Mizo Studies (Mizoram University) and the Tribal Research Institute folklore catalogue; Q90 uses “genotype” as the closest available choice, though “genome” is technically more exact for a complete genetic complement. Q81 was verified against the Ramsar site record and Q86 against the Tamil Nadu State Wetlands Authority.",
       "questions": {
         "1": {
           "n": 1,
@@ -17956,6 +17956,466 @@
           "ambiguous": [],
           "q": "Which institution publishes the Inclusive Development Index (IDI)?",
           "multi": false
+        },
+        "81": {
+          "n": 81,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "26.7.2020",
+            "b": "26.7.2021",
+            "c": "26.7.2022",
+            "d": "26.7.2023"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "When was Palak dil (Pala Wetland) declared a Ramsar site?",
+          "multi": false
+        },
+        "82": {
+          "n": 82,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "45 dB",
+            "b": "50 dB",
+            "c": "55 dB",
+            "d": "60 dB"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the permissible noise level in residential areas during daytime in India?",
+          "multi": false
+        },
+        "83": {
+          "n": 83,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "WHO",
+            "b": "UNEP",
+            "c": "IUCN",
+            "d": "FAO"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Red Data Book is published by:",
+          "multi": false
+        },
+        "84": {
+          "n": 84,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Endangered",
+            "b": "Speciation",
+            "c": "Annihilation",
+            "d": "Extirpation"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The local extinction of a species is known as:",
+          "multi": false
+        },
+        "85": {
+          "n": 85,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Edward O Wilson",
+            "b": "Steven Glould",
+            "c": "Arthur Tansley",
+            "d": "Jay Lamarck"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is known as the father of biodiversity?",
+          "multi": false
+        },
+        "86": {
+          "n": 86,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "West Bengal",
+            "b": "Odisha",
+            "c": "Tamil Nadu",
+            "d": "Andhra Pradesh"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which state has the maximum Ramsar wetland sites in India?",
+          "multi": false
+        },
+        "87": {
+          "n": 87,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Hypermetropia",
+            "b": "Astigmatism",
+            "c": "Myopia",
+            "d": "Presbyopia"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the condition in which a person cannot see distant object clearly?",
+          "multi": false
+        },
+        "88": {
+          "n": 88,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Neon",
+            "b": "Argon",
+            "c": "Xenon",
+            "d": "Helium"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is called stranger gas?",
+          "multi": false
+        },
+        "89": {
+          "n": 89,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Calcination",
+            "b": "Roasting",
+            "c": "Smelting",
+            "d": "Flux and Slag"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the process of heating the concentrated sulfide ore in excess air?",
+          "multi": false
+        },
+        "90": {
+          "n": 90,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Phenotype",
+            "b": "Genotype",
+            "c": "Alleles",
+            "d": "Heteroploidy"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The entire genetic complement of an individual organism is called:",
+          "multi": false
+        },
+        "91": {
+          "n": 91,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Cerebrum",
+            "b": "Cerebellum",
+            "c": "Medulla",
+            "d": "Pons"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which part of the human brain controls balance?",
+          "multi": false
+        },
+        "92": {
+          "n": 92,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Haemoglobin",
+            "b": "Chlorophyll",
+            "c": "Plasma",
+            "d": "Iron oxide"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Human blood is red due to the presence of:",
+          "multi": false
+        },
+        "93": {
+          "n": 93,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Lunglei",
+            "b": "Biate",
+            "c": "Darlawn",
+            "d": "Hnahthial"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following towns bagged Promising Swachh Shehar of Mizoram Award in 2025?",
+          "multi": false
+        },
+        "94": {
+          "n": 94,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Lalrammawia Ngente",
+            "b": "B Lalthangliana",
+            "c": "H Lallungmuana",
+            "d": "Lalhriata"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who is the author of the book ‘Ram leh I Tan Chauh’?",
+          "multi": false
+        },
+        "95": {
+          "n": 95,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Tuanpuii leh Chhawrtuineihlala",
+            "b": "Chertuala leh Darthiangi",
+            "c": "Duhmanga leh Thanghniangi",
+            "d": "Tumchhingi leh Raldawna"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which of the following is not correctly matched?",
+          "multi": false
+        },
+        "96": {
+          "n": 96,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "5",
+            "b": "6",
+            "c": "7",
+            "d": "8"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How many sons did Sichangneii have?",
+          "multi": false
+        },
+        "97": {
+          "n": 97,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Shaurya Chakra",
+            "b": "Kirti Chakra",
+            "c": "Param Vir Chakra",
+            "d": "Maha Vir Chakra"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the award given to Pi Zadingi, who killed a tiger with an axe?",
+          "multi": false
+        },
+        "98": {
+          "n": 98,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Dartawnsuk",
+            "b": "Chhawn",
+            "c": "Vakul Chang",
+            "d": "Vakiria"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In traditional Mizo society, which head ornament was worn only by men who killed an enemy?",
+          "multi": false
+        },
+        "99": {
+          "n": 99,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Cruelty to animals",
+            "b": "Beheading an animal",
+            "c": "Making agreement",
+            "d": "Showing respect"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The common Mizo phrase ‘Sa-ui tan’ means:",
+          "multi": false
+        },
+        "100": {
+          "n": 100,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "October",
+            "b": "November",
+            "c": "December",
+            "d": "January"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "‘Khuangchawi thla’ refers to the month of:",
+          "multi": false
         }
       },
       "derivedAnswers": {
@@ -18274,6 +18734,86 @@
         "80": {
           "answerIndex": 2,
           "explanation": "The World Economic Forum published the Inclusive Development Index, including its 2018 edition."
+        },
+        "81": {
+          "answerIndex": 1,
+          "explanation": "The Ramsar Information Sheet records Pala Wetland as designated on 26 July 2021."
+        },
+        "82": {
+          "answerIndex": 2,
+          "explanation": "The National Ambient Air Quality Standards set the residential-area daytime noise limit at 55 dB(A) Leq."
+        },
+        "83": {
+          "answerIndex": 2,
+          "explanation": "The IUCN publishes the Red Data Book, which records threatened species and their conservation status."
+        },
+        "84": {
+          "answerIndex": 3,
+          "explanation": "Extirpation is the disappearance of a species from a particular local area while it may survive elsewhere; local extinction is also called extirpation."
+        },
+        "85": {
+          "answerIndex": 0,
+          "explanation": "Edward O. Wilson is widely called the father of biodiversity for his work popularizing and advancing the field."
+        },
+        "86": {
+          "answerIndex": 2,
+          "explanation": "Tamil Nadu has the most Ramsar sites among Indian states; the State Wetlands Authority lists 20."
+        },
+        "87": {
+          "answerIndex": 2,
+          "explanation": "Myopia (short-sightedness) makes distant objects appear blurred."
+        },
+        "88": {
+          "answerIndex": 2,
+          "explanation": "Xenon is known as the “stranger gas,” from the Greek xenos meaning stranger."
+        },
+        "89": {
+          "answerIndex": 1,
+          "explanation": "Heating a concentrated sulphide ore in excess air to convert it into oxide is roasting."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "Genotype refers to an organism’s genetic constitution. “Genome” is the more exact term for the complete genetic complement, but it is not an option."
+        },
+        "91": {
+          "answerIndex": 1,
+          "explanation": "The cerebellum coordinates movement and helps maintain posture and balance."
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "Haemoglobin, the iron-containing pigment in red blood cells, gives human blood its red colour."
+        },
+        "93": {
+          "answerIndex": 0,
+          "explanation": "Lunglei won the Promising Swachh Shehar of Mizoram Award in Swachh Survekshan 2025."
+        },
+        "94": {
+          "answerIndex": 2,
+          "explanation": "H. Lallungmuana wrote the Mizo novel Ram leh I Tan Chauh."
+        },
+        "96": {
+          "answerIndex": 2,
+          "explanation": "Accounts of Sichangneii state that she had seven sons."
+        },
+        "97": {
+          "answerIndex": 0,
+          "explanation": "Lalzadingi received the Shaurya Chakra in 1980 for killing a tiger with an axe in 1978."
+        },
+        "98": {
+          "answerIndex": 1,
+          "explanation": "Chhawn was a distinctive warrior head ornament associated with taking an enemy’s head."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "“Sa-ui-tan” means making an agreement or pact."
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "Khuangchawi thla is October in the traditional Mizo calendar."
+        },
+        "95": {
+          "answerIndex": 2,
+          "explanation": "The established folktale is “Duhmanga leh Dardini,” documented in Mizo Studies, a refereed journal published by Mizoram University. The other listed pairs are also documented Mizo tales; therefore “Duhmanga leh Thanghniangi” is the mismatched pair."
         }
       }
     }

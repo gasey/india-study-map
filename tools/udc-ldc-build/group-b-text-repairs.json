@@ -22424,6 +22424,111 @@
           "multi": false,
           "unscored": true,
           "explanation": "Held out: “the granddaughter of my mother” could mean Sarah’s daughter or her sister’s daughter; the relationship to the husband differs, so the stem does not determine one answer."
+        },
+        "97": {
+          "n": 97,
+          "page": 11,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Choose the alternative that most closely resembles the mirror image of the word shown.",
+          "multi": false,
+          "imagePath": "/question-images/group-b/si-fcs-2025-p2-q097.png",
+          "unscored": true,
+          "reviewNote": "Held out until the mirror-image choices can be distinguished reliably from the scan.",
+          "explanation": "Held out until the mirror-image choices can be distinguished reliably from the scan."
+        },
+        "98": {
+          "n": 98,
+          "page": 11,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Identify the figure that completes the 6 × 6 black-and-white square pattern.",
+          "multi": false,
+          "imagePath": "/question-images/group-b/si-fcs-2025-p2-q098.png"
+        },
+        "99": {
+          "n": 99,
+          "page": 11,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "In which answer figure is the question figure embedded?",
+          "multi": false,
+          "imagePath": "/question-images/group-b/si-fcs-2025-p2-q099.png",
+          "unscored": true,
+          "reviewNote": "Held out until the embedded path can be matched reliably to one answer figure.",
+          "explanation": "Held out until the embedded path can be matched reliably to one answer figure."
+        },
+        "100": {
+          "n": 100,
+          "page": 11,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Which answer figure will replace the question mark in the shape sequence?",
+          "multi": false,
+          "imagePath": "/question-images/group-b/si-fcs-2025-p2-q100.png",
+          "unscored": true,
+          "reviewNote": "Held out because the sequence permits more than one plausible shape-rotation rule.",
+          "explanation": "Held out because the sequence permits more than one plausible shape-rotation rule."
         }
       },
       "derivedAnswers": {
@@ -22786,6 +22891,10 @@
         "95": {
           "answerIndex": 2,
           "explanation": "Among the listed choices, reporting the persistent performance issue to a supervisor is the appropriate workplace response."
+        },
+        "98": {
+          "answerIndex": 3,
+          "explanation": "The missing 3 × 3 block must complete the visible black-square counts in each row and column of the 6 × 6 pattern. Option 4 supplies the needed cells."
         }
       },
       "sourceSha256": "0bb9cacc2b5f753ab481e2f68f33adc2909c48a15f11c8073c89fd900cc63bcf",
@@ -22795,7 +22904,7 @@
       "nonMcq": [
         8
       ],
-      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification. Questions 25–47 were checked against printed pages 4–5. Twenty-one more answers have independently derived explanations. Q30 is held because options A and C name the same scheme; Q42 is held because “movement due to light” does not distinguish phototropism from phototaxis. Q34 was checked against the 2025 LUF award announcement; Q43–47 were cross-checked against Mizo cultural and historical sources. Minor spelling and grammar repairs improve readability without changing option meaning. Questions 48–71 were checked against printed pages 6–7. Twenty-two received derived explanations; Q51 is held because its printed sum-of-squares premise is false, and Q68 because the group may include people who eat neither food. The questions and options were normalized for legibility; Q55’s truncated option and OCR-damaged math notation in Q56, Q59, Q64 and Q70 were restored from the scan. Questions 72–83 were checked against printed pages 8–9. All twelve have derived explanations; Q78–80 were recomputed from the displayed bar values, and stems were clarified to refer to the graph. Questions 84–96 were checked against printed pages 9–10. Eleven have derived explanations. The dice opposite-face relation in Q84 was checked across all three printed orientations; Q85 follows successive first-to-third letter gaps of 9, 10 and 11. Q91 is held because “angry” and “irritated” both fit “irate”; Q96 is held because “my mother’s granddaughter” does not identify whether the woman is Sarah’s daughter or niece."
+      "evidence": "Sub-Inspector under Food, Civil Supplies & Consumer Affairs / Receptionist under Health & Family Welfare, Paper-II, May 2025, Booklet A. The cover specifies 100 two-mark questions, two hours and no negative marking. The extracted Q1–8 had been merged into one corrupt record; Q1–8 were reconstructed from printed page 2, and Q9–24 were compared against printed pages 2–3. All stems, numbering and four-option sets in this range were checked. Twenty-four questions have independently derived explanations. The remaining questions are still pending scan review; this is a partial repair, not a paper-wide verification. Questions 25–47 were checked against printed pages 4–5. Twenty-one more answers have independently derived explanations. Q30 is held because options A and C name the same scheme; Q42 is held because “movement due to light” does not distinguish phototropism from phototaxis. Q34 was checked against the 2025 LUF award announcement; Q43–47 were cross-checked against Mizo cultural and historical sources. Minor spelling and grammar repairs improve readability without changing option meaning. Questions 48–71 were checked against printed pages 6–7. Twenty-two received derived explanations; Q51 is held because its printed sum-of-squares premise is false, and Q68 because the group may include people who eat neither food. The questions and options were normalized for legibility; Q55’s truncated option and OCR-damaged math notation in Q56, Q59, Q64 and Q70 were restored from the scan. Questions 72–83 were checked against printed pages 8–9. All twelve have derived explanations; Q78–80 were recomputed from the displayed bar values, and stems were clarified to refer to the graph. Questions 84–96 were checked against printed pages 9–10. Eleven have derived explanations. The dice opposite-face relation in Q84 was checked across all three printed orientations; Q85 follows successive first-to-third letter gaps of 9, 10 and 11. Q91 is held because “angry” and “irritated” both fit “irate”; Q96 is held because “my mother’s granddaughter” does not identify whether the woman is Sarah’s daughter or niece. Questions 97–100 were checked against the printed figures on page 11, and all four original diagrams/options were restored as question images. Q98 has a derived answer from the row and column counts. Q97, Q99 and Q100 remain unscored because their visual answer cannot yet be established uniquely from the scan."
     }
   }
 }

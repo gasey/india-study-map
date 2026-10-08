@@ -54818,7 +54818,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Choose the alternative which closely resembles the mirror image of the given combination.",
+    "question": "Choose the alternative that most closely resembles the mirror image of the word shown.",
     "options": [
       "1",
       "2",
@@ -54826,16 +54826,14 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "4"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out until the mirror-image choices can be distinguished reliably from the scan.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=11",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "imagePath": "/question-images/group-b/si-fcs-2025-p2-q097.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Held out until the mirror-image choices can be distinguished reliably from the scan."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q98",
@@ -54846,21 +54844,23 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Identify the figure that completes the series (1)(2)(3)(4)",
+    "question": "Identify the figure that completes the 6 × 6 black-and-white square pattern.",
     "options": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The missing 3 × 3 block must complete the visible black-square counts in each row and column of the 6 × 6 pattern. Option 4 supplies the needed cells.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/si-fcs-2025-p2-q098.png",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q99",
@@ -54871,7 +54871,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "In which answer figure is the question figure embedded? Question figure:Answer figures: (1)(2)(3)(4)",
+    "question": "In which answer figure is the question figure embedded?",
     "options": [
       "1",
       "2",
@@ -54879,13 +54879,14 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "4"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out until the embedded path can be matched reliably to one answer figure.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=11",
+    "imagePath": "/question-images/group-b/si-fcs-2025-p2-q099.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held out until the embedded path can be matched reliably to one answer figure."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q100",
@@ -54896,7 +54897,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge, Arithmetic & Reasoning",
     "difficulty": "medium",
-    "question": "Which of the following answer figures will replace the question figure? Question figure:     Answer figures: (1)(2)(3)(4)",
+    "question": "Which answer figure will replace the question mark in the shape sequence?",
     "options": [
       "1",
       "2",
@@ -54904,13 +54905,14 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "4"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out because the sequence permits more than one plausible shape-rotation rule.",
     "source": "Sub-Inspector FCS&CA / Receptionist H&FW · May 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-fcs-2025-p2.pdf#page=11",
+    "imagePath": "/question-images/group-b/si-fcs-2025-p2-q100.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held out because the sequence permits more than one plausible shape-rotation rule."
   },
   {
     "id": "mpsc-group-b-aao-2025-p1-conventional-3",

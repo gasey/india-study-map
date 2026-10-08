@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 8 October 2026
 
-49 general papers, 3,409 items: 3,302 MCQs and 107 written prompts.
-1,541 questions are ready for practice, including 1,429 official answers and
-112 independently derived answers. 1,835 items still need source review.
+49 general papers, 3,415 items: 3,308 MCQs and 107 written prompts.
+1,564 questions are ready for practice, including 1,452 official answers and
+112 independently derived answers. 1,818 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -39,10 +39,11 @@ includes all subquestions, choices, and an answer guide. Written responses
 remain unscored; the MCQ section stays out of full-paper Exam mode because the
 paper also has 40 conventional marks.
 
-AAO/AAAO 2024 General English Q1–10 now has scan-checked wording/options and
-key-linked explanations. Q2 is visibly held out from scoring: the final key
-marks D, but the printed past-unreal conditional has no grammatically matching
-option. The remaining paper stays gated until its other questions are checked.
+AAO/AAAO 2024 General English Q1–35 now has scan-checked wording/options and
+key-linked explanations. Q2 and Q23 are visibly held out because their final
+key cells conflict with the printed grammar/meaning; Q33 has multiple
+defensible comparative forms and is also unscored. The remaining paper stays
+gated until its other questions are checked.
 
 The December 2024 combined exam has all 75 Paper I and 100 Paper II MCQs.
 Paper II Q84–100 were recovered from the complete Series B with matching

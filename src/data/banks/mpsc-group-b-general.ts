@@ -14855,15 +14855,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Castingaslur",
+    "question": "Casting a slur",
     "options": [
-      "puttingacurse",
-      "creatingissues",
-      "bringingintodisrespect",
-      "makingfamous"
+      "putting a curse",
+      "creating issues",
+      "bringing into disrepute",
+      "making famous"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "To cast a slur on someone is to insult or damage their reputation; “bringing into disrepute” matches.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
@@ -14872,10 +14872,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-20):SelectthemostappropriatemeaningofthegivenIdiom:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q12",
@@ -14886,15 +14884,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Feetofclay",
+    "question": "Feet of clay",
     "options": [
-      "tohavealotinformation",
-      "tohavehiddenagendas",
-      "tohaveweaknessofcharacter",
-      "tobeextremelycooperative"
+      "to have a lot information",
+      "to have hidden agendas",
+      "to have weakness of character",
+      "to be extremely cooperative"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Feet of clay” refers to a person’s hidden weakness or flaw, so C is the closest meaning.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
@@ -14903,10 +14901,37 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-20):SelectthemostappropriatemeaningofthegivenIdiom:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q13",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "13",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Broken reed",
+    "options": [
+      "steadfast",
+      "incompetent",
+      "loyal",
+      "support that failed"
+    ],
+    "answerIndex": 3,
+    "explanation": "A broken reed is an unreliable source of support.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q14",
@@ -14917,15 +14942,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Abeeinthebonnet",
+    "question": "A bee in the bonnet",
     "options": [
-      "apeculiarhabit",
-      "anobsessionaboutsomething",
-      "anachievementtobeproudof",
+      "a peculiar habit",
+      "an obsession about something",
+      "an achievement to be proud of",
       "disregard"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A “bee in one’s bonnet” is a persistent preoccupation or obsession.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
@@ -14934,10 +14959,95 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-20):SelectthemostappropriatemeaningofthegivenIdiom:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q15",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "15",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "To flog a dead horse",
+    "options": [
+      "to act foolishly",
+      "to criticise strongly",
+      "to do a thing in vain",
+      "to see a hidden meaning"
+    ],
+    "answerIndex": 2,
+    "explanation": "The idiom means to keep pursuing or discussing something with no chance of success.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q16",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "16",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Wet blanket",
+    "options": [
+      "blanket wet in the rain",
+      "cold blank",
+      "discouraged from enjoying",
+      "damp clothes"
+    ],
+    "answerIndex": 2,
+    "explanation": "A “wet blanket” is someone or something that dampens others’ enjoyment.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q17",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "17",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "All agog",
+    "options": [
+      "excited",
+      "rife with rumours",
+      "restless",
+      "playful"
+    ],
+    "answerIndex": 0,
+    "explanation": "“All agog” means very eager or excited.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q18",
@@ -14948,15 +15058,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Toflogadeadhorse",
+    "question": "Turn tail",
     "options": [
-      "toactfoolishly",
-      "tocriticisestrongly",
-      "todoathinginvain({d)toseeahiddenmeaning (a)blanketwetintherain(b)coldbiank",
-      "dampclothes (a)excited(b)rifewithrumours (c)restless(d)playful. (a)runlikeacoward(b)onewhochangesideas: (c)runwithatail(d)runattheend"
+      "run like a coward",
+      "one who changes ideas",
+      "run with a tail",
+      "run at the end"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "To “turn tail” is to flee, especially out of fear.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
@@ -14965,10 +15075,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-20):SelectthemostappropriatemeaningofthegivenIdiom:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q19",
@@ -14979,15 +15087,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Redtapism",
+    "question": "Red tapism",
     "options": [
-      "togaincheappopularity",
-      "officialdelay",
-      "toobstruct",
-      "topaintsomethingred"
+      "to gain cheap popularity",
+      "official delay",
+      "to obstruct",
+      "to paint something red"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Red tapism” means excessive official procedures and resulting bureaucratic delay.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
@@ -14996,10 +15104,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-20):SelectthemostappropriatemeaningofthegivenIdiom:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q20",
@@ -15010,15 +15116,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "EverandAnon",
+    "question": "Ever and Anon",
     "options": [
-      "foreternity",
-      "hereandthere",
+      "for eternity",
+      "here and there",
       "sometimes",
-      "joyandsorrow"
+      "joy and sorrow"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Ever and anon” means occasionally or from time to time.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
@@ -15027,10 +15133,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.1-20):SelectthemostappropriatemeaningofthegivenIdiom:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q21",
@@ -15041,15 +15145,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hewantssomeonetotakephotographs.",
+    "question": "He wants someone to take photographs.",
     "options": [
-      "Someoneiswantedtotakephotographs",
-      "Hewantstobetakingphotographs",
-      "Hewantsphotographstobetaken",
-      "Someoneistotakephotographs"
+      "Someone is wanted to take photographs",
+      "He wants to be taking photographs",
+      "He wants photographs to be taken",
+      "Someone is to take photographs"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passive infinitive “photographs to be taken” preserves the meaning that he wants others to take them.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
@@ -15058,9 +15162,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q22",
@@ -15071,15 +15174,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hedecidedthatthehouseshouldbesold.",
+    "question": "He decided that the house should be sold.",
     "options": [
-      "Hedecidedthehousetobesold",
-      "Hedecidedtoseilthehouse",
-      "Hehasdecidedtosellthehouse",
-      "Thehousewasdecidedtobesoldbyhim"
+      "He decided the house to be sold",
+      "He decided to sell the house",
+      "He has decided to sell the house",
+      "The house was decided to be sold by him"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“He decided to sell the house” preserves the original decision and its subject.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
@@ -15088,9 +15191,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q23",
@@ -15101,15 +15203,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Irememberthemtakingmetothezoo.",
+    "question": "I remember them taking me to the zoo.",
     "options": [
-      "[rememberIambeingtakentothezoo",
-      "Theyaretakingmetothezoo",
-      "[rememberbeingtakentothezoo",
-      "[rememberthatIwastakentothezoobythem"
+      "I remember I am being taken to the zoo",
+      "They are taking me to the zoo",
+      "I remember being taken to the zoo",
+      "I remember that I was taken to the zoo by them"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The final key marks B, but B removes “I remember” and changes the statement into a present action. C is the passive equivalent. Because the printed key conflicts with meaning-preserving grammar, this question is held out from scoring pending clarification.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=2",
@@ -15120,7 +15222,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q24",
@@ -15131,15 +15233,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Byronissaidtohavelivedonvinegarandpotatoes.",
+    "question": "Byron is said to have lived on vinegar and potatoes.",
     "options": [
-      "TheysaythatByronlivedonvinegarandpotatoes",
-      "Byronlivedonvinegarandpotatoesissaidbythem",
-      "VinegarandpotatoesarelivedonbyByron",
-      "PeoplesaidthatByronwaslivingonvinegarandpotatoes"
+      "They say that Byron lived on vinegar and potatoes",
+      "Byron lived on vinegar and potatoes is said by them",
+      "Vinegar and potatoes are lived on by Byron",
+      "People said that Byron was living on vinegar and potatoes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The passive report “is said to have lived” changes to the impersonal active report “They say that Byron lived…”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15148,9 +15250,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q25",
@@ -15161,15 +15262,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Heexpectedustoofferhimthejob.",
+    "question": "He expected us to offer him the job.",
     "options": [
-      "Toofferhimthejobbyuswasexpectedbyhim",
-      "Thejobwasexpectedtobeofferedbyus",
-      "Heexpectsthejobtoofferbyus",
-      "Heexpectedtobeofferedthejob"
+      "To offer him the job by us was expected by him",
+      "The job was expected to be offered by us",
+      "He expects the job to offer by us",
+      "He expected to be offered the job"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The passive infinitive “to be offered” keeps the job as the thing he expected to receive.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15178,9 +15279,37 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q26",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "26",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Rajendra Prasad was one of the greatest Indian leaders. (Comparative)",
+    "options": [
+      "Rajendra Prasad was as great as other Indian leaders.",
+      "Rajendra Prasad was not the weakest of Indian leaders.",
+      "Rajendra Prasad was greater than most other Indian leaders.",
+      "Rajendra Prasad was also as great as other Indian leaders."
+    ],
+    "answerIndex": 2,
+    "explanation": "“One of the greatest” becomes “greater than most” in the comparative degree.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q27",
@@ -15191,15 +15320,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Everybodylikestobepraised.(/nterragative)",
+    "question": "Everybody likes to be praised. (Interrogative)",
     "options": [
-      "Doeseverybodylikepraise?",
-      "Whodoesnotliketobepraised?",
-      "Doeveryoneliketobepraised?",
-      "Doesn’teverybodylikestobepraised?"
+      "Does everybody like praise?",
+      "Who does not like to be praised?",
+      "Do everyone like to be praised?",
+      "Doesn’t everybody likes to be praised?"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The rhetorical question “Who does not like to be praised?” preserves the general assertion.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15208,10 +15337,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-33);Choosethecorrecttransformationofsentencesasdirected:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q28",
@@ -15222,15 +15349,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "IwishIwereaqueen.(Exclamatory)",
+    "question": "I wish I were a queen. (Exclamatory)",
     "options": [
-      "Alas!if]wereaqueen!",
-      "Oh!tohavebeenaqueen!",
-      "Ohtobeaqueen!",
-      "Alas!Iwanttobequeen!"
+      "Alas! if I were a queen!",
+      "Oh! to have been a queen!",
+      "Oh to be a queen!",
+      "Alas! I want to be queen!"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Oh, to be a queen!” expresses the same wish exclamatorily.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15239,10 +15366,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-33);Choosethecorrecttransformationofsentencesasdirected:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q29",
@@ -15253,15 +15378,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Itisoftendifficult.(Negative)",
+    "question": "It is often difficult. (Negative)",
     "options": [
-      "Itdoesnotlookeasy",
-      "Itisnevereasy",
-      "Itisnotalwayseasy",
-      "Itisnotdifficult (a)Thefieldwillbelosteventually(b)Wearegoingtolosethefield (c)Wemightlosethefield(d)Itdoesnotmatterevenifthefieldislost"
+      "It does not look easy",
+      "It is never easy",
+      "It is not always easy",
+      "It is not difficult"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“It is not always easy” conveys that difficulty occurs often without changing the statement to an absolute.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15270,10 +15395,37 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-33);Choosethecorrecttransformationofsentencesasdirected:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
+  },
+  {
+    "id": "mpsc-group-b-aao-2024-english-Q30",
+    "paperId": "mpsc-group-b-aao-2024-english",
+    "questionNumber": "30",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "What though the field be lost? (Assertive)",
+    "options": [
+      "The field will be lost eventually",
+      "We are going to lose the field",
+      "We might lose the field",
+      "It does not matter even if the field is lost"
+    ],
+    "answerIndex": 3,
+    "explanation": "The rhetorical question means that losing the field would not matter.",
+    "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q31",
@@ -15284,15 +15436,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Shewasaskednottoloiterinthegallery.(Affirmative)",
+    "question": "She was asked not to loiter in the gallery. (Affirmative)",
     "options": [
-      "Shewasforbiddentoloiterinthegallery",
-      "Shewastoldthatshecouldnotloiteirnthegallery",
-      "Theyaskedhernottoloiterinthegallery",
-      "Theyforbadehertoloiterinthegallery"
+      "She was forbidden to loiter in the gallery",
+      "She was told that she could not loiter in the gallery",
+      "They asked her not to loiter in the gallery",
+      "They forbade her to loiter in the gallery"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“She was forbidden to loiter” states the same prohibition affirmatively.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15301,10 +15453,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-33);Choosethecorrecttransformationofsentencesasdirected:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q32",
@@ -15315,15 +15465,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Itisbettertolendthanborrow.(Positive)",
+    "question": "It is better to lend than borrow. (Positive)",
     "options": [
-      "Tolendisbetterthantoborrow",
-      "Borrowingisnotasgoodaslending",
-      "Toborrowisnotbetterthanlending",
-      "Lendthanborrow"
+      "To lend is better than to borrow",
+      "Borrowing is not as good as lending",
+      "To borrow is not better than lending",
+      "Lend than borrow"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The positive-degree comparison uses “not as good as”: borrowing is not as good as lending.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15332,10 +15482,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-33);Choosethecorrecttransformationofsentencesasdirected:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q33",
@@ -15346,15 +15494,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hisfatheristhemosthonestofall.(Comparative)",
+    "question": "His father is the most honest of all. (Comparative)",
     "options": [
-      "Nooneelseissohonestashisfather",
-      "Noneismorehonestthanhisfather",
-      "Hisfatherismorehonestthananybodyelse",
-      "Hisfatherisashonestasanybodyelse"
+      "No one else is so honest as his father",
+      "None is more honest than his father",
+      "His father is more honest than anybody else",
+      "His father is as honest as anybody else"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The final key marks C, but A, B and C all express the same comparison here. Multiple options are defensible, so the question is held out from scoring pending clarification.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15365,8 +15513,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.26-33);Choosethecorrecttransformationofsentencesasdirected:"
+    "sourceNote": "The official key marks C, but A, B and C are grammatically valid comparative forms; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q34",
@@ -15377,15 +15524,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Twonderwhoiswaitingthetablenexttoours.",
+    "question": "I wonder who is waiting __________ the table next to ours.",
     "options": [
       "at",
       "on",
       "in",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Wait on a table” means to serve the people seated there; “on” is the required preposition.",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15394,10 +15541,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q35",
@@ -15408,15 +15553,15 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Thoseareactionswhichyoushouldbeashamed.",
+    "question": "Those are actions __________ which you should be ashamed.",
     "options": [
       "to",
       "with",
       "of",
       "about"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The adjective “ashamed” takes the preposition “of.”",
     "source": "Assistant Audit & Accounts Officer / Assistant Accounts Officer · September 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/aao-2024-english.pdf#page=3",
@@ -15425,10 +15570,8 @@ const groupBQuestionsPart2: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1",
-    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.34-43);FillintheblankswiththemostsuitablePrepositionfromthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-aao-2024-english-Q36",
@@ -15937,7 +16080,9 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos,51-55):SelecttheonewhichbestexpressesthesamesentenceinDirect/"
-  },
+  }
+];
+const groupBQuestionsPart3: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2024-english-Q52",
     "paperId": "mpsc-group-b-aao-2024-english",
@@ -16123,9 +16268,7 @@ const groupBQuestionsPart2: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos.56-60):Choosetheonewhichcanbesubstitutedforthegivenwords/sentence:"
-  }
-];
-const groupBQuestionsPart3: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2024-english-Q60",
     "paperId": "mpsc-group-b-aao-2024-english",
@@ -24526,7 +24669,9 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart4: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2025-p2-Q54",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -24676,9 +24821,7 @@ const groupBQuestionsPart3: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart4: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2025-p2-Q60",
     "paperId": "mpsc-group-b-jao-2025-p2",
@@ -32497,7 +32640,9 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 71–75): Choose the most appropriate alternative provided for each italicized word."
-  },
+  }
+];
+const groupBQuestionsPart5: BankQuestion[] = [
   {
     "id": "mpsc-group-b-steno-2025-english-B74",
     "paperId": "mpsc-group-b-steno-2025-english",
@@ -32669,9 +32814,7 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart5: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-steno-2025-gk-Q5",
     "paperId": "mpsc-group-b-steno-2025-gk",
@@ -40637,7 +40780,9 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart6: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-2025-gk-Q57",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -40790,9 +40935,7 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart6: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-2025-gk-Q64",
     "paperId": "mpsc-group-b-je-2025-gk",
@@ -48391,7 +48534,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q32",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -48541,9 +48686,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q38",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -56412,7 +56555,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q40",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -56580,9 +56725,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q46",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -64101,7 +64244,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q78",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -64266,9 +64411,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q84",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -73128,7 +73271,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q50",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -73308,9 +73453,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q56",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -81212,7 +81355,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B10",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q11",
     "questionNumber": "B11",
@@ -81368,9 +81513,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B16",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q17",
     "questionNumber": "B17",
@@ -89117,7 +89260,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B53",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B54",
     "questionNumber": "B54",
@@ -89279,9 +89424,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B59",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B60",
     "questionNumber": "B60",

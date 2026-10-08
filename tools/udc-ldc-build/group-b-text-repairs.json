@@ -1331,7 +1331,7 @@
       "sourceSha256": "eb32e3ca2b60cb399cce89bbdcf711d95a098fdfbbcf90377ffd5f6ea2f66fb5",
       "expectedMcq": 100,
       "reviewedOn": "2026-10-08",
-      "evidence": "Questions 1–10 checked against rendered PDF page 1; Q1 and Q3–10 transcribed with all four options and matched to the final official key. Q2 wording/options were visually checked; the official key says D although the past-unreal condition has no grammatically matching option, so it is explicitly unscored pending clarification.",
+      "evidence": "Questions 1–35 checked against rendered PDF pages 1–3; stems and four options transcribed and matched to the final official key. Q2 and Q23 are held out for key/item conflicts; Q33 is held out because multiple options express the requested comparison.",
       "questions": {
         "1": {
           "n": 1,
@@ -1463,6 +1463,334 @@
             "d": "was gone"
           },
           "explanation": "The present perfect “has gone” describes the bus leaving with a present result: it is no longer available."
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "q": "Casting a slur",
+          "opts": {
+            "a": "putting a curse",
+            "b": "creating issues",
+            "c": "bringing into disrepute",
+            "d": "making famous"
+          },
+          "explanation": "To cast a slur on someone is to insult or damage their reputation; “bringing into disrepute” matches."
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "q": "Feet of clay",
+          "opts": {
+            "a": "to have a lot information",
+            "b": "to have hidden agendas",
+            "c": "to have weakness of character",
+            "d": "to be extremely cooperative"
+          },
+          "explanation": "“Feet of clay” refers to a person’s hidden weakness or flaw, so C is the closest meaning."
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "q": "Broken reed",
+          "opts": {
+            "a": "steadfast",
+            "b": "incompetent",
+            "c": "loyal",
+            "d": "support that failed"
+          },
+          "explanation": "A broken reed is an unreliable source of support."
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "q": "A bee in the bonnet",
+          "opts": {
+            "a": "a peculiar habit",
+            "b": "an obsession about something",
+            "c": "an achievement to be proud of",
+            "d": "disregard"
+          },
+          "explanation": "A “bee in one’s bonnet” is a persistent preoccupation or obsession."
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "q": "To flog a dead horse",
+          "opts": {
+            "a": "to act foolishly",
+            "b": "to criticise strongly",
+            "c": "to do a thing in vain",
+            "d": "to see a hidden meaning"
+          },
+          "explanation": "The idiom means to keep pursuing or discussing something with no chance of success."
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "q": "Wet blanket",
+          "opts": {
+            "a": "blanket wet in the rain",
+            "b": "cold blank",
+            "c": "discouraged from enjoying",
+            "d": "damp clothes"
+          },
+          "explanation": "A “wet blanket” is someone or something that dampens others’ enjoyment."
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "q": "All agog",
+          "opts": {
+            "a": "excited",
+            "b": "rife with rumours",
+            "c": "restless",
+            "d": "playful"
+          },
+          "explanation": "“All agog” means very eager or excited."
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "q": "Turn tail",
+          "opts": {
+            "a": "run like a coward",
+            "b": "one who changes ideas",
+            "c": "run with a tail",
+            "d": "run at the end"
+          },
+          "explanation": "To “turn tail” is to flee, especially out of fear."
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "q": "Red tapism",
+          "opts": {
+            "a": "to gain cheap popularity",
+            "b": "official delay",
+            "c": "to obstruct",
+            "d": "to paint something red"
+          },
+          "explanation": "“Red tapism” means excessive official procedures and resulting bureaucratic delay."
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "q": "Ever and Anon",
+          "opts": {
+            "a": "for eternity",
+            "b": "here and there",
+            "c": "sometimes",
+            "d": "joy and sorrow"
+          },
+          "explanation": "“Ever and anon” means occasionally or from time to time."
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "part": null,
+          "q": "He wants someone to take photographs.",
+          "opts": {
+            "a": "Someone is wanted to take photographs",
+            "b": "He wants to be taking photographs",
+            "c": "He wants photographs to be taken",
+            "d": "Someone is to take photographs"
+          },
+          "explanation": "The passive infinitive “photographs to be taken” preserves the meaning that he wants others to take them."
+        },
+        "22": {
+          "n": 22,
+          "page": 2,
+          "part": null,
+          "q": "He decided that the house should be sold.",
+          "opts": {
+            "a": "He decided the house to be sold",
+            "b": "He decided to sell the house",
+            "c": "He has decided to sell the house",
+            "d": "The house was decided to be sold by him"
+          },
+          "explanation": "“He decided to sell the house” preserves the original decision and its subject."
+        },
+        "23": {
+          "n": 23,
+          "page": 2,
+          "part": null,
+          "q": "I remember them taking me to the zoo.",
+          "opts": {
+            "a": "I remember I am being taken to the zoo",
+            "b": "They are taking me to the zoo",
+            "c": "I remember being taken to the zoo",
+            "d": "I remember that I was taken to the zoo by them"
+          },
+          "explanation": "The final key marks B, but B removes “I remember” and changes the statement into a present action. C is the passive equivalent. Because the printed key conflicts with meaning-preserving grammar, this question is held out from scoring pending clarification.",
+          "unscored": true
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "q": "Byron is said to have lived on vinegar and potatoes.",
+          "opts": {
+            "a": "They say that Byron lived on vinegar and potatoes",
+            "b": "Byron lived on vinegar and potatoes is said by them",
+            "c": "Vinegar and potatoes are lived on by Byron",
+            "d": "People said that Byron was living on vinegar and potatoes"
+          },
+          "explanation": "The passive report “is said to have lived” changes to the impersonal active report “They say that Byron lived…”"
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "q": "He expected us to offer him the job.",
+          "opts": {
+            "a": "To offer him the job by us was expected by him",
+            "b": "The job was expected to be offered by us",
+            "c": "He expects the job to offer by us",
+            "d": "He expected to be offered the job"
+          },
+          "explanation": "The passive infinitive “to be offered” keeps the job as the thing he expected to receive."
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "q": "Rajendra Prasad was one of the greatest Indian leaders. (Comparative)",
+          "opts": {
+            "a": "Rajendra Prasad was as great as other Indian leaders.",
+            "b": "Rajendra Prasad was not the weakest of Indian leaders.",
+            "c": "Rajendra Prasad was greater than most other Indian leaders.",
+            "d": "Rajendra Prasad was also as great as other Indian leaders."
+          },
+          "explanation": "“One of the greatest” becomes “greater than most” in the comparative degree."
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "q": "Everybody likes to be praised. (Interrogative)",
+          "opts": {
+            "a": "Does everybody like praise?",
+            "b": "Who does not like to be praised?",
+            "c": "Do everyone like to be praised?",
+            "d": "Doesn’t everybody likes to be praised?"
+          },
+          "explanation": "The rhetorical question “Who does not like to be praised?” preserves the general assertion."
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "q": "I wish I were a queen. (Exclamatory)",
+          "opts": {
+            "a": "Alas! if I were a queen!",
+            "b": "Oh! to have been a queen!",
+            "c": "Oh to be a queen!",
+            "d": "Alas! I want to be queen!"
+          },
+          "explanation": "“Oh, to be a queen!” expresses the same wish exclamatorily."
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "q": "It is often difficult. (Negative)",
+          "opts": {
+            "a": "It does not look easy",
+            "b": "It is never easy",
+            "c": "It is not always easy",
+            "d": "It is not difficult"
+          },
+          "explanation": "“It is not always easy” conveys that difficulty occurs often without changing the statement to an absolute."
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "q": "What though the field be lost? (Assertive)",
+          "opts": {
+            "a": "The field will be lost eventually",
+            "b": "We are going to lose the field",
+            "c": "We might lose the field",
+            "d": "It does not matter even if the field is lost"
+          },
+          "explanation": "The rhetorical question means that losing the field would not matter."
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "q": "She was asked not to loiter in the gallery. (Affirmative)",
+          "opts": {
+            "a": "She was forbidden to loiter in the gallery",
+            "b": "She was told that she could not loiter in the gallery",
+            "c": "They asked her not to loiter in the gallery",
+            "d": "They forbade her to loiter in the gallery"
+          },
+          "explanation": "“She was forbidden to loiter” states the same prohibition affirmatively."
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "part": null,
+          "q": "It is better to lend than borrow. (Positive)",
+          "opts": {
+            "a": "To lend is better than to borrow",
+            "b": "Borrowing is not as good as lending",
+            "c": "To borrow is not better than lending",
+            "d": "Lend than borrow"
+          },
+          "explanation": "The positive-degree comparison uses “not as good as”: borrowing is not as good as lending."
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "part": null,
+          "q": "His father is the most honest of all. (Comparative)",
+          "opts": {
+            "a": "No one else is so honest as his father",
+            "b": "None is more honest than his father",
+            "c": "His father is more honest than anybody else",
+            "d": "His father is as honest as anybody else"
+          },
+          "explanation": "The final key marks C, but A, B and C all express the same comparison here. Multiple options are defensible, so the question is held out from scoring pending clarification.",
+          "unscored": true,
+          "reviewNote": "The official key marks C, but A, B and C are grammatically valid comparative forms; held out from scoring pending clarification."
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "part": null,
+          "q": "I wonder who is waiting __________ the table next to ours.",
+          "opts": {
+            "a": "at",
+            "b": "on",
+            "c": "in",
+            "d": "by"
+          },
+          "explanation": "“Wait on a table” means to serve the people seated there; “on” is the required preposition."
+        },
+        "35": {
+          "n": 35,
+          "page": 3,
+          "part": null,
+          "q": "Those are actions __________ which you should be ashamed.",
+          "opts": {
+            "a": "to",
+            "b": "with",
+            "c": "of",
+            "d": "about"
+          },
+          "explanation": "The adjective “ashamed” takes the preposition “of.”"
         }
       },
       "partialReview": true

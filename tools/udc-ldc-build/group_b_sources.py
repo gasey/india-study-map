@@ -120,6 +120,7 @@ def reviewed_extraction(extracted, repair):
         assert not q.get('explanation') or q['explanation'].strip(), 'Invalid reviewed explanation'
         assert 'answerIndex' not in q and 'answer' not in q, 'Text repairs cannot override answers'
         assert not q.get('unscored') or q.get('explanation', '').strip(), 'Unscored dispute needs an explanation'
+        assert not q.get('reviewNote') or q.get('reviewNote', '').strip(), 'Invalid dispute note'
         rows[n] = q
         reviewed.add(n)
     for number, solved in repair.get('derivedAnswers', {}).items():
@@ -242,7 +243,7 @@ def build_additional():
             answer = key_choices[0] if key_choices and not source_review else derived['answerIndex'] if derived and not source_review else -1
             note = 'Text extraction needs comparison with the printed paper; candidate answers are not scored.' if source_review else ''
             if q.get('unscored'):
-                note = 'The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.'
+                note = q.get('reviewNote') or 'The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification.'
             if text_reviewed and not source_review:
                 note = ('Text and option order checked against the printed scan; scored using the official key.'
                         if key_choices else 'Text and option order checked against the printed scan; scored from a worked derivation.')

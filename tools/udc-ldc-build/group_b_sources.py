@@ -215,6 +215,11 @@ def build_additional():
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'je-2016-english' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Printed cover: three hours, 100 total marks (80 MCQs plus a
+            # 20-mark essay); the scan does not state a negative-marking rule.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'mvi-2025-p2' and repairs.get(slug, {}).get('derivedAnswers'):
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,

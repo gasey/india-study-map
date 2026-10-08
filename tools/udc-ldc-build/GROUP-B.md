@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 9 October 2026
 
-49 general papers, 3,574 items: 3,503 MCQs and 71 written prompts.
-2,975 questions are ready for practice, including 1,614 official answers and
-1,361 independently derived answers. 539 items still need source review.
+49 general papers, 3,587 items: 3,515 MCQs and 72 written prompts.
+3,050 questions are ready for practice, including 1,614 official answers and
+1,436 independently derived answers. 476 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -68,6 +68,14 @@ because the High Court appointment choices overlap and are imprecise; Q41 is
 held because “Anthology” is not a sound branch of biology. Q47–100 remain
 source-review items; the 100-question, two-hour paper stays out of full-paper
 Exam mode.
+
+Junior Engineer PHE & PWD General English (April 2016) has been checked against
+all nine printed pages. Twelve OCR-missing MCQs (Q43–48, Q55–59 and Q76) and
+the 20-mark essay prompt were recovered; all 80 MCQs now have scan-checked
+stems/options and 75 independently derived explanations. Q2, Q14, Q41, Q42 and
+Q52 remain unscored because of overlapping or underdetermined choices, or
+because Q52 gives a phrase where it asks for a clause. The paper remains out of
+full-paper Exam mode because it has no verified official key.
 
 Stenographer Grade-II (MPSC) General English 2025 Part B Q1–40 has been checked against pages 3–6. Thirty-eight MCQs have worked explanations; Q36 is held for imprecise and outdated wording, and Q37 because lactose intolerance is not a milk allergy. The four Section-A written prompts remain under review, so the paper is excluded from full-paper Exam mode.
 

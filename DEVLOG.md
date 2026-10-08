@@ -9,6 +9,21 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-10-09 — JE 2016 General English full scan review
+
+**What shipped locally.** Checked all nine printed pages, restored the twelve
+MCQs omitted by OCR (Q43–48, Q55–59 and Q76), repaired merged/corrupt stems and
+options, and recovered the Section A 20-mark essay prompt with response
+guidance. All 80 MCQs now have scan-checked wording/options; 75 have derived
+explanations. Q2, Q14, Q41, Q42 and Q52 are held for ambiguous choices or a
+phrase incorrectly presented as a clause. Group B now has 3,050 practice-ready
+items and 476 source-review items.
+
+**What's still open.** The paper has no verified official key and remains out
+of full-paper Exam mode. Other Group B source-review items remain pending.
+
+---
+
 ## 2026-10-09 — JAO 2025 Paper-II scan review through Q46
 
 **What shipped locally.** Recovered JAO Paper-II Q1–7 from printed page 2 and

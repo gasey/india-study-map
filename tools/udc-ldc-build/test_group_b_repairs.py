@@ -42,6 +42,18 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(result['questions'][24]['unscored'])
         self.assertEqual(result['questions'][30]['opts']['b'], 'invested, shipped')
 
+    def test_je_2016_english_recovers_gaps_and_holds_defective_items(self):
+        extracted = json.loads((HERE / 'extracted/je-2016-english.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['je-2016-english']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 81)))
+        self.assertEqual([q['n'] for q in result['questions']], list(range(1, 81)))
+        self.assertEqual(set(repair['derivedAnswers']), set(map(str, set(range(1, 81)) - {2, 14, 41, 42, 52})))
+        self.assertEqual(result['questions'][44]['opts']['c'], 'conjunction')
+        self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
+        self.assertTrue(all(result['questions'][n - 1]['unscored'] for n in (2, 14, 41, 42, 52)))
+        self.assertIn('essay', repair['written']['1']['q'])
+
     def test_fcs_paper_recovers_merged_first_eight_and_reviews_through_100(self):
         extracted = json.loads((HERE / 'extracted/si-fcs-2025-p2.json').read_text())
         repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['si-fcs-2025-p2']

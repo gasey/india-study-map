@@ -34049,6 +34049,1207 @@
           "explanation": "The First Lushai Expedition took place in 1871–1872."
         }
       }
+    },
+    "je-2016-english": {
+      "sourceSha256": "89a381d1be73500ffbec4bf3c5f08276c6e0bea2dff41107b202040a2d3ff608",
+      "expectedMcq": 80,
+      "reviewedOn": "2026-10-09",
+      "evidence": "All printed pages 1–9 checked against the scan. Recovered OCR-missing Q43–48, Q55–59 and Q76; corrected merged stems/options and transcription errors; checked all 80 MCQs and independently derived explanations. Q2, Q14, Q41, Q42 and Q52 are held because wording/options are non-unique or do not provide a clause. Section A essay prompt restored with response guidance. This paper has no verified official key and remains excluded from full Exam mode.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "Don’t worry, the present disturbance will soon …",
+          "opts": {
+            "a": "blow over",
+            "b": "blow down",
+            "c": "blow away",
+            "d": "blow up"
+          }
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "They finally saw … and closed the business deal.",
+          "opts": {
+            "a": "eye to eye",
+            "b": "an eye for an eye",
+            "c": "I to I",
+            "d": "face to face"
+          },
+          "unscored": true,
+          "explanation": "The sentence does not provide enough context to distinguish “saw eye to eye” (agreed) from “saw face to face” (met in person). Both can fit the printed wording, so it is held.",
+          "reviewNote": "The sentence does not provide enough context to distinguish “saw eye to eye” (agreed) from “saw face to face” (met in person). Both can fit the printed wording, so it is held."
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "The beautiful model is surprisingly on the … of forty.",
+          "opts": {
+            "a": "over",
+            "b": "almost",
+            "c": "wrong side",
+            "d": "right side"
+          }
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Our overbearing boss expects us to show up …",
+          "opts": {
+            "a": "now and then",
+            "b": "once in a blue moon",
+            "c": "safe and sound",
+            "d": "at the drop of a hat"
+          }
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "q": "A good salesman must be able to … to close the deal.",
+          "opts": {
+            "a": "think on his feet",
+            "b": "stand on his feet",
+            "c": "work on his feet",
+            "d": "none of these"
+          }
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "q": "This show is excellent but the tickets cost …",
+          "opts": {
+            "a": "a white elephant",
+            "b": "an arm and a leg",
+            "c": "a storm in a teacup",
+            "d": "alpha and omega"
+          }
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "q": "The thief disappeared …",
+          "opts": {
+            "a": "in a minute",
+            "b": "immediately",
+            "c": "in the blink of an eye",
+            "d": "in front of me"
+          }
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "q": "You must know the … of a job before you take it up.",
+          "opts": {
+            "a": "long and short",
+            "b": "ins and outs",
+            "c": "all and sundry",
+            "d": "right and wrong"
+          }
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "“When pigs fly” means …",
+          "opts": {
+            "a": "overly optimistic",
+            "b": "likely to happen",
+            "c": "completely destroyed",
+            "d": "highly unlikely to happen"
+          }
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "“Tickled pink” means …",
+          "opts": {
+            "a": "excited and happy",
+            "b": "funny and hilarious",
+            "c": "feminine and pretty",
+            "d": "feminine and funny"
+          }
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "“To sell someone out” means …",
+          "opts": {
+            "a": "to be a good salesman",
+            "b": "to be misunderstood",
+            "c": "to betray someone",
+            "d": "to misunderstand"
+          }
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "“Feel under the weather” means …",
+          "opts": {
+            "a": "feel unwanted",
+            "b": "feel angry",
+            "c": "feel sleepy",
+            "d": "feel ill"
+          }
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "“Spin a yarn” means …",
+          "opts": {
+            "a": "to tell a fanciful story",
+            "b": "to be talented",
+            "c": "to be watchful",
+            "d": "to be old-fashioned"
+          }
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "“To take something with a grain of salt” means …",
+          "opts": {
+            "a": "to take it seriously",
+            "b": "to take it with some reservation",
+            "c": "to be doubtful",
+            "d": "to be cautious"
+          },
+          "unscored": true,
+          "explanation": "Options B and D overlap: taking a claim with reservation is a form of cautious skepticism. The printed choices do not give one distinct answer, so it is held.",
+          "reviewNote": "Options B and D overlap: taking a claim with reservation is a form of cautious skepticism. The printed choices do not give one distinct answer, so it is held."
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "“To get into hot water” means …",
+          "opts": {
+            "a": "to be in the middle of the sea",
+            "b": "to lose patience",
+            "c": "to get into trouble",
+            "d": "to have a hot temperament"
+          }
+        },
+        "16": {
+          "n": 16,
+          "page": 3,
+          "q": "“To read between the lines” means …",
+          "opts": {
+            "a": "to read cautiously",
+            "b": "to understand the hidden meaning",
+            "c": "to read the fine print",
+            "d": "to read aloud"
+          }
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "q": "The professional nose-and-throat specialist asked the author …",
+          "opts": {
+            "a": "what his trouble was",
+            "b": "what his name was",
+            "c": "what his business was",
+            "d": "what his intention was"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "q": "The author walked out of the specialist’s office …",
+          "opts": {
+            "a": "with respect for his professional competence",
+            "b": "with contempt for the specialist",
+            "c": "with admiration for the professional",
+            "d": "with indifference toward the professional"
+          }
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "The phrase “grabbing, self-seeking” means …",
+          "opts": {
+            "a": "cruel and vicious",
+            "b": "blunt and arrogant",
+            "c": "selfish and possessive",
+            "d": "proud and assertive"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "The chief concern of the specialist lay in …",
+          "opts": {
+            "a": "the nature of the author’s illness",
+            "b": "how much he could help the author",
+            "c": "how much he could get out of the author",
+            "d": "how quickly he could cure the author’s illness"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 4,
+          "q": "Owen D. Young said the person who …",
+          "opts": {
+            "a": "is always honest succeeds",
+            "b": "is selfless reaches the top of his profession",
+            "c": "is greedy fails miserably in life",
+            "d": "can understand others’ point of view need never worry about the future"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 4,
+          "q": "A professional should be …",
+          "opts": {
+            "a": "a sycophant",
+            "b": "solely concerned with profits",
+            "c": "courteous and humble",
+            "d": "competitive"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 4,
+          "q": "According to the passage, how many years do healthy habits add to a man’s and a woman’s life, respectively?",
+          "opts": {
+            "a": "10 years for a man and 5 years for a woman",
+            "b": "15 years for a man and 7 years for a woman",
+            "c": "11 years for a man and 5 years for a woman",
+            "d": "None of these"
+          }
+        },
+        "24": {
+          "n": 24,
+          "page": 4,
+          "q": "According to the passage, what can smoking lead to?",
+          "opts": {
+            "a": "cancer of the throat",
+            "b": "cancer of the liver",
+            "c": "cancer of the throat and lungs",
+            "d": "brain cancer"
+          }
+        },
+        "25": {
+          "n": 25,
+          "page": 5,
+          "q": "Which is not one of the seven golden rules for better health?",
+          "opts": {
+            "a": "getting eight hours of sleep nightly",
+            "b": "eating regularly and not between meals",
+            "c": "drinking alcoholic beverages",
+            "d": "not smoking or drinking"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 5,
+          "q": "According to the passage, what can lack of exercise result in?",
+          "opts": {
+            "a": "blood vessels losing elasticity",
+            "b": "rigidity",
+            "c": "suppleness",
+            "d": "hallucinations"
+          }
+        },
+        "27": {
+          "n": 27,
+          "page": 5,
+          "q": "“Sedentary” means …",
+          "opts": {
+            "a": "weak",
+            "b": "elderly",
+            "c": "inactive",
+            "d": "fragile"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 5,
+          "q": "Eight hours of sleep is good for us as it … us.",
+          "opts": {
+            "a": "sensitizes",
+            "b": "enervates",
+            "c": "hallucinates",
+            "d": "energizes"
+          }
+        },
+        "29": {
+          "n": 29,
+          "page": 5,
+          "q": "I can’t believe you fell … his lies.",
+          "opts": {
+            "a": "for",
+            "b": "down",
+            "c": "off",
+            "d": "of"
+          }
+        },
+        "30": {
+          "n": 30,
+          "page": 5,
+          "q": "If you don’t make it as an actor, you can always fall … on your education.",
+          "opts": {
+            "a": "over",
+            "b": "back",
+            "c": "into",
+            "d": "down"
+          }
+        },
+        "31": {
+          "n": 31,
+          "page": 5,
+          "q": "The thieves pulled … the heist perfectly.",
+          "opts": {
+            "a": "of",
+            "b": "down",
+            "c": "off",
+            "d": "up"
+          }
+        },
+        "32": {
+          "n": 32,
+          "page": 5,
+          "q": "I was completely worn … after our hike.",
+          "opts": {
+            "a": "onto",
+            "b": "up",
+            "c": "down",
+            "d": "out"
+          }
+        },
+        "33": {
+          "n": 33,
+          "page": 5,
+          "q": "City life is starting to grow … me.",
+          "opts": {
+            "a": "on",
+            "b": "for",
+            "c": "around",
+            "d": "without"
+          }
+        },
+        "34": {
+          "n": 34,
+          "page": 5,
+          "q": "The flowers give … a wonderful smell that scents the entire garden.",
+          "opts": {
+            "a": "of",
+            "b": "off",
+            "c": "out",
+            "d": "up"
+          }
+        },
+        "35": {
+          "n": 35,
+          "page": 5,
+          "q": "James came … a lot of money when his grandfather passed away.",
+          "opts": {
+            "a": "into",
+            "b": "across",
+            "c": "under",
+            "d": "over"
+          }
+        },
+        "36": {
+          "n": 36,
+          "page": 6,
+          "q": "Jack spoke … to the audience, urging them to elect him.",
+          "opts": {
+            "a": "confident",
+            "b": "confidently",
+            "c": "confidence",
+            "d": "confidant"
+          }
+        },
+        "37": {
+          "n": 37,
+          "page": 6,
+          "q": "He knew he had a … chance of winning the election.",
+          "opts": {
+            "a": "good",
+            "b": "well",
+            "c": "better",
+            "d": "best"
+          }
+        },
+        "38": {
+          "n": 38,
+          "page": 6,
+          "q": "Maria seemed more … than relaxed at the picnic.",
+          "opts": {
+            "a": "uncomfortably",
+            "b": "comfortably",
+            "c": "uncomfortable",
+            "d": "comforted"
+          }
+        },
+        "39": {
+          "n": 39,
+          "page": 6,
+          "q": "This airline’s … lack of organisation is astounding.",
+          "opts": {
+            "a": "complete",
+            "b": "completed",
+            "c": "completely",
+            "d": "incomplete"
+          }
+        },
+        "40": {
+          "n": 40,
+          "page": 6,
+          "q": "Tim is … known for his sense of humour.",
+          "opts": {
+            "a": "good",
+            "b": "better",
+            "c": "well",
+            "d": "bad"
+          }
+        },
+        "41": {
+          "n": 41,
+          "page": 6,
+          "q": "I went to a restaurant last week, but I … eat at home.",
+          "opts": {
+            "a": "usually",
+            "b": "seldom",
+            "c": "always",
+            "d": "never"
+          },
+          "unscored": true,
+          "explanation": "The second clause describes a general frequency, but the first clause does not establish which frequency applies. Several options can form grammatical sentences, so the item is held.",
+          "reviewNote": "The second clause describes a general frequency, but the first clause does not establish which frequency applies. Several options can form grammatical sentences, so the item is held."
+        },
+        "42": {
+          "n": 42,
+          "page": 6,
+          "q": "I … drive to work because of the traffic jams.",
+          "opts": {
+            "a": "rarely",
+            "b": "usually",
+            "c": "occasionally",
+            "d": "all the time"
+          },
+          "unscored": true,
+          "explanation": "The reason does not determine a unique frequency: rarely and occasionally (among other readings) can both fit. The item is held.",
+          "reviewNote": "The reason does not determine a unique frequency: rarely and occasionally (among other readings) can both fit. The item is held."
+        },
+        "43": {
+          "n": 43,
+          "page": 6,
+          "q": "In “If we finished our work quickly, we can go to the movies,” the underlined word “quickly” is a …",
+          "opts": {
+            "a": "verb",
+            "b": "adverb",
+            "c": "adjective"
+          }
+        },
+        "44": {
+          "n": 44,
+          "page": 6,
+          "q": "In “Well, I don’t think I will be here to answer the phone,” the underlined word “Well” is a …",
+          "opts": {
+            "a": "interjection",
+            "b": "preposition",
+            "c": "pronoun"
+          }
+        },
+        "45": {
+          "n": 45,
+          "page": 6,
+          "q": "In “Andy knocked on the door but nobody answered,” the underlined word “but” is a …",
+          "opts": {
+            "a": "adverb",
+            "b": "adjective",
+            "c": "conjunction"
+          }
+        },
+        "46": {
+          "n": 46,
+          "page": 6,
+          "q": "In “You have to believe in yourself if you expect to be successful,” the underlined word “yourself” is a …",
+          "opts": {
+            "a": "pronoun",
+            "b": "adverb",
+            "c": "verb"
+          }
+        },
+        "47": {
+          "n": 47,
+          "page": 6,
+          "q": "In “We left for the mountain just before six in the morning,” the underlined word “left” is a …",
+          "opts": {
+            "a": "adverb",
+            "b": "verb",
+            "c": "conjunction"
+          }
+        },
+        "48": {
+          "n": 48,
+          "page": 7,
+          "q": "In “He wasn’t strong enough to lift his heavy bag,” the underlined word “heavy” is a …",
+          "opts": {
+            "a": "noun",
+            "b": "adverb",
+            "c": "adjective"
+          }
+        },
+        "49": {
+          "n": 49,
+          "page": 7,
+          "q": "In “If you pay your bills, you will have a good credit score,” the underlined clause is a …",
+          "opts": {
+            "a": "noun clause",
+            "b": "adverb clause",
+            "c": "adjective clause",
+            "d": "independent clause"
+          }
+        },
+        "50": {
+          "n": 50,
+          "page": 7,
+          "q": "In “Fruit that is grown organically is expensive,” the underlined clause is a …",
+          "opts": {
+            "a": "noun clause",
+            "b": "adverb clause",
+            "c": "adjective clause",
+            "d": "independent clause"
+          }
+        },
+        "51": {
+          "n": 51,
+          "page": 7,
+          "q": "In “That he is a cheat is a well-known fact,” the underlined clause is a …",
+          "opts": {
+            "a": "noun clause",
+            "b": "adverb clause",
+            "c": "adjective clause",
+            "d": "independent clause"
+          }
+        },
+        "52": {
+          "n": 52,
+          "page": 7,
+          "q": "In “Mark kept his schedule open in case of emergencies,” the underlined words are …",
+          "opts": {
+            "a": "a noun clause",
+            "b": "an adverb clause",
+            "c": "an adjective clause",
+            "d": "an independent clause"
+          },
+          "unscored": true,
+          "explanation": "“In case of emergencies” is a prepositional phrase, not a clause, because it has no subject and finite verb. None of the listed clause types applies.",
+          "reviewNote": "“In case of emergencies” is a prepositional phrase, not a clause, because it has no subject and finite verb. None of the listed clause types applies."
+        },
+        "53": {
+          "n": 53,
+          "page": 7,
+          "q": "In “They all said that I would not succeed,” the underlined clause is a …",
+          "opts": {
+            "a": "noun clause",
+            "b": "adverb clause",
+            "c": "adjective clause",
+            "d": "independent clause"
+          }
+        },
+        "54": {
+          "n": 54,
+          "page": 7,
+          "q": "In “Pizza, which most people love, is not very healthy,” the underlined clause is a …",
+          "opts": {
+            "a": "noun clause",
+            "b": "adverb clause",
+            "c": "adjective clause",
+            "d": "independent clause"
+          }
+        },
+        "55": {
+          "n": 55,
+          "page": 7,
+          "q": "“Barbara and Joana whispered and giggled all night.” This is a … sentence.",
+          "opts": {
+            "a": "simple sentence",
+            "b": "complex sentence",
+            "c": "compound sentence"
+          }
+        },
+        "56": {
+          "n": 56,
+          "page": 7,
+          "q": "“After the tornado hit, my house was completely destroyed.” This is a … sentence.",
+          "opts": {
+            "a": "simple sentence",
+            "b": "complex sentence",
+            "c": "compound sentence"
+          }
+        },
+        "57": {
+          "n": 57,
+          "page": 7,
+          "q": "“This summer our vacation should be both exciting and restful.” This is a … sentence.",
+          "opts": {
+            "a": "simple sentence",
+            "b": "complex sentence",
+            "c": "compound sentence"
+          }
+        },
+        "58": {
+          "n": 58,
+          "page": 7,
+          "q": "“When the cost goes up, customers buy less clothing.” This is a … sentence.",
+          "opts": {
+            "a": "simple sentence",
+            "b": "complex sentence",
+            "c": "compound sentence"
+          }
+        },
+        "59": {
+          "n": 59,
+          "page": 7,
+          "q": "“The moon is full; the stars are out.” This is a … sentence.",
+          "opts": {
+            "a": "simple sentence",
+            "b": "complex sentence",
+            "c": "compound sentence"
+          }
+        },
+        "60": {
+          "n": 60,
+          "page": 8,
+          "q": "“Drive to the roundabout and then turn left.” This sentence is …",
+          "opts": {
+            "a": "exclamatory",
+            "b": "imperative",
+            "c": "negative",
+            "d": "assertive"
+          }
+        },
+        "61": {
+          "n": 61,
+          "page": 8,
+          "q": "“In the shopping mall, I met a friend I hadn’t seen for years.” This sentence is …",
+          "opts": {
+            "a": "exclamatory",
+            "b": "imperative",
+            "c": "negative",
+            "d": "assertive"
+          }
+        },
+        "62": {
+          "n": 62,
+          "page": 8,
+          "q": "“Has anyone seen my torch?” This sentence is …",
+          "opts": {
+            "a": "interrogative",
+            "b": "affirmative",
+            "c": "assertive",
+            "d": "negative"
+          }
+        },
+        "63": {
+          "n": 63,
+          "page": 8,
+          "q": "“San Clemente is an island off the coast of San Diego.” This sentence is …",
+          "opts": {
+            "a": "exclamatory",
+            "b": "affirmative",
+            "c": "imperative",
+            "d": "negative"
+          }
+        },
+        "64": {
+          "n": 64,
+          "page": 8,
+          "q": "“Do not condemn the judgment of others because it differs from your own.” This sentence is …",
+          "opts": {
+            "a": "exclamatory",
+            "b": "imperative",
+            "c": "negative",
+            "d": "assertive"
+          }
+        },
+        "65": {
+          "n": 65,
+          "page": 8,
+          "q": "“Commence” means …",
+          "opts": {
+            "a": "to end",
+            "b": "to begin",
+            "c": "nearing finish",
+            "d": "to run"
+          }
+        },
+        "66": {
+          "n": 66,
+          "page": 8,
+          "q": "“Conjecture” means …",
+          "opts": {
+            "a": "grave",
+            "b": "outward",
+            "c": "to guess",
+            "d": "to claim"
+          }
+        },
+        "67": {
+          "n": 67,
+          "page": 8,
+          "q": "“Deteriorate” means …",
+          "opts": {
+            "a": "appreciate",
+            "b": "recover",
+            "c": "to make worse",
+            "d": "strengthen"
+          }
+        },
+        "68": {
+          "n": 68,
+          "page": 8,
+          "q": "“Admonish” means …",
+          "opts": {
+            "a": "to warn",
+            "b": "to cajole",
+            "c": "encourage",
+            "d": "abdicate"
+          }
+        },
+        "69": {
+          "n": 69,
+          "page": 8,
+          "q": "“Manipulate” means …",
+          "opts": {
+            "a": "display",
+            "b": "gloomy",
+            "c": "to handle or manage",
+            "d": "to mortgage"
+          }
+        },
+        "70": {
+          "n": 70,
+          "page": 8,
+          "q": "“Remuneration” means …",
+          "opts": {
+            "a": "understanding",
+            "b": "protest",
+            "c": "finality",
+            "d": "compensation"
+          }
+        },
+        "71": {
+          "n": 71,
+          "page": 9,
+          "q": "The opposite of “protects” is …",
+          "opts": {
+            "a": "defends",
+            "b": "deprives",
+            "c": "deserts",
+            "d": "devises"
+          }
+        },
+        "72": {
+          "n": 72,
+          "page": 9,
+          "q": "The opposite of “glory” is …",
+          "opts": {
+            "a": "splendor",
+            "b": "debasement",
+            "c": "fame",
+            "d": "reputation"
+          }
+        },
+        "73": {
+          "n": 73,
+          "page": 9,
+          "q": "The opposite of “foremost” is …",
+          "opts": {
+            "a": "hindmost",
+            "b": "mature",
+            "c": "unimportant",
+            "d": "disposed"
+          }
+        },
+        "74": {
+          "n": 74,
+          "page": 9,
+          "q": "The opposite of “retrogression” is …",
+          "opts": {
+            "a": "retardation",
+            "b": "development",
+            "c": "progress",
+            "d": "impunity"
+          }
+        },
+        "75": {
+          "n": 75,
+          "page": 9,
+          "q": "He cannot live in a closed apartment. He is …",
+          "opts": {
+            "a": "claustrophobic",
+            "b": "congested",
+            "c": "acrophobic",
+            "d": "sensitive"
+          }
+        },
+        "76": {
+          "n": 76,
+          "page": 9,
+          "q": "God is present everywhere. He is …",
+          "opts": {
+            "a": "omniscient",
+            "b": "omnipresent",
+            "c": "omnipotent",
+            "d": "convalescent"
+          }
+        },
+        "77": {
+          "n": 77,
+          "page": 9,
+          "q": "“Something which cannot be avoided” is …",
+          "opts": {
+            "a": "unavoidable",
+            "b": "inimitable",
+            "c": "inevitable",
+            "d": "unevitable"
+          }
+        },
+        "78": {
+          "n": 78,
+          "page": 9,
+          "q": "Genuine relationships always seem to … her.",
+          "opts": {
+            "a": "allude",
+            "b": "elude",
+            "c": "illude",
+            "d": "delude"
+          }
+        },
+        "79": {
+          "n": 79,
+          "page": 9,
+          "q": "The general act of forgiveness on a national occasion is called …",
+          "opts": {
+            "a": "benediction",
+            "b": "emancipation",
+            "c": "gratification",
+            "d": "amnesty"
+          }
+        },
+        "80": {
+          "n": 80,
+          "page": 9,
+          "q": "The amount of sugar in his blood … the previous reading.",
+          "opts": {
+            "a": "acceded",
+            "b": "exceeded",
+            "c": "crossed",
+            "d": "beyond"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "“Blow over” means to pass or subside, which fits a disturbance that will soon end."
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "“On the wrong side of forty” is the idiom meaning older than forty."
+        },
+        "4": {
+          "answerIndex": 3,
+          "explanation": "“At the drop of a hat” means immediately or without hesitation."
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "To “think on one’s feet” is to respond quickly and effectively in the moment."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "“Cost an arm and a leg” means to be very expensive."
+        },
+        "7": {
+          "answerIndex": 2,
+          "explanation": "“In the blink of an eye” means extremely quickly."
+        },
+        "8": {
+          "answerIndex": 1,
+          "explanation": "“The ins and outs” are the details or practical aspects of something."
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "“When pigs fly” describes something that is extremely unlikely or impossible."
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "“Tickled pink” means very pleased or delighted."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "To “sell someone out” is to betray them, often for personal gain."
+        },
+        "12": {
+          "answerIndex": 3,
+          "explanation": "The idiom means to feel unwell."
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "“Spin a yarn” means to tell a story, often an imaginative or exaggerated one."
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "“Get into hot water” means to get into trouble."
+        },
+        "16": {
+          "answerIndex": 1,
+          "explanation": "The idiom means to infer an unstated or concealed meaning."
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "The passage says the specialist asked what the author’s business was before examining him."
+        },
+        "18": {
+          "answerIndex": 1,
+          "explanation": "The passage explicitly says the author left with contempt for the specialist’s lack of character."
+        },
+        "19": {
+          "answerIndex": 2,
+          "explanation": "In context, “grabbing, self-seeking” describes people who pursue their own interests selfishly."
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "The passage states that the specialist was concerned with how much he could get out of the author."
+        },
+        "21": {
+          "answerIndex": 3,
+          "explanation": "The quotation says someone who understands others’ minds need never worry about the future."
+        },
+        "22": {
+          "answerIndex": 2,
+          "explanation": "The passage says a professional should remain courteous and humble and value human relations."
+        },
+        "23": {
+          "answerIndex": 3,
+          "explanation": "The passage gives 11 extra years for a man and 7 for a woman; none of the first three choices matches both figures."
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "The passage says smoking often leads to cancer of the throat and lungs."
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "The passage lists avoiding smoking and drinking as a rule; drinking alcohol is therefore not one of its rules."
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "The passage says lack of exercise makes blood vessels lose elasticity and suppleness."
+        },
+        "27": {
+          "answerIndex": 2,
+          "explanation": "“Sedentary” means involving little physical activity; “inactive” is the closest choice."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "The passage describes eight hours of sleep as energizing and restorative."
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "The phrasal verb is “fall for” someone’s lies, meaning to believe them."
+        },
+        "30": {
+          "answerIndex": 1,
+          "explanation": "The idiom “fall back on” means to rely on something as a reserve."
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "“Pull off” means to succeed in carrying out a difficult plan."
+        },
+        "32": {
+          "answerIndex": 3,
+          "explanation": "“Worn out” means extremely tired."
+        },
+        "33": {
+          "answerIndex": 0,
+          "explanation": "“Grow on me” means gradually become more appealing to me."
+        },
+        "34": {
+          "answerIndex": 1,
+          "explanation": "“Give off” means emit; flowers give off a scent."
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "“Come into money” means to inherit or receive money."
+        },
+        "36": {
+          "answerIndex": 1,
+          "explanation": "The blank modifies the verb “spoke,” so the adverb “confidently” is required."
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "“Good chance” is the natural adjective phrase here; “well” is an adverb."
+        },
+        "38": {
+          "answerIndex": 2,
+          "explanation": "After the linking verb “seemed,” an adjective is needed; “uncomfortable” also supplies the intended contrast with “relaxed.”"
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "The adjective “complete” modifies the noun phrase “lack of organisation.”"
+        },
+        "40": {
+          "answerIndex": 2,
+          "explanation": "“Well known” is the standard adjective phrase meaning widely known."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "“Quickly” modifies the verb “finished,” so it is an adverb."
+        },
+        "44": {
+          "answerIndex": 0,
+          "explanation": "At the beginning of this sentence, “Well” is used as an interjection/discourse marker."
+        },
+        "45": {
+          "answerIndex": 2,
+          "explanation": "“But” joins two clauses, so it is a conjunction."
+        },
+        "46": {
+          "answerIndex": 0,
+          "explanation": "“Yourself” is a reflexive pronoun referring to “you.”"
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "“Left” is the past-tense verb in the sentence."
+        },
+        "48": {
+          "answerIndex": 2,
+          "explanation": "“Heavy” describes the noun “bag,” so it is an adjective."
+        },
+        "49": {
+          "answerIndex": 1,
+          "explanation": "The subordinate “if” clause states the condition for the main clause, so it is an adverb clause."
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "“That is grown organically” modifies “fruit,” so it is an adjective (relative) clause."
+        },
+        "51": {
+          "answerIndex": 0,
+          "explanation": "“That he is a cheat” functions as the subject of “is a well-known fact,” so it is a noun clause."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "“That I would not succeed” is the content of what they said and functions as the object of “said,” so it is a noun clause."
+        },
+        "54": {
+          "answerIndex": 2,
+          "explanation": "The relative clause “which most people love” modifies “pizza,” so it is an adjective clause."
+        },
+        "55": {
+          "answerIndex": 0,
+          "explanation": "It has one independent clause with a compound predicate (“whispered and giggled”), so it is simple."
+        },
+        "56": {
+          "answerIndex": 1,
+          "explanation": "It contains a subordinate “after” clause and an independent clause, so it is complex."
+        },
+        "57": {
+          "answerIndex": 0,
+          "explanation": "It has one independent clause and no subordinate clause, so it is simple."
+        },
+        "58": {
+          "answerIndex": 1,
+          "explanation": "The “when” clause is subordinate to the independent clause, making the sentence complex."
+        },
+        "59": {
+          "answerIndex": 2,
+          "explanation": "The semicolon joins two independent clauses, so the sentence is compound."
+        },
+        "60": {
+          "answerIndex": 1,
+          "explanation": "The sentence gives a direct instruction, so it is imperative."
+        },
+        "61": {
+          "answerIndex": 3,
+          "explanation": "It makes a statement, so it is assertive."
+        },
+        "62": {
+          "answerIndex": 0,
+          "explanation": "It asks a question, so it is interrogative."
+        },
+        "63": {
+          "answerIndex": 1,
+          "explanation": "It is a positive statement, matching the option “affirmative.”"
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "It gives a prohibition/instruction, so its sentence type is imperative, even though it is phrased negatively."
+        },
+        "65": {
+          "answerIndex": 1,
+          "explanation": "“Commence” means to begin."
+        },
+        "66": {
+          "answerIndex": 2,
+          "explanation": "A conjecture is an opinion or conclusion formed without complete evidence; “to guess” is the closest choice."
+        },
+        "67": {
+          "answerIndex": 2,
+          "explanation": "“Deteriorate” means to become worse; option C is the closest, though “to make worse” is transitive."
+        },
+        "68": {
+          "answerIndex": 0,
+          "explanation": "“Admonish” means to caution or reprimand, so “to warn” is the closest choice."
+        },
+        "69": {
+          "answerIndex": 2,
+          "explanation": "“Manipulate” can mean to handle or control something."
+        },
+        "70": {
+          "answerIndex": 3,
+          "explanation": "“Remuneration” means payment or compensation for work."
+        },
+        "71": {
+          "answerIndex": 2,
+          "explanation": "“Deserts” can mean abandons, which is the opposite of protects. The other choices do not express that antonym."
+        },
+        "72": {
+          "answerIndex": 1,
+          "explanation": "“Debasement” means degradation or loss of dignity, contrasting with glory."
+        },
+        "73": {
+          "answerIndex": 0,
+          "explanation": "“Hindmost” means farthest behind and is the direct opposite of foremost."
+        },
+        "74": {
+          "answerIndex": 2,
+          "explanation": "“Retrogression” is backward movement; “progress” is its opposite."
+        },
+        "75": {
+          "answerIndex": 0,
+          "explanation": "“Claustrophobic” describes fear or distress in enclosed spaces."
+        },
+        "76": {
+          "answerIndex": 1,
+          "explanation": "“Omnipresent” means present everywhere. The scan prints a duplicate option label, which is corrected here by retaining the four choices in their printed order."
+        },
+        "77": {
+          "answerIndex": 2,
+          "explanation": "“Inevitable” means certain to happen and impossible to avoid."
+        },
+        "78": {
+          "answerIndex": 1,
+          "explanation": "“Elude” means escape or remain out of reach; genuine relationships seem to escape her."
+        },
+        "79": {
+          "answerIndex": 3,
+          "explanation": "An amnesty is an official pardon, often granted to a group on a public or national occasion."
+        },
+        "80": {
+          "answerIndex": 1,
+          "explanation": "“Exceeded” means was greater than, which fits the comparison with the previous reading."
+        }
+      },
+      "written": {
+        "1": {
+          "page": 1,
+          "q": "Write an essay on any one of these topics in about 300 words: (a) Talent versus Hard Work; (b) Mass Media and Cultural Invasion; (c) Youth Culture Today.",
+          "explanation": "Choose one topic, state a clear central idea, and develop it in a focused introduction, connected supporting paragraphs, and a conclusion. For “Talent versus Hard Work,” compare natural ability with practice and persistence. For “Mass Media and Cultural Invasion,” discuss both cultural exchange and the risk of displacing local traditions. For “Youth Culture Today,” consider young people’s changing values, technology, education, and responsibilities. Use specific examples and maintain a consistent point of view."
+        }
+      }
     }
   }
 }

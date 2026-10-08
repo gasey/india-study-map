@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 9 October 2026
 
-49 general papers, 3,520 items: 3,449 MCQs and 71 written prompts.
-2,575 questions are ready for practice, including 1,614 official answers and
-961 independently derived answers. 885 items still need source review.
+49 general papers, 3,532 items: 3,461 MCQs and 71 written prompts.
+2,587 questions are ready for practice, including 1,614 official answers and
+973 independently derived answers. 885 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -159,3 +159,11 @@ Sub-Inspector FCS&CA / Receptionist H&FW Paper-I General English, May 2025 Serie
 Sub-Inspector of Excise & Narcotics Paper-II, April 2025 Series A is now restored and scan-checked across all 100 questions. The OCR had fused Q1–10 and omitted 30 question numbers; the cover confirms 100 two-mark questions, two hours and no negative marking. Ninety-five items have derived answers with explanations. Q30 and Q81–82 are ambiguous; Q96–97 depend on distorted visual content and remain held. The 2025 paper count, exact page links and no-penalty scoring metadata are verified from the booklet.
 
 Sub-Inspector of Excise & Narcotics Paper-II, August 2024 is now restored and checked across all 100 questions. All 17 missing OCR question numbers have been recovered, stems and options are readable, and 95 answers have worked or factual explanations. Q52’s printed arithmetic expression conflicts with the choices under standard precedence; Q76 has no matching revolutions option; Q86 and Q91 remain image-dependent; Q94 does not identify F’s relationship to A. These five items stay unscored. The cover specifies 200 marks at two marks per question and three hours.
+
+Sub-Inspector of Excise & Narcotics Paper-I, August 2024: the 12 OCR-missing
+questions (Q2, Q9, Q13, Q20, Q36, Q38, Q49, Q52, Q60, Q65, Q79 and Q91)
+have been restored from the printed scan and independently keyed with
+explanations. This is deliberately a partial review: the other 88 question
+stems and option sets still need a full scan comparison before the paper is
+ready for answering. The cover specifies 100 questions, two marks each and
+three hours.

@@ -43562,6 +43562,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q2",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Which article of the Constitution of India gives a special provision to the state of Mizoram?",
+    "options": [
+      "Article 371D",
+      "Article 371E",
+      "Article 371F",
+      "Article 371G"
+    ],
+    "answerIndex": 3,
+    "explanation": "Article 371G gives Mizoram its special constitutional provision.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-si-excise-2024-p1-Q3",
     "paperId": "mpsc-group-b-si-excise-2024-p1",
     "questionNumber": "3",
@@ -43712,6 +43738,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q9",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "What is the status of NITI Aayog?",
+    "options": [
+      "Statutory body",
+      "An independent constitutional body",
+      "Quasi-federal commission",
+      "Non-constitutional and non-statutory body"
+    ],
+    "answerIndex": 3,
+    "explanation": "NITI Aayog was created by executive resolution; it is neither a constitutional nor a statutory body.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-si-excise-2024-p1-Q10",
     "paperId": "mpsc-group-b-si-excise-2024-p1",
     "questionNumber": "10",
@@ -43785,6 +43837,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q13",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "13",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "What does ad valorem mean?",
+    "options": [
+      "According to value",
+      "According to weight",
+      "According to size",
+      "According to cost"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ad valorem means a charge calculated according to the value of the goods or transaction.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q14",
@@ -43935,6 +44013,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q20",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "20",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Which item is not included in the minimum support prices recently announced by the Mizoram government?",
+    "options": [
+      "Ginger",
+      "Turmeric",
+      "Broomstick",
+      "Sesamum"
+    ],
+    "answerIndex": 3,
+    "explanation": "The announced Mizoram procurement/support-price crops included ginger, turmeric, chilli and broomsticks; sesamum was not among them.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q21",
@@ -44312,6 +44416,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q36",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "36",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Which animal is a hybrid between a horse and a donkey?",
+    "options": [
+      "Mule",
+      "Hule",
+      "Tigon",
+      "Zorse"
+    ],
+    "answerIndex": 0,
+    "explanation": "A mule is the usual hybrid offspring of a male donkey and a female horse.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-si-excise-2024-p1-Q37",
     "paperId": "mpsc-group-b-si-excise-2024-p1",
     "questionNumber": "37",
@@ -44335,6 +44465,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q38",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "38",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Who was the author of the book Lehkhabu Ramtiam?",
+    "options": [
+      "Laltluangliana Khiangte",
+      "R. Vanlawma",
+      "B. Lalthangliana",
+      "R. L. Thanmawia"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mizo literary references list Lehkhabu Ramtiam among Prof. Laltluangliana Khiangte’s books.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q39",
@@ -44587,6 +44743,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q49",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "49",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Which city won the Cleanest Cities Award 2023 presented by the President?",
+    "options": [
+      "Surat",
+      "Port Blair",
+      "Goa",
+      "Jaipur"
+    ],
+    "answerIndex": 0,
+    "explanation": "Surat shared the 2023 cleanest-city award with Indore; Surat is the only listed award-winning city.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-si-excise-2024-p1-Q50",
     "paperId": "mpsc-group-b-si-excise-2024-p1",
     "questionNumber": "50",
@@ -44635,6 +44817,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q52",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "52",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Which modal verb is used to express possibility in the future?",
+    "options": [
+      "Might",
+      "Must",
+      "Shall",
+      "Should"
+    ],
+    "answerIndex": 0,
+    "explanation": "Might can express a possibility that may occur in the future.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q53",
@@ -44812,6 +45020,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q60",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "60",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Identify the sentence with an error in the use of the present perfect tense.",
+    "options": [
+      "She has gone to the store to buy some groceries.",
+      "They has been waiting for the bus for over an hour.",
+      "I have never been to Paris before.",
+      "We have already eaten dinner."
+    ],
+    "answerIndex": 1,
+    "explanation": "The present-perfect auxiliary with the plural subject “they” is “have,” not “has.”",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-si-excise-2024-p1-Q61",
     "paperId": "mpsc-group-b-si-excise-2024-p1",
     "questionNumber": "61",
@@ -44910,6 +45144,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q65",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "65",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Choose the antonym of “reverence.”",
+    "options": [
+      "Admiration",
+      "Respect",
+      "Disdain",
+      "Veneration"
+    ],
+    "answerIndex": 2,
+    "explanation": "Disdain means contempt; it is the opposite of reverence or deep respect.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q66",
@@ -45240,6 +45500,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "direction": "Directions(QuestionNos.76-80):Readthegivenpassagecarefullyandanswerthequestionsthat"
   },
   {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q79",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "79",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Compared with the narrator as a child, the narrator as an adult is —",
+    "options": [
+      "more realistic",
+      "less excitable",
+      "more idealistic",
+      "less calm"
+    ],
+    "answerIndex": 1,
+    "explanation": "As a child, the narrator nearly cried when rain disrupted summer plans; as an adult, the narrator reacts more calmly and welcomes the cooler weather rain brings.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-si-excise-2024-p1-Q80",
     "paperId": "mpsc-group-b-si-excise-2024-p1",
     "questionNumber": "80",
@@ -45524,6 +45810,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(QuestionNos.86-90):Readthegivenpassagecarefullyandanswerthequestionsthat"
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p1-Q91",
+    "paperId": "mpsc-group-b-si-excise-2024-p1",
+    "questionNumber": "91",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "What is the primary purpose of power foods, as mentioned in the passage?",
+    "options": [
+      "To provide essential nutrients for muscle development and overall health",
+      "To enhance taste and flavour in meals",
+      "To replace traditional meals entirely",
+      "To cater specifically to the dietary needs of teenagers"
+    ],
+    "answerIndex": 0,
+    "explanation": "The passage describes power foods as nutrient-rich foods encouraged to support muscle development and health.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf#page=11",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p1-Q92",
@@ -47630,7 +47942,9 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q73",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -47941,9 +48255,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q85",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -55555,7 +55867,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q77",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -55870,9 +56184,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q89",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -63654,7 +63966,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 11 - 15): Choose the correct Preposition to fill in the blanks:"
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p1-A16",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -63976,9 +64290,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:"
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p1-A28",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -72162,7 +72474,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q97",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -72499,9 +72813,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
     "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B9",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -80710,7 +81022,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B62",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q63",
     "questionNumber": "B63",
@@ -81022,9 +81336,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B74",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q75",
     "questionNumber": "B75",
@@ -88546,7 +88858,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A36",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A37",
     "questionNumber": "A37",
@@ -88860,9 +89174,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A48",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A49",
     "questionNumber": "A49",
@@ -94707,6 +95019,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-si-excise-2024-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-si-excise-2024-p2": {
     "marksPerQuestion": 2,
     "durationMinutes": 180,
@@ -94865,6 +95183,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-steno-2025-english": 75,
   "mpsc-group-b-steno-2025-gk": 100,
   "mpsc-group-b-steno2-2025-p1": 40,
+  "mpsc-group-b-si-excise-2024-p1": 100,
   "mpsc-group-b-si-excise-2024-p2": 100,
   "mpsc-group-b-si-excise-2025-p1": 30,
   "mpsc-group-b-si-excise-2025-p2": 100,

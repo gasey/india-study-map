@@ -27555,6 +27555,197 @@
           "explanation": "61 days is 8 weeks and 5 days. Five days after Monday is Saturday."
         }
       }
+    },
+    "si-excise-2024-p1": {
+      "sourceSha256": "4f5690d96cb821dc5f170e5f26f255f38d2bb8ae71920f64da1ff15550ba9c8f",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-09",
+      "partialReview": true,
+      "evidence": "Recovered the 12 numbering gaps (Q2, 9, 13, 20, 36, 38, 49, 52, 60, 65, 79 and 91) from printed pages 1–7 and 11 of the August 2024 Paper-I scan. Stems and all four options were checked against the page images; punctuation, spacing and OCR substitutions were corrected for readability. The cover confirms 100 questions, two marks each and three hours. Only these recovered questions are marked source-reviewed in this partial repair; the remaining paper still needs a full scan review. Source SHA256 binds the repair to this booklet.",
+      "questions": {
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "Which article of the Constitution of India gives a special provision to the state of Mizoram?",
+          "opts": {
+            "a": "Article 371D",
+            "b": "Article 371E",
+            "c": "Article 371F",
+            "d": "Article 371G"
+          }
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "q": "What is the status of NITI Aayog?",
+          "opts": {
+            "a": "Statutory body",
+            "b": "An independent constitutional body",
+            "c": "Quasi-federal commission",
+            "d": "Non-constitutional and non-statutory body"
+          }
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "What does ad valorem mean?",
+          "opts": {
+            "a": "According to value",
+            "b": "According to weight",
+            "c": "According to size",
+            "d": "According to cost"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "q": "Which item is not included in the minimum support prices recently announced by the Mizoram government?",
+          "opts": {
+            "a": "Ginger",
+            "b": "Turmeric",
+            "c": "Broomstick",
+            "d": "Sesamum"
+          }
+        },
+        "36": {
+          "n": 36,
+          "page": 3,
+          "q": "Which animal is a hybrid between a horse and a donkey?",
+          "opts": {
+            "a": "Mule",
+            "b": "Hule",
+            "c": "Tigon",
+            "d": "Zorse"
+          }
+        },
+        "38": {
+          "n": 38,
+          "page": 3,
+          "q": "Who was the author of the book Lehkhabu Ramtiam?",
+          "opts": {
+            "a": "Laltluangliana Khiangte",
+            "b": "R. Vanlawma",
+            "c": "B. Lalthangliana",
+            "d": "R. L. Thanmawia"
+          }
+        },
+        "49": {
+          "n": 49,
+          "page": 4,
+          "q": "Which city won the Cleanest Cities Award 2023 presented by the President?",
+          "opts": {
+            "a": "Surat",
+            "b": "Port Blair",
+            "c": "Goa",
+            "d": "Jaipur"
+          }
+        },
+        "52": {
+          "n": 52,
+          "page": 4,
+          "q": "Which modal verb is used to express possibility in the future?",
+          "opts": {
+            "a": "Might",
+            "b": "Must",
+            "c": "Shall",
+            "d": "Should"
+          }
+        },
+        "60": {
+          "n": 60,
+          "page": 5,
+          "q": "Identify the sentence with an error in the use of the present perfect tense.",
+          "opts": {
+            "a": "She has gone to the store to buy some groceries.",
+            "b": "They has been waiting for the bus for over an hour.",
+            "c": "I have never been to Paris before.",
+            "d": "We have already eaten dinner."
+          }
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "q": "Choose the antonym of “reverence.”",
+          "opts": {
+            "a": "Admiration",
+            "b": "Respect",
+            "c": "Disdain",
+            "d": "Veneration"
+          }
+        },
+        "79": {
+          "n": 79,
+          "page": 7,
+          "q": "Compared with the narrator as a child, the narrator as an adult is —",
+          "opts": {
+            "a": "more realistic",
+            "b": "less excitable",
+            "c": "more idealistic",
+            "d": "less calm"
+          }
+        },
+        "91": {
+          "n": 91,
+          "page": 11,
+          "q": "What is the primary purpose of power foods, as mentioned in the passage?",
+          "opts": {
+            "a": "To provide essential nutrients for muscle development and overall health",
+            "b": "To enhance taste and flavour in meals",
+            "c": "To replace traditional meals entirely",
+            "d": "To cater specifically to the dietary needs of teenagers"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "2": {
+          "answerIndex": 3,
+          "explanation": "Article 371G gives Mizoram its special constitutional provision."
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "NITI Aayog was created by executive resolution; it is neither a constitutional nor a statutory body."
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "Ad valorem means a charge calculated according to the value of the goods or transaction."
+        },
+        "20": {
+          "answerIndex": 3,
+          "explanation": "The announced Mizoram procurement/support-price crops included ginger, turmeric, chilli and broomsticks; sesamum was not among them."
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "A mule is the usual hybrid offspring of a male donkey and a female horse."
+        },
+        "38": {
+          "answerIndex": 0,
+          "explanation": "Mizo literary references list Lehkhabu Ramtiam among Prof. Laltluangliana Khiangte’s books."
+        },
+        "49": {
+          "answerIndex": 0,
+          "explanation": "Surat shared the 2023 cleanest-city award with Indore; Surat is the only listed award-winning city."
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "Might can express a possibility that may occur in the future."
+        },
+        "60": {
+          "answerIndex": 1,
+          "explanation": "The present-perfect auxiliary with the plural subject “they” is “have,” not “has.”"
+        },
+        "65": {
+          "answerIndex": 2,
+          "explanation": "Disdain means contempt; it is the opposite of reverence or deep respect."
+        },
+        "79": {
+          "answerIndex": 1,
+          "explanation": "As a child, the narrator nearly cried when rain disrupted summer plans; as an adult, the narrator reacts more calmly and welcomes the cooler weather rain brings."
+        },
+        "91": {
+          "answerIndex": 0,
+          "explanation": "The passage describes power foods as nutrient-rich foods encouraged to support muscle development and health."
+        }
+      }
     }
   }
 }

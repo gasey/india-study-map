@@ -269,7 +269,8 @@
     "sourceHref": "/papers/group-b/si-excise-2024-p1.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 100
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2",

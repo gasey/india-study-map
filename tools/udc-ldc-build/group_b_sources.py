@@ -257,6 +257,11 @@ def build_additional():
             entry['expectedMcq'] = 100
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'si-excise-2024-p1' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Printed cover: 100 questions worth 2 marks each, three hours.
+            entry['expectedMcq'] = 100
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug in ('aao-2024-english', 'aao-2024-arithmetic') and reviewed_numbers:
             # The AAO paper instructions specify 100 one-mark questions and
             # three hours; this metadata supports practice for reviewed items.

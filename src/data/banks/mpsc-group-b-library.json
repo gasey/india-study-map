@@ -300,7 +300,8 @@
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf",
     "keyHref": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf",
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 100
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p1",

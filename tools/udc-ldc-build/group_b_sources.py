@@ -247,6 +247,11 @@ def build_additional():
             # incomplete, so these MCQs are excluded from full-paper Exam mode.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'si-excise-2025-p2' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Printed cover: 100 two-mark questions, two hours, no negative marks.
+            entry['expectedMcq'] = 100
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug in ('aao-2024-english', 'aao-2024-arithmetic') and reviewed_numbers:
             # The AAO paper instructions specify 100 one-mark questions and
             # three hours; this metadata supports practice for reviewed items.

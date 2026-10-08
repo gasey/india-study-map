@@ -78,6 +78,23 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertIn('(j) What role do governments', repair['written']['3']['q'])
         self.assertIn('ensure(s)', repair['written']['3']['explanation'])
 
+    def test_excise_2025_paper_two_restores_all_questions_and_holds_uncertain_items(self):
+        extracted = json.loads((HERE / 'extracted/si-excise-2025-p2.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['si-excise-2025-p2']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 101)))
+        self.assertEqual([q['n'] for q in result['questions']], list(range(1, 101)))
+        self.assertEqual({int(n) for n in repair['derivedAnswers']}, set(range(1, 101)) - {30, 81, 82, 96, 97})
+        self.assertTrue(all(row['explanation'].strip() for row in repair['derivedAnswers'].values()))
+        self.assertEqual(result['questions'][0]['page'], 2)
+        self.assertEqual(result['questions'][98]['page'], 11)
+        self.assertEqual(result['questions'][54]['opts']['a'], '100489')
+        self.assertEqual(repair['derivedAnswers']['48']['answerIndex'], 0)
+        self.assertTrue(all(result['questions'][n - 1]['imagePath'].endswith(f'q{n:03d}.png') for n in (96, 97, 98)))
+        self.assertTrue(result['questions'][29]['unscored'])
+        self.assertTrue(result['questions'][80]['unscored'])
+        self.assertTrue(result['questions'][96]['unscored'])
+
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'
         with self.assertRaisesRegex(AssertionError, 'Stale'):

@@ -48806,6 +48806,188 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf#page=2"
   },
   {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q1",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Which ministry organized the event “Bharat Parv 2025” at Red Fort?",
+    "options": [
+      "Ministry of Tourism",
+      "Ministry of Culture",
+      "Ministry of Finance",
+      "Ministry of Home Affairs"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Ministry of Tourism organized Bharat Parv at the Red Fort as a cultural and tourism promotion event.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q2",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Where will the 17th BRICS Summit be hosted in 2025?",
+    "options": [
+      "Rio de Janeiro",
+      "Beijing",
+      "New Delhi",
+      "Moscow"
+    ],
+    "answerIndex": 0,
+    "explanation": "Brazil hosted the 17th BRICS Summit in Rio de Janeiro in 2025.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q3",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Which country has the world’s most powerful passport in 2025?",
+    "options": [
+      "Singapore",
+      "South Korea",
+      "Japan",
+      "United Arab Emirates"
+    ],
+    "answerIndex": 0,
+    "explanation": "Singapore was ranked first in the 2025 passport-strength ranking referenced by the question.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q4",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "What is the theme for National Girl Child Day, 2025, celebrated on January 24?",
+    "options": [
+      "Educate every girl",
+      "Empowering girls for a bright future",
+      "Gender equality now",
+      "Save the girl child"
+    ],
+    "answerIndex": 1,
+    "explanation": "The 2025 National Girl Child Day theme was “Empowering girls for a bright future.”",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q5",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "On which date is the Beating Retreat ceremony, marking the end of Republic Day celebrations in India, held each year?",
+    "options": [
+      "27 January",
+      "28 January",
+      "29 January",
+      "30 January"
+    ],
+    "answerIndex": 2,
+    "explanation": "The Beating Retreat ceremony is held on 29 January, formally closing Republic Day celebrations.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q6",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "What is the primary objective of the “One Vehicle, One FASTag” initiative?",
+    "options": [
+      "To increase toll tax rates",
+      "To prevent FASTag misuse and ensure faster, accurate and transparent toll payments",
+      "To promote multiple FASTags per vehicle",
+      "To slow down traffic at toll plazas"
+    ],
+    "answerIndex": 1,
+    "explanation": "The initiative links one active FASTag to one vehicle to prevent misuse and improve toll collection transparency.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q7",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Who announced the “August Offer”?",
+    "options": [
+      "Lord Canning",
+      "Lord Cornwallis",
+      "Lord Dalhousie",
+      "Lord Linlithgow"
+    ],
+    "answerIndex": 3,
+    "explanation": "The August Offer was announced in 1940 by Viceroy Lord Linlithgow.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-si-excise-2025-p2-Q8",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
     "questionNumber": "8",
@@ -48814,21 +48996,74 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Therearenonegativemarksforincorrectanswer. -2-: 1.Whichministryorganizedtheevent“BharatParv2025”atRedFort?",
+    "question": "Who was the Viceroy of India at the time of the Partition of Bengal in 1905?",
     "options": [
-      "MinistryofTourism",
-      "MinistryofCulture",
-      "MinistryofFinance",
-      "MinistryofHomeAffairs (a)RiodeJaneiro(b)Beijing (c)NewDelhi(d)Moscow (a)Singapore(b)SouthKorea (c)Japan(d)UnitedArabEmirates (a)Educateeverygirl(b)Empoweringgirlsforabrightfuture (c)Genderequalitynow(d)Savethegirlchild (a)27\"January(b)28\"January (c)29\"January(d)30\"January (a)Toincreasetolltaxrates (b)TopreventthemisuseofFASTagsandensurefaster,accurateandtransparentmethodoftoll payments. (c)TopromotemultipleFASTagspervehicle (d)Toslowdowntrafficattollplazas: (a)LordCanning(b)LordCornwallis (c)LordDalhousie(d)LordLinlithgow (a)LordCurzon(b)LordRipon (c)LordHardinge(d)LordMinto"
+      "Lord Curzon",
+      "Lord Ripon",
+      "Lord Hardinge",
+      "Lord Minto"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lord Curzon was Viceroy when Bengal was partitioned in 1905.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
-    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=1",
-    "sourceReview": true,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q9",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "In which year did Mahatma Gandhi launch the Quit India Movement?",
+    "options": [
+      "1930",
+      "1942",
+      "1947",
+      "1920"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Quit India resolution was adopted in August 1942.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q10",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "The Lucknow Pact of 1916 was signed between which two organizations?",
+    "options": [
+      "The British and the Indian National Congress",
+      "The revolutionaries and the Muslim League",
+      "The All-India Muslim League and the Indian National Congress",
+      "The Indian National Congress and the revolutionaries"
+    ],
+    "answerIndex": 2,
+    "explanation": "The 1916 Lucknow Pact was an agreement between the Indian National Congress and the All-India Muslim League.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q11",
@@ -48846,14 +49081,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "LalaLajpatRai",
       "BhagatSingh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dadabhai Naoroji became the first Indian elected to the British House of Commons, in 1892.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q12",
@@ -48864,21 +49100,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "TheRoundTableConferenceswereheldinLondontodiscuss-",
+    "question": "The Round Table Conferences were held in London to discuss which subject?",
     "options": [
-      "ConstitutionalreformsinIndia",
-      "GrantoffullindependencetoIndia",
-      "MeasurestostoptheCivildisobedienceMovement",
-      "TradeagreementsbetweenBritainandIndia -3-."
+      "Constitutional reforms in India",
+      "Grant of full independence to India",
+      "Measures to stop the Civil Disobedience Movement",
+      "Trade agreements between Britain and India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Round Table Conferences considered India’s constitutional future and reforms.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q13",
@@ -48896,14 +49133,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "UralMountains",
       "RockyMountains"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Ural Mountains are conventionally taken as the boundary between Europe and Asia.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q14",
@@ -48921,14 +49159,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "VindhyaRange",
       "WesternGhats"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Vindhya range marks the northern edge of the Deccan Plateau, separating it from the Indo-Gangetic plain.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q15",
@@ -48946,14 +49185,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Labradorcurrent",
       "Norwegiancurrent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Labrador Current is a cold current flowing south along the Canadian Atlantic coast.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q16",
@@ -48971,14 +49211,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "UnitedStates",
       "Russia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "China is the world’s largest wheat producer by total annual production.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q17",
@@ -48996,14 +49237,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Puducherry",
       "Lakshadweep"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Among India’s Union Territories, Andaman and Nicobar Islands have the largest mangrove area.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q18",
@@ -49021,14 +49263,41 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Kerala",
       "WestBengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Kudremukh Iron Ore Company is located in Karnataka’s Western Ghats.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q19",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "According to Article 174, who has the power to summon the State Legislature?",
+    "options": [
+      "The Chief Minister",
+      "The Governor",
+      "The President",
+      "The Speaker of the Legislative Assembly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Article 174 empowers the Governor to summon a State Legislature.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q20",
@@ -49039,21 +49308,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichpartoftheIndianConstitutiondealswithFundamentalRights?",
+    "question": "Which part of the Indian Constitution deals with Fundamental Rights?",
     "options": [
-      "PartTi",
-      "PartIV",
-      "PartV",
-      "PartVI"
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part VI"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Fundamental Rights are set out in Part III of the Constitution.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q21",
@@ -49064,21 +49334,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichscheduleoftheIndianConstitutioncontainsprovisionsrelatedtotheadministrationoftribal areas?",
+    "question": "Which Schedule of the Constitution contains provisions related to the administration of tribal areas?",
     "options": [
-      "5\"Schedule",
-      "6\"Schedule",
-      "7Schedule",
-      "9\"Schedule"
+      "Fifth Schedule",
+      "Sixth Schedule",
+      "Seventh Schedule",
+      "Ninth Schedule"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Sixth Schedule provides for autonomous administration of tribal areas in specified northeastern states.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q22",
@@ -49096,14 +49367,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Article116",
       "Article360"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Article 32 empowers the Supreme Court to issue writs for enforcement of Fundamental Rights.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q23",
@@ -49121,14 +49393,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Germany(Weimerconstitution)",
       "USA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Constitution’s emergency framework drew from the Weimar Constitution of Germany.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q24",
@@ -49146,14 +49419,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Tilltheageof62",
       "Tilltheageof65"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A Supreme Court judge retires at age 65 under Article 124(2).",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q25",
@@ -49171,14 +49445,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Urbandevelopment",
       "Ruralelectrification"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "PM Jan Dhan Yojana expands access to basic banking and financial services.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q26",
@@ -49196,14 +49471,41 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "MinistryofWomenandChildDevelopment",
       "MinistryofRuralDevelopment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Ministry of Education administers the school meal programme, now known as PM POSHAN.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q27",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "What scheme did the Central Government launch in 2024 to provide paid internships in top companies?",
+    "options": [
+      "Digital Internship Scheme",
+      "PM Internship Scheme",
+      "Skill India Scheme",
+      "Youth Empowerment Initiative"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Prime Minister’s Internship Scheme, announced in 2024, offers internships in leading companies.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q28",
@@ -49221,14 +49523,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Povertyrate",
       "Unemploymentrate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Gini coefficient measures how unevenly income is distributed.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q29",
@@ -49246,14 +49549,40 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "PradhanMantriKaushalVikasYojana(PMKYV)",
       "AtalPensionYojana(APY)"
     ],
+    "answerIndex": 1,
+    "explanation": "MGNREGA is India’s statutory rural employment guarantee programme, providing wage employment on demand.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q30",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Which government programme focuses on empowering women by providing support and skills training?",
+    "options": [
+      "Beti Bachao Beti Padhao",
+      "Mahila E-Haat",
+      "Ujjwala Yojana",
+      "All of the above"
+    ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The description does not fit all four choices, so “All of the above” is not supported and the intended answer is unclear.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q31",
@@ -49271,14 +49600,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Oxygen",
       "Sulfurdioxide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Excess nitrogen and phosphorus enrich water, triggering algal growth and eutrophication.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q32",
@@ -49289,21 +49619,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichgasisthemostabundantgreenhousegasintheEarth’satmosphere’?",
+    "question": "Which gas is the most abundant greenhouse gas in Earth’s atmosphere?",
     "options": [
-      "Carbondioxide(CO,)",
-      "Methane(CH,)",
-      "Watervapor(HO)",
-      "Nitrousoxide(N,O)"
+      "Carbon dioxide (CO₂)",
+      "Methane (CH₄)",
+      "Water vapour (H₂O)",
+      "Nitrous oxide (N₂O)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Water vapour is the most abundant greenhouse gas in the atmosphere; carbon dioxide is a much smaller fraction.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q33",
@@ -49321,14 +49652,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "ParisAgreement.",
       "BaselConvention"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Montreal Protocol controls the production and consumption of ozone-depleting substances.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q34",
@@ -49346,14 +49678,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Kilogramsofwaste",
       "Litersofwater"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Ecological footprints are expressed in global hectares, a standardized measure of biologically productive area.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q35",
@@ -49371,14 +49704,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "KeralaandTamilNadu",
       "MaharashtraandGujarat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Kalkothy–Walayar elephant corridor lies across the Kerala–Tamil Nadu border.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q36",
@@ -49396,14 +49730,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Tropicalrainforests",
       "Tundra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Tropical rainforests support exceptionally high species richness and biodiversity.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q37",
@@ -49421,14 +49756,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Velocity",
       "Tine"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Velocity has both magnitude and direction, so it is a vector; speed and distance are scalars.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q38",
@@ -49446,14 +49782,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Rustingofiron",
       "Boilingofwater"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rusting forms iron oxide, a new substance, making it a chemical change.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q39",
@@ -49471,14 +49808,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Larynx",
       "Trachea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The larynx houses the vocal folds and is commonly called the voice box.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q40",
@@ -49489,24 +49827,48 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Thepowerhouseofthecellis-",
+    "question": "The powerhouse of the cell is the:",
     "options": [
-      "CellWall",
-      "Mitochondria",
+      "Cell wall",
+      "Mitochondrion",
       "Nucleus",
-      "Ribosome -j5-."
+      "Ribosome"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mitochondria generate much of the cell’s usable energy through cellular respiration.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q41",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Which of the following is responsible for transporting oxygen in the blood?",
+    "options": [
+      "Plasma",
+      "Red blood cells",
+      "White blood cells",
+      "Platelets"
+    ],
+    "answerIndex": 1,
+    "explanation": "Red blood cells carry oxygen using haemoglobin.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q42",
@@ -49524,14 +49886,41 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Gravitationalforce",
       "Magneticforce"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Centripetal force acts toward the centre of a circular path and continually changes the direction of motion.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q43",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "When was the first session of the Mizoram Legislative Assembly held?",
+    "options": [
+      "1970",
+      "1972",
+      "1974",
+      "1977"
+    ],
+    "answerIndex": 1,
+    "explanation": "Mizoram’s first Legislative Assembly session took place in 1972, after the territory’s legislative assembly was constituted.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q44",
@@ -49549,14 +49938,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Tuichang",
       "Serlui"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Chhimtuipui, also called the Kaladan, flows from Myanmar through southern Mizoram and back into Myanmar.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q45",
@@ -49574,14 +49964,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "ChapcharKut",
       "ThalfavangKut"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Chapchar Kut follows the clearing of forest for jhum cultivation, while the felled vegetation dries before burning.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q46",
@@ -49592,21 +49983,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichfestivalisassociatedwiththeMaratribe?",
+    "question": "Which festival is associated with the Mara tribe?",
     "options": [
-      "ChapcharKut",
-      "MimKut",
-      "LyuvaKhutla",
-      "PawlKut"
+      "Chapchar Kut",
+      "Mim Kut",
+      "Lyuva Khutla",
+      "Pawl Kut"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lyuva Khutla is the major traditional festival of the Mara people.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q47",
@@ -49617,21 +50009,48 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhichtraditionalMizodanceisperformedasavictorydanceafterawar?",
+    "question": "Which traditional Mizo dance is performed as a victory dance after a war?",
     "options": [
-      "ChheihLam",
+      "Chheih Lam",
       "Sarlamkai",
       "Cheraw",
-      "PawlKut (a)A.GMcCall(b)A.R.H.McDonald (c)LtColTregear(d)N.E.Perry"
+      "Pawl Kut"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sarlamkai (Sawlakia/Solakia) is a warrior dance associated with celebrating victory in battle.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q48",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "The Superintendent of the Lushai Hills who wrote about the early life and history of the Mizo people in “Lushai Chrysalis” was:",
+    "options": [
+      "A. G. McCall",
+      "A. R. H. McDonald",
+      "Lt. Col. Tregear",
+      "N. E. Perry"
+    ],
+    "answerIndex": 0,
+    "explanation": "A. G. McCall wrote Lushai Chrysalis. N. E. Perry later served as Superintendent of the Lushai Hills, so the question distinguishes the book’s author from the office-holder named in some summaries.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q49",
@@ -49642,21 +50061,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhointroducedLandSettlementinLushaiHills?",
+    "question": "Who introduced Land Settlement in the Lushai Hills?",
     "options": [
-      "AHScott",
-      "GH.Loch",
-      "J.Shakespear",
-      "}TH.Lewin"
+      "A. H. Scott",
+      "G. H. Loch",
+      "J. Shakespear",
+      "T. H. Lewin"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "J. Shakespear introduced land settlement administration in the Lushai Hills.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q50",
@@ -49667,21 +50087,100 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "WhowastheMissionaryreponsibleforbringingChristianitytotheMarapeople?",
+    "question": "Who was the missionary responsible for bringing Christianity to the Mara people?",
     "options": [
-      "J.-H.Lorrain",
-      "R.A.Lorrain",
-      "JohnCope",
-      "W.Savidge (a)222(b)223 (c)221(d)225 316 (a)Or(b)20a 241 (c)64Sy(d)334 -6-: (a)330(b)-330 (ec)+330(d)Noneofthese 37,."
+      "J. H. Lorrain",
+      "R. A. Lorrain",
+      "John Cope",
+      "W. Savidge"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "R. A. Lorrain was the missionary who began Christian mission work among the Mara people.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q51",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "The HCF and LCM of two numbers are 13 and 1989, respectively. If one number is 117, what is the other?",
+    "options": [
+      "222",
+      "223",
+      "221",
+      "225"
+    ],
+    "answerIndex": 2,
+    "explanation": "The product of the two numbers is HCF×LCM = 13×1989. Dividing by 117 gives 221.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q52",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "The product of two fractions is 16 1/9. If one fraction is 4 2/7, what is the other fraction?",
+    "options": [
+      "20 3/16",
+      "20 16/63",
+      "64 2/54",
+      "3 41/54"
+    ],
+    "answerIndex": 3,
+    "explanation": "Convert the mixed numbers: (145/9) ÷ (30/7) = 203/54 = 3 41/54.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q53",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "What is the product of (−6) × (−5) × (−11)?",
+    "options": [
+      "330",
+      "−330",
+      "+330",
+      "None of these"
+    ],
+    "answerIndex": 1,
+    "explanation": "Three negative factors have a negative product; 6×5×11=330, so the result is −330.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q54",
@@ -49692,21 +50191,48 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Arrangethefraction3°9°23indescendingorder, 370730 @3:913©)9°5°13 113711.73 ©Bs°9@3°9°s §5,FindTheleastnumberof6-digitswhichisaperfectsquare.",
+    "question": "Arrange the fractions 3/5, 7/9 and 11/13 in descending order.",
+    "options": [
+      "3/5, 7/9, 11/13",
+      "7/9, 3/5, 11/13",
+      "11/13, 3/5, 7/9",
+      "11/13, 7/9, 3/5"
+    ],
+    "answerIndex": 3,
+    "explanation": "11/13 > 7/9 > 3/5, so option D is the descending order.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q55",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Find the least six-digit number that is a perfect square.",
     "options": [
       "100489",
       "100089",
       "100480",
       "100049"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The smallest six-digit integer is 100000. Since 316²=99856 and 317²=100489, 100489 is the least six-digit perfect square.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q56",
@@ -49724,14 +50250,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "420",
       "320"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Prime factors require LCM=2³×3²×5=360.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q57",
@@ -49749,14 +50276,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "-40",
       "-66"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Subtracting −29 from −53 gives −24; adding −16 gives −40.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q58",
@@ -49774,14 +50302,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "1365",
       "1425"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The sum of the first n odd numbers is n²; 37²=1369.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q59",
@@ -49792,21 +50321,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "89%of?+365=1075.22;",
+    "question": "89% of a number plus 365 equals 1075.22. What is the number?",
     "options": [
       "798",
       "897",
       "898",
       "752"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "0.89x+365=1075.22, so x=710.22/0.89=798.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q60",
@@ -49824,14 +50354,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "-4",
       "3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "(−4)³=−64, so the cube root is −4.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q61",
@@ -49842,21 +50373,48 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Thepriceofpotatoisdecreasedby10%.Ifthepriceofpotatowas712perkg,thepresentpriceis-",
+    "question": "The price of potatoes decreased by 10%. If it was ₹12 per kg, what is the current price?",
     "options": [
-      "10.60",
-      "710.70",
-      "10.80",
-      "10.90"
+      "₹10.60",
+      "₹10.70",
+      "₹10.80",
+      "₹10.90"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A 10% reduction from ₹12 is ₹1.20; the new price is ₹10.80.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q62",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Divide ₹990 into three parts so that half of the first, one-third of the second and one-fifth of the third are equal.",
+    "options": [
+      "198, 297, 495",
+      "200, 300, 490",
+      "198, 494, 298",
+      "196, 298, 496"
+    ],
+    "answerIndex": 2,
+    "explanation": "If the common value is k, the parts are 2k, 3k and 5k. Their sum 10k=990 gives parts 198, 297 and 495.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q63",
@@ -49874,14 +50432,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Sand3",
       "6and3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Let the numbers be 6 and 3: 2×6+3×3=21 and their difference is 3.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q64",
@@ -49892,21 +50451,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Ashopkeepermarkedtheprice10%morethanitscostprice.Ifheallowsadiscountof20%,then findhislosspercent.",
+    "question": "A shopkeeper marks an item 10% above cost and allows a 20% discount. What is the loss percentage?",
     "options": [
       "9%",
       "15%",
       "18%",
-      "12% -7-: 2"
+      "12%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Using cost price 100, marked price is 110; after a 20% discount the selling price is 88, a 12% loss.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q65",
@@ -49917,21 +50477,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Inwhattimewillthesimpleinterestbe5oftheprincipalat8%perannum?",
+    "question": "In what time will simple interest equal 2/5 of the principal at 8% per annum?",
     "options": [
-      "7years",
-      "5years",
-      "8years",
-      "6years"
+      "7 years",
+      "5 years",
+      "8 years",
+      "6 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Simple interest/principal = rate×time/100. Thus 2/5 = 8t/100 and t=5 years.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q66",
@@ -49949,14 +50510,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "60%",
       "75%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The fraction failing at least one subject is 50%+40%−15%=75%; therefore 25% passed both.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q67",
@@ -49967,21 +50529,74 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Aplotisintheformofasquareanditsperimeteris160metres.Thecostoflayinggrassattherate of330persquaremetreis—",
+    "question": "A square plot has perimeter 160 metres. What is the cost of laying grass at ₹30 per square metre?",
     "options": [
-      "242,000",
-      "%44,000",
-      "246,000",
-      "%48,000"
+      "₹42,000",
+      "₹44,000",
+      "₹46,000",
+      "₹48,000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The square has side 160/4=40 m and area 1600 m². At ₹30/m², cost is ₹48,000.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q68",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "In a group of 35 students, 18 play volleyball, 13 play badminton and 11 play neither. How many play both games?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answerIndex": 3,
+    "explanation": "Twenty-four students play at least one sport (35−11). By inclusion-exclusion, 18+13−24=7 play both.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q69",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Smith and Ajit can complete a task in 12 days and 18 days, respectively. If they work together for 4 days, what fraction of the task remains?",
+    "options": [
+      "1/9",
+      "4/9",
+      "5/9",
+      "7/9"
+    ],
+    "answerIndex": 1,
+    "explanation": "Combined work rate is 1/12+1/18=5/36 per day. In four days they finish 5/9, leaving 4/9.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q70",
@@ -49992,21 +50607,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Amancandoapieceofin6dayswhichhecancompletein4dayswhenhisfriendhelpshim.His friendcancompletetheworkalonein— 1",
+    "question": "A man can complete a job in 6 days and, with his friend, in 4 days. How long would his friend take alone?",
     "options": [
-      "12days",
-      "Dp",
-      "6days",
-      "4days"
+      "12 days",
+      "10 days",
+      "6 days",
+      "4 days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Friend’s rate=1/4−1/6=1/12 job per day, hence 12 days.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q71",
@@ -50017,21 +50633,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Themedianandmodeforthedata17,2,7,27,25,5,14,18,10,24,48,10,8,7,10,28is—",
+    "question": "Find the median and mode of 17, 2, 7, 27, 25, 5, 14, 18, 10, 24, 48, 10, 8, 7, 10, 28.",
     "options": [
-      "12and10",
-      "14and10",
-      "18and10",
-      "10an1d0"
+      "12 and 10",
+      "14 and 10",
+      "18 and 10",
+      "10 and 10"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Sorted middle values are 10 and 10; mode is 10, so median 10 and mode 10 (D).",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q72",
@@ -50042,21 +50659,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Theareaofarectangleis1.8timestheareaofasquare.Thelengthoftherectangleis5timesthe breadth.Thesideofthesquareis20cm.Whatistheperimeteroftherectangle?",
+    "question": "A rectangle has 1.8 times the area of a square. Its length is five times its breadth. If the square’s side is 20 cm, what is the rectangle’s perimeter?",
     "options": [
-      "145¢m",
-      "135cm",
-      "133cm",
-      "144cm"
+      "145 cm",
+      "135 cm",
+      "133 cm",
+      "144 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Rectangle area=1.8×400=720; L=5b, so b=12 and L=60; perimeter=144cm.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q73",
@@ -50067,21 +50685,48 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Astartedabusinessbyinvesting725,000,Attheendof4thmonthfromthestartofthebusiness,B joinwith$15,000andattheendof6thmonthfromthestartofthebusiness,Cjoinedwith720,000. IfA’sshareinprofitattheendoftheyearwas77750.Whatwasthetotalprofitreceived?",
+    "question": "A invests ₹25,000 at the start. B joins after 4 months with ₹15,000 and C joins after 6 months with ₹20,000. If A’s profit share is ₹7,750, what is the total profit?",
     "options": [
-      "713,810",
-      "%12,780",
-      "13,920",
-      "%13,950"
+      "₹13,810",
+      "₹12,780",
+      "₹13,920",
+      "₹13,950"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Capital-month ratio is 25,000×12 : 15,000×8 : 20,000×6 = 5:2:2. A’s 5 shares are ₹7,750, so 9 shares total ₹13,950.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q74",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Twenty-four apples are divided into two parts. Seven times the first part plus five times the second is 146. Find the first part.",
+    "options": [
+      "27",
+      "18",
+      "13",
+      "23"
+    ],
+    "answerIndex": 2,
+    "explanation": "Let first part=x; second=24−x. 7x+5(24−x)=146, hence x=13.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q75",
@@ -50092,21 +50737,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Apersoncoversadistanceof20kmbybusin35minutes,Afterdeboardingthebus,hetookrestfor 20minutesandcoversanother10kmbyataxiin20minutes.Findhisaveragespeedforthewhole journey.",
+    "question": "A person travels 20 km by bus in 35 minutes, rests 20 minutes, then travels 10 km by taxi in 20 minutes. What is the average speed for the whole journey?",
     "options": [
-      "30km/hr",
-      "60km/hr",
-      "48km/hr",
-      "24km/hr"
+      "30 km/h",
+      "60 km/h",
+      "48 km/h",
+      "24 km/h"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Total distance 30km; elapsed time including rest=75min=1.25h; average=24km/h.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q76",
@@ -50117,21 +50763,48 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Thereare30boysand60girlsinaclass.Iftheaverageageofboysis12yearsandaverageageof girlsis10years,thenwhatistheaverageageofthewholeclass?",
+    "question": "A class has 30 boys with average age 12 and 60 girls with average age 10. What is the class average age?",
     "options": [
-      "10years",
-      "10.66years",
-      "11.5years",
-      "11,66years"
+      "10 years",
+      "10.66 years",
+      "11.5 years",
+      "11.66 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Weighted average=(30×12+60×10)/90=10⅔ years, about 10.66.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q77",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "A bag contains 3 red, 5 white and 7 black balls. What is the probability that a randomly drawn ball is neither red nor black?",
+    "options": [
+      "2/5",
+      "1/3",
+      "8/15",
+      "7/15"
+    ],
+    "answerIndex": 1,
+    "explanation": "Only white balls are neither red nor black. Probability = 5/(3+5+7)=1/3.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q78",
@@ -50142,21 +50815,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Aladderisplacedagainstawallsuchthatitsfootisatthedistanceof6mfromthewallanditstop reachesawindow8mabovetheground.Thelengthoftheladderis-",
+    "question": "A ladder’s foot is 6 m from a wall and its top reaches 8 m above the ground. What is its length?",
     "options": [
-      "10m",
-      "im",
-      "12m",
-      "13m"
+      "10 m",
+      "11 m",
+      "12 m",
+      "13 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The wall, ground and ladder form a right triangle: √(6²+8²)=10 m.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q79",
@@ -50167,21 +50841,21 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Iftherootsoftheequationpx?+.+r=0arereciprocaltoeachother,thenwhichoneofthefollowing iscorrect?",
+    "question": "If the roots of px² + x + r = 0 are reciprocals of each other, which relation holds?",
     "options": [
-      "p=r",
-      "p=2r/",
-      "2p=r",
-      "p=4r"
+      "p = r",
+      "p = 2r",
+      "2p = r",
+      "p = 4r"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The scan exponent and constant term are not fully legible. The reciprocal-root rule suggests p=r only if the equation is px²+x+r=0; hold due to transcription uncertainty.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q80",
@@ -50192,21 +50866,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Thecoefficientofx°in(2x+)is",
+    "question": "What is the coefficient of x² in (2x + y)³?",
     "options": [
-      "12y?",
+      "12y²",
       "12y",
       "8",
       "12"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In (2x+y)³, the x² term is 3(2x)²y=12x²y, so the coefficient is 12y.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q81",
@@ -50217,22 +50892,21 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Ocean:PacificandIsland:?",
+    "question": "Ocean : Pacific :: Island : ?",
     "options": [
       "Greenland",
       "Ireland",
-      "Netherland",
-      "Borneo."
+      "Netherlands",
+      "Borneo"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The analogy is not unique: Greenland, Ireland and Borneo are all islands, and the stem does not specify the intended ocean relationship.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNo.81):Thegivenpairofwordscontainsaspecificrelationshiptoeachother."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q82",
@@ -50243,7 +50917,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Choosetheoddonefromthegivenoptions.",
+    "question": "Choose the odd one out.",
     "options": [
       "CE7",
       "AZ27",
@@ -50251,13 +50925,65 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "LP28"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The apparent option codes admit no clear unique rule in the scan; held for source/key review.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q83",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Find the next number: 12, 11, 13, 12, 14, 13, …",
+    "options": [
+      "15",
+      "16",
+      "13",
+      "10"
+    ],
+    "answerIndex": 0,
+    "explanation": "The sequence alternates −1 and +2; after 13, add 2 to get 15.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q84",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Find the next number: 2, 1, 1/2, 1/4, …",
+    "options": [
+      "1/3",
+      "1/8",
+      "1/16",
+      "2/3"
+    ],
+    "answerIndex": 1,
+    "explanation": "Each term is half its predecessor, so half of 1/4 is 1/8.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q85",
@@ -50268,22 +50994,48 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "B,CD,BCD,B,CD,BC,D",
+    "question": "Complete the letter pattern (the subscript marks each letter position): B₂CD, ____, BCD₄, B₅CD, BC₆D.",
     "options": [
-      "B,C,D",
-      "BC,D",
-      "B,C,D",
-      "BCD,"
+      "B₂C₂D",
+      "BC₃D",
+      "B₂C₃D",
+      "BCD₇"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The subscripted position advances 2, 3, 4, 5, 6; the missing group is BC₃D.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction(QuestionNo.85):Lookatthepatternandfillintheblankeitherinthemiddleofthe"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q86",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "If HELMET is written as FMNFU, how is CHOCOLATE written in the same code?",
+    "options": [
+      "DIDPMPBUF",
+      "EIDPMPBUF",
+      "DIPDPMBEU",
+      "DIPDPMBUF"
+    ],
+    "answerIndex": 3,
+    "explanation": "Each letter shifts forward by one place (H→I, E→F, etc.); applying this to CHOCOLATE gives DIPDPMBUF.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q87",
@@ -50294,21 +51046,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "AisC’sson.CandQaresisters.ZisQ’smother.PisthesonofZ.HowisPrelatedtoA?",
+    "question": "A is C’s son. C and Q are sisters. Z is Q’s mother. P is Z’s son. How is P related to A?",
     "options": [
       "Brother",
-      "Maternaluncle",
-      "Unele",
+      "Maternal uncle",
+      "Uncle",
       "Grandfather"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Z is C and Q’s mother; P is Z’s son and C’s brother. Since C is A’s father, P is A’s uncle.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q88",
@@ -50319,21 +51072,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Thelengthandbreadthofaroomare8metreand6metrerespectively.Acatrunsalongallthefour wailsandfinallyalongadiagonalinordertocatcharat.Howmuchtotaldistanceiscoveredbythe cat?",
+    "question": "A cat runs around all four walls of a room 8 m by 6 m, then along a diagonal. What total distance does it cover?",
     "options": [
-      "10metre",
-      "14metre",
-      "38metre",
-      "48metre"
+      "10 m",
+      "14 m",
+      "38 m",
+      "48 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Perimeter 2(8+6)=28m; diagonal=10m; total=38m.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q89",
@@ -50344,21 +51098,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "If‘x’meanssubtraction,‘+’meansmultiplicationand‘-’meansaddition,thenfindthevalueofthe followingequation. 124+(3x1)+4-1=?",
+    "question": "If “x” means subtraction, “+” means multiplication and “−” means addition, evaluate 12 + (3 x 1) + 4 − 1.",
     "options": [
       "98",
       "96",
       "75",
       "97"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Substitute the defined operators: 12×(3−1)×4+1=97, option D.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q90",
@@ -50369,21 +51124,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "MatthewtoldhisfriendJohn,pointingtoaphotograph.“Herfatheristheonlysonofmymother.” .Thephotagraphshows?",
+    "question": "Matthew says of a photograph, “Her father is the only son of my mother.” Who is shown?",
     "options": [
-      "Matthew’sniece",
-      "Matthew’sdaughter",
-      "Matthew’smother",
-      "Matthew’ssister"
+      "Matthew’s niece",
+      "Matthew’s daughter",
+      "Matthew’s mother",
+      "Matthew’s sister"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The only son of Matthew’s mother is Matthew; if he is the photographed person’s father, the person is Matthew’s daughter.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q91",
@@ -50394,21 +51150,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Ifthesequenceofalphabetsisreversedwhichofthefollowingwillbethe14\"Letter?",
+    "question": "If the alphabet sequence is reversed, which letter is 14th?",
     "options": [
       "N",
       "O",
       "L",
       "M"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Reversing the alphabet gives Z as 1st and M as 14th.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q92",
@@ -50419,21 +51176,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Vanias7ranksaheadofMapuiainaclassof39,IfMapuiarankisseventeenthfromthelast,whatis Yana’srankfromthestart?",
+    "question": "Yana is 7 ranks ahead of Mapuia in a class of 39. Mapuia is 17th from the last. What is Yana’s rank from the start?",
     "options": [
-      "14%",
-      "15%",
-      "16%",
-      "17% -10-:"
+      "14th",
+      "15th",
+      "16th",
+      "17th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mapuia is 17th from last =23rd from start; Yana is 7 ranks ahead =16th.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q93",
@@ -50444,22 +51202,48 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "HowisFrelatedtoC?",
+    "question": "In the stated six-member family, how is F related to C?",
     "options": [
       "Sister",
       "Mother",
       "Aunt",
       "Mother-in-law"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "F is A’s mother, and C is A’s brother, so F is C’s mother as well.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q94",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "How many females are there in the six-member family described above?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "answerIndex": 0,
+    "explanation": "B, F and E are female; A, C and D are male. Therefore there are three females.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q95",
@@ -50470,22 +51254,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "HowisFrelatedtoA?",
+    "question": "In the stated six-member family, how is F related to A?",
     "options": [
       "Sister",
       "Mother-in-law",
       "Sister-in-law",
       "Mother"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "B is A’s wife and F’s daughter-in-law, so F is A’s mother-in-law (option B).",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q96",
@@ -50496,7 +51280,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Choosethealternativewhichcloselyresemblesthemirrorimageofthegivencombination. TARAIN1014A (1)ABTOTMIARAL(2)AtSUOLAAtAT (3)ATOTATAAAIN(4)ABTORMLARAT",
+    "question": "Choose the option that most closely resembles the mirror image of the printed character sequence. [Figure question]",
     "options": [
       "1",
       "2",
@@ -50504,14 +51288,67 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "4"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The mirror-image character sequence and options are too distorted to compare reliably.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=10",
+    "imagePath": "/question-images/group-b/si-excise-2025-p2-q096.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions"
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q97",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Select the figure that replaces the question mark in the printed figure series. [Figure question]",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": -1,
+    "explanation": "The shape sequence is visible but the rotation/reflection rule does not yield a sufficiently certain unique choice from this scan.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=10",
+    "imagePath": "/question-images/group-b/si-excise-2025-p2-q097.png",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2025-p2-Q98",
+    "paperId": "mpsc-group-b-si-excise-2025-p2",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge & Reasoning",
+    "difficulty": "medium",
+    "question": "Which diagram represents the relationship among a country, states and districts?",
+    "options": [
+      "Diagram (a)",
+      "Diagram (b)",
+      "Diagram (c)",
+      "Diagram (d)"
+    ],
+    "answerIndex": 2,
+    "explanation": "A district is contained within a state, and each state is contained within the country. The three nested circles in option C represent that hierarchy.",
+    "source": "Sub-Inspector of Excise & Narcotics · April 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/si-excise-2025-p2-q098.png",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q99",
@@ -50522,22 +51359,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Astatementfollowedbytwocoursesofactionsnumbered|andILisgivenbelow.Describewhichof thecoursesofactionlogicallyfollowsandgiveansweras:",
+    "question": "A company announces a 10% salary increase starting next month. Which course(s) of action logically follow? I. Accounts should prepare updated salary statements before the due date. II. The employees’ association should demand a larger rise.",
     "options": [
-      "OnlyIfollows",
-      "OnlyIIfollows",
-      "Either|orIIfollows",
-      "NeitherInorIIfollows month, duedate"
+      "Only I follows",
+      "Only II follows",
+      "Either I or II follows",
+      "Neither I nor II follows"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Action I is a necessary administrative step to implement the announced increase. Action II is not logically required by the statement.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q100",
@@ -50548,22 +51385,22 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge & Reasoning",
     "difficulty": "medium",
-    "question": "Thegreatestblessingthattechnologicalprogresshasinstoreformankindisnot,ofcourse,an accumulationofmaterialpossessions.Theamountofthesethatcanbeeffectivelyenjoyedbyone individualinonelifetimeisnotgreat.Butthereisnotthesamenarrowlimittothepossibilitiesofthe enjoymentofleisure.Thegiftofleisuremaybeabusedbypeoplewhohavehadnoexperienceof makinguseofit.Yetthecreativeuseofleisurebysocietieshasbeenthemainspringofalihuman progressbeyondtheprimitivelevel. Withreferencetotheabovepassage,thefollowingassumptionshavebeenmade: 1,Peoplealwaysseetheleisuretimeasagiftanduseitforacquiringmorematerialpossession 2.Useofleisurebysomepeopleproducenewandoriginalthingshasbeenthechiefsourceof humanprogress. Whichoftheseassumptionsis/arevalid?",
+    "question": "According to the passage, which assumptions are valid? 1. People always regard leisure as a gift and use it to acquire material possessions. 2. Creative use of leisure has been a chief source of human progress.",
     "options": [
-      "lonly",
-      "2only",
-      "Both1and2",
-      "Neither1nor2 hkdedeetee"
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Assumption 1 is contradicted by the passage; assumption 2 is explicitly supported.",
     "source": "Sub-Inspector of Excise & Narcotics · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/si-excise-2025-p2.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionsNo.93-95):Readthefollowinginformationcarefullytoanswerthequestions"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-fcs-2025-p1-B1",
@@ -54972,7 +55809,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B5",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -55819,9 +56658,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B35",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -63087,7 +63924,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:"
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p1-A45",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -63835,9 +64674,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q20",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -71685,7 +72522,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p1-B26",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -72646,9 +73485,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 51 - 60) : Four options/responses have been given for each sentence.  Choose"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B56",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -80120,7 +80957,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B91",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q92",
     "questionNumber": "B92",
@@ -80923,9 +81762,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B19",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B20",
     "questionNumber": "B20",
@@ -87974,7 +88811,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B65",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-B66",
     "questionNumber": "B66",
@@ -88770,9 +89609,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B95",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-B96",
     "questionNumber": "B96",
@@ -93365,6 +94202,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-si-excise-2025-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-si-fcs-2025-p1": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
@@ -93506,6 +94349,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-steno-2025-gk": 100,
   "mpsc-group-b-steno2-2025-p1": 40,
   "mpsc-group-b-si-excise-2025-p1": 30,
+  "mpsc-group-b-si-excise-2025-p2": 100,
   "mpsc-group-b-si-fcs-2025-p1": 60,
   "mpsc-group-b-si-fcs-2025-p2": 100,
   "mpsc-group-b-mvi-2025-p2": 100,

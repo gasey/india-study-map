@@ -24547,6 +24547,1511 @@
           "explanation": "Answer guide: (a) aerobic; (b) weight; (c) ensure(s), which appears in the second paragraph and means to make certain; (d) increase, the antonym of “diminish” used in the fourth paragraph. (e) include physical education in the curriculum; (f) yoga and stretching; (g) it improves cardiovascular health, strengthens muscles, boosts immunity and lowers chronic-disease risk; (h) it reduces stress, anxiety and depression; (i) walk instead of driving, use stairs, or take part in sports/outdoor activities; (j) run awareness campaigns and fitness programs and adopt policies encouraging active lifestyles."
         }
       }
+    },
+    "si-excise-2025-p2": {
+      "sourceSha256": "bf701f6dbc83ae2d5a4979951454e8541fec40e9db794f5eeeb84e2d61c57780",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-09",
+      "evidence": "All 100 printed items on pages 2–11 checked against the Series A scan. Restored the merged first ten questions and missing OCR numbers, corrected symbols, options, question wording and numbering. Cover verifies 100 questions, 200 marks, two hours, and no negative marking. Keyed answerable items with explanations; defective or scan-dependent items are explicitly held. SHA256 binds this review to the source PDF.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 2,
+          "q": "Which ministry organized the event “Bharat Parv 2025” at Red Fort?",
+          "opts": {
+            "a": "Ministry of Tourism",
+            "b": "Ministry of Culture",
+            "c": "Ministry of Finance",
+            "d": "Ministry of Home Affairs"
+          }
+        },
+        "2": {
+          "n": 2,
+          "page": 2,
+          "q": "Where will the 17th BRICS Summit be hosted in 2025?",
+          "opts": {
+            "a": "Rio de Janeiro",
+            "b": "Beijing",
+            "c": "New Delhi",
+            "d": "Moscow"
+          }
+        },
+        "3": {
+          "n": 3,
+          "page": 2,
+          "q": "Which country has the world’s most powerful passport in 2025?",
+          "opts": {
+            "a": "Singapore",
+            "b": "South Korea",
+            "c": "Japan",
+            "d": "United Arab Emirates"
+          }
+        },
+        "4": {
+          "n": 4,
+          "page": 2,
+          "q": "What is the theme for National Girl Child Day, 2025, celebrated on January 24?",
+          "opts": {
+            "a": "Educate every girl",
+            "b": "Empowering girls for a bright future",
+            "c": "Gender equality now",
+            "d": "Save the girl child"
+          }
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "q": "On which date is the Beating Retreat ceremony, marking the end of Republic Day celebrations in India, held each year?",
+          "opts": {
+            "a": "27 January",
+            "b": "28 January",
+            "c": "29 January",
+            "d": "30 January"
+          }
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "q": "What is the primary objective of the “One Vehicle, One FASTag” initiative?",
+          "opts": {
+            "a": "To increase toll tax rates",
+            "b": "To prevent FASTag misuse and ensure faster, accurate and transparent toll payments",
+            "c": "To promote multiple FASTags per vehicle",
+            "d": "To slow down traffic at toll plazas"
+          }
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "q": "Who announced the “August Offer”?",
+          "opts": {
+            "a": "Lord Canning",
+            "b": "Lord Cornwallis",
+            "c": "Lord Dalhousie",
+            "d": "Lord Linlithgow"
+          }
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "q": "Who was the Viceroy of India at the time of the Partition of Bengal in 1905?",
+          "opts": {
+            "a": "Lord Curzon",
+            "b": "Lord Ripon",
+            "c": "Lord Hardinge",
+            "d": "Lord Minto"
+          }
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "In which year did Mahatma Gandhi launch the Quit India Movement?",
+          "opts": {
+            "a": "1930",
+            "b": "1942",
+            "c": "1947",
+            "d": "1920"
+          }
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "The Lucknow Pact of 1916 was signed between which two organizations?",
+          "opts": {
+            "a": "The British and the Indian National Congress",
+            "b": "The revolutionaries and the Muslim League",
+            "c": "The All-India Muslim League and the Indian National Congress",
+            "d": "The Indian National Congress and the revolutionaries"
+          }
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "WhowasthefirstIndiantobeelectedtotheBritishParliament?",
+          "opts": {
+            "a": "DadabhaiNaoroji",
+            "b": "GopalKrishnaGokhale",
+            "c": "LalaLajpatRai",
+            "d": "BhagatSingh"
+          }
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "The Round Table Conferences were held in London to discuss which subject?",
+          "opts": {
+            "a": "Constitutional reforms in India",
+            "b": "Grant of full independence to India",
+            "c": "Measures to stop the Civil Disobedience Movement",
+            "d": "Trade agreements between Britain and India"
+          }
+        },
+        "13": {
+          "n": 13,
+          "page": 3,
+          "q": "WhichofthefollowingmountainrangesseparatesEuropeandAsia?",
+          "opts": {
+            "a": "Alps",
+            "b": "Andes",
+            "c": "UralMountains",
+            "d": "RockyMountains"
+          }
+        },
+        "14": {
+          "n": 14,
+          "page": 3,
+          "q": "WhichmountainrangeseparatestheIndo-GangeticPlainfromtheDeccanPlateau?",
+          "opts": {
+            "a": "Aravallirange",
+            "b": "Himalayas",
+            "c": "VindhyaRange",
+            "d": "WesternGhats"
+          }
+        },
+        "15": {
+          "n": 15,
+          "page": 3,
+          "q": "Whichofthefollowingisacoldoceancurrent?",
+          "opts": {
+            "a": "GulfStream",
+            "b": "Kuroshiocurrent",
+            "c": "Labradorcurrent",
+            "d": "Norwegiancurrent"
+          }
+        },
+        "16": {
+          "n": 16,
+          "page": 3,
+          "q": "Whichcountryisthelargestproducerofwheatintheworld?",
+          "opts": {
+            "a": "India",
+            "b": "China",
+            "c": "UnitedStates",
+            "d": "Russia"
+          }
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "q": "WhichofthefollowingUnionTerritoriesofIndiahasthehighestmangrovecover?",
+          "opts": {
+            "a": "DamanandDiu",
+            "b": "AndamanandNicobar",
+            "c": "Puducherry",
+            "d": "Lakshadweep"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "q": "The“KudremukhIronoreCompany”islocatedin-",
+          "opts": {
+            "a": "Chhattisgarh",
+            "b": "Karnataka",
+            "c": "Kerala",
+            "d": "WestBengal"
+          }
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "According to Article 174, who has the power to summon the State Legislature?",
+          "opts": {
+            "a": "The Chief Minister",
+            "b": "The Governor",
+            "c": "The President",
+            "d": "The Speaker of the Legislative Assembly"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "Which part of the Indian Constitution deals with Fundamental Rights?",
+          "opts": {
+            "a": "Part III",
+            "b": "Part IV",
+            "c": "Part V",
+            "d": "Part VI"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "Which Schedule of the Constitution contains provisions related to the administration of tribal areas?",
+          "opts": {
+            "a": "Fifth Schedule",
+            "b": "Sixth Schedule",
+            "c": "Seventh Schedule",
+            "d": "Ninth Schedule"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "UnderwhicharticlecantheSupremeCourtofIndiaissuewritstoenforceFundamentalRights?",
+          "opts": {
+            "a": "Article32",
+            "b": "Article45",
+            "c": "Article116",
+            "d": "Article360"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "TheemergencyprovisionoftheIndianconstitutionwasborrowedfromtheconstitutionof-",
+          "opts": {
+            "a": "Britain",
+            "b": "France",
+            "c": "Germany(Weimerconstitution)",
+            "d": "USA"
+          }
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "WhatisthetenureofajudgeoftheSupremeCourtofIndia?",
+          "opts": {
+            "a": "5Syears",
+            "b": "6years",
+            "c": "Tilltheageof62",
+            "d": "Tilltheageof65"
+          }
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "WhatisthemainobjectiveofthePradhanMantriJanDhanYojana(PMJDY)?",
+          "opts": {
+            "a": "Providingemployment",
+            "b": "Financialinclusion",
+            "c": "Urbandevelopment",
+            "d": "Ruralelectrification"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "WhichministryimplementstheMid-DayMealSchemeinIndia?",
+          "opts": {
+            "a": "MinistryofEducation",
+            "b": "MinistryofHealthandFamilyWelfare",
+            "c": "MinistryofWomenandChildDevelopment",
+            "d": "MinistryofRuralDevelopment"
+          }
+        },
+        "27": {
+          "n": 27,
+          "page": 4,
+          "q": "What scheme did the Central Government launch in 2024 to provide paid internships in top companies?",
+          "opts": {
+            "a": "Digital Internship Scheme",
+            "b": "PM Internship Scheme",
+            "c": "Skill India Scheme",
+            "d": "Youth Empowerment Initiative"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 4,
+          "q": "WhatdoestheGiniCoefficientmeasure?",
+          "opts": {
+            "a": "Incomeinequality",
+            "b": "Populationgrowthrate",
+            "c": "Povertyrate",
+            "d": "Unemploymentrate"
+          }
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "q": "WhichisthelargestemploymentguaranteeprograminIndia?",
+          "opts": {
+            "a": "NationalRuralLivelihoodsMission(NRLM)",
+            "b": "MGNREGA",
+            "c": "PradhanMantriKaushalVikasYojana(PMKYV)",
+            "d": "AtalPensionYojana(APY)"
+          }
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "q": "Which government programme focuses on empowering women by providing support and skills training?",
+          "opts": {
+            "a": "Beti Bachao Beti Padhao",
+            "b": "Mahila E-Haat",
+            "c": "Ujjwala Yojana",
+            "d": "All of the above"
+          },
+          "unscored": true,
+          "explanation": "The description does not fit all four choices, so “All of the above” is not supported and the intended answer is unclear."
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "Eutrophicationinthelakeisduetothepresenceof-",
+          "opts": {
+            "a": "Carbondioxide",
+            "b": "Nitrogenandphosphorus",
+            "c": "Oxygen",
+            "d": "Sulfurdioxide"
+          }
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "Which gas is the most abundant greenhouse gas in Earth’s atmosphere?",
+          "opts": {
+            "a": "Carbon dioxide (CO₂)",
+            "b": "Methane (CH₄)",
+            "c": "Water vapour (H₂O)",
+            "d": "Nitrous oxide (N₂O)"
+          }
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "Whichprotocolaimstoreducetheproductionofozone-depletingsubstances?",
+          "opts": {
+            "a": "KyotoProtocol",
+            "b": "MontrealProtocol",
+            "c": "ParisAgreement.",
+            "d": "BaselConvention"
+          }
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "WhichofthefollowingistheunitofmeasurementoftheEcologicalFootprints?",
+          "opts": {
+            "a": "Gallonpercapita",
+            "b": "Globalhectares",
+            "c": "Kilogramsofwaste",
+            "d": "Litersofwater"
+          }
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "TheKalkothy—WalayarCorridorislocatedbetweenwhichtwoIndianstates?",
+          "opts": {
+            "a": "AndhraPradeshandTelangana",
+            "b": "KarnatakaandTamilNadu",
+            "c": "KeralaandTamilNadu",
+            "d": "MaharashtraandGujarat"
+          }
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "Whichofthefollowingecosystemshasthehighestbiodiversity?",
+          "opts": {
+            "a": "Deserts",
+            "b": "Grasslands",
+            "c": "Tropicalrainforests",
+            "d": "Tundra"
+          }
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "Whichofthefollowingisavectorquantity?",
+          "opts": {
+            "a": "Speed",
+            "b": "Distance",
+            "c": "Velocity",
+            "d": "Tine"
+          }
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "Whichofthefollowingisachemicalchange?",
+          "opts": {
+            "a": "Meltingofice",
+            "b": "Dissolvingsugarinwater",
+            "c": "Rustingofiron",
+            "d": "Boilingofwater"
+          }
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "Whatisthescientificnameofthehumanvoicebox?",
+          "opts": {
+            "a": "Bronchi",
+            "b": "Esophagus",
+            "c": "Larynx",
+            "d": "Trachea"
+          }
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "The powerhouse of the cell is the:",
+          "opts": {
+            "a": "Cell wall",
+            "b": "Mitochondrion",
+            "c": "Nucleus",
+            "d": "Ribosome"
+          }
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "q": "Which of the following is responsible for transporting oxygen in the blood?",
+          "opts": {
+            "a": "Plasma",
+            "b": "Red blood cells",
+            "c": "White blood cells",
+            "d": "Platelets"
+          }
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "q": "Theforcethatkeepsanobjectmovinginacircularpathis-",
+          "opts": {
+            "a": "Centripetalforce",
+            "b": "Frictionalforce",
+            "c": "Gravitationalforce",
+            "d": "Magneticforce"
+          }
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "When was the first session of the Mizoram Legislative Assembly held?",
+          "opts": {
+            "a": "1970",
+            "b": "1972",
+            "c": "1974",
+            "d": "1977"
+          }
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "WhichriveroriginatesinBurma(Chinstate),passesthroughthesoutherntipofMizoramandthen flowsbacktoBurmaagain?",
+          "opts": {
+            "a": "Chhimtuipui/Kaladan",
+            "b": "Tlawng",
+            "c": "Tuichang",
+            "d": "Serlui"
+          }
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "WhichMizofestivaliscelebratedafterclearingtheforestforJnumcultivation?",
+          "opts": {
+            "a": "MimKut",
+            "b": "PawlKut",
+            "c": "ChapcharKut",
+            "d": "ThalfavangKut"
+          }
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "Which festival is associated with the Mara tribe?",
+          "opts": {
+            "a": "Chapchar Kut",
+            "b": "Mim Kut",
+            "c": "Lyuva Khutla",
+            "d": "Pawl Kut"
+          }
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "Which traditional Mizo dance is performed as a victory dance after a war?",
+          "opts": {
+            "a": "Chheih Lam",
+            "b": "Sarlamkai",
+            "c": "Cheraw",
+            "d": "Pawl Kut"
+          }
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "The Superintendent of the Lushai Hills who wrote about the early life and history of the Mizo people in “Lushai Chrysalis” was:",
+          "opts": {
+            "a": "A. G. McCall",
+            "b": "A. R. H. McDonald",
+            "c": "Lt. Col. Tregear",
+            "d": "N. E. Perry"
+          }
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "q": "Who introduced Land Settlement in the Lushai Hills?",
+          "opts": {
+            "a": "A. H. Scott",
+            "b": "G. H. Loch",
+            "c": "J. Shakespear",
+            "d": "T. H. Lewin"
+          }
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "q": "Who was the missionary responsible for bringing Christianity to the Mara people?",
+          "opts": {
+            "a": "J. H. Lorrain",
+            "b": "R. A. Lorrain",
+            "c": "John Cope",
+            "d": "W. Savidge"
+          }
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "q": "The HCF and LCM of two numbers are 13 and 1989, respectively. If one number is 117, what is the other?",
+          "opts": {
+            "a": "222",
+            "b": "223",
+            "c": "221",
+            "d": "225"
+          }
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "q": "The product of two fractions is 16 1/9. If one fraction is 4 2/7, what is the other fraction?",
+          "opts": {
+            "a": "20 3/16",
+            "b": "20 16/63",
+            "c": "64 2/54",
+            "d": "3 41/54"
+          }
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "q": "What is the product of (−6) × (−5) × (−11)?",
+          "opts": {
+            "a": "330",
+            "b": "−330",
+            "c": "+330",
+            "d": "None of these"
+          }
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "q": "Arrange the fractions 3/5, 7/9 and 11/13 in descending order.",
+          "opts": {
+            "a": "3/5, 7/9, 11/13",
+            "b": "7/9, 3/5, 11/13",
+            "c": "11/13, 3/5, 7/9",
+            "d": "11/13, 7/9, 3/5"
+          }
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "q": "Find the least six-digit number that is a perfect square.",
+          "opts": {
+            "a": "100489",
+            "b": "100089",
+            "c": "100480",
+            "d": "100049"
+          }
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "q": "LCMof24,36and60is—",
+          "opts": {
+            "a": "360",
+            "b": "450",
+            "c": "420",
+            "d": "320"
+          }
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "Subtract-29from-53andadd-16totheresult.Theansweris—",
+          "opts": {
+            "a": "-98",
+            "b": "8",
+            "c": "-40",
+            "d": "-66"
+          }
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "Whatisthesumoffirst37oddnumbers?",
+          "opts": {
+            "a": "1639",
+            "b": "1369",
+            "c": "1365",
+            "d": "1425"
+          }
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "89% of a number plus 365 equals 1075.22. What is the number?",
+          "opts": {
+            "a": "798",
+            "b": "897",
+            "c": "898",
+            "d": "752"
+          }
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "q": "Cuberootof-64is—",
+          "opts": {
+            "a": "-8",
+            "b": "4",
+            "c": "-4",
+            "d": "3"
+          }
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "q": "The price of potatoes decreased by 10%. If it was ₹12 per kg, what is the current price?",
+          "opts": {
+            "a": "₹10.60",
+            "b": "₹10.70",
+            "c": "₹10.80",
+            "d": "₹10.90"
+          }
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "q": "Divide ₹990 into three parts so that half of the first, one-third of the second and one-fifth of the third are equal.",
+          "opts": {
+            "a": "198, 297, 495",
+            "b": "200, 300, 490",
+            "c": "198, 494, 298",
+            "d": "196, 298, 496"
+          }
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "q": "Twiceofonenumberaddedtothreetimesanothernumbergives21.Ifthedifferenceofthenumbers is3,thenumbersare—",
+          "opts": {
+            "a": "2and3",
+            "b": "2and4",
+            "c": "Sand3",
+            "d": "6and3"
+          }
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "q": "A shopkeeper marks an item 10% above cost and allows a 20% discount. What is the loss percentage?",
+          "opts": {
+            "a": "9%",
+            "b": "15%",
+            "c": "18%",
+            "d": "12%"
+          }
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "q": "In what time will simple interest equal 2/5 of the principal at 8% per annum?",
+          "opts": {
+            "a": "7 years",
+            "b": "5 years",
+            "c": "8 years",
+            "d": "6 years"
+          }
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "q": "Inanexamination,50%ofthecandidatesfailedinEnglish,40%failedinHindiand15%failedinboth thesubjects.ThepercentageofcandidateswhopassedinbothEnglishandHindiis-",
+          "opts": {
+            "a": "20%",
+            "b": "25%",
+            "c": "60%",
+            "d": "75%"
+          }
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "q": "A square plot has perimeter 160 metres. What is the cost of laying grass at ₹30 per square metre?",
+          "opts": {
+            "a": "₹42,000",
+            "b": "₹44,000",
+            "c": "₹46,000",
+            "d": "₹48,000"
+          }
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "In a group of 35 students, 18 play volleyball, 13 play badminton and 11 play neither. How many play both games?",
+          "opts": {
+            "a": "4",
+            "b": "5",
+            "c": "6",
+            "d": "7"
+          }
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "q": "Smith and Ajit can complete a task in 12 days and 18 days, respectively. If they work together for 4 days, what fraction of the task remains?",
+          "opts": {
+            "a": "1/9",
+            "b": "4/9",
+            "c": "5/9",
+            "d": "7/9"
+          }
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "q": "A man can complete a job in 6 days and, with his friend, in 4 days. How long would his friend take alone?",
+          "opts": {
+            "a": "12 days",
+            "b": "10 days",
+            "c": "6 days",
+            "d": "4 days"
+          }
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "q": "Find the median and mode of 17, 2, 7, 27, 25, 5, 14, 18, 10, 24, 48, 10, 8, 7, 10, 28.",
+          "opts": {
+            "a": "12 and 10",
+            "b": "14 and 10",
+            "c": "18 and 10",
+            "d": "10 and 10"
+          }
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "q": "A rectangle has 1.8 times the area of a square. Its length is five times its breadth. If the square’s side is 20 cm, what is the rectangle’s perimeter?",
+          "opts": {
+            "a": "145 cm",
+            "b": "135 cm",
+            "c": "133 cm",
+            "d": "144 cm"
+          }
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "q": "A invests ₹25,000 at the start. B joins after 4 months with ₹15,000 and C joins after 6 months with ₹20,000. If A’s profit share is ₹7,750, what is the total profit?",
+          "opts": {
+            "a": "₹13,810",
+            "b": "₹12,780",
+            "c": "₹13,920",
+            "d": "₹13,950"
+          }
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "q": "Twenty-four apples are divided into two parts. Seven times the first part plus five times the second is 146. Find the first part.",
+          "opts": {
+            "a": "27",
+            "b": "18",
+            "c": "13",
+            "d": "23"
+          }
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "q": "A person travels 20 km by bus in 35 minutes, rests 20 minutes, then travels 10 km by taxi in 20 minutes. What is the average speed for the whole journey?",
+          "opts": {
+            "a": "30 km/h",
+            "b": "60 km/h",
+            "c": "48 km/h",
+            "d": "24 km/h"
+          }
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "q": "A class has 30 boys with average age 12 and 60 girls with average age 10. What is the class average age?",
+          "opts": {
+            "a": "10 years",
+            "b": "10.66 years",
+            "c": "11.5 years",
+            "d": "11.66 years"
+          }
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "q": "A bag contains 3 red, 5 white and 7 black balls. What is the probability that a randomly drawn ball is neither red nor black?",
+          "opts": {
+            "a": "2/5",
+            "b": "1/3",
+            "c": "8/15",
+            "d": "7/15"
+          }
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "q": "A ladder’s foot is 6 m from a wall and its top reaches 8 m above the ground. What is its length?",
+          "opts": {
+            "a": "10 m",
+            "b": "11 m",
+            "c": "12 m",
+            "d": "13 m"
+          }
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "q": "If the roots of px² + x + r = 0 are reciprocals of each other, which relation holds?",
+          "opts": {
+            "a": "p = r",
+            "b": "p = 2r",
+            "c": "2p = r",
+            "d": "p = 4r"
+          },
+          "unscored": true,
+          "explanation": "The scan exponent and constant term are not fully legible. The reciprocal-root rule suggests p=r only if the equation is px²+x+r=0; hold due to transcription uncertainty."
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "q": "What is the coefficient of x² in (2x + y)³?",
+          "opts": {
+            "a": "12y²",
+            "b": "12y",
+            "c": "8",
+            "d": "12"
+          }
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "q": "Ocean : Pacific :: Island : ?",
+          "opts": {
+            "a": "Greenland",
+            "b": "Ireland",
+            "c": "Netherlands",
+            "d": "Borneo"
+          },
+          "unscored": true,
+          "explanation": "The analogy is not unique: Greenland, Ireland and Borneo are all islands, and the stem does not specify the intended ocean relationship."
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "q": "Choose the odd one out.",
+          "opts": {
+            "a": "CE7",
+            "b": "AZ27",
+            "c": "C317",
+            "d": "LP28"
+          },
+          "unscored": true,
+          "explanation": "The apparent option codes admit no clear unique rule in the scan; held for source/key review."
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "q": "Find the next number: 12, 11, 13, 12, 14, 13, …",
+          "opts": {
+            "a": "15",
+            "b": "16",
+            "c": "13",
+            "d": "10"
+          }
+        },
+        "84": {
+          "n": 84,
+          "page": 8,
+          "q": "Find the next number: 2, 1, 1/2, 1/4, …",
+          "opts": {
+            "a": "1/3",
+            "b": "1/8",
+            "c": "1/16",
+            "d": "2/3"
+          }
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "q": "Complete the letter pattern (the subscript marks each letter position): B₂CD, ____, BCD₄, B₅CD, BC₆D.",
+          "opts": {
+            "a": "B₂C₂D",
+            "b": "BC₃D",
+            "c": "B₂C₃D",
+            "d": "BCD₇"
+          }
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "q": "If HELMET is written as FMNFU, how is CHOCOLATE written in the same code?",
+          "opts": {
+            "a": "DIDPMPBUF",
+            "b": "EIDPMPBUF",
+            "c": "DIPDPMBEU",
+            "d": "DIPDPMBUF"
+          }
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "q": "A is C’s son. C and Q are sisters. Z is Q’s mother. P is Z’s son. How is P related to A?",
+          "opts": {
+            "a": "Brother",
+            "b": "Maternal uncle",
+            "c": "Uncle",
+            "d": "Grandfather"
+          }
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "q": "A cat runs around all four walls of a room 8 m by 6 m, then along a diagonal. What total distance does it cover?",
+          "opts": {
+            "a": "10 m",
+            "b": "14 m",
+            "c": "38 m",
+            "d": "48 m"
+          }
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "q": "If “x” means subtraction, “+” means multiplication and “−” means addition, evaluate 12 + (3 x 1) + 4 − 1.",
+          "opts": {
+            "a": "98",
+            "b": "96",
+            "c": "75",
+            "d": "97"
+          }
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "q": "Matthew says of a photograph, “Her father is the only son of my mother.” Who is shown?",
+          "opts": {
+            "a": "Matthew’s niece",
+            "b": "Matthew’s daughter",
+            "c": "Matthew’s mother",
+            "d": "Matthew’s sister"
+          }
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "q": "If the alphabet sequence is reversed, which letter is 14th?",
+          "opts": {
+            "a": "N",
+            "b": "O",
+            "c": "L",
+            "d": "M"
+          }
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "q": "Yana is 7 ranks ahead of Mapuia in a class of 39. Mapuia is 17th from the last. What is Yana’s rank from the start?",
+          "opts": {
+            "a": "14th",
+            "b": "15th",
+            "c": "16th",
+            "d": "17th"
+          }
+        },
+        "93": {
+          "n": 93,
+          "page": 10,
+          "q": "In the stated six-member family, how is F related to C?",
+          "opts": {
+            "a": "Sister",
+            "b": "Mother",
+            "c": "Aunt",
+            "d": "Mother-in-law"
+          }
+        },
+        "94": {
+          "n": 94,
+          "page": 10,
+          "q": "How many females are there in the six-member family described above?",
+          "opts": {
+            "a": "3",
+            "b": "4",
+            "c": "5",
+            "d": "2"
+          }
+        },
+        "95": {
+          "n": 95,
+          "page": 10,
+          "q": "In the stated six-member family, how is F related to A?",
+          "opts": {
+            "a": "Sister",
+            "b": "Mother-in-law",
+            "c": "Sister-in-law",
+            "d": "Mother"
+          }
+        },
+        "96": {
+          "n": 96,
+          "page": 10,
+          "q": "Choose the option that most closely resembles the mirror image of the printed character sequence. [Figure question]",
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "unscored": true,
+          "explanation": "The mirror-image character sequence and options are too distorted to compare reliably.",
+          "imagePath": "/question-images/group-b/si-excise-2025-p2-q096.png"
+        },
+        "97": {
+          "n": 97,
+          "page": 10,
+          "q": "Select the figure that replaces the question mark in the printed figure series. [Figure question]",
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "unscored": true,
+          "explanation": "The shape sequence is visible but the rotation/reflection rule does not yield a sufficiently certain unique choice from this scan.",
+          "imagePath": "/question-images/group-b/si-excise-2025-p2-q097.png"
+        },
+        "98": {
+          "n": 98,
+          "page": 10,
+          "q": "Which diagram represents the relationship among a country, states and districts?",
+          "opts": {
+            "a": "Diagram (a)",
+            "b": "Diagram (b)",
+            "c": "Diagram (c)",
+            "d": "Diagram (d)"
+          },
+          "imagePath": "/question-images/group-b/si-excise-2025-p2-q098.png"
+        },
+        "99": {
+          "n": 99,
+          "page": 11,
+          "q": "A company announces a 10% salary increase starting next month. Which course(s) of action logically follow? I. Accounts should prepare updated salary statements before the due date. II. The employees’ association should demand a larger rise.",
+          "opts": {
+            "a": "Only I follows",
+            "b": "Only II follows",
+            "c": "Either I or II follows",
+            "d": "Neither I nor II follows"
+          }
+        },
+        "100": {
+          "n": 100,
+          "page": 11,
+          "q": "According to the passage, which assumptions are valid? 1. People always regard leisure as a gift and use it to acquire material possessions. 2. Creative use of leisure has been a chief source of human progress.",
+          "opts": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "The Ministry of Tourism organized Bharat Parv at the Red Fort as a cultural and tourism promotion event."
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "Brazil hosted the 17th BRICS Summit in Rio de Janeiro in 2025."
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "Singapore was ranked first in the 2025 passport-strength ranking referenced by the question."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "The 2025 National Girl Child Day theme was “Empowering girls for a bright future.”"
+        },
+        "5": {
+          "answerIndex": 2,
+          "explanation": "The Beating Retreat ceremony is held on 29 January, formally closing Republic Day celebrations."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "The initiative links one active FASTag to one vehicle to prevent misuse and improve toll collection transparency."
+        },
+        "7": {
+          "answerIndex": 3,
+          "explanation": "The August Offer was announced in 1940 by Viceroy Lord Linlithgow."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "Lord Curzon was Viceroy when Bengal was partitioned in 1905."
+        },
+        "9": {
+          "answerIndex": 1,
+          "explanation": "The Quit India resolution was adopted in August 1942."
+        },
+        "10": {
+          "answerIndex": 2,
+          "explanation": "The 1916 Lucknow Pact was an agreement between the Indian National Congress and the All-India Muslim League."
+        },
+        "11": {
+          "answerIndex": 0,
+          "explanation": "Dadabhai Naoroji became the first Indian elected to the British House of Commons, in 1892."
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "The Round Table Conferences considered India’s constitutional future and reforms."
+        },
+        "13": {
+          "answerIndex": 2,
+          "explanation": "The Ural Mountains are conventionally taken as the boundary between Europe and Asia."
+        },
+        "14": {
+          "answerIndex": 2,
+          "explanation": "The Vindhya range marks the northern edge of the Deccan Plateau, separating it from the Indo-Gangetic plain."
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "The Labrador Current is a cold current flowing south along the Canadian Atlantic coast."
+        },
+        "16": {
+          "answerIndex": 1,
+          "explanation": "China is the world’s largest wheat producer by total annual production."
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "Among India’s Union Territories, Andaman and Nicobar Islands have the largest mangrove area."
+        },
+        "18": {
+          "answerIndex": 1,
+          "explanation": "Kudremukh Iron Ore Company is located in Karnataka’s Western Ghats."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "Article 174 empowers the Governor to summon a State Legislature."
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "Fundamental Rights are set out in Part III of the Constitution."
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "The Sixth Schedule provides for autonomous administration of tribal areas in specified northeastern states."
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "Article 32 empowers the Supreme Court to issue writs for enforcement of Fundamental Rights."
+        },
+        "23": {
+          "answerIndex": 2,
+          "explanation": "The Constitution’s emergency framework drew from the Weimar Constitution of Germany."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "A Supreme Court judge retires at age 65 under Article 124(2)."
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "PM Jan Dhan Yojana expands access to basic banking and financial services."
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "The Ministry of Education administers the school meal programme, now known as PM POSHAN."
+        },
+        "27": {
+          "answerIndex": 1,
+          "explanation": "The Prime Minister’s Internship Scheme, announced in 2024, offers internships in leading companies."
+        },
+        "28": {
+          "answerIndex": 0,
+          "explanation": "The Gini coefficient measures how unevenly income is distributed."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "MGNREGA is India’s statutory rural employment guarantee programme, providing wage employment on demand."
+        },
+        "31": {
+          "answerIndex": 1,
+          "explanation": "Excess nitrogen and phosphorus enrich water, triggering algal growth and eutrophication."
+        },
+        "32": {
+          "answerIndex": 2,
+          "explanation": "Water vapour is the most abundant greenhouse gas in the atmosphere; carbon dioxide is a much smaller fraction."
+        },
+        "33": {
+          "answerIndex": 1,
+          "explanation": "The Montreal Protocol controls the production and consumption of ozone-depleting substances."
+        },
+        "34": {
+          "answerIndex": 1,
+          "explanation": "Ecological footprints are expressed in global hectares, a standardized measure of biologically productive area."
+        },
+        "35": {
+          "answerIndex": 2,
+          "explanation": "The Kalkothy–Walayar elephant corridor lies across the Kerala–Tamil Nadu border."
+        },
+        "36": {
+          "answerIndex": 2,
+          "explanation": "Tropical rainforests support exceptionally high species richness and biodiversity."
+        },
+        "37": {
+          "answerIndex": 2,
+          "explanation": "Velocity has both magnitude and direction, so it is a vector; speed and distance are scalars."
+        },
+        "38": {
+          "answerIndex": 2,
+          "explanation": "Rusting forms iron oxide, a new substance, making it a chemical change."
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "The larynx houses the vocal folds and is commonly called the voice box."
+        },
+        "40": {
+          "answerIndex": 1,
+          "explanation": "Mitochondria generate much of the cell’s usable energy through cellular respiration."
+        },
+        "41": {
+          "answerIndex": 1,
+          "explanation": "Red blood cells carry oxygen using haemoglobin."
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "Centripetal force acts toward the centre of a circular path and continually changes the direction of motion."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "Mizoram’s first Legislative Assembly session took place in 1972, after the territory’s legislative assembly was constituted."
+        },
+        "44": {
+          "answerIndex": 0,
+          "explanation": "The Chhimtuipui, also called the Kaladan, flows from Myanmar through southern Mizoram and back into Myanmar."
+        },
+        "45": {
+          "answerIndex": 2,
+          "explanation": "Chapchar Kut follows the clearing of forest for jhum cultivation, while the felled vegetation dries before burning."
+        },
+        "46": {
+          "answerIndex": 2,
+          "explanation": "Lyuva Khutla is the major traditional festival of the Mara people."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "A. G. McCall wrote Lushai Chrysalis. N. E. Perry later served as Superintendent of the Lushai Hills, so the question distinguishes the book’s author from the office-holder named in some summaries."
+        },
+        "49": {
+          "answerIndex": 2,
+          "explanation": "J. Shakespear introduced land settlement administration in the Lushai Hills."
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "R. A. Lorrain was the missionary who began Christian mission work among the Mara people."
+        },
+        "51": {
+          "answerIndex": 2,
+          "explanation": "The product of the two numbers is HCF×LCM = 13×1989. Dividing by 117 gives 221."
+        },
+        "52": {
+          "answerIndex": 3,
+          "explanation": "Convert the mixed numbers: (145/9) ÷ (30/7) = 203/54 = 3 41/54."
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "Three negative factors have a negative product; 6×5×11=330, so the result is −330."
+        },
+        "54": {
+          "answerIndex": 3,
+          "explanation": "11/13 > 7/9 > 3/5, so option D is the descending order."
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "Prime factors require LCM=2³×3²×5=360."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "Subtracting −29 from −53 gives −24; adding −16 gives −40."
+        },
+        "58": {
+          "answerIndex": 1,
+          "explanation": "The sum of the first n odd numbers is n²; 37²=1369."
+        },
+        "59": {
+          "answerIndex": 2,
+          "explanation": "0.89x+365=1075.22, so x=710.22/0.89=798."
+        },
+        "60": {
+          "answerIndex": 0,
+          "explanation": "(−4)³=−64, so the cube root is −4."
+        },
+        "61": {
+          "answerIndex": 2,
+          "explanation": "A 10% reduction from ₹12 is ₹1.20; the new price is ₹10.80."
+        },
+        "62": {
+          "answerIndex": 2,
+          "explanation": "If the common value is k, the parts are 2k, 3k and 5k. Their sum 10k=990 gives parts 198, 297 and 495."
+        },
+        "63": {
+          "answerIndex": 3,
+          "explanation": "Let the numbers be 6 and 3: 2×6+3×3=21 and their difference is 3."
+        },
+        "64": {
+          "answerIndex": 3,
+          "explanation": "Using cost price 100, marked price is 110; after a 20% discount the selling price is 88, a 12% loss."
+        },
+        "65": {
+          "answerIndex": 1,
+          "explanation": "Simple interest/principal = rate×time/100. Thus 2/5 = 8t/100 and t=5 years."
+        },
+        "66": {
+          "answerIndex": 1,
+          "explanation": "The fraction failing at least one subject is 50%+40%−15%=75%; therefore 25% passed both."
+        },
+        "67": {
+          "answerIndex": 3,
+          "explanation": "The square has side 160/4=40 m and area 1600 m². At ₹30/m², cost is ₹48,000."
+        },
+        "68": {
+          "answerIndex": 3,
+          "explanation": "Twenty-four students play at least one sport (35−11). By inclusion-exclusion, 18+13−24=7 play both."
+        },
+        "69": {
+          "answerIndex": 1,
+          "explanation": "Combined work rate is 1/12+1/18=5/36 per day. In four days they finish 5/9, leaving 4/9."
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "Friend’s rate=1/4−1/6=1/12 job per day, hence 12 days."
+        },
+        "71": {
+          "answerIndex": 0,
+          "explanation": "Sorted middle values are 10 and 10; mode is 10, so median 10 and mode 10 (D)."
+        },
+        "72": {
+          "answerIndex": 3,
+          "explanation": "Rectangle area=1.8×400=720; L=5b, so b=12 and L=60; perimeter=144cm."
+        },
+        "73": {
+          "answerIndex": 3,
+          "explanation": "Capital-month ratio is 25,000×12 : 15,000×8 : 20,000×6 = 5:2:2. A’s 5 shares are ₹7,750, so 9 shares total ₹13,950."
+        },
+        "74": {
+          "answerIndex": 2,
+          "explanation": "Let first part=x; second=24−x. 7x+5(24−x)=146, hence x=13."
+        },
+        "75": {
+          "answerIndex": 3,
+          "explanation": "Total distance 30km; elapsed time including rest=75min=1.25h; average=24km/h."
+        },
+        "76": {
+          "answerIndex": 1,
+          "explanation": "Weighted average=(30×12+60×10)/90=10⅔ years, about 10.66."
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "Only white balls are neither red nor black. Probability = 5/(3+5+7)=1/3."
+        },
+        "78": {
+          "answerIndex": 0,
+          "explanation": "The wall, ground and ladder form a right triangle: √(6²+8²)=10 m."
+        },
+        "80": {
+          "answerIndex": 1,
+          "explanation": "In (2x+y)³, the x² term is 3(2x)²y=12x²y, so the coefficient is 12y."
+        },
+        "83": {
+          "answerIndex": 0,
+          "explanation": "The sequence alternates −1 and +2; after 13, add 2 to get 15."
+        },
+        "84": {
+          "answerIndex": 1,
+          "explanation": "Each term is half its predecessor, so half of 1/4 is 1/8."
+        },
+        "86": {
+          "answerIndex": 3,
+          "explanation": "Each letter shifts forward by one place (H→I, E→F, etc.); applying this to CHOCOLATE gives DIPDPMBUF."
+        },
+        "87": {
+          "answerIndex": 2,
+          "explanation": "Z is C and Q’s mother; P is Z’s son and C’s brother. Since C is A’s father, P is A’s uncle."
+        },
+        "88": {
+          "answerIndex": 2,
+          "explanation": "Perimeter 2(8+6)=28m; diagonal=10m; total=38m."
+        },
+        "89": {
+          "answerIndex": 3,
+          "explanation": "Substitute the defined operators: 12×(3−1)×4+1=97, option D."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "The only son of Matthew’s mother is Matthew; if he is the photographed person’s father, the person is Matthew’s daughter."
+        },
+        "91": {
+          "answerIndex": 3,
+          "explanation": "Reversing the alphabet gives Z as 1st and M as 14th."
+        },
+        "92": {
+          "answerIndex": 2,
+          "explanation": "Mapuia is 17th from last =23rd from start; Yana is 7 ranks ahead =16th."
+        },
+        "93": {
+          "answerIndex": 1,
+          "explanation": "F is A’s mother, and C is A’s brother, so F is C’s mother as well."
+        },
+        "94": {
+          "answerIndex": 0,
+          "explanation": "B, F and E are female; A, C and D are male. Therefore there are three females."
+        },
+        "95": {
+          "answerIndex": 1,
+          "explanation": "B is A’s wife and F’s daughter-in-law, so F is A’s mother-in-law (option B)."
+        },
+        "99": {
+          "answerIndex": 0,
+          "explanation": "Action I is a necessary administrative step to implement the announced increase. Action II is not logically required by the statement."
+        },
+        "100": {
+          "answerIndex": 1,
+          "explanation": "Assumption 1 is contradicted by the passage; assumption 2 is explicitly supported."
+        },
+        "55": {
+          "answerIndex": 0,
+          "explanation": "The smallest six-digit integer is 100000. Since 316²=99856 and 317²=100489, 100489 is the least six-digit perfect square."
+        },
+        "85": {
+          "answerIndex": 1,
+          "explanation": "The subscripted position advances 2, 3, 4, 5, 6; the missing group is BC₃D."
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "Sarlamkai (Sawlakia/Solakia) is a warrior dance associated with celebrating victory in battle."
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "The product of the roots is r/p. Reciprocal roots have product 1, so r/p=1 and p=r."
+        },
+        "98": {
+          "answerIndex": 2,
+          "explanation": "A district is contained within a state, and each state is contained within the country. The three nested circles in option C represent that hierarchy."
+        }
+      }
     }
   }
 }

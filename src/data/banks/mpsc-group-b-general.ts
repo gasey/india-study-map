@@ -30094,6 +30094,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30120,6 +30125,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30146,6 +30156,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30172,6 +30187,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30198,6 +30218,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30224,6 +30249,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30250,6 +30280,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30276,6 +30311,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30302,6 +30342,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30328,6 +30373,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30354,6 +30404,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30380,6 +30435,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30406,6 +30466,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30432,6 +30497,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30458,6 +30528,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30487,10 +30562,16 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost"
+    "direction": "Directions(QuestionNos.16-25);Identifythepartsofspeechofeachitalicizedwordusingthemost",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-steno-2025-english-B19",
@@ -30513,6 +30594,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30539,6 +30625,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30565,6 +30656,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30591,6 +30687,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30617,6 +30718,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30643,6 +30749,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30669,6 +30780,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30695,6 +30811,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30721,6 +30842,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30747,6 +30873,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30773,6 +30904,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30799,6 +30935,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30825,6 +30966,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30851,6 +30997,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30877,6 +31028,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30903,6 +31059,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30929,6 +31090,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30955,6 +31121,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -30981,6 +31152,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31007,6 +31183,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31033,6 +31214,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31059,6 +31245,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31085,6 +31276,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31111,6 +31307,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31137,6 +31338,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31163,6 +31369,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31189,6 +31400,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31215,6 +31431,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31241,6 +31462,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31267,6 +31493,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31293,6 +31524,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31319,6 +31555,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31345,6 +31586,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31371,6 +31617,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31397,6 +31648,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31423,6 +31679,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31449,6 +31710,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31475,6 +31741,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31501,6 +31772,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31527,6 +31803,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31553,6 +31834,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31579,6 +31865,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31605,6 +31896,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31631,6 +31927,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31657,6 +31958,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31683,6 +31989,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31709,6 +32020,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31735,6 +32051,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31761,6 +32082,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31787,6 +32113,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31813,6 +32144,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31839,6 +32175,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31865,6 +32206,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31891,6 +32237,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31917,6 +32268,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31943,6 +32299,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-english.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
@@ -31969,6 +32330,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -31994,6 +32360,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32019,6 +32390,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32044,6 +32420,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32069,6 +32450,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32094,6 +32480,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32119,6 +32510,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32144,6 +32540,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32169,6 +32570,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32194,6 +32600,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32219,6 +32630,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32244,6 +32660,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32269,6 +32690,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32294,6 +32720,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32319,6 +32750,11 @@ const groupBQuestionsPart4: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32346,6 +32782,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32371,6 +32812,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32396,6 +32842,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32421,6 +32872,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32446,6 +32902,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32471,6 +32932,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32496,6 +32962,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32521,6 +32992,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32546,6 +33022,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32571,6 +33052,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32596,6 +33082,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32621,6 +33112,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32646,6 +33142,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32671,6 +33172,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32696,6 +33202,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32721,6 +33232,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32746,6 +33262,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32771,6 +33292,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32799,6 +33325,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
@@ -32824,6 +33355,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32849,6 +33385,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32874,6 +33415,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32899,6 +33445,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32924,6 +33475,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32949,6 +33505,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32974,6 +33535,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -32999,6 +33565,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33024,6 +33595,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33049,6 +33625,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33074,6 +33655,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33099,6 +33685,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33124,6 +33715,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33149,6 +33745,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33174,6 +33775,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33199,6 +33805,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33227,6 +33838,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
@@ -33252,6 +33868,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33277,6 +33898,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33302,6 +33928,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33327,6 +33958,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33352,6 +33988,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33377,6 +34018,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33405,6 +34051,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
@@ -33430,6 +34081,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33455,6 +34111,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33480,6 +34141,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33505,6 +34171,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33530,6 +34201,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33555,6 +34231,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33580,6 +34261,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33605,6 +34291,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33630,6 +34321,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33655,6 +34351,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33680,6 +34381,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33705,6 +34411,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33730,6 +34441,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33758,6 +34474,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
@@ -33783,6 +34504,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33808,6 +34534,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33833,6 +34564,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33858,6 +34594,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33883,6 +34624,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33908,6 +34654,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33933,6 +34684,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -33961,6 +34717,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
@@ -33986,6 +34747,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -34011,6 +34777,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -34036,6 +34807,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -34061,6 +34837,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -34086,6 +34867,11 @@ const groupBQuestionsPart5: BankQuestion[] = [
     "source": "Stenographer Grade III, Lokayukta · March 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -90695,6 +91481,8 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-aao-2024-english": 100,
   "mpsc-group-b-aao-2024-gk": 100,
   "mpsc-group-b-aao-2024-arithmetic": 100,
+  "mpsc-group-b-steno-2025-english": 75,
+  "mpsc-group-b-steno-2025-gk": 100,
   "mpsc-group-b-radio-2026-p1": 60,
   "mpsc-group-b-radio-2026-p2": 100,
   "mpsc-group-b-si-police-2026-p1": 60,

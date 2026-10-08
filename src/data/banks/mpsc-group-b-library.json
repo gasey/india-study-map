@@ -191,8 +191,9 @@
     "sitting": "March 2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/steno-2025-english.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/steno-2025-english-final-key.pdf",
     "imported": true,
+    "expectedMcq": 75,
     "reviewRequired": true
   },
   {
@@ -201,8 +202,9 @@
     "sitting": "March 2025",
     "subject": "General Knowledge",
     "sourceHref": "/papers/group-b/steno-2025-gk.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {

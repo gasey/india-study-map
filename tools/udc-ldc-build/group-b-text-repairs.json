@@ -26052,6 +26052,1509 @@
           "explanation": "A district is contained within a state, and each state is contained within the country. The three nested circles in option C represent that hierarchy."
         }
       }
+    },
+    "si-excise-2024-p2": {
+      "sourceSha256": "53d717a267134ce23a51023327e656bb90522f61fcb9b6e94de6a8f5bb6e351a",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-09",
+      "evidence": "All 100 questions on printed pages 1–10 checked against the August 2024 Series A scan. Recovered all missing OCR numbers, rewrote stems/options with normal word spacing, repaired line breaks and formula notation, and verified every option set against the rendered pages. Independently solved and explained 96 items; four ambiguous, malformed or scan-dependent items are held. The cover confirms 100 questions, 2 marks each, 200 total, and 3 hours. Source SHA256 binds the review to the scanned booklet.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "A ______ is a digital electronic device that may be configured to automatically perform a series of logical or mathematical operations (computation).",
+          "opts": {
+            "a": "Microprocessor",
+            "b": "Integrated Circuit",
+            "c": "Transistor",
+            "d": "Computer"
+          }
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "Which unit converts data received from the user into a computer-understandable format?",
+          "opts": {
+            "a": "Memory Unit",
+            "b": "Arithmetic & Logic Unit",
+            "c": "Input Unit",
+            "d": "Output Unit"
+          }
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "Which extremely fast memory acts as a buffer between RAM and the CPU?",
+          "opts": {
+            "a": "Auxiliary memory",
+            "b": "Main memory",
+            "c": "Cache",
+            "d": "Virtual memory"
+          }
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Which is designed to control the operations of a computer?",
+          "opts": {
+            "a": "Application software",
+            "b": "System software",
+            "c": "Utility software",
+            "d": "Script"
+          }
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "What program is embedded in hardware devices to help them operate effectively?",
+          "opts": {
+            "a": "Middleware",
+            "b": "Package",
+            "c": "System software",
+            "d": "Firmware"
+          }
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "Which keyboard layout was created to make it easier for telegraph operators to transcribe Morse code?",
+          "opts": {
+            "a": "ZERTY",
+            "b": "QWERTY",
+            "c": "QWERTZ",
+            "d": "QZERTY"
+          }
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "What is the temporary storage area for files deleted by the user in Windows?",
+          "opts": {
+            "a": "Trash Bin",
+            "b": "Deleted Bin",
+            "c": "Garbage Bin",
+            "d": "Recycle Bin"
+          }
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "q": "When would you use the Ctrl+Alt+Delete keyboard shortcut in Windows?",
+          "opts": {
+            "a": "When a program first opens",
+            "b": "When you first boot the computer",
+            "c": "When a program is unresponsive",
+            "d": "When you want to delete a file"
+          }
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "q": "Which Windows utility locates and eliminates unnecessary fragments and rearranges files and unused disk space to optimize operations?",
+          "opts": {
+            "a": "Disk Defragmenter",
+            "b": "Task Manager",
+            "c": "Disk Cleanup",
+            "d": "Backup"
+          }
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "What is the purpose of the Recent folder in Windows?",
+          "opts": {
+            "a": "Store files currently used by the system and not deletable",
+            "b": "Store system files necessary for Windows",
+            "c": "Store files no longer needed",
+            "d": "Display a list of recently used files"
+          }
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "What was the latest Mac OS release name at the time of this August 2024 paper?",
+          "opts": {
+            "a": "Big Sur",
+            "b": "Monterey",
+            "c": "Sonoma",
+            "d": "Ventura"
+          }
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "In MS Word, what text field lets you enter a description of what you want to do and quickly find features or actions?",
+          "opts": {
+            "a": "Tell Me",
+            "b": "Search",
+            "c": "Find",
+            "d": "Find Me"
+          }
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "Which options are available when correcting spelling and grammar using AutoCorrect in MS Word?",
+          "opts": {
+            "a": "Check spelling as you type",
+            "b": "Mark grammar as you type",
+            "c": "Frequently confused words",
+            "d": "All of the above"
+          }
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "What is the use of a bookmark in MS Word?",
+          "opts": {
+            "a": "Identify a location for future reference",
+            "b": "Identify headers and footers",
+            "c": "Point out comments",
+            "d": "Identify font size"
+          }
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "Which of the following is not a standard alignment in MS Word?",
+          "opts": {
+            "a": "Left alignment",
+            "b": "Right alignment",
+            "c": "Middle alignment",
+            "d": "Center alignment"
+          }
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "What is the large capital letter spanning two or more lines at the start of a text block called?",
+          "opts": {
+            "a": "Footnote",
+            "b": "Drop cap",
+            "c": "Tab stop",
+            "d": "Heading"
+          }
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "Which word-processing feature moves a word that will not fit at the end of a line to the beginning of the next line?",
+          "opts": {
+            "a": "Scaling",
+            "b": "Word Wrap",
+            "c": "WordArt",
+            "d": "Numbering"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "q": "Which shortcut moves the cursor to the beginning of a document in MS Word?",
+          "opts": {
+            "a": "Ctrl+Home",
+            "b": "Ctrl+O",
+            "c": "Ctrl+N",
+            "d": "Ctrl+C"
+          }
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "q": "Which feature lets you link to other parts of the same document?",
+          "opts": {
+            "a": "Placeholder",
+            "b": "Bookmark",
+            "c": "Object",
+            "d": "Cross-reference"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "q": "Which Excel command copies formatting from one cell to another?",
+          "opts": {
+            "a": "Copier",
+            "b": "Formatter",
+            "c": "Format Painter",
+            "d": "Duplicator"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "q": "Which Excel feature changes the appearance of cells in a range according to specified conditions?",
+          "opts": {
+            "a": "Highlight Cell Rules",
+            "b": "Top/Bottom Rules",
+            "c": "Excel Manage Rules",
+            "d": "Conditional Formatting"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "Which pre-made Excel function calculates an average for cells meeting one or more conditions?",
+          "opts": {
+            "a": "AVERAGEIFS",
+            "b": "AVERAGEIF",
+            "c": "AVERAGE",
+            "d": "AVG"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "The Excel SUMIF function adds values in a range based on which kind of condition?",
+          "opts": {
+            "a": "True",
+            "b": "False",
+            "c": "True or false",
+            "d": "None of the above"
+          }
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "Which Excel functionality organizes and analyzes data, allows calculations, and filters and sorts datasets?",
+          "opts": {
+            "a": "Chart",
+            "b": "Color Scales",
+            "c": "Data Bars",
+            "d": "PivotTable"
+          }
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "How do you sum the values in cells A1 through A10 in Excel?",
+          "opts": {
+            "a": "=SUM(A1:A10)",
+            "b": "=TOTAL(A1:A10)",
+            "c": "=ADD(A1:A10)",
+            "d": "=SUMMARY(A1:A10)"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "In MS Excel, filling can be used for what?",
+          "opts": {
+            "a": "Copying",
+            "b": "Sequences",
+            "c": "Dates",
+            "d": "All of the above"
+          }
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "If a PowerPoint presentation contains one or more macros, what format does PowerPoint automatically use?",
+          "opts": {
+            "a": ".xps",
+            "b": ".pptm",
+            "c": ".pptx",
+            "d": ".ppt"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "Which PowerPoint view displays all slides as thumbnails for rearranging and reviewing slide flow?",
+          "opts": {
+            "a": "Notes Page view",
+            "b": "Outline view",
+            "c": "Reading view",
+            "d": "Slide Sorter view"
+          }
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "q": "What shortcut starts a PowerPoint presentation from the current slide?",
+          "opts": {
+            "a": "Alt+F5",
+            "b": "Shift+F5",
+            "c": "F5",
+            "d": "F4"
+          }
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "q": "Which tab contains features for changing the overall look of a PowerPoint document?",
+          "opts": {
+            "a": "Control tab",
+            "b": "Insert tab",
+            "c": "Design tab",
+            "d": "Transition tab"
+          }
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "q": "What is a pre-formatted container on a PowerPoint slide for content such as text, graphics or video called?",
+          "opts": {
+            "a": "Theme",
+            "b": "Template",
+            "c": "Partition",
+            "d": "Placeholder"
+          }
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "q": "Which is not a PowerPoint transition category?",
+          "opts": {
+            "a": "Transition",
+            "b": "Subtle",
+            "c": "Exciting",
+            "d": "Dynamic Content"
+          }
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "q": "In PowerPoint Normal view, where are the slide thumbnails displayed?",
+          "opts": {
+            "a": "Bottom",
+            "b": "Top",
+            "c": "Right",
+            "d": "Left"
+          }
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "q": "What is a motion path in MS PowerPoint?",
+          "opts": {
+            "a": "A type of entrance animation",
+            "b": "A method of advancing slides",
+            "c": "A method of moving items on a slide",
+            "d": "All of the above"
+          }
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "What was the first wide-area packet-switched network with distributed control and an early implementation of TCP/IP?",
+          "opts": {
+            "a": "NSFNET",
+            "b": "ARPANET",
+            "c": "DDN",
+            "d": "SATNET"
+          }
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "Which network security system monitors and controls incoming and outgoing traffic according to security rules?",
+          "opts": {
+            "a": "Firewall",
+            "b": "Password Manager",
+            "c": "VPN",
+            "d": "Antivirus"
+          }
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "Which protocol is used for email services?",
+          "opts": {
+            "a": "HTTP",
+            "b": "HTTPS",
+            "c": "FTP",
+            "d": "SMTP"
+          }
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "Which networking device sends data packets from one computer network to another?",
+          "opts": {
+            "a": "Switch",
+            "b": "Bridge",
+            "c": "Router",
+            "d": "Gateway"
+          }
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "In a typical distributed-object program, what creates remote objects, publishes references to them and waits for clients to invoke methods?",
+          "opts": {
+            "a": "Server",
+            "b": "Client",
+            "c": "Thread",
+            "d": "Agent"
+          }
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "What is used by websites to identify and track users between pages and recognize returning users?",
+          "opts": {
+            "a": "Cache",
+            "b": "History",
+            "c": "Cookie",
+            "d": "Bookmark"
+          }
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "q": "What is the length of an IPv6 address?",
+          "opts": {
+            "a": "8 bits",
+            "b": "16 bits",
+            "c": "32 bits",
+            "d": "128 bits"
+          }
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "q": "What is a private enterprise network used to securely share company information and computing resources among employees?",
+          "opts": {
+            "a": "Internet",
+            "b": "Intranet",
+            "c": "Extranet",
+            "d": "Ethernet"
+          }
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "q": "Which topology physically connects all devices or nodes to a central node such as a router, switch or hub?",
+          "opts": {
+            "a": "Star topology",
+            "b": "Bus topology",
+            "c": "Ring topology",
+            "d": "Tree topology"
+          }
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "q": "Which industry consortium promotes standards and interoperability for World Wide Web products?",
+          "opts": {
+            "a": "World Wide Web Content",
+            "b": "World Wide Web Centre",
+            "c": "World Wide Web Consortium",
+            "d": "World Wide Web Commission"
+          }
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "q": "The first web browser, invented in 1990 and initially called WorldWideWeb, was later renamed what?",
+          "opts": {
+            "a": "Nexus",
+            "b": "Netscape Navigator",
+            "c": "Internet Explorer",
+            "d": "Mosaic"
+          }
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "q": "Which application reads an HTML page and renders it for a user?",
+          "opts": {
+            "a": "Web server",
+            "b": "Web browser",
+            "c": "Web matrix",
+            "d": "Web network"
+          }
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "What is the main objective of a cell in a cellular mobile system?",
+          "opts": {
+            "a": "Handoff",
+            "b": "Simple modulation technique",
+            "c": "Frequency reuse",
+            "d": "Higher bandwidth"
+          }
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "In the mobile standards 1G to 5G, what does G stand for?",
+          "opts": {
+            "a": "Gross",
+            "b": "Generation",
+            "c": "General",
+            "d": "Gap"
+          }
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "q": "Which intercommunication cable type has the highest bandwidth?",
+          "opts": {
+            "a": "Twisted-pair cable",
+            "b": "Coaxial cable",
+            "c": "Open-wire cable",
+            "d": "Optical fibre cable"
+          }
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "q": "Face-recognition systems primarily use which technology?",
+          "opts": {
+            "a": "Applied artificial intelligence",
+            "b": "Machine learning",
+            "c": "Internet of Things",
+            "d": "Parallel AI"
+          }
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "q": "Find the greatest natural number that divides every number of the form (n³−n)(n−2), for natural n>2.",
+          "opts": {
+            "a": "6",
+            "b": "48",
+            "c": "12",
+            "d": "24"
+          }
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "q": "What is the simplified value of the printed expression? [Complex nested fraction and operations reproduced in the source figure; see paper page 5.]",
+          "opts": {
+            "a": "6/13",
+            "b": "8/13",
+            "c": "5/13",
+            "d": "4/13"
+          },
+          "unscored": true,
+          "explanation": "The printed expression contains nested fractions and an ambiguous “÷ … of” grouping; applying standard precedence gives a result absent from the choices. Keep unscored pending an official key or correction.",
+          "imagePath": "/question-images/group-b/si-excise-2024-p2-q052.png"
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "q": "A, B and C invest in the ratio 7:8:5 and earn an annual profit of ₹136,800. A withdraws after 3 months and C after 7 months; find the difference between A’s and C’s profit shares.",
+          "opts": {
+            "a": "₹12,600",
+            "b": "₹11,500",
+            "c": "₹13,500",
+            "d": "₹10,500"
+          }
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "q": "X’s and Y’s monthly incomes are in the ratio 4:3 and their expenditures are in the ratio 3:2. Each saves ₹6,000 monthly. Find their total monthly income.",
+          "opts": {
+            "a": "₹28,000",
+            "b": "₹42,000",
+            "c": "₹56,000",
+            "d": "₹84,000"
+          }
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "q": "₹6,000 amounts to ₹8,000 in 4 years. At the same rate, how long will ₹525 take to amount to ₹700?",
+          "opts": {
+            "a": "2 years",
+            "b": "3 years",
+            "c": "4 years",
+            "d": "5 years"
+          }
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "q": "A hemisphere and a cone have equal circular bases and equal heights. What is the ratio of their curved surface areas?",
+          "opts": {
+            "a": "2:1",
+            "b": "1:2",
+            "c": "√2:1",
+            "d": "1:√2"
+          }
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "In how many ways can the letters of BANKING be arranged?",
+          "opts": {
+            "a": "5040",
+            "b": "2540",
+            "c": "5080",
+            "d": "2520"
+          }
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "A 12 m stick casts an 8 m shadow. At the same time, a tower casts a 40 m shadow. Find the tower’s height.",
+          "opts": {
+            "a": "60 m",
+            "b": "65 m",
+            "c": "70 m",
+            "d": "72 m"
+          }
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "In 2011, the total candidates for CS and ES together were 25% more than in 2010. If female candidates were two-fifths of the 2011 total, how many female candidates appeared?",
+          "opts": {
+            "a": "52,000",
+            "b": "58,000",
+            "c": "60,000",
+            "d": "62,000"
+          }
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "q": "Find the ratio of ES graduates in 2010 to CS graduates in 2010 using the table.",
+          "opts": {
+            "a": "13:21",
+            "b": "12:17",
+            "c": "12:19",
+            "d": "11:17"
+          }
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "q": "Find the difference between the average CS candidates in 2007 and 2008 and the average ES candidates in those years, using the table.",
+          "opts": {
+            "a": "38,400",
+            "b": "24,400",
+            "c": "26,400",
+            "d": "26,000"
+          }
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "q": "What percentage of an hour is 1 minute 12 seconds?",
+          "opts": {
+            "a": "2%",
+            "b": "3%",
+            "c": "4%",
+            "d": "5%"
+          }
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "q": "A and B can separately complete a job in 30 and 20 days. How long will they take working together?",
+          "opts": {
+            "a": "12 days",
+            "b": "20 days",
+            "c": "24 days",
+            "d": "25 days"
+          }
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "q": "A shopkeeper buys 300 bulbs at ₹10 each. Twenty are fused and discarded; the rest are sold at ₹12 each. Find the gain or loss percentage.",
+          "opts": {
+            "a": "10% gain",
+            "b": "10% loss",
+            "c": "12% loss",
+            "d": "12% gain"
+          }
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "q": "Find m if (−3)^(m+1) × (−3)^5 = (−3)^7.",
+          "opts": {
+            "a": "−1",
+            "b": "1",
+            "c": "13",
+            "d": "−13"
+          }
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "q": "What percent of 2.5 litres is 125 mL?",
+          "opts": {
+            "a": "10%",
+            "b": "8%",
+            "c": "6%",
+            "d": "5%"
+          }
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "q": "If 40% of a school’s students are boys and there are 540 girls, how many boys are there?",
+          "opts": {
+            "a": "360",
+            "b": "390",
+            "c": "420",
+            "d": "460"
+          }
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "Two numbers are in the ratio 8:3 and sum to 143. Find their difference.",
+          "opts": {
+            "a": "39",
+            "b": "47",
+            "c": "65",
+            "d": "104"
+          }
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "q": "A bicycle wheel makes 5,000 revolutions over 11 km. Find its diameter.",
+          "opts": {
+            "a": "35 cm",
+            "b": "49 cm",
+            "c": "55 cm",
+            "d": "70 cm"
+          }
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "q": "A train travelling at 72 km/h passes a pole in 17 seconds. Find the train’s length.",
+          "opts": {
+            "a": "340 m",
+            "b": "430 m",
+            "c": "440 m",
+            "d": "360 m"
+          }
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "q": "Convert 1 m/s to km/h.",
+          "opts": {
+            "a": "5/18 km/h",
+            "b": "18/5 km/h",
+            "c": "3/50 km/h",
+            "d": "50/3 km/h"
+          }
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "q": "A can finish a job in 12 days and B in 15 days. They work together for 3 days, then A leaves. What fraction of the work remains?",
+          "opts": {
+            "a": "7/20",
+            "b": "11/20",
+            "c": "9/20",
+            "d": "3/20"
+          }
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "q": "If x=3 is one root of kx²+2x−3=0, find k.",
+          "opts": {
+            "a": "−1/3",
+            "b": "1/3",
+            "c": "−3",
+            "d": "3"
+          }
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "q": "If 27^x = 81/3^x, find x.",
+          "opts": {
+            "a": "−3",
+            "b": "3",
+            "c": "−1",
+            "d": "1"
+          }
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "q": "A cuboid has length twice its breadth, height 3 m and four-wall area 108 m². Find its length.",
+          "opts": {
+            "a": "14 m",
+            "b": "12 m",
+            "c": "8 m",
+            "d": "6 m"
+          }
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "q": "A roller has radius 42 cm and length 120 cm. How many revolutions are needed to cover a 7,920 m road?",
+          "opts": {
+            "a": "20",
+            "b": "25",
+            "c": "30",
+            "d": "35"
+          },
+          "unscored": true,
+          "explanation": "One roller revolution advances by its circumference, 2π×0.42≈2.64 m. Covering 7,920 m therefore takes 3,000 revolutions, but none of the four printed options (20, 25, 30, 35) matches."
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "q": "The mean of 50 numbers was calculated as 45 after 26 was misread as 76. Find the correct mean.",
+          "opts": {
+            "a": "44",
+            "b": "46",
+            "c": "48",
+            "d": "50"
+          }
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "q": "If 4/3, x and 4 are in arithmetic progression, find x.",
+          "opts": {
+            "a": "11/3",
+            "b": "10/3",
+            "c": "8/3",
+            "d": "4/3"
+          }
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "q": "Simplify (x²−4)/(x²+x−6).",
+          "opts": {
+            "a": "(x+2)/(x+3)",
+            "b": "(x−2)/(x+3)",
+            "c": "(x+2)/(x−2)",
+            "d": "(x+3)/(x−2)"
+          }
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "q": "Find the 10th term from the end of the arithmetic progression 17, 14, 11, …, −40.",
+          "opts": {
+            "a": "13",
+            "b": "−13",
+            "c": "10",
+            "d": "−10"
+          }
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "q": "There are 54 girls with cars, which is one-fifth of all girls. Girls are two-fifths of all students. How many boys are in the college?",
+          "opts": {
+            "a": "420",
+            "b": "410",
+            "c": "415",
+            "d": "405"
+          }
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "q": "Rose is now one-quarter as old as her mother Mary. In four years, Mary will be three times Rose’s age. How old is Mary now?",
+          "opts": {
+            "a": "32",
+            "b": "34",
+            "c": "36",
+            "d": "38"
+          }
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "q": "Kima, Rema, Mala and Dika score 450 in total. Mala scores twice Rema and Dika’s combined marks; Kima scores the same as Mala. Those with at least 95 advance. Who advances?",
+          "opts": {
+            "a": "Kima and Mala",
+            "b": "Mala and Rema",
+            "c": "Rema and Dika",
+            "d": "Dika and Mala"
+          }
+        },
+        "84": {
+          "n": 84,
+          "page": 9,
+          "q": "Today is John’s birthday. One year from today he will be twice as old as he was 12 years ago. How old is John today?",
+          "opts": {
+            "a": "20 years",
+            "b": "22 years",
+            "c": "25 years",
+            "d": "27 years"
+          }
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "q": "Two Aizawl–Serchhip tickets and three Aizawl–Siaha tickets cost ₹77. Three Serchhip and two Siaha tickets cost ₹73. What are the two fares, respectively?",
+          "opts": {
+            "a": "₹4 and ₹23",
+            "b": "₹13 and ₹17",
+            "c": "₹15 and ₹14",
+            "d": "₹17 and ₹13"
+          }
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "q": "Choose the alternative resembling the mirror image of the printed combination TARAIN1014A. [See source figure.]",
+          "opts": {
+            "a": "Figure option 1",
+            "b": "Figure option 2",
+            "c": "Figure option 3",
+            "d": "Figure option 4"
+          },
+          "unscored": true,
+          "explanation": "The mirror-image lettering and four answer strings are visibly degraded in the scan. Keep unscored until the figures can be read reliably.",
+          "imagePath": "/question-images/group-b/si-excise-2024-p2-q086.png"
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "q": "Find the odd group of letters.",
+          "opts": {
+            "a": "EFRT",
+            "b": "LMTV",
+            "c": "HILM",
+            "d": "STWY"
+          }
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "q": "Which number triple differs from the other three?",
+          "opts": {
+            "a": "2, 4, 72",
+            "b": "1, 2, 9",
+            "c": "5, 3, 152",
+            "d": "3, 4, 98"
+          }
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "q": "Find the next number: 1, 3, 8, 19, 42, 89, ?",
+          "opts": {
+            "a": "108",
+            "b": "184",
+            "c": "104",
+            "d": "97"
+          }
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "q": "Some blankets are beds. Some pillows are blankets. All beds are pillows. Which conclusions follow? I. Some blankets are pillows. II. Some pillows are beds. III. Some beds are blankets.",
+          "opts": {
+            "a": "None follow",
+            "b": "All I, II and III follow",
+            "c": "Only I and III follow",
+            "d": "Only I and II follow"
+          }
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "q": "Select the figure that replaces the question mark in the printed problem-figure sequence. [See source figure.]",
+          "opts": {
+            "a": "Answer figure 1",
+            "b": "Answer figure 2",
+            "c": "Answer figure 3",
+            "d": "Answer figure 4"
+          },
+          "unscored": true,
+          "explanation": "The problem and answer figures are shown, but the intended transformation rule is not sufficiently unambiguous to key confidently from this scan.",
+          "imagePath": "/question-images/group-b/si-excise-2024-p2-q091.png"
+        },
+        "92": {
+          "n": 92,
+          "page": 10,
+          "q": "A college in Lunglei plans an essay competition on women’s empowerment in Mizo society. Which topic is most suitable?",
+          "opts": {
+            "a": "Daughters of Mizoram: The Silent Fight for Rights",
+            "b": "Modern Mizo Society: Crime and Women",
+            "c": "From Kitchen to Rashtrapati Bhawan: Mothers of India",
+            "d": "Role of Women: Family and Society"
+          }
+        },
+        "93": {
+          "n": 93,
+          "page": 10,
+          "q": "Rama’s mother is the only daughter of Mami’s father. How is Mami’s husband related to Rama?",
+          "opts": {
+            "a": "Uncle",
+            "b": "Father",
+            "c": "Brother",
+            "d": "Grandfather"
+          }
+        },
+        "94": {
+          "n": 94,
+          "page": 10,
+          "q": "A is the son of B and C. B’s sister has a son D and a daughter E. F is D’s maternal uncle. How many nephews does F have?",
+          "opts": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+          },
+          "unscored": true,
+          "explanation": "The stem identifies F only as D’s maternal uncle. It does not state whether F is also B’s brother, so it does not establish whether A is another nephew of F. The number of nephews is therefore underdetermined."
+        },
+        "95": {
+          "n": 95,
+          "page": 10,
+          "q": "Arrange the stages in a meaningful sequence: (i) Presentation (ii) Recommendation (iii) Arrival (iv) Discussion (v) Introduction.",
+          "opts": {
+            "a": "iii, v, i, iv, ii",
+            "b": "iii, iv, i, v, ii",
+            "c": "v, i, iii, ii, iv",
+            "d": "ii, iii, i, v, iv"
+          }
+        },
+        "96": {
+          "n": 96,
+          "page": 10,
+          "q": "Complete the sequence: 4096, 1024, 256, __, 16, 4, 1.",
+          "opts": {
+            "a": "68",
+            "b": "66",
+            "c": "62",
+            "d": "64"
+          }
+        },
+        "97": {
+          "n": 97,
+          "page": 10,
+          "q": "Complete the analogy: TOK : SNJ :: LIP : ?",
+          "opts": {
+            "a": "KJO",
+            "b": "MJQ",
+            "c": "MHQ",
+            "d": "KHO"
+          }
+        },
+        "98": {
+          "n": 98,
+          "page": 10,
+          "q": "Complete the analogy: Square : Rectangle :: Circle : ?",
+          "opts": {
+            "a": "Sphere",
+            "b": "Cylinder",
+            "c": "Triangle",
+            "d": "Ellipse"
+          }
+        },
+        "99": {
+          "n": 99,
+          "page": 10,
+          "q": "In a code, ROSE=6821, CHAIR=73456 and PREACH=961473. What is HOARSE?",
+          "opts": {
+            "a": "394821",
+            "b": "384612",
+            "c": "384621",
+            "d": "394812"
+          }
+        },
+        "100": {
+          "n": 100,
+          "page": 10,
+          "q": "Today is Monday. What day will it be after 61 days?",
+          "opts": {
+            "a": "Saturday",
+            "b": "Thursday",
+            "c": "Wednesday",
+            "d": "Tuesday"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 3,
+          "explanation": "A computer is the general-purpose electronic device described; the other choices are individual components or circuits."
+        },
+        "2": {
+          "answerIndex": 2,
+          "explanation": "The input unit accepts user data and converts it into a form the computer can process."
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "Cache is a small, high-speed memory between the CPU and main memory."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "System software, especially the operating system, controls the computer’s basic operations."
+        },
+        "5": {
+          "answerIndex": 3,
+          "explanation": "Firmware is software or microcode embedded in a hardware device."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "QWERTY was designed for early typewriters and telegraph operators; it is the listed standard layout."
+        },
+        "7": {
+          "answerIndex": 3,
+          "explanation": "Windows places deleted files in the Recycle Bin before permanent removal."
+        },
+        "8": {
+          "answerIndex": 2,
+          "explanation": "Ctrl+Alt+Delete opens security/task options commonly used when an application is unresponsive."
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "Disk Defragmenter reorganizes fragmented files; Disk Cleanup removes unneeded files."
+        },
+        "10": {
+          "answerIndex": 3,
+          "explanation": "The Recent folder/list shows files used recently."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "macOS Sonoma was the current latest released version by the August 2024 exam date."
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "“Tell Me” is the Word command-search box for finding features and actions."
+        },
+        "13": {
+          "answerIndex": 3,
+          "explanation": "All three listed correction options are available in Word’s spelling and grammar settings."
+        },
+        "14": {
+          "answerIndex": 0,
+          "explanation": "A bookmark marks a location in a document so it can be found or linked later."
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "Word provides left, right and center alignment; “middle alignment” is not a standard paragraph alignment."
+        },
+        "16": {
+          "answerIndex": 1,
+          "explanation": "A drop cap is an enlarged initial letter that drops across multiple lines."
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "Word Wrap automatically moves text that does not fit onto the next line."
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "Ctrl+Home moves the insertion point to the beginning of the document."
+        },
+        "19": {
+          "answerIndex": 3,
+          "explanation": "Cross-references link to headings, figures or other locations within the same document."
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "Format Painter copies formatting from one cell or text range to another."
+        },
+        "21": {
+          "answerIndex": 3,
+          "explanation": "Conditional Formatting applies appearance rules based on cell values or conditions."
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "AVERAGEIFS averages a range when multiple criteria are met; AVERAGEIF handles one criterion."
+        },
+        "23": {
+          "answerIndex": 2,
+          "explanation": "SUMIF tests a criterion that may be a comparison such as true/false or another value."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "PivotTables summarize, filter and analyze tabular data."
+        },
+        "25": {
+          "answerIndex": 0,
+          "explanation": "Excel’s SUM function with the A1:A10 range adds those ten cells."
+        },
+        "26": {
+          "answerIndex": 3,
+          "explanation": "AutoFill can copy content and extend sequences or dates."
+        },
+        "27": {
+          "answerIndex": 1,
+          "explanation": "A macro-enabled PowerPoint presentation uses the .pptm file extension."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "Slide Sorter view displays slide thumbnails for rearranging and reviewing order."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "Shift+F5 starts the slide show from the current slide; F5 starts at the beginning."
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "The Design tab contains themes and formatting controls for the presentation’s overall appearance."
+        },
+        "31": {
+          "answerIndex": 3,
+          "explanation": "A placeholder is a pre-formatted content container on a slide."
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "Subtle, Exciting and Dynamic Content are the transition categories; “Transition” is the feature name, not a category."
+        },
+        "33": {
+          "answerIndex": 3,
+          "explanation": "In Normal view, slide thumbnails appear in a left-hand pane."
+        },
+        "34": {
+          "answerIndex": 2,
+          "explanation": "A motion path is an animation that moves an object along a defined path on a slide."
+        },
+        "35": {
+          "answerIndex": 1,
+          "explanation": "ARPANET was an early packet-switched network and a predecessor network for TCP/IP."
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "A firewall filters network traffic according to security rules."
+        },
+        "37": {
+          "answerIndex": 3,
+          "explanation": "SMTP is the Simple Mail Transfer Protocol used to send email."
+        },
+        "38": {
+          "answerIndex": 2,
+          "explanation": "A router forwards packets between different networks."
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "A server publishes/hosts remote objects and waits for clients to call them."
+        },
+        "40": {
+          "answerIndex": 2,
+          "explanation": "Cookies store identifiers or state used by sites to recognize sessions and returning users."
+        },
+        "41": {
+          "answerIndex": 3,
+          "explanation": "IPv6 addresses contain 128 bits."
+        },
+        "42": {
+          "answerIndex": 1,
+          "explanation": "An intranet is a private organization-wide network for internal resources."
+        },
+        "43": {
+          "answerIndex": 0,
+          "explanation": "In a star topology, each node connects to a central hub, switch or router."
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "W3C is the World Wide Web Consortium, which develops web standards."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "Tim Berners-Lee’s 1990 WorldWideWeb browser was later renamed Nexus."
+        },
+        "46": {
+          "answerIndex": 1,
+          "explanation": "A web browser parses and renders HTML for the user."
+        },
+        "47": {
+          "answerIndex": 2,
+          "explanation": "Cells permit frequency reuse in separated areas, increasing capacity without requiring a unique frequency everywhere."
+        },
+        "48": {
+          "answerIndex": 1,
+          "explanation": "G in 1G, 2G, and so on means generation."
+        },
+        "49": {
+          "answerIndex": 3,
+          "explanation": "Optical fibre carries signals over high-bandwidth optical channels."
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "Modern face-recognition systems learn features and classifications from data using machine-learning methods."
+        },
+        "51": {
+          "answerIndex": 3,
+          "explanation": "(n³−n)(n−2)=n(n−1)(n+1)(n−2), a product of four consecutive integers, divisible by 24. At n=3 it equals 24, so no larger number divides every case."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "The capital-time weights are A:7×3=21, B:8×12=96 and C:5×7=35, total 152. Profit-share difference is 136800×(35−21)/152=₹12,600."
+        },
+        "54": {
+          "answerIndex": 1,
+          "explanation": "Let the income multiplier be x and expenditure multiplier y. 4x−3y=6000 and 3x−2y=6000 imply x=y=6000; combined income is 7x=₹42,000."
+        },
+        "55": {
+          "answerIndex": 2,
+          "explanation": "The interest is one-third of principal in both cases at the same simple-interest rate, so the time is the same: 4 years."
+        },
+        "56": {
+          "answerIndex": 2,
+          "explanation": "For radius r, hemisphere curved area is 2πr². The cone height is r, so its slant height is √2r and curved area is √2πr²; ratio is √2:1."
+        },
+        "57": {
+          "answerIndex": 3,
+          "explanation": "BANKING has seven letters with N repeated twice, so distinct arrangements are 7!/2!=2,520."
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "Similar triangles give tower height/40=12/8, so its height is 60 m."
+        },
+        "59": {
+          "answerIndex": 1,
+          "explanation": "The 2010 combined total is 76,000+40,000=116,000. A 25% rise gives 145,000; two-fifths is 58,000."
+        },
+        "60": {
+          "answerIndex": 2,
+          "explanation": "ES graduates: 40,000×60%=24,000. CS graduates: 76,000×50%=38,000. Their ratio is 12:19."
+        },
+        "61": {
+          "answerIndex": 3,
+          "explanation": "CS average=(58,000+60,000)/2=59,000. ES average=(30,000+36,000)/2=33,000. Difference=26,000."
+        },
+        "62": {
+          "answerIndex": 0,
+          "explanation": "1 minute 12 seconds is 72 seconds; 72/3600=0.02=2%."
+        },
+        "63": {
+          "answerIndex": 0,
+          "explanation": "Their combined daily rate is 1/30+1/20=1/12, so they finish in 12 days."
+        },
+        "64": {
+          "answerIndex": 3,
+          "explanation": "Cost is 300×₹10=₹3,000. Sale proceeds are 280×₹12=₹3,360, a ₹360 gain or 12%."
+        },
+        "65": {
+          "answerIndex": 1,
+          "explanation": "Add exponents: (m+1)+5=7, giving m=1."
+        },
+        "66": {
+          "answerIndex": 3,
+          "explanation": "2.5 L=2,500 mL; 125/2,500=0.05=5%."
+        },
+        "67": {
+          "answerIndex": 0,
+          "explanation": "Girls are 60% of the school, so total enrollment is 540/0.6=900 and boys are 40%×900=360."
+        },
+        "68": {
+          "answerIndex": 2,
+          "explanation": "The ratio has 11 parts, each 143/11=13. Difference is (8−3)×13=65."
+        },
+        "69": {
+          "answerIndex": 3,
+          "explanation": "One revolution covers 11,000/5,000=2.2 m. Diameter=2.2/π≈0.70 m=70 cm."
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "72 km/h=20 m/s. In 17 seconds the train travels 20×17=340 m."
+        },
+        "71": {
+          "answerIndex": 1,
+          "explanation": "Convert metres per second to kilometres per hour by multiplying by 18/5."
+        },
+        "72": {
+          "answerIndex": 1,
+          "explanation": "In three days they complete 3(1/12+1/15)=9/20; the remaining work is 11/20."
+        },
+        "73": {
+          "answerIndex": 0,
+          "explanation": "Substitute x=3: 9k+6−3=0, so 9k=−3 and k=−1/3."
+        },
+        "74": {
+          "answerIndex": 3,
+          "explanation": "Write both sides in base 3: 3^(3x)=3^(4−x), hence 4x=4 and x=1."
+        },
+        "75": {
+          "answerIndex": 1,
+          "explanation": "The four-wall area is 2h(l+b)=108; with h=3, l+b=18. Since l=2b, b=6 and l=12 m."
+        },
+        "77": {
+          "answerIndex": 0,
+          "explanation": "The mistaken total was 50×45=2,250. Correcting 76 to 26 subtracts 50, giving 2,200/50=44."
+        },
+        "78": {
+          "answerIndex": 2,
+          "explanation": "In an arithmetic progression the middle term is the average of the endpoints: x=(4/3+4)/2=8/3."
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "Factor numerator and denominator: (x−2)(x+2)/[(x+3)(x−2)]=(x+2)/(x+3), for values where the original denominator is nonzero."
+        },
+        "80": {
+          "answerIndex": 1,
+          "explanation": "The sequence decreases by 3. The 10th term from the end is −40+9×3=−13."
+        },
+        "81": {
+          "answerIndex": 3,
+          "explanation": "There are 54×5=270 girls. This is 2/5 of 675 students, leaving 405 boys."
+        },
+        "82": {
+          "answerIndex": 0,
+          "explanation": "Let Rose be r and Mary 4r. Four years later, 4r+4=3(r+4), so r=8 and Mary is 32."
+        },
+        "83": {
+          "answerIndex": 0,
+          "explanation": "Let R+D=s. Mala=2s and Kima=2s, so 5s=450 and each of Kima and Mala scores 180. They are the two above 95."
+        },
+        "84": {
+          "answerIndex": 2,
+          "explanation": "If John is x, then x+1=2(x−12), giving x=25."
+        },
+        "85": {
+          "answerIndex": 1,
+          "explanation": "Solving 2s+3t=77 and 3s+2t=73 gives Serchhip s=13 and Siaha t=17."
+        },
+        "87": {
+          "answerIndex": 2,
+          "explanation": "EFRT, LMTV and STWY each have a consecutive first pair and a final pair with one letter between; HILM has two consecutive pairs, making it the odd group."
+        },
+        "88": {
+          "answerIndex": 3,
+          "explanation": "The first three triples have third number equal to the sum of the cubes of the first two: 2³+4³=72, 1³+2³=9, 5³+3³=152. For 3 and 4 the sum is 91, not 98."
+        },
+        "89": {
+          "answerIndex": 1,
+          "explanation": "The successive differences are 2, 5, 11, 23, 47; each is twice the previous difference plus 1. The next difference is 95, so the next term is 184."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "Some blankets are beds and all beds are pillows, so those blankets are pillows and those pillows are beds. Therefore I, II and III all follow."
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "The title directly foregrounds the rights struggle of Mizo daughters and best fits an essay about women’s empowerment in Mizo society."
+        },
+        "93": {
+          "answerIndex": 1,
+          "explanation": "Mami is the only daughter of her father, so Rama’s mother is Mami; Mami’s husband is Rama’s father."
+        },
+        "95": {
+          "answerIndex": 0,
+          "explanation": "The natural order is Arrival, Introduction, Presentation, Discussion, Recommendation: iii, v, i, iv, ii."
+        },
+        "96": {
+          "answerIndex": 3,
+          "explanation": "Each term is one-quarter of the preceding term, so the missing number is 256/4=64."
+        },
+        "97": {
+          "answerIndex": 3,
+          "explanation": "Each letter shifts back one place: T→S, O→N, K→J. Applying that shift to LIP gives KHO."
+        },
+        "98": {
+          "answerIndex": 3,
+          "explanation": "A circle is a special kind of ellipse, just as a square is a special kind of rectangle."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "The code maps H=3, O=8, A=4, R=6, S=2 and E=1, so HOARSE=384621."
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "61 days is 8 weeks and 5 days. Five days after Monday is Saturday."
+        }
+      }
     }
   }
 }

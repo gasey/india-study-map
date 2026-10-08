@@ -95,6 +95,21 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertTrue(result['questions'][80]['unscored'])
         self.assertTrue(result['questions'][96]['unscored'])
 
+    def test_excise_2024_paper_two_recovers_full_scan_and_flags_defective_items(self):
+        extracted = json.loads((HERE / 'extracted/si-excise-2024-p2.json').read_text())
+        repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['si-excise-2024-p2']
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual(reviewed, set(range(1, 101)))
+        self.assertEqual([q['n'] for q in result['questions']], list(range(1, 101)))
+        self.assertEqual({int(n) for n in repair['derivedAnswers']}, set(range(1, 101)) - {52, 76, 86, 91, 94})
+        self.assertTrue(all(answer['explanation'].strip() for answer in repair['derivedAnswers'].values()))
+        self.assertIn('A ______ is a digital electronic device', result['questions'][0]['q'])
+        self.assertEqual(result['questions'][50]['opts']['d'], '24')
+        self.assertEqual(result['questions'][56]['opts']['d'], '2520')
+        self.assertTrue(result['questions'][75]['unscored'])
+        self.assertTrue(result['questions'][93]['unscored'])
+        self.assertTrue(all(result['questions'][n - 1]['imagePath'] for n in (52, 86, 91)))
+
     def test_rejects_stale_source(self):
         self.repair['sourceSha256'] = 'changed source'
         with self.assertRaisesRegex(AssertionError, 'Stale'):

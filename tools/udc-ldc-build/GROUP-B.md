@@ -6,9 +6,9 @@ Generated output: `src/data/banks/mpsc-group-b-general.ts` and
 
 ## Progress — 9 October 2026
 
-49 general papers, 3,503 items: 3,432 MCQs and 71 written prompts.
-2,480 questions are ready for practice, including 1,614 official answers and
-866 independently derived answers. 963 items still need source review.
+49 general papers, 3,520 items: 3,449 MCQs and 71 written prompts.
+2,575 questions are ready for practice, including 1,614 official answers and
+961 independently derived answers. 885 items still need source review.
 Extracted counts are coverage, not a
 claim that the text is correct. The paper library shows these totals and
 per-paper counts separately from key candidates awaiting review.
@@ -157,3 +157,5 @@ review and ready-to-score counts separate.
 Sub-Inspector FCS&CA / Receptionist H&FW Paper-I General English, May 2025 Series A is now scan-checked across all 60 Section B MCQs and all three Section A written prompts. Fifty-seven MCQs have derived explanations; Q47, Q49 and Q50 are held because multiple options are grammatical. The précis, formal letter and full ten-part exercise passage have response guidance. The cover confirms 100 marks, three hours, 40 conventional marks and 60 one-mark MCQs, with no negative marking.
 
 Sub-Inspector of Excise & Narcotics Paper-II, April 2025 Series A is now restored and scan-checked across all 100 questions. The OCR had fused Q1–10 and omitted 30 question numbers; the cover confirms 100 two-mark questions, two hours and no negative marking. Ninety-five items have derived answers with explanations. Q30 and Q81–82 are ambiguous; Q96–97 depend on distorted visual content and remain held. The 2025 paper count, exact page links and no-penalty scoring metadata are verified from the booklet.
+
+Sub-Inspector of Excise & Narcotics Paper-II, August 2024 is now restored and checked across all 100 questions. All 17 missing OCR question numbers have been recovered, stems and options are readable, and 95 answers have worked or factual explanations. Q52’s printed arithmetic expression conflicts with the choices under standard precedence; Q76 has no matching revolutions option; Q86 and Q91 remain image-dependent; Q94 does not identify F’s relationship to A. These five items stay unscored. The cover specifies 200 marks at two marks per question and three hours.

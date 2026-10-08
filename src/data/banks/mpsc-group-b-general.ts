@@ -45760,6 +45760,32 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "direction": "Directions(QuestionNos.91-100):Readthegivenpassagecarefullyandanswerthequestionsthat"
   },
   {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q1",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "A ______ is a digital electronic device that may be configured to automatically perform a series of logical or mathematical operations (computation).",
+    "options": [
+      "Microprocessor",
+      "Integrated Circuit",
+      "Transistor",
+      "Computer"
+    ],
+    "answerIndex": 3,
+    "explanation": "A computer is the general-purpose electronic device described; the other choices are individual components or circuits.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
     "id": "mpsc-group-b-si-excise-2024-p2-Q2",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
     "questionNumber": "2",
@@ -45768,21 +45794,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichunitisresponsibleforconvertingthedatareceivedfromtheuserintoacomputerunderstandable format?",
+    "question": "Which unit converts data received from the user into a computer-understandable format?",
     "options": [
-      "MemoryUnit",
-      "Arithmetic&LogicUnit",
-      "InputUnit",
-      "OutputUnit"
+      "Memory Unit",
+      "Arithmetic & Logic Unit",
+      "Input Unit",
+      "Output Unit"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The input unit accepts user data and converts it into a form the computer can process.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q3",
@@ -45793,21 +45820,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AnextremelyfastmemorytypethatactsasabufferbetweenRAMandtheCPU.",
+    "question": "Which extremely fast memory acts as a buffer between RAM and the CPU?",
     "options": [
-      "Auxiliary",
-      "Main",
+      "Auxiliary memory",
+      "Main memory",
       "Cache",
-      "Virtualmemory"
+      "Virtual memory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Cache is a small, high-speed memory between the CPU and main memory.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q4",
@@ -45818,21 +45846,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whichofthefollowingisdesignedtocontroltheoperationsofacomputer?",
+    "question": "Which is designed to control the operations of a computer?",
     "options": [
-      "ApplicationSoftware",
-      "SystemSoftware",
-      "UtilitySoftware",
+      "Application software",
+      "System software",
+      "Utility software",
       "Script"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "System software, especially the operating system, controls the computer’s basic operations.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q5",
@@ -45843,21 +45872,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Aformofmicrocodeorprogramembeddedintohardwaredevicestohelpthemoperateeffectively.",
+    "question": "What program is embedded in hardware devices to help them operate effectively?",
     "options": [
       "Middleware",
       "Package",
-      "SystemSoftware",
+      "System software",
       "Firmware"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Firmware is software or microcode embedded in a hardware device.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q6",
@@ -45868,21 +45898,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thekeyboardlayoutwascreatedtomakeiteasierfortelegraphoperatorsto transcribeMorsecode.",
+    "question": "Which keyboard layout was created to make it easier for telegraph operators to transcribe Morse code?",
     "options": [
       "ZERTY",
       "QWERTY",
       "QWERTZ",
       "QZERTY"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "QWERTY was designed for early typewriters and telegraph operators; it is the listed standard layout.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q7",
@@ -45893,21 +45924,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theisatemporarystorageareaforfilesthathavebeendeletedbytheuser.",
+    "question": "What is the temporary storage area for files deleted by the user in Windows?",
     "options": [
-      "TrashBin",
-      "DeletedBin",
-      "GarbageBin",
-      "RecycleBin"
+      "Trash Bin",
+      "Deleted Bin",
+      "Garbage Bin",
+      "Recycle Bin"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Windows places deleted files in the Recycle Bin before permanent removal.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q8",
@@ -45918,21 +45950,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhenwouldyouusetheCtrl+Alt+DeletekeyboardshortcutWindowsOS?",
+    "question": "When would you use the Ctrl+Alt+Delete keyboard shortcut in Windows?",
     "options": [
-      "Whenaprogramfirstopens",
-      "Whenyoufirstbootupyourcomputer",
-      "Whenaprogramisunresponsive",
-      "Whenyouwanttodeleteafile"
+      "When a program first opens",
+      "When you first boot the computer",
+      "When a program is unresponsive",
+      "When you want to delete a file"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Ctrl+Alt+Delete opens security/task options commonly used when an application is unresponsive.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q9",
@@ -45943,21 +45976,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AWindowOSutilityprogramthatlocatesandeliminatesunnecessaryfragmentsandrearrangesfiles andunuseddiskspacetooptimizeoperations.",
+    "question": "Which Windows utility locates and eliminates unnecessary fragments and rearranges files and unused disk space to optimize operations?",
     "options": [
-      "DiskDefragmenter",
-      "Taskmanager",
-      "DiskCleanup:",
-      "Backup. -2-."
+      "Disk Defragmenter",
+      "Task Manager",
+      "Disk Cleanup",
+      "Backup"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Disk Defragmenter reorganizes fragmented files; Disk Cleanup removes unneeded files.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q10",
@@ -45968,21 +46002,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatisthepurposeoftheRecentfolderinWindows?",
+    "question": "What is the purpose of the Recent folder in Windows?",
     "options": [
-      "Tostorefilesthatarecurrentlybeingusedbythesystemandcannotbedeleted",
-      "TostoresystemfilesthatarenecessaryfortheoperationofWindows",
-      "Tostorefilesthatarenolongerneeded.",
-      "Todisplayalistofrecentlyusedfiles"
+      "Store files currently used by the system and not deletable",
+      "Store system files necessary for Windows",
+      "Store files no longer needed",
+      "Display a list of recently used files"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Recent folder/list shows files used recently.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q11",
@@ -45993,21 +46028,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThelatestMacOSversionreleasenameis-",
+    "question": "What was the latest Mac OS release name at the time of this August 2024 paper?",
     "options": [
-      "BigSur",
-      "Monteray",
+      "Big Sur",
+      "Monterey",
       "Sonoma",
-      "Vantura"
+      "Ventura"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "macOS Sonoma was the current latest released version by the August 2024 exam date.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q12",
@@ -46018,21 +46054,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InMSWord,atextfieldwhereyoucanenterwordsandphrasesaboutwhatyouwanttodonext andquicklygettofeaturesyouwanttouseoractionsyouwanttoperform.",
+    "question": "In MS Word, what text field lets you enter a description of what you want to do and quickly find features or actions?",
     "options": [
-      "Tellme",
+      "Tell Me",
       "Search",
       "Find",
-      "FindMe"
+      "Find Me"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Tell Me” is the Word command-search box for finding features and actions.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q13",
@@ -46043,21 +46080,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhencorrectingspellingandgrammarusingAutoCorrectioninMSWord,thefollowingoptionsare available-",
+    "question": "Which options are available when correcting spelling and grammar using AutoCorrect in MS Word?",
     "options": [
-      "Checkspellingasyoutype",
-      "Markgrammarasyoutype",
-      "Frequentlyconfusedwords",
-      "Alloftheabove"
+      "Check spelling as you type",
+      "Mark grammar as you type",
+      "Frequently confused words",
+      "All of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "All three listed correction options are available in Word’s spelling and grammar settings.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q14",
@@ -46068,21 +46106,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatistheuseofBookmarkinMSWord?",
+    "question": "What is the use of a bookmark in MS Word?",
     "options": [
-      "Identifyingatextforfutureuse",
-      "Identifyingheadersandfooters",
-      "Pointingoutthecomments",
-      "Identifyfontssize (a)Leftalignment(b)Rightalignment (c)Middlealignment(d)Centeralignment"
+      "Identify a location for future reference",
+      "Identify headers and footers",
+      "Point out comments",
+      "Identify font size"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A bookmark marks a location in a document so it can be found or linked later.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q15",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following is not a standard alignment in MS Word?",
+    "options": [
+      "Left alignment",
+      "Right alignment",
+      "Middle alignment",
+      "Center alignment"
+    ],
+    "answerIndex": 2,
+    "explanation": "Word provides left, right and center alignment; “middle alignment” is not a standard paragraph alignment.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q16",
@@ -46093,21 +46158,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Ahugecapitalletterwiththewidthoftwoormorelinesofconventionaltextthatappearsatthestart ofatextblockoraparagraphinMSWord.",
+    "question": "What is the large capital letter spanning two or more lines at the start of a text block called?",
     "options": [
       "Footnote",
-      "Dropcap",
-      "Tabstop",
+      "Drop cap",
+      "Tab stop",
       "Heading"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A drop cap is an enlarged initial letter that drops across multiple lines.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q17",
@@ -46118,21 +46184,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Awordprocessingfeaturethatautomaticallytransfersawordthathasnoinsufficientspacefromthe endofonelineoftexttothebeginningofthenext.",
+    "question": "Which word-processing feature moves a word that will not fit at the end of a line to the beginning of the next line?",
     "options": [
       "Scaling",
-      "WordWrap",
+      "Word Wrap",
       "WordArt",
       "Numbering"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Word Wrap automatically moves text that does not fit onto the next line.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q18",
@@ -46143,21 +46210,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AshortcutkeyusedinMSWordtomovethecursortothebeginningofthedocument.",
+    "question": "Which shortcut moves the cursor to the beginning of a document in MS Word?",
     "options": [
       "Ctrl+Home",
       "Ctrl+O",
       "Ctrl+N",
       "Ctrl+C"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ctrl+Home moves the insertion point to the beginning of the document.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q19",
@@ -46168,21 +46236,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Aallowsyoutolinktootherpartsofthesamedocument.",
+    "question": "Which feature lets you link to other parts of the same document?",
     "options": [
-      "Placeholders",
-      "Bookmarks",
-      "Objects",
+      "Placeholder",
+      "Bookmark",
+      "Object",
       "Cross-reference"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Cross-references link to headings, figures or other locations within the same document.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q20",
@@ -46193,21 +46262,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AnExcelcommandwhichletsyoucopyformattingfromonecelltoanother.",
+    "question": "Which Excel command copies formatting from one cell to another?",
     "options": [
       "Copier",
       "Formatter",
-      "Formatpainter",
+      "Format Painter",
       "Duplicator"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Format Painter copies formatting from one cell or text range to another.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q21",
@@ -46218,21 +46288,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InExcel,isusedtochangetheappearanceofcellsinarangebasedonyourspecified conditions.",
+    "question": "Which Excel feature changes the appearance of cells in a range according to specified conditions?",
     "options": [
-      "HighlightCellRules",
-      "Top/BottomRules",
-      "ExcelManageRules",
-      "ConditionalFormatting ~3-,"
+      "Highlight Cell Rules",
+      "Top/Bottom Rules",
+      "Excel Manage Rules",
+      "Conditional Formatting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Conditional Formatting applies appearance rules based on cell values or conditions.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q22",
@@ -46243,21 +46314,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ApremadefunctioninExcel,whichcalculatestheaverageofarangebasedononeormoretrueor falsecondition?",
+    "question": "Which pre-made Excel function calculates an average for cells meeting one or more conditions?",
     "options": [
       "AVERAGEIFS",
       "AVERAGEIF",
       "AVERAGE",
       "AVG"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "AVERAGEIFS averages a range when multiple criteria are met; AVERAGEIF handles one criterion.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q23",
@@ -46268,21 +46340,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheSUMIFfunctionisapremadefunctioninExcel,whichcalculatesthesumofvaluesinarange basedonwhichcondition?",
+    "question": "The Excel SUMIF function adds values in a range based on which kind of condition?",
     "options": [
-      "Tre",
+      "True",
       "False",
-      "TrueorFalse",
-      "Noneoftheabove"
+      "True or false",
+      "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "SUMIF tests a criterion that may be a comparison such as true/false or another value.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q24",
@@ -46293,21 +46366,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AfunctionalityinExcelwhichhelpsyouorganizeandanalyzedata,andletsyouaddandremove values,performcalculations,andtofilterandsortdatasets?",
+    "question": "Which Excel functionality organizes and analyzes data, allows calculations, and filters and sorts datasets?",
     "options": [
       "Chart",
-      "ColorScales",
-      "Databars",
+      "Color Scales",
+      "Data Bars",
       "PivotTable"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "PivotTables summarize, filter and analyze tabular data.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q25",
@@ -46318,21 +46392,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "HowcanyousumthevaluesincellsA]throughA10inExcel?",
+    "question": "How do you sum the values in cells A1 through A10 in Excel?",
     "options": [
       "=SUM(A1:A10)",
       "=TOTAL(A1:A10)",
       "=ADD(A1:A10)",
       "=SUMMARY(A1:A10)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Excel’s SUM function with the A1:A10 range adds those ten cells.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q26",
@@ -46343,21 +46418,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InMSExcel,fillingcanbeusedfor-",
+    "question": "In MS Excel, filling can be used for what?",
     "options": [
       "Copying",
       "Sequences",
       "Dates",
-      "Alloftheabove"
+      "All of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "AutoFill can copy content and extend sequences or dates.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q27",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "If a PowerPoint presentation contains one or more macros, what format does PowerPoint automatically use?",
+    "options": [
+      ".xps",
+      ".pptm",
+      ".pptx",
+      ".ppt"
+    ],
+    "answerIndex": 1,
+    "explanation": "A macro-enabled PowerPoint presentation uses the .pptm file extension.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q28",
@@ -46368,21 +46470,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "MSPowerPointthatdisplaysallslidesasthumbnailsandisusefulforrearrangingslides,checkingthe flowofyourpresentation,orapplyingtransitioneffects.",
+    "question": "Which PowerPoint view displays all slides as thumbnails for rearranging and reviewing slide flow?",
     "options": [
-      "Notespageview",
-      "Outlineview",
-      "Readingview",
-      "SlideSorterview"
+      "Notes Page view",
+      "Outline view",
+      "Reading view",
+      "Slide Sorter view"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Slide Sorter view displays slide thumbnails for rearranging and reviewing order.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q29",
@@ -46393,21 +46496,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TheshortcutkeytostartthePowerPointpresentationfromthecurrentslide.",
+    "question": "What shortcut starts a PowerPoint presentation from the current slide?",
     "options": [
-      "AlttF5",
+      "Alt+F5",
       "Shift+F5",
-      "FS",
+      "F5",
       "F4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Shift+F5 starts the slide show from the current slide; F5 starts at the beginning.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q30",
@@ -46418,21 +46522,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thecontainsallthefeaturestochangethelookofyourdocumentinoneplace.",
+    "question": "Which tab contains features for changing the overall look of a PowerPoint document?",
     "options": [
-      "ControlTab",
-      "InsertTab",
-      "DesignTab",
-      "TransitionTab"
+      "Control tab",
+      "Insert tab",
+      "Design tab",
+      "Transition tab"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Design tab contains themes and formatting controls for the presentation’s overall appearance.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q31",
@@ -46443,21 +46548,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InMSPowerPoint,apre-formattedcontaineronaslideforcontent(text,graphics,orvideo)is called-",
+    "question": "What is a pre-formatted container on a PowerPoint slide for content such as text, graphics or video called?",
     "options": [
       "Theme",
       "Template",
       "Partition",
       "Placeholder"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A placeholder is a pre-formatted content container on a slide.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q32",
@@ -46468,21 +46574,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingcategoriesisnotthetransitioninMSPowerPoint?",
+    "question": "Which is not a PowerPoint transition category?",
     "options": [
       "Transition",
       "Subtle",
       "Exciting",
-      "DynamicContent"
+      "Dynamic Content"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Subtle, Exciting and Dynamic Content are the transition categories; “Transition” is the feature name, not a category.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q33",
@@ -46493,21 +46600,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InMSPowerPoint,Normalviewdisplaysslidethumbnailsonthesideofthescreen.",
+    "question": "In PowerPoint Normal view, where are the slide thumbnails displayed?",
     "options": [
-      "bottom",
-      "top",
-      "right",
-      "left"
+      "Bottom",
+      "Top",
+      "Right",
+      "Left"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "In Normal view, slide thumbnails appear in a left-hand pane.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q34",
@@ -46518,21 +46626,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "MotionpathinMSPowerPointis-",
+    "question": "What is a motion path in MS PowerPoint?",
     "options": [
-      "Atypeofanimationentranceeffect",
-      "Amethodofadvancingslides.",
-      "Amethodofmovingitemsonaslide",
-      "Alloftheabove -4-,"
+      "A type of entrance animation",
+      "A method of advancing slides",
+      "A method of moving items on a slide",
+      "All of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A motion path is an animation that moves an object along a defined path on a slide.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q35",
@@ -46543,21 +46652,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thefirstwide-areapacket-switchednetworkwithdistributedcontrolandoneofthefirstnetworks toimplementtheTCP/IPprotocolsuite.",
+    "question": "What was the first wide-area packet-switched network with distributed control and an early implementation of TCP/IP?",
     "options": [
       "NSFNET",
       "ARPANET",
       "DDN",
       "SATNET"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "ARPANET was an early packet-switched network and a predecessor network for TCP/IP.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q36",
@@ -46568,21 +46678,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "isanetworksecuritysystemthatmonitorsandcontrolsincomingandoutgoing networktrafficbasedonpredeterminedsecurityrules,",
+    "question": "Which network security system monitors and controls incoming and outgoing traffic according to security rules?",
     "options": [
       "Firewall",
-      "PasswordManager",
+      "Password Manager",
       "VPN",
       "Antivirus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A firewall filters network traffic according to security rules.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q37",
@@ -46593,21 +46704,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichoneofthefollowingprotocolsisusedforE-mailservices?",
+    "question": "Which protocol is used for email services?",
     "options": [
       "HTTP",
       "HTTPS",
       "FTP",
       "SMTP"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "SMTP is the Simple Mail Transfer Protocol used to send email.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q38",
@@ -46618,21 +46730,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Anetworkingdevicethatsendsdatapacketsfromonecomputernetworktoanother.",
+    "question": "Which networking device sends data packets from one computer network to another?",
     "options": [
       "Switch",
       "Bridge",
       "Router",
       "Gateway"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A router forwards packets between different networks.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q39",
@@ -46643,21 +46756,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Atypicalprogramcreatessomeremoteobjects,makesreferencestotheseobjects accessible,andwaitsforclientstoinvokemethodsontheseobjects.",
+    "question": "In a typical distributed-object program, what creates remote objects, publishes references to them and waits for clients to invoke methods?",
     "options": [
       "Server",
       "Client",
       "Thread",
       "Agent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A server publishes/hosts remote objects and waits for clients to call them.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q40",
@@ -46668,21 +46782,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "isusedbywebserverstoidentityandtrackusersastheynavigatedifferentpagesona website,andtoidentifyusersreturningtoawebsite.",
+    "question": "What is used by websites to identify and track users between pages and recognize returning users?",
     "options": [
       "Cache",
       "History",
       "Cookie",
-      "Bookmarks"
+      "Bookmark"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Cookies store identifiers or state used by sites to recognize sessions and returning users.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q41",
@@ -46693,21 +46808,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatisthelengthoftheIPv6address?",
+    "question": "What is the length of an IPv6 address?",
     "options": [
-      "8bit",
-      "16bit",
-      "32bit",
-      "128bit"
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "128 bits"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "IPv6 addresses contain 128 bits.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q42",
@@ -46718,21 +46834,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Aprivatenetworkcontainedwithinanenterprisethatisusedtosecurelysharecompanyinformation andcomputingresourcesamongemployees.",
+    "question": "What is a private enterprise network used to securely share company information and computing resources among employees?",
     "options": [
       "Internet",
       "Intranet",
       "Extranet",
       "Ethernet"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "An intranet is a private organization-wide network for internal resources.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q43",
@@ -46743,21 +46860,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Atypeofnetworktopologyinwhichallthedevicesornodesarephysicallyconnectedtoacentral nodesuchasarouter,switch,orhub.",
+    "question": "Which topology physically connects all devices or nodes to a central node such as a router, switch or hub?",
     "options": [
-      "Startopology",
-      "Bustopology",
-      "Ringtopology",
-      "Treetopology"
+      "Star topology",
+      "Bus topology",
+      "Ring topology",
+      "Tree topology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "In a star topology, each node connects to a central hub, switch or router.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q44",
@@ -46768,21 +46886,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AnindustryconsortiumthatseekstopromotestandardsfortheevolutionoftheWeband interoperabilitybetweenwwwproductsbyproducingspecificationsandreferencesoftware.",
+    "question": "Which industry consortium promotes standards and interoperability for World Wide Web products?",
     "options": [
-      "WorldWideWebContent",
-      "WorldWideWebCenire",
-      "WorldWideWebConsortium",
-      "WorldWideWebCommission"
+      "World Wide Web Content",
+      "World Wide Web Centre",
+      "World Wide Web Consortium",
+      "World Wide Web Commission"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "W3C is the World Wide Web Consortium, which develops web standards.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q45",
@@ -46793,21 +46912,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thefirstwebbrowserwasinventedin1990calledWorldWideWebwhichwaslaterrenamedto",
+    "question": "The first web browser, invented in 1990 and initially called WorldWideWeb, was later renamed what?",
     "options": [
       "Nexus",
-      "NetscapeNavigator",
-      "InternetExplorer",
+      "Netscape Navigator",
+      "Internet Explorer",
       "Mosaic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tim Berners-Lee’s 1990 WorldWideWeb browser was later renamed Nexus.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q46",
@@ -46818,21 +46938,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhichofthefollowingisusedtoreadaHTMLpageandrenderit?",
+    "question": "Which application reads an HTML page and renders it for a user?",
     "options": [
-      "Webserver",
-      "Webbrowser",
-      "Webmatrix",
-      "Webnetwork -5-:"
+      "Web server",
+      "Web browser",
+      "Web matrix",
+      "Web network"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A web browser parses and renders HTML for the user.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q47",
@@ -46843,21 +46964,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThemainobjectiveofCELLinacellularmobilesystemis-",
+    "question": "What is the main objective of a cell in a cellular mobile system?",
     "options": [
       "Handoff",
-      "Simplemodulationtechnique",
-      "Frequencyreuse",
-      "Higherbandwidth"
+      "Simple modulation technique",
+      "Frequency reuse",
+      "Higher bandwidth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Cells permit frequency reuse in separated areas, increasing capacity without requiring a unique frequency everywhere.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q48",
@@ -46868,21 +46990,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Theevolutionofcellphonestandardsarefrom1Gto5G,whatdoesGindicate?",
+    "question": "In the mobile standards 1G to 5G, what does G stand for?",
     "options": [
       "Gross",
       "Generation",
       "General",
       "Gap"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "G in 1G, 2G, and so on means generation.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q49",
@@ -46893,21 +47016,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thetypeofintercommunicationcablethathasthehighestbandwidthisthe-",
+    "question": "Which intercommunication cable type has the highest bandwidth?",
     "options": [
-      "Twisted-paircable",
-      "Co-axialcable",
-      "Open-wirecable",
-      "OpticalFiberCable"
+      "Twisted-pair cable",
+      "Coaxial cable",
+      "Open-wire cable",
+      "Optical fibre cable"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Optical fibre carries signals over high-bandwidth optical channels.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q50",
@@ -46918,21 +47042,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Facerecognitionsystemisbasedon.",
+    "question": "Face-recognition systems primarily use which technology?",
     "options": [
-      "AppliedAI",
-      "Machinelearning",
-      "Internetofthings",
-      "ParalleAlI"
+      "Applied artificial intelligence",
+      "Machine learning",
+      "Internet of Things",
+      "Parallel AI"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Modern face-recognition systems learn features and classifications from data using machine-learning methods.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q51",
@@ -46943,21 +47068,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thelargestnaturalnumberwhichdivideseverynaturalnumberoftheform(n?-n)(n-2),wherenisa naturalnumbergreaterthan2is-",
+    "question": "Find the greatest natural number that divides every number of the form (n³−n)(n−2), for natural n>2.",
     "options": [
       "6",
       "48",
       "12",
       "24"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "(n³−n)(n−2)=n(n−1)(n+1)(n−2), a product of four consecutive integers, divisible by 24. At n=3 it equals 24, so no larger number divides every case.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q52",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What is the simplified value of the printed expression? [Complex nested fraction and operations reproduced in the source figure; see paper page 5.]",
+    "options": [
+      "6/13",
+      "8/13",
+      "5/13",
+      "4/13"
+    ],
+    "answerIndex": -1,
+    "explanation": "The printed expression contains nested fractions and an ambiguous “÷ … of” grouping; applying standard precedence gives a result absent from the choices. Keep unscored pending an official key or correction.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
+    "imagePath": "/question-images/group-b/si-excise-2024-p2-q052.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q53",
@@ -46968,21 +47120,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "A,BandCinvestedinaratioof7:8:5inabusiness.TheygotanannualprofitofRs.1,36,800.IfA andCwithdrawtheiramountattheendof3monthsand7monthsrespectively.Then,findthe differencebetweenAandC’sshareofprofit.",
+    "question": "A, B and C invest in the ratio 7:8:5 and earn an annual profit of ₹136,800. A withdraws after 3 months and C after 7 months; find the difference between A’s and C’s profit shares.",
     "options": [
-      "Rs.12,600.00",
-      "Rs.11,500.00",
-      "Rs.13,500.00",
-      "Rs.10,500.00"
+      "₹12,600",
+      "₹11,500",
+      "₹13,500",
+      "₹10,500"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The capital-time weights are A:7×3=21, B:8×12=96 and C:5×7=35, total 152. Profit-share difference is 136800×(35−21)/152=₹12,600.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q54",
@@ -46993,21 +47146,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "ThemonthlyincomesofXand¥areintheratio4:3andtheirmonthlyexpendituresareintheratio 3:2.HowevereachsavesRs.6,000permonth.Whatistheirtotalmonthlyincome?",
+    "question": "X’s and Y’s monthly incomes are in the ratio 4:3 and their expenditures are in the ratio 3:2. Each saves ₹6,000 monthly. Find their total monthly income.",
     "options": [
-      "Rs.28,000",
-      "Rs.42,000",
-      "Rs.56,000",
-      "Rs.84,000"
+      "₹28,000",
+      "₹42,000",
+      "₹56,000",
+      "₹84,000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Let the income multiplier be x and expenditure multiplier y. 4x−3y=6000 and 3x−2y=6000 imply x=y=6000; combined income is 7x=₹42,000.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q55",
@@ -47018,21 +47172,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "In4years,Rs.6,000amounttoRs.8,000.Inwhattimeatthesamerate,willRs.525amounttoRs.7007",
+    "question": "₹6,000 amounts to ₹8,000 in 4 years. At the same rate, how long will ₹525 take to amount to ₹700?",
     "options": [
-      "2years",
-      "3years",
-      "4years",
-      "5years"
+      "2 years",
+      "3 years",
+      "4 years",
+      "5 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The interest is one-third of principal in both cases at the same simple-interest rate, so the time is the same: 4 years.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q56",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "A hemisphere and a cone have equal circular bases and equal heights. What is the ratio of their curved surface areas?",
+    "options": [
+      "2:1",
+      "1:2",
+      "√2:1",
+      "1:√2"
+    ],
+    "answerIndex": 2,
+    "explanation": "For radius r, hemisphere curved area is 2πr². The cone height is r, so its slant height is √2r and curved area is √2πr²; ratio is √2:1.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q57",
@@ -47043,21 +47224,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Inhowmanyways,thelettersoftheword‘BANKING’canbearranged?",
+    "question": "In how many ways can the letters of BANKING be arranged?",
     "options": [
       "5040",
       "2540",
       "5080",
       "2520"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "BANKING has seven letters with N repeated twice, so distinct arrangements are 7!/2!=2,520.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q58",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "A 12 m stick casts an 8 m shadow. At the same time, a tower casts a 40 m shadow. Find the tower’s height.",
+    "options": [
+      "60 m",
+      "65 m",
+      "70 m",
+      "72 m"
+    ],
+    "answerIndex": 0,
+    "explanation": "Similar triangles give tower height/40=12/8, so its height is 60 m.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q59",
@@ -47068,22 +47276,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TotalnumberofcandidateswhoappearedforCSandEStogetherin2011was25%morethanthe totalnumberofcandidateswhoappearedforthesametogetherin2010.Howmanyfemalecandidates appearedforboththeexamstogetherin2011,iftheyformed:thofthetotalnumberofcandidates appearingforbothCSandESthatyear?",
+    "question": "In 2011, the total candidates for CS and ES together were 25% more than in 2010. If female candidates were two-fifths of the 2011 total, how many female candidates appeared?",
     "options": [
-      "52000",
-      "58000",
-      "60000",
-      "62000"
+      "52,000",
+      "58,000",
+      "60,000",
+      "62,000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The 2010 combined total is 76,000+40,000=116,000. A 25% rise gives 145,000; two-fifths is 58,000.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.59-61):Studythefollowingtabletoanswerthegivenquestions"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q60",
@@ -47094,22 +47302,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatistherespectiveratiobetweenthenumberofgraduateswhohadappearedforESin2010and thenumberofgraduateswhoappearedforCSin2010?",
+    "question": "Find the ratio of ES graduates in 2010 to CS graduates in 2010 using the table.",
     "options": [
       "13:21",
       "12:17",
       "12:19",
       "11:17"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "ES graduates: 40,000×60%=24,000. CS graduates: 76,000×50%=38,000. Their ratio is 12:19.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.59-61):Studythefollowingtabletoanswerthegivenquestions"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q61",
@@ -47120,22 +47328,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "WhatisthedifferencebetweentheaveragenumberofcandidateswhoappearedforCSintheyears 2007and2008andaveragenumberofcandidateswhoappearedforESinthesameyearstogether?",
+    "question": "Find the difference between the average CS candidates in 2007 and 2008 and the average ES candidates in those years, using the table.",
     "options": [
-      "38400",
-      "24400",
-      "26400",
-      "26000"
+      "38,400",
+      "24,400",
+      "26,400",
+      "26,000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "CS average=(58,000+60,000)/2=59,000. ES average=(30,000+36,000)/2=33,000. Difference=26,000.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions(QuestionNos.59-61):Studythefollowingtabletoanswerthegivenquestions"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q62",
@@ -47146,21 +47354,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatratepercentisoneminute12secondstoanhour?",
+    "question": "What percentage of an hour is 1 minute 12 seconds?",
     "options": [
       "2%",
       "3%",
       "4%",
       "5%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "1 minute 12 seconds is 72 seconds; 72/3600=0.02=2%.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q63",
@@ -47171,21 +47380,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AandBcandoapieceofworkseparatelyin30daysand20days.HowlongwillittakeforbothA andBtogethertodothework?",
+    "question": "A and B can separately complete a job in 30 and 20 days. How long will they take working together?",
     "options": [
-      "12days",
-      "20days",
-      "24days",
-      "25days"
+      "12 days",
+      "20 days",
+      "24 days",
+      "25 days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Their combined daily rate is 1/30+1/20=1/12, so they finish in 12 days.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q64",
@@ -47196,24 +47406,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Ashopkeeperpurchased300bulbsforRs.10each.However20bulbswerefusedandhadtobe thrownaway.TheremainingweresoldatRs.12each.Findthegainorlosspercent.",
+    "question": "A shopkeeper buys 300 bulbs at ₹10 each. Twenty are fused and discarded; the rest are sold at ₹12 each. Find the gain or loss percentage.",
     "options": [
-      "10%gain",
-      "10%loss",
-      "12%loss",
-      "12%gain -7-‘"
+      "10% gain",
+      "10% loss",
+      "12% loss",
+      "12% gain"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Cost is 300×₹10=₹3,000. Sale proceeds are 280×₹12=₹3,360, a ₹360 gain or 12%.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q65",
@@ -47224,21 +47432,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Findthevalueofmsothat(-3)\"*'x(-3)°=(-3)’-",
+    "question": "Find m if (−3)^(m+1) × (−3)^5 = (−3)^7.",
     "options": [
-      "-1",
+      "−1",
       "1",
       "13",
-      "-13"
+      "−13"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Add exponents: (m+1)+5=7, giving m=1.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q66",
@@ -47249,21 +47458,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatpercentof2.5litreis125mL?",
+    "question": "What percent of 2.5 litres is 125 mL?",
     "options": [
       "10%",
       "8%",
       "6%",
       "5%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "2.5 L=2,500 mL; 125/2,500=0.05=5%.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q67",
@@ -47274,24 +47484,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "If40%ofthestudentsinaschoolareboysandthenumberofgirlsintheschoolis540.Howmany boysarethereintheschool?",
+    "question": "If 40% of a school’s students are boys and there are 540 girls, how many boys are there?",
     "options": [
       "360",
       "390",
       "420",
       "460"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Girls are 60% of the school, so total enrollment is 540/0.6=900 and boys are 40%×900=360.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q68",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Two numbers are in the ratio 8:3 and sum to 143. Find their difference.",
+    "options": [
+      "39",
+      "47",
+      "65",
+      "104"
+    ],
+    "answerIndex": 2,
+    "explanation": "The ratio has 11 parts, each 143/11=13. Difference is (8−3)×13=65.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q69",
@@ -47302,21 +47536,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Abicyclewheelmakes5000revolutionsinmoving11km.Thediameterofthewheelis—",
+    "question": "A bicycle wheel makes 5,000 revolutions over 11 km. Find its diameter.",
     "options": [
-      "35cm",
-      "49cm",
-      "55cm",
-      "70cm"
+      "35 cm",
+      "49 cm",
+      "55 cm",
+      "70 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "One revolution covers 11,000/5,000=2.2 m. Diameter=2.2/π≈0.70 m=70 cm.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q70",
@@ -47327,21 +47562,74 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Atrainisronningataspeedof72kin/hrpassesapoleintheplatformin17seconds. Thelengthofthetrainis—",
+    "question": "A train travelling at 72 km/h passes a pole in 17 seconds. Find the train’s length.",
     "options": [
-      "340m",
-      "430m",
-      "440m",
-      "360m"
+      "340 m",
+      "430 m",
+      "440 m",
+      "360 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "72 km/h=20 m/s. In 17 seconds the train travels 20×17=340 m.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q71",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Convert 1 m/s to km/h.",
+    "options": [
+      "5/18 km/h",
+      "18/5 km/h",
+      "3/50 km/h",
+      "50/3 km/h"
+    ],
+    "answerIndex": 1,
+    "explanation": "Convert metres per second to kilometres per hour by multiplying by 18/5.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q72",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "A can finish a job in 12 days and B in 15 days. They work together for 3 days, then A leaves. What fraction of the work remains?",
+    "options": [
+      "7/20",
+      "11/20",
+      "9/20",
+      "3/20"
+    ],
+    "answerIndex": 1,
+    "explanation": "In three days they complete 3(1/12+1/15)=9/20; the remaining work is 11/20.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q73",
@@ -47352,21 +47640,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Ifx=3isoneoftherootsoftheequationkc?+2x—3=0,thenthevalueofkis- -1i",
+    "question": "If x=3 is one root of kx²+2x−3=0, find k.",
     "options": [
-      "z",
-      "3",
-      "-3",
-      "3 $l"
+      "−1/3",
+      "1/3",
+      "−3",
+      "3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Substitute x=3: 9k+6−3=0, so 9k=−3 and k=−1/3.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q74",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "If 27^x = 81/3^x, find x.",
+    "options": [
+      "−3",
+      "3",
+      "−1",
+      "1"
+    ],
+    "answerIndex": 3,
+    "explanation": "Write both sides in base 3: 3^(3x)=3^(4−x), hence 4x=4 and x=1.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q75",
@@ -47377,21 +47692,47 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Thelengthofthecuboidisdoubleitsbreadth.Itsheightis3mandtheareaofitsfourwallsis108m7. Findthelengthofthecuboid.",
+    "question": "A cuboid has length twice its breadth, height 3 m and four-wall area 108 m². Find its length.",
     "options": [
-      "14m",
-      "12m",
-      "8m",
-      "6m"
+      "14 m",
+      "12 m",
+      "8 m",
+      "6 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "The four-wall area is 2h(l+b)=108; with h=3, l+b=18. Since l=2b, b=6 and l=12 m.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q76",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "A roller has radius 42 cm and length 120 cm. How many revolutions are needed to cover a 7,920 m road?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "One roller revolution advances by its circumference, 2π×0.42≈2.64 m. Covering 7,920 m therefore takes 3,000 revolutions, but none of the four printed options (20, 25, 30, 35) matches.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q77",
@@ -47402,21 +47743,74 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Themeanof50numberswasfoundtobe45.Lateron,itwasdetectedthatanumber26was misreadas76.Findthecorrectmeanofthegivennumbers.",
+    "question": "The mean of 50 numbers was calculated as 45 after 26 was misread as 76. Find the correct mean.",
     "options": [
       "44",
       "46",
       "48",
       "50"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The mistaken total was 50×45=2,250. Correcting 76 to 26 subtracts 50, giving 2,200/50=44.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q78",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "If 4/3, x and 4 are in arithmetic progression, find x.",
+    "options": [
+      "11/3",
+      "10/3",
+      "8/3",
+      "4/3"
+    ],
+    "answerIndex": 2,
+    "explanation": "In an arithmetic progression the middle term is the average of the endpoints: x=(4/3+4)/2=8/3.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q79",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Simplify (x²−4)/(x²+x−6).",
+    "options": [
+      "(x+2)/(x+3)",
+      "(x−2)/(x+3)",
+      "(x+2)/(x−2)",
+      "(x+3)/(x−2)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Factor numerator and denominator: (x−2)(x+2)/[(x+3)(x−2)]=(x+2)/(x+3), for values where the original denominator is nonzero.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q80",
@@ -47427,21 +47821,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "The10\"termfromtheendoftheA.P.17,14,11,...-40is—",
+    "question": "Find the 10th term from the end of the arithmetic progression 17, 14, 11, …, −40.",
     "options": [
       "13",
-      "-13",
+      "−13",
       "10",
-      "-10"
+      "−10"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The sequence decreases by 3. The 10th term from the end is −40+9×3=−13.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q81",
@@ -47452,21 +47847,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Inacollege,thereare54girlswhohavecar.Iftheseconstituteonefifthofthegirlsandthetotal numberofgirlsistwo-fifthofthetotalnumberofstudentsinthecollege,whatisthenumberofboys inthecollege?",
+    "question": "There are 54 girls with cars, which is one-fifth of all girls. Girls are two-fifths of all students. How many boys are in the college?",
     "options": [
       "420",
       "410",
       "415",
       "405"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "There are 54×5=270 girls. This is 2/5 of 675 students, leaving 405 boys.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q82",
@@ -47477,21 +47873,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "RoseisnowaquarterasoldashermotherMary.Fouryearshence,Marywillbethreetimesasold asherdaughter.TheageofMaryinyearsis-",
+    "question": "Rose is now one-quarter as old as her mother Mary. In four years, Mary will be three times Rose’s age. How old is Mary now?",
     "options": [
       "32",
       "34",
       "36",
       "38"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Let Rose be r and Mary 4r. Four years later, 4r+4=3(r+4), so r=8 and Mary is 32.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q83",
@@ -47502,21 +47899,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TherearefourfriendsKima,Rema,MalaandDika.Inanexamination,thesumoftheirmarksis450. Mala’smarksareequaltothetwicethesumofRemaandDika’smarks.Kima’smarksareequalto Mala’smarks.Thepersonwhogets95marksandabovewillgotothenextlevelexamination.Who arethepeoplewhogotothenextlevelexamination?",
+    "question": "Kima, Rema, Mala and Dika score 450 in total. Mala scores twice Rema and Dika’s combined marks; Kima scores the same as Mala. Those with at least 95 advance. Who advances?",
     "options": [
-      "KimaandMala",
-      "MalaandRema",
-      "RemaandDika",
-      "DikaandMala"
+      "Kima and Mala",
+      "Mala and Rema",
+      "Rema and Dika",
+      "Dika and Mala"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Let R+D=s. Mala=2s and Kima=2s, so 5s=450 and each of Kima and Mala scores 180. They are the two above 95.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q84",
@@ -47527,22 +47925,25 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TodayisJohn’sbirthday.Oneyear,fromtodayhewillbetwiceasoldashewas12yearsago.How oldisJohntoday?",
+    "question": "Today is John’s birthday. One year from today he will be twice as old as he was 12 years ago. How old is John today?",
     "options": [
-      "20years",
-      "22years",
-      "25years",
-      "27years"
+      "20 years",
+      "22 years",
+      "25 years",
+      "27 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "If John is x, then x+1=2(x−12), giving x=25.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  }
+];
+const groupBQuestionsPart7: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q85",
     "paperId": "mpsc-group-b-si-excise-2024-p2",
@@ -47552,21 +47953,48 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TwobusticketsfromAizawltoSerchhipandthreeticketsfromAizawltoSiahacostRs.77butthree ticketsfromAizawltoSerchhipandtwoticketsfromAizawltoSiahacostRs.73.Whatarethefares forSerchhipandSiahafromAizawl?",
+    "question": "Two Aizawl–Serchhip tickets and three Aizawl–Siaha tickets cost ₹77. Three Serchhip and two Siaha tickets cost ₹73. What are the two fares, respectively?",
     "options": [
-      "Rs.4andRs.23",
-      "Rs.13andRs.17",
-      "Rs.15andRs.14",
-      "Rs.17andRs.13"
+      "₹4 and ₹23",
+      "₹13 and ₹17",
+      "₹15 and ₹14",
+      "₹17 and ₹13"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Solving 2s+3t=77 and 3s+2t=73 gives Serchhip s=13 and Siaha t=17.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q86",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Choose the alternative resembling the mirror image of the printed combination TARAIN1014A. [See source figure.]",
+    "options": [
+      "Figure option 1",
+      "Figure option 2",
+      "Figure option 3",
+      "Figure option 4"
+    ],
+    "answerIndex": -1,
+    "explanation": "The mirror-image lettering and four answer strings are visibly degraded in the scan. Keep unscored until the figures can be read reliably.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=9",
+    "imagePath": "/question-images/group-b/si-excise-2024-p2-q086.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q87",
@@ -47577,21 +48005,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Findtheoddgroupoflettersfromthegivenalternatives,",
+    "question": "Find the odd group of letters.",
     "options": [
       "EFRT",
       "LMTV",
       "HILM",
       "STWY"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "EFRT, LMTV and STWY each have a consecutive first pair and a final pair with one letter between; HILM has two consecutive pairs, making it the odd group.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q88",
@@ -47602,21 +48031,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Fromtheoptionsgivenbelow,selecttheonethatisdifferentfromtheotherthreeseriesofnumbers.",
+    "question": "Which number triple differs from the other three?",
     "options": [
-      "2,4,72",
-      "1,2,9",
-      "5,3,152",
-      "3,4,98"
+      "2, 4, 72",
+      "1, 2, 9",
+      "5, 3, 152",
+      "3, 4, 98"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The first three triples have third number equal to the sum of the cubes of the first two: 2³+4³=72, 1³+2³=9, 5³+3³=152. For 3 and 4 the sum is 91, not 98.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q89",
@@ -47627,21 +48057,74 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatisthenextnumberinthissequenceof1,3,8,19,42,89,?",
+    "question": "Find the next number: 1, 3, 8, 19, 42, 89, ?",
     "options": [
       "108",
       "184",
       "104",
       "97"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The successive differences are 2, 5, 11, 23, 47; each is twice the previous difference plus 1. The next difference is 95, so the next term is 184.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q90",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Some blankets are beds. Some pillows are blankets. All beds are pillows. Which conclusions follow? I. Some blankets are pillows. II. Some pillows are beds. III. Some beds are blankets.",
+    "options": [
+      "None follow",
+      "All I, II and III follow",
+      "Only I and III follow",
+      "Only I and II follow"
+    ],
+    "answerIndex": 1,
+    "explanation": "Some blankets are beds and all beds are pillows, so those blankets are pillows and those pillows are beds. Therefore I, II and III all follow.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q91",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Select the figure that replaces the question mark in the printed problem-figure sequence. [See source figure.]",
+    "options": [
+      "Answer figure 1",
+      "Answer figure 2",
+      "Answer figure 3",
+      "Answer figure 4"
+    ],
+    "answerIndex": -1,
+    "explanation": "The problem and answer figures are shown, but the intended transformation rule is not sufficiently unambiguous to key confidently from this scan.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=9",
+    "imagePath": "/question-images/group-b/si-excise-2024-p2-q091.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q92",
@@ -47652,21 +48135,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "AcollegeinLungleiwantstoholdanessaycompetitionhighlightingtheneedforwomenempowerment inMizosociety,Whichofthefollowingtopicsseemmostsuitableforthecompetition?",
+    "question": "A college in Lunglei plans an essay competition on women’s empowerment in Mizo society. Which topic is most suitable?",
     "options": [
-      "DaughtersofMizoram:TheSilentFightforRights",
-      "ModernMizoSociety:CrimeandWomen",
-      "FromKitchentoRashtrapatiBhawan:MothersofIndia",
-      "RoleofWomen:FamilyandSociety"
+      "Daughters of Mizoram: The Silent Fight for Rights",
+      "Modern Mizo Society: Crime and Women",
+      "From Kitchen to Rashtrapati Bhawan: Mothers of India",
+      "Role of Women: Family and Society"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The title directly foregrounds the rights struggle of Mizo daughters and best fits an essay about women’s empowerment in Mizo society.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q93",
@@ -47677,21 +48161,47 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Rama’smotheristheonlydaughterofMami’sfather.HowisMami’shusbandrelatedtoRama?",
+    "question": "Rama’s mother is the only daughter of Mami’s father. How is Mami’s husband related to Rama?",
     "options": [
       "Uncle",
       "Father",
       "Brother",
       "Grandfather"
     ],
+    "answerIndex": 1,
+    "explanation": "Mami is the only daughter of her father, so Rama’s mother is Mami; Mami’s husband is Rama’s father.",
+    "source": "Sub-Inspector of Excise & Narcotics · August 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2024-p2-Q94",
+    "paperId": "mpsc-group-b-si-excise-2024-p2",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "A is the son of B and C. B’s sister has a son D and a daughter E. F is D’s maternal uncle. How many nephews does F have?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The stem identifies F only as D’s maternal uncle. It does not state whether F is also B’s brother, so it does not establish whether A is another nephew of F. The number of nephews is therefore underdetermined.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "The official key conflicts with the grammar of the printed conditional; held out from scoring pending clarification."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q95",
@@ -47702,21 +48212,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Arrangethewordsgivenbelowinameaningfulsequence. iPresentationiiRecommendation iii,Arrivaliv.Discussion v,Introduction",
+    "question": "Arrange the stages in a meaningful sequence: (i) Presentation (ii) Recommendation (iii) Arrival (iv) Discussion (v) Introduction.",
     "options": [
-      "iii,v,i,iv,ii",
-      "iti,iv,i,vii",
-      "vi,iii,ii,iv",
-      "ii,tii,i,v,iv"
+      "iii, v, i, iv, ii",
+      "iii, iv, i, v, ii",
+      "v, i, iii, ii, iv",
+      "ii, iii, i, v, iv"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The natural order is Arrival, Introduction, Presentation, Discussion, Recommendation: iii, v, i, iv, ii.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q96",
@@ -47727,21 +48238,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Sequence:4096,1024,256,,16,4,1 Thenumberoptiontocompletethesequencecorrectlyis-",
+    "question": "Complete the sequence: 4096, 1024, 256, __, 16, 4, 1.",
     "options": [
       "68",
       "66",
       "62",
       "64"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Each term is one-quarter of the preceding term, so the missing number is 256/4=64.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q97",
@@ -47752,21 +48264,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatamongthegivenshouldreplacethequestionmark? TOK:SNJ::LIP:?",
+    "question": "Complete the analogy: TOK : SNJ :: LIP : ?",
     "options": [
       "KJO",
       "MJQ",
       "MHQ",
       "KHO"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Each letter shifts back one place: T→S, O→N, K→J. Applying that shift to LIP gives KHO.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q98",
@@ -47777,21 +48290,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Whatamongthegivenshouldreplacethequestionmark? Square:Rectangle::Circle:?",
+    "question": "Complete the analogy: Square : Rectangle :: Circle : ?",
     "options": [
       "Sphere",
       "Cylinder",
       "Triangle",
       "Ellipse"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A circle is a special kind of ellipse, just as a square is a special kind of rectangle.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q99",
@@ -47802,21 +48316,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "InacertaincodelanguageROSEiscodedas6821,CHAIRiscodedas73456andPREACHis codedas961473,whatwillbethecodeforHOARSE?",
+    "question": "In a code, ROSE=6821, CHAIR=73456 and PREACH=961473. What is HOARSE?",
     "options": [
       "394821",
       "384612",
       "384621",
       "394812"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The code maps H=3, O=8, A=4, R=6, S=2 and E=1, so HOARSE=384621.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2024-p2-Q100",
@@ -47827,24 +48342,22 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "TodayisMonday.After61days,itwillbe-",
+    "question": "Today is Monday. What day will it be after 61 days?",
     "options": [
       "Saturday",
       "Thursday",
       "Wednesday",
-      "Tuesday eeRKKK"
+      "Tuesday"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "61 days is 8 weeks and 5 days. Five days after Monday is Saturday.",
     "source": "Sub-Inspector of Excise & Narcotics · August 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/si-excise-2024-p2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B1",
@@ -47875,9 +48388,7 @@ const groupBQuestionsPart6: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 1–5): Identify the underlined words in each of the following. Underlined word: “Wow”"
-  }
-];
-const groupBQuestionsPart7: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B2",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -55359,7 +55870,9 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart8: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q89",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -55809,9 +56322,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 1-10): Identify the correct parts of speech."
-  }
-];
-const groupBQuestionsPart8: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B5",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -63465,7 +63976,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct pair of words to form meaningful sentences:"
-  },
+  }
+];
+const groupBQuestionsPart9: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p1-A28",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -63924,9 +64437,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 41 - 50): Choose the correct answer:"
-  }
-];
-const groupBQuestionsPart9: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p1-A45",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -71988,7 +72499,9 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
     "direction": "Direction (Question Nos. 1 – 10): Identify the parts of speech in the underlined word."
-  },
+  }
+];
+const groupBQuestionsPart10: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p1-B9",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -72522,9 +73035,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/si-police-2026-final-key.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 21 - 30) : Four options/responses have been given for each sentence.  Choose"
-  }
-];
-const groupBQuestionsPart10: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B26",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -80511,7 +81022,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B74",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart11: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q75",
     "questionNumber": "B75",
@@ -80957,9 +81470,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B91",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart11: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q92",
     "questionNumber": "B92",
@@ -88349,7 +88860,9 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A48",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart12: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A49",
     "questionNumber": "A49",
@@ -88811,9 +89324,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B65",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart12: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-B66",
     "questionNumber": "B66",
@@ -94196,6 +94707,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-si-excise-2024-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-si-excise-2025-p1": {
     "marksPerQuestion": 2,
     "durationMinutes": 180,
@@ -94348,6 +94865,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-steno-2025-english": 75,
   "mpsc-group-b-steno-2025-gk": 100,
   "mpsc-group-b-steno2-2025-p1": 40,
+  "mpsc-group-b-si-excise-2024-p2": 100,
   "mpsc-group-b-si-excise-2025-p1": 30,
   "mpsc-group-b-si-excise-2025-p2": 100,
   "mpsc-group-b-si-fcs-2025-p1": 60,
